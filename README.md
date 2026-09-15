@@ -1,48 +1,67 @@
-# TÀNG THƯ OPDS — v0.4
+# TÀNG THƯ OPDS — v1.0
 
-A small Go-based OPDS file catalog for books and documents.
+A small Go-based OPDS catalog and acquisition gateway for books and documents.
 
-TÀNG THƯ is deliberately **file-first**: it catalogs files and their basic properties rather than trying to become an ebook metadata-management system.
+TÀNG THƯ is deliberately **file-first**: it indexes filenames and basic file properties instead of becoming an ebook metadata manager.
 
-## Current v0.4 implementation
+## v1.0
 
-- Shared Google Drive folders as the initial storage backend
-- Google Drive folder URL/ID validation
-- Registration flow:
-  - validate the folder
-  - retrieve the real Google Drive folder name
-  - choose an independent TÀNG THƯ Branch name
+- Shared Google Drive folders as storage
+- Branch registration and independent Branch naming
 - Duplicate root-folder detection
-- Recursive Google Drive scanning
-- Complete folder hierarchy preserved in a lightweight JSON index
-- Filename, MIME, size, modified time, and Drive MD5 checksum
-- Persistent catalog
-- Manual Branch refresh
-- Automatic refresh approximately every hour
+- Recursive Drive scan
+- Persistent JSON index
+- Complete folder hierarchy in Web and OPDS
+- Filename and checksum search
+- OPDS OpenSearch endpoint
+- Real server-mediated OPDS acquisition
+- HTTP Range forwarding for reading clients
+- Website is catalog-only; it does not expose downloads
 - Branch hide/restore
-- `online` / `hidden` / `unavailable` states
+- `online`, `hidden`, `unavailable` states
 - Exact uppercase `VN` Branch priority
-- Windows 3.x-inspired Web catalog
-- OPDS root -> Branch -> folders/files
-- Website does not expose file downloads
-- OPDS acquisition URLs are reserved for the server-mediated acquisition step
-- Admin endpoints protected by HTTP Basic Authentication
+- Windows 3.x-inspired Web UI
+- HTTP Basic Authentication for administration
+- Hourly automatic refresh
+- Storage Identity Isolation: Drive identifiers and credentials remain server-side
 
-## What v0.4 does not do yet
+## Acquisition
 
-- Real OPDS acquisition/file streaming
-- Search
-- OAuth/private Google Drive
-- EPUB/OPF metadata extraction
-- Cover extraction
-- Database storage
-- Rate limiting / production abuse protection
+The public acquisition path is:
 
-## Google Drive requirement
+```text
+Reading app
+    ↓
+TÀNG THƯ /opds/acquire/<branch-id>/<file-id>
+    ↓
+TÀNG THƯ server
+    ↓
+Google Drive API
+    ↓
+stream
+    ↓
+Reading app
+```
 
-The current adapter uses the Google Drive API with an API key for publicly shared folders. Google documents this flow for folders shared as "Anyone with the link" / public access. Shared-drive folders require the corresponding shared-drive parameters. See the Google Drive API documentation.
+TÀNG THƯ never redirects the reader to a Google Drive `webContentLink`.
 
-Do **not** put the API key in the repository.
+The acquisition handler first checks that the requested file exists in the selected online Branch's local index. The Google Drive file ID is then used only internally to stream the object.
+
+## Search
+
+Web:
+
+```text
+/search?q=...
+```
+
+OPDS:
+
+```text
+/opds/search?q=...
+```
+
+The search is performed against the persistent local index. A query matches either filename or Drive MD5 checksum.
 
 ## Configuration
 
@@ -58,9 +77,12 @@ Optional:
 ```text
 TANGTHU_ADMIN_USER=admin
 TANGTHU_DATA_FILE=data/catalog.json
+TANGTHU_LISTEN=127.0.0.1:8080
 ```
 
-Run:
+Never commit the API key or admin password.
+
+## Run
 
 ```sh
 go test ./...
@@ -68,47 +90,38 @@ go build -o tangthu-opds ./cmd/tangthu
 ./tangthu-opds
 ```
 
-The server listens on:
+Default listen address:
 
 ```text
 http://127.0.0.1:8080
 ```
 
-## Data model
-
-The persistent catalog is intentionally simple:
+## Data
 
 ```text
 data/catalog.json
 ```
 
-Google Drive remains the source of truth for files. The JSON file is a catalog/index cache, not a replacement storage system.
+Google Drive remains the source of truth. The JSON file is an index/cache, not a storage replacement.
 
 ## Architecture
 
 ```text
-Google Drive
-     |
-     v
+Google Drive shared folders
+          ↓
 Google Drive adapter
-     |
-     v
+          ↓
 Recursive scanner
-     |
-     v
-Lightweight JSON index
-     |
-     +---- Web catalog
-     |
-     +---- OPDS catalog
-     |
-     +---- future acquisition gateway
+          ↓
+Persistent lightweight index
+          ├── Web catalog/search
+          └── OPDS catalog/search
+                    ↓
+             acquisition gateway
+                    ↓
+             Google Drive stream
 ```
 
-## License
+The MVP intentionally does not require EPUB/OPF parsing, Calibre, OAuth/private Drive, OneDrive, Dropbox, S3, WebDAV, branch daemons, reverse tunnels, or a separate metadata database.
 
-This prototype contains an MIT license notice because the implementation is based on an MIT-licensed Mayberry codebase where applicable. See `LICENSE`.
-
-## Design
-
-See [`TANGTHU_DESIGN.md`](TANGTHU_DESIGN.md) for the living architecture and locked MVP decisions.
+See `TANGTHU_DESIGN.md` for the locked architecture and `V1.0_IMPLEMENTATION.md` for the v1.0 completion record.
