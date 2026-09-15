@@ -1,4 +1,4 @@
-# TÀNG THƯ OPDS — prototype v0.2
+# TÀNG THƯ OPDS — prototype v0.3.0
 
 A lightweight OPDS catalog prototype following the current Tàng Thư design.
 
