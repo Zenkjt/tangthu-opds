@@ -30,7 +30,6 @@ type Client struct {
 	apiKey string
 	http   *http.Client
 }
-
 type listResponse struct {
 	NextPageToken string `json:"nextPageToken"`
 	Files         []File `json:"files"`
@@ -62,13 +61,9 @@ func (c *Client) get(ctx context.Context, endpoint string, params url.Values, ds
 	}
 	return json.NewDecoder(resp.Body).Decode(dst)
 }
-
 func (c *Client) GetFolder(ctx context.Context, id string) (File, error) {
 	var f File
-	err := c.get(ctx, "/files/"+url.PathEscape(id), url.Values{
-		"fields":            {"id,name,mimeType"},
-		"supportsAllDrives": {"true"},
-	}, &f)
+	err := c.get(ctx, "/files/"+url.PathEscape(id), url.Values{"fields": {"id,name,mimeType"}, "supportsAllDrives": {"true"}}, &f)
 	if err != nil {
 		return File{}, err
 	}
@@ -77,19 +72,15 @@ func (c *Client) GetFolder(ctx context.Context, id string) (File, error) {
 	}
 	return f, nil
 }
-
 func (c *Client) ListChildren(ctx context.Context, parentID string) ([]File, error) {
 	var all []File
 	var token string
 	for {
 		q := fmt.Sprintf("'%s' in parents and trashed = false", escapeQuery(parentID))
 		params := url.Values{
-			"q":                         {q},
-			"pageSize":                  {"1000"},
-			"orderBy":                   {"folder,name"},
-			"fields":                    {"nextPageToken,files(id,name,mimeType,size,modifiedTime,md5Checksum)"},
-			"supportsAllDrives":         {"true"},
-			"includeItemsFromAllDrives": {"true"},
+			"q": {q}, "pageSize": {"1000"}, "orderBy": {"folder,name"},
+			"fields":            {"nextPageToken,files(id,name,mimeType,size,modifiedTime,md5Checksum)"},
+			"supportsAllDrives": {"true"}, "includeItemsFromAllDrives": {"true"},
 		}
 		if token != "" {
 			params.Set("pageToken", token)
@@ -105,7 +96,6 @@ func (c *Client) ListChildren(ctx context.Context, parentID string) ([]File, err
 		token = page.NextPageToken
 	}
 }
-
 func (c *Client) Scan(ctx context.Context, rootID string) ([]File, error) {
 	if _, err := c.GetFolder(ctx, rootID); err != nil {
 		return nil, err
@@ -134,8 +124,29 @@ func (c *Client) Scan(ctx context.Context, rootID string) ([]File, error) {
 	return out, nil
 }
 
-func escapeQuery(s string) string {
-	return strings.ReplaceAll(s, "'", "\\'")
+func (c *Client) Open(ctx context.Context, fileID, rangeHeader string) (*http.Response, error) {
+	params := url.Values{"alt": {"media"}}
+	params.Set("key", c.apiKey)
+	u := apiBase + "/files/" + url.PathEscape(fileID) + "?" + params.Encode()
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, u, nil)
+	if err != nil {
+		return nil, err
+	}
+	req.Header.Set("Accept", "*/*")
+	if rangeHeader != "" {
+		req.Header.Set("Range", rangeHeader)
+	}
+	resp, err := c.http.Do(req)
+	if err != nil {
+		return nil, err
+	}
+	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
+		body, _ := io.ReadAll(io.LimitReader(resp.Body, 4096))
+		resp.Body.Close()
+		return nil, fmt.Errorf("Google Drive download returned %s: %s", resp.Status, strings.TrimSpace(string(body)))
+	}
+	return resp, nil
 }
 
-func IsFolder(f File) bool { return f.MIMEType == folderMIME }
+func escapeQuery(s string) string { return strings.ReplaceAll(s, "'", "\\'") }
+func IsFolder(f File) bool        { return f.MIMEType == folderMIME }
