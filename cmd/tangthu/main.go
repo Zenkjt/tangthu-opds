@@ -7,13 +7,15 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"html"
 	"html/template"
+	"io"
 	"log"
 	"net/http"
+	"net/url"
 	"os"
 	"path"
 	"sort"
+	"strconv"
 	"strings"
 	"sync"
 	"time"
@@ -39,7 +41,6 @@ type FileEntry struct {
 	Checksum string `json:"checksum,omitempty"`
 	IsFolder bool   `json:"is_folder"`
 }
-
 type Branch struct {
 	ID              string       `json:"id"`
 	DisplayName     string       `json:"display_name"`
@@ -50,30 +51,25 @@ type Branch struct {
 	Error           string       `json:"error,omitempty"`
 	Files           []FileEntry  `json:"files"`
 }
-
 type Catalog struct {
 	mu       sync.RWMutex
 	Branches []Branch
 }
-
 type persistedCatalog struct {
 	Branches []Branch `json:"branches"`
 }
 
 func vnPriority(s string) bool { return strings.HasPrefix(s, "VN") }
-
 func branchLess(a, b Branch) bool {
-	av, bv := vnPriority(a.DisplayName), vnPriority(b.DisplayName)
-	if av != bv {
-		return av
+	if vnPriority(a.DisplayName) != vnPriority(b.DisplayName) {
+		return vnPriority(a.DisplayName)
 	}
 	return strings.ToLower(a.DisplayName) < strings.ToLower(b.DisplayName)
 }
-
 func (c *Catalog) PublicBranches() []Branch {
 	c.mu.RLock()
 	defer c.mu.RUnlock()
-	var out []Branch
+	out := []Branch{}
 	for _, b := range c.Branches {
 		if b.Status == StatusOnline {
 			out = append(out, b)
@@ -82,7 +78,6 @@ func (c *Catalog) PublicBranches() []Branch {
 	sort.SliceStable(out, func(i, j int) bool { return branchLess(out[i], out[j]) })
 	return out
 }
-
 func (c *Catalog) AdminBranches() []Branch {
 	c.mu.RLock()
 	defer c.mu.RUnlock()
@@ -90,23 +85,26 @@ func (c *Catalog) AdminBranches() []Branch {
 	sort.SliceStable(out, func(i, j int) bool { return branchLess(out[i], out[j]) })
 	return out
 }
-
-func (c *Catalog) save(filename string) error {
+func (c *Catalog) save(file string) error {
 	c.mu.RLock()
-	data, err := json.MarshalIndent(persistedCatalog{Branches: c.Branches}, "", "  ")
+	data, err := json.MarshalIndent(persistedCatalog{c.Branches}, "", "  ")
 	c.mu.RUnlock()
 	if err != nil {
 		return err
 	}
-	tmp := filename + ".tmp"
+	if d := path.Dir(file); d != "." {
+		if err := os.MkdirAll(d, 0700); err != nil {
+			return err
+		}
+	}
+	tmp := file + ".tmp"
 	if err := os.WriteFile(tmp, data, 0600); err != nil {
 		return err
 	}
-	return os.Rename(tmp, filename)
+	return os.Rename(tmp, file)
 }
-
-func loadCatalog(filename string) (*Catalog, error) {
-	data, err := os.ReadFile(filename)
+func loadCatalog(file string) (*Catalog, error) {
+	data, err := os.ReadFile(file)
 	if errors.Is(err, os.ErrNotExist) {
 		return &Catalog{}, nil
 	}
@@ -119,7 +117,6 @@ func loadCatalog(filename string) (*Catalog, error) {
 	}
 	return &Catalog{Branches: p.Branches}, nil
 }
-
 func (c *Catalog) find(id string) (Branch, bool) {
 	c.mu.RLock()
 	defer c.mu.RUnlock()
@@ -130,59 +127,51 @@ func (c *Catalog) find(id string) (Branch, bool) {
 	}
 	return Branch{}, false
 }
-
-func (c *Catalog) rootAlreadyRegistered(rootID string) (Branch, bool) {
+func (c *Catalog) rootAlreadyRegistered(id string) (Branch, bool) {
 	c.mu.RLock()
 	defer c.mu.RUnlock()
 	for _, b := range c.Branches {
-		if b.RootFolderID == rootID {
+		if b.RootFolderID == id {
 			return b, true
 		}
 	}
 	return Branch{}, false
 }
-
-func (c *Catalog) addOrUpdate(b Branch) {
-	c.mu.Lock()
-	defer c.mu.Unlock()
-	for i := range c.Branches {
-		if c.Branches[i].ID == b.ID {
-			c.Branches[i] = b
-			return
-		}
-	}
-	c.Branches = append(c.Branches, b)
-}
-
-func (c *Catalog) toggle(id string) {
+func (c *Catalog) add(b Branch) { c.mu.Lock(); defer c.mu.Unlock(); c.Branches = append(c.Branches, b) }
+func (c *Catalog) toggle(id string) bool {
 	c.mu.Lock()
 	defer c.mu.Unlock()
 	for i := range c.Branches {
 		if c.Branches[i].ID != id {
 			continue
 		}
-		switch c.Branches[i].Status {
-		case StatusHidden:
+		if c.Branches[i].Status == StatusOnline {
+			c.Branches[i].Status = StatusHidden
+		} else if c.Branches[i].Status == StatusHidden {
 			c.Branches[i].Status = StatusOnline
 			c.Branches[i].Error = ""
-		case StatusOnline:
-			c.Branches[i].Status = StatusHidden
+		} else {
+			return false
 		}
+		return true
 	}
+	return false
 }
-
 func (c *Catalog) rename(id, name string) bool {
+	name = strings.TrimSpace(name)
+	if name == "" {
+		return false
+	}
 	c.mu.Lock()
 	defer c.mu.Unlock()
 	for i := range c.Branches {
 		if c.Branches[i].ID == id {
-			c.Branches[i].DisplayName = strings.TrimSpace(name)
+			c.Branches[i].DisplayName = name
 			return true
 		}
 	}
 	return false
 }
-
 func (c *Catalog) setScan(id string, files []FileEntry, err error) {
 	c.mu.Lock()
 	defer c.mu.Unlock()
@@ -209,7 +198,6 @@ func makeID() (string, error) {
 	}
 	return hex.EncodeToString(b[:]), nil
 }
-
 func extractFolderID(raw string) string {
 	raw = strings.TrimSpace(raw)
 	if raw == "" {
@@ -218,454 +206,467 @@ func extractFolderID(raw string) string {
 	if !strings.Contains(raw, "://") && !strings.Contains(raw, "/") {
 		return raw
 	}
-	parts := strings.Split(strings.TrimRight(raw, "/"), "/")
-	for i, p := range parts {
-		if p == "folders" && i+1 < len(parts) {
-			return strings.Split(parts[i+1], "?")[0]
+	p := strings.Split(strings.TrimRight(raw, "/"), "/")
+	for i, v := range p {
+		if v == "folders" && i+1 < len(p) {
+			return strings.Split(p[i+1], "?")[0]
 		}
 	}
 	return ""
 }
-
-func convertFiles(files []drive.File) []FileEntry {
-	out := make([]FileEntry, 0, len(files))
-	for _, f := range files {
-		out = append(out, FileEntry{
-			ID: f.ID, ParentID: f.ParentID, Name: f.Name, MIME: f.MIMEType,
-			Size: f.Size, Modified: f.ModifiedTime, Checksum: f.MD5Checksum,
-			IsFolder: drive.IsFolder(f),
-		})
+func convertFiles(in []drive.File) []FileEntry {
+	out := make([]FileEntry, 0, len(in))
+	for _, f := range in {
+		out = append(out, FileEntry{f.ID, f.ParentID, f.Name, f.MIMEType, f.Size, f.ModifiedTime, f.MD5Checksum, drive.IsFolder(f)})
 	}
 	return out
 }
 
 type app struct {
-	cat       *Catalog
-	drive     *drive.Client
-	dataFile  string
-	adminUser string
-	adminPass string
+	cat                            *Catalog
+	drive                          *drive.Client
+	dataFile, adminUser, adminPass string
 }
 
-func (a *app) scanBranch(ctx context.Context, id string) error {
+func (a *app) scan(ctx context.Context, id string) error {
 	b, ok := a.cat.find(id)
 	if !ok {
 		return errors.New("branch not found")
 	}
-	files, err := a.drive.Scan(ctx, b.RootFolderID)
+	fs, err := a.drive.Scan(ctx, b.RootFolderID)
 	if err != nil {
 		a.cat.setScan(id, nil, err)
 		_ = a.cat.save(a.dataFile)
 		return err
 	}
-	entries := convertFiles(files)
-	a.cat.setScan(id, entries, nil)
+	a.cat.setScan(id, convertFiles(fs), nil)
 	return a.cat.save(a.dataFile)
 }
-
 func (a *app) refreshAll(ctx context.Context) {
 	for _, b := range a.cat.AdminBranches() {
-		if b.Status == StatusHidden {
-			continue
-		}
-		if err := a.scanBranch(ctx, b.ID); err != nil {
-			log.Printf("scan %s (%s): %v", b.DisplayName, b.ID, err)
+		if b.Status != StatusHidden {
+			if err := a.scan(ctx, b.ID); err != nil {
+				log.Printf("scan %s: %v", b.DisplayName, err)
+			}
 		}
 	}
 }
-
-func (a *app) adminAuth(w http.ResponseWriter, r *http.Request) bool {
+func (a *app) auth(w http.ResponseWriter, r *http.Request) bool {
 	if a.adminPass == "" {
-		http.Error(w, "Admin access is disabled: set TANGTHU_ADMIN_PASSWORD", http.StatusServiceUnavailable)
+		http.Error(w, "admin disabled", 503)
 		return false
 	}
-	user, pass, ok := r.BasicAuth()
-	if !ok || user != a.adminUser || pass != a.adminPass {
+	u, p, ok := r.BasicAuth()
+	if !ok || u != a.adminUser || p != a.adminPass {
 		w.Header().Set("WWW-Authenticate", `Basic realm="TANG THU Admin"`)
-		http.Error(w, "authentication required", http.StatusUnauthorized)
+		http.Error(w, "authentication required", 401)
 		return false
 	}
 	return true
 }
 
-var page = template.Must(template.New("page").Parse(`<!doctype html>
-<html><head><meta charset="utf-8"><title>TÀNG THƯ OPDS</title>
-<style>
-body{font-family:Tahoma,Arial,sans-serif;background:#c0c0c0;margin:24px;color:#111}
-.window{background:#ddd;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;max-width:1100px;margin:auto}
-.title{background:#000080;color:white;padding:5px 8px;font-weight:bold}.body{padding:16px}
-table{width:100%;border-collapse:collapse;background:#fff}th,td{border:1px solid #888;padding:6px;text-align:left}th{background:#ddd}
-input{font:inherit;padding:4px}button{font:inherit}a{color:#000080}.notice{background:#ffffcc;border:1px solid #888;padding:8px;margin:10px 0}
-.status-online{color:green}.status-hidden{color:#666}.status-unavailable{color:#a00}.muted{color:#555}
-</style></head><body><div class="window"><div class="title">TÀNG THƯ OPDS</div><div class="body">
-{{if .Admin}}
-<h2>Branches — Admin</h2>
-<div class="notice">Đây là vùng quản trị. Website công khai chỉ dùng để xem catalog; không có download.</div>
-<h3>Register Branch</h3>
-<form method="post" action="/admin/validate">
-<p>Google Drive shared folder URL or ID:<br><input name="url" size="80" required></p>
-<button>Validate Folder</button>
-</form>
-{{else}}
-<h2>Thư viện</h2>
-<div class="notice">Các thư viện có tên bắt đầu chính xác bằng <b>VN</b> được ưu tiên hiển thị trước.</div>
-{{end}}
-<table><tr><th>Tên</th><th>Trạng thái</th><th>Last scan</th>{{if .Admin}}<th>Action</th>{{end}}</tr>
-{{range .Branches}}<tr>
-<td>{{if not $.Admin}}<a href="/library/branch/{{.ID}}">{{.DisplayName}}</a>{{else}}{{.DisplayName}}<br><span class="muted">Drive: {{.DriveFolderName}}</span>{{end}}</td>
-<td class="status-{{.Status}}">{{.Status}}{{if .Error}} — {{.Error}}{{end}}</td><td>{{.LastScan}}</td>
-{{if $.Admin}}<td>
-<form method="post" action="/admin/toggle" style="display:inline"><input type="hidden" name="id" value="{{.ID}}"><button>{{if eq .Status "hidden"}}Restore{{else}}Hide{{end}}</button></form>
-<form method="post" action="/admin/rename" style="display:inline"><input type="hidden" name="id" value="{{.ID}}"><input name="name" value="{{.DisplayName}}" size="22"><button>Rename</button></form>
-<form method="post" action="/admin/refresh" style="display:inline"><input type="hidden" name="id" value="{{.ID}}"><button>Refresh</button></form>
-</td>{{end}}</tr>{{end}}</table>
-{{if not .Admin}}<p><a href="/opds">OPDS root</a></p>{{end}}
-</div></div></body></html>`))
-
-var branchPage = template.Must(template.New("branch").Parse(`<!doctype html>
-<html><head><meta charset="utf-8"><title>{{.Branch.DisplayName}} — TÀNG THƯ</title>
-<style>
-body{font-family:Tahoma,Arial,sans-serif;background:#c0c0c0;margin:24px;color:#111}
-.window{background:#ddd;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;max-width:1100px;margin:auto}
-.title{background:#000080;color:white;padding:5px 8px;font-weight:bold}.body{padding:16px}
-table{width:100%;border-collapse:collapse;background:#fff}th,td{border:1px solid #888;padding:6px;text-align:left}th{background:#ddd}
-a{color:#000080}.muted{color:#555}.notice{background:#ffffcc;border:1px solid #888;padding:8px;margin:10px 0}
-</style></head><body><div class="window"><div class="title">TÀNG THƯ OPDS — {{.Branch.DisplayName}}</div><div class="body">
-<p><a href="/library">← Thư viện</a> · <a href="/opds/branch/{{.Branch.ID}}">OPDS</a></p>
-<div class="notice">Website chỉ hiển thị catalog. Không cung cấp file download.</div>
-<table><tr><th>Name</th><th>Size</th><th>Modified</th><th>MIME</th><th>Checksum</th></tr>
-{{range .Rows}}<tr>
-<td>{{if .IsFolder}}📁 <a href="/library/branch/{{$.Branch.ID}}/folder/{{.ID}}">{{.Name}}</a>{{else}}📄 {{.Name}}{{end}}</td>
-<td>{{if .IsFolder}}—{{else}}{{.Size}}{{end}}</td>
-<td>{{.Modified}}</td><td>{{.MIME}}</td><td>{{.Checksum}}</td>
-</tr>{{end}}</table>
-</div></div></body></html>`))
-
-var validatePage = template.Must(template.New("validate").Parse(`<!doctype html>
-<html><head><meta charset="utf-8"><title>Register Branch — TÀNG THƯ</title>
-<style>
-body{font-family:Tahoma,Arial,sans-serif;background:#c0c0c0;margin:24px;color:#111}
-.window{background:#ddd;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;max-width:900px;margin:auto}
-.title{background:#000080;color:white;padding:5px 8px;font-weight:bold}.body{padding:16px}
-input{font:inherit;padding:5px;width:100%;box-sizing:border-box}.readonly{background:#eee}.notice{background:#ffffcc;border:1px solid #888;padding:8px;margin:10px 0}
-button{font:inherit;padding:5px 12px}
-</style></head><body><div class="window"><div class="title">TÀNG THƯ OPDS — REGISTER BRANCH</div><div class="body">
-<div class="notice">Folder đã được xác thực. Tên Google Drive chỉ là thông tin tham khảo; Branch name là tên riêng của TÀNG THƯ.</div>
-<form method="post" action="/admin/register">
-<input type="hidden" name="url" value="{{.URL}}">
-<p>Google Drive folder name:</p><input class="readonly" value="{{.Folder.Name}}" readonly>
-<p>Branch name:</p><input name="name" value="{{.Folder.Name}}" required autofocus>
-<p><button>Save Branch</button> <a href="/admin">Cancel</a></p>
-</form>
-</div></div></body></html>`))
-
-func (a *app) libraryBranch(w http.ResponseWriter, r *http.Request) {
-	id := strings.TrimPrefix(r.URL.Path, "/library/branch/")
-	b, ok := a.cat.find(id)
-	if !ok || b.Status != StatusOnline {
-		http.NotFound(w, r)
-		return
-	}
-	var rows []FileEntry
+func children(b Branch, parent string) []FileEntry {
+	out := []FileEntry{}
 	for _, f := range b.Files {
-		if f.ParentID == b.RootFolderID {
-			rows = append(rows, f)
+		if f.ParentID == parent {
+			out = append(out, f)
 		}
 	}
-	sort.Slice(rows, func(i, j int) bool {
-		if rows[i].IsFolder != rows[j].IsFolder {
-			return rows[i].IsFolder
+	sort.SliceStable(out, func(i, j int) bool {
+		if out[i].IsFolder != out[j].IsFolder {
+			return out[i].IsFolder
 		}
-		return strings.ToLower(rows[i].Name) < strings.ToLower(rows[j].Name)
+		return strings.ToLower(out[i].Name) < strings.ToLower(out[j].Name)
 	})
-	_ = branchPage.Execute(w, map[string]any{"Branch": b, "Rows": rows})
+	return out
 }
-
-func (a *app) validate(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodPost || !a.adminAuth(w, r) {
-		return
+func (a *app) folder(b Branch, id string) ([]FileEntry, bool) {
+	if id == b.RootFolderID {
+		return children(b, id), true
 	}
-	_ = r.ParseForm()
-	rawURL := strings.TrimSpace(r.Form.Get("url"))
-	rootID := extractFolderID(rawURL)
-	if rootID == "" {
-		http.Error(w, "Invalid Google Drive folder URL or ID", http.StatusBadRequest)
-		return
-	}
-	if existing, ok := a.cat.rootAlreadyRegistered(rootID); ok {
-		http.Error(w, fmt.Sprintf("This Google Drive folder is already registered as %q.", existing.DisplayName), http.StatusConflict)
-		return
-	}
-	ctx, cancel := context.WithTimeout(r.Context(), 20*time.Second)
-	defer cancel()
-	folder, err := a.drive.GetFolder(ctx, rootID)
-	if err != nil {
-		http.Error(w, "Google Drive folder validation failed: "+err.Error(), http.StatusBadRequest)
-		return
-	}
-	_ = validatePage.Execute(w, map[string]any{"URL": rawURL, "Folder": folder})
-}
-
-func (a *app) libraryFolder(w http.ResponseWriter, r *http.Request) {
-	rest := strings.TrimPrefix(r.URL.Path, "/library/branch/")
-	parts := strings.SplitN(rest, "/folder/", 2)
-	if len(parts) != 2 {
-		http.NotFound(w, r)
-		return
-	}
-	b, ok := a.cat.find(parts[0])
-	if !ok || b.Status != StatusOnline {
-		http.NotFound(w, r)
-		return
-	}
-	folderID := parts[1]
-	found := false
 	for _, f := range b.Files {
-		if f.ID == folderID && f.IsFolder {
-			found = true
-			break
+		if f.ID == id && f.IsFolder {
+			return children(b, id), true
 		}
 	}
-	if !found {
-		http.NotFound(w, r)
-		return
-	}
-	var rows []FileEntry
+	return nil, false
+}
+func fileIn(b Branch, id string) (FileEntry, bool) {
 	for _, f := range b.Files {
-		if f.ParentID == folderID {
-			rows = append(rows, f)
+		if f.ID == id && !f.IsFolder {
+			return f, true
 		}
 	}
-	sort.Slice(rows, func(i, j int) bool {
-		if rows[i].IsFolder != rows[j].IsFolder {
-			return rows[i].IsFolder
-		}
-		return strings.ToLower(rows[i].Name) < strings.ToLower(rows[j].Name)
-	})
-	_ = branchPage.Execute(w, map[string]any{"Branch": b, "Rows": rows})
+	return FileEntry{}, false
 }
-
-func (a *app) register(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodPost || !a.adminAuth(w, r) {
-		return
+func esc(s string) string { return template.HTMLEscapeString(s) }
+func mime(s string) string {
+	if s != "" {
+		return s
 	}
-	_ = r.ParseForm()
-	rawURL := strings.TrimSpace(r.Form.Get("url"))
-	name := strings.TrimSpace(r.Form.Get("name"))
-	rootID := extractFolderID(rawURL)
-	if rootID == "" || name == "" {
-		http.Error(w, "Invalid folder URL/ID or Branch name", http.StatusBadRequest)
-		return
-	}
-	if existing, ok := a.cat.rootAlreadyRegistered(rootID); ok {
-		http.Error(w, fmt.Sprintf("This Google Drive folder is already registered as %q.", existing.DisplayName), http.StatusConflict)
-		return
-	}
-	ctx, cancel := context.WithTimeout(r.Context(), 2*time.Minute)
-	defer cancel()
-	folder, err := a.drive.GetFolder(ctx, rootID)
-	if err != nil {
-		http.Error(w, "Google Drive folder validation failed: "+err.Error(), http.StatusBadRequest)
-		return
-	}
-	id, err := makeID()
-	if err != nil {
-		http.Error(w, "cannot generate Branch ID", http.StatusInternalServerError)
-		return
-	}
-	b := Branch{ID: id, DisplayName: name, DriveFolderName: folder.Name, RootFolderID: folder.ID, Status: StatusOnline}
-	a.cat.addOrUpdate(b)
-	if err := a.cat.save(a.dataFile); err != nil {
-		http.Error(w, "saved in memory but failed to persist: "+err.Error(), http.StatusInternalServerError)
-		return
-	}
-	if err := a.scanBranch(ctx, id); err != nil {
-		http.Error(w, "Branch saved but initial scan failed: "+err.Error(), http.StatusBadGateway)
-		return
-	}
-	http.Redirect(w, r, "/admin", http.StatusSeeOther)
-}
-
-func (a *app) toggle(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodPost || !a.adminAuth(w, r) {
-		return
-	}
-	_ = r.ParseForm()
-	a.cat.toggle(r.Form.Get("id"))
-	_ = a.cat.save(a.dataFile)
-	http.Redirect(w, r, "/admin", http.StatusSeeOther)
-}
-
-func (a *app) rename(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodPost || !a.adminAuth(w, r) {
-		return
-	}
-	_ = r.ParseForm()
-	name := strings.TrimSpace(r.Form.Get("name"))
-	if name != "" {
-		a.cat.rename(r.Form.Get("id"), name)
-		_ = a.cat.save(a.dataFile)
-	}
-	http.Redirect(w, r, "/admin", http.StatusSeeOther)
-}
-
-func (a *app) refresh(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodPost || !a.adminAuth(w, r) {
-		return
-	}
-	_ = r.ParseForm()
-	ctx, cancel := context.WithTimeout(r.Context(), 2*time.Minute)
-	defer cancel()
-	if err := a.scanBranch(ctx, r.Form.Get("id")); err != nil {
-		http.Error(w, "Refresh failed: "+err.Error(), http.StatusBadGateway)
-		return
-	}
-	http.Redirect(w, r, "/admin", http.StatusSeeOther)
+	return "application/octet-stream"
 }
 
 func (a *app) opdsRoot(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Content-Type", `application/atom+xml;profile=opds-catalog`)
-	var sb strings.Builder
-	sb.WriteString(`<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog"><title>TÀNG THƯ</title>`)
+	var x strings.Builder
+	x.WriteString(`<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog"><title>TÀNG THƯ</title><link rel="search" href="/opds/search.xml" type="application/opensearchdescription+xml"/>`)
 	for _, b := range a.cat.PublicBranches() {
-		fmt.Fprintf(&sb, `<entry><title>%s</title><link rel="subsection" href="/opds/branch/%s" type="application/atom+xml;profile=opds-catalog"/></entry>`, html.EscapeString(b.DisplayName), html.EscapeString(b.ID))
+		x.WriteString(`<entry><title>` + esc(b.DisplayName) + `</title><link rel="subsection" href="/opds/branch/` + url.PathEscape(b.ID) + `" type="application/atom+xml;profile=opds-catalog"/></entry>`)
 	}
-	sb.WriteString("</feed>")
-	fmt.Fprint(w, sb.String())
+	x.WriteString(`</feed>`)
+	writeXML(w, x.String())
 }
-
-func (a *app) opdsBranch(w http.ResponseWriter, r *http.Request) {
-	id := strings.TrimPrefix(r.URL.Path, "/opds/branch/")
+func (a *app) entry(b Branch, f FileEntry) string {
+	if f.IsFolder {
+		return `<entry><title>` + esc(f.Name) + `</title><link rel="subsection" href="/opds/folder/` + url.PathEscape(b.ID) + `/` + url.PathEscape(f.ID) + `" type="application/atom+xml;profile=opds-catalog"/></entry>`
+	}
+	return `<entry><title>` + esc(f.Name) + `</title><content type="text">` + esc(fmt.Sprintf("%d bytes · %s", f.Size, f.MIME)) + `</content><link rel="acquisition" href="/opds/acquire/` + url.PathEscape(b.ID) + `/` + url.PathEscape(f.ID) + `" type="` + esc(mime(f.MIME)) + `"/></entry>`
+}
+func (a *app) opdsBranch(w http.ResponseWriter, r *http.Request, id string) {
 	b, ok := a.cat.find(id)
 	if !ok || b.Status != StatusOnline {
 		http.NotFound(w, r)
 		return
 	}
-	var rows []FileEntry
-	for _, f := range b.Files {
-		if f.ParentID == b.RootFolderID {
-			rows = append(rows, f)
-		}
+	var x strings.Builder
+	x.WriteString(`<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog"><title>` + esc(b.DisplayName) + `</title><link rel="start" href="/opds" type="application/atom+xml;profile=opds-catalog"/><link rel="search" href="/opds/search.xml" type="application/opensearchdescription+xml"/>`)
+	for _, f := range children(b, b.RootFolderID) {
+		x.WriteString(a.entry(b, f))
 	}
-	a.writeOPDS(w, b.DisplayName, id, rows)
+	x.WriteString(`</feed>`)
+	writeXML(w, x.String())
 }
-
-func (a *app) opdsFolder(w http.ResponseWriter, r *http.Request) {
-	rest := strings.TrimPrefix(r.URL.Path, "/opds/folder/")
-	parts := strings.SplitN(rest, "/", 2)
-	if len(parts) != 2 {
-		http.NotFound(w, r)
-		return
-	}
-	b, ok := a.cat.find(parts[0])
+func (a *app) opdsFolder(w http.ResponseWriter, r *http.Request, id, fid string) {
+	b, ok := a.cat.find(id)
 	if !ok || b.Status != StatusOnline {
 		http.NotFound(w, r)
 		return
 	}
-	folderID := parts[1]
-	var rows []FileEntry
-	for _, f := range b.Files {
-		if f.ParentID == folderID {
-			rows = append(rows, f)
-		}
+	rows, ok := a.folder(b, fid)
+	if !ok {
+		http.NotFound(w, r)
+		return
 	}
-	a.writeOPDS(w, b.DisplayName, folderID, rows)
-}
-
-func (a *app) writeOPDS(w http.ResponseWriter, title, branchID string, rows []FileEntry) {
-	w.Header().Set("Content-Type", `application/atom+xml;profile=opds-catalog`)
-	var sb strings.Builder
-	fmt.Fprintf(&sb, `<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog"><title>%s</title>`, html.EscapeString(title))
-	sort.Slice(rows, func(i, j int) bool {
-		if rows[i].IsFolder != rows[j].IsFolder {
-			return rows[i].IsFolder
-		}
-		return strings.ToLower(rows[i].Name) < strings.ToLower(rows[j].Name)
-	})
+	var x strings.Builder
+	x.WriteString(`<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog"><title>` + esc(b.DisplayName) + `</title><link rel="start" href="/opds" type="application/atom+xml;profile=opds-catalog"/><link rel="search" href="/opds/search.xml" type="application/opensearchdescription+xml"/>`)
 	for _, f := range rows {
-		if f.IsFolder {
-			fmt.Fprintf(&sb, `<entry><title>%s</title><link rel="subsection" href="/opds/folder/%s/%s" type="application/atom+xml;profile=opds-catalog"/></entry>`, html.EscapeString(f.Name), html.EscapeString(branchID), html.EscapeString(f.ID))
-		} else {
-			// Acquisition is intentionally not enabled in v0.4 yet.
-			fmt.Fprintf(&sb, `<entry><title>%s</title><link rel="acquisition" href="/opds/acquire/%s/%s" type="%s"/></entry>`, html.EscapeString(f.Name), html.EscapeString(branchID), html.EscapeString(f.ID), html.EscapeString(f.MIME))
+		x.WriteString(a.entry(b, f))
+	}
+	x.WriteString(`</feed>`)
+	writeXML(w, x.String())
+}
+func (a *app) search(w http.ResponseWriter, r *http.Request) {
+	q := strings.ToLower(strings.TrimSpace(r.URL.Query().Get("q")))
+	var x strings.Builder
+	x.WriteString(`<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog"><title>Search: ` + esc(q) + `</title>`)
+	if q != "" {
+		for _, b := range a.cat.PublicBranches() {
+			for _, f := range b.Files {
+				if !f.IsFolder && (strings.Contains(strings.ToLower(f.Name), q) || strings.Contains(strings.ToLower(f.Checksum), q)) {
+					x.WriteString(a.entry(b, f))
+				}
+			}
 		}
 	}
-	sb.WriteString("</feed>")
-	fmt.Fprint(w, sb.String())
+	x.WriteString(`</feed>`)
+	writeXML(w, x.String())
+}
+func (a *app) openSearch(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/opensearchdescription+xml;charset=utf-8")
+	io.WriteString(w, `<?xml version="1.0" encoding="UTF-8"?><OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"><ShortName>TÀNG THƯ</ShortName><Description>Search TÀNG THƯ</Description><Url type="application/atom+xml" template="/opds/search?q={searchTerms}"/></OpenSearchDescription>`)
+}
+func writeXML(w http.ResponseWriter, s string) {
+	w.Header().Set("Content-Type", "application/atom+xml;profile=opds-catalog;charset=utf-8")
+	io.WriteString(w, s)
 }
 
-func (a *app) routes() {
-	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) { http.Redirect(w, r, "/library", http.StatusFound) })
-	http.HandleFunc("/library", func(w http.ResponseWriter, r *http.Request) {
-		_ = page.Execute(w, map[string]any{"Branches": a.cat.PublicBranches(), "Admin": false})
-	})
-	http.HandleFunc("/library/branch/", func(w http.ResponseWriter, r *http.Request) {
-		if strings.Contains(r.URL.Path, "/folder/") {
-			a.libraryFolder(w, r)
-			return
-		}
-		a.libraryBranch(w, r)
-	})
-	http.HandleFunc("/admin", func(w http.ResponseWriter, r *http.Request) {
-		if !a.adminAuth(w, r) {
-			return
-		}
-		_ = page.Execute(w, map[string]any{"Branches": a.cat.AdminBranches(), "Admin": true})
-	})
-	http.HandleFunc("/admin/validate", a.validate)
-	http.HandleFunc("/admin/register", a.register)
-	http.HandleFunc("/admin/toggle", a.toggle)
-	http.HandleFunc("/admin/rename", a.rename)
-	http.HandleFunc("/admin/refresh", a.refresh)
-	http.HandleFunc("/opds", a.opdsRoot)
-	http.HandleFunc("/opds/branch/", a.opdsBranch)
-	http.HandleFunc("/opds/folder/", a.opdsFolder)
-	http.HandleFunc("/opds/acquire/", func(w http.ResponseWriter, r *http.Request) {
-		http.Error(w, "Acquisition gateway is reserved for the next implementation step.", http.StatusNotImplemented)
-	})
-}
-
-func getenv(key, fallback string) string {
-	if v := strings.TrimSpace(os.Getenv(key)); v != "" {
-		return v
+func (a *app) acquire(w http.ResponseWriter, r *http.Request, id, fid string) {
+	b, ok := a.cat.find(id)
+	if !ok || b.Status != StatusOnline {
+		http.NotFound(w, r)
+		return
 	}
-	return fallback
+	f, ok := fileIn(b, fid)
+	if !ok {
+		http.NotFound(w, r)
+		return
+	}
+	if r.Method == http.MethodHead {
+		w.Header().Set("Content-Type", mime(f.MIME))
+		if f.Size > 0 {
+			w.Header().Set("Content-Length", strconv.FormatInt(f.Size, 10))
+		}
+		w.Header().Set("Accept-Ranges", "bytes")
+		return
+	}
+	resp, err := a.drive.Open(r.Context(), fid, r.Header.Get("Range"))
+	if err != nil {
+		http.Error(w, "file acquisition failed", 502)
+		return
+	}
+	defer resp.Body.Close()
+	for _, h := range []string{"Content-Type", "Content-Length", "Content-Range", "Accept-Ranges", "ETag", "Last-Modified"} {
+		if v := resp.Header.Get(h); v != "" {
+			w.Header().Set(h, v)
+		}
+	}
+	if w.Header().Get("Content-Type") == "" {
+		w.Header().Set("Content-Type", mime(f.MIME))
+	}
+	w.WriteHeader(resp.StatusCode)
+	_, _ = io.Copy(w, resp.Body)
+}
+
+var tpl = template.Must(template.New("page").Parse(`<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TÀNG THƯ</title><style>body{font:14px Tahoma,Arial;background:#c0c0c0;margin:24px}.w{max-width:1180px;margin:auto;background:#ddd;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.t{background:#000080;color:#fff;padding:5px;font-weight:bold}.b{padding:16px}table{width:100%;border-collapse:collapse;background:#fff}th,td{border:1px solid #888;padding:6px;text-align:left}th{background:#ddd}a{color:#000080}.n{background:#ffffcc;border:1px solid #888;padding:8px;margin:10px 0}input,button{font:inherit;padding:4px}</style></head><body><div class=w><div class=t>TÀNG THƯ</div><div class=b>{{if .Admin}}<h2>Branches — Admin</h2><div class=n>Website public không có download.</div><form method=post action=/admin/validate><input name=url size=70 placeholder="Google Drive shared folder URL or ID" required> <button>Validate Folder</button></form>{{else}}<h2>Thư viện</h2><div class=n>Branch bắt đầu chính xác bằng <b>VN</b> được ưu tiên.</div><form method=get action=/search><input name=q value="{{.Query}}" size=55 placeholder="Tên file hoặc checksum"> <button>Search</button></form>{{end}}<table><tr><th>Tên</th><th>Status</th><th>Last scan</th>{{if .Admin}}<th>Action</th>{{end}}</tr>{{range .Branches}}<tr><td>{{if $.Admin}}{{.DisplayName}}<br><small>Drive: {{.DriveFolderName}}</small>{{else}}<a href="/library/branch/{{.ID}}">{{.DisplayName}}</a>{{end}}</td><td>{{.Status}}{{if .Error}} — {{.Error}}{{end}}</td><td>{{.LastScan}}</td>{{if $.Admin}}<td><form method=post action=/admin/toggle style="display:inline"><input type=hidden name=id value="{{.ID}}"><button>{{if eq .Status "hidden"}}Restore{{else}}Hide{{end}}</button></form> <form method=post action=/admin/rename style="display:inline"><input type=hidden name=id value="{{.ID}}"><input name=name value="{{.DisplayName}}" size=18><button>Rename</button></form> <form method=post action=/admin/refresh style="display:inline"><input type=hidden name=id value="{{.ID}}"><button>Refresh</button></form></td>{{end}}</tr>{{end}}</table><p><a href=/opds>OPDS</a>{{if not .Admin}} · <a href=/admin>Admin</a>{{end}}</p></div></div></body></html>`))
+var branchTpl = template.Must(template.New("branch").Parse(`<!doctype html><html><head><meta charset=utf-8><title>{{.Branch.DisplayName}}</title><style>body{font:14px Tahoma;background:#c0c0c0;margin:24px}.w{max-width:1180px;margin:auto;background:#ddd;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.t{background:#000080;color:#fff;padding:5px;font-weight:bold}.b{padding:16px}table{width:100%;border-collapse:collapse;background:#fff}th,td{border:1px solid #888;padding:6px;text-align:left}th{background:#ddd}a{color:#000080}</style></head><body><div class=w><div class=t>TÀNG THƯ — {{.Branch.DisplayName}}</div><div class=b><p><a href=/library>← Thư viện</a> · <a href="/opds/branch/{{.Branch.ID}}">OPDS</a></p><table><tr><th>Name</th><th>Size</th><th>Modified</th><th>MIME</th><th>Checksum</th></tr>{{range .Rows}}<tr><td>{{if .IsFolder}}📁 <a href="/library/branch/{{$.Branch.ID}}/folder/{{.ID}}">{{.Name}}</a>{{else}}📄 {{.Name}}{{end}}</td><td>{{if .IsFolder}}—{{else}}{{.Size}}{{end}}</td><td>{{.Modified}}</td><td>{{.MIME}}</td><td>{{.Checksum}}</td></tr>{{end}}</table></div></div></body></html>`))
+var validateTpl = template.Must(template.New("validate").Parse(`<!doctype html><html><body style="font:14px Tahoma;background:#c0c0c0;margin:24px"><div style="max-width:700px;margin:auto;background:#ddd;border:2px solid #fff;padding:16px"><h2>Register Branch</h2><p>Drive folder: <b>{{.Folder.Name}}</b></p><form method=post action=/admin/register><input type=hidden name=url value="{{.URL}}"><p>Branch name:<br><input name=name value="{{.Folder.Name}}" size=70 required></p><button>Register & Scan</button> <a href=/admin>Cancel</a></form></div></body></html>`))
+var folderTpl = branchTpl
+
+type view struct {
+	Admin    bool
+	Branches []Branch
+	Branch   Branch
+	Rows     []FileEntry
+	Query    string
+	URL      string
+	Folder   drive.File
+}
+
+func (a *app) webLibrary(w http.ResponseWriter, r *http.Request) {
+	_ = tpl.Execute(w, view{Branches: a.cat.PublicBranches()})
+}
+func (a *app) webBranch(w http.ResponseWriter, r *http.Request, id string) {
+	b, ok := a.cat.find(id)
+	if !ok || b.Status != StatusOnline {
+		http.NotFound(w, r)
+		return
+	}
+	_ = branchTpl.Execute(w, view{Branch: b, Rows: children(b, b.RootFolderID)})
+}
+func (a *app) webFolder(w http.ResponseWriter, r *http.Request, id, fid string) {
+	b, ok := a.cat.find(id)
+	if !ok || b.Status != StatusOnline {
+		http.NotFound(w, r)
+		return
+	}
+	rows, ok := a.folder(b, fid)
+	if !ok {
+		http.NotFound(w, r)
+		return
+	}
+	_ = folderTpl.Execute(w, view{Branch: b, Rows: rows})
+}
+func (a *app) webSearch(w http.ResponseWriter, r *http.Request) {
+	q := strings.TrimSpace(r.URL.Query().Get("q"))
+	needle := strings.ToLower(q)
+	rows := []FileEntry{}
+	for _, b := range a.cat.PublicBranches() {
+		for _, f := range b.Files {
+			if !f.IsFolder && q != "" && (strings.Contains(strings.ToLower(f.Name), needle) || strings.Contains(strings.ToLower(f.Checksum), needle)) {
+				rows = append(rows, f)
+			}
+		}
+	}
+	_ = branchTpl.Execute(w, view{Branch: Branch{DisplayName: "Search: " + q}, Rows: rows})
+}
+
+func (a *app) admin(w http.ResponseWriter, r *http.Request) {
+	if !a.auth(w, r) {
+		return
+	}
+	_ = tpl.Execute(w, view{Admin: true, Branches: a.cat.AdminBranches()})
+}
+func (a *app) validate(w http.ResponseWriter, r *http.Request) {
+	if !a.auth(w, r) {
+		return
+	}
+	if r.Method != http.MethodPost {
+		http.Error(w, "method not allowed", 405)
+		return
+	}
+	raw := strings.TrimSpace(r.FormValue("url"))
+	id := extractFolderID(raw)
+	if id == "" {
+		http.Error(w, "invalid Google Drive folder URL or ID", 400)
+		return
+	}
+	f, err := a.drive.GetFolder(r.Context(), id)
+	if err != nil {
+		http.Error(w, "folder validation failed: "+err.Error(), 502)
+		return
+	}
+	if old, ok := a.cat.rootAlreadyRegistered(f.ID); ok {
+		http.Error(w, "folder already registered as "+old.DisplayName, 409)
+		return
+	}
+	_ = validateTpl.Execute(w, view{URL: raw, Folder: f})
+}
+func (a *app) register(w http.ResponseWriter, r *http.Request) {
+	if !a.auth(w, r) {
+		return
+	}
+	if r.Method != http.MethodPost {
+		http.Error(w, "method not allowed", 405)
+		return
+	}
+	raw, name := strings.TrimSpace(r.FormValue("url")), strings.TrimSpace(r.FormValue("name"))
+	id := extractFolderID(raw)
+	if id == "" || name == "" {
+		http.Error(w, "folder and Branch name are required", 400)
+		return
+	}
+	f, err := a.drive.GetFolder(r.Context(), id)
+	if err != nil {
+		http.Error(w, "folder validation failed: "+err.Error(), 502)
+		return
+	}
+	if _, ok := a.cat.rootAlreadyRegistered(f.ID); ok {
+		http.Error(w, "folder already registered", 409)
+		return
+	}
+	bid, err := makeID()
+	if err != nil {
+		http.Error(w, "cannot create Branch ID", 500)
+		return
+	}
+	a.cat.add(Branch{ID: bid, DisplayName: name, DriveFolderName: f.Name, RootFolderID: f.ID, Status: StatusOnline})
+	if err := a.cat.save(a.dataFile); err != nil {
+		http.Error(w, "catalog save failed", 500)
+		return
+	}
+	if err := a.scan(r.Context(), bid); err != nil {
+		http.Error(w, "initial scan failed: "+err.Error(), 502)
+		return
+	}
+	http.Redirect(w, r, "/admin", 303)
+}
+func (a *app) toggle(w http.ResponseWriter, r *http.Request) {
+	if !a.auth(w, r) {
+		return
+	}
+	if !a.cat.toggle(r.FormValue("id")) {
+		http.NotFound(w, r)
+		return
+	}
+	_ = a.cat.save(a.dataFile)
+	http.Redirect(w, r, "/admin", 303)
+}
+func (a *app) rename(w http.ResponseWriter, r *http.Request) {
+	if !a.auth(w, r) {
+		return
+	}
+	if !a.cat.rename(r.FormValue("id"), r.FormValue("name")) {
+		http.Error(w, "invalid Branch/name", 400)
+		return
+	}
+	_ = a.cat.save(a.dataFile)
+	http.Redirect(w, r, "/admin", 303)
+}
+func (a *app) refresh(w http.ResponseWriter, r *http.Request) {
+	if !a.auth(w, r) {
+		return
+	}
+	if err := a.scan(r.Context(), r.FormValue("id")); err != nil {
+		http.Error(w, "refresh failed: "+err.Error(), 502)
+		return
+	}
+	http.Redirect(w, r, "/admin", 303)
+}
+
+func (a *app) route(w http.ResponseWriter, r *http.Request) {
+	p := strings.Trim(r.URL.Path, "/")
+	switch {
+	case p == "" || p == "library":
+		a.webLibrary(w, r)
+	case p == "search":
+		a.webSearch(w, r)
+	case p == "opds" || p == "opds/":
+		a.opdsRoot(w, r)
+	case p == "opds/search.xml":
+		a.openSearch(w, r)
+	case strings.HasPrefix(p, "opds/search"):
+		a.search(w, r)
+	case strings.HasPrefix(p, "opds/branch/"):
+		a.opdsBranch(w, r, strings.TrimPrefix(p, "opds/branch/"))
+	case strings.HasPrefix(p, "opds/folder/"):
+		v := strings.Split(strings.TrimPrefix(p, "opds/folder/"), "/")
+		if len(v) != 2 {
+			http.NotFound(w, r)
+			return
+		}
+		a.opdsFolder(w, r, v[0], v[1])
+	case strings.HasPrefix(p, "opds/acquire/"):
+		v := strings.Split(strings.TrimPrefix(p, "opds/acquire/"), "/")
+		if len(v) != 2 {
+			http.NotFound(w, r)
+			return
+		}
+		a.acquire(w, r, v[0], v[1])
+	case p == "admin":
+		a.admin(w, r)
+	case p == "admin/validate":
+		a.validate(w, r)
+	case p == "admin/register":
+		a.register(w, r)
+	case p == "admin/toggle":
+		a.toggle(w, r)
+	case p == "admin/rename":
+		a.rename(w, r)
+	case p == "admin/refresh":
+		a.refresh(w, r)
+	case strings.HasPrefix(p, "library/branch/"):
+		v := strings.Split(strings.TrimPrefix(p, "library/branch/"), "/")
+		if len(v) == 1 {
+			a.webBranch(w, r, v[0])
+			return
+		}
+		if len(v) == 3 && v[1] == "folder" {
+			a.webFolder(w, r, v[0], v[2])
+			return
+		}
+		http.NotFound(w, r)
+	default:
+		http.NotFound(w, r)
+	}
 }
 
 func main() {
-	apiKey := os.Getenv("TANGTHU_GOOGLE_API_KEY")
-	if strings.TrimSpace(apiKey) == "" {
+	key := strings.TrimSpace(os.Getenv("TANGTHU_GOOGLE_API_KEY"))
+	if key == "" {
 		log.Fatal("TANGTHU_GOOGLE_API_KEY is required")
 	}
-	drv, err := drive.NewClient(apiKey)
+	file := os.Getenv("TANGTHU_DATA_FILE")
+	if file == "" {
+		file = "data/catalog.json"
+	}
+	cat, err := loadCatalog(file)
 	if err != nil {
 		log.Fatal(err)
 	}
-	dataFile := getenv("TANGTHU_DATA_FILE", "data/catalog.json")
-	if err := os.MkdirAll(path.Dir(dataFile), 0700); err != nil {
-		log.Fatal(err)
-	}
-	cat, err := loadCatalog(dataFile)
+	d, err := drive.NewClient(key)
 	if err != nil {
 		log.Fatal(err)
 	}
-	a := &app{
-		cat: cat, drive: drv, dataFile: dataFile,
-		adminUser: getenv("TANGTHU_ADMIN_USER", "admin"),
-		adminPass: os.Getenv("TANGTHU_ADMIN_PASSWORD"),
+	u := os.Getenv("TANGTHU_ADMIN_USER")
+	if u == "" {
+		u = "admin"
 	}
-	a.routes()
-
+	a := &app{cat: cat, drive: d, dataFile: file, adminUser: u, adminPass: os.Getenv("TANGTHU_ADMIN_PASSWORD")}
+	m := http.NewServeMux()
+	m.HandleFunc("/", a.route)
+	addr := os.Getenv("TANGTHU_LISTEN")
+	if addr == "" {
+		addr = "127.0.0.1:8080"
+	}
 	go func() {
-		ticker := time.NewTicker(time.Hour)
-		defer ticker.Stop()
-		for range ticker.C {
-			ctx, cancel := context.WithTimeout(context.Background(), 5*time.Minute)
+		t := time.NewTicker(time.Hour)
+		defer t.Stop()
+		for range t.C {
+			ctx, c := context.WithTimeout(context.Background(), 30*time.Minute)
 			a.refreshAll(ctx)
-			cancel()
+			c()
 		}
 	}()
-
-	log.Println("TÀNG THƯ OPDS v0.4 listening on http://127.0.0.1:8080")
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Printf("TÀNG THƯ OPDS v1.0 listening on http://%s", addr)
+	log.Fatal(http.ListenAndServe(addr, m))
 }

@@ -3,9 +3,7 @@ package main
 import "testing"
 
 func TestExtractFolderID(t *testing.T) {
-	tests := []struct {
-		in, want string
-	}{
+	tests := []struct{ in, want string }{
 		{"ABC123", "ABC123"},
 		{"https://drive.google.com/drive/folders/ABC123", "ABC123"},
 		{"https://drive.google.com/drive/folders/ABC123?usp=sharing", "ABC123"},
@@ -30,5 +28,27 @@ func TestVNPriority(t *testing.T) {
 		if vnPriority(name) {
 			t.Errorf("vnPriority(%q) = true, want false", name)
 		}
+	}
+}
+
+func TestChildrenFoldersFirst(t *testing.T) {
+	br := Branch{Files: []FileEntry{
+		{ID: "f", ParentID: "root", Name: "z.epub"},
+		{ID: "d", ParentID: "root", Name: "Books", IsFolder: true},
+		{ID: "x", ParentID: "other", Name: "ignored.epub"},
+	}}
+	rows := children(br, "root")
+	if len(rows) != 2 || !rows[0].IsFolder || rows[0].Name != "Books" || rows[1].Name != "z.epub" {
+		t.Fatalf("unexpected children order: %#v", rows)
+	}
+}
+
+func TestFileInBranch(t *testing.T) {
+	br := Branch{Files: []FileEntry{{ID: "book", Name: "book.epub"}, {ID: "folder", Name: "Folder", IsFolder: true}}}
+	if _, ok := fileIn(br, "folder"); ok {
+		t.Fatal("folder must not be acquirable")
+	}
+	if f, ok := fileIn(br, "book"); !ok || f.Name != "book.epub" {
+		t.Fatal("book should be acquirable")
 	}
 }
