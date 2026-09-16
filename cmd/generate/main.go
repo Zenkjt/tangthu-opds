@@ -144,7 +144,7 @@ func children(b Branch, parent string) []FileEntry {
 	return out
 }
 func acquisitionURL(f FileEntry) string {
-	return "https://drive.google.com/uc?export=download&id=" + url.QueryEscape(f.ID)
+	return "https://drive.usercontent.google.com/download?id=" + url.QueryEscape(f.ID) + "&export=download&confirm=t"
 }
 
 func writeWeb(out, base string, branches []Branch) error {
