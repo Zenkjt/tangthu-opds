@@ -4,6 +4,7 @@ from pathlib import Path
 path = Path("docs/index.html")
 text = path.read_text(encoding="utf-8")
 
+# Replace the list's cover-thumbnail styling with compact book/folder icons.
 old_css = """.cover{width:64px;height:90px;object-fit:cover;display:block;background:#eee;border:1px solid #777}
 .cover-fallback{width:64px;height:90px;display:grid;place-items:center;background:#ddd;border:1px solid #777;font-weight:bold;font-size:12px;text-align:center}
 """
@@ -34,24 +35,44 @@ if old_narrow not in text:
     raise SystemExit("UI patch anchor missing: narrow cover CSS")
 text = text.replace(old_narrow, new_narrow, 1)
 
-old_js = r"""var img=f.cover?'<img class=\"cover\" loading=\"lazy\" src=\"'+esc(f.cover)+'\" alt=\"\" onerror=\"this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'/>':'<span class=\"cover-fallback\">'+esc(ext(f.name))+'</span>';
-        var fallback=f.cover?'<span class=\"cover-fallback\" style=\"display:none\">'+esc(ext(f.name))+'</span>':'';"""
-new_js = r"""var icon='<span class=\"book-icon\" aria-hidden=\"true\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAeCAYAAAAy2w7YAAAD1klEQVR42r1Wz0tjZxQ9937fe8nkJaSdkVq0m9JFpKAD7iZOK5lpEdpuCkNBuu1fUWbtpqB76U6EUrrQaRcKRVLERYXgRgS7LdiFjSN2mLwf+e7t4r1oYmJGx2m/zdu87517zzn3nEdLS0tar9eR83NwIrjNIQDOtV25XDaff/bFD0++evJ1vV5nALC7u7vYrv+GICjCOQfS1wShFImJOIxjfDTz8BEAv1arhQBg876PIAgQFAqQtgPdoh0iAhHBWg/GsABon52djZRKpWmrohARqAhEb0GdpkAgwEHgUmZobW3tRyKq2Q63b/qIigDwTp8/nzg4ONAUSNE3GyICM7/yg85J2s4VfRKoVQgCsgCg2vsiMyMMQ7RaL0HEgGratl7MQzUVQBAUYYzpLVJ7ZsciAkvZpW6QOI4xOTmJavUBojgBM6UYlGEpYIkRRRE2NjbQbDbhed65xAm9TaoqbF+vqhBxyOVyuHdvBFESg5ggmYYFClLAJ0YURrCefbVIgH4g5xx838f29jae/fwMzAxVQDulZhdJFcyM0dF3kcvlICKp6gaYGIOAjDGIogjVahUzMzNIkpQ66ZhSU6oNE+IkwfraOk5OTmDt8M7sVcZzzkHEZU+CUC8fKgwV7S37JkAiAs+z2N39HZubm9067RYdSBXGGLwzOoo7+TycG0zdlUBMjCgKUas9wtzcHKIoAjFDL3nFskErbGFlZQXHx8fwrNc9/+tRByK0Wi00m3+j7RyYCO6y10CIogjuqnykC1AdqLq2g+/52Nvbw87OzjkdcqlO0tRzQTGANQaqejPqUgML8vk8CoXC+WV3GUhSeTvn+pJlIJD22LlLVyJwXVX2dKQAVKGqfbMbCqTDYnFQfl3j/T6R4X86fO4R+m+B7IUJCSbLtc4+ymIC3aukUxBld6izQtBZ5WmMMUj6VEfpanAvX7xQyf6E0rVMF2K4BHR5dnQBpFEck4jcSQNEM4MzIwxbGPtgzFQ/foi8n8tEpVlS9HY0ZBukRanA8zzcffvuAYDEGJP+boVh6Kbu3zffPn36y/T09E/GGGZjBM514ryzP641C2OMBkHAANYBtJmYVBWWmWl+fv6vTx8//pKI2m9SAKpqHNKIt+VymYvFYsv3/fbs7KytVCp0eHiotwGoVCq0vLzc7tiNiGAnJib+2draei+O409KpdKvjUbjWpEy7DQaDQRBgPHxcV1YWICqKjWbzW8WFxe/Ozo6emtkZOQPay2LiBLRawMSEUQEQRBgf3///bGxMUsZlx+urq5+f3p6+iBJkqEpfNOTJAmmpqb+/BfyecEL+bzvwAAAAABJRU5ErkJggg==\" alt=\"\" width=\"26\" height=\"30\"></span>';"""
-if old_js not in text:
-    raise SystemExit("UI patch anchor missing: list cover renderer")
-text = text.replace(old_js, new_js, 1)
+# Find the current list-book renderer without relying on Python's escaping
+# syntax. The renderer is contained between these stable markers.
+start_marker = "var img=f.cover?"
+start = text.find(start_marker)
+if start < 0:
+    raise SystemExit("UI patch anchor missing: list book renderer start")
 
-old_td = """tr.innerHTML='<td>'+img+fallback+'</td><td class=\"name-cell\"><strong>'+esc(f.name)+'</strong><small>'+esc((m.title&&m.title!==f.name)?m.title:'')+'</small><div class=\"meta-line\">'+esc(sub)+'</div></td><td class=\"author-cell\">'+esc(a||'—')+'</td><td>'+esc(ext(f.name))+'</td><td>'+esc(size(f.size))+'</td><td>'+esc(displayDate(f.modified))+'</td>';"""
-new_td = """tr.innerHTML='<td class=\"icon-cell\">'+icon+'</td><td class=\"name-cell\"><strong>'+esc(f.name)+'</strong><small>'+esc((m.title&&m.title!==f.name)?m.title:'')+'</small><div class=\"meta-line\">'+esc(sub)+'</div></td><td class=\"author-cell\">'+esc(a||'—')+'</td><td>'+esc(ext(f.name))+'</td><td>'+esc(size(f.size))+'</td><td>'+esc(displayDate(f.modified))+'</td>';"""
-if old_td not in text:
-    raise SystemExit("UI patch anchor missing: list row renderer")
-text = text.replace(old_td, new_td, 1)
+end_marker = "var fallback=f.cover?"
+end = text.find(end_marker, start)
+if end < 0:
+    raise SystemExit("UI patch anchor missing: list book renderer end")
 
-old_folder = """if(f.folder){tr.innerHTML='<td>📁</td><td class=\"name-cell\"><strong>'+esc(f.name)+'</strong><small>Thư mục</small></td><td></td><td>DIR</td><td></td><td></td>';tr.onclick=function(){state.parent=f.id;state.selected=f.id;renderContent()};}"""
-new_folder = """if(f.folder){var folderIcon='<span class=\"folder-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 30 30\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2 7h9l3 3h14v16H2z\" fill=\"#c0c0c0\" stroke=\"#000\" stroke-width=\"2\"/><path d=\"M2 10h26\" stroke=\"#fff\" stroke-width=\"2\"/></svg></span>';tr.innerHTML='<td class=\"icon-cell\">'+folderIcon+'</td><td class=\"name-cell\"><strong>'+esc(f.name)+'</strong><small>Thư mục</small></td><td></td><td>DIR</td><td></td><td></td>';tr.onclick=function(){state.parent=f.id;state.selected=f.id;renderContent()};}"""
-if old_folder not in text:
-    raise SystemExit("UI patch anchor missing: folder row renderer")
-text = text.replace(old_folder, new_folder, 1)
+# Keep everything after the fallback declaration intact; replace the two
+# cover variables with the supplied book icon.
+fallback_end = text.find("\n", end)
+if fallback_end < 0:
+    raise SystemExit("UI patch anchor missing: list book renderer line end")
+
+new_renderer = """var icon='<span class="book-icon" aria-hidden="true"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAeCAYAAAAy2w7YAAAD1klEQVR42r1Wz0tjZxQ9937fe8nkJaSdkVq0m9JFpKAD7iZOK5lpEdpuCkNBuu1fUWbtpqB76U6EUrrQaRcKRVLERYXgRgS7LdiFjSN2mLwf+e7t4r1oYmJGx2m/zdu87517zzn3nEdLS0tar9eR83NwIrjNIQDOtV25XDaff/bFD0++evJ1vV5nALC7u7vYrv+GICjCOQfS1wShFImJOIxjfDTz8BEAv1arhQBg876PIAgQFAqQtgPdoh0iAhHBWg/GsABon52djZRKpWmrohARqAhEb0GdpkAgwEHgUmZobW3tRyKq2Q63b/qIigDwTp8/nzg4ONAUSNE3GyICM7/yg85J2s4VfRKoVQgCsgCg2vsiMyMMQ7RaL0HEgGratl7MQzUVQBAUYYzpLVJ7ZsciAkvZpW6QOI4xOTmJavUBojgBM6UYlGEpYIkRRRE2NjbQbDbhed65xAm9TaoqbF+vqhBxyOVyuHdvBFESg5ggmYYFClLAJ0YURrCefbVIgH4g5xx838f29jae/fwMzAxVQDulZhdJFcyM0dF3kcvlICKp6gaYGIOAjDGIogjVahUzMzNIkpQ66ZhSU6oNE+IkwfraOk5OTmDt8M7sVcZzzkHEZU+CUC8fKgwV7S37JkAiAs+z2N39HZubm9067RYdSBXGGLwzOoo7+TycG0zdlUBMjCgKUas9wtzcHKIoAjFDL3nFskErbGFlZQXHx8fwrNc9/+tRByK0Wi00m3+j7RyYCO6y10CIogjuqnykC1AdqLq2g+/52Nvbw87OzjkdcqlO0tRzQTGANQaqejPqUgML8vk8CoXC+WV3GUhSeTvn+pJlIJD22LlLVyJwXVX2dKQAVKGqfbMbCqTDYnFQfl3j/T6R4X86fO4R+m+B7IUJCSbLtc4+ymIC3aukUxBld6izQtBZ5WmMMUj6VEfpanAvX7xQyf6E0rVMF2K4BHR5dnQBpFEck4jcSQNEM4MzIwxbGPtgzFQ/foi8n8tEpVlS9HY0ZBukRanA8zzcffvuAYDEGJP+boVh6Kbu3zffPn36y/T09E/GGGZjBM514ryzP641C2OMBkHAANYBtJmYVBWWmWl+fv6vTx8//pKI2m9SAKpqHNKIt+VymYvFYsv3/fbs7KytVCp0eHiotwGoVCq0vLzc7tiNiGAnJib+2draei+O409KpdKvjUbjWpEy7DQaDQRBgPHxcV1YWICqKjWbzW8WFxe/Ozo6emtkZOQPay2LiBLRawMSEUQEQRBgf3///bGxMUsZlx+urq5+f3p6+iBJkqEpfNOTJAmmpqb+/BfyecEL+bzvwAAAAABJRU5ErkJggg==" alt="" width="26" height="30"></span>';"""
+text = text[:start] + new_renderer + text[fallback_end:]
+
+# Replace the folder emoji renderer. Locate the exact if(f.folder) block
+# and change only its generated first cell.
+folder_start = text.find("if(f.folder){")
+if folder_start < 0:
+    raise SystemExit("UI patch anchor missing: folder renderer start")
+
+folder_end = text.find("else {", folder_start)
+if folder_end < 0:
+    raise SystemExit("UI patch anchor missing: folder renderer end")
+
+folder_block = text[folder_start:folder_end]
+if "📁" not in folder_block:
+    raise SystemExit("UI patch anchor missing: folder emoji")
+
+folder_icon = '<span class="folder-icon" aria-hidden="true"><svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path d="M2 7h9l3 3h14v16H2z" fill="#c0c0c0" stroke="#000" stroke-width="2"/><path d="M2 10h26" stroke="#fff" stroke-width="2"/></svg></span>'
+folder_block = folder_block.replace('<td>📁</td>', '<td class="icon-cell">'+folder_icon+'</td>', 1)
+text = text[:folder_start] + folder_block + text[folder_end:]
 
 old_icon = '.book-row{cursor:pointer}.book-row:hover{background:#f5f5f5}.book-row.selected{background:var(--select);outline:1px dotted #555;outline-offset:-2px}'
 new_icon = '.book-row{cursor:pointer}.book-row:hover{background:#f5f5f5}.book-row.selected{background:var(--select);outline:1px dotted #555;outline-offset:-2px}.icon-cell{text-align:center;padding-left:4px!important;padding-right:4px!important}'
@@ -59,4 +80,4 @@ if old_icon in text:
     text = text.replace(old_icon, new_icon, 1)
 
 path.write_text(text, encoding="utf-8")
-print("Prepared complete replacement scripts/postprocess_ui.py with a real 30px Windows 3.x-style folder SVG.")
+print("Patched docs/index.html with the 30px Windows-style folder SVG and existing book icon.")
