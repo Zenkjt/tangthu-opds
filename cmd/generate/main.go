@@ -327,171 +327,17 @@ button{cursor:pointer;color:#000;background:#c0c0c0}
   }
 
   function showShelf(){
-    var checked=false;
-    var matched=false;
-    var matchedName='';
-
-    modal(
-      'ĐĂNG KÝ / ĐỔI TÊN / XÓA TỦ SÁCH',
-      '<fieldset>' +
-        '<legend>Google Drive</legend>' +
-        '<label for="driveLink">Đường link thư mục</label>' +
-        '<input id="driveLink" type="url" placeholder="https://drive.google.com/drive/folders/..." value="">' +
-      '</fieldset>' +
-
-      '<fieldset>' +
-        '<legend>Tên hiển thị</legend>' +
-        '<label for="shelfName">Tên tủ sách</label>' +
-        '<input id="shelfName" type="text" placeholder="Tên muốn hiển thị trên Tàng Thư">' +
-      '</fieldset>' +
-
-      '<div class="note" id="shelfNote">' +
-        'Dán link Google Drive rồi bấm <strong>Kiểm tra link</strong> để nhận diện tủ.' +
-      '</div>' +
-
-      '<div class="modal-actions">' +
-        '<button id="lookupBtn">Kiểm tra link</button>' +
-        '<button id="shareBtn" disabled>Tạo tủ</button>' +
-      '</div>' +
-
-      '<p class="muted" id="shelfMsg">' +
-        'Tên hiển thị trên Tàng Thư độc lập với tên thư mục thật trên Google Drive.' +
-      '</p>'
-    );
-
-    function setAction(label,enabled){
-      var btn=$('shareBtn');
-      btn.textContent=label;
-      btn.disabled=!enabled;
-    }
-
-    function resetCheck(){
-      checked=false;
-      matched=false;
-      matchedName='';
-      setAction('Tạo tủ',false);
-    }
-
-    $('driveLink').oninput=resetCheck;
-    $('shelfName').oninput=function(){
-      if(!checked)return;
-
-      var name=$('shelfName').value.trim();
-
-      if(matched && name.toUpperCase()==='DELETE'){
-        setAction('Xóa tủ',true);
-        $('shelfNote').innerHTML=
-          '<strong>⚠ XÓA TỦ:</strong> Tủ <strong>'+esc(matchedName)+
-          '</strong> sẽ bị xóa khỏi Tàng Thư. '+
-          '<strong>Google Drive và toàn bộ sách sẽ không bị xóa.</strong>';
-      }else if(matched){
-        setAction('Đổi tên',!!name);
-        $('shelfNote').textContent=
-          'Đã nhận ra tủ hiện tại: '+matchedName+
-          '. Thay đổi tên ở đây chỉ đổi tên hiển thị trên Tàng Thư.';
-      }else{
-        setAction('Tạo tủ',!!name);
-      }
-    };
-
+    var b=currentBranch();
+    modal('ĐĂNG KÝ / ĐỔI TÊN TỦ SÁCH','<fieldset><legend>Google Drive</legend><label for="driveLink">Đường link thư mục</label><input id="driveLink" type="url" placeholder="https://drive.google.com/drive/folders/..." value=""></fieldset><fieldset><legend>Tên hiển thị</legend><label for="shelfName">Tên tủ sách</label><input id="shelfName" type="text" placeholder="Tên muốn hiển thị trên Tàng Thư"></fieldset><div class="note">Dán lại đúng link Google Drive của một tủ đã có trên Tàng Thư để nhận diện tên hiện tại. Tên hiển thị trên Tàng Thư độc lập với tên thư mục thật trên Google Drive.</div><div class="modal-actions"><button id="lookupBtn">Kiểm tra link</button><button id="shareBtn">Chia sẻ / Đổi tên</button></div><p class="muted" id="shelfMsg">Lưu ý: GitHub Pages hiện là website tĩnh; nút này mới thực hiện bước kiểm tra/chuẩn bị thông tin, chưa tự ghi thay đổi vào config GitHub.</p>');
     $('lookupBtn').onclick=function(){
-      var link=$('driveLink').value.trim();
-      var id=parseDriveId(link);
-
-      if(!id){
-        checked=false;
-        matched=false;
-        setAction('Tạo tủ',false);
-        $('shelfMsg').textContent='Không nhận ra Folder ID từ đường link này.';
-        $('shelfNote').textContent='Hãy dán đúng link thư mục Google Drive.';
-        return;
-      }
-
-      var found=branches().find(function(x){
-        return x.root_folder_id===id;
-      });
-
-      checked=true;
-
-      if(found){
-        matched=true;
-        matchedName=found.name;
-        $('shelfName').value=found.name;
-
-        $('shelfMsg').textContent=
-          'Đã nhận ra tủ: '+found.name+'.';
-
-        $('shelfNote').textContent=
-          'Tủ này đã tồn tại trên Tàng Thư. '+
-          'Đổi tên bên dưới để sửa tên hiển thị, hoặc nhập DELETE để xóa tủ khỏi Tàng Thư.';
-
-        setAction('Đổi tên',true);
-      }else{
-        matched=false;
-        matchedName='';
-        $('shelfName').value='';
-
-        $('shelfMsg').textContent=
-          'Link hợp lệ nhưng đây là một tủ mới.';
-
-        $('shelfNote').textContent=
-          'Nhập tên muốn hiển thị trên Tàng Thư rồi bấm Tạo tủ.';
-
-        setAction('Tạo tủ',false);
-      }
+      var id=parseDriveId($('driveLink').value);if(!id){$('shelfMsg').textContent='Không nhận ra Folder ID từ đường link này.';return}
+      var found=branches().find(function(x){return x.root_folder_id===id});
+      if(found){$('shelfName').value=found.name;$('shelfMsg').textContent='Đã nhận ra tủ: '+found.name+'. Tên này là tên hiển thị trên Tàng Thư.'}
+      else {$('shelfName').value='';$('shelfMsg').textContent='Link hợp lệ nhưng chưa có trong danh mục hiện tại. Việc thêm tủ vẫn cần cập nhật config và chạy lại GitHub Actions.'}
     };
-
-    $('shareBtn').onclick=function(){
-      if(!checked){
-        $('shelfMsg').textContent='Hãy bấm Kiểm tra link trước.';
-        return;
-      }
-
-      var link=$('driveLink').value.trim();
-      var id=parseDriveId(link);
-
-      if(!id){
-        $('shelfMsg').textContent='Link Google Drive không hợp lệ.';
-        return;
-      }
-
-      var name=$('shelfName').value.trim();
-
-      if(!name){
-        $('shelfMsg').textContent='Hãy nhập tên tủ sách.';
-        return;
-      }
-
-      var isDelete=name.toUpperCase()==='DELETE';
-
-      if(isDelete && !matched){
-        $('shelfMsg').textContent=
-          'Không thể xóa: link này chưa phải là một tủ đã đăng ký.';
-        return;
-      }
-
-      var action=isDelete?'delete':(matched?'rename':'create');
-
-      var title='[TANGTHU] '+
-        (isDelete?'DELETE':name);
-
-      var body=
-        '- Google Drive: '+link+'\n'+
-        '- Tên tủ: '+name+'\n'+
-        '- Hành động: '+action+'\n'+
-        '- Folder ID: '+id+'\n\n'+
-        'Yêu cầu được tạo từ trang TÀNG THƯ.';
-
-      var issueURL=
-        'https://github.com/Zenkjt/tangthu-opds/issues/new'+
-        '?title='+encodeURIComponent(title)+
-        '&body='+encodeURIComponent(body);
-
-      closeModal();
-      window.open(issueURL,'_blank','noopener');
-    };
+    $('shareBtn').onclick=function(){var id=parseDriveId($('driveLink').value);if(!id){$('shelfMsg').textContent='Hãy dán link Google Drive hợp lệ trước.';return}var name=$('shelfName').value.trim();if(!name){$('shelfMsg').textContent='Hãy nhập tên tủ sách.';return}navigator.clipboard&&navigator.clipboard.writeText('Tủ sách: '+name+'\nGoogle Drive: '+$('driveLink').value).catch(function(){});$('shelfMsg').textContent='Đã chuẩn bị thông tin. Với kiến trúc GitHub Pages hiện tại, cần đưa thông tin này vào config/branches.json rồi Build để tủ xuất hiện.'};
   }
-  function parseDriveId(s){var m=String(s||'').match(/\/drive\/(?:u\/\d+\/)?folders\/([a-zA-Z0-9_-]+)/);if(m)return m[1];m=String(s||'').match(/\/folders\/([a-zA-Z0-9_-]+)/);if(m)return m[1];m=String(s||'').match(/[?&]id=([a-zA-Z0-9_-]+)/);return m?m[1]:''}
+  function parseDriveId(s){var m=String(s||'').match(/\/folders\/([a-zA-Z0-9_-]+)/);if(m)return m[1];m=String(s||'').match(/[?&]id=([a-zA-Z0-9_-]+)/);return m?m[1]:''}
   function runSearch(){state.search=$('searchInput').value;renderContent()}
 
   $('upBtn').onclick=function(){var b=currentBranch();if(!b)return;if(state.search){state.search='';$('searchInput').value='';}if(state.parent!==b.root_folder_id){var f=findFile(b,state.parent);state.parent=f?f.parent_id:b.root_folder_id;state.selected=null;renderContent()}};
