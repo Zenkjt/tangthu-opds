@@ -7,34 +7,34 @@ text = path.read_text(encoding="utf-8")
 old_css = """.cover{width:64px;height:90px;object-fit:cover;display:block;background:#eee;border:1px solid #777}
 .cover-fallback{width:64px;height:90px;display:grid;place-items:center;background:#ddd;border:1px solid #777;font-weight:bold;font-size:12px;text-align:center}
 """
-new_css = """.book-icon{width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center}
-.book-icon svg{width:20px;height:20px;display:block;shape-rendering:crispEdges}
+new_css = """.book-icon{width:30px;height:30px;display:inline-flex;align-items:center;justify-content:center}
+.book-icon img{width:26px;height:30px;display:block;object-fit:contain}
 """
 if old_css not in text:
     raise SystemExit("UI patch anchor missing: list cover CSS")
 text = text.replace(old_css, new_css, 1)
 
 old_header = '<th style="width:78px">Bìa</th>'
-new_header = '<th style="width:34px"> </th>'
+new_header = '<th style="width:44px"> </th>'
 if old_header not in text:
     raise SystemExit("UI patch anchor missing: list cover header")
 text = text.replace(old_header, new_header, 1)
 
 old_mobile = '.books th:nth-child(1),.books td:nth-child(1){width:74px}'
-new_mobile = '.books th:nth-child(1),.books td:nth-child(1){width:34px}'
+new_mobile = '.books th:nth-child(1),.books td:nth-child(1){width:44px}'
 if old_mobile not in text:
     raise SystemExit("UI patch anchor missing: mobile cover column")
 text = text.replace(old_mobile, new_mobile, 1)
 
 old_narrow = '.cover{width:58px;height:82px}.cover-fallback{width:58px;height:82px}.name-cell strong'
-new_narrow = '.book-icon{width:18px;height:18px}.book-icon svg{width:18px;height:18px}.name-cell strong'
+new_narrow = '.book-icon{width:30px;height:30px}.book-icon img{width:26px;height:30px}.name-cell strong'
 if old_narrow not in text:
     raise SystemExit("UI patch anchor missing: narrow cover CSS")
 text = text.replace(old_narrow, new_narrow, 1)
 
 old_js = r"""var img=f.cover?'<img class="cover" loading="lazy" src="'+esc(f.cover)+'" alt="" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'/>':'<span class="cover-fallback">'+esc(ext(f.name))+'</span>';
         var fallback=f.cover?'<span class="cover-fallback" style="display:none">'+esc(ext(f.name))+'</span>':'';"""
-new_js = r"""var icon='<span class="book-icon" aria-hidden="true"><svg viewBox="0 0 20 20" role="img" focusable="false"><path fill="#ffffff" d="M5 4h13v14H5z"/><path fill="#000000" d="M3 2h13v14H5c-1.1 0-2-.9-2-2V2z"/><path fill="#ffffff" d="M6 5h7v1H6zm0 3h7v1H6zm0 3h7v1H6z"/><path fill="#404040" d="M3 15h13v1H5c-1.1 0-2-.9-2-2z"/></svg></span>';"""
+new_js = r"""var icon='<span class="book-icon" aria-hidden="true"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAeCAYAAAAy2w7YAAAD1klEQVR42r1Wz0tjZxQ9937fe8nkJaSdkVq0m9JFpKAD7iZOK5lpEdpuCkNBuu1fUWbtpqB76U6EUrrQaRcKRVLERYXgRgS7LdiFjSN2mLwf+e7t4r1oYmJGx2m/zdu87517zz3n3EdLS0tar9eR83NwIrjNIQDOtV25XDaff/bFD0++evJ1vV5nALC7u7vYrv+GICjCOQfS1wShFImJOIxjfDTz8BEAv1arhQBg876PIAgQFAqQtgPdoh0iAhHBWg/GsABon52djZRKpWmrohARqAhEb0GdpkAgwEHgUmZobW3tRyKq2Q63b/qIigDwTp8/nzg4ONAUSNE3GyICM7/yg85J2s4VfRKoVQgCsgCg2vsiMyMMQ7RaL0HEgGratl7MQzUVQBAUYYzpLVJ7ZsciAkvZpW6QOI4xOTmJavUBojgBM6UYlGEpYIkRRRE2NjbQbDbhed65xAm9TaoqbF+vqhBxyOVyuHdvBFESg5ggmYYFClLAJ0YURrCefbVIgH4g5xx838f29jae/fwMzAxVQDulZhdJFcyM0dF3kcvlICKp6gaYGIOAjDGIogjVahUzMzNIkpQ66ZhSU6oNE+IkwfraOk5OTmDt8M7sVcZzzkHEZU+CUC8fKgwV7S37JkAiAs+z2N39HZubm9067RYdSBXGGLwzOoo7+TycG0zdlUBMjCgKUas9wtzcHKIoAjFDL3nFskErbGFlZQXHx8fwrNc9/+tRByK0Wi00m3+j7RyYCO6y10CIogjuqnykC1AdqLq2g+/52Nvbw87OzjkdcqlO0tRzQTGANQaqejPqUgML8vk8CoXC+WV3GUhSeTvn+pJlIJD22LlLVyJwXVX2dKQAVKGqfbMbCqTDYnFQfl3j/T6R4X86fO4R+m+B7IUJCSbLtc4+ymIC3aukUxBld6izQtBZ5WmMMUj6VEfpanAvX7xQyf6E0rVMF2K4BHR5dnQBpFEck4jcSQNEM4MzIwxbGPtgzFQ/foi8n8tEpVlS9HY0ZBukRanA8zzcffvuAYDEGJP+boVh6Kbu3zffPn36y/T09E/GGGZjBM514ryzP641C2OMBkHAANYBtJmYVBWWmWl+fv6vTx8//pKI2m9SAKpqHNKIt+VymYvFYsv3/fbs7KytVCp0eHiotwGoVCq0vLzc7tiNiGAnJib+2draei+O409KpdKvjUbjWpEy7DQaDQRBgPHxcV1YWICqKjWbzW8WFxe/Ozo6emtkZOQPay2LiBLRawMSEUQEQRBgf3///bGxMUsZlx+urq5+f3p6+iBJkqEpfNOTJAmmpqb+/BfyecEL+bzvwAAAAABJRU5ErkJggg==" alt="" width="26" height="30"></span>';"""
 if old_js not in text:
     raise SystemExit("UI patch anchor missing: list cover renderer")
 text = text.replace(old_js, new_js, 1)
