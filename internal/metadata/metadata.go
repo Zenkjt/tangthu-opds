@@ -6,11 +6,13 @@ import (
 	"context"
 	"encoding/binary"
 	"encoding/xml"
+	"html"
 	"io"
 	"net/url"
 	"path"
 	"regexp"
 	"strings"
+	"unicode"
 
 	"github.com/Zenkjt/tangthu-opds/internal/drive"
 )
@@ -142,7 +144,7 @@ func parseEPUB(data []byte) Metadata {
 	m.Date = first(p.Metadata.Date)
 	m.Year = yearOf(m.Date)
 	m.Language = first(p.Metadata.Language)
-	m.Description = first(p.Metadata.Description)
+	m.Description = cleanDescription(first(p.Metadata.Description))
 	m.Subjects = cleanList(p.Metadata.Subject)
 	for _, id := range p.Metadata.Identifier {
 		if looksISBN(id) {
@@ -161,6 +163,48 @@ func parseEPUB(data []byte) Metadata {
 	}
 	m.Cover, m.CoverType = extractEPUBCover(files, cx.Rootfile.FullPath, p)
 	return m
+}
+
+// cleanDescription converts descriptions copied from EPUB HTML/XHTML into
+// plain readable text. It deliberately does not preserve or execute markup.
+func cleanDescription(s string) string {
+	s = strings.TrimSpace(s)
+	if s == "" {
+		return ""
+	}
+
+	// Convert common HTML entities (&nbsp;, &amp;, numeric entities, etc.)
+	// before stripping tags.
+	s = html.UnescapeString(s)
+
+	// Preserve paragraph/block boundaries as line breaks.
+	reBlock := regexp.MustCompile(`(?is)<\s*/?\s*(p|div|br|li|h[1-6]|blockquote|tr|pre)\b[^>]*>`)
+	s = reBlock.ReplaceAllString(s, "\n")
+
+	// Strip any remaining HTML/XML tags.
+	reTag := regexp.MustCompile(`(?is)<[^>]*>`)
+	s = reTag.ReplaceAllString(s, "")
+
+	// Decode entities that may have been exposed after tag removal.
+	s = html.UnescapeString(s)
+
+	// Normalize whitespace while retaining paragraph breaks.
+	lines := strings.Split(s, "\n")
+	out := make([]string, 0, len(lines))
+	for _, line := range lines {
+		line = strings.Map(func(r rune) rune {
+			if unicode.IsSpace(r) {
+				return ' '
+			}
+			return r
+		}, line)
+		line = strings.Join(strings.Fields(line), " ")
+		if line != "" {
+			out = append(out, line)
+		}
+	}
+
+	return strings.TrimSpace(strings.Join(out, "\n\n"))
 }
 
 func extractEPUBCover(files map[string]*zip.File, opfPath string, p opfPackage) ([]byte, string) {
@@ -357,7 +401,7 @@ func parseMOBI(data []byte) Metadata {
 		case 101:
 			m.Publisher = val
 		case 103:
-			m.Description = val
+			m.Description = cleanDescription(val)
 		case 104:
 			m.ISBN = normalizeISBN(val)
 		case 105:
