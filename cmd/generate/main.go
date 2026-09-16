@@ -65,6 +65,7 @@ func main() {
 	if err != nil {
 		fatal(err.Error())
 	}
+
 	ctx := context.Background()
 	var branches []Branch
 	for _, bc := range cfg.Branches {
@@ -88,6 +89,7 @@ func main() {
 		}
 		branches = append(branches, Branch{bc, folder.Name, converted})
 	}
+
 	sort.SliceStable(branches, func(i, j int) bool {
 		return branchLess(branches[i].Config.DisplayName, branches[j].Config.DisplayName)
 	})
@@ -162,9 +164,6 @@ func acquisitionURL(f FileEntry) string {
 }
 
 func writeWeb(out, base string, branches []Branch) error {
-	// The catalog is rendered client-side from catalog.json. The generated HTML
-	// is intentionally self-contained: no framework, no external CSS, no JS CDN.
-	// This keeps the GitHub Pages site small and friendly to older e-readers/mobile browsers.
 	var b strings.Builder
 	b.WriteString(`<!doctype html>
 <html lang="vi">
@@ -174,45 +173,47 @@ func writeWeb(out, base string, branches []Branch) error {
 <meta name="description" content="Tàng Thư — thư viện sách phân tán theo chuẩn OPDS">
 <title>TÀNG THƯ — Thư viện sách phân tán</title>
 <style>
-:root{--blue:#000080;--blue2:#0000a0;--gray:#c0c0c0;--light:#dfdfdf;--white:#fff;--dark:#404040;--black:#000;--select:#d8d8d8;--text:#111}
+:root{--gray:#c0c0c0;--light:#dfdfdf;--white:#fff;--dark:#404040;--black:#000;--select:#e6e6e6;--text:#111;--yellow:#ffffcc}
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:#c0c0c0;color:var(--text);font-family:Tahoma,Arial,sans-serif;font-size:14px}
 body{min-height:100vh;padding:7px}
-button,input{font:inherit}
+button,input,select{font:inherit}
 button{cursor:pointer;color:#000;background:#c0c0c0}
+button:disabled{cursor:default;color:#777}
 .win{max-width:1500px;margin:0 auto;border:2px solid #fff;border-right-color:#404040;border-bottom-color:#404040;background:#c0c0c0;box-shadow:1px 1px 0 #000}
-.titlebar{height:34px;display:flex;align-items:center;gap:8px;padding:3px 7px;background:#000080;color:#fff;font-weight:bold;font-size:17px}
-.titlebar .appicon{width:24px;height:24px;display:grid;place-items:center;background:#fff;color:#000;border:1px solid #000;font-size:15px}
+.titlebar{height:34px;display:flex;align-items:center;gap:8px;padding:3px 7px;background:#dfdfdf;color:#000;border-bottom:2px solid #808080;font-weight:bold;font-size:17px}
+.titlebar .appicon{width:24px;height:24px;display:grid;place-items:center;background:#ffffcc;color:#000;border:1px solid #777;font-size:15px}
 .titlebar .caption{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.toolbar{display:flex;gap:4px;padding:5px;border-bottom:1px solid #808080;overflow-x:auto}
+.toolbar{display:flex;gap:4px;padding:5px;border-bottom:1px solid #808080;overflow-x:auto;background:#c0c0c0}
 .tool{flex:0 0 auto;min-width:90px;height:70px;padding:4px 7px;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px}
 .tool:active{border-color:#555 #fff #fff #555;padding:5px 6px 3px 8px}
 .tool .ico{font-size:26px;line-height:28px}.tool .lbl{font-size:13px}
-.brand{margin-left:auto;min-width:255px;height:70px;padding:6px 16px;border:2px solid #808080;border-right-color:#fff;border-bottom-color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.brand{margin-left:auto;min-width:255px;height:70px;padding:6px 16px;border:2px solid #808080;border-right-color:#fff;border-bottom-color:#fff;background:#ffffcc;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
 .brand strong{font-size:21px}.brand em{font-family:Georgia,serif;font-size:15px;margin-top:3px}
 .main{display:grid;grid-template-columns:300px minmax(0,1fr);gap:7px;padding:5px}
 .panel{min-width:0;border:2px solid #808080;border-right-color:#fff;border-bottom-color:#fff;background:#fff;display:flex;flex-direction:column;overflow:hidden}
-.panel-title{height:35px;display:flex;align-items:center;padding:5px 9px;background:#000080;color:#fff;font-weight:bold;font-size:16px}
+.panel-title{height:35px;display:flex;align-items:center;padding:5px 9px;background:#dfdfdf;color:#000;border-bottom:1px solid #888;font-weight:bold;font-size:16px}
 .panel-title .count{margin-left:auto;font-weight:normal;font-size:13px}
 .panel-body{min-height:0;overflow:auto;background:#fff}
 .library-list{list-style:none;margin:0;padding:4px}
 .branch{padding:7px 8px;display:flex;align-items:center;gap:7px;border:1px dotted transparent;cursor:pointer}
-.branch:hover{background:#eee}
+.branch:hover{background:#f3f3f3}
 .branch.active{background:var(--select);border:1px dotted #555}
 .folder-icon{width:25px;text-align:center;font-size:20px;flex:0 0 25px}.branch-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .sidebar-foot{margin-top:auto;border-top:2px solid #808080;padding:7px;background:#c0c0c0}
-.content-path{padding:7px 10px;background:#dfdfdf;border-bottom:1px solid #888;font-weight:bold;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.content-path{padding:7px 10px;background:#ffffcc;border-bottom:1px solid #888;font-weight:bold;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .books{width:100%;border-collapse:collapse;table-layout:fixed}
-.books th{position:sticky;top:0;z-index:2;background:#dfdfdf;border:1px solid #888;padding:5px;text-align:left;font-weight:bold}
+.books th{position:sticky;top:0;z-index:2;background:#dfdfdf;color:#000;border:1px solid #888;padding:5px;text-align:left;font-weight:bold}
 .books td{border-bottom:1px solid #ccc;padding:5px 6px;vertical-align:middle;overflow:hidden;text-overflow:ellipsis}
-.book-row{cursor:pointer}.book-row:hover{background:#f0f0f0}.book-row.selected{background:var(--select);outline:1px dotted #555;outline-offset:-2px}
+.book-row{cursor:pointer}.book-row:hover{background:#f5f5f5}.book-row.selected{background:var(--select);outline:1px dotted #555;outline-offset:-2px}
 .cover{width:44px;height:58px;object-fit:cover;display:block;background:#eee;border:1px solid #777}
 .cover-fallback{width:44px;height:58px;display:grid;place-items:center;background:#ddd;border:1px solid #777;font-weight:bold;font-size:11px;text-align:center}
 .name-cell strong{display:block;font-weight:bold;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.name-cell small{display:block;color:#444;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.searchbar{display:flex;gap:5px;align-items:center;padding:7px;border-top:1px solid #808080;background:#c0c0c0}.searchbar label{font-weight:bold;white-space:nowrap}.searchbar input{min-width:0;flex:1;height:34px;padding:5px 8px;background:#fff;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff}.searchbar button{height:34px;min-width:80px;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.searchbar select{height:34px;max-width:190px}
+.searchbar{display:flex;gap:5px;align-items:center;padding:7px;border-top:1px solid #808080;background:#c0c0c0}.searchbar label{font-weight:bold;white-space:nowrap}.searchbar input{min-width:0;flex:1;height:34px;padding:5px 8px;background:#fff;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff}.searchbar button,.searchbar select{height:34px;min-width:80px;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.searchbar select{max-width:190px}
 .status{display:flex;justify-content:space-between;gap:8px;padding:5px 9px;border-top:2px solid #808080;background:#c0c0c0}.status span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.22);display:none;align-items:center;justify-content:center;padding:12px;z-index:20}.modal-backdrop.open{display:flex}.modal{width:min(680px,100%);max-height:90vh;overflow:auto;background:#c0c0c0;border:2px solid #fff;border-right-color:#404040;border-bottom-color:#404040;box-shadow:3px 3px 0 #000}.modal-title{display:flex;align-items:center;justify-content:space-between;background:#000080;color:#fff;padding:5px 8px;font-weight:bold}.close{min-width:28px;height:24px;padding:0;background:#c0c0c0;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.modal-body{padding:14px}.modal-body p{line-height:1.5}.modal-body fieldset{border:2px groove #ddd;margin:0 0 12px;padding:12px}.modal-body legend{font-weight:bold}.modal-body label{display:block;font-weight:bold;margin-bottom:5px}.modal-body input[type=text],.modal-body input[type=url]{width:100%;height:34px;padding:5px 7px;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff;background:#fff}.modal-actions{display:flex;justify-content:flex-end;gap:6px;margin-top:12px}.modal-actions button{min-width:120px;height:34px;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.note{background:#ffffcc;border:1px solid #888;padding:8px}.muted{color:#555}.detail{display:grid;grid-template-columns:90px 1fr;gap:6px 12px}.detail dt{font-weight:bold}.detail dd{margin:0;word-break:break-word}
+.modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.22);display:none;align-items:center;justify-content:center;padding:12px;z-index:20}.modal-backdrop.open{display:flex}.modal{width:min(680px,100%);max-height:90vh;overflow:auto;background:#c0c0c0;border:2px solid #fff;border-right-color:#404040;border-bottom-color:#404040;box-shadow:3px 3px 0 #000}.modal-title{display:flex;align-items:center;justify-content:space-between;background:#dfdfdf;color:#000;border-bottom:2px solid #808080;padding:5px 8px;font-weight:bold}.close{min-width:28px;height:24px;padding:0;background:#c0c0c0;color:#000;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.modal-body{padding:14px}.modal-body p{line-height:1.5}.modal-body fieldset{border:2px groove #ddd;margin:0 0 12px;padding:12px}.modal-body legend{font-weight:bold}.modal-body label{display:block;font-weight:bold;margin-bottom:5px}.modal-body input[type=text],.modal-body input[type=url]{width:100%;height:34px;padding:5px 7px;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff;background:#fff;color:#111}.modal-actions{display:flex;justify-content:flex-end;gap:6px;margin-top:12px}.modal-actions button{min-width:120px;height:34px;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.note{background:#ffffcc;color:#111;border:1px solid #888;padding:9px;line-height:1.45}.muted{color:#222}.detail{display:grid;grid-template-columns:90px 1fr;gap:6px 12px}.detail dt{font-weight:bold}.detail dd{margin:0;word-break:break-word}
 .empty{padding:30px;text-align:center;color:#555}.folder-row td{font-weight:bold}.folder-row:hover{background:#eee}
+.lookup-state{margin-top:8px;padding:7px 9px;background:#dfdfdf;border:1px solid #888;color:#111}
 @media(max-width:850px){body{padding:3px}.titlebar{height:31px;font-size:15px}.toolbar{display:grid;grid-template-columns:repeat(4,minmax(70px,1fr));overflow:visible}.tool{min-width:0;width:auto;height:58px}.tool .ico{font-size:22px;line-height:22px}.brand{grid-column:1/-1;margin:0;height:52px;min-width:0}.brand strong{font-size:17px}.brand em{font-size:13px}.main{grid-template-columns:1fr;gap:5px}.panel:first-child{max-height:230px}.panel:nth-child(2){min-height:430px}.books th:nth-child(3),.books td:nth-child(3),.books th:nth-child(5),.books td:nth-child(5){display:none}.books th:nth-child(1),.books td:nth-child(1){width:54px}.books th:nth-child(2),.books td:nth-child(2){width:auto}.books th:nth-child(4),.books td:nth-child(4){width:68px}.searchbar{flex-wrap:wrap}.searchbar label{width:100%}.searchbar input{width:100%;flex-basis:calc(100% - 86px)}.searchbar select{max-width:none;flex:1}.status{font-size:12px}}
 @media(max-width:430px){.toolbar{grid-template-columns:repeat(3,minmax(70px,1fr))}.tool{height:54px}.tool .lbl{font-size:12px}.panel:first-child{max-height:190px}.books th:nth-child(4),.books td:nth-child(4){display:none}.cover{width:38px;height:52px}.cover-fallback{width:38px;height:52px}.name-cell strong{font-size:13px}.name-cell small{font-size:11px}.modal-body{padding:10px}}
 </style>
@@ -257,7 +258,6 @@ button{cursor:pointer;color:#000;background:#c0c0c0}
     <div class="modal-body" id="modalBody"></div>
   </div>
 </div>
-
 <script>
 (function(){
   'use strict';
@@ -268,7 +268,8 @@ button{cursor:pointer;color:#000;background:#c0c0c0}
   var ext=function(n){var m=String(n||'').toLowerCase().match(/\.([^.]+)$/);return m?m[1].toUpperCase():'FILE'};
   var modal=function(title,body){$('modalTitle').textContent=title;$('modalBody').innerHTML=body;$('modalBackdrop').classList.add('open')};
   var closeModal=function(){$('modalBackdrop').classList.remove('open')};
-  $('modalClose').onclick=closeModal;$('modalBackdrop').onclick=function(e){if(e.target===$('modalBackdrop'))closeModal()};
+  $('modalClose').onclick=closeModal;
+  $('modalBackdrop').onclick=function(e){if(e.target===$('modalBackdrop'))closeModal()};
 
   function branches(){return state.catalog&&state.catalog.branches||[]}
   function currentBranch(){return branches().find(function(b){return b.id===state.branch})}
@@ -294,13 +295,11 @@ button{cursor:pointer;color:#000;background:#c0c0c0}
 
   function renderContent(){
     var b=currentBranch();var body=$('contentBody');body.innerHTML='';
-    if(!b){$('pathBar').textContent='Tàng Thư';$('itemCount').textContent='';body.innerHTML='<div class="empty">Chưa có tủ sách.</div>';return}
+    if(!b){$('pathBar').textContent='Tàng Thư';$('itemCount').textContent='';body.innerHTML='<div class="empty">Chưa có tủ sách. Hãy dùng nút <strong>Tủ sách</strong> để tạo tủ mới.</div>';return}
     var path=[b.name].concat(folderPath(b,state.parent));$('pathBar').textContent=path.join('  ›  ');
     var rows=children(b,state.parent);
     var q=state.search.trim().toLocaleLowerCase('vi-VN');
-    if(q){
-      rows=filesOf(b).filter(function(f){return !f.folder && (f.name+' '+(f.mime||'')).toLocaleLowerCase('vi-VN').indexOf(q)>=0});
-    }
+    if(q){rows=filesOf(b).filter(function(f){return !f.folder&&(f.name+' '+(f.mime||'')).toLocaleLowerCase('vi-VN').indexOf(q)>=0})}
     $('itemCount').textContent=rows.length+(q?' kết quả':' mục');
     if(!rows.length){body.innerHTML='<div class="empty">'+(q?'Không tìm thấy sách phù hợp.':'Thư mục này chưa có nội dung.')+'</div>';return}
     var table=document.createElement('table');table.className='books';
@@ -309,7 +308,7 @@ button{cursor:pointer;color:#000;background:#c0c0c0}
     rows.forEach(function(f){
       var tr=document.createElement('tr');tr.className=(f.folder?'folder-row ':'book-row ')+(state.selected===f.id?'selected':'');
       if(f.folder){tr.innerHTML='<td>📁</td><td class="name-cell"><strong>'+esc(f.name)+'</strong><small>Thư mục</small></td><td></td><td>DIR</td><td></td><td></td>';tr.onclick=function(){state.parent=f.id;state.selected=f.id;renderContent()};}
-      else {tr.innerHTML='<td><img class="cover" loading="lazy" src="'+cover(f.id)+'" alt="" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'"/><span class="cover-fallback" style="display:none">'+esc(ext(f.name))+'</span></td><td class="name-cell"><strong>'+esc(f.name)+'</strong><small>'+esc(displayDate(f.modified))+'</small></td><td>'+esc('')+'</td><td>'+esc(ext(f.name))+'</td><td>'+esc(size(f.size))+'</td><td>'+esc(displayDate(f.modified))+'</td>';tr.onclick=function(){state.selected=f.id;renderContent();showBook(f,b)};}
+      else {tr.innerHTML='<td><img class="cover" loading="lazy" src="'+cover(f.id)+'" alt="" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'"/><span class="cover-fallback" style="display:none">'+esc(ext(f.name))+'</span></td><td class="name-cell"><strong>'+esc(f.name)+'</strong><small>'+esc(displayDate(f.modified))+'</small></td><td></td><td>'+esc(ext(f.name))+'</td><td>'+esc(size(f.size))+'</td><td>'+esc(displayDate(f.modified))+'</td>';tr.onclick=function(){state.selected=f.id;renderContent();showBook(f,b)};}
       tb.appendChild(tr);
     });
     table.appendChild(tb);body.appendChild(table);
@@ -326,18 +325,82 @@ button{cursor:pointer;color:#000;background:#c0c0c0}
     modal('GIỚI THIỆU TÀNG THƯ','<p><strong>Tàng Thư là thư viện phân tán</strong>, sách được liệt kê theo chuẩn OPDS. Bạn chép đường dẫn <code>https://...</code> vào danh sách OPDS của máy đọc sách để truy cập.</p><p>Tàng Thư có nhiều <strong>“tủ sách”</strong>, mỗi tủ sách là một thư mục đã được chia sẻ trên Google Drive của người chia sẻ. Không nên dùng tài khoản Google chính cho việc này.</p><p>Bạn có thể đặt tên/đổi tên tủ mà bạn chia sẻ. Các tên bắt đầu bằng <strong>VN</strong> sẽ được ưu tiên hiển thị.</p><p>Vì các hạn chế của máy đọc sách nên mỗi tủ sách không nên để quá nhiều sách.</p><p style="text-align:center;font-family:Georgia,serif"><strong>Happy reading.</strong><br><em>A book is a dream holding in your hands.</em></p>');
   }
 
-  function showShelf(){
-    var b=currentBranch();
-    modal('ĐĂNG KÝ / ĐỔI TÊN TỦ SÁCH','<fieldset><legend>Google Drive</legend><label for="driveLink">Đường link thư mục</label><input id="driveLink" type="url" placeholder="https://drive.google.com/drive/folders/..." value=""></fieldset><fieldset><legend>Tên hiển thị</legend><label for="shelfName">Tên tủ sách</label><input id="shelfName" type="text" placeholder="Tên muốn hiển thị trên Tàng Thư"></fieldset><div class="note">Dán lại đúng link Google Drive của một tủ đã có trên Tàng Thư để nhận diện tên hiện tại. Tên hiển thị trên Tàng Thư độc lập với tên thư mục thật trên Google Drive.</div><div class="modal-actions"><button id="lookupBtn">Kiểm tra link</button><button id="shareBtn">Chia sẻ / Đổi tên</button></div><p class="muted" id="shelfMsg">Lưu ý: GitHub Pages hiện là website tĩnh; nút này mới thực hiện bước kiểm tra/chuẩn bị thông tin, chưa tự ghi thay đổi vào config GitHub.</p>');
-    $('lookupBtn').onclick=function(){
-      var id=parseDriveId($('driveLink').value);if(!id){$('shelfMsg').textContent='Không nhận ra Folder ID từ đường link này.';return}
-      var found=branches().find(function(x){return x.root_folder_id===id});
-      if(found){$('shelfName').value=found.name;$('shelfMsg').textContent='Đã nhận ra tủ: '+found.name+'. Tên này là tên hiển thị trên Tàng Thư.'}
-      else {$('shelfName').value='';$('shelfMsg').textContent='Link hợp lệ nhưng chưa có trong danh mục hiện tại. Việc thêm tủ vẫn cần cập nhật config và chạy lại GitHub Actions.'}
-    };
-    $('shareBtn').onclick=function(){var id=parseDriveId($('driveLink').value);if(!id){$('shelfMsg').textContent='Hãy dán link Google Drive hợp lệ trước.';return}var name=$('shelfName').value.trim();if(!name){$('shelfMsg').textContent='Hãy nhập tên tủ sách.';return}navigator.clipboard&&navigator.clipboard.writeText('Tủ sách: '+name+'\nGoogle Drive: '+$('driveLink').value).catch(function(){});$('shelfMsg').textContent='Đã chuẩn bị thông tin. Với kiến trúc GitHub Pages hiện tại, cần đưa thông tin này vào config/branches.json rồi Build để tủ xuất hiện.'};
+  function parseDriveId(s){
+    var text=String(s||'').trim();
+    var m=text.match(/\/drive\/(?:u\/\d+\/)?folders\/([A-Za-z0-9_-]+)/);
+    if(m)return m[1];
+    m=text.match(/\/folders\/([A-Za-z0-9_-]+)/);
+    if(m)return m[1];
+    m=text.match(/[?&]id=([A-Za-z0-9_-]+)/);
+    return m?m[1]:'';
   }
-  function parseDriveId(s){var m=String(s||'').match(/\/folders\/([a-zA-Z0-9_-]+)/);if(m)return m[1];m=String(s||'').match(/[?&]id=([a-zA-Z0-9_-]+)/);return m?m[1]:''}
+
+  function issueURL(title,body){
+    return 'https://github.com/Zenkjt/tangthu-opds/issues/new?title='+encodeURIComponent(title)+'&body='+encodeURIComponent(body);
+  }
+
+  function shelfIssue(action,id,name,link){
+    var title='[TANGTHU] '+name;
+    var body='- Google Drive: '+link+'\n- Tên tủ: '+name+'\n- Hành động: '+action+'\n- Folder ID: '+id+'\n\nYêu cầu được tạo từ trang TÀNG THƯ.';
+    return issueURL(title,body);
+  }
+
+  function showShelf(){
+    modal('ĐĂNG KÝ / ĐỔI TÊN TỦ SÁCH',
+      '<fieldset><legend>Google Drive</legend><label for="driveLink">Đường link thư mục</label><input id="driveLink" type="url" placeholder="https://drive.google.com/drive/folders/..." value=""></fieldset>'+
+      '<fieldset><legend>Tên hiển thị</legend><label for="shelfName">Tên tủ sách</label><input id="shelfName" type="text" placeholder="Tên muốn hiển thị trên Tàng Thư" value=""></fieldset>'+
+      '<div class="note"><strong>Kiểm tra link</strong> chỉ nhận diện tủ trong danh mục hiện tại. Nếu đã có, tên hiện tại sẽ được điền vào và nút hành động chuyển thành <strong>Đổi tên</strong>. Nếu chưa có, nút sẽ là <strong>Tạo tủ</strong>. Với tủ đã có, nhập đúng <strong>DELETE</strong> để chuyển thành <strong>Xóa tủ</strong>. Thao tác sẽ mở một GitHub Issue để hệ thống xử lý; không bao giờ xóa thư mục Google Drive.</div>'+
+      '<div class="lookup-state" id="shelfMsg">Chưa kiểm tra link.</div>'+
+      '<div class="modal-actions"><button id="lookupBtn">Kiểm tra link</button><button id="shareBtn" disabled>Kiểm tra link trước</button></div>'
+    );
+
+    var mode='none',found=null,checkedId='';
+    var setMessage=function(text){$('shelfMsg').textContent=text};
+    var updateAction=function(){
+      var name=$('shelfName').value.trim();
+      var isDelete=found&&name.toUpperCase()==='DELETE';
+      var btn=$('shareBtn');
+      if(mode==='create'){btn.textContent='Tạo tủ';btn.disabled=!checkedId||!name}
+      else if(mode==='rename'){btn.textContent='Đổi tên';btn.disabled=!checkedId||!name||isDelete}
+      else if(mode==='delete'){btn.textContent='Xóa tủ';btn.disabled=!checkedId||!isDelete}
+      else {btn.textContent='Kiểm tra link trước';btn.disabled=true}
+    };
+
+    $('lookupBtn').onclick=function(){
+      var link=$('driveLink').value.trim();
+      var id=parseDriveId(link);
+      if(!id){mode='none';found=null;checkedId='';$('shelfName').value='';setMessage('Không nhận ra Folder ID từ đường link Google Drive này.');updateAction();return}
+      found=branches().find(function(x){return String(x.root_folder_id)===String(id)});
+      checkedId=id;
+      if(found){
+        mode='rename';
+        $('shelfName').value=found.name;
+        setMessage('Đã nhận ra tủ "'+found.name+'". Bạn có thể đổi tên; hoặc nhập DELETE để xóa đăng ký tủ khỏi Tàng Thư.');
+      }else{
+        mode='create';
+        $('shelfName').value='';
+        setMessage('Link hợp lệ nhưng chưa đăng ký. Nhập tên mới rồi bấm Tạo tủ.');
+      }
+      updateAction();
+    };
+
+    $('shelfName').oninput=updateAction;
+    $('driveLink').oninput=function(){checkedId='';mode='none';found=null;updateAction();setMessage('Đã thay đổi link. Bấm Kiểm tra link để nhận diện.');};
+    $('shareBtn').onclick=function(){
+      var link=$('driveLink').value.trim();
+      var id=parseDriveId(link);
+      var name=$('shelfName').value.trim();
+      if(!id||id!==checkedId)return;
+      var action=mode;
+      if(found&&name.toUpperCase()==='DELETE')action='delete';
+      if(action==='rename'&&!name)return;
+      if(action==='create'&&!name)return;
+      if(action==='delete'&&name.toUpperCase()!=='DELETE')return;
+      var titleName=action==='delete'?found.name:name;
+      window.location.href=shelfIssue(action,id,titleName,link);
+    };
+  }
+
   function runSearch(){state.search=$('searchInput').value;renderContent()}
 
   $('upBtn').onclick=function(){var b=currentBranch();if(!b)return;if(state.search){state.search='';$('searchInput').value='';}if(state.parent!==b.root_folder_id){var f=findFile(b,state.parent);state.parent=f?f.parent_id:b.root_folder_id;state.selected=null;renderContent()}};
