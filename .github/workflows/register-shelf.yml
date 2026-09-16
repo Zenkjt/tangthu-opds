@@ -79,7 +79,7 @@ jobs:
                 }
 
                 const m = u.pathname.match(
-                  /^\/drive\/folders\/([A-Za-z0-9_-]+)/
+                  /^\/drive\/(?:u\/\d+\/)?folders\/([A-Za-z0-9_-]+)/
                 );
 
                 if (m) return m[1];
