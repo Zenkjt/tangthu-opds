@@ -81,11 +81,16 @@ func main() {
 		}
 		converted := make([]FileEntry, 0, len(files))
 		for _, f := range files {
-			converted = append(converted, FileEntry{f.ID, f.ParentID, f.Name, f.MIMEType, f.Size, f.ModifiedTime, f.MD5Checksum, drive.IsFolder(f)})
+			converted = append(converted, FileEntry{
+				f.ID, f.ParentID, f.Name, f.MIMEType, f.Size,
+				f.ModifiedTime, f.MD5Checksum, drive.IsFolder(f),
+			})
 		}
 		branches = append(branches, Branch{bc, folder.Name, converted})
 	}
-	sort.SliceStable(branches, func(i, j int) bool { return branchLess(branches[i].Config.DisplayName, branches[j].Config.DisplayName) })
+	sort.SliceStable(branches, func(i, j int) bool {
+		return branchLess(branches[i].Config.DisplayName, branches[j].Config.DisplayName)
+	})
 
 	if err := os.RemoveAll(outDir); err != nil {
 		fatal(err.Error())
@@ -111,7 +116,12 @@ func getenv(k, d string) string {
 	}
 	return d
 }
-func fatal(s string) { fmt.Fprintln(os.Stderr, s); os.Exit(1) }
+
+func fatal(s string) {
+	fmt.Fprintln(os.Stderr, s)
+	os.Exit(1)
+}
+
 func branchLess(a, b string) bool {
 	av := strings.HasPrefix(a, "VN")
 	bv := strings.HasPrefix(b, "VN")
@@ -120,14 +130,17 @@ func branchLess(a, b string) bool {
 	}
 	return strings.ToLower(a) < strings.ToLower(b)
 }
+
 func esc(s string) string  { return html.EscapeString(s) }
 func safe(s string) string { return url.PathEscape(s) }
+
 func mime(s string) string {
 	if s != "" {
 		return s
 	}
 	return "application/octet-stream"
 }
+
 func children(b Branch, parent string) []FileEntry {
 	var out []FileEntry
 	for _, f := range b.Files {
@@ -143,8 +156,12 @@ func children(b Branch, parent string) []FileEntry {
 	})
 	return out
 }
+
+// Keep the original Google Drive acquisition endpoint for this test.
+// The OPDS relation below is made standards-compliant so CrossPoint can
+// recognize the entry as a downloadable book.
 func acquisitionURL(f FileEntry) string {
-	return "https://drive.usercontent.google.com/download?id=" + url.QueryEscape(f.ID) + "&export=download&confirm=t"
+	return "https://drive.google.com/uc?export=download&id=" + url.QueryEscape(f.ID)
 }
 
 func writeWeb(out, base string, branches []Branch) error {
@@ -186,7 +203,10 @@ func writeCatalogJSON(out string, branches []Branch) error {
 	for _, br := range branches {
 		jb := JBranch{ID: br.Config.ID, Name: br.Config.DisplayName}
 		for _, f := range br.Files {
-			jb.Files = append(jb.Files, JFile{f.ID, f.ParentID, f.Name, f.MIME, f.Size, f.Modified, f.Checksum, f.IsFolder})
+			jb.Files = append(jb.Files, JFile{
+				f.ID, f.ParentID, f.Name, f.MIME, f.Size,
+				f.Modified, f.Checksum, f.IsFolder,
+			})
 		}
 		rows = append(rows, jb)
 	}
@@ -219,18 +239,22 @@ func writeOPDS(out, base string, branches []Branch) error {
 	}
 	return nil
 }
+
 func xmlHead(title string) string {
 	return `<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog"><title>` + esc(title) + `</title>`
 }
+
 func writeBranchOPDS(dir, base string, br Branch) error {
 	return writeFolder(dir, base, br, br.Config.RootFolderID, true)
 }
+
 func writeFolder(dir, base string, br Branch, folderID string, root bool) error {
 	rows := children(br, folderID)
 	relName := "index.xml"
 	if !root {
 		relName = safe(folderID) + ".xml"
 	}
+
 	var x strings.Builder
 	title := br.Config.DisplayName
 	if !root {
@@ -245,6 +269,7 @@ func writeFolder(dir, base string, br Branch, folderID string, root bool) error 
 	if root {
 		x.WriteString(`<link rel="start" href="` + base + `/opds/index.xml" type="application/atom+xml;profile=opds-catalog"/>`)
 	}
+
 	for _, f := range rows {
 		if f.IsFolder {
 			x.WriteString(`<entry><title>` + esc(f.Name) + `</title><link rel="subsection" href="` + base + `/opds/branch/` + safe(br.Config.ID) + `/` + safe(f.ID) + `.xml" type="application/atom+xml;profile=opds-catalog"/></entry>`)
@@ -252,12 +277,82 @@ func writeFolder(dir, base string, br Branch, folderID string, root bool) error 
 				return err
 			}
 		} else {
-			x.WriteString(`<entry><title>` + esc(f.Name) + `</title><content type="text">` + esc(fmt.Sprintf("%d bytes · %s", f.Size, f.MIME)) + `</content><link rel="acquisition" href="` + esc(acquisitionURL(f)) + `" type="` + esc(mime(f.MIME)) + `"/></entry>`)
+			// CrossPoint's OPDS parser recognizes a downloadable book only
+			// when rel contains "opds-spec.org/acquisition".
+			acq := acquisitionURL(f)
+			modified := f.Modified
+			x.WriteString(`<entry><title>` + esc(f.Name) + `</title>`)
+			x.WriteString(`<updated>` + esc(modified) + `</updated>`)
+			x.WriteString(`<content type="text">` + esc(formatFileInfo(f)) + `</content>`)
+			x.WriteString(`<link rel="http://opds-spec.org/acquisition" href="` + esc(acq) + `" length="` + fmt.Sprint(f.Size) + `" mtime="` + esc(modified) + `" type="` + esc(mime(f.MIME)) + `"/></entry>`)
 		}
 	}
+
 	x.WriteString(`</feed>`)
 	return writeFile(filepath.Join(dir, relName), x.String())
 }
+
+func formatFileInfo(f FileEntry) string {
+	return fmt.Sprintf("%s · %s · Modified: %s", formatSize(f.Size), displayType(f.MIME, f.Name), formatModified(f.Modified))
+}
+
+func formatSize(size int64) string {
+	if size < 1024 {
+		return fmt.Sprintf("%d B", size)
+	}
+	if size < 1024*1024 {
+		return fmt.Sprintf("%.1f KB", float64(size)/1024)
+	}
+	if size < 1024*1024*1024 {
+		return fmt.Sprintf("%.1f MB", float64(size)/(1024*1024))
+	}
+	return fmt.Sprintf("%.2f GB", float64(size)/(1024*1024*1024))
+}
+
+func displayType(mimeType, name string) string {
+	ext := strings.ToLower(filepath.Ext(name))
+	switch ext {
+	case ".epub":
+		return "EPUB"
+	case ".pdf":
+		return "PDF"
+	case ".azw3":
+		return "AZW3"
+	case ".azw":
+		return "AZW"
+	case ".mobi":
+		return "MOBI"
+	case ".fb2":
+		return "FB2"
+	case ".cbz":
+		return "CBZ"
+	case ".cbr":
+		return "CBR"
+	case ".txt":
+		return "TXT"
+	case ".doc":
+		return "DOC"
+	case ".docx":
+		return "DOCX"
+	case ".rtf":
+		return "RTF"
+	case ".zip":
+		return "ZIP"
+	default:
+		if mimeType != "" {
+			return mimeType
+		}
+		return "FILE"
+	}
+}
+
+func formatModified(s string) string {
+	if t, err := time.Parse(time.RFC3339, s); err == nil {
+		return t.Local().Format("02/01/2006 15:04")
+	}
+	return s
+}
+
 func writeFile(path, s string) error {
 	if err := os.MkdirAll(filepath.Dir(path), 0755); err != nil {
 		return err
