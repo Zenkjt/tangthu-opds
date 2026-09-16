@@ -45,11 +45,10 @@ if old_td not in text:
     raise SystemExit("UI patch anchor missing: list row renderer")
 text = text.replace(old_td, new_td, 1)
 
-old_icon = '.book-row{cursor:pointer}.book-row:hover{background:#f5f5f5}.book-row.selected{background:var(--select);outline:1px dotted #555;outline-offset:-2px}.icon-cell{text-align:center;padding-left:4px!important;padding-right:4px!important}'
+old_icon = '.book-row{cursor:pointer}.book-row:hover{background:#f5f5f5}.book-row.selected{background:var(--select);outline:1px dotted #555;outline-offset:-2px}'
 new_icon = '.book-row{cursor:pointer}.book-row:hover{background:#f5f5f5}.book-row.selected{background:var(--select);outline:1px dotted #555;outline-offset:-2px}.icon-cell{text-align:center;padding-left:4px!important;padding-right:4px!important}'
-if old_icon not in text:
-    raise SystemExit("UI patch anchor missing: row CSS")
-# Keep the existing row CSS unchanged; this guard ensures the current file is the expected version.
+if old_icon in text:
+    text = text.replace(old_icon, new_icon, 1)
 
 path.write_text(text, encoding="utf-8")
-print("Patched docs/index.html: replaced the list icon with a simple black/white Windows 3.x-style book icon.")
+print("Patched docs/index.html: replaced list cover thumbnails with a small black/white Windows 3.x-style book icon.")
