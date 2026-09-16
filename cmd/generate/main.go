@@ -491,7 +491,7 @@ button{cursor:pointer;color:#000;background:#c0c0c0}
       window.open(issueURL,'_blank','noopener');
     };
   }
-  function parseDriveId(s){var m=String(s||'').match(/\/folders\/([a-zA-Z0-9_-]+)/);if(m)return m[1];m=String(s||'').match(/[?&]id=([a-zA-Z0-9_-]+)/);return m?m[1]:''}
+  function parseDriveId(s){var m=String(s||'').match(/\/drive\/(?:u\/\d+\/)?folders\/([a-zA-Z0-9_-]+)/);if(m)return m[1];m=String(s||'').match(/\/folders\/([a-zA-Z0-9_-]+)/);if(m)return m[1];m=String(s||'').match(/[?&]id=([a-zA-Z0-9_-]+)/);return m?m[1]:''}
   function runSearch(){state.search=$('searchInput').value;renderContent()}
 
   $('upBtn').onclick=function(){var b=currentBranch();if(!b)return;if(state.search){state.search='';$('searchInput').value='';}if(state.parent!==b.root_folder_id){var f=findFile(b,state.parent);state.parent=f?f.parent_id:b.root_folder_id;state.selected=null;renderContent()}};
