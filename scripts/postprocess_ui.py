@@ -34,7 +34,7 @@ text = text.replace(old_narrow, new_narrow, 1)
 
 old_js = r"""var img=f.cover?'<img class="cover" loading="lazy" src="'+esc(f.cover)+'" alt="" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'/>':'<span class="cover-fallback">'+esc(ext(f.name))+'</span>';
         var fallback=f.cover?'<span class="cover-fallback" style="display:none">'+esc(ext(f.name))+'</span>':'';"""
-new_js = r"""var icon='<span class="book-icon" aria-hidden="true"><svg viewBox="0 0 20 20" role="img" focusable="false"><path fill="#1f3b66" d="M3 3h11v2H5v11h9v2H3z"/><path fill="#6f86a6" d="M5 5h11v11H5z"/><path fill="#c0c0c0" d="M7 7h7v1H7zm0 3h7v1H7zm0 3h5v1H7z"/><path fill="#fff" d="M16 5h1v11h-1z"/><path fill="#404040" d="M5 5h11v1H5zM5 16h11v1H5zM4 5h1v12H4z"/></svg></span>';"""
+new_js = r"""var icon='<span class="book-icon" aria-hidden="true"><svg viewBox="0 0 20 20" role="img" focusable="false"><path fill="#ffffff" d="M5 4h13v14H5z"/><path fill="#000000" d="M3 2h13v14H5c-1.1 0-2-.9-2-2V2z"/><path fill="#ffffff" d="M6 5h7v1H6zm0 3h7v1H6zm0 3h7v1H6z"/><path fill="#404040" d="M3 15h13v1H5c-1.1 0-2-.9-2-2z"/></svg></span>';"""
 if old_js not in text:
     raise SystemExit("UI patch anchor missing: list cover renderer")
 text = text.replace(old_js, new_js, 1)
@@ -45,11 +45,11 @@ if old_td not in text:
     raise SystemExit("UI patch anchor missing: list row renderer")
 text = text.replace(old_td, new_td, 1)
 
-old_icon = '.book-row{cursor:pointer}.book-row:hover{background:#f5f5f5}.book-row.selected{background:var(--select);outline:1px dotted #555;outline-offset:-2px}'
+old_icon = '.book-row{cursor:pointer}.book-row:hover{background:#f5f5f5}.book-row.selected{background:var(--select);outline:1px dotted #555;outline-offset:-2px}.icon-cell{text-align:center;padding-left:4px!important;padding-right:4px!important}'
 new_icon = '.book-row{cursor:pointer}.book-row:hover{background:#f5f5f5}.book-row.selected{background:var(--select);outline:1px dotted #555;outline-offset:-2px}.icon-cell{text-align:center;padding-left:4px!important;padding-right:4px!important}'
 if old_icon not in text:
     raise SystemExit("UI patch anchor missing: row CSS")
-text = text.replace(old_icon, new_icon, 1)
+# Keep the existing row CSS unchanged; this guard ensures the current file is the expected version.
 
 path.write_text(text, encoding="utf-8")
-print("Patched docs/index.html: replaced list cover thumbnails with a small Windows 3.x-style book icon.")
+print("Patched docs/index.html: replaced the list icon with a simple black/white Windows 3.x-style book icon.")
