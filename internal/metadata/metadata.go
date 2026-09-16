@@ -7,6 +7,8 @@ import (
 	"encoding/binary"
 	"encoding/xml"
 	"io"
+	"net/url"
+	"path"
 	"regexp"
 	"strings"
 
@@ -24,6 +26,8 @@ type Metadata struct {
 	Series      string   `json:"series,omitempty"`
 	Description string   `json:"description,omitempty"`
 	Subjects    []string `json:"subjects,omitempty"`
+	Cover       []byte   `json:"-"`
+	CoverType   string   `json:"-"`
 }
 
 const maxRead = 25 * 1024 * 1024
@@ -155,7 +159,95 @@ func parseEPUB(data []byte) Metadata {
 			}
 		}
 	}
+	m.Cover, m.CoverType = extractEPUBCover(files, cx.Rootfile.FullPath, p)
 	return m
+}
+
+func extractEPUBCover(files map[string]*zip.File, opfPath string, p opfPackage) ([]byte, string) {
+	var coverID string
+	for _, x := range p.Metadata.Meta {
+		if strings.EqualFold(strings.TrimSpace(x.Name), "cover") && strings.TrimSpace(x.Content) != "" {
+			coverID = strings.TrimSpace(x.Content)
+			break
+		}
+	}
+	var item *opfItem
+	for i := range p.Manifest.Items {
+		it := &p.Manifest.Items[i]
+		if coverID != "" && it.ID == coverID {
+			item = it
+			break
+		}
+	}
+	if item == nil {
+		for i := range p.Manifest.Items {
+			it := &p.Manifest.Items[i]
+			props := strings.Fields(strings.ToLower(it.Properties))
+			for _, prop := range props {
+				if prop == "cover-image" {
+					item = it
+					break
+				}
+			}
+			if item != nil {
+				break
+			}
+		}
+	}
+	if item == nil {
+		for i := range p.Manifest.Items {
+			it := &p.Manifest.Items[i]
+			mt := strings.ToLower(it.MediaType)
+			h := strings.ToLower(it.Href)
+			if strings.HasPrefix(mt, "image/") && (strings.Contains(h, "cover") || strings.Contains(h, "jacket")) {
+				item = it
+				break
+			}
+		}
+	}
+	if item == nil {
+		return nil, ""
+	}
+	name := resolveEPUBPath(opfPath, item.Href)
+	zf := files[name]
+	if zf == nil {
+		return nil, ""
+	}
+	data, err := readZip(zf)
+	if err != nil || len(data) == 0 || len(data) > 8*1024*1024 {
+		return nil, ""
+	}
+	return data, coverType(item.MediaType, name)
+}
+
+func resolveEPUBPath(opfPath, href string) string {
+	href = strings.SplitN(href, "#", 2)[0]
+	if u, err := url.PathUnescape(href); err == nil {
+		href = u
+	}
+	return path.Clean(path.Join(path.Dir(opfPath), href))
+}
+
+func coverType(mimeType, name string) string {
+	mt := strings.ToLower(strings.TrimSpace(mimeType))
+	switch mt {
+	case "image/jpeg", "image/jpg":
+		return "jpg"
+	case "image/png":
+		return "png"
+	case "image/webp":
+		return "webp"
+	case "image/gif":
+		return "gif"
+	}
+	ext := strings.ToLower(filepathExt(name))
+	if ext == ".jpeg" {
+		return "jpg"
+	}
+	if strings.HasPrefix(ext, ".") {
+		return strings.TrimPrefix(ext, ".")
+	}
+	return "jpg"
 }
 
 func readZip(f *zip.File) ([]byte, error) {
@@ -166,6 +258,7 @@ func readZip(f *zip.File) ([]byte, error) {
 	defer r.Close()
 	return io.ReadAll(io.LimitReader(r, maxRead+1))
 }
+
 func first(v []string) string {
 	for _, s := range v {
 		if strings.TrimSpace(s) != "" {
@@ -174,6 +267,7 @@ func first(v []string) string {
 	}
 	return ""
 }
+
 func cleanList(v []string) []string {
 	var out []string
 	seen := map[string]bool{}
@@ -186,13 +280,16 @@ func cleanList(v []string) []string {
 	}
 	return out
 }
+
 func yearOf(s string) string {
 	if m := regexp.MustCompile(`\b(1[5-9]\d{2}|20\d{2}|21\d{2})\b`).FindString(s); m != "" {
 		return m
 	}
 	return ""
 }
+
 func looksISBN(s string) bool { n := normalizeISBN(s); return len(n) == 10 || len(n) == 13 }
+
 func normalizeISBN(s string) string {
 	var b strings.Builder
 	for _, r := range s {
@@ -289,6 +386,7 @@ func splitAuthors(s string) []string {
 	}
 	return []string{s}
 }
+
 func splitSubjects(s string) []string {
 	parts := strings.FieldsFunc(s, func(r rune) bool { return r == ';' || r == ',' })
 	return cleanList(parts)
