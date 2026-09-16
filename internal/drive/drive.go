@@ -8,12 +8,14 @@ import (
 	"io"
 	"net/http"
 	"net/url"
+	"path/filepath"
 	"strings"
 )
 
 const (
-	apiBase    = "https://www.googleapis.com/drive/v3"
-	folderMIME = "application/vnd.google-apps.folder"
+	apiBase           = "https://www.googleapis.com/drive/v3"
+	folderMIME        = "application/vnd.google-apps.folder"
+	maxBookSize int64 = 25 * 1024 * 1024
 )
 
 type File struct {
@@ -30,6 +32,7 @@ type Client struct {
 	apiKey string
 	http   *http.Client
 }
+
 type listResponse struct {
 	NextPageToken string `json:"nextPageToken"`
 	Files         []File `json:"files"`
@@ -61,6 +64,7 @@ func (c *Client) get(ctx context.Context, endpoint string, params url.Values, ds
 	}
 	return json.NewDecoder(resp.Body).Decode(dst)
 }
+
 func (c *Client) GetFolder(ctx context.Context, id string) (File, error) {
 	var f File
 	err := c.get(ctx, "/files/"+url.PathEscape(id), url.Values{"fields": {"id,name,mimeType"}, "supportsAllDrives": {"true"}}, &f)
@@ -72,6 +76,7 @@ func (c *Client) GetFolder(ctx context.Context, id string) (File, error) {
 	}
 	return f, nil
 }
+
 func (c *Client) ListChildren(ctx context.Context, parentID string) ([]File, error) {
 	var all []File
 	var token string
@@ -96,6 +101,9 @@ func (c *Client) ListChildren(ctx context.Context, parentID string) ([]File, err
 		token = page.NextPageToken
 	}
 }
+
+// Scan returns only folders plus supported ebook files. TÀNG THƯ is deliberately
+// ebook-only: EPUB, MOBI and AZW3, with a hard per-file limit of 25 MiB.
 func (c *Client) Scan(ctx context.Context, rootID string) ([]File, error) {
 	if _, err := c.GetFolder(ctx, rootID); err != nil {
 		return nil, err
@@ -109,11 +117,15 @@ func (c *Client) Scan(ctx context.Context, rootID string) ([]File, error) {
 		}
 		for _, f := range children {
 			f.ParentID = parent
-			out = append(out, f)
 			if f.MIMEType == folderMIME {
+				out = append(out, f)
 				if err := walk(f.ID); err != nil {
 					return err
 				}
+				continue
+			}
+			if isSupportedBook(f) {
+				out = append(out, f)
 			}
 		}
 		return nil
@@ -123,6 +135,21 @@ func (c *Client) Scan(ctx context.Context, rootID string) ([]File, error) {
 	}
 	return out, nil
 }
+
+func isSupportedBook(f File) bool {
+	if f.Size < 0 || f.Size > maxBookSize {
+		return false
+	}
+	switch strings.ToLower(filepath.Ext(f.Name)) {
+	case ".epub", ".mobi", ".azw3":
+		return true
+	default:
+		return false
+	}
+}
+
+func IsSupportedBook(f File) bool { return isSupportedBook(f) }
+func MaxBookSize() int64          { return maxBookSize }
 
 func (c *Client) Open(ctx context.Context, fileID, rangeHeader string) (*http.Response, error) {
 	params := url.Values{"alt": {"media"}}
