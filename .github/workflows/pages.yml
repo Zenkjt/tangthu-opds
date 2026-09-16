@@ -10,6 +10,7 @@ on:
       - "cmd/generate/**"
       - "internal/drive/**"
       - "config/branches.json"
+      - "scripts/postprocess_ui.py"
       - ".github/workflows/pages.yml"
 
 permissions:
@@ -38,6 +39,8 @@ jobs:
           TANGTHU_OUTPUT_DIR: docs
           TANGTHU_BASE_URL: https://zenkjt.github.io/tangthu-opds
         run: go run ./cmd/generate
+      - name: Apply catalog UI
+        run: python3 scripts/postprocess_ui.py
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact
