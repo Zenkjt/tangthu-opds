@@ -1,16 +1,16 @@
-TÀNG THƯ commit bundle — 2026-09-16
+TÀNG THƯ — FIX 2026-09-16
 
-Copy these files into the repository, preserving paths:
+Nguyên nhân:
+Google Drive link do giao diện tạo ra có dạng:
+https://drive.google.com/drive/u/1/folders/FOLDER_ID
 
-cmd/generate/main.go
-.github/workflows/register-shelf.yml
-GITHUB_PAGES.md
+Code cũ chỉ nhận:
+https://drive.google.com/drive/folders/FOLDER_ID
 
-Do not commit this manifest unless desired; it is included only to make the bundle self-documenting.
+Đã sửa cả frontend và register workflow để chấp nhận /drive/u/<number>/folders/...
 
-Main changes:
-- Tủ sách modal: one check button + one dynamic action button (Tạo tủ / Đổi tên / Xóa tủ).
-- Action opens a prefilled GitHub Issue and closes the modal.
-- Registration workflow handles create / rename / delete.
-- Registration workflow explicitly dispatches pages.yml after config change.
-- GITHUB_PAGES.md records the code handoff/editing rule.
+Commit 2 file:
+- cmd/generate/main.go
+- .github/workflows/register-shelf.yml
+
+Không cần commit GITHUB_PAGES.md trong lần này.
