@@ -9,6 +9,7 @@ old_css = """.cover{width:64px;height:90px;object-fit:cover;display:block;backgr
 """
 new_css = """.book-icon{width:30px;height:30px;display:inline-flex;align-items:center;justify-content:center}
 .book-icon img{width:26px;height:30px;display:block;object-fit:contain}
+.folder-icon{width:30px;height:30px;display:inline-flex;align-items:center;justify-content:center;font-size:30px;line-height:30px}
 """
 if old_css not in text:
     raise SystemExit("UI patch anchor missing: list cover CSS")
