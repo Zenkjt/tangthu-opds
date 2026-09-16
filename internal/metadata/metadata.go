@@ -173,20 +173,29 @@ func cleanDescription(s string) string {
 		return ""
 	}
 
-	// Convert common HTML entities (&nbsp;, &amp;, numeric entities, etc.)
-	// before stripping tags.
-	s = html.UnescapeString(s)
-
-	// Preserve paragraph/block boundaries as line breaks.
+	// EPUB metadata is sometimes HTML-escaped more than once
+	// (for example &amp;lt;p&amp;gt;...&amp;lt;/p&amp;gt;).
+	// Decode and strip markup repeatedly so no HTML tags survive.
 	reBlock := regexp.MustCompile(`(?is)<\s*/?\s*(p|div|br|li|h[1-6]|blockquote|tr|pre)\b[^>]*>`)
-	s = reBlock.ReplaceAllString(s, "\n")
-
-	// Strip any remaining HTML/XML tags.
 	reTag := regexp.MustCompile(`(?is)<[^>]*>`)
-	s = reTag.ReplaceAllString(s, "")
 
-	// Decode entities that may have been exposed after tag removal.
-	s = html.UnescapeString(s)
+	for i := 0; i < 3; i++ {
+		decoded := html.UnescapeString(s)
+		if decoded == s {
+			break
+		}
+		s = decoded
+	}
+
+	for i := 0; i < 3; i++ {
+		before := s
+		s = reBlock.ReplaceAllString(s, "\n")
+		s = reTag.ReplaceAllString(s, "")
+		s = html.UnescapeString(s)
+		if s == before {
+			break
+		}
+	}
 
 	// Normalize whitespace while retaining paragraph breaks.
 	lines := strings.Split(s, "\n")
