@@ -1,127 +1,175 @@
-# TÀNG THƯ OPDS — v1.0
+# TÀNG THƯ OPDS — GitHub Pages / $0
 
-A small Go-based OPDS catalog and acquisition gateway for books and documents.
+TÀNG THƯ is a lightweight multi-branch OPDS catalog for books and documents.
+It is deliberately **file-first**: it indexes filenames and basic file properties instead of becoming an ebook metadata manager.
 
-TÀNG THƯ is deliberately **file-first**: it indexes filenames and basic file properties instead of becoming an ebook metadata manager.
+## Current deployment model
 
-## v1.0
-
-- Shared Google Drive folders as storage
-- Branch registration and independent Branch naming
-- Duplicate root-folder detection
-- Recursive Drive scan
-- Persistent JSON index
-- Complete folder hierarchy in Web and OPDS
-- Filename and checksum search
-- OPDS OpenSearch endpoint
-- Real server-mediated OPDS acquisition
-- HTTP Range forwarding for reading clients
-- Website is catalog-only; it does not expose downloads
-- Branch hide/restore
-- `online`, `hidden`, `unavailable` states
-- Exact uppercase `VN` Branch priority
-- Windows 3.x-inspired Web UI
-- HTTP Basic Authentication for administration
-- Hourly automatic refresh
-- Storage Identity Isolation: Drive identifiers and credentials remain server-side
-
-## Acquisition
-
-The public acquisition path is:
-
-```text
-Reading app
-    ↓
-TÀNG THƯ /opds/acquire/<branch-id>/<file-id>
-    ↓
-TÀNG THƯ server
-    ↓
-Google Drive API
-    ↓
-stream
-    ↓
-Reading app
-```
-
-TÀNG THƯ never redirects the reader to a Google Drive `webContentLink`.
-
-The acquisition handler first checks that the requested file exists in the selected online Branch's local index. The Google Drive file ID is then used only internally to stream the object.
-
-## Search
-
-Web:
-
-```text
-/search?q=...
-```
-
-OPDS:
-
-```text
-/opds/search?q=...
-```
-
-The search is performed against the persistent local index. A query matches either filename or Drive MD5 checksum.
-
-## Configuration
-
-Required:
-
-```text
-TANGTHU_GOOGLE_API_KEY=...
-TANGTHU_ADMIN_PASSWORD=...
-```
-
-Optional:
-
-```text
-TANGTHU_ADMIN_USER=admin
-TANGTHU_DATA_FILE=data/catalog.json
-TANGTHU_LISTEN=127.0.0.1:8080
-```
-
-Never commit the API key or admin password.
-
-## Run
-
-```sh
-go test ./...
-go build -o tangthu-opds ./cmd/tangthu
-./tangthu-opds
-```
-
-Default listen address:
-
-```text
-http://127.0.0.1:8080
-```
-
-## Data
-
-```text
-data/catalog.json
-```
-
-Google Drive remains the source of truth. The JSON file is an index/cache, not a storage replacement.
-
-## Architecture
+TÀNG THƯ now targets a **GitHub-only, $0 runtime architecture**:
 
 ```text
 Google Drive shared folders
-          ↓
-Google Drive adapter
-          ↓
-Recursive scanner
-          ↓
-Persistent lightweight index
-          ├── Web catalog/search
-          └── OPDS catalog/search
-                    ↓
-             acquisition gateway
-                    ↓
-             Google Drive stream
+        ↓
+GitHub Actions — hourly/manual
+        ↓
+Go static generator
+        ↓
+GitHub Pages
+   ┌────┴────┐
+   Web      OPDS
+              ↓
+       Xteink X4 / reader
+              ↓
+       Google Drive download
 ```
 
-The MVP intentionally does not require EPUB/OPF parsing, Calibre, OAuth/private Drive, OneDrive, Dropbox, S3, WebDAV, branch daemons, reverse tunnels, or a separate metadata database.
+No VPS, Cloud Run, Railway, database, or always-on Go server is required.
 
-See `TANGTHU_DESIGN.md` for the locked architecture and `V1.0_IMPLEMENTATION.md` for the v1.0 completion record.
+The existing Go server in `cmd/tangthu` remains useful as the earlier server-mediated prototype and for local development/reference. The GitHub Pages workflow uses `cmd/generate` instead.
+
+## Storage
+
+MVP storage is **shared Google Drive folders**.
+
+Each Branch stores:
+
+- Branch ID
+- Branch display name
+- Google Drive root folder ID
+- enabled state
+
+The Google Drive folder name and Branch display name are independent.
+
+## Dedicated Google Account
+
+Contributors are strongly encouraged to use a **dedicated Google Account for TÀNG THƯ**, not their personal/main Google Account.
+
+For a public $0 OPDS library, the Drive files/folders used by the library need to be accessible to the reading client. The exact sharing policy should therefore be chosen deliberately.
+
+## Privacy trade-off in the $0 architecture
+
+The public Web catalog does not provide a Google Drive download button.
+
+However, GitHub Pages is static and cannot proxy a download request. Therefore an OPDS acquisition entry must ultimately contain a Google Drive download URL. A client or user inspecting the OPDS XML can recover the Drive file ID.
+
+This is an intentional trade-off to keep the runtime completely free. A dedicated TÀNG THƯ Google Account reduces the impact of exposing a file ID, but does not make the Drive URL secret.
+
+## Branch ordering
+
+Branches whose display name begins exactly with uppercase `VN` are listed first, followed alphabetically by all other Branches.
+
+## Recursive hierarchy
+
+Google Drive folder hierarchy is preserved:
+
+```text
+Branch
+ ├── Folder
+ │    ├── Subfolder
+ │    │    └── Book.pdf
+ │    └── Book.epub
+ └── Other Book.azw3
+```
+
+The same hierarchy is generated into OPDS.
+
+## Supported file information
+
+The generated index contains:
+
+- filename
+- MIME type
+- size
+- modified time
+- Drive MD5 checksum when available
+- folder relationship
+- Drive file ID
+
+No EPUB/OPF, ISBN, Calibre, author, publisher, series, or cover database is required.
+
+## GitHub Actions
+
+Workflow:
+
+```text
+.github/workflows/pages.yml
+```
+
+It runs:
+
+- hourly
+- manually with `workflow_dispatch`
+- after relevant source/config changes on `main`
+
+Required repository secret:
+
+```text
+TANGTHU_GOOGLE_API_KEY
+```
+
+Branch configuration:
+
+```text
+config/branches.json
+```
+
+Example:
+
+```json
+{
+  "branches": [
+    {
+      "id": "d048bdebe1f4",
+      "display_name": "X4 OptimizePub",
+      "root_folder_id": "YOUR_GOOGLE_DRIVE_FOLDER_ID",
+      "enabled": true
+    }
+  ]
+}
+```
+
+## GitHub Pages setup
+
+In the repository:
+
+**Settings → Pages → Build and deployment → Source: GitHub Actions**
+
+The default project URL is:
+
+```text
+https://zenkjt.github.io/tangthu-opds/
+```
+
+OPDS root:
+
+```text
+https://zenkjt.github.io/tangthu-opds/opds/index.xml
+```
+
+## First real-device test
+
+The first test is deliberately simple:
+
+1. Open the OPDS root on Xteink X4.
+2. Enter `X4 OptimizePub`.
+3. Navigate into `test`.
+4. Select `Copy of Tam-ly-hoc-dam-dong-Gustave-Le-Bon.azw3`.
+5. Verify download starts.
+6. Verify the resulting file opens correctly.
+7. Test interruption/resume if the X4 reader supports resume.
+
+This test determines whether the Google Drive direct-download endpoint is suitable as the acquisition endpoint for X4.
+
+## Earlier server prototype
+
+`cmd/tangthu` contains the v1.0 server-mediated prototype. It demonstrated:
+
+- recursive Drive scan
+- persistent JSON index
+- OPDS navigation
+- server-side acquisition
+- HTTP Range forwarding
+- Web catalog
+- Branch registration and hide/restore
+
+That prototype required a live Go server. The GitHub Pages architecture intentionally removes that runtime dependency.
