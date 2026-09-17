@@ -227,11 +227,13 @@ new_fn = r"""
             return;
           }
 
+          var updateNotice='Nội dung cập nhật tủ sách sẽ xuất hiện sau khoảng 3 đến 5 phút, bạn vui lòng đợi sau đó tải lại trang.';
+
           setMessage(action==='create'
-            ? 'Đã tạo tủ. GitHub Pages sẽ tự cập nhật.'
+            ? 'Đã tạo tủ. '+updateNotice
             : action==='rename'
-              ? 'Đã đổi tên tủ. GitHub Pages sẽ tự cập nhật.'
-              : 'Đã xóa tủ. GitHub Pages sẽ tự cập nhật.');
+              ? 'Đã đổi tên tủ. '+updateNotice
+              : 'Đã xóa tủ. '+updateNotice);
 
           setTimeout(function(){
             closeModal();
@@ -252,5 +254,6 @@ new_fn = r"""
 new_fn = new_fn.replace("__API_URL__", repr(APPS_SCRIPT_URL))
 text = text[:start] + new_fn + text[end:]
 path.write_text(text, encoding="utf-8")
-print("Wrote:", path)
-print("Apps Script URL configured from environment:", bool(APPS_SCRIPT_URL))
+
+print(f"Đã tạo file hoàn chỉnh: {path}")
+print("Đã thêm thông báo 3–5 phút cho cả Tạo tủ, Đổi tên và Xóa tủ.")
