@@ -11,6 +11,7 @@ old_css = """.cover{width:64px;height:90px;object-fit:cover;display:block;backgr
 new_css = """.book-icon{width:30px;height:30px;display:inline-flex;align-items:center;justify-content:center}
 .book-icon img{width:26px;height:30px;display:block;object-fit:contain}
 .folder-icon{width:30px;height:30px;display:inline-flex;align-items:center;justify-content:center}.folder-icon img{width:26px;height:30px;display:block;object-fit:contain}
+.shelf-summary{background:#fff;border:1px solid #888}.shelf-summary-row{padding:10px 12px;border-bottom:1px solid #aaa;cursor:pointer;font-size:13px}.shelf-summary-row:last-child{border-bottom:0}.shelf-summary-row:hover{background:#f5f5f5}.shelf-summary-name{font-weight:bold}.shelf-summary-stats{margin-left:14px}@media(max-width:700px){.shelf-summary-stats{display:block;margin-left:0;margin-top:3px}}
 """
 if old_css not in text:
     raise SystemExit("UI patch anchor missing: list cover CSS")
@@ -74,5 +75,22 @@ if folder_old not in text:
     raise SystemExit("UI patch anchor missing: folder icon")
 text = text.replace(folder_old, folder_new, 1)
 
+# Add a second Views mode: compact shelf-level inventory summary.
+stats_fn = '  function renderShelfStats(){\n    var body=$(\'contentBody\');\n    body.innerHTML=\'\';\n    $(\'pathBar\').textContent=\'Tất cả tủ sách\';\n    var bs=branches();\n    $(\'itemCount\').textContent=bs.length+\' tủ\';\n    if(!bs.length){body.innerHTML=\'<div class="empty">Chưa có tủ sách.</div>\';return}\n    var wrap=document.createElement(\'div\');\n    wrap.className=\'shelf-summary\';\n    bs.forEach(function(shelf){\n      var files=filesOf(shelf).filter(function(f){return !f.folder});\n      var epub=0,mobi=0,azw3=0;\n      files.forEach(function(f){\n        var e=ext(f.name).toUpperCase();\n        if(e===\'EPUB\')epub++;\n        else if(e===\'MOBI\')mobi++;\n        else if(e===\'AZW3\')azw3++;\n      });\n      var row=document.createElement(\'div\');\n      row.className=\'shelf-summary-row\';\n      row.innerHTML=\'<span class="shelf-summary-name">[\'+esc(shelf.name)+\']</span>\'+\n        \'<span class="shelf-summary-stats">\'+files.length+\' sách · EPUB: \'+epub+\' · MOBI: \'+mobi+\' · AZW3: \'+azw3+\'</span>\';\n      row.onclick=function(){\n        state.view=\'list\';\n        state.branch=shelf.id;\n        state.parent=shelf.root_folder_id;\n        state.selected=null;\n        $(\'viewsBtn\').querySelector(\'.lbl\').textContent=\'Views\';\n        renderBranches();\n        renderContent();\n      };\n      wrap.appendChild(row);\n    });\n    body.appendChild(wrap);\n  }\n\n'
+if "  function renderContent(){" not in text:
+    raise SystemExit("UI patch anchor missing: renderContent")
+text = text.replace("  function renderContent(){", stats_fn + "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}", 1)
+old_branch = 'li.onclick=function(){state.branch=b.id;state.parent=b.root_folder_id;state.selected=null;renderBranches();renderContent()};'
+new_branch = "li.onclick=function(){state.view='list';state.branch=b.id;state.parent=b.root_folder_id;state.selected=null;$('viewsBtn').querySelector('.lbl').textContent='Views';renderBranches();renderContent()};"
+if old_branch not in text:
+    raise SystemExit("UI patch anchor missing: branch click")
+text = text.replace(old_branch, new_branch, 1)
+old_views = "$('viewsBtn').onclick=function(){state.view=state.view==='list'?'compact':'list';$('viewsBtn').querySelector('.lbl').textContent=state.view==='list'?'Views':'List'};"
+new_views = "$('viewsBtn').onclick=function(){state.view=state.view==='shelves'?'list':'shelves';$('viewsBtn').querySelector('.lbl').textContent=state.view==='shelves'?'List':'Views';renderContent()};"
+if old_views not in text:
+    raise SystemExit("UI patch anchor missing: Views button")
+text = text.replace(old_views, new_views, 1)
+if "  function runSearch(){" in text:
+    text = text.replace("  function runSearch(){", "  function runSearch(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';", 1)
 path.write_text(text, encoding="utf-8")
 print("Patched docs/index.html with the 30px Windows-style folder SVG and existing book icon.")
