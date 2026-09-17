@@ -11,6 +11,7 @@ on:
       - "internal/drive/**"
       - "config/branches.json"
       - "scripts/postprocess_ui.py"
+      - "scripts/postprocess_registration.py"
       - ".github/workflows/pages.yml"
 
 permissions:
@@ -28,10 +29,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
           go-version: "1.26"
+
       - name: Generate static catalog
         env:
           TANGTHU_GOOGLE_API_KEY: ${{ secrets.TANGTHU_GOOGLE_API_KEY }}
@@ -39,10 +42,18 @@ jobs:
           TANGTHU_OUTPUT_DIR: docs
           TANGTHU_BASE_URL: https://zenkjt.github.io/tangthu-opds
         run: go run ./cmd/generate
+
       - name: Apply catalog UI
         run: python3 scripts/postprocess_ui.py
+
+      - name: Apply registration UI
+        env:
+          TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
+        run: python3 scripts/postprocess_registration.py
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
