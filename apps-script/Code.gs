@@ -9,16 +9,18 @@
  *   TANGTHU_GOOGLE_API_KEY
  *   TANGTHU_GITHUB_TOKEN
  *
- * The browser currently uses only GET?action=check.
- * Mutation functions are already implemented here and will be wired to the
- * UI after the check endpoint is verified on the live GitHub Pages site.
+ * TEMPORARY TEST MODE:
+ *   24-hour mutation cooldown is DISABLED.
+ *   Create / rename / delete can be tested repeatedly.
  */
 
 var REPO_OWNER = 'Zenkjt';
 var REPO_NAME = 'tangthu-opds';
 var REPO_BRANCH = 'main';
 var CONFIG_PATH = 'config/branches.json';
-var MUTATION_COOLDOWN_MS = 24 * 60 * 60 * 1000;
+
+// TEMPORARY: cooldown disabled for testing.
+var MUTATION_COOLDOWN_MS = 0;
 
 function doGet(e) {
   var action = String((e && e.parameter && e.parameter.action) || '').trim().toLowerCase();
@@ -150,7 +152,7 @@ function mutate_(action, body) {
         folder_id: folderId,
         folder_name: folder.name,
         display_name: displayName,
-        next_mutation_at: new Date(now.getTime() + MUTATION_COOLDOWN_MS).toISOString()
+        next_mutation_at: null
       };
     }
 
@@ -163,6 +165,7 @@ function mutate_(action, body) {
 
     var branch = config.branches[index];
 
+    // TEMPORARY TEST MODE: this check always passes because cooldown is 0.
     if (!canMutate_(branch.last_mutation)) {
       return mutationBlocked_(branch, 'Tủ này đang trong thời gian chờ 24 giờ.');
     }
@@ -187,7 +190,7 @@ function mutate_(action, body) {
         folder_id: folderId,
         folder_name: folder.name,
         display_name: newName,
-        next_mutation_at: new Date(now.getTime() + MUTATION_COOLDOWN_MS).toISOString()
+        next_mutation_at: null
       };
     }
 
@@ -364,21 +367,13 @@ function githubHeaders_(token) {
 }
 
 function canMutate_(lastMutation) {
-  if (!lastMutation) return true;
-
-  var t = new Date(lastMutation).getTime();
-  if (isNaN(t)) return true;
-
-  return Date.now() - t >= MUTATION_COOLDOWN_MS;
+  // TEMPORARY TEST MODE: always allow mutation.
+  return true;
 }
 
 function nextMutationAt_(lastMutation) {
-  if (!lastMutation) return null;
-
-  var t = new Date(lastMutation).getTime();
-  if (isNaN(t)) return null;
-
-  return new Date(t + MUTATION_COOLDOWN_MS).toISOString();
+  // TEMPORARY TEST MODE: no cooldown timestamp.
+  return null;
 }
 
 function mutationBlocked_(branch, message) {
@@ -387,8 +382,8 @@ function mutationBlocked_(branch, message) {
     error: message,
     folder_id: branch.root_folder_id,
     display_name: branch.display_name,
-    next_mutation_at: nextMutationAt_(branch.last_mutation),
-    can_mutate: false
+    next_mutation_at: null,
+    can_mutate: true
   };
 }
 
