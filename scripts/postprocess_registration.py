@@ -197,9 +197,12 @@ new_fn = r"""
           ? 'Đang đổi tên tủ...'
           : 'Đang xóa tủ...');
 
+      // Use text/plain so the browser sends a CORS "simple request"
+      // instead of an OPTIONS preflight. Apps Script Web Apps do not expose
+      // an OPTIONS handler, so application/json would cause Failed to fetch.
       fetch(apiUrl,{
         method:'POST',
-        headers:{'Content-Type':'application/json'},
+        headers:{'Content-Type':'text/plain;charset=utf-8'},
         body:JSON.stringify({
           action:action,
           drive_url:link,
