@@ -43,23 +43,23 @@ new_fn = r"""
       var name=$('shelfName').value.trim();
       var isDelete=!!state.found && name.toUpperCase()==='DELETE';
       var btn=$('shareBtn');
+      var blocked=state.check && state.check.can_mutate===false;
 
       if(state.mode==='create'){
         btn.textContent='Tạo tủ';
         btn.disabled=!state.checkedId || !name;
       }else if(state.mode==='rename'){
-        // Important: DELETE is a second valid action while an existing
-        // shelf is selected. Do not disable the button here.
+        // DELETE is a second valid action while an existing shelf is selected.
         if(isDelete){
           btn.textContent='Xóa tủ';
-          btn.disabled=!state.checkedId;
+          btn.disabled=!state.checkedId || blocked;
         }else{
           btn.textContent='Đổi tên';
-          btn.disabled=!state.checkedId || !name;
+          btn.disabled=!state.checkedId || !name || blocked;
         }
       }else if(state.mode==='delete'){
         btn.textContent='Xóa tủ';
-        btn.disabled=!state.checkedId;
+        btn.disabled=!state.checkedId || blocked;
       }else{
         btn.textContent='Kiểm tra link trước';
         btn.disabled=true;
@@ -169,7 +169,7 @@ new_fn = r"""
       var id=parseDriveId(link);
       var name=$('shelfName').value.trim();
 
-      if(!id || id!==state.checkedId)return;
+      if(!apiUrl || !id || id!==state.checkedId)return;
 
       var isDelete=!!state.found && name.toUpperCase()==='DELETE';
       var action=isDelete?'delete':state.mode;
@@ -177,11 +177,71 @@ new_fn = r"""
       if(action==='create' && !name)return;
       if(action==='rename' && !name)return;
       if(action==='delete' && !isDelete)return;
+      if(state.check && state.check.can_mutate===false){
+        setMessage('Tủ này đang trong thời gian chờ 24 giờ.');
+        updateAction();
+        return;
+      }
 
-      // Stage 1 only: verify the folder through Apps Script.
-      // CREATE/RENAME/DELETE will be wired after this check endpoint is
-      // deployed and tested from the live GitHub Pages site.
-      setMessage('Kiểm tra OK. Mutation API sẽ được bật ở bước tiếp theo.');
+      if(action==='delete'){
+        if(!window.confirm('Xóa tủ "'+(state.found ? state.found.name : '')+'" khỏi Tàng Thư?'))return;
+      }
+
+      var btn=$('shareBtn');
+      var lookup=$('lookupBtn');
+      btn.disabled=true;
+      lookup.disabled=true;
+      setMessage(action==='create'
+        ? 'Đang tạo tủ...'
+        : action==='rename'
+          ? 'Đang đổi tên tủ...'
+          : 'Đang xóa tủ...');
+
+      fetch(apiUrl,{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({
+          action:action,
+          drive_url:link,
+          display_name:action==='delete' ? 'DELETE' : name
+        })
+      })
+        .then(function(r){
+          return r.text().then(function(t){
+            var data={};
+            try{data=JSON.parse(t||'{}')}catch(e){throw new Error('Apps Script trả về dữ liệu không hợp lệ: '+t)}
+            if(!r.ok) throw new Error('HTTP '+r.status);
+            return data;
+          });
+        })
+        .then(function(data){
+          if(!data.ok){
+            setMessage(data.error||'Không thể thực hiện thao tác.');
+            if(data.next_mutation_at){
+              setMessage((data.error||'Không thể thực hiện thao tác.')+
+                ' Có thể thử lại sau '+data.next_mutation_at+'.');
+            }
+            return;
+          }
+
+          setMessage(action==='create'
+            ? 'Đã tạo tủ. GitHub Pages sẽ tự cập nhật.'
+            : action==='rename'
+              ? 'Đã đổi tên tủ. GitHub Pages sẽ tự cập nhật.'
+              : 'Đã xóa tủ. GitHub Pages sẽ tự cập nhật.');
+
+          setTimeout(function(){
+            closeModal();
+            location.reload();
+          },1800);
+        })
+        .catch(function(err){
+          setMessage('Lỗi: '+String(err));
+        })
+        .finally(function(){
+          lookup.disabled=false;
+          updateAction();
+        });
     };
   }
 """
