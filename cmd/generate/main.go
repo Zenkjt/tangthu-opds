@@ -13,7 +13,6 @@ import (
 	"time"
 
 	"github.com/Zenkjt/tangthu-opds/internal/drive"
-	"github.com/Zenkjt/tangthu-opds/internal/metadata"
 )
 
 type BranchConfig struct {
@@ -36,8 +35,6 @@ type FileEntry struct {
 	Modified string
 	Checksum string
 	IsFolder bool
-	Meta     metadata.Metadata
-	CoverURL string
 }
 
 type Branch struct {
@@ -106,28 +103,6 @@ func main() {
 	}
 	if err := os.MkdirAll(filepath.Join(outDir, "covers"), 0755); err != nil {
 		fatal(err.Error())
-	}
-
-	// Metadata extraction is best-effort: a bad or unusual ebook must never
-	// make the file disappear from the catalog.
-	for bi := range branches {
-		for i := range branches[bi].Files {
-			if branches[bi].Files[i].IsFolder || i >= len(branches[bi].DriveFiles) {
-				continue
-			}
-			m := metadata.Extract(ctx, client, branches[bi].DriveFiles[i])
-			branches[bi].Files[i].Meta = m
-			if len(m.Cover) > 0 {
-				ext := m.CoverType
-				if ext == "" {
-					ext = "jpg"
-				}
-				name := branches[bi].Files[i].ID + "." + ext
-				if err := os.WriteFile(filepath.Join(outDir, "covers", name), m.Cover, 0644); err == nil {
-					branches[bi].Files[i].CoverURL = baseURL + "/covers/" + url.PathEscape(name)
-				}
-			}
-		}
 	}
 
 	if err := writeWeb(outDir, baseURL, branches); err != nil {
@@ -410,16 +385,14 @@ button:disabled{cursor:default;color:#777}
 
 func writeCatalogJSON(out string, branches []Branch) error {
 	type JFile struct {
-		ID       string            `json:"id"`
-		ParentID string            `json:"parent_id"`
-		Name     string            `json:"name"`
-		MIME     string            `json:"mime"`
-		Size     int64             `json:"size"`
-		Modified string            `json:"modified"`
-		Checksum string            `json:"checksum,omitempty"`
-		Folder   bool              `json:"folder"`
-		Meta     metadata.Metadata `json:"metadata,omitempty"`
-		Cover    string            `json:"cover,omitempty"`
+		ID       string `json:"id"`
+		ParentID string `json:"parent_id"`
+		Name     string `json:"name"`
+		MIME     string `json:"mime"`
+		Size     int64  `json:"size"`
+		Modified string `json:"modified"`
+		Checksum string `json:"checksum,omitempty"`
+		Folder   bool   `json:"folder"`
 	}
 	type JBranch struct {
 		ID           string  `json:"id"`
@@ -432,7 +405,7 @@ func writeCatalogJSON(out string, branches []Branch) error {
 	for _, br := range branches {
 		jb := JBranch{ID: br.Config.ID, Name: br.Config.DisplayName, RootFolderID: br.Config.RootFolderID, DriveName: br.DriveFolderName}
 		for _, f := range br.Files {
-			jb.Files = append(jb.Files, JFile{ID: f.ID, ParentID: f.ParentID, Name: f.Name, MIME: f.MIME, Size: f.Size, Modified: f.Modified, Checksum: f.Checksum, Folder: f.IsFolder, Meta: f.Meta, Cover: f.CoverURL})
+			jb.Files = append(jb.Files, JFile{ID: f.ID, ParentID: f.ParentID, Name: f.Name, MIME: f.MIME, Size: f.Size, Modified: f.Modified, Checksum: f.Checksum, Folder: f.IsFolder})
 		}
 		rows = append(rows, jb)
 	}
