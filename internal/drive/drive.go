@@ -19,13 +19,14 @@ const (
 )
 
 type File struct {
-	ID           string `json:"id"`
-	ParentID     string `json:"-"`
-	Name         string `json:"name"`
-	MIMEType     string `json:"mimeType"`
-	Size         int64  `json:"size,string"`
-	ModifiedTime string `json:"modifiedTime"`
-	MD5Checksum  string `json:"md5Checksum"`
+	ID             string `json:"id"`
+	ParentID       string `json:"-"`
+	Name           string `json:"name"`
+	MIMEType       string `json:"mimeType"`
+	Size           int64  `json:"size,string"`
+	ModifiedTime   string `json:"modifiedTime"`
+	MD5Checksum    string `json:"md5Checksum"`
+	WebContentLink string `json:"webContentLink"`
 }
 
 type Client struct {
@@ -84,7 +85,7 @@ func (c *Client) ListChildren(ctx context.Context, parentID string) ([]File, err
 		q := fmt.Sprintf("'%s' in parents and trashed = false", escapeQuery(parentID))
 		params := url.Values{
 			"q": {q}, "pageSize": {"1000"}, "orderBy": {"folder,name"},
-			"fields":            {"nextPageToken,files(id,name,mimeType,size,modifiedTime,md5Checksum)"},
+			"fields":            {"nextPageToken,files(id,name,mimeType,size,modifiedTime,md5Checksum,webContentLink)"},
 			"supportsAllDrives": {"true"}, "includeItemsFromAllDrives": {"true"},
 		}
 		if token != "" {
