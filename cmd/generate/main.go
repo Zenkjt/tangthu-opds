@@ -166,12 +166,9 @@ func children(b Branch, parent string) []FileEntry {
 }
 
 func acquisitionURL(f FileEntry) string {
-	if strings.TrimSpace(f.WebContentLink) != "" {
-		return f.WebContentLink
-	}
-	return "https://drive.usercontent.google.com/download?id=" +
-		url.QueryEscape(f.ID) +
-		"&export=download&confirm=t"
+    return "https://drive.usercontent.google.com/download?id=" +
+        url.QueryEscape(f.ID) +
+        "&export=download&confirm=t"
 }
 
 func writeWeb(out, base string, branches []Branch) error {
