@@ -346,7 +346,7 @@ button:disabled{cursor:default;color:#777}
   }
 
   function showInfo(){
-    modal('GIỚI THIỆU TÀNG THƯ','<p><strong>Tàng Thư là thư viện phân tán</strong>, sách được liệt kê theo chuẩn OPDS. Bạn chép đường dẫn <code>https://zenkjt.github.io/tangthu-opds/opds/index.xml</code> vào danh sách OPDS của máy đọc sách để truy cập.</p><p>Tàng Thư có nhiều <strong>“tủ sách”</strong>, mỗi tủ sách là một thư mục đã được chia sẻ trên Google Drive của người chia sẻ. Không nên dùng tài khoản Google chính cho việc này.</p><p>Bạn có thể đặt tên/đổi tên tủ mà bạn chia sẻ. Các tên bắt đầu bằng <strong>VN</strong> sẽ được ưu tiên hiển thị.</p><p>Vì các hạn chế của máy đọc sách nên mỗi tủ sách không nên để quá nhiều sách.</p><p style="text-align:center;font-family:Georgia,serif"><strong>Happy reading.</strong></p>');
+    modal('GIỚI THIỆU TÀNG THƯ','<p><strong>Tàng Thư là thư viện phân tán</strong>, sách được liệt kê theo chuẩn OPDS. Bạn chép đường dẫn <code>https://zenkjt.github.io/tangthu-opds/opds/index.xml</code> vào danh sách OPDS của máy đọc sách để truy cập.</p><p>Tàng Thư có nhiều <strong>“tủ sách”</strong>, mỗi tủ sách là một thư mục đã được chia sẻ trên Google Drive của người chia sẻ. Không nên dùng tài khoản Google chính cho việc này ;)</p><p>Bạn có thể đặt tên/đổi tên/xóa tủ mà bạn chia sẻ sau mỗi 24h. Các tên tủ sách bắt đầu bằng <strong>VN</strong> sẽ được ưu tiên hiển thị.</p><p>Bắt đầu bằng việc nhấn nút <strong>Tủ sách</strong>, paste link google folder vào ô "Đường link thư mục" rồi "kiểm tra link".</p><p>Vì các hạn chế của máy đọc sách nên mỗi tủ sách không nên để quá nhiều sách.</p><p style="text-align:center;font-family:Georgia,serif"><strong>_ Happy reading _</strong></p>');
   }
 
   function parseDriveId(s){
