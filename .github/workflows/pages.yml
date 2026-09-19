@@ -13,6 +13,7 @@ on:
       - "scripts/postprocess_ui.py"
       - "scripts/postprocess_registration.py"
       - "scripts/paginate_opds.py"
+      - "scripts/rewrite_opds_download_urls.py"
       - ".github/workflows/pages.yml"
 
 permissions:
@@ -43,6 +44,11 @@ jobs:
           TANGTHU_OUTPUT_DIR: docs
           TANGTHU_BASE_URL: https://zenkjt.github.io/tangthu-opds
         run: go run ./cmd/generate
+
+      - name: Rewrite OPDS download URLs
+        env:
+          TANGTHU_DOWNLOAD_WORKER_URL: ${{ vars.TANGTHU_DOWNLOAD_WORKER_URL }}
+        run: python3 scripts/rewrite_opds_download_urls.py
 
       - name: Paginate OPDS feeds
         run: python3 scripts/paginate_opds.py
