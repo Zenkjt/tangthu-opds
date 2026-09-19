@@ -12,6 +12,7 @@ on:
       - "config/branches.json"
       - "scripts/postprocess_ui.py"
       - "scripts/postprocess_registration.py"
+      - "scripts/paginate_opds.py"
       - ".github/workflows/pages.yml"
 
 permissions:
@@ -42,6 +43,9 @@ jobs:
           TANGTHU_OUTPUT_DIR: docs
           TANGTHU_BASE_URL: https://zenkjt.github.io/tangthu-opds
         run: go run ./cmd/generate
+
+      - name: Paginate OPDS feeds
+        run: python3 scripts/paginate_opds.py
 
       - name: Apply catalog UI
         run: python3 scripts/postprocess_ui.py
