@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+import os
 import re
 import xml.etree.ElementTree as ET
 
@@ -17,6 +18,11 @@ PREVIOUS = "previous"
 
 ET.register_namespace("", ATOM)
 ET.register_namespace("opds", OPDS)
+
+BASE_URL = os.environ.get(
+    "TANGTHU_BASE_URL",
+    "https://tangthu.pages.dev",
+).rstrip("/")
 
 
 def is_book(entry: ET.Element) -> bool:
@@ -60,7 +66,7 @@ def page_filename(first_name: str, page: int) -> str:
 
 def public_page_url(xml_path: Path) -> str:
     rel = xml_path.relative_to(Path("docs")).as_posix()
-    return f"https://zenkjt.github.io/tangthu-opds/{rel}"
+    return f"{BASE_URL}/{rel}"
 
 
 def is_generated_page(path: Path) -> bool:
