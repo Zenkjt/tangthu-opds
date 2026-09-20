@@ -284,6 +284,20 @@ button:disabled{cursor:default;color:#777}
 .status{display:flex;justify-content:space-between;gap:8px;padding:5px 9px;border-top:2px solid #808080;background:#c0c0c0}
 .status span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .empty{padding:30px;text-align:center;color:#555}
+.modal-backdrop{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.25);align-items:center;justify-content:center;padding:14px}
+.modal-backdrop.open{display:flex}
+.modal{width:min(620px,96vw);max-height:90vh;overflow:auto;background:#c0c0c0;border:2px solid #fff;border-right-color:#404040;border-bottom-color:#404040;box-shadow:3px 3px 0 #000}
+.modal-title{height:34px;display:flex;align-items:center;padding:4px 6px;background:#000080;color:#fff;font-weight:bold}
+.modal-title .close{margin-left:auto;min-width:28px;height:25px;border:2px solid #fff;border-right-color:#404040;border-bottom-color:#404040;background:#c0c0c0;color:#000;font-weight:bold}
+.modal-body{padding:10px;background:#c0c0c0}
+.modal-body fieldset{margin:0 0 10px;padding:9px;border:2px groove #fff}
+.modal-body legend{padding:0 5px;font-weight:bold}
+.modal-body label{display:block;margin-bottom:4px;font-weight:bold}
+.modal-body input{width:100%;height:34px;padding:5px 7px;background:#fff;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff}
+.modal-body .note{padding:8px;margin:8px 0;background:#ffffcc;border:1px solid #888;line-height:1.45}
+.lookup-state{margin-top:7px;padding:6px;background:#dfdfdf;border:1px solid #888;min-height:30px}
+.modal-actions{display:flex;justify-content:flex-end;gap:6px;margin-top:10px}
+.modal-actions button{min-width:110px;height:34px;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}
 .shelf-view{display:none;background:#cdcdcd;overflow:auto;max-height:calc(100vh - 255px);border:2px inset #eee}
 .shelf-view.active{display:block}
 .list-view.hidden{display:none}
@@ -338,11 +352,22 @@ button:disabled{cursor:default;color:#777}
   <div class="status"><span id="statusLeft">Sẵn sàng.</span><span>TÀNG THƯ | OPDS | 2026</span></div>
 </div>
 
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-title"><span id="modalTitle">Thông tin</span><button class="close" id="modalClose">×</button></div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
 <script>
 (function(){
 'use strict';
 var state={catalog:null,branch:null,parent:null,search:'',shelf:false};
 var $=function(id){return document.getElementById(id)};
+var modal=function(title,body){$('modalTitle').textContent=title;$('modalBody').innerHTML=body;$('modalBackdrop').classList.add('open')};
+var closeModal=function(){$('modalBackdrop').classList.remove('open')};
+$('modalClose').onclick=closeModal;
+$('modalBackdrop').onclick=function(e){if(e.target===$('modalBackdrop'))closeModal()};
 var esc=function(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
 var ext=function(n){var m=String(n||'').toLowerCase().match(/\.([^.]+)$/);return m?m[1].toUpperCase():'FILE'};
 function branches(){return state.catalog&&state.catalog.branches||[]}
@@ -408,9 +433,17 @@ $('refreshBtn').onclick=function(){location.reload()};
 $('homeBtn').onclick=function(){var bs=branches();if(bs.length)selectBranch(bs[0].id)};
 $('upBtn').onclick=function(){var b=currentBranch();if(!b)return;if(state.parent!==b.root_folder_id){var f=findFile(b,state.parent);state.parent=f?f.parent_id:b.root_folder_id;renderList()}};
 $('searchBtn').onclick=function(){$('searchInput').focus()};
-$('searchDo').onclick=function(){state.search=$('searchInput').value;state.shelf=false;updateView()};
-$('searchInput').onkeydown=function(e){if(e.key==='Enter')$('searchDo').click()};
-$('shelfBtn').onclick=function(){state.shelf=true;updateView()};
+// Registration UI is injected by scripts/postprocess_registration.py.
+// Keep this anchor stable; the generated bookshelf view is controlled by View.
+function showShelf(){}
+function runSearch(){
+ state.search=$('searchInput').value;
+ state.shelf=false;
+ updateView();
+}
+$('searchDo').onclick=runSearch;
+$('searchInput').onkeydown=function(e){if(e.key==='Enter')runSearch()};
+$('shelfBtn').onclick=showShelf;
 $('infoBtn').onclick=function(){alert('Tàng Thư — thư viện sách phân tán theo chuẩn OPDS.')};
 
 fetch('catalog.json',{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('catalog '+r.status);return r.json()}).then(function(c){
