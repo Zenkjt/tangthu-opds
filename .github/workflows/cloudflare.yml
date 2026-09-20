@@ -1,6 +1,9 @@
-name: Cloudflare Pages (manual test)
+name: Cloudflare Pages
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
