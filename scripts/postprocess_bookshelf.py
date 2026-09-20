@@ -4,9 +4,9 @@ from pathlib import Path
 INDEX = Path("docs/index.html")
 text = INDEX.read_text(encoding="utf-8")
 
-css_marker = "/* TANGTHU_BOOKSHELF_V3 */"
+css_marker = "/* TANGTHU_BOOKSHELF_V4 */"
 css = r'''
-/* TANGTHU_BOOKSHELF_V3 */
+/* TANGTHU_BOOKSHELF_V4 */
 .shelf-view{padding:12px;background:#fff;min-height:100%}
 .shelf-row{position:relative;margin:0 0 18px;padding:8px 12px 34px;min-height:190px;background-color:#c0c0c0;background-image:url('assets/bookshelf/shelf-row.png');background-repeat:repeat-x;background-position:left bottom;background-size:auto 34px}
 .shelf-row:last-child{margin-bottom:0}
@@ -15,13 +15,12 @@ css = r'''
 .shelf-book:hover{background:#f5f5f5;border-color:#777}
 .shelf-book:focus{outline:1px dotted #000;outline-offset:-1px}
 .shelf-book-cover{position:relative;width:108px;height:132px;display:flex;align-items:center;justify-content:center}
-.shelf-book-cover canvas{width:108px;height:132px;display:block;image-rendering:auto}
 .shelf-book img{width:108px;height:132px;object-fit:contain;display:block;image-rendering:auto}
-.shelf-book-name{position:absolute;left:15px;right:15px;top:57px;margin:0;padding:0;text-align:center;font-weight:bold;font-size:13px;line-height:1.12;color:#111;background:transparent;border:0;box-shadow:none;text-shadow:0 1px 0 rgba(255,255,255,.65);display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;min-height:0;z-index:2}
+.shelf-book-name{position:absolute;left:14px;right:14px;top:76px;margin:0;padding:0;text-align:center;font-weight:bold;font-size:13px;line-height:1.12;color:#111;background:transparent;border:0;box-shadow:none;text-shadow:0 1px 0 rgba(255,255,255,.7);display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;min-height:0;z-index:2}
 .shelf-book-stats{width:100%;margin-top:5px;text-align:center;font-size:11px;line-height:1.15;color:#333;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-@media(max-width:1050px){.shelf-books{gap:30px}.shelf-book{width:122px;min-width:122px}.shelf-book-cover,.shelf-book img{width:100px;height:124px}.shelf-book-name{left:13px;right:13px;top:54px;font-size:12px}}
-@media(max-width:760px){.shelf-view{padding:8px}.shelf-row{padding-left:7px;padding-right:7px}.shelf-books{gap:16px;flex-wrap:wrap}.shelf-book{width:100px;min-width:100px}.shelf-book-cover,.shelf-book img{width:82px;height:108px}.shelf-book-name{left:12px;right:12px;top:47px;font-size:11px}.shelf-book-stats{font-size:10px}}
-@media(max-width:500px){.shelf-books{gap:8px}.shelf-book{width:92px;min-width:92px}.shelf-book-cover,.shelf-book img{width:78px;height:102px}.shelf-book-name{left:10px;right:10px;top:44px;font-size:10px}}
+@media(max-width:1050px){.shelf-books{gap:30px}.shelf-book{width:122px;min-width:122px}.shelf-book-cover,.shelf-book img{width:100px;height:124px}.shelf-book-name{left:13px;right:13px;top:71px;font-size:12px}}
+@media(max-width:760px){.shelf-view{padding:8px}.shelf-row{padding-left:7px;padding-right:7px}.shelf-books{gap:16px;flex-wrap:wrap}.shelf-book{width:100px;min-width:100px}.shelf-book-cover,.shelf-book img{width:82px;height:108px}.shelf-book-name{left:12px;right:12px;top:62px;font-size:11px}.shelf-book-stats{font-size:10px}}
+@media(max-width:500px){.shelf-books{gap:8px}.shelf-book{width:92px;min-width:92px}.shelf-book-cover,.shelf-book img{width:78px;height:102px}.shelf-book-name{left:10px;right:10px;top:58px;font-size:10px}}
 '''
 
 if css_marker not in text:
@@ -59,32 +58,6 @@ renderer = r'''  function renderShelfStats(){
       ['EPUB','MOBI','AZW3','PDF'].forEach(function(e){if(counts[e])parts.push(e+' '+counts[e]);});
       return parts.join(' · ');
     }
-    function makeTransparentLabel(src,canvas){
-      var ctx=canvas.getContext('2d');
-      var img=new Image();
-      img.onload=function(){
-        var w=img.naturalWidth||img.width, h=img.naturalHeight||img.height;
-        canvas.width=w; canvas.height=h;
-        ctx.clearRect(0,0,w,h);
-        ctx.drawImage(img,0,0,w,h);
-        /* The blank label in the supplied bookshelf PNGs is deliberately
-           turned into a transparent window; the shelf background shows through. */
-        var x0=Math.floor(w*0.16), x1=Math.ceil(w*0.84);
-        var y0=Math.floor(h*0.48), y1=Math.ceil(h*0.76);
-        var data=ctx.getImageData(x0,y0,x1-x0,y1-y0);
-        for(var p=0;p<data.data.length;p+=4){
-          data.data[p+3]=0;
-        }
-        ctx.putImageData(data,x0,y0);
-      };
-      img.onerror=function(){
-        canvas.style.display='none';
-        var fallback=document.createElement('img');
-        fallback.src=src; fallback.alt=''; fallback.draggable=false;
-        canvas.parentNode.insertBefore(fallback,canvas);
-      };
-      img.src=src;
-    }
     function openShelf(shelf){
       state.view='list';
       state.branch=shelf.id;
@@ -111,15 +84,18 @@ renderer = r'''  function renderShelfStats(){
         var cover=document.createElement('div');
         cover.className='shelf-book-cover';
 
-        var iconSrc='assets/bookshelf/'+iconNames[(i+index)%iconNames.length];
-        var canvas=document.createElement('canvas');
-        makeTransparentLabel(iconSrc,canvas);
+        /* Use the PNG directly. No canvas and no erased/grey rectangle. */
+        var img=document.createElement('img');
+        img.src='assets/bookshelf/'+iconNames[(i+index)%iconNames.length];
+        img.alt='';
+        img.draggable=false;
 
+        /* Name is rendered directly over the clean book face. */
         var name=document.createElement('div');
         name.className='shelf-book-name';
         name.textContent=shelf.display_name||shelf.name||'';
 
-        cover.appendChild(canvas);
+        cover.appendChild(img);
         cover.appendChild(name);
 
         var meta=document.createElement('div');
@@ -128,7 +104,7 @@ renderer = r'''  function renderShelfStats(){
 
         item.appendChild(cover);
         item.appendChild(meta);
-        item.onclick=function(s){return function(){openShelf(s)};}(shelf);
+        item.onclick=(function(s){return function(){openShelf(s);};})(shelf);
         books.appendChild(item);
       });
 
@@ -141,6 +117,5 @@ renderer = r'''  function renderShelfStats(){
 '''
 
 text = text[:start] + renderer + text[end:]
-
 INDEX.write_text(text, encoding="utf-8")
-print("Applied TANG THU bookshelf presentation V3.")
+print("Applied TANG THU bookshelf presentation V4.")
