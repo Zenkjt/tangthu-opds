@@ -19,8 +19,8 @@ var REPO_NAME = 'tangthu-opds';
 var REPO_BRANCH = 'main';
 var CONFIG_PATH = 'config/branches.json';
 
-// TEMPORARY: cooldown disabled for testing.
-var MUTATION_COOLDOWN_MS = 0;
+// Mutation cooldown: 24 hours.
+var MUTATION_COOLDOWN_MS = 24 * 60 * 60 * 1000;
 
 function doGet(e) {
   var action = String((e && e.parameter && e.parameter.action) || '').trim().toLowerCase();
