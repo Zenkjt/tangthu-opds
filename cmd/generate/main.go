@@ -178,7 +178,7 @@ func writeWeb(out, base string, branches []Branch) error {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Tàng Thư — by Zenkjt">
+<meta name="description" content="TÀNG THƯ — Thư viện sách phân tán">
 <title>TÀNG THƯ — Thư viện sách phân tán</title>
 <style>
 :root{--gray:#c0c0c0;--light:#dfdfdf;--white:#fff;--dark:#404040;--black:#000;--select:#e6e6e6;--text:#111;--yellow:#ffffcc}
@@ -229,7 +229,7 @@ button:disabled{cursor:default;color:#777}
 </head>
 <body>
 <div class="win">
-  <div class="titlebar"><div class="appicon">📖</div><div class="caption">TÀNG THƯ — Thư viện sách phân tán (OPDS)</div></div>
+  <div class="titlebar"><div class="appicon">📖</div><div class="caption">Tàng thư - by Zenkjt</div></div>
   <div class="toolbar">
     <button class="tool" id="upBtn"><span class="ico">📁</span><span class="lbl">Up</span></button>
     <button class="tool" id="homeBtn"><span class="ico">⌂</span><span class="lbl">Home</span></button>
