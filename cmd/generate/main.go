@@ -178,8 +178,8 @@ func writeWeb(out, base string, branches []Branch) error {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="TÀNG THƯ — Thư viện sách phân tán">
-<title>TÀNG THƯ — Thư viện sách phân tán</title>
+<meta name="description" content="Bookshelves-OPDS">
+<title>Bookshelves-OPDS</title>
 <style>
 :root{--gray:#c0c0c0;--light:#dfdfdf;--white:#fff;--dark:#404040;--black:#000;--select:#e6e6e6;--text:#111;--yellow:#ffffcc}
 *{box-sizing:border-box}
