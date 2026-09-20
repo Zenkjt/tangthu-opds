@@ -32,7 +32,7 @@ jobs:
           TANGTHU_GOOGLE_API_KEY: ${{ secrets.TANGTHU_GOOGLE_API_KEY }}
           TANGTHU_BRANCH_CONFIG: config/branches.json
           TANGTHU_OUTPUT_DIR: docs
-          TANGTHU_BASE_URL: https://bookshelves.pages.dev
+          TANGTHU_BASE_URL: https://tangthu.pages.dev
         run: go run ./cmd/generate
 
       - name: Restore bookshelf assets
@@ -64,5 +64,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy docs --project-name=bookshelves
+          command: pages deploy docs --project-name=tangthu
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
