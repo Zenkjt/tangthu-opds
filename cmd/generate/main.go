@@ -166,9 +166,9 @@ func children(b Branch, parent string) []FileEntry {
 }
 
 func acquisitionURL(f FileEntry) string {
-    return "https://drive.usercontent.google.com/download?id=" +
-        url.QueryEscape(f.ID) +
-        "&export=download&confirm=t"
+	return "https://drive.usercontent.google.com/download?id=" +
+		url.QueryEscape(f.ID) +
+		"&export=download&confirm=t"
 }
 
 func writeWeb(out, base string, branches []Branch) error {
@@ -346,7 +346,7 @@ button:disabled{cursor:default;color:#777}
   }
 
   function showInfo(){
-    modal('GIỚI THIỆU TÀNG THƯ','<p><strong>Tàng Thư là thư viện phân tán</strong>, sách được liệt kê theo chuẩn OPDS. Bạn chép đường dẫn <code>https://zenkjt.github.io/tangthu-opds/opds/index.xml</code> vào danh mục OPDS của máy đọc sách để truy cập.</p><p>Tàng Thư có nhiều <strong>“tủ sách”</strong>, mỗi tủ sách là một thư mục trên Google drive và được ẩn link. Không nên dùng tài khoản Google chính cho việc này ;)</p><p>Bạn có thể đặt tên/đổi tên/xóa tủ mà bạn chia sẻ sau mỗi 24h. Các tên tủ sách bắt đầu bằng <strong>VN</strong> sẽ được ưu tiên hiển thị.</p><p>Bắt đầu bằng việc nhấn nút <strong>Tủ sách</strong>, paste link google folder vào ô "Đường link thư mục" rồi "kiểm tra link".</p><p>Vì các hạn chế của máy đọc sách nên mỗi tủ sách không nên để quá nhiều sách.</p><p style="text-align:center;font-family:Georgia,serif"><strong>*** Happy reading ***</strong></p>');
+    modal('GIỚI THIỆU TÀNG THƯ','<p><strong>Tàng Thư mến chào bạn!</strong></p><p>Tàng Thư là thư viện sách theo chuẩn <strong>OPDS</strong>, phân tán, ẩn danh và luôn ở bên bạn.</p><p>Bạn có muốn kho sách của mình luôn sẵn sàng để tải về trên máy đọc sách? Hãy tạo một <strong>tủ sách</strong> trên Tàng Thư nhé:</p><ol><li>Điền địa chỉ <code>https://zenkjt.github.io/tangthu-opds/opds/index.xml</code> vào danh mục OPDS trên máy đọc sách của bạn.</li><li>Copy địa chỉ thư mục sách của bạn. Thư mục phải được chia sẻ. Hiện tại Tàng Thư ghi nhận các file <strong>EPUB, MOBI, AZW3</strong> dưới 25 MB.</li><li>Quay lại đây, nhấn <strong>Tủ sách</strong>, dán địa chỉ thư mục vào ô “Đường link…”, đặt tên ngắn gọn cho tủ sách rồi nhấn <strong>Tạo tủ</strong>.</li><li>Muốn sửa hoặc xoá tủ, bạn chỉ cần paste lại đường link thư mục như trên. Sau 24 giờ kể từ khi tạo tủ, bạn mới có thể đổi tên hoặc xoá tủ.</li></ol><p><strong>Happy reading</strong></p><p><strong>Zenkjt</strong></p>');
   }
 
   function parseDriveId(s){
@@ -360,7 +360,12 @@ button:disabled{cursor:default;color:#777}
   }
 
   function issueURL(title,body){return 'https://github.com/Zenkjt/tangthu-opds/issues/new?title='+encodeURIComponent(title)+'&body='+encodeURIComponent(body)}
-  function shelfIssue(action,id,name,link){var title='[TANGTHU] '+name;var body='- Google Drive: '+link+'\n- Tên tủ: '+name+'\n- Hành động: '+action+'\n- Folder ID: '+id+'\n\nYêu cầu được tạo từ trang TÀNG THƯ.';return issueURL(title,body)}
+  function shelfIssue(action,id,name,link){var title='[TANGTHU] '+name;var body='- Google Drive: '+link+'\
+- Tên tủ: '+name+'\
+- Hành động: '+action+'\
+- Folder ID: '+id+'\
+\
+Yêu cầu được tạo từ trang TÀNG THƯ.';return issueURL(title,body)}
 
   function showShelf(){
     modal('ĐĂNG KÝ / ĐỔI TÊN TỦ SÁCH','<fieldset><legend>Google Drive</legend><label for="driveLink">Đường link thư mục</label><input id="driveLink" type="url" placeholder="https://drive.google.com/drive/folders/..." value=""></fieldset>'+
@@ -398,10 +403,10 @@ func writeCatalogJSON(out string, branches []Branch) error {
 		Folder   bool   `json:"folder"`
 	}
 	type JBranch struct {
-		ID           string  `json:"id"`
-		Name         string  `json:"name"`
-		RootFolderID string  `json:"root_folder_id"`
-		DriveName    string  `json:"drive_name"`
+		ID           string `json:"id"`
+		Name         string `json:"name"`
+		RootFolderID string `json:"root_folder_id"`
+		DriveName    string `json:"drive_name"`
 		Files        []JFile `json:"files"`
 	}
 	var rows []JBranch
