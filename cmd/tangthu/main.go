@@ -348,6 +348,54 @@ func bookAsset(i int) string {
 	return "/assets/bookshelf/book-" + names[i%len(names)] + ".png"
 }
 
+func titleClass(s string) string {
+	n := len([]rune(strings.TrimSpace(s)))
+	switch {
+	case n > 28:
+		return "xxlong"
+	case n > 20:
+		return "xlong"
+	case n > 13:
+		return "long"
+	default:
+		return ""
+	}
+}
+
+func branchStats(b Branch) string {
+	counts := map[string]int{}
+	total := 0
+	for _, f := range b.Files {
+		if f.IsFolder {
+			continue
+		}
+		total++
+		name := strings.ToLower(f.Name)
+		ext := strings.ToLower(path.Ext(name))
+		switch {
+		case strings.Contains(f.MIME, "epub") || ext == ".epub":
+			counts["EPUB"]++
+		case strings.Contains(f.MIME, "mobipocket") || ext == ".mobi":
+			counts["MOBI"]++
+		case strings.Contains(f.MIME, "amazon.ebook") || ext == ".azw3" || ext == ".azw":
+			counts["AZW3"]++
+		case strings.Contains(f.MIME, "pdf") || ext == ".pdf":
+			counts["PDF"]++
+		case ext == ".fb2":
+			counts["FB2"]++
+		case ext == ".cbz":
+			counts["CBZ"]++
+		}
+	}
+	parts := []string{fmt.Sprintf("%d sách", total)}
+	for _, k := range []string{"EPUB", "MOBI", "AZW3", "PDF", "FB2", "CBZ"} {
+		if counts[k] > 0 {
+			parts = append(parts, fmt.Sprintf("%s %d", k, counts[k]))
+		}
+	}
+	return strings.Join(parts, " · ")
+}
+
 func (a *app) opdsRoot(w http.ResponseWriter, r *http.Request) {
 	var x strings.Builder
 	x.WriteString(`<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog"><title>TÀNG THƯ</title><link rel="search" href="/opds/search.xml" type="application/opensearchdescription+xml"/>`)
@@ -465,10 +513,12 @@ func (a *app) acquire(w http.ResponseWriter, r *http.Request, id, fid string) {
 }
 
 var tpl = template.Must(template.New("page").Funcs(template.FuncMap{
-	"bookAsset": bookAsset,
-	"mod":       mod,
-	"add":       add,
-	"sub":       sub,
+	"bookAsset":   bookAsset,
+	"branchStats": branchStats,
+	"titleClass":  titleClass,
+	"mod":         mod,
+	"add":         add,
+	"sub":         sub,
 }).Parse(`<!doctype html>
 <html lang="vi">
 <head>
@@ -484,18 +534,22 @@ body{font:14px Tahoma,Arial,sans-serif;color:#111;padding:18px}
 .menu{height:43px;padding:4px 10px;background:#c0c0c0;border-bottom:2px solid #808080;font-size:19px}
 .menu span{margin-right:32px;text-decoration:underline}
 .toolbar{height:82px;display:flex;border-bottom:2px solid #808080;background:#c0c0c0}
-.tool{width:94px;border:2px outset #eee;border-top:0;text-align:center;padding:6px 4px;font-size:14px}
+.tool{display:block;color:#000;text-decoration:none;width:94px;border:2px outset #eee;border-top:0;text-align:center;padding:6px 4px;font-size:14px}
 .tool .ico{height:39px;font-size:31px;line-height:34px;font-weight:bold}
 .tool.sel{background:#d4d4d4;box-shadow:inset 0 0 0 2px #000080}
 .motto{margin-left:auto;min-width:280px;text-align:center;padding:31px 22px 0;font-size:16px}
 .motto span{display:block;border-bottom:2px solid #888;padding-bottom:5px}
 .b{padding:8px;background:#c0c0c0}
-.library{position:relative;overflow:auto;height:min(690px,calc(100vh - 235px));min-height:430px;border:2px inset #eee;background:#cdcdcd}
-.shelfrow{height:250px;min-width:820px;position:relative;background:#cdcdcd url("/assets/bookshelf/shelf-row.png") center bottom/100% 250px no-repeat}
-.books{height:235px;padding:18px 42px 0 42px;display:grid;grid-template-columns:repeat(6,minmax(95px,1fr));gap:18px;align-items:end}
-.booklink{display:flex;justify-content:center;align-items:flex-end;height:215px;text-decoration:none;color:#111;position:relative}
-.bookimg{display:block;width:min(142px,100%);height:auto;max-height:205px;object-fit:contain;filter:drop-shadow(2px 2px 0 rgba(0,0,0,.35))}
-.booklabel{position:absolute;left:50%;transform:translateX(-50%);bottom:17px;width:min(108px,75%);min-height:46px;padding:5px 4px 3px;background:#e8e5d5;border:2px solid #222;box-shadow:1px 1px 0 #777;text-align:center;font-weight:bold;font-size:15px;line-height:18px;display:flex;align-items:center;justify-content:center}
+.library{position:relative;overflow:auto;height:min(720px,calc(100vh - 235px));min-height:430px;border:2px inset #eee;background:#cdcdcd}
+.shelfrow{height:300px;min-width:820px;position:relative;background:#cdcdcd url("/assets/bookshelf/shelf-row.png") center bottom/100% 300px no-repeat}
+.books{height:285px;padding:10px 42px 45px;display:grid;grid-template-columns:repeat(6,minmax(105px,1fr));gap:18px;align-items:end}
+.booklink{display:flex;justify-content:center;align-items:flex-end;height:235px;text-decoration:none;color:#111;position:relative}
+.bookimg{display:block;width:min(142px,100%);height:auto;max-height:195px;object-fit:contain;filter:drop-shadow(2px 2px 0 rgba(0,0,0,.35))}
+.booklabel{position:absolute;left:50%;transform:translateX(-50%);bottom:46px;width:min(108px,78%);min-height:46px;padding:4px 4px 3px;background:#e8e5d5;border:2px solid #222;box-shadow:1px 1px 0 #777;text-align:center;font-weight:bold;font-size:15px;line-height:17px;display:flex;align-items:center;justify-content:center;overflow-wrap:anywhere}
+.booklabel.long{font-size:13px;line-height:15px}
+.booklabel.xlong{font-size:11px;line-height:13px}
+.booklabel.xxlong{font-size:10px;line-height:12px}
+.bookstats{position:absolute;left:50%;transform:translateX(-50%);bottom:8px;width:min(150px,100%);font-size:10px;line-height:12px;text-align:center;white-space:normal;font-weight:bold;text-shadow:0 1px #fff}
 .booklink:hover .bookimg{filter:drop-shadow(3px 3px 0 #000080)}
 .booklink:hover .booklabel{background:#ffffcc}
 .empty{height:100%;display:flex;align-items:center;justify-content:center;font-size:18px}
@@ -519,7 +573,7 @@ th{background:#ddd}
     <div class="tool"><div class="ico">←</div>Back</div>
     <div class="tool"><div class="ico">⌂</div>Home</div>
     <div class="tool"><div class="ico">↥</div>Up</div>
-    <div class="tool sel"><div class="ico">▥</div>View</div>
+    <a class="tool sel" href="/library"><div class="ico">▥</div>View</a>
     <div class="tool"><div class="ico">▤</div>List</div>
     <div class="tool"><div class="ico">⌕</div>Search</div>
     <div class="motto"><span>Đọc để đi xa hơn.</span></div>
@@ -565,7 +619,8 @@ th{background:#ddd}
           {{if eq (mod $i 6) 0}}<div class="shelfrow"><div class="books">{{end}}
           <a class="booklink" href="/library/branch/{{$b.ID}}" title="{{$b.DisplayName}}">
             <img class="bookimg" src="{{bookAsset $i}}" alt="">
-            <span class="booklabel">{{$b.DisplayName}}</span>
+            <span class="booklabel {{titleClass $b.DisplayName}}">{{$b.DisplayName}}</span>
+            <span class="bookstats">{{branchStats $b}}</span>
           </a>
           {{if or (eq (mod (add $i 1) 6) 0) (eq $i (sub (len $.Branches) 1))}}</div></div>{{end}}
         {{end}}
