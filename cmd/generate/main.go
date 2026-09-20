@@ -102,15 +102,10 @@ func main() {
 	for _, dir := range []string{
 		filepath.Join(outDir, "opds"),
 		filepath.Join(outDir, "covers"),
-		filepath.Join(outDir, "assets", "bookshelf"),
 	} {
 		if err := os.MkdirAll(dir, 0755); err != nil {
 			fatal(err.Error())
 		}
-	}
-
-	if err := copyBookshelfAssets(outDir); err != nil {
-		fatal(err.Error())
 	}
 	if err := writeWeb(outDir, baseURL, branches); err != nil {
 		fatal(err.Error())
@@ -241,7 +236,7 @@ func writeWeb(out, base string, branches []Branch) error {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Tàng Thư — by Zenkjt">
+<meta name="description" content="Tàng Thư — thư viện sách phân tán theo chuẩn OPDS">
 <title>TÀNG THƯ — Thư viện sách phân tán</title>
 <style>
 :root{--gray:#c0c0c0;--light:#dfdfdf;--white:#fff;--dark:#404040;--black:#000;--select:#e6e6e6;--text:#111;--yellow:#ffffcc}
