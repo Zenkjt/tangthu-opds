@@ -96,8 +96,17 @@ func main() {
 		return branchLess(branches[i].Config.DisplayName, branches[j].Config.DisplayName)
 	})
 
-	if err := os.RemoveAll(outDir); err != nil {
-		fatal(err.Error())
+	// Keep repository-managed static assets (including docs/assets/bookshelf)
+	// and replace only generated output.
+	for _, path := range []string{
+		filepath.Join(outDir, "index.html"),
+		filepath.Join(outDir, "catalog.json"),
+		filepath.Join(outDir, "opds"),
+		filepath.Join(outDir, "covers"),
+	} {
+		if err := os.RemoveAll(path); err != nil {
+			fatal(err.Error())
+		}
 	}
 	for _, dir := range []string{
 		filepath.Join(outDir, "opds"),
@@ -107,6 +116,7 @@ func main() {
 			fatal(err.Error())
 		}
 	}
+
 	if err := writeWeb(outDir, baseURL, branches); err != nil {
 		fatal(err.Error())
 	}
