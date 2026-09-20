@@ -11,9 +11,11 @@ on:
       - "internal/drive/**"
       - "config/branches.json"
       - "scripts/postprocess_ui.py"
+      - "scripts/postprocess_bookshelf.py"
       - "scripts/postprocess_registration.py"
       - "scripts/paginate_opds.py"
       - "scripts/rewrite_opds_download_urls.py"
+      - "docs/assets/bookshelf/**"
       - ".github/workflows/pages.yml"
 
 permissions:
@@ -32,6 +34,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Preserve bookshelf assets
+        run: |
+          test -d docs/assets/bookshelf
+          rm -rf .build-assets
+          mkdir -p .build-assets
+          cp -a docs/assets/bookshelf .build-assets/
+
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
@@ -45,6 +54,11 @@ jobs:
           TANGTHU_BASE_URL: https://zenkjt.github.io/tangthu-opds
         run: go run ./cmd/generate
 
+      - name: Restore bookshelf assets
+        run: |
+          mkdir -p docs/assets
+          cp -a .build-assets/bookshelf docs/assets/
+
       - name: Rewrite OPDS download URLs
         env:
           TANGTHU_DOWNLOAD_WORKER_URL: ${{ vars.TANGTHU_DOWNLOAD_WORKER_URL }}
@@ -55,6 +69,9 @@ jobs:
 
       - name: Apply catalog UI
         run: python3 scripts/postprocess_ui.py
+
+      - name: Apply bookshelf UI
+        run: python3 scripts/postprocess_bookshelf.py
 
       - name: Apply registration UI
         env:
