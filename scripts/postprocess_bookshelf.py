@@ -43,29 +43,11 @@ css = r'''
 '''
 
 if css_marker not in text:
-    pos = text.rfind("
-/* V7: một giá liên tục, không lặp các đoạn */
-.shelf-row{
-  position:relative;
-  overflow:hidden;
-}
-.shelf-row::before{
-  content:"";
-  position:absolute;
-  left:0;
-  right:0;
-  bottom:0;
-  height:34px;
-  background-image:url('assets/bookshelf/shelf-row.png');
-  background-repeat:no-repeat;
-  background-position:center bottom;
-  background-size:100% 34px;
-  pointer-events:none;
-}
-</style>")
+    pos = text.rfind("</style>")
     if pos < 0:
         raise SystemExit("Bookshelf patch anchor missing: </style>")
     text = text[:pos] + css + "\n" + text[pos:]
+
 
 start = text.find("  function renderShelfStats(){")
 if start < 0:
