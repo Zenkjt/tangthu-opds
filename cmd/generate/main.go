@@ -238,7 +238,7 @@ button:disabled{cursor:default;color:#777}
     <button class="tool" id="shelfBtn"><span class="ico">📚</span><span class="lbl">Tủ sách</span></button>
     <button class="tool" id="viewsBtn"><span class="ico">▤</span><span class="lbl">Views</span></button>
     <button class="tool" id="infoBtn"><span class="ico">ℹ</span><span class="lbl">Info</span></button>
-    <div class="brand"><strong>TÀNG THƯ</strong><em>A book is a dream holding in your hands.</em></div>
+    <div class="brand"><strong>Bookshelves</strong><em>A book is a dream holding in your hands.</em></div>
   </div>
   <div class="main">
     <section class="panel" id="shelfPanel">
