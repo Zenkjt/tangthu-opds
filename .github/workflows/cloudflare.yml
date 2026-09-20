@@ -1,0 +1,45 @@
+name: Cloudflare Pages (manual test)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.24"
+
+      - name: Generate site
+        env:
+          TANGTHU_GOOGLE_API_KEY: ${{ secrets.TANGTHU_GOOGLE_API_KEY }}
+          TANGTHU_BRANCH_CONFIG: config/branches.json
+          TANGTHU_OUTPUT_DIR: docs
+          TANGTHU_BASE_URL: https://bookshelves.pages.dev
+        run: go run ./cmd/generate
+
+      - name: Rewrite OPDS download URLs
+        env:
+          TANGTHU_DOWNLOAD_WORKER_URL: ${{ secrets.TANGTHU_DOWNLOAD_WORKER_URL }}
+        run: python3 scripts/rewrite_opds_download_urls.py
+
+      - name: Paginate OPDS
+        run: python3 scripts/paginate_opds.py
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: bookshelves
+          directory: docs
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
