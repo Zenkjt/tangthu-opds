@@ -434,9 +434,9 @@ $('homeBtn').onclick=function(){var bs=branches();if(bs.length)selectBranch(bs[0
 $('upBtn').onclick=function(){var b=currentBranch();if(!b)return;if(state.parent!==b.root_folder_id){var f=findFile(b,state.parent);state.parent=f?f.parent_id:b.root_folder_id;renderList()}};
 $('searchBtn').onclick=function(){$('searchInput').focus()};
 // Registration UI is injected by scripts/postprocess_registration.py.
-// Keep this anchor stable; the generated bookshelf view is controlled by View.
-function showShelf(){}
-function runSearch(){
+// Keep these anchors stable; the generated bookshelf view is controlled by View.
+  function showShelf(){}
+  function runSearch(){
  state.search=$('searchInput').value;
  state.shelf=false;
  updateView();
