@@ -25,8 +25,7 @@ if css_marker not in text:
     pos = text.rfind("</style>")
     if pos < 0:
         raise SystemExit("Bookshelf patch anchor missing: </style>")
-    text = text[:pos] + css + "
-" + text[pos:]
+    text = text[:pos] + css + "\n" + text[pos:]
 
 start = text.find("  function renderShelfStats(){")
 if start < 0:
