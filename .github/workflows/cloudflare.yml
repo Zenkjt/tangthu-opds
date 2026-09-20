@@ -5,6 +5,7 @@ on:
 
 permissions:
   contents: read
+  deployments: write
 
 jobs:
   deploy:
@@ -14,12 +15,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Go
+      - name: Preserve bookshelf assets
+        run: |
+          test -d docs/assets/bookshelf
+          rm -rf .build-assets
+          mkdir -p .build-assets
+          cp -a docs/assets/bookshelf .build-assets/
+
+      - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: "1.24"
+          go-version: "1.26"
 
-      - name: Generate site
+      - name: Generate static catalog
         env:
           TANGTHU_GOOGLE_API_KEY: ${{ secrets.TANGTHU_GOOGLE_API_KEY }}
           TANGTHU_BRANCH_CONFIG: config/branches.json
@@ -27,19 +35,34 @@ jobs:
           TANGTHU_BASE_URL: https://bookshelves.pages.dev
         run: go run ./cmd/generate
 
+      - name: Restore bookshelf assets
+        run: |
+          mkdir -p docs/assets
+          cp -a .build-assets/bookshelf docs/assets/
+
       - name: Rewrite OPDS download URLs
         env:
-          TANGTHU_DOWNLOAD_WORKER_URL: ${{ secrets.TANGTHU_DOWNLOAD_WORKER_URL }}
+          TANGTHU_DOWNLOAD_WORKER_URL: ${{ vars.TANGTHU_DOWNLOAD_WORKER_URL }}
         run: python3 scripts/rewrite_opds_download_urls.py
 
-      - name: Paginate OPDS
+      - name: Paginate OPDS feeds
         run: python3 scripts/paginate_opds.py
 
+      - name: Apply catalog UI
+        run: python3 scripts/postprocess_ui.py
+
+      - name: Apply bookshelf UI
+        run: python3 scripts/postprocess_bookshelf.py
+
+      - name: Apply registration UI
+        env:
+          TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
+        run: python3 scripts/postprocess_registration.py
+
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: bookshelves
-          directory: docs
+          command: pages deploy docs --project-name=bookshelves
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
