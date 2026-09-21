@@ -4,13 +4,14 @@ from pathlib import Path
 INDEX = Path("docs/index.html")
 text = INDEX.read_text(encoding="utf-8")
 
-css_marker = "/* TANGTHU_BOOKSHELF_V8 */"
+css_marker = "/* TANGTHU_BOOKSHELF_V9 */"
 css = r'''
-/* TANGTHU_BOOKSHELF_V8 */
+/* TANGTHU_BOOKSHELF_V9 */
 .shelf-view{padding:12px;background:#fff;min-height:100%;overflow:hidden}
-.shelf-row{position:relative;margin:0 0 18px;padding:10px 12px 44px;min-height:196px;background:#c0c0c0;overflow:hidden}
-.shelf-row::after{content:"";position:absolute;left:0;right:0;bottom:12px;height:12px;background:linear-gradient(to bottom,#a66a1f 0,#d08a28 38%,#8a5416 62%,#5f3a0d 100%);border:2px solid #5b370c;box-sizing:border-box;box-shadow:0 2px 0 #2b1a07,0 -1px 0 #e2a34b;pointer-events:none}
+.shelf-row{position:relative;margin:0 0 18px;padding:10px 12px 30px;min-height:196px;background:#c0c0c0;overflow:hidden}
+.shelf-row::after{display:none}
 .shelf-row:last-child{margin-bottom:0}
+.shelf-line{position:absolute;height:12px;background:linear-gradient(to bottom,#a66a1f 0,#d08a28 38%,#8a5416 62%,#5f3a0d 100%);border:2px solid #5b370c;box-sizing:border-box;box-shadow:0 2px 0 #2b1a07,0 -1px 0 #e2a34b;pointer-events:none}
 .shelf-books{display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-end;gap:18px 18px;min-height:166px;width:100%}
 .shelf-book{position:relative;width:220px;min-width:220px;display:grid;grid-template-columns:112px 1fr;grid-template-rows:132px auto;column-gap:10px;align-items:end;justify-content:center;padding:0;cursor:pointer;border:1px dotted transparent;background:transparent;color:#111}
 .shelf-book:hover{background:#f5f5f5;border-color:#777}
@@ -20,7 +21,7 @@ css = r'''
 .shelf-book-name{position:absolute;left:16px;right:16px;top:79px;margin:0;padding:0 7px;text-align:center;font-weight:bold;font-size:13px;line-height:1.12;color:#fff;background:transparent;border:0;box-shadow:none;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;min-height:0;z-index:2;box-sizing:border-box}
 .shelf-book-stats{grid-column:2;grid-row:1;align-self:center;width:100%;margin:0;padding:4px 0;text-align:left;font-size:11px;line-height:1.35;color:#333;white-space:normal;overflow:visible}
 .shelf-book-stats span{display:block}
-.shelf-book::after{content:"";grid-column:1 / -1;grid-row:2;height:20px}
+.shelf-book::after{content:"";grid-column:1 / -1;grid-row:2;height:6px}
 @media(max-width:1050px){.shelf-books{gap:18px 12px}.shelf-book{width:200px;min-width:200px;grid-template-columns:100px 1fr;column-gap:8px}.shelf-book-cover,.shelf-book img{width:100px;height:124px}.shelf-book-name{left:14px;right:14px;top:74px;font-size:12px;padding:0 6px}.shelf-book-stats{font-size:10px}}
 @media(max-width:760px){.shelf-view{padding:8px}.shelf-row{padding-left:7px;padding-right:7px}.shelf-books{gap:16px 10px}.shelf-book{width:180px;min-width:180px;grid-template-columns:88px 1fr;column-gap:6px}.shelf-book-cover,.shelf-book img{width:82px;height:108px}.shelf-book-name{left:11px;right:11px;top:63px;font-size:11px;padding:0 5px}.shelf-book-stats{font-size:10px}}
 @media(max-width:500px){.shelf-books{gap:12px 8px}.shelf-book{width:165px;min-width:165px;grid-template-columns:78px 1fr}.shelf-book-cover,.shelf-book img{width:78px;height:102px}.shelf-book-name{left:10px;right:10px;top:58px;font-size:10px;padding:0 4px}}
@@ -59,7 +60,6 @@ renderer = r'''  function renderShelfStats(){
     var view=document.createElement('div');
     view.className='shelf-view';
     var iconNames=['book-blue.png','book-brown.png','book-green.png','book-purple.png','book-red.png','book-teal.png'];
-    var perShelf=4;
 
     function shelfFiles(shelf){return filesOf(shelf).filter(function(f){return !f.folder;});}
     function extension(name){var p=String(name||'').lastIndexOf('.');return p<0?'':String(name).slice(p+1).toUpperCase();}
@@ -84,13 +84,12 @@ renderer = r'''  function renderShelfStats(){
       renderContent();
     }
 
-    for(var i=0;i<bs.length;i+=perShelf){
-      var row=document.createElement('div');
-      row.className='shelf-row';
-      var books=document.createElement('div');
-      books.className='shelf-books';
+    var row=document.createElement('div');
+    row.className='shelf-row';
+    var books=document.createElement('div');
+    books.className='shelf-books';
 
-      bs.slice(i,i+perShelf).forEach(function(shelf,index){
+    bs.forEach(function(shelf,index){
         var item=document.createElement('button');
         item.type='button';
         item.className='shelf-book';
@@ -102,7 +101,7 @@ renderer = r'''  function renderShelfStats(){
 
         /* Use the PNG directly. No canvas and no erased/grey rectangle. */
         var img=document.createElement('img');
-        img.src='assets/bookshelf/'+iconNames[(i+index)%iconNames.length];
+        img.src='assets/bookshelf/'+iconNames[index%iconNames.length];
         img.alt='';
         img.draggable=false;
 
@@ -126,12 +125,47 @@ renderer = r'''  function renderShelfStats(){
         item.appendChild(meta);
         item.onclick=(function(s){return function(){openShelf(s);};})(shelf);
         books.appendChild(item);
-      });
+    });
 
-      row.appendChild(books);
-      view.appendChild(row);
-    }
+    row.appendChild(books);
+    view.appendChild(row);
     body.appendChild(view);
+
+    /* Size the wooden shelf to each visual flex line instead of the full row.
+       This stays responsive: when the viewport changes, flex-wrap changes and
+       the shelf width is recalculated from the books actually on each line. */
+    function resizeShelves(){
+      row.querySelectorAll('.shelf-line').forEach(function(el){el.remove();});
+      var items=Array.prototype.slice.call(books.querySelectorAll('.shelf-book'));
+      if(!items.length)return;
+      var groups=[];
+      items.forEach(function(item){
+        var top=item.offsetTop;
+        var group=groups.length?groups[groups.length-1]:null;
+        if(!group || Math.abs(group.top-top)>2){group={top:top,items:[]};groups.push(group);}
+        group.items.push(item);
+      });
+      var rowRect=row.getBoundingClientRect();
+      groups.forEach(function(group){
+        var first=group.items[0].getBoundingClientRect();
+        var last=group.items[group.items.length-1].getBoundingClientRect();
+        var left=Math.max(0,first.left-rowRect.left-12);
+        var right=Math.max(left,last.right-rowRect.left-12);
+        var line=document.createElement('div');
+        line.className='shelf-line';
+        line.style.left=left+'px';
+        line.style.width=(right-left)+'px';
+        line.style.top=(group.top+group.items[0].offsetHeight+8)+'px';
+        row.appendChild(line);
+      });
+    }
+    resizeShelves();
+    if(window.ResizeObserver){
+      var shelfObserver=new ResizeObserver(function(){
+          resizeShelves();
+      });
+      shelfObserver.observe(books);
+    }
   }
 
 '''
