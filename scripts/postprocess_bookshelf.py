@@ -4,9 +4,9 @@ from pathlib import Path
 INDEX = Path("docs/index.html")
 text = INDEX.read_text(encoding="utf-8")
 
-css_marker = "/* TANGTHU_BOOKSHELF_V7 */"
+css_marker = "/* TANGTHU_BOOKSHELF_V8 */"
 css = r'''
-/* TANGTHU_BOOKSHELF_V7 */
+/* TANGTHU_BOOKSHELF_V8 */
 .shelf-view{padding:12px;background:#fff;min-height:100%;overflow:hidden}
 .shelf-row{position:relative;margin:0 0 18px;padding:10px 12px 44px;min-height:196px;background:#c0c0c0;overflow:hidden}
 .shelf-row::after{content:"";position:absolute;left:0;right:0;bottom:12px;height:12px;background:linear-gradient(to bottom,#a66a1f 0,#d08a28 38%,#8a5416 62%,#5f3a0d 100%);border:2px solid #5b370c;box-sizing:border-box;box-shadow:0 2px 0 #2b1a07,0 -1px 0 #e2a34b;pointer-events:none}
@@ -59,7 +59,7 @@ renderer = r'''  function renderShelfStats(){
     var view=document.createElement('div');
     view.className='shelf-view';
     var iconNames=['book-blue.png','book-brown.png','book-green.png','book-purple.png','book-red.png','book-teal.png'];
-    var perShelf=5;
+    var perShelf=4;
 
     function shelfFiles(shelf){return filesOf(shelf).filter(function(f){return !f.folder;});}
     function extension(name){var p=String(name||'').lastIndexOf('.');return p<0?'':String(name).slice(p+1).toUpperCase();}
