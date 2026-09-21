@@ -9,9 +9,13 @@
  *   TANGTHU_GOOGLE_API_KEY
  *   TANGTHU_GITHUB_TOKEN
  *
- * TEMPORARY TEST MODE:
- *   24-hour mutation cooldown is DISABLED.
- *   Create / rename / delete can be tested repeatedly.
+ * Drive change polling:
+ *   Run setupDriveChangeTrigger() once manually.
+ *   It creates a 30-minute time-driven trigger for driveCheck().
+ *
+ * Drive Changes API uses a persistent pageToken stored in
+ * Script Properties. Apps Script only detects that Drive changed;
+ * GitHub Actions remains responsible for rebuilding the catalog.
  */
 
 var REPO_OWNER = 'Zenkjt';
@@ -19,8 +23,14 @@ var REPO_NAME = 'tangthu-opds';
 var REPO_BRANCH = 'main';
 var CONFIG_PATH = 'config/branches.json';
 
-// Mutation cooldown: 24 hours.
 var MUTATION_COOLDOWN_MS = 24 * 60 * 60 * 1000;
+
+var DRIVE_CHANGE_TOKEN_KEY = 'TANGTHU_DRIVE_CHANGE_PAGE_TOKEN';
+var DRIVE_CHANGE_LOCK_KEY = 'TANGTHU_DRIVE_CHANGE_LOCK';
+
+// -----------------------------------------------------------------------------
+// Web app
+// -----------------------------------------------------------------------------
 
 function doGet(e) {
   var action = String((e && e.parameter && e.parameter.action) || '').trim().toLowerCase();
@@ -55,6 +65,222 @@ function doPost(e) {
     });
   }
 }
+
+// -----------------------------------------------------------------------------
+// Drive change trigger
+// -----------------------------------------------------------------------------
+
+/**
+ * Run once manually from the Apps Script editor.
+ * Existing TÀNG THƯ drive-check triggers are removed first.
+ */
+function setupDriveChangeTrigger() {
+  var triggers = ScriptApp.getProjectTriggers();
+
+  for (var i = 0; i < triggers.length; i++) {
+    if (triggers[i].getHandlerFunction() === 'driveCheck') {
+      ScriptApp.deleteTrigger(triggers[i]);
+    }
+  }
+
+  ScriptApp.newTrigger('driveCheck')
+    .timeBased()
+    .everyMinutes(30)
+    .create();
+
+  Logger.log('TÀNG THƯ: Drive change trigger installed (30 minutes).');
+}
+
+/**
+ * Poll Google Drive Changes API.
+ *
+ * This function does NOT build the catalog and does NOT scan ebook files.
+ * It only answers: "Has this Drive changed since the last checkpoint?"
+ *
+ * If yes, dispatch GitHub Actions. The checkpoint advances only after
+ * the dispatch succeeds.
+ *
+ * The first run creates a baseline token and deliberately does not build.
+ */
+function driveCheck() {
+  var lock = LockService.getScriptLock();
+
+  if (!lock.tryLock(5000)) {
+    Logger.log('TÀNG THƯ: driveCheck skipped because another check is running.');
+    return;
+  }
+
+  try {
+    var props = PropertiesService.getScriptProperties();
+    var token = props.getProperty(DRIVE_CHANGE_TOKEN_KEY);
+
+    if (!token) {
+      var startToken = getDriveStartPageToken_();
+      props.setProperty(DRIVE_CHANGE_TOKEN_KEY, startToken);
+      Logger.log('TÀNG THƯ: Drive change baseline initialized.');
+      return;
+    }
+
+    var result = listDriveChanges_(token);
+
+    if (!result.ok) {
+      throw new Error(result.error);
+    }
+
+    if (!result.changed) {
+      if (result.new_start_page_token) {
+        props.setProperty(
+          DRIVE_CHANGE_TOKEN_KEY,
+          result.new_start_page_token
+        );
+      }
+
+      Logger.log('TÀNG THƯ: no Drive changes.');
+      return;
+    }
+
+    // Do not advance the token until GitHub dispatch succeeds.
+    dispatchCatalogBuild_();
+
+    if (result.new_start_page_token) {
+      props.setProperty(
+        DRIVE_CHANGE_TOKEN_KEY,
+        result.new_start_page_token
+      );
+    }
+
+    Logger.log('TÀNG THƯ: Drive changed; GitHub Actions dispatched.');
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function getDriveStartPageToken_() {
+  var url =
+    'https://www.googleapis.com/drive/v3/changes/startPageToken' +
+    '?spaces=drive';
+
+  var response = driveOAuthFetch_(url);
+  var status = response.getResponseCode();
+  var body = parseJson_(response);
+
+  if (status !== 200 || !body.startPageToken) {
+    throw new Error(
+      'Drive startPageToken thất bại: HTTP ' + status +
+      ' ' + JSON.stringify(body)
+    );
+  }
+
+  return String(body.startPageToken);
+}
+
+function listDriveChanges_(pageToken) {
+  var nextToken = String(pageToken);
+  var changed = false;
+  var newestStartToken = null;
+
+  while (nextToken) {
+    var url =
+      'https://www.googleapis.com/drive/v3/changes' +
+      '?pageToken=' + encodeURIComponent(nextToken) +
+      '&spaces=drive' +
+      '&restrictToMyDrive=true' +
+      '&includeRemoved=true' +
+      '&pageSize=1000' +
+      '&fields=nextPageToken,newStartPageToken,changes(fileId,removed,file(id,name,mimeType,trashed,parents,modifiedTime))';
+
+    var response = driveOAuthFetch_(url);
+    var status = response.getResponseCode();
+    var body = parseJson_(response);
+
+    if (status !== 200) {
+      return {
+        ok: false,
+        error:
+          'Drive changes.list thất bại: HTTP ' + status +
+          ' ' + JSON.stringify(body)
+      };
+    }
+
+    var changes = body.changes || [];
+    if (changes.length > 0) {
+      changed = true;
+    }
+
+    if (body.newStartPageToken) {
+      newestStartToken = String(body.newStartPageToken);
+    }
+
+    nextToken = body.nextPageToken
+      ? String(body.nextPageToken)
+      : null;
+  }
+
+  return {
+    ok: true,
+    changed: changed,
+    new_start_page_token: newestStartToken
+  };
+}
+
+function dispatchCatalogBuild_() {
+  var token = githubToken_();
+
+  // workflow_dispatch needs Actions: write permission on a fine-grained token.
+  var url =
+    'https://api.github.com/repos/' +
+    encodeURIComponent(REPO_OWNER) + '/' +
+    encodeURIComponent(REPO_NAME) +
+    '/actions/workflows/cloudflare.yml/dispatches';
+
+  var payload = {
+    ref: REPO_BRANCH
+  };
+
+  var response = UrlFetchApp.fetch(url, {
+    method: 'post',
+    muteHttpExceptions: true,
+    contentType: 'application/json',
+    payload: JSON.stringify(payload),
+    headers: githubHeaders_(token)
+  });
+
+  var status = response.getResponseCode();
+
+  if (status !== 204) {
+    throw new Error(
+      'GitHub Actions dispatch thất bại: HTTP ' + status +
+      ' ' + response.getContentText()
+    );
+  }
+}
+
+function driveOAuthFetch_(url) {
+  return UrlFetchApp.fetch(url, {
+    method: 'get',
+    muteHttpExceptions: true,
+    headers: {
+      Authorization: 'Bearer ' + ScriptApp.getOAuthToken(),
+      Accept: 'application/json'
+    }
+  });
+}
+
+function parseJson_(response) {
+  var text = response.getContentText() || '{}';
+
+  try {
+    return JSON.parse(text);
+  } catch (err) {
+    return {
+      raw: text
+    };
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Shelf registry / mutation
+// -----------------------------------------------------------------------------
 
 function checkFolder_(driveUrl) {
   var folderId = parseDriveId_(driveUrl);
@@ -152,7 +378,7 @@ function mutate_(action, body) {
         folder_id: folderId,
         folder_name: folder.name,
         display_name: displayName,
-        next_mutation_at: null
+        next_mutation_at: nextMutationAt_(nowIso)
       };
     }
 
@@ -165,7 +391,6 @@ function mutate_(action, body) {
 
     var branch = config.branches[index];
 
-    // TEMPORARY TEST MODE: this check always passes because cooldown is 0.
     if (!canMutate_(branch.last_mutation)) {
       return mutationBlocked_(branch, 'Tủ này đang trong thời gian chờ 24 giờ.');
     }
@@ -190,7 +415,7 @@ function mutate_(action, body) {
         folder_id: folderId,
         folder_name: folder.name,
         display_name: newName,
-        next_mutation_at: null
+        next_mutation_at: nextMutationAt_(nowIso)
       };
     }
 
@@ -335,8 +560,10 @@ function writeConfig_(config, message) {
 
   var status = response.getResponseCode();
   if (status !== 200 && status !== 201) {
-    throw new Error('GitHub ghi branches.json thất bại: HTTP ' + status +
-      ' ' + response.getContentText());
+    throw new Error(
+      'GitHub ghi branches.json thất bại: HTTP ' + status +
+      ' ' + response.getContentText()
+    );
   }
 }
 
@@ -367,13 +594,21 @@ function githubHeaders_(token) {
 }
 
 function canMutate_(lastMutation) {
-  // TEMPORARY TEST MODE: always allow mutation.
-  return true;
+  if (!lastMutation) return true;
+
+  var t = new Date(lastMutation).getTime();
+  if (isNaN(t)) return true;
+
+  return Date.now() - t >= MUTATION_COOLDOWN_MS;
 }
 
 function nextMutationAt_(lastMutation) {
-  // TEMPORARY TEST MODE: no cooldown timestamp.
-  return null;
+  if (!lastMutation) return null;
+
+  var t = new Date(lastMutation).getTime();
+  if (isNaN(t)) return null;
+
+  return new Date(t + MUTATION_COOLDOWN_MS).toISOString();
 }
 
 function mutationBlocked_(branch, message) {
@@ -382,8 +617,8 @@ function mutationBlocked_(branch, message) {
     error: message,
     folder_id: branch.root_folder_id,
     display_name: branch.display_name,
-    next_mutation_at: null,
-    can_mutate: true
+    next_mutation_at: nextMutationAt_(branch.last_mutation),
+    can_mutate: false
   };
 }
 
