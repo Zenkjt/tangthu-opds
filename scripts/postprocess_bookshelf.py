@@ -4,9 +4,9 @@ from pathlib import Path
 INDEX = Path("docs/index.html")
 text = INDEX.read_text(encoding="utf-8")
 
-css_marker = "/* TANGTHU_BOOKSHELF_V6 */"
+css_marker = "/* TANGTHU_BOOKSHELF_V7 */"
 css = r'''
-/* TANGTHU_BOOKSHELF_V6 */
+/* TANGTHU_BOOKSHELF_V7 */
 .shelf-view{padding:12px;background:#fff;min-height:100%;overflow:hidden}
 .shelf-row{position:relative;margin:0 0 18px;padding:10px 12px 44px;min-height:196px;background:#c0c0c0;overflow:hidden}
 .shelf-row::after{content:"";position:absolute;left:0;right:0;bottom:12px;height:12px;background:linear-gradient(to bottom,#a66a1f 0,#d08a28 38%,#8a5416 62%,#5f3a0d 100%);border:2px solid #5b370c;box-sizing:border-box;box-shadow:0 2px 0 #2b1a07,0 -1px 0 #e2a34b;pointer-events:none}
@@ -26,17 +26,20 @@ css = r'''
 @media(max-width:500px){.shelf-books{gap:12px 8px}.shelf-book{width:165px;min-width:165px;grid-template-columns:78px 1fr}.shelf-book-cover,.shelf-book img{width:78px;height:102px}.shelf-book-name{left:10px;right:10px;top:58px;font-size:10px;padding:0 4px}}
 '''
 
-if css_marker not in text:
-    old_marker = "/* TANGTHU_BOOKSHELF_V5 */"
-    if old_marker not in text:
-        old_marker = "/* TANGTHU_BOOKSHELF_V4 */"
-    if old_marker not in text:
-        raise SystemExit("Bookshelf patch anchor missing: previous CSS marker")
-    pos = text.find(old_marker)
-    end = text.find("\n'''", pos)
+# The generator recreates docs/index.html on every build, so the bookshelf CSS
+# must not depend on a marker from a previous generated page. Replace our
+# previous block when present; otherwise insert it at the end of <style>.
+if css_marker in text:
+    pos = text.find(css_marker)
+    end = text.find("\n</style>", pos)
     if end < 0:
-        raise SystemExit("Bookshelf patch anchor missing: previous CSS end")
-    text = text[:pos] + css + text[end + 4:]
+        raise SystemExit("Bookshelf patch anchor missing: </style>")
+    text = text[:pos] + text[end + 1:]
+
+pos = text.rfind("</style>")
+if pos < 0:
+    raise SystemExit("Bookshelf patch anchor missing: </style>")
+text = text[:pos] + css + "\n" + text[pos:]
 
 start = text.find("  function renderShelfStats(){")
 if start < 0:
@@ -135,4 +138,4 @@ renderer = r'''  function renderShelfStats(){
 
 text = text[:start] + renderer + text[end:]
 INDEX.write_text(text, encoding="utf-8")
-print("Applied TANG THU bookshelf presentation V6.")
+print("Applied TANG THU bookshelf presentation V7.")
