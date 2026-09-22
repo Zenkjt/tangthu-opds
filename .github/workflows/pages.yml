@@ -2,6 +2,8 @@ name: Build TÀNG THƯ Pages
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [drive_changed]
   schedule:
     - cron: "17 * * * *"
   push:
