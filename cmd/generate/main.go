@@ -75,9 +75,10 @@ func main() {
 			continue
 		}
 		folder, err := client.GetFolder(ctx, bc.RootFolderID)
-		if err != nil {
-			fatal(fmt.Sprintf("branch %s: %v", bc.ID, err))
-		}
+if err != nil {
+    log.Printf("WARNING: shelf %s (%s) unavailable: %v — skipping", bc.ID, bc.DisplayName, err)
+    continue
+}
 		files, err := client.Scan(ctx, bc.RootFolderID)
 		if err != nil {
 			fatal(fmt.Sprintf("scan %s: %v", bc.ID, err))
