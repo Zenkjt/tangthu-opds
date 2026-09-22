@@ -4,9 +4,9 @@ from pathlib import Path
 INDEX = Path("docs/index.html")
 text = INDEX.read_text(encoding="utf-8")
 
-css_marker = "/* TANGTHU_BOOKSHELF_V9 */"
+css_marker = "/* TANGTHU_BOOKSHELF_V10 */"
 css = r'''
-/* TANGTHU_BOOKSHELF_V9 */
+/* TANGTHU_BOOKSHELF_V10 */
 .shelf-view{padding:12px;background:#fff;min-height:100%;overflow:hidden}
 .shelf-row{position:relative;margin:0 0 18px;padding:10px 12px 30px;min-height:196px;background:#c0c0c0;overflow:hidden}
 .shelf-row::after{display:none}
@@ -22,20 +22,20 @@ css = r'''
 .shelf-book-stats{grid-column:2;grid-row:1;align-self:center;width:100%;margin:0;padding:4px 0;text-align:left;font-size:11px;line-height:1.35;color:#333;white-space:normal;overflow:visible}
 .shelf-book-stats span{display:block}
 .shelf-book::after{content:"";grid-column:1 / -1;grid-row:2;height:6px}
+.main.shelf-only{grid-template-columns:1fr}
+.main.shelf-only #shelfPanel{display:none}
 @media(max-width:1050px){.shelf-books{gap:18px 12px}.shelf-book{width:200px;min-width:200px;grid-template-columns:100px 1fr;column-gap:8px}.shelf-book-cover,.shelf-book img{width:100px;height:124px}.shelf-book-name{left:14px;right:14px;top:74px;font-size:12px;padding:0 6px}.shelf-book-stats{font-size:10px}}
 @media(max-width:760px){.shelf-view{padding:8px}.shelf-row{padding-left:7px;padding-right:7px}.shelf-books{gap:16px 10px}.shelf-book{width:180px;min-width:180px;grid-template-columns:88px 1fr;column-gap:6px}.shelf-book-cover,.shelf-book img{width:82px;height:108px}.shelf-book-name{left:11px;right:11px;top:63px;font-size:11px;padding:0 5px}.shelf-book-stats{font-size:10px}}
 @media(max-width:500px){.shelf-books{gap:12px 8px}.shelf-book{width:165px;min-width:165px;grid-template-columns:78px 1fr}.shelf-book-cover,.shelf-book img{width:78px;height:102px}.shelf-book-name{left:10px;right:10px;top:58px;font-size:10px;padding:0 4px}}
 '''
 
-# The generator recreates docs/index.html on every build, so the bookshelf CSS
-# must not depend on a marker from a previous generated page. Replace our
-# previous block when present; otherwise insert it at the end of <style>.
-if css_marker in text:
-    pos = text.find(css_marker)
-    end = text.find("\n</style>", pos)
-    if end < 0:
-        raise SystemExit("Bookshelf patch anchor missing: </style>")
-    text = text[:pos] + text[end + 1:]
+for marker in ("/* TANGTHU_BOOKSHELF_V10 */", "/* TANGTHU_BOOKSHELF_V9 */"):
+    if marker in text:
+        pos = text.find(marker)
+        end = text.find("\n</style>", pos)
+        if end < 0:
+            raise SystemExit("Bookshelf patch anchor missing: </style>")
+        text = text[:pos] + text[end + 1:]
 
 pos = text.rfind("</style>")
 if pos < 0:
@@ -56,6 +56,9 @@ renderer = r'''  function renderShelfStats(){
     var bs=branches();
     $('itemCount').textContent=bs.length+' tủ';
     if(!bs.length){body.innerHTML='<div class="empty">Chưa có tủ sách.</div>';return}
+
+    var main=document.querySelector('.main');
+    if(main)main.classList.add('shelf-only');
 
     var view=document.createElement('div');
     view.className='shelf-view';
@@ -80,6 +83,8 @@ renderer = r'''  function renderShelfStats(){
       state.parent=shelf.root_folder_id;
       state.selected=null;
       $('viewsBtn').querySelector('.lbl').textContent='Views';
+      var main=document.querySelector('.main');
+      if(main)main.classList.remove('shelf-only');
       renderBranches();
       renderContent();
     }
@@ -99,13 +104,11 @@ renderer = r'''  function renderShelfStats(){
         var cover=document.createElement('div');
         cover.className='shelf-book-cover';
 
-        /* Use the PNG directly. No canvas and no erased/grey rectangle. */
         var img=document.createElement('img');
         img.src='assets/bookshelf/'+iconNames[index%iconNames.length];
         img.alt='';
         img.draggable=false;
 
-        /* Name is rendered directly over the clean book face. */
         var name=document.createElement('div');
         name.className='shelf-book-name';
         name.textContent=shelf.display_name||shelf.name||'';
@@ -131,9 +134,6 @@ renderer = r'''  function renderShelfStats(){
     view.appendChild(row);
     body.appendChild(view);
 
-    /* Size the wooden shelf to each visual flex line instead of the full row.
-       This stays responsive: when the viewport changes, flex-wrap changes and
-       the shelf width is recalculated from the books actually on each line. */
     function resizeShelves(){
       row.querySelectorAll('.shelf-line').forEach(function(el){el.remove();});
       var items=Array.prototype.slice.call(books.querySelectorAll('.shelf-book'));
@@ -161,15 +161,31 @@ renderer = r'''  function renderShelfStats(){
     }
     resizeShelves();
     if(window.ResizeObserver){
-      var shelfObserver=new ResizeObserver(function(){
-          resizeShelves();
-      });
+      var shelfObserver=new ResizeObserver(function(){resizeShelves();});
       shelfObserver.observe(books);
     }
   }
 
 '''
-
 text = text[:start] + renderer + text[end:]
+
+old_state = "var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:''};"
+new_state = "var state={catalog:null,branch:null,parent:null,view:'shelves',selected:null,search:''};"
+if old_state not in text:
+    raise SystemExit("Bookshelf patch anchor missing: state initializer")
+text = text.replace(old_state, new_state, 1)
+
+old_render = "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}"
+new_render = "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}var main=document.querySelector('.main');if(main)main.classList.remove('shelf-only');"
+if old_render not in text:
+    raise SystemExit("Bookshelf patch anchor missing: renderContent wrapper")
+text = text.replace(old_render, new_render, 1)
+
+old_views = "$('viewsBtn').onclick=function(){state.view=state.view==='shelves'?'list':'shelves';$('viewsBtn').querySelector('.lbl').textContent=state.view==='shelves'?'List':'Views';renderContent()};"
+new_views = "$('viewsBtn').onclick=function(){state.view=state.view==='shelves'?'list':'shelves';$('viewsBtn').querySelector('.lbl').textContent=state.view==='shelves'?'List':'Views';var main=document.querySelector('.main');if(main)main.classList.toggle('shelf-only',state.view==='shelves');renderContent()};"
+if old_views not in text:
+    raise SystemExit("Bookshelf patch anchor missing: Views button")
+text = text.replace(old_views, new_views, 1)
+
 INDEX.write_text(text, encoding="utf-8")
-print("Applied TANG THU bookshelf presentation V7.")
+print("Applied TANG THU bookshelf view V10.")
