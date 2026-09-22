@@ -22,7 +22,7 @@ on:
       - ".github/workflows/pages.yml"
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -49,14 +49,24 @@ jobs:
         with:
           go-version: "1.26"
 
-      # IMPORTANT: validate shelves BEFORE the generator.
-      # A dead public folder is removed from the generator input,
-      # so one user's deleted shelf cannot kill the whole build.
       - name: Check shelf lifecycle
         env:
           TANGTHU_GOOGLE_API_KEY: ${{ secrets.TANGTHU_GOOGLE_API_KEY }}
           TANGTHU_BRANCH_CONFIG: config/branches.json
         run: python3 scripts/tangthu_lifecycle.py preflight
+
+      - name: Persist lifecycle state
+        run: |
+          if git diff --quiet -- config/branches.json; then
+            echo "No lifecycle state change."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config/branches.json
+          git commit -m "chore: update shelf lifecycle [skip ci]"
+          git push
 
       - name: Generate static catalog
         env:
@@ -66,8 +76,6 @@ jobs:
           TANGTHU_BASE_URL: https://zenkjt.github.io/tangthu-opds
         run: go run ./cmd/generate
 
-      # Put suspended shelves back into catalog AFTER generation,
-      # with zero files and a visible [SUSPENDED] label.
       - name: Merge suspended shelves
         run: python3 scripts/tangthu_lifecycle.py merge
 
