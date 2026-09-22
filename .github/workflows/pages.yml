@@ -12,7 +12,7 @@ on:
       - "cmd/generate/**"
       - "internal/drive/**"
       - "config/branches.json"
-      - "scripts/lifecycle.py"
+      - "scripts/tangthu_lifecycle.py"
       - "scripts/postprocess_ui.py"
       - "scripts/postprocess_bookshelf.py"
       - "scripts/postprocess_registration.py"
@@ -56,7 +56,7 @@ jobs:
         env:
           TANGTHU_GOOGLE_API_KEY: ${{ secrets.TANGTHU_GOOGLE_API_KEY }}
           TANGTHU_BRANCH_CONFIG: config/branches.json
-        run: python3 scripts/lifecycle.py preflight
+        run: python3 scripts/tangthu_lifecycle.py preflight
 
       - name: Generate static catalog
         env:
@@ -69,7 +69,7 @@ jobs:
       # Put suspended shelves back into catalog AFTER generation,
       # with zero files and a visible [SUSPENDED] label.
       - name: Merge suspended shelves
-        run: python3 scripts/lifecycle.py merge
+        run: python3 scripts/tangthu_lifecycle.py merge
 
       - name: Restore bookshelf assets
         run: |
