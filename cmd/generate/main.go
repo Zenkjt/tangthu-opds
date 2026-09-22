@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"html"
+ 	"log"
 	"net/url"
 	"os"
 	"path/filepath"
