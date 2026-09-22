@@ -12,6 +12,7 @@ on:
       - "cmd/generate/**"
       - "internal/drive/**"
       - "config/branches.json"
+      - "scripts/lifecycle.py"
       - "scripts/postprocess_ui.py"
       - "scripts/postprocess_bookshelf.py"
       - "scripts/postprocess_registration.py"
@@ -48,13 +49,27 @@ jobs:
         with:
           go-version: "1.26"
 
-      - name: Generate static catalog
+      # IMPORTANT: validate shelves BEFORE the generator.
+      # A dead public folder is removed from the generator input,
+      # so one user's deleted shelf cannot kill the whole build.
+      - name: Check shelf lifecycle
         env:
           TANGTHU_GOOGLE_API_KEY: ${{ secrets.TANGTHU_GOOGLE_API_KEY }}
           TANGTHU_BRANCH_CONFIG: config/branches.json
+        run: python3 scripts/lifecycle.py preflight
+
+      - name: Generate static catalog
+        env:
+          TANGTHU_GOOGLE_API_KEY: ${{ secrets.TANGTHU_GOOGLE_API_KEY }}
+          TANGTHU_BRANCH_CONFIG: .build/branches.json
           TANGTHU_OUTPUT_DIR: docs
           TANGTHU_BASE_URL: https://zenkjt.github.io/tangthu-opds
         run: go run ./cmd/generate
+
+      # Put suspended shelves back into catalog AFTER generation,
+      # with zero files and a visible [SUSPENDED] label.
+      - name: Merge suspended shelves
+        run: python3 scripts/lifecycle.py merge
 
       - name: Restore bookshelf assets
         run: |
