@@ -5,6 +5,7 @@ import sys
 import urllib.error
 import urllib.parse
 import urllib.request
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 CONFIG = Path(os.environ.get("TANGTHU_BRANCH_CONFIG", "config/branches.json"))
@@ -13,6 +14,21 @@ LIFECYCLE = Path(".build/lifecycle.json")
 CATALOG = Path("docs/catalog.json")
 API_KEY = os.environ.get("TANGTHU_GOOGLE_API_KEY", "").strip()
 FOLDER_MIME = "application/vnd.google-apps.folder"
+SUSPEND_DAYS = 7
+
+
+def utc_now():
+    return datetime.now(timezone.utc)
+
+
+def parse_time(value):
+    if not value:
+        return None
+    return datetime.fromisoformat(value.replace("Z", "+00:00")).astimezone(timezone.utc)
+
+
+def iso_time(value):
+    return value.astimezone(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
 def check_folder(folder_id):
@@ -33,8 +49,6 @@ def check_folder(folder_id):
             return "active", json.load(response)
     except urllib.error.HTTPError as exc:
         body = exc.read().decode("utf-8", errors="replace")
-        # 404 means the public folder is gone / inaccessible.
-        # Treat 403 as a real build error: it may be quota/key/API trouble.
         if exc.code == 404:
             return "suspended", {"http_status": 404}
         raise RuntimeError(f"Google Drive API HTTP {exc.code}: {body}")
@@ -47,10 +61,14 @@ def preflight():
         raise SystemExit("TANGTHU_GOOGLE_API_KEY is required")
 
     config = json.loads(CONFIG.read_text(encoding="utf-8"))
+    source = config.get("branches", [])
     active = []
     lifecycle = []
+    kept = []
+    now = utc_now()
+    config_changed = False
 
-    for branch in config.get("branches", []):
+    for branch in source:
         row = {
             "id": branch["id"],
             "display_name": branch.get("display_name", ""),
@@ -60,22 +78,62 @@ def preflight():
 
         if not branch.get("enabled", True):
             lifecycle.append(row)
+            kept.append(branch)
             continue
 
         status, info = check_folder(branch["root_folder_id"])
 
         if status == "active":
             if info.get("mimeType") != FOLDER_MIME or info.get("trashed"):
-                row["status"] = "suspended"
-                row["http_status"] = 200
+                status = "suspended"
+                info = {"http_status": 200}
             else:
+                if "suspended_at" in branch or "suspended_reason" in branch:
+                    branch.pop("suspended_at", None)
+                    branch.pop("suspended_reason", None)
+                    config_changed = True
+                branch["enabled"] = True
+                branch["last_lifecycle_check"] = iso_time(now)
+                row["status"] = "active"
                 row["drive_name"] = info.get("name", "")
                 active.append(branch)
-        else:
-            row["status"] = "suspended"
-            row["http_status"] = info.get("http_status")
+                lifecycle.append(row)
+                kept.append(branch)
+                continue
 
+        # Only a confirmed 404 starts/continues the 7-day suspension clock.
+        suspended_at = parse_time(branch.get("suspended_at"))
+        if suspended_at is None:
+            suspended_at = now
+            branch["suspended_at"] = iso_time(suspended_at)
+            branch["suspended_reason"] = "404"
+            config_changed = True
+
+        branch["last_lifecycle_check"] = iso_time(now)
+        branch["enabled"] = True
+        age = now - suspended_at
+
+        if age >= timedelta(days=SUSPEND_DAYS):
+            row["status"] = "removed"
+            row["http_status"] = 404
+            row["suspended_at"] = branch.get("suspended_at")
+            lifecycle.append(row)
+            config_changed = True
+            # Do not keep removed shelves in branches.json.
+            continue
+
+        row["status"] = "suspended"
+        row["http_status"] = info.get("http_status")
+        row["suspended_at"] = branch.get("suspended_at")
         lifecycle.append(row)
+        kept.append(branch)
+
+    if config_changed:
+        config["branches"] = kept
+        CONFIG.write_text(
+            json.dumps(config, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
 
     BUILD_CONFIG.parent.mkdir(parents=True, exist_ok=True)
     BUILD_CONFIG.write_text(
@@ -87,8 +145,10 @@ def preflight():
         encoding="utf-8",
     )
 
+    removed = sum(1 for x in lifecycle if x["status"] == "removed")
     suspended = sum(1 for x in lifecycle if x["status"] == "suspended")
-    print(f"Lifecycle preflight: {len(active)} active, {suspended} suspended.")
+    print(f"Lifecycle preflight: {len(active)} active, {suspended} suspended, {removed} removed.")
+    print(f"Lifecycle config changed: {config_changed}")
 
 
 def merge_suspended():
@@ -110,7 +170,11 @@ def merge_suspended():
                 branch["status"] = "disabled"
             continue
 
-        # Suspended: preserve the shelf itself, but NEVER preserve stale books.
+        if life["status"] == "removed":
+            if branch is not None:
+                rows.remove(branch)
+            continue
+
         label = life["display_name"]
         if not label.startswith("[SUSPENDED] "):
             label = "[SUSPENDED] " + label
@@ -136,11 +200,11 @@ def merge_suspended():
         json.dumps(catalog, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    print("Lifecycle merge: suspended shelves added without stale books.")
+    print("Lifecycle merge: suspended shelves preserved without stale books; removed shelves deleted.")
 
 
 if len(sys.argv) != 2 or sys.argv[1] not in ("preflight", "merge"):
-    raise SystemExit("Usage: lifecycle.py preflight|merge")
+    raise SystemExit("Usage: tangthu_lifecycle.py preflight|merge")
 
 if sys.argv[1] == "preflight":
     preflight()
