@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 from pathlib import Path
 import os
@@ -18,7 +17,7 @@ if anchor not in text:
 
 inject = r'''
   /* CPFont preview: reuse the existing Tàng Thư download Worker.
-     The browser never talks to Google Drive directly. */
+     Clicking a .cpfont opens the renderer directly; no book-info screen. */
   var CPFONT_WASM_URL = __WASM_URL__;
   var CPFONT_WORKER_URL = __WORKER_URL__;
 
@@ -38,22 +37,41 @@ inject = r'''
     }};
   }
 
+  function cpfontLog(msg){
+    var el=$('cpfontLog');
+    if(el){
+      el.textContent += (el.textContent ? '\n' : '') + msg;
+      el.scrollTop=el.scrollHeight;
+    }
+    console.log('[CPFont]',msg);
+  }
+
   async function cpfontRender(bytes, canvas){
+    cpfontLog('WASM: tải CrossGlyph…');
     var wasmResponse=await fetch(CPFONT_WASM_URL,{cache:'force-cache'});
+    cpfontLog('WASM: HTTP '+wasmResponse.status);
     if(!wasmResponse.ok) throw new Error('CrossGlyph WASM HTTP '+wasmResponse.status);
+
     var instance=(await WebAssembly.instantiate(
       await wasmResponse.arrayBuffer(),cpfontImports(null)
     )).instance;
+    cpfontLog('WASM: instantiate OK');
+
     var ex=instance.exports, memory=ex.memory;
     if(!memory) throw new Error('CrossGlyph WASM không export memory');
     ex.rc_init();
+    cpfontLog('WASM: init OK');
+
     if(!ex.rc_set_device(0)) throw new Error('Không chọn được X4/X4 Pro');
 
     var fontBytes=new Uint8Array(bytes);
+    cpfontLog('CPFont: '+fontBytes.length+' bytes');
     var ptr=ex.malloc(fontBytes.length);
     new Uint8Array(memory.buffer,ptr,fontBytes.length).set(fontBytes);
+
     if(!ex.rc_font_load(ptr,fontBytes.length))
       throw new Error('File không phải CPFont hợp lệ hoặc bị lỗi');
+    cpfontLog('CPFont: load OK');
 
     ex.rc_page_set_spec(5,0,0,1,100);
 
@@ -64,6 +82,7 @@ inject = r'''
 
     var lines=ex.rc_page_render(textPtr,0,0,0,0xFF);
     if(lines<0) throw new Error('CrossPoint render thất bại: '+lines);
+    cpfontLog('Render: OK — '+lines+' dòng');
 
     var pw=ex.rc_panel_width(), ph=ex.rc_panel_height();
     var sw=ex.rc_screen_width(), sh=ex.rc_screen_height();
@@ -84,6 +103,7 @@ inject = r'''
     canvas.width=sw;
     canvas.height=sh;
     canvas.getContext('2d').putImageData(image,0,0);
+    cpfontLog('Framebuffer: '+sw+'×'+sh);
     return lines;
   }
 
@@ -91,52 +111,67 @@ inject = r'''
     if(!cpfontIsFile(f)) return;
 
     modal('XEM CPFONT',
-      '<div class="cpfont-preview-status" id="cpfontStatus">Đang lấy font từ Tàng Thư…</div>'+
+      '<div class="cpfont-preview-status" id="cpfontStatus">Đang tải…</div>'+
+      '<pre class="cpfont-log" id="cpfontLog"></pre>'+
       '<canvas id="cpfontCanvas" class="cpfont-canvas"></canvas>');
+
+    cpfontLog('File: '+f.name);
+    cpfontLog('ID: '+f.id);
+    cpfontLog('Bắt đầu tải qua Tàng Thư Download Worker…');
 
     try{
       var response=await fetch(CPFONT_WORKER_URL+'/download/'+encodeURIComponent(f.id),{
         method:'GET',
         cache:'no-store'
       });
+      cpfontLog('Worker: HTTP '+response.status);
+
       if(!response.ok)
         throw new Error('Tàng Thư download Worker HTTP '+response.status);
 
       var bytes=await response.arrayBuffer();
+      cpfontLog('Worker: nhận '+bytes.byteLength+' bytes');
+
       if(!bytes.byteLength) throw new Error('Worker trả về file rỗng');
       if(bytes.byteLength>25*1024*1024)
         throw new Error('File vượt giới hạn 25 MB');
 
       var lines=await cpfontRender(bytes,$('cpfontCanvas'));
-      $('cpfontStatus').textContent=
-        f.name+' · '+bytes.byteLength+' bytes · '+lines+' dòng';
+      $('cpfontStatus').textContent=f.name+' · '+lines+' dòng';
+      cpfontLog('HOÀN TẤT');
     }catch(e){
       $('cpfontStatus').textContent='Không thể xem CPFont: '+e.message;
+      cpfontLog('FAIL: '+(e.stack || e.message || String(e)));
     }
   }
 
   var oldShowBook=showBook;
   showBook=function(f){
-    oldShowBook(f);
     if(cpfontIsFile(f)){
-      var body=$('modalBody');
-      var actions=document.createElement('div');
-      actions.className='modal-actions';
-      actions.innerHTML='<button id="cpfontPreviewBtn">Xem CPFont</button>';
-      body.appendChild(actions);
-      $('cpfontPreviewBtn').onclick=function(){showCPFontPreview(f)};
+      showCPFontPreview(f);
+      return;
     }
+    oldShowBook(f);
   };
 
 '''
+
 inject = inject.replace("__WASM_URL__", repr(WASM_URL)).replace("__WORKER_URL__", repr(worker))
 text = text.replace(anchor, inject + anchor, 1)
 
 css_anchor = ".modal-body{padding:14px}"
 if css_anchor not in text:
     raise SystemExit("CPFont patch anchor missing: modal CSS")
-css = ".cpfont-preview-status{margin-bottom:10px;padding:7px 9px;background:#ffffcc;border:1px solid #888}.cpfont-canvas{display:block;max-width:100%;height:auto;background:#fff;border:1px solid #555;image-rendering:pixelated;margin:0 auto}"
-text = text.replace(css_anchor, css_anchor + css, 1)
+
+css = (
+    ".cpfont-preview-status{margin-bottom:10px;padding:7px 9px;background:#ffffcc;"
+    "border:1px solid #888;font-weight:bold}"
+    ".cpfont-log{max-height:140px;overflow:auto;margin:0 0 10px;padding:7px 9px;"
+    "background:#111;color:#fff;border:1px solid #555;font:12px/1.35 monospace;"
+    "white-space:pre-wrap}"
+    ".cpfont-canvas{display:block;max-width:100%;height:auto;background:#fff;"
+    "border:1px solid #555;image-rendering:pixelated;margin:0 auto}"
+)
+text = text.replace(css_anchor, css_anchor + css, 1) if css_anchor in text else text
 
 HTML.write_text(text, encoding="utf-8")
-print("CPFont preview injector ready.")
