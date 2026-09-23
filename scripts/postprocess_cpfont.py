@@ -27,8 +27,7 @@ inject = r'''
 
   var CPFONT_DEVICES = [
     {id: 1, name: 'X3', size: '528 × 792'},
-    {id: 0, name: 'X4', size: '480 × 800'},
-    {id: 0, name: 'X4 Pro', size: '480 × 800'}
+    {id: 0, name: 'X4', size: '480 × 800'}
   ];
 
   var CPFONT_CURRENT = null;
@@ -52,11 +51,6 @@ inject = r'''
   }
 
   function cpfontLog(msg){
-    var el=$('cpfontLog');
-    if(el){
-      el.textContent += (el.textContent ? '\n' : '') + msg;
-      el.scrollTop=el.scrollHeight;
-    }
     console.log('[CPFont]',msg);
   }
 
@@ -79,39 +73,29 @@ inject = r'''
     var d=CPFONT_DEVICES[deviceIndex];
     try{
       cpfontSetActiveButton(deviceIndex);
-      cpfontSetStatus('Đang render · '+d.name+' · '+d.size);
-      cpfontLog('Thiết bị: '+d.name+' · '+d.size);
-      cpfontLog('WASM: tải CrossGlyph…');
-
+      cpfontSetStatus('Đang tải bộ render…');
       var wasmResponse=await fetch(CPFONT_WASM_URL,{cache:'force-cache'});
-      cpfontLog('WASM: HTTP '+wasmResponse.status);
       if(!wasmResponse.ok)
         throw new Error('CrossGlyph WASM HTTP '+wasmResponse.status);
 
       var instance=(await WebAssembly.instantiate(
         await wasmResponse.arrayBuffer(),cpfontImports(null)
       )).instance;
-      cpfontLog('WASM: instantiate OK');
-
       var ex=instance.exports, memory=ex.memory;
       if(!memory) throw new Error('CrossGlyph WASM không export memory');
 
       ex.rc_init();
-      cpfontLog('WASM: init OK');
 
       if(!ex.rc_set_device(d.id))
         throw new Error('Không chọn được thiết bị '+d.name);
 
       var fontBytes=new Uint8Array(bytes);
-      cpfontLog('CPFont: '+fontBytes.length+' bytes');
 
       var ptr=ex.malloc(fontBytes.length);
       new Uint8Array(memory.buffer,ptr,fontBytes.length).set(fontBytes);
 
       if(!ex.rc_font_load(ptr,fontBytes.length))
         throw new Error('File không phải CPFont hợp lệ hoặc bị lỗi');
-
-      cpfontLog('CPFont: load OK');
 
       ex.rc_page_set_spec(5,0,0,1,100);
 
@@ -121,8 +105,6 @@ inject = r'''
 
       var lines=ex.rc_page_render(textPtr,0,0,0,0xFF);
       if(lines<0) throw new Error('CrossPoint render thất bại: '+lines);
-
-      cpfontLog('Render: OK — '+lines+' dòng');
 
       var pw=ex.rc_panel_width(), ph=ex.rc_panel_height();
       var sw=ex.rc_screen_width(), sh=ex.rc_screen_height();
@@ -144,7 +126,6 @@ inject = r'''
       canvas.height=sh;
       canvas.getContext('2d').putImageData(image,0,0);
 
-      cpfontLog('Framebuffer: '+sw+'×'+sh);
       cpfontSetStatus(CPFONT_CURRENT.name+' · '+d.name+' · '+lines+' dòng');
     } finally {
       CPFONT_RENDERING=false;
@@ -157,11 +138,8 @@ inject = r'''
     var d=CPFONT_DEVICES[deviceIndex];
     if(!d) return;
 
-    cpfontLog('--- chuyển sang '+d.name+' ---');
-
     try{
       await cpfontRender(CPFONT_BYTES,$('cpfontCanvas'),deviceIndex);
-      cpfontLog('HOÀN TẤT');
     }catch(e){
       cpfontSetStatus('Không thể render: '+e.message);
       cpfontLog('FAIL: '+(e.stack || e.message || String(e)));
@@ -172,22 +150,20 @@ inject = r'''
     if(!cpfontIsFile(f)) return;
 
     modal('XEM CPFONT',
-      '<div class="cpfont-device-row">'+
+      '<div class="cpfont-controls">'+
         '<span class="cpfont-device-label">MÀN HÌNH</span>'+
-        '<button class="cpfont-device-btn cpfont-device-active" data-index="0" onclick="cpfontSelectDevice(0)">X3<br><small>528 × 792</small></button>'+
-        '<button class="cpfont-device-btn" data-index="1" onclick="cpfontSelectDevice(1)">X4<br><small>480 × 800</small></button>'+
-        '<button class="cpfont-device-btn" data-index="2" onclick="cpfontSelectDevice(2)">X4 Pro<br><small>480 × 800</small></button>'+
+        '<button type="button" class="cpfont-device-btn" data-index="0" onclick="cpfontSelectDevice(0);return false">X3<br><small>528 × 792</small></button>'+
+        '<button type="button" class="cpfont-device-btn cpfont-device-active" data-index="1" onclick="cpfontSelectDevice(1);return false">X4<br><small>480 × 800</small></button>'+
       '</div>'+
-      '<div class="cpfont-preview-status" id="cpfontStatus">Đang tải CPFont…</div>'+
-      '<pre class="cpfont-log" id="cpfontLog"></pre>'+
-      '<div class="cpfont-canvas-wrap"><canvas id="cpfontCanvas" class="cpfont-canvas"></canvas></div>');
+      '<div class="cpfont-preview-frame">'+
+        '<div class="cpfont-preview-status" id="cpfontStatus">Đang tải CPFont…</div>'+
+        '<div class="cpfont-canvas-wrap"><canvas id="cpfontCanvas" class="cpfont-canvas"></canvas></div>'+
+      '</div>');
 
     CPFONT_CURRENT=f;
     CPFONT_BYTES=null;
 
-    cpfontLog('File: '+f.name);
-    cpfontLog('ID: '+f.id);
-    cpfontLog('Bắt đầu tải qua Tàng Thư Download Worker…');
+    cpfontSetStatus('Đang tải CPFont…');
 
     try{
       var response=await fetch(CPFONT_WORKER_URL+'/download/'+encodeURIComponent(f.id),{
@@ -195,13 +171,10 @@ inject = r'''
         cache:'no-store'
       });
 
-      cpfontLog('Worker: HTTP '+response.status);
-
       if(!response.ok)
         throw new Error('Tàng Thư download Worker HTTP '+response.status);
 
       CPFONT_BYTES=await response.arrayBuffer();
-      cpfontLog('Worker: nhận '+CPFONT_BYTES.byteLength+' bytes');
 
       if(!CPFONT_BYTES.byteLength) throw new Error('Worker trả về file rỗng');
       if(CPFONT_BYTES.byteLength>25*1024*1024)
@@ -210,7 +183,6 @@ inject = r'''
       await cpfontSelectDevice(1);
     }catch(e){
       cpfontSetStatus('Không thể xem CPFont: '+e.message);
-      cpfontLog('FAIL: '+(e.stack || e.message || String(e)));
     }
   }
 
@@ -233,26 +205,27 @@ if css_anchor not in text:
     raise SystemExit("CPFont patch anchor missing: modal CSS")
 
 css = (
-    ".cpfont-device-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;"
-    "margin-bottom:10px;padding:8px;background:#bfbfbf;border:2px solid #fff;"
-    "border-right-color:#555;border-bottom-color:#555}"
-    ".cpfont-device-label{font-weight:bold;margin-right:4px}"
-    ".cpfont-device-btn{font:700 14px/1.15 Arial,sans-serif;padding:7px 12px;"
+    ".cpfont-controls{display:flex;align-items:center;justify-content:center;gap:8px;"
+    "margin:0 0 8px;padding:0;background:transparent}"
+    ".cpfont-device-label{font-weight:bold;margin-right:2px}"
+    ".cpfont-device-btn{font:700 14px/1.15 Arial,sans-serif;padding:6px 12px;"
     "min-width:82px;background:#ddd;color:#000;border:2px solid #fff;"
     "border-right-color:#555;border-bottom-color:#555;cursor:pointer;text-align:center}"
     ".cpfont-device-btn:active,.cpfont-device-active{border:2px solid #555;"
-    "border-right-color:#fff;border-bottom-color:#fff;background:#ccc}"
+    "border-right-color:#fff;border-bottom-color:#fff;background:#c0c0c0}"
     ".cpfont-device-btn small{font-weight:normal}"
-    ".cpfont-preview-status{margin-bottom:10px;padding:7px 9px;background:#ffffcc;"
-    "border:1px solid #888;font-weight:bold;color:#000}"
-    ".cpfont-log{max-height:140px;overflow:auto;margin:0 0 10px;padding:7px 9px;"
-    "background:#111;color:#fff;border:1px solid #555;font:12px/1.35 monospace;"
-    "white-space:pre-wrap}"
+    ".cpfont-preview-frame{display:flex;flex-direction:column;align-items:center;"
+    "padding:6px;background:#c0c0c0;border:2px solid #fff;"
+    "border-right-color:#555;border-bottom-color:#555;box-sizing:border-box;"
+    "overflow:auto}"
+    ".cpfont-preview-status{margin:0 0 6px;padding:4px 7px;background:#ffffcc;"
+    "border:1px solid #808080;font-weight:bold;color:#000;box-sizing:border-box;"
+    "max-width:100%;font:700 13px/1.2 Arial,sans-serif}"
     ".cpfont-canvas-wrap{display:flex;justify-content:center;align-items:flex-start;"
-    "padding:10px;background:#bfbfbf;border:2px solid #fff;border-right-color:#555;"
-    "border-bottom-color:#555;overflow:auto}"
+    "background:#fff;border:1px solid #555;overflow:auto;max-width:100%;"
+    "box-sizing:border-box}"
     ".cpfont-canvas{display:block;max-width:100%;height:auto;background:#fff;"
-    "border:1px solid #555;image-rendering:pixelated;margin:0 auto}"
+    "image-rendering:pixelated;margin:0}"
 )
 text = text.replace(css_anchor, css_anchor + css, 1)
 
