@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tàng Thư — CPFont Web Preview / Drive test</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:24px;max-width:900px}
+.bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0}
+input,select,button{font:inherit;padding:5px}
+input[type=text]{width:min(620px,90vw)}
+#status{white-space:pre-wrap;margin:14px 0}
+canvas{border:1px solid #999;image-rendering:pixelated;max-width:min(100%,640px);height:auto;background:#fff}
+fieldset{margin:14px 0;padding:12px}
+legend{padding:0 6px}
+</style>
+</head>
+<body>
+<h2>CPFont Render Test</h2>
+<pre id="status">Starting…</pre>
+<canvas id="canvas"></canvas>
+<script>
+"use strict";
+
+const CPFONT_URL =
+  "https://drive.google.com/file/d/1p1bt9Ea7-Fy1F81ygnq2BuDCwbrdSEqs/view?usp=drivesdk";
+
+const WASM_URL =
+  "https://raw.githubusercontent.com/CrazyCoder/crossglyph/master/src/crossglyph/render/render.wasm";
+
+const SAMPLE =
+`Buổi sáng hôm nay, mùa đông đột nhiên đến, không báo trước. Vừa mới ngày hôm qua giời hãy còn nắng ấm và hanh, cái nắng về cuối tháng mười làm nứt nẻ đất ruộng, và làm giòn khô những chiếc lá rơi. Sơn và chị chơi cỏ gà ở ngoài cánh đồng còn thấy nóng bức, chảy mồ hôi.
+
+Thế mà qua một đêm mưa rào, trời bỗng đổi ra gió bấc, rồi cái lạnh ở đâu đến làm cho người ta tưởng đang ở giữa mùa đông rét mướt.`;
+
+const $ = id => document.getElementById(id);
+const log = msg => {
+  $("status").textContent += `\n${msg}`;
+  console.log(msg);
+};
+
+let exports, memory;
+
+function imports(){
+  return {wasi_snapshot_preview1:{
+    fd_close:()=>0,
+    fd_seek:()=>0n,
+    fd_write:(fd,iovs,len,nwritten)=>{
+      if(memory) new DataView(memory.buffer).setUint32(nwritten,0,true);
+      return 0;
+    }
+  }};
+}
+
+function mallocBytes(bytes){
+  const ptr=exports.malloc(bytes.length);
+  new Uint8Array(memory.buffer,ptr,bytes.length).set(bytes);
+  return ptr;
+}
+
+function mallocText(s){
+  return mallocBytes(new TextEncoder().encode(s+"\0"));
+}
+
+function draw(){
+  const pw=exports.rc_panel_width(), ph=exports.rc_panel_height();
+  const sw=exports.rc_screen_width(), sh=exports.rc_screen_height();
+  const size=exports.rc_framebuffer_size();
+  const fb=new Uint8Array(memory.buffer,exports.rc_framebuffer(),size);
+  const image=new ImageData(sw,sh);
+
+  for(let y=0;y<sh;y++){
+    for(let x=0;x<sw;x++){
+      const phyX=y, phyY=ph-1-x;
+      const bit=phyY*pw+phyX;
+      const on=(fb[bit>>3]&(0x80>>(bit&7)))!==0;
+      const v=on?0:255, i=(y*sw+x)*4;
+      image.data[i]=image.data[i+1]=image.data[i+2]=v;
+      image.data[i+3]=255;
+    }
+  }
+
+  const c=$("canvas");
+  c.width=sw; c.height=sh;
+  c.getContext("2d").putImageData(image,0,0);
+  return `${sw}×${sh} logical / ${pw}×${ph} framebuffer`;
+}
+
+function driveFileId(url){
+  const m=url.match(/\/d\/([A-Za-z0-9_-]+)/);
+  if(!m) throw new Error("Không lấy được Drive file ID");
+  return m[1];
+}
+
+async function main(){
+  log("SCRIPT OK");
+  log("WASM FETCH…");
+
+  const wr = await fetch(WASM_URL,{cache:"no-store"});
+  log(`WASM HTTP ${wr.status}`);
+  if(!wr.ok) throw new Error(`WASM HTTP ${wr.status}`);
+
+  const wb = await wr.arrayBuffer();
+  log(`WASM BYTES ${wb.byteLength}`);
+  log("WASM INSTANTIATE…");
+
+  const result = await WebAssembly.instantiate(wb,imports());
+  exports=result.instance.exports;
+  memory=exports.memory;
+  if(!memory) throw new Error("WASM không export memory");
+
+  log("WASM INSTANTIATE OK");
+  exports.rc_init();
+  log(`WASM INIT OK — ${exports.rc_screen_width()}×${exports.rc_screen_height()}`);
+
+  const id=driveFileId(CPFONT_URL);
+  log(`DRIVE FILE ID ${id}`);
+  log("DRIVE FETCH…");
+
+  // Deliberately direct-browser test, exactly to expose CORS/Drive behavior.
+  const url=`https://drive.google.com/uc?export=download&id=${encodeURIComponent(id)}`;
+  const response=await fetch(url,{redirect:"follow",cache:"no-store"});
+
+  log(`DRIVE HTTP ${response.status}`);
+  if(!response.ok) throw new Error(`Drive HTTP ${response.status}`);
+
+  const type=response.headers.get("content-type")||"(none)";
+  const bytes=await response.arrayBuffer();
+  log(`DRIVE TYPE ${type}`);
+  log(`DRIVE BYTES ${bytes.byteLength}`);
+
+  if(!bytes.byteLength) throw new Error("Drive trả về 0 byte");
+  if(bytes.byteLength>25*1024*1024) throw new Error("CPFont vượt 25 MB");
+
+  log("CPFONT LOAD…");
+  const device=0;
+  if(!exports.rc_set_device(device)) throw new Error("rc_set_device() thất bại");
+
+  const ptr=mallocBytes(new Uint8Array(bytes));
+  if(!exports.rc_font_load(ptr,bytes.byteLength))
+    throw new Error("rc_font_load() không parse được CPFont");
+
+  log("CPFONT LOAD OK");
+  exports.rc_page_set_spec(5,0,0,1,100);
+
+  const textPtr=mallocText(SAMPLE);
+  const lines=exports.rc_page_render(textPtr,0,0,0,0xFF);
+  if(lines<0) throw new Error(`rc_page_render() thất bại: ${lines}`);
+
+  log(`RENDER OK — ${lines} dòng`);
+  log(`FRAMEBUFFER — ${draw()}`);
+}
+
+main().catch(e=>{
+  log("===== FAILED =====");
+  log(e.stack || e.message || String(e));
+});
+</script>
+</body>
+</body>
+</html>
