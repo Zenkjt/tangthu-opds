@@ -54,6 +54,10 @@ jobs:
       - name: Apply catalog UI
         run: python3 scripts/postprocess_ui.py
 
+      - name: Apply CPFont preview
+        env:
+          TANGTHU_DOWNLOAD_WORKER_URL: ${{ vars.TANGTHU_DOWNLOAD_WORKER_URL }}
+        run: python3 scripts/postprocess_cpfont.py
 
       - name: Apply bookshelf UI
         run: python3 scripts/postprocess_bookshelf.py
