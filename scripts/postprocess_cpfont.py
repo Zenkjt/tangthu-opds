@@ -150,14 +150,13 @@ inject = r'''
     if(!cpfontIsFile(f)) return;
 
     modal('XEM CPFONT',
-      '<div class="cpfont-controls">'+
-        '<span class="cpfont-device-label">MÀN HÌNH</span>'+
-        '<button type="button" class="cpfont-device-btn" data-index="0" onclick="cpfontSelectDevice(0);return false">X3<br><small>528 × 792</small></button>'+
-        '<button type="button" class="cpfont-device-btn cpfont-device-active" data-index="1" onclick="cpfontSelectDevice(1);return false">X4<br><small>480 × 800</small></button>'+
-      '</div>'+
       '<div class="cpfont-preview-frame">'+
         '<div class="cpfont-preview-status" id="cpfontStatus">Đang tải CPFont…</div>'+
         '<div class="cpfont-canvas-wrap"><canvas id="cpfontCanvas" class="cpfont-canvas"></canvas></div>'+
+      '</div>'+
+      '<div class="cpfont-controls">'+
+        '<button type="button" class="cpfont-device-btn" data-index="0" onclick="cpfontSelectDevice(0);return false">X3<br><small>528 × 792</small></button>'+
+        '<button type="button" class="cpfont-device-btn cpfont-device-active" data-index="1" onclick="cpfontSelectDevice(1);return false">X4<br><small>480 × 800</small></button>'+
       '</div>');
 
     CPFONT_CURRENT=f;
@@ -205,27 +204,26 @@ if css_anchor not in text:
     raise SystemExit("CPFont patch anchor missing: modal CSS")
 
 css = (
-    ".cpfont-controls{display:flex;align-items:center;justify-content:center;gap:8px;"
-    "margin:0 0 8px;padding:0;background:transparent}"
-    ".cpfont-device-label{font-weight:bold;margin-right:2px}"
-    ".cpfont-device-btn{font:700 14px/1.15 Arial,sans-serif;padding:6px 12px;"
-    "min-width:82px;background:#ddd;color:#000;border:2px solid #fff;"
-    "border-right-color:#555;border-bottom-color:#555;cursor:pointer;text-align:center}"
-    ".cpfont-device-btn:active,.cpfont-device-active{border:2px solid #555;"
-    "border-right-color:#fff;border-bottom-color:#fff;background:#c0c0c0}"
-    ".cpfont-device-btn small{font-weight:normal}"
     ".cpfont-preview-frame{display:flex;flex-direction:column;align-items:center;"
-    "padding:6px;background:#c0c0c0;border:2px solid #fff;"
-    "border-right-color:#555;border-bottom-color:#555;box-sizing:border-box;"
-    "overflow:auto}"
-    ".cpfont-preview-status{margin:0 0 6px;padding:4px 7px;background:#ffffcc;"
+    "padding:3px;background:#c0c0c0;border:1px solid #808080;"
+    "box-sizing:border-box;overflow:auto}"
+    ".cpfont-preview-status{margin:0 0 3px;padding:3px 6px;background:#ffffcc;"
     "border:1px solid #808080;font-weight:bold;color:#000;box-sizing:border-box;"
-    "max-width:100%;font:700 13px/1.2 Arial,sans-serif}"
+    "max-width:100%;font:700 13px/1.2 Arial,sans-serif;text-align:center}"
     ".cpfont-canvas-wrap{display:flex;justify-content:center;align-items:flex-start;"
     "background:#fff;border:1px solid #555;overflow:auto;max-width:100%;"
     "box-sizing:border-box}"
     ".cpfont-canvas{display:block;max-width:100%;height:auto;background:#fff;"
     "image-rendering:pixelated;margin:0}"
+    ".cpfont-controls{display:flex;justify-content:center;gap:10px;"
+    "margin:6px 0 0;padding:0}"
+    ".cpfont-device-btn{flex:1;min-width:145px;max-width:260px;height:48px;"
+    "font:700 15px/1.05 Arial,sans-serif;padding:3px 12px;"
+    "background:#c0c0c0;color:#000;border:2px solid #fff;"
+    "border-right-color:#555;border-bottom-color:#555;cursor:pointer;text-align:center}"
+    ".cpfont-device-btn:active,.cpfont-device-active{border:2px solid #555;"
+    "border-right-color:#fff;border-bottom-color:#fff;background:#c0c0c0}"
+    ".cpfont-device-btn small{font-weight:normal;font-size:12px}"
 )
 text = text.replace(css_anchor, css_anchor + css, 1)
 
