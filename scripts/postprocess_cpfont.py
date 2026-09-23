@@ -16,16 +16,24 @@ if anchor not in text:
     raise SystemExit("CPFont patch anchor missing: catalog bootstrap")
 
 inject = r'''
-  /* CPFont preview: reuse the existing Tàng Thư download Worker.
-     Clicking a .cpfont opens the renderer directly; no book-info screen. */
+  /* CPFont preview — Tàng Thư UI.
+     .cpfont opens directly in the preview modal, not the book-info modal. */
   var CPFONT_WASM_URL = __WASM_URL__;
   var CPFONT_WORKER_URL = __WORKER_URL__;
+  var CPFONT_SAMPLE =
+    'Buổi sáng hôm nay, mùa đông đột nhiên đến, không báo trước. Vừa mới ngày hôm qua giời hãy còn nắng ấm và hanh, cái nắng về cuối tháng mười làm nứt nẻ đất ruộng, và làm giòn khô những chiếc lá rơi. Sơn và chị chơi cỏ gà ở ngoài cánh đồng còn thấy nóng bức, chảy mồ hôi.\n\n' +
+    'Thế mà qua một đêm mưa rào, trời bỗng đổi ra gió bấc, rồi cái lạnh ở đâu đến làm cho người ta tưởng đang ở giữa mùa đông rét mướt. Sơn tung chăn tỉnh dậy, nhưng không bước xuống giường ngay như mọi khi, còn ngồi thu tay vào trong bọc, bên cạnh đứa em bé vẫn nắm tay ngủ kỹ. Chị Sơn và mẹ Sơn đã trở dậy, đang ngồi quạt hỏa lò để pha nước chè uống. Sơn nhìn thấy mọi người đã mặc áo rét cả rồi.\n\n' +
+    'Nhìn ra ngoài sân, Sơn thấy đất khô trắng, luôn luôn cơn gió vi vu làm bốc lên những màn bụi nhỏ, thổi lăn những cái lá khô lạo xạo. Trời không u ám, toàn một màu trắng đục. Những cây lan trông chậu, lá rung động và hình như sắt lại vì rét.';
 
+  var CPFONT_DEVICES = [
+    {id: 1, name: 'X3', size: '528 × 792'},
+    {id: 0, name: 'X4', size: '480 × 800'},
+    {id: 0, name: 'X4 Pro', size: '480 × 800'}
+  ];
+
+  var CPFONT_CURRENT = null;
   var CPFONT_BYTES = null;
-  var CPFONT_DEVICE_ID = 0;
-  var CPFONT_DEVICE_LABEL = 'X4';
-  var CPFONT_DEVICE_W = 480;
-  var CPFONT_DEVICE_H = 800;
+  var CPFONT_RENDERING = false;
 
   function cpfontIsFile(f){
     return !!f && !f.folder && /\.cpfont$/i.test(String(f.name||'')) &&
@@ -52,101 +60,110 @@ inject = r'''
     console.log('[CPFont]',msg);
   }
 
-  async function cpfontRender(bytes, canvas){
-    cpfontLog('WASM: tải CrossGlyph…');
-    var wasmResponse=await fetch(CPFONT_WASM_URL,{cache:'force-cache'});
-    cpfontLog('WASM: HTTP '+wasmResponse.status);
-    if(!wasmResponse.ok) throw new Error('CrossGlyph WASM HTTP '+wasmResponse.status);
-
-    var instance=(await WebAssembly.instantiate(
-      await wasmResponse.arrayBuffer(),cpfontImports(null)
-    )).instance;
-    cpfontLog('WASM: instantiate OK');
-
-    var ex=instance.exports, memory=ex.memory;
-    if(!memory) throw new Error('CrossGlyph WASM không export memory');
-    ex.rc_init();
-    cpfontLog('WASM: init OK');
-
-    if(!ex.rc_set_device(CPFONT_DEVICE_ID))
-      throw new Error('Không chọn được thiết bị preview');
-
-    cpfontLog('Thiết bị: '+CPFONT_DEVICE_LABEL+' — '+CPFONT_DEVICE_W+'×'+CPFONT_DEVICE_H);
-
-    var fontBytes=new Uint8Array(bytes);
-    cpfontLog('CPFont: '+fontBytes.length+' bytes');
-    var ptr=ex.malloc(fontBytes.length);
-    new Uint8Array(memory.buffer,ptr,fontBytes.length).set(fontBytes);
-
-    if(!ex.rc_font_load(ptr,fontBytes.length))
-      throw new Error('File không phải CPFont hợp lệ hoặc bị lỗi');
-    cpfontLog('CPFont: load OK');
-
-    ex.rc_page_set_spec(5,0,0,1,100);
-
-    var sample=`Buổi sáng hôm nay, mùa đông đột nhiên đến, không báo trước. Vừa mới ngày hôm qua giời hãy còn nắng ấm và hanh, cái nắng về cuối tháng mười làm nứt nẻ đất ruộng, và làm giòn khô những chiếc lá rơi. Sơn và chị chơi cỏ gà ở ngoài cánh đồng còn thấy nóng bức, chảy mồ hôi.
-
-Thế mà qua một đêm mưa rào, trời bỗng đổi ra gió bấc, rồi cái lạnh ở đâu đến làm cho người ta tưởng đang ở giữa mùa đông rét mướt. Sơn tung chăn tỉnh dậy, nhưng không bước xuống giường ngay như mọi khi, còn ngồi thu tay vào trong bọc, bên cạnh đứa em bé vẫn nắm tay ngủ kỹ. Chị Sơn và mẹ Sơn đã trở dậy, đang ngồi quạt hỏa lò để pha nước chè uống. Sơn nhìn thấy mọi người đã mặc áo rét cả rồi.
-
-Nhìn ra ngoài sân, Sơn thấy đất khô trắng, luôn luôn cơn gió vi vu làm bốc lên những màn bụi nhỏ, thổi lăn những cái lá khô lạo xạo. Trời không u ám, toàn một màu trắng đục. Những cây lan trông chậu, lá rung động và hình như sắt lại vì rét.`;
-
-    var textBytes=new TextEncoder().encode(sample+'\0');
-    var textPtr=ex.malloc(textBytes.length);
-    new Uint8Array(memory.buffer,textPtr,textBytes.length).set(textBytes);
-
-    var lines=ex.rc_page_render(textPtr,0,0,0,0xFF);
-    if(lines<0) throw new Error('CrossPoint render thất bại: '+lines);
-    cpfontLog('Render: OK — '+lines+' dòng');
-
-    var pw=ex.rc_panel_width(), ph=ex.rc_panel_height();
-    var sw=ex.rc_screen_width(), sh=ex.rc_screen_height();
-    var fb=new Uint8Array(memory.buffer,ex.rc_framebuffer(),ex.rc_framebuffer_size());
-    var image=new ImageData(sw,sh);
-
-    /* CPFont preview: black text on white background. */
-    for(var y=0;y<sh;y++){
-      for(var x=0;x<sw;x++){
-        var phyX=y,phyY=ph-1-x;
-        var bit=phyY*pw+phyX;
-        var on=(fb[bit>>3]&(0x80>>(bit&7)))!==0;
-        var v=on?0:255, i=(y*sw+x)*4;
-        image.data[i]=image.data[i+1]=image.data[i+2]=v;
-        image.data[i+3]=255;
-      }
-    }
-
-    canvas.width=sw;
-    canvas.height=sh;
-    canvas.getContext('2d').putImageData(image,0,0);
-    cpfontLog('Framebuffer: '+sw+'×'+sh);
-    return lines;
+  function cpfontSetStatus(msg){
+    var el=$('cpfontStatus');
+    if(el) el.textContent=msg;
   }
 
-  async function cpfontRenderSelected(){
-    if(!CPFONT_BYTES) return;
-
-    var canvas=$('cpfontCanvas');
-    var status=$('cpfontStatus');
-    var buttons=document.querySelectorAll('.cpfont-device');
-
-    buttons.forEach(function(b){
-      b.classList.toggle('selected',Number(b.dataset.device)===CPFONT_DEVICE_ID &&
-        String(b.dataset.label||'')===CPFONT_DEVICE_LABEL);
+  function cpfontSetActiveButton(deviceIndex){
+    document.querySelectorAll('.cpfont-device-btn').forEach(function(btn){
+      btn.classList.toggle('cpfont-device-active',
+        Number(btn.getAttribute('data-index'))===Number(deviceIndex));
     });
+  }
 
-    status.textContent='Đang render '+CPFONT_DEVICE_LABEL+'…';
-    status.style.display='block';
+  async function cpfontRender(bytes, canvas, deviceIndex){
+    if(CPFONT_RENDERING) return;
+    CPFONT_RENDERING=true;
+
+    var d=CPFONT_DEVICES[deviceIndex];
+    try{
+      cpfontSetActiveButton(deviceIndex);
+      cpfontSetStatus('Đang render · '+d.name+' · '+d.size);
+      cpfontLog('Thiết bị: '+d.name+' · '+d.size);
+      cpfontLog('WASM: tải CrossGlyph…');
+
+      var wasmResponse=await fetch(CPFONT_WASM_URL,{cache:'force-cache'});
+      cpfontLog('WASM: HTTP '+wasmResponse.status);
+      if(!wasmResponse.ok)
+        throw new Error('CrossGlyph WASM HTTP '+wasmResponse.status);
+
+      var instance=(await WebAssembly.instantiate(
+        await wasmResponse.arrayBuffer(),cpfontImports(null)
+      )).instance;
+      cpfontLog('WASM: instantiate OK');
+
+      var ex=instance.exports, memory=ex.memory;
+      if(!memory) throw new Error('CrossGlyph WASM không export memory');
+
+      ex.rc_init();
+      cpfontLog('WASM: init OK');
+
+      if(!ex.rc_set_device(d.id))
+        throw new Error('Không chọn được thiết bị '+d.name);
+
+      var fontBytes=new Uint8Array(bytes);
+      cpfontLog('CPFont: '+fontBytes.length+' bytes');
+
+      var ptr=ex.malloc(fontBytes.length);
+      new Uint8Array(memory.buffer,ptr,fontBytes.length).set(fontBytes);
+
+      if(!ex.rc_font_load(ptr,fontBytes.length))
+        throw new Error('File không phải CPFont hợp lệ hoặc bị lỗi');
+
+      cpfontLog('CPFont: load OK');
+
+      ex.rc_page_set_spec(5,0,0,1,100);
+
+      var textBytes=new TextEncoder().encode(CPFONT_SAMPLE+'\0');
+      var textPtr=ex.malloc(textBytes.length);
+      new Uint8Array(memory.buffer,textPtr,textBytes.length).set(textBytes);
+
+      var lines=ex.rc_page_render(textPtr,0,0,0,0xFF);
+      if(lines<0) throw new Error('CrossPoint render thất bại: '+lines);
+
+      cpfontLog('Render: OK — '+lines+' dòng');
+
+      var pw=ex.rc_panel_width(), ph=ex.rc_panel_height();
+      var sw=ex.rc_screen_width(), sh=ex.rc_screen_height();
+      var fb=new Uint8Array(memory.buffer,ex.rc_framebuffer(),ex.rc_framebuffer_size());
+      var image=new ImageData(sw,sh);
+
+      for(var y=0;y<sh;y++){
+        for(var x=0;x<sw;x++){
+          var phyX=y,phyY=ph-1-x;
+          var bit=phyY*pw+phyX;
+          var on=(fb[bit>>3]&(0x80>>(bit&7)))!==0;
+          var v=on?0:255, i=(y*sw+x)*4;
+          image.data[i]=image.data[i+1]=image.data[i+2]=v;
+          image.data[i+3]=255;
+        }
+      }
+
+      canvas.width=sw;
+      canvas.height=sh;
+      canvas.getContext('2d').putImageData(image,0,0);
+
+      cpfontLog('Framebuffer: '+sw+'×'+sh);
+      cpfontSetStatus(CPFONT_CURRENT.name+' · '+d.name+' · '+lines+' dòng');
+    } finally {
+      CPFONT_RENDERING=false;
+    }
+  }
+
+  async function cpfontSelectDevice(deviceIndex){
+    if(!CPFONT_BYTES || !CPFONT_CURRENT || CPFONT_RENDERING) return;
+
+    var d=CPFONT_DEVICES[deviceIndex];
+    if(!d) return;
+
+    cpfontLog('--- chuyển sang '+d.name+' ---');
 
     try{
-      await cpfontRender(CPFONT_BYTES,canvas);
-      status.textContent=CPFONT_DEVICE_LABEL+' · '+CPFONT_DEVICE_W+' × '+CPFONT_DEVICE_H;
-      setTimeout(function(){
-        if(status) status.style.display='none';
-      },500);
+      await cpfontRender(CPFONT_BYTES,$('cpfontCanvas'),deviceIndex);
       cpfontLog('HOÀN TẤT');
     }catch(e){
-      status.textContent='Render lỗi: '+e.message;
-      status.style.display='block';
+      cpfontSetStatus('Không thể render: '+e.message);
       cpfontLog('FAIL: '+(e.stack || e.message || String(e)));
     }
   }
@@ -155,27 +172,18 @@ Nhìn ra ngoài sân, Sơn thấy đất khô trắng, luôn luôn cơn gió vi 
     if(!cpfontIsFile(f)) return;
 
     modal('XEM CPFONT',
-      '<div class="cpfont-toolbar">'+
-        '<div class="cpfont-file">'+f.name+'</div>'+
-        '<div class="cpfont-devices">'+
-          '<button type="button" class="cpfont-device" data-device="1" data-label="X3" onclick="cpfontSelectDevice(1,\'X3\',528,792)">X3<br><small>528 × 792</small></button>'+
-          '<button type="button" class="cpfont-device selected" data-device="0" data-label="X4" onclick="cpfontSelectDevice(0,\'X4\',480,800)">X4<br><small>480 × 800</small></button>'+
-          '<button type="button" class="cpfont-device" data-device="0" data-label="X4 Pro" onclick="cpfontSelectDevice(0,\'X4 Pro\',480,800)">X4 Pro<br><small>480 × 800</small></button>'+
-        '</div>'+
+      '<div class="cpfont-device-row">'+
+        '<span class="cpfont-device-label">MÀN HÌNH</span>'+
+        '<button class="cpfont-device-btn cpfont-device-active" data-index="0" onclick="cpfontSelectDevice(0)">X3<br><small>528 × 792</small></button>'+
+        '<button class="cpfont-device-btn" data-index="1" onclick="cpfontSelectDevice(1)">X4<br><small>480 × 800</small></button>'+
+        '<button class="cpfont-device-btn" data-index="2" onclick="cpfontSelectDevice(2)">X4 Pro<br><small>480 × 800</small></button>'+
       '</div>'+
-      '<div class="cpfont-preview-wrap">'+
-        '<div class="cpfont-screen-frame">'+
-          '<div class="cpfont-loading" id="cpfontStatus">Đang tải CPFont…</div>'+
-          '<canvas id="cpfontCanvas" class="cpfont-canvas"></canvas>'+
-        '</div>'+
-        '<pre class="cpfont-log" id="cpfontLog"></pre>'+
-      '</div>');
+      '<div class="cpfont-preview-status" id="cpfontStatus">Đang tải CPFont…</div>'+
+      '<pre class="cpfont-log" id="cpfontLog"></pre>'+
+      '<div class="cpfont-canvas-wrap"><canvas id="cpfontCanvas" class="cpfont-canvas"></canvas></div>');
 
+    CPFONT_CURRENT=f;
     CPFONT_BYTES=null;
-    CPFONT_DEVICE_ID=0;
-    CPFONT_DEVICE_LABEL='X4';
-    CPFONT_DEVICE_W=480;
-    CPFONT_DEVICE_H=800;
 
     cpfontLog('File: '+f.name);
     cpfontLog('ID: '+f.id);
@@ -186,34 +194,24 @@ Nhìn ra ngoài sân, Sơn thấy đất khô trắng, luôn luôn cơn gió vi 
         method:'GET',
         cache:'no-store'
       });
+
       cpfontLog('Worker: HTTP '+response.status);
 
       if(!response.ok)
         throw new Error('Tàng Thư download Worker HTTP '+response.status);
 
-      var bytes=await response.arrayBuffer();
-      cpfontLog('Worker: nhận '+bytes.byteLength+' bytes');
+      CPFONT_BYTES=await response.arrayBuffer();
+      cpfontLog('Worker: nhận '+CPFONT_BYTES.byteLength+' bytes');
 
-      if(!bytes.byteLength) throw new Error('Worker trả về file rỗng');
-      if(bytes.byteLength>25*1024*1024)
+      if(!CPFONT_BYTES.byteLength) throw new Error('Worker trả về file rỗng');
+      if(CPFONT_BYTES.byteLength>25*1024*1024)
         throw new Error('File vượt giới hạn 25 MB');
 
-      CPFONT_BYTES=bytes;
-      await cpfontRenderSelected();
+      await cpfontSelectDevice(1);
     }catch(e){
-      $('cpfontStatus').textContent='Không thể xem CPFont: '+e.message;
-      $('cpfontStatus').style.display='block';
+      cpfontSetStatus('Không thể xem CPFont: '+e.message);
       cpfontLog('FAIL: '+(e.stack || e.message || String(e)));
     }
-  }
-
-  function cpfontSelectDevice(id,label,w,h){
-    if(!CPFONT_BYTES) return;
-    CPFONT_DEVICE_ID=id;
-    CPFONT_DEVICE_LABEL=label;
-    CPFONT_DEVICE_W=w;
-    CPFONT_DEVICE_H=h;
-    cpfontRenderSelected();
   }
 
   var oldShowBook=showBook;
@@ -235,27 +233,27 @@ if css_anchor not in text:
     raise SystemExit("CPFont patch anchor missing: modal CSS")
 
 css = (
-    ".cpfont-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;"
-    "padding:8px 10px;margin-bottom:10px;border:1px solid #777;background:#ddd}"
-    ".cpfont-file{font-weight:bold;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}"
-    ".cpfont-devices{display:flex;gap:6px;flex-shrink:0}"
-    ".cpfont-device{min-width:82px;padding:5px 8px;background:#eee;border:2px solid #888;"
-    "box-shadow:2px 2px 0 #666;font-weight:bold;cursor:pointer}"
-    ".cpfont-device.selected{background:#fff;border-color:#111;box-shadow:2px 2px 0 #111}"
-    ".cpfont-device small{font-weight:normal;font-size:10px}"
-    ".cpfont-preview-wrap{display:flex;flex-direction:column;gap:10px}"
-    ".cpfont-screen-frame{position:relative;display:flex;justify-content:center;align-items:flex-start;"
-    "min-height:180px;padding:10px;background:#bbb;border:2px solid #666;overflow:auto}"
-    ".cpfont-canvas{display:block;max-width:100%;max-height:62vh;width:auto;height:auto;"
-    "background:#fff;border:1px solid #555;image-rendering:pixelated}"
-    ".cpfont-loading{position:absolute;top:16px;left:50%;transform:translateX(-50%);"
-    "padding:6px 9px;background:#fff;border:1px solid #777;font-weight:bold;z-index:2}"
-    ".cpfont-log{height:120px;overflow:auto;margin:0;padding:7px 9px;background:#111;color:#fff;"
-    "border:1px solid #555;font:12px/1.35 monospace;white-space:pre-wrap}"
+    ".cpfont-device-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;"
+    "margin-bottom:10px;padding:8px;background:#bfbfbf;border:2px solid #fff;"
+    "border-right-color:#555;border-bottom-color:#555}"
+    ".cpfont-device-label{font-weight:bold;margin-right:4px}"
+    ".cpfont-device-btn{font:700 14px/1.15 Arial,sans-serif;padding:7px 12px;"
+    "min-width:82px;background:#ddd;color:#000;border:2px solid #fff;"
+    "border-right-color:#555;border-bottom-color:#555;cursor:pointer;text-align:center}"
+    ".cpfont-device-btn:active,.cpfont-device-active{border:2px solid #555;"
+    "border-right-color:#fff;border-bottom-color:#fff;background:#ccc}"
+    ".cpfont-device-btn small{font-weight:normal}"
+    ".cpfont-preview-status{margin-bottom:10px;padding:7px 9px;background:#ffffcc;"
+    "border:1px solid #888;font-weight:bold;color:#000}"
+    ".cpfont-log{max-height:140px;overflow:auto;margin:0 0 10px;padding:7px 9px;"
+    "background:#111;color:#fff;border:1px solid #555;font:12px/1.35 monospace;"
+    "white-space:pre-wrap}"
+    ".cpfont-canvas-wrap{display:flex;justify-content:center;align-items:flex-start;"
+    "padding:10px;background:#bfbfbf;border:2px solid #fff;border-right-color:#555;"
+    "border-bottom-color:#555;overflow:auto}"
+    ".cpfont-canvas{display:block;max-width:100%;height:auto;background:#fff;"
+    "border:1px solid #555;image-rendering:pixelated;margin:0 auto}"
 )
-
 text = text.replace(css_anchor, css_anchor + css, 1)
 
-out = Path("/mnt/data/postprocess_cpfont.py")
-out.write_text(text, encoding="utf-8")
-print(f"Đã tạo: {out}")
+HTML.write_text(text, encoding="utf-8")
