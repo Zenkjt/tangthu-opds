@@ -74,14 +74,97 @@ inject = r'''
 
   function cpfontSelectDevice(deviceId){if(!CPFONT_STATE.bytes||!CPFONT_STATE.file||CPFONT_STATE.busy)return;var token=++CPFONT_STATE.token;if(cpfontIsFile(CPFONT_STATE.file))cpfontRender(deviceId,token);else browserFontRender(deviceId,token);}
 
+
+  function cpfontFolderFiles(f){
+    try{
+      var b=currentBranch();
+      if(!b||!f||!f.parent_id)return [];
+      return filesOf(b).filter(function(x){
+        return !x.folder && x.parent_id===f.parent_id &&
+          /\.(cpfont|ttf|otf)$/i.test(String(x.name||'')) &&
+          Number(x.size||0)<=25*1024*1024;
+      }).sort(function(a,b){return String(a.name||'').localeCompare(String(b.name||''),'vi',{sensitivity:'base'});});
+    }catch(e){console.error('[Font download]',e);return [];}
+  }
+  function cpfontZipName(s){return String(s||'Font').replace(/[\\/:*?"<>|]/g,'_').trim()||'Font';}
+  function cpfontCRC32(bytes){
+    var table=cpfontCRC32.table||(cpfontCRC32.table=(function(){
+      var t=new Uint32Array(256);
+      for(var n=0;n<256;n++){var c=n;for(var k=0;k<8;k++)c=(c&1)?(0xEDB88320^(c>>>1)):(c>>>1);t[n]=c>>>0;}
+      return t;
+    })());
+    var c=0xFFFFFFFF;for(var i=0;i<bytes.length;i++)c=table[(c^bytes[i])&255]^(c>>>8);
+    return (c^0xFFFFFFFF)>>>0;
+  }
+  function cpfontU16(a,o,v){a[o]=v&255;a[o+1]=(v>>>8)&255;}
+  function cpfontU32(a,o,v){a[o]=v&255;a[o+1]=(v>>>8)&255;a[o+2]=(v>>>16)&255;a[o+3]=(v>>>24)&255;}
+  function cpfontZip(files){
+    var enc=new TextEncoder(),parts=[],central=[],offset=0,total=0;
+    files.forEach(function(item){
+      var name=enc.encode(item.path),data=new Uint8Array(item.bytes),crc=cpfontCRC32(data);
+      var local=new Uint8Array(30+name.length);
+      cpfontU32(local,0,0x04034b50);cpfontU16(local,4,20);cpfontU16(local,6,0x800);
+      cpfontU32(local,14,crc);cpfontU32(local,18,data.length);cpfontU32(local,22,data.length);
+      cpfontU16(local,26,name.length);local.set(name,30);parts.push(local,data);total+=local.length+data.length;
+      var cd=new Uint8Array(46+name.length);
+      cpfontU32(cd,0,0x02014b50);cpfontU16(cd,4,20);cpfontU16(cd,6,20);cpfontU16(cd,8,0x800);
+      cpfontU32(cd,16,crc);cpfontU32(cd,20,data.length);cpfontU32(cd,24,data.length);
+      cpfontU16(cd,28,name.length);cpfontU32(cd,42,offset);cd.set(name,46);central.push(cd);offset+=local.length+data.length;
+    });
+    var centralSize=central.reduce(function(n,x){return n+x.length},0),end=new Uint8Array(22);
+    cpfontU32(end,0,0x06054b50);cpfontU16(end,8,files.length);cpfontU16(end,10,files.length);
+    cpfontU32(end,12,centralSize);cpfontU32(end,16,total);
+    return new Blob(parts.concat(central,[end]),{type:'application/zip'});
+  }
+  function cpfontDownloadDirect(f){
+    var a=document.createElement('a');a.href=CPFONT_WORKER_URL+'/download/'+encodeURIComponent(f.id);
+    a.download=f.name||'font';a.rel='noopener';document.body.appendChild(a);a.click();a.remove();
+  }
+  async function cpfontDownloadSelected(items,folderName){
+    if(!items.length)return;
+    if(items.length===1){cpfontDownloadDirect(items[0]);return;}
+    var button=document.getElementById('cpfontDownloadZip'),old=button?button.textContent:'Download';
+    if(button){button.disabled=true;button.textContent='Đang tạo ZIP…';}
+    try{
+      var data=[];
+      for(var i=0;i<items.length;i++){
+        if(button)button.textContent='Đang tải '+(i+1)+'/'+items.length+'…';
+        var r=await fetch(CPFONT_WORKER_URL+'/download/'+encodeURIComponent(items[i].id),{cache:'no-store'});
+        if(!r.ok)throw new Error('Download Worker HTTP '+r.status);
+        data.push({path:cpfontZipName(folderName)+'/'+String(items[i].name||'font'),bytes:await r.arrayBuffer()});
+      }
+      var blob=cpfontZip(data),url=URL.createObjectURL(blob),a=document.createElement('a');
+      a.href=url;a.download=cpfontZipName(folderName)+'.zip';document.body.appendChild(a);a.click();a.remove();
+      setTimeout(function(){URL.revokeObjectURL(url)},1000);
+    }catch(e){console.error('[Font download]',e);alert('Không thể tạo ZIP: '+(e.message||e));}
+    finally{if(button){button.disabled=false;button.textContent=old;}}
+  }
+  function cpfontOpenDownloadMenu(f,anchor){
+    var old=document.getElementById('cpfontDownloadMenu');if(old)old.remove();
+    var files=cpfontFolderFiles(f),b=currentBranch(),parent=findFile(b,f.parent_id);
+    var folderName=parent?parent.name:(b&&b.display_name)||'Font';
+    var menu=document.createElement('div');menu.id='cpfontDownloadMenu';menu.className='cpfont-download-menu';
+    var html='<div class="cpfont-download-menu-title">'+escFontName(folderName)+'</div>';
+    if(!files.length)html+='<div class="cpfont-download-empty">Không tìm thấy font trong tủ này.</div>';
+    else{
+      files.forEach(function(x){html+='<label class="cpfont-download-item"><input type="checkbox" data-font-id="'+escFontName(x.id)+'"'+(x.id===f.id?' checked':'')+'><span>'+escFontName(x.name)+'</span></label>';});
+      html+='<div class="cpfont-download-foot"><span id="cpfontDownloadCount">1 file</span><button type="button" id="cpfontDownloadZip">Download</button></div>';
+    }
+    menu.innerHTML=html;document.getElementById('cpfontWindow').appendChild(menu);
+    function selected(){var ids={};menu.querySelectorAll('input[data-font-id]:checked').forEach(function(c){ids[c.dataset.fontId]=true;});return files.filter(function(x){return !!ids[x.id];});}
+    menu.querySelectorAll('input[data-font-id]').forEach(function(c){c.addEventListener('change',function(){var n=selected().length,el=document.getElementById('cpfontDownloadCount');if(el)el.textContent=n+' file'+(n===1?'':'s');});});
+    var dl=document.getElementById('cpfontDownloadZip');if(dl)dl.addEventListener('click',function(){var chosen=selected();if(chosen.length)cpfontDownloadSelected(chosen,folderName);});
+    setTimeout(function(){function outside(e){if(!menu.contains(e.target)&&e.target!==anchor){menu.remove();document.removeEventListener('click',outside);}}document.addEventListener('click',outside);},0);
+  }
+
   async function showCPFontPreview(f){
     if(!fontPreviewIsFile(f))return;cpfontClose();var isCP=cpfontIsFile(f),downloadUrl=CPFONT_WORKER_URL+'/download/'+encodeURIComponent(f.id);
     var w=document.createElement('div');w.id='cpfontWindow';w.className='cpfont-window';
     w.innerHTML='<div class="cpfont-window-box">' +
-      '<div class="cpfont-window-head"><div id="cpfontWindowTitle">Đang tải '+escFontName(f.name)+'…</div><div class="cpfont-head-actions"><a class="cpfont-download" href="'+downloadUrl+'" target="_blank" rel="noopener">Download</a><button type="button" class="cpfont-close" aria-label="Đóng">×</button></div></div>'+
+      '<div class="cpfont-window-head"><div id="cpfontWindowTitle">Đang tải '+escFontName(f.name)+'…</div><div class="cpfont-head-actions"><button type="button" class="cpfont-download" id="cpfontDownloadButton">Download</button><button type="button" class="cpfont-close" aria-label="Đóng">×</button></div></div>'+
       '<div class="cpfont-render-area"><div class="cpfont-loading" id="cpfontLoading">Đang tải '+(isCP?'CPFont':'font')+'…</div><canvas id="cpfontCanvas" class="cpfont-canvas"></canvas></div>'+
       '<div class="cpfont-controls"><button type="button" class="cpfont-device-btn" data-device="1">X3<small>528 × 792</small></button><button type="button" class="cpfont-device-btn cpfont-device-active" data-device="0">X4<small>480 × 800</small></button></div></div>';
-    document.body.appendChild(w);w.querySelector('.cpfont-close').addEventListener('click',cpfontClose);w.querySelectorAll('.cpfont-device-btn').forEach(function(b){b.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();cpfontSelectDevice(Number(b.dataset.device));});});w.addEventListener('click',function(e){if(e.target===w)cpfontClose();});
+    document.body.appendChild(w);w.querySelector('.cpfont-close').addEventListener('click',cpfontClose);w.querySelector('#cpfontDownloadButton').addEventListener('click',function(e){e.preventDefault();e.stopPropagation();cpfontOpenDownloadMenu(f,e.currentTarget);});w.querySelectorAll('.cpfont-device-btn').forEach(function(b){b.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();cpfontSelectDevice(Number(b.dataset.device));});});w.addEventListener('click',function(e){if(e.target===w)cpfontClose();});
     CPFONT_STATE.file=f;CPFONT_STATE.bytes=null;CPFONT_STATE.busy=false;CPFONT_STATE.device=0;CPFONT_STATE.token++;
     try{
       var r=await fetch(CPFONT_WORKER_URL+'/download/'+encodeURIComponent(f.id),{method:'GET',cache:'no-store'});if(!r.ok)throw new Error('Download Worker HTTP '+r.status);var bytes=await r.arrayBuffer();
@@ -103,7 +186,7 @@ css = (
     ".cpfont-window{position:fixed;inset:0;z-index:99999;display:flex;align-items:center;justify-content:center;padding:8px;box-sizing:border-box;background:rgba(0,0,0,.35)}"
     ".cpfont-window-box{width:min(620px,calc(100vw - 16px));max-height:calc(100vh - 16px);display:flex;flex-direction:column;overflow:hidden;background:#c0c0c0;color:#000;font-family:Arial,sans-serif;border:2px solid #fff;border-right-color:#404040;border-bottom-color:#404040;box-sizing:border-box}"
     ".cpfont-window-head{flex:0 0 auto;min-height:36px;display:flex;align-items:center;justify-content:space-between;gap:7px;padding:3px 5px 3px 8px;background:#d8d8d8;border-bottom:1px solid #808080;font-size:14px;font-weight:700;box-sizing:border-box}"
-    ".cpfont-head-actions{display:flex;align-items:center;gap:8px;white-space:nowrap}.cpfont-download{color:#000;text-decoration:underline;font-weight:700;font-size:13px}"
+    ".cpfont-head-actions{display:flex;align-items:center;gap:8px;white-space:nowrap}.cpfont-download{color:#000;text-decoration:underline;font-weight:700;font-size:13px;background:none;border:0;padding:0;cursor:pointer;font:700 13px Arial,sans-serif}.cpfont-download-menu{position:absolute;top:42px;right:42px;width:min(360px,calc(100vw - 30px));max-height:65vh;overflow:auto;z-index:3;background:#fff;color:#000;border:2px solid #555;box-shadow:2px 2px 0 #000;padding:6px;box-sizing:border-box}.cpfont-download-menu-title{font-weight:700;padding:4px 5px 7px;border-bottom:1px solid #aaa;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.cpfont-download-item{display:flex;align-items:center;gap:7px;padding:6px 4px;cursor:pointer;border-bottom:1px dotted #bbb;font-weight:400}.cpfont-download-item:hover{background:#eee}.cpfont-download-item input{margin:0;flex:0 0 auto}.cpfont-download-item span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.cpfont-download-empty{padding:10px 5px;color:#555}.cpfont-download-foot{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:7px 2px 2px;font-size:12px;font-weight:700}.cpfont-download-foot button{height:30px;min-width:100px;padding:2px 10px;background:#c0c0c0;color:#000;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;font-weight:700;cursor:pointer}.cpfont-download-foot button:active{border-color:#555;border-right-color:#fff;border-bottom-color:#fff}.cpfont-download-foot button:disabled{color:#777;cursor:default}"
     ".cpfont-close{width:29px;height:29px;padding:0;flex:0 0 29px;font-size:21px;line-height:24px;font-weight:700;background:#c0c0c0;color:#000;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;cursor:pointer}"
     ".cpfont-close:active{border-color:#555;border-right-color:#fff;border-bottom-color:#fff}.cpfont-render-area{min-height:0;flex:1 1 auto;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:3px;background:#c0c0c0;box-sizing:border-box}"
     ".cpfont-canvas{display:block;width:auto;height:auto;max-width:100%;max-height:calc(100vh - 105px);background:#fff;border:1px solid #555;box-sizing:border-box;image-rendering:pixelated}.cpfont-loading{position:absolute;padding:6px 9px;background:#ffffcc;border:1px solid #808080;font-size:13px;font-weight:700}"
