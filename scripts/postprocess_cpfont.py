@@ -27,10 +27,10 @@ inject = r'''
   var CPFONT_STATE = {file:null, bytes:null, busy:false, token:0, device:0, browserUrl:null, browserFamily:null};
 
   function fontPreviewIsFile(f){
-    return !!f && !f.folder && /\\.(cpfont|ttf|otf)$/i.test(String(f.name||'')) && Number(f.size||0)<=25*1024*1024;
+    return !!f && !f.folder && /\.(cpfont|ttf|otf)$/i.test(String(f.name||'')) && Number(f.size||0)<=25*1024*1024;
   }
   function cpfontIsFile(f){
-    return !!f && !f.folder && /\\.cpfont$/i.test(String(f.name||'')) && Number(f.size||0)<=25*1024*1024;
+    return !!f && !f.folder && /\.cpfont$/i.test(String(f.name||'')) && Number(f.size||0)<=25*1024*1024;
   }
   function escFontName(s){return String(s||'').replace(/[&<>\"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c];});}
   function cpfontImports(){return {wasi_snapshot_preview1:{fd_close:function(){return 0},fd_seek:function(){return 0n},fd_write:function(){return 0}}};}
