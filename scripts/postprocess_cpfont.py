@@ -17,7 +17,7 @@ inject = r'''
   var CPFONT_WASM_URL = __WASM_URL__;
   var CPFONT_WORKER_URL = __WORKER_URL__;
   var CPFONT_SAMPLE =
-    'Buổi sáng hôm nay, mùa đông đột nhiên đến, không báo trước. Vừa mới ngày hôm qua giời hãy còn nắng ấm và hanh, cái nắng về cuối tháng mười làm nứt nẻ đất ruộng, và làm giòn khô những chiếc lá rơi. Sơn và chị chơi cỏ gà ở ngoài cánh đồng còn thấy nóng bức, chảy mồ hôi.\\n\\n' +
+    'Buổi sáng hôm nay, mùa đông đột nhiên đến, không báo trước. Vừa mới ngày hôm qua giời hãy còn nắng ấm và hanh, cái nắng về cuối tháng mười làm nứt nẻ đất ruộng, và làm giòn khô những chiếc lá rơi. Sơn và chị chơi cỏ gà ở ngoài cánh đồng còn thấy nóng bức, chảy mồ hôi.\n\n' +
     'Thế mà qua một đêm mưa rào, trời bỗng đổi ra gió bấc, rồi cái lạnh ở đâu đến làm cho người ta tưởng đang ở giữa mùa đông rét mướt. Sơn tung chăn tỉnh dậy, nhưng không bước xuống giường ngay như mọi khi, còn ngồi thu tay vào trong bọc, bên cạnh đứa em bé vẫn nắm tay ngủ kỹ. Chị Sơn và mẹ Sơn đã trở dậy, đang ngồi quạt hỏa lò để pha nước chè uống. Sơn nhìn thấy mọi người đã mặc áo rét cả rồi.';
 
   var CPFONT_DEVICES = [
@@ -49,7 +49,7 @@ inject = r'''
       ex.rc_init();if(!ex.rc_set_device(d.id))throw new Error('Không chọn được '+d.name);
       var bytes=new Uint8Array(CPFONT_STATE.bytes),ptr=ex.malloc(bytes.length);new Uint8Array(mem.buffer,ptr,bytes.length).set(bytes);
       if(!ex.rc_font_load(ptr,bytes.length))throw new Error('File CPFont không hợp lệ');
-      ex.rc_page_set_spec(5,0,0,1,100);var tb=new TextEncoder().encode(CPFONT_SAMPLE+'\\0'),tp=ex.malloc(tb.length);new Uint8Array(mem.buffer,tp,tb.length).set(tb);
+      ex.rc_page_set_spec(5,0,0,1,100);var tb=new TextEncoder().encode(CPFONT_SAMPLE+'\0'),tp=ex.malloc(tb.length);new Uint8Array(mem.buffer,tp,tb.length).set(tb);
       var lines=ex.rc_page_render(tp,0,0,0,0xFF);if(lines<0)throw new Error('CrossPoint render thất bại');
       var pw=ex.rc_panel_width(),ph=ex.rc_panel_height(),sw=ex.rc_screen_width(),sh=ex.rc_screen_height();
       var fb=new Uint8Array(mem.buffer,ex.rc_framebuffer(),ex.rc_framebuffer_size()),image=new ImageData(sw,sh);
