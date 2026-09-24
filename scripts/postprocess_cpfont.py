@@ -72,7 +72,7 @@ inject = r'''
       var pw=ex.rc_panel_width(),ph=ex.rc_panel_height(),sw=ex.rc_screen_width(),sh=ex.rc_screen_height();
       var fb=new Uint8Array(mem.buffer,ex.rc_framebuffer(),ex.rc_framebuffer_size()), image=new ImageData(sw,sh);
       for(var y=0;y<sh;y++)for(var x=0;x<sw;x++){
-        var phyX=y,phyY=ph-1-x,bit=phyY*pw+phyX,on=(fb[bit>>3]&(0x80>>(bit&7)))!==0,v=on?0:255,i=(y*sw+x)*4;
+        var phyX=y,phyY=ph-1-x,bit=phyY*pw+phyX,on=(fb[bit>>3]&(0x80>>(bit&7)))!==0,v=on?255:0,i=(y*sw+x)*4;
         image.data[i]=v;image.data[i+1]=v;image.data[i+2]=v;image.data[i+3]=255;
       }
       if(token!==CPFONT_STATE.token)return;
