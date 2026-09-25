@@ -142,7 +142,7 @@ func isSupportedBook(f File) bool {
 		return false
 	}
 	switch strings.ToLower(filepath.Ext(f.Name)) {
-	case ".epub", ".mobi", ".azw3", ".cpfont":
+	case ".epub", ".mobi", ".azw3", ".cpfont", ".ttf", ".otf":
 		return true
 	default:
 		return false
