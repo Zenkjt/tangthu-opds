@@ -9,776 +9,28 @@
  *   TANGTHU_GOOGLE_API_KEY
  *   TANGTHU_GITHUB_TOKEN
  *
- * The browser currently uses only GET?action=check.
- * Mutation functions are already implemented here and will be wired to the
- * UI after the check endpoint is verified on the live GitHub Pages site.
+ * Drive change polling:
+ *   Run setupDriveChangeTrigger() once manually.
+ *   It creates a 30-minute time-driven trigger for driveCheck().
+ *
+ * Drive Changes API uses a persistent pageToken stored in
+ * Script Properties. Apps Script only detects that Drive changed;
+ * GitHub Actions remains responsible for rebuilding the catalog.
  */
 
 var REPO_OWNER = 'Zenkjt';
 var REPO_NAME = 'tangthu-opds';
 var REPO_BRANCH = 'main';
 var CONFIG_PATH = 'config/branches.json';
+
 var MUTATION_COOLDOWN_MS = 24 * 60 * 60 * 1000;
 
-var DRIVE_SNAPSHOT_KEY = 'TANGTHU_DRIVE_SNAPSHOT_V1';
-var DRIVE_SYNC_LOCK_MS = 30000;
-var DRIVE_LIST_PAGE_SIZE = 1000;
-var GITHUB_DISPATCH_EVENT = 'drive_changed';
-
-
-/**
- * Tạo / thay thế trigger driveCheck mỗi 30 phút.
- *
- * Đồng thời tạo baseline snapshot hiện tại.
- * Từ đây trở đi driveCheck không dùng Drive Changes API nữa.
- */
-function setupDriveChangeTrigger() {
-
-  var lock = LockService.getScriptLock();
-  lock.waitLock(DRIVE_SYNC_LOCK_MS);
-
-  try {
-
-    var triggers = ScriptApp.getProjectTriggers();
-
-    for (var i = 0; i < triggers.length; i++) {
-
-      if (
-        triggers[i].getHandlerFunction() === 'driveCheck'
-      ) {
-        ScriptApp.deleteTrigger(triggers[i]);
-      }
-    }
-
-    var config = readConfig_();
-
-    var snapshot =
-      buildDriveSnapshot_(config);
-
-    saveDriveSnapshot_(snapshot);
-
-    /*
-     * Xóa checkpoint cũ của kiến trúc Drive Changes API
-     * nếu nó còn tồn tại trong Script Properties.
-     */
-    PropertiesService
-      .getScriptProperties()
-      .deleteProperty(
-        'TANGTHU_DRIVE_CHANGE_PAGE_TOKEN'
-      );
-
-    ScriptApp
-      .newTrigger('driveCheck')
-      .timeBased()
-      .everyMinutes(30)
-      .create();
-
-    return {
-      ok: true,
-      trigger: 'driveCheck',
-      interval_minutes: 30,
-      branches: Object.keys(snapshot).length
-    };
-
-  } finally {
-
-    lock.releaseLock();
-
-  }
-}
-
-
-/**
- * Kiểm tra toàn bộ các tủ đã đăng ký.
- *
- * Cơ chế:
- *
- *   Google Drive files.list
- *          ↓
- *   fingerprint từng tủ
- *          ↓
- *   so với snapshot lần trước
- *          ↓
- *   khác → GitHub repository_dispatch
- *
- * Không dùng Drive Changes API.
- */
-function driveCheck() {
-
-  var lock = LockService.getScriptLock();
-
-  if (
-    !lock.tryLock(
-      DRIVE_SYNC_LOCK_MS
-    )
-  ) {
-    return {
-      ok: false,
-      skipped: true,
-      reason: 'Một lần driveCheck khác đang chạy.'
-    };
-  }
-
-  try {
-
-    var config = readConfig_();
-
-    var currentSnapshot =
-      buildDriveSnapshot_(config);
-
-    var previousSnapshot =
-      loadDriveSnapshot_();
-
-    /*
-     * Lần đầu chưa có baseline:
-     * chỉ lưu snapshot, không build.
-     */
-    if (!previousSnapshot) {
-
-      saveDriveSnapshot_(
-        currentSnapshot
-      );
-
-      return {
-        ok: true,
-        initialized: true,
-        changed: false,
-        branches:
-          Object.keys(currentSnapshot).length
-      };
-    }
-
-
-    /*
-     * Chỉ so sánh những branch tồn tại ở cả hai snapshot.
-     *
-     * Branch mới / branch bị xóa / branch đổi tên:
-     * đã được xử lý bởi writeConfig_() và GitHub push.
-     *
-     * Không dispatch thêm một build trùng.
-     */
-    var changedBranches =
-      [];
-
-    var currentIds =
-      Object.keys(currentSnapshot);
-
-    for (
-      var i = 0;
-      i < currentIds.length;
-      i++
-    ) {
-
-      var branchId =
-        currentIds[i];
-
-      if (
-        !previousSnapshot.hasOwnProperty(
-          branchId
-        )
-      ) {
-        continue;
-      }
-
-      if (
-        currentSnapshot[branchId] !==
-        previousSnapshot[branchId]
-      ) {
-
-        changedBranches.push(
-          branchId
-        );
-      }
-    }
-
-
-    if (!changedBranches.length) {
-
-      saveDriveSnapshot_(
-        currentSnapshot
-      );
-
-      return {
-        ok: true,
-        changed: false,
-        branches:
-          currentIds.length
-      };
-    }
-
-
-    /*
-     * Có thay đổi thực sự trong nội dung / metadata
-     * của ít nhất một tủ.
-     */
-    dispatchGitHubBuild_(
-      changedBranches
-    );
-
-    /*
-     * Chỉ cập nhật baseline sau khi GitHub dispatch
-     * thành công. Nếu dispatch lỗi, lần chạy sau sẽ
-     * thử lại.
-     */
-    saveDriveSnapshot_(
-      currentSnapshot
-    );
-
-    return {
-      ok: true,
-      changed: true,
-      dispatched: true,
-      changed_branches:
-        changedBranches,
-      branches:
-        currentIds.length
-    };
-
-  } finally {
-
-    lock.releaseLock();
-
-  }
-}
-
-
-/**
- * Tạo snapshot fingerprint cho tất cả branch đang
- * được bật.
- */
-function buildDriveSnapshot_(config) {
-
-  var apiKey =
-    PropertiesService
-      .getScriptProperties()
-      .getProperty(
-        'TANGTHU_GOOGLE_API_KEY'
-      );
-
-  if (!apiKey) {
-
-    throw new Error(
-      'Apps Script chưa được cấu hình TANGTHU_GOOGLE_API_KEY.'
-    );
-  }
-
-
-  var snapshot = {};
-
-
-  for (
-    var i = 0;
-    i < config.branches.length;
-    i++
-  ) {
-
-    var branch =
-      config.branches[i];
-
-    if (!branch.enabled) {
-      continue;
-    }
-
-
-    var scan =
-      scanDriveBranch_(
-        branch.root_folder_id,
-        apiKey
-      );
-
-
-    if (!scan.ok) {
-
-      throw new Error(
-        'Không thể quét tủ "' +
-        branch.display_name +
-        '" (' +
-        branch.root_folder_id +
-        '): ' +
-        scan.error
-      );
-    }
-
-
-    snapshot[
-      String(branch.id)
-    ] =
-      fingerprintDriveItems_(
-        scan.items
-      );
-  }
-
-
-  return snapshot;
-}
-
-
-/**
- * Quét đệ quy toàn bộ cây bên dưới một root folder.
- *
- * Không tải nội dung sách.
- * Chỉ lấy metadata:
- * id, parent, name, mimeType, size,
- * modifiedTime, createdTime, checksum.
- */
-function scanDriveBranch_(
-  rootFolderId,
-  apiKey
-) {
-
-  var queue =
-    [String(rootFolderId)];
-
-  var visited = {};
-
-  var items = [];
-
-
-  while (queue.length) {
-
-    var folderId =
-      queue.shift();
-
-    if (
-      visited[folderId]
-    ) {
-      continue;
-    }
-
-    visited[folderId] = true;
-
-
-    var result =
-      listDriveFolder_(
-        folderId,
-        apiKey
-      );
-
-
-    if (!result.ok) {
-      return result;
-    }
-
-
-    var files =
-      result.files;
-
-
-    for (
-      var i = 0;
-      i < files.length;
-      i++
-    ) {
-
-      var file =
-        files[i];
-
-
-      items.push({
-
-        id:
-          String(file.id || ''),
-
-        parent:
-          folderId,
-
-        name:
-          String(file.name || ''),
-
-        mime:
-          String(file.mimeType || ''),
-
-        size:
-          String(
-            file.size == null
-              ? ''
-              : file.size
-          ),
-
-        modified:
-          String(
-            file.modifiedTime || ''
-          ),
-
-        created:
-          String(
-            file.createdTime || ''
-          ),
-
-        checksum:
-          String(
-            file.md5Checksum || ''
-          ),
-
-        folder:
-          file.mimeType ===
-          'application/vnd.google-apps.folder'
-
-      });
-
-
-      if (
-        file.mimeType ===
-        'application/vnd.google-apps.folder'
-      ) {
-
-        queue.push(
-          String(file.id)
-        );
-      }
-    }
-  }
-
-
-  return {
-    ok: true,
-    items: items
-  };
-}
-
-
-/**
- * files.list cho đúng một folder.
- *
- * Tàng Thư sử dụng API key vì các tủ sách MVP
- * là các folder Google Drive được chia sẻ công khai.
- */
-function listDriveFolder_(
-  folderId,
-  apiKey
-) {
-
-  var allFiles = [];
-  var pageToken = '';
-
-
-  do {
-
-    var url =
-      'https://www.googleapis.com/drive/v3/files' +
-      '?q=' +
-      encodeURIComponent(
-        "'" +
-        folderId +
-        "' in parents and trashed = false"
-      ) +
-      '&pageSize=' +
-      DRIVE_LIST_PAGE_SIZE +
-      '&supportsAllDrives=true' +
-      '&includeItemsFromAllDrives=true' +
-      '&fields=' +
-      encodeURIComponent(
-        'nextPageToken,' +
-        'files(' +
-          'id,' +
-          'name,' +
-          'mimeType,' +
-          'size,' +
-          'createdTime,' +
-          'modifiedTime,' +
-          'md5Checksum' +
-        ')'
-      ) +
-      '&key=' +
-      encodeURIComponent(apiKey);
-
-
-    var response =
-      UrlFetchApp.fetch(
-        url,
-        {
-          method: 'get',
-          muteHttpExceptions: true,
-          headers: {
-            Accept:
-              'application/json'
-          }
-        }
-      );
-
-
-    var status =
-      response.getResponseCode();
-
-    var body =
-      JSON.parse(
-        response.getContentText() || '{}'
-      );
-
-
-    if (status !== 200) {
-
-      return {
-        ok: false,
-        http_status: status,
-        error:
-          body.error &&
-          body.error.message
-            ? body.error.message
-            : response.getContentText()
-      };
-    }
-
-
-    var files =
-      body.files || [];
-
-
-    for (
-      var i = 0;
-      i < files.length;
-      i++
-    ) {
-
-      allFiles.push(
-        files[i]
-      );
-    }
-
-
-    pageToken =
-      body.nextPageToken
-        ? String(
-            body.nextPageToken
-          )
-        : '';
-
-  } while (pageToken);
-
-
-  return {
-    ok: true,
-    files: allFiles
-  };
-}
-
-
-/**
- * Fingerprint ổn định cho toàn bộ cây.
- *
- * Bao gồm cả folder và file, nên các thay đổi:
- * - thêm
- * - xóa
- * - đổi tên
- * - sửa file
- * - di chuyển
- * - đổi MIME / size / checksum
- *
- * đều làm fingerprint thay đổi.
- */
-function fingerprintDriveItems_(
-  items
-) {
-
-  var rows = [];
-
-
-  for (
-    var i = 0;
-    i < items.length;
-    i++
-  ) {
-
-    var f =
-      items[i];
-
-    rows.push(
-      [
-        f.id,
-        f.parent,
-        f.folder ? 'D' : 'F',
-        f.name,
-        f.mime,
-        f.size,
-        f.created,
-        f.modified,
-        f.checksum
-      ].join('\t')
-    );
-  }
-
-
-  rows.sort();
-
-  var canonical =
-    rows.join('\n');
-
-
-  var digest =
-    Utilities.computeDigest(
-      Utilities.DigestAlgorithm.SHA_256,
-      canonical,
-      Utilities.Charset.UTF_8
-    );
-
-
-  var hex = '';
-
-  for (
-    var j = 0;
-    j < digest.length;
-    j++
-  ) {
-
-    var value =
-      digest[j];
-
-    if (value < 0) {
-      value += 256;
-    }
-
-    var h =
-      value.toString(16);
-
-    if (h.length < 2) {
-      h = '0' + h;
-    }
-
-    hex += h;
-  }
-
-
-  return hex;
-}
-
-
-/**
- * Snapshot chỉ chứa fingerprint theo branch,
- * nên rất nhỏ và không chạm giới hạn 9 KB/value
- * của Apps Script Properties.
- */
-function loadDriveSnapshot_() {
-
-  var raw =
-    PropertiesService
-      .getScriptProperties()
-      .getProperty(
-        DRIVE_SNAPSHOT_KEY
-      );
-
-
-  if (!raw) {
-    return null;
-  }
-
-
-  try {
-
-    var value =
-      JSON.parse(raw);
-
-    if (
-      !value ||
-      typeof value !== 'object'
-    ) {
-      return null;
-    }
-
-    return value;
-
-  } catch (err) {
-
-    throw new Error(
-      'Snapshot Drive bị hỏng: ' +
-      String(err)
-    );
-  }
-}
-
-
-function saveDriveSnapshot_(
-  snapshot
-) {
-
-  PropertiesService
-    .getScriptProperties()
-    .setProperty(
-      DRIVE_SNAPSHOT_KEY,
-      JSON.stringify(snapshot)
-    );
-}
-
-
-/**
- * Gửi GitHub repository_dispatch.
- *
- * pageToken không còn dùng nữa; payload mới
- * chứa danh sách branch thay đổi.
- */
-function dispatchGitHubBuild_(
-  changedBranches
-) {
-
-  var token =
-    githubToken_();
-
-
-  var url =
-    'https://api.github.com/repos/' +
-    encodeURIComponent(
-      REPO_OWNER
-    ) +
-    '/' +
-    encodeURIComponent(
-      REPO_NAME
-    ) +
-    '/dispatches';
-
-
-  var payload = {
-
-    event_type:
-      GITHUB_DISPATCH_EVENT,
-
-    client_payload: {
-
-      source:
-        'tangthu-apps-script',
-
-      changed_branches:
-        changedBranches,
-
-      dispatched_at:
-        new Date().toISOString()
-    }
-  };
-
-
-  var response =
-    UrlFetchApp.fetch(
-      url,
-      {
-        method: 'post',
-        muteHttpExceptions: true,
-        contentType:
-          'application/json',
-
-        payload:
-          JSON.stringify(
-            payload
-          ),
-
-        headers:
-          githubHeaders_(token)
-      }
-    );
-
-
-  var status =
-    response.getResponseCode();
-
-
-  if (status !== 204) {
-
-    throw new Error(
-      'GitHub repository_dispatch thất bại: HTTP ' +
-      status +
-      ' ' +
-      response.getContentText()
-    );
-  }
-}
-
+var DRIVE_CHANGE_TOKEN_KEY = 'TANGTHU_DRIVE_CHANGE_PAGE_TOKEN';
+var DRIVE_CHANGE_LOCK_KEY = 'TANGTHU_DRIVE_CHANGE_LOCK';
+
+// -----------------------------------------------------------------------------
+// Web app
+// -----------------------------------------------------------------------------
 
 function doGet(e) {
   var action = String((e && e.parameter && e.parameter.action) || '').trim().toLowerCase();
@@ -813,6 +65,222 @@ function doPost(e) {
     });
   }
 }
+
+// -----------------------------------------------------------------------------
+// Drive change trigger
+// -----------------------------------------------------------------------------
+
+/**
+ * Run once manually from the Apps Script editor.
+ * Existing TÀNG THƯ drive-check triggers are removed first.
+ */
+function setupDriveChangeTrigger() {
+  var triggers = ScriptApp.getProjectTriggers();
+
+  for (var i = 0; i < triggers.length; i++) {
+    if (triggers[i].getHandlerFunction() === 'driveCheck') {
+      ScriptApp.deleteTrigger(triggers[i]);
+    }
+  }
+
+  ScriptApp.newTrigger('driveCheck')
+    .timeBased()
+    .everyMinutes(30)
+    .create();
+
+  Logger.log('TÀNG THƯ: Drive change trigger installed (30 minutes).');
+}
+
+/**
+ * Poll Google Drive Changes API.
+ *
+ * This function does NOT build the catalog and does NOT scan ebook files.
+ * It only answers: "Has this Drive changed since the last checkpoint?"
+ *
+ * If yes, dispatch GitHub Actions. The checkpoint advances only after
+ * the dispatch succeeds.
+ *
+ * The first run creates a baseline token and deliberately does not build.
+ */
+function driveCheck() {
+  var lock = LockService.getScriptLock();
+
+  if (!lock.tryLock(5000)) {
+    Logger.log('TÀNG THƯ: driveCheck skipped because another check is running.');
+    return;
+  }
+
+  try {
+    var props = PropertiesService.getScriptProperties();
+    var token = props.getProperty(DRIVE_CHANGE_TOKEN_KEY);
+
+    if (!token) {
+      var startToken = getDriveStartPageToken_();
+      props.setProperty(DRIVE_CHANGE_TOKEN_KEY, startToken);
+      Logger.log('TÀNG THƯ: Drive change baseline initialized.');
+      return;
+    }
+
+    var result = listDriveChanges_(token);
+
+    if (!result.ok) {
+      throw new Error(result.error);
+    }
+
+    if (!result.changed) {
+      if (result.new_start_page_token) {
+        props.setProperty(
+          DRIVE_CHANGE_TOKEN_KEY,
+          result.new_start_page_token
+        );
+      }
+
+      Logger.log('TÀNG THƯ: no Drive changes.');
+      return;
+    }
+
+    // Do not advance the token until GitHub dispatch succeeds.
+    dispatchCatalogBuild_();
+
+    if (result.new_start_page_token) {
+      props.setProperty(
+        DRIVE_CHANGE_TOKEN_KEY,
+        result.new_start_page_token
+      );
+    }
+
+    Logger.log('TÀNG THƯ: Drive changed; GitHub Actions dispatched.');
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function getDriveStartPageToken_() {
+  var url =
+    'https://www.googleapis.com/drive/v3/changes/startPageToken' +
+    '?spaces=drive';
+
+  var response = driveOAuthFetch_(url);
+  var status = response.getResponseCode();
+  var body = parseJson_(response);
+
+  if (status !== 200 || !body.startPageToken) {
+    throw new Error(
+      'Drive startPageToken thất bại: HTTP ' + status +
+      ' ' + JSON.stringify(body)
+    );
+  }
+
+  return String(body.startPageToken);
+}
+
+function listDriveChanges_(pageToken) {
+  var nextToken = String(pageToken);
+  var changed = false;
+  var newestStartToken = null;
+
+  while (nextToken) {
+    var url =
+      'https://www.googleapis.com/drive/v3/changes' +
+      '?pageToken=' + encodeURIComponent(nextToken) +
+      '&spaces=drive' +
+      '&restrictToMyDrive=true' +
+      '&includeRemoved=true' +
+      '&pageSize=1000' +
+      '&fields=nextPageToken,newStartPageToken,changes(fileId,removed,file(id,name,mimeType,trashed,parents,modifiedTime))';
+
+    var response = driveOAuthFetch_(url);
+    var status = response.getResponseCode();
+    var body = parseJson_(response);
+
+    if (status !== 200) {
+      return {
+        ok: false,
+        error:
+          'Drive changes.list thất bại: HTTP ' + status +
+          ' ' + JSON.stringify(body)
+      };
+    }
+
+    var changes = body.changes || [];
+    if (changes.length > 0) {
+      changed = true;
+    }
+
+    if (body.newStartPageToken) {
+      newestStartToken = String(body.newStartPageToken);
+    }
+
+    nextToken = body.nextPageToken
+      ? String(body.nextPageToken)
+      : null;
+  }
+
+  return {
+    ok: true,
+    changed: changed,
+    new_start_page_token: newestStartToken
+  };
+}
+
+function dispatchCatalogBuild_() {
+  var token = githubToken_();
+
+  // workflow_dispatch needs Actions: write permission on a fine-grained token.
+  var url =
+    'https://api.github.com/repos/' +
+    encodeURIComponent(REPO_OWNER) + '/' +
+    encodeURIComponent(REPO_NAME) +
+    '/actions/workflows/cloudflare.yml/dispatches';
+
+  var payload = {
+    ref: REPO_BRANCH
+  };
+
+  var response = UrlFetchApp.fetch(url, {
+    method: 'post',
+    muteHttpExceptions: true,
+    contentType: 'application/json',
+    payload: JSON.stringify(payload),
+    headers: githubHeaders_(token)
+  });
+
+  var status = response.getResponseCode();
+
+  if (status !== 204) {
+    throw new Error(
+      'GitHub Actions dispatch thất bại: HTTP ' + status +
+      ' ' + response.getContentText()
+    );
+  }
+}
+
+function driveOAuthFetch_(url) {
+  return UrlFetchApp.fetch(url, {
+    method: 'get',
+    muteHttpExceptions: true,
+    headers: {
+      Authorization: 'Bearer ' + ScriptApp.getOAuthToken(),
+      Accept: 'application/json'
+    }
+  });
+}
+
+function parseJson_(response) {
+  var text = response.getContentText() || '{}';
+
+  try {
+    return JSON.parse(text);
+  } catch (err) {
+    return {
+      raw: text
+    };
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Shelf registry / mutation
+// -----------------------------------------------------------------------------
 
 function checkFolder_(driveUrl) {
   var folderId = parseDriveId_(driveUrl);
@@ -910,7 +378,7 @@ function mutate_(action, body) {
         folder_id: folderId,
         folder_name: folder.name,
         display_name: displayName,
-        next_mutation_at: new Date(now.getTime() + MUTATION_COOLDOWN_MS).toISOString()
+        next_mutation_at: nextMutationAt_(nowIso)
       };
     }
 
@@ -947,7 +415,7 @@ function mutate_(action, body) {
         folder_id: folderId,
         folder_name: folder.name,
         display_name: newName,
-        next_mutation_at: new Date(now.getTime() + MUTATION_COOLDOWN_MS).toISOString()
+        next_mutation_at: nextMutationAt_(nowIso)
       };
     }
 
@@ -1092,8 +560,10 @@ function writeConfig_(config, message) {
 
   var status = response.getResponseCode();
   if (status !== 200 && status !== 201) {
-    throw new Error('GitHub ghi branches.json thất bại: HTTP ' + status +
-      ' ' + response.getContentText());
+    throw new Error(
+      'GitHub ghi branches.json thất bại: HTTP ' + status +
+      ' ' + response.getContentText()
+    );
   }
 }
 
