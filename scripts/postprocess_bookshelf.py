@@ -67,13 +67,24 @@ renderer = r'''  function renderShelfStats(){
     function shelfFiles(shelf){return filesOf(shelf).filter(function(f){return !f.folder;});}
     function extension(name){var p=String(name||'').lastIndexOf('.');return p<0?'':String(name).slice(p+1).toUpperCase();}
     function statsLines(shelf){
-      var files=shelfFiles(shelf), counts={};
-      files.forEach(function(f){var e=extension(f.name);if(e)counts[e]=(counts[e]||0)+1;});
+      var files=shelfFiles(shelf), bookCount=0, fontCount=0, counts={};
+      files.forEach(function(f){
+        var e=extension(f.name);
+        if(e==='CPFONT'||e==='TTF'||e==='OTF'){
+          fontCount++;
+          return;
+        }
+        if(e==='EPUB'||e==='MOBI'||e==='AZW3'){
+          bookCount++;
+          counts[e]=(counts[e]||0)+1;
+        }
+      });
       return [
-        files.length+' sách',
+        bookCount+' sách',
         'EPUB '+(counts.EPUB||0),
         'MOBI '+(counts.MOBI||0),
-        'AZW3 '+(counts.AZW3||0)
+        'AZW3 '+(counts.AZW3||0),
+        fontCount+' font'
       ];
     }
     function stats(shelf){return statsLines(shelf).join(' · ');}
@@ -188,4 +199,3 @@ if old_views not in text:
 text = text.replace(old_views, new_views, 1)
 
 INDEX.write_text(text, encoding="utf-8")
-print("Applied TANG THU bookshelf view V10.")
