@@ -9,13 +9,9 @@
  *   TANGTHU_GOOGLE_API_KEY
  *   TANGTHU_GITHUB_TOKEN
  *
- * Drive change polling:
- *   Run setupDriveChangeTrigger() once manually.
- *   It creates a 30-minute time-driven trigger for driveCheck().
- *
- * Drive Changes API uses a persistent pageToken stored in
- * Script Properties. Apps Script only detects that Drive changed;
- * GitHub Actions remains responsible for rebuilding the catalog.
+ * The browser currently uses only GET?action=check.
+ * Mutation functions are already implemented here and will be wired to the
+ * UI after the check endpoint is verified on the live GitHub Pages site.
  */
 
 var REPO_OWNER = 'Zenkjt';
@@ -27,44 +23,6 @@ var MUTATION_COOLDOWN_MS = 24 * 60 * 60 * 1000;
 
 var DRIVE_CHANGE_TOKEN_KEY = 'TANGTHU_DRIVE_CHANGE_PAGE_TOKEN';
 var DRIVE_CHANGE_LOCK_KEY = 'TANGTHU_DRIVE_CHANGE_LOCK';
-
-// -----------------------------------------------------------------------------
-// Web app
-// -----------------------------------------------------------------------------
-
-function doGet(e) {
-  var action = String((e && e.parameter && e.parameter.action) || '').trim().toLowerCase();
-
-  if (action === 'check') {
-    return jsonResponse(checkFolder_(String(e.parameter.drive || '')));
-  }
-
-  return jsonResponse({
-    ok: false,
-    error: 'Unsupported action'
-  });
-}
-
-function doPost(e) {
-  try {
-    var body = JSON.parse((e && e.postData && e.postData.contents) || '{}');
-    var action = String(body.action || '').trim().toLowerCase();
-
-    if (action === 'create' || action === 'rename' || action === 'delete') {
-      return jsonResponse(mutate_(action, body));
-    }
-
-    return jsonResponse({
-      ok: false,
-      error: 'Unsupported mutation'
-    });
-  } catch (err) {
-    return jsonResponse({
-      ok: false,
-      error: String(err)
-    });
-  }
-}
 
 // -----------------------------------------------------------------------------
 // Drive change trigger
@@ -226,7 +184,6 @@ function listDriveChanges_(pageToken) {
 function dispatchCatalogBuild_() {
   var token = githubToken_();
 
-  // workflow_dispatch needs Actions: write permission on a fine-grained token.
   var url =
     'https://api.github.com/repos/' +
     encodeURIComponent(REPO_OWNER) + '/' +
@@ -279,8 +236,39 @@ function parseJson_(response) {
 }
 
 // -----------------------------------------------------------------------------
-// Shelf registry / mutation
-// -----------------------------------------------------------------------------
+function doGet(e) {
+  var action = String((e && e.parameter && e.parameter.action) || '').trim().toLowerCase();
+
+  if (action === 'check') {
+    return jsonResponse(checkFolder_(String(e.parameter.drive || '')));
+  }
+
+  return jsonResponse({
+    ok: false,
+    error: 'Unsupported action'
+  });
+}
+
+function doPost(e) {
+  try {
+    var body = JSON.parse((e && e.postData && e.postData.contents) || '{}');
+    var action = String(body.action || '').trim().toLowerCase();
+
+    if (action === 'create' || action === 'rename' || action === 'delete') {
+      return jsonResponse(mutate_(action, body));
+    }
+
+    return jsonResponse({
+      ok: false,
+      error: 'Unsupported mutation'
+    });
+  } catch (err) {
+    return jsonResponse({
+      ok: false,
+      error: String(err)
+    });
+  }
+}
 
 function checkFolder_(driveUrl) {
   var folderId = parseDriveId_(driveUrl);
@@ -378,7 +366,7 @@ function mutate_(action, body) {
         folder_id: folderId,
         folder_name: folder.name,
         display_name: displayName,
-        next_mutation_at: nextMutationAt_(nowIso)
+        next_mutation_at: new Date(now.getTime() + MUTATION_COOLDOWN_MS).toISOString()
       };
     }
 
@@ -415,7 +403,7 @@ function mutate_(action, body) {
         folder_id: folderId,
         folder_name: folder.name,
         display_name: newName,
-        next_mutation_at: nextMutationAt_(nowIso)
+        next_mutation_at: new Date(now.getTime() + MUTATION_COOLDOWN_MS).toISOString()
       };
     }
 
@@ -560,10 +548,8 @@ function writeConfig_(config, message) {
 
   var status = response.getResponseCode();
   if (status !== 200 && status !== 201) {
-    throw new Error(
-      'GitHub ghi branches.json thất bại: HTTP ' + status +
-      ' ' + response.getContentText()
-    );
+    throw new Error('GitHub ghi branches.json thất bại: HTTP ' + status +
+      ' ' + response.getContentText());
   }
 }
 
