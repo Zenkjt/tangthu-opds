@@ -315,12 +315,16 @@ button:disabled{cursor:default;color:#777}
     if(!restoreNavState(e.state))return;
   });
 
+  $('branchList').addEventListener('click',function(e){
+    if(e.target.closest('li.branch'))pushNavState();
+  });
+
   function renderBranches(){
     var list=$('branchList');list.innerHTML='';
     branches().forEach(function(b){
       var li=document.createElement('li');li.className='branch'+(state.branch===b.id?' active':'');
       li.innerHTML='<span class="folder-icon">📚</span><span class="branch-name">'+esc(b.name)+'</span>';
-      li.onclick=function(){state.branch=b.id;state.parent=b.root_folder_id;state.selected=null;state.search='';$('searchInput').value='';pushNavState();renderBranches();renderContent()};
+      li.onclick=function(){state.branch=b.id;state.parent=b.root_folder_id;state.selected=null;renderBranches();renderContent()};
       list.appendChild(li);
     });
     $('branchCount').textContent=branches().length+' tủ';
