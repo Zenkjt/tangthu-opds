@@ -22,6 +22,9 @@ var CONFIG_PATH = 'config/branches.json';
 var MUTATION_COOLDOWN_MS = 24 * 60 * 60 * 1000;
 
 var DRIVE_CHANGE_TOKEN_KEY = 'TANGTHU_DRIVE_CHANGE_PAGE_TOKEN';
+var DRIVE_CHANGE_PROGRESS_TOKEN_KEY = 'TANGTHU_DRIVE_CHANGE_PROGRESS_TOKEN';
+var DRIVE_CHANGE_PENDING_KEY = 'TANGTHU_DRIVE_CHANGE_PENDING';
+var DRIVE_CHANGE_MAX_PAGES = 3;
 var DRIVE_CHANGE_LOCK_KEY = 'TANGTHU_DRIVE_CHANGE_LOCK';
 
 // -----------------------------------------------------------------------------
@@ -70,35 +73,48 @@ function driveCheck() {
 
   try {
     var props = PropertiesService.getScriptProperties();
-    var token = props.getProperty(DRIVE_CHANGE_TOKEN_KEY);
+    var token = props.getProperty(DRIVE_CHANGE_PROGRESS_TOKEN_KEY) ||
+      props.getProperty(DRIVE_CHANGE_TOKEN_KEY);
+    var pending = props.getProperty(DRIVE_CHANGE_PENDING_KEY) === '1';
 
     if (!token) {
       var startToken = getDriveStartPageToken_();
       props.setProperty(DRIVE_CHANGE_TOKEN_KEY, startToken);
+      props.deleteProperty(DRIVE_CHANGE_PROGRESS_TOKEN_KEY);
+      props.deleteProperty(DRIVE_CHANGE_PENDING_KEY);
       Logger.log('TÀNG THƯ: Drive change baseline initialized.');
       return;
     }
 
-    var result = listDriveChanges_(token);
+    var result = listDriveChanges_(token, DRIVE_CHANGE_MAX_PAGES);
 
     if (!result.ok) {
       throw new Error(result.error);
     }
 
-    if (!result.changed) {
-      if (result.new_start_page_token) {
-        props.setProperty(
-          DRIVE_CHANGE_TOKEN_KEY,
-          result.new_start_page_token
-        );
-      }
+    pending = pending || result.changed;
 
-      Logger.log('TÀNG THƯ: no Drive changes.');
+    if (result.next_page_token) {
+      props.setProperty(
+        DRIVE_CHANGE_PROGRESS_TOKEN_KEY,
+        result.next_page_token
+      );
+      props.setProperty(
+        DRIVE_CHANGE_PENDING_KEY,
+        pending ? '1' : '0'
+      );
+
+      Logger.log(
+        'TÀNG THƯ: Drive change backlog remains; progress checkpoint saved.'
+      );
       return;
     }
 
-    // Do not advance the token until GitHub dispatch succeeds.
-    dispatchCatalogBuild_();
+    // The complete backlog has now been consumed. Only dispatch once, then
+    // advance the durable checkpoint.
+    if (pending) {
+      dispatchCatalogBuild_();
+    }
 
     if (result.new_start_page_token) {
       props.setProperty(
@@ -107,7 +123,14 @@ function driveCheck() {
       );
     }
 
-    Logger.log('TÀNG THƯ: Drive changed; GitHub Actions dispatched.');
+    props.deleteProperty(DRIVE_CHANGE_PROGRESS_TOKEN_KEY);
+    props.deleteProperty(DRIVE_CHANGE_PENDING_KEY);
+
+    if (pending) {
+      Logger.log('TÀNG THƯ: Drive changed; GitHub Actions dispatched.');
+    } else {
+      Logger.log('TÀNG THƯ: no Drive changes.');
+    }
   } finally {
     lock.releaseLock();
   }
@@ -132,12 +155,13 @@ function getDriveStartPageToken_() {
   return String(body.startPageToken);
 }
 
-function listDriveChanges_(pageToken) {
+function listDriveChanges_(pageToken, maxPages) {
   var nextToken = String(pageToken);
   var changed = false;
   var newestStartToken = null;
+  var pages = 0;
 
-  while (nextToken) {
+  while (nextToken && pages < maxPages) {
     var url =
       'https://www.googleapis.com/drive/v3/changes' +
       '?pageToken=' + encodeURIComponent(nextToken) +
@@ -172,11 +196,14 @@ function listDriveChanges_(pageToken) {
     nextToken = body.nextPageToken
       ? String(body.nextPageToken)
       : null;
+
+    pages++;
   }
 
   return {
     ok: true,
     changed: changed,
+    next_page_token: nextToken,
     new_start_page_token: newestStartToken
   };
 }
