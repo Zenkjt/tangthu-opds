@@ -120,7 +120,13 @@ function driveCheck() {
       return { ok: true, changed: false, baseline_complete: true };
     }
 
-    normalizeBranchState_(branchState, enabled);
+    branchState = normalizeBranchState_(branchState, enabled);
+
+    Logger.log(
+      'TÀNG THƯ: quick round START cursor=' + branchState.cursor +
+      ' shelves=' + enabled.length +
+      ' baseline=' + countBaselinedBranches_(branchState, enabled) + '/' + enabled.length
+    );
     pruneFullSnapshot_(enabled);
 
     var processed = 0;
@@ -141,17 +147,21 @@ function driveCheck() {
       );
 
       if (!result.completed) {
+        // This shelf has its own durable queue/checkpoint. Do not let a large
+        // shelf monopolize the whole baseline round: move the cursor forward
+        // and give the next shelf a chance in the same execution if time remains.
+        branchState.cursor = (index + 1) % enabled.length;
+        processed++;
         saveBranchState_(branchState);
         Logger.log(
-          'TÀNG THƯ: branch checkpoint. branch=' + id +
-          ' baseline=' + (entry.baseline_complete ? 'complete' : 'pending')
+          'TÀNG THƯ: branch CHECKPOINT branch=' + id +
+          ' baseline=' + (entry.baseline_complete ? 'complete' : 'pending') +
+          ' next_cursor=' + branchState.cursor +
+          ' queue=' + (entry.scan_queue ? entry.scan_queue.length : 0) +
+          ' files_so_far=' + Number(entry.item_count_work || 0) +
+          ' elapsed=' + (Date.now() - startedAt) + 'ms'
         );
-        return {
-          ok: true,
-          phase: 'quick',
-          completed: false,
-          branch_id: id
-        };
+        continue;
       }
 
       entry.item_count = result.signature.item_count;
@@ -177,6 +187,14 @@ function driveCheck() {
       branchState.cursor = (index + 1) % enabled.length;
       processed++;
 
+      Logger.log(
+        'TÀNG THƯ: branch COMPLETE branch=' + id +
+        ' baseline=' + (entry.baseline_complete ? 'complete' : 'newly-complete') +
+        ' files=' + entry.item_count +
+        ' next_cursor=' + branchState.cursor +
+        ' elapsed=' + (Date.now() - startedAt) + 'ms'
+      );
+
       if (changedBranches.length) {
         var fullState = {
           phase: 'full',
@@ -198,8 +216,11 @@ function driveCheck() {
     var allBaseline = allBranchesBaselined_(branchState, enabled);
 
     Logger.log(
-      'TÀNG THƯ: quick round checkpoint. processed=' + processed +
-      ' baseline_complete=' + allBaseline
+      'TÀNG THƯ: quick round END processed=' + processed +
+      ' cursor=' + branchState.cursor +
+      ' baseline_complete=' + allBaseline +
+      ' baselined=' + countBaselinedBranches_(branchState, enabled) + '/' + enabled.length +
+      ' elapsed=' + (Date.now() - startedAt) + 'ms'
     );
 
     return {
@@ -524,6 +545,19 @@ function normalizeBranchState_(state, enabled) {
   state.cursor = Number(state.cursor || 0) % Math.max(enabled.length, 1);
 
   return state;
+}
+
+
+function countBaselinedBranches_(branchState, enabled) {
+  var count = 0;
+  for (var i = 0; i < enabled.length; i++) {
+    var id = String(enabled[i].id);
+    var entry = branchState.branches[id];
+    if (entry && entry.baseline_complete) {
+      count++;
+    }
+  }
+  return count;
 }
 
 
