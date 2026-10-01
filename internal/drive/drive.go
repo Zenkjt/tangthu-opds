@@ -80,7 +80,7 @@ func (c *Client) get(ctx context.Context, endpoint string, params url.Values, ds
 			continue
 		}
 
-		body, readErr := io.ReadAll(io.LimitReader(resp.Body, 4096))
+		body, _ := io.ReadAll(io.LimitReader(resp.Body, 4096))
 		resp.Body.Close()
 
 		if resp.StatusCode >= 200 && resp.StatusCode < 300 {
