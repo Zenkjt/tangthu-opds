@@ -1,10 +1,15 @@
 /**
  * TÀNG THƯ — Apps Script control bridge
  *
- * Drive sync: files.list → recursive scan → SHA-256 fingerprint
- * → snapshot comparison → GitHub repository_dispatch.
+ * Drive sync:
+ *   quick metadata scan
+ *      -> item_count + total_size + max_modified_time
+ *      -> unchanged: skip
+ *      -> changed: full fingerprint scan
+ *      -> confirmed change: GitHub repository_dispatch
  *
- * Không dùng Google Drive Changes API.
+ * Full scans are checkpointed so no execution needs to run for 10 minutes.
+ * Does not use Google Drive Changes API.
  */
 
 var REPO_OWNER = 'Zenkjt';
@@ -14,9 +19,13 @@ var CONFIG_PATH = 'config/branches.json';
 
 var MUTATION_COOLDOWN_MS = 24 * 60 * 60 * 1000;
 
-var DRIVE_SNAPSHOT_KEY = 'TANGTHU_DRIVE_SNAPSHOT_V1';
+var DRIVE_QUICK_SNAPSHOT_KEY = 'TANGTHU_DRIVE_QUICK_SNAPSHOT_V3';
+var DRIVE_FULL_SNAPSHOT_KEY = 'TANGTHU_DRIVE_FULL_SNAPSHOT_V3';
+var DRIVE_SCAN_STATE_KEY = 'TANGTHU_DRIVE_SCAN_STATE_V3';
+
 var DRIVE_SYNC_LOCK_MS = 30000;
 var DRIVE_LIST_PAGE_SIZE = 1000;
+var DRIVE_TIME_BUDGET_MS = 4 * 60 * 1000;
 var GITHUB_DISPATCH_EVENT = 'drive_changed';
 
 
@@ -33,11 +42,13 @@ function setupDriveChangeTrigger() {
       }
     }
 
-    var config = readConfig_();
-    var snapshot = buildDriveSnapshot_(config);
-    saveDriveSnapshot_(snapshot);
-
     var props = PropertiesService.getScriptProperties();
+
+    props.deleteProperty(DRIVE_QUICK_SNAPSHOT_KEY);
+    props.deleteProperty(DRIVE_FULL_SNAPSHOT_KEY);
+    props.deleteProperty(DRIVE_SCAN_STATE_KEY);
+
+    props.deleteProperty('TANGTHU_DRIVE_SNAPSHOT_V1');
     props.deleteProperty('TANGTHU_DRIVE_CHANGE_PAGE_TOKEN');
     props.deleteProperty('TANGTHU_DRIVE_CHANGE_PROGRESS_TOKEN');
     props.deleteProperty('TANGTHU_DRIVE_CHANGE_PENDING');
@@ -48,11 +59,12 @@ function setupDriveChangeTrigger() {
       .everyMinutes(30)
       .create();
 
+    Logger.log('TÀNG THƯ: driveCheck trigger created.');
+
     return {
       ok: true,
       trigger: 'driveCheck',
-      interval_minutes: 30,
-      branches: Object.keys(snapshot).length
+      interval_minutes: 30
     };
   } finally {
     lock.releaseLock();
@@ -61,6 +73,7 @@ function setupDriveChangeTrigger() {
 
 
 function driveCheck() {
+  var startedAt = Date.now();
   var lock = LockService.getScriptLock();
 
   if (!lock.tryLock(DRIVE_SYNC_LOCK_MS)) {
@@ -73,68 +86,101 @@ function driveCheck() {
 
   try {
     var config = readConfig_();
-    var currentSnapshot = buildDriveSnapshot_(config);
-    var previousSnapshot = loadDriveSnapshot_();
+    var state = loadScanState_();
 
-    if (!previousSnapshot) {
-      saveDriveSnapshot_(currentSnapshot);
+    if (state && state.phase === 'full') {
+      return continueFullScan_(config, state, startedAt);
+    }
+
+    var quickResult = runQuickScan_(config, state, startedAt);
+
+    if (!quickResult.completed) {
+      saveScanState_(quickResult.state);
+      Logger.log(
+        'TÀNG THƯ: quick scan checkpoint. branch_index=' +
+        quickResult.state.branch_index
+      );
+
       return {
         ok: true,
-        initialized: true,
-        changed: false,
-        branches: Object.keys(currentSnapshot).length
+        phase: 'quick',
+        completed: false
       };
     }
 
+    saveQuickSnapshot_(quickResult.snapshot);
+
+    var previousQuick = loadQuickSnapshotBeforeCurrent_(
+      quickResult.previous_snapshot
+    );
+
     var changedBranches = [];
-    var currentIds = Object.keys(currentSnapshot);
 
-    for (var i = 0; i < currentIds.length; i++) {
-      var branchId = currentIds[i];
+    for (var i = 0; i < config.branches.length; i++) {
+      var branch = config.branches[i];
 
-      if (!Object.prototype.hasOwnProperty.call(previousSnapshot, branchId)) {
+      if (!branch.enabled) {
         continue;
       }
 
-      if (currentSnapshot[branchId] !== previousSnapshot[branchId]) {
-        changedBranches.push(branchId);
+      var id = String(branch.id);
+      var current = quickResult.snapshot[id];
+      var previous = previousQuick ? previousQuick[id] : null;
+
+      if (!previous || !current) {
+        changedBranches.push(id);
+        continue;
+      }
+
+      if (
+        current.item_count !== previous.item_count ||
+        current.total_size !== previous.total_size ||
+        current.max_modified_time !== previous.max_modified_time
+      ) {
+        changedBranches.push(id);
       }
     }
 
     if (!changedBranches.length) {
-      saveDriveSnapshot_(currentSnapshot);
-      Logger.log(
-        'TÀNG THƯ: no Drive changes. branches=' + currentIds.length
-      );
+      saveScanState_(null);
+
+      Logger.log('TÀNG THƯ: quick scan found no changed shelves.');
+
       return {
         ok: true,
         changed: false,
-        branches: currentIds.length
+        branches: Object.keys(quickResult.snapshot).length
       };
     }
 
-    dispatchGitHubBuild_(changedBranches);
-    saveDriveSnapshot_(currentSnapshot);
+    var fullState = {
+      phase: 'full',
+      branch_ids: changedBranches,
+      branch_index: 0,
+      folder_queue: null,
+      visited: {},
+      items: []
+    };
 
-    Logger.log(
-      'TÀNG THƯ: Drive changed; GitHub Actions dispatched. branches=' +
-      JSON.stringify(changedBranches)
+    saveScanState_(fullState);
+
+    return continueFullScan_(
+      config,
+      fullState,
+      startedAt
     );
 
-    return {
-      ok: true,
-      changed: true,
-      dispatched: true,
-      changed_branches: changedBranches,
-      branches: currentIds.length
-    };
   } finally {
     lock.releaseLock();
   }
 }
 
 
-function buildDriveSnapshot_(config) {
+/*
+ * Quick scan state is branch-oriented.
+ * A large branch is checkpointed by its folder queue.
+ */
+function runQuickScan_(config, oldState, startedAt) {
   var apiKey = PropertiesService.getScriptProperties()
     .getProperty('TANGTHU_GOOGLE_API_KEY');
 
@@ -144,84 +190,403 @@ function buildDriveSnapshot_(config) {
     );
   }
 
-  var snapshot = {};
+  var previousSnapshot =
+    oldState && oldState.phase === 'quick'
+      ? oldState.previous_snapshot
+      : loadQuickSnapshot_();
 
-  for (var i = 0; i < config.branches.length; i++) {
-    var branch = config.branches[i];
+  var snapshot =
+    oldState && oldState.phase === 'quick'
+      ? oldState.snapshot
+      : {};
+
+  var branchIndex =
+    oldState && oldState.phase === 'quick'
+      ? Number(oldState.branch_index || 0)
+      : 0;
+
+  var folderQueue =
+    oldState && oldState.phase === 'quick'
+      ? oldState.folder_queue
+      : null;
+
+  var visited =
+    oldState && oldState.phase === 'quick'
+      ? oldState.visited
+      : {};
+
+  var itemCount =
+    oldState && oldState.phase === 'quick'
+      ? Number(oldState.item_count || 0)
+      : 0;
+
+  var totalSize =
+    oldState && oldState.phase === 'quick'
+      ? Number(oldState.total_size || 0)
+      : 0;
+
+  var maxModified =
+    oldState && oldState.phase === 'quick'
+      ? String(oldState.max_modified_time || '')
+      : '';
+
+  while (branchIndex < config.branches.length) {
+    var branch = config.branches[branchIndex];
 
     if (!branch.enabled) {
+      branchIndex++;
+      folderQueue = null;
+      visited = {};
+      itemCount = 0;
+      totalSize = 0;
+      maxModified = '';
       continue;
     }
 
-    var scan = scanDriveBranch_(branch.root_folder_id, apiKey);
-
-    if (!scan.ok) {
-      throw new Error(
-        'Không thể quét tủ "' +
-        branch.display_name +
-        '" (' +
-        branch.root_folder_id +
-        '): ' +
-        scan.error
-      );
+    if (!folderQueue) {
+      folderQueue = [String(branch.root_folder_id)];
+      visited = {};
+      itemCount = 0;
+      totalSize = 0;
+      maxModified = '';
     }
 
-    snapshot[String(branch.id)] =
-      fingerprintDriveItems_(scan.items);
+    while (folderQueue.length) {
+      if (Date.now() - startedAt >= DRIVE_TIME_BUDGET_MS) {
+        return {
+          completed: false,
+          previous_snapshot: previousSnapshot,
+          snapshot: snapshot,
+          state: {
+            phase: 'quick',
+            branch_index: branchIndex,
+            folder_queue: folderQueue,
+            visited: visited,
+            item_count: itemCount,
+            total_size: totalSize,
+            max_modified_time: maxModified,
+            previous_snapshot: previousSnapshot,
+            snapshot: snapshot
+          }
+        };
+      }
+
+      var folderId = folderQueue.shift();
+
+      if (visited[folderId]) {
+        continue;
+      }
+
+      visited[folderId] = true;
+
+      var result = listDriveFolder_(folderId, apiKey);
+
+      if (!result.ok) {
+        throw new Error(
+          'Google Drive quick scan thất bại: ' +
+          result.error
+        );
+      }
+
+      var files = result.files || [];
+
+      for (var i = 0; i < files.length; i++) {
+        var file = files[i];
+
+        itemCount++;
+
+        if (file.size != null && file.size !== '') {
+          totalSize += Number(file.size) || 0;
+        }
+
+        var modified = String(file.modifiedTime || '');
+
+        if (modified > maxModified) {
+          maxModified = modified;
+        }
+
+        if (
+          file.mimeType ===
+          'application/vnd.google-apps.folder'
+        ) {
+          folderQueue.push(String(file.id));
+        }
+      }
+    }
+
+    snapshot[String(branch.id)] = {
+      item_count: itemCount,
+      total_size: totalSize,
+      max_modified_time: maxModified
+    };
+
+    branchIndex++;
+    folderQueue = null;
+    visited = {};
+    itemCount = 0;
+    totalSize = 0;
+    maxModified = '';
   }
 
-  return snapshot;
+  return {
+    completed: true,
+    previous_snapshot: previousSnapshot,
+    snapshot: snapshot
+  };
 }
 
 
-function scanDriveBranch_(rootFolderId, apiKey) {
-  var queue = [String(rootFolderId)];
-  var visited = {};
-  var items = [];
+function continueFullScan_(config, state, startedAt) {
+  var apiKey = PropertiesService.getScriptProperties()
+    .getProperty('TANGTHU_GOOGLE_API_KEY');
 
-  while (queue.length) {
-    var folderId = queue.shift();
+  if (!apiKey) {
+    throw new Error(
+      'Apps Script chưa được cấu hình TANGTHU_GOOGLE_API_KEY.'
+    );
+  }
 
-    if (visited[folderId]) {
+  var fullSnapshot = loadFullSnapshot_() || {};
+
+  while (state.branch_index < state.branch_ids.length) {
+    var branchId = String(
+      state.branch_ids[state.branch_index]
+    );
+
+    var branch = findBranchById_(config, branchId);
+
+    if (!branch) {
+      state.branch_index++;
+      state.folder_queue = null;
+      state.visited = {};
+      state.items = [];
       continue;
     }
 
-    visited[folderId] = true;
-
-    var result = listDriveFolder_(folderId, apiKey);
-
-    if (!result.ok) {
-      return result;
+    if (!state.folder_queue) {
+      state.folder_queue = [
+        String(branch.root_folder_id)
+      ];
+      state.visited = {};
+      state.items = [];
     }
 
-    var files = result.files || [];
+    while (state.folder_queue.length) {
+      if (Date.now() - startedAt >= DRIVE_TIME_BUDGET_MS) {
+        saveScanState_(state);
 
-    for (var i = 0; i < files.length; i++) {
-      var file = files[i];
+        Logger.log(
+          'TÀNG THƯ: full scan checkpoint. branch_index=' +
+          state.branch_index
+        );
 
-      items.push({
-        id: String(file.id || ''),
-        parent: folderId,
-        name: String(file.name || ''),
-        mime: String(file.mimeType || ''),
-        size: file.size == null ? '' : String(file.size),
-        modified: String(file.modifiedTime || ''),
-        created: String(file.createdTime || ''),
-        checksum: String(file.md5Checksum || ''),
-        folder:
-          file.mimeType === 'application/vnd.google-apps.folder'
-      });
-
-      if (
-        file.mimeType ===
-        'application/vnd.google-apps.folder'
-      ) {
-        queue.push(String(file.id));
+        return {
+          ok: true,
+          phase: 'full',
+          completed: false
+        };
       }
+
+      var folderId = state.folder_queue.shift();
+
+      if (state.visited[folderId]) {
+        continue;
+      }
+
+      state.visited[folderId] = true;
+
+      var result = listDriveFolder_(folderId, apiKey);
+
+      if (!result.ok) {
+        throw new Error(
+          'Google Drive full scan thất bại: ' +
+          result.error
+        );
+      }
+
+      var files = result.files || [];
+
+      for (var i = 0; i < files.length; i++) {
+        var file = files[i];
+
+        state.items.push({
+          id: String(file.id || ''),
+          parent: folderId,
+          name: String(file.name || ''),
+          mime: String(file.mimeType || ''),
+          size: file.size == null ? '' : String(file.size),
+          modified: String(file.modifiedTime || ''),
+          created: String(file.createdTime || ''),
+          checksum: String(file.md5Checksum || ''),
+          folder:
+            file.mimeType ===
+            'application/vnd.google-apps.folder'
+        });
+
+        if (
+          file.mimeType ===
+          'application/vnd.google-apps.folder'
+        ) {
+          state.folder_queue.push(
+            String(file.id)
+          );
+        }
+      }
+    }
+
+    fullSnapshot[branchId] =
+      fingerprintDriveItems_(state.items);
+
+    state.branch_index++;
+    state.folder_queue = null;
+    state.visited = {};
+    state.items = [];
+  }
+
+  var previousFull = loadFullSnapshot_() || {};
+  var actuallyChanged = [];
+
+  for (var j = 0; j < state.branch_ids.length; j++) {
+    var id = String(state.branch_ids[j]);
+
+    /*
+     * No previous fingerprint = baseline only.
+     * Existing fingerprint + different fingerprint = real change.
+     */
+    if (
+      previousFull[id] &&
+      fullSnapshot[id] !== previousFull[id]
+    ) {
+      actuallyChanged.push(id);
     }
   }
 
-  return { ok: true, items: items };
+  saveFullSnapshot_(fullSnapshot);
+  saveScanState_(null);
+
+  if (actuallyChanged.length) {
+    dispatchGitHubBuild_(actuallyChanged);
+
+    Logger.log(
+      'TÀNG THƯ: Drive changed; GitHub Actions dispatched. branches=' +
+      JSON.stringify(actuallyChanged)
+    );
+
+    return {
+      ok: true,
+      phase: 'full',
+      completed: true,
+      changed: true,
+      dispatched: true,
+      changed_branches: actuallyChanged
+    };
+  }
+
+  Logger.log(
+    'TÀNG THƯ: full scan completed; no confirmed Drive changes.'
+  );
+
+  return {
+    ok: true,
+    phase: 'full',
+    completed: true,
+    changed: false
+  };
+}
+
+
+function findBranchById_(config, id) {
+  for (var i = 0; i < config.branches.length; i++) {
+    if (String(config.branches[i].id) === String(id)) {
+      return config.branches[i];
+    }
+  }
+
+  return null;
+}
+
+
+function loadQuickSnapshot_() {
+  var raw = PropertiesService.getScriptProperties()
+    .getProperty(DRIVE_QUICK_SNAPSHOT_KEY);
+
+  if (!raw) {
+    return null;
+  }
+
+  return JSON.parse(raw);
+}
+
+
+/*
+ * The quick snapshot is replaced only after a complete quick scan.
+ * During a checkpoint, the previous snapshot is carried in scan state.
+ */
+function loadQuickSnapshotBeforeCurrent_(previous) {
+  return previous || null;
+}
+
+
+function saveQuickSnapshot_(snapshot) {
+  PropertiesService.getScriptProperties()
+    .setProperty(
+      DRIVE_QUICK_SNAPSHOT_KEY,
+      JSON.stringify(snapshot)
+    );
+}
+
+
+function loadFullSnapshot_() {
+  var raw = PropertiesService.getScriptProperties()
+    .getProperty(DRIVE_FULL_SNAPSHOT_KEY);
+
+  if (!raw) {
+    return null;
+  }
+
+  return JSON.parse(raw);
+}
+
+
+function saveFullSnapshot_(snapshot) {
+  PropertiesService.getScriptProperties()
+    .setProperty(
+      DRIVE_FULL_SNAPSHOT_KEY,
+      JSON.stringify(snapshot)
+    );
+}
+
+
+function loadScanState_() {
+  var raw = PropertiesService.getScriptProperties()
+    .getProperty(DRIVE_SCAN_STATE_KEY);
+
+  if (!raw) {
+    return null;
+  }
+
+  try {
+    return JSON.parse(raw);
+  } catch (err) {
+    throw new Error(
+      'Drive scan state bị hỏng: ' + String(err)
+    );
+  }
+}
+
+
+function saveScanState_(state) {
+  var props = PropertiesService.getScriptProperties();
+
+  if (!state) {
+    props.deleteProperty(DRIVE_SCAN_STATE_KEY);
+    return;
+  }
+
+  props.setProperty(
+    DRIVE_SCAN_STATE_KEY,
+    JSON.stringify(state)
+  );
 }
 
 
@@ -256,7 +621,9 @@ function listDriveFolder_(folderId, apiKey) {
     });
 
     var status = response.getResponseCode();
-    var body = JSON.parse(response.getContentText() || '{}');
+    var body = JSON.parse(
+      response.getContentText() || '{}'
+    );
 
     if (status !== 200) {
       return {
@@ -270,6 +637,7 @@ function listDriveFolder_(folderId, apiKey) {
     }
 
     var files = body.files || [];
+
     for (var i = 0; i < files.length; i++) {
       allFiles.push(files[i]);
     }
@@ -279,7 +647,10 @@ function listDriveFolder_(folderId, apiKey) {
       : '';
   } while (pageToken);
 
-  return { ok: true, files: allFiles };
+  return {
+    ok: true,
+    files: allFiles
+  };
 }
 
 
@@ -305,6 +676,7 @@ function fingerprintDriveItems_(items) {
   rows.sort();
 
   var canonical = rows.join('\n');
+
   var digest = Utilities.computeDigest(
     Utilities.DigestAlgorithm.SHA_256,
     canonical,
@@ -315,42 +687,21 @@ function fingerprintDriveItems_(items) {
 
   for (var j = 0; j < digest.length; j++) {
     var value = digest[j];
-    if (value < 0) value += 256;
+
+    if (value < 0) {
+      value += 256;
+    }
 
     var h = value.toString(16);
-    if (h.length < 2) h = '0' + h;
+
+    if (h.length < 2) {
+      h = '0' + h;
+    }
+
     hex += h;
   }
 
   return hex;
-}
-
-
-function loadDriveSnapshot_() {
-  var raw = PropertiesService.getScriptProperties()
-    .getProperty(DRIVE_SNAPSHOT_KEY);
-
-  if (!raw) return null;
-
-  try {
-    var value = JSON.parse(raw);
-
-    if (!value || typeof value !== 'object') {
-      return null;
-    }
-
-    return value;
-  } catch (err) {
-    throw new Error(
-      'Snapshot Drive bị hỏng: ' + String(err)
-    );
-  }
-}
-
-
-function saveDriveSnapshot_(snapshot) {
-  PropertiesService.getScriptProperties()
-    .setProperty(DRIVE_SNAPSHOT_KEY, JSON.stringify(snapshot));
 }
 
 
@@ -391,7 +742,6 @@ function dispatchGitHubBuild_(changedBranches) {
   }
 }
 
-// -----------------------------------------------------------------------------
 
 function doGet(e) {
 
