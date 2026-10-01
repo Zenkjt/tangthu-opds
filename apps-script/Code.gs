@@ -19,13 +19,13 @@ var CONFIG_PATH = 'config/branches.json';
 
 var MUTATION_COOLDOWN_MS = 24 * 60 * 60 * 1000;
 
-var DRIVE_QUICK_SNAPSHOT_KEY = 'TANGTHU_DRIVE_QUICK_SNAPSHOT_V3';
-var DRIVE_FULL_SNAPSHOT_KEY = 'TANGTHU_DRIVE_FULL_SNAPSHOT_V3';
-var DRIVE_SCAN_STATE_KEY = 'TANGTHU_DRIVE_SCAN_STATE_V3';
+var DRIVE_BRANCH_STATE_KEY = 'TANGTHU_DRIVE_BRANCH_STATE_V4';
+var DRIVE_SCAN_STATE_KEY = 'TANGTHU_DRIVE_SCAN_STATE_V4';
 
 var DRIVE_SYNC_LOCK_MS = 30000;
 var DRIVE_LIST_PAGE_SIZE = 1000;
 var DRIVE_TIME_BUDGET_MS = 4 * 60 * 1000;
+var DRIVE_BRANCH_BUDGET_MS = 45 * 1000;
 var GITHUB_DISPATCH_EVENT = 'drive_changed';
 
 
@@ -44,10 +44,11 @@ function setupDriveChangeTrigger() {
 
     var props = PropertiesService.getScriptProperties();
 
-    props.deleteProperty(DRIVE_QUICK_SNAPSHOT_KEY);
-    props.deleteProperty(DRIVE_FULL_SNAPSHOT_KEY);
+    props.deleteProperty(DRIVE_BRANCH_STATE_KEY);
     props.deleteProperty(DRIVE_SCAN_STATE_KEY);
 
+    props.deleteProperty('TANGTHU_DRIVE_QUICK_SNAPSHOT_V3');
+    props.deleteProperty('TANGTHU_DRIVE_FULL_SNAPSHOT_V3');
     props.deleteProperty('TANGTHU_DRIVE_SNAPSHOT_V1');
     props.deleteProperty('TANGTHU_DRIVE_CHANGE_PAGE_TOKEN');
     props.deleteProperty('TANGTHU_DRIVE_CHANGE_PROGRESS_TOKEN');
@@ -72,6 +73,15 @@ function setupDriveChangeTrigger() {
 }
 
 
+/*
+ * One driveCheck execution does two jobs in the same round:
+ *   1. continue baseline for shelves not yet baselined;
+ *   2. re-check shelves that already have a baseline.
+ *
+ * Every shelf has its own durable quick signature and baseline_complete flag.
+ * The cursor only decides which shelf gets attention next; it is not the
+ * baseline itself. A timeout therefore cannot make completed shelves vanish.
+ */
 function driveCheck() {
   var startedAt = Date.now();
   var lock = LockService.getScriptLock();
@@ -86,90 +96,120 @@ function driveCheck() {
 
   try {
     var config = readConfig_();
-    var state = loadScanState_();
+    var branchState = loadBranchState_();
+    var scanState = loadScanState_();
 
-    if (state && state.phase === 'full') {
-      return continueFullScan_(config, state, startedAt);
+    if (scanState && scanState.phase === 'full') {
+      var fullResult = continueFullScan_(config, scanState, startedAt);
+      if (fullResult.completed) {
+        saveScanState_(null);
+      }
+      return fullResult;
     }
 
-    var quickResult = runQuickScan_(config, state, startedAt);
-
-    if (!quickResult.completed) {
-      saveScanState_(quickResult.state);
-      Logger.log(
-        'TÀNG THƯ: quick scan checkpoint. branch_index=' +
-        quickResult.state.branch_index
-      );
-
-      return {
-        ok: true,
-        phase: 'quick',
-        completed: false
-      };
+    var enabled = [];
+    for (var i = 0; i < config.branches.length; i++) {
+      if (config.branches[i].enabled) {
+        enabled.push(config.branches[i]);
+      }
     }
 
-    saveQuickSnapshot_(quickResult.snapshot);
+    if (!enabled.length) {
+      saveBranchState_({ version: 4, cursor: 0, branches: {} });
+      Logger.log('TÀNG THƯ: no enabled shelves.');
+      return { ok: true, changed: false, baseline_complete: true };
+    }
 
-    var previousQuick = loadQuickSnapshotBeforeCurrent_(
-      quickResult.previous_snapshot
-    );
+    normalizeBranchState_(branchState, enabled);
+    pruneFullSnapshot_(enabled);
 
+    var processed = 0;
+    var baselineCompletedThisRun = [];
     var changedBranches = [];
 
-    for (var i = 0; i < config.branches.length; i++) {
-      var branch = config.branches[i];
-
-      if (!branch.enabled) {
-        continue;
-      }
-
+    while (Date.now() - startedAt < DRIVE_TIME_BUDGET_MS) {
+      var index = Number(branchState.cursor || 0) % enabled.length;
+      var branch = enabled[index];
       var id = String(branch.id);
-      var current = quickResult.snapshot[id];
-      var previous = previousQuick ? previousQuick[id] : null;
+      var entry = branchState.branches[id];
 
-      if (!previous || !current) {
-        changedBranches.push(id);
-        continue;
+      var result = scanBranchQuick_(
+        branch,
+        entry,
+        startedAt,
+        branchState
+      );
+
+      if (!result.completed) {
+        saveBranchState_(branchState);
+        Logger.log(
+          'TÀNG THƯ: branch checkpoint. branch=' + id +
+          ' baseline=' + (entry.baseline_complete ? 'complete' : 'pending')
+        );
+        return {
+          ok: true,
+          phase: 'quick',
+          completed: false,
+          branch_id: id
+        };
       }
 
-      if (
-        current.item_count !== previous.item_count ||
-        current.total_size !== previous.total_size ||
-        current.max_modified_time !== previous.max_modified_time
+      entry.item_count = result.signature.item_count;
+      entry.total_size = result.signature.total_size;
+      entry.max_modified_time = result.signature.max_modified_time;
+      entry.scan_queue = null;
+      entry.visited = {};
+      entry.item_count_work = 0;
+      entry.total_size_work = 0;
+      entry.max_modified_work = '';
+
+      if (!entry.baseline_complete) {
+        entry.baseline_complete = true;
+        baselineCompletedThisRun.push(id);
+      } else if (
+        entry.item_count !== result.previous.item_count ||
+        entry.total_size !== result.previous.total_size ||
+        entry.max_modified_time !== result.previous.max_modified_time
       ) {
         changedBranches.push(id);
       }
+
+      branchState.cursor = (index + 1) % enabled.length;
+      processed++;
+
+      if (changedBranches.length) {
+        var fullState = {
+          phase: 'full',
+          branch_ids: changedBranches.slice(),
+          branch_index: 0,
+          folder_queue: null,
+          visited: {},
+          items: [],
+          baseline_ids: []
+        };
+        saveBranchState_(branchState);
+        saveScanState_(fullState);
+        return continueFullScan_(config, fullState, startedAt);
+      }
     }
 
-    if (!changedBranches.length) {
-      saveScanState_(null);
+    saveBranchState_(branchState);
 
-      Logger.log('TÀNG THƯ: quick scan found no changed shelves.');
+    var allBaseline = allBranchesBaselined_(branchState, enabled);
 
-      return {
-        ok: true,
-        changed: false,
-        branches: Object.keys(quickResult.snapshot).length
-      };
-    }
-
-    var fullState = {
-      phase: 'full',
-      branch_ids: changedBranches,
-      branch_index: 0,
-      folder_queue: null,
-      visited: {},
-      items: []
-    };
-
-    saveScanState_(fullState);
-
-    return continueFullScan_(
-      config,
-      fullState,
-      startedAt
+    Logger.log(
+      'TÀNG THƯ: quick round checkpoint. processed=' + processed +
+      ' baseline_complete=' + allBaseline
     );
 
+    return {
+      ok: true,
+      phase: 'quick',
+      completed: false,
+      processed: processed,
+      baseline_complete: allBaseline,
+      baseline_completed_this_run: baselineCompletedThisRun
+    };
   } finally {
     lock.releaseLock();
   }
@@ -177,10 +217,11 @@ function driveCheck() {
 
 
 /*
- * Quick scan state is branch-oriented.
- * A large branch is checkpointed by its folder queue.
+ * Scan one shelf. During the first baseline this establishes its signature.
+ * On later rounds it compares the new signature against that shelf's stored
+ * signature. The work itself is checkpointed at folder level.
  */
-function runQuickScan_(config, oldState, startedAt) {
+function scanBranchQuick_(branch, entry, startedAt, branchState) {
   var apiKey = PropertiesService.getScriptProperties()
     .getProperty('TANGTHU_GOOGLE_API_KEY');
 
@@ -190,148 +231,92 @@ function runQuickScan_(config, oldState, startedAt) {
     );
   }
 
-  var previousSnapshot =
-    oldState && oldState.phase === 'quick'
-      ? oldState.previous_snapshot
-      : loadQuickSnapshot_();
+  var previous = {
+    item_count: Number(entry.item_count || 0),
+    total_size: Number(entry.total_size || 0),
+    max_modified_time: String(entry.max_modified_time || '')
+  };
 
-  var snapshot =
-    oldState && oldState.phase === 'quick'
-      ? oldState.snapshot
-      : {};
+  var queue = entry.scan_queue;
+  var visited = entry.visited || {};
+  var itemCount = Number(entry.item_count_work || 0);
+  var totalSize = Number(entry.total_size_work || 0);
+  var maxModified = String(entry.max_modified_work || '');
 
-  var branchIndex =
-    oldState && oldState.phase === 'quick'
-      ? Number(oldState.branch_index || 0)
-      : 0;
-
-  var folderQueue =
-    oldState && oldState.phase === 'quick'
-      ? oldState.folder_queue
-      : null;
-
-  var visited =
-    oldState && oldState.phase === 'quick'
-      ? oldState.visited
-      : {};
-
-  var itemCount =
-    oldState && oldState.phase === 'quick'
-      ? Number(oldState.item_count || 0)
-      : 0;
-
-  var totalSize =
-    oldState && oldState.phase === 'quick'
-      ? Number(oldState.total_size || 0)
-      : 0;
-
-  var maxModified =
-    oldState && oldState.phase === 'quick'
-      ? String(oldState.max_modified_time || '')
-      : '';
-
-  while (branchIndex < config.branches.length) {
-    var branch = config.branches[branchIndex];
-
-    if (!branch.enabled) {
-      branchIndex++;
-      folderQueue = null;
-      visited = {};
-      itemCount = 0;
-      totalSize = 0;
-      maxModified = '';
-      continue;
-    }
-
-    if (!folderQueue) {
-      folderQueue = [String(branch.root_folder_id)];
-      visited = {};
-      itemCount = 0;
-      totalSize = 0;
-      maxModified = '';
-    }
-
-    while (folderQueue.length) {
-      if (Date.now() - startedAt >= DRIVE_TIME_BUDGET_MS) {
-        return {
-          completed: false,
-          previous_snapshot: previousSnapshot,
-          snapshot: snapshot,
-          state: {
-            phase: 'quick',
-            branch_index: branchIndex,
-            folder_queue: folderQueue,
-            visited: visited,
-            item_count: itemCount,
-            total_size: totalSize,
-            max_modified_time: maxModified,
-            previous_snapshot: previousSnapshot,
-            snapshot: snapshot
-          }
-        };
-      }
-
-      var folderId = folderQueue.shift();
-
-      if (visited[folderId]) {
-        continue;
-      }
-
-      visited[folderId] = true;
-
-      var result = listDriveFolder_(folderId, apiKey);
-
-      if (!result.ok) {
-        throw new Error(
-          'Google Drive quick scan thất bại: ' +
-          result.error
-        );
-      }
-
-      var files = result.files || [];
-
-      for (var i = 0; i < files.length; i++) {
-        var file = files[i];
-
-        itemCount++;
-
-        if (file.size != null && file.size !== '') {
-          totalSize += Number(file.size) || 0;
-        }
-
-        var modified = String(file.modifiedTime || '');
-
-        if (modified > maxModified) {
-          maxModified = modified;
-        }
-
-        if (
-          file.mimeType ===
-          'application/vnd.google-apps.folder'
-        ) {
-          folderQueue.push(String(file.id));
-        }
-      }
-    }
-
-    snapshot[String(branch.id)] = {
-      item_count: itemCount,
-      total_size: totalSize,
-      max_modified_time: maxModified
-    };
-
-    branchIndex++;
-    folderQueue = null;
+  if (!queue) {
+    queue = [String(branch.root_folder_id)];
     visited = {};
     itemCount = 0;
     totalSize = 0;
     maxModified = '';
   }
 
+  var branchStartedAt = Date.now();
+
+  while (queue.length) {
+    if (
+      Date.now() - startedAt >= DRIVE_TIME_BUDGET_MS ||
+      Date.now() - branchStartedAt >= DRIVE_BRANCH_BUDGET_MS
+    ) {
+      entry.scan_queue = queue;
+      entry.visited = visited;
+      entry.item_count_work = itemCount;
+      entry.total_size_work = totalSize;
+      entry.max_modified_work = maxModified;
+      return {
+        completed: false,
+        previous: previous
+      };
+    }
+
+    var folderId = queue.shift();
+
+    if (visited[folderId]) {
+      continue;
+    }
+
+    visited[folderId] = true;
+
+    var result = listDriveFolder_(folderId, apiKey);
+
+    if (!result.ok) {
+      throw new Error(
+        'Google Drive quick scan thất bại: ' + result.error
+      );
+    }
+
+    var files = result.files || [];
+
+    for (var i = 0; i < files.length; i++) {
+      var file = files[i];
+      itemCount++;
+
+      if (file.size != null && file.size !== '') {
+        totalSize += Number(file.size) || 0;
+      }
+
+      var modified = String(file.modifiedTime || '');
+      if (modified > maxModified) {
+        maxModified = modified;
+      }
+
+      if (
+        file.mimeType ===
+        'application/vnd.google-apps.folder'
+      ) {
+        queue.push(String(file.id));
+      }
+    }
+  }
+
   return {
     completed: true,
-    previous_snapshot: previousSnapshot,
-    snapshot: snapshot
+    previous: previous,
+    signature: {
+      item_count: itemCount,
+      total_size: totalSize,
+      max_modified_time: maxModified
+    }
   };
 }
 
@@ -349,10 +334,7 @@ function continueFullScan_(config, state, startedAt) {
   var fullSnapshot = loadFullSnapshot_() || {};
 
   while (state.branch_index < state.branch_ids.length) {
-    var branchId = String(
-      state.branch_ids[state.branch_index]
-    );
-
+    var branchId = String(state.branch_ids[state.branch_index]);
     var branch = findBranchById_(config, branchId);
 
     if (!branch) {
@@ -364,9 +346,7 @@ function continueFullScan_(config, state, startedAt) {
     }
 
     if (!state.folder_queue) {
-      state.folder_queue = [
-        String(branch.root_folder_id)
-      ];
+      state.folder_queue = [String(branch.root_folder_id)];
       state.visited = {};
       state.items = [];
     }
@@ -374,12 +354,10 @@ function continueFullScan_(config, state, startedAt) {
     while (state.folder_queue.length) {
       if (Date.now() - startedAt >= DRIVE_TIME_BUDGET_MS) {
         saveScanState_(state);
-
         Logger.log(
           'TÀNG THƯ: full scan checkpoint. branch_index=' +
           state.branch_index
         );
-
         return {
           ok: true,
           phase: 'full',
@@ -399,8 +377,7 @@ function continueFullScan_(config, state, startedAt) {
 
       if (!result.ok) {
         throw new Error(
-          'Google Drive full scan thất bại: ' +
-          result.error
+          'Google Drive full scan thất bại: ' + result.error
         );
       }
 
@@ -427,9 +404,7 @@ function continueFullScan_(config, state, startedAt) {
           file.mimeType ===
           'application/vnd.google-apps.folder'
         ) {
-          state.folder_queue.push(
-            String(file.id)
-          );
+          state.folder_queue.push(String(file.id));
         }
       }
     }
@@ -450,11 +425,13 @@ function continueFullScan_(config, state, startedAt) {
     var id = String(state.branch_ids[j]);
 
     /*
-     * No previous fingerprint = baseline only.
-     * Existing fingerprint + different fingerprint = real change.
+     * The quick signature already proved that this shelf changed. If a
+     * previous full fingerprint exists, require it to differ as well. For a
+     * shelf's first change, there is no old fingerprint yet, so the changed
+     * quick signature is the authoritative signal and we dispatch once.
      */
     if (
-      previousFull[id] &&
+      !previousFull[id] ||
       fullSnapshot[id] !== previousFull[id]
     ) {
       actuallyChanged.push(id);
@@ -501,44 +478,119 @@ function findBranchById_(config, id) {
       return config.branches[i];
     }
   }
-
   return null;
 }
 
 
-function loadQuickSnapshot_() {
-  var raw = PropertiesService.getScriptProperties()
-    .getProperty(DRIVE_QUICK_SNAPSHOT_KEY);
-
-  if (!raw) {
-    return null;
+function normalizeBranchState_(state, enabled) {
+  if (!state || typeof state !== 'object') {
+    state = { version: 4, cursor: 0, branches: {} };
   }
 
-  return JSON.parse(raw);
+  if (!state.branches || typeof state.branches !== 'object') {
+    state.branches = {};
+  }
+
+  for (var i = 0; i < enabled.length; i++) {
+    var id = String(enabled[i].id);
+    if (!state.branches[id]) {
+      state.branches[id] = {
+        baseline_complete: false,
+        item_count: 0,
+        total_size: 0,
+        max_modified_time: '',
+        scan_queue: null,
+        visited: {},
+        item_count_work: 0,
+        total_size_work: 0,
+        max_modified_work: ''
+      };
+    }
+  }
+
+  var valid = {};
+  for (var j = 0; j < enabled.length; j++) {
+    valid[String(enabled[j].id)] = true;
+  }
+
+  var keys = Object.keys(state.branches);
+  for (var k = 0; k < keys.length; k++) {
+    if (!valid[keys[k]]) {
+      delete state.branches[keys[k]];
+    }
+  }
+
+  state.version = 4;
+  state.cursor = Number(state.cursor || 0) % Math.max(enabled.length, 1);
+
+  return state;
 }
 
 
-/*
- * The quick snapshot is replaced only after a complete quick scan.
- * During a checkpoint, the previous snapshot is carried in scan state.
- */
-function loadQuickSnapshotBeforeCurrent_(previous) {
-  return previous || null;
+function allBranchesBaselined_(state, enabled) {
+  for (var i = 0; i < enabled.length; i++) {
+    var entry = state.branches[String(enabled[i].id)];
+    if (!entry || !entry.baseline_complete) {
+      return false;
+    }
+  }
+  return true;
 }
 
 
-function saveQuickSnapshot_(snapshot) {
+function loadBranchState_() {
+  var raw = PropertiesService.getScriptProperties()
+    .getProperty(DRIVE_BRANCH_STATE_KEY);
+
+  if (!raw) {
+    return { version: 4, cursor: 0, branches: {} };
+  }
+
+  try {
+    return JSON.parse(raw);
+  } catch (err) {
+    throw new Error(
+      'Drive branch state bị hỏng: ' + String(err)
+    );
+  }
+}
+
+
+function saveBranchState_(state) {
   PropertiesService.getScriptProperties()
     .setProperty(
-      DRIVE_QUICK_SNAPSHOT_KEY,
-      JSON.stringify(snapshot)
+      DRIVE_BRANCH_STATE_KEY,
+      JSON.stringify(state)
     );
+}
+
+
+function pruneFullSnapshot_(enabled) {
+  var snapshot = loadFullSnapshot_() || {};
+  var valid = {};
+
+  for (var i = 0; i < enabled.length; i++) {
+    valid[String(enabled[i].id)] = true;
+  }
+
+  var keys = Object.keys(snapshot);
+  var changed = false;
+  for (var j = 0; j < keys.length; j++) {
+    if (!valid[keys[j]]) {
+      delete snapshot[keys[j]];
+      changed = true;
+    }
+  }
+
+  if (changed) {
+    saveFullSnapshot_(snapshot);
+  }
 }
 
 
 function loadFullSnapshot_() {
   var raw = PropertiesService.getScriptProperties()
-    .getProperty(DRIVE_FULL_SNAPSHOT_KEY);
+    .getProperty('TANGTHU_DRIVE_FULL_SNAPSHOT_V3');
 
   if (!raw) {
     return null;
@@ -551,7 +603,7 @@ function loadFullSnapshot_() {
 function saveFullSnapshot_(snapshot) {
   PropertiesService.getScriptProperties()
     .setProperty(
-      DRIVE_FULL_SNAPSHOT_KEY,
+      'TANGTHU_DRIVE_FULL_SNAPSHOT_V3',
       JSON.stringify(snapshot)
     );
 }
