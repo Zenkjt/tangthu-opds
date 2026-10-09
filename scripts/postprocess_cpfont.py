@@ -3,7 +3,7 @@ from pathlib import Path
 import os
 
 HTML = Path("docs/index.html")
-WASM_URL = "https://raw.githubusercontent.com/CrazyCoder/crossglyph/master/src/crossglyph/render/render.wasm"
+WASM_URL = "https://raw.githubusercontent.com/CrazyCoder/crossglyph/1b0b5127451b8f870573075bb932098cac77de84/src/crossglyph/render/render.wasm"
 worker = os.environ.get("TANGTHU_DOWNLOAD_WORKER_URL", "").strip().rstrip("/")
 if not worker:
     raise SystemExit("TANGTHU_DOWNLOAD_WORKER_URL is required")
