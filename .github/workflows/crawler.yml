@@ -1,0 +1,22 @@
+\
+name: Tang Thu News Crawler
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+jobs:
+  crawler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[dev]"
+      - run: python -m tangthu_crawler
+        env:
+          TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
+          TANGTHU_UPLOAD_TOKEN: ${{ secrets.TANGTHU_UPLOAD_TOKEN }}
+          TANGTHU_NEWS_DRIVE_FOLDER_ID: ${{ vars.TANGTHU_NEWS_DRIVE_FOLDER_ID }}
+          TANGTHU_UPLOAD_ENABLED: ${{ vars.TANGTHU_UPLOAD_ENABLED || 'false' }}
+      - run: pytest
