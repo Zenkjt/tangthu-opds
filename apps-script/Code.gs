@@ -870,7 +870,9 @@ function doPost(e) {
       return jsonResponse(mutate_(action, body));
 
     }
-
+    if (action === 'upload_epub') {
+      return jsonResponse(uploadEpub_(body));
+    }
 
 
     return jsonResponse({
@@ -1611,4 +1613,125 @@ function jsonResponse(value) {
 
     .setMimeType(ContentService.MimeType.JSON);
 
+}
+/**
+ * Phase 10 — Google Drive EPUB upload action.
+ *
+ * Add this allowlist constant near the top of the existing Code.gs:
+ *
+ * var NEWS_UPLOAD_FOLDER_ID = '1hR0H-wZejPM59ka-340atSlJCCYaaUbs';
+ * var NEWS_UPLOAD_ALLOWED_FILENAME = '0neNews.epub';
+ *
+ * Add the action branch to the EXISTING doPost(e) action router, before
+ * "return jsonResponse({ ok:false, error:'Unsupported mutation' })":
+ *
+ * if (action === 'upload_epub') {
+ *   return jsonResponse(uploadEpub_(body));
+ * }
+ *
+ * Then append the helper below. Do not replace the rest of Code.gs.
+ */
+
+function uploadEpub_(body) {
+  var props = PropertiesService.getScriptProperties();
+  var expectedToken = String(props.getProperty('TANGTHU_UPLOAD_TOKEN') || '');
+  var suppliedToken = String(body.token || '');
+
+  if (!expectedToken || suppliedToken !== expectedToken) {
+    return { ok: false, error: 'Unauthorized upload request.' };
+  }
+
+  var folderId = String(body.folder_id || '');
+  var allowedFolderId = '1hR0H-wZejPM59ka-340atSlJCCYaaUbs';
+
+  if (folderId !== allowedFolderId) {
+    return { ok: false, error: 'Target folder is not allowlisted.' };
+  }
+
+  var filename = String(body.filename || '');
+  if (filename !== '0neNews.epub') {
+    return { ok: false, error: 'Filename is not allowlisted.' };
+  }
+
+  if (String(body.mime_type || '') !== 'application/epub+zip') {
+    return { ok: false, error: 'Unexpected MIME type.' };
+  }
+
+  var encoded = String(body.content_base64 || '');
+  if (!encoded || encoded.length > 45 * 1024 * 1024) {
+    return { ok: false, error: 'Missing or oversized EPUB payload.' };
+  }
+
+  var bytes;
+  try {
+    bytes = Utilities.base64Decode(encoded);
+  } catch (err) {
+    return { ok: false, error: 'Invalid base64 payload.' };
+  }
+
+  if (!bytes.length) {
+    return { ok: false, error: 'Empty EPUB payload.' };
+  }
+
+  // Use the existing Drive permissions and fail clearly if the script owner
+  // cannot write to the target folder.
+  var folder;
+  try {
+    folder = DriveApp.getFolderById(allowedFolderId);
+  } catch (err) {
+    return { ok: false, error: 'Apps Script cannot write to the target folder: ' + String(err) };
+  }
+
+  var blob = Utilities.newBlob(bytes, 'application/epub+zip', filename);
+  var matches = folder.getFilesByName(filename);
+  var file = null;
+
+  if (matches.hasNext()) {
+    file = matches.next();
+
+    // Avoid ambiguous overwrites if the folder already contains duplicate names.
+    if (matches.hasNext()) {
+      return { ok: false, error: 'Multiple files named ' + filename + ' exist in target folder; refusing ambiguous overwrite.' };
+    }
+
+    // DriveApp File.setContent only supports text, not arbitrary binary.
+    // Use the Advanced Drive service for binary content update; the required
+    // API call is Drive.Files.update(metadata, fileId, blob).
+    try {
+      Drive.Files.update(
+        { name: filename, mimeType: 'application/epub+zip' },
+        file.getId(),
+        blob,
+        { supportsAllDrives: true }
+      );
+      file = DriveApp.getFileById(file.getId());
+      return {
+        ok: true,
+        operation: 'updated',
+        filename: file.getName(),
+        file_id: file.getId(),
+        size: file.getSize()
+      };
+    } catch (err) {
+      return { ok: false, error: 'Failed to update existing EPUB in place: ' + String(err) };
+    }
+  }
+
+  try {
+    // Advanced Drive service preserves correct binary bytes and MIME type.
+    var created = Drive.Files.create(
+      { name: filename, mimeType: 'application/epub+zip', parents: [allowedFolderId] },
+      blob,
+      { supportsAllDrives: true }
+    );
+    return {
+      ok: true,
+      operation: 'created',
+      filename: created.name,
+      file_id: created.id,
+      size: bytes.length
+    };
+  } catch (err) {
+    return { ok: false, error: 'Failed to create EPUB in target folder: ' + String(err) };
+  }
 }
