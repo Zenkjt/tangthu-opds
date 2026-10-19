@@ -107,6 +107,9 @@ jobs:
           TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
         run: python3 scripts/postprocess_registration.py
 
+      - name: Apply news UI
+        run: python3 scripts/postprocess_news.py
+
       - name: Add short OPDS entry point
         run: |
           printf '%s\n' \
