@@ -48,7 +48,7 @@ news_fn = r'''  function showNews(){
       '</fieldset>');
 
     var configUrl='https://raw.githubusercontent.com/Zenkjt/tangthu-opds/main/config/config_news_sources.json';
-    var newsWorkerUrl='https://tangthu-news-worker.workers.dev';
+    var newsWorkerUrl='https://tangthu-news-worker.mienluonngon.workers.dev';
     var subsUrl='https://raw.githubusercontent.com/Zenkjt/tangthu-opds/main/config/config_news_subscriptions.json';
     var branchesUrl='https://raw.githubusercontent.com/Zenkjt/tangthu-opds/main/config/branches.json';
     var registry=[],subscriptions=[],branchesList=[];
