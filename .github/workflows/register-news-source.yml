@@ -32,8 +32,10 @@ jobs:
             const title = issue.title || '';
             if (!title.startsWith('[TIN TỨC]')) return;
             const body = issue.body || '';
+            const nameMatch = body.match(/^- Tên nguồn:\s*(.+)$/mi);
             const urlMatch = body.match(/^- URL:\s*(.+)$/mi);
             const actionMatch = body.match(/^- Hành động:\s*(.+)$/mi);
+            const requestedName = nameMatch ? nameMatch[1].trim() : '';
             const requestedURL = urlMatch ? urlMatch[1].trim() : '';
             const requestedAction = actionMatch ? actionMatch[1].trim().toLowerCase() : 'add';
             function fail(message) {
@@ -61,8 +63,8 @@ jobs:
             if (!requestedURL) return fail('Yêu cầu thiếu **URL**.');
             const sourceURL = normalizeURL(requestedURL);
             if (!sourceURL) return fail('URL nguồn không hợp lệ.');
-            const autoName = sourceName(sourceURL);
-            if (!autoName) return fail('Không thể tự xác định tên nguồn từ URL.');
+            const autoName = requestedName || sourceName(sourceURL);
+            if (!autoName) return fail('Không thể tự xác định tên nguồn.');
             const content = await github.rest.repos.getContent({owner,repo,path:'config/config_news_sources.json',ref:'main'});
             if (Array.isArray(content.data)) return fail('Không đọc được config/config_news_sources.json.');
             const config = JSON.parse(Buffer.from(content.data.content,'base64').toString('utf8'));
