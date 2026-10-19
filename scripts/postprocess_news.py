@@ -71,8 +71,8 @@ news_fn = r'''  function showNews(){
       if(!active.length){host.innerHTML='<div class="empty">Chưa có nguồn tin.</div>';updateSummary();return;}
       var branchId=state.branch?state.branch.id:'';
       host.innerHTML=active.map(function(s){var sub=subscriptions.find(function(x){return x.branch_id===branchId&&x.source_id===s.id&&x.enabled!==false;}),count=sub?Number(sub.article_count)||5:5;return '<div class="news-source-row"><label class="news-source-main"><input class="news-source-check" type="checkbox" data-id="'+esc(s.id)+'" '+(sub?'checked':'')+'><span><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.name)+'</a></span></label><input class="news-count" data-id="'+esc(s.id)+'" type="number" min="5" max="25" value="'+count+'" '+(sub?'':'disabled')+'></div>';}).join('');
-      host.querySelectorAll('.news-source-check').forEach(function(box){box.onchange=function(){var input=host.querySelector('.news-count[data-id="'+box.dataset.id+'"]');if(input)input.disabled=!box.checked;updateSummary();};});
-      host.querySelectorAll('.news-count').forEach(function(input){input.oninput=updateSummary;});
+      host.querySelectorAll('.news-source-check').forEach(function(box){box.onchange=function(){var input=host.querySelector('.news-count[data-id="'+box.dataset.id+'"]');if(input)input.disabled=!box.checked;$('newsRegisterResult').textContent='';$('newsRegisterBtn').disabled=false;updateSummary();};});
+      host.querySelectorAll('.news-count').forEach(function(input){input.oninput=function(){$('newsRegisterResult').textContent='';$('newsRegisterBtn').disabled=false;updateSummary();};});
       updateSummary();
     }
 
@@ -92,8 +92,8 @@ news_fn = r'''  function showNews(){
       $('newsCheck').textContent='Tên nguồn tin: '+name+' · Nguồn này chưa có trong thư viện.';$('newsCheckBtn').textContent='Thêm nguồn';
       $('newsCheckBtn').onclick=function(){var body='- URL: '+state.canonicalUrl+'\n- Hành động: add';var issue='https://github.com/Zenkjt/tangthu-opds/issues/new?title='+encodeURIComponent('[TIN TỨC] '+state.name)+'&body='+encodeURIComponent(body);window.open(issue,'_blank','noopener');$('newsCheck').textContent='Đã mở yêu cầu thêm nguồn. Sau khi workflow xử lý xong, bấm Refresh để cập nhật danh sách.';$('newsCheckBtn').disabled=true;};
     };
-    $('newsShelfUrl').oninput=function(){clearTimeout(window.__tangthuNewsShelfTimer);window.__tangthuNewsShelfTimer=setTimeout(checkShelf,250);};
-    document.querySelectorAll('input[name="newsMode"]').forEach(function(radio){radio.onchange=function(){if(this.value==='images'&&selectedTotal()>100){$('newsModeWarning').textContent='Chế độ có hình tối đa 100 bài. Vui lòng xoá bớt tổng số bài xuống 100 hoặc ít hơn.';$('newsModeWarning').style.display='block';document.querySelector('input[name="newsMode"][value="text"]').checked=true;return;}enforceMode();};});
+    $('newsShelfUrl').oninput=function(){$('newsRegisterResult').textContent='';$('newsRegisterBtn').disabled=false;clearTimeout(window.__tangthuNewsShelfTimer);window.__tangthuNewsShelfTimer=setTimeout(checkShelf,250);};
+    document.querySelectorAll('input[name="newsMode"]').forEach(function(radio){radio.onchange=function(){$('newsRegisterResult').textContent='';$('newsRegisterBtn').disabled=false;if(this.value==='images'&&selectedTotal()>100){$('newsModeWarning').textContent='Chế độ có hình tối đa 100 bài. Vui lòng xoá bớt tổng số bài xuống 100 hoặc ít hơn.';$('newsModeWarning').style.display='block';document.querySelector('input[name="newsMode"][value="text"]').checked=true;return;}enforceMode();};});
 
     $('newsRegisterBtn').onclick=function(){
       var branch=state.branch,selected=selectedSources(),mode=document.querySelector('input[name="newsMode"]:checked').value,total=selectedTotal();
