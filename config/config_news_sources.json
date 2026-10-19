@@ -1,3 +1,11 @@
 {
-  "sources": []
+  "sources": [
+    {
+      "id": "s-d18f41563365",
+      "name": "Vnexpress",
+      "url": "https://vnexpress.net/",
+      "enabled": true,
+      "order": 1
+    }
+  ]
 }
