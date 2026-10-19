@@ -38,14 +38,14 @@ news_fn = r'''  function showNews(){
       '<fieldset><legend>Chế độ bản tin</legend>'+
       '<label><input type="radio" name="newsMode" value="text" checked> Chỉ chữ (tối đa 200 bài)</label>'+
       '<label><input type="radio" name="newsMode" value="images"> Có hình (tối đa 100 bài)</label>'+
-      '<div class="lookup-state news-warning" id="newsModeWarning"></div></fieldset>'+
+      '<div class="news-warning" id="newsModeWarning"></div></fieldset>'+
 
       '<fieldset><legend>Địa chỉ nhận tin</legend>'+
       '<div class="news-hint">Dán địa chỉ tủ sách của bạn bên dưới và chọn đăng ký, chú ý Google folder phải để chế độ public/everyone can edit.</div>'+
       '<input id="newsShelfUrl" type="url" placeholder="https://drive.google.com/drive/folders/...">'+
-      '<div class="lookup-state" id="newsShelfStatus">Chưa kiểm tra tủ sách.</div>'+
+      '<div class="news-shelf-status" id="newsShelfStatus">Tủ sách nhận tin</div>'+
       '<div class="modal-actions news-register-actions"><button id="newsRegisterBtn" disabled>Đăng ký</button></div>'+
-      '<div class="lookup-state" id="newsRegisterResult"></div></fieldset>');
+      '<div class="news-register-result" id="newsRegisterResult"></div></fieldset>');
 
     var configUrl='https://raw.githubusercontent.com/Zenkjt/tangthu-opds/main/config/config_news_sources.json';
     var subsUrl='https://raw.githubusercontent.com/Zenkjt/tangthu-opds/main/config/config_news_subscriptions.json';
@@ -78,7 +78,7 @@ news_fn = r'''  function showNews(){
 
     function checkShelf(){
       var raw=$('newsShelfUrl').value.trim();state.branch=branchFromUrl(raw);
-      if(!raw){$('newsShelfStatus').textContent='Chưa kiểm tra tủ sách.';renderSources();return;}
+      if(!raw){$('newsShelfStatus').textContent='Tủ sách nhận tin';renderSources();return;}
       if(!state.branch){$('newsShelfStatus').textContent='Tủ sách không tồn tại, vui lòng tạo tủ mới hoặc chọn tủ khác';$('newsRegisterResult').textContent='';renderSources();updateRegisterState();return;}
       $('newsShelfStatus').textContent='Tủ sách: '+(state.branch.display_name||state.branch.id);$('newsRegisterResult').textContent='';renderSources();updateRegisterState();
     }
@@ -116,7 +116,7 @@ if "  $('newsBtn').onclick=showNews;" not in text:
     text = text.replace(marker, marker + "\n  $('newsBtn').onclick=showNews;", 1)
 
 if ".news-source-row{" not in text:
-    css = r''' .news-url-row{display:flex;align-items:flex-end;gap:10px}.news-url-field{flex:1;min-width:0}.news-inline-btn{height:38px;min-width:120px}.news-sources{display:flex;flex-direction:column;gap:4px}.news-source-row{display:flex;align-items:center;gap:8px;padding:6px 4px;border-bottom:1px dotted #aaa}.news-source-main{display:flex;align-items:center;gap:7px;min-width:0;flex:1}.news-source-main span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.news-source-main a{color:#000}.news-count{width:70px;height:30px;padding:3px 5px;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff;background:#fff}.news-count:disabled{background:#ddd;color:#777}.news-hint{margin:0 0 8px;font-size:12px;color:#555}.news-warning{margin-top:7px}.news-register-actions{justify-content:flex-end}'''
+    css = r''' .news-url-row{display:flex;align-items:flex-end;gap:10px}.news-url-field{flex:1;min-width:0}.news-inline-btn{height:38px;min-width:120px}.news-sources{display:flex;flex-direction:column;gap:4px}.news-source-row{display:flex;align-items:center;gap:8px;padding:6px 4px;border-bottom:1px dotted #aaa}.news-source-main{display:flex;align-items:center;gap:7px;min-width:0;flex:1}.news-source-main span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.news-source-main a{color:#000}.news-count{width:70px;height:30px;padding:3px 5px;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff;background:#fff}.news-count:disabled{background:#ddd;color:#777}.news-hint{margin:0 0 8px;font-size:12px;color:#555}.news-warning,.news-shelf-status,.news-register-result{margin-top:7px;padding:0;background:transparent;border:0;box-shadow:none;color:#555}.news-warning:empty,.news-register-result:empty{display:none}.news-register-actions{justify-content:flex-end}'''
     text = text.replace("</style>", css + "</style>", 1)
 
 path.write_text(text, encoding="utf-8")
