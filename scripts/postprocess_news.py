@@ -43,9 +43,9 @@ news_fn = r'''  function showNews(){
       '<fieldset><legend>Địa chỉ nhận tin</legend>'+
       '<div class="news-hint">Dán địa chỉ tủ sách của bạn bên dưới và chọn đăng ký, chú ý Google folder phải để chế độ public/everyone can edit.</div>'+
       '<input id="newsShelfUrl" type="url" placeholder="https://drive.google.com/drive/folders/...">'+
-      '<div class="news-shelf-status" id="newsShelfStatus">Tủ sách nhận tin</div>'+
+      '<div class="lookup-state" id="newsShelfStatus">Tủ sách nhận tin</div>'+
       '<div class="modal-actions news-register-actions"><button id="newsRegisterBtn" disabled>Đăng ký</button></div>'+
-      '<div class="news-register-result" id="newsRegisterResult"></div></fieldset>');
+      '</fieldset>');
 
     var configUrl='https://raw.githubusercontent.com/Zenkjt/tangthu-opds/main/config/config_news_sources.json';
     var subsUrl='https://raw.githubusercontent.com/Zenkjt/tangthu-opds/main/config/config_news_subscriptions.json';
@@ -71,16 +71,16 @@ news_fn = r'''  function showNews(){
       if(!active.length){host.innerHTML='<div class="empty">Chưa có nguồn tin.</div>';updateSummary();return;}
       var branchId=state.branch?state.branch.id:'';
       host.innerHTML=active.map(function(s){var sub=subscriptions.find(function(x){return x.branch_id===branchId&&x.source_id===s.id&&x.enabled!==false;}),count=sub?Number(sub.article_count)||5:5;return '<div class="news-source-row"><label class="news-source-main"><input class="news-source-check" type="checkbox" data-id="'+esc(s.id)+'" '+(sub?'checked':'')+'><span><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.name)+'</a></span></label><input class="news-count" data-id="'+esc(s.id)+'" type="number" min="5" max="25" value="'+count+'" '+(sub?'':'disabled')+'></div>';}).join('');
-      host.querySelectorAll('.news-source-check').forEach(function(box){box.onchange=function(){var input=host.querySelector('.news-count[data-id="'+box.dataset.id+'"]');if(input)input.disabled=!box.checked;$('newsRegisterResult').textContent='';$('newsRegisterBtn').disabled=false;updateSummary();};});
-      host.querySelectorAll('.news-count').forEach(function(input){input.oninput=function(){$('newsRegisterResult').textContent='';$('newsRegisterBtn').disabled=false;updateSummary();};});
+      host.querySelectorAll('.news-source-check').forEach(function(box){box.onchange=function(){var input=host.querySelector('.news-count[data-id="'+box.dataset.id+'"]');if(input)input.disabled=!box.checked;$('newsShelfStatus').textContent='Tủ sách nhận tin';$('newsRegisterBtn').disabled=false;updateSummary();};});
+      host.querySelectorAll('.news-count').forEach(function(input){input.oninput=function(){$('newsShelfStatus').textContent='Tủ sách nhận tin';$('newsRegisterBtn').disabled=false;updateSummary();};});
       updateSummary();
     }
 
     function checkShelf(){
       var raw=$('newsShelfUrl').value.trim();state.branch=branchFromUrl(raw);
       if(!raw){$('newsShelfStatus').textContent='Tủ sách nhận tin';renderSources();return;}
-      if(!state.branch){$('newsShelfStatus').textContent='Tủ sách không tồn tại, vui lòng tạo tủ mới hoặc chọn tủ khác';$('newsRegisterResult').textContent='';renderSources();updateRegisterState();return;}
-      $('newsShelfStatus').textContent='Tủ sách: '+(state.branch.display_name||state.branch.id);$('newsRegisterResult').textContent='';renderSources();updateRegisterState();
+      if(!state.branch){$('newsShelfStatus').textContent='tủ sách không tồn tại, vui lòng tạo tủ';renderSources();updateRegisterState();return;}
+      $('newsShelfStatus').textContent='Tủ sách: '+(state.branch.display_name||state.branch.id);renderSources();updateRegisterState();
     }
 
     $('newsSourceUrl').oninput=function(){state.canonicalUrl='';state.name='';state.exists=false;$('newsCheck').textContent='Chưa kiểm tra nguồn.';$('newsCheckBtn').textContent='Kiểm tra';$('newsCheckBtn').disabled=false;};
@@ -92,15 +92,15 @@ news_fn = r'''  function showNews(){
       $('newsCheck').textContent='Tên nguồn tin: '+name+' · Nguồn này chưa có trong thư viện.';$('newsCheckBtn').textContent='Thêm nguồn';
       $('newsCheckBtn').onclick=function(){var body='- URL: '+state.canonicalUrl+'\n- Hành động: add';var issue='https://github.com/Zenkjt/tangthu-opds/issues/new?title='+encodeURIComponent('[TIN TỨC] '+state.name)+'&body='+encodeURIComponent(body);window.open(issue,'_blank','noopener');$('newsCheck').textContent='Đã mở yêu cầu thêm nguồn. Sau khi workflow xử lý xong, bấm Refresh để cập nhật danh sách.';$('newsCheckBtn').disabled=true;};
     };
-    $('newsShelfUrl').oninput=function(){$('newsRegisterResult').textContent='';$('newsRegisterBtn').disabled=false;clearTimeout(window.__tangthuNewsShelfTimer);window.__tangthuNewsShelfTimer=setTimeout(checkShelf,250);};
-    document.querySelectorAll('input[name="newsMode"]').forEach(function(radio){radio.onchange=function(){$('newsRegisterResult').textContent='';$('newsRegisterBtn').disabled=false;if(this.value==='images'&&selectedTotal()>100){$('newsModeWarning').textContent='Chế độ có hình tối đa 100 bài. Vui lòng xoá bớt tổng số bài xuống 100 hoặc ít hơn.';$('newsModeWarning').style.display='block';document.querySelector('input[name="newsMode"][value="text"]').checked=true;return;}enforceMode();};});
+    $('newsShelfUrl').oninput=function(){$('newsShelfStatus').textContent='Tủ sách nhận tin';$('newsRegisterBtn').disabled=false;clearTimeout(window.__tangthuNewsShelfTimer);window.__tangthuNewsShelfTimer=setTimeout(checkShelf,250);};
+    document.querySelectorAll('input[name="newsMode"]').forEach(function(radio){radio.onchange=function(){$('newsShelfStatus').textContent='Tủ sách nhận tin';$('newsRegisterBtn').disabled=false;if(this.value==='images'&&selectedTotal()>100){$('newsModeWarning').textContent='Chế độ có hình tối đa 100 bài. Vui lòng xoá bớt tổng số bài xuống 100 hoặc ít hơn.';$('newsModeWarning').style.display='block';document.querySelector('input[name="newsMode"][value="text"]').checked=true;return;}enforceMode();};});
 
     $('newsRegisterBtn').onclick=function(){
       var branch=state.branch,selected=selectedSources(),mode=document.querySelector('input[name="newsMode"]:checked').value,total=selectedTotal();
       if(!branch||!selected.length)return;
       if(mode==='images'&&total>100){$('newsModeWarning').textContent='Chế độ có hình tối đa 100 bài. Vui lòng xoá bớt tổng số bài xuống 100 hoặc ít hơn.';return;}
       selected.forEach(function(item){var source=registry.find(function(s){return s.id===item.id;}),body='- Tủ sách ID: '+branch.id+'\n- Source ID: '+item.id+'\n- Số bài: '+item.count+'\n- Chế độ: '+mode+'\n- Hành động: add',issue='https://github.com/Zenkjt/tangthu-opds/issues/new?title='+encodeURIComponent('[TIN TỨC SUB] '+(source?source.name:item.id))+'&body='+encodeURIComponent(body);window.open(issue,'_blank','noopener');});
-      $('newsRegisterResult').textContent=(branch.display_name||branch.id)+' đăng ký nhận tin thành công';$('newsRegisterBtn').disabled=true;
+      $('newsShelfStatus').textContent=(branch.display_name||branch.id)+' đăng ký nhận tin thành công';$('newsRegisterBtn').disabled=true;
     };
 
     Promise.all([loadJSON(configUrl),loadJSON(subsUrl),loadJSON(branchesUrl)]).then(function(data){registry=Array.isArray(data[0].sources)?data[0].sources:[];subscriptions=Array.isArray(data[1].subscriptions)?data[1].subscriptions:[];branchesList=Array.isArray(data[2].branches)?data[2].branches:[];renderSources();updateRegisterState();}).catch(function(err){$('newsSources').innerHTML='<div class="empty">Không tải được Bulletin Registry: '+esc(String(err))+'</div>';updateRegisterState();});
@@ -116,7 +116,7 @@ if "  $('newsBtn').onclick=showNews;" not in text:
     text = text.replace(marker, marker + "\n  $('newsBtn').onclick=showNews;", 1)
 
 if ".news-source-row{" not in text:
-    css = r''' .news-url-row{display:flex;align-items:flex-end;gap:10px}.news-url-field{flex:1;min-width:0}.news-inline-btn{height:38px;min-width:120px}.news-sources{display:flex;flex-direction:column;gap:4px}.news-source-row{display:flex;align-items:center;gap:8px;padding:6px 4px;border-bottom:1px dotted #aaa}.news-source-main{display:flex;align-items:center;gap:7px;min-width:0;flex:1}.news-source-main span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.news-source-main a{color:#000}.news-count{width:70px;height:30px;padding:3px 5px;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff;background:#fff}.news-count:disabled{background:#ddd;color:#777}.news-hint{margin:0 0 8px;font-size:12px;color:#555}.news-warning,.news-shelf-status,.news-register-result{margin-top:7px;padding:0;background:transparent;border:0;box-shadow:none;color:#555}.news-warning:empty,.news-register-result:empty{display:none}.news-register-actions{justify-content:flex-end}'''
+    css = r''' .news-url-row{display:flex;align-items:flex-end;gap:10px}.news-url-field{flex:1;min-width:0}.news-inline-btn{height:38px;min-width:120px}.news-sources{display:flex;flex-direction:column;gap:4px}.news-source-row{display:flex;align-items:center;gap:8px;padding:6px 4px;border-bottom:1px dotted #aaa}.news-source-main{display:flex;align-items:center;gap:7px;min-width:0;flex:1}.news-source-main span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.news-source-main a{color:#000}.news-count{width:70px;height:30px;padding:3px 5px;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff;background:#fff}.news-count:disabled{background:#ddd;color:#777}.news-hint{margin:0 0 8px;font-size:12px;color:#555}.news-warning{margin-top:7px;color:#555}.news-warning:empty{display:none}.news-register-actions{justify-content:flex-end}'''
     text = text.replace("</style>", css + "</style>", 1)
 
 path.write_text(text, encoding="utf-8")
