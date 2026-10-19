@@ -1,0 +1,267 @@
+name: Manage TÀNG THƯ news subscription
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: tangthu-news-subscription
+  cancel-in-progress: false
+
+jobs:
+  manage:
+    if: ${{ github.event_name == 'workflow_dispatch' || startsWith(github.event.issue.title, '[TIN TỨC SUB]') }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Process subscription request
+        uses: actions/github-script@v8
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+          script: |
+            const crypto = require('crypto');
+
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issue = context.payload.issue;
+
+            if (context.eventName === 'workflow_dispatch') {
+              core.info('Manual run: no issue to process.');
+              return;
+            }
+
+            const body = issue.body || '';
+
+            const branchMatch = body.match(/^- Tủ sách ID:\s*(.+)$/mi);
+            const sourceMatch = body.match(/^- Source ID:\s*(.+)$/mi);
+            const countMatch = body.match(/^- Số bài:\s*(\d+)$/mi);
+            const modeMatch = body.match(/^- Chế độ:\s*(.+)$/mi);
+            const actionMatch = body.match(/^- Hành động:\s*(.+)$/mi);
+
+            const branchId = branchMatch ? branchMatch[1].trim() : '';
+            const sourceId = sourceMatch ? sourceMatch[1].trim() : '';
+            const articleCount = countMatch ? Number(countMatch[1]) : NaN;
+            const requestedMode = modeMatch
+              ? modeMatch[1].trim().toLowerCase()
+              : 'text';
+            const requestedAction = actionMatch
+              ? actionMatch[1].trim().toLowerCase()
+              : 'add';
+
+            function closeWithComment(message) {
+              return github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: issue.number,
+                body: message
+              }).then(() =>
+                github.rest.issues.update({
+                  owner,
+                  repo,
+                  issue_number: issue.number,
+                  state: 'closed'
+                })
+              );
+            }
+
+            function readJSON(path) {
+              return github.rest.repos.getContent({
+                owner,
+                repo,
+                path,
+                ref: 'main'
+              }).then(result => {
+                if (Array.isArray(result.data)) {
+                  throw new Error(`Không đọc được ${path}.`);
+                }
+
+                const text =
+                  Buffer.from(result.data.content, 'base64').toString('utf8');
+
+                return {
+                  data: JSON.parse(text),
+                  sha: result.data.sha
+                };
+              });
+            }
+
+            if (!branchId || !sourceId) {
+              return closeWithComment(
+                '❌ **TÀNG THƯ:** Thiếu **Tủ sách ID** hoặc **Source ID**.'
+              );
+            }
+
+            if (!['add', 'update', 'delete', 'remove'].includes(requestedAction)) {
+              return closeWithComment(
+                '❌ **TÀNG THƯ:** Hành động phải là `add`, `update`, `delete` hoặc `remove`.'
+              );
+            }
+
+            if (requestedAction !== 'delete' && requestedAction !== 'remove') {
+              if (!Number.isInteger(articleCount) || articleCount < 5 || articleCount > 25) {
+                return closeWithComment(
+                  '❌ **TÀNG THƯ:** Số bài phải từ **5 đến 25**.'
+                );
+              }
+
+              if (!['text', 'images'].includes(requestedMode)) {
+                return closeWithComment(
+                  '❌ **TÀNG THƯ:** Chế độ phải là `text` hoặc `images`.'
+                );
+              }
+            }
+
+            let branches;
+            let sources;
+            let subscriptions;
+
+            try {
+              branches = await readJSON('config/branches.json');
+              sources = await readJSON('config/config_news_sources.json');
+              subscriptions = await readJSON('config/config_news_subscriptions.json');
+            } catch (error) {
+              return closeWithComment(
+                `❌ **TÀNG THƯ:** Không đọc được cấu hình: ${error.message}`
+              );
+            }
+
+            const branchList = Array.isArray(branches.data.branches)
+              ? branches.data.branches
+              : [];
+
+            const sourceList = Array.isArray(sources.data.sources)
+              ? sources.data.sources
+              : [];
+
+            if (!Array.isArray(subscriptions.data.subscriptions)) {
+              subscriptions.data.subscriptions = [];
+            }
+
+            const branch = branchList.find(item => item.id === branchId);
+            if (!branch) {
+              return closeWithComment(
+                `❌ **TÀNG THƯ:** Không tìm thấy tủ sách \`${branchId}\`.`
+              );
+            }
+
+            const source = sourceList.find(item => item.id === sourceId);
+            if (!source) {
+              return closeWithComment(
+                `❌ **TÀNG THƯ:** Không tìm thấy nguồn tin \`${sourceId}\`.`
+              );
+            }
+
+            const subscriptionsList = subscriptions.data.subscriptions;
+
+            const existingIndex = subscriptionsList.findIndex(
+              item => item.branch_id === branchId && item.source_id === sourceId
+            );
+
+            const existing =
+              existingIndex >= 0 ? subscriptionsList[existingIndex] : null;
+
+            if (requestedAction === 'delete' || requestedAction === 'remove') {
+              if (!existing) {
+                return closeWithComment(
+                  '❌ **TÀNG THƯ:** Subscription này không tồn tại. Không có gì để xóa.'
+                );
+              }
+
+              subscriptionsList.splice(existingIndex, 1);
+
+              await github.rest.repos.createOrUpdateFileContents({
+                owner,
+                repo,
+                path: 'config/config_news_subscriptions.json',
+                message: `Remove news subscription: ${branchId}/${sourceId}`,
+                content: Buffer.from(
+                  JSON.stringify(subscriptions.data, null, 2) + '\n'
+                ).toString('base64'),
+                sha: subscriptions.sha,
+                branch: 'main'
+              });
+
+              return closeWithComment(
+                `✅ **TÀNG THƯ:** Đã hủy đăng ký **${source.name}** khỏi tủ sách **${branch.display_name || branch.name || branchId}**.`
+              );
+            }
+
+            if (branch.status && branch.status !== 'active') {
+              return closeWithComment(
+                `❌ **TÀNG THƯ:** Tủ sách \`${branchId}\` đang ở trạng thái \`${branch.status}\`, không thể tạo/cập nhật subscription.`
+              );
+            }
+
+            if (!source.enabled) {
+              return closeWithComment(
+                `❌ **TÀNG THƯ:** Nguồn tin **${source.name}** đang bị tắt trong Bulletin Registry.`
+              );
+            }
+
+            const now = new Date().toISOString();
+
+            if (existing) {
+              existing.article_count = articleCount;
+              existing.edition_mode = requestedMode;
+              existing.enabled = true;
+              existing.updated_at = now;
+
+              await github.rest.repos.createOrUpdateFileContents({
+                owner,
+                repo,
+                path: 'config/config_news_subscriptions.json',
+                message: `Update news subscription: ${branchId}/${sourceId}`,
+                content: Buffer.from(
+                  JSON.stringify(subscriptions.data, null, 2) + '\n'
+                ).toString('base64'),
+                sha: subscriptions.sha,
+                branch: 'main'
+              });
+
+              return closeWithComment(
+                `✅ **TÀNG THƯ:** Đã cập nhật subscription **${source.name}** → **${articleCount} bài**, chế độ **${requestedMode}**.`
+              );
+            }
+
+            const subscriptionId =
+              `sub-${crypto
+                .createHash('sha256')
+                .update(`${branchId}:${sourceId}`)
+                .digest('hex')
+                .slice(0, 12)}`;
+
+            subscriptionsList.push({
+              id: subscriptionId,
+              branch_id: branchId,
+              source_id: sourceId,
+              article_count: articleCount,
+              edition_mode: requestedMode,
+              enabled: true,
+              created_at: now,
+              updated_at: now
+            });
+
+            await github.rest.repos.createOrUpdateFileContents({
+              owner,
+              repo,
+              path: 'config/config_news_subscriptions.json',
+              message: `Add news subscription: ${branchId}/${sourceId}`,
+              content: Buffer.from(
+                JSON.stringify(subscriptions.data, null, 2) + '\n'
+              ).toString('base64'),
+              sha: subscriptions.sha,
+              branch: 'main'
+            });
+
+            await closeWithComment(
+              `✅ **TÀNG THƯ:** Đã đăng ký **${source.name}** cho tủ sách **${branch.display_name || branch.name || branchId}**.\n\n` +
+              `Subscription ID: \`${subscriptionId}\`\n` +
+              `Số bài: **${articleCount}** · Chế độ: **${requestedMode}**`
+            );
