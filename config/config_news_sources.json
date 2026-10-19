@@ -9,17 +9,24 @@
     },
     {
       "id": "s-dc670b803afb",
-      "name": "vnexpress.net â HÃ  Ná»i",
+      "name": "vnexpress.net Ã¢ÂÂ HÃÂ  NÃ¡Â»Âi",
       "url": "https://vnexpress.net/chu-de/thanh-pho-ha-noi-2056",
       "enabled": true,
       "order": 2
     },
     {
       "id": "s-be033261cd1d",
-      "name": "https://baomoi.com — Thế giới - Tin thời sự quốc tế, tin tức quân sự và an ninh thế giới",
+      "name": "https://baomoi.com â Tháº¿ giá»i - Tin thá»i sá»± quá»c táº¿, tin tá»©c quÃ¢n sá»± vÃ  an ninh tháº¿ giá»i",
       "url": "https://baomoi.com/the-gioi.epi",
       "enabled": true,
       "order": 3
+    },
+    {
+      "id": "s-9cf5f9d51866",
+      "name": "Redsvn.net — Redsvn.net",
+      "url": "https://redsvn.net/",
+      "enabled": true,
+      "order": 4
     }
   ]
 }
