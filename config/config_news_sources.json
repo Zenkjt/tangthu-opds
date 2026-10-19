@@ -27,6 +27,13 @@
       "url": "https://redsvn.net/",
       "enabled": true,
       "order": 4
+    },
+    {
+      "id": "s-abf1949433a3",
+      "name": "TIME",
+      "url": "https://time.com/",
+      "enabled": true,
+      "order": 5
     }
   ]
 }
