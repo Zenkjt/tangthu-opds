@@ -55,9 +55,11 @@ news_fn = r'''  function showNews(){
     function canonicalize(value){
       try{var u=new URL(value);if(u.protocol!=='http:'&&u.protocol!=='https:')return '';u.hash='';if(u.pathname.length>1)u.pathname=u.pathname.replace(/\/+$/,'');return u.toString();}catch(e){return '';}
     }
-    function sourceName(value){
-      try{var host=new URL(value).hostname.toLowerCase().replace(/^www\./,'');var first=host.split('.')[0];if(!first)return host;if(['bbc','cnn','npr','abc','nbc','cbs','cnbc','dw','ap','afp','ansa','upi'].indexOf(first)>=0)return first.toUpperCase();return first.replace(/[-_]+/g,' ').replace(/\b\w/g,function(c){return c.toUpperCase();});}catch(e){return '';}
+    var newsApi='/api/news';
+    function sourceNameFallback(value){
+      try{var host=new URL(value).hostname.toLowerCase().replace(/^www\./,'');var first=host.split('.')[0];if(!first)return host;if(['bbc','cnn','npr','abc','nbc','cbs','cnbc','dw','ap','afp','ansa','upi'].indexOf(first)>=0)return first.toUpperCase();return first.replace(/[-_]+/g,' ').replace(/\b\w/g,function(c){return c.toUpperCase();});}catch(e){return ''; }
     }
+    function apiJSON(path,payload){return fetch(newsApi+path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)}).then(function(r){return r.json().catch(function(){return {};}).then(function(data){if(!r.ok)throw new Error(data.error||('HTTP '+r.status));return data;});});}
     function loadJSON(url){return fetch(url,{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();});}
     function selectedSources(){var out=[];document.querySelectorAll('#newsSources .news-source-check').forEach(function(box){if(!box.checked)return;var input=document.querySelector('#newsSources .news-count[data-id="'+box.dataset.id+'"]');out.push({id:box.dataset.id,count:Math.max(5,Math.min(25,Number(input&&input.value)||5))});});return out;}
     function selectedTotal(){return selectedSources().reduce(function(n,x){return n+x.count;},0);}
@@ -87,10 +89,19 @@ news_fn = r'''  function showNews(){
     $('newsCheckBtn').onclick=function(){
       var canonical=canonicalize($('newsSourceUrl').value.trim());
       if(!canonical){$('newsCheck').textContent='URL không hợp lệ.';return;}
-      var name=sourceName(canonical),existing=registry.find(function(s){return canonicalize(s.url)===canonical;});state.canonicalUrl=canonical;state.name=name;state.exists=!!existing;
-      if(existing){$('newsCheck').textContent='Tên nguồn tin: '+existing.name+' · Nguồn này đã có trong thư viện.';$('newsCheckBtn').textContent='Đã có';$('newsCheckBtn').disabled=true;return;}
-      $('newsCheck').textContent='Tên nguồn tin: '+name+' · Nguồn này chưa có trong thư viện.';$('newsCheckBtn').textContent='Thêm nguồn';
-      $('newsCheckBtn').onclick=function(){var body='- URL: '+state.canonicalUrl+'\n- Hành động: add';var issue='https://github.com/Zenkjt/tangthu-opds/issues/new?title='+encodeURIComponent('[TIN TỨC] '+state.name)+'&body='+encodeURIComponent(body);window.open(issue,'_blank','noopener');$('newsCheck').textContent='Đã mở yêu cầu thêm nguồn. Sau khi workflow xử lý xong, bấm Refresh để cập nhật danh sách.';$('newsCheckBtn').disabled=true;};
+      $('newsCheckBtn').disabled=true;$('newsCheck').textContent='Đang kiểm tra nguồn…';
+      apiJSON('/source',{action:'check',url:canonical}).then(function(data){
+        var existing=registry.find(function(s){return canonicalize(s.url)===canonical;});
+        var name=data.name||sourceNameFallback(canonical);state.canonicalUrl=canonical;state.name=name;state.exists=!!existing;
+        if(existing){$('newsCheck').textContent='Tên nguồn tin: '+existing.name+' · Nguồn này đã có trong thư viện.';$('newsCheckBtn').textContent='Đã có';return;}
+        $('newsCheck').textContent='Tên nguồn tin: '+name+' · Nguồn này chưa có trong thư viện.';$('newsCheckBtn').textContent='Thêm nguồn';
+        $('newsCheckBtn').onclick=function(){
+          $('newsCheckBtn').disabled=true;$('newsCheck').textContent='Đang thêm nguồn…';
+          apiJSON('/source',{action:'add',url:state.canonicalUrl,name:state.name}).then(function(result){
+            $('newsCheck').textContent='Đã thêm nguồn “'+(result.name||state.name)+'”. Bấm Refresh để cập nhật danh sách nguồn.';
+          }).catch(function(err){$('newsCheckBtn').disabled=false;$('newsCheckBtn').textContent='Thêm nguồn';$('newsCheck').textContent='Không thể thêm nguồn: '+err.message;});
+        };
+      }).catch(function(err){$('newsCheckBtn').disabled=false;$('newsCheckBtn').textContent='Kiểm tra';$('newsCheck').textContent='Không thể kiểm tra nguồn: '+err.message;});
     };
     $('newsShelfUrl').oninput=function(){$('newsShelfStatus').textContent='Tủ sách nhận tin';$('newsRegisterBtn').disabled=false;clearTimeout(window.__tangthuNewsShelfTimer);window.__tangthuNewsShelfTimer=setTimeout(checkShelf,250);};
     document.querySelectorAll('input[name="newsMode"]').forEach(function(radio){radio.onchange=function(){$('newsShelfStatus').textContent='Tủ sách nhận tin';$('newsRegisterBtn').disabled=false;if(this.value==='images'&&selectedTotal()>100){$('newsModeWarning').textContent='Chế độ có hình tối đa 100 bài. Vui lòng xoá bớt tổng số bài xuống 100 hoặc ít hơn.';$('newsModeWarning').style.display='block';document.querySelector('input[name="newsMode"][value="text"]').checked=true;return;}enforceMode();};});
@@ -99,8 +110,10 @@ news_fn = r'''  function showNews(){
       var branch=state.branch,selected=selectedSources(),mode=document.querySelector('input[name="newsMode"]:checked').value,total=selectedTotal();
       if(!branch||!selected.length)return;
       if(mode==='images'&&total>100){$('newsModeWarning').textContent='Chế độ có hình tối đa 100 bài. Vui lòng xoá bớt tổng số bài xuống 100 hoặc ít hơn.';return;}
-      selected.forEach(function(item){var source=registry.find(function(s){return s.id===item.id;}),body='- Tủ sách ID: '+branch.id+'\n- Source ID: '+item.id+'\n- Số bài: '+item.count+'\n- Chế độ: '+mode+'\n- Hành động: add',issue='https://github.com/Zenkjt/tangthu-opds/issues/new?title='+encodeURIComponent('[TIN TỨC SUB] '+(source?source.name:item.id))+'&body='+encodeURIComponent(body);window.open(issue,'_blank','noopener');});
-      $('newsShelfStatus').textContent=(branch.display_name||branch.id)+' đăng ký nhận tin thành công';$('newsRegisterBtn').disabled=true;
+      $('newsRegisterBtn').disabled=true;$('newsShelfStatus').textContent='Đang đăng ký nhận tin…';
+      Promise.all(selected.map(function(item){return apiJSON('/subscription',{action:'add',branch_id:branch.id,source_id:item.id,article_count:item.count,edition_mode:mode});})).then(function(){
+        $('newsShelfStatus').textContent=(branch.display_name||branch.id)+' đăng ký nhận tin thành công';
+      }).catch(function(err){$('newsRegisterBtn').disabled=false;$('newsShelfStatus').textContent='Không thể đăng ký: '+err.message;});
     };
 
     Promise.all([loadJSON(configUrl),loadJSON(subsUrl),loadJSON(branchesUrl)]).then(function(data){registry=Array.isArray(data[0].sources)?data[0].sources:[];subscriptions=Array.isArray(data[1].subscriptions)?data[1].subscriptions:[];branchesList=Array.isArray(data[2].branches)?data[2].branches:[];renderSources();updateRegisterState();}).catch(function(err){$('newsSources').innerHTML='<div class="empty">Không tải được Bulletin Registry: '+esc(String(err))+'</div>';updateRegisterState();});
