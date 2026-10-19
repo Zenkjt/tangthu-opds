@@ -159,7 +159,7 @@ if "function showNews(){" not in text:
 '''
     text = text.replace(anchor, news_fn + anchor, 1)
 
-marker = "  $('shelfBtn').onclick=showShelf;"
+marker = "$('shelfBtn').onclick=showShelf;"
 if "  $('newsBtn').onclick=showNews;" not in text:
     if marker not in text: raise SystemExit("News UI patch anchor missing: shelfBtn handler")
     text = text.replace(marker, marker + "\n  $('newsBtn').onclick=showNews;", 1)
