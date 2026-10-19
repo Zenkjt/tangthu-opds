@@ -59,6 +59,8 @@ news_fn = r'''  function showNews(){
     function sourceName(value){
       try{var host=new URL(value).hostname.toLowerCase().replace(/^www\./,'');var first=host.split('.')[0];if(!first)return host;if(['bbc','cnn','npr','abc','nbc','cbs','cnbc','dw','ap','afp','ansa','upi'].indexOf(first)>=0)return first.toUpperCase();return first.replace(/[-_]+/g,' ').replace(/\b\w/g,function(c){return c.toUpperCase();});}catch(e){return '';}
     }
+    function repairMojibake(value){var text=String(value||'');if(!/[ÃÂ]/.test(text))return text;try{var bytes=Uint8Array.from(text,function(ch){return ch.charCodeAt(0)&255;});return new TextDecoder('utf-8',{fatal:true}).decode(bytes);}catch(e){return text;}}
+    function displaySourceName(value){var text=repairMojibake(value).replace(/\s+/g,' ').trim();return text.length>52?text.slice(0,51).trimEnd()+'…':text;}
     function workerPost(path,body){return fetch(newsWorkerUrl+path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}).then(function(r){return r.json().then(function(d){if(!r.ok||d.ok===false)throw new Error(d.error||('HTTP '+r.status));return d;});});}
     function loadJSON(url){return fetch(url,{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();});}
     function selectedSources(){var out=[];document.querySelectorAll('#newsSources .news-source-check').forEach(function(box){if(!box.checked)return;var input=document.querySelector('#newsSources .news-count[data-id="'+box.dataset.id+'"]');out.push({id:box.dataset.id,count:Math.max(5,Math.min(25,Number(input&&input.value)||5))});});return out;}
@@ -72,7 +74,7 @@ news_fn = r'''  function showNews(){
       var host=$('newsSources'),active=registry.filter(function(s){return s.enabled!==false;});
       if(!active.length){host.innerHTML='<div class="empty">Chưa có nguồn tin.</div>';updateSummary();return;}
       var branchId=state.branch?state.branch.id:'';
-      host.innerHTML=active.map(function(s){var sub=subscriptions.find(function(x){return x.branch_id===branchId&&x.source_id===s.id&&x.enabled!==false;}),count=sub?Number(sub.article_count)||5:5;return '<div class="news-source-row"><label class="news-source-main"><input class="news-source-check" type="checkbox" data-id="'+esc(s.id)+'" '+(sub?'checked':'')+'><span><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.name)+'</a></span></label><input class="news-count" data-id="'+esc(s.id)+'" type="number" min="5" max="25" value="'+count+'" '+(sub?'':'disabled')+'></div>';}).join('');
+      host.innerHTML=active.map(function(s){var sub=subscriptions.find(function(x){return x.branch_id===branchId&&x.source_id===s.id&&x.enabled!==false;}),count=sub?Number(sub.article_count)||5:5,name=displaySourceName(s.name);return '<div class="news-source-row"><label class="news-source-main"><input class="news-source-check" type="checkbox" data-id="'+esc(s.id)+'" '+(sub?'checked':'')+'><span title="'+esc(repairMojibake(s.name))+'"><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(name)+'</a></span></label><input class="news-count" data-id="'+esc(s.id)+'" type="number" min="5" max="25" value="'+count+'" '+(sub?'':'disabled')+'></div>';}).join('');
       host.querySelectorAll('.news-source-check').forEach(function(box){box.onchange=function(){var input=host.querySelector('.news-count[data-id="'+box.dataset.id+'"]');if(input)input.disabled=!box.checked;$('newsShelfStatus').textContent='Tủ sách nhận tin';$('newsRegisterBtn').disabled=false;updateSummary();};});
       host.querySelectorAll('.news-count').forEach(function(input){input.oninput=function(){$('newsShelfStatus').textContent='Tủ sách nhận tin';$('newsRegisterBtn').disabled=false;updateSummary();};});
       updateSummary();
@@ -96,7 +98,7 @@ news_fn = r'''  function showNews(){
         var existing=registry.find(function(s){return canonicalize(s.url)===url;});
         state.canonicalUrl=url;state.name=name;state.exists=!!existing;
         if(existing){$('newsCheck').textContent='Tên nguồn tin: '+existing.name+' · Nguồn này đã có trong thư viện.';$('newsCheckBtn').textContent='Đã có';$('newsCheckBtn').disabled=true;return;}
-        $('newsCheck').textContent='Tên nguồn tin: '+name+' · Nguồn này chưa có trong thư viện.';
+        $('newsCheck').textContent='Tên nguồn tin: '+displaySourceName(name)+' · Nguồn này chưa có trong thư viện.';
         $('newsCheckBtn').textContent='Thêm nguồn';$('newsCheckBtn').disabled=false;
         $('newsCheckBtn').onclick=function(){
           $('newsCheckBtn').disabled=true;$('newsCheck').textContent='Đang thêm nguồn...';
@@ -105,9 +107,11 @@ news_fn = r'''  function showNews(){
             var source=payload.source||payload;
             state.canonicalUrl=source.url||state.canonicalUrl;state.name=source.name||state.name;state.exists=true;
             if(source.id&&!registry.some(function(s){return s.id===source.id;}))registry.push(source);
-            $('newsCheck').textContent='Đã thêm nguồn: '+(source.name||state.name);
-            $('newsCheckBtn').textContent='Đã thêm';$('newsCheckBtn').disabled=true;
             renderSources();
+            $('newsSourceUrl').value='';
+            state.canonicalUrl='';state.name='';state.exists=false;
+            $('newsCheck').textContent='Chưa kiểm tra nguồn.';
+            $('newsCheckBtn').textContent='Kiểm tra';$('newsCheckBtn').disabled=false;
           }).catch(function(err){$('newsCheck').textContent='Không thể thêm nguồn: '+err.message;$('newsCheckBtn').textContent='Thêm nguồn';$('newsCheckBtn').disabled=false;});
         };
       }).catch(function(err){$('newsCheck').textContent='Không thể kiểm tra nguồn: '+err.message;$('newsCheckBtn').textContent='Kiểm tra';$('newsCheckBtn').disabled=false;});
