@@ -58,9 +58,9 @@ news_fn = r'''  function showNews(){
       '<div class="modal-actions news-register-actions"><button id="newsRegisterBtn" disabled type="button">Đăng ký</button></div>'+
       '</fieldset>');
 
+    var newsWorkerUrl='https://tangthu-news-worker.mienluonngon.workers.dev';
     var configUrl=newsWorkerUrl+'/news/config';
     var branchesUrl='https://raw.githubusercontent.com/Zenkjt/tangthu-opds/main/config/branches.json';
-    var newsWorkerUrl='https://tangthu-news-worker.mienluonngon.workers.dev';
     var registry=[],subscriptions=[],branchesList=[];
 
     function canonicalize(value){
