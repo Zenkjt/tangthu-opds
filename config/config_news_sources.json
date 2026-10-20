@@ -41,6 +41,13 @@
       "url": "https://vanhoanghethuat.vn/nghe-thuat",
       "enabled": true,
       "order": 6
+    },
+    {
+      "id": "s-9be786efe3f7",
+      "name": "vanhoanghethuat.vn",
+      "url": "https://vanhoanghethuat.vn/van-hoa",
+      "enabled": true,
+      "order": 7
     }
   ]
 }
