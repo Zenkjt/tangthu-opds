@@ -8,7 +8,6 @@ on:
 permissions:
   contents: write
   issues: write
-  actions: write
 
 concurrency:
   group: tangthu-news-registry
@@ -28,67 +27,50 @@ jobs:
             const owner = context.repo.owner;
             const repo = context.repo.repo;
             const issue = context.payload.issue;
-            if (context.eventName === 'workflow_dispatch') { core.info('Manual run: no issue to process.'); return; }
-            const title = issue.title || '';
-            if (!title.startsWith('[TIN TỨC]')) return;
+            if (context.eventName === 'workflow_dispatch') return;
             const body = issue.body || '';
-            const nameMatch = body.match(/^- Tên nguồn:\s*(.+)$/mi);
             const urlMatch = body.match(/^- URL:\s*(.+)$/mi);
             const actionMatch = body.match(/^- Hành động:\s*(.+)$/mi);
-            const requestedName = nameMatch ? nameMatch[1].trim() : '';
             const requestedURL = urlMatch ? urlMatch[1].trim() : '';
             const requestedAction = actionMatch ? actionMatch[1].trim().toLowerCase() : 'add';
-            function fail(message) {
-              return github.rest.issues.createComment({owner,repo,issue_number:issue.number,body:`❌ **TÀNG THƯ:** ${message}`}).then(() => github.rest.issues.update({owner,repo,issue_number:issue.number,state:'closed'}));
+            function close(message){return github.rest.issues.createComment({owner,repo,issue_number:issue.number,body:message}).then(()=>github.rest.issues.update({owner,repo,issue_number:issue.number,state:'closed'}));}
+            function normalizeURL(value){try{const u=new URL(value);if(!['http:','https:'].includes(u.protocol))return '';u.hash='';if(u.pathname.length>1)u.pathname=u.pathname.replace(/\/+$/,'');return u.toString();}catch(_){return '';}}
+            if(!requestedURL)return close('❌ **TÀNG THƯ:** Yêu cầu thiếu **URL**.');
+            const sourceURL=normalizeURL(requestedURL);
+            if(!sourceURL)return close('❌ **TÀNG THƯ:** URL nguồn không hợp lệ.');
+            const content=await github.rest.repos.getContent({owner,repo,path:'config/config_news_sources.json',ref:'main'});
+            const config=JSON.parse(Buffer.from(content.data.content,'base64').toString('utf8'));
+            if(!Array.isArray(config.sources))config.sources=[];
+            const index=config.sources.findIndex(s=>s.url===sourceURL);
+            const existing=index>=0?config.sources[index]:null;
+            if(requestedAction==='disable'||requestedAction==='off'){
+              if(!existing)return close('❌ **TÀNG THƯ:** Không tìm thấy nguồn tin này.');
+              existing.enabled=false;
+              await github.rest.repos.createOrUpdateFileContents({owner,repo,path:'config/config_news_sources.json',message:`Disable news source: ${sourceURL}`,content:Buffer.from(JSON.stringify(config,null,2)+'\n').toString('base64'),sha:content.data.sha,branch:'main'});
+              return close(`✅ **TÀNG THƯ:** Đã tắt nguồn **${sourceURL}**.`);
             }
-            function normalizeURL(value) {
-              try {
-                const u = new URL(value);
-                if (!['http:','https:'].includes(u.protocol)) return '';
-                u.hash = '';
-                if (u.pathname.length > 1) u.pathname = u.pathname.replace(/\/+$/,'');
-                return u.toString();
-              } catch (_) { return ''; }
+            if(requestedAction==='enable'||requestedAction==='on'){
+              if(!existing)return close('❌ **TÀNG THƯ:** Không tìm thấy nguồn tin này.');
+              existing.enabled=true;
+              await github.rest.repos.createOrUpdateFileContents({owner,repo,path:'config/config_news_sources.json',message:`Enable news source: ${sourceURL}`,content:Buffer.from(JSON.stringify(config,null,2)+'\n').toString('base64'),sha:content.data.sha,branch:'main'});
+              return close(`✅ **TÀNG THƯ:** Đã bật nguồn **${sourceURL}**.`);
             }
-            function sourceName(value) {
-              try {
-                const host = new URL(value).hostname.toLowerCase().replace(/^www\./,'');
-                const first = host.split('.')[0];
-                if (!first) return host;
-                const acronyms = new Set(['bbc','cnn','npr','abc','nbc','cbs','cnbc','dw','ap','afp','ansa','upi']);
-                if (acronyms.has(first)) return first.toUpperCase();
-                return first.replace(/[-_]+/g,' ').replace(/\b\w/g,c => c.toUpperCase());
-              } catch (_) { return ''; }
+            if(requestedAction==='delete'||requestedAction==='remove'){
+              if(!existing)return close('❌ **TÀNG THƯ:** Không tìm thấy nguồn tin này.');
+              config.sources.splice(index,1);
+              await github.rest.repos.createOrUpdateFileContents({owner,repo,path:'config/config_news_sources.json',message:`Remove news source: ${sourceURL}`,content:Buffer.from(JSON.stringify(config,null,2)+'\n').toString('base64'),sha:content.data.sha,branch:'main'});
+              return close(`✅ **TÀNG THƯ:** Đã xóa nguồn **${sourceURL}**.`);
             }
-            if (!requestedURL) return fail('Yêu cầu thiếu **URL**.');
-            const sourceURL = normalizeURL(requestedURL);
-            if (!sourceURL) return fail('URL nguồn không hợp lệ.');
-            const autoName = requestedName || sourceName(sourceURL);
-            if (!autoName) return fail('Không thể tự xác định tên nguồn.');
-            const content = await github.rest.repos.getContent({owner,repo,path:'config/config_news_sources.json',ref:'main'});
-            if (Array.isArray(content.data)) return fail('Không đọc được config/config_news_sources.json.');
-            const config = JSON.parse(Buffer.from(content.data.content,'base64').toString('utf8'));
-            if (!Array.isArray(config.sources)) config.sources = [];
-            const existingIndex = config.sources.findIndex(source => source.url === sourceURL);
-            const existing = existingIndex >= 0 ? config.sources[existingIndex] : null;
-            if (requestedAction === 'delete' || requestedAction === 'remove') {
-              if (!existing) return fail('Không tìm thấy nguồn tin này. Không có gì để xóa.');
-              const deletedName = existing.name;
-              config.sources.splice(existingIndex,1);
-              await github.rest.repos.createOrUpdateFileContents({owner,repo,path:'config/config_news_sources.json',message:`Remove news source: ${deletedName}`,content:Buffer.from(JSON.stringify(config,null,2)+'\n').toString('base64'),sha:content.data.sha,branch:'main'});
-              await github.rest.issues.createComment({owner,repo,issue_number:issue.number,body:`✅ **TÀNG THƯ:** Đã xóa nguồn tin **${deletedName}** khỏi Bulletin Registry.`});
-            } else if (existing) {
-              existing.name = autoName;
-              existing.enabled = true;
-              await github.rest.repos.createOrUpdateFileContents({owner,repo,path:'config/config_news_sources.json',message:`Update news source: ${autoName}`,content:Buffer.from(JSON.stringify(config,null,2)+'\n').toString('base64'),sha:content.data.sha,branch:'main'});
-              await github.rest.issues.createComment({owner,repo,issue_number:issue.number,body:`✅ **TÀNG THƯ:** Đã cập nhật nguồn tin **${autoName}**.`});
-            } else {
-              const sourceId = `s-${crypto.createHash('sha256').update(sourceURL).digest('hex').slice(0,12)}`;
-              const maxOrder = config.sources.reduce((max,source) => Number.isFinite(source.order) ? Math.max(max,source.order) : max,0);
-              config.sources.push({id:sourceId,name:autoName,url:sourceURL,enabled:true,order:maxOrder+1});
-              await github.rest.repos.createOrUpdateFileContents({owner,repo,path:'config/config_news_sources.json',message:`Register news source: ${autoName}`,content:Buffer.from(JSON.stringify(config,null,2)+'\n').toString('base64'),sha:content.data.sha,branch:'main'});
-              await github.rest.issues.createComment({owner,repo,issue_number:issue.number,body:`✅ **TÀNG THƯ:** Đã đăng ký nguồn tin **${autoName}**.\n\nSource ID: \`${sourceId}\``});
+            if(requestedAction==='update'){
+              if(!existing)return close('❌ **TÀNG THƯ:** Không tìm thấy nguồn tin này.');
+              existing.name=sourceURL;
+              await github.rest.repos.createOrUpdateFileContents({owner,repo,path:'config/config_news_sources.json',message:`Update news source: ${sourceURL}`,content:Buffer.from(JSON.stringify(config,null,2)+'\n').toString('base64'),sha:content.data.sha,branch:'main'});
+              return close(`✅ **TÀNG THƯ:** Đã cập nhật nguồn **${sourceURL}**.`);
             }
-            await github.rest.actions.createWorkflowDispatch({owner,repo,workflow_id:'pages.yml',ref:'main'});
-            await github.rest.issues.createComment({owner,repo,issue_number:issue.number,body:'🔄 Đã yêu cầu build lại GitHub Pages để cập nhật Bulletin Registry.'});
-            await github.rest.issues.update({owner,repo,issue_number:issue.number,state:'closed'});
+            if(requestedAction!=='add')return close('❌ **TÀNG THƯ:** Hành động phải là add, update, enable, disable, delete hoặc remove.');
+            if(existing)return close('ℹ️ **TÀNG THƯ:** Nguồn này đã tồn tại.');
+            const sourceId=`s-${crypto.createHash('sha256').update(sourceURL).digest('hex').slice(0,12)}`;
+            const maxOrder=config.sources.reduce((max,s)=>Number.isFinite(s.order)?Math.max(max,s.order):max,0);
+            config.sources.push({id:sourceId,name:sourceURL,url:sourceURL,enabled:true,order:maxOrder+1});
+            await github.rest.repos.createOrUpdateFileContents({owner,repo,path:'config/config_news_sources.json',message:`Register news source: ${sourceURL}`,content:Buffer.from(JSON.stringify(config,null,2)+'\n').toString('base64'),sha:content.data.sha,branch:'main'});
+            return close(`✅ **TÀNG THƯ:** Đã đăng ký nguồn **${sourceURL}**.`);
