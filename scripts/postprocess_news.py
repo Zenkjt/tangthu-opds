@@ -83,8 +83,7 @@ news_fn = r'''  function showNews(){
     }
 
     function displaySourceName(value){
-      var text=repairMojibake(value).replace(/\s+/g,' ').trim();
-      return text.length>52?text.slice(0,51).trimEnd()+'…':text;
+      return repairMojibake(value).replace(/\s+/g,' ').trim();
     }
 
     function workerPost(path,body){
@@ -427,7 +426,7 @@ if "  $('newsBtn').onclick=showNews;" not in text:
     text = text.replace(marker, marker + "\n  $('newsBtn').onclick=showNews;", 1)
 
 if ".news-source-row{" not in text:
-    css = r''' .news-url-row{display:flex;align-items:flex-end;gap:10px}.news-url-field{flex:1;min-width:0}.news-inline-btn{height:38px;min-width:120px}.news-sources{display:flex;flex-direction:column;gap:4px}.news-source-row{display:flex;align-items:center;gap:8px;padding:6px 4px;border-bottom:1px dotted #aaa}.news-source-main{display:flex;align-items:center;gap:7px;min-width:0;flex:1}.news-source-main span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.news-source-main a{color:#000}.news-count{width:70px;height:30px;padding:3px 5px;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff;background:#fff}.news-count:disabled{background:#ddd;color:#777}.news-hint{margin:0 0 8px;font-size:12px;color:#555}.news-warning{margin-top:7px;color:#555}.news-warning:empty{display:none}.news-register-actions{justify-content:flex-end}'''
+    css = r''' .news-url-row{display:flex;align-items:flex-end;gap:10px}.news-url-field{flex:1;min-width:0}.news-inline-btn{height:38px;min-width:120px}.news-sources{display:flex;flex-direction:column;gap:4px}.news-source-row{display:flex;align-items:center;gap:8px;padding:6px 4px;border-bottom:1px dotted #aaa}.news-source-main{display:flex;align-items:center;gap:7px;min-width:0;flex:1}.news-source-main span{min-width:0;overflow-wrap:anywhere;word-break:break-word;white-space:normal}.news-source-main a{color:#000}.news-count{width:70px;height:30px;padding:3px 5px;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff;background:#fff}.news-count:disabled{background:#ddd;color:#777}.news-hint{margin:0 0 8px;font-size:12px;color:#555}.news-warning{margin-top:7px;color:#555}.news-warning:empty{display:none}.news-register-actions{justify-content:flex-end}'''
     text = text.replace("</style>", css + "</style>", 1)
 
 path.write_text(text, encoding="utf-8")
