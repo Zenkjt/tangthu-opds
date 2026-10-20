@@ -1,9 +1,6 @@
 name: Cloudflare Pages
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
   repository_dispatch:
     types: [drive_changed]
@@ -52,7 +49,6 @@ jobs:
 
           for attempt in 1 2 3; do
             git fetch origin main
-
             if git rebase origin/main; then
               if git push origin HEAD:main; then
                 exit 0
@@ -60,7 +56,6 @@ jobs:
             else
               git rebase --abort || true
             fi
-
             sleep 3
           done
 

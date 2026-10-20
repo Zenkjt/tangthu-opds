@@ -6,21 +6,6 @@ on:
     types: [drive_changed]
   schedule:
     - cron: "17 * * * *"
-  push:
-    branches: [main]
-    paths:
-      - "cmd/generate/**"
-      - "internal/drive/**"
-      - "config/branches.json"
-      - "scripts/tangthu_lifecycle.py"
-      - "scripts/postprocess_ui.py"
-      - "scripts/postprocess_bookshelf.py"
-      - "scripts/postprocess_registration.py"
-      - "scripts/postprocess_news.py"
-      - "scripts/paginate_opds.py"
-      - "scripts/rewrite_opds_download_urls.py"
-      - "docs/assets/bookshelf/**"
-      - ".github/workflows/pages.yml"
 
 permissions:
   contents: write
