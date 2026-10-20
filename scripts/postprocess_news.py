@@ -60,7 +60,6 @@ news_fn = r'''  function showNews(){
 
     var newsWorkerUrl='https://tangthu-news-worker.mienluonngon.workers.dev';
     var configUrl=newsWorkerUrl+'/news/config';
-    var branchesUrl='https://raw.githubusercontent.com/Zenkjt/tangthu-opds/main/config/branches.json';
     var registry=[],subscriptions=[],branchesList=[];
 
     function canonicalize(value){
@@ -395,16 +394,13 @@ news_fn = r'''  function showNews(){
       });
     };
 
-    Promise.all([
-      loadJSON(configUrl),
-      loadJSON(branchesUrl)
-    ]).then(function(data){
-      registry=Array.isArray(data[0].sources)?data[0].sources.map(function(s){
+    loadJSON(configUrl).then(function(cfg){
+      registry=Array.isArray(cfg.sources)?cfg.sources.map(function(s){
         s.name=s.url||repairMojibake(s.name);
         return s;
       }):[];
-      subscriptions=Array.isArray(data[0].subscriptions)?data[0].subscriptions:[];
-      branchesList=Array.isArray(data[1].branches)?data[1].branches:[];
+      subscriptions=Array.isArray(cfg.subscriptions)?cfg.subscriptions:[];
+      branchesList=Array.isArray(cfg.branches)?cfg.branches:[];
       draft.sources=registry.slice();
       syncSelectionForBranch();
       renderSources();
