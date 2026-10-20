@@ -34,6 +34,13 @@
       "url": "https://time.com/",
       "enabled": true,
       "order": 5
+    },
+    {
+      "id": "s-b1540afe5a40",
+      "name": "vanhoanghethuat.vn",
+      "url": "https://vanhoanghethuat.vn/nghe-thuat",
+      "enabled": true,
+      "order": 6
     }
   ]
 }
