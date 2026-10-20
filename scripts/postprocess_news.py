@@ -58,8 +58,7 @@ news_fn = r'''  function showNews(){
       '<div class="modal-actions news-register-actions"><button id="newsRegisterBtn" disabled type="button">Đăng ký</button></div>'+
       '</fieldset>');
 
-    var configUrl='https://raw.githubusercontent.com/Zenkjt/tangthu-opds/main/config/config_news_sources.json';
-    var subsUrl='https://raw.githubusercontent.com/Zenkjt/tangthu-opds/main/config/config_news_subscriptions.json';
+    var configUrl=newsWorkerUrl+'/news/config';
     var branchesUrl='https://raw.githubusercontent.com/Zenkjt/tangthu-opds/main/config/branches.json';
     var newsWorkerUrl='https://tangthu-news-worker.mienluonngon.workers.dev';
     var registry=[],subscriptions=[],branchesList=[];
@@ -123,7 +122,9 @@ news_fn = r'''  function showNews(){
     function updateRegisterState(){
       var btn=$('newsRegisterBtn');
       if(!btn)return;
-      btn.disabled=!(draft.branch&&selectedSources().length);
+      var hasExisting=draft.branch&&subscriptions.some(function(x){return x.branch_id===draft.branch.id&&x.enabled!==false;});
+      btn.disabled=!(draft.branch&&(selectedSources().length||hasExisting));
+      btn.textContent=hasExisting?'Cập nhật đăng ký':'Đăng ký';
     }
 
     function enforceMode(){
@@ -244,10 +245,9 @@ news_fn = r'''  function showNews(){
       if(existing)return existing;
       var copy=JSON.parse(JSON.stringify(source));
       copy.url=canonical||copy.url;
-      copy.name=repairMojibake(copy.name||copy.url);
+      copy.name=copy.url;
       copy.enabled=true;
       draft.sources.push(copy);
-      draft.pending[copy.id]=true;
       if(!draft.selected[copy.id])draft.selected[copy.id]={checked:false,count:5};
       return copy;
     }
@@ -258,7 +258,6 @@ news_fn = r'''  function showNews(){
         $('newsCheck').textContent='URL không hợp lệ.';
         return;
       }
-
       $('newsCheckBtn').disabled=true;
       $('newsCheck').textContent='Đang kiểm tra nguồn...';
 
@@ -266,25 +265,34 @@ news_fn = r'''  function showNews(){
         var source=result.source||{};
         if(!source.id||!source.url)throw new Error('Worker trả về thông tin nguồn không hợp lệ');
         source.url=canonicalize(source.url)||canonical;
-        source.name=repairMojibake(source.name||source.url);
-
-        var existing=draft.sources.find(function(s){
-          return s.id===source.id||canonicalize(s.url)===source.url;
-        });
-
+        source.name=source.url;
+        var existing=draft.sources.find(function(s){return s.id===source.id||canonicalize(s.url)===source.url;});
         if(existing){
-          $('newsCheck').textContent='Tên nguồn tin: '+displaySourceName(existing.name)+' · Nguồn này đã có trong danh sách.';
+          $('newsCheck').textContent='Nguồn này đã có trong thư viện.';
           $('newsCheckBtn').textContent='Đã có';
           $('newsCheckBtn').disabled=true;
           return;
         }
-
-        var added=addDraftSource(source);
-        $('newsCheck').textContent='Đã thêm tạm: '+displaySourceName(added.name);
-        $('newsCheckBtn').textContent='Đã thêm';
-        $('newsCheckBtn').disabled=true;
-        renderSources();
-        resetSourceForm();
+        $('newsCheck').textContent='Nguồn hợp lệ: '+displaySourceName(source.url);
+        $('newsCheckBtn').textContent='Thêm nguồn';
+        $('newsCheckBtn').disabled=false;
+        $('newsCheckBtn').onclick=function(){
+          $('newsCheckBtn').disabled=true;
+          $('newsCheck').textContent='Đang thêm nguồn...';
+          workerPost('/source/add',{url:source.url}).then(function(result){
+            var added=result.source||source;
+            added.url=canonicalize(added.url)||source.url;
+            added.name=added.url;
+            addDraftSource(added);
+            $('newsCheck').textContent='Đã thêm nguồn: '+displaySourceName(added.url);
+            renderSources();
+            resetSourceForm();
+          }).catch(function(err){
+            $('newsCheck').textContent='Không thể thêm nguồn: '+err.message;
+            $('newsCheckBtn').textContent='Thêm nguồn';
+            $('newsCheckBtn').disabled=false;
+          });
+        };
       }).catch(function(err){
         $('newsCheck').textContent='Không thể kiểm tra nguồn: '+err.message;
         $('newsCheckBtn').textContent='Kiểm tra';
@@ -356,7 +364,7 @@ news_fn = r'''  function showNews(){
       var total=selectedTotal();
       var mode=draft.mode;
 
-      if(!branch||!selected.length)return;
+      if(!branch)return;
       if(total>200){enforceMode();return;}
       if(mode==='images'&&total>100){enforceMode();return;}
 
@@ -377,9 +385,11 @@ news_fn = r'''  function showNews(){
           return {source_id:x.id,article_count:x.count};
         })
       }).then(function(result){
-        $('newsShelfStatus').textContent=(result.branch_name||branch.display_name||branch.id)+' đăng ký nhận tin thành công';
+        var anySelected=selected.length>0;
+        $('newsShelfStatus').textContent=anySelected?((result.branch_name||branch.display_name||branch.id)+' đăng ký nhận tin thành công'):((result.branch_name||branch.display_name||branch.id)+' đã hủy nhận tin');
         btn.disabled=true;
         draft.pending={};
+        loadJSON(configUrl).then(function(cfg){subscriptions=Array.isArray(cfg.subscriptions)?cfg.subscriptions:subscriptions;syncSelectionForBranch();renderSources();});
       }).catch(function(err){
         $('newsShelfStatus').textContent='Không thể đăng ký nhận tin: '+err.message;
         btn.disabled=false;
@@ -388,15 +398,14 @@ news_fn = r'''  function showNews(){
 
     Promise.all([
       loadJSON(configUrl),
-      loadJSON(subsUrl),
       loadJSON(branchesUrl)
     ]).then(function(data){
       registry=Array.isArray(data[0].sources)?data[0].sources.map(function(s){
-        s.name=repairMojibake(s.name);
+        s.name=s.url||repairMojibake(s.name);
         return s;
       }):[];
-      subscriptions=Array.isArray(data[1].subscriptions)?data[1].subscriptions:[];
-      branchesList=Array.isArray(data[2].branches)?data[2].branches:[];
+      subscriptions=Array.isArray(data[0].subscriptions)?data[0].subscriptions:[];
+      branchesList=Array.isArray(data[1].branches)?data[1].branches:[];
       draft.sources=registry.slice();
       syncSelectionForBranch();
       renderSources();
