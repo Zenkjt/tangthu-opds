@@ -41,6 +41,13 @@
       "url": "https://time.com/",
       "enabled": true,
       "order": 10
+    },
+    {
+      "id": "s-c856fab26972",
+      "name": "https://vanhoanghethuat.vn/du-lich",
+      "url": "https://vanhoanghethuat.vn/du-lich",
+      "enabled": true,
+      "order": 11
     }
   ]
 }
