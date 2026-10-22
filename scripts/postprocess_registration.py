@@ -255,7 +255,48 @@ new_fn = new_fn.replace("__API_URL__", repr(APPS_SCRIPT_URL))
 text = text[:start] + new_fn + text[end:]
 
 # Inject shelf help UI into generated docs/index.html.
-text = text.replace('</head>', '\n/* Shelf registration help */\n.shelf-help-panel{margin:0 0 12px;padding:10px;background:#ffffcc;border:1px solid #888;line-height:1.5}\n.shelf-help-panel p{margin:0 0 9px}.shelf-help-panel p:last-child{margin-bottom:0}\n.shelf-help-panel code{font-family:Consolas,monospace}\n#shelfHelpBtn{min-width:28px;height:24px;padding:0 7px;margin-left:auto;margin-right:5px;background:#c0c0c0;color:#000;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;font-weight:bold;cursor:pointer}\n#shelfHelpBtn:active{border-color:#555 #fff #fff #555;padding:1px 6px 0 8px}\n' + '</head>', 1)
+text = text.replace('</head>', '''
+<style>
+/* Shelf registration help */
+.shelf-help-panel{margin:0 0 12px;padding:10px;background:#ffffcc;border:1px solid #888;line-height:1.5}
+.shelf-help-panel p{margin:0 0 9px}
+.shelf-help-panel p:last-child{margin-bottom:0}
+.shelf-help-panel code{font-family:Consolas,monospace}
+
+#shelfHelpBtn{
+  min-width:28px;
+  height:24px;
+  padding:0 7px;
+  margin-left:auto;
+  margin-right:2px;
+  background:#c0c0c0;
+  color:#000;
+  border:2px solid #fff;
+  border-right-color:#555;
+  border-bottom-color:#555;
+  font-weight:bold;
+  cursor:pointer
+}
+
+#shelfHelpBtn:active{
+  border-color:#555 #fff #fff #555;
+  padding:1px 6px 0 8px
+}
+
+.modal-title{
+  justify-content:flex-start
+}
+
+.modal-title #modalTitle{
+  margin-right:auto
+}
+
+.modal-title #shelfHelpBtn{
+  margin-left:0;
+  margin-right:4px
+}
+</style>
+''' + '</head>', 1)
 text = text.replace('</body>', '\n<script>\n(function(){\n  var HELP_ID=\'shelfHelpBtn\', PANEL_ID=\'shelfHelpPanel\';\n  function isShelfModal(){\n    var t=document.getElementById(\'modalTitle\');\n    if(!t)return false;\n    var s=(t.textContent||\'\').trim().toUpperCase();\n    return s.indexOf(\'ĐĂNG KÝ\')>=0 || s.indexOf(\'ĐỔI TÊN TỦ\')>=0;\n  }\n  function sync(){\n    var title=document.getElementById(\'modalTitle\'),body=document.getElementById(\'modalBody\'),close=document.getElementById(\'modalClose\');\n    if(!title||!body||!close)return;\n    var b=document.getElementById(HELP_ID),p=document.getElementById(PANEL_ID);\n    if(!isShelfModal()){if(b)b.remove();if(p)p.remove();return;}\n    if(!b){\n      b=document.createElement(\'button\');b.id=HELP_ID;b.type=\'button\';b.textContent=\'?\';\n      b.title=\'Hướng dẫn đăng ký tủ sách\';\n      b.onclick=function(){var x=document.getElementById(PANEL_ID);if(x)x.hidden=!x.hidden;};\n      close.parentNode.insertBefore(b,close);\n    }\n    if(!p){\n      p=document.createElement(\'div\');p.id=PANEL_ID;p.className=\'shelf-help-panel\';p.hidden=true;\n      p.innerHTML=\n        \'<p>Đăng ký tủ sách để có thể dễ dàng tải sách từ thư mục của bạn về máy đọc sách qua hệ thống OPDS.</p>\'+\n        \'<p><strong>Chuẩn bị:</strong> thư mục Google chia sẻ của bạn cần được để chế độ public (any one with the link can view), chép sách vào đó, chỉ EPUB, MOBI và AZW3 thôi nhé.</p>\'+\n        \'<p>Dán địa chỉ thư mục đó vào ô <strong>"Đường link"</strong>, đặt tên tủ sao cho dễ nhớ (trong ô <strong>"Tên tủ"</strong>).</p>\'+\n        \'<p>Bấm <strong>kiểm tra link</strong>, rồi bấm <strong>tạo tủ</strong>.</p>\'+\n        \'<p>Bạn có thể đổi tên/xóa tủ bằng cách dán lại địa chỉ thư mục Google vào ô <strong>"Đường link"</strong>.</p>\'+\n        \'<p>Trên máy đọc sách của bạn, trong cài đặt OPDS server điền địa chỉ: <code>https://tangthu.pages.dev/opds</code></p>\'+\n        \'<p>Truy cập OPDS trên máy đọc sách để tải sách về theo nhu cầu.</p>\'+\n        \'<p>Thư mục chứa sách của bạn hoàn toàn do bạn quản lý, không chia sẻ link với người khác, bạn nên sử dụng tài khoản Google phụ cho việc này.</p>\'+\n        \'<p>Happy reading<br>Zenkjt</p>\';\n      body.insertBefore(p,body.firstChild);\n    }\n  }\n  var obs=new MutationObserver(sync);\n  function start(){sync();var t=document.getElementById(\'modalTitle\');if(t)obs.observe(t,{childList:true,subtree:true,characterData:true});}\n  if(document.readyState===\'loading\')document.addEventListener(\'DOMContentLoaded\',start);else start();\n})();\n</script>\n' + '</body>', 1)
 path.write_text(text, encoding="utf-8")
 
