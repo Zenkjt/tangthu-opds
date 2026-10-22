@@ -48,6 +48,13 @@
       "url": "https://vanhoanghethuat.vn/du-lich",
       "enabled": true,
       "order": 11
+    },
+    {
+      "id": "s-6ccd3104e718",
+      "name": "https://znews.vn/sach-hay.html",
+      "url": "https://znews.vn/sach-hay.html",
+      "enabled": true,
+      "order": 12
     }
   ]
 }
