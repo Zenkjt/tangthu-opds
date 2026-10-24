@@ -14,7 +14,7 @@ marker = """        state.branch=b;
 replacement = """        state.branch=b;
         if(apiBase){
           renderInfo('Đã nhận tủ: '+(b.display_name||b.name||b.id)+'. Đang khôi phục truyện đang đọc...');
-          fetch(apiBase.replace(/\\\\/+$/,'')+'/story/current-by-user?user_id='+encodeURIComponent(b.id),{cache:'no-store'})
+          fetch(apiBase.replace(/\\/+$/,'')+'/story/current-by-user?user_id='+encodeURIComponent(b.id),{cache:'no-store'})
             .then(function(r){return r.text().then(function(t){
               var d={}; try{d=JSON.parse(t||'{}');}catch(e){throw new Error('Backend trả về dữ liệu không hợp lệ.');}
               if(!r.ok||d.ok===false) return null;
@@ -46,7 +46,6 @@ if marker not in text:
 
 text = text.replace(marker, replacement, 1)
 
-# Ensure cover styling exists. Keep this small and scoped.
 if ".story-cover{" not in text:
     css = """
 <style id="tangthu-story-current-css">
