@@ -92,6 +92,8 @@ jobs:
           TANGTHU_STORY_API_URL: ${{ vars.TANGTHU_STORY_API_URL }}
           TANGTHU_STORY_SOURCES_URL: ${{ vars.TANGTHU_STORY_SOURCES_URL }}
         run: python3 scripts/postprocess_story.py
+      - name: Restore current story UI
+        run: python3 scripts/postprocess_story_current.py
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact
