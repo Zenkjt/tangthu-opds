@@ -87,14 +87,14 @@ jobs:
         run: python3 scripts/postprocess_registration.py
       - name: Apply news UI
         run: python3 scripts/postprocess_news.py
+      - name: Apply story UI
+        run: python3 scripts/postprocess_story.py
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
-      - name: Apply story UI
-        run: python3 scripts/postprocess_story.py
   deploy:
     needs: build
     runs-on: ubuntu-latest
