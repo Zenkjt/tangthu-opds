@@ -105,6 +105,9 @@ jobs:
       - name: Apply news UI
         run: python3 scripts/postprocess_news.py
 
+      - name: Apply story UI
+        run: python3 scripts/postprocess_story.py
+
       - name: Add short OPDS entry point
         run: |
           printf '%s\n' \
