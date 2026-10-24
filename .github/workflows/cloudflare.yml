@@ -111,6 +111,9 @@ jobs:
           TANGTHU_STORY_SOURCES_URL: ${{ vars.TANGTHU_STORY_SOURCES_URL }}
         run: python3 scripts/postprocess_story.py
 
+      - name: Restore current story UI
+        run: python3 scripts/postprocess_story_current.py
+
       - name: Add short OPDS entry point
         run: |
           printf '%s\n'             '/opds /opds/index.xml 200'             '/opds/ /opds/index.xml 200'             > docs/_redirects
