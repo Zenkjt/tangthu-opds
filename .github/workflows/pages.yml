@@ -93,6 +93,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
+      - name: Apply story UI
+        run: python3 scripts/postprocess_story.py
   deploy:
     needs: build
     runs-on: ubuntu-latest
