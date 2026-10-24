@@ -5,6 +5,7 @@ import os
 path = Path("docs/index.html")
 text = path.read_text(encoding="utf-8")
 api_url = os.environ.get("TANGTHU_STORY_API_URL", "").strip()
+sources_url = os.environ.get("TANGTHU_STORY_SOURCES_URL", "").strip()
 
 news_anchor = '<button class="tool" id="newsBtn"><span class="ico">📰</span><span class="lbl">Tin tức</span></button>'
 shelf_anchor = '<button class="tool" id="shelfBtn"><span class="ico">📚</span><span class="lbl">Tủ sách</span></button>'
@@ -13,11 +14,7 @@ if 'id="storyBtn"' not in text:
     anchor = news_anchor if news_anchor in text else shelf_anchor
     if anchor not in text:
         raise SystemExit("Story UI patch anchor missing: shelfBtn/newsBtn")
-    text = text.replace(
-        anchor,
-        anchor + '\n    <button class="tool" id="storyBtn"><span class="ico">📖</span><span class="lbl">Truyện online</span></button>',
-        1,
-    )
+    text = text.replace(anchor, anchor + '\n    <button class="tool" id="storyBtn"><span class="ico">📖</span><span class="lbl">Truyện online</span></button>', 1)
 
 marker = '  function showStory(){'
 if marker in text:
@@ -25,251 +22,25 @@ if marker in text:
     end = text.index('\n  }\n\n', start) + len('\n  }')
     text = text[:start] + text[end:]
 
-story_fn = r'''  function showStory(){
-    var state={branch:null,story:null,storyUrl:'',registered:false};
-    var apiBase=__API_URL__;
+story_fn = '  function showStory(){\n    var state={branch:null,story:null,storyUrl:\'\',registered:false};\n    var apiBase=__API_URL__;\n    var sourcesUrl=__SOURCES_URL__;\n\n    modal(\'ĐĂNG KÝ ĐỌC ONLINE\',\n      \'<div class="story-main">\'+\n        \'<div class="story-info-panel">\'+\n          \'<div id="storyInfo" class="story-info">\'+\n            \'<div class="story-empty">Chưa đăng ký nội dung đọc.<br><span>Dán địa chỉ tủ nhận sách bên dưới để bắt đầu.</span></div>\'+ \n          \'</div>\'+ \n          \'<div class="story-nav">\'+\n            \'<button id="storyPrevBtn" disabled>&lt; Chương trước</button>\'+ \n            \'<button id="storyNextBtn" disabled>Chương tiếp &gt;</button>\'+ \n            \'<button id="storyJumpBtn" disabled>Chọn chương ...</button>\'+ \n            \'<button id="storySourcesBtn">Nguồn sách ...</button>\'+ \n          \'</div>\'+ \n        \'</div>\'+ \n        \'<div class="story-inputs">\'+\n          \'<fieldset><legend>Địa chỉ truyện online</legend>\'+ \n            \'<input id="storyUrl" type="url" placeholder="https://..." disabled>\'+ \n            \'<button id="storyRegisterBtn" disabled>Đăng ký</button>\'+ \n          \'</fieldset>\'+ \n          \'<fieldset><legend>Địa chỉ nhận sách (Google Drive)</legend>\'+ \n            \'<input id="storyShelfUrl" type="url" placeholder="https://drive.google.com/drive/folders/...">\'+ \n          \'</fieldset>\'+ \n        \'</div>\'+ \n      \'</div>\');\n\n    var branchesUrl=\'https://raw.githubusercontent.com/Zenkjt/tangthu-opds/main/config/branches.json\';\n    var branchesList=[];\n\n    function loadJSON(url){\n      return fetch(url,{cache:\'no-store\'}).then(function(r){\n        if(!r.ok)throw new Error(\'HTTP \'+r.status);\n        return r.json();\n      });\n    }\n\n    function branchFromUrl(value){\n      var raw=String(value||\'\').trim(),id=\'\';\n      try{\n        var u=new URL(raw),m=u.pathname.match(/\\/folders\\/([a-zA-Z0-9_-]+)/);\n        id=m?m[1]:(u.searchParams.get(\'id\')||\'\');\n      }catch(e){}\n      if(!id){\n        var m2=raw.match(/^[a-zA-Z0-9_-]{10,}$/);\n        if(m2)id=m2[0];\n      }\n      return id?(branchesList.find(function(b){\n        return b.enabled!==false&&String(b.root_folder_id)===String(id);\n      })||null):null;\n    }\n\n    function safeText(v){return esc(v==null?\'\':String(v));}\n\n    function renderInfo(message){\n      var h=$(\'storyInfo\');\n      if(!state.registered||!state.story){\n        h.innerHTML=\'<div class="story-empty">Chưa đăng ký nội dung đọc.<br><span>\'+\n          safeText(message||\'Dán địa chỉ tủ nhận sách bên dưới để bắt đầu.\')+\'</span></div>\';\n        return;\n      }\n      var s=state.story;\n      var current=s.current_chapter!=null?s.current_chapter:\n        (s.target_chapter_number!=null?s.target_chapter_number:\'—\');\n      var total=s.total_chapters!=null?s.total_chapters:\n        (s.chapters?s.chapters.length:\'—\');\n      var chapterTitle=s.current_chapter_title||s.target_chapter_title||\'\';\n      var cover=s.cover_url||s.cover||\'\';\n      var messageText=message||s.message||\'Đang đọc\';\n      h.innerHTML=\n        \'<div class="story-info-body">\'+\n          \'<div class="story-cover">\'+(cover?\'<img src="\'+safeText(cover)+\'" alt="">\':\'<div class="story-cover-empty">TRUYỆN</div>\')+\'</div>\'+ \n          \'<div class="story-details">\'+\n            \'<h2>\'+safeText(s.title||\'Không có tên\')+\'</h2>\'+ \n            \'<div class="story-row"><span>Tác giả:</span><b>\'+safeText(s.author||\'—\')+\'</b></div>\'+ \n            \'<div class="story-row"><span>Nguồn:</span><b>\'+safeText(s.site||s.source||\'—\')+\'</b></div>\'+ \n            \'<div class="story-row"><span>Tổng chương:</span><b>\'+safeText(total)+\'</b></div>\'+ \n            \'<div class="story-row"><span>Chương hiện tại:</span><b>\'+safeText(current)+(chapterTitle?\' - \'+safeText(chapterTitle):\'\')+\'</b></div>\'+ \n            \'<div class="story-row"><span>Trạng thái:</span><b>\'+safeText(s.status||\'Đang đọc\')+\'</b></div>\'+ \n            \'<div class="story-row"><span>Tủ nhận sách:</span><b>\'+safeText(state.branch?(state.branch.display_name||state.branch.name||state.branch.id):\'—\')+\'</b></div>\'+ \n          \'</div>\'+ \n          \'<div class="story-message">\'+safeText(messageText)+\'</div>\'+ \n        \'</div>\';\n    }\n\n    function update(){\n      var ok=!!state.branch;\n      $(\'storyUrl\').disabled=!ok;\n      $(\'storyRegisterBtn\').disabled=!(ok&&$(\'storyUrl\').value.trim());\n      var nav=!!(state.registered&&state.story);\n      $(\'storyPrevBtn\').disabled=!nav;\n      $(\'storyNextBtn\').disabled=!nav;\n      $(\'storyJumpBtn\').disabled=!nav;\n    }\n\n    function call(action,payload){\n      if(!apiBase)return Promise.reject(new Error(\'Story backend chưa được cấu hình (TANGTHU_STORY_API_URL).\'));\n      return fetch(apiBase.replace(/\\/+$/,\'\')+\'/\'+action,{\n        method:\'POST\',headers:{\'Content-Type\':\'application/json\'},body:JSON.stringify(payload||{})\n      }).then(function(r){\n        return r.text().then(function(t){\n          var d={};\n          try{d=JSON.parse(t||\'{}\');}catch(e){throw new Error(\'Backend trả về dữ liệu không hợp lệ.\');}\n          if(!r.ok||d.ok===false)throw new Error(d.error||(\'HTTP \'+r.status));\n          return d;\n        });\n      });\n    }\n\n    function register(){\n      var url=$(\'storyUrl\').value.trim();\n      if(!state.branch||!url)return;\n      $(\'storyRegisterBtn\').disabled=true;\n      renderInfo(\'Đang đăng ký truyện và tạo danh mục chương...\');\n      call(\'register\',{user_id:state.branch.id,url:url}).then(function(r){\n        state.storyUrl=url; state.story=r.story||r; state.registered=true;\n        renderInfo(r.message||\'Đăng ký truyện thành công.\');\n      }).catch(function(e){\n        state.registered=false; state.story=null;\n        renderInfo(\'Đăng ký/scrape thất bại: \'+e.message);\n      }).finally(update);\n    }\n\n    function trigger(action,extra){\n      if(!state.registered||!state.story)return;\n      renderInfo(\'Đang xử lý...\');\n      var p={user_id:state.branch.id,story_id:state.story.story_id||state.story.id};\n      Object.assign(p,extra||{});\n      call(action,p).then(function(r){\n        state.story=r.story||r; renderInfo(r.message||\'Đã cập nhật.\');\n      }).catch(function(e){renderInfo(\'Lỗi: \'+e.message);}).finally(update);\n    }\n\n    function openSources(){\n      var old=$(\'storySourcesPopup\'); if(old)old.remove();\n      var popup=document.createElement(\'div\');\n      popup.id=\'storySourcesPopup\'; popup.className=\'story-source-popup\';\n      popup.innerHTML=\'<div class="story-source-head"><strong>Nguồn sách</strong><button id="storySourcesClose">X</button></div>\'+ \n        \'<div id="storySourcesList" class="story-source-list">Đang tải danh sách nguồn...</div>\'+ \n        \'<div class="story-source-foot"><button id="storySourcesRefresh">↻ Kiểm tra lại nguồn</button><span id="storySourcesUpdated"></span></div>\';\n      document.body.appendChild(popup);\n      $(\'storySourcesClose\').onclick=function(){popup.remove();};\n      $(\'storySourcesRefresh\').onclick=function(){loadSources(true);};\n      loadSources(false);\n\n      function loadSources(force){\n        var list=$(\'storySourcesList\'); list.textContent=\'Đang kiểm tra nguồn...\';\n        fetch(sourcesUrl+(sourcesUrl.indexOf(\'?\')>=0?\'&\':\'?\')+\'t=\'+(force?Date.now():\'1\'),{cache:\'no-store\'})\n          .then(function(r){if(!r.ok)throw new Error(\'HTTP \'+r.status);return r.json();})\n          .then(function(data){\n            var items=Array.isArray(data)?data:(data.sources||[]);\n            if(!items.length){list.textContent=\'Chưa có dữ liệu nguồn sách.\';return;}\n            list.innerHTML=items.map(function(x){\n              var ok=x.ok!==false&&x.status!==\'fail\'&&x.status!==\'failed\';\n              return \'<div class="story-source-row"><span class="story-source-dot \'+(ok?\'ok\':\'fail\')+\'"></span>\'+ \n                \'<span class="story-source-domain">\'+safeText(x.domain||x.name||\'—\')+\'</span>\'+ \n                \'<span class="story-source-status">\'+safeText(x.message||(ok?\'Bình thường\':\'Không truy cập được\'))+\'</span></div>\';\n            }).join(\'\');\n            $(\'storySourcesUpdated\').textContent=data.updated_at?\'Cập nhật: \'+data.updated_at:\'\';\n          })\n          .catch(function(e){list.innerHTML=\'<div class="story-source-error">Không lấy được trạng thái nguồn.<br>\'+safeText(e.message)+\'</div>\';});\n      }\n    }\n\n    $(\'storyShelfUrl\').oninput=function(){\n      clearTimeout(window.__tangthuStoryShelfTimer);\n      state.branch=null; state.registered=false; state.story=null;\n      renderInfo(\'Đang kiểm tra tủ nhận sách...\'); update();\n      window.__tangthuStoryShelfTimer=setTimeout(function(){\n        var raw=$(\'storyShelfUrl\').value.trim();\n        if(!raw){renderInfo(\'Dán địa chỉ tủ nhận sách bên dưới để bắt đầu.\');update();return;}\n        var b=branchFromUrl(raw);\n        if(!b){renderInfo(\'Không tìm thấy tủ sách này trong Tàng Thư. Hãy tạo/đăng ký tủ sách trước.\');update();return;}\n        state.branch=b;\n        renderInfo(\'Đã nhận tủ: \'+(b.display_name||b.name||b.id)+\'. Có thể nhập link truyện.\'); update();\n      },250);\n    };\n    $(\'storyShelfUrl\').onkeydown=function(e){e.stopPropagation();};\n    $(\'storyUrl\').oninput=update;\n    $(\'storyUrl\').onkeydown=function(e){e.stopPropagation();};\n    $(\'storyRegisterBtn\').onclick=register;\n    $(\'storyPrevBtn\').onclick=function(){trigger(\'previous\');};\n    $(\'storyNextBtn\').onclick=function(){trigger(\'next\');};\n    $(\'storyJumpBtn\').onclick=function(){\n      var c=state.story&&(state.story.current_chapter||state.story.target_chapter_number);\n      var v=window.prompt(\'Đến chương số:\',c||1); if(v===null)return;\n      var n=parseInt(v,10); if(!Number.isFinite(n)||n<1){renderInfo(\'Số chương không hợp lệ.\');return;}\n      trigger(\'jump\',{chapter_number:n});\n    };\n    $(\'storySourcesBtn\').onclick=openSources;\n\n    loadJSON(branchesUrl).then(function(c){branchesList=Array.isArray(c.branches)?c.branches:[];update();})\n      .catch(function(e){renderInfo(\'Không tải được danh sách tủ sách: \'+e.message);});\n  }\n'
+story_fn = story_fn.replace('__API_URL__', repr(api_url)).replace('__SOURCES_URL__', repr(sources_url or ((api_url.rstrip('/') + '/sources') if api_url else '/sources')))
 
-    modal('ĐĂNG KÝ ĐỌC ONLINE',
-      '<fieldset><legend>Thông tin truyện</legend>'+
-      '<div id="storyInfo" class="story-info">Chưa đăng ký nội dung đọc</div>'+
-      '<div class="story-nav">'+
-      '<button id="storyPrevBtn" disabled>&lt; chương trước</button>'+
-      '<button id="storyJumpBtn" disabled>đến chương ...</button>'+
-      '<button id="storyNextBtn" disabled>chương sau &gt;</button>'+
-      '</div></fieldset>'+
-      '<fieldset><legend>Địa chỉ truyện</legend>'+
-      '<div class="story-hint">Dán link truyện online rồi bấm <strong>Đăng ký</strong>.</div>'+
-      '<input id="storyUrl" type="url" placeholder="https://..." disabled>'+
-      '<div class="lookup-state" id="storyUrlStatus">Trước tiên hãy nhập địa chỉ tủ sách.</div>'+
-      '<div class="modal-actions"><button id="storyRegisterBtn" disabled>Đăng ký</button></div>'+
-      '</fieldset>'+
-      '<fieldset><legend>Địa chỉ nhận sách</legend>'+
-      '<div class="story-hint">Dán link thư mục Google Drive của tủ sách Tàng Thư.</div>'+
-      '<input id="storyShelfUrl" type="url" placeholder="https://drive.google.com/drive/folders/...">'+
-      '<div class="lookup-state" id="storyShelfStatus">Chưa kiểm tra tủ sách.</div>'+
-      '</fieldset>'+
-      '<fieldset><legend>Thông báo</legend>'+
-      '<div id="storyBulletin" class="story-bulletin">Chưa có thông báo.</div></fieldset>');
 
-    var branchesUrl='https://raw.githubusercontent.com/Zenkjt/tangthu-opds/main/config/branches.json';
-    var branchesList=[];
-
-    function loadJSON(url){
-      return fetch(url,{cache:'no-store'}).then(function(r){
-        if(!r.ok)throw new Error('HTTP '+r.status);
-        return r.json();
-      });
-    }
-
-    function branchFromUrl(value){
-      var raw=String(value||'').trim(),id='';
-      try{
-        var u=new URL(raw),m=u.pathname.match(/\/folders\/([a-zA-Z0-9_-]+)/);
-        id=m?m[1]:(u.searchParams.get('id')||'');
-      }catch(e){}
-      if(!id){
-        var m2=raw.match(/^[a-zA-Z0-9_-]{10,}$/);
-        if(m2)id=m2[0];
-      }
-      return id?(branchesList.find(function(b){
-        return b.enabled!==false&&String(b.root_folder_id)===String(id);
-      })||null):null;
-    }
-
-    function bulletin(s){$('storyBulletin').textContent=String(s||'');}
-
-    function renderInfo(){
-      var h=$('storyInfo');
-      if(!state.registered||!state.story){
-        h.textContent='Chưa đăng ký nội dung đọc';
-        return;
-      }
-      var s=state.story;
-      var current=s.current_chapter!=null?s.current_chapter:
-        (s.target_chapter_number!=null?s.target_chapter_number:'—');
-      var total=s.total_chapters!=null?s.total_chapters:
-        (s.chapters?s.chapters.length:'—');
-      h.innerHTML=
-        '<div class="story-info-grid">'+
-        '<div><strong>'+esc(s.title||'Không có tên')+'</strong></div>'+
-        '<div>Tác giả: '+esc(s.author||'—')+'</div>'+
-        '<div>Nguồn: '+esc(s.site||s.source||state.storyUrl)+'</div>'+
-        '<div>Chương hiện tại: '+esc(current)+' / '+esc(total)+'</div>'+
-        '<div>Tủ nhận sách: '+esc(state.branch?(state.branch.display_name||state.branch.id):'—')+'</div>'+
-        '<div>File: <strong>0neStory.epub</strong></div>'+
-        '<div>TOC: <strong>0neStoryTOC.epub</strong></div>'+
-        '<div>Trạng thái: '+esc(s.status||'Đang đọc')+'</div>'+
-        '</div>';
-    }
-
-    function update(){
-      var ok=!!state.branch;
-      $('storyUrl').disabled=!ok;
-      $('storyRegisterBtn').disabled=!(ok&&$('storyUrl').value.trim());
-      var nav=!!(state.registered&&state.story);
-      $('storyPrevBtn').disabled=!nav;
-      $('storyNextBtn').disabled=!nav;
-      $('storyJumpBtn').disabled=!nav;
-    }
-
-    function call(action,payload){
-      if(!apiBase)return Promise.reject(
-        new Error('Story backend chưa được cấu hình (TANGTHU_STORY_API_URL).')
-      );
-      return fetch(apiBase.replace(/\/+$/,'')+'/'+action,{
-        method:'POST',
-        headers:{'Content-Type':'application/json'},
-        body:JSON.stringify(payload||{})
-      }).then(function(r){
-        return r.text().then(function(t){
-          var d={};
-          try{d=JSON.parse(t||'{}');}
-          catch(e){throw new Error('Backend trả về dữ liệu không hợp lệ.');}
-          if(!r.ok||d.ok===false)throw new Error(d.error||('HTTP '+r.status));
-          return d;
-        });
-      });
-    }
-
-    /*
-     * API contract:
-     *   register: { user_id, url }
-     *   next/previous/jump: { user_id, story_id, chapter_number? }
-     *
-     * branch.id is the stable user key.
-     * folder_id is UI/shelf context and is not sent to Story Scraper.
-     */
-    function register(){
-      var url=$('storyUrl').value.trim();
-      if(!state.branch||!url)return;
-
-      $('storyRegisterBtn').disabled=true;
-      $('storyUrlStatus').textContent='Đang đăng ký và tạo chapter index...';
-      bulletin('Đang xử lý đăng ký truyện...');
-
-      call('register',{
-        user_id:state.branch.id,
-        url:url
-      }).then(function(r){
-        state.storyUrl=url;
-        state.story=r.story||r;
-        state.registered=true;
-        renderInfo();
-        bulletin(r.message||'Đăng ký truyện thành công.');
-        $('storyUrlStatus').textContent='Đăng ký truyện thành công.';
-      }).catch(function(e){
-        state.registered=false;
-        state.story=null;
-        renderInfo();
-        bulletin('Scrape/đăng ký thất bại: '+e.message);
-        $('storyUrlStatus').textContent='Không thể đăng ký truyện.';
-      }).finally(update);
-    }
-
-    function trigger(action,extra){
-      if(!state.registered||!state.story)return;
-      bulletin('Đang xử lý...');
-
-      var p={
-        user_id:state.branch.id,
-        story_id:state.story.story_id||state.story.id
-      };
-      Object.assign(p,extra||{});
-
-      call(action,p).then(function(r){
-        state.story=r.story||r;
-        renderInfo();
-        bulletin(r.message||'Đã cập nhật.');
-      }).catch(function(e){
-        bulletin('Lỗi: '+e.message);
-      });
-    }
-
-    $('storyShelfUrl').oninput=function(){
-      clearTimeout(window.__tangthuStoryShelfTimer);
-      state.branch=null;
-      state.registered=false;
-      state.story=null;
-      renderInfo();
-      update();
-      $('storyShelfStatus').textContent='Đang kiểm tra tủ sách...';
-
-      window.__tangthuStoryShelfTimer=setTimeout(function(){
-        var raw=$('storyShelfUrl').value.trim();
-        if(!raw){
-          $('storyShelfStatus').textContent='Chưa kiểm tra tủ sách.';
-          update();
-          return;
-        }
-
-        var b=branchFromUrl(raw);
-        if(!b){
-          $('storyShelfStatus').textContent='Tủ sách không tồn tại, vui lòng tạo tủ trước.';
-          bulletin('Chưa có tủ sách nhận nội dung. Hãy tạo/đăng ký tủ sách trước.');
-          update();
-          return;
-        }
-
-        state.branch=b;
-        $('storyShelfStatus').textContent='Tủ sách: '+(b.display_name||b.id);
-        $('storyUrlStatus').textContent='Đã nhận ra tủ sách. Có thể nhập link truyện.';
-        bulletin('Đã nhận ra tủ sách. Bạn có thể nhập link truyện.');
-        update();
-      },250);
-    };
-
-    $('storyShelfUrl').onkeydown=function(e){e.stopPropagation();};
-    $('storyUrl').oninput=function(){
-      $('storyUrlStatus').textContent=state.branch?
-        'Đã nhận ra tủ sách. Bấm Đăng ký để xử lý truyện.':
-        'Trước tiên hãy nhập địa chỉ tủ sách.';
-      update();
-    };
-    $('storyUrl').onkeydown=function(e){e.stopPropagation();};
-
-    $('storyRegisterBtn').onclick=register;
-    $('storyPrevBtn').onclick=function(){trigger('previous');};
-    $('storyNextBtn').onclick=function(){trigger('next');};
-    $('storyJumpBtn').onclick=function(){
-      var c=state.story&&(state.story.current_chapter||state.story.target_chapter_number);
-      var v=window.prompt('Đến chương số:',c||1);
-      if(v===null)return;
-      var n=parseInt(v,10);
-      if(!Number.isFinite(n)||n<1){
-        bulletin('Số chương không hợp lệ.');
-        return;
-      }
-      trigger('jump',{chapter_number:n});
-    };
-
-    loadJSON(branchesUrl).then(function(c){
-      branchesList=Array.isArray(c.branches)?c.branches:[];
-      update();
-    }).catch(function(e){
-      $('storyShelfStatus').textContent='Không tải được danh sách tủ sách.';
-      bulletin('Không tải được branches.json: '+e.message);
-    });
-  }
-'''.replace('__API_URL__', repr(api_url))
-
-anchor='  function runSearch(){'
+anchor = '  function runSearch(){'
 if anchor not in text:
     raise SystemExit('Story UI patch anchor missing: runSearch')
-text=text.replace(anchor, story_fn+'
-'+anchor, 1)
+text = text.replace(anchor, story_fn + '\n' + anchor, 1)
 
-handler="  $('newsBtn').onclick=showNews;"
+handler = "  $('newsBtn').onclick=showNews;"
 if handler not in text:
-    handler="  $('shelfBtn').onclick=showShelf;"
+    handler = "  $('shelfBtn').onclick=showShelf;"
 if handler not in text:
     raise SystemExit('Story UI patch anchor missing: toolbar handler')
 if "$('storyBtn').onclick=showStory;" not in text:
-    text=text.replace(handler,handler+"
-  $('storyBtn').onclick=showStory;",1)
+    text = text.replace(handler, handler + "\n  $('storyBtn').onclick=showStory;", 1)
 
-if '.story-info-grid{' not in text:
-    css=''' .story-hint{margin:0 0 8px;font-size:12px;color:#555}.story-info{min-height:70px}.story-info-grid{display:flex;flex-direction:column;gap:5px}.story-nav{display:flex;gap:7px;justify-content:center;flex-wrap:wrap;margin-top:10px}.story-nav button{min-width:112px}.story-bulletin{min-height:44px;padding:8px;background:#f5f5f5;border:1px solid #999;white-space:pre-wrap}'''
-    text=text.replace('</style>',css+'
-</style>',1)
+css = '''\n.story-main{padding:0}.story-info-panel{border:1px solid #999;background:#eee;padding:12px}.story-info{min-height:360px}.story-info-body{display:grid;grid-template-columns:180px 1fr;column-gap:20px;row-gap:10px}.story-cover{width:180px;height:270px;border:1px solid #888;background:#ddd;display:flex;align-items:center;justify-content:center;overflow:hidden}.story-cover img{width:100%;height:100%;object-fit:cover}.story-cover-empty{font-size:18px;color:#777}.story-details h2{margin:0 0 14px;font-size:24px}.story-row{display:grid;grid-template-columns:145px 1fr;gap:10px;margin:7px 0;font-size:14px}.story-row span{color:#444}.story-row b{font-weight:500}.story-message{grid-column:2;margin-top:8px;padding:10px;background:#e8f0df;border:1px solid #aab89b;min-height:42px}.story-empty{padding:90px 20px;text-align:center;font-size:18px}.story-empty span{font-size:13px;color:#666}.story-nav{display:flex;gap:12px;margin-top:12px}.story-nav button{flex:1;min-height:38px}.story-inputs{margin-top:12px}.story-inputs fieldset{display:flex;gap:10px;align-items:center;margin:8px 0;padding:10px}.story-inputs fieldset legend{font-weight:bold}.story-inputs input{flex:1;min-width:0;height:38px;box-sizing:border-box;padding:6px 10px}.story-inputs button{height:38px;min-width:110px}.story-source-popup{position:fixed;z-index:99999;right:30px;bottom:28px;width:410px;background:#eee;border:1px solid #777;box-shadow:3px 3px 0 rgba(0,0,0,.25);padding:12px}.story-source-head{display:flex;justify-content:space-between;align-items:center;font-size:18px;margin-bottom:10px}.story-source-head button{min-width:32px}.story-source-list{background:#fff;border:1px solid #aaa;padding:8px}.story-source-row{display:grid;grid-template-columns:16px 1fr 140px;gap:8px;align-items:center;padding:5px 2px}.story-source-dot{width:10px;height:10px;border-radius:50%;display:block}.story-source-dot.ok{background:#319447}.story-source-dot.fail{background:#c92d2d}.story-source-domain{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.story-source-status{color:#666;text-align:right}.story-source-foot{display:flex;justify-content:space-between;align-items:center;margin-top:10px;font-size:12px;color:#666}.story-source-popup button{padding:5px 10px}.story-source-error{color:#a00;padding:10px}\n'''
+if '.story-info-panel{' not in text:
+    text = text.replace('</style>', css + '</style>', 1)
 
-path.write_text(text,encoding='utf-8')
+path.write_text(text, encoding='utf-8')
