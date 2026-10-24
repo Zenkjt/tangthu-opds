@@ -1632,27 +1632,41 @@ function jsonResponse(value) {
  * Then append the helper below. Do not replace the rest of Code.gs.
  */
 
+/**
+ * Story + News EPUB upload endpoint.
+ * Writes only to enabled registered shelves and allows only approved EPUB names.
+ */
 function uploadEpub_(body) {
   var props = PropertiesService.getScriptProperties();
   var expectedToken = String(props.getProperty('TANGTHU_UPLOAD_TOKEN') || '');
   var suppliedToken = String(body.token || '');
-
   if (!expectedToken || suppliedToken !== expectedToken) {
     return { ok: false, error: 'Unauthorized upload request.' };
   }
 
-  var folderId = String(body.folder_id || '');
-  var allowedFolderId = '1hR0H-wZejPM59ka-340atSlJCCYaaUbs';
+  var folderId = String(body.folder_id || '').trim();
+  if (!folderId) return { ok: false, error: 'Missing target folder.' };
 
-  if (folderId !== allowedFolderId) {
-    return { ok: false, error: 'Target folder is not allowlisted.' };
+  var config = readConfig_();
+  var registered = null;
+  for (var i = 0; i < config.branches.length; i++) {
+    var branch = config.branches[i];
+    if (String(branch.root_folder_id) === folderId && branch.enabled !== false) {
+      registered = branch;
+      break;
+    }
+  }
+  if (!registered) {
+    return { ok: false, error: 'Target folder is not an active registered Tàng Thư shelf.' };
   }
 
   var filename = String(body.filename || '');
-  if (filename !== '0neNews.epub') {
-    return { ok: false, error: 'Filename is not allowlisted.' };
-  }
-
+  var allowed = {
+    '0neNews.epub': true,
+    '0neStory.epub': true,
+    '0neStoryTOC.epub': true
+  };
+  if (!allowed[filename]) return { ok: false, error: 'Filename is not allowlisted.' };
   if (String(body.mime_type || '') !== 'application/epub+zip') {
     return { ok: false, error: 'Unexpected MIME type.' };
   }
@@ -1668,35 +1682,28 @@ function uploadEpub_(body) {
   } catch (err) {
     return { ok: false, error: 'Invalid base64 payload.' };
   }
+  if (!bytes.length) return { ok: false, error: 'Empty EPUB payload.' };
 
-  if (!bytes.length) {
-    return { ok: false, error: 'Empty EPUB payload.' };
-  }
-
-  // Use the existing Drive permissions and fail clearly if the script owner
-  // cannot write to the target folder.
   var folder;
   try {
-    folder = DriveApp.getFolderById(allowedFolderId);
+    folder = DriveApp.getFolderById(folderId);
   } catch (err) {
-    return { ok: false, error: 'Apps Script cannot write to the target folder: ' + String(err) };
+    return {
+      ok: false,
+      error: 'Apps Script cannot write to this shelf. Check Editor/write permission: ' + String(err)
+    };
   }
 
   var blob = Utilities.newBlob(bytes, 'application/epub+zip', filename);
   var matches = folder.getFilesByName(filename);
-  var file = null;
-
   if (matches.hasNext()) {
-    file = matches.next();
-
-    // Avoid ambiguous overwrites if the folder already contains duplicate names.
+    var file = matches.next();
     if (matches.hasNext()) {
-      return { ok: false, error: 'Multiple files named ' + filename + ' exist in target folder; refusing ambiguous overwrite.' };
+      return {
+        ok: false,
+        error: 'Multiple files named ' + filename + ' exist in target folder; refusing ambiguous overwrite.'
+      };
     }
-
-    // DriveApp File.setContent only supports text, not arbitrary binary.
-    // Use the Advanced Drive service for binary content update; the required
-    // API call is Drive.Files.update(metadata, fileId, blob).
     try {
       Drive.Files.update(
         { name: filename, mimeType: 'application/epub+zip' },
@@ -1706,32 +1713,33 @@ function uploadEpub_(body) {
       );
       file = DriveApp.getFileById(file.getId());
       return {
-        ok: true,
-        operation: 'updated',
-        filename: file.getName(),
-        file_id: file.getId(),
-        size: file.getSize()
+        ok: true, operation: 'updated', filename: file.getName(),
+        file_id: file.getId(), size: file.getSize(),
+        shelf_id: registered.id, shelf_name: registered.display_name
       };
     } catch (err) {
-      return { ok: false, error: 'Failed to update existing EPUB in place: ' + String(err) };
+      return {
+        ok: false,
+        error: 'Failed to update EPUB. Check Editor/write permission and Advanced Drive service: ' + String(err)
+      };
     }
   }
 
   try {
-    // Advanced Drive service preserves correct binary bytes and MIME type.
     var created = Drive.Files.create(
-      { name: filename, mimeType: 'application/epub+zip', parents: [allowedFolderId] },
+      { name: filename, mimeType: 'application/epub+zip', parents: [folderId] },
       blob,
       { supportsAllDrives: true }
     );
     return {
-      ok: true,
-      operation: 'created',
-      filename: created.name,
-      file_id: created.id,
-      size: bytes.length
+      ok: true, operation: 'created', filename: created.name,
+      file_id: created.id, size: bytes.length,
+      shelf_id: registered.id, shelf_name: registered.display_name
     };
   } catch (err) {
-    return { ok: false, error: 'Failed to create EPUB in target folder: ' + String(err) };
+    return {
+      ok: false,
+      error: 'Failed to create EPUB. Check Editor/write permission and Advanced Drive service: ' + String(err)
+    };
   }
 }
