@@ -113,8 +113,7 @@ jobs:
 
       - name: Add short OPDS entry point
         run: |
-          printf '%s
-'             '/opds /opds/index.xml 200'             '/opds/ /opds/index.xml 200'             > docs/_redirects
+          printf '%s\n'             '/opds /opds/index.xml 200'             '/opds/ /opds/index.xml 200'             > docs/_redirects
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4
