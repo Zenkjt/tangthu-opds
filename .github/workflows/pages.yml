@@ -88,6 +88,9 @@ jobs:
       - name: Apply news UI
         run: python3 scripts/postprocess_news.py
       - name: Apply story UI
+        env:
+          TANGTHU_STORY_API_URL: ${{ vars.TANGTHU_STORY_API_URL }}
+          TANGTHU_STORY_SOURCES_URL: ${{ vars.TANGTHU_STORY_SOURCES_URL }}
         run: python3 scripts/postprocess_story.py
       - name: Setup Pages
         uses: actions/configure-pages@v5

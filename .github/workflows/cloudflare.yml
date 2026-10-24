@@ -106,14 +106,15 @@ jobs:
         run: python3 scripts/postprocess_news.py
 
       - name: Apply story UI
+        env:
+          TANGTHU_STORY_API_URL: ${{ vars.TANGTHU_STORY_API_URL }}
+          TANGTHU_STORY_SOURCES_URL: ${{ vars.TANGTHU_STORY_SOURCES_URL }}
         run: python3 scripts/postprocess_story.py
 
       - name: Add short OPDS entry point
         run: |
-          printf '%s\n' \
-            '/opds /opds/index.xml 200' \
-            '/opds/ /opds/index.xml 200' \
-            > docs/_redirects
+          printf '%s
+'             '/opds /opds/index.xml 200'             '/opds/ /opds/index.xml 200'             > docs/_redirects
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4
