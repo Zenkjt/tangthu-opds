@@ -274,7 +274,7 @@ jobs:
             await github.rest.actions.createWorkflowDispatch({
               owner,
               repo,
-              workflow_id: 'pages.yml',
+              workflow_id: 'cloudflare.yml',
               ref: 'main'
             });
 
@@ -283,7 +283,7 @@ jobs:
               repo,
               issue_number: issue.number,
               body:
-                '🔄 Đã yêu cầu build lại GitHub Pages. Web + OPDS sẽ cập nhật sau khi build hoàn tất.'
+                '🔄 Đã yêu cầu build lại Cloudflare Pages. Web + OPDS sẽ cập nhật sau khi build hoàn tất.'
             });
 
             await github.rest.issues.update({
