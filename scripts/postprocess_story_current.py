@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Add current-story restoration to the generated Story GUI.
+"""Finalize Story GUI wording, restore current story, and add mobile layout.
 
-Run this after scripts/postprocess_story.py. It does not replace the main Story UI.
+Run this after scripts/postprocess_story.py.
+This file is called by the Cloudflare Pages workflow.
 """
 from pathlib import Path
+import re
 
 path = Path("docs/index.html")
 text = path.read_text(encoding="utf-8")
@@ -42,21 +44,58 @@ replacement = """        state.branch=b;
         }
 """
 if marker not in text:
-    raise SystemExit("Cannot find Story shelf handler anchor. Run this after postprocess_story.py.")
-
+    raise SystemExit("Story shelf handler anchor missing. Run after postprocess_story.py.")
 text = text.replace(marker, replacement, 1)
 
-if ".story-cover{" not in text:
-    css = """
+# postprocess_story.py creates these strings. Change only their GUI wording.
+wording = {
+    'Chọn chương ...': 'Đi đến',
+    "Đến chương số:": "Đi đến số tương ứng trong mục lục",
+}
+for old, new in wording.items():
+    if old not in text:
+        raise SystemExit(f"Story wording anchor missing: {old}")
+    text = text.replace(old, new, 1)
+
+css = """
 <style id="tangthu-story-current-css">
-.story-info-body{display:grid;grid-template-columns:180px 1fr;gap:20px}
-.story-cover{width:180px;height:270px;border:1px solid #888;background:#ddd;display:flex;align-items:center;justify-content:center;overflow:hidden}
-.story-cover img{width:100%;height:100%;object-fit:cover}
-.story-cover-empty{font-size:18px;color:#777}
+.story-info-body{min-width:0}
+.story-details{min-width:0}
+.story-row{min-width:0}
+.story-row b{min-width:0;overflow-wrap:anywhere;word-break:break-word}
+.story-message{min-width:0;overflow-wrap:anywhere;word-break:break-word}
+
+@media(max-width:600px){
+  .modal-backdrop{padding:6px}
+  .modal{width:100%;max-width:100%;max-height:94vh}
+  .modal-body{padding:8px}
+  .story-info-panel{padding:8px;min-width:0}
+  .story-info{min-height:0}
+  .story-info-body{grid-template-columns:120px minmax(0,1fr);column-gap:10px;row-gap:8px;min-width:0}
+  .story-cover{width:120px;height:180px;max-width:100%}
+  .story-details{min-width:0;overflow:hidden}
+  .story-details h2{font-size:20px;line-height:1.15;overflow-wrap:anywhere;word-break:break-word}
+  .story-row{grid-template-columns:78px minmax(0,1fr);gap:5px;margin:6px 0;font-size:13px;align-items:start}
+  .story-row span{min-width:0}
+  .story-row b{min-width:0;overflow-wrap:anywhere;word-break:break-word}
+  .story-message{grid-column:1/-1;margin-top:4px}
+  .story-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+  .story-nav button{min-width:0;width:100%;padding:5px 4px}
+  .story-inputs fieldset{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;padding:8px}
+  .story-inputs input{min-width:0;width:100%}
+  .story-inputs button{min-width:92px}
+}
+
+@media(max-width:360px){
+  .story-info-body{grid-template-columns:1fr}
+  .story-cover{width:120px;height:180px}
+  .story-details h2{margin-top:2px}
+}
 </style>
 """
-    if "</head>" not in text:
-        raise SystemExit("Cannot find </head> for Story cover CSS.")
-    text = text.replace("</head>", css + "\n</head>", 1)
 
+text = re.sub(r'\s*<style id="tangthu-story-current-css">.*?</style>\s*', "\n", text, count=1, flags=re.DOTALL)
+if "</head>" not in text:
+    raise SystemExit("Cannot find </head> for Story CSS.")
+text = text.replace("</head>", css + "\n</head>", 1)
 path.write_text(text, encoding="utf-8")
