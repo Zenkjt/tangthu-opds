@@ -16,7 +16,7 @@ marker = """        state.branch=b;
 replacement = """        state.branch=b;
         if(apiBase){
           renderInfo('Đã nhận tủ: '+(b.display_name||b.name||b.id)+'. Đang khôi phục truyện đang đọc...');
-          fetch(apiBase.replace(/\\/+$/,'')+'/story/current-by-user?user_id='+encodeURIComponent(b.id),{cache:'no-store'})
+          fetch(apiBase.replace(/\\\\/+$/,'')+'/story/current-by-user?user_id='+encodeURIComponent(b.id),{cache:'no-store'})
             .then(function(r){return r.text().then(function(t){
               var d={}; try{d=JSON.parse(t||'{}');}catch(e){throw new Error('Backend trả về dữ liệu không hợp lệ.');}
               if(!r.ok||d.ok===false) return null;
@@ -92,93 +92,135 @@ css = """
   .story-details h2{margin-top:2px}
 }
 
-.story-help-panel{margin:0 0 12px;padding:10px;border:1px solid #888;line-height:1.5;max-height:55vh;overflow:auto}
+.story-help-panel{margin:0 0 12px;padding:10px;background:#ffffcc;border:1px solid #888;line-height:1.5}
 .story-help-panel p{margin:0 0 9px}
 .story-help-panel p:last-child{margin-bottom:0}
+.story-help-panel strong{font-weight:bold}
 .story-help-panel code{font-family:Consolas,monospace}
-#storyHelpBtn{min-width:28px;height:24px;padding:0 7px;margin:0 4px 0 0;background:#c0c0c0;color:#000;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;font-weight:bold;cursor:pointer;flex:0 0 auto}
+#storyHelpBtn{min-width:28px;height:24px;padding:0 7px;margin-left:auto;margin-right:5px;background:#c0c0c0;color:#000;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;font-weight:bold}
 #storyHelpBtn:active{border-color:#555 #fff #fff #555;padding:1px 6px 0 8px}
 </style>
 """
 
-text = re.sub(r'\s*<style id="tangthu-story-current-css">.*?</style>\s*', "\n", text, count=1, flags=re.DOTALL)
+text = re.sub(
+    r'\s*<style id="tangthu-story-current-css">.*?</style>\s*',
+    "\n",
+    text,
+    count=1,
+    flags=re.DOTALL,
+)
+
 if "</head>" not in text:
     raise SystemExit("Cannot find </head> for Story CSS.")
+
 text = text.replace("</head>", css + "\n</head>", 1)
 
-# Add a ? button to the Story modal title and show the exact user-supplied help text.
+
+# ============================================================
+# STORY HELP
+# Same modal-help structure as News, only Story-specific
+# ============================================================
+
 help_script = r"""
 <script id="tangthu-story-help-script">
 (function(){
-  var HELP_ID='storyHelpBtn', PANEL_ID='storyHelpPanel';
-  var HELP_HTML=
-    '<p><strong>Đăng ký để đọc truyện online trong tủ sách của bạn.</strong></p>'+
-    '<p>Theo thiết kế sau khi đăng ký thành công, Tàng thư sẽ tải chương truyện đầu tiên về file <code>0neStory.epub</code> và mục lục sách về file <code>0neStoryTOC.epub</code> trong thư mục chia sẻ (tủ sách) của bạn để sẵn sàng tải về máy đọc sách qua OPDS.</p>'+
-    '<p><strong>Chuẩn bị:</strong> thư mục Google chia sẻ của bạn cần được để chế độ public - Anyone with the link can EDIT (để Tàng Thư có thể cập nhật file truyện).</p>'+
-    '<p>Dán địa chỉ thư mục Google vào ô "Địa chỉ nhận sách", tên tủ sẽ tự động được hiển thị&nbsp; Dán địa chỉ sách vào ô "Địa chỉ truyện online" và bấm đăng ký, truyện đã sẵn sàng trong tủ của bạn.</p>'+
-    '<p>Bấm "Chương tiếp", "Đi đến..." hay "Chương trước" Tàng thư sẽ tải chương tương ứng về thay thế vào <code>0neStory.epub</code> trong tủ.</p>'+
-    '<p>Sau này muốn chọn truyện khác, bạn quay lại đây, dán địa chỉ tủ sách và thực hiện điều chỉnh.</p>'+
-    '<p>Happy reading.<br>Zenkjt</p>';
-
-  function isStoryModal(){
-    var title=document.getElementById('modalTitle');
-    if(!title)return false;
-    return (title.textContent||'').trim()==='ĐĂNG KÝ ĐỌC ONLINE';
-  }
-
-  function sync(){
+  function installStoryModalUX(){
     var title=document.getElementById('modalTitle');
     var body=document.getElementById('modalBody');
     var close=document.getElementById('modalClose');
+
     if(!title||!body||!close)return;
 
-    var btn=document.getElementById(HELP_ID);
-    var panel=document.getElementById(PANEL_ID);
+    function isStory(){
+      return (title.textContent||'').trim()==='ĐĂNG KÝ ĐỌC ONLINE';
+    }
 
-    if(!isStoryModal()){
+    function removeHelp(){
+      var btn=document.getElementById('storyHelpBtn');
       if(btn)btn.remove();
+
+      var panel=body.querySelector('.story-help-panel');
       if(panel)panel.remove();
-      return;
     }
 
-    if(!btn){
-      btn=document.createElement('button');
-      btn.id=HELP_ID;
-      btn.type='button';
-      btn.textContent='?';
-      btn.title='Hướng dẫn';
-      btn.onclick=function(){
-        var p=document.getElementById(PANEL_ID);
-        if(p)p.hidden=!p.hidden;
-      };
-      close.parentNode.insertBefore(btn,close);
+    function ensureHelp(){
+      if(!isStory()){
+        removeHelp();
+        return;
+      }
+
+      if(!document.getElementById('storyHelpBtn')){
+        var btn=document.createElement('button');
+
+        btn.id='storyHelpBtn';
+        btn.type='button';
+        btn.textContent='?';
+        btn.title='Hướng dẫn';
+
+        btn.onclick=function(){
+          var panel=body.querySelector('.story-help-panel');
+          if(panel)panel.hidden=!panel.hidden;
+        };
+
+        close.parentNode.insertBefore(btn,close);
+      }
+
+      if(!body.querySelector('.story-help-panel')){
+        var panel=document.createElement('div');
+
+        panel.className='story-help-panel';
+        panel.hidden=true;
+
+        panel.innerHTML=
+          '<p><strong>Đăng ký để đọc truyện online trong tủ sách của bạn.</strong></p>'+
+          '<p>Theo thiết kế sau khi đăng ký thành công, Tàng thư sẽ tải chương truyện đầu tiên về file <code>0neStory.epub</code> và mục lục sách về file <code>0neStoryTOC.epub</code> trong thư mục chia sẻ (tủ sách) của bạn để sẵn sàng tải về máy đọc sách qua OPDS.</p>'+
+          '<p><strong>Chuẩn bị:</strong> thư mục Google chia sẻ của bạn cần được để chế độ public - Anyone with the link can EDIT (để Tàng Thư có thể cập nhật file truyện).</p>'+
+          '<p>Dán địa chỉ thư mục Google vào ô "Địa chỉ nhận sách", tên tủ sẽ tự động được hiển thị&nbsp; Dán địa chỉ sách vào ô "Địa chỉ truyện online" và bấm đăng ký, truyện đã sẵn sàng trong tủ của bạn.</p>'+
+          '<p>Bấm "Chương tiếp", "Đi đến..." hay "Chương trước" Tàng thư sẽ tải chương tương ứng về thay thế vào <code>0neStory.epub</code> trong tủ.</p>'+
+          '<p>Sau này muốn chọn truyện khác, bạn quay lại đây, dán địa chỉ tủ sách và thực hiện điều chỉnh.</p>'+
+          '<p>Happy reading.<br>Zenkjt</p>';
+
+        body.insertBefore(panel,body.firstChild);
+      }
     }
 
-    if(!panel){
-      panel=document.createElement('div');
-      panel.id=PANEL_ID;
-      panel.className='story-help-panel';
-      panel.hidden=true;
-      panel.innerHTML=HELP_HTML;
-      body.insertBefore(panel,body.firstChild);
-    }
+    ensureHelp();
+
+    /*
+     * Giống News:
+     * modal đã tồn tại, chỉ cần theo dõi modalTitle.
+     * Khi title đổi sang ĐĂNG KÝ ĐỌC ONLINE,
+     * ensureHelp() sẽ tự tạo nút ? và panel.
+     */
+    var observer=new MutationObserver(ensureHelp);
+
+    observer.observe(title,{
+      childList:true,
+      subtree:true,
+      characterData:true
+    });
   }
 
-  var observer=new MutationObserver(sync);
-  function start(){
-    sync();
-    var modal=document.getElementById('modal');
-    if(modal)observer.observe(modal,{childList:true,subtree:true,characterData:true});
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',installStoryModalUX);
+  }else{
+    installStoryModalUX();
   }
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
 })();
 </script>
 """
 
-# Keep exactly one copy of this script when the postprocessor is rerun.
-text = re.sub(r'\s*<script id="tangthu-story-help-script">.*?</script>\s*', '\n', text, count=1, flags=re.DOTALL)
+text = re.sub(
+    r'\s*<script id="tangthu-story-help-script">.*?</script>\s*',
+    "\n",
+    text,
+    count=1,
+    flags=re.DOTALL,
+)
+
 if "</body>" not in text:
     raise SystemExit("Cannot find </body> for Story help script.")
+
 text = text.replace("</body>", help_script + "\n</body>", 1)
 
 path.write_text(text, encoding="utf-8")
