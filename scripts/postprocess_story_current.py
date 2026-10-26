@@ -167,8 +167,8 @@ help_script = r"""
   var observer=new MutationObserver(sync);
   function start(){
     sync();
-    var modal=document.getElementById('modal');
-    if(modal)observer.observe(modal,{childList:true,subtree:true,characterData:true});
+  var title=document.getElementById('modalTitle');
+if(title)observer.observe(title,{childList:true,subtree:true,characterData:true});
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
 })();
