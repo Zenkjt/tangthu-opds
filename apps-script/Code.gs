@@ -1,15 +1,20 @@
 /**
  * TÀNG THƯ — Apps Script control bridge
  *
- * Drive sync:
- *   quick metadata scan
- *      -> item_count + total_size + max_modified_time
- *      -> unchanged: skip
- *      -> changed: full fingerprint scan
- *      -> confirmed change: GitHub repository_dispatch
+ * Drive sync architecture V5:
+ *   Google Drive Changes API
+ *      -> cheap change detector
+ *      -> no recursive folder scan
+ *      -> one GitHub repository_dispatch per completed change backlog
  *
- * Full scans are checkpointed so no execution needs to run for 10 minutes.
- * Does not use Google Drive Changes API.
+ * The detector does NOT fingerprint shelves and does NOT walk Drive trees.
+ * The static catalog generator remains responsible for reading Drive content.
+ *
+ * Change logs:
+ *   - My Drive user change log
+ *   - One shared-drive change log per shared drive containing a registered shelf
+ *
+ * Checkpoints are advanced only after a GitHub dispatch succeeds.
  */
 
 var REPO_OWNER = 'Zenkjt';
@@ -19,14 +24,14 @@ var CONFIG_PATH = 'config/branches.json';
 
 var MUTATION_COOLDOWN_MS = 24 * 60 * 60 * 1000;
 
-var DRIVE_BRANCH_STATE_KEY = 'TANGTHU_DRIVE_BRANCH_STATE_V4';
-var DRIVE_SCAN_STATE_KEY = 'TANGTHU_DRIVE_SCAN_STATE_V4';
-
+var DRIVE_CHANGE_STATE_KEY = 'TANGTHU_DRIVE_CHANGE_STATE_V5';
 var DRIVE_SYNC_LOCK_MS = 30000;
-var DRIVE_LIST_PAGE_SIZE = 1000;
-var DRIVE_TIME_BUDGET_MS = 4 * 60 * 1000;
-var DRIVE_BRANCH_BUDGET_MS = 45 * 1000;
+var DRIVE_CHANGE_PAGE_SIZE = 1000;
+var DRIVE_CHANGE_MAX_PAGES_PER_RUN = 20;
+var DRIVE_CHANGE_TIME_BUDGET_MS = 4 * 60 * 1000;
 var GITHUB_DISPATCH_EVENT = 'drive_changed';
+
+var DRIVE_FOLDER_MIME = 'application/vnd.google-apps.folder';
 
 
 function setupDriveChangeTrigger() {
@@ -42,30 +47,28 @@ function setupDriveChangeTrigger() {
       }
     }
 
-    var props = PropertiesService.getScriptProperties();
+    var config = readConfig_();
+    var state = initializeDriveChangeState_(config);
 
-    props.deleteProperty(DRIVE_BRANCH_STATE_KEY);
-    props.deleteProperty(DRIVE_SCAN_STATE_KEY);
-
-    props.deleteProperty('TANGTHU_DRIVE_QUICK_SNAPSHOT_V3');
-    props.deleteProperty('TANGTHU_DRIVE_FULL_SNAPSHOT_V3');
-    props.deleteProperty('TANGTHU_DRIVE_SNAPSHOT_V1');
-    props.deleteProperty('TANGTHU_DRIVE_CHANGE_PAGE_TOKEN');
-    props.deleteProperty('TANGTHU_DRIVE_CHANGE_PROGRESS_TOKEN');
-    props.deleteProperty('TANGTHU_DRIVE_CHANGE_PENDING');
-    props.deleteProperty('TANGTHU_DRIVE_CHANGE_LOCK');
+    PropertiesService.getScriptProperties()
+      .setProperty(DRIVE_CHANGE_STATE_KEY, JSON.stringify(state));
 
     ScriptApp.newTrigger('driveCheck')
       .timeBased()
       .everyMinutes(30)
       .create();
 
-    Logger.log('TÀNG THƯ: driveCheck trigger created.');
+    Logger.log(
+      'TÀNG THƯ: Drive Changes detector V5 initialized. ' +
+      'shared_drives=' + Object.keys(state.shared || {}).length
+    );
 
     return {
       ok: true,
       trigger: 'driveCheck',
-      interval_minutes: 30
+      interval_minutes: 30,
+      detector: 'changes_api_v5',
+      shared_drives: Object.keys(state.shared || {}).length
     };
   } finally {
     lock.releaseLock();
@@ -73,163 +76,205 @@ function setupDriveChangeTrigger() {
 }
 
 
-/*
- * One driveCheck execution does two jobs in the same round:
- *   1. continue baseline for shelves not yet baselined;
- *   2. re-check shelves that already have a baseline.
- *
- * Every shelf has its own durable quick signature and baseline_complete flag.
- * The cursor only decides which shelf gets attention next; it is not the
- * baseline itself. A timeout therefore cannot make completed shelves vanish.
- */
 function driveCheck() {
   var startedAt = Date.now();
   var lock = LockService.getScriptLock();
 
   if (!lock.tryLock(DRIVE_SYNC_LOCK_MS)) {
+    Logger.log('TÀNG THƯ: driveCheck skipped because another check is running.');
     return {
-      ok: false,
+      ok: true,
       skipped: true,
       reason: 'Một lần driveCheck khác đang chạy.'
     };
   }
 
   try {
+    var props = PropertiesService.getScriptProperties();
     var config = readConfig_();
-    var branchState = loadBranchState_();
-    var scanState = loadScanState_();
+    var state = loadDriveChangeState_();
 
-    if (scanState && scanState.phase === 'full') {
-      var fullResult = continueFullScan_(config, scanState, startedAt);
-      if (fullResult.completed) {
-        saveScanState_(null);
-      }
-      return fullResult;
+    if (!state) {
+      state = initializeDriveChangeState_(config);
+      saveDriveChangeState_(state);
+
+      Logger.log('TÀNG THƯ: Drive Changes baseline initialized.');
+      return {
+        ok: true,
+        initialized: true,
+        changed: false
+      };
     }
 
-    var enabled = [];
-    for (var i = 0; i < config.branches.length; i++) {
-      if (config.branches[i].enabled) {
-        enabled.push(config.branches[i]);
-      }
+    state = reconcileDriveChangeCorpora_(state, config);
+
+    var order = state.order || [];
+    if (!order.length) {
+      saveDriveChangeState_(state);
+      Logger.log('TÀNG THƯ: no Drive change corpora configured.');
+      return {
+        ok: true,
+        changed: false,
+        corpora: 0
+      };
     }
 
-    if (!enabled.length) {
-      saveBranchState_({ version: 4, cursor: 0, branches: {} });
-      Logger.log('TÀNG THƯ: no enabled shelves.');
-      return { ok: true, changed: false, baseline_complete: true };
-    }
+    var pages = 0;
 
-    branchState = normalizeBranchState_(branchState, enabled);
+    while (
+      state.cursor < order.length &&
+      pages < DRIVE_CHANGE_MAX_PAGES_PER_RUN &&
+      Date.now() - startedAt < DRIVE_CHANGE_TIME_BUDGET_MS
+    ) {
+      var corpusKey = order[state.cursor];
+      var corpus = getCorpusState_(state, corpusKey);
 
-    Logger.log(
-      'TÀNG THƯ: quick round START cursor=' + branchState.cursor +
-      ' shelves=' + enabled.length +
-      ' baseline=' + countBaselinedBranches_(branchState, enabled) + '/' + enabled.length
-    );
-    pruneFullSnapshot_(enabled);
-
-    var processed = 0;
-    var baselineCompletedThisRun = [];
-    var changedBranches = [];
-
-    while (Date.now() - startedAt < DRIVE_TIME_BUDGET_MS) {
-      var index = Number(branchState.cursor || 0) % enabled.length;
-      var branch = enabled[index];
-      var id = String(branch.id);
-      var entry = branchState.branches[id];
-
-      var result = scanBranchQuick_(
-        branch,
-        entry,
-        startedAt,
-        branchState
-      );
-
-      if (!result.completed) {
-        // This shelf has its own durable queue/checkpoint. Do not let a large
-        // shelf monopolize the whole baseline round: move the cursor forward
-        // and give the next shelf a chance in the same execution if time remains.
-        branchState.cursor = (index + 1) % enabled.length;
-        processed++;
-        saveBranchState_(branchState);
-        Logger.log(
-          'TÀNG THƯ: branch CHECKPOINT branch=' + id +
-          ' baseline=' + (entry.baseline_complete ? 'complete' : 'pending') +
-          ' next_cursor=' + branchState.cursor +
-          ' queue=' + (entry.scan_queue ? entry.scan_queue.length : 0) +
-          ' files_so_far=' + Number(entry.item_count_work || 0) +
-          ' elapsed=' + (Date.now() - startedAt) + 'ms'
-        );
+      if (!corpus) {
+        state.cursor++;
         continue;
       }
 
-      entry.item_count = result.signature.item_count;
-      entry.total_size = result.signature.total_size;
-      entry.max_modified_time = result.signature.max_modified_time;
-      entry.scan_queue = null;
-      entry.visited = {};
-      entry.item_count_work = 0;
-      entry.total_size_work = 0;
-      entry.max_modified_work = '';
+      var pageToken = corpus.pending_token || corpus.token;
 
-      if (!entry.baseline_complete) {
-        entry.baseline_complete = true;
-        baselineCompletedThisRun.push(id);
-      } else if (
-        entry.item_count !== result.previous.item_count ||
-        entry.total_size !== result.previous.total_size ||
-        entry.max_modified_time !== result.previous.max_modified_time
-      ) {
-        changedBranches.push(id);
+      if (!pageToken) {
+        pageToken = getCorpusStartPageToken_(corpus);
+        corpus.token = pageToken;
+        corpus.pending_token = '';
       }
 
-      branchState.cursor = (index + 1) % enabled.length;
-      processed++;
+      var result = listDriveChangesPage_(corpus, pageToken);
+      pages++;
+
+      if (!result.ok) {
+        if (result.rebaseline) {
+          corpus.token = getCorpusStartPageToken_(corpus);
+          corpus.pending_token = '';
+          state.changed = true;
+          state.change_count = Number(state.change_count || 0) + 1;
+          if (!state.changed_corpora) {
+            state.changed_corpora = {};
+          }
+          state.changed_corpora[corpusKey] = true;
+          state.cursor++;
+          saveDriveChangeState_(state);
+
+          Logger.log(
+            'TÀNG THƯ: invalid Drive change token; corpus re-baselined. ' +
+            'A build will be dispatched to reconcile current Drive state. ' +
+            'corpus=' + corpusKey
+          );
+          continue;
+        }
+
+        throw new Error(result.error);
+      }
+
+      if (result.change_count > 0) {
+        state.changed = true;
+        state.change_count = Number(state.change_count || 0) + result.change_count;
+
+        if (!state.changed_corpora) {
+          state.changed_corpora = {};
+        }
+        state.changed_corpora[corpusKey] = true;
+      }
+
+      if (result.next_page_token) {
+        corpus.pending_token = result.next_page_token;
+
+        saveDriveChangeState_(state);
+
+        Logger.log(
+          'TÀNG THƯ: change backlog checkpoint. corpus=' +
+          corpusKey +
+          ' changes=' + result.change_count +
+          ' next_page=yes'
+        );
+
+        return {
+          ok: true,
+          phase: 'changes',
+          completed: false,
+          changed: !!state.changed,
+          pages: pages
+        };
+      }
+
+      if (!result.new_start_page_token) {
+        throw new Error(
+          'Drive changes.list không trả về newStartPageToken.'
+        );
+      }
+
+      corpus.token = result.new_start_page_token;
+      corpus.pending_token = '';
+      state.cursor++;
+
+      saveDriveChangeState_(state);
 
       Logger.log(
-        'TÀNG THƯ: branch COMPLETE branch=' + id +
-        ' baseline=' + (entry.baseline_complete ? 'complete' : 'newly-complete') +
-        ' files=' + entry.item_count +
-        ' next_cursor=' + branchState.cursor +
-        ' elapsed=' + (Date.now() - startedAt) + 'ms'
+        'TÀNG THƯ: change corpus complete. corpus=' +
+        corpusKey +
+        ' changes=' + result.change_count
       );
-
-      if (changedBranches.length) {
-        var fullState = {
-          phase: 'full',
-          branch_ids: changedBranches.slice(),
-          branch_index: 0,
-          folder_queue: null,
-          visited: {},
-          items: [],
-          baseline_ids: []
-        };
-        saveBranchState_(branchState);
-        saveScanState_(fullState);
-        return continueFullScan_(config, fullState, startedAt);
-      }
     }
 
-    saveBranchState_(branchState);
+    if (state.cursor < order.length) {
+      saveDriveChangeState_(state);
 
-    var allBaseline = allBranchesBaselined_(branchState, enabled);
+      return {
+        ok: true,
+        phase: 'changes',
+        completed: false,
+        changed: !!state.changed,
+        pages: pages,
+        remaining_corpora: order.length - state.cursor
+      };
+    }
+
+    if (!state.changed) {
+      state.cursor = 0;
+      state.change_count = 0;
+      state.changed_corpora = {};
+      saveDriveChangeState_(state);
+
+      Logger.log('TÀNG THƯ: no Drive changes.');
+
+      return {
+        ok: true,
+        changed: false,
+        pages: pages
+      };
+    }
+
+    /*
+     * IMPORTANT:
+     * Do not advance the durable checkpoints beyond this point until the
+     * GitHub dispatch succeeds. If dispatch fails, the last saved checkpoint
+     * remains available and the changes will be replayed safely.
+     */
+    dispatchGitHubBuild_({
+      change_count: Number(state.change_count || 0),
+      corpora: Object.keys(state.changed_corpora || {}),
+      detected_at: new Date().toISOString()
+    });
+
+    state.cursor = 0;
+    state.changed = false;
+    state.change_count = 0;
+    state.changed_corpora = {};
+
+    saveDriveChangeState_(state);
 
     Logger.log(
-      'TÀNG THƯ: quick round END processed=' + processed +
-      ' cursor=' + branchState.cursor +
-      ' baseline_complete=' + allBaseline +
-      ' baselined=' + countBaselinedBranches_(branchState, enabled) + '/' + enabled.length +
-      ' elapsed=' + (Date.now() - startedAt) + 'ms'
+      'TÀNG THƯ: Drive changes detected; GitHub Actions dispatched.'
     );
 
     return {
       ok: true,
-      phase: 'quick',
-      completed: false,
-      processed: processed,
-      baseline_complete: allBaseline,
-      baseline_completed_this_run: baselineCompletedThisRun
+      changed: true,
+      dispatched: true,
+      pages: pages
     };
   } finally {
     lock.releaseLock();
@@ -237,561 +282,366 @@ function driveCheck() {
 }
 
 
-/*
- * Scan one shelf. During the first baseline this establishes its signature.
- * On later rounds it compares the new signature against that shelf's stored
- * signature. The work itself is checkpointed at folder level.
- */
-function scanBranchQuick_(branch, entry, startedAt, branchState) {
-  var apiKey = PropertiesService.getScriptProperties()
-    .getProperty('TANGTHU_GOOGLE_API_KEY');
-
-  if (!apiKey) {
-    throw new Error(
-      'Apps Script chưa được cấu hình TANGTHU_GOOGLE_API_KEY.'
-    );
-  }
-
-  var previous = {
-    item_count: Number(entry.item_count || 0),
-    total_size: Number(entry.total_size || 0),
-    max_modified_time: String(entry.max_modified_time || '')
+function initializeDriveChangeState_(config) {
+  var sharedDriveIds = discoverConfiguredSharedDrives_(config);
+  var state = {
+    version: 5,
+    config_sha: String(config.sha || ''),
+    order: ['user'],
+    user: {
+      type: 'user',
+      drive_id: '',
+      token: '',
+      pending_token: ''
+    },
+    shared: {},
+    cursor: 0,
+    changed: false,
+    change_count: 0,
+    changed_corpora: {}
   };
 
-  var queue = entry.scan_queue;
-  var visited = entry.visited || {};
-  var itemCount = Number(entry.item_count_work || 0);
-  var totalSize = Number(entry.total_size_work || 0);
-  var maxModified = String(entry.max_modified_work || '');
+  state.user.token = getCorpusStartPageToken_(state.user);
 
-  if (!queue) {
-    queue = [String(branch.root_folder_id)];
-    visited = {};
-    itemCount = 0;
-    totalSize = 0;
-    maxModified = '';
-  }
+  for (var i = 0; i < sharedDriveIds.length; i++) {
+    var driveId = sharedDriveIds[i];
 
-  var branchStartedAt = Date.now();
-
-  while (queue.length) {
-    if (
-      Date.now() - startedAt >= DRIVE_TIME_BUDGET_MS ||
-      Date.now() - branchStartedAt >= DRIVE_BRANCH_BUDGET_MS
-    ) {
-      entry.scan_queue = queue;
-      entry.visited = visited;
-      entry.item_count_work = itemCount;
-      entry.total_size_work = totalSize;
-      entry.max_modified_work = maxModified;
-      return {
-        completed: false,
-        previous: previous
-      };
-    }
-
-    var folderId = queue.shift();
-
-    if (visited[folderId]) {
-      continue;
-    }
-
-    visited[folderId] = true;
-
-    var result = listDriveFolder_(folderId, apiKey);
-
-    if (!result.ok) {
-      throw new Error(
-        'Google Drive quick scan thất bại: ' + result.error
-      );
-    }
-
-    var files = result.files || [];
-
-    for (var i = 0; i < files.length; i++) {
-      var file = files[i];
-      itemCount++;
-
-      if (file.size != null && file.size !== '') {
-        totalSize += Number(file.size) || 0;
-      }
-
-      var modified = String(file.modifiedTime || '');
-      if (modified > maxModified) {
-        maxModified = modified;
-      }
-
-      if (
-        file.mimeType ===
-        'application/vnd.google-apps.folder'
-      ) {
-        queue.push(String(file.id));
-      }
-    }
-  }
-
-  return {
-    completed: true,
-    previous: previous,
-    signature: {
-      item_count: itemCount,
-      total_size: totalSize,
-      max_modified_time: maxModified
-    }
-  };
-}
-
-
-function continueFullScan_(config, state, startedAt) {
-  var apiKey = PropertiesService.getScriptProperties()
-    .getProperty('TANGTHU_GOOGLE_API_KEY');
-
-  if (!apiKey) {
-    throw new Error(
-      'Apps Script chưa được cấu hình TANGTHU_GOOGLE_API_KEY.'
-    );
-  }
-
-  var fullSnapshot = loadFullSnapshot_() || {};
-
-  while (state.branch_index < state.branch_ids.length) {
-    var branchId = String(state.branch_ids[state.branch_index]);
-    var branch = findBranchById_(config, branchId);
-
-    if (!branch) {
-      state.branch_index++;
-      state.folder_queue = null;
-      state.visited = {};
-      state.items = [];
-      continue;
-    }
-
-    if (!state.folder_queue) {
-      state.folder_queue = [String(branch.root_folder_id)];
-      state.visited = {};
-      state.items = [];
-    }
-
-    while (state.folder_queue.length) {
-      if (Date.now() - startedAt >= DRIVE_TIME_BUDGET_MS) {
-        saveScanState_(state);
-        Logger.log(
-          'TÀNG THƯ: full scan checkpoint. branch_index=' +
-          state.branch_index
-        );
-        return {
-          ok: true,
-          phase: 'full',
-          completed: false
-        };
-      }
-
-      var folderId = state.folder_queue.shift();
-
-      if (state.visited[folderId]) {
-        continue;
-      }
-
-      state.visited[folderId] = true;
-
-      var result = listDriveFolder_(folderId, apiKey);
-
-      if (!result.ok) {
-        throw new Error(
-          'Google Drive full scan thất bại: ' + result.error
-        );
-      }
-
-      var files = result.files || [];
-
-      for (var i = 0; i < files.length; i++) {
-        var file = files[i];
-
-        state.items.push({
-          id: String(file.id || ''),
-          parent: folderId,
-          name: String(file.name || ''),
-          mime: String(file.mimeType || ''),
-          size: file.size == null ? '' : String(file.size),
-          modified: String(file.modifiedTime || ''),
-          created: String(file.createdTime || ''),
-          checksum: String(file.md5Checksum || ''),
-          folder:
-            file.mimeType ===
-            'application/vnd.google-apps.folder'
-        });
-
-        if (
-          file.mimeType ===
-          'application/vnd.google-apps.folder'
-        ) {
-          state.folder_queue.push(String(file.id));
-        }
-      }
-    }
-
-    fullSnapshot[branchId] =
-      fingerprintDriveItems_(state.items);
-
-    state.branch_index++;
-    state.folder_queue = null;
-    state.visited = {};
-    state.items = [];
-  }
-
-  var previousFull = loadFullSnapshot_() || {};
-  var actuallyChanged = [];
-
-  for (var j = 0; j < state.branch_ids.length; j++) {
-    var id = String(state.branch_ids[j]);
-
-    /*
-     * The quick signature already proved that this shelf changed. If a
-     * previous full fingerprint exists, require it to differ as well. For a
-     * shelf's first change, there is no old fingerprint yet, so the changed
-     * quick signature is the authoritative signal and we dispatch once.
-     */
-    if (
-      !previousFull[id] ||
-      fullSnapshot[id] !== previousFull[id]
-    ) {
-      actuallyChanged.push(id);
-    }
-  }
-
-  saveFullSnapshot_(fullSnapshot);
-  saveScanState_(null);
-
-  if (actuallyChanged.length) {
-    dispatchGitHubBuild_(actuallyChanged);
-
-    Logger.log(
-      'TÀNG THƯ: Drive changed; GitHub Actions dispatched. branches=' +
-      JSON.stringify(actuallyChanged)
-    );
-
-    return {
-      ok: true,
-      phase: 'full',
-      completed: true,
-      changed: true,
-      dispatched: true,
-      changed_branches: actuallyChanged
+    state.shared[driveId] = {
+      type: 'shared',
+      drive_id: driveId,
+      token: '',
+      pending_token: ''
     };
+
+    state.shared[driveId].token =
+      getCorpusStartPageToken_(state.shared[driveId]);
+
+    state.order.push('drive:' + driveId);
   }
-
-  Logger.log(
-    'TÀNG THƯ: full scan completed; no confirmed Drive changes.'
-  );
-
-  return {
-    ok: true,
-    phase: 'full',
-    completed: true,
-    changed: false
-  };
-}
-
-
-function findBranchById_(config, id) {
-  for (var i = 0; i < config.branches.length; i++) {
-    if (String(config.branches[i].id) === String(id)) {
-      return config.branches[i];
-    }
-  }
-  return null;
-}
-
-
-function normalizeBranchState_(state, enabled) {
-  if (!state || typeof state !== 'object') {
-    state = { version: 4, cursor: 0, branches: {} };
-  }
-
-  if (!state.branches || typeof state.branches !== 'object') {
-    state.branches = {};
-  }
-
-  for (var i = 0; i < enabled.length; i++) {
-    var id = String(enabled[i].id);
-    if (!state.branches[id]) {
-      state.branches[id] = {
-        baseline_complete: false,
-        item_count: 0,
-        total_size: 0,
-        max_modified_time: '',
-        scan_queue: null,
-        visited: {},
-        item_count_work: 0,
-        total_size_work: 0,
-        max_modified_work: ''
-      };
-    }
-  }
-
-  var valid = {};
-  for (var j = 0; j < enabled.length; j++) {
-    valid[String(enabled[j].id)] = true;
-  }
-
-  var keys = Object.keys(state.branches);
-  for (var k = 0; k < keys.length; k++) {
-    if (!valid[keys[k]]) {
-      delete state.branches[keys[k]];
-    }
-  }
-
-  state.version = 4;
-  state.cursor = Number(state.cursor || 0) % Math.max(enabled.length, 1);
 
   return state;
 }
 
 
-function countBaselinedBranches_(branchState, enabled) {
-  var count = 0;
-  for (var i = 0; i < enabled.length; i++) {
-    var id = String(enabled[i].id);
-    var entry = branchState.branches[id];
-    if (entry && entry.baseline_complete) {
-      count++;
-    }
-  }
-  return count;
-}
-
-
-function allBranchesBaselined_(state, enabled) {
-  for (var i = 0; i < enabled.length; i++) {
-    var entry = state.branches[String(enabled[i].id)];
-    if (!entry || !entry.baseline_complete) {
-      return false;
-    }
-  }
-  return true;
-}
-
-
-function loadBranchState_() {
-  var raw = PropertiesService.getScriptProperties()
-    .getProperty(DRIVE_BRANCH_STATE_KEY);
-
-  if (!raw) {
-    return { version: 4, cursor: 0, branches: {} };
+function reconcileDriveChangeCorpora_(state, config) {
+  if (Number(state.version || 0) !== 5) {
+    return initializeDriveChangeState_(config);
   }
 
-  try {
-    return JSON.parse(raw);
-  } catch (err) {
-    throw new Error(
-      'Drive branch state bị hỏng: ' + String(err)
-    );
-  }
-}
-
-
-function saveBranchState_(state) {
-  PropertiesService.getScriptProperties()
-    .setProperty(
-      DRIVE_BRANCH_STATE_KEY,
-      JSON.stringify(state)
-    );
-}
-
-
-function pruneFullSnapshot_(enabled) {
-  var snapshot = loadFullSnapshot_() || {};
-  var valid = {};
-
-  for (var i = 0; i < enabled.length; i++) {
-    valid[String(enabled[i].id)] = true;
-  }
-
-  var keys = Object.keys(snapshot);
-  var changed = false;
-  for (var j = 0; j < keys.length; j++) {
-    if (!valid[keys[j]]) {
-      delete snapshot[keys[j]];
-      changed = true;
-    }
-  }
-
-  if (changed) {
-    saveFullSnapshot_(snapshot);
-  }
-}
-
-
-function loadFullSnapshot_() {
-  var raw = PropertiesService.getScriptProperties()
-    .getProperty('TANGTHU_DRIVE_FULL_SNAPSHOT_V3');
-
-  if (!raw) {
-    return null;
-  }
-
-  return JSON.parse(raw);
-}
-
-
-function saveFullSnapshot_(snapshot) {
-  PropertiesService.getScriptProperties()
-    .setProperty(
-      'TANGTHU_DRIVE_FULL_SNAPSHOT_V3',
-      JSON.stringify(snapshot)
-    );
-}
-
-
-function loadScanState_() {
-  var raw = PropertiesService.getScriptProperties()
-    .getProperty(DRIVE_SCAN_STATE_KEY);
-
-  if (!raw) {
-    return null;
-  }
-
-  try {
-    return JSON.parse(raw);
-  } catch (err) {
-    throw new Error(
-      'Drive scan state bị hỏng: ' + String(err)
-    );
-  }
-}
-
-
-function saveScanState_(state) {
-  var props = PropertiesService.getScriptProperties();
-
-  if (!state) {
-    props.deleteProperty(DRIVE_SCAN_STATE_KEY);
-    return;
-  }
-
-  props.setProperty(
-    DRIVE_SCAN_STATE_KEY,
-    JSON.stringify(state)
+  var configuredDriveIds = discoverConfiguredSharedDrivesIfConfigChanged_(
+    state,
+    config
   );
+
+  if (String(state.config_sha || '') === String(config.sha || '')) {
+    return state;
+  }
+
+  /*
+   * Keep all existing checkpoints. A config change must never discard an
+   * already-consumed Drive change backlog.
+   */
+  var existing = state.shared || {};
+  var nextShared = {};
+  var nextOrder = ['user'];
+
+  for (var i = 0; i < configuredDriveIds.length; i++) {
+    var driveId = configuredDriveIds[i];
+
+    if (existing[driveId]) {
+      nextShared[driveId] = existing[driveId];
+    } else {
+      nextShared[driveId] = {
+        type: 'shared',
+        drive_id: driveId,
+        token: getCorpusStartPageToken_({
+          type: 'shared',
+          drive_id: driveId
+        }),
+        pending_token: ''
+      };
+    }
+
+    nextOrder.push('drive:' + driveId);
+  }
+
+  state.shared = nextShared;
+  state.order = nextOrder;
+  state.config_sha = String(config.sha || '');
+  state.cursor = Math.min(
+    Number(state.cursor || 0),
+    Math.max(nextOrder.length - 1, 0)
+  );
+
+  return state;
 }
 
 
-function listDriveFolder_(folderId, apiKey) {
-  var allFiles = [];
-  var pageToken = '';
+function discoverConfiguredSharedDrivesIfConfigChanged_(state, config) {
+  if (String(state.config_sha || '') === String(config.sha || '')) {
+    var ids = [];
+    var keys = Object.keys(state.shared || {});
 
-  do {
-    var url =
-      'https://www.googleapis.com/drive/v3/files' +
-      '?q=' +
-      encodeURIComponent(
-        "'" + folderId + "' in parents and trashed = false"
-      ) +
-      '&pageSize=' + DRIVE_LIST_PAGE_SIZE +
-      '&supportsAllDrives=true' +
-      '&includeItemsFromAllDrives=true' +
-      '&fields=' +
-      encodeURIComponent(
-        'nextPageToken,files(id,name,mimeType,size,createdTime,modifiedTime,md5Checksum)'
-      ) +
-      '&key=' + encodeURIComponent(apiKey);
-
-    if (pageToken) {
-      url += '&pageToken=' + encodeURIComponent(pageToken);
+    for (var i = 0; i < keys.length; i++) {
+      ids.push(keys[i]);
     }
 
-    var response = UrlFetchApp.fetch(url, {
+    return ids;
+  }
+
+  return discoverConfiguredSharedDrives_(config);
+}
+
+
+function discoverConfiguredSharedDrives_(config) {
+  var ids = {};
+  var apiKey = PropertiesService.getScriptProperties()
+    .getProperty('TANGTHU_GOOGLE_API_KEY');
+
+  if (!apiKey) {
+    throw new Error(
+      'Apps Script chưa được cấu hình TANGTHU_GOOGLE_API_KEY.'
+    );
+  }
+
+  for (var i = 0; i < config.branches.length; i++) {
+    var branch = config.branches[i];
+
+    if (branch.enabled === false) {
+      continue;
+    }
+
+    var rootId = String(branch.root_folder_id || '').trim();
+    if (!rootId) {
+      continue;
+    }
+
+    var corpus = getDriveCorpusForFolder_(rootId, apiKey);
+
+    if (!corpus.ok) {
+      throw new Error(
+        'Không xác định được Drive corpus của tủ "' +
+        String(branch.display_name || branch.id || rootId) +
+        '": ' + corpus.error
+      );
+    }
+
+    if (corpus.drive_id) {
+      ids[corpus.drive_id] = true;
+    }
+  }
+
+  return Object.keys(ids);
+}
+
+
+function getDriveCorpusForFolder_(folderId, apiKey) {
+  var endpoint =
+    'https://www.googleapis.com/drive/v3/files/' +
+    encodeURIComponent(folderId) +
+    '?fields=id,mimeType,trashed,driveId' +
+    '&supportsAllDrives=true' +
+    '&key=' + encodeURIComponent(apiKey);
+
+  try {
+    var response = UrlFetchApp.fetch(endpoint, {
       method: 'get',
       muteHttpExceptions: true,
       headers: { Accept: 'application/json' }
     });
 
     var status = response.getResponseCode();
-    var body = JSON.parse(
-      response.getContentText() || '{}'
-    );
+    var body = JSON.parse(response.getContentText() || '{}');
 
     if (status !== 200) {
       return {
         ok: false,
-        http_status: status,
         error:
-          body.error && body.error.message
-            ? body.error.message
-            : response.getContentText()
+          'Google Drive root lookup thất bại: HTTP ' +
+          status + ' ' + response.getContentText()
       };
     }
 
-    var files = body.files || [];
-
-    for (var i = 0; i < files.length; i++) {
-      allFiles.push(files[i]);
+    if (body.trashed) {
+      return {
+        ok: false,
+        error: 'Tủ sách đang ở thùng rác.'
+      };
     }
 
-    pageToken = body.nextPageToken
-      ? String(body.nextPageToken)
-      : '';
-  } while (pageToken);
+    if (body.mimeType !== DRIVE_FOLDER_MIME) {
+      return {
+        ok: false,
+        error: 'root_folder_id không trỏ tới folder.'
+      };
+    }
 
-  return {
-    ok: true,
-    files: allFiles
-  };
+    return {
+      ok: true,
+      drive_id: body.driveId ? String(body.driveId) : ''
+    };
+  } catch (err) {
+    return {
+      ok: false,
+      error: String(err)
+    };
+  }
 }
 
 
-function fingerprintDriveItems_(items) {
-  var rows = [];
-
-  for (var i = 0; i < items.length; i++) {
-    var f = items[i];
-
-    rows.push([
-      f.id,
-      f.parent,
-      f.folder ? 'D' : 'F',
-      f.name,
-      f.mime,
-      f.size,
-      f.created,
-      f.modified,
-      f.checksum
-    ].join('\t'));
+function getCorpusState_(state, corpusKey) {
+  if (corpusKey === 'user') {
+    return state.user;
   }
 
-  rows.sort();
-
-  var canonical = rows.join('\n');
-
-  var digest = Utilities.computeDigest(
-    Utilities.DigestAlgorithm.SHA_256,
-    canonical,
-    Utilities.Charset.UTF_8
-  );
-
-  var hex = '';
-
-  for (var j = 0; j < digest.length; j++) {
-    var value = digest[j];
-
-    if (value < 0) {
-      value += 256;
-    }
-
-    var h = value.toString(16);
-
-    if (h.length < 2) {
-      h = '0' + h;
-    }
-
-    hex += h;
+  if (corpusKey.indexOf('drive:') === 0) {
+    return (state.shared || {})[corpusKey.slice(6)] || null;
   }
 
-  return hex;
+  return null;
 }
 
 
-function dispatchGitHubBuild_(changedBranches) {
+function getCorpusStartPageToken_(corpus) {
+  var url =
+    'https://www.googleapis.com/drive/v3/changes/startPageToken' +
+    '?supportsAllDrives=true';
+
+  if (corpus.type === 'shared') {
+    url += '&driveId=' + encodeURIComponent(corpus.drive_id);
+  }
+
+  var response = UrlFetchApp.fetch(url, {
+    method: 'get',
+    muteHttpExceptions: true,
+    headers: {
+      Authorization: 'Bearer ' + ScriptApp.getOAuthToken(),
+      Accept: 'application/json'
+    }
+  });
+
+  var status = response.getResponseCode();
+  var body = JSON.parse(response.getContentText() || '{}');
+
+  if (status !== 200 || !body.startPageToken) {
+    throw new Error(
+      'Drive startPageToken thất bại: HTTP ' +
+      status + ' ' + response.getContentText()
+    );
+  }
+
+  return String(body.startPageToken);
+}
+
+
+function listDriveChangesPage_(corpus, pageToken) {
+  var url =
+    'https://www.googleapis.com/drive/v3/changes' +
+    '?pageToken=' + encodeURIComponent(pageToken) +
+    '&pageSize=' + DRIVE_CHANGE_PAGE_SIZE +
+    '&includeRemoved=true' +
+    '&supportsAllDrives=true' +
+    '&spaces=drive' +
+    '&fields=' +
+    encodeURIComponent(
+      'nextPageToken,newStartPageToken,changes(fileId,removed,file(id))'
+    );
+
+  if (corpus.type === 'user') {
+    /*
+     * The user log is restricted to the user's My Drive corpus.
+     * Shared drives are tracked separately below.
+     */
+    url += '&restrictToMyDrive=true';
+  } else {
+    url +=
+      '&driveId=' + encodeURIComponent(corpus.drive_id) +
+      '&includeItemsFromAllDrives=true';
+  }
+
+  try {
+    var response = UrlFetchApp.fetch(url, {
+      method: 'get',
+      muteHttpExceptions: true,
+      headers: {
+        Authorization: 'Bearer ' + ScriptApp.getOAuthToken(),
+        Accept: 'application/json'
+      }
+    });
+
+    var status = response.getResponseCode();
+    var body = JSON.parse(response.getContentText() || '{}');
+
+    if (status !== 200) {
+      /*
+       * An invalid/expired page token means we can no longer replay the
+       * historical backlog. Re-baseline this corpus and force a build from
+       * current Drive state rather than silently missing the change.
+       */
+      if (status === 400) {
+        return {
+          ok: false,
+          rebaseline: true,
+          error:
+            'Drive changes.list trả HTTP 400. Page token không còn hợp lệ.'
+        };
+      }
+
+      return {
+        ok: false,
+        error:
+          'Drive changes.list thất bại: HTTP ' +
+          status + ' ' + response.getContentText()
+      };
+    }
+
+    return {
+      ok: true,
+      change_count: (body.changes || []).length,
+      next_page_token: body.nextPageToken
+        ? String(body.nextPageToken)
+        : '',
+      new_start_page_token: body.newStartPageToken
+        ? String(body.newStartPageToken)
+        : ''
+    };
+  } catch (err) {
+    return {
+      ok: false,
+      error: String(err)
+    };
+  }
+}
+
+
+function loadDriveChangeState_() {
+  var raw = PropertiesService.getScriptProperties()
+    .getProperty(DRIVE_CHANGE_STATE_KEY);
+
+  if (!raw) {
+    return null;
+  }
+
+  try {
+    return JSON.parse(raw);
+  } catch (err) {
+    throw new Error(
+      'Drive change state bị hỏng: ' + String(err)
+    );
+  }
+}
+
+
+function saveDriveChangeState_(state) {
+  PropertiesService.getScriptProperties()
+    .setProperty(
+      DRIVE_CHANGE_STATE_KEY,
+      JSON.stringify(state)
+    );
+}
+
+
+function dispatchGitHubBuild_(info) {
   var token = githubToken_();
 
   var url =
@@ -805,8 +655,11 @@ function dispatchGitHubBuild_(changedBranches) {
     event_type: GITHUB_DISPATCH_EVENT,
     client_payload: {
       source: 'tangthu-apps-script',
-      changed_branches: changedBranches,
-      dispatched_at: new Date().toISOString()
+      change_count: Number(info.change_count || 0),
+      corpora: info.corpora || [],
+      detected_at: String(
+        info.detected_at || new Date().toISOString()
+      )
     }
   };
 
