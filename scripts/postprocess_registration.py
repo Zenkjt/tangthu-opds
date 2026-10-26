@@ -282,7 +282,7 @@ help_script = r"""
     var t=document.getElementById('modalTitle');
     if(!t)return false;
     var s=(t.textContent||'').trim().toUpperCase();
-    return s==='ĐĂNG KÝ / ĐỔI TÊN TỦ';
+    return s==='ĐĂNG KÝ / ĐỔI TÊN TỦ SÁCH';
   }
   function sync(){
     var title=document.getElementById('modalTitle'),body=document.getElementById('modalBody'),close=document.getElementById('modalClose');
