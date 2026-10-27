@@ -47,15 +47,33 @@ if marker not in text:
     raise SystemExit("Story shelf handler anchor missing. Run after postprocess_story.py.")
 text = text.replace(marker, replacement, 1)
 
-# postprocess_story.py creates these strings. Change only their GUI wording.
+# GUI wording and current-reading position.
 wording = {
     'Chọn chương ...': 'Đi đến',
     "Đến chương số:": "Đi đến số tương ứng trong mục lục",
+    'Tác giả:': 'Tải lên bởi:',
+    'Chương hiện tại:': 'Đang đọc:',
 }
 for old, new in wording.items():
     if old not in text:
         raise SystemExit(f"Story wording anchor missing: {old}")
     text = text.replace(old, new, 1)
+
+# "Đang đọc" must use the Story TOC position, not the source site's chapter number.
+old_current = """var current=s.current_chapter!=null?s.current_chapter:
+        (s.target_chapter_number!=null?s.target_chapter_number:'—');"""
+new_current = """var current=s.current_toc_index!=null?s.current_toc_index:
+        (s.current_chapter!=null?s.current_chapter:
+        (s.target_chapter_number!=null?s.target_chapter_number:'—'));
+      var currentEntry=(s.chapters||[]).find(function(c){
+        return Number(c.toc_index)===Number(current);
+      });
+      var chapterTitle=currentEntry&&currentEntry.title
+        ?currentEntry.title
+        :(s.current_chapter_title||s.target_chapter_title||'');"""
+if old_current not in text:
+    raise SystemExit("Story current-position anchor missing.")
+text = text.replace(old_current, new_current, 1)
 
 css = """
 <style id="tangthu-story-current-css">
@@ -167,8 +185,8 @@ help_script = r"""
   var observer=new MutationObserver(sync);
   function start(){
     sync();
-  var title=document.getElementById('modalTitle');
-if(title)observer.observe(title,{childList:true,subtree:true,characterData:true});
+    var title=document.getElementById('modalTitle');
+    if(title)observer.observe(title,{childList:true,subtree:true,characterData:true});
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
 })();
