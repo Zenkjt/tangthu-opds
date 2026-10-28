@@ -726,6 +726,9 @@ function doPost(e) {
     if (action === 'upload_epub') {
       return jsonResponse(uploadEpub_(body));
     }
+    if (action === 'story_cache') {
+      return jsonResponse(storyCache_(body));
+    }
 
 
     return jsonResponse({
