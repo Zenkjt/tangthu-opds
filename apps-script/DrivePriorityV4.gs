@@ -105,7 +105,9 @@ function driveCheckPriority() {
   }
 
   try {
-    priorityLog_('START | GLOBAL_BUDGET=240000ms | CHECKPOINT=DRIVE_PAGE');
+    var GLOBAL_BUDGET_MS = 300 * 1000;
+    var SHELF_BUDGET_MS = 50 * 1000;
+    priorityLog_('START | GLOBAL_BUDGET=300000ms | SHELF_BUDGET=50000ms | CHECKPOINT=DRIVE_PAGE');
 
     var config = readConfig_();
     var enabled = config.branches.filter(function(b){ return b.enabled; });
@@ -129,40 +131,71 @@ function driveCheckPriority() {
     var changed = [];
     var checked = [];
     var skipped = 0;
+    var skippedNames = [];
+    var cursor = Number(state.cursor || 0);
+    if (cursor < 0 || cursor >= enabled.length) cursor = 0;
+    var roundStart = cursor;
+    var visitedThisRound = 0;
+    var baselineCompleteCount = enabled.filter(function(b) {
+      return !!state.branches[String(b.id)].baseline_complete;
+    }).length;
+    priorityLog_(
+      'ROUND START | cursor=' + cursor +
+      ' | shelves=' + enabled.length +
+      ' | baseline=' + baselineCompleteCount + '/' + enabled.length
+    );
 
-    for (var i = 0; i < enabled.length; i++) {
-      if (Date.now() - startedAt >= 4 * 60 * 1000) {
-        priorityLog_('TIME BUDGET reached after ' + processed + ' shelves.');
+    while (visitedThisRound < enabled.length) {
+      if (Date.now() - startedAt >= GLOBAL_BUDGET_MS) {
+        priorityLog_('TIME BUDGET reached after ' + processed + ' shelves | cursor=' + cursor);
         break;
       }
 
-      var branch = enabled[i];
+      var branch = enabled[cursor];
       var id = String(branch.id);
       var e = state.branches[id];
+      var p = Number(e.priority || 1);
       var due = isPriorityDue_(e);
       var forced = !!force[id];
+      var pending = hasPendingPriorityScan_(e);
 
-      if (!due && !forced) {
+      // A pending scan always resumes first, regardless of priority or due time.
+      if (!pending && !due && !forced) {
         skipped++;
+        skippedNames.push(String(branch.display_name || id) + ' L' + p);
+        priorityLog_(
+          'SKIP ' + String(branch.display_name || id) +
+          ' | L' + p +
+          ' | ' + (e.baseline_complete ? 'BASELINE_DONE' : 'NOT_DUE')
+        );
+        cursor = (cursor + 1) % enabled.length;
+        visitedThisRound++;
         continue;
       }
 
-      var p = Number(e.priority || 1);
       priorityLog_(
         'SCAN ' + String(branch.display_name || id) +
         ' | L' + p +
-        ' | ' + (forced ? 'FORCED' : 'DUE')
+        ' | ' + (pending ? 'RESUME' : (forced ? 'FORCED' : 'DUE'))
       );
 
-      var result = scanPriorityShelf_(branch, e, startedAt, false);
+      var shelfStartedAt = Date.now();
+      var result = scanPriorityShelf_(branch, e, shelfStartedAt, false, SHELF_BUDGET_MS, GLOBAL_BUDGET_MS, startedAt);
+
+      // The shelf budget is local to this shelf. Checkpoint and move the cursor;
+      // do NOT return from the execution. This is the key V4 behavior.
       if (!result.completed) {
+        state.cursor = (cursor + 1) % enabled.length;
         savePriorityState_(state);
         priorityLog_(
           'CHECKPOINT ' + String(branch.display_name || id) +
           ' | processed=' + processed +
+          ' | next_cursor=' + state.cursor +
           ' | elapsed=' + priorityElapsed_(startedAt)
         );
-        return {ok:true, completed:false, processed:processed};
+        cursor = state.cursor;
+        visitedThisRound++;
+        continue;
       }
 
       checked.push(id);
@@ -192,13 +225,9 @@ function driveCheckPriority() {
           e.change_streak = Number(e.change_streak || 0) + 1;
           e.no_change_streak = 0;
 
-          // Finalized rule: L3 -> L2 after 2 consecutive changed scans.
           if (e.priority === 3 && e.change_streak >= 2) {
             e.priority = 2;
           }
-
-          // L2 NEVER auto-promotes to L1.
-          // L1 is manually assigned and permanently locked once assigned.
 
           if (e.priority === 1) e.locked = true;
           changed.push(id);
@@ -212,7 +241,6 @@ function driveCheckPriority() {
           e.change_streak = 0;
           e.no_change_streak = Number(e.no_change_streak || 0) + 1;
 
-          // Finalized rule: L2 -> L3 after 10 consecutive unchanged scans.
           if (e.priority === 2 && e.no_change_streak >= 10) {
             e.priority = 3;
           }
@@ -235,9 +263,32 @@ function driveCheckPriority() {
           ' | priority=L' + e.priority
         );
       }
+
+      state.cursor = (cursor + 1) % enabled.length;
+      savePriorityState_(state);
+      cursor = state.cursor;
+      visitedThisRound++;
+
+      // If the global budget was crossed during the completed shelf, stop here.
+      if (Date.now() - startedAt >= GLOBAL_BUDGET_MS) {
+        priorityLog_('TIME BUDGET reached after ' + processed + ' shelves | cursor=' + cursor);
+        break;
+      }
     }
 
+    state.cursor = cursor;
     savePriorityState_(state);
+
+    priorityLog_(
+      'ROUND END | processed=' + processed +
+      ' | skipped=' + skipped +
+      ' | changed=' + changed.length +
+      ' | next_cursor=' + cursor +
+      ' | elapsed=' + priorityElapsed_(startedAt)
+    );
+    if (skippedNames.length) {
+      priorityLog_('SKIP LIST | ' + skippedNames.join(' | '));
+    }
 
     if (changed.length) {
       priorityLog_(
@@ -253,6 +304,7 @@ function driveCheckPriority() {
       'END | processed=' + processed +
       ' | skipped=' + skipped +
       ' | changed=' + changed.length +
+      ' | next_cursor=' + cursor +
       ' | elapsed=' + priorityElapsed_(startedAt)
     );
 
@@ -261,7 +313,9 @@ function driveCheckPriority() {
       completed:true,
       processed:processed,
       checked:checked,
-      changed:changed
+      changed:changed,
+      skipped:skipped,
+      cursor:cursor
     };
   } finally {
     lock.releaseLock();
@@ -284,7 +338,7 @@ function reloadShelf(e) {
     ' | priority=L' + Number(entry.priority || 1)
   );
 
-  var result = scanPriorityShelf_(branch, entry, startedAt, true);
+  var result = scanPriorityShelf_(branch, entry, startedAt, true, 50 * 1000, 300 * 1000, startedAt);
   if (!result.completed) {
     state.branches[id] = entry;
     savePriorityState_(state);
@@ -334,9 +388,10 @@ function consumeReloadQueue_() {
 
 function loadPriorityState_(enabled) {
   var raw = PropertiesService.getScriptProperties().getProperty(PRIORITY_STATE_KEY);
-  var state = raw ? JSON.parse(raw) : {version:2, branches:{}};
+  var state = raw ? JSON.parse(raw) : {version:2, cursor:0, branches:{}};
 
   if (!state.branches) state.branches = {};
+  if (state.cursor == null) state.cursor = 0;
 
   var valid = {};
   enabled.forEach(function(b){
@@ -383,7 +438,7 @@ function loadPriorityState_(enabled) {
     if (!valid[id]) delete state.branches[id];
   });
 
-  state.version = 2;
+  state.version = 3;
   return state;
 }
 
@@ -544,7 +599,11 @@ function dispatchPriorityBuild_(changed) {
 }
 
 
-function scanPriorityShelf_(branch, entry, startedAt, forceFull) {
+function hasPendingPriorityScan_(entry) {
+  return !!(entry.scan_queue || entry.full_scan_queue || entry.scan_folder_id || entry.full_scan_folder_id || entry.scan_page_token || entry.full_scan_page_token);
+}
+
+function scanPriorityShelf_(branch, entry, shelfStartedAt, forceFull, shelfBudgetMs, globalBudgetMs, globalStartedAt) {
   var apiKey = PropertiesService.getScriptProperties().getProperty('TANGTHU_GOOGLE_API_KEY');
   if (!apiKey) throw new Error('Apps Script chưa được cấu hình TANGTHU_GOOGLE_API_KEY.');
 
@@ -554,10 +613,10 @@ function scanPriorityShelf_(branch, entry, startedAt, forceFull) {
       total_size: Number(entry.total_size_work || 0),
       max_modified_time: String(entry.max_modified_work || '')
     };
-    return scanPriorityFull_(branch, entry, startedAt, apiKey, resumedQuick);
+    return scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, resumedQuick, shelfBudgetMs, globalBudgetMs, globalStartedAt);
   }
 
-  var quick = scanPriorityQuick_(branch, entry, startedAt, apiKey);
+  var quick = scanPriorityQuick_(branch, entry, shelfStartedAt, apiKey, shelfBudgetMs, globalBudgetMs, globalStartedAt);
   if (!quick.completed) return quick;
 
   var quickChanged = !entry.baseline_complete ||
@@ -582,10 +641,10 @@ function scanPriorityShelf_(branch, entry, startedAt, forceFull) {
     ' | reason=' + (forceFull ? 'forced' : (entry.baseline_complete ? 'quick_changed' : 'baseline'))
   );
 
-  return scanPriorityFull_(branch, entry, startedAt, apiKey, quick);
+  return scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBudgetMs, globalBudgetMs, globalStartedAt);
 }
 
-function scanPriorityQuick_(branch, entry, startedAt, apiKey) {
+function scanPriorityQuick_(branch, entry, shelfStartedAt, apiKey, shelfBudgetMs, globalBudgetMs, globalStartedAt) {
   var queue = entry.scan_queue || [String(branch.root_folder_id)];
   var visited = entry.visited || {};
   var itemCount = Number(entry.item_count_work || 0);
@@ -595,7 +654,7 @@ function scanPriorityQuick_(branch, entry, startedAt, apiKey) {
   var currentPageToken = String(entry.scan_page_token || '');
 
   while (true) {
-    if (Date.now() - startedAt >= 4 * 60 * 1000) {
+    if ((Date.now() - globalStartedAt) >= globalBudgetMs || (Date.now() - shelfStartedAt) >= shelfBudgetMs) {
       entry.scan_queue = queue;
       entry.visited = visited;
       entry.scan_folder_id = currentFolderId;
@@ -607,7 +666,8 @@ function scanPriorityQuick_(branch, entry, startedAt, apiKey) {
         ' | items=' + itemCount + ' | queue=' + queue.length +
         ' | folder=' + (currentFolderId || '-') +
         ' | page_token=' + (currentPageToken ? 'yes' : 'no') +
-        ' | elapsed=' + priorityElapsed_(startedAt));
+        ' | shelf_elapsed=' + priorityElapsed_(shelfStartedAt) +
+        ' | global_elapsed=' + priorityElapsed_(globalStartedAt));
       return {completed:false};
     }
 
@@ -703,7 +763,7 @@ function fingerprintRow_(row) {
   });
 }
 
-function scanPriorityFull_(branch, entry, startedAt, apiKey, quick) {
+function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBudgetMs, globalBudgetMs, globalStartedAt) {
   /*
    * Full scan is resumable at Drive API page level.
    * Script Properties stores only queue/visited + current folder/page token
@@ -734,7 +794,7 @@ function scanPriorityFull_(branch, entry, startedAt, apiKey, quick) {
   }
 
   while (true) {
-    if (Date.now() - startedAt >= 4 * 60 * 1000) {
+    if ((Date.now() - globalStartedAt) >= globalBudgetMs || (Date.now() - shelfStartedAt) >= shelfBudgetMs) {
       entry.full_scan_queue = queue;
       entry.full_visited = visited;
       entry.full_digest_work = digestBytesToHex_(digest);
@@ -746,7 +806,8 @@ function scanPriorityFull_(branch, entry, startedAt, apiKey, quick) {
         ' | rows=' + rowCount + ' | queue=' + queue.length +
         ' | folder=' + (currentFolderId || '-') +
         ' | page_token=' + (currentPageToken ? 'yes' : 'no') +
-        ' | elapsed=' + priorityElapsed_(startedAt));
+        ' | shelf_elapsed=' + priorityElapsed_(shelfStartedAt) +
+        ' | global_elapsed=' + priorityElapsed_(globalStartedAt));
       return {completed:false};
     }
 
