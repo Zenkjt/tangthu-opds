@@ -183,7 +183,11 @@ function reloadShelf(body) {
     var changed = !!entry.baseline_complete && !!result.confirmed_changed;
     applyCompletedScan_(entry, result);
     savePriorityState_(state);
-    if (changed) dispatchGitHubBuild_([id]);
+    if (changed) dispatchGitHubBuild_({
+      change_count: 1,
+      corpora: [id],
+      detected_at: new Date().toISOString()
+    });
 
     return {
       ok:true, branch_id:id, display_name:branch.display_name,
@@ -554,9 +558,98 @@ function resumePendingFullScan_(config, state, startedAt) {
   return {processed:processed, changedIds:changedIds, completed:true};
 }
 
+function savePriorityState_(state) {
+  PropertiesService.getScriptProperties()
+    .setProperty(PRIORITY_STATE_KEY, JSON.stringify(state));
+}
+
+function listDriveFolder_(folderId, apiKey) {
+  var allFiles = [];
+  var pageToken = '';
+
+  do {
+    var url =
+      'https://www.googleapis.com/drive/v3/files' +
+      '?q=' +
+      encodeURIComponent("'" + folderId + "' in parents and trashed = false") +
+      '&pageSize=1000' +
+      '&supportsAllDrives=true' +
+      '&includeItemsFromAllDrives=true' +
+      '&fields=' +
+      encodeURIComponent(
+        'nextPageToken,files(id,name,mimeType,size,createdTime,modifiedTime,md5Checksum)'
+      ) +
+      '&key=' + encodeURIComponent(apiKey);
+
+    if (pageToken) {
+      url += '&pageToken=' + encodeURIComponent(pageToken);
+    }
+
+    var response = UrlFetchApp.fetch(url, {
+      method: 'get',
+      muteHttpExceptions: true,
+      headers: {Accept: 'application/json'}
+    });
+
+    var status = response.getResponseCode();
+    var body = JSON.parse(response.getContentText() || '{}');
+
+    if (status !== 200) {
+      return {
+        ok: false,
+        http_status: status,
+        error: body.error && body.error.message
+          ? body.error.message
+          : response.getContentText()
+      };
+    }
+
+    var files = body.files || [];
+    for (var i = 0; i < files.length; i++) allFiles.push(files[i]);
+    pageToken = body.nextPageToken ? String(body.nextPageToken) : '';
+  } while (pageToken);
+
+  return {ok: true, files: allFiles};
+}
+
+function fingerprintDriveItems_(items) {
+  var rows = [];
+
+  for (var i = 0; i < items.length; i++) {
+    var f = items[i];
+    rows.push([
+      f.id, f.parent, f.folder ? 'D' : 'F', f.name, f.mime,
+      f.size, f.created, f.modified, f.checksum
+    ].join('\t'));
+  }
+
+  rows.sort();
+
+  var canonical = rows.join('\n');
+  var digest = Utilities.computeDigest(
+    Utilities.DigestAlgorithm.SHA_256,
+    canonical,
+    Utilities.Charset.UTF_8
+  );
+
+  var hex = '';
+  for (var j = 0; j < digest.length; j++) {
+    var value = digest[j];
+    if (value < 0) value += 256;
+    var h = value.toString(16);
+    if (h.length < 2) h = '0' + h;
+    hex += h;
+  }
+  return hex;
+}
+
 function dispatchChangedBranches_(changed) {
   if (!changed || !changed.length) return;
   var unique = {};
   for (var i = 0; i < changed.length; i++) unique[String(changed[i])] = true;
-  dispatchGitHubBuild_(Object.keys(unique));
+  dispatchGitHubBuild_({
+    change_count: Object.keys(unique).length,
+    corpora: Object.keys(unique),
+    detected_at: new Date().toISOString()
+  });
 }
