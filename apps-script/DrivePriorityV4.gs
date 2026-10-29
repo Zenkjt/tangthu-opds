@@ -12,7 +12,7 @@
 var PRIORITY_STATE_KEY = 'TANGTHU_DRIVE_PRIORITY_STATE_V2';
 var PRIORITY_LOCK_MS = 30000;
 var PRIORITY_TIME_BUDGET_MS = 4 * 60 * 1000;
-var PRIORITY_BRANCH_BUDGET_MS = 45 * 1000;
+var PRIORITY_BRANCH_BUDGET_MS = 90 * 1000;
 
 var PRIORITY_INTERVAL_MS = {
   1: 30 * 60 * 1000,
@@ -159,12 +159,12 @@ function driveCheckPriority() {
       var result = scanPriorityShelf_(branch, e, startedAt, false);
       if (!result.completed) {
         savePriorityState_(state);
-        priorityLog_(
-          'CHECKPOINT ' + String(branch.display_name || id) +
+        checkpoints++;
+        priorityLog_('CHECKPOINT ' + String(branch.display_name || id) +
           ' | processed=' + processed +
-          ' | elapsed=' + priorityElapsed_(startedAt)
-        );
-        return {ok:true, completed:false, processed:processed};
+          ' | elapsed=' + priorityElapsed_(startedAt) +
+          ' | continuing');
+        continue;
       }
 
       checked.push(id);
@@ -545,6 +545,7 @@ function dispatchPriorityBuild_(changed) {
 function scanPriorityShelf_(branch, entry, startedAt, forceFull) {
   var apiKey = PropertiesService.getScriptProperties().getProperty('TANGTHU_GOOGLE_API_KEY');
   if (!apiKey) throw new Error('Apps Script chưa được cấu hình TANGTHU_GOOGLE_API_KEY.');
+  var shelfDeadline = Date.now() + PRIORITY_BRANCH_BUDGET_MS;
 
   if (entry.full_scan_queue) {
     var resumedQuick = {
@@ -552,10 +553,10 @@ function scanPriorityShelf_(branch, entry, startedAt, forceFull) {
       total_size: Number(entry.total_size_work || 0),
       max_modified_time: String(entry.max_modified_work || '')
     };
-    return scanPriorityFull_(branch, entry, startedAt, apiKey, resumedQuick);
+    return scanPriorityFull_(branch, entry, startedAt, apiKey, resumedQuick, shelfDeadline);
   }
 
-  var quick = scanPriorityQuick_(branch, entry, startedAt, apiKey);
+  var quick = scanPriorityQuick_(branch, entry, startedAt, apiKey, shelfDeadline);
   if (!quick.completed) return quick;
 
   var quickChanged = !entry.baseline_complete ||
@@ -580,19 +581,17 @@ function scanPriorityShelf_(branch, entry, startedAt, forceFull) {
     ' | reason=' + (forceFull ? 'forced' : (entry.baseline_complete ? 'quick_changed' : 'baseline'))
   );
 
-  return scanPriorityFull_(branch, entry, startedAt, apiKey, quick);
+  return scanPriorityFull_(branch, entry, startedAt, apiKey, quick, shelfDeadline);
 }
 
-function scanPriorityQuick_(branch, entry, startedAt, apiKey) {
+function scanPriorityQuick_(branch, entry, startedAt, apiKey, shelfDeadline) {
   var queue = entry.scan_queue || [String(branch.root_folder_id)];
   var visited = entry.visited || {};
   var itemCount = Number(entry.item_count_work || 0);
   var totalSize = Number(entry.total_size_work || 0);
   var maxModified = String(entry.max_modified_work || '');
-  var branchStartedAt = Date.now();
-
   while (queue.length) {
-    if (Date.now()-startedAt >= PRIORITY_TIME_BUDGET_MS || Date.now()-branchStartedAt >= PRIORITY_BRANCH_BUDGET_MS) {
+    if (Date.now()-startedAt >= PRIORITY_TIME_BUDGET_MS || Date.now() >= shelfDeadline) {
       entry.scan_queue=queue; entry.visited=visited; entry.item_count_work=itemCount; entry.total_size_work=totalSize; entry.max_modified_work=maxModified;
       return {completed:false};
     }
@@ -663,7 +662,7 @@ function fingerprintRow_(row) {
   });
 }
 
-function scanPriorityFull_(branch, entry, startedAt, apiKey, quick) {
+function scanPriorityFull_(branch, entry, startedAt, apiKey, quick, shelfDeadline) {
   /*
    * IMPORTANT:
    * Do not checkpoint the complete row list in Script Properties.
@@ -677,8 +676,6 @@ function scanPriorityFull_(branch, entry, startedAt, apiKey, quick) {
   var visited = entry.full_visited || {};
   var digest = hexToDigestBytes_(entry.full_digest_work || '');
   var rowCount = Number(entry.full_count_work || 0);
-  var branchStartedAt = Date.now();
-
   /* Discard checkpoints from the old full_rows implementation. */
   if (entry.full_rows) {
     entry.full_rows = null;
@@ -695,7 +692,7 @@ function scanPriorityFull_(branch, entry, startedAt, apiKey, quick) {
   while (queue.length) {
     if (
       Date.now() - startedAt >= PRIORITY_TIME_BUDGET_MS ||
-      Date.now() - branchStartedAt >= PRIORITY_BRANCH_BUDGET_MS
+      Date.now() >= shelfDeadline
     ) {
       entry.full_scan_queue = queue;
       entry.full_visited = visited;
