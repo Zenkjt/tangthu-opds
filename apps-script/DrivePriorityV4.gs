@@ -242,7 +242,7 @@ function driveCheckPriority() {
         'DISPATCH GitHub | changed_shelves=' + changed.length +
         ' | ids=' + changed.join(',')
       );
-      dispatchGitHubBuild_(changed);
+      dispatchPriorityBuild_(changed);
     } else {
       priorityLog_('DISPATCH none');
     }
@@ -303,7 +303,7 @@ function reloadShelf(e) {
   savePriorityState_(state);
   if (changed) {
     priorityLog_('RELOAD DISPATCH ' + String(branch.display_name || id));
-    dispatchGitHubBuild_([id]);
+    dispatchPriorityBuild_([id]);
   } else {
     priorityLog_(
       'RELOAD END ' + String(branch.display_name || id) +
@@ -386,6 +386,157 @@ function isPriorityDue_(e) {
   var p = Number(e.priority || 1);
   return Date.now() - new Date(e.last_scan).getTime() >= PRIORITY_INTERVAL_MS[p];
 }
+
+
+function listDriveFolder_(folderId, apiKey) {
+  var files = [];
+  var pageToken = '';
+  var accessToken = ScriptApp.getOAuthToken();
+
+  do {
+    var params =
+      'q=' + encodeURIComponent(
+        "'" + String(folderId).replace(/'/g, "\\'") + "' in parents and trashed = false"
+      ) +
+      '&pageSize=1000' +
+      '&includeItemsFromAllDrives=true' +
+      '&supportsAllDrives=true' +
+      '&corpora=allDrives' +
+      '&fields=' + encodeURIComponent(
+        'nextPageToken,files(id,name,mimeType,size,modifiedTime,createdTime,md5Checksum)'
+      );
+
+    if (pageToken) {
+      params += '&pageToken=' + encodeURIComponent(pageToken);
+    }
+
+    var response = UrlFetchApp.fetch(
+      'https://www.googleapis.com/drive/v3/files?' + params,
+      {
+        method: 'get',
+        muteHttpExceptions: true,
+        headers: {
+          Authorization: 'Bearer ' + accessToken,
+          Accept: 'application/json'
+        }
+      }
+    );
+
+    var status = response.getResponseCode();
+    var bodyText = response.getContentText() || '{}';
+    var body;
+
+    try {
+      body = JSON.parse(bodyText);
+    } catch (err) {
+      body = {};
+    }
+
+    if (status !== 200) {
+      return {
+        ok: false,
+        error: 'HTTP ' + status + ' ' + bodyText
+      };
+    }
+
+    Array.prototype.push.apply(files, body.files || []);
+    pageToken = String(body.nextPageToken || '');
+  } while (pageToken);
+
+  return {ok:true, files:files};
+}
+
+
+function fingerprintDriveItems_(rows) {
+  var normalized = (rows || []).map(function(row) {
+    return [
+      String(row.id || ''),
+      String(row.parent || ''),
+      String(row.name || ''),
+      String(row.mime || ''),
+      String(row.size || ''),
+      String(row.modified || ''),
+      String(row.created || ''),
+      String(row.checksum || ''),
+      row.folder ? '1' : '0'
+    ].join('\u001f');
+  });
+
+  normalized.sort();
+
+  var bytes = Utilities.newBlob(normalized.join('\n')).getBytes();
+  var digest = Utilities.computeDigest(
+    Utilities.DigestAlgorithm.SHA_256,
+    bytes
+  );
+
+  return digest.map(function(b) {
+    var n = b < 0 ? b + 256 : b;
+    return ('0' + n.toString(16)).slice(-2);
+  }).join('');
+}
+
+
+function dispatchPriorityBuild_(changed) {
+  var unique = {};
+  (changed || []).forEach(function(id) {
+    unique[String(id)] = true;
+  });
+
+  var shelves = Object.keys(unique);
+  if (!shelves.length) return;
+
+  var token = PropertiesService.getScriptProperties()
+    .getProperty('TANGTHU_GITHUB_TOKEN');
+
+  if (!token) {
+    throw new Error(
+      'Apps Script chưa được cấu hình TANGTHU_GITHUB_TOKEN.'
+    );
+  }
+
+  var url =
+    'https://api.github.com/repos/' +
+    encodeURIComponent(REPO_OWNER) + '/' +
+    encodeURIComponent(REPO_NAME) +
+    '/dispatches';
+
+  var payload = {
+    event_type: GITHUB_DISPATCH_EVENT,
+    client_payload: {
+      change_count: shelves.length,
+      shelves: shelves,
+      detected_at: new Date().toISOString()
+    }
+  };
+
+  var response = UrlFetchApp.fetch(url, {
+    method: 'post',
+    contentType: 'application/json',
+    muteHttpExceptions: true,
+    headers: {
+      Authorization: 'Bearer ' + token,
+      Accept: 'application/vnd.github+json',
+      'X-GitHub-Api-Version': '2022-11-28'
+    },
+    payload: JSON.stringify(payload)
+  });
+
+  var status = response.getResponseCode();
+
+  if (status < 200 || status >= 300) {
+    throw new Error(
+      'GitHub repository_dispatch thất bại: HTTP ' +
+      status + ' ' + response.getContentText()
+    );
+  }
+
+  priorityLog_(
+    'GitHub repository_dispatch OK | shelves=' +
+    shelves.length
+  );
+}
+
 
 function scanPriorityShelf_(branch, entry, startedAt, forceFull) {
   var apiKey = PropertiesService.getScriptProperties().getProperty('TANGTHU_GOOGLE_API_KEY');
