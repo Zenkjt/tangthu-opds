@@ -11,7 +11,6 @@
 
 var PRIORITY_STATE_KEY = 'TANGTHU_DRIVE_PRIORITY_STATE_V2';
 var PRIORITY_LOCK_MS = 30000;
-var PRIORITY_TIME_BUDGET_MS = 4 * 60 * 1000;
 
 var PRIORITY_INTERVAL_MS = {
   1: 30 * 60 * 1000,
@@ -106,7 +105,7 @@ function driveCheckPriority() {
   }
 
   try {
-    priorityLog_('START');
+    priorityLog_('START | GLOBAL_BUDGET=240000ms | CHECKPOINT=DRIVE_PAGE');
 
     var config = readConfig_();
     var enabled = config.branches.filter(function(b){ return b.enabled; });
@@ -132,7 +131,7 @@ function driveCheckPriority() {
     var skipped = 0;
 
     for (var i = 0; i < enabled.length; i++) {
-      if (Date.now() - startedAt >= PRIORITY_TIME_BUDGET_MS) {
+      if (Date.now() - startedAt >= 4 * 60 * 1000) {
         priorityLog_('TIME BUDGET reached after ' + processed + ' shelves.');
         break;
       }
@@ -158,12 +157,12 @@ function driveCheckPriority() {
       var result = scanPriorityShelf_(branch, e, startedAt, false);
       if (!result.completed) {
         savePriorityState_(state);
-        checkpoints++;
-        priorityLog_('CHECKPOINT ' + String(branch.display_name || id) +
+        priorityLog_(
+          'CHECKPOINT ' + String(branch.display_name || id) +
           ' | processed=' + processed +
-          ' | elapsed=' + priorityElapsed_(startedAt) +
-          ' | continuing');
-        continue;
+          ' | elapsed=' + priorityElapsed_(startedAt)
+        );
+        return {ok:true, completed:false, processed:processed};
       }
 
       checked.push(id);
@@ -180,9 +179,13 @@ function driveCheckPriority() {
       e.item_count_work = 0;
       e.total_size_work = 0;
       e.max_modified_work = '';
+      e.scan_folder_id = '';
+      e.scan_page_token = '';
       e.full_scan_queue = null;
       e.full_visited = {};
       e.full_rows = null;
+      e.full_scan_folder_id = '';
+      e.full_scan_page_token = '';
 
       if (e.baseline_complete) {
         if (wasChanged) {
@@ -359,10 +362,14 @@ function loadPriorityState_(enabled) {
         item_count_work:0,
         total_size_work:0,
         max_modified_work:'',
+        scan_folder_id:'',
+        scan_page_token:'',
         full_scan_queue:null,
         full_visited:{},
         full_digest_work:'',
-        full_count_work:0
+        full_count_work:0,
+        full_scan_folder_id:'',
+        full_scan_page_token:''
       };
 
       priorityLog_(
@@ -391,62 +398,58 @@ function isPriorityDue_(e) {
 }
 
 
-function listDriveFolder_(folderId, apiKey) {
-  var files = [];
-  var pageToken = '';
+function priorityDriveFolderPage_(folderId, pageToken, apiKey) {
   var accessToken = ScriptApp.getOAuthToken();
-
-  do {
-    var params =
-      'q=' + encodeURIComponent(
-        "'" + String(folderId).replace(/'/g, "\\'") + "' in parents and trashed = false"
-      ) +
-      '&pageSize=1000' +
-      '&includeItemsFromAllDrives=true' +
-      '&supportsAllDrives=true' +
-      '&corpora=allDrives' +
-      '&fields=' + encodeURIComponent(
-        'nextPageToken,files(id,name,mimeType,size,modifiedTime,createdTime,md5Checksum)'
-      );
-
-    if (pageToken) {
-      params += '&pageToken=' + encodeURIComponent(pageToken);
-    }
-
-    var response = UrlFetchApp.fetch(
-      'https://www.googleapis.com/drive/v3/files?' + params,
-      {
-        method: 'get',
-        muteHttpExceptions: true,
-        headers: {
-          Authorization: 'Bearer ' + accessToken,
-          Accept: 'application/json'
-        }
-      }
+  var params =
+    'q=' + encodeURIComponent(
+      "'" + String(folderId).replace(/'/g, "\\'") + "' in parents and trashed = false"
+    ) +
+    '&pageSize=1000' +
+    '&includeItemsFromAllDrives=true' +
+    '&supportsAllDrives=true' +
+    '&corpora=allDrives' +
+    '&fields=' + encodeURIComponent(
+      'nextPageToken,files(id,name,mimeType,size,modifiedTime,createdTime,md5Checksum)'
     );
 
-    var status = response.getResponseCode();
-    var bodyText = response.getContentText() || '{}';
-    var body;
+  if (pageToken) {
+    params += '&pageToken=' + encodeURIComponent(pageToken);
+  }
 
-    try {
-      body = JSON.parse(bodyText);
-    } catch (err) {
-      body = {};
+  var response = UrlFetchApp.fetch(
+    'https://www.googleapis.com/drive/v3/files?' + params,
+    {
+      method: 'get',
+      muteHttpExceptions: true,
+      headers: {
+        Authorization: 'Bearer ' + accessToken,
+        Accept: 'application/json'
+      }
     }
+  );
 
-    if (status !== 200) {
-      return {
-        ok: false,
-        error: 'HTTP ' + status + ' ' + bodyText
-      };
-    }
+  var status = response.getResponseCode();
+  var bodyText = response.getContentText() || '{}';
+  var body;
 
-    Array.prototype.push.apply(files, body.files || []);
-    pageToken = String(body.nextPageToken || '');
-  } while (pageToken);
+  try {
+    body = JSON.parse(bodyText);
+  } catch (err) {
+    body = {};
+  }
 
-  return {ok:true, files:files};
+  if (status !== 200) {
+    return {
+      ok: false,
+      error: 'HTTP ' + status + ' ' + bodyText
+    };
+  }
+
+  return {
+    ok: true,
+    files: body.files || [],
+    nextPageToken: String(body.nextPageToken || '')
+  };
 }
 
 
@@ -544,6 +547,7 @@ function dispatchPriorityBuild_(changed) {
 function scanPriorityShelf_(branch, entry, startedAt, forceFull) {
   var apiKey = PropertiesService.getScriptProperties().getProperty('TANGTHU_GOOGLE_API_KEY');
   if (!apiKey) throw new Error('Apps Script chưa được cấu hình TANGTHU_GOOGLE_API_KEY.');
+
   if (entry.full_scan_queue) {
     var resumedQuick = {
       item_count: Number(entry.item_count_work || 0),
@@ -587,25 +591,65 @@ function scanPriorityQuick_(branch, entry, startedAt, apiKey) {
   var itemCount = Number(entry.item_count_work || 0);
   var totalSize = Number(entry.total_size_work || 0);
   var maxModified = String(entry.max_modified_work || '');
-  while (queue.length) {
-    if (Date.now()-startedAt >= PRIORITY_TIME_BUDGET_MS) {
-      entry.scan_queue=queue; entry.visited=visited; entry.item_count_work=itemCount; entry.total_size_work=totalSize; entry.max_modified_work=maxModified;
+  var currentFolderId = String(entry.scan_folder_id || '');
+  var currentPageToken = String(entry.scan_page_token || '');
+
+  while (true) {
+    if (Date.now() - startedAt >= 4 * 60 * 1000) {
+      entry.scan_queue = queue;
+      entry.visited = visited;
+      entry.scan_folder_id = currentFolderId;
+      entry.scan_page_token = currentPageToken;
+      entry.item_count_work = itemCount;
+      entry.total_size_work = totalSize;
+      entry.max_modified_work = maxModified;
+      priorityLog_('CHECKPOINT-QUICK ' + String(branch.display_name || branch.id) +
+        ' | items=' + itemCount + ' | queue=' + queue.length +
+        ' | folder=' + (currentFolderId || '-') +
+        ' | page_token=' + (currentPageToken ? 'yes' : 'no') +
+        ' | elapsed=' + priorityElapsed_(startedAt));
       return {completed:false};
     }
-    var folderId=queue.shift();
-    if (visited[folderId]) continue;
-    visited[folderId]=true;
-    var result=listDriveFolder_(folderId, apiKey);
-    if (!result.ok) throw new Error('Google Drive scan thất bại: '+result.error);
-    (result.files||[]).forEach(function(file){
+
+    if (!currentFolderId) {
+      while (queue.length && visited[String(queue[0])]) queue.shift();
+      if (!queue.length) {
+        return {
+          completed:true,
+          item_count:itemCount,
+          total_size:totalSize,
+          max_modified_time:maxModified
+        };
+      }
+      currentFolderId = String(queue.shift());
+      currentPageToken = '';
+      if (visited[currentFolderId]) {
+        currentFolderId = '';
+        continue;
+      }
+    }
+
+    var result = priorityDriveFolderPage_(currentFolderId, currentPageToken, apiKey);
+    if (!result.ok) throw new Error('Google Drive scan thất bại: ' + result.error);
+
+    (result.files || []).forEach(function(file) {
       itemCount++;
-      if(file.size!=null && file.size!=='') totalSize += Number(file.size)||0;
-      var modified=String(file.modifiedTime||''); if(modified>maxModified) maxModified=modified;
-      if(file.mimeType==='application/vnd.google-apps.folder') queue.push(String(file.id));
+      if (file.size != null && file.size !== '') totalSize += Number(file.size) || 0;
+      var modified = String(file.modifiedTime || '');
+      if (modified > maxModified) maxModified = modified;
+      if (file.mimeType === 'application/vnd.google-apps.folder') {
+        queue.push(String(file.id));
+      }
     });
+
+    currentPageToken = String(result.nextPageToken || '');
+    if (!currentPageToken) {
+      visited[currentFolderId] = true;
+      currentFolderId = '';
+    }
   }
-  return {completed:true,item_count:itemCount,total_size:totalSize,max_modified_time:maxModified};
 }
+
 
 function digestBytesToHex_(bytes) {
   return bytes.map(function(b) {
@@ -661,48 +705,63 @@ function fingerprintRow_(row) {
 
 function scanPriorityFull_(branch, entry, startedAt, apiKey, quick) {
   /*
-   * IMPORTANT:
-   * Do not checkpoint the complete row list in Script Properties.
-   * Apps Script limits a single property value to about 9 KB, while a large
-   * shelf can easily produce tens of thousands of metadata rows.
-   *
-   * Instead, build an order-independent SHA-256-derived accumulator while
-   * scanning. The accumulator is only 32 bytes, so a checkpoint remains tiny.
+   * Full scan is resumable at Drive API page level.
+   * Script Properties stores only queue/visited + current folder/page token
+   * + the 32-byte digest accumulator, never the complete metadata row list.
    */
   var queue = entry.full_scan_queue || [String(branch.root_folder_id)];
   var visited = entry.full_visited || {};
   var digest = hexToDigestBytes_(entry.full_digest_work || '');
   var rowCount = Number(entry.full_count_work || 0);
+  var currentFolderId = String(entry.full_scan_folder_id || '');
+  var currentPageToken = String(entry.full_scan_page_token || '');
+
   /* Discard checkpoints from the old full_rows implementation. */
   if (entry.full_rows) {
     entry.full_rows = null;
-    entry.full_scan_queue = null;
+    entry.full_scan_queue = [String(branch.root_folder_id)];
     entry.full_visited = {};
     entry.full_digest_work = '';
     entry.full_count_work = 0;
-    queue = [String(branch.root_folder_id)];
-    visited = {};
+    entry.full_scan_folder_id = '';
+    entry.full_scan_page_token = '';
+    queue = entry.full_scan_queue;
+    visited = entry.full_visited;
     digest = hexToDigestBytes_('');
     rowCount = 0;
+    currentFolderId = '';
+    currentPageToken = '';
   }
 
-  while (queue.length) {
-    if (
-      Date.now() - startedAt >= PRIORITY_TIME_BUDGET_MS
-    ) {
+  while (true) {
+    if (Date.now() - startedAt >= 4 * 60 * 1000) {
       entry.full_scan_queue = queue;
       entry.full_visited = visited;
       entry.full_digest_work = digestBytesToHex_(digest);
       entry.full_count_work = rowCount;
+      entry.full_scan_folder_id = currentFolderId;
+      entry.full_scan_page_token = currentPageToken;
       entry.full_rows = null;
+      priorityLog_('CHECKPOINT-FULL ' + String(branch.display_name || branch.id) +
+        ' | rows=' + rowCount + ' | queue=' + queue.length +
+        ' | folder=' + (currentFolderId || '-') +
+        ' | page_token=' + (currentPageToken ? 'yes' : 'no') +
+        ' | elapsed=' + priorityElapsed_(startedAt));
       return {completed:false};
     }
 
-    var folderId = queue.shift();
-    if (visited[folderId]) continue;
-    visited[folderId] = true;
+    if (!currentFolderId) {
+      while (queue.length && visited[String(queue[0])]) queue.shift();
+      if (!queue.length) break;
+      currentFolderId = String(queue.shift());
+      currentPageToken = '';
+      if (visited[currentFolderId]) {
+        currentFolderId = '';
+        continue;
+      }
+    }
 
-    var result = listDriveFolder_(folderId, apiKey);
+    var result = priorityDriveFolderPage_(currentFolderId, currentPageToken, apiKey);
     if (!result.ok) {
       throw new Error('Google Drive full scan thất bại: ' + result.error);
     }
@@ -710,7 +769,7 @@ function scanPriorityFull_(branch, entry, startedAt, apiKey, quick) {
     (result.files || []).forEach(function(file) {
       var row = {
         id: String(file.id || ''),
-        parent: folderId,
+        parent: currentFolderId,
         name: String(file.name || ''),
         mime: String(file.mimeType || ''),
         size: file.size == null ? '' : String(file.size),
@@ -725,6 +784,12 @@ function scanPriorityFull_(branch, entry, startedAt, apiKey, quick) {
 
       if (row.folder) queue.push(String(file.id));
     });
+
+    currentPageToken = String(result.nextPageToken || '');
+    if (!currentPageToken) {
+      visited[currentFolderId] = true;
+      currentFolderId = '';
+    }
   }
 
   var fingerprint = String(rowCount) + ':' + digestBytesToHex_(digest);
@@ -734,6 +799,8 @@ function scanPriorityFull_(branch, entry, startedAt, apiKey, quick) {
   entry.full_visited = {};
   entry.full_digest_work = '';
   entry.full_count_work = 0;
+  entry.full_scan_folder_id = '';
+  entry.full_scan_page_token = '';
   entry.full_rows = null;
 
   priorityLog_(
@@ -751,3 +818,4 @@ function scanPriorityFull_(branch, entry, startedAt, apiKey, quick) {
     max_modified_time:quick.max_modified_time
   };
 }
+
