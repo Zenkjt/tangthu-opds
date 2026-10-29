@@ -33,7 +33,7 @@ var PRIORITY_INITIAL_BY_BRANCH_ID = {
   'g-c53efe3d7bac': 1, // Ptrungtu
   'g-2d6efaf4ad21': 1, // Quin ít đọc
   'g-f1d3dceed019': 1, // Sách hay
-  'g-69f1b7458b70': 1, // Tàng thư của Khang
+  'g-69f1b7458b70': 3, // Tàng thư của Khang
   'g-23a8c631e3a0': 1, // Tủ sách của Ca
   'g-9effdaafa5b1': 1, // Tủ sách x3
   'g-f5a27f2a7738': 1, // Zenkjt - đang đọc
@@ -56,6 +56,70 @@ var PRIORITY_INITIAL_BY_BRANCH_ID = {
 
 function priorityLog_(message) {
   Logger.log('[DrivePriority] ' + message);
+}
+
+/**
+ * MANUAL PRIORITY CONTROL
+ *
+ * Edit only these 2 values, then Run -> setShelfPriorityManual.
+ * Priority: 1 = every 30m, 2 = every 2 days, 3 = every 7 days.
+ *
+ * This changes the current saved priority without resetting baseline,
+ * fingerprints, cursor, or any pending quick/full scan checkpoint.
+ */
+function setShelfPriorityManual() {
+  var shelfName = 'Tàng thư của Khang';
+  var newPriority = 3;
+
+  if (![1, 2, 3].includes(Number(newPriority))) {
+    throw new Error('newPriority must be 1, 2, or 3.');
+  }
+
+  var config = readConfig_();
+  var branch = null;
+  for (var i = 0; i < config.branches.length; i++) {
+    if (String(config.branches[i].display_name || '').trim() === String(shelfName).trim()) {
+      branch = config.branches[i];
+      break;
+    }
+  }
+
+  if (!branch) {
+    throw new Error('Shelf not found: ' + shelfName);
+  }
+
+  var enabled = config.branches.filter(function(b) { return b.enabled; });
+  var state = loadPriorityState_(enabled);
+  var id = String(branch.id);
+  var entry = state.branches[id];
+
+  if (!entry) {
+    throw new Error('Priority state not found for shelf: ' + shelfName);
+  }
+
+  var oldPriority = Number(entry.priority || 1);
+  entry.priority = Number(newPriority);
+  entry.locked = Number(newPriority) === 1;
+
+  // Deliberately preserve baseline, last_scan, fingerprint and all
+  // quick/full checkpoint fields. Priority is a scheduling setting only.
+  savePriorityState_(state);
+
+  priorityLog_(
+    'MANUAL PRIORITY ' + shelfName +
+    ' | L' + oldPriority + ' -> L' + Number(newPriority) +
+    ' | baseline=' + !!entry.baseline_complete +
+    ' | checkpoint=' + (hasPendingPriorityScan_(entry) ? 'PENDING' : 'NONE')
+  );
+
+  return {
+    ok: true,
+    shelf: shelfName,
+    old_priority: oldPriority,
+    new_priority: Number(newPriority),
+    baseline_complete: !!entry.baseline_complete,
+    checkpoint_pending: hasPendingPriorityScan_(entry)
+  };
 }
 
 function priorityElapsed_(startedAt) {
