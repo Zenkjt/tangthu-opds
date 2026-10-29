@@ -12,7 +12,6 @@
 var PRIORITY_STATE_KEY = 'TANGTHU_DRIVE_PRIORITY_STATE_V2';
 var PRIORITY_LOCK_MS = 30000;
 var PRIORITY_TIME_BUDGET_MS = 4 * 60 * 1000;
-var PRIORITY_BRANCH_BUDGET_MS = 90 * 1000;
 
 var PRIORITY_INTERVAL_MS = {
   1: 30 * 60 * 1000,
@@ -545,18 +544,16 @@ function dispatchPriorityBuild_(changed) {
 function scanPriorityShelf_(branch, entry, startedAt, forceFull) {
   var apiKey = PropertiesService.getScriptProperties().getProperty('TANGTHU_GOOGLE_API_KEY');
   if (!apiKey) throw new Error('Apps Script chưa được cấu hình TANGTHU_GOOGLE_API_KEY.');
-  var shelfDeadline = Date.now() + PRIORITY_BRANCH_BUDGET_MS;
-
   if (entry.full_scan_queue) {
     var resumedQuick = {
       item_count: Number(entry.item_count_work || 0),
       total_size: Number(entry.total_size_work || 0),
       max_modified_time: String(entry.max_modified_work || '')
     };
-    return scanPriorityFull_(branch, entry, startedAt, apiKey, resumedQuick, shelfDeadline);
+    return scanPriorityFull_(branch, entry, startedAt, apiKey, resumedQuick);
   }
 
-  var quick = scanPriorityQuick_(branch, entry, startedAt, apiKey, shelfDeadline);
+  var quick = scanPriorityQuick_(branch, entry, startedAt, apiKey);
   if (!quick.completed) return quick;
 
   var quickChanged = !entry.baseline_complete ||
@@ -581,17 +578,17 @@ function scanPriorityShelf_(branch, entry, startedAt, forceFull) {
     ' | reason=' + (forceFull ? 'forced' : (entry.baseline_complete ? 'quick_changed' : 'baseline'))
   );
 
-  return scanPriorityFull_(branch, entry, startedAt, apiKey, quick, shelfDeadline);
+  return scanPriorityFull_(branch, entry, startedAt, apiKey, quick);
 }
 
-function scanPriorityQuick_(branch, entry, startedAt, apiKey, shelfDeadline) {
+function scanPriorityQuick_(branch, entry, startedAt, apiKey) {
   var queue = entry.scan_queue || [String(branch.root_folder_id)];
   var visited = entry.visited || {};
   var itemCount = Number(entry.item_count_work || 0);
   var totalSize = Number(entry.total_size_work || 0);
   var maxModified = String(entry.max_modified_work || '');
   while (queue.length) {
-    if (Date.now()-startedAt >= PRIORITY_TIME_BUDGET_MS || Date.now() >= shelfDeadline) {
+    if (Date.now()-startedAt >= PRIORITY_TIME_BUDGET_MS) {
       entry.scan_queue=queue; entry.visited=visited; entry.item_count_work=itemCount; entry.total_size_work=totalSize; entry.max_modified_work=maxModified;
       return {completed:false};
     }
@@ -662,7 +659,7 @@ function fingerprintRow_(row) {
   });
 }
 
-function scanPriorityFull_(branch, entry, startedAt, apiKey, quick, shelfDeadline) {
+function scanPriorityFull_(branch, entry, startedAt, apiKey, quick) {
   /*
    * IMPORTANT:
    * Do not checkpoint the complete row list in Script Properties.
@@ -691,8 +688,7 @@ function scanPriorityFull_(branch, entry, startedAt, apiKey, quick, shelfDeadlin
 
   while (queue.length) {
     if (
-      Date.now() - startedAt >= PRIORITY_TIME_BUDGET_MS ||
-      Date.now() >= shelfDeadline
+      Date.now() - startedAt >= PRIORITY_TIME_BUDGET_MS
     ) {
       entry.full_scan_queue = queue;
       entry.full_visited = visited;
