@@ -100,6 +100,11 @@ jobs:
           TANGTHU_DOWNLOAD_WORKER_URL: ${{ vars.TANGTHU_DOWNLOAD_WORKER_URL }}
         run: python3 scripts/postprocess_cpfont.py
 
+      - name: Apply shelf reload UI
+        env:
+          TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
+        run: python3 scripts/postprocess_shelf_reload.py
+
       - name: Apply bookshelf UI
         run: python3 scripts/postprocess_bookshelf.py
 
@@ -107,11 +112,6 @@ jobs:
         env:
           TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
         run: python3 scripts/postprocess_registration.py
-
-      - name: Apply shelf reload UI
-        env:
-          TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
-        run: python3 scripts/postprocess_shelf_reload.py
 
       - name: Apply news UI
         run: python3 scripts/postprocess_news.py
