@@ -359,7 +359,11 @@ function loadPriorityState_(enabled) {
         visited:{},
         item_count_work:0,
         total_size_work:0,
-        max_modified_work:''
+        max_modified_work:'',
+        full_scan_queue:null,
+        full_visited:{},
+        full_digest_work:'',
+        full_count_work:0
       };
 
       priorityLog_(
@@ -607,37 +611,150 @@ function scanPriorityQuick_(branch, entry, startedAt, apiKey) {
   return {completed:true,item_count:itemCount,total_size:totalSize,max_modified_time:maxModified};
 }
 
+function digestBytesToHex_(bytes) {
+  return bytes.map(function(b) {
+    var n = b < 0 ? b + 256 : b;
+    return ('0' + n.toString(16)).slice(-2);
+  }).join('');
+}
+
+function hexToDigestBytes_(hex) {
+  var bytes = [];
+  hex = String(hex || '');
+  for (var i = 0; i < 64; i += 2) {
+    var part = hex.slice(i, i + 2);
+    bytes.push(part ? parseInt(part, 16) : 0);
+  }
+  while (bytes.length < 32) bytes.push(0);
+  return bytes.slice(0, 32);
+}
+
+function addDigestBytes_(acc, digest) {
+  var out = new Array(32);
+  var carry = 0;
+
+  for (var i = 31; i >= 0; i--) {
+    var sum = Number(acc[i] || 0) + Number(digest[i] || 0) + carry;
+    out[i] = sum & 255;
+    carry = Math.floor(sum / 256);
+  }
+
+  return out;
+}
+
+function fingerprintRow_(row) {
+  var normalized = [
+    String(row.id || ''),
+    String(row.parent || ''),
+    String(row.name || ''),
+    String(row.mime || ''),
+    String(row.size || ''),
+    String(row.modified || ''),
+    String(row.created || ''),
+    String(row.checksum || ''),
+    row.folder ? '1' : '0'
+  ].join('\u001f');
+
+  return Utilities.computeDigest(
+    Utilities.DigestAlgorithm.SHA_256,
+    Utilities.newBlob(normalized).getBytes()
+  ).map(function(b) {
+    return b < 0 ? b + 256 : b;
+  });
+}
+
 function scanPriorityFull_(branch, entry, startedAt, apiKey, quick) {
+  /*
+   * IMPORTANT:
+   * Do not checkpoint the complete row list in Script Properties.
+   * Apps Script limits a single property value to about 9 KB, while a large
+   * shelf can easily produce tens of thousands of metadata rows.
+   *
+   * Instead, build an order-independent SHA-256-derived accumulator while
+   * scanning. The accumulator is only 32 bytes, so a checkpoint remains tiny.
+   */
   var queue = entry.full_scan_queue || [String(branch.root_folder_id)];
   var visited = entry.full_visited || {};
-  var rows = entry.full_rows || [];
+  var digest = hexToDigestBytes_(entry.full_digest_work || '');
+  var rowCount = Number(entry.full_count_work || 0);
   var branchStartedAt = Date.now();
 
+  /* Discard checkpoints from the old full_rows implementation. */
+  if (entry.full_rows) {
+    entry.full_rows = null;
+    entry.full_scan_queue = null;
+    entry.full_visited = {};
+    entry.full_digest_work = '';
+    entry.full_count_work = 0;
+    queue = [String(branch.root_folder_id)];
+    visited = {};
+    digest = hexToDigestBytes_('');
+    rowCount = 0;
+  }
+
   while (queue.length) {
-    if (Date.now()-startedAt >= PRIORITY_TIME_BUDGET_MS || Date.now()-branchStartedAt >= PRIORITY_BRANCH_BUDGET_MS) {
-      entry.full_scan_queue=queue; entry.full_visited=visited; entry.full_rows=rows;
+    if (
+      Date.now() - startedAt >= PRIORITY_TIME_BUDGET_MS ||
+      Date.now() - branchStartedAt >= PRIORITY_BRANCH_BUDGET_MS
+    ) {
+      entry.full_scan_queue = queue;
+      entry.full_visited = visited;
+      entry.full_digest_work = digestBytesToHex_(digest);
+      entry.full_count_work = rowCount;
+      entry.full_rows = null;
       return {completed:false};
     }
-    var folderId=queue.shift();
+
+    var folderId = queue.shift();
     if (visited[folderId]) continue;
-    visited[folderId]=true;
-    var result=listDriveFolder_(folderId, apiKey);
-    if (!result.ok) throw new Error('Google Drive full scan thất bại: '+result.error);
-    (result.files||[]).forEach(function(file){
-      rows.push({id:String(file.id||''),parent:folderId,name:String(file.name||''),mime:String(file.mimeType||''),size:file.size==null?'':String(file.size),modified:String(file.modifiedTime||''),created:String(file.createdTime||''),checksum:String(file.md5Checksum||''),folder:file.mimeType==='application/vnd.google-apps.folder'});
-      if(file.mimeType==='application/vnd.google-apps.folder') queue.push(String(file.id));
+    visited[folderId] = true;
+
+    var result = listDriveFolder_(folderId, apiKey);
+    if (!result.ok) {
+      throw new Error('Google Drive full scan thất bại: ' + result.error);
+    }
+
+    (result.files || []).forEach(function(file) {
+      var row = {
+        id: String(file.id || ''),
+        parent: folderId,
+        name: String(file.name || ''),
+        mime: String(file.mimeType || ''),
+        size: file.size == null ? '' : String(file.size),
+        modified: String(file.modifiedTime || ''),
+        created: String(file.createdTime || ''),
+        checksum: String(file.md5Checksum || ''),
+        folder: file.mimeType === 'application/vnd.google-apps.folder'
+      };
+
+      digest = addDigestBytes_(digest, fingerprintRow_(row));
+      rowCount++;
+
+      if (row.folder) queue.push(String(file.id));
     });
   }
 
-  var fingerprint=fingerprintDriveItems_(rows);
+  var fingerprint = String(rowCount) + ':' + digestBytesToHex_(digest);
   var confirmedChanged = !!entry.fingerprint && fingerprint !== entry.fingerprint;
-  entry.full_scan_queue=null; entry.full_visited={}; entry.full_rows=null;
+
+  entry.full_scan_queue = null;
+  entry.full_visited = {};
+  entry.full_digest_work = '';
+  entry.full_count_work = 0;
+  entry.full_rows = null;
 
   priorityLog_(
     'FULL DONE ' + String(branch.display_name || branch.id) +
-    ' | rows=' + rows.length +
+    ' | rows=' + rowCount +
     ' | confirmed_changed=' + confirmedChanged
   );
 
-  return {completed:true,confirmed_changed:confirmedChanged,fingerprint:fingerprint,item_count:quick.item_count,total_size:quick.total_size,max_modified_time:quick.max_modified_time};
+  return {
+    completed:true,
+    confirmed_changed:confirmedChanged,
+    fingerprint:fingerprint,
+    item_count:quick.item_count,
+    total_size:quick.total_size,
+    max_modified_time:quick.max_modified_time
+  };
 }
