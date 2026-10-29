@@ -13,9 +13,11 @@ start = text.find("  function renderBranches(){")
 if start < 0:
     raise SystemExit("Shelf Reload patch anchor missing: renderBranches")
 
-end = text.find("\n  function renderContent(){", start)
-if end < 0:
-    raise SystemExit("Shelf Reload patch anchor missing: renderBranches end")
+# Replace ONLY renderBranches(). Do not replace everything up to renderContent(),
+# because postprocess_ui.py may already have inserted renderShelfStats() there.
+next_fn = text.find("\n  function ", start + len("  function renderBranches(){"))
+if next_fn < 0:
+    raise SystemExit("Shelf Reload patch anchor missing: next function after renderBranches")
 
 new_fn = r'''  function renderBranches(){
     var list=$('branchList');list.innerHTML='';
@@ -115,5 +117,5 @@ new_fn = r'''  function renderBranches(){
   }
 '''.replace("__API_URL__", repr(api_url))
 
-text = text[:start] + new_fn + text[end:]
+text = text[:start] + new_fn + text[next_fn:]
 path.write_text(text, encoding="utf-8")
