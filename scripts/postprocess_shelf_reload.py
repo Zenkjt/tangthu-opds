@@ -24,9 +24,12 @@ new_fn = r'''  function renderBranches(){
     branches().forEach(function(b){
       var li=document.createElement('li');
       li.className='branch'+(state.branch===b.id?' active':'');
+      li.style.position='relative';
       li.style.display='flex';
       li.style.alignItems='center';
       li.style.gap='5px';
+      li.style.paddingRight='42px';
+      li.style.boxSizing='border-box';
 
       var main=document.createElement('span');
       main.style.display='flex';
@@ -34,6 +37,7 @@ new_fn = r'''  function renderBranches(){
       main.style.gap='7px';
       main.style.minWidth='0';
       main.style.flex='1 1 auto';
+      main.style.overflow='hidden';
       main.innerHTML='<span class="folder-icon">📚</span><span class="branch-name">'+esc(b.name)+'</span>';
       main.onclick=function(){
         state.branch=b.id;
@@ -46,11 +50,23 @@ new_fn = r'''  function renderBranches(){
       var reload=document.createElement('button');
       reload.type='button';
       reload.title='Reload tủ này';
+      reload.setAttribute('aria-label','Reload tủ '+b.name);
       reload.textContent='↻';
-      reload.style.flex='0 0 auto';
+      reload.style.position='absolute';
+      reload.style.right='8px';
+      reload.style.top='50%';
+      reload.style.transform='translateY(-50%)';
+      reload.style.zIndex='5';
+      reload.style.display='inline-flex';
+      reload.style.alignItems='center';
+      reload.style.justifyContent='center';
+      reload.style.flex='0 0 28px';
       reload.style.width='28px';
+      reload.style.minWidth='28px';
       reload.style.height='24px';
       reload.style.padding='0';
+      reload.style.margin='0';
+      reload.style.boxSizing='border-box';
       reload.style.background='#c0c0c0';
       reload.style.color='#000';
       reload.style.border='2px solid #fff';
