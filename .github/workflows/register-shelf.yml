@@ -242,8 +242,17 @@ jobs:
                   .digest('hex')
                   .slice(0, 12)}`;
 
+              const usedShelfNumbers = config.branches
+                .map(b => Number(b.shelf_no))
+                .filter(n => Number.isInteger(n) && n > 0);
+
+              const shelfNo = usedShelfNumbers.length
+                ? Math.max(...usedShelfNumbers) + 1
+                : 1;
+
               config.branches.push({
                 id: branchId,
+                shelf_no: shelfNo,
                 display_name: requestedName,
                 root_folder_id: folderId,
                 enabled: true
@@ -266,7 +275,7 @@ jobs:
                 repo,
                 issue_number: issue.number,
                 body:
-                  `✅ **TÀNG THƯ:** Đã đăng ký tủ **${requestedName}**.\n\n` +
+                  `✅ **TÀNG THƯ:** Đã đăng ký tủ **${requestedName}** (#${shelfNo}).\n\n` +
                   `Google Drive: **${folder.name}**`
               });
             }

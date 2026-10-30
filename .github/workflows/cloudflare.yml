@@ -125,9 +125,15 @@ jobs:
       - name: Restore current story UI
         run: python3 scripts/postprocess_story_current.py
 
+      - name: Apply shelf number
+        run: python3 scripts/postprocess_shelf_number.py
+
       - name: Add short OPDS entry point
         run: |
-          printf '%s\n'             '/opds /opds/index.xml 200'             '/opds/ /opds/index.xml 200'             > docs/_redirects
+          printf '%s\n' \
+            '/opds /opds/index.xml 200' \
+            '/opds/ /opds/index.xml 200' \
+            > docs/_redirects
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4
