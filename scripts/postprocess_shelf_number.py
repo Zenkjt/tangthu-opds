@@ -103,6 +103,18 @@ def main():
         "var name = shelf.display_name || shelf.name || '';",
         "var name = shelfLabel(shelf);",
     )
+    text = text.replace(
+        "item.title=shelf.display_name||shelf.name||'';",
+        "item.title=shelfLabel(shelf);",
+    )
+    text = text.replace(
+        "item.setAttribute('aria-label',(shelf.display_name||shelf.name||'')+' — '+stats(shelf));",
+        "item.setAttribute('aria-label',shelfLabel(shelf)+' — '+stats(shelf));",
+    )
+    text = text.replace(
+        "name.textContent=shelf.display_name||shelf.name||'';",
+        "name.textContent=shelfLabel(shelf);",
+    )
 
     INDEX.write_text(text, encoding="utf-8")
 
