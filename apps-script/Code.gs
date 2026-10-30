@@ -718,6 +718,8 @@ function doPost(e) {
 
     if (action === 'reload') return jsonResponse(reloadShelf(body));
 
+    if (action === 'story_trigger') return jsonResponse(storyTrigger_(body));
+
 
     if (action === 'create' || action === 'rename' || action === 'delete') {
 
