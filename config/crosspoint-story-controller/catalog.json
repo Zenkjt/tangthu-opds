@@ -2,11 +2,13 @@
   "items": [
     {
       "id": "previous",
-      "title": "PREVIOUS"
+      "title": "PREVIOUS",
+      "url": "https://script.google.com/macros/s/AKfycby9GPwN9qNZIapz3eoV_DfwkG4XPssKIK2rL-3ciEmG1qCDyjGmyE8nEDaVMS0z6YS/exec"
     },
     {
       "id": "next",
-      "title": "NEXT"
+      "title": "NEXT",
+      "url": "https://script.google.com/macros/s/AKfycby9GPwN9qNZIapz3eoV_DfwkG4XPssKIK2rL-3ciEmG1qCDyjGmyE8nEDaVMS0z6YS/exec"
     }
   ]
 }
