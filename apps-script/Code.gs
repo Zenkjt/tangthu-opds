@@ -716,9 +716,6 @@ function doPost(e) {
 
     var action = String(body.action || '').trim().toLowerCase();
 
-    if (action === 'reload') return jsonResponse(reloadShelf(body));
-
-    if (action === 'story_trigger') return jsonResponse(storyTrigger_(body));
 
 
     if (action === 'create' || action === 'rename' || action === 'delete') {
@@ -733,6 +730,7 @@ function doPost(e) {
       return jsonResponse(storyCache_(body));
     }
 
+    if (action === 'story_trigger') return jsonResponse(storyTrigger_(body));
 
     return jsonResponse({
 
