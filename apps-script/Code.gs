@@ -694,6 +694,12 @@ function doGet(e) {
 
   }
 
+  if (action === 'story_catalog') {
+    return jsonResponse(
+      storyCatalog_(String(e.parameter.shelf_no || ''))
+    );
+  }
+
 
 
   return jsonResponse({
@@ -731,6 +737,7 @@ function doPost(e) {
     }
 
     if (action === 'story_trigger') return jsonResponse(storyTrigger_(body));
+    if (action === 'story_download') return jsonResponse(storyDownload_(body));
 
     return jsonResponse({
 
@@ -1599,4 +1606,247 @@ function uploadEpub_(body) {
       error: 'Failed to create EPUB. Check Editor/write permission and Advanced Drive service: ' + String(err)
     };
   }
+}
+
+
+/**
+ * Native CrossPoint Story catalog.
+ *
+ * The catalog itself is deliberately tiny: it only exposes PREVIOUS/NEXT.
+ * The selected item is later expanded into the story_download POST body.
+ */
+function storyCatalog_(shelfNoRaw) {
+  var shelfNo = Number(shelfNoRaw);
+
+  if (!isFinite(shelfNo) || shelfNo <= 0 || Math.floor(shelfNo) !== shelfNo) {
+    return {
+      ok: false,
+      error: 'Invalid shelf_no.'
+    };
+  }
+
+  var config = readConfig_();
+  var branch = findShelfByNo_(config.branches, shelfNo);
+
+  if (!branch) {
+    return {
+      ok: false,
+      error: 'Shelf #' + shelfNo + ' is not registered.'
+    };
+  }
+
+  if (branch.enabled === false) {
+    return {
+      ok: false,
+      error: 'Shelf #' + shelfNo + ' is disabled.'
+    };
+  }
+
+  return {
+    items: [
+      {
+        id: 'previous',
+        title: 'PREVIOUS'
+      },
+      {
+        id: 'next',
+        title: 'NEXT'
+      }
+    ]
+  };
+}
+
+/**
+ * CrossPoint native Story download bridge.
+ *
+ * Flow:
+ *   CrossPoint POST story_download
+ *     -> trigger Story
+ *     -> wait until the shelf's 0neStory.epub is created/updated
+ *     -> return a JSON object containing the stable direct-download URL.
+ *
+ * CrossPoint's native device.json uses download.url_path = "url", so the
+ * response itself is only the small JSON hand-off; the EPUB is fetched by
+ * CrossPoint in the second HTTP request.
+ *
+ * Required branch shape:
+ *   shelf_no: stable numeric shelf number
+ *   root_folder_id: shelf root
+ *   enabled: optional, defaults to enabled
+ *
+ * Existing storyTrigger_() remains the single Story trigger receptor.
+ */
+var STORY_DOWNLOAD_FILENAME = '0neStory.epub';
+var STORY_DOWNLOAD_MAX_WAIT_MS = 180000;
+var STORY_DOWNLOAD_POLL_MS = 3000;
+
+function storyDownload_(body) {
+  var shelfNo = Number(body.shelf_no);
+  var direction = String(body.direction || '').trim().toLowerCase();
+
+  if (!isFinite(shelfNo) || shelfNo <= 0 || Math.floor(shelfNo) !== shelfNo) {
+    return {
+      ok: false,
+      error: 'Invalid shelf_no.'
+    };
+  }
+
+  if (direction !== 'next' && direction !== 'previous') {
+    return {
+      ok: false,
+      error: 'Invalid Story direction.'
+    };
+  }
+
+  try {
+    var config = readConfig_();
+    var branch = findShelfByNo_(config.branches, shelfNo);
+
+    if (!branch) {
+      return {
+        ok: false,
+        error: 'Shelf #' + shelfNo + ' is not registered.'
+      };
+    }
+
+    if (branch.enabled === false) {
+      return {
+        ok: false,
+        error: 'Shelf #' + shelfNo + ' is disabled.'
+      };
+    }
+
+    var folderId = String(branch.root_folder_id || '').trim();
+    if (!folderId) {
+      return {
+        ok: false,
+        error: 'Shelf #' + shelfNo + ' has no root_folder_id.'
+      };
+    }
+
+    var before = findStoryEpub_(folderId);
+
+    var triggerResult = storyTrigger_({
+      action: 'story_trigger',
+      shelf_no: shelfNo,
+      direction: direction
+    });
+
+    if (!triggerResult || triggerResult.ok === false) {
+      return {
+        ok: false,
+        error:
+          'Story trigger failed: ' +
+          String((triggerResult && triggerResult.error) || 'unknown error')
+      };
+    }
+
+    var startedAt = Date.now();
+
+    while (Date.now() - startedAt < STORY_DOWNLOAD_MAX_WAIT_MS) {
+      Utilities.sleep(STORY_DOWNLOAD_POLL_MS);
+
+      var current = findStoryEpub_(folderId);
+
+      if (!current) {
+        continue;
+      }
+
+      if (!before) {
+        return storyDownloadResponse_(current, shelfNo, direction);
+      }
+
+      if (current.id !== before.id) {
+        return storyDownloadResponse_(current, shelfNo, direction);
+      }
+
+      if (current.modifiedMs > before.modifiedMs) {
+        return storyDownloadResponse_(current, shelfNo, direction);
+      }
+    }
+
+    return {
+      ok: false,
+      error:
+        'Story trigger completed but 0neStory.epub was not updated within ' +
+        Math.round(STORY_DOWNLOAD_MAX_WAIT_MS / 1000) +
+        ' seconds.'
+    };
+  }
+}
+
+function findShelfByNo_(branches, shelfNo) {
+  var list = branches || [];
+
+  for (var i = 0; i < list.length; i++) {
+    var branch = list[i];
+
+    if (
+      branch &&
+      Number(branch.shelf_no) === Number(shelfNo)
+    ) {
+      return branch;
+    }
+  }
+
+  /*
+   * Compatibility fallback for an older branches.json that has not yet
+   * persisted shelf_no. This fallback is intentionally positional only.
+   * Once shelf_no exists, it always wins.
+   */
+  if (shelfNo >= 1 && shelfNo <= list.length) {
+    var fallback = list[shelfNo - 1];
+    if (fallback) return fallback;
+  }
+
+  return null;
+}
+
+function findStoryEpub_(folderId) {
+  var folder = DriveApp.getFolderById(folderId);
+  var files = folder.getFilesByName(STORY_DOWNLOAD_FILENAME);
+
+  if (!files.hasNext()) {
+    return null;
+  }
+
+  var file = files.next();
+
+  if (files.hasNext()) {
+    throw new Error(
+      'Multiple files named ' +
+      STORY_DOWNLOAD_FILENAME +
+      ' exist in shelf ' +
+      folderId +
+      '.'
+    );
+  }
+
+  return {
+    id: String(file.getId()),
+    name: file.getName(),
+    size: Number(file.getSize() || 0),
+    modifiedMs: file.getLastUpdated().getTime()
+  };
+}
+
+function storyDownloadResponse_(file, shelfNo, direction) {
+  return {
+    ok: true,
+    action: 'story_download',
+    shelf_no: shelfNo,
+    direction: direction,
+    filename: STORY_DOWNLOAD_FILENAME,
+    file_id: file.id,
+    size: file.size,
+    modified_at: new Date(file.modifiedMs).toISOString(),
+
+    /*
+     * Stable URL: the Drive file ID is stable because Story upload updates
+     * the existing 0neStory.epub rather than creating a new file.
+     */
+    url:
+      'https://drive.usercontent.google.com/download?export=download&confirm=t&id=' +
+      encodeURIComponent(file.id)
+  };
 }
