@@ -1772,6 +1772,11 @@ function storyDownload_(body) {
         Math.round(STORY_DOWNLOAD_MAX_WAIT_MS / 1000) +
         ' seconds.'
     };
+  } catch (err) {
+    return {
+      ok: false,
+      error: String(err && err.message ? err.message : err)
+    };
   }
 }
 
