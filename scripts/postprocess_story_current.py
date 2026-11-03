@@ -333,7 +333,7 @@ crosspoint_script = r"""
     btn.textContent='Crosspoint plugin';
     btn.disabled=false;
     btn.addEventListener('click',showMaker);
-    nav.insertBefore(btn,nav.firstChild);
+    nav.appendChild(btn);
   }
   var observer=new MutationObserver(injectButton);
   function start(){
