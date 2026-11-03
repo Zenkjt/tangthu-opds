@@ -289,10 +289,10 @@ crosspoint_script = r"""
       '<div class="tt-crosspoint-modal" role="dialog" aria-modal="true" aria-labelledby="ttCrosspointTitle">'+
         '<h3 id="ttCrosspointTitle">Tạo CrossPoint plugin</h3>'+
         '<p>Nhập số tủ. Tool sẽ tạo một ZIP chứa đầy đủ hai plugin <code>TTnextChap</code> và <code>TTprevChap</code>.</p>'+
-        '<label for="ttCrosspointShelf">Số tủ</label>'+\
-        '<input id="ttCrosspointShelf" type="number" min="1" step="1" placeholder="Ví dụ: 3" autofocus>'+\
-        '<div class="tt-crosspoint-actions"><button id="ttCrosspointMake" type="button">OK — tạo plugin</button></div>'+\
-        '<div id="ttCrosspointStatus" class="tt-crosspoint-status"></div>'+\
+        '<label for="ttCrosspointShelf">Số tủ</label>'+
+        '<input id="ttCrosspointShelf" type="number" min="1" step="1" placeholder="Ví dụ: 3" autofocus>'+
+        '<div class="tt-crosspoint-actions"><button id="ttCrosspointMake" type="button">OK — tạo plugin</button></div>'+
+        '<div id="ttCrosspointStatus" class="tt-crosspoint-status"></div>'+
       '</div>';
     document.body.appendChild(back);
     var input=document.getElementById('ttCrosspointShelf');
