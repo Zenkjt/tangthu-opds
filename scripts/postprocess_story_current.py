@@ -151,6 +151,7 @@ help_script = r"""
     '<p><strong>Chuẩn bị:</strong> thư mục Google chia sẻ của bạn cần được để chế độ public - Anyone with the link can EDIT (để Tàng Thư có thể cập nhật file truyện).</p>'+
     '<p>Dán địa chỉ thư mục Google vào ô "Địa chỉ nhận sách", tên tủ sẽ tự động được hiển thị&nbsp; Dán địa chỉ sách vào ô "Địa chỉ truyện online" và bấm đăng ký, truyện đã sẵn sàng trong tủ của bạn.</p>'+
     '<p>Bấm "Chương tiếp", "Đi đến..." hay "Chương trước" Tàng thư sẽ tải chương tương ứng về thay thế vào <code>0neStory.epub</code> trong tủ.</p>'+
+    '<p>Tàng thư có thể tạo cho bạn tool plugin dùng trên Crosspoint để điều khiển chuyển chương sách đang đọc cho bạn. bạn tải về, giải nén, chép vào .crosspoint/plugin để sử dụng.</p>'+
     '<p>Sau này muốn chọn truyện khác, bạn quay lại đây, dán địa chỉ tủ sách và thực hiện điều chỉnh.</p>'+
     '<p>Happy reading.<br>Zenkjt</p>';
 
