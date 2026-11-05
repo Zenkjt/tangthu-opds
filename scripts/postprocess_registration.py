@@ -299,13 +299,14 @@ help_script = r"""
       p=document.createElement('div');p.id=PANEL_ID;p.className='shelf-help-panel';p.hidden=true;
       p.innerHTML=
         '<p>Đăng ký tủ sách để có thể dễ dàng tải sách từ thư mục của bạn về máy đọc sách qua hệ thống OPDS.</p>'+
-        '<p><strong>Chuẩn bị:</strong> thư mục Google chia sẻ của bạn cần được để chế độ public (any one with the link can view), chép sách vào đó, chỉ EPUB, MOBI và AZW3 thôi nhé.</p>'+
+        '<p><strong>Chuẩn bị:</strong> thư mục Google chia sẻ của bạn cần được để chế độ public - any one with the link can view, chép sách, font vào đó, sách chỉ EPUB, MOBI và AZW3 thôi nhé.</p>'+
         '<p>Dán địa chỉ thư mục đó vào ô <strong>"Đường link"</strong>, đặt tên tủ sao cho dễ nhớ (trong ô <strong>"Tên tủ"</strong>).</p>'+
         '<p>Bấm <strong>kiểm tra link</strong>, rồi bấm <strong>tạo tủ</strong>.</p>'+
         '<p>Bạn có thể đổi tên/xóa tủ bằng cách dán lại địa chỉ thư mục Google vào ô <strong>"Đường link"</strong>.</p>'+
         '<p>Trên máy đọc sách của bạn, trong cài đặt OPDS server điền địa chỉ: <code>https://tangthu.pages.dev/opds</code></p>'+
         '<p>Truy cập OPDS trên máy đọc sách để tải sách về theo nhu cầu.</p>'+
-        '<p>Thư mục chứa sách của bạn hoàn toàn do bạn quản lý, không chia sẻ link với người khác, bạn nên sử dụng tài khoản Google phụ cho việc này.</p>'+
+        '<p>Nếu google folder của bạn không truy cập được vì bạn xóa hay khóa thư mục, tủ sách của bạn sẽ bị tạm treo và sau 1 tuần sẽ bị ẩn khỏi Tàng thư.</p>'+
+        '<p>Thư mục chứa sách của bạn hoàn toàn do bạn quản lý, không ai can thiệp thêm, xóa file được ngoài chính bạn. Tuy nhiên vẫn nên sử dụng tài khoản Google phụ cho việc này.</p>'+
         '<p>Happy reading<br>Zenkjt</p>';
       body.insertBefore(p,body.firstChild);
     }
