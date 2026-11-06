@@ -943,4 +943,3 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
     max_modified_time:quick.max_modified_time
   };
 }
-
