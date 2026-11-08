@@ -50,7 +50,7 @@ text = text.replace(marker, replacement, 1)
 
 wording = {
     'Chọn chương ...': 'Đi đến',
-    "Đến chương số:": "Đi đến số tương ứng trong mục lục",
+    "Đến vị trí TOC:": "Nhập vị trí TOC:",
     'Tác giả:': 'Tải lên bởi:',
     'Chương hiện tại:': 'Đang đọc:',
 }
