@@ -120,13 +120,16 @@ css = """
 #storyCrosspointBtn{white-space:nowrap}
 .tt-crosspoint-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.35);display:flex;align-items:center;justify-content:center;z-index:10000;padding:16px;box-sizing:border-box}
 .tt-crosspoint-modal{width:min(520px,100%);background:#fff;border:1px solid #999;border-radius:10px;box-shadow:0 8px 30px rgba(0,0,0,.25);padding:22px;box-sizing:border-box;color:#222}
-.tt-crosspoint-modal h3{margin:0 0 8px;font-size:20px}
+.tt-crosspoint-modal-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}
+.tt-crosspoint-modal h3{margin:0;font-size:20px}
+.tt-crosspoint-close{flex:0 0 auto;width:34px;height:34px;padding:0;border:1px solid #aaa;border-radius:6px;background:#fff;font-size:23px;line-height:1;cursor:pointer}
 .tt-crosspoint-modal p{margin:0 0 18px;color:#666}
 .tt-crosspoint-modal label{display:block;font-weight:600;margin-bottom:7px}
 .tt-crosspoint-modal input{width:100%;box-sizing:border-box;padding:12px;font-size:18px;border:1px solid #aaa;border-radius:6px}
 .tt-crosspoint-actions{display:flex;gap:8px;justify-content:flex-start;margin-top:14px}
 .tt-crosspoint-actions button{padding:11px 20px;font-size:16px;border:1px solid #888;border-radius:6px;background:#fff;cursor:pointer}
-.tt-crosspoint-actions button:hover{background:#f3f3f3}
+.tt-crosspoint-actions button:hover,.tt-crosspoint-close:hover{background:#f3f3f3}
+#ttCrosspointCancel{margin-left:auto}
 .tt-crosspoint-status{margin-top:12px;white-space:pre-line}
 .tt-crosspoint-status.err{color:#a00}
 @media(max-width:600px){
@@ -264,7 +267,7 @@ crosspoint_script = r"""
         format:'json',url:WORKER+endpoint,method:'POST',
         headers:{'Content-Type':'application/json'},
         body:JSON.stringify({shelf_no:shelf}),items:'items',page_size:1,
-        fields:{title:'title',id:'id',url:'url',description:'description'}
+        fields:{title:'title',author:'author',id:'id',url:'url',description:'description'}
       }
     };
   }
@@ -273,6 +276,16 @@ crosspoint_script = r"""
     manifests.forEach(function(pair){files.push([pair[0],JSON.stringify(pair[1],null,2)+'\n'])});
     files.push(['TTnextChap/device.json',JSON.stringify(device('Tàng Thư Story NEXT','Yêu cầu Tàng Thư xử lý chương tiếp theo.','/story/crosspoint-next',shelf),null,2)+'\n']);
     files.push(['TTprevChap/device.json',JSON.stringify(device('Tàng Thư Story PREV','Yêu cầu Tàng Thư xử lý chương trước.','/story/crosspoint-previous',shelf),null,2)+'\n']);
+    var guide=[
+      'Gói zip này có 2 thư mục: TTnextChap và TTprevChap được thiết kế theo chuẩn plugin của crosspoint.',
+      '- Bạn chép cả 2 thư mục vào .crosspoint/plugins/ trên thẻ nhớ máy đọc sách.',
+      '- Để điều khiển trên máy đọc sách, bạn chạy plugin tương ứng, Tàng thư sẽ tải chương tiếp theo / chương trước về thay thế vào 0neStory.epub trên tủ sách của bạn.',
+      '- Chuỗi sử dụng hợp lí trên máy đọc sách: vào OPDS tải 0neStory.epub --> vào plugins chạy TTnextChap --> đọc sách. Khi hết chương sẽ luôn có chương tiếp theo để tải về đọc.',
+      '*Lưu ý: có thể plugin lỗi, bạn vào https://tangthu.pages.dev để kiểm tra và điều khiển trực tiếp nhé.',
+      'Happy reading...',
+      'Zenkjt'
+    ].join('\n');
+    files.push(['Huong dan su dung.txt',guide+'\n']);
     var blob=new Blob([makeZip(files)],{type:'application/zip'});
     var a=document.createElement('a');
     a.href=URL.createObjectURL(blob);
@@ -288,17 +301,35 @@ crosspoint_script = r"""
     back.className='tt-crosspoint-backdrop';
     back.innerHTML=
       '<div class="tt-crosspoint-modal" role="dialog" aria-modal="true" aria-labelledby="ttCrosspointTitle">'+
-        '<h3 id="ttCrosspointTitle">Tạo CrossPoint plugin</h3>'+
-        '<p>Nhập số tủ. Tool sẽ tạo một ZIP chứa đầy đủ hai plugin <code>TTnextChap</code> và <code>TTprevChap</code>.</p>'+
+        '<div class="tt-crosspoint-modal-head">'+
+          '<h3 id="ttCrosspointTitle">Tạo CrossPoint plugin</h3>'+
+          '<button id="ttCrosspointClose" class="tt-crosspoint-close" type="button" aria-label="Đóng" title="Đóng">×</button>'+
+        '</div>'+
+        '<p>Nhập số tủ. Tool sẽ tạo một ZIP chứa đầy đủ hai plugin <code>TTnextChap</code> và <code>TTprevChap</code>, kèm hướng dẫn sử dụng.</p>'+
         '<label for="ttCrosspointShelf">Số tủ</label>'+
         '<input id="ttCrosspointShelf" type="number" min="1" step="1" placeholder="Ví dụ: 3" autofocus>'+
-        '<div class="tt-crosspoint-actions"><button id="ttCrosspointMake" type="button">OK — tạo plugin</button></div>'+
+        '<div class="tt-crosspoint-actions">'+
+          '<button id="ttCrosspointMake" type="button">OK — tạo plugin</button>'+
+          '<button id="ttCrosspointCancel" type="button">Cancel</button>'+
+        '</div>'+
         '<div id="ttCrosspointStatus" class="tt-crosspoint-status"></div>'+
       '</div>';
     document.body.appendChild(back);
     var input=document.getElementById('ttCrosspointShelf');
     var make=document.getElementById('ttCrosspointMake');
+    var cancel=document.getElementById('ttCrosspointCancel');
+    var closeBtn=document.getElementById('ttCrosspointClose');
     var status=document.getElementById('ttCrosspointStatus');
+    function closeModal(){
+      document.removeEventListener('keydown',onModalKeydown);
+      back.remove();
+    }
+    function onModalKeydown(e){
+      if(e.key==='Escape'){e.preventDefault();closeModal();}
+    }
+    document.addEventListener('keydown',onModalKeydown);
+    closeBtn.onclick=closeModal;
+    cancel.onclick=closeModal;
     function submit(){
       var shelf=Number(input.value);
       if(!Number.isInteger(shelf)||shelf<1){
@@ -313,7 +344,7 @@ crosspoint_script = r"""
       try{
         makePlugin(shelf);
         status.textContent='Đã tạo plugin cho tủ '+shelf+'.';
-        setTimeout(function(){back.remove()},350);
+        setTimeout(closeModal,350);
       }catch(e){
         make.disabled=false;
         status.className='tt-crosspoint-status err';
@@ -322,7 +353,7 @@ crosspoint_script = r"""
     }
     make.onclick=submit;
     input.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();submit()}});
-    back.addEventListener('click',function(e){if(e.target===back)back.remove()});
+    back.addEventListener('click',function(e){if(e.target===back)closeModal()});
     setTimeout(function(){input.focus()},0);
   }
   function injectButton(){
