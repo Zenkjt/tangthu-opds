@@ -86,50 +86,73 @@ new_fn = r'''  function renderBranches(){
     $('sidebarFoot').textContent=branches().length+' tủ sách';
   }
 
+  function shelfSnapshot(shelf){
+    if(!shelf)return '';
+    return JSON.stringify({id:shelf.id,name:shelf.name,root_folder_id:shelf.root_folder_id,files:shelf.files||[]});
+  }
+
+  function fetchFreshCatalog(){
+    return fetch('catalog.json?__refresh='+Date.now(),{cache:'no-store'}).then(function(r){
+      if(!r.ok)throw new Error('catalog '+r.status);
+      return r.json();
+    });
+  }
+
+  function waitForShelfUpdate(b,button,baseline,attempt){
+    attempt=attempt||0;
+    var maxAttempts=120;
+    if(attempt>=maxAttempts){
+      $('statusLeft').textContent='Đã gửi yêu cầu cập nhật tủ "'+b.name+'", nhưng chưa nhận được bản deploy mới. Có thể kiểm tra lại sau.';
+      button.disabled=false;button.textContent='↻';return;
+    }
+    window.setTimeout(function(){
+      fetchFreshCatalog().then(function(catalog){
+        var updated=(catalog.branches||[]).find(function(x){return x.id===b.id});
+        if(updated && shelfSnapshot(updated)!==baseline){
+          state.catalog=catalog;
+          renderBranches();
+          renderContent();
+          $('statusLeft').textContent='Tủ "'+b.name+'" đã cập nhật. Danh sách sách vừa được làm mới.';
+          button.disabled=false;button.textContent='↻';return;
+        }
+        $('statusLeft').textContent='Đang build và deploy tủ "'+b.name+'"…';
+        waitForShelfUpdate(b,button,baseline,attempt+1);
+      }).catch(function(){waitForShelfUpdate(b,button,baseline,attempt+1);});
+    },15000);
+  }
+
   function reloadShelfFromGUI(b,button){
     var apiUrl=__API_URL__;
-    if(!apiUrl){
-      $('statusLeft').textContent='Apps Script chưa được cấu hình.';
-      return;
-    }
+    if(!apiUrl){$('statusLeft').textContent='Apps Script chưa được cấu hình.';return;}
     if(button.disabled)return;
-
-    button.disabled=true;
-    button.textContent='…';
-    $('statusLeft').textContent='Đang reload tủ "'+b.name+'"...';
-
+    var oldShelf=(state.catalog.branches||[]).find(function(x){return x.id===b.id});
+    var baseline=shelfSnapshot(oldShelf);
+    button.disabled=true;button.textContent='…';
+    $('statusLeft').textContent='Đang kiểm tra tủ "'+b.name+'" trên Google Drive…';
     fetch(apiUrl,{
-      method:'POST',
-      headers:{'Content-Type':'text/plain;charset=utf-8'},
+      method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},
       body:JSON.stringify({action:'reload',branch_id:b.id})
-    })
-      .then(function(r){
-        return r.text().then(function(t){
-          var data={};
-          try{data=JSON.parse(t||'{}')}catch(e){
-            throw new Error('Apps Script trả về dữ liệu không hợp lệ.');
-          }
-          if(!r.ok)throw new Error('HTTP '+r.status);
-          return data;
-        });
-      })
-      .then(function(data){
-        if(!data.ok)throw new Error(data.error||'Không thể reload tủ.');
-        if(data.changed){
-          $('statusLeft').textContent='Tủ "'+b.name+'" đã thay đổi. Đã yêu cầu build lại OPDS.';
-        }else if(data.queued){
-          $('statusLeft').textContent='Tủ "'+b.name+'" đang được scan và sẽ tiếp tục tự động.';
-        }else{
-          $('statusLeft').textContent='Tủ "'+b.name+'" đã được scan: không có thay đổi.';
-        }
-      })
-      .catch(function(err){
-        $('statusLeft').textContent='Reload lỗi: '+String(err);
-      })
-      .finally(function(){
-        button.disabled=false;
-        button.textContent='↻';
+    }).then(function(r){
+      return r.text().then(function(t){
+        var data={};
+        try{data=JSON.parse(t||'{}')}catch(e){throw new Error('Apps Script trả về dữ liệu không hợp lệ.');}
+        if(!r.ok)throw new Error('HTTP '+r.status);
+        return data;
       });
+    }).then(function(data){
+      if(!data.ok)throw new Error(data.error||'Không thể reload tủ.');
+      if(data.changed || data.queued){
+        $('statusLeft').textContent=data.queued
+          ? 'Tủ "'+b.name+'" đang được scan; sẽ tự cập nhật khi hoàn tất…'
+          : 'Đã phát hiện thay đổi ở tủ "'+b.name+'". Đang build và deploy…';
+        waitForShelfUpdate(b,button,baseline,0);return;
+      }
+      $('statusLeft').textContent='Tủ "'+b.name+'" đã được kiểm tra: không có thay đổi.';
+      button.disabled=false;button.textContent='↻';
+    }).catch(function(err){
+      $('statusLeft').textContent='Reload lỗi: '+String(err);
+      button.disabled=false;button.textContent='↻';
+    });
   }
 '''.replace("__API_URL__", repr(api_url))
 
