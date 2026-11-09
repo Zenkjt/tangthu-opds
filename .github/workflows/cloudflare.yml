@@ -13,14 +13,14 @@ permissions:
 
 concurrency:
   group: cloudflare-pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout source
         uses: actions/checkout@v4
 
       - name: Preserve bookshelf assets
@@ -29,6 +29,19 @@ jobs:
           rm -rf .build-assets
           mkdir -p .build-assets
           cp -a docs/assets/bookshelf .build-assets/
+
+      - name: Restore last successful site-state
+        id: site_state
+        run: |
+          mkdir -p docs
+          if git fetch origin refs/heads/site-state; then
+            git archive FETCH_HEAD | tar -x -C docs
+            echo "available=true" >> "$GITHUB_OUTPUT"
+            echo "Restored site-state."
+          else
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "No site-state branch yet; this run will perform a full build."
+          fi
 
       - name: Setup Go
         uses: actions/setup-go@v5
@@ -68,15 +81,33 @@ jobs:
           echo "Unable to persist lifecycle state after 3 attempts."
           exit 1
 
+      - name: Resolve build mode
+        id: resolve
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+          SITE_STATE_AVAILABLE: ${{ steps.site_state.outputs.available }}
+        run: |
+          if [ "$SITE_STATE_AVAILABLE" != "true" ]; then
+            echo "full" > .build/build_mode
+            : > .build/changed_shelves.txt
+          else
+            python3 scripts/resolve_build_mode.py
+          fi
+          echo "mode=$(cat .build/build_mode)" >> "$GITHUB_OUTPUT"
+          echo "shelves=$(cat .build/changed_shelves.txt)" >> "$GITHUB_OUTPUT"
+
       - name: Generate static catalog
         env:
           TANGTHU_GOOGLE_API_KEY: ${{ secrets.TANGTHU_GOOGLE_API_KEY }}
           TANGTHU_BRANCH_CONFIG: .build/branches.json
           TANGTHU_OUTPUT_DIR: docs
           TANGTHU_BASE_URL: https://tangthu.pages.dev
+          TANGTHU_SHELVES: ${{ steps.resolve.outputs.shelves }}
         run: go run ./cmd/generate
 
       - name: Merge suspended shelves
+        if: steps.resolve.outputs.mode == 'full'
         run: python3 scripts/tangthu_lifecycle.py merge
 
       - name: Restore bookshelf assets
@@ -87,48 +118,61 @@ jobs:
       - name: Rewrite OPDS download URLs
         env:
           TANGTHU_DOWNLOAD_WORKER_URL: ${{ vars.TANGTHU_DOWNLOAD_WORKER_URL }}
+          TANGTHU_SHELVES: ${{ steps.resolve.outputs.shelves }}
         run: python3 scripts/rewrite_opds_download_urls.py
 
       - name: Paginate OPDS feeds
+        env:
+          TANGTHU_SHELVES: ${{ steps.resolve.outputs.shelves }}
         run: python3 scripts/paginate_opds.py
 
       - name: Apply catalog UI
+        if: steps.resolve.outputs.mode == 'full'
         run: python3 scripts/postprocess_ui.py
 
       - name: Apply CPFont preview
+        if: steps.resolve.outputs.mode == 'full'
         env:
           TANGTHU_DOWNLOAD_WORKER_URL: ${{ vars.TANGTHU_DOWNLOAD_WORKER_URL }}
         run: python3 scripts/postprocess_cpfont.py
 
       - name: Apply shelf reload UI
+        if: steps.resolve.outputs.mode == 'full'
         env:
           TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
         run: python3 scripts/postprocess_shelf_reload.py
 
       - name: Apply bookshelf UI
+        if: steps.resolve.outputs.mode == 'full'
         run: python3 scripts/postprocess_bookshelf.py
 
       - name: Apply registration UI
+        if: steps.resolve.outputs.mode == 'full'
         env:
           TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
         run: python3 scripts/postprocess_registration.py
 
       - name: Apply news UI
+        if: steps.resolve.outputs.mode == 'full'
         run: python3 scripts/postprocess_news.py
 
       - name: Apply story UI
+        if: steps.resolve.outputs.mode == 'full'
         env:
           TANGTHU_STORY_API_URL: ${{ vars.TANGTHU_STORY_API_URL }}
           TANGTHU_STORY_SOURCES_URL: ${{ vars.TANGTHU_STORY_SOURCES_URL }}
         run: python3 scripts/postprocess_story.py
 
       - name: Restore current story UI
+        if: steps.resolve.outputs.mode == 'full'
         run: python3 scripts/postprocess_story_current.py
 
       - name: Apply shelf number
+        if: steps.resolve.outputs.mode == 'full'
         run: python3 scripts/postprocess_shelf_number.py
 
       - name: Persist assigned shelf numbers
+        if: steps.resolve.outputs.mode == 'full'
         run: |
           if git diff --quiet -- config/branches.json; then
             echo "No new shelf numbers to persist."
@@ -157,6 +201,7 @@ jobs:
           exit 1
 
       - name: Add short OPDS entry point
+        if: steps.resolve.outputs.mode == 'full'
         run: |
           printf '%s\n' \
             '/opds /opds/index.xml 200' \
@@ -170,3 +215,21 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy docs --project-name=tangthu
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Save successful site-state
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          rm -rf /tmp/tangthu-site-state
+          mkdir -p /tmp/tangthu-site-state
+          cp -a docs/. /tmp/tangthu-site-state/
+          cd /tmp/tangthu-site-state
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "site-state: successful deployment $GITHUB_SHA"
+          git branch -M site-state
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin HEAD:refs/heads/site-state
