@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"html"
- 	"log"
+	"log"
 	"net/url"
 	"os"
 	"path/filepath"
@@ -69,17 +69,26 @@ func main() {
 		fatal(err.Error())
 	}
 
+	selected := selectedShelves(os.Getenv("TANGTHU_SHELVES"))
+	incremental := len(selected) > 0 && fileExists(filepath.Join(outDir, "catalog.json"))
+
 	ctx := context.Background()
 	var branches []Branch
 	for _, bc := range cfg.Branches {
 		if !bc.Enabled {
 			continue
 		}
+		if len(selected) > 0 && !selected[bc.ID] {
+			continue
+		}
 		folder, err := client.GetFolder(ctx, bc.RootFolderID)
-if err != nil {
-    log.Printf("WARNING: shelf %s (%s) unavailable: %v — skipping", bc.ID, bc.DisplayName, err)
-    continue
-}
+		if err != nil {
+			if len(selected) > 0 {
+				fatal(fmt.Sprintf("selected shelf %s (%s) unavailable: %v", bc.ID, bc.DisplayName, err))
+			}
+			log.Printf("WARNING: shelf %s (%s) unavailable: %v — skipping", bc.ID, bc.DisplayName, err)
+			continue
+		}
 		files, err := client.Scan(ctx, bc.RootFolderID)
 		if err != nil {
 			fatal(fmt.Sprintf("scan %s: %v", bc.ID, err))
@@ -98,26 +107,107 @@ if err != nil {
 		return branchLess(branches[i].Config.DisplayName, branches[j].Config.DisplayName)
 	})
 
-	if err := os.RemoveAll(outDir); err != nil {
-		fatal(err.Error())
-	}
-	if err := os.MkdirAll(filepath.Join(outDir, "opds"), 0755); err != nil {
-		fatal(err.Error())
-	}
-	if err := os.MkdirAll(filepath.Join(outDir, "covers"), 0755); err != nil {
-		fatal(err.Error())
-	}
-
-	if err := writeWeb(outDir, baseURL, branches); err != nil {
-		fatal(err.Error())
-	}
-	if err := writeCatalogJSON(outDir, branches); err != nil {
-		fatal(err.Error())
-	}
-	if err := writeOPDS(outDir, baseURL, branches); err != nil {
-		fatal(err.Error())
+	if incremental {
+		for _, br := range branches {
+			branchDir := filepath.Join(outDir, "opds", "branch", br.Config.ID)
+			if err := os.RemoveAll(branchDir); err != nil {
+				fatal(err.Error())
+			}
+			if err := os.MkdirAll(branchDir, 0755); err != nil {
+				fatal(err.Error())
+			}
+			if err := writeBranchOPDS(branchDir, baseURL, br); err != nil {
+				fatal(err.Error())
+			}
+		}
+		if err := mergeCatalogBranches(outDir, branches); err != nil {
+			fatal(err.Error())
+		}
+	} else {
+		if err := os.RemoveAll(outDir); err != nil {
+			fatal(err.Error())
+		}
+		if err := os.MkdirAll(filepath.Join(outDir, "opds"), 0755); err != nil {
+			fatal(err.Error())
+		}
+		if err := os.MkdirAll(filepath.Join(outDir, "covers"), 0755); err != nil {
+			fatal(err.Error())
+		}
+		if err := writeWeb(outDir, baseURL, branches); err != nil {
+			fatal(err.Error())
+		}
+		if err := writeCatalogJSON(outDir, branches); err != nil {
+			fatal(err.Error())
+		}
+		if err := writeOPDS(outDir, baseURL, branches); err != nil {
+			fatal(err.Error())
+		}
 	}
 	fmt.Printf("Generated %d branches at %s (%s)\n", len(branches), outDir, time.Now().Format(time.RFC3339))
+}
+
+func selectedShelves(raw string) map[string]bool {
+	out := map[string]bool{}
+	for _, id := range strings.Split(raw, ",") {
+		id = strings.TrimSpace(id)
+		if id != "" {
+			out[id] = true
+		}
+	}
+	return out
+}
+
+func fileExists(path string) bool {
+	info, err := os.Stat(path)
+	return err == nil && !info.IsDir()
+}
+
+func mergeCatalogBranches(out string, branches []Branch) error {
+	path := filepath.Join(out, "catalog.json")
+	var catalog map[string]interface{}
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return err
+	}
+	if err := json.Unmarshal(data, &catalog); err != nil {
+		return err
+	}
+	rows, _ := catalog["branches"].([]interface{})
+	byID := map[string]map[string]interface{}{}
+	for _, value := range rows {
+		if row, ok := value.(map[string]interface{}); ok {
+			if id, ok := row["id"].(string); ok {
+				byID[id] = row
+			}
+		}
+	}
+	for _, br := range branches {
+		files := make([]map[string]interface{}, 0, len(br.Files))
+		for _, f := range br.Files {
+			files = append(files, map[string]interface{}{
+				"id": f.ID, "parent_id": f.ParentID, "name": f.Name,
+				"mime": f.MIME, "size": f.Size, "modified": f.Modified,
+				"checksum": f.Checksum, "folder": f.IsFolder,
+			})
+		}
+		row := byID[br.Config.ID]
+		if row == nil {
+			row = map[string]interface{}{}
+			rows = append(rows, row)
+			byID[br.Config.ID] = row
+		}
+		row["id"] = br.Config.ID
+		row["name"] = br.Config.DisplayName
+		row["root_folder_id"] = br.Config.RootFolderID
+		row["drive_name"] = br.DriveFolderName
+		row["files"] = files
+	}
+	catalog["branches"] = rows
+	outData, err := json.MarshalIndent(catalog, "", "  ")
+	if err != nil {
+		return err
+	}
+	return os.WriteFile(path, append(outData, '\n'), 0644)
 }
 
 func getenv(k, d string) string {
@@ -432,10 +522,10 @@ func writeCatalogJSON(out string, branches []Branch) error {
 		Folder   bool   `json:"folder"`
 	}
 	type JBranch struct {
-		ID           string `json:"id"`
-		Name         string `json:"name"`
-		RootFolderID string `json:"root_folder_id"`
-		DriveName    string `json:"drive_name"`
+		ID           string  `json:"id"`
+		Name         string  `json:"name"`
+		RootFolderID string  `json:"root_folder_id"`
+		DriveName    string  `json:"drive_name"`
 		Files        []JFile `json:"files"`
 	}
 	var rows []JBranch
