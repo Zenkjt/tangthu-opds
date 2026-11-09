@@ -208,6 +208,19 @@ jobs:
             '/opds/ /opds/index.xml 200' \
             > docs/_redirects
 
+      - name: Set cache headers
+        run: |
+          cat > docs/_headers <<'EOF'
+          /
+            Cache-Control: no-store
+          /index.html
+            Cache-Control: no-store
+          /catalog.json
+            Cache-Control: no-store
+          /opds/*
+            Cache-Control: no-store
+          EOF
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4
         with:
