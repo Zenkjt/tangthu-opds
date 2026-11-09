@@ -156,10 +156,16 @@ def main() -> None:
         raise SystemExit("docs/opds does not exist")
 
     changed = 0
+    selected = {item.strip() for item in os.environ.get("TANGTHU_SHELVES", "").split(",") if item.strip()}
     paths = [
         p
         for p in sorted(OPDS_ROOT.rglob("*.xml"))
         if not is_generated_page(p)
+        and (not selected or (
+            len(p.relative_to(OPDS_ROOT).parts) >= 3
+            and p.relative_to(OPDS_ROOT).parts[0] == "branch"
+            and p.relative_to(OPDS_ROOT).parts[1] in selected
+        ))
     ]
 
     for path in paths:

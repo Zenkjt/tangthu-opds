@@ -55,7 +55,12 @@ def main() -> None:
 
     base_url = worker_base_url()
 
+    selected = {item.strip() for item in os.environ.get("TANGTHU_SHELVES", "").split(",") if item.strip()}
     files = sorted(OPDS_ROOT.rglob("*.xml"))
+    if selected:
+        files = [p for p in files if len(p.relative_to(OPDS_ROOT).parts) >= 3
+                 and p.relative_to(OPDS_ROOT).parts[0] == "branch"
+                 and p.relative_to(OPDS_ROOT).parts[1] in selected]
     changed = sum(rewrite_file(path, base_url) for path in files)
 
     print(
