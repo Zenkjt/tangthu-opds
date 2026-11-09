@@ -55,6 +55,13 @@
       "url": "https://znews.vn/sach-hay.html",
       "enabled": true,
       "order": 12
+    },
+    {
+      "id": "s-9bc4d0fa3068",
+      "name": "https://redsvn.net/category/nghe-thuat",
+      "url": "https://redsvn.net/category/nghe-thuat",
+      "enabled": true,
+      "order": 13
     }
   ]
 }
