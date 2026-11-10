@@ -50,7 +50,7 @@ text = text.replace(marker, replacement, 1)
 
 wording = {
     'Chọn chương ...': 'Đi đến',
-    "Đến vị trí TOC:": "Nhập số thứ tự trên mục lục (không phải số chương):",
+    "Đến vị trí TOC:": "Nhập vị trí TOC:",
     'Tác giả:': 'Tải lên bởi:',
     'Chương hiện tại:': 'Đang đọc:',
 }
@@ -217,6 +217,7 @@ crosspoint_script = r"""
 <script id="tangthu-story-crosspoint-script">
 (function(){
   var WORKER='https://tangthu-story-worker.mienluonngon.workers.dev';
+  var TTCONTROL_QR_BASE64='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AACZ3/QCTm2Zsn7DlsntW9a5xez1vHH02af4/NxvXKX3dvKNq2TPt2bf8+/t+XO+WgEAZKQVAEBGWgEAZKQVAEBGWgEAZKQVAEBGWgEAZKQVAEBGWgEAZKQVAEBGWgEAZKQVAEBGWgEAZH7TCzj15Rna525MmL9x5Wdn0W/ZS1+eWj+7Q264ceW33M1zX34zbNnzW/bSLF+tAAAy0goAICOtAAAy0goAICOtAAAy0goAICOtAAAy0goAICOtAAAy0goAICOtAAAy0goAICOtAAAyv+kF9Gangt9wY9L4e795476f/+b5Om9cpff2/OwZ3Tj6jZ18Yy8xZctTvGWds3y1AgDISCsAgIy0AgDISCsAgIy0AgDISCsAgIy0AgDISCsAgIy0AgDISCsAgIy0AgDISCsAgIy0AgDI/KYXMGl2bvyW+eHn6zy/njfOffboX75K5785+8TdMHs9Z82+wbY8R1vu5uz1fI+vVgAAGWkFAJCRVgAAGWkFAJCRVgAAGWkFAJCRVgAAGWkFAJCRVgAAGWkFAJCRVgAAGWkFAJCRVgAAmd/0AphxY3r57IT52d+cdWNq/Y2rdGOHnJu97zfu0Rbv7aUt98ibYYqvVgAAGWkFAJCRVgAAGWkFAJCRVgAAGWkFAJCRVgAAGWkFAJCRVgAAGWkFAJCRVgAAGWkFAJCRVgAAmd/0AphxYyL6DbNHn71K792j8zO6YctVOnfjes5epXNbns0tblzP89/c8q4756sVAEBGWgEAZKQVAEBGWgEAZKQVAEBGWgEAZKQVAEBGWgEAZKQVAEBGWgEAZKQVAEBGWgEAZKQVAEDmN72ASVtmaN8we+7vzTmf9eXreX5GN67SjaOfmz36jd889959f+/ZPPfeuftqBQCQkVYAABlpBQCQkVYAABlpBQCQkVYAABlpBQCQkVYAABlpBQCQkVYAABlpBQCQkVYAABlpBQCQ+U0voDc7j/09s3Pjz315vv17c+NvuHE3bxz93I11zu7k86PPvue/fPQtb+9ZvloBAGSkFQBARloBAGSkFQBARloBAGSkFQBARloBAGSkFQBARloBAGSkFQBARloBAGSkFQBARloBAGT+tsyRBgD47/PVCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAg8z8fhKisfaf+KwAAAABJRU5ErkJggg==';
   var manifests=[
     ['TTnextChap/manifest.json',{
       name:'TTnextChap',version:'1.0.0',
@@ -245,7 +246,7 @@ crosspoint_script = r"""
     return (c^0xffffffff)>>>0;
   }
   function zipEntry(name,text,offset){
-    var n=enc(name),d=enc(text),c=crc32(d);
+    var n=enc(name),d=(typeof text==='string'?enc(text):text),c=crc32(d);
     var local=cat(new Uint8Array([80,75,3,4]),u16(20),u16(0),u16(0),u16(0),u16(0),u32(c),u32(d.length),u32(d.length),u16(n.length),u16(0),n,d);
     var central=cat(new Uint8Array([80,75,1,2]),u16(20),u16(20),u16(0),u16(0),u16(0),u16(0),u32(c),u32(d.length),u32(d.length),u16(n.length),u16(0),u16(0),u16(0),u16(0),u32(0),u32(offset),n);
     return {local:local,central:central};
@@ -277,15 +278,21 @@ crosspoint_script = r"""
     files.push(['TTnextChap/device.json',JSON.stringify(device('Tàng Thư Story NEXT','Yêu cầu Tàng Thư xử lý chương tiếp theo.','/story/crosspoint-next',shelf),null,2)+'\n']);
     files.push(['TTprevChap/device.json',JSON.stringify(device('Tàng Thư Story PREV','Yêu cầu Tàng Thư xử lý chương trước.','/story/crosspoint-previous',shelf),null,2)+'\n']);
     var guide=[
-      'Gói zip này có 2 thư mục: TTnextChap và TTprevChap được thiết kế theo chuẩn plugin của crosspoint.',
+      'Gói zip này có 2 thư mục: TTnextChap và TTprevChap được thiết kế theo chuẩn plugin của CrossPoint.',
       '- Bạn chép cả 2 thư mục vào .crosspoint/plugins/ trên thẻ nhớ máy đọc sách.',
-      '- Để điều khiển trên máy đọc sách, bạn chạy plugin tương ứng, Tàng thư sẽ tải chương tiếp theo / chương trước về thay thế vào 0neStory.epub trên tủ sách của bạn.',
-      '- Chuỗi sử dụng hợp lí trên máy đọc sách: vào OPDS tải 0neStory.epub --> vào plugins chạy TTnextChap --> đọc sách. Khi hết chương sẽ luôn có chương tiếp theo để tải về đọc.',
+      '- Để điều khiển trên máy đọc sách, bạn chạy plugin tương ứng. Tàng thư sẽ tải chương tiếp theo / chương trước về thay thế vào 0neStory.epub trên tủ sách của bạn.',
+      '- Chuỗi sử dụng hợp lí trên máy đọc sách: đầu tiên bạn vào OPDS tải 0neStory.epub --> tiếp theo vào plugins chạy TTnextChap --> rồi đọc sách. Khi hết chương sẽ luôn có chương tiếp theo để tải về đọc.',
+      '',
+      'QR code là Shortcut TTcontrol dùng cho iPhone. Bạn scan nó để lấy về máy, đặt lên màn hình chính để có thể điều khiển trực tiếp Tàng thư/Story.',
+      'File QR đi kèm: TTcontrol_iCloud_QR.png',
+      '',
       '*Lưu ý: có thể plugin lỗi, bạn vào https://tangthu.pages.dev để kiểm tra và điều khiển trực tiếp nhé.',
       'Happy reading...',
       'Zenkjt'
     ].join('\n');
     files.push(['Huong dan su dung.txt',guide+'\n']);
+    var qrBytes=Uint8Array.from(atob(TTCONTROL_QR_BASE64),function(c){return c.charCodeAt(0)});
+    files.push(['TTcontrol_iCloud_QR.png',qrBytes]);
     var blob=new Blob([makeZip(files)],{type:'application/zip'});
     var a=document.createElement('a');
     a.href=URL.createObjectURL(blob);
@@ -362,7 +369,7 @@ crosspoint_script = r"""
     var btn=document.createElement('button');
     btn.id='storyCrosspointBtn';
     btn.type='button';
-    btn.textContent='Crosspoint plugin';
+    btn.textContent='Tools điều khiển';
     btn.disabled=false;
     btn.addEventListener('click',showMaker);
     nav.appendChild(btn);
