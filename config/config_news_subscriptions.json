@@ -8,7 +8,7 @@
       "edition_mode": "text",
       "enabled": true,
       "created_at": "2026-10-20T00:56:50.855Z",
-      "updated_at": "2026-10-28T14:34:01.513Z"
+      "updated_at": "2026-11-10T03:16:21.843Z"
     },
     {
       "id": "sub-4e659babb76b",
@@ -18,7 +18,7 @@
       "edition_mode": "text",
       "enabled": true,
       "created_at": "2026-10-20T15:00:52.174Z",
-      "updated_at": "2026-10-28T14:34:01.513Z"
+      "updated_at": "2026-11-10T03:16:21.843Z"
     },
     {
       "id": "sub-626879e147be",
@@ -38,7 +38,7 @@
       "edition_mode": "text",
       "enabled": true,
       "created_at": "2026-10-20T15:35:53.150Z",
-      "updated_at": "2026-10-28T14:34:01.513Z"
+      "updated_at": "2026-11-10T03:16:21.843Z"
     },
     {
       "id": "sub-c18d01ead654",
@@ -48,7 +48,7 @@
       "edition_mode": "text",
       "enabled": true,
       "created_at": "2026-10-21T02:42:16.573Z",
-      "updated_at": "2026-10-28T14:34:01.513Z"
+      "updated_at": "2026-11-10T03:16:21.843Z"
     },
     {
       "id": "sub-434110081e7f",
@@ -58,7 +58,7 @@
       "edition_mode": "text",
       "enabled": true,
       "created_at": "2026-10-21T06:28:20.799Z",
-      "updated_at": "2026-10-28T14:34:01.513Z"
+      "updated_at": "2026-11-10T03:16:21.843Z"
     },
     {
       "id": "sub-13a80a91bfc9",
@@ -78,7 +78,7 @@
       "edition_mode": "text",
       "enabled": true,
       "created_at": "2026-10-22T14:34:38.383Z",
-      "updated_at": "2026-10-28T14:34:01.513Z"
+      "updated_at": "2026-11-10T03:16:21.843Z"
     },
     {
       "id": "sub-5709da34b817",
@@ -89,6 +89,26 @@
       "enabled": true,
       "created_at": "2026-11-07T14:52:10.562Z",
       "updated_at": "2026-11-07T14:52:19.371Z"
+    },
+    {
+      "id": "sub-b830de334633",
+      "branch_id": "g-f5a27f2a7738",
+      "source_id": "s-9bc4d0fa3068",
+      "article_count": 10,
+      "edition_mode": "text",
+      "enabled": true,
+      "created_at": "2026-11-10T03:16:21.843Z",
+      "updated_at": "2026-11-10T03:16:21.843Z"
+    },
+    {
+      "id": "sub-c085018609e7",
+      "branch_id": "g-f5a27f2a7738",
+      "source_id": "s-b8e07db8d0c2",
+      "article_count": 10,
+      "edition_mode": "text",
+      "enabled": true,
+      "created_at": "2026-11-10T03:16:21.843Z",
+      "updated_at": "2026-11-10T03:16:21.843Z"
     }
   ]
 }
