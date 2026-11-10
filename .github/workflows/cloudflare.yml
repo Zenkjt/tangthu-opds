@@ -181,6 +181,8 @@ jobs:
           path = Path("docs/story.html")
           html = path.read_text(encoding="utf-8")
           marker = "</body>"
+          if "<base href=\"/\">" not in html and "<base href='/'>" not in html:
+              html = html.replace("<head>", "<head>\n<base href=\"/\">", 1)
           script = r'''<script id="tangthu-story-direct-entry">
           (function () {
             var attempts = 0;
