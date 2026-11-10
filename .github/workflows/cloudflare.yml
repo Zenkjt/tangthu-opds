@@ -60,24 +60,19 @@ jobs:
             echo "No lifecycle state change."
             exit 0
           fi
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add config/branches.json
           git commit -m "chore: update shelf lifecycle [skip ci]"
-
           for attempt in 1 2 3; do
             git fetch origin main
             if git rebase origin/main; then
-              if git push origin HEAD:main; then
-                exit 0
-              fi
+              if git push origin HEAD:main; then exit 0; fi
             else
               git rebase --abort || true
             fi
             sleep 3
           done
-
           echo "Unable to persist lifecycle state after 3 attempts."
           exit 1
 
@@ -174,39 +169,33 @@ jobs:
       - name: Create Story direct-entry page
         if: steps.resolve.outputs.mode == 'full'
         run: |
-          cp docs/index.html docs/story.html
+          mkdir -p docs/story
+          cp docs/index.html docs/story/index.html
           python3 - <<'PY'
           from pathlib import Path
-
-          path = Path("docs/story.html")
+          path = Path("docs/story/index.html")
           html = path.read_text(encoding="utf-8")
-          marker = "</body>"
-          if "<base href=\"/\">" not in html and "<base href='/'>" not in html:
-              html = html.replace("<head>", "<head>\n<base href=\"/\">", 1)
+          if '<base href="/">' not in html and "<base href='/'>" not in html:
+              html = html.replace("<head>", '<head>' + chr(10) + '<base href="/">', 1)
           script = r'''<script id="tangthu-story-direct-entry">
           (function () {
             var attempts = 0;
             function openStory() {
               var button = document.getElementById('storyBtn');
-              if (button) {
-                button.click();
-                return;
-              }
+              if (button) { button.click(); return; }
               attempts += 1;
               if (attempts < 80) setTimeout(openStory, 50);
             }
-            if (document.readyState === 'loading') {
+            if (document.readyState === 'loading')
               document.addEventListener('DOMContentLoaded', openStory, { once: true });
-            } else {
-              openStory();
-            }
+            else openStory();
           })();
           </script>
           '''
-          if marker not in html:
-              raise SystemExit("Cannot find </body> in generated index.html")
+          if "</body>" not in html:
+              raise SystemExit("Cannot find </body> in generated Story page.")
           if 'id="tangthu-story-direct-entry"' not in html:
-              html = html.replace(marker, script + "\n" + marker, 1)
+              html = html.replace("</body>", script + chr(10) + "</body>", 1)
           path.write_text(html, encoding="utf-8")
           PY
 
@@ -217,12 +206,10 @@ jobs:
             echo "No new shelf numbers to persist."
             exit 0
           fi
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add config/branches.json
           git commit -m "chore: assign permanent shelf numbers [skip ci]"
-
           for attempt in 1 2 3; do
             git fetch origin main
             if git rebase origin/main; then
@@ -235,17 +222,15 @@ jobs:
             fi
             sleep 3
           done
-
           echo "Unable to persist shelf numbers after 3 attempts."
           exit 1
 
-      - name: Add short OPDS and Story entry points
+      - name: Add short OPDS entry points
         if: steps.resolve.outputs.mode == 'full'
         run: |
           printf '%s\n' \
             '/opds /opds/index.xml 200' \
             '/opds/ /opds/index.xml 200' \
-            '/story /story.html 200' \
             > docs/_redirects
 
       - name: Deploy to Cloudflare Pages
