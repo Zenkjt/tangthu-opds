@@ -563,6 +563,8 @@ func displayType(mimeType, name string) string {
 		return "CBR"
 	case ".txt":
 		return "TXT"
+	case ".md":
+		return "MD"
 	case ".doc":
 		return "DOC"
 	case ".docx":
