@@ -210,8 +210,8 @@ func (c *Client) ListChildren(ctx context.Context, parentID string) ([]File, err
 	}
 }
 
-// Scan returns only folders plus supported ebook files. TÀNG THƯ is deliberately
-// ebook-only: EPUB, MOBI and AZW3, with a hard per-file limit of 25 MiB.
+// Scan returns folders plus supported book/archive files and fonts.
+// The existing hard per-file limit remains 25 MiB.
 func (c *Client) Scan(ctx context.Context, rootID string) ([]File, error) {
 	if _, err := c.GetFolder(ctx, rootID); err != nil {
 		return nil, err
@@ -249,7 +249,7 @@ func isSupportedBook(f File) bool {
 		return false
 	}
 	switch strings.ToLower(filepath.Ext(f.Name)) {
-	case ".epub", ".mobi", ".azw3", ".cpfont", ".ttf", ".otf":
+	case ".epub", ".mobi", ".azw3", ".cbz", ".lit", ".chm", ".prc", ".pdf", ".zip", ".cpfont", ".ttf", ".otf":
 		return true
 	default:
 		return false
