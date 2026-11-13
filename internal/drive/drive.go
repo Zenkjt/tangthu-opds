@@ -15,11 +15,10 @@ import (
 )
 
 const (
-	apiBase                 = "https://www.googleapis.com/drive/v3"
-	folderMIME              = "application/vnd.google-apps.folder"
-	maxBookSize       int64 = 25 * 1024 * 1024
-	maxAPIRetries           = 3
-	apiRetryBaseDelay       = 2 * time.Second
+	apiBase           = "https://www.googleapis.com/drive/v3"
+	folderMIME        = "application/vnd.google-apps.folder"
+	maxAPIRetries     = 3
+	apiRetryBaseDelay = 2 * time.Second
 )
 
 type File struct {
@@ -211,7 +210,7 @@ func (c *Client) ListChildren(ctx context.Context, parentID string) ([]File, err
 }
 
 // Scan returns folders plus supported book/archive files and fonts.
-// The existing hard per-file limit remains 25 MiB.
+// File size is not capped: scanning only reads Drive listing metadata, not file contents.
 func (c *Client) Scan(ctx context.Context, rootID string) ([]File, error) {
 	if _, err := c.GetFolder(ctx, rootID); err != nil {
 		return nil, err
@@ -245,11 +244,11 @@ func (c *Client) Scan(ctx context.Context, rootID string) ([]File, error) {
 }
 
 func isSupportedBook(f File) bool {
-	if f.Size < 0 || f.Size > maxBookSize {
+	if f.Size < 0 {
 		return false
 	}
 	switch strings.ToLower(filepath.Ext(f.Name)) {
-	case ".epub", ".mobi", ".azw3", ".cbz", ".lit", ".chm", ".prc", ".pdf", ".zip", ".cpfont", ".ttf", ".otf":
+	case ".epub", ".mobi", ".azw3", ".cbz", ".lit", ".chm", ".prc", ".pdf", ".zip", ".doc", ".docx", ".txt", ".md", ".cpfont", ".ttf", ".otf":
 		return true
 	default:
 		return false
@@ -257,7 +256,6 @@ func isSupportedBook(f File) bool {
 }
 
 func IsSupportedBook(f File) bool { return isSupportedBook(f) }
-func MaxBookSize() int64          { return maxBookSize }
 
 func (c *Client) Open(ctx context.Context, fileID, rangeHeader string) (*http.Response, error) {
 	params := url.Values{"alt": {"media"}}

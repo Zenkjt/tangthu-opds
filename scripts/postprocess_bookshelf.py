@@ -68,7 +68,7 @@ renderer = r'''  function renderShelfStats(){
     function extension(name){var p=String(name||'').lastIndexOf('.');return p<0?'':String(name).slice(p+1).toUpperCase();}
     function statsLines(shelf){
       var files=shelfFiles(shelf), bookCount=0, fontCount=0, counts={};
-      var bookFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP'];
+      var bookFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP','DOC','DOCX','TXT','MD'];
       files.forEach(function(f){
         var e=extension(f.name);
         if(e==='CPFONT'||e==='TTF'||e==='OTF'){

@@ -299,7 +299,7 @@ help_script = r"""
       p=document.createElement('div');p.id=PANEL_ID;p.className='shelf-help-panel';p.hidden=true;
       p.innerHTML=
         '<p>Đăng ký tủ sách để có thể dễ dàng tải sách từ thư mục của bạn về máy đọc sách qua hệ thống OPDS.</p>'+
-        '<p><strong>Chuẩn bị:</strong> thư mục Google chia sẻ của bạn cần được để chế độ public - any one with the link can view, chép sách, font vào đó, sách hỗ trợ EPUB, MOBI, AZW3, CBZ, LIT, CHM, PRC, PDF và ZIP (tối đa 25 MB mỗi file).</p>'+
+        '<p><strong>Chuẩn bị:</strong> thư mục Google chia sẻ của bạn cần được để chế độ public - any one with the link can view, chép sách, font vào đó, sách hỗ trợ EPUB, MOBI, AZW3, CBZ, LIT, CHM, PRC, PDF, ZIP, DOC, DOCX, TXT và MD; không giới hạn dung lượng file do Tàng Thư áp dụng.</p>'+
         '<p>Dán địa chỉ thư mục đó vào ô <strong>"Đường link"</strong>, đặt tên tủ sao cho dễ nhớ (trong ô <strong>"Tên tủ"</strong>).</p>'+
         '<p>Bấm <strong>kiểm tra link</strong>, rồi bấm <strong>tạo tủ</strong>.</p>'+
         '<p>Bạn có thể đổi tên/xóa tủ bằng cách dán lại địa chỉ thư mục Google vào ô <strong>"Đường link"</strong>.</p>'+

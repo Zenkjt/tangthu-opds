@@ -18,15 +18,19 @@ func TestIsFolder(t *testing.T) {
 }
 
 func TestIsSupportedBookRecognizesAdditionalFormats(t *testing.T) {
-	for _, name := range []string{"comic.cbz", "legacy.lit", "help.chm", "reader.prc", "document.pdf", "archive.zip"} {
+	for _, name := range []string{"comic.cbz", "legacy.lit", "help.chm", "reader.prc", "document.pdf", "archive.zip", "document.doc", "document.docx", "notes.txt", "readme.md"} {
 		if !IsSupportedBook(File{Name: name, Size: 1024}) {
 			t.Errorf("IsSupportedBook(%q) = false, want true", name)
 		}
 	}
 }
 
-func TestIsSupportedBookKeepsSizeLimit(t *testing.T) {
-	if IsSupportedBook(File{Name: "archive.zip", Size: maxBookSize + 1}) {
-		t.Fatal("oversized ZIP should remain excluded by the 25 MiB limit")
+func TestIsSupportedBookDoesNotApplyFileSizeLimit(t *testing.T) {
+	const largeFileSize = 2 * 1024 * 1024 * 1024
+	if !IsSupportedBook(File{Name: "large.epub", Size: largeFileSize}) {
+		t.Fatal("large supported book should be included; scan does not download file contents")
+	}
+	if IsSupportedBook(File{Name: "negative.epub", Size: -1}) {
+		t.Fatal("negative file size should remain invalid")
 	}
 }
