@@ -68,13 +68,14 @@ renderer = r'''  function renderShelfStats(){
     function extension(name){var p=String(name||'').lastIndexOf('.');return p<0?'':String(name).slice(p+1).toUpperCase();}
     function statsLines(shelf){
       var files=shelfFiles(shelf), bookCount=0, fontCount=0, counts={};
+      var bookFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP'];
       files.forEach(function(f){
         var e=extension(f.name);
         if(e==='CPFONT'||e==='TTF'||e==='OTF'){
           fontCount++;
           return;
         }
-        if(e==='EPUB'||e==='MOBI'||e==='AZW3'){
+        if(bookFormats.indexOf(e)>=0){
           bookCount++;
           counts[e]=(counts[e]||0)+1;
         }
@@ -84,6 +85,12 @@ renderer = r'''  function renderShelfStats(){
         'EPUB '+(counts.EPUB||0),
         'MOBI '+(counts.MOBI||0),
         'AZW3 '+(counts.AZW3||0),
+        'CBZ '+(counts.CBZ||0),
+        'LIT '+(counts.LIT||0),
+        'CHM '+(counts.CHM||0),
+        'PRC '+(counts.PRC||0),
+        'PDF '+(counts.PDF||0),
+        'ZIP '+(counts.ZIP||0),
         fontCount+' font'
       ];
     }
