@@ -80,19 +80,14 @@ renderer = r'''  function renderShelfStats(){
           counts[e]=(counts[e]||0)+1;
         }
       });
-      return [
-        bookCount+' sách',
-        'EPUB '+(counts.EPUB||0),
-        'MOBI '+(counts.MOBI||0),
-        'AZW3 '+(counts.AZW3||0),
-        'CBZ '+(counts.CBZ||0),
-        'LIT '+(counts.LIT||0),
-        'CHM '+(counts.CHM||0),
-        'PRC '+(counts.PRC||0),
-        'PDF '+(counts.PDF||0),
-        'ZIP '+(counts.ZIP||0),
-        fontCount+' font'
-      ];
+      var lines=[];
+      if(bookCount>0)lines.push(bookCount+' sách');
+      bookFormats.forEach(function(format){
+        var count=counts[format]||0;
+        if(count>0)lines.push(format+' '+count);
+      });
+      if(fontCount>0)lines.push(fontCount+' font');
+      return lines;
     }
     function stats(shelf){return statsLines(shelf).join(' · ');}
     function openShelf(shelf){
