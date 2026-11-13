@@ -69,23 +69,14 @@ func main() {
 		fatal(err.Error())
 	}
 
-	selected := selectedShelves(os.Getenv("TANGTHU_SHELVES"))
-	incremental := len(selected) > 0 && fileExists(filepath.Join(outDir, "catalog.json"))
-
 	ctx := context.Background()
 	var branches []Branch
 	for _, bc := range cfg.Branches {
 		if !bc.Enabled {
 			continue
 		}
-		if len(selected) > 0 && !selected[bc.ID] {
-			continue
-		}
 		folder, err := client.GetFolder(ctx, bc.RootFolderID)
 		if err != nil {
-			if len(selected) > 0 {
-				fatal(fmt.Sprintf("selected shelf %s (%s) unavailable: %v", bc.ID, bc.DisplayName, err))
-			}
 			log.Printf("WARNING: shelf %s (%s) unavailable: %v — skipping", bc.ID, bc.DisplayName, err)
 			continue
 		}
@@ -107,107 +98,26 @@ func main() {
 		return branchLess(branches[i].Config.DisplayName, branches[j].Config.DisplayName)
 	})
 
-	if incremental {
-		for _, br := range branches {
-			branchDir := filepath.Join(outDir, "opds", "branch", br.Config.ID)
-			if err := os.RemoveAll(branchDir); err != nil {
-				fatal(err.Error())
-			}
-			if err := os.MkdirAll(branchDir, 0755); err != nil {
-				fatal(err.Error())
-			}
-			if err := writeBranchOPDS(branchDir, baseURL, br); err != nil {
-				fatal(err.Error())
-			}
-		}
-		if err := mergeCatalogBranches(outDir, branches); err != nil {
-			fatal(err.Error())
-		}
-	} else {
-		if err := os.RemoveAll(outDir); err != nil {
-			fatal(err.Error())
-		}
-		if err := os.MkdirAll(filepath.Join(outDir, "opds"), 0755); err != nil {
-			fatal(err.Error())
-		}
-		if err := os.MkdirAll(filepath.Join(outDir, "covers"), 0755); err != nil {
-			fatal(err.Error())
-		}
-		if err := writeWeb(outDir, baseURL, branches); err != nil {
-			fatal(err.Error())
-		}
-		if err := writeCatalogJSON(outDir, branches); err != nil {
-			fatal(err.Error())
-		}
-		if err := writeOPDS(outDir, baseURL, branches); err != nil {
-			fatal(err.Error())
-		}
+	if err := os.RemoveAll(outDir); err != nil {
+		fatal(err.Error())
+	}
+	if err := os.MkdirAll(filepath.Join(outDir, "opds"), 0755); err != nil {
+		fatal(err.Error())
+	}
+	if err := os.MkdirAll(filepath.Join(outDir, "covers"), 0755); err != nil {
+		fatal(err.Error())
+	}
+
+	if err := writeWeb(outDir, baseURL, branches); err != nil {
+		fatal(err.Error())
+	}
+	if err := writeCatalogJSON(outDir, branches); err != nil {
+		fatal(err.Error())
+	}
+	if err := writeOPDS(outDir, baseURL, branches); err != nil {
+		fatal(err.Error())
 	}
 	fmt.Printf("Generated %d branches at %s (%s)\n", len(branches), outDir, time.Now().Format(time.RFC3339))
-}
-
-func selectedShelves(raw string) map[string]bool {
-	out := map[string]bool{}
-	for _, id := range strings.Split(raw, ",") {
-		id = strings.TrimSpace(id)
-		if id != "" {
-			out[id] = true
-		}
-	}
-	return out
-}
-
-func fileExists(path string) bool {
-	info, err := os.Stat(path)
-	return err == nil && !info.IsDir()
-}
-
-func mergeCatalogBranches(out string, branches []Branch) error {
-	path := filepath.Join(out, "catalog.json")
-	var catalog map[string]interface{}
-	data, err := os.ReadFile(path)
-	if err != nil {
-		return err
-	}
-	if err := json.Unmarshal(data, &catalog); err != nil {
-		return err
-	}
-	rows, _ := catalog["branches"].([]interface{})
-	byID := map[string]map[string]interface{}{}
-	for _, value := range rows {
-		if row, ok := value.(map[string]interface{}); ok {
-			if id, ok := row["id"].(string); ok {
-				byID[id] = row
-			}
-		}
-	}
-	for _, br := range branches {
-		files := make([]map[string]interface{}, 0, len(br.Files))
-		for _, f := range br.Files {
-			files = append(files, map[string]interface{}{
-				"id": f.ID, "parent_id": f.ParentID, "name": f.Name,
-				"mime": f.MIME, "size": f.Size, "modified": f.Modified,
-				"checksum": f.Checksum, "folder": f.IsFolder,
-			})
-		}
-		row := byID[br.Config.ID]
-		if row == nil {
-			row = map[string]interface{}{}
-			rows = append(rows, row)
-			byID[br.Config.ID] = row
-		}
-		row["id"] = br.Config.ID
-		row["name"] = br.Config.DisplayName
-		row["root_folder_id"] = br.Config.RootFolderID
-		row["drive_name"] = br.DriveFolderName
-		row["files"] = files
-	}
-	catalog["branches"] = rows
-	outData, err := json.MarshalIndent(catalog, "", "  ")
-	if err != nil {
-		return err
-	}
-	return os.WriteFile(path, append(outData, '\n'), 0644)
 }
 
 func getenv(k, d string) string {
@@ -312,7 +222,7 @@ button:disabled{cursor:default;color:#777}
 .author-cell{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.meta-line{color:#444;margin-top:2px;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .searchbar{display:flex;gap:5px;align-items:center;padding:7px;border-top:1px solid #808080;background:#c0c0c0}.searchbar label{font-weight:bold;white-space:nowrap}.searchbar input{min-width:0;flex:1;height:34px;padding:5px 8px;background:#fff;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff}.searchbar button,.searchbar select{height:34px;min-width:80px;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.searchbar select{max-width:190px}
 .status{display:flex;justify-content:space-between;gap:8px;padding:5px 9px;border-top:2px solid #808080;background:#c0c0c0}.status span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.22);display:none;align-items:center;justify-content:center;padding:12px;z-index:20}.modal-backdrop.open{display:flex}.modal{width:min(760px,100%);max-height:90vh;overflow:auto;background:#c0c0c0;border:2px solid #fff;border-right-color:#404040;border-bottom-color:#404040;box-shadow:3px 3px 0 #000}.modal-title{display:flex;align-items:center;justify-content:space-between;background:#dfdfdf;color:#000;border-bottom:2px solid #808080;padding:5px 8px;font-weight:bold}.close{min-width:28px;height:24px;padding:0;background:#c0c0c0;color:#000;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.modal-body{padding:14px}.modal-body p{line-height:1.5}.modal-body fieldset{border:2px groove #ddd;margin:0 0 12px;padding:12px}.modal-body legend{font-weight:bold}.modal-body label{display:block;font-weight:bold;margin-bottom:5px}.modal-body input[type=text],.modal-body input[type=url]{width:100%;height:34px;padding:5px 7px;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff;background:#fff;color:#111}.modal-actions{display:flex;justify-content:flex-end;gap:6px;margin-top:12px}.modal-actions button{min-width:120px;height:34px;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.note{background:#ffffcc;color:#111;border:1px solid #888;padding:9px;line-height:1.45}.muted{color:#222}.detail-wrap{display:grid;grid-template-columns:150px 1fr;gap:16px;align-items:start}.detail-cover{width:140px;max-height:200px;object-fit:contain;display:block;background:#eee;border:1px solid #777}.detail-cover-fallback{width:140px;height:190px;display:grid;place-items:center;background:#ddd;border:1px solid #777;font-weight:bold;text-align:center}.detail{display:grid;grid-template-columns:95px 1fr;gap:7px 12px}.detail dt{font-weight:bold}.detail dd{margin:0;word-break:break-word}.detail-title{font-size:18px;font-weight:bold;margin-bottom:10px}.detail-authors{margin-bottom:12px;color:#333}.detail-description{margin-top:14px;white-space:pre-wrap;line-height:1.45}
+.modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.22);display:none;align-items:center;justify-content:center;padding:12px;z-index:20}.modal-backdrop.open{display:flex}.modal{width:min(760px,100%);max-height:90vh;overflow:auto;background:#c0c0c0;border:2px solid #fff;border-right-color:#404040;border-bottom-color:#404040;box-shadow:3px 3px 0 #000}.modal-title{display:flex;align-items:center;justify-content:space-between;background:#dfdfdf;color:#000;border-bottom:2px solid #808080;padding:5px 8px;font-weight:bold}.close{min-width:28px;height:24px;padding:0;background:#c0c0c0;color:#000;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.modal-body{padding:14px}.modal-body p{line-height:1.5}.modal-body fieldset{border:2px groove #ddd;margin:0 0 12px;padding:12px}.modal-body legend{font-weight:bold}.modal-body label{display:block;font-weight:bold;margin-bottom:5px}.modal-body input[type=text],.modal-body input[type=url]{width:100%;height:34px;padding:5px 7px;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff;background:#fff;color:#111}.modal-actions{display:flex;justify-content:flex-end;gap:6px;margin-top:12px}.modal-actions button{min-width:120px;height:34px;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.download-file{display:inline-flex;align-items:center;justify-content:center;min-width:120px;height:34px;padding:0 12px;background:#c0c0c0;color:#000;text-decoration:none;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.note{background:#ffffcc;color:#111;border:1px solid #888;padding:9px;line-height:1.45}.muted{color:#222}.detail-wrap{display:grid;grid-template-columns:150px 1fr;gap:16px;align-items:start}.detail-cover{width:140px;max-height:200px;object-fit:contain;display:block;background:#eee;border:1px solid #777}.detail-cover-fallback{width:140px;height:190px;display:grid;place-items:center;background:#ddd;border:1px solid #777;font-weight:bold;text-align:center}.detail{display:grid;grid-template-columns:95px 1fr;gap:7px 12px}.detail dt{font-weight:bold}.detail dd{margin:0;word-break:break-word}.detail-title{font-size:18px;font-weight:bold;margin-bottom:10px}.detail-authors{margin-bottom:12px;color:#333}.detail-description{margin-top:14px;white-space:pre-wrap;line-height:1.45}
 .empty{padding:30px;text-align:center;color:#555}.folder-row td{font-weight:bold}.folder-row:hover{background:#eee}
 .lookup-state{margin-top:8px;padding:7px 9px;background:#dfdfdf;border:1px solid #888;color:#111}
 @media(max-width:850px){body{padding:3px}.titlebar{height:31px;font-size:15px}.toolbar{display:grid;grid-template-columns:repeat(4,minmax(70px,1fr));overflow:visible}.tool{min-width:0;width:auto;height:58px}.tool .ico{font-size:22px;line-height:22px}.brand{grid-column:1/-1;margin:0;height:52px;min-width:0}.brand strong{font-size:17px}.brand em{font-size:13px}.main{grid-template-columns:1fr;gap:5px}.panel:first-child{max-height:230px}.panel:nth-child(2){min-height:430px}.books th:nth-child(3),.books td:nth-child(3),.books th:nth-child(5),.books td:nth-child(5){display:none}.books th:nth-child(1),.books td:nth-child(1){width:74px}.books th:nth-child(2),.books td:nth-child(2){width:auto}.books th:nth-child(4),.books td:nth-child(4){width:68px}.searchbar{flex-wrap:wrap}.searchbar label{width:100%}.searchbar input{width:100%;flex-basis:calc(100% - 86px)}.searchbar select{max-width:none;flex:1}.status{font-size:12px}.detail-wrap{grid-template-columns:1fr}.detail-cover,.detail-cover-fallback{width:120px;height:auto;max-height:180px;margin-bottom:10px}}
@@ -461,11 +371,12 @@ button:disabled{cursor:default;color:#777}
     if(m.series)info+='<dt>Bộ sách</dt><dd>'+esc(m.series)+'</dd>';
     info+='<dt>Định dạng</dt><dd>'+esc(ext(f.name))+'</dd><dt>Dung lượng</dt><dd>'+esc(size(f.size))+'</dd><dt>Cập nhật</dt><dd>'+esc(displayDate(f.modified))+'</dd><dt>MIME</dt><dd>'+esc(f.mime||'')+'</dd><dt>Checksum</dt><dd>'+esc(f.checksum||'—')+'</dd></dl>';
     if(m.description)info+='<div class="detail-description">'+esc(m.description)+'</div>';
+    if(ext(f.name)==='ZIP')info+='<div class="modal-actions"><a class="download-file" href="https://drive.usercontent.google.com/download?id='+encodeURIComponent(f.id)+'&export=download&confirm=t" target="_blank" rel="noopener">Tải file ZIP</a></div>';
     modal('THÔNG TIN SÁCH','<div class="detail-wrap"><div>'+coverHtml+fallback+'</div><div><div class="detail-title">'+esc(m.title||f.name)+'</div>'+(a?'<div class="detail-authors">'+esc(a)+'</div>':'')+info+'</div></div>');
   }
 
   function showInfo(){
-    modal('GIỚI THIỆU TÀNG THƯ','<p><strong>Tàng Thư mến chào bạn!</strong></p><p>Tàng Thư là thư viện sách theo chuẩn <strong>OPDS</strong>, phân tán, ẩn danh và luôn ở bên bạn.</p><p>Bạn có muốn kho sách của mình luôn sẵn sàng để tải về trên máy đọc sách? Hãy tạo một <strong>tủ sách</strong> trên Tàng Thư nhé:</p><ol><li>Điền địa chỉ sau vào danh mục OPDS trên máy đọc sách của bạn: <strong><code>https://tangthu.pages.dev/opds</code></strong></li><li>Copy địa chỉ thư mục sách của bạn trên Google drive. Thư mục phải để chế độ chia sẻ. Hiện tại Tàng Thư ghi nhận các file epub, mobi, azw3 dưới 25 MB.</li><li>Quay lại đây, nhấn nút <strong>Tủ sách</strong>, dán địa chỉ thư mục vào ô “Đường link…”, đặt tên ngắn gọn cho tủ sách rồi chọn <strong>Tạo tủ</strong>.</li><li>Muốn sửa hoặc xoá tủ, bạn chỉ cần paste lại đường link thư mục như trên. Sau 24 giờ kể từ khi tạo tủ, bạn mới có thể đổi tên hoặc xoá tủ.</li></ol><p>Cùng với sách, bạn cũng có thể chép font (định dạng ttf, otf, cpfont) vào thư mục google chia sẻ - trên Tàng thư, bạn bấm vào tên font để xem trước và tải về.</p><p>Và tận hưởng thành quả thôi! ;)</p><p><strong>Happy reading...</strong></p><p><strong>Zenkjt</strong></p>');
+    modal('GIỚI THIỆU TÀNG THƯ','<p><strong>Tàng Thư mến chào bạn!</strong></p><p>Tàng Thư là thư viện sách theo chuẩn <strong>OPDS</strong>, phân tán, ẩn danh và luôn ở bên bạn.</p><p>Bạn có muốn kho sách của mình luôn sẵn sàng để tải về trên máy đọc sách? Hãy tạo một <strong>tủ sách</strong> trên Tàng Thư nhé:</p><ol><li>Điền địa chỉ sau vào danh mục OPDS trên máy đọc sách của bạn: <strong><code>https://tangthu.pages.dev/opds</code></strong></li><li>Copy địa chỉ thư mục sách của bạn trên Google drive. Thư mục phải để chế độ chia sẻ. Tàng Thư nhận EPUB, MOBI, AZW3, CBZ, LIT, CHM, PRC, PDF và ZIP (tối đa 25 MB mỗi file).</li><li>Quay lại đây, nhấn nút <strong>Tủ sách</strong>, dán địa chỉ thư mục vào ô “Đường link…”, đặt tên ngắn gọn cho tủ sách rồi chọn <strong>Tạo tủ</strong>.</li><li>Muốn sửa hoặc xoá tủ, bạn chỉ cần paste lại đường link thư mục như trên. Sau 24 giờ kể từ khi tạo tủ, bạn mới có thể đổi tên hoặc xoá tủ.</li></ol><p>Cùng với sách, bạn cũng có thể chép font (định dạng ttf, otf, cpfont) vào thư mục google chia sẻ - trên Tàng thư, bạn bấm vào tên font để xem trước và tải về.</p><p>Và tận hưởng thành quả thôi! ;)</p><p><strong>Happy reading...</strong></p><p><strong>Zenkjt</strong></p>');
   }
 
   function parseDriveId(s){
@@ -642,6 +553,12 @@ func displayType(mimeType, name string) string {
 		return "FB2"
 	case ".cbz":
 		return "CBZ"
+	case ".lit":
+		return "LIT"
+	case ".chm":
+		return "CHM"
+	case ".prc":
+		return "PRC"
 	case ".cbr":
 		return "CBR"
 	case ".txt":
