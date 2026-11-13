@@ -80,17 +80,5 @@ stats_fn = '  function renderShelfStats(){\n    var body=$(\'contentBody\');\n  
 if "  function renderContent(){" not in text:
     raise SystemExit("UI patch anchor missing: renderContent")
 text = text.replace("  function renderContent(){", stats_fn + "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}", 1)
-old_branch = 'li.onclick=function(){state.branch=b.id;state.parent=b.root_folder_id;state.selected=null;renderBranches();renderContent()};'
-new_branch = "li.onclick=function(){state.view='list';state.branch=b.id;state.parent=b.root_folder_id;state.selected=null;$('viewsBtn').querySelector('.lbl').textContent='Views';renderBranches();renderContent()};"
-if old_branch not in text:
-    raise SystemExit("UI patch anchor missing: branch click")
-text = text.replace(old_branch, new_branch, 1)
-old_views = "$('viewsBtn').onclick=function(){state.view=state.view==='list'?'compact':'list';$('viewsBtn').querySelector('.lbl').textContent=state.view==='list'?'Views':'List'};"
-new_views = "$('viewsBtn').onclick=function(){state.view=state.view==='shelves'?'list':'shelves';$('viewsBtn').querySelector('.lbl').textContent=state.view==='shelves'?'List':'Views';renderContent()};"
-if old_views not in text:
-    raise SystemExit("UI patch anchor missing: Views button")
-text = text.replace(old_views, new_views, 1)
-if "  function runSearch(){" in text:
-    text = text.replace("  function runSearch(){", "  function runSearch(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';", 1)
 path.write_text(text, encoding="utf-8")
 print("Patched docs/index.html with the 30px Windows-style folder SVG and existing book icon.")

@@ -49,7 +49,8 @@ end = text.find("  function renderContent(){", start)
 if end < 0:
     raise SystemExit("Bookshelf patch anchor missing: renderContent")
 
-renderer = r'''  function renderShelfStats(){
+renderer = r'''  var shelfResizeObserver=null;
+  function renderShelfStats(){
     var body=$('contentBody');
     body.innerHTML='';
     $('pathBar').textContent='Tất cả tủ sách';
@@ -57,6 +58,7 @@ renderer = r'''  function renderShelfStats(){
     $('itemCount').textContent=bs.length+' tủ';
     if(!bs.length){body.innerHTML='<div class="empty">Chưa có tủ sách.</div>';return}
 
+    if(shelfResizeObserver){shelfResizeObserver.disconnect();shelfResizeObserver=null;}
     var main=document.querySelector('.main');
     if(main)main.classList.add('shelf-only');
 
@@ -174,8 +176,8 @@ renderer = r'''  function renderShelfStats(){
     }
     resizeShelves();
     if(window.ResizeObserver){
-      var shelfObserver=new ResizeObserver(function(){resizeShelves();});
-      shelfObserver.observe(books);
+      shelfResizeObserver=new ResizeObserver(function(){resizeShelves();});
+      shelfResizeObserver.observe(books);
     }
   }
 
@@ -189,12 +191,24 @@ if old_state not in text:
 text = text.replace(old_state, new_state, 1)
 
 old_render = "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}"
-new_render = "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}var main=document.querySelector('.main');if(main)main.classList.remove('shelf-only');"
+new_render = "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}if(shelfResizeObserver){shelfResizeObserver.disconnect();shelfResizeObserver=null;}var main=document.querySelector('.main');if(main)main.classList.remove('shelf-only');"
 if old_render not in text:
     raise SystemExit("Bookshelf patch anchor missing: renderContent wrapper")
 text = text.replace(old_render, new_render, 1)
 
-old_views = "$('viewsBtn').onclick=function(){state.view=state.view==='shelves'?'list':'shelves';$('viewsBtn').querySelector('.lbl').textContent=state.view==='shelves'?'List':'Views';renderContent()};"
+old_branch = "main.onclick=function(){\n        state.branch=b.id;\n        state.parent=b.root_folder_id;\n        state.selected=null;\n        renderBranches();\n        renderContent();\n      };"
+new_branch = "main.onclick=function(){\n        state.view='list';\n        $('viewsBtn').querySelector('.lbl').textContent='Views';\n        state.branch=b.id;\n        state.parent=b.root_folder_id;\n        state.selected=null;\n        renderBranches();\n        renderContent();\n      };"
+if old_branch not in text:
+    raise SystemExit("Bookshelf patch anchor missing: sidebar branch click")
+text = text.replace(old_branch, new_branch, 1)
+
+old_search = "  function runSearch(){state.search=$('searchInput').value;state.selected=null;pushNavState();renderContent()}"
+new_search = "  function runSearch(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';state.search=$('searchInput').value;state.selected=null;pushNavState();renderContent()}"
+if old_search not in text:
+    raise SystemExit("Bookshelf patch anchor missing: runSearch")
+text = text.replace(old_search, new_search, 1)
+
+old_views = "$('viewsBtn').onclick=function(){state.view=state.view==='list'?'compact':'list';$('viewsBtn').querySelector('.lbl').textContent=state.view==='list'?'Views':'List'};"
 new_views = "$('viewsBtn').onclick=function(){state.view=state.view==='shelves'?'list':'shelves';$('viewsBtn').querySelector('.lbl').textContent=state.view==='shelves'?'List':'Views';var main=document.querySelector('.main');if(main)main.classList.toggle('shelf-only',state.view==='shelves');renderContent()};"
 if old_views not in text:
     raise SystemExit("Bookshelf patch anchor missing: Views button")
