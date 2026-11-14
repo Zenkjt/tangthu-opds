@@ -70,9 +70,16 @@ func main() {
 	}
 
 	ctx := context.Background()
+	selected := selectedShelves(os.Getenv("TANGTHU_SHELVES"))
+	incremental := len(selected) > 0 && fileExists(filepath.Join(outDir, "catalog.json"))
+	selectedSet := make(map[string]bool, len(selected))
+	for _, id := range selected {
+		selectedSet[id] = true
+	}
+
 	var branches []Branch
 	for _, bc := range cfg.Branches {
-		if !bc.Enabled {
+		if !bc.Enabled || (incremental && !selectedSet[bc.ID]) {
 			continue
 		}
 		folder, err := client.GetFolder(ctx, bc.RootFolderID)
@@ -98,6 +105,53 @@ func main() {
 		return branchLess(branches[i].Config.DisplayName, branches[j].Config.DisplayName)
 	})
 
+	if incremental {
+		if len(branches) != len(selected) {
+			fatal("incremental build aborted: one or more selected shelves are unavailable")
+		}
+
+		for _, br := range branches {
+			target := filepath.Join(outDir, "opds", "branch", br.Config.ID)
+			if err := os.MkdirAll(filepath.Dir(target), 0755); err != nil {
+				fatal(err.Error())
+			}
+
+			tmp := target + ".tmp"
+			backup := target + ".old"
+			if err := os.RemoveAll(tmp); err != nil {
+				fatal(err.Error())
+			}
+			if err := os.RemoveAll(backup); err != nil {
+				fatal(err.Error())
+			}
+			if err := os.MkdirAll(tmp, 0755); err != nil {
+				fatal(err.Error())
+			}
+			if err := writeBranchOPDS(tmp, baseURL, br); err != nil {
+				_ = os.RemoveAll(tmp)
+				fatal(err.Error())
+			}
+
+			if err := os.Rename(target, backup); err != nil && !os.IsNotExist(err) {
+				_ = os.RemoveAll(tmp)
+				fatal(err.Error())
+			}
+			if err := os.Rename(tmp, target); err != nil {
+				_ = os.Rename(backup, target)
+				fatal(err.Error())
+			}
+			if err := os.RemoveAll(backup); err != nil {
+				fatal(err.Error())
+			}
+		}
+
+		if err := mergeCatalogBranches(outDir, branches); err != nil {
+			fatal(err.Error())
+		}
+		fmt.Printf("Incrementally generated %d branches at %s (%s)\n", len(branches), outDir, time.Now().Format(time.RFC3339))
+		return
+	}
+
 	if err := os.RemoveAll(outDir); err != nil {
 		fatal(err.Error())
 	}
@@ -107,7 +161,6 @@ func main() {
 	if err := os.MkdirAll(filepath.Join(outDir, "covers"), 0755); err != nil {
 		fatal(err.Error())
 	}
-
 	if err := writeWeb(outDir, baseURL, branches); err != nil {
 		fatal(err.Error())
 	}
@@ -118,6 +171,98 @@ func main() {
 		fatal(err.Error())
 	}
 	fmt.Printf("Generated %d branches at %s (%s)\n", len(branches), outDir, time.Now().Format(time.RFC3339))
+}
+
+func selectedShelves(raw string) []string {
+	seen := make(map[string]bool)
+	var ids []string
+	for _, part := range strings.Split(raw, ",") {
+		id := strings.TrimSpace(part)
+		if id != "" && !seen[id] {
+			seen[id] = true
+			ids = append(ids, id)
+		}
+	}
+	return ids
+}
+
+func fileExists(path string) bool {
+	info, err := os.Stat(path)
+	return err == nil && !info.IsDir()
+}
+
+func mergeCatalogBranches(out string, replacements []Branch) error {
+	catalogPath := filepath.Join(out, "catalog.json")
+	data, err := os.ReadFile(catalogPath)
+	if err != nil {
+		return err
+	}
+
+	var catalog struct {
+		Branches []json.RawMessage `json:"branches"`
+	}
+	if err := json.Unmarshal(data, &catalog); err != nil {
+		return err
+	}
+
+	tmpDir, err := os.MkdirTemp("", "tangthu-catalog-")
+	if err != nil {
+		return err
+	}
+	defer os.RemoveAll(tmpDir)
+
+	if err := writeCatalogJSON(tmpDir, replacements); err != nil {
+		return err
+	}
+	replacementData, err := os.ReadFile(filepath.Join(tmpDir, "catalog.json"))
+	if err != nil {
+		return err
+	}
+	var replacementCatalog struct {
+		Branches []json.RawMessage `json:"branches"`
+	}
+	if err := json.Unmarshal(replacementData, &replacementCatalog); err != nil {
+		return err
+	}
+
+	byID := make(map[string]json.RawMessage, len(replacementCatalog.Branches))
+	for _, raw := range replacementCatalog.Branches {
+		var item struct {
+			ID string `json:"id"`
+		}
+		if err := json.Unmarshal(raw, &item); err != nil {
+			return err
+		}
+		byID[item.ID] = raw
+	}
+
+	merged := make([]json.RawMessage, 0, len(catalog.Branches))
+	for _, raw := range catalog.Branches {
+		var item struct {
+			ID string `json:"id"`
+		}
+		if err := json.Unmarshal(raw, &item); err != nil {
+			return err
+		}
+		if replacement, ok := byID[item.ID]; ok {
+			merged = append(merged, replacement)
+			delete(byID, item.ID)
+		} else {
+			merged = append(merged, raw)
+		}
+	}
+
+	if len(byID) != 0 {
+		return fmt.Errorf("incremental catalog merge found unknown shelf IDs")
+	}
+
+	output, err := json.MarshalIndent(struct {
+		Branches []json.RawMessage `json:"branches"`
+	}{merged}, "", "  ")
+	if err != nil {
+		return err
+	}
+	return os.WriteFile(catalogPath, output, 0644)
 }
 
 func getenv(k, d string) string {
