@@ -722,13 +722,14 @@ function doPost(e) {
 
     var action = String(body.action || '').trim().toLowerCase();
 
-
+    if (action === 'reload') return jsonResponse(reloadShelf(body));
 
     if (action === 'create' || action === 'rename' || action === 'delete') {
 
       return jsonResponse(mutate_(action, body));
 
     }
+    if (action === 'export_inventory') return jsonResponse(exportInventory_(body));
     if (action === 'upload_epub') {
       return jsonResponse(uploadEpub_(body));
     }
