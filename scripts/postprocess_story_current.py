@@ -15,6 +15,7 @@ marker = """        state.branch=b;
         renderInfo('Đã nhận tủ: '+(b.display_name||b.name||b.id)+'. Có thể nhập link truyện.'); update();
 """
 replacement = """        state.branch=b;
+        window.__tangthuStoryShelfNo=Number(b.shelf_no)||0;
         if(apiBase){
           renderInfo('Đã nhận tủ: '+(b.display_name||b.name||b.id)+'. Đang khôi phục truyện đang đọc...');
           fetch(apiBase.replace(/\\/+$/,'')+'/story/current-by-user?user_id='+encodeURIComponent(b.id)+'&folder_id='+encodeURIComponent(b.root_folder_id),{cache:'no-store'})
@@ -47,6 +48,8 @@ replacement = """        state.branch=b;
 if marker not in text:
     raise SystemExit("Story shelf handler anchor missing. Run after postprocess_story.py.")
 text = text.replace(marker, replacement, 1)
+
+text = text.replace("state.branch=null; state.registered=false; state.story=null;", "state.branch=null; window.__tangthuStoryShelfNo=0; state.registered=false; state.story=null;", 1)
 
 wording = {
     'Chọn chương ...': 'Đi đến',
@@ -130,6 +133,7 @@ css = """
 .tt-crosspoint-actions button{padding:11px 20px;font-size:16px;border:1px solid #888;border-radius:6px;background:#fff;cursor:pointer}
 .tt-crosspoint-actions button:hover,.tt-crosspoint-close:hover{background:#f3f3f3}
 #ttCrosspointCancel{margin-left:auto}
+.tt-crosspoint-option{display:flex!important;align-items:flex-start;gap:10px;margin:12px 0!important;font-weight:500!important;line-height:1.4}.tt-crosspoint-option input{width:20px!important;height:20px;flex:0 0 auto;margin:1px 0 0;padding:0}
 .tt-crosspoint-status{margin-top:12px;white-space:pre-line}
 .tt-crosspoint-status.err{color:#a00}
 @media(max-width:600px){
@@ -272,107 +276,60 @@ crosspoint_script = r"""
       }
     };
   }
-  function makePlugin(shelf){
+  function makePlugin(shelf,wantPlugin,wantIOS){
     var files=[];
-    manifests.forEach(function(pair){files.push([pair[0],JSON.stringify(pair[1],null,2)+'\n'])});
-    files.push(['TTnextChap/device.json',JSON.stringify(device('Tàng Thư Story NEXT','Yêu cầu Tàng Thư xử lý chương tiếp theo.','/story/crosspoint-next',shelf),null,2)+'\n']);
-    files.push(['TTprevChap/device.json',JSON.stringify(device('Tàng Thư Story PREV','Yêu cầu Tàng Thư xử lý chương trước.','/story/crosspoint-previous',shelf),null,2)+'\n']);
-    var guide=[
-      'Gói zip này có 2 thư mục: TTnextChap và TTprevChap được thiết kế theo chuẩn plugin của CrossPoint.',
-      '- Bạn chép cả 2 thư mục vào .crosspoint/plugins/ trên thẻ nhớ máy đọc sách.',
-      '- Để điều khiển trên máy đọc sách, bạn chạy plugin tương ứng. Tàng thư sẽ tải chương tiếp theo / chương trước về thay thế vào 0neStory.epub trên tủ sách của bạn.',
-      '- Chuỗi sử dụng hợp lí trên máy đọc sách: đầu tiên bạn vào OPDS tải 0neStory.epub --> tiếp theo vào plugins chạy TTnextChap --> rồi đọc sách. Khi hết chương sẽ luôn có chương tiếp theo để tải về đọc.',
-      '',
-      'QR code là Shortcut TTcontrol dùng cho iPhone. Bạn scan nó để lấy về máy, đặt lên màn hình chính để có thể điều khiển trực tiếp Tàng thư/Story.',
-      'File QR đi kèm: TTcontrol_iCloud_QR.png',
-      '',
-      '*Lưu ý: có thể plugin lỗi, bạn vào https://tangthu.pages.dev để kiểm tra và điều khiển trực tiếp nhé.',
-      'Happy reading...',
-      'Zenkjt'
-    ].join('\n');
-    files.push(['Huong dan su dung.txt',guide+'\n']);
-    var qrBytes=Uint8Array.from(atob(TTCONTROL_QR_BASE64),function(c){return c.charCodeAt(0)});
-    files.push(['TTcontrol_iCloud_QR.png',qrBytes]);
+    if(wantPlugin){
+      manifests.forEach(function(pair){files.push([pair[0],JSON.stringify(pair[1],null,2)+'\n'])});
+      files.push(['TTnextChap/device.json',JSON.stringify(device('Tàng Thư Story NEXT','Yêu cầu Tàng Thư xử lý chương tiếp theo.','/story/crosspoint-next',shelf),null,2)+'\n']);
+      files.push(['TTprevChap/device.json',JSON.stringify(device('Tàng Thư Story PREV','Yêu cầu Tàng Thư xử lý chương trước.','/story/crosspoint-previous',shelf),null,2)+'\n']);
+      var guide=['Gói plugin Tàng Thư cho CrossPoint gồm TTnextChap và TTprevChap.','- Chép cả hai thư mục vào .crosspoint/plugins/ trên thẻ nhớ máy đọc sách.','- Chạy plugin tương ứng để yêu cầu Tàng Thư tải chương tiếp theo hoặc chương trước vào 0neStory.epub.','- Tải 0neStory.epub qua OPDS trước khi sử dụng plugin.','Happy reading...','Zenkjt'].join('\n');
+      files.push(['CrossPoint/Huong dan su dung.txt',guide+'\n']);
+    }
+    if(wantIOS){
+      var qrBytes=Uint8Array.from(atob(TTCONTROL_QR_BASE64),function(c){return c.charCodeAt(0)});
+      files.push(['iPhone-iPad Shortcut/TTcontrol_iCloud_QR.png',qrBytes]);
+      var iosGuide=['Shortcut điều khiển Tàng Thư Story trên iPhone/iPad.','1. Mở Camera và quét mã QR trong thư mục này.','2. Mở liên kết Shortcut hiện ra và thêm vào ứng dụng Phím tắt (Shortcuts).','3. Có thể thêm shortcut ra Màn hình chính để gọi nhanh.'].join('\n');
+      files.push(['iPhone-iPad Shortcut/Huong dan su dung.txt',iosGuide+'\n']);
+    }
+    if(!files.length)throw new Error('Hãy chọn ít nhất một mục cần tải về.');
     var blob=new Blob([makeZip(files)],{type:'application/zip'});
-    var a=document.createElement('a');
-    a.href=URL.createObjectURL(blob);
-    a.download='Tàng thư controller plugin4crosspoint - shelf '+shelf+'.zip';
-    a.click();
-    setTimeout(function(){URL.revokeObjectURL(a.href)},1000);
+    var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='Tang-thu-Story-tools-shelf-'+shelf+'.zip';
+    document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href)},1000);
   }
   function showMaker(){
-    var old=document.getElementById('ttCrosspointBackdrop');
-    if(old)old.remove();
-    var back=document.createElement('div');
-    back.id='ttCrosspointBackdrop';
-    back.className='tt-crosspoint-backdrop';
-    back.innerHTML=
-      '<div class="tt-crosspoint-modal" role="dialog" aria-modal="true" aria-labelledby="ttCrosspointTitle">'+
-        '<div class="tt-crosspoint-modal-head">'+
-          '<h3 id="ttCrosspointTitle">Tạo CrossPoint plugin</h3>'+
-          '<button id="ttCrosspointClose" class="tt-crosspoint-close" type="button" aria-label="Đóng" title="Đóng">×</button>'+
-        '</div>'+
-        '<p>Nhập số tủ. Tool sẽ tạo một ZIP chứa đầy đủ hai plugin <code>TTnextChap</code> và <code>TTprevChap</code>, kèm hướng dẫn sử dụng.</p>'+
-        '<label for="ttCrosspointShelf">Số tủ</label>'+
-        '<input id="ttCrosspointShelf" type="number" min="1" step="1" placeholder="Ví dụ: 3" autofocus>'+
-        '<div class="tt-crosspoint-actions">'+
-          '<button id="ttCrosspointMake" type="button">OK — tạo plugin</button>'+
-          '<button id="ttCrosspointCancel" type="button">Cancel</button>'+
-        '</div>'+
-        '<div id="ttCrosspointStatus" class="tt-crosspoint-status"></div>'+
-      '</div>';
+    var shelf=Number(window.__tangthuStoryShelfNo)||0;
+    if(!shelf)return;
+    var old=document.getElementById('ttCrosspointBackdrop');if(old)old.remove();
+    var back=document.createElement('div');back.id='ttCrosspointBackdrop';back.className='tt-crosspoint-backdrop';
+    back.innerHTML='<div class="tt-crosspoint-modal" role="dialog" aria-modal="true" aria-labelledby="ttCrosspointTitle">'+
+      '<div class="tt-crosspoint-modal-head"><h3 id="ttCrosspointTitle">Tải công cụ điều khiển</h3><button id="ttCrosspointClose" class="tt-crosspoint-close" type="button" aria-label="Đóng">×</button></div>'+
+      '<p>Bạn có muốn tải về:</p>'+
+      '<label class="tt-crosspoint-option"><input id="ttCrosspointPlugin" type="checkbox"> <span>plugin chuyển chương trên CrossPoint</span></label>'+
+      '<label class="tt-crosspoint-option"><input id="ttCrosspointIOS" type="checkbox"> <span>shortcut điều khiển chuyển chương trên iPhone/iPad</span></label>'+
+      '<div class="tt-crosspoint-actions"><button id="ttCrosspointMake" type="button">Tải về</button><button id="ttCrosspointCancel" type="button">Hủy</button></div>'+
+      '<div id="ttCrosspointStatus" class="tt-crosspoint-status"></div></div>';
     document.body.appendChild(back);
-    var input=document.getElementById('ttCrosspointShelf');
-    var make=document.getElementById('ttCrosspointMake');
-    var cancel=document.getElementById('ttCrosspointCancel');
-    var closeBtn=document.getElementById('ttCrosspointClose');
-    var status=document.getElementById('ttCrosspointStatus');
-    function closeModal(){
-      document.removeEventListener('keydown',onModalKeydown);
-      back.remove();
-    }
-    function onModalKeydown(e){
-      if(e.key==='Escape'){e.preventDefault();closeModal();}
-    }
-    document.addEventListener('keydown',onModalKeydown);
-    closeBtn.onclick=closeModal;
-    cancel.onclick=closeModal;
-    function submit(){
-      var shelf=Number(input.value);
-      if(!Number.isInteger(shelf)||shelf<1){
-        status.className='tt-crosspoint-status err';
-        status.textContent='Số tủ phải là số nguyên >= 1.';
-        input.focus();
-        return;
-      }
-      make.disabled=true;
-      status.className='tt-crosspoint-status';
-      status.textContent='Đang tạo plugin...';
-      try{
-        makePlugin(shelf);
-        status.textContent='Đã tạo plugin cho tủ '+shelf+'.';
-        setTimeout(closeModal,350);
-      }catch(e){
-        make.disabled=false;
-        status.className='tt-crosspoint-status err';
-        status.textContent='Không thể tạo plugin: '+e.message;
-      }
-    }
-    make.onclick=submit;
-    input.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();submit()}});
-    back.addEventListener('click',function(e){if(e.target===back)closeModal()});
-    setTimeout(function(){input.focus()},0);
+    var make=document.getElementById('ttCrosspointMake'),cancel=document.getElementById('ttCrosspointCancel');
+    var close=document.getElementById('ttCrosspointClose'),status=document.getElementById('ttCrosspointStatus');
+    function done(){document.removeEventListener('keydown',key);back.remove();}
+    function key(e){if(e.key==='Escape'){e.preventDefault();done();}}
+    document.addEventListener('keydown',key);close.onclick=cancel.onclick=done;
+    make.onclick=function(){
+      var p=document.getElementById('ttCrosspointPlugin').checked,i=document.getElementById('ttCrosspointIOS').checked;
+      if(!p&&!i){status.className='tt-crosspoint-status err';status.textContent='Hãy chọn ít nhất một mục.';return;}
+      make.disabled=true;status.textContent='Đang đóng gói...';
+      try{makePlugin(shelf,p,i);done();}
+      catch(e){make.disabled=false;status.className='tt-crosspoint-status err';status.textContent='Không thể tạo gói tải về: '+e.message;}
+    };
+    back.addEventListener('click',function(e){if(e.target===back)done();});
   }
   function injectButton(){
-    var nav=document.querySelector('.story-nav');
-    if(!nav||document.getElementById('storyCrosspointBtn'))return;
-    var btn=document.createElement('button');
-    btn.id='storyCrosspointBtn';
-    btn.type='button';
-    btn.textContent='Tools điều khiển';
-    btn.disabled=false;
-    btn.addEventListener('click',showMaker);
-    nav.appendChild(btn);
+    var nav=document.querySelector('.story-nav');if(!nav)return;
+    var btn=document.getElementById('storyCrosspointBtn');
+    if(!btn){btn=document.createElement('button');btn.id='storyCrosspointBtn';btn.type='button';btn.textContent='Tools điều khiển';btn.addEventListener('click',showMaker);nav.appendChild(btn);}
+    var ready=(Number(window.__tangthuStoryShelfNo)||0)>0;
+    btn.disabled=!ready;
+    btn.title=ready?'Tải công cụ cho tủ sách đã chọn':'Nhập địa chỉ tủ nhận sách trước';
   }
   var observer=new MutationObserver(injectButton);
   function start(){
