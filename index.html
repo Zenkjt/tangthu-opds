@@ -1,0 +1,2003 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Bookshelves-OPDS">
+<title>Bookshelves-OPDS</title>
+<style>
+:root{--gray:#c0c0c0;--light:#dfdfdf;--white:#fff;--dark:#404040;--black:#000;--select:#e6e6e6;--text:#111;--yellow:#ffffcc}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#c0c0c0;color:var(--text);font-family:Tahoma,Arial,sans-serif;font-size:14px}
+body{min-height:100vh;padding:7px}
+button,input,select{font:inherit}
+button{cursor:pointer;color:#000;background:#c0c0c0}
+button:disabled{cursor:default;color:#777}
+.win{max-width:1500px;margin:0 auto;border:2px solid #fff;border-right-color:#404040;border-bottom-color:#404040;background:#c0c0c0;box-shadow:1px 1px 0 #000}
+.titlebar{height:34px;display:flex;align-items:center;gap:8px;padding:3px 7px;background:#dfdfdf;color:#000;border-bottom:2px solid #808080;font-weight:bold;font-size:17px}
+.titlebar .appicon{width:24px;height:24px;display:grid;place-items:center;background:#ffffcc;color:#000;border:1px solid #777;font-size:15px}
+.titlebar .caption{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.toolbar{display:flex;gap:4px;padding:5px;border-bottom:1px solid #808080;overflow-x:auto;background:#c0c0c0}
+.tool{flex:0 0 auto;min-width:90px;height:70px;padding:4px 7px;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px}
+.tool:active{border-color:#555 #fff #fff #555;padding:5px 6px 3px 8px}
+.tool .ico{font-size:26px;line-height:28px}.tool .lbl{font-size:13px}
+.brand{margin-left:auto;min-width:255px;height:70px;padding:6px 16px;border:2px solid #808080;border-right-color:#fff;border-bottom-color:#fff;background:#ffffcc;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.brand strong{font-size:21px}.brand em{font-family:Georgia,serif;font-size:15px;margin-top:3px}
+.main{display:grid;grid-template-columns:300px minmax(0,1fr);gap:7px;padding:5px}
+.panel{min-width:0;border:2px solid #808080;border-right-color:#fff;border-bottom-color:#fff;background:#fff;display:flex;flex-direction:column;overflow:hidden}
+.panel-title{height:35px;display:flex;align-items:center;padding:5px 9px;background:#dfdfdf;color:#000;border-bottom:1px solid #888;font-weight:bold;font-size:16px}
+.panel-title .count{margin-left:auto;font-weight:normal;font-size:13px}
+.panel-body{min-height:0;overflow:auto;background:#fff}
+.library-list{list-style:none;margin:0;padding:4px}
+.branch{padding:7px 8px;display:flex;align-items:center;gap:7px;border:1px dotted transparent;cursor:pointer}
+.branch:hover{background:#f3f3f3}
+.branch.active{background:var(--select);border:1px dotted #555}
+.folder-icon{width:25px;text-align:center;font-size:20px;flex:0 0 25px}.branch-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sidebar-foot{margin-top:auto;border-top:2px solid #808080;padding:7px;background:#c0c0c0}
+.content-path{padding:7px 10px;background:#ffffcc;border-bottom:1px solid #888;font-weight:bold;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.books{width:100%;border-collapse:collapse;table-layout:fixed}
+.books th{position:sticky;top:0;z-index:2;background:#dfdfdf;color:#000;border:1px solid #888;padding:5px;text-align:left;font-weight:bold}
+.books td{border-bottom:1px solid #ccc;padding:6px 7px;vertical-align:middle;overflow:hidden;text-overflow:ellipsis}
+.book-row{cursor:pointer}.book-row:hover{background:#f5f5f5}.book-row.selected{background:var(--select);outline:1px dotted #555;outline-offset:-2px}.icon-cell{text-align:center;padding-left:4px!important;padding-right:4px!important}
+.book-icon{width:30px;height:30px;display:inline-flex;align-items:center;justify-content:center}
+.book-icon img{width:26px;height:30px;display:block;object-fit:contain}
+.folder-icon{width:30px;height:30px;display:inline-flex;align-items:center;justify-content:center}.folder-icon img{width:26px;height:30px;display:block;object-fit:contain}
+.shelf-summary{background:#fff;border:1px solid #888}.shelf-summary-row{padding:10px 12px;border-bottom:1px solid #aaa;cursor:pointer;font-size:13px}.shelf-summary-row:last-child{border-bottom:0}.shelf-summary-row:hover{background:#f5f5f5}.shelf-summary-name{font-weight:bold}.shelf-summary-stats{margin-left:14px}@media(max-width:700px){.shelf-summary-stats{display:block;margin-left:0;margin-top:3px}}
+.name-cell strong{display:block;font-weight:bold;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.name-cell small{display:block;color:#444;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.author-cell{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.meta-line{color:#444;margin-top:2px;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.searchbar{display:flex;gap:5px;align-items:center;padding:7px;border-top:1px solid #808080;background:#c0c0c0}.searchbar label{font-weight:bold;white-space:nowrap}.searchbar input{min-width:0;flex:1;height:34px;padding:5px 8px;background:#fff;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff}.searchbar button,.searchbar select{height:34px;min-width:80px;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.searchbar select{max-width:190px}
+.status{display:flex;justify-content:space-between;gap:8px;padding:5px 9px;border-top:2px solid #808080;background:#c0c0c0}.status span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.22);display:none;align-items:center;justify-content:center;padding:12px;z-index:20}.modal-backdrop.open{display:flex}.modal{width:min(760px,100%);max-height:90vh;overflow:auto;background:#c0c0c0;border:2px solid #fff;border-right-color:#404040;border-bottom-color:#404040;box-shadow:3px 3px 0 #000}.modal-title{display:flex;align-items:center;justify-content:space-between;background:#dfdfdf;color:#000;border-bottom:2px solid #808080;padding:5px 8px;font-weight:bold}.close{min-width:28px;height:24px;padding:0;background:#c0c0c0;color:#000;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.modal-body{padding:14px}.cpfont-window{position:fixed;inset:0;z-index:99999;display:flex;align-items:center;justify-content:center;padding:8px;box-sizing:border-box;background:rgba(0,0,0,.35)}.cpfont-window-box{width:min(620px,calc(100vw - 16px));max-height:calc(100vh - 16px);display:flex;flex-direction:column;overflow:hidden;background:#c0c0c0;color:#000;font-family:Arial,sans-serif;border:2px solid #fff;border-right-color:#404040;border-bottom-color:#404040;box-sizing:border-box}.cpfont-window-head{flex:0 0 auto;min-height:36px;display:flex;align-items:center;justify-content:space-between;gap:7px;padding:3px 5px 3px 8px;background:#d8d8d8;border-bottom:1px solid #808080;font-size:14px;font-weight:700;box-sizing:border-box}.cpfont-head-actions{display:flex;align-items:center;gap:8px;white-space:nowrap}.cpfont-download{color:#000;text-decoration:underline;font-weight:700;font-size:13px;background:none;border:0;padding:0;cursor:pointer;font:700 13px Arial,sans-serif}.cpfont-download-menu{position:absolute;top:42px;right:42px;width:min(360px,calc(100vw - 30px));max-height:65vh;overflow:auto;z-index:3;background:#fff;color:#000;border:2px solid #555;box-shadow:2px 2px 0 #000;padding:6px;box-sizing:border-box}.cpfont-download-menu-title{font-weight:700;padding:4px 5px 7px;border-bottom:1px solid #aaa;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.cpfont-download-item{display:flex;align-items:center;gap:7px;padding:6px 4px;cursor:pointer;border-bottom:1px dotted #bbb;font-weight:400}.cpfont-download-item:hover{background:#eee}.cpfont-download-item input{margin:0;flex:0 0 auto}.cpfont-download-item span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.cpfont-download-empty{padding:10px 5px;color:#555}.cpfont-download-foot{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:7px 2px 2px;font-size:12px;font-weight:700}.cpfont-download-foot button{height:30px;min-width:100px;padding:2px 10px;background:#c0c0c0;color:#000;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;font-weight:700;cursor:pointer}.cpfont-download-foot button:active{border-color:#555;border-right-color:#fff;border-bottom-color:#fff}.cpfont-download-foot button:disabled{color:#777;cursor:default}.cpfont-close{width:29px;height:29px;padding:0;flex:0 0 29px;font-size:21px;line-height:24px;font-weight:700;background:#c0c0c0;color:#000;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;cursor:pointer}.cpfont-close:active{border-color:#555;border-right-color:#fff;border-bottom-color:#fff}.cpfont-render-area{min-height:0;flex:1 1 auto;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:3px;background:#c0c0c0;box-sizing:border-box}.cpfont-canvas{display:block;width:auto;height:auto;max-width:100%;max-height:calc(100vh - 105px);background:#fff;border:1px solid #555;box-sizing:border-box;image-rendering:pixelated}.cpfont-loading{position:absolute;padding:6px 9px;background:#ffffcc;border:1px solid #808080;font-size:13px;font-weight:700}.cpfont-controls{flex:0 0 auto;display:flex;gap:7px;padding:5px 6px 6px;background:#c0c0c0;border-top:1px solid #808080;box-sizing:border-box}.cpfont-device-btn{flex:1 1 0;min-width:0;height:42px;padding:2px 8px;background:#c0c0c0;color:#000;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;cursor:pointer;font:700 15px/16px Arial,sans-serif;text-align:center;box-sizing:border-box}.cpfont-device-btn small{display:block;font-size:11px;line-height:11px;font-weight:400}.cpfont-device-btn:active{border-color:#555;border-right-color:#fff;border-bottom-color:#fff}.cpfont-device-btn.cpfont-device-active{border-color:#555;border-right-color:#fff;border-bottom-color:#fff}@media(max-width:600px){.cpfont-window{padding:4px}.cpfont-window-box{width:calc(100vw - 8px);max-height:calc(100vh - 8px)}.cpfont-canvas{max-height:calc(100vh - 101px)}}.modal-body p{line-height:1.5}.modal-body fieldset{border:2px groove #ddd;margin:0 0 12px;padding:12px}.modal-body legend{font-weight:bold}.modal-body label{display:block;font-weight:bold;margin-bottom:5px}.modal-body input[type=text],.modal-body input[type=url]{width:100%;height:34px;padding:5px 7px;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff;background:#fff;color:#111}.modal-actions{display:flex;justify-content:flex-end;gap:6px;margin-top:12px}.modal-actions button{min-width:120px;height:34px;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.download-file{display:inline-flex;align-items:center;justify-content:center;min-width:120px;height:34px;padding:0 12px;background:#c0c0c0;color:#000;text-decoration:none;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555}.note{background:#ffffcc;color:#111;border:1px solid #888;padding:9px;line-height:1.45}.muted{color:#222}.detail-wrap{display:grid;grid-template-columns:150px 1fr;gap:16px;align-items:start}.detail-cover{width:140px;max-height:200px;object-fit:contain;display:block;background:#eee;border:1px solid #777}.detail-cover-fallback{width:140px;height:190px;display:grid;place-items:center;background:#ddd;border:1px solid #777;font-weight:bold;text-align:center}.detail{display:grid;grid-template-columns:95px 1fr;gap:7px 12px}.detail dt{font-weight:bold}.detail dd{margin:0;word-break:break-word}.detail-title{font-size:18px;font-weight:bold;margin-bottom:10px}.detail-authors{margin-bottom:12px;color:#333}.detail-description{margin-top:14px;white-space:pre-wrap;line-height:1.45}
+.empty{padding:30px;text-align:center;color:#555}.folder-row td{font-weight:bold}.folder-row:hover{background:#eee}
+.lookup-state{margin-top:8px;padding:7px 9px;background:#dfdfdf;border:1px solid #888;color:#111}
+@media(max-width:850px){body{padding:3px}.titlebar{height:31px;font-size:15px}.toolbar{display:grid;grid-template-columns:repeat(4,minmax(70px,1fr));overflow:visible}.tool{min-width:0;width:auto;height:58px}.tool .ico{font-size:22px;line-height:22px}.brand{grid-column:1/-1;margin:0;height:52px;min-width:0}.brand strong{font-size:17px}.brand em{font-size:13px}.main{grid-template-columns:1fr;gap:5px}.panel:first-child{max-height:230px}.panel:nth-child(2){min-height:430px}.books th:nth-child(3),.books td:nth-child(3),.books th:nth-child(5),.books td:nth-child(5){display:none}.books th:nth-child(1),.books td:nth-child(1){width:44px}.books th:nth-child(2),.books td:nth-child(2){width:auto}.books th:nth-child(4),.books td:nth-child(4){width:68px}.searchbar{flex-wrap:wrap}.searchbar label{width:100%}.searchbar input{width:100%;flex-basis:calc(100% - 86px)}.searchbar select{max-width:none;flex:1}.status{font-size:12px}.detail-wrap{grid-template-columns:1fr}.detail-cover,.detail-cover-fallback{width:120px;height:auto;max-height:180px;margin-bottom:10px}}
+@media(max-width:430px){.toolbar{grid-template-columns:repeat(3,minmax(70px,1fr))}.tool{height:54px}.tool .lbl{font-size:12px}.panel:first-child{max-height:190px}.books th:nth-child(4),.books td:nth-child(4){display:none}.book-icon{width:30px;height:30px}.book-icon img{width:26px;height:30px}.name-cell strong{font-size:13px}.name-cell small{font-size:11px}.modal-body{padding:10px}.detail{grid-template-columns:82px 1fr}}
+
+/* TANGTHU_BOOKSHELF_V10 */
+.shelf-view{padding:12px;background:#fff;min-height:100%;overflow:hidden}
+.shelf-row{position:relative;margin:0 0 18px;padding:10px 12px 30px;min-height:196px;background:#c0c0c0;overflow:hidden}
+.shelf-row::after{display:none}
+.shelf-row:last-child{margin-bottom:0}
+.shelf-line{position:absolute;height:12px;background:linear-gradient(to bottom,#a66a1f 0,#d08a28 38%,#8a5416 62%,#5f3a0d 100%);border:2px solid #5b370c;box-sizing:border-box;box-shadow:0 2px 0 #2b1a07,0 -1px 0 #e2a34b;pointer-events:none}
+.shelf-books{display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-end;gap:18px 18px;min-height:166px;width:100%}
+.shelf-book{position:relative;width:220px;min-width:220px;display:grid;grid-template-columns:112px 1fr;grid-template-rows:132px auto;column-gap:10px;align-items:end;justify-content:center;padding:0;cursor:pointer;border:1px dotted transparent;background:transparent;color:#111}
+.shelf-book:hover{background:#f5f5f5;border-color:#777}
+.shelf-book:focus{outline:1px dotted #000;outline-offset:-1px}
+.shelf-book-cover{position:relative;width:108px;height:132px;grid-column:1;grid-row:1;display:flex;align-items:center;justify-content:center}
+.shelf-book img{width:108px;height:132px;object-fit:contain;display:block;image-rendering:auto}
+.shelf-book-name{position:absolute;left:16px;right:16px;top:79px;margin:0;padding:0 7px;text-align:center;font-weight:bold;font-size:13px;line-height:1.12;color:#fff;background:transparent;border:0;box-shadow:none;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;min-height:0;z-index:2;box-sizing:border-box}
+.shelf-book-stats{grid-column:2;grid-row:1;align-self:center;width:100%;margin:0;padding:4px 0;text-align:left;font-size:11px;line-height:1.35;color:#333;white-space:normal;overflow:visible}
+.shelf-book-stats span{display:block}
+.shelf-book::after{content:"";grid-column:1 / -1;grid-row:2;height:6px}
+.main.shelf-only{grid-template-columns:1fr}
+.main.shelf-only #shelfPanel{display:none}
+@media(max-width:1050px){.shelf-books{gap:18px 12px}.shelf-book{width:200px;min-width:200px;grid-template-columns:100px 1fr;column-gap:8px}.shelf-book-cover,.shelf-book img{width:100px;height:124px}.shelf-book-name{left:14px;right:14px;top:74px;font-size:12px;padding:0 6px}.shelf-book-stats{font-size:10px}}
+@media(max-width:760px){.shelf-view{padding:8px}.shelf-row{padding-left:7px;padding-right:7px}.shelf-books{gap:16px 10px}.shelf-book{width:180px;min-width:180px;grid-template-columns:88px 1fr;column-gap:6px}.shelf-book-cover,.shelf-book img{width:82px;height:108px}.shelf-book-name{left:11px;right:11px;top:63px;font-size:11px;padding:0 5px}.shelf-book-stats{font-size:10px}}
+@media(max-width:500px){.shelf-books{gap:12px 8px}.shelf-book{width:165px;min-width:165px;grid-template-columns:78px 1fr}.shelf-book-cover,.shelf-book img{width:78px;height:102px}.shelf-book-name{left:10px;right:10px;top:58px;font-size:10px;padding:0 4px}}
+
+
+/* Shelf registration help */
+.shelf-help-panel{margin:0 0 12px;padding:10px;background:#ffffcc;border:1px solid #888;line-height:1.5}
+.shelf-help-panel p{margin:0 0 9px}
+.shelf-help-panel p:last-child{margin-bottom:0}
+.shelf-help-panel code{font-family:Consolas,monospace}
+#shelfHelpBtn{min-width:28px;height:24px;padding:0 7px;margin:0 4px 0 0;background:#c0c0c0;color:#000;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;font-weight:bold;cursor:pointer;flex:0 0 auto}
+#shelfHelpBtn:active{border-color:#555 #fff #fff #555;padding:1px 6px 0 8px}
+.modal-title{display:flex;align-items:center;gap:4px}
+#modalTitle{flex:1 1 auto;min-width:0}
+.modal-title #shelfHelpBtn{margin-left:0;margin-right:2px}
+.modal-title #modalClose{flex:0 0 auto;margin-left:0}
+
+ .news-url-row{display:flex;align-items:flex-end;gap:10px}.news-url-field{flex:1;min-width:0}.news-inline-btn{height:38px;min-width:120px}.news-sources{display:flex;flex-direction:column;gap:4px}.news-source-row{display:flex;align-items:center;gap:8px;padding:6px 4px;border-bottom:1px dotted #aaa}.news-source-main{display:flex;align-items:center;gap:7px;min-width:0;flex:1}.news-source-main span{min-width:0;overflow-wrap:anywhere;word-break:break-word;white-space:normal}.news-source-main a{color:#000}.news-count{width:70px;height:30px;padding:3px 5px;border:2px solid #777;border-right-color:#fff;border-bottom-color:#fff;background:#fff}.news-count:disabled{background:#ddd;color:#777}.news-hint{margin:0 0 8px;font-size:12px;color:#555}.news-warning{margin-top:7px;color:#555}.news-warning:empty{display:none}.news-register-actions{justify-content:flex-end} .modal{overflow:hidden!important}.modal-title{position:sticky;top:0;z-index:30}.modal-body{overflow:auto;max-height:calc(90vh - 42px)}.news-help-panel{margin:0 0 12px;padding:10px;background:#ffffcc;border:1px solid #888;line-height:1.5}.news-help-panel p{margin:0 0 9px}.news-help-panel p:last-child{margin-bottom:0}.news-help-panel strong{font-weight:bold}.news-help-panel code{font-family:Consolas,monospace}#newsHelpBtn{min-width:28px;height:24px;padding:0 7px;margin-left:auto;margin-right:5px;background:#c0c0c0;color:#000;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;font-weight:bold}#newsHelpBtn:active{border-color:#555 #fff #fff #555;padding:1px 6px 0 8px}
+.story-main{padding:0}.story-info-panel{border:1px solid #999;background:#eee;padding:12px}.story-info{min-height:360px}.story-info-body{display:grid;grid-template-columns:180px 1fr;column-gap:20px;row-gap:10px}.story-cover{width:180px;height:270px;border:1px solid #888;background:#ddd;display:flex;align-items:center;justify-content:center;overflow:hidden}.story-cover img{width:100%;height:100%;object-fit:cover}.story-cover-empty{font-size:18px;color:#777}.story-details h2{margin:0 0 14px;font-size:24px}.story-row{display:grid;grid-template-columns:145px 1fr;gap:10px;margin:7px 0;font-size:14px}.story-row span{color:#444}.story-row b{font-weight:500}.story-message{grid-column:2;margin-top:8px;padding:10px;background:#e8f0df;border:1px solid #aab89b;min-height:42px}.story-empty{padding:90px 20px;text-align:center;font-size:18px}.story-empty span{font-size:13px;color:#666}.story-nav{display:flex;gap:12px;margin-top:12px}.story-nav button{flex:1;min-height:38px}.story-inputs{margin-top:12px}.story-inputs fieldset{display:flex;gap:10px;align-items:center;margin:8px 0;padding:10px}.story-inputs fieldset legend{font-weight:bold}.story-inputs input{flex:1;min-width:0;height:38px;box-sizing:border-box;padding:6px 10px}.story-inputs button{height:38px;min-width:110px}.story-source-popup{position:fixed;z-index:99999;right:30px;bottom:28px;width:410px;background:#eee;border:1px solid #777;box-shadow:3px 3px 0 rgba(0,0,0,.25);padding:12px}.story-source-head{display:flex;justify-content:space-between;align-items:center;font-size:18px;margin-bottom:10px}.story-source-head button{min-width:32px}.story-source-list{background:#fff;border:1px solid #aaa;padding:8px}.story-source-row{display:grid;grid-template-columns:16px 1fr 140px;gap:8px;align-items:center;padding:5px 2px}.story-source-dot{width:10px;height:10px;border-radius:50%;display:block}.story-source-dot.ok{background:#319447}.story-source-dot.fail{background:#c92d2d}.story-source-domain{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.story-source-status{color:#666;text-align:right}.story-source-foot{display:flex;justify-content:space-between;align-items:center;margin-top:10px;font-size:12px;color:#666}.story-source-popup button{padding:5px 10px}.story-source-error{color:#a00;padding:10px}
+</style>
+
+<style id="tangthu-story-current-css">
+.story-info-body{min-width:0}
+.story-details{min-width:0}
+.story-row{min-width:0}
+.story-row b{min-width:0;overflow-wrap:anywhere;word-break:break-word}
+.story-message{min-width:0;overflow-wrap:anywhere;word-break:break-word}
+
+@media(max-width:600px){
+  .modal-backdrop{padding:6px}
+  .modal{width:100%;max-width:100%;max-height:94vh}
+  .modal-body{padding:8px}
+  .story-info-panel{padding:8px;min-width:0}
+  .story-info{min-height:0}
+  .story-info-body{grid-template-columns:120px minmax(0,1fr);column-gap:10px;row-gap:8px;min-width:0}
+  .story-cover{width:120px;height:180px;max-width:100%}
+  .story-details{min-width:0;overflow:hidden}
+  .story-details h2{font-size:20px;line-height:1.15;overflow-wrap:anywhere;word-break:break-word}
+  .story-row{grid-template-columns:78px minmax(0,1fr);gap:5px;margin:6px 0;font-size:13px;align-items:start}
+  .story-row span{min-width:0}
+  .story-row b{min-width:0;overflow-wrap:anywhere;word-break:break-word}
+  .story-message{grid-column:1/-1;margin-top:4px}
+  .story-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+  .story-nav button{min-width:0;width:100%;padding:5px 4px}
+  .story-inputs fieldset{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;padding:8px}
+  .story-inputs input{min-width:0;width:100%}
+  .story-inputs button{min-width:92px}
+}
+
+@media(max-width:360px){
+  .story-info-body{grid-template-columns:1fr}
+  .story-cover{width:120px;height:180px}
+  .story-details h2{margin-top:2px}
+}
+
+.story-help-panel{margin:0 0 12px;padding:10px;border:1px solid #888;line-height:1.5;max-height:55vh;overflow:auto}
+.story-help-panel p{margin:0 0 9px}
+.story-help-panel p:last-child{margin-bottom:0}
+.story-help-panel code{font-family:Consolas,monospace}
+#storyHelpBtn{min-width:28px;height:24px;padding:0 7px;margin:0 4px 0 0;background:#c0c0c0;color:#000;border:2px solid #fff;border-right-color:#555;border-bottom-color:#555;font-weight:bold;cursor:pointer;flex:0 0 auto}
+#storyHelpBtn:active{border-color:#555 #fff #fff #555;padding:1px 6px 0 8px}
+
+/* CrossPoint plugin maker */
+#storyCrosspointBtn{white-space:nowrap}
+.tt-crosspoint-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.35);display:flex;align-items:center;justify-content:center;z-index:10000;padding:16px;box-sizing:border-box}
+.tt-crosspoint-modal{width:min(520px,100%);background:#fff;border:1px solid #999;border-radius:10px;box-shadow:0 8px 30px rgba(0,0,0,.25);padding:22px;box-sizing:border-box;color:#222}
+.tt-crosspoint-modal-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}
+.tt-crosspoint-modal h3{margin:0;font-size:20px}
+.tt-crosspoint-close{flex:0 0 auto;width:34px;height:34px;padding:0;border:1px solid #aaa;border-radius:6px;background:#fff;font-size:23px;line-height:1;cursor:pointer}
+.tt-crosspoint-modal p{margin:0 0 18px;color:#666}
+.tt-crosspoint-modal label{display:block;font-weight:600;margin-bottom:7px}
+.tt-crosspoint-modal input{width:100%;box-sizing:border-box;padding:12px;font-size:18px;border:1px solid #aaa;border-radius:6px}
+.tt-crosspoint-actions{display:flex;gap:8px;justify-content:flex-start;margin-top:14px}
+.tt-crosspoint-actions button{padding:11px 20px;font-size:16px;border:1px solid #888;border-radius:6px;background:#fff;cursor:pointer}
+.tt-crosspoint-actions button:hover,.tt-crosspoint-close:hover{background:#f3f3f3}
+#ttCrosspointCancel{margin-left:auto}
+.tt-crosspoint-status{margin-top:12px;white-space:pre-line}
+.tt-crosspoint-status.err{color:#a00}
+@media(max-width:600px){
+  .tt-crosspoint-backdrop{padding:8px}
+  .tt-crosspoint-modal{padding:18px}
+}
+</style>
+
+</head>
+<body>
+<div class="win">
+  <div class="titlebar"><div class="appicon">📖</div><div class="caption">Tàng thư - by Zenkjt</div></div>
+  <div class="toolbar">
+    <button class="tool" id="upBtn"><span class="ico">📁</span><span class="lbl">Up</span></button>
+    <button class="tool" id="homeBtn"><span class="ico">⌂</span><span class="lbl">Home</span></button>
+    <button class="tool" id="refreshBtn"><span class="ico">⟳</span><span class="lbl">Refresh</span></button>
+    <button class="tool" id="searchBtn"><span class="ico">🔎</span><span class="lbl">Search</span></button>
+    <button class="tool" id="shelfBtn"><span class="ico">📚</span><span class="lbl">Tủ sách</span></button>
+    <button class="tool" id="newsBtn"><span class="ico">📰</span><span class="lbl">Tin tức</span></button>
+    <button class="tool" id="storyBtn"><span class="ico">📖</span><span class="lbl">Truyện online</span></button>
+    <button class="tool" id="viewsBtn"><span class="ico">▤</span><span class="lbl">Views</span></button>
+    <button class="tool" id="infoBtn"><span class="ico">ℹ</span><span class="lbl">Info</span></button>
+    <div class="brand"><strong>Bookshelves</strong><em>A book is a dream holding in your hands.</em></div>
+  </div>
+  <div class="main">
+    <section class="panel" id="shelfPanel">
+      <div class="panel-title">TỦ SÁCH <span class="count" id="branchCount"></span></div>
+      <div class="panel-body"><ul class="library-list" id="branchList"></ul></div>
+      <div class="sidebar-foot" id="sidebarFoot">Đang tải...</div>
+    </section>
+    <section class="panel" id="contentPanel">
+      <div class="panel-title">NỘI DUNG <span class="count" id="itemCount"></span></div>
+      <div class="content-path" id="pathBar">Tàng Thư</div>
+      <div class="panel-body" id="contentBody"></div>
+    </section>
+  </div>
+  <div class="searchbar">
+    <label for="searchInput">🔎 Tìm kiếm:</label>
+    <input id="searchInput" type="search" placeholder="Nhập tên sách, tác giả, từ khóa..." autocomplete="off">
+    <button id="searchDo">Tìm</button>
+    <select id="searchScope" title="Phạm vi tìm kiếm"><option value="all">Tất cả tủ sách</option><option value="current">Tủ đang mở</option></select>
+  </div>
+  <div class="status"><span id="statusLeft">Sẵn sàng.</span><span>TÀNG THƯ | OPDS | 2026</span></div>
+</div>
+
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-title"><span id="modalTitle">Thông tin</span><button class="close" id="modalClose">×</button></div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+<script>
+(function(){
+  'use strict';
+  var state={catalog:null,branch:null,parent:null,view:'shelves',selected:null,search:''};
+  var $=function(id){return document.getElementById(id)};
+  var esc=function(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
+  var size=function(n){n=Number(n)||0;if(n<1024)return n+' B';if(n<1048576)return (n/1024).toFixed(1)+' KB';if(n<1073741824)return (n/1048576).toFixed(1)+' MB';return (n/1073741824).toFixed(2)+' GB'};
+  var ext=function(n){var m=String(n||'').toLowerCase().match(/\.([^.]+)$/);return m?m[1].toUpperCase():'FILE'};
+  var first=function(v){return v&&v.length?v[0]:''};
+  var authors=function(m){return m&&m.authors?m.authors.join(', '):''};
+  var modal=function(title,body){$('modalTitle').textContent=title;$('modalBody').innerHTML=body;$('modalBackdrop').classList.add('open')};
+  var closeModal=function(){$('modalBackdrop').classList.remove('open')};
+  $('modalClose').onclick=closeModal;
+  $('modalBackdrop').onclick=function(e){if(e.target===$('modalBackdrop'))closeModal()};
+
+  function branches(){return state.catalog&&state.catalog.branches||[]}
+  function currentBranch(){return branches().find(function(b){return b.id===state.branch})}
+  function filesOf(b){return b&&b.files||[]}
+  function children(b,parent){return filesOf(b).filter(function(f){return f.parent_id===parent}).sort(function(a,c){if(!!a.folder!==!!c.folder)return a.folder?-1:1;return a.name.localeCompare(c.name,'vi',{sensitivity:'base'})})}
+  function findFile(b,id){return filesOf(b).find(function(f){return f.id===id})}
+  function folderPath(b,id){var out=[];var guard=0;while(id&&id!==b.root_folder_id&&guard++<100){var f=findFile(b,id);if(!f)break;out.unshift(f.name);id=f.parent_id}return out}
+  function displayDate(s){if(!s)return '';var d=new Date(s);return isNaN(d)?s:d.toLocaleString('vi-VN',{dateStyle:'short',timeStyle:'short'})}
+
+  // Browser history for navigation inside Tàng Thư.
+  function navState(){
+    return {tangthu:true,branch:state.branch,parent:state.parent,search:state.search||''};
+  }
+  function pushNavState(){
+    history.pushState(navState(),'');
+  }
+  function restoreNavState(s){
+    if(!s||!s.tangthu)return false;
+    state.branch=s.branch||null;
+    var b=currentBranch();
+    state.parent=b?(s.parent||b.root_folder_id):null;
+    state.search=s.search||'';
+    state.selected=null;
+    $('searchInput').value=state.search;
+    renderBranches();
+    renderContent();
+    return true;
+  }
+  window.addEventListener('popstate',function(e){
+    if(!restoreNavState(e.state))return;
+  });
+
+  $('branchList').addEventListener('click',function(e){
+    if(e.target.closest('li.branch'))pushNavState();
+  });
+
+
+  /* TANGTHU_SHELF_NO_V2 */
+  function shelfLabel(b){
+    var name=b && (b.name||b.display_name) || '';
+    var no=b && Number(b.shelf_no);
+    return no>0 ? name+' #'+no : name;
+  }
+
+  function renderBranches(){
+    var list=$('branchList');list.innerHTML='';
+    branches().forEach(function(b){
+      var li=document.createElement('li');
+      li.className='branch'+(state.branch===b.id?' active':'');
+      li.style.position='relative';
+      li.style.display='flex';
+      li.style.alignItems='center';
+      li.style.gap='5px';
+      li.style.paddingRight='42px';
+      li.style.boxSizing='border-box';
+
+      var main=document.createElement('span');
+      main.style.display='flex';
+      main.style.alignItems='center';
+      main.style.gap='7px';
+      main.style.minWidth='0';
+      main.style.flex='1 1 auto';
+      main.style.overflow='hidden';
+      main.innerHTML='<span class="folder-icon">📚</span><span class="branch-name">'+esc(shelfLabel(b))+'</span>';
+      main.onclick=function(){
+        state.view='list';
+        $('viewsBtn').querySelector('.lbl').textContent='Views';
+        state.branch=b.id;
+        state.parent=b.root_folder_id;
+        state.selected=null;
+        renderBranches();
+        renderContent();
+      };
+
+      var reload=document.createElement('button');
+      reload.type='button';
+      reload.title='Reload tủ này';
+      reload.setAttribute('aria-label','Reload tủ '+b.name);
+      reload.textContent='↻';
+      reload.style.position='absolute';
+      reload.style.right='8px';
+      reload.style.top='50%';
+      reload.style.transform='translateY(-50%)';
+      reload.style.zIndex='5';
+      reload.style.display='inline-flex';
+      reload.style.alignItems='center';
+      reload.style.justifyContent='center';
+      reload.style.flex='0 0 28px';
+      reload.style.width='28px';
+      reload.style.minWidth='28px';
+      reload.style.height='24px';
+      reload.style.padding='0';
+      reload.style.margin='0';
+      reload.style.boxSizing='border-box';
+      reload.style.background='#c0c0c0';
+      reload.style.color='#000';
+      reload.style.border='2px solid #fff';
+      reload.style.borderRightColor='#555';
+      reload.style.borderBottomColor='#555';
+      reload.onclick=function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        reloadShelfFromGUI(b,reload);
+      };
+
+      li.appendChild(main);
+      li.appendChild(reload);
+      list.appendChild(li);
+    });
+    $('branchCount').textContent=branches().length+' tủ';
+    $('sidebarFoot').textContent=branches().length+' tủ sách';
+  }
+
+  function shelfSnapshot(shelf){
+    if(!shelf)return '';
+    return JSON.stringify({id:shelf.id,name:shelf.name,root_folder_id:shelf.root_folder_id,files:shelf.files||[]});
+  }
+
+  function fetchFreshCatalog(){
+    return fetch('catalog.json?__refresh='+Date.now(),{cache:'no-store'}).then(function(r){
+      if(!r.ok)throw new Error('catalog '+r.status);
+      return r.json();
+    });
+  }
+
+  function waitForShelfUpdate(b,button,baseline,attempt){
+    attempt=attempt||0;
+    var maxAttempts=120;
+    if(attempt>=maxAttempts){
+      $('statusLeft').textContent='Đã gửi yêu cầu cập nhật tủ "'+b.name+'", nhưng chưa nhận được bản deploy mới. Có thể kiểm tra lại sau.';
+      button.disabled=false;button.textContent='↻';return;
+    }
+    window.setTimeout(function(){
+      fetchFreshCatalog().then(function(catalog){
+        var updated=(catalog.branches||[]).find(function(x){return x.id===b.id});
+        if(updated && shelfSnapshot(updated)!==baseline){
+          state.catalog=catalog;
+          renderBranches();
+          renderContent();
+          $('statusLeft').textContent='Tủ "'+b.name+'" đã cập nhật. Danh sách sách vừa được làm mới.';
+          button.disabled=false;button.textContent='↻';return;
+        }
+        $('statusLeft').textContent='Đang build và deploy tủ "'+b.name+'"…';
+        waitForShelfUpdate(b,button,baseline,attempt+1);
+      }).catch(function(){waitForShelfUpdate(b,button,baseline,attempt+1);});
+    },15000);
+  }
+
+  function reloadShelfFromGUI(b,button){
+    var apiUrl='https://script.google.com/macros/s/AKfycbxkXzEVMXy2p6S0C6fMJKoLKDS_arBT0aRaq2x9X6w24L3Ea5RjmKPmxiOYhMUdMe_y5g/exec';
+    if(!apiUrl){$('statusLeft').textContent='Apps Script chưa được cấu hình.';return;}
+    if(button.disabled)return;
+    var oldShelf=(state.catalog.branches||[]).find(function(x){return x.id===b.id});
+    var baseline=shelfSnapshot(oldShelf);
+    button.disabled=true;button.textContent='…';
+    $('statusLeft').textContent='Đang kiểm tra tủ "'+b.name+'" trên Google Drive…';
+    fetch(apiUrl,{
+      method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},
+      body:JSON.stringify({action:'reload',branch_id:b.id})
+    }).then(function(r){
+      return r.text().then(function(t){
+        var data={};
+        try{data=JSON.parse(t||'{}')}catch(e){throw new Error('Apps Script trả về dữ liệu không hợp lệ.');}
+        if(!r.ok)throw new Error('HTTP '+r.status);
+        return data;
+      });
+    }).then(function(data){
+      if(!data.ok)throw new Error(data.error||'Không thể reload tủ.');
+      if(data.changed || data.queued){
+        $('statusLeft').textContent=data.queued
+          ? 'Tủ "'+b.name+'" đang được scan; sẽ tự cập nhật khi hoàn tất…'
+          : 'Đã phát hiện thay đổi ở tủ "'+b.name+'". Đang build và deploy…';
+        waitForShelfUpdate(b,button,baseline,0);return;
+      }
+      $('statusLeft').textContent='Tủ "'+b.name+'" đã được kiểm tra: không có thay đổi.';
+      button.disabled=false;button.textContent='↻';
+    }).catch(function(err){
+      $('statusLeft').textContent='Reload lỗi: '+String(err);
+      button.disabled=false;button.textContent='↻';
+    });
+  }
+
+  var shelfResizeObserver=null;
+  function renderShelfStats(){
+    var body=$('contentBody');
+    body.innerHTML='';
+    $('pathBar').textContent='Tất cả tủ sách';
+    var bs=branches();
+    $('itemCount').textContent=bs.length+' tủ';
+    if(!bs.length){body.innerHTML='<div class="empty">Chưa có tủ sách.</div>';return}
+
+    if(shelfResizeObserver){shelfResizeObserver.disconnect();shelfResizeObserver=null;}
+    var main=document.querySelector('.main');
+    if(main)main.classList.add('shelf-only');
+
+    var view=document.createElement('div');
+    view.className='shelf-view';
+    var iconNames=['book-blue.png','book-brown.png','book-green.png','book-purple.png','book-red.png','book-teal.png'];
+
+    function shelfFiles(shelf){return filesOf(shelf).filter(function(f){return !f.folder;});}
+    function extension(name){var p=String(name||'').lastIndexOf('.');return p<0?'':String(name).slice(p+1).toUpperCase();}
+    function statsLines(shelf){
+      var files=shelfFiles(shelf), bookCount=0, fontCount=0, counts={};
+      var bookFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP','DOC','DOCX','TXT','MD'];
+      files.forEach(function(f){
+        var e=extension(f.name);
+        if(e==='CPFONT'||e==='TTF'||e==='OTF'){
+          fontCount++;
+          return;
+        }
+        if(bookFormats.indexOf(e)>=0){
+          bookCount++;
+          counts[e]=(counts[e]||0)+1;
+        }
+      });
+      var lines=[];
+      if(bookCount>0)lines.push(bookCount+' sách');
+      bookFormats.forEach(function(format){
+        var count=counts[format]||0;
+        if(count>0)lines.push(format+' '+count);
+      });
+      if(fontCount>0)lines.push(fontCount+' font');
+      return lines;
+    }
+    function stats(shelf){return statsLines(shelf).join(' · ');}
+    function openShelf(shelf){
+      state.view='list';
+      state.branch=shelf.id;
+      state.parent=shelf.root_folder_id;
+      state.selected=null;
+      $('viewsBtn').querySelector('.lbl').textContent='Views';
+      var main=document.querySelector('.main');
+      if(main)main.classList.remove('shelf-only');
+      renderBranches();
+      renderContent();
+    }
+
+    var row=document.createElement('div');
+    row.className='shelf-row';
+    var books=document.createElement('div');
+    books.className='shelf-books';
+
+    bs.forEach(function(shelf,index){
+        var item=document.createElement('button');
+        item.type='button';
+        item.className='shelf-book';
+        item.title=shelfLabel(shelf);
+        item.setAttribute('aria-label',(shelfLabel(shelf))+' — '+stats(shelf));
+
+        var cover=document.createElement('div');
+        cover.className='shelf-book-cover';
+
+        var img=document.createElement('img');
+        img.src='assets/bookshelf/'+iconNames[index%iconNames.length];
+        img.alt='';
+        img.draggable=false;
+
+        var name=document.createElement('div');
+        name.className='shelf-book-name';
+        name.textContent=shelfLabel(shelf);
+
+        cover.appendChild(img);
+        cover.appendChild(name);
+
+        var meta=document.createElement('div');
+        meta.className='shelf-book-stats';
+        statsLines(shelf).forEach(function(line){
+          var lineEl=document.createElement('span');
+          lineEl.textContent=line;
+          meta.appendChild(lineEl);
+        });
+
+        item.appendChild(cover);
+        item.appendChild(meta);
+        item.onclick=(function(s){return function(){openShelf(s);};})(shelf);
+        books.appendChild(item);
+    });
+
+    row.appendChild(books);
+    view.appendChild(row);
+    body.appendChild(view);
+
+    function resizeShelves(){
+      row.querySelectorAll('.shelf-line').forEach(function(el){el.remove();});
+      var items=Array.prototype.slice.call(books.querySelectorAll('.shelf-book'));
+      if(!items.length)return;
+      var groups=[];
+      items.forEach(function(item){
+        var top=item.offsetTop;
+        var group=groups.length?groups[groups.length-1]:null;
+        if(!group || Math.abs(group.top-top)>2){group={top:top,items:[]};groups.push(group);}
+        group.items.push(item);
+      });
+      var rowRect=row.getBoundingClientRect();
+      groups.forEach(function(group){
+        var first=group.items[0].getBoundingClientRect();
+        var last=group.items[group.items.length-1].getBoundingClientRect();
+        var left=Math.max(0,first.left-rowRect.left-12);
+        var right=Math.max(left,last.right-rowRect.left-12);
+        var line=document.createElement('div');
+        line.className='shelf-line';
+        line.style.left=left+'px';
+        line.style.width=(right-left)+'px';
+        line.style.top=(group.top+group.items[0].offsetHeight+8)+'px';
+        row.appendChild(line);
+      });
+    }
+    resizeShelves();
+    if(window.ResizeObserver){
+      shelfResizeObserver=new ResizeObserver(function(){resizeShelves();});
+      shelfResizeObserver.observe(books);
+    }
+  }
+
+  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}if(shelfResizeObserver){shelfResizeObserver.disconnect();shelfResizeObserver=null;}var main=document.querySelector('.main');if(main)main.classList.remove('shelf-only');
+    var b=currentBranch();var body=$('contentBody');body.innerHTML='';
+    if(!b){$('pathBar').textContent='Tàng Thư';$('itemCount').textContent='';body.innerHTML='<div class="empty">Chưa có tủ sách. Hãy dùng nút <strong>Tủ sách</strong> để tạo tủ mới.</div>';return}
+    var path=[shelfLabel(b)].concat(folderPath(b,state.parent));$('pathBar').textContent=path.join('  ›  ');
+    var rows=children(b,state.parent);
+    var q=state.search.trim().toLocaleLowerCase('vi-VN');
+    if(q){rows=filesOf(b).filter(function(f){var m=f.metadata||{};var a=authors(m);return !f.folder&&(f.name+' '+(f.mime||'')+' '+a+' '+(m.title||'')+' '+(m.publisher||'')+' '+(m.series||'')).toLocaleLowerCase('vi-VN').indexOf(q)>=0})}
+    $('itemCount').textContent=rows.length+(q?' kết quả':' mục');
+    if(!rows.length){body.innerHTML='<div class="empty">'+(q?'Không tìm thấy sách phù hợp.':'Thư mục này chưa có nội dung.')+'</div>';return}
+    var table=document.createElement('table');table.className='books';
+    table.innerHTML='<thead><tr><th style="width:44px"> </th><th>Tên sách</th><th style="width:190px">Tác giả</th><th style="width:90px">Định dạng</th><th style="width:105px">Dung lượng</th><th style="width:85px">Ngày</th></tr></thead>';
+    var tb=document.createElement('tbody');
+    rows.forEach(function(f){
+      var tr=document.createElement('tr');tr.className=(f.folder?'folder-row ':'book-row ')+(state.selected===f.id?'selected':'');
+      if(f.folder){tr.innerHTML='<td class="icon-cell"><span class="folder-icon" aria-hidden="true"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAeCAYAAAAy2w7YAAACbklEQVR42t2WvW8TQRDFf7O7Pn+cLyYoHVBQIBAVMhUSjfmoKBA1Lf8NoqGi4A9AiAaBqCjcQIFEQ0EBJUipIhQnztl3tzsUZ+OIxLlLYhq2Wd3pdt7Ne7NvRjbfXdZOt4mqIqxgifjgg93Znry4cP/7w+FwaABcuxMRd5uEEEBWAKUYMbC3O70FRIPBYALgVJUQAiHoqXFUtUxKBYUAFKPRaCNJkr6bpQvoCliTRbjZq9Hw+sttdOD4R0vKjBrGypVmK1JXh4o6WSxVDFINKm55ALDWohWUhqBVrBsE3CzNAyCTNCcdZ0v/WFFEhO5aC+cMVcm7ZQyrgi8CYqS8Y7LY57SKSO0acsu06XQjkl6rMkCRe2pIeTiQCKTjjL3d6RHUld8lvTbWmcrMXEVJscyX5JjXbgl10I4jumv/nDphvDNlPJog5nDBFTBG6J3tnKbqFGOk5H5eWXIsZutT12pHdOJmhVErGvTk1M1LvCjCkVaz/17VAtKT+VhtkNKHYDWdtQ4Q/xNQZeP7055r6LHoXwJl4ztYDCLijRWVmWKLPnQcBQUUFSOC0N5/2AEYEbLC271xjoa/Yp8ETxVfhK9APpfHiYifpJn9mD552+/3X1lrjbE24H15yNpynz9XLGutxnFs1uE1UDAbFx0g27/Szbv3bj8QkWKVBaCqFik5cd4HE3xIoygqdj9cc9k0l6jZONXslU1zWd/oFvu9wE0n+U6ctM5nWXYnSZL3daefKsdQVXq9c/rpWQygsrW19ch/vvnYNewZX4RvqmpkJdMkBK80242LRe6dzDK4+vPNpefWmhsiqzekL/bpj99gwA36MdaMxwAAAABJRU5ErkJggg==" alt="" width="26" height="30"></span></td><td class="name-cell"><strong>'+esc(f.name)+'</strong><small>Thư mục</small></td><td></td><td>DIR</td><td></td><td></td>';tr.onclick=function(){state.parent=f.id;state.selected=f.id;pushNavState();renderContent()};}
+      else {
+        var m=f.metadata||{};var a=authors(m);var sub=[m.year,m.series].filter(Boolean).join(' · ');
+        var icon='<span class="book-icon" aria-hidden="true"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAeCAYAAAAy2w7YAAAD1klEQVR42r1Wz0tjZxQ9937fe8nkJaSdkVq0m9JFpKAD7iZOK5lpEdpuCkNBuu1fUWbtpqB76U6EUrrQaRcKRVLERYXgRgS7LdiFjSN2mLwf+e7t4r1oYmJGx2m/zdu87517zz3n3EdLS0tar9eR83NwIrjNIQDOtV25XDaff/bFD0++evJ1vV5nALC7u7vYrv+GICjCOQfS1wShFImJOIxjfDTz8BEAv1arhQBg876PIAgQFAqQtgPdoh0iAhHBWg/GsABon52djZRKpWmrohARqAhEb0GdpkAgwEHgUmZobW3tRyKq2Q63b/qIigDwTp8/nzg4ONAUSNE3GyICM7/yg85J2s4VfRKoVQgCsgCg2vsiMyMMQ7RaL0HEgGratl7MQzUVQBAUYYzpLVJ7ZsciAkvZpW6QOI4xOTmJavUBojgBM6UYlGEpYIkRRRE2NjbQbDbhed65xAm9TaoqbF+vqhBxyOVyuHdvBFESg5ggmYYFClLAJ0YURrCefbVIgH4g5xx838f29jae/fwMzAxVQDulZhdJFcyM0dF3kcvlICKp6gaYGIOAjDGIogjVahUzMzNIkpQ66ZhSU6oNE+IkwfraOk5OTmDt8M7sVcZzzkHEZU+CUC8fKgwV7S37JkAiAs+z2N39HZubm9067RYdSBXGGLwzOoo7+TycG0zdlUBMjCgKUas9wtzcHKIoAjFDL3nFskErbGFlZQXHx8fwrNc9/+tRByK0Wi00m3+j7RyYCO6y10CIogjuqnykC1AdqLq2g+/52Nvbw87OzjkdcqlO0tRzQTGANQaqejPqUgML8vk8CoXC+WV3GUhSeTvn+pJlIJD22LlLVyJwXVX2dKQAVKGqfbMbCqTDYnFQfl3j/T6R4X86fO4R+m+B7IUJCSbLtc4+ymIC3aukUxBld6izQtBZ5WmMMUj6VEfpanAvX7xQyf6E0rVMF2K4BHR5dnQBpFEck4jcSQNEM4MzIwxbGPtgzFQ/foi8n8tEpVlS9HY0ZBukRanA8zzcffvuAYDEGJP+boVh6Kbu3zffPn36y/T09E/GGGZjBM514ryzP641C2OMBkHAANYBtJmYVBWWmWl+fv6vTx8//pKI2m9SAKpqHNKIt+VymYvFYsv3/fbs7KytVCp0eHiotwGoVCq0vLzc7tiNiGAnJib+2draei+O409KpdKvjUbjWpEy7DQaDQRBgPHxcV1YWICqKjWbzW8WFxe/Ozo6emtkZOQPay2LiBLRawMSEUQEQRBgf3///bGxMUsZlx+urq5+f3p6+iBJkqEpfNOTJAmmpqb+/BfyecEL+bzvwAAAAABJRU5ErkJggg==" alt="" width="26" height="30"></span>';
+        tr.innerHTML='<td class="icon-cell">'+icon+'</td><td class="name-cell"><strong>'+esc(f.name)+'</strong><small>'+esc((m.title&&m.title!==f.name)?m.title:'')+'</small><div class="meta-line">'+esc(sub)+'</div></td><td class="author-cell">'+esc(a||'—')+'</td><td>'+esc(ext(f.name))+'</td><td>'+esc(size(f.size))+'</td><td>'+esc(displayDate(f.modified))+'</td>';
+        tr.onclick=function(){state.selected=f.id;renderContent();showBook(f)};
+      }
+      tb.appendChild(tr);
+    });
+    table.appendChild(tb);body.appendChild(table);
+  }
+
+  function showBook(f){
+    var m=f.metadata||{};var a=authors(m);var coverHtml=f.cover?'<img class="detail-cover" src="'+esc(f.cover)+'" alt="" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'">':'<div class="detail-cover-fallback">'+esc(ext(f.name))+'</div>';
+    var fallback=f.cover?'<div class="detail-cover-fallback" style="display:none">'+esc(ext(f.name))+'</div>':'';
+    var info='<dl class="detail"><dt>Tên file</dt><dd>'+esc(f.name)+'</dd>';
+    if(m.title)info+='<dt>Tên sách</dt><dd>'+esc(m.title)+'</dd>';
+    if(a)info+='<dt>Tác giả</dt><dd>'+esc(a)+'</dd>';
+    if(m.publisher)info+='<dt>Nhà xuất bản</dt><dd>'+esc(m.publisher)+'</dd>';
+    if(m.year)info+='<dt>Năm</dt><dd>'+esc(m.year)+'</dd>';
+    if(m.isbn)info+='<dt>ISBN</dt><dd>'+esc(m.isbn)+'</dd>';
+    if(m.language)info+='<dt>Ngôn ngữ</dt><dd>'+esc(m.language)+'</dd>';
+    if(m.series)info+='<dt>Bộ sách</dt><dd>'+esc(m.series)+'</dd>';
+    info+='<dt>Định dạng</dt><dd>'+esc(ext(f.name))+'</dd><dt>Dung lượng</dt><dd>'+esc(size(f.size))+'</dd><dt>Cập nhật</dt><dd>'+esc(displayDate(f.modified))+'</dd><dt>MIME</dt><dd>'+esc(f.mime||'')+'</dd><dt>Checksum</dt><dd>'+esc(f.checksum||'—')+'</dd></dl>';
+    if(m.description)info+='<div class="detail-description">'+esc(m.description)+'</div>';
+    if(ext(f.name)==='ZIP')info+='<div class="modal-actions"><a class="download-file" href="https://drive.usercontent.google.com/download?id='+encodeURIComponent(f.id)+'&export=download&confirm=t" target="_blank" rel="noopener">Tải file ZIP</a></div>';
+    modal('THÔNG TIN SÁCH','<div class="detail-wrap"><div>'+coverHtml+fallback+'</div><div><div class="detail-title">'+esc(m.title||f.name)+'</div>'+(a?'<div class="detail-authors">'+esc(a)+'</div>':'')+info+'</div></div>');
+  }
+
+  function showInfo(){
+    modal('GIỚI THIỆU TÀNG THƯ','<p><strong>Tàng Thư mến chào bạn!</strong></p><p>Tàng Thư là thư viện sách theo chuẩn <strong>OPDS</strong>, phân tán, ẩn danh và luôn ở bên bạn.</p><p>Bạn có muốn kho sách của mình luôn sẵn sàng để tải về trên máy đọc sách? Hãy tạo một <strong>tủ sách</strong> trên Tàng Thư nhé:</p><ol><li>Điền địa chỉ sau vào danh mục OPDS trên máy đọc sách của bạn: <strong><code>https://tangthu.pages.dev/opds</code></strong></li><li>Copy địa chỉ thư mục sách của bạn trên Google drive. Thư mục phải để chế độ chia sẻ. Tàng Thư nhận diện các định dạng sách font và file nén cơ bản.</li><li>Quay lại đây, nhấn nút <strong>Tủ sách</strong>, dán địa chỉ thư mục vào ô “Đường link…”, đặt tên ngắn gọn cho tủ sách rồi chọn <strong>Tạo tủ</strong>.</li><li>Muốn sửa hoặc xoá tủ, bạn chỉ cần paste lại đường link thư mục như trên. Sau 24 giờ kể từ khi tạo tủ, bạn mới có thể đổi tên hoặc xoá tủ.</li></ol><p>Cùng với sách, bạn cũng có thể chép font (định dạng ttf, otf, cpfont) vào thư mục google chia sẻ - trên Tàng thư, bạn bấm vào tên font để xem trước và tải về.</p><p>Và tận hưởng thành quả thôi! ;)</p><p><strong>Happy reading...</strong></p><p><strong>Zenkjt</strong></p>');
+  }
+
+  function parseDriveId(s){
+    var text=String(s||'').trim();
+    var m=text.match(/\/drive\/(?:u\/\d+\/)?folders\/([A-Za-z0-9_-]+)/);
+    if(m)return m[1];
+    m=text.match(/\/folders\/([A-Za-z0-9_-]+)/);
+    if(m)return m[1];
+    m=text.match(/[?&]id=([A-Za-z0-9_-]+)/);
+    return m?m[1]:'';
+  }
+
+  function issueURL(title,body){return 'https://github.com/Zenkjt/tangthu-opds/issues/new?title='+encodeURIComponent(title)+'&body='+encodeURIComponent(body)}
+  function shelfIssue(action,id,name,link){var title='[TANGTHU] '+name;var body='- Google Drive: '+link+'\
+- Tên tủ: '+name+'\
+- Hành động: '+action+'\
+- Folder ID: '+id+'\
+\
+Yêu cầu được tạo từ trang TÀNG THƯ.';return issueURL(title,body)}
+
+
+  function showNews(){
+    var draft={branch:null,mode:'text',sources:[],selected:{},touched:{},pending:{}};
+    var guard=function(e){
+      var t=e.target;
+      if(!t||!t.closest)return;
+      var input=t.closest('#newsSourceUrl, #newsShelfUrl, #newsSources input');
+      if(input&&(e.key==='Backspace'||e.key==='Delete'))e.stopImmediatePropagation();
+    };
+    window.addEventListener('keydown',guard,true);
+
+    modal('THƯ VIỆN NGUỒN TIN',
+      '<fieldset><legend>Thêm nguồn tin (không bắt buộc)</legend>'+
+      '<div class="news-url-row"><div class="news-url-field">'+
+      '<label for="newsSourceUrl">URL nguồn</label>'+
+      '<input id="newsSourceUrl" type="url" placeholder="https://..." value="" autocomplete="off">'+
+      '</div><button id="newsCheckBtn" class="news-inline-btn" type="button">Kiểm tra</button></div>'+
+      '<div class="lookup-state" id="newsCheck">Chưa kiểm tra nguồn.</div></fieldset>'+
+
+      '<fieldset><legend>Nguồn đang có</legend>'+
+      '<div class="news-hint">Chọn nguồn tin và số bài báo lấy về mỗi ngày (5-25 bài)</div>'+
+      '<div id="newsSources" class="news-sources"><div class="empty">Đang tải danh sách nguồn tin...</div></div>'+
+      '<div class="lookup-state" id="newsSummary">Tổng cộng: 0 nguồn · 0 bài</div></fieldset>'+
+
+      '<fieldset><legend>Chế độ bản tin</legend>'+
+      '<label><input type="radio" name="newsMode" value="text" checked> Chỉ chữ (tối đa 200 bài)</label>'+
+      '<label><input type="radio" name="newsMode" value="images"> Có hình (tối đa 100 bài)</label>'+
+      '<div class="news-warning" id="newsModeWarning"></div></fieldset>'+
+
+      '<fieldset><legend>Địa chỉ nhận tin</legend>'+
+      '<div class="news-hint">Dán địa chỉ tủ sách của bạn bên dưới và chọn đăng ký, chú ý Google folder phải để chế độ public/everyone can edit.</div>'+
+      '<input id="newsShelfUrl" type="url" placeholder="https://drive.google.com/drive/folders/..." autocomplete="off">'+
+      '<div class="lookup-state" id="newsShelfStatus">Tủ sách nhận tin</div>'+
+      '<div class="modal-actions news-register-actions"><button id="newsRegisterBtn" disabled type="button">Đăng ký</button></div>'+
+      '</fieldset>');
+
+    var newsWorkerUrl='https://tangthu-news-worker.mienluonngon.workers.dev';
+    var configUrl=newsWorkerUrl+'/news/config';
+    var registry=[],subscriptions=[],branchesList=[];
+
+    function canonicalize(value){
+      try{
+        var u=new URL(String(value||'').trim());
+        if(u.protocol!=='http:'&&u.protocol!=='https:')return '';
+        u.hash='';
+        if(u.pathname.length>1)u.pathname=u.pathname.replace(/\/+$/,'');
+        return u.toString();
+      }catch(e){return '';}
+    }
+
+    function repairMojibake(value){
+      var text=String(value||'');
+      if(!/[ÃÂ]/.test(text))return text;
+      try{
+        var bytes=Uint8Array.from(text,function(ch){return ch.charCodeAt(0)&255;});
+        return new TextDecoder('utf-8',{fatal:true}).decode(bytes);
+      }catch(e){return text;}
+    }
+
+    function displaySourceName(value){
+      return repairMojibake(value).replace(/\s+/g,' ').trim();
+    }
+
+    function workerPost(path,body){
+      return fetch(newsWorkerUrl+path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)})
+        .then(function(r){
+          return r.json().catch(function(){return {};}).then(function(d){
+            if(!r.ok||d.ok===false)throw new Error(d.error||('HTTP '+r.status));
+            return d;
+          });
+        });
+    }
+
+    function loadJSON(url){
+      return fetch(url,{cache:'no-store'}).then(function(r){
+        if(!r.ok)throw new Error('HTTP '+r.status);
+        return r.json();
+      });
+    }
+
+    function selectedSources(){
+      return draft.sources.filter(function(s){
+        return draft.selected[s.id]&&draft.selected[s.id].checked;
+      }).map(function(s){
+        var n=Number(draft.selected[s.id].count);
+        if(!Number.isFinite(n))n=5;
+        n=Math.max(5,Math.min(25,Math.round(n)));
+        return {id:s.id,count:n};
+      });
+    }
+
+    function selectedTotal(){
+      return selectedSources().reduce(function(total,item){return total+item.count;},0);
+    }
+
+    function updateRegisterState(){
+      var btn=$('newsRegisterBtn');
+      if(!btn)return;
+      var hasExisting=draft.branch&&subscriptions.some(function(x){return x.branch_id===draft.branch.id&&x.enabled!==false;});
+      btn.disabled=!(draft.branch&&(selectedSources().length||hasExisting));
+      btn.textContent=hasExisting?'Cập nhật đăng ký':'Đăng ký';
+    }
+
+    function enforceMode(){
+      var total=selectedTotal();
+      var img=document.querySelector('input[name="newsMode"][value="images"]');
+      var txt=document.querySelector('input[name="newsMode"][value="text"]');
+      var warning=$('newsModeWarning');
+      if(!img||!txt||!warning)return;
+      if(total>200){
+        draft.mode='text';
+        txt.checked=true;
+        img.checked=false;
+        warning.textContent='Tổng số bài tối đa là 200. Vui lòng giảm số bài.';
+      }else if(draft.mode==='images'&&total>100){
+        draft.mode='text';
+        txt.checked=true;
+        img.checked=false;
+        warning.textContent='Có hình tối đa 100 bài. Đã tự chuyển về “Chỉ chữ”; nếu muốn dùng hình, vui lòng giảm tổng số bài xuống 100 hoặc ít hơn.';
+      }else{
+        warning.textContent='';
+      }
+    }
+
+    function updateSummary(){
+      var summary=$('newsSummary');
+      if(summary)summary.textContent='Tổng cộng: '+selectedSources().length+' nguồn · '+selectedTotal()+' bài';
+      enforceMode();
+      updateRegisterState();
+    }
+
+    function branchFromUrl(value){
+      var raw=String(value||'').trim(),id='';
+      try{
+        var u=new URL(raw),m=u.pathname.match(/\/folders\/([a-zA-Z0-9_-]+)/);
+        id=m?m[1]:(u.searchParams.get('id')||'');
+      }catch(e){}
+      if(!id){
+        var m=raw.match(/^[a-zA-Z0-9_-]{10,}$/);
+        if(m)id=m[0];
+      }
+      return id?(branchesList.find(function(b){return b.enabled!==false&&b.root_folder_id===id;})||null):null;
+    }
+
+    function syncSelectionForBranch(){
+      draft.sources.forEach(function(s){
+        if(draft.touched[s.id])return;
+        var sub=draft.branch?subscriptions.find(function(x){
+          return x.branch_id===draft.branch.id&&x.source_id===s.id&&x.enabled!==false;
+        }):null;
+        draft.selected[s.id]={checked:!!sub,count:sub?(Number(sub.article_count)||5):5};
+      });
+    }
+
+    function renderSources(){
+      var host=$('newsSources');
+      if(!host)return;
+      var active=draft.sources.filter(function(s){return s.enabled!==false;});
+      if(!active.length){
+        host.innerHTML='<div class="empty">Chưa có nguồn tin.</div>';
+        updateSummary();
+        return;
+      }
+
+      host.innerHTML=active.map(function(s){
+        var sel=draft.selected[s.id]||{checked:false,count:5};
+        var name=displaySourceName(s.name||s.url);
+        var fullName=repairMojibake(s.name||s.url);
+        var count=Math.max(5,Math.min(25,Number(sel.count)||5));
+        return '<div class="news-source-row">'+
+          '<label class="news-source-main">'+
+          '<input class="news-source-check" type="checkbox" data-id="'+esc(s.id)+'" '+(sel.checked?'checked':'')+'>'+
+          '<span title="'+esc(fullName)+'"><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(name)+'</a></span>'+
+          '</label>'+
+          '<input class="news-count" data-id="'+esc(s.id)+'" type="number" min="5" max="25" value="'+count+'" '+(sel.checked?'':'disabled')+'>'+
+          '</div>';
+      }).join('');
+
+      host.querySelectorAll('.news-source-check').forEach(function(box){
+        box.addEventListener('change',function(e){
+          e.stopPropagation();
+          var id=box.dataset.id;
+          var input=host.querySelector('.news-count[data-id="'+id+'"]');
+          if(!draft.selected[id])draft.selected[id]={checked:false,count:5};
+          draft.selected[id].checked=box.checked;
+          draft.touched[id]=true;
+          if(input)input.disabled=!box.checked;
+          if(draft.branch)$('newsShelfStatus').textContent='Tủ sách: '+(draft.branch.display_name||draft.branch.id);
+          else $('newsShelfStatus').textContent='Tủ sách nhận tin';
+          updateSummary();
+        });
+      });
+
+      host.querySelectorAll('.news-count').forEach(function(input){
+        input.addEventListener('input',function(e){
+          e.stopPropagation();
+          var id=input.dataset.id,n=Number(input.value);
+          if(!draft.selected[id])draft.selected[id]={checked:false,count:5};
+          if(Number.isFinite(n))draft.selected[id].count=Math.max(5,Math.min(25,Math.round(n)));
+          draft.touched[id]=true;
+          updateSummary();
+        });
+      });
+
+      updateSummary();
+    }
+
+    function resetSourceForm(){
+      $('newsSourceUrl').value='';
+      $('newsCheck').textContent='Chưa kiểm tra nguồn.';
+      $('newsCheckBtn').textContent='Kiểm tra';
+      $('newsCheckBtn').disabled=false;
+      $('newsCheckBtn').onclick=checkSource;
+    }
+
+    function addDraftSource(source){
+      var canonical=canonicalize(source.url);
+      var existing=draft.sources.find(function(s){return s.id===source.id||canonicalize(s.url)===canonical;});
+      if(existing)return existing;
+      var copy=JSON.parse(JSON.stringify(source));
+      copy.url=canonical||copy.url;
+      copy.name=copy.url;
+      copy.enabled=true;
+      draft.sources.push(copy);
+      if(!draft.selected[copy.id])draft.selected[copy.id]={checked:false,count:5};
+      return copy;
+    }
+
+    function checkSource(){
+      var canonical=canonicalize($('newsSourceUrl').value);
+      if(!canonical){
+        $('newsCheck').textContent='URL không hợp lệ.';
+        return;
+      }
+      $('newsCheckBtn').disabled=true;
+      $('newsCheck').textContent='Đang kiểm tra nguồn...';
+
+      workerPost('/source/check',{url:canonical}).then(function(result){
+        var source=result.source||{};
+        if(!source.id||!source.url)throw new Error('Worker trả về thông tin nguồn không hợp lệ');
+        source.url=canonicalize(source.url)||canonical;
+        source.name=source.url;
+        var existing=draft.sources.find(function(s){return s.id===source.id||canonicalize(s.url)===source.url;});
+        if(existing){
+          $('newsCheck').textContent='Nguồn này đã có trong thư viện.';
+          $('newsCheckBtn').textContent='Đã có';
+          $('newsCheckBtn').disabled=true;
+          return;
+        }
+        $('newsCheck').textContent='Nguồn hợp lệ: '+displaySourceName(source.url);
+        $('newsCheckBtn').textContent='Thêm nguồn';
+        $('newsCheckBtn').disabled=false;
+        $('newsCheckBtn').onclick=function(){
+          $('newsCheckBtn').disabled=true;
+          $('newsCheck').textContent='Đang thêm nguồn...';
+          workerPost('/source/add',{url:source.url}).then(function(result){
+            var added=result.source||source;
+            added.url=canonicalize(added.url)||source.url;
+            added.name=added.url;
+            addDraftSource(added);
+            $('newsCheck').textContent='Đã thêm nguồn: '+displaySourceName(added.url);
+            renderSources();
+            resetSourceForm();
+          }).catch(function(err){
+            $('newsCheck').textContent='Không thể thêm nguồn: '+err.message;
+            $('newsCheckBtn').textContent='Thêm nguồn';
+            $('newsCheckBtn').disabled=false;
+          });
+        };
+      }).catch(function(err){
+        $('newsCheck').textContent='Không thể kiểm tra nguồn: '+err.message;
+        $('newsCheckBtn').textContent='Kiểm tra';
+        $('newsCheckBtn').disabled=false;
+        $('newsCheckBtn').onclick=checkSource;
+      });
+    }
+
+    $('newsSourceUrl').addEventListener('input',function(e){
+      e.stopPropagation();
+      $('newsCheck').textContent='Chưa kiểm tra nguồn.';
+      $('newsCheckBtn').textContent='Kiểm tra';
+      $('newsCheckBtn').disabled=false;
+      $('newsCheckBtn').onclick=checkSource;
+    });
+
+    $('newsSourceUrl').addEventListener('keydown',function(e){e.stopPropagation();});
+    $('newsCheckBtn').onclick=checkSource;
+
+    $('newsShelfUrl').addEventListener('input',function(e){
+      e.stopPropagation();
+      draft.branch=null;
+      $('newsShelfStatus').textContent='Tủ sách nhận tin';
+      $('newsRegisterBtn').disabled=true;
+      clearTimeout(window.__tangthuNewsShelfTimer);
+      window.__tangthuNewsShelfTimer=setTimeout(checkShelf,300);
+    });
+
+    $('newsShelfUrl').addEventListener('keydown',function(e){e.stopPropagation();});
+
+    document.querySelectorAll('input[name="newsMode"]').forEach(function(radio){
+      radio.addEventListener('change',function(e){
+        e.stopPropagation();
+        draft.mode=this.value;
+        $('newsShelfStatus').textContent=draft.branch?'Tủ sách: '+(draft.branch.display_name||draft.branch.id):'Tủ sách nhận tin';
+        updateSummary();
+      });
+    });
+
+    function checkShelf(){
+      var raw=$('newsShelfUrl').value.trim();
+      if(!raw){
+        draft.branch=null;
+        $('newsShelfStatus').textContent='Tủ sách nhận tin';
+        updateRegisterState();
+        return;
+      }
+
+      var branch=branchFromUrl(raw);
+      if(!branch){
+        draft.branch=null;
+        $('newsShelfStatus').textContent='tủ sách không tồn tại, vui lòng tạo tủ';
+        updateRegisterState();
+        return;
+      }
+
+      draft.branch=branch;
+      syncSelectionForBranch();
+      $('newsShelfStatus').textContent='Tủ sách: '+(branch.display_name||branch.id);
+      renderSources();
+    }
+
+    $('newsRegisterBtn').onclick=function(e){
+      e.preventDefault();
+      e.stopPropagation();
+
+      var branch=draft.branch;
+      var selected=selectedSources();
+      var total=selectedTotal();
+      var mode=draft.mode;
+
+      if(!branch)return;
+      if(total>200){enforceMode();return;}
+      if(mode==='images'&&total>100){enforceMode();return;}
+
+      var btn=$('newsRegisterBtn');
+      btn.disabled=true;
+      $('newsShelfStatus').textContent='Đang đăng ký nhận tin...';
+
+      var newSources=draft.sources.filter(function(s){return draft.pending[s.id];}).map(function(s){
+        return {id:s.id,name:s.name,url:s.url,enabled:true};
+      });
+
+      workerPost('/news/register',{
+        branch_id:branch.id,
+        edition_mode:mode,
+        total_articles:total,
+        new_sources:newSources,
+        subscriptions:selected.map(function(x){
+          return {source_id:x.id,article_count:x.count};
+        })
+      }).then(function(result){
+        var anySelected=selected.length>0;
+        $('newsShelfStatus').textContent=anySelected?((result.branch_name||branch.display_name||branch.id)+' đăng ký nhận tin thành công'):((result.branch_name||branch.display_name||branch.id)+' đã hủy nhận tin');
+        btn.disabled=true;
+        draft.pending={};
+        loadJSON(configUrl).then(function(cfg){subscriptions=Array.isArray(cfg.subscriptions)?cfg.subscriptions:subscriptions;syncSelectionForBranch();renderSources();});
+      }).catch(function(err){
+        $('newsShelfStatus').textContent='Không thể đăng ký nhận tin: '+err.message;
+        btn.disabled=false;
+      });
+    };
+
+    loadJSON(configUrl).then(function(cfg){
+      registry=Array.isArray(cfg.sources)?cfg.sources.map(function(s){
+        s.name=s.url||repairMojibake(s.name);
+        return s;
+      }):[];
+      subscriptions=Array.isArray(cfg.subscriptions)?cfg.subscriptions:[];
+      branchesList=Array.isArray(cfg.branches)?cfg.branches:[];
+      draft.sources=registry.slice();
+      syncSelectionForBranch();
+      renderSources();
+      updateRegisterState();
+    }).catch(function(err){
+      $('newsSources').innerHTML='<div class="empty">Không tải được Bulletin Registry: '+esc(String(err))+'</div>';
+      updateRegisterState();
+    });
+  }
+
+  function showShelf(){
+    var apiUrl='https://script.google.com/macros/s/AKfycbxkXzEVMXy2p6S0C6fMJKoLKDS_arBT0aRaq2x9X6w24L3Ea5RjmKPmxiOYhMUdMe_y5g/exec';
+    var state={mode:'none',found:null,checkedId:'',folderName:'',check:null};
+
+    modal('ĐĂNG KÝ / ĐỔI TÊN TỦ SÁCH',
+      '<fieldset><legend>Google Drive</legend>'+
+      '<label for="driveLink">Đường link thư mục</label>'+
+      '<input id="driveLink" type="url" placeholder="https://drive.google.com/drive/folders/..." value="">'+
+      '<div class="lookup-state" id="folderInfo">Chưa kiểm tra link.</div>'+
+      '</fieldset>'+
+      '<fieldset><legend>Tên hiển thị</legend>'+
+      '<label for="shelfName">Tên tủ sách</label>'+
+      '<input id="shelfName" type="text" placeholder="Tên muốn hiển thị trên Tàng Thư" value="">'+
+      '</fieldset>'+
+      '<div class="note">Tên <strong>Folder Google Drive</strong> là tên thật của thư mục trên Drive. Tên <strong>Tủ sách</strong> là tên hiển thị trong Tàng Thư và có thể đặt khác.</div>'+
+      '<div class="lookup-state" id="shelfMsg">Chưa kiểm tra link.</div>'+
+      '<div class="modal-actions"><button id="lookupBtn">Kiểm tra link</button><button id="shareBtn" disabled>Kiểm tra link trước</button></div>');
+
+    var setMessage=function(s){$('shelfMsg').textContent=s};
+    var setFolder=function(s){$('folderInfo').textContent=s};
+
+    var updateAction=function(){
+      var name=$('shelfName').value.trim();
+      var isDelete=!!state.found && name.toUpperCase()==='DELETE';
+      var btn=$('shareBtn');
+      var blocked=state.check && state.check.can_mutate===false;
+
+      if(state.mode==='create'){
+        btn.textContent='Tạo tủ';
+        btn.disabled=!state.checkedId || !name;
+      }else if(state.mode==='rename'){
+        if(isDelete){
+          btn.textContent='Xóa tủ';
+          btn.disabled=!state.checkedId || blocked;
+        }else{
+          btn.textContent='Đổi tên';
+          btn.disabled=!state.checkedId || !name || blocked;
+        }
+      }else if(state.mode==='delete'){
+        btn.textContent='Xóa tủ';
+        btn.disabled=!state.checkedId || blocked;
+      }else{
+        btn.textContent='Kiểm tra link trước';
+        btn.disabled=true;
+      }
+    };
+
+    var localLookup=function(id){
+      return branches().find(function(x){
+        return String(x.root_folder_id)===String(id);
+      }) || null;
+    };
+
+    $('lookupBtn').onclick=function(){
+      var link=$('driveLink').value.trim();
+      var id=parseDriveId(link);
+
+      if(!id){
+        state={mode:'none',found:null,checkedId:'',folderName:'',check:null};
+        setFolder('Không nhận ra Folder ID từ đường link Google Drive này.');
+        setMessage('Hãy kiểm tra lại đường link.');
+        $('shelfName').value='';
+        updateAction();
+        return;
+      }
+
+      if(!apiUrl){
+        var local=localLookup(id);
+        state.checkedId=id;
+        state.mode=local?'rename':'create';
+        state.folderName='';
+        state.found=local;
+        setFolder(local
+          ? 'Folder đã đăng ký trong Tàng Thư.'
+          : 'Apps Script chưa được cấu hình.');
+        $('shelfName').value=local?local.name:'';
+        setMessage(local
+          ? 'Đã nhận ra tủ hiện tại. Đổi tên hoặc nhập DELETE để xóa.'
+          : 'Link hợp lệ về cú pháp nhưng cần Apps Script để kiểm tra folder thật.');
+        updateAction();
+        return;
+      }
+
+      setFolder('Đang kiểm tra Google Drive...');
+      setMessage('Đang kiểm tra link...');
+      $('lookupBtn').disabled=true;
+
+      var url=apiUrl+'?action=check&drive='+encodeURIComponent(link);
+
+      fetch(url,{method:'GET',redirect:'follow'})
+        .then(function(r){
+          if(!r.ok) throw new Error('HTTP '+r.status);
+          return r.json();
+        })
+        .then(function(data){
+          if(!data.ok){
+            state={mode:'none',found:null,checkedId:'',folderName:'',check:data};
+            setFolder(data.error||'Không thể kiểm tra folder.');
+            setMessage('Link chưa sẵn sàng để đăng ký.');
+            $('shelfName').value='';
+            updateAction();
+            return;
+          }
+
+          var found=localLookup(data.folder_id);
+          state.checkedId=data.folder_id;
+          state.folderName=data.folder_name||'';
+          state.found=found;
+
+          if(found){
+            state.mode='rename';
+            $('shelfName').value=found.name;
+            setFolder('Folder Google Drive: '+(data.folder_name||'—'));
+            setMessage('Đã nhận ra tủ "'+found.name+'". Đổi tên hoặc nhập DELETE để xóa.');
+          }else{
+            state.mode='create';
+            $('shelfName').value='';
+            setFolder('Folder Google Drive: '+(data.folder_name||'—'));
+            setMessage('Folder chưa đăng ký. Nhập tên tủ rồi bấm Tạo tủ.');
+          }
+
+          updateAction();
+        })
+        .catch(function(err){
+          state={mode:'none',found:null,checkedId:'',folderName:'',check:null};
+          setFolder('Không gọi được Apps Script.');
+          setMessage(String(err));
+          updateAction();
+        })
+        .finally(function(){
+          $('lookupBtn').disabled=false;
+        });
+    };
+
+    $('shelfName').oninput=updateAction;
+
+    $('driveLink').oninput=function(){
+      state={mode:'none',found:null,checkedId:'',folderName:'',check:null};
+      setFolder('Đã thay đổi link. Bấm Kiểm tra link.');
+      setMessage('Chưa kiểm tra link.');
+      updateAction();
+    };
+
+    $('shareBtn').onclick=function(){
+      var link=$('driveLink').value.trim();
+      var id=parseDriveId(link);
+      var name=$('shelfName').value.trim();
+
+      if(!apiUrl || !id || id!==state.checkedId)return;
+
+      var isDelete=!!state.found && name.toUpperCase()==='DELETE';
+      var action=isDelete?'delete':state.mode;
+
+      if(action==='create' && !name)return;
+      if(action==='rename' && !name)return;
+      if(action==='delete' && !isDelete)return;
+      if(state.check && state.check.can_mutate===false){
+        setMessage('Tủ này đang trong thời gian chờ 24 giờ.');
+        updateAction();
+        return;
+      }
+
+      if(action==='delete'){
+        if(!window.confirm('Xóa tủ "'+(state.found ? state.found.name : '')+'" khỏi Tàng Thư?'))return;
+      }
+
+      var btn=$('shareBtn');
+      var lookup=$('lookupBtn');
+      btn.disabled=true;
+      lookup.disabled=true;
+      setMessage(action==='create'
+        ? 'Đang tạo tủ...'
+        : action==='rename'
+          ? 'Đang đổi tên tủ...'
+          : 'Đang xóa tủ...');
+
+      fetch(apiUrl,{
+        method:'POST',
+        headers:{'Content-Type':'text/plain;charset=utf-8'},
+        body:JSON.stringify({
+          action:action,
+          drive_url:link,
+          display_name:action==='delete' ? 'DELETE' : name
+        })
+      })
+        .then(function(r){
+          return r.text().then(function(t){
+            var data={};
+            try{data=JSON.parse(t||'{}')}catch(e){throw new Error('Apps Script trả về dữ liệu không hợp lệ: '+t)}
+            if(!r.ok) throw new Error('HTTP '+r.status);
+            return data;
+          });
+        })
+        .then(function(data){
+          if(!data.ok){
+            setMessage(data.error||'Không thể thực hiện thao tác.');
+            if(data.next_mutation_at){
+              setMessage((data.error||'Không thể thực hiện thao tác.')+
+                ' Có thể thử lại sau '+data.next_mutation_at+'.');
+            }
+            return;
+          }
+
+          var updateNotice='Nội dung cập nhật tủ sách sẽ xuất hiện sau khoảng 3 đến 5 phút, bạn vui lòng đợi sau đó tải lại trang.';
+
+          setMessage(action==='create'
+            ? 'Đã tạo tủ. '+updateNotice
+            : action==='rename'
+              ? 'Đã đổi tên tủ. '+updateNotice
+              : 'Đã xóa tủ. '+updateNotice);
+
+          setTimeout(function(){
+            closeModal();
+            location.reload();
+          },1800);
+        })
+        .catch(function(err){
+          setMessage('Lỗi: '+String(err));
+        })
+        .finally(function(){
+          lookup.disabled=false;
+          updateAction();
+        });
+    };
+  }
+
+  function showStory(){
+    var state={branch:null,story:null,storyUrl:'',registered:false};
+    var apiBase='https://tangthu-story-worker.mienluonngon.workers.dev';
+    var sourcesUrl='https://tangthu-story-worker.mienluonngon.workers.dev/story/sources';
+
+    modal('ĐĂNG KÝ ĐỌC ONLINE',
+      '<div class="story-main">'+
+        '<div class="story-info-panel">'+
+          '<div id="storyInfo" class="story-info">'+
+            '<div class="story-empty">Chưa đăng ký nội dung đọc.<br><span>Dán địa chỉ tủ nhận sách bên dưới để bắt đầu.</span></div>'+ 
+          '</div>'+ 
+          '<div class="story-nav">'+
+            '<button id="storyPrevBtn" disabled>&lt; Chương trước</button>'+ 
+            '<button id="storyNextBtn" disabled>Chương tiếp &gt;</button>'+ 
+            '<button id="storyJumpBtn" disabled>Đi đến</button>'+ 
+            '<button id="storySourcesBtn">Nguồn sách ...</button>'+ 
+          '</div>'+ 
+        '</div>'+ 
+        '<div class="story-inputs">'+
+          '<fieldset><legend>Địa chỉ truyện online</legend>'+ 
+            '<input id="storyUrl" type="url" placeholder="https://..." disabled>'+ 
+            '<button id="storyRegisterBtn" disabled>Đăng ký</button>'+ 
+          '</fieldset>'+ 
+          '<fieldset><legend>Địa chỉ nhận sách (Google Drive)</legend>'+ 
+            '<input id="storyShelfUrl" type="url" placeholder="https://drive.google.com/drive/folders/...">'+ 
+          '</fieldset>'+ 
+        '</div>'+ 
+      '</div>');
+
+    var branchesUrl='https://raw.githubusercontent.com/Zenkjt/tangthu-opds/main/config/branches.json';
+    var branchesList=[];
+
+    function loadJSON(url){
+      return fetch(url,{cache:'no-store'}).then(function(r){
+        if(!r.ok)throw new Error('HTTP '+r.status);
+        return r.json();
+      });
+    }
+
+    function branchFromUrl(value){
+      var raw=String(value||'').trim(),id='';
+      try{
+        var u=new URL(raw),m=u.pathname.match(/\/folders\/([a-zA-Z0-9_-]+)/);
+        id=m?m[1]:(u.searchParams.get('id')||'');
+      }catch(e){}
+      if(!id){
+        var m2=raw.match(/^[a-zA-Z0-9_-]{10,}$/);
+        if(m2)id=m2[0];
+      }
+      return id?(branchesList.find(function(b){
+        return b.enabled!==false&&String(b.root_folder_id)===String(id);
+      })||null):null;
+    }
+
+    function safeText(v){return esc(v==null?'':String(v));}
+
+    function renderInfo(message){
+      var h=$('storyInfo');
+      if(!state.registered||!state.story){
+        h.innerHTML='<div class="story-empty">Chưa đăng ký nội dung đọc.<br><span>'+
+          safeText(message||'Dán địa chỉ tủ nhận sách bên dưới để bắt đầu.')+'</span></div>';
+        return;
+      }
+      var s=state.story;
+      var current=s.current_toc_index!=null?s.current_toc_index:
+        (s.current_chapter!=null?s.current_chapter:
+        (s.target_chapter_number!=null?s.target_chapter_number:'—'));
+      var currentEntry=(s.chapters||[]).find(function(c){
+        return Number(c.toc_index)===Number(current);
+      });
+      var chapterTitle=currentEntry&&currentEntry.title
+        ?currentEntry.title
+        :(s.current_chapter_title||s.target_chapter_title||'');
+      var total=s.total_chapters!=null?s.total_chapters:
+        (s.chapters?s.chapters.length:'—');
+      '';
+      var cover=s.cover_url||s.cover||'';
+      var messageText=message||s.message||'Đang đọc';
+      h.innerHTML=
+        '<div class="story-info-body">'+
+          '<div class="story-cover">'+(cover?'<img src="'+safeText(cover)+'" alt="">':'<div class="story-cover-empty">TRUYỆN</div>')+'</div>'+ 
+          '<div class="story-details">'+
+            '<h2>'+safeText(s.title||'Không có tên')+'</h2>'+ 
+            '<div class="story-row"><span>Tải lên bởi:</span><b>'+safeText(s.author||'—')+'</b></div>'+ 
+            '<div class="story-row"><span>Nguồn:</span><b>'+safeText(s.site||s.source||'—')+'</b></div>'+ 
+            '<div class="story-row"><span>Tổng chương:</span><b>'+safeText(total)+'</b></div>'+ 
+            '<div class="story-row"><span>Đang đọc:</span><b>'+safeText(current)+(chapterTitle?' - '+safeText(chapterTitle):'')+'</b></div>'+ 
+            '<div class="story-row"><span>Trạng thái:</span><b>'+safeText(s.status||'Đang đọc')+'</b></div>'+ 
+            '<div class="story-row"><span>Tủ nhận sách:</span><b>'+safeText(state.branch?(state.branch.display_name||state.branch.name||state.branch.id):'—')+'</b></div>'+ 
+          '</div>'+ 
+          '<div class="story-message">'+safeText(messageText)+'</div>'+ 
+        '</div>';
+    }
+
+    function update(){
+      var ok=!!state.branch;
+      $('storyUrl').disabled=!ok;
+      $('storyRegisterBtn').disabled=!(ok&&$('storyUrl').value.trim());
+      var nav=!!(state.registered&&state.story);
+      $('storyPrevBtn').disabled=!nav;
+      $('storyNextBtn').disabled=!nav;
+      $('storyJumpBtn').disabled=!nav;
+    }
+
+    function call(action,payload){
+      if(!apiBase)return Promise.reject(new Error('Story backend chưa được cấu hình (TANGTHU_STORY_API_URL).'));
+      return fetch(apiBase.replace(/\/+$/,'')+'/story/'+action,{
+        method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload||{})
+      }).then(function(r){
+        return r.text().then(function(t){
+          var d={};
+          try{d=JSON.parse(t||'{}');}catch(e){throw new Error('Backend trả về dữ liệu không hợp lệ.');}
+          if(!r.ok||d.ok===false)throw new Error(d.error||('HTTP '+r.status));
+          return d;
+        });
+      });
+    }
+
+    function pollOperation(requestId,onDone){
+      var tries=0,maxTries=60;
+      function once(){
+        tries++;
+        fetch(apiBase.replace(/\/+$/,'')+'/story/operation?request_id='+encodeURIComponent(requestId),{cache:'no-store'})
+          .then(function(r){
+            return r.text().then(function(t){
+              var d={};
+              try{d=JSON.parse(t||'{}');}catch(e){throw new Error('Backend trả về dữ liệu không hợp lệ.');}
+              if(!r.ok||d.ok===false)throw new Error(d.error||('HTTP '+r.status));
+              return d.operation||{};
+            });
+          })
+          .then(function(op){
+            var status=String(op.status||'queued');
+            renderInfo(op.message||'Đang xử lý...');
+            if(status==='completed'){ onDone(op); return; }
+            if(status==='failed')throw new Error(op.message||'Xử lý thất bại.');
+            if(tries>=maxTries)throw new Error('Tác vụ vẫn đang xử lý. Hãy chờ rồi mở lại cửa sổ.');
+            setTimeout(once,2000);
+          })
+          .catch(function(e){renderInfo('Lỗi: '+e.message);update();});
+      }
+      once();
+    }
+
+    function register(){
+      var url=$('storyUrl').value.trim();
+      if(!state.branch||!url)return;
+      $('storyRegisterBtn').disabled=true;
+      renderInfo('Đang xếp hàng đăng ký truyện...');
+      call('register',{user_id:state.branch.id,folder_id:state.branch.root_folder_id,url:url}).then(function(r){
+        state.storyUrl=url;
+        renderInfo('Đã xếp hàng. Đang scrape danh mục chương...');
+        pollOperation(r.request_id,function(op){
+          state.story=op.story||null;
+          state.registered=!!state.story;
+          renderInfo(op.message||'Đăng ký truyện thành công.');
+          update();
+        });
+      }).catch(function(e){
+        state.registered=false; state.story=null;
+        renderInfo('Không thể đăng ký: '+e.message);
+        update();
+      });
+    }
+
+    function trigger(action,extra){
+      if(!state.registered||!state.story)return;
+      renderInfo('Đang xếp hàng xử lý...');
+      var p={user_id:state.branch.id,folder_id:state.branch.root_folder_id,story_id:state.story.story_id||state.story.id};
+      Object.assign(p,extra||{});
+      call(action,p).then(function(r){
+        pollOperation(r.request_id,function(op){
+          state.story=op.story||state.story;
+          renderInfo(op.message||'Đã cập nhật.');
+          update();
+        });
+      }).catch(function(e){renderInfo('Lỗi: '+e.message);update();});
+    }
+
+    function openSources(){
+      var old=$('storySourcesPopup'); if(old)old.remove();
+      var popup=document.createElement('div');
+      popup.id='storySourcesPopup'; popup.className='story-source-popup';
+      popup.innerHTML='<div class="story-source-head"><strong>Nguồn sách</strong><button id="storySourcesClose">X</button></div>'+ 
+        '<div id="storySourcesList" class="story-source-list">Đang tải danh sách nguồn...</div>'+ 
+        '<div class="story-source-foot"><button id="storySourcesRefresh">↻ Kiểm tra lại nguồn</button><span id="storySourcesUpdated"></span></div>';
+      document.body.appendChild(popup);
+      $('storySourcesClose').onclick=function(){popup.remove();};
+      $('storySourcesRefresh').onclick=function(){loadSources(true);};
+      loadSources(false);
+
+      function loadSources(force){
+        var list=$('storySourcesList'); list.textContent='Đang kiểm tra nguồn...';
+        fetch(sourcesUrl+(sourcesUrl.indexOf('?')>=0?'&':'?')+'t='+(force?Date.now():'1'),{cache:'no-store'})
+          .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
+          .then(function(data){
+            var items=Array.isArray(data)?data:(data.sources||[]);
+            if(!items.length){list.textContent='Chưa có dữ liệu nguồn sách.';return;}
+            list.innerHTML=items.map(function(x){
+              var ok=x.ok!==false&&x.status!=='fail'&&x.status!=='failed';
+              return '<div class="story-source-row"><span class="story-source-dot '+(ok?'ok':'fail')+'"></span>'+ 
+                '<span class="story-source-domain">'+safeText(x.domain||x.name||'—')+'</span>'+ 
+                '<span class="story-source-status">'+safeText(x.message||(ok?'Bình thường':'Không truy cập được'))+'</span></div>';
+            }).join('');
+            $('storySourcesUpdated').textContent=data.updated_at?'Cập nhật: '+data.updated_at:'';
+          })
+          .catch(function(e){list.innerHTML='<div class="story-source-error">Không lấy được trạng thái nguồn.<br>'+safeText(e.message)+'</div>';});
+      }
+    }
+
+    $('storyShelfUrl').oninput=function(){
+      clearTimeout(window.__tangthuStoryShelfTimer);
+      state.branch=null; state.registered=false; state.story=null;
+      renderInfo('Đang kiểm tra tủ nhận sách...'); update();
+      window.__tangthuStoryShelfTimer=setTimeout(function(){
+        var raw=$('storyShelfUrl').value.trim();
+        if(!raw){renderInfo('Dán địa chỉ tủ nhận sách bên dưới để bắt đầu.');update();return;}
+        var b=branchFromUrl(raw);
+        if(!b){renderInfo('Không tìm thấy tủ sách này trong Tàng Thư. Hãy tạo/đăng ký tủ sách trước.');update();return;}
+        state.branch=b;
+        if(apiBase){
+          renderInfo('Đã nhận tủ: '+(b.display_name||b.name||b.id)+'. Đang khôi phục truyện đang đọc...');
+          fetch(apiBase.replace(/\/+$/,'')+'/story/current-by-user?user_id='+encodeURIComponent(b.id)+'&folder_id='+encodeURIComponent(b.root_folder_id),{cache:'no-store'})
+            .then(function(r){return r.text().then(function(t){
+              var d={}; try{d=JSON.parse(t||'{}');}catch(e){throw new Error('Backend trả về dữ liệu không hợp lệ.');}
+              if(!r.ok||d.ok===false) return null;
+              return d;
+            });})
+            .then(function(d){
+              if(d&&d.story){
+                state.story=d.story;
+                state.registered=true;
+                state.storyUrl=d.story.source_url||'';
+                $('storyUrl').value=state.storyUrl;
+                renderInfo('Đã khôi phục truyện đang đọc.');
+              }else{
+                renderInfo('Đã nhận tủ: '+(b.display_name||b.name||b.id)+'. Có thể nhập link truyện.');
+              }
+              update();
+            })
+            .catch(function(e){
+              renderInfo('Đã nhận tủ: '+(b.display_name||b.name||b.id)+'. Có thể nhập link truyện.');
+              update();
+            });
+        }else{
+          renderInfo('Đã nhận tủ: '+(b.display_name||b.name||b.id)+'. Có thể nhập link truyện.');
+          update();
+        }
+      },250);
+    };
+    $('storyShelfUrl').onkeydown=function(e){e.stopPropagation();};
+    $('storyUrl').oninput=update;
+    $('storyUrl').onkeydown=function(e){e.stopPropagation();};
+    $('storyRegisterBtn').onclick=register;
+    $('storyPrevBtn').onclick=function(){trigger('previous');};
+    $('storyNextBtn').onclick=function(){trigger('next');};
+    $('storyJumpBtn').onclick=function(){
+      var c=state.story&&state.story.current_toc_index;
+      var v=window.prompt('Nhập số thứ tự trong mục lục:',c||1); if(v===null)return;
+      var n=parseInt(v,10); if(!Number.isFinite(n)||n<1){renderInfo('Vị trí TOC không hợp lệ.');return;}
+      trigger('jump',{toc_index:n});
+    };
+    $('storySourcesBtn').onclick=openSources;
+
+    loadJSON(branchesUrl).then(function(c){branchesList=Array.isArray(c.branches)?c.branches:[];update();})
+      .catch(function(e){renderInfo('Không tải được danh sách tủ sách: '+e.message);});
+  }
+
+  function runSearch(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';state.search=$('searchInput').value;state.selected=null;pushNavState();renderContent()}
+  $('upBtn').onclick=function(){var b=currentBranch();if(!b)return;if(state.search){state.search='';$('searchInput').value='';pushNavState();renderContent();return}if(state.parent!==b.root_folder_id){var f=findFile(b,state.parent);state.parent=f?f.parent_id:b.root_folder_id;state.selected=null;pushNavState();renderContent()}};
+  $('homeBtn').onclick=function(){state.search='';$('searchInput').value='';state.selected=null;if(branches().length){state.branch=branches()[0].id;state.parent=branches()[0].root_folder_id}pushNavState();renderBranches();renderContent()};
+  $('refreshBtn').onclick=function(){location.reload()};$('searchBtn').onclick=function(){$('searchInput').focus();$('searchInput').select()};$('searchDo').onclick=runSearch;$('searchInput').onkeydown=function(e){if(e.key==='Enter')runSearch()};$('shelfBtn').onclick=showShelf;
+  $('newsBtn').onclick=showNews;
+  $('storyBtn').onclick=showStory;$('infoBtn').onclick=showInfo;$('viewsBtn').onclick=function(){state.view=state.view==='shelves'?'list':'shelves';$('viewsBtn').querySelector('.lbl').textContent=state.view==='shelves'?'List':'Views';var main=document.querySelector('.main');if(main)main.classList.toggle('shelf-only',state.view==='shelves');renderContent()};
+ 
+  /* Font preview — standalone Tàng Thư window. */
+  var CPFONT_WASM_URL = 'https://raw.githubusercontent.com/CrazyCoder/crossglyph/1b0b5127451b8f870573075bb932098cac77de84/src/crossglyph/render/render.wasm';
+  var CPFONT_WORKER_URL = 'https://tangthu-download-test.mienluonngon.workers.dev';
+  var CPFONT_SAMPLE =
+    'Buổi sáng hôm nay, mùa đông đột nhiên đến, không báo trước. Vừa mới ngày hôm qua giời hãy còn nắng ấm và hanh, cái nắng về cuối tháng mười làm nứt nẻ đất ruộng, và làm giòn khô những chiếc lá rơi. Sơn và chị chơi cỏ gà ở ngoài cánh đồng còn thấy nóng bức, chảy mồ hôi.\n\n' +
+    'Thế mà qua một đêm mưa rào, trời bỗng đổi ra gió bấc, rồi cái lạnh ở đâu đến làm cho người ta tưởng đang ở giữa mùa đông rét mướt. Sơn tung chăn tỉnh dậy, nhưng không bước xuống giường ngay như mọi khi, còn ngồi thu tay vào trong bọc, bên cạnh đứa em bé vẫn nắm tay ngủ kỹ. Chị Sơn và mẹ Sơn đã trở dậy, đang ngồi quạt hỏa lò để pha nước chè uống. Sơn nhìn thấy mọi người đã mặc áo rét cả rồi.';
+
+  var CPFONT_DEVICES = [
+    {id: 1, name: 'X3', size: '528 × 792'},
+    {id: 0, name: 'X4', size: '480 × 800'}
+  ];
+  var CPFONT_STATE = {file:null, bytes:null, busy:false, token:0, device:0, browserUrl:null, browserFamily:null};
+
+  function fontPreviewIsFile(f){
+    return !!f && !f.folder && /\.(cpfont|ttf|otf)$/i.test(String(f.name||'')) && Number(f.size||0)<=25*1024*1024;
+  }
+  function cpfontIsFile(f){
+    return !!f && !f.folder && /\.cpfont$/i.test(String(f.name||'')) && Number(f.size||0)<=25*1024*1024;
+  }
+  function escFontName(s){return String(s||'').replace(/[&<>\"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c];});}
+  function cpfontImports(){return {wasi_snapshot_preview1:{fd_close:function(){return 0},fd_seek:function(){return 0n},fd_write:function(){return 0}}};}
+  function cpfontTitle(s){var e=document.getElementById('cpfontWindowTitle');if(e)e.innerHTML=s;}
+  function cpfontButtons(id){document.querySelectorAll('#cpfontWindow .cpfont-device-btn').forEach(function(b){b.classList.toggle('cpfont-device-active',Number(b.dataset.device)===Number(id));});}
+  function cpfontClose(){CPFONT_STATE.token++;CPFONT_STATE.busy=false;if(CPFONT_STATE.browserUrl){URL.revokeObjectURL(CPFONT_STATE.browserUrl);CPFONT_STATE.browserUrl=null;}CPFONT_STATE.file=null;CPFONT_STATE.bytes=null;var e=document.getElementById('cpfontWindow');if(e)e.remove();}
+
+  async function cpfontRender(deviceId,token){
+    if(!CPFONT_STATE.bytes||!CPFONT_STATE.file||token!==CPFONT_STATE.token)return;
+    var d=CPFONT_DEVICES.find(function(x){return Number(x.id)===Number(deviceId)});if(!d)return;
+    CPFONT_STATE.busy=true;CPFONT_STATE.device=deviceId;cpfontButtons(deviceId);cpfontTitle(escFontName(CPFONT_STATE.file.name)+' · '+d.name+' · đang render…');
+    try{
+      var wr=await fetch(CPFONT_WASM_URL,{cache:'force-cache'});if(!wr.ok)throw new Error('CrossGlyph WASM HTTP '+wr.status);
+      var inst=(await WebAssembly.instantiate(await wr.arrayBuffer(),cpfontImports())).instance;if(token!==CPFONT_STATE.token)return;
+      var ex=inst.exports,mem=ex.memory;if(!mem)throw new Error('CrossGlyph WASM không export memory');
+      ex.rc_init();if(!ex.rc_set_device(d.id))throw new Error('Không chọn được '+d.name);
+      var bytes=new Uint8Array(CPFONT_STATE.bytes),ptr=ex.malloc(bytes.length);new Uint8Array(mem.buffer,ptr,bytes.length).set(bytes);
+      if(!ex.rc_font_load(ptr,bytes.length))throw new Error('File CPFont không hợp lệ');
+      ex.rc_page_set_spec(5,0,0,1,100);var tb=new TextEncoder().encode(CPFONT_SAMPLE+'\0'),tp=ex.malloc(tb.length);new Uint8Array(mem.buffer,tp,tb.length).set(tb);
+      var lines=ex.rc_page_render(tp,0,0,0,0xFF);if(lines<0)throw new Error('CrossPoint render thất bại');
+      var pw=ex.rc_panel_width(),ph=ex.rc_panel_height(),sw=ex.rc_screen_width(),sh=ex.rc_screen_height();
+      var fb=new Uint8Array(mem.buffer,ex.rc_framebuffer(),ex.rc_framebuffer_size()),image=new ImageData(sw,sh);
+      for(var y=0;y<sh;y++)for(var x=0;x<sw;x++){var phyX=y,phyY=ph-1-x,bit=phyY*pw+phyX,on=(fb[bit>>3]&(0x80>>(bit&7)))!==0,v=on?255:0,i=(y*sw+x)*4;image.data[i]=v;image.data[i+1]=v;image.data[i+2]=v;image.data[i+3]=255;}
+      if(token!==CPFONT_STATE.token)return;var c=document.getElementById('cpfontCanvas');if(!c)return;c.width=sw;c.height=sh;c.getContext('2d').putImageData(image,0,0);cpfontTitle(escFontName(CPFONT_STATE.file.name)+' · '+d.name+' · '+lines+' dòng');
+    }catch(e){if(token===CPFONT_STATE.token){cpfontTitle(escFontName(CPFONT_STATE.file.name)+' · '+d.name+' · lỗi render');console.error('[CPFont]',e);}}finally{if(token===CPFONT_STATE.token)CPFONT_STATE.busy=false;}
+  }
+
+  async function browserFontRender(deviceId,token){
+    if(!CPFONT_STATE.bytes||!CPFONT_STATE.file||token!==CPFONT_STATE.token)return;
+    var d=CPFONT_DEVICES.find(function(x){return Number(x.id)===Number(deviceId)});if(!d)return;
+    CPFONT_STATE.busy=true;CPFONT_STATE.device=deviceId;cpfontButtons(deviceId);cpfontTitle(escFontName(CPFONT_STATE.file.name)+' · '+d.name+' · đang render…');
+    try{
+      if(!CPFONT_STATE.browserUrl){CPFONT_STATE.browserUrl=URL.createObjectURL(new Blob([CPFONT_STATE.bytes]));CPFONT_STATE.browserFamily='TangThuFont_'+Date.now();var face=new FontFace(CPFONT_STATE.browserFamily,'url("'+CPFONT_STATE.browserUrl+'")');await face.load();document.fonts.add(face);}
+      if(token!==CPFONT_STATE.token)return;var c=document.getElementById('cpfontCanvas');if(!c)return;
+      var parts=d.size.split('×');c.width=Number(parts[0]);c.height=Number(parts[1]);var ctx=c.getContext('2d');ctx.fillStyle='#fff';ctx.fillRect(0,0,c.width,c.height);ctx.fillStyle='#000';
+      var fontSize=Math.max(16,Math.round(c.width*0.052)),lineHeight=Math.round(fontSize*1.42);ctx.font=fontSize+'px "'+CPFONT_STATE.browserFamily+'"';ctx.textBaseline='top';var maxWidth=c.width-32,y=18,lines=0;
+      CPFONT_SAMPLE.split('\\n').forEach(function(paragraph){if(!paragraph){y+=Math.round(lineHeight*.55);return;}var words=paragraph.split(/\s+/),line='';words.forEach(function(word){var test=line?line+' '+word:word;if(ctx.measureText(test).width>maxWidth&&line){ctx.fillText(line,16,y);y+=lineHeight;lines++;line=word;}else line=test;});if(line){ctx.fillText(line,16,y);y+=lineHeight;lines++;}});
+      cpfontTitle(escFontName(CPFONT_STATE.file.name)+' · '+d.name+' · '+lines+' dòng');
+    }catch(e){if(token===CPFONT_STATE.token){cpfontTitle(escFontName(CPFONT_STATE.file.name)+' · '+d.name+' · lỗi render');console.error('[Font preview]',e);}}finally{if(token===CPFONT_STATE.token)CPFONT_STATE.busy=false;}
+  }
+
+  function cpfontSelectDevice(deviceId){if(!CPFONT_STATE.bytes||!CPFONT_STATE.file||CPFONT_STATE.busy)return;var token=++CPFONT_STATE.token;if(cpfontIsFile(CPFONT_STATE.file))cpfontRender(deviceId,token);else browserFontRender(deviceId,token);}
+
+
+  function cpfontFolderFiles(f){
+    try{
+      var b=currentBranch();
+      if(!b||!f||!f.parent_id)return [];
+      return filesOf(b).filter(function(x){
+        return !x.folder && x.parent_id===f.parent_id &&
+          /\.(cpfont|ttf|otf)$/i.test(String(x.name||'')) &&
+          Number(x.size||0)<=25*1024*1024;
+      }).sort(function(a,b){return String(a.name||'').localeCompare(String(b.name||''),'vi',{sensitivity:'base'});});
+    }catch(e){console.error('[Font download]',e);return [];}
+  }
+  function cpfontZipName(s){return String(s||'Font').replace(/[\\/:*?"<>|]/g,'_').trim()||'Font';}
+  function cpfontCRC32(bytes){
+    var table=cpfontCRC32.table||(cpfontCRC32.table=(function(){
+      var t=new Uint32Array(256);
+      for(var n=0;n<256;n++){var c=n;for(var k=0;k<8;k++)c=(c&1)?(0xEDB88320^(c>>>1)):(c>>>1);t[n]=c>>>0;}
+      return t;
+    })());
+    var c=0xFFFFFFFF;for(var i=0;i<bytes.length;i++)c=table[(c^bytes[i])&255]^(c>>>8);
+    return (c^0xFFFFFFFF)>>>0;
+  }
+  function cpfontU16(a,o,v){a[o]=v&255;a[o+1]=(v>>>8)&255;}
+  function cpfontU32(a,o,v){a[o]=v&255;a[o+1]=(v>>>8)&255;a[o+2]=(v>>>16)&255;a[o+3]=(v>>>24)&255;}
+  function cpfontZip(files){
+    var enc=new TextEncoder(),parts=[],central=[],offset=0,total=0;
+    files.forEach(function(item){
+      var name=enc.encode(item.path),data=new Uint8Array(item.bytes),crc=cpfontCRC32(data);
+      var local=new Uint8Array(30+name.length);
+      cpfontU32(local,0,0x04034b50);cpfontU16(local,4,20);cpfontU16(local,6,0x800);
+      cpfontU32(local,14,crc);cpfontU32(local,18,data.length);cpfontU32(local,22,data.length);
+      cpfontU16(local,26,name.length);local.set(name,30);parts.push(local,data);total+=local.length+data.length;
+      var cd=new Uint8Array(46+name.length);
+      cpfontU32(cd,0,0x02014b50);cpfontU16(cd,4,20);cpfontU16(cd,6,20);cpfontU16(cd,8,0x800);
+      cpfontU32(cd,16,crc);cpfontU32(cd,20,data.length);cpfontU32(cd,24,data.length);
+      cpfontU16(cd,28,name.length);cpfontU32(cd,42,offset);cd.set(name,46);central.push(cd);offset+=local.length+data.length;
+    });
+    var centralSize=central.reduce(function(n,x){return n+x.length},0),end=new Uint8Array(22);
+    cpfontU32(end,0,0x06054b50);cpfontU16(end,8,files.length);cpfontU16(end,10,files.length);
+    cpfontU32(end,12,centralSize);cpfontU32(end,16,total);
+    return new Blob(parts.concat(central,[end]),{type:'application/zip'});
+  }
+  function cpfontDownloadDirect(f){
+    var a=document.createElement('a');a.href=CPFONT_WORKER_URL+'/download/'+encodeURIComponent(f.id);
+    a.download=f.name||'font';a.rel='noopener';document.body.appendChild(a);a.click();a.remove();
+  }
+  async function cpfontDownloadSelected(items,folderName){
+    if(!items.length)return;
+    if(items.length===1){cpfontDownloadDirect(items[0]);return;}
+    var button=document.getElementById('cpfontDownloadZip'),old=button?button.textContent:'Download';
+    if(button){button.disabled=true;button.textContent='Đang tạo ZIP…';}
+    try{
+      var data=[];
+      for(var i=0;i<items.length;i++){
+        if(button)button.textContent='Đang tải '+(i+1)+'/'+items.length+'…';
+        var r=await fetch(CPFONT_WORKER_URL+'/download/'+encodeURIComponent(items[i].id),{cache:'no-store'});
+        if(!r.ok)throw new Error('Download Worker HTTP '+r.status);
+        data.push({path:cpfontZipName(folderName)+'/'+String(items[i].name||'font'),bytes:await r.arrayBuffer()});
+      }
+      var blob=cpfontZip(data),url=URL.createObjectURL(blob),a=document.createElement('a');
+      a.href=url;a.download=cpfontZipName(folderName)+'.zip';document.body.appendChild(a);a.click();a.remove();
+      setTimeout(function(){URL.revokeObjectURL(url)},1000);
+    }catch(e){console.error('[Font download]',e);alert('Không thể tạo ZIP: '+(e.message||e));}
+    finally{if(button){button.disabled=false;button.textContent=old;}}
+  }
+  function cpfontOpenDownloadMenu(f,anchor){
+    var old=document.getElementById('cpfontDownloadMenu');if(old)old.remove();
+    var files=cpfontFolderFiles(f),b=currentBranch(),parent=findFile(b,f.parent_id);
+    var folderName=parent?parent.name:(b&&b.display_name)||'Font';
+    var menu=document.createElement('div');menu.id='cpfontDownloadMenu';menu.className='cpfont-download-menu';
+    var html='<div class="cpfont-download-menu-title">'+escFontName(folderName)+'</div>';
+    if(!files.length)html+='<div class="cpfont-download-empty">Không tìm thấy font trong tủ này.</div>';
+    else{
+      files.forEach(function(x){html+='<label class="cpfont-download-item"><input type="checkbox" data-font-id="'+escFontName(x.id)+'"'+(x.id===f.id?' checked':'')+'><span>'+escFontName(x.name)+'</span></label>';});
+      html+='<div class="cpfont-download-foot"><span id="cpfontDownloadCount">1 file</span><button type="button" id="cpfontDownloadZip">Download</button></div>';
+    }
+    menu.innerHTML=html;document.getElementById('cpfontWindow').appendChild(menu);
+    function selected(){var ids={};menu.querySelectorAll('input[data-font-id]:checked').forEach(function(c){ids[c.dataset.fontId]=true;});return files.filter(function(x){return !!ids[x.id];});}
+    menu.querySelectorAll('input[data-font-id]').forEach(function(c){c.addEventListener('change',function(){var n=selected().length,el=document.getElementById('cpfontDownloadCount');if(el)el.textContent=n+' file'+(n===1?'':'s');});});
+    var dl=document.getElementById('cpfontDownloadZip');if(dl)dl.addEventListener('click',function(){var chosen=selected();if(chosen.length)cpfontDownloadSelected(chosen,folderName);});
+    setTimeout(function(){function outside(e){if(!menu.contains(e.target)&&e.target!==anchor){menu.remove();document.removeEventListener('click',outside);}}document.addEventListener('click',outside);},0);
+  }
+
+  async function showCPFontPreview(f){
+    if(!fontPreviewIsFile(f))return;cpfontClose();var isCP=cpfontIsFile(f),downloadUrl=CPFONT_WORKER_URL+'/download/'+encodeURIComponent(f.id);
+    var w=document.createElement('div');w.id='cpfontWindow';w.className='cpfont-window';
+    w.innerHTML='<div class="cpfont-window-box">' +
+      '<div class="cpfont-window-head"><div id="cpfontWindowTitle">Đang tải '+escFontName(f.name)+'…</div><div class="cpfont-head-actions"><button type="button" class="cpfont-download" id="cpfontDownloadButton">Download</button><button type="button" class="cpfont-close" aria-label="Đóng">×</button></div></div>'+
+      '<div class="cpfont-render-area"><div class="cpfont-loading" id="cpfontLoading">Đang tải '+(isCP?'CPFont':'font')+'…</div><canvas id="cpfontCanvas" class="cpfont-canvas"></canvas></div>'+
+      '<div class="cpfont-controls"><button type="button" class="cpfont-device-btn" data-device="1">X3<small>528 × 792</small></button><button type="button" class="cpfont-device-btn cpfont-device-active" data-device="0">X4<small>480 × 800</small></button></div></div>';
+    document.body.appendChild(w);w.querySelector('.cpfont-close').addEventListener('click',cpfontClose);w.querySelector('#cpfontDownloadButton').addEventListener('click',function(e){e.preventDefault();e.stopPropagation();cpfontOpenDownloadMenu(f,e.currentTarget);});w.querySelectorAll('.cpfont-device-btn').forEach(function(b){b.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();cpfontSelectDevice(Number(b.dataset.device));});});w.addEventListener('click',function(e){if(e.target===w)cpfontClose();});
+    CPFONT_STATE.file=f;CPFONT_STATE.bytes=null;CPFONT_STATE.busy=false;CPFONT_STATE.device=0;CPFONT_STATE.token++;
+    try{
+      var r=await fetch(CPFONT_WORKER_URL+'/download/'+encodeURIComponent(f.id),{method:'GET',cache:'no-store'});if(!r.ok)throw new Error('Download Worker HTTP '+r.status);var bytes=await r.arrayBuffer();
+      if(!bytes.byteLength)throw new Error('Worker trả về file rỗng');if(bytes.byteLength>25*1024*1024)throw new Error('File vượt giới hạn 25 MB');if(!document.getElementById('cpfontWindow'))return;
+      CPFONT_STATE.bytes=bytes;var loading=document.getElementById('cpfontLoading');if(loading)loading.remove();var token=++CPFONT_STATE.token;if(isCP)cpfontRender(0,token);else browserFontRender(0,token);
+    }catch(e){if(!document.getElementById('cpfontWindow'))return;cpfontTitle(escFontName(f.name)+' · lỗi');var loading=document.getElementById('cpfontLoading');if(loading)loading.textContent='Không thể xem trước font: '+(e.message||e);console.error('[Font preview]',e);}
+  }
+
+  var oldShowBook=showBook;
+  showBook=function(f){if(fontPreviewIsFile(f)){showCPFontPreview(f);return;}oldShowBook(f);};
+  fetch('catalog.json',{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('catalog '+r.status);return r.json()}).then(function(c){state.catalog=c;var bs=branches();if(!restoreNavState(history.state)&&bs.length){state.branch=bs[0].id;state.parent=bs[0].root_folder_id;history.replaceState(navState(),'')}renderBranches();renderContent();$('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách.'}).catch(function(e){$('statusLeft').textContent='Không tải được catalog.json';$('contentBody').innerHTML='<div class="empty">Không thể tải danh mục sách.<br><small>'+esc(e.message)+'</small></div>'});
+})();
+</script>
+
+<script>
+(function(){
+  var HELP_ID='shelfHelpBtn', PANEL_ID='shelfHelpPanel';
+  function isShelfModal(){
+    var t=document.getElementById('modalTitle');
+    if(!t)return false;
+    var s=(t.textContent||'').trim().toUpperCase();
+    return s==='ĐĂNG KÝ / ĐỔI TÊN TỦ SÁCH';
+  }
+  function sync(){
+    var title=document.getElementById('modalTitle'),body=document.getElementById('modalBody'),close=document.getElementById('modalClose');
+    if(!title||!body||!close)return;
+    var b=document.getElementById(HELP_ID),p=document.getElementById(PANEL_ID);
+    if(!isShelfModal()){if(b)b.remove();if(p)p.remove();return;}
+    if(!b){
+      b=document.createElement('button');b.id=HELP_ID;b.type='button';b.textContent='?';
+      b.title='Hướng dẫn đăng ký tủ sách';
+      b.onclick=function(){var x=document.getElementById(PANEL_ID);if(x)x.hidden=!x.hidden;};
+      close.parentNode.insertBefore(b,close);
+    }
+    if(!p){
+      p=document.createElement('div');p.id=PANEL_ID;p.className='shelf-help-panel';p.hidden=true;
+      p.innerHTML=
+        '<p>Đăng ký tủ sách để có thể dễ dàng tải sách từ thư mục của bạn về máy đọc sách qua hệ thống OPDS.</p>'+
+        '<p><strong>Chuẩn bị:</strong> thư mục Google chia sẻ của bạn cần được để chế độ public - any one with the link can view, chép sách, font vào đó, sách hỗ trợ EPUB, MOBI, AZW3, CBZ, LIT, CHM, PRC, PDF, ZIP, DOC, DOCX, TXT và MD; không giới hạn dung lượng file do Tàng Thư áp dụng.</p>'+
+        '<p>Dán địa chỉ thư mục đó vào ô <strong>"Đường link"</strong>, đặt tên tủ sao cho dễ nhớ (trong ô <strong>"Tên tủ"</strong>).</p>'+
+        '<p>Bấm <strong>kiểm tra link</strong>, rồi bấm <strong>tạo tủ</strong>.</p>'+
+        '<p>Bạn có thể đổi tên/xóa tủ bằng cách dán lại địa chỉ thư mục Google vào ô <strong>"Đường link"</strong>.</p>'+
+        '<p>Trên máy đọc sách của bạn, trong cài đặt OPDS server điền địa chỉ: <code>https://tangthu.pages.dev/opds</code></p>'+
+        '<p>Truy cập OPDS trên máy đọc sách để tải sách về theo nhu cầu.</p>'+
+        '<p>Nếu google folder của bạn không truy cập được vì bạn xóa hay khóa thư mục, tủ sách của bạn sẽ bị tạm treo và sau 1 tuần sẽ bị ẩn khỏi Tàng thư.</p>'+
+        '<p>Thư mục chứa sách của bạn hoàn toàn do bạn quản lý, không ai can thiệp thêm, xóa file được ngoài chính bạn. Tuy nhiên vẫn nên sử dụng tài khoản Google phụ cho việc này.</p>'+
+        '<p>Happy reading<br>Zenkjt</p>';
+      body.insertBefore(p,body.firstChild);
+    }
+  }
+  var obs=new MutationObserver(sync);
+  function start(){sync();var t=document.getElementById('modalTitle');if(t)obs.observe(t,{childList:true,subtree:true,characterData:true});}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
+})();
+</script>
+
+<script>
+(function(){
+  function installNewsModalUX(){
+    var title=document.getElementById('modalTitle');
+    var body=document.getElementById('modalBody');
+    var close=document.getElementById('modalClose');
+    if(!title||!body)return;
+
+    function isNews(){
+      return (title.textContent||'').trim()==='THƯ VIỆN NGUỒN TIN';
+    }
+
+    function removeHelp(){
+      var btn=document.getElementById('newsHelpBtn');
+      if(btn)btn.remove();
+      var panel=body.querySelector('.news-help-panel');
+      if(panel)panel.remove();
+    }
+
+    function ensureHelp(){
+      if(!isNews()){
+        removeHelp();
+        return;
+      }
+      if(document.getElementById('newsHelpBtn'))return;
+
+      var btn=document.createElement('button');
+      btn.id='newsHelpBtn';
+      btn.type='button';
+      btn.title='Hướng dẫn';
+      btn.setAttribute('aria-label','Hướng dẫn');
+      btn.textContent='?';
+
+      btn.addEventListener('click',function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        var panel=body.querySelector('.news-help-panel');
+        if(panel){
+          panel.remove();
+          return;
+        }
+
+        panel=document.createElement('div');
+        panel.className='news-help-panel';
+        panel.innerHTML=
+          '<p><strong>Đăng ký để có bản tin mỗi ngày trong tủ sách của bạn.</strong></p>'+
+          '<p>Tin được cập nhật mỗi ngày lúc 7h sáng giờ Hà Nội vào file <code>0neNews.epub</code> trong thư mục chia sẻ (tủ sách) của bạn để sẵn sàng tải về máy đọc sách qua OPDS.</p>'+
+          '<p><strong>Chuẩn bị:</strong> thư mục Google chia sẻ của bạn cần được để chế độ public - Anyone with the link can EDIT (để Tàng Thư có thể cập nhật file tin tức).</p>'+
+          '<p>Tick chọn nguồn tin bạn muốn + số bài báo lấy từ mỗi nguồn + ảnh hoặc chỉ text.</p>'+
+          '<p>Bạn cũng có thể đóng góp thêm nguồn tin bằng cách chép đường dẫn báo/chuyên mục vào ô "thêm nguồn" và bấm kiểm tra/thêm.</p>'+
+          '<p>Dán địa chỉ thư mục Google vào ô "Địa chỉ nhận tin" và bấm đăng ký. Sau này muốn điều chỉnh nguồn tin/số bài, bạn quay lại đây, dán địa chỉ tủ sách và thực hiện điều chỉnh.</p>'+
+          '<p>Happy reading.<br>Zenkjt</p>';
+
+        body.insertBefore(panel,body.firstChild);
+      });
+
+      if(close&&close.parentNode)close.parentNode.insertBefore(btn,close);
+      else title.appendChild(btn);
+    }
+
+    ensureHelp();
+    var observer=new MutationObserver(ensureHelp);
+    observer.observe(title,{childList:true,subtree:true,characterData:true});
+  }
+
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',installNewsModalUX);
+  }else{
+    installNewsModalUX();
+  }
+})();
+</script>
+
+
+<script id="tangthu-story-help-script">
+(function(){
+  var HELP_ID='storyHelpBtn', PANEL_ID='storyHelpPanel';
+  var HELP_HTML=
+    '<p><strong>Đăng ký để đọc truyện online trong tủ sách của bạn.</strong></p>'+
+    '<p>Theo thiết kế sau khi đăng ký thành công, Tàng thư sẽ tải chương truyện đầu tiên về file <code>0neStory.epub</code> và mục lục sách về file <code>0neStoryTOC.epub</code> trong thư mục chia sẻ (tủ sách) của bạn để sẵn sàng tải về máy đọc sách qua OPDS.</p>'+
+    '<p><strong>Chuẩn bị:</strong> thư mục Google chia sẻ của bạn cần được để chế độ public - Anyone with the link can EDIT (để Tàng Thư có thể cập nhật file truyện).</p>'+
+    '<p>Dán địa chỉ thư mục Google vào ô "Địa chỉ nhận sách", tên tủ sẽ tự động được hiển thị&nbsp; Dán địa chỉ sách vào ô "Địa chỉ truyện online" và bấm đăng ký, truyện đã sẵn sàng trong tủ của bạn.</p>'+
+    '<p>Bấm "Chương tiếp", "Đi đến..." hay "Chương trước" Tàng thư sẽ tải chương tương ứng về thay thế vào <code>0neStory.epub</code> trong tủ.</p>'+
+    '<p>Tàng thư có thể tạo cho bạn tool plugin dùng trên Crosspoint để điều khiển chuyển chương sách đang đọc cho bạn. bạn tải về, giải nén, chép vào .crosspoint/plugin để sử dụng.</p>'+
+    '<p>Sau này muốn chọn truyện khác, bạn quay lại đây, dán địa chỉ tủ sách và thực hiện điều chỉnh.</p>'+
+    '<p>Happy reading.<br>Zenkjt</p>';
+
+  function isStoryModal(){
+    var title=document.getElementById('modalTitle');
+    if(!title)return false;
+    return (title.textContent||'').trim()==='ĐĂNG KÝ ĐỌC ONLINE';
+  }
+
+  function sync(){
+    var title=document.getElementById('modalTitle');
+    var body=document.getElementById('modalBody');
+    var close=document.getElementById('modalClose');
+    if(!title||!body||!close)return;
+
+    var btn=document.getElementById(HELP_ID);
+    var panel=document.getElementById(PANEL_ID);
+
+    if(!isStoryModal()){
+      if(btn)btn.remove();
+      if(panel)panel.remove();
+      return;
+    }
+
+    if(!btn){
+      btn=document.createElement('button');
+      btn.id=HELP_ID;
+      btn.type='button';
+      btn.textContent='?';
+      btn.title='Hướng dẫn';
+      btn.onclick=function(){
+        var p=document.getElementById(PANEL_ID);
+        if(p)p.hidden=!p.hidden;
+      };
+      close.parentNode.insertBefore(btn,close);
+    }
+
+    if(!panel){
+      panel=document.createElement('div');
+      panel.id=PANEL_ID;
+      panel.className='story-help-panel';
+      panel.hidden=true;
+      panel.innerHTML=HELP_HTML;
+      body.insertBefore(panel,body.firstChild);
+    }
+  }
+
+  var observer=new MutationObserver(sync);
+  function start(){
+    sync();
+    var title=document.getElementById('modalTitle');
+    if(title)observer.observe(title,{childList:true,subtree:true,characterData:true});
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
+})();
+</script>
+
+<script id="tangthu-story-crosspoint-script">
+(function(){
+  var WORKER='https://tangthu-story-worker.mienluonngon.workers.dev';
+  var TTCONTROL_QR_BASE64='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AACZ3/QCTm2Zsn7DlsntW9a5xez1vHH02af4/NxvXKX3dvKNq2TPt2bf8+/t+XO+WgEAZKQVAEBGWgEAZKQVAEBGWgEAZKQVAEBGWgEAZKQVAEBGWgEAZKQVAEBGWgEAZKQVAEBGWgEAZH7TCzj15Rna525MmL9x5Wdn0W/ZS1+eWj+7Q264ceW33M1zX34zbNnzW/bSLF+tAAAy0goAICOtAAAy0goAICOtAAAy0goAICOtAAAy0goAICOtAAAy0goAICOtAAAy0goAICOtAAAyv+kF9Gangt9wY9L4e795476f/+b5Om9cpff2/OwZ3Tj6jZ18Yy8xZctTvGWds3y1AgDISCsAgIy0AgDISCsAgIy0AgDISCsAgIy0AgDISCsAgIy0AgDISCsAgIy0AgDISCsAgIy0AgDI/KYXMGl2bvyW+eHn6zy/njfOffboX75K5785+8TdMHs9Z82+wbY8R1vu5uz1fI+vVgAAGWkFAJCRVgAAGWkFAJCRVgAAGWkFAJCRVgAAGWkFAJCRVgAAGWkFAJCRVgAAGWkFAJCRVgAAmd/0AphxY3r57IT52d+cdWNq/Y2rdGOHnJu97zfu0Rbv7aUt98ibYYqvVgAAGWkFAJCRVgAAGWkFAJCRVgAAGWkFAJCRVgAAGWkFAJCRVgAAGWkFAJCRVgAAGWkFAJCRVgAAmd/0AphxYyL6DbNHn71K792j8zO6YctVOnfjes5epXNbns0tblzP89/c8q4756sVAEBGWgEAZKQVAEBGWgEAZKQVAEBGWgEAZKQVAEBGWgEAZKQVAEBGWgEAZKQVAEBGWgEAZKQVAEDmN72ASVtmaN8we+7vzTmf9eXreX5GN67SjaOfmz36jd889959f+/ZPPfeuftqBQCQkVYAABlpBQCQkVYAABlpBQCQkVYAABlpBQCQkVYAABlpBQCQkVYAABlpBQCQkVYAABlpBQCQ+U0voDc7j/09s3Pjz315vv17c+NvuHE3bxz93I11zu7k86PPvue/fPQtb+9ZvloBAGSkFQBARloBAGSkFQBARloBAGSkFQBARloBAGSkFQBARloBAGSkFQBARloBAGSkFQBARloBAGT+tsyRBgD47/PVCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAgI60AADLSCgAg8z8fhKisfaf+KwAAAABJRU5ErkJggg==';
+  var manifests=[
+    ['TTnextChap/manifest.json',{
+      name:'TTnextChap',version:'1.0.0',
+      description:'Tàng Thư — yêu cầu chuyển sang chương tiếp theo.'
+    }],
+    ['TTprevChap/manifest.json',{
+      name:'TTprevChap',version:'1.0.0',
+      description:'Tàng Thư — yêu cầu chuyển về chương trước.'
+    }]
+  ];
+
+  function enc(s){return new TextEncoder().encode(s)}
+  function u16(n){return new Uint8Array([n&255,n>>>8&255])}
+  function u32(n){return new Uint8Array([n&255,n>>>8&255,n>>>16&255,n>>>24&255])}
+  function cat(){
+    var parts=[].slice.call(arguments),out=new Uint8Array(parts.reduce(function(n,p){return n+p.length},0)),o=0;
+    parts.forEach(function(p){out.set(p,o);o+=p.length});
+    return out;
+  }
+  function crc32(a){
+    var c=0xffffffff;
+    for(var i=0;i<a.length;i++){
+      c^=a[i];
+      for(var j=0;j<8;j++)c=(c>>>1)^(0xedb88320&-(c&1));
+    }
+    return (c^0xffffffff)>>>0;
+  }
+  function zipEntry(name,text,offset){
+    var n=enc(name),d=(typeof text==='string'?enc(text):text),c=crc32(d);
+    var local=cat(new Uint8Array([80,75,3,4]),u16(20),u16(0),u16(0),u16(0),u16(0),u32(c),u32(d.length),u32(d.length),u16(n.length),u16(0),n,d);
+    var central=cat(new Uint8Array([80,75,1,2]),u16(20),u16(20),u16(0),u16(0),u16(0),u16(0),u32(c),u32(d.length),u32(d.length),u16(n.length),u16(0),u16(0),u16(0),u16(0),u32(0),u32(offset),n);
+    return {local:local,central:central};
+  }
+  function makeZip(files){
+    var offset=0,locals=[],centrals=[];
+    files.forEach(function(pair){
+      var e=zipEntry(pair[0],pair[1],offset);
+      locals.push(e.local);centrals.push(e.central);offset+=e.local.length;
+    });
+    var central=cat.apply(null,centrals);
+    var end=cat(new Uint8Array([80,75,5,6]),u16(0),u16(0),u16(files.length),u16(files.length),u32(central.length),u32(offset),u16(0));
+    return cat.apply(null,locals.concat([central,end]));
+  }
+  function device(title,description,endpoint,shelf){
+    return {
+      title:title,description:description,
+      browse:{
+        format:'json',url:WORKER+endpoint,method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({shelf_no:shelf}),items:'items',page_size:1,
+        fields:{title:'title',author:'author',id:'id',url:'url',description:'description'}
+      }
+    };
+  }
+  function makePlugin(shelf){
+    var files=[];
+    manifests.forEach(function(pair){files.push([pair[0],JSON.stringify(pair[1],null,2)+'\n'])});
+    files.push(['TTnextChap/device.json',JSON.stringify(device('Tàng Thư Story NEXT','Yêu cầu Tàng Thư xử lý chương tiếp theo.','/story/crosspoint-next',shelf),null,2)+'\n']);
+    files.push(['TTprevChap/device.json',JSON.stringify(device('Tàng Thư Story PREV','Yêu cầu Tàng Thư xử lý chương trước.','/story/crosspoint-previous',shelf),null,2)+'\n']);
+    var guide=[
+      'Gói zip này có 2 thư mục: TTnextChap và TTprevChap được thiết kế theo chuẩn plugin của CrossPoint.',
+      '- Bạn chép cả 2 thư mục vào .crosspoint/plugins/ trên thẻ nhớ máy đọc sách.',
+      '- Để điều khiển trên máy đọc sách, bạn chạy plugin tương ứng. Tàng thư sẽ tải chương tiếp theo / chương trước về thay thế vào 0neStory.epub trên tủ sách của bạn.',
+      '- Chuỗi sử dụng hợp lí trên máy đọc sách: đầu tiên bạn vào OPDS tải 0neStory.epub --> tiếp theo vào plugins chạy TTnextChap --> rồi đọc sách. Khi hết chương sẽ luôn có chương tiếp theo để tải về đọc.',
+      '',
+      'QR code là Shortcut TTcontrol dùng cho iPhone. Bạn scan nó để lấy về máy, đặt lên màn hình chính để có thể điều khiển trực tiếp Tàng thư/Story.',
+      'File QR đi kèm: TTcontrol_iCloud_QR.png',
+      '',
+      '*Lưu ý: có thể plugin lỗi, bạn vào https://tangthu.pages.dev để kiểm tra và điều khiển trực tiếp nhé.',
+      'Happy reading...',
+      'Zenkjt'
+    ].join('\n');
+    files.push(['Huong dan su dung.txt',guide+'\n']);
+    var qrBytes=Uint8Array.from(atob(TTCONTROL_QR_BASE64),function(c){return c.charCodeAt(0)});
+    files.push(['TTcontrol_iCloud_QR.png',qrBytes]);
+    var blob=new Blob([makeZip(files)],{type:'application/zip'});
+    var a=document.createElement('a');
+    a.href=URL.createObjectURL(blob);
+    a.download='Tàng thư controller plugin4crosspoint - shelf '+shelf+'.zip';
+    a.click();
+    setTimeout(function(){URL.revokeObjectURL(a.href)},1000);
+  }
+  function showMaker(){
+    var old=document.getElementById('ttCrosspointBackdrop');
+    if(old)old.remove();
+    var back=document.createElement('div');
+    back.id='ttCrosspointBackdrop';
+    back.className='tt-crosspoint-backdrop';
+    back.innerHTML=
+      '<div class="tt-crosspoint-modal" role="dialog" aria-modal="true" aria-labelledby="ttCrosspointTitle">'+
+        '<div class="tt-crosspoint-modal-head">'+
+          '<h3 id="ttCrosspointTitle">Tạo CrossPoint plugin</h3>'+
+          '<button id="ttCrosspointClose" class="tt-crosspoint-close" type="button" aria-label="Đóng" title="Đóng">×</button>'+
+        '</div>'+
+        '<p>Nhập số tủ. Tool sẽ tạo một ZIP chứa đầy đủ hai plugin <code>TTnextChap</code> và <code>TTprevChap</code>, kèm hướng dẫn sử dụng.</p>'+
+        '<label for="ttCrosspointShelf">Số tủ</label>'+
+        '<input id="ttCrosspointShelf" type="number" min="1" step="1" placeholder="Ví dụ: 3" autofocus>'+
+        '<div class="tt-crosspoint-actions">'+
+          '<button id="ttCrosspointMake" type="button">OK — tạo plugin</button>'+
+          '<button id="ttCrosspointCancel" type="button">Cancel</button>'+
+        '</div>'+
+        '<div id="ttCrosspointStatus" class="tt-crosspoint-status"></div>'+
+      '</div>';
+    document.body.appendChild(back);
+    var input=document.getElementById('ttCrosspointShelf');
+    var make=document.getElementById('ttCrosspointMake');
+    var cancel=document.getElementById('ttCrosspointCancel');
+    var closeBtn=document.getElementById('ttCrosspointClose');
+    var status=document.getElementById('ttCrosspointStatus');
+    function closeModal(){
+      document.removeEventListener('keydown',onModalKeydown);
+      back.remove();
+    }
+    function onModalKeydown(e){
+      if(e.key==='Escape'){e.preventDefault();closeModal();}
+    }
+    document.addEventListener('keydown',onModalKeydown);
+    closeBtn.onclick=closeModal;
+    cancel.onclick=closeModal;
+    function submit(){
+      var shelf=Number(input.value);
+      if(!Number.isInteger(shelf)||shelf<1){
+        status.className='tt-crosspoint-status err';
+        status.textContent='Số tủ phải là số nguyên >= 1.';
+        input.focus();
+        return;
+      }
+      make.disabled=true;
+      status.className='tt-crosspoint-status';
+      status.textContent='Đang tạo plugin...';
+      try{
+        makePlugin(shelf);
+        status.textContent='Đã tạo plugin cho tủ '+shelf+'.';
+        setTimeout(closeModal,350);
+      }catch(e){
+        make.disabled=false;
+        status.className='tt-crosspoint-status err';
+        status.textContent='Không thể tạo plugin: '+e.message;
+      }
+    }
+    make.onclick=submit;
+    input.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();submit()}});
+    back.addEventListener('click',function(e){if(e.target===back)closeModal()});
+    setTimeout(function(){input.focus()},0);
+  }
+  function injectButton(){
+    var nav=document.querySelector('.story-nav');
+    if(!nav||document.getElementById('storyCrosspointBtn'))return;
+    var btn=document.createElement('button');
+    btn.id='storyCrosspointBtn';
+    btn.type='button';
+    btn.textContent='Tools điều khiển';
+    btn.disabled=false;
+    btn.addEventListener('click',showMaker);
+    nav.appendChild(btn);
+  }
+  var observer=new MutationObserver(injectButton);
+  function start(){
+    injectButton();
+    observer.observe(document.body,{childList:true,subtree:true});
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
+})();
+</script>
+
+</body>
+</html>
