@@ -5,6 +5,13 @@ from pathlib import Path
 path = Path("docs/index.html")
 text = path.read_text(encoding="utf-8")
 
+# Keep the three registration/export actions usable on narrow mobile screens.
+text = text.replace(
+    ".modal-actions{display:flex;justify-content:flex-end;gap:6px;margin-top:12px}",
+    ".modal-actions{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;margin-top:12px}",
+    1,
+)
+
 # The Web App URL is injected at build time from the repository variable:
 # TANGTHU_APPS_SCRIPT_URL
 APPS_SCRIPT_URL = os.environ.get("TANGTHU_APPS_SCRIPT_URL", "").strip()
@@ -33,8 +40,9 @@ new_fn = r"""
       '<input id="shelfName" type="text" placeholder="Tên muốn hiển thị trên Tàng Thư" value="">'+
       '</fieldset>'+
       '<div class="note">Tên <strong>Folder Google Drive</strong> là tên thật của thư mục trên Drive. Tên <strong>Tủ sách</strong> là tên hiển thị trong Tàng Thư và có thể đặt khác.</div>'+
+      '<div class="note">Nút <strong>TTlist.xlsx</strong> xuất danh mục sách của toàn bộ Tàng Thư và lưu vào thư mục gốc của tủ đang dán link. Danh mục gồm 13 định dạng sách; không tính font.</div>'+
       '<div class="lookup-state" id="shelfMsg">Chưa kiểm tra link.</div>'+
-      '<div class="modal-actions"><button id="lookupBtn">Kiểm tra link</button><button id="shareBtn" disabled>Kiểm tra link trước</button></div>');
+      '<div class="modal-actions"><button id="lookupBtn">Kiểm tra link</button><button id="shareBtn" disabled>Kiểm tra link trước</button><button id="inventoryBtn" disabled>TTlist.xlsx</button></div>');
 
     var setMessage=function(s){$('shelfMsg').textContent=s};
     var setFolder=function(s){$('folderInfo').textContent=s};
@@ -63,6 +71,9 @@ new_fn = r"""
         btn.textContent='Kiểm tra link trước';
         btn.disabled=true;
       }
+      var inventory=$('inventoryBtn');
+      inventory.disabled=!apiUrl || !state.checkedId || !state.found || state.found.enabled===false;
+      inventory.title=inventory.disabled?'Chỉ xuất danh mục vào tủ đã đăng ký và đang hoạt động.':'Xuất danh mục toàn Tàng Thư vào tủ này.';
     };
 
     var localLookup=function(id){
@@ -159,6 +170,28 @@ new_fn = r"""
       setFolder('Đã thay đổi link. Bấm Kiểm tra link.');
       setMessage('Chưa kiểm tra link.');
       updateAction();
+    };
+
+    $('inventoryBtn').onclick=function(){
+      var id=state.checkedId;
+      if(!id || !state.found)return;
+      var button=$('inventoryBtn');
+      var lookup=$('lookupBtn');
+      button.disabled=true;
+      lookup.disabled=true;
+      setMessage('Đang lấy catalog mới nhất và tạo TTlist.xlsx…');
+      fetch('/api/export-inventory',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({folder_id:id})
+      })
+        .then(function(r){return r.json().then(function(data){if(!r.ok)throw new Error(data.error||('HTTP '+r.status));return data;});})
+        .then(function(data){
+          if(!data.ok)throw new Error(data.error||'Không thể tạo danh mục.');
+          setMessage('Đã tạo '+(data.filename||'TTlist.xlsx')+' trong thư mục gốc của tủ "'+state.found.name+'". '+(data.book_count||0)+' file sách, '+(data.shelf_count||0)+' tủ.');
+        })
+        .catch(function(err){setMessage('Không xuất được TTlist.xlsx: '+String(err));})
+        .finally(function(){button.disabled=false;lookup.disabled=false;updateAction();});
     };
 
     $('shareBtn').onclick=function(){
