@@ -280,9 +280,9 @@ crosspoint_script = r"""
     var files=[];
     if(wantPlugin){
       manifests.forEach(function(pair){files.push([pair[0],JSON.stringify(pair[1],null,2)+'\n'])});
-      files.push(['TTnextChap/device.json',JSON.stringify(device('Tàng Thư Story NEXT','Yêu cầu Tàng Thư xử lý chương tiếp theo.','/story/crosspoint-next',shelf),null,2)+'\n']);
-      files.push(['TTprevChap/device.json',JSON.stringify(device('Tàng Thư Story PREV','Yêu cầu Tàng Thư xử lý chương trước.','/story/crosspoint-previous',shelf),null,2)+'\n']);
-      var guide=['Gói plugin Tàng Thư cho CrossPoint gồm TTnextChap và TTprevChap.','- Chép cả hai thư mục vào .crosspoint/plugins/ trên thẻ nhớ máy đọc sách.','- Chạy plugin tương ứng để yêu cầu Tàng Thư tải chương tiếp theo hoặc chương trước vào 0neStory.epub.','- Tải 0neStory.epub qua OPDS trước khi sử dụng plugin.','Happy reading...','Zenkjt'].join('\n');
+      files.push(['TTnextChap/device.json',JSON.stringify(device('Tàng Thư Story NEXT','Yêu cầu Tàng Thư tải chương tiếp theo.','/story/crosspoint-next',shelf),null,2)+'\n']);
+      files.push(['TTprevChap/device.json',JSON.stringify(device('Tàng Thư Story PREV','Yêu cầu Tàng Thư tải chương trước.','/story/crosspoint-previous',shelf),null,2)+'\n']);
+      var guide=['Gói plugin Tàng Thư cho CrossPoint gồm TTnextChap và TTprevChap.','- Chép cả hai thư mục vào .crosspoint/plugins/ trên thẻ nhớ máy đọc sách.','- Chạy plugin tương ứng để yêu cầu Tàng Thư tải chương tiếp theo hoặc chương trước vào 0neStory.epub.','Happy reading...','Zenkjt'].join('\n');
       files.push(['CrossPoint/Huong dan su dung.txt',guide+'\n']);
     }
     if(wantIOS){
@@ -303,7 +303,7 @@ crosspoint_script = r"""
     var back=document.createElement('div');back.id='ttCrosspointBackdrop';back.className='tt-crosspoint-backdrop';
     back.innerHTML='<div class="tt-crosspoint-modal" role="dialog" aria-modal="true" aria-labelledby="ttCrosspointTitle">'+
       '<div class="tt-crosspoint-modal-head"><h3 id="ttCrosspointTitle">Tải công cụ điều khiển</h3><button id="ttCrosspointClose" class="tt-crosspoint-close" type="button" aria-label="Đóng">×</button></div>'+
-      '<p>Bạn có muốn tải về:</p>'+
+      '<p>Bạn muốn tải về:</p>'+
       '<label class="tt-crosspoint-option"><input id="ttCrosspointPlugin" type="checkbox"> <span>plugin chuyển chương trên CrossPoint</span></label>'+
       '<label class="tt-crosspoint-option"><input id="ttCrosspointIOS" type="checkbox"> <span>shortcut điều khiển chuyển chương trên iPhone/iPad</span></label>'+
       '<div class="tt-crosspoint-actions"><button id="ttCrosspointMake" type="button">Tải về</button><button id="ttCrosspointCancel" type="button">Hủy</button></div>'+
