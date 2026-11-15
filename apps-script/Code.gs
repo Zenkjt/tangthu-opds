@@ -739,6 +739,7 @@ function doPost(e) {
 
     if (action === 'story_trigger') return jsonResponse(storyTrigger_(body));
     if (action === 'story_download') return jsonResponse(storyDownload_(body));
+    if (action === 'story_file') return jsonResponse(storyFile_(body));
 
     return jsonResponse({
 
@@ -1834,6 +1835,58 @@ function findStoryEpub_(folderId) {
     size: Number(file.getSize() || 0),
     modifiedMs: file.getLastUpdated().getTime()
   };
+}
+
+
+
+/**
+ * Resolve the current 0neStory.epub in an active registered shelf.
+ * The Worker supplies folder_id from branches.json; the token prevents
+ * unauthenticated callers from using this Drive lookup bridge.
+ */
+function storyFile_(body) {
+  var props = PropertiesService.getScriptProperties();
+  var expectedToken = String(props.getProperty('TANGTHU_UPLOAD_TOKEN') || '');
+  var suppliedToken = String(body.token || '');
+  if (!expectedToken || suppliedToken !== expectedToken) {
+    return { ok: false, error: 'Unauthorized story file lookup.' };
+  }
+
+  var folderId = String(body.folder_id || '').trim();
+  if (!folderId) return { ok: false, error: 'Missing shelf folder.' };
+
+  var config = readConfig_();
+  var branch = null;
+  for (var i = 0; i < config.branches.length; i++) {
+    var candidate = config.branches[i];
+    if (
+      String(candidate.root_folder_id || '').trim() === folderId &&
+      candidate.enabled !== false &&
+      candidate.status !== 'suspended'
+    ) {
+      branch = candidate;
+      break;
+    }
+  }
+  if (!branch) {
+    return { ok: false, error: 'Shelf is not an active registered Tàng Thư shelf.' };
+  }
+
+  try {
+    var file = findStoryEpub_(folderId);
+    if (!file) return { ok: false, error: '0neStory.epub chưa có trong tủ sách.' };
+    return {
+      ok: true,
+      file_id: file.id,
+      filename: STORY_DOWNLOAD_FILENAME,
+      size: file.size,
+      modified_at: new Date(file.modifiedMs).toISOString(),
+      shelf_id: String(branch.id || ''),
+      shelf_name: String(branch.display_name || branch.folder_name || '')
+    };
+  } catch (err) {
+    return { ok: false, error: String(err && err.message ? err.message : err) };
+  }
 }
 
 function storyDownloadResponse_(file, shelfNo, direction) {

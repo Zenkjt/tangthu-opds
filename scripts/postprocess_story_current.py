@@ -133,7 +133,7 @@ css = """
 .tt-crosspoint-actions button{padding:11px 20px;font-size:16px;border:1px solid #888;border-radius:6px;background:#fff;cursor:pointer}
 .tt-crosspoint-actions button:hover,.tt-crosspoint-close:hover{background:#f3f3f3}
 #ttCrosspointCancel{margin-left:auto}
-.tt-crosspoint-option{display:flex!important;align-items:flex-start;gap:10px;margin:12px 0!important;font-weight:500!important;line-height:1.4}.tt-crosspoint-option input{width:20px!important;height:20px;flex:0 0 auto;margin:1px 0 0;padding:0}
+.tt-crosspoint-path{margin:14px 0 8px}.tt-crosspoint-path label{display:block;font-weight:600;margin-bottom:7px}.tt-crosspoint-path input{width:100%;box-sizing:border-box;padding:12px;font-size:16px;border:1px solid #aaa;border-radius:6px}\n.tt-crosspoint-option{display:flex!important;align-items:flex-start;gap:10px;margin:12px 0!important;font-weight:500!important;line-height:1.4}.tt-crosspoint-option input{width:20px!important;height:20px;flex:0 0 auto;margin:1px 0 0;padding:0}
 .tt-crosspoint-status{margin-top:12px;white-space:pre-line}
 .tt-crosspoint-status.err{color:#a00}
 @media(max-width:600px){
@@ -230,6 +230,10 @@ crosspoint_script = r"""
     ['TTprevChap/manifest.json',{
       name:'TTprevChap',version:'1.0.0',
       description:'Tàng Thư — yêu cầu chuyển về chương trước.'
+    }],
+    ['TTdownChap/manifest.json',{
+      name:'TTdownChap',version:'1.0.0',
+      description:'Tàng Thư — tải 0neStory.epub về máy đọc sách.'
     }]
   ];
 
@@ -279,10 +283,30 @@ crosspoint_script = r"""
   function makePlugin(shelf,wantPlugin,wantIOS){
     var files=[];
     if(wantPlugin){
+      var destDir=String(document.getElementById('ttCrosspointDestDir').value||'').trim();
       manifests.forEach(function(pair){files.push([pair[0],JSON.stringify(pair[1],null,2)+'\n'])});
       files.push(['TTnextChap/device.json',JSON.stringify(device('Tàng Thư Story NEXT','Yêu cầu Tàng Thư tải chương tiếp theo.','/story/crosspoint-next',shelf),null,2)+'\n']);
       files.push(['TTprevChap/device.json',JSON.stringify(device('Tàng Thư Story PREV','Yêu cầu Tàng Thư tải chương trước.','/story/crosspoint-previous',shelf),null,2)+'\n']);
-      var guide=['Gói plugin Tàng Thư cho CrossPoint gồm TTnextChap và TTprevChap.','- Chép cả hai thư mục vào .crosspoint/plugins/ trên thẻ nhớ máy đọc sách.','- Chạy plugin tương ứng để yêu cầu Tàng Thư tải chương tiếp theo hoặc chương trước vào 0neStory.epub.','Happy reading...','Zenkjt'].join('\n');
+      var down={
+        title:'Tàng Thư — Download Story',
+        description:'Tải 0neStory.epub của tủ sách này.',
+        browse:{
+          format:'json',
+          url:WORKER+'/native/catalog?shelf_no='+encodeURIComponent(shelf),
+          method:'GET',
+          items:'items',
+          page_size:1,
+          fields:{title:'title',author:'author',id:'id'}
+        },
+        download:{
+          url:WORKER+'/native/download?shelf_no='+encodeURIComponent(shelf),
+          method:'GET',
+          filename:'0neStory.epub'
+        }
+      };
+      if(destDir)down.download.dest_dir=destDir;
+      files.push(['TTdownChap/device.json',JSON.stringify(down,null,2)+'\n']);
+      var guide=['Gói plugin Tàng Thư cho CrossPoint gồm TTnextChap, TTprevChap và TTdownChap.','- Chép cả ba thư mục vào .crosspoint/plugins/ trên thẻ nhớ máy đọc sách.','- TTnextChap / TTprevChap: yêu cầu Tàng Thư chuyển chương.','- TTdownChap: chọn tên sách để tải trực tiếp 0neStory.epub của tủ đã khai báo.','- Thư mục tải: '+(destDir||'để trống — thư mục gốc thẻ SD')+'.','Happy reading...','Zenkjt'].join('\n');
       files.push(['CrossPoint/Huong dan su dung.txt',guide+'\n']);
     }
     if(wantIOS){
@@ -304,7 +328,8 @@ crosspoint_script = r"""
     back.innerHTML='<div class="tt-crosspoint-modal" role="dialog" aria-modal="true" aria-labelledby="ttCrosspointTitle">'+
       '<div class="tt-crosspoint-modal-head"><h3 id="ttCrosspointTitle">Tải công cụ điều khiển</h3><button id="ttCrosspointClose" class="tt-crosspoint-close" type="button" aria-label="Đóng">×</button></div>'+
       '<p>Bạn muốn tải về:</p>'+
-      '<label class="tt-crosspoint-option"><input id="ttCrosspointPlugin" type="checkbox"> <span>plugin chuyển chương trên CrossPoint</span></label>'+
+      '<div class="tt-crosspoint-path"><label for="ttCrosspointDestDir">Thư mục tải sách trên CrossPoint</label><input id="ttCrosspointDestDir" type="text" placeholder="/books/"> <small>Ví dụ: /books/ (để trống sẽ tải về thư mục gốc)</small></div>'+
+      '<label class="tt-crosspoint-option"><input id="ttCrosspointPlugin" type="checkbox"> <span>plugin chuyển chương trên CrossPoint (NEXT/PREV/DOWNLOAD)</span></label>'+
       '<label class="tt-crosspoint-option"><input id="ttCrosspointIOS" type="checkbox"> <span>shortcut điều khiển chuyển chương trên iPhone/iPad</span></label>'+
       '<div class="tt-crosspoint-actions"><button id="ttCrosspointMake" type="button">Tải về</button><button id="ttCrosspointCancel" type="button">Hủy</button></div>'+
       '<div id="ttCrosspointStatus" class="tt-crosspoint-status"></div></div>';
