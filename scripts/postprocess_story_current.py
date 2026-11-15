@@ -247,8 +247,8 @@ crosspoint_script = r"""
       description:'Tàng Thư — yêu cầu chuyển về chương trước.'
     }],
     ['TTdownChap/manifest.json',{
-      name:'TTdownChap',version:'1.0.0',
-      description:'Tàng Thư — tải 0neStory.epub về máy đọc sách.'
+      name:'TTdownChap',version:'0.1.2',
+      description:'Tải EPUB trực tiếp từ Tàng Thư về thẻ nhớ.'
     }]
   ];
 
@@ -303,15 +303,20 @@ crosspoint_script = r"""
       files.push(['TTnextChap/device.json',JSON.stringify(device('Tàng Thư Story NEXT','Yêu cầu Tàng Thư tải chương tiếp theo.','/story/crosspoint-next',shelf),null,2)+'\n']);
       files.push(['TTprevChap/device.json',JSON.stringify(device('Tàng Thư Story PREV','Yêu cầu Tàng Thư tải chương trước.','/story/crosspoint-previous',shelf),null,2)+'\n']);
       var down={
-        title:'Tàng Thư — Download Story',
-        description:'Tải 0neStory.epub của tủ sách này.',
+        title:'Tàng Thư Downloader',
+        description:'Tải EPUB thử nghiệm trực tiếp về thiết bị.',
         browse:{
           format:'json',
-          url:WORKER+'/native/catalog?shelf_no='+encodeURIComponent(shelf),
+          url:WORKER+'/native/catalog',
           method:'GET',
           items:'items',
-          page_size:10,
-          fields:{title:'title',author:'author',id:'id',url:'url',description:'description'}
+          fields:{
+            title:'title',
+            author:'author',
+            id:'id',
+            url:'url'
+          },
+          page_size:10
         },
         download:{
           url:'{url}',
