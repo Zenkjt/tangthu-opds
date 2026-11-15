@@ -401,7 +401,7 @@ button:disabled{cursor:default;color:#777}
   </div>
   <div class="searchbar">
     <label for="searchInput">🔎 Tìm kiếm:</label>
-    <input id="searchInput" type="search" placeholder="Nhập tên sách, tác giả, từ khóa..." autocomplete="off">
+    <input id="searchInput" type="search" placeholder="Nhập tên file, định dạng hoặc từ khóa..." autocomplete="off">
     <button id="searchDo">Tìm</button>
     <select id="searchScope" title="Phạm vi tìm kiếm"><option value="all">Tất cả tủ sách</option><option value="current">Tủ đang mở</option></select>
   </div>
@@ -417,7 +417,7 @@ button:disabled{cursor:default;color:#777}
 <script>
 (function(){
   'use strict';
-  var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:''};
+  var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:'',searchScope:'all'};
   var $=function(id){return document.getElementById(id)};
   var esc=function(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
   var size=function(n){n=Number(n)||0;if(n<1024)return n+' B';if(n<1048576)return (n/1024).toFixed(1)+' KB';if(n<1073741824)return (n/1048576).toFixed(1)+' MB';return (n/1073741824).toFixed(2)+' GB'};
@@ -437,9 +437,42 @@ button:disabled{cursor:default;color:#777}
   function folderPath(b,id){var out=[];var guard=0;while(id&&id!==b.root_folder_id&&guard++<100){var f=findFile(b,id);if(!f)break;out.unshift(f.name);id=f.parent_id}return out}
   function displayDate(s){if(!s)return '';var d=new Date(s);return isNaN(d)?s:d.toLocaleString('vi-VN',{dateStyle:'short',timeStyle:'short'})}
 
+  // Vietnamese-insensitive normalization: bỏ dấu, coi đ như d và không phân biệt hoa/thường.
+  function normalizeSearchText(value){
+    return String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[đĐ]/g,'d').toLocaleLowerCase('vi-VN');
+  }
+  function editDistanceAtMostOne(a,b){
+    if(a===b)return true;
+    if(Math.abs(a.length-b.length)>1)return false;
+    var i=0,j=0,errors=0;
+    while(i<a.length&&j<b.length){
+      if(a.charAt(i)===b.charAt(j)){i++;j++;continue}
+      if(++errors>1)return false;
+      if(a.length>b.length)i++;
+      else if(b.length>a.length)j++;
+      else {i++;j++}
+    }
+    if(i<a.length||j<b.length)errors++;
+    return errors<=1;
+  }
+  function fuzzySearchMatch(query,values){
+    var q=normalizeSearchText(query).trim();
+    if(!q)return true;
+    var haystack=normalizeSearchText(values.join(' '));
+    if(haystack.indexOf(q)>=0)return true;
+    var queryWords=q.split(/[^a-z0-9]+/).filter(Boolean);
+    var targetWords=haystack.split(/[^a-z0-9]+/).filter(Boolean);
+    return queryWords.length>0&&queryWords.every(function(word){
+      return targetWords.some(function(candidate){
+        if(candidate.indexOf(word)>=0)return true;
+        return word.length>=3&&editDistanceAtMostOne(word,candidate);
+      });
+    });
+  }
+
   // Browser history for navigation inside Tàng Thư.
   function navState(){
-    return {tangthu:true,branch:state.branch,parent:state.parent,search:state.search||''};
+    return {tangthu:true,branch:state.branch,parent:state.parent,search:state.search||'',searchScope:state.searchScope||'all'};
   }
   function pushNavState(){
     history.pushState(navState(),'');
@@ -450,8 +483,10 @@ button:disabled{cursor:default;color:#777}
     var b=currentBranch();
     state.parent=b?(s.parent||b.root_folder_id):null;
     state.search=s.search||'';
+    state.searchScope=s.searchScope||'all';
     state.selected=null;
     $('searchInput').value=state.search;
+    $('searchScope').value=state.searchScope;
     renderBranches();
     renderContent();
     return true;
@@ -479,10 +514,31 @@ button:disabled{cursor:default;color:#777}
   function renderContent(){
     var b=currentBranch();var body=$('contentBody');body.innerHTML='';
     if(!b){$('pathBar').textContent='Tàng Thư';$('itemCount').textContent='';body.innerHTML='<div class="empty">Chưa có tủ sách. Hãy dùng nút <strong>Tủ sách</strong> để tạo tủ mới.</div>';return}
-    var path=[b.name].concat(folderPath(b,state.parent));$('pathBar').textContent=path.join('  ›  ');
+
+    var q=state.search.trim();
+    var scope=$('searchScope').value||state.searchScope||'all';
+    state.searchScope=scope;
+    var path=[b.name].concat(folderPath(b,state.parent));
+    $('pathBar').textContent=q&&scope==='all'?'Tất cả tủ sách  ›  Kết quả tìm kiếm':path.join('  ›  ');
+
     var rows=children(b,state.parent);
-    var q=state.search.trim().toLocaleLowerCase('vi-VN');
-    if(q){rows=filesOf(b).filter(function(f){var m=f.metadata||{};var a=authors(m);return !f.folder&&(f.name+' '+(f.mime||'')+' '+a+' '+(m.title||'')+' '+(m.publisher||'')+' '+(m.series||'')).toLocaleLowerCase('vi-VN').indexOf(q)>=0})}
+    if(q){
+      var searchBranches=scope==='all'?branches():[b];
+      rows=[];
+      searchBranches.forEach(function(searchBranch){
+        filesOf(searchBranch).forEach(function(f){
+          if(f.folder)return;
+          if(fuzzySearchMatch(q,[f.name,f.mime||'',searchBranch.name||''])){
+            rows.push(Object.assign({},f,{_branchName:scope==='all'?searchBranch.name:''}));
+          }
+        });
+      });
+      rows.sort(function(a,c){
+        var shelfCompare=(a._branchName||'').localeCompare(c._branchName||'','vi',{sensitivity:'base'});
+        return shelfCompare||a.name.localeCompare(c.name,'vi',{sensitivity:'base'});
+      });
+    }
+
     $('itemCount').textContent=rows.length+(q?' kết quả':' mục');
     if(!rows.length){body.innerHTML='<div class="empty">'+(q?'Không tìm thấy sách phù hợp.':'Thư mục này chưa có nội dung.')+'</div>';return}
     var table=document.createElement('table');table.className='books';
@@ -493,9 +549,10 @@ button:disabled{cursor:default;color:#777}
       if(f.folder){tr.innerHTML='<td>📁</td><td class="name-cell"><strong>'+esc(f.name)+'</strong><small>Thư mục</small></td><td></td><td>DIR</td><td></td><td></td>';tr.onclick=function(){state.parent=f.id;state.selected=f.id;pushNavState();renderContent()};}
       else {
         var m=f.metadata||{};var a=authors(m);var sub=[m.year,m.series].filter(Boolean).join(' · ');
+        var shelfLine=f._branchName?'<div class="meta-line">Tủ: '+esc(f._branchName)+'</div>':'';
         var img=f.cover?'<img class="cover" loading="lazy" src="'+esc(f.cover)+'" alt="" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'/>':'<span class="cover-fallback">'+esc(ext(f.name))+'</span>';
         var fallback=f.cover?'<span class="cover-fallback" style="display:none">'+esc(ext(f.name))+'</span>':'';
-        tr.innerHTML='<td>'+img+fallback+'</td><td class="name-cell"><strong>'+esc(f.name)+'</strong><small>'+esc((m.title&&m.title!==f.name)?m.title:'')+'</small><div class="meta-line">'+esc(sub)+'</div></td><td class="author-cell">'+esc(a||'—')+'</td><td>'+esc(ext(f.name))+'</td><td>'+esc(size(f.size))+'</td><td>'+esc(displayDate(f.modified))+'</td>';
+        tr.innerHTML='<td>'+img+fallback+'</td><td class="name-cell"><strong>'+esc(f.name)+'</strong><small>'+esc((m.title&&m.title!==f.name)?m.title:'')+'</small><div class="meta-line">'+esc(sub)+'</div>'+shelfLine+'</td><td class="author-cell">'+esc(a||'—')+'</td><td>'+esc(ext(f.name))+'</td><td>'+esc(size(f.size))+'</td><td>'+esc(displayDate(f.modified))+'</td>';
         tr.onclick=function(){state.selected=f.id;renderContent();showBook(f)};
       }
       tb.appendChild(tr);
@@ -554,10 +611,10 @@ Yêu cầu được tạo từ trang TÀNG THƯ.';return issueURL(title,body)}
     $('shareBtn').onclick=function(){var link=$('driveLink').value.trim();var id=parseDriveId(link);var name=$('shelfName').value.trim();if(!id||id!==checkedId)return;var action=mode;if(found&&name.toUpperCase()==='DELETE')action='delete';if(action==='rename'&&!name)return;if(action==='create'&&!name)return;if(action==='delete'&&name.toUpperCase()!=='DELETE')return;var titleName=action==='delete'?found.name:name;window.location.href=shelfIssue(action,id,titleName,link)};
   }
 
-  function runSearch(){state.search=$('searchInput').value;state.selected=null;pushNavState();renderContent()}
+  function runSearch(){state.search=$('searchInput').value;state.searchScope=$('searchScope').value||'all';state.selected=null;pushNavState();renderContent()}
   $('upBtn').onclick=function(){var b=currentBranch();if(!b)return;if(state.search){state.search='';$('searchInput').value='';pushNavState();renderContent();return}if(state.parent!==b.root_folder_id){var f=findFile(b,state.parent);state.parent=f?f.parent_id:b.root_folder_id;state.selected=null;pushNavState();renderContent()}};
   $('homeBtn').onclick=function(){state.search='';$('searchInput').value='';state.selected=null;if(branches().length){state.branch=branches()[0].id;state.parent=branches()[0].root_folder_id}pushNavState();renderBranches();renderContent()};
-  $('refreshBtn').onclick=function(){location.reload()};$('searchBtn').onclick=function(){$('searchInput').focus();$('searchInput').select()};$('searchDo').onclick=runSearch;$('searchInput').onkeydown=function(e){if(e.key==='Enter')runSearch()};$('shelfBtn').onclick=showShelf;$('infoBtn').onclick=showInfo;$('viewsBtn').onclick=function(){state.view=state.view==='list'?'compact':'list';$('viewsBtn').querySelector('.lbl').textContent=state.view==='list'?'Views':'List'};
+  $('refreshBtn').onclick=function(){location.reload()};$('searchBtn').onclick=function(){$('searchInput').focus();$('searchInput').select()};$('searchDo').onclick=runSearch;$('searchScope').onchange=runSearch;$('searchInput').onkeydown=function(e){if(e.key==='Enter')runSearch()};$('shelfBtn').onclick=showShelf;$('infoBtn').onclick=showInfo;$('viewsBtn').onclick=function(){state.view=state.view==='list'?'compact':'list';$('viewsBtn').querySelector('.lbl').textContent=state.view==='list'?'Views':'List'};
   fetch('catalog.json',{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('catalog '+r.status);return r.json()}).then(function(c){state.catalog=c;var bs=branches();if(!restoreNavState(history.state)&&bs.length){state.branch=bs[0].id;state.parent=bs[0].root_folder_id;history.replaceState(navState(),'')}renderBranches();renderContent();$('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách.'}).catch(function(e){$('statusLeft').textContent='Không tải được catalog.json';$('contentBody').innerHTML='<div class="empty">Không thể tải danh mục sách.<br><small>'+esc(e.message)+'</small></div>'});
 })();
 </script>
