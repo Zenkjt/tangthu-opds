@@ -196,12 +196,6 @@ if old_render not in text:
     raise SystemExit("Bookshelf patch anchor missing: renderContent wrapper")
 text = text.replace(old_render, new_render, 1)
 
-old_branch = "li.onclick=function(){state.branch=b.id;state.parent=b.root_folder_id;state.selected=null;renderBranches();renderContent()};"
-new_branch = "li.onclick=function(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';state.branch=b.id;state.parent=b.root_folder_id;state.selected=null;renderBranches();renderContent()};"
-if old_branch not in text:
-    raise SystemExit("Bookshelf patch anchor missing: sidebar branch click")
-text = text.replace(old_branch, new_branch, 1)
-
 old_search = "  function runSearch(){state.search=$('searchInput').value;state.searchScope=$('searchScope').value||'all';state.selected=null;pushNavState();renderContent()}"
 new_search = "  function runSearch(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';state.search=$('searchInput').value;state.searchScope=$('searchScope').value||'all';state.selected=null;pushNavState();renderContent()}"
 if old_search not in text:
