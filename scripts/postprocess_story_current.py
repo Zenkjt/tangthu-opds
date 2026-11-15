@@ -11,11 +11,26 @@ import re
 path = Path("docs/index.html")
 text = path.read_text(encoding="utf-8")
 
+# Reset the selected shelf every time the Story GUI is opened. The shelf URL
+# field is recreated empty on each opening, so the global shelf number must
+# not survive from the previous modal session.
+story_open = """  function showStory(){
+    var state={branch:null,story:null,storyUrl:'',registered:false};"""
+story_open_fixed = """  function showStory(){
+    window.__tangthuStoryShelfNo=0;
+    window.dispatchEvent(new Event('tangthu-story-shelf-change'));
+    var state={branch:null,story:null,storyUrl:'',registered:false};"""
+n = text.count(story_open)
+if n != 1:
+    raise SystemExit(f"Expected exactly one Story GUI opening anchor, found {n}.")
+text = text.replace(story_open, story_open_fixed, 1)
+
 marker = """        state.branch=b;
         renderInfo('Đã nhận tủ: '+(b.display_name||b.name||b.id)+'. Có thể nhập link truyện.'); update();
 """
 replacement = """        state.branch=b;
         window.__tangthuStoryShelfNo=Number(b.shelf_no)||0;
+        window.dispatchEvent(new Event('tangthu-story-shelf-change'));
         if(apiBase){
           renderInfo('Đã nhận tủ: '+(b.display_name||b.name||b.id)+'. Đang khôi phục truyện đang đọc...');
           fetch(apiBase.replace(/\\/+$/,'')+'/story/current-by-user?user_id='+encodeURIComponent(b.id)+'&folder_id='+encodeURIComponent(b.root_folder_id),{cache:'no-store'})
@@ -49,7 +64,7 @@ if marker not in text:
     raise SystemExit("Story shelf handler anchor missing. Run after postprocess_story.py.")
 text = text.replace(marker, replacement, 1)
 
-text = text.replace("state.branch=null; state.registered=false; state.story=null;", "state.branch=null; window.__tangthuStoryShelfNo=0; state.registered=false; state.story=null;", 1)
+text = text.replace("state.branch=null; state.registered=false; state.story=null;", "state.branch=null; window.__tangthuStoryShelfNo=0; window.dispatchEvent(new Event('tangthu-story-shelf-change')); state.registered=false; state.story=null;", 1)
 
 wording = {
     'Chọn chương ...': 'Đi đến',
@@ -353,11 +368,21 @@ crosspoint_script = r"""
   function injectButton(){
     var nav=document.querySelector('.story-nav');if(!nav)return;
     var btn=document.getElementById('storyCrosspointBtn');
-    if(!btn){btn=document.createElement('button');btn.id='storyCrosspointBtn';btn.type='button';btn.textContent='Tools điều khiển';btn.addEventListener('click',showMaker);nav.appendChild(btn);}
+    if(!btn){
+      btn=document.createElement('button');
+      btn.id='storyCrosspointBtn';
+      btn.type='button';
+      btn.textContent='Tools điều khiển';
+      btn.disabled=true;
+      btn.addEventListener('click',showMaker);
+      nav.appendChild(btn);
+    }
     var ready=(Number(window.__tangthuStoryShelfNo)||0)>0;
     btn.disabled=!ready;
     btn.title=ready?'Tải công cụ cho tủ sách đã chọn':'Nhập địa chỉ tủ nhận sách trước';
   }
+  window.addEventListener('tangthu-story-shelf-change',injectButton);
+  window.__tangthuSyncCrosspointButton=injectButton;
   var observer=new MutationObserver(injectButton);
   function start(){
     injectButton();
