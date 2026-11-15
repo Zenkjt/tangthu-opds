@@ -40,9 +40,9 @@ new_fn = r"""
       '<input id="shelfName" type="text" placeholder="Tên muốn hiển thị trên Tàng Thư" value="">'+
       '</fieldset>'+
       '<div class="note">Tên <strong>Folder Google Drive</strong> là tên thật của thư mục trên Drive. Tên <strong>Tủ sách</strong> là tên hiển thị trong Tàng Thư và có thể đặt khác.</div>'+
-      '<div class="note">Nút <strong>TTlist.xlsx</strong> xuất danh mục sách của toàn bộ Tàng Thư và lưu vào thư mục gốc của tủ đang dán link. Danh mục gồm 13 định dạng sách; không tính font.</div>'+
+      '<div class="note" id="inventoryInfo" hidden>Nút <strong>TTlistFull</strong> xuất danh mục sách của toàn bộ Tàng Thư và lưu vào thư mục gốc của tủ đang dán link. Danh mục gồm 13 định dạng sách; không tính font.</div>'+
       '<div class="lookup-state" id="shelfMsg">Chưa kiểm tra link.</div>'+
-      '<div class="modal-actions"><button id="lookupBtn">Kiểm tra link</button><button id="shareBtn" disabled>Kiểm tra link trước</button><button id="inventoryBtn" disabled>TTlist.xlsx</button></div>');
+      '<div class="modal-actions"><button id="lookupBtn">Kiểm tra link</button><button id="shareBtn" disabled>Kiểm tra link trước</button><button id="inventoryBtn" disabled>TTlistFull</button></div>');
 
     var setMessage=function(s){$('shelfMsg').textContent=s};
     var setFolder=function(s){$('folderInfo').textContent=s};
@@ -72,7 +72,9 @@ new_fn = r"""
         btn.disabled=true;
       }
       var inventory=$('inventoryBtn');
-      inventory.disabled=!apiUrl || !state.checkedId || !state.found || state.found.enabled===false;
+      var inventoryReady=!!state.checkedId && !!state.found && state.found.enabled!==false;
+      inventory.disabled=!apiUrl || !inventoryReady;
+      $('inventoryInfo').hidden=!inventoryReady;
       inventory.title=inventory.disabled?'Chỉ xuất danh mục vào tủ đã đăng ký và đang hoạt động.':'Xuất danh mục toàn Tàng Thư vào tủ này.';
     };
 
