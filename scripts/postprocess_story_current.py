@@ -292,14 +292,16 @@ crosspoint_script = r"""
         description:'Tải 0neStory.epub của tủ sách này.',
         browse:{
           format:'json',
-          url:WORKER+'/native/catalog?shelf_no='+encodeURIComponent(shelf),
-          method:'GET',
+          url:WORKER+'/native/catalog',
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body:JSON.stringify({shelf_no:shelf}),
           items:'items',
           page_size:1,
-          fields:{title:'title',author:'author',id:'id'}
+          fields:{title:'title',author:'author',id:'id',url:'url'}
         },
         download:{
-          url:WORKER+'/native/download?shelf_no='+encodeURIComponent(shelf),
+          url:'{url}',
           method:'GET',
           filename:'0neStory.epub'
         }
