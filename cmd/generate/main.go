@@ -401,7 +401,7 @@ button:disabled{cursor:default;color:#777}
   </div>
   <div class="searchbar">
     <label for="searchInput">🔎 Tìm kiếm:</label>
-    <input id="searchInput" type="search" placeholder="Nhập tên file, định dạng hoặc từ khóa..." autocomplete="off">
+    <input id="searchInput" type="search" placeholder="Nhập tên file, định dạng hoặc tên tủ sách..." autocomplete="off">
     <button id="searchDo">Tìm</button>
     <select id="searchScope" title="Phạm vi tìm kiếm"><option value="all">Tất cả tủ sách</option><option value="current">Tủ đang mở</option></select>
   </div>
@@ -417,13 +417,16 @@ button:disabled{cursor:default;color:#777}
 <script>
 (function(){
   'use strict';
-  var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:'',searchScope:'all'};
+  var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:''};
   var $=function(id){return document.getElementById(id)};
   var esc=function(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
   var size=function(n){n=Number(n)||0;if(n<1024)return n+' B';if(n<1048576)return (n/1024).toFixed(1)+' KB';if(n<1073741824)return (n/1048576).toFixed(1)+' MB';return (n/1073741824).toFixed(2)+' GB'};
   var ext=function(n){var m=String(n||'').toLowerCase().match(/\.([^.]+)$/);return m?m[1].toUpperCase():'FILE'};
   var first=function(v){return v&&v.length?v[0]:''};
   var authors=function(m){return m&&m.authors?m.authors.join(', '):''};
+  var normalizeSearch=function(value){return String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[đĐ]/g,'d').toLocaleLowerCase('vi-VN').trim()};
+  var editDistanceOne=function(a,b){if(a===b)return true;if(Math.abs(a.length-b.length)>1)return false;var i=0,j=0,edits=0;while(i<a.length&&j<b.length){if(a[i]===b[j]){i++;j++;continue;}if(++edits>1)return false;if(a.length>b.length)i++;else if(b.length>a.length)j++;else{i++;j++;}}if(i<a.length||j<b.length)edits++;return edits<=1};
+  var fuzzyMatch=function(query,target){var q=normalizeSearch(query).split(/\s+/).filter(Boolean);var t=normalizeSearch(target).split(/[^a-z0-9]+/).filter(Boolean);if(!q.length)return true;return q.every(function(token){return t.some(function(word){return token.length>=3?editDistanceOne(token,word):token===word;});})};
   var modal=function(title,body){$('modalTitle').textContent=title;$('modalBody').innerHTML=body;$('modalBackdrop').classList.add('open')};
   var closeModal=function(){$('modalBackdrop').classList.remove('open')};
   $('modalClose').onclick=closeModal;
@@ -436,39 +439,6 @@ button:disabled{cursor:default;color:#777}
   function findFile(b,id){return filesOf(b).find(function(f){return f.id===id})}
   function folderPath(b,id){var out=[];var guard=0;while(id&&id!==b.root_folder_id&&guard++<100){var f=findFile(b,id);if(!f)break;out.unshift(f.name);id=f.parent_id}return out}
   function displayDate(s){if(!s)return '';var d=new Date(s);return isNaN(d)?s:d.toLocaleString('vi-VN',{dateStyle:'short',timeStyle:'short'})}
-
-  // Vietnamese-insensitive normalization: bỏ dấu, coi đ như d và không phân biệt hoa/thường.
-  function normalizeSearchText(value){
-    return String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[đĐ]/g,'d').toLocaleLowerCase('vi-VN');
-  }
-  function editDistanceAtMostOne(a,b){
-    if(a===b)return true;
-    if(Math.abs(a.length-b.length)>1)return false;
-    var i=0,j=0,errors=0;
-    while(i<a.length&&j<b.length){
-      if(a.charAt(i)===b.charAt(j)){i++;j++;continue}
-      if(++errors>1)return false;
-      if(a.length>b.length)i++;
-      else if(b.length>a.length)j++;
-      else {i++;j++}
-    }
-    if(i<a.length||j<b.length)errors++;
-    return errors<=1;
-  }
-  function fuzzySearchMatch(query,values){
-    var q=normalizeSearchText(query).trim();
-    if(!q)return true;
-    var haystack=normalizeSearchText(values.join(' '));
-    if(haystack.indexOf(q)>=0)return true;
-    var queryWords=q.split(/[^a-z0-9]+/).filter(Boolean);
-    var targetWords=haystack.split(/[^a-z0-9]+/).filter(Boolean);
-    return queryWords.length>0&&queryWords.every(function(word){
-      return targetWords.some(function(candidate){
-        if(candidate.indexOf(word)>=0)return true;
-        return word.length>=3&&editDistanceAtMostOne(word,candidate);
-      });
-    });
-  }
 
   // Browser history for navigation inside Tàng Thư.
   function navState(){
@@ -514,42 +484,34 @@ button:disabled{cursor:default;color:#777}
   function renderContent(){
     var b=currentBranch();var body=$('contentBody');body.innerHTML='';
     if(!b){$('pathBar').textContent='Tàng Thư';$('itemCount').textContent='';body.innerHTML='<div class="empty">Chưa có tủ sách. Hãy dùng nút <strong>Tủ sách</strong> để tạo tủ mới.</div>';return}
-
     var q=state.search.trim();
-    var scope=$('searchScope').value||state.searchScope||'all';
-    state.searchScope=scope;
-    var path=[b.name].concat(folderPath(b,state.parent));
-    $('pathBar').textContent=q&&scope==='all'?'Tất cả tủ sách  ›  Kết quả tìm kiếm':path.join('  ›  ');
-
-    var rows=children(b,state.parent);
+    var searchAll=q&&state.searchScope==='all';
+    var searchBranches=searchAll?branches():[b];
+    var rows=[];
     if(q){
-      var searchBranches=scope==='all'?branches():[b];
-      rows=[];
-      searchBranches.forEach(function(searchBranch){
-        filesOf(searchBranch).forEach(function(f){
+      searchBranches.forEach(function(shelf){
+        filesOf(shelf).forEach(function(f){
           if(f.folder)return;
-          if(fuzzySearchMatch(q,[f.name,f.mime||'',searchBranch.name||''])){
-            rows.push(Object.assign({},f,{_branchName:scope==='all'?searchBranch.name:''}));
-          }
+          var target=[f.name,f.mime,shelf.name].join(' ');
+          if(fuzzyMatch(q,target))rows.push({file:f,shelf:shelf});
         });
       });
-      rows.sort(function(a,c){
-        var shelfCompare=(a._branchName||'').localeCompare(c._branchName||'','vi',{sensitivity:'base'});
-        return shelfCompare||a.name.localeCompare(c.name,'vi',{sensitivity:'base'});
-      });
-    }
-
+    }else{rows=children(b,state.parent).map(function(f){return {file:f,shelf:b};});}
+    if(searchAll)$('pathBar').textContent='Tìm trong tất cả tủ sách';
+    else if(q)$('pathBar').textContent='Tìm trong '+b.name;
+    else $('pathBar').textContent=[b.name].concat(folderPath(b,state.parent)).join('  ›  ');
     $('itemCount').textContent=rows.length+(q?' kết quả':' mục');
-    if(!rows.length){body.innerHTML='<div class="empty">'+(q?'Không tìm thấy sách phù hợp.':'Thư mục này chưa có nội dung.')+'</div>';return}
+    if(!rows.length){body.innerHTML='<div class="empty">'+(q?'Không tìm thấy file phù hợp.':'Thư mục này chưa có nội dung.')+'</div>';return}
     var table=document.createElement('table');table.className='books';
     table.innerHTML='<thead><tr><th style="width:78px">Bìa</th><th>Tên sách</th><th style="width:190px">Tác giả</th><th style="width:90px">Định dạng</th><th style="width:105px">Dung lượng</th><th style="width:85px">Ngày</th></tr></thead>';
     var tb=document.createElement('tbody');
-    rows.forEach(function(f){
+    rows.forEach(function(result){
+      var f=result.file;var shelf=result.shelf;
       var tr=document.createElement('tr');tr.className=(f.folder?'folder-row ':'book-row ')+(state.selected===f.id?'selected':'');
       if(f.folder){tr.innerHTML='<td>📁</td><td class="name-cell"><strong>'+esc(f.name)+'</strong><small>Thư mục</small></td><td></td><td>DIR</td><td></td><td></td>';tr.onclick=function(){state.parent=f.id;state.selected=f.id;pushNavState();renderContent()};}
       else {
         var m=f.metadata||{};var a=authors(m);var sub=[m.year,m.series].filter(Boolean).join(' · ');
-        var shelfLine=f._branchName?'<div class="meta-line">Tủ: '+esc(f._branchName)+'</div>':'';
+        var shelfLine=searchAll?'<small class="meta-line shelf-name">'+esc(shelf.name)+'</small>':'';
         var img=f.cover?'<img class="cover" loading="lazy" src="'+esc(f.cover)+'" alt="" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'/>':'<span class="cover-fallback">'+esc(ext(f.name))+'</span>';
         var fallback=f.cover?'<span class="cover-fallback" style="display:none">'+esc(ext(f.name))+'</span>':'';
         tr.innerHTML='<td>'+img+fallback+'</td><td class="name-cell"><strong>'+esc(f.name)+'</strong><small>'+esc((m.title&&m.title!==f.name)?m.title:'')+'</small><div class="meta-line">'+esc(sub)+'</div>'+shelfLine+'</td><td class="author-cell">'+esc(a||'—')+'</td><td>'+esc(ext(f.name))+'</td><td>'+esc(size(f.size))+'</td><td>'+esc(displayDate(f.modified))+'</td>';
