@@ -196,8 +196,14 @@ if old_render not in text:
     raise SystemExit("Bookshelf patch anchor missing: renderContent wrapper")
 text = text.replace(old_render, new_render, 1)
 
-old_search = "  function runSearch(){state.search=$('searchInput').value;state.searchScope=$('searchScope').value||'all';state.selected=null;pushNavState();renderContent()}"
-new_search = "  function runSearch(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';state.search=$('searchInput').value;state.searchScope=$('searchScope').value||'all';state.selected=null;pushNavState();renderContent()}"
+old_branch = "main.onclick=function(){\n        state.branch=b.id;\n        state.parent=b.root_folder_id;\n        state.selected=null;\n        renderBranches();\n        renderContent();\n      };"
+new_branch = "main.onclick=function(){\n        state.view='list';\n        $('viewsBtn').querySelector('.lbl').textContent='Views';\n        state.branch=b.id;\n        state.parent=b.root_folder_id;\n        state.selected=null;\n        renderBranches();\n        renderContent();\n      };"
+if old_branch not in text:
+    raise SystemExit("Bookshelf patch anchor missing: sidebar branch click")
+text = text.replace(old_branch, new_branch, 1)
+
+old_search = "  function runSearch(){state.search=$('searchInput').value;state.selected=null;pushNavState();renderContent()}"
+new_search = "  function runSearch(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';state.search=$('searchInput').value;state.selected=null;pushNavState();renderContent()}"
 if old_search not in text:
     raise SystemExit("Bookshelf patch anchor missing: runSearch")
 text = text.replace(old_search, new_search, 1)
@@ -207,5 +213,23 @@ new_views = "$('viewsBtn').onclick=function(){state.view=state.view==='shelves'?
 if old_views not in text:
     raise SystemExit("Bookshelf patch anchor missing: Views button")
 text = text.replace(old_views, new_views, 1)
+
+# Add a global count to the bottom status bar. Keep the exact same file
+# extensions used by renderShelfStats(): 13 book formats plus 3 font formats.
+old_status = "$('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách.'"
+new_status = """var totalItems=0;
+    var countedFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP','DOC','DOCX','TXT','MD','CPFONT','TTF','OTF'];
+    bs.forEach(function(shelf){
+      filesOf(shelf).forEach(function(file){
+        if(!file||file.folder)return;
+        var dot=String(file.name||'').lastIndexOf('.');
+        var ext=dot<0?'':String(file.name).slice(dot+1).toUpperCase();
+        if(countedFormats.indexOf(ext)>=0)totalItems++;
+      });
+    });
+    $('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách · '+totalItems.toLocaleString('vi-VN')+' ấn phẩm.'"""
+if text.count(old_status) != 1:
+    raise SystemExit("Global inventory count patch anchor missing or ambiguous: statusLeft")
+text = text.replace(old_status, new_status, 1)
 
 INDEX.write_text(text, encoding="utf-8")
