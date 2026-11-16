@@ -18,7 +18,7 @@ func TestIsFolder(t *testing.T) {
 }
 
 func TestIsSupportedBookRecognizesAdditionalFormats(t *testing.T) {
-	for _, name := range []string{"comic.cbz", "legacy.lit", "help.chm", "reader.prc", "document.pdf", "archive.zip", "document.doc", "document.docx", "notes.txt", "readme.md"} {
+	for _, name := range []string{"comic.cbz", "legacy.lit", "help.chm", "reader.prc", "document.pdf", "archive.zip", "archive.rar", "document.doc", "document.docx", "notes.txt", "readme.md"} {
 		if !IsSupportedBook(File{Name: name, Size: 1024}) {
 			t.Errorf("IsSupportedBook(%q) = false, want true", name)
 		}
