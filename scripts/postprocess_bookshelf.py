@@ -70,7 +70,7 @@ renderer = r'''  var shelfResizeObserver=null;
     function extension(name){var p=String(name||'').lastIndexOf('.');return p<0?'':String(name).slice(p+1).toUpperCase();}
     function statsLines(shelf){
       var files=shelfFiles(shelf), bookCount=0, fontCount=0, counts={};
-      var bookFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP','DOC','DOCX','TXT','MD'];
+      var bookFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP','RAR','DOC','DOCX','TXT','MD'];
       files.forEach(function(f){
         var e=extension(f.name);
         if(e==='CPFONT'||e==='TTF'||e==='OTF'){
@@ -215,10 +215,10 @@ if old_views not in text:
 text = text.replace(old_views, new_views, 1)
 
 # Add a global count to the bottom status bar. Keep the exact same file
-# extensions used by renderShelfStats(): 13 book formats plus 3 font formats.
+# extensions used by renderShelfStats(): 14 book formats plus 3 font formats.
 old_status = "$('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách.'"
 new_status = """var totalItems=0;
-    var countedFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP','DOC','DOCX','TXT','MD','CPFONT','TTF','OTF'];
+    var countedFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP','RAR','DOC','DOCX','TXT','MD','CPFONT','TTF','OTF'];
     bs.forEach(function(shelf){
       filesOf(shelf).forEach(function(file){
         if(!file||file.folder)return;
