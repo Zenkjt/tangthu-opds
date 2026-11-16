@@ -202,8 +202,8 @@ if old_branch not in text:
     raise SystemExit("Bookshelf patch anchor missing: sidebar branch click")
 text = text.replace(old_branch, new_branch, 1)
 
-old_search = "  function runSearch(){state.search=$('searchInput').value;state.selected=null;pushNavState();renderContent()}"
-new_search = "  function runSearch(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';state.search=$('searchInput').value;state.selected=null;pushNavState();renderContent()}"
+old_search = "  function runSearch(){state.search=$('searchInput').value;state.searchScope=$('searchScope').value||'all';state.selected=null;pushNavState();renderContent()}"
+new_search = "  function runSearch(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';state.search=$('searchInput').value;state.searchScope=$('searchScope').value||'all';state.selected=null;pushNavState();renderContent()}"
 if old_search not in text:
     raise SystemExit("Bookshelf patch anchor missing: runSearch")
 text = text.replace(old_search, new_search, 1)
