@@ -535,7 +535,7 @@ button:disabled{cursor:default;color:#777}
     if(m.series)info+='<dt>Bộ sách</dt><dd>'+esc(m.series)+'</dd>';
     info+='<dt>Định dạng</dt><dd>'+esc(ext(f.name))+'</dd><dt>Dung lượng</dt><dd>'+esc(size(f.size))+'</dd><dt>Cập nhật</dt><dd>'+esc(displayDate(f.modified))+'</dd><dt>MIME</dt><dd>'+esc(f.mime||'')+'</dd><dt>Checksum</dt><dd>'+esc(f.checksum||'—')+'</dd></dl>';
     if(m.description)info+='<div class="detail-description">'+esc(m.description)+'</div>';
-    if(ext(f.name)==='ZIP')info+='<div class="modal-actions"><a class="download-file" href="https://drive.usercontent.google.com/download?id='+encodeURIComponent(f.id)+'&export=download&confirm=t" target="_blank" rel="noopener">Tải file ZIP</a></div>';
+    if(['ZIP','RAR'].indexOf(ext(f.name))>=0)info+='<div class="modal-actions"><a class="download-file" href="https://drive.usercontent.google.com/download?id='+encodeURIComponent(f.id)+'&export=download&confirm=t" target="_blank" rel="noopener">Tải file '+ext(f.name)+'</a></div>';
     modal('THÔNG TIN SÁCH','<div class="detail-wrap"><div>'+coverHtml+fallback+'</div><div><div class="detail-title">'+esc(m.title||f.name)+'</div>'+(a?'<div class="detail-authors">'+esc(a)+'</div>':'')+info+'</div></div>');
   }
 
@@ -737,6 +737,8 @@ func displayType(mimeType, name string) string {
 		return "RTF"
 	case ".zip":
 		return "ZIP"
+	case ".rar":
+		return "RAR"
 	default:
 		if mimeType != "" {
 			return mimeType
