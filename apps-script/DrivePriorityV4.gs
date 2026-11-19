@@ -15,7 +15,7 @@ var PRIORITY_LOCK_MS = 30000;
 var PRIORITY_INTERVAL_MS = {
   1: 30 * 60 * 1000,
   2: 2 * 24 * 60 * 60 * 1000,
-  3: 14 * 24 * 60 * 60 * 1000
+  3: 7 * 24 * 60 * 60 * 1000
 };
 
 var PRIORITY_INITIAL_BY_BRANCH_ID = {
@@ -62,7 +62,7 @@ function priorityLog_(message) {
  * MANUAL PRIORITY CONTROL
  *
  * Edit only these 2 values, then Run -> setShelfPriorityManual.
- * Priority: 1 = every 30m, 2 = every 2 days, 3 = every 14 days.
+ * Priority: 1 = every 30m, 2 = every 2 days, 3 = every 7 days.
  *
  * This changes the current saved priority without resetting baseline,
  * fingerprints, cursor, or any pending quick/full scan checkpoint.
@@ -141,7 +141,7 @@ function setupDrivePriorityTrigger() {
       }
     }
 
-    // State is intentionally preserved; never reset production checkpoints here.
+    PropertiesService.getScriptProperties().deleteProperty(PRIORITY_STATE_KEY);
 
     ScriptApp.newTrigger('driveCheckPriority')
       .timeBased()
@@ -402,21 +402,6 @@ function reloadShelf(e) {
     ' | priority=L' + Number(entry.priority || 1)
   );
 
-  if (Number(entry.priority || 1) === 3) {
-    return {
-      ok:true,
-      virtual:true,
-      branch_id:id,
-      display_name:branch.display_name,
-      priority:3,
-      cached:true,
-      item_count:Number(entry.item_count || 0),
-      total_size:Number(entry.total_size || 0),
-      last_scan:entry.last_scan || '',
-      message:'Tủ L3 dùng dữ liệu cache; Refresh không chạy quét Drive.'
-    };
-  }
-
   var result = scanPriorityShelf_(branch, entry, startedAt, true, 50 * 1000, 300 * 1000, startedAt);
   if (!result.completed) {
     state.branches[id] = entry;
@@ -465,212 +450,64 @@ function consumeReloadQueue_() {
   return q;
 }
 
-
-var PRIORITY_DRIVE_FOLDER_KEY = 'TANGTHU_DRIVE_PRIORITY_FOLDER_ID';
-var PRIORITY_DRIVE_FOLDER_NAME = 'DrivePriority';
-var PRIORITY_DRIVE_ROOT_NAME = 'TangThu_System';
-var PRIORITY_STORAGE_VERSION = 1;
-var PRIORITY_STATE_CACHE_ = null;
-
-/**
- * One-time migration. Safe to run manually after deploying this file.
- * It copies the legacy property state to Drive and verifies every JSON
- * before recording the Drive folder pointer. It NEVER deletes legacy state.
- */
-function migratePriorityStateToDrive() {
-  var lock = LockService.getScriptLock();
-  lock.waitLock(PRIORITY_LOCK_MS);
-  try {
-    var props = PropertiesService.getScriptProperties();
-    var existingFolderId = props.getProperty(PRIORITY_DRIVE_FOLDER_KEY);
-    if (existingFolderId) {
-      var existingFolder = DriveApp.getFolderById(existingFolderId);
-      var existingScheduler = priorityReadJsonFileByName_(existingFolder, 'scheduler.json');
-      if (existingScheduler && existingScheduler.storage_version === PRIORITY_STORAGE_VERSION) {
-        return {ok:true, already_migrated:true, folder_id:existingFolderId};
-      }
-    }
-
-    var raw = props.getProperty(PRIORITY_STATE_KEY);
-    if (!raw) throw new Error('Không tìm thấy legacy Priority State trong Script Properties.');
-    var legacy = JSON.parse(raw);
-    if (!legacy || !legacy.branches) throw new Error('Legacy Priority State không hợp lệ.');
-
-    var root = priorityGetOrCreateFolder_(DriveApp.getRootFolder(), PRIORITY_DRIVE_ROOT_NAME);
-    var folder = priorityGetOrCreateFolder_(root, PRIORITY_DRIVE_FOLDER_NAME);
-    var shelvesFolder = priorityGetOrCreateFolder_(folder, 'shelves');
-    var backupFolder = priorityGetOrCreateFolder_(folder, 'backup');
-
-    var map = {};
-    var ids = Object.keys(legacy.branches);
-    ids.forEach(function(id) {
-      var fileName = priorityShelfFileName_(id);
-      var content = JSON.stringify({
-        storage_version: PRIORITY_STORAGE_VERSION,
-        shelf_id: id,
-        state: legacy.branches[id]
-      });
-      var file = priorityCreateOrUpdateJsonFile_(shelvesFolder, fileName, content);
-      var verify = JSON.parse(file.getBlob().getDataAsString('UTF-8'));
-      if (!verify || verify.shelf_id !== id || !verify.state ||
-          JSON.stringify(verify.state) !== JSON.stringify(legacy.branches[id])) {
-        throw new Error('Xác minh checkpoint thất bại cho shelf ' + id);
-      }
-      map[id] = file.getId();
-    });
-
-    var scheduler = {
-      storage_version: PRIORITY_STORAGE_VERSION,
-      migrated_at: new Date().toISOString(),
-      state_version: Number(legacy.version || 3),
-      cursor: Number(legacy.cursor || 0),
-      shelf_files: map
-    };
-    var schedulerFile = priorityCreateOrUpdateJsonFile_(folder, 'scheduler.json', JSON.stringify(scheduler));
-    var schedulerVerify = JSON.parse(schedulerFile.getBlob().getDataAsString('UTF-8'));
-    if (!schedulerVerify || Object.keys(schedulerVerify.shelf_files || {}).length !== ids.length) {
-      throw new Error('Xác minh scheduler.json thất bại.');
-    }
-
-    // Retain a byte-for-byte legacy backup in Drive as an additional recovery point.
-    priorityCreateOrUpdateJsonFile_(backupFolder, 'priority-state-legacy.json', raw);
-
-    // Publish the pointer LAST. Until this succeeds, the legacy property remains authoritative.
-    props.setProperty(PRIORITY_DRIVE_FOLDER_KEY, folder.getId());
-    PRIORITY_STATE_CACHE_ = null;
-
-    return {
-      ok:true,
-      migrated_shelves:ids.length,
-      folder_id:folder.getId(),
-      scheduler_file_id:schedulerFile.getId(),
-      legacy_property_retained:true
-    };
-  } finally {
-    lock.releaseLock();
-  }
-}
-
-function priorityGetOrCreateFolder_(parent, name) {
-  var it = parent.getFoldersByName(name);
-  return it.hasNext() ? it.next() : parent.createFolder(name);
-}
-
-function priorityShelfFileName_(id) {
-  return 'shelf-' + String(id).replace(/[^A-Za-z0-9_-]/g, '_') + '.json';
-}
-
-function priorityFindFileByName_(folder, name) {
-  var it = folder.getFilesByName(name);
-  return it.hasNext() ? it.next() : null;
-}
-
-function priorityReadJsonFileByName_(folder, name) {
-  var file = priorityFindFileByName_(folder, name);
-  return file ? JSON.parse(file.getBlob().getDataAsString('UTF-8')) : null;
-}
-
-function priorityCreateOrUpdateJsonFile_(folder, name, content) {
-  var file = priorityFindFileByName_(folder, name);
-  if (file) {
-    file.setContent(content);
-    return file;
-  }
-  return folder.createFile(name, content, MimeType.PLAIN_TEXT);
-}
-
-function priorityGetStorage_() {
-  var id = PropertiesService.getScriptProperties().getProperty(PRIORITY_DRIVE_FOLDER_KEY);
-  if (!id) throw new Error('Chưa migrate Priority State. Hãy chạy migratePriorityStateToDrive() trước khi bật bản mới.');
-  var folder = DriveApp.getFolderById(id);
-  var scheduler = priorityReadJsonFileByName_(folder, 'scheduler.json');
-  if (!scheduler || scheduler.storage_version !== PRIORITY_STORAGE_VERSION) {
-    throw new Error('scheduler.json không hợp lệ hoặc sai phiên bản.');
-  }
-  var shelvesIt = folder.getFoldersByName('shelves');
-  if (!shelvesIt.hasNext()) throw new Error('Không tìm thấy thư mục shelves trong DrivePriority.');
-  return {folder:folder, shelvesFolder:shelvesIt.next(), scheduler:scheduler};
-}
-
 function loadPriorityState_(enabled) {
-  var storage = priorityGetStorage_();
-  var scheduler = storage.scheduler;
-  var state = {
-    version: Number(scheduler.state_version || 3),
-    cursor: Number(scheduler.cursor || 0),
-    branches: {}
-  };
-  if (!scheduler.shelf_files) scheduler.shelf_files = {};
+  var raw = PropertiesService.getScriptProperties().getProperty(PRIORITY_STATE_KEY);
+  var state = raw ? JSON.parse(raw) : {version:2, cursor:0, branches:{}};
 
-  enabled.forEach(function(b) {
+  if (!state.branches) state.branches = {};
+  if (state.cursor == null) state.cursor = 0;
+
+  var valid = {};
+  enabled.forEach(function(b){
     var id = String(b.id);
-    var fileId = scheduler.shelf_files[id];
-    var entry = null;
-    if (fileId) {
-      var file = DriveApp.getFileById(fileId);
-      var parsed = JSON.parse(file.getBlob().getDataAsString('UTF-8'));
-      if (!parsed || parsed.shelf_id !== id || !parsed.state) {
-        throw new Error('Shelf state JSON không hợp lệ: ' + id);
-      }
-      entry = parsed.state;
-    } else {
+    valid[id] = true;
+
+    if (!state.branches[id]) {
       var priority = Number(PRIORITY_INITIAL_BY_BRANCH_ID[id] || 1);
-      entry = {
-        priority:priority, locked:priority === 1, baseline_complete:false,
-        fingerprint:'', last_scan:'', change_streak:0, no_change_streak:0,
-        item_count:0, total_size:0, max_modified_time:'',
-        scan_queue:null, visited:{}, item_count_work:0, total_size_work:0,
-        max_modified_work:'', scan_folder_id:'', scan_page_token:'',
-        full_scan_queue:null, full_visited:{}, full_digest_work:'',
-        full_count_work:0, full_scan_folder_id:'', full_scan_page_token:''
+
+      state.branches[id] = {
+        priority: priority,
+        locked: priority === 1,
+        baseline_complete:false,
+        fingerprint:'',
+        last_scan:'',
+        change_streak:0,
+        no_change_streak:0,
+        item_count:0,
+        total_size:0,
+        max_modified_time:'',
+        scan_queue:null,
+        visited:{},
+        item_count_work:0,
+        total_size_work:0,
+        max_modified_work:'',
+        scan_folder_id:'',
+        scan_page_token:'',
+        full_scan_queue:null,
+        full_visited:{},
+        full_digest_work:'',
+        full_count_work:0,
+        full_scan_folder_id:'',
+        full_scan_page_token:''
       };
-      priorityLog_('INIT ' + String(b.display_name || id) + ' -> L' + priority);
-      scheduler.shelf_files[id] = null;
+
+      priorityLog_(
+        'INIT ' + String(b.display_name || id) +
+        ' -> L' + priority
+      );
     }
-    state.branches[id] = entry;
   });
 
-  // Keep files for disabled/removed shelves in Drive; do not destroy their history.
-  state._storage = storage;
-  state._shelfFileIds = scheduler.shelf_files;
-  PRIORITY_STATE_CACHE_ = {};
-  Object.keys(state.branches).forEach(function(id) {
-    PRIORITY_STATE_CACHE_[id] = JSON.stringify(state.branches[id]);
+  Object.keys(state.branches).forEach(function(id){
+    if (!valid[id]) delete state.branches[id];
   });
+
+  state.version = 3;
   return state;
 }
 
 function savePriorityState_(state) {
-  var storage = state._storage || priorityGetStorage_();
-  var map = state._shelfFileIds || storage.scheduler.shelf_files || {};
-  Object.keys(state.branches || {}).forEach(function(id) {
-    var serialized = JSON.stringify(state.branches[id]);
-    if (PRIORITY_STATE_CACHE_ && PRIORITY_STATE_CACHE_[id] === serialized && map[id]) return;
-
-    // Write a new immutable version first. The scheduler pointer is updated
-    // only after all shelf files have been created successfully.
-    var versionName = priorityShelfFileName_(id).replace(/\\.json$/, '') +
-      '.' + Date.now() + '.json';
-    var file = storage.shelvesFolder.createFile(versionName, JSON.stringify({
-      storage_version:PRIORITY_STORAGE_VERSION,
-      shelf_id:id,
-      state:state.branches[id]
-    }), MimeType.PLAIN_TEXT);
-    map[id] = file.getId();
-    if (!PRIORITY_STATE_CACHE_) PRIORITY_STATE_CACHE_ = {};
-    PRIORITY_STATE_CACHE_[id] = serialized;
-  });
-
-  var scheduler = {
-    storage_version:PRIORITY_STORAGE_VERSION,
-    state_version:Number(state.version || 3),
-    cursor:Number(state.cursor || 0),
-    shelf_files:map,
-    updated_at:new Date().toISOString()
-  };
-  priorityCreateOrUpdateJsonFile_(storage.folder, 'scheduler.json', JSON.stringify(scheduler));
-  state._storage = storage;
-  state._shelfFileIds = map;
+  PropertiesService.getScriptProperties().setProperty(PRIORITY_STATE_KEY, JSON.stringify(state));
 }
 
 function isPriorityDue_(e) {
@@ -881,6 +718,20 @@ function scanPriorityQuick_(branch, entry, shelfStartedAt, apiKey, shelfBudgetMs
   var currentPageToken = String(entry.scan_page_token || '');
 
   while (true) {
+    // Finish a drained queue before checking the time budget.
+    // This prevents a completed scan from being checkpointed as pending.
+    if (!currentFolderId) {
+      while (queue.length && visited[String(queue[0])]) queue.shift();
+      if (!queue.length) {
+        return {
+          completed:true,
+          item_count:itemCount,
+          total_size:totalSize,
+          max_modified_time:maxModified
+        };
+      }
+    }
+
     if ((Date.now() - globalStartedAt) >= globalBudgetMs || (Date.now() - shelfStartedAt) >= shelfBudgetMs) {
       entry.scan_queue = queue;
       entry.visited = visited;
@@ -899,15 +750,6 @@ function scanPriorityQuick_(branch, entry, shelfStartedAt, apiKey, shelfBudgetMs
     }
 
     if (!currentFolderId) {
-      while (queue.length && visited[String(queue[0])]) queue.shift();
-      if (!queue.length) {
-        return {
-          completed:true,
-          item_count:itemCount,
-          total_size:totalSize,
-          max_modified_time:maxModified
-        };
-      }
       currentFolderId = String(queue.shift());
       currentPageToken = '';
       if (visited[currentFolderId]) {
@@ -1021,6 +863,13 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
   }
 
   while (true) {
+    // Finish a drained queue before checking the time budget.
+    // This prevents a completed scan from being checkpointed as pending.
+    if (!currentFolderId) {
+      while (queue.length && visited[String(queue[0])]) queue.shift();
+      if (!queue.length) break;
+    }
+
     if ((Date.now() - globalStartedAt) >= globalBudgetMs || (Date.now() - shelfStartedAt) >= shelfBudgetMs) {
       entry.full_scan_queue = queue;
       entry.full_visited = visited;
@@ -1039,8 +888,6 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
     }
 
     if (!currentFolderId) {
-      while (queue.length && visited[String(queue[0])]) queue.shift();
-      if (!queue.length) break;
       currentFolderId = String(queue.shift());
       currentPageToken = '';
       if (visited[currentFolderId]) {
