@@ -450,8 +450,68 @@ function consumeReloadQueue_() {
   return q;
 }
 
+var PRIORITY_STATE_FILE_KEY = 'TANGTHU_DRIVE_PRIORITY_STATE_FILE_ID';
+var PRIORITY_STATE_FILE_NAME = 'TANGTHU_DRIVE_PRIORITY_STATE_V2.json';
+
+/**
+ * Large scan checkpoints belong in a Drive file, not Script Properties.
+ * Script Properties has a small per-value and total storage quota.
+ */
+function loadPriorityStateRaw_() {
+  var props = PropertiesService.getScriptProperties();
+  var fileId = props.getProperty(PRIORITY_STATE_FILE_KEY);
+  var file = null;
+
+  if (fileId) {
+    try {
+      file = DriveApp.getFileById(fileId);
+      return file.getBlob().getDataAsString('UTF-8');
+    } catch (err) {
+      priorityLog_('STATE FILE pointer invalid; searching by filename.');
+    }
+  }
+
+  var files = DriveApp.getRootFolder().getFilesByName(PRIORITY_STATE_FILE_NAME);
+  if (files.hasNext()) {
+    file = files.next();
+    props.setProperty(PRIORITY_STATE_FILE_KEY, file.getId());
+    return file.getBlob().getDataAsString('UTF-8');
+  }
+
+  // One-time migration from the legacy Script Properties state.
+  return props.getProperty(PRIORITY_STATE_KEY);
+}
+
+function savePriorityStateRaw_(raw) {
+  var props = PropertiesService.getScriptProperties();
+  var fileId = props.getProperty(PRIORITY_STATE_FILE_KEY);
+  var file = null;
+
+  if (fileId) {
+    try {
+      file = DriveApp.getFileById(fileId);
+      file.setContent(raw);
+      return;
+    } catch (err) {
+      priorityLog_('STATE FILE unavailable; creating a replacement.');
+    }
+  }
+
+  var files = DriveApp.getRootFolder().getFilesByName(PRIORITY_STATE_FILE_NAME);
+  if (files.hasNext()) {
+    file = files.next();
+    file.setContent(raw);
+  } else {
+    file = DriveApp.createFile(PRIORITY_STATE_FILE_NAME, raw, MimeType.PLAIN_TEXT);
+  }
+
+  // Remove the large legacy property before writing the small file pointer.
+  props.deleteProperty(PRIORITY_STATE_KEY);
+  props.setProperty(PRIORITY_STATE_FILE_KEY, file.getId());
+}
+
 function loadPriorityState_(enabled) {
-  var raw = PropertiesService.getScriptProperties().getProperty(PRIORITY_STATE_KEY);
+  var raw = loadPriorityStateRaw_();
   var state = raw ? JSON.parse(raw) : {version:2, cursor:0, branches:{}};
 
   if (!state.branches) state.branches = {};
@@ -507,7 +567,7 @@ function loadPriorityState_(enabled) {
 }
 
 function savePriorityState_(state) {
-  PropertiesService.getScriptProperties().setProperty(PRIORITY_STATE_KEY, JSON.stringify(state));
+  savePriorityStateRaw_(JSON.stringify(state));
 }
 
 function isPriorityDue_(e) {
