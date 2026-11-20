@@ -482,24 +482,33 @@ function loadPriorityStateRaw_() {
   var props = PropertiesService.getScriptProperties();
   var fileId = props.getProperty(PRIORITY_STATE_FILE_KEY);
   var file = null;
+  var folder = tangThuSystemFolder_();
 
   if (fileId) {
     try {
       file = DriveApp.getFileById(fileId);
+      file.moveTo(folder);
       return file.getBlob().getDataAsString('UTF-8');
     } catch (err) {
-      priorityLog_('STATE FILE pointer invalid; searching by filename.');
+      priorityLog_('STATE FILE pointer unavailable; searching TangThu_System and legacy root.');
     }
   }
 
-  var files = DriveApp.getRootFolder().getFilesByName(PRIORITY_STATE_FILE_NAME);
+  var files = folder.getFilesByName(PRIORITY_STATE_FILE_NAME);
   if (files.hasNext()) {
     file = files.next();
     props.setProperty(PRIORITY_STATE_FILE_KEY, file.getId());
     return file.getBlob().getDataAsString('UTF-8');
   }
 
-  // One-time migration from the legacy Script Properties state.
+  files = DriveApp.getRootFolder().getFilesByName(PRIORITY_STATE_FILE_NAME);
+  if (files.hasNext()) {
+    file = files.next();
+    file.moveTo(folder);
+    props.setProperty(PRIORITY_STATE_FILE_KEY, file.getId());
+    return file.getBlob().getDataAsString('UTF-8');
+  }
+
   return props.getProperty(PRIORITY_STATE_KEY);
 }
 
@@ -507,26 +516,34 @@ function savePriorityStateRaw_(raw) {
   var props = PropertiesService.getScriptProperties();
   var fileId = props.getProperty(PRIORITY_STATE_FILE_KEY);
   var file = null;
+  var folder = tangThuSystemFolder_();
 
   if (fileId) {
     try {
       file = DriveApp.getFileById(fileId);
+      file.moveTo(folder);
       file.setContent(raw);
       return;
     } catch (err) {
-      priorityLog_('STATE FILE unavailable; creating a replacement.');
+      priorityLog_('STATE FILE unavailable; searching TangThu_System.');
     }
   }
 
-  var files = DriveApp.getRootFolder().getFilesByName(PRIORITY_STATE_FILE_NAME);
+  var files = folder.getFilesByName(PRIORITY_STATE_FILE_NAME);
   if (files.hasNext()) {
     file = files.next();
     file.setContent(raw);
   } else {
-    file = DriveApp.createFile(PRIORITY_STATE_FILE_NAME, raw, MimeType.PLAIN_TEXT);
+    files = DriveApp.getRootFolder().getFilesByName(PRIORITY_STATE_FILE_NAME);
+    if (files.hasNext()) {
+      file = files.next();
+      file.moveTo(folder);
+      file.setContent(raw);
+    } else {
+      file = folder.createFile(PRIORITY_STATE_FILE_NAME, raw, MimeType.PLAIN_TEXT);
+    }
   }
 
-  // Remove the large legacy property before writing the small file pointer.
   props.deleteProperty(PRIORITY_STATE_KEY);
   props.setProperty(PRIORITY_STATE_FILE_KEY, file.getId());
 }
@@ -926,17 +943,63 @@ function fingerprintRow_(row) {
 
 var SNAPSHOT_MIME = MimeType.PLAIN_TEXT;
 
+// All V4 operational files live in this existing Drive folder.
+var TANGTHU_SYSTEM_FOLDER_ID = '1Sjwq0ciRZXmEuIA4JGc_0aE3i2HWkioo';
+
+function tangThuSystemFolder_() {
+  return DriveApp.getFolderById(TANGTHU_SYSTEM_FOLDER_ID);
+}
+
+/**
+ * One-time, non-destructive migration.
+ * Moves only V4 state/snapshot files from My Drive root into TangThu_System.
+ * Existing Drive file IDs and sharing permissions are preserved.
+ * Does not alter triggers, Script Properties, scan checkpoints or fingerprints.
+ */
+function migratePriorityFilesToSystemFolder() {
+  var folder = tangThuSystemFolder_();
+  var root = DriveApp.getRootFolder();
+  var moved = 0;
+  var failed = [];
+  var files = root.getFiles();
+
+  while (files.hasNext()) {
+    var file = files.next();
+    var name = String(file.getName() || '');
+    if (name !== PRIORITY_STATE_FILE_NAME && name.indexOf('TANGTHU_SNAPSHOT_') !== 0) continue;
+
+    try {
+      file.moveTo(folder);
+      moved++;
+      priorityLog_('MIGRATE TO TangThu_System | ' + name + ' | id=' + file.getId());
+    } catch (err) {
+      failed.push(name + ' [' + file.getId() + ']: ' + String(err));
+      priorityLog_('MIGRATE FAILED | ' + name + ' | id=' + file.getId() + ' | ' + String(err));
+    }
+  }
+
+  var stateFiles = folder.getFilesByName(PRIORITY_STATE_FILE_NAME);
+  return {
+    ok: failed.length === 0,
+    folder_id: TANGTHU_SYSTEM_FOLDER_ID,
+    moved: moved,
+    state_file_in_destination: stateFiles.hasNext(),
+    failed: failed
+  };
+}
+
 function snapshotSharePublic_(file) {
   file.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
   return file;
 }
 
 function snapshotCreateTextFile_(name, content) {
-  var file = DriveApp.getRootFolder().createFile(name, content, SNAPSHOT_MIME);
+  var file = tangThuSystemFolder_().createFile(name, content, SNAPSHOT_MIME);
   return snapshotSharePublic_(file);
 }
 
 function snapshotWriteManifest_(branch, entry, complete) {
+  var folder = tangThuSystemFolder_();
   var manifest = {
     version: 1,
     branch_id: String(branch.id),
@@ -948,27 +1011,41 @@ function snapshotWriteManifest_(branch, entry, complete) {
   };
   var raw = JSON.stringify(manifest);
   var file = null;
+
   if (entry.snapshot_manifest_file_id) {
     try {
       file = DriveApp.getFileById(entry.snapshot_manifest_file_id);
+      file.moveTo(folder);
       file.setContent(raw);
     } catch (err) {
+      priorityLog_('MANIFEST pointer unavailable | id=' + entry.snapshot_manifest_file_id + ' | ' + String(err));
       file = null;
     }
   }
+
   if (!file) {
-    var matches = DriveApp.getRootFolder().getFilesByName('TANGTHU_SNAPSHOT_' + String(branch.id) + '.json');
+    var matches = folder.getFilesByName('TANGTHU_SNAPSHOT_' + String(branch.id) + '.json');
     if (matches.hasNext()) {
       file = matches.next();
       file.setContent(raw);
-      snapshotSharePublic_(file);
     } else {
-      file = snapshotCreateTextFile_('TANGTHU_SNAPSHOT_' + String(branch.id) + '.json', raw);
+      matches = DriveApp.getRootFolder().getFilesByName('TANGTHU_SNAPSHOT_' + String(branch.id) + '.json');
+      if (matches.hasNext()) {
+        file = matches.next();
+        file.moveTo(folder);
+        file.setContent(raw);
+      } else {
+        file = folder.createFile(
+          'TANGTHU_SNAPSHOT_' + String(branch.id) + '.json',
+          raw,
+          SNAPSHOT_MIME
+        );
+      }
     }
     entry.snapshot_manifest_file_id = file.getId();
   }
+
   snapshotSharePublic_(file);
-  // Availability means a valid manifest exists, even for an empty shelf.
   entry.snapshot_available = true;
   entry.snapshot_complete = !!complete;
 }
