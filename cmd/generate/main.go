@@ -7,15 +7,15 @@ import (
 	"encoding/json"
 	"fmt"
 	"html"
+	"io"
 	"log"
+	"net/http"
 	"net/url"
 	"os"
 	"path/filepath"
 	"sort"
 	"strings"
 	"time"
-
-	"github.com/Zenkjt/tangthu-opds/internal/drive"
 )
 
 type BranchConfig struct {
@@ -43,13 +43,16 @@ type FileEntry struct {
 }
 
 type SnapshotManifest struct {
-	Version    int      `json:"version"`
-	BranchID   string   `json:"branch_id"`
-	FolderName string   `json:"folder_name"`
-	Complete   bool     `json:"complete"`
-	Pages      []string `json:"pages"`
-	ItemCount  int      `json:"item_count"`
-	UpdatedAt  string   `json:"updated_at"`
+	Version      int      `json:"version"`
+	Storage      string   `json:"storage"`
+	BranchID     string   `json:"branch_id"`
+	FolderName   string   `json:"folder_name"`
+	GenerationID string   `json:"generation_id"`
+	Complete     bool     `json:"complete"`
+	PageCount    int      `json:"page_count"`
+	Pages        []string `json:"pages"`
+	ItemCount    int      `json:"item_count"`
+	UpdatedAt    string   `json:"updated_at"`
 }
 
 type SnapshotItem struct {
@@ -72,110 +75,120 @@ type Branch struct {
 	Config          BranchConfig
 	DriveFolderName string
 	Files           []FileEntry
-	DriveFiles      []drive.File
 }
 
-func convertDriveFiles(files []drive.File) []FileEntry {
-	converted := make([]FileEntry, 0, len(files))
-	for _, f := range files {
-		if !drive.IsFolder(f) && !drive.IsSupportedBook(f) {
-			continue
-		}
-		converted = append(converted, FileEntry{ID: f.ID, ParentID: f.ParentID, Name: f.Name, MIME: f.MIMEType, Size: f.Size, Modified: f.ModifiedTime, Checksum: f.MD5Checksum, IsFolder: drive.IsFolder(f), WebContentLink: f.WebContentLink})
+type r2SnapshotClient struct {
+	baseURL string
+	token   string
+	http    *http.Client
+}
+
+func newR2SnapshotClient() (*r2SnapshotClient, error) {
+	baseURL := strings.TrimRight(strings.TrimSpace(os.Getenv("TANGTHU_R2_API_URL")), "/")
+	token := strings.TrimSpace(os.Getenv("TANGTHU_R2_API_TOKEN"))
+	if baseURL == "" || token == "" {
+		return nil, fmt.Errorf("TANGTHU_R2_API_URL and TANGTHU_R2_API_TOKEN are required")
 	}
-	return converted
+	return &r2SnapshotClient{
+		baseURL: baseURL,
+		token:   token,
+		http:    &http.Client{Timeout: 60 * time.Second},
+	}, nil
 }
 
-func loadShelfSnapshot(ctx context.Context, client *drive.Client, bc BranchConfig, folderName string) ([]drive.File, []FileEntry, bool, bool, error) {
-	manifestName := "TANGTHU_SNAPSHOT_" + bc.ID + ".json"
-
-	log.Printf("SNAPSHOT shelf=%s folder=%q manifest_name=%q",
-		bc.ID, folderName, manifestName)
-
-	manifestID, err := client.FindPublicFileByName(ctx, manifestName)
+func (c *r2SnapshotClient) getJSON(ctx context.Context, key string, dst any) error {
+	parts := strings.Split(key, "/")
+	for i := range parts {
+		parts[i] = url.PathEscape(parts[i])
+	}
+	endpoint := c.baseURL + "/v1/objects/" + strings.Join(parts, "/")
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, endpoint, nil)
 	if err != nil {
-		return nil, nil, false, false, fmt.Errorf(
-			"find manifest %s for shelf %s: %w", manifestName, bc.ID, err,
-		)
+		return err
 	}
-
-	if manifestID == "" {
-		log.Printf("SNAPSHOT shelf=%s: no manifest found; fallback required", bc.ID)
-		return nil, nil, false, false, nil
+	req.Header.Set("Authorization", "Bearer "+c.token)
+	resp, err := c.http.Do(req)
+	if err != nil {
+		return fmt.Errorf("GET R2 object %q: %w", key, err)
 	}
+	defer resp.Body.Close()
+	if resp.StatusCode != http.StatusOK {
+		body, _ := io.ReadAll(io.LimitReader(resp.Body, 4096))
+		return fmt.Errorf("GET R2 object %q: HTTP %d: %s", key, resp.StatusCode, strings.TrimSpace(string(body)))
+	}
+	if err := json.NewDecoder(resp.Body).Decode(dst); err != nil {
+		return fmt.Errorf("decode R2 object %q: %w", key, err)
+	}
+	return nil
+}
 
-	log.Printf("SNAPSHOT shelf=%s selected_manifest_id=%s", bc.ID, manifestID)
+func loadShelfSnapshot(ctx context.Context, client *r2SnapshotClient, bc BranchConfig) ([]FileEntry, string, error) {
+	manifestKey := "snapshots/" + bc.ID + "/manifest.json"
+	log.Printf("SNAPSHOT R2 shelf=%s manifest_key=%q", bc.ID, manifestKey)
 
 	var manifest SnapshotManifest
-	if err := client.DownloadJSON(ctx, manifestID, &manifest); err != nil {
-		return nil, nil, false, false, fmt.Errorf(
-			"download manifest %s (id=%s) for shelf %s: %w",
-			manifestName, manifestID, bc.ID, err,
-		)
+	if err := client.getJSON(ctx, manifestKey, &manifest); err != nil {
+		return nil, "", fmt.Errorf("read R2 manifest for shelf %s: %w", bc.ID, err)
+	}
+	log.Printf("SNAPSHOT R2 shelf=%s manifest loaded: version=%d storage=%s branch=%s generation=%s pages=%d items=%d complete=%t",
+		bc.ID, manifest.Version, manifest.Storage, manifest.BranchID, manifest.GenerationID,
+		len(manifest.Pages), manifest.ItemCount, manifest.Complete)
+
+	if manifest.Version != 2 || manifest.Storage != "r2" ||
+		manifest.BranchID != bc.ID || manifest.GenerationID == "" ||
+		!manifest.Complete || manifest.PageCount != len(manifest.Pages) {
+		return nil, "", fmt.Errorf("invalid or incomplete R2 snapshot manifest for shelf %s", bc.ID)
 	}
 
-	log.Printf(
-		"SNAPSHOT shelf=%s manifest loaded: id=%s version=%d branch=%s pages=%d items=%d complete=%t",
-		bc.ID, manifestID, manifest.Version, manifest.BranchID,
-		len(manifest.Pages), manifest.ItemCount, manifest.Complete,
-	)
-
-	if manifest.Version != 1 || manifest.BranchID != bc.ID {
-		return nil, nil, false, false, fmt.Errorf("invalid snapshot manifest for %s", bc.ID)
-	}
-
-	all := make([]drive.File, 0, manifest.ItemCount)
 	converted := make([]FileEntry, 0, manifest.ItemCount)
-
-	for _, pageID := range manifest.Pages {
-		var page SnapshotPage
-		if err := client.DownloadJSON(ctx, pageID, &page); err != nil {
-			return nil, nil, false, false, fmt.Errorf(
-				"download page %s from manifest %s: %w", pageID, manifestID, err,
-			)
+	loadedItemCount := 0
+	for _, pageKey := range manifest.Pages {
+		if !strings.HasPrefix(pageKey, "snapshots/"+bc.ID+"/generations/"+manifest.GenerationID+"/pages/") {
+			return nil, "", fmt.Errorf("manifest page key %q is outside generation %s for shelf %s", pageKey, manifest.GenerationID, bc.ID)
 		}
-
+		var page SnapshotPage
+		if err := client.getJSON(ctx, pageKey, &page); err != nil {
+			return nil, "", fmt.Errorf("read R2 page %s: %w", pageKey, err)
+		}
 		for _, item := range page.Items {
-			f := drive.File{
-				ID:             item.ID,
-				ParentID:       item.ParentID,
-				Name:           item.Name,
-				MIMEType:       item.MIME,
-				Size:           item.Size,
-				ModifiedTime:   item.Modified,
-				MD5Checksum:    item.Checksum,
-				WebContentLink: item.WebContentLink,
-			}
-
-			if !item.Folder && !drive.IsSupportedBook(f) {
+			loadedItemCount++
+			if !item.Folder && !isSupportedBookName(item.Name, item.Size) {
 				continue
 			}
-
-			all = append(all, f)
 			converted = append(converted, FileEntry{
-				ID:             f.ID,
-				ParentID:       f.ParentID,
-				Name:           f.Name,
-				MIME:           f.MIMEType,
-				Size:           f.Size,
-				Modified:       f.ModifiedTime,
-				Checksum:       f.MD5Checksum,
-				IsFolder:       item.Folder,
-				WebContentLink: f.WebContentLink,
+				ID: item.ID, ParentID: item.ParentID, Name: item.Name,
+				MIME: item.MIME, Size: item.Size, Modified: item.Modified,
+				Checksum: item.Checksum, IsFolder: item.Folder,
+				WebContentLink: item.WebContentLink,
 			})
 		}
 	}
+	if loadedItemCount != manifest.ItemCount {
+		return nil, "", fmt.Errorf("R2 snapshot item count mismatch for shelf %s: manifest=%d loaded=%d", bc.ID, manifest.ItemCount, loadedItemCount)
+	}
+	log.Printf("SNAPSHOT R2 shelf=%s loaded: entries=%d generation=%s complete=true",
+		bc.ID, len(converted), manifest.GenerationID)
+	return converted, manifest.FolderName, nil
+}
 
-	log.Printf("SNAPSHOT shelf=%s loaded: files=%d entries=%d complete=%t",
-		bc.ID, len(all), len(converted), manifest.Complete)
-
-	return all, converted, true, manifest.Complete, nil
+func isSupportedBookName(name string, size int64) bool {
+	if size < 0 {
+		return false
+	}
+	switch strings.ToLower(filepath.Ext(name)) {
+	case ".epub", ".mobi", ".azw3", ".cbz", ".lit", ".chm", ".prc",
+		".pdf", ".zip", ".rar", ".doc", ".docx", ".txt", ".md",
+		".cpfont", ".ttf", ".otf":
+		return true
+	default:
+		return false
+	}
 }
 
 func main() {
-	apiKey := strings.TrimSpace(os.Getenv("TANGTHU_GOOGLE_API_KEY"))
-	if apiKey == "" {
-		fatal("TANGTHU_GOOGLE_API_KEY is required")
+	r2Client, err := newR2SnapshotClient()
+	if err != nil {
+		fatal(err.Error())
 	}
 	cfgPath := getenv("TANGTHU_BRANCH_CONFIG", "config/branches.json")
 	outDir := getenv("TANGTHU_OUTPUT_DIR", "docs")
@@ -187,11 +200,6 @@ func main() {
 	}
 	var cfg Config
 	if err := json.Unmarshal(data, &cfg); err != nil {
-		fatal(err.Error())
-	}
-
-	client, err := drive.NewClient(apiKey)
-	if err != nil {
 		fatal(err.Error())
 	}
 
@@ -208,28 +216,15 @@ func main() {
 		if !bc.Enabled || (incremental && !selectedSet[bc.ID]) {
 			continue
 		}
-		folder, err := client.GetFolder(ctx, bc.RootFolderID)
-		if err != nil {
-			log.Printf("WARNING: shelf %s (%s) unavailable: %v — skipping", bc.ID, bc.DisplayName, err)
-			continue
-		}
-		files, converted, usedSnapshot, snapshotComplete, err := loadShelfSnapshot(ctx, client, bc, folder.Name)
+		converted, folderName, err := loadShelfSnapshot(ctx, r2Client, bc)
 		if err != nil {
 			fatal(fmt.Sprintf("snapshot %s: %v", bc.ID, err))
 		}
-		if !usedSnapshot {
-			// Bootstrap compatibility: before the first DrivePriority page is
-			// published, retain the original full-scan path.
-			files, err = client.Scan(ctx, bc.RootFolderID)
-			if err != nil {
-				fatal(fmt.Sprintf("scan %s: %v", bc.ID, err))
-			}
-			converted = convertDriveFiles(files)
-			log.Printf("SHELF %s: no snapshot yet; bootstrap scan returned %d items", bc.ID, len(converted))
-		} else {
-			log.Printf("SHELF %s: snapshot items=%d complete=%t", bc.ID, len(converted), snapshotComplete)
+		if folderName == "" {
+			folderName = bc.DisplayName
 		}
-		branches = append(branches, Branch{Config: bc, DriveFolderName: folder.Name, Files: converted, DriveFiles: files})
+		log.Printf("SHELF %s: R2 snapshot items=%d", bc.ID, len(converted))
+		branches = append(branches, Branch{Config: bc, DriveFolderName: folderName, Files: converted})
 	}
 
 	sort.SliceStable(branches, func(i, j int) bool {
