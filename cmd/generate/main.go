@@ -88,36 +88,87 @@ func convertDriveFiles(files []drive.File) []FileEntry {
 
 func loadShelfSnapshot(ctx context.Context, client *drive.Client, bc BranchConfig, folderName string) ([]drive.File, []FileEntry, bool, bool, error) {
 	manifestName := "TANGTHU_SNAPSHOT_" + bc.ID + ".json"
+
+	log.Printf("SNAPSHOT shelf=%s folder=%q manifest_name=%q",
+		bc.ID, folderName, manifestName)
+
 	manifestID, err := client.FindPublicFileByName(ctx, manifestName)
 	if err != nil {
-		return nil, nil, false, false, err
+		return nil, nil, false, false, fmt.Errorf(
+			"find manifest %s for shelf %s: %w", manifestName, bc.ID, err,
+		)
 	}
+
 	if manifestID == "" {
+		log.Printf("SNAPSHOT shelf=%s: no manifest found; fallback required", bc.ID)
 		return nil, nil, false, false, nil
 	}
+
+	log.Printf("SNAPSHOT shelf=%s selected_manifest_id=%s", bc.ID, manifestID)
+
 	var manifest SnapshotManifest
 	if err := client.DownloadJSON(ctx, manifestID, &manifest); err != nil {
-		return nil, nil, false, false, err
+		return nil, nil, false, false, fmt.Errorf(
+			"download manifest %s (id=%s) for shelf %s: %w",
+			manifestName, manifestID, bc.ID, err,
+		)
 	}
+
+	log.Printf(
+		"SNAPSHOT shelf=%s manifest loaded: id=%s version=%d branch=%s pages=%d items=%d complete=%t",
+		bc.ID, manifestID, manifest.Version, manifest.BranchID,
+		len(manifest.Pages), manifest.ItemCount, manifest.Complete,
+	)
+
 	if manifest.Version != 1 || manifest.BranchID != bc.ID {
 		return nil, nil, false, false, fmt.Errorf("invalid snapshot manifest for %s", bc.ID)
 	}
+
 	all := make([]drive.File, 0, manifest.ItemCount)
 	converted := make([]FileEntry, 0, manifest.ItemCount)
+
 	for _, pageID := range manifest.Pages {
 		var page SnapshotPage
 		if err := client.DownloadJSON(ctx, pageID, &page); err != nil {
-			return nil, nil, false, false, fmt.Errorf("download page %s: %w", pageID, err)
+			return nil, nil, false, false, fmt.Errorf(
+				"download page %s from manifest %s: %w", pageID, manifestID, err,
+			)
 		}
+
 		for _, item := range page.Items {
-			f := drive.File{ID: item.ID, ParentID: item.ParentID, Name: item.Name, MIMEType: item.MIME, Size: item.Size, ModifiedTime: item.Modified, MD5Checksum: item.Checksum, WebContentLink: item.WebContentLink}
+			f := drive.File{
+				ID:             item.ID,
+				ParentID:       item.ParentID,
+				Name:           item.Name,
+				MIMEType:       item.MIME,
+				Size:           item.Size,
+				ModifiedTime:   item.Modified,
+				MD5Checksum:    item.Checksum,
+				WebContentLink: item.WebContentLink,
+			}
+
 			if !item.Folder && !drive.IsSupportedBook(f) {
 				continue
 			}
+
 			all = append(all, f)
-			converted = append(converted, FileEntry{ID: f.ID, ParentID: f.ParentID, Name: f.Name, MIME: f.MIMEType, Size: f.Size, Modified: f.ModifiedTime, Checksum: f.MD5Checksum, IsFolder: item.Folder, WebContentLink: f.WebContentLink})
+			converted = append(converted, FileEntry{
+				ID:             f.ID,
+				ParentID:       f.ParentID,
+				Name:           f.Name,
+				MIME:           f.MIMEType,
+				Size:           f.Size,
+				Modified:       f.ModifiedTime,
+				Checksum:       f.MD5Checksum,
+				IsFolder:       item.Folder,
+				WebContentLink: f.WebContentLink,
+			})
 		}
 	}
+
+	log.Printf("SNAPSHOT shelf=%s loaded: files=%d entries=%d complete=%t",
+		bc.ID, len(all), len(converted), manifest.Complete)
+
 	return all, converted, true, manifest.Complete, nil
 }
 
