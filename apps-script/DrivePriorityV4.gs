@@ -1,5 +1,5 @@
 /**
- * TÀNG THƯ — V4 priority scheduler + R2 migration logging
+ * TÀNG THƯ — V4 priority scheduler
  *
  * Reuses V4 helpers already present in Code.gs:
  *   readConfig_, loadBranchState_, saveBranchState_, normalizeBranchState_,
@@ -56,15 +56,6 @@ var PRIORITY_INITIAL_BY_BRANCH_ID = {
 
 function priorityLog_(message) {
   Logger.log('[DrivePriority] ' + message);
-}
-
-function priorityLogJson_(event, data) {
-  var record = {
-    ts: new Date().toISOString(),
-    event: String(event || ''),
-    data: data || {}
-  };
-  Logger.log('[DrivePriorityJSON] ' + JSON.stringify(record));
 }
 
 /**
@@ -212,14 +203,10 @@ function driveCheckPriority() {
     var baselineCompleteCount = enabled.filter(function(b) {
       return !!state.branches[String(b.id)].baseline_complete;
     }).length;
-    var r2CompleteCount = enabled.filter(function(b) {
-      return !!state.branches[String(b.id)].r2_snapshot_complete;
-    }).length;
     priorityLog_(
       'ROUND START | cursor=' + cursor +
       ' | shelves=' + enabled.length +
-      ' | baseline=' + baselineCompleteCount + '/' + enabled.length +
-      ' | R2=' + r2CompleteCount + '/' + enabled.length
+      ' | baseline=' + baselineCompleteCount + '/' + enabled.length
     );
 
     while (visitedThisRound < enabled.length) {
@@ -232,10 +219,9 @@ function driveCheckPriority() {
       var id = String(branch.id);
       var e = state.branches[id];
       var p = Number(e.priority || 1);
-      // While R2 migration is enabled, every shelf without a published R2
-      // snapshot is due regardless of its normal L1/L2/L3 interval.
-      var r2MigrationDue = r2SnapshotEnabled_() && !e.r2_snapshot_complete;
-      var due = isPriorityDue_(e) || !e.snapshot_available || r2MigrationDue;
+      // Existing shelves without a page snapshot must be migrated once,
+      // regardless of their normal L1/L2/L3 interval.
+      var due = isPriorityDue_(e) || !e.snapshot_available;
       var forced = !!force[id];
       var pending = hasPendingPriorityScan_(e);
 
@@ -256,12 +242,31 @@ function driveCheckPriority() {
       priorityLog_(
         'SCAN ' + String(branch.display_name || id) +
         ' | L' + p +
-        ' | ' + (pending ? 'RESUME' : (r2MigrationDue ? 'R2_MIGRATION' : (forced ? 'FORCED' : (!e.snapshot_available ? 'SNAPSHOT_BOOTSTRAP' : 'DUE'))))
+        ' | ' + (pending ? 'RESUME' : (forced ? 'FORCED' : (!e.snapshot_available ? 'SNAPSHOT_BOOTSTRAP' : 'DUE')))
       );
 
       var shelfStartedAt = Date.now();
       var hadSnapshotBeforeScan = !!e.snapshot_available;
-      var result = scanPriorityShelf_(branch, e, shelfStartedAt, false, SHELF_BUDGET_MS, GLOBAL_BUDGET_MS, startedAt);
+      var result;
+      try {
+        result = scanPriorityShelf_(branch, e, shelfStartedAt, false, SHELF_BUDGET_MS, GLOBAL_BUDGET_MS, startedAt);
+      } catch (scanError) {
+        // Preserve the active generation and exact Drive page cursor on failure.
+        // A failed/ambiguous PUT is retried on the next run using the same R2 key.
+        state.cursor = cursor;
+        try {
+          savePriorityState_(state);
+          priorityLog_('ERROR CHECKPOINT SAVED | branch=' + id +
+            ' | generation=' + String(e.r2_snapshot_generation_id || '-') +
+            ' | pages=' + ((e.r2_snapshot_page_keys || []).length) +
+            ' | folder=' + String(e.full_scan_folder_id || '-') +
+            ' | page_token=' + (e.full_scan_page_token ? 'yes' : 'no'));
+        } catch (checkpointError) {
+          priorityLog_('ERROR CHECKPOINT SAVE FAILED | branch=' + id +
+            ' | ' + String(checkpointError));
+        }
+        throw scanError;
+      }
 
       // The shelf budget is local to this shelf. Checkpoint and move the cursor;
       // do NOT return from the execution. This is the key V4 behavior.
@@ -270,7 +275,7 @@ function driveCheckPriority() {
           if (changed.indexOf(id) < 0) changed.push(id);
           priorityLog_('PARTIAL SNAPSHOT READY ' + String(branch.display_name || id) +
             ' | items=' + Number(e.snapshot_item_count || 0) +
-            ' | pages=' + (e.snapshot_page_file_ids || []).length);
+            ' | pages=' + (e.r2_snapshot_page_keys || []).length);
         }
         state.cursor = (cursor + 1) % enabled.length;
         savePriorityState_(state);
@@ -1009,17 +1014,12 @@ function migratePriorityFilesToSystemFolder() {
  *   TANGTHU_R2_SNAPSHOT_ENABLED = "true"
  *
  * Required Script Properties when enabled:
- *   TANGTHU_R2_API_URL   = https://tangthu-storage-api.mienluongngon.workers.dev
+ *   TANGTHU_R2_API_URL   = https://tangthu-storage-api.mienluonngon.workers.dev
  *   TANGTHU_R2_API_TOKEN = the Worker bearer token
  *
- * When R2 is enabled, a full-scan checkpoint created before R2 rollout is
- * deliberately restarted from the branch root. Its partial Drive snapshot is
- * preserved, but is not reused as R2 data. The replacement is published only
- * after a complete fresh traversal.
- *
- * For R2 generations, snapshot pages and the final manifest are written only
- * to R2. Existing Drive snapshot files are preserved; no Drive snapshot GC
- * runs for an R2 generation.
+ * Every full scan starts a fresh R2 generation. Legacy scan cursors are
+ * discarded; snapshot pages and the final manifest are written only to R2.
+ * Google Drive is not used as a snapshot destination.
  */
 function r2SnapshotEnabled_() {
   return String(PropertiesService.getScriptProperties()
@@ -1036,60 +1036,64 @@ function r2SnapshotPut_(key, content) {
 
   var encodedKey = String(key).split('/').map(encodeURIComponent).join('/');
   var url = baseUrl + '/v1/objects/' + encodedKey;
-  var payload = String(content == null ? '' : content);
-  var byteLength = Utilities.newBlob(payload).getBytes().length;
-  var startedAt = Date.now();
-  priorityLogJson_('R2_PUT_START', {key:key, bytes:byteLength});
+  var maxAttempts = 4;
+  var delays = [1000, 2000, 4000];
+  var lastError = null;
 
-  try {
-    var response = UrlFetchApp.fetch(url, {
-      method: 'put',
-      contentType: 'application/json',
-      payload: payload,
-      headers: {Authorization: 'Bearer ' + token},
-      muteHttpExceptions: true
-    });
-    var status = response.getResponseCode();
-    var elapsed = Date.now() - startedAt;
-    if (status < 200 || status >= 300) {
-      var body = String(response.getContentText() || '').slice(0, 1000);
-      priorityLogJson_('R2_PUT_ERROR', {
-        key:key, http_status:status, elapsed_ms:elapsed, response:body
+  for (var attempt = 1; attempt <= maxAttempts; attempt++) {
+    var started = Date.now();
+    try {
+      var response = UrlFetchApp.fetch(url, {
+        method: 'put',
+        contentType: 'application/json',
+        payload: content,
+        headers: {Authorization: 'Bearer ' + token},
+        muteHttpExceptions: true
       });
-      throw new Error('R2 PUT thất bại HTTP ' + status + ' tại ' + key + ': ' + body);
+      var status = response.getResponseCode();
+      var elapsed = Date.now() - started;
+
+      if (status >= 200 && status < 300) {
+        priorityLog_('R2 PUT OK | attempt=' + attempt + '/' + maxAttempts +
+          ' | HTTP=' + status + ' | ms=' + elapsed + ' | key=' + key);
+        return key;
+      }
+
+      var body = response.getContentText().slice(0, 500);
+      var retryable = status === 408 || status === 429 || status >= 500;
+      lastError = new Error('R2 PUT HTTP ' + status + ': ' + body);
+      priorityLog_('R2 PUT HTTP ERROR | attempt=' + attempt + '/' + maxAttempts +
+        ' | HTTP=' + status + ' | ms=' + elapsed + ' | retry=' + retryable + ' | key=' + key);
+      if (!retryable || attempt === maxAttempts) throw lastError;
+    } catch (err) {
+      // Transport exceptions (e.g. Address unavailable) have no HTTP response.
+      // HTTP errors created above are retried only for 408/429/5xx.
+      if (lastError && err === lastError) throw err;
+      lastError = err;
+      priorityLog_('R2 PUT TRANSPORT ERROR | attempt=' + attempt + '/' + maxAttempts +
+        ' | ms=' + (Date.now() - started) + ' | error=' + String(err).slice(0, 300) +
+        ' | key=' + key);
+      if (attempt === maxAttempts) {
+        throw new Error('R2 PUT không kết nối được sau ' + maxAttempts +
+          ' lần thử | key=' + key + ' | lỗi cuối: ' + String(lastError));
+      }
     }
-    priorityLogJson_('R2_PUT_OK', {
-      key:key, http_status:status, elapsed_ms:elapsed, bytes:byteLength
-    });
-    return key;
-  } catch (err) {
-    priorityLogJson_('R2_PUT_EXCEPTION', {
-      key:key, elapsed_ms:Date.now() - startedAt,
-      error:String(err && err.stack ? err.stack : err)
-    });
-    throw err;
+
+    Utilities.sleep(delays[attempt - 1]);
   }
+  throw lastError || new Error('R2 PUT thất bại không rõ nguyên nhân: ' + key);
 }
+
 function r2SnapshotWritePage_(branch, entry, items) {
   var generation = String(entry.r2_snapshot_generation_id || '');
-  if (!generation) throw new Error('R2 generation chưa được khởi tạo cho branch ' + branch.id);
-  if (!Array.isArray(entry.r2_snapshot_page_keys)) entry.r2_snapshot_page_keys = [];
+  if (!generation) return null; // Legacy in-flight scan: do not publish a partial R2 generation.
 
-  var pageIndex = entry.r2_snapshot_page_keys.length + 1;
+  var pageIndex = Number(entry.r2_snapshot_page_keys.length || 0) + 1;
   var key = 'snapshots/' + String(branch.id) + '/generations/' + generation +
     '/pages/page-' + ('000000' + pageIndex).slice(-6) + '.json';
-  var content = JSON.stringify({items: items});
-  r2SnapshotPut_(key, content);
+  r2SnapshotPut_(key, JSON.stringify({items: items}));
   entry.r2_snapshot_page_keys.push(key);
-  priorityLogJson_('R2_PAGE_COMMITTED', {
-    branch_id:String(branch.id), generation_id:generation,
-    page_index:pageIndex, item_count:items.length, key:key
-  });
   return key;
-}
-
-function rowCountForManifest_(entry) {
-  return Number(entry.snapshot_item_count || 0);
 }
 
 function r2SnapshotPublishManifest_(branch, entry) {
@@ -1112,14 +1116,6 @@ function r2SnapshotPublishManifest_(branch, entry) {
   if (manifest.page_count === 0 && manifest.item_count !== 0) {
     throw new Error('R2 manifest không hợp lệ: có item nhưng không có page');
   }
-  if (manifest.item_count !== Number(rowCountForManifest_(entry))) {
-    throw new Error('R2 manifest item_count không khớp số item đã persist: ' +
-      manifest.item_count + ' != ' + Number(rowCountForManifest_(entry)));
-  }
-  priorityLogJson_('R2_MANIFEST_PUBLISH_START', {
-    branch_id:String(branch.id), generation_id:generation,
-    page_count:manifest.page_count, item_count:manifest.item_count
-  });
   r2SnapshotPut_('snapshots/' + String(branch.id) + '/manifest.json', JSON.stringify(manifest));
   priorityLog_('R2 SNAPSHOT PUBLISHED | branch=' + branch.id +
     ' | generation=' + generation + ' | pages=' + manifest.page_count +
@@ -1127,76 +1123,12 @@ function r2SnapshotPublishManifest_(branch, entry) {
   return true;
 }
 
-function snapshotSharePublic_(file) {
-  file.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
-  return file;
-}
-
-function snapshotCreateTextFile_(name, content) {
-  var file = tangThuSystemFolder_().createFile(name, content, SNAPSHOT_MIME);
-  return snapshotSharePublic_(file);
-}
-
-function snapshotWriteManifest_(branch, entry, complete) {
-  var folder = tangThuSystemFolder_();
-  var manifest = {
-    version: 1,
-    branch_id: String(branch.id),
-    folder_name: String(branch.display_name || ''),
-    complete: !!complete,
-    pages: entry.snapshot_page_file_ids || [],
-    item_count: Number(entry.snapshot_item_count || 0),
-    updated_at: new Date().toISOString()
-  };
-  var raw = JSON.stringify(manifest);
-  var file = null;
-
-  if (entry.snapshot_manifest_file_id) {
-    try {
-      file = DriveApp.getFileById(entry.snapshot_manifest_file_id);
-      file.moveTo(folder);
-      file.setContent(raw);
-    } catch (err) {
-      priorityLog_('MANIFEST pointer unavailable | id=' + entry.snapshot_manifest_file_id + ' | ' + String(err));
-      file = null;
-    }
-  }
-
-  if (!file) {
-    var matches = folder.getFilesByName('TANGTHU_SNAPSHOT_' + String(branch.id) + '.json');
-    if (matches.hasNext()) {
-      file = matches.next();
-      file.setContent(raw);
-    } else {
-      matches = DriveApp.getRootFolder().getFilesByName('TANGTHU_SNAPSHOT_' + String(branch.id) + '.json');
-      if (matches.hasNext()) {
-        file = matches.next();
-        file.moveTo(folder);
-        file.setContent(raw);
-      } else {
-        file = folder.createFile(
-          'TANGTHU_SNAPSHOT_' + String(branch.id) + '.json',
-          raw,
-          SNAPSHOT_MIME
-        );
-      }
-    }
-    entry.snapshot_manifest_file_id = file.getId();
-  }
-
-  snapshotSharePublic_(file);
-  entry.snapshot_available = true;
-  entry.snapshot_complete = !!complete;
-}
-
 function snapshotPersistPage_(branch, entry, folderId, files) {
-  if (!entry.snapshot_scan_id) {
-    entry.snapshot_scan_id = Utilities.getUuid().replace(/-/g, '');
-    entry.snapshot_page_file_ids = [];
-    entry.snapshot_item_count = 0;
-    entry.snapshot_page_index = 0;
+  var generation = String(entry.r2_snapshot_generation_id || '');
+  if (!generation) {
+    throw new Error('R2 snapshot chưa được khởi tạo; từ chối ghi snapshot lên Google Drive.');
   }
-  if (!Array.isArray(entry.snapshot_page_file_ids)) entry.snapshot_page_file_ids = [];
+  if (!Array.isArray(entry.r2_snapshot_page_keys)) entry.r2_snapshot_page_keys = [];
 
   var items = (files || []).map(function(file) {
     return {
@@ -1213,27 +1145,9 @@ function snapshotPersistPage_(branch, entry, folderId, files) {
   });
   if (!items.length) return;
 
-  // A generation ID is assigned only to a new scan after R2 has been enabled.
-  // Once assigned, keep writing that generation to R2 even if the feature flag
-  // is later changed while the scan is being resumed.
-  if (entry.r2_snapshot_generation_id) {
-    r2SnapshotWritePage_(branch, entry, items);
-  } else {
-    // Legacy V4 path for scans that were already in progress before R2 rollout.
-    var pageName = 'TANGTHU_SNAPSHOT_' + String(branch.id) + '_' +
-      entry.snapshot_scan_id + '_' + String(entry.snapshot_page_index + 1) + '.json';
-    var pageFile = snapshotCreateTextFile_(pageName, JSON.stringify({items:items}));
-    entry.snapshot_page_file_ids.push(pageFile.getId());
-  }
-
+  r2SnapshotWritePage_(branch, entry, items);
   entry.snapshot_page_index = Number(entry.snapshot_page_index || 0) + 1;
   entry.snapshot_item_count = Number(entry.snapshot_item_count || 0) + items.length;
-
-  // R2 generations are published only when the entire full scan completes.
-  // Legacy in-flight scans retain the original V4 partial-manifest behavior.
-  if (!entry.r2_snapshot_generation_id && !entry.baseline_complete) {
-    snapshotWriteManifest_(branch, entry, false);
-  }
 }
 
 function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBudgetMs, globalBudgetMs, globalStartedAt) {
@@ -1242,34 +1156,29 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
    * Script Properties stores only queue/visited + current folder/page token
    * + the 32-byte digest accumulator, never the complete metadata row list.
    */
-  var hasPendingFullCheckpoint = !!(
-    entry.full_scan_queue || entry.full_scan_folder_id || entry.full_scan_page_token ||
-    entry.full_visited || entry.full_count_work || entry.full_digest_work
-  );
-  var hasR2Generation = !!String(entry.r2_snapshot_generation_id || '');
-
-  if (r2SnapshotEnabled_() && hasPendingFullCheckpoint && !hasR2Generation) {
-    // Old checkpoint pages exist only in Drive and cannot be mixed into R2.
-    // Preserve them, abandon only this branch's partial scan cursor, and
-    // restart a clean traversal from the branch root.
-    priorityLogJson_('R2_MIGRATION_RESTART_OLD_CHECKPOINT', {
-      branch_id:String(branch.id),
-      folder_name:String(branch.display_name || ''),
-      old_rows:Number(entry.full_count_work || 0),
-      old_queue_length:(entry.full_scan_queue || []).length,
-      old_folder_id:String(entry.full_scan_folder_id || ''),
-      had_page_token:!!entry.full_scan_page_token,
-      preserved_drive_page_count:(entry.snapshot_page_file_ids || []).length
-    });
-
-    entry.snapshot_previous_page_file_ids = (entry.snapshot_page_file_ids || []).slice();
+  // Start a completely new scan whenever there is no active R2 generation.
+  // This intentionally discards every legacy/in-flight scan cursor and starts
+  // again at the branch root. The checkpoint remains resumable after this
+  // fresh generation has been saved by the caller.
+  if (!r2SnapshotEnabled_()) {
+    throw new Error('R2 snapshot đang tắt. Không cho phép fallback ghi snapshot lên Google Drive.');
+  }
+  if (!entry.r2_snapshot_generation_id) {
     entry.snapshot_scan_id = Utilities.getUuid().replace(/-/g, '');
-    entry.snapshot_page_file_ids = [];
-    entry.snapshot_item_count = 0;
-    entry.snapshot_page_index = 0;
     entry.r2_snapshot_generation_id = entry.snapshot_scan_id;
     entry.r2_snapshot_page_keys = [];
+    entry.snapshot_page_index = 0;
+    entry.snapshot_item_count = 0;
+    entry.item_count_work = 0;
+    entry.total_size_work = 0;
+    entry.max_modified_work = '';
+    entry.scan_queue = null;
+    entry.visited = {};
+    entry.scan_folder_id = '';
+    entry.scan_page_token = '';
 
+    // Discard old full-scan checkpoints; preserve configuration, fingerprint
+    // baseline and scheduler metadata. No old Drive snapshot is read or deleted.
     entry.full_scan_queue = [String(branch.root_folder_id)];
     entry.full_visited = {};
     entry.full_digest_work = '';
@@ -1278,28 +1187,14 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
     entry.full_scan_page_token = '';
     entry.full_rows = null;
 
-    priorityLogJson_('R2_MIGRATION_RESTART_READY', {
-      branch_id:String(branch.id),
-      generation_id:entry.r2_snapshot_generation_id,
-      root_folder_id:String(branch.root_folder_id)
-    });
-  }
-
-  if (!entry.full_scan_queue && !entry.full_scan_folder_id && !entry.full_scan_page_token) {
-    entry.snapshot_previous_page_file_ids = (entry.snapshot_page_file_ids || []).slice();
-    entry.snapshot_scan_id = Utilities.getUuid().replace(/-/g, '');
+    // Do not retain legacy Drive snapshot pointers in the active snapshot state.
     entry.snapshot_page_file_ids = [];
-    entry.snapshot_item_count = 0;
-    entry.snapshot_page_index = 0;
-    entry.r2_snapshot_generation_id = r2SnapshotEnabled_() ? entry.snapshot_scan_id : '';
-    entry.r2_snapshot_page_keys = [];
-    if (entry.r2_snapshot_generation_id) {
-      priorityLogJson_('R2_GENERATION_STARTED', {
-        branch_id:String(branch.id), folder_name:String(branch.display_name || ''),
-        generation_id:entry.r2_snapshot_generation_id,
-        root_folder_id:String(branch.root_folder_id)
-      });
-    }
+    entry.snapshot_previous_page_file_ids = [];
+    entry.snapshot_available = false;
+    entry.snapshot_complete = false;
+
+    priorityLog_('R2 FRESH SCAN START | branch=' + branch.id +
+      ' | generation=' + entry.r2_snapshot_generation_id + ' | old scan checkpoint discarded');
   }
   if (!Array.isArray(entry.r2_snapshot_page_keys)) entry.r2_snapshot_page_keys = [];
   var queue = entry.full_scan_queue || [String(branch.root_folder_id)];
@@ -1360,25 +1255,22 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
       }
     }
 
-    var drivePageStartedAt = Date.now();
-    priorityLogJson_('DRIVE_PAGE_READ_START', {
-      branch_id:String(branch.id), folder_id:currentFolderId,
-      has_page_token:!!currentPageToken
-    });
     var result = priorityDriveFolderPage_(currentFolderId, currentPageToken, apiKey);
     if (!result.ok) {
-      priorityLogJson_('DRIVE_PAGE_READ_ERROR', {
-        branch_id:String(branch.id), folder_id:currentFolderId,
-        elapsed_ms:Date.now() - drivePageStartedAt, error:String(result.error || '')
-      });
       throw new Error('Google Drive full scan thất bại: ' + result.error);
     }
-    priorityLogJson_('DRIVE_PAGE_READ_OK', {
-      branch_id:String(branch.id), folder_id:currentFolderId,
-      elapsed_ms:Date.now() - drivePageStartedAt,
-      item_count:(result.files || []).length,
-      has_next_page:!!result.nextPageToken
-    });
+
+    // Persist the cursor BEFORE the R2 PUT. If the request fails or the
+    // response is lost, the next execution re-fetches this exact Drive page.
+    // r2SnapshotWritePage_ uses the next uncommitted page key, so the PUT is
+    // safely repeatable for the same page/generation.
+    entry.full_scan_queue = queue;
+    entry.full_visited = visited;
+    entry.full_digest_work = digestBytesToHex_(digest);
+    entry.full_count_work = rowCount;
+    entry.full_scan_folder_id = currentFolderId;
+    entry.full_scan_page_token = currentPageToken;
+    entry.full_rows = null;
 
     snapshotPersistPage_(branch, entry, currentFolderId, result.files || []);
 
@@ -1411,40 +1303,14 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
   var fingerprint = String(rowCount) + ':' + digestBytesToHex_(digest);
   var confirmedChanged = !!entry.fingerprint && fingerprint !== entry.fingerprint;
 
-  if (entry.r2_snapshot_generation_id) {
-    // R2 is the authoritative snapshot store for this generation.
-    // Publish the manifest only after every page has been uploaded.
-    r2SnapshotPublishManifest_(branch, entry);
-    entry.snapshot_available = true;
-    entry.snapshot_complete = true;
-    entry.r2_snapshot_complete = true;
-    entry.r2_snapshot_last_generation_id = String(entry.r2_snapshot_generation_id || '');
-    entry.r2_snapshot_generation_id = '';
-    entry.r2_snapshot_page_keys = [];
-
-    // Preserve all existing Drive snapshot files during the R2 rollout.
-    // In particular, do not run the legacy Drive snapshot garbage collector.
-    entry.snapshot_previous_page_file_ids = [];
-    priorityLog_('R2 SNAPSHOT ACTIVE | branch=' + branch.id +
-      ' | Drive snapshot files preserved');
-  } else {
-    // Legacy V4 path for a scan that began before R2 was enabled.
-    snapshotWriteManifest_(branch, entry, true);
-    (entry.snapshot_previous_page_file_ids || []).forEach(function(fileId) {
-      try { DriveApp.getFileById(fileId).setTrashed(true); } catch (err) {
-        priorityLog_('SNAPSHOT GC warning | file=' + fileId + ' | ' + String(err));
-      }
-    });
-    entry.snapshot_previous_page_file_ids = [];
-  }
-
-  priorityLogJson_('FULL_SCAN_COMPLETE', {
-    branch_id:String(branch.id),
-    folder_name:String(branch.display_name || ''),
-    rows:rowCount,
-    fingerprint:fingerprint,
-    snapshot_storage:entry.snapshot_complete ? 'r2' : 'drive'
-  });
+  // R2 is the only snapshot destination. Publish only after the full scan ends.
+  r2SnapshotPublishManifest_(branch, entry);
+  entry.snapshot_available = true;
+  entry.snapshot_complete = true;
+  entry.r2_snapshot_generation_id = '';
+  entry.r2_snapshot_page_keys = [];
+  entry.snapshot_previous_page_file_ids = [];
+  priorityLog_('R2 SNAPSHOT ACTIVE | branch=' + branch.id + ' | snapshot stored only in R2');
 
   entry.full_scan_queue = null;
   entry.full_visited = {};
@@ -1469,3 +1335,4 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
     max_modified_time:quick.max_modified_time
   };
 }
+
