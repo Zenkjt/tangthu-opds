@@ -988,6 +988,87 @@ function migratePriorityFilesToSystemFolder() {
   };
 }
 
+/**
+ * Cloudflare R2 snapshot V2 adapter.
+ *
+ * Safe rollout gate:
+ *   TANGTHU_R2_SNAPSHOT_ENABLED = "true"
+ *
+ * Required Script Properties when enabled:
+ *   TANGTHU_R2_API_URL   = https://tangthu-storage-api.mienluongngon.workers.dev
+ *   TANGTHU_R2_API_TOKEN = the Worker bearer token
+ *
+ * Only a NEW full scan gets an R2 generation. A scan already in progress
+ * before this adapter was enabled is allowed to finish on the existing V4
+ * path; it is never published as an incomplete R2 snapshot.
+ */
+function r2SnapshotEnabled_() {
+  return String(PropertiesService.getScriptProperties()
+    .getProperty('TANGTHU_R2_SNAPSHOT_ENABLED') || '').toLowerCase() === 'true';
+}
+
+function r2SnapshotPut_(key, content) {
+  var props = PropertiesService.getScriptProperties();
+  var baseUrl = String(props.getProperty('TANGTHU_R2_API_URL') || '').replace(/\/+$/, '');
+  var token = String(props.getProperty('TANGTHU_R2_API_TOKEN') || '');
+  if (!baseUrl || !token) {
+    throw new Error('Thiếu Script Properties TANGTHU_R2_API_URL hoặc TANGTHU_R2_API_TOKEN');
+  }
+
+  var encodedKey = String(key).split('/').map(encodeURIComponent).join('/');
+  var response = UrlFetchApp.fetch(baseUrl + '/v1/objects/' + encodedKey, {
+    method: 'put',
+    contentType: 'application/json',
+    payload: content,
+    headers: {Authorization: 'Bearer ' + token},
+    muteHttpExceptions: true
+  });
+  var status = response.getResponseCode();
+  if (status < 200 || status >= 300) {
+    throw new Error('R2 PUT thất bại HTTP ' + status + ': ' + response.getContentText().slice(0, 500));
+  }
+  return key;
+}
+
+function r2SnapshotWritePage_(branch, entry, items) {
+  var generation = String(entry.r2_snapshot_generation_id || '');
+  if (!generation) return null; // Legacy in-flight scan: do not publish a partial R2 generation.
+
+  var pageIndex = Number(entry.r2_snapshot_page_keys.length || 0) + 1;
+  var key = 'snapshots/' + String(branch.id) + '/generations/' + generation +
+    '/pages/page-' + ('000000' + pageIndex).slice(-6) + '.json';
+  r2SnapshotPut_(key, JSON.stringify({items: items}));
+  entry.r2_snapshot_page_keys.push(key);
+  return key;
+}
+
+function r2SnapshotPublishManifest_(branch, entry) {
+  var generation = String(entry.r2_snapshot_generation_id || '');
+  if (!generation) return false;
+  var pages = (entry.r2_snapshot_page_keys || []).slice();
+  var manifest = {
+    version: 2,
+    storage: 'r2',
+    branch_id: String(branch.id),
+    folder_name: String(branch.display_name || ''),
+    generation_id: generation,
+    complete: true,
+    page_count: pages.length,
+    pages: pages,
+    item_count: Number(entry.snapshot_item_count || 0),
+    updated_at: new Date().toISOString()
+  };
+
+  if (manifest.page_count === 0 && manifest.item_count !== 0) {
+    throw new Error('R2 manifest không hợp lệ: có item nhưng không có page');
+  }
+  r2SnapshotPut_('snapshots/' + String(branch.id) + '/manifest.json', JSON.stringify(manifest));
+  priorityLog_('R2 SNAPSHOT PUBLISHED | branch=' + branch.id +
+    ' | generation=' + generation + ' | pages=' + manifest.page_count +
+    ' | items=' + manifest.item_count);
+  return true;
+}
+
 function snapshotSharePublic_(file) {
   file.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
   return file;
@@ -1072,6 +1153,10 @@ function snapshotPersistPage_(branch, entry, folderId, files) {
   });
   if (!items.length) return;
 
+  if (r2SnapshotEnabled_() && entry.r2_snapshot_generation_id) {
+    r2SnapshotWritePage_(branch, entry, items);
+  }
+
   var pageName = 'TANGTHU_SNAPSHOT_' + String(branch.id) + '_' +
     entry.snapshot_scan_id + '_' + String(entry.snapshot_page_index + 1) + '.json';
   var pageFile = snapshotCreateTextFile_(pageName, JSON.stringify({items:items}));
@@ -1097,7 +1182,12 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
     entry.snapshot_page_file_ids = [];
     entry.snapshot_item_count = 0;
     entry.snapshot_page_index = 0;
+    entry.r2_snapshot_generation_id = r2SnapshotEnabled_() ? entry.snapshot_scan_id : '';
+    entry.r2_snapshot_page_keys = [];
   }
+  // A pre-existing V4 checkpoint has no R2 generation. Let it finish unchanged;
+  // the next new full scan will bootstrap its own complete R2 generation.
+  if (!Array.isArray(entry.r2_snapshot_page_keys)) entry.r2_snapshot_page_keys = [];
   var queue = entry.full_scan_queue || [String(branch.root_folder_id)];
   var visited = entry.full_visited || {};
   var digest = hexToDigestBytes_(entry.full_digest_work || '');
@@ -1191,6 +1281,11 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
 
   var fingerprint = String(rowCount) + ':' + digestBytesToHex_(digest);
   var confirmedChanged = !!entry.fingerprint && fingerprint !== entry.fingerprint;
+  if (r2SnapshotEnabled_() && entry.r2_snapshot_generation_id) {
+    r2SnapshotPublishManifest_(branch, entry);
+    entry.r2_snapshot_generation_id = '';
+    entry.r2_snapshot_page_keys = [];
+  }
   snapshotWriteManifest_(branch, entry, true);
   (entry.snapshot_previous_page_file_ids || []).forEach(function(fileId) {
     try { DriveApp.getFileById(fileId).setTrashed(true); } catch (err) {
