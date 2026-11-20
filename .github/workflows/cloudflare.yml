@@ -97,9 +97,10 @@ jobs:
           echo "mode=$(cat .build/build_mode)" >> "$GITHUB_OUTPUT"
           echo "shelves=$(cat .build/changed_shelves.txt)" >> "$GITHUB_OUTPUT"
 
-      - name: Generate static catalog
+      - name: Generate static catalog from R2 snapshots
         env:
-          TANGTHU_GOOGLE_API_KEY: ${{ secrets.TANGTHU_GOOGLE_API_KEY }}
+          TANGTHU_R2_API_URL: ${{ vars.TANGTHU_R2_API_URL }}
+          TANGTHU_R2_API_TOKEN: ${{ secrets.TANGTHU_R2_API_TOKEN }}
           TANGTHU_BRANCH_CONFIG: .build/branches.json
           TANGTHU_OUTPUT_DIR: docs
           TANGTHU_BASE_URL: https://tangthu.pages.dev
