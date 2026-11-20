@@ -184,11 +184,13 @@ renderer = r'''  var shelfResizeObserver=null;
 '''
 text = text[:start] + renderer + text[end:]
 
-old_state = "var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:''};"
-new_state = "var state={catalog:null,branch:null,parent:null,view:'shelves',selected:null,search:''};"
-if old_state not in text:
-    raise SystemExit("Bookshelf patch anchor missing: state initializer")
-text = text.replace(old_state, new_state, 1)
+# The generator may add runtime fields (for example fileCache/renderToken)
+# to the state object. Match the view property rather than the entire object.
+import re
+state_pattern = r"(var\s+state\s*=\s*\{[^}]*\bview\s*:\s*)['\"]list['\"]"
+text, state_replacements = re.subn(state_pattern, r"\1'shelves'", text, count=1)
+if state_replacements != 1:
+    raise SystemExit("Bookshelf patch anchor missing: state.view initializer")
 
 old_render = "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}"
 new_render = "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}if(shelfResizeObserver){shelfResizeObserver.disconnect();shelfResizeObserver=null;}var main=document.querySelector('.main');if(main)main.classList.remove('shelf-only');"
