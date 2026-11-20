@@ -197,6 +197,7 @@ func (c *Client) ListChildren(ctx context.Context, parentID string) ([]File, err
             "orderBy":                  {"modifiedTime desc"},
             "supportsAllDrives":        {"true"},
             "includeItemsFromAllDrives": {"true"},
+			"corpora":                  {"allDrives"},
         }
 		if token != "" {
 			params.Set("pageToken", token)
