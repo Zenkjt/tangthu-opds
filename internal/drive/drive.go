@@ -328,11 +328,7 @@ func (c *Client) FindPublicFileByName(ctx context.Context, name string) (string,
 
 	return selected.ID, nil
 }
-	// Results are ordered by modifiedTime descending; prefer the newest if an
-	// interrupted Apps Script run left a duplicate manifest behind.
-	return result.Files[0].ID, nil
-}
-
+	
 // DownloadJSON reads a public Drive JSON file by ID using the configured API key.
 func (c *Client) DownloadJSON(ctx context.Context, fileID string, dst any) error {
 	resp, err := c.Open(ctx, fileID, "")
