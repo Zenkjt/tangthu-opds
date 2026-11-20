@@ -281,5 +281,40 @@ func (c *Client) Open(ctx context.Context, fileID, rangeHeader string) (*http.Re
 	return resp, nil
 }
 
+// FindPublicFileByName resolves a public Drive snapshot manifest by exact name.
+func (c *Client) FindPublicFileByName(ctx context.Context, name string) (string, error) {
+	q := "name = '" + escapeQuery(name) + "' and trashed = false"
+	params := url.Values{
+		"q": {q}, "pageSize": {"10"},
+		"fields":  {"files(id,name,modifiedTime)"},
+		"orderBy": {"modifiedTime desc"},
+	}
+	var result struct {
+		Files []struct {
+			ID string `json:"id"`
+		} `json:"files"`
+	}
+	if err := c.get(ctx, "/files", params, &result); err != nil {
+		return "", err
+	}
+	if len(result.Files) == 0 {
+		return "", nil
+	}
+	// Results are ordered by modifiedTime descending; prefer the newest if an
+	// interrupted Apps Script run left a duplicate manifest behind.
+	return result.Files[0].ID, nil
+}
+
+// DownloadJSON reads a public Drive JSON file by ID using the configured API key.
+func (c *Client) DownloadJSON(ctx context.Context, fileID string, dst any) error {
+	resp, err := c.Open(ctx, fileID, "")
+	if err != nil {
+		return err
+	}
+	defer resp.Body.Close()
+	dec := json.NewDecoder(io.LimitReader(resp.Body, 64*1024*1024))
+	return dec.Decode(dst)
+}
+
 func escapeQuery(s string) string { return strings.ReplaceAll(s, "'", "\\'") }
 func IsFolder(f File) bool        { return f.MIMEType == folderMIME }

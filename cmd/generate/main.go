@@ -42,11 +42,83 @@ type FileEntry struct {
 	WebContentLink string
 }
 
+type SnapshotManifest struct {
+	Version    int      `json:"version"`
+	BranchID   string   `json:"branch_id"`
+	FolderName string   `json:"folder_name"`
+	Complete   bool     `json:"complete"`
+	Pages      []string `json:"pages"`
+	ItemCount  int      `json:"item_count"`
+	UpdatedAt  string   `json:"updated_at"`
+}
+
+type SnapshotItem struct {
+	ID             string `json:"id"`
+	ParentID       string `json:"parent_id"`
+	Name           string `json:"name"`
+	MIME           string `json:"mime"`
+	Size           int64  `json:"size"`
+	Modified       string `json:"modified"`
+	Checksum       string `json:"checksum"`
+	Folder         bool   `json:"folder"`
+	WebContentLink string `json:"web_content_link"`
+}
+
+type SnapshotPage struct {
+	Items []SnapshotItem `json:"items"`
+}
+
 type Branch struct {
 	Config          BranchConfig
 	DriveFolderName string
 	Files           []FileEntry
 	DriveFiles      []drive.File
+}
+
+func convertDriveFiles(files []drive.File) []FileEntry {
+	converted := make([]FileEntry, 0, len(files))
+	for _, f := range files {
+		if !drive.IsFolder(f) && !drive.IsSupportedBook(f) {
+			continue
+		}
+		converted = append(converted, FileEntry{ID: f.ID, ParentID: f.ParentID, Name: f.Name, MIME: f.MIMEType, Size: f.Size, Modified: f.ModifiedTime, Checksum: f.MD5Checksum, IsFolder: drive.IsFolder(f), WebContentLink: f.WebContentLink})
+	}
+	return converted
+}
+
+func loadShelfSnapshot(ctx context.Context, client *drive.Client, bc BranchConfig, folderName string) ([]drive.File, []FileEntry, bool, bool, error) {
+	manifestName := "TANGTHU_SNAPSHOT_" + bc.ID + ".json"
+	manifestID, err := client.FindPublicFileByName(ctx, manifestName)
+	if err != nil {
+		return nil, nil, false, false, err
+	}
+	if manifestID == "" {
+		return nil, nil, false, false, nil
+	}
+	var manifest SnapshotManifest
+	if err := client.DownloadJSON(ctx, manifestID, &manifest); err != nil {
+		return nil, nil, false, false, err
+	}
+	if manifest.Version != 1 || manifest.BranchID != bc.ID {
+		return nil, nil, false, false, fmt.Errorf("invalid snapshot manifest for %s", bc.ID)
+	}
+	all := make([]drive.File, 0, manifest.ItemCount)
+	converted := make([]FileEntry, 0, manifest.ItemCount)
+	for _, pageID := range manifest.Pages {
+		var page SnapshotPage
+		if err := client.DownloadJSON(ctx, pageID, &page); err != nil {
+			return nil, nil, false, false, fmt.Errorf("download page %s: %w", pageID, err)
+		}
+		for _, item := range page.Items {
+			f := drive.File{ID: item.ID, ParentID: item.ParentID, Name: item.Name, MIMEType: item.MIME, Size: item.Size, ModifiedTime: item.Modified, MD5Checksum: item.Checksum, WebContentLink: item.WebContentLink}
+			if !item.Folder && !drive.IsSupportedBook(f) {
+				continue
+			}
+			all = append(all, f)
+			converted = append(converted, FileEntry{ID: f.ID, ParentID: f.ParentID, Name: f.Name, MIME: f.MIMEType, Size: f.Size, Modified: f.ModifiedTime, Checksum: f.MD5Checksum, IsFolder: item.Folder, WebContentLink: f.WebContentLink})
+		}
+	}
+	return all, converted, true, manifest.Complete, nil
 }
 
 func main() {
@@ -90,16 +162,21 @@ func main() {
 			log.Printf("WARNING: shelf %s (%s) unavailable: %v — skipping", bc.ID, bc.DisplayName, err)
 			continue
 		}
-		files, err := client.Scan(ctx, bc.RootFolderID)
+		files, converted, usedSnapshot, snapshotComplete, err := loadShelfSnapshot(ctx, client, bc, folder.Name)
 		if err != nil {
-			fatal(fmt.Sprintf("scan %s: %v", bc.ID, err))
+			fatal(fmt.Sprintf("snapshot %s: %v", bc.ID, err))
 		}
-		converted := make([]FileEntry, 0, len(files))
-		for _, f := range files {
-			converted = append(converted, FileEntry{
-				ID: f.ID, ParentID: f.ParentID, Name: f.Name, MIME: f.MIMEType, Size: f.Size,
-				Modified: f.ModifiedTime, Checksum: f.MD5Checksum, IsFolder: drive.IsFolder(f), WebContentLink: f.WebContentLink,
-			})
+		if !usedSnapshot {
+			// Bootstrap compatibility: before the first DrivePriority page is
+			// published, retain the original full-scan path.
+			files, err = client.Scan(ctx, bc.RootFolderID)
+			if err != nil {
+				fatal(fmt.Sprintf("scan %s: %v", bc.ID, err))
+			}
+			converted = convertDriveFiles(files)
+			log.Printf("SHELF %s: no snapshot yet; bootstrap scan returned %d items", bc.ID, len(converted))
+		} else {
+			log.Printf("SHELF %s: snapshot items=%d complete=%t", bc.ID, len(converted), snapshotComplete)
 		}
 		branches = append(branches, Branch{Config: bc, DriveFolderName: folder.Name, Files: converted, DriveFiles: files})
 	}

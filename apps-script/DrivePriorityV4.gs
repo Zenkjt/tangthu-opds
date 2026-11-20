@@ -219,7 +219,9 @@ function driveCheckPriority() {
       var id = String(branch.id);
       var e = state.branches[id];
       var p = Number(e.priority || 1);
-      var due = isPriorityDue_(e);
+      // Existing shelves without a page snapshot must be migrated once,
+      // regardless of their normal L1/L2/L3 interval.
+      var due = isPriorityDue_(e) || !e.snapshot_available;
       var forced = !!force[id];
       var pending = hasPendingPriorityScan_(e);
 
@@ -240,15 +242,22 @@ function driveCheckPriority() {
       priorityLog_(
         'SCAN ' + String(branch.display_name || id) +
         ' | L' + p +
-        ' | ' + (pending ? 'RESUME' : (forced ? 'FORCED' : 'DUE'))
+        ' | ' + (pending ? 'RESUME' : (forced ? 'FORCED' : (!e.snapshot_available ? 'SNAPSHOT_BOOTSTRAP' : 'DUE')))
       );
 
       var shelfStartedAt = Date.now();
+      var hadSnapshotBeforeScan = !!e.snapshot_available;
       var result = scanPriorityShelf_(branch, e, shelfStartedAt, false, SHELF_BUDGET_MS, GLOBAL_BUDGET_MS, startedAt);
 
       // The shelf budget is local to this shelf. Checkpoint and move the cursor;
       // do NOT return from the execution. This is the key V4 behavior.
       if (!result.completed) {
+        if (e.snapshot_available && !e.baseline_complete) {
+          if (changed.indexOf(id) < 0) changed.push(id);
+          priorityLog_('PARTIAL SNAPSHOT READY ' + String(branch.display_name || id) +
+            ' | items=' + Number(e.snapshot_item_count || 0) +
+            ' | pages=' + (e.snapshot_page_file_ids || []).length);
+        }
         state.cursor = (cursor + 1) % enabled.length;
         savePriorityState_(state);
         priorityLog_(
@@ -266,6 +275,7 @@ function driveCheckPriority() {
       processed++;
 
       var wasChanged = !!result.confirmed_changed;
+      var snapshotBootstrapped = !hadSnapshotBeforeScan && !!e.snapshot_available;
       e.fingerprint = result.fingerprint;
       e.last_scan = new Date().toISOString();
       e.item_count = result.item_count;
@@ -283,6 +293,11 @@ function driveCheckPriority() {
       e.full_rows = null;
       e.full_scan_folder_id = '';
       e.full_scan_page_token = '';
+
+      if (snapshotBootstrapped && changed.indexOf(id) < 0) {
+        changed.push(id);
+        priorityLog_('SNAPSHOT BOOTSTRAPPED ' + String(branch.display_name || id));
+      }
 
       if (e.baseline_complete) {
         if (wasChanged) {
@@ -317,8 +332,10 @@ function driveCheckPriority() {
         }
       } else {
         e.baseline_complete = true;
+        e.snapshot_complete = true;
         e.change_streak = 0;
         e.no_change_streak = 0;
+        if (changed.indexOf(id) < 0) changed.push(id);
 
         priorityLog_(
           'RESULT ' + String(branch.display_name || id) +
@@ -402,11 +419,13 @@ function reloadShelf(e) {
     ' | priority=L' + Number(entry.priority || 1)
   );
 
+  var hadSnapshotBeforeReload = !!entry.snapshot_available;
   var result = scanPriorityShelf_(branch, entry, startedAt, true, 50 * 1000, 300 * 1000, startedAt);
   if (!result.completed) {
     state.branches[id] = entry;
     savePriorityState_(state);
-    return {ok:true, queued:true, branch_id:id, display_name:branch.display_name, message:'Tủ quá lớn, scan đã được checkpoint; hệ thống sẽ tiếp tục tự động.'};
+    if (entry.snapshot_available && !entry.baseline_complete) dispatchPriorityBuild_([id]);
+    return {ok:true, queued:true, branch_id:id, display_name:branch.display_name, message:'Tủ quá lớn, snapshot đã được publish nếu có dữ liệu; hệ thống sẽ tiếp tục tự động.'};
   }
 
   var oldFingerprint = entry.fingerprint || '';
@@ -417,12 +436,14 @@ function reloadShelf(e) {
   entry.total_size = result.total_size;
   entry.max_modified_time = result.max_modified_time;
   entry.baseline_complete = true;
+  entry.snapshot_complete = true;
   entry.scan_queue = null; entry.visited = {};
   entry.item_count_work = 0; entry.total_size_work = 0; entry.max_modified_work = ''; entry.full_items_work = null;
   state.branches[id] = entry;
   savePriorityState_(state);
-  if (changed) {
-    priorityLog_('RELOAD DISPATCH ' + String(branch.display_name || id));
+  if (changed || !hadSnapshotBeforeReload) {
+    priorityLog_('RELOAD DISPATCH ' + String(branch.display_name || id) +
+      ' | changed=' + changed + ' | snapshot_bootstrapped=' + !hadSnapshotBeforeReload);
     dispatchPriorityBuild_([id]);
   } else {
     priorityLog_(
@@ -588,7 +609,7 @@ function priorityDriveFolderPage_(folderId, pageToken, apiKey) {
     '&supportsAllDrives=true' +
     '&corpora=allDrives' +
     '&fields=' + encodeURIComponent(
-      'nextPageToken,files(id,name,mimeType,size,modifiedTime,createdTime,md5Checksum)'
+      'nextPageToken,files(id,name,mimeType,size,modifiedTime,createdTime,md5Checksum,webContentLink)'
     );
 
   if (pageToken) {
@@ -738,6 +759,17 @@ function scanPriorityShelf_(branch, entry, shelfStartedAt, forceFull, shelfBudge
       max_modified_time: String(entry.max_modified_work || '')
     };
     return scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, resumedQuick, shelfBudgetMs, globalBudgetMs, globalStartedAt);
+  }
+
+  // Initial baseline is a single resumable FULL scan. Do not spend a second
+  // complete traversal on QUICK before any complete fingerprint exists.
+  if (!entry.baseline_complete || !entry.snapshot_available) {
+    priorityLog_('BASELINE/SNAPSHOT START ' + String(branch.display_name || branch.id) +
+      ' | baseline=' + (entry.baseline_complete ? 'DONE' : 'PENDING') +
+      ' | snapshot=' + (entry.snapshot_available ? 'RESUME' : 'NEW'));
+    return scanPriorityFull_(branch, entry, shelfStartedAt, apiKey,
+      {item_count:0,total_size:0,max_modified_time:''},
+      shelfBudgetMs, globalBudgetMs, globalStartedAt);
   }
 
   var quick = scanPriorityQuick_(branch, entry, shelfStartedAt, apiKey, shelfBudgetMs, globalBudgetMs, globalStartedAt);
@@ -892,12 +924,103 @@ function fingerprintRow_(row) {
   });
 }
 
+var SNAPSHOT_MIME = MimeType.PLAIN_TEXT;
+
+function snapshotSharePublic_(file) {
+  file.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
+  return file;
+}
+
+function snapshotCreateTextFile_(name, content) {
+  var file = DriveApp.getRootFolder().createFile(name, content, SNAPSHOT_MIME);
+  return snapshotSharePublic_(file);
+}
+
+function snapshotWriteManifest_(branch, entry, complete) {
+  var manifest = {
+    version: 1,
+    branch_id: String(branch.id),
+    folder_name: String(branch.display_name || ''),
+    complete: !!complete,
+    pages: entry.snapshot_page_file_ids || [],
+    item_count: Number(entry.snapshot_item_count || 0),
+    updated_at: new Date().toISOString()
+  };
+  var raw = JSON.stringify(manifest);
+  var file = null;
+  if (entry.snapshot_manifest_file_id) {
+    try {
+      file = DriveApp.getFileById(entry.snapshot_manifest_file_id);
+      file.setContent(raw);
+    } catch (err) {
+      file = null;
+    }
+  }
+  if (!file) {
+    var matches = DriveApp.getRootFolder().getFilesByName('TANGTHU_SNAPSHOT_' + String(branch.id) + '.json');
+    if (matches.hasNext()) {
+      file = matches.next();
+      file.setContent(raw);
+      snapshotSharePublic_(file);
+    } else {
+      file = snapshotCreateTextFile_('TANGTHU_SNAPSHOT_' + String(branch.id) + '.json', raw);
+    }
+    entry.snapshot_manifest_file_id = file.getId();
+  }
+  snapshotSharePublic_(file);
+  // Availability means a valid manifest exists, even for an empty shelf.
+  entry.snapshot_available = true;
+  entry.snapshot_complete = !!complete;
+}
+
+function snapshotPersistPage_(branch, entry, folderId, files) {
+  if (!entry.snapshot_scan_id) {
+    entry.snapshot_scan_id = Utilities.getUuid().replace(/-/g, '');
+    entry.snapshot_page_file_ids = [];
+    entry.snapshot_item_count = 0;
+    entry.snapshot_page_index = 0;
+  }
+  var items = (files || []).map(function(file) {
+    return {
+      id: String(file.id || ''),
+      parent_id: String(folderId || ''),
+      name: String(file.name || ''),
+      mime: String(file.mimeType || ''),
+      size: file.size == null ? 0 : Number(file.size),
+      modified: String(file.modifiedTime || ''),
+      checksum: String(file.md5Checksum || ''),
+      folder: file.mimeType === 'application/vnd.google-apps.folder',
+      web_content_link: String(file.webContentLink || '')
+    };
+  });
+  if (!items.length) return;
+
+  var pageName = 'TANGTHU_SNAPSHOT_' + String(branch.id) + '_' +
+    entry.snapshot_scan_id + '_' + String(entry.snapshot_page_index + 1) + '.json';
+  var pageFile = snapshotCreateTextFile_(pageName, JSON.stringify({items:items}));
+  entry.snapshot_page_file_ids.push(pageFile.getId());
+  entry.snapshot_page_index = Number(entry.snapshot_page_index || 0) + 1;
+  entry.snapshot_item_count = Number(entry.snapshot_item_count || 0) + items.length;
+
+  // During the first baseline, publish every committed page. For a shelf that
+  // already has a complete baseline, keep serving its old snapshot until the
+  // replacement full scan is complete.
+  if (!entry.baseline_complete) snapshotWriteManifest_(branch, entry, false);
+}
+
 function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBudgetMs, globalBudgetMs, globalStartedAt) {
   /*
    * Full scan is resumable at Drive API page level.
    * Script Properties stores only queue/visited + current folder/page token
    * + the 32-byte digest accumulator, never the complete metadata row list.
    */
+  if (!entry.full_scan_queue && !entry.full_scan_folder_id && !entry.full_scan_page_token) {
+    entry.snapshot_previous_page_file_ids = (entry.snapshot_page_file_ids || []).slice();
+    entry.snapshot_scan_id = Utilities.getUuid().replace(/-/g, '');
+    entry.snapshot_page_file_ids = [];
+    entry.snapshot_item_count = 0;
+    entry.snapshot_page_index = 0;
+  }
   var queue = entry.full_scan_queue || [String(branch.root_folder_id)];
   var visited = entry.full_visited || {};
   var digest = hexToDigestBytes_(entry.full_digest_work || '');
@@ -961,6 +1084,8 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
       throw new Error('Google Drive full scan thất bại: ' + result.error);
     }
 
+    snapshotPersistPage_(branch, entry, currentFolderId, result.files || []);
+
     (result.files || []).forEach(function(file) {
       var row = {
         id: String(file.id || ''),
@@ -989,6 +1114,13 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
 
   var fingerprint = String(rowCount) + ':' + digestBytesToHex_(digest);
   var confirmedChanged = !!entry.fingerprint && fingerprint !== entry.fingerprint;
+  snapshotWriteManifest_(branch, entry, true);
+  (entry.snapshot_previous_page_file_ids || []).forEach(function(fileId) {
+    try { DriveApp.getFileById(fileId).setTrashed(true); } catch (err) {
+      priorityLog_('SNAPSHOT GC warning | file=' + fileId + ' | ' + String(err));
+    }
+  });
+  entry.snapshot_previous_page_file_ids = [];
 
   entry.full_scan_queue = null;
   entry.full_visited = {};
