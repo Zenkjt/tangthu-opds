@@ -6,6 +6,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
+	"log"
 	"net/http"
 	"net/url"
 	"path/filepath"
@@ -285,21 +286,48 @@ func (c *Client) Open(ctx context.Context, fileID, rangeHeader string) (*http.Re
 func (c *Client) FindPublicFileByName(ctx context.Context, name string) (string, error) {
 	q := "name = '" + escapeQuery(name) + "' and trashed = false"
 	params := url.Values{
-		"q": {q}, "pageSize": {"10"},
-		"fields":  {"files(id,name,modifiedTime)"},
-		"orderBy": {"modifiedTime desc"},
+		"q":        {q},
+		"pageSize": {"10"},
+		"fields":   {"files(id,name,mimeType,modifiedTime,parents)"},
+		"orderBy":  {"modifiedTime desc"},
 	}
+
 	var result struct {
 		Files []struct {
-			ID string `json:"id"`
+			ID           string   `json:"id"`
+			Name         string   `json:"name"`
+			MIMEType     string   `json:"mimeType"`
+			ModifiedTime string   `json:"modifiedTime"`
+			Parents      []string `json:"parents"`
 		} `json:"files"`
 	}
+
 	if err := c.get(ctx, "/files", params, &result); err != nil {
 		return "", err
 	}
+
+	log.Printf("SNAPSHOT manifest lookup: name=%q candidates=%d", name, len(result.Files))
+
+	for i, f := range result.Files {
+		log.Printf(
+			"SNAPSHOT manifest candidate[%d]: id=%s name=%q mimeType=%s modifiedTime=%s parents=%v",
+			i, f.ID, f.Name, f.MIMEType, f.ModifiedTime, f.Parents,
+		)
+	}
+
 	if len(result.Files) == 0 {
+		log.Printf("SNAPSHOT manifest not found: name=%q", name)
 		return "", nil
 	}
+
+	// Results are ordered by modifiedTime descending; prefer the newest if an
+	// interrupted Apps Script run left a duplicate manifest behind.
+	selected := result.Files[0]
+	log.Printf("SNAPSHOT manifest selected: id=%s name=%q parents=%v",
+		selected.ID, selected.Name, selected.Parents)
+
+	return selected.ID, nil
+}
 	// Results are ordered by modifiedTime descending; prefer the newest if an
 	// interrupted Apps Script run left a duplicate manifest behind.
 	return result.Files[0].ID, nil
