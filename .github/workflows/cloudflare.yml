@@ -210,6 +210,22 @@ jobs:
 
 
 
+      - name: Validate Cloudflare Pages asset limits
+        run: |
+          set -euo pipefail
+          file_count=$(find docs -type f | wc -l | tr -d ' ')
+          echo "Static asset count: ${file_count}"
+          if [ "$file_count" -gt 19000 ]; then
+            echo "ERROR: ${file_count} files exceeds the conservative 19,000-file deployment budget. Cloudflare Pages Free allows 20,000 files per site; consolidate shards or move catalog storage to R2."
+            exit 1
+          fi
+          oversized=$(find docs -type f -size +24M -print)
+          if [ -n "$oversized" ]; then
+            echo "ERROR: the following assets exceed the 24 MiB safety threshold (Pages hard limit is 25 MiB):"
+            echo "$oversized"
+            exit 1
+          fi
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4
         with:
