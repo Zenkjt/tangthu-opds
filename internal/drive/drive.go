@@ -191,10 +191,13 @@ func (c *Client) ListChildren(ctx context.Context, parentID string) ([]File, err
 	for {
 		q := fmt.Sprintf("'%s' in parents and trashed = false", escapeQuery(parentID))
 		params := url.Values{
-			"q": {q}, "pageSize": {"1000"}, "orderBy": {"folder,name"},
-			"fields":            {"nextPageToken,files(id,name,mimeType,size,modifiedTime,md5Checksum,webContentLink)"},
-			"supportsAllDrives": {"true"}, "includeItemsFromAllDrives": {"true"},
-		}
+            "q":                        {q},
+            "pageSize":                 {"10"},
+            "fields":                   {"files(id,name,mimeType,modifiedTime,parents)"},
+            "orderBy":                  {"modifiedTime desc"},
+            "supportsAllDrives":        {"true"},
+            "includeItemsFromAllDrives": {"true"},
+        }
 		if token != "" {
 			params.Set("pageToken", token)
 		}
