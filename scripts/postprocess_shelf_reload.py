@@ -88,7 +88,7 @@ new_fn = r'''  function renderBranches(){
 
   function shelfSnapshot(shelf){
     if(!shelf)return '';
-    return JSON.stringify({id:shelf.id,name:shelf.name,root_folder_id:shelf.root_folder_id,files:shelf.files||[]});
+    return JSON.stringify({id:shelf.id,name:shelf.name,root_folder_id:shelf.root_folder_id,revision:shelf.revision||'',file_count:shelf.file_count||0});
   }
 
   function fetchFreshCatalog(){
@@ -110,6 +110,7 @@ new_fn = r'''  function renderBranches(){
         var updated=(catalog.branches||[]).find(function(x){return x.id===b.id});
         if(updated && shelfSnapshot(updated)!==baseline){
           state.catalog=catalog;
+          if(state.fileCache)delete state.fileCache[b.id];
           renderBranches();
           renderContent();
           $('statusLeft').textContent='Tủ "'+b.name+'" đã cập nhật. Danh sách sách vừa được làm mới.';

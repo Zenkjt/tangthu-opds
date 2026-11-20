@@ -77,15 +77,16 @@ def main():
         if branch.get("root_folder_id"):
             shelf_by_root[branch["root_folder_id"]] = no
 
-    # Inject shelf_no into the generated catalog.
+    # The catalog is now a small manifest; file entries live in directory shards.
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
+    if int(catalog.get("version", 0)) != 2:
+        raise SystemExit("Expected catalog manifest version 2; run a full shard build first.")
     for branch in catalog.get("branches", []):
         no = shelf_by_id.get(branch.get("id"))
         if no is None:
             no = shelf_by_root.get(branch.get("root_folder_id"))
         if no is not None:
             branch["shelf_no"] = no
-
     write_json_atomic(CATALOG, catalog)
 
     text = INDEX.read_text(encoding="utf-8")

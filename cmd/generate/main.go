@@ -2,6 +2,8 @@ package main
 
 import (
 	"context"
+	"crypto/sha256"
+	"encoding/hex"
 	"encoding/json"
 	"fmt"
 	"html"
@@ -20,6 +22,7 @@ type BranchConfig struct {
 	ID           string `json:"id"`
 	DisplayName  string `json:"display_name"`
 	RootFolderID string `json:"root_folder_id"`
+	ShelfNo      int    `json:"shelf_no,omitempty"`
 	Enabled      bool   `json:"enabled"`
 }
 
@@ -71,7 +74,7 @@ func main() {
 
 	ctx := context.Background()
 	selected := selectedShelves(os.Getenv("TANGTHU_SHELVES"))
-	incremental := len(selected) > 0 && fileExists(filepath.Join(outDir, "catalog.json"))
+	incremental := len(selected) > 0 && hasV2Catalog(filepath.Join(outDir, "catalog.json"))
 	selectedSet := make(map[string]bool, len(selected))
 	for _, id := range selected {
 		selectedSet[id] = true
@@ -145,7 +148,7 @@ func main() {
 			}
 		}
 
-		if err := mergeCatalogBranches(outDir, branches); err != nil {
+		if err := mergeCatalogShards(outDir, branches); err != nil {
 			fatal(err.Error())
 		}
 		fmt.Printf("Incrementally generated %d branches at %s (%s)\n", len(branches), outDir, time.Now().Format(time.RFC3339))
@@ -164,7 +167,10 @@ func main() {
 	if err := writeWeb(outDir, baseURL, branches); err != nil {
 		fatal(err.Error())
 	}
-	if err := writeCatalogJSON(outDir, branches); err != nil {
+	if err := writeCatalogShards(outDir, branches); err != nil {
+		fatal(err.Error())
+	}
+	if err := writeCatalogManifest(outDir, branches); err != nil {
 		fatal(err.Error())
 	}
 	if err := writeOPDS(outDir, baseURL, branches); err != nil {
@@ -186,83 +192,249 @@ func selectedShelves(raw string) []string {
 	return ids
 }
 
-func fileExists(path string) bool {
-	info, err := os.Stat(path)
-	return err == nil && !info.IsDir()
+func hasV2Catalog(path string) bool {
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return false
+	}
+	var header struct {
+		Version int `json:"version"`
+	}
+	return json.Unmarshal(data, &header) == nil && header.Version == 2
 }
 
-func mergeCatalogBranches(out string, replacements []Branch) error {
-	catalogPath := filepath.Join(out, "catalog.json")
-	data, err := os.ReadFile(catalogPath)
-	if err != nil {
-		return err
-	}
+type catalogFile struct {
+	ID       string `json:"id"`
+	ParentID string `json:"parent_id"`
+	Name     string `json:"name"`
+	MIME     string `json:"mime"`
+	Size     int64  `json:"size"`
+	Modified string `json:"modified"`
+	Checksum string `json:"checksum,omitempty"`
+	Folder   bool   `json:"folder"`
+}
 
-	var catalog struct {
-		Branches []json.RawMessage `json:"branches"`
-	}
-	if err := json.Unmarshal(data, &catalog); err != nil {
-		return err
-	}
+type catalogDirectory struct {
+	ID     string   `json:"id"`
+	Name   string   `json:"name"`
+	Parent string   `json:"parent_id"`
+	Shards []string `json:"shards"`
+}
 
-	tmpDir, err := os.MkdirTemp("", "tangthu-catalog-")
-	if err != nil {
-		return err
-	}
-	defer os.RemoveAll(tmpDir)
+type catalogBranch struct {
+	ID             string `json:"id"`
+	Name           string `json:"name"`
+	RootFolderID   string `json:"root_folder_id"`
+	DriveName      string `json:"drive_name"`
+	ShelfNo        int    `json:"shelf_no,omitempty"`
+	Status         string `json:"status,omitempty"`
+	RootShard      string `json:"root_shard"`
+	FileCount      int    `json:"file_count"`
+	DirectoryCount int    `json:"directory_count"`
+	Revision       string `json:"revision"`
+}
 
-	if err := writeCatalogJSON(tmpDir, replacements); err != nil {
-		return err
-	}
-	replacementData, err := os.ReadFile(filepath.Join(tmpDir, "catalog.json"))
-	if err != nil {
-		return err
-	}
-	var replacementCatalog struct {
-		Branches []json.RawMessage `json:"branches"`
-	}
-	if err := json.Unmarshal(replacementData, &replacementCatalog); err != nil {
-		return err
-	}
+type catalogManifest struct {
+	Version   int             `json:"version"`
+	Generated string          `json:"generated_at"`
+	Branches  []catalogBranch `json:"branches"`
+}
 
-	byID := make(map[string]json.RawMessage, len(replacementCatalog.Branches))
-	for _, raw := range replacementCatalog.Branches {
-		var item struct {
-			ID string `json:"id"`
+func toCatalogFiles(files []FileEntry) []catalogFile {
+	out := make([]catalogFile, 0, len(files))
+	for _, f := range files {
+		out = append(out, catalogFile{ID: f.ID, ParentID: f.ParentID, Name: f.Name, MIME: f.MIME, Size: f.Size, Modified: f.Modified, Checksum: f.Checksum, Folder: f.IsFolder})
+	}
+	sort.SliceStable(out, func(i, j int) bool {
+		if out[i].Folder != out[j].Folder {
+			return out[i].Folder
 		}
-		if err := json.Unmarshal(raw, &item); err != nil {
+		return strings.ToLower(out[i].Name) < strings.ToLower(out[j].Name)
+	})
+	return out
+}
+
+func branchRevision(br Branch) string {
+	data, _ := json.Marshal(toCatalogFiles(br.Files))
+	sum := sha256.Sum256(data)
+	return hex.EncodeToString(sum[:])
+}
+
+func branchCatalogMeta(br Branch) catalogBranch {
+	return catalogBranch{
+		ID: br.Config.ID, Name: br.Config.DisplayName, RootFolderID: br.Config.RootFolderID,
+		DriveName: br.DriveFolderName, ShelfNo: br.Config.ShelfNo, Status: "active",
+		RootShard: "catalog/" + safe(br.Config.ID) + "/root.json",
+		FileCount: len(br.Files), DirectoryCount: countFolders(br.Files), Revision: branchRevision(br),
+	}
+}
+
+func countFolders(files []FileEntry) int {
+	n := 0
+	for _, f := range files {
+		if f.IsFolder {
+			n++
+		}
+	}
+	return n
+}
+
+func writeJSON(path string, value any) error {
+	data, err := json.MarshalIndent(value, "", "  ")
+	if err != nil {
+		return err
+	}
+	if err := os.MkdirAll(filepath.Dir(path), 0755); err != nil {
+		return err
+	}
+	return os.WriteFile(path, append(data, '\n'), 0644)
+}
+
+// Each directory is an independently cacheable shard. The branch root shard
+// contains only root children plus a compact directory-to-shard index.
+func writeCatalogBranchShards(out string, br Branch) error {
+	branchID := safe(br.Config.ID)
+	branchDir := filepath.Join(out, "catalog", branchID)
+	if err := os.RemoveAll(branchDir); err != nil {
+		return err
+	}
+	if err := os.MkdirAll(filepath.Join(branchDir, "dirs"), 0755); err != nil {
+		return err
+	}
+
+	filesByParent := make(map[string][]FileEntry)
+	for _, f := range br.Files {
+		filesByParent[f.ParentID] = append(filesByParent[f.ParentID], f)
+	}
+	for parent := range filesByParent {
+		sort.SliceStable(filesByParent[parent], func(i, j int) bool {
+			a, b := filesByParent[parent][i], filesByParent[parent][j]
+			if a.IsFolder != b.IsFolder {
+				return a.IsFolder
+			}
+			return strings.ToLower(a.Name) < strings.ToLower(b.Name)
+		})
+	}
+
+	writePages := func(folderID, relativeDir string, files []FileEntry) ([]string, error) {
+		const pageSize = 1000
+		var paths []string
+		if len(files) == 0 {
+			return paths, nil
+		}
+		for offset, page := 0, 1; offset < len(files); offset, page = offset+pageSize, page+1 {
+			end := offset + pageSize
+			if end > len(files) {
+				end = len(files)
+			}
+			name := fmt.Sprintf("%s-%04d.json", safe(folderID), page)
+			rel := filepath.ToSlash(filepath.Join(relativeDir, name))
+			path := filepath.Join(out, filepath.FromSlash(rel))
+			items := toCatalogFiles(files[offset:end])
+			payload := struct {
+				Version  int           `json:"version"`
+				BranchID string        `json:"branch_id"`
+				FolderID string        `json:"folder_id"`
+				Page     int           `json:"page"`
+				Items    []catalogFile `json:"items"`
+			}{2, br.Config.ID, folderID, page, items}
+			if err := writeJSON(path, payload); err != nil {
+				return nil, err
+			}
+			paths = append(paths, rel)
+		}
+		return paths, nil
+	}
+
+	rootRelative := filepath.ToSlash(filepath.Join("catalog", branchID))
+	rootShards, err := writePages(br.Config.RootFolderID, rootRelative, filesByParent[br.Config.RootFolderID])
+	if err != nil {
+		return err
+	}
+
+	directories := make([]catalogDirectory, 0)
+	for _, f := range br.Files {
+		if !f.IsFolder {
+			continue
+		}
+		relativeDir := filepath.ToSlash(filepath.Join("catalog", branchID, "dirs"))
+		shards, err := writePages(f.ID, relativeDir, filesByParent[f.ID])
+		if err != nil {
 			return err
 		}
-		byID[item.ID] = raw
+		directories = append(directories, catalogDirectory{ID: f.ID, Name: f.Name, Parent: f.ParentID, Shards: shards})
 	}
+	sort.Slice(directories, func(i, j int) bool { return directories[i].ID < directories[j].ID })
+	return writeJSON(filepath.Join(branchDir, "root.json"), struct {
+		Version      int                `json:"version"`
+		BranchID     string             `json:"branch_id"`
+		RootFolderID string             `json:"root_folder_id"`
+		RootShards   []string           `json:"root_shards"`
+		Directories  []catalogDirectory `json:"directories"`
+	}{2, br.Config.ID, br.Config.RootFolderID, rootShards, directories})
+}
 
-	merged := make([]json.RawMessage, 0, len(catalog.Branches))
-	for _, raw := range catalog.Branches {
-		var item struct {
-			ID string `json:"id"`
-		}
-		if err := json.Unmarshal(raw, &item); err != nil {
+func writeCatalogShards(out string, branches []Branch) error {
+	for _, br := range branches {
+		if err := writeCatalogBranchShards(out, br); err != nil {
 			return err
 		}
-		if replacement, ok := byID[item.ID]; ok {
+	}
+	return nil
+}
+
+func readCatalogManifest(path string) (catalogManifest, error) {
+	var manifest catalogManifest
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return manifest, err
+	}
+	if err := json.Unmarshal(data, &manifest); err != nil {
+		return manifest, err
+	}
+	return manifest, nil
+}
+
+func writeCatalogManifest(out string, branches []Branch) error {
+	rows := make([]catalogBranch, 0, len(branches))
+	for _, br := range branches {
+		rows = append(rows, branchCatalogMeta(br))
+	}
+	return writeJSON(filepath.Join(out, "catalog.json"), catalogManifest{Version: 2, Generated: time.Now().UTC().Format(time.RFC3339), Branches: rows})
+}
+
+func mergeCatalogShards(out string, replacements []Branch) error {
+	path := filepath.Join(out, "catalog.json")
+	manifest, err := readCatalogManifest(path)
+	if err != nil {
+		return err
+	}
+	if manifest.Version != 2 {
+		return fmt.Errorf("cannot incrementally update legacy catalog; full build required")
+	}
+
+	byID := make(map[string]catalogBranch, len(replacements))
+	for _, br := range replacements {
+		if err := writeCatalogBranchShards(out, br); err != nil {
+			return err
+		}
+		byID[br.Config.ID] = branchCatalogMeta(br)
+	}
+	merged := make([]catalogBranch, 0, len(manifest.Branches))
+	for _, old := range manifest.Branches {
+		if replacement, ok := byID[old.ID]; ok {
 			merged = append(merged, replacement)
-			delete(byID, item.ID)
+			delete(byID, old.ID)
 		} else {
-			merged = append(merged, raw)
+			merged = append(merged, old)
 		}
 	}
-
 	if len(byID) != 0 {
-		return fmt.Errorf("incremental catalog merge found unknown shelf IDs")
+		return fmt.Errorf("incremental catalog merge found unknown shelf IDs; full build required")
 	}
-
-	output, err := json.MarshalIndent(struct {
-		Branches []json.RawMessage `json:"branches"`
-	}{merged}, "", "  ")
-	if err != nil {
-		return err
-	}
-	return os.WriteFile(catalogPath, output, 0644)
+	manifest.Generated = time.Now().UTC().Format(time.RFC3339)
+	manifest.Branches = merged
+	return writeJSON(path, manifest)
 }
 
 func getenv(k, d string) string {
@@ -417,7 +589,7 @@ button:disabled{cursor:default;color:#777}
 <script>
 (function(){
   'use strict';
-  var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:''};
+  var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:'',fileCache:{},renderToken:0};
   var $=function(id){return document.getElementById(id)};
   var esc=function(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
   var size=function(n){n=Number(n)||0;if(n<1024)return n+' B';if(n<1048576)return (n/1024).toFixed(1)+' KB';if(n<1073741824)return (n/1048576).toFixed(1)+' MB';return (n/1073741824).toFixed(2)+' GB'};
@@ -434,10 +606,16 @@ button:disabled{cursor:default;color:#777}
 
   function branches(){return state.catalog&&state.catalog.branches||[]}
   function currentBranch(){return branches().find(function(b){return b.id===state.branch})}
-  function filesOf(b){return b&&b.files||[]}
-  function children(b,parent){return filesOf(b).filter(function(f){return f.parent_id===parent}).sort(function(a,c){if(!!a.folder!==!!c.folder)return a.folder?-1:1;return a.name.localeCompare(c.name,'vi',{sensitivity:'base'})})}
+  function cacheFor(b){if(!state.fileCache[b.id])state.fileCache[b.id]={dirs:{},directories:null};return state.fileCache[b.id]}
+  function directoryMeta(b,id){var c=cacheFor(b);return (c.directories||[]).find(function(d){return d.id===id})}
+  function filesOf(b){var c=cacheFor(b);return Object.keys(c.dirs).reduce(function(all,key){return all.concat(c.dirs[key]||[])},[])}
+  function children(b,parent){var c=cacheFor(b);return (c.dirs[parent]||[]).slice().sort(function(a,z){if(!!a.folder!==!!z.folder)return a.folder?-1:1;return a.name.localeCompare(z.name,'vi',{sensitivity:'base'})})}
   function findFile(b,id){return filesOf(b).find(function(f){return f.id===id})}
-  function folderPath(b,id){var out=[];var guard=0;while(id&&id!==b.root_folder_id&&guard++<100){var f=findFile(b,id);if(!f)break;out.unshift(f.name);id=f.parent_id}return out}
+  function folderPath(b,id){var out=[];var guard=0;while(id&&id!==b.root_folder_id&&guard++<100){var f=directoryMeta(b,id)||findFile(b,id);if(!f)break;out.unshift(f.name);id=f.parent_id}return out}
+  function fetchJSON(path,revision){var url=path+(path.indexOf('?')>=0?'&':'?')+'v='+encodeURIComponent(revision||'');return fetch(url,{cache:'force-cache'}).then(function(r){if(!r.ok)throw new Error(path+' HTTP '+r.status);return r.json()})}
+  function loadRootShard(b){var c=cacheFor(b);if(c.rootPromise)return c.rootPromise;if(c.directories)return Promise.resolve(c);c.rootPromise=fetchJSON(b.root_shard,b.revision).then(function(data){if(data.branch_id!==b.id)throw new Error('Branch ID không khớp trong root shard');c.directories=data.directories||[];c.rootShards=data.root_shards||[];return c}).catch(function(e){c.rootPromise=null;throw e});return c.rootPromise}
+  function loadDirectory(b,parent){return loadRootShard(b).then(function(c){if(c.dirs[parent])return c.dirs[parent];var paths=parent===b.root_folder_id?c.rootShards:(directoryMeta(b,parent)||{}).shards;if(!paths)throw new Error('Không tìm thấy shard thư mục '+parent);if(!paths.length){c.dirs[parent]=[];return c.dirs[parent]}return Promise.all(paths.map(function(path){return fetchJSON(path,b.revision)})).then(function(pages){var items=[];pages.forEach(function(data){if(data.branch_id!==b.id||data.folder_id!==parent)throw new Error('Directory shard không khớp');items=items.concat(data.items||[])});c.dirs[parent]=items;return items})})}
+  function loadAllFiles(b){return loadRootShard(b).then(function(c){return Promise.all((c.directories||[]).map(function(d){return loadDirectory(b,d.id)})).then(function(){return filesOf(b)})})}
   function displayDate(s){if(!s)return '';var d=new Date(s);return isNaN(d)?s:d.toLocaleString('vi-VN',{dateStyle:'short',timeStyle:'short'})}
 
   // Browser history for navigation inside Tàng Thư.
@@ -484,42 +662,40 @@ button:disabled{cursor:default;color:#777}
   function renderContent(){
     var b=currentBranch();var body=$('contentBody');body.innerHTML='';
     if(!b){$('pathBar').textContent='Tàng Thư';$('itemCount').textContent='';body.innerHTML='<div class="empty">Chưa có tủ sách. Hãy dùng nút <strong>Tủ sách</strong> để tạo tủ mới.</div>';return}
+    var token=++state.renderToken;
     var q=state.search.trim();
     var searchAll=q&&state.searchScope==='all';
     var searchBranches=searchAll?branches():[b];
-    var rows=[];
-    if(q){
-      searchBranches.forEach(function(shelf){
-        filesOf(shelf).forEach(function(f){
-          if(f.folder)return;
-          var target=[f.name,f.mime,shelf.name].join(' ');
-          if(fuzzyMatch(q,target))rows.push({file:f,shelf:shelf});
-        });
+    $('pathBar').textContent=q?(searchAll?'Tìm trong tất cả tủ sách':'Tìm trong '+b.name):[b.name].concat(folderPath(b,state.parent)).join('  ›  ');
+    $('itemCount').textContent='Đang tải…';
+    var loading=q?Promise.all(searchBranches.map(loadAllFiles)):loadDirectory(b,state.parent);
+    loading.then(function(){
+      if(token!==state.renderToken)return;
+      if(!q)$('pathBar').textContent=[b.name].concat(folderPath(b,state.parent)).join('  ›  ');
+      var rows=[];
+      if(q){searchBranches.forEach(function(shelf){filesOf(shelf).forEach(function(f){if(f.folder)return;var target=[f.name,f.mime,shelf.name].join(' ');if(fuzzyMatch(q,target))rows.push({file:f,shelf:shelf})})})}
+      else{rows=children(b,state.parent).map(function(f){return {file:f,shelf:b}})}
+      $('itemCount').textContent=rows.length+(q?' kết quả':' mục');
+      if(!rows.length){body.innerHTML='<div class="empty">'+(q?'Không tìm thấy file phù hợp.':'Thư mục này chưa có nội dung.')+'</div>';return}
+      var table=document.createElement('table');table.className='books';
+      table.innerHTML='<thead><tr><th style="width:78px">Bìa</th><th>Tên sách</th><th style="width:190px">Tác giả</th><th style="width:90px">Định dạng</th><th style="width:105px">Dung lượng</th><th style="width:85px">Ngày</th></tr></thead>';
+      var tb=document.createElement('tbody');
+      rows.forEach(function(result){
+        var f=result.file;var shelf=result.shelf;
+        var tr=document.createElement('tr');tr.className=(f.folder?'folder-row ':'book-row ')+(state.selected===f.id?'selected':'');
+        if(f.folder){tr.innerHTML='<td>📁</td><td class="name-cell"><strong>'+esc(f.name)+'</strong><small>Thư mục</small></td><td></td><td>DIR</td><td></td><td></td>';tr.onclick=function(){state.parent=f.id;state.selected=f.id;pushNavState();renderContent()};}
+        else {
+          var m=f.metadata||{};var a=authors(m);var sub=[m.year,m.series].filter(Boolean).join(' · ');
+          var shelfLine=searchAll?'<small class="meta-line shelf-name">'+esc(shelf.name)+'</small>':'';
+          var img=f.cover?'<img class="cover" loading="lazy" src="'+esc(f.cover)+'" alt="" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'">':'<span class="cover-fallback">'+esc(ext(f.name))+'</span>';
+          var fallback=f.cover?'<span class="cover-fallback" style="display:none">'+esc(ext(f.name))+'</span>':'';
+          tr.innerHTML='<td>'+img+fallback+'</td><td class="name-cell"><strong>'+esc(f.name)+'</strong><small>'+esc((m.title&&m.title!==f.name)?m.title:'')+'</small><div class="meta-line">'+esc(sub)+'</div>'+shelfLine+'</td><td class="author-cell">'+esc(a||'—')+'</td><td>'+esc(ext(f.name))+'</td><td>'+esc(size(f.size))+'</td><td>'+esc(displayDate(f.modified))+'</td>';
+          tr.onclick=function(){state.selected=f.id;renderContent();showBook(f)};
+        }
+        tb.appendChild(tr);
       });
-    }else{rows=children(b,state.parent).map(function(f){return {file:f,shelf:b};});}
-    if(searchAll)$('pathBar').textContent='Tìm trong tất cả tủ sách';
-    else if(q)$('pathBar').textContent='Tìm trong '+b.name;
-    else $('pathBar').textContent=[b.name].concat(folderPath(b,state.parent)).join('  ›  ');
-    $('itemCount').textContent=rows.length+(q?' kết quả':' mục');
-    if(!rows.length){body.innerHTML='<div class="empty">'+(q?'Không tìm thấy file phù hợp.':'Thư mục này chưa có nội dung.')+'</div>';return}
-    var table=document.createElement('table');table.className='books';
-    table.innerHTML='<thead><tr><th style="width:78px">Bìa</th><th>Tên sách</th><th style="width:190px">Tác giả</th><th style="width:90px">Định dạng</th><th style="width:105px">Dung lượng</th><th style="width:85px">Ngày</th></tr></thead>';
-    var tb=document.createElement('tbody');
-    rows.forEach(function(result){
-      var f=result.file;var shelf=result.shelf;
-      var tr=document.createElement('tr');tr.className=(f.folder?'folder-row ':'book-row ')+(state.selected===f.id?'selected':'');
-      if(f.folder){tr.innerHTML='<td>📁</td><td class="name-cell"><strong>'+esc(f.name)+'</strong><small>Thư mục</small></td><td></td><td>DIR</td><td></td><td></td>';tr.onclick=function(){state.parent=f.id;state.selected=f.id;pushNavState();renderContent()};}
-      else {
-        var m=f.metadata||{};var a=authors(m);var sub=[m.year,m.series].filter(Boolean).join(' · ');
-        var shelfLine=searchAll?'<small class="meta-line shelf-name">'+esc(shelf.name)+'</small>':'';
-        var img=f.cover?'<img class="cover" loading="lazy" src="'+esc(f.cover)+'" alt="" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'/>':'<span class="cover-fallback">'+esc(ext(f.name))+'</span>';
-        var fallback=f.cover?'<span class="cover-fallback" style="display:none">'+esc(ext(f.name))+'</span>':'';
-        tr.innerHTML='<td>'+img+fallback+'</td><td class="name-cell"><strong>'+esc(f.name)+'</strong><small>'+esc((m.title&&m.title!==f.name)?m.title:'')+'</small><div class="meta-line">'+esc(sub)+'</div>'+shelfLine+'</td><td class="author-cell">'+esc(a||'—')+'</td><td>'+esc(ext(f.name))+'</td><td>'+esc(size(f.size))+'</td><td>'+esc(displayDate(f.modified))+'</td>';
-        tr.onclick=function(){state.selected=f.id;renderContent();showBook(f)};
-      }
-      tb.appendChild(tr);
-    });
-    table.appendChild(tb);body.appendChild(table);
+      table.appendChild(tb);body.appendChild(table);
+    }).catch(function(e){if(token!==state.renderToken)return;$('itemCount').textContent='';body.innerHTML='<div class="empty">Không tải được dữ liệu thư mục.<br><small>'+esc(e.message)+'</small></div>';});
   }
 
   function showBook(f){
@@ -574,50 +750,15 @@ Yêu cầu được tạo từ trang TÀNG THƯ.';return issueURL(title,body)}
   }
 
   function runSearch(){state.search=$('searchInput').value;state.searchScope=$('searchScope').value||'all';state.selected=null;pushNavState();renderContent()}
-  $('upBtn').onclick=function(){var b=currentBranch();if(!b)return;if(state.search){state.search='';$('searchInput').value='';pushNavState();renderContent();return}if(state.parent!==b.root_folder_id){var f=findFile(b,state.parent);state.parent=f?f.parent_id:b.root_folder_id;state.selected=null;pushNavState();renderContent()}};
+  $('upBtn').onclick=function(){var b=currentBranch();if(!b)return;if(state.search){state.search='';$('searchInput').value='';pushNavState();renderContent();return}if(state.parent!==b.root_folder_id){var f=directoryMeta(b,state.parent)||findFile(b,state.parent);state.parent=f?f.parent_id:b.root_folder_id;state.selected=null;pushNavState();renderContent()}};
   $('homeBtn').onclick=function(){state.search='';$('searchInput').value='';state.selected=null;if(branches().length){state.branch=branches()[0].id;state.parent=branches()[0].root_folder_id}pushNavState();renderBranches();renderContent()};
   $('refreshBtn').onclick=function(){location.reload()};$('searchBtn').onclick=function(){$('searchInput').focus();$('searchInput').select()};$('searchDo').onclick=runSearch;$('searchScope').onchange=runSearch;$('searchInput').onkeydown=function(e){if(e.key==='Enter')runSearch()};$('shelfBtn').onclick=showShelf;$('infoBtn').onclick=showInfo;$('viewsBtn').onclick=function(){state.view=state.view==='list'?'compact':'list';$('viewsBtn').querySelector('.lbl').textContent=state.view==='list'?'Views':'List'};
-  fetch('catalog.json',{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('catalog '+r.status);return r.json()}).then(function(c){state.catalog=c;var bs=branches();if(!restoreNavState(history.state)&&bs.length){state.branch=bs[0].id;state.parent=bs[0].root_folder_id;history.replaceState(navState(),'')}renderBranches();renderContent();$('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách.'}).catch(function(e){$('statusLeft').textContent='Không tải được catalog.json';$('contentBody').innerHTML='<div class="empty">Không thể tải danh mục sách.<br><small>'+esc(e.message)+'</small></div>'});
+  fetch('catalog.json',{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('catalog '+r.status);return r.json()}).then(function(c){state.catalog=c;var bs=branches();if(!restoreNavState(history.state)&&bs.length){state.branch=bs[0].id;state.parent=bs[0].root_folder_id;history.replaceState(navState(),'')}renderBranches();renderContent();$('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách.'}).catch(function(e){$('statusLeft').textContent='Không tải được catalog manifest.';$('contentBody').innerHTML='<div class="empty">Không thể tải danh mục sách.<br><small>'+esc(e.message)+'</small></div>'});
 })();
 </script>
 </body>
 </html>`)
 	return os.WriteFile(filepath.Join(out, "index.html"), []byte(b.String()), 0644)
-}
-
-func writeCatalogJSON(out string, branches []Branch) error {
-	type JFile struct {
-		ID       string `json:"id"`
-		ParentID string `json:"parent_id"`
-		Name     string `json:"name"`
-		MIME     string `json:"mime"`
-		Size     int64  `json:"size"`
-		Modified string `json:"modified"`
-		Checksum string `json:"checksum,omitempty"`
-		Folder   bool   `json:"folder"`
-	}
-	type JBranch struct {
-		ID           string  `json:"id"`
-		Name         string  `json:"name"`
-		RootFolderID string  `json:"root_folder_id"`
-		DriveName    string  `json:"drive_name"`
-		Files        []JFile `json:"files"`
-	}
-	var rows []JBranch
-	for _, br := range branches {
-		jb := JBranch{ID: br.Config.ID, Name: br.Config.DisplayName, RootFolderID: br.Config.RootFolderID, DriveName: br.DriveFolderName}
-		for _, f := range br.Files {
-			jb.Files = append(jb.Files, JFile{ID: f.ID, ParentID: f.ParentID, Name: f.Name, MIME: f.MIME, Size: f.Size, Modified: f.Modified, Checksum: f.Checksum, Folder: f.IsFolder})
-		}
-		rows = append(rows, jb)
-	}
-	data, err := json.MarshalIndent(struct {
-		Branches []JBranch `json:"branches"`
-	}{rows}, "", "  ")
-	if err != nil {
-		return err
-	}
-	return os.WriteFile(filepath.Join(out, "catalog.json"), data, 0644)
 }
 
 func writeOPDS(out, base string, branches []Branch) error {

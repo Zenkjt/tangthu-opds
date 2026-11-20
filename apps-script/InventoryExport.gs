@@ -44,9 +44,64 @@ function exportInventory_(body) {
   } catch (err) {
     return { ok: false, error: 'catalog.json không phải JSON hợp lệ.' };
   }
-  if (!catalog || !Array.isArray(catalog.branches) || !catalog.branches.length) {
-    return { ok: false, error: 'catalog.json không có danh sách tủ.' };
+  if (!catalog || Number(catalog.version) !== 2 || !Array.isArray(catalog.branches) || !catalog.branches.length) {
+    return { ok: false, error: 'catalog manifest không hợp lệ hoặc chưa được cập nhật sang version 2.' };
   }
+
+  // Expand directory shards only for this inventory operation. The public web
+  // catalog itself never downloads the entire library on initial page load.
+  var expandedBranches = [];
+  var catalogBase = 'https://tangthu.pages.dev/';
+  for (var bi = 0; bi < catalog.branches.length; bi++) {
+    var shelf = catalog.branches[bi];
+    if (shelf.status === 'suspended' || shelf.status === 'disabled') continue;
+    var rootResponse = UrlFetchApp.fetch(catalogBase + shelf.root_shard, {
+      muteHttpExceptions: true, followRedirects: true
+    });
+    if (rootResponse.getResponseCode() !== 200) {
+      return { ok: false, error: 'Không đọc được root shard của tủ ' + shelf.name + ': HTTP ' + rootResponse.getResponseCode() };
+    }
+    var root;
+    try { root = JSON.parse(rootResponse.getContentText()); }
+    catch (err) { return { ok: false, error: 'Root shard không phải JSON hợp lệ: ' + shelf.name }; }
+    if (root.branch_id !== shelf.id) return { ok: false, error: 'Root shard không khớp branch: ' + shelf.name };
+    var files = [];
+    var shardJobs = [];
+    (root.root_shards || []).forEach(function (path) {
+      shardJobs.push({ path: path, folderId: shelf.root_folder_id });
+    });
+    (root.directories || []).forEach(function (dir) {
+      (dir.shards || []).forEach(function (path) {
+        shardJobs.push({ path: path, folderId: dir.id });
+      });
+    });
+    for (var ji = 0; ji < shardJobs.length; ji += 50) {
+      var batch = shardJobs.slice(ji, ji + 50);
+      var requests = batch.map(function (job) {
+        return { url: catalogBase + job.path, muteHttpExceptions: true, followRedirects: true };
+      });
+      var responses;
+      try { responses = UrlFetchApp.fetchAll(requests); }
+      catch (err) { return { ok: false, error: 'Không tải được catalog shards của tủ ' + shelf.name + ': ' + String(err) }; }
+      for (var ri = 0; ri < responses.length; ri++) {
+        if (responses[ri].getResponseCode() !== 200) {
+          return { ok: false, error: 'Catalog shard lỗi ở tủ ' + shelf.name + ': HTTP ' + responses[ri].getResponseCode() };
+        }
+        var shard;
+        try { shard = JSON.parse(responses[ri].getContentText()); }
+        catch (err) { return { ok: false, error: 'Catalog shard không phải JSON hợp lệ ở tủ ' + shelf.name }; }
+        if (shard.branch_id !== shelf.id || shard.folder_id !== batch[ri].folderId) {
+          return { ok: false, error: 'Catalog shard không khớp thư mục ở tủ ' + shelf.name };
+        }
+        files = files.concat(shard.items || []);
+      }
+    }
+    expandedBranches.push({
+      id: shelf.id, name: shelf.name, root_folder_id: shelf.root_folder_id,
+      shelf_no: shelf.shelf_no, status: shelf.status, files: files
+    });
+  }
+  catalog.branches = expandedBranches;
 
   var allowed = {
     epub: true, mobi: true, azw3: true, cbz: true, lit: true, chm: true,

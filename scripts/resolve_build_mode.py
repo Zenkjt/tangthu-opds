@@ -24,7 +24,7 @@ def main() -> None:
     shelves: list[str] = []
     reason = "manual, scheduled, or no reusable site-state"
 
-    if EVENT == "repository_dispatch" and CATALOG.exists() and LIFECYCLE.exists():
+    if EVENT == "repository_dispatch" and CATALOG.exists() and LIFECYCLE.exists() and read_json(CATALOG).get("version") == 2:
         payload = read_json(EVENT_PATH) if EVENT_PATH.exists() else {}
         requested = payload.get("client_payload", {}).get("shelves", [])
         config_rows = read_json(CONFIG).get("branches", [])
@@ -70,6 +70,8 @@ def main() -> None:
                     reason = "repository_dispatch with unchanged lifecycle"
                 else:
                     reason = "empty, inactive, or unknown shelf list; full build required"
+    elif EVENT == "repository_dispatch":
+        reason = "legacy or missing v2 catalog; full shard migration required"
 
     (OUT / "build_mode").write_text(mode + "\n", encoding="utf-8")
     (OUT / "changed_shelves.txt").write_text(",".join(shelves) + "\n", encoding="utf-8")

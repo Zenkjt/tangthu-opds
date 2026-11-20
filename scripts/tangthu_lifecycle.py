@@ -152,55 +152,62 @@ def preflight():
 
 
 def merge_suspended():
-    lifecycle = json.loads(LIFECYCLE.read_text(encoding="utf-8"))
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
+    if int(catalog.get("version", 0)) != 2:
+        raise SystemExit("Expected catalog manifest version 2; run a full shard build first.")
     rows = catalog.get("branches") or []
     by_id = {row.get("id"): row for row in rows}
 
-    for life in lifecycle.get("branches", []):
+    for life in json.loads(LIFECYCLE.read_text(encoding="utf-8")).get("branches", []):
         branch = by_id.get(life["id"])
-
         if life["status"] == "active":
             if branch is not None:
                 branch["status"] = "active"
             continue
-
         if life["status"] == "disabled":
             if branch is not None:
                 branch["status"] = "disabled"
             continue
-
         if life["status"] == "removed":
             if branch is not None:
                 rows.remove(branch)
+                by_id.pop(life["id"], None)
+            import shutil
+            shutil.rmtree(Path("docs/catalog") / life["id"], ignore_errors=True)
+            shutil.rmtree(Path("docs/opds/branch") / life["id"], ignore_errors=True)
             continue
 
         label = life["display_name"]
         if not label.startswith("[SUSPENDED] "):
             label = "[SUSPENDED] " + label
-
         if branch is None:
             branch = {
-                "id": life["id"],
-                "display_name": label,
-                "root_folder_id": life["root_folder_id"],
-                "drive_folder_name": "",
-                "status": "suspended",
-                "files": [],
+                "id": life["id"], "name": label,
+                "root_folder_id": life["root_folder_id"], "drive_name": "",
+                "status": "suspended", "root_shard": "catalog/" + life["id"] + "/root.json",
+                "file_count": 0, "directory_count": 0, "revision": "suspended",
             }
             rows.append(branch)
+            by_id[life["id"]] = branch
         else:
-            branch["display_name"] = label
+            branch["name"] = label
             branch["status"] = "suspended"
-            branch["files"] = []
-            branch["drive_folder_name"] = ""
+            branch["file_count"] = 0
+            branch["directory_count"] = 0
+            branch["drive_name"] = ""
+            branch["revision"] = "suspended"
+        root_path = Path("docs/catalog") / life["id"] / "root.json"
+        root_path.parent.mkdir(parents=True, exist_ok=True)
+        root_path.write_text(json.dumps({
+            "version": 2, "branch_id": life["id"],
+            "root_folder_id": life["root_folder_id"], "root_shards": [], "directories": []
+        }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        import shutil
+        shutil.rmtree(root_path.parent / "dirs", ignore_errors=True)
 
     catalog["branches"] = rows
-    CATALOG.write_text(
-        json.dumps(catalog, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
-    print("Lifecycle merge: suspended shelves preserved without stale books; removed shelves deleted.")
+    CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print("Lifecycle merge: suspended shelves preserved with empty shards; removed shelves and generated shards deleted.")
 
 
 if len(sys.argv) != 2 or sys.argv[1] not in ("preflight", "merge"):

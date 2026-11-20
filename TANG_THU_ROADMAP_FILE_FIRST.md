@@ -811,7 +811,8 @@ Implement:
 
 ```text
 docs/catalog/<branch-id>/root.json
-docs/catalog/<branch-id>/dir-xxx.json
+docs/catalog/<branch-id>/root-0001.json
+docs/catalog/<branch-id>/dirs/<folder-id>-0001.json
 ```
 
 Không còn catalog JSON khổng lồ.
@@ -1064,3 +1065,18 @@ OPDS vẫn có entry
 **Triết lý cốt lõi:**
 
 > **Catalog trước. Metadata sau. Mỗi file chỉ đọc khi thực sự cần.**
+
+
+---
+
+## Catalog sharding implementation note (2026-11)
+
+The v2 static catalog uses `docs/catalog.json` only as a compact manifest. Each
+branch has a `root.json` index and separate root/directory page shards. Each page
+contains at most 1,000 entries. The Web Catalog fetches only the current directory;
+full-library search loads all shards on demand. Incremental builds replace one
+branch's shard directory and update its manifest revision. Inventory export expands
+shards only when an export is explicitly requested.
+
+All generated catalog shards remain on Cloudflare Pages. Google Drive remains the
+source of book files and the metadata scanner's input.

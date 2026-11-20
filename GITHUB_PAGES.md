@@ -1,6 +1,6 @@
-# TÀNG THƯ — GitHub Pages / $0 architecture
+# TÀNG THƯ — Cloudflare Pages / static architecture
 
-This branch of the project uses a fully static GitHub Pages catalog.
+The project publishes its static Web + OPDS catalog to Cloudflare Pages. GitHub Actions builds the assets and preserves the last successful output on the `site-state` branch.
 
 ## Architecture
 
@@ -13,10 +13,13 @@ Go static generator
         |
         +--> Web catalog
         +--> OPDS catalog
-        +--> catalog.json
+        +--> catalog.json (small v2 manifest)
+        +--> catalog/<branch-id>/root.json
+        +--> catalog/<branch-id>/root-*.json
+        +--> catalog/<branch-id>/dirs/<folder-id>-*.json
         |
         v
-GitHub Pages
+Cloudflare Pages
         |
         +--> Browser
         +--> Xteink X4 / OPDS reader
@@ -27,6 +30,33 @@ GitHub Pages
 
 No VPS, Cloud Run, Railway, database, or always-on backend is required.
 
+## Catalog sharding (v2)
+
+`catalog.json` is only a small manifest. It contains branch identity, shard paths,
+file/directory counts, and a content revision; it does not contain every book entry.
+
+Each branch has a compact `root.json` index. Root and directory contents are split
+into pages of at most 1,000 entries:
+
+```text
+docs/catalog/<branch-id>/
+  root.json
+  root-0001.json
+  dirs/
+    <folder-id>-0001.json
+    <folder-id>-0002.json
+```
+
+The browser loads the manifest first, then only the selected directory's pages.
+A full-library search explicitly loads all directory shards; ordinary browsing does
+not. Incremental builds replace only the changed branch's shard directory and update
+the manifest revision. `site-state` retains the generated shard tree between builds.
+
+The workflow checks the deployed file count against a conservative 19,000-file
+budget and rejects any asset above 24 MiB. If the shard count approaches the Pages
+site-file ceiling, the next storage target should be Cloudflare R2 rather than
+Google Drive. Google Drive remains the source for books and metadata scanning.
+
 ## Google account recommendation
 
 Contributors should use a **dedicated Google Account for TÀNG THƯ**, not their personal/main Google Account.
@@ -35,24 +65,24 @@ The shared library folder should be shared as **Anyone with the link — Viewer*
 
 ## Important privacy trade-off
 
-A static GitHub Pages site cannot proxy a file request. Therefore the OPDS acquisition link must ultimately point to a Google Drive download URL.
+A static Cloudflare Pages site cannot proxy a file request. Therefore the OPDS acquisition link must ultimately point to a Google Drive download URL.
 
 The Web catalog does not show a Google Drive download button, but the OPDS XML necessarily contains the acquisition URL because the reading device needs a URL from which to download the file. A user who inspects the OPDS feed can therefore recover the Drive file ID.
 
 This is deliberate for the $0 architecture. The dedicated Google Account recommendation reduces the consequence of that exposure, but it does **not** make the Drive URL secret.
 
-## GitHub setup
+## GitHub Actions + Cloudflare setup
 
 1. Add repository secret `TANGTHU_GOOGLE_API_KEY`.
 2. Keep branch roots in `config/branches.json`.
-3. In repository Settings → Pages, select **GitHub Actions** as the build/deployment source.
+3. Configure the Cloudflare Pages project `tangthu` and repository secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
 4. The workflow runs hourly and can also be started manually.
 5. Shelf registration/change requests are submitted as GitHub Issues and processed by `.github/workflows/register-shelf.yml`.
-6. After a successful shelf change, that workflow explicitly dispatches `pages.yml` so the Web + OPDS catalog is rebuilt immediately.
+6. After a successful shelf change, the registration workflow dispatches the Cloudflare Pages build workflow so the Web + OPDS catalog is rebuilt.
 7. The default project URL is:
 
 ```text
-https://zenkjt.github.io/tangthu-opds/
+https://tangthu.pages.dev/
 ```
 
 ## Xteink X4 test
@@ -60,7 +90,7 @@ https://zenkjt.github.io/tangthu-opds/
 The first real-device test should use:
 
 ```text
-https://zenkjt.github.io/tangthu-opds/opds/index.xml
+https://tangthu.pages.dev/opds/index.xml
 ```
 
 Test:
