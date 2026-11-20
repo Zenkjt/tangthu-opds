@@ -1001,6 +1001,10 @@ function migratePriorityFilesToSystemFolder() {
  * Only a NEW full scan gets an R2 generation. A scan already in progress
  * before this adapter was enabled is allowed to finish on the existing V4
  * path; it is never published as an incomplete R2 snapshot.
+ *
+ * For R2 generations, snapshot pages and the final manifest are written only
+ * to R2. Existing Drive snapshot files are preserved; no Drive snapshot GC
+ * runs for an R2 generation.
  */
 function r2SnapshotEnabled_() {
   return String(PropertiesService.getScriptProperties()
@@ -1138,6 +1142,8 @@ function snapshotPersistPage_(branch, entry, folderId, files) {
     entry.snapshot_item_count = 0;
     entry.snapshot_page_index = 0;
   }
+  if (!Array.isArray(entry.snapshot_page_file_ids)) entry.snapshot_page_file_ids = [];
+
   var items = (files || []).map(function(file) {
     return {
       id: String(file.id || ''),
@@ -1153,21 +1159,27 @@ function snapshotPersistPage_(branch, entry, folderId, files) {
   });
   if (!items.length) return;
 
-  if (r2SnapshotEnabled_() && entry.r2_snapshot_generation_id) {
+  // A generation ID is assigned only to a new scan after R2 has been enabled.
+  // Once assigned, keep writing that generation to R2 even if the feature flag
+  // is later changed while the scan is being resumed.
+  if (entry.r2_snapshot_generation_id) {
     r2SnapshotWritePage_(branch, entry, items);
+  } else {
+    // Legacy V4 path for scans that were already in progress before R2 rollout.
+    var pageName = 'TANGTHU_SNAPSHOT_' + String(branch.id) + '_' +
+      entry.snapshot_scan_id + '_' + String(entry.snapshot_page_index + 1) + '.json';
+    var pageFile = snapshotCreateTextFile_(pageName, JSON.stringify({items:items}));
+    entry.snapshot_page_file_ids.push(pageFile.getId());
   }
 
-  var pageName = 'TANGTHU_SNAPSHOT_' + String(branch.id) + '_' +
-    entry.snapshot_scan_id + '_' + String(entry.snapshot_page_index + 1) + '.json';
-  var pageFile = snapshotCreateTextFile_(pageName, JSON.stringify({items:items}));
-  entry.snapshot_page_file_ids.push(pageFile.getId());
   entry.snapshot_page_index = Number(entry.snapshot_page_index || 0) + 1;
   entry.snapshot_item_count = Number(entry.snapshot_item_count || 0) + items.length;
 
-  // During the first baseline, publish every committed page. For a shelf that
-  // already has a complete baseline, keep serving its old snapshot until the
-  // replacement full scan is complete.
-  if (!entry.baseline_complete) snapshotWriteManifest_(branch, entry, false);
+  // R2 generations are published only when the entire full scan completes.
+  // Legacy in-flight scans retain the original V4 partial-manifest behavior.
+  if (!entry.r2_snapshot_generation_id && !entry.baseline_complete) {
+    snapshotWriteManifest_(branch, entry, false);
+  }
 }
 
 function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBudgetMs, globalBudgetMs, globalStartedAt) {
@@ -1281,18 +1293,31 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
 
   var fingerprint = String(rowCount) + ':' + digestBytesToHex_(digest);
   var confirmedChanged = !!entry.fingerprint && fingerprint !== entry.fingerprint;
-  if (r2SnapshotEnabled_() && entry.r2_snapshot_generation_id) {
+
+  if (entry.r2_snapshot_generation_id) {
+    // R2 is the authoritative snapshot store for this generation.
+    // Publish the manifest only after every page has been uploaded.
     r2SnapshotPublishManifest_(branch, entry);
+    entry.snapshot_available = true;
+    entry.snapshot_complete = true;
     entry.r2_snapshot_generation_id = '';
     entry.r2_snapshot_page_keys = [];
+
+    // Preserve all existing Drive snapshot files during the R2 rollout.
+    // In particular, do not run the legacy Drive snapshot garbage collector.
+    entry.snapshot_previous_page_file_ids = [];
+    priorityLog_('R2 SNAPSHOT ACTIVE | branch=' + branch.id +
+      ' | Drive snapshot files preserved');
+  } else {
+    // Legacy V4 path for a scan that began before R2 was enabled.
+    snapshotWriteManifest_(branch, entry, true);
+    (entry.snapshot_previous_page_file_ids || []).forEach(function(fileId) {
+      try { DriveApp.getFileById(fileId).setTrashed(true); } catch (err) {
+        priorityLog_('SNAPSHOT GC warning | file=' + fileId + ' | ' + String(err));
+      }
+    });
+    entry.snapshot_previous_page_file_ids = [];
   }
-  snapshotWriteManifest_(branch, entry, true);
-  (entry.snapshot_previous_page_file_ids || []).forEach(function(fileId) {
-    try { DriveApp.getFileById(fileId).setTrashed(true); } catch (err) {
-      priorityLog_('SNAPSHOT GC warning | file=' + fileId + ' | ' + String(err));
-    }
-  });
-  entry.snapshot_previous_page_file_ids = [];
 
   entry.full_scan_queue = null;
   entry.full_visited = {};
