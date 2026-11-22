@@ -196,11 +196,27 @@ if old_render not in text:
     raise SystemExit("Bookshelf patch anchor missing: renderContent wrapper")
 text = text.replace(old_render, new_render, 1)
 
-old_branch = "li.onclick=function(){state.branch=b.id;state.parent=b.root_folder_id;state.selected=null;renderBranches();renderContent()};"
-new_branch = "li.onclick=function(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';state.branch=b.id;state.parent=b.root_folder_id;state.selected=null;renderBranches();renderContent()};"
-if old_branch not in text:
+# postprocess_shelf_reload.py runs before this script and moves the sidebar
+# click handler from li.onclick to main.onclick. Match that actual generated
+# handler, allowing whitespace/newlines, and only inside renderBranches().
+import re
+
+branches_start = text.find("  function renderBranches(){")
+if branches_start < 0:
+    raise SystemExit("Bookshelf patch anchor missing: renderBranches")
+branches_end = text.find("\n  function ", branches_start + len("  function renderBranches(){"))
+if branches_end < 0:
+    branches_end = len(text)
+branches_block = text[branches_start:branches_end]
+branch_handler = re.compile(r"main\.onclick\s*=\s*function\s*\(\s*\)\s*\{(?P<body>.*?)\};", re.S)
+match = branch_handler.search(branches_block)
+if not match or "state.branch=b.id" not in match.group("body"):
     raise SystemExit("Bookshelf patch anchor missing: sidebar branch click")
-text = text.replace(old_branch, new_branch, 1)
+body = match.group("body")
+if "state.view='list'" not in body:
+    replacement = "main.onclick=function(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';" + body + "};"
+    branches_block = branches_block[:match.start()] + replacement + branches_block[match.end():]
+    text = text[:branches_start] + branches_block + text[branches_end:]
 
 old_search = "  function runSearch(){state.search=$('searchInput').value;state.searchScope=$('searchScope').value||'all';state.selected=null;pushNavState();renderContent()}"
 new_search = "  function runSearch(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';state.search=$('searchInput').value;state.searchScope=$('searchScope').value||'all';state.selected=null;pushNavState();renderContent()}"
