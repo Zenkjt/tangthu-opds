@@ -122,6 +122,34 @@ func (c *r2SnapshotClient) getJSON(ctx context.Context, key string, dst any) err
 	return nil
 }
 
+func (c *r2SnapshotClient) putJSON(ctx context.Context, key string, value any) error {
+	data, err := json.Marshal(value)
+	if err != nil {
+		return err
+	}
+	parts := strings.Split(key, "/")
+	for i := range parts {
+		parts[i] = url.PathEscape(parts[i])
+	}
+	endpoint := c.baseURL + "/v1/objects/" + strings.Join(parts, "/")
+	req, err := http.NewRequestWithContext(ctx, http.MethodPut, endpoint, strings.NewReader(string(data)))
+	if err != nil {
+		return err
+	}
+	req.Header.Set("Authorization", "Bearer "+c.token)
+	req.Header.Set("Content-Type", "application/json")
+	resp, err := c.http.Do(req)
+	if err != nil {
+		return fmt.Errorf("PUT R2 object %q: %w", key, err)
+	}
+	defer resp.Body.Close()
+	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
+		body, _ := io.ReadAll(io.LimitReader(resp.Body, 4096))
+		return fmt.Errorf("PUT R2 object %q: HTTP %d: %s", key, resp.StatusCode, strings.TrimSpace(string(body)))
+	}
+	return nil
+}
+
 func loadShelfSnapshot(ctx context.Context, client *r2SnapshotClient, bc BranchConfig) ([]FileEntry, string, error) {
 	manifestKey := "snapshots/" + bc.ID + "/manifest.json"
 	log.Printf("SNAPSHOT R2 shelf=%s manifest_key=%q", bc.ID, manifestKey)
@@ -237,45 +265,15 @@ func main() {
 		return branchLess(branches[i].Config.DisplayName, branches[j].Config.DisplayName)
 	})
 
+	if err := publishOPDSR2(ctx, r2Client, cfg.Branches, branches); err != nil {
+		fatal(fmt.Sprintf("publish OPDS indexes to R2: %v", err))
+	}
+
 	if incremental {
 		if len(branches) != len(selected) {
 			fatal("incremental build aborted: one or more selected shelves are unavailable")
 		}
 
-		for _, br := range branches {
-			target := filepath.Join(outDir, "opds", "branch", br.Config.ID)
-			if err := os.MkdirAll(filepath.Dir(target), 0755); err != nil {
-				fatal(err.Error())
-			}
-
-			tmp := target + ".tmp"
-			backup := target + ".old"
-			if err := os.RemoveAll(tmp); err != nil {
-				fatal(err.Error())
-			}
-			if err := os.RemoveAll(backup); err != nil {
-				fatal(err.Error())
-			}
-			if err := os.MkdirAll(tmp, 0755); err != nil {
-				fatal(err.Error())
-			}
-			if err := writeBranchOPDS(tmp, baseURL, br); err != nil {
-				_ = os.RemoveAll(tmp)
-				fatal(err.Error())
-			}
-
-			if err := os.Rename(target, backup); err != nil && !os.IsNotExist(err) {
-				_ = os.RemoveAll(tmp)
-				fatal(err.Error())
-			}
-			if err := os.Rename(tmp, target); err != nil {
-				_ = os.Rename(backup, target)
-				fatal(err.Error())
-			}
-			if err := os.RemoveAll(backup); err != nil {
-				fatal(err.Error())
-			}
-		}
 
 		if err := mergeCatalogShards(outDir, branches); err != nil {
 			fatal(err.Error())
@@ -285,9 +283,6 @@ func main() {
 	}
 
 	if err := os.RemoveAll(outDir); err != nil {
-		fatal(err.Error())
-	}
-	if err := os.MkdirAll(filepath.Join(outDir, "opds"), 0755); err != nil {
 		fatal(err.Error())
 	}
 	if err := os.MkdirAll(filepath.Join(outDir, "covers"), 0755); err != nil {
@@ -302,10 +297,62 @@ func main() {
 	if err := writeCatalogManifest(outDir, branches); err != nil {
 		fatal(err.Error())
 	}
-	if err := writeOPDS(outDir, baseURL, branches); err != nil {
-		fatal(err.Error())
-	}
 	fmt.Printf("Generated %d branches at %s (%s)\n", len(branches), outDir, time.Now().Format(time.RFC3339))
+}
+
+type opdsBranchMeta struct {
+	ID           string `json:"id"`
+	Name         string `json:"name"`
+	RootFolderID string `json:"root_folder_id"`
+}
+
+type opdsItem struct {
+	ID       string `json:"id"`
+	ParentID string `json:"parent_id"`
+	Name     string `json:"name"`
+	MIME     string `json:"mime"`
+	Size     int64  `json:"size"`
+	Modified string `json:"modified"`
+	Folder   bool   `json:"folder"`
+}
+
+type opdsBranchIndex struct {
+	BranchID     string     `json:"branch_id"`
+	Name         string     `json:"name"`
+	RootFolderID string     `json:"root_folder_id"`
+	UpdatedAt    string     `json:"updated_at"`
+	Items        []opdsItem `json:"items"`
+}
+
+func publishOPDSR2(ctx context.Context, client *r2SnapshotClient, configured []BranchConfig, selected []Branch) error {
+	metas := make([]opdsBranchMeta, 0, len(configured))
+	for _, bc := range configured {
+		if bc.Enabled {
+			metas = append(metas, opdsBranchMeta{ID: bc.ID, Name: bc.DisplayName, RootFolderID: bc.RootFolderID})
+		}
+	}
+	if err := client.putJSON(ctx, "opds/branches.json", struct {
+		Version  int              `json:"version"`
+		Branches []opdsBranchMeta `json:"branches"`
+	}{Version: 1, Branches: metas}); err != nil {
+		return fmt.Errorf("write branch list: %w", err)
+	}
+
+	for _, br := range selected {
+		items := make([]opdsItem, 0, len(br.Files))
+		for _, f := range br.Files {
+			items = append(items, opdsItem{
+				ID: f.ID, ParentID: f.ParentID, Name: f.Name, MIME: f.MIME,
+				Size: f.Size, Modified: f.Modified, Folder: f.IsFolder,
+			})
+		}
+		index := opdsBranchIndex{BranchID: br.Config.ID, Name: br.Config.DisplayName, RootFolderID: br.Config.RootFolderID, UpdatedAt: time.Now().UTC().Format(time.RFC3339), Items: items}
+		if err := client.putJSON(ctx, "opds/branches/"+br.Config.ID+".json", index); err != nil {
+			return fmt.Errorf("write shelf %s: %w", br.Config.ID, err)
+		}
+		log.Printf("OPDS R2 published shelf=%s items=%d", br.Config.ID, len(items))
+	}
+	return nil
 }
 
 func selectedShelves(raw string) []string {
@@ -890,71 +937,6 @@ Yêu cầu được tạo từ trang TÀNG THƯ.';return issueURL(title,body)}
 	return os.WriteFile(filepath.Join(out, "index.html"), []byte(b.String()), 0644)
 }
 
-func writeOPDS(out, base string, branches []Branch) error {
-	var root strings.Builder
-	root.WriteString(xmlHead("TÀNG THƯ"))
-	for _, br := range branches {
-		root.WriteString(`<entry><title>` + esc(br.Config.DisplayName) + `</title><link rel="subsection" href="` + base + `/opds/branch/` + safe(br.Config.ID) + `/index.xml" type="application/atom+xml;profile=opds-catalog"/></entry>`)
-	}
-	root.WriteString(`</feed>`)
-	if err := writeFile(filepath.Join(out, "opds", "index.xml"), root.String()); err != nil {
-		return err
-	}
-	for _, br := range branches {
-		dir := filepath.Join(out, "opds", "branch", br.Config.ID)
-		if err := os.MkdirAll(dir, 0755); err != nil {
-			return err
-		}
-		if err := writeBranchOPDS(dir, base, br); err != nil {
-			return err
-		}
-	}
-	return nil
-}
-func xmlHead(title string) string {
-	return `<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog"><title>` + esc(title) + `</title>`
-}
-func writeBranchOPDS(dir, base string, br Branch) error {
-	return writeFolder(dir, base, br, br.Config.RootFolderID, true)
-}
-func writeFolder(dir, base string, br Branch, folderID string, root bool) error {
-	rows := children(br, folderID)
-	relName := "index.xml"
-	if !root {
-		relName = safe(folderID) + ".xml"
-	}
-	var x strings.Builder
-	title := br.Config.DisplayName
-	if !root {
-		for _, f := range br.Files {
-			if f.ID == folderID {
-				title += " / " + f.Name
-				break
-			}
-		}
-	}
-	x.WriteString(xmlHead(title))
-	if root {
-		x.WriteString(`<link rel="start" href="` + base + `/opds/index.xml" type="application/atom+xml;profile=opds-catalog"/>`)
-	}
-	for _, f := range rows {
-		if f.IsFolder {
-			x.WriteString(`<entry><title>` + esc(f.Name) + `</title><link rel="subsection" href="` + base + `/opds/branch/` + safe(br.Config.ID) + `/` + safe(f.ID) + `.xml" type="application/atom+xml;profile=opds-catalog"/></entry>`)
-			if err := writeFolder(dir, base, br, f.ID, false); err != nil {
-				return err
-			}
-		} else {
-			acq := acquisitionURL(f)
-			modified := f.Modified
-			x.WriteString(`<entry><title>` + esc(f.Name) + `</title>`)
-			x.WriteString(`<updated>` + esc(modified) + `</updated>`)
-			x.WriteString(`<content type="text">` + esc(formatFileInfo(f)) + `</content>`)
-			x.WriteString(`<link rel="http://opds-spec.org/acquisition" href="` + esc(acq) + `" length="` + fmt.Sprint(f.Size) + `" mtime="` + esc(modified) + `" type="` + esc(mime(f.MIME)) + `"/></entry>`)
-		}
-	}
-	x.WriteString(`</feed>`)
-	return writeFile(filepath.Join(dir, relName), x.String())
-}
 func formatFileInfo(f FileEntry) string {
 	return fmt.Sprintf("%s · %s · Modified: %s", formatSize(f.Size), displayType(f.MIME, f.Name), formatModified(f.Modified))
 }
