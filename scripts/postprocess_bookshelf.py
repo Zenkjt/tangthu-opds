@@ -58,6 +58,21 @@ renderer = r'''  var shelfResizeObserver=null;
     $('itemCount').textContent=bs.length+' tủ';
     if(!bs.length){body.innerHTML='<div class="empty">Chưa có tủ sách.</div>';return}
 
+    // File shards are loaded asynchronously. Wait for every shelf before
+    // calculating per-shelf inventory, otherwise the bookcase renders empty stats.
+    var renderToken=++state.renderToken;
+    body.innerHTML='<div class="empty">Đang tải thống kê từng tủ sách…</div>';
+    Promise.all(bs.map(function(shelf){return loadAllFiles(shelf)})).then(function(){
+      if(renderToken!==state.renderToken)return;
+      renderShelfStatsLoaded(bs,body);
+    }).catch(function(error){
+      if(renderToken!==state.renderToken)return;
+      body.innerHTML='<div class="empty">Không tải được thống kê các tủ sách: '+esc(String(error&&error.message||error))+'</div>';
+    });
+    return;
+  }
+
+  function renderShelfStatsLoaded(bs,body){
     if(shelfResizeObserver){shelfResizeObserver.disconnect();shelfResizeObserver=null;}
     var main=document.querySelector('.main');
     if(main)main.classList.add('shelf-only');
@@ -184,8 +199,8 @@ renderer = r'''  var shelfResizeObserver=null;
 '''
 text = text[:start] + renderer + text[end:]
 
-old_state = "var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:'',fileCache:{},renderToken:0};"
-new_state = "var state={catalog:null,branch:null,parent:null,view:'shelves',selected:null,search:'',fileCache:{},renderToken:0};"
+old_state = "var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:''};"
+new_state = "var state={catalog:null,branch:null,parent:null,view:'shelves',selected:null,search:''};"
 if old_state not in text:
     raise SystemExit("Bookshelf patch anchor missing: state initializer")
 text = text.replace(old_state, new_state, 1)
@@ -196,27 +211,11 @@ if old_render not in text:
     raise SystemExit("Bookshelf patch anchor missing: renderContent wrapper")
 text = text.replace(old_render, new_render, 1)
 
-# postprocess_shelf_reload.py runs before this script and moves the sidebar
-# click handler from li.onclick to main.onclick. Match that actual generated
-# handler, allowing whitespace/newlines, and only inside renderBranches().
-import re
-
-branches_start = text.find("  function renderBranches(){")
-if branches_start < 0:
-    raise SystemExit("Bookshelf patch anchor missing: renderBranches")
-branches_end = text.find("\n  function ", branches_start + len("  function renderBranches(){"))
-if branches_end < 0:
-    branches_end = len(text)
-branches_block = text[branches_start:branches_end]
-branch_handler = re.compile(r"main\.onclick\s*=\s*function\s*\(\s*\)\s*\{(?P<body>.*?)\};", re.S)
-match = branch_handler.search(branches_block)
-if not match or "state.branch=b.id" not in match.group("body"):
+old_branch = "main.onclick=function(){\n        state.branch=b.id;\n        state.parent=b.root_folder_id;\n        state.selected=null;\n        renderBranches();\n        renderContent();\n      };"
+new_branch = "main.onclick=function(){\n        state.view='list';\n        $('viewsBtn').querySelector('.lbl').textContent='Views';\n        state.branch=b.id;\n        state.parent=b.root_folder_id;\n        state.selected=null;\n        renderBranches();\n        renderContent();\n      };"
+if old_branch not in text:
     raise SystemExit("Bookshelf patch anchor missing: sidebar branch click")
-body = match.group("body")
-if "state.view='list'" not in body:
-    replacement = "main.onclick=function(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';" + body + "};"
-    branches_block = branches_block[:match.start()] + replacement + branches_block[match.end():]
-    text = text[:branches_start] + branches_block + text[branches_end:]
+text = text.replace(old_branch, new_branch, 1)
 
 old_search = "  function runSearch(){state.search=$('searchInput').value;state.searchScope=$('searchScope').value||'all';state.selected=null;pushNavState();renderContent()}"
 new_search = "  function runSearch(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';state.search=$('searchInput').value;state.searchScope=$('searchScope').value||'all';state.selected=null;pushNavState();renderContent()}"
@@ -233,13 +232,22 @@ text = text.replace(old_views, new_views, 1)
 # Add a global count to the bottom status bar. Keep the exact same file
 # extensions used by renderShelfStats(): 14 book formats plus 3 font formats.
 old_status = "$('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách.'"
-new_status = """var totalItems=bs.reduce(function(total,shelf){
-      var files=Number(shelf.file_count);
-      var folders=Number(shelf.directory_count);
-      if(!Number.isFinite(files)||!Number.isFinite(folders))return total;
-      return total+Math.max(0,files-folders);
-    },0);
-    $('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách · '+totalItems.toLocaleString('vi-VN')+' ấn phẩm.'"""
+new_status = """$('statusLeft').textContent='Đang tải dữ liệu ấn phẩm…';
+    var countedFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP','RAR','DOC','DOCX','TXT','MD'];
+    Promise.all(bs.map(function(shelf){return loadAllFiles(shelf)})).then(function(){
+      var totalItems=0;
+      bs.forEach(function(shelf){
+        filesOf(shelf).forEach(function(file){
+          if(!file||file.folder)return;
+          var dot=String(file.name||'').lastIndexOf('.');
+          var ext=dot<0?'':String(file.name).slice(dot+1).toUpperCase();
+          if(countedFormats.indexOf(ext)>=0)totalItems++;
+        });
+      });
+      $('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách · '+totalItems.toLocaleString('vi-VN')+' ấn phẩm.';
+    }).catch(function(error){
+      $('statusLeft').textContent='Không tải được thống kê ấn phẩm: '+String(error&&error.message||error);
+    });"""
 if text.count(old_status) != 1:
     raise SystemExit("Global inventory count patch anchor missing or ambiguous: statusLeft")
 text = text.replace(old_status, new_status, 1)
