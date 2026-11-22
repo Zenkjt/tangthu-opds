@@ -217,22 +217,13 @@ text = text.replace(old_views, new_views, 1)
 # Add a global count to the bottom status bar. Keep the exact same file
 # extensions used by renderShelfStats(): 14 book formats plus 3 font formats.
 old_status = "$('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách.'"
-new_status = """$('statusLeft').textContent='Đang tải dữ liệu ấn phẩm…';
-    var countedFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP','RAR','DOC','DOCX','TXT','MD'];
-    Promise.all(bs.map(function(shelf){return loadAllFiles(shelf)})).then(function(){
-      var totalItems=0;
-      bs.forEach(function(shelf){
-        filesOf(shelf).forEach(function(file){
-          if(!file||file.folder)return;
-          var dot=String(file.name||'').lastIndexOf('.');
-          var ext=dot<0?'':String(file.name).slice(dot+1).toUpperCase();
-          if(countedFormats.indexOf(ext)>=0)totalItems++;
-        });
-      });
-      $('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách · '+totalItems.toLocaleString('vi-VN')+' ấn phẩm.';
-    }).catch(function(error){
-      $('statusLeft').textContent='Không tải được thống kê ấn phẩm: '+String(error&&error.message||error);
-    });"""
+new_status = """var totalItems=bs.reduce(function(total,shelf){
+      var files=Number(shelf.file_count);
+      var folders=Number(shelf.directory_count);
+      if(!Number.isFinite(files)||!Number.isFinite(folders))return total;
+      return total+Math.max(0,files-folders);
+    },0);
+    $('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách · '+totalItems.toLocaleString('vi-VN')+' ấn phẩm.'"""
 if text.count(old_status) != 1:
     raise SystemExit("Global inventory count patch anchor missing or ambiguous: statusLeft")
 text = text.replace(old_status, new_status, 1)

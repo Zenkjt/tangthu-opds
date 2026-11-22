@@ -227,6 +227,10 @@ func main() {
 	cfgPath := getenv("TANGTHU_BRANCH_CONFIG", "config/branches.json")
 	outDir := getenv("TANGTHU_OUTPUT_DIR", "docs")
 	baseURL := strings.TrimRight(getenv("TANGTHU_BASE_URL", "https://zenkjt.github.io/tangthu-opds"), "/")
+	downloadBaseURL := strings.TrimRight(strings.TrimSpace(os.Getenv("TANGTHU_DOWNLOAD_WORKER_URL")), "/")
+	if downloadBaseURL == "" {
+		fatal("TANGTHU_DOWNLOAD_WORKER_URL is required for CrossPoint-compatible OPDS acquisition links")
+	}
 
 	data, err := os.ReadFile(cfgPath)
 	if err != nil {
@@ -265,7 +269,7 @@ func main() {
 		return branchLess(branches[i].Config.DisplayName, branches[j].Config.DisplayName)
 	})
 
-	if err := publishOPDSR2(ctx, r2Client, cfg.Branches, branches); err != nil {
+	if err := publishOPDSR2(ctx, r2Client, cfg.Branches, branches, downloadBaseURL); err != nil {
 		fatal(fmt.Sprintf("publish OPDS indexes to R2: %v", err))
 	}
 
@@ -323,7 +327,7 @@ type opdsBranchIndex struct {
 	Items        []opdsItem `json:"items"`
 }
 
-func publishOPDSR2(ctx context.Context, client *r2SnapshotClient, configured []BranchConfig, selected []Branch) error {
+func publishOPDSR2(ctx context.Context, client *r2SnapshotClient, configured []BranchConfig, selected []Branch, downloadBaseURL string) error {
 	ordered := make([]BranchConfig, 0, len(configured))
 	for _, bc := range configured {
 		if bc.Enabled {
@@ -338,9 +342,10 @@ func publishOPDSR2(ctx context.Context, client *r2SnapshotClient, configured []B
 		metas = append(metas, opdsBranchMeta{ID: bc.ID, Name: bc.DisplayName, RootFolderID: bc.RootFolderID})
 	}
 	if err := client.putJSON(ctx, "opds/branches.json", struct {
-		Version  int              `json:"version"`
-		Branches []opdsBranchMeta `json:"branches"`
-	}{Version: 1, Branches: metas}); err != nil {
+		Version         int              `json:"version"`
+		DownloadBaseURL string           `json:"download_base_url"`
+		Branches        []opdsBranchMeta `json:"branches"`
+	}{Version: 1, DownloadBaseURL: downloadBaseURL, Branches: metas}); err != nil {
 		return fmt.Errorf("write branch list: %w", err)
 	}
 
@@ -352,7 +357,10 @@ func publishOPDSR2(ctx context.Context, client *r2SnapshotClient, configured []B
 				Size: f.Size, Modified: f.Modified, Folder: f.IsFolder,
 			})
 		}
-		index := opdsBranchIndex{BranchID: br.Config.ID, Name: br.Config.DisplayName, RootFolderID: br.Config.RootFolderID, UpdatedAt: time.Now().UTC().Format(time.RFC3339), Items: items}
+		index := opdsBranchIndex{
+			BranchID: br.Config.ID, Name: br.Config.DisplayName, RootFolderID: br.Config.RootFolderID,
+			UpdatedAt: time.Now().UTC().Format(time.RFC3339), Items: items,
+		}
 		if err := client.putJSON(ctx, "opds/branches/"+br.Config.ID+".json", index); err != nil {
 			return fmt.Errorf("write shelf %s: %w", br.Config.ID, err)
 		}
