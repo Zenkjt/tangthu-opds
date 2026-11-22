@@ -116,11 +116,8 @@ jobs:
           mkdir -p docs/assets
           cp -a .build-assets/bookshelf docs/assets/
 
-      - name: Rewrite OPDS download URLs
-        env:
-          TANGTHU_DOWNLOAD_WORKER_URL: ${{ vars.TANGTHU_DOWNLOAD_WORKER_URL }}
-          TANGTHU_SHELVES: ${{ steps.resolve.outputs.shelves }}
-        run: python3 scripts/rewrite_opds_download_urls.py
+      # OPDS feeds are now rendered dynamically by the storage Worker from R2.
+      # The legacy XML rewrite step expects docs/opds/*.xml, which is no longer generated.
 
       - name: Apply catalog UI
         if: steps.resolve.outputs.mode == 'full'
@@ -243,10 +240,14 @@ jobs:
               find docs -type f -printf '%s %p\n' | sort -nr | sed -n '1,40p'
               echo
               echo "OPDS FILE COUNTS"
-              find docs/opds -type f 2>/dev/null | awk '
-                { count++; if ($0 ~ /page|shard/) paged++ }
-                END { printf "OPDS files: %d\nPaged/shard-like files: %d\n", count, paged }
-              '
+              if [ -d docs/opds ]; then
+                find docs/opds -type f | awk '
+                  { count++; if ($0 ~ /page|shard/) paged++ }
+                  END { printf "OPDS files: %d\nPaged/shard-like files: %d\n", count, paged }
+                '
+              else
+                echo "Static OPDS files: 0 (OPDS is served dynamically from R2)"
+              fi
             fi
           } > "$report"
           cat "$report"
