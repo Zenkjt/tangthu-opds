@@ -128,6 +128,12 @@ func loadShelfSnapshot(ctx context.Context, client *r2SnapshotClient, bc BranchC
 
 	var manifest SnapshotManifest
 	if err := client.getJSON(ctx, manifestKey, &manifest); err != nil {
+		// A newly registered shelf is part of the catalog immediately, even
+		// before its first scan has published a manifest. Render it as empty.
+		if strings.Contains(err.Error(), "HTTP 404") {
+			log.Printf("SNAPSHOT R2 shelf=%s has no manifest yet; publishing empty registered shelf", bc.ID)
+			return []FileEntry{}, bc.DisplayName, nil
+		}
 		return nil, "", fmt.Errorf("read R2 manifest for shelf %s: %w", bc.ID, err)
 	}
 	log.Printf("SNAPSHOT R2 shelf=%s manifest loaded: version=%d storage=%s branch=%s generation=%s pages=%d items=%d complete=%t",
@@ -136,7 +142,7 @@ func loadShelfSnapshot(ctx context.Context, client *r2SnapshotClient, bc BranchC
 
 	if manifest.Version != 2 || manifest.Storage != "r2" ||
 		manifest.BranchID != bc.ID || manifest.GenerationID == "" ||
-		!manifest.Complete || manifest.PageCount != len(manifest.Pages) {
+		manifest.PageCount != len(manifest.Pages) || manifest.ItemCount < 0 {
 		return nil, "", fmt.Errorf("invalid or incomplete R2 snapshot manifest for shelf %s", bc.ID)
 	}
 
@@ -166,8 +172,8 @@ func loadShelfSnapshot(ctx context.Context, client *r2SnapshotClient, bc BranchC
 	if loadedItemCount != manifest.ItemCount {
 		return nil, "", fmt.Errorf("R2 snapshot item count mismatch for shelf %s: manifest=%d loaded=%d", bc.ID, manifest.ItemCount, loadedItemCount)
 	}
-	log.Printf("SNAPSHOT R2 shelf=%s loaded: entries=%d generation=%s complete=true",
-		bc.ID, len(converted), manifest.GenerationID)
+	log.Printf("SNAPSHOT R2 shelf=%s loaded: entries=%d generation=%s complete=%t",
+		bc.ID, len(converted), manifest.GenerationID, manifest.Complete)
 	return converted, manifest.FolderName, nil
 }
 
