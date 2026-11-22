@@ -271,7 +271,7 @@ function driveCheckPriority() {
       // The shelf budget is local to this shelf. Checkpoint and move the cursor;
       // do NOT return from the execution. This is the key V4 behavior.
       if (!result.completed) {
-        if (e.snapshot_available && !e.baseline_complete) {
+        if (e.snapshot_available) {
           if (changed.indexOf(id) < 0) changed.push(id);
           priorityLog_('PARTIAL SNAPSHOT READY ' + String(branch.display_name || id) +
             ' | items=' + Number(e.snapshot_item_count || 0) +
@@ -1096,7 +1096,7 @@ function r2SnapshotWritePage_(branch, entry, items) {
   return key;
 }
 
-function r2SnapshotPublishManifest_(branch, entry) {
+function r2SnapshotPublishManifest_(branch, entry, complete) {
   var generation = String(entry.r2_snapshot_generation_id || '');
   if (!generation) return false;
   var pages = (entry.r2_snapshot_page_keys || []).slice();
@@ -1106,7 +1106,7 @@ function r2SnapshotPublishManifest_(branch, entry) {
     branch_id: String(branch.id),
     folder_name: String(branch.display_name || ''),
     generation_id: generation,
-    complete: true,
+    complete: complete === true,
     page_count: pages.length,
     pages: pages,
     item_count: Number(entry.snapshot_item_count || 0),
@@ -1237,6 +1237,11 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
       entry.full_scan_folder_id = currentFolderId;
       entry.full_scan_page_token = currentPageToken;
       entry.full_rows = null;
+      // Publish the accumulated generation at every resumable checkpoint.
+      // Page PUTs have already succeeded before their keys enter this list.
+      r2SnapshotPublishManifest_(branch, entry, false);
+      entry.snapshot_available = true;
+      entry.snapshot_complete = false;
       priorityLog_('CHECKPOINT-FULL ' + String(branch.display_name || branch.id) +
         ' | rows=' + rowCount + ' | queue=' + queue.length +
         ' | folder=' + (currentFolderId || '-') +
@@ -1304,7 +1309,7 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
   var confirmedChanged = !!entry.fingerprint && fingerprint !== entry.fingerprint;
 
   // R2 is the only snapshot destination. Publish only after the full scan ends.
-  r2SnapshotPublishManifest_(branch, entry);
+  r2SnapshotPublishManifest_(branch, entry, true);
   entry.snapshot_available = true;
   entry.snapshot_complete = true;
   entry.r2_snapshot_generation_id = '';
