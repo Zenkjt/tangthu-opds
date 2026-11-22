@@ -209,8 +209,6 @@ jobs:
             '/opds/ /opds/index.xml 200' \
             > docs/_redirects
 
-
-
       - name: Diagnose Pages asset distribution
         if: always()
         run: |
@@ -232,7 +230,7 @@ jobs:
               find docs -type f | awk -F/ '{if (NF >= 2) print $2; else print "(root)"}' | sort | uniq -c | sort -nr
               echo
               echo "LARGEST DIRECTORIES (first 3 path levels)"
-              find docs -type f -printf '%h\\n' | awk '
+              find docs -type f -printf '%h\n' | awk '
                 {
                   n=split($0,a,"/");
                   if (n >= 3) key=a[1] "/" a[2] "/" a[3];
@@ -240,27 +238,27 @@ jobs:
                   else key="(root)";
                   count[key]++;
                 }
-                END { for (key in count) printf "%8d %s\\n", count[key], key }
-              ' | sort -nr | head -40
+                END { for (key in count) printf "%8d %s\n", count[key], key }
+              ' | sort -nr | sed -n '1,40p'
               echo
               echo "FILES BY EXTENSION"
               find docs -type f | awk '
                 {
-                  name=$0; sub(/^.*\\//,"",name);
-                  if (name !~ /\\./) ext="(no extension)";
-                  else { sub(/^.*\\./,"",name); ext="." name }
+                  name=$0; sub(/^.*\//,"",name);
+                  if (name !~ /\./) ext="(no extension)";
+                  else { sub(/^.*\./,"",name); ext="." name }
                   count[ext]++;
                 }
-                END { for (ext in count) printf "%8d %s\\n", count[ext], ext }
+                END { for (ext in count) printf "%8d %s\n", count[ext], ext }
               ' | sort -nr
               echo
               echo "LARGEST 40 FILES"
-              find docs -type f -printf '%s %p\\n' | sort -nr | head -40
+              find docs -type f -printf '%s %p\n' | sort -nr | sed -n '1,40p'
               echo
               echo "OPDS FILE COUNTS"
               find docs/opds -type f 2>/dev/null | awk '
                 { count++; if ($0 ~ /page|shard/) paged++ }
-                END { printf "OPDS files: %d\\nPaged/shard-like files: %d\\n", count, paged }
+                END { printf "OPDS files: %d\nPaged/shard-like files: %d\n", count, paged }
               '
             fi
           } > "$report"
