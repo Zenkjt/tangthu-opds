@@ -184,8 +184,8 @@ renderer = r'''  var shelfResizeObserver=null;
 '''
 text = text[:start] + renderer + text[end:]
 
-old_state = "var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:''};"
-new_state = "var state={catalog:null,branch:null,parent:null,view:'shelves',selected:null,search:''};"
+old_state = "var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:'',fileCache:{},renderToken:0};"
+new_state = "var state={catalog:null,branch:null,parent:null,view:'shelves',selected:null,search:'',fileCache:{},renderToken:0};"
 if old_state not in text:
     raise SystemExit("Bookshelf patch anchor missing: state initializer")
 text = text.replace(old_state, new_state, 1)
@@ -196,8 +196,8 @@ if old_render not in text:
     raise SystemExit("Bookshelf patch anchor missing: renderContent wrapper")
 text = text.replace(old_render, new_render, 1)
 
-old_branch = "main.onclick=function(){\n        state.branch=b.id;\n        state.parent=b.root_folder_id;\n        state.selected=null;\n        renderBranches();\n        renderContent();\n      };"
-new_branch = "main.onclick=function(){\n        state.view='list';\n        $('viewsBtn').querySelector('.lbl').textContent='Views';\n        state.branch=b.id;\n        state.parent=b.root_folder_id;\n        state.selected=null;\n        renderBranches();\n        renderContent();\n      };"
+old_branch = "li.onclick=function(){state.branch=b.id;state.parent=b.root_folder_id;state.selected=null;renderBranches();renderContent()};"
+new_branch = "li.onclick=function(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';state.branch=b.id;state.parent=b.root_folder_id;state.selected=null;renderBranches();renderContent()};"
 if old_branch not in text:
     raise SystemExit("Bookshelf patch anchor missing: sidebar branch click")
 text = text.replace(old_branch, new_branch, 1)
