@@ -89,3 +89,50 @@ func TestMergeCatalogShardsPreservesOtherBranches(t *testing.T) {
 }
 
 func fmtID(i int) string { return fmt.Sprintf("book-%04d", i) }
+
+func TestEmptyDirectoryShardListIsEmptyArray(t *testing.T) {
+	out := t.TempDir()
+	branch := Branch{
+		Config: BranchConfig{ID: "shelf-empty", DisplayName: "Shelf", RootFolderID: "root"},
+		Files:  []FileEntry{{ID: "empty-folder", ParentID: "root", Name: "Empty", IsFolder: true}},
+	}
+	if err := writeCatalogBranchShards(out, branch); err != nil {
+		t.Fatal(err)
+	}
+	data, err := os.ReadFile(filepath.Join(out, "catalog", "shelf-empty", "root.json"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	var root struct {
+		Directories []struct {
+			ID     string   `json:"id"`
+			Shards []string `json:"shards"`
+		} `json:"directories"`
+	}
+	if err := json.Unmarshal(data, &root); err != nil {
+		t.Fatal(err)
+	}
+	if len(root.Directories) != 1 || root.Directories[0].ID != "empty-folder" {
+		t.Fatalf("unexpected directory metadata: %#v", root.Directories)
+	}
+	if root.Directories[0].Shards == nil || len(root.Directories[0].Shards) != 0 {
+		t.Fatalf("empty directory shards must be [], got %#v", root.Directories[0].Shards)
+	}
+}
+
+func TestBranchLessPrioritizesVNThenAlphabetical(t *testing.T) {
+	got := []string{"Sách Yến", "VN02", "ABC", "VN01"}
+	for i := 0; i < len(got); i++ {
+		for j := i + 1; j < len(got); j++ {
+			if branchLess(got[j], got[i]) {
+				got[i], got[j] = got[j], got[i]
+			}
+		}
+	}
+	want := []string{"VN01", "VN02", "ABC", "Sách Yến"}
+	for i := range want {
+		if got[i] != want[i] {
+			t.Fatalf("sorted branches = %#v, want %#v", got, want)
+		}
+	}
+}

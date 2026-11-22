@@ -50,6 +50,8 @@ if end < 0:
     raise SystemExit("Bookshelf patch anchor missing: renderContent")
 
 renderer = r'''  var shelfResizeObserver=null;
+  var shelfStatsReady=false;
+  var shelfStatsLoading=false;
   function renderShelfStats(){
     var body=$('contentBody');
     body.innerHTML='';
@@ -57,6 +59,20 @@ renderer = r'''  var shelfResizeObserver=null;
     var bs=branches();
     $('itemCount').textContent=bs.length+' tủ';
     if(!bs.length){body.innerHTML='<div class="empty">Chưa có tủ sách.</div>';return}
+    if(!shelfStatsReady){
+      if(shelfStatsLoading)return;
+      shelfStatsLoading=true;
+      $('itemCount').textContent='Đang thống kê…';
+      Promise.all(bs.map(function(shelf){return loadAllFiles(shelf)})).then(function(){
+        shelfStatsReady=true;
+        shelfStatsLoading=false;
+        renderShelfStats();
+      }).catch(function(error){
+        shelfStatsLoading=false;
+        body.innerHTML='<div class="empty">Không tải được dữ liệu thống kê.<br><small>'+esc(error.message)+'</small></div>';
+      });
+      return;
+    }
 
     if(shelfResizeObserver){shelfResizeObserver.disconnect();shelfResizeObserver=null;}
     var main=document.querySelector('.main');
