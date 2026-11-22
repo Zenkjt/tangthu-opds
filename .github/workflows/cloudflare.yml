@@ -104,6 +104,7 @@ jobs:
           TANGTHU_BRANCH_CONFIG: .build/branches.json
           TANGTHU_OUTPUT_DIR: docs
           TANGTHU_BASE_URL: https://tangthu.pages.dev
+          TANGTHU_DOWNLOAD_WORKER_URL: ${{ vars.TANGTHU_DOWNLOAD_WORKER_URL }}
           TANGTHU_SHELVES: ${{ steps.resolve.outputs.shelves }}
         run: go run ./cmd/generate
 

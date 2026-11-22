@@ -227,6 +227,10 @@ func main() {
 	cfgPath := getenv("TANGTHU_BRANCH_CONFIG", "config/branches.json")
 	outDir := getenv("TANGTHU_OUTPUT_DIR", "docs")
 	baseURL := strings.TrimRight(getenv("TANGTHU_BASE_URL", "https://zenkjt.github.io/tangthu-opds"), "/")
+	downloadBaseURL := strings.TrimRight(strings.TrimSpace(os.Getenv("TANGTHU_DOWNLOAD_WORKER_URL")), "/")
+	if downloadBaseURL == "" {
+		fatal("TANGTHU_DOWNLOAD_WORKER_URL is required for CrossPoint-compatible OPDS acquisition links")
+	}
 
 	data, err := os.ReadFile(cfgPath)
 	if err != nil {
@@ -265,7 +269,7 @@ func main() {
 		return branchLess(branches[i].Config.DisplayName, branches[j].Config.DisplayName)
 	})
 
-	if err := publishOPDSR2(ctx, r2Client, cfg.Branches, branches); err != nil {
+	if err := publishOPDSR2(ctx, r2Client, cfg.Branches, branches, downloadBaseURL); err != nil {
 		fatal(fmt.Sprintf("publish OPDS indexes to R2: %v", err))
 	}
 
@@ -273,7 +277,6 @@ func main() {
 		if len(branches) != len(selected) {
 			fatal("incremental build aborted: one or more selected shelves are unavailable")
 		}
-
 
 		if err := mergeCatalogShards(outDir, branches); err != nil {
 			fatal(err.Error())
@@ -324,17 +327,25 @@ type opdsBranchIndex struct {
 	Items        []opdsItem `json:"items"`
 }
 
-func publishOPDSR2(ctx context.Context, client *r2SnapshotClient, configured []BranchConfig, selected []Branch) error {
-	metas := make([]opdsBranchMeta, 0, len(configured))
+func publishOPDSR2(ctx context.Context, client *r2SnapshotClient, configured []BranchConfig, selected []Branch, downloadBaseURL string) error {
+	ordered := make([]BranchConfig, 0, len(configured))
 	for _, bc := range configured {
 		if bc.Enabled {
-			metas = append(metas, opdsBranchMeta{ID: bc.ID, Name: bc.DisplayName, RootFolderID: bc.RootFolderID})
+			ordered = append(ordered, bc)
 		}
 	}
+	sort.SliceStable(ordered, func(i, j int) bool {
+		return branchLess(ordered[i].DisplayName, ordered[j].DisplayName)
+	})
+	metas := make([]opdsBranchMeta, 0, len(ordered))
+	for _, bc := range ordered {
+		metas = append(metas, opdsBranchMeta{ID: bc.ID, Name: bc.DisplayName, RootFolderID: bc.RootFolderID})
+	}
 	if err := client.putJSON(ctx, "opds/branches.json", struct {
-		Version  int              `json:"version"`
-		Branches []opdsBranchMeta `json:"branches"`
-	}{Version: 1, Branches: metas}); err != nil {
+		Version         int              `json:"version"`
+		DownloadBaseURL string           `json:"download_base_url"`
+		Branches        []opdsBranchMeta `json:"branches"`
+	}{Version: 1, DownloadBaseURL: downloadBaseURL, Branches: metas}); err != nil {
 		return fmt.Errorf("write branch list: %w", err)
 	}
 
@@ -346,7 +357,10 @@ func publishOPDSR2(ctx context.Context, client *r2SnapshotClient, configured []B
 				Size: f.Size, Modified: f.Modified, Folder: f.IsFolder,
 			})
 		}
-		index := opdsBranchIndex{BranchID: br.Config.ID, Name: br.Config.DisplayName, RootFolderID: br.Config.RootFolderID, UpdatedAt: time.Now().UTC().Format(time.RFC3339), Items: items}
+		index := opdsBranchIndex{
+			BranchID: br.Config.ID, Name: br.Config.DisplayName, RootFolderID: br.Config.RootFolderID,
+			UpdatedAt: time.Now().UTC().Format(time.RFC3339), Items: items,
+		}
 		if err := client.putJSON(ctx, "opds/branches/"+br.Config.ID+".json", index); err != nil {
 			return fmt.Errorf("write shelf %s: %w", br.Config.ID, err)
 		}
@@ -494,7 +508,7 @@ func writeCatalogBranchShards(out string, br Branch) error {
 
 	writePages := func(folderID, relativeDir string, files []FileEntry) ([]string, error) {
 		const pageSize = 1000
-		var paths []string
+		paths := make([]string, 0)
 		if len(files) == 0 {
 			return paths, nil
 		}
@@ -791,7 +805,7 @@ button:disabled{cursor:default;color:#777}
   function fetchJSON(path,revision){var url=path+(path.indexOf('?')>=0?'&':'?')+'v='+encodeURIComponent(revision||'');return fetch(url,{cache:'force-cache'}).then(function(r){if(!r.ok)throw new Error(path+' HTTP '+r.status);return r.json()})}
   function loadRootShard(b){var c=cacheFor(b);if(c.rootPromise)return c.rootPromise;if(c.directories)return Promise.resolve(c);c.rootPromise=fetchJSON(b.root_shard,b.revision).then(function(data){if(data.branch_id!==b.id)throw new Error('Branch ID không khớp trong root shard');c.directories=data.directories||[];c.rootShards=data.root_shards||[];return c}).catch(function(e){c.rootPromise=null;throw e});return c.rootPromise}
   function loadDirectory(b,parent){return loadRootShard(b).then(function(c){if(c.dirs[parent])return c.dirs[parent];var paths=parent===b.root_folder_id?c.rootShards:(directoryMeta(b,parent)||{}).shards;if(!paths)throw new Error('Không tìm thấy shard thư mục '+parent);if(!paths.length){c.dirs[parent]=[];return c.dirs[parent]}return Promise.all(paths.map(function(path){return fetchJSON(path,b.revision)})).then(function(pages){var items=[];pages.forEach(function(data){if(data.branch_id!==b.id||data.folder_id!==parent)throw new Error('Directory shard không khớp');items=items.concat(data.items||[])});c.dirs[parent]=items;return items})})}
-  function loadAllFiles(b){return loadRootShard(b).then(function(c){return Promise.all((c.directories||[]).map(function(d){return loadDirectory(b,d.id)})).then(function(){return filesOf(b)})})}
+  function loadAllFiles(b){return loadRootShard(b).then(function(c){var tasks=[loadDirectory(b,b.root_folder_id)];(c.directories||[]).forEach(function(d){tasks.push(loadDirectory(b,d.id))});return Promise.all(tasks).then(function(){return filesOf(b)})})}
   function displayDate(s){if(!s)return '';var d=new Date(s);return isNaN(d)?s:d.toLocaleString('vi-VN',{dateStyle:'short',timeStyle:'short'})}
 
   // Browser history for navigation inside Tàng Thư.
@@ -844,7 +858,7 @@ button:disabled{cursor:default;color:#777}
     var searchBranches=searchAll?branches():[b];
     $('pathBar').textContent=q?(searchAll?'Tìm trong tất cả tủ sách':'Tìm trong '+b.name):[b.name].concat(folderPath(b,state.parent)).join('  ›  ');
     $('itemCount').textContent='Đang tải…';
-    var loading=q?Promise.all(searchBranches.map(loadAllFiles)):loadDirectory(b,state.parent);
+    var loading=q?Promise.all(searchBranches.map(loadAllFiles)):loadRootShard(b).then(function(c){if(state.parent!==b.root_folder_id&&!directoryMeta(b,state.parent)){state.parent=b.root_folder_id;}return loadDirectory(b,state.parent)});
     loading.then(function(){
       if(token!==state.renderToken)return;
       if(!q)$('pathBar').textContent=[b.name].concat(folderPath(b,state.parent)).join('  ›  ');

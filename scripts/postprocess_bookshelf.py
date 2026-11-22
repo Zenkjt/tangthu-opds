@@ -58,6 +58,21 @@ renderer = r'''  var shelfResizeObserver=null;
     $('itemCount').textContent=bs.length+' tủ';
     if(!bs.length){body.innerHTML='<div class="empty">Chưa có tủ sách.</div>';return}
 
+    // File shards are loaded asynchronously. Wait for every shelf before
+    // calculating per-shelf inventory, otherwise the bookcase renders empty stats.
+    var renderToken=++state.renderToken;
+    body.innerHTML='<div class="empty">Đang tải thống kê từng tủ sách…</div>';
+    Promise.all(bs.map(function(shelf){return loadAllFiles(shelf)})).then(function(){
+      if(renderToken!==state.renderToken)return;
+      renderShelfStatsLoaded(bs,body);
+    }).catch(function(error){
+      if(renderToken!==state.renderToken)return;
+      body.innerHTML='<div class="empty">Không tải được thống kê các tủ sách: '+esc(String(error&&error.message||error))+'</div>';
+    });
+    return;
+  }
+
+  function renderShelfStatsLoaded(bs,body){
     if(shelfResizeObserver){shelfResizeObserver.disconnect();shelfResizeObserver=null;}
     var main=document.querySelector('.main');
     if(main)main.classList.add('shelf-only');
@@ -184,13 +199,11 @@ renderer = r'''  var shelfResizeObserver=null;
 '''
 text = text[:start] + renderer + text[end:]
 
-# The generator may add runtime fields (for example fileCache/renderToken)
-# to the state object. Match the view property rather than the entire object.
-import re
-state_pattern = r"(var\s+state\s*=\s*\{[^}]*\bview\s*:\s*)['\"]list['\"]"
-text, state_replacements = re.subn(state_pattern, r"\1'shelves'", text, count=1)
-if state_replacements != 1:
-    raise SystemExit("Bookshelf patch anchor missing: state.view initializer")
+old_state = "var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:''};"
+new_state = "var state={catalog:null,branch:null,parent:null,view:'shelves',selected:null,search:''};"
+if old_state not in text:
+    raise SystemExit("Bookshelf patch anchor missing: state initializer")
+text = text.replace(old_state, new_state, 1)
 
 old_render = "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}"
 new_render = "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}if(shelfResizeObserver){shelfResizeObserver.disconnect();shelfResizeObserver=null;}var main=document.querySelector('.main');if(main)main.classList.remove('shelf-only');"
@@ -219,17 +232,22 @@ text = text.replace(old_views, new_views, 1)
 # Add a global count to the bottom status bar. Keep the exact same file
 # extensions used by renderShelfStats(): 14 book formats plus 3 font formats.
 old_status = "$('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách.'"
-new_status = """var totalItems=0;
-    var countedFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP','RAR','DOC','DOCX','TXT','MD','CPFONT','TTF','OTF'];
-    bs.forEach(function(shelf){
-      filesOf(shelf).forEach(function(file){
-        if(!file||file.folder)return;
-        var dot=String(file.name||'').lastIndexOf('.');
-        var ext=dot<0?'':String(file.name).slice(dot+1).toUpperCase();
-        if(countedFormats.indexOf(ext)>=0)totalItems++;
+new_status = """$('statusLeft').textContent='Đang tải dữ liệu ấn phẩm…';
+    var countedFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP','RAR','DOC','DOCX','TXT','MD'];
+    Promise.all(bs.map(function(shelf){return loadAllFiles(shelf)})).then(function(){
+      var totalItems=0;
+      bs.forEach(function(shelf){
+        filesOf(shelf).forEach(function(file){
+          if(!file||file.folder)return;
+          var dot=String(file.name||'').lastIndexOf('.');
+          var ext=dot<0?'':String(file.name).slice(dot+1).toUpperCase();
+          if(countedFormats.indexOf(ext)>=0)totalItems++;
+        });
       });
-    });
-    $('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách · '+totalItems.toLocaleString('vi-VN')+' ấn phẩm.'"""
+      $('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách · '+totalItems.toLocaleString('vi-VN')+' ấn phẩm.';
+    }).catch(function(error){
+      $('statusLeft').textContent='Không tải được thống kê ấn phẩm: '+String(error&&error.message||error);
+    });"""
 if text.count(old_status) != 1:
     raise SystemExit("Global inventory count patch anchor missing or ambiguous: statusLeft")
 text = text.replace(old_status, new_status, 1)
