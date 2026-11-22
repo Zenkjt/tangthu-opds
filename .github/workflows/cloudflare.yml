@@ -97,10 +97,9 @@ jobs:
           echo "mode=$(cat .build/build_mode)" >> "$GITHUB_OUTPUT"
           echo "shelves=$(cat .build/changed_shelves.txt)" >> "$GITHUB_OUTPUT"
 
-      - name: Generate static catalog from R2 snapshots
+      - name: Generate static catalog
         env:
-          TANGTHU_R2_API_URL: ${{ vars.TANGTHU_R2_API_URL }}
-          TANGTHU_R2_API_TOKEN: ${{ secrets.TANGTHU_R2_API_TOKEN }}
+          TANGTHU_GOOGLE_API_KEY: ${{ secrets.TANGTHU_GOOGLE_API_KEY }}
           TANGTHU_BRANCH_CONFIG: .build/branches.json
           TANGTHU_OUTPUT_DIR: docs
           TANGTHU_BASE_URL: https://tangthu.pages.dev
@@ -211,6 +210,61 @@ jobs:
 
 
 
+- name: Diagnose Pages asset distribution
+  if: always()
+  run: |
+    set -euo pipefail
+    mkdir -p .build
+    report=".build/pages-asset-diagnostics.txt"
+    {
+      echo "Cloudflare Pages asset diagnostics"
+      echo "Commit: ${GITHUB_SHA}"
+      echo "Build mode: ${{ steps.resolve.outputs.mode }}"
+      echo
+      if [ ! -d docs ]; then
+        echo "docs/ directory does not exist."
+        exit 0
+      fi
+      echo "TOTAL FILES"
+      find docs -type f | wc -l
+      echo
+      echo "FILES BY TOP-LEVEL DIRECTORY"
+      find docs -type f | awk -F/ 'NF >= 2 {print $2} NF == 1 {print "(root)"}' | sort | uniq -c | sort -nr
+      echo
+      echo "LARGEST DIRECTORIES (first 2 path levels)"
+      find docs -type f -printf '%h\\n' | awk '
+        {
+          n=split($0,a,"/");
+          if (n >= 3) key=a[1] "/" a[2] "/" a[3];
+          else if (n == 2) key=a[1] "/" a[2];
+          else key="(root)";
+          count[key]++;
+        }
+        END { for (key in count) printf "%8d %s\\n", count[key], key }
+      ' | sort -nr | head -40
+      echo
+      echo "FILES BY EXTENSION"
+      find docs -type f | awk '
+        {
+          name=$0; sub(/^.*\\//,"",name);
+          if (name !~ /\\./) ext="(no extension)";
+          else { sub(/^.*\\./,"",name); ext="." name }
+          count[ext]++;
+        }
+        END { for (ext in count) printf "%8d %s\\n", count[ext], ext }
+      ' | sort -nr
+      echo
+      echo "LARGEST 40 FILES"
+      find docs -type f -printf '%s %p\\n' | sort -nr | head -40
+      echo
+      echo "OPDS FILE COUNTS"
+      find docs/opds -type f 2>/dev/null | awk '
+        { count++; if ($0 ~ /page|shard/) paged++ }
+        END { printf "OPDS files: %d\\nPaged/shard-like files: %d\\n", count, paged }
+      '
+    } > "$report"
+    cat "$report"
+
       - name: Validate Cloudflare Pages asset limits
         run: |
           set -euo pipefail
@@ -226,6 +280,15 @@ jobs:
             echo "$oversized"
             exit 1
           fi
+
+      - name: Upload Pages asset diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pages-asset-diagnostics
+          path: .build/pages-asset-diagnostics.txt
+          if-no-files-found: warn
+          retention-days: 14
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4
