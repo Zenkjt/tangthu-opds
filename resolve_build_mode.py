@@ -18,33 +18,27 @@ def read_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def has_static_inventory_cache(catalog: dict) -> bool:
-    rows = catalog.get("branches")
-    if not isinstance(rows, list) or not rows:
-        return False
-    for row in rows:
-        if not isinstance(row.get("book_count"), int):
-            return False
-        if not isinstance(row.get("font_count"), int):
-            return False
-        if not isinstance(row.get("format_counts"), dict):
-            return False
-    return True
-
-
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     mode = "full"
     shelves: list[str] = []
     reason = "manual, scheduled, or no reusable site-state"
 
-    catalog_data = read_json(CATALOG) if CATALOG.exists() else {}
-    reusable_catalog = (
-        catalog_data.get("version") == 2
-        and has_static_inventory_cache(catalog_data)
-    )
+    catalog_ready = False
+    if CATALOG.exists():
+        try:
+            catalog_data = read_json(CATALOG)
+            catalog_rows = catalog_data.get("branches", [])
+            catalog_ready = (catalog_data.get("version") == 2 and all(
+                isinstance(row.get("book_count"), int)
+                and isinstance(row.get("font_count"), int)
+                and isinstance(row.get("format_counts"), dict)
+                for row in catalog_rows
+            ))
+        except Exception:
+            catalog_ready = False
 
-    if EVENT == "repository_dispatch" and CATALOG.exists() and LIFECYCLE.exists() and reusable_catalog:
+    if EVENT == "repository_dispatch" and CATALOG.exists() and LIFECYCLE.exists() and catalog_ready:
         payload = read_json(EVENT_PATH) if EVENT_PATH.exists() else {}
         requested = payload.get("client_payload", {}).get("shelves", [])
         config_rows = read_json(CONFIG).get("branches", [])
@@ -91,7 +85,7 @@ def main() -> None:
                 else:
                     reason = "empty, inactive, or unknown shelf list; full build required"
     elif EVENT == "repository_dispatch":
-        reason = "legacy catalog or missing static inventory cache; full build required"
+        reason = "catalog statistics missing or legacy catalog; full build required"
 
     (OUT / "build_mode").write_text(mode + "\n", encoding="utf-8")
     (OUT / "changed_shelves.txt").write_text(",".join(shelves) + "\n", encoding="utf-8")

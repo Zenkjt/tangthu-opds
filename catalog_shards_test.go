@@ -86,6 +86,9 @@ func TestMergeCatalogShardsPreservesOtherBranches(t *testing.T) {
 	if manifest.Branches[0].Name != "A renamed" || manifest.Branches[1].ID != "B" {
 		t.Fatalf("unexpected merged manifest: %#v", manifest.Branches)
 	}
+	if manifest.Branches[0].BookCount != 1 || manifest.Branches[1].BookCount != 1 {
+		t.Fatalf("incremental merge did not refresh/preserve static stats: %#v", manifest.Branches)
+	}
 }
 
 func fmtID(i int) string { return fmt.Sprintf("book-%04d", i) }
@@ -137,48 +140,44 @@ func TestBranchLessPrioritizesVNThenAlphabetical(t *testing.T) {
 	}
 }
 
-func TestBranchCatalogMetaIncludesStaticFormatStats(t *testing.T) {
+func TestBranchCatalogMetaPrecomputesBookAndFontStats(t *testing.T) {
 	branch := Branch{
 		Config: BranchConfig{ID: "stats", DisplayName: "Stats", RootFolderID: "root"},
 		Files: []FileEntry{
-			{ID: "a", ParentID: "root", Name: "one.epub"},
-			{ID: "b", ParentID: "root", Name: "two.EPUB"},
-			{ID: "c", ParentID: "root", Name: "scan.pdf"},
-			{ID: "d", ParentID: "root", Name: "font.ttf"},
-			{ID: "e", ParentID: "root", Name: "font.otf"},
-			{ID: "f", ParentID: "root", Name: "notes.txt"},
-			{ID: "g", ParentID: "root", Name: "ignored.exe"},
-			{ID: "folder", ParentID: "root", Name: "Folder", IsFolder: true},
+			{ID: "1", ParentID: "root", Name: "a.epub"},
+			{ID: "2", ParentID: "root", Name: "b.PDF"},
+			{ID: "3", ParentID: "root", Name: "c.rar"},
+			{ID: "4", ParentID: "root", Name: "d.ttf"},
+			{ID: "5", ParentID: "root", Name: "e.otf"},
+			{ID: "6", ParentID: "root", Name: "f.cpfont"},
+			{ID: "7", ParentID: "root", Name: "folder", IsFolder: true},
+			{ID: "8", ParentID: "root", Name: "ignored.xyz"},
 		},
 	}
 	meta := branchCatalogMeta(branch)
-	encoded, err := json.Marshal(meta)
-	if err != nil {
+	if meta.BookCount != 3 || meta.FontCount != 3 {
+		t.Fatalf("counts = books:%d fonts:%d, want books:3 fonts:3", meta.BookCount, meta.FontCount)
+	}
+	if meta.FormatCounts["EPUB"] != 1 || meta.FormatCounts["PDF"] != 1 || meta.FormatCounts["RAR"] != 1 {
+		t.Fatalf("unexpected format counts: %#v", meta.FormatCounts)
+	}
+	if _, ok := meta.FormatCounts["XYZ"]; ok {
+		t.Fatalf("unsupported format unexpectedly counted: %#v", meta.FormatCounts)
+	}
+}
+
+func TestHasV2CatalogRequiresStaticStats(t *testing.T) {
+	path := filepath.Join(t.TempDir(), "catalog.json")
+	if err := os.WriteFile(path, []byte(`{"version":2,"branches":[{"id":"A"}]}`), 0644); err != nil {
 		t.Fatal(err)
 	}
-	var jsonMeta map[string]any
-	if err := json.Unmarshal(encoded, &jsonMeta); err != nil {
+	if hasV2Catalog(path) {
+		t.Fatal("legacy catalog without static stats must require full build")
+	}
+	if err := os.WriteFile(path, []byte(`{"version":2,"branches":[{"id":"A","book_count":0,"font_count":0,"format_counts":{}}]}`), 0644); err != nil {
 		t.Fatal(err)
 	}
-	if jsonMeta["book_count"] != float64(4) || jsonMeta["font_count"] != float64(2) {
-		t.Fatalf("catalog JSON is missing static inventory counts: %s", encoded)
-	}
-	if _, ok := jsonMeta["format_counts"].(map[string]any); !ok {
-		t.Fatalf("catalog JSON is missing format_counts: %s", encoded)
-	}
-	if meta.BookCount != 4 {
-		t.Fatalf("book_count = %d, want 4", meta.BookCount)
-	}
-	if meta.FontCount != 2 {
-		t.Fatalf("font_count = %d, want 2", meta.FontCount)
-	}
-	want := map[string]int{"EPUB": 2, "PDF": 1, "TXT": 1}
-	if len(meta.FormatCounts) != len(want) {
-		t.Fatalf("format_counts = %#v, want %#v", meta.FormatCounts, want)
-	}
-	for format, count := range want {
-		if meta.FormatCounts[format] != count {
-			t.Errorf("format_counts[%s] = %d, want %d", format, meta.FormatCounts[format], count)
-		}
+	if !hasV2Catalog(path) {
+		t.Fatal("catalog with static stats should allow incremental build")
 	}
 }
