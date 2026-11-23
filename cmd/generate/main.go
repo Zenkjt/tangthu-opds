@@ -168,9 +168,7 @@ func loadShelfSnapshot(ctx context.Context, client *r2SnapshotClient, bc BranchC
 		bc.ID, manifest.Version, manifest.Storage, manifest.BranchID, manifest.GenerationID,
 		len(manifest.Pages), manifest.ItemCount, manifest.Complete)
 
-	if manifest.Version != 2 || manifest.Storage != "r2" ||
-		manifest.BranchID != bc.ID || manifest.GenerationID == "" ||
-		manifest.PageCount != len(manifest.Pages) || manifest.ItemCount < 0 {
+	if !validSnapshotManifest(manifest, bc.ID) {
 		return nil, "", fmt.Errorf("invalid or incomplete R2 snapshot manifest for shelf %s", bc.ID)
 	}
 
@@ -203,6 +201,12 @@ func loadShelfSnapshot(ctx context.Context, client *r2SnapshotClient, bc BranchC
 	log.Printf("SNAPSHOT R2 shelf=%s loaded: entries=%d generation=%s complete=%t",
 		bc.ID, len(converted), manifest.GenerationID, manifest.Complete)
 	return converted, manifest.FolderName, nil
+}
+
+func validSnapshotManifest(manifest SnapshotManifest, branchID string) bool {
+	return manifest.Version == 2 && manifest.Storage == "r2" && manifest.Complete &&
+		manifest.BranchID == branchID && manifest.GenerationID != "" &&
+		manifest.PageCount == len(manifest.Pages) && manifest.ItemCount >= 0
 }
 
 func isSupportedBookName(name string, size int64) bool {
@@ -243,7 +247,7 @@ func main() {
 
 	ctx := context.Background()
 	selected := selectedShelves(os.Getenv("TANGTHU_SHELVES"))
-	incremental := len(selected) > 0 && hasV2Catalog(filepath.Join(outDir, "catalog.json"))
+	incremental := len(selected) > 0 && hasStaticCatalogStats(filepath.Join(outDir, "catalog.json"))
 	selectedSet := make(map[string]bool, len(selected))
 	for _, id := range selected {
 		selectedSet[id] = true
@@ -382,15 +386,17 @@ func selectedShelves(raw string) []string {
 	return ids
 }
 
-func hasV2Catalog(path string) bool {
-	data, err := os.ReadFile(path)
-	if err != nil {
+func hasStaticCatalogStats(path string) bool {
+	manifest, err := readCatalogManifest(path)
+	if err != nil || manifest.Version != 2 || len(manifest.Branches) == 0 {
 		return false
 	}
-	var header struct {
-		Version int `json:"version"`
+	for _, branch := range manifest.Branches {
+		if branch.FormatCounts == nil || branch.BookCount < 0 || branch.FontCount < 0 {
+			return false
+		}
 	}
-	return json.Unmarshal(data, &header) == nil && header.Version == 2
+	return true
 }
 
 type catalogFile struct {
@@ -412,16 +418,19 @@ type catalogDirectory struct {
 }
 
 type catalogBranch struct {
-	ID             string `json:"id"`
-	Name           string `json:"name"`
-	RootFolderID   string `json:"root_folder_id"`
-	DriveName      string `json:"drive_name"`
-	ShelfNo        int    `json:"shelf_no,omitempty"`
-	Status         string `json:"status,omitempty"`
-	RootShard      string `json:"root_shard"`
-	FileCount      int    `json:"file_count"`
-	DirectoryCount int    `json:"directory_count"`
-	Revision       string `json:"revision"`
+	ID             string         `json:"id"`
+	Name           string         `json:"name"`
+	RootFolderID   string         `json:"root_folder_id"`
+	DriveName      string         `json:"drive_name"`
+	ShelfNo        int            `json:"shelf_no,omitempty"`
+	Status         string         `json:"status,omitempty"`
+	RootShard      string         `json:"root_shard"`
+	FileCount      int            `json:"file_count"`
+	DirectoryCount int            `json:"directory_count"`
+	BookCount      int            `json:"book_count"`
+	FontCount      int            `json:"font_count"`
+	FormatCounts   map[string]int `json:"format_counts"`
+	Revision       string         `json:"revision"`
 }
 
 type catalogManifest struct {
@@ -455,8 +464,55 @@ func branchCatalogMeta(br Branch) catalogBranch {
 		ID: br.Config.ID, Name: br.Config.DisplayName, RootFolderID: br.Config.RootFolderID,
 		DriveName: br.DriveFolderName, ShelfNo: br.Config.ShelfNo, Status: "active",
 		RootShard: "catalog/" + safe(br.Config.ID) + "/root.json",
-		FileCount: len(br.Files), DirectoryCount: countFolders(br.Files), Revision: branchRevision(br),
+		FileCount: len(br.Files), DirectoryCount: countFolders(br.Files),
+		BookCount: countBooks(br.Files), FontCount: countFonts(br.Files),
+		FormatCounts: countBookFormats(br.Files), Revision: branchRevision(br),
 	}
+}
+
+var supportedBookFormats = []string{"EPUB", "MOBI", "AZW3", "CBZ", "LIT", "CHM", "PRC", "PDF", "ZIP", "RAR", "DOC", "DOCX", "TXT", "MD"}
+
+func fileExtension(name string) string {
+	return strings.TrimPrefix(strings.ToUpper(filepath.Ext(name)), ".")
+}
+
+func countBookFormats(files []FileEntry) map[string]int {
+	counts := make(map[string]int)
+	for _, file := range files {
+		if file.IsFolder {
+			continue
+		}
+		ext := fileExtension(file.Name)
+		for _, supported := range supportedBookFormats {
+			if ext == supported {
+				counts[ext]++
+				break
+			}
+		}
+	}
+	return counts
+}
+
+func countBooks(files []FileEntry) int {
+	total := 0
+	for _, count := range countBookFormats(files) {
+		total += count
+	}
+	return total
+}
+
+func countFonts(files []FileEntry) int {
+	total := 0
+	for _, file := range files {
+		if file.IsFolder {
+			continue
+		}
+		switch fileExtension(file.Name) {
+		case "CPFONT", "TTF", "OTF":
+			total++
+		}
+	}
+	return total
 }
 
 func countFolders(files []FileEntry) int {

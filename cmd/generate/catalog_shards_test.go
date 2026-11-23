@@ -136,3 +136,77 @@ func TestBranchLessPrioritizesVNThenAlphabetical(t *testing.T) {
 		}
 	}
 }
+
+
+func TestCatalogStatsExcludeFoldersAndSeparateFonts(t *testing.T) {
+	files := []FileEntry{
+		{ID: "folder", Name: "Books", IsFolder: true},
+		{ID: "e1", Name: "Novel.EPUB"},
+		{ID: "e2", Name: "scan.PDF"},
+		{ID: "e3", Name: "archive.zip"},
+		{ID: "f1", Name: "Reader.CPFONT"},
+		{ID: "f2", Name: "typeface.TTF"},
+		{ID: "f3", Name: "OpenType.OTF"},
+		{ID: "x1", Name: "notes.exe"},
+		{ID: "x2", Name: "no-extension"},
+	}
+	if got := countBooks(files); got != 3 {
+		t.Fatalf("book count = %d, want 3", got)
+	}
+	if got := countFonts(files); got != 3 {
+		t.Fatalf("font count = %d, want 3", got)
+	}
+	got := countBookFormats(files)
+	if got["EPUB"] != 1 || got["PDF"] != 1 || got["ZIP"] != 1 || len(got) != 3 {
+		t.Fatalf("format counts = %#v", got)
+	}
+}
+
+func TestIncrementalMergePreservesStaticStatsOfOtherShelves(t *testing.T) {
+	out := t.TempDir()
+	first := Branch{Config: BranchConfig{ID: "A", DisplayName: "A", RootFolderID: "root-A"}, Files: []FileEntry{{ID: "a1", ParentID: "root-A", Name: "A.epub"}}}
+	second := Branch{Config: BranchConfig{ID: "B", DisplayName: "B", RootFolderID: "root-B"}, Files: []FileEntry{
+		{ID: "b1", ParentID: "root-B", Name: "B.pdf"},
+		{ID: "b2", ParentID: "root-B", Name: "Font.ttf"},
+	}}
+	if err := writeCatalogShards(out, []Branch{first, second}); err != nil {
+		t.Fatal(err)
+	}
+	if err := writeCatalogManifest(out, []Branch{first, second}); err != nil {
+		t.Fatal(err)
+	}
+	updated := Branch{Config: BranchConfig{ID: "A", DisplayName: "A", RootFolderID: "root-A"}, Files: []FileEntry{
+		{ID: "a2", ParentID: "root-A", Name: "A2.epub"},
+		{ID: "a3", ParentID: "root-A", Name: "A3.mobi"},
+	}}
+	if err := mergeCatalogShards(out, []Branch{updated}); err != nil {
+		t.Fatal(err)
+	}
+	manifest, err := readCatalogManifest(filepath.Join(out, "catalog.json"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if manifest.Branches[0].BookCount != 2 || manifest.Branches[0].FormatCounts["MOBI"] != 1 {
+		t.Fatalf("updated shelf stats = %#v", manifest.Branches[0])
+	}
+	if manifest.Branches[1].BookCount != 1 || manifest.Branches[1].FontCount != 1 || manifest.Branches[1].FormatCounts["PDF"] != 1 {
+		t.Fatalf("untouched shelf stats were not preserved: %#v", manifest.Branches[1])
+	}
+}
+
+func TestSnapshotManifestRequiresCompleteGeneration(t *testing.T) {
+	manifest := SnapshotManifest{
+		Version: 2, Storage: "r2", BranchID: "A", GenerationID: "g1",
+		Complete: false, PageCount: 0, Pages: []string{}, ItemCount: 0,
+	}
+	if validSnapshotManifest(manifest, "A") {
+		t.Fatal("incomplete generation must be rejected")
+	}
+	manifest.Complete = true
+	if !validSnapshotManifest(manifest, "A") {
+		t.Fatal("complete generation should be accepted")
+	}
+	if validSnapshotManifest(manifest, "B") {
+		t.Fatal("manifest for another shelf must be rejected")
+	}
+}

@@ -77,19 +77,11 @@ renderer = r'''  var shelfResizeObserver=null;
     $('itemCount').textContent=bs.length+' tủ';
     if(!bs.length){body.innerHTML='<div class="empty">Chưa có tủ sách.</div>';return}
 
-    // File shards are loaded asynchronously. Wait for every shelf before
-    // calculating per-shelf inventory, otherwise the bookcase renders empty stats.
-    var renderToken=++state.renderToken;
-    body.innerHTML='<div class="empty">Đang tải thống kê từng tủ sách…</div>';
-    Promise.all(bs.map(function(shelf){return loadAllFiles(shelf).then(function(){return {shelf:shelf,ok:true}},function(error){return {shelf:shelf,ok:false,error:error}})})).then(function(results){
-      if(renderToken!==state.renderToken)return;
-      renderShelfStatsLoaded(bs,body,results);
-    });
+    renderShelfStatsLoaded(bs,body);
     return;
   }
 
-  function renderShelfStatsLoaded(bs,body,results){
-    var shelfLoadStatus=Object.create(null);(results||[]).forEach(function(result){shelfLoadStatus[result.shelf.id]=result;});
+  function renderShelfStatsLoaded(bs,body){
     if(shelfResizeObserver){shelfResizeObserver.disconnect();shelfResizeObserver=null;}
     var main=document.querySelector('.main');
     if(main)main.classList.add('shelf-only');
@@ -98,28 +90,14 @@ renderer = r'''  var shelfResizeObserver=null;
     view.className='shelf-view';
     var iconNames=['book-blue.png','book-brown.png','book-green.png','book-purple.png','book-red.png','book-teal.png'];
 
-    function shelfFiles(shelf){return filesOf(shelf).filter(function(f){return !f.folder;});}
-    function extension(name){var p=String(name||'').lastIndexOf('.');return p<0?'':String(name).slice(p+1).toUpperCase();}
     function statsLines(shelf){
-      var files=shelfFiles(shelf), bookCount=0, fontCount=0, counts={};
+      var counts=shelf.format_counts||{};
+      var bookCount=Number(shelf.book_count)||0;
+      var fontCount=Number(shelf.font_count)||0;
       var bookFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP','RAR','DOC','DOCX','TXT','MD'];
-      files.forEach(function(f){
-        var e=extension(f.name);
-        if(e==='CPFONT'||e==='TTF'||e==='OTF'){
-          fontCount++;
-          return;
-        }
-        if(bookFormats.indexOf(e)>=0){
-          bookCount++;
-          counts[e]=(counts[e]||0)+1;
-        }
-      });
       var lines=[];
       if(bookCount>0)lines.push(bookCount+' sách');
-      bookFormats.forEach(function(format){
-        var count=counts[format]||0;
-        if(count>0)lines.push(format+' '+count);
-      });
+      bookFormats.forEach(function(format){var count=Number(counts[format])||0;if(count>0)lines.push(format+' '+count);});
       if(fontCount>0)lines.push(fontCount+' font');
       return lines;
     }
@@ -146,8 +124,7 @@ renderer = r'''  var shelfResizeObserver=null;
         item.type='button';
         item.className='shelf-book';
         item.title=shelf.display_name||shelf.name||'';
-        var loadStatus=shelfLoadStatus[shelf.id];
-        item.setAttribute('aria-label',(shelf.display_name||shelf.name||'')+' — '+(loadStatus&&loadStatus.ok?stats(shelf):'Không tải được thống kê'));
+        item.setAttribute('aria-label',(shelf.display_name||shelf.name||'')+' — '+stats(shelf));
 
         var cover=document.createElement('div');
         cover.className='shelf-book-cover';
@@ -166,13 +143,11 @@ renderer = r'''  var shelfResizeObserver=null;
 
         var meta=document.createElement('div');
         meta.className='shelf-book-stats';
-        if(loadStatus&&loadStatus.ok){
-          statsLines(shelf).forEach(function(line){var lineEl=document.createElement('span');lineEl.textContent=line;meta.appendChild(lineEl)});
-        }else{var failedLine=document.createElement('span');failedLine.textContent='Không tải được thống kê';meta.appendChild(failedLine)}
+        statsLines(shelf).forEach(function(line){var lineEl=document.createElement('span');lineEl.textContent=line;meta.appendChild(lineEl)});
 
         item.appendChild(cover);
         item.appendChild(meta);
-        item.onclick=(function(s){return function(){openShelf(s);};})(shelf);
+        item.onclick=(function(sh){return function(){openShelf(sh);};})(shelf);
         books.appendChild(item);
     });
 
@@ -212,6 +187,7 @@ renderer = r'''  var shelfResizeObserver=null;
     }
   }
 
+
 '''
 text = text[:start] + renderer + text[end:]
 
@@ -248,13 +224,9 @@ text = text.replace(old_views, new_views, 1)
 # Add a global count to the bottom status bar. Keep the exact same file
 # extensions used by renderShelfStats(): 14 book formats plus 3 font formats.
 old_status = "$('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách.'"
-new_status = """$('statusLeft').textContent='Đang tải dữ liệu ấn phẩm…';
-    var countedFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP','RAR','DOC','DOCX','TXT','MD'];
-    Promise.all(bs.map(function(shelf){return loadAllFiles(shelf).then(function(){return {shelf:shelf,ok:true}},function(error){return {shelf:shelf,ok:false,error:error}})})).then(function(results){
-      var totalItems=0,failed=0;
-      results.forEach(function(result){if(!result.ok){failed++;return;}filesOf(result.shelf).forEach(function(file){if(!file||file.folder)return;var dot=String(file.name||'').lastIndexOf('.');var ext=dot<0?'':String(file.name).slice(dot+1).toUpperCase();if(countedFormats.indexOf(ext)>=0)totalItems++})});
-      var message='Sẵn sàng. '+bs.length+' tủ sách · '+totalItems.toLocaleString('vi-VN')+' ấn phẩm.';if(failed)message+=' Thiếu thống kê '+failed+' tủ.';$('statusLeft').textContent=message;
-    });"""
+new_status = """var totalItems=bs.reduce(function(total,shelf){return total+(Number(shelf.book_count)||0)},0);
+    var totalFonts=bs.reduce(function(total,shelf){return total+(Number(shelf.font_count)||0)},0);
+    $('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách · '+totalItems.toLocaleString('vi-VN')+' sách · '+totalFonts.toLocaleString('vi-VN')+' font.';"""
 if text.count(old_status) != 1:
     raise SystemExit("Global inventory count patch anchor missing or ambiguous: statusLeft")
 text = text.replace(old_status, new_status, 1)
