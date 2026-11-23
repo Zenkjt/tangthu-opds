@@ -1,9 +1,27 @@
 #!/usr/bin/env python3
 from pathlib import Path
-import re
 
 INDEX = Path("docs/index.html")
 text = INDEX.read_text(encoding="utf-8")
+
+
+# Deduplicate in-flight shard requests and cap network concurrency.
+old_fetch = "  function fetchJSON(path,revision){var url=path+(path.indexOf('?')>=0?'&':'?')+'v='+encodeURIComponent(revision||'');return fetch(url,{cache:'force-cache'}).then(function(r){if(!r.ok)throw new Error(path+' HTTP '+r.status);return r.json()})}"
+new_fetch = """  var fetchQueue=[],fetchActive=0,fetchInflight=Object.create(null),fetchLimit=6;
+  function pumpFetchQueue(){while(fetchActive<fetchLimit&&fetchQueue.length){(function(job){fetchActive++;fetch(job.url,{cache:'force-cache'}).then(function(r){if(!r.ok)throw new Error(job.path+' HTTP '+r.status);return r.json()}).then(job.resolve,job.reject).then(function(){fetchActive--;delete fetchInflight[job.url];pumpFetchQueue()})})(fetchQueue.shift())}}
+  function fetchJSON(path,revision){var url=path+(path.indexOf('?')>=0?'&':'?')+'v='+encodeURIComponent(revision||'');if(fetchInflight[url])return fetchInflight[url];var promise=new Promise(function(resolve,reject){fetchQueue.push({url:url,path:path,resolve:resolve,reject:reject});pumpFetchQueue()});fetchInflight[url]=promise;promise.catch(function(){if(fetchInflight[url]===promise)delete fetchInflight[url]});return promise}"""
+if text.count(old_fetch)!=1: raise SystemExit('Bookshelf patch anchor missing or ambiguous: fetchJSON')
+text=text.replace(old_fetch,new_fetch,1)
+
+old_directory = "  function loadDirectory(b,parent){return loadRootShard(b).then(function(c){if(c.dirs[parent])return c.dirs[parent];var paths=parent===b.root_folder_id?c.rootShards:(directoryMeta(b,parent)||{}).shards;if(!paths)throw new Error('Không tìm thấy shard thư mục '+parent);if(!paths.length){c.dirs[parent]=[];return c.dirs[parent]}return Promise.all(paths.map(function(path){return fetchJSON(path,b.revision)})).then(function(pages){var items=[];pages.forEach(function(data){if(data.branch_id!==b.id||data.folder_id!==parent)throw new Error('Directory shard không khớp');items=items.concat(data.items||[])});c.dirs[parent]=items;return items})})}"
+new_directory = """  function loadDirectory(b,parent){var c=cacheFor(b);if(c.dirs[parent])return Promise.resolve(c.dirs[parent]);if(!c.dirPromises)c.dirPromises=Object.create(null);if(c.dirPromises[parent])return c.dirPromises[parent];var task=loadRootShard(b).then(function(){if(c.dirs[parent])return c.dirs[parent];var paths=parent===b.root_folder_id?c.rootShards:(directoryMeta(b,parent)||{}).shards;if(!paths)throw new Error('Không tìm thấy shard thư mục '+parent);if(!paths.length){c.dirs[parent]=[];return c.dirs[parent]}return Promise.all(paths.map(function(path){return fetchJSON(path,b.revision)})).then(function(pages){var items=[];pages.forEach(function(data){if(data.branch_id!==b.id||data.folder_id!==parent)throw new Error('Directory shard không khớp');items=items.concat(data.items||[])});c.dirs[parent]=items;return items})});c.dirPromises[parent]=task;task.catch(function(){if(c.dirPromises[parent]===task)delete c.dirPromises[parent]});return task}"""
+if text.count(old_directory)!=1: raise SystemExit('Bookshelf patch anchor missing or ambiguous: loadDirectory')
+text=text.replace(old_directory,new_directory,1)
+
+old_all = "  function loadAllFiles(b){return loadRootShard(b).then(function(c){var tasks=[loadDirectory(b,b.root_folder_id)];(c.directories||[]).forEach(function(d){tasks.push(loadDirectory(b,d.id))});return Promise.all(tasks).then(function(){return filesOf(b)})})}"
+new_all = """  function loadAllFiles(b){var c=cacheFor(b);if(c.allFilesPromise)return c.allFilesPromise;var task=loadRootShard(b).then(function(){var tasks=[loadDirectory(b,b.root_folder_id)];(c.directories||[]).forEach(function(d){tasks.push(loadDirectory(b,d.id))});return Promise.all(tasks).then(function(){return filesOf(b)})});c.allFilesPromise=task;task.catch(function(){if(c.allFilesPromise===task)c.allFilesPromise=null});return task}"""
+if text.count(old_all)!=1: raise SystemExit('Bookshelf patch anchor missing or ambiguous: loadAllFiles')
+text=text.replace(old_all,new_all,1)
 
 css_marker = "/* TANGTHU_BOOKSHELF_V10 */"
 css = r'''
@@ -63,17 +81,15 @@ renderer = r'''  var shelfResizeObserver=null;
     // calculating per-shelf inventory, otherwise the bookcase renders empty stats.
     var renderToken=++state.renderToken;
     body.innerHTML='<div class="empty">Đang tải thống kê từng tủ sách…</div>';
-    Promise.all(bs.map(function(shelf){return loadAllFiles(shelf)})).then(function(){
+    Promise.all(bs.map(function(shelf){return loadAllFiles(shelf).then(function(){return {shelf:shelf,ok:true}},function(error){return {shelf:shelf,ok:false,error:error}})})).then(function(results){
       if(renderToken!==state.renderToken)return;
-      renderShelfStatsLoaded(bs,body);
-    }).catch(function(error){
-      if(renderToken!==state.renderToken)return;
-      body.innerHTML='<div class="empty">Không tải được thống kê các tủ sách: '+esc(String(error&&error.message||error))+'</div>';
+      renderShelfStatsLoaded(bs,body,results);
     });
     return;
   }
 
-  function renderShelfStatsLoaded(bs,body){
+  function renderShelfStatsLoaded(bs,body,results){
+    var shelfLoadStatus=Object.create(null);(results||[]).forEach(function(result){shelfLoadStatus[result.shelf.id]=result;});
     if(shelfResizeObserver){shelfResizeObserver.disconnect();shelfResizeObserver=null;}
     var main=document.querySelector('.main');
     if(main)main.classList.add('shelf-only');
@@ -130,7 +146,8 @@ renderer = r'''  var shelfResizeObserver=null;
         item.type='button';
         item.className='shelf-book';
         item.title=shelf.display_name||shelf.name||'';
-        item.setAttribute('aria-label',(shelf.display_name||shelf.name||'')+' — '+stats(shelf));
+        var loadStatus=shelfLoadStatus[shelf.id];
+        item.setAttribute('aria-label',(shelf.display_name||shelf.name||'')+' — '+(loadStatus&&loadStatus.ok?stats(shelf):'Không tải được thống kê'));
 
         var cover=document.createElement('div');
         cover.className='shelf-book-cover';
@@ -149,11 +166,9 @@ renderer = r'''  var shelfResizeObserver=null;
 
         var meta=document.createElement('div');
         meta.className='shelf-book-stats';
-        statsLines(shelf).forEach(function(line){
-          var lineEl=document.createElement('span');
-          lineEl.textContent=line;
-          meta.appendChild(lineEl);
-        });
+        if(loadStatus&&loadStatus.ok){
+          statsLines(shelf).forEach(function(line){var lineEl=document.createElement('span');lineEl.textContent=line;meta.appendChild(lineEl)});
+        }else{var failedLine=document.createElement('span');failedLine.textContent='Không tải được thống kê';meta.appendChild(failedLine)}
 
         item.appendChild(cover);
         item.appendChild(meta);
@@ -200,23 +215,11 @@ renderer = r'''  var shelfResizeObserver=null;
 '''
 text = text[:start] + renderer + text[end:]
 
-# The generator's state object may gain cache/runtime fields over time.
-# Match the view property inside the state initializer instead of requiring
-# the entire object to remain byte-for-byte identical.
-state_match = re.search(r"\bvar\s+state\s*=\s*\{.*?\};", text, re.S)
-if not state_match:
+old_state = "var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:'',fileCache:{},renderToken:0};"
+new_state = "var state={catalog:null,branch:null,parent:null,view:'shelves',selected:null,search:'',fileCache:{},renderToken:0};"
+if old_state not in text:
     raise SystemExit("Bookshelf patch anchor missing: state initializer")
-
-state_text = state_match.group(0)
-state_text_new, state_view_count = re.subn(
-    r"(\bview\s*:\s*['\"])[^'\"]*(['\"])",
-    r"\1shelves\2",
-    state_text,
-    count=1,
-)
-if state_view_count != 1:
-    raise SystemExit("Bookshelf patch anchor missing: state.view")
-text = text[:state_match.start()] + state_text_new + text[state_match.end():]
+text = text.replace(old_state, new_state, 1)
 
 old_render = "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}"
 new_render = "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}if(shelfResizeObserver){shelfResizeObserver.disconnect();shelfResizeObserver=null;}var main=document.querySelector('.main');if(main)main.classList.remove('shelf-only');"
@@ -247,19 +250,10 @@ text = text.replace(old_views, new_views, 1)
 old_status = "$('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách.'"
 new_status = """$('statusLeft').textContent='Đang tải dữ liệu ấn phẩm…';
     var countedFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP','RAR','DOC','DOCX','TXT','MD'];
-    Promise.all(bs.map(function(shelf){return loadAllFiles(shelf)})).then(function(){
-      var totalItems=0;
-      bs.forEach(function(shelf){
-        filesOf(shelf).forEach(function(file){
-          if(!file||file.folder)return;
-          var dot=String(file.name||'').lastIndexOf('.');
-          var ext=dot<0?'':String(file.name).slice(dot+1).toUpperCase();
-          if(countedFormats.indexOf(ext)>=0)totalItems++;
-        });
-      });
-      $('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách · '+totalItems.toLocaleString('vi-VN')+' ấn phẩm.';
-    }).catch(function(error){
-      $('statusLeft').textContent='Không tải được thống kê ấn phẩm: '+String(error&&error.message||error);
+    Promise.all(bs.map(function(shelf){return loadAllFiles(shelf).then(function(){return {shelf:shelf,ok:true}},function(error){return {shelf:shelf,ok:false,error:error}})})).then(function(results){
+      var totalItems=0,failed=0;
+      results.forEach(function(result){if(!result.ok){failed++;return;}filesOf(result.shelf).forEach(function(file){if(!file||file.folder)return;var dot=String(file.name||'').lastIndexOf('.');var ext=dot<0?'':String(file.name).slice(dot+1).toUpperCase();if(countedFormats.indexOf(ext)>=0)totalItems++})});
+      var message='Sẵn sàng. '+bs.length+' tủ sách · '+totalItems.toLocaleString('vi-VN')+' ấn phẩm.';if(failed)message+=' Thiếu thống kê '+failed+' tủ.';$('statusLeft').textContent=message;
     });"""
 if text.count(old_status) != 1:
     raise SystemExit("Global inventory count patch anchor missing or ambiguous: statusLeft")
