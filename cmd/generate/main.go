@@ -97,29 +97,60 @@ func newR2SnapshotClient() (*r2SnapshotClient, error) {
 }
 
 func (c *r2SnapshotClient) getJSON(ctx context.Context, key string, dst any) error {
+	const maxAttempts = 5 // initial request + up to four retries
 	parts := strings.Split(key, "/")
 	for i := range parts {
 		parts[i] = url.PathEscape(parts[i])
 	}
 	endpoint := c.baseURL + "/v1/objects/" + strings.Join(parts, "/")
-	req, err := http.NewRequestWithContext(ctx, http.MethodGet, endpoint, nil)
-	if err != nil {
-		return err
+
+	var lastErr error
+	for attempt := 1; attempt <= maxAttempts; attempt++ {
+		req, err := http.NewRequestWithContext(ctx, http.MethodGet, endpoint, nil)
+		if err != nil {
+			return err
+		}
+		req.Header.Set("Authorization", "Bearer "+c.token)
+
+		resp, err := c.http.Do(req)
+		if err != nil {
+			if ctx.Err() != nil {
+				return fmt.Errorf("GET R2 object %q canceled: %w", key, ctx.Err())
+			}
+			lastErr = fmt.Errorf("GET R2 object %q: %w", key, err)
+		} else {
+			if resp.StatusCode == http.StatusOK {
+				decodeErr := json.NewDecoder(resp.Body).Decode(dst)
+				resp.Body.Close()
+				if decodeErr != nil {
+					return fmt.Errorf("decode R2 object %q: %w", key, decodeErr)
+				}
+				return nil
+			}
+
+			body, _ := io.ReadAll(io.LimitReader(resp.Body, 4096))
+			status := resp.StatusCode
+			resp.Body.Close()
+			lastErr = fmt.Errorf("GET R2 object %q: HTTP %d: %s", key, status, strings.TrimSpace(string(body)))
+			if status != http.StatusRequestTimeout && status != http.StatusTooManyRequests && (status < 500 || status > 599) {
+				return lastErr
+			}
+		}
+
+		if attempt == maxAttempts {
+			break
+		}
+		delay := time.Second << (attempt - 1) // 1s, 2s, 4s, 8s
+		log.Printf("R2 GET retry object=%q attempt=%d/%d wait=%s error=%v", key, attempt+1, maxAttempts, delay, lastErr)
+		timer := time.NewTimer(delay)
+		select {
+		case <-ctx.Done():
+			timer.Stop()
+			return fmt.Errorf("GET R2 object %q canceled while retrying: %w", key, ctx.Err())
+		case <-timer.C:
+		}
 	}
-	req.Header.Set("Authorization", "Bearer "+c.token)
-	resp, err := c.http.Do(req)
-	if err != nil {
-		return fmt.Errorf("GET R2 object %q: %w", key, err)
-	}
-	defer resp.Body.Close()
-	if resp.StatusCode != http.StatusOK {
-		body, _ := io.ReadAll(io.LimitReader(resp.Body, 4096))
-		return fmt.Errorf("GET R2 object %q: HTTP %d: %s", key, resp.StatusCode, strings.TrimSpace(string(body)))
-	}
-	if err := json.NewDecoder(resp.Body).Decode(dst); err != nil {
-		return fmt.Errorf("decode R2 object %q: %w", key, err)
-	}
-	return nil
+	return fmt.Errorf("GET R2 object %q failed after %d attempts: %w", key, maxAttempts, lastErr)
 }
 
 func (c *r2SnapshotClient) putJSON(ctx context.Context, key string, value any) error {
