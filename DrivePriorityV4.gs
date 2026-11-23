@@ -271,12 +271,12 @@ function driveCheckPriority() {
       // The shelf budget is local to this shelf. Checkpoint and move the cursor;
       // do NOT return from the execution. This is the key V4 behavior.
       if (!result.completed) {
-        // The active R2 manifest still points to the last complete generation.
-        // A partial generation is private staging data and must not trigger a build.
-        priorityLog_('PARTIAL SNAPSHOT STAGED ' + String(branch.display_name || id) +
-          ' | active_snapshot_preserved=' + !!e.snapshot_available +
-          ' | staged_items=' + Number(e.snapshot_item_count || 0) +
-          ' | staged_pages=' + (e.r2_snapshot_page_keys || []).length);
+        // Publish the current generation as a usable progressive snapshot.
+        // The generator accepts complete=false and builds the data collected so far.
+        if (e.snapshot_available && changed.indexOf(id) < 0) changed.push(id);
+        priorityLog_('PARTIAL SNAPSHOT READY ' + String(branch.display_name || id) +
+          ' | items=' + Number(e.snapshot_item_count || 0) +
+          ' | pages=' + (e.r2_snapshot_page_keys || []).length);
         state.cursor = (cursor + 1) % enabled.length;
         savePriorityState_(state);
         priorityLog_(
@@ -443,7 +443,8 @@ function reloadShelf(e) {
   if (!result.completed) {
     state.branches[id] = entry;
     savePriorityState_(state);
-    return {ok:true, queued:true, branch_id:id, display_name:branch.display_name, message:'Tủ lớn; generation mới đang được dựng ở chế độ staging. Bản snapshot đang hoạt động vẫn được giữ nguyên cho đến khi quét hoàn tất.'};
+    if (entry.snapshot_available) dispatchPriorityBuild_([id]);
+    return {ok:true, queued:true, branch_id:id, display_name:branch.display_name, message:'Tủ lớn; snapshot từng phần đã được publish nếu có dữ liệu. Hệ thống sẽ tiếp tục quét và cập nhật catalog ở các lượt sau.'};
   }
 
   var oldFingerprint = entry.fingerprint || '';
@@ -1236,8 +1237,10 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
       entry.full_scan_folder_id = currentFolderId;
       entry.full_scan_page_token = currentPageToken;
       entry.full_rows = null;
-      // Keep the current manifest untouched while the new generation is staged.
-      // Only the completed generation may replace the active manifest.
+      // Publish all pages collected so far. Later DriveCheck runs resume this
+      // generation and replace the partial manifest with a newer checkpoint.
+      r2SnapshotPublishManifest_(branch, entry, false);
+      entry.snapshot_available = true;
       entry.snapshot_complete = false;
       priorityLog_('CHECKPOINT-FULL ' + String(branch.display_name || branch.id) +
         ' | rows=' + rowCount + ' | queue=' + queue.length +
