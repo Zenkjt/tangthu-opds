@@ -137,7 +137,6 @@ func TestBranchLessPrioritizesVNThenAlphabetical(t *testing.T) {
 	}
 }
 
-
 func TestCatalogStatsExcludeFoldersAndSeparateFonts(t *testing.T) {
 	files := []FileEntry{
 		{ID: "folder", Name: "Books", IsFolder: true},
@@ -194,19 +193,23 @@ func TestIncrementalMergePreservesStaticStatsOfOtherShelves(t *testing.T) {
 	}
 }
 
-func TestSnapshotManifestRequiresCompleteGeneration(t *testing.T) {
+func TestSnapshotManifestAcceptsProgressiveGeneration(t *testing.T) {
 	manifest := SnapshotManifest{
 		Version: 2, Storage: "r2", BranchID: "A", GenerationID: "g1",
 		Complete: false, PageCount: 0, Pages: []string{}, ItemCount: 0,
 	}
-	if validSnapshotManifest(manifest, "A") {
-		t.Fatal("incomplete generation must be rejected")
+	if !validSnapshotManifest(manifest, "A") {
+		t.Fatal("partial generation should be accepted")
 	}
 	manifest.Complete = true
 	if !validSnapshotManifest(manifest, "A") {
-		t.Fatal("complete generation should be accepted")
+		t.Fatal("complete generation should also be accepted")
 	}
 	if validSnapshotManifest(manifest, "B") {
 		t.Fatal("manifest for another shelf must be rejected")
+	}
+	manifest.PageCount = 1
+	if validSnapshotManifest(manifest, "A") {
+		t.Fatal("manifest with mismatched page count must be rejected")
 	}
 }

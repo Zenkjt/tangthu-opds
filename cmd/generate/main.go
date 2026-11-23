@@ -204,7 +204,7 @@ func loadShelfSnapshot(ctx context.Context, client *r2SnapshotClient, bc BranchC
 }
 
 func validSnapshotManifest(manifest SnapshotManifest, branchID string) bool {
-	return manifest.Version == 2 && manifest.Storage == "r2" && manifest.Complete &&
+	return manifest.Version == 2 && manifest.Storage == "r2" &&
 		manifest.BranchID == branchID && manifest.GenerationID != "" &&
 		manifest.PageCount == len(manifest.Pages) && manifest.ItemCount >= 0
 }
