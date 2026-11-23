@@ -1,0 +1,230 @@
+#!/usr/bin/env python3
+from pathlib import Path
+
+INDEX = Path("docs/index.html")
+text = INDEX.read_text(encoding="utf-8")
+
+
+# Deduplicate in-flight shard requests and cap network concurrency.
+old_fetch = "  function fetchJSON(path,revision){var url=path+(path.indexOf('?')>=0?'&':'?')+'v='+encodeURIComponent(revision||'');return fetch(url,{cache:'force-cache'}).then(function(r){if(!r.ok)throw new Error(path+' HTTP '+r.status);return r.json()})}"
+new_fetch = """  var fetchQueue=[],fetchActive=0,fetchInflight=Object.create(null),fetchLimit=6;
+  function pumpFetchQueue(){while(fetchActive<fetchLimit&&fetchQueue.length){(function(job){fetchActive++;fetch(job.url,{cache:'force-cache'}).then(function(r){if(!r.ok)throw new Error(job.path+' HTTP '+r.status);return r.json()}).then(job.resolve,job.reject).then(function(){fetchActive--;delete fetchInflight[job.url];pumpFetchQueue()})})(fetchQueue.shift())}}
+  function fetchJSON(path,revision){var url=path+(path.indexOf('?')>=0?'&':'?')+'v='+encodeURIComponent(revision||'');if(fetchInflight[url])return fetchInflight[url];var promise=new Promise(function(resolve,reject){fetchQueue.push({url:url,path:path,resolve:resolve,reject:reject});pumpFetchQueue()});fetchInflight[url]=promise;promise.catch(function(){if(fetchInflight[url]===promise)delete fetchInflight[url]});return promise}"""
+if text.count(old_fetch)!=1: raise SystemExit('Bookshelf patch anchor missing or ambiguous: fetchJSON')
+text=text.replace(old_fetch,new_fetch,1)
+
+old_directory = "  function loadDirectory(b,parent){return loadRootShard(b).then(function(c){if(c.dirs[parent])return c.dirs[parent];var paths=parent===b.root_folder_id?c.rootShards:(directoryMeta(b,parent)||{}).shards;if(!paths)throw new Error('Không tìm thấy shard thư mục '+parent);if(!paths.length){c.dirs[parent]=[];return c.dirs[parent]}return Promise.all(paths.map(function(path){return fetchJSON(path,b.revision)})).then(function(pages){var items=[];pages.forEach(function(data){if(data.branch_id!==b.id||data.folder_id!==parent)throw new Error('Directory shard không khớp');items=items.concat(data.items||[])});c.dirs[parent]=items;return items})})}"
+new_directory = """  function loadDirectory(b,parent){var c=cacheFor(b);if(c.dirs[parent])return Promise.resolve(c.dirs[parent]);if(!c.dirPromises)c.dirPromises=Object.create(null);if(c.dirPromises[parent])return c.dirPromises[parent];var task=loadRootShard(b).then(function(){if(c.dirs[parent])return c.dirs[parent];var paths=parent===b.root_folder_id?c.rootShards:(directoryMeta(b,parent)||{}).shards;if(!paths)throw new Error('Không tìm thấy shard thư mục '+parent);if(!paths.length){c.dirs[parent]=[];return c.dirs[parent]}return Promise.all(paths.map(function(path){return fetchJSON(path,b.revision)})).then(function(pages){var items=[];pages.forEach(function(data){if(data.branch_id!==b.id||data.folder_id!==parent)throw new Error('Directory shard không khớp');items=items.concat(data.items||[])});c.dirs[parent]=items;return items})});c.dirPromises[parent]=task;task.catch(function(){if(c.dirPromises[parent]===task)delete c.dirPromises[parent]});return task}"""
+if text.count(old_directory)!=1: raise SystemExit('Bookshelf patch anchor missing or ambiguous: loadDirectory')
+text=text.replace(old_directory,new_directory,1)
+
+old_all = "  function loadAllFiles(b){return loadRootShard(b).then(function(c){var tasks=[loadDirectory(b,b.root_folder_id)];(c.directories||[]).forEach(function(d){tasks.push(loadDirectory(b,d.id))});return Promise.all(tasks).then(function(){return filesOf(b)})})}"
+new_all = """  function loadAllFiles(b){var c=cacheFor(b);if(c.allFilesPromise)return c.allFilesPromise;var task=loadRootShard(b).then(function(){var tasks=[loadDirectory(b,b.root_folder_id)];(c.directories||[]).forEach(function(d){tasks.push(loadDirectory(b,d.id))});return Promise.all(tasks).then(function(){return filesOf(b)})});c.allFilesPromise=task;task.catch(function(){if(c.allFilesPromise===task)c.allFilesPromise=null});return task}"""
+if text.count(old_all)!=1: raise SystemExit('Bookshelf patch anchor missing or ambiguous: loadAllFiles')
+text=text.replace(old_all,new_all,1)
+
+css_marker = "/* TANGTHU_BOOKSHELF_V10 */"
+css = r'''
+/* TANGTHU_BOOKSHELF_V10 */
+.shelf-view{padding:12px;background:#fff;min-height:100%;overflow:hidden}
+.shelf-row{position:relative;margin:0 0 18px;padding:10px 12px 30px;min-height:196px;background:#c0c0c0;overflow:hidden}
+.shelf-row::after{display:none}
+.shelf-row:last-child{margin-bottom:0}
+.shelf-line{position:absolute;height:12px;background:linear-gradient(to bottom,#a66a1f 0,#d08a28 38%,#8a5416 62%,#5f3a0d 100%);border:2px solid #5b370c;box-sizing:border-box;box-shadow:0 2px 0 #2b1a07,0 -1px 0 #e2a34b;pointer-events:none}
+.shelf-books{display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-end;gap:18px 18px;min-height:166px;width:100%}
+.shelf-book{position:relative;width:220px;min-width:220px;display:grid;grid-template-columns:112px 1fr;grid-template-rows:132px auto;column-gap:10px;align-items:end;justify-content:center;padding:0;cursor:pointer;border:1px dotted transparent;background:transparent;color:#111}
+.shelf-book:hover{background:#f5f5f5;border-color:#777}
+.shelf-book:focus{outline:1px dotted #000;outline-offset:-1px}
+.shelf-book-cover{position:relative;width:108px;height:132px;grid-column:1;grid-row:1;display:flex;align-items:center;justify-content:center}
+.shelf-book img{width:108px;height:132px;object-fit:contain;display:block;image-rendering:auto}
+.shelf-book-name{position:absolute;left:16px;right:16px;top:79px;margin:0;padding:0 7px;text-align:center;font-weight:bold;font-size:13px;line-height:1.12;color:#fff;background:transparent;border:0;box-shadow:none;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;min-height:0;z-index:2;box-sizing:border-box}
+.shelf-book-stats{grid-column:2;grid-row:1;align-self:center;width:100%;margin:0;padding:4px 0;text-align:left;font-size:11px;line-height:1.35;color:#333;white-space:normal;overflow:visible}
+.shelf-book-stats span{display:block}
+.shelf-book::after{content:"";grid-column:1 / -1;grid-row:2;height:6px}
+.main.shelf-only{grid-template-columns:1fr}
+.main.shelf-only #shelfPanel{display:none}
+@media(max-width:1050px){.shelf-books{gap:18px 12px}.shelf-book{width:200px;min-width:200px;grid-template-columns:100px 1fr;column-gap:8px}.shelf-book-cover,.shelf-book img{width:100px;height:124px}.shelf-book-name{left:14px;right:14px;top:74px;font-size:12px;padding:0 6px}.shelf-book-stats{font-size:10px}}
+@media(max-width:760px){.shelf-view{padding:8px}.shelf-row{padding-left:7px;padding-right:7px}.shelf-books{gap:16px 10px}.shelf-book{width:180px;min-width:180px;grid-template-columns:88px 1fr;column-gap:6px}.shelf-book-cover,.shelf-book img{width:82px;height:108px}.shelf-book-name{left:11px;right:11px;top:63px;font-size:11px;padding:0 5px}.shelf-book-stats{font-size:10px}}
+@media(max-width:500px){.shelf-books{gap:12px 8px}.shelf-book{width:165px;min-width:165px;grid-template-columns:78px 1fr}.shelf-book-cover,.shelf-book img{width:78px;height:102px}.shelf-book-name{left:10px;right:10px;top:58px;font-size:10px;padding:0 4px}}
+'''
+
+for marker in ("/* TANGTHU_BOOKSHELF_V10 */", "/* TANGTHU_BOOKSHELF_V9 */"):
+    if marker in text:
+        pos = text.find(marker)
+        end = text.find("\n</style>", pos)
+        if end < 0:
+            raise SystemExit("Bookshelf patch anchor missing: </style>")
+        text = text[:pos] + text[end + 1:]
+
+pos = text.rfind("</style>")
+if pos < 0:
+    raise SystemExit("Bookshelf patch anchor missing: </style>")
+text = text[:pos] + css + "\n" + text[pos:]
+
+start = text.find("  function renderShelfStats(){")
+if start < 0:
+    raise SystemExit("Bookshelf patch anchor missing: renderShelfStats")
+end = text.find("  function renderContent(){", start)
+if end < 0:
+    raise SystemExit("Bookshelf patch anchor missing: renderContent")
+
+renderer = r'''  var shelfResizeObserver=null;
+  function renderShelfStats(){
+    var body=$('contentBody');
+    body.innerHTML='';
+    $('pathBar').textContent='Tất cả tủ sách';
+    var bs=branches();
+    $('itemCount').textContent=bs.length+' tủ';
+    if(!bs.length){body.innerHTML='<div class="empty">Chưa có tủ sách.</div>';return}
+    if(shelfResizeObserver){shelfResizeObserver.disconnect();shelfResizeObserver=null;}
+    var main=document.querySelector('.main');
+    if(main)main.classList.add('shelf-only');
+
+    var view=document.createElement('div');
+    view.className='shelf-view';
+    var iconNames=['book-blue.png','book-brown.png','book-green.png','book-purple.png','book-red.png','book-teal.png'];
+    var bookFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP','RAR','DOC','DOCX','TXT','MD'];
+    function number(value){return (Number(value)||0).toLocaleString('vi-VN');}
+    function statsLines(shelf){
+      var lines=[];
+      if(typeof shelf.book_count!=='number'||typeof shelf.font_count!=='number'||!shelf.format_counts||typeof shelf.format_counts!=='object')return ['Chưa có thống kê'];
+      var bookCount=Number(shelf.book_count);
+      var fontCount=Number(shelf.font_count);
+      var counts=shelf.format_counts||{};
+      lines.push(number(bookCount)+' sách');
+      bookFormats.forEach(function(format){var count=Number(counts[format])||0;if(count>0)lines.push(format+' '+number(count));});
+      if(fontCount>0)lines.push(number(fontCount)+' font');
+      return lines.length?lines:['Chưa có thống kê'];
+    }
+    function openShelf(shelf){
+      state.view='list';
+      state.branch=shelf.id;
+      state.parent=shelf.root_folder_id;
+      state.selected=null;
+      $('viewsBtn').querySelector('.lbl').textContent='Views';
+      var main=document.querySelector('.main');
+      if(main)main.classList.remove('shelf-only');
+      renderBranches();
+      renderContent();
+    }
+
+    var row=document.createElement('div');
+    row.className='shelf-row';
+    var books=document.createElement('div');
+    books.className='shelf-books';
+
+    bs.forEach(function(shelf,index){
+      var item=document.createElement('button');
+      item.type='button';
+      item.className='shelf-book';
+      item.title=shelfLabel(shelf);
+      item.setAttribute('aria-label',shelfLabel(shelf)+' — '+statsLines(shelf).join(', '));
+
+      var cover=document.createElement('div');
+      cover.className='shelf-book-cover';
+      var img=document.createElement('img');
+      img.src='assets/bookshelf/'+iconNames[index%iconNames.length];
+      img.alt='';
+      img.draggable=false;
+      var name=document.createElement('div');
+      name.className='shelf-book-name';
+      name.textContent=shelfLabel(shelf);
+      cover.appendChild(img);
+      cover.appendChild(name);
+
+      var meta=document.createElement('div');
+      meta.className='shelf-book-stats';
+      statsLines(shelf).forEach(function(line){
+        var lineEl=document.createElement('span');
+        lineEl.textContent=line;
+        meta.appendChild(lineEl);
+      });
+      item.appendChild(cover);
+      item.appendChild(meta);
+      item.onclick=(function(s){return function(){openShelf(s);};})(shelf);
+      books.appendChild(item);
+    });
+
+    row.appendChild(books);
+    view.appendChild(row);
+    body.appendChild(view);
+
+    function resizeShelves(){
+      row.querySelectorAll('.shelf-line').forEach(function(el){el.remove();});
+      var items=Array.prototype.slice.call(books.querySelectorAll('.shelf-book'));
+      if(!items.length)return;
+      var groups=[];
+      items.forEach(function(item){
+        var top=item.offsetTop;
+        var group=groups.length?groups[groups.length-1]:null;
+        if(!group || Math.abs(group.top-top)>2){group={top:top,items:[]};groups.push(group);}
+        group.items.push(item);
+      });
+      var rowRect=row.getBoundingClientRect();
+      groups.forEach(function(group){
+        var first=group.items[0].getBoundingClientRect();
+        var last=group.items[group.items.length-1].getBoundingClientRect();
+        var left=Math.max(0,first.left-rowRect.left-12);
+        var right=Math.max(left,last.right-rowRect.left-12);
+        var line=document.createElement('div');
+        line.className='shelf-line';
+        line.style.left=left+'px';
+        line.style.width=(right-left)+'px';
+        line.style.top=(group.top+group.items[0].offsetHeight+8)+'px';
+        row.appendChild(line);
+      });
+    }
+    resizeShelves();
+    if(window.ResizeObserver){
+      shelfResizeObserver=new ResizeObserver(function(){resizeShelves();});
+      shelfResizeObserver.observe(books);
+    }
+  }
+
+'''
+text = text[:start] + renderer + text[end:]
+
+old_state = "var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:'',fileCache:{},renderToken:0};"
+new_state = "var state={catalog:null,branch:null,parent:null,view:'shelves',selected:null,search:'',fileCache:{},renderToken:0};"
+if old_state not in text:
+    raise SystemExit("Bookshelf patch anchor missing: state initializer")
+text = text.replace(old_state, new_state, 1)
+
+old_render = "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}"
+new_render = "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}if(shelfResizeObserver){shelfResizeObserver.disconnect();shelfResizeObserver=null;}var main=document.querySelector('.main');if(main)main.classList.remove('shelf-only');"
+if old_render not in text:
+    raise SystemExit("Bookshelf patch anchor missing: renderContent wrapper")
+text = text.replace(old_render, new_render, 1)
+
+old_branch = "main.onclick=function(){\n        state.branch=b.id;\n        state.parent=b.root_folder_id;\n        state.selected=null;\n        renderBranches();\n        renderContent();\n      };"
+new_branch = "main.onclick=function(){\n        state.view='list';\n        $('viewsBtn').querySelector('.lbl').textContent='Views';\n        state.branch=b.id;\n        state.parent=b.root_folder_id;\n        state.selected=null;\n        renderBranches();\n        renderContent();\n      };"
+if old_branch not in text:
+    raise SystemExit("Bookshelf patch anchor missing: sidebar branch click")
+text = text.replace(old_branch, new_branch, 1)
+
+old_search = "  function runSearch(){state.search=$('searchInput').value;state.searchScope=$('searchScope').value||'all';state.selected=null;pushNavState();renderContent()}"
+new_search = "  function runSearch(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';state.search=$('searchInput').value;state.searchScope=$('searchScope').value||'all';state.selected=null;pushNavState();renderContent()}"
+if old_search not in text:
+    raise SystemExit("Bookshelf patch anchor missing: runSearch")
+text = text.replace(old_search, new_search, 1)
+
+old_views = "$('viewsBtn').onclick=function(){state.view=state.view==='list'?'compact':'list';$('viewsBtn').querySelector('.lbl').textContent=state.view==='list'?'Views':'List'};"
+new_views = "$('viewsBtn').onclick=function(){state.view=state.view==='shelves'?'list':'shelves';$('viewsBtn').querySelector('.lbl').textContent=state.view==='shelves'?'List':'Views';var main=document.querySelector('.main');if(main)main.classList.toggle('shelf-only',state.view==='shelves');renderContent()};"
+if old_views not in text:
+    raise SystemExit("Bookshelf patch anchor missing: Views button")
+text = text.replace(old_views, new_views, 1)
+
+# The footer uses the precomputed counts in catalog.json; it never loads shards.
+old_status = "$('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách.'"
+new_status = """var statsReady=bs.every(function(shelf){return typeof shelf.book_count==='number'&&typeof shelf.font_count==='number'&&shelf.format_counts&&typeof shelf.format_counts==='object'});
+    if(statsReady){
+      var totalBooks=bs.reduce(function(sum,shelf){return sum+(Number(shelf.book_count)||0)},0);
+      $('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách · '+totalBooks.toLocaleString('vi-VN')+' ấn phẩm.';
+    }else{
+      $('statusLeft').textContent='Đang chờ cập nhật thống kê ấn phẩm.';
+    }"""
+if text.count(old_status) != 1:
+    raise SystemExit("Global inventory count patch anchor missing or ambiguous: statusLeft")
+text = text.replace(old_status, new_status, 1)
+
+INDEX.write_text(text, encoding="utf-8")
