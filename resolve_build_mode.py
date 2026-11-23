@@ -83,7 +83,7 @@ def main() -> None:
                 else:
                     reason = "empty, inactive, or unknown shelf list; full build required"
     elif EVENT == "repository_dispatch":
-        reason = "legacy or missing v2 catalog; full shard migration required"
+        reason = "catalog statistics missing or legacy catalog; full build required"
 
     (OUT / "build_mode").write_text(mode + "\n", encoding="utf-8")
     (OUT / "changed_shelves.txt").write_text(",".join(shelves) + "\n", encoding="utf-8")

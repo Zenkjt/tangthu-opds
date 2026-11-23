@@ -147,7 +147,7 @@ renderer = r'''  var shelfResizeObserver=null;
 
         item.appendChild(cover);
         item.appendChild(meta);
-        item.onclick=(function(s){return function(){openShelf(s);};})(shelf);
+        item.onclick=(function(sh){return function(){openShelf(sh);};})(shelf);
         books.appendChild(item);
     });
 
@@ -186,6 +186,7 @@ renderer = r'''  var shelfResizeObserver=null;
       shelfResizeObserver.observe(books);
     }
   }
+
 
 '''
 text = text[:start] + renderer + text[end:]

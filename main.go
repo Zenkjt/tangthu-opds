@@ -386,17 +386,6 @@ func selectedShelves(raw string) []string {
 	return ids
 }
 
-func hasV2Catalog(path string) bool {
-	data, err := os.ReadFile(path)
-	if err != nil {
-		return false
-	}
-	var header struct {
-		Version int `json:"version"`
-	}
-	return json.Unmarshal(data, &header) == nil && header.Version == 2
-}
-
 func hasStaticCatalogStats(path string) bool {
 	manifest, err := readCatalogManifest(path)
 	if err != nil || manifest.Version != 2 || len(manifest.Branches) == 0 {

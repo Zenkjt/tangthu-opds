@@ -137,6 +137,7 @@ func TestBranchLessPrioritizesVNThenAlphabetical(t *testing.T) {
 	}
 }
 
+
 func TestCatalogStatsExcludeFoldersAndSeparateFonts(t *testing.T) {
 	files := []FileEntry{
 		{ID: "folder", Name: "Books", IsFolder: true},
@@ -174,7 +175,6 @@ func TestIncrementalMergePreservesStaticStatsOfOtherShelves(t *testing.T) {
 	if err := writeCatalogManifest(out, []Branch{first, second}); err != nil {
 		t.Fatal(err)
 	}
-
 	updated := Branch{Config: BranchConfig{ID: "A", DisplayName: "A", RootFolderID: "root-A"}, Files: []FileEntry{
 		{ID: "a2", ParentID: "root-A", Name: "A2.epub"},
 		{ID: "a3", ParentID: "root-A", Name: "A3.mobi"},
