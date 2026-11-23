@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from pathlib import Path
+import re
 
 INDEX = Path("docs/index.html")
 text = INDEX.read_text(encoding="utf-8")
@@ -199,11 +200,23 @@ renderer = r'''  var shelfResizeObserver=null;
 '''
 text = text[:start] + renderer + text[end:]
 
-old_state = "var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:''};"
-new_state = "var state={catalog:null,branch:null,parent:null,view:'shelves',selected:null,search:''};"
-if old_state not in text:
+# The generator's state object may gain cache/runtime fields over time.
+# Match the view property inside the state initializer instead of requiring
+# the entire object to remain byte-for-byte identical.
+state_match = re.search(r"\bvar\s+state\s*=\s*\{.*?\};", text, re.S)
+if not state_match:
     raise SystemExit("Bookshelf patch anchor missing: state initializer")
-text = text.replace(old_state, new_state, 1)
+
+state_text = state_match.group(0)
+state_text_new, state_view_count = re.subn(
+    r"(\bview\s*:\s*['\"])[^'\"]*(['\"])",
+    r"\1shelves\2",
+    state_text,
+    count=1,
+)
+if state_view_count != 1:
+    raise SystemExit("Bookshelf patch anchor missing: state.view")
+text = text[:state_match.start()] + state_text_new + text[state_match.end():]
 
 old_render = "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}"
 new_render = "  function renderContent(){if(state.view==='shelves'){renderShelfStats();return;}if(shelfResizeObserver){shelfResizeObserver.disconnect();shelfResizeObserver=null;}var main=document.querySelector('.main');if(main)main.classList.remove('shelf-only');"
