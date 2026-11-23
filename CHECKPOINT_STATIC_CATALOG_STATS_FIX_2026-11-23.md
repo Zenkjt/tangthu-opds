@@ -1,47 +1,48 @@
-# CHECKPOINT — Static catalog statistics and request fan-out fix
-
+# CHECKPOINT — Static catalog statistics / shelf request fan-out
 **Ngày:** 2026-11-23  
-**Nguồn chuẩn:** `tangthu-opds-main(20261123-044123).zip` do người dùng cung cấp.
+**Nguồn chuẩn:** ZIP mới nhất `tangthu-opds-main (1)(1).zip` do người dùng tải lên.
 
-## Vấn đề xác nhận
+## Kết quả rà soát
+- `catalog.json` version 2 chưa có `book_count`, `font_count`, `format_counts`.
+- `postprocess_bookshelf.py` vẫn khiến màn hình giá sách gọi `loadAllFiles()` cho từng tủ; footer cũng tải toàn bộ shard để cộng tổng.
+- Generator chấp nhận manifest R2 `complete:false`, có nguy cơ đọc generation chưa hoàn tất.
+- Resolver incremental chỉ kiểm tra version 2, chưa kiểm tra schema thống kê.
+- Lifecycle merge chưa ghi các trường thống kê cho tủ suspended.
 
-- `catalog.json` đang là version 2 nhưng mỗi branch chưa có `book_count`, `font_count`, `format_counts`.
-- `scripts/postprocess_bookshelf.py` dựng thống kê bằng `loadAllFiles()` cho toàn bộ tủ. Hàm này tải root shard và các directory shard, gây hàng nghìn request khi mở trang.
-- Footer cũng gọi `loadAllFiles()` trên tất cả tủ để tự tính tổng số ấn phẩm.
-- `apps-script/DrivePriorityV4.gs` còn publish manifest `complete:false` ở checkpoint, trái với nguyên tắc atomic generation. Bản `DrivePriorityV4.gs` tại root đã có logic staging đúng.
-
-## Thay đổi
-
+## Thay đổi trong patch
 1. `cmd/generate/main.go`
-   - Giữ `catalog.json` version 2 để tương thích.
-   - Bổ sung `book_count`, `font_count`, `format_counts` cho từng branch.
-   - Nhóm sách gồm EPUB, MOBI, AZW3, CBZ, LIT, CHM, PRC, PDF, ZIP, RAR, DOC, DOCX, TXT, MD.
-   - Nhóm font gồm CPFONT, TTF, OTF.
-   - Incremental merge cập nhật thống kê của tủ được build và giữ nguyên thống kê của các tủ khác.
-   - Chỉ cho phép incremental nếu catalog hiện tại đã có schema thống kê tĩnh.
-2. `scripts/postprocess_bookshelf.py`
-   - Giá sách đọc số liệu trực tiếp từ `catalog.json`.
-   - Footer cộng tổng từ metadata catalog.
-   - Không gọi `loadAllFiles()` khi mở trang giá sách; hàm tải shard vẫn giữ cho thao tác duyệt thư mục/tìm kiếm.
-3. `scripts/resolve_build_mode.py`
-   - Ép full build nếu catalog thiếu một trong các trường thống kê.
-4. `scripts/tangthu_lifecycle.py`
-   - Tủ suspended được gán thống kê bằng 0 và `format_counts: {}`.
-5. `apps-script/DrivePriorityV4.gs`
-   - Đồng bộ với bản root đã có atomic publish: checkpoint chỉ giữ generation mới ở staging; chỉ publish manifest khi scan hoàn tất.
+   - Bổ sung `book_count`, `font_count`, `format_counts` trong mỗi branch của catalog.
+   - Đếm 14 định dạng sách đã được `isSupportedBookName()` hỗ trợ; font gồm `.cpfont`, `.ttf`, `.otf`. Bỏ qua folder và file không thuộc nhóm hỗ trợ.
+   - Incremental merge cập nhật thống kê tủ thay đổi và giữ nguyên metadata của các tủ khác.
+   - Chỉ chấp nhận R2 snapshot manifest có `complete:true`.
+   - Chỉ bật incremental nếu catalog version 2 có đủ schema thống kê.
+2. `cmd/generate/catalog_shards_test.go`
+   - Test đếm sách/font, loại trừ folder và định dạng không hỗ trợ.
+   - Test incremental merge cập nhật đúng tủ và bảo toàn stats tủ khác.
+   - Test từ chối snapshot generation chưa complete.
+3. `scripts/postprocess_bookshelf.py`
+   - Giá sách đọc thống kê trực tiếp từ catalog, không tải directory shards.
+   - Footer cộng tổng `book_count` và `font_count` từ catalog.
+   - `loadAllFiles()` vẫn được giữ cho chức năng tìm kiếm toàn bộ nội dung.
+4. `scripts/resolve_build_mode.py`
+   - Repository dispatch tự chuyển full build khi catalog thiếu một trong các trường thống kê.
+5. `scripts/tangthu_lifecycle.py`
+   - Tủ suspended được gán `book_count:0`, `font_count:0`, `format_counts:{}`.
 
-## Kiểm tra
-
+## Kiểm tra đã chạy
 - `go test ./...`: PASS.
-- `python -m py_compile` cho ba script Python đã sửa: PASS.
-- Apps Script syntax bằng `node --check`: PASS.
-- Tạo HTML fixture từ `writeWeb()`, chạy `postprocess_ui.py` và `postprocess_bookshelf.py`: PASS.
-- Kiểm tra HTML sau postprocess: renderer giá sách đọc `book_count`; không còn gọi `loadAllFiles()` để dựng giá sách hoặc footer; `loadAllFiles()` vẫn còn cho tìm kiếm: PASS.
-- Kiểm tra thống kê định dạng và logic ép full build với catalog cũ: PASS qua Go unit tests.
+- `python3 -m py_compile` cho 3 script Python: PASS.
+- Static source assertions xác nhận renderer/footer không còn gọi `loadAllFiles(shelf)`: PASS.
+- Resolver fixture với catalog version 2 thiếu stats: chọn full build: PASS.
+- `git diff --check` không thực hiện được vì ZIP không chứa `.git` metadata.
+- Chưa chạy full GitHub Actions build với R2 thật; chưa kiểm tra trực tiếp số liệu trên dữ liệu production.
 
 ## Triển khai
+Thay đúng 5 file trong patch vào repo trên GitHub:
+- `cmd/generate/main.go`
+- `cmd/generate/catalog_shards_test.go`
+- `scripts/postprocess_bookshelf.py`
+- `scripts/resolve_build_mode.py`
+- `scripts/tangthu_lifecycle.py`
 
-- Thay các file trong ZIP patch vào đúng đường dẫn repo, commit trên GitHub Web.
-- Workflow Pages sẽ tự chọn full build khi catalog hiện tại chưa có metadata thống kê. Full build này cần đọc snapshot R2 để tái tạo catalog; các lần repository_dispatch tiếp theo mới có thể incremental.
-- Apps Script: thay nội dung `DrivePriorityV4.gs` bằng bản trong patch và lưu project. Không cần deploy Web App mới nếu không thay endpoint/deployment version.
-- Không thay đổi Cloudflare Worker, OPDS endpoint, directory shard format hoặc chu kỳ DriveCheck.
+Commit các file trên. Không thay `DrivePriorityV4.gs`: patch này không đụng Apps Script. Workflow sẽ tự chạy full build khi catalog hiện tại chưa có stats; các lần repository_dispatch sau đó mới đủ điều kiện incremental.

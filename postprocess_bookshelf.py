@@ -70,42 +70,121 @@ if end < 0:
 
 renderer = r'''  var shelfResizeObserver=null;
   function renderShelfStats(){
-    var body=$('contentBody'); body.innerHTML='';
+    var body=$('contentBody');
+    body.innerHTML='';
     $('pathBar').textContent='Tất cả tủ sách';
-    var bs=branches(); $('itemCount').textContent=bs.length+' tủ';
-    if(!bs.length){body.innerHTML='<div class="empty">Chưa có tủ sách.</div>';return;}
+    var bs=branches();
+    $('itemCount').textContent=bs.length+' tủ';
+    if(!bs.length){body.innerHTML='<div class="empty">Chưa có tủ sách.</div>';return}
+
+    renderShelfStatsLoaded(bs,body);
+    return;
+  }
+
+  function renderShelfStatsLoaded(bs,body){
     if(shelfResizeObserver){shelfResizeObserver.disconnect();shelfResizeObserver=null;}
-    var main=document.querySelector('.main'); if(main)main.classList.add('shelf-only');
-    var view=document.createElement('div'); view.className='shelf-view';
+    var main=document.querySelector('.main');
+    if(main)main.classList.add('shelf-only');
+
+    var view=document.createElement('div');
+    view.className='shelf-view';
     var iconNames=['book-blue.png','book-brown.png','book-green.png','book-purple.png','book-red.png','book-teal.png'];
-    function openShelf(shelf){state.view='list';state.branch=shelf.id;state.parent=shelf.root_folder_id;state.selected=null;$('viewsBtn').querySelector('.lbl').textContent='Views';if(main)main.classList.remove('shelf-only');renderBranches();renderContent();}
-    var row=document.createElement('div'); row.className='shelf-row';
-    var books=document.createElement('div'); books.className='shelf-books';
+
+    function statsLines(shelf){
+      var counts=shelf.format_counts||{};
+      var bookCount=Number(shelf.book_count)||0;
+      var fontCount=Number(shelf.font_count)||0;
+      var bookFormats=['EPUB','MOBI','AZW3','CBZ','LIT','CHM','PRC','PDF','ZIP','RAR','DOC','DOCX','TXT','MD'];
+      var lines=[];
+      if(bookCount>0)lines.push(bookCount+' sách');
+      bookFormats.forEach(function(format){var count=Number(counts[format])||0;if(count>0)lines.push(format+' '+count);});
+      if(fontCount>0)lines.push(fontCount+' font');
+      return lines;
+    }
+    function stats(shelf){return statsLines(shelf).join(' · ');}
+    function openShelf(shelf){
+      state.view='list';
+      state.branch=shelf.id;
+      state.parent=shelf.root_folder_id;
+      state.selected=null;
+      $('viewsBtn').querySelector('.lbl').textContent='Views';
+      var main=document.querySelector('.main');
+      if(main)main.classList.remove('shelf-only');
+      renderBranches();
+      renderContent();
+    }
+
+    var row=document.createElement('div');
+    row.className='shelf-row';
+    var books=document.createElement('div');
+    books.className='shelf-books';
+
     bs.forEach(function(shelf,index){
-      var item=document.createElement('button'); item.type='button'; item.className='shelf-book';
-      var nameText=shelf.display_name||shelf.name||''; item.title=nameText;
-      var formats=shelf.format_counts||{}; var lines=[];
-      if(Number(shelf.book_count||0)>0)lines.push(Number(shelf.book_count).toLocaleString('vi-VN')+' sách');
-      Object.keys(formats).sort().forEach(function(format){if(Number(formats[format]||0)>0)lines.push(format+' '+Number(formats[format]).toLocaleString('vi-VN'));});
-      if(Number(shelf.font_count||0)>0)lines.push(Number(shelf.font_count).toLocaleString('vi-VN')+' font');
-      item.setAttribute('aria-label',nameText+' — '+(lines.join(', ')||'Chưa có ấn phẩm'));
-      var cover=document.createElement('div'); cover.className='shelf-book-cover';
-      var img=document.createElement('img'); img.src='assets/bookshelf/'+iconNames[index%iconNames.length]; img.alt=''; img.draggable=false;
-      var name=document.createElement('div'); name.className='shelf-book-name'; name.textContent=nameText;
-      cover.appendChild(img); cover.appendChild(name);
-      var meta=document.createElement('div'); meta.className='shelf-book-stats';
-      if(lines.length){lines.forEach(function(line){var lineEl=document.createElement('span');lineEl.textContent=line;meta.appendChild(lineEl);});}
-      else {var empty=document.createElement('span');empty.textContent='Chưa có ấn phẩm';meta.appendChild(empty);}
-      item.appendChild(cover); item.appendChild(meta); item.onclick=(function(sh){return function(){openShelf(sh);};})(shelf); books.appendChild(item);
+        var item=document.createElement('button');
+        item.type='button';
+        item.className='shelf-book';
+        item.title=shelf.display_name||shelf.name||'';
+        item.setAttribute('aria-label',(shelf.display_name||shelf.name||'')+' — '+stats(shelf));
+
+        var cover=document.createElement('div');
+        cover.className='shelf-book-cover';
+
+        var img=document.createElement('img');
+        img.src='assets/bookshelf/'+iconNames[index%iconNames.length];
+        img.alt='';
+        img.draggable=false;
+
+        var name=document.createElement('div');
+        name.className='shelf-book-name';
+        name.textContent=shelf.display_name||shelf.name||'';
+
+        cover.appendChild(img);
+        cover.appendChild(name);
+
+        var meta=document.createElement('div');
+        meta.className='shelf-book-stats';
+        statsLines(shelf).forEach(function(line){var lineEl=document.createElement('span');lineEl.textContent=line;meta.appendChild(lineEl)});
+
+        item.appendChild(cover);
+        item.appendChild(meta);
+        item.onclick=(function(s){return function(){openShelf(s);};})(shelf);
+        books.appendChild(item);
     });
-    row.appendChild(books); view.appendChild(row); body.appendChild(view);
+
+    row.appendChild(books);
+    view.appendChild(row);
+    body.appendChild(view);
+
     function resizeShelves(){
       row.querySelectorAll('.shelf-line').forEach(function(el){el.remove();});
-      var items=Array.prototype.slice.call(books.querySelectorAll('.shelf-book')); if(!items.length)return;
-      var groups=[]; items.forEach(function(item){var top=item.offsetTop;var group=groups.length?groups[groups.length-1]:null;if(!group||Math.abs(group.top-top)>2){group={top:top,items:[]};groups.push(group);}group.items.push(item);});
-      var rowRect=row.getBoundingClientRect(); groups.forEach(function(group){var first=group.items[0].getBoundingClientRect();var last=group.items[group.items.length-1].getBoundingClientRect();var left=Math.max(0,first.left-rowRect.left-12);var right=Math.max(left,last.right-rowRect.left-12);var line=document.createElement('div');line.className='shelf-line';line.style.left=left+'px';line.style.width=(right-left)+'px';line.style.top=(group.top+group.items[0].offsetHeight+8)+'px';row.appendChild(line);});
+      var items=Array.prototype.slice.call(books.querySelectorAll('.shelf-book'));
+      if(!items.length)return;
+      var groups=[];
+      items.forEach(function(item){
+        var top=item.offsetTop;
+        var group=groups.length?groups[groups.length-1]:null;
+        if(!group || Math.abs(group.top-top)>2){group={top:top,items:[]};groups.push(group);}
+        group.items.push(item);
+      });
+      var rowRect=row.getBoundingClientRect();
+      groups.forEach(function(group){
+        var first=group.items[0].getBoundingClientRect();
+        var last=group.items[group.items.length-1].getBoundingClientRect();
+        var left=Math.max(0,first.left-rowRect.left-12);
+        var right=Math.max(left,last.right-rowRect.left-12);
+        var line=document.createElement('div');
+        line.className='shelf-line';
+        line.style.left=left+'px';
+        line.style.width=(right-left)+'px';
+        line.style.top=(group.top+group.items[0].offsetHeight+8)+'px';
+        row.appendChild(line);
+      });
     }
-    resizeShelves(); if(window.ResizeObserver){shelfResizeObserver=new ResizeObserver(resizeShelves);shelfResizeObserver.observe(books);}
+    resizeShelves();
+    if(window.ResizeObserver){
+      shelfResizeObserver=new ResizeObserver(function(){resizeShelves();});
+      shelfResizeObserver.observe(books);
+    }
   }
 
 '''
@@ -123,8 +202,8 @@ if old_render not in text:
     raise SystemExit("Bookshelf patch anchor missing: renderContent wrapper")
 text = text.replace(old_render, new_render, 1)
 
-old_branch = "li.onclick=function(){state.branch=b.id;state.parent=b.root_folder_id;state.selected=null;renderBranches();renderContent()};"
-new_branch = "li.onclick=function(){state.view='list';$('viewsBtn').querySelector('.lbl').textContent='Views';state.branch=b.id;state.parent=b.root_folder_id;state.selected=null;renderBranches();renderContent()};"
+old_branch = "main.onclick=function(){\n        state.branch=b.id;\n        state.parent=b.root_folder_id;\n        state.selected=null;\n        renderBranches();\n        renderContent();\n      };"
+new_branch = "main.onclick=function(){\n        state.view='list';\n        $('viewsBtn').querySelector('.lbl').textContent='Views';\n        state.branch=b.id;\n        state.parent=b.root_folder_id;\n        state.selected=null;\n        renderBranches();\n        renderContent();\n      };"
 if old_branch not in text:
     raise SystemExit("Bookshelf patch anchor missing: sidebar branch click")
 text = text.replace(old_branch, new_branch, 1)
@@ -144,8 +223,8 @@ text = text.replace(old_views, new_views, 1)
 # Add a global count to the bottom status bar. Keep the exact same file
 # extensions used by renderShelfStats(): 14 book formats plus 3 font formats.
 old_status = "$('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách.'"
-new_status = """var totalItems=bs.reduce(function(sum,shelf){return sum+Number(shelf.book_count||0);},0);
-    var totalFonts=bs.reduce(function(sum,shelf){return sum+Number(shelf.font_count||0);},0);
+new_status = """var totalItems=bs.reduce(function(total,shelf){return total+(Number(shelf.book_count)||0)},0);
+    var totalFonts=bs.reduce(function(total,shelf){return total+(Number(shelf.font_count)||0)},0);
     $('statusLeft').textContent='Sẵn sàng. '+bs.length+' tủ sách · '+totalItems.toLocaleString('vi-VN')+' sách · '+totalFonts.toLocaleString('vi-VN')+' font.';"""
 if text.count(old_status) != 1:
     raise SystemExit("Global inventory count patch anchor missing or ambiguous: statusLeft")

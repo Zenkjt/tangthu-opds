@@ -24,21 +24,19 @@ def main() -> None:
     shelves: list[str] = []
     reason = "manual, scheduled, or no reusable site-state"
 
-    catalog_ready = False
-    if CATALOG.exists():
-        try:
-            catalog_data = read_json(CATALOG)
-            catalog_rows = catalog_data.get("branches", [])
-            catalog_ready = (catalog_data.get("version") == 2 and all(
-                isinstance(row.get("book_count"), int)
-                and isinstance(row.get("font_count"), int)
-                and isinstance(row.get("format_counts"), dict)
-                for row in catalog_rows
-            ))
-        except Exception:
-            catalog_ready = False
+    catalog_data = read_json(CATALOG) if CATALOG.exists() else {}
+    catalog_has_stats = (
+        catalog_data.get("version") == 2
+        and bool(catalog_data.get("branches"))
+        and all(
+            isinstance(row.get("book_count"), int)
+            and isinstance(row.get("font_count"), int)
+            and isinstance(row.get("format_counts"), dict)
+            for row in catalog_data.get("branches", [])
+        )
+    )
 
-    if EVENT == "repository_dispatch" and CATALOG.exists() and LIFECYCLE.exists() and catalog_ready:
+    if EVENT == "repository_dispatch" and CATALOG.exists() and LIFECYCLE.exists() and catalog_has_stats:
         payload = read_json(EVENT_PATH) if EVENT_PATH.exists() else {}
         requested = payload.get("client_payload", {}).get("shelves", [])
         config_rows = read_json(CONFIG).get("branches", [])
@@ -85,7 +83,7 @@ def main() -> None:
                 else:
                     reason = "empty, inactive, or unknown shelf list; full build required"
     elif EVENT == "repository_dispatch":
-        reason = "catalog statistics missing or legacy catalog; full build required"
+        reason = "legacy or missing v2 catalog; full shard migration required"
 
     (OUT / "build_mode").write_text(mode + "\n", encoding="utf-8")
     (OUT / "changed_shelves.txt").write_text(",".join(shelves) + "\n", encoding="utf-8")

@@ -185,8 +185,9 @@ def merge_suspended():
                 "id": life["id"], "name": label,
                 "root_folder_id": life["root_folder_id"], "drive_name": "",
                 "status": "suspended", "root_shard": "catalog/" + life["id"] + "/root.json",
-                "file_count": 0, "directory_count": 0, "revision": "suspended",
+                "file_count": 0, "directory_count": 0,
                 "book_count": 0, "font_count": 0, "format_counts": {},
+                "revision": "suspended",
             }
             rows.append(branch)
             by_id[life["id"]] = branch
@@ -195,11 +196,11 @@ def merge_suspended():
             branch["status"] = "suspended"
             branch["file_count"] = 0
             branch["directory_count"] = 0
-            branch["drive_name"] = ""
-            branch["revision"] = "suspended"
             branch["book_count"] = 0
             branch["font_count"] = 0
             branch["format_counts"] = {}
+            branch["drive_name"] = ""
+            branch["revision"] = "suspended"
         root_path = Path("docs/catalog") / life["id"] / "root.json"
         root_path.parent.mkdir(parents=True, exist_ok=True)
         root_path.write_text(json.dumps({
