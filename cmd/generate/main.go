@@ -425,6 +425,7 @@ type catalogBranch struct {
 	ShelfNo        int            `json:"shelf_no,omitempty"`
 	Status         string         `json:"status,omitempty"`
 	RootShard      string         `json:"root_shard"`
+	SearchShards   []string       `json:"search_shards"`
 	FileCount      int            `json:"file_count"`
 	DirectoryCount int            `json:"directory_count"`
 	BookCount      int            `json:"book_count"`
@@ -463,8 +464,9 @@ func branchCatalogMeta(br Branch) catalogBranch {
 	return catalogBranch{
 		ID: br.Config.ID, Name: br.Config.DisplayName, RootFolderID: br.Config.RootFolderID,
 		DriveName: br.DriveFolderName, ShelfNo: br.Config.ShelfNo, Status: "active",
-		RootShard: "catalog/" + safe(br.Config.ID) + "/root.json",
-		FileCount: len(br.Files), DirectoryCount: countFolders(br.Files),
+		RootShard:    "catalog/" + safe(br.Config.ID) + "/root.json",
+		SearchShards: searchShardPaths(br.Config.ID, countNonFolders(br.Files)),
+		FileCount:    len(br.Files), DirectoryCount: countFolders(br.Files),
 		BookCount: countBooks(br.Files), FontCount: countFonts(br.Files),
 		FormatCounts: countBookFormats(br.Files), Revision: branchRevision(br),
 	}
@@ -534,6 +536,94 @@ func writeJSON(path string, value any) error {
 		return err
 	}
 	return os.WriteFile(path, append(data, '\n'), 0644)
+}
+
+type catalogSearchItem struct {
+	catalogFile
+	Path string `json:"path"`
+}
+
+func countNonFolders(files []FileEntry) int {
+	n := 0
+	for _, f := range files {
+		if !f.IsFolder {
+			n++
+		}
+	}
+	return n
+}
+
+func searchShardPaths(branchID string, fileCount int) []string {
+	const pageSize = 1000
+	pages := (fileCount + pageSize - 1) / pageSize
+	paths := make([]string, 0, pages)
+	for page := 1; page <= pages; page++ {
+		paths = append(paths, fmt.Sprintf("catalog/%s/search/%04d.json", safe(branchID), page))
+	}
+	return paths
+}
+
+func writeCatalogSearchIndex(out string, br Branch) ([]string, error) {
+	const pageSize = 1000
+	branchDir := filepath.Join(out, "catalog", safe(br.Config.ID), "search")
+	if err := os.RemoveAll(branchDir); err != nil {
+		return nil, err
+	}
+	if err := os.MkdirAll(branchDir, 0755); err != nil {
+		return nil, err
+	}
+	folders := make(map[string]FileEntry)
+	for _, f := range br.Files {
+		if f.IsFolder {
+			folders[f.ID] = f
+		}
+	}
+	items := make([]catalogSearchItem, 0, len(br.Files))
+	for _, f := range br.Files {
+		if f.IsFolder {
+			continue
+		}
+		parts := []string{}
+		parent := f.ParentID
+		seen := map[string]bool{}
+		for parent != "" && parent != br.Config.RootFolderID && !seen[parent] {
+			seen[parent] = true
+			folder, ok := folders[parent]
+			if !ok {
+				break
+			}
+			parts = append(parts, folder.Name)
+			parent = folder.ParentID
+		}
+		for i, j := 0, len(parts)-1; i < j; i, j = i+1, j-1 {
+			parts[i], parts[j] = parts[j], parts[i]
+		}
+		path := "/"
+		if len(parts) > 0 {
+			path += strings.Join(parts, "/") + "/"
+		}
+		items = append(items, catalogSearchItem{catalogFile: catalogFile{ID: f.ID, ParentID: f.ParentID, Name: f.Name, MIME: f.MIME, Size: f.Size, Modified: f.Modified, Checksum: f.Checksum}, Path: path})
+	}
+	sort.Slice(items, func(i, j int) bool { return strings.ToLower(items[i].Name) < strings.ToLower(items[j].Name) })
+	paths := make([]string, 0, (len(items)+pageSize-1)/pageSize)
+	for offset, page := 0, 1; offset < len(items); offset, page = offset+pageSize, page+1 {
+		end := offset + pageSize
+		if end > len(items) {
+			end = len(items)
+		}
+		rel := fmt.Sprintf("catalog/%s/search/%04d.json", safe(br.Config.ID), page)
+		payload := struct {
+			Version  int                 `json:"version"`
+			BranchID string              `json:"branch_id"`
+			Page     int                 `json:"page"`
+			Items    []catalogSearchItem `json:"items"`
+		}{2, br.Config.ID, page, items[offset:end]}
+		if err := writeJSON(filepath.Join(out, filepath.FromSlash(rel)), payload); err != nil {
+			return nil, err
+		}
+		paths = append(paths, rel)
+	}
+	return paths, nil
 }
 
 // Each directory is an independently cacheable shard. The branch root shard
@@ -611,6 +701,11 @@ func writeCatalogBranchShards(out string, br Branch) error {
 		directories = append(directories, catalogDirectory{ID: f.ID, Name: f.Name, Parent: f.ParentID, Shards: shards})
 	}
 	sort.Slice(directories, func(i, j int) bool { return directories[i].ID < directories[j].ID })
+	searchPaths, err := writeCatalogSearchIndex(out, br)
+	if err != nil {
+		return err
+	}
+	_ = searchPaths
 	return writeJSON(filepath.Join(branchDir, "root.json"), struct {
 		Version      int                `json:"version"`
 		BranchID     string             `json:"branch_id"`
@@ -852,7 +947,7 @@ button:disabled{cursor:default;color:#777}
 
   function branches(){return state.catalog&&state.catalog.branches||[]}
   function currentBranch(){return branches().find(function(b){return b.id===state.branch})}
-  function cacheFor(b){if(!state.fileCache[b.id])state.fileCache[b.id]={dirs:{},directories:null};return state.fileCache[b.id]}
+  function cacheFor(b){if(!state.fileCache[b.id])state.fileCache[b.id]={dirs:{},directories:null,searchPromise:null,searchItems:null};return state.fileCache[b.id]}
   function directoryMeta(b,id){var c=cacheFor(b);return (c.directories||[]).find(function(d){return d.id===id})}
   function filesOf(b){var c=cacheFor(b);return Object.keys(c.dirs).reduce(function(all,key){return all.concat(c.dirs[key]||[])},[])}
   function children(b,parent){var c=cacheFor(b);return (c.dirs[parent]||[]).slice().sort(function(a,z){if(!!a.folder!==!!z.folder)return a.folder?-1:1;return a.name.localeCompare(z.name,'vi',{sensitivity:'base'})})}
@@ -861,7 +956,7 @@ button:disabled{cursor:default;color:#777}
   function fetchJSON(path,revision){var url=path+(path.indexOf('?')>=0?'&':'?')+'v='+encodeURIComponent(revision||'');return fetch(url,{cache:'force-cache'}).then(function(r){if(!r.ok)throw new Error(path+' HTTP '+r.status);return r.json()})}
   function loadRootShard(b){var c=cacheFor(b);if(c.rootPromise)return c.rootPromise;if(c.directories)return Promise.resolve(c);c.rootPromise=fetchJSON(b.root_shard,b.revision).then(function(data){if(data.branch_id!==b.id)throw new Error('Branch ID không khớp trong root shard');c.directories=data.directories||[];c.rootShards=data.root_shards||[];return c}).catch(function(e){c.rootPromise=null;throw e});return c.rootPromise}
   function loadDirectory(b,parent){return loadRootShard(b).then(function(c){if(c.dirs[parent])return c.dirs[parent];var paths=parent===b.root_folder_id?c.rootShards:(directoryMeta(b,parent)||{}).shards;if(!paths)throw new Error('Không tìm thấy shard thư mục '+parent);if(!paths.length){c.dirs[parent]=[];return c.dirs[parent]}return Promise.all(paths.map(function(path){return fetchJSON(path,b.revision)})).then(function(pages){var items=[];pages.forEach(function(data){if(data.branch_id!==b.id||data.folder_id!==parent)throw new Error('Directory shard không khớp');items=items.concat(data.items||[])});c.dirs[parent]=items;return items})})}
-  function loadAllFiles(b){return loadRootShard(b).then(function(c){var tasks=[loadDirectory(b,b.root_folder_id)];(c.directories||[]).forEach(function(d){tasks.push(loadDirectory(b,d.id))});return Promise.all(tasks).then(function(){return filesOf(b)})})}
+  function loadSearchIndex(b){var c=cacheFor(b);if(c.searchItems)return Promise.resolve(c.searchItems);if(c.searchPromise)return c.searchPromise;var paths=b.search_shards||[];if(!paths.length)return Promise.resolve([]);c.searchPromise=Promise.all(paths.map(function(path){return fetchJSON(path,b.revision)})).then(function(pages){var items=[];pages.forEach(function(page){if(page.branch_id!==b.id)throw new Error('Search index không khớp tủ');items=items.concat(page.items||[])});c.searchItems=items;return items}).catch(function(e){c.searchPromise=null;throw e});return c.searchPromise}
   function displayDate(s){if(!s)return '';var d=new Date(s);return isNaN(d)?s:d.toLocaleString('vi-VN',{dateStyle:'short',timeStyle:'short'})}
 
   // Browser history for navigation inside Tàng Thư.
@@ -914,12 +1009,12 @@ button:disabled{cursor:default;color:#777}
     var searchBranches=searchAll?branches():[b];
     $('pathBar').textContent=q?(searchAll?'Tìm trong tất cả tủ sách':'Tìm trong '+b.name):[b.name].concat(folderPath(b,state.parent)).join('  ›  ');
     $('itemCount').textContent='Đang tải…';
-    var loading=q?Promise.all(searchBranches.map(loadAllFiles)):loadRootShard(b).then(function(c){if(state.parent!==b.root_folder_id&&!directoryMeta(b,state.parent)){state.parent=b.root_folder_id;}return loadDirectory(b,state.parent)});
+    var loading=q?Promise.all(searchBranches.map(loadSearchIndex)):loadRootShard(b).then(function(c){if(state.parent!==b.root_folder_id&&!directoryMeta(b,state.parent)){state.parent=b.root_folder_id;}return loadDirectory(b,state.parent)});
     loading.then(function(){
       if(token!==state.renderToken)return;
       if(!q)$('pathBar').textContent=[b.name].concat(folderPath(b,state.parent)).join('  ›  ');
       var rows=[];
-      if(q){searchBranches.forEach(function(shelf){filesOf(shelf).forEach(function(f){if(f.folder)return;var target=[f.name,f.mime,shelf.name].join(' ');if(fuzzyMatch(q,target))rows.push({file:f,shelf:shelf})})})}
+      if(q){searchBranches.forEach(function(shelf){(cacheFor(shelf).searchItems||[]).forEach(function(item){var f={id:item.id,parent_id:item.parent_id,name:item.name,mime:item.mime,size:item.size,modified:item.modified,checksum:item.checksum,folder:false};var target=[f.name,f.mime,shelf.name].join(' ');if(fuzzyMatch(q,target))rows.push({file:f,shelf:shelf})})})}
       else{rows=children(b,state.parent).map(function(f){return {file:f,shelf:b}})}
       $('itemCount').textContent=rows.length+(q?' kết quả':' mục');
       if(!rows.length){body.innerHTML='<div class="empty">'+(q?'Không tìm thấy file phù hợp.':'Thư mục này chưa có nội dung.')+'</div>';return}

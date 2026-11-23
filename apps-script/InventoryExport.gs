@@ -48,51 +48,30 @@ function exportInventory_(body) {
     return { ok: false, error: 'catalog manifest không hợp lệ hoặc chưa được cập nhật sang version 2.' };
   }
 
-  // Expand directory shards only for this inventory operation. The public web
-  // catalog itself never downloads the entire library on initial page load.
+  // Reuse the static per-shelf search index. No directory shards are expanded.
   var expandedBranches = [];
   var catalogBase = 'https://tangthu.pages.dev/';
   for (var bi = 0; bi < catalog.branches.length; bi++) {
     var shelf = catalog.branches[bi];
     if (shelf.status === 'suspended' || shelf.status === 'disabled') continue;
-    var rootResponse = UrlFetchApp.fetch(catalogBase + shelf.root_shard, {
-      muteHttpExceptions: true, followRedirects: true
-    });
-    if (rootResponse.getResponseCode() !== 200) {
-      return { ok: false, error: 'Không đọc được root shard của tủ ' + shelf.name + ': HTTP ' + rootResponse.getResponseCode() };
-    }
-    var root;
-    try { root = JSON.parse(rootResponse.getContentText()); }
-    catch (err) { return { ok: false, error: 'Root shard không phải JSON hợp lệ: ' + shelf.name }; }
-    if (root.branch_id !== shelf.id) return { ok: false, error: 'Root shard không khớp branch: ' + shelf.name };
+    var paths = Array.isArray(shelf.search_shards) ? shelf.search_shards : [];
     var files = [];
-    var shardJobs = [];
-    (root.root_shards || []).forEach(function (path) {
-      shardJobs.push({ path: path, folderId: shelf.root_folder_id });
-    });
-    (root.directories || []).forEach(function (dir) {
-      (dir.shards || []).forEach(function (path) {
-        shardJobs.push({ path: path, folderId: dir.id });
-      });
-    });
-    for (var ji = 0; ji < shardJobs.length; ji += 50) {
-      var batch = shardJobs.slice(ji, ji + 50);
-      var requests = batch.map(function (job) {
-        return { url: catalogBase + job.path, muteHttpExceptions: true, followRedirects: true };
+    for (var ji = 0; ji < paths.length; ji += 50) {
+      var batch = paths.slice(ji, ji + 50);
+      var requests = batch.map(function (path) {
+        return { url: catalogBase + path, muteHttpExceptions: true, followRedirects: true };
       });
       var responses;
       try { responses = UrlFetchApp.fetchAll(requests); }
-      catch (err) { return { ok: false, error: 'Không tải được catalog shards của tủ ' + shelf.name + ': ' + String(err) }; }
+      catch (err) { return { ok: false, error: 'Không tải được search index của tủ ' + shelf.name + ': ' + String(err) }; }
       for (var ri = 0; ri < responses.length; ri++) {
         if (responses[ri].getResponseCode() !== 200) {
-          return { ok: false, error: 'Catalog shard lỗi ở tủ ' + shelf.name + ': HTTP ' + responses[ri].getResponseCode() };
+          return { ok: false, error: 'Search index lỗi ở tủ ' + shelf.name + ': HTTP ' + responses[ri].getResponseCode() };
         }
         var shard;
         try { shard = JSON.parse(responses[ri].getContentText()); }
-        catch (err) { return { ok: false, error: 'Catalog shard không phải JSON hợp lệ ở tủ ' + shelf.name }; }
-        if (shard.branch_id !== shelf.id || shard.folder_id !== batch[ri].folderId) {
-          return { ok: false, error: 'Catalog shard không khớp thư mục ở tủ ' + shelf.name };
-        }
+        catch (err) { return { ok: false, error: 'Search index không phải JSON hợp lệ ở tủ ' + shelf.name }; }
+        if (shard.branch_id !== shelf.id) return { ok: false, error: 'Search index không khớp tủ ' + shelf.name };
         files = files.concat(shard.items || []);
       }
     }
@@ -116,11 +95,6 @@ function exportInventory_(body) {
 
   catalog.branches.forEach(function (shelf) {
     var files = Array.isArray(shelf.files) ? shelf.files : [];
-    var folders = {};
-    files.forEach(function (file) {
-      if (file && file.folder) folders[String(file.id)] = file;
-    });
-
     var count = 0;
     var bytes = 0;
     files.forEach(function (file) {
@@ -130,19 +104,7 @@ function exportInventory_(body) {
       var extension = match ? match[1].toLowerCase() : '';
       if (!allowed[extension]) return;
 
-      var pathParts = [];
-      var parentId = String(file.parent_id || '');
-      var seen = {};
-      var guard = 0;
-      while (parentId && parentId !== String(shelf.root_folder_id) && guard++ < 100) {
-        if (seen[parentId]) break;
-        seen[parentId] = true;
-        var parent = folders[parentId];
-        if (!parent) break;
-        pathParts.unshift(String(parent.name || ''));
-        parentId = String(parent.parent_id || '');
-      }
-      var folderPath = pathParts.length ? '/' + pathParts.join('/') : '/';
+      var folderPath = String(file.path || '/');
       var size = Math.max(0, Number(file.size) || 0);
       var configuredShelf = configById[String(shelf.id)] || {};
       var shelfNo = Number(shelf.shelf_no || configuredShelf.shelf_no || 0);
@@ -154,7 +116,7 @@ function exportInventory_(body) {
         size,
         shelfNo,
         inventorySafeText_(shelfName),
-        pathParts.length ? 'Thư mục con' : 'Thư mục gốc',
+        folderPath === '/' ? 'Thư mục gốc' : 'Thư mục con',
         inventorySafeText_(folderPath)
       ]);
       count++;

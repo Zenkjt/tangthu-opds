@@ -18,10 +18,7 @@ new_directory = """  function loadDirectory(b,parent){var c=cacheFor(b);if(c.dir
 if text.count(old_directory)!=1: raise SystemExit('Bookshelf patch anchor missing or ambiguous: loadDirectory')
 text=text.replace(old_directory,new_directory,1)
 
-old_all = "  function loadAllFiles(b){return loadRootShard(b).then(function(c){var tasks=[loadDirectory(b,b.root_folder_id)];(c.directories||[]).forEach(function(d){tasks.push(loadDirectory(b,d.id))});return Promise.all(tasks).then(function(){return filesOf(b)})})}"
-new_all = """  function loadAllFiles(b){var c=cacheFor(b);if(c.allFilesPromise)return c.allFilesPromise;var task=loadRootShard(b).then(function(){var tasks=[loadDirectory(b,b.root_folder_id)];(c.directories||[]).forEach(function(d){tasks.push(loadDirectory(b,d.id))});return Promise.all(tasks).then(function(){return filesOf(b)})});c.allFilesPromise=task;task.catch(function(){if(c.allFilesPromise===task)c.allFilesPromise=null});return task}"""
-if text.count(old_all)!=1: raise SystemExit('Bookshelf patch anchor missing or ambiguous: loadAllFiles')
-text=text.replace(old_all,new_all,1)
+# Search now uses the prebuilt per-shelf index; no loadAllFiles patch is needed.
 
 css_marker = "/* TANGTHU_BOOKSHELF_V10 */"
 css = r'''

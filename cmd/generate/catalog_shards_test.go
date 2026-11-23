@@ -213,3 +213,46 @@ func TestSnapshotManifestAcceptsProgressiveGeneration(t *testing.T) {
 		t.Fatal("manifest with mismatched page count must be rejected")
 	}
 }
+
+func TestCatalogSearchIndexContainsFilesAndFolderPaths(t *testing.T) {
+	out := t.TempDir()
+	branch := Branch{
+		Config: BranchConfig{ID: "shelf-search", DisplayName: "Search Shelf", RootFolderID: "root"},
+		Files: []FileEntry{
+			{ID: "folder-a", ParentID: "root", Name: "Văn học", IsFolder: true},
+			{ID: "book-a", ParentID: "folder-a", Name: "Đất rừng phương Nam.epub", MIME: "application/epub+zip", Size: 123},
+			{ID: "book-b", ParentID: "root", Name: "Science.pdf", MIME: "application/pdf", Size: 456},
+		},
+	}
+	if err := writeCatalogBranchShards(out, branch); err != nil {
+		t.Fatal(err)
+	}
+	meta := branchCatalogMeta(branch)
+	if len(meta.SearchShards) != 1 {
+		t.Fatalf("search shards = %#v, want one shard", meta.SearchShards)
+	}
+	data, err := os.ReadFile(filepath.Join(out, filepath.FromSlash(meta.SearchShards[0])))
+	if err != nil {
+		t.Fatal(err)
+	}
+	var shard struct {
+		BranchID string `json:"branch_id"`
+		Items    []struct {
+			ID   string `json:"id"`
+			Path string `json:"path"`
+		} `json:"items"`
+	}
+	if err := json.Unmarshal(data, &shard); err != nil {
+		t.Fatal(err)
+	}
+	if shard.BranchID != "shelf-search" || len(shard.Items) != 2 {
+		t.Fatalf("unexpected search shard: %#v", shard)
+	}
+	paths := map[string]string{}
+	for _, item := range shard.Items {
+		paths[item.ID] = item.Path
+	}
+	if paths["book-a"] != "/Văn học/" || paths["book-b"] != "/" {
+		t.Fatalf("unexpected indexed paths: %#v", paths)
+	}
+}
