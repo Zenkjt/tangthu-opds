@@ -246,13 +246,6 @@ function driveCheckPriority() {
       var due = isPriorityDue_(e) || !e.snapshot_available;
       var forced = !!force[id];
       var pending = hasPendingPriorityScan_(e);
-      var refreshOwned = Array.isArray(state.refresh_queue) && state.refresh_queue.some(function(j){ return String(j.branch_id) === id; });
-      if (refreshOwned) {
-        skipped++; skippedNames.push(String(branch.display_name || id) + ' REFRESH_OWNED');
-        cursor = (cursor + 1) % enabled.length; visitedThisRound++;
-        continue;
-      }
-
       // A pending scan always resumes first, regardless of priority or due time.
       if (!pending && !due && !forced) {
         skipped++;
@@ -517,7 +510,8 @@ function driveCheckContinuation() {
     var l3Job = state.l3_job;
     var refreshIndex = refreshQueue.findIndex(function(j){ return j.status !== 'paused_error'; });
     var l3Eligible = !!(l3Job && ['queued','running','retry_wait'].indexOf(l3Job.status) >= 0);
-    var jobType = refreshIndex >= 0 ? 'refresh' : (l3Eligible ? 'l3' : '');
+    // L3 continuation always runs before queued manual Refresh jobs.
+    var jobType = l3Eligible ? 'l3' : (refreshIndex >= 0 ? 'refresh' : '');
 
     if (!jobType) {
       delete state.continuation_pending;
@@ -793,7 +787,7 @@ function reloadShelf(e) {
     schedulePriorityContinuation_();
     priorityLog_('REFRESH QUEUED | branch=' + id + ' | name=' + String(branch.display_name || id));
     return {ok:true, queued:true, job_id:job.job_id, branch_id:id, display_name:branch.display_name,
-      message:'Đã đưa Refresh vào hàng ưu tiên. L3 sẽ tiếp tục sau khi Refresh hoàn tất.'};
+      message:'Đã đưa Refresh vào hàng chờ. L3 sẽ được tiếp tục trước; Refresh chạy khi L3 không còn việc.'};
   } finally {
     lock.releaseLock();
   }
@@ -1704,4 +1698,3 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
     max_modified_time:quick.max_modified_time
   };
 }
-
