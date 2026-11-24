@@ -11,6 +11,9 @@
 
 var PRIORITY_STATE_KEY = 'TANGTHU_DRIVE_PRIORITY_STATE_V2';
 var PRIORITY_LOCK_MS = 30000;
+var PRIORITY_EXECUTION_SLICE_MS = 50 * 1000;
+var PRIORITY_SHELF_BUDGET_MS = 15 * 60 * 1000;
+var PRIORITY_CONTINUATION_HANDLER = 'driveCheckContinuation';
 
 var PRIORITY_INTERVAL_MS = {
   1: 30 * 60 * 1000,
@@ -174,9 +177,28 @@ function driveCheckPriority() {
     priorityLog_('START | GLOBAL_BUDGET=300000ms | SHELF_BUDGET=50000ms | CHECKPOINT=DRIVE_PAGE');
 
     var config = readConfig_();
-    var enabled = config.branches.filter(function(b){ return b.enabled; });
-    var state = loadPriorityState_(enabled);
-    var force = consumeReloadQueue_();
+    var allEnabled = config.branches.filter(function(b){ return b.enabled; });
+    // Load the complete state first: loadPriorityState_ prunes entries that
+    // are not in its argument. L3 belongs to its own weekly scheduler.
+    var state = loadPriorityState_(allEnabled);
+    var enabled = allEnabled.filter(function(b) {
+      return Number(state.branches[String(b.id)].priority || 1) <= 2;
+    });
+
+    // Keep manual reload requests for L3 shelves for the weekly L3 runner.
+    var forceAll = consumeReloadQueue_();
+    var force = {};
+    var deferredL3Force = {};
+    Object.keys(forceAll).forEach(function(id) {
+      var entry = state.branches[String(id)];
+      if (entry && Number(entry.priority || 1) === 3) deferredL3Force[id] = forceAll[id];
+      else force[id] = forceAll[id];
+    });
+    if (Object.keys(deferredL3Force).length) {
+      PropertiesService.getScriptProperties().setProperty(
+        'TANGTHU_DRIVE_RELOAD_QUEUE_V1', JSON.stringify(deferredL3Force)
+      );
+    }
 
     var counts = {1:0, 2:0, 3:0};
     enabled.forEach(function(b) {
@@ -224,6 +246,12 @@ function driveCheckPriority() {
       var due = isPriorityDue_(e) || !e.snapshot_available;
       var forced = !!force[id];
       var pending = hasPendingPriorityScan_(e);
+      var refreshOwned = Array.isArray(state.refresh_queue) && state.refresh_queue.some(function(j){ return String(j.branch_id) === id; });
+      if (refreshOwned) {
+        skipped++; skippedNames.push(String(branch.display_name || id) + ' REFRESH_OWNED');
+        cursor = (cursor + 1) % enabled.length; visitedThisRound++;
+        continue;
+      }
 
       // A pending scan always resumes first, regardless of priority or due time.
       if (!pending && !due && !forced) {
@@ -271,12 +299,12 @@ function driveCheckPriority() {
       // The shelf budget is local to this shelf. Checkpoint and move the cursor;
       // do NOT return from the execution. This is the key V4 behavior.
       if (!result.completed) {
-        // Publish the current generation as a usable progressive snapshot.
-        // The generator accepts complete=false and builds the data collected so far.
-        if (e.snapshot_available && changed.indexOf(id) < 0) changed.push(id);
-        priorityLog_('PARTIAL SNAPSHOT READY ' + String(branch.display_name || id) +
-          ' | items=' + Number(e.snapshot_item_count || 0) +
-          ' | pages=' + (e.r2_snapshot_page_keys || []).length);
+        // The active R2 manifest still points to the last complete generation.
+        // A partial generation is private staging data and must not trigger a build.
+        priorityLog_('PARTIAL SNAPSHOT STAGED ' + String(branch.display_name || id) +
+          ' | active_snapshot_preserved=' + !!e.snapshot_available +
+          ' | staged_items=' + Number(e.snapshot_item_count || 0) +
+          ' | staged_pages=' + (e.r2_snapshot_page_keys || []).length);
         state.cursor = (cursor + 1) % enabled.length;
         savePriorityState_(state);
         priorityLog_(
@@ -422,56 +450,247 @@ function driveCheckPriority() {
   }
 }
 
+
+/** L3 monthly controller; all actual scanning runs through driveCheckContinuation(). */
+function setupDrivePriorityL3Trigger() {
+  var lock = LockService.getScriptLock();
+  lock.waitLock(PRIORITY_LOCK_MS);
+  try {
+    var triggers = ScriptApp.getProjectTriggers();
+    var deleted = 0;
+    for (var i = 0; i < triggers.length; i++) {
+      if (triggers[i].getHandlerFunction() === 'driveCheckPriorityL3') {
+        ScriptApp.deleteTrigger(triggers[i]);
+        deleted++;
+      }
+    }
+    [2, 10, 18, 26].forEach(function(day) {
+      ScriptApp.newTrigger('driveCheckPriorityL3')
+        .timeBased().onMonthDay(day).atHour(3)
+        .inTimezone('Asia/Ho_Chi_Minh').create();
+    });
+    priorityLog_('L3 TRIGGERS SETUP | days=2,10,18,26 | hour=03 | timezone=Asia/Ho_Chi_Minh | deleted=' + deleted + ' | state preserved');
+    return {ok:true, trigger:'driveCheckPriorityL3', days:[2,10,18,26], hour:3, timezone:'Asia/Ho_Chi_Minh', state_preserved:true};
+  } finally { lock.releaseLock(); }
+}
+
+function driveCheckPriorityL3() {
+  var lock = LockService.getScriptLock();
+  if (!lock.tryLock(PRIORITY_LOCK_MS)) return {ok:false, skipped:true};
+  try {
+    var config = readConfig_();
+    var allEnabled = config.branches.filter(function(b){ return b.enabled; });
+    var state = loadPriorityState_(allEnabled);
+    if (!state.l3_job || state.l3_job.status === 'done') {
+      var ids = allEnabled.filter(function(b) {
+        return Number(state.branches[String(b.id)].priority || 1) === 3;
+      }).map(function(b){ return String(b.id); });
+      state.l3_job = {
+        cycle: Utilities.formatDate(new Date(), 'Asia/Ho_Chi_Minh', 'yyyy-MM-dd'),
+        queue: ids, index: 0, current_id: '', shelf_used_ms: 0,
+        status: ids.length ? 'queued' : 'done', checked: [], changed: [],
+        created_at: new Date().toISOString()
+      };
+      priorityLog_('L3 JOB CREATED | cycle=' + state.l3_job.cycle + ' | shelves=' + ids.length);
+    } else {
+      state.l3_job.status = 'queued';
+      state.l3_job.error_count = 0;
+      priorityLog_('L3 JOB RESUME | cycle=' + state.l3_job.cycle + ' | index=' + state.l3_job.index);
+    }
+    savePriorityState_(state);
+    if (state.l3_job.status !== 'done') schedulePriorityContinuation_();
+    return {ok:true, queued:true, cycle:state.l3_job.cycle, remaining:state.l3_job.queue.length-state.l3_job.index};
+  } finally { lock.releaseLock(); }
+}
+
+function driveCheckContinuation() {
+  var lock = LockService.getScriptLock();
+  if (!lock.tryLock(PRIORITY_LOCK_MS)) {
+    schedulePriorityContinuation_();
+    return {ok:false, skipped:true};
+  }
+  var startedAt = Date.now();
+  try {
+    var config = readConfig_();
+    var enabled = config.branches.filter(function(b){ return b.enabled; });
+    var state = loadPriorityState_(enabled);
+    var refreshQueue = Array.isArray(state.refresh_queue) ? state.refresh_queue : [];
+    var l3Job = state.l3_job;
+    var jobType = refreshQueue.length ? 'refresh' : (l3Job && l3Job.status !== 'done' ? 'l3' : '');
+    if (!jobType) {
+      delete state.continuation_pending;
+      savePriorityState_(state);
+      return {ok:true, idle:true};
+    }
+
+    var id, branch, entry, job;
+    if (jobType === 'refresh') {
+      job = refreshQueue[0]; id = String(job.branch_id);
+    } else {
+      job = l3Job;
+      if (!job.current_id) job.current_id = String(job.queue[job.index] || '');
+      id = job.current_id;
+    }
+    branch = findBranchById_(config, id);
+    entry = state.branches[id];
+    if (!branch || !entry || !branch.enabled) {
+      priorityLog_('CONTINUATION DROP | type=' + jobType + ' | branch=' + id + ' | reason=missing_or_disabled');
+      if (jobType === 'refresh') refreshQueue.shift();
+      else { job.index++; job.current_id=''; job.shelf_used_ms=0; }
+      state.refresh_queue = refreshQueue; savePriorityState_(state);
+      schedulePriorityContinuation_();
+      return {ok:true, dropped:true, branch_id:id};
+    }
+
+    var sliceStart = Date.now();
+    var hadSnapshot = !!entry.snapshot_available;
+    var result;
+    try {
+      if (jobType === 'refresh') {
+        // Refresh deliberately skips quick scan; resume an existing full generation if present.
+        var quickMeta = {item_count:Number(entry.item_count || 0), total_size:Number(entry.total_size || 0), max_modified_time:String(entry.max_modified_time || '')};
+        var apiKey = PropertiesService.getScriptProperties().getProperty('TANGTHU_GOOGLE_API_KEY');
+        if (!apiKey) throw new Error('Apps Script chưa được cấu hình TANGTHU_GOOGLE_API_KEY.');
+        result = scanPriorityFull_(branch, entry, sliceStart, apiKey, quickMeta,
+          PRIORITY_EXECUTION_SLICE_MS, PRIORITY_EXECUTION_SLICE_MS, sliceStart);
+      } else {
+        result = scanPriorityShelf_(branch, entry, sliceStart, false,
+          PRIORITY_EXECUTION_SLICE_MS, PRIORITY_EXECUTION_SLICE_MS, sliceStart);
+      }
+    } catch (err) {
+      job.error_count = Number(job.error_count || 0) + 1;
+      job.last_error = String(err);
+      job.status = job.error_count >= 5 ? 'paused_error' : 'retry_wait';
+      savePriorityState_(state);
+      if (job.error_count < 5) schedulePriorityContinuation_();
+      priorityLog_('CONTINUATION ERROR | type=' + jobType + ' | branch=' + id + ' | retry=' + job.error_count + '/5 | ' + String(err));
+      throw err;
+    }
+
+    var elapsed = Date.now() - sliceStart;
+    job.shelf_used_ms = Number(job.shelf_used_ms || 0) + elapsed;
+    if (!result.completed) {
+      if (job.shelf_used_ms >= PRIORITY_SHELF_BUDGET_MS) {
+        job.shelf_used_ms = 0;
+        job.pause_reason = '15m_shelf_budget';
+        priorityLog_('SHELF YIELD 15M | type=' + jobType + ' | branch=' + id + ' | checkpoint saved');
+      }
+      if (jobType === 'refresh') state.refresh_queue = refreshQueue;
+      else { job.status='running'; job.current_id=id; }
+      savePriorityState_(state);
+      schedulePriorityContinuation_();
+      return {ok:true, queued:true, type:jobType, branch_id:id, shelf_elapsed_ms:job.shelf_used_ms};
+    }
+
+    priorityFinalizeShelf_(entry, result, hadSnapshot, jobType, id);
+    var refreshNeedsDispatch = false;
+    if (jobType === 'refresh') {
+      refreshQueue.shift(); state.refresh_queue = refreshQueue;
+      refreshNeedsDispatch = !!result.confirmed_changed || !hadSnapshot;
+      priorityLog_('REFRESH COMPLETE | branch=' + id + ' | changed=' + !!result.confirmed_changed);
+    } else {
+      job.checked.push(id);
+      if (result.confirmed_changed || !hadSnapshot) {
+        job.changed.push(id);
+        job.dispatch_pending_id = id;
+      }
+      job.index++; job.current_id=''; job.shelf_used_ms=0; job.status = job.index >= job.queue.length ? 'done' : 'queued';
+      priorityLog_('L3 SHELF COMPLETE | branch=' + id + ' | changed=' + !!result.confirmed_changed + ' | next=' + job.index + '/' + job.queue.length);
+    }
+    savePriorityState_(state);
+    if (refreshNeedsDispatch) {
+      dispatchPriorityBuild_([id]);
+      priorityLog_('REFRESH DISPATCH | branch=' + id + ' | changed=' + !!result.confirmed_changed + ' | bootstrapped=' + !hadSnapshot);
+    }
+    if (jobType === 'l3' && job.dispatch_pending_id) {
+      dispatchPriorityBuild_([job.dispatch_pending_id]);
+      priorityLog_('L3 DISPATCH | completed_shelf=' + job.dispatch_pending_id);
+      job.dispatch_pending_id = '';
+      job.dispatched_at = new Date().toISOString();
+      savePriorityState_(state);
+    }
+    if (refreshQueue.length || (l3Job && l3Job.status !== 'done')) schedulePriorityContinuation_();
+    else removePriorityContinuationTriggers_();
+    return {ok:true, completed:true, type:jobType, branch_id:id};
+  } finally { lock.releaseLock(); }
+}
+
+function priorityFinalizeShelf_(entry, result, hadSnapshot, jobType, id) {
+  var wasChanged = !!result.confirmed_changed;
+  entry.fingerprint = result.fingerprint || entry.fingerprint || '';
+  entry.last_scan = new Date().toISOString();
+  entry.item_count = Number(result.item_count || entry.item_count || 0);
+  entry.total_size = Number(result.total_size || entry.total_size || 0);
+  entry.max_modified_time = String(result.max_modified_time || entry.max_modified_time || '');
+  entry.baseline_complete = true;
+  entry.snapshot_complete = true;
+  entry.scan_queue = null; entry.visited = {};
+  entry.item_count_work = 0; entry.total_size_work = 0; entry.max_modified_work = '';
+  entry.scan_folder_id = ''; entry.scan_page_token = '';
+  entry.full_scan_queue = null; entry.full_visited = {};
+  entry.full_scan_folder_id = ''; entry.full_scan_page_token = '';
+  if (!hadSnapshot) entry.snapshot_available = true;
+  // Only scheduled L3 observations affect automatic priority streaks.
+  // A user-requested Refresh updates the baseline but is not an observation.
+  if (jobType === 'l3') {
+    if (wasChanged) {
+      entry.change_streak = Number(entry.change_streak || 0) + 1;
+      entry.no_change_streak = 0;
+      if (Number(entry.priority || 1) === 3 && entry.change_streak >= 2) entry.priority = 2;
+    } else {
+      entry.change_streak = 0;
+      entry.no_change_streak = Number(entry.no_change_streak || 0) + 1;
+      if (Number(entry.priority || 1) === 2 && entry.no_change_streak >= 10) entry.priority = 3;
+    }
+  }
+}
+
+function schedulePriorityContinuation_() {
+  var triggers = ScriptApp.getProjectTriggers();
+  for (var i=0; i<triggers.length; i++) {
+    if (triggers[i].getHandlerFunction() === PRIORITY_CONTINUATION_HANDLER) return;
+  }
+  ScriptApp.newTrigger(PRIORITY_CONTINUATION_HANDLER).timeBased().after(60 * 1000).create();
+}
+
+function removePriorityContinuationTriggers_() {
+  ScriptApp.getProjectTriggers().forEach(function(t) {
+    if (t.getHandlerFunction() === PRIORITY_CONTINUATION_HANDLER) ScriptApp.deleteTrigger(t);
+  });
+}
+
 function reloadShelf(e) {
   var body = e && e.action ? e : {};
   var id = String(body.branch_id || body.shelf_id || '').trim();
   if (!id) return {ok:false, error:'Thiếu branch_id.'};
-  var config = readConfig_();
-  var branch = findBranchById_(config, id);
-  if (!branch || !branch.enabled) return {ok:false, error:'Không tìm thấy tủ sách đang hoạt động.'};
-
-  var startedAt = Date.now();
-  var state = loadPriorityState_(config.branches.filter(function(b){return b.enabled;}));
-  var entry = state.branches[id];
-  priorityLog_(
-    'RELOAD START ' + String(branch.display_name || id) +
-    ' | priority=L' + Number(entry.priority || 1)
-  );
-
-  var hadSnapshotBeforeReload = !!entry.snapshot_available;
-  var result = scanPriorityShelf_(branch, entry, startedAt, true, 50 * 1000, 300 * 1000, startedAt);
-  if (!result.completed) {
-    state.branches[id] = entry;
+  var lock = LockService.getScriptLock();
+  if (!lock.tryLock(PRIORITY_LOCK_MS)) return {ok:false, queued:true, error:'Hệ thống đang xử lý tác vụ khác; hãy thử lại.'};
+  try {
+    var config = readConfig_();
+    var branch = findBranchById_(config, id);
+    if (!branch || !branch.enabled) return {ok:false, error:'Không tìm thấy tủ sách đang hoạt động.'};
+    var enabled = config.branches.filter(function(b){return b.enabled;});
+    var state = loadPriorityState_(enabled);
+    var queue = Array.isArray(state.refresh_queue) ? state.refresh_queue : [];
+    var existingJob = queue.filter(function(j){return String(j.branch_id) === id;})[0];
+    if (existingJob) {
+      existingJob.error_count = 0; existingJob.status = 'queued';
+      savePriorityState_(state); schedulePriorityContinuation_();
+      return {ok:true, queued:true, duplicate:true, branch_id:id, display_name:branch.display_name};
+    }
+    // Do not run Refresh concurrently with an L3 job already holding this shelf.
+    if (state.l3_job && state.l3_job.status !== 'done' &&
+        (state.l3_job.queue || []).slice(Number(state.l3_job.index || 0)).indexOf(id) >= 0) {
+      return {ok:false, busy:true, branch_id:id, message:'Tủ đang thuộc chu kỳ L3 hiện hành; hãy Refresh sau khi chu kỳ này kết thúc.'};
+    }
+    queue.push({branch_id:id, status:'queued', shelf_used_ms:0, created_at:new Date().toISOString()});
+    state.refresh_queue = queue;
     savePriorityState_(state);
-    if (entry.snapshot_available) dispatchPriorityBuild_([id]);
-    return {ok:true, queued:true, branch_id:id, display_name:branch.display_name, message:'Tủ lớn; snapshot từng phần đã được publish nếu có dữ liệu. Hệ thống sẽ tiếp tục quét và cập nhật catalog ở các lượt sau.'};
-  }
-
-  var oldFingerprint = entry.fingerprint || '';
-  var changed = !!oldFingerprint && !!result.confirmed_changed;
-  entry.fingerprint = result.fingerprint;
-  entry.last_scan = new Date().toISOString();
-  entry.item_count = result.item_count;
-  entry.total_size = result.total_size;
-  entry.max_modified_time = result.max_modified_time;
-  entry.baseline_complete = true;
-  entry.snapshot_complete = true;
-  entry.scan_queue = null; entry.visited = {};
-  entry.item_count_work = 0; entry.total_size_work = 0; entry.max_modified_work = ''; entry.full_items_work = null;
-  state.branches[id] = entry;
-  savePriorityState_(state);
-  if (changed || !hadSnapshotBeforeReload) {
-    priorityLog_('RELOAD DISPATCH ' + String(branch.display_name || id) +
-      ' | changed=' + changed + ' | snapshot_bootstrapped=' + !hadSnapshotBeforeReload);
-    dispatchPriorityBuild_([id]);
-  } else {
-    priorityLog_(
-      'RELOAD END ' + String(branch.display_name || id) +
-      ' | unchanged | elapsed=' + priorityElapsed_(startedAt)
-    );
-  }
-
-  return {ok:true, branch_id:id, display_name:branch.display_name, changed:changed, dispatched:changed};
+    schedulePriorityContinuation_();
+    priorityLog_('REFRESH QUEUED | branch=' + id + ' | name=' + String(branch.display_name || id));
+    return {ok:true, queued:true, branch_id:id, display_name:branch.display_name,
+      message:'Đã đưa Refresh vào hàng đợi. Quét full sẽ tự tiếp tục theo checkpoint, tối đa 15 phút xử lý mỗi đợt.'};
+  } finally { lock.releaseLock(); }
 }
 
 function reloadShelfById_(id) {
@@ -573,6 +792,7 @@ function loadPriorityState_(enabled) {
 
   if (!state.branches) state.branches = {};
   if (state.cursor == null) state.cursor = 0;
+  if (!Array.isArray(state.refresh_queue)) state.refresh_queue = [];
 
   var valid = {};
   enabled.forEach(function(b){
@@ -1237,10 +1457,8 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
       entry.full_scan_folder_id = currentFolderId;
       entry.full_scan_page_token = currentPageToken;
       entry.full_rows = null;
-      // Publish all pages collected so far. Later DriveCheck runs resume this
-      // generation and replace the partial manifest with a newer checkpoint.
-      r2SnapshotPublishManifest_(branch, entry, false);
-      entry.snapshot_available = true;
+      // Keep the current manifest untouched while the new generation is staged.
+      // Only the completed generation may replace the active manifest.
       entry.snapshot_complete = false;
       priorityLog_('CHECKPOINT-FULL ' + String(branch.display_name || branch.id) +
         ' | rows=' + rowCount + ' | queue=' + queue.length +
@@ -1335,7 +1553,7 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
     completed:true,
     confirmed_changed:confirmedChanged,
     fingerprint:fingerprint,
-    item_count:quick.item_count,
+    item_count:rowCount,
     total_size:quick.total_size,
     max_modified_time:quick.max_modified_time
   };
