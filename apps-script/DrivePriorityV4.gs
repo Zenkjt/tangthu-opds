@@ -509,36 +509,51 @@ function driveCheckContinuation() {
     schedulePriorityContinuation_();
     return {ok:false, skipped:true};
   }
-  var startedAt = Date.now();
   try {
     var config = readConfig_();
     var enabled = config.branches.filter(function(b){ return b.enabled; });
     var state = loadPriorityState_(enabled);
     var refreshQueue = Array.isArray(state.refresh_queue) ? state.refresh_queue : [];
     var l3Job = state.l3_job;
-    var jobType = refreshQueue.length ? 'refresh' : (l3Job && l3Job.status !== 'done' ? 'l3' : '');
+    var refreshIndex = refreshQueue.findIndex(function(j){ return j.status !== 'paused_error'; });
+    var l3Eligible = !!(l3Job && ['queued','running','retry_wait'].indexOf(l3Job.status) >= 0);
+    var jobType = refreshIndex >= 0 ? 'refresh' : (l3Eligible ? 'l3' : '');
+
     if (!jobType) {
       delete state.continuation_pending;
       savePriorityState_(state);
+      removePriorityContinuationTriggers_();
       return {ok:true, idle:true};
     }
 
     var id, branch, entry, job;
     if (jobType === 'refresh') {
-      job = refreshQueue[0]; id = String(job.branch_id);
+      job = refreshQueue[refreshIndex];
+      id = String(job.branch_id);
+      job.status = 'running';
+      updateRefreshStatus_(state, job, 'running');
     } else {
       job = l3Job;
       if (!job.current_id) job.current_id = String(job.queue[job.index] || '');
       id = job.current_id;
     }
+
     branch = findBranchById_(config, id);
     entry = state.branches[id];
     if (!branch || !entry || !branch.enabled) {
       priorityLog_('CONTINUATION DROP | type=' + jobType + ' | branch=' + id + ' | reason=missing_or_disabled');
-      if (jobType === 'refresh') refreshQueue.shift();
-      else { job.index++; job.current_id=''; job.shelf_used_ms=0; }
-      state.refresh_queue = refreshQueue; savePriorityState_(state);
-      schedulePriorityContinuation_();
+      if (jobType === 'refresh') {
+        refreshQueue.splice(refreshIndex, 1);
+        updateRefreshStatus_(state, job, 'failed', 'Tủ không tồn tại hoặc đã bị vô hiệu hóa.');
+      } else {
+        job.index++; job.current_id=''; job.shelf_used_ms=0;
+        job.status = job.index >= job.queue.length ? 'done' : 'queued';
+      }
+      state.refresh_queue = refreshQueue;
+      savePriorityState_(state);
+      if (refreshQueue.some(function(j){return j.status !== 'paused_error';}) ||
+          (l3Job && ['queued','running','retry_wait'].indexOf(l3Job.status) >= 0)) schedulePriorityContinuation_();
+      else removePriorityContinuationTriggers_();
       return {ok:true, dropped:true, branch_id:id};
     }
 
@@ -547,8 +562,12 @@ function driveCheckContinuation() {
     var result;
     try {
       if (jobType === 'refresh') {
-        // Refresh deliberately skips quick scan; resume an existing full generation if present.
-        var quickMeta = {item_count:Number(entry.item_count || 0), total_size:Number(entry.total_size || 0), max_modified_time:String(entry.max_modified_time || '')};
+        // Refresh skips quick scan and resumes the shared full-scan checkpoint.
+        var quickMeta = {
+          item_count:Number(entry.item_count || 0),
+          total_size:Number(entry.total_size || 0),
+          max_modified_time:String(entry.max_modified_time || '')
+        };
         var apiKey = PropertiesService.getScriptProperties().getProperty('TANGTHU_GOOGLE_API_KEY');
         if (!apiKey) throw new Error('Apps Script chưa được cấu hình TANGTHU_GOOGLE_API_KEY.');
         result = scanPriorityFull_(branch, entry, sliceStart, apiKey, quickMeta,
@@ -561,8 +580,17 @@ function driveCheckContinuation() {
       job.error_count = Number(job.error_count || 0) + 1;
       job.last_error = String(err);
       job.status = job.error_count >= 5 ? 'paused_error' : 'retry_wait';
+      if (jobType === 'refresh') {
+        updateRefreshStatus_(state, job, job.status, job.last_error);
+        state.refresh_queue = refreshQueue;
+      }
       savePriorityState_(state);
       if (job.error_count < 5) schedulePriorityContinuation_();
+      else if (jobType === 'refresh' &&
+          (refreshQueue.some(function(j){return j.status !== 'paused_error';}) ||
+           (l3Job && ['queued','running','retry_wait'].indexOf(l3Job.status) >= 0))) {
+        schedulePriorityContinuation_();
+      }
       priorityLog_('CONTINUATION ERROR | type=' + jobType + ' | branch=' + id + ' | retry=' + job.error_count + '/5 | ' + String(err));
       throw err;
     }
@@ -575,8 +603,13 @@ function driveCheckContinuation() {
         job.pause_reason = '15m_shelf_budget';
         priorityLog_('SHELF YIELD 15M | type=' + jobType + ' | branch=' + id + ' | checkpoint saved');
       }
-      if (jobType === 'refresh') state.refresh_queue = refreshQueue;
-      else { job.status='running'; job.current_id=id; }
+      if (jobType === 'refresh') {
+        job.status = 'queued';
+        state.refresh_queue = refreshQueue;
+        updateRefreshStatus_(state, job, 'queued');
+      } else {
+        job.status='running'; job.current_id=id;
+      }
       savePriorityState_(state);
       schedulePriorityContinuation_();
       return {ok:true, queued:true, type:jobType, branch_id:id, shelf_elapsed_ms:job.shelf_used_ms};
@@ -585,8 +618,14 @@ function driveCheckContinuation() {
     priorityFinalizeShelf_(entry, result, hadSnapshot, jobType, id);
     var refreshNeedsDispatch = false;
     if (jobType === 'refresh') {
-      refreshQueue.shift(); state.refresh_queue = refreshQueue;
+      refreshQueue.splice(refreshIndex, 1);
+      state.refresh_queue = refreshQueue;
       refreshNeedsDispatch = !!result.confirmed_changed || !hadSnapshot;
+      updateRefreshStatus_(state, job, refreshNeedsDispatch ? 'dispatch_pending' : 'completed', '', {
+        changed:refreshNeedsDispatch,
+        build_dispatched:false,
+        completed_at:new Date().toISOString()
+      });
       priorityLog_('REFRESH COMPLETE | branch=' + id + ' | changed=' + !!result.confirmed_changed);
     } else {
       job.checked.push(id);
@@ -594,13 +633,22 @@ function driveCheckContinuation() {
         job.changed.push(id);
         job.dispatch_pending_id = id;
       }
-      job.index++; job.current_id=''; job.shelf_used_ms=0; job.status = job.index >= job.queue.length ? 'done' : 'queued';
+      job.index++; job.current_id=''; job.shelf_used_ms=0;
+      job.status = job.index >= job.queue.length ? 'done' : 'queued';
       priorityLog_('L3 SHELF COMPLETE | branch=' + id + ' | changed=' + !!result.confirmed_changed + ' | next=' + job.index + '/' + job.queue.length);
     }
     savePriorityState_(state);
+
     if (refreshNeedsDispatch) {
-      dispatchPriorityBuild_([id]);
-      priorityLog_('REFRESH DISPATCH | branch=' + id + ' | changed=' + !!result.confirmed_changed + ' | bootstrapped=' + !hadSnapshot);
+      try {
+        dispatchPriorityBuild_([id]);
+        updateRefreshStatus_(state, job, 'completed', '', {build_dispatched:true});
+        priorityLog_('REFRESH DISPATCH | branch=' + id + ' | changed=' + !!result.confirmed_changed + ' | bootstrapped=' + !hadSnapshot);
+      } catch (dispatchErr) {
+        updateRefreshStatus_(state, job, 'dispatch_error', String(dispatchErr), {changed:true,build_dispatched:false});
+        priorityLog_('REFRESH DISPATCH ERROR | branch=' + id + ' | ' + String(dispatchErr));
+      }
+      savePriorityState_(state);
     }
     if (jobType === 'l3' && job.dispatch_pending_id) {
       dispatchPriorityBuild_([job.dispatch_pending_id]);
@@ -609,10 +657,51 @@ function driveCheckContinuation() {
       job.dispatched_at = new Date().toISOString();
       savePriorityState_(state);
     }
-    if (refreshQueue.length || (l3Job && l3Job.status !== 'done')) schedulePriorityContinuation_();
-    else removePriorityContinuationTriggers_();
+    if (refreshQueue.some(function(j){return j.status !== 'paused_error';}) ||
+        (l3Job && ['queued','running','retry_wait'].indexOf(l3Job.status) >= 0)) {
+      schedulePriorityContinuation_();
+    } else {
+      removePriorityContinuationTriggers_();
+    }
     return {ok:true, completed:true, type:jobType, branch_id:id};
-  } finally { lock.releaseLock(); }
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function updateRefreshStatus_(state, job, status, error, extra) {
+  if (!state.refresh_status) state.refresh_status = {};
+  var id = String(job.job_id || job.branch_id);
+  var previous = state.refresh_status[id] || {};
+  var record = {
+    job_id:id,
+    branch_id:String(job.branch_id),
+    status:status,
+    error_count:Number(job.error_count || 0),
+    last_error:String(error || job.last_error || ''),
+    updated_at:new Date().toISOString()
+  };
+  Object.keys(previous).forEach(function(k) {
+    if (record[k] === undefined) record[k] = previous[k];
+  });
+  Object.keys(extra || {}).forEach(function(k) { record[k] = extra[k]; });
+  state.refresh_status[id] = record;
+
+  // Keep recent history bounded; never prune active jobs.
+  var keys = Object.keys(state.refresh_status);
+  if (keys.length > 100) {
+    keys.sort(function(a,b) {
+      return String(state.refresh_status[a].updated_at || '').localeCompare(
+        String(state.refresh_status[b].updated_at || '')
+      );
+    });
+    for (var i=0; i<keys.length && Object.keys(state.refresh_status).length > 100; i++) {
+      var old = state.refresh_status[keys[i]];
+      if (['completed','dispatch_error','failed'].indexOf(old.status) >= 0) {
+        delete state.refresh_status[keys[i]];
+      }
+    }
+  }
 }
 
 function priorityFinalizeShelf_(entry, result, hadSnapshot, jobType, id) {
@@ -673,24 +762,80 @@ function reloadShelf(e) {
     var state = loadPriorityState_(enabled);
     var queue = Array.isArray(state.refresh_queue) ? state.refresh_queue : [];
     var existingJob = queue.filter(function(j){return String(j.branch_id) === id;})[0];
+
     if (existingJob) {
-      existingJob.error_count = 0; existingJob.status = 'queued';
-      savePriorityState_(state); schedulePriorityContinuation_();
-      return {ok:true, queued:true, duplicate:true, branch_id:id, display_name:branch.display_name};
+      if (existingJob.status === 'paused_error') {
+        existingJob.error_count = 0;
+        existingJob.last_error = '';
+      }
+      existingJob.status = 'queued';
+      updateRefreshStatus_(state, existingJob, 'queued', '');
+      state.refresh_queue = queue;
+      savePriorityState_(state);
+      schedulePriorityContinuation_();
+      return {ok:true, queued:true, duplicate:true, job_id:String(existingJob.job_id || existingJob.branch_id),
+        branch_id:id, display_name:branch.display_name};
     }
-    // Do not run Refresh concurrently with an L3 job already holding this shelf.
-    if (state.l3_job && state.l3_job.status !== 'done' &&
-        (state.l3_job.queue || []).slice(Number(state.l3_job.index || 0)).indexOf(id) >= 0) {
-      return {ok:false, busy:true, branch_id:id, message:'Tủ đang thuộc chu kỳ L3 hiện hành; hãy Refresh sau khi chu kỳ này kết thúc.'};
-    }
-    queue.push({branch_id:id, status:'queued', shelf_used_ms:0, created_at:new Date().toISOString()});
+
+    // Refresh is allowed to pre-empt L3; the shared scan checkpoint is preserved.
+    var job = {
+      job_id:Utilities.getUuid(),
+      branch_id:id,
+      status:'queued',
+      error_count:0,
+      shelf_used_ms:0,
+      created_at:new Date().toISOString()
+    };
+    queue.push(job);
     state.refresh_queue = queue;
+    updateRefreshStatus_(state, job, 'queued', '');
     savePriorityState_(state);
     schedulePriorityContinuation_();
     priorityLog_('REFRESH QUEUED | branch=' + id + ' | name=' + String(branch.display_name || id));
-    return {ok:true, queued:true, branch_id:id, display_name:branch.display_name,
-      message:'Đã đưa Refresh vào hàng đợi. Quét full sẽ tự tiếp tục theo checkpoint, tối đa 15 phút xử lý mỗi đợt.'};
-  } finally { lock.releaseLock(); }
+    return {ok:true, queued:true, job_id:job.job_id, branch_id:id, display_name:branch.display_name,
+      message:'Đã đưa Refresh vào hàng ưu tiên. L3 sẽ tiếp tục sau khi Refresh hoàn tất.'};
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function getRefreshStatus(body) {
+  body = body || {};
+  var branchId = String(body.branch_id || '').trim();
+  var jobId = String(body.job_id || '').trim();
+  if (!branchId && !jobId) return {ok:false,error:'Thiếu branch_id hoặc job_id.'};
+
+  var config = readConfig_();
+  var enabled = config.branches.filter(function(b){return b.enabled;});
+  var state = loadPriorityState_(enabled);
+  var queue = Array.isArray(state.refresh_queue) ? state.refresh_queue : [];
+  var active = null;
+
+  if (jobId && state.refresh_status && state.refresh_status[jobId]) {
+    active = state.refresh_status[jobId];
+  } else if (branchId) {
+    var matches = Object.keys(state.refresh_status || {}).map(function(k){return state.refresh_status[k];})
+      .filter(function(x){return String(x.branch_id) === branchId;});
+    matches.sort(function(a,b){return String(b.updated_at).localeCompare(String(a.updated_at));});
+    if (matches.length) active = matches[0];
+  }
+  if (!active) {
+    var queued = queue.filter(function(j){
+      return (jobId && String(j.job_id || j.branch_id) === jobId) ||
+        (branchId && String(j.branch_id) === branchId);
+    })[0];
+    if (queued) {
+      active = {
+        job_id:String(queued.job_id || queued.branch_id),
+        branch_id:String(queued.branch_id),
+        status:queued.status || 'queued',
+        error_count:Number(queued.error_count || 0),
+        last_error:String(queued.last_error || '')
+      };
+    }
+  }
+  if (!active) return {ok:true,found:false,status:'not_found',branch_id:branchId};
+  return {ok:true,found:true,job:active};
 }
 
 function reloadShelfById_(id) {
@@ -793,6 +938,7 @@ function loadPriorityState_(enabled) {
   if (!state.branches) state.branches = {};
   if (state.cursor == null) state.cursor = 0;
   if (!Array.isArray(state.refresh_queue)) state.refresh_queue = [];
+  if (!state.refresh_status) state.refresh_status = {};
 
   var valid = {};
   enabled.forEach(function(b){

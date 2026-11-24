@@ -723,6 +723,7 @@ function doPost(e) {
     var action = String(body.action || '').trim().toLowerCase();
 
     if (action === 'reload') return jsonResponse(reloadShelf(body));
+    if (action === 'refresh_status') return jsonResponse(getRefreshStatus(body));
 
     if (action === 'create' || action === 'rename' || action === 'delete') {
 
