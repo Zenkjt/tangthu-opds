@@ -3,7 +3,7 @@ name: Cloudflare Pages
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "21 21 * * *"
   repository_dispatch:
     types: [drive_changed]
 
