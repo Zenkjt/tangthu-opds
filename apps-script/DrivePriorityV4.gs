@@ -173,8 +173,8 @@ function driveCheckPriority() {
 
   try {
     var GLOBAL_BUDGET_MS = 300 * 1000;
-    var SHELF_BUDGET_MS = 50 * 1000;
-    priorityLog_('START | GLOBAL_BUDGET=300000ms | SHELF_BUDGET=50000ms | CHECKPOINT=DRIVE_PAGE');
+    var SHELF_BUDGET_MS = 90 * 1000;
+    priorityLog_('START | GLOBAL_BUDGET=300000ms | SHELF_BUDGET=00000ms | CHECKPOINT=DRIVE_PAGE');
 
     var config = readConfig_();
     var allEnabled = config.branches.filter(function(b){ return b.enabled; });
