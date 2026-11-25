@@ -1045,7 +1045,7 @@ button:disabled{cursor:default;color:#777}
       if(token!==state.renderToken)return;
       if(!q)$('pathBar').textContent=[b.name].concat(folderPath(b,state.parent)).join('  ›  ');
       var rows=[];
-      if(q){searchBranches.forEach(function(shelf){(cacheFor(shelf).searchItems||[]).forEach(function(item){var f={id:item.id,parent_id:item.parent_id,name:item.name,mime:item.mime,size:item.size,modified:item.modified,checksum:item.checksum,folder:false};var target=[f.name,f.mime,shelf.name].join(' ');if(fuzzyMatch(q,target))rows.push({file:f,shelf:shelf})})})}
+      if(q){searchBranches.forEach(function(shelf){(cacheFor(shelf).searchItems||[]).forEach(function(item){var f={id:item.id,parent_id:item.parent_id,name:item.name,mime:item.mime,size:item.size,modified:item.modified,checksum:item.checksum,path:item.path||'/',folder:false};var target=[f.name,f.mime,shelf.name,f.path].join(' ');if(fuzzyMatch(q,target))rows.push({file:f,shelf:shelf})})})}
       else{rows=children(b,state.parent).map(function(f){return {file:f,shelf:b}})}
       $('itemCount').textContent=rows.length+(q?' kết quả':' mục');
       if(!rows.length){body.innerHTML='<div class="empty">'+(q?'Không tìm thấy file phù hợp.':'Thư mục này chưa có nội dung.')+'</div>';return}
@@ -1058,7 +1058,7 @@ button:disabled{cursor:default;color:#777}
         if(f.folder){tr.innerHTML='<td>📁</td><td class="name-cell"><strong>'+esc(f.name)+'</strong><small>Thư mục</small></td><td></td><td>DIR</td><td></td><td></td>';tr.onclick=function(){state.parent=f.id;state.selected=f.id;pushNavState();renderContent()};}
         else {
           var m=f.metadata||{};var a=authors(m);var sub=[m.year,m.series].filter(Boolean).join(' · ');
-          var shelfLine=searchAll?'<small class="meta-line shelf-name">'+esc(shelf.name)+'</small>':'';
+          var locationParts=String(f.path||'/').split('/').filter(Boolean);var locationLabel=[shelf.name].concat(locationParts).join(' / ');var shelfLine=q?'<small class="meta-line shelf-name">'+esc(locationLabel)+'</small>':'';
           var img=f.cover?'<img class="cover" loading="lazy" src="'+esc(f.cover)+'" alt="" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'">':'<span class="cover-fallback">'+esc(ext(f.name))+'</span>';
           var fallback=f.cover?'<span class="cover-fallback" style="display:none">'+esc(ext(f.name))+'</span>':'';
           tr.innerHTML='<td>'+img+fallback+'</td><td class="name-cell"><strong>'+esc(f.name)+'</strong><small>'+esc((m.title&&m.title!==f.name)?m.title:'')+'</small><div class="meta-line">'+esc(sub)+'</div>'+shelfLine+'</td><td class="author-cell">'+esc(a||'—')+'</td><td>'+esc(ext(f.name))+'</td><td>'+esc(size(f.size))+'</td><td>'+esc(displayDate(f.modified))+'</td>';
