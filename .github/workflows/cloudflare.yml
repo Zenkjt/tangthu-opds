@@ -2,10 +2,22 @@ name: Cloudflare Pages
 
 on:
   workflow_dispatch:
+    inputs:
+      build_mode:
+        description: "Chọn kiểu build"
+        type: choice
+        required: true
+        default: full
+        options:
+          - full
+          - partial
+      shelves:
+        description: "ID các tủ cần cập nhật (phân cách bằng dấu phẩy; để trống = tất cả tủ đang hoạt động, chỉ áp dụng cho partial)"
+        type: string
+        required: false
+        default: ""
   schedule:
     - cron: "21 21 * * *"
-  repository_dispatch:
-    types: [drive_changed]
 
 permissions:
   contents: write
