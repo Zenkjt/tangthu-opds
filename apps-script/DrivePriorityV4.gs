@@ -292,12 +292,19 @@ function driveCheckPriority() {
       // The shelf budget is local to this shelf. Checkpoint and move the cursor;
       // do NOT return from the execution. This is the key V4 behavior.
       if (!result.completed) {
-        // The active R2 manifest still points to the last complete generation.
-        // A partial generation is private staging data and must not trigger a build.
-        priorityLog_('PARTIAL SNAPSHOT STAGED ' + String(branch.display_name || id) +
-          ' | active_snapshot_preserved=' + !!e.snapshot_available +
-          ' | staged_items=' + Number(e.snapshot_item_count || 0) +
-          ' | staged_pages=' + (e.r2_snapshot_page_keys || []).length);
+        // Incremental R2 manifests are consumable while complete=false.
+        // Dispatch a shelf-scoped build whenever this execution published new
+        // pages (including recovery of a manifest PUT that previously failed).
+        if (result.partial_published && changed.indexOf(id) < 0) {
+          changed.push(id);
+        }
+        priorityLog_('PARTIAL SNAPSHOT ' +
+          (result.partial_published ? 'PUBLISHED' : 'UNCHANGED') + ' ' +
+          String(branch.display_name || id) +
+          ' | snapshot_available=' + !!e.snapshot_available +
+          ' | complete=' + !!e.snapshot_complete +
+          ' | items=' + Number(e.snapshot_item_count || 0) +
+          ' | pages=' + (e.r2_snapshot_page_keys || []).length);
         state.cursor = (cursor + 1) % enabled.length;
         savePriorityState_(state);
         priorityLog_(
@@ -313,6 +320,12 @@ function driveCheckPriority() {
 
       checked.push(id);
       processed++;
+
+      // A partial manifest may have been published in an earlier execution
+      // whose dispatch failed, then the scan completed during this execution.
+      if (result.partial_published && changed.indexOf(id) < 0) {
+        changed.push(id);
+      }
 
       var wasChanged = !!result.confirmed_changed;
       var snapshotBootstrapped = !hadSnapshotBeforeScan && !!e.snapshot_available;
@@ -417,6 +430,18 @@ function driveCheckPriority() {
         ' | ids=' + changed.join(',')
       );
       dispatchPriorityBuild_(changed);
+
+      var dispatchStateChanged = false;
+      changed.forEach(function(changedId) {
+        var changedEntry = state.branches[String(changedId)];
+        if (!changedEntry || !changedEntry.r2_snapshot_generation_id) return;
+        var publishedPages = Number(changedEntry.r2_snapshot_published_page_count || 0);
+        if (publishedPages > Number(changedEntry.r2_snapshot_dispatched_page_count || 0)) {
+          changedEntry.r2_snapshot_dispatched_page_count = publishedPages;
+          dispatchStateChanged = true;
+        }
+      });
+      if (dispatchStateChanged) savePriorityState_(state);
     } else {
       priorityLog_('DISPATCH none');
     }
@@ -1479,7 +1504,7 @@ function r2SnapshotPublishManifest_(branch, entry, complete) {
   r2SnapshotPut_('snapshots/' + String(branch.id) + '/manifest.json', JSON.stringify(manifest));
   priorityLog_('R2 SNAPSHOT PUBLISHED | branch=' + branch.id +
     ' | generation=' + generation + ' | pages=' + manifest.page_count +
-    ' | items=' + manifest.item_count);
+    ' | items=' + manifest.item_count + ' | complete=' + manifest.complete);
   return true;
 }
 
@@ -1508,6 +1533,7 @@ function snapshotPersistPage_(branch, entry, folderId, files) {
   r2SnapshotWritePage_(branch, entry, items);
   entry.snapshot_page_index = Number(entry.snapshot_page_index || 0) + 1;
   entry.snapshot_item_count = Number(entry.snapshot_item_count || 0) + items.length;
+  return true;
 }
 
 function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBudgetMs, globalBudgetMs, globalStartedAt) {
@@ -1548,15 +1574,38 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
     entry.full_rows = null;
 
     // Do not retain legacy Drive snapshot pointers in the active snapshot state.
+    // Keep the currently published manifest available until the first page of
+    // this generation is committed and its partial manifest is published.
     entry.snapshot_page_file_ids = [];
     entry.snapshot_previous_page_file_ids = [];
-    entry.snapshot_available = false;
-    entry.snapshot_complete = false;
+    entry.r2_snapshot_published_page_count = 0;
+    entry.r2_snapshot_dispatched_page_count = 0;
 
     priorityLog_('R2 FRESH SCAN START | branch=' + branch.id +
       ' | generation=' + entry.r2_snapshot_generation_id + ' | old scan checkpoint discarded');
   }
   if (!Array.isArray(entry.r2_snapshot_page_keys)) entry.r2_snapshot_page_keys = [];
+  if (!isFinite(Number(entry.r2_snapshot_published_page_count))) {
+    entry.r2_snapshot_published_page_count = 0;
+  }
+
+  // A previous execution may have committed page objects but failed while
+  // publishing the manifest. Complete that publication before reading more
+  // Drive data. Repeating the same manifest PUT is idempotent.
+  var partialPublished = false;
+  if (Number(entry.r2_snapshot_published_page_count || 0) < entry.r2_snapshot_page_keys.length) {
+    r2SnapshotPublishManifest_(branch, entry, false);
+    entry.r2_snapshot_published_page_count = entry.r2_snapshot_page_keys.length;
+    entry.snapshot_available = true;
+    entry.snapshot_complete = false;
+    priorityLog_('R2 PARTIAL MANIFEST RECOVERED | branch=' + branch.id +
+      ' | pages=' + entry.r2_snapshot_published_page_count);
+  }
+  // A previous execution may have published pages but failed before dispatch,
+  // for example after a later Drive page error. Keep dispatch intent in state.
+  partialPublished = Number(entry.r2_snapshot_published_page_count || 0) >
+    Number(entry.r2_snapshot_dispatched_page_count || 0);
+
   var queue = entry.full_scan_queue || [String(branch.root_folder_id)];
   var visited = entry.full_visited || {};
   var digest = hexToDigestBytes_(entry.full_digest_work || '');
@@ -1597,16 +1646,16 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
       entry.full_scan_folder_id = currentFolderId;
       entry.full_scan_page_token = currentPageToken;
       entry.full_rows = null;
-      // Keep the current manifest untouched while the new generation is staged.
-      // Only the completed generation may replace the active manifest.
-      entry.snapshot_complete = false;
+      // The active manifest may be the previous complete generation or the
+      // current partial generation, depending on whether this scan has
+      // committed its first page.
       priorityLog_('CHECKPOINT-FULL ' + String(branch.display_name || branch.id) +
         ' | rows=' + rowCount + ' | queue=' + queue.length +
         ' | folder=' + (currentFolderId || '-') +
         ' | page_token=' + (currentPageToken ? 'yes' : 'no') +
         ' | shelf_elapsed=' + priorityElapsed_(shelfStartedAt) +
         ' | global_elapsed=' + priorityElapsed_(globalStartedAt));
-      return {completed:false};
+      return {completed:false, partial_published:partialPublished};
     }
 
     if (!currentFolderId) {
@@ -1635,7 +1684,7 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
     entry.full_scan_page_token = currentPageToken;
     entry.full_rows = null;
 
-    snapshotPersistPage_(branch, entry, currentFolderId, result.files || []);
+    var pageWritten = snapshotPersistPage_(branch, entry, currentFolderId, result.files || []);
 
     (result.files || []).forEach(function(file) {
       var row = {
@@ -1661,17 +1710,41 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
       visited[currentFolderId] = true;
       currentFolderId = '';
     }
+
+    // Commit the advanced Drive cursor and scan counters before publishing the
+    // manifest. If manifest PUT fails, the outer error handler saves this state;
+    // the next run retries the manifest without duplicating the Drive page.
+    entry.full_scan_queue = queue;
+    entry.full_visited = visited;
+    entry.full_digest_work = digestBytesToHex_(digest);
+    entry.full_count_work = rowCount;
+    entry.full_scan_folder_id = currentFolderId;
+    entry.full_scan_page_token = currentPageToken;
+    entry.full_rows = null;
+
+    if (pageWritten) {
+      r2SnapshotPublishManifest_(branch, entry, false);
+      entry.r2_snapshot_published_page_count = entry.r2_snapshot_page_keys.length;
+      entry.snapshot_available = true;
+      entry.snapshot_complete = false;
+      partialPublished = true;
+      priorityLog_('R2 PARTIAL SNAPSHOT PUBLISHED | branch=' + branch.id +
+        ' | pages=' + entry.r2_snapshot_published_page_count +
+        ' | items=' + entry.snapshot_item_count);
+    }
   }
 
   var fingerprint = String(rowCount) + ':' + digestBytesToHex_(digest);
   var confirmedChanged = !!entry.fingerprint && fingerprint !== entry.fingerprint;
 
-  // R2 is the only snapshot destination. Publish only after the full scan ends.
+  // Finalize the already-published incremental generation.
   r2SnapshotPublishManifest_(branch, entry, true);
   entry.snapshot_available = true;
   entry.snapshot_complete = true;
   entry.r2_snapshot_generation_id = '';
   entry.r2_snapshot_page_keys = [];
+  entry.r2_snapshot_published_page_count = 0;
+  entry.r2_snapshot_dispatched_page_count = 0;
   entry.snapshot_previous_page_file_ids = [];
   priorityLog_('R2 SNAPSHOT ACTIVE | branch=' + branch.id + ' | snapshot stored only in R2');
 
@@ -1692,6 +1765,7 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
   return {
     completed:true,
     confirmed_changed:confirmedChanged,
+    partial_published:partialPublished,
     fingerprint:fingerprint,
     item_count:rowCount,
     total_size:quick.total_size,
