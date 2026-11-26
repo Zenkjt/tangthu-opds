@@ -85,7 +85,9 @@ renderer = r'''  var shelfResizeObserver=null;
 
     var view=document.createElement('div');
     view.className='shelf-view';
-    var iconNames=['book-blue.png','book-brown.png','book-green.png','book-purple.png','book-red.png','book-teal.png'];
+    var iconNames=['book-blue.png','book-brown.png','book-green.png','book-purple.png','book-red.png','book-teal.png','book-orange.png','book-black.png','book-pink.png','book-gold.png'];
+    // Xáo trộn một lần cho mỗi lần build; không gắn lựa chọn vào dữ liệu tủ.
+    for(var i=iconNames.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var tmp=iconNames[i];iconNames[i]=iconNames[j];iconNames[j]=tmp;}
 
     function statsLines(shelf){
       var counts=shelf.format_counts||{};

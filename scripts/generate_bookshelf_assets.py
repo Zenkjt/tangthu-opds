@@ -145,6 +145,10 @@ SPECS = [
     ("book-purple.png", (110, 55, 175, 255), "atom"),
     ("book-red.png", (190, 35, 45, 255), "book"),
     ("book-teal.png", (25, 145, 170, 255), "gear"),
+    ("book-orange.png", (220, 105, 28, 255), "columns"),
+    ("book-black.png", (65, 68, 75, 255), "globe"),
+    ("book-pink.png", (205, 92, 135, 255), "leaf"),
+    ("book-gold.png", (175, 135, 35, 255), "atom"),
 ]
 
 for name, color, logo in SPECS:
