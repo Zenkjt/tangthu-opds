@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Choose full or shelf-scoped generation for the shared OPDS workflow."""
+"""Choose full or manually requested shelf-scoped generation."""
 from __future__ import annotations
 
 import json
@@ -11,6 +11,7 @@ EVENT_PATH = Path(os.environ.get("GITHUB_EVENT_PATH", ""))
 CATALOG = Path("docs/catalog.json")
 CONFIG = Path("config/branches.json")
 LIFECYCLE = Path(".build/lifecycle.json")
+ACTIVE_CONFIG = Path(".build/branches.json")
 OUT = Path(".build")
 
 
@@ -22,68 +23,76 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     mode = "full"
     shelves: list[str] = []
-    reason = "manual, scheduled, or no reusable site-state"
+    reason = "scheduled or default full build"
 
-    catalog_data = read_json(CATALOG) if CATALOG.exists() else {}
-    catalog_has_stats = (
-        catalog_data.get("version") == 2
-        and bool(catalog_data.get("branches"))
-        and all(
-            isinstance(row.get("book_count"), int)
-            and isinstance(row.get("font_count"), int)
-            and isinstance(row.get("format_counts"), dict)
-            for row in catalog_data.get("branches", [])
-        )
-    )
+    event_data = read_json(EVENT_PATH) if EVENT_PATH.exists() else {}
+    inputs = event_data.get("inputs", {})
+    requested_mode = str(inputs.get("build_mode", "full")).strip().lower()
 
-    if EVENT == "repository_dispatch" and CATALOG.exists() and LIFECYCLE.exists() and catalog_has_stats:
-        payload = read_json(EVENT_PATH) if EVENT_PATH.exists() else {}
-        requested = payload.get("client_payload", {}).get("shelves", [])
-        config_rows = read_json(CONFIG).get("branches", [])
-        config_ids = {str(row.get("id")) for row in config_rows if row.get("id")}
-        active_rows = read_json(Path(".build/branches.json")).get("branches", [])
-        active_ids = {str(row.get("id")) for row in active_rows if row.get("id")}
-        catalog_rows = read_json(CATALOG).get("branches", [])
-        catalog_ids = {str(row.get("id")) for row in catalog_rows if row.get("id")}
-
-        if config_ids != catalog_ids:
-            reason = "shelf list changed; full build required"
+    if EVENT == "workflow_dispatch" and requested_mode == "partial":
+        if not all(path.exists() for path in (CATALOG, CONFIG, LIFECYCLE, ACTIVE_CONFIG)):
+            reason = "required catalog or lifecycle state missing; full build required"
         else:
-            catalog_by_id = {str(row.get("id")): row for row in catalog_rows}
-            lifecycle_rows = read_json(LIFECYCLE).get("branches", [])
-            lifecycle_changed = False
-            for row in lifecycle_rows:
-                shelf_id = str(row.get("id", ""))
-                current = catalog_by_id.get(shelf_id)
-                old_status = (current or {}).get("status", "active")
-                new_status = row.get("status", "active")
-                if old_status != new_status:
-                    lifecycle_changed = True
-                    break
-            def catalog_name(row):
-                value = row.get("name") or row.get("display_name") or ""
-                return value.removeprefix("[SUSPENDED] ")
-
-            names_changed = any(
-                (catalog_name(catalog_by_id.get(str(row.get("id")), {})) != row.get("display_name"))
-                or (catalog_by_id.get(str(row.get("id")), {}).get("root_folder_id") != row.get("root_folder_id"))
-                for row in config_rows
+            catalog_data = read_json(CATALOG)
+            catalog_has_stats = (
+                catalog_data.get("version") == 2
+                and bool(catalog_data.get("branches"))
+                and all(
+                    isinstance(row.get("book_count"), int)
+                    and isinstance(row.get("font_count"), int)
+                    and isinstance(row.get("format_counts"), dict)
+                    for row in catalog_data.get("branches", [])
+                )
             )
-            if lifecycle_changed:
-                reason = "shelf lifecycle changed; full build required"
-            elif names_changed:
-                reason = "shelf identity or display name changed; full build required"
+
+            config_rows = read_json(CONFIG).get("branches", [])
+            active_rows = read_json(ACTIVE_CONFIG).get("branches", [])
+            catalog_rows = catalog_data.get("branches", [])
+            config_ids = {str(row.get("id")) for row in config_rows if row.get("id")}
+            active_ids = {str(row.get("id")) for row in active_rows if row.get("id")}
+            catalog_ids = {str(row.get("id")) for row in catalog_rows if row.get("id")}
+
+            if not catalog_has_stats:
+                reason = "catalog statistics missing or legacy catalog; full build required"
+            elif config_ids != catalog_ids:
+                reason = "shelf list changed; full build required"
             else:
-                requested_ids = list(dict.fromkeys(str(item) for item in requested))
-                valid_requested = [item for item in requested_ids if item in active_ids]
-                if valid_requested and len(valid_requested) == len(requested_ids):
-                    mode = "incremental"
-                    shelves = valid_requested
-                    reason = "repository_dispatch with unchanged lifecycle"
+                catalog_by_id = {str(row.get("id")): row for row in catalog_rows}
+                lifecycle_rows = read_json(LIFECYCLE).get("branches", [])
+                lifecycle_changed = any(
+                    (catalog_by_id.get(str(row.get("id")), {})).get("status", "active")
+                    != row.get("status", "active")
+                    for row in lifecycle_rows
+                )
+
+                def catalog_name(row):
+                    value = row.get("name") or row.get("display_name") or ""
+                    return value.removeprefix("[SUSPENDED] ")
+
+                names_changed = any(
+                    catalog_name(catalog_by_id.get(str(row.get("id")), {})) != row.get("display_name")
+                    or catalog_by_id.get(str(row.get("id")), {}).get("root_folder_id") != row.get("root_folder_id")
+                    for row in config_rows
+                )
+
+                if lifecycle_changed:
+                    reason = "shelf lifecycle changed; full build required"
+                elif names_changed:
+                    reason = "shelf identity or display name changed; full build required"
                 else:
-                    reason = "empty, inactive, or unknown shelf list; full build required"
-    elif EVENT == "repository_dispatch":
-        reason = "catalog statistics missing or legacy catalog; full build required"
+                    raw_shelves = str(inputs.get("shelves", "")).strip()
+                    requested_ids = (
+                        list(dict.fromkeys(item.strip() for item in raw_shelves.split(",") if item.strip()))
+                        if raw_shelves
+                        else sorted(active_ids)
+                    )
+                    valid_requested = [item for item in requested_ids if item in active_ids]
+                    if valid_requested and len(valid_requested) == len(requested_ids):
+                        mode = "incremental"
+                        shelves = valid_requested
+                        reason = "manual partial build with validated active shelves"
+                    else:
+                        reason = "empty, inactive, or unknown shelf ID; full build required"
 
     (OUT / "build_mode").write_text(mode + "\n", encoding="utf-8")
     (OUT / "changed_shelves.txt").write_text(",".join(shelves) + "\n", encoding="utf-8")
