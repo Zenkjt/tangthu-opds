@@ -26,7 +26,7 @@ def main() -> None:
     reason = "scheduled or default full build"
 
     event_data = read_json(EVENT_PATH) if EVENT_PATH.exists() else {}
-    inputs = event_data.get("inputs", {})
+    inputs = event_data.get("inputs") or {}
     requested_mode = str(inputs.get("build_mode", "full")).strip().lower()
 
     if EVENT == "workflow_dispatch" and requested_mode == "partial":
