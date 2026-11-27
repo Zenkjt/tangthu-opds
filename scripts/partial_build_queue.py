@@ -4,11 +4,14 @@ from __future__ import annotations
 import json
 import os
 import sys
+import time
 import urllib.request
 from pathlib import Path
 
 QUEUE_FILE = Path('.build/partial_build_queue.json')
 SNAPSHOT_FILE = Path('.build/partial_build_snapshot.json')
+ACK_RETRY_INTERVAL_SECONDS = 30
+ACK_RETRY_TIMEOUT_SECONDS = 30 * 60
 
 
 def post(action: str, payload: dict) -> dict:
@@ -23,6 +26,37 @@ def post(action: str, payload: dict) -> dict:
     if not result.get('ok'):
         raise RuntimeError(f'Apps Script {action} failed: {result}')
     return result
+
+
+def post_ack_with_lock_retry(payload: dict) -> dict:
+    """Retry ACK only when Apps Script reports contention on its script lock."""
+    deadline = time.monotonic() + ACK_RETRY_TIMEOUT_SECONDS
+    attempt = 0
+
+    while True:
+        attempt += 1
+        try:
+            return post('partial_build_queue_ack', payload)
+        except RuntimeError as error:
+            message = str(error)
+            if 'lock timeout' not in message.lower():
+                raise
+
+            remaining = deadline - time.monotonic()
+            if remaining <= 0:
+                raise RuntimeError(
+                    'Apps Script ACK kept encountering Lock timeout for '
+                    f'{ACK_RETRY_TIMEOUT_SECONDS // 60} minutes; queue retained. Last error: {message}'
+                ) from error
+
+            delay = min(ACK_RETRY_INTERVAL_SECONDS, remaining)
+            print(
+                f'ACK waiting for Apps Script lock (attempt {attempt}); '
+                f'retrying in {int(delay)}s, '
+                f'{int(remaining // 60)}m remaining.',
+                flush=True,
+            )
+            time.sleep(delay)
 
 
 def snapshot() -> None:
@@ -72,7 +106,7 @@ def resolve() -> None:
 
 def ack() -> None:
     rows = json.loads(SNAPSHOT_FILE.read_text(encoding='utf-8')) if SNAPSHOT_FILE.exists() else []
-    result = post('partial_build_queue_ack', {'snapshot': rows})
+    result = post_ack_with_lock_retry({'snapshot': rows})
     print(f"Partial queue ACK: cleared={len(result.get('cleared', []))}, remaining={result.get('remaining')}")
 
 
