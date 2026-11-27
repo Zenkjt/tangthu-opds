@@ -10,6 +10,7 @@
  */
 
 var PRIORITY_STATE_KEY = 'TANGTHU_DRIVE_PRIORITY_STATE_V2';
+var PARTIAL_BUILD_QUEUE_TOKEN_KEY = 'TANGTHU_BUILD_SYNC_TOKEN';
 var PRIORITY_LOCK_MS = 30000;
 var PRIORITY_EXECUTION_SLICE_MS = 50 * 1000;
 var PRIORITY_SHELF_BUDGET_MS = 15 * 60 * 1000;
@@ -405,7 +406,10 @@ function driveCheckPriority() {
     }
 
     state.cursor = cursor;
+    changed.forEach(function(id) { enqueuePartialBuildShelf_(state, id); });
     savePriorityState_(state);
+    priorityLog_('PARTIAL BUILD QUEUE | pending=' + Object.keys(state.pending_partial_build).length +
+      ' | added=' + changed.length + ' | ids=' + changed.join(','));
 
     priorityLog_(
       'ROUND END | processed=' + processed +
@@ -418,15 +422,9 @@ function driveCheckPriority() {
       priorityLog_('SKIP LIST | ' + skippedNames.join(' | '));
     }
 
-    if (changed.length) {
-      priorityLog_(
-        'DISPATCH GitHub | changed_shelves=' + changed.length +
-        ' | ids=' + changed.join(',')
-      );
-      dispatchPriorityBuild_(changed);
-    } else {
-      priorityLog_('DISPATCH none');
-    }
+    priorityLog_(changed.length
+      ? 'PARTIAL BUILD QUEUED | shelves=' + changed.length + ' | automatic dispatch disabled'
+      : 'PARTIAL BUILD QUEUE unchanged | no newly changed shelves');
 
     priorityLog_(
       'END | processed=' + processed +
@@ -583,32 +581,21 @@ function driveCheckContinuation() {
     }
 
     priorityFinalizeShelf_(entry, result, hadSnapshot, jobType, id);
-    var refreshNeedsDispatch = false;
+    var shelfNeedsPartialBuild = !!result.confirmed_changed || !hadSnapshot;
+    if (shelfNeedsPartialBuild) enqueuePartialBuildShelf_(state, id);
     if (jobType === 'refresh') {
       refreshQueue.shift(); state.refresh_queue = refreshQueue;
-      refreshNeedsDispatch = !!result.confirmed_changed || !hadSnapshot;
-      priorityLog_('REFRESH COMPLETE | branch=' + id + ' | changed=' + !!result.confirmed_changed);
+      priorityLog_('REFRESH COMPLETE | branch=' + id + ' | changed=' + !!result.confirmed_changed + ' | partial_build_queued=' + shelfNeedsPartialBuild);
     } else {
       job.checked.push(id);
-      if (result.confirmed_changed || !hadSnapshot) {
+      if (shelfNeedsPartialBuild) {
         job.changed.push(id);
-        job.dispatch_pending_id = id;
+        job.dispatch_pending_id = '';
       }
       job.index++; job.current_id=''; job.shelf_used_ms=0; job.status = job.index >= job.queue.length ? 'done' : 'queued';
       priorityLog_('L3 SHELF COMPLETE | branch=' + id + ' | changed=' + !!result.confirmed_changed + ' | next=' + job.index + '/' + job.queue.length);
     }
     savePriorityState_(state);
-    if (refreshNeedsDispatch) {
-      dispatchPriorityBuild_([id]);
-      priorityLog_('REFRESH DISPATCH | branch=' + id + ' | changed=' + !!result.confirmed_changed + ' | bootstrapped=' + !hadSnapshot);
-    }
-    if (jobType === 'l3' && job.dispatch_pending_id) {
-      dispatchPriorityBuild_([job.dispatch_pending_id]);
-      priorityLog_('L3 DISPATCH | completed_shelf=' + job.dispatch_pending_id);
-      job.dispatch_pending_id = '';
-      job.dispatched_at = new Date().toISOString();
-      savePriorityState_(state);
-    }
     if (refreshQueue.length || (l3Job && l3Job.status !== 'done')) schedulePriorityContinuation_();
     else removePriorityContinuationTriggers_();
     return {ok:true, completed:true, type:jobType, branch_id:id};
@@ -791,6 +778,7 @@ function loadPriorityState_(enabled) {
   var state = raw ? JSON.parse(raw) : {version:2, cursor:0, branches:{}};
 
   if (!state.branches) state.branches = {};
+  if (!state.pending_partial_build || typeof state.pending_partial_build !== 'object') state.pending_partial_build = {};
   if (state.cursor == null) state.cursor = 0;
   if (!Array.isArray(state.refresh_queue)) state.refresh_queue = [];
 
@@ -939,66 +927,52 @@ function fingerprintDriveItems_(rows) {
 }
 
 
-function dispatchPriorityBuild_(changed) {
-  var unique = {};
-  (changed || []).forEach(function(id) {
-    unique[String(id)] = true;
-  });
-
-  var shelves = Object.keys(unique);
-  if (!shelves.length) return;
-
-  var token = PropertiesService.getScriptProperties()
-    .getProperty('TANGTHU_GITHUB_TOKEN');
-
-  if (!token) {
-    throw new Error(
-      'Apps Script chưa được cấu hình TANGTHU_GITHUB_TOKEN.'
-    );
-  }
-
-  var url =
-    'https://api.github.com/repos/' +
-    encodeURIComponent(REPO_OWNER) + '/' +
-    encodeURIComponent(REPO_NAME) +
-    '/dispatches';
-
-  var payload = {
-    event_type: GITHUB_DISPATCH_EVENT,
-    client_payload: {
-      change_count: shelves.length,
-      shelves: shelves,
-      detected_at: new Date().toISOString()
-    }
-  };
-
-  var response = UrlFetchApp.fetch(url, {
-    method: 'post',
-    contentType: 'application/json',
-    muteHttpExceptions: true,
-    headers: {
-      Authorization: 'Bearer ' + token,
-      Accept: 'application/vnd.github+json',
-      'X-GitHub-Api-Version': '2022-11-28'
-    },
-    payload: JSON.stringify(payload)
-  });
-
-  var status = response.getResponseCode();
-
-  if (status < 200 || status >= 300) {
-    throw new Error(
-      'GitHub repository_dispatch thất bại: HTTP ' +
-      status + ' ' + response.getContentText()
-    );
-  }
-
-  priorityLog_(
-    'GitHub repository_dispatch OK | shelves=' +
-    shelves.length
-  );
+function enqueuePartialBuildShelf_(state, shelfId) {
+  if (!state.pending_partial_build || typeof state.pending_partial_build !== 'object') state.pending_partial_build = {};
+  var id = String(shelfId || '');
+  if (!id) return;
+  var previous = state.pending_partial_build[id] || {};
+  state.pending_partial_build[id] = {version:Number(previous.version || 0) + 1, detected_at:new Date().toISOString()};
 }
 
+function validatePartialBuildQueueToken_(body) {
+  var expected = PropertiesService.getScriptProperties().getProperty(PARTIAL_BUILD_QUEUE_TOKEN_KEY) || '';
+  var supplied = String((body || {}).token || '');
+  if (!expected || !supplied || expected !== supplied) throw new Error('Unauthorized partial build queue request.');
+}
+
+function getPartialBuildQueue_(body) {
+  validatePartialBuildQueueToken_(body);
+  var lock = LockService.getScriptLock(); lock.waitLock(PRIORITY_LOCK_MS);
+  try {
+    var config = readConfig_();
+    var enabled = config.branches.filter(function(b) { return b.enabled; });
+    var state = loadPriorityState_(enabled);
+    var snapshot = Object.keys(state.pending_partial_build || {}).sort().map(function(id) {
+      var row = state.pending_partial_build[id] || {};
+      return {shelf_id:id, version:Number(row.version || 0), detected_at:String(row.detected_at || '')};
+    });
+    return {ok:true, snapshot:snapshot, shelves:snapshot.map(function(row) { return row.shelf_id; })};
+  } finally { lock.releaseLock(); }
+}
+
+function ackPartialBuildQueue_(body) {
+  validatePartialBuildQueueToken_(body);
+  var snapshot = Array.isArray(body.snapshot) ? body.snapshot : [];
+  var lock = LockService.getScriptLock(); lock.waitLock(PRIORITY_LOCK_MS);
+  try {
+    var config = readConfig_();
+    var enabled = config.branches.filter(function(b) { return b.enabled; });
+    var state = loadPriorityState_(enabled);
+    var queue = state.pending_partial_build || {}; var cleared = [];
+    snapshot.forEach(function(row) {
+      var id = String((row || {}).shelf_id || ''); var version = Number((row || {}).version || 0);
+      if (id && queue[id] && Number(queue[id].version || 0) === version) { delete queue[id]; cleared.push(id); }
+    });
+    state.pending_partial_build = queue; savePriorityState_(state);
+    return {ok:true, cleared:cleared, remaining:Object.keys(queue).length};
+  } finally { lock.releaseLock(); }
+}
 
 function hasPendingPriorityScan_(entry) {
   return !!(entry.scan_queue || entry.full_scan_queue || entry.scan_folder_id || entry.full_scan_folder_id || entry.scan_page_token || entry.full_scan_page_token);

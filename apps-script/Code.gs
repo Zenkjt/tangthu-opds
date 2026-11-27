@@ -724,6 +724,8 @@ function doPost(e) {
 
     if (action === 'reload') return jsonResponse(reloadShelf(body));
     if (action === 'refresh_status') return jsonResponse(getRefreshStatus(body));
+    if (action === 'partial_build_queue_get') return jsonResponse(getPartialBuildQueue_(body));
+    if (action === 'partial_build_queue_ack') return jsonResponse(ackPartialBuildQueue_(body));
 
     if (action === 'create' || action === 'rename' || action === 'delete') {
 
