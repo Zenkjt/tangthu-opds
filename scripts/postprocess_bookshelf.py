@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 from pathlib import Path
+import json
+import secrets
 
 INDEX = Path("docs/index.html")
 text = INDEX.read_text(encoding="utf-8")
@@ -65,6 +67,37 @@ end = text.find("  function renderContent(){", start)
 if end < 0:
     raise SystemExit("Bookshelf patch anchor missing: renderContent")
 
+# Generate a balanced random icon sequence at build time.
+ICON_FILES = [
+    'book-blue.png', 'book-brown.png', 'book-green.png', 'book-purple.png',
+    'book-red.png', 'book-teal.png', 'book-black.png', 'book-gold.png',
+    'book-orange.png', 'book-pink.png',
+]
+
+def build_icon_assignment():
+    count = 0
+    for path in (Path('docs/catalog.json'), Path('config/branches.json')):
+        if path.exists():
+            try:
+                count = len(json.loads(path.read_text(encoding='utf-8')).get('branches', []))
+            except (OSError, ValueError, TypeError):
+                count = 0
+            if count:
+                break
+    count = max(count, len(ICON_FILES))
+    rng = secrets.SystemRandom()
+    result = []
+    while len(result) < count:
+        batch = ICON_FILES[:]
+        rng.shuffle(batch)
+        if result and batch[0] == result[-1]:
+            swap = next(i for i, name in enumerate(batch[1:], 1) if name != result[-1])
+            batch[0], batch[swap] = batch[swap], batch[0]
+        result.extend(batch)
+    return result[:count]
+
+ICON_ASSIGNMENT_JS = json.dumps(build_icon_assignment(), ensure_ascii=False)
+
 renderer = r'''  var shelfResizeObserver=null;
   function renderShelfStats(){
     var body=$('contentBody');
@@ -85,7 +118,7 @@ renderer = r'''  var shelfResizeObserver=null;
 
     var view=document.createElement('div');
     view.className='shelf-view';
-    var iconNames=['book-blue.png','book-brown.png','book-green.png','book-purple.png','book-red.png','book-teal.png'];
+    var iconNames=__ICON_ASSIGNMENT__;
 
     function statsLines(shelf){
       var counts=shelf.format_counts||{};
@@ -186,6 +219,7 @@ renderer = r'''  var shelfResizeObserver=null;
 
 
 '''
+renderer = renderer.replace('__ICON_ASSIGNMENT__', ICON_ASSIGNMENT_JS)
 text = text[:start] + renderer + text[end:]
 
 old_state = "var state={catalog:null,branch:null,parent:null,view:'list',selected:null,search:'',fileCache:{},renderToken:0};"
