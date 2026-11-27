@@ -2,6 +2,8 @@ name: Cloudflare Pages - Partial Build
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [partial_build_requested]
 
 permissions:
   contents: write
