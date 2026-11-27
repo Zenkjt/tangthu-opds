@@ -2,6 +2,56 @@
 from pathlib import Path
 import json
 import secrets
+import re
+import sys
+
+# Partial builds restore an already-processed index.html from site-state.
+# In this mode, update only the embedded bookshelf icon assignment.
+if "--icons-only" in sys.argv:
+    index = Path("docs/index.html")
+    html = index.read_text(encoding="utf-8")
+    icon_files = [
+        "book-blue.png", "book-brown.png", "book-green.png", "book-purple.png",
+        "book-red.png", "book-teal.png", "book-black.png", "book-gold.png",
+        "book-orange.png", "book-pink.png",
+    ]
+
+    count = 0
+    for path in (Path("docs/catalog.json"), Path("config/branches.json")):
+        if path.exists():
+            try:
+                count = len(json.loads(path.read_text(encoding="utf-8")).get("branches", []))
+            except (OSError, ValueError, TypeError):
+                count = 0
+            if count:
+                break
+
+    count = max(count, len(icon_files))
+    rng = secrets.SystemRandom()
+    assignment = []
+    while len(assignment) < count:
+        batch = icon_files[:]
+        rng.shuffle(batch)
+        if assignment and batch[0] == assignment[-1]:
+            swap = next(i for i, name in enumerate(batch[1:], 1) if name != assignment[-1])
+            batch[0], batch[swap] = batch[swap], batch[0]
+        assignment.extend(batch)
+
+    replacement = "var iconNames=" + json.dumps(assignment[:count], ensure_ascii=False) + ";"
+    html, replacements = re.subn(
+        r"var iconNames\s*=\s*\[[^\]]*\];",
+        lambda _match: replacement,
+        html,
+        count=1,
+    )
+    if replacements != 1:
+        raise SystemExit(
+            "Expected exactly one existing bookshelf iconNames array in docs/index.html; "
+            f"found {replacements}. No file changed."
+        )
+    index.write_text(html, encoding="utf-8")
+    print(f"Refreshed random bookshelf icons for {count} shelves.")
+    raise SystemExit(0)
 
 INDEX = Path("docs/index.html")
 text = INDEX.read_text(encoding="utf-8")
