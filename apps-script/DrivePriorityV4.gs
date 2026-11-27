@@ -596,6 +596,7 @@ function driveCheckContinuation() {
       priorityLog_('L3 SHELF COMPLETE | branch=' + id + ' | changed=' + !!result.confirmed_changed + ' | next=' + job.index + '/' + job.queue.length);
     }
     savePriorityState_(state);
+    if (jobType === 'refresh' && shelfNeedsPartialBuild) dispatchPartialBuildWorkflow_({shelf_id:id});   
     if (refreshQueue.length || (l3Job && l3Job.status !== 'done')) schedulePriorityContinuation_();
     else removePriorityContinuationTriggers_();
     return {ok:true, completed:true, type:jobType, branch_id:id};
@@ -1532,4 +1533,3 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
     max_modified_time:quick.max_modified_time
   };
 }
-
