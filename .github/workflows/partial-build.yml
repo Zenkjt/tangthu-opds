@@ -112,6 +112,10 @@ jobs:
           mkdir -p docs/assets
           cp -a .build-assets/bookshelf docs/assets/
 
+      - name: Refresh random bookshelf icons
+        if: steps.resolve.outputs.mode == 'incremental'
+        run: python3 scripts/postprocess_bookshelf.py --icons-only
+
       # OPDS feeds are now rendered dynamically by the storage Worker from R2.
       # The legacy XML rewrite step expects docs/opds/*.xml, which is no longer generated.
 
