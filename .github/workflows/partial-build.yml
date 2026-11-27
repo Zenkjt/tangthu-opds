@@ -1,0 +1,310 @@
+name: Cloudflare Pages - Partial Build
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  deployments: write
+
+concurrency:
+  group: cloudflare-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Snapshot accumulated changed shelves
+        env:
+          TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
+          TANGTHU_BUILD_SYNC_TOKEN: ${{ secrets.TANGTHU_BUILD_SYNC_TOKEN }}
+        run: python3 scripts/partial_build_queue.py snapshot
+
+      - name: Preserve bookshelf assets
+        run: |
+          test -d docs/assets/bookshelf
+          rm -rf .build-assets
+          mkdir -p .build-assets
+          cp -a docs/assets/bookshelf .build-assets/
+
+      - name: Restore last successful site-state
+        id: site_state
+        run: |
+          mkdir -p docs
+          if git fetch origin refs/heads/site-state; then
+            git archive FETCH_HEAD | tar -x -C docs
+            echo "available=true" >> "$GITHUB_OUTPUT"
+            echo "Restored site-state."
+          else
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "No site-state branch yet; this run will perform a full build."
+          fi
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.26"
+
+      - name: Check shelf lifecycle
+        env:
+          TANGTHU_GOOGLE_API_KEY: ${{ secrets.TANGTHU_GOOGLE_API_KEY }}
+          TANGTHU_BRANCH_CONFIG: config/branches.json
+        run: python3 scripts/tangthu_lifecycle.py preflight
+
+      - name: Persist lifecycle state
+        run: |
+          if git diff --quiet -- config/branches.json; then
+            echo "No lifecycle state change."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config/branches.json
+          git commit -m "chore: update shelf lifecycle [skip ci]"
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+            fi
+            sleep 3
+          done
+
+          echo "Unable to persist lifecycle state after 3 attempts."
+          exit 1
+
+      - name: Resolve queued shelves
+        id: resolve
+        run: |
+          python3 scripts/partial_build_queue.py resolve
+          echo "mode=$(cat .build/build_mode)" >> "$GITHUB_OUTPUT"
+          echo "shelves=$(cat .build/changed_shelves.txt)" >> "$GITHUB_OUTPUT"
+
+      - name: Generate static catalog from R2 snapshots
+        if: steps.resolve.outputs.mode != 'skip'
+        env:
+          TANGTHU_R2_API_URL: ${{ vars.TANGTHU_R2_API_URL }}
+          TANGTHU_R2_API_TOKEN: ${{ secrets.TANGTHU_R2_API_TOKEN }}
+          TANGTHU_BRANCH_CONFIG: .build/branches.json
+          TANGTHU_OUTPUT_DIR: docs
+          TANGTHU_BASE_URL: https://tangthu.pages.dev
+          TANGTHU_DOWNLOAD_WORKER_URL: ${{ vars.TANGTHU_DOWNLOAD_WORKER_URL }}
+          TANGTHU_SHELVES: ${{ steps.resolve.outputs.shelves }}
+        run: go run ./cmd/generate
+
+      - name: Merge suspended shelves
+        if: (steps.resolve.outputs.mode == 'full') && (steps.resolve.outputs.mode != 'skip')
+        run: python3 scripts/tangthu_lifecycle.py merge
+
+      - name: Restore bookshelf assets
+        if: steps.resolve.outputs.mode != 'skip'
+        run: |
+          mkdir -p docs/assets
+          cp -a .build-assets/bookshelf docs/assets/
+
+      # OPDS feeds are now rendered dynamically by the storage Worker from R2.
+      # The legacy XML rewrite step expects docs/opds/*.xml, which is no longer generated.
+
+      - name: Apply catalog UI
+        if: (steps.resolve.outputs.mode == 'full') && (steps.resolve.outputs.mode != 'skip')
+        run: python3 scripts/postprocess_ui.py
+
+      - name: Apply CPFont preview
+        if: (steps.resolve.outputs.mode == 'full') && (steps.resolve.outputs.mode != 'skip')
+        env:
+          TANGTHU_DOWNLOAD_WORKER_URL: ${{ vars.TANGTHU_DOWNLOAD_WORKER_URL }}
+        run: python3 scripts/postprocess_cpfont.py
+
+      - name: Apply shelf reload UI
+        if: (steps.resolve.outputs.mode == 'full') && (steps.resolve.outputs.mode != 'skip')
+        env:
+          TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
+        run: python3 scripts/postprocess_shelf_reload.py
+
+      - name: Apply bookshelf UI
+        if: (steps.resolve.outputs.mode == 'full') && (steps.resolve.outputs.mode != 'skip')
+        run: python3 scripts/postprocess_bookshelf.py
+
+      - name: Apply registration UI
+        if: (steps.resolve.outputs.mode == 'full') && (steps.resolve.outputs.mode != 'skip')
+        env:
+          TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
+        run: python3 scripts/postprocess_registration.py
+
+      - name: Apply news UI
+        if: (steps.resolve.outputs.mode == 'full') && (steps.resolve.outputs.mode != 'skip')
+        run: python3 scripts/postprocess_news.py
+
+      - name: Apply story UI
+        if: (steps.resolve.outputs.mode == 'full') && (steps.resolve.outputs.mode != 'skip')
+        env:
+          TANGTHU_STORY_API_URL: ${{ vars.TANGTHU_STORY_API_URL }}
+          TANGTHU_STORY_SOURCES_URL: ${{ vars.TANGTHU_STORY_SOURCES_URL }}
+        run: python3 scripts/postprocess_story.py
+
+      - name: Restore current story UI
+        if: (steps.resolve.outputs.mode == 'full') && (steps.resolve.outputs.mode != 'skip')
+        run: python3 scripts/postprocess_story_current.py
+
+      - name: Apply shelf number
+        if: (steps.resolve.outputs.mode == 'full') && (steps.resolve.outputs.mode != 'skip')
+        run: python3 scripts/postprocess_shelf_number.py
+
+      - name: Persist assigned shelf numbers
+        if: (steps.resolve.outputs.mode == 'full') && (steps.resolve.outputs.mode != 'skip')
+        run: |
+          if git diff --quiet -- config/branches.json; then
+            echo "No new shelf numbers to persist."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config/branches.json
+          git commit -m "chore: assign permanent shelf numbers [skip ci]"
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                echo "Permanent shelf numbers saved to main."
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+            fi
+            sleep 3
+          done
+
+          echo "Unable to persist shelf numbers after 3 attempts."
+          exit 1
+
+      - name: Diagnose Pages asset distribution
+        if: (always()) && (steps.resolve.outputs.mode != 'skip')
+        run: |
+          set -euo pipefail
+          mkdir -p .build
+          report=".build/pages-asset-diagnostics.txt"
+          {
+            echo "Cloudflare Pages asset diagnostics"
+            echo "Commit: ${GITHUB_SHA}"
+            echo "Build mode: ${{ steps.resolve.outputs.mode }}"
+            echo
+            if [ ! -d docs ]; then
+              echo "docs/ directory does not exist."
+            else
+              echo "TOTAL FILES"
+              find docs -type f | wc -l
+              echo
+              echo "FILES BY TOP-LEVEL DIRECTORY"
+              find docs -type f | awk -F/ '{if (NF >= 2) print $2; else print "(root)"}' | sort | uniq -c | sort -nr
+              echo
+              echo "LARGEST DIRECTORIES (first 3 path levels)"
+              find docs -type f -printf '%h\n' | awk '
+                {
+                  n=split($0,a,"/");
+                  if (n >= 3) key=a[1] "/" a[2] "/" a[3];
+                  else if (n == 2) key=a[1] "/" a[2];
+                  else key="(root)";
+                  count[key]++;
+                }
+                END { for (key in count) printf "%8d %s\n", count[key], key }
+              ' | sort -nr | sed -n '1,40p'
+              echo
+              echo "FILES BY EXTENSION"
+              find docs -type f | awk '
+                {
+                  name=$0; sub(/^.*\//,"",name);
+                  if (name !~ /\./) ext="(no extension)";
+                  else { sub(/^.*\./,"",name); ext="." name }
+                  count[ext]++;
+                }
+                END { for (ext in count) printf "%8d %s\n", count[ext], ext }
+              ' | sort -nr
+              echo
+              echo "LARGEST 40 FILES"
+              find docs -type f -printf '%s %p\n' | sort -nr | sed -n '1,40p'
+              echo
+              echo "OPDS FILE COUNTS"
+              if [ -d docs/opds ]; then
+                find docs/opds -type f | awk '
+                  { count++; if ($0 ~ /page|shard/) paged++ }
+                  END { printf "OPDS files: %d\nPaged/shard-like files: %d\n", count, paged }
+                '
+              else
+                echo "Static OPDS files: 0 (OPDS is served dynamically from R2)"
+              fi
+            fi
+          } > "$report"
+          cat "$report"
+
+      - name: Validate Cloudflare Pages asset limits
+        if: steps.resolve.outputs.mode != 'skip'
+        run: |
+          set -euo pipefail
+          file_count=$(find docs -type f | wc -l | tr -d ' ')
+          echo "Static asset count: ${file_count}"
+          if [ "$file_count" -gt 19000 ]; then
+            echo "ERROR: ${file_count} files exceeds the conservative 19,000-file deployment budget. Cloudflare Pages Free allows 20,000 files per site; consolidate shards or move catalog storage to R2."
+            exit 1
+          fi
+          oversized=$(find docs -type f -size +24M -print)
+          if [ -n "$oversized" ]; then
+            echo "ERROR: the following assets exceed the 24 MiB safety threshold (Pages hard limit is 25 MiB):"
+            echo "$oversized"
+            exit 1
+          fi
+
+      - name: Upload Pages asset diagnostics
+        if: (always()) && (steps.resolve.outputs.mode != 'skip')
+        uses: actions/upload-artifact@v4
+        with:
+          name: pages-asset-diagnostics
+          path: .build/pages-asset-diagnostics.txt
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Deploy to Cloudflare Pages
+        if: steps.resolve.outputs.mode != 'skip'
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy docs --project-name=tangthu
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Save successful site-state
+        if: steps.resolve.outputs.mode != 'skip'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          rm -rf /tmp/tangthu-site-state
+          mkdir -p /tmp/tangthu-site-state
+          cp -a docs/. /tmp/tangthu-site-state/
+          cd /tmp/tangthu-site-state
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "site-state: successful deployment $GITHUB_SHA"
+          git branch -M site-state
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin HEAD:refs/heads/site-state
+
+      - name: Acknowledge deployed queue snapshot
+        if: steps.resolve.outputs.mode == 'incremental'
+        env:
+          TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
+          TANGTHU_BUILD_SYNC_TOKEN: ${{ secrets.TANGTHU_BUILD_SYNC_TOKEN }}
+        run: python3 scripts/partial_build_queue.py ack

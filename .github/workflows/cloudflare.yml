@@ -2,20 +2,6 @@ name: Cloudflare Pages
 
 on:
   workflow_dispatch:
-    inputs:
-      build_mode:
-        description: "Chọn kiểu build"
-        type: choice
-        required: true
-        default: full
-        options:
-          - full
-          - partial
-      shelves:
-        description: "ID các tủ cần cập nhật (phân cách bằng dấu phẩy; để trống = tất cả tủ đang hoạt động, chỉ áp dụng cho partial)"
-        type: string
-        required: false
-        default: ""
   schedule:
     - cron: "21 21 * * *"
 
@@ -34,6 +20,12 @@ jobs:
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
+
+      - name: Snapshot pending partial-build queue for Full Build ACK
+        env:
+          TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
+          TANGTHU_BUILD_SYNC_TOKEN: ${{ secrets.TANGTHU_BUILD_SYNC_TOKEN }}
+        run: python3 scripts/partial_build_queue.py snapshot
 
       - name: Preserve bookshelf assets
         run: |
@@ -315,3 +307,10 @@ jobs:
           git branch -M site-state
           git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push --force origin HEAD:refs/heads/site-state
+
+
+      - name: Acknowledge queue snapshot reconciled by Full Build
+        env:
+          TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
+          TANGTHU_BUILD_SYNC_TOKEN: ${{ secrets.TANGTHU_BUILD_SYNC_TOKEN }}
+        run: python3 scripts/partial_build_queue.py ack
