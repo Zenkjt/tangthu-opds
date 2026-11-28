@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16RQjukmicOEdqmKBDsSny1_A4m-XdeXA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_102tulNv7JzzhbdEWM6mppcycH1kTzk",
+      "parent_id": "16RQjukmicOEdqmKBDsSny1_A4m-XdeXA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3210,
+      "modified": "2026-08-16T04:17:09.000Z",
+      "checksum": "7f940796693a2b259c6a1208972a42be",
+      "folder": false
+    },
+    {
+      "id": "1EkJDQWYkXZ4GvRSeEd4wTXmdPUltPUcV",
+      "parent_id": "16RQjukmicOEdqmKBDsSny1_A4m-XdeXA",
+      "name": "MỰC TRẮNG GIẤY ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 547097,
+      "modified": "2026-08-16T04:17:16.000Z",
+      "checksum": "77ca1cba4bb263b10223638ce4f9537c",
+      "folder": false
+    },
+    {
+      "id": "1fy3qlWDqjVtn-1EYJSZM2binJ3pkLAAQ",
+      "parent_id": "16RQjukmicOEdqmKBDsSny1_A4m-XdeXA",
+      "name": "MỰC TRẮNG GIẤY ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 963911,
+      "modified": "2026-08-16T04:17:13.000Z",
+      "checksum": "346631caae5bd473b5bf898fc761c3f6",
+      "folder": false
+    }
+  ]
+}

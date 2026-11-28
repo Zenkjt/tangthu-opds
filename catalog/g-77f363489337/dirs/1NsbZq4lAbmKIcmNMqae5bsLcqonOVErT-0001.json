@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NsbZq4lAbmKIcmNMqae5bsLcqonOVErT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hkYlebMqKqqtObsq8m-BL7aFtIyu9A8b",
+      "parent_id": "1NsbZq4lAbmKIcmNMqae5bsLcqonOVErT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2331,
+      "modified": "2026-08-15T03:46:15.000Z",
+      "checksum": "bff024a8b4fd066cd6318c2116fca935",
+      "folder": false
+    },
+    {
+      "id": "1Ma7C_fNyYeSVqNAQAuAXIFuRtAJLf6Pr",
+      "parent_id": "1NsbZq4lAbmKIcmNMqae5bsLcqonOVErT",
+      "name": "PHƯƠNG PHÁP THIỀN TẬP.epub",
+      "mime": "application/epub+zip",
+      "size": 259626,
+      "modified": "2026-08-15T03:46:21.000Z",
+      "checksum": "bc6e1e33fe0a7519ecab0ea18b824dde",
+      "folder": false
+    },
+    {
+      "id": "1PJrjcucygjMvxHsxhEemIZMokLqHD8KE",
+      "parent_id": "1NsbZq4lAbmKIcmNMqae5bsLcqonOVErT",
+      "name": "PHƯƠNG PHÁP THIỀN TẬP.pdf",
+      "mime": "application/pdf",
+      "size": 206517,
+      "modified": "2026-08-15T03:46:18.000Z",
+      "checksum": "7f475faea7d3199327e5a75a52c4fa19",
+      "folder": false
+    }
+  ]
+}

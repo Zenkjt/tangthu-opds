@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17xxB5ZAK59eQXmaFf0pmwWmyyycnbqJO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pqqXb9qSgeCI-sjUuy-wu5pk_vkM6Grt",
+      "parent_id": "17xxB5ZAK59eQXmaFf0pmwWmyyycnbqJO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 592,
+      "modified": "2026-08-15T10:52:46.000Z",
+      "checksum": "1435e07a9833d354574b553bbe8af02f",
+      "folder": false
+    },
+    {
+      "id": "1vDPaU1TTsLxO3ft53OCrkbYBxbPMqBjy",
+      "parent_id": "17xxB5ZAK59eQXmaFf0pmwWmyyycnbqJO",
+      "name": "MÁU CỦA HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 686843,
+      "modified": "2026-08-15T10:52:54.000Z",
+      "checksum": "a6168b07277782ba955f54e33f65c12c",
+      "folder": false
+    },
+    {
+      "id": "1KADcgJRvk46GQtVBw8neAefdUtjNq8w8",
+      "parent_id": "17xxB5ZAK59eQXmaFf0pmwWmyyycnbqJO",
+      "name": "MÁU CỦA HOA.pdf",
+      "mime": "application/pdf",
+      "size": 1589320,
+      "modified": "2026-08-15T10:52:51.000Z",
+      "checksum": "7cd918da9ac7899bf3f6b999cbffb1e6",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1G_wJfTI760tHeFrfHLv4vpHUr1qKezSl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1k5t7ykRqHPTOeIbiPAZt5qQhRf9jzY5_",
+      "parent_id": "1G_wJfTI760tHeFrfHLv4vpHUr1qKezSl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5455,
+      "modified": "2026-08-15T08:21:16.000Z",
+      "checksum": "3a29a9b8f255206f31ca2d456e006806",
+      "folder": false
+    },
+    {
+      "id": "1ePIjZ1ap-Z5QzJMUFLB2DNvPPx-VTrEJ",
+      "parent_id": "1G_wJfTI760tHeFrfHLv4vpHUr1qKezSl",
+      "name": "HỒI KÝ VIẾT DƯỚI HẦM.epub",
+      "mime": "application/epub+zip",
+      "size": 422253,
+      "modified": "2026-08-15T08:21:35.000Z",
+      "checksum": "5781528d2182d850ed544b1fa7f49694",
+      "folder": false
+    },
+    {
+      "id": "1QOZWq5m4G-lBBl3VAEXc-1L1bEk_Usbs",
+      "parent_id": "1G_wJfTI760tHeFrfHLv4vpHUr1qKezSl",
+      "name": "HỒI KÝ VIẾT DƯỚI HẦM.pdf",
+      "mime": "application/pdf",
+      "size": 759030,
+      "modified": "2026-08-15T08:21:31.000Z",
+      "checksum": "cf1461795e07fa973f2c3278efcd16e9",
+      "folder": false
+    }
+  ]
+}

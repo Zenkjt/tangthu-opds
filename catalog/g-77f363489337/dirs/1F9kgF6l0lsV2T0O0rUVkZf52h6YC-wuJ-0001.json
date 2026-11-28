@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1F9kgF6l0lsV2T0O0rUVkZf52h6YC-wuJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1d-Xf-5nhglUVWLECdbff4LhCqrm_e7iT",
+      "parent_id": "1F9kgF6l0lsV2T0O0rUVkZf52h6YC-wuJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3626,
+      "modified": "2026-08-15T07:51:28.000Z",
+      "checksum": "f9aa69f30ea9fe9ad9849ab54f27bd17",
+      "folder": false
+    },
+    {
+      "id": "1bgHGkDXWoXVFlrh-m2rcKozc1ck3kzAg",
+      "parent_id": "1F9kgF6l0lsV2T0O0rUVkZf52h6YC-wuJ",
+      "name": "ĐỊCH HẬU.epub",
+      "mime": "application/epub+zip",
+      "size": 328310,
+      "modified": "2026-08-15T07:51:34.000Z",
+      "checksum": "58a8a451dc18500ee52a236314e4ffb6",
+      "folder": false
+    },
+    {
+      "id": "1ayixFlhqy8oUBcXvbOijPeIn2F2tHrZo",
+      "parent_id": "1F9kgF6l0lsV2T0O0rUVkZf52h6YC-wuJ",
+      "name": "ĐỊCH HẬU.pdf",
+      "mime": "application/pdf",
+      "size": 534343,
+      "modified": "2026-08-15T07:51:32.000Z",
+      "checksum": "5116bd30abfedab6ab58544b1fbefcd2",
+      "folder": false
+    }
+  ]
+}

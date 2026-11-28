@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17mcFAChXSfe20RsIQBF737YIU_FEbjOo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xD3RTxdqyhxngno7je7X_f912ua5Y3jA",
+      "parent_id": "17mcFAChXSfe20RsIQBF737YIU_FEbjOo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2337,
+      "modified": "2026-08-15T07:03:41.000Z",
+      "checksum": "8119f50bf2f16d7aa9cf7abaa0f1e2a6",
+      "folder": false
+    },
+    {
+      "id": "1UFgCSpR78Li67QI8OnvNQveof_raeZYf",
+      "parent_id": "17mcFAChXSfe20RsIQBF737YIU_FEbjOo",
+      "name": "ĐẠI NGHĨA DIỆT THÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 383668,
+      "modified": "2026-08-15T07:03:48.000Z",
+      "checksum": "7d069de009b025c3102f97b214ed84c3",
+      "folder": false
+    },
+    {
+      "id": "1HDrJJRRhJMAInf0XY6c3qqktLjQ1iFln",
+      "parent_id": "17mcFAChXSfe20RsIQBF737YIU_FEbjOo",
+      "name": "ĐẠI NGHĨA DIỆT THÂN.pdf",
+      "mime": "application/pdf",
+      "size": 519867,
+      "modified": "2026-08-15T07:03:45.000Z",
+      "checksum": "e0345f6185695ba53550b99cbcd58228",
+      "folder": false
+    }
+  ]
+}

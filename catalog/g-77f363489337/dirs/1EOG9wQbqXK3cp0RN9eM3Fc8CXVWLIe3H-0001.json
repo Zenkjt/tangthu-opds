@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EOG9wQbqXK3cp0RN9eM3Fc8CXVWLIe3H",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zYH97N9Fdc8-1ul9g4Bgk9-1TyvTEhPD",
+      "parent_id": "1EOG9wQbqXK3cp0RN9eM3Fc8CXVWLIe3H",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3712,
+      "modified": "2026-08-16T04:02:46.000Z",
+      "checksum": "359a3de94fafac9c12bfaefc3d00d275",
+      "folder": false
+    },
+    {
+      "id": "1Lq6vQYlM8AxOUt4nIVfAubFljJdyS8io",
+      "parent_id": "1EOG9wQbqXK3cp0RN9eM3Fc8CXVWLIe3H",
+      "name": "SỰ SA NGÃ CỦA NĂM.epub",
+      "mime": "application/epub+zip",
+      "size": 1132378,
+      "modified": "2026-08-16T04:02:53.000Z",
+      "checksum": "3700fb3c8a901b8921b4d7899aa799f5",
+      "folder": false
+    },
+    {
+      "id": "1heRR0zUeOPAcyv5KiFxTAo1MF9c3Bt1i",
+      "parent_id": "1EOG9wQbqXK3cp0RN9eM3Fc8CXVWLIe3H",
+      "name": "SỰ SA NGÃ CỦA NĂM.pdf",
+      "mime": "application/pdf",
+      "size": 963555,
+      "modified": "2026-08-16T04:02:50.000Z",
+      "checksum": "c1405a9414caae5ef1b4dcc6632f2ea8",
+      "folder": false
+    }
+  ]
+}

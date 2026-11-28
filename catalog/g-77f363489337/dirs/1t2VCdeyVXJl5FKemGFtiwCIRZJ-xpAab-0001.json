@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1t2VCdeyVXJl5FKemGFtiwCIRZJ-xpAab",
+  "page": 1,
+  "items": [
+    {
+      "id": "1g3ke5flqqkjTZgsMXLXftCUH6GqQkU7E",
+      "parent_id": "1t2VCdeyVXJl5FKemGFtiwCIRZJ-xpAab",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3293,
+      "modified": "2026-08-15T06:24:36.000Z",
+      "checksum": "4d9afa8df82457da843bf7ffad4b0a33",
+      "folder": false
+    },
+    {
+      "id": "179sF88rwozBqbyq3Ue5auLhnRhvSPPTs",
+      "parent_id": "1t2VCdeyVXJl5FKemGFtiwCIRZJ-xpAab",
+      "name": "NHỮNG ĐÔI MẮT LẠNH.epub",
+      "mime": "application/epub+zip",
+      "size": 507049,
+      "modified": "2026-08-15T06:25:42.000Z",
+      "checksum": "5cbd7444a333bb17a8ae69cb94071b89",
+      "folder": false
+    },
+    {
+      "id": "18h7Bbr1cmWGUreEbMPRZGuqJlFvoCT2h",
+      "parent_id": "1t2VCdeyVXJl5FKemGFtiwCIRZJ-xpAab",
+      "name": "NHỮNG ĐÔI MẮT LẠNH.pdf",
+      "mime": "application/pdf",
+      "size": 458298,
+      "modified": "2026-08-15T06:24:51.000Z",
+      "checksum": "09683a06f597ca159c5799363206b752",
+      "folder": false
+    }
+  ]
+}

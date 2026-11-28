@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Mg28w7G4t3ERJcEZLzpSfr_Ft_lh7hTh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Wf7AgT1KzSgn0lyj7-piGBtmHr55mjC8",
+      "parent_id": "1Mg28w7G4t3ERJcEZLzpSfr_Ft_lh7hTh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3433,
+      "modified": "2026-08-15T07:55:17.000Z",
+      "checksum": "494170d8529db2898b372ec21898aeca",
+      "folder": false
+    },
+    {
+      "id": "1DxPHqlRet1AO_fqzmmkk6pesb7a9mT74",
+      "parent_id": "1Mg28w7G4t3ERJcEZLzpSfr_Ft_lh7hTh",
+      "name": "HOÀNG TỬ KIM KHÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 779171,
+      "modified": "2026-08-15T07:55:26.000Z",
+      "checksum": "1f2c819e641a7fb76eb5e6638c82a803",
+      "folder": false
+    },
+    {
+      "id": "113eWKIkjz0NcEVKqasir1eUB8j7eyqIz",
+      "parent_id": "1Mg28w7G4t3ERJcEZLzpSfr_Ft_lh7hTh",
+      "name": "HOÀNG TỬ KIM KHÍ.pdf",
+      "mime": "application/pdf",
+      "size": 2078398,
+      "modified": "2026-08-15T07:55:23.000Z",
+      "checksum": "fec8fda6fadca802014833283f4b1217",
+      "folder": false
+    }
+  ]
+}

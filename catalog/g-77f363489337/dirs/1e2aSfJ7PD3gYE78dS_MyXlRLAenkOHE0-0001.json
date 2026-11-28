@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1e2aSfJ7PD3gYE78dS_MyXlRLAenkOHE0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1L7plxmyEK39hluhaMOCGwEqV5VjykVei",
+      "parent_id": "1e2aSfJ7PD3gYE78dS_MyXlRLAenkOHE0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 458,
+      "modified": "2026-08-15T10:29:07.000Z",
+      "checksum": "3a3cefb26e4377b89094c19840f9928a",
+      "folder": false
+    },
+    {
+      "id": "1jsIPiLLW5ElNGvzF8FFJ4whdZ0oi8iIv",
+      "parent_id": "1e2aSfJ7PD3gYE78dS_MyXlRLAenkOHE0",
+      "name": "RỪNG RĂNG-TAY.epub",
+      "mime": "application/epub+zip",
+      "size": 564207,
+      "modified": "2026-08-15T10:29:47.000Z",
+      "checksum": "7f0ce4643c3647c862b67300ade5be32",
+      "folder": false
+    },
+    {
+      "id": "1U_APaNpKhAhrIkJNypTTkfE3lQICtnK6",
+      "parent_id": "1e2aSfJ7PD3gYE78dS_MyXlRLAenkOHE0",
+      "name": "RỪNG RĂNG-TAY.pdf",
+      "mime": "application/pdf",
+      "size": 1415632,
+      "modified": "2026-08-15T10:29:32.000Z",
+      "checksum": "0dcaaf8b3d8bef944cdab7c18e963a17",
+      "folder": false
+    }
+  ]
+}

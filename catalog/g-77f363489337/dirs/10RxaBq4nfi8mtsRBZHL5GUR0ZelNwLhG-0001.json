@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10RxaBq4nfi8mtsRBZHL5GUR0ZelNwLhG",
+  "page": 1,
+  "items": [
+    {
+      "id": "18ChxC27sKYWU6xkPTnt0ejQ0M614WI8B",
+      "parent_id": "10RxaBq4nfi8mtsRBZHL5GUR0ZelNwLhG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3281,
+      "modified": "2026-08-15T10:09:44.000Z",
+      "checksum": "5c10e798716b398fd128f1037982b291",
+      "folder": false
+    },
+    {
+      "id": "1xoht6JcLtwIPSwd-ORLnTptaBPxLq9gy",
+      "parent_id": "10RxaBq4nfi8mtsRBZHL5GUR0ZelNwLhG",
+      "name": "TIỂU THƯ HOÀN HẢO VÀ CÔNG TỬ LẠNH LÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 4340910,
+      "modified": "2026-08-15T10:09:54.000Z",
+      "checksum": "d3ca83dfb1acec6e30b3c483145d8f86",
+      "folder": false
+    },
+    {
+      "id": "1MCfR-yR7zlqvoTOlBU1ebLzYPxgQlOPD",
+      "parent_id": "10RxaBq4nfi8mtsRBZHL5GUR0ZelNwLhG",
+      "name": "TIỂU THƯ HOÀN HẢO VÀ CÔNG TỬ LẠNH LÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 1861980,
+      "modified": "2026-08-15T10:09:49.000Z",
+      "checksum": "9cb4dbc4e9ef7b3e54a2b08647630141",
+      "folder": false
+    }
+  ]
+}

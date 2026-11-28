@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QXpOLQihPpj9rG1EXnU5teRqP_Niyo0Q",
+  "page": 1,
+  "items": [
+    {
+      "id": "131q2kfZb36YXTONUsRw2SIARoTCdq1GS",
+      "parent_id": "1QXpOLQihPpj9rG1EXnU5teRqP_Niyo0Q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 522,
+      "modified": "2026-08-16T04:14:16.000Z",
+      "checksum": "5d8c7d6cf49262ecd571439aac70e952",
+      "folder": false
+    },
+    {
+      "id": "1nvs9YSmHEsvWhlTlwp6QbTxDcBWCjDd7",
+      "parent_id": "1QXpOLQihPpj9rG1EXnU5teRqP_Niyo0Q",
+      "name": "NGƯỜI BẢO HỘ.epub",
+      "mime": "application/epub+zip",
+      "size": 627404,
+      "modified": "2026-08-16T04:14:24.000Z",
+      "checksum": "0beb56438fd05c9d33419aaedbdc3ef5",
+      "folder": false
+    },
+    {
+      "id": "1asLH48e_8jm8RPXsCUJNKdgsDyX4rwBd",
+      "parent_id": "1QXpOLQihPpj9rG1EXnU5teRqP_Niyo0Q",
+      "name": "NGƯỜI BẢO HỘ.pdf",
+      "mime": "application/pdf",
+      "size": 1895181,
+      "modified": "2026-08-16T04:14:21.000Z",
+      "checksum": "f5d40d72895e3b8282e2590828e272a9",
+      "folder": false
+    }
+  ]
+}

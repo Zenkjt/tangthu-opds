@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fZATkKbQtc1bZi4aSmCgsuT5EcVIuosJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VTTWInLk2Yc5m6qUtNV1KBq5mt0SVQhY",
+      "parent_id": "1fZATkKbQtc1bZi4aSmCgsuT5EcVIuosJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3233,
+      "modified": "2026-08-15T15:23:49.000Z",
+      "checksum": "822b4d9cc3bfc266e2e6f5bfecea8221",
+      "folder": false
+    },
+    {
+      "id": "1bIgPwoiH-R0EGzEden-4_7oAReRQpLD9",
+      "parent_id": "1fZATkKbQtc1bZi4aSmCgsuT5EcVIuosJ",
+      "name": "HÀM CÁ MẬP.epub",
+      "mime": "application/epub+zip",
+      "size": 448978,
+      "modified": "2026-08-15T15:25:50.000Z",
+      "checksum": "44a5020ec8b9992626387d5bef787f05",
+      "folder": false
+    },
+    {
+      "id": "1PGM2osMXbwArzFUMyRqopSQhWj2E7dTn",
+      "parent_id": "1fZATkKbQtc1bZi4aSmCgsuT5EcVIuosJ",
+      "name": "HÀM CÁ MẬP.pdf",
+      "mime": "application/pdf",
+      "size": 1393029,
+      "modified": "2026-08-15T15:25:20.000Z",
+      "checksum": "a874e3b3090c8359065abf3b3f7c61c7",
+      "folder": false
+    }
+  ]
+}

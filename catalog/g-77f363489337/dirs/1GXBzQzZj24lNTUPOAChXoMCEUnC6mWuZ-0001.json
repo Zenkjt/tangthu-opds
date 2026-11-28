@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GXBzQzZj24lNTUPOAChXoMCEUnC6mWuZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FHY8i4VJG_ycwq-TLNA_nvoV6UOSZ5ke",
+      "parent_id": "1GXBzQzZj24lNTUPOAChXoMCEUnC6mWuZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2991,
+      "modified": "2026-08-15T10:35:58.000Z",
+      "checksum": "f612ac4fc3629c61eac7205ec1b84dc8",
+      "folder": false
+    },
+    {
+      "id": "1_mbTzqHq_Nf7nQBSueHDajWJ1U7iwHfQ",
+      "parent_id": "1GXBzQzZj24lNTUPOAChXoMCEUnC6mWuZ",
+      "name": "NỖI SỢ.epub",
+      "mime": "application/epub+zip",
+      "size": 311976,
+      "modified": "2026-08-15T10:36:05.000Z",
+      "checksum": "d067fa0c8f1b5098b0ea47f8eccd34e2",
+      "folder": false
+    },
+    {
+      "id": "1y7QRTslqO1KFL4Y2SfqkLoBYmFWuEd5g",
+      "parent_id": "1GXBzQzZj24lNTUPOAChXoMCEUnC6mWuZ",
+      "name": "NỖI SỢ.pdf",
+      "mime": "application/pdf",
+      "size": 395663,
+      "modified": "2026-08-15T10:36:02.000Z",
+      "checksum": "8113dd8a81741f44d3f14ef52b20ee50",
+      "folder": false
+    }
+  ]
+}

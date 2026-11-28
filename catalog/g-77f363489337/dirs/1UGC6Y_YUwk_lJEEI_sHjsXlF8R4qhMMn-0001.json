@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UGC6Y_YUwk_lJEEI_sHjsXlF8R4qhMMn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Yo4nOzAkOUqwA-CODZoRy2bVIH-OViyS",
+      "parent_id": "1UGC6Y_YUwk_lJEEI_sHjsXlF8R4qhMMn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4829,
+      "modified": "2026-08-16T04:24:47.000Z",
+      "checksum": "05d93e1d2c6f85207e5c73f9600aa94f",
+      "folder": false
+    },
+    {
+      "id": "1Z7E45h-m8S3wxePouzO84k6mjs9bzdcs",
+      "parent_id": "1UGC6Y_YUwk_lJEEI_sHjsXlF8R4qhMMn",
+      "name": "VIẾT VÀ ĐỌC TIỂU THUYẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 654129,
+      "modified": "2026-08-16T04:24:52.000Z",
+      "checksum": "e259e2f711476b9aca33826d9d7c3632",
+      "folder": false
+    },
+    {
+      "id": "1FhQvzBlQCS7gEsXWe8emWMIM605yAgpO",
+      "parent_id": "1UGC6Y_YUwk_lJEEI_sHjsXlF8R4qhMMn",
+      "name": "VIẾT VÀ ĐỌC TIỂU THUYẾT.pdf",
+      "mime": "application/pdf",
+      "size": 788378,
+      "modified": "2026-08-16T04:24:50.000Z",
+      "checksum": "a45da55697ce585e04edf17e628c7def",
+      "folder": false
+    }
+  ]
+}

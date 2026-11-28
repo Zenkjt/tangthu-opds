@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1E6SyUTMrS0_SIg9IdvMUNzzk7biKnVd8",
+  "page": 1,
+  "items": [
+    {
+      "id": "12btNHOf7MeP6bapfSt0Ep3jOU-PlyjbQ",
+      "parent_id": "1E6SyUTMrS0_SIg9IdvMUNzzk7biKnVd8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4716,
+      "modified": "2026-08-15T09:31:57.000Z",
+      "checksum": "d74e12cf2a8c9705945044fabb6f8db6",
+      "folder": false
+    },
+    {
+      "id": "1RLb-A5Se5OUkxH5LFLhIq45gwq3qu46h",
+      "parent_id": "1E6SyUTMrS0_SIg9IdvMUNzzk7biKnVd8",
+      "name": "MƯỜI NGƯỜI DA ĐEN NHỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 628095,
+      "modified": "2026-08-15T09:32:06.000Z",
+      "checksum": "a0c7a177b22e244c57781bd145f0c59e",
+      "folder": false
+    },
+    {
+      "id": "11Qmkx-IbLcEeso6E5hYgrXi-gtkgdor6",
+      "parent_id": "1E6SyUTMrS0_SIg9IdvMUNzzk7biKnVd8",
+      "name": "MƯỜI NGƯỜI DA ĐEN NHỎ.pdf",
+      "mime": "application/pdf",
+      "size": 817372,
+      "modified": "2026-08-15T09:32:03.000Z",
+      "checksum": "323888fcf9a12d2ede146d953bf44c9e",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fRH6ORrIBxvODhovXC0ZguGjdWuOz5Ba",
+  "page": 1,
+  "items": [
+    {
+      "id": "1esrNSTwAaYDjDIjLweqBmQqrEuHDiPlP",
+      "parent_id": "1fRH6ORrIBxvODhovXC0ZguGjdWuOz5Ba",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6816,
+      "modified": "2026-08-15T07:13:39.000Z",
+      "checksum": "2f56c7f920fb5e48f75a1a5e8e75626f",
+      "folder": false
+    },
+    {
+      "id": "1A_ZLgoj8NlrNTOisZhuSiwAJF-gHNujE",
+      "parent_id": "1fRH6ORrIBxvODhovXC0ZguGjdWuOz5Ba",
+      "name": "PHẢN TRẮC.epub",
+      "mime": "application/epub+zip",
+      "size": 511721,
+      "modified": "2026-08-15T07:13:45.000Z",
+      "checksum": "f388e7725f783c06d60ad1d485a038d3",
+      "folder": false
+    },
+    {
+      "id": "1OpFAgj1VaaYTsEHLw8NqoHz59UR--2d9",
+      "parent_id": "1fRH6ORrIBxvODhovXC0ZguGjdWuOz5Ba",
+      "name": "PHẢN TRẮC.pdf",
+      "mime": "application/pdf",
+      "size": 1352770,
+      "modified": "2026-08-15T07:13:42.000Z",
+      "checksum": "e1197881bdd781b94c335947993ef7db",
+      "folder": false
+    }
+  ]
+}

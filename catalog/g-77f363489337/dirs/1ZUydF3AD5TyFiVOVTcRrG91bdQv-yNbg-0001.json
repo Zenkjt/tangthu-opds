@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZUydF3AD5TyFiVOVTcRrG91bdQv-yNbg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rz3Me9IMVR5ybff8dw6aCGhkQuka5iC2",
+      "parent_id": "1ZUydF3AD5TyFiVOVTcRrG91bdQv-yNbg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5908,
+      "modified": "2026-08-15T03:52:59.000Z",
+      "checksum": "eeabc334addb08ef296c5129f35854e4",
+      "folder": false
+    },
+    {
+      "id": "16r1_KkrUENZ5kEeHnxqhqesdFtrTjXu4",
+      "parent_id": "1ZUydF3AD5TyFiVOVTcRrG91bdQv-yNbg",
+      "name": "NHỮNG CHUYỆN LUÂN HỒI HIỆN ĐẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 453735,
+      "modified": "2026-08-15T03:53:06.000Z",
+      "checksum": "f30715f4fdd006c8a7f76943a151cfd0",
+      "folder": false
+    },
+    {
+      "id": "1W_p93CNReeniFDTHJYoJWx58MWmP7Vjs",
+      "parent_id": "1ZUydF3AD5TyFiVOVTcRrG91bdQv-yNbg",
+      "name": "NHỮNG CHUYỆN LUÂN HỒI HIỆN ĐẠI.pdf",
+      "mime": "application/pdf",
+      "size": 664197,
+      "modified": "2026-08-15T03:53:04.000Z",
+      "checksum": "fe047877b145750bdb2155a0df1a79f8",
+      "folder": false
+    }
+  ]
+}

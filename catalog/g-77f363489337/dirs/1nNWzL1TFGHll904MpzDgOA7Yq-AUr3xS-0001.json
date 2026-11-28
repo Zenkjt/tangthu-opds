@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nNWzL1TFGHll904MpzDgOA7Yq-AUr3xS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-lB7rx8wU4cZdT3RtVoRuoBrPWZn8rHI",
+      "parent_id": "1nNWzL1TFGHll904MpzDgOA7Yq-AUr3xS",
+      "name": "BẢO GIÁM.epub",
+      "mime": "application/epub+zip",
+      "size": 564133,
+      "modified": "2026-08-16T03:20:08.000Z",
+      "checksum": "7d4ce2770dcda0a11c62190d908105b9",
+      "folder": false
+    },
+    {
+      "id": "1ynEIAbxsSYLwJ3ASTYMgeWUk1sjua3J0",
+      "parent_id": "1nNWzL1TFGHll904MpzDgOA7Yq-AUr3xS",
+      "name": "BẢO GIÁM.pdf",
+      "mime": "application/pdf",
+      "size": 531715,
+      "modified": "2026-08-16T03:20:06.000Z",
+      "checksum": "ad7b50fc15b1bf5e4326cc645626286e",
+      "folder": false
+    },
+    {
+      "id": "11Jw05fxGzLJjr5QzXQqi2EdvAq7WIDFP",
+      "parent_id": "1nNWzL1TFGHll904MpzDgOA7Yq-AUr3xS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4529,
+      "modified": "2026-08-16T03:20:02.000Z",
+      "checksum": "0408d89382232e7661388b435a0b2737",
+      "folder": false
+    }
+  ]
+}

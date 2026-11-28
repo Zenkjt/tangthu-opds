@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1I1p4NJTPoppZq2TYuQViYVZyKE8EeDn6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1n83jCWBYhK3o04HXvLFxeYoC-Z5bgjkE",
+      "parent_id": "1I1p4NJTPoppZq2TYuQViYVZyKE8EeDn6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 361,
+      "modified": "2026-08-16T03:52:50.000Z",
+      "checksum": "f2360fe00e56cc1ca8a0d76a6929400c",
+      "folder": false
+    },
+    {
+      "id": "1XEs8QV0xjiuu1Bhdlt0vuccnQCg-c0_F",
+      "parent_id": "1I1p4NJTPoppZq2TYuQViYVZyKE8EeDn6",
+      "name": "TRÁI TIM KHÔNG CẦN LÝ LẼ.epub",
+      "mime": "application/epub+zip",
+      "size": 518309,
+      "modified": "2026-08-16T03:52:57.000Z",
+      "checksum": "fd6b1ee7b9c76f45baba58b5fd65d1da",
+      "folder": false
+    },
+    {
+      "id": "1pcIGdH7nle57brHBAaNHBIgPuDO8j33Z",
+      "parent_id": "1I1p4NJTPoppZq2TYuQViYVZyKE8EeDn6",
+      "name": "TRÁI TIM KHÔNG CẦN LÝ LẼ.pdf",
+      "mime": "application/pdf",
+      "size": 1791139,
+      "modified": "2026-08-16T03:52:54.000Z",
+      "checksum": "ec29a79634da635ce7411676a5d5e7a9",
+      "folder": false
+    }
+  ]
+}

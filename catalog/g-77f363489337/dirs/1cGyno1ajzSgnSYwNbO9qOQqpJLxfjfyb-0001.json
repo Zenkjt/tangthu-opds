@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cGyno1ajzSgnSYwNbO9qOQqpJLxfjfyb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RaikAaTkpfN2-TMvC5T0RZdlHsBXBKaE",
+      "parent_id": "1cGyno1ajzSgnSYwNbO9qOQqpJLxfjfyb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1854,
+      "modified": "2026-08-15T07:38:25.000Z",
+      "checksum": "5f164ea5cd6ef9ed3849518e17ea6128",
+      "folder": false
+    },
+    {
+      "id": "1X2tc1IOxipP6lFQQaL6AsHuB5GJscjNG",
+      "parent_id": "1cGyno1ajzSgnSYwNbO9qOQqpJLxfjfyb",
+      "name": "NGHỊCH DUYÊN TIÊN - MA.epub",
+      "mime": "application/epub+zip",
+      "size": 1418701,
+      "modified": "2026-08-15T07:38:31.000Z",
+      "checksum": "370fee3db9ba1559b0649fc5bdf91e6e",
+      "folder": false
+    },
+    {
+      "id": "1mQK_DO1oTgZfND5Pm3ipKt11zeKbatnq",
+      "parent_id": "1cGyno1ajzSgnSYwNbO9qOQqpJLxfjfyb",
+      "name": "NGHỊCH DUYÊN TIÊN - MA.pdf",
+      "mime": "application/pdf",
+      "size": 578385,
+      "modified": "2026-08-15T07:38:28.000Z",
+      "checksum": "87f5b90bf849d23f28df69fd74eee56d",
+      "folder": false
+    }
+  ]
+}

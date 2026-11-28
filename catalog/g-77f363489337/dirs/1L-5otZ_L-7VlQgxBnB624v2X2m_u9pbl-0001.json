@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1L-5otZ_L-7VlQgxBnB624v2X2m_u9pbl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S8FE14aKKqoBZFg1tUiTTON8jqG0HpS-",
+      "parent_id": "1L-5otZ_L-7VlQgxBnB624v2X2m_u9pbl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2951,
+      "modified": "2026-08-15T06:22:24.000Z",
+      "checksum": "f5fc4c44f33f594d53abc5b5ca36d7ea",
+      "folder": false
+    },
+    {
+      "id": "1aQYBCaQu-waP6DO7JPiSDBwDnJKH_DjN",
+      "parent_id": "1L-5otZ_L-7VlQgxBnB624v2X2m_u9pbl",
+      "name": "SEOUL NGỌT NGÀO.epub",
+      "mime": "application/epub+zip",
+      "size": 602540,
+      "modified": "2026-08-15T06:23:00.000Z",
+      "checksum": "8400a7fdda75f423f74906743876eea5",
+      "folder": false
+    },
+    {
+      "id": "1ICxz_dHyBP9ALyeNb2v81HrCpdQny_Qn",
+      "parent_id": "1L-5otZ_L-7VlQgxBnB624v2X2m_u9pbl",
+      "name": "SEOUL NGỌT NGÀO.pdf",
+      "mime": "application/pdf",
+      "size": 1377268,
+      "modified": "2026-08-15T06:22:49.000Z",
+      "checksum": "3df1cc361ee2d1b937acc45e9ae475e0",
+      "folder": false
+    }
+  ]
+}

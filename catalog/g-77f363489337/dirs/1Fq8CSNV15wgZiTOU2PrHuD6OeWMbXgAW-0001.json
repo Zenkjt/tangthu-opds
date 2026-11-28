@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Fq8CSNV15wgZiTOU2PrHuD6OeWMbXgAW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1prlqoo5BIOFOj_zSrqS59AsfsyBxHaQE",
+      "parent_id": "1Fq8CSNV15wgZiTOU2PrHuD6OeWMbXgAW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3142,
+      "modified": "2026-08-15T10:09:50.000Z",
+      "checksum": "de6f66b63eb22f0a8496496afc9717c6",
+      "folder": false
+    },
+    {
+      "id": "1xT3teM-ERSMQHer0A_CA4QL25PWby0aT",
+      "parent_id": "1Fq8CSNV15wgZiTOU2PrHuD6OeWMbXgAW",
+      "name": "TIỂU NAM PHONG.epub",
+      "mime": "application/epub+zip",
+      "size": 596551,
+      "modified": "2026-08-15T10:09:58.000Z",
+      "checksum": "63ccaca8eddb2a1959a8d1c5546a12d9",
+      "folder": false
+    },
+    {
+      "id": "1UyjMAavGYUkBOuONRMJUXLyazGYAF3fs",
+      "parent_id": "1Fq8CSNV15wgZiTOU2PrHuD6OeWMbXgAW",
+      "name": "TIỂU NAM PHONG.pdf",
+      "mime": "application/pdf",
+      "size": 1194317,
+      "modified": "2026-08-15T10:09:55.000Z",
+      "checksum": "5761bc1b606afdb8217f95a909168eba",
+      "folder": false
+    }
+  ]
+}

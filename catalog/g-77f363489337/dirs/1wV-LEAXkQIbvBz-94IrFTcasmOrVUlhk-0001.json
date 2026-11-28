@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wV-LEAXkQIbvBz-94IrFTcasmOrVUlhk",
+  "page": 1,
+  "items": [
+    {
+      "id": "15aTH8aojmWg8zIIKGxDM8b4e-WbySS6i",
+      "parent_id": "1wV-LEAXkQIbvBz-94IrFTcasmOrVUlhk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 582,
+      "modified": "2026-08-15T10:32:48.000Z",
+      "checksum": "3c1a05cb758c7de68184334a5e8b9ab2",
+      "folder": false
+    },
+    {
+      "id": "1qfnqrEOVHxi2lv1zEiQ8lit5Cftag6gZ",
+      "parent_id": "1wV-LEAXkQIbvBz-94IrFTcasmOrVUlhk",
+      "name": "PHI TƯỢNG QUÁ HÀ.epub",
+      "mime": "application/epub+zip",
+      "size": 679551,
+      "modified": "2026-08-15T10:32:54.000Z",
+      "checksum": "702d2c4d1916df156b93962aa410e1b3",
+      "folder": false
+    },
+    {
+      "id": "1xZ3fPjt6bsAWJAbB5--EsP6sQ3KqkP9A",
+      "parent_id": "1wV-LEAXkQIbvBz-94IrFTcasmOrVUlhk",
+      "name": "PHI TƯỢNG QUÁ HÀ.pdf",
+      "mime": "application/pdf",
+      "size": 1180061,
+      "modified": "2026-08-15T10:32:52.000Z",
+      "checksum": "6c10a7c6429b863745ee5bcc3c77ca0c",
+      "folder": false
+    }
+  ]
+}

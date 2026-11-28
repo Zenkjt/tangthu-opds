@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NEBtLsHAnl-qnmiZKGEjiOJVxuqR47bf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1i2unFPRei4HsIrG7iV37FeXPRm0TKveG",
+      "parent_id": "1NEBtLsHAnl-qnmiZKGEjiOJVxuqR47bf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5366,
+      "modified": "2026-08-15T07:37:18.000Z",
+      "checksum": "a33272a50f53c9349feeb20b1b84e60f",
+      "folder": false
+    },
+    {
+      "id": "1cMnN-3VIlPkE_DFTqZ8O5MprJ7CJyJ7R",
+      "parent_id": "1NEBtLsHAnl-qnmiZKGEjiOJVxuqR47bf",
+      "name": "RANH GIỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 1922748,
+      "modified": "2026-08-15T07:37:28.000Z",
+      "checksum": "766136bbf3f7546f6ec3736bee6fcbf5",
+      "folder": false
+    },
+    {
+      "id": "1l5mT6yNl6xdWsZJ5DmuGz-qZ0j6wIo6B",
+      "parent_id": "1NEBtLsHAnl-qnmiZKGEjiOJVxuqR47bf",
+      "name": "RANH GIỚI.pdf",
+      "mime": "application/pdf",
+      "size": 2641083,
+      "modified": "2026-08-15T07:37:24.000Z",
+      "checksum": "8777cef9a65dc76cab6c0e077abc11f0",
+      "folder": false
+    }
+  ]
+}

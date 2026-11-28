@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1i230iXvxffQcjmRpgkHuGM1spcSyw9Ad",
+  "page": 1,
+  "items": [
+    {
+      "id": "1COsJrbTLKNbaqElmKG4clllzQf-s0CU9",
+      "parent_id": "1i230iXvxffQcjmRpgkHuGM1spcSyw9Ad",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2981,
+      "modified": "2026-08-16T03:59:34.000Z",
+      "checksum": "7ba9425bc9fb272a224000c321a373fb",
+      "folder": false
+    },
+    {
+      "id": "1qcffKf4C-4a4JNKMElMhKZ6UcEwqVZVC",
+      "parent_id": "1i230iXvxffQcjmRpgkHuGM1spcSyw9Ad",
+      "name": "THÁNG NĂM CỦA KẸO.epub",
+      "mime": "application/epub+zip",
+      "size": 660674,
+      "modified": "2026-08-16T03:59:40.000Z",
+      "checksum": "107dced496b7626ad33e5c534f30a107",
+      "folder": false
+    },
+    {
+      "id": "1-RrbSSDH2q0G8ahLfqPHeacWhTlKY_7r",
+      "parent_id": "1i230iXvxffQcjmRpgkHuGM1spcSyw9Ad",
+      "name": "THÁNG NĂM CỦA KẸO.pdf",
+      "mime": "application/pdf",
+      "size": 809267,
+      "modified": "2026-08-16T03:59:37.000Z",
+      "checksum": "ed305418cdae17ed1070fd5156916dd2",
+      "folder": false
+    }
+  ]
+}

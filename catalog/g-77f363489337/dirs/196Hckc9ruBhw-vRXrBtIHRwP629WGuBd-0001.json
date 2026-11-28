@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "196Hckc9ruBhw-vRXrBtIHRwP629WGuBd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1reOeTlPTRLceY5tRJnFTNoe3Xfx8xG9T",
+      "parent_id": "196Hckc9ruBhw-vRXrBtIHRwP629WGuBd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 394,
+      "modified": "2026-08-15T10:56:01.000Z",
+      "checksum": "80f1c0032e16a62b44680fcee848bf76",
+      "folder": false
+    },
+    {
+      "id": "1On6VA8ac64S-mOWTfSryoof1rjt1Z7-y",
+      "parent_id": "196Hckc9ruBhw-vRXrBtIHRwP629WGuBd",
+      "name": "KASHA.epub",
+      "mime": "application/epub+zip",
+      "size": 691006,
+      "modified": "2026-08-15T10:56:08.000Z",
+      "checksum": "619c4a567f240d2da6a2d1dfbb26f957",
+      "folder": false
+    },
+    {
+      "id": "12VQ0DDFqByXT5fE5me6lXJDgJTCmhGY3",
+      "parent_id": "196Hckc9ruBhw-vRXrBtIHRwP629WGuBd",
+      "name": "KASHA.pdf",
+      "mime": "application/pdf",
+      "size": 1328583,
+      "modified": "2026-08-15T10:56:06.000Z",
+      "checksum": "0126ace2af0cee0cf5ed5b09ba0bf3c2",
+      "folder": false
+    }
+  ]
+}

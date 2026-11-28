@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EwsV4mzxYCbmfb9_8vQnvgbhS9k8PWQv",
+  "page": 1,
+  "items": [
+    {
+      "id": "174vUaVLO0lg3xlgAg7UikMqBFpeGfKsd",
+      "parent_id": "1EwsV4mzxYCbmfb9_8vQnvgbhS9k8PWQv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 359,
+      "modified": "2026-08-15T10:43:08.000Z",
+      "checksum": "cefa4c3ee50db1dae1cc87071fd1e2d5",
+      "folder": false
+    },
+    {
+      "id": "1tiPOYxkm4Fr3kAx3V5jww-vSLY-4NVke",
+      "parent_id": "1EwsV4mzxYCbmfb9_8vQnvgbhS9k8PWQv",
+      "name": "NGƯỜI LẠ TRONG NHÀ.epub",
+      "mime": "application/epub+zip",
+      "size": 554928,
+      "modified": "2026-08-15T10:43:14.000Z",
+      "checksum": "106ef3e122701b70b96c1e19ea661b53",
+      "folder": false
+    },
+    {
+      "id": "1KedjkdWhkUF6eYDqjA_D0WFI7laaiMbF",
+      "parent_id": "1EwsV4mzxYCbmfb9_8vQnvgbhS9k8PWQv",
+      "name": "NGƯỜI LẠ TRONG NHÀ.pdf",
+      "mime": "application/pdf",
+      "size": 777888,
+      "modified": "2026-08-15T10:43:12.000Z",
+      "checksum": "1ca1532697fbc8f5672ba8e64c285061",
+      "folder": false
+    }
+  ]
+}

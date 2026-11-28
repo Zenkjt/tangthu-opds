@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11JCgK7mlTUh2kReGYnTTfMM8CrLpC-rn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Vgi1FcAT_Ec_W_Xrz3Qz0UphIeqPCjhE",
+      "parent_id": "11JCgK7mlTUh2kReGYnTTfMM8CrLpC-rn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2253,
+      "modified": "2026-08-16T03:08:18.000Z",
+      "checksum": "9972b468acae30a407e06ca57e912640",
+      "folder": false
+    },
+    {
+      "id": "10OzwMOL2AZ1wnB3KwC6hfZzsiyCzrefQ",
+      "parent_id": "11JCgK7mlTUh2kReGYnTTfMM8CrLpC-rn",
+      "name": "ĐÊM KINH HOÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 269628,
+      "modified": "2026-08-16T03:08:24.000Z",
+      "checksum": "0949db26dfc17016f64d9db4220406ed",
+      "folder": false
+    },
+    {
+      "id": "11d02ikPn6dor_3gxuZbEV2Py7zJqo4KV",
+      "parent_id": "11JCgK7mlTUh2kReGYnTTfMM8CrLpC-rn",
+      "name": "ĐÊM KINH HOÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 309565,
+      "modified": "2026-08-16T03:08:21.000Z",
+      "checksum": "277102a18b7ce0527f7d69ece547a0f7",
+      "folder": false
+    }
+  ]
+}

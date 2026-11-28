@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FWr7q1fTO8bN_HqErM-mHcTkMVb5ZOnL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1k7Q6JgdDUgD5cjjXxjYCdH66qem99SEK",
+      "parent_id": "1FWr7q1fTO8bN_HqErM-mHcTkMVb5ZOnL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 820,
+      "modified": "2026-08-16T03:59:13.000Z",
+      "checksum": "29531f105fcba6ca1daad57520491475",
+      "folder": false
+    },
+    {
+      "id": "1d1IHSjtuKQZobKwqqTixy8a-jy4ZEsGk",
+      "parent_id": "1FWr7q1fTO8bN_HqErM-mHcTkMVb5ZOnL",
+      "name": "THÀNH PHỐ VÔ TẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 828378,
+      "modified": "2026-08-16T03:59:24.000Z",
+      "checksum": "dc0a68d095d5ed1828e549f91141d62d",
+      "folder": false
+    },
+    {
+      "id": "1CGUt3hy37rP-1nEuXIti3Evarg2B9SQi",
+      "parent_id": "1FWr7q1fTO8bN_HqErM-mHcTkMVb5ZOnL",
+      "name": "THÀNH PHỐ VÔ TẬN.pdf",
+      "mime": "application/pdf",
+      "size": 2707723,
+      "modified": "2026-08-16T03:59:21.000Z",
+      "checksum": "36858839662b04b86510597a9da2bbdc",
+      "folder": false
+    }
+  ]
+}

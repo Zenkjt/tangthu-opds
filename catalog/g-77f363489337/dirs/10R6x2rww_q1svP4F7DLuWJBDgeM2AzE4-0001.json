@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10R6x2rww_q1svP4F7DLuWJBDgeM2AzE4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sE0qEhw6YDiukhw247FSBqED5s56xIBi",
+      "parent_id": "10R6x2rww_q1svP4F7DLuWJBDgeM2AzE4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1499,
+      "modified": "2026-08-15T09:16:03.000Z",
+      "checksum": "ff4aaca9a88416b842b1592179910259",
+      "folder": false
+    },
+    {
+      "id": "1r9R2ttMPRKI8YxNdbzKvvOXXKBugKmT6",
+      "parent_id": "10R6x2rww_q1svP4F7DLuWJBDgeM2AzE4",
+      "name": "THIẾU NIÊN CA HÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 1848046,
+      "modified": "2026-08-15T09:19:30.000Z",
+      "checksum": "be3c45e975bcd743e318c7d77df843ae",
+      "folder": false
+    },
+    {
+      "id": "10XVfqXHPO5-zr46bvtMVKIpKMm-3xC2z",
+      "parent_id": "10R6x2rww_q1svP4F7DLuWJBDgeM2AzE4",
+      "name": "THIẾU NIÊN CA HÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 5008626,
+      "modified": "2026-08-15T09:17:23.000Z",
+      "checksum": "ebcef5b6cebfe04f5218785ec9b063aa",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nf_qrlcUhkhr_ICgYkR264RLjHvV2Dne",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NLG_HdfRW0FpfQu8Be0KDc8rT3acqGWf",
+      "parent_id": "1nf_qrlcUhkhr_ICgYkR264RLjHvV2Dne",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3934,
+      "modified": "2026-08-15T00:45:39.000Z",
+      "checksum": "443dffd751eac809893d5d9a805480a1",
+      "folder": false
+    },
+    {
+      "id": "1T9qUdEzqF5Sxzqw5m8zvLoT_RHvvxKoM",
+      "parent_id": "1nf_qrlcUhkhr_ICgYkR264RLjHvV2Dne",
+      "name": "MINDSET - TÂM LÝ HỌC THÀNH CÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 629215,
+      "modified": "2026-08-15T00:45:47.000Z",
+      "checksum": "6c79eea070124314eceb005e0fe96f10",
+      "folder": false
+    },
+    {
+      "id": "1VOe39D3ibk7AS2b8JZ2v9gsfF4brsoE6",
+      "parent_id": "1nf_qrlcUhkhr_ICgYkR264RLjHvV2Dne",
+      "name": "MINDSET - TÂM LÝ HỌC THÀNH CÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 1579771,
+      "modified": "2026-08-15T00:45:44.000Z",
+      "checksum": "db804305215e8abb06ac44afc6ef5336",
+      "folder": false
+    }
+  ]
+}

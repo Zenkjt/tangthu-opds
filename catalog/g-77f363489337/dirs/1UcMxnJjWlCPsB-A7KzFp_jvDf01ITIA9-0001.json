@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UcMxnJjWlCPsB-A7KzFp_jvDf01ITIA9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gvaONXSaKKqV_CWKe4ob7MxE1c3uRG-u",
+      "parent_id": "1UcMxnJjWlCPsB-A7KzFp_jvDf01ITIA9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3389,
+      "modified": "2026-08-15T10:36:06.000Z",
+      "checksum": "04241aa275b20fd09446d796b6450e30",
+      "folder": false
+    },
+    {
+      "id": "1Cl-4gngYSMIlo3GPhGLBuHnAAeTxwkqf",
+      "parent_id": "1UcMxnJjWlCPsB-A7KzFp_jvDf01ITIA9",
+      "name": "NƠI NÀO HẠ MÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 385538,
+      "modified": "2026-08-15T10:36:12.000Z",
+      "checksum": "4e1cc23b09dda5b5925d1eb7c1780101",
+      "folder": false
+    },
+    {
+      "id": "1-UNJsfCoMJdvw30nj8YExcUhd_wz3iHN",
+      "parent_id": "1UcMxnJjWlCPsB-A7KzFp_jvDf01ITIA9",
+      "name": "NƠI NÀO HẠ MÁT.pdf",
+      "mime": "application/pdf",
+      "size": 545915,
+      "modified": "2026-08-15T10:36:10.000Z",
+      "checksum": "1ab21911a987581d477a3f0dd459e30e",
+      "folder": false
+    }
+  ]
+}

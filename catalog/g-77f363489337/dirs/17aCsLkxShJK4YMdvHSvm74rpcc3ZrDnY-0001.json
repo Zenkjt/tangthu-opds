@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17aCsLkxShJK4YMdvHSvm74rpcc3ZrDnY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1F1jfTFO-BT7ObRPfJJK_hJdpOXW0jQlt",
+      "parent_id": "17aCsLkxShJK4YMdvHSvm74rpcc3ZrDnY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3292,
+      "modified": "2026-08-15T16:00:31.000Z",
+      "checksum": "f0daa3220eaa31ed365020bbbc401f05",
+      "folder": false
+    },
+    {
+      "id": "1o-11ZksHDlIm_g1YVQAYCzR2ZIHwJ3WM",
+      "parent_id": "17aCsLkxShJK4YMdvHSvm74rpcc3ZrDnY",
+      "name": "NGOAN, ANH YÊU EM.epub",
+      "mime": "application/epub+zip",
+      "size": 610600,
+      "modified": "2026-08-15T16:00:41.000Z",
+      "checksum": "0eb0267f4456e5f84524d4a6ba702984",
+      "folder": false
+    },
+    {
+      "id": "1jZkHePM9Xw8sl2gJRvZqBsshrKPratN2",
+      "parent_id": "17aCsLkxShJK4YMdvHSvm74rpcc3ZrDnY",
+      "name": "NGOAN, ANH YÊU EM.pdf",
+      "mime": "application/pdf",
+      "size": 1864056,
+      "modified": "2026-08-15T16:00:38.000Z",
+      "checksum": "2da2613a687b32036eb45509e2206435",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oVeMeKG1Mr3LjXrMysV6Cpef5NRnN0IN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DTHwomiKEmEZKcLvxiOsla1mFeBPcUL2",
+      "parent_id": "1oVeMeKG1Mr3LjXrMysV6Cpef5NRnN0IN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2639,
+      "modified": "2026-08-16T02:56:36.000Z",
+      "checksum": "fc4534d77bf50b108f2bba4281358f64",
+      "folder": false
+    },
+    {
+      "id": "1mNZlwtqG9Xl3adCH560bjPySEJfE4-z_",
+      "parent_id": "1oVeMeKG1Mr3LjXrMysV6Cpef5NRnN0IN",
+      "name": "VẾT THÙ HẰN TRÊN LƯNG NGỰA HOANG.epub",
+      "mime": "application/epub+zip",
+      "size": 1252175,
+      "modified": "2026-08-16T02:56:43.000Z",
+      "checksum": "2e75bcfcf1572deb5085f4647e8c25d2",
+      "folder": false
+    },
+    {
+      "id": "1sTnmEqRkAzn0-94fQPNC-14f37geH6uV",
+      "parent_id": "1oVeMeKG1Mr3LjXrMysV6Cpef5NRnN0IN",
+      "name": "VẾT THÙ HẰN TRÊN LƯNG NGỰA HOANG.pdf",
+      "mime": "application/pdf",
+      "size": 1133449,
+      "modified": "2026-08-16T02:56:40.000Z",
+      "checksum": "3788ce2a1bf0c10245cf9176a3db9c01",
+      "folder": false
+    }
+  ]
+}

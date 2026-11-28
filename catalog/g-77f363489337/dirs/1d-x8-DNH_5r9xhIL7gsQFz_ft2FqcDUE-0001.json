@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d-x8-DNH_5r9xhIL7gsQFz_ft2FqcDUE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1N4SCNKzMOT0NIIBWpfkgzxZ-0pjFFpnc",
+      "parent_id": "1d-x8-DNH_5r9xhIL7gsQFz_ft2FqcDUE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6178,
+      "modified": "2026-08-15T09:49:17.000Z",
+      "checksum": "57ab5c496ecabdd52f124adefcfe690b",
+      "folder": false
+    },
+    {
+      "id": "1XarPuk55v1eDxXchUTSncvYPGF9LEwG-",
+      "parent_id": "1d-x8-DNH_5r9xhIL7gsQFz_ft2FqcDUE",
+      "name": "GIÓ THỔI MÙA HÈ.epub",
+      "mime": "application/epub+zip",
+      "size": 520397,
+      "modified": "2026-08-15T09:49:23.000Z",
+      "checksum": "7fc57e3864f56cb65a122c888c6762c3",
+      "folder": false
+    },
+    {
+      "id": "1TFYrC2XAqUFz0unwxOREUlaqPrmuUeqV",
+      "parent_id": "1d-x8-DNH_5r9xhIL7gsQFz_ft2FqcDUE",
+      "name": "GIÓ THỔI MÙA HÈ.pdf",
+      "mime": "application/pdf",
+      "size": 510929,
+      "modified": "2026-08-15T09:49:20.000Z",
+      "checksum": "1cb3d4753a89c04adec5f89d113b70a1",
+      "folder": false
+    }
+  ]
+}

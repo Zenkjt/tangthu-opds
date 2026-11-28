@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12FhHR37NO6mX5bgalyzyyUqu2Hn4E0lb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kWT1GIYPRtSWsr0iADdZoa_FXl_J5Pvc",
+      "parent_id": "12FhHR37NO6mX5bgalyzyyUqu2Hn4E0lb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3516,
+      "modified": "2026-08-15T03:58:30.000Z",
+      "checksum": "ed84fe45e098c7ea416b3fb3ae4f3b28",
+      "folder": false
+    },
+    {
+      "id": "1WIBbGKpg27yHSMc7VtwA9S91UvPsP7ft",
+      "parent_id": "12FhHR37NO6mX5bgalyzyyUqu2Hn4E0lb",
+      "name": "GIẢNG LUẬN TIẾNG NÓI VÔ THINH.epub",
+      "mime": "application/epub+zip",
+      "size": 438416,
+      "modified": "2026-08-15T03:58:37.000Z",
+      "checksum": "f99b040e0e8524b2808fa8328e52e29d",
+      "folder": false
+    },
+    {
+      "id": "1B1dm5JfCpEZjC34Fxl_dlz0Ilznfqh2s",
+      "parent_id": "12FhHR37NO6mX5bgalyzyyUqu2Hn4E0lb",
+      "name": "GIẢNG LUẬN TIẾNG NÓI VÔ THINH.pdf",
+      "mime": "application/pdf",
+      "size": 2502500,
+      "modified": "2026-08-15T03:58:35.000Z",
+      "checksum": "2f42bcab6d5f4f1c59777884e4461d8e",
+      "folder": false
+    }
+  ]
+}

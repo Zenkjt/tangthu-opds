@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gH1aCKCkJ7LEOPnb39U904cIcEeU_B8n",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-BI7hLS2O3fZW7x0ZjsZbYnBzjfqSp3S",
+      "parent_id": "1gH1aCKCkJ7LEOPnb39U904cIcEeU_B8n",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 1640,
+      "modified": "2026-08-15T03:50:51.000Z",
+      "checksum": "736b07af364e9231d25e38fcfe2500b4",
+      "folder": false
+    },
+    {
+      "id": "15caiLks4zFeNxtnozr4SbyaKxGgDUVEx",
+      "parent_id": "1gH1aCKCkJ7LEOPnb39U904cIcEeU_B8n",
+      "name": "KINH THỦ LĂNG NGHIÊM GIẢNG GIẢI.epub",
+      "mime": "application/epub+zip",
+      "size": 823625,
+      "modified": "2026-08-15T03:50:59.000Z",
+      "checksum": "2bbdb444384afe933c43ebb6e326cfd6",
+      "folder": false
+    },
+    {
+      "id": "10pVr24sP_Lig9oxhaV00F0GNbOCbBx9W",
+      "parent_id": "1gH1aCKCkJ7LEOPnb39U904cIcEeU_B8n",
+      "name": "KINH THỦ LĂNG NGHIÊM GIẢNG GIẢI.pdf",
+      "mime": "application/pdf",
+      "size": 2485358,
+      "modified": "2026-08-15T03:50:57.000Z",
+      "checksum": "8796f3ccaf71915b67b4c6350ea2374e",
+      "folder": false
+    }
+  ]
+}

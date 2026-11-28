@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fuvbqCIyB1OuwtdKF4_ywb_MG35amwZm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DceMLDCAilSBnUWwqyaAmxif8lXOHvPa",
+      "parent_id": "1fuvbqCIyB1OuwtdKF4_ywb_MG35amwZm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4086,
+      "modified": "2026-08-15T07:27:40.000Z",
+      "checksum": "bfe360b21b6c6ac954c41bd3a614d553",
+      "folder": false
+    },
+    {
+      "id": "1t5GqHYZQlO_DGf3nY-uHMbL9trE8mc2a",
+      "parent_id": "1fuvbqCIyB1OuwtdKF4_ywb_MG35amwZm",
+      "name": "VIÊN MÃN.epub",
+      "mime": "application/epub+zip",
+      "size": 588060,
+      "modified": "2026-08-15T07:27:51.000Z",
+      "checksum": "62f0ee29713c71c8a72e75a712c8fbff",
+      "folder": false
+    },
+    {
+      "id": "17ACk8YIgG21Kd05HCOiFAVP8KSZ3R99o",
+      "parent_id": "1fuvbqCIyB1OuwtdKF4_ywb_MG35amwZm",
+      "name": "VIÊN MÃN.pdf",
+      "mime": "application/pdf",
+      "size": 1777374,
+      "modified": "2026-08-15T07:27:49.000Z",
+      "checksum": "a1bfa393d973c3da4f83d7015e98d473",
+      "folder": false
+    }
+  ]
+}

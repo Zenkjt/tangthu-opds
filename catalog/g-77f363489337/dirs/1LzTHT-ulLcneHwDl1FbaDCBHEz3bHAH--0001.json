@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LzTHT-ulLcneHwDl1FbaDCBHEz3bHAH-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WJa9U7v-WSmpSJvFXLuQk50snezKAid1",
+      "parent_id": "1LzTHT-ulLcneHwDl1FbaDCBHEz3bHAH-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2845,
+      "modified": "2026-08-15T08:02:46.000Z",
+      "checksum": "36912b9b638c2ab208fe6bf8db1a2632",
+      "folder": false
+    },
+    {
+      "id": "14zJ_HCsELpb_DZpJwEw900Nhg40YNQyc",
+      "parent_id": "1LzTHT-ulLcneHwDl1FbaDCBHEz3bHAH-",
+      "name": "HƯƠNG VỊ TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 476366,
+      "modified": "2026-08-15T08:02:53.000Z",
+      "checksum": "58249a9e71957cf9e19bdeb788a0ade8",
+      "folder": false
+    },
+    {
+      "id": "1MqAVavRsjsx851sRb_8O8QOwbXw4Hvwk",
+      "parent_id": "1LzTHT-ulLcneHwDl1FbaDCBHEz3bHAH-",
+      "name": "HƯƠNG VỊ TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 939223,
+      "modified": "2026-08-15T08:02:51.000Z",
+      "checksum": "078e29e32084259b9c9b18c99465119c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xjR-8GotFsazpuAwk9nSB3EkhXuM5kxe",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xDvCZaKNQsG7mXPlCrluryjzPI7UUIIC",
+      "parent_id": "1xjR-8GotFsazpuAwk9nSB3EkhXuM5kxe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 28307,
+      "modified": "2026-08-15T07:36:26.000Z",
+      "checksum": "f1dedde05268eb666a6a50ff9459d7a9",
+      "folder": false
+    },
+    {
+      "id": "1aXzylTy094A6eSGg-t0Ib0GLP30KKv6V",
+      "parent_id": "1xjR-8GotFsazpuAwk9nSB3EkhXuM5kxe",
+      "name": "THUNG LŨNG CÔ TAN.epub",
+      "mime": "application/epub+zip",
+      "size": 372774,
+      "modified": "2026-08-15T07:36:32.000Z",
+      "checksum": "2dffed1b0d4ac673c48d7e6310dc2254",
+      "folder": false
+    },
+    {
+      "id": "1HR8jiOE_aNRgH9CVpuuwtbsKG-qTXKrb",
+      "parent_id": "1xjR-8GotFsazpuAwk9nSB3EkhXuM5kxe",
+      "name": "THUNG LŨNG CÔ TAN.pdf",
+      "mime": "application/pdf",
+      "size": 927728,
+      "modified": "2026-08-15T07:36:29.000Z",
+      "checksum": "ace1e0f907c440ebbb340c29c8191953",
+      "folder": false
+    }
+  ]
+}

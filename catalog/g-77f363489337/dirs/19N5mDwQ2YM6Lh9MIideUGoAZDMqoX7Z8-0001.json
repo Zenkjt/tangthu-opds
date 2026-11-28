@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19N5mDwQ2YM6Lh9MIideUGoAZDMqoX7Z8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RatGUHBKqU5vK3DgKQO1ebjezR7O7WhK",
+      "parent_id": "19N5mDwQ2YM6Lh9MIideUGoAZDMqoX7Z8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4460,
+      "modified": "2026-08-15T03:28:54.000Z",
+      "checksum": "a37d41e8d3377fe8f0c42617534c2918",
+      "folder": false
+    },
+    {
+      "id": "1oyTNBFSWrFUhFGLiMTUgcvwnUrUCQGMf",
+      "parent_id": "19N5mDwQ2YM6Lh9MIideUGoAZDMqoX7Z8",
+      "name": "SỨC MẠNH TIỀM THỨC.epub",
+      "mime": "application/epub+zip",
+      "size": 446032,
+      "modified": "2026-08-15T03:29:02.000Z",
+      "checksum": "cb7873fd0cd0dacc1e052681b2676f9f",
+      "folder": false
+    },
+    {
+      "id": "1FAifBa5vY2vr-4s8JbYeRj6r2lwQ8xuu",
+      "parent_id": "19N5mDwQ2YM6Lh9MIideUGoAZDMqoX7Z8",
+      "name": "SỨC MẠNH TIỀM THỨC.pdf",
+      "mime": "application/pdf",
+      "size": 1223123,
+      "modified": "2026-08-15T03:29:00.000Z",
+      "checksum": "e721658e0063cd533dd7dfdc65ac5a56",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "165CkfY89_8tbxJh2DJvHxi8VVbGSl3DL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OYYFl6JZc-UojtPhfmZLepN6P2uElw-x",
+      "parent_id": "165CkfY89_8tbxJh2DJvHxi8VVbGSl3DL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5833,
+      "modified": "2026-08-16T02:50:14.000Z",
+      "checksum": "7c786a3ae94409eb5cfe7876f2227969",
+      "folder": false
+    },
+    {
+      "id": "1TvP84Nu3LxEkC7vusRonzkbWG_E4eATU",
+      "parent_id": "165CkfY89_8tbxJh2DJvHxi8VVbGSl3DL",
+      "name": "TRIỆU PHÚ KHU Ổ CHUỘT.epub",
+      "mime": "application/epub+zip",
+      "size": 635663,
+      "modified": "2026-08-16T02:50:25.000Z",
+      "checksum": "784f186fb9e1f68733945a1a84c197d1",
+      "folder": false
+    },
+    {
+      "id": "15ksuKcbnyApF-XgsQHqNQM0TVhsIdwvo",
+      "parent_id": "165CkfY89_8tbxJh2DJvHxi8VVbGSl3DL",
+      "name": "TRIỆU PHÚ KHU Ổ CHUỘT.pdf",
+      "mime": "application/pdf",
+      "size": 2088956,
+      "modified": "2026-08-16T02:50:23.000Z",
+      "checksum": "739629c1195afd2d3db1d0d080dc19df",
+      "folder": false
+    }
+  ]
+}

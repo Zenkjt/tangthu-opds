@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pPD8LxvNnibrY8v7cJ-ZtIKCH7UsgzpK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vLBtBmbxYCI2mPrBnbyPMeC7VN46espa",
+      "parent_id": "1pPD8LxvNnibrY8v7cJ-ZtIKCH7UsgzpK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 777,
+      "modified": "2026-08-15T15:39:07.000Z",
+      "checksum": "b757819b2fbed95e53cd7e5339bc8aa7",
+      "folder": false
+    },
+    {
+      "id": "1BE7bhz3nrQpvi6P_Nlt_lKHCuQpEaCij",
+      "parent_id": "1pPD8LxvNnibrY8v7cJ-ZtIKCH7UsgzpK",
+      "name": "NỤ HÔN LẠNH LẼO.epub",
+      "mime": "application/epub+zip",
+      "size": 625887,
+      "modified": "2026-08-15T15:39:25.000Z",
+      "checksum": "6de3efcf359ec25f1f1c77bc98947f24",
+      "folder": false
+    },
+    {
+      "id": "1Gca_xmxGA2HrBLkBJl4FHJdN_TnzPBHy",
+      "parent_id": "1pPD8LxvNnibrY8v7cJ-ZtIKCH7UsgzpK",
+      "name": "NỤ HÔN LẠNH LẼO.pdf",
+      "mime": "application/pdf",
+      "size": 1877731,
+      "modified": "2026-08-15T15:39:16.000Z",
+      "checksum": "cab550ae8463371adf9975021cd0919c",
+      "folder": false
+    }
+  ]
+}

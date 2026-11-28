@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-w16fwVIzbS6q1Dz7QhStfh7ETuHQLSS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1J6IHEoe23dy8VysIXfm_M5satWrEde6a",
+      "parent_id": "1-w16fwVIzbS6q1Dz7QhStfh7ETuHQLSS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3357,
+      "modified": "2026-08-15T10:15:25.000Z",
+      "checksum": "3240b2d40b52dff9386e14c28f6a1e19",
+      "folder": false
+    },
+    {
+      "id": "1T3cwKVKXbxY9vyjpCKNMXU2QwJJsEH7F",
+      "parent_id": "1-w16fwVIzbS6q1Dz7QhStfh7ETuHQLSS",
+      "name": "THÊ VI THƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 925814,
+      "modified": "2026-08-15T10:15:37.000Z",
+      "checksum": "a6f6a9230cbb12da9918f88f6a822d95",
+      "folder": false
+    },
+    {
+      "id": "1xVY_T8j1w0k8BOTQUNuIu89RdWqVndlo",
+      "parent_id": "1-w16fwVIzbS6q1Dz7QhStfh7ETuHQLSS",
+      "name": "THÊ VI THƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 3395718,
+      "modified": "2026-08-15T10:15:34.000Z",
+      "checksum": "3798cf248f790adf09caadc05b7dba30",
+      "folder": false
+    }
+  ]
+}

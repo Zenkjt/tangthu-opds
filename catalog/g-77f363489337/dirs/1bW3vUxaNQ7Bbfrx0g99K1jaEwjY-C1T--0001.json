@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bW3vUxaNQ7Bbfrx0g99K1jaEwjY-C1T-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IHZ4S-OId8L7aI1ykFtcJjXvPRIMIcdC",
+      "parent_id": "1bW3vUxaNQ7Bbfrx0g99K1jaEwjY-C1T-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3398,
+      "modified": "2026-08-16T04:00:56.000Z",
+      "checksum": "0a06f53cbddeb899c516c11b64d0657c",
+      "folder": false
+    },
+    {
+      "id": "1fJwcz_gGJGdTJO31OzYfTRAr4K-YsmDu",
+      "parent_id": "1bW3vUxaNQ7Bbfrx0g99K1jaEwjY-C1T-",
+      "name": "TENDER REBEL.epub",
+      "mime": "application/epub+zip",
+      "size": 608674,
+      "modified": "2026-08-16T04:01:04.000Z",
+      "checksum": "21a92ed25f930a4fce57b6a824d77a84",
+      "folder": false
+    },
+    {
+      "id": "1GjruhgPbTSwyIvhSYuiz7zQRogV76b-v",
+      "parent_id": "1bW3vUxaNQ7Bbfrx0g99K1jaEwjY-C1T-",
+      "name": "TENDER REBEL.pdf",
+      "mime": "application/pdf",
+      "size": 1254762,
+      "modified": "2026-08-16T04:01:01.000Z",
+      "checksum": "7b7d78f8f0453cb5f9638d134a844531",
+      "folder": false
+    }
+  ]
+}

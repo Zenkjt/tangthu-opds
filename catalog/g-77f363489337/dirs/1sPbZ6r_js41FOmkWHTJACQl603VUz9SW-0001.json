@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sPbZ6r_js41FOmkWHTJACQl603VUz9SW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Au2WhTro3x0jA5aAszR7syfi0RawOrGz",
+      "parent_id": "1sPbZ6r_js41FOmkWHTJACQl603VUz9SW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9588,
+      "modified": "2026-08-15T07:23:11.000Z",
+      "checksum": "41b164865f84313aff003b323d03099c",
+      "folder": false
+    },
+    {
+      "id": "17QwURJ90I5_QPATqpDMPrHzYtPxuxa3T",
+      "parent_id": "1sPbZ6r_js41FOmkWHTJACQl603VUz9SW",
+      "name": "TRƯỜNG AN LOẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 395400,
+      "modified": "2026-08-15T07:23:19.000Z",
+      "checksum": "272503020411333d3f30254390777219",
+      "folder": false
+    },
+    {
+      "id": "1U6w-Je6Gnd8vK2Vvn6SLp0TBYn7wN-qv",
+      "parent_id": "1sPbZ6r_js41FOmkWHTJACQl603VUz9SW",
+      "name": "TRƯỜNG AN LOẠN.pdf",
+      "mime": "application/pdf",
+      "size": 657946,
+      "modified": "2026-08-15T07:23:14.000Z",
+      "checksum": "a4c0fb8fced3fe5668fd98682cd99580",
+      "folder": false
+    }
+  ]
+}

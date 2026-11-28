@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mgwiPAPxhpi7Ls2HP9yK-iMXodAG-uf4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qxoO7u7ThyZcji7lTC9PVbqtrR_SlLce",
+      "parent_id": "1mgwiPAPxhpi7Ls2HP9yK-iMXodAG-uf4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4697,
+      "modified": "2026-08-15T04:00:48.000Z",
+      "checksum": "80284cd509fe3881b13c24ba46b1abdc",
+      "folder": false
+    },
+    {
+      "id": "1FNWfWlMvF_NmLRf6NOlhS006saJj5MEJ",
+      "parent_id": "1mgwiPAPxhpi7Ls2HP9yK-iMXodAG-uf4",
+      "name": "HOÀNG KIM BẢN HARACHI.epub",
+      "mime": "application/epub+zip",
+      "size": 428849,
+      "modified": "2026-08-15T04:00:55.000Z",
+      "checksum": "deff40b6ca6eb31f786c45ad5b3309b8",
+      "folder": false
+    },
+    {
+      "id": "1iEMuUFyxanRquYsFvRjKTspAVDw9JBP0",
+      "parent_id": "1mgwiPAPxhpi7Ls2HP9yK-iMXodAG-uf4",
+      "name": "HOÀNG KIM BẢN HARACHI.pdf",
+      "mime": "application/pdf",
+      "size": 995826,
+      "modified": "2026-08-15T04:00:53.000Z",
+      "checksum": "1b4c832bcb8322234f9521e263aab1fe",
+      "folder": false
+    }
+  ]
+}

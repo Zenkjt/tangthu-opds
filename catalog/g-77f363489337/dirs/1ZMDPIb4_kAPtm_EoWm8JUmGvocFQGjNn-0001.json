@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZMDPIb4_kAPtm_EoWm8JUmGvocFQGjNn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FhRceNKwlEWgQ5_aB9ptcczp_16Tg3W1",
+      "parent_id": "1ZMDPIb4_kAPtm_EoWm8JUmGvocFQGjNn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 16274,
+      "modified": "2026-08-15T07:38:33.000Z",
+      "checksum": "a8ef4431a67ca3abfc2703010211997f",
+      "folder": false
+    },
+    {
+      "id": "1jfZR3r126N9CBl3NAgNtp_6ZCsHiaUIu",
+      "parent_id": "1ZMDPIb4_kAPtm_EoWm8JUmGvocFQGjNn",
+      "name": "NGƯỜI ĐÀN BÀ TRONG CỒN CÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 833368,
+      "modified": "2026-08-15T07:38:39.000Z",
+      "checksum": "73553547a3cdc226ed4c4d7a243651db",
+      "folder": false
+    },
+    {
+      "id": "1MLSOsTjL_vOwyc-iQniqdNLTQ1OCSmaM",
+      "parent_id": "1ZMDPIb4_kAPtm_EoWm8JUmGvocFQGjNn",
+      "name": "NGƯỜI ĐÀN BÀ TRONG CỒN CÁT.pdf",
+      "mime": "application/pdf",
+      "size": 688492,
+      "modified": "2026-08-15T07:38:36.000Z",
+      "checksum": "a8000d64fac137f761df3cc9246dfbf1",
+      "folder": false
+    }
+  ]
+}

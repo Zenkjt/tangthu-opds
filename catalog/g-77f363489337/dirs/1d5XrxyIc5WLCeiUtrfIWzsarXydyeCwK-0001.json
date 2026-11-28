@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d5XrxyIc5WLCeiUtrfIWzsarXydyeCwK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1x1dXLts_joY2iwCP-fpOoajRNR7NVTfB",
+      "parent_id": "1d5XrxyIc5WLCeiUtrfIWzsarXydyeCwK",
+      "name": "CÔNG CHÚA.epub",
+      "mime": "application/epub+zip",
+      "size": 723616,
+      "modified": "2026-08-16T04:21:03.000Z",
+      "checksum": "16ed36721afdde5caf079a2eadfa3396",
+      "folder": false
+    },
+    {
+      "id": "1ZCjTA8jgaR3g0VngEvsajwRswV3wv_0F",
+      "parent_id": "1d5XrxyIc5WLCeiUtrfIWzsarXydyeCwK",
+      "name": "CÔNG CHÚA.pdf",
+      "mime": "application/pdf",
+      "size": 988077,
+      "modified": "2026-08-16T04:21:00.000Z",
+      "checksum": "8229e6649a842bcac5d9d88c43a7613b",
+      "folder": false
+    },
+    {
+      "id": "1GP7UPz1RtFFtmtMHkGDdAQO2J36kDvAB",
+      "parent_id": "1d5XrxyIc5WLCeiUtrfIWzsarXydyeCwK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 380,
+      "modified": "2026-08-16T04:20:56.000Z",
+      "checksum": "345d45a610022d776f5e70e01d603773",
+      "folder": false
+    }
+  ]
+}

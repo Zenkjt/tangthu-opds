@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16dPhDpX0PA689mXREcDgY7N9RmKkqnN-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UngOydzMeYP0IyapWJ_HeSwSseW4s-u6",
+      "parent_id": "16dPhDpX0PA689mXREcDgY7N9RmKkqnN-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2324,
+      "modified": "2026-08-15T03:43:20.000Z",
+      "checksum": "479c9868935b3fe7157e0b869b19eee6",
+      "folder": false
+    },
+    {
+      "id": "1mI44NsJt05ZTRBTwuoVUnhJA63dWGSCq",
+      "parent_id": "16dPhDpX0PA689mXREcDgY7N9RmKkqnN-",
+      "name": "KINH TƯƠNG ƯNG BỘ - TẬP 2.epub",
+      "mime": "application/epub+zip",
+      "size": 249264,
+      "modified": "2026-08-15T03:43:28.000Z",
+      "checksum": "df9fd86e7b36b4f450fc4a562ecd3e1a",
+      "folder": false
+    },
+    {
+      "id": "1W1NW1yTGfnPZO2sHOLF4msA6RJJOj0Kp",
+      "parent_id": "16dPhDpX0PA689mXREcDgY7N9RmKkqnN-",
+      "name": "KINH TƯƠNG ƯNG BỘ - TẬP 2.pdf",
+      "mime": "application/pdf",
+      "size": 2488859,
+      "modified": "2026-08-15T03:43:25.000Z",
+      "checksum": "bf4c58dcfe3ce4861cc5fb4b815f13d5",
+      "folder": false
+    }
+  ]
+}

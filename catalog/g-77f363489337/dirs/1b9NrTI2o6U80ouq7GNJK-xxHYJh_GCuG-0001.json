@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1b9NrTI2o6U80ouq7GNJK-xxHYJh_GCuG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eikEMYngRyzKxkMvU3T8g79cQnqgDlfO",
+      "parent_id": "1b9NrTI2o6U80ouq7GNJK-xxHYJh_GCuG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2942,
+      "modified": "2026-08-15T08:16:55.000Z",
+      "checksum": "4942c2b7451f28a952a008a1fe6cdb13",
+      "folder": false
+    },
+    {
+      "id": "1sogsiaz9YXp9jblw20KOBl7kDiSrRVtm",
+      "parent_id": "1b9NrTI2o6U80ouq7GNJK-xxHYJh_GCuG",
+      "name": "ĐỎ TRỖI DẬY.epub",
+      "mime": "application/epub+zip",
+      "size": 804868,
+      "modified": "2026-08-15T08:17:03.000Z",
+      "checksum": "1b25532fe9e969a2dba4158cab177cbc",
+      "folder": false
+    },
+    {
+      "id": "1_U9Bv-Wkz243KXUSdZnefT_ME8ixSu6f",
+      "parent_id": "1b9NrTI2o6U80ouq7GNJK-xxHYJh_GCuG",
+      "name": "ĐỎ TRỖI DẬY.pdf",
+      "mime": "application/pdf",
+      "size": 1831814,
+      "modified": "2026-08-15T08:17:01.000Z",
+      "checksum": "0376e1400a77e40ff54b5eb7695e2d6f",
+      "folder": false
+    }
+  ]
+}

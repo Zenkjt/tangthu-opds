@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AB9f-jmDopeFwvMoyWiFiKq4ZhRak-eJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rx5S6OUiNY55PQhetQXq5137ryQ062A6",
+      "parent_id": "1AB9f-jmDopeFwvMoyWiFiKq4ZhRak-eJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6155,
+      "modified": "2026-08-15T06:41:55.000Z",
+      "checksum": "a7d9bb76d7a31b4cffe194bf1ee6e9dc",
+      "folder": false
+    },
+    {
+      "id": "1QjZRdFpFREbw_ITN0pDqEAXDwYNGbqlr",
+      "parent_id": "1AB9f-jmDopeFwvMoyWiFiKq4ZhRak-eJ",
+      "name": "SHERLOCK HOLMES TOÀN TẬP.epub",
+      "mime": "application/epub+zip",
+      "size": 1821497,
+      "modified": "2026-08-15T06:42:21.000Z",
+      "checksum": "e1443410333dae8e4748e2c26261f649",
+      "folder": false
+    },
+    {
+      "id": "1jsdVJhPdWRGveWFD1jvPo_UaNQpfus19",
+      "parent_id": "1AB9f-jmDopeFwvMoyWiFiKq4ZhRak-eJ",
+      "name": "SHERLOCK HOLMES TOÀN TẬP.pdf",
+      "mime": "application/pdf",
+      "size": 5797737,
+      "modified": "2026-08-15T06:42:18.000Z",
+      "checksum": "774fc4238483751085aeb2637ae1b211",
+      "folder": false
+    }
+  ]
+}

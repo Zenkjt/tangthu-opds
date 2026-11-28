@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XRlZMx4A4flWNSc8GcPBQc_ryTePn1nq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KA9ZUnvSB5EwpUNqG9X0AIKjk266_U-I",
+      "parent_id": "1XRlZMx4A4flWNSc8GcPBQc_ryTePn1nq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3218,
+      "modified": "2026-08-16T04:15:01.000Z",
+      "checksum": "e81bb8ea6927fb93c8574ef3bb3177d2",
+      "folder": false
+    },
+    {
+      "id": "1Nhl0ueXsd0y0Zk6D-zfAbvu_dhV-0IfF",
+      "parent_id": "1XRlZMx4A4flWNSc8GcPBQc_ryTePn1nq",
+      "name": "NGỘ KHÔNG TRUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 308188,
+      "modified": "2026-08-16T04:15:06.000Z",
+      "checksum": "4755fcd4d3367fa77329ac58c27e1bd0",
+      "folder": false
+    },
+    {
+      "id": "1whLT72qXjYf7vlTdF0gVxbMfr-wT8tFM",
+      "parent_id": "1XRlZMx4A4flWNSc8GcPBQc_ryTePn1nq",
+      "name": "NGỘ KHÔNG TRUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 323915,
+      "modified": "2026-08-16T04:15:04.000Z",
+      "checksum": "f7995d9fa9ad6919c0362b14508695bf",
+      "folder": false
+    }
+  ]
+}

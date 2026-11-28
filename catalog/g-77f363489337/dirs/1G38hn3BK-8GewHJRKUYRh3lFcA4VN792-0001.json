@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1G38hn3BK-8GewHJRKUYRh3lFcA4VN792",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kVSxDldmqSOD1-Jsmy9EORyRR7BjsMC-",
+      "parent_id": "1G38hn3BK-8GewHJRKUYRh3lFcA4VN792",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 574,
+      "modified": "2026-08-16T04:18:17.000Z",
+      "checksum": "84dd47665f60e3f64363980105441347",
+      "folder": false
+    },
+    {
+      "id": "1ZCdbDN84RAGTxz5M8TuElmhjYbio-42e",
+      "parent_id": "1G38hn3BK-8GewHJRKUYRh3lFcA4VN792",
+      "name": "LỤY TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 251873,
+      "modified": "2026-08-16T04:18:23.000Z",
+      "checksum": "35c4b2a7da483919efdef0f6aa010e2d",
+      "folder": false
+    },
+    {
+      "id": "1s0Ab4ado81qN67ztsRL6RCww6vYuvWoX",
+      "parent_id": "1G38hn3BK-8GewHJRKUYRh3lFcA4VN792",
+      "name": "LỤY TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 718087,
+      "modified": "2026-08-16T04:18:21.000Z",
+      "checksum": "bda0398831ef609a85fb089f9aa1e46d",
+      "folder": false
+    }
+  ]
+}

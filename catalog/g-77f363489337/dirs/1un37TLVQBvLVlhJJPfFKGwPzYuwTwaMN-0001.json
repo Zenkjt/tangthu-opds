@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1un37TLVQBvLVlhJJPfFKGwPzYuwTwaMN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Jfagg2PZIY6WaMoIReVy02h5H5Iqxbd5",
+      "parent_id": "1un37TLVQBvLVlhJJPfFKGwPzYuwTwaMN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5284,
+      "modified": "2026-08-16T03:21:53.000Z",
+      "checksum": "8d8c3932b6ee911acc903a1a49a46285",
+      "folder": false
+    },
+    {
+      "id": "1cj54MJ2MYgexYtnUtwU7mIxvI3g7CfyC",
+      "parent_id": "1un37TLVQBvLVlhJJPfFKGwPzYuwTwaMN",
+      "name": "GÓC KHUẤT ĐÀN BÀ.epub",
+      "mime": "application/epub+zip",
+      "size": 341247,
+      "modified": "2026-08-16T03:22:00.000Z",
+      "checksum": "ac52253a0a4f4590ed56823a13302fae",
+      "folder": false
+    },
+    {
+      "id": "1uQocAj5Jm0zEi1WH5eBHKqa3Mb_Cz_KM",
+      "parent_id": "1un37TLVQBvLVlhJJPfFKGwPzYuwTwaMN",
+      "name": "GÓC KHUẤT ĐÀN BÀ.pdf",
+      "mime": "application/pdf",
+      "size": 531033,
+      "modified": "2026-08-16T03:21:58.000Z",
+      "checksum": "1a29df4327bcccecdbae486a920f78c7",
+      "folder": false
+    }
+  ]
+}

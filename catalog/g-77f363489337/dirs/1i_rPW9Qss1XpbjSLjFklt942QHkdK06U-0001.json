@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1i_rPW9Qss1XpbjSLjFklt942QHkdK06U",
+  "page": 1,
+  "items": [
+    {
+      "id": "12DwaUTXF19IsSZ-Nyck12yCjOvkhWGNK",
+      "parent_id": "1i_rPW9Qss1XpbjSLjFklt942QHkdK06U",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2165,
+      "modified": "2026-08-15T07:58:54.000Z",
+      "checksum": "13a7955d78b3e875e90b19bde7676497",
+      "folder": false
+    },
+    {
+      "id": "17AnMGF_Y2afF7YnRh3DqUNmHQF0KTgSl",
+      "parent_id": "1i_rPW9Qss1XpbjSLjFklt942QHkdK06U",
+      "name": "KHẮC KHOẢI ĐỢI CHỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 433655,
+      "modified": "2026-08-15T07:59:01.000Z",
+      "checksum": "7262b00d0d39f7c4821a740b4c93da56",
+      "folder": false
+    },
+    {
+      "id": "1Nmq-ikoe6HjbewpPFeFRK_e55hOvzWl6",
+      "parent_id": "1i_rPW9Qss1XpbjSLjFklt942QHkdK06U",
+      "name": "KHẮC KHOẢI ĐỢI CHỜ.pdf",
+      "mime": "application/pdf",
+      "size": 564448,
+      "modified": "2026-08-15T07:58:58.000Z",
+      "checksum": "cc806f23f21fd25e3df1a8cc0fb08c2e",
+      "folder": false
+    }
+  ]
+}

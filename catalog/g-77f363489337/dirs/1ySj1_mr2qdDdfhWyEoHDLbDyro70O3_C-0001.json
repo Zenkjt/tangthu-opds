@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ySj1_mr2qdDdfhWyEoHDLbDyro70O3_C",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uPRxmNgsWBBjlB6CqDwc6M152r8CcEMd",
+      "parent_id": "1ySj1_mr2qdDdfhWyEoHDLbDyro70O3_C",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3656,
+      "modified": "2026-08-15T15:04:40.000Z",
+      "checksum": "6c40f936424150b192b9788cb28a1e26",
+      "folder": false
+    },
+    {
+      "id": "14-0dFbuqRGZksp0tiwbfACcUrPFN3uH4",
+      "parent_id": "1ySj1_mr2qdDdfhWyEoHDLbDyro70O3_C",
+      "name": "NỢ TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 426204,
+      "modified": "2026-08-15T15:04:47.000Z",
+      "checksum": "8b1f2b073f8576809302b6bb591fe5ad",
+      "folder": false
+    },
+    {
+      "id": "1uXAeXJ1-SZlHvz3_N3hiMbXwQPq_q5GN",
+      "parent_id": "1ySj1_mr2qdDdfhWyEoHDLbDyro70O3_C",
+      "name": "NỢ TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 581770,
+      "modified": "2026-08-15T15:04:44.000Z",
+      "checksum": "3b6e5884207d1dcb992ff2d5b163f48c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14NdGKVkFrykhH4snPrzfzkYZgLmZ4xVy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Zse_YaMlKf3x4EpgVprZ0FwuyE8yjYhU",
+      "parent_id": "14NdGKVkFrykhH4snPrzfzkYZgLmZ4xVy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 14040,
+      "modified": "2026-08-15T06:12:41.000Z",
+      "checksum": "fefbfa6b58d5e7560795a8faebdab5fd",
+      "folder": false
+    },
+    {
+      "id": "1BEDxWpkPji8Gs8B8SzDz8rN3cTJqCL-V",
+      "parent_id": "14NdGKVkFrykhH4snPrzfzkYZgLmZ4xVy",
+      "name": "MẸ CHỒNG TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 101932,
+      "modified": "2026-08-15T06:12:47.000Z",
+      "checksum": "c79d405bf56902c1d896d6676c4924fd",
+      "folder": false
+    },
+    {
+      "id": "1SCeECmT-H4IOBxr9Snx08pYfo0EOqRbG",
+      "parent_id": "14NdGKVkFrykhH4snPrzfzkYZgLmZ4xVy",
+      "name": "MẸ CHỒNG TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 166587,
+      "modified": "2026-08-15T06:12:44.000Z",
+      "checksum": "47809470d7cff3e4c913f33c185d1cda",
+      "folder": false
+    }
+  ]
+}

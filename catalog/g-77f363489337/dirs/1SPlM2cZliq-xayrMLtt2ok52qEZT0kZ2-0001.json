@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SPlM2cZliq-xayrMLtt2ok52qEZT0kZ2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1b-6uCKZA73nz5mq_bAOkvFYG_tZdGZum",
+      "parent_id": "1SPlM2cZliq-xayrMLtt2ok52qEZT0kZ2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7301,
+      "modified": "2026-08-15T09:37:08.000Z",
+      "checksum": "283bf907ab83f583da050ddb4f78ce9e",
+      "folder": false
+    },
+    {
+      "id": "1W93W3jOUQb42txtmHUTgmmwve4eqDwI6",
+      "parent_id": "1SPlM2cZliq-xayrMLtt2ok52qEZT0kZ2",
+      "name": "SỬ THI ODYSSEY - HOMER.epub",
+      "mime": "application/epub+zip",
+      "size": 1956777,
+      "modified": "2026-08-15T09:37:55.000Z",
+      "checksum": "5374e5ced6b273f94b9448ea8879e018",
+      "folder": false
+    },
+    {
+      "id": "1nnW0B2xwU25zxNWyzvw9MVBD321DOkkT",
+      "parent_id": "1SPlM2cZliq-xayrMLtt2ok52qEZT0kZ2",
+      "name": "SỬ THI ODYSSEY - HOMER.pdf",
+      "mime": "application/pdf",
+      "size": 3362235,
+      "modified": "2026-08-15T09:37:29.000Z",
+      "checksum": "8e4321b1c3b694bca0acd9369b9c5b4b",
+      "folder": false
+    }
+  ]
+}

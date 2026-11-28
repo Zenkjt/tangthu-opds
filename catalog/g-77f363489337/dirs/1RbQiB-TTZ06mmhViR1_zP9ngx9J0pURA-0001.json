@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RbQiB-TTZ06mmhViR1_zP9ngx9J0pURA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1u6i9sFDfa5oC6qPlahA34ZiyqGvACgRy",
+      "parent_id": "1RbQiB-TTZ06mmhViR1_zP9ngx9J0pURA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2577,
+      "modified": "2026-08-15T03:43:55.000Z",
+      "checksum": "e6e339241be2667f81f8cd81442f8efd",
+      "folder": false
+    },
+    {
+      "id": "1ZNwA4n1u8gqUqgQyF33ApEJt01VQOvtF",
+      "parent_id": "1RbQiB-TTZ06mmhViR1_zP9ngx9J0pURA",
+      "name": "KINH LĂNG GIÀ.epub",
+      "mime": "application/epub+zip",
+      "size": 328341,
+      "modified": "2026-08-15T03:44:02.000Z",
+      "checksum": "dcf0eec75a7be6278d68f0050c60bfab",
+      "folder": false
+    },
+    {
+      "id": "1JaIBxwOvaq5wXNKmxRXVn37rUCP6G97T",
+      "parent_id": "1RbQiB-TTZ06mmhViR1_zP9ngx9J0pURA",
+      "name": "KINH LĂNG GIÀ.pdf",
+      "mime": "application/pdf",
+      "size": 981540,
+      "modified": "2026-08-15T03:43:59.000Z",
+      "checksum": "f7a3f974fa770b707797c26bf1dda801",
+      "folder": false
+    }
+  ]
+}

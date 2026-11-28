@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vT4ntojAYaXIOTSg8bQtrvExJS_uZp2m",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QAh0JY6KK_9rKU37F5-RtqHsbtU_yupe",
+      "parent_id": "1vT4ntojAYaXIOTSg8bQtrvExJS_uZp2m",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8940,
+      "modified": "2026-08-15T04:00:50.000Z",
+      "checksum": "8391cbf78935ea3259980a2927b69452",
+      "folder": false
+    },
+    {
+      "id": "1f_CXpfw_nHNJ2NzBG_9Bw4LEQ0zi168R",
+      "parent_id": "1vT4ntojAYaXIOTSg8bQtrvExJS_uZp2m",
+      "name": "TÂM THỨC ISRAEL.epub",
+      "mime": "application/epub+zip",
+      "size": 543496,
+      "modified": "2026-08-15T04:01:01.000Z",
+      "checksum": "8b3cc8152b76c0c178d4434ef1221bca",
+      "folder": false
+    },
+    {
+      "id": "1_TbTG9A0rSTCEX--y6HGr8KBT0sJJPQZ",
+      "parent_id": "1vT4ntojAYaXIOTSg8bQtrvExJS_uZp2m",
+      "name": "TÂM THỨC ISRAEL.pdf",
+      "mime": "application/pdf",
+      "size": 1295411,
+      "modified": "2026-08-15T04:00:57.000Z",
+      "checksum": "dd1880b4cd9f7d7b9144090c028fa701",
+      "folder": false
+    }
+  ]
+}

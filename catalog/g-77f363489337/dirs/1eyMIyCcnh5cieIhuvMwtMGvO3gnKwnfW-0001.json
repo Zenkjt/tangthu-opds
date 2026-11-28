@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eyMIyCcnh5cieIhuvMwtMGvO3gnKwnfW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ClIQKY78lWTQGJ-rwGnOyLISO3SO6fs-",
+      "parent_id": "1eyMIyCcnh5cieIhuvMwtMGvO3gnKwnfW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 600,
+      "modified": "2026-08-15T03:49:42.000Z",
+      "checksum": "13e0e3027c6719d127ce75893e5d9378",
+      "folder": false
+    },
+    {
+      "id": "1VcZSUmRZlIOM4sXeG6AnN2YcMWGqkt-2",
+      "parent_id": "1eyMIyCcnh5cieIhuvMwtMGvO3gnKwnfW",
+      "name": "HOA SEN VỚI ĐẠO PHẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 454239,
+      "modified": "2026-08-15T03:49:48.000Z",
+      "checksum": "ff4af457ab510238eec82f69e65d816b",
+      "folder": false
+    },
+    {
+      "id": "1SP0kz456fnCYd_qMOYvVeiuLs33SvwJ9",
+      "parent_id": "1eyMIyCcnh5cieIhuvMwtMGvO3gnKwnfW",
+      "name": "HOA SEN VỚI ĐẠO PHẬT.pdf",
+      "mime": "application/pdf",
+      "size": 184081,
+      "modified": "2026-08-15T03:49:45.000Z",
+      "checksum": "0d9e3b71e8c0b925b89e0b7bf0f28f3c",
+      "folder": false
+    }
+  ]
+}

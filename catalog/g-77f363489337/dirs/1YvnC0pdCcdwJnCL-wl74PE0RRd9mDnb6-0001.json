@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YvnC0pdCcdwJnCL-wl74PE0RRd9mDnb6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S7B_Gq_7F23C9BlKGUjbaavQptqpYdES",
+      "parent_id": "1YvnC0pdCcdwJnCL-wl74PE0RRd9mDnb6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3388,
+      "modified": "2026-08-16T04:16:56.000Z",
+      "checksum": "c838a04f3ff90dfb0a4dac3bb27a291b",
+      "folder": false
+    },
+    {
+      "id": "1UzYcjYMQHsPD9H6aaK8WwoPzxFSwu7Ro",
+      "parent_id": "1YvnC0pdCcdwJnCL-wl74PE0RRd9mDnb6",
+      "name": "MUỐI CỦA TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 550119,
+      "modified": "2026-08-16T04:17:11.000Z",
+      "checksum": "2df32f82c82eef07a817156ca4728a3a",
+      "folder": false
+    },
+    {
+      "id": "1Qzy0VYzDac95AykcXarNfsgVKKlygeS6",
+      "parent_id": "1YvnC0pdCcdwJnCL-wl74PE0RRd9mDnb6",
+      "name": "MUỐI CỦA TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1371035,
+      "modified": "2026-08-16T04:17:08.000Z",
+      "checksum": "73e78ab01700ac3d9a07744fb92b50c7",
+      "folder": false
+    }
+  ]
+}

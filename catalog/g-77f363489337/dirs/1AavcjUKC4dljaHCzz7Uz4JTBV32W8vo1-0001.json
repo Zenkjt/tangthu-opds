@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AavcjUKC4dljaHCzz7Uz4JTBV32W8vo1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1covH7vn5fR6OrZZ1Ckpgad_65v06E0Ok",
+      "parent_id": "1AavcjUKC4dljaHCzz7Uz4JTBV32W8vo1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3164,
+      "modified": "2026-08-15T10:25:06.000Z",
+      "checksum": "ede9989fe092f9c5f37bf415b9c24bc9",
+      "folder": false
+    },
+    {
+      "id": "1MlHZRlnXYPuPQO0zFmgl58FpWEovZqn3",
+      "parent_id": "1AavcjUKC4dljaHCzz7Uz4JTBV32W8vo1",
+      "name": "SỰ SUY TÀN CỦA QUYỀN LỰC.epub",
+      "mime": "application/epub+zip",
+      "size": 1122901,
+      "modified": "2026-08-15T10:25:16.000Z",
+      "checksum": "fd8e646c80251341d81eb489ef66fd50",
+      "folder": false
+    },
+    {
+      "id": "1tINu75XR-WHezpbaSN0hpc9RiuuTTv-0",
+      "parent_id": "1AavcjUKC4dljaHCzz7Uz4JTBV32W8vo1",
+      "name": "SỰ SUY TÀN CỦA QUYỀN LỰC.pdf",
+      "mime": "application/pdf",
+      "size": 2436943,
+      "modified": "2026-08-15T10:25:13.000Z",
+      "checksum": "46450a9547c7c49ec208410515ba3e18",
+      "folder": false
+    }
+  ]
+}

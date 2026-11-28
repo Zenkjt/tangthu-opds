@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "193bJhc9W4ODY0W91ZjD3VUrxH_0Z49Mq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1euPbsX-bG575XhY_Xk91iMuFOipTrhPp",
+      "parent_id": "193bJhc9W4ODY0W91ZjD3VUrxH_0Z49Mq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 819,
+      "modified": "2026-08-16T03:52:47.000Z",
+      "checksum": "da603e5688f7478c207325ffc845002d",
+      "folder": false
+    },
+    {
+      "id": "1aNaaFLfN4S88Lf047cHFqAnDilabGxQO",
+      "parent_id": "193bJhc9W4ODY0W91ZjD3VUrxH_0Z49Mq",
+      "name": "TRĂM NĂM CÔ ĐƠN.epub",
+      "mime": "application/epub+zip",
+      "size": 638865,
+      "modified": "2026-08-16T03:52:54.000Z",
+      "checksum": "12c1aeae6f11952f9acfe2de538a9b2e",
+      "folder": false
+    },
+    {
+      "id": "1Wuyolg5BUs3J3SE0OJclkWb5oVlzLN5r",
+      "parent_id": "193bJhc9W4ODY0W91ZjD3VUrxH_0Z49Mq",
+      "name": "TRĂM NĂM CÔ ĐƠN.pdf",
+      "mime": "application/pdf",
+      "size": 1863436,
+      "modified": "2026-08-16T03:52:52.000Z",
+      "checksum": "3d5a04004ed19045c4d3771bd45b01dc",
+      "folder": false
+    }
+  ]
+}

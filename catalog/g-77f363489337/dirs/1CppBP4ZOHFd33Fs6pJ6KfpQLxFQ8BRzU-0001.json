@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CppBP4ZOHFd33Fs6pJ6KfpQLxFQ8BRzU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CavLib4kJGVb-oj2k8lYTmMS5NiLx4lS",
+      "parent_id": "1CppBP4ZOHFd33Fs6pJ6KfpQLxFQ8BRzU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3318,
+      "modified": "2026-08-15T10:13:51.000Z",
+      "checksum": "22242d8aeaea4594b81d74e59fe48a56",
+      "folder": false
+    },
+    {
+      "id": "1tIcO8WOGlxlZb-Lr5ki6UE8hTePnPB7i",
+      "parent_id": "1CppBP4ZOHFd33Fs6pJ6KfpQLxFQ8BRzU",
+      "name": "THIÊN VƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 746364,
+      "modified": "2026-08-15T10:14:01.000Z",
+      "checksum": "3f159c4725b6becf6a5c1002890b2056",
+      "folder": false
+    },
+    {
+      "id": "11zpmf4ZTdwfEb5Ru8o2MQj-MABW9flTZ",
+      "parent_id": "1CppBP4ZOHFd33Fs6pJ6KfpQLxFQ8BRzU",
+      "name": "THIÊN VƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1434659,
+      "modified": "2026-08-15T10:13:58.000Z",
+      "checksum": "b6b5e7464707d48cb238de03a1eb8d59",
+      "folder": false
+    }
+  ]
+}

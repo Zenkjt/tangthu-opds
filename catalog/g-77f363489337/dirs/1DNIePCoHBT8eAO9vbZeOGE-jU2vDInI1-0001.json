@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DNIePCoHBT8eAO9vbZeOGE-jU2vDInI1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AsXI6DDWUc5Xv-CkAfUu5u7mpKvAsJ2L",
+      "parent_id": "1DNIePCoHBT8eAO9vbZeOGE-jU2vDInI1",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 3159,
+      "modified": "2026-08-16T04:05:58.000Z",
+      "checksum": "ef0fc54490845fdf07896be046e0dbb1",
+      "folder": false
+    },
+    {
+      "id": "1VRDk2Va5b8uMQnNFsv4mjqncu8NPq0hb",
+      "parent_id": "1DNIePCoHBT8eAO9vbZeOGE-jU2vDInI1",
+      "name": "PHÙ SINH MỘNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1338382,
+      "modified": "2026-08-16T04:06:06.000Z",
+      "checksum": "0362be71a4ec178855fb9001aa5dae77",
+      "folder": false
+    },
+    {
+      "id": "1I9q8xyQMrbitaitRoEliyZl1dBnZ1I5U",
+      "parent_id": "1DNIePCoHBT8eAO9vbZeOGE-jU2vDInI1",
+      "name": "PHÙ SINH MỘNG.pdf",
+      "mime": "application/pdf",
+      "size": 1156567,
+      "modified": "2026-08-16T04:06:03.000Z",
+      "checksum": "6631ed644d907ceb2bc9c95a05e73334",
+      "folder": false
+    }
+  ]
+}

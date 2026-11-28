@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LsGGT6gGe1Tjj53QpDwapWqVdhZa7IY-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dtSxITwzrmsi2nxYOTqGv5XHU4sqPnPD",
+      "parent_id": "1LsGGT6gGe1Tjj53QpDwapWqVdhZa7IY-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 861,
+      "modified": "2026-08-15T13:10:13.000Z",
+      "checksum": "7c264eb43d8ce1f34943c1885c507980",
+      "folder": false
+    },
+    {
+      "id": "1-5K94UMOeBJN4pyewacEXE5G6SiLy1vm",
+      "parent_id": "1LsGGT6gGe1Tjj53QpDwapWqVdhZa7IY-",
+      "name": "TƯỚNG MỆNH KHẢO LUẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 694971,
+      "modified": "2026-08-15T13:10:33.000Z",
+      "checksum": "0787726b6712493c041006f54f3804a9",
+      "folder": false
+    },
+    {
+      "id": "1ipAJ_4JQljeexSJG5cniAyz6BhWE-z3J",
+      "parent_id": "1LsGGT6gGe1Tjj53QpDwapWqVdhZa7IY-",
+      "name": "TƯỚNG MỆNH KHẢO LUẬN.pdf",
+      "mime": "application/pdf",
+      "size": 1199734,
+      "modified": "2026-08-15T13:10:24.000Z",
+      "checksum": "0efe3ceae707c4d8c6cd2aa7e13693d1",
+      "folder": false
+    }
+  ]
+}

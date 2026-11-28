@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vyOttQuXyiOuC1aEZX1deIfpXAWa_6Vp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cwAPMvQA3T7CBR0f-sEd1vPU9CL5_xKB",
+      "parent_id": "1vyOttQuXyiOuC1aEZX1deIfpXAWa_6Vp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1733,
+      "modified": "2026-08-16T03:48:06.000Z",
+      "checksum": "d9870fe4d89061a569a9b97b576a8e63",
+      "folder": false
+    },
+    {
+      "id": "1kjLl94IzvaFoplrQ5MeZ8iURD1iBZtK-",
+      "parent_id": "1vyOttQuXyiOuC1aEZX1deIfpXAWa_6Vp",
+      "name": "ÁO MƯA.epub",
+      "mime": "application/epub+zip",
+      "size": 305141,
+      "modified": "2026-08-16T03:48:11.000Z",
+      "checksum": "8d5fc9aa3d371454be279417f03d437c",
+      "folder": false
+    },
+    {
+      "id": "1RtBcraxOqxCmNbRakBSFKvhsWVvvAcfr",
+      "parent_id": "1vyOttQuXyiOuC1aEZX1deIfpXAWa_6Vp",
+      "name": "ÁO MƯA.pdf",
+      "mime": "application/pdf",
+      "size": 421953,
+      "modified": "2026-08-16T03:48:09.000Z",
+      "checksum": "56c47f39f260f035ca0bde7b3c80594d",
+      "folder": false
+    }
+  ]
+}

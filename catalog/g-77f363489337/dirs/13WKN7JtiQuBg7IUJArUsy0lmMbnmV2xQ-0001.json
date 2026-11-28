@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13WKN7JtiQuBg7IUJArUsy0lmMbnmV2xQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "18E2whnIKQNaBJIaLt7TdK6422dAC5Ka4",
+      "parent_id": "13WKN7JtiQuBg7IUJArUsy0lmMbnmV2xQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7114,
+      "modified": "2026-08-15T07:52:52.000Z",
+      "checksum": "27001ded69c85a678202017c339c4b2c",
+      "folder": false
+    },
+    {
+      "id": "1M-r2fbF7YZrgJWAvGM22xuZFvrfvxYlD",
+      "parent_id": "13WKN7JtiQuBg7IUJArUsy0lmMbnmV2xQ",
+      "name": "HỮU PHỈ.epub",
+      "mime": "application/epub+zip",
+      "size": 1353948,
+      "modified": "2026-08-15T07:54:00.000Z",
+      "checksum": "2c268c35ded866f6a51115a8157e525b",
+      "folder": false
+    },
+    {
+      "id": "147-WydFzWR2H1h5e3HiUIrC4EKKhcPLP",
+      "parent_id": "13WKN7JtiQuBg7IUJArUsy0lmMbnmV2xQ",
+      "name": "HỮU PHỈ.pdf",
+      "mime": "application/pdf",
+      "size": 5371872,
+      "modified": "2026-08-15T07:53:57.000Z",
+      "checksum": "8282ad57e49dfbd738a6d5a922f65dd5",
+      "folder": false
+    }
+  ]
+}

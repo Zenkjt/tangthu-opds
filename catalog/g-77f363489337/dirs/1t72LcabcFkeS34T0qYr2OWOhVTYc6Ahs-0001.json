@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1t72LcabcFkeS34T0qYr2OWOhVTYc6Ahs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Fz6MOaclrtcGTyM_r_Urq9ZCHRhCKkKk",
+      "parent_id": "1t72LcabcFkeS34T0qYr2OWOhVTYc6Ahs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3348,
+      "modified": "2026-08-16T03:58:33.000Z",
+      "checksum": "7e7518bdad776bd2d47cab7809236881",
+      "folder": false
+    },
+    {
+      "id": "1x6AapVwlVIpKH8T-wXi2nYX-u9i1n00n",
+      "parent_id": "1t72LcabcFkeS34T0qYr2OWOhVTYc6Ahs",
+      "name": "THÊ HIỀN PHU QUÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 531501,
+      "modified": "2026-08-16T03:58:39.000Z",
+      "checksum": "35f68d5a5ef117b83dfea1ea2bce7029",
+      "folder": false
+    },
+    {
+      "id": "1J1VOAph5FZ-Q-liK81_49mJd8KpE8UWo",
+      "parent_id": "1t72LcabcFkeS34T0qYr2OWOhVTYc6Ahs",
+      "name": "THÊ HIỀN PHU QUÝ.pdf",
+      "mime": "application/pdf",
+      "size": 1420272,
+      "modified": "2026-08-16T03:58:37.000Z",
+      "checksum": "dfbc892a2d0b338d9301fd3e544f47ec",
+      "folder": false
+    }
+  ]
+}

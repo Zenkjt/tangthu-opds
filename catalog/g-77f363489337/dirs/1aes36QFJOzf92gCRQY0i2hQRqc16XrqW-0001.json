@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aes36QFJOzf92gCRQY0i2hQRqc16XrqW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PynDcK1VK_j13ls4dJGGJJVOEOE_pBsm",
+      "parent_id": "1aes36QFJOzf92gCRQY0i2hQRqc16XrqW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5433,
+      "modified": "2026-08-15T03:15:18.000Z",
+      "checksum": "f0fdf9c59211f93f20fdbbc3795885d6",
+      "folder": false
+    },
+    {
+      "id": "1QOOTN6Io3Z8JWegrnxO3U2TmUgdBZk7X",
+      "parent_id": "1aes36QFJOzf92gCRQY0i2hQRqc16XrqW",
+      "name": "TÁC NHÂN THU HÚT.epub",
+      "mime": "application/epub+zip",
+      "size": 449711,
+      "modified": "2026-08-15T03:15:25.000Z",
+      "checksum": "1fd322e0db440364d87405e5226c1f09",
+      "folder": false
+    },
+    {
+      "id": "1-0-yizn9MOEhlESemWSrjYkpMmUhViHs",
+      "parent_id": "1aes36QFJOzf92gCRQY0i2hQRqc16XrqW",
+      "name": "TÁC NHÂN THU HÚT.pdf",
+      "mime": "application/pdf",
+      "size": 974369,
+      "modified": "2026-08-15T03:15:23.000Z",
+      "checksum": "cbdac16a457c59d445b1f9dea9171def",
+      "folder": false
+    }
+  ]
+}

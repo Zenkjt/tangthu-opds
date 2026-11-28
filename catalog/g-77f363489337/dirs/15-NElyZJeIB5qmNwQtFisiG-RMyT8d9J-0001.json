@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15-NElyZJeIB5qmNwQtFisiG-RMyT8d9J",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DdzGH3piRtrI4GYf-EEPl9x4igSW9v9H",
+      "parent_id": "15-NElyZJeIB5qmNwQtFisiG-RMyT8d9J",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 726,
+      "modified": "2026-08-15T10:48:09.000Z",
+      "checksum": "32007fcd158d638afbb4d9d07610dbf5",
+      "folder": false
+    },
+    {
+      "id": "13y34K_iI98bkNz_BaPs41Y3Kek7Y5PNX",
+      "parent_id": "15-NElyZJeIB5qmNwQtFisiG-RMyT8d9J",
+      "name": "NARCISSE VÀ GOLDMUND.epub",
+      "mime": "application/epub+zip",
+      "size": 673771,
+      "modified": "2026-08-15T10:48:17.000Z",
+      "checksum": "aad8328a8d50f5090219222ed22b4a62",
+      "folder": false
+    },
+    {
+      "id": "1kH0drVxl754Jo4344Zi1-WcdXHrOcsG2",
+      "parent_id": "15-NElyZJeIB5qmNwQtFisiG-RMyT8d9J",
+      "name": "NARCISSE VÀ GOLDMUND.pdf",
+      "mime": "application/pdf",
+      "size": 1344396,
+      "modified": "2026-08-15T10:48:15.000Z",
+      "checksum": "c5a509eca1f61c8f776e6bafba7ea54a",
+      "folder": false
+    }
+  ]
+}

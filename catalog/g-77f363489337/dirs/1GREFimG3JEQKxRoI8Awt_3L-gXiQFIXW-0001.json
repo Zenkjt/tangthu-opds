@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GREFimG3JEQKxRoI8Awt_3L-gXiQFIXW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eHtQDaPowiB-nc5Fv2DarWw1QbHMNiI5",
+      "parent_id": "1GREFimG3JEQKxRoI8Awt_3L-gXiQFIXW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5261,
+      "modified": "2026-08-15T04:02:56.000Z",
+      "checksum": "8a0579047ef0f8488789ce7d4114d7d1",
+      "folder": false
+    },
+    {
+      "id": "10zcP0J-EOB82053zjaT87El8vHqMXDJX",
+      "parent_id": "1GREFimG3JEQKxRoI8Awt_3L-gXiQFIXW",
+      "name": "KINH PHÁP ẤN.epub",
+      "mime": "application/epub+zip",
+      "size": 252644,
+      "modified": "2026-08-15T04:03:01.000Z",
+      "checksum": "78403a7ad8a0c5353396a89f3fa45d37",
+      "folder": false
+    },
+    {
+      "id": "1bAtZ9ArTWGsgEVhZ3lej2Ar-bRAiOPrZ",
+      "parent_id": "1GREFimG3JEQKxRoI8Awt_3L-gXiQFIXW",
+      "name": "KINH PHÁP ẤN.pdf",
+      "mime": "application/pdf",
+      "size": 312796,
+      "modified": "2026-08-15T04:02:59.000Z",
+      "checksum": "6ee3a2fd770cfd198f4b27d0adfc773e",
+      "folder": false
+    }
+  ]
+}

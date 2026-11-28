@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12BKFcO9eHz4o-H_8RJ_zO2omzLzNJKqP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1w8-2ElSlF3RTR0tq3phzdcFwi0YphMiz",
+      "parent_id": "12BKFcO9eHz4o-H_8RJ_zO2omzLzNJKqP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2463,
+      "modified": "2026-08-16T03:15:51.000Z",
+      "checksum": "973d47074233b1b6d8d3ae65446f6168",
+      "folder": false
+    },
+    {
+      "id": "1uG8XdjFsnh9zf9wqlmtISf0ZDj6i3_2I",
+      "parent_id": "12BKFcO9eHz4o-H_8RJ_zO2omzLzNJKqP",
+      "name": "NGÀY ĐẦU TIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 726216,
+      "modified": "2026-08-16T03:15:59.000Z",
+      "checksum": "0b944315cfc16a7fcb54172631b49346",
+      "folder": false
+    },
+    {
+      "id": "1ff1kDymPOJmkrx4bMw7CRk9aZBLWMA4D",
+      "parent_id": "12BKFcO9eHz4o-H_8RJ_zO2omzLzNJKqP",
+      "name": "NGÀY ĐẦU TIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 1776911,
+      "modified": "2026-08-16T03:15:56.000Z",
+      "checksum": "0f7587bb7750a5455c909f848284eff9",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "version": 2,
+  "branch_id": "g-711aa20cf78a",
+  "root_folder_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+  "root_shards": [
+    "catalog/g-711aa20cf78a/1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw-0001.json"
+  ],
+  "directories": [
+    {
+      "id": "1-CnFvUWsee-7oGSFf-UuGh1N4Bz4xgh4",
+      "name": "SÁCH PHONG TỤC - VĂN HÓA VN - PDF",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1-CnFvUWsee-7oGSFf-UuGh1N4Bz4xgh4-0001.json"
+      ]
+    },
+    {
+      "id": "151Yk8gHSTL7fkfIjoY5QBpGglS6ZTUq6",
+      "name": "xich long",
+      "parent_id": "1z4-WlerAILh-QNL6ImrC6pGLPJhwR_IA",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/151Yk8gHSTL7fkfIjoY5QBpGglS6ZTUq6-0001.json"
+      ]
+    },
+    {
+      "id": "19ghp9kSzjlr4tyw_FNpfByDQr1iq4v-q",
+      "name": "SÁCH LỊCH SỬ BỔ SUNG THÊM",
+      "parent_id": "1usj69T_SMLED5G2eWDQI_oISCatFqku_",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/19ghp9kSzjlr4tyw_FNpfByDQr1iq4v-q-0001.json"
+      ]
+    },
+    {
+      "id": "19q-ggii37MMVBKfFDOYDTSNp8ThRSAt-",
+      "name": "tien thien dai dao",
+      "parent_id": "1z4-WlerAILh-QNL6ImrC6pGLPJhwR_IA",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/19q-ggii37MMVBKfFDOYDTSNp8ThRSAt--0001.json"
+      ]
+    },
+    {
+      "id": "1CzMK0LlXbrBqOIgT_MO13FwGvrVTPcY6",
+      "name": "SÁCH KINH DỊCH - PDF",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1CzMK0LlXbrBqOIgT_MO13FwGvrVTPcY6-0001.json"
+      ]
+    },
+    {
+      "id": "1F1ItWuHbBFMtI08VkNI5Ln9BW7yTE3I5",
+      "name": "SÁCH TỬ VI - PHONG THỦY - PRC",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1F1ItWuHbBFMtI08VkNI5Ln9BW7yTE3I5-0001.json"
+      ]
+    },
+    {
+      "id": "1HA0t6xe1ogDb5h4H4q0mtkEHXyZCkuag",
+      "name": "Y HỌC THÊM MỚI",
+      "parent_id": "1PIMRVt02JV-YPCr92eXMc-UmsdmrHr6-",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1HA0t6xe1ogDb5h4H4q0mtkEHXyZCkuag-0001.json"
+      ]
+    },
+    {
+      "id": "1MP-SJsK5JdMPBg2j9CTo_PR2--339Vkn",
+      "name": "nhat tam",
+      "parent_id": "1z4-WlerAILh-QNL6ImrC6pGLPJhwR_IA",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1MP-SJsK5JdMPBg2j9CTo_PR2--339Vkn-0001.json"
+      ]
+    },
+    {
+      "id": "1MssbBfHPpcjvs5A0pqzFJiaTSPTH_Wjw",
+      "name": "TỔNG HỢP SÁCH CỔ",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1MssbBfHPpcjvs5A0pqzFJiaTSPTH_Wjw-0001.json"
+      ]
+    },
+    {
+      "id": "1PIMRVt02JV-YPCr92eXMc-UmsdmrHr6-",
+      "name": "SÁCH Y HỌC CỔ - PDF",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1PIMRVt02JV-YPCr92eXMc-UmsdmrHr6--0001.json"
+      ]
+    },
+    {
+      "id": "1R07E9UIRNNq-S_Mme8-X8qVClXSeT5o9",
+      "name": "bát tự hà lạc 2 phần",
+      "parent_id": "1F1ItWuHbBFMtI08VkNI5Ln9BW7yTE3I5",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1R07E9UIRNNq-S_Mme8-X8qVClXSeT5o9-0001.json"
+      ]
+    },
+    {
+      "id": "1TSSMjfoLQHJvFG8IKDnTb2S-sVOYBvj_",
+      "name": "Lịch sử Việt Nam (trọn bộ 15 tập) PDF",
+      "parent_id": "1usj69T_SMLED5G2eWDQI_oISCatFqku_",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1TSSMjfoLQHJvFG8IKDnTb2S-sVOYBvj_-0001.json"
+      ]
+    },
+    {
+      "id": "1TfrEfD2qrsgHbv8mBMuEK1PLOCIIe1hK",
+      "name": "SÁCH TRUYỆN CỔ - PDF",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1TfrEfD2qrsgHbv8mBMuEK1PLOCIIe1hK-0001.json"
+      ]
+    },
+    {
+      "id": "1TrvDIeTexsz-83lf9klJpi6s1rKDAfJ4",
+      "name": "SÁCH TỔNG TẬP VĂN HỌC VIỆT NAM - 42 CUỐN - PDF",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1TrvDIeTexsz-83lf9klJpi6s1rKDAfJ4-0001.json"
+      ]
+    },
+    {
+      "id": "1UrLFoqTRlZF4tis8zXBmyyWi7C1LlzNp",
+      "name": "Huyen-Khong-Dai-Quai-Dai-Thanh-Phai-2-phan",
+      "parent_id": "1F1ItWuHbBFMtI08VkNI5Ln9BW7yTE3I5",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1UrLFoqTRlZF4tis8zXBmyyWi7C1LlzNp-0001.json"
+      ]
+    },
+    {
+      "id": "1e3lQbQxqmB_nDVERLV54NlVdQCh0OTvC",
+      "name": "dịch-học-khái-quát-2-phần-trừ-mê-tín",
+      "parent_id": "1CzMK0LlXbrBqOIgT_MO13FwGvrVTPcY6",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1e3lQbQxqmB_nDVERLV54NlVdQCh0OTvC-0001.json"
+      ]
+    },
+    {
+      "id": "1fA9xp2RWPSz4nBbQwuu2KHxfer1vbTJA",
+      "name": "SÁCH TÂM LINH - TÔN GIÁO - PDF",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1fA9xp2RWPSz4nBbQwuu2KHxfer1vbTJA-0001.json"
+      ]
+    },
+    {
+      "id": "1fKyFUBlVqljLG13phmpgunrLB7_RVlR9",
+      "name": "SÁCH BÓI TOÁN - XEM TƯỚNG - PDF",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1fKyFUBlVqljLG13phmpgunrLB7_RVlR9-0001.json"
+      ]
+    },
+    {
+      "id": "1gRNksYdh6RMu1Kjl3z0gUnv7DrJ0mYv-",
+      "name": "SÁCH CỔ NHẠC - PDF",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1gRNksYdh6RMu1Kjl3z0gUnv7DrJ0mYv--0001.json"
+      ]
+    },
+    {
+      "id": "1hFMwTYXdUcbDcKSmu1ffeo6ElFnwLJvP",
+      "name": "SÁCH VĂN HỌC - PDF",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1hFMwTYXdUcbDcKSmu1ffeo6ElFnwLJvP-0001.json"
+      ]
+    },
+    {
+      "id": "1hwhT8eVYfjV8k2UGQYpl1MLlKKKyWQOp",
+      "name": "SÁCH BINH PHÁP - PDF",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1hwhT8eVYfjV8k2UGQYpl1MLlKKKyWQOp-0001.json"
+      ]
+    },
+    {
+      "id": "1jC8m8npqy9ZN7UXCGinweNtVAXT35Evn",
+      "name": "Huyền Không Phi Tinh 2 phần",
+      "parent_id": "1F1ItWuHbBFMtI08VkNI5Ln9BW7yTE3I5",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1jC8m8npqy9ZN7UXCGinweNtVAXT35Evn-0001.json"
+      ]
+    },
+    {
+      "id": "1l2UlkMahE2VvjwfHt6wCoHzwIxJAMHUG",
+      "name": "SÁCH TRIẾT HỌC BỔ SUNG THÊM",
+      "parent_id": "1shzrOgorK7vYcgJB7yin1GfYYeYM2d7k",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1l2UlkMahE2VvjwfHt6wCoHzwIxJAMHUG-0001.json"
+      ]
+    },
+    {
+      "id": "1qGzCjUVSFSXOFHRWK54Jy4VF4uHta-Z9",
+      "name": "SÁCH TỪ ĐIỂN CỔ - PDF",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1qGzCjUVSFSXOFHRWK54Jy4VF4uHta-Z9-0001.json"
+      ]
+    },
+    {
+      "id": "1shzrOgorK7vYcgJB7yin1GfYYeYM2d7k",
+      "name": "SÁCH TRIẾT HỌC CỔ - PDF",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1shzrOgorK7vYcgJB7yin1GfYYeYM2d7k-0001.json"
+      ]
+    },
+    {
+      "id": "1usj69T_SMLED5G2eWDQI_oISCatFqku_",
+      "name": "SÁCH LỊCH SỬ - PDF",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1usj69T_SMLED5G2eWDQI_oISCatFqku_-0001.json"
+      ]
+    },
+    {
+      "id": "1xI5Y3fTXYvcqpRTqVIkgU79ZzoE8rGyv",
+      "name": "TONG HOP CHUA SAP XEP",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1xI5Y3fTXYvcqpRTqVIkgU79ZzoE8rGyv-0001.json"
+      ]
+    },
+    {
+      "id": "1z4-WlerAILh-QNL6ImrC6pGLPJhwR_IA",
+      "name": "SÁCH KINH THƯ CHÍNH THỐNG ĐẠO GIA - PDF",
+      "parent_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "shards": [
+        "catalog/g-711aa20cf78a/dirs/1z4-WlerAILh-QNL6ImrC6pGLPJhwR_IA-0001.json"
+      ]
+    }
+  ]
+}

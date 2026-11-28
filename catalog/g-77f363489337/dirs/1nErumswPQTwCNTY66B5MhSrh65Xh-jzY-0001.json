@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nErumswPQTwCNTY66B5MhSrh65Xh-jzY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fuPI4144XtfwjV0Ph6cgkMBXdP-uKyFK",
+      "parent_id": "1nErumswPQTwCNTY66B5MhSrh65Xh-jzY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 536,
+      "modified": "2026-08-15T10:53:19.000Z",
+      "checksum": "a2a1bb6cf02f5a3cfa6afc26e5a51431",
+      "folder": false
+    },
+    {
+      "id": "1V88LD8Q5p_2FMExhiNJF3G7vlwYvPtuV",
+      "parent_id": "1nErumswPQTwCNTY66B5MhSrh65Xh-jzY",
+      "name": "LỜI HỒI ĐÁP 1994.epub",
+      "mime": "application/epub+zip",
+      "size": 752680,
+      "modified": "2026-08-15T10:53:31.000Z",
+      "checksum": "323de3ccf6712bdc148da0cac1563ab6",
+      "folder": false
+    },
+    {
+      "id": "1BZ-AGL-eXznP4yeyfNQ-Rn6GenGlUy7j",
+      "parent_id": "1nErumswPQTwCNTY66B5MhSrh65Xh-jzY",
+      "name": "LỜI HỒI ĐÁP 1994.pdf",
+      "mime": "application/pdf",
+      "size": 1267890,
+      "modified": "2026-08-15T10:53:26.000Z",
+      "checksum": "52d1f4598558cb89180c3f2de8a9081b",
+      "folder": false
+    }
+  ]
+}

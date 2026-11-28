@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PXrFjaZbkSRrQzBAQOknpV3-JT869uKh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jIWexgZgyihITo4UXBUMDEgkNbkn7Zkw",
+      "parent_id": "1PXrFjaZbkSRrQzBAQOknpV3-JT869uKh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 607,
+      "modified": "2026-08-15T10:14:13.000Z",
+      "checksum": "9f00faeb0a1802bfee842f3ab2f2decc",
+      "folder": false
+    },
+    {
+      "id": "1snVRaYORSSd4s5d8NfuPAP22LvfWXMqw",
+      "parent_id": "1PXrFjaZbkSRrQzBAQOknpV3-JT869uKh",
+      "name": "THIÊN THẦN BAY QUA MỘ CON.epub",
+      "mime": "application/epub+zip",
+      "size": 635959,
+      "modified": "2026-08-15T10:14:21.000Z",
+      "checksum": "9ec90ed230acde345ff7acd1429ce052",
+      "folder": false
+    },
+    {
+      "id": "1FFETORFPVEAFy8q5UCcgbvWGgLyIgQpU",
+      "parent_id": "1PXrFjaZbkSRrQzBAQOknpV3-JT869uKh",
+      "name": "THIÊN THẦN BAY QUA MỘ CON.pdf",
+      "mime": "application/pdf",
+      "size": 1028723,
+      "modified": "2026-08-15T10:14:19.000Z",
+      "checksum": "ea5ea1bb5abe5b8fc445a7c294de1264",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15uTt53OnxjDmZr3nGBMOnc_g5rHGFoig",
+  "page": 1,
+  "items": [
+    {
+      "id": "1u0lYuXdqhx6IcAE5ukYVslmWOIVLT4il",
+      "parent_id": "15uTt53OnxjDmZr3nGBMOnc_g5rHGFoig",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 965,
+      "modified": "2026-08-15T09:59:48.000Z",
+      "checksum": "0722f723d42abae348eee916516aad87",
+      "folder": false
+    },
+    {
+      "id": "1ZkCRTeuzNvpr9BEQy1zmGGmF_FTL_90o",
+      "parent_id": "15uTt53OnxjDmZr3nGBMOnc_g5rHGFoig",
+      "name": "TÔ TỊNH.epub",
+      "mime": "application/epub+zip",
+      "size": 328120,
+      "modified": "2026-08-15T09:59:57.000Z",
+      "checksum": "118cb3a0b8cbcf4b741c77431ffd04ec",
+      "folder": false
+    },
+    {
+      "id": "1Et5W7cLzzvmOtisXFq0a3paJpO1nK71D",
+      "parent_id": "15uTt53OnxjDmZr3nGBMOnc_g5rHGFoig",
+      "name": "TÔ TỊNH.pdf",
+      "mime": "application/pdf",
+      "size": 181638,
+      "modified": "2026-08-15T09:59:52.000Z",
+      "checksum": "6fffc7e04258047cb97ccceff1580fc9",
+      "folder": false
+    }
+  ]
+}

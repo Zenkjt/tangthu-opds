@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19aaHDvKSB-mHSNPQodK_83bwPyjALpnZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "17QKMjmGHjnFWZBHpmAsFZvzPi7XSfZfG",
+      "parent_id": "19aaHDvKSB-mHSNPQodK_83bwPyjALpnZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1942,
+      "modified": "2026-08-15T04:03:01.000Z",
+      "checksum": "e0ef90bc1a512b83796f345790628748",
+      "folder": false
+    },
+    {
+      "id": "1y4vSWhhUvma_kAgkjIu5lRpTYYGU1-Jn",
+      "parent_id": "19aaHDvKSB-mHSNPQodK_83bwPyjALpnZ",
+      "name": "HOA SEN TRONG BIỂN LỬA.epub",
+      "mime": "application/epub+zip",
+      "size": 803253,
+      "modified": "2026-08-15T04:03:07.000Z",
+      "checksum": "e93569f12a69ee0f1132cd461ae79e63",
+      "folder": false
+    },
+    {
+      "id": "1EHi37vnfJo83C9YBNjdpssd1PmWF9QSQ",
+      "parent_id": "19aaHDvKSB-mHSNPQodK_83bwPyjALpnZ",
+      "name": "HOA SEN TRONG BIỂN LỬA.pdf",
+      "mime": "application/pdf",
+      "size": 987602,
+      "modified": "2026-08-15T04:03:05.000Z",
+      "checksum": "7e1e56df5f6f62aff388d1a19b3b738f",
+      "folder": false
+    }
+  ]
+}

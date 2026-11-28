@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BB6PsCDRi7E1lhlA5_hCXagy7LidGhET",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UI9PJjl3na2QFVTx86QqBZeeFa2VeRAG",
+      "parent_id": "1BB6PsCDRi7E1lhlA5_hCXagy7LidGhET",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4518,
+      "modified": "2026-08-15T07:35:50.000Z",
+      "checksum": "20829a88e26ddf481de3e0ff83b7fbb3",
+      "folder": false
+    },
+    {
+      "id": "16LIgpAnFX0yByGi_SQUplC0u_WjRnkEN",
+      "parent_id": "1BB6PsCDRi7E1lhlA5_hCXagy7LidGhET",
+      "name": "ĐẮM ĐUỐI.epub",
+      "mime": "application/epub+zip",
+      "size": 529553,
+      "modified": "2026-08-15T07:35:56.000Z",
+      "checksum": "45929b9c37a99036179e18ec648fd77c",
+      "folder": false
+    },
+    {
+      "id": "1nmINnRlw6IuwMY_oeyaRGZdaX0XcUIO6",
+      "parent_id": "1BB6PsCDRi7E1lhlA5_hCXagy7LidGhET",
+      "name": "ĐẮM ĐUỐI.pdf",
+      "mime": "application/pdf",
+      "size": 679418,
+      "modified": "2026-08-15T07:35:54.000Z",
+      "checksum": "c33cc472fd45269829074b34134e63bf",
+      "folder": false
+    }
+  ]
+}

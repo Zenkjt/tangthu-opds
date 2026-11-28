@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1P6X5CdazVRBPHuU-5fx-Pp0_doc2gdFK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wZ_Y3Oq5eeeup-9mbqZ5asz4m5x_Ibnl",
+      "parent_id": "1P6X5CdazVRBPHuU-5fx-Pp0_doc2gdFK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 586,
+      "modified": "2026-08-15T03:49:37.000Z",
+      "checksum": "1a53af4ab171eb78760395d64f390943",
+      "folder": false
+    },
+    {
+      "id": "1mX4UF4eSCmTV1BL28yCzWKQf-eDZa5Po",
+      "parent_id": "1P6X5CdazVRBPHuU-5fx-Pp0_doc2gdFK",
+      "name": "NỀN TẢNG CỦA ĐẠO PHẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 355443,
+      "modified": "2026-08-15T03:49:43.000Z",
+      "checksum": "4d9d250dc1c1340a390a5c7dbb8d48e7",
+      "folder": false
+    },
+    {
+      "id": "1O0xluatLVFrPKKvjC-0lDYHeo3DNG8-s",
+      "parent_id": "1P6X5CdazVRBPHuU-5fx-Pp0_doc2gdFK",
+      "name": "NỀN TẢNG CỦA ĐẠO PHẬT.pdf",
+      "mime": "application/pdf",
+      "size": 471897,
+      "modified": "2026-08-15T03:49:40.000Z",
+      "checksum": "2d72b0bca91440ee7f3641d77168c83a",
+      "folder": false
+    }
+  ]
+}

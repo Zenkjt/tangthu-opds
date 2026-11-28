@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qhMBfy00YeSgUz_mOj1tjzk9F904SX7d",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xesWiS4o_FR_SlZOfwjuWVknwbuqq5x_",
+      "parent_id": "1qhMBfy00YeSgUz_mOj1tjzk9F904SX7d",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2648,
+      "modified": "2026-08-16T03:51:10.000Z",
+      "checksum": "9f4e2a84c0dbed2b9e695454159fd4e0",
+      "folder": false
+    },
+    {
+      "id": "1zvR-jThnVnShIFo96F5wUgis353qfIHt",
+      "parent_id": "1qhMBfy00YeSgUz_mOj1tjzk9F904SX7d",
+      "name": "XÓM CẦU MỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 789302,
+      "modified": "2026-08-16T03:51:18.000Z",
+      "checksum": "ff596eebf345fade18f822ff52b9c81f",
+      "folder": false
+    },
+    {
+      "id": "1CLJBMLY-96LcR1za8pO-C8gJIgyX9Tv2",
+      "parent_id": "1qhMBfy00YeSgUz_mOj1tjzk9F904SX7d",
+      "name": "XÓM CẦU MỚI.pdf",
+      "mime": "application/pdf",
+      "size": 1804642,
+      "modified": "2026-08-16T03:51:15.000Z",
+      "checksum": "6a70d9f733320762a23d3078a42d378d",
+      "folder": false
+    }
+  ]
+}

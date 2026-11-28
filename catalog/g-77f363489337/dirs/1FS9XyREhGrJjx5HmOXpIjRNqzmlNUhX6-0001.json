@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FS9XyREhGrJjx5HmOXpIjRNqzmlNUhX6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wMVyAB3_vj5lPPzeIgTgsM01s1hTDhTc",
+      "parent_id": "1FS9XyREhGrJjx5HmOXpIjRNqzmlNUhX6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2090,
+      "modified": "2026-08-16T02:45:37.000Z",
+      "checksum": "8e49a221ff0405ce0c9e5218d9ab43c1",
+      "folder": false
+    },
+    {
+      "id": "1pV_FBpyfGjzYug280cMBsw2C642efYIy",
+      "parent_id": "1FS9XyREhGrJjx5HmOXpIjRNqzmlNUhX6",
+      "name": "VIỆC LÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 489547,
+      "modified": "2026-08-16T02:45:42.000Z",
+      "checksum": "415e8c359ef1c65774fa4f329d2f229e",
+      "folder": false
+    },
+    {
+      "id": "1DRHAl41lEHQ6nn8L2m2uPmSPHTMgoTHJ",
+      "parent_id": "1FS9XyREhGrJjx5HmOXpIjRNqzmlNUhX6",
+      "name": "VIỆC LÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 472885,
+      "modified": "2026-08-16T02:45:40.000Z",
+      "checksum": "0c0c1339b302c5b17160fb17dd64b585",
+      "folder": false
+    }
+  ]
+}

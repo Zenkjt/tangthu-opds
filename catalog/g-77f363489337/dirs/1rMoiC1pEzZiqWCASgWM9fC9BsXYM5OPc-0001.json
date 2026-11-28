@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rMoiC1pEzZiqWCASgWM9fC9BsXYM5OPc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eBvthnXKsV0KNimePa29AD5H-WEIsX6o",
+      "parent_id": "1rMoiC1pEzZiqWCASgWM9fC9BsXYM5OPc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 443,
+      "modified": "2026-08-15T13:02:34.000Z",
+      "checksum": "a502347059ce0d52f450ef3af54879f6",
+      "folder": false
+    },
+    {
+      "id": "1WqDWn9Kre2JhGccJxhm0d9NTy4lNObPr",
+      "parent_id": "1rMoiC1pEzZiqWCASgWM9fC9BsXYM5OPc",
+      "name": "MATILDA - CÔ BÉ NGHỊCH NGỢM.epub",
+      "mime": "application/epub+zip",
+      "size": 477605,
+      "modified": "2026-08-15T13:02:45.000Z",
+      "checksum": "0a897cfd2493cd530e09a1329531e699",
+      "folder": false
+    },
+    {
+      "id": "1y27yoHAfYryD8oJDG9TPwrxP_Ef8kxg-",
+      "parent_id": "1rMoiC1pEzZiqWCASgWM9fC9BsXYM5OPc",
+      "name": "MATILDA - CÔ BÉ NGHỊCH NGỢM.pdf",
+      "mime": "application/pdf",
+      "size": 606799,
+      "modified": "2026-08-15T13:02:42.000Z",
+      "checksum": "e7b4b4ea76380c8fece6cc011593c977",
+      "folder": false
+    }
+  ]
+}

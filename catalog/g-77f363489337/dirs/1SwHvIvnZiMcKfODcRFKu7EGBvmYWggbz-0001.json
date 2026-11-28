@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SwHvIvnZiMcKfODcRFKu7EGBvmYWggbz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RvFFgnSFDcCUMSWDjCu7VNhqgMdU_v9i",
+      "parent_id": "1SwHvIvnZiMcKfODcRFKu7EGBvmYWggbz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3384,
+      "modified": "2026-08-16T03:46:40.000Z",
+      "checksum": "28d3061ece1c99f08c49d51fa31905d0",
+      "folder": false
+    },
+    {
+      "id": "1lRXmnGUKNIWT2LkOXbO1OVUV5Py3PlHH",
+      "parent_id": "1SwHvIvnZiMcKfODcRFKu7EGBvmYWggbz",
+      "name": "KHÓC GIỮA SÀI GÒN.epub",
+      "mime": "application/epub+zip",
+      "size": 453912,
+      "modified": "2026-08-16T03:46:47.000Z",
+      "checksum": "88aa2f157136044689e9cbfba3d2626c",
+      "folder": false
+    },
+    {
+      "id": "1vWLuYfEc7Mj4hCg2VQuF0c82V4-BTOJg",
+      "parent_id": "1SwHvIvnZiMcKfODcRFKu7EGBvmYWggbz",
+      "name": "KHÓC GIỮA SÀI GÒN.pdf",
+      "mime": "application/pdf",
+      "size": 1125297,
+      "modified": "2026-08-16T03:46:45.000Z",
+      "checksum": "df82ee3c0867efe88dbd43cd4fc2ffcf",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1K5ZqRqBGWlmdj50Cj-WKYWJLNFs8diEI",
+  "page": 1,
+  "items": [
+    {
+      "id": "13Ld7OE9oIQAttYRpDh8LDrsG7WS2z3MM",
+      "parent_id": "1K5ZqRqBGWlmdj50Cj-WKYWJLNFs8diEI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2132,
+      "modified": "2026-08-16T02:45:07.000Z",
+      "checksum": "4c60a3d2f4752160e9ddae95f6a68c59",
+      "folder": false
+    },
+    {
+      "id": "1Bqrpzc6630O6P4b61jpqz3XCCj0wwnEg",
+      "parent_id": "1K5ZqRqBGWlmdj50Cj-WKYWJLNFs8diEI",
+      "name": "NHỮNG NGƯỜI THÍCH ĐÙA.epub",
+      "mime": "application/epub+zip",
+      "size": 621101,
+      "modified": "2026-08-16T02:45:13.000Z",
+      "checksum": "42d5f16119cf6a11b23f91c2e917995f",
+      "folder": false
+    },
+    {
+      "id": "1HG8jvqVO7QoZlhmZ1bUO7WYvTsYQOV2-",
+      "parent_id": "1K5ZqRqBGWlmdj50Cj-WKYWJLNFs8diEI",
+      "name": "NHỮNG NGƯỜI THÍCH ĐÙA.pdf",
+      "mime": "application/pdf",
+      "size": 628523,
+      "modified": "2026-08-16T02:45:10.000Z",
+      "checksum": "b1ec7620bf4a960effc02851d4b14a10",
+      "folder": false
+    }
+  ]
+}

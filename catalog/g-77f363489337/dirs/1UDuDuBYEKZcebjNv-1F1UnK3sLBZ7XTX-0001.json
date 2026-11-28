@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UDuDuBYEKZcebjNv-1F1UnK3sLBZ7XTX",
+  "page": 1,
+  "items": [
+    {
+      "id": "11sGTkYdHwEHgfG_CQYmACqQFPrbJ6wlY",
+      "parent_id": "1UDuDuBYEKZcebjNv-1F1UnK3sLBZ7XTX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2178,
+      "modified": "2026-08-15T07:29:37.000Z",
+      "checksum": "e894385fd079ca60c64a89623221cbb0",
+      "folder": false
+    },
+    {
+      "id": "1DIr9rTOEj7deXhh59X3WfHDbDWfkKN02",
+      "parent_id": "1UDuDuBYEKZcebjNv-1F1UnK3sLBZ7XTX",
+      "name": "VŨ KHÍ BÓNG ĐÊM 6.epub",
+      "mime": "application/epub+zip",
+      "size": 802748,
+      "modified": "2026-08-15T07:29:50.000Z",
+      "checksum": "1ea96ac2801e7ea246149a004fb10031",
+      "folder": false
+    },
+    {
+      "id": "1zoV5kwE8ck4UQgJNjQ5xuhujeF85suSs",
+      "parent_id": "1UDuDuBYEKZcebjNv-1F1UnK3sLBZ7XTX",
+      "name": "VŨ KHÍ BÓNG ĐÊM 6.pdf",
+      "mime": "application/pdf",
+      "size": 1563158,
+      "modified": "2026-08-15T07:29:42.000Z",
+      "checksum": "6310a63f02055447f11df6dcde12d4b1",
+      "folder": false
+    }
+  ]
+}

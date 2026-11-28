@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13t80bXmyCI5wuY2rzzBkfIYWNOUGb_J0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1R-8k1bR9-WezeXon3alN5XO-x0cS8mqs",
+      "parent_id": "13t80bXmyCI5wuY2rzzBkfIYWNOUGb_J0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2732,
+      "modified": "2026-08-15T10:04:32.000Z",
+      "checksum": "b5602ceca503d46d3e4014dae2ef52bf",
+      "folder": false
+    },
+    {
+      "id": "12h_eVixHeJv8NbVHu_aV59K38xAJDo7Z",
+      "parent_id": "13t80bXmyCI5wuY2rzzBkfIYWNOUGb_J0",
+      "name": "XƠ CARRIE.epub",
+      "mime": "application/epub+zip",
+      "size": 820042,
+      "modified": "2026-08-15T10:04:55.000Z",
+      "checksum": "6427a0c3059a471c8ec460b3e538a08e",
+      "folder": false
+    },
+    {
+      "id": "12b0exSXlXNB3nWr0sX8Bg8sULheSpc3h",
+      "parent_id": "13t80bXmyCI5wuY2rzzBkfIYWNOUGb_J0",
+      "name": "XƠ CARRIE.pdf",
+      "mime": "application/pdf",
+      "size": 1946473,
+      "modified": "2026-08-15T10:04:50.000Z",
+      "checksum": "f27b93ec37d45ae330c991a662dcbc4d",
+      "folder": false
+    }
+  ]
+}

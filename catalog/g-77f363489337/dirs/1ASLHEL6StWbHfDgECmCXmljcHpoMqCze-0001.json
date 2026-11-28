@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ASLHEL6StWbHfDgECmCXmljcHpoMqCze",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hj14jhOUhinD0V4IOLzoLSPH2V0Nif68",
+      "parent_id": "1ASLHEL6StWbHfDgECmCXmljcHpoMqCze",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2897,
+      "modified": "2026-08-15T03:51:01.000Z",
+      "checksum": "ac4c9d0b656d662e85693d08a36a7bde",
+      "folder": false
+    },
+    {
+      "id": "1Z1Soy1ZNIuqTFU25GhJZM3MCBHeH4HFH",
+      "parent_id": "1ASLHEL6StWbHfDgECmCXmljcHpoMqCze",
+      "name": "TAM GIỚI TOÀN THƯ - QUYỂN 8.epub",
+      "mime": "application/epub+zip",
+      "size": 167280,
+      "modified": "2026-08-15T03:51:07.000Z",
+      "checksum": "a31cebc8f48155bcde4b84e961b09abb",
+      "folder": false
+    },
+    {
+      "id": "1xsd7o7hF5eHtcqEcJ5FyEHJOaOWljuQa",
+      "parent_id": "1ASLHEL6StWbHfDgECmCXmljcHpoMqCze",
+      "name": "TAM GIỚI TOÀN THƯ - QUYỂN 8.pdf",
+      "mime": "application/pdf",
+      "size": 556700,
+      "modified": "2026-08-15T03:51:04.000Z",
+      "checksum": "58ef6210dcdf2eefbaa2b974364937c0",
+      "folder": false
+    }
+  ]
+}

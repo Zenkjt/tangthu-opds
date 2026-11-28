@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mqZK4bZhdeP2OyvXgxcWJ2nTMrtEDPxf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wDfDG3Q6NVrnLPT5EZlbBsBuCtnghE80",
+      "parent_id": "1mqZK4bZhdeP2OyvXgxcWJ2nTMrtEDPxf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3327,
+      "modified": "2026-08-15T10:43:03.000Z",
+      "checksum": "b7d89a7846d130c807cbcc5700adfb54",
+      "folder": false
+    },
+    {
+      "id": "1Yr93XmWToSy1qq5a3XDgu_P6m8UC_uoU",
+      "parent_id": "1mqZK4bZhdeP2OyvXgxcWJ2nTMrtEDPxf",
+      "name": "NGƯỜI LỚN CÔ ĐƠN.epub",
+      "mime": "application/epub+zip",
+      "size": 682004,
+      "modified": "2026-08-15T10:43:09.000Z",
+      "checksum": "b2a521922b5745028e997634a0ed9696",
+      "folder": false
+    },
+    {
+      "id": "1595y-pa75OOorntgmA0r2-aogLjECbtU",
+      "parent_id": "1mqZK4bZhdeP2OyvXgxcWJ2nTMrtEDPxf",
+      "name": "NGƯỜI LỚN CÔ ĐƠN.pdf",
+      "mime": "application/pdf",
+      "size": 569991,
+      "modified": "2026-08-15T10:43:07.000Z",
+      "checksum": "e76ab60a2a504ba099635b45983108ee",
+      "folder": false
+    }
+  ]
+}

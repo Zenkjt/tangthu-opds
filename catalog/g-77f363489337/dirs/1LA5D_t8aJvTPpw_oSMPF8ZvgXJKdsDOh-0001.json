@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LA5D_t8aJvTPpw_oSMPF8ZvgXJKdsDOh",
+  "page": 1,
+  "items": [
+    {
+      "id": "16GzELnowX4X32e9kGmNnHOS2PD9wNKhO",
+      "parent_id": "1LA5D_t8aJvTPpw_oSMPF8ZvgXJKdsDOh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2157,
+      "modified": "2026-08-15T08:14:25.000Z",
+      "checksum": "a7135c4c4ebe99c5acfb78c1f6a49cb9",
+      "folder": false
+    },
+    {
+      "id": "1QdjWDQ6KYXRUFg0RMWviRzzRs-ZuzB5H",
+      "parent_id": "1LA5D_t8aJvTPpw_oSMPF8ZvgXJKdsDOh",
+      "name": "NỖI ĐAU CỦA CHÀNG WERTHER.epub",
+      "mime": "application/epub+zip",
+      "size": 314709,
+      "modified": "2026-08-15T08:14:32.000Z",
+      "checksum": "f727de02a64762ed45543794ddb9ad91",
+      "folder": false
+    },
+    {
+      "id": "18TnvFqkrvU6ok6bhRJaTme_CjLXRaXBI",
+      "parent_id": "1LA5D_t8aJvTPpw_oSMPF8ZvgXJKdsDOh",
+      "name": "NỖI ĐAU CỦA CHÀNG WERTHER.pdf",
+      "mime": "application/pdf",
+      "size": 859349,
+      "modified": "2026-08-15T08:14:30.000Z",
+      "checksum": "e79750d9c84ae9480313449db94884df",
+      "folder": false
+    }
+  ]
+}

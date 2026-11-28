@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lHXGZ1jii9DulfvnQMGNDhBzudXmLLBa",
+  "page": 1,
+  "items": [
+    {
+      "id": "15MXFE9PYQwACjSnzkXveJEPvlIbw9deE",
+      "parent_id": "1lHXGZ1jii9DulfvnQMGNDhBzudXmLLBa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 657,
+      "modified": "2026-08-15T10:46:10.000Z",
+      "checksum": "7859581089c8c03a935396813e479f40",
+      "folder": false
+    },
+    {
+      "id": "1zrJzRu0iYj0tbCZsBg3_cDaicg_n5ADu",
+      "parent_id": "1lHXGZ1jii9DulfvnQMGNDhBzudXmLLBa",
+      "name": "NGỠ ĐÃ LÀ YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 439820,
+      "modified": "2026-08-15T10:46:20.000Z",
+      "checksum": "ec97ab445a675bdfdd414710fa77fd54",
+      "folder": false
+    },
+    {
+      "id": "1EOt8esq2AzfUq4XnxhV-Gl_KGUWQQGAI",
+      "parent_id": "1lHXGZ1jii9DulfvnQMGNDhBzudXmLLBa",
+      "name": "NGỠ ĐÃ LÀ YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 920914,
+      "modified": "2026-08-15T10:46:16.000Z",
+      "checksum": "947b6fb09e27b250c3feaefa8990894e",
+      "folder": false
+    }
+  ]
+}

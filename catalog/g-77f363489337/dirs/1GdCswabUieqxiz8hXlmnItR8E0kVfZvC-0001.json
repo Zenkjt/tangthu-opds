@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GdCswabUieqxiz8hXlmnItR8E0kVfZvC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1O2FwFCN_fvqdF5tWjgy-bEK115GZaaYm",
+      "parent_id": "1GdCswabUieqxiz8hXlmnItR8E0kVfZvC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1836,
+      "modified": "2026-08-15T03:48:12.000Z",
+      "checksum": "38c42aeb409aa65c298c3c64459997bf",
+      "folder": false
+    },
+    {
+      "id": "1biq5TZUBLEx4POal8fOouZd0mI_535kR",
+      "parent_id": "1GdCswabUieqxiz8hXlmnItR8E0kVfZvC",
+      "name": "TÌM HIỂU PHƯỚC BỐ THÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 447983,
+      "modified": "2026-08-15T03:48:19.000Z",
+      "checksum": "1ffa85059573d74665fc521563418329",
+      "folder": false
+    },
+    {
+      "id": "1VItYnd4rKGZ-wkGVpjp4c7THx5ktCKdx",
+      "parent_id": "1GdCswabUieqxiz8hXlmnItR8E0kVfZvC",
+      "name": "TÌM HIỂU PHƯỚC BỐ THÍ.pdf",
+      "mime": "application/pdf",
+      "size": 1704139,
+      "modified": "2026-08-15T03:48:17.000Z",
+      "checksum": "0b14238cc200dc5ef1c84ea76d6bb893",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pj9zb8ZnDFPBXi2eAUbFUzNY1eLKu4N7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1znqRQS8n7YI2tqspWeso5Zp0dUrrV_JO",
+      "parent_id": "1pj9zb8ZnDFPBXi2eAUbFUzNY1eLKu4N7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4135,
+      "modified": "2026-08-15T12:53:09.000Z",
+      "checksum": "435dbd46b2804a20be9d560a517f2b42",
+      "folder": false
+    },
+    {
+      "id": "1NylfN5nZg2jY1tqqrZDWI_a8Xijm_vps",
+      "parent_id": "1pj9zb8ZnDFPBXi2eAUbFUzNY1eLKu4N7",
+      "name": "KHU RỪNG HOANG VU.epub",
+      "mime": "application/epub+zip",
+      "size": 251198,
+      "modified": "2026-08-15T12:53:22.000Z",
+      "checksum": "e7a6396425d276facd888b328bc426a5",
+      "folder": false
+    },
+    {
+      "id": "10SHDqbMZz2V6Sk2rZpSMq7WckZ-FWlh2",
+      "parent_id": "1pj9zb8ZnDFPBXi2eAUbFUzNY1eLKu4N7",
+      "name": "KHU RỪNG HOANG VU.pdf",
+      "mime": "application/pdf",
+      "size": 225483,
+      "modified": "2026-08-15T12:53:17.000Z",
+      "checksum": "9f9588971c5b3504e7de2d3d8515fd98",
+      "folder": false
+    }
+  ]
+}

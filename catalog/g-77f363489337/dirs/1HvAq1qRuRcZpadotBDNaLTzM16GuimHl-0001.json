@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HvAq1qRuRcZpadotBDNaLTzM16GuimHl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eVN6NrTeFOp_QEzG6qZxnduTdjOvQjxl",
+      "parent_id": "1HvAq1qRuRcZpadotBDNaLTzM16GuimHl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1803,
+      "modified": "2026-08-16T02:44:41.000Z",
+      "checksum": "038a960925104f7a854f4e854954f530",
+      "folder": false
+    },
+    {
+      "id": "1nz-_b64Mnh9fzZy_UF1Jm_QRVFmC_2mz",
+      "parent_id": "1HvAq1qRuRcZpadotBDNaLTzM16GuimHl",
+      "name": "VỤ ÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 486596,
+      "modified": "2026-08-16T02:44:48.000Z",
+      "checksum": "c22c428942b1bca940711e240e22713f",
+      "folder": false
+    },
+    {
+      "id": "1dmdpzu1Yvoi3wjX5kRsbfIdIf82zD8tr",
+      "parent_id": "1HvAq1qRuRcZpadotBDNaLTzM16GuimHl",
+      "name": "VỤ ÁN.pdf",
+      "mime": "application/pdf",
+      "size": 987790,
+      "modified": "2026-08-16T02:44:46.000Z",
+      "checksum": "7b260ec3af2fb7f9bdd82de5074f4e57",
+      "folder": false
+    }
+  ]
+}

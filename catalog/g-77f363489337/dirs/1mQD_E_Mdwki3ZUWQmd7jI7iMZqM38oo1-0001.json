@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mQD_E_Mdwki3ZUWQmd7jI7iMZqM38oo1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZbRfviLLINeEax5Jm6l_gV_k6TYoZhRj",
+      "parent_id": "1mQD_E_Mdwki3ZUWQmd7jI7iMZqM38oo1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6251,
+      "modified": "2026-08-15T03:42:04.000Z",
+      "checksum": "f8813a6d30291b4aeb669123fd619831",
+      "folder": false
+    },
+    {
+      "id": "12dncdEKNbsRUd-lFyUHTxenkB_ra-YP3",
+      "parent_id": "1mQD_E_Mdwki3ZUWQmd7jI7iMZqM38oo1",
+      "name": "TUỆ PHÁT TRIỂN ĐỊNH.epub",
+      "mime": "application/epub+zip",
+      "size": 535658,
+      "modified": "2026-08-15T03:42:11.000Z",
+      "checksum": "1bee66840c7eb5a2f29ccd3c66743746",
+      "folder": false
+    },
+    {
+      "id": "1JnjB3ORgcj8RR292yYz7RgiYBncWR4kh",
+      "parent_id": "1mQD_E_Mdwki3ZUWQmd7jI7iMZqM38oo1",
+      "name": "TUỆ PHÁT TRIỂN ĐỊNH.pdf",
+      "mime": "application/pdf",
+      "size": 401315,
+      "modified": "2026-08-15T03:42:09.000Z",
+      "checksum": "0be5a2314e7a14bc871b47b79af31e0e",
+      "folder": false
+    }
+  ]
+}

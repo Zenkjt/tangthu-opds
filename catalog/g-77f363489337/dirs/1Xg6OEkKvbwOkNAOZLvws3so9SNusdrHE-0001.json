@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Xg6OEkKvbwOkNAOZLvws3so9SNusdrHE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZWW22Z6UrndmcS1F8ASbGSHSlNA6AZsb",
+      "parent_id": "1Xg6OEkKvbwOkNAOZLvws3so9SNusdrHE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4880,
+      "modified": "2026-08-16T03:29:36.000Z",
+      "checksum": "b9d5f6df07ffe08c5b92ed9eed3fab14",
+      "folder": false
+    },
+    {
+      "id": "1xbpH9Yk3dwlml5A31rx5euC3kvsdOxQ9",
+      "parent_id": "1Xg6OEkKvbwOkNAOZLvws3so9SNusdrHE",
+      "name": "GIỜ THỨ 25.epub",
+      "mime": "application/epub+zip",
+      "size": 636946,
+      "modified": "2026-08-16T03:29:43.000Z",
+      "checksum": "bb58630ad3ae9a45419d26516dc51f67",
+      "folder": false
+    },
+    {
+      "id": "1ZgsN-BXWfid5NeJ7AQZKAGeR7D-HeEbJ",
+      "parent_id": "1Xg6OEkKvbwOkNAOZLvws3so9SNusdrHE",
+      "name": "GIỜ THỨ 25.pdf",
+      "mime": "application/pdf",
+      "size": 1295747,
+      "modified": "2026-08-16T03:29:41.000Z",
+      "checksum": "3dad65fdd5f681fd2134ebce9df5825c",
+      "folder": false
+    }
+  ]
+}

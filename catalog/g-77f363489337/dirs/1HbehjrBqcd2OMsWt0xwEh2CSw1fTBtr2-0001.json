@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HbehjrBqcd2OMsWt0xwEh2CSw1fTBtr2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QEXicrrftWYqkWvwE4Bb3sfs9ofBfvRQ",
+      "parent_id": "1HbehjrBqcd2OMsWt0xwEh2CSw1fTBtr2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6540,
+      "modified": "2026-08-15T11:05:16.000Z",
+      "checksum": "feb480714e21c06fd06d7c799ef95e3b",
+      "folder": false
+    },
+    {
+      "id": "1ySBWf_gjF61xRQrpcuC-NFDh2QrjPT3N",
+      "parent_id": "1HbehjrBqcd2OMsWt0xwEh2CSw1fTBtr2",
+      "name": "TẦN THỦY HOÀNG DIỄN NGHĨA.epub",
+      "mime": "application/epub+zip",
+      "size": 900904,
+      "modified": "2026-08-15T11:06:06.000Z",
+      "checksum": "4c229a37704602e80ed27c77d64fba2a",
+      "folder": false
+    },
+    {
+      "id": "1-h8hQBZI75CPmR9Az7g0jNlRtRaNzEfw",
+      "parent_id": "1HbehjrBqcd2OMsWt0xwEh2CSw1fTBtr2",
+      "name": "TẦN THỦY HOÀNG DIỄN NGHĨA.pdf",
+      "mime": "application/pdf",
+      "size": 2789710,
+      "modified": "2026-08-15T11:05:59.000Z",
+      "checksum": "a4e73b5c4a0e103ec272017805c1eed5",
+      "folder": false
+    }
+  ]
+}

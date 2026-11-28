@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FUmnYY7rFRaDbDx15GLZV5AuGpO-nUpn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1U84KCevEM95Fh9Y0TI4cUatrG1jYHYWO",
+      "parent_id": "1FUmnYY7rFRaDbDx15GLZV5AuGpO-nUpn",
+      "name": "CHINATOWN.epub",
+      "mime": "application/epub+zip",
+      "size": 307247,
+      "modified": "2026-08-15T11:00:44.000Z",
+      "checksum": "95526633c666dbe1c241fba2d4fae2d7",
+      "folder": false
+    },
+    {
+      "id": "12ekkf0OhbFPWUkG1H6eGIjcr2dZbiVRN",
+      "parent_id": "1FUmnYY7rFRaDbDx15GLZV5AuGpO-nUpn",
+      "name": "CHINATOWN.pdf",
+      "mime": "application/pdf",
+      "size": 607874,
+      "modified": "2026-08-15T11:00:42.000Z",
+      "checksum": "2a404e0a25ddafa9cdb9b4b81029cebc",
+      "folder": false
+    },
+    {
+      "id": "1SLF_wIfBK5Go72pv9ApimFjOPpbpEElt",
+      "parent_id": "1FUmnYY7rFRaDbDx15GLZV5AuGpO-nUpn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 601,
+      "modified": "2026-08-15T11:00:39.000Z",
+      "checksum": "03c635b60efadd18484513fbe9278cb1",
+      "folder": false
+    }
+  ]
+}

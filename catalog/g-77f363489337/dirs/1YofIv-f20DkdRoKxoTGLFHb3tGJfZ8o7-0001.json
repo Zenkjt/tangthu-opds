@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YofIv-f20DkdRoKxoTGLFHb3tGJfZ8o7",
+  "page": 1,
+  "items": [
+    {
+      "id": "12_iEY_84oBrgUIfI1wEs1xuxjemDwXm1",
+      "parent_id": "1YofIv-f20DkdRoKxoTGLFHb3tGJfZ8o7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2074,
+      "modified": "2026-08-15T09:30:50.000Z",
+      "checksum": "b6285c91b5c2aae0c607c8e38f224a9a",
+      "folder": false
+    },
+    {
+      "id": "1MAup_b6EoJxfa01eRSPd0L2XqcPa10wD",
+      "parent_id": "1YofIv-f20DkdRoKxoTGLFHb3tGJfZ8o7",
+      "name": "MA TÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 2358663,
+      "modified": "2026-08-15T09:31:01.000Z",
+      "checksum": "cbeea0702c4cef3aac84c7c3ad28199d",
+      "folder": false
+    },
+    {
+      "id": "1ahsoXlBZuIEh45x65wYobvbPYgpVe2pJ",
+      "parent_id": "1YofIv-f20DkdRoKxoTGLFHb3tGJfZ8o7",
+      "name": "MA TÔN.pdf",
+      "mime": "application/pdf",
+      "size": 2176505,
+      "modified": "2026-08-15T09:30:57.000Z",
+      "checksum": "8cef11c743802ab06cedde7133e565ec",
+      "folder": false
+    }
+  ]
+}

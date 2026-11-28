@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TuwJhaCnU1-qJTyN69jzbLGiotLRf8Co",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-oW1IYH12jvXWUrOTTTSsMQ4eAxjP6QK",
+      "parent_id": "1TuwJhaCnU1-qJTyN69jzbLGiotLRf8Co",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5134,
+      "modified": "2026-08-15T15:52:00.000Z",
+      "checksum": "31fb8997b71eeb29490bacf392976bdb",
+      "folder": false
+    },
+    {
+      "id": "10owovQrJ53TyHUmbDwKuN7Y7csfTMCB9",
+      "parent_id": "1TuwJhaCnU1-qJTyN69jzbLGiotLRf8Co",
+      "name": "MẠNG XEM MẶT VŨ TRỤ.epub",
+      "mime": "application/epub+zip",
+      "size": 468068,
+      "modified": "2026-08-15T15:52:06.000Z",
+      "checksum": "779d8a81661439117919a6a0d0e5ca35",
+      "folder": false
+    },
+    {
+      "id": "1emw78IUiGi-jWsM399mvIDRm_2nXQs2o",
+      "parent_id": "1TuwJhaCnU1-qJTyN69jzbLGiotLRf8Co",
+      "name": "MẠNG XEM MẶT VŨ TRỤ.pdf",
+      "mime": "application/pdf",
+      "size": 972205,
+      "modified": "2026-08-15T15:52:04.000Z",
+      "checksum": "ea5b2ee9b0a5ac206bf81cff1b601e39",
+      "folder": false
+    }
+  ]
+}

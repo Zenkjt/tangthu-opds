@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-T6xOZcYlfqTNXZ5-O9C1y-PInujl8sc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YEZDcCf8ta_DTOxJqGyxD6tQOfFLqyEP",
+      "parent_id": "1-T6xOZcYlfqTNXZ5-O9C1y-PInujl8sc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12396,
+      "modified": "2026-08-16T03:11:05.000Z",
+      "checksum": "2ca3ffeba095d77f253b5c4c3f15bfc6",
+      "folder": false
+    },
+    {
+      "id": "1BKoYSgTKOLyndGTd9j1bi8RBv_Rf7FeK",
+      "parent_id": "1-T6xOZcYlfqTNXZ5-O9C1y-PInujl8sc",
+      "name": "THẠCH TRỤ HUYẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 350232,
+      "modified": "2026-08-16T03:11:11.000Z",
+      "checksum": "3a7058f5b1028a84cec34eb25aa63df7",
+      "folder": false
+    },
+    {
+      "id": "1-pjezgNuD0QYtkh-tXOdnkZVGLxnavlW",
+      "parent_id": "1-T6xOZcYlfqTNXZ5-O9C1y-PInujl8sc",
+      "name": "THẠCH TRỤ HUYẾT.pdf",
+      "mime": "application/pdf",
+      "size": 881790,
+      "modified": "2026-08-16T03:11:09.000Z",
+      "checksum": "f9f5d3288e3ea2f9960f51dcdc1f8703",
+      "folder": false
+    }
+  ]
+}

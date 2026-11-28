@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EqkPHnbAYcBOYEUCuPq0OjOk-bdrBuZ6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xK3O0B2055sod-Gp65A3nu9PUDaIDhLa",
+      "parent_id": "1EqkPHnbAYcBOYEUCuPq0OjOk-bdrBuZ6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3272,
+      "modified": "2026-08-15T10:31:55.000Z",
+      "checksum": "59701c232ff0a9a40778c3659025cc77",
+      "folder": false
+    },
+    {
+      "id": "1lrKnzO5lUl_yj5_T6fd9oGMWZrwrObfQ",
+      "parent_id": "1EqkPHnbAYcBOYEUCuPq0OjOk-bdrBuZ6",
+      "name": "PHƯỢNG NGHI THIÊN HẠ.epub",
+      "mime": "application/epub+zip",
+      "size": 422632,
+      "modified": "2026-08-15T10:32:01.000Z",
+      "checksum": "2a416466fc3118d9a737683e97404ff6",
+      "folder": false
+    },
+    {
+      "id": "19_kZx2g7cS36eQeI9B7-CnWzb5KN77vS",
+      "parent_id": "1EqkPHnbAYcBOYEUCuPq0OjOk-bdrBuZ6",
+      "name": "PHƯỢNG NGHI THIÊN HẠ.pdf",
+      "mime": "application/pdf",
+      "size": 212571,
+      "modified": "2026-08-15T10:31:59.000Z",
+      "checksum": "5f2155f6e1af7eea0808ce1d5e798a3a",
+      "folder": false
+    }
+  ]
+}

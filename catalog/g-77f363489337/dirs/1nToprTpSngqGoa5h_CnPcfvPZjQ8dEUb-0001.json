@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nToprTpSngqGoa5h_CnPcfvPZjQ8dEUb",
+  "page": 1,
+  "items": [
+    {
+      "id": "19bjCpvxzy7Qsq8XihFWZkYchQwv88wwv",
+      "parent_id": "1nToprTpSngqGoa5h_CnPcfvPZjQ8dEUb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3550,
+      "modified": "2026-08-15T12:41:09.000Z",
+      "checksum": "dfe8d2d27714a6c2d9fb741ac14e1257",
+      "folder": false
+    },
+    {
+      "id": "1UelUjrsQLnO1qzwrADjKpGK-Yt-QK0eR",
+      "parent_id": "1nToprTpSngqGoa5h_CnPcfvPZjQ8dEUb",
+      "name": "NHỮNG CHUYỆN LỪA NGOẠN MỤC NHẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 759394,
+      "modified": "2026-08-15T12:42:12.000Z",
+      "checksum": "6472e6821fd0ef8cfb4079e650c4fb33",
+      "folder": false
+    },
+    {
+      "id": "18xwdvbP3ZkY7JFeJ5wkPGEBYq-4d9lpJ",
+      "parent_id": "1nToprTpSngqGoa5h_CnPcfvPZjQ8dEUb",
+      "name": "NHỮNG CHUYỆN LỪA NGOẠN MỤC NHẤT.pdf",
+      "mime": "application/pdf",
+      "size": 1622057,
+      "modified": "2026-08-15T12:42:09.000Z",
+      "checksum": "d1956343cc1bc6e29dfb5d3b5402cca7",
+      "folder": false
+    }
+  ]
+}

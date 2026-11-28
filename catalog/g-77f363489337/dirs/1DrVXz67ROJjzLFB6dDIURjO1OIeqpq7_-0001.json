@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DrVXz67ROJjzLFB6dDIURjO1OIeqpq7_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aECOWhmaggWoLUw_l9XbbgEISfaVgkx5",
+      "parent_id": "1DrVXz67ROJjzLFB6dDIURjO1OIeqpq7_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1063,
+      "modified": "2026-08-15T03:57:47.000Z",
+      "checksum": "6fc11f5d1d867a207e5d194b25c60c4a",
+      "folder": false
+    },
+    {
+      "id": "1Nl7_pKNNOw1IasYTl1zUrYxVRqi7PS94",
+      "parent_id": "1DrVXz67ROJjzLFB6dDIURjO1OIeqpq7_",
+      "name": "NHỮNG NGƯỜI GIÁM HỘ.epub",
+      "mime": "application/epub+zip",
+      "size": 766052,
+      "modified": "2026-08-15T03:57:55.000Z",
+      "checksum": "fe59c87fb4620f923aa14d13a250060f",
+      "folder": false
+    },
+    {
+      "id": "1ISqxLLIvwWWVW7ZjnmLSD3zccQcME1Wq",
+      "parent_id": "1DrVXz67ROJjzLFB6dDIURjO1OIeqpq7_",
+      "name": "NHỮNG NGƯỜI GIÁM HỘ.pdf",
+      "mime": "application/pdf",
+      "size": 2241928,
+      "modified": "2026-08-15T03:57:52.000Z",
+      "checksum": "e11f7bedb802b8c48a0e8d8b749974e4",
+      "folder": false
+    }
+  ]
+}

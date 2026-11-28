@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1h7oJmG1PifBj6yfrB7ABsvKbSNityj3v",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QPMbJ8ISNC96IUYgN5fO_zIlNZz6-ggI",
+      "parent_id": "1h7oJmG1PifBj6yfrB7ABsvKbSNityj3v",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1201,
+      "modified": "2026-08-15T04:24:18.000Z",
+      "checksum": "894eb78de94d5cab8def7a5fab343cd5",
+      "folder": false
+    },
+    {
+      "id": "1NPTht_SvD0DuMAAoO1Pp6_ddRT8QjelP",
+      "parent_id": "1h7oJmG1PifBj6yfrB7ABsvKbSNityj3v",
+      "name": "ĐỂ LÀNH BỆNH TỰ NHIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 650897,
+      "modified": "2026-08-15T04:24:29.000Z",
+      "checksum": "a5d1b282613e92a0c8621492111fff59",
+      "folder": false
+    },
+    {
+      "id": "1UI5qnsZsTHYmdtsRZ6RFbVoTgBCVCuG8",
+      "parent_id": "1h7oJmG1PifBj6yfrB7ABsvKbSNityj3v",
+      "name": "ĐỂ LÀNH BỆNH TỰ NHIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 1022338,
+      "modified": "2026-08-15T04:24:26.000Z",
+      "checksum": "69fa7b32338b472816b3b88094f7442e",
+      "folder": false
+    }
+  ]
+}

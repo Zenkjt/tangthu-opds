@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "186H_hslXbT_ILZFIJXb5kr6O9xYBG3FA",
+  "page": 1,
+  "items": [
+    {
+      "id": "19aiPlEnZwJqeX7RiApjQ4T-lkgcT1b4O",
+      "parent_id": "186H_hslXbT_ILZFIJXb5kr6O9xYBG3FA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5479,
+      "modified": "2026-08-15T05:40:36.000Z",
+      "checksum": "d9fbb41dc73bf0036fa192e401021c72",
+      "folder": false
+    },
+    {
+      "id": "1Cby_3UwNmnayJM7sJftqfLZVSmYendok",
+      "parent_id": "186H_hslXbT_ILZFIJXb5kr6O9xYBG3FA",
+      "name": "TOÀN CHÂN TRIẾT LUẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 325872,
+      "modified": "2026-08-15T05:40:43.000Z",
+      "checksum": "4e5e9013cd4d49099134b6cae1c07700",
+      "folder": false
+    },
+    {
+      "id": "1lH1MM5BlIugCj250xarhXJBEgdXF30rb",
+      "parent_id": "186H_hslXbT_ILZFIJXb5kr6O9xYBG3FA",
+      "name": "TOÀN CHÂN TRIẾT LUẬN.pdf",
+      "mime": "application/pdf",
+      "size": 1095867,
+      "modified": "2026-08-15T05:40:40.000Z",
+      "checksum": "5aed0954c301e75291a6401759835260",
+      "folder": false
+    }
+  ]
+}

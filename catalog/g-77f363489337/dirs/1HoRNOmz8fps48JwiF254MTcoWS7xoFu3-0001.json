@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HoRNOmz8fps48JwiF254MTcoWS7xoFu3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UXN-oXRkwUmKm1S8aUVrL8jRmx63Hmg7",
+      "parent_id": "1HoRNOmz8fps48JwiF254MTcoWS7xoFu3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6547,
+      "modified": "2026-08-15T07:35:10.000Z",
+      "checksum": "4338c7930e4e23173d7ec3c8caba7da0",
+      "folder": false
+    },
+    {
+      "id": "1-Y_B5P2bYAGdzlC2cI8LiDzEdFSV8Ah2",
+      "parent_id": "1HoRNOmz8fps48JwiF254MTcoWS7xoFu3",
+      "name": "NGƯỜI TÌNH HOA BẮC.epub",
+      "mime": "application/epub+zip",
+      "size": 543266,
+      "modified": "2026-08-15T07:35:18.000Z",
+      "checksum": "a347b4a9e24ca106072d02e62de2efa8",
+      "folder": false
+    },
+    {
+      "id": "1uQDiE5wu7SMxexXbQ5SO6bIJsmh695HE",
+      "parent_id": "1HoRNOmz8fps48JwiF254MTcoWS7xoFu3",
+      "name": "NGƯỜI TÌNH HOA BẮC.pdf",
+      "mime": "application/pdf",
+      "size": 746673,
+      "modified": "2026-08-15T07:35:15.000Z",
+      "checksum": "916c4850b7471c59981d413b57526e92",
+      "folder": false
+    }
+  ]
+}

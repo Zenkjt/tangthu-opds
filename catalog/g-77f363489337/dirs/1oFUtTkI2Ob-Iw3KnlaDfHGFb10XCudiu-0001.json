@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oFUtTkI2Ob-Iw3KnlaDfHGFb10XCudiu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AJ_iaeb1judR9Cyc9AlfJ9K_7suI-T52",
+      "parent_id": "1oFUtTkI2Ob-Iw3KnlaDfHGFb10XCudiu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3593,
+      "modified": "2026-08-15T07:23:08.000Z",
+      "checksum": "915e6d5ab725bc63db9f5f76903b119b",
+      "folder": false
+    },
+    {
+      "id": "1IQwOdW_xdjic0Y_LtzNW6cRi165OA-zz",
+      "parent_id": "1oFUtTkI2Ob-Iw3KnlaDfHGFb10XCudiu",
+      "name": "TRƯỜNG AN NHẤT CHIẾN.epub",
+      "mime": "application/epub+zip",
+      "size": 302213,
+      "modified": "2026-08-15T07:23:14.000Z",
+      "checksum": "414d8fe221e74e0aea101445b4a79928",
+      "folder": false
+    },
+    {
+      "id": "1iNDpstERtmbOHym6iYzE-BRU4bjtwc34",
+      "parent_id": "1oFUtTkI2Ob-Iw3KnlaDfHGFb10XCudiu",
+      "name": "TRƯỜNG AN NHẤT CHIẾN.pdf",
+      "mime": "application/pdf",
+      "size": 409975,
+      "modified": "2026-08-15T07:23:11.000Z",
+      "checksum": "ac12ecf86e85bea32f27141ec5a3015f",
+      "folder": false
+    }
+  ]
+}

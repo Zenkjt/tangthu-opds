@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wQDN1MXKjWVKLLJGHVD9B5PKSlBIcSYO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1l8fkeNAo8gUR9RdPHAzfimrR89u9STdI",
+      "parent_id": "1wQDN1MXKjWVKLLJGHVD9B5PKSlBIcSYO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3551,
+      "modified": "2026-08-15T10:17:00.000Z",
+      "checksum": "638b82ce8a4e0e9a58afc012de60dad1",
+      "folder": false
+    },
+    {
+      "id": "1UzVF7hxNk1GbB6wO9nbgwvTjyHMl8Qz2",
+      "parent_id": "1wQDN1MXKjWVKLLJGHVD9B5PKSlBIcSYO",
+      "name": "THÁNG NGÀY TA ĐÃ QUA.epub",
+      "mime": "application/epub+zip",
+      "size": 531506,
+      "modified": "2026-08-15T10:17:10.000Z",
+      "checksum": "5a6f3c5cdb3797ff619dad608f453a0c",
+      "folder": false
+    },
+    {
+      "id": "1oCmkmDefOv4_ZMc1n_eHyMH9beKZbuYE",
+      "parent_id": "1wQDN1MXKjWVKLLJGHVD9B5PKSlBIcSYO",
+      "name": "THÁNG NGÀY TA ĐÃ QUA.pdf",
+      "mime": "application/pdf",
+      "size": 1285757,
+      "modified": "2026-08-15T10:17:06.000Z",
+      "checksum": "9a8f3e530b6594a146f5ff457a9c296f",
+      "folder": false
+    }
+  ]
+}

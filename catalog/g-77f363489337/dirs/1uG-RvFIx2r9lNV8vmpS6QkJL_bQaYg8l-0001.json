@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uG-RvFIx2r9lNV8vmpS6QkJL_bQaYg8l",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VDvb53wHyUeBSkKGfBlmOxhS30sGGeAT",
+      "parent_id": "1uG-RvFIx2r9lNV8vmpS6QkJL_bQaYg8l",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4557,
+      "modified": "2026-08-15T07:32:07.000Z",
+      "checksum": "333725cfe01dec42d0e53778306db79a",
+      "folder": false
+    },
+    {
+      "id": "1Or-x0cVTJm8_BcYpYQPmNGy5fFbQP_Sr",
+      "parent_id": "1uG-RvFIx2r9lNV8vmpS6QkJL_bQaYg8l",
+      "name": "XÁC THỊT VỀ ĐÂU.epub",
+      "mime": "application/epub+zip",
+      "size": 900220,
+      "modified": "2026-08-15T07:32:16.000Z",
+      "checksum": "9cee43c980139c70c4f0096db4af6a61",
+      "folder": false
+    },
+    {
+      "id": "1bR49H57DwHnDmeetsRgkV0vBQqp4auLY",
+      "parent_id": "1uG-RvFIx2r9lNV8vmpS6QkJL_bQaYg8l",
+      "name": "XÁC THỊT VỀ ĐÂU.pdf",
+      "mime": "application/pdf",
+      "size": 2111365,
+      "modified": "2026-08-15T07:32:13.000Z",
+      "checksum": "9720752e7dc0fa0ca7c3eddf61054c1c",
+      "folder": false
+    }
+  ]
+}

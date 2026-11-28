@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1t2ArO7dThXIaB1BU3AjeICpyyevmyfCw",
+  "page": 1,
+  "items": [
+    {
+      "id": "124QotjDxFHzCsh3vnovEavpaVcbXa_EP",
+      "parent_id": "1t2ArO7dThXIaB1BU3AjeICpyyevmyfCw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 569,
+      "modified": "2026-08-15T10:22:33.000Z",
+      "checksum": "53cbbed8b02b227053d26a768244f572",
+      "folder": false
+    },
+    {
+      "id": "1Um62xYEcYz4jd39BIj97oDm87N45aOkK",
+      "parent_id": "1t2ArO7dThXIaB1BU3AjeICpyyevmyfCw",
+      "name": "TẬN HIẾN.epub",
+      "mime": "application/epub+zip",
+      "size": 880873,
+      "modified": "2026-08-15T10:22:41.000Z",
+      "checksum": "3a9b8999356a325f91433f8cff58f50b",
+      "folder": false
+    },
+    {
+      "id": "1zwlp9_SAdfBjL9wcPFMhhATqx0q3EJew",
+      "parent_id": "1t2ArO7dThXIaB1BU3AjeICpyyevmyfCw",
+      "name": "TẬN HIẾN.pdf",
+      "mime": "application/pdf",
+      "size": 1903015,
+      "modified": "2026-08-15T10:22:38.000Z",
+      "checksum": "6d82d59e193c169ce811c03cddc72196",
+      "folder": false
+    }
+  ]
+}

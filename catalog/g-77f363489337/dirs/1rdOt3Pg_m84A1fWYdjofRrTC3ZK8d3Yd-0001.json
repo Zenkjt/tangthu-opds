@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rdOt3Pg_m84A1fWYdjofRrTC3ZK8d3Yd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Y7UeJYz1ENzbP9W3tBTR-aaLRa2PE1jU",
+      "parent_id": "1rdOt3Pg_m84A1fWYdjofRrTC3ZK8d3Yd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2688,
+      "modified": "2026-08-16T03:07:42.000Z",
+      "checksum": "a8410912904fd1ecd73056f715639ab1",
+      "folder": false
+    },
+    {
+      "id": "1_sIiqf0Iv0XlKVSICDOQ-sN9INrnr-ky",
+      "parent_id": "1rdOt3Pg_m84A1fWYdjofRrTC3ZK8d3Yd",
+      "name": "ĐÀN BÀ 30.epub",
+      "mime": "application/epub+zip",
+      "size": 854486,
+      "modified": "2026-08-16T03:07:48.000Z",
+      "checksum": "589a5e04c1622477d9004d889433a570",
+      "folder": false
+    },
+    {
+      "id": "1GZKoAIaXlytrLNjNhSrjayIVu3KnWUF_",
+      "parent_id": "1rdOt3Pg_m84A1fWYdjofRrTC3ZK8d3Yd",
+      "name": "ĐÀN BÀ 30.pdf",
+      "mime": "application/pdf",
+      "size": 1234555,
+      "modified": "2026-08-16T03:07:45.000Z",
+      "checksum": "77da39a69cbbfe3d593dfc08db64c0c0",
+      "folder": false
+    }
+  ]
+}

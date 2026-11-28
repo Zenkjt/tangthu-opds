@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jzq5RpA8ViFfw4xTKiyBihKWsg4w3gRl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1K38eJkX3_BnS4DshWeyF2EpSgYiUD2oh",
+      "parent_id": "1jzq5RpA8ViFfw4xTKiyBihKWsg4w3gRl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1407,
+      "modified": "2026-08-15T05:46:45.000Z",
+      "checksum": "eb5ce02e54c3cd6a386c65965919b2fa",
+      "folder": false
+    },
+    {
+      "id": "1-wT_c84ptkG4Uev_eYfIy_ZzbyqJvSbM",
+      "parent_id": "1jzq5RpA8ViFfw4xTKiyBihKWsg4w3gRl",
+      "name": "MẠNH TỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 417072,
+      "modified": "2026-08-15T05:46:51.000Z",
+      "checksum": "5ce16c4dd72d7367c43b8196af5ebf51",
+      "folder": false
+    },
+    {
+      "id": "1uVMJsuUiLRZSz375Vy7CKi7pv3CzOr-P",
+      "parent_id": "1jzq5RpA8ViFfw4xTKiyBihKWsg4w3gRl",
+      "name": "MẠNH TỬ.pdf",
+      "mime": "application/pdf",
+      "size": 866495,
+      "modified": "2026-08-15T05:46:49.000Z",
+      "checksum": "2b82ca7fd3ae6dbb519b651168058fe0",
+      "folder": false
+    }
+  ]
+}

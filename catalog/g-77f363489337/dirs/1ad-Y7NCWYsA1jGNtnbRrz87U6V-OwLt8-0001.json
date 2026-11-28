@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ad-Y7NCWYsA1jGNtnbRrz87U6V-OwLt8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LgeWr0UMVRDzsCSoyXc7eiyL9oCYIRdE",
+      "parent_id": "1ad-Y7NCWYsA1jGNtnbRrz87U6V-OwLt8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2778,
+      "modified": "2026-08-15T10:04:55.000Z",
+      "checksum": "d1fbb253d3fbd2af6df5d4c860e7e85c",
+      "folder": false
+    },
+    {
+      "id": "1qSnSgcwkiQgRnDt33JS1gd-uKgP6eHkV",
+      "parent_id": "1ad-Y7NCWYsA1jGNtnbRrz87U6V-OwLt8",
+      "name": "VỤ ÁN MẠNG HOÀN HẢO.epub",
+      "mime": "application/epub+zip",
+      "size": 364978,
+      "modified": "2026-08-15T10:05:01.000Z",
+      "checksum": "24f38d756454da4381bbdda06c1fc1bc",
+      "folder": false
+    },
+    {
+      "id": "1QrvzcVa75xNsr1JMBUOZayPDvo202wnM",
+      "parent_id": "1ad-Y7NCWYsA1jGNtnbRrz87U6V-OwLt8",
+      "name": "VỤ ÁN MẠNG HOÀN HẢO.pdf",
+      "mime": "application/pdf",
+      "size": 613776,
+      "modified": "2026-08-15T10:04:59.000Z",
+      "checksum": "a286a3b2743c38567d3c555b7e28ab53",
+      "folder": false
+    }
+  ]
+}

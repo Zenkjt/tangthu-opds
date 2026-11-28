@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1y7HU-49XSNKQUR43OAY3R5Wu1WW5rPwU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wb5yqfxfzDc-77AaAGeyeukSTVgIFJOu",
+      "parent_id": "1y7HU-49XSNKQUR43OAY3R5Wu1WW5rPwU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 679,
+      "modified": "2026-08-15T10:32:17.000Z",
+      "checksum": "7af7fed0f2fa8668435242382c43cd6c",
+      "folder": false
+    },
+    {
+      "id": "1GRR_MQd5sfjFiqhBAWAQwARRAKdT3snC",
+      "parent_id": "1y7HU-49XSNKQUR43OAY3R5Wu1WW5rPwU",
+      "name": "PHONG HẢI, MÊ CUNG NGẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 690945,
+      "modified": "2026-08-15T10:32:25.000Z",
+      "checksum": "c6fcf44e2230f867edd0380d1692ba75",
+      "folder": false
+    },
+    {
+      "id": "1MvvL1aXB1FaKrjDaI3HB1ml1ikEItVpL",
+      "parent_id": "1y7HU-49XSNKQUR43OAY3R5Wu1WW5rPwU",
+      "name": "PHONG HẢI, MÊ CUNG NGẠN.pdf",
+      "mime": "application/pdf",
+      "size": 1020485,
+      "modified": "2026-08-15T10:32:22.000Z",
+      "checksum": "fe5519242b55ac2fce5989f04eccc58f",
+      "folder": false
+    }
+  ]
+}

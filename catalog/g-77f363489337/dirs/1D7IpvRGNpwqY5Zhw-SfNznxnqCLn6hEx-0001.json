@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1D7IpvRGNpwqY5Zhw-SfNznxnqCLn6hEx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rcyLTU8vGQC6i_2zKaxtwTa_DWOCy-4A",
+      "parent_id": "1D7IpvRGNpwqY5Zhw-SfNznxnqCLn6hEx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3149,
+      "modified": "2026-08-15T16:00:42.000Z",
+      "checksum": "bbd6a673ac921cde9b84a51bc2813001",
+      "folder": false
+    },
+    {
+      "id": "1UpNYYL0eayUwZdtyLLaW92prTpvA0ZtS",
+      "parent_id": "1D7IpvRGNpwqY5Zhw-SfNznxnqCLn6hEx",
+      "name": "NGÀY MAI TÔI SẼ KHÁC.epub",
+      "mime": "application/epub+zip",
+      "size": 714585,
+      "modified": "2026-08-15T16:00:52.000Z",
+      "checksum": "8cdf0207c6843591f9609aa72ce1fe18",
+      "folder": false
+    },
+    {
+      "id": "1h92G9vKicq1FFr8Xig94fow2tLrTG236",
+      "parent_id": "1D7IpvRGNpwqY5Zhw-SfNznxnqCLn6hEx",
+      "name": "NGÀY MAI TÔI SẼ KHÁC.pdf",
+      "mime": "application/pdf",
+      "size": 1652526,
+      "modified": "2026-08-15T16:00:49.000Z",
+      "checksum": "c4c18e9e32d146b56158624df0c44145",
+      "folder": false
+    }
+  ]
+}

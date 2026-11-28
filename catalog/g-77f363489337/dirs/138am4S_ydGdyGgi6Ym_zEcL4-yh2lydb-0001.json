@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "138am4S_ydGdyGgi6Ym_zEcL4-yh2lydb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WRAOp-xpDgq_CrXdaxW5_yqWzwPh9AVf",
+      "parent_id": "138am4S_ydGdyGgi6Ym_zEcL4-yh2lydb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1082,
+      "modified": "2026-08-15T15:10:32.000Z",
+      "checksum": "aa4e36e88ec471bd527d3edec31320a8",
+      "folder": false
+    },
+    {
+      "id": "1aouN_cF5ZZAtLEgOSDZUzclDut2QD4IH",
+      "parent_id": "138am4S_ydGdyGgi6Ym_zEcL4-yh2lydb",
+      "name": "GƯƠNG VỠ.epub",
+      "mime": "application/epub+zip",
+      "size": 525411,
+      "modified": "2026-08-15T15:10:38.000Z",
+      "checksum": "f6cf08c5cb852335657e0f8796730dbf",
+      "folder": false
+    },
+    {
+      "id": "1tYcqgWYAeZE4_E6nnrqZ5LupNE2wwBnE",
+      "parent_id": "138am4S_ydGdyGgi6Ym_zEcL4-yh2lydb",
+      "name": "GƯƠNG VỠ.pdf",
+      "mime": "application/pdf",
+      "size": 747528,
+      "modified": "2026-08-15T15:10:36.000Z",
+      "checksum": "7f8689f4ebb5e16734c78dd877e384d9",
+      "folder": false
+    }
+  ]
+}

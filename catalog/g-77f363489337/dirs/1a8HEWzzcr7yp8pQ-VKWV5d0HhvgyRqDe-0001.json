@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1a8HEWzzcr7yp8pQ-VKWV5d0HhvgyRqDe",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UQ5DZ_Y7G3HNl9PtogZ0bDRfJCxRte4q",
+      "parent_id": "1a8HEWzzcr7yp8pQ-VKWV5d0HhvgyRqDe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4118,
+      "modified": "2026-08-15T07:34:40.000Z",
+      "checksum": "b60072836184ffaddeb2912c83de7bc8",
+      "folder": false
+    },
+    {
+      "id": "1CYmwVc4rK0u8nTnGkdnvVZPKuQuj5zTe",
+      "parent_id": "1a8HEWzzcr7yp8pQ-VKWV5d0HhvgyRqDe",
+      "name": "HOÀNG HẬU ĐỘC NHẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 364580,
+      "modified": "2026-08-15T07:34:46.000Z",
+      "checksum": "aaa4543b0215148518cc13852ee689fc",
+      "folder": false
+    },
+    {
+      "id": "1lUGY3fkzusutSt1vzJnu-mGdFkwAEVB7",
+      "parent_id": "1a8HEWzzcr7yp8pQ-VKWV5d0HhvgyRqDe",
+      "name": "HOÀNG HẬU ĐỘC NHẤT.pdf",
+      "mime": "application/pdf",
+      "size": 514066,
+      "modified": "2026-08-15T07:34:43.000Z",
+      "checksum": "ce739350ec690e87300562003a425003",
+      "folder": false
+    }
+  ]
+}

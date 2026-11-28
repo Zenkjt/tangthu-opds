@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11p3GTBsGZKx6-6BcWDgX2p5xdFlQCRHm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Zm4iMLOfww666e0Y7pIFPadfeKZv4S9o",
+      "parent_id": "11p3GTBsGZKx6-6BcWDgX2p5xdFlQCRHm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1293,
+      "modified": "2026-08-15T12:51:41.000Z",
+      "checksum": "c78866204aa64f59e5969159b9d3ab2e",
+      "folder": false
+    },
+    {
+      "id": "1wVxORs_l8SbG5YD47IkdBKD9EOGAuDjA",
+      "parent_id": "11p3GTBsGZKx6-6BcWDgX2p5xdFlQCRHm",
+      "name": "XU XU ĐỪNG KHÓC.epub",
+      "mime": "application/epub+zip",
+      "size": 465648,
+      "modified": "2026-08-15T12:51:53.000Z",
+      "checksum": "3cf0ea0ab4d5b742b9a09c6adb6a93cb",
+      "folder": false
+    },
+    {
+      "id": "1DLoBv3PgJVEFB82gCrTWfOjt0C2gHDap",
+      "parent_id": "11p3GTBsGZKx6-6BcWDgX2p5xdFlQCRHm",
+      "name": "XU XU ĐỪNG KHÓC.pdf",
+      "mime": "application/pdf",
+      "size": 522422,
+      "modified": "2026-08-15T12:51:50.000Z",
+      "checksum": "71abdb6e24f7e3954b59ea9ede8e5115",
+      "folder": false
+    }
+  ]
+}

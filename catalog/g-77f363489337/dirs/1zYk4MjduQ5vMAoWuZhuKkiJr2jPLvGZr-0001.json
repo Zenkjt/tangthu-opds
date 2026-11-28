@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zYk4MjduQ5vMAoWuZhuKkiJr2jPLvGZr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Yg1xmtNEe8A_qjcTYp5gsVsI8dAwBgar",
+      "parent_id": "1zYk4MjduQ5vMAoWuZhuKkiJr2jPLvGZr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7369,
+      "modified": "2026-08-16T03:03:28.000Z",
+      "checksum": "dcef456af76c94acbc1b4ee0769a0626",
+      "folder": false
+    },
+    {
+      "id": "1dNCnpTi3mP2t_-0VAY24MKySknnSHKDh",
+      "parent_id": "1zYk4MjduQ5vMAoWuZhuKkiJr2jPLvGZr",
+      "name": "TRUYỆN TRINH THỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 356137,
+      "modified": "2026-08-16T03:03:34.000Z",
+      "checksum": "7972ece59ded415566d512d38dd7b86a",
+      "folder": false
+    },
+    {
+      "id": "1wDcrWp2KoC3HnUPmh6lM5fsFP1iEcsnP",
+      "parent_id": "1zYk4MjduQ5vMAoWuZhuKkiJr2jPLvGZr",
+      "name": "TRUYỆN TRINH THỬ.pdf",
+      "mime": "application/pdf",
+      "size": 548684,
+      "modified": "2026-08-16T03:03:31.000Z",
+      "checksum": "d0353ec4c1d8c29298f6a1c61ea2ba98",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uhplwjBYHS0UATwcJnkoEy0drYJI-tgm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cLiuic3xTyEz8Q2PlsZj7wJpOb407mOT",
+      "parent_id": "1uhplwjBYHS0UATwcJnkoEy0drYJI-tgm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5204,
+      "modified": "2026-08-16T03:48:54.000Z",
+      "checksum": "42f6b4234e99df3bac0489c27299250c",
+      "folder": false
+    },
+    {
+      "id": "1oC_otlUqTNQSNhbqoWCO21POHO-qh-ij",
+      "parent_id": "1uhplwjBYHS0UATwcJnkoEy0drYJI-tgm",
+      "name": "YÊU VÀ HẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 984813,
+      "modified": "2026-08-16T03:49:01.000Z",
+      "checksum": "2d6fa84d0b2cf14f855aa04d5dff080f",
+      "folder": false
+    },
+    {
+      "id": "1RePgnaMfausWHdTa_yqDt2bigaLPx6GN",
+      "parent_id": "1uhplwjBYHS0UATwcJnkoEy0drYJI-tgm",
+      "name": "YÊU VÀ HẬN.pdf",
+      "mime": "application/pdf",
+      "size": 1625706,
+      "modified": "2026-08-16T03:48:59.000Z",
+      "checksum": "8904c96a9f3f319dec5e5c143c28f0d7",
+      "folder": false
+    }
+  ]
+}

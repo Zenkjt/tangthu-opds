@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NWWiwclZpE7MhydB3XeozeUCCiTS23QJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1A8z6izjgOHMZ-SG6hM2A8OdlZYlu_Wg4",
+      "parent_id": "1NWWiwclZpE7MhydB3XeozeUCCiTS23QJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3796,
+      "modified": "2026-08-15T13:11:35.000Z",
+      "checksum": "8b4e3f40471ac151724fe2b79f3d8d8c",
+      "folder": false
+    },
+    {
+      "id": "1SDUTe8OiXfS1em2I6J_7g5R4QYShjZG6",
+      "parent_id": "1NWWiwclZpE7MhydB3XeozeUCCiTS23QJ",
+      "name": "TƯỚNG THUẬT CĂN BẢN.epub",
+      "mime": "application/epub+zip",
+      "size": 654763,
+      "modified": "2026-08-15T13:11:42.000Z",
+      "checksum": "43648689759b7ad429aa69b720e2859c",
+      "folder": false
+    },
+    {
+      "id": "1AHr9Y9Ss-NYgwU14f1v0scf7AYOhHXpM",
+      "parent_id": "1NWWiwclZpE7MhydB3XeozeUCCiTS23QJ",
+      "name": "TƯỚNG THUẬT CĂN BẢN.pdf",
+      "mime": "application/pdf",
+      "size": 1105121,
+      "modified": "2026-08-15T13:11:39.000Z",
+      "checksum": "10567acc5ee7a2c4c52defc144322c4e",
+      "folder": false
+    }
+  ]
+}

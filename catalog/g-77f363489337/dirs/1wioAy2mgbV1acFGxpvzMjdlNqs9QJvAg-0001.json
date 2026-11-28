@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wioAy2mgbV1acFGxpvzMjdlNqs9QJvAg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xYmp6GJSQi9NMWE6KiMYCDGPg_VFuNfL",
+      "parent_id": "1wioAy2mgbV1acFGxpvzMjdlNqs9QJvAg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2961,
+      "modified": "2026-08-15T10:27:57.000Z",
+      "checksum": "c0135956913706c9931a278e881aa500",
+      "folder": false
+    },
+    {
+      "id": "1ej3q252sSFdnuq7J-i-u70igfi1Ox850",
+      "parent_id": "1wioAy2mgbV1acFGxpvzMjdlNqs9QJvAg",
+      "name": "SAU DẪY TRƯỜNG-SƠN.epub",
+      "mime": "application/epub+zip",
+      "size": 326844,
+      "modified": "2026-08-15T10:28:05.000Z",
+      "checksum": "b72df71c9e6dd28e062e87c5b8729d6c",
+      "folder": false
+    },
+    {
+      "id": "1cvPVtsn11LIdVZCdmgpyKQSvg_fKPcYi",
+      "parent_id": "1wioAy2mgbV1acFGxpvzMjdlNqs9QJvAg",
+      "name": "SAU DẪY TRƯỜNG-SƠN.pdf",
+      "mime": "application/pdf",
+      "size": 385442,
+      "modified": "2026-08-15T10:28:02.000Z",
+      "checksum": "bdce67d403dc927635a25b4b6d9e4e83",
+      "folder": false
+    }
+  ]
+}

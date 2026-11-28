@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ll1zsdyXrYnDYi4n4netttv7LqpfgWHK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1W_LRyvJCvmtkT9gdtsYR6o_RwFxwbI8g",
+      "parent_id": "1ll1zsdyXrYnDYi4n4netttv7LqpfgWHK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3642,
+      "modified": "2026-08-16T04:13:21.000Z",
+      "checksum": "1d4b52aa57b7259be181815128200367",
+      "folder": false
+    },
+    {
+      "id": "1xGnGhOCJx1t9nChmtDcTmEGh3p55wT7m",
+      "parent_id": "1ll1zsdyXrYnDYi4n4netttv7LqpfgWHK",
+      "name": "NGƯỜI THỪA KẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 639863,
+      "modified": "2026-08-16T04:13:30.000Z",
+      "checksum": "b5458d110c983f5fcb362ded96302740",
+      "folder": false
+    },
+    {
+      "id": "1Kdwu4Hly1gX1DpIWV3l61zTrub88u03n",
+      "parent_id": "1ll1zsdyXrYnDYi4n4netttv7LqpfgWHK",
+      "name": "NGƯỜI THỪA KẾ.pdf",
+      "mime": "application/pdf",
+      "size": 1592876,
+      "modified": "2026-08-16T04:13:27.000Z",
+      "checksum": "3582aaa7bb689cecd1b1d1aa9bb9a823",
+      "folder": false
+    }
+  ]
+}

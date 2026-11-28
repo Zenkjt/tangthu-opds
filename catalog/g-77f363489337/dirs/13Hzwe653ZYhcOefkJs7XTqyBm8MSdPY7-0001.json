@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13Hzwe653ZYhcOefkJs7XTqyBm8MSdPY7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xnrvKmvTQ7xrpKFo6s5YfpJPxH6TEWLg",
+      "parent_id": "13Hzwe653ZYhcOefkJs7XTqyBm8MSdPY7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5384,
+      "modified": "2026-08-16T03:15:34.000Z",
+      "checksum": "7ea10c8332b57544afe76bf121389050",
+      "folder": false
+    },
+    {
+      "id": "1DU4Alxk9A-gYr99WA2L5S9g2_iWxQOtW",
+      "parent_id": "13Hzwe653ZYhcOefkJs7XTqyBm8MSdPY7",
+      "name": "DƯƠNG GIA TƯỚNG DIỄN NGHĨA.epub",
+      "mime": "application/epub+zip",
+      "size": 643351,
+      "modified": "2026-08-16T03:15:41.000Z",
+      "checksum": "dee8c5beda7e55d92ce565212f14824f",
+      "folder": false
+    },
+    {
+      "id": "17UhrmIVfEzjyyBFh10kiZJZKknFGOXhv",
+      "parent_id": "13Hzwe653ZYhcOefkJs7XTqyBm8MSdPY7",
+      "name": "DƯƠNG GIA TƯỚNG DIỄN NGHĨA.pdf",
+      "mime": "application/pdf",
+      "size": 1451351,
+      "modified": "2026-08-16T03:15:39.000Z",
+      "checksum": "9ef4ce87cf2f9b5dd663078f849332fb",
+      "folder": false
+    }
+  ]
+}

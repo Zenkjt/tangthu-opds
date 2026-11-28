@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HIEC1orSaydUFmToK9mRtaIZitAca1k4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RQnNX0UqfHpHV-sp8uf5IXGvUR2zxo1H",
+      "parent_id": "1HIEC1orSaydUFmToK9mRtaIZitAca1k4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2051,
+      "modified": "2026-08-15T07:22:55.000Z",
+      "checksum": "f85ee7624e6a7ce8b1112912439de1fe",
+      "folder": false
+    },
+    {
+      "id": "1qkdnzHIreLVFukMvkC6fcUBauA7572NG",
+      "parent_id": "1HIEC1orSaydUFmToK9mRtaIZitAca1k4",
+      "name": "TRU TIÊN TIỀN TRUYỆN MAN HOANG HÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 938974,
+      "modified": "2026-08-15T07:23:02.000Z",
+      "checksum": "98b1ef068957f28ea6e7db492d0a4816",
+      "folder": false
+    },
+    {
+      "id": "1DmMfZBhWcvPVPKR3OE6_1yGkarptlcfS",
+      "parent_id": "1HIEC1orSaydUFmToK9mRtaIZitAca1k4",
+      "name": "TRU TIÊN TIỀN TRUYỆN MAN HOANG HÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 692957,
+      "modified": "2026-08-15T07:22:59.000Z",
+      "checksum": "617f3154731eebf4144c2655b4c2b043",
+      "folder": false
+    }
+  ]
+}

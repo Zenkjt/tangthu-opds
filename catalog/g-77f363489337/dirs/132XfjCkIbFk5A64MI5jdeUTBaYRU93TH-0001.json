@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "132XfjCkIbFk5A64MI5jdeUTBaYRU93TH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uftw6JMSwVLJu1maXGKO4epEVaaD6elH",
+      "parent_id": "132XfjCkIbFk5A64MI5jdeUTBaYRU93TH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 439,
+      "modified": "2026-08-15T12:59:24.000Z",
+      "checksum": "5b300bc45ec1fa24b0f3e6a54b619ba4",
+      "folder": false
+    },
+    {
+      "id": "1AiTvC8BhiNjEJP27obYB1YwqJTlBByQC",
+      "parent_id": "132XfjCkIbFk5A64MI5jdeUTBaYRU93TH",
+      "name": "NHỮNG NGƯỜI VỢ TỐT.epub",
+      "mime": "application/epub+zip",
+      "size": 729536,
+      "modified": "2026-08-15T12:59:30.000Z",
+      "checksum": "bbcb45d2df3ee48a7c2aac50d5832dd2",
+      "folder": false
+    },
+    {
+      "id": "1jiDYdui-kze63Ncq2qKAU1gEVG3DTCX-",
+      "parent_id": "132XfjCkIbFk5A64MI5jdeUTBaYRU93TH",
+      "name": "NHỮNG NGƯỜI VỢ TỐT.pdf",
+      "mime": "application/pdf",
+      "size": 1241403,
+      "modified": "2026-08-15T12:59:28.000Z",
+      "checksum": "616b12f1619536f52fe56b865c3c3cd9",
+      "folder": false
+    }
+  ]
+}

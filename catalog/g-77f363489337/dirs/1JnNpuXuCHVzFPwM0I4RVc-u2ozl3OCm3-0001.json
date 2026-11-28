@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JnNpuXuCHVzFPwM0I4RVc-u2ozl3OCm3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jPe_ymS5I09AnUw75x_sGRkJ7pZ5abTk",
+      "parent_id": "1JnNpuXuCHVzFPwM0I4RVc-u2ozl3OCm3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 670,
+      "modified": "2026-08-15T10:16:28.000Z",
+      "checksum": "f24f8e1ba7c95091b0affdb9f7f5cf5a",
+      "folder": false
+    },
+    {
+      "id": "1OC89oK4Bw7cz8uFAKHBGhgi8cOd_l6l4",
+      "parent_id": "1JnNpuXuCHVzFPwM0I4RVc-u2ozl3OCm3",
+      "name": "THÁNH TÔNG DI THẢO.epub",
+      "mime": "application/epub+zip",
+      "size": 493222,
+      "modified": "2026-08-15T10:16:38.000Z",
+      "checksum": "7a2e8064101ec005eb93549d5a7c07cc",
+      "folder": false
+    },
+    {
+      "id": "1YixI-KX-J6yyMIVwijBRroFqj5wek63w",
+      "parent_id": "1JnNpuXuCHVzFPwM0I4RVc-u2ozl3OCm3",
+      "name": "THÁNH TÔNG DI THẢO.pdf",
+      "mime": "application/pdf",
+      "size": 830657,
+      "modified": "2026-08-15T10:16:35.000Z",
+      "checksum": "bbe7f9998c147d0c44ee89eb8d41210b",
+      "folder": false
+    }
+  ]
+}

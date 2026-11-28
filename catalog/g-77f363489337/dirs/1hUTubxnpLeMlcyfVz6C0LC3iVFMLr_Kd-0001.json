@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hUTubxnpLeMlcyfVz6C0LC3iVFMLr_Kd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rfukrZbI0ClHgFkTjkbBWxIE9qkbgCos",
+      "parent_id": "1hUTubxnpLeMlcyfVz6C0LC3iVFMLr_Kd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1283,
+      "modified": "2026-08-16T02:46:14.000Z",
+      "checksum": "63b67015776f327fd9ef4e2665475359",
+      "folder": false
+    },
+    {
+      "id": "1Wr_uzAFEadRN2htq6uZHeXvDX61KcrBn",
+      "parent_id": "1hUTubxnpLeMlcyfVz6C0LC3iVFMLr_Kd",
+      "name": "NHỮNG NGÀY THƠ ẤU.epub",
+      "mime": "application/epub+zip",
+      "size": 369686,
+      "modified": "2026-08-16T02:46:20.000Z",
+      "checksum": "88c9a40156defaec717704c400aeff42",
+      "folder": false
+    },
+    {
+      "id": "1W3tm3sG-_3UlBGsvH-Dt46vJTitHhzfL",
+      "parent_id": "1hUTubxnpLeMlcyfVz6C0LC3iVFMLr_Kd",
+      "name": "NHỮNG NGÀY THƠ ẤU.pdf",
+      "mime": "application/pdf",
+      "size": 396818,
+      "modified": "2026-08-16T02:46:18.000Z",
+      "checksum": "8aa367ad0a8fa1c315c2077ad0ad4811",
+      "folder": false
+    }
+  ]
+}

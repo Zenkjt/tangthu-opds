@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oSWLDgCLqciVcOhzY8hfpoeW9riR-_bi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aWAPYbU87h7JpZzVm09gxrlxnQd8PjSH",
+      "parent_id": "1oSWLDgCLqciVcOhzY8hfpoeW9riR-_bi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4929,
+      "modified": "2026-08-15T03:25:28.000Z",
+      "checksum": "6acd9d422f81bb85a0106db6cd4324b6",
+      "folder": false
+    },
+    {
+      "id": "1k49ZRQzNvyJ2kZ4bFSbVCKKpu7lVBEKy",
+      "parent_id": "1oSWLDgCLqciVcOhzY8hfpoeW9riR-_bi",
+      "name": "NGƯỜI GIỎI KHÔNG BỞI HỌC NHIỀU.epub",
+      "mime": "application/epub+zip",
+      "size": 300310,
+      "modified": "2026-08-15T03:25:35.000Z",
+      "checksum": "4a136979b96ab07b66009fd9db37dfd6",
+      "folder": false
+    },
+    {
+      "id": "1btkymOCwnCbNNabbEU-vur4s6ZAoILId",
+      "parent_id": "1oSWLDgCLqciVcOhzY8hfpoeW9riR-_bi",
+      "name": "NGƯỜI GIỎI KHÔNG BỞI HỌC NHIỀU.pdf",
+      "mime": "application/pdf",
+      "size": 806847,
+      "modified": "2026-08-15T03:25:32.000Z",
+      "checksum": "7701b794c22c28b85d37d26fbe7b2bef",
+      "folder": false
+    }
+  ]
+}

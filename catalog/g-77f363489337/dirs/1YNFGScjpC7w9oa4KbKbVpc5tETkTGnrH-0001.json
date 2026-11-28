@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YNFGScjpC7w9oa4KbKbVpc5tETkTGnrH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mEOK0Qp3NzCCsDDeCJEobo__wf21nmgE",
+      "parent_id": "1YNFGScjpC7w9oa4KbKbVpc5tETkTGnrH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1665,
+      "modified": "2026-08-15T08:19:02.000Z",
+      "checksum": "b17626fdfe129e811ed8634d7ed2b321",
+      "folder": false
+    },
+    {
+      "id": "14ZVgXnK8aAV2s1Lt3hvwosc9MyrCAtha",
+      "parent_id": "1YNFGScjpC7w9oa4KbKbVpc5tETkTGnrH",
+      "name": "DIỄM QUỶ.epub",
+      "mime": "application/epub+zip",
+      "size": 670125,
+      "modified": "2026-08-15T08:19:11.000Z",
+      "checksum": "6da546b4a6f83e76af6440c585e3f234",
+      "folder": false
+    },
+    {
+      "id": "1EFMp63KMyAdY6Kec6zOZIipyQ338ojy9",
+      "parent_id": "1YNFGScjpC7w9oa4KbKbVpc5tETkTGnrH",
+      "name": "DIỄM QUỶ.pdf",
+      "mime": "application/pdf",
+      "size": 637030,
+      "modified": "2026-08-15T08:19:07.000Z",
+      "checksum": "3a418f9de4ec0ee6b493574151b8a239",
+      "folder": false
+    }
+  ]
+}

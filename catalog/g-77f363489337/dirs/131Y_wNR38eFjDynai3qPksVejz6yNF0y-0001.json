@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "131Y_wNR38eFjDynai3qPksVejz6yNF0y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iQykvh0wfJKHeDBXc6J8knlvbkuKNRrQ",
+      "parent_id": "131Y_wNR38eFjDynai3qPksVejz6yNF0y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1802,
+      "modified": "2026-08-16T03:39:32.000Z",
+      "checksum": "b1e3b19c6fd8861829484ac5937d1df4",
+      "folder": false
+    },
+    {
+      "id": "1w_16fYypAhyXuEtvZTQpAbPdShIdDCIO",
+      "parent_id": "131Y_wNR38eFjDynai3qPksVejz6yNF0y",
+      "name": "HUNG HỌA (BỨC TRANH SÁT NHÂN).epub",
+      "mime": "application/epub+zip",
+      "size": 391510,
+      "modified": "2026-08-16T03:39:38.000Z",
+      "checksum": "f5021a0d1a4ba990a2112ee2aac40839",
+      "folder": false
+    },
+    {
+      "id": "1GftLzB5-4ngkD1muazstX7rHEHEVP-aL",
+      "parent_id": "131Y_wNR38eFjDynai3qPksVejz6yNF0y",
+      "name": "HUNG HỌA (BỨC TRANH SÁT NHÂN).pdf",
+      "mime": "application/pdf",
+      "size": 742111,
+      "modified": "2026-08-16T03:39:35.000Z",
+      "checksum": "9c0f6550096309fea6eb24c4c6c03e96",
+      "folder": false
+    }
+  ]
+}

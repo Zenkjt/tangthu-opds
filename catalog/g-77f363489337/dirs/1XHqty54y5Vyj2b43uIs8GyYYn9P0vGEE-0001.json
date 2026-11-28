@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XHqty54y5Vyj2b43uIs8GyYYn9P0vGEE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RJxllpJaQicAfLpba-ATpfCoDoXoWZ9R",
+      "parent_id": "1XHqty54y5Vyj2b43uIs8GyYYn9P0vGEE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3329,
+      "modified": "2026-08-15T10:22:27.000Z",
+      "checksum": "ccf4512b3ebe0d4d89397516ae7c4e6d",
+      "folder": false
+    },
+    {
+      "id": "1PFrFlwpqPj0kiSYE44RZbnO_X7SPmb7B",
+      "parent_id": "1XHqty54y5Vyj2b43uIs8GyYYn9P0vGEE",
+      "name": "TÂN NƯƠNG MỚI GẢ.epub",
+      "mime": "application/epub+zip",
+      "size": 1617223,
+      "modified": "2026-08-15T10:22:34.000Z",
+      "checksum": "5dfeca8d6635f9fc0ec94e1d5bee31b8",
+      "folder": false
+    },
+    {
+      "id": "1aLdvDbyXhr_2K7rf6jLoRButVvdDJqDd",
+      "parent_id": "1XHqty54y5Vyj2b43uIs8GyYYn9P0vGEE",
+      "name": "TÂN NƯƠNG MỚI GẢ.pdf",
+      "mime": "application/pdf",
+      "size": 1248460,
+      "modified": "2026-08-15T10:22:32.000Z",
+      "checksum": "9353ef6160c00cbbbefd56fa46a56fac",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17zJEK_XCJULpjnRtDpDiTGDPV5zy5YnL",
+  "page": 1,
+  "items": [
+    {
+      "id": "16--B2qXMEhFhvSe7ELiCetvImolPE7Ox",
+      "parent_id": "17zJEK_XCJULpjnRtDpDiTGDPV5zy5YnL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3691,
+      "modified": "2026-08-16T04:01:19.000Z",
+      "checksum": "483c93ad8e121ab93443f4bda95f8ed1",
+      "folder": false
+    },
+    {
+      "id": "12I6EfMxrjKT3q20wHnGoHqP-dk1SvorU",
+      "parent_id": "17zJEK_XCJULpjnRtDpDiTGDPV5zy5YnL",
+      "name": "TẠP VĂN NGUYỄN TƯỜNG BÁCH.epub",
+      "mime": "application/epub+zip",
+      "size": 340112,
+      "modified": "2026-08-16T04:01:25.000Z",
+      "checksum": "32cee7be554116ef18e33fa4064b1e0e",
+      "folder": false
+    },
+    {
+      "id": "1oXa26Q1-pv5PzxwulkHdfzBozZg3ZPxZ",
+      "parent_id": "17zJEK_XCJULpjnRtDpDiTGDPV5zy5YnL",
+      "name": "TẠP VĂN NGUYỄN TƯỜNG BÁCH.pdf",
+      "mime": "application/pdf",
+      "size": 381468,
+      "modified": "2026-08-16T04:01:22.000Z",
+      "checksum": "542c914b07afb8f3baeb0a569ad3ba6c",
+      "folder": false
+    }
+  ]
+}

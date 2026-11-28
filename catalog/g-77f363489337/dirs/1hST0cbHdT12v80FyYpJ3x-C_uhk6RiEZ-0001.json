@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hST0cbHdT12v80FyYpJ3x-C_uhk6RiEZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pw-XURf-DKr5i05YTsLxy-JcvHYsNNyb",
+      "parent_id": "1hST0cbHdT12v80FyYpJ3x-C_uhk6RiEZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6099,
+      "modified": "2026-08-16T03:16:43.000Z",
+      "checksum": "7fd29f521c64ed33dcc2a74f135556bd",
+      "folder": false
+    },
+    {
+      "id": "1csvfyhEMyHxZj5LSzsMlYImovG1ugpWl",
+      "parent_id": "1hST0cbHdT12v80FyYpJ3x-C_uhk6RiEZ",
+      "name": "HOÀNG TỬ RẮN.epub",
+      "mime": "application/epub+zip",
+      "size": 529359,
+      "modified": "2026-08-16T03:16:50.000Z",
+      "checksum": "0d1d0986a8c3ddc39538b265f6ed8543",
+      "folder": false
+    },
+    {
+      "id": "1KVBlZmCgRosNCa5PNZlMUsZUg457PEAj",
+      "parent_id": "1hST0cbHdT12v80FyYpJ3x-C_uhk6RiEZ",
+      "name": "HOÀNG TỬ RẮN.pdf",
+      "mime": "application/pdf",
+      "size": 1367413,
+      "modified": "2026-08-16T03:16:47.000Z",
+      "checksum": "cb09603c02a823f2edbcb66465a181bd",
+      "folder": false
+    }
+  ]
+}

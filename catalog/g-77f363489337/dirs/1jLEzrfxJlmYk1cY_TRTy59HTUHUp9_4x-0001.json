@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jLEzrfxJlmYk1cY_TRTy59HTUHUp9_4x",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aEHOERoWUr7qFqoh-m0RVu0O3A1L3XS0",
+      "parent_id": "1jLEzrfxJlmYk1cY_TRTy59HTUHUp9_4x",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 22008,
+      "modified": "2026-08-15T05:43:26.000Z",
+      "checksum": "b05b0c815ae533dbb0eca3a1157e861e",
+      "folder": false
+    },
+    {
+      "id": "1Fthag9DaOzJtuQaXaF2UweNYZ80D6TG0",
+      "parent_id": "1jLEzrfxJlmYk1cY_TRTy59HTUHUp9_4x",
+      "name": "LIÊT TỬ VÀ DƯƠNG TỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 453374,
+      "modified": "2026-08-15T05:43:33.000Z",
+      "checksum": "06460848669135abd2581917d2a0763b",
+      "folder": false
+    },
+    {
+      "id": "1vW-qHYRp_bwWm0qaKQTGlU_74J6K7vL-",
+      "parent_id": "1jLEzrfxJlmYk1cY_TRTy59HTUHUp9_4x",
+      "name": "LIÊT TỬ VÀ DƯƠNG TỬ.pdf",
+      "mime": "application/pdf",
+      "size": 1159523,
+      "modified": "2026-08-15T05:43:30.000Z",
+      "checksum": "6081b7758e7535ce7c8196cbd0617419",
+      "folder": false
+    }
+  ]
+}

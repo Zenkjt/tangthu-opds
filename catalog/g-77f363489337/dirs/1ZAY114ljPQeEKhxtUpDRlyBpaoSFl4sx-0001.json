@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZAY114ljPQeEKhxtUpDRlyBpaoSFl4sx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SbB8flgmUhbjQEoC089hNTkOWqbVPwyM",
+      "parent_id": "1ZAY114ljPQeEKhxtUpDRlyBpaoSFl4sx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5782,
+      "modified": "2026-08-15T01:01:37.000Z",
+      "checksum": "da764f8b8a4d977a9125a3b3e478931a",
+      "folder": false
+    },
+    {
+      "id": "1-zMNPxFFO-21bIYjRFV6dbFqwYYp3G0G",
+      "parent_id": "1ZAY114ljPQeEKhxtUpDRlyBpaoSFl4sx",
+      "name": "MỘT TƯ DUY HOÀN TOÀN MỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 731733,
+      "modified": "2026-08-15T01:01:46.000Z",
+      "checksum": "59f65f3ed2ad7bfea8bc6de384279451",
+      "folder": false
+    },
+    {
+      "id": "1vQ5rx6UaCiyR9iN0oatyOeOIj6jl9oEP",
+      "parent_id": "1ZAY114ljPQeEKhxtUpDRlyBpaoSFl4sx",
+      "name": "MỘT TƯ DUY HOÀN TOÀN MỚI.pdf",
+      "mime": "application/pdf",
+      "size": 1489312,
+      "modified": "2026-08-15T01:01:43.000Z",
+      "checksum": "dd3b3ae7c82a936f30d4b4a4780b30ba",
+      "folder": false
+    }
+  ]
+}

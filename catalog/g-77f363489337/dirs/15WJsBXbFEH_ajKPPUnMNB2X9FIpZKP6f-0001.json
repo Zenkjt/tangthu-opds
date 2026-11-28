@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15WJsBXbFEH_ajKPPUnMNB2X9FIpZKP6f",
+  "page": 1,
+  "items": [
+    {
+      "id": "12uwtpg-a0bgVLhpoE22Zcd4HzdTvtqol",
+      "parent_id": "15WJsBXbFEH_ajKPPUnMNB2X9FIpZKP6f",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2143,
+      "modified": "2026-08-15T03:53:27.000Z",
+      "checksum": "ab12800ee4b9abc948b309e4a24eab0e",
+      "folder": false
+    },
+    {
+      "id": "10dSdQU-QT2uUQPT9Tl6np4V-0KMdm4M4",
+      "parent_id": "15WJsBXbFEH_ajKPPUnMNB2X9FIpZKP6f",
+      "name": "SÁM PHÁP ĐỊA XÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 253401,
+      "modified": "2026-08-15T03:53:33.000Z",
+      "checksum": "c2d7f6e35feeeeede2154b072b17c845",
+      "folder": false
+    },
+    {
+      "id": "1Cz2WNW7hE9vricyUhTNXWYuQECFVXEyc",
+      "parent_id": "15WJsBXbFEH_ajKPPUnMNB2X9FIpZKP6f",
+      "name": "SÁM PHÁP ĐỊA XÚC.pdf",
+      "mime": "application/pdf",
+      "size": 567174,
+      "modified": "2026-08-15T03:53:30.000Z",
+      "checksum": "ef6b4519c2f24744230ac04bfc511c24",
+      "folder": false
+    }
+  ]
+}

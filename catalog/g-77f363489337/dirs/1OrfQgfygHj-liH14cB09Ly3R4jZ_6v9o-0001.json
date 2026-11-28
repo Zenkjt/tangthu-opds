@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OrfQgfygHj-liH14cB09Ly3R4jZ_6v9o",
+  "page": 1,
+  "items": [
+    {
+      "id": "1g5-nqA9ivA8cNSekes4aEfnlAsLXl0vc",
+      "parent_id": "1OrfQgfygHj-liH14cB09Ly3R4jZ_6v9o",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4365,
+      "modified": "2026-08-16T03:41:35.000Z",
+      "checksum": "d1b75bcc8589fe611f8898cd59e47c00",
+      "folder": false
+    },
+    {
+      "id": "1t7Lnahj7Dkad4BSKyn8KY53kcecDpxat",
+      "parent_id": "1OrfQgfygHj-liH14cB09Ly3R4jZ_6v9o",
+      "name": "HÀNH TRÌNH ĐẾN VIỄN CỔ.epub",
+      "mime": "application/epub+zip",
+      "size": 648527,
+      "modified": "2026-08-16T03:41:44.000Z",
+      "checksum": "4cbdabbc6f0d3ae2c497cdea6e143785",
+      "folder": false
+    },
+    {
+      "id": "14iZdw5NBaCsRwZKpgmPm77do6LqTJpan",
+      "parent_id": "1OrfQgfygHj-liH14cB09Ly3R4jZ_6v9o",
+      "name": "HÀNH TRÌNH ĐẾN VIỄN CỔ.pdf",
+      "mime": "application/pdf",
+      "size": 1698712,
+      "modified": "2026-08-16T03:41:41.000Z",
+      "checksum": "612504478aba41666897c3fc022ac588",
+      "folder": false
+    }
+  ]
+}

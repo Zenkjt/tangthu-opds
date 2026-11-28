@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10-W-LNjVVENXQbb4AUdTmHije-D3we0X",
+  "page": 1,
+  "items": [
+    {
+      "id": "11FYmNiSrN53830Xrxnl4dG7yTYDqLh6t",
+      "parent_id": "10-W-LNjVVENXQbb4AUdTmHije-D3we0X",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 13415,
+      "modified": "2026-08-15T00:50:47.000Z",
+      "checksum": "11bc39ed85abdc8d6e1ff38b9e3e9098",
+      "folder": false
+    },
+    {
+      "id": "1vCT5lbiVmtLa1v_qz7m2mFf5AWgcrJPh",
+      "parent_id": "10-W-LNjVVENXQbb4AUdTmHije-D3we0X",
+      "name": "THÔNG MINH CẢM XÚC 2.0.epub",
+      "mime": "application/epub+zip",
+      "size": 1259992,
+      "modified": "2026-08-15T00:50:53.000Z",
+      "checksum": "faa273832f820d5dbe8ed471151d0002",
+      "folder": false
+    },
+    {
+      "id": "1jvTDP85Es1RlLrYd1Tcw8Poqp6lWba4z",
+      "parent_id": "10-W-LNjVVENXQbb4AUdTmHije-D3we0X",
+      "name": "THÔNG MINH CẢM XÚC 2.0.pdf",
+      "mime": "application/pdf",
+      "size": 1644999,
+      "modified": "2026-08-15T00:50:50.000Z",
+      "checksum": "19ee13b7af2fdff9e6531bc3fdab5478",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1o8GNn-v_nvYQVcUlMrgQcZMkmqCdmidd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vqe6pUExXWaY5H6yw_QwKRwFMxn_ZnWe",
+      "parent_id": "1o8GNn-v_nvYQVcUlMrgQcZMkmqCdmidd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6376,
+      "modified": "2026-08-16T03:38:07.000Z",
+      "checksum": "3552d677bd7c2a3774fe661764bc4fd2",
+      "folder": false
+    },
+    {
+      "id": "150TvT5CZgGtIPWIKVW4Qo7p4qeGUE9lM",
+      "parent_id": "1o8GNn-v_nvYQVcUlMrgQcZMkmqCdmidd",
+      "name": "LUẬT SĂN MỒI.epub",
+      "mime": "application/epub+zip",
+      "size": 878709,
+      "modified": "2026-08-16T03:38:13.000Z",
+      "checksum": "a28ab25b5720aa3145193e97d84ee238",
+      "folder": false
+    },
+    {
+      "id": "1Xt3eo_cvS4xqRl_o6YLvoMeJN6K1fB_k",
+      "parent_id": "1o8GNn-v_nvYQVcUlMrgQcZMkmqCdmidd",
+      "name": "LUẬT SĂN MỒI.pdf",
+      "mime": "application/pdf",
+      "size": 1647584,
+      "modified": "2026-08-16T03:38:11.000Z",
+      "checksum": "454b3f83bb123e111ec018cb655690a8",
+      "folder": false
+    }
+  ]
+}

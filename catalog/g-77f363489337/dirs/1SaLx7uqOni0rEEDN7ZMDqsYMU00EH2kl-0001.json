@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SaLx7uqOni0rEEDN7ZMDqsYMU00EH2kl",
+  "page": 1,
+  "items": [
+    {
+      "id": "17yls68WGWVyhTQ6txNyT_g8amEidild_",
+      "parent_id": "1SaLx7uqOni0rEEDN7ZMDqsYMU00EH2kl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 465,
+      "modified": "2026-08-16T04:17:58.000Z",
+      "checksum": "ba06679b2a19dbaa472d81ee239d0818",
+      "folder": false
+    },
+    {
+      "id": "1E63ebeC3mZmPtUE9Yk1736UunQX9glLg",
+      "parent_id": "1SaLx7uqOni0rEEDN7ZMDqsYMU00EH2kl",
+      "name": "MÂY TRÔI VỀ PHÍA CUỐI TRỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 416392,
+      "modified": "2026-08-16T04:18:04.000Z",
+      "checksum": "d2be78f0fb24e6f853c84bed3adb7b15",
+      "folder": false
+    },
+    {
+      "id": "1x17m-2UqL4QwpQHK9IAzbOluo_HsErWt",
+      "parent_id": "1SaLx7uqOni0rEEDN7ZMDqsYMU00EH2kl",
+      "name": "MÂY TRÔI VỀ PHÍA CUỐI TRỜI.pdf",
+      "mime": "application/pdf",
+      "size": 409234,
+      "modified": "2026-08-16T04:18:01.000Z",
+      "checksum": "5273a2b20c4351e3d29b8fc8475d7973",
+      "folder": false
+    }
+  ]
+}

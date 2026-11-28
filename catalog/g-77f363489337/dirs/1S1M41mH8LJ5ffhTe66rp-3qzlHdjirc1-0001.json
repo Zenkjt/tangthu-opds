@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1S1M41mH8LJ5ffhTe66rp-3qzlHdjirc1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lfTt_t5hlKYTqWS8PoNWvePJ3qbwie4Y",
+      "parent_id": "1S1M41mH8LJ5ffhTe66rp-3qzlHdjirc1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3928,
+      "modified": "2026-08-15T07:44:21.000Z",
+      "checksum": "6e6ee017390082e895ef245c7bbccdcf",
+      "folder": false
+    },
+    {
+      "id": "1UtyK9YUhPH4SDjm2nqOQIifCRrl5RRUE",
+      "parent_id": "1S1M41mH8LJ5ffhTe66rp-3qzlHdjirc1",
+      "name": "ĐÊM QUA ANH Ở ĐÂU.epub",
+      "mime": "application/epub+zip",
+      "size": 752307,
+      "modified": "2026-08-15T07:44:32.000Z",
+      "checksum": "298e7ee21c1d86a43be98b80fbf93683",
+      "folder": false
+    },
+    {
+      "id": "1E1VF-0WZFVCtxHxShtIKzOgcolYnuSFP",
+      "parent_id": "1S1M41mH8LJ5ffhTe66rp-3qzlHdjirc1",
+      "name": "ĐÊM QUA ANH Ở ĐÂU.pdf",
+      "mime": "application/pdf",
+      "size": 2265918,
+      "modified": "2026-08-15T07:44:28.000Z",
+      "checksum": "467cc12dcd30fef2416ee4c18e9e7194",
+      "folder": false
+    }
+  ]
+}

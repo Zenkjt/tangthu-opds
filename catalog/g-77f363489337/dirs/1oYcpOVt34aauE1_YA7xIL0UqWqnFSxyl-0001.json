@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oYcpOVt34aauE1_YA7xIL0UqWqnFSxyl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tKOBKL7fvlFN3gSK7YUKPiskzTVcCVAp",
+      "parent_id": "1oYcpOVt34aauE1_YA7xIL0UqWqnFSxyl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4448,
+      "modified": "2026-08-16T03:19:32.000Z",
+      "checksum": "9ddca3480808071910bd895ab71f63e8",
+      "folder": false
+    },
+    {
+      "id": "1i8PbROE94E_sLK7FmMrpaSq5BmKuY2wu",
+      "parent_id": "1oYcpOVt34aauE1_YA7xIL0UqWqnFSxyl",
+      "name": "ĐỊA NGỤC HAY THIÊN ĐƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 337327,
+      "modified": "2026-08-16T03:19:38.000Z",
+      "checksum": "eb589c1b0091a93cc64eff82345c7f79",
+      "folder": false
+    },
+    {
+      "id": "1QWuJzyln4DlwU_7yRUQB7oqnXLBv2_KQ",
+      "parent_id": "1oYcpOVt34aauE1_YA7xIL0UqWqnFSxyl",
+      "name": "ĐỊA NGỤC HAY THIÊN ĐƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 203030,
+      "modified": "2026-08-16T03:19:36.000Z",
+      "checksum": "a2ada2b1a26fc73f900948f072ad8403",
+      "folder": false
+    }
+  ]
+}

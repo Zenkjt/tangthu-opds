@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZZcqrySG6pXZflZ6R9xUo4Bm6k21rBS_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KBuEbrC_C9RmCKF6zMrd7sQzpQI55WL8",
+      "parent_id": "1ZZcqrySG6pXZflZ6R9xUo4Bm6k21rBS_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11667,
+      "modified": "2026-08-16T03:11:43.000Z",
+      "checksum": "9c1ac33208405aecd5ff2a70a555a3fa",
+      "folder": false
+    },
+    {
+      "id": "1rNrDQbRW57aV-KUb3CQVWrVBSrtZWJ6U",
+      "parent_id": "1ZZcqrySG6pXZflZ6R9xUo4Bm6k21rBS_",
+      "name": "DU HANH CUNG HERODOTUS.epub",
+      "mime": "application/epub+zip",
+      "size": 597471,
+      "modified": "2026-08-16T03:11:51.000Z",
+      "checksum": "faa55eb33bd3b0a9deeb9df11498efe2",
+      "folder": false
+    },
+    {
+      "id": "1gaWQfOCiOrzYmyDTOKK-VXswqWe2lTcq",
+      "parent_id": "1ZZcqrySG6pXZflZ6R9xUo4Bm6k21rBS_",
+      "name": "DU HANH CUNG HERODOTUS.pdf",
+      "mime": "application/pdf",
+      "size": 1460180,
+      "modified": "2026-08-16T03:11:48.000Z",
+      "checksum": "e25b722a815581528f4f8a8ebad317eb",
+      "folder": false
+    }
+  ]
+}

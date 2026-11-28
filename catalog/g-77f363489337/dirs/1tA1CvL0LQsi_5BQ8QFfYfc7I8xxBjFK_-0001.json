@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tA1CvL0LQsi_5BQ8QFfYfc7I8xxBjFK_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HHAp3joW1LA5n017D-ViYnQFPYPQXfc_",
+      "parent_id": "1tA1CvL0LQsi_5BQ8QFfYfc7I8xxBjFK_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5969,
+      "modified": "2026-08-15T01:00:16.000Z",
+      "checksum": "848b77ce584375c429c71ee22fa76b26",
+      "folder": false
+    },
+    {
+      "id": "11vGSNsdp1f2PtAcTNq62OpNcEyUKqJK5",
+      "parent_id": "1tA1CvL0LQsi_5BQ8QFfYfc7I8xxBjFK_",
+      "name": "ĐỂ TRỞ THÀNH NHÀ VĂN.epub",
+      "mime": "application/epub+zip",
+      "size": 291086,
+      "modified": "2026-08-15T01:00:23.000Z",
+      "checksum": "c367f68ebef0bf553305060c3db822d1",
+      "folder": false
+    },
+    {
+      "id": "1EhO_rwT_EOVuEdNmU_4a_4yLAcoy7PrP",
+      "parent_id": "1tA1CvL0LQsi_5BQ8QFfYfc7I8xxBjFK_",
+      "name": "ĐỂ TRỞ THÀNH NHÀ VĂN.pdf",
+      "mime": "application/pdf",
+      "size": 316489,
+      "modified": "2026-08-15T01:00:20.000Z",
+      "checksum": "da831db9f77dc6c6487ff6e09ae668fa",
+      "folder": false
+    }
+  ]
+}

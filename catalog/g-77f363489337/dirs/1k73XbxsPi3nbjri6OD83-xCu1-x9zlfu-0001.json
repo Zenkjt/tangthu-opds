@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1k73XbxsPi3nbjri6OD83-xCu1-x9zlfu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hi1E-DrWEpzknnAS3ybElRfppKYjLZcY",
+      "parent_id": "1k73XbxsPi3nbjri6OD83-xCu1-x9zlfu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 461,
+      "modified": "2026-08-15T12:29:10.000Z",
+      "checksum": "c8f730c587fdeae4478eef2009904581",
+      "folder": false
+    },
+    {
+      "id": "1LI6RFgsXmIm8G8PQtM35p3oCM3XF5K2I",
+      "parent_id": "1k73XbxsPi3nbjri6OD83-xCu1-x9zlfu",
+      "name": "GIA ĐÌNH NGỌT NGÀO CỦA TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 418904,
+      "modified": "2026-08-15T12:29:16.000Z",
+      "checksum": "11cec774a980162e3595376dee9243dd",
+      "folder": false
+    },
+    {
+      "id": "1pAxybN4EAQQGmCKO0kvo6Grg14RocF5s",
+      "parent_id": "1k73XbxsPi3nbjri6OD83-xCu1-x9zlfu",
+      "name": "GIA ĐÌNH NGỌT NGÀO CỦA TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 722802,
+      "modified": "2026-08-15T12:29:14.000Z",
+      "checksum": "407aab54b10f4f5d0b2a00edc596d65d",
+      "folder": false
+    }
+  ]
+}

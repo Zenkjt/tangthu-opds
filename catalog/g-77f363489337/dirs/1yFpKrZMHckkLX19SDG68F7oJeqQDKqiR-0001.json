@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yFpKrZMHckkLX19SDG68F7oJeqQDKqiR",
+  "page": 1,
+  "items": [
+    {
+      "id": "125o0FYCrC7dFLaIv31tEaansSgVirsUo",
+      "parent_id": "1yFpKrZMHckkLX19SDG68F7oJeqQDKqiR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12948,
+      "modified": "2026-08-15T07:59:31.000Z",
+      "checksum": "0b7cca0d5c1f22182f55e367dd6c91f7",
+      "folder": false
+    },
+    {
+      "id": "1QDXKPVWYDv1v-lDeAF7dlsvVfAAKBNmE",
+      "parent_id": "1yFpKrZMHckkLX19SDG68F7oJeqQDKqiR",
+      "name": "ĐÙA GIỠN VỚI NGUY HIỂM.epub",
+      "mime": "application/epub+zip",
+      "size": 779685,
+      "modified": "2026-08-15T07:59:37.000Z",
+      "checksum": "3bb6faf918533562abb2f2e42f6ca8cd",
+      "folder": false
+    },
+    {
+      "id": "1yeh80pYopa8wnoJDNSkoniawhQvEJJoW",
+      "parent_id": "1yFpKrZMHckkLX19SDG68F7oJeqQDKqiR",
+      "name": "ĐÙA GIỠN VỚI NGUY HIỂM.pdf",
+      "mime": "application/pdf",
+      "size": 995032,
+      "modified": "2026-08-15T07:59:34.000Z",
+      "checksum": "ea7a72fd81db0660230b9341dfc62c41",
+      "folder": false
+    }
+  ]
+}

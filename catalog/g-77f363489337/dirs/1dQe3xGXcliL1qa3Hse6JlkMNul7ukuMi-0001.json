@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dQe3xGXcliL1qa3Hse6JlkMNul7ukuMi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lVRmONqOI8tRUyHWNQPioXsYw0Ii_S9T",
+      "parent_id": "1dQe3xGXcliL1qa3Hse6JlkMNul7ukuMi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2644,
+      "modified": "2026-08-15T14:57:45.000Z",
+      "checksum": "4f9f1bd558d0710020e2cbd4fecfd3df",
+      "folder": false
+    },
+    {
+      "id": "1tNM4FtYxeFHOjUtB8PK9-mCXGzd4gSWc",
+      "parent_id": "1dQe3xGXcliL1qa3Hse6JlkMNul7ukuMi",
+      "name": "GOTH - NHỮNG KẺ HẮC ÁM.epub",
+      "mime": "application/epub+zip",
+      "size": 417439,
+      "modified": "2026-08-15T14:58:41.000Z",
+      "checksum": "53d8aa1cb4419e42432ae9f7b43b2409",
+      "folder": false
+    },
+    {
+      "id": "17uX1IuwKg8ItZvnkeD2Xt09xm9RMFOgM",
+      "parent_id": "1dQe3xGXcliL1qa3Hse6JlkMNul7ukuMi",
+      "name": "GOTH - NHỮNG KẺ HẮC ÁM.pdf",
+      "mime": "application/pdf",
+      "size": 949763,
+      "modified": "2026-08-15T14:58:34.000Z",
+      "checksum": "da6237626e0dc06d6bbcd6ce0e1f6dd5",
+      "folder": false
+    }
+  ]
+}

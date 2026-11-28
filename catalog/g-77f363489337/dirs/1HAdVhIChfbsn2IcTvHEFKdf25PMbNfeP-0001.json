@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HAdVhIChfbsn2IcTvHEFKdf25PMbNfeP",
+  "page": 1,
+  "items": [
+    {
+      "id": "13TjmWs83I1CBhiRFSMuRdVu0SxPO8bA9",
+      "parent_id": "1HAdVhIChfbsn2IcTvHEFKdf25PMbNfeP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1889,
+      "modified": "2026-08-15T09:31:44.000Z",
+      "checksum": "2df5b98d00f590bfa074eabf653fe2a2",
+      "folder": false
+    },
+    {
+      "id": "1xVwZHsnloi8i0j-Ntl68U0Dlx14BAfOC",
+      "parent_id": "1HAdVhIChfbsn2IcTvHEFKdf25PMbNfeP",
+      "name": "HANNIBAL TRỖI DẬY.epub",
+      "mime": "application/epub+zip",
+      "size": 602618,
+      "modified": "2026-08-15T09:31:54.000Z",
+      "checksum": "f4e8805b9b22448839b2defdced9e63d",
+      "folder": false
+    },
+    {
+      "id": "1REph9zfV1raY7dKJ3yyk5ef9vp1A75Kk",
+      "parent_id": "1HAdVhIChfbsn2IcTvHEFKdf25PMbNfeP",
+      "name": "HANNIBAL TRỖI DẬY.pdf",
+      "mime": "application/pdf",
+      "size": 1208953,
+      "modified": "2026-08-15T09:31:51.000Z",
+      "checksum": "1e6aeeb7ab2cb3ebb0755b6a46e9676a",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gRK159BJeaKABahc4h5zfMHOIzPkvv4c",
+  "page": 1,
+  "items": [
+    {
+      "id": "16vnwqvMFla3_LSqKnIL09nBr7vHOMttx",
+      "parent_id": "1gRK159BJeaKABahc4h5zfMHOIzPkvv4c",
+      "name": "CÔNG ĐỨC BỘ.epub",
+      "mime": "application/epub+zip",
+      "size": 1826244,
+      "modified": "2026-08-16T03:45:09.000Z",
+      "checksum": "adde3951259eb83dca3b6288bf27e2d9",
+      "folder": false
+    },
+    {
+      "id": "1aa6BpsB6x7fe1-KuW7nk1jnPveaLfGPL",
+      "parent_id": "1gRK159BJeaKABahc4h5zfMHOIzPkvv4c",
+      "name": "CÔNG ĐỨC BỘ.pdf",
+      "mime": "application/pdf",
+      "size": 7476583,
+      "modified": "2026-08-16T03:45:06.000Z",
+      "checksum": "0e39f4a56fc0fcb5edd608987e5131bb",
+      "folder": false
+    },
+    {
+      "id": "1S787pIxWFIc18xyeOLuemux2_T6j8mk9",
+      "parent_id": "1gRK159BJeaKABahc4h5zfMHOIzPkvv4c",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2049,
+      "modified": "2026-08-16T03:44:49.000Z",
+      "checksum": "f79dd36a10a3eb525e5b7bdb323a38e9",
+      "folder": false
+    }
+  ]
+}

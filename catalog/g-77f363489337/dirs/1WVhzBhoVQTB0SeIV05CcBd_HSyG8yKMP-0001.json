@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WVhzBhoVQTB0SeIV05CcBd_HSyG8yKMP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1A2ThiEwXlp82aSYP77qtT1rvuacuGvuL",
+      "parent_id": "1WVhzBhoVQTB0SeIV05CcBd_HSyG8yKMP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6572,
+      "modified": "2026-08-15T06:17:22.000Z",
+      "checksum": "0612e1cecb89b01eb3afacb7ce9d759e",
+      "folder": false
+    },
+    {
+      "id": "1zTEColbuCMnpHR-uX72PZNRLBHHPjSSs",
+      "parent_id": "1WVhzBhoVQTB0SeIV05CcBd_HSyG8yKMP",
+      "name": "NGƯỜI LỮ HÀNH KỲ DỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 966821,
+      "modified": "2026-08-15T06:17:35.000Z",
+      "checksum": "daaeb70741c0429be149072541f87dde",
+      "folder": false
+    },
+    {
+      "id": "16lySonwNTaMSFXPtp2_nWj6-IqtLhcmD",
+      "parent_id": "1WVhzBhoVQTB0SeIV05CcBd_HSyG8yKMP",
+      "name": "NGƯỜI LỮ HÀNH KỲ DỊ.pdf",
+      "mime": "application/pdf",
+      "size": 3134621,
+      "modified": "2026-08-15T06:17:31.000Z",
+      "checksum": "eec1211cdc3f783f38cb8f35a7ce4289",
+      "folder": false
+    }
+  ]
+}

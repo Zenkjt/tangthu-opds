@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KiKATFztC3NzZzX5MmfedAseCAU6RTIA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BHcyvFdX13RolsjWhqgErLIjjkcaiqVr",
+      "parent_id": "1KiKATFztC3NzZzX5MmfedAseCAU6RTIA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5269,
+      "modified": "2026-08-16T04:24:54.000Z",
+      "checksum": "57c46f69ca63c58cadd7b2d74a739d7e",
+      "folder": false
+    },
+    {
+      "id": "1atsQNUPeBuPaMWhWAE-WASGlaQANU_Th",
+      "parent_id": "1KiKATFztC3NzZzX5MmfedAseCAU6RTIA",
+      "name": "HỒI KÝ TRẦN VÀNG SAO.epub",
+      "mime": "application/epub+zip",
+      "size": 536031,
+      "modified": "2026-08-16T04:25:00.000Z",
+      "checksum": "8ba8eb14c97a053c768935e9045dd046",
+      "folder": false
+    },
+    {
+      "id": "1NcAyTIv7oXW0ZoDM1C1ndx0KEedRGgV2",
+      "parent_id": "1KiKATFztC3NzZzX5MmfedAseCAU6RTIA",
+      "name": "HỒI KÝ TRẦN VÀNG SAO.pdf",
+      "mime": "application/pdf",
+      "size": 1214819,
+      "modified": "2026-08-16T04:24:58.000Z",
+      "checksum": "4ea0857e027eca1812c4a20f4b420d77",
+      "folder": false
+    }
+  ]
+}

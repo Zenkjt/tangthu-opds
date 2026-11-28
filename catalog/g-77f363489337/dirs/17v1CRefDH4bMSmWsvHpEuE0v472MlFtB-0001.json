@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17v1CRefDH4bMSmWsvHpEuE0v472MlFtB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gCwvzlnmElsjV3-5iOtVnod8cSZjU3D5",
+      "parent_id": "17v1CRefDH4bMSmWsvHpEuE0v472MlFtB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 483,
+      "modified": "2026-08-15T10:53:20.000Z",
+      "checksum": "0080d802dc2909b42cf7a603f8dc4a7a",
+      "folder": false
+    },
+    {
+      "id": "1eU5jYX4zSZ4IHDJhN4t7kIb7TcFo6_tl",
+      "parent_id": "17v1CRefDH4bMSmWsvHpEuE0v472MlFtB",
+      "name": "LỜI HỨA CỦA BÓNG ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 694727,
+      "modified": "2026-08-15T10:53:34.000Z",
+      "checksum": "b7568ba7506d1a523cf994c2be8f0a0a",
+      "folder": false
+    },
+    {
+      "id": "1ZlvooY9cHKRysavwb7sEXOu07zPa_S_6",
+      "parent_id": "17v1CRefDH4bMSmWsvHpEuE0v472MlFtB",
+      "name": "LỜI HỨA CỦA BÓNG ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 1595368,
+      "modified": "2026-08-15T10:53:29.000Z",
+      "checksum": "674fedcde8a6fe40a88723840761875a",
+      "folder": false
+    }
+  ]
+}

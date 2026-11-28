@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dy9Ki_B8E1YuHIHvoO5CC81W21K2ayc1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ELYKjBSsFQMgPiqEaiOCkeQ27D1CIpoi",
+      "parent_id": "1dy9Ki_B8E1YuHIHvoO5CC81W21K2ayc1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3985,
+      "modified": "2026-08-15T07:15:37.000Z",
+      "checksum": "9e190c86acc2840bbe401f084868b992",
+      "folder": false
+    },
+    {
+      "id": "1i4G3UhUW4ridWhUFpGAAtdH-a_GwORV8",
+      "parent_id": "1dy9Ki_B8E1YuHIHvoO5CC81W21K2ayc1",
+      "name": "MONG THẾ GIỚI NÀY LUÔN DỊU DÀNG VỚI EM.epub",
+      "mime": "application/epub+zip",
+      "size": 636097,
+      "modified": "2026-08-15T07:15:44.000Z",
+      "checksum": "cb16770e8c38d3398eecccde4e1928e1",
+      "folder": false
+    },
+    {
+      "id": "1Eult8S1UDUnKwL2K_BPwZyHvEvK9kQn4",
+      "parent_id": "1dy9Ki_B8E1YuHIHvoO5CC81W21K2ayc1",
+      "name": "MONG THẾ GIỚI NÀY LUÔN DỊU DÀNG VỚI EM.pdf",
+      "mime": "application/pdf",
+      "size": 1720543,
+      "modified": "2026-08-15T07:15:41.000Z",
+      "checksum": "191c78defacfec075156eb2e65309ec6",
+      "folder": false
+    }
+  ]
+}

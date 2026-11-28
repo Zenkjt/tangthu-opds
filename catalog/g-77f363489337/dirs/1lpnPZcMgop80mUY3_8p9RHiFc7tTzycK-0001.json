@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lpnPZcMgop80mUY3_8p9RHiFc7tTzycK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1C09Yba4RtPbpEF1Ao6HTayfEY5qhns9Q",
+      "parent_id": "1lpnPZcMgop80mUY3_8p9RHiFc7tTzycK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 394,
+      "modified": "2026-08-16T04:19:33.000Z",
+      "checksum": "616a26ee63668ece54527bddb0bcf7f5",
+      "folder": false
+    },
+    {
+      "id": "1DbNrn8tpGFvHBqQxim7hme_zzMnCi9dF",
+      "parent_id": "1lpnPZcMgop80mUY3_8p9RHiFc7tTzycK",
+      "name": "HOA LỤC BÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 354308,
+      "modified": "2026-08-16T04:19:39.000Z",
+      "checksum": "67ca2312c48e4a09fd43346dba88dd6b",
+      "folder": false
+    },
+    {
+      "id": "1gAqfJNbL2dtWcSKukB9eeKCFr19ZU2xG",
+      "parent_id": "1lpnPZcMgop80mUY3_8p9RHiFc7tTzycK",
+      "name": "HOA LỤC BÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 437962,
+      "modified": "2026-08-16T04:19:37.000Z",
+      "checksum": "9bccfa1f46e5559022779f0778666868",
+      "folder": false
+    }
+  ]
+}

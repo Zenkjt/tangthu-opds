@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jM2okpgAPN682FGSwaRnYyqbUtOp8co5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vQ5QzIoYgyKyPh-O-9DPJ29LVhNnLS4x",
+      "parent_id": "1jM2okpgAPN682FGSwaRnYyqbUtOp8co5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4454,
+      "modified": "2026-08-16T03:03:37.000Z",
+      "checksum": "acf495fe649154ae38940558042e544a",
+      "folder": false
+    },
+    {
+      "id": "1ephzTVjW6Bv5kF5FEkoIxDDfeaWKrB5i",
+      "parent_id": "1jM2okpgAPN682FGSwaRnYyqbUtOp8co5",
+      "name": "TỪ KHI EM ĐẾN.epub",
+      "mime": "application/epub+zip",
+      "size": 687513,
+      "modified": "2026-08-16T03:03:45.000Z",
+      "checksum": "2b75781db5b48b15581ae56115c33ff9",
+      "folder": false
+    },
+    {
+      "id": "1xn2-gNxKq-e-aGL1zHKa6E5MBP-m73OW",
+      "parent_id": "1jM2okpgAPN682FGSwaRnYyqbUtOp8co5",
+      "name": "TỪ KHI EM ĐẾN.pdf",
+      "mime": "application/pdf",
+      "size": 1456763,
+      "modified": "2026-08-16T03:03:42.000Z",
+      "checksum": "3e37874133f999867d49203aa8f50cbe",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bYtouKgtMxyu0yqa1OCehbvU23uuHY_5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aOthGFQZXeUAtifHzVutFn04XjiFXxlC",
+      "parent_id": "1bYtouKgtMxyu0yqa1OCehbvU23uuHY_5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 445,
+      "modified": "2026-08-15T15:40:06.000Z",
+      "checksum": "80400a1a52fc931dc85886b91d2d8658",
+      "folder": false
+    },
+    {
+      "id": "1hUcNJPfK_thg7E3hNk6ELOeboYQAr2wg",
+      "parent_id": "1bYtouKgtMxyu0yqa1OCehbvU23uuHY_5",
+      "name": "MƯU LƯỢC GIA TINH TUYỂN.epub",
+      "mime": "application/epub+zip",
+      "size": 1024409,
+      "modified": "2026-08-15T15:40:16.000Z",
+      "checksum": "20155ff50a4ca92271db3056bffee81d",
+      "folder": false
+    },
+    {
+      "id": "12BK6YrP6Pz7LfJER07YunOUPnuae_QX-",
+      "parent_id": "1bYtouKgtMxyu0yqa1OCehbvU23uuHY_5",
+      "name": "MƯU LƯỢC GIA TINH TUYỂN.pdf",
+      "mime": "application/pdf",
+      "size": 3278810,
+      "modified": "2026-08-15T15:40:13.000Z",
+      "checksum": "f0d1ff7a4eb0fac3235b7b35864faebe",
+      "folder": false
+    }
+  ]
+}

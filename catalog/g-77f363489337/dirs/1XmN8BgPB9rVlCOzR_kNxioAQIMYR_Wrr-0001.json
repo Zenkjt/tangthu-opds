@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XmN8BgPB9rVlCOzR_kNxioAQIMYR_Wrr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vENh-XGqW4gREusbRGeldk6bwFQLWEjR",
+      "parent_id": "1XmN8BgPB9rVlCOzR_kNxioAQIMYR_Wrr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3549,
+      "modified": "2026-08-15T06:27:02.000Z",
+      "checksum": "64cdc38f3d5858f61e570db3151b67d1",
+      "folder": false
+    },
+    {
+      "id": "1H9lIjsfKUkqXng1s6Ij5BQJu0wpsrjFY",
+      "parent_id": "1XmN8BgPB9rVlCOzR_kNxioAQIMYR_Wrr",
+      "name": "NGƯỜI BẠN KIÊN NGHỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 492646,
+      "modified": "2026-08-15T06:27:09.000Z",
+      "checksum": "325318973741f286398d3ad1a50f1866",
+      "folder": false
+    },
+    {
+      "id": "11ZX90SwYW5gL2yZ3TPSJQsVA4x-KWM3V",
+      "parent_id": "1XmN8BgPB9rVlCOzR_kNxioAQIMYR_Wrr",
+      "name": "NGƯỜI BẠN KIÊN NGHỊ.pdf",
+      "mime": "application/pdf",
+      "size": 1155160,
+      "modified": "2026-08-15T06:27:06.000Z",
+      "checksum": "af86fbb51e2a21d076e2da3d6bafb7ac",
+      "folder": false
+    }
+  ]
+}

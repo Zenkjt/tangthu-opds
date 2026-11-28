@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QQ6vOTzu7xCkyd6L16Rj147P5tdSXmKk",
+  "page": 1,
+  "items": [
+    {
+      "id": "18H5mB-51Zom8L5sNPyttpuoiQCco46tr",
+      "parent_id": "1QQ6vOTzu7xCkyd6L16Rj147P5tdSXmKk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 926,
+      "modified": "2026-08-15T10:57:11.000Z",
+      "checksum": "03851a483e1fec22490896f51a3aee1a",
+      "folder": false
+    },
+    {
+      "id": "1Lfr6bCni7UIevp-5v1EWMa_H_gfgYeTF",
+      "parent_id": "1QQ6vOTzu7xCkyd6L16Rj147P5tdSXmKk",
+      "name": "GIỜ XẤU.epub",
+      "mime": "application/epub+zip",
+      "size": 451745,
+      "modified": "2026-08-15T10:57:17.000Z",
+      "checksum": "3ab43a90d6b5df32ae2b2a3631dd31b4",
+      "folder": false
+    },
+    {
+      "id": "1FShOFCpTHLRAEuxEppXX4cTvm1XhZpSN",
+      "parent_id": "1QQ6vOTzu7xCkyd6L16Rj147P5tdSXmKk",
+      "name": "GIỜ XẤU.pdf",
+      "mime": "application/pdf",
+      "size": 712012,
+      "modified": "2026-08-15T10:57:14.000Z",
+      "checksum": "af5cbcea15e982092a1609849edb0441",
+      "folder": false
+    }
+  ]
+}

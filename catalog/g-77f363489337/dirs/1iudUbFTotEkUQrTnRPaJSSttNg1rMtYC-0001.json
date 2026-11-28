@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iudUbFTotEkUQrTnRPaJSSttNg1rMtYC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Tp2ofcEXUDdNBaIKk-QLTcqLkelVQjav",
+      "parent_id": "1iudUbFTotEkUQrTnRPaJSSttNg1rMtYC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2248,
+      "modified": "2026-08-15T06:58:34.000Z",
+      "checksum": "0fdc24843957a9be0357794d280af9be",
+      "folder": false
+    },
+    {
+      "id": "19yZsw6aeneUrsKffw1yCDI6cLd9E4qgC",
+      "parent_id": "1iudUbFTotEkUQrTnRPaJSSttNg1rMtYC",
+      "name": "NGỰA Ô YÊU DẤU.epub",
+      "mime": "application/epub+zip",
+      "size": 703950,
+      "modified": "2026-08-15T06:58:51.000Z",
+      "checksum": "fbd2a60c915ad4646fdc594a5990c05f",
+      "folder": false
+    },
+    {
+      "id": "16rDUvGHCgbLgq87wN1BeyMjhezwa0hdh",
+      "parent_id": "1iudUbFTotEkUQrTnRPaJSSttNg1rMtYC",
+      "name": "NGỰA Ô YÊU DẤU.pdf",
+      "mime": "application/pdf",
+      "size": 936774,
+      "modified": "2026-08-15T06:58:41.000Z",
+      "checksum": "051f2055371ae8e9c11cbe71f9c0d32b",
+      "folder": false
+    }
+  ]
+}

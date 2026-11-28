@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16hslI6aDAfptdoZ1y7Bw4ygxHEq7puWp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dCyZSoIFBTBeHj46YpKfweIS6lHqCaum",
+      "parent_id": "16hslI6aDAfptdoZ1y7Bw4ygxHEq7puWp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1244,
+      "modified": "2026-08-15T09:42:07.000Z",
+      "checksum": "d796991981c3abecf2c673c5c14df405",
+      "folder": false
+    },
+    {
+      "id": "1tbIQWnXjtpuxassO0las4P6Rx4zGETqH",
+      "parent_id": "16hslI6aDAfptdoZ1y7Bw4ygxHEq7puWp",
+      "name": "LUNG LINH NHƯ NƯỚC.epub",
+      "mime": "application/epub+zip",
+      "size": 1576021,
+      "modified": "2026-08-15T09:42:14.000Z",
+      "checksum": "84e0c4948289fc409ec0986c36585626",
+      "folder": false
+    },
+    {
+      "id": "1gxyLZmPdGajoa0p1wXheN9xzcwVsvAbJ",
+      "parent_id": "16hslI6aDAfptdoZ1y7Bw4ygxHEq7puWp",
+      "name": "LUNG LINH NHƯ NƯỚC.pdf",
+      "mime": "application/pdf",
+      "size": 1757653,
+      "modified": "2026-08-15T09:42:11.000Z",
+      "checksum": "2d87b83d4311d99cdf8b37005090375c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UNqzt2jcArS7tXM3YIzSb14um5cmcIkP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UlPTljrT6bb94SnNCeDBbAc9VMKzKtzr",
+      "parent_id": "1UNqzt2jcArS7tXM3YIzSb14um5cmcIkP",
+      "name": "CON TRÂU.epub",
+      "mime": "application/epub+zip",
+      "size": 421027,
+      "modified": "2026-08-16T03:30:50.000Z",
+      "checksum": "530c39327f9eb154a5eba4cb0c368977",
+      "folder": false
+    },
+    {
+      "id": "1ume-JmhGkjqsM1wse92FFjawph_QTlqN",
+      "parent_id": "1UNqzt2jcArS7tXM3YIzSb14um5cmcIkP",
+      "name": "CON TRÂU.pdf",
+      "mime": "application/pdf",
+      "size": 763661,
+      "modified": "2026-08-16T03:30:47.000Z",
+      "checksum": "61e2501c1b61f9be97c5b91aa35747c4",
+      "folder": false
+    },
+    {
+      "id": "1-Xc7-uXK5RdQ8nYjexX0JL7PlPVC_Ak1",
+      "parent_id": "1UNqzt2jcArS7tXM3YIzSb14um5cmcIkP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3433,
+      "modified": "2026-08-16T03:30:43.000Z",
+      "checksum": "385f6b99817f073d2767eff37c30f726",
+      "folder": false
+    }
+  ]
+}

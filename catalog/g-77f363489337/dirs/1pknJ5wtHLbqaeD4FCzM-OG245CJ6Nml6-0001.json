@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pknJ5wtHLbqaeD4FCzM-OG245CJ6Nml6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CFFIwRP0C7f8ueoDll-TOy-tb6s67jCi",
+      "parent_id": "1pknJ5wtHLbqaeD4FCzM-OG245CJ6Nml6",
+      "name": "BA LÔ MÀU XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 318452,
+      "modified": "2026-08-15T07:19:21.000Z",
+      "checksum": "db9c3e9b6b92adbf95ba823bad6124b5",
+      "folder": false
+    },
+    {
+      "id": "1IYEdYkow4usbGju_JnAIDn36cvcvNPlW",
+      "parent_id": "1pknJ5wtHLbqaeD4FCzM-OG245CJ6Nml6",
+      "name": "BA LÔ MÀU XANH.pdf",
+      "mime": "application/pdf",
+      "size": 503360,
+      "modified": "2026-08-15T07:19:18.000Z",
+      "checksum": "ea62483e5ff297a3f849e4f25d2e992f",
+      "folder": false
+    },
+    {
+      "id": "1URf7gulnDEQAmPEqmH1xNBqrEAuvFguu",
+      "parent_id": "1pknJ5wtHLbqaeD4FCzM-OG245CJ6Nml6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1434,
+      "modified": "2026-08-15T07:19:14.000Z",
+      "checksum": "38e97246126fc92f7864a3648995bd77",
+      "folder": false
+    }
+  ]
+}

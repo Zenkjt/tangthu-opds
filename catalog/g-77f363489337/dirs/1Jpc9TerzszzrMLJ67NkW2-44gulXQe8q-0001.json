@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Jpc9TerzszzrMLJ67NkW2-44gulXQe8q",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-52Z38ADIYq9wCFLKUtt1Ie-a91U_0UU",
+      "parent_id": "1Jpc9TerzszzrMLJ67NkW2-44gulXQe8q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4771,
+      "modified": "2026-08-15T07:04:17.000Z",
+      "checksum": "a5356c184527847ff9b5a95a98513313",
+      "folder": false
+    },
+    {
+      "id": "1vR5yWB5XHKOgIHoIiddVh2-6Zm3J4zJt",
+      "parent_id": "1Jpc9TerzszzrMLJ67NkW2-44gulXQe8q",
+      "name": "NHẬT KÝ TRONG TÙ.epub",
+      "mime": "application/epub+zip",
+      "size": 487953,
+      "modified": "2026-08-15T07:04:22.000Z",
+      "checksum": "2bf1c7cc92777346b2096a5335ee9c50",
+      "folder": false
+    },
+    {
+      "id": "1sfNvSlFxC4ozazH6Pq2HLs7AvOC0FsEm",
+      "parent_id": "1Jpc9TerzszzrMLJ67NkW2-44gulXQe8q",
+      "name": "NHẬT KÝ TRONG TÙ.pdf",
+      "mime": "application/pdf",
+      "size": 608698,
+      "modified": "2026-08-15T07:04:20.000Z",
+      "checksum": "79ad8a2178672d2579dd5c7d0dc51745",
+      "folder": false
+    }
+  ]
+}

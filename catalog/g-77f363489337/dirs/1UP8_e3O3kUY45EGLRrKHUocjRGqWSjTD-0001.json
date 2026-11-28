@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UP8_e3O3kUY45EGLRrKHUocjRGqWSjTD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cGN2WmMwz3zBQhgQRrjKXDGEshd_CSeJ",
+      "parent_id": "1UP8_e3O3kUY45EGLRrKHUocjRGqWSjTD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1549,
+      "modified": "2026-08-15T05:46:23.000Z",
+      "checksum": "37242ed8f6ecb53c14fb0e758446356e",
+      "folder": false
+    },
+    {
+      "id": "1XDE-wmhvtiy8V4_dk9AWirDpK0POMLto",
+      "parent_id": "1UP8_e3O3kUY45EGLRrKHUocjRGqWSjTD",
+      "name": "TRIẾT HỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 1109552,
+      "modified": "2026-08-15T05:46:30.000Z",
+      "checksum": "4b37699723a670572f28f50e1175778e",
+      "folder": false
+    },
+    {
+      "id": "1bzdeUiOwzkomEzbKbo0e1vw4oMV9fjyT",
+      "parent_id": "1UP8_e3O3kUY45EGLRrKHUocjRGqWSjTD",
+      "name": "TRIẾT HỌC.pdf",
+      "mime": "application/pdf",
+      "size": 1249914,
+      "modified": "2026-08-15T05:46:27.000Z",
+      "checksum": "4571889dcdf724fbaae3c7c95bb28aa6",
+      "folder": false
+    }
+  ]
+}

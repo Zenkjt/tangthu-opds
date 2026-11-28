@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sHqFqVzLImAoBw4Veqvwnc1ZEW_2jHbD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IpZpaN7ODTRleraQGPT-XLs9-cgw9VV6",
+      "parent_id": "1sHqFqVzLImAoBw4Veqvwnc1ZEW_2jHbD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 773,
+      "modified": "2026-08-15T07:10:53.000Z",
+      "checksum": "63e24a1352aa8075529b6694db053bc4",
+      "folder": false
+    },
+    {
+      "id": "1FryiAe2Me6ykbu590B4saILlyOODm2Pj",
+      "parent_id": "1sHqFqVzLImAoBw4Veqvwnc1ZEW_2jHbD",
+      "name": "GÁI THỜI LOẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 298976,
+      "modified": "2026-08-15T07:11:00.000Z",
+      "checksum": "5391584d50296e5c48f30d77d3866d1d",
+      "folder": false
+    },
+    {
+      "id": "1ScXc_699TqjkfX8g914Pikf6s0CMpriP",
+      "parent_id": "1sHqFqVzLImAoBw4Veqvwnc1ZEW_2jHbD",
+      "name": "GÁI THỜI LOẠN.pdf",
+      "mime": "application/pdf",
+      "size": 502215,
+      "modified": "2026-08-15T07:10:56.000Z",
+      "checksum": "65f58d2241667e08e3dab3d7cd046304",
+      "folder": false
+    }
+  ]
+}

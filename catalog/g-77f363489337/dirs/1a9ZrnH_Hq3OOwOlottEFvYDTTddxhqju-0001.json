@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1a9ZrnH_Hq3OOwOlottEFvYDTTddxhqju",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YNtHFRk8gNAFjlDL_v9YWJWFlIRw2vw_",
+      "parent_id": "1a9ZrnH_Hq3OOwOlottEFvYDTTddxhqju",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 483,
+      "modified": "2026-08-15T13:12:46.000Z",
+      "checksum": "b5548ee92c5fceaaae6680781d72d0b2",
+      "folder": false
+    },
+    {
+      "id": "1gDO-8zhnzAnLTse3cr0_awjQfFSJvBpC",
+      "parent_id": "1a9ZrnH_Hq3OOwOlottEFvYDTTddxhqju",
+      "name": "HỌC THÔI MIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 7908032,
+      "modified": "2026-08-15T13:12:53.000Z",
+      "checksum": "280dec541226258942ef02c10082aba3",
+      "folder": false
+    },
+    {
+      "id": "1twRHrKW4KgA9PGTLJb9ZqI-NpKnPi9ab",
+      "parent_id": "1a9ZrnH_Hq3OOwOlottEFvYDTTddxhqju",
+      "name": "HỌC THÔI MIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 7534625,
+      "modified": "2026-08-15T13:12:50.000Z",
+      "checksum": "2f6cfc83dfa1dfe38e1c48e83cc95174",
+      "folder": false
+    }
+  ]
+}

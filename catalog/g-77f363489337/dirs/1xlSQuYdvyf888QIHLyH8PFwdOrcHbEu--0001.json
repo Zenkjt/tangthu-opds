@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xlSQuYdvyf888QIHLyH8PFwdOrcHbEu-",
+  "page": 1,
+  "items": [
+    {
+      "id": "12dPBRJt2gEXfVYEdJPXHS2b9jrJLwFvt",
+      "parent_id": "1xlSQuYdvyf888QIHLyH8PFwdOrcHbEu-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3730,
+      "modified": "2026-08-16T03:54:52.000Z",
+      "checksum": "f8e7b430e8cb8e1c46cf566b832f0700",
+      "folder": false
+    },
+    {
+      "id": "16sZt0IMIZMUMb7jCQEtJQNxpglZZXQvz",
+      "parent_id": "1xlSQuYdvyf888QIHLyH8PFwdOrcHbEu-",
+      "name": "TIỂU THUYẾT NGUYỄN CÔNG HOAN.epub",
+      "mime": "application/epub+zip",
+      "size": 1231692,
+      "modified": "2026-08-16T03:55:00.000Z",
+      "checksum": "e94a9eebb608a03bf8a367539c77b1df",
+      "folder": false
+    },
+    {
+      "id": "1URd0JGc9_CYot5AYYflpnXTbYTsyr_zG",
+      "parent_id": "1xlSQuYdvyf888QIHLyH8PFwdOrcHbEu-",
+      "name": "TIỂU THUYẾT NGUYỄN CÔNG HOAN.pdf",
+      "mime": "application/pdf",
+      "size": 1524748,
+      "modified": "2026-08-16T03:54:57.000Z",
+      "checksum": "a00d6d1140b641488738e43bbf25a221",
+      "folder": false
+    }
+  ]
+}

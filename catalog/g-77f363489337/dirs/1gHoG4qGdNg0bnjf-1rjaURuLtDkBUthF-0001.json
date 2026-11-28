@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gHoG4qGdNg0bnjf-1rjaURuLtDkBUthF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mNcCAJyTdbcljm1tRqePWQQjC-KUnK_J",
+      "parent_id": "1gHoG4qGdNg0bnjf-1rjaURuLtDkBUthF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1611,
+      "modified": "2026-08-16T04:24:27.000Z",
+      "checksum": "64f54790a3f3065ec7fde4a5e1b626b3",
+      "folder": false
+    },
+    {
+      "id": "1M05dbbThiduM74jpRFrtoSTTKG-pM_o-",
+      "parent_id": "1gHoG4qGdNg0bnjf-1rjaURuLtDkBUthF",
+      "name": "TÙ BINH VÀ HOÀ BÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 722910,
+      "modified": "2026-08-16T04:24:34.000Z",
+      "checksum": "a6ff670357f1c30b39a6b5a1d8ba7f0f",
+      "folder": false
+    },
+    {
+      "id": "1AvoCBAADtkmfNzkJl4wiZ_5lq33e4Fxo",
+      "parent_id": "1gHoG4qGdNg0bnjf-1rjaURuLtDkBUthF",
+      "name": "TÙ BINH VÀ HOÀ BÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 1580386,
+      "modified": "2026-08-16T04:24:31.000Z",
+      "checksum": "0f15090169ef872da0c2515e4df98b42",
+      "folder": false
+    }
+  ]
+}

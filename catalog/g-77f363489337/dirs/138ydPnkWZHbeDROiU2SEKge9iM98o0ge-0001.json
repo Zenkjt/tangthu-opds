@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "138ydPnkWZHbeDROiU2SEKge9iM98o0ge",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OCxvLh30G7GicZBh1RZOMpVxjNTPrjr7",
+      "parent_id": "138ydPnkWZHbeDROiU2SEKge9iM98o0ge",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6397,
+      "modified": "2026-08-15T15:05:48.000Z",
+      "checksum": "adabd270f77776bb939b66dd636b9c7c",
+      "folder": false
+    },
+    {
+      "id": "1FluMG3sw1BFKoadjj2hCSaYosxQ4K97M",
+      "parent_id": "138ydPnkWZHbeDROiU2SEKge9iM98o0ge",
+      "name": "TỲ VẾT TÂM LINH.epub",
+      "mime": "application/epub+zip",
+      "size": 525756,
+      "modified": "2026-08-15T15:06:08.000Z",
+      "checksum": "2256b24feb65f534ca7ea15e1cc14b12",
+      "folder": false
+    },
+    {
+      "id": "1lRjRIBjvxcHARrsfXrM8Xi-Qhj_xiDeL",
+      "parent_id": "138ydPnkWZHbeDROiU2SEKge9iM98o0ge",
+      "name": "TỲ VẾT TÂM LINH.pdf",
+      "mime": "application/pdf",
+      "size": 1153626,
+      "modified": "2026-08-15T15:05:54.000Z",
+      "checksum": "820144b3ae7801c71906510b9b8a667a",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1C9cme-KuP7nKQUyn3awyT5_1VqD3sbkQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1y-FU9ztUNb0fyQtw48ml7B8RmH7h54x7",
+      "parent_id": "1C9cme-KuP7nKQUyn3awyT5_1VqD3sbkQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3577,
+      "modified": "2026-08-16T03:56:55.000Z",
+      "checksum": "5880c262d47116ea3f5607448587c206",
+      "folder": false
+    },
+    {
+      "id": "1ThwIYK_SjLcvn63MpgQXX-2EgwqSkuDw",
+      "parent_id": "1C9cme-KuP7nKQUyn3awyT5_1VqD3sbkQ",
+      "name": "THỜI GIAN TRÔI MÃI.epub",
+      "mime": "application/epub+zip",
+      "size": 616976,
+      "modified": "2026-08-16T03:57:03.000Z",
+      "checksum": "e67ff15a9fa3ba6e802bad171f009a2b",
+      "folder": false
+    },
+    {
+      "id": "1ZxA1gkFyRR3Ro7tOp3jCUJxIEU5kx57A",
+      "parent_id": "1C9cme-KuP7nKQUyn3awyT5_1VqD3sbkQ",
+      "name": "THỜI GIAN TRÔI MÃI.pdf",
+      "mime": "application/pdf",
+      "size": 1713922,
+      "modified": "2026-08-16T03:57:00.000Z",
+      "checksum": "0952fbbfa5e21715a3a2f27108ac42eb",
+      "folder": false
+    }
+  ]
+}

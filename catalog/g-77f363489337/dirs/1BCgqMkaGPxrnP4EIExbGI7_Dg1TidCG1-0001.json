@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BCgqMkaGPxrnP4EIExbGI7_Dg1TidCG1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eJnGzsvtbWX5F1VWfraoGnmAS8iEkjxq",
+      "parent_id": "1BCgqMkaGPxrnP4EIExbGI7_Dg1TidCG1",
+      "name": "A NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 457172,
+      "modified": "2026-08-15T10:48:39.000Z",
+      "checksum": "17d391421825912b09baf035620a40a7",
+      "folder": false
+    },
+    {
+      "id": "1Mz1IfGYC0f5AVm-3uAsAsFWAjb8_T0oH",
+      "parent_id": "1BCgqMkaGPxrnP4EIExbGI7_Dg1TidCG1",
+      "name": "A NAM.pdf",
+      "mime": "application/pdf",
+      "size": 1753230,
+      "modified": "2026-08-15T10:48:37.000Z",
+      "checksum": "ed3b6e9095baebb2e3566acc3c0679aa",
+      "folder": false
+    },
+    {
+      "id": "10nxNS22QA-WvOvGwP_-bG50kD7kNYSKO",
+      "parent_id": "1BCgqMkaGPxrnP4EIExbGI7_Dg1TidCG1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3295,
+      "modified": "2026-08-15T10:48:30.000Z",
+      "checksum": "99f19ea1b8aa753a39e1e23bba6c9a64",
+      "folder": false
+    }
+  ]
+}

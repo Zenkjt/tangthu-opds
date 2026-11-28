@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1m7XjjRJQ1cHEh7p3IsrP4cFDPhxokI27",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VPl9aaNHpA3tJwezVAGt24skg4zNDF5R",
+      "parent_id": "1m7XjjRJQ1cHEh7p3IsrP4cFDPhxokI27",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2858,
+      "modified": "2026-08-15T08:01:47.000Z",
+      "checksum": "27d81b55f05420526e6b6412afc5d735",
+      "folder": false
+    },
+    {
+      "id": "1Pr07cIbU8Fly-oPKI5J_uSks9COu3DtW",
+      "parent_id": "1m7XjjRJQ1cHEh7p3IsrP4cFDPhxokI27",
+      "name": "EM ĐỒNG Ý GỌI ANH LÀ CHỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 810086,
+      "modified": "2026-08-15T08:01:55.000Z",
+      "checksum": "860ce019a5b716704e54cd6bd8ddbad6",
+      "folder": false
+    },
+    {
+      "id": "1e1viZAQ2SwQ8RXjadRB7p0YMWOpCIK_8",
+      "parent_id": "1m7XjjRJQ1cHEh7p3IsrP4cFDPhxokI27",
+      "name": "EM ĐỒNG Ý GỌI ANH LÀ CHỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 1359930,
+      "modified": "2026-08-15T08:01:53.000Z",
+      "checksum": "cb8582f2ba6bf27450e6c54b3fd04b64",
+      "folder": false
+    }
+  ]
+}

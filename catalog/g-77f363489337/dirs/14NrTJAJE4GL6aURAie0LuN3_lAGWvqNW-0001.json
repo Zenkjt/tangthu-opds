@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14NrTJAJE4GL6aURAie0LuN3_lAGWvqNW",
+  "page": 1,
+  "items": [
+    {
+      "id": "16Il2bbtInIw_IIpOh9VCSRN8-k8zcYpU",
+      "parent_id": "14NrTJAJE4GL6aURAie0LuN3_lAGWvqNW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1494,
+      "modified": "2026-08-15T12:37:27.000Z",
+      "checksum": "5e3950719ee6472cf5e275c7b2846d12",
+      "folder": false
+    },
+    {
+      "id": "12To4JxMXcI-zxiwM_oy1LDiRma0KoZT1",
+      "parent_id": "14NrTJAJE4GL6aURAie0LuN3_lAGWvqNW",
+      "name": "ĐƯỜNG LÊN NÚI THIÊN MÃ.epub",
+      "mime": "application/epub+zip",
+      "size": 302468,
+      "modified": "2026-08-15T12:37:35.000Z",
+      "checksum": "22ecadac16d635479f2022c5dfdfcca5",
+      "folder": false
+    },
+    {
+      "id": "1vmWvtC62zvzOHBZqYNvZIquqLvq5Ts6c",
+      "parent_id": "14NrTJAJE4GL6aURAie0LuN3_lAGWvqNW",
+      "name": "ĐƯỜNG LÊN NÚI THIÊN MÃ.pdf",
+      "mime": "application/pdf",
+      "size": 450858,
+      "modified": "2026-08-15T12:37:31.000Z",
+      "checksum": "8dfd69481055b4bd137f9404de0c8e80",
+      "folder": false
+    }
+  ]
+}

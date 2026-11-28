@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CGxm2dBNkkTSfwuskYCFhvVqnDx8A2qj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1I1qi8ubjzQ7LJpmAvIxTqHa8Yh7GkYKZ",
+      "parent_id": "1CGxm2dBNkkTSfwuskYCFhvVqnDx8A2qj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 458,
+      "modified": "2026-08-15T10:59:21.000Z",
+      "checksum": "3a3cefb26e4377b89094c19840f9928a",
+      "folder": false
+    },
+    {
+      "id": "1mcBIM6umNNHR1ih9-826rqYIq-YSAkEx",
+      "parent_id": "1CGxm2dBNkkTSfwuskYCFhvVqnDx8A2qj",
+      "name": "ĐỈNH GIÓ HÚ.epub",
+      "mime": "application/epub+zip",
+      "size": 580743,
+      "modified": "2026-08-15T10:59:29.000Z",
+      "checksum": "f04afcfde205ec25269f4e5392432744",
+      "folder": false
+    },
+    {
+      "id": "1kj6RiZN66ukEyVvdQfk5dtWq4A1ppem2",
+      "parent_id": "1CGxm2dBNkkTSfwuskYCFhvVqnDx8A2qj",
+      "name": "ĐỈNH GIÓ HÚ.pdf",
+      "mime": "application/pdf",
+      "size": 1337885,
+      "modified": "2026-08-15T10:59:26.000Z",
+      "checksum": "a6bbd53b685806a20eb2f06382335006",
+      "folder": false
+    }
+  ]
+}

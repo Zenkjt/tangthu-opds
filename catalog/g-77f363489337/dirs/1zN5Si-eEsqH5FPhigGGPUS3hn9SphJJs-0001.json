@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zN5Si-eEsqH5FPhigGGPUS3hn9SphJJs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oaCXWLdgruDVt5PigYL0VG7xTx5u21BG",
+      "parent_id": "1zN5Si-eEsqH5FPhigGGPUS3hn9SphJJs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10842,
+      "modified": "2026-08-15T07:35:59.000Z",
+      "checksum": "ad749cfef8f64d07fa0646009baa798a",
+      "folder": false
+    },
+    {
+      "id": "1dFmMHaJy_-PkHZbEb97zWDU-Jn0LtYgN",
+      "parent_id": "1zN5Si-eEsqH5FPhigGGPUS3hn9SphJJs",
+      "name": "ĐẶC CÔNG TÀ PHI.epub",
+      "mime": "application/epub+zip",
+      "size": 1895524,
+      "modified": "2026-08-15T07:36:14.000Z",
+      "checksum": "487ada5e2fba94c4629e774fc48f3c46",
+      "folder": false
+    },
+    {
+      "id": "1BmRjtEENavVcE0sHvjIz0XtyRK_tDV-s",
+      "parent_id": "1zN5Si-eEsqH5FPhigGGPUS3hn9SphJJs",
+      "name": "ĐẶC CÔNG TÀ PHI.pdf",
+      "mime": "application/pdf",
+      "size": 8524011,
+      "modified": "2026-08-15T07:36:10.000Z",
+      "checksum": "a731b438bc8fdffa17053fc6a2146d8c",
+      "folder": false
+    }
+  ]
+}

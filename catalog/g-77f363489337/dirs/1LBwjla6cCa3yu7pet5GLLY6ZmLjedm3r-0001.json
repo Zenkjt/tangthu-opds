@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LBwjla6cCa3yu7pet5GLLY6ZmLjedm3r",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aFfsy89EQtp5c2vDKB1CiXFaYg6fo7Hk",
+      "parent_id": "1LBwjla6cCa3yu7pet5GLLY6ZmLjedm3r",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2746,
+      "modified": "2026-08-15T11:31:53.000Z",
+      "checksum": "ad99077b3badc7b7988e38e6fe2a51fc",
+      "folder": false
+    },
+    {
+      "id": "17--L9ZbIEahhNlJIyf4fb_ZgAiJiK5oR",
+      "parent_id": "1LBwjla6cCa3yu7pet5GLLY6ZmLjedm3r",
+      "name": "GIÁO TRÌNH KỸ THUẬT ĐIỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 410674,
+      "modified": "2026-08-15T11:32:00.000Z",
+      "checksum": "95d150885027eb489c67ca2de2f17c1c",
+      "folder": false
+    },
+    {
+      "id": "1zFk-xC4UxaLawP6HUzZPHDGcROKJ_cWj",
+      "parent_id": "1LBwjla6cCa3yu7pet5GLLY6ZmLjedm3r",
+      "name": "GIÁO TRÌNH KỸ THUẬT ĐIỆN.pdf",
+      "mime": "application/pdf",
+      "size": 1037193,
+      "modified": "2026-08-15T11:31:57.000Z",
+      "checksum": "8efc4f5720f82a5ebb92556e54876a17",
+      "folder": false
+    }
+  ]
+}

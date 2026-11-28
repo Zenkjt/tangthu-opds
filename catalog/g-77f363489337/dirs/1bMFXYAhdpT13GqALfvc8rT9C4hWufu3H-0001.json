@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bMFXYAhdpT13GqALfvc8rT9C4hWufu3H",
+  "page": 1,
+  "items": [
+    {
+      "id": "1InLZAcJ1kzQ88cEkjOG2DwtZVRBFAvTU",
+      "parent_id": "1bMFXYAhdpT13GqALfvc8rT9C4hWufu3H",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3261,
+      "modified": "2026-08-15T03:29:24.000Z",
+      "checksum": "5bf5b897f9e277aa60116618f22afc2c",
+      "folder": false
+    },
+    {
+      "id": "1EB9z_jaC6xD0I_3mQqiFxDRc0AOtA3hm",
+      "parent_id": "1bMFXYAhdpT13GqALfvc8rT9C4hWufu3H",
+      "name": "KIẾP NÀO TA CŨNG TÌM THẤY NHAU.epub",
+      "mime": "application/epub+zip",
+      "size": 833646,
+      "modified": "2026-08-15T03:29:32.000Z",
+      "checksum": "ff15073a752349dd91aee799cf041248",
+      "folder": false
+    },
+    {
+      "id": "1U2pejEp-Av3_ZxxRv_Lzw5zhR_fwJ3BV",
+      "parent_id": "1bMFXYAhdpT13GqALfvc8rT9C4hWufu3H",
+      "name": "KIẾP NÀO TA CŨNG TÌM THẤY NHAU.pdf",
+      "mime": "application/pdf",
+      "size": 927865,
+      "modified": "2026-08-15T03:29:29.000Z",
+      "checksum": "ec61825d841ab80ad72bccad0840886d",
+      "folder": false
+    }
+  ]
+}

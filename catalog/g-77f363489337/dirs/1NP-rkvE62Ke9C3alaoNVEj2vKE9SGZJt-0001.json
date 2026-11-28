@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NP-rkvE62Ke9C3alaoNVEj2vKE9SGZJt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Hzr9Jkqiee64qYEpfIFOoR7mKziWLKw0",
+      "parent_id": "1NP-rkvE62Ke9C3alaoNVEj2vKE9SGZJt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3383,
+      "modified": "2026-08-16T03:51:32.000Z",
+      "checksum": "2479a8f00d9e98b2eaa42831875643ad",
+      "folder": false
+    },
+    {
+      "id": "1Gzfc1ev-rMlRa2xK9zUPstLnj0d84M7c",
+      "parent_id": "1NP-rkvE62Ke9C3alaoNVEj2vKE9SGZJt",
+      "name": "VÒNG NGUYỆT QUẾ CÔ ĐƠN.epub",
+      "mime": "application/epub+zip",
+      "size": 333857,
+      "modified": "2026-08-16T03:51:38.000Z",
+      "checksum": "21c38b86aadd2bd39a6eab88cde4124c",
+      "folder": false
+    },
+    {
+      "id": "1a9b8VwbRzz4NPfI7G4wqtkrkqBX6Lg_D",
+      "parent_id": "1NP-rkvE62Ke9C3alaoNVEj2vKE9SGZJt",
+      "name": "VÒNG NGUYỆT QUẾ CÔ ĐƠN.pdf",
+      "mime": "application/pdf",
+      "size": 760240,
+      "modified": "2026-08-16T03:51:36.000Z",
+      "checksum": "1cff56e5d842571c2a439127908d15a8",
+      "folder": false
+    }
+  ]
+}

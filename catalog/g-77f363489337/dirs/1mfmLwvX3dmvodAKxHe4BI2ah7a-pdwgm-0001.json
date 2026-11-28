@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mfmLwvX3dmvodAKxHe4BI2ah7a-pdwgm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jFcTLW8WDcTcXJgWDl4ZYVYXyWuC2uWW",
+      "parent_id": "1mfmLwvX3dmvodAKxHe4BI2ah7a-pdwgm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4180,
+      "modified": "2026-08-15T05:54:01.000Z",
+      "checksum": "8469a924d77502dd2bd13a2035beeb30",
+      "folder": false
+    },
+    {
+      "id": "1K-DwJ49lQvKOLr210n52dkKteAD4KgIm",
+      "parent_id": "1mfmLwvX3dmvodAKxHe4BI2ah7a-pdwgm",
+      "name": "TÂM LÝ DÂN TỘC AN NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 2000758,
+      "modified": "2026-08-15T05:54:07.000Z",
+      "checksum": "efcec07288131e0442389a3e28896871",
+      "folder": false
+    },
+    {
+      "id": "1Gh8FZnwHI5AqxLctUEFO9CLYmov9-nY5",
+      "parent_id": "1mfmLwvX3dmvodAKxHe4BI2ah7a-pdwgm",
+      "name": "TÂM LÝ DÂN TỘC AN NAM.pdf",
+      "mime": "application/pdf",
+      "size": 2493777,
+      "modified": "2026-08-15T05:54:04.000Z",
+      "checksum": "63c7682ff99dd2914d08236e8d3287aa",
+      "folder": false
+    }
+  ]
+}

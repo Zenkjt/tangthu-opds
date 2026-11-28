@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KyAt62AQIqANUYZP7IrkRCZnl_MYU0cb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-UFpvLuoKC1FqxQwDrVTjGm-EcB-zNOj",
+      "parent_id": "1KyAt62AQIqANUYZP7IrkRCZnl_MYU0cb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4778,
+      "modified": "2026-08-15T15:52:23.000Z",
+      "checksum": "fe98a2d150dbb1b0bc499300b072607a",
+      "folder": false
+    },
+    {
+      "id": "1yhFq5d-O320rLKxx5dCOTsb3OaA4UZwk",
+      "parent_id": "1KyAt62AQIqANUYZP7IrkRCZnl_MYU0cb",
+      "name": "ĐAN NỮ.epub",
+      "mime": "application/epub+zip",
+      "size": 511768,
+      "modified": "2026-08-15T15:52:29.000Z",
+      "checksum": "a279ce785748dbf4e1ac2e25f70bbd40",
+      "folder": false
+    },
+    {
+      "id": "19aLW6_w0EKxTJxLdQW_Bnrh5z7YaR7sn",
+      "parent_id": "1KyAt62AQIqANUYZP7IrkRCZnl_MYU0cb",
+      "name": "ĐAN NỮ.pdf",
+      "mime": "application/pdf",
+      "size": 821602,
+      "modified": "2026-08-15T15:52:27.000Z",
+      "checksum": "68b0951d621678fbaf72e84c97f91aef",
+      "folder": false
+    }
+  ]
+}

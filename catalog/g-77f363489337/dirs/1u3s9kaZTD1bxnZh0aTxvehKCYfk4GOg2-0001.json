@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1u3s9kaZTD1bxnZh0aTxvehKCYfk4GOg2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YCi0JjPDiUqoDWobjm8gAiaLph6Idj9N",
+      "parent_id": "1u3s9kaZTD1bxnZh0aTxvehKCYfk4GOg2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1252,
+      "modified": "2026-08-15T09:41:55.000Z",
+      "checksum": "b341c41b52d6e639489eb72d6a17c642",
+      "folder": false
+    },
+    {
+      "id": "1ke2lg4ga3oGmybK7X0xSvmxg3WeohQsg",
+      "parent_id": "1u3s9kaZTD1bxnZh0aTxvehKCYfk4GOg2",
+      "name": "MA ĐAO LỆ ẢNH.epub",
+      "mime": "application/epub+zip",
+      "size": 5472494,
+      "modified": "2026-08-15T09:42:21.000Z",
+      "checksum": "16b3162f9168c521787fe11a0150f3e7",
+      "folder": false
+    },
+    {
+      "id": "1pqpdgVP7qMwejXPySOPCd6t3s2Qq6qPQ",
+      "parent_id": "1u3s9kaZTD1bxnZh0aTxvehKCYfk4GOg2",
+      "name": "MA ĐAO LỆ ẢNH.pdf",
+      "mime": "application/pdf",
+      "size": 8176051,
+      "modified": "2026-08-15T09:42:13.000Z",
+      "checksum": "fe1de87ffd7b75f7cd0a5a4d9b1d2e0c",
+      "folder": false
+    }
+  ]
+}

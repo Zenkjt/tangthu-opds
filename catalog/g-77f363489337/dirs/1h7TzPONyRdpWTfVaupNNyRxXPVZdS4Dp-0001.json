@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1h7TzPONyRdpWTfVaupNNyRxXPVZdS4Dp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lcRlHsIgTyOnewKv2aUb-NJpXzi_ymbv",
+      "parent_id": "1h7TzPONyRdpWTfVaupNNyRxXPVZdS4Dp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4330,
+      "modified": "2026-08-16T03:07:51.000Z",
+      "checksum": "d7ff35e58f9948064b04bd19775672fb",
+      "folder": false
+    },
+    {
+      "id": "1tYeV4x4oiT6c_6jypuuFP_DnqVxj18u1",
+      "parent_id": "1h7TzPONyRdpWTfVaupNNyRxXPVZdS4Dp",
+      "name": "TÌNH NGƯỜI DUYÊN MA.epub",
+      "mime": "application/epub+zip",
+      "size": 319992,
+      "modified": "2026-08-16T03:07:57.000Z",
+      "checksum": "e847e1b28174d4b7b8a9a27def8a3319",
+      "folder": false
+    },
+    {
+      "id": "1r8JpIY3de-zA7mVV5raz7UJlmq5izkDV",
+      "parent_id": "1h7TzPONyRdpWTfVaupNNyRxXPVZdS4Dp",
+      "name": "TÌNH NGƯỜI DUYÊN MA.pdf",
+      "mime": "application/pdf",
+      "size": 418524,
+      "modified": "2026-08-16T03:07:55.000Z",
+      "checksum": "b2902b64ae767dfb7e58cf453e6c2498",
+      "folder": false
+    }
+  ]
+}

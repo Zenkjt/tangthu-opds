@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1__sbxUwqQgxOZIS54R3s3AC6ylsTvNkR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mxouKLo30DSnuLUM3VIlHCbAItprwKUr",
+      "parent_id": "1__sbxUwqQgxOZIS54R3s3AC6ylsTvNkR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6665,
+      "modified": "2026-08-15T06:18:40.000Z",
+      "checksum": "b569e76fee4c4db342ecc61abf567a5d",
+      "folder": false
+    },
+    {
+      "id": "1kjUQujiJJfUv1nSVAU7_i_R-8AC6DfYI",
+      "parent_id": "1__sbxUwqQgxOZIS54R3s3AC6ylsTvNkR",
+      "name": "QUÊ HƯƠNG TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 368771,
+      "modified": "2026-08-15T06:18:50.000Z",
+      "checksum": "c8d556174571de99e09aef1a7caeadcb",
+      "folder": false
+    },
+    {
+      "id": "1zQintVY6qOMq_GjkVLZ9Le3NG-B5C4UR",
+      "parent_id": "1__sbxUwqQgxOZIS54R3s3AC6ylsTvNkR",
+      "name": "QUÊ HƯƠNG TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 1206847,
+      "modified": "2026-08-15T06:18:47.000Z",
+      "checksum": "36718d10c9ae035827a2fb8122dd6ca5",
+      "folder": false
+    }
+  ]
+}

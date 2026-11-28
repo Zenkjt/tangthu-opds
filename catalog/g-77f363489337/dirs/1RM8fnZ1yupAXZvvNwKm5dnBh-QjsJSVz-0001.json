@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RM8fnZ1yupAXZvvNwKm5dnBh-QjsJSVz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BdbFZosdSRyipverjjl7i9S37e4d2X9Z",
+      "parent_id": "1RM8fnZ1yupAXZvvNwKm5dnBh-QjsJSVz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10036,
+      "modified": "2026-08-15T15:52:47.000Z",
+      "checksum": "625565ce27f37fb0eb0e15a008c9577b",
+      "folder": false
+    },
+    {
+      "id": "1QKilQ7sKQG1HiPAo3jHzhGLB0Qs5GSOz",
+      "parent_id": "1RM8fnZ1yupAXZvvNwKm5dnBh-QjsJSVz",
+      "name": "KHI NÀO CƯỚP NHÀ BĂNG.epub",
+      "mime": "application/epub+zip",
+      "size": 467989,
+      "modified": "2026-08-15T15:52:54.000Z",
+      "checksum": "ffa0213d60acb2ab884860b8f4ba31e3",
+      "folder": false
+    },
+    {
+      "id": "1tEXvC8n9HFUvyAKpgrDhc5dtoNWCPlDI",
+      "parent_id": "1RM8fnZ1yupAXZvvNwKm5dnBh-QjsJSVz",
+      "name": "KHI NÀO CƯỚP NHÀ BĂNG.pdf",
+      "mime": "application/pdf",
+      "size": 1121897,
+      "modified": "2026-08-15T15:52:50.000Z",
+      "checksum": "1d9d8ca77158708a7a07f0e61a5529d3",
+      "folder": false
+    }
+  ]
+}

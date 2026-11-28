@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xyORJOFqb3XQoc9HxvJs5-OsFuLh-qaI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uCMe2EIaFnbr6dWRggjbJuNdmqM-mDxs",
+      "parent_id": "1xyORJOFqb3XQoc9HxvJs5-OsFuLh-qaI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3061,
+      "modified": "2026-08-15T03:57:00.000Z",
+      "checksum": "2207e23d4b741e8227b876428b2d2cae",
+      "folder": false
+    },
+    {
+      "id": "1cJvxAg-u0pzgHYhBFugLOjJxxVoFk_IJ",
+      "parent_id": "1xyORJOFqb3XQoc9HxvJs5-OsFuLh-qaI",
+      "name": "SỰ THẬT VĨ ĐẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 567743,
+      "modified": "2026-08-15T03:57:06.000Z",
+      "checksum": "2ce086f6cc8b763a7ed2cb0486c1e30a",
+      "folder": false
+    },
+    {
+      "id": "1qWsGdODrYvEAa-3mJcpYx8_kB2YOjC0Q",
+      "parent_id": "1xyORJOFqb3XQoc9HxvJs5-OsFuLh-qaI",
+      "name": "SỰ THẬT VĨ ĐẠI.pdf",
+      "mime": "application/pdf",
+      "size": 914202,
+      "modified": "2026-08-15T03:57:04.000Z",
+      "checksum": "2c7d40145e076ad8b42eecce75feeabf",
+      "folder": false
+    }
+  ]
+}

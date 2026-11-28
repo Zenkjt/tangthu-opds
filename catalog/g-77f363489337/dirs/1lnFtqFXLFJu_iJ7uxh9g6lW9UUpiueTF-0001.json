@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lnFtqFXLFJu_iJ7uxh9g6lW9UUpiueTF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CY86wIlUEgNXdU0P6-nco5mmVTWNcfBE",
+      "parent_id": "1lnFtqFXLFJu_iJ7uxh9g6lW9UUpiueTF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3020,
+      "modified": "2026-08-16T03:59:31.000Z",
+      "checksum": "3ad002e031777ef03f87032c5d2a4b2f",
+      "folder": false
+    },
+    {
+      "id": "1hhx1x_1nS7RjlCRm7rMUPCl8Kl2RkClI",
+      "parent_id": "1lnFtqFXLFJu_iJ7uxh9g6lW9UUpiueTF",
+      "name": "THANG MÁY THẾ PHẨM.epub",
+      "mime": "application/epub+zip",
+      "size": 424989,
+      "modified": "2026-08-16T03:59:37.000Z",
+      "checksum": "f5c4b2f85ecb168f0c2e5c0cdf9a7ccb",
+      "folder": false
+    },
+    {
+      "id": "1MA0lRCLIad488dWm7xB3ZhqHQIPXSWkR",
+      "parent_id": "1lnFtqFXLFJu_iJ7uxh9g6lW9UUpiueTF",
+      "name": "THANG MÁY THẾ PHẨM.pdf",
+      "mime": "application/pdf",
+      "size": 492756,
+      "modified": "2026-08-16T03:59:34.000Z",
+      "checksum": "7ef70a5e038fbcf0052c7e4f5c3c7471",
+      "folder": false
+    }
+  ]
+}

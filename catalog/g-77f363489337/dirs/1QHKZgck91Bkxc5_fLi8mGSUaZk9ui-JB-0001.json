@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QHKZgck91Bkxc5_fLi8mGSUaZk9ui-JB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OjMMddgDnQUAsTVAz5FH_PlUad0AExt5",
+      "parent_id": "1QHKZgck91Bkxc5_fLi8mGSUaZk9ui-JB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8204,
+      "modified": "2026-08-15T07:12:44.000Z",
+      "checksum": "d31c4288be3c32e028cfb8d125b91d3d",
+      "folder": false
+    },
+    {
+      "id": "1I1PzS_ErJxwRke-7IRGtYi_BKGBrHDs4",
+      "parent_id": "1QHKZgck91Bkxc5_fLi8mGSUaZk9ui-JB",
+      "name": "TIẾNG GỌI VỰC SÂU.epub",
+      "mime": "application/epub+zip",
+      "size": 968125,
+      "modified": "2026-08-15T07:13:07.000Z",
+      "checksum": "a7ccf44fdd2453b88ab7cc8dc0add0a3",
+      "folder": false
+    },
+    {
+      "id": "16tv6I3m0J5bKo4jmNQ8otIidT-0s3HkO",
+      "parent_id": "1QHKZgck91Bkxc5_fLi8mGSUaZk9ui-JB",
+      "name": "TIẾNG GỌI VỰC SÂU.pdf",
+      "mime": "application/pdf",
+      "size": 1764968,
+      "modified": "2026-08-15T07:13:02.000Z",
+      "checksum": "3103e59ad30024b9b31ef3368385665f",
+      "folder": false
+    }
+  ]
+}

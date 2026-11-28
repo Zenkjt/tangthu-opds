@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BUUgIzcD22EhtRFEPU6WrNdLkfX0mvP5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wxWTbxSasNU7oEzWi5Lr7wFJqywhHMZo",
+      "parent_id": "1BUUgIzcD22EhtRFEPU6WrNdLkfX0mvP5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 18152,
+      "modified": "2026-08-16T03:02:41.000Z",
+      "checksum": "2d45d97aff58414c5f3ee65451b0279c",
+      "folder": false
+    },
+    {
+      "id": "1_B0xd4eFqkqHUoZuz6go4r9gQ6-qOyu0",
+      "parent_id": "1BUUgIzcD22EhtRFEPU6WrNdLkfX0mvP5",
+      "name": "TRÒ CHƠI CỦA RIPLEY.epub",
+      "mime": "application/epub+zip",
+      "size": 694225,
+      "modified": "2026-08-16T03:02:48.000Z",
+      "checksum": "83c010b7bfec63ca7a186eebdd885ae7",
+      "folder": false
+    },
+    {
+      "id": "17rbeIkz9CS4QPJq8N7OD1bwpPWITBqh5",
+      "parent_id": "1BUUgIzcD22EhtRFEPU6WrNdLkfX0mvP5",
+      "name": "TRÒ CHƠI CỦA RIPLEY.pdf",
+      "mime": "application/pdf",
+      "size": 1321959,
+      "modified": "2026-08-16T03:02:45.000Z",
+      "checksum": "d90c7058278e2480b5613d194fd8eb5b",
+      "folder": false
+    }
+  ]
+}

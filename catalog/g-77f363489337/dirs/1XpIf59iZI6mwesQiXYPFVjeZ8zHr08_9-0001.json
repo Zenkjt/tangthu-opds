@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XpIf59iZI6mwesQiXYPFVjeZ8zHr08_9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VnMl5FuyvPrHFH4WuC0OlaDKwHPXKu7l",
+      "parent_id": "1XpIf59iZI6mwesQiXYPFVjeZ8zHr08_9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3081,
+      "modified": "2026-08-16T04:12:41.000Z",
+      "checksum": "b343851b740c1f62a375a77929872df5",
+      "folder": false
+    },
+    {
+      "id": "1sQmzQKTCgCwoNgASgSLRf2OA1x67JUOk",
+      "parent_id": "1XpIf59iZI6mwesQiXYPFVjeZ8zHr08_9",
+      "name": "NHÀ CÓ MỘT TIỂU HỒN MA.epub",
+      "mime": "application/epub+zip",
+      "size": 1571708,
+      "modified": "2026-08-16T04:12:48.000Z",
+      "checksum": "eb76a882730989234563232521178c4c",
+      "folder": false
+    },
+    {
+      "id": "1r70M9amQhXJhKEJQd4m9rTXuOZrJH9o1",
+      "parent_id": "1XpIf59iZI6mwesQiXYPFVjeZ8zHr08_9",
+      "name": "NHÀ CÓ MỘT TIỂU HỒN MA.pdf",
+      "mime": "application/pdf",
+      "size": 955114,
+      "modified": "2026-08-16T04:12:45.000Z",
+      "checksum": "c493646d0feb1b9e10346d1678d10dc0",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1L9lR9W_yntnkHFGImExEqB4patVbJxYq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SJ0bWini6VlbDufqMoM0rvWQl5MnsvM2",
+      "parent_id": "1L9lR9W_yntnkHFGImExEqB4patVbJxYq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 531,
+      "modified": "2026-08-15T12:59:11.000Z",
+      "checksum": "8fd6ca82171a0e06ce2a904bc72e0dfe",
+      "folder": false
+    },
+    {
+      "id": "1cV8TEbHdURn1K7sDA987o85KlO_iDAbt",
+      "parent_id": "1L9lR9W_yntnkHFGImExEqB4patVbJxYq",
+      "name": "PHƯƠNG NÀO BÌNH YÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 457295,
+      "modified": "2026-08-15T12:59:17.000Z",
+      "checksum": "1007c607433772a13c1275c122e29c1e",
+      "folder": false
+    },
+    {
+      "id": "1b26QRcUJfzPd_U59nrY80J8zNRpJSEme",
+      "parent_id": "1L9lR9W_yntnkHFGImExEqB4patVbJxYq",
+      "name": "PHƯƠNG NÀO BÌNH YÊN.pdf",
+      "mime": "application/pdf",
+      "size": 393071,
+      "modified": "2026-08-15T12:59:14.000Z",
+      "checksum": "ca13f345597598b6b93e0c18a57e1825",
+      "folder": false
+    }
+  ]
+}

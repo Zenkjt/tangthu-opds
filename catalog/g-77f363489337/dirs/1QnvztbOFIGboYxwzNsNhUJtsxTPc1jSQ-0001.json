@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QnvztbOFIGboYxwzNsNhUJtsxTPc1jSQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Gwp3iprpOakYSoR24re3kCg-4Nzrx673",
+      "parent_id": "1QnvztbOFIGboYxwzNsNhUJtsxTPc1jSQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1441,
+      "modified": "2026-08-16T03:44:12.000Z",
+      "checksum": "6fcd79d23a36a474f4e55ea72d39f53f",
+      "folder": false
+    },
+    {
+      "id": "12n0_EPchgtpgXLXgV8jb35GAhGmQOCeP",
+      "parent_id": "1QnvztbOFIGboYxwzNsNhUJtsxTPc1jSQ",
+      "name": "ĐẠI HÀO MÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 2075457,
+      "modified": "2026-08-16T03:44:28.000Z",
+      "checksum": "ab4ab75c9aa27179e1743c1540cb5cc2",
+      "folder": false
+    },
+    {
+      "id": "1T1JbNpuIONNYB9jNqw0aVVrbIDgM7YQE",
+      "parent_id": "1QnvztbOFIGboYxwzNsNhUJtsxTPc1jSQ",
+      "name": "ĐẠI HÀO MÔN.pdf",
+      "mime": "application/pdf",
+      "size": 8563586,
+      "modified": "2026-08-16T03:44:24.000Z",
+      "checksum": "944f61b54b4a03e16353ed1eec859e60",
+      "folder": false
+    }
+  ]
+}

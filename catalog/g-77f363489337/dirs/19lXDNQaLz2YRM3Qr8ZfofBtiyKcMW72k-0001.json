@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19lXDNQaLz2YRM3Qr8ZfofBtiyKcMW72k",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ojtQa6mWuwpayUaUY7poO3md-NIv3t0M",
+      "parent_id": "19lXDNQaLz2YRM3Qr8ZfofBtiyKcMW72k",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3878,
+      "modified": "2026-08-15T09:50:43.000Z",
+      "checksum": "65009b55e324538c87ddd143b3fcf12e",
+      "folder": false
+    },
+    {
+      "id": "1h53pe05fTim5UYUOGQhAseRaDTv_acuA",
+      "parent_id": "19lXDNQaLz2YRM3Qr8ZfofBtiyKcMW72k",
+      "name": "ĐỢI MÃI NHỮNG BÌNH MINH.epub",
+      "mime": "application/epub+zip",
+      "size": 1426612,
+      "modified": "2026-08-15T09:50:49.000Z",
+      "checksum": "0ef6540eb5c1e610e9e3820358015304",
+      "folder": false
+    },
+    {
+      "id": "1imMWPN8GZ05f1dG0ZRfUl1l9olAWLQL0",
+      "parent_id": "19lXDNQaLz2YRM3Qr8ZfofBtiyKcMW72k",
+      "name": "ĐỢI MÃI NHỮNG BÌNH MINH.pdf",
+      "mime": "application/pdf",
+      "size": 1747190,
+      "modified": "2026-08-15T09:50:47.000Z",
+      "checksum": "4f1d8976b7ff3d56aeedd8236a1aeeb2",
+      "folder": false
+    }
+  ]
+}

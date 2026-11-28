@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-P6yztOw5EESiD2XZajAzk0G0gIU_-x1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1E3OJzItteVpa9OclP6Dzfhux7_IF7NAj",
+      "parent_id": "1-P6yztOw5EESiD2XZajAzk0G0gIU_-x1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8602,
+      "modified": "2026-08-16T03:39:58.000Z",
+      "checksum": "75869761a9ba0effe89bc37001f7f7c3",
+      "folder": false
+    },
+    {
+      "id": "1Hg3sPF1Vnpohl8krdXsl1N74ZPxScdVg",
+      "parent_id": "1-P6yztOw5EESiD2XZajAzk0G0gIU_-x1",
+      "name": "HOÀNG SỦNG.epub",
+      "mime": "application/epub+zip",
+      "size": 850629,
+      "modified": "2026-08-16T03:40:08.000Z",
+      "checksum": "532861668dd3d5133ffd5c8a8a2fa2d4",
+      "folder": false
+    },
+    {
+      "id": "1Ca6mye_VyXZNtu7OocFeW7j9IaQVTjYx",
+      "parent_id": "1-P6yztOw5EESiD2XZajAzk0G0gIU_-x1",
+      "name": "HOÀNG SỦNG.pdf",
+      "mime": "application/pdf",
+      "size": 3075589,
+      "modified": "2026-08-16T03:40:05.000Z",
+      "checksum": "59bfc12e4be4ade2752964aed6adce90",
+      "folder": false
+    }
+  ]
+}

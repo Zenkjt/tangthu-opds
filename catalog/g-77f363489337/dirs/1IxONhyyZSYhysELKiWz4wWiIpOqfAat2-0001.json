@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IxONhyyZSYhysELKiWz4wWiIpOqfAat2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SvffgL_Cc_jKzlKeNh9dPySi4Y-C-ZwN",
+      "parent_id": "1IxONhyyZSYhysELKiWz4wWiIpOqfAat2",
+      "name": "CỬA MẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 803233,
+      "modified": "2026-08-15T09:57:18.000Z",
+      "checksum": "af64c22bb5383fd1edc31eaaa11c4589",
+      "folder": false
+    },
+    {
+      "id": "1KVfapadN81LdM-TscLKUHGVAFVzFi3jS",
+      "parent_id": "1IxONhyyZSYhysELKiWz4wWiIpOqfAat2",
+      "name": "CỬA MẬT.pdf",
+      "mime": "application/pdf",
+      "size": 2278962,
+      "modified": "2026-08-15T09:57:15.000Z",
+      "checksum": "4d5311aa4d8a0a8c239442b4c306f0d0",
+      "folder": false
+    },
+    {
+      "id": "1eeifve_z4OsjrOk7ETmZi_ltLhXSqW9c",
+      "parent_id": "1IxONhyyZSYhysELKiWz4wWiIpOqfAat2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5688,
+      "modified": "2026-08-15T09:57:09.000Z",
+      "checksum": "0336e94507d549c7dd5f4c49154ea604",
+      "folder": false
+    }
+  ]
+}

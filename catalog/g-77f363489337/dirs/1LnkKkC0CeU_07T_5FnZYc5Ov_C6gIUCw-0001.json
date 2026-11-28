@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LnkKkC0CeU_07T_5FnZYc5Ov_C6gIUCw",
+  "page": 1,
+  "items": [
+    {
+      "id": "18s2OcOmmGjmnPKdfNZ_XS8sQbHqeOwRh",
+      "parent_id": "1LnkKkC0CeU_07T_5FnZYc5Ov_C6gIUCw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6097,
+      "modified": "2026-08-15T07:07:32.000Z",
+      "checksum": "ebe433d51df7afa243a3197c7dc378c2",
+      "folder": false
+    },
+    {
+      "id": "19pjkoOPhO6Cfl5qExYUjWsbJonH96Ibq",
+      "parent_id": "1LnkKkC0CeU_07T_5FnZYc5Ov_C6gIUCw",
+      "name": "LẼ ĐƯỢC MẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 352258,
+      "modified": "2026-08-15T07:07:38.000Z",
+      "checksum": "231b4d9d32620f914b66e35e663c90d9",
+      "folder": false
+    },
+    {
+      "id": "1C2bmHiFXLGYsQPP-PxD-4FCNTWA6OG5i",
+      "parent_id": "1LnkKkC0CeU_07T_5FnZYc5Ov_C6gIUCw",
+      "name": "LẼ ĐƯỢC MẤT.pdf",
+      "mime": "application/pdf",
+      "size": 750034,
+      "modified": "2026-08-15T07:07:36.000Z",
+      "checksum": "cdad2c5c0dabfae3430c58054b28b3c1",
+      "folder": false
+    }
+  ]
+}

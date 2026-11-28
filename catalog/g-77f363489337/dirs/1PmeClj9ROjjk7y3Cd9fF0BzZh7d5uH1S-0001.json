@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PmeClj9ROjjk7y3Cd9fF0BzZh7d5uH1S",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S7mfZr0j3neleKdd_pdVhNfeP2fN21j2",
+      "parent_id": "1PmeClj9ROjjk7y3Cd9fF0BzZh7d5uH1S",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 14210,
+      "modified": "2026-08-15T07:39:08.000Z",
+      "checksum": "b6452e0b40e62f8194c3356911224ee4",
+      "folder": false
+    },
+    {
+      "id": "1JoLCxOMF4X67eQCsiEnYRroawGymx3_U",
+      "parent_id": "1PmeClj9ROjjk7y3Cd9fF0BzZh7d5uH1S",
+      "name": "HOÀNG ĐÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 2351804,
+      "modified": "2026-08-15T07:39:31.000Z",
+      "checksum": "58ca7e03b8851f0507e51b5698e3c8f1",
+      "folder": false
+    },
+    {
+      "id": "1pd3lM0mSU0JsgUeheCK7Etuyy6Cg-m6F",
+      "parent_id": "1PmeClj9ROjjk7y3Cd9fF0BzZh7d5uH1S",
+      "name": "HOÀNG ĐÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 9672573,
+      "modified": "2026-08-15T07:39:26.000Z",
+      "checksum": "8040bffcacea7999a928d5f64e2d42d2",
+      "folder": false
+    }
+  ]
+}

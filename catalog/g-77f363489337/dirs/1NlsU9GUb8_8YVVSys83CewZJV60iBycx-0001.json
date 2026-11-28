@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NlsU9GUb8_8YVVSys83CewZJV60iBycx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1w3iCpaNJ7rJb3XMnBxQa0nORUz2UkKFU",
+      "parent_id": "1NlsU9GUb8_8YVVSys83CewZJV60iBycx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6512,
+      "modified": "2026-08-15T15:07:50.000Z",
+      "checksum": "57aedc244cb94acb9c24274ee9eaebab",
+      "folder": false
+    },
+    {
+      "id": "1HDMgFMabRT-DhcLOOcJ05HKR8ZdU0dxt",
+      "parent_id": "1NlsU9GUb8_8YVVSys83CewZJV60iBycx",
+      "name": "XÁC CHẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 439602,
+      "modified": "2026-08-15T15:09:35.000Z",
+      "checksum": "53f8d4d2120414224d8730823dc2efd6",
+      "folder": false
+    },
+    {
+      "id": "1SRqqD6MxPA9fRsBM2FWE3ihf5vBF6Y-o",
+      "parent_id": "1NlsU9GUb8_8YVVSys83CewZJV60iBycx",
+      "name": "XÁC CHẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1007694,
+      "modified": "2026-08-15T15:09:28.000Z",
+      "checksum": "b14f10a491af70dacc95c29a09e48e7c",
+      "folder": false
+    }
+  ]
+}

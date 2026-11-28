@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ruaj7QzXxKg_1j5uQlfw2etw-WZwaQVZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kucJVUHpsuzhFc3g4XCPrjZ_3Q9aWV-U",
+      "parent_id": "1Ruaj7QzXxKg_1j5uQlfw2etw-WZwaQVZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4285,
+      "modified": "2026-08-15T15:11:27.000Z",
+      "checksum": "9f07f7dc7bb86c848b41d2080485f50e",
+      "folder": false
+    },
+    {
+      "id": "1nqBWsOG9d5_OzK91LOxUhQnOx-OgRW6-",
+      "parent_id": "1Ruaj7QzXxKg_1j5uQlfw2etw-WZwaQVZ",
+      "name": "NGÔI NHÀ MA.epub",
+      "mime": "application/epub+zip",
+      "size": 420950,
+      "modified": "2026-08-15T15:11:35.000Z",
+      "checksum": "df3d0ca08c0e8dd369df07936c43a39d",
+      "folder": false
+    },
+    {
+      "id": "1G0npsOmveyKWUDdHQScH4hXgOLn8Jvkg",
+      "parent_id": "1Ruaj7QzXxKg_1j5uQlfw2etw-WZwaQVZ",
+      "name": "NGÔI NHÀ MA.pdf",
+      "mime": "application/pdf",
+      "size": 783489,
+      "modified": "2026-08-15T15:11:31.000Z",
+      "checksum": "c4b033a6b6fabab928513b902de907dc",
+      "folder": false
+    }
+  ]
+}

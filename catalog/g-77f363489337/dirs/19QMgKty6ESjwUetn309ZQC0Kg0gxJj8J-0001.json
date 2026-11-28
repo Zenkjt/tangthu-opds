@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19QMgKty6ESjwUetn309ZQC0Kg0gxJj8J",
+  "page": 1,
+  "items": [
+    {
+      "id": "12RNfaXo65UdFdwUkb7V_cNt8FXk3idkI",
+      "parent_id": "19QMgKty6ESjwUetn309ZQC0Kg0gxJj8J",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2650,
+      "modified": "2026-08-15T03:48:12.000Z",
+      "checksum": "3d1c3c93b02287ee377a5f3e2a0cb073",
+      "folder": false
+    },
+    {
+      "id": "1neePnGMcSdm9_2sZtR-KoJixFktAjAxS",
+      "parent_id": "19QMgKty6ESjwUetn309ZQC0Kg0gxJj8J",
+      "name": "PHẬT GIÁO NAM TÔNG TẠI VÙNG NAM BỘ.epub",
+      "mime": "application/epub+zip",
+      "size": 1091941,
+      "modified": "2026-08-15T03:48:19.000Z",
+      "checksum": "c1232fe279a877d160a456042d078c28",
+      "folder": false
+    },
+    {
+      "id": "1yMA59AgWLwROM_v3GgbXFRRqzSNGRVnC",
+      "parent_id": "19QMgKty6ESjwUetn309ZQC0Kg0gxJj8J",
+      "name": "PHẬT GIÁO NAM TÔNG TẠI VÙNG NAM BỘ.pdf",
+      "mime": "application/pdf",
+      "size": 2432305,
+      "modified": "2026-08-15T03:48:17.000Z",
+      "checksum": "5cfb7215cfed6fceddff510ec6d0dec1",
+      "folder": false
+    }
+  ]
+}

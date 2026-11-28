@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jdq24igNypn8y7gKmKk0MSpvLTpiyho9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mcLA12rcTGuFODHRpTaT7DXgpwhzJmtg",
+      "parent_id": "1jdq24igNypn8y7gKmKk0MSpvLTpiyho9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1793,
+      "modified": "2026-08-15T06:56:15.000Z",
+      "checksum": "0b432138f3c036a3cfd159f9a5b5a01c",
+      "folder": false
+    },
+    {
+      "id": "14-5ADaBLQR9dtBMWZUTegVwfrUM61QrF",
+      "parent_id": "1jdq24igNypn8y7gKmKk0MSpvLTpiyho9",
+      "name": "NHẬT KÝ ANNE FRANK.epub",
+      "mime": "application/epub+zip",
+      "size": 426433,
+      "modified": "2026-08-15T06:56:22.000Z",
+      "checksum": "a525c5556090769bd7ed212d7bbaa972",
+      "folder": false
+    },
+    {
+      "id": "1t_Fgg3VdbdTNa9ZsOXHn5vCcWlCURzw6",
+      "parent_id": "1jdq24igNypn8y7gKmKk0MSpvLTpiyho9",
+      "name": "NHẬT KÝ ANNE FRANK.pdf",
+      "mime": "application/pdf",
+      "size": 439992,
+      "modified": "2026-08-15T06:56:18.000Z",
+      "checksum": "cf48cf4438e3ac3a65d07795b1bf8cd3",
+      "folder": false
+    }
+  ]
+}

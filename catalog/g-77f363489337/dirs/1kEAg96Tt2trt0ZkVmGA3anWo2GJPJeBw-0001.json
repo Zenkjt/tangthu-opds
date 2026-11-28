@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kEAg96Tt2trt0ZkVmGA3anWo2GJPJeBw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UX_U6o6VNf5azKBhPOV9HPlF4HqQTxkO",
+      "parent_id": "1kEAg96Tt2trt0ZkVmGA3anWo2GJPJeBw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7907,
+      "modified": "2026-08-15T05:40:21.000Z",
+      "checksum": "2f3bc23879c9fb3370c55db9abd469e4",
+      "folder": false
+    },
+    {
+      "id": "1oMM_d1kqfxhRzArjoPa7QH8St4AWBdL4",
+      "parent_id": "1kEAg96Tt2trt0ZkVmGA3anWo2GJPJeBw",
+      "name": "TINH HOA ĐẠO HỌC ĐÔNG PHƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 476777,
+      "modified": "2026-08-15T05:40:28.000Z",
+      "checksum": "aba6117e0edb3f6c62dc98b8830902a5",
+      "folder": false
+    },
+    {
+      "id": "1aDrTOrtZj7u-8abMJiQTM7QRs_TLxvzv",
+      "parent_id": "1kEAg96Tt2trt0ZkVmGA3anWo2GJPJeBw",
+      "name": "TINH HOA ĐẠO HỌC ĐÔNG PHƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 633966,
+      "modified": "2026-08-15T05:40:25.000Z",
+      "checksum": "e5e17ec3e06b40f7fd2f76c33aa3b8e9",
+      "folder": false
+    }
+  ]
+}

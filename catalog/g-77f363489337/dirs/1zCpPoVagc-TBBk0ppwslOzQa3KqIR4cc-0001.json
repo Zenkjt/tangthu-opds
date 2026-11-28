@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zCpPoVagc-TBBk0ppwslOzQa3KqIR4cc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rOPKlkP4Piy4f32XlJBhKY_5Pbk64Gqk",
+      "parent_id": "1zCpPoVagc-TBBk0ppwslOzQa3KqIR4cc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3335,
+      "modified": "2026-08-15T08:00:51.000Z",
+      "checksum": "433c7be447ace19b7b3d15de7c383fd4",
+      "folder": false
+    },
+    {
+      "id": "1ov6jZnWr7ea563GnhOHaObD2uDfIMKXb",
+      "parent_id": "1zCpPoVagc-TBBk0ppwslOzQa3KqIR4cc",
+      "name": "TƯỚNG VỀ HƯU.epub",
+      "mime": "application/epub+zip",
+      "size": 609429,
+      "modified": "2026-08-15T08:00:57.000Z",
+      "checksum": "d317cd66a9db64ebe8178f207690d282",
+      "folder": false
+    },
+    {
+      "id": "1oP674F15DG_RZthy5VJKvm9xiykEZtGJ",
+      "parent_id": "1zCpPoVagc-TBBk0ppwslOzQa3KqIR4cc",
+      "name": "TƯỚNG VỀ HƯU.pdf",
+      "mime": "application/pdf",
+      "size": 1524107,
+      "modified": "2026-08-15T08:00:55.000Z",
+      "checksum": "04d3362131557736f86b3e5503435711",
+      "folder": false
+    }
+  ]
+}

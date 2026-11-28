@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Zw8rEJtVs-zw0NpF3fwduWyEkUhTgNeq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1E_6-17l1IG96zjWJFrXESeQvzukldMy5",
+      "parent_id": "1Zw8rEJtVs-zw0NpF3fwduWyEkUhTgNeq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3318,
+      "modified": "2026-08-15T10:37:02.000Z",
+      "checksum": "9bb1a439d178536375cd0897bc203fff",
+      "folder": false
+    },
+    {
+      "id": "15OIByWtdy2166rCAVTCl-jv7kmFhrO-r",
+      "parent_id": "1Zw8rEJtVs-zw0NpF3fwduWyEkUhTgNeq",
+      "name": "NHỮNG MẢNG MÀU CUỘC SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 821226,
+      "modified": "2026-08-15T10:37:09.000Z",
+      "checksum": "b6e11478df462745dbbd94e7ca4aa48e",
+      "folder": false
+    },
+    {
+      "id": "1fwlJkpl5QzZDxpkhc_T_X3K47un5v7qm",
+      "parent_id": "1Zw8rEJtVs-zw0NpF3fwduWyEkUhTgNeq",
+      "name": "NHỮNG MẢNG MÀU CUỘC SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 1089605,
+      "modified": "2026-08-15T10:37:07.000Z",
+      "checksum": "ddb2c5765b2cdbe524ff51ce82bf9b48",
+      "folder": false
+    }
+  ]
+}

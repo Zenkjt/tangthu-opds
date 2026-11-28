@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1f3F36JDbgurFZt-rSSVJee_a9N-vC0vB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BOqf7IaGLJweP1ddOBPVV4q5LhnQpndE",
+      "parent_id": "1f3F36JDbgurFZt-rSSVJee_a9N-vC0vB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3203,
+      "modified": "2026-08-16T04:07:45.000Z",
+      "checksum": "700f122ff76af61b1aa5ac2aae97fb67",
+      "folder": false
+    },
+    {
+      "id": "1Gp4UYwzakBYXzDDP5728rYvNN9XaP3CC",
+      "parent_id": "1f3F36JDbgurFZt-rSSVJee_a9N-vC0vB",
+      "name": "OAN GIA ĐỘC MIỆNG.epub",
+      "mime": "application/epub+zip",
+      "size": 2358619,
+      "modified": "2026-08-16T04:07:55.000Z",
+      "checksum": "ff5f8abf1019431008217dcb53612f4b",
+      "folder": false
+    },
+    {
+      "id": "1LnAmDC1AeZjyAcHBs1ZlXSwDjye1Pfq8",
+      "parent_id": "1f3F36JDbgurFZt-rSSVJee_a9N-vC0vB",
+      "name": "OAN GIA ĐỘC MIỆNG.pdf",
+      "mime": "application/pdf",
+      "size": 2113411,
+      "modified": "2026-08-16T04:07:51.000Z",
+      "checksum": "458225b1f36ab5efb8795e48080073e1",
+      "folder": false
+    }
+  ]
+}

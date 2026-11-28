@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pfP-_XNoGox6qhH2tZSEJsP4yuKW6AwZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "12kVzYm0BN-naBuTKBfk0uBpNE-6lj7Y2",
+      "parent_id": "1pfP-_XNoGox6qhH2tZSEJsP4yuKW6AwZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3066,
+      "modified": "2026-08-15T10:33:02.000Z",
+      "checksum": "7c1c3879c28571d449114a6b9262d830",
+      "folder": false
+    },
+    {
+      "id": "1srT4oDPoiEtYLpqRBBbH5ssAoufOOQo8",
+      "parent_id": "1pfP-_XNoGox6qhH2tZSEJsP4yuKW6AwZ",
+      "name": "PHẾ THIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 671528,
+      "modified": "2026-08-15T10:33:08.000Z",
+      "checksum": "4eec0e8f3fb893b67896e2955cff8314",
+      "folder": false
+    },
+    {
+      "id": "1EQ0EYBim7dR_K8KHcvUXadfoMMSvKVn-",
+      "parent_id": "1pfP-_XNoGox6qhH2tZSEJsP4yuKW6AwZ",
+      "name": "PHẾ THIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 548116,
+      "modified": "2026-08-15T10:33:05.000Z",
+      "checksum": "c025689d5b02171755a6734606010447",
+      "folder": false
+    }
+  ]
+}

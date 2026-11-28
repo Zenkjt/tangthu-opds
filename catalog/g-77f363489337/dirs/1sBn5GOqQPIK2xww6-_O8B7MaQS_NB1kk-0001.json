@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sBn5GOqQPIK2xww6-_O8B7MaQS_NB1kk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gjBldcbXfA3D82XQV_-JM2xiuJIKoE1D",
+      "parent_id": "1sBn5GOqQPIK2xww6-_O8B7MaQS_NB1kk",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 4226,
+      "modified": "2026-08-15T06:58:13.000Z",
+      "checksum": "e95f82f70615d5adea4fcd9baf179d30",
+      "folder": false
+    },
+    {
+      "id": "1hv2PUAQgW3CzE1MUxQlDKVI2dYpcdC0j",
+      "parent_id": "1sBn5GOqQPIK2xww6-_O8B7MaQS_NB1kk",
+      "name": "PHỤC SINH.epub",
+      "mime": "application/epub+zip",
+      "size": 903390,
+      "modified": "2026-08-15T06:58:34.000Z",
+      "checksum": "1a0a2de5512eadd75f0d141f2395450c",
+      "folder": false
+    },
+    {
+      "id": "1YCTdTuB6ai03Xhx4wMRiwpQ1ZDvub3Nl",
+      "parent_id": "1sBn5GOqQPIK2xww6-_O8B7MaQS_NB1kk",
+      "name": "PHỤC SINH.pdf",
+      "mime": "application/pdf",
+      "size": 2271980,
+      "modified": "2026-08-15T06:58:24.000Z",
+      "checksum": "f06d7ebcda1b2498682e3cf10f9c8ec6",
+      "folder": false
+    }
+  ]
+}

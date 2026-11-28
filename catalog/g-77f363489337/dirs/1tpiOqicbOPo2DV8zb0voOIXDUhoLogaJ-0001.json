@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tpiOqicbOPo2DV8zb0voOIXDUhoLogaJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1knvE9bc0fjY5ZoS9gLsuFWrP_pVtToTY",
+      "parent_id": "1tpiOqicbOPo2DV8zb0voOIXDUhoLogaJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 661,
+      "modified": "2026-08-15T10:56:57.000Z",
+      "checksum": "083a241c15f987e45840ed0989d7f17c",
+      "folder": false
+    },
+    {
+      "id": "1eMAyCczZM0mzrJm5ihiwlNeKvsgbzpOr",
+      "parent_id": "1tpiOqicbOPo2DV8zb0voOIXDUhoLogaJ",
+      "name": "HẬN LÃNG BẠC.epub",
+      "mime": "application/epub+zip",
+      "size": 391663,
+      "modified": "2026-08-15T10:57:03.000Z",
+      "checksum": "a55546a85be100df925f0d0ee125d7e2",
+      "folder": false
+    },
+    {
+      "id": "1Gdx_JAhvVwOIJLpOm6Mj45CiBvQXND30",
+      "parent_id": "1tpiOqicbOPo2DV8zb0voOIXDUhoLogaJ",
+      "name": "HẬN LÃNG BẠC.pdf",
+      "mime": "application/pdf",
+      "size": 653544,
+      "modified": "2026-08-15T10:57:00.000Z",
+      "checksum": "d4887677e5b4e7962125bf023eb09aff",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xc2Plsk6xiVvZLDhpVDV-a1MuDxiDUzi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IjrXoYFhF2a_glTJHZHGx1q35KyOXWRZ",
+      "parent_id": "1xc2Plsk6xiVvZLDhpVDV-a1MuDxiDUzi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5854,
+      "modified": "2026-08-16T03:08:22.000Z",
+      "checksum": "0dadc0ee22edc5725ac9be1117fa2120",
+      "folder": false
+    },
+    {
+      "id": "11m3fS7tZ20lkDMtsOjf6ySD23GyKxWu7",
+      "parent_id": "1xc2Plsk6xiVvZLDhpVDV-a1MuDxiDUzi",
+      "name": "THƯ GỬI BỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 312701,
+      "modified": "2026-08-16T03:08:28.000Z",
+      "checksum": "85f0ac52d1ed2712f4546ab422ce5e06",
+      "folder": false
+    },
+    {
+      "id": "1LY1lob3cV7FkVqm-HhqLNH5dbuum8yKT",
+      "parent_id": "1xc2Plsk6xiVvZLDhpVDV-a1MuDxiDUzi",
+      "name": "THƯ GỬI BỐ.pdf",
+      "mime": "application/pdf",
+      "size": 346656,
+      "modified": "2026-08-16T03:08:26.000Z",
+      "checksum": "6ca9041c07f97c0a9c9c4e3047ce6872",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lKAXkR5Nu0LG57DQeZ6fgfn9Lpq5Y21u",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LdgcJ2sWlExOvHX1g68fapnn2tyThmq8",
+      "parent_id": "1lKAXkR5Nu0LG57DQeZ6fgfn9Lpq5Y21u",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11905,
+      "modified": "2026-08-15T06:54:40.000Z",
+      "checksum": "54ea07f42fb4a5b6fce63d2dc41886d0",
+      "folder": false
+    },
+    {
+      "id": "1oQBP-WjZyc4OmVJjMSrAzo9YWLnrk6iK",
+      "parent_id": "1lKAXkR5Nu0LG57DQeZ6fgfn9Lpq5Y21u",
+      "name": "UYÊN ƯƠNG ĐAO.epub",
+      "mime": "application/epub+zip",
+      "size": 312285,
+      "modified": "2026-08-15T06:54:48.000Z",
+      "checksum": "f796a21bc61c5ebb9c44d9766e50c8a8",
+      "folder": false
+    },
+    {
+      "id": "1sHWEwHJljvaPgJMDst_xi_rfVALa_gbl",
+      "parent_id": "1lKAXkR5Nu0LG57DQeZ6fgfn9Lpq5Y21u",
+      "name": "UYÊN ƯƠNG ĐAO.pdf",
+      "mime": "application/pdf",
+      "size": 368932,
+      "modified": "2026-08-15T06:54:45.000Z",
+      "checksum": "853a7e3b7cc215fb45d48b14c0c76c58",
+      "folder": false
+    }
+  ]
+}

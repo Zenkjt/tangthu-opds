@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1byh1S3h7hZSSdPLxq25Rpq9xstp6H2aD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mqRlCcdEUbsIQB5I9ky1gZ5bFkIqwHGK",
+      "parent_id": "1byh1S3h7hZSSdPLxq25Rpq9xstp6H2aD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2519,
+      "modified": "2026-08-15T07:07:32.000Z",
+      "checksum": "f450008d8f3ae6418535e500f298ff7e",
+      "folder": false
+    },
+    {
+      "id": "1dFR6YRpDT53vKm5kU1b6FnyAGQx89oY_",
+      "parent_id": "1byh1S3h7hZSSdPLxq25Rpq9xstp6H2aD",
+      "name": "LẮNG NGHE ĐIỀU BÌNH THƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 147451,
+      "modified": "2026-08-15T07:07:38.000Z",
+      "checksum": "30fc189de67495dc0bbcc91daadd971c",
+      "folder": false
+    },
+    {
+      "id": "1QGx30vWQyjzpjvlYXzHPFFS7YsRcVLT0",
+      "parent_id": "1byh1S3h7hZSSdPLxq25Rpq9xstp6H2aD",
+      "name": "LẮNG NGHE ĐIỀU BÌNH THƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 519088,
+      "modified": "2026-08-15T07:07:36.000Z",
+      "checksum": "0ba100b6300ac98c3caff597481c9ffb",
+      "folder": false
+    }
+  ]
+}

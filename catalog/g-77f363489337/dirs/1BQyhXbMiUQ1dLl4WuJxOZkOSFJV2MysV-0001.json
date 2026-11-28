@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BQyhXbMiUQ1dLl4WuJxOZkOSFJV2MysV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QMYTci3LExZhEFk4FCYVsebP699Wnn4j",
+      "parent_id": "1BQyhXbMiUQ1dLl4WuJxOZkOSFJV2MysV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9390,
+      "modified": "2026-08-15T07:33:40.000Z",
+      "checksum": "b4037a6a52edd80b10870df504f04f49",
+      "folder": false
+    },
+    {
+      "id": "1yM3WR4E_uWJqzJwS0eD7INkE3elDwkij",
+      "parent_id": "1BQyhXbMiUQ1dLl4WuJxOZkOSFJV2MysV",
+      "name": "VÙNG TRỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 969546,
+      "modified": "2026-08-15T07:33:49.000Z",
+      "checksum": "fd44746cd5c9650a019099529bc84acc",
+      "folder": false
+    },
+    {
+      "id": "1i8yiuv4db2aj7XfULG5FuHdFZ1_Hkb-x",
+      "parent_id": "1BQyhXbMiUQ1dLl4WuJxOZkOSFJV2MysV",
+      "name": "VÙNG TRỜI.pdf",
+      "mime": "application/pdf",
+      "size": 2974627,
+      "modified": "2026-08-15T07:33:46.000Z",
+      "checksum": "2661290a6086730d2968e2cf268416ad",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HUnqohRk7QDtzrM_gOA5zE8DA8A6aiB1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1995VxEC8beYUc0EprmY4FQNclkzS5VUE",
+      "parent_id": "1HUnqohRk7QDtzrM_gOA5zE8DA8A6aiB1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9397,
+      "modified": "2026-08-15T07:54:19.000Z",
+      "checksum": "0f6dfe1dd9bb0ddf8bcefdad688187e0",
+      "folder": false
+    },
+    {
+      "id": "13g9_VzvuL3hsbBa55KmGRIdaxUSbrmus",
+      "parent_id": "1HUnqohRk7QDtzrM_gOA5zE8DA8A6aiB1",
+      "name": "VẠN CỔ THẦN ĐẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 372288,
+      "modified": "2026-08-15T07:54:26.000Z",
+      "checksum": "d4ad61f4c488fa43d66ac7fb5ca28bc9",
+      "folder": false
+    },
+    {
+      "id": "1XRroRjA9gyBrzXuwlq9Y4pQfmMZYcEnP",
+      "parent_id": "1HUnqohRk7QDtzrM_gOA5zE8DA8A6aiB1",
+      "name": "VẠN CỔ THẦN ĐẾ.pdf",
+      "mime": "application/pdf",
+      "size": 968967,
+      "modified": "2026-08-15T07:54:24.000Z",
+      "checksum": "2c6223f67bc8e449370811e34ec3fb76",
+      "folder": false
+    }
+  ]
+}

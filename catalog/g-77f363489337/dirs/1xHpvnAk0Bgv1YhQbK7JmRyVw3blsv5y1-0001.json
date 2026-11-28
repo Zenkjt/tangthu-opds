@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xHpvnAk0Bgv1YhQbK7JmRyVw3blsv5y1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BTNdCCykatv3sO37a3kEhrM29YzVYJG9",
+      "parent_id": "1xHpvnAk0Bgv1YhQbK7JmRyVw3blsv5y1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2398,
+      "modified": "2026-08-15T13:09:38.000Z",
+      "checksum": "ab87579f6888d17cf26ca5713975932c",
+      "folder": false
+    },
+    {
+      "id": "10v8YctsIwOLV1IKMymbJ7C7xmc7Oj9hF",
+      "parent_id": "1xHpvnAk0Bgv1YhQbK7JmRyVw3blsv5y1",
+      "name": "DỊCH HỌC TINH HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 2586049,
+      "modified": "2026-08-15T13:09:46.000Z",
+      "checksum": "15ec4d552a21eea199ba53fc62d0be02",
+      "folder": false
+    },
+    {
+      "id": "1dnyP7isNcp4zRuuCPfB1ubK0EWH9wMTg",
+      "parent_id": "1xHpvnAk0Bgv1YhQbK7JmRyVw3blsv5y1",
+      "name": "DỊCH HỌC TINH HOA.pdf",
+      "mime": "application/pdf",
+      "size": 3105221,
+      "modified": "2026-08-15T13:09:42.000Z",
+      "checksum": "14513a1b32441c87c4028a6b82b6cff4",
+      "folder": false
+    }
+  ]
+}

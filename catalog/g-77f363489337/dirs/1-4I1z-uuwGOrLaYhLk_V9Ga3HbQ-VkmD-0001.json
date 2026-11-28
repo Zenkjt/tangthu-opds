@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-4I1z-uuwGOrLaYhLk_V9Ga3HbQ-VkmD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CUEhhCGVBNMRSL5u4FRgEXXPMnEmqLs-",
+      "parent_id": "1-4I1z-uuwGOrLaYhLk_V9Ga3HbQ-VkmD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 755,
+      "modified": "2026-08-15T10:54:17.000Z",
+      "checksum": "5ef76dba12e9132ccbf2765c94b6c3a7",
+      "folder": false
+    },
+    {
+      "id": "1ZbKWERwZr8zF537b1URoR4Zqe6S-PXCF",
+      "parent_id": "1-4I1z-uuwGOrLaYhLk_V9Ga3HbQ-VkmD",
+      "name": "KINH DIỄM NHẤT THƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 635030,
+      "modified": "2026-08-15T10:55:20.000Z",
+      "checksum": "1fc51694e0a637c11f39b6c299ac92e6",
+      "folder": false
+    },
+    {
+      "id": "1s516SproXJKkNy2Kh3lMeLuhw1IF1Dpt",
+      "parent_id": "1-4I1z-uuwGOrLaYhLk_V9Ga3HbQ-VkmD",
+      "name": "KINH DIỄM NHẤT THƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1974631,
+      "modified": "2026-08-15T10:55:14.000Z",
+      "checksum": "3ed2a252fc8399481cac038c1602ca32",
+      "folder": false
+    }
+  ]
+}

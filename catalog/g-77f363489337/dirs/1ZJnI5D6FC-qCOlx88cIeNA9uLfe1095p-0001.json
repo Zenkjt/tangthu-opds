@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZJnI5D6FC-qCOlx88cIeNA9uLfe1095p",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qfubjvnPJ1MkEMS7DGqOSk-9hiQETczh",
+      "parent_id": "1ZJnI5D6FC-qCOlx88cIeNA9uLfe1095p",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3217,
+      "modified": "2026-08-15T10:20:11.000Z",
+      "checksum": "ac315025e39bbdc10b577296175601bb",
+      "folder": false
+    },
+    {
+      "id": "1NSDnFffOny8dqSlyKMfG3vruYfb2EiBD",
+      "parent_id": "1ZJnI5D6FC-qCOlx88cIeNA9uLfe1095p",
+      "name": "TÂY SỞ BÁ VƯƠNG HẠNG VÕ.epub",
+      "mime": "application/epub+zip",
+      "size": 694776,
+      "modified": "2026-08-15T10:20:22.000Z",
+      "checksum": "641338dafd4b123168cea758fb6da16f",
+      "folder": false
+    },
+    {
+      "id": "1r00Ww3p-7v6lfuc2jlLCDslYjHEpUA5f",
+      "parent_id": "1ZJnI5D6FC-qCOlx88cIeNA9uLfe1095p",
+      "name": "TÂY SỞ BÁ VƯƠNG HẠNG VÕ.pdf",
+      "mime": "application/pdf",
+      "size": 2011846,
+      "modified": "2026-08-15T10:20:19.000Z",
+      "checksum": "49e23a2eec76057d61c084840ca1d961",
+      "folder": false
+    }
+  ]
+}

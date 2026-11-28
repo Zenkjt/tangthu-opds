@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Krc-76EwWQldwv6vHqrZo_2B5Bm3KFYW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Kb2FFSfUAOODHngAPQ9hTsh_RfOSzCQo",
+      "parent_id": "1Krc-76EwWQldwv6vHqrZo_2B5Bm3KFYW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3856,
+      "modified": "2026-08-15T15:39:28.000Z",
+      "checksum": "0c8fac79dc1f13f96b114ed586d3a291",
+      "folder": false
+    },
+    {
+      "id": "19IuZiz9YIc1pup5eFBLAKikzZw0xkcIm",
+      "parent_id": "1Krc-76EwWQldwv6vHqrZo_2B5Bm3KFYW",
+      "name": "NHÓM ĐẠO WYANG.epub",
+      "mime": "application/epub+zip",
+      "size": 547755,
+      "modified": "2026-08-15T15:39:34.000Z",
+      "checksum": "28026fc234bbc3b9e3bdd704b649dbef",
+      "folder": false
+    },
+    {
+      "id": "1ARViqM27P2r7D917iJZQ5BfOY8BIhJ4w",
+      "parent_id": "1Krc-76EwWQldwv6vHqrZo_2B5Bm3KFYW",
+      "name": "NHÓM ĐẠO WYANG.pdf",
+      "mime": "application/pdf",
+      "size": 460479,
+      "modified": "2026-08-15T15:39:32.000Z",
+      "checksum": "a0d284569d03bfb682b227af713e7ab3",
+      "folder": false
+    }
+  ]
+}

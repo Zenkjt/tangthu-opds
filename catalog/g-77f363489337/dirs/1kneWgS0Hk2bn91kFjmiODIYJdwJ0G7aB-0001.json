@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kneWgS0Hk2bn91kFjmiODIYJdwJ0G7aB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1olnjF7_UIz57E3TvPdEUSaywjBMQ5pie",
+      "parent_id": "1kneWgS0Hk2bn91kFjmiODIYJdwJ0G7aB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3777,
+      "modified": "2026-08-15T16:00:50.000Z",
+      "checksum": "c770e10a40dd0f8180dff9127760404b",
+      "folder": false
+    },
+    {
+      "id": "1edx6IVd8EzjcTrtbQfkSKqTIog6Kt7Mi",
+      "parent_id": "1kneWgS0Hk2bn91kFjmiODIYJdwJ0G7aB",
+      "name": "NAM THẦN KÊU NGẠO.epub",
+      "mime": "application/epub+zip",
+      "size": 522941,
+      "modified": "2026-08-15T16:00:57.000Z",
+      "checksum": "9467412aa2d2c7e1168180f2016312d3",
+      "folder": false
+    },
+    {
+      "id": "1TQBf2eerC8RPHpgZNMfvoetmj4sl4M3W",
+      "parent_id": "1kneWgS0Hk2bn91kFjmiODIYJdwJ0G7aB",
+      "name": "NAM THẦN KÊU NGẠO.pdf",
+      "mime": "application/pdf",
+      "size": 1457720,
+      "modified": "2026-08-15T16:00:55.000Z",
+      "checksum": "87bd25cca61febf3b223685c9607b632",
+      "folder": false
+    }
+  ]
+}

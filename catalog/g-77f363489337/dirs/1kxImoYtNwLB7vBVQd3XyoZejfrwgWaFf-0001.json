@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kxImoYtNwLB7vBVQd3XyoZejfrwgWaFf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1h1Gp13jYshkF3EhvrHahc_YTPGgouvF3",
+      "parent_id": "1kxImoYtNwLB7vBVQd3XyoZejfrwgWaFf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2762,
+      "modified": "2026-08-16T03:40:01.000Z",
+      "checksum": "0f99977718dcb15da47bde825174ce31",
+      "folder": false
+    },
+    {
+      "id": "1IXODvBb7rFU7tnr7uYEF08TLJ3EeWwkx",
+      "parent_id": "1kxImoYtNwLB7vBVQd3XyoZejfrwgWaFf",
+      "name": "HOÀNG HẬU SIÊU QUẬY.epub",
+      "mime": "application/epub+zip",
+      "size": 461004,
+      "modified": "2026-08-16T03:40:08.000Z",
+      "checksum": "e98d61f990ac737d11b034721f2b03ab",
+      "folder": false
+    },
+    {
+      "id": "1pyQ87gNgCRzRY4va4nDU5XXpw5ZVb6HB",
+      "parent_id": "1kxImoYtNwLB7vBVQd3XyoZejfrwgWaFf",
+      "name": "HOÀNG HẬU SIÊU QUẬY.pdf",
+      "mime": "application/pdf",
+      "size": 1064898,
+      "modified": "2026-08-16T03:40:06.000Z",
+      "checksum": "8c7346b3ba317d53515422da73999868",
+      "folder": false
+    }
+  ]
+}

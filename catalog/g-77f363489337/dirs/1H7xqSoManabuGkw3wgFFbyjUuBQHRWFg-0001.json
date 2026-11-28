@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1H7xqSoManabuGkw3wgFFbyjUuBQHRWFg",
+  "page": 1,
+  "items": [
+    {
+      "id": "194XbG7OaRRXpBStjK9H1Ta20jB0GX7KY",
+      "parent_id": "1H7xqSoManabuGkw3wgFFbyjUuBQHRWFg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9187,
+      "modified": "2026-08-15T17:01:58.000Z",
+      "checksum": "11a781c3692ed02cf731bd3a85f1bbb4",
+      "folder": false
+    },
+    {
+      "id": "1_LkLPXto-ilYvyQ_oJMl1kjoyYEo1Oo1",
+      "parent_id": "1H7xqSoManabuGkw3wgFFbyjUuBQHRWFg",
+      "name": "TRẤN HỒN.epub",
+      "mime": "application/epub+zip",
+      "size": 786478,
+      "modified": "2026-08-15T17:02:06.000Z",
+      "checksum": "fa89e89507f2769d7e25fb35cbb036e3",
+      "folder": false
+    },
+    {
+      "id": "1RxO7K20ILKTdXf_nD8JCNA13vp2VfJdv",
+      "parent_id": "1H7xqSoManabuGkw3wgFFbyjUuBQHRWFg",
+      "name": "TRẤN HỒN.pdf",
+      "mime": "application/pdf",
+      "size": 1842647,
+      "modified": "2026-08-15T17:02:03.000Z",
+      "checksum": "afb6b3fee44cd31a08a90cf31cba1eb3",
+      "folder": false
+    }
+  ]
+}

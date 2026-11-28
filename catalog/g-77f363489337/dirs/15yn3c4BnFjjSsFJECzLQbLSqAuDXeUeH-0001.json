@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15yn3c4BnFjjSsFJECzLQbLSqAuDXeUeH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WkczWku9mphXmtU1FbHyRKgbcGTCRZQm",
+      "parent_id": "15yn3c4BnFjjSsFJECzLQbLSqAuDXeUeH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 899,
+      "modified": "2026-08-16T04:20:21.000Z",
+      "checksum": "a924d05e6774ddb2ae09ed48120f041d",
+      "folder": false
+    },
+    {
+      "id": "1jXOmc9owghKvFyEtLkj5pJzw8H62JQfU",
+      "parent_id": "15yn3c4BnFjjSsFJECzLQbLSqAuDXeUeH",
+      "name": "DÒNG SÔNG CỎ MỤC.epub",
+      "mime": "application/epub+zip",
+      "size": 532325,
+      "modified": "2026-08-16T04:20:27.000Z",
+      "checksum": "c3ea41c717f0d05b897076f70af4350c",
+      "folder": false
+    },
+    {
+      "id": "1fJIYe-MMy0OQ2zCBmgR32sefW1n3x7S6",
+      "parent_id": "15yn3c4BnFjjSsFJECzLQbLSqAuDXeUeH",
+      "name": "DÒNG SÔNG CỎ MỤC.pdf",
+      "mime": "application/pdf",
+      "size": 613676,
+      "modified": "2026-08-16T04:20:25.000Z",
+      "checksum": "4e5887a21c976796671b10efbce4210b",
+      "folder": false
+    }
+  ]
+}

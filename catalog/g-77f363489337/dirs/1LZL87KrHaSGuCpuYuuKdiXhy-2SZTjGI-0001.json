@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LZL87KrHaSGuCpuYuuKdiXhy-2SZTjGI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pwFRwpXviKI-P8-uCurpCtIqx6rMXJX0",
+      "parent_id": "1LZL87KrHaSGuCpuYuuKdiXhy-2SZTjGI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3064,
+      "modified": "2026-08-15T07:37:33.000Z",
+      "checksum": "3d3f7a4c17c75010316a211d5b1cde38",
+      "folder": false
+    },
+    {
+      "id": "1rue-tCvpl7YUdZNYsSXpAkxSuvrDXM7e",
+      "parent_id": "1LZL87KrHaSGuCpuYuuKdiXhy-2SZTjGI",
+      "name": "THÀNH PHỐ HỒN RỖNG.epub",
+      "mime": "application/epub+zip",
+      "size": 657702,
+      "modified": "2026-08-15T07:37:42.000Z",
+      "checksum": "e3f535df1dd19e672042545d39688d67",
+      "folder": false
+    },
+    {
+      "id": "1O1_Pzl39tl-EJUrM8pXm7ZGdQi70MYnN",
+      "parent_id": "1LZL87KrHaSGuCpuYuuKdiXhy-2SZTjGI",
+      "name": "THÀNH PHỐ HỒN RỖNG.pdf",
+      "mime": "application/pdf",
+      "size": 1648559,
+      "modified": "2026-08-15T07:37:39.000Z",
+      "checksum": "05f75f4ca9c21297d365d5376c4333de",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UilRKNONMWjheRqs8upqmut-uFmUT9vU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bHrNa0-n4hZjBn3_QgSS2E4d3_AHhKYL",
+      "parent_id": "1UilRKNONMWjheRqs8upqmut-uFmUT9vU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8574,
+      "modified": "2026-08-16T03:12:14.000Z",
+      "checksum": "d54ae04d8cffdb4932a193c21f8da23e",
+      "folder": false
+    },
+    {
+      "id": "1qRsaBl4I3C7INTbNntmm7rIzqo1MnHzQ",
+      "parent_id": "1UilRKNONMWjheRqs8upqmut-uFmUT9vU",
+      "name": "HOANG MẠC TARTA.epub",
+      "mime": "application/epub+zip",
+      "size": 407256,
+      "modified": "2026-08-16T03:12:21.000Z",
+      "checksum": "aeccdb47b7c95a8253420d514282e62c",
+      "folder": false
+    },
+    {
+      "id": "1lOPqHvgWVRv5GKyOFJrQX-bzbU843MU2",
+      "parent_id": "1UilRKNONMWjheRqs8upqmut-uFmUT9vU",
+      "name": "HOANG MẠC TARTA.pdf",
+      "mime": "application/pdf",
+      "size": 931614,
+      "modified": "2026-08-16T03:12:18.000Z",
+      "checksum": "cd3738f794e71ba3d52894ae8c953ee0",
+      "folder": false
+    }
+  ]
+}

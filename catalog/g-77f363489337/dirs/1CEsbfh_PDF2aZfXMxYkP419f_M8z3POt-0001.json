@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CEsbfh_PDF2aZfXMxYkP419f_M8z3POt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1inc8NIHuSnivxhUO_ysSOP9Dd3V4GH8J",
+      "parent_id": "1CEsbfh_PDF2aZfXMxYkP419f_M8z3POt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4784,
+      "modified": "2026-08-15T08:02:14.000Z",
+      "checksum": "43eeb91365cc70263db0eae365034b33",
+      "folder": false
+    },
+    {
+      "id": "1iA3nn8og3GLlbJG_cml1xeJjyvp9MstX",
+      "parent_id": "1CEsbfh_PDF2aZfXMxYkP419f_M8z3POt",
+      "name": "HIỆU HẠNH PHÚC CÁC BÀ.epub",
+      "mime": "application/epub+zip",
+      "size": 826275,
+      "modified": "2026-08-15T08:02:22.000Z",
+      "checksum": "35763f8d214f42e53fec4eb10a1577aa",
+      "folder": false
+    },
+    {
+      "id": "1_j6tBWHZap6GM3weQTb7qFz7LurcVwJQ",
+      "parent_id": "1CEsbfh_PDF2aZfXMxYkP419f_M8z3POt",
+      "name": "HIỆU HẠNH PHÚC CÁC BÀ.pdf",
+      "mime": "application/pdf",
+      "size": 1230777,
+      "modified": "2026-08-15T08:02:19.000Z",
+      "checksum": "8d4000904a51865990ab90b7f21a5f56",
+      "folder": false
+    }
+  ]
+}

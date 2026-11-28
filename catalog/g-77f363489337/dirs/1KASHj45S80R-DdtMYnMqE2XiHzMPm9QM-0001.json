@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KASHj45S80R-DdtMYnMqE2XiHzMPm9QM",
+  "page": 1,
+  "items": [
+    {
+      "id": "19-j7dqNbYOzUSEUhUc5Gf5uwlGEj5tZb",
+      "parent_id": "1KASHj45S80R-DdtMYnMqE2XiHzMPm9QM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3172,
+      "modified": "2026-08-15T10:12:48.000Z",
+      "checksum": "a88a23003fa7fcf6fce66f2cc5909c52",
+      "folder": false
+    },
+    {
+      "id": "1caTQAroXtahoiuC4UnT1XvrYPFnqIu1N",
+      "parent_id": "1KASHj45S80R-DdtMYnMqE2XiHzMPm9QM",
+      "name": "THỜI CỤC NƯỚC TÀU.epub",
+      "mime": "application/epub+zip",
+      "size": 239216,
+      "modified": "2026-08-15T10:12:55.000Z",
+      "checksum": "ff57ccad7a6c84949f2ad14970536cf8",
+      "folder": false
+    },
+    {
+      "id": "1mNskDic_uQHCktsuB6OrYJo-2U7vld9F",
+      "parent_id": "1KASHj45S80R-DdtMYnMqE2XiHzMPm9QM",
+      "name": "THỜI CỤC NƯỚC TÀU.pdf",
+      "mime": "application/pdf",
+      "size": 222273,
+      "modified": "2026-08-15T10:12:53.000Z",
+      "checksum": "8c997c00374a9ed20b73397e564d68c2",
+      "folder": false
+    }
+  ]
+}

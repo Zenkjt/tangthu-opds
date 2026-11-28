@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fv2DokxRCkVnGRJx5WmtQEVE4-8boJiL",
+  "page": 1,
+  "items": [
+    {
+      "id": "11KWarTSQ0jSC_aHSzyE7S8usn771X9Ug",
+      "parent_id": "1fv2DokxRCkVnGRJx5WmtQEVE4-8boJiL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 575,
+      "modified": "2026-08-15T06:19:12.000Z",
+      "checksum": "01990d1e8d0120676c1b72c6d07f516c",
+      "folder": false
+    },
+    {
+      "id": "1k1p3-w33B-1o4Y13oJ_1QOc0aEWljzPg",
+      "parent_id": "1fv2DokxRCkVnGRJx5WmtQEVE4-8boJiL",
+      "name": "VĂN HÓA LÀ GÌ.epub",
+      "mime": "application/epub+zip",
+      "size": 332453,
+      "modified": "2026-08-15T06:19:18.000Z",
+      "checksum": "ac246cc5605d670bdeb56a49bc0bbc8d",
+      "folder": false
+    },
+    {
+      "id": "1b7r-IW6K2G9URRvvZPOiYvi_tJyRmriq",
+      "parent_id": "1fv2DokxRCkVnGRJx5WmtQEVE4-8boJiL",
+      "name": "VĂN HÓA LÀ GÌ.pdf",
+      "mime": "application/pdf",
+      "size": 368342,
+      "modified": "2026-08-15T06:19:15.000Z",
+      "checksum": "f7a4a3c3e8bc8e9979ab9e5c1552172b",
+      "folder": false
+    }
+  ]
+}

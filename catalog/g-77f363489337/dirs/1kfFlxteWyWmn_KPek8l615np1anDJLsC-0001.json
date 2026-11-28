@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kfFlxteWyWmn_KPek8l615np1anDJLsC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UKyTLLUBiymm01TCZc1rzZWDKN-1LvQC",
+      "parent_id": "1kfFlxteWyWmn_KPek8l615np1anDJLsC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3881,
+      "modified": "2026-08-15T11:31:14.000Z",
+      "checksum": "7a7b43dc6bec4475c40d3224e621e3c9",
+      "folder": false
+    },
+    {
+      "id": "1u0vhVcjRe1sMinenML1Jmigb_Z0zPv50",
+      "parent_id": "1kfFlxteWyWmn_KPek8l615np1anDJLsC",
+      "name": "GIÁO DỤC HỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 294796,
+      "modified": "2026-08-15T11:31:19.000Z",
+      "checksum": "7b1c229e80602c85b0981a9c6d9841c1",
+      "folder": false
+    },
+    {
+      "id": "17Uz2y1i0gd5ToS62c5iG2mUf5QyZmcgQ",
+      "parent_id": "1kfFlxteWyWmn_KPek8l615np1anDJLsC",
+      "name": "GIÁO DỤC HỌC.pdf",
+      "mime": "application/pdf",
+      "size": 443715,
+      "modified": "2026-08-15T11:31:17.000Z",
+      "checksum": "c03c08326c7c1f682f0cfad3b4cbff11",
+      "folder": false
+    }
+  ]
+}

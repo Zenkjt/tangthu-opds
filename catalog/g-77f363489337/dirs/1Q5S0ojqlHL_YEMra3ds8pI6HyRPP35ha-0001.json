@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Q5S0ojqlHL_YEMra3ds8pI6HyRPP35ha",
+  "page": 1,
+  "items": [
+    {
+      "id": "172whzKTiIXBmFFgBGC7W-VmS-5FcVVDT",
+      "parent_id": "1Q5S0ojqlHL_YEMra3ds8pI6HyRPP35ha",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3697,
+      "modified": "2026-08-16T03:41:45.000Z",
+      "checksum": "5b334d5b678801f7f531768dcaa7faaa",
+      "folder": false
+    },
+    {
+      "id": "1sppkNbXbVSfLevOT71VymnvxmFUwtN0L",
+      "parent_id": "1Q5S0ojqlHL_YEMra3ds8pI6HyRPP35ha",
+      "name": "HÃN THÊ HỘ GIA.epub",
+      "mime": "application/epub+zip",
+      "size": 390161,
+      "modified": "2026-08-16T03:41:51.000Z",
+      "checksum": "6c787d128a165872039f840548339086",
+      "folder": false
+    },
+    {
+      "id": "16XrTGcDoKBtO_wa09UMwc7fUW44yiPbN",
+      "parent_id": "1Q5S0ojqlHL_YEMra3ds8pI6HyRPP35ha",
+      "name": "HÃN THÊ HỘ GIA.pdf",
+      "mime": "application/pdf",
+      "size": 595432,
+      "modified": "2026-08-16T03:41:49.000Z",
+      "checksum": "5c77fae88c108fcae77366de5c3906dc",
+      "folder": false
+    }
+  ]
+}

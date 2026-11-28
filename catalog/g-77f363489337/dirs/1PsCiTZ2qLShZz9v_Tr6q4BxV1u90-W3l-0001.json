@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PsCiTZ2qLShZz9v_Tr6q4BxV1u90-W3l",
+  "page": 1,
+  "items": [
+    {
+      "id": "11mTvt_KD2zc90LOS_wG2uIRTumIpfKey",
+      "parent_id": "1PsCiTZ2qLShZz9v_Tr6q4BxV1u90-W3l",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5684,
+      "modified": "2026-08-16T03:49:40.000Z",
+      "checksum": "eb2446d6b38702a3a0d3f2928786ff9c",
+      "folder": false
+    },
+    {
+      "id": "1sA7rrZn1SBxLcMEr1mMHRDw2yW3kK76u",
+      "parent_id": "1PsCiTZ2qLShZz9v_Tr6q4BxV1u90-W3l",
+      "name": "ÁC MỘNG TRONG ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 406995,
+      "modified": "2026-08-16T03:49:47.000Z",
+      "checksum": "b53010b664e9ff64d7f2ecf10cea433a",
+      "folder": false
+    },
+    {
+      "id": "1LynjtUOJCBh_akrjmCoUlOrKr2YqmPrD",
+      "parent_id": "1PsCiTZ2qLShZz9v_Tr6q4BxV1u90-W3l",
+      "name": "ÁC MỘNG TRONG ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 1086537,
+      "modified": "2026-08-16T03:49:44.000Z",
+      "checksum": "ddfbb37d925146c4be4a7a34bb89e0c7",
+      "folder": false
+    }
+  ]
+}

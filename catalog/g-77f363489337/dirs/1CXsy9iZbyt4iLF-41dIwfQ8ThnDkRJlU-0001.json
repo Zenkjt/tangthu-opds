@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CXsy9iZbyt4iLF-41dIwfQ8ThnDkRJlU",
+  "page": 1,
+  "items": [
+    {
+      "id": "16GJvXSvrBgqWdGamjvu3HSB94aFLppGw",
+      "parent_id": "1CXsy9iZbyt4iLF-41dIwfQ8ThnDkRJlU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2342,
+      "modified": "2026-08-15T03:59:04.000Z",
+      "checksum": "d1cb510ff713b519a65d36d5ed9a10fb",
+      "folder": false
+    },
+    {
+      "id": "1rsHlLJ3mdLQ1ugBfzMMmVFSZLTyUt9qA",
+      "parent_id": "1CXsy9iZbyt4iLF-41dIwfQ8ThnDkRJlU",
+      "name": "KHẢO CỨU TÂM THỨC.epub",
+      "mime": "application/epub+zip",
+      "size": 343953,
+      "modified": "2026-08-15T03:59:11.000Z",
+      "checksum": "7c19df49d3d7794090acee4f3c359a96",
+      "folder": false
+    },
+    {
+      "id": "1ExvlO-dHf25RJTy3ebunseFi3bzia-LF",
+      "parent_id": "1CXsy9iZbyt4iLF-41dIwfQ8ThnDkRJlU",
+      "name": "KHẢO CỨU TÂM THỨC.pdf",
+      "mime": "application/pdf",
+      "size": 1716933,
+      "modified": "2026-08-15T03:59:08.000Z",
+      "checksum": "7e889701f64cbca1cb33d7b9671cff5e",
+      "folder": false
+    }
+  ]
+}

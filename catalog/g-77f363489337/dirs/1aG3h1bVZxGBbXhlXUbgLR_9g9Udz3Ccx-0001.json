@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aG3h1bVZxGBbXhlXUbgLR_9g9Udz3Ccx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JayTGv-qSXrmR2d1Q317ZuWz8JC-OO93",
+      "parent_id": "1aG3h1bVZxGBbXhlXUbgLR_9g9Udz3Ccx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2796,
+      "modified": "2026-08-15T03:18:23.000Z",
+      "checksum": "2aa7a0fc93f590953eac41d2712b46a2",
+      "folder": false
+    },
+    {
+      "id": "11uT9iU5Ci2HLiWWOU_1cjrYAYi3vLv68",
+      "parent_id": "1aG3h1bVZxGBbXhlXUbgLR_9g9Udz3Ccx",
+      "name": "PHÒNG THUẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 605617,
+      "modified": "2026-08-15T03:18:29.000Z",
+      "checksum": "6b24c65b5321bfae12c58f72866ed54b",
+      "folder": false
+    },
+    {
+      "id": "1I6LUL_RUnByAP6nldazdsxu_kg7Qxzbh",
+      "parent_id": "1aG3h1bVZxGBbXhlXUbgLR_9g9Udz3Ccx",
+      "name": "PHÒNG THUẬT.pdf",
+      "mime": "application/pdf",
+      "size": 550795,
+      "modified": "2026-08-15T03:18:26.000Z",
+      "checksum": "05d917cba02e981aad8cb20ac6acce91",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QliELWYBNQ9M6H5T_Ms20skjOyE0YuK8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nJeTA9RvlCJrst32IOcwZchVHxrDTIaO",
+      "parent_id": "1QliELWYBNQ9M6H5T_Ms20skjOyE0YuK8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3486,
+      "modified": "2026-08-15T10:39:08.000Z",
+      "checksum": "92f4168e124ba1011abad095c59c7ba4",
+      "folder": false
+    },
+    {
+      "id": "18T9-Vr_O1qnvtHWpvRA6rAYSTOp7H_-b",
+      "parent_id": "1QliELWYBNQ9M6H5T_Ms20skjOyE0YuK8",
+      "name": "NHẬT KÝ LẤY CHỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 696457,
+      "modified": "2026-08-15T10:39:21.000Z",
+      "checksum": "fbc1c909aacb5680a734a8c973ea7169",
+      "folder": false
+    },
+    {
+      "id": "12HEataBGnqrBvjk22OHn1etjPidjD0nU",
+      "parent_id": "1QliELWYBNQ9M6H5T_Ms20skjOyE0YuK8",
+      "name": "NHẬT KÝ LẤY CHỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 1061910,
+      "modified": "2026-08-15T10:39:15.000Z",
+      "checksum": "5381c79fb9abb0b82862c6a5031d6e23",
+      "folder": false
+    }
+  ]
+}

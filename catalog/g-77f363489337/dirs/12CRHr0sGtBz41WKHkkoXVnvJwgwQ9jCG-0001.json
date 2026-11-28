@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12CRHr0sGtBz41WKHkkoXVnvJwgwQ9jCG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GrjYwoWPYOT60RLu14CfvzFDX7caBS7v",
+      "parent_id": "12CRHr0sGtBz41WKHkkoXVnvJwgwQ9jCG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5075,
+      "modified": "2026-08-15T03:48:35.000Z",
+      "checksum": "cce4e4d002d0163c871d9ffd7113995d",
+      "folder": false
+    },
+    {
+      "id": "1fO402PRMekJaUamAJtrr5CAQy7vt5mAf",
+      "parent_id": "12CRHr0sGtBz41WKHkkoXVnvJwgwQ9jCG",
+      "name": "VIỆT NAM PHẬT GIÁO SỬ LUẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 1532016,
+      "modified": "2026-08-15T03:48:45.000Z",
+      "checksum": "cb2f06d86dbac0bc92503bd93f26f299",
+      "folder": false
+    },
+    {
+      "id": "1VHszn_CTwj4TXmWV7YxbKATZlrkrvWdM",
+      "parent_id": "12CRHr0sGtBz41WKHkkoXVnvJwgwQ9jCG",
+      "name": "VIỆT NAM PHẬT GIÁO SỬ LUẬN.pdf",
+      "mime": "application/pdf",
+      "size": 4249911,
+      "modified": "2026-08-15T03:48:42.000Z",
+      "checksum": "6f9a22840c0ba71cd15403384c42a25f",
+      "folder": false
+    }
+  ]
+}

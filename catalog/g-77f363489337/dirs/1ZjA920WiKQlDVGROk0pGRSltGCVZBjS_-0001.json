@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZjA920WiKQlDVGROk0pGRSltGCVZBjS_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fd-xc2lSOJcvfUUHlEz3xebA0CSl-M0N",
+      "parent_id": "1ZjA920WiKQlDVGROk0pGRSltGCVZBjS_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6553,
+      "modified": "2026-08-15T05:42:33.000Z",
+      "checksum": "03f275e64d350f4e9e62dcb762d7e6dd",
+      "folder": false
+    },
+    {
+      "id": "1u-pJ8y39BfafH_oCepdGVYoNctuZibko",
+      "parent_id": "1ZjA920WiKQlDVGROk0pGRSltGCVZBjS_",
+      "name": "LỜI TIÊN TRI CELESTINE.epub",
+      "mime": "application/epub+zip",
+      "size": 1013417,
+      "modified": "2026-08-15T05:42:41.000Z",
+      "checksum": "7bbecf599e7b787b928fba1ed01dd1da",
+      "folder": false
+    },
+    {
+      "id": "12LFsZStx2jtDtZ4fwcz0RZf1PF2SDWLp",
+      "parent_id": "1ZjA920WiKQlDVGROk0pGRSltGCVZBjS_",
+      "name": "LỜI TIÊN TRI CELESTINE.pdf",
+      "mime": "application/pdf",
+      "size": 1382565,
+      "modified": "2026-08-15T05:42:38.000Z",
+      "checksum": "a4d5c4a4f2b8f7785c0094bf6cb99c20",
+      "folder": false
+    }
+  ]
+}

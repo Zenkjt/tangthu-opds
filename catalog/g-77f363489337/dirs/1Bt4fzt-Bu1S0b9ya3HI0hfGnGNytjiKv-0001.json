@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Bt4fzt-Bu1S0b9ya3HI0hfGnGNytjiKv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Mk5zZ29cMYX1c5QKuGgOeJvmDZzIg_mF",
+      "parent_id": "1Bt4fzt-Bu1S0b9ya3HI0hfGnGNytjiKv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1183,
+      "modified": "2026-08-15T07:01:03.000Z",
+      "checksum": "4d46ac55264eb1ed3021d593e857ef36",
+      "folder": false
+    },
+    {
+      "id": "1749sTQbaTcA7jwy7p0L8wx5XOhJ_ne8W",
+      "parent_id": "1Bt4fzt-Bu1S0b9ya3HI0hfGnGNytjiKv",
+      "name": "TẤM VÁN PHÓNG DAO.epub",
+      "mime": "application/epub+zip",
+      "size": 619092,
+      "modified": "2026-08-15T07:01:24.000Z",
+      "checksum": "f81935adcb4bec29a85292e93ffcd051",
+      "folder": false
+    },
+    {
+      "id": "1GK-W3eu09jhgerW9--jjacaeJgegvYxX",
+      "parent_id": "1Bt4fzt-Bu1S0b9ya3HI0hfGnGNytjiKv",
+      "name": "TẤM VÁN PHÓNG DAO.pdf",
+      "mime": "application/pdf",
+      "size": 916009,
+      "modified": "2026-08-15T07:01:12.000Z",
+      "checksum": "22b4055c3e9f816b2a8dee45ca0a92c3",
+      "folder": false
+    }
+  ]
+}

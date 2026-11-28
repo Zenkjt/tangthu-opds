@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TeT1FCfNnhq92XCSB5Jc7HwA-Dtu8pIc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TKqNYKG_CbH1khQqCjqwRIGSX8P53OOj",
+      "parent_id": "1TeT1FCfNnhq92XCSB5Jc7HwA-Dtu8pIc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12475,
+      "modified": "2026-08-15T08:15:37.000Z",
+      "checksum": "8739e66d7127fc313e850252eaa775a9",
+      "folder": false
+    },
+    {
+      "id": "19OAych91aDBcamhjIsJ-C-WHNxcMJxEp",
+      "parent_id": "1TeT1FCfNnhq92XCSB5Jc7HwA-Dtu8pIc",
+      "name": "Ô VUÔNG THỦY TINH.epub",
+      "mime": "application/epub+zip",
+      "size": 766221,
+      "modified": "2026-08-15T08:15:47.000Z",
+      "checksum": "f2dc46cee87bbd4e86f1f5d1e0638746",
+      "folder": false
+    },
+    {
+      "id": "1kSp_2cCFhOrMh1Roy6MTglgycBYZgkeT",
+      "parent_id": "1TeT1FCfNnhq92XCSB5Jc7HwA-Dtu8pIc",
+      "name": "Ô VUÔNG THỦY TINH.pdf",
+      "mime": "application/pdf",
+      "size": 2973831,
+      "modified": "2026-08-15T08:15:44.000Z",
+      "checksum": "5d028ca6a8b8683e230cb4fb59dee412",
+      "folder": false
+    }
+  ]
+}

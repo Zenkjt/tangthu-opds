@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vJOFMvq21SadBi6fOZmsgpARWHhIFlhF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MFQEyo0AVxwPx_tR0fxJPl_UrPttgAZ6",
+      "parent_id": "1vJOFMvq21SadBi6fOZmsgpARWHhIFlhF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5010,
+      "modified": "2026-08-15T10:07:32.000Z",
+      "checksum": "971595355fe0d3c2e6e594ebbb623743",
+      "folder": false
+    },
+    {
+      "id": "1e0-R-s8-0cdMESuhMLpf1SkTRZWir5Os",
+      "parent_id": "1vJOFMvq21SadBi6fOZmsgpARWHhIFlhF",
+      "name": "TÔMẾCH Ở XỨ SỞ CĂNGURU.epub",
+      "mime": "application/epub+zip",
+      "size": 851971,
+      "modified": "2026-08-15T10:07:40.000Z",
+      "checksum": "0013ded66e2493bf1bafc45c69b71b6e",
+      "folder": false
+    },
+    {
+      "id": "1z5LIqBZuSZ9ReU9t7j0lHIDUvF6OLXM3",
+      "parent_id": "1vJOFMvq21SadBi6fOZmsgpARWHhIFlhF",
+      "name": "TÔMẾCH Ở XỨ SỞ CĂNGURU.pdf",
+      "mime": "application/pdf",
+      "size": 1339104,
+      "modified": "2026-08-15T10:07:37.000Z",
+      "checksum": "c59afa032d2a2791b4ce6d0caff844e6",
+      "folder": false
+    }
+  ]
+}

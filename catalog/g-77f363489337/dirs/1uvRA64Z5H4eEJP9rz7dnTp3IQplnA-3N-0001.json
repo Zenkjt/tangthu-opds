@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uvRA64Z5H4eEJP9rz7dnTp3IQplnA-3N",
+  "page": 1,
+  "items": [
+    {
+      "id": "12Nyxp3diFYymt1WafiRpHTC4Cdh-Xle9",
+      "parent_id": "1uvRA64Z5H4eEJP9rz7dnTp3IQplnA-3N",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3295,
+      "modified": "2026-08-16T04:12:50.000Z",
+      "checksum": "08ef495e70d05f0eab25ec04a0b97abc",
+      "folder": false
+    },
+    {
+      "id": "1eRIOvc6srffoBejbGDa_nfVq44rQW8BU",
+      "parent_id": "1uvRA64Z5H4eEJP9rz7dnTp3IQplnA-3N",
+      "name": "NGỤY KIỀU HOÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 415955,
+      "modified": "2026-08-16T04:12:55.000Z",
+      "checksum": "86a02c407828f82e0afe985781fc8051",
+      "folder": false
+    },
+    {
+      "id": "1_-IqHkxr0bt2LGgA65pZVesGYmLLvPBL",
+      "parent_id": "1uvRA64Z5H4eEJP9rz7dnTp3IQplnA-3N",
+      "name": "NGỤY KIỀU HOÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 556219,
+      "modified": "2026-08-16T04:12:53.000Z",
+      "checksum": "7d6f575ad6bd70719ee870c9a0291f1c",
+      "folder": false
+    }
+  ]
+}

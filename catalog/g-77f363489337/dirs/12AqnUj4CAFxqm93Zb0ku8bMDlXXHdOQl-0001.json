@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12AqnUj4CAFxqm93Zb0ku8bMDlXXHdOQl",
+  "page": 1,
+  "items": [
+    {
+      "id": "10BTO2t98yY8eQ62XhFAdAuXt62CH4CMw",
+      "parent_id": "12AqnUj4CAFxqm93Zb0ku8bMDlXXHdOQl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 497,
+      "modified": "2026-08-15T15:39:37.000Z",
+      "checksum": "339d7fb14756ec0e81e7ef2b69748cb1",
+      "folder": false
+    },
+    {
+      "id": "1E9dYu4jQV0tllPDlAH-x2jWZnmQrEoq6",
+      "parent_id": "12AqnUj4CAFxqm93Zb0ku8bMDlXXHdOQl",
+      "name": "NGƯỜI TỪ MIỀN ĐẤT LẠNH.epub",
+      "mime": "application/epub+zip",
+      "size": 648118,
+      "modified": "2026-08-15T15:39:43.000Z",
+      "checksum": "8624e346d3be4d3833a6c3454e165dde",
+      "folder": false
+    },
+    {
+      "id": "1i5u473Z9k-W5OGH4APcXoOkAb2qYXALP",
+      "parent_id": "12AqnUj4CAFxqm93Zb0ku8bMDlXXHdOQl",
+      "name": "NGƯỜI TỪ MIỀN ĐẤT LẠNH.pdf",
+      "mime": "application/pdf",
+      "size": 1004296,
+      "modified": "2026-08-15T15:39:40.000Z",
+      "checksum": "ee3500b50a6036c25ced983368b387fc",
+      "folder": false
+    }
+  ]
+}

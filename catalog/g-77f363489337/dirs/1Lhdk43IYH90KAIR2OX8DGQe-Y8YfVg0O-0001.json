@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Lhdk43IYH90KAIR2OX8DGQe-Y8YfVg0O",
+  "page": 1,
+  "items": [
+    {
+      "id": "1t6H5xZpFy3vJwWYo3Lt0cD3iBU5gnrLO",
+      "parent_id": "1Lhdk43IYH90KAIR2OX8DGQe-Y8YfVg0O",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 594,
+      "modified": "2026-08-16T04:18:31.000Z",
+      "checksum": "c923c89407c695e9e6fbbe5f5c715559",
+      "folder": false
+    },
+    {
+      "id": "1Db2IB6DyKXaMILhKj7aawpbiPJR8UoRy",
+      "parent_id": "1Lhdk43IYH90KAIR2OX8DGQe-Y8YfVg0O",
+      "name": "LÃN ÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 458924,
+      "modified": "2026-08-16T04:18:37.000Z",
+      "checksum": "a1aaf7a76450c183718409a5ce07a08b",
+      "folder": false
+    },
+    {
+      "id": "1A0MB53193MVMtsoSJzu3JSCCenZPdRlQ",
+      "parent_id": "1Lhdk43IYH90KAIR2OX8DGQe-Y8YfVg0O",
+      "name": "LÃN ÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 964965,
+      "modified": "2026-08-16T04:18:35.000Z",
+      "checksum": "1f0ecda0a220a2c0adb30b192af8c2d9",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1b8KpJmDYXbnFkMpxKwexj4fRxajYgI2v",
+  "page": 1,
+  "items": [
+    {
+      "id": "17V8SH5P99-K5XM9KwXVhwDAa0IbrD4MK",
+      "parent_id": "1b8KpJmDYXbnFkMpxKwexj4fRxajYgI2v",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2294,
+      "modified": "2026-08-15T07:33:06.000Z",
+      "checksum": "76d4386c0a070c7f338eb2d0432d21ec",
+      "folder": false
+    },
+    {
+      "id": "14WlfrUwPxGN76hb2daWodeP7S3DYJXC2",
+      "parent_id": "1b8KpJmDYXbnFkMpxKwexj4fRxajYgI2v",
+      "name": "YÊU HỌA GIANG HỒ.epub",
+      "mime": "application/epub+zip",
+      "size": 1863311,
+      "modified": "2026-08-15T07:33:13.000Z",
+      "checksum": "fd32acc11b26351113d4b8955bb221e9",
+      "folder": false
+    },
+    {
+      "id": "1cKnB-gdUbEALqvJwiNrafy5BDJs0ebBM",
+      "parent_id": "1b8KpJmDYXbnFkMpxKwexj4fRxajYgI2v",
+      "name": "YÊU HỌA GIANG HỒ.pdf",
+      "mime": "application/pdf",
+      "size": 1502309,
+      "modified": "2026-08-15T07:33:10.000Z",
+      "checksum": "9366680aa048e3e8d6fb3108cf068153",
+      "folder": false
+    }
+  ]
+}

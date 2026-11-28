@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-IMohIlojfz0YuqozUISbp63Rsl2d0xt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sD3Db2D3KZoQnZR3fCwl9Tjsji8hX02U",
+      "parent_id": "1-IMohIlojfz0YuqozUISbp63Rsl2d0xt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3203,
+      "modified": "2026-08-16T04:07:28.000Z",
+      "checksum": "3e8e02d602696c99118af68cadc17633",
+      "folder": false
+    },
+    {
+      "id": "1tUsBtez0p1P-KxmGkNQLXXR7lrG9or1X",
+      "parent_id": "1-IMohIlojfz0YuqozUISbp63Rsl2d0xt",
+      "name": "OẢN THANH TI.epub",
+      "mime": "application/epub+zip",
+      "size": 269838,
+      "modified": "2026-08-16T04:07:35.000Z",
+      "checksum": "1316c22ee1389de1b193de0da89b44fc",
+      "folder": false
+    },
+    {
+      "id": "1yESgSKtluPLusN5nmXYPylXkUgQijgML",
+      "parent_id": "1-IMohIlojfz0YuqozUISbp63Rsl2d0xt",
+      "name": "OẢN THANH TI.pdf",
+      "mime": "application/pdf",
+      "size": 688768,
+      "modified": "2026-08-16T04:07:32.000Z",
+      "checksum": "43fc07703ed46ed373b10db69842db07",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15uQcQiC5NnivtPDdLG55Nb0QCEa797TN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PVXI0gqNcggWoHOo4_XktHveN6EIxUo0",
+      "parent_id": "15uQcQiC5NnivtPDdLG55Nb0QCEa797TN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5409,
+      "modified": "2026-08-15T07:09:32.000Z",
+      "checksum": "f2d0c8620bcc1bf7c07a3e307761a5e8",
+      "folder": false
+    },
+    {
+      "id": "1q9cfn8yBxKEzSCbBtZiW3AWB-bJ3A7jV",
+      "parent_id": "15uQcQiC5NnivtPDdLG55Nb0QCEa797TN",
+      "name": "SỐNG NHỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 894728,
+      "modified": "2026-08-15T07:09:38.000Z",
+      "checksum": "7dd74972586f806f41b92e6b9d426528",
+      "folder": false
+    },
+    {
+      "id": "1B2Nx-a2sOAsx6ZA2KPIE8hGmLKqVu6zV",
+      "parent_id": "15uQcQiC5NnivtPDdLG55Nb0QCEa797TN",
+      "name": "SỐNG NHỜ.pdf",
+      "mime": "application/pdf",
+      "size": 917584,
+      "modified": "2026-08-15T07:09:35.000Z",
+      "checksum": "90ad1467a05bcadf5a60a9d61fd15983",
+      "folder": false
+    }
+  ]
+}

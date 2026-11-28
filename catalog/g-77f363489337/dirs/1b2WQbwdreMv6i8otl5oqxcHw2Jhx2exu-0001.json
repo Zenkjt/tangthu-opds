@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1b2WQbwdreMv6i8otl5oqxcHw2Jhx2exu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1407gO-md5UHRC-e5DbXG0bAf_Sb-vI8_",
+      "parent_id": "1b2WQbwdreMv6i8otl5oqxcHw2Jhx2exu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8095,
+      "modified": "2026-08-16T03:11:49.000Z",
+      "checksum": "18624c78e35ccee44dffbb2c1d61363a",
+      "folder": false
+    },
+    {
+      "id": "1bH7kpFiwC7N5IgXa8GqbE01XljEK0OMW",
+      "parent_id": "1b2WQbwdreMv6i8otl5oqxcHw2Jhx2exu",
+      "name": "LĂNG MỘ BẠO CHÚA.epub",
+      "mime": "application/epub+zip",
+      "size": 585554,
+      "modified": "2026-08-16T03:11:56.000Z",
+      "checksum": "bccee009b5f0c6e15ae94703bea44783",
+      "folder": false
+    },
+    {
+      "id": "1_uDgd8P6Ds338yyObDNqKLxwWlEU9uL9",
+      "parent_id": "1b2WQbwdreMv6i8otl5oqxcHw2Jhx2exu",
+      "name": "LĂNG MỘ BẠO CHÚA.pdf",
+      "mime": "application/pdf",
+      "size": 1265807,
+      "modified": "2026-08-16T03:11:54.000Z",
+      "checksum": "663506003dd64892e65b19458344757e",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Tq9bFUOcPavLSJkKYUnLM9AIb2uJmSdV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ykuKP8Y7drI-SiaSz_J0tzGGc6c7sYQU",
+      "parent_id": "1Tq9bFUOcPavLSJkKYUnLM9AIb2uJmSdV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 548,
+      "modified": "2026-08-16T03:47:25.000Z",
+      "checksum": "d8bdd046287bbc16b3b27041be490160",
+      "folder": false
+    },
+    {
+      "id": "1tSuk38wTYilQrc6RrSDb1cLbU2rA22cW",
+      "parent_id": "1Tq9bFUOcPavLSJkKYUnLM9AIb2uJmSdV",
+      "name": "LINH HỒN VÀ QUỶ DỮ.epub",
+      "mime": "application/epub+zip",
+      "size": 717503,
+      "modified": "2026-08-16T03:47:32.000Z",
+      "checksum": "b61b6151d240bb649d40cc8eb17bf72a",
+      "folder": false
+    },
+    {
+      "id": "1JJ0x7MHPpilfg_jJ2cutiejhFQujMdjf",
+      "parent_id": "1Tq9bFUOcPavLSJkKYUnLM9AIb2uJmSdV",
+      "name": "LINH HỒN VÀ QUỶ DỮ.pdf",
+      "mime": "application/pdf",
+      "size": 2004847,
+      "modified": "2026-08-16T03:47:30.000Z",
+      "checksum": "23c9b7b726ef7e6890396b75297cfa48",
+      "folder": false
+    }
+  ]
+}

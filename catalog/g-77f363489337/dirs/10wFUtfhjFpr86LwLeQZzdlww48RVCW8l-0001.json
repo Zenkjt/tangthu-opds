@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10wFUtfhjFpr86LwLeQZzdlww48RVCW8l",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ayHVI0L1CBPYfbrobeggJTFN-7hhfSMU",
+      "parent_id": "10wFUtfhjFpr86LwLeQZzdlww48RVCW8l",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6687,
+      "modified": "2026-08-16T03:12:17.000Z",
+      "checksum": "8480bb0ddd39fe28b2f9b2f9bc991092",
+      "folder": false
+    },
+    {
+      "id": "1so3GGgVjW1RdhpqsvJQep3DhIQ1apf-h",
+      "parent_id": "10wFUtfhjFpr86LwLeQZzdlww48RVCW8l",
+      "name": "DẤU VẾT CỦA MẸ.epub",
+      "mime": "application/epub+zip",
+      "size": 305290,
+      "modified": "2026-08-16T03:12:23.000Z",
+      "checksum": "1cb60e83c33dbbf633bbaf51f13be0d8",
+      "folder": false
+    },
+    {
+      "id": "1GrltIpUI2d-i_SdvWRdmxqTr7WK_Gb3K",
+      "parent_id": "10wFUtfhjFpr86LwLeQZzdlww48RVCW8l",
+      "name": "DẤU VẾT CỦA MẸ.pdf",
+      "mime": "application/pdf",
+      "size": 362504,
+      "modified": "2026-08-16T03:12:21.000Z",
+      "checksum": "f353d8bd6f86da1f68b5a10094f28274",
+      "folder": false
+    }
+  ]
+}

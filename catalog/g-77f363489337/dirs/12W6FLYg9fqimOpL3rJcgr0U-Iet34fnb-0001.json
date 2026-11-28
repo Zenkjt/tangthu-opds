@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12W6FLYg9fqimOpL3rJcgr0U-Iet34fnb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cUXUHATVEy41omBqafzatgxwyprdelQV",
+      "parent_id": "12W6FLYg9fqimOpL3rJcgr0U-Iet34fnb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3214,
+      "modified": "2026-08-15T10:09:29.000Z",
+      "checksum": "eca53005e9df480109b1bded4d36419f",
+      "folder": false
+    },
+    {
+      "id": "1M8layP8NpSo12OY7SZZJK4nT5hfYNfle",
+      "parent_id": "12W6FLYg9fqimOpL3rJcgr0U-Iet34fnb",
+      "name": "TIỂU THƯ VICTORIA.epub",
+      "mime": "application/epub+zip",
+      "size": 403380,
+      "modified": "2026-08-15T10:09:35.000Z",
+      "checksum": "8af45b8d5a05d5355058d8f85e4bf821",
+      "folder": false
+    },
+    {
+      "id": "1mdKaYZybrQTI19e3xNOxiqMMJ2N8Kwnu",
+      "parent_id": "12W6FLYg9fqimOpL3rJcgr0U-Iet34fnb",
+      "name": "TIỂU THƯ VICTORIA.pdf",
+      "mime": "application/pdf",
+      "size": 477120,
+      "modified": "2026-08-15T10:09:33.000Z",
+      "checksum": "3eff49da155d4f5f4f8ceebaadddaf9a",
+      "folder": false
+    }
+  ]
+}

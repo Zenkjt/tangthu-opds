@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IozdEa1BR07hCmJ5_xcLWPiyQyGUy2ei",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rSvoY1U5VGHemGkeCpK8mr6xfsqVHHQl",
+      "parent_id": "1IozdEa1BR07hCmJ5_xcLWPiyQyGUy2ei",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3138,
+      "modified": "2026-08-15T15:31:10.000Z",
+      "checksum": "a59f6f250d551b7f63d85f37695971b5",
+      "folder": false
+    },
+    {
+      "id": "15goW5UV3PPWW09tRNOtGzovcOv7MMr70",
+      "parent_id": "1IozdEa1BR07hCmJ5_xcLWPiyQyGUy2ei",
+      "name": "TẤM VẢI ĐỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 488123,
+      "modified": "2026-08-15T15:31:37.000Z",
+      "checksum": "747363bb7e0445533458c692a080c55b",
+      "folder": false
+    },
+    {
+      "id": "1SIYL0raK98v9uaxMg0JmdA7KTAmkN8WI",
+      "parent_id": "1IozdEa1BR07hCmJ5_xcLWPiyQyGUy2ei",
+      "name": "TẤM VẢI ĐỎ.pdf",
+      "mime": "application/pdf",
+      "size": 997929,
+      "modified": "2026-08-15T15:31:14.000Z",
+      "checksum": "83a69b265abe35bd124d800327866e79",
+      "folder": false
+    }
+  ]
+}

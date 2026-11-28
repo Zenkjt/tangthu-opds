@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RdPEoqQUbLrTGKKujOqPKmx8o_e9IZi2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GO0LgYu37KSXr2lRLhYlnrzfzStIiuIt",
+      "parent_id": "1RdPEoqQUbLrTGKKujOqPKmx8o_e9IZi2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 576,
+      "modified": "2026-08-15T10:15:46.000Z",
+      "checksum": "32905d197a854502e5a481dfb55feeec",
+      "folder": false
+    },
+    {
+      "id": "1eVjipw4OILfthc7AwF7DIIJYWIkY-8wR",
+      "parent_id": "1RdPEoqQUbLrTGKKujOqPKmx8o_e9IZi2",
+      "name": "THÂU TRỌN GIÓ XUÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 774949,
+      "modified": "2026-08-15T10:15:55.000Z",
+      "checksum": "d736a9c4a4b456e41f457f6b7540a1e7",
+      "folder": false
+    },
+    {
+      "id": "19ILlYzC492K5Ph_EQ_mFDkKnAoVKCStR",
+      "parent_id": "1RdPEoqQUbLrTGKKujOqPKmx8o_e9IZi2",
+      "name": "THÂU TRỌN GIÓ XUÂN.pdf",
+      "mime": "application/pdf",
+      "size": 2300050,
+      "modified": "2026-08-15T10:15:52.000Z",
+      "checksum": "43543259a56cf2661969c9a3d8fa4530",
+      "folder": false
+    }
+  ]
+}

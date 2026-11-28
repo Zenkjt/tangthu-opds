@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dcqd6n8uKhEgYo9Vl6zU4JX0jC5BC0Dr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1I9vh1uVUEaCshg346uwIeAHFVJ7ckCqU",
+      "parent_id": "1dcqd6n8uKhEgYo9Vl6zU4JX0jC5BC0Dr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1944,
+      "modified": "2026-08-15T07:26:29.000Z",
+      "checksum": "f59d4f3455932ec6a93b879aa79981b0",
+      "folder": false
+    },
+    {
+      "id": "1JZoPgpEQGrmL5Rnc8juh526689cBIXO-",
+      "parent_id": "1dcqd6n8uKhEgYo9Vl6zU4JX0jC5BC0Dr",
+      "name": "TUYỂN VĨNH ĐAO.epub",
+      "mime": "application/epub+zip",
+      "size": 356831,
+      "modified": "2026-08-15T07:26:34.000Z",
+      "checksum": "2b6d07a57bebfd6ef9a515a84974d720",
+      "folder": false
+    },
+    {
+      "id": "1bVIiKwJ4XYkDsIXCW9aJpHoVbeXPE3HX",
+      "parent_id": "1dcqd6n8uKhEgYo9Vl6zU4JX0jC5BC0Dr",
+      "name": "TUYỂN VĨNH ĐAO.pdf",
+      "mime": "application/pdf",
+      "size": 141732,
+      "modified": "2026-08-15T07:26:32.000Z",
+      "checksum": "6d679d770e22f5c5b4204630db6904fa",
+      "folder": false
+    }
+  ]
+}

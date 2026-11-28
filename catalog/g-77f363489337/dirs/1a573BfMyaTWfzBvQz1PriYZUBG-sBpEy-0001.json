@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1a573BfMyaTWfzBvQz1PriYZUBG-sBpEy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1m37G_RiEez2Rcszv6RwHOWSpg2mIEj8R",
+      "parent_id": "1a573BfMyaTWfzBvQz1PriYZUBG-sBpEy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4195,
+      "modified": "2026-08-15T07:52:47.000Z",
+      "checksum": "5eb946ae8c45424cb6ec2a05de97f5eb",
+      "folder": false
+    },
+    {
+      "id": "14juSCA-CxTk1j18J92fMWE8aTsF-w6c3",
+      "parent_id": "1a573BfMyaTWfzBvQz1PriYZUBG-sBpEy",
+      "name": "EUN-KYO BOI VI DAU NEN MOI LA Y.epub",
+      "mime": "application/epub+zip",
+      "size": 627015,
+      "modified": "2026-08-15T07:53:00.000Z",
+      "checksum": "b65bf800eb1b50d3be7778a7f6c77248",
+      "folder": false
+    },
+    {
+      "id": "1yX5ZcVlPkCg4fx9XH5SfVLS7PmdMCiHA",
+      "parent_id": "1a573BfMyaTWfzBvQz1PriYZUBG-sBpEy",
+      "name": "EUN-KYO BOI VI DAU NEN MOI LA Y.pdf",
+      "mime": "application/pdf",
+      "size": 1601724,
+      "modified": "2026-08-15T07:52:55.000Z",
+      "checksum": "0ebdbf92f457b7eb6cbceed3d5129a4a",
+      "folder": false
+    }
+  ]
+}

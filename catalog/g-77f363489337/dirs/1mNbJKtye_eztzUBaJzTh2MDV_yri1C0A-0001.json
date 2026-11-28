@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mNbJKtye_eztzUBaJzTh2MDV_yri1C0A",
+  "page": 1,
+  "items": [
+    {
+      "id": "101VWxGT_fhx38SOTQZwzJOHNGfHuWXl2",
+      "parent_id": "1mNbJKtye_eztzUBaJzTh2MDV_yri1C0A",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3925,
+      "modified": "2026-08-15T06:11:58.000Z",
+      "checksum": "17c7b01e627332793fd9ca69b48cdc74",
+      "folder": false
+    },
+    {
+      "id": "19udWQtY2eZI66fMQAeNIEgNnwFVETS6_",
+      "parent_id": "1mNbJKtye_eztzUBaJzTh2MDV_yri1C0A",
+      "name": "SỐNG VÀ SUY NGẪM.epub",
+      "mime": "application/epub+zip",
+      "size": 364863,
+      "modified": "2026-08-15T06:12:05.000Z",
+      "checksum": "5b7c2652c30071b83799a39e9e88abf3",
+      "folder": false
+    },
+    {
+      "id": "1odiGQJmmK9RWIPjFuLfuJoR5-T59l2Wc",
+      "parent_id": "1mNbJKtye_eztzUBaJzTh2MDV_yri1C0A",
+      "name": "SỐNG VÀ SUY NGẪM.pdf",
+      "mime": "application/pdf",
+      "size": 1226522,
+      "modified": "2026-08-15T06:12:03.000Z",
+      "checksum": "efaa8c1d81a4568afd695d361c8e0251",
+      "folder": false
+    }
+  ]
+}

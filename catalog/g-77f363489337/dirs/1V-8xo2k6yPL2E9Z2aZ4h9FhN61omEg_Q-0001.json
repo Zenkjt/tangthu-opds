@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1V-8xo2k6yPL2E9Z2aZ4h9FhN61omEg_Q",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uAyAVUFVDplvMXUehUsz4tojjFUViAwQ",
+      "parent_id": "1V-8xo2k6yPL2E9Z2aZ4h9FhN61omEg_Q",
+      "name": "CHUYỆN TRƯỜNG TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 365971,
+      "modified": "2026-08-15T06:53:59.000Z",
+      "checksum": "93dccb8f4044829043ce0ff20eec3b8b",
+      "folder": false
+    },
+    {
+      "id": "19LmCepgh8uwsxE92cYpbQzxfsdW1kGcl",
+      "parent_id": "1V-8xo2k6yPL2E9Z2aZ4h9FhN61omEg_Q",
+      "name": "CHUYỆN TRƯỜNG TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 175064,
+      "modified": "2026-08-15T06:53:54.000Z",
+      "checksum": "1509dffe5af70fba41baa79b1987a334",
+      "folder": false
+    },
+    {
+      "id": "1wBproW9wCq-nJCmRb0qbR5ml5QDM882K",
+      "parent_id": "1V-8xo2k6yPL2E9Z2aZ4h9FhN61omEg_Q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 842,
+      "modified": "2026-08-15T06:53:50.000Z",
+      "checksum": "0b7dce103d0a959f547eae9d8d0aff34",
+      "folder": false
+    }
+  ]
+}

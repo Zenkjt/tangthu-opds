@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mKDr9HjaZrJ9bb9NVP3kEDA5C8saYiJO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZfY0BVs9k8oW05hqMpmEAK-9lFWOeq9o",
+      "parent_id": "1mKDr9HjaZrJ9bb9NVP3kEDA5C8saYiJO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7603,
+      "modified": "2026-08-15T07:30:54.000Z",
+      "checksum": "fdcfa126d5ae7d4218cc2655d19ced3a",
+      "folder": false
+    },
+    {
+      "id": "1xU3AScEFQmBnWZZGKxDiDk5BDgXumqSe",
+      "parent_id": "1mKDr9HjaZrJ9bb9NVP3kEDA5C8saYiJO",
+      "name": "VÙNG TRỜI MƠ ƯỚC.epub",
+      "mime": "application/epub+zip",
+      "size": 500434,
+      "modified": "2026-08-15T07:31:03.000Z",
+      "checksum": "4d813ba2f2370d520fe5bc0b37b7e106",
+      "folder": false
+    },
+    {
+      "id": "1CW3oroNmivKgm3JvNhRIDBu-IqeBF4cU",
+      "parent_id": "1mKDr9HjaZrJ9bb9NVP3kEDA5C8saYiJO",
+      "name": "VÙNG TRỜI MƠ ƯỚC.pdf",
+      "mime": "application/pdf",
+      "size": 599818,
+      "modified": "2026-08-15T07:31:00.000Z",
+      "checksum": "9f007f4c2b8696e2a2a2a4f9baa3af7a",
+      "folder": false
+    }
+  ]
+}

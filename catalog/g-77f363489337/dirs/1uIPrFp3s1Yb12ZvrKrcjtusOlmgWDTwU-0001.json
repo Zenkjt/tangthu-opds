@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uIPrFp3s1Yb12ZvrKrcjtusOlmgWDTwU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1x0jXBYUAa4uJ895VoOqdWuyWJ4O9Xep8",
+      "parent_id": "1uIPrFp3s1Yb12ZvrKrcjtusOlmgWDTwU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2643,
+      "modified": "2026-08-15T03:42:34.000Z",
+      "checksum": "afcd3253a264605128c7695a4bdf09d4",
+      "folder": false
+    },
+    {
+      "id": "1whmarPpYraTStzHTD4FLiltsrlFvOw0G",
+      "parent_id": "1uIPrFp3s1Yb12ZvrKrcjtusOlmgWDTwU",
+      "name": "LỊCH SỬ THIỀN TÔNG NHẬT BẢN.epub",
+      "mime": "application/epub+zip",
+      "size": 400402,
+      "modified": "2026-08-15T03:42:41.000Z",
+      "checksum": "16581a9fe38a4069cb03b1a437ed4ab5",
+      "folder": false
+    },
+    {
+      "id": "18rJJOpiRSDNFzBqqbJ407oDLDs-hOveT",
+      "parent_id": "1uIPrFp3s1Yb12ZvrKrcjtusOlmgWDTwU",
+      "name": "LỊCH SỬ THIỀN TÔNG NHẬT BẢN.pdf",
+      "mime": "application/pdf",
+      "size": 1101400,
+      "modified": "2026-08-15T03:42:38.000Z",
+      "checksum": "458085340198ebc7eb6f897c277ad295",
+      "folder": false
+    }
+  ]
+}

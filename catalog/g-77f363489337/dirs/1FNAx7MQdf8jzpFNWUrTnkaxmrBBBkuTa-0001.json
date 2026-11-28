@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FNAx7MQdf8jzpFNWUrTnkaxmrBBBkuTa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sJ8hgkKK-dovspSiOIllZTeQ2KwtaulW",
+      "parent_id": "1FNAx7MQdf8jzpFNWUrTnkaxmrBBBkuTa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 796,
+      "modified": "2026-08-15T10:57:25.000Z",
+      "checksum": "d3a949bcb290931497085df938ea1d6a",
+      "folder": false
+    },
+    {
+      "id": "1yWeLGPqRmZRaqOoVcFleC7jgtRQW6kfm",
+      "parent_id": "1FNAx7MQdf8jzpFNWUrTnkaxmrBBBkuTa",
+      "name": "GẶP GỠ Ở LA PAN TẨN.epub",
+      "mime": "application/epub+zip",
+      "size": 613968,
+      "modified": "2026-08-15T10:57:32.000Z",
+      "checksum": "beab13daabf5e4454e4ce69a54617fb5",
+      "folder": false
+    },
+    {
+      "id": "1Xfn8Fo9fgWvgo907lV-Y3uPdJQsJf--d",
+      "parent_id": "1FNAx7MQdf8jzpFNWUrTnkaxmrBBBkuTa",
+      "name": "GẶP GỠ Ở LA PAN TẨN.pdf",
+      "mime": "application/pdf",
+      "size": 840983,
+      "modified": "2026-08-15T10:57:29.000Z",
+      "checksum": "740cef1ce268471ab4a222206dc2033a",
+      "folder": false
+    }
+  ]
+}

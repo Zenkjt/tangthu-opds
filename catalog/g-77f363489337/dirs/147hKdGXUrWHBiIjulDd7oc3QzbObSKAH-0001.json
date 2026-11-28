@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "147hKdGXUrWHBiIjulDd7oc3QzbObSKAH",
+  "page": 1,
+  "items": [
+    {
+      "id": "14XNIpeXAomgMFXpxEKmo5TQGjxj8p8ss",
+      "parent_id": "147hKdGXUrWHBiIjulDd7oc3QzbObSKAH",
+      "name": "BÌNH HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 503306,
+      "modified": "2026-08-15T17:03:49.000Z",
+      "checksum": "804ed967ec47b4f1e9116874cd14253b",
+      "folder": false
+    },
+    {
+      "id": "1LAW7mQWNi7sUblV5kiu-e5O-kMyzG3sO",
+      "parent_id": "147hKdGXUrWHBiIjulDd7oc3QzbObSKAH",
+      "name": "BÌNH HOA.pdf",
+      "mime": "application/pdf",
+      "size": 852743,
+      "modified": "2026-08-15T17:03:47.000Z",
+      "checksum": "32c31e52a9509b0323eedb377f09a23b",
+      "folder": false
+    },
+    {
+      "id": "1FzjADE1APrjXNhz_Lbal75z2qsGz9_gu",
+      "parent_id": "147hKdGXUrWHBiIjulDd7oc3QzbObSKAH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4211,
+      "modified": "2026-08-15T17:03:43.000Z",
+      "checksum": "8c6e92dda1056c5b89780b8d2ebfff6b",
+      "folder": false
+    }
+  ]
+}

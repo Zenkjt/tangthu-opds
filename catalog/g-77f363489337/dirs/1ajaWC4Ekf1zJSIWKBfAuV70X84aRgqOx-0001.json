@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ajaWC4Ekf1zJSIWKBfAuV70X84aRgqOx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lwXhXj83zTwW7CcR6esu62LpzL7iTh0s",
+      "parent_id": "1ajaWC4Ekf1zJSIWKBfAuV70X84aRgqOx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5522,
+      "modified": "2026-08-15T09:36:22.000Z",
+      "checksum": "407ae3b0ac28285f566d3052e43bd027",
+      "folder": false
+    },
+    {
+      "id": "1tryaiDfqpu0g9s5OU8k8gHSsR0EhfcMn",
+      "parent_id": "1ajaWC4Ekf1zJSIWKBfAuV70X84aRgqOx",
+      "name": "ĐỨA CON GÁI HOANG ĐÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1171823,
+      "modified": "2026-08-15T09:36:33.000Z",
+      "checksum": "2089edbbc5c0551e096b41c30be89ae2",
+      "folder": false
+    },
+    {
+      "id": "12QUhgoEBxnb4XzvSCLJwGxxJCAijExge",
+      "parent_id": "1ajaWC4Ekf1zJSIWKBfAuV70X84aRgqOx",
+      "name": "ĐỨA CON GÁI HOANG ĐÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 2362102,
+      "modified": "2026-08-15T09:36:31.000Z",
+      "checksum": "3f0e707dae108d7035b49227bcc11859",
+      "folder": false
+    }
+  ]
+}

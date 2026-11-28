@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-FOvtvQ51rAa-W-3XTxZmskoC69uzGOJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-GvBwUceUmtosBb7WG8Itvo3Xl8ja-UZ",
+      "parent_id": "1-FOvtvQ51rAa-W-3XTxZmskoC69uzGOJ",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 7576,
+      "modified": "2026-08-15T08:19:36.000Z",
+      "checksum": "32176469b9ae00f15397c11bd4a10a0a",
+      "folder": false
+    },
+    {
+      "id": "1N7Z2yrAfl7l1ptY7h_R6dGE6Aa6L7mVY",
+      "parent_id": "1-FOvtvQ51rAa-W-3XTxZmskoC69uzGOJ",
+      "name": "LỜI HỨA CỦA ANH LÀ BIỂN XANH CỦA EM.epub",
+      "mime": "application/epub+zip",
+      "size": 1950809,
+      "modified": "2026-08-15T08:19:46.000Z",
+      "checksum": "61a1132ec7902f11b46f2c7a1bab880f",
+      "folder": false
+    },
+    {
+      "id": "1T_XslbjdzxHKgu7kbuRvyE3LCqV9iWNv",
+      "parent_id": "1-FOvtvQ51rAa-W-3XTxZmskoC69uzGOJ",
+      "name": "LỜI HỨA CỦA ANH LÀ BIỂN XANH CỦA EM.pdf",
+      "mime": "application/pdf",
+      "size": 2039940,
+      "modified": "2026-08-15T08:19:42.000Z",
+      "checksum": "77ae6292c77862c1bacf09cc2e0eac03",
+      "folder": false
+    }
+  ]
+}

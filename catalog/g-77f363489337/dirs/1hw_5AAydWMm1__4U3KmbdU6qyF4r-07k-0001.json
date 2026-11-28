@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hw_5AAydWMm1__4U3KmbdU6qyF4r-07k",
+  "page": 1,
+  "items": [
+    {
+      "id": "1op0ghkl4GqCbjqZ2GXIjTlNCqHeguL4T",
+      "parent_id": "1hw_5AAydWMm1__4U3KmbdU6qyF4r-07k",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1846,
+      "modified": "2026-08-15T07:53:56.000Z",
+      "checksum": "224a3eafddbf1798b27441f74f8762be",
+      "folder": false
+    },
+    {
+      "id": "1xxf8TQJ0iQjfeKBk05fVLBkk7VqO_6Kh",
+      "parent_id": "1hw_5AAydWMm1__4U3KmbdU6qyF4r-07k",
+      "name": "THẦN HỔ.epub",
+      "mime": "application/epub+zip",
+      "size": 464147,
+      "modified": "2026-08-15T07:54:02.000Z",
+      "checksum": "f151b80beb29e6de1273f7d02f950acc",
+      "folder": false
+    },
+    {
+      "id": "1opd4ro-K4c7huXvkCnD0U8rwt7O6j7hs",
+      "parent_id": "1hw_5AAydWMm1__4U3KmbdU6qyF4r-07k",
+      "name": "THẦN HỔ.pdf",
+      "mime": "application/pdf",
+      "size": 227622,
+      "modified": "2026-08-15T07:54:00.000Z",
+      "checksum": "6f763e0fba6e129e03cf5bdc2a6f1fca",
+      "folder": false
+    }
+  ]
+}

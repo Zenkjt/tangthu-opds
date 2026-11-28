@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "169xR6_lEpNK5SI0JvDa7kOkPrs6DP-WG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uGmcmyN7732bfOhzpWx2p9tSJNtJqyC-",
+      "parent_id": "169xR6_lEpNK5SI0JvDa7kOkPrs6DP-WG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 814,
+      "modified": "2026-08-15T10:59:39.000Z",
+      "checksum": "a62aff6d1286e40564a19daf797a9497",
+      "folder": false
+    },
+    {
+      "id": "1TBulKOw7GOp9Da-T7ggc4flUPsL8vLif",
+      "parent_id": "169xR6_lEpNK5SI0JvDa7kOkPrs6DP-WG",
+      "name": "ĐẠO QUÁN CÓ MA.epub",
+      "mime": "application/epub+zip",
+      "size": 1003182,
+      "modified": "2026-08-15T10:59:47.000Z",
+      "checksum": "b5295f258d13d00e4e8eec3ae38eb2ee",
+      "folder": false
+    },
+    {
+      "id": "1Oh89kTWve5fcZcWS4elESMcNttiHGTao",
+      "parent_id": "169xR6_lEpNK5SI0JvDa7kOkPrs6DP-WG",
+      "name": "ĐẠO QUÁN CÓ MA.pdf",
+      "mime": "application/pdf",
+      "size": 1173065,
+      "modified": "2026-08-15T10:59:44.000Z",
+      "checksum": "cb42d704dc4627c341ba22d30dd1ceed",
+      "folder": false
+    }
+  ]
+}

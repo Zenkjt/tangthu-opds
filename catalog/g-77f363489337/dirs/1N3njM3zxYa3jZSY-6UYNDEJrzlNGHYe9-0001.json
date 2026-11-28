@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1N3njM3zxYa3jZSY-6UYNDEJrzlNGHYe9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YXCzFaYjiyIAoPYLXu-dzFFwztiVmCjL",
+      "parent_id": "1N3njM3zxYa3jZSY-6UYNDEJrzlNGHYe9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3779,
+      "modified": "2026-08-15T10:11:46.000Z",
+      "checksum": "c8de922780e333a690199c4270bbd310",
+      "folder": false
+    },
+    {
+      "id": "1wbiQ0PfyrEZuESA-6Ika_B43WeF_SzM-",
+      "parent_id": "1N3njM3zxYa3jZSY-6UYNDEJrzlNGHYe9",
+      "name": "THƯƠNG CẢ CHO ĐỜI BẠC.epub",
+      "mime": "application/epub+zip",
+      "size": 433337,
+      "modified": "2026-08-15T10:11:53.000Z",
+      "checksum": "e03db17917d040ddbeb560e120af9118",
+      "folder": false
+    },
+    {
+      "id": "1Gm5b2rcjbZqGTcMS0b7kmUB8014_xS2I",
+      "parent_id": "1N3njM3zxYa3jZSY-6UYNDEJrzlNGHYe9",
+      "name": "THƯƠNG CẢ CHO ĐỜI BẠC.pdf",
+      "mime": "application/pdf",
+      "size": 133889,
+      "modified": "2026-08-15T10:11:50.000Z",
+      "checksum": "f0c50e551778d92d240bfcb59b645378",
+      "folder": false
+    }
+  ]
+}

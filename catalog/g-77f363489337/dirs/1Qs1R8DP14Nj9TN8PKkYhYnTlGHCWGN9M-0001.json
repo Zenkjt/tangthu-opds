@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Qs1R8DP14Nj9TN8PKkYhYnTlGHCWGN9M",
+  "page": 1,
+  "items": [
+    {
+      "id": "1b1koAn5Zf_clXnT_goMHKlFi80HkyjcX",
+      "parent_id": "1Qs1R8DP14Nj9TN8PKkYhYnTlGHCWGN9M",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 501,
+      "modified": "2026-08-16T03:47:24.000Z",
+      "checksum": "7faaeaef5a97e4494b4e56b59f8f91aa",
+      "folder": false
+    },
+    {
+      "id": "1CPv5BkFNR5SUJMrw6U1KdDUiKZzQCRvJ",
+      "parent_id": "1Qs1R8DP14Nj9TN8PKkYhYnTlGHCWGN9M",
+      "name": "HƯƠNG CỎ DẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 185122,
+      "modified": "2026-08-16T03:47:30.000Z",
+      "checksum": "9c70d51294ee2d7edcf3e7bc4b061667",
+      "folder": false
+    },
+    {
+      "id": "1Ip5rD6zcZB0GzeWTL8thi4JMcVoi6oc2",
+      "parent_id": "1Qs1R8DP14Nj9TN8PKkYhYnTlGHCWGN9M",
+      "name": "HƯƠNG CỎ DẠI.pdf",
+      "mime": "application/pdf",
+      "size": 454985,
+      "modified": "2026-08-16T03:47:28.000Z",
+      "checksum": "40130d4136adcd0643a6055e8c1fa673",
+      "folder": false
+    }
+  ]
+}

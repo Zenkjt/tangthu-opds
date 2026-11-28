@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13mwYtuwXE9DxfeRc4k16M_abb5C9CRRi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1X96jdgWQrCttwuiobOpJW3--w3AmCu-N",
+      "parent_id": "13mwYtuwXE9DxfeRc4k16M_abb5C9CRRi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3486,
+      "modified": "2026-08-15T10:47:45.000Z",
+      "checksum": "a554b7d7d18d361f94fc36c2b5f4249d",
+      "folder": false
+    },
+    {
+      "id": "1qyqwA4Uno6R5xS8OEXGL6N2A2oB4JPpB",
+      "parent_id": "13mwYtuwXE9DxfeRc4k16M_abb5C9CRRi",
+      "name": "NẾU NHƯ YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 898738,
+      "modified": "2026-08-15T10:47:53.000Z",
+      "checksum": "896d4a11df0116d060084bd3f44c2b2d",
+      "folder": false
+    },
+    {
+      "id": "1PEXmpObWDdRaHdsZKb8Ik8LS1y-36T06",
+      "parent_id": "13mwYtuwXE9DxfeRc4k16M_abb5C9CRRi",
+      "name": "NẾU NHƯ YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1206413,
+      "modified": "2026-08-15T10:47:50.000Z",
+      "checksum": "aac8f3aa0d998fb8eb5e981defb1a534",
+      "folder": false
+    }
+  ]
+}

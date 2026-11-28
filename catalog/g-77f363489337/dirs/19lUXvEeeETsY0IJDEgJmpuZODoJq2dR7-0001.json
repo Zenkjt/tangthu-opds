@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19lUXvEeeETsY0IJDEgJmpuZODoJq2dR7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GeoPYUta59QWRTABzEu1WYdT-ruObrCo",
+      "parent_id": "19lUXvEeeETsY0IJDEgJmpuZODoJq2dR7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2931,
+      "modified": "2026-08-15T07:22:40.000Z",
+      "checksum": "00dcf976fb6337c037c88df06276d40f",
+      "folder": false
+    },
+    {
+      "id": "1H28eUhk5B7G2gkKXxwOpRiUWLrB9WotA",
+      "parent_id": "19lUXvEeeETsY0IJDEgJmpuZODoJq2dR7",
+      "name": "TRƯỚC LÚC NGỦ SAY.epub",
+      "mime": "application/epub+zip",
+      "size": 470845,
+      "modified": "2026-08-15T07:22:47.000Z",
+      "checksum": "19037119964944f3f48e701c758cc046",
+      "folder": false
+    },
+    {
+      "id": "1VcX3n2EN9kURJ9pPMmARH88MBbPS-_gS",
+      "parent_id": "19lUXvEeeETsY0IJDEgJmpuZODoJq2dR7",
+      "name": "TRƯỚC LÚC NGỦ SAY.pdf",
+      "mime": "application/pdf",
+      "size": 1387126,
+      "modified": "2026-08-15T07:22:44.000Z",
+      "checksum": "019dde9b17cfe34b3fed4040bb3e799c",
+      "folder": false
+    }
+  ]
+}

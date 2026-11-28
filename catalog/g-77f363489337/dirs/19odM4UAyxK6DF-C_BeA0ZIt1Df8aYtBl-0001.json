@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19odM4UAyxK6DF-C_BeA0ZIt1Df8aYtBl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1x5ZE2CC-EzNd8BM5GV7zbi4foRdqLP-s",
+      "parent_id": "19odM4UAyxK6DF-C_BeA0ZIt1Df8aYtBl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1763,
+      "modified": "2026-08-16T03:09:41.000Z",
+      "checksum": "ed5efb239f5766c605dc0a14874194ff",
+      "folder": false
+    },
+    {
+      "id": "18eELJ7EYuIUFHvXbb8vNcluHSsJ9ahNK",
+      "parent_id": "19odM4UAyxK6DF-C_BeA0ZIt1Df8aYtBl",
+      "name": "QUẢNG TRƯỜNG NGÔI SAO.epub",
+      "mime": "application/epub+zip",
+      "size": 523442,
+      "modified": "2026-08-16T03:09:48.000Z",
+      "checksum": "abff8fb18744eb7dd402f95f1198a4e6",
+      "folder": false
+    },
+    {
+      "id": "1zeSJ4sxHIJ31qhON51Wx8IdCPR6S5mzN",
+      "parent_id": "19odM4UAyxK6DF-C_BeA0ZIt1Df8aYtBl",
+      "name": "QUẢNG TRƯỜNG NGÔI SAO.pdf",
+      "mime": "application/pdf",
+      "size": 924743,
+      "modified": "2026-08-16T03:09:46.000Z",
+      "checksum": "427e57e3b74ee6c0946ffa0ee984fdec",
+      "folder": false
+    }
+  ]
+}

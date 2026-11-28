@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1u0_g4VOtj4hE3ahqFuBel9dF3OyxPQgE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QMuxyjxIrBCvUql9H7CKbs7-x208-pgA",
+      "parent_id": "1u0_g4VOtj4hE3ahqFuBel9dF3OyxPQgE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3548,
+      "modified": "2026-08-16T03:59:27.000Z",
+      "checksum": "a057013e7e363a966d6cd9f3548edee4",
+      "folder": false
+    },
+    {
+      "id": "1mKFSfpfTRegflsjJsxc1CC2lxlbHQHJK",
+      "parent_id": "1u0_g4VOtj4hE3ahqFuBel9dF3OyxPQgE",
+      "name": "THANH GƯƠM HUYỀN BÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 780462,
+      "modified": "2026-08-16T03:59:33.000Z",
+      "checksum": "d0ff7a1548ec76089e24cc8a5e086598",
+      "folder": false
+    },
+    {
+      "id": "1sbpPMMBfeMtFtg_UPvVlexY3-FuPOrta",
+      "parent_id": "1u0_g4VOtj4hE3ahqFuBel9dF3OyxPQgE",
+      "name": "THANH GƯƠM HUYỀN BÍ.pdf",
+      "mime": "application/pdf",
+      "size": 776235,
+      "modified": "2026-08-16T03:59:31.000Z",
+      "checksum": "0c11c1a047f2f4d6518540900b1bcf15",
+      "folder": false
+    }
+  ]
+}

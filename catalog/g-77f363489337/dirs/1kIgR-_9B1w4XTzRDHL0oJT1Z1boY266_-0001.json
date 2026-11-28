@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kIgR-_9B1w4XTzRDHL0oJT1Z1boY266_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qB2aM3K_xmuA1ekzx_ZN7gSm7LxrJ7r3",
+      "parent_id": "1kIgR-_9B1w4XTzRDHL0oJT1Z1boY266_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5330,
+      "modified": "2026-08-15T01:00:58.000Z",
+      "checksum": "a2de0a5c1255934596c3575768319689",
+      "folder": false
+    },
+    {
+      "id": "1wGKYJLruVcJ5dzqhqTlCGS6_5Lg_36YY",
+      "parent_id": "1kIgR-_9B1w4XTzRDHL0oJT1Z1boY266_",
+      "name": "THOÁT KHỎI BẪY CẢM XÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 640884,
+      "modified": "2026-08-15T01:01:08.000Z",
+      "checksum": "4eeb03c84b015e9e7643a64feb1bd2dc",
+      "folder": false
+    },
+    {
+      "id": "1K9XopUUxJ4bnrj85g8lpN_3bMVkkmH04",
+      "parent_id": "1kIgR-_9B1w4XTzRDHL0oJT1Z1boY266_",
+      "name": "THOÁT KHỎI BẪY CẢM XÚC.pdf",
+      "mime": "application/pdf",
+      "size": 2707487,
+      "modified": "2026-08-15T01:01:05.000Z",
+      "checksum": "fe33c6249f2a00dd0fde2d5c20f0856e",
+      "folder": false
+    }
+  ]
+}

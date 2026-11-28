@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zCdPd5-rYuaLf24OGPeQ3Hoys6_RZ7O5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mhAHQHAORelJ-qTZFCl3vFDAvoz8MUhh",
+      "parent_id": "1zCdPd5-rYuaLf24OGPeQ3Hoys6_RZ7O5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1795,
+      "modified": "2026-08-15T15:14:48.000Z",
+      "checksum": "976685d618544169560f596666347341",
+      "folder": false
+    },
+    {
+      "id": "15CF_wKJy2rHV2PvzDg8WiKU3SZvZzgFQ",
+      "parent_id": "1zCdPd5-rYuaLf24OGPeQ3Hoys6_RZ7O5",
+      "name": "HẠ TUẾ THIÊN 2013.epub",
+      "mime": "application/epub+zip",
+      "size": 476441,
+      "modified": "2026-08-15T15:14:54.000Z",
+      "checksum": "a41e324d1830a4ce42608e5ea79c297e",
+      "folder": false
+    },
+    {
+      "id": "1z4fwH0_ofVP85_jZPZB-Gi5fYHGShkXw",
+      "parent_id": "1zCdPd5-rYuaLf24OGPeQ3Hoys6_RZ7O5",
+      "name": "HẠ TUẾ THIÊN 2013.pdf",
+      "mime": "application/pdf",
+      "size": 380275,
+      "modified": "2026-08-15T15:14:52.000Z",
+      "checksum": "880298cf59411bdf572bc91c0f9b8dce",
+      "folder": false
+    }
+  ]
+}

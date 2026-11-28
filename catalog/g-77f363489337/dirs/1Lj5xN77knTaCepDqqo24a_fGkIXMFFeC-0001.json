@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Lj5xN77knTaCepDqqo24a_fGkIXMFFeC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ijxyclom4df_wPus9A0tCH4PEnDjfaSO",
+      "parent_id": "1Lj5xN77knTaCepDqqo24a_fGkIXMFFeC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4438,
+      "modified": "2026-08-15T07:24:09.000Z",
+      "checksum": "bedae939cef072e77e62c773c129a3d8",
+      "folder": false
+    },
+    {
+      "id": "1sK8PJTVjzxzWN8ugLFQXqfSruM16xvum",
+      "parent_id": "1Lj5xN77knTaCepDqqo24a_fGkIXMFFeC",
+      "name": "TÙ PHI TÀ VƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1211660,
+      "modified": "2026-08-15T07:24:24.000Z",
+      "checksum": "00f0a4de053cb081eb361a98761f28d1",
+      "folder": false
+    },
+    {
+      "id": "1erV7NsaohIEX0K6RB_nxaBshAsRjnFDJ",
+      "parent_id": "1Lj5xN77knTaCepDqqo24a_fGkIXMFFeC",
+      "name": "TÙ PHI TÀ VƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 4708948,
+      "modified": "2026-08-15T07:24:21.000Z",
+      "checksum": "4b2220d2f037adc8ca0dea4fa3095f3a",
+      "folder": false
+    }
+  ]
+}

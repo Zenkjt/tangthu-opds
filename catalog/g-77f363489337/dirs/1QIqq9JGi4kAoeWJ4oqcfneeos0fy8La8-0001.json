@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QIqq9JGi4kAoeWJ4oqcfneeos0fy8La8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HlrqCpAlPGPQezWxqDFoeam8zIUyZn57",
+      "parent_id": "1QIqq9JGi4kAoeWJ4oqcfneeos0fy8La8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2061,
+      "modified": "2026-08-15T01:01:18.000Z",
+      "checksum": "132094ad2170c37b9889128a27a6f916",
+      "folder": false
+    },
+    {
+      "id": "13AHC6jYShOW9wJ1EHisZ5PVyHjj-fDz3",
+      "parent_id": "1QIqq9JGi4kAoeWJ4oqcfneeos0fy8La8",
+      "name": "NGHỆ THUẬT NÂNG CAO CHẤT LƯỢNG CÔNG VIỆC.epub",
+      "mime": "application/epub+zip",
+      "size": 535638,
+      "modified": "2026-08-15T01:01:26.000Z",
+      "checksum": "c8536d4e981b3eb00006c39cd124191f",
+      "folder": false
+    },
+    {
+      "id": "1Kwz6YpfT1b5qX1thjb5mOKeWN40t59qm",
+      "parent_id": "1QIqq9JGi4kAoeWJ4oqcfneeos0fy8La8",
+      "name": "NGHỆ THUẬT NÂNG CAO CHẤT LƯỢNG CÔNG VIỆC.pdf",
+      "mime": "application/pdf",
+      "size": 1078287,
+      "modified": "2026-08-15T01:01:24.000Z",
+      "checksum": "cb87762de81a307b234544a37be93102",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13P7TtZR9SmcT4g1IKmJPjEY9KhakKGXU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Yx457GgS2BAJp395PoJeqalbr89k7j8X",
+      "parent_id": "13P7TtZR9SmcT4g1IKmJPjEY9KhakKGXU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6427,
+      "modified": "2026-08-15T03:42:29.000Z",
+      "checksum": "73049e2a479019743e078266321ba031",
+      "folder": false
+    },
+    {
+      "id": "1R7-bV-Yjuk7_9NFkLwNbWaW5rwLbht2p",
+      "parent_id": "13P7TtZR9SmcT4g1IKmJPjEY9KhakKGXU",
+      "name": "MUÔN DẶM KHÔNG MÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 818915,
+      "modified": "2026-08-15T03:42:38.000Z",
+      "checksum": "f209f4f8da1702e1342ffed79a519621",
+      "folder": false
+    },
+    {
+      "id": "1YlKsg-jzrtD-mLJsAcEDF4Qub--9_qyi",
+      "parent_id": "13P7TtZR9SmcT4g1IKmJPjEY9KhakKGXU",
+      "name": "MUÔN DẶM KHÔNG MÂY.pdf",
+      "mime": "application/pdf",
+      "size": 1654350,
+      "modified": "2026-08-15T03:42:35.000Z",
+      "checksum": "dd83dd7cff7cf6baf16eb7b930e44818",
+      "folder": false
+    }
+  ]
+}

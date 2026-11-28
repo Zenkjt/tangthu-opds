@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Z57Sc2FvS7a8gPtgTpMz_LvPQM1CD7du",
+  "page": 1,
+  "items": [
+    {
+      "id": "177hHbhNs6RsgA68a5Lzhy4wDQQMd64Rk",
+      "parent_id": "1Z57Sc2FvS7a8gPtgTpMz_LvPQM1CD7du",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1222,
+      "modified": "2026-08-15T04:22:48.000Z",
+      "checksum": "0df8f699d95ad1a31ca779d06edb3f4e",
+      "folder": false
+    },
+    {
+      "id": "1Ky_lH8a0JL6-bhe8QLPM99kQZraAkJP2",
+      "parent_id": "1Z57Sc2FvS7a8gPtgTpMz_LvPQM1CD7du",
+      "name": "GIỚI THIỆU SINH TRẮC VÂN TAY.epub",
+      "mime": "application/epub+zip",
+      "size": 833294,
+      "modified": "2026-08-15T04:22:55.000Z",
+      "checksum": "0f4411f65badf888a50409b1fc4f23ee",
+      "folder": false
+    },
+    {
+      "id": "1yZYRP7aSv1VxQqOAh3TCLJrSfvmGxzAh",
+      "parent_id": "1Z57Sc2FvS7a8gPtgTpMz_LvPQM1CD7du",
+      "name": "GIỚI THIỆU SINH TRẮC VÂN TAY.pdf",
+      "mime": "application/pdf",
+      "size": 872634,
+      "modified": "2026-08-15T04:22:52.000Z",
+      "checksum": "d2281c890f6934043ba3be892c0aabc5",
+      "folder": false
+    }
+  ]
+}

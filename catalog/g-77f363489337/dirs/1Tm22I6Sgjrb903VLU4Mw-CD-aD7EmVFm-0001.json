@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Tm22I6Sgjrb903VLU4Mw-CD-aD7EmVFm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xWTwYJ6hhaP_UmNXgELQ9vZvZcMPWbYq",
+      "parent_id": "1Tm22I6Sgjrb903VLU4Mw-CD-aD7EmVFm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8147,
+      "modified": "2026-08-15T03:52:35.000Z",
+      "checksum": "85d85be471f4bf54ea71be10666bca6d",
+      "folder": false
+    },
+    {
+      "id": "1N1TSPq-EOSG7ZK69Qau_NyGcEKoHJqN2",
+      "parent_id": "1Tm22I6Sgjrb903VLU4Mw-CD-aD7EmVFm",
+      "name": "THIÊN NHIÊN HUYỀN BÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 361465,
+      "modified": "2026-08-15T03:52:42.000Z",
+      "checksum": "594b44c8f5024ebb3ebee00d609e0eee",
+      "folder": false
+    },
+    {
+      "id": "10u7qD0VQ4nWet9BfPYOubLInPyBLnpa_",
+      "parent_id": "1Tm22I6Sgjrb903VLU4Mw-CD-aD7EmVFm",
+      "name": "THIÊN NHIÊN HUYỀN BÍ.pdf",
+      "mime": "application/pdf",
+      "size": 1344842,
+      "modified": "2026-08-15T03:52:39.000Z",
+      "checksum": "627910b1c6d29c6f4c38662afa77145e",
+      "folder": false
+    }
+  ]
+}

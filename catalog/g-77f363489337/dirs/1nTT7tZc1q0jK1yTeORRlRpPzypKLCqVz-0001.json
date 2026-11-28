@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nTT7tZc1q0jK1yTeORRlRpPzypKLCqVz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ST6j7y6XoYeRAD3_dD-bgJI6zx3_slxr",
+      "parent_id": "1nTT7tZc1q0jK1yTeORRlRpPzypKLCqVz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5772,
+      "modified": "2026-08-15T17:02:34.000Z",
+      "checksum": "6399eddc5d1c8f1d82f030a04ff12810",
+      "folder": false
+    },
+    {
+      "id": "1bZB0W0DILWJbtIEhNbPg1gBR_88cuztP",
+      "parent_id": "1nTT7tZc1q0jK1yTeORRlRpPzypKLCqVz",
+      "name": "QUỶ THÊ.epub",
+      "mime": "application/epub+zip",
+      "size": 841641,
+      "modified": "2026-08-15T17:02:40.000Z",
+      "checksum": "f1b9461a734235d56a5517bb6c37d80b",
+      "folder": false
+    },
+    {
+      "id": "1B0weVL-2APEEFqBUEuyAe5MBLhUmP-_2",
+      "parent_id": "1nTT7tZc1q0jK1yTeORRlRpPzypKLCqVz",
+      "name": "QUỶ THÊ.pdf",
+      "mime": "application/pdf",
+      "size": 660196,
+      "modified": "2026-08-15T17:02:38.000Z",
+      "checksum": "b09878fc50a0d5ab1ba57df4316826aa",
+      "folder": false
+    }
+  ]
+}

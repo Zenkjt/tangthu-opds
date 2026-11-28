@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DUS05tVbrmr5JNximu7r_pKQPG2nMJ0G",
+  "page": 1,
+  "items": [
+    {
+      "id": "1s956sJNbS7DsQFUgUUPHt5k1yULn4Cep",
+      "parent_id": "1DUS05tVbrmr5JNximu7r_pKQPG2nMJ0G",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8950,
+      "modified": "2026-08-15T07:49:23.000Z",
+      "checksum": "0d61b26287929a1f8c2b036c101bd78b",
+      "folder": false
+    },
+    {
+      "id": "16OfJRlAFWgdvL52nQXiZA_BURkQBaOAb",
+      "parent_id": "1DUS05tVbrmr5JNximu7r_pKQPG2nMJ0G",
+      "name": "HẸN HÒ NƯỚC MỸ.epub",
+      "mime": "application/epub+zip",
+      "size": 507451,
+      "modified": "2026-08-15T07:49:34.000Z",
+      "checksum": "cfc28f30535ac2c6beb6da434b1e0873",
+      "folder": false
+    },
+    {
+      "id": "1oJT5gw1uqO9P4CYRLIFslIwEMJSfKMck",
+      "parent_id": "1DUS05tVbrmr5JNximu7r_pKQPG2nMJ0G",
+      "name": "HẸN HÒ NƯỚC MỸ.pdf",
+      "mime": "application/pdf",
+      "size": 638820,
+      "modified": "2026-08-15T07:49:29.000Z",
+      "checksum": "e380ef1f79d1db2359079f4de487443e",
+      "folder": false
+    }
+  ]
+}

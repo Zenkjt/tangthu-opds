@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1c7UwdkY0r1puzbG4rlgKsFNjiTRlugQu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qfxZk2WBXAsKqdYUBZIvp_3sdzkoUHOj",
+      "parent_id": "1c7UwdkY0r1puzbG4rlgKsFNjiTRlugQu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5398,
+      "modified": "2026-08-15T00:51:40.000Z",
+      "checksum": "095b59523c23a2e8d13b6e6f6a6751e6",
+      "folder": false
+    },
+    {
+      "id": "1xRgfIOK1ssHllmT8A-fs_XVkOd2rCoU6",
+      "parent_id": "1c7UwdkY0r1puzbG4rlgKsFNjiTRlugQu",
+      "name": "KHÔNG GỤC NGÃ.epub",
+      "mime": "application/epub+zip",
+      "size": 2486827,
+      "modified": "2026-08-15T00:51:50.000Z",
+      "checksum": "b65c9aa8675d3a9f420f307035e29db6",
+      "folder": false
+    },
+    {
+      "id": "1l1LMdyn_D6xbEkFiSeDzKyg9LpvMwjF9",
+      "parent_id": "1c7UwdkY0r1puzbG4rlgKsFNjiTRlugQu",
+      "name": "KHÔNG GỤC NGÃ.pdf",
+      "mime": "application/pdf",
+      "size": 2948149,
+      "modified": "2026-08-15T00:51:47.000Z",
+      "checksum": "a239cd8bf439a5f32cc2bdac959ce107",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1brYrrePfTUPYEEvtFm91jwL26MSWIPnw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TeRSNb92oTacKIXVXbwZc_Lg1XrcxDco",
+      "parent_id": "1brYrrePfTUPYEEvtFm91jwL26MSWIPnw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3974,
+      "modified": "2026-08-15T07:54:27.000Z",
+      "checksum": "b77e802c54dae5bf78212ddbc825749a",
+      "folder": false
+    },
+    {
+      "id": "1Ke2-wvRQK4C9G8abxf9-JsXkdWB-V4gs",
+      "parent_id": "1brYrrePfTUPYEEvtFm91jwL26MSWIPnw",
+      "name": "NGHÌN XƯA VĂN HIẾN - TẬP 3.epub",
+      "mime": "application/epub+zip",
+      "size": 2009359,
+      "modified": "2026-08-15T07:54:35.000Z",
+      "checksum": "06fdf37937f1f02b2b26b9b88835f198",
+      "folder": false
+    },
+    {
+      "id": "1aNgBajsplL3XvTU_H3oqTKvQkTlN5bxS",
+      "parent_id": "1brYrrePfTUPYEEvtFm91jwL26MSWIPnw",
+      "name": "NGHÌN XƯA VĂN HIẾN - TẬP 3.pdf",
+      "mime": "application/pdf",
+      "size": 2515389,
+      "modified": "2026-08-15T07:54:32.000Z",
+      "checksum": "836d857b390371dcfe023f7b510cc2d8",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11Jc4-BbkChsR2WAOZw-X_xRspqDhbWGV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1p18q0h-GhSMM6hUpCTCttuxYNhvju7ZM",
+      "parent_id": "11Jc4-BbkChsR2WAOZw-X_xRspqDhbWGV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3499,
+      "modified": "2026-08-15T06:20:12.000Z",
+      "checksum": "9bb78671e45d4e96fddb603976af16c7",
+      "folder": false
+    },
+    {
+      "id": "1eJURhEYLnWXc_oi-I6bI-u3X4ADNAyYB",
+      "parent_id": "11Jc4-BbkChsR2WAOZw-X_xRspqDhbWGV",
+      "name": "THẰNG CƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 1221709,
+      "modified": "2026-08-15T06:20:39.000Z",
+      "checksum": "b2df9d61c6126b331559bba1b482289e",
+      "folder": false
+    },
+    {
+      "id": "1J0KdPzjv2Fvmv_usSNO58p7Wtq3koCma",
+      "parent_id": "11Jc4-BbkChsR2WAOZw-X_xRspqDhbWGV",
+      "name": "THẰNG CƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 1835140,
+      "modified": "2026-08-15T06:20:27.000Z",
+      "checksum": "3c4ba24853a33cb70ee943b5d5989d85",
+      "folder": false
+    }
+  ]
+}

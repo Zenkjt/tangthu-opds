@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vmyQ8YSEKDYG6FF2xWE_tLdvJEGdAn48",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iNMYE6J4iYwHBIbrpvfqMZ0GwZI__6Im",
+      "parent_id": "1vmyQ8YSEKDYG6FF2xWE_tLdvJEGdAn48",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 15254,
+      "modified": "2026-08-15T07:28:24.000Z",
+      "checksum": "d2648be46e01d0225569ae0ba2083e86",
+      "folder": false
+    },
+    {
+      "id": "1iv1DZcArseygd8F6WA_B7cKBnf1oMLdr",
+      "parent_id": "1vmyQ8YSEKDYG6FF2xWE_tLdvJEGdAn48",
+      "name": "VỊNH TOKYO.epub",
+      "mime": "application/epub+zip",
+      "size": 721766,
+      "modified": "2026-08-15T07:28:34.000Z",
+      "checksum": "eed179e7af9d8868679d59d19c1a8ac2",
+      "folder": false
+    },
+    {
+      "id": "1q5rqiRfw1p0GbLxse0TM5GZhZCuJ1lWZ",
+      "parent_id": "1vmyQ8YSEKDYG6FF2xWE_tLdvJEGdAn48",
+      "name": "VỊNH TOKYO.pdf",
+      "mime": "application/pdf",
+      "size": 1848152,
+      "modified": "2026-08-15T07:28:30.000Z",
+      "checksum": "49fa1a9100399b097097a28cc28a0a4c",
+      "folder": false
+    }
+  ]
+}

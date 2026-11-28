@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_QzMtryvzB_hOHV_50hyAf9gNnRE8qMy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YfQn_ZZQwePN9wxdZHeW3qvswcECeoeO",
+      "parent_id": "1_QzMtryvzB_hOHV_50hyAf9gNnRE8qMy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3309,
+      "modified": "2026-08-15T15:37:32.000Z",
+      "checksum": "71637e18dea0b436021a7046aefc4893",
+      "folder": false
+    },
+    {
+      "id": "1OcNIxLurkKMfXxgmvOm8abVGL4niyVvf",
+      "parent_id": "1_QzMtryvzB_hOHV_50hyAf9gNnRE8qMy",
+      "name": "SÁT THỦ LẠNH LÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1542049,
+      "modified": "2026-08-15T15:38:15.000Z",
+      "checksum": "07bb674a33bad8443ec0914b7ad0b9cb",
+      "folder": false
+    },
+    {
+      "id": "1mUCO3piQN3G_SiJDnByZJL4k3YLJbdSu",
+      "parent_id": "1_QzMtryvzB_hOHV_50hyAf9gNnRE8qMy",
+      "name": "SÁT THỦ LẠNH LÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 1514538,
+      "modified": "2026-08-15T15:38:02.000Z",
+      "checksum": "92d81f3e88501c9c8a010f505d5ab8ea",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1c-NqZI9mdt8R7-7ew3IzdPuMWh3pjze9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hOQvPIWMGN_StdszEMVSprYbdsUzARrX",
+      "parent_id": "1c-NqZI9mdt8R7-7ew3IzdPuMWh3pjze9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 630,
+      "modified": "2026-08-16T04:14:44.000Z",
+      "checksum": "4f52c31faeced2f800d52b337fa7e828",
+      "folder": false
+    },
+    {
+      "id": "11y1JxQl2TR0oIKyPV2Uh_Jq0wymUOZqm",
+      "parent_id": "1c-NqZI9mdt8R7-7ew3IzdPuMWh3pjze9",
+      "name": "NGÔI NHÀ SỐ 12.epub",
+      "mime": "application/epub+zip",
+      "size": 1426040,
+      "modified": "2026-08-16T04:14:49.000Z",
+      "checksum": "e5a30036f1bee43f6a2849f6476506d5",
+      "folder": false
+    },
+    {
+      "id": "1rZf6IE7oltkSuh-FJqtmtDLxaFnVOfAS",
+      "parent_id": "1c-NqZI9mdt8R7-7ew3IzdPuMWh3pjze9",
+      "name": "NGÔI NHÀ SỐ 12.pdf",
+      "mime": "application/pdf",
+      "size": 1476932,
+      "modified": "2026-08-16T04:14:47.000Z",
+      "checksum": "10f4fb50c4f322d988dc2e6c7d1191ca",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gw0u9wzw6rHjDYx-SOTSDZtDFSyEqq0w",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hPy75qRJzC4WxDn3ZosqxmLpIPtiXoFX",
+      "parent_id": "1gw0u9wzw6rHjDYx-SOTSDZtDFSyEqq0w",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3203,
+      "modified": "2026-08-15T10:15:02.000Z",
+      "checksum": "a499c5cb761d27d54f121c5404706566",
+      "folder": false
+    },
+    {
+      "id": "1gFRxMXxy6e1FlImh_H0J8JOtJgeqJvXi",
+      "parent_id": "1gw0u9wzw6rHjDYx-SOTSDZtDFSyEqq0w",
+      "name": "THIÊN CHI KIỀU NỮ.epub",
+      "mime": "application/epub+zip",
+      "size": 645389,
+      "modified": "2026-08-15T10:15:09.000Z",
+      "checksum": "d83d15d37a6cfa87fa59524581d354cf",
+      "folder": false
+    },
+    {
+      "id": "1bPPRlHS71jYWZdrYbNAOvk9i8w5VHKt8",
+      "parent_id": "1gw0u9wzw6rHjDYx-SOTSDZtDFSyEqq0w",
+      "name": "THIÊN CHI KIỀU NỮ.pdf",
+      "mime": "application/pdf",
+      "size": 2101735,
+      "modified": "2026-08-15T10:15:07.000Z",
+      "checksum": "9a5829f16762e189125f333bcbe6a982",
+      "folder": false
+    }
+  ]
+}

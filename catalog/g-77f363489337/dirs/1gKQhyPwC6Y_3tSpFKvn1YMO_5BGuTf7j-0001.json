@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gKQhyPwC6Y_3tSpFKvn1YMO_5BGuTf7j",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AODaRmS_phsTDiCbCLpHtsk3M8YYQri5",
+      "parent_id": "1gKQhyPwC6Y_3tSpFKvn1YMO_5BGuTf7j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3039,
+      "modified": "2026-08-15T10:08:18.000Z",
+      "checksum": "c8a96073dcea9bc51f2d68325db69124",
+      "folder": false
+    },
+    {
+      "id": "16cW64ozitQZ-y46ELl7419Sh5DDLW6Mr",
+      "parent_id": "1gKQhyPwC6Y_3tSpFKvn1YMO_5BGuTf7j",
+      "name": "TÌNH YÊU ĐIÊN CUỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 550807,
+      "modified": "2026-08-15T10:08:26.000Z",
+      "checksum": "93911c15270d7c06307584ceca80e365",
+      "folder": false
+    },
+    {
+      "id": "1artKmRLzL-uMIY7WPNSTz321sXb_4_xj",
+      "parent_id": "1gKQhyPwC6Y_3tSpFKvn1YMO_5BGuTf7j",
+      "name": "TÌNH YÊU ĐIÊN CUỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 2580919,
+      "modified": "2026-08-15T10:08:23.000Z",
+      "checksum": "742542a4630c0a5c42ccf4e65199e161",
+      "folder": false
+    }
+  ]
+}

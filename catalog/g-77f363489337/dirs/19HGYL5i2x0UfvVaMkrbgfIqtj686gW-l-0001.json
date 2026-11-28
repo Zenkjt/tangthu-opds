@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19HGYL5i2x0UfvVaMkrbgfIqtj686gW-l",
+  "page": 1,
+  "items": [
+    {
+      "id": "1m4kwut6bI34SC8VWPbetn3asFBXWEX9t",
+      "parent_id": "19HGYL5i2x0UfvVaMkrbgfIqtj686gW-l",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 505,
+      "modified": "2026-08-15T15:40:22.000Z",
+      "checksum": "7a3fc57b53661084d483382f88340e38",
+      "folder": false
+    },
+    {
+      "id": "1OWvXI_I2UqaOlQpL5BPW2MX87bgWe8U_",
+      "parent_id": "19HGYL5i2x0UfvVaMkrbgfIqtj686gW-l",
+      "name": "KINH THÁNH CỦA MỘT NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 573359,
+      "modified": "2026-08-15T15:40:30.000Z",
+      "checksum": "1a3d125870da4ce2117acbc0081198ca",
+      "folder": false
+    },
+    {
+      "id": "1VwgiuqBqnxCFeSL8TUc39Y5ArZCHlGsY",
+      "parent_id": "19HGYL5i2x0UfvVaMkrbgfIqtj686gW-l",
+      "name": "KINH THÁNH CỦA MỘT NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 1195113,
+      "modified": "2026-08-15T15:40:27.000Z",
+      "checksum": "19b82d6a183211eb1bf3141f0518af42",
+      "folder": false
+    }
+  ]
+}

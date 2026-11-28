@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-sGOvzC_PwqQI8AZrK4HLcp0iF8c3DH9",
+  "page": 1,
+  "items": [
+    {
+      "id": "12H7Ocm6BiyvYuY6fmdp5XFivjy0jHX3g",
+      "parent_id": "1-sGOvzC_PwqQI8AZrK4HLcp0iF8c3DH9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5259,
+      "modified": "2026-08-15T06:43:47.000Z",
+      "checksum": "ff5eaa2fe0a398ef97999c0e50aa5311",
+      "folder": false
+    },
+    {
+      "id": "1D_HDzv2VrWyVF7UFwO4S23KlLQIY5D4E",
+      "parent_id": "1-sGOvzC_PwqQI8AZrK4HLcp0iF8c3DH9",
+      "name": "HARRY POTTER VÀ PHÒNG CHỨA BÍ MẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 657890,
+      "modified": "2026-08-15T06:43:58.000Z",
+      "checksum": "51395ddfe92f0c3d42e4df0153c70a56",
+      "folder": false
+    },
+    {
+      "id": "1OyvYp0CP0QrKTQ0FY5f4N87V1d3o05S0",
+      "parent_id": "1-sGOvzC_PwqQI8AZrK4HLcp0iF8c3DH9",
+      "name": "HARRY POTTER VÀ PHÒNG CHỨA BÍ MẬT.pdf",
+      "mime": "application/pdf",
+      "size": 1995496,
+      "modified": "2026-08-15T06:43:55.000Z",
+      "checksum": "e3aa0caa27cb11561dee571881f006cb",
+      "folder": false
+    }
+  ]
+}

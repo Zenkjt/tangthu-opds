@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eOpZbCkJmVqsRSuE84572BIbyiGdO0rf",
+  "page": 1,
+  "items": [
+    {
+      "id": "10j-MORAR7Vf3E0CBC18-z4k4g1bcZ5Q8",
+      "parent_id": "1eOpZbCkJmVqsRSuE84572BIbyiGdO0rf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6276,
+      "modified": "2026-08-15T09:36:45.000Z",
+      "checksum": "0f715d92a51f2a2a9f1312094a21fb4e",
+      "folder": false
+    },
+    {
+      "id": "1G7sfkqJVAO9o6APR2TvGAq6nLI8Kv86j",
+      "parent_id": "1eOpZbCkJmVqsRSuE84572BIbyiGdO0rf",
+      "name": "HÃY CHĂM SÓC MẸ.epub",
+      "mime": "application/epub+zip",
+      "size": 511300,
+      "modified": "2026-08-15T09:36:53.000Z",
+      "checksum": "0c27aa15888a871f6934762d3a4fa42f",
+      "folder": false
+    },
+    {
+      "id": "1hjSxI45GgUIHU2R2ebDZcN_2fg4aDBLm",
+      "parent_id": "1eOpZbCkJmVqsRSuE84572BIbyiGdO0rf",
+      "name": "HÃY CHĂM SÓC MẸ.pdf",
+      "mime": "application/pdf",
+      "size": 894786,
+      "modified": "2026-08-15T09:36:51.000Z",
+      "checksum": "f1585279df01e98e8a9536689c00fa61",
+      "folder": false
+    }
+  ]
+}

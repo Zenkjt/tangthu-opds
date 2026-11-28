@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GVOfYeig-MgdBoFf8xKzc8eSKeTSIBJz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ebyMXCUBVT6nmj9SP0lblDEMTNnZjYpa",
+      "parent_id": "1GVOfYeig-MgdBoFf8xKzc8eSKeTSIBJz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3237,
+      "modified": "2026-08-16T04:16:55.000Z",
+      "checksum": "f3b6889918118ffb645653609f5d795e",
+      "folder": false
+    },
+    {
+      "id": "1zKlQa9LKtCYcMzLzgysUJSFKxBMylnh1",
+      "parent_id": "1GVOfYeig-MgdBoFf8xKzc8eSKeTSIBJz",
+      "name": "MƯỜI BA LỜI NGUYỀN.epub",
+      "mime": "application/epub+zip",
+      "size": 940254,
+      "modified": "2026-08-16T04:17:11.000Z",
+      "checksum": "485bb2e76b1ef17f6b91a113c1330b1c",
+      "folder": false
+    },
+    {
+      "id": "1Npyg5aujEBy5GUA6i6pJLe6vnjyOTjbo",
+      "parent_id": "1GVOfYeig-MgdBoFf8xKzc8eSKeTSIBJz",
+      "name": "MƯỜI BA LỜI NGUYỀN.pdf",
+      "mime": "application/pdf",
+      "size": 3761707,
+      "modified": "2026-08-16T04:17:08.000Z",
+      "checksum": "6782930b95f3b15a904d9bd94528a22f",
+      "folder": false
+    }
+  ]
+}

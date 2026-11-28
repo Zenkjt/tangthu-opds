@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SKW0ZPYzRuSvH5XZTAd9z-5suKB5nci0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ChyBX3EdIL58mAYUiD-ANsl-OXJNwGpr",
+      "parent_id": "1SKW0ZPYzRuSvH5XZTAd9z-5suKB5nci0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6722,
+      "modified": "2026-08-15T08:13:06.000Z",
+      "checksum": "37b10ce3a5947d99fc34f54bf79c24b9",
+      "folder": false
+    },
+    {
+      "id": "15ywUai8wSDom-t5YmgHX6siH184t4L8w",
+      "parent_id": "1SKW0ZPYzRuSvH5XZTAd9z-5suKB5nci0",
+      "name": "SẮC, GIỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 278535,
+      "modified": "2026-08-15T08:13:12.000Z",
+      "checksum": "6f9374eabaa5650c4df96658697ba197",
+      "folder": false
+    },
+    {
+      "id": "1HbqZugpdqSfmiHxuj4vYcZxQD7C6FcWb",
+      "parent_id": "1SKW0ZPYzRuSvH5XZTAd9z-5suKB5nci0",
+      "name": "SẮC, GIỚI.pdf",
+      "mime": "application/pdf",
+      "size": 209830,
+      "modified": "2026-08-15T08:13:09.000Z",
+      "checksum": "f94fd78b1b9b8396155d7d82c7fef758",
+      "folder": false
+    }
+  ]
+}

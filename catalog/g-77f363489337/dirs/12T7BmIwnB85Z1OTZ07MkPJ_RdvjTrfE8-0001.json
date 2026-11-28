@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12T7BmIwnB85Z1OTZ07MkPJ_RdvjTrfE8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1479_zPeDxGuopN-7N2B261hp8zR0T1k8",
+      "parent_id": "12T7BmIwnB85Z1OTZ07MkPJ_RdvjTrfE8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5647,
+      "modified": "2026-08-15T07:32:36.000Z",
+      "checksum": "02f78acf02753b78713093f76d8af017",
+      "folder": false
+    },
+    {
+      "id": "17JHTyb_T8BJtCk-y-WMBmZ_hsrGSRXnY",
+      "parent_id": "12T7BmIwnB85Z1OTZ07MkPJ_RdvjTrfE8",
+      "name": "XUÂN YẾN.epub",
+      "mime": "application/epub+zip",
+      "size": 661606,
+      "modified": "2026-08-15T07:32:45.000Z",
+      "checksum": "fcf6b1970066eb181fea96816b59878b",
+      "folder": false
+    },
+    {
+      "id": "1nYWhO8Z243r3RHqutDVXipGJt-igVhW_",
+      "parent_id": "12T7BmIwnB85Z1OTZ07MkPJ_RdvjTrfE8",
+      "name": "XUÂN YẾN.pdf",
+      "mime": "application/pdf",
+      "size": 1953050,
+      "modified": "2026-08-15T07:32:43.000Z",
+      "checksum": "7e5cfea35e2cf42a58c3051cac6902a9",
+      "folder": false
+    }
+  ]
+}

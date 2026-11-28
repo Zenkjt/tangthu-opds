@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QdtWuiy6d89ULcE83xW0iyxoMuJrkz8v",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WEHXmsynjuii1YlHIY4MyhmGz-yV_F-C",
+      "parent_id": "1QdtWuiy6d89ULcE83xW0iyxoMuJrkz8v",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 562,
+      "modified": "2026-08-16T03:57:59.000Z",
+      "checksum": "0fd05056c397f1481b9a43e403444d5a",
+      "folder": false
+    },
+    {
+      "id": "1Qm1oOK5jh6ZDkp6W6AUHnBpo9gfuRflI",
+      "parent_id": "1QdtWuiy6d89ULcE83xW0iyxoMuJrkz8v",
+      "name": "THIÊN THẦN SA NGÃ.epub",
+      "mime": "application/epub+zip",
+      "size": 419214,
+      "modified": "2026-08-16T03:58:05.000Z",
+      "checksum": "5203b182ce2d816dee9cc8a1927326f1",
+      "folder": false
+    },
+    {
+      "id": "1MgD6_Y0NkMq8WdbE347MM2Wr7CAITZ7x",
+      "parent_id": "1QdtWuiy6d89ULcE83xW0iyxoMuJrkz8v",
+      "name": "THIÊN THẦN SA NGÃ.pdf",
+      "mime": "application/pdf",
+      "size": 989257,
+      "modified": "2026-08-16T03:58:03.000Z",
+      "checksum": "b8a812b242cd0beefcb385c4d052a374",
+      "folder": false
+    }
+  ]
+}

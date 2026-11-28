@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IUWr41nNzOVqZPeAL1Auon9upaKza8c9",
+  "page": 1,
+  "items": [
+    {
+      "id": "16KNa43PlWOVDveGcnWdQEeW0I_omAVR2",
+      "parent_id": "1IUWr41nNzOVqZPeAL1Auon9upaKza8c9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3207,
+      "modified": "2026-08-15T10:24:57.000Z",
+      "checksum": "bb7b240f3de1afadc45c3167be25ebd6",
+      "folder": false
+    },
+    {
+      "id": "18xf5udbsZyCQRK4GpHQvt3cffDsVkw0-",
+      "parent_id": "1IUWr41nNzOVqZPeAL1Auon9upaKza8c9",
+      "name": "SỬ THƯỢNG ĐỆ NHẤT YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 1048253,
+      "modified": "2026-08-15T10:25:08.000Z",
+      "checksum": "cd9cb6f57eed6ed22ababa6cee0298d3",
+      "folder": false
+    },
+    {
+      "id": "13D1i7bRrXRvhJvzWSifjMohjkbGneDpd",
+      "parent_id": "1IUWr41nNzOVqZPeAL1Auon9upaKza8c9",
+      "name": "SỬ THƯỢNG ĐỆ NHẤT YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 2994994,
+      "modified": "2026-08-15T10:25:04.000Z",
+      "checksum": "8500c3cf5233b0cafde0119a96cc951a",
+      "folder": false
+    }
+  ]
+}

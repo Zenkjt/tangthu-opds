@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Kv2lmVAuylUO5T4Fgy-IOzJoHbZDzOZ5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qSYgfAi_bCCtd-1u6ng1A71Ws8jGEoCg",
+      "parent_id": "1Kv2lmVAuylUO5T4Fgy-IOzJoHbZDzOZ5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3100,
+      "modified": "2026-08-15T10:09:55.000Z",
+      "checksum": "891ee82793936d73e424b3bd80168798",
+      "folder": false
+    },
+    {
+      "id": "1gx3DiiWpEw11O6IfAwJlhPEs5IIElEWa",
+      "parent_id": "1Kv2lmVAuylUO5T4Fgy-IOzJoHbZDzOZ5",
+      "name": "TIỂU KHANH.epub",
+      "mime": "application/epub+zip",
+      "size": 959069,
+      "modified": "2026-08-15T10:10:02.000Z",
+      "checksum": "173d1b3aac6860ff6c534b9c51d9dc36",
+      "folder": false
+    },
+    {
+      "id": "1L0xOUiAGG1xaO-ROt3heYtCBNTGuNvcX",
+      "parent_id": "1Kv2lmVAuylUO5T4Fgy-IOzJoHbZDzOZ5",
+      "name": "TIỂU KHANH.pdf",
+      "mime": "application/pdf",
+      "size": 1198132,
+      "modified": "2026-08-15T10:09:59.000Z",
+      "checksum": "e91ef7cbf8bc6935e1a86f89a8058005",
+      "folder": false
+    }
+  ]
+}

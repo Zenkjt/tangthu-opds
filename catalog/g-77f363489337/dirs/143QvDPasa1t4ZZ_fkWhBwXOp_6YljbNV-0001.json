@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "143QvDPasa1t4ZZ_fkWhBwXOp_6YljbNV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VsyRUsQEK3hxELRMRtgWV_LQpwSys_XT",
+      "parent_id": "143QvDPasa1t4ZZ_fkWhBwXOp_6YljbNV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2511,
+      "modified": "2026-08-15T15:33:32.000Z",
+      "checksum": "64618bea17773985b291bf81fa4c4b76",
+      "folder": false
+    },
+    {
+      "id": "1Y2CNHlYIF6UgLZnyA3yoeMKQppFyrN5k",
+      "parent_id": "143QvDPasa1t4ZZ_fkWhBwXOp_6YljbNV",
+      "name": "ÁC NHÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 582758,
+      "modified": "2026-08-15T15:33:39.000Z",
+      "checksum": "053ac4483488d71d92de7fa330c1877f",
+      "folder": false
+    },
+    {
+      "id": "1ImjOTTpV9nWWD7NS5YbGA3zM8NyTABHS",
+      "parent_id": "143QvDPasa1t4ZZ_fkWhBwXOp_6YljbNV",
+      "name": "ÁC NHÂN.pdf",
+      "mime": "application/pdf",
+      "size": 1243191,
+      "modified": "2026-08-15T15:33:37.000Z",
+      "checksum": "f99504bc5a547bddabc64cb3862f79b1",
+      "folder": false
+    }
+  ]
+}

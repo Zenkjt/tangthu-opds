@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DCsTqaZZ1g6D9_ajsn3rc-_RAz18ij0g",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iv5KKpGGp0vIUFO4ERMBcQL1AAv_uQkc",
+      "parent_id": "1DCsTqaZZ1g6D9_ajsn3rc-_RAz18ij0g",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 547,
+      "modified": "2026-08-16T04:17:18.000Z",
+      "checksum": "da82df4df9fa4c1e47287283bc24fadb",
+      "folder": false
+    },
+    {
+      "id": "12TpL75UK5ZwpSVxDVJTB5hSqpJppy2kj",
+      "parent_id": "1DCsTqaZZ1g6D9_ajsn3rc-_RAz18ij0g",
+      "name": "MÙA THU QUEN NHAU.epub",
+      "mime": "application/epub+zip",
+      "size": 196668,
+      "modified": "2026-08-16T04:17:24.000Z",
+      "checksum": "e96db0adfbc5f47eb06912c55aad4787",
+      "folder": false
+    },
+    {
+      "id": "1uBGJIGclhdMKRUZz99pU6VGLbHBeVWw_",
+      "parent_id": "1DCsTqaZZ1g6D9_ajsn3rc-_RAz18ij0g",
+      "name": "MÙA THU QUEN NHAU.pdf",
+      "mime": "application/pdf",
+      "size": 535175,
+      "modified": "2026-08-16T04:17:22.000Z",
+      "checksum": "1bbc98da4a6b65d9c63cd4fd69ea4f4f",
+      "folder": false
+    }
+  ]
+}

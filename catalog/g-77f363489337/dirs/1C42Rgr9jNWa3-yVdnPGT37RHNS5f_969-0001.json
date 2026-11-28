@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1C42Rgr9jNWa3-yVdnPGT37RHNS5f_969",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Bl7g8G1SMUd_hgr2wnPKNR8ghb-BISHo",
+      "parent_id": "1C42Rgr9jNWa3-yVdnPGT37RHNS5f_969",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 396,
+      "modified": "2026-08-16T04:05:24.000Z",
+      "checksum": "b64741e707b849706fdc95107844adeb",
+      "folder": false
+    },
+    {
+      "id": "1DV2YojV7UKOp2B08AKNUb2aqIcCXCkk8",
+      "parent_id": "1C42Rgr9jNWa3-yVdnPGT37RHNS5f_969",
+      "name": "QUẦN ĐẢO NGỤC TÙ.epub",
+      "mime": "application/epub+zip",
+      "size": 893735,
+      "modified": "2026-08-16T04:05:33.000Z",
+      "checksum": "a60b0577a75dbc9f1449f8acb3157f31",
+      "folder": false
+    },
+    {
+      "id": "1L3gdorGOIBlDEg49mGBUGB7XW1oC2UKI",
+      "parent_id": "1C42Rgr9jNWa3-yVdnPGT37RHNS5f_969",
+      "name": "QUẦN ĐẢO NGỤC TÙ.pdf",
+      "mime": "application/pdf",
+      "size": 2706826,
+      "modified": "2026-08-16T04:05:30.000Z",
+      "checksum": "7d18c987b8cc70a54ad8be2efbc76cec",
+      "folder": false
+    }
+  ]
+}

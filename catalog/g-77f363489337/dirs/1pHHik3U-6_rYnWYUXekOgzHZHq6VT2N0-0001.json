@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pHHik3U-6_rYnWYUXekOgzHZHq6VT2N0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1l9bv_BmyIwh31XQRpq7BSe-5vBkPM_0q",
+      "parent_id": "1pHHik3U-6_rYnWYUXekOgzHZHq6VT2N0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 710,
+      "modified": "2026-08-15T15:40:37.000Z",
+      "checksum": "83c4b5b803550a767602b55676759635",
+      "folder": false
+    },
+    {
+      "id": "1KaieIZ1ZcYkTr1-TO6zXP_6HuEOPn6Xc",
+      "parent_id": "1pHHik3U-6_rYnWYUXekOgzHZHq6VT2N0",
+      "name": "HỒNG RỰC ĐỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 533558,
+      "modified": "2026-08-15T15:40:46.000Z",
+      "checksum": "402d45baafbabaf4bda8d3867e2c493a",
+      "folder": false
+    },
+    {
+      "id": "1g2zpEuaM9REoX2XxOI7ngTsrRi9cwCo3",
+      "parent_id": "1pHHik3U-6_rYnWYUXekOgzHZHq6VT2N0",
+      "name": "HỒNG RỰC ĐỎ.pdf",
+      "mime": "application/pdf",
+      "size": 1890871,
+      "modified": "2026-08-15T15:40:43.000Z",
+      "checksum": "44a72a5d21dc50b9a0bd6361cafbd907",
+      "folder": false
+    }
+  ]
+}

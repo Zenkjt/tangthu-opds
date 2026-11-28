@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HJpj87-rImYCF_zZGxyCDLy_um5Wc6rw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1p_rhELZWpHSe_JlgNLjSetrvjrcYqTI_",
+      "parent_id": "1HJpj87-rImYCF_zZGxyCDLy_um5Wc6rw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 793,
+      "modified": "2026-08-15T10:42:49.000Z",
+      "checksum": "1740d541009508cdc9571515d72b75a0",
+      "folder": false
+    },
+    {
+      "id": "11RdTiOOKCoqU6vWSPSd_TlmphjKRnnGa",
+      "parent_id": "1HJpj87-rImYCF_zZGxyCDLy_um5Wc6rw",
+      "name": "NGƯỜI PHÁT NGÔN CỦA THẦN CHẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 664118,
+      "modified": "2026-08-15T10:42:57.000Z",
+      "checksum": "4497cdc350d1829b2829b994acebbb3b",
+      "folder": false
+    },
+    {
+      "id": "1zXm0S0V8RBjuT7X3UUYVRN81pl96AJcE",
+      "parent_id": "1HJpj87-rImYCF_zZGxyCDLy_um5Wc6rw",
+      "name": "NGƯỜI PHÁT NGÔN CỦA THẦN CHẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1560844,
+      "modified": "2026-08-15T10:42:55.000Z",
+      "checksum": "880d2a5d461591b8f4794d07c6303fba",
+      "folder": false
+    }
+  ]
+}

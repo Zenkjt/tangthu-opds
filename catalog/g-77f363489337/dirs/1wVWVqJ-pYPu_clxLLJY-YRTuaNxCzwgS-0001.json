@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wVWVqJ-pYPu_clxLLJY-YRTuaNxCzwgS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nrgV404kB6r71IxSEmlLFlXf90cFFZWo",
+      "parent_id": "1wVWVqJ-pYPu_clxLLJY-YRTuaNxCzwgS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1000,
+      "modified": "2026-08-15T03:40:27.000Z",
+      "checksum": "8e050a8b75f1b430bd58873bf2476db9",
+      "folder": false
+    },
+    {
+      "id": "1uHd3GboBCgp6Pv2zMGJKTuCAukU6-b0T",
+      "parent_id": "1wVWVqJ-pYPu_clxLLJY-YRTuaNxCzwgS",
+      "name": "TỈNH THỨC TRONG CÔNG VIỆC.epub",
+      "mime": "application/epub+zip",
+      "size": 6737812,
+      "modified": "2026-08-15T03:40:42.000Z",
+      "checksum": "0daac786ec5bf3798f35dca846ee41d9",
+      "folder": false
+    },
+    {
+      "id": "1PwF-4o85TuIn38N7fwoFYgM8KC2dV1MW",
+      "parent_id": "1wVWVqJ-pYPu_clxLLJY-YRTuaNxCzwgS",
+      "name": "TỈNH THỨC TRONG CÔNG VIỆC.pdf",
+      "mime": "application/pdf",
+      "size": 1657120,
+      "modified": "2026-08-15T03:40:33.000Z",
+      "checksum": "6e4c4806a255ce3860ca3006a72ff759",
+      "folder": false
+    }
+  ]
+}

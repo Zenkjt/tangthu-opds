@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QKTDdWBN9OqNNRv6n9IK_ZyUNKTXHHWP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1amjUXC4gox3mMAnmKY7Sj9rXH3R75RcD",
+      "parent_id": "1QKTDdWBN9OqNNRv6n9IK_ZyUNKTXHHWP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 653,
+      "modified": "2026-08-15T10:42:41.000Z",
+      "checksum": "944bc6f4766d1485cd4595c4e032a30a",
+      "folder": false
+    },
+    {
+      "id": "1MSBI0_DJcULGLqfy2tvVQOBs_96QRaAk",
+      "parent_id": "1QKTDdWBN9OqNNRv6n9IK_ZyUNKTXHHWP",
+      "name": "NGƯỜI SỐNG SÓT.epub",
+      "mime": "application/epub+zip",
+      "size": 515085,
+      "modified": "2026-08-15T10:42:51.000Z",
+      "checksum": "82e9385fc814f1b381996b4fea4b0a77",
+      "folder": false
+    },
+    {
+      "id": "1_tPeFG5O4RIjfH4GXktLWGObo19k7ztq",
+      "parent_id": "1QKTDdWBN9OqNNRv6n9IK_ZyUNKTXHHWP",
+      "name": "NGƯỜI SỐNG SÓT.pdf",
+      "mime": "application/pdf",
+      "size": 1625158,
+      "modified": "2026-08-15T10:42:48.000Z",
+      "checksum": "d0541ae985f78c435b5eae8ecb77a0ac",
+      "folder": false
+    }
+  ]
+}

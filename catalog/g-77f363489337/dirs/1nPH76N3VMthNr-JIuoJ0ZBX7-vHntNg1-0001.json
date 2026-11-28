@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nPH76N3VMthNr-JIuoJ0ZBX7-vHntNg1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tlnslGSh-jZdHq2dCBAV7tlX6QNgfbsQ",
+      "parent_id": "1nPH76N3VMthNr-JIuoJ0ZBX7-vHntNg1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6965,
+      "modified": "2026-08-15T05:43:00.000Z",
+      "checksum": "97d8d541b8d5f118b56fdc38e2a798c0",
+      "folder": false
+    },
+    {
+      "id": "1bBocdt-eA_uvL9FrMYe4fjUUUePOGncc",
+      "parent_id": "1nPH76N3VMthNr-JIuoJ0ZBX7-vHntNg1",
+      "name": "TỪ ĐIỂN TRIẾT HỌC KANT.epub",
+      "mime": "application/epub+zip",
+      "size": 1283110,
+      "modified": "2026-08-15T05:43:10.000Z",
+      "checksum": "772f5b7d4ea854e67223c801c31a83cd",
+      "folder": false
+    },
+    {
+      "id": "1w6HH4AVgjwfg9AsN1FbzNQeE66TGKn-h",
+      "parent_id": "1nPH76N3VMthNr-JIuoJ0ZBX7-vHntNg1",
+      "name": "TỪ ĐIỂN TRIẾT HỌC KANT.pdf",
+      "mime": "application/pdf",
+      "size": 2912864,
+      "modified": "2026-08-15T05:43:07.000Z",
+      "checksum": "8b1d7d2484412ce853e63885de7ced30",
+      "folder": false
+    }
+  ]
+}

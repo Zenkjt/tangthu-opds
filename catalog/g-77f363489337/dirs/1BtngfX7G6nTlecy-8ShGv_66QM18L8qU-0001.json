@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BtngfX7G6nTlecy-8ShGv_66QM18L8qU",
+  "page": 1,
+  "items": [
+    {
+      "id": "10EG5zgyoE3XGjjIUVgxYsbGbTQTDLJnH",
+      "parent_id": "1BtngfX7G6nTlecy-8ShGv_66QM18L8qU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 650,
+      "modified": "2026-08-15T10:27:33.000Z",
+      "checksum": "2c812d0f5e2251c2da19cd3f3d9f57d5",
+      "folder": false
+    },
+    {
+      "id": "1PQRiR30SC5eI9xQJAqppl4Cv8CkOrJ_V",
+      "parent_id": "1BtngfX7G6nTlecy-8ShGv_66QM18L8qU",
+      "name": "SCANDAL GIÁ TRÊN TRỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 676536,
+      "modified": "2026-08-15T10:27:42.000Z",
+      "checksum": "b389531875254c3c1a20b3a56b0f6d2b",
+      "folder": false
+    },
+    {
+      "id": "1aVEykZDrMIK8O4rF-H-fkeaozpeVwKDi",
+      "parent_id": "1BtngfX7G6nTlecy-8ShGv_66QM18L8qU",
+      "name": "SCANDAL GIÁ TRÊN TRỜI.pdf",
+      "mime": "application/pdf",
+      "size": 1386643,
+      "modified": "2026-08-15T10:27:39.000Z",
+      "checksum": "a17af4caf39caf27a6a720ea1df6364c",
+      "folder": false
+    }
+  ]
+}

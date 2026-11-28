@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_PKOtZZpLwzkCGHYX_Prh1OI7jf49TIw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1p7ZhqTYiOx_CYPjiK4bMPKppaj2WdVcb",
+      "parent_id": "1_PKOtZZpLwzkCGHYX_Prh1OI7jf49TIw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3133,
+      "modified": "2026-08-16T04:00:03.000Z",
+      "checksum": "f607e634cb11e52d908d46d9073e96a9",
+      "folder": false
+    },
+    {
+      "id": "1TVkKMcj4qQNrzV5Wfu8o81ph-7LSP57E",
+      "parent_id": "1_PKOtZZpLwzkCGHYX_Prh1OI7jf49TIw",
+      "name": "THAM TIỀN TIÊN KHIẾU.epub",
+      "mime": "application/epub+zip",
+      "size": 1411896,
+      "modified": "2026-08-16T04:00:14.000Z",
+      "checksum": "5002a6b2661e84ce67d512eefe293cec",
+      "folder": false
+    },
+    {
+      "id": "1EDI7O5ZYPLxlab3oztMIUIRTXYek-QTp",
+      "parent_id": "1_PKOtZZpLwzkCGHYX_Prh1OI7jf49TIw",
+      "name": "THAM TIỀN TIÊN KHIẾU.pdf",
+      "mime": "application/pdf",
+      "size": 5481182,
+      "modified": "2026-08-16T04:00:11.000Z",
+      "checksum": "fcab5cf7ed368bc96474c0340f47c7ae",
+      "folder": false
+    }
+  ]
+}

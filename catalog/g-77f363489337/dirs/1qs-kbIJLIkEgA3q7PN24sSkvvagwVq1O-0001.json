@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qs-kbIJLIkEgA3q7PN24sSkvvagwVq1O",
+  "page": 1,
+  "items": [
+    {
+      "id": "14Fe0dGhVylPbS3gIr3MzjUWerJXfGPm1",
+      "parent_id": "1qs-kbIJLIkEgA3q7PN24sSkvvagwVq1O",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2887,
+      "modified": "2026-08-16T03:51:52.000Z",
+      "checksum": "a45aa194b447702dabb586ae9b17dbaa",
+      "folder": false
+    },
+    {
+      "id": "1yiwnJ27VfCttSRAQYJ9lO70vzSjiXI-W",
+      "parent_id": "1qs-kbIJLIkEgA3q7PN24sSkvvagwVq1O",
+      "name": "VÌ GIÓ Ở NƠI ẤY.epub",
+      "mime": "application/epub+zip",
+      "size": 950729,
+      "modified": "2026-08-16T03:51:59.000Z",
+      "checksum": "a2199cc2a6dc29539a3dad2831ee0b65",
+      "folder": false
+    },
+    {
+      "id": "1KYhcWvvSaY7pprrIZoyARaQv1023hLsh",
+      "parent_id": "1qs-kbIJLIkEgA3q7PN24sSkvvagwVq1O",
+      "name": "VÌ GIÓ Ở NƠI ẤY.pdf",
+      "mime": "application/pdf",
+      "size": 1817946,
+      "modified": "2026-08-16T03:51:57.000Z",
+      "checksum": "16f092c7ca462c7dfb2bb02abb3499a3",
+      "folder": false
+    }
+  ]
+}

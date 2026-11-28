@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1o420C3XwKyMGQChRUtIo_uPjWADBmUAe",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pQXC3UZlelsL4myjmHkDE45rb22nc5om",
+      "parent_id": "1o420C3XwKyMGQChRUtIo_uPjWADBmUAe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2707,
+      "modified": "2026-08-16T03:10:02.000Z",
+      "checksum": "641fdd0b02e85ff92da704e49ed9077c",
+      "folder": false
+    },
+    {
+      "id": "12L485jSULKKIVbPzP7TakyVasyXxbG96",
+      "parent_id": "1o420C3XwKyMGQChRUtIo_uPjWADBmUAe",
+      "name": "THIÊN TÁNG.epub",
+      "mime": "application/epub+zip",
+      "size": 485217,
+      "modified": "2026-08-16T03:10:08.000Z",
+      "checksum": "e9e013d9114c73e0e07217184c14de00",
+      "folder": false
+    },
+    {
+      "id": "1Inhe8PGf3XdFjVf3_Rw9Rblk69FyN3I1",
+      "parent_id": "1o420C3XwKyMGQChRUtIo_uPjWADBmUAe",
+      "name": "THIÊN TÁNG.pdf",
+      "mime": "application/pdf",
+      "size": 772740,
+      "modified": "2026-08-16T03:10:06.000Z",
+      "checksum": "65801fb5a3ae2e6c881600124ee023f7",
+      "folder": false
+    }
+  ]
+}

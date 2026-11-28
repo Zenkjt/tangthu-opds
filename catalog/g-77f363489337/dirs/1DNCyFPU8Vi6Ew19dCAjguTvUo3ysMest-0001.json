@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DNCyFPU8Vi6Ew19dCAjguTvUo3ysMest",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ccIqcEhco-rxi2XxcrprUobAcGTTmzeW",
+      "parent_id": "1DNCyFPU8Vi6Ew19dCAjguTvUo3ysMest",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3451,
+      "modified": "2026-08-15T03:48:05.000Z",
+      "checksum": "aadd7d760bf8a00b53415ae92a2f9ac6",
+      "folder": false
+    },
+    {
+      "id": "1vmRAdVG1kMxS5e3Zw4CUAGBrZYJU8Qb5",
+      "parent_id": "1DNCyFPU8Vi6Ew19dCAjguTvUo3ysMest",
+      "name": "ĐỊA MẪU CHƠN KINH.epub",
+      "mime": "application/epub+zip",
+      "size": 259694,
+      "modified": "2026-08-15T03:48:13.000Z",
+      "checksum": "a8214c7c85794ac6a545adaa3f633e34",
+      "folder": false
+    },
+    {
+      "id": "1Aore_OalIOu8hYlvAi0T_wHsS1bQDntl",
+      "parent_id": "1DNCyFPU8Vi6Ew19dCAjguTvUo3ysMest",
+      "name": "ĐỊA MẪU CHƠN KINH.pdf",
+      "mime": "application/pdf",
+      "size": 205260,
+      "modified": "2026-08-15T03:48:10.000Z",
+      "checksum": "9481010c6ca16e2e15f37146d9e21fb5",
+      "folder": false
+    }
+  ]
+}

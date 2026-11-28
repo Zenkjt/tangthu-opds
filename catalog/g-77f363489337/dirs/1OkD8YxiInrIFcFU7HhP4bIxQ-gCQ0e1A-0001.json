@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OkD8YxiInrIFcFU7HhP4bIxQ-gCQ0e1A",
+  "page": 1,
+  "items": [
+    {
+      "id": "13XVR3GJWBtx2gl3wnnbTsx6Yx9HLxkrH",
+      "parent_id": "1OkD8YxiInrIFcFU7HhP4bIxQ-gCQ0e1A",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6530,
+      "modified": "2026-08-16T03:33:15.000Z",
+      "checksum": "2611bfa44d034220ea1eb12903fbe747",
+      "folder": false
+    },
+    {
+      "id": "1xYMhhq7QkfGKXvNqOyio0aItSjRcBTXw",
+      "parent_id": "1OkD8YxiInrIFcFU7HhP4bIxQ-gCQ0e1A",
+      "name": "LỖI ERROR 404.epub",
+      "mime": "application/epub+zip",
+      "size": 207185,
+      "modified": "2026-08-16T03:33:21.000Z",
+      "checksum": "ffeb29490dfeb72094e3c81481e71445",
+      "folder": false
+    },
+    {
+      "id": "1UtXWI49w_h7UopGpcV_v5lU7CJlXqgyv",
+      "parent_id": "1OkD8YxiInrIFcFU7HhP4bIxQ-gCQ0e1A",
+      "name": "LỖI ERROR 404.pdf",
+      "mime": "application/pdf",
+      "size": 464805,
+      "modified": "2026-08-16T03:33:19.000Z",
+      "checksum": "dc84f075045e3537145a895930838421",
+      "folder": false
+    }
+  ]
+}

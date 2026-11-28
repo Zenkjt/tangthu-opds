@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ujq-OAGrrUUZdiKHdtmoCI7rbBgwQjDM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OxOWz2dMFerYPqWwz6h4mdcgGa7Bds1F",
+      "parent_id": "1ujq-OAGrrUUZdiKHdtmoCI7rbBgwQjDM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5646,
+      "modified": "2026-08-15T03:24:30.000Z",
+      "checksum": "a86336299d5fbf495b5ace55211b49a0",
+      "folder": false
+    },
+    {
+      "id": "1ltyW7or8q6B9Udbm9Ja46WZd5fh_l9jJ",
+      "parent_id": "1ujq-OAGrrUUZdiKHdtmoCI7rbBgwQjDM",
+      "name": "SỨC MẠNH CỦA NGÔN NGỮ KHÔNG LỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 1466657,
+      "modified": "2026-08-15T03:24:38.000Z",
+      "checksum": "436bd25156f2231c709242141ae0865e",
+      "folder": false
+    },
+    {
+      "id": "1_UXHeUYS_TifiVxZ63OAsN7i3U1pOEX9",
+      "parent_id": "1ujq-OAGrrUUZdiKHdtmoCI7rbBgwQjDM",
+      "name": "SỨC MẠNH CỦA NGÔN NGỮ KHÔNG LỜI.pdf",
+      "mime": "application/pdf",
+      "size": 1846897,
+      "modified": "2026-08-15T03:24:35.000Z",
+      "checksum": "9e4e59e7fa8c5e65745a8a3234a59297",
+      "folder": false
+    }
+  ]
+}

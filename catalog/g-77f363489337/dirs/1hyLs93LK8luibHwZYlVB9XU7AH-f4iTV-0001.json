@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hyLs93LK8luibHwZYlVB9XU7AH-f4iTV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EonZaJLjqAqS_zqsBgdjv_Uz11vTCWig",
+      "parent_id": "1hyLs93LK8luibHwZYlVB9XU7AH-f4iTV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5575,
+      "modified": "2026-08-15T07:31:47.000Z",
+      "checksum": "041752eb83d161519061233f085f3334",
+      "folder": false
+    },
+    {
+      "id": "1Ez9YcjB32_ugijgAuQ-44r_WEPxYssrT",
+      "parent_id": "1hyLs93LK8luibHwZYlVB9XU7AH-f4iTV",
+      "name": "XÔNG VÀO ĐẤU TRƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 395569,
+      "modified": "2026-08-15T07:31:52.000Z",
+      "checksum": "5460bb15c04f1a49d1fff61e91f5fd55",
+      "folder": false
+    },
+    {
+      "id": "1i1dKHdPK-4rXBAjVtK_IeHPG5_CSX0rZ",
+      "parent_id": "1hyLs93LK8luibHwZYlVB9XU7AH-f4iTV",
+      "name": "XÔNG VÀO ĐẤU TRƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 612750,
+      "modified": "2026-08-15T07:31:50.000Z",
+      "checksum": "207588fd52324e314e4d3bbc09e9ddb7",
+      "folder": false
+    }
+  ]
+}

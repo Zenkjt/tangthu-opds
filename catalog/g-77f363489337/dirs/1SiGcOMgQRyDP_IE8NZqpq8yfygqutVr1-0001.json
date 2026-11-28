@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SiGcOMgQRyDP_IE8NZqpq8yfygqutVr1",
+  "page": 1,
+  "items": [
+    {
+      "id": "10OJO1ydQroNylbwVyOM-eLX1uMS_6645",
+      "parent_id": "1SiGcOMgQRyDP_IE8NZqpq8yfygqutVr1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2939,
+      "modified": "2026-08-15T10:31:25.000Z",
+      "checksum": "06d35aad53c766d536600c80dc661d28",
+      "folder": false
+    },
+    {
+      "id": "11fBNm1FDnUZn74lnkMSi9s1UoETBjEeA",
+      "parent_id": "1SiGcOMgQRyDP_IE8NZqpq8yfygqutVr1",
+      "name": "QUÁN CÀ PHÊ XY.epub",
+      "mime": "application/epub+zip",
+      "size": 463948,
+      "modified": "2026-08-15T10:31:32.000Z",
+      "checksum": "0319c0340f47f55e356678397074cc83",
+      "folder": false
+    },
+    {
+      "id": "1g3OIMbhab-4DyhLdPvXu6yBz3IvfJldX",
+      "parent_id": "1SiGcOMgQRyDP_IE8NZqpq8yfygqutVr1",
+      "name": "QUÁN CÀ PHÊ XY.pdf",
+      "mime": "application/pdf",
+      "size": 816081,
+      "modified": "2026-08-15T10:31:29.000Z",
+      "checksum": "c0f82fda3a880892fe0b219ddefc7fbc",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Drky16IbfIJ5rjNWo0gYNokmes-1UVr1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kmGsSBp8EbwFgxswzYidx4A1LVKz86DK",
+      "parent_id": "1Drky16IbfIJ5rjNWo0gYNokmes-1UVr1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5761,
+      "modified": "2026-08-15T03:24:47.000Z",
+      "checksum": "484fed90d6532ccbb0da1d0a152f952d",
+      "folder": false
+    },
+    {
+      "id": "1hqN1rGLOKOA4oEVI7RCw5qXP3C-7OSI0",
+      "parent_id": "1Drky16IbfIJ5rjNWo0gYNokmes-1UVr1",
+      "name": "KHÔNG GIỚI HẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 399443,
+      "modified": "2026-08-15T03:24:55.000Z",
+      "checksum": "3ce5e1c3dad5cb6a2b3f73932c94d15c",
+      "folder": false
+    },
+    {
+      "id": "1bAjMo6D7Au3f5WVBtym9dOJ1SClUC6qO",
+      "parent_id": "1Drky16IbfIJ5rjNWo0gYNokmes-1UVr1",
+      "name": "KHÔNG GIỚI HẠN.pdf",
+      "mime": "application/pdf",
+      "size": 1783931,
+      "modified": "2026-08-15T03:24:52.000Z",
+      "checksum": "fa2249441c3b2133ccff7df0914d586b",
+      "folder": false
+    }
+  ]
+}

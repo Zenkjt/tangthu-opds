@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kxWDWuVXDXfzja-1tUJSxGeCY9TYLkf3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xtzuSrYpkaqWAvgExU_JpmhWtm_2OWFW",
+      "parent_id": "1kxWDWuVXDXfzja-1tUJSxGeCY9TYLkf3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2826,
+      "modified": "2026-08-15T03:50:21.000Z",
+      "checksum": "677c091d0274053f0cec6b55eb406e85",
+      "folder": false
+    },
+    {
+      "id": "1ezxUfuXTxtvHxuHgDpk30CayOe9h3wgQ",
+      "parent_id": "1kxWDWuVXDXfzja-1tUJSxGeCY9TYLkf3",
+      "name": "THIÊN ĐƯỜNG DU KÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 3766050,
+      "modified": "2026-08-15T03:50:31.000Z",
+      "checksum": "3d120f6df2052b6f721ece792fdd367c",
+      "folder": false
+    },
+    {
+      "id": "16WrkuFHWd1QR2KyzUHtp0olBD6o1jlJj",
+      "parent_id": "1kxWDWuVXDXfzja-1tUJSxGeCY9TYLkf3",
+      "name": "THIÊN ĐƯỜNG DU KÝ.pdf",
+      "mime": "application/pdf",
+      "size": 4988315,
+      "modified": "2026-08-15T03:50:27.000Z",
+      "checksum": "3a4043f590c063dccbc0cecf131366e8",
+      "folder": false
+    }
+  ]
+}

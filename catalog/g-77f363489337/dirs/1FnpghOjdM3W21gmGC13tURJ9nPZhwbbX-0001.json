@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FnpghOjdM3W21gmGC13tURJ9nPZhwbbX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1g_s6eiwj7YW7u-6gYyJItAjy4FKq_RdS",
+      "parent_id": "1FnpghOjdM3W21gmGC13tURJ9nPZhwbbX",
+      "name": "BỆNH CÔNG CHÚA.epub",
+      "mime": "application/epub+zip",
+      "size": 636800,
+      "modified": "2026-08-16T03:28:54.000Z",
+      "checksum": "9fd899b456327a3c8ff1ebefdc41cbba",
+      "folder": false
+    },
+    {
+      "id": "1iqIZnKq8xIZMdq0vMbXoAIETKGw8u5yR",
+      "parent_id": "1FnpghOjdM3W21gmGC13tURJ9nPZhwbbX",
+      "name": "BỆNH CÔNG CHÚA.pdf",
+      "mime": "application/pdf",
+      "size": 1158922,
+      "modified": "2026-08-16T03:28:51.000Z",
+      "checksum": "257a815b1c7f6846f73bd4259a7eae90",
+      "folder": false
+    },
+    {
+      "id": "1wogp-scoG9W1Rq4-_Zf7dnCflWJeVUJl",
+      "parent_id": "1FnpghOjdM3W21gmGC13tURJ9nPZhwbbX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1485,
+      "modified": "2026-08-16T03:28:48.000Z",
+      "checksum": "7c5ca66eebc48fe3f68d16a87a0ee867",
+      "folder": false
+    }
+  ]
+}

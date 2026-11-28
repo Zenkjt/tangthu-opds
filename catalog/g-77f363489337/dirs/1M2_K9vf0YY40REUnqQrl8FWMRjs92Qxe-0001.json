@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1M2_K9vf0YY40REUnqQrl8FWMRjs92Qxe",
+  "page": 1,
+  "items": [
+    {
+      "id": "19cGn_t_iH5-KNPDTCmxVvaYXHVzinFkf",
+      "parent_id": "1M2_K9vf0YY40REUnqQrl8FWMRjs92Qxe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3108,
+      "modified": "2026-08-15T10:04:31.000Z",
+      "checksum": "665cd1a92b41f601293dbe7331f020a0",
+      "folder": false
+    },
+    {
+      "id": "1jABMoiMMYdoTKpYHm8YiZzuzELhdF4iE",
+      "parent_id": "1M2_K9vf0YY40REUnqQrl8FWMRjs92Qxe",
+      "name": "YÊU LÀ THẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 465740,
+      "modified": "2026-08-15T10:04:45.000Z",
+      "checksum": "03b6f10d6358568227be5da99d1f370e",
+      "folder": false
+    },
+    {
+      "id": "1N-IrXVX5OcqecLUfvYIyGWw8OTl9toAn",
+      "parent_id": "1M2_K9vf0YY40REUnqQrl8FWMRjs92Qxe",
+      "name": "YÊU LÀ THẾ.pdf",
+      "mime": "application/pdf",
+      "size": 732090,
+      "modified": "2026-08-15T10:04:42.000Z",
+      "checksum": "9dd9e30093349cd1a72a9cf928bdc25c",
+      "folder": false
+    }
+  ]
+}

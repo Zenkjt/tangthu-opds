@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QhXdB7f-KkF0vRIgyAYDuNZ_b9SlhPOW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hGvpIwOcLu0mPK0rCfdm2j4kXPU-H8eL",
+      "parent_id": "1QhXdB7f-KkF0vRIgyAYDuNZ_b9SlhPOW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1896,
+      "modified": "2026-08-16T03:51:03.000Z",
+      "checksum": "6196ef98c071ad077c00fc701815e4b6",
+      "folder": false
+    },
+    {
+      "id": "1oJJvuPScsgbCwzpYRKgvrW4WjgBvF5Hs",
+      "parent_id": "1QhXdB7f-KkF0vRIgyAYDuNZ_b9SlhPOW",
+      "name": "LŨY HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 131555,
+      "modified": "2026-08-16T03:51:08.000Z",
+      "checksum": "af810a26135b704399ef0c383ed2b0a5",
+      "folder": false
+    },
+    {
+      "id": "12qt9uEB3MJL670PRd6AH-LLscqrFLzfg",
+      "parent_id": "1QhXdB7f-KkF0vRIgyAYDuNZ_b9SlhPOW",
+      "name": "LŨY HOA.pdf",
+      "mime": "application/pdf",
+      "size": 329301,
+      "modified": "2026-08-16T03:51:06.000Z",
+      "checksum": "a7a6464d96030d55e1ce07fac550abc4",
+      "folder": false
+    }
+  ]
+}

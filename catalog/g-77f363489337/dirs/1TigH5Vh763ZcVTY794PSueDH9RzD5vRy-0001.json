@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TigH5Vh763ZcVTY794PSueDH9RzD5vRy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1V6qjlw__U4QCR9VuAKYioQ4hX-DlKvEn",
+      "parent_id": "1TigH5Vh763ZcVTY794PSueDH9RzD5vRy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2091,
+      "modified": "2026-08-15T03:50:50.000Z",
+      "checksum": "0fc52ab4b37f2aa27098ed7e4cca0b98",
+      "folder": false
+    },
+    {
+      "id": "12LrbyWRCrj33hiw3CBZ2G9nmCAA4cx_v",
+      "parent_id": "1TigH5Vh763ZcVTY794PSueDH9RzD5vRy",
+      "name": "KINH PHÁP HOA GIẢNG GIẢI.epub",
+      "mime": "application/epub+zip",
+      "size": 1065400,
+      "modified": "2026-08-15T03:50:58.000Z",
+      "checksum": "e39ab2fcae56bd87ac99a3d0f9c3bff5",
+      "folder": false
+    },
+    {
+      "id": "19ZvrxlGwhrHPcrlhZR6OBso8YVOyMHg3",
+      "parent_id": "1TigH5Vh763ZcVTY794PSueDH9RzD5vRy",
+      "name": "KINH PHÁP HOA GIẢNG GIẢI.pdf",
+      "mime": "application/pdf",
+      "size": 4418711,
+      "modified": "2026-08-15T03:50:55.000Z",
+      "checksum": "600a9ef246e65b97ca73e9c927f11b3a",
+      "folder": false
+    }
+  ]
+}

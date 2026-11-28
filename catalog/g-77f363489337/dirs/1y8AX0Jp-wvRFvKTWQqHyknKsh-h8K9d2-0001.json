@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1y8AX0Jp-wvRFvKTWQqHyknKsh-h8K9d2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1c9SszuqyTmMxg93meXX1AmQcNvWq84Rm",
+      "parent_id": "1y8AX0Jp-wvRFvKTWQqHyknKsh-h8K9d2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4061,
+      "modified": "2026-08-15T07:26:35.000Z",
+      "checksum": "a62a7c844f1bae7e6f303e1a8139c670",
+      "folder": false
+    },
+    {
+      "id": "188zJX9NlloYXORFiqG_xsfAs4xdgqIHQ",
+      "parent_id": "1y8AX0Jp-wvRFvKTWQqHyknKsh-h8K9d2",
+      "name": "VĂN HỌC VIỆT NAM (1800-1945).epub",
+      "mime": "application/epub+zip",
+      "size": 485201,
+      "modified": "2026-08-15T07:26:41.000Z",
+      "checksum": "be5d52828733dbb98456d4ec682813d2",
+      "folder": false
+    },
+    {
+      "id": "1TU6JTR3ufqRe6lxPEj-DCdmRBzZ5vP7G",
+      "parent_id": "1y8AX0Jp-wvRFvKTWQqHyknKsh-h8K9d2",
+      "name": "VĂN HỌC VIỆT NAM (1800-1945).pdf",
+      "mime": "application/pdf",
+      "size": 869107,
+      "modified": "2026-08-15T07:26:39.000Z",
+      "checksum": "c74cc55920d5ef7e17952336492ecf6b",
+      "folder": false
+    }
+  ]
+}

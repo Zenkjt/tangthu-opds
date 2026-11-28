@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-kEAPdnXcx-XHZnc-eua76WzwyuGv0K5",
+  "page": 1,
+  "items": [
+    {
+      "id": "147BNRLYkLsBIbhk64_EyQA9HB-5mWMJu",
+      "parent_id": "1-kEAPdnXcx-XHZnc-eua76WzwyuGv0K5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7906,
+      "modified": "2026-08-16T03:15:12.000Z",
+      "checksum": "7f880c1166febf6f237ba970af13895f",
+      "folder": false
+    },
+    {
+      "id": "1fnWJtg4V8j3DDBogkSij2X9UDeBGFNar",
+      "parent_id": "1-kEAPdnXcx-XHZnc-eua76WzwyuGv0K5",
+      "name": "LIÊN HOA YÊU CỐT.epub",
+      "mime": "application/epub+zip",
+      "size": 833762,
+      "modified": "2026-08-16T03:15:21.000Z",
+      "checksum": "3f4c6ee8df1469471aed3d0bb23aecfc",
+      "folder": false
+    },
+    {
+      "id": "1eIyoZuh06b7mnjOYUsynGcV8KAt2qh3g",
+      "parent_id": "1-kEAPdnXcx-XHZnc-eua76WzwyuGv0K5",
+      "name": "LIÊN HOA YÊU CỐT.pdf",
+      "mime": "application/pdf",
+      "size": 2710013,
+      "modified": "2026-08-16T03:15:18.000Z",
+      "checksum": "4b0b1490033255fb00dd836fb6d5363f",
+      "folder": false
+    }
+  ]
+}

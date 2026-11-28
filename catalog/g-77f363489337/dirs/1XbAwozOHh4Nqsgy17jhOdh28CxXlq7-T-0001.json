@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XbAwozOHh4Nqsgy17jhOdh28CxXlq7-T",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fh51akiYnkITyZnAN2WXc7HwBhI4-hDA",
+      "parent_id": "1XbAwozOHh4Nqsgy17jhOdh28CxXlq7-T",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3010,
+      "modified": "2026-08-16T03:59:25.000Z",
+      "checksum": "584e92f7afcc0beaa07a023bb0faf5ae",
+      "folder": false
+    },
+    {
+      "id": "10fkTlUi_exfEFQufQ7dDiGEUcOpx6TyN",
+      "parent_id": "1XbAwozOHh4Nqsgy17jhOdh28CxXlq7-T",
+      "name": "THÀNH DUY LẠC.epub",
+      "mime": "application/epub+zip",
+      "size": 642308,
+      "modified": "2026-08-16T03:59:32.000Z",
+      "checksum": "e696ca2a5e7200046cbb6a7c07f3aa13",
+      "folder": false
+    },
+    {
+      "id": "1BT673BCeCtTyHlREdT8o4duTEu04yie6",
+      "parent_id": "1XbAwozOHh4Nqsgy17jhOdh28CxXlq7-T",
+      "name": "THÀNH DUY LẠC.pdf",
+      "mime": "application/pdf",
+      "size": 1630415,
+      "modified": "2026-08-16T03:59:29.000Z",
+      "checksum": "2d265933cb4a858da21d756d9909db4a",
+      "folder": false
+    }
+  ]
+}

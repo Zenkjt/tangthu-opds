@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TnL1OISd5zuW5ayAHcbVAMjpSncHq8Hp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GXOHuuupKUuP2qdIWjSyal0DZ5nta4Nh",
+      "parent_id": "1TnL1OISd5zuW5ayAHcbVAMjpSncHq8Hp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6046,
+      "modified": "2026-08-15T03:25:53.000Z",
+      "checksum": "3cfb0fb1839249b3bd10b17145b0b388",
+      "folder": false
+    },
+    {
+      "id": "1TZ2sjmC-KMEx0BUyJNzgoQDiMIax8_Au",
+      "parent_id": "1TnL1OISd5zuW5ayAHcbVAMjpSncHq8Hp",
+      "name": "SIÊU LÝ TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 365324,
+      "modified": "2026-08-15T03:26:01.000Z",
+      "checksum": "c597133a8c09fefe483f65d6c57b95b8",
+      "folder": false
+    },
+    {
+      "id": "10IAF2Up-lLG9mgN3MRtZIU_1N-OVXFWU",
+      "parent_id": "1TnL1OISd5zuW5ayAHcbVAMjpSncHq8Hp",
+      "name": "SIÊU LÝ TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 565074,
+      "modified": "2026-08-15T03:25:58.000Z",
+      "checksum": "b0dcf826bcad8111b20119560cacc462",
+      "folder": false
+    }
+  ]
+}

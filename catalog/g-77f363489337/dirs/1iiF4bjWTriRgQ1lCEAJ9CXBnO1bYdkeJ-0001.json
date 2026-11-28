@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iiF4bjWTriRgQ1lCEAJ9CXBnO1bYdkeJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CpTzy9IyzTQ0mchBeYmg0aqQS2t6gbGH",
+      "parent_id": "1iiF4bjWTriRgQ1lCEAJ9CXBnO1bYdkeJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3165,
+      "modified": "2026-08-15T10:24:59.000Z",
+      "checksum": "d9f9fca5edebf5a9acfddecbf81d1022",
+      "folder": false
+    },
+    {
+      "id": "1CR7vLbxRTCZDr425kfQayaOJQyvYps7d",
+      "parent_id": "1iiF4bjWTriRgQ1lCEAJ9CXBnO1bYdkeJ",
+      "name": "SỬ THƯỢNG TỐI CƯỜNG SƯ HUYNH.epub",
+      "mime": "application/epub+zip",
+      "size": 4165533,
+      "modified": "2026-08-15T10:25:10.000Z",
+      "checksum": "d72c20c53edbeabfa6df5fc734c8baa9",
+      "folder": false
+    },
+    {
+      "id": "1K3f2aYAETNOhcQm94QyUDu8lU0QYj5kY",
+      "parent_id": "1iiF4bjWTriRgQ1lCEAJ9CXBnO1bYdkeJ",
+      "name": "SỬ THƯỢNG TỐI CƯỜNG SƯ HUYNH.pdf",
+      "mime": "application/pdf",
+      "size": 2623965,
+      "modified": "2026-08-15T10:25:06.000Z",
+      "checksum": "37270da0fd73bf5b6b8fdd4aae8d2749",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NmbF3rCqdDXW9XOXzNimw1_6QyCpdAgB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1asf1tBw4DLm9tp_HlImlbqxQqPYos_Ps",
+      "parent_id": "1NmbF3rCqdDXW9XOXzNimw1_6QyCpdAgB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 707,
+      "modified": "2026-08-15T10:39:09.000Z",
+      "checksum": "98369d6905c97d7e0a372dce3d14db41",
+      "folder": false
+    },
+    {
+      "id": "14ZlVzNLoAmUiWRtGMUNLvE_UBiAcCnVT",
+      "parent_id": "1NmbF3rCqdDXW9XOXzNimw1_6QyCpdAgB",
+      "name": "NHẬT KÝ NGƯỜI ĐIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 218269,
+      "modified": "2026-08-15T10:39:15.000Z",
+      "checksum": "8fae6731614ca2493c497a4929d7e768",
+      "folder": false
+    },
+    {
+      "id": "1sfPSbXwniRAkWLNynZ0W5XgT09kh-ZDW",
+      "parent_id": "1NmbF3rCqdDXW9XOXzNimw1_6QyCpdAgB",
+      "name": "NHẬT KÝ NGƯỜI ĐIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 101542,
+      "modified": "2026-08-15T10:39:12.000Z",
+      "checksum": "c986917eebeddc737f2ec3de3eca3e1e",
+      "folder": false
+    }
+  ]
+}

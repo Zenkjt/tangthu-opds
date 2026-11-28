@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15TUt3euB0tOmCqjPa4dmytQGObaywzPi",
+  "page": 1,
+  "items": [
+    {
+      "id": "17wNgsmTwquw-Os3RWdkM8KIJobz_VG-9",
+      "parent_id": "15TUt3euB0tOmCqjPa4dmytQGObaywzPi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8733,
+      "modified": "2026-08-15T07:25:32.000Z",
+      "checksum": "42bcfd9d3fe705ebedbdda34414b36b0",
+      "folder": false
+    },
+    {
+      "id": "1ZveO8mp-QvXlYx4i9Q0dZtRmP2iBKdye",
+      "parent_id": "15TUt3euB0tOmCqjPa4dmytQGObaywzPi",
+      "name": "HÙNG KARÔ.epub",
+      "mime": "application/epub+zip",
+      "size": 1280942,
+      "modified": "2026-08-15T07:25:40.000Z",
+      "checksum": "40c521268a6d3b16ca9fa78e6dd67440",
+      "folder": false
+    },
+    {
+      "id": "19IQf_xPwzIH-kcmGG1K5llGcnmG_qLzz",
+      "parent_id": "15TUt3euB0tOmCqjPa4dmytQGObaywzPi",
+      "name": "HÙNG KARÔ.pdf",
+      "mime": "application/pdf",
+      "size": 1532865,
+      "modified": "2026-08-15T07:25:37.000Z",
+      "checksum": "b2b0aa5d0a87795834c2232b0316cd3f",
+      "folder": false
+    }
+  ]
+}

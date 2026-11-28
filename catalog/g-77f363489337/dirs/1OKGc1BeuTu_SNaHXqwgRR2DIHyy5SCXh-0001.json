@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OKGc1BeuTu_SNaHXqwgRR2DIHyy5SCXh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iId0LaNTixEHb5jagvS68nXGea6EwnI8",
+      "parent_id": "1OKGc1BeuTu_SNaHXqwgRR2DIHyy5SCXh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3140,
+      "modified": "2026-08-16T04:03:09.000Z",
+      "checksum": "94e13a549a2f17813dfc9f674abc4853",
+      "folder": false
+    },
+    {
+      "id": "1GSe1P5JRTxcoR_nnyWknxsUK456hpd0T",
+      "parent_id": "1OKGc1BeuTu_SNaHXqwgRR2DIHyy5SCXh",
+      "name": "SỐNG LẠI BẢO VỆ HẠNH PHÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 2230462,
+      "modified": "2026-08-16T04:03:18.000Z",
+      "checksum": "f754dc2e740166b218919c43e9ab70e8",
+      "folder": false
+    },
+    {
+      "id": "1yEY-rMCXsQbB_PKK_WncMMtFK-ekPVzl",
+      "parent_id": "1OKGc1BeuTu_SNaHXqwgRR2DIHyy5SCXh",
+      "name": "SỐNG LẠI BẢO VỆ HẠNH PHÚC.pdf",
+      "mime": "application/pdf",
+      "size": 1605151,
+      "modified": "2026-08-16T04:03:14.000Z",
+      "checksum": "30648a85fd0a0f17ef576e187873cbea",
+      "folder": false
+    }
+  ]
+}

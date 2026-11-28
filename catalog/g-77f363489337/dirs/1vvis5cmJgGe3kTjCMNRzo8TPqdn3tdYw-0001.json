@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vvis5cmJgGe3kTjCMNRzo8TPqdn3tdYw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OOdMMYYjkvLbxAT4pGxzcgm5_D6Lg7oI",
+      "parent_id": "1vvis5cmJgGe3kTjCMNRzo8TPqdn3tdYw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 626,
+      "modified": "2026-08-15T10:33:13.000Z",
+      "checksum": "3381a4faf9f0294bbcfaf1837f1429d8",
+      "folder": false
+    },
+    {
+      "id": "1E20rtdSrHNde2GqyQon2pPtqtseDgkEn",
+      "parent_id": "1vvis5cmJgGe3kTjCMNRzo8TPqdn3tdYw",
+      "name": "PHÁN QUYẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 754154,
+      "modified": "2026-08-15T10:33:27.000Z",
+      "checksum": "c4988c2dd8f3dbbb7e70cac6a9b91b84",
+      "folder": false
+    },
+    {
+      "id": "1I8qrin3mykgOtK_vVv5jnCRM9EZ1Dq92",
+      "parent_id": "1vvis5cmJgGe3kTjCMNRzo8TPqdn3tdYw",
+      "name": "PHÁN QUYẾT.pdf",
+      "mime": "application/pdf",
+      "size": 2719686,
+      "modified": "2026-08-15T10:33:21.000Z",
+      "checksum": "fb5471d129a6dc530839c548c63c06da",
+      "folder": false
+    }
+  ]
+}

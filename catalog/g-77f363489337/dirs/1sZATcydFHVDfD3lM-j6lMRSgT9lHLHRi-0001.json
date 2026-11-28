@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sZATcydFHVDfD3lM-j6lMRSgT9lHLHRi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-0EyQItQlp6YQsl7_hyIleYiPTev5hmK",
+      "parent_id": "1sZATcydFHVDfD3lM-j6lMRSgT9lHLHRi",
+      "name": "BÃO.epub",
+      "mime": "application/epub+zip",
+      "size": 927750,
+      "modified": "2026-08-15T11:03:29.000Z",
+      "checksum": "1f50bf7f667cb20e60317a25046d4a16",
+      "folder": false
+    },
+    {
+      "id": "1VS3pM3O88gHBGJrToJXdaEEWBhnkO6Qg",
+      "parent_id": "1sZATcydFHVDfD3lM-j6lMRSgT9lHLHRi",
+      "name": "BÃO.pdf",
+      "mime": "application/pdf",
+      "size": 997074,
+      "modified": "2026-08-15T11:03:11.000Z",
+      "checksum": "d9e43434b2f92d950c4e94f5fbd123ce",
+      "folder": false
+    },
+    {
+      "id": "1czMuc66AqjPMcPlLRLyQpyQBD1Wn7YYr",
+      "parent_id": "1sZATcydFHVDfD3lM-j6lMRSgT9lHLHRi",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 439,
+      "modified": "2026-08-15T11:03:02.000Z",
+      "checksum": "bbd520156ca99f7228f3650f4ee17596",
+      "folder": false
+    }
+  ]
+}

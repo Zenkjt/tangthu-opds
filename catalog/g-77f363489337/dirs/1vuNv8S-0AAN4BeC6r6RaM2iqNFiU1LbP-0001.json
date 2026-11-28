@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vuNv8S-0AAN4BeC6r6RaM2iqNFiU1LbP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BGFevYPznpNe1N6f6oo2jDIC7fwlKSOx",
+      "parent_id": "1vuNv8S-0AAN4BeC6r6RaM2iqNFiU1LbP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3315,
+      "modified": "2026-08-15T10:15:45.000Z",
+      "checksum": "dfb667ded592bbc3c8d549b513b4e83b",
+      "folder": false
+    },
+    {
+      "id": "1Cc6-WDsSW9BHPcWGRVd-t0sCXwMNUMUd",
+      "parent_id": "1vuNv8S-0AAN4BeC6r6RaM2iqNFiU1LbP",
+      "name": "THẤT TÌNH TẠM THỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 1124459,
+      "modified": "2026-08-15T10:15:53.000Z",
+      "checksum": "19329b6a2858477c1779067c6bfb72b6",
+      "folder": false
+    },
+    {
+      "id": "1F5AyNI9V7iiJ5QJjC5sJm49KkNqwGqip",
+      "parent_id": "1vuNv8S-0AAN4BeC6r6RaM2iqNFiU1LbP",
+      "name": "THẤT TÌNH TẠM THỜI.pdf",
+      "mime": "application/pdf",
+      "size": 983548,
+      "modified": "2026-08-15T10:15:50.000Z",
+      "checksum": "4b967c32075c5dcde941c8c70e1a834b",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13WXNgOqappEfq-vRSMtK7Z1jr_cNjg-P",
+  "page": 1,
+  "items": [
+    {
+      "id": "1h_XBPXCKV4M98f-5kKfVGptJFQE3AR_-",
+      "parent_id": "13WXNgOqappEfq-vRSMtK7Z1jr_cNjg-P",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6253,
+      "modified": "2026-08-16T03:48:45.000Z",
+      "checksum": "a106967ffac34ada0bf1156a3898f90b",
+      "folder": false
+    },
+    {
+      "id": "1M9a4-l62JcGYPTWOG3k2NPFkGwAw40qn",
+      "parent_id": "13WXNgOqappEfq-vRSMtK7Z1jr_cNjg-P",
+      "name": "NỤ HÔN TỬ THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 508354,
+      "modified": "2026-08-16T03:48:52.000Z",
+      "checksum": "6148eefa96b559bede4548cec74c8666",
+      "folder": false
+    },
+    {
+      "id": "1tbKVkXhLwAIycPAtBUhgiSMhRIxUMrmr",
+      "parent_id": "13WXNgOqappEfq-vRSMtK7Z1jr_cNjg-P",
+      "name": "NỤ HÔN TỬ THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 1121952,
+      "modified": "2026-08-16T03:48:49.000Z",
+      "checksum": "8a52a8fe576fe05322b16286736bab1e",
+      "folder": false
+    }
+  ]
+}

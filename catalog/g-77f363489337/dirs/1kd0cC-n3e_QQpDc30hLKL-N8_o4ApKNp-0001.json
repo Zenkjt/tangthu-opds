@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kd0cC-n3e_QQpDc30hLKL-N8_o4ApKNp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iqD_beW0Z1XYh5zLsg8okc2YiZxEZ_Bs",
+      "parent_id": "1kd0cC-n3e_QQpDc30hLKL-N8_o4ApKNp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3028,
+      "modified": "2026-08-15T07:34:50.000Z",
+      "checksum": "85d481efd706609189587cd4b43fa30c",
+      "folder": false
+    },
+    {
+      "id": "1EyrgdUMTTBFyH6qxJj25A6bLUx9n1zUs",
+      "parent_id": "1kd0cC-n3e_QQpDc30hLKL-N8_o4ApKNp",
+      "name": "LUYỆN KIẾM.epub",
+      "mime": "application/epub+zip",
+      "size": 604915,
+      "modified": "2026-08-15T07:34:57.000Z",
+      "checksum": "c7fcb53a53d3fdf56af0f7cf582866e6",
+      "folder": false
+    },
+    {
+      "id": "12t7VyMkPqLQ40Tr_-Hei5igNikbkQrhs",
+      "parent_id": "1kd0cC-n3e_QQpDc30hLKL-N8_o4ApKNp",
+      "name": "LUYỆN KIẾM.pdf",
+      "mime": "application/pdf",
+      "size": 1142024,
+      "modified": "2026-08-15T07:34:54.000Z",
+      "checksum": "1a25f9f8fefee7c98b71dbb316812baa",
+      "folder": false
+    }
+  ]
+}

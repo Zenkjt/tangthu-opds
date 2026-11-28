@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DZDL5n7R02eTDSBnaMnOrpmPnGjwG3hz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FETNq6bMYPtVp7L2srTc-X3YJNwys7ZF",
+      "parent_id": "1DZDL5n7R02eTDSBnaMnOrpmPnGjwG3hz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 13735,
+      "modified": "2026-08-16T02:51:19.000Z",
+      "checksum": "2ce439cfdde35dc34252424bbf8cb2c2",
+      "folder": false
+    },
+    {
+      "id": "1uG3SNMpX7oWWMSebgBm158LLMDvI-Iy7",
+      "parent_id": "1DZDL5n7R02eTDSBnaMnOrpmPnGjwG3hz",
+      "name": "ĐỨA TRẺ LẠC LOÀI.epub",
+      "mime": "application/epub+zip",
+      "size": 519092,
+      "modified": "2026-08-16T02:51:26.000Z",
+      "checksum": "c5544d96d4987c4954b32bdca380edc0",
+      "folder": false
+    },
+    {
+      "id": "1PjXE4B7Z1vS0MnUL0RQFFSmWSEjRzMm_",
+      "parent_id": "1DZDL5n7R02eTDSBnaMnOrpmPnGjwG3hz",
+      "name": "ĐỨA TRẺ LẠC LOÀI.pdf",
+      "mime": "application/pdf",
+      "size": 1290040,
+      "modified": "2026-08-16T02:51:24.000Z",
+      "checksum": "0e0d04ba04a0f9f75e075e3f4c005d7a",
+      "folder": false
+    }
+  ]
+}

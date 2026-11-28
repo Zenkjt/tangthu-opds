@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VAy0rTIUdBwt9sdieiA7NIA7KRLM0JDH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bgodolz84-g7eJ5VlPIrCSa-IW6sJdSD",
+      "parent_id": "1VAy0rTIUdBwt9sdieiA7NIA7KRLM0JDH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3827,
+      "modified": "2026-08-15T03:55:43.000Z",
+      "checksum": "e98770b617267fbce1cb39c68e1fc2bb",
+      "folder": false
+    },
+    {
+      "id": "1rSimHF5eVS8o7rAifZzvYF02POeKNXK5",
+      "parent_id": "1VAy0rTIUdBwt9sdieiA7NIA7KRLM0JDH",
+      "name": "TỊNH ĐỘ VẤN ĐÁP.epub",
+      "mime": "application/epub+zip",
+      "size": 291824,
+      "modified": "2026-08-15T03:55:49.000Z",
+      "checksum": "6a4d3e47664e07d0187fee04221c3ed4",
+      "folder": false
+    },
+    {
+      "id": "1LVXYpSmAanlvhbSq3HGbkWyYKh12h-Pi",
+      "parent_id": "1VAy0rTIUdBwt9sdieiA7NIA7KRLM0JDH",
+      "name": "TỊNH ĐỘ VẤN ĐÁP.pdf",
+      "mime": "application/pdf",
+      "size": 591836,
+      "modified": "2026-08-15T03:55:46.000Z",
+      "checksum": "e1fe732c4e354d37dd86e8cfe994d908",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rAWwhq3bWicxPxN_dKFMAsbkWgu252At",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FksA4PnGSo_nBcSSKMWLOxt7veXeqc8R",
+      "parent_id": "1rAWwhq3bWicxPxN_dKFMAsbkWgu252At",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4579,
+      "modified": "2026-08-15T08:04:35.000Z",
+      "checksum": "48b669cc9920c35c761ef142258a3b17",
+      "folder": false
+    },
+    {
+      "id": "1QFxw64nuZYYCQ_NJk1HjBZ4-W2nX-KtF",
+      "parent_id": "1rAWwhq3bWicxPxN_dKFMAsbkWgu252At",
+      "name": "NHỮNG CHÀNG TRAI NĂM ẤY.epub",
+      "mime": "application/epub+zip",
+      "size": 454753,
+      "modified": "2026-08-15T08:04:47.000Z",
+      "checksum": "9b428792c695cf6032c1c8c09a7c6e36",
+      "folder": false
+    },
+    {
+      "id": "1ATm5UadaAQYQ0Q6wvHwSEFKw8sOL2zgI",
+      "parent_id": "1rAWwhq3bWicxPxN_dKFMAsbkWgu252At",
+      "name": "NHỮNG CHÀNG TRAI NĂM ẤY.pdf",
+      "mime": "application/pdf",
+      "size": 1082327,
+      "modified": "2026-08-15T08:04:40.000Z",
+      "checksum": "bcd7b6e3a55517c1ad525d6cbaf9167c",
+      "folder": false
+    }
+  ]
+}

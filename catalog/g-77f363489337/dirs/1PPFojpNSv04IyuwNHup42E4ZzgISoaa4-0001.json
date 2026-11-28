@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PPFojpNSv04IyuwNHup42E4ZzgISoaa4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CFEo2rWfBea4wVR0F46nYr1n-Skid9QH",
+      "parent_id": "1PPFojpNSv04IyuwNHup42E4ZzgISoaa4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 452,
+      "modified": "2026-08-16T04:13:25.000Z",
+      "checksum": "49134557b85b4751fc3b3466c839dfe7",
+      "folder": false
+    },
+    {
+      "id": "1HPk_bTbBOGAIXJrovDBA7f1u0-zQHG9B",
+      "parent_id": "1PPFojpNSv04IyuwNHup42E4ZzgISoaa4",
+      "name": "NGƯỜI TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 482583,
+      "modified": "2026-08-16T04:13:31.000Z",
+      "checksum": "52f0314d7c2b2dc5dc6adcd4ed1cd062",
+      "folder": false
+    },
+    {
+      "id": "1cu9Pod4qr2Yd7wTySypf57nibSwST_X6",
+      "parent_id": "1PPFojpNSv04IyuwNHup42E4ZzgISoaa4",
+      "name": "NGƯỜI TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 476335,
+      "modified": "2026-08-16T04:13:28.000Z",
+      "checksum": "a00f2851291f1db735c9eb626bc138d4",
+      "folder": false
+    }
+  ]
+}

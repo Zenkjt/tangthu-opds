@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1f8yjgyaf7NhX3IAJXQUIfXjTLth1KGtC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eY7HtuNS8rF_3bIhAxxjnW75fIxkfxjn",
+      "parent_id": "1f8yjgyaf7NhX3IAJXQUIfXjTLth1KGtC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 929,
+      "modified": "2026-08-15T17:02:25.000Z",
+      "checksum": "064b9867a848172183f2fcb882047bce",
+      "folder": false
+    },
+    {
+      "id": "1NBh-NhvVfa7j7OfM-m5HTKmXvqRIaRp0",
+      "parent_id": "1f8yjgyaf7NhX3IAJXQUIfXjTLth1KGtC",
+      "name": "XUI XẺO, CHIA TAY DI.epub",
+      "mime": "application/epub+zip",
+      "size": 676064,
+      "modified": "2026-08-15T17:02:33.000Z",
+      "checksum": "10a5bdd79791ef0f9c6c7da02109e4dc",
+      "folder": false
+    },
+    {
+      "id": "1WLqoUCrUnrhGwtfXTBRvJy2roa5GRS10",
+      "parent_id": "1f8yjgyaf7NhX3IAJXQUIfXjTLth1KGtC",
+      "name": "XUI XẺO, CHIA TAY DI.pdf",
+      "mime": "application/pdf",
+      "size": 1654666,
+      "modified": "2026-08-15T17:02:30.000Z",
+      "checksum": "a11f68c2a5ebe5dfcd75c4dcdf8837e1",
+      "folder": false
+    }
+  ]
+}

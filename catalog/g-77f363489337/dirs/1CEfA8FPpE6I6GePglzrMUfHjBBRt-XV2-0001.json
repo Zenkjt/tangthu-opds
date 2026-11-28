@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CEfA8FPpE6I6GePglzrMUfHjBBRt-XV2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fQw9AzCjfsFb0BcTowDr1n61X_uphIUL",
+      "parent_id": "1CEfA8FPpE6I6GePglzrMUfHjBBRt-XV2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 15783,
+      "modified": "2026-08-15T07:25:13.000Z",
+      "checksum": "32d1ce72ff4439e31ffa2716dbd10ff2",
+      "folder": false
+    },
+    {
+      "id": "1fr-xFLR7sKgMDmP62M2lXPyeq1RW3J3o",
+      "parent_id": "1CEfA8FPpE6I6GePglzrMUfHjBBRt-XV2",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN ALBERTO MORAVIA.epub",
+      "mime": "application/epub+zip",
+      "size": 319744,
+      "modified": "2026-08-15T07:25:19.000Z",
+      "checksum": "c4440ac85fd41a3ced08494d2030caa3",
+      "folder": false
+    },
+    {
+      "id": "1k4_pAluf9IZQyEmh0ecClW_RhzKlqaay",
+      "parent_id": "1CEfA8FPpE6I6GePglzrMUfHjBBRt-XV2",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN ALBERTO MORAVIA.pdf",
+      "mime": "application/pdf",
+      "size": 534878,
+      "modified": "2026-08-15T07:25:17.000Z",
+      "checksum": "4b66c594ad7a08e78f63fca0237c93b2",
+      "folder": false
+    }
+  ]
+}

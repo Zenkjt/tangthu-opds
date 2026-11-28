@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BJm_9P78MtcZoAmRtE2Gw5IAUHp72PmQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MvMXfAr18C9J9JNv5Cm0oSY_MOyJfPHp",
+      "parent_id": "1BJm_9P78MtcZoAmRtE2Gw5IAUHp72PmQ",
+      "name": "CỔ CỒN TRẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1067911,
+      "modified": "2026-08-15T15:05:26.000Z",
+      "checksum": "48503525801ed8c1ce032c78496987fa",
+      "folder": false
+    },
+    {
+      "id": "1bE0Zrs1U8MhGsK0z1IjSycLjxPyvzu3c",
+      "parent_id": "1BJm_9P78MtcZoAmRtE2Gw5IAUHp72PmQ",
+      "name": "CỔ CỒN TRẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 1597855,
+      "modified": "2026-08-15T15:05:23.000Z",
+      "checksum": "b518637e305b303cd25a02c159a0fa2a",
+      "folder": false
+    },
+    {
+      "id": "1TxmxG56HVbnfc3VvDlNaTDTtgjtnqyy9",
+      "parent_id": "1BJm_9P78MtcZoAmRtE2Gw5IAUHp72PmQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8069,
+      "modified": "2026-08-15T15:05:17.000Z",
+      "checksum": "03b9a1523b101a1b6d78d5d37a4cf035",
+      "folder": false
+    }
+  ]
+}

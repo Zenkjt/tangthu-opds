@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d_JrzOo66sseq-BYfydU8N922wUFw3XB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1o-EPi43pGMnX5cueJc5wu-rKM83K6mpH",
+      "parent_id": "1d_JrzOo66sseq-BYfydU8N922wUFw3XB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3023,
+      "modified": "2026-08-15T10:14:03.000Z",
+      "checksum": "4b82473af3e3b4e19449efe0aa1f12bb",
+      "folder": false
+    },
+    {
+      "id": "1ubV1YWCW7A_fslxE9nvGhaVsvLTE9-Fz",
+      "parent_id": "1d_JrzOo66sseq-BYfydU8N922wUFw3XB",
+      "name": "THIÊN TRIỀU QUỶ SƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 886345,
+      "modified": "2026-08-15T10:14:15.000Z",
+      "checksum": "9b9d770b8594fbdd78ecb7d2bb0884b9",
+      "folder": false
+    },
+    {
+      "id": "1DWDB6i1dymB4RZEutHFtNVfeRQW2Ngqx",
+      "parent_id": "1d_JrzOo66sseq-BYfydU8N922wUFw3XB",
+      "name": "THIÊN TRIỀU QUỶ SƯ.pdf",
+      "mime": "application/pdf",
+      "size": 2989584,
+      "modified": "2026-08-15T10:14:12.000Z",
+      "checksum": "837489914ee4eeba44a44f339fb693c6",
+      "folder": false
+    }
+  ]
+}

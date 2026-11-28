@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AoOrql4EJXFdZuTCG6bLyP8259n7HMqF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WOkadJv3PqjQxkApFd-rByTom17adCa4",
+      "parent_id": "1AoOrql4EJXFdZuTCG6bLyP8259n7HMqF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2580,
+      "modified": "2026-08-16T03:26:17.000Z",
+      "checksum": "278de2b7c6b77d3d18383dd45214efb0",
+      "folder": false
+    },
+    {
+      "id": "1uEf55ledgZ-ctYAlXHo__Q4oYvD5wtoI",
+      "parent_id": "1AoOrql4EJXFdZuTCG6bLyP8259n7HMqF",
+      "name": "HOA MỘNG ẢO.epub",
+      "mime": "application/epub+zip",
+      "size": 681979,
+      "modified": "2026-08-16T03:26:24.000Z",
+      "checksum": "e4d110984adc889b2074bfe594920a6d",
+      "folder": false
+    },
+    {
+      "id": "1WGbqY-JHn782ZgX8Iftmza6ENeCtKzfU",
+      "parent_id": "1AoOrql4EJXFdZuTCG6bLyP8259n7HMqF",
+      "name": "HOA MỘNG ẢO.pdf",
+      "mime": "application/pdf",
+      "size": 1157715,
+      "modified": "2026-08-16T03:26:21.000Z",
+      "checksum": "eb31ec00d65e39d550b334702b2ac187",
+      "folder": false
+    }
+  ]
+}

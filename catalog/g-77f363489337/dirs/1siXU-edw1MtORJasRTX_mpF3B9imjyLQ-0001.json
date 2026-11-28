@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1siXU-edw1MtORJasRTX_mpF3B9imjyLQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ffVM-NOMPjcnZDC-O7PWUcEVvY7FZTML",
+      "parent_id": "1siXU-edw1MtORJasRTX_mpF3B9imjyLQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2207,
+      "modified": "2026-08-15T00:53:41.000Z",
+      "checksum": "e7dbb411bed5f04aa8e59b4cc77f3bea",
+      "folder": false
+    },
+    {
+      "id": "1GC7phuWvZkcu3UikaM9Z9oeP8qiuHzjD",
+      "parent_id": "1siXU-edw1MtORJasRTX_mpF3B9imjyLQ",
+      "name": "GIẢI MÃ TRÍ TUỆ CẢM XÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 939260,
+      "modified": "2026-08-15T00:53:48.000Z",
+      "checksum": "bdb1284d2aea24c8a53fe017c656ae9c",
+      "folder": false
+    },
+    {
+      "id": "1d8zTEZpF7IjDpAJVOJkEVLDuknQpmQyf",
+      "parent_id": "1siXU-edw1MtORJasRTX_mpF3B9imjyLQ",
+      "name": "GIẢI MÃ TRÍ TUỆ CẢM XÚC.pdf",
+      "mime": "application/pdf",
+      "size": 1112066,
+      "modified": "2026-08-15T00:53:46.000Z",
+      "checksum": "817caa1e58dcd60a26bf5817c5b27b40",
+      "folder": false
+    }
+  ]
+}

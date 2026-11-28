@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1icay9IFHZiKg1mH6vvjoOwFIssh62O5E",
+  "page": 1,
+  "items": [
+    {
+      "id": "1j8Bp0uVLSk3hE7kzwhTjrJl5vvx7oubO",
+      "parent_id": "1icay9IFHZiKg1mH6vvjoOwFIssh62O5E",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3415,
+      "modified": "2026-08-15T03:25:33.000Z",
+      "checksum": "af038966a7a816f29163a52473957584",
+      "folder": false
+    },
+    {
+      "id": "1yXRJyCbwMgaoV7uRCilEdH4qfvsrCbKk",
+      "parent_id": "1icay9IFHZiKg1mH6vvjoOwFIssh62O5E",
+      "name": "LUÔN MỈM CƯỜI VỚI CUỘC SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 166380,
+      "modified": "2026-08-15T03:25:39.000Z",
+      "checksum": "03bed6038c8b3e362fc3147d9d39f9ab",
+      "folder": false
+    },
+    {
+      "id": "1iaGI5VFQ3jyQAtov-thSDp_03nAYd7k8",
+      "parent_id": "1icay9IFHZiKg1mH6vvjoOwFIssh62O5E",
+      "name": "LUÔN MỈM CƯỜI VỚI CUỘC SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 621407,
+      "modified": "2026-08-15T03:25:36.000Z",
+      "checksum": "bde17fe71c391be7c476a5b9e962ba24",
+      "folder": false
+    }
+  ]
+}

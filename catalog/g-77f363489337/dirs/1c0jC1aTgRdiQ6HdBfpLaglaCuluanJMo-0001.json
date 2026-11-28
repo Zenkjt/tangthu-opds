@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1c0jC1aTgRdiQ6HdBfpLaglaCuluanJMo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yuZMEc7TIMTzhSHd5L6fSbk-hETxmSHs",
+      "parent_id": "1c0jC1aTgRdiQ6HdBfpLaglaCuluanJMo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8793,
+      "modified": "2026-08-16T03:53:06.000Z",
+      "checksum": "53dcb85a872071ec908f43aa6a2ebff9",
+      "folder": false
+    },
+    {
+      "id": "1gfwSMJsJgcFpg8gbeNfYIld14tHON5Tq",
+      "parent_id": "1c0jC1aTgRdiQ6HdBfpLaglaCuluanJMo",
+      "name": "TÔI LÀ Ê-RI.epub",
+      "mime": "application/epub+zip",
+      "size": 952620,
+      "modified": "2026-08-16T03:53:13.000Z",
+      "checksum": "2a1de1d8c0128b008f4ca8e20d62ecec",
+      "folder": false
+    },
+    {
+      "id": "1mLAXlaNVKN7dbK3FI0K5tWOcQVldfy6D",
+      "parent_id": "1c0jC1aTgRdiQ6HdBfpLaglaCuluanJMo",
+      "name": "TÔI LÀ Ê-RI.pdf",
+      "mime": "application/pdf",
+      "size": 1205137,
+      "modified": "2026-08-16T03:53:10.000Z",
+      "checksum": "e1bb5a960c8a51bd433193bcd6ebd38b",
+      "folder": false
+    }
+  ]
+}

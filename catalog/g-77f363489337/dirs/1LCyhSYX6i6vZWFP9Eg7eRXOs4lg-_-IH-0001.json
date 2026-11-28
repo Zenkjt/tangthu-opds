@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LCyhSYX6i6vZWFP9Eg7eRXOs4lg-_-IH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RkMJGNt0x7nJMzbc4snv7_MYW4-F8qKC",
+      "parent_id": "1LCyhSYX6i6vZWFP9Eg7eRXOs4lg-_-IH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 583,
+      "modified": "2026-08-16T04:17:09.000Z",
+      "checksum": "de8122767ee0dfa46e65ecd48d7bb36e",
+      "folder": false
+    },
+    {
+      "id": "1fyI-o3nJ8H2yzAiwOfY5HTqBf4Wbt1jG",
+      "parent_id": "1LCyhSYX6i6vZWFP9Eg7eRXOs4lg-_-IH",
+      "name": "MÙI HƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 518419,
+      "modified": "2026-08-16T04:17:16.000Z",
+      "checksum": "e9c51ef7256a8e9438d9a6cc0bb6ec2e",
+      "folder": false
+    },
+    {
+      "id": "1hN1SX-H54TLtdfVZ-xyfmvEx5X35mWyk",
+      "parent_id": "1LCyhSYX6i6vZWFP9Eg7eRXOs4lg-_-IH",
+      "name": "MÙI HƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 968943,
+      "modified": "2026-08-16T04:17:13.000Z",
+      "checksum": "3ae42e9964ddecce7bb01117ff8fbfa4",
+      "folder": false
+    }
+  ]
+}

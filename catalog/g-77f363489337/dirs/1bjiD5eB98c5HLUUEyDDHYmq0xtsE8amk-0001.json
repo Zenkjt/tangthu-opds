@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bjiD5eB98c5HLUUEyDDHYmq0xtsE8amk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pUsp6JL7u4ixShnX3pjgd6IKXQJzFElv",
+      "parent_id": "1bjiD5eB98c5HLUUEyDDHYmq0xtsE8amk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4570,
+      "modified": "2026-08-16T02:56:17.000Z",
+      "checksum": "6d43fb7294241669bf3c432bd03f4551",
+      "folder": false
+    },
+    {
+      "id": "1jHmY6ziOEmwYsaIuSBHNS3a6au-rls2r",
+      "parent_id": "1bjiD5eB98c5HLUUEyDDHYmq0xtsE8amk",
+      "name": "TẤM LÒNG VÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 279530,
+      "modified": "2026-08-16T02:56:23.000Z",
+      "checksum": "b313ec129012ffbc16c85b5079a33e67",
+      "folder": false
+    },
+    {
+      "id": "1iCwIEvbaQgKAHBd3Jh90C9WyZZexQKvK",
+      "parent_id": "1bjiD5eB98c5HLUUEyDDHYmq0xtsE8amk",
+      "name": "TẤM LÒNG VÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 455563,
+      "modified": "2026-08-16T02:56:20.000Z",
+      "checksum": "5c29ca6752f73cdc3ab60a8b57402731",
+      "folder": false
+    }
+  ]
+}

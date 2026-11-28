@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17MyqgVTVHbozk8FAxEfUlAfO9H7f1rCC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DKpac_2N-LayHhP5uwsndTPDIUXFKlPt",
+      "parent_id": "17MyqgVTVHbozk8FAxEfUlAfO9H7f1rCC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3208,
+      "modified": "2026-08-16T04:13:45.000Z",
+      "checksum": "2ad256697d42a6afa358da5b0f90f3a5",
+      "folder": false
+    },
+    {
+      "id": "1G7HclXetAbqxF5pWEK8Ku_ANYwLG28gj",
+      "parent_id": "17MyqgVTVHbozk8FAxEfUlAfO9H7f1rCC",
+      "name": "NGƯỜI DƯNG CHUNG LỐI.epub",
+      "mime": "application/epub+zip",
+      "size": 794355,
+      "modified": "2026-08-16T04:13:51.000Z",
+      "checksum": "8cf1f4f7a415a7a76e339b4a3a219c93",
+      "folder": false
+    },
+    {
+      "id": "1oSEjZlTP5_ZDKGDN5PtQny7UPB_Dab3N",
+      "parent_id": "17MyqgVTVHbozk8FAxEfUlAfO9H7f1rCC",
+      "name": "NGƯỜI DƯNG CHUNG LỐI.pdf",
+      "mime": "application/pdf",
+      "size": 791482,
+      "modified": "2026-08-16T04:13:49.000Z",
+      "checksum": "21d8dcf756a553a3c7a5f26eadbc1670",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NSnqM3ferYiZBvJFraBwkjR5jj_1ClXY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1clv6gwLPNbP_L2f2enz4CKupwtZlmY7n",
+      "parent_id": "1NSnqM3ferYiZBvJFraBwkjR5jj_1ClXY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 582,
+      "modified": "2026-08-16T03:52:43.000Z",
+      "checksum": "998fa28825333242347ffb07da4a0d33",
+      "folder": false
+    },
+    {
+      "id": "1-aQJdkm7tg5SKE7ewD9KqEX0DssumV7R",
+      "parent_id": "1NSnqM3ferYiZBvJFraBwkjR5jj_1ClXY",
+      "name": "TRAO VỀ EM.epub",
+      "mime": "application/epub+zip",
+      "size": 426391,
+      "modified": "2026-08-16T03:52:49.000Z",
+      "checksum": "e8795ec57d1fb2c205f6800f55fc0de6",
+      "folder": false
+    },
+    {
+      "id": "1tWgS_AK5ShKhdmosa8bG9aK61FyJkEPr",
+      "parent_id": "1NSnqM3ferYiZBvJFraBwkjR5jj_1ClXY",
+      "name": "TRAO VỀ EM.pdf",
+      "mime": "application/pdf",
+      "size": 673184,
+      "modified": "2026-08-16T03:52:46.000Z",
+      "checksum": "fc4e1087100bf5e5306794859eb589ce",
+      "folder": false
+    }
+  ]
+}

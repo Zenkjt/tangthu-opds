@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GzNXJhI272pIq-TXWPyYv-0Xzov0KUyS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1B3ZsfqTfZnQxZD9M8oPl01tcOLz_iUAm",
+      "parent_id": "1GzNXJhI272pIq-TXWPyYv-0Xzov0KUyS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4449,
+      "modified": "2026-08-16T03:48:47.000Z",
+      "checksum": "bd0b757844f192d0af7d845cfa0d6ef8",
+      "folder": false
+    },
+    {
+      "id": "10YYt3dNH33ft5v6ZRnUb9aCFF8eulS6T",
+      "parent_id": "1GzNXJhI272pIq-TXWPyYv-0Xzov0KUyS",
+      "name": "SAY NGỦ.epub",
+      "mime": "application/epub+zip",
+      "size": 397384,
+      "modified": "2026-08-16T03:48:52.000Z",
+      "checksum": "5adb6419eb9bdbd11d58073145dbf30b",
+      "folder": false
+    },
+    {
+      "id": "1spHBD6RwDuWeJuInUQdpn2dWKc5kzeXF",
+      "parent_id": "1GzNXJhI272pIq-TXWPyYv-0Xzov0KUyS",
+      "name": "SAY NGỦ.pdf",
+      "mime": "application/pdf",
+      "size": 547139,
+      "modified": "2026-08-16T03:48:50.000Z",
+      "checksum": "162086888e73c4188805f4b8daa72250",
+      "folder": false
+    }
+  ]
+}

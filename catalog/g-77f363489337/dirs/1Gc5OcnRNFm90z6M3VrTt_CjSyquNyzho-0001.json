@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Gc5OcnRNFm90z6M3VrTt_CjSyquNyzho",
+  "page": 1,
+  "items": [
+    {
+      "id": "180fWUoP_RKlf6gWxg9UeSZDh4UgvRBqZ",
+      "parent_id": "1Gc5OcnRNFm90z6M3VrTt_CjSyquNyzho",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1954,
+      "modified": "2026-08-15T06:51:02.000Z",
+      "checksum": "3422d1611a5b61a63a44b8d512b07bd8",
+      "folder": false
+    },
+    {
+      "id": "15GSfziiRIaHXgMUmo13wiY5A-j6jneWV",
+      "parent_id": "1Gc5OcnRNFm90z6M3VrTt_CjSyquNyzho",
+      "name": "NẮNG TRONG VƯỜN.epub",
+      "mime": "application/epub+zip",
+      "size": 237383,
+      "modified": "2026-08-15T06:51:08.000Z",
+      "checksum": "0316d4a16fa2e85df5169ff1e463ab5f",
+      "folder": false
+    },
+    {
+      "id": "1_LIFAOXr3rni8HeF7hxmndCCUxvIEw9n",
+      "parent_id": "1Gc5OcnRNFm90z6M3VrTt_CjSyquNyzho",
+      "name": "NẮNG TRONG VƯỜN.pdf",
+      "mime": "application/pdf",
+      "size": 116171,
+      "modified": "2026-08-15T06:51:06.000Z",
+      "checksum": "068d86f076b035d0360eada96be48183",
+      "folder": false
+    }
+  ]
+}

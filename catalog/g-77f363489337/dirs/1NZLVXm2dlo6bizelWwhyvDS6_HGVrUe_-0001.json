@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NZLVXm2dlo6bizelWwhyvDS6_HGVrUe_",
+  "page": 1,
+  "items": [
+    {
+      "id": "15racSpWNLU1ARhOp-bSIfM20eg-_Ecx-",
+      "parent_id": "1NZLVXm2dlo6bizelWwhyvDS6_HGVrUe_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 480,
+      "modified": "2026-08-15T10:47:21.000Z",
+      "checksum": "ab32cb47c2e675598792c5f25686220a",
+      "folder": false
+    },
+    {
+      "id": "1hOGRwkWznjMKIL_lJDDC_6apkl6h0Rlx",
+      "parent_id": "1NZLVXm2dlo6bizelWwhyvDS6_HGVrUe_",
+      "name": "NGĂN KÉO TRÊN CÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 426214,
+      "modified": "2026-08-15T10:47:28.000Z",
+      "checksum": "60a8117d56a92d11c88a37f8aa5b7c13",
+      "folder": false
+    },
+    {
+      "id": "1SapJIVRutU-ORgcdKeKY7jdYoOHA3MPj",
+      "parent_id": "1NZLVXm2dlo6bizelWwhyvDS6_HGVrUe_",
+      "name": "NGĂN KÉO TRÊN CÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 578575,
+      "modified": "2026-08-15T10:47:25.000Z",
+      "checksum": "d1d276bc2a7d702b875d53acf52153b4",
+      "folder": false
+    }
+  ]
+}

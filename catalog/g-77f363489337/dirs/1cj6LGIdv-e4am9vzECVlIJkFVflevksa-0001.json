@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cj6LGIdv-e4am9vzECVlIJkFVflevksa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mdygxyCPgYDltUSeRoJBzNpI053KX6wb",
+      "parent_id": "1cj6LGIdv-e4am9vzECVlIJkFVflevksa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1225,
+      "modified": "2026-08-16T02:55:24.000Z",
+      "checksum": "7d93533301bec09a88cb0c1b36b5dccc",
+      "folder": false
+    },
+    {
+      "id": "1IsbyM9Q6bHu0lEHkz2NsLsbhO3Mu3zNW",
+      "parent_id": "1cj6LGIdv-e4am9vzECVlIJkFVflevksa",
+      "name": "ĐỜI CON GÁI.epub",
+      "mime": "application/epub+zip",
+      "size": 169058,
+      "modified": "2026-08-16T02:55:30.000Z",
+      "checksum": "021f7ec66fe6b95ebc6208669867f6be",
+      "folder": false
+    },
+    {
+      "id": "1wP6LXCuE586KlxQw-Cmful7hKwEpTwuU",
+      "parent_id": "1cj6LGIdv-e4am9vzECVlIJkFVflevksa",
+      "name": "ĐỜI CON GÁI.pdf",
+      "mime": "application/pdf",
+      "size": 508142,
+      "modified": "2026-08-16T02:55:28.000Z",
+      "checksum": "715f2fafb940b0cc76a1ebc684d1f61d",
+      "folder": false
+    }
+  ]
+}

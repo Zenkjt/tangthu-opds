@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_GMgFkesCgFx6BmH6i0JXvuR2GfrrliK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WOI1cy4t1kVPvBzQG5VkFNBxiyv9pAJ5",
+      "parent_id": "1_GMgFkesCgFx6BmH6i0JXvuR2GfrrliK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5849,
+      "modified": "2026-08-15T08:22:48.000Z",
+      "checksum": "66242ad47b2f6850b3b791222f7bae32",
+      "folder": false
+    },
+    {
+      "id": "1aFCIgfXRNcdnrkP4_v6Jv_4yhZn0wa3e",
+      "parent_id": "1_GMgFkesCgFx6BmH6i0JXvuR2GfrrliK",
+      "name": "NGUỒN CỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 949145,
+      "modified": "2026-08-15T08:23:19.000Z",
+      "checksum": "05441913aa868d0a353399c828178e27",
+      "folder": false
+    },
+    {
+      "id": "1PmvMmopVI-HRk9e_hgW3lAKKQ14oypAH",
+      "parent_id": "1_GMgFkesCgFx6BmH6i0JXvuR2GfrrliK",
+      "name": "NGUỒN CỘI.pdf",
+      "mime": "application/pdf",
+      "size": 2400786,
+      "modified": "2026-08-15T08:23:09.000Z",
+      "checksum": "78080501ada09bca9acf422b03e7b9e6",
+      "folder": false
+    }
+  ]
+}

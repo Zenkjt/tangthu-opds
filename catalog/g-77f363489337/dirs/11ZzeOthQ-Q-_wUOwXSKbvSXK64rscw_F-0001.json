@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11ZzeOthQ-Q-_wUOwXSKbvSXK64rscw_F",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KgGVFvTVxuN3-TI5oZ3c8BwaAHPGLEeT",
+      "parent_id": "11ZzeOthQ-Q-_wUOwXSKbvSXK64rscw_F",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 746,
+      "modified": "2026-08-15T10:06:19.000Z",
+      "checksum": "542f627585b7dc5820944bcd66efde1b",
+      "folder": false
+    },
+    {
+      "id": "1zN7JazVWyubCkTe3OyIMNncwRcjf7wpK",
+      "parent_id": "11ZzeOthQ-Q-_wUOwXSKbvSXK64rscw_F",
+      "name": "TRUYỆN NGẮN NHẤT LINH.epub",
+      "mime": "application/epub+zip",
+      "size": 381170,
+      "modified": "2026-08-15T10:06:25.000Z",
+      "checksum": "7467adf953b48b818a6198592d0cd9e0",
+      "folder": false
+    },
+    {
+      "id": "15idN_9Ry3R1ntf1FzveRyUNozYKnM6MB",
+      "parent_id": "11ZzeOthQ-Q-_wUOwXSKbvSXK64rscw_F",
+      "name": "TRUYỆN NGẮN NHẤT LINH.pdf",
+      "mime": "application/pdf",
+      "size": 600017,
+      "modified": "2026-08-15T10:06:23.000Z",
+      "checksum": "0fde47088eafaa4e457368573041fab7",
+      "folder": false
+    }
+  ]
+}

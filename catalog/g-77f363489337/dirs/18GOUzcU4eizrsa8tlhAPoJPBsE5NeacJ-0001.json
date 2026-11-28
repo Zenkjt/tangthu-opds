@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18GOUzcU4eizrsa8tlhAPoJPBsE5NeacJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1X7xQ-26Vk_2xSDX3Np8M8tMRePkmo71W",
+      "parent_id": "18GOUzcU4eizrsa8tlhAPoJPBsE5NeacJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1095,
+      "modified": "2026-08-15T11:30:44.000Z",
+      "checksum": "f8ea1c92bf4cba1a8b6d2a354fbf1ff2",
+      "folder": false
+    },
+    {
+      "id": "1Sd21PBP7vxBL_i2q9HjY-txrGe76vkYa",
+      "parent_id": "18GOUzcU4eizrsa8tlhAPoJPBsE5NeacJ",
+      "name": "GIÁO TRÌNH HỆ ĐIỀU HÀNH UNIX - LINUX.epub",
+      "mime": "application/epub+zip",
+      "size": 688467,
+      "modified": "2026-08-15T11:30:51.000Z",
+      "checksum": "ca0868eb9fb4b244826531dd36b4393c",
+      "folder": false
+    },
+    {
+      "id": "1jT0W1caRsBcpSrZlcVvdwom3XQq-aTKj",
+      "parent_id": "18GOUzcU4eizrsa8tlhAPoJPBsE5NeacJ",
+      "name": "GIÁO TRÌNH HỆ ĐIỀU HÀNH UNIX - LINUX.pdf",
+      "mime": "application/pdf",
+      "size": 1629918,
+      "modified": "2026-08-15T11:30:48.000Z",
+      "checksum": "4116dc826919d4d9ad977f5866698301",
+      "folder": false
+    }
+  ]
+}

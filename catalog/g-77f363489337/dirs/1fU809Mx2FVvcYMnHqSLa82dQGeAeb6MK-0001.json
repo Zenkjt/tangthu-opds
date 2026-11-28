@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fU809Mx2FVvcYMnHqSLa82dQGeAeb6MK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-3xWCv4AsxVJCKqAtRS6dVj9E_DFByt2",
+      "parent_id": "1fU809Mx2FVvcYMnHqSLa82dQGeAeb6MK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3387,
+      "modified": "2026-08-15T00:48:19.000Z",
+      "checksum": "0e25cf2a5d3161edc124d53271f10a0c",
+      "folder": false
+    },
+    {
+      "id": "1iPTpt_p3JQ_JVaVG58tU2awiTBbUSXWH",
+      "parent_id": "1fU809Mx2FVvcYMnHqSLa82dQGeAeb6MK",
+      "name": "DÁM ƯỚC MƠ.epub",
+      "mime": "application/epub+zip",
+      "size": 478544,
+      "modified": "2026-08-15T00:48:27.000Z",
+      "checksum": "fd4b24e98e1fce463ca985f7fe353a7e",
+      "folder": false
+    },
+    {
+      "id": "1xKsRkRIVHeoKs32rpsz-hpNMNjKPnVDp",
+      "parent_id": "1fU809Mx2FVvcYMnHqSLa82dQGeAeb6MK",
+      "name": "DÁM ƯỚC MƠ.pdf",
+      "mime": "application/pdf",
+      "size": 802985,
+      "modified": "2026-08-15T00:48:24.000Z",
+      "checksum": "b81d6df69cc32d76afd7021f32367bd1",
+      "folder": false
+    }
+  ]
+}

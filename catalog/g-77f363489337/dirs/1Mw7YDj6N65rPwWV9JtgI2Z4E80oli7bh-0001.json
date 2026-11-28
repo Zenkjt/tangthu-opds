@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Mw7YDj6N65rPwWV9JtgI2Z4E80oli7bh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CwUOSbiQe1npfDn_XkzZ4TH8muCk3Un9",
+      "parent_id": "1Mw7YDj6N65rPwWV9JtgI2Z4E80oli7bh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3298,
+      "modified": "2026-08-16T04:08:18.000Z",
+      "checksum": "e868825e36e5ecbaec39a4a372ed556f",
+      "folder": false
+    },
+    {
+      "id": "1nnR5kuwEV1Bf5XQmM9hmAdIFHjW5Ypzc",
+      "parent_id": "1Mw7YDj6N65rPwWV9JtgI2Z4E80oli7bh",
+      "name": "NỤ HÔN ĐẪM MÁU.epub",
+      "mime": "application/epub+zip",
+      "size": 584606,
+      "modified": "2026-08-16T04:08:29.000Z",
+      "checksum": "26ad467b6879f4d38e13c7b9918c1797",
+      "folder": false
+    },
+    {
+      "id": "1wiO0BzFj02qAKNj0FIJGS4KA9c7XJyt1",
+      "parent_id": "1Mw7YDj6N65rPwWV9JtgI2Z4E80oli7bh",
+      "name": "NỤ HÔN ĐẪM MÁU.pdf",
+      "mime": "application/pdf",
+      "size": 1979958,
+      "modified": "2026-08-16T04:08:26.000Z",
+      "checksum": "8d36ad2e7eece23bb8424911f0e5a3cb",
+      "folder": false
+    }
+  ]
+}

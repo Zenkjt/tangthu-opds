@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bv6csiISopAHJE5xNDAo1Z1vBpTVffx4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XNSmOzvWmLwbSd_dNd_ENG0EBkPq6xwi",
+      "parent_id": "1bv6csiISopAHJE5xNDAo1Z1vBpTVffx4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5433,
+      "modified": "2026-08-15T15:00:43.000Z",
+      "checksum": "f0b6b07d157721ba12ca276fa17b81df",
+      "folder": false
+    },
+    {
+      "id": "1i8pFQj32nNyYjRDWbozTsrMiWh__UtJ_",
+      "parent_id": "1bv6csiISopAHJE5xNDAo1Z1vBpTVffx4",
+      "name": "NGÔI SAO CÔ ĐƠN.epub",
+      "mime": "application/epub+zip",
+      "size": 395503,
+      "modified": "2026-08-15T15:00:56.000Z",
+      "checksum": "202f2835aa8f1d30905ed209774c6371",
+      "folder": false
+    },
+    {
+      "id": "1VnB8WILzbtLNGsVfw9P4PpysxvfSzhZx",
+      "parent_id": "1bv6csiISopAHJE5xNDAo1Z1vBpTVffx4",
+      "name": "NGÔI SAO CÔ ĐƠN.pdf",
+      "mime": "application/pdf",
+      "size": 746055,
+      "modified": "2026-08-15T15:00:48.000Z",
+      "checksum": "304ecd591d0d62609a88a23cfbb90100",
+      "folder": false
+    }
+  ]
+}

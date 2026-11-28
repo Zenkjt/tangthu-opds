@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1umSmiVRKL1mSCLGqQQLY4-1h2SHFV6w8",
+  "page": 1,
+  "items": [
+    {
+      "id": "11oZ0Wm5tMP2WNGlIUk5c-JGiQXri8L7j",
+      "parent_id": "1umSmiVRKL1mSCLGqQQLY4-1h2SHFV6w8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 600,
+      "modified": "2026-08-16T04:18:06.000Z",
+      "checksum": "32364381c2a3761f1c3a88c5cbf26a48",
+      "folder": false
+    },
+    {
+      "id": "15bbqf5ysr9aWaWQN7bFAPraDkrpGa5D-",
+      "parent_id": "1umSmiVRKL1mSCLGqQQLY4-1h2SHFV6w8",
+      "name": "MẮT EM NGƯỜI SÀI GÒN.epub",
+      "mime": "application/epub+zip",
+      "size": 427340,
+      "modified": "2026-08-16T04:18:13.000Z",
+      "checksum": "b10888480f77eb76412469d2d9b6d07c",
+      "folder": false
+    },
+    {
+      "id": "1jCObDlwXA8QP762CuEgf2QSaKD2gzQz1",
+      "parent_id": "1umSmiVRKL1mSCLGqQQLY4-1h2SHFV6w8",
+      "name": "MẮT EM NGƯỜI SÀI GÒN.pdf",
+      "mime": "application/pdf",
+      "size": 813888,
+      "modified": "2026-08-16T04:18:10.000Z",
+      "checksum": "dc8656eb7cae656bbebdbbf87091d79a",
+      "folder": false
+    }
+  ]
+}

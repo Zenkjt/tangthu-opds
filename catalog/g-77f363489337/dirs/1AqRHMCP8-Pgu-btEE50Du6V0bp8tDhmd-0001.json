@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AqRHMCP8-Pgu-btEE50Du6V0bp8tDhmd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kSjMpIp31NpxoWqRqZEtpLmIYcAr1eoF",
+      "parent_id": "1AqRHMCP8-Pgu-btEE50Du6V0bp8tDhmd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2130,
+      "modified": "2026-08-15T12:42:16.000Z",
+      "checksum": "e1a7cf3e612b9ed95fceca6e934d6e64",
+      "folder": false
+    },
+    {
+      "id": "183rbSR-L10pRVrYFXnexTc9oDxrlckcu",
+      "parent_id": "1AqRHMCP8-Pgu-btEE50Du6V0bp8tDhmd",
+      "name": "HORRIBLE GEOGRAPHY - MIỀN CỰC LẠNH CÓNG.epub",
+      "mime": "application/epub+zip",
+      "size": 8640865,
+      "modified": "2026-08-15T12:42:25.000Z",
+      "checksum": "d9e42f25bdc7cc2cdfbeee6ea57a9986",
+      "folder": false
+    },
+    {
+      "id": "1zMYuahKQNylYMG0w5N3n587dwEITemCJ",
+      "parent_id": "1AqRHMCP8-Pgu-btEE50Du6V0bp8tDhmd",
+      "name": "HORRIBLE GEOGRAPHY - MIỀN CỰC LẠNH CÓNG.pdf",
+      "mime": "application/pdf",
+      "size": 7394195,
+      "modified": "2026-08-15T12:42:21.000Z",
+      "checksum": "f2171605400251e03af3787e5fbf39ff",
+      "folder": false
+    }
+  ]
+}

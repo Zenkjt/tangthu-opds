@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kSLeXpw2vpWpE78UUpV7X2Xs1x2kQJb8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Aj5LF-Q4tUWhEY_hw_k4sDjcUEqtGqdy",
+      "parent_id": "1kSLeXpw2vpWpE78UUpV7X2Xs1x2kQJb8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3325,
+      "modified": "2026-08-15T16:00:32.000Z",
+      "checksum": "c676965a2c1c1e6e7201eb627012d512",
+      "folder": false
+    },
+    {
+      "id": "1t16SwfO3U--C5FevTfMo2B05c3ap3_tO",
+      "parent_id": "1kSLeXpw2vpWpE78UUpV7X2Xs1x2kQJb8",
+      "name": "NGOAN, DỖ ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 620420,
+      "modified": "2026-08-15T16:00:40.000Z",
+      "checksum": "dd1001f7925bda990b8e3e52fca7e562",
+      "folder": false
+    },
+    {
+      "id": "1qI3VSWMFwf6bf2Yc1HP2m3Id5CzRWejp",
+      "parent_id": "1kSLeXpw2vpWpE78UUpV7X2Xs1x2kQJb8",
+      "name": "NGOAN, DỖ ANH.pdf",
+      "mime": "application/pdf",
+      "size": 2238445,
+      "modified": "2026-08-15T16:00:38.000Z",
+      "checksum": "1e1c4842c476f2bb096ffee6a5e758ef",
+      "folder": false
+    }
+  ]
+}

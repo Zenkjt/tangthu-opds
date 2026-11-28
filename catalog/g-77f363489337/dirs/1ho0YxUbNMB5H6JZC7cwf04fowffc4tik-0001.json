@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ho0YxUbNMB5H6JZC7cwf04fowffc4tik",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nCwwus3EI_BPqcs-vKw75bdkLoi8wRcy",
+      "parent_id": "1ho0YxUbNMB5H6JZC7cwf04fowffc4tik",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3261,
+      "modified": "2026-08-15T10:20:10.000Z",
+      "checksum": "bb04e0c8b6e2561f2c76a939143484ba",
+      "folder": false
+    },
+    {
+      "id": "1FpRwuJ4euy1YIyV1-fqXBc5Lw9tGurN8",
+      "parent_id": "1ho0YxUbNMB5H6JZC7cwf04fowffc4tik",
+      "name": "TÂY PHƯƠNG HUYỀN BÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 515014,
+      "modified": "2026-08-15T10:20:23.000Z",
+      "checksum": "34f3ff7f975ec2f1ff320f49d714e26f",
+      "folder": false
+    },
+    {
+      "id": "1w2o6BwN-g7ossY7flKDbXuB6i7hdKedC",
+      "parent_id": "1ho0YxUbNMB5H6JZC7cwf04fowffc4tik",
+      "name": "TÂY PHƯƠNG HUYỀN BÍ.pdf",
+      "mime": "application/pdf",
+      "size": 1179173,
+      "modified": "2026-08-15T10:20:19.000Z",
+      "checksum": "0ccbf186e59bd2ed265fe1da2e8214ef",
+      "folder": false
+    }
+  ]
+}

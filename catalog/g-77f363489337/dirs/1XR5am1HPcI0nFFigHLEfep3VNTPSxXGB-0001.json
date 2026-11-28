@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XR5am1HPcI0nFFigHLEfep3VNTPSxXGB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1n7S4sgWZ9j3t_ZSI6efxjFRtn6o-QJPq",
+      "parent_id": "1XR5am1HPcI0nFFigHLEfep3VNTPSxXGB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 668,
+      "modified": "2026-08-15T10:39:55.000Z",
+      "checksum": "e49a81f376b1a7019e6da0c06338c337",
+      "folder": false
+    },
+    {
+      "id": "1uy180tFveqt7PA3hmXSD3Xj5TWjjdZyc",
+      "parent_id": "1XR5am1HPcI0nFFigHLEfep3VNTPSxXGB",
+      "name": "NHÂN HÌNH QUÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 645856,
+      "modified": "2026-08-15T10:40:10.000Z",
+      "checksum": "ba8b942b34ceac2e708ba32e82182f23",
+      "folder": false
+    },
+    {
+      "id": "1TtJyU4WBydd1WK7grEGWwe4Adqd2tsD9",
+      "parent_id": "1XR5am1HPcI0nFFigHLEfep3VNTPSxXGB",
+      "name": "NHÂN HÌNH QUÁN.pdf",
+      "mime": "application/pdf",
+      "size": 936080,
+      "modified": "2026-08-15T10:40:06.000Z",
+      "checksum": "6051b978983d68c64486c86d4b7a232f",
+      "folder": false
+    }
+  ]
+}

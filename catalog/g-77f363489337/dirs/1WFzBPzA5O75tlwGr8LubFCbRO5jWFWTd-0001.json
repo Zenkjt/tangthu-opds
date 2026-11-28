@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WFzBPzA5O75tlwGr8LubFCbRO5jWFWTd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QCkQIyNc7eRkTNM2u3xyORv0s_-edspr",
+      "parent_id": "1WFzBPzA5O75tlwGr8LubFCbRO5jWFWTd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10862,
+      "modified": "2026-08-15T12:50:08.000Z",
+      "checksum": "530bb80a78f2418775343185c1ad0a16",
+      "folder": false
+    },
+    {
+      "id": "1Xqn0Dgi4ukXZ6PkwIegxD1m8yFF1vRkt",
+      "parent_id": "1WFzBPzA5O75tlwGr8LubFCbRO5jWFWTd",
+      "name": "NHỮNG CUỘC PHIÊU LƯU CỦA MÍT ĐẶC VÀ CÁC BẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 1044938,
+      "modified": "2026-08-15T12:50:14.000Z",
+      "checksum": "2317ef04729964029dea178ec0303f49",
+      "folder": false
+    },
+    {
+      "id": "1MauAQveFySFrunE65mZczguk8F8vezGA",
+      "parent_id": "1WFzBPzA5O75tlwGr8LubFCbRO5jWFWTd",
+      "name": "NHỮNG CUỘC PHIÊU LƯU CỦA MÍT ĐẶC VÀ CÁC BẠN.pdf",
+      "mime": "application/pdf",
+      "size": 736141,
+      "modified": "2026-08-15T12:50:12.000Z",
+      "checksum": "397f69c326085217f49ee5ec7a2c0ca9",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1S5SCccxdk57oqVjjXNZd-ft0rFzvo37Y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lRGNlU91pDV23lI4F5zWekgl0CfnpBEM",
+      "parent_id": "1S5SCccxdk57oqVjjXNZd-ft0rFzvo37Y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3501,
+      "modified": "2026-08-15T07:57:06.000Z",
+      "checksum": "7474eb07f5b3402b8190671e728521e1",
+      "folder": false
+    },
+    {
+      "id": "1JWLRdIXUU5MxvJiW7UodwjU_WmoLhFgt",
+      "parent_id": "1S5SCccxdk57oqVjjXNZd-ft0rFzvo37Y",
+      "name": "HỒNG NHAN LOẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 1039126,
+      "modified": "2026-08-15T07:58:28.000Z",
+      "checksum": "475e35b39e4239c701f73c3ac4c5743e",
+      "folder": false
+    },
+    {
+      "id": "125rpkaT2MJMsn83kvotOo0wO4dmYix4o",
+      "parent_id": "1S5SCccxdk57oqVjjXNZd-ft0rFzvo37Y",
+      "name": "HỒNG NHAN LOẠN.pdf",
+      "mime": "application/pdf",
+      "size": 3570163,
+      "modified": "2026-08-15T07:58:21.000Z",
+      "checksum": "1ac05ff62b13ebed93e448c3934283c4",
+      "folder": false
+    }
+  ]
+}

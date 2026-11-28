@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Dta2hBdEQ-T4tjegxudZPcvuwwZLGJjV",
+  "page": 1,
+  "items": [
+    {
+      "id": "17Bq5nYDWDPlFwd9PA1RaMhwcxeQpLMVI",
+      "parent_id": "1Dta2hBdEQ-T4tjegxudZPcvuwwZLGJjV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3105,
+      "modified": "2026-08-16T04:14:38.000Z",
+      "checksum": "619d7a43fefae116e473a246dda3d40e",
+      "folder": false
+    },
+    {
+      "id": "11MiDDt354M0vJQdvGHnKyNjtSVLmR0EM",
+      "parent_id": "1Dta2hBdEQ-T4tjegxudZPcvuwwZLGJjV",
+      "name": "NGỰ LINH THẾ GIỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 632851,
+      "modified": "2026-08-16T04:14:44.000Z",
+      "checksum": "3c2331f42c58df3bbeef7b907b765791",
+      "folder": false
+    },
+    {
+      "id": "1BlnotXVlfupD2rR7XvwXYBl6jRltyuft",
+      "parent_id": "1Dta2hBdEQ-T4tjegxudZPcvuwwZLGJjV",
+      "name": "NGỰ LINH THẾ GIỚI.pdf",
+      "mime": "application/pdf",
+      "size": 984387,
+      "modified": "2026-08-16T04:14:42.000Z",
+      "checksum": "05930c0c0d6288449c7b49082f91c246",
+      "folder": false
+    }
+  ]
+}

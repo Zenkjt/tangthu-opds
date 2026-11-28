@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xKc2gOoMwU1n33KqBKlBoQCOJfrzfCMx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-WA3Huf6zXJ6qCMeSS_zZwFHF05HnS5H",
+      "parent_id": "1xKc2gOoMwU1n33KqBKlBoQCOJfrzfCMx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2399,
+      "modified": "2026-08-15T06:37:52.000Z",
+      "checksum": "58798a7bb3330792960e73f4d472ccda",
+      "folder": false
+    },
+    {
+      "id": "1y_ACYbGrwy5ZIqzDe-iBYlJNKV6lETBR",
+      "parent_id": "1xKc2gOoMwU1n33KqBKlBoQCOJfrzfCMx",
+      "name": "HARRY POTTER VÀ BẢO BỐI TỬ THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 542360,
+      "modified": "2026-08-15T06:38:18.000Z",
+      "checksum": "c48cef60e33621bdfce9979dc047ac27",
+      "folder": false
+    },
+    {
+      "id": "1cKzf8ymwDQAaQmK8bWDxgu4Zz-N6VteR",
+      "parent_id": "1xKc2gOoMwU1n33KqBKlBoQCOJfrzfCMx",
+      "name": "HARRY POTTER VÀ BẢO BỐI TỬ THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 1935666,
+      "modified": "2026-08-15T06:38:05.000Z",
+      "checksum": "1f3a1d67ff521b92012f92c8fdc7d46a",
+      "folder": false
+    }
+  ]
+}

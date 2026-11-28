@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BwjCzOdllaH-pcmVALBdOHX4scC-Qw9d",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wK2OYXC8_wGPL48s2ql3h35Ko0glKx89",
+      "parent_id": "1BwjCzOdllaH-pcmVALBdOHX4scC-Qw9d",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5380,
+      "modified": "2026-08-16T03:04:16.000Z",
+      "checksum": "d9e50cee39d10dba16066f788fceb5d5",
+      "folder": false
+    },
+    {
+      "id": "14tk8rKoX31OoQ88lE4el-x_6jrmWaekX",
+      "parent_id": "1BwjCzOdllaH-pcmVALBdOHX4scC-Qw9d",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN ERNEST HEMINGWAY.epub",
+      "mime": "application/epub+zip",
+      "size": 442795,
+      "modified": "2026-08-16T03:04:23.000Z",
+      "checksum": "073e84a2c2ffd99e771a63a91562f8c2",
+      "folder": false
+    },
+    {
+      "id": "1L3rQZYqCzxB4AyY56tkmXCBPwyu2REzi",
+      "parent_id": "1BwjCzOdllaH-pcmVALBdOHX4scC-Qw9d",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN ERNEST HEMINGWAY.pdf",
+      "mime": "application/pdf",
+      "size": 1456626,
+      "modified": "2026-08-16T03:04:20.000Z",
+      "checksum": "1bb5589536e742689077471db2533659",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YfpmtOPivYzMpRIJpCgGHdcELovgiCMX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jll06m66mYgpKnGq05GBUbTFfk090V2l",
+      "parent_id": "1YfpmtOPivYzMpRIJpCgGHdcELovgiCMX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2112,
+      "modified": "2026-08-15T07:45:27.000Z",
+      "checksum": "f51e61ad020d753fc64709fcfb5a6708",
+      "folder": false
+    },
+    {
+      "id": "10NWAhkLQY9stmvr2biGXDw38sgYgppB4",
+      "parent_id": "1YfpmtOPivYzMpRIJpCgGHdcELovgiCMX",
+      "name": "MA VÂN THƯ VIỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 1554937,
+      "modified": "2026-08-15T07:45:38.000Z",
+      "checksum": "898340c60517c9ce5a647e219d992be1",
+      "folder": false
+    },
+    {
+      "id": "1t5NkjwVW4KhGBwRbXMJxbD9nYkNLcNqx",
+      "parent_id": "1YfpmtOPivYzMpRIJpCgGHdcELovgiCMX",
+      "name": "MA VÂN THƯ VIỆN.pdf",
+      "mime": "application/pdf",
+      "size": 1404538,
+      "modified": "2026-08-15T07:45:32.000Z",
+      "checksum": "764ffcc2e14b13e68b7e16ef4f0e299c",
+      "folder": false
+    }
+  ]
+}

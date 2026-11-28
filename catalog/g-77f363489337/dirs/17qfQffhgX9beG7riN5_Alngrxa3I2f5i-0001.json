@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17qfQffhgX9beG7riN5_Alngrxa3I2f5i",
+  "page": 1,
+  "items": [
+    {
+      "id": "19jD2w18ObM0hUGfH-d6sbl5FyMHWIHYh",
+      "parent_id": "17qfQffhgX9beG7riN5_Alngrxa3I2f5i",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2403,
+      "modified": "2026-08-16T03:04:01.000Z",
+      "checksum": "9c2530d580efa4e8f02e74342bc7062c",
+      "folder": false
+    },
+    {
+      "id": "1GfRpOn_2sGU3L5-CsrLgxAsQyMnBPi1a",
+      "parent_id": "17qfQffhgX9beG7riN5_Alngrxa3I2f5i",
+      "name": "TÙY TIỆN PHÓNG HỎA.epub",
+      "mime": "application/epub+zip",
+      "size": 632222,
+      "modified": "2026-08-16T03:04:08.000Z",
+      "checksum": "54168b9a6fee0637f36a3855f9dbfcc4",
+      "folder": false
+    },
+    {
+      "id": "1d5opbpPuvo1SDt_pjLOixHa1bWtUAMmQ",
+      "parent_id": "17qfQffhgX9beG7riN5_Alngrxa3I2f5i",
+      "name": "TÙY TIỆN PHÓNG HỎA.pdf",
+      "mime": "application/pdf",
+      "size": 1120478,
+      "modified": "2026-08-16T03:04:06.000Z",
+      "checksum": "20592fb7e815f062fc20ecac80f8bcb1",
+      "folder": false
+    }
+  ]
+}

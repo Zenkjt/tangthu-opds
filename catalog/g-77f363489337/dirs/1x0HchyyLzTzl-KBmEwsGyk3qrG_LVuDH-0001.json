@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1x0HchyyLzTzl-KBmEwsGyk3qrG_LVuDH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VArokCsG8eQkBJokUyF_ZSBVYZ-wxSZU",
+      "parent_id": "1x0HchyyLzTzl-KBmEwsGyk3qrG_LVuDH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1264,
+      "modified": "2026-08-15T08:19:25.000Z",
+      "checksum": "6d9c74795f8fd8a9bcb7c1ec52fdbc3f",
+      "folder": false
+    },
+    {
+      "id": "1_tV9rq2uoQ0nnDk16AnSSbATTil-wfRs",
+      "parent_id": "1x0HchyyLzTzl-KBmEwsGyk3qrG_LVuDH",
+      "name": "HỒ LY TRÙNG SINH.epub",
+      "mime": "application/epub+zip",
+      "size": 682021,
+      "modified": "2026-08-15T08:19:35.000Z",
+      "checksum": "866b96ff51bddd63914127a73b3591f9",
+      "folder": false
+    },
+    {
+      "id": "1b1_XF9_ej2PWa-da4MvoT-dRcA97YiVx",
+      "parent_id": "1x0HchyyLzTzl-KBmEwsGyk3qrG_LVuDH",
+      "name": "HỒ LY TRÙNG SINH.pdf",
+      "mime": "application/pdf",
+      "size": 1104501,
+      "modified": "2026-08-15T08:19:31.000Z",
+      "checksum": "f258c542e4e0a36b2588e8715c402ced",
+      "folder": false
+    }
+  ]
+}

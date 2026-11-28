@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ma0HDIL057BRkl5QlfKh0vVhFc1rEic8",
+  "page": 1,
+  "items": [
+    {
+      "id": "136B8i-UB-1GQKpzKaSPm1bqnb0bDqpkA",
+      "parent_id": "1ma0HDIL057BRkl5QlfKh0vVhFc1rEic8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 594,
+      "modified": "2026-08-15T10:58:58.000Z",
+      "checksum": "c923c89407c695e9e6fbbe5f5c715559",
+      "folder": false
+    },
+    {
+      "id": "1xjuFl_NSFuPlngRdzUGRoSbSA3dqq-FK",
+      "parent_id": "1ma0HDIL057BRkl5QlfKh0vVhFc1rEic8",
+      "name": "ĐÓA HỒNG XÔN XAO.epub",
+      "mime": "application/epub+zip",
+      "size": 702094,
+      "modified": "2026-08-15T10:59:20.000Z",
+      "checksum": "9534f9d4fa62d4456830dcdc44490919",
+      "folder": false
+    },
+    {
+      "id": "1Bet64TkFbzn4eojULOB-ZYcyg1BbDCfy",
+      "parent_id": "1ma0HDIL057BRkl5QlfKh0vVhFc1rEic8",
+      "name": "ĐÓA HỒNG XÔN XAO.pdf",
+      "mime": "application/pdf",
+      "size": 1752095,
+      "modified": "2026-08-15T10:59:16.000Z",
+      "checksum": "ae81182e699a7696275eaceb3b71f69b",
+      "folder": false
+    }
+  ]
+}

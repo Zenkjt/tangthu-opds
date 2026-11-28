@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uPCysouwBE_Fr0bl7GiQDJs6tgX17sXp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hlDJQmDuFdFUDFeE_cbd51jFQr9vZg2t",
+      "parent_id": "1uPCysouwBE_Fr0bl7GiQDJs6tgX17sXp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 516,
+      "modified": "2026-08-16T03:52:20.000Z",
+      "checksum": "9e7f5c4d61698b6b24de8fb7909c6b82",
+      "folder": false
+    },
+    {
+      "id": "1Lc1muztV3Xacj8nRFFZi9nZVxoatiRPW",
+      "parent_id": "1uPCysouwBE_Fr0bl7GiQDJs6tgX17sXp",
+      "name": "TUẤN, CHÀNG TRAI ĐẤT VIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 686210,
+      "modified": "2026-08-16T03:52:28.000Z",
+      "checksum": "9cbe4a4178908fb6abe46dd3665f5618",
+      "folder": false
+    },
+    {
+      "id": "1COm6QtJBMIobZ1PQAooZpAYpYKULT7oi",
+      "parent_id": "1uPCysouwBE_Fr0bl7GiQDJs6tgX17sXp",
+      "name": "TUẤN, CHÀNG TRAI ĐẤT VIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 2457359,
+      "modified": "2026-08-16T03:52:26.000Z",
+      "checksum": "edd6141a68e6eee3bf9087b32c119303",
+      "folder": false
+    }
+  ]
+}

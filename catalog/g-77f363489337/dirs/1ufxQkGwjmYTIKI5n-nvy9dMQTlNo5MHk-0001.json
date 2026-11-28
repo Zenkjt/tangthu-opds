@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ufxQkGwjmYTIKI5n-nvy9dMQTlNo5MHk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aRYHl1sPxbB-0ZLYIGsPqR-xh8QgG9FM",
+      "parent_id": "1ufxQkGwjmYTIKI5n-nvy9dMQTlNo5MHk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2871,
+      "modified": "2026-08-15T09:48:52.000Z",
+      "checksum": "37ffc5c4130098530eae750a2f56034f",
+      "folder": false
+    },
+    {
+      "id": "1Cj9g3NEeF-gRqzhySm-6UlCN70O8fqjw",
+      "parent_id": "1ufxQkGwjmYTIKI5n-nvy9dMQTlNo5MHk",
+      "name": "HẢO MỘC VỌNG THIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 980834,
+      "modified": "2026-08-15T09:49:03.000Z",
+      "checksum": "22ccf2be4c59e8198cd58ff42314889e",
+      "folder": false
+    },
+    {
+      "id": "1d-g2jcDhdcjCs605D9cSl0-7LgNO_iTN",
+      "parent_id": "1ufxQkGwjmYTIKI5n-nvy9dMQTlNo5MHk",
+      "name": "HẢO MỘC VỌNG THIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 3257545,
+      "modified": "2026-08-15T09:49:00.000Z",
+      "checksum": "3453e37e6deee915eb3009e0e623fca1",
+      "folder": false
+    }
+  ]
+}

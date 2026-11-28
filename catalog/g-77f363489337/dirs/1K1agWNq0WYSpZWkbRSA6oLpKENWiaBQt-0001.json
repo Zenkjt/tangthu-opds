@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1K1agWNq0WYSpZWkbRSA6oLpKENWiaBQt",
+  "page": 1,
+  "items": [
+    {
+      "id": "18fTs0MeoYPuE3KnvZatUrJnnkMvpTrzE",
+      "parent_id": "1K1agWNq0WYSpZWkbRSA6oLpKENWiaBQt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 665,
+      "modified": "2026-08-15T10:31:06.000Z",
+      "checksum": "1788cdaf836f99d3d6c91da90c786f21",
+      "folder": false
+    },
+    {
+      "id": "1E540m7pCgiTYqrAWcAe_ar-WJsr7E6Uk",
+      "parent_id": "1K1agWNq0WYSpZWkbRSA6oLpKENWiaBQt",
+      "name": "QUẢNG CHÂU ÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 1091951,
+      "modified": "2026-08-15T10:31:13.000Z",
+      "checksum": "ec715d06eb1c2cda6d8317d1b7289a18",
+      "folder": false
+    },
+    {
+      "id": "18McofE-wmQtpn_tnSRJtsibWgXwX33eh",
+      "parent_id": "1K1agWNq0WYSpZWkbRSA6oLpKENWiaBQt",
+      "name": "QUẢNG CHÂU ÁN.pdf",
+      "mime": "application/pdf",
+      "size": 1638902,
+      "modified": "2026-08-15T10:31:11.000Z",
+      "checksum": "5a6b5c3a057d0a216613bc19c197d8d6",
+      "folder": false
+    }
+  ]
+}

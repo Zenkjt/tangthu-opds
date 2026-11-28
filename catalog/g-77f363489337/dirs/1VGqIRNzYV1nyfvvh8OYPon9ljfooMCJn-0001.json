@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VGqIRNzYV1nyfvvh8OYPon9ljfooMCJn",
+  "page": 1,
+  "items": [
+    {
+      "id": "16xVh-4KmkUJ83QlxAWSgO6H1LMe4Qoy0",
+      "parent_id": "1VGqIRNzYV1nyfvvh8OYPon9ljfooMCJn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1047,
+      "modified": "2026-08-15T06:18:54.000Z",
+      "checksum": "08b4f4b6c0f6ba3aef75e994d6c1e64d",
+      "folder": false
+    },
+    {
+      "id": "1EHgTeRBCaf2_k7c1vXgJsnkMIck4YP3s",
+      "parent_id": "1VGqIRNzYV1nyfvvh8OYPon9ljfooMCJn",
+      "name": "VŨ TRUNG TÙY BÚT.epub",
+      "mime": "application/epub+zip",
+      "size": 427191,
+      "modified": "2026-08-15T06:19:02.000Z",
+      "checksum": "8e25d442d3f543c9d540d6822af8c81d",
+      "folder": false
+    },
+    {
+      "id": "14GvbGimK3A9Xo1KJU3JaPq6SlcC7E8uU",
+      "parent_id": "1VGqIRNzYV1nyfvvh8OYPon9ljfooMCJn",
+      "name": "VŨ TRUNG TÙY BÚT.pdf",
+      "mime": "application/pdf",
+      "size": 668453,
+      "modified": "2026-08-15T06:18:58.000Z",
+      "checksum": "f13b13f4d38694113bf25585e44e9376",
+      "folder": false
+    }
+  ]
+}

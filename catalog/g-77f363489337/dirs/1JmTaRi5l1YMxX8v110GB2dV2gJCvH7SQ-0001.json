@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JmTaRi5l1YMxX8v110GB2dV2gJCvH7SQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "17MGh6pOKFP0AM0yT3W9z60JSTPMv44hs",
+      "parent_id": "1JmTaRi5l1YMxX8v110GB2dV2gJCvH7SQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3530,
+      "modified": "2026-08-15T08:04:32.000Z",
+      "checksum": "733b21c7b6f6365fd3298a4916568fd4",
+      "folder": false
+    },
+    {
+      "id": "1fWnw2Zks7vc4rECXSvrBKdOTJ1UILpub",
+      "parent_id": "1JmTaRi5l1YMxX8v110GB2dV2gJCvH7SQ",
+      "name": "HOA HỒNG CHO EMILY.epub",
+      "mime": "application/epub+zip",
+      "size": 343024,
+      "modified": "2026-08-15T08:04:41.000Z",
+      "checksum": "57639b3c5cf86cc08ac5fa233a01b71d",
+      "folder": false
+    },
+    {
+      "id": "1Lttif6aX50GJfAvQ0F9jXI9LN8bMTjiy",
+      "parent_id": "1JmTaRi5l1YMxX8v110GB2dV2gJCvH7SQ",
+      "name": "HOA HỒNG CHO EMILY.pdf",
+      "mime": "application/pdf",
+      "size": 100075,
+      "modified": "2026-08-15T08:04:35.000Z",
+      "checksum": "5b83758dda71110e8bea0e2bb93bf43a",
+      "folder": false
+    }
+  ]
+}

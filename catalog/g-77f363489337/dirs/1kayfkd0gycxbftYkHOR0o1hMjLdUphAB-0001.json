@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kayfkd0gycxbftYkHOR0o1hMjLdUphAB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1acuTfvLgt9hO6pGzuUKaj7qopY35693f",
+      "parent_id": "1kayfkd0gycxbftYkHOR0o1hMjLdUphAB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10897,
+      "modified": "2026-08-16T03:14:07.000Z",
+      "checksum": "07836cf7938270651a1aa7e01542fb84",
+      "folder": false
+    },
+    {
+      "id": "1IpIQYIQ11apH9yjHLnLGKlj-upaRLS32",
+      "parent_id": "1kayfkd0gycxbftYkHOR0o1hMjLdUphAB",
+      "name": "MẸ KẾ CỦA LỌ LEM.epub",
+      "mime": "application/epub+zip",
+      "size": 1868724,
+      "modified": "2026-08-16T03:14:16.000Z",
+      "checksum": "fc76aae0a6da5cd0a2385c968af02311",
+      "folder": false
+    },
+    {
+      "id": "1hLRBGktK6OC5EKMHXGFPireCzokx1zpr",
+      "parent_id": "1kayfkd0gycxbftYkHOR0o1hMjLdUphAB",
+      "name": "MẸ KẾ CỦA LỌ LEM.pdf",
+      "mime": "application/pdf",
+      "size": 1785963,
+      "modified": "2026-08-16T03:14:12.000Z",
+      "checksum": "6527fba73636127a6602be8e73ca89ce",
+      "folder": false
+    }
+  ]
+}

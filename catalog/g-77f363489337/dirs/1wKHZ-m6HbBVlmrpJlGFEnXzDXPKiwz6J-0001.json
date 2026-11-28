@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wKHZ-m6HbBVlmrpJlGFEnXzDXPKiwz6J",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vUde9aXdOYs3_RExJzDulp64NDN8Ju2M",
+      "parent_id": "1wKHZ-m6HbBVlmrpJlGFEnXzDXPKiwz6J",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6248,
+      "modified": "2026-08-15T03:57:45.000Z",
+      "checksum": "2b0feea45268f18dedcd0f5288e8863c",
+      "folder": false
+    },
+    {
+      "id": "1T30S1y3OFpdApieHENsj2aQtG8mwj2f0",
+      "parent_id": "1wKHZ-m6HbBVlmrpJlGFEnXzDXPKiwz6J",
+      "name": "NHỮNG NGƯỜI TRÔNG NOM TRÁI ĐẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 1669766,
+      "modified": "2026-08-15T03:57:52.000Z",
+      "checksum": "14920fd80c1d78a8a1ad360947720728",
+      "folder": false
+    },
+    {
+      "id": "1w0cARqQyhyMV6scXjjyil_JKvOJ1YRTS",
+      "parent_id": "1wKHZ-m6HbBVlmrpJlGFEnXzDXPKiwz6J",
+      "name": "NHỮNG NGƯỜI TRÔNG NOM TRÁI ĐẤT.pdf",
+      "mime": "application/pdf",
+      "size": 2358630,
+      "modified": "2026-08-15T03:57:50.000Z",
+      "checksum": "dfc9f65723ed6a648a0c3e4a7bccd35d",
+      "folder": false
+    }
+  ]
+}

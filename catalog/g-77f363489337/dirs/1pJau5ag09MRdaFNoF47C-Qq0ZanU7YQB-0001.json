@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pJau5ag09MRdaFNoF47C-Qq0ZanU7YQB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tPnxfXu3AiBjKpEJTyIX7eADH51-K8kt",
+      "parent_id": "1pJau5ag09MRdaFNoF47C-Qq0ZanU7YQB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 469,
+      "modified": "2026-08-16T04:22:55.000Z",
+      "checksum": "597ea352b2485ff999b6d202d3352848",
+      "folder": false
+    },
+    {
+      "id": "1eCZoRD4pb_eMXO435GAWJjCXnViJX1yU",
+      "parent_id": "1pJau5ag09MRdaFNoF47C-Qq0ZanU7YQB",
+      "name": "ẢO VỌNG DU HỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 439463,
+      "modified": "2026-08-16T04:23:04.000Z",
+      "checksum": "2d6d3b79602ec933ad28c35233c35381",
+      "folder": false
+    },
+    {
+      "id": "1J5prvgdcidfezeZVWqTrrjYXnLUMpZpZ",
+      "parent_id": "1pJau5ag09MRdaFNoF47C-Qq0ZanU7YQB",
+      "name": "ẢO VỌNG DU HỌC.pdf",
+      "mime": "application/pdf",
+      "size": 500655,
+      "modified": "2026-08-16T04:23:00.000Z",
+      "checksum": "ee903063bbf5940fa4e25d0dd9236f4e",
+      "folder": false
+    }
+  ]
+}

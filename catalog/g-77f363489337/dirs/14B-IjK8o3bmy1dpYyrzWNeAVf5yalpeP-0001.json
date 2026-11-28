@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14B-IjK8o3bmy1dpYyrzWNeAVf5yalpeP",
+  "page": 1,
+  "items": [
+    {
+      "id": "16FhvAXokEv4rP9L2LScQAfgd17a_gYhz",
+      "parent_id": "14B-IjK8o3bmy1dpYyrzWNeAVf5yalpeP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6700,
+      "modified": "2026-08-16T02:42:33.000Z",
+      "checksum": "726e218048e25610b62932ed6d4856be",
+      "folder": false
+    },
+    {
+      "id": "1TbOuFktzGkf891l9CswScxKIzui24Eg-",
+      "parent_id": "14B-IjK8o3bmy1dpYyrzWNeAVf5yalpeP",
+      "name": "XỨ SỞ CỦA NHỮNG NGƯỜI NGÁP.epub",
+      "mime": "application/epub+zip",
+      "size": 1555059,
+      "modified": "2026-08-16T02:42:39.000Z",
+      "checksum": "e63887a4d05acc70d8ce3a733634bfb7",
+      "folder": false
+    },
+    {
+      "id": "1nZK3gjnFPNzui4crz2mDTSjRLttGaBEL",
+      "parent_id": "14B-IjK8o3bmy1dpYyrzWNeAVf5yalpeP",
+      "name": "XỨ SỞ CỦA NHỮNG NGƯỜI NGÁP.pdf",
+      "mime": "application/pdf",
+      "size": 1386115,
+      "modified": "2026-08-16T02:42:37.000Z",
+      "checksum": "a321486e5a8c89ce506cc7f321362ceb",
+      "folder": false
+    }
+  ]
+}

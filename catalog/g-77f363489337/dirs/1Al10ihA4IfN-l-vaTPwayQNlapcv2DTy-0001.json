@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Al10ihA4IfN-l-vaTPwayQNlapcv2DTy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RaizTiDuGkyLXnBXVqaCbgIAdl_iJLpq",
+      "parent_id": "1Al10ihA4IfN-l-vaTPwayQNlapcv2DTy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5803,
+      "modified": "2026-08-15T09:36:15.000Z",
+      "checksum": "31af5ba415a0eab32a251aa9d8f50bae",
+      "folder": false
+    },
+    {
+      "id": "132IS4u3eo38V9gwc4JHaEAA7uUY0Tc8p",
+      "parent_id": "1Al10ihA4IfN-l-vaTPwayQNlapcv2DTy",
+      "name": "HÀNH TRÌNH QUA CÁNH ĐỒNG CHẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 372810,
+      "modified": "2026-08-15T09:36:26.000Z",
+      "checksum": "64eec9f2c1f1100e5b98ee66ceeeca0a",
+      "folder": false
+    },
+    {
+      "id": "1ClRdSifHWF-89D2OW_whFRNxJ9GMwF1I",
+      "parent_id": "1Al10ihA4IfN-l-vaTPwayQNlapcv2DTy",
+      "name": "HÀNH TRÌNH QUA CÁNH ĐỒNG CHẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1113416,
+      "modified": "2026-08-15T09:36:24.000Z",
+      "checksum": "87d56f8937e47fd0f3d7e21694d4b9eb",
+      "folder": false
+    }
+  ]
+}

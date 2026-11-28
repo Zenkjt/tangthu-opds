@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "125SdBgyAJd3TmreC0EcYwvuRIYfFaO6C",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vLPc6983mubBE-Xy6PcRMVK9byBt8hBl",
+      "parent_id": "125SdBgyAJd3TmreC0EcYwvuRIYfFaO6C",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 508,
+      "modified": "2026-08-15T10:46:59.000Z",
+      "checksum": "17d3347237c26521a89815b72b339a39",
+      "folder": false
+    },
+    {
+      "id": "1CJJKdJ4NbxXzxrcmo6JTOZSsdrQZNBrd",
+      "parent_id": "125SdBgyAJd3TmreC0EcYwvuRIYfFaO6C",
+      "name": "NGÀY ĐẸP HƠN SẼ TỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 616284,
+      "modified": "2026-08-15T10:47:07.000Z",
+      "checksum": "7cc479f14ef89c0c3ee70cf6af754091",
+      "folder": false
+    },
+    {
+      "id": "1QVw1GvfybR7OlPaTuDAJ3hydtnvbIjcH",
+      "parent_id": "125SdBgyAJd3TmreC0EcYwvuRIYfFaO6C",
+      "name": "NGÀY ĐẸP HƠN SẼ TỚI.pdf",
+      "mime": "application/pdf",
+      "size": 1131080,
+      "modified": "2026-08-15T10:47:04.000Z",
+      "checksum": "163ea60504417b8f6adb6e8568143fce",
+      "folder": false
+    }
+  ]
+}

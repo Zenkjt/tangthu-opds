@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bmbyNgOkaqr2gTOey0ggHO8v8xL0Q9PO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ikdaAKEO7VgDZXgzn7vPM7JA8j7R77sQ",
+      "parent_id": "1bmbyNgOkaqr2gTOey0ggHO8v8xL0Q9PO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2950,
+      "modified": "2026-08-16T04:01:05.000Z",
+      "checksum": "8d6a317555e9cb946152e3f41e98d0ce",
+      "folder": false
+    },
+    {
+      "id": "1OSUGs_0qFyEOrpTcQvR8xzT48NfehqsF",
+      "parent_id": "1bmbyNgOkaqr2gTOey0ggHO8v8xL0Q9PO",
+      "name": "TẾ LUYỆN SƠN HÀ.epub",
+      "mime": "application/epub+zip",
+      "size": 375701,
+      "modified": "2026-08-16T04:01:10.000Z",
+      "checksum": "c3ce08de73b22cff2a7e333bc08fa7a7",
+      "folder": false
+    },
+    {
+      "id": "1LcKoVZaT3b58Js2bkeigMZppLUEDAXFj",
+      "parent_id": "1bmbyNgOkaqr2gTOey0ggHO8v8xL0Q9PO",
+      "name": "TẾ LUYỆN SƠN HÀ.pdf",
+      "mime": "application/pdf",
+      "size": 187882,
+      "modified": "2026-08-16T04:01:08.000Z",
+      "checksum": "7b0b0bf29976c0a7b2ce7adc727eb571",
+      "folder": false
+    }
+  ]
+}

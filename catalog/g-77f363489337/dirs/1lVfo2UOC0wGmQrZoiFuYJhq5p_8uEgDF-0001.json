@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lVfo2UOC0wGmQrZoiFuYJhq5p_8uEgDF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1C9IAmgD3aw9YjT0BEj-SVSPKl9lyT2Nv",
+      "parent_id": "1lVfo2UOC0wGmQrZoiFuYJhq5p_8uEgDF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4603,
+      "modified": "2026-08-15T07:20:32.000Z",
+      "checksum": "8f1e97eb5679bdd7351b811ade70c7c3",
+      "folder": false
+    },
+    {
+      "id": "14v0VrRFRUm8zx6Pzlzi2bOaYKO2P6gxi",
+      "parent_id": "1lVfo2UOC0wGmQrZoiFuYJhq5p_8uEgDF",
+      "name": "TRA THÚ HOÀN LƯƠNG KÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 2148331,
+      "modified": "2026-08-15T07:20:41.000Z",
+      "checksum": "b3b621e07ca2260da1f3610b1862bfd0",
+      "folder": false
+    },
+    {
+      "id": "1RJUed0wht5V6IM8erUtglbHWp7zLid3H",
+      "parent_id": "1lVfo2UOC0wGmQrZoiFuYJhq5p_8uEgDF",
+      "name": "TRA THÚ HOÀN LƯƠNG KÝ.pdf",
+      "mime": "application/pdf",
+      "size": 2107254,
+      "modified": "2026-08-15T07:20:36.000Z",
+      "checksum": "ee1fde5d96cdf7b7fa0f86f9a42a8c61",
+      "folder": false
+    }
+  ]
+}

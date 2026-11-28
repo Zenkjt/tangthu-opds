@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1elnJDqJ6McMjJloOkoSYsfwLSh0xvUdm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GuBQ5IvClM7-dh3Qqj82s-pEagN1SCqz",
+      "parent_id": "1elnJDqJ6McMjJloOkoSYsfwLSh0xvUdm",
+      "name": "CÂU HỒN NGỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 680861,
+      "modified": "2026-08-15T11:01:05.000Z",
+      "checksum": "f0ecad42637a3be1779cbae3f088c68a",
+      "folder": false
+    },
+    {
+      "id": "1nQq8I4WJwfbmi_X4_oNqw-empNVI2dqL",
+      "parent_id": "1elnJDqJ6McMjJloOkoSYsfwLSh0xvUdm",
+      "name": "CÂU HỒN NGỌC.pdf",
+      "mime": "application/pdf",
+      "size": 1185743,
+      "modified": "2026-08-15T11:01:02.000Z",
+      "checksum": "c0f0e5952cb4255e42408c061bdc85d3",
+      "folder": false
+    },
+    {
+      "id": "1UEXVG73FdBad0N_L2RcxDErVDgeyKivq",
+      "parent_id": "1elnJDqJ6McMjJloOkoSYsfwLSh0xvUdm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 698,
+      "modified": "2026-08-15T11:00:57.000Z",
+      "checksum": "7206e15645d15ba707918b1d401bcd55",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QW4TgzSJrQytbxcqRE5RPu_-eDpnlHNz",
+  "page": 1,
+  "items": [
+    {
+      "id": "14rDGZYmXkjgk88lqqQZN59B8XRvk0hmm",
+      "parent_id": "1QW4TgzSJrQytbxcqRE5RPu_-eDpnlHNz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 14386,
+      "modified": "2026-08-15T08:14:48.000Z",
+      "checksum": "a10d611345ea13ba8fc19bf044e036c2",
+      "folder": false
+    },
+    {
+      "id": "11n5ycA9ROMEH0AUagscsxpLgMHxHD49O",
+      "parent_id": "1QW4TgzSJrQytbxcqRE5RPu_-eDpnlHNz",
+      "name": "DÒNG SÔNG MANG LỬA.epub",
+      "mime": "application/epub+zip",
+      "size": 660906,
+      "modified": "2026-08-15T08:14:58.000Z",
+      "checksum": "2e605d5476699365bcd29c720e6495e4",
+      "folder": false
+    },
+    {
+      "id": "1jiU1X19te7b9rZB33MJGaAXL8DltqDmu",
+      "parent_id": "1QW4TgzSJrQytbxcqRE5RPu_-eDpnlHNz",
+      "name": "DÒNG SÔNG MANG LỬA.pdf",
+      "mime": "application/pdf",
+      "size": 2827003,
+      "modified": "2026-08-15T08:14:56.000Z",
+      "checksum": "b6f924c43eebd931cdc921c8cc0a303f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YMj_uY7LTzoCpqrbjfxpTE4CBXBnbES0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1L1saEOTA_sowm-Pw7o40RpMVx4a20A8E",
+      "parent_id": "1YMj_uY7LTzoCpqrbjfxpTE4CBXBnbES0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2552,
+      "modified": "2026-08-15T07:00:38.000Z",
+      "checksum": "4c3db34e758227a1f736d80bcc33ea21",
+      "folder": false
+    },
+    {
+      "id": "1PMquJ3qu7rI_QnrOMKaSb7RLH_-Gwt0L",
+      "parent_id": "1YMj_uY7LTzoCpqrbjfxpTE4CBXBnbES0",
+      "name": "Ý VÀ TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 285511,
+      "modified": "2026-08-15T07:00:50.000Z",
+      "checksum": "b0f99049ed1377efca35616aa8431346",
+      "folder": false
+    },
+    {
+      "id": "1hi7UYUAVA-9Sz4a558Lmkl7J40S-qPip",
+      "parent_id": "1YMj_uY7LTzoCpqrbjfxpTE4CBXBnbES0",
+      "name": "Ý VÀ TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 509795,
+      "modified": "2026-08-15T07:00:46.000Z",
+      "checksum": "2bdd16adf0495f0980835942f614745e",
+      "folder": false
+    }
+  ]
+}

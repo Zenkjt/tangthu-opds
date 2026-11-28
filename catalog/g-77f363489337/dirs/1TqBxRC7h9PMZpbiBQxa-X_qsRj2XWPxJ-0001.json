@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TqBxRC7h9PMZpbiBQxa-X_qsRj2XWPxJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AIhMLQXl1Fc_swKx967Ch2M00NEk90Er",
+      "parent_id": "1TqBxRC7h9PMZpbiBQxa-X_qsRj2XWPxJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8220,
+      "modified": "2026-08-15T07:26:34.000Z",
+      "checksum": "ea81d18f89168d60d2fdcb2c3fd96a69",
+      "folder": false
+    },
+    {
+      "id": "13CYN2bvJmvlyptu8K5zNTnClCEYLXnhO",
+      "parent_id": "1TqBxRC7h9PMZpbiBQxa-X_qsRj2XWPxJ",
+      "name": "VÂN LONG PHÁ NGUYỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 1023925,
+      "modified": "2026-08-15T07:26:45.000Z",
+      "checksum": "36c482ce79d32d9330d4cd3c87e13547",
+      "folder": false
+    },
+    {
+      "id": "1LUELk2I9iO5FFDtirStcPjkrv9U-__-_",
+      "parent_id": "1TqBxRC7h9PMZpbiBQxa-X_qsRj2XWPxJ",
+      "name": "VÂN LONG PHÁ NGUYỆT.pdf",
+      "mime": "application/pdf",
+      "size": 3914720,
+      "modified": "2026-08-15T07:26:41.000Z",
+      "checksum": "aed70c60ea2499b8b6669b405841f84a",
+      "folder": false
+    }
+  ]
+}

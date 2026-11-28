@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BJig5tv7BRVvcd5isKd7YMYOEfZ2jNyf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JLuIxSOg7cUk9mwIesF2i_XOmfqTEXKH",
+      "parent_id": "1BJig5tv7BRVvcd5isKd7YMYOEfZ2jNyf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2862,
+      "modified": "2026-08-15T10:10:32.000Z",
+      "checksum": "542e25a627e1deb843d73604d4aa9b37",
+      "folder": false
+    },
+    {
+      "id": "1hc6rxjRCKfCah5e4Ar1gYln5m0nEuply",
+      "parent_id": "1BJig5tv7BRVvcd5isKd7YMYOEfZ2jNyf",
+      "name": "TIÊN MÔN THIẾU GIA.epub",
+      "mime": "application/epub+zip",
+      "size": 1124528,
+      "modified": "2026-08-15T10:10:46.000Z",
+      "checksum": "dabc32437bb33f5c1063b1200b7a3e27",
+      "folder": false
+    },
+    {
+      "id": "1W00p67F6gCsYuR3PdDRREMSPhlxCdBNG",
+      "parent_id": "1BJig5tv7BRVvcd5isKd7YMYOEfZ2jNyf",
+      "name": "TIÊN MÔN THIẾU GIA.pdf",
+      "mime": "application/pdf",
+      "size": 4344051,
+      "modified": "2026-08-15T10:10:42.000Z",
+      "checksum": "35c886b4d86ec65df0386befee93393a",
+      "folder": false
+    }
+  ]
+}

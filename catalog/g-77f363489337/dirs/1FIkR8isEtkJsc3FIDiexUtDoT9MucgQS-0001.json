@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FIkR8isEtkJsc3FIDiexUtDoT9MucgQS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DURIbRwe70ZiX4PcSGLfPeOXDl9sIOMW",
+      "parent_id": "1FIkR8isEtkJsc3FIDiexUtDoT9MucgQS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10610,
+      "modified": "2026-08-16T03:17:54.000Z",
+      "checksum": "36565ec5c73db7b174b15dcfaf4ce786",
+      "folder": false
+    },
+    {
+      "id": "1ei42aJKLxsbFIh_yKKf59zzQCVxJNbt0",
+      "parent_id": "1FIkR8isEtkJsc3FIDiexUtDoT9MucgQS",
+      "name": "ĐIỀU TUYỆT VỜI NHẤT CỦA THANH XUÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 1998140,
+      "modified": "2026-08-16T03:18:02.000Z",
+      "checksum": "c398d3d0202b652b75f2d114ff4ed5a1",
+      "folder": false
+    },
+    {
+      "id": "1qxuVbPZYGe9YL0wBIJ1HylUXF1ziXX7A",
+      "parent_id": "1FIkR8isEtkJsc3FIDiexUtDoT9MucgQS",
+      "name": "ĐIỀU TUYỆT VỜI NHẤT CỦA THANH XUÂN.pdf",
+      "mime": "application/pdf",
+      "size": 2081511,
+      "modified": "2026-08-16T03:17:59.000Z",
+      "checksum": "3d69a65a0d6ad5d5dadfabce0b8a6887",
+      "folder": false
+    }
+  ]
+}

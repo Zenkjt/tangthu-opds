@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LY_5hq0TYxJlpDZgktxy5mD2EtZAdtg4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1j3joHRL6d5YblQyapmfVfT5uYHXpifAW",
+      "parent_id": "1LY_5hq0TYxJlpDZgktxy5mD2EtZAdtg4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 23777,
+      "modified": "2026-08-15T07:21:41.000Z",
+      "checksum": "943f1117edfd701b5897a70b86e292d5",
+      "folder": false
+    },
+    {
+      "id": "1ok-l-tRbilTnLBu4w6Jr76O4qkx-JUQJ",
+      "parent_id": "1LY_5hq0TYxJlpDZgktxy5mD2EtZAdtg4",
+      "name": "TRÊN CON ĐƯỜNG LỚN.epub",
+      "mime": "application/epub+zip",
+      "size": 236568,
+      "modified": "2026-08-15T07:21:47.000Z",
+      "checksum": "b9899663c0a36862fa8e7d0ea4884462",
+      "folder": false
+    },
+    {
+      "id": "1RX7zov1KAVOqUNx1nNNe8RHm-kzO3Ybv",
+      "parent_id": "1LY_5hq0TYxJlpDZgktxy5mD2EtZAdtg4",
+      "name": "TRÊN CON ĐƯỜNG LỚN.pdf",
+      "mime": "application/pdf",
+      "size": 198430,
+      "modified": "2026-08-15T07:21:44.000Z",
+      "checksum": "b15a745d68d6e4ad41f0271e469b95ae",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OqWzza1eXWargnUQpTjdpX9QatHBKbiG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OpsR92bbFSdfJgPSm8Oxhs1NgV8EX8kr",
+      "parent_id": "1OqWzza1eXWargnUQpTjdpX9QatHBKbiG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1466,
+      "modified": "2026-08-15T11:03:44.000Z",
+      "checksum": "7da5d807f42b39d54037fb6b34b17ead",
+      "folder": false
+    },
+    {
+      "id": "1Wrif0R2nwnxyR9biRrYZ3bKIWrro6-xY",
+      "parent_id": "1OqWzza1eXWargnUQpTjdpX9QatHBKbiG",
+      "name": "TUYẾT SƠN PHI HỒ.epub",
+      "mime": "application/epub+zip",
+      "size": 337294,
+      "modified": "2026-08-15T11:03:55.000Z",
+      "checksum": "0d178ff9cc43fa029f0e803e2cf45b61",
+      "folder": false
+    },
+    {
+      "id": "1effVLlAoTTEr4grF8-N7LM_ohzigCWiV",
+      "parent_id": "1OqWzza1eXWargnUQpTjdpX9QatHBKbiG",
+      "name": "TUYẾT SƠN PHI HỒ.pdf",
+      "mime": "application/pdf",
+      "size": 1116428,
+      "modified": "2026-08-15T11:03:52.000Z",
+      "checksum": "1a69b0acfce79239542749d8ff0e33c2",
+      "folder": false
+    }
+  ]
+}

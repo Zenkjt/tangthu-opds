@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UIpu9GZDDD6TLLlFr4TsEhzBnC85Aog9",
+  "page": 1,
+  "items": [
+    {
+      "id": "12IhqPyY_mUsl3am-lmHKrQbhHANPFySm",
+      "parent_id": "1UIpu9GZDDD6TLLlFr4TsEhzBnC85Aog9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3432,
+      "modified": "2026-08-16T04:09:49.000Z",
+      "checksum": "1b72759d668e28dcf3cf344695113b49",
+      "folder": false
+    },
+    {
+      "id": "1mABnv_JvNbit9Jz4l0h8g_jMRn268QFt",
+      "parent_id": "1UIpu9GZDDD6TLLlFr4TsEhzBnC85Aog9",
+      "name": "NHỮNG ĐỨA CON CỦA TỰ DO.epub",
+      "mime": "application/epub+zip",
+      "size": 553462,
+      "modified": "2026-08-16T04:09:56.000Z",
+      "checksum": "5cb58a608bdf957c0dc7bf0da504d0be",
+      "folder": false
+    },
+    {
+      "id": "1WeE0fatL0hi6NJ7IT91B7FI_AQNJ1rRe",
+      "parent_id": "1UIpu9GZDDD6TLLlFr4TsEhzBnC85Aog9",
+      "name": "NHỮNG ĐỨA CON CỦA TỰ DO.pdf",
+      "mime": "application/pdf",
+      "size": 1563390,
+      "modified": "2026-08-16T04:09:53.000Z",
+      "checksum": "fdbac29f3dfbe15d06bd21d93dd5b776",
+      "folder": false
+    }
+  ]
+}

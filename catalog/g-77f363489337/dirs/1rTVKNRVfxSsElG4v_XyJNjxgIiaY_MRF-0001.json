@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rTVKNRVfxSsElG4v_XyJNjxgIiaY_MRF",
+  "page": 1,
+  "items": [
+    {
+      "id": "121Cxv8rIyom9g3Qx2YAdSa5dlSF_cFYS",
+      "parent_id": "1rTVKNRVfxSsElG4v_XyJNjxgIiaY_MRF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 674,
+      "modified": "2026-08-15T10:55:21.000Z",
+      "checksum": "ddda9f8e51b8f06b09ee27b88f6343b6",
+      "folder": false
+    },
+    {
+      "id": "1slfG67NEt5P_Mg3G5JeS_S9iSz4gJloV",
+      "parent_id": "1rTVKNRVfxSsElG4v_XyJNjxgIiaY_MRF",
+      "name": "KHÔNG GIAN SONG SONG.epub",
+      "mime": "application/epub+zip",
+      "size": 812920,
+      "modified": "2026-08-15T10:55:41.000Z",
+      "checksum": "fc6f9dfe2aae755659a670aeb3bb753d",
+      "folder": false
+    },
+    {
+      "id": "1VkadxLd1W_JILgonYs9SvXGZH3jscoNK",
+      "parent_id": "1rTVKNRVfxSsElG4v_XyJNjxgIiaY_MRF",
+      "name": "KHÔNG GIAN SONG SONG.pdf",
+      "mime": "application/pdf",
+      "size": 1910446,
+      "modified": "2026-08-15T10:55:38.000Z",
+      "checksum": "6a623c3f62b4e986f702a0ddcb50bd36",
+      "folder": false
+    }
+  ]
+}

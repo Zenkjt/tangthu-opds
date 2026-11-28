@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xu0tcO7_dluYNzSHxig-_JFC-xzTD_Kq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xTeSrD-L-KmyOmiRnHkr1Bad8VB99N5W",
+      "parent_id": "1xu0tcO7_dluYNzSHxig-_JFC-xzTD_Kq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3551,
+      "modified": "2026-08-16T04:12:40.000Z",
+      "checksum": "0c1376771f19c025985b2db7b9336c12",
+      "folder": false
+    },
+    {
+      "id": "1T4uX2-lVm1qEbymlxFRTidlbnEZyD035",
+      "parent_id": "1xu0tcO7_dluYNzSHxig-_JFC-xzTD_Kq",
+      "name": "NHÀ MÙA HÈ.epub",
+      "mime": "application/epub+zip",
+      "size": 714227,
+      "modified": "2026-08-16T04:12:47.000Z",
+      "checksum": "00f7760f7fd6bc4b24c854a59eb11863",
+      "folder": false
+    },
+    {
+      "id": "1qE0xWYX4gJYWrdpbkipPLNiyWcnG6PWJ",
+      "parent_id": "1xu0tcO7_dluYNzSHxig-_JFC-xzTD_Kq",
+      "name": "NHÀ MÙA HÈ.pdf",
+      "mime": "application/pdf",
+      "size": 1332066,
+      "modified": "2026-08-16T04:12:45.000Z",
+      "checksum": "43a2beed6fdb0248cd1199f6b1980c39",
+      "folder": false
+    }
+  ]
+}

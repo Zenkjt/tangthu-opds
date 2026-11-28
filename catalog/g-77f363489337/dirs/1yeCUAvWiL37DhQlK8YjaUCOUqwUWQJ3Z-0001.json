@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yeCUAvWiL37DhQlK8YjaUCOUqwUWQJ3Z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1h-mCt8IH6kO9q-ZQM5jpZ3IoK54eOnLN",
+      "parent_id": "1yeCUAvWiL37DhQlK8YjaUCOUqwUWQJ3Z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3182,
+      "modified": "2026-08-15T03:17:48.000Z",
+      "checksum": "ef240366f0793cf6041574b5d1a75c48",
+      "folder": false
+    },
+    {
+      "id": "1oP6aLluE2sCpb9b7GwBnaJ_ygdNNyAWP",
+      "parent_id": "1yeCUAvWiL37DhQlK8YjaUCOUqwUWQJ3Z",
+      "name": "THAY ĐỔI TƯ DUY.epub",
+      "mime": "application/epub+zip",
+      "size": 739949,
+      "modified": "2026-08-15T03:17:55.000Z",
+      "checksum": "ce311a579131fb1384efd665fbd69894",
+      "folder": false
+    },
+    {
+      "id": "1MKzZMD8wSZsILA-cwOCMQThZhzwlvPvj",
+      "parent_id": "1yeCUAvWiL37DhQlK8YjaUCOUqwUWQJ3Z",
+      "name": "THAY ĐỔI TƯ DUY.pdf",
+      "mime": "application/pdf",
+      "size": 1494843,
+      "modified": "2026-08-15T03:17:52.000Z",
+      "checksum": "d8fe09131638496a09686725d133563e",
+      "folder": false
+    }
+  ]
+}

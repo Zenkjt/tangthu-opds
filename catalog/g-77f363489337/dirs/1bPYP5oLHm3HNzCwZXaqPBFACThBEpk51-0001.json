@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bPYP5oLHm3HNzCwZXaqPBFACThBEpk51",
+  "page": 1,
+  "items": [
+    {
+      "id": "1T04Lh-Rb4VY0OhnpXWLNHZHetIL1LzjX",
+      "parent_id": "1bPYP5oLHm3HNzCwZXaqPBFACThBEpk51",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1506,
+      "modified": "2026-08-15T01:01:23.000Z",
+      "checksum": "5a404f4234c376c96417f810506140da",
+      "folder": false
+    },
+    {
+      "id": "1TnTzsGyrwq4LYV4g8hjqLNzeI8q9Klro",
+      "parent_id": "1bPYP5oLHm3HNzCwZXaqPBFACThBEpk51",
+      "name": "THỨC ĂN QUYẾT ĐỊNH SỐ PHẬN CỦA BẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 354648,
+      "modified": "2026-08-15T01:01:31.000Z",
+      "checksum": "84d31f5a47a3c599616518784667493e",
+      "folder": false
+    },
+    {
+      "id": "1ON_1SvhLIdXe6FFQlqqEC97bYdmA8w2X",
+      "parent_id": "1bPYP5oLHm3HNzCwZXaqPBFACThBEpk51",
+      "name": "THỨC ĂN QUYẾT ĐỊNH SỐ PHẬN CỦA BẠN.pdf",
+      "mime": "application/pdf",
+      "size": 721257,
+      "modified": "2026-08-15T01:01:29.000Z",
+      "checksum": "ab299257b093f71df7e77d928ff352d6",
+      "folder": false
+    }
+  ]
+}

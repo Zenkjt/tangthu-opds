@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GV3O06cCuGDHuETprPUJUwjASBmTT9Bt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HrZfb2eF5jLkcOhpLfqvxffCpZdDRpJO",
+      "parent_id": "1GV3O06cCuGDHuETprPUJUwjASBmTT9Bt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4241,
+      "modified": "2026-08-15T03:14:17.000Z",
+      "checksum": "9eac77f872c53d19e6940ce99bc22912",
+      "folder": false
+    },
+    {
+      "id": "1Cluk7vNZ5ec8HRDYPgtkX5IB2A4tctZq",
+      "parent_id": "1GV3O06cCuGDHuETprPUJUwjASBmTT9Bt",
+      "name": "ĂN, CẦU NGUYỆN, YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 696990,
+      "modified": "2026-08-15T03:14:27.000Z",
+      "checksum": "2287f5be81425307ec5b5e9301632099",
+      "folder": false
+    },
+    {
+      "id": "1NWlxIiqJghxCiJpnxYTdggy4mFGDVjgL",
+      "parent_id": "1GV3O06cCuGDHuETprPUJUwjASBmTT9Bt",
+      "name": "ĂN, CẦU NGUYỆN, YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 2817873,
+      "modified": "2026-08-15T03:14:24.000Z",
+      "checksum": "20a01aecf659ec8c537e6fd0b93f2fcc",
+      "folder": false
+    }
+  ]
+}

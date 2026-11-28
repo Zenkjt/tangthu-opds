@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1G3rqqbgZ5pB2G42qVu1OCe4znn6ympqc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wKYIHW_UTayCzcQ2xtjAkpBRpQcCsoTs",
+      "parent_id": "1G3rqqbgZ5pB2G42qVu1OCe4znn6ympqc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 359,
+      "modified": "2026-08-15T10:06:52.000Z",
+      "checksum": "9576bd05ffca36f86242fb48341d2084",
+      "folder": false
+    },
+    {
+      "id": "1BCKKIrpVTqLgMYgWo9cmA3GPQ32jEnjh",
+      "parent_id": "1G3rqqbgZ5pB2G42qVu1OCe4znn6ympqc",
+      "name": "TRƯNG TRẮC.epub",
+      "mime": "application/epub+zip",
+      "size": 495571,
+      "modified": "2026-08-15T10:07:05.000Z",
+      "checksum": "6152ad56b70bfea1bbcc6be06da4b58f",
+      "folder": false
+    },
+    {
+      "id": "1bCCeJSVJ19VAAwYcwMVijd4v3ZPCgiFF",
+      "parent_id": "1G3rqqbgZ5pB2G42qVu1OCe4znn6ympqc",
+      "name": "TRƯNG TRẮC.pdf",
+      "mime": "application/pdf",
+      "size": 990343,
+      "modified": "2026-08-15T10:07:01.000Z",
+      "checksum": "562c65e79cc59171279bc1d59a09ee60",
+      "folder": false
+    }
+  ]
+}

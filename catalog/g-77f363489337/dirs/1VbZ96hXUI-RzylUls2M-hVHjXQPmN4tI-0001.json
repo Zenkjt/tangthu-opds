@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VbZ96hXUI-RzylUls2M-hVHjXQPmN4tI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RBAbkJXEUIeKNrO7PVipubZMyaLBxgQ7",
+      "parent_id": "1VbZ96hXUI-RzylUls2M-hVHjXQPmN4tI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4609,
+      "modified": "2026-08-15T09:47:36.000Z",
+      "checksum": "cefd7d03793ce18e7e0e0b2e373ae7eb",
+      "folder": false
+    },
+    {
+      "id": "1D9SzAW1-WopZ4SizDaAWRtEHSy3Ya5cO",
+      "parent_id": "1VbZ96hXUI-RzylUls2M-hVHjXQPmN4tI",
+      "name": "HỢP ÂM THỨ BẢY.epub",
+      "mime": "application/epub+zip",
+      "size": 1875438,
+      "modified": "2026-08-15T09:47:43.000Z",
+      "checksum": "ba7c103fb1af3d8f8ec35b9747f0dd8f",
+      "folder": false
+    },
+    {
+      "id": "1Gd5wYfsc2hz9g0k9SPLCMkxtDp87e9sQ",
+      "parent_id": "1VbZ96hXUI-RzylUls2M-hVHjXQPmN4tI",
+      "name": "HỢP ÂM THỨ BẢY.pdf",
+      "mime": "application/pdf",
+      "size": 1712163,
+      "modified": "2026-08-15T09:47:40.000Z",
+      "checksum": "c48cd50b33d71317f09539cdca1adf14",
+      "folder": false
+    }
+  ]
+}

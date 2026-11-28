@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zLM0bj9Cc00Z9ZW_MYkCrQZX_XRfSXx4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_CZm8h-liQxcS4kzMUk7p_PjMWC1GVBY",
+      "parent_id": "1zLM0bj9Cc00Z9ZW_MYkCrQZX_XRfSXx4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 535,
+      "modified": "2026-08-15T10:28:43.000Z",
+      "checksum": "8a7abbb99278f742a0b7e1a0bdf23bba",
+      "folder": false
+    },
+    {
+      "id": "1mCLjW8KnrGL_OOfCFGaeE28lMNJoJIta",
+      "parent_id": "1zLM0bj9Cc00Z9ZW_MYkCrQZX_XRfSXx4",
+      "name": "SA ĐỌA.epub",
+      "mime": "application/epub+zip",
+      "size": 380760,
+      "modified": "2026-08-15T10:28:58.000Z",
+      "checksum": "eadc7d8de1947113d14eadfb299c3c71",
+      "folder": false
+    },
+    {
+      "id": "1QpRarpWJqNdfTxE61j0ze3DWuuvG5g3Z",
+      "parent_id": "1zLM0bj9Cc00Z9ZW_MYkCrQZX_XRfSXx4",
+      "name": "SA ĐỌA.pdf",
+      "mime": "application/pdf",
+      "size": 701358,
+      "modified": "2026-08-15T10:28:50.000Z",
+      "checksum": "555cf3af9d72f668bcf429a60d641312",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JMs7j6OgK-KeeAz-3hn-rPjCZ32LfN6h",
+  "page": 1,
+  "items": [
+    {
+      "id": "1arAJ73ym4JT3ZLmwDvhtestNE3ksft3g",
+      "parent_id": "1JMs7j6OgK-KeeAz-3hn-rPjCZ32LfN6h",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2945,
+      "modified": "2026-08-15T09:43:36.000Z",
+      "checksum": "d90e7b18c799a446a21a49a69f19746d",
+      "folder": false
+    },
+    {
+      "id": "1guolUhtmXuJLeG30uOmy_my1YzvOaNWq",
+      "parent_id": "1JMs7j6OgK-KeeAz-3hn-rPjCZ32LfN6h",
+      "name": "LOÀI KIÊU HÃNH.epub",
+      "mime": "application/epub+zip",
+      "size": 658215,
+      "modified": "2026-08-15T09:43:42.000Z",
+      "checksum": "ed4b486c37481ac87fa3b83b45c22ee1",
+      "folder": false
+    },
+    {
+      "id": "1AhEk4FPJWBOFffh_zZ0dbfMZ7GQ3BV4F",
+      "parent_id": "1JMs7j6OgK-KeeAz-3hn-rPjCZ32LfN6h",
+      "name": "LOÀI KIÊU HÃNH.pdf",
+      "mime": "application/pdf",
+      "size": 541570,
+      "modified": "2026-08-15T09:43:39.000Z",
+      "checksum": "4b864934d0d39853b3ff55ead7d0e9a9",
+      "folder": false
+    }
+  ]
+}

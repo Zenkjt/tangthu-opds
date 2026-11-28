@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DW377moOwe7WqvgtRd1U5Mm3_iwdvlEO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZaqF2reSx31TrzL3kpQsrLA1Yq_UX9Ej",
+      "parent_id": "1DW377moOwe7WqvgtRd1U5Mm3_iwdvlEO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4640,
+      "modified": "2026-08-15T06:42:59.000Z",
+      "checksum": "833bc7cf5ebb6003ad1b63f5401466bd",
+      "folder": false
+    },
+    {
+      "id": "16hq6Ygn3BArhdUEHG71USzMI0nxvLMA3",
+      "parent_id": "1DW377moOwe7WqvgtRd1U5Mm3_iwdvlEO",
+      "name": "KẺ TRỘM SÁCH.epub",
+      "mime": "application/epub+zip",
+      "size": 1603653,
+      "modified": "2026-08-15T06:43:09.000Z",
+      "checksum": "d9da01b38f19226faf87bd9919b7978d",
+      "folder": false
+    },
+    {
+      "id": "1WqLTkEMTboMtipDYyqwSzwnuqRBxiABN",
+      "parent_id": "1DW377moOwe7WqvgtRd1U5Mm3_iwdvlEO",
+      "name": "KẺ TRỘM SÁCH.pdf",
+      "mime": "application/pdf",
+      "size": 1640676,
+      "modified": "2026-08-15T06:43:04.000Z",
+      "checksum": "1578204ecf06096b772076f919500b16",
+      "folder": false
+    }
+  ]
+}

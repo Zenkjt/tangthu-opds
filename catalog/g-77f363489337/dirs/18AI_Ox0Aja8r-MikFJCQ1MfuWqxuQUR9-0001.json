@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18AI_Ox0Aja8r-MikFJCQ1MfuWqxuQUR9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1l8KQdXgeMvWK7QHxUpXgHgZJYs_B4mQM",
+      "parent_id": "18AI_Ox0Aja8r-MikFJCQ1MfuWqxuQUR9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2717,
+      "modified": "2026-08-16T03:20:12.000Z",
+      "checksum": "2e100cdc97b085bc697527e2d81050b9",
+      "folder": false
+    },
+    {
+      "id": "16YGbVHz0z4FVZHEDEcttptJPDVzRMDw6",
+      "parent_id": "18AI_Ox0Aja8r-MikFJCQ1MfuWqxuQUR9",
+      "name": "ĐẮM SAY.epub",
+      "mime": "application/epub+zip",
+      "size": 573331,
+      "modified": "2026-08-16T03:20:20.000Z",
+      "checksum": "dcdae2f00f28da190db194a7c77180d8",
+      "folder": false
+    },
+    {
+      "id": "1SEInYomOrmvF0p8ESaK001CePSAaMwGW",
+      "parent_id": "18AI_Ox0Aja8r-MikFJCQ1MfuWqxuQUR9",
+      "name": "ĐẮM SAY.pdf",
+      "mime": "application/pdf",
+      "size": 1652210,
+      "modified": "2026-08-16T03:20:18.000Z",
+      "checksum": "eff0cd1655e5d95b0f4337382a8150a0",
+      "folder": false
+    }
+  ]
+}

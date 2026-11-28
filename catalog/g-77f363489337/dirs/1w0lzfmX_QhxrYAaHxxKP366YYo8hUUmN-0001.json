@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1w0lzfmX_QhxrYAaHxxKP366YYo8hUUmN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1C1EBJWZQXUmDbiAH8gvkVqKou77_eaQu",
+      "parent_id": "1w0lzfmX_QhxrYAaHxxKP366YYo8hUUmN",
+      "name": "CUỐN SỔ MÀU XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 574705,
+      "modified": "2026-08-16T03:44:36.000Z",
+      "checksum": "571751075fab45b2fa9f67a507aa834d",
+      "folder": false
+    },
+    {
+      "id": "1DFurVqAmK2M3etdsxyVejIpwriz29kyt",
+      "parent_id": "1w0lzfmX_QhxrYAaHxxKP366YYo8hUUmN",
+      "name": "CUỐN SỔ MÀU XANH.pdf",
+      "mime": "application/pdf",
+      "size": 1044396,
+      "modified": "2026-08-16T03:44:34.000Z",
+      "checksum": "4a67ad9ba03a2c3a3f9d3d333d8f246a",
+      "folder": false
+    },
+    {
+      "id": "1qUL80wGYJKrrMJfEgKAivqTyRC5nvUBe",
+      "parent_id": "1w0lzfmX_QhxrYAaHxxKP366YYo8hUUmN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1687,
+      "modified": "2026-08-16T03:44:29.000Z",
+      "checksum": "39f2dc418ec082498cb0f9f6e78532da",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sJpmpHrQgJF4HPJwc4hX9H-OabXeqjyM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JBrCgYoItXIZjqCvDBo-H-P-Iz8hIe7Q",
+      "parent_id": "1sJpmpHrQgJF4HPJwc4hX9H-OabXeqjyM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1127,
+      "modified": "2026-08-15T03:54:00.000Z",
+      "checksum": "35d04b77040fa79d8b5354fea496eac9",
+      "folder": false
+    },
+    {
+      "id": "12HZFH7iqnRh-EP5nMbR-Sj6jkU8SiLM5",
+      "parent_id": "1sJpmpHrQgJF4HPJwc4hX9H-OabXeqjyM",
+      "name": "MẬT MÃ TÂY TẠNG - TẬP 3.epub",
+      "mime": "application/epub+zip",
+      "size": 751642,
+      "modified": "2026-08-15T03:54:10.000Z",
+      "checksum": "a30b3a90897032c086aed98cdd380b0b",
+      "folder": false
+    },
+    {
+      "id": "1IF2IlxpkcZxpqhfZrssuoLz0fzdElCoB",
+      "parent_id": "1sJpmpHrQgJF4HPJwc4hX9H-OabXeqjyM",
+      "name": "MẬT MÃ TÂY TẠNG - TẬP 3.pdf",
+      "mime": "application/pdf",
+      "size": 2692024,
+      "modified": "2026-08-15T03:54:07.000Z",
+      "checksum": "c5f2accace00644d29b09c1fbd573123",
+      "folder": false
+    }
+  ]
+}

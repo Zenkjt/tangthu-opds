@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uxY-0NAImqGXmHQptIR4vyBbyWx0kG_E",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Kyle3OICN-BnaI_kzPJ712V3082B77rX",
+      "parent_id": "1uxY-0NAImqGXmHQptIR4vyBbyWx0kG_E",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7205,
+      "modified": "2026-08-15T07:51:23.000Z",
+      "checksum": "0c6bef7e462397e5ff1cde54f4d6893c",
+      "folder": false
+    },
+    {
+      "id": "1hu--vxQyoF-yopTomh0Wt8M1Zp8QVhgA",
+      "parent_id": "1uxY-0NAImqGXmHQptIR4vyBbyWx0kG_E",
+      "name": "MỘT MÌNH MỘT NGỰA.epub",
+      "mime": "application/epub+zip",
+      "size": 658134,
+      "modified": "2026-08-15T07:51:30.000Z",
+      "checksum": "7cc1ca0d54b4aeedd0346b00ff605011",
+      "folder": false
+    },
+    {
+      "id": "1o_QUWm02xziCg71ded_SJecOiZ5oOpjT",
+      "parent_id": "1uxY-0NAImqGXmHQptIR4vyBbyWx0kG_E",
+      "name": "MỘT MÌNH MỘT NGỰA.pdf",
+      "mime": "application/pdf",
+      "size": 823879,
+      "modified": "2026-08-15T07:51:27.000Z",
+      "checksum": "ad86f19fb334a80e4775e0ce294f8199",
+      "folder": false
+    }
+  ]
+}

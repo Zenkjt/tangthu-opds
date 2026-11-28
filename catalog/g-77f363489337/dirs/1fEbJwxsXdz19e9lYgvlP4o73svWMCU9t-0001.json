@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fEbJwxsXdz19e9lYgvlP4o73svWMCU9t",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IxbNFYLZPti7cXZujAqhwooxxIdiKlpk",
+      "parent_id": "1fEbJwxsXdz19e9lYgvlP4o73svWMCU9t",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1452,
+      "modified": "2026-08-16T03:24:25.000Z",
+      "checksum": "c3fee2c7a0b7044c6e198ec5ad53cfb0",
+      "folder": false
+    },
+    {
+      "id": "1z9Yg-3N9SZSiqfOAo9Rp6QhMQtW0D24y",
+      "parent_id": "1fEbJwxsXdz19e9lYgvlP4o73svWMCU9t",
+      "name": "TUYỆT THẾ CHIÊU HOÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1622972,
+      "modified": "2026-08-16T03:24:33.000Z",
+      "checksum": "bca1a8f058ba7f721fbaba755016d9bc",
+      "folder": false
+    },
+    {
+      "id": "1x15L0S2iNOs-yQPw3SuqAvXGwWmXsHNl",
+      "parent_id": "1fEbJwxsXdz19e9lYgvlP4o73svWMCU9t",
+      "name": "TUYỆT THẾ CHIÊU HOÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 1442192,
+      "modified": "2026-08-16T03:24:30.000Z",
+      "checksum": "4ae3e7cf412cd91eee1263cbd6bcf1b8",
+      "folder": false
+    }
+  ]
+}

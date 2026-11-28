@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VUdiGGnzy6jUUINnaXwmlbvo-2B0A7tb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OFz3A78omGtRLxWKJJH-3L7kCYjfDEi4",
+      "parent_id": "1VUdiGGnzy6jUUINnaXwmlbvo-2B0A7tb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 14576,
+      "modified": "2026-08-15T06:42:07.000Z",
+      "checksum": "14e4d741d8601efa722037a80cbe4cda",
+      "folder": false
+    },
+    {
+      "id": "1712xoQUWkQKVHB77yAhMyrFA7Ji3IJ2q",
+      "parent_id": "1VUdiGGnzy6jUUINnaXwmlbvo-2B0A7tb",
+      "name": "HARRY POTTER VÀ HOÀNG TỬ LAI.epub",
+      "mime": "application/epub+zip",
+      "size": 655506,
+      "modified": "2026-08-15T06:42:15.000Z",
+      "checksum": "638ecab9519789df72437eb4ac405bf1",
+      "folder": false
+    },
+    {
+      "id": "1dB72Lk_q5GmjocSCnLQcHYzPx7Lkgwh1",
+      "parent_id": "1VUdiGGnzy6jUUINnaXwmlbvo-2B0A7tb",
+      "name": "HARRY POTTER VÀ HOÀNG TỬ LAI.pdf",
+      "mime": "application/pdf",
+      "size": 3115223,
+      "modified": "2026-08-15T06:42:13.000Z",
+      "checksum": "cd6d01a2915956de383c1baf489f8da4",
+      "folder": false
+    }
+  ]
+}

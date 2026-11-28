@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eusQ3qKJ8GOettZCv-m47UQE8bft-8vC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nR-4rtM3W3FP7kZ9VYSyEhf_n4s3UGY6",
+      "parent_id": "1eusQ3qKJ8GOettZCv-m47UQE8bft-8vC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3216,
+      "modified": "2026-08-16T03:55:33.000Z",
+      "checksum": "8fcf183f2b06e50a05f29c76752646b8",
+      "folder": false
+    },
+    {
+      "id": "1DAJr7qT7ThmtQnEopTzECGHcKwS6lHsQ",
+      "parent_id": "1eusQ3qKJ8GOettZCv-m47UQE8bft-8vC",
+      "name": "TIẾNG NÓI CỦA CON TIM.epub",
+      "mime": "application/epub+zip",
+      "size": 693846,
+      "modified": "2026-08-16T03:55:39.000Z",
+      "checksum": "fab7926829815912b95e7ff28161d9ca",
+      "folder": false
+    },
+    {
+      "id": "1mk2QD1qeRccjZnbWfJz3mPEI6NAgKAgc",
+      "parent_id": "1eusQ3qKJ8GOettZCv-m47UQE8bft-8vC",
+      "name": "TIẾNG NÓI CỦA CON TIM.pdf",
+      "mime": "application/pdf",
+      "size": 888316,
+      "modified": "2026-08-16T03:55:36.000Z",
+      "checksum": "0e74ff6307422e6933c193749b1414a6",
+      "folder": false
+    }
+  ]
+}

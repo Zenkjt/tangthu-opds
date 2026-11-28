@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aLIOs0SiHtqkoVPkeUKquJPosKWJJ82i",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hAbAvJl6ZJH_zHX70Gmi8tKEdOHjUrvC",
+      "parent_id": "1aLIOs0SiHtqkoVPkeUKquJPosKWJJ82i",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 660,
+      "modified": "2026-08-16T03:52:17.000Z",
+      "checksum": "8176c0cf22ca0615fe7761977a3a2e94",
+      "folder": false
+    },
+    {
+      "id": "1NsU0eomDg0CirHmEmh3Y_EL2aIsvggmg",
+      "parent_id": "1aLIOs0SiHtqkoVPkeUKquJPosKWJJ82i",
+      "name": "TUỔI XUÂN TÀN KHỐC.epub",
+      "mime": "application/epub+zip",
+      "size": 524840,
+      "modified": "2026-08-16T03:52:23.000Z",
+      "checksum": "537206127bc57e50ee5c133faf28a062",
+      "folder": false
+    },
+    {
+      "id": "1zXt53P-7TuW0YY_z5nbsyDNdBZIysEas",
+      "parent_id": "1aLIOs0SiHtqkoVPkeUKquJPosKWJJ82i",
+      "name": "TUỔI XUÂN TÀN KHỐC.pdf",
+      "mime": "application/pdf",
+      "size": 913547,
+      "modified": "2026-08-16T03:52:21.000Z",
+      "checksum": "1c0aed84ef6d646bf264f47545d066f7",
+      "folder": false
+    }
+  ]
+}

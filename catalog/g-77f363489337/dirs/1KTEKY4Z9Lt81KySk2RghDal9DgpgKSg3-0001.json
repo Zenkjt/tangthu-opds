@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KTEKY4Z9Lt81KySk2RghDal9DgpgKSg3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1edN4hrzZxyxleIRH4efJzXat7QlqeV-M",
+      "parent_id": "1KTEKY4Z9Lt81KySk2RghDal9DgpgKSg3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4493,
+      "modified": "2026-08-16T03:33:34.000Z",
+      "checksum": "432141aae8013a39434eb79bc2ba2af0",
+      "folder": false
+    },
+    {
+      "id": "1SXIzbp_N4SCdTEKXaxHi_HdO59B-_J5q",
+      "parent_id": "1KTEKY4Z9Lt81KySk2RghDal9DgpgKSg3",
+      "name": "HƠN NỬA ĐỜI HƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 952265,
+      "modified": "2026-08-16T03:33:42.000Z",
+      "checksum": "9d525a40050f5e7b881738db69804e49",
+      "folder": false
+    },
+    {
+      "id": "1fO2qMulj8VsxAIj9O42bPX-x-Bm56Tct",
+      "parent_id": "1KTEKY4Z9Lt81KySk2RghDal9DgpgKSg3",
+      "name": "HƠN NỬA ĐỜI HƯ.pdf",
+      "mime": "application/pdf",
+      "size": 2325745,
+      "modified": "2026-08-16T03:33:40.000Z",
+      "checksum": "e62e4e42fc6922e8de479034f68302c5",
+      "folder": false
+    }
+  ]
+}

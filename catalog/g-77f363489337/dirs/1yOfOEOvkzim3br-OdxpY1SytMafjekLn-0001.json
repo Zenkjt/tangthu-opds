@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yOfOEOvkzim3br-OdxpY1SytMafjekLn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FtUUpr66Mazj6KbVIiOgemNC8Onfvbc2",
+      "parent_id": "1yOfOEOvkzim3br-OdxpY1SytMafjekLn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 733,
+      "modified": "2026-08-16T03:52:30.000Z",
+      "checksum": "db6cc5db3ffaa84e09d147184b6dde38",
+      "folder": false
+    },
+    {
+      "id": "1uQ1q3dYUygibSHb1WXcM66fT9NTfwxFH",
+      "parent_id": "1yOfOEOvkzim3br-OdxpY1SytMafjekLn",
+      "name": "TRUYỆN KỂ DI-GAN.epub",
+      "mime": "application/epub+zip",
+      "size": 531609,
+      "modified": "2026-08-16T03:52:37.000Z",
+      "checksum": "109e901f022715b9e2e5f1e3c8a68da2",
+      "folder": false
+    },
+    {
+      "id": "13Lpv4a8hTtttQqu4Lfl58dMTBImz-Jwa",
+      "parent_id": "1yOfOEOvkzim3br-OdxpY1SytMafjekLn",
+      "name": "TRUYỆN KỂ DI-GAN.pdf",
+      "mime": "application/pdf",
+      "size": 1235028,
+      "modified": "2026-08-16T03:52:34.000Z",
+      "checksum": "be8c6c60e607428aa5967e39355c5600",
+      "folder": false
+    }
+  ]
+}

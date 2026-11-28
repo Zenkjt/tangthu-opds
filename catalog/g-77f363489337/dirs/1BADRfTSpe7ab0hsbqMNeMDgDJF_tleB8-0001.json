@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BADRfTSpe7ab0hsbqMNeMDgDJF_tleB8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BkY5PXkNgYL5eidVRGtXThUozkdRV89p",
+      "parent_id": "1BADRfTSpe7ab0hsbqMNeMDgDJF_tleB8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1195,
+      "modified": "2026-08-15T00:55:36.000Z",
+      "checksum": "467ee7539a3ce5c74af59ddec3836668",
+      "folder": false
+    },
+    {
+      "id": "1bVUpNhuuNSHxay3xbncLH-RyX6hLZNO7",
+      "parent_id": "1BADRfTSpe7ab0hsbqMNeMDgDJF_tleB8",
+      "name": "HÃY SỐNG CUỘC ĐỜI NHƯ BẠN MUỐN.epub",
+      "mime": "application/epub+zip",
+      "size": 393330,
+      "modified": "2026-08-15T00:55:42.000Z",
+      "checksum": "57f7b9da75912f188f67beb58326e126",
+      "folder": false
+    },
+    {
+      "id": "1xjVqLZ6a8pqQg9g2ZkcyjXapi8t4eIDQ",
+      "parent_id": "1BADRfTSpe7ab0hsbqMNeMDgDJF_tleB8",
+      "name": "HÃY SỐNG CUỘC ĐỜI NHƯ BẠN MUỐN.pdf",
+      "mime": "application/pdf",
+      "size": 2326195,
+      "modified": "2026-08-15T00:55:40.000Z",
+      "checksum": "df694b20cd9ad7f3980b8afce84e74a6",
+      "folder": false
+    }
+  ]
+}

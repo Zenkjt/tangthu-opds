@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IZnyoPGSyYwpaXcSnwIns6Z5uiul-hPf",
+  "page": 1,
+  "items": [
+    {
+      "id": "16XcL6MzdKFcWGlHIaM3vbnfZ40ciDeAQ",
+      "parent_id": "1IZnyoPGSyYwpaXcSnwIns6Z5uiul-hPf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 860,
+      "modified": "2026-08-15T10:58:31.000Z",
+      "checksum": "079c60ab0cfd5010e67c4d32a2fd82e2",
+      "folder": false
+    },
+    {
+      "id": "13jUriLgM0ymgIa7Z-iZGcAg5TENnSsZr",
+      "parent_id": "1IZnyoPGSyYwpaXcSnwIns6Z5uiul-hPf",
+      "name": "ĐÔI TẤT NHUNG.epub",
+      "mime": "application/epub+zip",
+      "size": 409641,
+      "modified": "2026-08-15T10:58:42.000Z",
+      "checksum": "b3d3c5d1750f5b5bfcc47285d4ba7c73",
+      "folder": false
+    },
+    {
+      "id": "1cpy-He1uaMhP_q0WyWHJ0lZen6mNTffe",
+      "parent_id": "1IZnyoPGSyYwpaXcSnwIns6Z5uiul-hPf",
+      "name": "ĐÔI TẤT NHUNG.pdf",
+      "mime": "application/pdf",
+      "size": 841333,
+      "modified": "2026-08-15T10:58:38.000Z",
+      "checksum": "dfbed5c8aee9b6f803b61432910541c0",
+      "folder": false
+    }
+  ]
+}

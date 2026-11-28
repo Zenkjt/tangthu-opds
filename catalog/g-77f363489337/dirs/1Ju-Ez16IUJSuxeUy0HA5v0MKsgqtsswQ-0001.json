@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ju-Ez16IUJSuxeUy0HA5v0MKsgqtsswQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P41IIH_lKQHGyWQUoyb43HoQrGmXcmD9",
+      "parent_id": "1Ju-Ez16IUJSuxeUy0HA5v0MKsgqtsswQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 521,
+      "modified": "2026-08-15T12:59:40.000Z",
+      "checksum": "fa1d283efe2d62a86213e8098b33345b",
+      "folder": false
+    },
+    {
+      "id": "1UgtGGrjOW-6sdNnDmwKn3Rll7GYPt26x",
+      "parent_id": "1Ju-Ez16IUJSuxeUy0HA5v0MKsgqtsswQ",
+      "name": "NHỮNG CHÀNG TRAI NHỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 631260,
+      "modified": "2026-08-15T12:59:47.000Z",
+      "checksum": "0ebce3ca4395f6272d8d539f70110f3b",
+      "folder": false
+    },
+    {
+      "id": "1FnzTAgD-tecfDezraBzoF87cy8nUo2iq",
+      "parent_id": "1Ju-Ez16IUJSuxeUy0HA5v0MKsgqtsswQ",
+      "name": "NHỮNG CHÀNG TRAI NHỎ.pdf",
+      "mime": "application/pdf",
+      "size": 1101357,
+      "modified": "2026-08-15T12:59:45.000Z",
+      "checksum": "030312080f575709ae3d8c8e7cd0542b",
+      "folder": false
+    }
+  ]
+}

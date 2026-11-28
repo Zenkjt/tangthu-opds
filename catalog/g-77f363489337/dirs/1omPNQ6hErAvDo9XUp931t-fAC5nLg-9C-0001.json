@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1omPNQ6hErAvDo9XUp931t-fAC5nLg-9C",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OJLu8pIAd3LJCuprK1fooOraztReLp1t",
+      "parent_id": "1omPNQ6hErAvDo9XUp931t-fAC5nLg-9C",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5762,
+      "modified": "2026-08-15T06:42:10.000Z",
+      "checksum": "132e9a0081a28c855c876fabee66bb5e",
+      "folder": false
+    },
+    {
+      "id": "1SZFjydKAU4VKRL08jj217ybV5tUfClHJ",
+      "parent_id": "1omPNQ6hErAvDo9XUp931t-fAC5nLg-9C",
+      "name": "HAI SỐ PHẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 770524,
+      "modified": "2026-08-15T06:42:19.000Z",
+      "checksum": "a8fe3fcb8cee442a4ec58f107ceb2aa0",
+      "folder": false
+    },
+    {
+      "id": "1GhWQThtIH10PMsoPSjE397j5Iqq9dhqc",
+      "parent_id": "1omPNQ6hErAvDo9XUp931t-fAC5nLg-9C",
+      "name": "HAI SỐ PHẬN.pdf",
+      "mime": "application/pdf",
+      "size": 2103752,
+      "modified": "2026-08-15T06:42:17.000Z",
+      "checksum": "87de78a6fc5dedcb67d6c988e6900e41",
+      "folder": false
+    }
+  ]
+}

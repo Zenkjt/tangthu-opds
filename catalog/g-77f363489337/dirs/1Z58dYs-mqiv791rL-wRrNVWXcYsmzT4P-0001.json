@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Z58dYs-mqiv791rL-wRrNVWXcYsmzT4P",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IS4Gq6s2rUxOIr9nHotE-U5u_J5B06gj",
+      "parent_id": "1Z58dYs-mqiv791rL-wRrNVWXcYsmzT4P",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12189,
+      "modified": "2026-08-15T05:40:53.000Z",
+      "checksum": "61c3860edc744cd991f9d9eef2718b66",
+      "folder": false
+    },
+    {
+      "id": "1KnMpbQmntbruvi0JxhMTlPyfxEmwXI6b",
+      "parent_id": "1Z58dYs-mqiv791rL-wRrNVWXcYsmzT4P",
+      "name": "SỨC MẠNH CỦA HIỆN TẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 397586,
+      "modified": "2026-08-15T05:41:00.000Z",
+      "checksum": "9aa5491acc3d574987927e1e8e524df2",
+      "folder": false
+    },
+    {
+      "id": "1lai7e7C9nklarC_Lej9iD5dYFjXtJZ6t",
+      "parent_id": "1Z58dYs-mqiv791rL-wRrNVWXcYsmzT4P",
+      "name": "SỨC MẠNH CỦA HIỆN TẠI.pdf",
+      "mime": "application/pdf",
+      "size": 1071172,
+      "modified": "2026-08-15T05:40:57.000Z",
+      "checksum": "9e23befc6c890a0149511bdf40d7f8d6",
+      "folder": false
+    }
+  ]
+}

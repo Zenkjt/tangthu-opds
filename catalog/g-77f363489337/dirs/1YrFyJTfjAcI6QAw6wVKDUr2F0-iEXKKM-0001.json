@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YrFyJTfjAcI6QAw6wVKDUr2F0-iEXKKM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wYebqtSew7eQ3jURq2bxWnCuvS3CGfZ_",
+      "parent_id": "1YrFyJTfjAcI6QAw6wVKDUr2F0-iEXKKM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 743,
+      "modified": "2026-08-15T10:53:08.000Z",
+      "checksum": "e10111e00ddf8139c31c49ca959ceb10",
+      "folder": false
+    },
+    {
+      "id": "16LKL-t3FJ0zJB830PJ112kGRKaoq_JfP",
+      "parent_id": "1YrFyJTfjAcI6QAw6wVKDUr2F0-iEXKKM",
+      "name": "LUẬT GIANG HỒ.epub",
+      "mime": "application/epub+zip",
+      "size": 741936,
+      "modified": "2026-08-15T10:53:17.000Z",
+      "checksum": "e9635dc7726b8c2e6d77b1216d0b1ddc",
+      "folder": false
+    },
+    {
+      "id": "1hdk6l7_PL-jrhkUCS99a3IF48fbZZC03",
+      "parent_id": "1YrFyJTfjAcI6QAw6wVKDUr2F0-iEXKKM",
+      "name": "LUẬT GIANG HỒ.pdf",
+      "mime": "application/pdf",
+      "size": 1689730,
+      "modified": "2026-08-15T10:53:13.000Z",
+      "checksum": "2f2b3b21c052366275492e7c1313d7a3",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fwsQ28J0SWbcNECfBFSmsJZFIL9CBJtw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nbF20AKg4_hjT-5ZqDBA20--kXOp7KAg",
+      "parent_id": "1fwsQ28J0SWbcNECfBFSmsJZFIL9CBJtw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2436,
+      "modified": "2026-08-15T17:02:00.000Z",
+      "checksum": "f19d9ccebd123828e7b8ed3914f7ba8c",
+      "folder": false
+    },
+    {
+      "id": "1djEiHhy1zUyoR2IXKm8kNoBOl0-ebXfY",
+      "parent_id": "1fwsQ28J0SWbcNECfBFSmsJZFIL9CBJtw",
+      "name": "TU CHÂN CHI GIỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 429050,
+      "modified": "2026-08-15T17:02:07.000Z",
+      "checksum": "ba3aecdaae3760687d9bea9dd384689f",
+      "folder": false
+    },
+    {
+      "id": "1jRMyE2RXgT3hwuV0oOxzafuGaYtJVj4M",
+      "parent_id": "1fwsQ28J0SWbcNECfBFSmsJZFIL9CBJtw",
+      "name": "TU CHÂN CHI GIỚI.pdf",
+      "mime": "application/pdf",
+      "size": 701186,
+      "modified": "2026-08-15T17:02:04.000Z",
+      "checksum": "a0f307cb3424fc57f3b514402f84b7dd",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LyUzJoN7YOPsc3YNNqMOTo0aNomX_l4K",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vvZOAzJV7iovHsK9XXUmgbFqeywa5PVY",
+      "parent_id": "1LyUzJoN7YOPsc3YNNqMOTo0aNomX_l4K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3156,
+      "modified": "2026-08-16T04:09:06.000Z",
+      "checksum": "2d068f92bedb804df9555103e569c7f1",
+      "folder": false
+    },
+    {
+      "id": "1yXU9rqlcG1JdEDNmuUv2pWm1j3rTC9AB",
+      "parent_id": "1LyUzJoN7YOPsc3YNNqMOTo0aNomX_l4K",
+      "name": "NHỮNG PHIÊN BẢN NẰM NGHIÊNG.epub",
+      "mime": "application/epub+zip",
+      "size": 469115,
+      "modified": "2026-08-16T04:09:13.000Z",
+      "checksum": "0eab011d73ac7bb95e41523f8504a32a",
+      "folder": false
+    },
+    {
+      "id": "1sw869uwwDAkd7m4_6V-HohBplcI5V9sS",
+      "parent_id": "1LyUzJoN7YOPsc3YNNqMOTo0aNomX_l4K",
+      "name": "NHỮNG PHIÊN BẢN NẰM NGHIÊNG.pdf",
+      "mime": "application/pdf",
+      "size": 1210290,
+      "modified": "2026-08-16T04:09:10.000Z",
+      "checksum": "634d4b70bfd36dfaaa2a2af5ee838854",
+      "folder": false
+    }
+  ]
+}

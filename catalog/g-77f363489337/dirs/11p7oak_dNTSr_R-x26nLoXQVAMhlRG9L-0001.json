@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11p7oak_dNTSr_R-x26nLoXQVAMhlRG9L",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P5YunOZgs3Epjg2kTfe_xm4NFzlfKtZp",
+      "parent_id": "11p7oak_dNTSr_R-x26nLoXQVAMhlRG9L",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1985,
+      "modified": "2026-08-15T15:10:38.000Z",
+      "checksum": "ee4d46db317239045151c89d946e6e58",
+      "folder": false
+    },
+    {
+      "id": "1jFIteNydecklUKL2oRdcF7w8H4u1BYtV",
+      "parent_id": "11p7oak_dNTSr_R-x26nLoXQVAMhlRG9L",
+      "name": "THỦY XA QUÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 627316,
+      "modified": "2026-08-15T15:10:45.000Z",
+      "checksum": "b79ce1c5f4eed765c119fbecc1df39b0",
+      "folder": false
+    },
+    {
+      "id": "1LrhQINTd7bk0Sk_ezxl0HBHmfvjXu-Qf",
+      "parent_id": "11p7oak_dNTSr_R-x26nLoXQVAMhlRG9L",
+      "name": "THỦY XA QUÁN.pdf",
+      "mime": "application/pdf",
+      "size": 1084623,
+      "modified": "2026-08-15T15:10:42.000Z",
+      "checksum": "c2d21c26d27bd6601290f71a0ebb6a9c",
+      "folder": false
+    }
+  ]
+}

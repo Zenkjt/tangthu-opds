@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dFEQHOOZLEsZp8hgjDTpirQLEt5VMMUe",
+  "page": 1,
+  "items": [
+    {
+      "id": "12GAtzKpSLVvRruBRsehAfGxWy3m1fVk-",
+      "parent_id": "1dFEQHOOZLEsZp8hgjDTpirQLEt5VMMUe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3213,
+      "modified": "2026-08-15T07:21:14.000Z",
+      "checksum": "dd0ca05530e5b41b03ed26c6ab233c53",
+      "folder": false
+    },
+    {
+      "id": "1WgBHeyWM9DZ_DPDcJcnEJZMkrc83H_TL",
+      "parent_id": "1dFEQHOOZLEsZp8hgjDTpirQLEt5VMMUe",
+      "name": "TRẦN DUYÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 1646476,
+      "modified": "2026-08-15T07:21:29.000Z",
+      "checksum": "af826c27ad408d6145017838a787dbe9",
+      "folder": false
+    },
+    {
+      "id": "1T-AVXbN7g53BwtSBE3hj0Ren1lLm76RG",
+      "parent_id": "1dFEQHOOZLEsZp8hgjDTpirQLEt5VMMUe",
+      "name": "TRẦN DUYÊN.pdf",
+      "mime": "application/pdf",
+      "size": 6011178,
+      "modified": "2026-08-15T07:21:25.000Z",
+      "checksum": "9a4153fc71ba7309dc104d17c441e310",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pK0qDEK9HK6ECnCBJFTjcnOzO6aPTwwB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1m4w3A902ECBbL1oiypE_iigOHBJvOiYx",
+      "parent_id": "1pK0qDEK9HK6ECnCBJFTjcnOzO6aPTwwB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 32703,
+      "modified": "2026-08-15T06:38:30.000Z",
+      "checksum": "ed5a7e833b941d97d64f612bca876b4b",
+      "folder": false
+    },
+    {
+      "id": "1ut4HJDt4Mto84L90w5LzspyQZQ_84WJT",
+      "parent_id": "1pK0qDEK9HK6ECnCBJFTjcnOzO6aPTwwB",
+      "name": "TRU TIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 2696692,
+      "modified": "2026-08-15T06:41:14.000Z",
+      "checksum": "fcf0284da505e0390d13d14353f6e3a6",
+      "folder": false
+    },
+    {
+      "id": "16-SQBuBSz2U55EZXj1Tumglp3Zpr-q1t",
+      "parent_id": "1pK0qDEK9HK6ECnCBJFTjcnOzO6aPTwwB",
+      "name": "TRU TIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 10163894,
+      "modified": "2026-08-15T06:41:09.000Z",
+      "checksum": "86c51670d09b5432f3e8ab04480c5dcf",
+      "folder": false
+    }
+  ]
+}

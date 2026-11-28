@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "109t-Pnu14tNm6JtIp-eFJ6ysNQXZskYI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1H3dSMcrl3czIcsS0doWFZJxhw3tw4eF3",
+      "parent_id": "109t-Pnu14tNm6JtIp-eFJ6ysNQXZskYI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9747,
+      "modified": "2026-08-16T04:23:33.000Z",
+      "checksum": "ed71a9db4ba4357c72d05ecb8e6e9135",
+      "folder": false
+    },
+    {
+      "id": "10s_ZDIm0fFxJXlCLk0bnpw_l1375l6rR",
+      "parent_id": "109t-Pnu14tNm6JtIp-eFJ6ysNQXZskYI",
+      "name": "THUỞ MƠ LÀM VĂN SĨ.epub",
+      "mime": "application/epub+zip",
+      "size": 400709,
+      "modified": "2026-08-16T04:23:42.000Z",
+      "checksum": "1c9fbf6771792882f22ea1b570398371",
+      "folder": false
+    },
+    {
+      "id": "1JFf0YzmX584uhJlh8X0TzJTnnheVPHXs",
+      "parent_id": "109t-Pnu14tNm6JtIp-eFJ6ysNQXZskYI",
+      "name": "THUỞ MƠ LÀM VĂN SĨ.pdf",
+      "mime": "application/pdf",
+      "size": 846167,
+      "modified": "2026-08-16T04:23:39.000Z",
+      "checksum": "d983b26ee522ccc997cd3fd1ecad8427",
+      "folder": false
+    }
+  ]
+}

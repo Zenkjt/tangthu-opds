@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KC7T2ihIONkz8odRpn0hLeK7bthC3iHK",
+  "page": 1,
+  "items": [
+    {
+      "id": "10fl0U1iDzhwWLPpbSsK9T2v94BM3mJiR",
+      "parent_id": "1KC7T2ihIONkz8odRpn0hLeK7bthC3iHK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1002,
+      "modified": "2026-08-15T10:55:34.000Z",
+      "checksum": "60bf8fac4104329294362e5849f8d649",
+      "folder": false
+    },
+    {
+      "id": "1AHHL5U5eOP0Z3d_-QaXc-IsZw2Ys8vYo",
+      "parent_id": "1KC7T2ihIONkz8odRpn0hLeK7bthC3iHK",
+      "name": "KHI TÌNH YÊU ĐẾN LẦN NỮA.epub",
+      "mime": "application/epub+zip",
+      "size": 785325,
+      "modified": "2026-08-15T10:55:44.000Z",
+      "checksum": "b2318f5aa51b58fd81e81dcc037358dd",
+      "folder": false
+    },
+    {
+      "id": "1ky8WiJ1-Kn40_pCNdivKRr4_59NYErEC",
+      "parent_id": "1KC7T2ihIONkz8odRpn0hLeK7bthC3iHK",
+      "name": "KHI TÌNH YÊU ĐẾN LẦN NỮA.pdf",
+      "mime": "application/pdf",
+      "size": 1952658,
+      "modified": "2026-08-15T10:55:40.000Z",
+      "checksum": "3839f2bde6fd8e730adf1141289e243f",
+      "folder": false
+    }
+  ]
+}

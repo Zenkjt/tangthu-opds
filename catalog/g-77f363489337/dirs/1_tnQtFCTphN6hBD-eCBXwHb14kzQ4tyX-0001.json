@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_tnQtFCTphN6hBD-eCBXwHb14kzQ4tyX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cPA1tPG-Gv8XN7nbGy-N4Q1Se3awe-zL",
+      "parent_id": "1_tnQtFCTphN6hBD-eCBXwHb14kzQ4tyX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3717,
+      "modified": "2026-08-16T03:14:25.000Z",
+      "checksum": "384719d4d563830d34364dcee7c746b9",
+      "folder": false
+    },
+    {
+      "id": "1yYqrkJVKSsJuSVo3AeUv9LYGrHdmR2Qd",
+      "parent_id": "1_tnQtFCTphN6hBD-eCBXwHb14kzQ4tyX",
+      "name": "PHÍA ĐÔNG VƯỜN ĐỊA ĐÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1075659,
+      "modified": "2026-08-16T03:14:32.000Z",
+      "checksum": "d5051e15e4bbbbc94a9638aef86becc4",
+      "folder": false
+    },
+    {
+      "id": "1D6TiZpTGkox7RYvdGmFyk3A14b6iHlgF",
+      "parent_id": "1_tnQtFCTphN6hBD-eCBXwHb14kzQ4tyX",
+      "name": "PHÍA ĐÔNG VƯỜN ĐỊA ĐÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 944833,
+      "modified": "2026-08-16T03:14:29.000Z",
+      "checksum": "21d76a3ac24d725a24192a493e908823",
+      "folder": false
+    }
+  ]
+}

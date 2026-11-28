@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1u6kOtuxhBsK0zVM74VMrYFv-2wB91AuK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1O4XS26dcm47_epYiuDNxCsitRMXMJ5n4",
+      "parent_id": "1u6kOtuxhBsK0zVM74VMrYFv-2wB91AuK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8674,
+      "modified": "2026-08-15T03:24:57.000Z",
+      "checksum": "ca24b0bff390e0f3aa82a92e4a0bbacd",
+      "folder": false
+    },
+    {
+      "id": "1GS5uznrP6jl3FLuFbMkJjFKEQAuuTfZ-",
+      "parent_id": "1u6kOtuxhBsK0zVM74VMrYFv-2wB91AuK",
+      "name": "ĐỨNG DẬY MẠNH MẼ.epub",
+      "mime": "application/epub+zip",
+      "size": 400077,
+      "modified": "2026-08-15T03:25:05.000Z",
+      "checksum": "6d543bc2d4e5c67e0c37254fe2058204",
+      "folder": false
+    },
+    {
+      "id": "1WUsETtADuPwIIqL7lQuf6_D_wMPxtyan",
+      "parent_id": "1u6kOtuxhBsK0zVM74VMrYFv-2wB91AuK",
+      "name": "ĐỨNG DẬY MẠNH MẼ.pdf",
+      "mime": "application/pdf",
+      "size": 764369,
+      "modified": "2026-08-15T03:25:03.000Z",
+      "checksum": "81fc38b571956941f862e343291958d6",
+      "folder": false
+    }
+  ]
+}

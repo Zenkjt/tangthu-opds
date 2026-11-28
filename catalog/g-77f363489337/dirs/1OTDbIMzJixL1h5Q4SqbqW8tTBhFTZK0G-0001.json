@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OTDbIMzJixL1h5Q4SqbqW8tTBhFTZK0G",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Daja7pfEdMrandJ3rzLZvyAY7FpgoRwh",
+      "parent_id": "1OTDbIMzJixL1h5Q4SqbqW8tTBhFTZK0G",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 840,
+      "modified": "2026-08-16T03:01:41.000Z",
+      "checksum": "eba926cc7dee17c115124ec405d142c6",
+      "folder": false
+    },
+    {
+      "id": "1-eJ-TPpSOyXFikbpA0Qc7Q7Ent3pFozx",
+      "parent_id": "1OTDbIMzJixL1h5Q4SqbqW8tTBhFTZK0G",
+      "name": "NỮ CHÚA.epub",
+      "mime": "application/epub+zip",
+      "size": 320758,
+      "modified": "2026-08-16T03:01:47.000Z",
+      "checksum": "6b6f7db684e61659c2431ead99eb3caf",
+      "folder": false
+    },
+    {
+      "id": "1NccWaA4ABAuJScG2AC302Grba4T_Ei_7",
+      "parent_id": "1OTDbIMzJixL1h5Q4SqbqW8tTBhFTZK0G",
+      "name": "NỮ CHÚA.pdf",
+      "mime": "application/pdf",
+      "size": 124090,
+      "modified": "2026-08-16T03:01:44.000Z",
+      "checksum": "e4b8d3f13c7445630de26185023c2a37",
+      "folder": false
+    }
+  ]
+}

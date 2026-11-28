@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11LitttPTnlhdnTYlT6bxzdcIotMnpOaV",
+  "page": 1,
+  "items": [
+    {
+      "id": "182u-gcdeAaYFh9X7KPIe1VkO--C0OTaN",
+      "parent_id": "11LitttPTnlhdnTYlT6bxzdcIotMnpOaV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3501,
+      "modified": "2026-08-15T00:46:48.000Z",
+      "checksum": "c9102daeef9ef86cf1a30d81dfcf8ea3",
+      "folder": false
+    },
+    {
+      "id": "1w5mib_dvlcD8Ci_kCcDb2YAuuHV2937m",
+      "parent_id": "11LitttPTnlhdnTYlT6bxzdcIotMnpOaV",
+      "name": "SỨC MẠNH CỦA TĨNH TÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 1587424,
+      "modified": "2026-08-15T00:46:56.000Z",
+      "checksum": "0ee6f06020b0a603a2d6a412f6b437a8",
+      "folder": false
+    },
+    {
+      "id": "1cowxwF-8ki6Hiyh3rKyGB5bqIFXGdHz8",
+      "parent_id": "11LitttPTnlhdnTYlT6bxzdcIotMnpOaV",
+      "name": "SỨC MẠNH CỦA TĨNH TÂM.pdf",
+      "mime": "application/pdf",
+      "size": 2027994,
+      "modified": "2026-08-15T00:46:52.000Z",
+      "checksum": "7b878e914fcc2eb46d6cca948baaf30e",
+      "folder": false
+    }
+  ]
+}

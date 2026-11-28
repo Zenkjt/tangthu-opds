@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZLWWrlbA5dlmWYht1OCeIDHpIcacQgj6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cfq1i_605EqSoHTx1qg5f7ETJs8MQtro",
+      "parent_id": "1ZLWWrlbA5dlmWYht1OCeIDHpIcacQgj6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1467,
+      "modified": "2026-08-15T05:43:47.000Z",
+      "checksum": "41864b2c4c82f4af004b841cffd13063",
+      "folder": false
+    },
+    {
+      "id": "1pP_S-XkPh2n_0tmqLQD-get6lV61RMyU",
+      "parent_id": "1ZLWWrlbA5dlmWYht1OCeIDHpIcacQgj6",
+      "name": "TINH HOA XỬ THẾ PHƯƠNG ĐÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 561943,
+      "modified": "2026-08-15T05:44:04.000Z",
+      "checksum": "763988ffbe4094efe69a273132e771d5",
+      "folder": false
+    },
+    {
+      "id": "1TPN9U6c3-xb09Df6M702ANtyQ0x6piCK",
+      "parent_id": "1ZLWWrlbA5dlmWYht1OCeIDHpIcacQgj6",
+      "name": "TINH HOA XỬ THẾ PHƯƠNG ĐÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 1190870,
+      "modified": "2026-08-15T05:43:59.000Z",
+      "checksum": "6887e7dbcb55534d277de117aa7a63ab",
+      "folder": false
+    }
+  ]
+}

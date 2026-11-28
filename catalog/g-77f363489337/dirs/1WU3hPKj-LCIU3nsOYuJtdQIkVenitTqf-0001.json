@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WU3hPKj-LCIU3nsOYuJtdQIkVenitTqf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1z5bTSSl4GwkM4Wii_NrIrP0EwHWLe-0u",
+      "parent_id": "1WU3hPKj-LCIU3nsOYuJtdQIkVenitTqf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4540,
+      "modified": "2026-08-15T07:11:07.000Z",
+      "checksum": "1c0a884e29ae5676572653f9b9e2fd8d",
+      "folder": false
+    },
+    {
+      "id": "1V5lRPF_Lfvja4mhLo862lQArOuVBGCWm",
+      "parent_id": "1WU3hPKj-LCIU3nsOYuJtdQIkVenitTqf",
+      "name": "MẬT MÃ CHAMPA.epub",
+      "mime": "application/epub+zip",
+      "size": 1022637,
+      "modified": "2026-08-15T07:12:42.000Z",
+      "checksum": "917b49d2ef893f6009a5e98bdbac94bb",
+      "folder": false
+    },
+    {
+      "id": "1cF1mk8eJ5u4l832FUwW2Mco9CUmML_BR",
+      "parent_id": "1WU3hPKj-LCIU3nsOYuJtdQIkVenitTqf",
+      "name": "MẬT MÃ CHAMPA.pdf",
+      "mime": "application/pdf",
+      "size": 1972104,
+      "modified": "2026-08-15T07:12:31.000Z",
+      "checksum": "7fa257458f7464a9924a1cca164c1656",
+      "folder": false
+    }
+  ]
+}

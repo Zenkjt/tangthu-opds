@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14TMECGlZapVWukMliXeEyRXmg9Kq0kjt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hDSFHinOGI5ppF1vKVRXJqyYu6ZbVfGd",
+      "parent_id": "14TMECGlZapVWukMliXeEyRXmg9Kq0kjt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 599,
+      "modified": "2026-08-15T10:59:26.000Z",
+      "checksum": "68a8015b0eee5c613115527f35b43f5c",
+      "folder": false
+    },
+    {
+      "id": "1Px0hsr5Z0MAgMbALrQcYB8UxYg1uj5Hb",
+      "parent_id": "14TMECGlZapVWukMliXeEyRXmg9Kq0kjt",
+      "name": "ĐIỂN HAY TÍCH LẠ.epub",
+      "mime": "application/epub+zip",
+      "size": 707463,
+      "modified": "2026-08-15T10:59:34.000Z",
+      "checksum": "12e1c2803b45b50f022e908402e70d3f",
+      "folder": false
+    },
+    {
+      "id": "1rMRy00wl6vERTvh3PAktejYvsiqISDva",
+      "parent_id": "14TMECGlZapVWukMliXeEyRXmg9Kq0kjt",
+      "name": "ĐIỂN HAY TÍCH LẠ.pdf",
+      "mime": "application/pdf",
+      "size": 1509505,
+      "modified": "2026-08-15T10:59:31.000Z",
+      "checksum": "e5823077bb5a069a578ee3d788d300ce",
+      "folder": false
+    }
+  ]
+}

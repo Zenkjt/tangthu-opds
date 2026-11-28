@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19R8K46djP2unJR70VFmb_LZ3aJaYw5Hd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kosXg1Z3Wz9UJJYFt4DVRIhQ3Jr7iK66",
+      "parent_id": "19R8K46djP2unJR70VFmb_LZ3aJaYw5Hd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3047,
+      "modified": "2026-08-15T10:11:04.000Z",
+      "checksum": "314a511fa3792bef030aa83c8e3ff504",
+      "folder": false
+    },
+    {
+      "id": "14rcGwT9xb27ndJJKhNIh41JHwn38tMGU",
+      "parent_id": "19R8K46djP2unJR70VFmb_LZ3aJaYw5Hd",
+      "name": "TIÊN ĐẠO CẦU TÁC.epub",
+      "mime": "application/epub+zip",
+      "size": 1344027,
+      "modified": "2026-08-15T10:11:19.000Z",
+      "checksum": "8707b8a49d2b18a5b9fec827a45ce74f",
+      "folder": false
+    },
+    {
+      "id": "1AtGwUCKpxSVpVDT87nqdi2BpuhO2Ward",
+      "parent_id": "19R8K46djP2unJR70VFmb_LZ3aJaYw5Hd",
+      "name": "TIÊN ĐẠO CẦU TÁC.pdf",
+      "mime": "application/pdf",
+      "size": 4947900,
+      "modified": "2026-08-15T10:11:16.000Z",
+      "checksum": "d07f88a8d82fd680d5fb78ab52bd24a4",
+      "folder": false
+    }
+  ]
+}

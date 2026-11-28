@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UPGJKClUdsxkglu72uzqiGCr3pCyXSzz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IrXxyqaDga3l3dLukPzmJr8dTLLVlKeg",
+      "parent_id": "1UPGJKClUdsxkglu72uzqiGCr3pCyXSzz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1319,
+      "modified": "2026-08-15T09:43:45.000Z",
+      "checksum": "bece3e12b4bf4820937a0cabf1e446d4",
+      "folder": false
+    },
+    {
+      "id": "1DJwN9TuUsQlhEOLjy7kes9gUbvAufcPd",
+      "parent_id": "1UPGJKClUdsxkglu72uzqiGCr3pCyXSzz",
+      "name": "LÍNH BẮN TỈA MỸ.epub",
+      "mime": "application/epub+zip",
+      "size": 560754,
+      "modified": "2026-08-15T09:43:53.000Z",
+      "checksum": "34206aebcc7a360b5d16aa8f8ee0d38d",
+      "folder": false
+    },
+    {
+      "id": "1YzFsvVV8Dyr7lhaRcbY5FqCm7D1rJmn-",
+      "parent_id": "1UPGJKClUdsxkglu72uzqiGCr3pCyXSzz",
+      "name": "LÍNH BẮN TỈA MỸ.pdf",
+      "mime": "application/pdf",
+      "size": 1518170,
+      "modified": "2026-08-15T09:43:50.000Z",
+      "checksum": "49a0230a8ffa0f932169fd7b6ec6a947",
+      "folder": false
+    }
+  ]
+}

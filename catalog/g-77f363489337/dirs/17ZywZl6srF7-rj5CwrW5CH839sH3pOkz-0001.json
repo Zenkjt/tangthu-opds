@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17ZywZl6srF7-rj5CwrW5CH839sH3pOkz",
+  "page": 1,
+  "items": [
+    {
+      "id": "11VD88vEHFnB4EelzXiIvolmzon2-SJro",
+      "parent_id": "17ZywZl6srF7-rj5CwrW5CH839sH3pOkz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3522,
+      "modified": "2026-08-15T15:07:05.000Z",
+      "checksum": "693f31ee0435ec66ada940d7ca0faaea",
+      "folder": false
+    },
+    {
+      "id": "1nm8ZVIE3l6n-wxs5mnzmI-5AeualYqK6",
+      "parent_id": "17ZywZl6srF7-rj5CwrW5CH839sH3pOkz",
+      "name": "VỊNH NHẬT THỰC.epub",
+      "mime": "application/epub+zip",
+      "size": 693571,
+      "modified": "2026-08-15T15:07:27.000Z",
+      "checksum": "5c3c0b0bd5b7eea5ebcac60355409580",
+      "folder": false
+    },
+    {
+      "id": "1VLppokvS0N868mGR6cy4bxjgyD3zUG_g",
+      "parent_id": "17ZywZl6srF7-rj5CwrW5CH839sH3pOkz",
+      "name": "VỊNH NHẬT THỰC.pdf",
+      "mime": "application/pdf",
+      "size": 1680459,
+      "modified": "2026-08-15T15:07:24.000Z",
+      "checksum": "ca10df4fac6db1857755b8eb12c160a0",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1p3O8_BrD_GZDloLKcllzNkwA_S9sm6OB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TsKg00SlQ8n9PHinSh9UA2emSPBcasRR",
+      "parent_id": "1p3O8_BrD_GZDloLKcllzNkwA_S9sm6OB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2528,
+      "modified": "2026-08-15T03:56:34.000Z",
+      "checksum": "c5dd17cacca7bd32ae94447d02f48398",
+      "folder": false
+    },
+    {
+      "id": "15Y9b7uN5Fipl8w5pV86xj01Y2MjuTz8V",
+      "parent_id": "1p3O8_BrD_GZDloLKcllzNkwA_S9sm6OB",
+      "name": "ĐỊNH LUẬT TIẾN HOÁ.epub",
+      "mime": "application/epub+zip",
+      "size": 355122,
+      "modified": "2026-08-15T03:56:39.000Z",
+      "checksum": "6e52574e50bb4b9d4b5f5b65fe828a3a",
+      "folder": false
+    },
+    {
+      "id": "1MtmTta3TbDe-0MuMYLfto2L1Txy1rhZS",
+      "parent_id": "1p3O8_BrD_GZDloLKcllzNkwA_S9sm6OB",
+      "name": "ĐỊNH LUẬT TIẾN HOÁ.pdf",
+      "mime": "application/pdf",
+      "size": 241220,
+      "modified": "2026-08-15T03:56:37.000Z",
+      "checksum": "2a34972c34eccea96b3b56663eea1759",
+      "folder": false
+    }
+  ]
+}

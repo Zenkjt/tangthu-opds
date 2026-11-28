@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JXzSzGc1_UhjES2K9eHgZcvV_BCvzczB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Hj-N8pOojDAcyLVd17NmN3WecnSuN3AL",
+      "parent_id": "1JXzSzGc1_UhjES2K9eHgZcvV_BCvzczB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2914,
+      "modified": "2026-08-15T10:09:37.000Z",
+      "checksum": "744d3ad5069cf1b37991d58fa2e552f0",
+      "folder": false
+    },
+    {
+      "id": "1lNApnOXQpZTeXJkzJgU7ujPxWWVfgbW2",
+      "parent_id": "1JXzSzGc1_UhjES2K9eHgZcvV_BCvzczB",
+      "name": "TIỂU THIẾU GIA VÀ MA THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 253104,
+      "modified": "2026-08-15T10:09:42.000Z",
+      "checksum": "ae06909f2e38773a06998b84105324f5",
+      "folder": false
+    },
+    {
+      "id": "1Jbgpibq8J-uzoEmCQmQ-SSov8QmGasLd",
+      "parent_id": "1JXzSzGc1_UhjES2K9eHgZcvV_BCvzczB",
+      "name": "TIỂU THIẾU GIA VÀ MA THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 263963,
+      "modified": "2026-08-15T10:09:40.000Z",
+      "checksum": "ed2aa0fa83c081cab09b8e4561476c99",
+      "folder": false
+    }
+  ]
+}

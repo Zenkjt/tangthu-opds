@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-ZT2iPPYhPsy2nghRx-wFsCvmBoXAFjm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IXJKHitY84OVH46cNQT3VLElPfLyDpt0",
+      "parent_id": "1-ZT2iPPYhPsy2nghRx-wFsCvmBoXAFjm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3516,
+      "modified": "2026-08-16T03:54:33.000Z",
+      "checksum": "90965e68880581c78dbba766ea284ea8",
+      "folder": false
+    },
+    {
+      "id": "1hYo02uofq5Iy718sHbOAHfwB9g7SD9Oo",
+      "parent_id": "1-ZT2iPPYhPsy2nghRx-wFsCvmBoXAFjm",
+      "name": "TÌNH CÕI CHÂN MÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 607621,
+      "modified": "2026-08-16T03:54:40.000Z",
+      "checksum": "a183300af57ba2fb218b848d0356c3a1",
+      "folder": false
+    },
+    {
+      "id": "1tLBl2K4-R23gmUkmaNnu0BuFb5CkPgOJ",
+      "parent_id": "1-ZT2iPPYhPsy2nghRx-wFsCvmBoXAFjm",
+      "name": "TÌNH CÕI CHÂN MÂY.pdf",
+      "mime": "application/pdf",
+      "size": 1112395,
+      "modified": "2026-08-16T03:54:38.000Z",
+      "checksum": "760ba59e813c36bf0033e3905bbf5f2f",
+      "folder": false
+    }
+  ]
+}

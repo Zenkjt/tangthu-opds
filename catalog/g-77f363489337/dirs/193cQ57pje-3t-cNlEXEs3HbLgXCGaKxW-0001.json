@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "193cQ57pje-3t-cNlEXEs3HbLgXCGaKxW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tIg4kzP_Ub0doMg5Cu959zRLW2B94GGV",
+      "parent_id": "193cQ57pje-3t-cNlEXEs3HbLgXCGaKxW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5775,
+      "modified": "2026-08-15T09:50:03.000Z",
+      "checksum": "9f56e6eefc4d3d911c2acc46d43109d5",
+      "folder": false
+    },
+    {
+      "id": "1Ic055YeVx3VChYOq8UCyVvyBa0_lw_KV",
+      "parent_id": "193cQ57pje-3t-cNlEXEs3HbLgXCGaKxW",
+      "name": "ELKA VÀ MEIR.epub",
+      "mime": "application/epub+zip",
+      "size": 375984,
+      "modified": "2026-08-15T09:50:08.000Z",
+      "checksum": "9a87dfc20c78720edba42742d5612840",
+      "folder": false
+    },
+    {
+      "id": "16Wyj36aWVJRmumjvppXlxx568RM_0LAW",
+      "parent_id": "193cQ57pje-3t-cNlEXEs3HbLgXCGaKxW",
+      "name": "ELKA VÀ MEIR.pdf",
+      "mime": "application/pdf",
+      "size": 159410,
+      "modified": "2026-08-15T09:50:06.000Z",
+      "checksum": "d7508bab5d82778aacff53f8238156d9",
+      "folder": false
+    }
+  ]
+}

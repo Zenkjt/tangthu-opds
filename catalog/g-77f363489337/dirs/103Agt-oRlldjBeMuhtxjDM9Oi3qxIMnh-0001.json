@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "103Agt-oRlldjBeMuhtxjDM9Oi3qxIMnh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aoPnmjuV3_gaudcBTyxciM6Pl1nYEzNu",
+      "parent_id": "103Agt-oRlldjBeMuhtxjDM9Oi3qxIMnh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6705,
+      "modified": "2026-08-15T05:42:57.000Z",
+      "checksum": "7823ad05e331f31e95a17b4bbcfcf04f",
+      "folder": false
+    },
+    {
+      "id": "1dMCYRclLt0Gd9PRucgMU9OfmhKF4pC97",
+      "parent_id": "103Agt-oRlldjBeMuhtxjDM9Oi3qxIMnh",
+      "name": "TRIẾT HỌC CỦA TỰ DO.epub",
+      "mime": "application/epub+zip",
+      "size": 763351,
+      "modified": "2026-08-15T05:43:05.000Z",
+      "checksum": "fd0d67081f61b9063388e17c7e74d66f",
+      "folder": false
+    },
+    {
+      "id": "1p19ZM-EnY-rlStEET1x6Hekm1QkZYWj8",
+      "parent_id": "103Agt-oRlldjBeMuhtxjDM9Oi3qxIMnh",
+      "name": "TRIẾT HỌC CỦA TỰ DO.pdf",
+      "mime": "application/pdf",
+      "size": 1424206,
+      "modified": "2026-08-15T05:43:02.000Z",
+      "checksum": "c8c18a4e12858d9fa7565074a62eff12",
+      "folder": false
+    }
+  ]
+}

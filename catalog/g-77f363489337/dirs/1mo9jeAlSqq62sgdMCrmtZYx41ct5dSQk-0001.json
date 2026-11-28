@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mo9jeAlSqq62sgdMCrmtZYx41ct5dSQk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WtyDRud9oo9wTTcdv2tSmqNX56uWpMk3",
+      "parent_id": "1mo9jeAlSqq62sgdMCrmtZYx41ct5dSQk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1033,
+      "modified": "2026-08-15T09:42:25.000Z",
+      "checksum": "b34f370d1d336a34565bdf69aa48e2b1",
+      "folder": false
+    },
+    {
+      "id": "1vuoUSMMYNCaQeS-RwJQzKlcmHsWYXeQZ",
+      "parent_id": "1mo9jeAlSqq62sgdMCrmtZYx41ct5dSQk",
+      "name": "LỤC TÍCH CHI THAM LANG.epub",
+      "mime": "application/epub+zip",
+      "size": 491970,
+      "modified": "2026-08-15T09:42:33.000Z",
+      "checksum": "48433ba56209b27dac2c7cb91c8ed6e9",
+      "folder": false
+    },
+    {
+      "id": "12k14FzfsdNLVeC7VgkXpLmyR6xXqNl4M",
+      "parent_id": "1mo9jeAlSqq62sgdMCrmtZYx41ct5dSQk",
+      "name": "LỤC TÍCH CHI THAM LANG.pdf",
+      "mime": "application/pdf",
+      "size": 1077438,
+      "modified": "2026-08-15T09:42:30.000Z",
+      "checksum": "a57a8cae1df1478eea0cb957c96515d4",
+      "folder": false
+    }
+  ]
+}

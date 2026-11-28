@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1S1yneofC4ywxLc4u53ki6X8cg5iUpZhu",
+  "page": 1,
+  "items": [
+    {
+      "id": "18hMR9FiZMVm4Rp5I7V4Ld1eE7GHRWKxf",
+      "parent_id": "1S1yneofC4ywxLc4u53ki6X8cg5iUpZhu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2657,
+      "modified": "2026-08-15T08:05:35.000Z",
+      "checksum": "62672ecfc97a10a128f34e9b48bbbeac",
+      "folder": false
+    },
+    {
+      "id": "1B2dK58xHdSwLvgTZuLmJm7i7B5BHxLPw",
+      "parent_id": "1S1yneofC4ywxLc4u53ki6X8cg5iUpZhu",
+      "name": "ĐỘC SỦNG THÁNH TÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 1470924,
+      "modified": "2026-08-15T08:05:48.000Z",
+      "checksum": "879ed6382fe2f4b151c2ede755365a2c",
+      "folder": false
+    },
+    {
+      "id": "1vzcCfDbJmeaiIMuvEOCIIvWksNqCIbcP",
+      "parent_id": "1S1yneofC4ywxLc4u53ki6X8cg5iUpZhu",
+      "name": "ĐỘC SỦNG THÁNH TÂM.pdf",
+      "mime": "application/pdf",
+      "size": 6169802,
+      "modified": "2026-08-15T08:05:45.000Z",
+      "checksum": "29ce6939e534466cf6326b8a4ca2b8e7",
+      "folder": false
+    }
+  ]
+}

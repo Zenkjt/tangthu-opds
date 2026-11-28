@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lklyzwaQEerVu1k8IaYJxSBYldDiH2H7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1q2u_hSSf4M9d4trcGjuJF7am6h2YCdgp",
+      "parent_id": "1lklyzwaQEerVu1k8IaYJxSBYldDiH2H7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 871,
+      "modified": "2026-08-15T03:46:32.000Z",
+      "checksum": "9e7ec3d931d811797e23f6f75190d399",
+      "folder": false
+    },
+    {
+      "id": "1mLKc2qvermtfuvyT1_t-IQKnq2xD8rfJ",
+      "parent_id": "1lklyzwaQEerVu1k8IaYJxSBYldDiH2H7",
+      "name": "PHẬT MẪU - DIÊU TRÌ KIM MẪU.epub",
+      "mime": "application/epub+zip",
+      "size": 1289601,
+      "modified": "2026-08-15T03:46:38.000Z",
+      "checksum": "4f7094ea4c7e407567b6f100d8a703f5",
+      "folder": false
+    },
+    {
+      "id": "1iNVBAXaPV3UEza5Cj9I6OkJvZiehNdSE",
+      "parent_id": "1lklyzwaQEerVu1k8IaYJxSBYldDiH2H7",
+      "name": "PHẬT MẪU - DIÊU TRÌ KIM MẪU.pdf",
+      "mime": "application/pdf",
+      "size": 1424369,
+      "modified": "2026-08-15T03:46:36.000Z",
+      "checksum": "63d72e83fb9a3c232660b4b120cac6fe",
+      "folder": false
+    }
+  ]
+}

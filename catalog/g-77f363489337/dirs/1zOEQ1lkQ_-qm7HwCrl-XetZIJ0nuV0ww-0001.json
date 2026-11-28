@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zOEQ1lkQ_-qm7HwCrl-XetZIJ0nuV0ww",
+  "page": 1,
+  "items": [
+    {
+      "id": "1edrnBLz1BsDoQF6PWptxBP-3Etdp2lNg",
+      "parent_id": "1zOEQ1lkQ_-qm7HwCrl-XetZIJ0nuV0ww",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 510,
+      "modified": "2026-08-15T10:57:06.000Z",
+      "checksum": "1495336f756f1401c0d32a1b0bd9536b",
+      "folder": false
+    },
+    {
+      "id": "1hoCdRS4yowvCUaApsC4f4gvScpnLSdGf",
+      "parent_id": "1zOEQ1lkQ_-qm7HwCrl-XetZIJ0nuV0ww",
+      "name": "GÚT THỦY TRIỀU.epub",
+      "mime": "application/epub+zip",
+      "size": 425791,
+      "modified": "2026-08-15T10:57:11.000Z",
+      "checksum": "18b30b25250690ed456be8faa06696a8",
+      "folder": false
+    },
+    {
+      "id": "1D-GthdeZ9wTmUwaVwUQl1Q_xpMqLMRbA",
+      "parent_id": "1zOEQ1lkQ_-qm7HwCrl-XetZIJ0nuV0ww",
+      "name": "GÚT THỦY TRIỀU.pdf",
+      "mime": "application/pdf",
+      "size": 337156,
+      "modified": "2026-08-15T10:57:09.000Z",
+      "checksum": "990e7b8538befa03c0e892690623c2e0",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GFKhHli9uHX0Rt4k8oHXIyswsIpPEved",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ui3kFuHcsPzZImmD0rxDLS5aJ_1AcgMo",
+      "parent_id": "1GFKhHli9uHX0Rt4k8oHXIyswsIpPEved",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3032,
+      "modified": "2026-08-15T15:11:06.000Z",
+      "checksum": "35f158e871d17863360f6e279fe3b611",
+      "folder": false
+    },
+    {
+      "id": "1JlzTjXNZWN_dX6QQQ0hRyfYzbx9dLdtt",
+      "parent_id": "1GFKhHli9uHX0Rt4k8oHXIyswsIpPEved",
+      "name": "TUẦN THÚ ĐẠI MINH.epub",
+      "mime": "application/epub+zip",
+      "size": 1430607,
+      "modified": "2026-08-15T15:11:24.000Z",
+      "checksum": "570ebdbab5b364b9ed78b634021542cd",
+      "folder": false
+    },
+    {
+      "id": "13aJujhbIf3kQWX7WCsvBBJlJAg99GEnB",
+      "parent_id": "1GFKhHli9uHX0Rt4k8oHXIyswsIpPEved",
+      "name": "TUẦN THÚ ĐẠI MINH.pdf",
+      "mime": "application/pdf",
+      "size": 5496116,
+      "modified": "2026-08-15T15:11:21.000Z",
+      "checksum": "6e23d5a7babf7aefa588e5d35d0afab2",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OZnosy7xAr4mR32-1mm0EcXQPnCjl98q",
+  "page": 1,
+  "items": [
+    {
+      "id": "18yLI-gqWfgittbi980jtJczQD04v9uuk",
+      "parent_id": "1OZnosy7xAr4mR32-1mm0EcXQPnCjl98q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3130,
+      "modified": "2026-08-15T15:53:45.000Z",
+      "checksum": "a5faabad01f6d0db34d0e4be1013fa46",
+      "folder": false
+    },
+    {
+      "id": "1FH18yJAJbkukkD27T3GL08-jx5zz1NJz",
+      "parent_id": "1OZnosy7xAr4mR32-1mm0EcXQPnCjl98q",
+      "name": "THỨ NỮ SỦNG PHI.epub",
+      "mime": "application/epub+zip",
+      "size": 784081,
+      "modified": "2026-08-15T15:54:41.000Z",
+      "checksum": "c10dbd25778fa88b7afeea2ab9416620",
+      "folder": false
+    },
+    {
+      "id": "1nDAFfVwsQ_TovdpntyTpY6Hpxkn_mEHR",
+      "parent_id": "1OZnosy7xAr4mR32-1mm0EcXQPnCjl98q",
+      "name": "THỨ NỮ SỦNG PHI.pdf",
+      "mime": "application/pdf",
+      "size": 1834669,
+      "modified": "2026-08-15T15:54:28.000Z",
+      "checksum": "678ae4d464281acc3aeec587eca55017",
+      "folder": false
+    }
+  ]
+}

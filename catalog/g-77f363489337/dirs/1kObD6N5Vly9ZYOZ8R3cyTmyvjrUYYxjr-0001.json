@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kObD6N5Vly9ZYOZ8R3cyTmyvjrUYYxjr",
+  "page": 1,
+  "items": [
+    {
+      "id": "199_xMRqwieD3AQ0BXD8GgISP8pbINb4w",
+      "parent_id": "1kObD6N5Vly9ZYOZ8R3cyTmyvjrUYYxjr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1200,
+      "modified": "2026-08-16T03:16:03.000Z",
+      "checksum": "1023529a66eee32684662f958c46e6ae",
+      "folder": false
+    },
+    {
+      "id": "1QehmMKqcRrEbaVkER5rSwj09TksmVbT9",
+      "parent_id": "1kObD6N5Vly9ZYOZ8R3cyTmyvjrUYYxjr",
+      "name": "JULIA YÊU DẤU.epub",
+      "mime": "application/epub+zip",
+      "size": 605849,
+      "modified": "2026-08-16T03:16:11.000Z",
+      "checksum": "5102b1c4cb2771a8ec273eb5f2dd0417",
+      "folder": false
+    },
+    {
+      "id": "1KEQnhbGnP42NSj7HoSD3B00ZuvVO4atb",
+      "parent_id": "1kObD6N5Vly9ZYOZ8R3cyTmyvjrUYYxjr",
+      "name": "JULIA YÊU DẤU.pdf",
+      "mime": "application/pdf",
+      "size": 1773137,
+      "modified": "2026-08-16T03:16:08.000Z",
+      "checksum": "f2576df88bd2404011afc27bcf38c27f",
+      "folder": false
+    }
+  ]
+}

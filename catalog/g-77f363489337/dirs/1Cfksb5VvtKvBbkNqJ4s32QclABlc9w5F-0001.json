@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Cfksb5VvtKvBbkNqJ4s32QclABlc9w5F",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SafxgPDbnKjvrlAeosq-S2T9Ggqe0bzX",
+      "parent_id": "1Cfksb5VvtKvBbkNqJ4s32QclABlc9w5F",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3158,
+      "modified": "2026-08-15T10:16:28.000Z",
+      "checksum": "c3385892856d8a9877a4b9938077a60e",
+      "folder": false
+    },
+    {
+      "id": "1V5K-15YhC9MXVV3cgMosDaq7zLvhmrpQ",
+      "parent_id": "1Cfksb5VvtKvBbkNqJ4s32QclABlc9w5F",
+      "name": "THANH PHONG TU TIÊN LỤC.epub",
+      "mime": "application/epub+zip",
+      "size": 3622734,
+      "modified": "2026-08-15T10:16:44.000Z",
+      "checksum": "f23b4054866213a175105eb361b2914b",
+      "folder": false
+    },
+    {
+      "id": "1MatHxVvfZsE9optTSaaeRkFhAAop7hpR",
+      "parent_id": "1Cfksb5VvtKvBbkNqJ4s32QclABlc9w5F",
+      "name": "THANH PHONG TU TIÊN LỤC.pdf",
+      "mime": "application/pdf",
+      "size": 2439754,
+      "modified": "2026-08-15T10:16:35.000Z",
+      "checksum": "0a6915cdae049154a60f17326b7fbb50",
+      "folder": false
+    }
+  ]
+}

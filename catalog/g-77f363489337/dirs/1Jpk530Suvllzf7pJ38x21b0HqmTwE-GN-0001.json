@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Jpk530Suvllzf7pJ38x21b0HqmTwE-GN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Hxs4xQeCyvndeWE0CcCBjefFts7FwLsT",
+      "parent_id": "1Jpk530Suvllzf7pJ38x21b0HqmTwE-GN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1390,
+      "modified": "2026-08-15T00:54:48.000Z",
+      "checksum": "5143ffca2447ebd9b930f2ae03f3ca13",
+      "folder": false
+    },
+    {
+      "id": "1KxzQAu7cfUIpslNbsCIWCAJdjul0_LoE",
+      "parent_id": "1Jpk530Suvllzf7pJ38x21b0HqmTwE-GN",
+      "name": "YOU CAN - KHÔNG GÌ LÀ KHÔNG THỂ.epub",
+      "mime": "application/epub+zip",
+      "size": 316790,
+      "modified": "2026-08-15T00:54:54.000Z",
+      "checksum": "577842e6ef508ed5d261c96964056984",
+      "folder": false
+    },
+    {
+      "id": "1BhnwXduzephNPZ33LkrpAxyDizhq1tEO",
+      "parent_id": "1Jpk530Suvllzf7pJ38x21b0HqmTwE-GN",
+      "name": "YOU CAN - KHÔNG GÌ LÀ KHÔNG THỂ.pdf",
+      "mime": "application/pdf",
+      "size": 531160,
+      "modified": "2026-08-15T00:54:52.000Z",
+      "checksum": "f03e2d4c4ce65f45203feeef122c899a",
+      "folder": false
+    }
+  ]
+}

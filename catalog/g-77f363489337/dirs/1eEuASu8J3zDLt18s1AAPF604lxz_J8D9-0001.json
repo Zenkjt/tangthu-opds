@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eEuASu8J3zDLt18s1AAPF604lxz_J8D9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tfqFxXDzJ8ozqyLJaitKP0hrpdZo7Ewj",
+      "parent_id": "1eEuASu8J3zDLt18s1AAPF604lxz_J8D9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 407,
+      "modified": "2026-08-15T13:00:44.000Z",
+      "checksum": "873149000ddb1519cc4efadefff33dc9",
+      "folder": false
+    },
+    {
+      "id": "1g2OWVbUKmA6PEgEFnU537N2_mTaAVPZ6",
+      "parent_id": "1eEuASu8J3zDLt18s1AAPF604lxz_J8D9",
+      "name": "MOWGLI - NGƯỜI SÓI.epub",
+      "mime": "application/epub+zip",
+      "size": 611542,
+      "modified": "2026-08-15T13:02:42.000Z",
+      "checksum": "621068367e0b0d5a6d58233ba73c1da8",
+      "folder": false
+    },
+    {
+      "id": "1k5RiINfQZHY5nXCEyLO69xr-wdfaWKyK",
+      "parent_id": "1eEuASu8J3zDLt18s1AAPF604lxz_J8D9",
+      "name": "MOWGLI - NGƯỜI SÓI.pdf",
+      "mime": "application/pdf",
+      "size": 775725,
+      "modified": "2026-08-15T13:02:40.000Z",
+      "checksum": "2ee03c58e275fcb943e6500baab63f94",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NlCFIJA87nKBryGvrZsweND_hmc9DaVe",
+  "page": 1,
+  "items": [
+    {
+      "id": "149nVMewEPWfpc5-8cQEhfjlmtcpUcZv6",
+      "parent_id": "1NlCFIJA87nKBryGvrZsweND_hmc9DaVe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3973,
+      "modified": "2026-08-15T08:20:43.000Z",
+      "checksum": "af257cb60ec3dc65f982d35ec3b50c96",
+      "folder": false
+    },
+    {
+      "id": "17ZuochDUKHX9zdrEa15oxPkTms0-csFP",
+      "parent_id": "1NlCFIJA87nKBryGvrZsweND_hmc9DaVe",
+      "name": "NẾU EM KHÔNG PHẢI MỘT GIẤC MƠ.epub",
+      "mime": "application/epub+zip",
+      "size": 498967,
+      "modified": "2026-08-15T08:20:53.000Z",
+      "checksum": "1fb18c7336d7d6eb11c35eb77e8e00ba",
+      "folder": false
+    },
+    {
+      "id": "1uYA_KfZXcPwrbqNhCC4alS5hVp_pXlFO",
+      "parent_id": "1NlCFIJA87nKBryGvrZsweND_hmc9DaVe",
+      "name": "NẾU EM KHÔNG PHẢI MỘT GIẤC MƠ.pdf",
+      "mime": "application/pdf",
+      "size": 857964,
+      "modified": "2026-08-15T08:20:49.000Z",
+      "checksum": "d506e3a0097790c3819a972a27c7e61a",
+      "folder": false
+    }
+  ]
+}

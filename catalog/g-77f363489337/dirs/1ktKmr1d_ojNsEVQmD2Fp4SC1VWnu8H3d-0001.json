@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ktKmr1d_ojNsEVQmD2Fp4SC1VWnu8H3d",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MMIRbd4LN-Ho6A1TQRXrzl57dECV1D2C",
+      "parent_id": "1ktKmr1d_ojNsEVQmD2Fp4SC1VWnu8H3d",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1798,
+      "modified": "2026-08-15T09:33:06.000Z",
+      "checksum": "c911239af89f52bdfd07b8e47d4dc254",
+      "folder": false
+    },
+    {
+      "id": "1gYMZxA0SMFgkWugMcS-egDFs28NkmbzW",
+      "parent_id": "1ktKmr1d_ojNsEVQmD2Fp4SC1VWnu8H3d",
+      "name": "LÂU ĐÀI NGƯỜI BÁN NÓN.epub",
+      "mime": "application/epub+zip",
+      "size": 1437621,
+      "modified": "2026-08-15T09:33:15.000Z",
+      "checksum": "4e83de7d7c398492350056820b310ddc",
+      "folder": false
+    },
+    {
+      "id": "1_gcv6Odz5Vjm1BdVRJjJ8icTpPY-EuxJ",
+      "parent_id": "1ktKmr1d_ojNsEVQmD2Fp4SC1VWnu8H3d",
+      "name": "LÂU ĐÀI NGƯỜI BÁN NÓN.pdf",
+      "mime": "application/pdf",
+      "size": 1769158,
+      "modified": "2026-08-15T09:33:11.000Z",
+      "checksum": "6fea86756a9ef19d919861e88bba8411",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ckSL-gzvxCWRMK1tDgORQ5CgQszJRy9E",
+  "page": 1,
+  "items": [
+    {
+      "id": "1o98t772RCVJMj2ONvqJuL__lZEAy12fu",
+      "parent_id": "1ckSL-gzvxCWRMK1tDgORQ5CgQszJRy9E",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 17424,
+      "modified": "2026-08-15T00:47:18.000Z",
+      "checksum": "b6d52b8cbd244220cd3e22c94c0e80c3",
+      "folder": false
+    },
+    {
+      "id": "1MphGwOJwaF7ZnA4VNU3XbQHQL0KkjCcZ",
+      "parent_id": "1ckSL-gzvxCWRMK1tDgORQ5CgQszJRy9E",
+      "name": "TỪ TỐT ĐẾN VĨ ĐẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 976371,
+      "modified": "2026-08-15T00:47:25.000Z",
+      "checksum": "0643472c7c453d46fcca030c182e3e6b",
+      "folder": false
+    },
+    {
+      "id": "14GaMvumgDokpm63CRk4K9N8by1qdVJcm",
+      "parent_id": "1ckSL-gzvxCWRMK1tDgORQ5CgQszJRy9E",
+      "name": "TỪ TỐT ĐẾN VĨ ĐẠI.pdf",
+      "mime": "application/pdf",
+      "size": 1699122,
+      "modified": "2026-08-15T00:47:23.000Z",
+      "checksum": "2726bd9de1e44d6972d30af10b294fee",
+      "folder": false
+    }
+  ]
+}

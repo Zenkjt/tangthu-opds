@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fIpIytzgT-DHtwJZ7van-o36XOVOjr8S",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YcJpvbmMjbXVlXRcGtzUT8oAuSEMIMKV",
+      "parent_id": "1fIpIytzgT-DHtwJZ7van-o36XOVOjr8S",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7938,
+      "modified": "2026-08-15T07:34:37.000Z",
+      "checksum": "2e8952ababca0ae3363d07c539d3f1a0",
+      "folder": false
+    },
+    {
+      "id": "1QrzW20Cfq347-6qAoQ91z_b6u3TqUMEi",
+      "parent_id": "1fIpIytzgT-DHtwJZ7van-o36XOVOjr8S",
+      "name": "NGƯỜI LÍNH ĐƠN ĐỘC.epub",
+      "mime": "application/epub+zip",
+      "size": 400593,
+      "modified": "2026-08-15T07:34:43.000Z",
+      "checksum": "69ae2d8342b921a13c47d345f31c18ec",
+      "folder": false
+    },
+    {
+      "id": "1-6LGc-R-wZmqNqsb1WhO2sGckNFHijWn",
+      "parent_id": "1fIpIytzgT-DHtwJZ7van-o36XOVOjr8S",
+      "name": "NGƯỜI LÍNH ĐƠN ĐỘC.pdf",
+      "mime": "application/pdf",
+      "size": 455282,
+      "modified": "2026-08-15T07:34:40.000Z",
+      "checksum": "614066db4f19e75232440a0022d7b148",
+      "folder": false
+    }
+  ]
+}

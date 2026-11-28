@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1X7EXgOyeidDQ6ZxFK2AqeKs2OtY8-7Xd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iAlayUdcwVv-SFUYHLT76TEk0TZN94Al",
+      "parent_id": "1X7EXgOyeidDQ6ZxFK2AqeKs2OtY8-7Xd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3218,
+      "modified": "2026-08-15T03:36:21.000Z",
+      "checksum": "ba4064d5bc665c121c540fe6eb781bda",
+      "folder": false
+    },
+    {
+      "id": "1aL_BMwpZFnYSsmqQOAeE5iuER_QwGXmW",
+      "parent_id": "1X7EXgOyeidDQ6ZxFK2AqeKs2OtY8-7Xd",
+      "name": "ẢO HÓA.epub",
+      "mime": "application/epub+zip",
+      "size": 226207,
+      "modified": "2026-08-15T03:36:28.000Z",
+      "checksum": "4df03962d987a1553932ec9d8c848ea8",
+      "folder": false
+    },
+    {
+      "id": "1W8T3oqp97OWOtIEhDQo3f99Pu-n_s6lj",
+      "parent_id": "1X7EXgOyeidDQ6ZxFK2AqeKs2OtY8-7Xd",
+      "name": "ẢO HÓA.pdf",
+      "mime": "application/pdf",
+      "size": 150943,
+      "modified": "2026-08-15T03:36:25.000Z",
+      "checksum": "703ede1ea4a95b13c32eeac2debc6471",
+      "folder": false
+    }
+  ]
+}

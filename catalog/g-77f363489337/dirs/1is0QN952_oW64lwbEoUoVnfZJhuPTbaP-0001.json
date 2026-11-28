@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1is0QN952_oW64lwbEoUoVnfZJhuPTbaP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sljBh2rwV5vk-bq43Y1gln033pqb6w7y",
+      "parent_id": "1is0QN952_oW64lwbEoUoVnfZJhuPTbaP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4925,
+      "modified": "2026-08-15T07:37:09.000Z",
+      "checksum": "e346c077974e5098ecbd59b8ee133a2e",
+      "folder": false
+    },
+    {
+      "id": "1kRtaBFtNbWsJuOY8SqTR3fpWV4AZ46QO",
+      "parent_id": "1is0QN952_oW64lwbEoUoVnfZJhuPTbaP",
+      "name": "SONG HOA ĐIẾM ĐỒNG NHÂN - SƯƠNG HOA DẠ NGÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 1756335,
+      "modified": "2026-08-15T07:37:17.000Z",
+      "checksum": "cdafa22b7332f208bb3c0d7ba42a971d",
+      "folder": false
+    },
+    {
+      "id": "1W1VTNRxsK6EVJw0wRTiyXTB9ab8VB2o4",
+      "parent_id": "1is0QN952_oW64lwbEoUoVnfZJhuPTbaP",
+      "name": "SONG HOA ĐIẾM ĐỒNG NHÂN - SƯƠNG HOA DẠ NGÂM.pdf",
+      "mime": "application/pdf",
+      "size": 1502720,
+      "modified": "2026-08-15T07:37:13.000Z",
+      "checksum": "f95f842b3fe4dc3a1fddcf95d023a58e",
+      "folder": false
+    }
+  ]
+}

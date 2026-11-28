@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WUCDxgOLPU_fDiS9TbhAdtIgrqJL5-3R",
+  "page": 1,
+  "items": [
+    {
+      "id": "1R5UaU7_U02L5NunOnJNkzyHcYEuzJ6Kx",
+      "parent_id": "1WUCDxgOLPU_fDiS9TbhAdtIgrqJL5-3R",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 694,
+      "modified": "2026-08-16T04:19:25.000Z",
+      "checksum": "078a66f97fab0841a78d961e1a9e8d4c",
+      "folder": false
+    },
+    {
+      "id": "1qYTbfdV7S38TGz73bzXjqRIqjswW2MiN",
+      "parent_id": "1WUCDxgOLPU_fDiS9TbhAdtIgrqJL5-3R",
+      "name": "HỎI ÁNG MÂY CHIỀU.epub",
+      "mime": "application/epub+zip",
+      "size": 431588,
+      "modified": "2026-08-16T04:19:32.000Z",
+      "checksum": "002d3d776ff557fcd37f1763e170810c",
+      "folder": false
+    },
+    {
+      "id": "1VSAyJ_INkFINEW6mu5SO8CmCRn7O_0NE",
+      "parent_id": "1WUCDxgOLPU_fDiS9TbhAdtIgrqJL5-3R",
+      "name": "HỎI ÁNG MÂY CHIỀU.pdf",
+      "mime": "application/pdf",
+      "size": 643732,
+      "modified": "2026-08-16T04:19:29.000Z",
+      "checksum": "7f412cd0d10b69b4a96e9e54e3a79c97",
+      "folder": false
+    }
+  ]
+}

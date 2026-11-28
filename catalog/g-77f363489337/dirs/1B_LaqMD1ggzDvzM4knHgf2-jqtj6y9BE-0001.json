@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1B_LaqMD1ggzDvzM4knHgf2-jqtj6y9BE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fxTVDVJoZ1YkFzug3qB1Ff9xauNaQnci",
+      "parent_id": "1B_LaqMD1ggzDvzM4knHgf2-jqtj6y9BE",
+      "name": "CON CHÓ VÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 340662,
+      "modified": "2026-08-16T03:24:03.000Z",
+      "checksum": "7ceeb1aafbf4335d845a2a442dea92ac",
+      "folder": false
+    },
+    {
+      "id": "1EsQqBu5vgUwa0ZKGP0NAswfSpoHSLqL-",
+      "parent_id": "1B_LaqMD1ggzDvzM4knHgf2-jqtj6y9BE",
+      "name": "CON CHÓ VÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 603482,
+      "modified": "2026-08-16T03:24:01.000Z",
+      "checksum": "12fd0e530f11994c07d30f1fa4beb7a7",
+      "folder": false
+    },
+    {
+      "id": "1MTfLgG7iAuTclLD0SlcZ-pzUZvvtoZEd",
+      "parent_id": "1B_LaqMD1ggzDvzM4knHgf2-jqtj6y9BE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9593,
+      "modified": "2026-08-16T03:23:57.000Z",
+      "checksum": "ac17c96192e30616b1421df74145d69c",
+      "folder": false
+    }
+  ]
+}

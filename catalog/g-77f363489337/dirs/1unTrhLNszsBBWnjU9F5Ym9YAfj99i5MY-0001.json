@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1unTrhLNszsBBWnjU9F5Ym9YAfj99i5MY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YcxDKSgntHI5iArU7fw4hG1hX-PlogGz",
+      "parent_id": "1unTrhLNszsBBWnjU9F5Ym9YAfj99i5MY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2337,
+      "modified": "2026-08-15T09:53:07.000Z",
+      "checksum": "f3862059712415f3d059a754d4776825",
+      "folder": false
+    },
+    {
+      "id": "1hz6jaxlPrfGTDV6MXqmEZKzJiO8ubAkC",
+      "parent_id": "1unTrhLNszsBBWnjU9F5Ym9YAfj99i5MY",
+      "name": "ĐẠI QUY GIÁP SƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 1305077,
+      "modified": "2026-08-15T09:53:22.000Z",
+      "checksum": "418a82f626ee97beba437a8728102bd8",
+      "folder": false
+    },
+    {
+      "id": "1xJ6C9vBBFXEqMnoROrr7QY4qGSsZjlMv",
+      "parent_id": "1unTrhLNszsBBWnjU9F5Ym9YAfj99i5MY",
+      "name": "ĐẠI QUY GIÁP SƯ.pdf",
+      "mime": "application/pdf",
+      "size": 4699217,
+      "modified": "2026-08-15T09:53:17.000Z",
+      "checksum": "e1ac2308d366ebb06caecaa5486c055d",
+      "folder": false
+    }
+  ]
+}

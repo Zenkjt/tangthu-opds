@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15P3-y1PyTmWhrCEC__kea6heNUnyEPiH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rzvcjK8lRRPiZf6ChEtf4WKYcsKY7kWr",
+      "parent_id": "15P3-y1PyTmWhrCEC__kea6heNUnyEPiH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3158,
+      "modified": "2026-08-15T10:30:46.000Z",
+      "checksum": "09f56abe3dca0c54b7bdca5342abe8a9",
+      "folder": false
+    },
+    {
+      "id": "1zKFHMOc8KLsSvp0TE3b0MVErowz7mIds",
+      "parent_id": "15P3-y1PyTmWhrCEC__kea6heNUnyEPiH",
+      "name": "QUỶ DỮ VÀ NÀNG PRYM.epub",
+      "mime": "application/epub+zip",
+      "size": 420637,
+      "modified": "2026-08-15T10:30:52.000Z",
+      "checksum": "8e72ee7085209740d3e17a2e9ef492a9",
+      "folder": false
+    },
+    {
+      "id": "1O-WfWUtH7GM006A0OtReKaccteWHn1hL",
+      "parent_id": "15P3-y1PyTmWhrCEC__kea6heNUnyEPiH",
+      "name": "QUỶ DỮ VÀ NÀNG PRYM.pdf",
+      "mime": "application/pdf",
+      "size": 702435,
+      "modified": "2026-08-15T10:30:50.000Z",
+      "checksum": "f6072cdf1c405eb2f4b41b4b8819599c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PX1ItPehzWic3XeCWdDPBZT3GFlNBiHX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xzeQasT3VLHxwOdoHdOL8zsSpqtOz-ha",
+      "parent_id": "1PX1ItPehzWic3XeCWdDPBZT3GFlNBiHX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3856,
+      "modified": "2026-08-15T04:02:34.000Z",
+      "checksum": "3ef99d7ec710c51700e15ca94ceb8ec1",
+      "folder": false
+    },
+    {
+      "id": "1OKoj8ovOT_Dv-xjYpRAKFOkKxfSCbMOJ",
+      "parent_id": "1PX1ItPehzWic3XeCWdDPBZT3GFlNBiHX",
+      "name": "TRUNG DUNG TÂN KHẢO.epub",
+      "mime": "application/epub+zip",
+      "size": 2280431,
+      "modified": "2026-08-15T04:02:47.000Z",
+      "checksum": "6b1bf5cbb0b2fc87f2f697065d57eb9f",
+      "folder": false
+    },
+    {
+      "id": "1iUPCojJqmg1suK9o9DOKmsoem0D08F5Y",
+      "parent_id": "1PX1ItPehzWic3XeCWdDPBZT3GFlNBiHX",
+      "name": "TRUNG DUNG TÂN KHẢO.pdf",
+      "mime": "application/pdf",
+      "size": 6238817,
+      "modified": "2026-08-15T04:02:44.000Z",
+      "checksum": "b22cdb2448c2cfbd9e1832427fd943ab",
+      "folder": false
+    }
+  ]
+}

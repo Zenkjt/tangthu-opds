@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pbOL28OpOHN5aAYYFkU4_7A-FdVg_aJM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XsJP9v1jj89GCzjkrD4xl2QqZ8Od63gD",
+      "parent_id": "1pbOL28OpOHN5aAYYFkU4_7A-FdVg_aJM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2771,
+      "modified": "2026-08-15T09:22:00.000Z",
+      "checksum": "0e9a11a57f8a3bfc3fd2f49a5743e0f5",
+      "folder": false
+    },
+    {
+      "id": "1DRacHHp09ab-vlXs785nT0dYph44e261",
+      "parent_id": "1pbOL28OpOHN5aAYYFkU4_7A-FdVg_aJM",
+      "name": "KINH THIÊN KỲ ÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 753570,
+      "modified": "2026-08-15T09:22:18.000Z",
+      "checksum": "277bc73fb1816dc7cce9d18666a6de2e",
+      "folder": false
+    },
+    {
+      "id": "1CcVq_E_xY9ZnYNw9lpbXfhf0hCwzBNyQ",
+      "parent_id": "1pbOL28OpOHN5aAYYFkU4_7A-FdVg_aJM",
+      "name": "KINH THIÊN KỲ ÁN.pdf",
+      "mime": "application/pdf",
+      "size": 2129508,
+      "modified": "2026-08-15T09:22:07.000Z",
+      "checksum": "488d27a1b230d68f8c2558eb1cd645c4",
+      "folder": false
+    }
+  ]
+}

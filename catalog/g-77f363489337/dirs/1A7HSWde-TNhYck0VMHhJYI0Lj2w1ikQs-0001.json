@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1A7HSWde-TNhYck0VMHhJYI0Lj2w1ikQs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BnF7WWrY0JUx4-v_xozJ1_6EmMbckUFc",
+      "parent_id": "1A7HSWde-TNhYck0VMHhJYI0Lj2w1ikQs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4106,
+      "modified": "2026-08-16T03:16:07.000Z",
+      "checksum": "cfade0d62501f9e6e8a18c6ed92f38d9",
+      "folder": false
+    },
+    {
+      "id": "1yhUju6fFJUuuIFEFbE8HzkreVt1s9yd0",
+      "parent_id": "1A7HSWde-TNhYck0VMHhJYI0Lj2w1ikQs",
+      "name": "KẺ TRỘM MỘ.epub",
+      "mime": "application/epub+zip",
+      "size": 715328,
+      "modified": "2026-08-16T03:16:15.000Z",
+      "checksum": "700029640d330586e9b97cc98dd3e145",
+      "folder": false
+    },
+    {
+      "id": "1Tymbhe3UzKG74idIbfWnHUlE9lw3XCuD",
+      "parent_id": "1A7HSWde-TNhYck0VMHhJYI0Lj2w1ikQs",
+      "name": "KẺ TRỘM MỘ.pdf",
+      "mime": "application/pdf",
+      "size": 1592425,
+      "modified": "2026-08-16T03:16:13.000Z",
+      "checksum": "6a97caa1e853955ab1e8a0eef94c8995",
+      "folder": false
+    }
+  ]
+}

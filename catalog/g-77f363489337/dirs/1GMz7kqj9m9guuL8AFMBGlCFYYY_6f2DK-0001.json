@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GMz7kqj9m9guuL8AFMBGlCFYYY_6f2DK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1p0TRNjA_yXhCuC9KpVUyhXnbk1Inh8Mb",
+      "parent_id": "1GMz7kqj9m9guuL8AFMBGlCFYYY_6f2DK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 466,
+      "modified": "2026-08-15T10:55:21.000Z",
+      "checksum": "13dd6ae85212ecf247857be57d9600b0",
+      "folder": false
+    },
+    {
+      "id": "1ktP44ZLX465ZxIaiA7OqMgoC08jc1vEO",
+      "parent_id": "1GMz7kqj9m9guuL8AFMBGlCFYYY_6f2DK",
+      "name": "KHÔNG CHIẾN ZERO RỰC LỬA.epub",
+      "mime": "application/epub+zip",
+      "size": 521799,
+      "modified": "2026-08-15T10:55:33.000Z",
+      "checksum": "d077d4f6383ac6f6809491d54a476c7b",
+      "folder": false
+    },
+    {
+      "id": "1LiBCyYU_2XX37EjXHtN-kbDtcp1G6Ncn",
+      "parent_id": "1GMz7kqj9m9guuL8AFMBGlCFYYY_6f2DK",
+      "name": "KHÔNG CHIẾN ZERO RỰC LỬA.pdf",
+      "mime": "application/pdf",
+      "size": 1303397,
+      "modified": "2026-08-15T10:55:29.000Z",
+      "checksum": "9cf62396937ca00b6c9b622569889adb",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jvU579yBe0h2GGW3thS_WgWDbSJDEoNE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1doyNB87vzQvXRIY_OeUgLR3Kh05GSAvF",
+      "parent_id": "1jvU579yBe0h2GGW3thS_WgWDbSJDEoNE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6903,
+      "modified": "2026-08-15T07:35:37.000Z",
+      "checksum": "f16081a099f52bf64364b22f15f28d53",
+      "folder": false
+    },
+    {
+      "id": "1XajubIqOiB1e7A9cLi6sEiliuUISGkVj",
+      "parent_id": "1jvU579yBe0h2GGW3thS_WgWDbSJDEoNE",
+      "name": "NGÔI NHÀ VUI VẺ.epub",
+      "mime": "application/epub+zip",
+      "size": 749849,
+      "modified": "2026-08-15T07:35:44.000Z",
+      "checksum": "da08ace78c092b58c593017fea775bc1",
+      "folder": false
+    },
+    {
+      "id": "1IEooeql5e6B9yliQGHohiHLPO1A7I7pZ",
+      "parent_id": "1jvU579yBe0h2GGW3thS_WgWDbSJDEoNE",
+      "name": "NGÔI NHÀ VUI VẺ.pdf",
+      "mime": "application/pdf",
+      "size": 2654138,
+      "modified": "2026-08-15T07:35:42.000Z",
+      "checksum": "74043c58c4a4f9792efab631289027fc",
+      "folder": false
+    }
+  ]
+}

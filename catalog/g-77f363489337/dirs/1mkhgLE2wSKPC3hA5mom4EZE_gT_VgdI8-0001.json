@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mkhgLE2wSKPC3hA5mom4EZE_gT_VgdI8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fEQEV2fEsKaEw-f6oBWupsOp0rW9auTA",
+      "parent_id": "1mkhgLE2wSKPC3hA5mom4EZE_gT_VgdI8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3938,
+      "modified": "2026-08-15T03:56:43.000Z",
+      "checksum": "a0ff5ad295da67b43809075e0bf1c3a4",
+      "folder": false
+    },
+    {
+      "id": "1rYlwvevYghA1Thwy2F2OHwYLcK4U2W1T",
+      "parent_id": "1mkhgLE2wSKPC3hA5mom4EZE_gT_VgdI8",
+      "name": "QUAN NIỆM TAM TÀI VỚI CON NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 614844,
+      "modified": "2026-08-15T03:56:49.000Z",
+      "checksum": "137f0197c1e26dbe918333f766da19a9",
+      "folder": false
+    },
+    {
+      "id": "13h1gjexq-83sgPqptkXBgk5oI5MsIBk2",
+      "parent_id": "1mkhgLE2wSKPC3hA5mom4EZE_gT_VgdI8",
+      "name": "QUAN NIỆM TAM TÀI VỚI CON NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 556390,
+      "modified": "2026-08-15T03:56:46.000Z",
+      "checksum": "e53aab17a6040a0f6f474bfc8d4325cd",
+      "folder": false
+    }
+  ]
+}

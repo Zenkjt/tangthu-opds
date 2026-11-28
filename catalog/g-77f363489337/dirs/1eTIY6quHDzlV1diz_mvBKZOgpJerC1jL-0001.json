@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eTIY6quHDzlV1diz_mvBKZOgpJerC1jL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OUQLlUa5mDr3HTbbXh0F3dsJ6jebkRgf",
+      "parent_id": "1eTIY6quHDzlV1diz_mvBKZOgpJerC1jL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 766,
+      "modified": "2026-08-15T09:50:27.000Z",
+      "checksum": "4dc803cbdd4c78fd0c32417f85738cbf",
+      "folder": false
+    },
+    {
+      "id": "1M5D4KUkJR_-3PSd1zl5onDk6xSzpPXUT",
+      "parent_id": "1eTIY6quHDzlV1diz_mvBKZOgpJerC1jL",
+      "name": "DU THÁI HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 635844,
+      "modified": "2026-08-15T09:50:36.000Z",
+      "checksum": "5ff62c70dda26883a78fc32bf36a5025",
+      "folder": false
+    },
+    {
+      "id": "1i9G5zi-wLPcUZE2Uo-FqsprmKnGqLIB9",
+      "parent_id": "1eTIY6quHDzlV1diz_mvBKZOgpJerC1jL",
+      "name": "DU THÁI HOA.pdf",
+      "mime": "application/pdf",
+      "size": 2007557,
+      "modified": "2026-08-15T09:50:33.000Z",
+      "checksum": "510d3e72b6f238094e675a5a00608476",
+      "folder": false
+    }
+  ]
+}

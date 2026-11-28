@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UfvX4vQQvmRMm9haIyKM0Ikr3Zn4AYEE",
+  "page": 1,
+  "items": [
+    {
+      "id": "162tai4tBXweXaWA_1i2VuJRiioiJYaa3",
+      "parent_id": "1UfvX4vQQvmRMm9haIyKM0Ikr3Zn4AYEE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5498,
+      "modified": "2026-08-15T08:15:07.000Z",
+      "checksum": "8e07b43b9dff113fd7285904463aea5a",
+      "folder": false
+    },
+    {
+      "id": "1z9McyKtC6VmFkhwOQBMs8S04plX3Tuu6",
+      "parent_id": "1UfvX4vQQvmRMm9haIyKM0Ikr3Zn4AYEE",
+      "name": "ĐÊM VÔ TẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 324747,
+      "modified": "2026-08-15T08:15:13.000Z",
+      "checksum": "616b2d36f4d1358b564202d0abb4d080",
+      "folder": false
+    },
+    {
+      "id": "1VvgAMUFnJUJvXEWnGWbWSPv6Ph_OiuEo",
+      "parent_id": "1UfvX4vQQvmRMm9haIyKM0Ikr3Zn4AYEE",
+      "name": "ĐÊM VÔ TẬN.pdf",
+      "mime": "application/pdf",
+      "size": 487847,
+      "modified": "2026-08-15T08:15:10.000Z",
+      "checksum": "f5a77cb29e416c2d80aa6422f9f68cdb",
+      "folder": false
+    }
+  ]
+}

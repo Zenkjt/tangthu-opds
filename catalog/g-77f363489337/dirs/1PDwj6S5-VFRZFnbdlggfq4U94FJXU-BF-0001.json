@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PDwj6S5-VFRZFnbdlggfq4U94FJXU-BF",
+  "page": 1,
+  "items": [
+    {
+      "id": "10jXP_fIiGCQn-WAhlYEfakSSqA21vFkT",
+      "parent_id": "1PDwj6S5-VFRZFnbdlggfq4U94FJXU-BF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2180,
+      "modified": "2026-08-16T03:18:18.000Z",
+      "checksum": "6ad03ee780c4213565893b924e6a52cb",
+      "folder": false
+    },
+    {
+      "id": "1vO05kyhVDZVCRLq86V8pAH3Ve-Dr5w8D",
+      "parent_id": "1PDwj6S5-VFRZFnbdlggfq4U94FJXU-BF",
+      "name": "HIEP SI KHONG HIEN HUU.epub",
+      "mime": "application/epub+zip",
+      "size": 366596,
+      "modified": "2026-08-16T03:18:24.000Z",
+      "checksum": "c1ce7e19309eceb9cec6101eaac35863",
+      "folder": false
+    },
+    {
+      "id": "1SJcANsKGuhQVlr192QmtL8h5XKaTt0yi",
+      "parent_id": "1PDwj6S5-VFRZFnbdlggfq4U94FJXU-BF",
+      "name": "HIEP SI KHONG HIEN HUU.pdf",
+      "mime": "application/pdf",
+      "size": 472209,
+      "modified": "2026-08-16T03:18:21.000Z",
+      "checksum": "95081f9b37e0c8d1c6b6fba7c571ea31",
+      "folder": false
+    }
+  ]
+}

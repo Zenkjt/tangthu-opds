@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WVcB31S9u160DJPUIRXs3_Zx7lb1AM9o",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qKuqSm9_JRcZeHrZNgvw4cAQoyYBF0wn",
+      "parent_id": "1WVcB31S9u160DJPUIRXs3_Zx7lb1AM9o",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6314,
+      "modified": "2026-08-16T03:07:58.000Z",
+      "checksum": "71b4c5a55bf2a82a3f6d02ac46a36355",
+      "folder": false
+    },
+    {
+      "id": "1Z4RXa-kNxBqh_zZ9vj3IiayqKuvfdxfF",
+      "parent_id": "1WVcB31S9u160DJPUIRXs3_Zx7lb1AM9o",
+      "name": "ĐỪNG LẤY DỐI TRÁ LÀM LẼ SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 610900,
+      "modified": "2026-08-16T03:08:05.000Z",
+      "checksum": "803daa9ce1e2251d5659f0f14fa117bd",
+      "folder": false
+    },
+    {
+      "id": "1UfRPjO70em5rhQWsbZERumLzftWERLeW",
+      "parent_id": "1WVcB31S9u160DJPUIRXs3_Zx7lb1AM9o",
+      "name": "ĐỪNG LẤY DỐI TRÁ LÀM LẼ SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 375380,
+      "modified": "2026-08-16T03:08:02.000Z",
+      "checksum": "9fa4d86e998359719ed13a675f2ca12b",
+      "folder": false
+    }
+  ]
+}

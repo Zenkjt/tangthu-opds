@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oxOo_c30RQC-B3RbcApfVpkUcnozZj9i",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uXO5njxPnFLDIZDJkp9CokAC07Htw7XK",
+      "parent_id": "1oxOo_c30RQC-B3RbcApfVpkUcnozZj9i",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 745,
+      "modified": "2026-08-15T15:20:53.000Z",
+      "checksum": "834b2ae974430c56ff9f51697aa67cee",
+      "folder": false
+    },
+    {
+      "id": "1BUl0UPD_Ts9Z1wiF_Qdo6ujEvIyn8ETO",
+      "parent_id": "1oxOo_c30RQC-B3RbcApfVpkUcnozZj9i",
+      "name": "SÁNG, TRƯA, ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 470424,
+      "modified": "2026-08-15T15:20:59.000Z",
+      "checksum": "ef15b197a2ba7b0cc69f737c706c6468",
+      "folder": false
+    },
+    {
+      "id": "1Bn229OpoPcryz9_521Mc6QjR_pj3sJeX",
+      "parent_id": "1oxOo_c30RQC-B3RbcApfVpkUcnozZj9i",
+      "name": "SÁNG, TRƯA, ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 1022832,
+      "modified": "2026-08-15T15:20:56.000Z",
+      "checksum": "17ce2f7b5d1f09f3f456ab6bc88a49d7",
+      "folder": false
+    }
+  ]
+}

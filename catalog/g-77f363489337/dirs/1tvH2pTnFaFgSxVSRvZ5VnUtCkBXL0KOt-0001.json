@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tvH2pTnFaFgSxVSRvZ5VnUtCkBXL0KOt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tZgOIcRsZYZ72T2AP0glnxfbuBb2RVBn",
+      "parent_id": "1tvH2pTnFaFgSxVSRvZ5VnUtCkBXL0KOt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5532,
+      "modified": "2026-08-15T04:00:08.000Z",
+      "checksum": "95f0a828f7de2f11daef55e3b27a7db8",
+      "folder": false
+    },
+    {
+      "id": "14Pj2WflxMYiw0Fy25aWcc3G1k_QRegSc",
+      "parent_id": "1tvH2pTnFaFgSxVSRvZ5VnUtCkBXL0KOt",
+      "name": "NHỮNG CÂU CHUYỆN KỲ THÚ TRONG KINH THÁNH.epub",
+      "mime": "application/epub+zip",
+      "size": 481828,
+      "modified": "2026-08-15T04:00:14.000Z",
+      "checksum": "e9fb1f17ccbc170ae9f9edd70768f214",
+      "folder": false
+    },
+    {
+      "id": "1uGLw81EAgDaeb08s1OYQUcRcBegzJGDh",
+      "parent_id": "1tvH2pTnFaFgSxVSRvZ5VnUtCkBXL0KOt",
+      "name": "NHỮNG CÂU CHUYỆN KỲ THÚ TRONG KINH THÁNH.pdf",
+      "mime": "application/pdf",
+      "size": 587363,
+      "modified": "2026-08-15T04:00:12.000Z",
+      "checksum": "61a1f601cc5b1c15f46dca83a1ee72cc",
+      "folder": false
+    }
+  ]
+}

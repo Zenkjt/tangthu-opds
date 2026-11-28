@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HSyRH2k8YI5K7x2E9xI25gyosd7I9uvL",
+  "page": 1,
+  "items": [
+    {
+      "id": "14n7t1PEakRxXJq7wxxd40A21ftBIxH7c",
+      "parent_id": "1HSyRH2k8YI5K7x2E9xI25gyosd7I9uvL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10756,
+      "modified": "2026-08-15T07:23:15.000Z",
+      "checksum": "37c92e5551621f078b17390bc259a999",
+      "folder": false
+    },
+    {
+      "id": "1VyhDpErnJVQLpCYkhv1fGQwOnpEkD-K2",
+      "parent_id": "1HSyRH2k8YI5K7x2E9xI25gyosd7I9uvL",
+      "name": "TRUYỆN NGẮN ALICE MUNRO.epub",
+      "mime": "application/epub+zip",
+      "size": 781073,
+      "modified": "2026-08-15T07:23:22.000Z",
+      "checksum": "81586490b2cbda8e5a903fa7634cb0a5",
+      "folder": false
+    },
+    {
+      "id": "1mF3NMNiAJkulp2NqgvjravVlb4fwhO87",
+      "parent_id": "1HSyRH2k8YI5K7x2E9xI25gyosd7I9uvL",
+      "name": "TRUYỆN NGẮN ALICE MUNRO.pdf",
+      "mime": "application/pdf",
+      "size": 1579911,
+      "modified": "2026-08-15T07:23:20.000Z",
+      "checksum": "29d087a3cb56fb2169e2780e4955e74d",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CHfjDrvEMP6_qElI_V5vXh4Vw4V8xukY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tTgK7yeqIB8rgSZZxtjPQ_ONn_3I4Bbc",
+      "parent_id": "1CHfjDrvEMP6_qElI_V5vXh4Vw4V8xukY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6097,
+      "modified": "2026-08-15T03:45:01.000Z",
+      "checksum": "04f3df0cd9f3bcf449072b70bafc62bb",
+      "folder": false
+    },
+    {
+      "id": "1KKzOvI_YW2RYhe98keffnwkJMjPgIcUk",
+      "parent_id": "1CHfjDrvEMP6_qElI_V5vXh4Vw4V8xukY",
+      "name": "SỔ TAY CỦA KRISHNAMURTI.epub",
+      "mime": "application/epub+zip",
+      "size": 545321,
+      "modified": "2026-08-15T03:45:09.000Z",
+      "checksum": "ce0a5a28e2ebde8d2ef816752ca126bc",
+      "folder": false
+    },
+    {
+      "id": "1tmiBSNdMOgx_fiRo6f6EAsOcP4buONNH",
+      "parent_id": "1CHfjDrvEMP6_qElI_V5vXh4Vw4V8xukY",
+      "name": "SỔ TAY CỦA KRISHNAMURTI.pdf",
+      "mime": "application/pdf",
+      "size": 1226652,
+      "modified": "2026-08-15T03:45:06.000Z",
+      "checksum": "0d34ecccc73b98acff2872f7f89199e6",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IVDUqZY2mQ1SNmWS32C82bv_dW6g0YEp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zYx8z7a75ApjzojUNVtdJmjgij-YXALh",
+      "parent_id": "1IVDUqZY2mQ1SNmWS32C82bv_dW6g0YEp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5902,
+      "modified": "2026-08-15T07:39:54.000Z",
+      "checksum": "71dddf02ca6c331aee16d51e1b9c86d2",
+      "folder": false
+    },
+    {
+      "id": "10ZJlB17aUqUPaxOgaAWx1dY2wtIaEdpN",
+      "parent_id": "1IVDUqZY2mQ1SNmWS32C82bv_dW6g0YEp",
+      "name": "NGAI VÀNG LỬA.epub",
+      "mime": "application/epub+zip",
+      "size": 727427,
+      "modified": "2026-08-15T07:40:01.000Z",
+      "checksum": "76e185a8975066ffc75adcd6b5aecb8c",
+      "folder": false
+    },
+    {
+      "id": "1ZxrQzzZDpN7V3shzN2zCepaIyBBq8u3t",
+      "parent_id": "1IVDUqZY2mQ1SNmWS32C82bv_dW6g0YEp",
+      "name": "NGAI VÀNG LỬA.pdf",
+      "mime": "application/pdf",
+      "size": 1587691,
+      "modified": "2026-08-15T07:39:59.000Z",
+      "checksum": "00c611f23b7e5cd2f9919f806ab3ad19",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1azoYVuU2NJn3tp0Racm8fLkCGqXOHEc5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JFYRWrE3ReeVCpNYGW8rP88OV1Xp5m9S",
+      "parent_id": "1azoYVuU2NJn3tp0Racm8fLkCGqXOHEc5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3216,
+      "modified": "2026-08-16T03:48:39.000Z",
+      "checksum": "13c9fb455dfb6520f14a0096063042dc",
+      "folder": false
+    },
+    {
+      "id": "1-Ux_mXfRcmwMQ3ymKFTR72oZnE816Ryh",
+      "parent_id": "1azoYVuU2NJn3tp0Racm8fLkCGqXOHEc5",
+      "name": "NHÀ BÁC HỌC MÙ.epub",
+      "mime": "application/epub+zip",
+      "size": 371001,
+      "modified": "2026-08-16T03:48:45.000Z",
+      "checksum": "41c25e11a1d44e0faa3fbd398f835f64",
+      "folder": false
+    },
+    {
+      "id": "10iQubhZLZGFBjd-LACQSAdWAn1fdTPvx",
+      "parent_id": "1azoYVuU2NJn3tp0Racm8fLkCGqXOHEc5",
+      "name": "NHÀ BÁC HỌC MÙ.pdf",
+      "mime": "application/pdf",
+      "size": 595089,
+      "modified": "2026-08-16T03:48:42.000Z",
+      "checksum": "bf07bac992aeaf19d6bfd2fe564ddacf",
+      "folder": false
+    }
+  ]
+}

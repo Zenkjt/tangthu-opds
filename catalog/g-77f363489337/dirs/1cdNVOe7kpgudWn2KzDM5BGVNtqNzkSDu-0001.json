@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cdNVOe7kpgudWn2KzDM5BGVNtqNzkSDu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1T4q7FZci1V1zmHpAKiEZT3op02eZqjyO",
+      "parent_id": "1cdNVOe7kpgudWn2KzDM5BGVNtqNzkSDu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4647,
+      "modified": "2026-08-15T13:11:43.000Z",
+      "checksum": "43e6d5b50fdd157b6fafa2a84124025a",
+      "folder": false
+    },
+    {
+      "id": "1RKEtRUExZdGqcDr4e68ilZIMyRz_OuA-",
+      "parent_id": "1cdNVOe7kpgudWn2KzDM5BGVNtqNzkSDu",
+      "name": "ĐỊA LÝ DƯƠNG TRẠCH.epub",
+      "mime": "application/epub+zip",
+      "size": 2429140,
+      "modified": "2026-08-15T13:11:51.000Z",
+      "checksum": "0ab7c69941e8803bcf952364ff3cd230",
+      "folder": false
+    },
+    {
+      "id": "1TguIume4L3dQrm5r1WoIOMXxS6Jr0icl",
+      "parent_id": "1cdNVOe7kpgudWn2KzDM5BGVNtqNzkSDu",
+      "name": "ĐỊA LÝ DƯƠNG TRẠCH.pdf",
+      "mime": "application/pdf",
+      "size": 2183322,
+      "modified": "2026-08-15T13:11:47.000Z",
+      "checksum": "989e5ab39f4e34eaec474a3cd60e9858",
+      "folder": false
+    }
+  ]
+}

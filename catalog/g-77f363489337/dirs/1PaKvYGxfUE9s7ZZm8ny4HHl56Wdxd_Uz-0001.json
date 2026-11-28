@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PaKvYGxfUE9s7ZZm8ny4HHl56Wdxd_Uz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rpmCG7Blq5XInIXz59QLCRM-rXzbavc-",
+      "parent_id": "1PaKvYGxfUE9s7ZZm8ny4HHl56Wdxd_Uz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2202,
+      "modified": "2026-08-15T11:32:05.000Z",
+      "checksum": "766a5ba6c3943f53134555094c047aa6",
+      "folder": false
+    },
+    {
+      "id": "1EtJSY8jW3oHMrQckzNetEaRknrro5VFv",
+      "parent_id": "1PaKvYGxfUE9s7ZZm8ny4HHl56Wdxd_Uz",
+      "name": "GIẢI THUẬT VÀ LẬP TRÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 3320169,
+      "modified": "2026-08-15T11:32:20.000Z",
+      "checksum": "81dda8a86b21a178118acb026819cdaa",
+      "folder": false
+    },
+    {
+      "id": "1nX3o6H0V69tq78E9MYkyRcaiCBtiYPu_",
+      "parent_id": "1PaKvYGxfUE9s7ZZm8ny4HHl56Wdxd_Uz",
+      "name": "GIẢI THUẬT VÀ LẬP TRÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 6369262,
+      "modified": "2026-08-15T11:32:11.000Z",
+      "checksum": "6e89791169a6e1c6542d227ba42fa4b8",
+      "folder": false
+    }
+  ]
+}

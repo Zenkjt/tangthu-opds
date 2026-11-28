@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fc5VPEgCFvamMDDKn9UM2cD3oGjZXY3l",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hkRJuiMcf6lJLRYU5RTvPueEonjTw4S_",
+      "parent_id": "1fc5VPEgCFvamMDDKn9UM2cD3oGjZXY3l",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3459,
+      "modified": "2026-08-15T10:25:29.000Z",
+      "checksum": "98ca5a38a1d0932eaa578805dc4d0225",
+      "folder": false
+    },
+    {
+      "id": "1k5iI1EOlELzpVgoKyeArc70BETJQqQ4z",
+      "parent_id": "1fc5VPEgCFvamMDDKn9UM2cD3oGjZXY3l",
+      "name": "SỰ CHỜ ĐỢI CỦA LƯƠNG THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 447017,
+      "modified": "2026-08-15T10:25:38.000Z",
+      "checksum": "02f525802a8b43e97c6d160de0657eec",
+      "folder": false
+    },
+    {
+      "id": "1tjaewjA6laNyWwUDEZ7rTxAEhTf1RmSh",
+      "parent_id": "1fc5VPEgCFvamMDDKn9UM2cD3oGjZXY3l",
+      "name": "SỰ CHỜ ĐỢI CỦA LƯƠNG THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 1083668,
+      "modified": "2026-08-15T10:25:34.000Z",
+      "checksum": "420cf0d487d848a0a9e4b1fd888a1f32",
+      "folder": false
+    }
+  ]
+}

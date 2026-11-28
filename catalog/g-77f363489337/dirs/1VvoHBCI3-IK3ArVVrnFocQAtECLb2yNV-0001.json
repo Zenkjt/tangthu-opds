@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VvoHBCI3-IK3ArVVrnFocQAtECLb2yNV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mixw9CDtjLQiGDhA_HN_NbZBvEpIu3p2",
+      "parent_id": "1VvoHBCI3-IK3ArVVrnFocQAtECLb2yNV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 447,
+      "modified": "2026-08-16T04:17:46.000Z",
+      "checksum": "27f1eaedd2e8bc194922c44e604e020a",
+      "folder": false
+    },
+    {
+      "id": "1GnPvMVlaYcuf6W0mR8dXUzo-9kCDHOn5",
+      "parent_id": "1VvoHBCI3-IK3ArVVrnFocQAtECLb2yNV",
+      "name": "MỘT MÙA THƠ DẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 447841,
+      "modified": "2026-08-16T04:17:53.000Z",
+      "checksum": "f5a05797733f93836ef5c483a6300158",
+      "folder": false
+    },
+    {
+      "id": "1oC1e0ZOcIHNpiJ3epyT2M8hTr0wmPgoX",
+      "parent_id": "1VvoHBCI3-IK3ArVVrnFocQAtECLb2yNV",
+      "name": "MỘT MÙA THƠ DẠI.pdf",
+      "mime": "application/pdf",
+      "size": 763324,
+      "modified": "2026-08-16T04:17:50.000Z",
+      "checksum": "7d3b42ddfef0ea062e31f8375aeb8b55",
+      "folder": false
+    }
+  ]
+}

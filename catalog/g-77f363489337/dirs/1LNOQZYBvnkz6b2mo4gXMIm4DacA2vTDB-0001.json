@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LNOQZYBvnkz6b2mo4gXMIm4DacA2vTDB",
+  "page": 1,
+  "items": [
+    {
+      "id": "10x-cxEf9Sm0nIc6BmRM-EuaQaF80L7aU",
+      "parent_id": "1LNOQZYBvnkz6b2mo4gXMIm4DacA2vTDB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3413,
+      "modified": "2026-08-16T03:33:59.000Z",
+      "checksum": "36dde3039213e5587653ea91cd13834c",
+      "folder": false
+    },
+    {
+      "id": "1I7wLq5D9IalK1o_shNi0Ya1a3uwJOx4H",
+      "parent_id": "1LNOQZYBvnkz6b2mo4gXMIm4DacA2vTDB",
+      "name": "ĐẸP VÀ BUỒN.epub",
+      "mime": "application/epub+zip",
+      "size": 538822,
+      "modified": "2026-08-16T03:34:05.000Z",
+      "checksum": "1257fbb2a63a47fcbaec30a4253ce7e8",
+      "folder": false
+    },
+    {
+      "id": "1__xnkSP8-wicCCf4lZ5OVt1jX1FRjCrh",
+      "parent_id": "1LNOQZYBvnkz6b2mo4gXMIm4DacA2vTDB",
+      "name": "ĐẸP VÀ BUỒN.pdf",
+      "mime": "application/pdf",
+      "size": 693117,
+      "modified": "2026-08-16T03:34:02.000Z",
+      "checksum": "6af3f4d92e6efc2ba45c0acacd5b31eb",
+      "folder": false
+    }
+  ]
+}

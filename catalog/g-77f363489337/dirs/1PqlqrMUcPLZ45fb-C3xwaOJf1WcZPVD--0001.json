@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PqlqrMUcPLZ45fb-C3xwaOJf1WcZPVD-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fZJP3dULFqViFABd1JV42o4z6XgdAF_t",
+      "parent_id": "1PqlqrMUcPLZ45fb-C3xwaOJf1WcZPVD-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 861,
+      "modified": "2026-08-15T10:56:30.000Z",
+      "checksum": "f1ab9ea198d541160b07904d93b6ab70",
+      "folder": false
+    },
+    {
+      "id": "17a90U6REFVPOJo4ye1rLgCa7QfkmhPOl",
+      "parent_id": "1PqlqrMUcPLZ45fb-C3xwaOJf1WcZPVD-",
+      "name": "HOA HỒNG SA MẠC.epub",
+      "mime": "application/epub+zip",
+      "size": 610515,
+      "modified": "2026-08-15T10:56:36.000Z",
+      "checksum": "ac8795337969661d7bc28427dd00b886",
+      "folder": false
+    },
+    {
+      "id": "13phQVTN7sRy01FA78wrUXZFwd7l7Qor9",
+      "parent_id": "1PqlqrMUcPLZ45fb-C3xwaOJf1WcZPVD-",
+      "name": "HOA HỒNG SA MẠC.pdf",
+      "mime": "application/pdf",
+      "size": 717005,
+      "modified": "2026-08-15T10:56:33.000Z",
+      "checksum": "badb41e97998af9ec7aa65d2886312be",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nV_T9hXZLSTHDJ73bmLOTu46DFdVfxk4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1n6RR1QikS2tEJiHXCMZHCNg9B3Jy--Dt",
+      "parent_id": "1nV_T9hXZLSTHDJ73bmLOTu46DFdVfxk4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 600,
+      "modified": "2026-08-15T13:03:18.000Z",
+      "checksum": "13e0e3027c6719d127ce75893e5d9378",
+      "folder": false
+    },
+    {
+      "id": "1g-xrelLM8NGvOjvR3yZcfOxWycZTrizK",
+      "parent_id": "1nV_T9hXZLSTHDJ73bmLOTu46DFdVfxk4",
+      "name": "DƯỚI TÁN LÁ RỪNG.epub",
+      "mime": "application/epub+zip",
+      "size": 488320,
+      "modified": "2026-08-15T13:03:24.000Z",
+      "checksum": "6f38e2b838f486dc2ab08cdfd060565d",
+      "folder": false
+    },
+    {
+      "id": "1RZU9UD3YFOsp1gN_KGdv_18Ke6bfPLVF",
+      "parent_id": "1nV_T9hXZLSTHDJ73bmLOTu46DFdVfxk4",
+      "name": "DƯỚI TÁN LÁ RỪNG.pdf",
+      "mime": "application/pdf",
+      "size": 478232,
+      "modified": "2026-08-15T13:03:22.000Z",
+      "checksum": "9fe72000e51b7be8d1f742637a97716e",
+      "folder": false
+    }
+  ]
+}

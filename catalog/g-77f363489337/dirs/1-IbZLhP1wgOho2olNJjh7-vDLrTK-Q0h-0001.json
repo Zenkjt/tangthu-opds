@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-IbZLhP1wgOho2olNJjh7-vDLrTK-Q0h",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LHzqc5kGk7Vpy-7r8hJYzvaDiwDUS-hy",
+      "parent_id": "1-IbZLhP1wgOho2olNJjh7-vDLrTK-Q0h",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 478,
+      "modified": "2026-08-16T03:52:58.000Z",
+      "checksum": "20217db697fcb49fee41cfcab318ebf2",
+      "folder": false
+    },
+    {
+      "id": "1WYx6p81qZm3T-hAXWeSlnqHQnETJVeGV",
+      "parent_id": "1-IbZLhP1wgOho2olNJjh7-vDLrTK-Q0h",
+      "name": "TÔI VÀ EM.epub",
+      "mime": "application/epub+zip",
+      "size": 310402,
+      "modified": "2026-08-16T03:53:03.000Z",
+      "checksum": "1da99295d1d5dbb402dfe941644b638e",
+      "folder": false
+    },
+    {
+      "id": "1NcOD_D2-bOR-FUnSJPXjaavml3UBNtRO",
+      "parent_id": "1-IbZLhP1wgOho2olNJjh7-vDLrTK-Q0h",
+      "name": "TÔI VÀ EM.pdf",
+      "mime": "application/pdf",
+      "size": 422335,
+      "modified": "2026-08-16T03:53:01.000Z",
+      "checksum": "d3852ef4ba247bf3a97e2c30ba5f0627",
+      "folder": false
+    }
+  ]
+}

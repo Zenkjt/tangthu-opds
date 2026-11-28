@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "155ZSKlabvF6F1-Jdu02QRLV8cJeXtsUr",
+  "page": 1,
+  "items": [
+    {
+      "id": "118VmtJEuYFx9qjZeacLemnU5H4gi_kMI",
+      "parent_id": "155ZSKlabvF6F1-Jdu02QRLV8cJeXtsUr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 13201,
+      "modified": "2026-08-15T07:55:22.000Z",
+      "checksum": "5e1e37a8a382c0cb85f62ad816bcbd91",
+      "folder": false
+    },
+    {
+      "id": "13b5Xh88IKSwa3txO5nXjXk16aSnFVPoY",
+      "parent_id": "155ZSKlabvF6F1-Jdu02QRLV8cJeXtsUr",
+      "name": "NGHIỆN NGỌT (NGỌT ẨN).epub",
+      "mime": "application/epub+zip",
+      "size": 506488,
+      "modified": "2026-08-15T07:55:29.000Z",
+      "checksum": "663017b0f7986100eefc43900fdb2dbd",
+      "folder": false
+    },
+    {
+      "id": "15BalikQ17U0uIjeuZGwVCcYfNCKkGSij",
+      "parent_id": "155ZSKlabvF6F1-Jdu02QRLV8cJeXtsUr",
+      "name": "NGHIỆN NGỌT (NGỌT ẨN).pdf",
+      "mime": "application/pdf",
+      "size": 1497886,
+      "modified": "2026-08-15T07:55:27.000Z",
+      "checksum": "60ae1827a6171dc9903172af72fd3465",
+      "folder": false
+    }
+  ]
+}

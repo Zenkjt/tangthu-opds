@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fp51IWj_iqtqP3AkLCftlOW6D83zOpnG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bT2VrBlp0rZ0B2ZlxBzes-W2UKlbrOoK",
+      "parent_id": "1fp51IWj_iqtqP3AkLCftlOW6D83zOpnG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2938,
+      "modified": "2026-08-16T03:42:53.000Z",
+      "checksum": "4098ce878dcd11cc78b687e6ae87eac3",
+      "folder": false
+    },
+    {
+      "id": "1uApYg5e6t9V_lAtjUH20IAGm8lCA1qJD",
+      "parent_id": "1fp51IWj_iqtqP3AkLCftlOW6D83zOpnG",
+      "name": "ĐUBRỐPXKI.epub",
+      "mime": "application/epub+zip",
+      "size": 264579,
+      "modified": "2026-08-16T03:42:59.000Z",
+      "checksum": "df123404a2d0dfac18bd1d7fb7b7ec53",
+      "folder": false
+    },
+    {
+      "id": "1BNfCeMQaXBlKIZ60JjJdKhtXuy-ClB85",
+      "parent_id": "1fp51IWj_iqtqP3AkLCftlOW6D83zOpnG",
+      "name": "ĐUBRỐPXKI.pdf",
+      "mime": "application/pdf",
+      "size": 391614,
+      "modified": "2026-08-16T03:42:57.000Z",
+      "checksum": "2caa9764cac82cbc7c2d1d10deac990c",
+      "folder": false
+    }
+  ]
+}

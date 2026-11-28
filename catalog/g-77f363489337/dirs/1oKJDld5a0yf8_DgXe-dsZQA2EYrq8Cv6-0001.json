@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oKJDld5a0yf8_DgXe-dsZQA2EYrq8Cv6",
+  "page": 1,
+  "items": [
+    {
+      "id": "13lKYck1F2QhGdAqKr5ma7Tvw2jZ6pxpr",
+      "parent_id": "1oKJDld5a0yf8_DgXe-dsZQA2EYrq8Cv6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 820,
+      "modified": "2026-08-15T10:26:32.000Z",
+      "checksum": "24e43607473943949a3cb7f123af92d9",
+      "folder": false
+    },
+    {
+      "id": "1kkwT9KpC4mnQCAG8NjuVcqxJQxHTkuZQ",
+      "parent_id": "1oKJDld5a0yf8_DgXe-dsZQA2EYrq8Cv6",
+      "name": "SỢI REN LỤA MÀU XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 671393,
+      "modified": "2026-08-15T10:26:41.000Z",
+      "checksum": "108a03348ea55db5f766aa59cbce94a7",
+      "folder": false
+    },
+    {
+      "id": "10k72Q4DA9DjVY-beSB5TVIrwhsFyCeZs",
+      "parent_id": "1oKJDld5a0yf8_DgXe-dsZQA2EYrq8Cv6",
+      "name": "SỢI REN LỤA MÀU XANH.pdf",
+      "mime": "application/pdf",
+      "size": 1471343,
+      "modified": "2026-08-15T10:26:39.000Z",
+      "checksum": "0654f335a38c8272a6bade9a7799220f",
+      "folder": false
+    }
+  ]
+}

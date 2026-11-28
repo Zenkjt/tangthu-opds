@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XYVF7CKwHZpeMuedhP0OQmj0-FkixEkU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1k_mQx9Qe0uG8DO2tkeT3X6vK8QEKKyp9",
+      "parent_id": "1XYVF7CKwHZpeMuedhP0OQmj0-FkixEkU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1048,
+      "modified": "2026-08-16T02:43:50.000Z",
+      "checksum": "072ca5e53c9de319bc23b9497319ce4d",
+      "folder": false
+    },
+    {
+      "id": "1mjXUc_YArtDgEiDpVjMTuj5an8moGguF",
+      "parent_id": "1XYVF7CKwHZpeMuedhP0OQmj0-FkixEkU",
+      "name": "TRUYỀN KỲ MẠN LỤC.epub",
+      "mime": "application/epub+zip",
+      "size": 527683,
+      "modified": "2026-08-16T02:43:56.000Z",
+      "checksum": "867980474e4412a3cdaa146f7f76eb4b",
+      "folder": false
+    },
+    {
+      "id": "1rjsGqJLFM4ocaLfgeGaSbtxMyhWGvz2b",
+      "parent_id": "1XYVF7CKwHZpeMuedhP0OQmj0-FkixEkU",
+      "name": "TRUYỀN KỲ MẠN LỤC.pdf",
+      "mime": "application/pdf",
+      "size": 697286,
+      "modified": "2026-08-16T02:43:54.000Z",
+      "checksum": "a95916dab801870c4d2106f3b7e1a6a7",
+      "folder": false
+    }
+  ]
+}

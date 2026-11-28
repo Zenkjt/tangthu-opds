@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12D9NqJgeBKICAL2YK0SjlGdIk3Y67RMl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mgHgL3rpqkjF_Z8aAkabUHmCpDmHxC5M",
+      "parent_id": "12D9NqJgeBKICAL2YK0SjlGdIk3Y67RMl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3404,
+      "modified": "2026-08-15T10:45:35.000Z",
+      "checksum": "b1be8d361b684d118eee7025e9a5b1bf",
+      "folder": false
+    },
+    {
+      "id": "1tGbmsNln8E605ouCMLe9JeMWkt7BrQnm",
+      "parent_id": "12D9NqJgeBKICAL2YK0SjlGdIk3Y67RMl",
+      "name": "NGỌN LỬA ENNA.epub",
+      "mime": "application/epub+zip",
+      "size": 604206,
+      "modified": "2026-08-15T10:45:46.000Z",
+      "checksum": "a86f9bef10907d1bff79f927770e4a5a",
+      "folder": false
+    },
+    {
+      "id": "1kchLniBmEO8ysvPVb4Wj8vvN8iMV29VD",
+      "parent_id": "12D9NqJgeBKICAL2YK0SjlGdIk3Y67RMl",
+      "name": "NGỌN LỬA ENNA.pdf",
+      "mime": "application/pdf",
+      "size": 1117391,
+      "modified": "2026-08-15T10:45:43.000Z",
+      "checksum": "bfe19d7a77abbd146a145ccc0c895b8c",
+      "folder": false
+    }
+  ]
+}

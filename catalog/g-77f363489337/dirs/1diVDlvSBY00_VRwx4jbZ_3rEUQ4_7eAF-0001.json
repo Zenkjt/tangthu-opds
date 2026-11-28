@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1diVDlvSBY00_VRwx4jbZ_3rEUQ4_7eAF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ck1I3yFljgc58N2znx54tyXYd7A9ozLd",
+      "parent_id": "1diVDlvSBY00_VRwx4jbZ_3rEUQ4_7eAF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 930,
+      "modified": "2026-08-15T10:34:56.000Z",
+      "checksum": "5b820cc3d39106edd7f4c99ae2ba5661",
+      "folder": false
+    },
+    {
+      "id": "1ovHKkNWKRGSJPIPnNpEnC-EMNoz4SWBl",
+      "parent_id": "1diVDlvSBY00_VRwx4jbZ_3rEUQ4_7eAF",
+      "name": "Ở LẠI NƠI NÀY CÙNG ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 606636,
+      "modified": "2026-08-15T10:35:05.000Z",
+      "checksum": "98b91e03b436ce8b5fe17c5a520466fd",
+      "folder": false
+    },
+    {
+      "id": "12j82f40AP8Rid92JrTKSpefchiJfvTZG",
+      "parent_id": "1diVDlvSBY00_VRwx4jbZ_3rEUQ4_7eAF",
+      "name": "Ở LẠI NƠI NÀY CÙNG ANH.pdf",
+      "mime": "application/pdf",
+      "size": 1650053,
+      "modified": "2026-08-15T10:35:02.000Z",
+      "checksum": "996a336c69f31671dc575249f455db4a",
+      "folder": false
+    }
+  ]
+}

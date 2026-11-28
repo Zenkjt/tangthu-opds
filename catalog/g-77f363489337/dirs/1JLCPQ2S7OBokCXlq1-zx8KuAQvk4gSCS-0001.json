@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JLCPQ2S7OBokCXlq1-zx8KuAQvk4gSCS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JPEwK8Trt7DHWc2qE2nAA78spsNcoJ70",
+      "parent_id": "1JLCPQ2S7OBokCXlq1-zx8KuAQvk4gSCS",
+      "name": "BẠN CHANH.epub",
+      "mime": "application/epub+zip",
+      "size": 659182,
+      "modified": "2026-08-15T09:30:45.000Z",
+      "checksum": "56dc0daa216a64d16802ed976fce1203",
+      "folder": false
+    },
+    {
+      "id": "1oDnjPghjsVJq1pEdt5oXJUkxMaf8ky35",
+      "parent_id": "1JLCPQ2S7OBokCXlq1-zx8KuAQvk4gSCS",
+      "name": "BẠN CHANH.pdf",
+      "mime": "application/pdf",
+      "size": 2429601,
+      "modified": "2026-08-15T09:30:42.000Z",
+      "checksum": "47a020ad7768fa0e1ac2bf5d0401a5d4",
+      "folder": false
+    },
+    {
+      "id": "1_4pkkxUhHS0IIEZZN4_wGTYFL7ektR9E",
+      "parent_id": "1JLCPQ2S7OBokCXlq1-zx8KuAQvk4gSCS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11581,
+      "modified": "2026-08-15T09:30:35.000Z",
+      "checksum": "6d11f4824387af5823406fcd018e5a65",
+      "folder": false
+    }
+  ]
+}

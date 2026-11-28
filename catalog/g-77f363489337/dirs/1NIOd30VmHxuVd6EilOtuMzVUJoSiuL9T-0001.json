@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NIOd30VmHxuVd6EilOtuMzVUJoSiuL9T",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sfd0euPBO1BVhvZyh89pgyy8qtxjwINT",
+      "parent_id": "1NIOd30VmHxuVd6EilOtuMzVUJoSiuL9T",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2736,
+      "modified": "2026-08-15T06:21:45.000Z",
+      "checksum": "96f5571bf50892c2799d8f1d79ecf32a",
+      "folder": false
+    },
+    {
+      "id": "1QGk4wfRywOLBK8k2evwe8hDX5fyCIrhh",
+      "parent_id": "1NIOd30VmHxuVd6EilOtuMzVUJoSiuL9T",
+      "name": "TÂN AN NGÀY XƯA.epub",
+      "mime": "application/epub+zip",
+      "size": 412525,
+      "modified": "2026-08-15T06:21:55.000Z",
+      "checksum": "11721eee76f91bbe65702e5ae15885ef",
+      "folder": false
+    },
+    {
+      "id": "1fwWULwgvoI7xuwSE2k2whhx8YVeScLq1",
+      "parent_id": "1NIOd30VmHxuVd6EilOtuMzVUJoSiuL9T",
+      "name": "TÂN AN NGÀY XƯA.pdf",
+      "mime": "application/pdf",
+      "size": 554230,
+      "modified": "2026-08-15T06:21:48.000Z",
+      "checksum": "55e2b940cd034e82611a686ca7457da9",
+      "folder": false
+    }
+  ]
+}

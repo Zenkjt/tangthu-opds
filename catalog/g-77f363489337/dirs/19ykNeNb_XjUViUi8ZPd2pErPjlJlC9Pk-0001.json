@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19ykNeNb_XjUViUi8ZPd2pErPjlJlC9Pk",
+  "page": 1,
+  "items": [
+    {
+      "id": "19K1X0VxkLBSaHheYSdl52lgiDriQigAi",
+      "parent_id": "19ykNeNb_XjUViUi8ZPd2pErPjlJlC9Pk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7274,
+      "modified": "2026-08-16T03:05:46.000Z",
+      "checksum": "766b1af2a2e7f5938cd342a08524d701",
+      "folder": false
+    },
+    {
+      "id": "1vB_56RrAsUAmL2RzvF1ixZ7o0boKpGdv",
+      "parent_id": "19ykNeNb_XjUViUi8ZPd2pErPjlJlC9Pk",
+      "name": "VĨNH BIỆT GUNXARU.epub",
+      "mime": "application/epub+zip",
+      "size": 505008,
+      "modified": "2026-08-16T03:05:53.000Z",
+      "checksum": "155b0619a7b8fcb3838633ef88cb24dc",
+      "folder": false
+    },
+    {
+      "id": "1343J3cLrQP13NU8eliVyIQQNBIjrQH1y",
+      "parent_id": "19ykNeNb_XjUViUi8ZPd2pErPjlJlC9Pk",
+      "name": "VĨNH BIỆT GUNXARU.pdf",
+      "mime": "application/pdf",
+      "size": 969820,
+      "modified": "2026-08-16T03:05:50.000Z",
+      "checksum": "fcbaabb21e06ce50ff7ffe326828f3f2",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ix1npOExBN4c309URU28KPN-pVp8LSMm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NJKuzFZp1FUEvdF64UaRzZb4pk3UW5LO",
+      "parent_id": "1ix1npOExBN4c309URU28KPN-pVp8LSMm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 728,
+      "modified": "2026-08-15T07:39:34.000Z",
+      "checksum": "58369ca7ba07d569353630daece598bd",
+      "folder": false
+    },
+    {
+      "id": "1Iy3vV3LA8MaaH0yJZxNEe70sBYMOh972",
+      "parent_id": "1ix1npOExBN4c309URU28KPN-pVp8LSMm",
+      "name": "ĐOẢN KIẾM THÙ.epub",
+      "mime": "application/epub+zip",
+      "size": 1253563,
+      "modified": "2026-08-15T07:39:45.000Z",
+      "checksum": "100cf55ccdfe0ff47183e83f5e99aefc",
+      "folder": false
+    },
+    {
+      "id": "1VtbPKtsx1RFw_pVYV3Au96AJwAlnP400",
+      "parent_id": "1ix1npOExBN4c309URU28KPN-pVp8LSMm",
+      "name": "ĐOẢN KIẾM THÙ.pdf",
+      "mime": "application/pdf",
+      "size": 4159972,
+      "modified": "2026-08-15T07:39:41.000Z",
+      "checksum": "3920c9c522e206e67d8ee04c7ca85223",
+      "folder": false
+    }
+  ]
+}

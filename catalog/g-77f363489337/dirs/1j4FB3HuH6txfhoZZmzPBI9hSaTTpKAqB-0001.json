@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1j4FB3HuH6txfhoZZmzPBI9hSaTTpKAqB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WClEejIHu4xBkT1CO1NiFDr4g8xjPBYc",
+      "parent_id": "1j4FB3HuH6txfhoZZmzPBI9hSaTTpKAqB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2706,
+      "modified": "2026-08-15T07:39:39.000Z",
+      "checksum": "dbe580cf1f4c4dbaf2501baab7c3f603",
+      "folder": false
+    },
+    {
+      "id": "1Hs1vSLuxsDX7UKglnbojTDq1CgVwLmI1",
+      "parent_id": "1j4FB3HuH6txfhoZZmzPBI9hSaTTpKAqB",
+      "name": "DƯỠNG THÚ THÀNH PHI.epub",
+      "mime": "application/epub+zip",
+      "size": 6864121,
+      "modified": "2026-08-15T07:39:52.000Z",
+      "checksum": "41f0618e49e8b1f87e21be72c8272eb9",
+      "folder": false
+    },
+    {
+      "id": "1WtMT9jscUFgw4MkO3mlcT0teVd88-VMm",
+      "parent_id": "1j4FB3HuH6txfhoZZmzPBI9hSaTTpKAqB",
+      "name": "DƯỠNG THÚ THÀNH PHI.pdf",
+      "mime": "application/pdf",
+      "size": 5199029,
+      "modified": "2026-08-15T07:39:46.000Z",
+      "checksum": "aeed5b611afc139d423fb11a1262e439",
+      "folder": false
+    }
+  ]
+}

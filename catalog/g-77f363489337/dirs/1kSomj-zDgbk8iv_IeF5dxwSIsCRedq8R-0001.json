@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kSomj-zDgbk8iv_IeF5dxwSIsCRedq8R",
+  "page": 1,
+  "items": [
+    {
+      "id": "1m-Xacmj-ptfKCLDiOkPA6Wh369Rb6ruu",
+      "parent_id": "1kSomj-zDgbk8iv_IeF5dxwSIsCRedq8R",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3668,
+      "modified": "2026-08-16T03:40:49.000Z",
+      "checksum": "4ffeb148531b0ce437e9e8807a1136f2",
+      "folder": false
+    },
+    {
+      "id": "19ttl8H0ZB4FkXRALZZDb_db7z5-HDYt5",
+      "parent_id": "1kSomj-zDgbk8iv_IeF5dxwSIsCRedq8R",
+      "name": "HÃY HÔN EM NẾU ANH CÓ THỂ.epub",
+      "mime": "application/epub+zip",
+      "size": 627492,
+      "modified": "2026-08-16T03:40:55.000Z",
+      "checksum": "b4c4887112620e06282cf1e8c2e22586",
+      "folder": false
+    },
+    {
+      "id": "1ooR1uE3Kz2lXLUw15mD2Jx0gOlWOtMI7",
+      "parent_id": "1kSomj-zDgbk8iv_IeF5dxwSIsCRedq8R",
+      "name": "HÃY HÔN EM NẾU ANH CÓ THỂ.pdf",
+      "mime": "application/pdf",
+      "size": 1237774,
+      "modified": "2026-08-16T03:40:53.000Z",
+      "checksum": "5b6dd6c041d95b2a820f691c5ef93b72",
+      "folder": false
+    }
+  ]
+}

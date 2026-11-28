@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_4I2czDCYGDtlJfsSRxlRGDowf64EeNC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1U4dDUyqzUpW6i5WXi6CujTNp1uCZgBMJ",
+      "parent_id": "1_4I2czDCYGDtlJfsSRxlRGDowf64EeNC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1216,
+      "modified": "2026-08-15T15:20:44.000Z",
+      "checksum": "a3c56dcb5ca928552cb58dddbcd96c8d",
+      "folder": false
+    },
+    {
+      "id": "1nfqF_xGIYTEVQGFqYVU714g7OpAO4ZWW",
+      "parent_id": "1_4I2czDCYGDtlJfsSRxlRGDowf64EeNC",
+      "name": "ĐOÀN MẬT VỤ CỦA NGÔ ĐÌNH CẨN.epub",
+      "mime": "application/epub+zip",
+      "size": 439633,
+      "modified": "2026-08-15T15:20:51.000Z",
+      "checksum": "9b21ed27289bdc77c1591b6d397de955",
+      "folder": false
+    },
+    {
+      "id": "1CIYXMm902mziv17EbE10_8mc5jVi5gQt",
+      "parent_id": "1_4I2czDCYGDtlJfsSRxlRGDowf64EeNC",
+      "name": "ĐOÀN MẬT VỤ CỦA NGÔ ĐÌNH CẨN.pdf",
+      "mime": "application/pdf",
+      "size": 501818,
+      "modified": "2026-08-15T15:20:47.000Z",
+      "checksum": "e6edcf63b73774500cd5bf9d0ad02143",
+      "folder": false
+    }
+  ]
+}

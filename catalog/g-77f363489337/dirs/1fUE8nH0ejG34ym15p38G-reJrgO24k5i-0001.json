@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fUE8nH0ejG34ym15p38G-reJrgO24k5i",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ngEf3l-b2nnZbeq-eeZTK-gSPA-49hFk",
+      "parent_id": "1fUE8nH0ejG34ym15p38G-reJrgO24k5i",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7059,
+      "modified": "2026-08-15T08:20:06.000Z",
+      "checksum": "055118815f9086c38bdf2676d4eb10a3",
+      "folder": false
+    },
+    {
+      "id": "1IOVBrTimIEpKJM5RMOmhF1P4xuUR2rAR",
+      "parent_id": "1fUE8nH0ejG34ym15p38G-reJrgO24k5i",
+      "name": "ĐEN TRẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 548295,
+      "modified": "2026-08-15T08:20:13.000Z",
+      "checksum": "ba5862fc04c432c1b118a02fb3574444",
+      "folder": false
+    },
+    {
+      "id": "1TCkV9WcxP0xJWSfN4EBFP89NFP6zre0d",
+      "parent_id": "1fUE8nH0ejG34ym15p38G-reJrgO24k5i",
+      "name": "ĐEN TRẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 1490205,
+      "modified": "2026-08-15T08:20:11.000Z",
+      "checksum": "f1b9e5203010fd662092f43ae1efef49",
+      "folder": false
+    }
+  ]
+}

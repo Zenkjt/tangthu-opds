@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mSTJpXXEz8u0n4BQhN_q1_am7v4InFNV",
+  "page": 1,
+  "items": [
+    {
+      "id": "17rx40lYTTeRDArgXrupmWxieoNXbJA8e",
+      "parent_id": "1mSTJpXXEz8u0n4BQhN_q1_am7v4InFNV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 538,
+      "modified": "2026-08-15T10:55:54.000Z",
+      "checksum": "0efbae9651d8de6cfca3bbcc01880381",
+      "folder": false
+    },
+    {
+      "id": "1RubkP4Xfa-B1uhd9_wxb32xdBGie3iZb",
+      "parent_id": "1mSTJpXXEz8u0n4BQhN_q1_am7v4InFNV",
+      "name": "KẺ LÃNG DU.epub",
+      "mime": "application/epub+zip",
+      "size": 774368,
+      "modified": "2026-08-15T10:56:00.000Z",
+      "checksum": "8cd594e258d45322746215963529ef41",
+      "folder": false
+    },
+    {
+      "id": "1itj1DqO9p99hkHPhqKw0Dm-OcPRmJO0w",
+      "parent_id": "1mSTJpXXEz8u0n4BQhN_q1_am7v4InFNV",
+      "name": "KẺ LÃNG DU.pdf",
+      "mime": "application/pdf",
+      "size": 1067841,
+      "modified": "2026-08-15T10:55:58.000Z",
+      "checksum": "21791c9d63c183f1f86db3a1d0189b47",
+      "folder": false
+    }
+  ]
+}

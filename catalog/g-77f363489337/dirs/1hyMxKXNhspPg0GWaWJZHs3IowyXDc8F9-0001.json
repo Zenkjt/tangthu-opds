@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hyMxKXNhspPg0GWaWJZHs3IowyXDc8F9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sb5auDfAHK8tj7WA9artTNfSrz_gkqz6",
+      "parent_id": "1hyMxKXNhspPg0GWaWJZHs3IowyXDc8F9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3264,
+      "modified": "2026-08-15T12:29:29.000Z",
+      "checksum": "9d56e5577d85f51c3f045230a272176b",
+      "folder": false
+    },
+    {
+      "id": "1NbSOSFc-p8fhyBQn_89eVbjCNoa4zD5s",
+      "parent_id": "1hyMxKXNhspPg0GWaWJZHs3IowyXDc8F9",
+      "name": "QUẦN JEANS MAY MẮN.epub",
+      "mime": "application/epub+zip",
+      "size": 3697970,
+      "modified": "2026-08-15T12:29:37.000Z",
+      "checksum": "815a98482232e82f9ddd5c353c9485d6",
+      "folder": false
+    },
+    {
+      "id": "106if2yVeM9nvFTtmlNqTPi5iGbq_G4c-",
+      "parent_id": "1hyMxKXNhspPg0GWaWJZHs3IowyXDc8F9",
+      "name": "QUẦN JEANS MAY MẮN.pdf",
+      "mime": "application/pdf",
+      "size": 1070213,
+      "modified": "2026-08-15T12:29:32.000Z",
+      "checksum": "52f5a7e10bf60a3fca3bfb3552b4ce26",
+      "folder": false
+    }
+  ]
+}

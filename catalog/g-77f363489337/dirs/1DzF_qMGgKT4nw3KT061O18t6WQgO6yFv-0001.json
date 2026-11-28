@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DzF_qMGgKT4nw3KT061O18t6WQgO6yFv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VR9kJ1AVWsnnM84szbQwnPyKc5ZppPe5",
+      "parent_id": "1DzF_qMGgKT4nw3KT061O18t6WQgO6yFv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2936,
+      "modified": "2026-08-15T09:33:47.000Z",
+      "checksum": "bbbf0c9cf69286c069ac74dabbc4b191",
+      "folder": false
+    },
+    {
+      "id": "1pVprKwL25ZjQk1gadTt4jYpL-IbI9XZC",
+      "parent_id": "1DzF_qMGgKT4nw3KT061O18t6WQgO6yFv",
+      "name": "GIỌT MÁU CHUNG TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 214560,
+      "modified": "2026-08-15T09:33:53.000Z",
+      "checksum": "1df678c88dcf1b2f2c05d2395bac048e",
+      "folder": false
+    },
+    {
+      "id": "1LsfJoSff-F2gJwWFG9gAfgSvT_5W_JNl",
+      "parent_id": "1DzF_qMGgKT4nw3KT061O18t6WQgO6yFv",
+      "name": "GIỌT MÁU CHUNG TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 620066,
+      "modified": "2026-08-15T09:33:50.000Z",
+      "checksum": "b8227babb08fae3e0afee7fea1567e9b",
+      "folder": false
+    }
+  ]
+}

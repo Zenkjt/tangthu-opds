@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jQfo9ALTn2zDBs2SINFIjpz4zSoqg284",
+  "page": 1,
+  "items": [
+    {
+      "id": "1llexDLReTKVXTVzV23tYzYBV60NcAjae",
+      "parent_id": "1jQfo9ALTn2zDBs2SINFIjpz4zSoqg284",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 572,
+      "modified": "2026-08-16T04:19:19.000Z",
+      "checksum": "64442e38e7b41174b81e009439b33b8f",
+      "folder": false
+    },
+    {
+      "id": "1ftqX-HNZi9CUG6B0g9DjTR1JcA3qRs8P",
+      "parent_id": "1jQfo9ALTn2zDBs2SINFIjpz4zSoqg284",
+      "name": "HUYỄN HOẶC CỦA TỘI LỖI.epub",
+      "mime": "application/epub+zip",
+      "size": 582125,
+      "modified": "2026-08-16T04:19:29.000Z",
+      "checksum": "0102b3cd10072d7229ea854875b63170",
+      "folder": false
+    },
+    {
+      "id": "1UqEAS3sjWdG2LfC_lwcBHX44jc2E_JX_",
+      "parent_id": "1jQfo9ALTn2zDBs2SINFIjpz4zSoqg284",
+      "name": "HUYỄN HOẶC CỦA TỘI LỖI.pdf",
+      "mime": "application/pdf",
+      "size": 1834982,
+      "modified": "2026-08-16T04:19:26.000Z",
+      "checksum": "712d57c3a0320462a52680c41a2354e8",
+      "folder": false
+    }
+  ]
+}

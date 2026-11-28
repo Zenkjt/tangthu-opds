@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NK3pkoAWMkFxg5JgpLMyuCH7Q16RtNVY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1T0reUdrqHuvkhnIX1fWVm_KMV7IZCCie",
+      "parent_id": "1NK3pkoAWMkFxg5JgpLMyuCH7Q16RtNVY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4238,
+      "modified": "2026-08-16T03:22:22.000Z",
+      "checksum": "45ae4efa85af439a1fcbec6338c7c220",
+      "folder": false
+    },
+    {
+      "id": "1GEoJnWB5YcqIvY0H4h7AQa_x-QJHgZ97",
+      "parent_id": "1NK3pkoAWMkFxg5JgpLMyuCH7Q16RtNVY",
+      "name": "MƯỜI TÁM VỊ NGỌT.epub",
+      "mime": "application/epub+zip",
+      "size": 717660,
+      "modified": "2026-08-16T03:22:32.000Z",
+      "checksum": "84a7e39fdc7f257679e1089926bb4b65",
+      "folder": false
+    },
+    {
+      "id": "1AtWiU--K6_RiqyS4VzAAvUYztYbau3SF",
+      "parent_id": "1NK3pkoAWMkFxg5JgpLMyuCH7Q16RtNVY",
+      "name": "MƯỜI TÁM VỊ NGỌT.pdf",
+      "mime": "application/pdf",
+      "size": 2444710,
+      "modified": "2026-08-16T03:22:28.000Z",
+      "checksum": "84a4c4aadc11fe0b090491f1d55cb3ba",
+      "folder": false
+    }
+  ]
+}

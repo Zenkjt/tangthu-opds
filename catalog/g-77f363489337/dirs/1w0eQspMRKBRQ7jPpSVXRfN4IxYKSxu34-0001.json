@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1w0eQspMRKBRQ7jPpSVXRfN4IxYKSxu34",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZSLbdYZOIW3hwzvAC0wPyjQhFUDsmijz",
+      "parent_id": "1w0eQspMRKBRQ7jPpSVXRfN4IxYKSxu34",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3404,
+      "modified": "2026-08-16T04:14:40.000Z",
+      "checksum": "b1be8d361b684d118eee7025e9a5b1bf",
+      "folder": false
+    },
+    {
+      "id": "1xJQXXJyw1y8rjq6m3t2DOsk4ZzjX5GVi",
+      "parent_id": "1w0eQspMRKBRQ7jPpSVXRfN4IxYKSxu34",
+      "name": "NGỌN LỬA ENNA.epub",
+      "mime": "application/epub+zip",
+      "size": 604206,
+      "modified": "2026-08-16T04:14:47.000Z",
+      "checksum": "a86f9bef10907d1bff79f927770e4a5a",
+      "folder": false
+    },
+    {
+      "id": "1keVKvWhpJ2XOErtUTjmntsNp4RIhHxRE",
+      "parent_id": "1w0eQspMRKBRQ7jPpSVXRfN4IxYKSxu34",
+      "name": "NGỌN LỬA ENNA.pdf",
+      "mime": "application/pdf",
+      "size": 1117391,
+      "modified": "2026-08-16T04:14:44.000Z",
+      "checksum": "bfe19d7a77abbd146a145ccc0c895b8c",
+      "folder": false
+    }
+  ]
+}

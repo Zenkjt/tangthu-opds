@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FRihI2ZjvNmwwOFxO9iOARMzJUB8T6jz",
+  "page": 1,
+  "items": [
+    {
+      "id": "19WIPkjUZRFLNDIxOm4w9QrU4IyO-kFHA",
+      "parent_id": "1FRihI2ZjvNmwwOFxO9iOARMzJUB8T6jz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5372,
+      "modified": "2026-08-15T07:26:45.000Z",
+      "checksum": "c3967b801997dc96a6f32cb52bf4a907",
+      "folder": false
+    },
+    {
+      "id": "1NUFecLpZsjJ11dJNpi0HPAnYIDBPbPql",
+      "parent_id": "1FRihI2ZjvNmwwOFxO9iOARMzJUB8T6jz",
+      "name": "VÂN ĐÀI LOẠI NGỮ.epub",
+      "mime": "application/epub+zip",
+      "size": 938126,
+      "modified": "2026-08-15T07:27:07.000Z",
+      "checksum": "044f4d52118c4b8d99cad418dc75f062",
+      "folder": false
+    },
+    {
+      "id": "1MM1TlGENT3i-AKxbJWBvGQw_sGO0RX4x",
+      "parent_id": "1FRihI2ZjvNmwwOFxO9iOARMzJUB8T6jz",
+      "name": "VÂN ĐÀI LOẠI NGỮ.pdf",
+      "mime": "application/pdf",
+      "size": 5086606,
+      "modified": "2026-08-15T07:27:02.000Z",
+      "checksum": "7c3727a2bfec9e21ae8293a2442d2fc2",
+      "folder": false
+    }
+  ]
+}

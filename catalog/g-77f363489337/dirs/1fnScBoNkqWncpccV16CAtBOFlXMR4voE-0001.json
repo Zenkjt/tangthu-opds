@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fnScBoNkqWncpccV16CAtBOFlXMR4voE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aw33sZmXhn1IzjFzuvoRWWCD4PFwIwUt",
+      "parent_id": "1fnScBoNkqWncpccV16CAtBOFlXMR4voE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2536,
+      "modified": "2026-08-16T03:17:19.000Z",
+      "checksum": "1e83cf16a6ac284924aab80be6b505cc",
+      "folder": false
+    },
+    {
+      "id": "1YaJt9NCt8_nIJjaYsLMy_mzj_GSgJyN5",
+      "parent_id": "1fnScBoNkqWncpccV16CAtBOFlXMR4voE",
+      "name": "VÔ TRI.epub",
+      "mime": "application/epub+zip",
+      "size": 235753,
+      "modified": "2026-08-16T03:17:26.000Z",
+      "checksum": "51c3b2a2fa29d300d04c8c3f8e39465c",
+      "folder": false
+    },
+    {
+      "id": "1W7Ces-kiz6IJDatEHfBJfl5TWeIECZm8",
+      "parent_id": "1fnScBoNkqWncpccV16CAtBOFlXMR4voE",
+      "name": "VÔ TRI.pdf",
+      "mime": "application/pdf",
+      "size": 747214,
+      "modified": "2026-08-16T03:17:23.000Z",
+      "checksum": "8e1dc7ad2345ed0fd38aa6a630adf8e6",
+      "folder": false
+    }
+  ]
+}

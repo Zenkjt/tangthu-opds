@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1V8GiggxCAkcZHDfW5dBWZlbJukpkvFnX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oochI297bma5mxz85cZjfaca3ITsAtpS",
+      "parent_id": "1V8GiggxCAkcZHDfW5dBWZlbJukpkvFnX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 578,
+      "modified": "2026-08-16T04:14:05.000Z",
+      "checksum": "7a0469f6498a774ad3992bf64f4cab53",
+      "folder": false
+    },
+    {
+      "id": "1XJuC7EmsRjT6IwxxwkwMmxxNH2Bh40PE",
+      "parent_id": "1V8GiggxCAkcZHDfW5dBWZlbJukpkvFnX",
+      "name": "NGƯỜI CÓ TRÁI TIM TRÊN MIỀN CAO NGUYÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 473566,
+      "modified": "2026-08-16T04:14:11.000Z",
+      "checksum": "78d3a97aacdfe71056c6768d0a523ad3",
+      "folder": false
+    },
+    {
+      "id": "1B96RdC7INccEYXFIK4bArEUvHrfAdQSb",
+      "parent_id": "1V8GiggxCAkcZHDfW5dBWZlbJukpkvFnX",
+      "name": "NGƯỜI CÓ TRÁI TIM TRÊN MIỀN CAO NGUYÊN.pdf",
+      "mime": "application/pdf",
+      "size": 864279,
+      "modified": "2026-08-16T04:14:09.000Z",
+      "checksum": "dcc58a052eb9c0a45439353e7d420966",
+      "folder": false
+    }
+  ]
+}

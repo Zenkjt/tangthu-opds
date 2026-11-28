@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WsGLKBGtGe3xsC0WYNBYvsbF28Jqvtkw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BJr-6o9vWLBh-w6vOv7NCMCC3yx6-Zpe",
+      "parent_id": "1WsGLKBGtGe3xsC0WYNBYvsbF28Jqvtkw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 456,
+      "modified": "2026-08-15T10:32:32.000Z",
+      "checksum": "a079bb12469fc6bf7574ca5bdcfcd4c7",
+      "folder": false
+    },
+    {
+      "id": "1KEdsFPoc_byvyChzqrqSDdzDoXPAVUQW",
+      "parent_id": "1WsGLKBGtGe3xsC0WYNBYvsbF28Jqvtkw",
+      "name": "PHỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 619079,
+      "modified": "2026-08-15T10:32:39.000Z",
+      "checksum": "354152580a52d4e239c9198ae2adc4d1",
+      "folder": false
+    },
+    {
+      "id": "1rXZjr1dtJULGBNm0MfdykMmLqVpWgqhg",
+      "parent_id": "1WsGLKBGtGe3xsC0WYNBYvsbF28Jqvtkw",
+      "name": "PHỐ.pdf",
+      "mime": "application/pdf",
+      "size": 1162103,
+      "modified": "2026-08-15T10:32:37.000Z",
+      "checksum": "61faaa83988b9f8e23db4f6417153648",
+      "folder": false
+    }
+  ]
+}

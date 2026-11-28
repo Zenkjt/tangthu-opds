@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fYZkNgCDcXlX4IenzYg_F2XbPJqqKuK6",
+  "page": 1,
+  "items": [
+    {
+      "id": "10hjKEB04T8UPusfVH6gZmEiZ7ygxP2gs",
+      "parent_id": "1fYZkNgCDcXlX4IenzYg_F2XbPJqqKuK6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 590,
+      "modified": "2026-08-15T15:52:53.000Z",
+      "checksum": "55c84e0ebd09c86f35fdd5e8dd0a8063",
+      "folder": false
+    },
+    {
+      "id": "1ckbnInhklQnhFNYvmhhUpbk1zKbaEy6e",
+      "parent_id": "1fYZkNgCDcXlX4IenzYg_F2XbPJqqKuK6",
+      "name": "TRUYỆN CƯỜI TRUNG QUỐC.epub",
+      "mime": "application/epub+zip",
+      "size": 395480,
+      "modified": "2026-08-15T15:52:59.000Z",
+      "checksum": "ad8d8165721005f820d8f3951755116a",
+      "folder": false
+    },
+    {
+      "id": "1Mjs6UtgINSP8cJgnkCbrkzgXrtMBDfT5",
+      "parent_id": "1fYZkNgCDcXlX4IenzYg_F2XbPJqqKuK6",
+      "name": "TRUYỆN CƯỜI TRUNG QUỐC.pdf",
+      "mime": "application/pdf",
+      "size": 202523,
+      "modified": "2026-08-15T15:52:56.000Z",
+      "checksum": "3631b741ac723cd1bb9bf0e7789118f4",
+      "folder": false
+    }
+  ]
+}

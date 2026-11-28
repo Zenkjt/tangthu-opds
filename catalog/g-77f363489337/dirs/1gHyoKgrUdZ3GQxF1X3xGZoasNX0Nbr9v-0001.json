@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gHyoKgrUdZ3GQxF1X3xGZoasNX0Nbr9v",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Bx9IV4TrhcFoZ1L2rSfc2yqXmG4l0YG2",
+      "parent_id": "1gHyoKgrUdZ3GQxF1X3xGZoasNX0Nbr9v",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4066,
+      "modified": "2026-08-16T03:44:03.000Z",
+      "checksum": "0f52c3e6c2f6320b5d73e630efdce03a",
+      "folder": false
+    },
+    {
+      "id": "1Zkm4QZ7u_VoxRPP1C2mrHZLlBN1iwuax",
+      "parent_id": "1gHyoKgrUdZ3GQxF1X3xGZoasNX0Nbr9v",
+      "name": "ĐÁNH CẮP KHÁT KHAO EM.epub",
+      "mime": "application/epub+zip",
+      "size": 606953,
+      "modified": "2026-08-16T03:44:10.000Z",
+      "checksum": "41e23c3a591b13b95021696850e8128d",
+      "folder": false
+    },
+    {
+      "id": "1lMfdjhbQqiWgI4I9qCA5VmFnefDS2-Yr",
+      "parent_id": "1gHyoKgrUdZ3GQxF1X3xGZoasNX0Nbr9v",
+      "name": "ĐÁNH CẮP KHÁT KHAO EM.pdf",
+      "mime": "application/pdf",
+      "size": 1305466,
+      "modified": "2026-08-16T03:44:07.000Z",
+      "checksum": "8da90a2d1dda215ed7fe46eeca4bdebb",
+      "folder": false
+    }
+  ]
+}

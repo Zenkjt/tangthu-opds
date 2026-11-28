@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NIbB_-pH-bPlZ3a6m4UQwlzFOiFKapTZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HPJA7C0m5l_t13oeab3nT8oPWknxReqW",
+      "parent_id": "1NIbB_-pH-bPlZ3a6m4UQwlzFOiFKapTZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 504,
+      "modified": "2026-08-16T04:17:58.000Z",
+      "checksum": "d9494f60d3a123133211943a25072edd",
+      "folder": false
+    },
+    {
+      "id": "1_I84v99znVYjSP4n86PirWr8deGesBMl",
+      "parent_id": "1NIbB_-pH-bPlZ3a6m4UQwlzFOiFKapTZ",
+      "name": "MÊ HOẶC SONG VƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 890712,
+      "modified": "2026-08-16T04:18:09.000Z",
+      "checksum": "e53184efaa23d8cdac34b8d29d7eea81",
+      "folder": false
+    },
+    {
+      "id": "1e6gz22QaDzHC0klzqx_PNmkF4DtKjC5g",
+      "parent_id": "1NIbB_-pH-bPlZ3a6m4UQwlzFOiFKapTZ",
+      "name": "MÊ HOẶC SONG VƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 3213263,
+      "modified": "2026-08-16T04:18:06.000Z",
+      "checksum": "2edba0943d1a1d011d6bc1fbe5ddfc7e",
+      "folder": false
+    }
+  ]
+}

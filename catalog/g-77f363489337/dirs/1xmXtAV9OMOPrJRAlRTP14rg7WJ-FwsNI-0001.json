@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xmXtAV9OMOPrJRAlRTP14rg7WJ-FwsNI",
+  "page": 1,
+  "items": [
+    {
+      "id": "10t0xQVenIgS797R10hpxMdL3qgJpQEoE",
+      "parent_id": "1xmXtAV9OMOPrJRAlRTP14rg7WJ-FwsNI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 16865,
+      "modified": "2026-08-16T02:51:04.000Z",
+      "checksum": "b7152b2108aa148e0072855b29726732",
+      "folder": false
+    },
+    {
+      "id": "1JF5TTYediYS_sdAUdL5gVEWTcedEJaC0",
+      "parent_id": "1xmXtAV9OMOPrJRAlRTP14rg7WJ-FwsNI",
+      "name": "LÀ BÓNG HAY LÀ HÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 825298,
+      "modified": "2026-08-16T02:51:11.000Z",
+      "checksum": "363871a6bbdc3b4f3b1ddc42fc25aefa",
+      "folder": false
+    },
+    {
+      "id": "1d8ylHV0k9RFqxsVDM3K_o9bEYOLm4rqt",
+      "parent_id": "1xmXtAV9OMOPrJRAlRTP14rg7WJ-FwsNI",
+      "name": "LÀ BÓNG HAY LÀ HÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 612211,
+      "modified": "2026-08-16T02:51:08.000Z",
+      "checksum": "a84749a76f95753c9285cbaf78f95c8f",
+      "folder": false
+    }
+  ]
+}

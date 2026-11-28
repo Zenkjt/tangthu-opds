@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ypyfATjiw1NzVTt2E68qmLwmARo-QYTp",
+  "page": 1,
+  "items": [
+    {
+      "id": "16JTP3NoPSo-Qkho7LFDx1cZgZES9ILik",
+      "parent_id": "1ypyfATjiw1NzVTt2E68qmLwmARo-QYTp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9654,
+      "modified": "2026-08-15T08:08:30.000Z",
+      "checksum": "ada0afe3dfb058f259abda3de6fee752",
+      "folder": false
+    },
+    {
+      "id": "1AbEmtq9igzUPVkZFArxkhIsTLsokKnFa",
+      "parent_id": "1ypyfATjiw1NzVTt2E68qmLwmARo-QYTp",
+      "name": "NHẬT KÝ KẺ MỊ TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 524574,
+      "modified": "2026-08-15T08:08:37.000Z",
+      "checksum": "228dd197664f90e94f888a780237a512",
+      "folder": false
+    },
+    {
+      "id": "1RBDQxouXDf9EJxtfGk_cUwkeZ3IUmkKH",
+      "parent_id": "1ypyfATjiw1NzVTt2E68qmLwmARo-QYTp",
+      "name": "NHẬT KÝ KẺ MỊ TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 1368688,
+      "modified": "2026-08-15T08:08:35.000Z",
+      "checksum": "8810dae4b7978f78f1b159d076b761dc",
+      "folder": false
+    }
+  ]
+}

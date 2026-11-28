@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aACVvZoYOTgPESnsk5neRBWbJxPGsyLQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zEfZ60JcdbViZ3GzaBCa75E3sAuc9529",
+      "parent_id": "1aACVvZoYOTgPESnsk5neRBWbJxPGsyLQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 465,
+      "modified": "2026-08-15T10:53:04.000Z",
+      "checksum": "1509cf8a8e4375d6a05941b8f07edad9",
+      "folder": false
+    },
+    {
+      "id": "1s1x1w3UjpvKUOBdgrDU9wRZb1lx5UnrB",
+      "parent_id": "1aACVvZoYOTgPESnsk5neRBWbJxPGsyLQ",
+      "name": "MÃI MÃI TUỔI MƯỜI CHÍN.epub",
+      "mime": "application/epub+zip",
+      "size": 263714,
+      "modified": "2026-08-15T10:53:09.000Z",
+      "checksum": "2c61b4575068c91ac9cba013ce2f50ba",
+      "folder": false
+    },
+    {
+      "id": "1f88QwlyQztLhI2tkJuaIOOSHQY5FxdLW",
+      "parent_id": "1aACVvZoYOTgPESnsk5neRBWbJxPGsyLQ",
+      "name": "MÃI MÃI TUỔI MƯỜI CHÍN.pdf",
+      "mime": "application/pdf",
+      "size": 314499,
+      "modified": "2026-08-15T10:53:07.000Z",
+      "checksum": "1f5b1e85378f4b1ce0aa4161e9d041d8",
+      "folder": false
+    }
+  ]
+}

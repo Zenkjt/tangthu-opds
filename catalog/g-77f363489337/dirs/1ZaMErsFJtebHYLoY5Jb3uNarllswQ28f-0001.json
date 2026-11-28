@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZaMErsFJtebHYLoY5Jb3uNarllswQ28f",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OZ0mu-rIRNT0HRgraj02jxxg-OcFZtMc",
+      "parent_id": "1ZaMErsFJtebHYLoY5Jb3uNarllswQ28f",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10038,
+      "modified": "2026-08-15T03:20:06.000Z",
+      "checksum": "372f78b654ed4fab7a8b543e17968fb9",
+      "folder": false
+    },
+    {
+      "id": "1rxljThyCy5S-tByxNYPqot83Hj1d_qOv",
+      "parent_id": "1ZaMErsFJtebHYLoY5Jb3uNarllswQ28f",
+      "name": "TÂM LÝ HỌC HÀI HƯỚC.epub",
+      "mime": "application/epub+zip",
+      "size": 535362,
+      "modified": "2026-08-15T03:20:14.000Z",
+      "checksum": "23550f8973fdc60aa676dcf013ebc006",
+      "folder": false
+    },
+    {
+      "id": "19-MrPtsAbbxluR8KkPLp5vS0pUvNulBV",
+      "parent_id": "1ZaMErsFJtebHYLoY5Jb3uNarllswQ28f",
+      "name": "TÂM LÝ HỌC HÀI HƯỚC.pdf",
+      "mime": "application/pdf",
+      "size": 1576337,
+      "modified": "2026-08-15T03:20:11.000Z",
+      "checksum": "6f2040811ca7035206570312acb01cd0",
+      "folder": false
+    }
+  ]
+}

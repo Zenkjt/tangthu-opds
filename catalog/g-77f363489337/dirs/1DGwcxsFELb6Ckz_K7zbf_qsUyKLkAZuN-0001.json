@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DGwcxsFELb6Ckz_K7zbf_qsUyKLkAZuN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NLf15Wcrsknaxe69VnYJ3DW-zKCESfT_",
+      "parent_id": "1DGwcxsFELb6Ckz_K7zbf_qsUyKLkAZuN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3924,
+      "modified": "2026-08-16T02:42:41.000Z",
+      "checksum": "1964badbdb68e7b3cca271caf917473d",
+      "folder": false
+    },
+    {
+      "id": "1bRxO5_b19kwh06MLsZTWdUfpTOay1GX0",
+      "parent_id": "1DGwcxsFELb6Ckz_K7zbf_qsUyKLkAZuN",
+      "name": "MẮT BIẾC.epub",
+      "mime": "application/epub+zip",
+      "size": 450923,
+      "modified": "2026-08-16T02:42:48.000Z",
+      "checksum": "71ec7840a69aff5aefcedaabdd5ba626",
+      "folder": false
+    },
+    {
+      "id": "1ed1HPyecEXrjUaHT9ZQa-f6u0dSFotkx",
+      "parent_id": "1DGwcxsFELb6Ckz_K7zbf_qsUyKLkAZuN",
+      "name": "MẮT BIẾC.pdf",
+      "mime": "application/pdf",
+      "size": 620310,
+      "modified": "2026-08-16T02:42:45.000Z",
+      "checksum": "63308cfb07c966c47f102b2e89612f3e",
+      "folder": false
+    }
+  ]
+}

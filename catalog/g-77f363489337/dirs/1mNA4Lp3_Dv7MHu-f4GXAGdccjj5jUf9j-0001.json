@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mNA4Lp3_Dv7MHu-f4GXAGdccjj5jUf9j",
+  "page": 1,
+  "items": [
+    {
+      "id": "1H_1YlIvw_qIBzC5tXjgGeDYPCVz4wZZG",
+      "parent_id": "1mNA4Lp3_Dv7MHu-f4GXAGdccjj5jUf9j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3286,
+      "modified": "2026-08-16T04:14:23.000Z",
+      "checksum": "9d62fe8883e7bede71687a61df84fe42",
+      "folder": false
+    },
+    {
+      "id": "1INqXXDoE8-CK7cOqobWNdqTcNixCSYik",
+      "parent_id": "1mNA4Lp3_Dv7MHu-f4GXAGdccjj5jUf9j",
+      "name": "NGƯỢC NGẪU.epub",
+      "mime": "application/epub+zip",
+      "size": 829293,
+      "modified": "2026-08-16T04:14:32.000Z",
+      "checksum": "045b5942cd989f94197fba6c6bb2552b",
+      "folder": false
+    },
+    {
+      "id": "1XYNziLx9MW0b-Wmbpr5OITmz0jK-83SL",
+      "parent_id": "1mNA4Lp3_Dv7MHu-f4GXAGdccjj5jUf9j",
+      "name": "NGƯỢC NGẪU.pdf",
+      "mime": "application/pdf",
+      "size": 2479515,
+      "modified": "2026-08-16T04:14:28.000Z",
+      "checksum": "6d797d753e8b5faa27aaf3d33b2dd822",
+      "folder": false
+    }
+  ]
+}

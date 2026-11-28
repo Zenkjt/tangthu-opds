@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fPce7ZPn8Nm0g9hg9cz8jX3MrHWvExmR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rY-42o4iqYE0MafT-yjZgB1xaFRuqw3m",
+      "parent_id": "1fPce7ZPn8Nm0g9hg9cz8jX3MrHWvExmR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7687,
+      "modified": "2026-08-16T03:31:02.000Z",
+      "checksum": "3f9c51e2ba94664ae84c8d88859473be",
+      "folder": false
+    },
+    {
+      "id": "1g_IlYaOGNFNRzUtWh0_mdX8yz15HLmaN",
+      "parent_id": "1fPce7ZPn8Nm0g9hg9cz8jX3MrHWvExmR",
+      "name": "DUYÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 429937,
+      "modified": "2026-08-16T03:31:09.000Z",
+      "checksum": "4167e59135ba03f22437a0622ca60461",
+      "folder": false
+    },
+    {
+      "id": "1vuI7B3AgH_UNqH005BDhWxITBUS4SfUj",
+      "parent_id": "1fPce7ZPn8Nm0g9hg9cz8jX3MrHWvExmR",
+      "name": "DUYÊN.pdf",
+      "mime": "application/pdf",
+      "size": 962626,
+      "modified": "2026-08-16T03:31:06.000Z",
+      "checksum": "d56baf8e6c49a349e5dd4e93aa95982c",
+      "folder": false
+    }
+  ]
+}

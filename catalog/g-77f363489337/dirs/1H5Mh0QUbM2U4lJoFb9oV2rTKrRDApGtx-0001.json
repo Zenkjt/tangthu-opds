@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1H5Mh0QUbM2U4lJoFb9oV2rTKrRDApGtx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sJ5OuCaDGo-7CcyGWoyoC0a9xycJ_W8p",
+      "parent_id": "1H5Mh0QUbM2U4lJoFb9oV2rTKrRDApGtx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 471,
+      "modified": "2026-08-15T10:05:46.000Z",
+      "checksum": "b415cba88ae899b1958c60b68dbcf653",
+      "folder": false
+    },
+    {
+      "id": "1v17k1OM_rTh-B_PQnG-s3jL40CnhUCzM",
+      "parent_id": "1H5Mh0QUbM2U4lJoFb9oV2rTKrRDApGtx",
+      "name": "VÀ THẾ LÀ CHÚNG TA TIÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 743203,
+      "modified": "2026-08-15T10:05:56.000Z",
+      "checksum": "8f48f5d05472b0edfed96850504d53b6",
+      "folder": false
+    },
+    {
+      "id": "1qYJI3Vf0FbvVxKWzKNVjNtjcyNcWT0AU",
+      "parent_id": "1H5Mh0QUbM2U4lJoFb9oV2rTKrRDApGtx",
+      "name": "VÀ THẾ LÀ CHÚNG TA TIÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1842626,
+      "modified": "2026-08-15T10:05:52.000Z",
+      "checksum": "f0a2e9e68bc327de704c97110d5f8ad5",
+      "folder": false
+    }
+  ]
+}

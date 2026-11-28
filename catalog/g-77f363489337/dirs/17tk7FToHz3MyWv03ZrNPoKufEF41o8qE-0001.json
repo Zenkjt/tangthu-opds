@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17tk7FToHz3MyWv03ZrNPoKufEF41o8qE",
+  "page": 1,
+  "items": [
+    {
+      "id": "19okbj6gTuSWr7OcX-5vlw9eeLjunN8AP",
+      "parent_id": "17tk7FToHz3MyWv03ZrNPoKufEF41o8qE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2407,
+      "modified": "2026-08-15T09:30:11.000Z",
+      "checksum": "2c3e1b48d842b7dc84c0add7d2062f29",
+      "folder": false
+    },
+    {
+      "id": "16CCy2-c7pdUYZK5Ivuh8fO6Ha8B9GmIj",
+      "parent_id": "17tk7FToHz3MyWv03ZrNPoKufEF41o8qE",
+      "name": "NẾU CHỈ LÀ THOÁNG QUA.epub",
+      "mime": "application/epub+zip",
+      "size": 1276093,
+      "modified": "2026-08-15T09:30:20.000Z",
+      "checksum": "3d6572d6ddd502164fef0e134a10ec2c",
+      "folder": false
+    },
+    {
+      "id": "17-BcK6KhAMzqolCsJO3hQWxYiucK_khd",
+      "parent_id": "17tk7FToHz3MyWv03ZrNPoKufEF41o8qE",
+      "name": "NẾU CHỈ LÀ THOÁNG QUA.pdf",
+      "mime": "application/pdf",
+      "size": 866014,
+      "modified": "2026-08-15T09:30:16.000Z",
+      "checksum": "8db7f9fe2f1830fa18f880ebbf6b502e",
+      "folder": false
+    }
+  ]
+}

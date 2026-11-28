@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hNYBrgjlWxC1ngaJEAjW6efo8cu3YTcS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cfFfkgPaWn0aMVXhIsEkos0qE7rS7-PS",
+      "parent_id": "1hNYBrgjlWxC1ngaJEAjW6efo8cu3YTcS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3585,
+      "modified": "2026-08-16T04:05:54.000Z",
+      "checksum": "32c3c2799bb33cdb8ca9aa8338b5be59",
+      "folder": false
+    },
+    {
+      "id": "1Gt2zrMaGVEyeoMK3QaiBQ0sKoeCmXvat",
+      "parent_id": "1hNYBrgjlWxC1ngaJEAjW6efo8cu3YTcS",
+      "name": "PHƯƠNG PHÁP CỦA A. C. KINSEY.epub",
+      "mime": "application/epub+zip",
+      "size": 669310,
+      "modified": "2026-08-16T04:06:01.000Z",
+      "checksum": "2bc8cb792ce27426c5d5287fc2bd3f8d",
+      "folder": false
+    },
+    {
+      "id": "19YVH9LeuNWawexgdDhjSZ8jOKK7ekWb7",
+      "parent_id": "1hNYBrgjlWxC1ngaJEAjW6efo8cu3YTcS",
+      "name": "PHƯƠNG PHÁP CỦA A. C. KINSEY.pdf",
+      "mime": "application/pdf",
+      "size": 838118,
+      "modified": "2026-08-16T04:05:58.000Z",
+      "checksum": "4fff470b79f8d9a3259de0bf51260e98",
+      "folder": false
+    }
+  ]
+}

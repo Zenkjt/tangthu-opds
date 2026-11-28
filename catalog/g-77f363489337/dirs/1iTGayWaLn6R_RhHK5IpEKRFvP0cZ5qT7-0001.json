@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iTGayWaLn6R_RhHK5IpEKRFvP0cZ5qT7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KDEiFgV_g-K71BxYJoC-V3Ekxb7fq_M-",
+      "parent_id": "1iTGayWaLn6R_RhHK5IpEKRFvP0cZ5qT7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 486,
+      "modified": "2026-08-15T10:37:33.000Z",
+      "checksum": "af018d324ed0747bdc122f47ae6c4c9c",
+      "folder": false
+    },
+    {
+      "id": "1KcsVI7PG3SU4EnO82SdhZL74O5xRyN-D",
+      "parent_id": "1iTGayWaLn6R_RhHK5IpEKRFvP0cZ5qT7",
+      "name": "NHỮNG ĐIỀU CHÚNG TA LÀM VÌ YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 537968,
+      "modified": "2026-08-15T10:37:41.000Z",
+      "checksum": "079bd63b8a138638c81118e5a3ea9534",
+      "folder": false
+    },
+    {
+      "id": "1yEehaCiiEnHKnKVMzpHPeBDgB60RUnV9",
+      "parent_id": "1iTGayWaLn6R_RhHK5IpEKRFvP0cZ5qT7",
+      "name": "NHỮNG ĐIỀU CHÚNG TA LÀM VÌ YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1456912,
+      "modified": "2026-08-15T10:37:38.000Z",
+      "checksum": "cdab92d0ae62c4a05f0d144f9abcdf99",
+      "folder": false
+    }
+  ]
+}

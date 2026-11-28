@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kb1by9sCjpSKH7CVxm-YeYrAC_WK2enl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1paMpctna7DskBmeJ965J37XShReWB5DP",
+      "parent_id": "1kb1by9sCjpSKH7CVxm-YeYrAC_WK2enl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2322,
+      "modified": "2026-08-16T03:36:15.000Z",
+      "checksum": "24929dca9eaf1c3fb43563ff48bc7e96",
+      "folder": false
+    },
+    {
+      "id": "1LIrb7BUsBhpU7Ei3luB1DK0cdK8aYf3J",
+      "parent_id": "1kb1by9sCjpSKH7CVxm-YeYrAC_WK2enl",
+      "name": "TỘI TÌNH VÌ YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 629870,
+      "modified": "2026-08-16T03:36:23.000Z",
+      "checksum": "e54ca6376688d4632757fabf75caac00",
+      "folder": false
+    },
+    {
+      "id": "1RjzylLNiYruxbcrIQ0_qxbDxz9Rm99OA",
+      "parent_id": "1kb1by9sCjpSKH7CVxm-YeYrAC_WK2enl",
+      "name": "TỘI TÌNH VÌ YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1399527,
+      "modified": "2026-08-16T03:36:20.000Z",
+      "checksum": "9e08d3b02ff2ecf4d1c1ca99db365439",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13qAfOD0Y_rluMsKZNA9LY7sOw0enJQqF",
+  "page": 1,
+  "items": [
+    {
+      "id": "15Bh5_0WioMQUxt7kmZJolo00ycVbeTgv",
+      "parent_id": "13qAfOD0Y_rluMsKZNA9LY7sOw0enJQqF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1800,
+      "modified": "2026-08-15T05:52:24.000Z",
+      "checksum": "6337c3418c88f419524a27461ce7f176",
+      "folder": false
+    },
+    {
+      "id": "1HEdObMmchvbWOULk_Zjre9CdhBHnd1hB",
+      "parent_id": "13qAfOD0Y_rluMsKZNA9LY7sOw0enJQqF",
+      "name": "MƯU LƯỢC ĐẶNG TIỂU BÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 454709,
+      "modified": "2026-08-15T05:52:33.000Z",
+      "checksum": "4941fad06559a92172e0d039f8f2f282",
+      "folder": false
+    },
+    {
+      "id": "1jo-OlfaLWzdUe7k4gW4nNkmtMoRFIJpA",
+      "parent_id": "13qAfOD0Y_rluMsKZNA9LY7sOw0enJQqF",
+      "name": "MƯU LƯỢC ĐẶNG TIỂU BÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 1619343,
+      "modified": "2026-08-15T05:52:30.000Z",
+      "checksum": "800d782a1cb63841685ce520cab878b1",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NU5W6MeB1lfyGEo1Uj6b62AUkg5EdA7y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1W66e80Y1e6rD-das2fys7iTUWNEGl-wZ",
+      "parent_id": "1NU5W6MeB1lfyGEo1Uj6b62AUkg5EdA7y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2683,
+      "modified": "2026-08-15T15:05:08.000Z",
+      "checksum": "76bbdd3001e3eade6cc1f01e2a3762f1",
+      "folder": false
+    },
+    {
+      "id": "1tWlgADaeJeG81qYEaMaBCWANpbJcZ0qB",
+      "parent_id": "1NU5W6MeB1lfyGEo1Uj6b62AUkg5EdA7y",
+      "name": "TỪ TỪ SUY LÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 593975,
+      "modified": "2026-08-15T15:05:16.000Z",
+      "checksum": "5f62ccff5f203871ab584e58ed60d1a4",
+      "folder": false
+    },
+    {
+      "id": "1DaZhOrSAAM0g6_SFY-Um0ieytmOCAoCV",
+      "parent_id": "1NU5W6MeB1lfyGEo1Uj6b62AUkg5EdA7y",
+      "name": "TỪ TỪ SUY LÝ.pdf",
+      "mime": "application/pdf",
+      "size": 1467710,
+      "modified": "2026-08-15T15:05:13.000Z",
+      "checksum": "c637051384a28b02eb044da8d4245f28",
+      "folder": false
+    }
+  ]
+}

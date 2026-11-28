@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1c8CiRpgeLtnrRYGAvxAFnJZMS7hWxqhB",
+  "page": 1,
+  "items": [
+    {
+      "id": "13i3HNgVQbSTB8c2HZRa_var8dzXI7tF7",
+      "parent_id": "1c8CiRpgeLtnrRYGAvxAFnJZMS7hWxqhB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1115,
+      "modified": "2026-08-15T09:46:00.000Z",
+      "checksum": "06177d7ac92db206275674bef2fc09bd",
+      "folder": false
+    },
+    {
+      "id": "1sRXLlFViAMxg2BYx-Vnkquhv0P4oMefO",
+      "parent_id": "1c8CiRpgeLtnrRYGAvxAFnJZMS7hWxqhB",
+      "name": "KHI RAU CHÂN VỊT GẶP RAU MUỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 325502,
+      "modified": "2026-08-15T09:46:07.000Z",
+      "checksum": "2c7164bfffd69b427357a171bbe5110f",
+      "folder": false
+    },
+    {
+      "id": "1jahNtcBN5DwfmvL5LjS4foptllbD49OD",
+      "parent_id": "1c8CiRpgeLtnrRYGAvxAFnJZMS7hWxqhB",
+      "name": "KHI RAU CHÂN VỊT GẶP RAU MUỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 646060,
+      "modified": "2026-08-15T09:46:05.000Z",
+      "checksum": "8a9e5037053ca0a1357886955302e989",
+      "folder": false
+    }
+  ]
+}

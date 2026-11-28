@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sI5qd6jPuCQdnFlDBp3vfw25uCropLF1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AZsYfn-vsT8e-hFU58mw_7LOWjndwSym",
+      "parent_id": "1sI5qd6jPuCQdnFlDBp3vfw25uCropLF1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 458,
+      "modified": "2026-08-15T10:36:19.000Z",
+      "checksum": "3a3cefb26e4377b89094c19840f9928a",
+      "folder": false
+    },
+    {
+      "id": "1f2WcHWpVDeqTOmj_DK689tAjipxCeNBB",
+      "parent_id": "1sI5qd6jPuCQdnFlDBp3vfw25uCropLF1",
+      "name": "NỖI BUỒN CỦA SUZUMIYA HARUHI.epub",
+      "mime": "application/epub+zip",
+      "size": 367236,
+      "modified": "2026-08-15T10:36:25.000Z",
+      "checksum": "6f095af2c6eb95bd7c0da4133f28ddc8",
+      "folder": false
+    },
+    {
+      "id": "1jtZ5GGIzjBv-E99ERpZm1UYMxV30y32d",
+      "parent_id": "1sI5qd6jPuCQdnFlDBp3vfw25uCropLF1",
+      "name": "NỖI BUỒN CỦA SUZUMIYA HARUHI.pdf",
+      "mime": "application/pdf",
+      "size": 649325,
+      "modified": "2026-08-15T10:36:23.000Z",
+      "checksum": "20242285466e9eff8066ce54cf2b0098",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pTumAIXpgV4fyJUB_hEu7vsWGbQPLGoe",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lm4qKercLtmkHJyIEFtEjHrbXBAYiBG5",
+      "parent_id": "1pTumAIXpgV4fyJUB_hEu7vsWGbQPLGoe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1603,
+      "modified": "2026-08-15T00:46:18.000Z",
+      "checksum": "4dd1d5a3349fb35eaf14f18f9485e3a8",
+      "folder": false
+    },
+    {
+      "id": "1HvIVS8ZFfPs0FPpfGcr4-tVUyvCLAkdX",
+      "parent_id": "1pTumAIXpgV4fyJUB_hEu7vsWGbQPLGoe",
+      "name": "NGHỆ THUẬT ĐÀM PHÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 505691,
+      "modified": "2026-08-15T00:46:24.000Z",
+      "checksum": "74425635d8168d46c9917c71d6808cc1",
+      "folder": false
+    },
+    {
+      "id": "1aBeUQYjaRh7nC0S40uwCU-ua0Hbixm6Z",
+      "parent_id": "1pTumAIXpgV4fyJUB_hEu7vsWGbQPLGoe",
+      "name": "NGHỆ THUẬT ĐÀM PHÁN.pdf",
+      "mime": "application/pdf",
+      "size": 1159861,
+      "modified": "2026-08-15T00:46:22.000Z",
+      "checksum": "e81a988eeb4dd58b1108e0a89ae17201",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fIssUOXZY7VVuGztE-jUQZSy5I8abuSQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "18RlWYcCSesaQRSiI4OeWtQot7BrBk8Mb",
+      "parent_id": "1fIssUOXZY7VVuGztE-jUQZSy5I8abuSQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1569,
+      "modified": "2026-08-15T03:54:12.000Z",
+      "checksum": "2074b9ffdec56d57172b4c81eac9e72e",
+      "folder": false
+    },
+    {
+      "id": "1M5bA7JNumlSbaBpM6b21HVooeBgJvD5f",
+      "parent_id": "1fIssUOXZY7VVuGztE-jUQZSy5I8abuSQ",
+      "name": "LỜI NGỎ TỪ CÕI TÂM LINH.epub",
+      "mime": "application/epub+zip",
+      "size": 428799,
+      "modified": "2026-08-15T03:54:21.000Z",
+      "checksum": "f1fc127b59388196a74897899c46f82f",
+      "folder": false
+    },
+    {
+      "id": "1k5OEvgIfp_6MBJNrqpi45Li_EBlqQqBk",
+      "parent_id": "1fIssUOXZY7VVuGztE-jUQZSy5I8abuSQ",
+      "name": "LỜI NGỎ TỪ CÕI TÂM LINH.pdf",
+      "mime": "application/pdf",
+      "size": 947842,
+      "modified": "2026-08-15T03:54:18.000Z",
+      "checksum": "ec29d8c068ec888493a7f6fa042c4be6",
+      "folder": false
+    }
+  ]
+}

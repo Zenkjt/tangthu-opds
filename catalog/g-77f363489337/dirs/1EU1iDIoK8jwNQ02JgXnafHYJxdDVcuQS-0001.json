@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EU1iDIoK8jwNQ02JgXnafHYJxdDVcuQS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yteSB-tzxP_Rocmf0wVfk55oUpP_kVgv",
+      "parent_id": "1EU1iDIoK8jwNQ02JgXnafHYJxdDVcuQS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 483,
+      "modified": "2026-08-16T04:13:50.000Z",
+      "checksum": "0080d802dc2909b42cf7a603f8dc4a7a",
+      "folder": false
+    },
+    {
+      "id": "1d_4kkuojCbcvMZDslqQnltY4hgfnXDGa",
+      "parent_id": "1EU1iDIoK8jwNQ02JgXnafHYJxdDVcuQS",
+      "name": "NGƯỜI ĐẸP TRẢ THÙ.epub",
+      "mime": "application/epub+zip",
+      "size": 476697,
+      "modified": "2026-08-16T04:13:57.000Z",
+      "checksum": "b2e5204bf895aee5d0e60a0646c23e21",
+      "folder": false
+    },
+    {
+      "id": "1FobSAbzcpp9PHkBWqdQWSigtq68oDO1T",
+      "parent_id": "1EU1iDIoK8jwNQ02JgXnafHYJxdDVcuQS",
+      "name": "NGƯỜI ĐẸP TRẢ THÙ.pdf",
+      "mime": "application/pdf",
+      "size": 1015200,
+      "modified": "2026-08-16T04:13:54.000Z",
+      "checksum": "5e65ba2057953dae9c04700ab736a214",
+      "folder": false
+    }
+  ]
+}

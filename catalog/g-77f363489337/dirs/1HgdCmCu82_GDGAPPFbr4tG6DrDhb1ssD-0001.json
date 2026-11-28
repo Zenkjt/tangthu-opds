@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HgdCmCu82_GDGAPPFbr4tG6DrDhb1ssD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1d2wEYEX0Z8B-2GueBOssbd5HAslmZ0C9",
+      "parent_id": "1HgdCmCu82_GDGAPPFbr4tG6DrDhb1ssD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3166,
+      "modified": "2026-08-15T10:46:25.000Z",
+      "checksum": "a8c9cf698020a203ba4abecec77cda19",
+      "folder": false
+    },
+    {
+      "id": "1I4OnqS6fbLi9UwtKetbR0Kd_5bcfHUTV",
+      "parent_id": "1HgdCmCu82_GDGAPPFbr4tG6DrDhb1ssD",
+      "name": "NGHỊCH THIÊN KỸ.epub",
+      "mime": "application/epub+zip",
+      "size": 2200237,
+      "modified": "2026-08-15T10:46:40.000Z",
+      "checksum": "368316ee68b4c2fc2d4e5466a4f403b5",
+      "folder": false
+    },
+    {
+      "id": "1P_XHW_7uH0955EGGrYTi9wGfEJXd_5_O",
+      "parent_id": "1HgdCmCu82_GDGAPPFbr4tG6DrDhb1ssD",
+      "name": "NGHỊCH THIÊN KỸ.pdf",
+      "mime": "application/pdf",
+      "size": 2486635,
+      "modified": "2026-08-15T10:46:35.000Z",
+      "checksum": "ace3f2d08bca2a8d3f241c874d1c1d01",
+      "folder": false
+    }
+  ]
+}

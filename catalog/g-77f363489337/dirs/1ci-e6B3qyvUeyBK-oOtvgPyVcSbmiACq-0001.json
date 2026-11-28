@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ci-e6B3qyvUeyBK-oOtvgPyVcSbmiACq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1C5sNXRnwsoUCKc7IDO0Jedy0x31h2VS6",
+      "parent_id": "1ci-e6B3qyvUeyBK-oOtvgPyVcSbmiACq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6776,
+      "modified": "2026-08-15T03:25:26.000Z",
+      "checksum": "c7e68230a5cc6bc5710eeace1887ad78",
+      "folder": false
+    },
+    {
+      "id": "1Mx3ZiI6KW2vk9IJUdltT2zD81n98st6J",
+      "parent_id": "1ci-e6B3qyvUeyBK-oOtvgPyVcSbmiACq",
+      "name": "ĐẮC NHÂN TÂM THEO PHONG CÁCH PHẬT GIÁO.epub",
+      "mime": "application/epub+zip",
+      "size": 695172,
+      "modified": "2026-08-15T03:25:32.000Z",
+      "checksum": "203f1f839157dd61b2f67798457db2de",
+      "folder": false
+    },
+    {
+      "id": "1D5a_nYqaBHDRsSSSfdIm23V5AhhxJUQh",
+      "parent_id": "1ci-e6B3qyvUeyBK-oOtvgPyVcSbmiACq",
+      "name": "ĐẮC NHÂN TÂM THEO PHONG CÁCH PHẬT GIÁO.pdf",
+      "mime": "application/pdf",
+      "size": 789022,
+      "modified": "2026-08-15T03:25:30.000Z",
+      "checksum": "71f16121abf019865dd98288f65a1e10",
+      "folder": false
+    }
+  ]
+}

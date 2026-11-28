@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AL57SiEW03PTFevJyA0vzl5NJ_UnAj3-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dS5d0DwlJHdMUVc4JXj1q5jvA6DyFSRR",
+      "parent_id": "1AL57SiEW03PTFevJyA0vzl5NJ_UnAj3-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1459,
+      "modified": "2026-08-16T03:24:18.000Z",
+      "checksum": "0aeaae43d63182a75359331b1528ec24",
+      "folder": false
+    },
+    {
+      "id": "1CWB_FcApwoKRgMmYbEhFIGCpEJx_wsue",
+      "parent_id": "1AL57SiEW03PTFevJyA0vzl5NJ_UnAj3-",
+      "name": "ĐIÊN CUỒNG BẤT ĐẮC DĨ.epub",
+      "mime": "application/epub+zip",
+      "size": 542093,
+      "modified": "2026-08-16T03:24:24.000Z",
+      "checksum": "91284887ef711ac31414c70482a0eb84",
+      "folder": false
+    },
+    {
+      "id": "1sEmOHcVwsJAXcbRYpwX0vR2U4sTCBYut",
+      "parent_id": "1AL57SiEW03PTFevJyA0vzl5NJ_UnAj3-",
+      "name": "ĐIÊN CUỒNG BẤT ĐẮC DĨ.pdf",
+      "mime": "application/pdf",
+      "size": 740869,
+      "modified": "2026-08-16T03:24:21.000Z",
+      "checksum": "e7e6890654e69f1305e3cb7daf86eedf",
+      "folder": false
+    }
+  ]
+}

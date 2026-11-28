@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1c1q1048wCsUcqhCBIbWwxHVCTaOYiyJH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NdooYu5z_bsrRDFavl6IATJvE0wf7kjS",
+      "parent_id": "1c1q1048wCsUcqhCBIbWwxHVCTaOYiyJH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 833,
+      "modified": "2026-08-16T04:01:30.000Z",
+      "checksum": "7a5e1d97b056151867dd9446dbc36522",
+      "folder": false
+    },
+    {
+      "id": "1_RSalyoO4Knd4S71y_5Y9w9TC_C8l-xe",
+      "parent_id": "1c1q1048wCsUcqhCBIbWwxHVCTaOYiyJH",
+      "name": "TẬP TRUYỆN NGẮN ĐẢO.epub",
+      "mime": "application/epub+zip",
+      "size": 598667,
+      "modified": "2026-08-16T04:01:37.000Z",
+      "checksum": "f46420382d7bd1af493359adfcb44003",
+      "folder": false
+    },
+    {
+      "id": "1styFimaDNTuZvhr9ADATF6y4g-YED2AE",
+      "parent_id": "1c1q1048wCsUcqhCBIbWwxHVCTaOYiyJH",
+      "name": "TẬP TRUYỆN NGẮN ĐẢO.pdf",
+      "mime": "application/pdf",
+      "size": 643733,
+      "modified": "2026-08-16T04:01:34.000Z",
+      "checksum": "d5e64c8a4121b949564090cf889aa4c0",
+      "folder": false
+    }
+  ]
+}

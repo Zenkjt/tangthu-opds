@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ttj36k0EklinuySluhPoKm-jVhp5qcBN",
+  "page": 1,
+  "items": [
+    {
+      "id": "177s1nHaQX_-xdhcw6fVIR9LWhje1uw5V",
+      "parent_id": "1Ttj36k0EklinuySluhPoKm-jVhp5qcBN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3345,
+      "modified": "2026-08-16T03:11:40.000Z",
+      "checksum": "1a1f3c5ad1b6052e0f6fdd57f5b8f892",
+      "folder": false
+    },
+    {
+      "id": "13es4Ofn8zR9tEy0Pmlc-vvK_7XSXcTqJ",
+      "parent_id": "1Ttj36k0EklinuySluhPoKm-jVhp5qcBN",
+      "name": "GIỮA CƠN LỐC.epub",
+      "mime": "application/epub+zip",
+      "size": 524079,
+      "modified": "2026-08-16T03:11:47.000Z",
+      "checksum": "83f232847d17600604c4dece24eef6a0",
+      "folder": false
+    },
+    {
+      "id": "1JyXLJqrSRoqz1f61go6xz5UMCZpAT0lq",
+      "parent_id": "1Ttj36k0EklinuySluhPoKm-jVhp5qcBN",
+      "name": "GIỮA CƠN LỐC.pdf",
+      "mime": "application/pdf",
+      "size": 665426,
+      "modified": "2026-08-16T03:11:44.000Z",
+      "checksum": "e2c2dd245e450080ed28c789e2ca565f",
+      "folder": false
+    }
+  ]
+}

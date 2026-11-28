@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1x0E41Wb0-aHnnuTxHjWiBW_fJmebqKs_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bM4w1yoMchl74PIPvQcX1t5qCs1TFMiS",
+      "parent_id": "1x0E41Wb0-aHnnuTxHjWiBW_fJmebqKs_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3167,
+      "modified": "2026-08-15T10:32:26.000Z",
+      "checksum": "3c1743ee6a5c18113d0f68ec622e4d5a",
+      "folder": false
+    },
+    {
+      "id": "1BvpDZ0emfyYrMCiN69JoU5davIF41VpT",
+      "parent_id": "1x0E41Wb0-aHnnuTxHjWiBW_fJmebqKs_",
+      "name": "PHỒN GIẢN.epub",
+      "mime": "application/epub+zip",
+      "size": 1383860,
+      "modified": "2026-08-15T10:32:34.000Z",
+      "checksum": "7c44a39a459cc3798968f34f0ca8c1a8",
+      "folder": false
+    },
+    {
+      "id": "1Ql_K3UHcne3nyejEqxNt3uy5BhExxkLn",
+      "parent_id": "1x0E41Wb0-aHnnuTxHjWiBW_fJmebqKs_",
+      "name": "PHỒN GIẢN.pdf",
+      "mime": "application/pdf",
+      "size": 1414969,
+      "modified": "2026-08-15T10:32:30.000Z",
+      "checksum": "57ebbb43274ea1fda7361abe9129158c",
+      "folder": false
+    }
+  ]
+}

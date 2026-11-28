@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_jTRMtmEU7QYN4gljDXKZa8h2vpNoPJR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_0t5__BQtYITKgeeblpbebAyJnzm7H1A",
+      "parent_id": "1_jTRMtmEU7QYN4gljDXKZa8h2vpNoPJR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3928,
+      "modified": "2026-08-15T12:59:27.000Z",
+      "checksum": "26052e041ce04d0710903698b3cf042a",
+      "folder": false
+    },
+    {
+      "id": "1KKUQCyLZdQ7DsT2PKBUeCHm30eDYcSkg",
+      "parent_id": "1_jTRMtmEU7QYN4gljDXKZa8h2vpNoPJR",
+      "name": "NHỮNG NGÀY CUỐI CỦA LORIEN.epub",
+      "mime": "application/epub+zip",
+      "size": 535249,
+      "modified": "2026-08-15T12:59:33.000Z",
+      "checksum": "da8f0a6766714c4d9c8aa5cc6af0b634",
+      "folder": false
+    },
+    {
+      "id": "1nmKpzP-LjAHlX7eFd-cdFNpkzQ9Vkdfi",
+      "parent_id": "1_jTRMtmEU7QYN4gljDXKZa8h2vpNoPJR",
+      "name": "NHỮNG NGÀY CUỐI CỦA LORIEN.pdf",
+      "mime": "application/pdf",
+      "size": 424818,
+      "modified": "2026-08-15T12:59:30.000Z",
+      "checksum": "6743f40891d741392989182f99b4b459",
+      "folder": false
+    }
+  ]
+}

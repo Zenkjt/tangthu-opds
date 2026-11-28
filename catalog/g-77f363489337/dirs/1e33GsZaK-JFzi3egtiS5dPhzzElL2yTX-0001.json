@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1e33GsZaK-JFzi3egtiS5dPhzzElL2yTX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gDZHuZBs2dcaMLHMbzapX5N17UwX8lUA",
+      "parent_id": "1e33GsZaK-JFzi3egtiS5dPhzzElL2yTX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1903,
+      "modified": "2026-08-16T03:30:28.000Z",
+      "checksum": "9923b64d4325c2ae2a86d7281630f243",
+      "folder": false
+    },
+    {
+      "id": "1h9IEoseoJ5ysjHMyNt-OfXJYmnB1X157",
+      "parent_id": "1e33GsZaK-JFzi3egtiS5dPhzzElL2yTX",
+      "name": "NGƯỜI THẤT CHÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 429066,
+      "modified": "2026-08-16T03:30:34.000Z",
+      "checksum": "238a68834fbf969847b5e0fb407da7d3",
+      "folder": false
+    },
+    {
+      "id": "140PuPaPwmoJWXtDXucr8l0RIuacbUuZw",
+      "parent_id": "1e33GsZaK-JFzi3egtiS5dPhzzElL2yTX",
+      "name": "NGƯỜI THẤT CHÍ.pdf",
+      "mime": "application/pdf",
+      "size": 351171,
+      "modified": "2026-08-16T03:30:32.000Z",
+      "checksum": "9ec580eeb4792bb12de1185daad6a116",
+      "folder": false
+    }
+  ]
+}

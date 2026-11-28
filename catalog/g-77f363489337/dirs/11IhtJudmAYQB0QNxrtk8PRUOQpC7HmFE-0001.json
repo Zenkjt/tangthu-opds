@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11IhtJudmAYQB0QNxrtk8PRUOQpC7HmFE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1T7f2hEaMcVv_A9n_GUYxE_iTELVmQ_tv",
+      "parent_id": "11IhtJudmAYQB0QNxrtk8PRUOQpC7HmFE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5434,
+      "modified": "2026-08-15T03:17:39.000Z",
+      "checksum": "e70aee01a941a7c9c546def8334f9d29",
+      "folder": false
+    },
+    {
+      "id": "1AwcSwxJ5F2KcG55sewiIRUa36FoAmA5T",
+      "parent_id": "11IhtJudmAYQB0QNxrtk8PRUOQpC7HmFE",
+      "name": "THAY ĐỔI ĐỂ THÀNH CÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 401396,
+      "modified": "2026-08-15T03:17:45.000Z",
+      "checksum": "515e2419fe37c50db65a318f4dd59942",
+      "folder": false
+    },
+    {
+      "id": "1xAoYbx39SGdvMwUm2QPiCeAOMHDVlsOH",
+      "parent_id": "11IhtJudmAYQB0QNxrtk8PRUOQpC7HmFE",
+      "name": "THAY ĐỔI ĐỂ THÀNH CÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 665842,
+      "modified": "2026-08-15T03:17:42.000Z",
+      "checksum": "23c28e24381c42071a94858f05825418",
+      "folder": false
+    }
+  ]
+}

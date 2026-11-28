@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1F289dQvA45zVgbI-KOZyxWZyzs9_MiAv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zHLag0gj02vbo3B1Yam-KBlsE9Y8z3PM",
+      "parent_id": "1F289dQvA45zVgbI-KOZyxWZyzs9_MiAv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 468,
+      "modified": "2026-08-16T03:52:38.000Z",
+      "checksum": "3728f4fce6d15b4c6f0299f116f11170",
+      "folder": false
+    },
+    {
+      "id": "1WL1ZJCN0IoUUbEsnzMHvpZYV84d9OTsE",
+      "parent_id": "1F289dQvA45zVgbI-KOZyxWZyzs9_MiAv",
+      "name": "TRẺ EM CƯỚP DÂU.epub",
+      "mime": "application/epub+zip",
+      "size": 293068,
+      "modified": "2026-08-16T03:52:44.000Z",
+      "checksum": "17398e40b374919122e73430aa58e003",
+      "folder": false
+    },
+    {
+      "id": "1cUQGSBT0U69_hme0vO5HZKkSUCmxLXXU",
+      "parent_id": "1F289dQvA45zVgbI-KOZyxWZyzs9_MiAv",
+      "name": "TRẺ EM CƯỚP DÂU.pdf",
+      "mime": "application/pdf",
+      "size": 350877,
+      "modified": "2026-08-16T03:52:42.000Z",
+      "checksum": "80ba54c136baffeaa63b69eae8b7b7f0",
+      "folder": false
+    }
+  ]
+}

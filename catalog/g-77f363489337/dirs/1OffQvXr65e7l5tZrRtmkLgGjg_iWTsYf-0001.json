@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OffQvXr65e7l5tZrRtmkLgGjg_iWTsYf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uis3bILDSiWapgDFw9VrOOpSMrR388ni",
+      "parent_id": "1OffQvXr65e7l5tZrRtmkLgGjg_iWTsYf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1654,
+      "modified": "2026-08-15T06:59:10.000Z",
+      "checksum": "0726f13601ef65980593aec5bfdb7a96",
+      "folder": false
+    },
+    {
+      "id": "1Jq97-_S4vXWNdB62izlp2YMsAxqy-ezi",
+      "parent_id": "1OffQvXr65e7l5tZrRtmkLgGjg_iWTsYf",
+      "name": "JÊN ERƠ.epub",
+      "mime": "application/epub+zip",
+      "size": 420103,
+      "modified": "2026-08-15T06:59:21.000Z",
+      "checksum": "9ee58ed1e4cc9f2da6b2e5098d7ef423",
+      "folder": false
+    },
+    {
+      "id": "1A_iYq-l---S9zNLzMsI5lAtU6MhEm4rm",
+      "parent_id": "1OffQvXr65e7l5tZrRtmkLgGjg_iWTsYf",
+      "name": "JÊN ERƠ.pdf",
+      "mime": "application/pdf",
+      "size": 264227,
+      "modified": "2026-08-15T06:59:17.000Z",
+      "checksum": "db844cfe8a39fe63e5493b11e977f401",
+      "folder": false
+    }
+  ]
+}

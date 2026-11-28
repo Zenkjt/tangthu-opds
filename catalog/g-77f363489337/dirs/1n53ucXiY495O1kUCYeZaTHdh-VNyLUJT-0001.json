@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1n53ucXiY495O1kUCYeZaTHdh-VNyLUJT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dCzlHvBOlW2Zt487MTgPs3tTu_-xwT5X",
+      "parent_id": "1n53ucXiY495O1kUCYeZaTHdh-VNyLUJT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3054,
+      "modified": "2026-08-15T09:43:25.000Z",
+      "checksum": "f4f928571184c0a31acbaa93e16f203c",
+      "folder": false
+    },
+    {
+      "id": "1h_aH6ISMszt2svBWJb-qsGJ4mn8Vn5-z",
+      "parent_id": "1n53ucXiY495O1kUCYeZaTHdh-VNyLUJT",
+      "name": "LOLA CHẠY TRỐN.epub",
+      "mime": "application/epub+zip",
+      "size": 468619,
+      "modified": "2026-08-15T09:43:37.000Z",
+      "checksum": "aee3a2cae5ea0bff98e48e1888f1600d",
+      "folder": false
+    },
+    {
+      "id": "1NDakMSqLCmRstab-Rzx3EUrZxKzfKo6Y",
+      "parent_id": "1n53ucXiY495O1kUCYeZaTHdh-VNyLUJT",
+      "name": "LOLA CHẠY TRỐN.pdf",
+      "mime": "application/pdf",
+      "size": 1058351,
+      "modified": "2026-08-15T09:43:34.000Z",
+      "checksum": "01803ab03871e8029209189c8dc77f5f",
+      "folder": false
+    }
+  ]
+}

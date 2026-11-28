@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GD-6-iFXoU5RejgbM57v4HS0xdb0jy6g",
+  "page": 1,
+  "items": [
+    {
+      "id": "1X3lrbnroOZAThfh2SG5bjyM-m9RoC9a4",
+      "parent_id": "1GD-6-iFXoU5RejgbM57v4HS0xdb0jy6g",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1083,
+      "modified": "2026-08-15T08:10:50.000Z",
+      "checksum": "0bf5826de631cd52d3aad87a02580c81",
+      "folder": false
+    },
+    {
+      "id": "1nT2GG15F8Y5wQzFdjQ09iXY-bG4GsQSu",
+      "parent_id": "1GD-6-iFXoU5RejgbM57v4HS0xdb0jy6g",
+      "name": "ĐÁNH CẮP TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 559790,
+      "modified": "2026-08-15T08:10:59.000Z",
+      "checksum": "eb1c5343cd883366bbe50941cf8978f0",
+      "folder": false
+    },
+    {
+      "id": "13Ey3kmCKVC-9OdbYtTd_ttEqQ88ioPK-",
+      "parent_id": "1GD-6-iFXoU5RejgbM57v4HS0xdb0jy6g",
+      "name": "ĐÁNH CẮP TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1664229,
+      "modified": "2026-08-15T08:10:56.000Z",
+      "checksum": "223004d628ab9a5a9b984f3e3e3a1c1e",
+      "folder": false
+    }
+  ]
+}

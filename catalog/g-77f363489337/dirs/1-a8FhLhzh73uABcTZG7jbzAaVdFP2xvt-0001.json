@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-a8FhLhzh73uABcTZG7jbzAaVdFP2xvt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1E7hduvvmYhKaLwOgTV9Yg6U4QqlAR_Al",
+      "parent_id": "1-a8FhLhzh73uABcTZG7jbzAaVdFP2xvt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10260,
+      "modified": "2026-08-15T07:13:31.000Z",
+      "checksum": "dcdb18379e2d0e341f0c0aa4051b77ba",
+      "folder": false
+    },
+    {
+      "id": "15OJK6ayzx9VPqFuxwsF1xS1F7xPvxg8J",
+      "parent_id": "1-a8FhLhzh73uABcTZG7jbzAaVdFP2xvt",
+      "name": "NGỌN LỬA HỒNG HOANG.epub",
+      "mime": "application/epub+zip",
+      "size": 517917,
+      "modified": "2026-08-15T07:13:37.000Z",
+      "checksum": "a86bd890e59ee4cecc429194c9e06328",
+      "folder": false
+    },
+    {
+      "id": "1LH8gVqGSsPwIT-Uk9xBjSSYYiHd_kbgB",
+      "parent_id": "1-a8FhLhzh73uABcTZG7jbzAaVdFP2xvt",
+      "name": "NGỌN LỬA HỒNG HOANG.pdf",
+      "mime": "application/pdf",
+      "size": 930425,
+      "modified": "2026-08-15T07:13:35.000Z",
+      "checksum": "ce20eaf5075c420a1d0fbaab1f4e365a",
+      "folder": false
+    }
+  ]
+}

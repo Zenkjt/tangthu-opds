@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1l09icz_tLGmAesJuNRfGqaDqnJSTsBEw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eX0LuhZGqPBvUZ7LrKVHsJ9yLiGBEqcV",
+      "parent_id": "1l09icz_tLGmAesJuNRfGqaDqnJSTsBEw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 14139,
+      "modified": "2026-08-15T08:00:24.000Z",
+      "checksum": "ecf178caac03c62fc74457b0784bf7d0",
+      "folder": false
+    },
+    {
+      "id": "1QvXtZw1saDpDYb0hcLdsp0OfN2M3nWWy",
+      "parent_id": "1l09icz_tLGmAesJuNRfGqaDqnJSTsBEw",
+      "name": "MÔI SÚNG (THẦN THƯƠNG).epub",
+      "mime": "application/epub+zip",
+      "size": 795959,
+      "modified": "2026-08-15T08:00:35.000Z",
+      "checksum": "c4bc168c8d111b11e757c7a89d7ac6ff",
+      "folder": false
+    },
+    {
+      "id": "1zMrVcKZWznYdg_BuSvuZVh3TauAEufp1",
+      "parent_id": "1l09icz_tLGmAesJuNRfGqaDqnJSTsBEw",
+      "name": "MÔI SÚNG (THẦN THƯƠNG).pdf",
+      "mime": "application/pdf",
+      "size": 2856046,
+      "modified": "2026-08-15T08:00:32.000Z",
+      "checksum": "f453da100d719fa65cb0bcda239f5f41",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jWwnjqqNcz6NFtIcp5_OC5l83FSMqulr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eMuB465uJLHomWSMAtA3xbOPf50P0n8r",
+      "parent_id": "1jWwnjqqNcz6NFtIcp5_OC5l83FSMqulr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3571,
+      "modified": "2026-08-16T03:48:46.000Z",
+      "checksum": "35206916e56d7df52df6a38f3bd9dcbb",
+      "folder": false
+    },
+    {
+      "id": "1j0vRclIHmiiYjPD9p4XBz3qisX1jT4JQ",
+      "parent_id": "1jWwnjqqNcz6NFtIcp5_OC5l83FSMqulr",
+      "name": "SỰ CỐ BẮC CỰC.epub",
+      "mime": "application/epub+zip",
+      "size": 561431,
+      "modified": "2026-08-16T03:48:53.000Z",
+      "checksum": "68131f2decfad7d9cdef3d01b5be2834",
+      "folder": false
+    },
+    {
+      "id": "1mB_0gHKHbmHg8Lzm9kjP5Auyye3Sa1DI",
+      "parent_id": "1jWwnjqqNcz6NFtIcp5_OC5l83FSMqulr",
+      "name": "SỰ CỐ BẮC CỰC.pdf",
+      "mime": "application/pdf",
+      "size": 917417,
+      "modified": "2026-08-16T03:48:50.000Z",
+      "checksum": "b6548925104c970e1331588788faa661",
+      "folder": false
+    }
+  ]
+}

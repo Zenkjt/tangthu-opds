@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OP7LZpGPzMjVFlwyDHdfWE_2EWk5wbI9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rFVe2pTvOGEOe3ww7qxGnOKOpzkFLaPd",
+      "parent_id": "1OP7LZpGPzMjVFlwyDHdfWE_2EWk5wbI9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 817,
+      "modified": "2026-08-16T03:01:45.000Z",
+      "checksum": "a7208000722f8fa9975c96bed682beff",
+      "folder": false
+    },
+    {
+      "id": "1Sj5PIFh2GQrcIMIa4YaHSteEWeSEnPNT",
+      "parent_id": "1OP7LZpGPzMjVFlwyDHdfWE_2EWk5wbI9",
+      "name": "KHÚC LAN CAN GÃY.epub",
+      "mime": "application/epub+zip",
+      "size": 425266,
+      "modified": "2026-08-16T03:01:51.000Z",
+      "checksum": "8ed14080b6edf47df89680fe54cae280",
+      "folder": false
+    },
+    {
+      "id": "1TCgVY-0vMI11o3yHYzc52JtHF4gMdBbO",
+      "parent_id": "1OP7LZpGPzMjVFlwyDHdfWE_2EWk5wbI9",
+      "name": "KHÚC LAN CAN GÃY.pdf",
+      "mime": "application/pdf",
+      "size": 521385,
+      "modified": "2026-08-16T03:01:49.000Z",
+      "checksum": "bd4c0fbb040232a35d27c4ec2225e7e2",
+      "folder": false
+    }
+  ]
+}

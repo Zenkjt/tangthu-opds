@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VRvW816jMeQLMjNirnfmzPNS9-Uxwt_a",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xw0BLVvJ-A1dEKSu02zBIWdtjkEzyIiF",
+      "parent_id": "1VRvW816jMeQLMjNirnfmzPNS9-Uxwt_a",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 707,
+      "modified": "2026-08-15T10:48:19.000Z",
+      "checksum": "9bb0e01a1d2172b21c80f6946b749e2f",
+      "folder": false
+    },
+    {
+      "id": "1icK-lSwQoR0ujXaYYDH-5K2itgLPjkim",
+      "parent_id": "1VRvW816jMeQLMjNirnfmzPNS9-Uxwt_a",
+      "name": "NÀNG TIÊN CÁ BONG BÓNG.epub",
+      "mime": "application/epub+zip",
+      "size": 702824,
+      "modified": "2026-08-15T10:48:27.000Z",
+      "checksum": "f11f40efd94e2eb81000ea7d09334900",
+      "folder": false
+    },
+    {
+      "id": "13h4GooVZUdKjCnfL_pq14sSQBHJ8CmE7",
+      "parent_id": "1VRvW816jMeQLMjNirnfmzPNS9-Uxwt_a",
+      "name": "NÀNG TIÊN CÁ BONG BÓNG.pdf",
+      "mime": "application/pdf",
+      "size": 1408475,
+      "modified": "2026-08-15T10:48:25.000Z",
+      "checksum": "af5b133c8add7e3b5d73aa471f2d11b5",
+      "folder": false
+    }
+  ]
+}

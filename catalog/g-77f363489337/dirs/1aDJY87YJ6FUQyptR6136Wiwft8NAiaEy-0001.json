@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aDJY87YJ6FUQyptR6136Wiwft8NAiaEy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-ItOqD277IJgbM645SOemq1i_zi56gWa",
+      "parent_id": "1aDJY87YJ6FUQyptR6136Wiwft8NAiaEy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1460,
+      "modified": "2026-08-16T03:35:23.000Z",
+      "checksum": "72b9770fe81e10626b73b9b926405833",
+      "folder": false
+    },
+    {
+      "id": "1Pg4Kjrf9XWIrObq3chwpBcEpKnl-ywIP",
+      "parent_id": "1aDJY87YJ6FUQyptR6136Wiwft8NAiaEy",
+      "name": "ĐOẠN TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 431948,
+      "modified": "2026-08-16T03:35:30.000Z",
+      "checksum": "c84acce76ec9b59d84d9004d0578813e",
+      "folder": false
+    },
+    {
+      "id": "17Jvz1dETDr6ew4UzxAMsd09r_71WKGma",
+      "parent_id": "1aDJY87YJ6FUQyptR6136Wiwft8NAiaEy",
+      "name": "ĐOẠN TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 584845,
+      "modified": "2026-08-16T03:35:27.000Z",
+      "checksum": "e803866cdb030f9adf5a344d13ae8c6f",
+      "folder": false
+    }
+  ]
+}

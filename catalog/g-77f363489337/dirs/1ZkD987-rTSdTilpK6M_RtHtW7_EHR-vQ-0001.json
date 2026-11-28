@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZkD987-rTSdTilpK6M_RtHtW7_EHR-vQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Dq-rd_31-GcAArvk2MWikaSWxK7_ZoPb",
+      "parent_id": "1ZkD987-rTSdTilpK6M_RtHtW7_EHR-vQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 732,
+      "modified": "2026-08-15T10:41:02.000Z",
+      "checksum": "288092388630a52f0f6097030909d482",
+      "folder": false
+    },
+    {
+      "id": "11UBcIJGDxt7WdkwJTlPPzETSTcgmduhb",
+      "parent_id": "1ZkD987-rTSdTilpK6M_RtHtW7_EHR-vQ",
+      "name": "NGUYÊN HỒNG TUYỂN TẬP TRUYỆN LẺ.epub",
+      "mime": "application/epub+zip",
+      "size": 376497,
+      "modified": "2026-08-15T10:41:14.000Z",
+      "checksum": "6945fa0fc6f5ee3252ca11ae39ad6845",
+      "folder": false
+    },
+    {
+      "id": "1VcZdnV71P3J0JJ_xcH7PTYL0KrOitoM7",
+      "parent_id": "1ZkD987-rTSdTilpK6M_RtHtW7_EHR-vQ",
+      "name": "NGUYÊN HỒNG TUYỂN TẬP TRUYỆN LẺ.pdf",
+      "mime": "application/pdf",
+      "size": 380452,
+      "modified": "2026-08-15T10:41:09.000Z",
+      "checksum": "65dc47151db0678cfeefed53107c2188",
+      "folder": false
+    }
+  ]
+}

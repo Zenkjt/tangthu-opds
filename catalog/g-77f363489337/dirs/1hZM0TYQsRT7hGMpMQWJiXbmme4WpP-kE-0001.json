@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hZM0TYQsRT7hGMpMQWJiXbmme4WpP-kE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1C4qHlr69egrWlreIH1fXc1UCldZis2z6",
+      "parent_id": "1hZM0TYQsRT7hGMpMQWJiXbmme4WpP-kE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 984,
+      "modified": "2026-08-15T03:30:20.000Z",
+      "checksum": "8b7daa8693bbef66c5c2b3499af3d31b",
+      "folder": false
+    },
+    {
+      "id": "1GsDDIBDYNSzdxA38ABEr6XVTksoo0A-I",
+      "parent_id": "1hZM0TYQsRT7hGMpMQWJiXbmme4WpP-kE",
+      "name": "GIỮA LINH VÀ TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 318178,
+      "modified": "2026-08-15T03:30:28.000Z",
+      "checksum": "cdf546af5879713b9383f304f5b719c8",
+      "folder": false
+    },
+    {
+      "id": "1q5PlC-XpphCAs5vgXkMl33HApgLfmV5o",
+      "parent_id": "1hZM0TYQsRT7hGMpMQWJiXbmme4WpP-kE",
+      "name": "GIỮA LINH VÀ TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 850782,
+      "modified": "2026-08-15T03:30:26.000Z",
+      "checksum": "fa2f2d78e04f06904c9b471b55d91519",
+      "folder": false
+    }
+  ]
+}

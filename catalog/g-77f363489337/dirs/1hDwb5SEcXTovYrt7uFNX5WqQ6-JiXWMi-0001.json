@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hDwb5SEcXTovYrt7uFNX5WqQ6-JiXWMi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RtfMCo1XaytqzCAdTZO5rfNfeIcwKUZP",
+      "parent_id": "1hDwb5SEcXTovYrt7uFNX5WqQ6-JiXWMi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5769,
+      "modified": "2026-08-15T03:59:04.000Z",
+      "checksum": "1a68899f039db398de46b3fd7c1fd712",
+      "folder": false
+    },
+    {
+      "id": "10LUVZ-_6gPyM3Eyz9ThouN9f5lSC08CV",
+      "parent_id": "1hDwb5SEcXTovYrt7uFNX5WqQ6-JiXWMi",
+      "name": "TỪ TRÍ TUỆ TỚI TRỰC GIÁC.epub",
+      "mime": "application/epub+zip",
+      "size": 300888,
+      "modified": "2026-08-15T03:59:10.000Z",
+      "checksum": "3b5aa95be9b2f8d682c277817ca3ed20",
+      "folder": false
+    },
+    {
+      "id": "1AdcPFWJ3ac3DRamQmo56Mea5a2qiqGNt",
+      "parent_id": "1hDwb5SEcXTovYrt7uFNX5WqQ6-JiXWMi",
+      "name": "TỪ TRÍ TUỆ TỚI TRỰC GIÁC.pdf",
+      "mime": "application/pdf",
+      "size": 723232,
+      "modified": "2026-08-15T03:59:08.000Z",
+      "checksum": "fa984a1d162bdf01a7150dba703df40b",
+      "folder": false
+    }
+  ]
+}

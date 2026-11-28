@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HCpAeh19bvRLs9DfAkA4wyIxpbs3vcan",
+  "page": 1,
+  "items": [
+    {
+      "id": "1erxXHa3EN74_yDP5XcSXBRCjQ7RP-Ohq",
+      "parent_id": "1HCpAeh19bvRLs9DfAkA4wyIxpbs3vcan",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 423,
+      "modified": "2026-08-16T04:08:15.000Z",
+      "checksum": "2a1f3cef33069e592f9bc81b2745b6e2",
+      "folder": false
+    },
+    {
+      "id": "1jDsq5AnBCE853U7sTFcdwC-HX2fWW8kM",
+      "parent_id": "1HCpAeh19bvRLs9DfAkA4wyIxpbs3vcan",
+      "name": "NỤ HÔN TRỐN TÌM.epub",
+      "mime": "application/epub+zip",
+      "size": 364089,
+      "modified": "2026-08-16T04:08:23.000Z",
+      "checksum": "d162152771466deba5424fbe8fbf454c",
+      "folder": false
+    },
+    {
+      "id": "1VC7DPC3jT41T22dDmehxXGu2FH-JP2s4",
+      "parent_id": "1HCpAeh19bvRLs9DfAkA4wyIxpbs3vcan",
+      "name": "NỤ HÔN TRỐN TÌM.pdf",
+      "mime": "application/pdf",
+      "size": 917839,
+      "modified": "2026-08-16T04:08:20.000Z",
+      "checksum": "4600981ca4f8d04f8648c134e6a0b852",
+      "folder": false
+    }
+  ]
+}

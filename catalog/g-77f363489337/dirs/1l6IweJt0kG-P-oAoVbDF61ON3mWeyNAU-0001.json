@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1l6IweJt0kG-P-oAoVbDF61ON3mWeyNAU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hcOgni3WYLAGbPF5hce2c3GDimqCh363",
+      "parent_id": "1l6IweJt0kG-P-oAoVbDF61ON3mWeyNAU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7038,
+      "modified": "2026-08-15T15:45:39.000Z",
+      "checksum": "924c910e985b52f5b620a388a990cc79",
+      "folder": false
+    },
+    {
+      "id": "1ILyWT6xaD8jK4N5Y6bstnLSnuZhksTim",
+      "parent_id": "1l6IweJt0kG-P-oAoVbDF61ON3mWeyNAU",
+      "name": "TÔI KHÔNG HỢP YÊU ĐƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 582080,
+      "modified": "2026-08-15T15:46:46.000Z",
+      "checksum": "cb41be30f649c5ebdeae8378009b891f",
+      "folder": false
+    },
+    {
+      "id": "11es1zw7Ze5A4X7ReO1S-vTF7nV1k9bSs",
+      "parent_id": "1l6IweJt0kG-P-oAoVbDF61ON3mWeyNAU",
+      "name": "TÔI KHÔNG HỢP YÊU ĐƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1697530,
+      "modified": "2026-08-15T15:46:10.000Z",
+      "checksum": "91aad93420788ca91a500ff1e3fa87da",
+      "folder": false
+    }
+  ]
+}

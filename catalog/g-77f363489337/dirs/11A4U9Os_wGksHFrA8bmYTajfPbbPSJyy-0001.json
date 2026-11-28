@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11A4U9Os_wGksHFrA8bmYTajfPbbPSJyy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xfiA1JLNsMg5ERIG0smk_1vQvbvnt8GE",
+      "parent_id": "11A4U9Os_wGksHFrA8bmYTajfPbbPSJyy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2651,
+      "modified": "2026-08-15T07:07:48.000Z",
+      "checksum": "96d219014652fb936d4873ab7372892c",
+      "folder": false
+    },
+    {
+      "id": "1tbSrnPrpBqXvKYAzCMw3soN0OVBrQBbP",
+      "parent_id": "11A4U9Os_wGksHFrA8bmYTajfPbbPSJyy",
+      "name": "SỨC MẠNH TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 590252,
+      "modified": "2026-08-15T07:07:55.000Z",
+      "checksum": "7e8b8066c76f69f37a084297e78b60cc",
+      "folder": false
+    },
+    {
+      "id": "1JU76kiuqUY_O9eRHkWkJtcb037aBgrf7",
+      "parent_id": "11A4U9Os_wGksHFrA8bmYTajfPbbPSJyy",
+      "name": "SỨC MẠNH TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1048152,
+      "modified": "2026-08-15T07:07:53.000Z",
+      "checksum": "2aa5a11a52962dee37b96eae9bfc9eb4",
+      "folder": false
+    }
+  ]
+}

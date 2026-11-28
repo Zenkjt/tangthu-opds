@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Z1Rig4G0lr9IbxQJIMOScfZm3JfwIjhb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CFaRPWqOERTERhu7wTEKKgfHqPXzoFtR",
+      "parent_id": "1Z1Rig4G0lr9IbxQJIMOScfZm3JfwIjhb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1031,
+      "modified": "2026-08-15T03:56:50.000Z",
+      "checksum": "71ff7d0756cbaf848a930c3369be4d74",
+      "folder": false
+    },
+    {
+      "id": "12guMFcsZOydZkxbNiBrJLUh9agYtfXhF",
+      "parent_id": "1Z1Rig4G0lr9IbxQJIMOScfZm3JfwIjhb",
+      "name": "TÍNH MỆNH KHUÊ CHỈ TOÀN THƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 3321789,
+      "modified": "2026-08-15T03:57:11.000Z",
+      "checksum": "6e25c654fde093064e0cb6a42a472e30",
+      "folder": false
+    },
+    {
+      "id": "15LrAsSqBsuorxWGqXqTTsF_l03GHL99h",
+      "parent_id": "1Z1Rig4G0lr9IbxQJIMOScfZm3JfwIjhb",
+      "name": "TÍNH MỆNH KHUÊ CHỈ TOÀN THƯ.pdf",
+      "mime": "application/pdf",
+      "size": 6718881,
+      "modified": "2026-08-15T03:57:06.000Z",
+      "checksum": "dfc99874390e9b8d797422cd5b9627fb",
+      "folder": false
+    }
+  ]
+}

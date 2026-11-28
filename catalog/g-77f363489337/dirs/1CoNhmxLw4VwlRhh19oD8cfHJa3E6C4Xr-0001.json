@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CoNhmxLw4VwlRhh19oD8cfHJa3E6C4Xr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ei1k8SHNjbc3TIZgnV2k6WHXLhGOIEf0",
+      "parent_id": "1CoNhmxLw4VwlRhh19oD8cfHJa3E6C4Xr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5472,
+      "modified": "2026-08-15T09:40:43.000Z",
+      "checksum": "3e29cf02b99daa5e68a4f60019955f0e",
+      "folder": false
+    },
+    {
+      "id": "1vFiYxFNi02_2N14BjefYyEZsl0SyClYa",
+      "parent_id": "1CoNhmxLw4VwlRhh19oD8cfHJa3E6C4Xr",
+      "name": "MÓN NỢ TRUYỀN KIẾP.epub",
+      "mime": "application/epub+zip",
+      "size": 410504,
+      "modified": "2026-08-15T09:40:50.000Z",
+      "checksum": "9afbeb926dc0c86aaf4fdb69937b29b1",
+      "folder": false
+    },
+    {
+      "id": "15x-wXQghjpY8rJNCe1OfWSCoE2C_jkiD",
+      "parent_id": "1CoNhmxLw4VwlRhh19oD8cfHJa3E6C4Xr",
+      "name": "MÓN NỢ TRUYỀN KIẾP.pdf",
+      "mime": "application/pdf",
+      "size": 946987,
+      "modified": "2026-08-15T09:40:47.000Z",
+      "checksum": "7f3cfd69f762606813684fa1552df8ea",
+      "folder": false
+    }
+  ]
+}

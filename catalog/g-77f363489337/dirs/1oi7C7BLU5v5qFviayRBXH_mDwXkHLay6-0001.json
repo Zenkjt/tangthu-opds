@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oi7C7BLU5v5qFviayRBXH_mDwXkHLay6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JBu3J-zyrVbxo6fyUOR-r6Xpj8tEA6xS",
+      "parent_id": "1oi7C7BLU5v5qFviayRBXH_mDwXkHLay6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1959,
+      "modified": "2026-08-15T00:58:48.000Z",
+      "checksum": "3237cdee18184f947f5c7a4cb8bce142",
+      "folder": false
+    },
+    {
+      "id": "10AhaUALmNQ-oAhuL_8-IPdsEa06Gei1P",
+      "parent_id": "1oi7C7BLU5v5qFviayRBXH_mDwXkHLay6",
+      "name": "DẪN DẮT SẾP.epub",
+      "mime": "application/epub+zip",
+      "size": 491630,
+      "modified": "2026-08-15T00:58:58.000Z",
+      "checksum": "71108d547ad6735ff4baa785b805e7a7",
+      "folder": false
+    },
+    {
+      "id": "1VF7pBuu2eXHif9dRwFmxIM4EHHtSYENs",
+      "parent_id": "1oi7C7BLU5v5qFviayRBXH_mDwXkHLay6",
+      "name": "DẪN DẮT SẾP.pdf",
+      "mime": "application/pdf",
+      "size": 1391292,
+      "modified": "2026-08-15T00:58:55.000Z",
+      "checksum": "2d824375b2c9d939ca290611775f7860",
+      "folder": false
+    }
+  ]
+}

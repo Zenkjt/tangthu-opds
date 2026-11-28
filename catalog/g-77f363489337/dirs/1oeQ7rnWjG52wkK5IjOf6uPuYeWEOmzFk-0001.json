@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oeQ7rnWjG52wkK5IjOf6uPuYeWEOmzFk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vpokaQdthdyAk6TM9C0w17YxpA7vFCIr",
+      "parent_id": "1oeQ7rnWjG52wkK5IjOf6uPuYeWEOmzFk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 469,
+      "modified": "2026-08-16T04:19:41.000Z",
+      "checksum": "597ea352b2485ff999b6d202d3352848",
+      "folder": false
+    },
+    {
+      "id": "1IRqmwBWOh9T8H4ZdKF6Vrp_hRT6hr0ym",
+      "parent_id": "1oeQ7rnWjG52wkK5IjOf6uPuYeWEOmzFk",
+      "name": "HÀNH TRÌNH TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 770652,
+      "modified": "2026-08-16T04:19:56.000Z",
+      "checksum": "fd0bdb11c62306ab651ec6ef8a0d5a50",
+      "folder": false
+    },
+    {
+      "id": "1ZifBjHZe23V_aEH_Ze3EjFN_5_cM5TlE",
+      "parent_id": "1oeQ7rnWjG52wkK5IjOf6uPuYeWEOmzFk",
+      "name": "HÀNH TRÌNH TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 2037867,
+      "modified": "2026-08-16T04:19:49.000Z",
+      "checksum": "1428e6323fc9ebcf57ba8b62abf3d2f6",
+      "folder": false
+    }
+  ]
+}

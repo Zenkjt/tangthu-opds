@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Upl2l7xAhmXS8lU81_P4XyhMSC506nS6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_oINbsk_UoObgMlvviwYKCABN_hvjsqE",
+      "parent_id": "1Upl2l7xAhmXS8lU81_P4XyhMSC506nS6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6437,
+      "modified": "2026-08-16T03:38:38.000Z",
+      "checksum": "c175b126a7edf369f78fced561555e67",
+      "folder": false
+    },
+    {
+      "id": "1mdNGa1EdFeAZQQ_PMe8gJyZoaVuC_HMe",
+      "parent_id": "1Upl2l7xAhmXS8lU81_P4XyhMSC506nS6",
+      "name": "LẤY EM LÀM ĐIỂM TÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 436225,
+      "modified": "2026-08-16T03:38:44.000Z",
+      "checksum": "d64bf49465a1873081abc38cf526685f",
+      "folder": false
+    },
+    {
+      "id": "1N6Pp-ZxujsN6Q-sMsMoEJgi-DUZ0kLD6",
+      "parent_id": "1Upl2l7xAhmXS8lU81_P4XyhMSC506nS6",
+      "name": "LẤY EM LÀM ĐIỂM TÂM.pdf",
+      "mime": "application/pdf",
+      "size": 754935,
+      "modified": "2026-08-16T03:38:42.000Z",
+      "checksum": "fa007a966fb002416198f5aa434771b1",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hFstwPG75_xz0neEYoA6EdBMAO8EXw7R",
+  "page": 1,
+  "items": [
+    {
+      "id": "1im_OK8dMCBuzSfDdyhY76zb7l61r8-pu",
+      "parent_id": "1hFstwPG75_xz0neEYoA6EdBMAO8EXw7R",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1053,
+      "modified": "2026-08-15T07:26:24.000Z",
+      "checksum": "e70fdb29643f3e9c0ea5acbab7a1b8e8",
+      "folder": false
+    },
+    {
+      "id": "15L4QlUCsxZg9rjn8we2PBcZYdplngHBV",
+      "parent_id": "1hFstwPG75_xz0neEYoA6EdBMAO8EXw7R",
+      "name": "TUYỆT THẾ TOÀN NĂNG.epub",
+      "mime": "application/epub+zip",
+      "size": 4882677,
+      "modified": "2026-08-15T07:26:33.000Z",
+      "checksum": "1e215fccab5f5ff25218821fc095cf33",
+      "folder": false
+    },
+    {
+      "id": "1zkXRwkrH59BqasgaJOdtBIMQnrm_1_YC",
+      "parent_id": "1hFstwPG75_xz0neEYoA6EdBMAO8EXw7R",
+      "name": "TUYỆT THẾ TOÀN NĂNG.pdf",
+      "mime": "application/pdf",
+      "size": 3945193,
+      "modified": "2026-08-15T07:26:30.000Z",
+      "checksum": "ffd46323ac90371a86cc0e31c4580b37",
+      "folder": false
+    }
+  ]
+}

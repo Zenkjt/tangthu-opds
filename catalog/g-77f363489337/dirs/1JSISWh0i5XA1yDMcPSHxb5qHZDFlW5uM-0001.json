@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JSISWh0i5XA1yDMcPSHxb5qHZDFlW5uM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AseRqunRq5D69oV-1WUJeL7EbHkV4_TF",
+      "parent_id": "1JSISWh0i5XA1yDMcPSHxb5qHZDFlW5uM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5831,
+      "modified": "2026-08-16T03:37:58.000Z",
+      "checksum": "e1cef7346c1e8fd8da58fe4eab9796eb",
+      "folder": false
+    },
+    {
+      "id": "1t85JuBcSWMUHySTMJVlY6h2p1oCmXD7s",
+      "parent_id": "1JSISWh0i5XA1yDMcPSHxb5qHZDFlW5uM",
+      "name": "LƯU BẠCH, ANH YÊU EM.epub",
+      "mime": "application/epub+zip",
+      "size": 737451,
+      "modified": "2026-08-16T03:38:05.000Z",
+      "checksum": "195a00e950f607015204caa4da079067",
+      "folder": false
+    },
+    {
+      "id": "1hrzHNbSF3icbvmoHJd_DTB1gwQp4QudJ",
+      "parent_id": "1JSISWh0i5XA1yDMcPSHxb5qHZDFlW5uM",
+      "name": "LƯU BẠCH, ANH YÊU EM.pdf",
+      "mime": "application/pdf",
+      "size": 838597,
+      "modified": "2026-08-16T03:38:02.000Z",
+      "checksum": "d95ffeb7efb0d8934cac7078867a6dde",
+      "folder": false
+    }
+  ]
+}

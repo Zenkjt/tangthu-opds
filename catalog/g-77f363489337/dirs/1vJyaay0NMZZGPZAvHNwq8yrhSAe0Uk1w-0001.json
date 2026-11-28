@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vJyaay0NMZZGPZAvHNwq8yrhSAe0Uk1w",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eyvlucOlByysebP8TbwWxTOArG0g1W1p",
+      "parent_id": "1vJyaay0NMZZGPZAvHNwq8yrhSAe0Uk1w",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4786,
+      "modified": "2026-08-15T00:58:52.000Z",
+      "checksum": "3eac890588de6c26cc63b1c494088424",
+      "folder": false
+    },
+    {
+      "id": "1VeqBvhn9FHFb4jAUikkeXXfW_5YsR6tQ",
+      "parent_id": "1vJyaay0NMZZGPZAvHNwq8yrhSAe0Uk1w",
+      "name": "NGƯỜI VIỆT TỪ NHÀ RA ĐƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 654992,
+      "modified": "2026-08-15T00:59:00.000Z",
+      "checksum": "d11569cc9b3beeba899a85725b1b18e4",
+      "folder": false
+    },
+    {
+      "id": "1Un7mM5JoI-DepVtEFXHLMJDRLgjOgOVo",
+      "parent_id": "1vJyaay0NMZZGPZAvHNwq8yrhSAe0Uk1w",
+      "name": "NGƯỜI VIỆT TỪ NHÀ RA ĐƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 866607,
+      "modified": "2026-08-15T00:58:57.000Z",
+      "checksum": "90f28126c0f16719755aa9e41136842b",
+      "folder": false
+    }
+  ]
+}

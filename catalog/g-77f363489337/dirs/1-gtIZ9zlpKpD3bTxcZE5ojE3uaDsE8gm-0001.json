@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-gtIZ9zlpKpD3bTxcZE5ojE3uaDsE8gm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QPzWBAUhgN6zcS-1Y_-_5oPBYHUVzy7r",
+      "parent_id": "1-gtIZ9zlpKpD3bTxcZE5ojE3uaDsE8gm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9453,
+      "modified": "2026-08-15T07:22:49.000Z",
+      "checksum": "a93680ce5261b408d9e34d56a409bc36",
+      "folder": false
+    },
+    {
+      "id": "1EdFj0hvCZjBKP-Ao8nbLmQHKn2B3KyqH",
+      "parent_id": "1-gtIZ9zlpKpD3bTxcZE5ojE3uaDsE8gm",
+      "name": "TRONG VÒNG TAY ĐỨC MẸ.epub",
+      "mime": "application/epub+zip",
+      "size": 687454,
+      "modified": "2026-08-15T07:22:55.000Z",
+      "checksum": "bb3275bd872ff593b916c9b9d20cf1c6",
+      "folder": false
+    },
+    {
+      "id": "1fg8deQz2ucuAcwPGJCC1pWiIpapW8LyP",
+      "parent_id": "1-gtIZ9zlpKpD3bTxcZE5ojE3uaDsE8gm",
+      "name": "TRONG VÒNG TAY ĐỨC MẸ.pdf",
+      "mime": "application/pdf",
+      "size": 855894,
+      "modified": "2026-08-15T07:22:52.000Z",
+      "checksum": "e56f84e0d3d89a1b330f86352e4db982",
+      "folder": false
+    }
+  ]
+}

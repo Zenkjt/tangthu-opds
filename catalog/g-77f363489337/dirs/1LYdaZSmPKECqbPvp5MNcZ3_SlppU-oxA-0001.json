@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LYdaZSmPKECqbPvp5MNcZ3_SlppU-oxA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lApvX_NRkbHpxrU6EWf-aNtHKGWcPGVJ",
+      "parent_id": "1LYdaZSmPKECqbPvp5MNcZ3_SlppU-oxA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1737,
+      "modified": "2026-08-16T02:49:11.000Z",
+      "checksum": "9baf44f079025a0bd70b9595810cf794",
+      "folder": false
+    },
+    {
+      "id": "1D11zV49KVD6nsz0F9UuVocZi--69P9Lr",
+      "parent_id": "1LYdaZSmPKECqbPvp5MNcZ3_SlppU-oxA",
+      "name": "HACHIKO - CHÚ CHÓ ĐỢI CHỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 505496,
+      "modified": "2026-08-16T02:49:17.000Z",
+      "checksum": "38622166125c8ed635982b262b0ee478",
+      "folder": false
+    },
+    {
+      "id": "1UJzj00xHrBJ05PWa3sMAXVRMxt0Juwr8",
+      "parent_id": "1LYdaZSmPKECqbPvp5MNcZ3_SlppU-oxA",
+      "name": "HACHIKO - CHÚ CHÓ ĐỢI CHỜ.pdf",
+      "mime": "application/pdf",
+      "size": 423404,
+      "modified": "2026-08-16T02:49:15.000Z",
+      "checksum": "5f479cd6dc77a6a5ebd71cee8176d77b",
+      "folder": false
+    }
+  ]
+}

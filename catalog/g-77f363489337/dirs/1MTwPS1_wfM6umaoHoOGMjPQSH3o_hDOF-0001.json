@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MTwPS1_wfM6umaoHoOGMjPQSH3o_hDOF",
+  "page": 1,
+  "items": [
+    {
+      "id": "12RmViS067IoPP4sBg1I_de5Umt6wLZFV",
+      "parent_id": "1MTwPS1_wfM6umaoHoOGMjPQSH3o_hDOF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 348,
+      "modified": "2026-08-16T03:57:25.000Z",
+      "checksum": "10438680be655881f08159e32ee2bd3c",
+      "folder": false
+    },
+    {
+      "id": "1PFEKV_5C59qhbSNI9alYs9P_f75V0H9r",
+      "parent_id": "1MTwPS1_wfM6umaoHoOGMjPQSH3o_hDOF",
+      "name": "THIẾU PHỤ ĐAM MÊ.epub",
+      "mime": "application/epub+zip",
+      "size": 524640,
+      "modified": "2026-08-16T03:57:31.000Z",
+      "checksum": "d2ae07154c8086c27ca7523e53a2bded",
+      "folder": false
+    },
+    {
+      "id": "1sThU2LdXskUXsWSE4Kd_hkVYJDxPCmA2",
+      "parent_id": "1MTwPS1_wfM6umaoHoOGMjPQSH3o_hDOF",
+      "name": "THIẾU PHỤ ĐAM MÊ.pdf",
+      "mime": "application/pdf",
+      "size": 944536,
+      "modified": "2026-08-16T03:57:29.000Z",
+      "checksum": "dac379d3a41e7849b71a5ac084c67b2d",
+      "folder": false
+    }
+  ]
+}

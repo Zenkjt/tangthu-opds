@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1F03cSvY3LgcAulvC5P3A7cWjuaU7x7sv",
+  "page": 1,
+  "items": [
+    {
+      "id": "19tMBe8L_xZtD6vJ6if6yOV56NsY_qaRC",
+      "parent_id": "1F03cSvY3LgcAulvC5P3A7cWjuaU7x7sv",
+      "name": "CỘNG HÒA.epub",
+      "mime": "application/epub+zip",
+      "size": 756888,
+      "modified": "2026-08-15T05:41:11.000Z",
+      "checksum": "c530cf3727b4f925b0dca1972da9ca01",
+      "folder": false
+    },
+    {
+      "id": "1RA-SXLWsCSjpHirAiYd6Yp72ZvW-ixMa",
+      "parent_id": "1F03cSvY3LgcAulvC5P3A7cWjuaU7x7sv",
+      "name": "CỘNG HÒA.pdf",
+      "mime": "application/pdf",
+      "size": 1337106,
+      "modified": "2026-08-15T05:41:08.000Z",
+      "checksum": "acc955d06b764933716072745f80d90d",
+      "folder": false
+    },
+    {
+      "id": "1vs8McuRXaqS8v21SonfG5-XlvEaajpzd",
+      "parent_id": "1F03cSvY3LgcAulvC5P3A7cWjuaU7x7sv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 13352,
+      "modified": "2026-08-15T05:41:01.000Z",
+      "checksum": "d410e7bbab37980ac54755c83cb7c52a",
+      "folder": false
+    }
+  ]
+}

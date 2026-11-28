@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TTBwqeuXrI1FfHh4wbPWtbs9p4wEf903",
+  "page": 1,
+  "items": [
+    {
+      "id": "1W8TOq_61EPa_fJrmJN9wHFUazGhjvwId",
+      "parent_id": "1TTBwqeuXrI1FfHh4wbPWtbs9p4wEf903",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3311,
+      "modified": "2026-08-15T10:36:57.000Z",
+      "checksum": "4e88e086e4e4e52297a69ab222c0e19a",
+      "folder": false
+    },
+    {
+      "id": "1B5INuPITYgeOupTNqdbGRDE2Y3BAVxb9",
+      "parent_id": "1TTBwqeuXrI1FfHh4wbPWtbs9p4wEf903",
+      "name": "NHỮNG NGÔI SAO EGHE - TẬP 2.epub",
+      "mime": "application/epub+zip",
+      "size": 607078,
+      "modified": "2026-08-15T10:37:04.000Z",
+      "checksum": "3e3fbfece952fffd16dd4a063bcfd2d8",
+      "folder": false
+    },
+    {
+      "id": "15ujfWlcnp67e502bwKMA0H3OnOS-SdhW",
+      "parent_id": "1TTBwqeuXrI1FfHh4wbPWtbs9p4wEf903",
+      "name": "NHỮNG NGÔI SAO EGHE - TẬP 2.pdf",
+      "mime": "application/pdf",
+      "size": 1428316,
+      "modified": "2026-08-15T10:37:02.000Z",
+      "checksum": "0a2395c15a8a9a19dcc557ad670fec7b",
+      "folder": false
+    }
+  ]
+}

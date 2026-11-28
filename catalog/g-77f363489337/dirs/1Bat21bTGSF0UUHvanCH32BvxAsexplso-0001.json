@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Bat21bTGSF0UUHvanCH32BvxAsexplso",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gwE3GErvrKWRLW4CEf0c2wsySSI3nVjD",
+      "parent_id": "1Bat21bTGSF0UUHvanCH32BvxAsexplso",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 501,
+      "modified": "2026-08-15T15:33:02.000Z",
+      "checksum": "d5da2531f44e7c92efe9f7ad2d62831b",
+      "folder": false
+    },
+    {
+      "id": "1q6FoCSd9rDU9Xev49WO38TJa7t8_1x8L",
+      "parent_id": "1Bat21bTGSF0UUHvanCH32BvxAsexplso",
+      "name": "ELDEST - ĐẠI CA.epub",
+      "mime": "application/epub+zip",
+      "size": 1132832,
+      "modified": "2026-08-15T15:33:12.000Z",
+      "checksum": "fc86869616963f5f925dfe027838420c",
+      "folder": false
+    },
+    {
+      "id": "11hReo6dyHABqdRBQSntUj2vNWq-6I2UR",
+      "parent_id": "1Bat21bTGSF0UUHvanCH32BvxAsexplso",
+      "name": "ELDEST - ĐẠI CA.pdf",
+      "mime": "application/pdf",
+      "size": 2384524,
+      "modified": "2026-08-15T15:33:09.000Z",
+      "checksum": "6e9b14d3d1bed8998198bcf87cf314ea",
+      "folder": false
+    }
+  ]
+}

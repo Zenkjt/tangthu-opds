@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DPQN0GjlmvOXXjSOlI0flyyjBhIrSwqT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Yo_o4EWqIZ1gqJnHddtBT959f43DjnvB",
+      "parent_id": "1DPQN0GjlmvOXXjSOlI0flyyjBhIrSwqT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5472,
+      "modified": "2026-08-15T07:56:48.000Z",
+      "checksum": "01037bc24c20f3fe2a2647099cef74b4",
+      "folder": false
+    },
+    {
+      "id": "1eOwvkjxDEBK9Kjdq9MlTEvr8rpfo-LRK",
+      "parent_id": "1DPQN0GjlmvOXXjSOlI0flyyjBhIrSwqT",
+      "name": "MA LỰC TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 618143,
+      "modified": "2026-08-15T07:57:05.000Z",
+      "checksum": "f54c478a8b1c67f45d986799a6181e17",
+      "folder": false
+    },
+    {
+      "id": "1bNQS5yGMVwmgiG05KDwmm1GhsGLDwZrp",
+      "parent_id": "1DPQN0GjlmvOXXjSOlI0flyyjBhIrSwqT",
+      "name": "MA LỰC TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1648197,
+      "modified": "2026-08-15T07:56:57.000Z",
+      "checksum": "ccb2f3c6b5affdf5f66fe4de3690d0af",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oG9EChTqFN3P68OM31DJ1li7h0uVCIzB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zv8BZtr5BVeTAt_rJ5cKOSOhW8hfky03",
+      "parent_id": "1oG9EChTqFN3P68OM31DJ1li7h0uVCIzB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 447,
+      "modified": "2026-08-15T10:55:02.000Z",
+      "checksum": "27f1eaedd2e8bc194922c44e604e020a",
+      "folder": false
+    },
+    {
+      "id": "19O7M722Xs0FyavsUhdhCHxCu3ogLeZop",
+      "parent_id": "1oG9EChTqFN3P68OM31DJ1li7h0uVCIzB",
+      "name": "KHU TRẠI TRONG THẢO NGUYÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 576114,
+      "modified": "2026-08-15T10:55:32.000Z",
+      "checksum": "e7fd28d1c1c59dfc3d24603d55028389",
+      "folder": false
+    },
+    {
+      "id": "1NnkIAcfM6GBujAiE8EwmS-_AmaJbXe73",
+      "parent_id": "1oG9EChTqFN3P68OM31DJ1li7h0uVCIzB",
+      "name": "KHU TRẠI TRONG THẢO NGUYÊN.pdf",
+      "mime": "application/pdf",
+      "size": 1547143,
+      "modified": "2026-08-15T10:55:28.000Z",
+      "checksum": "c618696609848ce6790c1832d0bb19ba",
+      "folder": false
+    }
+  ]
+}

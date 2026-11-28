@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16EVFaVltqHscSmssWOCAgWo946CWu_Tm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rn7U1U6RMov9aYwFN8J3MgfaDakF4_B3",
+      "parent_id": "16EVFaVltqHscSmssWOCAgWo946CWu_Tm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3436,
+      "modified": "2026-08-16T04:09:40.000Z",
+      "checksum": "3a59108ebc6da0f5968f71a1a1b53dc0",
+      "folder": false
+    },
+    {
+      "id": "13e3n4k-4OC3dXqw64NdY6lpg-A9KzwHk",
+      "parent_id": "16EVFaVltqHscSmssWOCAgWo946CWu_Tm",
+      "name": "NHỮNG KẺ NỔI LOẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 729104,
+      "modified": "2026-08-16T04:09:47.000Z",
+      "checksum": "181a2433bfe82f681e6d4f33cada4c0c",
+      "folder": false
+    },
+    {
+      "id": "1OtJU_78gr0rxrDRdxXbdybcj8OiSN1TB",
+      "parent_id": "16EVFaVltqHscSmssWOCAgWo946CWu_Tm",
+      "name": "NHỮNG KẺ NỔI LOẠN.pdf",
+      "mime": "application/pdf",
+      "size": 1486636,
+      "modified": "2026-08-16T04:09:45.000Z",
+      "checksum": "6ba80866079a199c454fb9b4574b0ec0",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15j3dtvQ9P5CCmi1JHtjJZ42YzaCxbqM7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zN19jTBHANjTNOnv-O9lOA5yOoD3AojI",
+      "parent_id": "15j3dtvQ9P5CCmi1JHtjJZ42YzaCxbqM7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2995,
+      "modified": "2026-08-15T10:26:21.000Z",
+      "checksum": "4f06cd685cbf6919533e38c2d9b3a604",
+      "folder": false
+    },
+    {
+      "id": "16UdZCoF1w3KR7cswneXf5krFwnmXt8gm",
+      "parent_id": "15j3dtvQ9P5CCmi1JHtjJZ42YzaCxbqM7",
+      "name": "SONG ANH NỮ HIỆP.epub",
+      "mime": "application/epub+zip",
+      "size": 479006,
+      "modified": "2026-08-15T10:26:31.000Z",
+      "checksum": "ed612954775eab0cfd07cba487457463",
+      "folder": false
+    },
+    {
+      "id": "1KFfKR7bGaULV-ztQOMgCSN2-qeZ98r4b",
+      "parent_id": "15j3dtvQ9P5CCmi1JHtjJZ42YzaCxbqM7",
+      "name": "SONG ANH NỮ HIỆP.pdf",
+      "mime": "application/pdf",
+      "size": 1327020,
+      "modified": "2026-08-15T10:26:28.000Z",
+      "checksum": "6a29ccd079966a7f49b2b72a4f83c084",
+      "folder": false
+    }
+  ]
+}

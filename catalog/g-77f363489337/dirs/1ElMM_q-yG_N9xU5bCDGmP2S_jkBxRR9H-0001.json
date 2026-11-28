@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ElMM_q-yG_N9xU5bCDGmP2S_jkBxRR9H",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fyealQN2K2Lng_pVxbfd2S1pqqYfowx_",
+      "parent_id": "1ElMM_q-yG_N9xU5bCDGmP2S_jkBxRR9H",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2513,
+      "modified": "2026-08-15T03:52:37.000Z",
+      "checksum": "2dfa82ec3bd3bb7161db0dbc2886fab7",
+      "folder": false
+    },
+    {
+      "id": "1AalM_viqHgISb5vqtrM8ZpSiZEtprGUz",
+      "parent_id": "1ElMM_q-yG_N9xU5bCDGmP2S_jkBxRR9H",
+      "name": "TRẬT TỰ VŨ TRỤ.epub",
+      "mime": "application/epub+zip",
+      "size": 584399,
+      "modified": "2026-08-15T03:52:43.000Z",
+      "checksum": "fe3c806b7c84fcb544b48102be83ad5a",
+      "folder": false
+    },
+    {
+      "id": "1ilPAIv4fgGsdBsoZlTnZS64L-GPLO5fl",
+      "parent_id": "1ElMM_q-yG_N9xU5bCDGmP2S_jkBxRR9H",
+      "name": "TRẬT TỰ VŨ TRỤ.pdf",
+      "mime": "application/pdf",
+      "size": 797324,
+      "modified": "2026-08-15T03:52:41.000Z",
+      "checksum": "cde4557033288fe31783862d628e0e00",
+      "folder": false
+    }
+  ]
+}

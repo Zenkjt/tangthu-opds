@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1T_JRf5rH1UWgiJcvQaok1fUnDZ8I24xQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DHkCYKJ1GdsrUWa7xh7zmceECc7MVFIA",
+      "parent_id": "1T_JRf5rH1UWgiJcvQaok1fUnDZ8I24xQ",
+      "name": "DANH VỌNG VÀ TỘI ÁC.epub",
+      "mime": "application/epub+zip",
+      "size": 518506,
+      "modified": "2026-08-15T06:18:36.000Z",
+      "checksum": "ab94ec2130fddaa57de15f39e2ec3b19",
+      "folder": false
+    },
+    {
+      "id": "1HI9h6q31mzZ-4oqUxQIIrtuAsxfzjSeQ",
+      "parent_id": "1T_JRf5rH1UWgiJcvQaok1fUnDZ8I24xQ",
+      "name": "DANH VỌNG VÀ TỘI ÁC.pdf",
+      "mime": "application/pdf",
+      "size": 1825340,
+      "modified": "2026-08-15T06:18:34.000Z",
+      "checksum": "77a191d1635d1b32cfe5d1ce6adafabb",
+      "folder": false
+    },
+    {
+      "id": "1y3hF55zj9qUJ8-x61yeTCcJH-toxYh22",
+      "parent_id": "1T_JRf5rH1UWgiJcvQaok1fUnDZ8I24xQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4256,
+      "modified": "2026-08-15T06:18:28.000Z",
+      "checksum": "bd9bfc3de4cf7a07d032486ffde4385d",
+      "folder": false
+    }
+  ]
+}

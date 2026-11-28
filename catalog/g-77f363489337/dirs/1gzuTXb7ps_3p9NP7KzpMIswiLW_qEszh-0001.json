@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gzuTXb7ps_3p9NP7KzpMIswiLW_qEszh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xcV5R8ZyVw1POR7pN4eNOCw8IVm0x4nZ",
+      "parent_id": "1gzuTXb7ps_3p9NP7KzpMIswiLW_qEszh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8700,
+      "modified": "2026-08-15T05:43:07.000Z",
+      "checksum": "3b2ec9ff05dbbcda4d0792c21b013d00",
+      "folder": false
+    },
+    {
+      "id": "1olDH2mGvNLtyZIlbdPw5ksLMd6guVvxf",
+      "parent_id": "1gzuTXb7ps_3p9NP7KzpMIswiLW_qEszh",
+      "name": "TRIẾT HỌC HIỆN SINH.epub",
+      "mime": "application/epub+zip",
+      "size": 480728,
+      "modified": "2026-08-15T05:43:16.000Z",
+      "checksum": "86b00fe31cbe896851ab9ab49b7647f6",
+      "folder": false
+    },
+    {
+      "id": "1P1UG5WN63GAkk6uw6YsoOrou_gsEBcN_",
+      "parent_id": "1gzuTXb7ps_3p9NP7KzpMIswiLW_qEszh",
+      "name": "TRIẾT HỌC HIỆN SINH.pdf",
+      "mime": "application/pdf",
+      "size": 1388556,
+      "modified": "2026-08-15T05:43:13.000Z",
+      "checksum": "a670c21aee0e95be4b61acaaa92034f8",
+      "folder": false
+    }
+  ]
+}

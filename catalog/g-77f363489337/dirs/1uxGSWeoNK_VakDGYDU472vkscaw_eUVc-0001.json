@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uxGSWeoNK_VakDGYDU472vkscaw_eUVc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BpU5p0UWCdAvDkp6yykAQxelC7u0aHqh",
+      "parent_id": "1uxGSWeoNK_VakDGYDU472vkscaw_eUVc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4517,
+      "modified": "2026-08-15T04:02:04.000Z",
+      "checksum": "6bbf1097c8d0f3cbb04103f3dd4a4897",
+      "folder": false
+    },
+    {
+      "id": "1MUVphig4WoMzF3l3uf1fNzC6j6yHjNBH",
+      "parent_id": "1uxGSWeoNK_VakDGYDU472vkscaw_eUVc",
+      "name": "NHỮNG CÂU CHUYỆN TÂM LINH.epub",
+      "mime": "application/epub+zip",
+      "size": 399079,
+      "modified": "2026-08-15T04:02:11.000Z",
+      "checksum": "557eea0abb54efe378af45904351ef35",
+      "folder": false
+    },
+    {
+      "id": "1AzmMkERZLndKd2RNfqJojc7VggRYWNjv",
+      "parent_id": "1uxGSWeoNK_VakDGYDU472vkscaw_eUVc",
+      "name": "NHỮNG CÂU CHUYỆN TÂM LINH.pdf",
+      "mime": "application/pdf",
+      "size": 818984,
+      "modified": "2026-08-15T04:02:08.000Z",
+      "checksum": "770c38d34924b7fdeb97bd82742a2d04",
+      "folder": false
+    }
+  ]
+}

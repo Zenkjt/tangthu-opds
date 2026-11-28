@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1o9f404mRbFHTkPiM6w6r8HFILKEuZ0d7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1C44ZLGSMevxIb_LXga2mRzMJNL6UYVV9",
+      "parent_id": "1o9f404mRbFHTkPiM6w6r8HFILKEuZ0d7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3573,
+      "modified": "2026-08-15T10:32:23.000Z",
+      "checksum": "aa56f94be92a0e3a11240512fd978211",
+      "folder": false
+    },
+    {
+      "id": "10hxXRb0qycRJotTCZc_XPSOSDd_jTcL4",
+      "parent_id": "1o9f404mRbFHTkPiM6w6r8HFILKEuZ0d7",
+      "name": "PHỐ NHỮNG CỬA HIỆU U TỐI.epub",
+      "mime": "application/epub+zip",
+      "size": 432502,
+      "modified": "2026-08-15T10:32:29.000Z",
+      "checksum": "1448c0df9870f7bf5dda8861c606a704",
+      "folder": false
+    },
+    {
+      "id": "1czI3PK-uXbOjY0poUEmw_f4srQsVLCh8",
+      "parent_id": "1o9f404mRbFHTkPiM6w6r8HFILKEuZ0d7",
+      "name": "PHỐ NHỮNG CỬA HIỆU U TỐI.pdf",
+      "mime": "application/pdf",
+      "size": 812675,
+      "modified": "2026-08-15T10:32:27.000Z",
+      "checksum": "fc4c960fd6c3252376e40df718cf3dad",
+      "folder": false
+    }
+  ]
+}

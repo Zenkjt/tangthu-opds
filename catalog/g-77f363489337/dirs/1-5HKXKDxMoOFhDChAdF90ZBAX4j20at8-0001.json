@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-5HKXKDxMoOFhDChAdF90ZBAX4j20at8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Kfk3jYHL-db4L_eEkjyBF0vhn4vHhv-D",
+      "parent_id": "1-5HKXKDxMoOFhDChAdF90ZBAX4j20at8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6157,
+      "modified": "2026-08-15T03:56:40.000Z",
+      "checksum": "583b8d388abfa45eb5e86d8b2d92133a",
+      "folder": false
+    },
+    {
+      "id": "188UmZxorvGdEILgdxLh5BOPweiU6ZR_Z",
+      "parent_id": "1-5HKXKDxMoOFhDChAdF90ZBAX4j20at8",
+      "name": "LỄ, NGHĨA, LIÊM, SỈ.epub",
+      "mime": "application/epub+zip",
+      "size": 505940,
+      "modified": "2026-08-15T03:56:47.000Z",
+      "checksum": "d2b95d1e43e03009d683570efd1e1af9",
+      "folder": false
+    },
+    {
+      "id": "1LE_vFy39Xi9-tlcZARVgWaAdrYHQEEpR",
+      "parent_id": "1-5HKXKDxMoOFhDChAdF90ZBAX4j20at8",
+      "name": "LỄ, NGHĨA, LIÊM, SỈ.pdf",
+      "mime": "application/pdf",
+      "size": 372990,
+      "modified": "2026-08-15T03:56:44.000Z",
+      "checksum": "e35727b48b8dcffeeeea93b4a5dfd55a",
+      "folder": false
+    }
+  ]
+}

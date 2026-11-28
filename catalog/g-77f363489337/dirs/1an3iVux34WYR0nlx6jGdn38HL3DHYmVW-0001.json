@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1an3iVux34WYR0nlx6jGdn38HL3DHYmVW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SqmDnDRKSCY-MJg5Jy_zDhDdFWlHDJd0",
+      "parent_id": "1an3iVux34WYR0nlx6jGdn38HL3DHYmVW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8762,
+      "modified": "2026-08-15T09:48:23.000Z",
+      "checksum": "77b1ccf9f019fbba9c0547790d6ca549",
+      "folder": false
+    },
+    {
+      "id": "1kNB0zPPxBYfOEskOEFiVSEGJN5OmveuB",
+      "parent_id": "1an3iVux34WYR0nlx6jGdn38HL3DHYmVW",
+      "name": "HOA ĐÀO KHUYNH QUỐC.epub",
+      "mime": "application/epub+zip",
+      "size": 499702,
+      "modified": "2026-08-15T09:48:28.000Z",
+      "checksum": "2334cb0c7afc15eef77908cfab7afcd2",
+      "folder": false
+    },
+    {
+      "id": "11FuekfLcVKxXYQuAu26QwZwFl1stQXmE",
+      "parent_id": "1an3iVux34WYR0nlx6jGdn38HL3DHYmVW",
+      "name": "HOA ĐÀO KHUYNH QUỐC.pdf",
+      "mime": "application/pdf",
+      "size": 1003608,
+      "modified": "2026-08-15T09:48:26.000Z",
+      "checksum": "450c2f4e4487ad0cb14a2203ea89c8fb",
+      "folder": false
+    }
+  ]
+}

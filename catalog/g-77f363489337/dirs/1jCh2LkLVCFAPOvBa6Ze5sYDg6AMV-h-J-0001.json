@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jCh2LkLVCFAPOvBa6Ze5sYDg6AMV-h-J",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AvfIs5BMfSfifJ9ycXttm-ZiVc6tKhaT",
+      "parent_id": "1jCh2LkLVCFAPOvBa6Ze5sYDg6AMV-h-J",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4398,
+      "modified": "2026-08-15T03:46:21.000Z",
+      "checksum": "48eaf7442e508ae5c190ca82a139a887",
+      "folder": false
+    },
+    {
+      "id": "1sGNgVr8_4oyHJfryuz5FiooSTB6CgH5b",
+      "parent_id": "1jCh2LkLVCFAPOvBa6Ze5sYDg6AMV-h-J",
+      "name": "THIỀN VÀ PHÂN TÂM HỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 407288,
+      "modified": "2026-08-15T03:46:28.000Z",
+      "checksum": "596a49bdc3efb3b43d418daa050f7cf4",
+      "folder": false
+    },
+    {
+      "id": "1uLjZiiv4Gw1LHXfD3oD7SoHSJJ5oLuEb",
+      "parent_id": "1jCh2LkLVCFAPOvBa6Ze5sYDg6AMV-h-J",
+      "name": "THIỀN VÀ PHÂN TÂM HỌC.pdf",
+      "mime": "application/pdf",
+      "size": 696386,
+      "modified": "2026-08-15T03:46:26.000Z",
+      "checksum": "5822b70b1b7a790396ff0506bf846763",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12gVRRN71T3n6JKYHwL8RHBawlNjxCE1P",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IlLBJaVMsJNj33LMvOviUYyMYVub7AK0",
+      "parent_id": "12gVRRN71T3n6JKYHwL8RHBawlNjxCE1P",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1232,
+      "modified": "2026-08-15T03:15:39.000Z",
+      "checksum": "4e687152760674ccab47e2ec3e165808",
+      "folder": false
+    },
+    {
+      "id": "1ggeS5UQnXrYlH2fD7jqdYSlxxjw8h0aX",
+      "parent_id": "12gVRRN71T3n6JKYHwL8RHBawlNjxCE1P",
+      "name": "YẾU TỐ MAY MẮN.epub",
+      "mime": "application/epub+zip",
+      "size": 349039,
+      "modified": "2026-08-15T03:15:47.000Z",
+      "checksum": "d7f9d830ea0d801fdf3735beb9eaee16",
+      "folder": false
+    },
+    {
+      "id": "16BRNuafhUGz6y-pBsKRSK1GwlBTqP3Fw",
+      "parent_id": "12gVRRN71T3n6JKYHwL8RHBawlNjxCE1P",
+      "name": "YẾU TỐ MAY MẮN.pdf",
+      "mime": "application/pdf",
+      "size": 707631,
+      "modified": "2026-08-15T03:15:44.000Z",
+      "checksum": "a62cd8a96cccc80558e19d4db1233407",
+      "folder": false
+    }
+  ]
+}

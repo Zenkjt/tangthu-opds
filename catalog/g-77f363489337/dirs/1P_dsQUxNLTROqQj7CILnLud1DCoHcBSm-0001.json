@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1P_dsQUxNLTROqQj7CILnLud1DCoHcBSm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WIXCpKHoAvfwX5AsGqRF8LwqoKVlwucE",
+      "parent_id": "1P_dsQUxNLTROqQj7CILnLud1DCoHcBSm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1619,
+      "modified": "2026-08-15T06:35:23.000Z",
+      "checksum": "d120bbd7aff83a1900ffd77983c30c79",
+      "folder": false
+    },
+    {
+      "id": "14DXqsLgKSJVrVUiVg0cIrb6k6etC9OW0",
+      "parent_id": "1P_dsQUxNLTROqQj7CILnLud1DCoHcBSm",
+      "name": "KHU VƯỜN BÍ MẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 539843,
+      "modified": "2026-08-15T06:35:42.000Z",
+      "checksum": "91a806f194ac8f8cbb226b5b405a4026",
+      "folder": false
+    },
+    {
+      "id": "1l1U6WCy221dQtrzGr-4OFFWbl9q60SAQ",
+      "parent_id": "1P_dsQUxNLTROqQj7CILnLud1DCoHcBSm",
+      "name": "KHU VƯỜN BÍ MẬT.pdf",
+      "mime": "application/pdf",
+      "size": 1050245,
+      "modified": "2026-08-15T06:35:34.000Z",
+      "checksum": "8f539902aa08cedcd1543ac9b05e9e0c",
+      "folder": false
+    }
+  ]
+}

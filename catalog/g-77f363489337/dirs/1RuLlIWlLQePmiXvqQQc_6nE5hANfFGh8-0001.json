@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RuLlIWlLQePmiXvqQQc_6nE5hANfFGh8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jcq_bwygSGJWQMex85JscIDrYsQvWqeX",
+      "parent_id": "1RuLlIWlLQePmiXvqQQc_6nE5hANfFGh8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3206,
+      "modified": "2026-08-15T03:58:17.000Z",
+      "checksum": "32fbf94efa1d13e126cb5ad384d6b6f1",
+      "folder": false
+    },
+    {
+      "id": "1EUGWqCue9yC5KaoxSjFcsWaVo9UPaKTV",
+      "parent_id": "1RuLlIWlLQePmiXvqQQc_6nE5hANfFGh8",
+      "name": "ÁNH SÁNG TRÊN THÁNH ĐẠO.epub",
+      "mime": "application/epub+zip",
+      "size": 558265,
+      "modified": "2026-08-15T03:58:25.000Z",
+      "checksum": "62e818061febb817060ac0fca76ec7a4",
+      "folder": false
+    },
+    {
+      "id": "1loEKli5dRDbILI2j2ZZ0L5p4Qp6lDPf0",
+      "parent_id": "1RuLlIWlLQePmiXvqQQc_6nE5hANfFGh8",
+      "name": "ÁNH SÁNG TRÊN THÁNH ĐẠO.pdf",
+      "mime": "application/pdf",
+      "size": 2206228,
+      "modified": "2026-08-15T03:58:22.000Z",
+      "checksum": "e4b9884971d4db7751a1ad21989150ab",
+      "folder": false
+    }
+  ]
+}

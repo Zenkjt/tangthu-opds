@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vWCl0crzjJLwaZDAxROKCe-m1rOO_aBI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LiFdjFpWCpzJTphKYdFCfy1ZV60jHt9R",
+      "parent_id": "1vWCl0crzjJLwaZDAxROKCe-m1rOO_aBI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3537,
+      "modified": "2026-08-15T00:52:10.000Z",
+      "checksum": "a81427ace54ac8222f260b048d461ed9",
+      "folder": false
+    },
+    {
+      "id": "1TKDeYiScclCGyZCBVNnnIJ7mafI6jYLc",
+      "parent_id": "1vWCl0crzjJLwaZDAxROKCe-m1rOO_aBI",
+      "name": "TUỔI TRẺ KHÔNG BAO GIỜ QUAY LẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 440237,
+      "modified": "2026-08-15T00:52:18.000Z",
+      "checksum": "9408e7f3cc7af45725c4fe65eb281695",
+      "folder": false
+    },
+    {
+      "id": "1SQTz69OFlor3GI3_ADoee1E8ZSHwnv-s",
+      "parent_id": "1vWCl0crzjJLwaZDAxROKCe-m1rOO_aBI",
+      "name": "TUỔI TRẺ KHÔNG BAO GIỜ QUAY LẠI.pdf",
+      "mime": "application/pdf",
+      "size": 2904528,
+      "modified": "2026-08-15T00:52:15.000Z",
+      "checksum": "dc750da639db7e6ab487de82453915fa",
+      "folder": false
+    }
+  ]
+}

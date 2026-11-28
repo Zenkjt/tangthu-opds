@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qPTK8yUKxM35nzGb2MU0SlSwRyCCqvUJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XPI6DZ2ov2rLlMsgrom_sso1Ou1kDFDM",
+      "parent_id": "1qPTK8yUKxM35nzGb2MU0SlSwRyCCqvUJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 473,
+      "modified": "2026-08-15T10:14:43.000Z",
+      "checksum": "722fcf5ca7eea7c377a411e335878623",
+      "folder": false
+    },
+    {
+      "id": "1iqWSewuRDprMdIF02ehBQwJoP4luTYGP",
+      "parent_id": "1qPTK8yUKxM35nzGb2MU0SlSwRyCCqvUJ",
+      "name": "THIỀN MỘNG.epub",
+      "mime": "application/epub+zip",
+      "size": 410057,
+      "modified": "2026-08-15T10:14:50.000Z",
+      "checksum": "c6b1861fb597fc291d7207290b64334c",
+      "folder": false
+    },
+    {
+      "id": "1sPaD_Ss-5vf_qL8gKDUzBIuogSHJ4Cu1",
+      "parent_id": "1qPTK8yUKxM35nzGb2MU0SlSwRyCCqvUJ",
+      "name": "THIỀN MỘNG.pdf",
+      "mime": "application/pdf",
+      "size": 706520,
+      "modified": "2026-08-15T10:14:47.000Z",
+      "checksum": "ab8f43eefd83cb460064ada4dd8750ad",
+      "folder": false
+    }
+  ]
+}

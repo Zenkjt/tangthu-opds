@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QMGTs5JOSYjTJ6NdlaDAR_2tf43V5UnF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1F7zpN7tIrU46rJydoAnT5X-M8gWUCwbb",
+      "parent_id": "1QMGTs5JOSYjTJ6NdlaDAR_2tf43V5UnF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1653,
+      "modified": "2026-08-15T08:02:42.000Z",
+      "checksum": "75f767bf893814dd47f4d3d164f23a81",
+      "folder": false
+    },
+    {
+      "id": "1BGaE2fATRvVfhW0Bz2PFz0rPnDdXKd-c",
+      "parent_id": "1QMGTs5JOSYjTJ6NdlaDAR_2tf43V5UnF",
+      "name": "GIAO ƯỚC TỬ VONG.epub",
+      "mime": "application/epub+zip",
+      "size": 378777,
+      "modified": "2026-08-15T08:02:47.000Z",
+      "checksum": "9cb69d0d0ca891365b844533bd6a0369",
+      "folder": false
+    },
+    {
+      "id": "1yOKNtdnqJ056Davnux8uTZA_ejHXZEWq",
+      "parent_id": "1QMGTs5JOSYjTJ6NdlaDAR_2tf43V5UnF",
+      "name": "GIAO ƯỚC TỬ VONG.pdf",
+      "mime": "application/pdf",
+      "size": 342168,
+      "modified": "2026-08-15T08:02:45.000Z",
+      "checksum": "b09f254a17baaf4d5564215f510661ff",
+      "folder": false
+    }
+  ]
+}

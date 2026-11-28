@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nhdkbzrsKmUA9xIb_e_QY6FR0Bno7GYb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_AfxpDxIX-GxGu9aH8sAGFWvOa606NXO",
+      "parent_id": "1nhdkbzrsKmUA9xIb_e_QY6FR0Bno7GYb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1080,
+      "modified": "2026-08-16T03:41:57.000Z",
+      "checksum": "568c977285a159d38ef923eb3c080606",
+      "folder": false
+    },
+    {
+      "id": "1lbJsD8Lpu0MIpYLuT5k26ya37B_InTS-",
+      "parent_id": "1nhdkbzrsKmUA9xIb_e_QY6FR0Bno7GYb",
+      "name": "GHI CHÉP NHỮNG CHUYỆN KÌ QUÁI CỦA XE TAXI.epub",
+      "mime": "application/epub+zip",
+      "size": 746398,
+      "modified": "2026-08-16T03:42:03.000Z",
+      "checksum": "74e06f2910ba27d22d0227dc11fbbb98",
+      "folder": false
+    },
+    {
+      "id": "1kMX__MyVZAd20NzrLqRsV-wswC6RJRU3",
+      "parent_id": "1nhdkbzrsKmUA9xIb_e_QY6FR0Bno7GYb",
+      "name": "GHI CHÉP NHỮNG CHUYỆN KÌ QUÁI CỦA XE TAXI.pdf",
+      "mime": "application/pdf",
+      "size": 302496,
+      "modified": "2026-08-16T03:42:00.000Z",
+      "checksum": "74b13178103562e9ea484fa021c105ad",
+      "folder": false
+    }
+  ]
+}

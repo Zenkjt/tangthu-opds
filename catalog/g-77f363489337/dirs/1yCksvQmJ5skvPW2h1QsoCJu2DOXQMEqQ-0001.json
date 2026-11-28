@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yCksvQmJ5skvPW2h1QsoCJu2DOXQMEqQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WCJR-Qymu9gp4BT_rKTu9EyJWHXNHbsz",
+      "parent_id": "1yCksvQmJ5skvPW2h1QsoCJu2DOXQMEqQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3059,
+      "modified": "2026-08-15T10:31:53.000Z",
+      "checksum": "ecbc61ea9e473c6a6315a92a1c71a356",
+      "folder": false
+    },
+    {
+      "id": "1iRwQHopdivnFSvkZPR6LBS07ex84gsZO",
+      "parent_id": "1yCksvQmJ5skvPW2h1QsoCJu2DOXQMEqQ",
+      "name": "PHỤC THIÊN THỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 402269,
+      "modified": "2026-08-15T10:32:00.000Z",
+      "checksum": "85414130941c8abf44c365ae06d87831",
+      "folder": false
+    },
+    {
+      "id": "1g0xtFDvwNLbKyFQ0aKWv0IxRwdLUNRub",
+      "parent_id": "1yCksvQmJ5skvPW2h1QsoCJu2DOXQMEqQ",
+      "name": "PHỤC THIÊN THỊ.pdf",
+      "mime": "application/pdf",
+      "size": 879200,
+      "modified": "2026-08-15T10:31:58.000Z",
+      "checksum": "68df5a7f42aa3022f3f996ca3e878513",
+      "folder": false
+    }
+  ]
+}

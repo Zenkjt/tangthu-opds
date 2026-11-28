@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HOqfB1XTpkfYnWd_kfbpkmIXaUXcLhLw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1G9hfXTGG4_P4uMhgbtcgdcPTUWzbjgZX",
+      "parent_id": "1HOqfB1XTpkfYnWd_kfbpkmIXaUXcLhLw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5492,
+      "modified": "2026-08-15T07:40:58.000Z",
+      "checksum": "4d4abf8cfcfc14e425e9f3ccfec4fee3",
+      "folder": false
+    },
+    {
+      "id": "1OXn3Q6nHbFx_dWjk9gBt49aQn02ioMke",
+      "parent_id": "1HOqfB1XTpkfYnWd_kfbpkmIXaUXcLhLw",
+      "name": "DIỆP GIA.epub",
+      "mime": "application/epub+zip",
+      "size": 683443,
+      "modified": "2026-08-15T07:41:04.000Z",
+      "checksum": "9f6088d0d261d2067a7a0a2214e6588b",
+      "folder": false
+    },
+    {
+      "id": "1MA5nY6UfowoZsj_bbKvOsoTMakaR2jBl",
+      "parent_id": "1HOqfB1XTpkfYnWd_kfbpkmIXaUXcLhLw",
+      "name": "DIỆP GIA.pdf",
+      "mime": "application/pdf",
+      "size": 614594,
+      "modified": "2026-08-15T07:41:01.000Z",
+      "checksum": "fd989eb80ccff64a43deaa85d6b9263e",
+      "folder": false
+    }
+  ]
+}

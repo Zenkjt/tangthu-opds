@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sgm6LetskGYVVUWlK1wm0AB3DzZhvFVG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Rl5blgI-zSvuATQlmDDkpGuGdOx26GRD",
+      "parent_id": "1sgm6LetskGYVVUWlK1wm0AB3DzZhvFVG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3454,
+      "modified": "2026-08-15T09:51:10.000Z",
+      "checksum": "5c1b3ebfd20effc4fe3feec877b4e9c1",
+      "folder": false
+    },
+    {
+      "id": "1QGCqTkSexM6s0duJNxGsHbllTMt52Dwz",
+      "parent_id": "1sgm6LetskGYVVUWlK1wm0AB3DzZhvFVG",
+      "name": "ĐIỆU VALSE ĐỊA NGỤC.epub",
+      "mime": "application/epub+zip",
+      "size": 419176,
+      "modified": "2026-08-15T09:51:17.000Z",
+      "checksum": "2b8bde4ceaee6397a306a0c388f0b580",
+      "folder": false
+    },
+    {
+      "id": "1moD7ssLZjfrbemQhj_WCUC_omifTEiO9",
+      "parent_id": "1sgm6LetskGYVVUWlK1wm0AB3DzZhvFVG",
+      "name": "ĐIỆU VALSE ĐỊA NGỤC.pdf",
+      "mime": "application/pdf",
+      "size": 873594,
+      "modified": "2026-08-15T09:51:14.000Z",
+      "checksum": "635739ca34b15db427b4c4f7adab50d3",
+      "folder": false
+    }
+  ]
+}

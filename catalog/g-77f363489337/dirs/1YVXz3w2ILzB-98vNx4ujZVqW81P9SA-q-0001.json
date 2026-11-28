@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YVXz3w2ILzB-98vNx4ujZVqW81P9SA-q",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jHgClW1PLF3om1IshYOaYkR0p-JMOuhO",
+      "parent_id": "1YVXz3w2ILzB-98vNx4ujZVqW81P9SA-q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2844,
+      "modified": "2026-08-15T15:26:57.000Z",
+      "checksum": "eb9c0597dd4294842d66e180f8db2964",
+      "folder": false
+    },
+    {
+      "id": "1VxvHEEgsWX0GMYIuxfQNsZan-6P8aNO9",
+      "parent_id": "1YVXz3w2ILzB-98vNx4ujZVqW81P9SA-q",
+      "name": "ĐÊM TRƯỜNG TĂM TỐI.epub",
+      "mime": "application/epub+zip",
+      "size": 593645,
+      "modified": "2026-08-15T15:27:24.000Z",
+      "checksum": "7437850290e3fd981b34950754f5f9e7",
+      "folder": false
+    },
+    {
+      "id": "1Eiuzc-m59qk38zyAlm9pTUOs-l5tDnIZ",
+      "parent_id": "1YVXz3w2ILzB-98vNx4ujZVqW81P9SA-q",
+      "name": "ĐÊM TRƯỜNG TĂM TỐI.pdf",
+      "mime": "application/pdf",
+      "size": 1238269,
+      "modified": "2026-08-15T15:27:11.000Z",
+      "checksum": "662e67ce43f7087661d3df65fb5d9d6b",
+      "folder": false
+    }
+  ]
+}

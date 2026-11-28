@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-REBhFXav-rvRqYw4V4v3efh6eb7tmzy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Uz6bLwsS7F2dLuvn3lkur3wU8vmVYCi_",
+      "parent_id": "1-REBhFXav-rvRqYw4V4v3efh6eb7tmzy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3250,
+      "modified": "2026-08-16T04:16:05.000Z",
+      "checksum": "3dd443b0223f1baad00fc591be1933aa",
+      "folder": false
+    },
+    {
+      "id": "1ikEORhRxexsXZMyyoL4WOC0KJ01JdQNx",
+      "parent_id": "1-REBhFXav-rvRqYw4V4v3efh6eb7tmzy",
+      "name": "NẾU NHƯ ANH YÊU EM.epub",
+      "mime": "application/epub+zip",
+      "size": 600773,
+      "modified": "2026-08-16T04:16:14.000Z",
+      "checksum": "cebd84e57c6f197387b04170584b45ea",
+      "folder": false
+    },
+    {
+      "id": "1Glf9Tp5fG1ibo8dXnWBNnrZThaN_d209",
+      "parent_id": "1-REBhFXav-rvRqYw4V4v3efh6eb7tmzy",
+      "name": "NẾU NHƯ ANH YÊU EM.pdf",
+      "mime": "application/pdf",
+      "size": 1855032,
+      "modified": "2026-08-16T04:16:11.000Z",
+      "checksum": "44c273f1c8326cd2e52bb882de1765e6",
+      "folder": false
+    }
+  ]
+}

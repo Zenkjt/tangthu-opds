@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wq1fKe2BEWvW1yDmncZ3w0TZ-y3ApfPm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1s0tLUzcjaK1SZI_oXBwDUfGtiNzGG65l",
+      "parent_id": "1wq1fKe2BEWvW1yDmncZ3w0TZ-y3ApfPm",
+      "name": "BÙM.epub",
+      "mime": "application/epub+zip",
+      "size": 275309,
+      "modified": "2026-08-15T11:02:11.000Z",
+      "checksum": "307c44340bcf807d666ec57a58680c33",
+      "folder": false
+    },
+    {
+      "id": "1JrlK4E-vjMPSXEhfSjc8MPEX4C38regZ",
+      "parent_id": "1wq1fKe2BEWvW1yDmncZ3w0TZ-y3ApfPm",
+      "name": "BÙM.pdf",
+      "mime": "application/pdf",
+      "size": 543878,
+      "modified": "2026-08-15T11:02:06.000Z",
+      "checksum": "579c3fb30e1055395da454eefb55e12d",
+      "folder": false
+    },
+    {
+      "id": "1WgXK3AiRI1U1qM3l-fhLlvdVnFxZi1sA",
+      "parent_id": "1wq1fKe2BEWvW1yDmncZ3w0TZ-y3ApfPm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 394,
+      "modified": "2026-08-15T11:02:01.000Z",
+      "checksum": "616a26ee63668ece54527bddb0bcf7f5",
+      "folder": false
+    }
+  ]
+}

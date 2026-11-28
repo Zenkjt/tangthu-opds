@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eufFgixSIlJKc1bl93j4YDOFhrrjaDNE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1X4XMXrq3Cvayoi7GzX0awn1bL1JZ1FXP",
+      "parent_id": "1eufFgixSIlJKc1bl93j4YDOFhrrjaDNE",
+      "name": "CHUYỆN NỎ THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 483749,
+      "modified": "2026-08-15T07:03:54.000Z",
+      "checksum": "6096782cb2b84410269fce95c51ee8d2",
+      "folder": false
+    },
+    {
+      "id": "18NZfX7emHlt8wT_dhCq5E37M0UCXOtG5",
+      "parent_id": "1eufFgixSIlJKc1bl93j4YDOFhrrjaDNE",
+      "name": "CHUYỆN NỎ THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 947744,
+      "modified": "2026-08-15T07:03:52.000Z",
+      "checksum": "9ac44c75d71caf59bd4060de38e79014",
+      "folder": false
+    },
+    {
+      "id": "1LkrrRu-SkJ12MaF8cIn31CtZQLFCDEsf",
+      "parent_id": "1eufFgixSIlJKc1bl93j4YDOFhrrjaDNE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1128,
+      "modified": "2026-08-15T07:03:48.000Z",
+      "checksum": "77c5c899f3ea64d0bb45357439ba4544",
+      "folder": false
+    }
+  ]
+}

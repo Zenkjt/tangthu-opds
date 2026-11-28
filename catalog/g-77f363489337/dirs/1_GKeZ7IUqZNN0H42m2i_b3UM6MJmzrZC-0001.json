@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_GKeZ7IUqZNN0H42m2i_b3UM6MJmzrZC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UutgQEko1e0Lq9OBp4OpQLbA3-rzhVwN",
+      "parent_id": "1_GKeZ7IUqZNN0H42m2i_b3UM6MJmzrZC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9442,
+      "modified": "2026-08-15T07:03:37.000Z",
+      "checksum": "a574f8594061032f1dd4a192c08f5fba",
+      "folder": false
+    },
+    {
+      "id": "1VBiN1RbrxnMq-CXl289fJ-N9055_BRWK",
+      "parent_id": "1_GKeZ7IUqZNN0H42m2i_b3UM6MJmzrZC",
+      "name": "ĐÊM HỘI LONG TRÌ.epub",
+      "mime": "application/epub+zip",
+      "size": 553799,
+      "modified": "2026-08-15T07:03:44.000Z",
+      "checksum": "f7ce0f43101c8d01002496e1012f5720",
+      "folder": false
+    },
+    {
+      "id": "1n-xt7bhzuzi0rsUzAG4EOjESo6WqqYCG",
+      "parent_id": "1_GKeZ7IUqZNN0H42m2i_b3UM6MJmzrZC",
+      "name": "ĐÊM HỘI LONG TRÌ.pdf",
+      "mime": "application/pdf",
+      "size": 846166,
+      "modified": "2026-08-15T07:03:41.000Z",
+      "checksum": "25f3cab9bea9c35b6247a52ea1eb08c4",
+      "folder": false
+    }
+  ]
+}

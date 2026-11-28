@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jB3Gr0TrcmYiDY0spLPy-S8LhCwRp0du",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Wja1kaW3Qs8M12WA27gzjSSOSRLQ9Rap",
+      "parent_id": "1jB3Gr0TrcmYiDY0spLPy-S8LhCwRp0du",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3188,
+      "modified": "2026-08-15T10:41:02.000Z",
+      "checksum": "38560a13ff8de52c08ce6a0e89c121c1",
+      "folder": false
+    },
+    {
+      "id": "1DBdoalwbu05DZQSW46XLuddtZxWLREzc",
+      "parent_id": "1jB3Gr0TrcmYiDY0spLPy-S8LhCwRp0du",
+      "name": "NGUYÊN TỐ THAO KHỐNG SƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 4631019,
+      "modified": "2026-08-15T10:42:00.000Z",
+      "checksum": "eea295003d5e29278b1c89ac16949c4b",
+      "folder": false
+    },
+    {
+      "id": "1YPxJj_dUKSXyrkn1a4fGcPwRx2F4bMto",
+      "parent_id": "1jB3Gr0TrcmYiDY0spLPy-S8LhCwRp0du",
+      "name": "NGUYÊN TỐ THAO KHỐNG SƯ.pdf",
+      "mime": "application/pdf",
+      "size": 3058975,
+      "modified": "2026-08-15T10:41:29.000Z",
+      "checksum": "407891543b10879eaa0dc1a1f467f2ff",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GIYHlfVDDZRJMbpqm2sYVVuNZOk1ASkM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FKmOC4MY8rK6iV6yjAm-J_z0e20LqE8t",
+      "parent_id": "1GIYHlfVDDZRJMbpqm2sYVVuNZOk1ASkM",
+      "name": "BỐ GIÀ.epub",
+      "mime": "application/epub+zip",
+      "size": 551338,
+      "modified": "2026-08-15T06:35:15.000Z",
+      "checksum": "3e9fa060728ff8c88796b1aec9c6e01b",
+      "folder": false
+    },
+    {
+      "id": "1pAD6JVI7TWH4csMaWzgz_2WcK9NQ5GXU",
+      "parent_id": "1GIYHlfVDDZRJMbpqm2sYVVuNZOk1ASkM",
+      "name": "BỐ GIÀ.pdf",
+      "mime": "application/pdf",
+      "size": 1062039,
+      "modified": "2026-08-15T06:35:13.000Z",
+      "checksum": "972bdbf5c280654042b975464b77c1d2",
+      "folder": false
+    },
+    {
+      "id": "1LdyUgu5mEhWCmxJ3BVF0Ht3RaGH7RYc9",
+      "parent_id": "1GIYHlfVDDZRJMbpqm2sYVVuNZOk1ASkM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 22052,
+      "modified": "2026-08-15T06:35:06.000Z",
+      "checksum": "4120485d81bcdb7bf92e9e6941fd1c9b",
+      "folder": false
+    }
+  ]
+}

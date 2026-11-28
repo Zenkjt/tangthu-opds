@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1L_3Nufja8ZapHhxSjC8ZD5uOL3_3Takt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ys99ZRvZ8W6iAQK4lYqc0Ynjsf2UU8fg",
+      "parent_id": "1L_3Nufja8ZapHhxSjC8ZD5uOL3_3Takt",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 6158,
+      "modified": "2026-08-15T04:00:00.000Z",
+      "checksum": "534e599183461da38b56e54a30e9a759",
+      "folder": false
+    },
+    {
+      "id": "1o6aERrMHXWzO2iuKQ7kXMkRrUpDhIGvs",
+      "parent_id": "1L_3Nufja8ZapHhxSjC8ZD5uOL3_3Takt",
+      "name": "TAM TẠNG PHÁP SỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 1682015,
+      "modified": "2026-08-15T04:00:27.000Z",
+      "checksum": "811546275f9bd53ba0f73a61832d2ba4",
+      "folder": false
+    },
+    {
+      "id": "1p_HPY22fJ8Ck-j5ZiUXTLJWuSxf7rSBG",
+      "parent_id": "1L_3Nufja8ZapHhxSjC8ZD5uOL3_3Takt",
+      "name": "TAM TẠNG PHÁP SỐ.pdf",
+      "mime": "application/pdf",
+      "size": 6118233,
+      "modified": "2026-08-15T04:00:23.000Z",
+      "checksum": "9c3ddc117792f625a1ef18d92411553e",
+      "folder": false
+    }
+  ]
+}

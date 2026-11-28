@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1t60O3Ma4RannCaUphBfg_fbF6HaJBmZ6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xnWlyzK4UxcI8CY8K4UhlVKy5nbZcgx8",
+      "parent_id": "1t60O3Ma4RannCaUphBfg_fbF6HaJBmZ6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 556,
+      "modified": "2026-08-16T04:09:58.000Z",
+      "checksum": "1d853f6ecc96fdef3ecba1c9c3fde207",
+      "folder": false
+    },
+    {
+      "id": "1nxbWO1EHi_pq2Q_pkoc8fFPLTAGvscHD",
+      "parent_id": "1t60O3Ma4RannCaUphBfg_fbF6HaJBmZ6",
+      "name": "NHỮNG DẢI TRẮNG TRÊN NỀN ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 383423,
+      "modified": "2026-08-16T04:10:04.000Z",
+      "checksum": "cb91cd10744b3b6efaf8ab5a54cf9e52",
+      "folder": false
+    },
+    {
+      "id": "1m5v6oxmKfPyGESe7DD2Qkd_opi6WCY-Y",
+      "parent_id": "1t60O3Ma4RannCaUphBfg_fbF6HaJBmZ6",
+      "name": "NHỮNG DẢI TRẮNG TRÊN NỀN ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 587341,
+      "modified": "2026-08-16T04:10:02.000Z",
+      "checksum": "fe096ca7c3c644af412c6fd40f5354a5",
+      "folder": false
+    }
+  ]
+}

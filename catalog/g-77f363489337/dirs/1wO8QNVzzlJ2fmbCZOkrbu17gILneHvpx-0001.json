@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wO8QNVzzlJ2fmbCZOkrbu17gILneHvpx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SNSVStdJszNCQfSuU2YHp3XaOKgBk1kI",
+      "parent_id": "1wO8QNVzzlJ2fmbCZOkrbu17gILneHvpx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12600,
+      "modified": "2026-08-15T03:45:59.000Z",
+      "checksum": "f3b36d148bfc974638fc856d7daf78de",
+      "folder": false
+    },
+    {
+      "id": "1muLjqlJqeKOkB6YVPTEsK3jvWvgXOM87",
+      "parent_id": "1wO8QNVzzlJ2fmbCZOkrbu17gILneHvpx",
+      "name": "THAM THIỀN YẾU CHỈ.epub",
+      "mime": "application/epub+zip",
+      "size": 410469,
+      "modified": "2026-08-15T03:46:04.000Z",
+      "checksum": "6c67fe118bef8fe669c63941e07ddea7",
+      "folder": false
+    },
+    {
+      "id": "1ivVpifWH4qIP5e1F_C4j41iNENB3jGXg",
+      "parent_id": "1wO8QNVzzlJ2fmbCZOkrbu17gILneHvpx",
+      "name": "THAM THIỀN YẾU CHỈ.pdf",
+      "mime": "application/pdf",
+      "size": 244146,
+      "modified": "2026-08-15T03:46:02.000Z",
+      "checksum": "3d3afcb84108e2022b5b9e977b9749c4",
+      "folder": false
+    }
+  ]
+}

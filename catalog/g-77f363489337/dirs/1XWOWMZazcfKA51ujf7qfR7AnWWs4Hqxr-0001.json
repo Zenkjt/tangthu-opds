@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XWOWMZazcfKA51ujf7qfR7AnWWs4Hqxr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-xFjK2FcvW1DCMas3NXnhaRkWvPd8dv7",
+      "parent_id": "1XWOWMZazcfKA51ujf7qfR7AnWWs4Hqxr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5264,
+      "modified": "2026-08-16T03:04:26.000Z",
+      "checksum": "f7a84801bf4f8091cb3e5aa318c405bd",
+      "folder": false
+    },
+    {
+      "id": "1cuo3eT-kQGPTqnvwunLKe5PLgpmSArL1",
+      "parent_id": "1XWOWMZazcfKA51ujf7qfR7AnWWs4Hqxr",
+      "name": "MỐI CHÚA.epub",
+      "mime": "application/epub+zip",
+      "size": 918258,
+      "modified": "2026-08-16T03:04:34.000Z",
+      "checksum": "ccca2b65b593b3c8ffa6a88720a40e5c",
+      "folder": false
+    },
+    {
+      "id": "1uzG8M-RH5I6EZQ51cncmoNyBMYGMSp2S",
+      "parent_id": "1XWOWMZazcfKA51ujf7qfR7AnWWs4Hqxr",
+      "name": "MỐI CHÚA.pdf",
+      "mime": "application/pdf",
+      "size": 1060692,
+      "modified": "2026-08-16T03:04:31.000Z",
+      "checksum": "c31c6f5b33274c2e3d09188c8cf05979",
+      "folder": false
+    }
+  ]
+}

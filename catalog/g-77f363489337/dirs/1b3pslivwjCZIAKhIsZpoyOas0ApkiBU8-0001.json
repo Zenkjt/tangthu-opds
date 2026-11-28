@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1b3pslivwjCZIAKhIsZpoyOas0ApkiBU8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1T3t0vC30KWc4kwXxCi5ArLfq3kA1EgId",
+      "parent_id": "1b3pslivwjCZIAKhIsZpoyOas0ApkiBU8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 525,
+      "modified": "2026-08-16T04:03:02.000Z",
+      "checksum": "ab7c7ab22c6db1deec45f033a4154a5c",
+      "folder": false
+    },
+    {
+      "id": "1lqZoBBsGDkgSG2DsVbK87mtUxfkIbNbC",
+      "parent_id": "1b3pslivwjCZIAKhIsZpoyOas0ApkiBU8",
+      "name": "SỐNG TRÊN ĐÁ.epub",
+      "mime": "application/epub+zip",
+      "size": 411552,
+      "modified": "2026-08-16T04:03:07.000Z",
+      "checksum": "dce273bb919e93673ddc54e4fef335a1",
+      "folder": false
+    },
+    {
+      "id": "1U3E0sdUwizi0bztq-97Bqi9q7aQ3H4UB",
+      "parent_id": "1b3pslivwjCZIAKhIsZpoyOas0ApkiBU8",
+      "name": "SỐNG TRÊN ĐÁ.pdf",
+      "mime": "application/pdf",
+      "size": 333114,
+      "modified": "2026-08-16T04:03:05.000Z",
+      "checksum": "94f33d58cfcc806d8bc0736dcbb3ddb7",
+      "folder": false
+    }
+  ]
+}

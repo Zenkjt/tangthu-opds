@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Tcbr-ONA_Y_kDuxIZxFQb5DRFviwBrxy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cI4Ccawn06xR6PJhsUDmsX2HQsWAdoRl",
+      "parent_id": "1Tcbr-ONA_Y_kDuxIZxFQb5DRFviwBrxy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 512,
+      "modified": "2026-08-15T05:46:16.000Z",
+      "checksum": "d6670cd0181ad83783a8976474b4a838",
+      "folder": false
+    },
+    {
+      "id": "1W44AmCSpwnUNBNkU4zv8WLRvdfZTjkmC",
+      "parent_id": "1Tcbr-ONA_Y_kDuxIZxFQb5DRFviwBrxy",
+      "name": "ĐỊNH HƯỚNG VĂN HỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 215900,
+      "modified": "2026-08-15T05:46:24.000Z",
+      "checksum": "c91f3a1328895704dfb58ffd3bf39d0b",
+      "folder": false
+    },
+    {
+      "id": "1JpA4XCabahXA54tgvSu9-w0H-VOz1Jvb",
+      "parent_id": "1Tcbr-ONA_Y_kDuxIZxFQb5DRFviwBrxy",
+      "name": "ĐỊNH HƯỚNG VĂN HỌC.pdf",
+      "mime": "application/pdf",
+      "size": 586631,
+      "modified": "2026-08-15T05:46:20.000Z",
+      "checksum": "6f37a2c0b6ca02767b745da595476a82",
+      "folder": false
+    }
+  ]
+}

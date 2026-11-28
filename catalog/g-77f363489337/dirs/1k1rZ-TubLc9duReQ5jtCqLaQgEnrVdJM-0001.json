@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1k1rZ-TubLc9duReQ5jtCqLaQgEnrVdJM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PMwj2FaYs47cAPtzrXjf8Cn4JEBwxH7_",
+      "parent_id": "1k1rZ-TubLc9duReQ5jtCqLaQgEnrVdJM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 17547,
+      "modified": "2026-08-16T03:12:05.000Z",
+      "checksum": "2cbbdb84c28ad4d81ac129c3ff7750ae",
+      "folder": false
+    },
+    {
+      "id": "1b9wNVLjKa3BDGj5TW_jHOA6D_qcGDxCl",
+      "parent_id": "1k1rZ-TubLc9duReQ5jtCqLaQgEnrVdJM",
+      "name": "HẸN HÒ THEO KIỂU CỦA EM.epub",
+      "mime": "application/epub+zip",
+      "size": 1056718,
+      "modified": "2026-08-16T03:12:12.000Z",
+      "checksum": "928b730cc45f2dc7104d28b14e33b67e",
+      "folder": false
+    },
+    {
+      "id": "1VS80HziyjCrGRlNm70G9-8Z9_DoJclo8",
+      "parent_id": "1k1rZ-TubLc9duReQ5jtCqLaQgEnrVdJM",
+      "name": "HẸN HÒ THEO KIỂU CỦA EM.pdf",
+      "mime": "application/pdf",
+      "size": 1055143,
+      "modified": "2026-08-16T03:12:09.000Z",
+      "checksum": "5a802bb985dc86730fb1812ad89edde1",
+      "folder": false
+    }
+  ]
+}

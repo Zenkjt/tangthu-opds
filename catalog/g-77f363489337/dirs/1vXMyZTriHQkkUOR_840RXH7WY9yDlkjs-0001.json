@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vXMyZTriHQkkUOR_840RXH7WY9yDlkjs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-E_TupK7wq066Ll5ZxApHtRTeremxCTR",
+      "parent_id": "1vXMyZTriHQkkUOR_840RXH7WY9yDlkjs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 697,
+      "modified": "2026-08-16T04:18:59.000Z",
+      "checksum": "96a08da908ab5375ed7173f7585e1489",
+      "folder": false
+    },
+    {
+      "id": "1vfcyMSU3CdsX2ssB4lrVOwlRGQ0EmvfC",
+      "parent_id": "1vXMyZTriHQkkUOR_840RXH7WY9yDlkjs",
+      "name": "KHI TÔI NẰM CHẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 278195,
+      "modified": "2026-08-16T04:19:07.000Z",
+      "checksum": "5ebe8158ebefd7a5001a20827364e5fe",
+      "folder": false
+    },
+    {
+      "id": "12AU0TrKG8oNnBJqPRIx9GhrhPnBVfqp3",
+      "parent_id": "1vXMyZTriHQkkUOR_840RXH7WY9yDlkjs",
+      "name": "KHI TÔI NẰM CHẾT.pdf",
+      "mime": "application/pdf",
+      "size": 812297,
+      "modified": "2026-08-16T04:19:04.000Z",
+      "checksum": "84648c0187fa92235a2c042d973b125e",
+      "folder": false
+    }
+  ]
+}

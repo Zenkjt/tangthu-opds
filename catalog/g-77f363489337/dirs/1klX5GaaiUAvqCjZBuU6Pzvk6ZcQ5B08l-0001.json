@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1klX5GaaiUAvqCjZBuU6Pzvk6ZcQ5B08l",
+  "page": 1,
+  "items": [
+    {
+      "id": "1A0EaA6EkPOZjucfjWRA1McGKKvx1ZCn3",
+      "parent_id": "1klX5GaaiUAvqCjZBuU6Pzvk6ZcQ5B08l",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9118,
+      "modified": "2026-08-15T07:43:39.000Z",
+      "checksum": "506424c212304394c71199e8d8500208",
+      "folder": false
+    },
+    {
+      "id": "1QPV3_HAkoyd4dLLlg2TW7NH4rQj56qd5",
+      "parent_id": "1klX5GaaiUAvqCjZBuU6Pzvk6ZcQ5B08l",
+      "name": "MÔ KIM QUYẾT - QUỶ MÔN THIÊN SƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 637361,
+      "modified": "2026-08-15T07:43:46.000Z",
+      "checksum": "9698212db7178aeb43fbda30279d8c85",
+      "folder": false
+    },
+    {
+      "id": "1jfF8i3yZ4dqTVRn--Txma3a5K3YvOl-3",
+      "parent_id": "1klX5GaaiUAvqCjZBuU6Pzvk6ZcQ5B08l",
+      "name": "MÔ KIM QUYẾT - QUỶ MÔN THIÊN SƯ.pdf",
+      "mime": "application/pdf",
+      "size": 1678115,
+      "modified": "2026-08-15T07:43:44.000Z",
+      "checksum": "a0762b2cd074b7861dd5833f9f2fcbf2",
+      "folder": false
+    }
+  ]
+}

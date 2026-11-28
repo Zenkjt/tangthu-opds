@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1clQCfHRmMop9UJNCSSXThygbfaJdsI84",
+  "page": 1,
+  "items": [
+    {
+      "id": "14yo6AWNKhbbYRevNJwgBEROq59tLt7Ae",
+      "parent_id": "1clQCfHRmMop9UJNCSSXThygbfaJdsI84",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12271,
+      "modified": "2026-08-15T12:51:30.000Z",
+      "checksum": "801b62fdb50199c32622d15ddeeaf4de",
+      "folder": false
+    },
+    {
+      "id": "1wmgLjAz0yrMRWKEzqF-JMUfAqOE-x2Qx",
+      "parent_id": "1clQCfHRmMop9UJNCSSXThygbfaJdsI84",
+      "name": "PIPPI TẤT DÀI.epub",
+      "mime": "application/epub+zip",
+      "size": 513274,
+      "modified": "2026-08-15T12:51:40.000Z",
+      "checksum": "68e5765cdcac28c1be5a55ce226afc69",
+      "folder": false
+    },
+    {
+      "id": "1xoF_-Qk_z_t7b6oVdYNjqZNWubGHqx3s",
+      "parent_id": "1clQCfHRmMop9UJNCSSXThygbfaJdsI84",
+      "name": "PIPPI TẤT DÀI.pdf",
+      "mime": "application/pdf",
+      "size": 1030835,
+      "modified": "2026-08-15T12:51:36.000Z",
+      "checksum": "153745127a7a56970413371b2af9ea5f",
+      "folder": false
+    }
+  ]
+}

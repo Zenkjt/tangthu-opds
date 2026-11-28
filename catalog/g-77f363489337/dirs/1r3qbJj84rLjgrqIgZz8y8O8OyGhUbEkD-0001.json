@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1r3qbJj84rLjgrqIgZz8y8O8OyGhUbEkD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OGNHAynpii97KK9-TEPpcMyHMrwDbe0y",
+      "parent_id": "1r3qbJj84rLjgrqIgZz8y8O8OyGhUbEkD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5926,
+      "modified": "2026-08-16T02:42:19.000Z",
+      "checksum": "356d9afb28007033ddcd615b4ed0c674",
+      "folder": false
+    },
+    {
+      "id": "1M8SCrZqT1KWUXV3hcyQC1NLuXw6hMzDs",
+      "parent_id": "1r3qbJj84rLjgrqIgZz8y8O8OyGhUbEkD",
+      "name": "MẸ LƯU MANH, CON THIÊN TÀI.epub",
+      "mime": "application/epub+zip",
+      "size": 2762731,
+      "modified": "2026-08-16T02:42:28.000Z",
+      "checksum": "16610cf356b2efdcf5a3d7734e163f29",
+      "folder": false
+    },
+    {
+      "id": "1OxHNahbrck5PxBxiF_LXnfIrFmTt7PwW",
+      "parent_id": "1r3qbJj84rLjgrqIgZz8y8O8OyGhUbEkD",
+      "name": "MẸ LƯU MANH, CON THIÊN TÀI.pdf",
+      "mime": "application/pdf",
+      "size": 3153199,
+      "modified": "2026-08-16T02:42:25.000Z",
+      "checksum": "da239cce6da7687329c260fc52d009da",
+      "folder": false
+    }
+  ]
+}

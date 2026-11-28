@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YEYE-nvj3WUqH1AjBHftd69JmnUzapT6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1W32gSgTOyplIQATxrRF88j7J7Ji7yvzM",
+      "parent_id": "1YEYE-nvj3WUqH1AjBHftd69JmnUzapT6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 962,
+      "modified": "2026-08-15T07:22:12.000Z",
+      "checksum": "a26ae496602b1c2f3200e8486331740a",
+      "folder": false
+    },
+    {
+      "id": "14SetrRaBPAn-VtEwJRdhNUy62S2RC0rl",
+      "parent_id": "1YEYE-nvj3WUqH1AjBHftd69JmnUzapT6",
+      "name": "TRIỀU THIÊN NHẤT CÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 789302,
+      "modified": "2026-08-15T07:22:20.000Z",
+      "checksum": "f6c5a2b627210d4f0a433720c5701456",
+      "folder": false
+    },
+    {
+      "id": "1WvHgv9-5j96pOt1rwnJkyWtPIIIjgkOY",
+      "parent_id": "1YEYE-nvj3WUqH1AjBHftd69JmnUzapT6",
+      "name": "TRIỀU THIÊN NHẤT CÔN.pdf",
+      "mime": "application/pdf",
+      "size": 1943345,
+      "modified": "2026-08-15T07:22:17.000Z",
+      "checksum": "12151c222e4c5f59b996226334a58dd1",
+      "folder": false
+    }
+  ]
+}

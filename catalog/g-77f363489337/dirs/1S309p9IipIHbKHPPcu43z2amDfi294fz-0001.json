@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1S309p9IipIHbKHPPcu43z2amDfi294fz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1e9r2SRTahSHoLxmS-ViUyD6npNO981Po",
+      "parent_id": "1S309p9IipIHbKHPPcu43z2amDfi294fz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1801,
+      "modified": "2026-08-15T00:47:06.000Z",
+      "checksum": "3a2ecc6d61a2d41b68bcb26687c789c0",
+      "folder": false
+    },
+    {
+      "id": "1gb6NqyQk5LwaA8YPXhvSHOPYNotM1hDA",
+      "parent_id": "1S309p9IipIHbKHPPcu43z2amDfi294fz",
+      "name": "NGHỆ THUẬT TƯ DUY RÀNH MẠCH.epub",
+      "mime": "application/epub+zip",
+      "size": 976184,
+      "modified": "2026-08-15T00:47:14.000Z",
+      "checksum": "34b45dffd8997ebf4528bf370297e134",
+      "folder": false
+    },
+    {
+      "id": "11vt1Lerm7Zf3GJ0XgschbBbKFbKyCZLB",
+      "parent_id": "1S309p9IipIHbKHPPcu43z2amDfi294fz",
+      "name": "NGHỆ THUẬT TƯ DUY RÀNH MẠCH.pdf",
+      "mime": "application/pdf",
+      "size": 1608976,
+      "modified": "2026-08-15T00:47:11.000Z",
+      "checksum": "fd8250f5dadc382f0a6df84a30a8ac4c",
+      "folder": false
+    }
+  ]
+}

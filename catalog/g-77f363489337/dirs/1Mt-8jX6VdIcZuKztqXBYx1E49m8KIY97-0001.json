@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Mt-8jX6VdIcZuKztqXBYx1E49m8KIY97",
+  "page": 1,
+  "items": [
+    {
+      "id": "11qLuVAOPxOrTUzoT1WamF5vrepoern29",
+      "parent_id": "1Mt-8jX6VdIcZuKztqXBYx1E49m8KIY97",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9503,
+      "modified": "2026-08-16T03:48:40.000Z",
+      "checksum": "3edcc7e6308bab94d0fc1a974ed65b6a",
+      "folder": false
+    },
+    {
+      "id": "1rz-LMxpX7La_r9GmQAAox758dCDNU7Aw",
+      "parent_id": "1Mt-8jX6VdIcZuKztqXBYx1E49m8KIY97",
+      "name": "MƯỜI BẢY KHOẢNH KHẮC MÙA XUÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 795464,
+      "modified": "2026-08-16T03:48:47.000Z",
+      "checksum": "ad69a352a1e65f78e2c3bbbb89506c32",
+      "folder": false
+    },
+    {
+      "id": "1nDcFdFNmHWqeFy9UeZulUU2wxHooqopb",
+      "parent_id": "1Mt-8jX6VdIcZuKztqXBYx1E49m8KIY97",
+      "name": "MƯỜI BẢY KHOẢNH KHẮC MÙA XUÂN.pdf",
+      "mime": "application/pdf",
+      "size": 1572650,
+      "modified": "2026-08-16T03:48:45.000Z",
+      "checksum": "19ef58a8d82932839b2480cca927860d",
+      "folder": false
+    }
+  ]
+}

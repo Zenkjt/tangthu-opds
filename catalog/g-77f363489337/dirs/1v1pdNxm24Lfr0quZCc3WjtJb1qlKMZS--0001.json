@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1v1pdNxm24Lfr0quZCc3WjtJb1qlKMZS-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1G77wdsalQKxTL4r5Cn5NYYJgl0pYr4Y6",
+      "parent_id": "1v1pdNxm24Lfr0quZCc3WjtJb1qlKMZS-",
+      "name": "BẤT KHUẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 418230,
+      "modified": "2026-08-15T09:36:44.000Z",
+      "checksum": "4169b9f33c0d82f63061e5c25b10523f",
+      "folder": false
+    },
+    {
+      "id": "1DFy5KrPEY0MPg0XNgLKZLdE8xmvfzqAZ",
+      "parent_id": "1v1pdNxm24Lfr0quZCc3WjtJb1qlKMZS-",
+      "name": "BẤT KHUẤT.pdf",
+      "mime": "application/pdf",
+      "size": 813657,
+      "modified": "2026-08-15T09:36:41.000Z",
+      "checksum": "10f08119c4d1ea971306fbcee6b46a28",
+      "folder": false
+    },
+    {
+      "id": "1ra7azrzTvS5ZDcifyig9qKlkUzk1jS3i",
+      "parent_id": "1v1pdNxm24Lfr0quZCc3WjtJb1qlKMZS-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4920,
+      "modified": "2026-08-15T09:36:35.000Z",
+      "checksum": "b97164c902eea365d236a5d2a775a2ef",
+      "folder": false
+    }
+  ]
+}

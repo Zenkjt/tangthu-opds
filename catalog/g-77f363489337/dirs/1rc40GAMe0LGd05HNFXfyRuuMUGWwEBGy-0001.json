@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rc40GAMe0LGd05HNFXfyRuuMUGWwEBGy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1i8aCiF2Uvk6HzeZAiIy_d6nelECLukb3",
+      "parent_id": "1rc40GAMe0LGd05HNFXfyRuuMUGWwEBGy",
+      "name": "CHUYỆN LÀNG NHÔ.epub",
+      "mime": "application/epub+zip",
+      "size": 387041,
+      "modified": "2026-08-15T10:02:29.000Z",
+      "checksum": "dbce5bf0a6869d0f8d7d9c27a3360ef5",
+      "folder": false
+    },
+    {
+      "id": "1VnJUf0RTJHIHQcDRJSwqeCVqTm6EvaOV",
+      "parent_id": "1rc40GAMe0LGd05HNFXfyRuuMUGWwEBGy",
+      "name": "CHUYỆN LÀNG NHÔ.pdf",
+      "mime": "application/pdf",
+      "size": 425421,
+      "modified": "2026-08-15T10:02:05.000Z",
+      "checksum": "1b0650c577fd1f685a39050f667d1a78",
+      "folder": false
+    },
+    {
+      "id": "1z68SttAVIMEmSQYk7_7bPJS0l1r3Cyo-",
+      "parent_id": "1rc40GAMe0LGd05HNFXfyRuuMUGWwEBGy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 632,
+      "modified": "2026-08-15T10:01:56.000Z",
+      "checksum": "9a5c34e37477af7cb6d060273d6c2a27",
+      "folder": false
+    }
+  ]
+}

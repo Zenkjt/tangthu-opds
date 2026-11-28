@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1w4n05OBBtwbJuxBW8FJrygHGVkihcsWo",
+  "page": 1,
+  "items": [
+    {
+      "id": "12Bh1toFGDil-xJQmUAFPfJvy8Ru0pRjJ",
+      "parent_id": "1w4n05OBBtwbJuxBW8FJrygHGVkihcsWo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3004,
+      "modified": "2026-08-15T10:28:00.000Z",
+      "checksum": "72ffcce2bb284981db16ad062e58115b",
+      "folder": false
+    },
+    {
+      "id": "1BAaM3SNN2_pMdi3O3Gqg_qGtG5ZqHrv6",
+      "parent_id": "1w4n05OBBtwbJuxBW8FJrygHGVkihcsWo",
+      "name": "SAPPHIQUE.epub",
+      "mime": "application/epub+zip",
+      "size": 774572,
+      "modified": "2026-08-15T10:28:10.000Z",
+      "checksum": "f57eb541bdfa96162a921b0121c9c059",
+      "folder": false
+    },
+    {
+      "id": "1-YLeV48fox1kOPFVNj-SihelPEbuvEoe",
+      "parent_id": "1w4n05OBBtwbJuxBW8FJrygHGVkihcsWo",
+      "name": "SAPPHIQUE.pdf",
+      "mime": "application/pdf",
+      "size": 1527681,
+      "modified": "2026-08-15T10:28:07.000Z",
+      "checksum": "1048cb3968ca3382698a8453088eb107",
+      "folder": false
+    }
+  ]
+}

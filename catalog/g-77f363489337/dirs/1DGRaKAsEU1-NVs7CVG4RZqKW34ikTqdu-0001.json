@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DGRaKAsEU1-NVs7CVG4RZqKW34ikTqdu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BIdJzJUP60baGLUnQdqlzVAJRk2e9nCo",
+      "parent_id": "1DGRaKAsEU1-NVs7CVG4RZqKW34ikTqdu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3197,
+      "modified": "2026-08-16T04:13:59.000Z",
+      "checksum": "43cec7b38edc77b8133283a23b75b2b9",
+      "folder": false
+    },
+    {
+      "id": "1lywSxItReJZ6a9RNU9KEmDD47EPcmiJe",
+      "parent_id": "1DGRaKAsEU1-NVs7CVG4RZqKW34ikTqdu",
+      "name": "NGƯỜI ĐÀN BÀ TRÊN ĐỒI CỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 509839,
+      "modified": "2026-08-16T04:14:05.000Z",
+      "checksum": "ee8991cbeea4b1a4896cce27026d9b6f",
+      "folder": false
+    },
+    {
+      "id": "1wAmm43vZ_6kCJYYvzB2Tc3uryMmzpPds",
+      "parent_id": "1DGRaKAsEU1-NVs7CVG4RZqKW34ikTqdu",
+      "name": "NGƯỜI ĐÀN BÀ TRÊN ĐỒI CỎ.pdf",
+      "mime": "application/pdf",
+      "size": 714494,
+      "modified": "2026-08-16T04:14:02.000Z",
+      "checksum": "720bbe2713683a04765b45e7ee019a8e",
+      "folder": false
+    }
+  ]
+}

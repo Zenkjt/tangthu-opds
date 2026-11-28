@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13vOLwOmtq0lzScF0hQsPEYjZ-AiaVgbR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_MIv7h9bhwgGOlS6eIolxM1nAhn6UV1h",
+      "parent_id": "13vOLwOmtq0lzScF0hQsPEYjZ-AiaVgbR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 557,
+      "modified": "2026-08-15T10:19:13.000Z",
+      "checksum": "5b3cceb304ddf5e98aadfc1d6b0369ee",
+      "folder": false
+    },
+    {
+      "id": "1k9UiXjR-YIRvaT7AjGQSnk1KHekTkngM",
+      "parent_id": "13vOLwOmtq0lzScF0hQsPEYjZ-AiaVgbR",
+      "name": "THÁC LŨ.epub",
+      "mime": "application/epub+zip",
+      "size": 913101,
+      "modified": "2026-08-15T10:19:41.000Z",
+      "checksum": "159b6646d20de045d61ea841b99af229",
+      "folder": false
+    },
+    {
+      "id": "1RdUykw0GDBiG5V9FVQFX2uQpCC3tL5Y5",
+      "parent_id": "13vOLwOmtq0lzScF0hQsPEYjZ-AiaVgbR",
+      "name": "THÁC LŨ.pdf",
+      "mime": "application/pdf",
+      "size": 3033842,
+      "modified": "2026-08-15T10:19:34.000Z",
+      "checksum": "392cd721d6db666e93637f3cac15812f",
+      "folder": false
+    }
+  ]
+}

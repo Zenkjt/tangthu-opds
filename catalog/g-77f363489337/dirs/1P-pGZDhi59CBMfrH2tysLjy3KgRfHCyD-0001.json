@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1P-pGZDhi59CBMfrH2tysLjy3KgRfHCyD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pBzBAWes0cAH3P7iKTiMms0gJXvWnuZg",
+      "parent_id": "1P-pGZDhi59CBMfrH2tysLjy3KgRfHCyD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 422,
+      "modified": "2026-08-16T04:13:28.000Z",
+      "checksum": "dc48de9a0fb4fdbb61ae40e7a74e96e7",
+      "folder": false
+    },
+    {
+      "id": "1x0tWb8tFqMaSfaOmaiOO19YwGEnZecIp",
+      "parent_id": "1P-pGZDhi59CBMfrH2tysLjy3KgRfHCyD",
+      "name": "NGƯỜI SĂN ÁC QUỶ.epub",
+      "mime": "application/epub+zip",
+      "size": 589250,
+      "modified": "2026-08-16T04:13:35.000Z",
+      "checksum": "8371f4bf8b40ae82d24ae21d0806b690",
+      "folder": false
+    },
+    {
+      "id": "1EeV9ZBfR6Wq-QJnP0xGDiByLOwVVJLj4",
+      "parent_id": "1P-pGZDhi59CBMfrH2tysLjy3KgRfHCyD",
+      "name": "NGƯỜI SĂN ÁC QUỶ.pdf",
+      "mime": "application/pdf",
+      "size": 1341991,
+      "modified": "2026-08-16T04:13:33.000Z",
+      "checksum": "4a40bc74b80a26de72b34b967d584222",
+      "folder": false
+    }
+  ]
+}

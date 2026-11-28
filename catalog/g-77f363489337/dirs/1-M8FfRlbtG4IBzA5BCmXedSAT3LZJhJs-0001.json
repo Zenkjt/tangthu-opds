@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-M8FfRlbtG4IBzA5BCmXedSAT3LZJhJs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bk6h5px47rvAEAcXRjWmEJvA_-KiKvcP",
+      "parent_id": "1-M8FfRlbtG4IBzA5BCmXedSAT3LZJhJs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3019,
+      "modified": "2026-08-15T09:38:29.000Z",
+      "checksum": "3e8097bc0489795f3080c691a1a2135a",
+      "folder": false
+    },
+    {
+      "id": "1Bf-LBXzx9fBS007_aRE9tbsiYIUnRFHO",
+      "parent_id": "1-M8FfRlbtG4IBzA5BCmXedSAT3LZJhJs",
+      "name": "NHỮNG CUỘC PHIÊU LƯU CỦA HUCKLEBERRY FINN.epub",
+      "mime": "application/epub+zip",
+      "size": 466394,
+      "modified": "2026-08-15T09:38:36.000Z",
+      "checksum": "8eb49220be324948fb2a2f2274a32b51",
+      "folder": false
+    },
+    {
+      "id": "1GRRoE59vdswPH1ZWw_XIWgIFLuhLkuJz",
+      "parent_id": "1-M8FfRlbtG4IBzA5BCmXedSAT3LZJhJs",
+      "name": "NHỮNG CUỘC PHIÊU LƯU CỦA HUCKLEBERRY FINN.pdf",
+      "mime": "application/pdf",
+      "size": 1268215,
+      "modified": "2026-08-15T09:38:34.000Z",
+      "checksum": "ec7fe7f0e0a46250f146c1f1b2ca4d27",
+      "folder": false
+    }
+  ]
+}

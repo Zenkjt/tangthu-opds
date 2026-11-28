@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1E3WQcauJ2ZlhxKpr2AnfBuhkpDrOPF6s",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kjULO9ovVm6qLXTZXJO4KhtW5ipgSJ3m",
+      "parent_id": "1E3WQcauJ2ZlhxKpr2AnfBuhkpDrOPF6s",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3899,
+      "modified": "2026-08-16T04:12:08.000Z",
+      "checksum": "ff8469f7cca294c9a5dacdb50056fb50",
+      "folder": false
+    },
+    {
+      "id": "1jH-Lx2YFUtee595aPXxdVh7-pD3Gghh0",
+      "parent_id": "1E3WQcauJ2ZlhxKpr2AnfBuhkpDrOPF6s",
+      "name": "NHẬT KÝ CHẠY TRỐN TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 730617,
+      "modified": "2026-08-16T04:12:15.000Z",
+      "checksum": "d5f92c9ad9f271bc170d169f7d0e88aa",
+      "folder": false
+    },
+    {
+      "id": "1fPlIiGN43-vNvloKFbeLTUWN8xPRE2Av",
+      "parent_id": "1E3WQcauJ2ZlhxKpr2AnfBuhkpDrOPF6s",
+      "name": "NHẬT KÝ CHẠY TRỐN TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 983849,
+      "modified": "2026-08-16T04:12:11.000Z",
+      "checksum": "1972fbf1783f89475be617b24f0a0444",
+      "folder": false
+    }
+  ]
+}

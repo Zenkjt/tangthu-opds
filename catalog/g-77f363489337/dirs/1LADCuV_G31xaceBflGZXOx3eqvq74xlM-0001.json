@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LADCuV_G31xaceBflGZXOx3eqvq74xlM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WeMaD4Zs0HOE_Mfhzc_62I82v1bnfSKd",
+      "parent_id": "1LADCuV_G31xaceBflGZXOx3eqvq74xlM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 665,
+      "modified": "2026-08-15T10:57:24.000Z",
+      "checksum": "ee87ad8883d288a2fc6ef206504a1819",
+      "folder": false
+    },
+    {
+      "id": "1-077QNkV1MFuCGPtlpFnpwPc5lOgsf_2",
+      "parent_id": "1LADCuV_G31xaceBflGZXOx3eqvq74xlM",
+      "name": "GHÉT, THÂN, THƯƠNG, YÊU, CƯỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 582897,
+      "modified": "2026-08-15T10:57:31.000Z",
+      "checksum": "b74cf33ed8e900e3010b595fb3c1fd4f",
+      "folder": false
+    },
+    {
+      "id": "1sR-zQhN0w4e9HZhpmV893xG0IrWuUB9x",
+      "parent_id": "1LADCuV_G31xaceBflGZXOx3eqvq74xlM",
+      "name": "GHÉT, THÂN, THƯƠNG, YÊU, CƯỚI.pdf",
+      "mime": "application/pdf",
+      "size": 1346026,
+      "modified": "2026-08-15T10:57:28.000Z",
+      "checksum": "f72bca18d29b74dc4e41aef124e25b1d",
+      "folder": false
+    }
+  ]
+}

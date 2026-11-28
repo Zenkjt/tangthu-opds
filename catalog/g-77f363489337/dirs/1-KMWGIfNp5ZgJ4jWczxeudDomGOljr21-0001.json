@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-KMWGIfNp5ZgJ4jWczxeudDomGOljr21",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Nwa7I1faMerZL3oSrDymilFydmfDxk3V",
+      "parent_id": "1-KMWGIfNp5ZgJ4jWczxeudDomGOljr21",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1729,
+      "modified": "2026-08-15T12:42:13.000Z",
+      "checksum": "471963c5f0235ae9d280a41ff4d87c5e",
+      "folder": false
+    },
+    {
+      "id": "19XEgfsgNnxTc9zCEnU7_wS3bp26hUbtN",
+      "parent_id": "1-KMWGIfNp5ZgJ4jWczxeudDomGOljr21",
+      "name": "HORRIBLE GEOGRAPHY - ĐẠI DƯƠNG KHÓ THƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 4952497,
+      "modified": "2026-08-15T12:42:22.000Z",
+      "checksum": "cb5c999206a9491d90c1e133d10770e7",
+      "folder": false
+    },
+    {
+      "id": "1Rad4DrjzrYOf0Ub1sbU1UyR6RbWVL9wJ",
+      "parent_id": "1-KMWGIfNp5ZgJ4jWczxeudDomGOljr21",
+      "name": "HORRIBLE GEOGRAPHY - ĐẠI DƯƠNG KHÓ THƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 5378409,
+      "modified": "2026-08-15T12:42:18.000Z",
+      "checksum": "fa018b8f6a5ea8cff008ca9346805a41",
+      "folder": false
+    }
+  ]
+}

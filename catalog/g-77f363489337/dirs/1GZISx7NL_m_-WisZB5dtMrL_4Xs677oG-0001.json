@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GZISx7NL_m_-WisZB5dtMrL_4Xs677oG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EdFlpt5ojzLGDSq4neOBlPHB61Azx8wO",
+      "parent_id": "1GZISx7NL_m_-WisZB5dtMrL_4Xs677oG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3509,
+      "modified": "2026-08-15T03:29:12.000Z",
+      "checksum": "dc26e14db19a4428000c7c81af36ff05",
+      "folder": false
+    },
+    {
+      "id": "1b1G8LM_jfiOsSh0RigHmxbbULt4kTl9P",
+      "parent_id": "1GZISx7NL_m_-WisZB5dtMrL_4Xs677oG",
+      "name": "ĐƯỜNG MÂY TRONG CÕI MỘNG.epub",
+      "mime": "application/epub+zip",
+      "size": 669397,
+      "modified": "2026-08-15T03:29:22.000Z",
+      "checksum": "6246b7511bca51b01f41129626912925",
+      "folder": false
+    },
+    {
+      "id": "1sROHCtMfoQxiumV0ato5iuMr4a6Xokk0",
+      "parent_id": "1GZISx7NL_m_-WisZB5dtMrL_4Xs677oG",
+      "name": "ĐƯỜNG MÂY TRONG CÕI MỘNG.pdf",
+      "mime": "application/pdf",
+      "size": 1238711,
+      "modified": "2026-08-15T03:29:19.000Z",
+      "checksum": "ba1e587d66f72054cea91b16641c7763",
+      "folder": false
+    }
+  ]
+}

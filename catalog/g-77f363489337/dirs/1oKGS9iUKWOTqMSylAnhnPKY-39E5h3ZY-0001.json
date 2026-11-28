@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oKGS9iUKWOTqMSylAnhnPKY-39E5h3ZY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-CDmsLqL72OLMDbK0hY_3vImf13Kc4e9",
+      "parent_id": "1oKGS9iUKWOTqMSylAnhnPKY-39E5h3ZY",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 4880,
+      "modified": "2026-08-15T08:01:49.000Z",
+      "checksum": "4302c6f268d62a84355b4d6b152c870d",
+      "folder": false
+    },
+    {
+      "id": "1tW8NOSG1dDO8qu6IA0pXSlWVtpCz2Fln",
+      "parent_id": "1oKGS9iUKWOTqMSylAnhnPKY-39E5h3ZY",
+      "name": "HẮC PHONG THÀNH CHIẾN KÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 2383233,
+      "modified": "2026-08-15T08:02:10.000Z",
+      "checksum": "bb8375b268cc6293aeedf67a53295344",
+      "folder": false
+    },
+    {
+      "id": "1o2g8GPDEXBRkm4Oq950mFxIIBu-hKTuG",
+      "parent_id": "1oKGS9iUKWOTqMSylAnhnPKY-39E5h3ZY",
+      "name": "HẮC PHONG THÀNH CHIẾN KÝ.pdf",
+      "mime": "application/pdf",
+      "size": 9395197,
+      "modified": "2026-08-15T08:02:05.000Z",
+      "checksum": "bc95f12e949b9e1d0d96a85309b09e77",
+      "folder": false
+    }
+  ]
+}

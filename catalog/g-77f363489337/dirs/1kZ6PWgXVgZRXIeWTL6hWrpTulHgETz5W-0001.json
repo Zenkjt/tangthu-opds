@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kZ6PWgXVgZRXIeWTL6hWrpTulHgETz5W",
+  "page": 1,
+  "items": [
+    {
+      "id": "10E9BU5sJi-5cagbpBlmGuOvHkpWZyEMz",
+      "parent_id": "1kZ6PWgXVgZRXIeWTL6hWrpTulHgETz5W",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 523,
+      "modified": "2026-08-15T10:56:10.000Z",
+      "checksum": "a7d5abdd39343c5faba7676e3cad5da4",
+      "folder": false
+    },
+    {
+      "id": "16NhcZZob2hSm3apkYX0GVmHoe8BJkj9D",
+      "parent_id": "1kZ6PWgXVgZRXIeWTL6hWrpTulHgETz5W",
+      "name": "HUYẾT MẠCH PHƯỢNG HOÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 3043821,
+      "modified": "2026-08-15T10:56:19.000Z",
+      "checksum": "cb1955189eb7729bf196140161c2f90f",
+      "folder": false
+    },
+    {
+      "id": "1SDE49tApYTRSLNRM0SqP2iJxT1whkgjz",
+      "parent_id": "1kZ6PWgXVgZRXIeWTL6hWrpTulHgETz5W",
+      "name": "HUYẾT MẠCH PHƯỢNG HOÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 2010195,
+      "modified": "2026-08-15T10:56:15.000Z",
+      "checksum": "a2925198796c274c3695bdc4bb66efda",
+      "folder": false
+    }
+  ]
+}

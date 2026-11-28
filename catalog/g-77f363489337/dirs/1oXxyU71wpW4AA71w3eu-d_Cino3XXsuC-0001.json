@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oXxyU71wpW4AA71w3eu-d_Cino3XXsuC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FlIsBdFfigHd-Axf_ND6T1_So_h46ZL5",
+      "parent_id": "1oXxyU71wpW4AA71w3eu-d_Cino3XXsuC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6025,
+      "modified": "2026-08-15T00:54:50.000Z",
+      "checksum": "5aeca254d25def4c4ddffbf97fd3af53",
+      "folder": false
+    },
+    {
+      "id": "1QwOE5bprUpk6_7ZwodA0rbJTodTLcQ7p",
+      "parent_id": "1oXxyU71wpW4AA71w3eu-d_Cino3XXsuC",
+      "name": "THÁI ĐỘ QUYẾT ĐỊNH THÀNH CÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 319343,
+      "modified": "2026-08-15T00:54:55.000Z",
+      "checksum": "c461b3fad4b507ff750f9c6eceb11872",
+      "folder": false
+    },
+    {
+      "id": "1-YenRrEWixBEuZgbDgnx59ZW1XQoNepD",
+      "parent_id": "1oXxyU71wpW4AA71w3eu-d_Cino3XXsuC",
+      "name": "THÁI ĐỘ QUYẾT ĐỊNH THÀNH CÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 415091,
+      "modified": "2026-08-15T00:54:53.000Z",
+      "checksum": "a9d01c99a43e54e76b4a81e60c8cdaee",
+      "folder": false
+    }
+  ]
+}

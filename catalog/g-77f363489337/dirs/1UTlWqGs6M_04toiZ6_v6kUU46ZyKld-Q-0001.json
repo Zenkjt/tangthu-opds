@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UTlWqGs6M_04toiZ6_v6kUU46ZyKld-Q",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Bz9s9Ythx3jeq20tPeFNQI05qxeVnIoM",
+      "parent_id": "1UTlWqGs6M_04toiZ6_v6kUU46ZyKld-Q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3276,
+      "modified": "2026-08-16T02:56:11.000Z",
+      "checksum": "9d5fda6d8f48a06a33755d2bd14b7857",
+      "folder": false
+    },
+    {
+      "id": "1xYdWEaSSFujgQ7fmRKp7cOH1nhpDeWWi",
+      "parent_id": "1UTlWqGs6M_04toiZ6_v6kUU46ZyKld-Q",
+      "name": "SÀI GÒN NĂM XƯA.epub",
+      "mime": "application/epub+zip",
+      "size": 2570964,
+      "modified": "2026-08-16T02:56:19.000Z",
+      "checksum": "3eedfabcce790b5abe61ad1781dbf261",
+      "folder": false
+    },
+    {
+      "id": "1Lmb-GaIxSFmzs5UfoxitHXDXLcD0fH97",
+      "parent_id": "1UTlWqGs6M_04toiZ6_v6kUU46ZyKld-Q",
+      "name": "SÀI GÒN NĂM XƯA.pdf",
+      "mime": "application/pdf",
+      "size": 3197325,
+      "modified": "2026-08-16T02:56:17.000Z",
+      "checksum": "68184e312b9c7460a113781d5afa5c72",
+      "folder": false
+    }
+  ]
+}

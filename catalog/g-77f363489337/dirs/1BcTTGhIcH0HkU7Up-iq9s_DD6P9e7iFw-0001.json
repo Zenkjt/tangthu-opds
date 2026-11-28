@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BcTTGhIcH0HkU7Up-iq9s_DD6P9e7iFw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1z_niBfO7cVY49z3u3IjMQvd8DhZDIqF3",
+      "parent_id": "1BcTTGhIcH0HkU7Up-iq9s_DD6P9e7iFw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1229,
+      "modified": "2026-08-16T03:53:06.000Z",
+      "checksum": "c79d57a925591c952d4d9e93fa55179a",
+      "folder": false
+    },
+    {
+      "id": "1OdzVt5rPJ1rYYLaQFHm_vzJ_lppgredc",
+      "parent_id": "1BcTTGhIcH0HkU7Up-iq9s_DD6P9e7iFw",
+      "name": "TÔI LÀ JEMIMA.epub",
+      "mime": "application/epub+zip",
+      "size": 503757,
+      "modified": "2026-08-16T03:53:14.000Z",
+      "checksum": "4b13118ee68c5b377be3833e03c8e7d7",
+      "folder": false
+    },
+    {
+      "id": "1IzTXHLMd0LWHRlOauuOfkO4-h8qx8ZC4",
+      "parent_id": "1BcTTGhIcH0HkU7Up-iq9s_DD6P9e7iFw",
+      "name": "TÔI LÀ JEMIMA.pdf",
+      "mime": "application/pdf",
+      "size": 2366687,
+      "modified": "2026-08-16T03:53:12.000Z",
+      "checksum": "6cb49f6d64b956ce8a73fcee2c6b681b",
+      "folder": false
+    }
+  ]
+}

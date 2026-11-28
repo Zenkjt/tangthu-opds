@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_Dz5nG96JUzIUQS_NwBNJFTwDIkrvQjK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1r-u1C-UTV5Flu5vwnfesNQ0sCqVHCMvD",
+      "parent_id": "1_Dz5nG96JUzIUQS_NwBNJFTwDIkrvQjK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3257,
+      "modified": "2026-08-15T00:54:15.000Z",
+      "checksum": "345e49ab950da0175c8836b048d75cb8",
+      "folder": false
+    },
+    {
+      "id": "1OtUKx-Q4xMuT1WKHuc7gJaPZGzXqBMb5",
+      "parent_id": "1_Dz5nG96JUzIUQS_NwBNJFTwDIkrvQjK",
+      "name": "VÔ NGÃ - NO EGO.epub",
+      "mime": "application/epub+zip",
+      "size": 543303,
+      "modified": "2026-08-15T00:54:21.000Z",
+      "checksum": "239d5b746f9be7684fd0ccef4fbc1715",
+      "folder": false
+    },
+    {
+      "id": "1V9ZzbehM10rc77OlAmu6LeOFmw1C1YiM",
+      "parent_id": "1_Dz5nG96JUzIUQS_NwBNJFTwDIkrvQjK",
+      "name": "VÔ NGÃ - NO EGO.pdf",
+      "mime": "application/pdf",
+      "size": 1106014,
+      "modified": "2026-08-15T00:54:19.000Z",
+      "checksum": "fbdde5522f6de6a606947aabec30e706",
+      "folder": false
+    }
+  ]
+}

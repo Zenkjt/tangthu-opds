@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wCv8o9GSUfdZLPukcYgw0bsf9sf4HcGH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ztWYNxCFE5xnNbfTBv8zC_BGbW4c83NH",
+      "parent_id": "1wCv8o9GSUfdZLPukcYgw0bsf9sf4HcGH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3337,
+      "modified": "2026-08-15T10:37:42.000Z",
+      "checksum": "7aef4e843754766f814327ff92f41e1d",
+      "folder": false
+    },
+    {
+      "id": "123mQK0wdHbijL5Ai8vmPkClollkORFTz",
+      "parent_id": "1wCv8o9GSUfdZLPukcYgw0bsf9sf4HcGH",
+      "name": "NHỮNG CÔNG CHÚA PRADA.epub",
+      "mime": "application/epub+zip",
+      "size": 512452,
+      "modified": "2026-08-15T10:37:48.000Z",
+      "checksum": "24aa7c4a11452f6607a83138d9c52594",
+      "folder": false
+    },
+    {
+      "id": "1Vwx-FOxomqsTN64uEa-9WCd47dIQRz0r",
+      "parent_id": "1wCv8o9GSUfdZLPukcYgw0bsf9sf4HcGH",
+      "name": "NHỮNG CÔNG CHÚA PRADA.pdf",
+      "mime": "application/pdf",
+      "size": 849792,
+      "modified": "2026-08-15T10:37:46.000Z",
+      "checksum": "336a77852f7b578f32b93fffbd7e6dd0",
+      "folder": false
+    }
+  ]
+}

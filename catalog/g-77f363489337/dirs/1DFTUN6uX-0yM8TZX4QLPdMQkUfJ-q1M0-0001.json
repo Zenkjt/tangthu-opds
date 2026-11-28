@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DFTUN6uX-0yM8TZX4QLPdMQkUfJ-q1M0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_e_AdGb7luz4CZS0SswfRJjjz-wBT86J",
+      "parent_id": "1DFTUN6uX-0yM8TZX4QLPdMQkUfJ-q1M0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3297,
+      "modified": "2026-08-16T04:17:35.000Z",
+      "checksum": "1f2b3aade9a99b64f48aa42099e9e991",
+      "folder": false
+    },
+    {
+      "id": "1P6clcDLJCrwhgZvEJ1OIxUg6XmXYGMh9",
+      "parent_id": "1DFTUN6uX-0yM8TZX4QLPdMQkUfJ-q1M0",
+      "name": "MỘT THỜI ĐANG QUA.epub",
+      "mime": "application/epub+zip",
+      "size": 356948,
+      "modified": "2026-08-16T04:17:41.000Z",
+      "checksum": "7fba209eeeffdb025c3c720839e58e30",
+      "folder": false
+    },
+    {
+      "id": "1eGfQ-A7oGRNAT-6BR_BtY7QQvewLfc4a",
+      "parent_id": "1DFTUN6uX-0yM8TZX4QLPdMQkUfJ-q1M0",
+      "name": "MỘT THỜI ĐANG QUA.pdf",
+      "mime": "application/pdf",
+      "size": 685926,
+      "modified": "2026-08-16T04:17:39.000Z",
+      "checksum": "1516d926d6a93fa6fc0d1899e2e0d399",
+      "folder": false
+    }
+  ]
+}

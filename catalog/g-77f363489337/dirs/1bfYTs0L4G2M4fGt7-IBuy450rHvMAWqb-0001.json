@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bfYTs0L4G2M4fGt7-IBuy450rHvMAWqb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1frlgkYHk0ulz3ZoZQihuGJVfIRKJhz57",
+      "parent_id": "1bfYTs0L4G2M4fGt7-IBuy450rHvMAWqb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3081,
+      "modified": "2026-08-16T04:05:59.000Z",
+      "checksum": "bfb0c3e2ad3162dfc2e8ad6d6b13d4f0",
+      "folder": false
+    },
+    {
+      "id": "1PbcolRZGXqCvAg6E9-vkb3oRJpNTfv_d",
+      "parent_id": "1bfYTs0L4G2M4fGt7-IBuy450rHvMAWqb",
+      "name": "PHÙ LAM.epub",
+      "mime": "application/epub+zip",
+      "size": 587078,
+      "modified": "2026-08-16T04:06:07.000Z",
+      "checksum": "644e972564fd711a23bd9ada9fbd2687",
+      "folder": false
+    },
+    {
+      "id": "1g7xYZN5AO1kL0L1uv3qjqaOcH622MvYg",
+      "parent_id": "1bfYTs0L4G2M4fGt7-IBuy450rHvMAWqb",
+      "name": "PHÙ LAM.pdf",
+      "mime": "application/pdf",
+      "size": 1828857,
+      "modified": "2026-08-16T04:06:05.000Z",
+      "checksum": "3e1e6094078f8d937244d7720e914697",
+      "folder": false
+    }
+  ]
+}

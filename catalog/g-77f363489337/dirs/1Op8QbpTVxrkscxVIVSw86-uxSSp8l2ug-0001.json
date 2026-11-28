@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Op8QbpTVxrkscxVIVSw86-uxSSp8l2ug",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JOp1iOEAV4leBOiRMLbnH-JM0C_oZsG0",
+      "parent_id": "1Op8QbpTVxrkscxVIVSw86-uxSSp8l2ug",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 558,
+      "modified": "2026-08-16T03:47:32.000Z",
+      "checksum": "6d1b48d5f6afd8d087704fda53e03fbb",
+      "folder": false
+    },
+    {
+      "id": "1l-DMr4rhZHFqrjEmZ7Zp6i1FNRvarxIC",
+      "parent_id": "1Op8QbpTVxrkscxVIVSw86-uxSSp8l2ug",
+      "name": "HỔ MANG CHÚA KATHMANDU.epub",
+      "mime": "application/epub+zip",
+      "size": 876964,
+      "modified": "2026-08-16T03:47:40.000Z",
+      "checksum": "4fd299c0f142c60068953839b1201ae6",
+      "folder": false
+    },
+    {
+      "id": "1CWZs88MVDHfe0HukuOAyzZFRH6B1-7pa",
+      "parent_id": "1Op8QbpTVxrkscxVIVSw86-uxSSp8l2ug",
+      "name": "HỔ MANG CHÚA KATHMANDU.pdf",
+      "mime": "application/pdf",
+      "size": 1540327,
+      "modified": "2026-08-16T03:47:37.000Z",
+      "checksum": "9b657d4a756b0907b1fff5e02401feee",
+      "folder": false
+    }
+  ]
+}

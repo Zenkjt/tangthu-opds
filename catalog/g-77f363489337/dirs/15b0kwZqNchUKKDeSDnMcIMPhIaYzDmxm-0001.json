@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15b0kwZqNchUKKDeSDnMcIMPhIaYzDmxm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1V8t8yTpmb886rox6stSdfJZ9VmSfoNnk",
+      "parent_id": "15b0kwZqNchUKKDeSDnMcIMPhIaYzDmxm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 492,
+      "modified": "2026-08-15T10:56:54.000Z",
+      "checksum": "1e2f0630135f487ab94ea183121d05b3",
+      "folder": false
+    },
+    {
+      "id": "1d-tguxxVZWdp9GenRlzL0J3F6G8dEmQn",
+      "parent_id": "15b0kwZqNchUKKDeSDnMcIMPhIaYzDmxm",
+      "name": "HẠNH THỤC CA.epub",
+      "mime": "application/epub+zip",
+      "size": 217813,
+      "modified": "2026-08-15T10:57:00.000Z",
+      "checksum": "8ec73b3a24039ffdd12226619badbfdd",
+      "folder": false
+    },
+    {
+      "id": "1HNaaSxJwZXDUWnOOz77NcKkOi-sjb6hG",
+      "parent_id": "15b0kwZqNchUKKDeSDnMcIMPhIaYzDmxm",
+      "name": "HẠNH THỤC CA.pdf",
+      "mime": "application/pdf",
+      "size": 228812,
+      "modified": "2026-08-15T10:56:57.000Z",
+      "checksum": "bacadf3de88fc81d86dee19d4293852b",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gPIv6OUGthNEmB9uHovUvIDBDAkViJDS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MOOPyU4GI9onKwAmyIIuaKBrczMqsMr0",
+      "parent_id": "1gPIv6OUGthNEmB9uHovUvIDBDAkViJDS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 512,
+      "modified": "2026-08-16T04:18:12.000Z",
+      "checksum": "55a07b8a3387ffc890459d827dcd28a3",
+      "folder": false
+    },
+    {
+      "id": "1zeBsq_HJcDakMvBgpf-_KbhRlwCobORt",
+      "parent_id": "1gPIv6OUGthNEmB9uHovUvIDBDAkViJDS",
+      "name": "MẢNH GỐM VỠ.epub",
+      "mime": "application/epub+zip",
+      "size": 2087383,
+      "modified": "2026-08-16T04:18:20.000Z",
+      "checksum": "84f1ee409e639260240f660e22acfaae",
+      "folder": false
+    },
+    {
+      "id": "1dRHQIuVH5tCKAVjilAjYZ-xNCHFyVkUf",
+      "parent_id": "1gPIv6OUGthNEmB9uHovUvIDBDAkViJDS",
+      "name": "MẢNH GỐM VỠ.pdf",
+      "mime": "application/pdf",
+      "size": 2478156,
+      "modified": "2026-08-16T04:18:16.000Z",
+      "checksum": "d45d39a0eccca842a2b5088a97408f15",
+      "folder": false
+    }
+  ]
+}

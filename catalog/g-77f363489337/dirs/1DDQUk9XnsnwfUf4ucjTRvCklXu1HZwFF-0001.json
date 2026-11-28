@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DDQUk9XnsnwfUf4ucjTRvCklXu1HZwFF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vKCD9XnXpYnlndOKcpVA0Nk4k7xY3osc",
+      "parent_id": "1DDQUk9XnsnwfUf4ucjTRvCklXu1HZwFF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4191,
+      "modified": "2026-08-15T03:41:03.000Z",
+      "checksum": "f0f518fc29d8c63616abaada70ac9ac0",
+      "folder": false
+    },
+    {
+      "id": "1hx1a74gvPFxP_-9Ij-pWDmhY5JjHqFHf",
+      "parent_id": "1DDQUk9XnsnwfUf4ucjTRvCklXu1HZwFF",
+      "name": "ĐƯỜNG MÂY TRÊN ĐẤT HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 1359799,
+      "modified": "2026-08-15T03:41:12.000Z",
+      "checksum": "883eb4b092a81f8fe149dcbdd41a938f",
+      "folder": false
+    },
+    {
+      "id": "1ARdjBHmjz9bJ1BjaBEcbXHVt5P_mueMj",
+      "parent_id": "1DDQUk9XnsnwfUf4ucjTRvCklXu1HZwFF",
+      "name": "ĐƯỜNG MÂY TRÊN ĐẤT HOA.pdf",
+      "mime": "application/pdf",
+      "size": 2119341,
+      "modified": "2026-08-15T03:41:09.000Z",
+      "checksum": "5fefa1669dda3dca2630dc8b6ba7203b",
+      "folder": false
+    }
+  ]
+}

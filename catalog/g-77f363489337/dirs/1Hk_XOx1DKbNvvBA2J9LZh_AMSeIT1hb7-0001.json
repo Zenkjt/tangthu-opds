@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Hk_XOx1DKbNvvBA2J9LZh_AMSeIT1hb7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zo48YLkCSbVF9xlqzD0l5f_3opkNkn16",
+      "parent_id": "1Hk_XOx1DKbNvvBA2J9LZh_AMSeIT1hb7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4889,
+      "modified": "2026-08-15T17:02:47.000Z",
+      "checksum": "3646721bce3d2bed0c227924f96c62d9",
+      "folder": false
+    },
+    {
+      "id": "13ik4K14ZnESSo7m8j1EjBG-0m4H30LUR",
+      "parent_id": "1Hk_XOx1DKbNvvBA2J9LZh_AMSeIT1hb7",
+      "name": "HẠ TUYỀN SỐNG LẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 342264,
+      "modified": "2026-08-15T17:02:53.000Z",
+      "checksum": "876abed665aa0bebe678e36b2b426571",
+      "folder": false
+    },
+    {
+      "id": "1aC3hT5mpOvb08UZg6SAKSTvf2h-UZfnO",
+      "parent_id": "1Hk_XOx1DKbNvvBA2J9LZh_AMSeIT1hb7",
+      "name": "HẠ TUYỀN SỐNG LẠI.pdf",
+      "mime": "application/pdf",
+      "size": 591667,
+      "modified": "2026-08-15T17:02:51.000Z",
+      "checksum": "812291b3de0bb5e1817c6cb537113a66",
+      "folder": false
+    }
+  ]
+}

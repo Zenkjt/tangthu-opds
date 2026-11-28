@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WBQEaROTbOIBTmcMdgS--iIhFJQ8u9zl",
+  "page": 1,
+  "items": [
+    {
+      "id": "16iuw6lRtPBZwPE4E8DajsTSnCFt1a157",
+      "parent_id": "1WBQEaROTbOIBTmcMdgS--iIhFJQ8u9zl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9087,
+      "modified": "2026-08-15T06:44:17.000Z",
+      "checksum": "f90de54c08f3cf94481e2c1d88e77228",
+      "folder": false
+    },
+    {
+      "id": "1sQ3nz7vW7EjRGK3ECYwoP_6F5KiD9qFs",
+      "parent_id": "1WBQEaROTbOIBTmcMdgS--iIhFJQ8u9zl",
+      "name": "THỦY HỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 60009911,
+      "modified": "2026-08-15T06:49:24.000Z",
+      "checksum": "3fb9336b8293cc3e86f6cc176c368f8e",
+      "folder": false
+    },
+    {
+      "id": "1-Ue0dAPQjsMXARrsd_a3vo4BLsRkPF3T",
+      "parent_id": "1WBQEaROTbOIBTmcMdgS--iIhFJQ8u9zl",
+      "name": "THỦY HỬ.pdf",
+      "mime": "application/pdf",
+      "size": 66797199,
+      "modified": "2026-08-15T06:49:15.000Z",
+      "checksum": "a595c23c0b99362baf0620dcf5fcd5bd",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tsRVWNPjz8KdJ9ELggVD515NvauZqxvQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ruvI1gOf-vLIPrmh3L4NKAA_XlEIpHVU",
+      "parent_id": "1tsRVWNPjz8KdJ9ELggVD515NvauZqxvQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4422,
+      "modified": "2026-08-15T03:51:29.000Z",
+      "checksum": "c1b2bb2e5ee19b73ebcf49f2361de404",
+      "folder": false
+    },
+    {
+      "id": "1tAzWe-IKNfAgz-UJIXBpcu45vqLskjjd",
+      "parent_id": "1tsRVWNPjz8KdJ9ELggVD515NvauZqxvQ",
+      "name": "NGÔN NGỮ CỦA CHÚA.epub",
+      "mime": "application/epub+zip",
+      "size": 695965,
+      "modified": "2026-08-15T03:51:36.000Z",
+      "checksum": "d8acfa9490df0a6aaaa2429a7ae62d1b",
+      "folder": false
+    },
+    {
+      "id": "1OGj_OMQwfYSzWCh9qWmBjRfVLIxukqPw",
+      "parent_id": "1tsRVWNPjz8KdJ9ELggVD515NvauZqxvQ",
+      "name": "NGÔN NGỮ CỦA CHÚA.pdf",
+      "mime": "application/pdf",
+      "size": 776901,
+      "modified": "2026-08-15T03:51:33.000Z",
+      "checksum": "00bf3fd17e88554dfdc34d4cb8385aa9",
+      "folder": false
+    }
+  ]
+}

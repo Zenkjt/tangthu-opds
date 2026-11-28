@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1B6Hdws-5MstnQaMYyMkFmIyJ-p0jODr4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Xp3fRRFzCsjviIc87oV_QmlOF_PsRlOK",
+      "parent_id": "1B6Hdws-5MstnQaMYyMkFmIyJ-p0jODr4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1634,
+      "modified": "2026-08-15T07:03:35.000Z",
+      "checksum": "e3908438907ba533785f8ea62f2c3608",
+      "folder": false
+    },
+    {
+      "id": "1jE4VVblYg1mrlPGlPZQVV5ay3zIxb6u6",
+      "parent_id": "1B6Hdws-5MstnQaMYyMkFmIyJ-p0jODr4",
+      "name": "ĐỘI GẠO LÊN CHÙA.epub",
+      "mime": "application/epub+zip",
+      "size": 913955,
+      "modified": "2026-08-15T07:03:46.000Z",
+      "checksum": "60e647a44afc94b8475fac8780610f6d",
+      "folder": false
+    },
+    {
+      "id": "1Fa7Nfh4UQuxar8NYpxYmifNzxePM2O2S",
+      "parent_id": "1B6Hdws-5MstnQaMYyMkFmIyJ-p0jODr4",
+      "name": "ĐỘI GẠO LÊN CHÙA.pdf",
+      "mime": "application/pdf",
+      "size": 2544214,
+      "modified": "2026-08-15T07:03:43.000Z",
+      "checksum": "d1154f505eb2af624abfdd732ec48311",
+      "folder": false
+    }
+  ]
+}

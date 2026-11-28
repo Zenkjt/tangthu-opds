@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MWA_HCL3aeFr7nkTApp1urkJqGWFCAty",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AgPQyo_0ZyhhLV74O5DVtYfPSsx4fajx",
+      "parent_id": "1MWA_HCL3aeFr7nkTApp1urkJqGWFCAty",
+      "name": "CHU NHAN.epub",
+      "mime": "application/epub+zip",
+      "size": 1114895,
+      "modified": "2026-08-15T09:31:44.000Z",
+      "checksum": "8bf20eb86ba38694e73ba5ce62d8b5cd",
+      "folder": false
+    },
+    {
+      "id": "1VWrvMEwRuwgx3O23IFVMl3Al9WB2mI9T",
+      "parent_id": "1MWA_HCL3aeFr7nkTApp1urkJqGWFCAty",
+      "name": "CHU NHAN.pdf",
+      "mime": "application/pdf",
+      "size": 2728770,
+      "modified": "2026-08-15T09:31:41.000Z",
+      "checksum": "ca4d780b9107d04af6a3f4f4050d0577",
+      "folder": false
+    },
+    {
+      "id": "1yZL_2M2GaJibQLyMUv_JXZ5_5kCD8G8o",
+      "parent_id": "1MWA_HCL3aeFr7nkTApp1urkJqGWFCAty",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5903,
+      "modified": "2026-08-15T09:31:32.000Z",
+      "checksum": "d0005b8eeb7f96a7c60ab1376d648d89",
+      "folder": false
+    }
+  ]
+}

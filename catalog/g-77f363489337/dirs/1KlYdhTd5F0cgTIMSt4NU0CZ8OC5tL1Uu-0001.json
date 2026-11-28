@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KlYdhTd5F0cgTIMSt4NU0CZ8OC5tL1Uu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aI-dVP0x7KoAW1mcRsx9po745posnuu3",
+      "parent_id": "1KlYdhTd5F0cgTIMSt4NU0CZ8OC5tL1Uu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1926,
+      "modified": "2026-08-16T03:35:34.000Z",
+      "checksum": "82f7ad332e2fd28402998d1cde7c161d",
+      "folder": false
+    },
+    {
+      "id": "1fOre9gLlyukZzEvJcg4B574OkizGPIuE",
+      "parent_id": "1KlYdhTd5F0cgTIMSt4NU0CZ8OC5tL1Uu",
+      "name": "SẾU ĐẦU MÙA.epub",
+      "mime": "application/epub+zip",
+      "size": 295519,
+      "modified": "2026-08-16T03:35:40.000Z",
+      "checksum": "f38597cf0641b90707292c3e3a70a72b",
+      "folder": false
+    },
+    {
+      "id": "1TxkVK10wUahEtTNEUb--hc3QY6nSdayd",
+      "parent_id": "1KlYdhTd5F0cgTIMSt4NU0CZ8OC5tL1Uu",
+      "name": "SẾU ĐẦU MÙA.pdf",
+      "mime": "application/pdf",
+      "size": 552013,
+      "modified": "2026-08-16T03:35:38.000Z",
+      "checksum": "9d282df04d55f4fe75fd87b4f57bc65e",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BwyuvbKLOK-adUT1gdOJ9UG7A-eeWxXq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZxH8FqUuDkXr2R3WfiiW8QfL-DoTnVk-",
+      "parent_id": "1BwyuvbKLOK-adUT1gdOJ9UG7A-eeWxXq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 375,
+      "modified": "2026-08-16T04:18:36.000Z",
+      "checksum": "b1f24a8417090a0601d2dd16d4c82f19",
+      "folder": false
+    },
+    {
+      "id": "1ynjWQiVlC3isaOUSMwov8WWmVoCLsxbX",
+      "parent_id": "1BwyuvbKLOK-adUT1gdOJ9UG7A-eeWxXq",
+      "name": "LẠC GIỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 361314,
+      "modified": "2026-08-16T04:18:42.000Z",
+      "checksum": "0c82ea562cf12f1465b6d22e0ed93fd3",
+      "folder": false
+    },
+    {
+      "id": "1WmsHIwZ84m9LC43VCMfko-KN_bx5a4DN",
+      "parent_id": "1BwyuvbKLOK-adUT1gdOJ9UG7A-eeWxXq",
+      "name": "LẠC GIỚI.pdf",
+      "mime": "application/pdf",
+      "size": 456537,
+      "modified": "2026-08-16T04:18:39.000Z",
+      "checksum": "e3c97e2ada02c737ba2b2de7f30c1d4a",
+      "folder": false
+    }
+  ]
+}

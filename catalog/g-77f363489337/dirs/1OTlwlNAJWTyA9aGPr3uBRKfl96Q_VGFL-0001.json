@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OTlwlNAJWTyA9aGPr3uBRKfl96Q_VGFL",
+  "page": 1,
+  "items": [
+    {
+      "id": "10MnZopLERXQItbm9HuRmFzEinqo1WWUw",
+      "parent_id": "1OTlwlNAJWTyA9aGPr3uBRKfl96Q_VGFL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6250,
+      "modified": "2026-08-15T05:53:58.000Z",
+      "checksum": "7edaa37a12264daac823334174f223e5",
+      "folder": false
+    },
+    {
+      "id": "1-cuXVLdQWmVVpeTfLZKVtuXWG7783gE-",
+      "parent_id": "1OTlwlNAJWTyA9aGPr3uBRKfl96Q_VGFL",
+      "name": "THOMAS JEFFERSON - NHÂN SƯ MỸ.epub",
+      "mime": "application/epub+zip",
+      "size": 1081022,
+      "modified": "2026-08-15T05:54:08.000Z",
+      "checksum": "45aa5cad539d344043fb9e5c7604e5bb",
+      "folder": false
+    },
+    {
+      "id": "1EvVx7oWw5aZyWs80hVhRGs2IgBJdXgoC",
+      "parent_id": "1OTlwlNAJWTyA9aGPr3uBRKfl96Q_VGFL",
+      "name": "THOMAS JEFFERSON - NHÂN SƯ MỸ.pdf",
+      "mime": "application/pdf",
+      "size": 2825148,
+      "modified": "2026-08-15T05:54:06.000Z",
+      "checksum": "48829f5860451a65828e623bcaf0737a",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1t9IfM71V-yLuntmWZCjCrJL6a4D6mWyF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uRE_QJzBNvwuMlseq4WhYGrkVLpsrMOe",
+      "parent_id": "1t9IfM71V-yLuntmWZCjCrJL6a4D6mWyF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3370,
+      "modified": "2026-08-15T03:45:21.000Z",
+      "checksum": "11a0c386cad843188cc47a66c942841c",
+      "folder": false
+    },
+    {
+      "id": "1v3ngBn7DoA7DsvikGPQ1LIZwOFYicLHO",
+      "parent_id": "1t9IfM71V-yLuntmWZCjCrJL6a4D6mWyF",
+      "name": "DUY BIỂU HỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 606383,
+      "modified": "2026-08-15T03:45:28.000Z",
+      "checksum": "d4757e34a0db2042830792a0edb114ff",
+      "folder": false
+    },
+    {
+      "id": "13J4nNjtWEZgq9PQm9dcSIvLa69_Ec4Ij",
+      "parent_id": "1t9IfM71V-yLuntmWZCjCrJL6a4D6mWyF",
+      "name": "DUY BIỂU HỌC.pdf",
+      "mime": "application/pdf",
+      "size": 1232927,
+      "modified": "2026-08-15T03:45:25.000Z",
+      "checksum": "f21b43a18451af6d8cae58a7608cd415",
+      "folder": false
+    }
+  ]
+}

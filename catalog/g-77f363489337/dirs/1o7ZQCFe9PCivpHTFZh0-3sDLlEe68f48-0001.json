@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1o7ZQCFe9PCivpHTFZh0-3sDLlEe68f48",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Bvjo5P391NRro9YebVJcBMl8a3VRmBHo",
+      "parent_id": "1o7ZQCFe9PCivpHTFZh0-3sDLlEe68f48",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 443,
+      "modified": "2026-08-16T04:18:01.000Z",
+      "checksum": "7ca05d62ca099466eff37ed726edc4c2",
+      "folder": false
+    },
+    {
+      "id": "17ZAJ2ElF2j0rfzzE06zqcaRYYyMlRaZ3",
+      "parent_id": "1o7ZQCFe9PCivpHTFZh0-3sDLlEe68f48",
+      "name": "MÂY TRẮNG VẪN BAY.epub",
+      "mime": "application/epub+zip",
+      "size": 239768,
+      "modified": "2026-08-16T04:18:08.000Z",
+      "checksum": "36fb6e832adabb77ea15602e2b22cb5d",
+      "folder": false
+    },
+    {
+      "id": "15A_jBPrvLkum5NfLzin0Vr1vVYB-HUg0",
+      "parent_id": "1o7ZQCFe9PCivpHTFZh0-3sDLlEe68f48",
+      "name": "MÂY TRẮNG VẪN BAY.pdf",
+      "mime": "application/pdf",
+      "size": 735920,
+      "modified": "2026-08-16T04:18:05.000Z",
+      "checksum": "7c562acb5cff936175899005a25552b0",
+      "folder": false
+    }
+  ]
+}

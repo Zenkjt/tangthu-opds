@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DLjai5PbsJ77gYiCAd1oWiNY9Cg6G4Mo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SgrHf2coTf2Q8ImVwdLQy0ffOPmd_kvB",
+      "parent_id": "1DLjai5PbsJ77gYiCAd1oWiNY9Cg6G4Mo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2736,
+      "modified": "2026-08-16T03:56:03.000Z",
+      "checksum": "2b416a420c819ee0fc79df857f2e8c0c",
+      "folder": false
+    },
+    {
+      "id": "16-G8zjmwK-pYK3FWqSJLwx1x79ImlbgH",
+      "parent_id": "1DLjai5PbsJ77gYiCAd1oWiNY9Cg6G4Mo",
+      "name": "THUYỀN TRƯỞNG ĐƠN VỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 2180448,
+      "modified": "2026-08-16T03:56:09.000Z",
+      "checksum": "3402dd9f89b48fb7f6b02a75418d6335",
+      "folder": false
+    },
+    {
+      "id": "1ZKno1_3V5gIidQSNk3g5ssXU_taluUXk",
+      "parent_id": "1DLjai5PbsJ77gYiCAd1oWiNY9Cg6G4Mo",
+      "name": "THUYỀN TRƯỞNG ĐƠN VỊ.pdf",
+      "mime": "application/pdf",
+      "size": 2385910,
+      "modified": "2026-08-16T03:56:07.000Z",
+      "checksum": "5bd8422ee5f59f99ea55a5de1e646b1f",
+      "folder": false
+    }
+  ]
+}

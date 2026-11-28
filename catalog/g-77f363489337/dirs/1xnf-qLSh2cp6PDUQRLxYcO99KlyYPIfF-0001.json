@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xnf-qLSh2cp6PDUQRLxYcO99KlyYPIfF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1g-1nQez2Duln2qMRzJf9OJMzAsRZ9hcG",
+      "parent_id": "1xnf-qLSh2cp6PDUQRLxYcO99KlyYPIfF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 702,
+      "modified": "2026-08-15T10:56:02.000Z",
+      "checksum": "e6b3acfcf026d38884541513b9f0f5a3",
+      "folder": false
+    },
+    {
+      "id": "1akj6i3MDQEWQgBUTy89ouzRtNTndZ47V",
+      "parent_id": "1xnf-qLSh2cp6PDUQRLxYcO99KlyYPIfF",
+      "name": "JOHN CARTER VÀ CÔNG CHÚA HOẢ TINH.epub",
+      "mime": "application/epub+zip",
+      "size": 493089,
+      "modified": "2026-08-15T10:56:10.000Z",
+      "checksum": "07a591cef24bd86e871e2035b965728d",
+      "folder": false
+    },
+    {
+      "id": "1Bsm4c_k7RndOWTIe_4loLVIAaRL6jyND",
+      "parent_id": "1xnf-qLSh2cp6PDUQRLxYcO99KlyYPIfF",
+      "name": "JOHN CARTER VÀ CÔNG CHÚA HOẢ TINH.pdf",
+      "mime": "application/pdf",
+      "size": 1192828,
+      "modified": "2026-08-15T10:56:07.000Z",
+      "checksum": "7e10030706ecc7d723a340a2b9fc6fad",
+      "folder": false
+    }
+  ]
+}

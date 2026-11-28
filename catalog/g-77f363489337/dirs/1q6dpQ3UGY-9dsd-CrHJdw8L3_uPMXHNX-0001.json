@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1q6dpQ3UGY-9dsd-CrHJdw8L3_uPMXHNX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Z-yfBHrItG6wwe61P_7bRyEgNgcPJRlY",
+      "parent_id": "1q6dpQ3UGY-9dsd-CrHJdw8L3_uPMXHNX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3253,
+      "modified": "2026-08-16T04:04:56.000Z",
+      "checksum": "10e1d0cd332019abcc511ad3607c50cf",
+      "folder": false
+    },
+    {
+      "id": "1GWBjF7EalO4bSzNpgjzBvjxB5mrwCqZM",
+      "parent_id": "1q6dpQ3UGY-9dsd-CrHJdw8L3_uPMXHNX",
+      "name": "QUỶ THOẠI LIÊN THIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 1624534,
+      "modified": "2026-08-16T04:05:13.000Z",
+      "checksum": "b225a2a179197a13d2f58f97bd418ac4",
+      "folder": false
+    },
+    {
+      "id": "1vTPvw9O6tejDjtVpH6_zkrXJ9oF9z-If",
+      "parent_id": "1q6dpQ3UGY-9dsd-CrHJdw8L3_uPMXHNX",
+      "name": "QUỶ THOẠI LIÊN THIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 5930414,
+      "modified": "2026-08-16T04:05:09.000Z",
+      "checksum": "e6b5cdaf2e23be5a41383c100b24901c",
+      "folder": false
+    }
+  ]
+}

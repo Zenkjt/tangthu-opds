@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1a3UlvKCt9jTWZ9XG663pQWKvrZ6SkMvw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wNORROCiczRNcwJpsMPqWBqGaOFCV2wB",
+      "parent_id": "1a3UlvKCt9jTWZ9XG663pQWKvrZ6SkMvw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1225,
+      "modified": "2026-08-15T03:21:03.000Z",
+      "checksum": "034a9a6781a0e1224c0ed6dbfa3ae184",
+      "folder": false
+    },
+    {
+      "id": "19VRIBxmjmS6u_sd0JpPH2jR-SGIz6XPV",
+      "parent_id": "1a3UlvKCt9jTWZ9XG663pQWKvrZ6SkMvw",
+      "name": "DU HỌC TRÊN ĐẤT MỸ.epub",
+      "mime": "application/epub+zip",
+      "size": 561561,
+      "modified": "2026-08-15T03:21:11.000Z",
+      "checksum": "b4adcc35fa05d3437ef0275b2fb409e5",
+      "folder": false
+    },
+    {
+      "id": "1DK3z2JHmAVcVEIxxB0jSo7Z-oBn3AtEo",
+      "parent_id": "1a3UlvKCt9jTWZ9XG663pQWKvrZ6SkMvw",
+      "name": "DU HỌC TRÊN ĐẤT MỸ.pdf",
+      "mime": "application/pdf",
+      "size": 1123692,
+      "modified": "2026-08-15T03:21:09.000Z",
+      "checksum": "05c530cc0910d26bc96707e95e6d6fe8",
+      "folder": false
+    }
+  ]
+}

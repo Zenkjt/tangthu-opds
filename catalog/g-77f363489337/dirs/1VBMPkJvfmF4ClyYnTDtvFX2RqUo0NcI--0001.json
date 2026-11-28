@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VBMPkJvfmF4ClyYnTDtvFX2RqUo0NcI-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1y8G6hlYN7sLNQfkUak8InZgpzKqRl6Fq",
+      "parent_id": "1VBMPkJvfmF4ClyYnTDtvFX2RqUo0NcI-",
+      "name": "CHUYỆN CỦA PACO.epub",
+      "mime": "application/epub+zip",
+      "size": 589660,
+      "modified": "2026-08-15T09:58:07.000Z",
+      "checksum": "9efbc7f2f0b7dc2c4b12681ff14ea4bb",
+      "folder": false
+    },
+    {
+      "id": "1zZ3FIR-paZflmANwDNI0b3pLQVMiMTWK",
+      "parent_id": "1VBMPkJvfmF4ClyYnTDtvFX2RqUo0NcI-",
+      "name": "CHUYỆN CỦA PACO.pdf",
+      "mime": "application/pdf",
+      "size": 1184482,
+      "modified": "2026-08-15T09:58:03.000Z",
+      "checksum": "1b0a7a9fb95fb374a53b37ca077b99a4",
+      "folder": false
+    },
+    {
+      "id": "1u2NMlMRHz_HFFaHnC9y1YvjhgHX2nW20",
+      "parent_id": "1VBMPkJvfmF4ClyYnTDtvFX2RqUo0NcI-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4719,
+      "modified": "2026-08-15T09:57:58.000Z",
+      "checksum": "4df31419e935d5cc7b0ee04a217d4748",
+      "folder": false
+    }
+  ]
+}

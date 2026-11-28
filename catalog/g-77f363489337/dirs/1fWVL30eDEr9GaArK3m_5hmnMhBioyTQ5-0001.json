@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fWVL30eDEr9GaArK3m_5hmnMhBioyTQ5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oz4njfsCsivC2dLWhvrG-CNC8B_vQR-M",
+      "parent_id": "1fWVL30eDEr9GaArK3m_5hmnMhBioyTQ5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1441,
+      "modified": "2026-08-15T07:25:22.000Z",
+      "checksum": "60008a4e73c39091e1d601bd60c3a991",
+      "folder": false
+    },
+    {
+      "id": "1aIE0rKLjccLFmKEzVxxqN5IgmS5iBtN2",
+      "parent_id": "1fWVL30eDEr9GaArK3m_5hmnMhBioyTQ5",
+      "name": "THẬP VẠN ĐẠI SƠN VƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 683094,
+      "modified": "2026-08-15T07:25:30.000Z",
+      "checksum": "22c4df2affbe8d677dcd8e18e8a85afd",
+      "folder": false
+    },
+    {
+      "id": "1yYYDvW8J8ESPsRKk5DgxNDfmjcFn6DFk",
+      "parent_id": "1fWVL30eDEr9GaArK3m_5hmnMhBioyTQ5",
+      "name": "THẬP VẠN ĐẠI SƠN VƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 2508662,
+      "modified": "2026-08-15T07:25:27.000Z",
+      "checksum": "e06cb8eedc5493ba89634a048ed161d9",
+      "folder": false
+    }
+  ]
+}

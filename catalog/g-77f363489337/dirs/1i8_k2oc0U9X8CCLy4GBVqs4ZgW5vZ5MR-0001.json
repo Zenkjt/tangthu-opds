@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1i8_k2oc0U9X8CCLy4GBVqs4ZgW5vZ5MR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zRaHr4u8zS2KDCOXj8FJ52ykjTLte3hV",
+      "parent_id": "1i8_k2oc0U9X8CCLy4GBVqs4ZgW5vZ5MR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 359,
+      "modified": "2026-08-15T12:55:20.000Z",
+      "checksum": "04f66690e0b19494da79aa62e5eea358",
+      "folder": false
+    },
+    {
+      "id": "1K7hWAfUhmYIFtkJ8KysAspV8R_UAXIOW",
+      "parent_id": "1i8_k2oc0U9X8CCLy4GBVqs4ZgW5vZ5MR",
+      "name": "VẾT CHIM.epub",
+      "mime": "application/epub+zip",
+      "size": 396845,
+      "modified": "2026-08-15T12:55:34.000Z",
+      "checksum": "a8ec8e99686b28410c545f11f54b8768",
+      "folder": false
+    },
+    {
+      "id": "1Zg7JC-VPJxYfysXnKpIkWZoi_cCc5zZ2",
+      "parent_id": "1i8_k2oc0U9X8CCLy4GBVqs4ZgW5vZ5MR",
+      "name": "VẾT CHIM.pdf",
+      "mime": "application/pdf",
+      "size": 176277,
+      "modified": "2026-08-15T12:55:27.000Z",
+      "checksum": "06b0806be8a56e705641fef27e9dab0d",
+      "folder": false
+    }
+  ]
+}

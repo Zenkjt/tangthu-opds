@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HLEboUrVsEtQeSFHb4q7xggemPK-SB6l",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YIf6KO1p0QHt-AR1MCZ3fgt42kSD4KWR",
+      "parent_id": "1HLEboUrVsEtQeSFHb4q7xggemPK-SB6l",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2001,
+      "modified": "2026-08-16T03:09:35.000Z",
+      "checksum": "13d269180a684eb9681db30a4db53fef",
+      "folder": false
+    },
+    {
+      "id": "1JTHXAz2JtMe5UOQ-25lMsiQkMUC6IXM0",
+      "parent_id": "1HLEboUrVsEtQeSFHb4q7xggemPK-SB6l",
+      "name": "HUYẾT CHIẾN BẠCH ĐẰNG.epub",
+      "mime": "application/epub+zip",
+      "size": 554194,
+      "modified": "2026-08-16T03:09:44.000Z",
+      "checksum": "0004ac9b6392d4935a189de632fbab0e",
+      "folder": false
+    },
+    {
+      "id": "1loAReYNg2OnwSNra1Yn4vbMBZyBI0hdf",
+      "parent_id": "1HLEboUrVsEtQeSFHb4q7xggemPK-SB6l",
+      "name": "HUYẾT CHIẾN BẠCH ĐẰNG.pdf",
+      "mime": "application/pdf",
+      "size": 1984870,
+      "modified": "2026-08-16T03:09:42.000Z",
+      "checksum": "528899f6cbd74e4ce583de55e695dba9",
+      "folder": false
+    }
+  ]
+}

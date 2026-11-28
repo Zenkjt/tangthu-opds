@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10dWoK-e-LkbnY4owSqp4ivv47EilsW41",
+  "page": 1,
+  "items": [
+    {
+      "id": "1l02lo3Nwklpr6ebxHixV1Cew35vL6Lzv",
+      "parent_id": "10dWoK-e-LkbnY4owSqp4ivv47EilsW41",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4695,
+      "modified": "2026-08-15T00:45:54.000Z",
+      "checksum": "7556900d70c6b4fcc9e82b8cce139b6e",
+      "folder": false
+    },
+    {
+      "id": "1mkyBQp1FB1UbjWVPvWOiY0A-U8lp4Tda",
+      "parent_id": "10dWoK-e-LkbnY4owSqp4ivv47EilsW41",
+      "name": "ĐỌC VỊ BẤT KỲ AI.epub",
+      "mime": "application/epub+zip",
+      "size": 443552,
+      "modified": "2026-08-15T00:46:00.000Z",
+      "checksum": "cd0bc40815ab0be736f8c483d7577ef1",
+      "folder": false
+    },
+    {
+      "id": "1r_wJ4uFiWtAdcH2Hmg842xXr7dtyfirT",
+      "parent_id": "10dWoK-e-LkbnY4owSqp4ivv47EilsW41",
+      "name": "ĐỌC VỊ BẤT KỲ AI.pdf",
+      "mime": "application/pdf",
+      "size": 1121155,
+      "modified": "2026-08-15T00:45:58.000Z",
+      "checksum": "8e0c5f3a74bea036036f6787cf8d33ef",
+      "folder": false
+    }
+  ]
+}

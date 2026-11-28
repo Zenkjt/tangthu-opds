@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pwCeh2HryddBq9QLQNA76qTi7_RrqMnW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WI40XVKE5DXw7XN_vlYeUi0QXIehYMN3",
+      "parent_id": "1pwCeh2HryddBq9QLQNA76qTi7_RrqMnW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 744,
+      "modified": "2026-08-16T02:44:16.000Z",
+      "checksum": "2d104e984d6b9b599da474d06ce75939",
+      "folder": false
+    },
+    {
+      "id": "1yOOeoZvSuoSthE1VDIs1__8v5nyQQ-tq",
+      "parent_id": "1pwCeh2HryddBq9QLQNA76qTi7_RrqMnW",
+      "name": "KHO TÀNG TRUYỆN CỔ TÍCH VIỆT NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 2100263,
+      "modified": "2026-08-16T02:44:32.000Z",
+      "checksum": "c6b76468795be75fe5dc9fb7603fdd90",
+      "folder": false
+    },
+    {
+      "id": "1pVBMzb-Mz76FlXWLwKmqGvPd8pJ4Ck7W",
+      "parent_id": "1pwCeh2HryddBq9QLQNA76qTi7_RrqMnW",
+      "name": "KHO TÀNG TRUYỆN CỔ TÍCH VIỆT NAM.pdf",
+      "mime": "application/pdf",
+      "size": 12389395,
+      "modified": "2026-08-16T02:44:29.000Z",
+      "checksum": "4486a8da8c25a1b76cb819917f931644",
+      "folder": false
+    }
+  ]
+}

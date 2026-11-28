@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aueHUCOASVbDIwIgM5YX5W4bmAGShdwM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MIEbPxOUFnGNduG3PhtP-nEfI4hmSkhk",
+      "parent_id": "1aueHUCOASVbDIwIgM5YX5W4bmAGShdwM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2413,
+      "modified": "2026-08-16T03:48:48.000Z",
+      "checksum": "f045d22952df657f8a520039978ad478",
+      "folder": false
+    },
+    {
+      "id": "1Dx-lKHH4SjyiKXXGzYbmY7XmxKyLb97C",
+      "parent_id": "1aueHUCOASVbDIwIgM5YX5W4bmAGShdwM",
+      "name": "TÁO XANH - HÃY ĐỂ ANH THƯƠNG EM.epub",
+      "mime": "application/epub+zip",
+      "size": 1115212,
+      "modified": "2026-08-16T03:48:54.000Z",
+      "checksum": "6bdc95941ade6a45efa11c1acc58d8c1",
+      "folder": false
+    },
+    {
+      "id": "1OuQEYA4Hsfqr-mchjryZm-TQNfma6Vyb",
+      "parent_id": "1aueHUCOASVbDIwIgM5YX5W4bmAGShdwM",
+      "name": "TÁO XANH - HÃY ĐỂ ANH THƯƠNG EM.pdf",
+      "mime": "application/pdf",
+      "size": 1429463,
+      "modified": "2026-08-16T03:48:52.000Z",
+      "checksum": "44adf92766d1f8aaf9890f8c0ad9d468",
+      "folder": false
+    }
+  ]
+}

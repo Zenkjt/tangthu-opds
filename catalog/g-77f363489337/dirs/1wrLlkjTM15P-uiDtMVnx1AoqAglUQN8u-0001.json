@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wrLlkjTM15P-uiDtMVnx1AoqAglUQN8u",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wQ5aYeOWy-hnFfUP8f739W_Dt28IX4Z7",
+      "parent_id": "1wrLlkjTM15P-uiDtMVnx1AoqAglUQN8u",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2440,
+      "modified": "2026-08-15T10:00:49.000Z",
+      "checksum": "7cc7f4a65b140666d6c65f3a78749339",
+      "folder": false
+    },
+    {
+      "id": "1jok2AeXX-gXScmRJtdi6ctldWCGopwrR",
+      "parent_id": "1wrLlkjTM15P-uiDtMVnx1AoqAglUQN8u",
+      "name": "TỘI CÔNG THÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 760437,
+      "modified": "2026-08-15T10:00:56.000Z",
+      "checksum": "9c5aa98627e13a364cb31ccd2113bec1",
+      "folder": false
+    },
+    {
+      "id": "1VkzBMdFlgA4Rh2RvNzTQJjHz4RMYkaoX",
+      "parent_id": "1wrLlkjTM15P-uiDtMVnx1AoqAglUQN8u",
+      "name": "TỘI CÔNG THÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 1090026,
+      "modified": "2026-08-15T10:00:54.000Z",
+      "checksum": "82d79dc7fd88c217c031a42ea1c9e942",
+      "folder": false
+    }
+  ]
+}

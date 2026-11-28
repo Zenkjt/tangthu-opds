@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ehXQc-Eb9h3X6kF9XVpOzIwdqN2Etrsd",
+  "page": 1,
+  "items": [
+    {
+      "id": "11QVsWYW2Ct1rl_aPMCcnhNWjwHb0j2-i",
+      "parent_id": "1ehXQc-Eb9h3X6kF9XVpOzIwdqN2Etrsd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1198,
+      "modified": "2026-08-15T07:38:49.000Z",
+      "checksum": "a3b99e042339970cab4f2c92e602d2fb",
+      "folder": false
+    },
+    {
+      "id": "1Cazl3yRtNMVT81WX_5QybLdC0A8iZezw",
+      "parent_id": "1ehXQc-Eb9h3X6kF9XVpOzIwdqN2Etrsd",
+      "name": "NGƯỜI ANH CẢ.epub",
+      "mime": "application/epub+zip",
+      "size": 525738,
+      "modified": "2026-08-15T07:38:56.000Z",
+      "checksum": "b90775455fcb15a625fdc5a2e7c693ac",
+      "folder": false
+    },
+    {
+      "id": "1KbfT6QhwEIBNjf07koIGQc3gb7fkRMbB",
+      "parent_id": "1ehXQc-Eb9h3X6kF9XVpOzIwdqN2Etrsd",
+      "name": "NGƯỜI ANH CẢ.pdf",
+      "mime": "application/pdf",
+      "size": 948630,
+      "modified": "2026-08-15T07:38:53.000Z",
+      "checksum": "1c8611a6f6fa75b4a02d304d28e77ae3",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17A_waen83tg26Gx6jnTyHp_V5yH4Y4CM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WtUDX1YtaFkkMPc0xCdgR8u_HMJjx93e",
+      "parent_id": "17A_waen83tg26Gx6jnTyHp_V5yH4Y4CM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2862,
+      "modified": "2026-08-15T11:05:07.000Z",
+      "checksum": "eddbe99221be94c528503809ba60eb50",
+      "folder": false
+    },
+    {
+      "id": "1g7wWkqxxmwcW1wu8-WodqwW6LquLf6bW",
+      "parent_id": "17A_waen83tg26Gx6jnTyHp_V5yH4Y4CM",
+      "name": "VIẾT DƯỚI GIÁ TREO CỔ.epub",
+      "mime": "application/epub+zip",
+      "size": 307209,
+      "modified": "2026-08-15T11:05:15.000Z",
+      "checksum": "96870a4dcd2e7142d01e59e1318ec043",
+      "folder": false
+    },
+    {
+      "id": "163vOT5WgrAu-_hrXYbnSgu6j_wmcYNUK",
+      "parent_id": "17A_waen83tg26Gx6jnTyHp_V5yH4Y4CM",
+      "name": "VIẾT DƯỚI GIÁ TREO CỔ.pdf",
+      "mime": "application/pdf",
+      "size": 1135449,
+      "modified": "2026-08-15T11:05:12.000Z",
+      "checksum": "4611701aa14cf4128741cb0e9f7e4a83",
+      "folder": false
+    }
+  ]
+}

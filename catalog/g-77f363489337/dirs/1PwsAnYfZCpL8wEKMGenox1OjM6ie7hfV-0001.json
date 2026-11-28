@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PwsAnYfZCpL8wEKMGenox1OjM6ie7hfV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ARURG0z16wqxGhD1VJnnnU8Vcms0vB9z",
+      "parent_id": "1PwsAnYfZCpL8wEKMGenox1OjM6ie7hfV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3421,
+      "modified": "2026-08-15T03:28:37.000Z",
+      "checksum": "ad92b6ed3b21737f16dd81fddb29877a",
+      "folder": false
+    },
+    {
+      "id": "19iUE8taUEAhxTkY6BKSRzNas4DaWNerh",
+      "parent_id": "1PwsAnYfZCpL8wEKMGenox1OjM6ie7hfV",
+      "name": "TRÒ CHUYỆN VỚI VĨ NHÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 311050,
+      "modified": "2026-08-15T03:28:44.000Z",
+      "checksum": "ee25771507650740d93f9d89865beb0b",
+      "folder": false
+    },
+    {
+      "id": "1d0MvtHz9cgYJwxG2IOA3NayQUYZUFasu",
+      "parent_id": "1PwsAnYfZCpL8wEKMGenox1OjM6ie7hfV",
+      "name": "TRÒ CHUYỆN VỚI VĨ NHÂN.pdf",
+      "mime": "application/pdf",
+      "size": 1295512,
+      "modified": "2026-08-15T03:28:41.000Z",
+      "checksum": "65f8478b3c086876a02ed2053d9c2331",
+      "folder": false
+    }
+  ]
+}

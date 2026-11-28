@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dGaL5vQNuL_UPlqfTZkRY8D6UgJf6ce-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-iWzjjns-uDu6-P2pEMPhuztJNF0TMKb",
+      "parent_id": "1dGaL5vQNuL_UPlqfTZkRY8D6UgJf6ce-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 19325,
+      "modified": "2026-08-15T06:12:05.000Z",
+      "checksum": "ded0e5bd824455f7397f794d78dfa13c",
+      "folder": false
+    },
+    {
+      "id": "1L7-TcMiqYQRjJjGLWnd7j1BtHEERJ6q4",
+      "parent_id": "1dGaL5vQNuL_UPlqfTZkRY8D6UgJf6ce-",
+      "name": "MINH ĐẠO NHÂN SINH.epub",
+      "mime": "application/epub+zip",
+      "size": 797084,
+      "modified": "2026-08-15T06:12:12.000Z",
+      "checksum": "07105201698e8ab25395b5e828318e34",
+      "folder": false
+    },
+    {
+      "id": "1F24Bebu6FAGFp4r5lNfuAiJuq6EfE7et",
+      "parent_id": "1dGaL5vQNuL_UPlqfTZkRY8D6UgJf6ce-",
+      "name": "MINH ĐẠO NHÂN SINH.pdf",
+      "mime": "application/pdf",
+      "size": 1501489,
+      "modified": "2026-08-15T06:12:10.000Z",
+      "checksum": "78832e11fbc9298ace1a27f32bb4e51f",
+      "folder": false
+    }
+  ]
+}

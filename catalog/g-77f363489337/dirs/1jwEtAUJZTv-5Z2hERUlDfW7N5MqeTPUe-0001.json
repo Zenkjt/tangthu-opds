@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jwEtAUJZTv-5Z2hERUlDfW7N5MqeTPUe",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pik4wpyYPj4DsrTBEi-IX6lNmbnHvd-c",
+      "parent_id": "1jwEtAUJZTv-5Z2hERUlDfW7N5MqeTPUe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3075,
+      "modified": "2026-08-15T10:30:30.000Z",
+      "checksum": "8215275ba730662774a476e80f4ea421",
+      "folder": false
+    },
+    {
+      "id": "1jPadxWfLCHVzGOLd0VJEhIYYR9SxifwR",
+      "parent_id": "1jwEtAUJZTv-5Z2hERUlDfW7N5MqeTPUe",
+      "name": "QUỶ HUYNH.epub",
+      "mime": "application/epub+zip",
+      "size": 349599,
+      "modified": "2026-08-15T10:30:40.000Z",
+      "checksum": "ed644e2986a2e57ffa56a96f26f8deae",
+      "folder": false
+    },
+    {
+      "id": "18iW8WFkaoLEzqccCH7AYFo8OO9ao4qUL",
+      "parent_id": "1jwEtAUJZTv-5Z2hERUlDfW7N5MqeTPUe",
+      "name": "QUỶ HUYNH.pdf",
+      "mime": "application/pdf",
+      "size": 949612,
+      "modified": "2026-08-15T10:30:36.000Z",
+      "checksum": "891801e1b68a6ded9eb5d8f3ef92db3c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sQzhtc8W1ZJHBCDhov9IAgB1rwljVymy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UP4udL53MLHsNqzHMaiCqGfm1c1Y8ZnX",
+      "parent_id": "1sQzhtc8W1ZJHBCDhov9IAgB1rwljVymy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3226,
+      "modified": "2026-08-16T03:40:03.000Z",
+      "checksum": "acdc44d50f06fc127774e577b3e44c21",
+      "folder": false
+    },
+    {
+      "id": "1iEVijZowxZhWd7CEijevRbEMOA0rNNB6",
+      "parent_id": "1sQzhtc8W1ZJHBCDhov9IAgB1rwljVymy",
+      "name": "HOÀNG HẬU LƯỜI Y NHÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 1253639,
+      "modified": "2026-08-16T03:40:16.000Z",
+      "checksum": "26a4c53e076737b76058c70bd9ae2455",
+      "folder": false
+    },
+    {
+      "id": "1BaPUWVWc2z_6Nxbrr2xQMdLGmqrQ-4AW",
+      "parent_id": "1sQzhtc8W1ZJHBCDhov9IAgB1rwljVymy",
+      "name": "HOÀNG HẬU LƯỜI Y NHÂN.pdf",
+      "mime": "application/pdf",
+      "size": 4794998,
+      "modified": "2026-08-16T03:40:13.000Z",
+      "checksum": "05479c490457cef339347090cb04c3d3",
+      "folder": false
+    }
+  ]
+}

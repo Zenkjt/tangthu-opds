@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1A-wubmlvu6XfDy6ih1SrpSxi1eo5LgDm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VIzfLT3J-3vEMFU7UkNAnB0a8NBug6HI",
+      "parent_id": "1A-wubmlvu6XfDy6ih1SrpSxi1eo5LgDm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7113,
+      "modified": "2026-08-15T00:56:38.000Z",
+      "checksum": "227fbd93f3fdce88ccc6e465de7707ef",
+      "folder": false
+    },
+    {
+      "id": "1heYWZlo3p6I-qk20-JD3yui21bQIQt86",
+      "parent_id": "1A-wubmlvu6XfDy6ih1SrpSxi1eo5LgDm",
+      "name": "TƯƠNG LAI CỦA MỘT ẢO TƯỞNG.epub",
+      "mime": "application/epub+zip",
+      "size": 340530,
+      "modified": "2026-08-15T00:56:47.000Z",
+      "checksum": "e2c44adf1a6cf7ca33b002b3785bffd1",
+      "folder": false
+    },
+    {
+      "id": "1Xf4h8-cVMr4glQLTpucnxyNqSJTobyqS",
+      "parent_id": "1A-wubmlvu6XfDy6ih1SrpSxi1eo5LgDm",
+      "name": "TƯƠNG LAI CỦA MỘT ẢO TƯỞNG.pdf",
+      "mime": "application/pdf",
+      "size": 556545,
+      "modified": "2026-08-15T00:56:45.000Z",
+      "checksum": "c41f969be341ef1b14f6cc05ef79eae1",
+      "folder": false
+    }
+  ]
+}

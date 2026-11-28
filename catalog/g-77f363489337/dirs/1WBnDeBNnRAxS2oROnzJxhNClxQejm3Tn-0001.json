@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WBnDeBNnRAxS2oROnzJxhNClxQejm3Tn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GLQfM7NRL_fRrZIcFrGfm8Abxsm-Fpff",
+      "parent_id": "1WBnDeBNnRAxS2oROnzJxhNClxQejm3Tn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8704,
+      "modified": "2026-08-16T02:57:56.000Z",
+      "checksum": "3382531d6a77e8bf53162f07229c1010",
+      "folder": false
+    },
+    {
+      "id": "1jp_lkkfL5fPXGpmHcF9E239PCMTfyOVz",
+      "parent_id": "1WBnDeBNnRAxS2oROnzJxhNClxQejm3Tn",
+      "name": "HỒNG NHAN BẠC PHẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 458493,
+      "modified": "2026-08-16T02:58:02.000Z",
+      "checksum": "341090d00a47f1f454424e508636e96e",
+      "folder": false
+    },
+    {
+      "id": "18aCWOwiO-IbcU3hzzltrAZneJIdy40Ak",
+      "parent_id": "1WBnDeBNnRAxS2oROnzJxhNClxQejm3Tn",
+      "name": "HỒNG NHAN BẠC PHẬN.pdf",
+      "mime": "application/pdf",
+      "size": 675297,
+      "modified": "2026-08-16T02:57:59.000Z",
+      "checksum": "63fa27a945c40a9ade1a448d973636fa",
+      "folder": false
+    }
+  ]
+}

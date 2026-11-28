@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1B2pVBYixBF3NC5_51CoE3I5rKAykSDnq",
+  "page": 1,
+  "items": [
+    {
+      "id": "14MtkcxyLRn-SAj33nf3eBx6BLR04IWIJ",
+      "parent_id": "1B2pVBYixBF3NC5_51CoE3I5rKAykSDnq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2623,
+      "modified": "2026-08-15T03:43:04.000Z",
+      "checksum": "16c148e72367b4b84ae5ed3887677514",
+      "folder": false
+    },
+    {
+      "id": "1jkTHQZOdc3tn44FVwdRhJvtK1fDF-H37",
+      "parent_id": "1B2pVBYixBF3NC5_51CoE3I5rKAykSDnq",
+      "name": "LƯỢC GIẢNG KINH PHÁP BẢO ĐÀN.epub",
+      "mime": "application/epub+zip",
+      "size": 706207,
+      "modified": "2026-08-15T03:43:12.000Z",
+      "checksum": "ff844380fbaf9c12e03477393a63d218",
+      "folder": false
+    },
+    {
+      "id": "1gPUV0_F358sY04D3ZglnZ_M54xn3W7d5",
+      "parent_id": "1B2pVBYixBF3NC5_51CoE3I5rKAykSDnq",
+      "name": "LƯỢC GIẢNG KINH PHÁP BẢO ĐÀN.pdf",
+      "mime": "application/pdf",
+      "size": 1755951,
+      "modified": "2026-08-15T03:43:09.000Z",
+      "checksum": "5d648f8dc040e00a52042e3c3d8f5b52",
+      "folder": false
+    }
+  ]
+}

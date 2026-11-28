@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yKei4lg9KqjvQ4ZQNqPtuGv3_fHPQnjR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hK2lM4uaUrvHIEkDpByx1T3ZY_-jdGfM",
+      "parent_id": "1yKei4lg9KqjvQ4ZQNqPtuGv3_fHPQnjR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3156,
+      "modified": "2026-08-15T16:00:43.000Z",
+      "checksum": "c4dfef3e23af4ce6e8dc43c44f5042b9",
+      "folder": false
+    },
+    {
+      "id": "1LAuubOdhUxjR7STkVzR94gulUXFPSlAm",
+      "parent_id": "1yKei4lg9KqjvQ4ZQNqPtuGv3_fHPQnjR",
+      "name": "NGÃ VÀO CỔ TÍCH.epub",
+      "mime": "application/epub+zip",
+      "size": 543090,
+      "modified": "2026-08-15T16:00:48.000Z",
+      "checksum": "639e0684475448d765000a1574079a5d",
+      "folder": false
+    },
+    {
+      "id": "128ycxTXhaBtcQ9Qy5YcEvjPfitMNGhBz",
+      "parent_id": "1yKei4lg9KqjvQ4ZQNqPtuGv3_fHPQnjR",
+      "name": "NGÃ VÀO CỔ TÍCH.pdf",
+      "mime": "application/pdf",
+      "size": 382973,
+      "modified": "2026-08-15T16:00:46.000Z",
+      "checksum": "8ca59641e1d2a127bcaa0b7d8904d064",
+      "folder": false
+    }
+  ]
+}

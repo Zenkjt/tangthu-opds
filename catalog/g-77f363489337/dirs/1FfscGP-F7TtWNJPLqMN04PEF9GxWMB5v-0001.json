@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FfscGP-F7TtWNJPLqMN04PEF9GxWMB5v",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rPD-MMgZVCJS8FbHxfBL3CXlfsTRSPDu",
+      "parent_id": "1FfscGP-F7TtWNJPLqMN04PEF9GxWMB5v",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1615,
+      "modified": "2026-08-15T03:44:53.000Z",
+      "checksum": "4d4ca8afda5036ee32491abfcdad28c7",
+      "folder": false
+    },
+    {
+      "id": "1Az9lV95da9jqhISImYzv_apQsAkabQvR",
+      "parent_id": "1FfscGP-F7TtWNJPLqMN04PEF9GxWMB5v",
+      "name": "GIÁP MẶT CUỘC ĐỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 349171,
+      "modified": "2026-08-15T03:44:59.000Z",
+      "checksum": "2fa221c4445285cc8ca7132cd0df4f91",
+      "folder": false
+    },
+    {
+      "id": "1T3EkYQqvtFRHuxz3xZwXP52t-3daay0G",
+      "parent_id": "1FfscGP-F7TtWNJPLqMN04PEF9GxWMB5v",
+      "name": "GIÁP MẶT CUỘC ĐỜI.pdf",
+      "mime": "application/pdf",
+      "size": 660387,
+      "modified": "2026-08-15T03:44:57.000Z",
+      "checksum": "c47e68c57953bb283a137cc101ceb100",
+      "folder": false
+    }
+  ]
+}

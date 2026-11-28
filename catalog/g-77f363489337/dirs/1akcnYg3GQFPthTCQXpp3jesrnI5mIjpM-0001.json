@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1akcnYg3GQFPthTCQXpp3jesrnI5mIjpM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zUh7vi13GKAwUpseoTQaV-I6969ztHaH",
+      "parent_id": "1akcnYg3GQFPthTCQXpp3jesrnI5mIjpM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3308,
+      "modified": "2026-08-15T10:02:11.000Z",
+      "checksum": "7cd37490a3e2cc9b6f46b1a4e5c311cd",
+      "folder": false
+    },
+    {
+      "id": "1xsbVLteIZEKK2IXzViuUzArhYOLfEk4x",
+      "parent_id": "1akcnYg3GQFPthTCQXpp3jesrnI5mIjpM",
+      "name": "NHỮNG TẤM LÒNG CAO CẢ.epub",
+      "mime": "application/epub+zip",
+      "size": 557277,
+      "modified": "2026-08-15T10:02:55.000Z",
+      "checksum": "e4493402230b2c13082d5be8d451990e",
+      "folder": false
+    },
+    {
+      "id": "1K31cH5bsX7QpKIzuz0lZKECggmZ029vG",
+      "parent_id": "1akcnYg3GQFPthTCQXpp3jesrnI5mIjpM",
+      "name": "NHỮNG TẤM LÒNG CAO CẢ.pdf",
+      "mime": "application/pdf",
+      "size": 1679026,
+      "modified": "2026-08-15T10:02:35.000Z",
+      "checksum": "76c6287655a65f3f0e89397b930db476",
+      "folder": false
+    }
+  ]
+}

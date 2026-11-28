@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vmV3fbbrhNSrpkSezxkMrkkR18pAkxTD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wj69WJFz7mPm1SSa42ieE6be5YmGTnE2",
+      "parent_id": "1vmV3fbbrhNSrpkSezxkMrkkR18pAkxTD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 14828,
+      "modified": "2026-08-15T07:30:23.000Z",
+      "checksum": "3dfb13226e356ed6032f2eb2606c3b13",
+      "folder": false
+    },
+    {
+      "id": "1xKYcu1D0-FbqH0qJ6sW8re8L10_4LEj_",
+      "parent_id": "1vmV3fbbrhNSrpkSezxkMrkkR18pAkxTD",
+      "name": "VƯƠNG GIA, ĐI THONG THẢ.epub",
+      "mime": "application/epub+zip",
+      "size": 694945,
+      "modified": "2026-08-15T07:30:54.000Z",
+      "checksum": "f20b6d7950456932c96153092b34b25c",
+      "folder": false
+    },
+    {
+      "id": "1SFgzFlxTVjMI-TJjupQY_1c_zl-MW-3n",
+      "parent_id": "1vmV3fbbrhNSrpkSezxkMrkkR18pAkxTD",
+      "name": "VƯƠNG GIA, ĐI THONG THẢ.pdf",
+      "mime": "application/pdf",
+      "size": 2396844,
+      "modified": "2026-08-15T07:30:47.000Z",
+      "checksum": "dc9c81801f1ae1adbd0999b93c0f8c30",
+      "folder": false
+    }
+  ]
+}

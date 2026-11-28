@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OQSsedSUMSaj30bC3WqPLM4FmUJ0jVEH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nVkh2iss_4J57Ff-q_IbVO1cKVyD9ZlH",
+      "parent_id": "1OQSsedSUMSaj30bC3WqPLM4FmUJ0jVEH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 447,
+      "modified": "2026-08-16T04:19:17.000Z",
+      "checksum": "27f1eaedd2e8bc194922c44e604e020a",
+      "folder": false
+    },
+    {
+      "id": "18ggsFSjxmFVzHhs_LeYxaRPTzuXiLtUN",
+      "parent_id": "1OQSsedSUMSaj30bC3WqPLM4FmUJ0jVEH",
+      "name": "HUYỀN THOẠI BIỂN.epub",
+      "mime": "application/epub+zip",
+      "size": 423635,
+      "modified": "2026-08-16T04:19:23.000Z",
+      "checksum": "11d3ed8a394f8f50eb7845446699c70e",
+      "folder": false
+    },
+    {
+      "id": "1txaEx83bizkJKmD8pxYLRxwP0fwdpinw",
+      "parent_id": "1OQSsedSUMSaj30bC3WqPLM4FmUJ0jVEH",
+      "name": "HUYỀN THOẠI BIỂN.pdf",
+      "mime": "application/pdf",
+      "size": 280300,
+      "modified": "2026-08-16T04:19:21.000Z",
+      "checksum": "cb1fa5b87eeb3c48f39dcf1a4c2ec4a9",
+      "folder": false
+    }
+  ]
+}

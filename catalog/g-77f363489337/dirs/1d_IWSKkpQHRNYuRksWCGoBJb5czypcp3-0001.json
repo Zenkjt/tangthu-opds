@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d_IWSKkpQHRNYuRksWCGoBJb5czypcp3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1T5zsEzVt-fTfz89dEqGwvvJZcp4ue0p_",
+      "parent_id": "1d_IWSKkpQHRNYuRksWCGoBJb5czypcp3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 644,
+      "modified": "2026-08-15T15:41:05.000Z",
+      "checksum": "02124f1a7fd81749cf2c9ad59613c8f5",
+      "folder": false
+    },
+    {
+      "id": "1ICL1etY__jna4886pjkYGVxK8Gt9BkgD",
+      "parent_id": "1d_IWSKkpQHRNYuRksWCGoBJb5czypcp3",
+      "name": "ĐIỂM DỐI LỪA.epub",
+      "mime": "application/epub+zip",
+      "size": 766881,
+      "modified": "2026-08-15T15:42:06.000Z",
+      "checksum": "a981e96edebc10bf985c41cec777996b",
+      "folder": false
+    },
+    {
+      "id": "1UdVtsLvWSitT1-DcmIt87fVQg10fsoUZ",
+      "parent_id": "1d_IWSKkpQHRNYuRksWCGoBJb5czypcp3",
+      "name": "ĐIỂM DỐI LỪA.pdf",
+      "mime": "application/pdf",
+      "size": 2008725,
+      "modified": "2026-08-15T15:42:00.000Z",
+      "checksum": "61b3014e1f2a3065f724f7456c1fe139",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1t0eIXpBSOPOD0k434IqZ4Ik5b1u17QFo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nKTJgxqkdcnT04bUSNYp4e18wRiOpFB9",
+      "parent_id": "1t0eIXpBSOPOD0k434IqZ4Ik5b1u17QFo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 439,
+      "modified": "2026-08-15T10:07:29.000Z",
+      "checksum": "2c813c56b866d56d7f33dcc0ee7f9274",
+      "folder": false
+    },
+    {
+      "id": "1UuGx_GTKSsXfzMLHKQ6wXdehglklDAPD",
+      "parent_id": "1t0eIXpBSOPOD0k434IqZ4Ik5b1u17QFo",
+      "name": "TRÁI TIM ĐƠN ĐỘC.epub",
+      "mime": "application/epub+zip",
+      "size": 313847,
+      "modified": "2026-08-15T10:07:35.000Z",
+      "checksum": "7c8f2173d918be978dedc0df410369a1",
+      "folder": false
+    },
+    {
+      "id": "1d6CtWSm2MeQeFQXzrBSJqWIEPMltScpw",
+      "parent_id": "1t0eIXpBSOPOD0k434IqZ4Ik5b1u17QFo",
+      "name": "TRÁI TIM ĐƠN ĐỘC.pdf",
+      "mime": "application/pdf",
+      "size": 486644,
+      "modified": "2026-08-15T10:07:32.000Z",
+      "checksum": "f94de2395f4d3d6362e7d4fac4883550",
+      "folder": false
+    }
+  ]
+}

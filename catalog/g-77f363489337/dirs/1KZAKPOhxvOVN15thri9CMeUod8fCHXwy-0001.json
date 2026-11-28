@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KZAKPOhxvOVN15thri9CMeUod8fCHXwy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oGLdPYO5bFVIYjkZgbMFFF9tBTOFgP6z",
+      "parent_id": "1KZAKPOhxvOVN15thri9CMeUod8fCHXwy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3724,
+      "modified": "2026-08-15T09:35:24.000Z",
+      "checksum": "3ce0913ebb8a505603af1ab80c8c6130",
+      "folder": false
+    },
+    {
+      "id": "1jGgzjZkB5S_yvYrmn0Z84Pxj8k2Rhdp2",
+      "parent_id": "1KZAKPOhxvOVN15thri9CMeUod8fCHXwy",
+      "name": "NẶNG GÁNH CANG THƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 399422,
+      "modified": "2026-08-15T09:35:31.000Z",
+      "checksum": "6f8f7711859bf1bcf58ea4a5da20ba2c",
+      "folder": false
+    },
+    {
+      "id": "1EqmraV9G4v0sjHd-GCVsFV_3D7P8ObyI",
+      "parent_id": "1KZAKPOhxvOVN15thri9CMeUod8fCHXwy",
+      "name": "NẶNG GÁNH CANG THƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 504269,
+      "modified": "2026-08-15T09:35:29.000Z",
+      "checksum": "4b2053efb96960e543f47e24145a7e3a",
+      "folder": false
+    }
+  ]
+}

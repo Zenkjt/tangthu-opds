@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14to2Ipogjep-1Qhv8LVsiTzju7w85ZQX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UetL6ihtym0lpMRZ1xCe-Q1jeZRKS6B5",
+      "parent_id": "14to2Ipogjep-1Qhv8LVsiTzju7w85ZQX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3567,
+      "modified": "2026-08-16T04:16:25.000Z",
+      "checksum": "01a3344d3c311920433bb454df752d2c",
+      "folder": false
+    },
+    {
+      "id": "1uL6XlKDNGso7wOMMZLiFjTxUuxCMoTv2",
+      "parent_id": "14to2Ipogjep-1Qhv8LVsiTzju7w85ZQX",
+      "name": "NAM TƯỚC TRÊN CÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 557768,
+      "modified": "2026-08-16T04:16:31.000Z",
+      "checksum": "f1fe8885edfa61a0425892f244b7e920",
+      "folder": false
+    },
+    {
+      "id": "1nEXp0JNEiwKfM-FBouEYlRSHEPVeAQx2",
+      "parent_id": "14to2Ipogjep-1Qhv8LVsiTzju7w85ZQX",
+      "name": "NAM TƯỚC TRÊN CÂY.pdf",
+      "mime": "application/pdf",
+      "size": 1216629,
+      "modified": "2026-08-16T04:16:29.000Z",
+      "checksum": "e713434ae0c561244cea8bb9b93bd65e",
+      "folder": false
+    }
+  ]
+}

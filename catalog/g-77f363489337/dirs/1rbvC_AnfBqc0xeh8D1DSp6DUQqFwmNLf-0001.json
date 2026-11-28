@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rbvC_AnfBqc0xeh8D1DSp6DUQqFwmNLf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KWifcNUp45zKVPa9AnLmXvEjJo8DaQcv",
+      "parent_id": "1rbvC_AnfBqc0xeh8D1DSp6DUQqFwmNLf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 444,
+      "modified": "2026-08-15T10:55:53.000Z",
+      "checksum": "05d98d7dbccb7ed010e5f984464b6ebb",
+      "folder": false
+    },
+    {
+      "id": "1JM1n4MLfFabCXaNevbnHcz7BZniUuAFX",
+      "parent_id": "1rbvC_AnfBqc0xeh8D1DSp6DUQqFwmNLf",
+      "name": "KẺ NẶN BÓNG.epub",
+      "mime": "application/epub+zip",
+      "size": 557612,
+      "modified": "2026-08-15T10:55:59.000Z",
+      "checksum": "b616952fb20c470e9f92a0eeca702a15",
+      "folder": false
+    },
+    {
+      "id": "1cIOIR4w-nZ9mDzfFigOt84aKfCAhqhvS",
+      "parent_id": "1rbvC_AnfBqc0xeh8D1DSp6DUQqFwmNLf",
+      "name": "KẺ NẶN BÓNG.pdf",
+      "mime": "application/pdf",
+      "size": 947517,
+      "modified": "2026-08-15T10:55:56.000Z",
+      "checksum": "e846d90f9f3a501305e0acb5fa33a343",
+      "folder": false
+    }
+  ]
+}

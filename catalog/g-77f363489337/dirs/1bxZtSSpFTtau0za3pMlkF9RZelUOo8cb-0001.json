@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bxZtSSpFTtau0za3pMlkF9RZelUOo8cb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aJHa1PF0asQBVe5-mshePd2aukkOXkkg",
+      "parent_id": "1bxZtSSpFTtau0za3pMlkF9RZelUOo8cb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3205,
+      "modified": "2026-08-15T10:13:01.000Z",
+      "checksum": "829fb8821cdff420d4b151d492304f92",
+      "folder": false
+    },
+    {
+      "id": "17m8TAcAFJDOoWo9qGPGRS8TIMOy2dDBK",
+      "parent_id": "1bxZtSSpFTtau0za3pMlkF9RZelUOo8cb",
+      "name": "THỢ SĂN VÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 507605,
+      "modified": "2026-08-15T10:13:10.000Z",
+      "checksum": "9ec2f27ee7d9bb4f14a37b3e31d86d75",
+      "folder": false
+    },
+    {
+      "id": "1vrn1ZRSQgp3NMkbHPf7e9GNSxDOBh8rp",
+      "parent_id": "1bxZtSSpFTtau0za3pMlkF9RZelUOo8cb",
+      "name": "THỢ SĂN VÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 770168,
+      "modified": "2026-08-15T10:13:07.000Z",
+      "checksum": "bdfbe389d787d787a495c158fa731b4a",
+      "folder": false
+    }
+  ]
+}

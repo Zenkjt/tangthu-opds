@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yrrdUv8ve3eTvmNY4vQPPxtJlWCM0eq3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jX7cDy5soWwJ1kc4dUsyzGd6zb9o1HKc",
+      "parent_id": "1yrrdUv8ve3eTvmNY4vQPPxtJlWCM0eq3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5820,
+      "modified": "2026-08-15T15:44:38.000Z",
+      "checksum": "6806f29602f42777ac9b551869477b11",
+      "folder": false
+    },
+    {
+      "id": "1oXJ0YKI8azMgCWzUVQifVP5bc7nWfWCw",
+      "parent_id": "1yrrdUv8ve3eTvmNY4vQPPxtJlWCM0eq3",
+      "name": "TRẠNG QUỲNH TOÀN TẬP.epub",
+      "mime": "application/epub+zip",
+      "size": 385207,
+      "modified": "2026-08-15T15:44:43.000Z",
+      "checksum": "793a0c0cfce7aa393cad7ac76bea5fa0",
+      "folder": false
+    },
+    {
+      "id": "155O2LQ4iJkmXTg6oUzKjbHqX-duHhwD-",
+      "parent_id": "1yrrdUv8ve3eTvmNY4vQPPxtJlWCM0eq3",
+      "name": "TRẠNG QUỲNH TOÀN TẬP.pdf",
+      "mime": "application/pdf",
+      "size": 508010,
+      "modified": "2026-08-15T15:44:41.000Z",
+      "checksum": "7a813df74f3772cc44087404a3abebb7",
+      "folder": false
+    }
+  ]
+}

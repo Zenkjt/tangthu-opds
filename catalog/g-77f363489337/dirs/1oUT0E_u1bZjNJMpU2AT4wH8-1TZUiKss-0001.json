@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oUT0E_u1bZjNJMpU2AT4wH8-1TZUiKss",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KJZhrdoUe59R1x1a357SOfzm2t2VcmIn",
+      "parent_id": "1oUT0E_u1bZjNJMpU2AT4wH8-1TZUiKss",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2976,
+      "modified": "2026-08-15T10:22:14.000Z",
+      "checksum": "3ac4ba175a07bdcfb45ef09f179bff26",
+      "folder": false
+    },
+    {
+      "id": "1uxvOeT179zTuQDvFSM1PUathvomJMgFj",
+      "parent_id": "1oUT0E_u1bZjNJMpU2AT4wH8-1TZUiKss",
+      "name": "TÀNG THƯ SHERLOCK HOLMES.epub",
+      "mime": "application/epub+zip",
+      "size": 1838593,
+      "modified": "2026-08-15T10:22:23.000Z",
+      "checksum": "37388e31a01fbc94b58c6e35ce67b67e",
+      "folder": false
+    },
+    {
+      "id": "1dFuy9d3r-cAvYgl6GfQPeazXgCC4fJn5",
+      "parent_id": "1oUT0E_u1bZjNJMpU2AT4wH8-1TZUiKss",
+      "name": "TÀNG THƯ SHERLOCK HOLMES.pdf",
+      "mime": "application/pdf",
+      "size": 2260732,
+      "modified": "2026-08-15T10:22:19.000Z",
+      "checksum": "2e107f3c6607b7f1d1bc332efff425af",
+      "folder": false
+    }
+  ]
+}

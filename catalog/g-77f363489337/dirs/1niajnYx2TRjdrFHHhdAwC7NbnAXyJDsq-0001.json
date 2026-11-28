@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1niajnYx2TRjdrFHHhdAwC7NbnAXyJDsq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CtbhLHWlfk_K0Bz4Qe9nAZN3KFv1dLdl",
+      "parent_id": "1niajnYx2TRjdrFHHhdAwC7NbnAXyJDsq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 483,
+      "modified": "2026-08-15T11:30:58.000Z",
+      "checksum": "b5548ee92c5fceaaae6680781d72d0b2",
+      "folder": false
+    },
+    {
+      "id": "19rIwHTjmm5v6QLcbYcQFF9_JaqE2W3jC",
+      "parent_id": "1niajnYx2TRjdrFHHhdAwC7NbnAXyJDsq",
+      "name": "THUẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 512739,
+      "modified": "2026-08-15T11:31:04.000Z",
+      "checksum": "4702942478a05c48cd5a2d595e245dab",
+      "folder": false
+    },
+    {
+      "id": "1x95UHK0IubvzOPPnWScFveaMSKeYywg6",
+      "parent_id": "1niajnYx2TRjdrFHHhdAwC7NbnAXyJDsq",
+      "name": "THUẾ.pdf",
+      "mime": "application/pdf",
+      "size": 621602,
+      "modified": "2026-08-15T11:31:01.000Z",
+      "checksum": "afe455a69be95606d4e6a94514b1a6cd",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1M6kIlJcS39gJ2ff9flJ-8sgHeDC2tKQ0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iEmeeHaYjYqAjEQ2HA8WAg-_k7sNnVvC",
+      "parent_id": "1M6kIlJcS39gJ2ff9flJ-8sgHeDC2tKQ0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1202,
+      "modified": "2026-08-15T03:49:52.000Z",
+      "checksum": "fca1670fc3e1538bcb4ad49fcb464813",
+      "folder": false
+    },
+    {
+      "id": "1Mk1qN_BCoS8FGVBDNKTH9jnbNwDp_tu6",
+      "parent_id": "1M6kIlJcS39gJ2ff9flJ-8sgHeDC2tKQ0",
+      "name": "HẠNH PHÚC GIỮA ĐỜI THƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 464069,
+      "modified": "2026-08-15T03:49:57.000Z",
+      "checksum": "2ad6b6f34dec93f683aca8a44a28c5bd",
+      "folder": false
+    },
+    {
+      "id": "18TP343fafVOkCenHkVJFfB9m0npNd8-j",
+      "parent_id": "1M6kIlJcS39gJ2ff9flJ-8sgHeDC2tKQ0",
+      "name": "HẠNH PHÚC GIỮA ĐỜI THƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 1000331,
+      "modified": "2026-08-15T03:49:55.000Z",
+      "checksum": "a03beabcee1ed5dda39711a3cede6242",
+      "folder": false
+    }
+  ]
+}

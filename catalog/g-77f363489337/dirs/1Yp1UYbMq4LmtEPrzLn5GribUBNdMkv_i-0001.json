@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Yp1UYbMq4LmtEPrzLn5GribUBNdMkv_i",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SjSTUV7eGvAVVeobaf-qWnGWy6J3GqCj",
+      "parent_id": "1Yp1UYbMq4LmtEPrzLn5GribUBNdMkv_i",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1319,
+      "modified": "2026-08-16T02:45:29.000Z",
+      "checksum": "1a2036e601cc48ff33ac3985cab93e92",
+      "folder": false
+    },
+    {
+      "id": "1sW6_Ype0sBCiCoTeGpi8LUy4qE3xcznH",
+      "parent_id": "1Yp1UYbMq4LmtEPrzLn5GribUBNdMkv_i",
+      "name": "ÚT QUYÊN VÀ TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 449225,
+      "modified": "2026-08-16T02:45:35.000Z",
+      "checksum": "234ef02a4b3ff17f606555df77a38f91",
+      "folder": false
+    },
+    {
+      "id": "1nKfwfNaV4zp2nyUvz8724NvG_pPJki6x",
+      "parent_id": "1Yp1UYbMq4LmtEPrzLn5GribUBNdMkv_i",
+      "name": "ÚT QUYÊN VÀ TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 534289,
+      "modified": "2026-08-16T02:45:32.000Z",
+      "checksum": "b9071d5fdcf58cca3eebecf71fd7f15e",
+      "folder": false
+    }
+  ]
+}

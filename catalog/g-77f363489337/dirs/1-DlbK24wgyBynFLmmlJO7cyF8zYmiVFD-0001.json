@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-DlbK24wgyBynFLmmlJO7cyF8zYmiVFD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BLItHKjXBLJzcJWfTdmy9zuT4Vw29Rea",
+      "parent_id": "1-DlbK24wgyBynFLmmlJO7cyF8zYmiVFD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 13699,
+      "modified": "2026-08-16T03:13:59.000Z",
+      "checksum": "2e5103c979686880b924d0240aeb7c6a",
+      "folder": false
+    },
+    {
+      "id": "10RM1JiReagx1PMy5THFA3aynTzeRCITc",
+      "parent_id": "1-DlbK24wgyBynFLmmlJO7cyF8zYmiVFD",
+      "name": "NHẬT KÝ Á THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 501099,
+      "modified": "2026-08-16T03:14:05.000Z",
+      "checksum": "739d3147a27e27576661d4481aa619a0",
+      "folder": false
+    },
+    {
+      "id": "1fi_CrFzw_6qF2vrlLUdyB8nuAwl8Gz-t",
+      "parent_id": "1-DlbK24wgyBynFLmmlJO7cyF8zYmiVFD",
+      "name": "NHẬT KÝ Á THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 778558,
+      "modified": "2026-08-16T03:14:03.000Z",
+      "checksum": "04d9d0a3b4c0d5128f45ec19a2fe5783",
+      "folder": false
+    }
+  ]
+}

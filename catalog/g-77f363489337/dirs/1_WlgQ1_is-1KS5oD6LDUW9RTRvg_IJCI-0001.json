@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_WlgQ1_is-1KS5oD6LDUW9RTRvg_IJCI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ee9noetINZa30TtIyHd21Tzl7cW8xye-",
+      "parent_id": "1_WlgQ1_is-1KS5oD6LDUW9RTRvg_IJCI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2289,
+      "modified": "2026-08-15T09:50:38.000Z",
+      "checksum": "cace0bf077a46aee233e2d70c4f343b8",
+      "folder": false
+    },
+    {
+      "id": "1XIZ48JILal5P6vPIP2n4tkJwuItjeP1R",
+      "parent_id": "1_WlgQ1_is-1KS5oD6LDUW9RTRvg_IJCI",
+      "name": "ĐỒNG HỒ XƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1017021,
+      "modified": "2026-08-15T09:50:50.000Z",
+      "checksum": "b5cd507b9224b5f2a7de4d977a2e680e",
+      "folder": false
+    },
+    {
+      "id": "1kVPPMi-LOgb2Gks4RYFGROtcvmZZV_dV",
+      "parent_id": "1_WlgQ1_is-1KS5oD6LDUW9RTRvg_IJCI",
+      "name": "ĐỒNG HỒ XƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 2802865,
+      "modified": "2026-08-15T09:50:46.000Z",
+      "checksum": "59d26e59104bb75861ef87fc6b3ef0f9",
+      "folder": false
+    }
+  ]
+}

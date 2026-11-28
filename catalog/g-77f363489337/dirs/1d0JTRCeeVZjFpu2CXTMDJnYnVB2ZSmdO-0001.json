@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d0JTRCeeVZjFpu2CXTMDJnYnVB2ZSmdO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Xv4V_plG4b7qt0v0d63LaxZhpvEL0QqJ",
+      "parent_id": "1d0JTRCeeVZjFpu2CXTMDJnYnVB2ZSmdO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3326,
+      "modified": "2026-08-16T04:00:08.000Z",
+      "checksum": "9ca7c357c197666a78db112819c466c7",
+      "folder": false
+    },
+    {
+      "id": "1GRtQmYtUULb9Juv7fxoU0u6vf43p05qL",
+      "parent_id": "1d0JTRCeeVZjFpu2CXTMDJnYnVB2ZSmdO",
+      "name": "THÁM TỬ XƯƠNG VUI TÍNH.epub",
+      "mime": "application/epub+zip",
+      "size": 740200,
+      "modified": "2026-08-16T04:00:16.000Z",
+      "checksum": "d1d54ffbbbbe48cd435ae6dc40774fcb",
+      "folder": false
+    },
+    {
+      "id": "10TXGQifq3uFUXWFli81mkL2Nb6vn_CRK",
+      "parent_id": "1d0JTRCeeVZjFpu2CXTMDJnYnVB2ZSmdO",
+      "name": "THÁM TỬ XƯƠNG VUI TÍNH.pdf",
+      "mime": "application/pdf",
+      "size": 1489590,
+      "modified": "2026-08-16T04:00:13.000Z",
+      "checksum": "5485622969be7e72e93fbec87da49378",
+      "folder": false
+    }
+  ]
+}

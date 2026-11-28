@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xRTK_g8qDaJZZxsFRoDBLXVGyw0g43mo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1V7Y7DWJiKSGaT2aDh-izH_0euk8rJ7Us",
+      "parent_id": "1xRTK_g8qDaJZZxsFRoDBLXVGyw0g43mo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4391,
+      "modified": "2026-08-15T03:40:59.000Z",
+      "checksum": "b8ffadf00ca26b9cd6e1d088abc0ce85",
+      "folder": false
+    },
+    {
+      "id": "1nAUbnb96ZAdtQOJVSDd0reSkIEKRj8b4",
+      "parent_id": "1xRTK_g8qDaJZZxsFRoDBLXVGyw0g43mo",
+      "name": "TRẢI NGHIỆM CẬN TỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 318026,
+      "modified": "2026-08-15T03:41:06.000Z",
+      "checksum": "716484456a3fc48c79838cd81816bd0c",
+      "folder": false
+    },
+    {
+      "id": "1mFZIbVrQN3c5nFjVbnNCJ8w-hXCQXli1",
+      "parent_id": "1xRTK_g8qDaJZZxsFRoDBLXVGyw0g43mo",
+      "name": "TRẢI NGHIỆM CẬN TỬ.pdf",
+      "mime": "application/pdf",
+      "size": 945173,
+      "modified": "2026-08-15T03:41:03.000Z",
+      "checksum": "62e48a1f17b1b46bb63e07e234ac6d19",
+      "folder": false
+    }
+  ]
+}

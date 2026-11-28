@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1v_4NlkT6Bu35ocwKSkWHJVpRwKIpYN9T",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wH9Ozf-QybrOJNVoMvTxN7KCdqOHdede",
+      "parent_id": "1v_4NlkT6Bu35ocwKSkWHJVpRwKIpYN9T",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7373,
+      "modified": "2026-08-15T07:25:56.000Z",
+      "checksum": "23b138154f701d1788395f6b320cab56",
+      "folder": false
+    },
+    {
+      "id": "1tAuZ3Hl2CNHTa7pICrzIky21iFKnX6_V",
+      "parent_id": "1v_4NlkT6Bu35ocwKSkWHJVpRwKIpYN9T",
+      "name": "LÂU ĐÀI.epub",
+      "mime": "application/epub+zip",
+      "size": 448743,
+      "modified": "2026-08-15T07:26:04.000Z",
+      "checksum": "e7d2a42b56b8f09a0a74845caedbc280",
+      "folder": false
+    },
+    {
+      "id": "1dMVnAtWeo33mgbI5cEYI-JnXLRi0ceBV",
+      "parent_id": "1v_4NlkT6Bu35ocwKSkWHJVpRwKIpYN9T",
+      "name": "LÂU ĐÀI.pdf",
+      "mime": "application/pdf",
+      "size": 1638856,
+      "modified": "2026-08-15T07:26:01.000Z",
+      "checksum": "0b7d57099a85910b3e873fdfdadef308",
+      "folder": false
+    }
+  ]
+}

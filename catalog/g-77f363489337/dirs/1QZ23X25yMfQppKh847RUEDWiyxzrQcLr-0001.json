@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QZ23X25yMfQppKh847RUEDWiyxzrQcLr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wg4SPTkJtRJNVVIpSvWGC-9NyhB66ZpE",
+      "parent_id": "1QZ23X25yMfQppKh847RUEDWiyxzrQcLr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2453,
+      "modified": "2026-08-16T03:17:57.000Z",
+      "checksum": "3af86ba3407ec2c5df155c13fe5b51a5",
+      "folder": false
+    },
+    {
+      "id": "1q05hBu0ZnHWqmqeGmglDDqv4vuDcOOhQ",
+      "parent_id": "1QZ23X25yMfQppKh847RUEDWiyxzrQcLr",
+      "name": "TÔI LÀ NHỆN ĐẤY CÓ SAO KHÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 2770586,
+      "modified": "2026-08-16T03:18:11.000Z",
+      "checksum": "007b3d1a160df2749882f746b3773078",
+      "folder": false
+    },
+    {
+      "id": "1wra6eOMS7Z_DKXMxIOCvzQQVI93D9Aor",
+      "parent_id": "1QZ23X25yMfQppKh847RUEDWiyxzrQcLr",
+      "name": "TÔI LÀ NHỆN ĐẤY CÓ SAO KHÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 9166407,
+      "modified": "2026-08-16T03:18:07.000Z",
+      "checksum": "a61bcf50e7e736b8b1e2f773e226b921",
+      "folder": false
+    }
+  ]
+}

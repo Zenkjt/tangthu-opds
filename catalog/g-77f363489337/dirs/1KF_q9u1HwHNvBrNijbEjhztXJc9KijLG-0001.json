@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KF_q9u1HwHNvBrNijbEjhztXJc9KijLG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CYf8vq_GJO3Z3WwkzeIPV2Sp-xeLvY4K",
+      "parent_id": "1KF_q9u1HwHNvBrNijbEjhztXJc9KijLG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4066,
+      "modified": "2026-08-15T03:46:45.000Z",
+      "checksum": "6ad34c5b7a1f5f8838fecfa125edc9d4",
+      "folder": false
+    },
+    {
+      "id": "1JLpQqRAzSA54lFJER9vcNmBmiCWY_6SO",
+      "parent_id": "1KF_q9u1HwHNvBrNijbEjhztXJc9KijLG",
+      "name": "VÒNG LUÂN HỒI.epub",
+      "mime": "application/epub+zip",
+      "size": 535819,
+      "modified": "2026-08-15T03:46:54.000Z",
+      "checksum": "0bbf4a4a2e0c552c0f88c74f6b635443",
+      "folder": false
+    },
+    {
+      "id": "1PaqFq9sRFXZk3XVREaGy_9poXeKYH-en",
+      "parent_id": "1KF_q9u1HwHNvBrNijbEjhztXJc9KijLG",
+      "name": "VÒNG LUÂN HỒI.pdf",
+      "mime": "application/pdf",
+      "size": 2096567,
+      "modified": "2026-08-15T03:46:50.000Z",
+      "checksum": "c800af1c6c560ed7dc469b921a06a209",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EhrXzN0rKL1ivv4sjeM4W5Ph6atm-bqa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1j45GdRUYbCtcd9KpWt2BeXFLseYgpTSX",
+      "parent_id": "1EhrXzN0rKL1ivv4sjeM4W5Ph6atm-bqa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4049,
+      "modified": "2026-08-15T09:39:51.000Z",
+      "checksum": "b3119a8685fe4b1ac9e4ebe2c5838c06",
+      "folder": false
+    },
+    {
+      "id": "1J_hpjh_M422RaP8NbrbbhqWoiR73psZz",
+      "parent_id": "1EhrXzN0rKL1ivv4sjeM4W5Ph6atm-bqa",
+      "name": "NGƯỜI ĐI BÁN NẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 551793,
+      "modified": "2026-08-15T09:40:02.000Z",
+      "checksum": "7aa7b9d768b6c56df3830f243bb5bcd0",
+      "folder": false
+    },
+    {
+      "id": "19Dc0U2ive8wICPhJa5uFNIOm6cQXeltY",
+      "parent_id": "1EhrXzN0rKL1ivv4sjeM4W5Ph6atm-bqa",
+      "name": "NGƯỜI ĐI BÁN NẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 1195046,
+      "modified": "2026-08-15T09:39:59.000Z",
+      "checksum": "30cc56dfbb9c57327aae2389de3be050",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UpAO_MEV5GNhJFLf3ch_FLwtAEkuSBCh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XwmAC8lmP3nlFd3SYbeyalFovYnG-ucS",
+      "parent_id": "1UpAO_MEV5GNhJFLf3ch_FLwtAEkuSBCh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5650,
+      "modified": "2026-08-15T06:42:21.000Z",
+      "checksum": "e71d76686e67bf4a7a5e61637688ca28",
+      "folder": false
+    },
+    {
+      "id": "12LSD6_J0TvnZw3KRA9jNe_UGpGrdzZvT",
+      "parent_id": "1UpAO_MEV5GNhJFLf3ch_FLwtAEkuSBCh",
+      "name": "HARRY POTTER VÀ CHIẾC CỐC LỬA.epub",
+      "mime": "application/epub+zip",
+      "size": 824651,
+      "modified": "2026-08-15T06:42:31.000Z",
+      "checksum": "71e7dc3c2140de050d767dcbaba86f07",
+      "folder": false
+    },
+    {
+      "id": "1Iz7DafKmSXYwBA-qZFDbfJyfLU8gdbnB",
+      "parent_id": "1UpAO_MEV5GNhJFLf3ch_FLwtAEkuSBCh",
+      "name": "HARRY POTTER VÀ CHIẾC CỐC LỬA.pdf",
+      "mime": "application/pdf",
+      "size": 4031289,
+      "modified": "2026-08-15T06:42:28.000Z",
+      "checksum": "4da54a06509b05f18a69fda9c1b090b7",
+      "folder": false
+    }
+  ]
+}

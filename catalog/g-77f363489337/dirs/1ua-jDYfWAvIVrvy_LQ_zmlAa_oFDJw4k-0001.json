@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ua-jDYfWAvIVrvy_LQ_zmlAa_oFDJw4k",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bvwk0zy3o_DbAl8Qm9hcTCI83nplKhoR",
+      "parent_id": "1ua-jDYfWAvIVrvy_LQ_zmlAa_oFDJw4k",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2463,
+      "modified": "2026-08-15T07:22:46.000Z",
+      "checksum": "adea9887caa0f87b7f722e27da5fb253",
+      "folder": false
+    },
+    {
+      "id": "1OX0Xr7QrVD-yL6X8Rluu33f_sPuTnDi6",
+      "parent_id": "1ua-jDYfWAvIVrvy_LQ_zmlAa_oFDJw4k",
+      "name": "TRÙ ĐẠO TIÊN ĐỒ.epub",
+      "mime": "application/epub+zip",
+      "size": 309471,
+      "modified": "2026-08-15T07:22:51.000Z",
+      "checksum": "f7b46e12959dd46bbfaddcb158ee029b",
+      "folder": false
+    },
+    {
+      "id": "1siN_5CArHsldkm1axRgucby1JzhVK9Cy",
+      "parent_id": "1ua-jDYfWAvIVrvy_LQ_zmlAa_oFDJw4k",
+      "name": "TRÙ ĐẠO TIÊN ĐỒ.pdf",
+      "mime": "application/pdf",
+      "size": 256528,
+      "modified": "2026-08-15T07:22:49.000Z",
+      "checksum": "46e9e70e577a663a3cf9852e8a7fdf81",
+      "folder": false
+    }
+  ]
+}

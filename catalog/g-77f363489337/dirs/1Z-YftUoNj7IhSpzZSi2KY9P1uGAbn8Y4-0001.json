@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Z-YftUoNj7IhSpzZSi2KY9P1uGAbn8Y4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AMHIx8s-fVB2ZZbgiIAZgiKU2HE-Z9ZA",
+      "parent_id": "1Z-YftUoNj7IhSpzZSi2KY9P1uGAbn8Y4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2386,
+      "modified": "2026-08-16T02:51:51.000Z",
+      "checksum": "2414aad28074729a659a81b610248932",
+      "folder": false
+    },
+    {
+      "id": "1EsAho2vaj011qSA_R7DGLBCb9OmV1ig8",
+      "parent_id": "1Z-YftUoNj7IhSpzZSi2KY9P1uGAbn8Y4",
+      "name": "TỈNH MỘNG.epub",
+      "mime": "application/epub+zip",
+      "size": 451830,
+      "modified": "2026-08-16T02:51:57.000Z",
+      "checksum": "02acdc16b6ab224b9eac8db55539b210",
+      "folder": false
+    },
+    {
+      "id": "17hPcOEAMAzeb5nwB2-zP3lTP68higv5w",
+      "parent_id": "1Z-YftUoNj7IhSpzZSi2KY9P1uGAbn8Y4",
+      "name": "TỈNH MỘNG.pdf",
+      "mime": "application/pdf",
+      "size": 528345,
+      "modified": "2026-08-16T02:51:55.000Z",
+      "checksum": "147f369a39137fbe38f770312662b528",
+      "folder": false
+    }
+  ]
+}

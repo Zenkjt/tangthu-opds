@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fCBhuBp4R-Pzzm7Y9XEb-uj8bhznKpG7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fWcktIenwy_ipiC957m2ioR9OMZQ6mft",
+      "parent_id": "1fCBhuBp4R-Pzzm7Y9XEb-uj8bhznKpG7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3074,
+      "modified": "2026-08-16T04:00:25.000Z",
+      "checksum": "62fd77b7881df667196c6d1936bfff4e",
+      "folder": false
+    },
+    {
+      "id": "1T4C6X3_1cs5-DG1VOPq-fArh0qT1fasy",
+      "parent_id": "1fCBhuBp4R-Pzzm7Y9XEb-uj8bhznKpG7",
+      "name": "THÁC LOẠN Ở VEGAS.epub",
+      "mime": "application/epub+zip",
+      "size": 925402,
+      "modified": "2026-08-16T04:00:55.000Z",
+      "checksum": "68056bf8de6646ffecdaa0ff60e19d1e",
+      "folder": false
+    },
+    {
+      "id": "1SHwbAc5jngUc8S2DzCJUCVkg0HaWiXrU",
+      "parent_id": "1fCBhuBp4R-Pzzm7Y9XEb-uj8bhznKpG7",
+      "name": "THÁC LOẠN Ở VEGAS.pdf",
+      "mime": "application/pdf",
+      "size": 1423432,
+      "modified": "2026-08-16T04:00:52.000Z",
+      "checksum": "18eac26a1535fa083c1a68adeb0b0270",
+      "folder": false
+    }
+  ]
+}

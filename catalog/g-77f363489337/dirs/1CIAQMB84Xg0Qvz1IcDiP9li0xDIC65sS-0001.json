@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CIAQMB84Xg0Qvz1IcDiP9li0xDIC65sS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_liQxdSbqAb_atTJi09GYNQcoPqUAlvs",
+      "parent_id": "1CIAQMB84Xg0Qvz1IcDiP9li0xDIC65sS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12448,
+      "modified": "2026-08-15T07:26:42.000Z",
+      "checksum": "a5a1dcff463d56eab61cb357c5843d27",
+      "folder": false
+    },
+    {
+      "id": "1fHyTj9nft7xeJzV049FBn3BdFfuQMXKv",
+      "parent_id": "1CIAQMB84Xg0Qvz1IcDiP9li0xDIC65sS",
+      "name": "VẬN ĐÀO HOA CỦA TIỂU MẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 1250351,
+      "modified": "2026-08-15T07:26:51.000Z",
+      "checksum": "3deedbc4073d5a67d3f56ddd24a0f0bb",
+      "folder": false
+    },
+    {
+      "id": "1ChB_I-IrBtjjWRVw3DfiNbUZA00TWTmh",
+      "parent_id": "1CIAQMB84Xg0Qvz1IcDiP9li0xDIC65sS",
+      "name": "VẬN ĐÀO HOA CỦA TIỂU MẬT.pdf",
+      "mime": "application/pdf",
+      "size": 1313842,
+      "modified": "2026-08-15T07:26:47.000Z",
+      "checksum": "4f23036f15e76226da534d209b6b8e7c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MsuFUYfzy5eS5cwM7eN9q_lkam-CUBn8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wak-gVfJA1z_vOC1gTxfm9Jyd3mB80aE",
+      "parent_id": "1MsuFUYfzy5eS5cwM7eN9q_lkam-CUBn8",
+      "name": "CÔ NÀNG HỔ BÁO.epub",
+      "mime": "application/epub+zip",
+      "size": 609948,
+      "modified": "2026-08-16T03:45:10.000Z",
+      "checksum": "c95318529849445271711f46b2af254a",
+      "folder": false
+    },
+    {
+      "id": "1yaFj0mUtL7z2xqI3rJMb1NxJ5PNqjrrI",
+      "parent_id": "1MsuFUYfzy5eS5cwM7eN9q_lkam-CUBn8",
+      "name": "CÔ NÀNG HỔ BÁO.pdf",
+      "mime": "application/pdf",
+      "size": 1228600,
+      "modified": "2026-08-16T03:45:07.000Z",
+      "checksum": "687b0467664432a2240a7f123ac8cfac",
+      "folder": false
+    },
+    {
+      "id": "1tI5iF5WKASWxYqzdsDFUMiOdy_mQ45Sj",
+      "parent_id": "1MsuFUYfzy5eS5cwM7eN9q_lkam-CUBn8",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 2319,
+      "modified": "2026-08-16T03:45:03.000Z",
+      "checksum": "ac60b2bdbbe48db01bf25dce5a9def34",
+      "folder": false
+    }
+  ]
+}

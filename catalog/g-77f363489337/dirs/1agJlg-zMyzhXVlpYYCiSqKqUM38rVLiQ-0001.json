@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1agJlg-zMyzhXVlpYYCiSqKqUM38rVLiQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1msDT6L4EC2zth-S5WPF3ChZpfl01qpUz",
+      "parent_id": "1agJlg-zMyzhXVlpYYCiSqKqUM38rVLiQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1947,
+      "modified": "2026-08-16T03:30:49.000Z",
+      "checksum": "f89996a35a4b08007a364e6bc9caed64",
+      "folder": false
+    },
+    {
+      "id": "1ADaAtwC7euBA97OQAQ1BBqhvTr5ocKSF",
+      "parent_id": "1agJlg-zMyzhXVlpYYCiSqKqUM38rVLiQ",
+      "name": "RẤT NHỚ RẤT NHỚ ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 717374,
+      "modified": "2026-08-16T03:30:55.000Z",
+      "checksum": "3263c3349003b2bf19f64600e6b848c7",
+      "folder": false
+    },
+    {
+      "id": "18Z8cFOjtEi99BLbPInCvAIsWDMNV7j_W",
+      "parent_id": "1agJlg-zMyzhXVlpYYCiSqKqUM38rVLiQ",
+      "name": "RẤT NHỚ RẤT NHỚ ANH.pdf",
+      "mime": "application/pdf",
+      "size": 1438315,
+      "modified": "2026-08-16T03:30:53.000Z",
+      "checksum": "112c7b2330a76828270961a27e67e4c5",
+      "folder": false
+    }
+  ]
+}

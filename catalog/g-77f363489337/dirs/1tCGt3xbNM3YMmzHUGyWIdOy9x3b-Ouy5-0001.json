@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tCGt3xbNM3YMmzHUGyWIdOy9x3b-Ouy5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dHFxa7jfFvd63vWgJcEKStrnQj3dY2_k",
+      "parent_id": "1tCGt3xbNM3YMmzHUGyWIdOy9x3b-Ouy5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7614,
+      "modified": "2026-08-15T07:19:56.000Z",
+      "checksum": "549b29614aa8d3b0f4011cfc7f5eae44",
+      "folder": false
+    },
+    {
+      "id": "18wx8rQVo6NsxlTFyI3Jc9uzpxOLGjsb9",
+      "parent_id": "1tCGt3xbNM3YMmzHUGyWIdOy9x3b-Ouy5",
+      "name": "TRƯỜNG ĐỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 382651,
+      "modified": "2026-08-15T07:20:01.000Z",
+      "checksum": "4992ee32760b13cd93c74d755156c825",
+      "folder": false
+    },
+    {
+      "id": "1wNEkqRyQyZaBWldVXECrO_SU7DusFD-G",
+      "parent_id": "1tCGt3xbNM3YMmzHUGyWIdOy9x3b-Ouy5",
+      "name": "TRƯỜNG ĐỜI.pdf",
+      "mime": "application/pdf",
+      "size": 834393,
+      "modified": "2026-08-15T07:19:59.000Z",
+      "checksum": "a56bd90a63a5b6642ac39597909ca702",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1quhOIFLPBZL3brgAdpW3WCtyHqtcY_FO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zq0GmCfdqmvp3JPXBrqQ93KCfAen2Mn1",
+      "parent_id": "1quhOIFLPBZL3brgAdpW3WCtyHqtcY_FO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 291,
+      "modified": "2026-08-15T10:59:22.000Z",
+      "checksum": "b864ea7593f9b9953324ce2efb37d6ec",
+      "folder": false
+    },
+    {
+      "id": "1ZxmLdtOdDaoLAIufqfNB4hMSyRxOp163",
+      "parent_id": "1quhOIFLPBZL3brgAdpW3WCtyHqtcY_FO",
+      "name": "ĐIỆU NHẢY CỦA SHOKUPAN.epub",
+      "mime": "application/epub+zip",
+      "size": 367116,
+      "modified": "2026-08-15T10:59:31.000Z",
+      "checksum": "95c8815cd69097827b6cee1fa74f7634",
+      "folder": false
+    },
+    {
+      "id": "17p1opV5-HVsrXwB_HYfHD2YcNdc0oLfS",
+      "parent_id": "1quhOIFLPBZL3brgAdpW3WCtyHqtcY_FO",
+      "name": "ĐIỆU NHẢY CỦA SHOKUPAN.pdf",
+      "mime": "application/pdf",
+      "size": 270075,
+      "modified": "2026-08-15T10:59:26.000Z",
+      "checksum": "4f74ed90155a6cedc8afaba7c53ab0ad",
+      "folder": false
+    }
+  ]
+}

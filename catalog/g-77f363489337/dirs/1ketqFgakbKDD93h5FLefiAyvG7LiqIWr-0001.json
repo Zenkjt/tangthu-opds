@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ketqFgakbKDD93h5FLefiAyvG7LiqIWr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1p3zZ_5l9SMxXKmEp02iILP8FLBT_nJhZ",
+      "parent_id": "1ketqFgakbKDD93h5FLefiAyvG7LiqIWr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3008,
+      "modified": "2026-08-15T15:59:57.000Z",
+      "checksum": "ee635f55e769edea7d2cab818a679435",
+      "folder": false
+    },
+    {
+      "id": "1c1ZDDJfPIgTKgSK8iPWoGZNqUVTU9G5y",
+      "parent_id": "1ketqFgakbKDD93h5FLefiAyvG7LiqIWr",
+      "name": "NHÀ SỐ 1205.epub",
+      "mime": "application/epub+zip",
+      "size": 228606,
+      "modified": "2026-08-15T16:00:02.000Z",
+      "checksum": "fccee2b539d2712a7a7c0d3fb294a5c0",
+      "folder": false
+    },
+    {
+      "id": "16jA0GBr7RrkcPVyBzcqEHPxQZtcTr9vQ",
+      "parent_id": "1ketqFgakbKDD93h5FLefiAyvG7LiqIWr",
+      "name": "NHÀ SỐ 1205.pdf",
+      "mime": "application/pdf",
+      "size": 142622,
+      "modified": "2026-08-15T16:00:00.000Z",
+      "checksum": "d0a8c601ad84c2dece8a77186af0fa13",
+      "folder": false
+    }
+  ]
+}

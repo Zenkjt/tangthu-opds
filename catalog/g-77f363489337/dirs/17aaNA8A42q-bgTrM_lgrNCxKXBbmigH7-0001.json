@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17aaNA8A42q-bgTrM_lgrNCxKXBbmigH7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JBGcPV-KAaKQ5QqrmpsyAEuxH6-pvcoh",
+      "parent_id": "17aaNA8A42q-bgTrM_lgrNCxKXBbmigH7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2420,
+      "modified": "2026-08-15T09:22:11.000Z",
+      "checksum": "32458b10c245ea9260441caca9341e20",
+      "folder": false
+    },
+    {
+      "id": "1HJlnLP1vtLPGGPMzj3sD8DWp_MQNGWcB",
+      "parent_id": "17aaNA8A42q-bgTrM_lgrNCxKXBbmigH7",
+      "name": "MA THỔI ĐÈN.epub",
+      "mime": "application/epub+zip",
+      "size": 3529856,
+      "modified": "2026-08-15T09:22:39.000Z",
+      "checksum": "0510e4499a9754f4ff2badf730d8cab4",
+      "folder": false
+    },
+    {
+      "id": "1Bhw3JUo9s1wQ9_945BC5oUQOMJvbjQ0x",
+      "parent_id": "17aaNA8A42q-bgTrM_lgrNCxKXBbmigH7",
+      "name": "MA THỔI ĐÈN.pdf",
+      "mime": "application/pdf",
+      "size": 9121085,
+      "modified": "2026-08-15T09:22:34.000Z",
+      "checksum": "e31b20a1e4511c8e2ef5145c274e056e",
+      "folder": false
+    }
+  ]
+}

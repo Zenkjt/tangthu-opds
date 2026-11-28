@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KYe4BykCebzLENtHOFF0rXKvnbEcbmyV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rvDMpgyWsmkTox153wFk0j2LRpiairHq",
+      "parent_id": "1KYe4BykCebzLENtHOFF0rXKvnbEcbmyV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3353,
+      "modified": "2026-08-15T03:49:17.000Z",
+      "checksum": "13432773279eae3b9eaba518e0472353",
+      "folder": false
+    },
+    {
+      "id": "1xmDIdDdADwrPwuOGuud5y6L58ErSR7k5",
+      "parent_id": "1KYe4BykCebzLENtHOFF0rXKvnbEcbmyV",
+      "name": "SỨC MẠNH BÍ ẨN 11 CÂU THẦN CHÚ.epub",
+      "mime": "application/epub+zip",
+      "size": 462398,
+      "modified": "2026-08-15T03:49:23.000Z",
+      "checksum": "547c22edaa0154d8f3ef9d9e2a9c7fb2",
+      "folder": false
+    },
+    {
+      "id": "1wGL-oNyCo4wY2HRq3YiwGykfumYKld9p",
+      "parent_id": "1KYe4BykCebzLENtHOFF0rXKvnbEcbmyV",
+      "name": "SỨC MẠNH BÍ ẨN 11 CÂU THẦN CHÚ.pdf",
+      "mime": "application/pdf",
+      "size": 1168981,
+      "modified": "2026-08-15T03:49:20.000Z",
+      "checksum": "4ccfdfbac64ee3cfa493b691db6b6f44",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LFEkT0ViFiHCj26Zu5-ZX2MzepzDh_iI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Mgx_nHVx5y8BEB0JTogIjHQuv7SuvRHX",
+      "parent_id": "1LFEkT0ViFiHCj26Zu5-ZX2MzepzDh_iI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1887,
+      "modified": "2026-08-15T03:23:57.000Z",
+      "checksum": "bbe8dadcf9117eee438db8c83f4d945a",
+      "folder": false
+    },
+    {
+      "id": "1qxAPMx_lgsW_gT42ZHOrPWjFIuUvhy18",
+      "parent_id": "1LFEkT0ViFiHCj26Zu5-ZX2MzepzDh_iI",
+      "name": "ĐỊNH VỊ CÁ NHÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 1354221,
+      "modified": "2026-08-15T03:24:05.000Z",
+      "checksum": "5a3ad66aad4aae7354ed19ce7c8856b2",
+      "folder": false
+    },
+    {
+      "id": "139pZ_m2z9ZbjsruWOBCiaarNNNcwb9kD",
+      "parent_id": "1LFEkT0ViFiHCj26Zu5-ZX2MzepzDh_iI",
+      "name": "ĐỊNH VỊ CÁ NHÂN.pdf",
+      "mime": "application/pdf",
+      "size": 2038686,
+      "modified": "2026-08-15T03:24:02.000Z",
+      "checksum": "2ed5316ea0b2adfc063be0017409e1f6",
+      "folder": false
+    }
+  ]
+}

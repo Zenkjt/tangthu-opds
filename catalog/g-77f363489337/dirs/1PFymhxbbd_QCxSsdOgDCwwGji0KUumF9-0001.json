@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PFymhxbbd_QCxSsdOgDCwwGji0KUumF9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oegsWPG91kLn52aCxNwrdDMw7PATyxKy",
+      "parent_id": "1PFymhxbbd_QCxSsdOgDCwwGji0KUumF9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3533,
+      "modified": "2026-08-16T03:56:50.000Z",
+      "checksum": "a0eaf44c84be1aafee560600e0acc5f7",
+      "folder": false
+    },
+    {
+      "id": "1tor8rGczsj1VWoJZpem1B2N1lVrG5dD0",
+      "parent_id": "1PFymhxbbd_QCxSsdOgDCwwGji0KUumF9",
+      "name": "THỜI NIÊN THIẾU CỦA ANH VÀ EM.epub",
+      "mime": "application/epub+zip",
+      "size": 343828,
+      "modified": "2026-08-16T03:56:56.000Z",
+      "checksum": "3b36205a6185b77bf70a27c8eddbac3b",
+      "folder": false
+    },
+    {
+      "id": "19UIxqFA6YCxsi74N4C5v8nTYU6Paaz9q",
+      "parent_id": "1PFymhxbbd_QCxSsdOgDCwwGji0KUumF9",
+      "name": "THỜI NIÊN THIẾU CỦA ANH VÀ EM.pdf",
+      "mime": "application/pdf",
+      "size": 684008,
+      "modified": "2026-08-16T03:56:54.000Z",
+      "checksum": "b90543ed367c0d3f79316bf4a7104298",
+      "folder": false
+    }
+  ]
+}

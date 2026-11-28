@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lkIXFDr4ke-71CUtT3MZ9ydPNqB5HTc8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eEtRf-s-IAJ0wYNpmSdVSbhSx3S_wqIv",
+      "parent_id": "1lkIXFDr4ke-71CUtT3MZ9ydPNqB5HTc8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 380,
+      "modified": "2026-08-16T04:17:44.000Z",
+      "checksum": "345d45a610022d776f5e70e01d603773",
+      "folder": false
+    },
+    {
+      "id": "1Zxb3hTynpBxaNMC5b2a258__0NvSlup8",
+      "parent_id": "1lkIXFDr4ke-71CUtT3MZ9ydPNqB5HTc8",
+      "name": "MỘT NGÀY YÊU NHAU.epub",
+      "mime": "application/epub+zip",
+      "size": 253872,
+      "modified": "2026-08-16T04:17:50.000Z",
+      "checksum": "449bb90830744ade55d6a5c7c8782aad",
+      "folder": false
+    },
+    {
+      "id": "1eWdeQZBOD9RaBDxJyP-H_35dOp8kdJAB",
+      "parent_id": "1lkIXFDr4ke-71CUtT3MZ9ydPNqB5HTc8",
+      "name": "MỘT NGÀY YÊU NHAU.pdf",
+      "mime": "application/pdf",
+      "size": 414666,
+      "modified": "2026-08-16T04:17:48.000Z",
+      "checksum": "85af49982017770f95c336aa97ac7edf",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VDCA_-R20yu-XfIk6Es3L1i1iIqKIku3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1txspqNQQY1cbFjgVmfJCEhiy41JDCHI-",
+      "parent_id": "1VDCA_-R20yu-XfIk6Es3L1i1iIqKIku3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3159,
+      "modified": "2026-08-15T10:10:03.000Z",
+      "checksum": "20ed5ad79f224406daba3f4af993852f",
+      "folder": false
+    },
+    {
+      "id": "1CMlVYh7uuYxNSYpxwoDMLTZdf7k-rv6N",
+      "parent_id": "1VDCA_-R20yu-XfIk6Es3L1i1iIqKIku3",
+      "name": "TIỂU ĐOÀN TRỪNG GIỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 548261,
+      "modified": "2026-08-15T10:10:10.000Z",
+      "checksum": "7d3023a88626e10817784fa472919c58",
+      "folder": false
+    },
+    {
+      "id": "1js9u34wVAvKqvlFSP465aeSD3GIPSBsV",
+      "parent_id": "1VDCA_-R20yu-XfIk6Es3L1i1iIqKIku3",
+      "name": "TIỂU ĐOÀN TRỪNG GIỚI.pdf",
+      "mime": "application/pdf",
+      "size": 1081237,
+      "modified": "2026-08-15T10:10:08.000Z",
+      "checksum": "d194d5a8c108016380c5c528df3f6262",
+      "folder": false
+    }
+  ]
+}

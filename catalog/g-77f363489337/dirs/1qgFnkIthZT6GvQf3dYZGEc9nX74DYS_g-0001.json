@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qgFnkIthZT6GvQf3dYZGEc9nX74DYS_g",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qc3ctCeU5F22-G1lk3QxlbHx1HI9v-jm",
+      "parent_id": "1qgFnkIthZT6GvQf3dYZGEc9nX74DYS_g",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1834,
+      "modified": "2026-08-15T15:47:12.000Z",
+      "checksum": "43548c7c68b957d583b4163ee62dde87",
+      "folder": false
+    },
+    {
+      "id": "1Zzw4kZx5Mw8P2rmXFTKtOGVCi7CQwzKn",
+      "parent_id": "1qgFnkIthZT6GvQf3dYZGEc9nX74DYS_g",
+      "name": "NGHỊCH LÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 1314817,
+      "modified": "2026-08-15T15:47:22.000Z",
+      "checksum": "e5e2b514e4feafd22e79d58181fbd759",
+      "folder": false
+    },
+    {
+      "id": "1K7CKF5lX1azrmq7sx27lBiJXSsigVrSA",
+      "parent_id": "1qgFnkIthZT6GvQf3dYZGEc9nX74DYS_g",
+      "name": "NGHỊCH LÂN.pdf",
+      "mime": "application/pdf",
+      "size": 1074830,
+      "modified": "2026-08-15T15:47:16.000Z",
+      "checksum": "b9277c54a5d1fe60f25a9c0db71d2f76",
+      "folder": false
+    }
+  ]
+}

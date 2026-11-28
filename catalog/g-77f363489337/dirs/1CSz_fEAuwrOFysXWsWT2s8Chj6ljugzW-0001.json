@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CSz_fEAuwrOFysXWsWT2s8Chj6ljugzW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lJHjnw9GZOh9hMEZ7HYIcCugDLBOsnYg",
+      "parent_id": "1CSz_fEAuwrOFysXWsWT2s8Chj6ljugzW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 510,
+      "modified": "2026-08-16T04:09:31.000Z",
+      "checksum": "1495336f756f1401c0d32a1b0bd9536b",
+      "folder": false
+    },
+    {
+      "id": "1JON2oPv4kF9MegEan1erF1LVECcBX1Y_",
+      "parent_id": "1CSz_fEAuwrOFysXWsWT2s8Chj6ljugzW",
+      "name": "NHỮNG LINH HỒN CHẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 673600,
+      "modified": "2026-08-16T04:09:39.000Z",
+      "checksum": "2228055433ef801659215d903adc8228",
+      "folder": false
+    },
+    {
+      "id": "1pK_sJ6SLUbwuXtP5KT1xDs9PIX4-973j",
+      "parent_id": "1CSz_fEAuwrOFysXWsWT2s8Chj6ljugzW",
+      "name": "NHỮNG LINH HỒN CHẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1877697,
+      "modified": "2026-08-16T04:09:36.000Z",
+      "checksum": "c78c3bed225496f1ba8176bc00444765",
+      "folder": false
+    }
+  ]
+}

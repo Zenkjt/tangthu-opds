@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zBsz-2AErhPqII2Ck0Ny_cl3LOOj0MSy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pVrOcH6OU6P1La00DMiFbGjZm4H9CthG",
+      "parent_id": "1zBsz-2AErhPqII2Ck0Ny_cl3LOOj0MSy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2090,
+      "modified": "2026-08-15T07:32:24.000Z",
+      "checksum": "8f5e3833a3c03232c92a48c13192bac7",
+      "folder": false
+    },
+    {
+      "id": "1v6WNPmXO6IxQnWFvhSG8t_KV6O0iZhwi",
+      "parent_id": "1zBsz-2AErhPqII2Ck0Ny_cl3LOOj0MSy",
+      "name": "XUYÊN QUA THÀNH CỎ DẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 1770086,
+      "modified": "2026-08-15T07:32:31.000Z",
+      "checksum": "fa6f0f476630b5a0058225874c3ba10d",
+      "folder": false
+    },
+    {
+      "id": "1zvL7AWHMd1-s25KKIssmbw2HJMf7xSba",
+      "parent_id": "1zBsz-2AErhPqII2Ck0Ny_cl3LOOj0MSy",
+      "name": "XUYÊN QUA THÀNH CỎ DẠI.pdf",
+      "mime": "application/pdf",
+      "size": 1302329,
+      "modified": "2026-08-15T07:32:28.000Z",
+      "checksum": "48eb6b6eef6197cbd34d5f862eb09827",
+      "folder": false
+    }
+  ]
+}

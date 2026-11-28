@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1deKeLQMOFFt8YuLj2r8QPtHHxFxupPwv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CD_amfMYmO0COC64bvLRPrC_AnHFuJHH",
+      "parent_id": "1deKeLQMOFFt8YuLj2r8QPtHHxFxupPwv",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 2726,
+      "modified": "2026-08-15T07:23:38.000Z",
+      "checksum": "19625814dc2a7389e07246eadaf1536a",
+      "folder": false
+    },
+    {
+      "id": "162P-HavzJQbULNSWMWDR2wJ3hXQld5kc",
+      "parent_id": "1deKeLQMOFFt8YuLj2r8QPtHHxFxupPwv",
+      "name": "TRUYỆN NGẮN EDGAR ALLAN POE.epub",
+      "mime": "application/epub+zip",
+      "size": 419194,
+      "modified": "2026-08-15T07:23:43.000Z",
+      "checksum": "149d141c69c9c7da45148cc94b768dbc",
+      "folder": false
+    },
+    {
+      "id": "1jiB6jvlY9fDu-2dpbslrDKZpfG-Fozuf",
+      "parent_id": "1deKeLQMOFFt8YuLj2r8QPtHHxFxupPwv",
+      "name": "TRUYỆN NGẮN EDGAR ALLAN POE.pdf",
+      "mime": "application/pdf",
+      "size": 367398,
+      "modified": "2026-08-15T07:23:41.000Z",
+      "checksum": "63f325604f9a17fecbc031bda9f5ef36",
+      "folder": false
+    }
+  ]
+}

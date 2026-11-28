@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1r263FmZj8HRC4jbooVUSOv72ERUgsE_s",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jQmRW9SBlLuCm7OXZaFjr-1l4i1DLvwc",
+      "parent_id": "1r263FmZj8HRC4jbooVUSOv72ERUgsE_s",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3116,
+      "modified": "2026-08-16T03:57:18.000Z",
+      "checksum": "cb72acd210e22103312e13ef570a9c1b",
+      "folder": false
+    },
+    {
+      "id": "1fzMMZNuS0WhXxQGQYHw7A9Aq0UCEnjK9",
+      "parent_id": "1r263FmZj8HRC4jbooVUSOv72ERUgsE_s",
+      "name": "THÍNH PHONG.epub",
+      "mime": "application/epub+zip",
+      "size": 478945,
+      "modified": "2026-08-16T03:57:24.000Z",
+      "checksum": "591d20ef74f8bdf64ab1ddb98c89617b",
+      "folder": false
+    },
+    {
+      "id": "1p-FNOnvqiqvIajEnsQSs6ZE4YMtR3GYY",
+      "parent_id": "1r263FmZj8HRC4jbooVUSOv72ERUgsE_s",
+      "name": "THÍNH PHONG.pdf",
+      "mime": "application/pdf",
+      "size": 1124504,
+      "modified": "2026-08-16T03:57:21.000Z",
+      "checksum": "8a533e5fde7ebfac31fd8b7814065aed",
+      "folder": false
+    }
+  ]
+}

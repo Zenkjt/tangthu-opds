@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1m5hsxl0DeGeKOEt5heesb4d-qqhV5wsH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1V1OZOpjABHgstdbdFASX0mG0puxdStNo",
+      "parent_id": "1m5hsxl0DeGeKOEt5heesb4d-qqhV5wsH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1631,
+      "modified": "2026-08-15T09:49:27.000Z",
+      "checksum": "ece3045cb212f9a98017b6cc010f4691",
+      "folder": false
+    },
+    {
+      "id": "1AvtEms1s4Wg-rEoKbeHs7MXOJtVbzXTU",
+      "parent_id": "1m5hsxl0DeGeKOEt5heesb4d-qqhV5wsH",
+      "name": "GEN DI TRUYỀN.epub",
+      "mime": "application/epub+zip",
+      "size": 995381,
+      "modified": "2026-08-15T09:49:33.000Z",
+      "checksum": "65cb85e33c7a5622a9ebfa60472b6f9f",
+      "folder": false
+    },
+    {
+      "id": "1LymKu9Gs5PnPLCNiS7Ce9GknQr6FQa2o",
+      "parent_id": "1m5hsxl0DeGeKOEt5heesb4d-qqhV5wsH",
+      "name": "GEN DI TRUYỀN.pdf",
+      "mime": "application/pdf",
+      "size": 967691,
+      "modified": "2026-08-15T09:49:30.000Z",
+      "checksum": "bf22059f03cf4d2fd4869a0ed6a47fca",
+      "folder": false
+    }
+  ]
+}

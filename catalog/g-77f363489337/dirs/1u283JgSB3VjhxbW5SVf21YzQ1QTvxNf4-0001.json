@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1u283JgSB3VjhxbW5SVf21YzQ1QTvxNf4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HqELmUVP-v03zy_lokPZy5hzjkOjJHiz",
+      "parent_id": "1u283JgSB3VjhxbW5SVf21YzQ1QTvxNf4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3237,
+      "modified": "2026-08-15T07:22:57.000Z",
+      "checksum": "35a747004c30c3272de301f21cc66731",
+      "folder": false
+    },
+    {
+      "id": "11-Hs7GAMV6d5yfVxnqrvA9ap0E253GBW",
+      "parent_id": "1u283JgSB3VjhxbW5SVf21YzQ1QTvxNf4",
+      "name": "TRUY HỒN - HIỆN TRƯỜNG TỘI ÁC.epub",
+      "mime": "application/epub+zip",
+      "size": 379816,
+      "modified": "2026-08-15T07:23:02.000Z",
+      "checksum": "61dd0eb279a270cc807fb0c9892c952d",
+      "folder": false
+    },
+    {
+      "id": "11cKIK6-lTA-Nn5_-nEsycvT6gLr7GrbQ",
+      "parent_id": "1u283JgSB3VjhxbW5SVf21YzQ1QTvxNf4",
+      "name": "TRUY HỒN - HIỆN TRƯỜNG TỘI ÁC.pdf",
+      "mime": "application/pdf",
+      "size": 234792,
+      "modified": "2026-08-15T07:23:00.000Z",
+      "checksum": "a8c5d8bb2d9eac6cdf8aa886f84286b5",
+      "folder": false
+    }
+  ]
+}

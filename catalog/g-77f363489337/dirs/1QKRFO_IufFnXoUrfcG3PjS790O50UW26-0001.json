@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QKRFO_IufFnXoUrfcG3PjS790O50UW26",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HZCecQ0ef-xIlE2BL-SMjYqfcWMFVS_5",
+      "parent_id": "1QKRFO_IufFnXoUrfcG3PjS790O50UW26",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1652,
+      "modified": "2026-08-16T03:20:22.000Z",
+      "checksum": "deff81fafb6b7ad8eae86f519f31bcb8",
+      "folder": false
+    },
+    {
+      "id": "1kBK2otb_9dKNqMg1A886nNKfMj8WoVaV",
+      "parent_id": "1QKRFO_IufFnXoUrfcG3PjS790O50UW26",
+      "name": "ĐÊM ĐỊNH MỆNH.epub",
+      "mime": "application/epub+zip",
+      "size": 498209,
+      "modified": "2026-08-16T03:20:28.000Z",
+      "checksum": "bc553e52be0941d49213dc5c04c6d237",
+      "folder": false
+    },
+    {
+      "id": "1fR5n3PCxJWJiTfFUh60_lu6AUZJUaA48",
+      "parent_id": "1QKRFO_IufFnXoUrfcG3PjS790O50UW26",
+      "name": "ĐÊM ĐỊNH MỆNH.pdf",
+      "mime": "application/pdf",
+      "size": 609499,
+      "modified": "2026-08-16T03:20:26.000Z",
+      "checksum": "42bb3b52f334d1c47cc1cdf090160c59",
+      "folder": false
+    }
+  ]
+}

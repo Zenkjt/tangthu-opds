@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15AxNF-5ZQKZETO0TfnW940C6Z0FPKoI9",
+  "page": 1,
+  "items": [
+    {
+      "id": "12QAUoDBCnZkoXN4D1Y4IfZJ0_0CasiJC",
+      "parent_id": "15AxNF-5ZQKZETO0TfnW940C6Z0FPKoI9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 255,
+      "modified": "2026-08-15T10:49:01.000Z",
+      "checksum": "eaa640a2c001fb7b8e63c7b90e663c63",
+      "folder": false
+    },
+    {
+      "id": "1Eff1zd-ZcakV8NgaseflnfPBAe7pj9Jd",
+      "parent_id": "15AxNF-5ZQKZETO0TfnW940C6Z0FPKoI9",
+      "name": "MƯỜI NGÀY.epub",
+      "mime": "application/epub+zip",
+      "size": 494592,
+      "modified": "2026-08-15T10:49:18.000Z",
+      "checksum": "f7de4aa1cb417b6d366c5407b0393b5b",
+      "folder": false
+    },
+    {
+      "id": "1WXHQuJoylWfGBCkoBAscZpIx2Y3iVQa2",
+      "parent_id": "15AxNF-5ZQKZETO0TfnW940C6Z0FPKoI9",
+      "name": "MƯỜI NGÀY.pdf",
+      "mime": "application/pdf",
+      "size": 1193442,
+      "modified": "2026-08-15T10:49:09.000Z",
+      "checksum": "96f4c8f94ac5b7073a928006ba063698",
+      "folder": false
+    }
+  ]
+}

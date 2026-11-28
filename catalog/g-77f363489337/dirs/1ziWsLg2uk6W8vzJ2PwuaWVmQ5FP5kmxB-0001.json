@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ziWsLg2uk6W8vzJ2PwuaWVmQ5FP5kmxB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CTHDGBbgYUO0NdQA8U0u2tCLjeVYQdHS",
+      "parent_id": "1ziWsLg2uk6W8vzJ2PwuaWVmQ5FP5kmxB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5487,
+      "modified": "2026-08-15T15:18:56.000Z",
+      "checksum": "968bd4434a9017c192494afb555b82de",
+      "folder": false
+    },
+    {
+      "id": "1ank4RA9bfxAhF4n2rxHJbliqatSShJMF",
+      "parent_id": "1ziWsLg2uk6W8vzJ2PwuaWVmQ5FP5kmxB",
+      "name": "GIÂY PHÚT LỠ LẦM.epub",
+      "mime": "application/epub+zip",
+      "size": 340511,
+      "modified": "2026-08-15T15:19:05.000Z",
+      "checksum": "882cb2fd3f2f05f8cce5a7e21ff081d4",
+      "folder": false
+    },
+    {
+      "id": "1CRYOfyVEBoIO-_0BT3hwnA6FvuF7o05a",
+      "parent_id": "1ziWsLg2uk6W8vzJ2PwuaWVmQ5FP5kmxB",
+      "name": "GIÂY PHÚT LỠ LẦM.pdf",
+      "mime": "application/pdf",
+      "size": 333963,
+      "modified": "2026-08-15T15:19:01.000Z",
+      "checksum": "a6c79835d15124f6047043c3124f0f6a",
+      "folder": false
+    }
+  ]
+}

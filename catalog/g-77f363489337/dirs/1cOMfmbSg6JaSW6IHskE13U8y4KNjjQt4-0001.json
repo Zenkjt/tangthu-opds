@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cOMfmbSg6JaSW6IHskE13U8y4KNjjQt4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gsN7xypt3WlmOsE5kGUjLvKV3Av7n2PA",
+      "parent_id": "1cOMfmbSg6JaSW6IHskE13U8y4KNjjQt4",
+      "name": "BẦY CHÓ RIGA.epub",
+      "mime": "application/epub+zip",
+      "size": 273219,
+      "modified": "2026-08-15T15:17:00.000Z",
+      "checksum": "f07bfdaf7dccc52c21856a420294c7cf",
+      "folder": false
+    },
+    {
+      "id": "1nWw-vJLvUqnJAVFXCW8s1N3oe7xSjo8J",
+      "parent_id": "1cOMfmbSg6JaSW6IHskE13U8y4KNjjQt4",
+      "name": "BẦY CHÓ RIGA.pdf",
+      "mime": "application/pdf",
+      "size": 164699,
+      "modified": "2026-08-15T15:16:58.000Z",
+      "checksum": "3be47e890128da7d09f107e5db827ce2",
+      "folder": false
+    },
+    {
+      "id": "1Z8NbrcXYb12-R1mUJgcb2hahb0uby38E",
+      "parent_id": "1cOMfmbSg6JaSW6IHskE13U8y4KNjjQt4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9235,
+      "modified": "2026-08-15T15:16:54.000Z",
+      "checksum": "79ad5018a06c99979126d96185641186",
+      "folder": false
+    }
+  ]
+}

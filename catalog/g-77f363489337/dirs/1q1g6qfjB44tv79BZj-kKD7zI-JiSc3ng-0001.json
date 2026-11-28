@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1q1g6qfjB44tv79BZj-kKD7zI-JiSc3ng",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZkwWTupO9CkXs9_0nRAAG4AO8qM3xIPN",
+      "parent_id": "1q1g6qfjB44tv79BZj-kKD7zI-JiSc3ng",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9875,
+      "modified": "2026-08-15T03:24:28.000Z",
+      "checksum": "928c6783c807349e5a4362f768e63614",
+      "folder": false
+    },
+    {
+      "id": "1TEzxRBjDOGxHDSnCVZMZ_S0XnUiHRLs8",
+      "parent_id": "1q1g6qfjB44tv79BZj-kKD7zI-JiSc3ng",
+      "name": "TÂM LÝ HỌC CĂN BẢN.epub",
+      "mime": "application/epub+zip",
+      "size": 1411855,
+      "modified": "2026-08-15T03:24:48.000Z",
+      "checksum": "314bba6295b3d78eb145b929d930034c",
+      "folder": false
+    },
+    {
+      "id": "1PdkX74OinNMfDiwoiQHJtZq1pD8Oiw2Y",
+      "parent_id": "1q1g6qfjB44tv79BZj-kKD7zI-JiSc3ng",
+      "name": "TÂM LÝ HỌC CĂN BẢN.pdf",
+      "mime": "application/pdf",
+      "size": 3017108,
+      "modified": "2026-08-15T03:24:44.000Z",
+      "checksum": "3752b6d5698e0b410a017c24fc31a114",
+      "folder": false
+    }
+  ]
+}

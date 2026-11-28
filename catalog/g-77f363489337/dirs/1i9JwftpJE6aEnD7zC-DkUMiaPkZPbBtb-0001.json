@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1i9JwftpJE6aEnD7zC-DkUMiaPkZPbBtb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kcwNChLhNuJlkygHOGxNnYez1HkuhOcZ",
+      "parent_id": "1i9JwftpJE6aEnD7zC-DkUMiaPkZPbBtb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1401,
+      "modified": "2026-08-15T12:44:38.000Z",
+      "checksum": "edfb59544c334c69df5d82bd7aec8ba8",
+      "folder": false
+    },
+    {
+      "id": "18PGWGXtB5HGySHTiL4AlggIpuuzpyaZY",
+      "parent_id": "1i9JwftpJE6aEnD7zC-DkUMiaPkZPbBtb",
+      "name": "NHỮNG CHÀNG TRAI XẤU TÍNH.epub",
+      "mime": "application/epub+zip",
+      "size": 275655,
+      "modified": "2026-08-15T12:44:44.000Z",
+      "checksum": "d93f41b0a98279f534b22bd44964b6f2",
+      "folder": false
+    },
+    {
+      "id": "1ViHOe49w7RpvuJ_H-Cqz2643-vDSGeB8",
+      "parent_id": "1i9JwftpJE6aEnD7zC-DkUMiaPkZPbBtb",
+      "name": "NHỮNG CHÀNG TRAI XẤU TÍNH.pdf",
+      "mime": "application/pdf",
+      "size": 489810,
+      "modified": "2026-08-15T12:44:42.000Z",
+      "checksum": "55236751375b0eeaeef22681543abcab",
+      "folder": false
+    }
+  ]
+}

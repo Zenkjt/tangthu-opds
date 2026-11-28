@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PKeuAXrsDq0B_9kEny1lMpOyRzyzYxNv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1q8e2JDWJo8mjvpeexX-UOyOOftgXvE1W",
+      "parent_id": "1PKeuAXrsDq0B_9kEny1lMpOyRzyzYxNv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4889,
+      "modified": "2026-08-15T00:52:51.000Z",
+      "checksum": "03519002a062224bfdf5afb393b88126",
+      "folder": false
+    },
+    {
+      "id": "1LfPyZae7U5v9fz-4wSTTgjpKxVPS71Or",
+      "parent_id": "1PKeuAXrsDq0B_9kEny1lMpOyRzyzYxNv",
+      "name": "PHÚT NHÌN LẠI MÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 411692,
+      "modified": "2026-08-15T00:52:57.000Z",
+      "checksum": "3f30f8a4ead8a2f965c6770f1372f8a0",
+      "folder": false
+    },
+    {
+      "id": "1z-CNIVADepb3irEiFtvXjIJ7soKvAVsB",
+      "parent_id": "1PKeuAXrsDq0B_9kEny1lMpOyRzyzYxNv",
+      "name": "PHÚT NHÌN LẠI MÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 353888,
+      "modified": "2026-08-15T00:52:55.000Z",
+      "checksum": "18046baa55652d341ef7175842d4762a",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MFLKmUDxS-nb1IrP508BJvXaVqrSrjho",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ekOeTQkY7Glx5ESnvCm-AG8KFHSJf9TO",
+      "parent_id": "1MFLKmUDxS-nb1IrP508BJvXaVqrSrjho",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5324,
+      "modified": "2026-08-16T03:41:37.000Z",
+      "checksum": "91e8102f1fe218254cb528b59f8846ba",
+      "folder": false
+    },
+    {
+      "id": "1fRfCluJZFM1OoTckkt7s96hZK3pazLhc",
+      "parent_id": "1MFLKmUDxS-nb1IrP508BJvXaVqrSrjho",
+      "name": "HẠNH PHÚC TÁI SINH.epub",
+      "mime": "application/epub+zip",
+      "size": 1022026,
+      "modified": "2026-08-16T03:41:48.000Z",
+      "checksum": "401adddf92997bcf143050028ce216da",
+      "folder": false
+    },
+    {
+      "id": "1Tnxah_cIQwulI1UkgPkQ8ruOcA5--08Q",
+      "parent_id": "1MFLKmUDxS-nb1IrP508BJvXaVqrSrjho",
+      "name": "HẠNH PHÚC TÁI SINH.pdf",
+      "mime": "application/pdf",
+      "size": 3838109,
+      "modified": "2026-08-16T03:41:45.000Z",
+      "checksum": "1e23b413151c5d1527517706e0ea8779",
+      "folder": false
+    }
+  ]
+}

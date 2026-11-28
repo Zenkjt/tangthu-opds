@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FquUvVkqIuYiclHthFmf3z5mDGdwAmc_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ioAIUMsHTt1zjSM6Ajp00YKRqUE5l_pu",
+      "parent_id": "1FquUvVkqIuYiclHthFmf3z5mDGdwAmc_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4927,
+      "modified": "2026-08-16T03:19:04.000Z",
+      "checksum": "0f6a25cfd388be5f64ccc9ce8d7af24a",
+      "folder": false
+    },
+    {
+      "id": "1Yr11WjlqSH61bcXozGS5xrqcrKbtPRXj",
+      "parent_id": "1FquUvVkqIuYiclHthFmf3z5mDGdwAmc_",
+      "name": "NGƯỜI RU NGỦ.epub",
+      "mime": "application/epub+zip",
+      "size": 508730,
+      "modified": "2026-08-16T03:19:12.000Z",
+      "checksum": "91a5c6a3301160550f6d0e9830128b6b",
+      "folder": false
+    },
+    {
+      "id": "1QX8ndutZKBfS6h9JdeTPbI-R6G0SMzvT",
+      "parent_id": "1FquUvVkqIuYiclHthFmf3z5mDGdwAmc_",
+      "name": "NGƯỜI RU NGỦ.pdf",
+      "mime": "application/pdf",
+      "size": 1696276,
+      "modified": "2026-08-16T03:19:09.000Z",
+      "checksum": "e90f96110f52f1250c4aee85353f3035",
+      "folder": false
+    }
+  ]
+}

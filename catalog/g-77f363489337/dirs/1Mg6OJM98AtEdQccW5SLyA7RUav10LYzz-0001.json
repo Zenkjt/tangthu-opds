@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Mg6OJM98AtEdQccW5SLyA7RUav10LYzz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ij0Eae7xVjUZNAUfrvZ153nXLSYy4B38",
+      "parent_id": "1Mg6OJM98AtEdQccW5SLyA7RUav10LYzz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3269,
+      "modified": "2026-08-15T10:42:53.000Z",
+      "checksum": "2f80be20a59d97f3d8b5943431dee6b2",
+      "folder": false
+    },
+    {
+      "id": "1q8zicUNHz8LRSJsKzjbxKBRMypBIZRBW",
+      "parent_id": "1Mg6OJM98AtEdQccW5SLyA7RUav10LYzz",
+      "name": "NGƯỜI MONG HẠNH PHÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 564500,
+      "modified": "2026-08-15T10:43:00.000Z",
+      "checksum": "ac10fe684258536e4955099d7d7af017",
+      "folder": false
+    },
+    {
+      "id": "1W_ttEYjTbQ8ob-XbxDy7-oEvUh3_lgC2",
+      "parent_id": "1Mg6OJM98AtEdQccW5SLyA7RUav10LYzz",
+      "name": "NGƯỜI MONG HẠNH PHÚC.pdf",
+      "mime": "application/pdf",
+      "size": 623835,
+      "modified": "2026-08-15T10:42:57.000Z",
+      "checksum": "8aa6bbe8de2c734d8ad6366a38053514",
+      "folder": false
+    }
+  ]
+}

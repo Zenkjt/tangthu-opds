@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MxyNqb-7t3CqQx0AkomJsF-yMWkqk8QV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uEFqHa9mAT6rp7Jf_JuPYWK4SS8Nvu6Q",
+      "parent_id": "1MxyNqb-7t3CqQx0AkomJsF-yMWkqk8QV",
+      "name": "CON RỂ.epub",
+      "mime": "application/epub+zip",
+      "size": 375805,
+      "modified": "2026-08-15T07:43:37.000Z",
+      "checksum": "771d10f36e36c9b878adbf06c72bc788",
+      "folder": false
+    },
+    {
+      "id": "1Gww72pOYYP1zFcD1Sx1Hqw3j6a8usMem",
+      "parent_id": "1MxyNqb-7t3CqQx0AkomJsF-yMWkqk8QV",
+      "name": "CON RỂ.pdf",
+      "mime": "application/pdf",
+      "size": 737211,
+      "modified": "2026-08-15T07:43:34.000Z",
+      "checksum": "ea88825d9fdc5c203cfe1f6c1c97263d",
+      "folder": false
+    },
+    {
+      "id": "1SalCkXiYPmd7H3N8e9RoQzs2VyGs1Hcd",
+      "parent_id": "1MxyNqb-7t3CqQx0AkomJsF-yMWkqk8QV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8201,
+      "modified": "2026-08-15T07:43:31.000Z",
+      "checksum": "efb7003bb723e9612e41818320b3d80f",
+      "folder": false
+    }
+  ]
+}

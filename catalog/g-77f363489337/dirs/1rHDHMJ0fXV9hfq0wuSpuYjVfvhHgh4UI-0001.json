@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rHDHMJ0fXV9hfq0wuSpuYjVfvhHgh4UI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Wd49WvOnf0nP0Qql1cFz_2ggViqIzJ5q",
+      "parent_id": "1rHDHMJ0fXV9hfq0wuSpuYjVfvhHgh4UI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3202,
+      "modified": "2026-08-15T07:51:32.000Z",
+      "checksum": "24cfdb08c212d28b60a505247a9184a8",
+      "folder": false
+    },
+    {
+      "id": "1hBp_CjNs5aPPVlgzuCZxL0-qqVPAui85",
+      "parent_id": "1rHDHMJ0fXV9hfq0wuSpuYjVfvhHgh4UI",
+      "name": "HOÀI NIỆM.epub",
+      "mime": "application/epub+zip",
+      "size": 695402,
+      "modified": "2026-08-15T07:51:41.000Z",
+      "checksum": "9d3ba74a34fbbd14c84a8674cf885efd",
+      "folder": false
+    },
+    {
+      "id": "1yy1o7hd5Y_KDHnENG5wYNQd7k9qLCTut",
+      "parent_id": "1rHDHMJ0fXV9hfq0wuSpuYjVfvhHgh4UI",
+      "name": "HOÀI NIỆM.pdf",
+      "mime": "application/pdf",
+      "size": 2396948,
+      "modified": "2026-08-15T07:51:39.000Z",
+      "checksum": "d672e0191a4feffca1a03433dd679def",
+      "folder": false
+    }
+  ]
+}

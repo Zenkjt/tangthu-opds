@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BSAnJB5OLEgQUFL1NIMGZ0_VyvpT6Nx8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1N9AcZsHAusLx0-yZ4xrog54xhSylrsix",
+      "parent_id": "1BSAnJB5OLEgQUFL1NIMGZ0_VyvpT6Nx8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3098,
+      "modified": "2026-08-16T03:19:24.000Z",
+      "checksum": "47f8d42032b69cf9462d9267b14a12e3",
+      "folder": false
+    },
+    {
+      "id": "18Vz4YIICbK2t3rvvQo427V77T3eSNGPM",
+      "parent_id": "1BSAnJB5OLEgQUFL1NIMGZ0_VyvpT6Nx8",
+      "name": "DI SẢN CỦA SỐ CHÍN.epub",
+      "mime": "application/epub+zip",
+      "size": 666392,
+      "modified": "2026-08-16T03:19:31.000Z",
+      "checksum": "57d9ce2a1f6cafb167740c47a81c4a75",
+      "folder": false
+    },
+    {
+      "id": "1y3Tf7wECVQQLIY5QPlPbiPb3a7Sba4YP",
+      "parent_id": "1BSAnJB5OLEgQUFL1NIMGZ0_VyvpT6Nx8",
+      "name": "DI SẢN CỦA SỐ CHÍN.pdf",
+      "mime": "application/pdf",
+      "size": 448637,
+      "modified": "2026-08-16T03:19:28.000Z",
+      "checksum": "9d37780cbf8e2d3a485ce619d02ce7a3",
+      "folder": false
+    }
+  ]
+}

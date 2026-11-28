@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LifyGqBwSNx9mHIUCXv6NvArv4rra-H0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1I_zWXuhQ0jyuirrENQsIKXi7y73tIUFN",
+      "parent_id": "1LifyGqBwSNx9mHIUCXv6NvArv4rra-H0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3156,
+      "modified": "2026-08-15T13:11:52.000Z",
+      "checksum": "255b23dbe3a0401a9bd7118ebc78f67d",
+      "folder": false
+    },
+    {
+      "id": "1na3pLI2astFf0ghkBgk8XLZ0kDrkgDQI",
+      "parent_id": "1LifyGqBwSNx9mHIUCXv6NvArv4rra-H0",
+      "name": "XEM NGÀY TỐT XẤU.epub",
+      "mime": "application/epub+zip",
+      "size": 325498,
+      "modified": "2026-08-15T13:11:58.000Z",
+      "checksum": "485b25c43172044f66843295da983d04",
+      "folder": false
+    },
+    {
+      "id": "1e4KYonCAAYKO5T-Uo6VjXPn7zXsTffCj",
+      "parent_id": "1LifyGqBwSNx9mHIUCXv6NvArv4rra-H0",
+      "name": "XEM NGÀY TỐT XẤU.pdf",
+      "mime": "application/pdf",
+      "size": 526508,
+      "modified": "2026-08-15T13:11:55.000Z",
+      "checksum": "dbba770c82e7cb3c0d1cfec2bc317f50",
+      "folder": false
+    }
+  ]
+}

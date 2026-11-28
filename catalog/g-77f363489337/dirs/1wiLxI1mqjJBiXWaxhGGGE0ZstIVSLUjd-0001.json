@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wiLxI1mqjJBiXWaxhGGGE0ZstIVSLUjd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1X5uY2viDav4wyJz4hhL_g1j3_iTitT8A",
+      "parent_id": "1wiLxI1mqjJBiXWaxhGGGE0ZstIVSLUjd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5315,
+      "modified": "2026-08-15T15:04:50.000Z",
+      "checksum": "7a94b75119a6e30338995e2cd132c486",
+      "folder": false
+    },
+    {
+      "id": "1xJwhhBptLfhyFQvoT9Eeb1ctDgdWDEe4",
+      "parent_id": "1wiLxI1mqjJBiXWaxhGGGE0ZstIVSLUjd",
+      "name": "TRÒ CHƠI TRỐN TÌM.epub",
+      "mime": "application/epub+zip",
+      "size": 517851,
+      "modified": "2026-08-15T15:04:58.000Z",
+      "checksum": "aa5d9a275406adb5a4c9488433a60481",
+      "folder": false
+    },
+    {
+      "id": "1Quv2ZWGTdYq4cnniSz-cK25TE1ifuP7P",
+      "parent_id": "1wiLxI1mqjJBiXWaxhGGGE0ZstIVSLUjd",
+      "name": "TRÒ CHƠI TRỐN TÌM.pdf",
+      "mime": "application/pdf",
+      "size": 421293,
+      "modified": "2026-08-15T15:04:56.000Z",
+      "checksum": "1db7dff5416713c3ff0e0bdc8b6d28a4",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1r7GTv30y3uT7JI05V-GXHVlwUmiRllsb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XZGMmWcAj8liGQmNS14U9tv0YiP7sfis",
+      "parent_id": "1r7GTv30y3uT7JI05V-GXHVlwUmiRllsb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3428,
+      "modified": "2026-08-16T04:07:23.000Z",
+      "checksum": "a6b2a14a55d4ded2bd2a94f79d6f927c",
+      "folder": false
+    },
+    {
+      "id": "138zfbYABQZ-uUWWzGeecwqXO1fxqRIU2",
+      "parent_id": "1r7GTv30y3uT7JI05V-GXHVlwUmiRllsb",
+      "name": "ÔNG CHỦ LÀ CỰC PHẨM.epub",
+      "mime": "application/epub+zip",
+      "size": 1473546,
+      "modified": "2026-08-16T04:07:34.000Z",
+      "checksum": "10e604bf0ca872f5eb6ffe9dcd755561",
+      "folder": false
+    },
+    {
+      "id": "1Jo3wmQ-gjmcm5-ZS_AmWG_nDOih4FkRU",
+      "parent_id": "1r7GTv30y3uT7JI05V-GXHVlwUmiRllsb",
+      "name": "ÔNG CHỦ LÀ CỰC PHẨM.pdf",
+      "mime": "application/pdf",
+      "size": 1678906,
+      "modified": "2026-08-16T04:07:29.000Z",
+      "checksum": "f808e05f9a6438929a9dbbcf0883f989",
+      "folder": false
+    }
+  ]
+}

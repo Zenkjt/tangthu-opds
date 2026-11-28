@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1C-TzvPqyyNzDlwEsReMAeyFSMgifM5tN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LvlTD10YWLNAIyZMg9UTjGEiikXiepIt",
+      "parent_id": "1C-TzvPqyyNzDlwEsReMAeyFSMgifM5tN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5980,
+      "modified": "2026-08-15T09:53:17.000Z",
+      "checksum": "3fe3d305bd914ee17f8237134c486448",
+      "folder": false
+    },
+    {
+      "id": "1Peu9aVRRP3eF1pfOtTX-udJjPh6TRDIK",
+      "parent_id": "1C-TzvPqyyNzDlwEsReMAeyFSMgifM5tN",
+      "name": "DẠ ĐÀM BỒNG LAI ĐIẾM.epub",
+      "mime": "application/epub+zip",
+      "size": 688761,
+      "modified": "2026-08-15T09:53:26.000Z",
+      "checksum": "719185a480cca87fadd5f9fe53c437c8",
+      "folder": false
+    },
+    {
+      "id": "1a477EZoHLbHWXU6VbSkajHE2Y0njkLmI",
+      "parent_id": "1C-TzvPqyyNzDlwEsReMAeyFSMgifM5tN",
+      "name": "DẠ ĐÀM BỒNG LAI ĐIẾM.pdf",
+      "mime": "application/pdf",
+      "size": 667654,
+      "modified": "2026-08-15T09:53:22.000Z",
+      "checksum": "e971351beb200d3df5b339f20a919340",
+      "folder": false
+    }
+  ]
+}

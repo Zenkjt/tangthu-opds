@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KBO5eOWwa0I8OCzH04kfKfAs8SUb9t7_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ROviP0t7hAIXzCv3WHmjFAeXublTYQJB",
+      "parent_id": "1KBO5eOWwa0I8OCzH04kfKfAs8SUb9t7_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 802,
+      "modified": "2026-08-15T03:51:15.000Z",
+      "checksum": "6444c52d3e8b7780e418fb6b336fbd17",
+      "folder": false
+    },
+    {
+      "id": "1xnA2F_mX_vSVnlss8xmbjHsfJoanIygl",
+      "parent_id": "1KBO5eOWwa0I8OCzH04kfKfAs8SUb9t7_",
+      "name": "GÓP NHẶT CHUYỆN ĐẠO.epub",
+      "mime": "application/epub+zip",
+      "size": 193069,
+      "modified": "2026-08-15T03:51:21.000Z",
+      "checksum": "95b28294e818ceb391ac3ba31a959465",
+      "folder": false
+    },
+    {
+      "id": "1ivNFDkKjNIYhGt1MsjwyC2I3g1EqJwVy",
+      "parent_id": "1KBO5eOWwa0I8OCzH04kfKfAs8SUb9t7_",
+      "name": "GÓP NHẶT CHUYỆN ĐẠO.pdf",
+      "mime": "application/pdf",
+      "size": 590083,
+      "modified": "2026-08-15T03:51:18.000Z",
+      "checksum": "1e0810a47a64c271c6ea442cdd731e11",
+      "folder": false
+    }
+  ]
+}

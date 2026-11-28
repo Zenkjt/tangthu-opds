@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1b28Swbu5MBGgpqM-jSef_026DbUexlrr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1md4V2tPPYfrdiCgb3VgjvHQkdWmrEzOH",
+      "parent_id": "1b28Swbu5MBGgpqM-jSef_026DbUexlrr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5081,
+      "modified": "2026-08-15T03:51:26.000Z",
+      "checksum": "25a344074593f1e3fc7ae67c84c0640d",
+      "folder": false
+    },
+    {
+      "id": "1JQxwQQ9Jvn8L8sMnXqUxOWAaw8HUkwZ3",
+      "parent_id": "1b28Swbu5MBGgpqM-jSef_026DbUexlrr",
+      "name": "TINH HOA TRÍ TUỆ.epub",
+      "mime": "application/epub+zip",
+      "size": 514377,
+      "modified": "2026-08-15T03:51:33.000Z",
+      "checksum": "2f0aea0a0fe0d658996debb4b6d04dde",
+      "folder": false
+    },
+    {
+      "id": "1zTr96tRdN4WQF2eu3zzq-1jHOV1tVn86",
+      "parent_id": "1b28Swbu5MBGgpqM-jSef_026DbUexlrr",
+      "name": "TINH HOA TRÍ TUỆ.pdf",
+      "mime": "application/pdf",
+      "size": 1359420,
+      "modified": "2026-08-15T03:51:31.000Z",
+      "checksum": "e89620e4567b22a1020462bcbe5a390e",
+      "folder": false
+    }
+  ]
+}

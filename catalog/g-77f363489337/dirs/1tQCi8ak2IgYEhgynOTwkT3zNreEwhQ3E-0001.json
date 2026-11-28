@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tQCi8ak2IgYEhgynOTwkT3zNreEwhQ3E",
+  "page": 1,
+  "items": [
+    {
+      "id": "1I4c0fO7teXiwKO6mVXG7VkZyY7EVXX2p",
+      "parent_id": "1tQCi8ak2IgYEhgynOTwkT3zNreEwhQ3E",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11046,
+      "modified": "2026-08-15T15:04:21.000Z",
+      "checksum": "41fb972e8f4b905b0878361329ccaeec",
+      "folder": false
+    },
+    {
+      "id": "1XMn47-Iz9ZlnpcsntbVy8YupepWxc8hR",
+      "parent_id": "1tQCi8ak2IgYEhgynOTwkT3zNreEwhQ3E",
+      "name": "MỘT THẾ GIỚI KHÔNG CÓ ĐÀN BÀ.epub",
+      "mime": "application/epub+zip",
+      "size": 717348,
+      "modified": "2026-08-15T15:04:28.000Z",
+      "checksum": "751b39d505141640c4824f91ac654881",
+      "folder": false
+    },
+    {
+      "id": "1pjDCxF2OnEbUZQO7sQ3WTrMvmfTf_Q3v",
+      "parent_id": "1tQCi8ak2IgYEhgynOTwkT3zNreEwhQ3E",
+      "name": "MỘT THẾ GIỚI KHÔNG CÓ ĐÀN BÀ.pdf",
+      "mime": "application/pdf",
+      "size": 942995,
+      "modified": "2026-08-15T15:04:25.000Z",
+      "checksum": "3b90ae558f87abdd2785ccbe7b82c672",
+      "folder": false
+    }
+  ]
+}

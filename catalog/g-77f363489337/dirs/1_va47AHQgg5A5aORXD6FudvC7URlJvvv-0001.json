@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_va47AHQgg5A5aORXD6FudvC7URlJvvv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lB5SPlqJX02UBlNPl8WpvDH_wocG6Am2",
+      "parent_id": "1_va47AHQgg5A5aORXD6FudvC7URlJvvv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4198,
+      "modified": "2026-08-15T03:16:04.000Z",
+      "checksum": "4d03cda146790a4a90e36461f3eb89bd",
+      "folder": false
+    },
+    {
+      "id": "1IJpG9M_-M0b2axQ6DDnxMwsQre30RDvz",
+      "parent_id": "1_va47AHQgg5A5aORXD6FudvC7URlJvvv",
+      "name": "PHÚT DỪNG LẠI CỦA NGƯỜI THÔNG MINH.epub",
+      "mime": "application/epub+zip",
+      "size": 435725,
+      "modified": "2026-08-15T03:16:11.000Z",
+      "checksum": "ce05b5f9e8397aec8e750f7d9cbcd678",
+      "folder": false
+    },
+    {
+      "id": "17o_drHZ5aHBlkAqT_6hkwtrMH3KudCtN",
+      "parent_id": "1_va47AHQgg5A5aORXD6FudvC7URlJvvv",
+      "name": "PHÚT DỪNG LẠI CỦA NGƯỜI THÔNG MINH.pdf",
+      "mime": "application/pdf",
+      "size": 1097216,
+      "modified": "2026-08-15T03:16:08.000Z",
+      "checksum": "e2f74bd2da9c6b1831acbee52cdd5e8e",
+      "folder": false
+    }
+  ]
+}

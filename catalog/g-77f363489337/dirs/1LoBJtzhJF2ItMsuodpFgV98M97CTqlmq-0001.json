@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LoBJtzhJF2ItMsuodpFgV98M97CTqlmq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1t2vPRR-B1lOJaE6kKu6r0Kj6B_vRS0_p",
+      "parent_id": "1LoBJtzhJF2ItMsuodpFgV98M97CTqlmq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4018,
+      "modified": "2026-08-15T03:15:23.000Z",
+      "checksum": "bf894d39512e6690017c82528deb4bae",
+      "folder": false
+    },
+    {
+      "id": "1kVI79FDoKXF521e54hHAh4jtbdhg9DjN",
+      "parent_id": "1LoBJtzhJF2ItMsuodpFgV98M97CTqlmq",
+      "name": "TÔI ĐÚNG, BẠN SAI - GIỜ THÌ SAO.epub",
+      "mime": "application/epub+zip",
+      "size": 341011,
+      "modified": "2026-08-15T03:15:30.000Z",
+      "checksum": "4eb67af88a92d968c841327015945295",
+      "folder": false
+    },
+    {
+      "id": "13cRjDyBgRpuHMvKfA8DJSL23dKKKa_5q",
+      "parent_id": "1LoBJtzhJF2ItMsuodpFgV98M97CTqlmq",
+      "name": "TÔI ĐÚNG, BẠN SAI - GIỜ THÌ SAO.pdf",
+      "mime": "application/pdf",
+      "size": 702556,
+      "modified": "2026-08-15T03:15:27.000Z",
+      "checksum": "edafc611f913fc04ebd93fdb522eeca3",
+      "folder": false
+    }
+  ]
+}

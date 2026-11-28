@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hTdDisCmKR61pKtPStdTvjJigFQsTy39",
+  "page": 1,
+  "items": [
+    {
+      "id": "19Ab7tE12dRbVSrccDxcViwXG0UmmeHey",
+      "parent_id": "1hTdDisCmKR61pKtPStdTvjJigFQsTy39",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 836,
+      "modified": "2026-08-15T10:27:21.000Z",
+      "checksum": "7346b9ccb11ac3679f176d9f63d2230f",
+      "folder": false
+    },
+    {
+      "id": "1ELpsiuPQgafkVZYg1Nh0me1733VoBA-O",
+      "parent_id": "1hTdDisCmKR61pKtPStdTvjJigFQsTy39",
+      "name": "SHIORIKO VÀ NHỮNG VỊ KHÁCH KÌ LẠ.epub",
+      "mime": "application/epub+zip",
+      "size": 709803,
+      "modified": "2026-08-15T10:27:29.000Z",
+      "checksum": "462f13b01044bd90e61f8434a25e9997",
+      "folder": false
+    },
+    {
+      "id": "1rcIr05aEBBuNfuMMeHtnSriK4UP8CxuZ",
+      "parent_id": "1hTdDisCmKR61pKtPStdTvjJigFQsTy39",
+      "name": "SHIORIKO VÀ NHỮNG VỊ KHÁCH KÌ LẠ.pdf",
+      "mime": "application/pdf",
+      "size": 881840,
+      "modified": "2026-08-15T10:27:26.000Z",
+      "checksum": "bbc93ba108899c7a480544f85c7ca989",
+      "folder": false
+    }
+  ]
+}

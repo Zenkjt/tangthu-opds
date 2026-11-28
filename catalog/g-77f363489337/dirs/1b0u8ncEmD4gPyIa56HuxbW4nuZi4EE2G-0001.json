@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1b0u8ncEmD4gPyIa56HuxbW4nuZi4EE2G",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pc4cqjM7ZvGgMkXFCzdHMcvx8VJJyVSy",
+      "parent_id": "1b0u8ncEmD4gPyIa56HuxbW4nuZi4EE2G",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3269,
+      "modified": "2026-08-16T04:13:48.000Z",
+      "checksum": "c6f78c38c303daefd9aad50c81dc385a",
+      "folder": false
+    },
+    {
+      "id": "1IREBRlF_Y2VV8OMyT-qF2-Ma8Q7VZ_Ss",
+      "parent_id": "1b0u8ncEmD4gPyIa56HuxbW4nuZi4EE2G",
+      "name": "NGƯỜI ĐI DÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 799148,
+      "modified": "2026-08-16T04:13:55.000Z",
+      "checksum": "44c42837e75b40e1d17bf63a5068e519",
+      "folder": false
+    },
+    {
+      "id": "1n7SLHdDo7n1J50zJy0Hsney8u8J008JT",
+      "parent_id": "1b0u8ncEmD4gPyIa56HuxbW4nuZi4EE2G",
+      "name": "NGƯỜI ĐI DÂY.pdf",
+      "mime": "application/pdf",
+      "size": 1848010,
+      "modified": "2026-08-16T04:13:53.000Z",
+      "checksum": "af501d6b0ce06f153f65cc023550ea64",
+      "folder": false
+    }
+  ]
+}

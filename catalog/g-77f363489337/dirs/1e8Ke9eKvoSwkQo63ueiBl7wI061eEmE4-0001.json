@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1e8Ke9eKvoSwkQo63ueiBl7wI061eEmE4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1h3tMnfqgmEmSsqASjXcdE6-ZMW7gHVal",
+      "parent_id": "1e8Ke9eKvoSwkQo63ueiBl7wI061eEmE4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2434,
+      "modified": "2026-08-16T03:31:19.000Z",
+      "checksum": "f7e4752d088ce6e99d893e5a40364372",
+      "folder": false
+    },
+    {
+      "id": "1_GVFWV90QorvQoe7mh8LiM1cRTZu6aev",
+      "parent_id": "1e8Ke9eKvoSwkQo63ueiBl7wI061eEmE4",
+      "name": "VÙNG NƯỚC HẮC ÁM.epub",
+      "mime": "application/epub+zip",
+      "size": 374234,
+      "modified": "2026-08-16T03:31:26.000Z",
+      "checksum": "fa0b7002337b40bda73c751732a08f60",
+      "folder": false
+    },
+    {
+      "id": "1UXa-9sgNU6QKiSWioI3fRWIXjfGcYwpG",
+      "parent_id": "1e8Ke9eKvoSwkQo63ueiBl7wI061eEmE4",
+      "name": "VÙNG NƯỚC HẮC ÁM.pdf",
+      "mime": "application/pdf",
+      "size": 1286468,
+      "modified": "2026-08-16T03:31:23.000Z",
+      "checksum": "10f3faa7629cd034d60b4aab3388abf8",
+      "folder": false
+    }
+  ]
+}

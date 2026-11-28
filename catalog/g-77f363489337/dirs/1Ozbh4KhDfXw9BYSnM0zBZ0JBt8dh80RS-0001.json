@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ozbh4KhDfXw9BYSnM0zBZ0JBt8dh80RS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uHV1ezBVx7yNJnCen_lsOHdAP5hAJdWj",
+      "parent_id": "1Ozbh4KhDfXw9BYSnM0zBZ0JBt8dh80RS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 667,
+      "modified": "2026-08-16T04:19:59.000Z",
+      "checksum": "c247c40878207d564d5ad9c30d5c72f2",
+      "folder": false
+    },
+    {
+      "id": "1X7nmNo2TZbZNFh1qX-ivzqUOlk_zrBSw",
+      "parent_id": "1Ozbh4KhDfXw9BYSnM0zBZ0JBt8dh80RS",
+      "name": "EMMA.epub",
+      "mime": "application/epub+zip",
+      "size": 802968,
+      "modified": "2026-08-16T04:20:16.000Z",
+      "checksum": "e99fbf34f79831b36e8622b63c54351a",
+      "folder": false
+    },
+    {
+      "id": "1ull4_1aqqe6pLTKoLUX3oPpPHnJGoI5u",
+      "parent_id": "1Ozbh4KhDfXw9BYSnM0zBZ0JBt8dh80RS",
+      "name": "EMMA.pdf",
+      "mime": "application/pdf",
+      "size": 1756077,
+      "modified": "2026-08-16T04:20:11.000Z",
+      "checksum": "3d14c27eb13c9677c4713c20d29118eb",
+      "folder": false
+    }
+  ]
+}

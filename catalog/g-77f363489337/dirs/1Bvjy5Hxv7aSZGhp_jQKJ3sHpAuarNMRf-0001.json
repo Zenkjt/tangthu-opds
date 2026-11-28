@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Bvjy5Hxv7aSZGhp_jQKJ3sHpAuarNMRf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1j7P0krrCictJykwep2O9eJ9oLCxQjQ-N",
+      "parent_id": "1Bvjy5Hxv7aSZGhp_jQKJ3sHpAuarNMRf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 649,
+      "modified": "2026-08-15T03:52:56.000Z",
+      "checksum": "289e79af90c9faf78b5f1297c5563946",
+      "folder": false
+    },
+    {
+      "id": "1X0j7H0DPFzj27NBrOWjAlGLc7kVLATCn",
+      "parent_id": "1Bvjy5Hxv7aSZGhp_jQKJ3sHpAuarNMRf",
+      "name": "KHAI THỊ THỰC TẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 2715948,
+      "modified": "2026-08-15T03:53:04.000Z",
+      "checksum": "9e08b6018677a04c75a22bee3133f9e2",
+      "folder": false
+    },
+    {
+      "id": "1-G3vRlhuVZGZdd8mpTsbatUuGAPctLNN",
+      "parent_id": "1Bvjy5Hxv7aSZGhp_jQKJ3sHpAuarNMRf",
+      "name": "KHAI THỊ THỰC TẠI.pdf",
+      "mime": "application/pdf",
+      "size": 967204,
+      "modified": "2026-08-15T03:53:00.000Z",
+      "checksum": "d870a5c803f3f1da69c93ed152c0d0e3",
+      "folder": false
+    }
+  ]
+}

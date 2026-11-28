@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EK_tQsLijbjqDKfG4P77X9IpBLJXOX5c",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GH4MELjS-sXLxH5SGznDy5SdmE8ON8xy",
+      "parent_id": "1EK_tQsLijbjqDKfG4P77X9IpBLJXOX5c",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 525,
+      "modified": "2026-08-15T15:40:49.000Z",
+      "checksum": "c6323a56612e8f4342b23eee46c66608",
+      "folder": false
+    },
+    {
+      "id": "1k_mJYPVkDHYbpiCF3Ww1QKah7vWN3Sdp",
+      "parent_id": "1EK_tQsLijbjqDKfG4P77X9IpBLJXOX5c",
+      "name": "ĐỪNG NÓI MỘT AI.epub",
+      "mime": "application/epub+zip",
+      "size": 627453,
+      "modified": "2026-08-15T15:40:58.000Z",
+      "checksum": "3920f063b220f357aa4aace400d50da9",
+      "folder": false
+    },
+    {
+      "id": "1ryQKLWn7P2anRaV0oL_hJ0oeyUk2nKUA",
+      "parent_id": "1EK_tQsLijbjqDKfG4P77X9IpBLJXOX5c",
+      "name": "ĐỪNG NÓI MỘT AI.pdf",
+      "mime": "application/pdf",
+      "size": 1576930,
+      "modified": "2026-08-15T15:40:54.000Z",
+      "checksum": "80b34fe922f7c4e3e4b04875fa7e58bb",
+      "folder": false
+    }
+  ]
+}

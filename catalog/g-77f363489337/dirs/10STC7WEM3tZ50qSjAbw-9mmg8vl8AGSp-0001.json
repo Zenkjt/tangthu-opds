@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10STC7WEM3tZ50qSjAbw-9mmg8vl8AGSp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ItPFVcYC2HBcltW6HKeoNJOK_4E2W0Pg",
+      "parent_id": "10STC7WEM3tZ50qSjAbw-9mmg8vl8AGSp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 14538,
+      "modified": "2026-08-15T03:45:19.000Z",
+      "checksum": "1225a9e8ffbd96f2a1f7f6c75bcd12ec",
+      "folder": false
+    },
+    {
+      "id": "14ojp29KTht32slDsCA5Q85-t1K_WiGL4",
+      "parent_id": "10STC7WEM3tZ50qSjAbw-9mmg8vl8AGSp",
+      "name": "SỐNG VỚI TÂM TỪ.epub",
+      "mime": "application/epub+zip",
+      "size": 375650,
+      "modified": "2026-08-15T03:45:25.000Z",
+      "checksum": "6dfc394eedc698e775dbd7a5f5e5e979",
+      "folder": false
+    },
+    {
+      "id": "1-xkXcqZm7iKRTz8mra7OmsYbVyp2rQ_f",
+      "parent_id": "10STC7WEM3tZ50qSjAbw-9mmg8vl8AGSp",
+      "name": "SỐNG VỚI TÂM TỪ.pdf",
+      "mime": "application/pdf",
+      "size": 1165503,
+      "modified": "2026-08-15T03:45:23.000Z",
+      "checksum": "b47bcbfab25ddcc23aee5952552d1637",
+      "folder": false
+    }
+  ]
+}

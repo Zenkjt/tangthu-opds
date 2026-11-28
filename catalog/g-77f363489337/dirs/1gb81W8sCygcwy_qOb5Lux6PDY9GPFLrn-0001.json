@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gb81W8sCygcwy_qOb5Lux6PDY9GPFLrn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1df_ZLhE3hW9TMDA9hQuOBYtk176JdA0A",
+      "parent_id": "1gb81W8sCygcwy_qOb5Lux6PDY9GPFLrn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2353,
+      "modified": "2026-08-15T08:08:43.000Z",
+      "checksum": "a86e142a294696af7852a907626ce402",
+      "folder": false
+    },
+    {
+      "id": "1DUU7dL_1VA7N17QJpoDF7QgS9rLn1sYD",
+      "parent_id": "1gb81W8sCygcwy_qOb5Lux6PDY9GPFLrn",
+      "name": "ĐIỀN DUYÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 1806072,
+      "modified": "2026-08-15T08:08:58.000Z",
+      "checksum": "006765365d58a60df8f3d9ce4ee79dba",
+      "folder": false
+    },
+    {
+      "id": "17CC-11SfQkTfTTcsV2skPIynMRO50D_y",
+      "parent_id": "1gb81W8sCygcwy_qOb5Lux6PDY9GPFLrn",
+      "name": "ĐIỀN DUYÊN.pdf",
+      "mime": "application/pdf",
+      "size": 7200890,
+      "modified": "2026-08-15T08:08:54.000Z",
+      "checksum": "2d8db7da35b5f98b37cd1859c46505be",
+      "folder": false
+    }
+  ]
+}

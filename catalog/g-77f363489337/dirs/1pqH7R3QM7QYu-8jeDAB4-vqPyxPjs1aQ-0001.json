@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pqH7R3QM7QYu-8jeDAB4-vqPyxPjs1aQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "15ncTZXikKu4FUrHWjmSbs9r9jMR3R6Dc",
+      "parent_id": "1pqH7R3QM7QYu-8jeDAB4-vqPyxPjs1aQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 25041,
+      "modified": "2026-08-15T03:20:45.000Z",
+      "checksum": "ea584dccca4198667d10e4b25c91aab9",
+      "folder": false
+    },
+    {
+      "id": "1bMUSfTQPQBCacMZ9KCOqPsfTKQ-T082T",
+      "parent_id": "1pqH7R3QM7QYu-8jeDAB4-vqPyxPjs1aQ",
+      "name": "SỨC MẠNH CỦA THÓI QUEN.epub",
+      "mime": "application/epub+zip",
+      "size": 952905,
+      "modified": "2026-08-15T03:20:53.000Z",
+      "checksum": "c783841939b5e6746d047702128b6d4e",
+      "folder": false
+    },
+    {
+      "id": "1qB277HOUmfRBcIyFoNfG6zblU3iYa07F",
+      "parent_id": "1pqH7R3QM7QYu-8jeDAB4-vqPyxPjs1aQ",
+      "name": "SỨC MẠNH CỦA THÓI QUEN.pdf",
+      "mime": "application/pdf",
+      "size": 1595193,
+      "modified": "2026-08-15T03:20:50.000Z",
+      "checksum": "e769bc4fa9e918db4b3b7a723eef2042",
+      "folder": false
+    }
+  ]
+}

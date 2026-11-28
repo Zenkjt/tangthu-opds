@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HlmJXDsoOpuL3vOWns15MEZYVMU3mXYp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XTFXa4eO9mTms_u6G0YJhBG_1rk2Gqlv",
+      "parent_id": "1HlmJXDsoOpuL3vOWns15MEZYVMU3mXYp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 20683,
+      "modified": "2026-08-15T03:39:52.000Z",
+      "checksum": "2a7cc1f112928b85e42d4eb6b8bcda1a",
+      "folder": false
+    },
+    {
+      "id": "1yH0aS1Q4kezqStVEgqr4u1raBmjTdsqC",
+      "parent_id": "1HlmJXDsoOpuL3vOWns15MEZYVMU3mXYp",
+      "name": "LIÊU TRAI CHÍ DỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 1571474,
+      "modified": "2026-08-15T03:40:15.000Z",
+      "checksum": "4d5e86e0edb36d07eb91def51ff890b3",
+      "folder": false
+    },
+    {
+      "id": "1BqCgfRekJYBH0EQMplqfSPOiyc8fdPk4",
+      "parent_id": "1HlmJXDsoOpuL3vOWns15MEZYVMU3mXYp",
+      "name": "LIÊU TRAI CHÍ DỊ.pdf",
+      "mime": "application/pdf",
+      "size": 5324277,
+      "modified": "2026-08-15T03:40:12.000Z",
+      "checksum": "d565a042d764c52cf0d3337b5e14ad27",
+      "folder": false
+    }
+  ]
+}

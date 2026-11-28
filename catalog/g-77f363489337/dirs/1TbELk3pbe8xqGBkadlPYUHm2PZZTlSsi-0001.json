@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TbELk3pbe8xqGBkadlPYUHm2PZZTlSsi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EUa30X21vUCeS4jqax0vZO-bnV7dximY",
+      "parent_id": "1TbELk3pbe8xqGBkadlPYUHm2PZZTlSsi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5772,
+      "modified": "2026-08-15T03:15:19.000Z",
+      "checksum": "9c9209499d0ede48edbf694275a733a4",
+      "folder": false
+    },
+    {
+      "id": "1YcwOSaMhphhZ8SQ9h-jwXMAjrodqnnPa",
+      "parent_id": "1TbELk3pbe8xqGBkadlPYUHm2PZZTlSsi",
+      "name": "NHỮNG ĐÒN TÂM LÝ TRONG THUYẾT PHỤC.epub",
+      "mime": "application/epub+zip",
+      "size": 953405,
+      "modified": "2026-08-15T03:15:27.000Z",
+      "checksum": "23fefe0f9b697e6a1d2dbcc4fbe9577e",
+      "folder": false
+    },
+    {
+      "id": "1mRCoWFeVxDaz5XWGH9zZEq4tO5RTMSaT",
+      "parent_id": "1TbELk3pbe8xqGBkadlPYUHm2PZZTlSsi",
+      "name": "NHỮNG ĐÒN TÂM LÝ TRONG THUYẾT PHỤC.pdf",
+      "mime": "application/pdf",
+      "size": 1846275,
+      "modified": "2026-08-15T03:15:24.000Z",
+      "checksum": "d575c7dfa14f3673c24e2ac053becb7c",
+      "folder": false
+    }
+  ]
+}

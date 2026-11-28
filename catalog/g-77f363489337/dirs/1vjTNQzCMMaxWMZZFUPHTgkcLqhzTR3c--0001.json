@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vjTNQzCMMaxWMZZFUPHTgkcLqhzTR3c-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gHuxVV8ExRO5JPFP050H39YWJ5vvwLEa",
+      "parent_id": "1vjTNQzCMMaxWMZZFUPHTgkcLqhzTR3c-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3632,
+      "modified": "2026-08-15T00:45:14.000Z",
+      "checksum": "33c9b5b185f147da93401b9752379042",
+      "folder": false
+    },
+    {
+      "id": "1_ZWU2YEMc0T0RLVbB4tSMN_KvZmO8veD",
+      "parent_id": "1vjTNQzCMMaxWMZZFUPHTgkcLqhzTR3c-",
+      "name": "QUẲNG GÁNH LO ĐI VÀ VUI SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 507579,
+      "modified": "2026-08-15T00:45:20.000Z",
+      "checksum": "c5776c96060ed8da01e22d9e340f1353",
+      "folder": false
+    },
+    {
+      "id": "1599zADryS4dZwZQkWjYzd_6rYPBMS3V0",
+      "parent_id": "1vjTNQzCMMaxWMZZFUPHTgkcLqhzTR3c-",
+      "name": "QUẲNG GÁNH LO ĐI VÀ VUI SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 727752,
+      "modified": "2026-08-15T00:45:18.000Z",
+      "checksum": "7d40f254a157d8725617334a6c2b3abd",
+      "folder": false
+    }
+  ]
+}

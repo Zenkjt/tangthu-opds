@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wX-mzWhtEEzmm0ankhJuIXwsfb0EEvRN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1m8XIRcNgch06Nmecos5zCoe_CyCrazgh",
+      "parent_id": "1wX-mzWhtEEzmm0ankhJuIXwsfb0EEvRN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7066,
+      "modified": "2026-08-15T07:28:20.000Z",
+      "checksum": "acfc20b80df12a547e1116f165e07820",
+      "folder": false
+    },
+    {
+      "id": "1yohHeMxC6C67DXEPa1X3FhJ39c1vi9oB",
+      "parent_id": "1wX-mzWhtEEzmm0ankhJuIXwsfb0EEvRN",
+      "name": "VÕ ĐẠO TÔNG SƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 488754,
+      "modified": "2026-08-15T07:28:29.000Z",
+      "checksum": "9b34b4bef08f73d09e21320fee1a75a4",
+      "folder": false
+    },
+    {
+      "id": "1ckIqbzCOqnvpxoIrieLdQSzs2Iio2qBL",
+      "parent_id": "1wX-mzWhtEEzmm0ankhJuIXwsfb0EEvRN",
+      "name": "VÕ ĐẠO TÔNG SƯ.pdf",
+      "mime": "application/pdf",
+      "size": 1163412,
+      "modified": "2026-08-15T07:28:24.000Z",
+      "checksum": "cb7972160faac21207e13a2cde23d7d9",
+      "folder": false
+    }
+  ]
+}

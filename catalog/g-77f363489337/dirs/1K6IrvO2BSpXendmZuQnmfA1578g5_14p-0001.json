@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1K6IrvO2BSpXendmZuQnmfA1578g5_14p",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YE--w67tm18zBOdcAuU7Nbhzdi3hzPoA",
+      "parent_id": "1K6IrvO2BSpXendmZuQnmfA1578g5_14p",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5921,
+      "modified": "2026-08-15T15:14:49.000Z",
+      "checksum": "ead689538b06927c5f743d3f1b8f5f83",
+      "folder": false
+    },
+    {
+      "id": "1sf27738nXAIYcYgG6lWIyv94t5c3j3nh",
+      "parent_id": "1K6IrvO2BSpXendmZuQnmfA1578g5_14p",
+      "name": "GIẾNG THỞ THAN.epub",
+      "mime": "application/epub+zip",
+      "size": 635186,
+      "modified": "2026-08-15T15:14:56.000Z",
+      "checksum": "4168a11b5c4a20d3678360cb2bbdfa80",
+      "folder": false
+    },
+    {
+      "id": "16HDouMkz27tBHFIvRDGxCoL-e4njL9i8",
+      "parent_id": "1K6IrvO2BSpXendmZuQnmfA1578g5_14p",
+      "name": "GIẾNG THỞ THAN.pdf",
+      "mime": "application/pdf",
+      "size": 1714992,
+      "modified": "2026-08-15T15:14:53.000Z",
+      "checksum": "70f17e5aa0afdd093a5e51ed1bb84fe1",
+      "folder": false
+    }
+  ]
+}

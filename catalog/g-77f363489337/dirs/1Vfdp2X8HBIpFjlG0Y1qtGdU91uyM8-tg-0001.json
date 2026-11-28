@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Vfdp2X8HBIpFjlG0Y1qtGdU91uyM8-tg",
+  "page": 1,
+  "items": [
+    {
+      "id": "14VX67BI4sCsj8PogDuNLrbrpPWIWhTuV",
+      "parent_id": "1Vfdp2X8HBIpFjlG0Y1qtGdU91uyM8-tg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4494,
+      "modified": "2026-08-15T09:50:56.000Z",
+      "checksum": "9549dc81dbbd7888561762b0173aba6c",
+      "folder": false
+    },
+    {
+      "id": "1JbYqcZy10QiYjULqL1dYkVwjDxdYjlu2",
+      "parent_id": "1Vfdp2X8HBIpFjlG0Y1qtGdU91uyM8-tg",
+      "name": "DỐC SƯƠNG GIĂNG.epub",
+      "mime": "application/epub+zip",
+      "size": 435006,
+      "modified": "2026-08-15T09:51:03.000Z",
+      "checksum": "0c9bfeaa34508903c8cb1d4ccf1b33cc",
+      "folder": false
+    },
+    {
+      "id": "1l39Tlmp_dItF7s98XCDucl9pjPiKk5Cg",
+      "parent_id": "1Vfdp2X8HBIpFjlG0Y1qtGdU91uyM8-tg",
+      "name": "DỐC SƯƠNG GIĂNG.pdf",
+      "mime": "application/pdf",
+      "size": 1049404,
+      "modified": "2026-08-15T09:51:01.000Z",
+      "checksum": "9b9e9218dd8d1568e0011a7658f964c1",
+      "folder": false
+    }
+  ]
+}

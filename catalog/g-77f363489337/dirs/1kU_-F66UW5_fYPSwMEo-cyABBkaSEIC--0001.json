@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kU_-F66UW5_fYPSwMEo-cyABBkaSEIC-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SfY5SGIoHVk73fxp09JEfq1g6y3CEvjW",
+      "parent_id": "1kU_-F66UW5_fYPSwMEo-cyABBkaSEIC-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1142,
+      "modified": "2026-08-15T13:13:07.000Z",
+      "checksum": "f2ba5cc0e6999d2675020313124175be",
+      "folder": false
+    },
+    {
+      "id": "1-y5ecCkHhaRK6E2uzaPT11YH-Sqx1Ksh",
+      "parent_id": "1kU_-F66UW5_fYPSwMEo-cyABBkaSEIC-",
+      "name": "THIÊN THỜI ĐỊA LỢI NHÂN HÒA.epub",
+      "mime": "application/epub+zip",
+      "size": 1543460,
+      "modified": "2026-08-15T13:13:21.000Z",
+      "checksum": "4e3224a6cfdc8958b07446b842d7b76b",
+      "folder": false
+    },
+    {
+      "id": "1gViWdFugkhCy9gUKicjzbAFiS5TJyFeF",
+      "parent_id": "1kU_-F66UW5_fYPSwMEo-cyABBkaSEIC-",
+      "name": "THIÊN THỜI ĐỊA LỢI NHÂN HÒA.pdf",
+      "mime": "application/pdf",
+      "size": 4268283,
+      "modified": "2026-08-15T13:13:18.000Z",
+      "checksum": "195b2e8a286d4ccb5a34cded407de211",
+      "folder": false
+    }
+  ]
+}

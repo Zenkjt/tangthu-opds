@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mQB_KGX9LEiddCIn54q327EeBC6vS6vW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mxQAoP7ORBRWb0ryUjc4enIRqDnt9Boy",
+      "parent_id": "1mQB_KGX9LEiddCIn54q327EeBC6vS6vW",
+      "name": "CHÚNG THẦN CHI NGUYÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 4287383,
+      "modified": "2026-08-15T09:58:42.000Z",
+      "checksum": "887b8ee5d8135b73a4bc9d12d6b406ca",
+      "folder": false
+    },
+    {
+      "id": "1pmdW5a3Kguuegd3rt2O5aBOmt0YfbBrK",
+      "parent_id": "1mQB_KGX9LEiddCIn54q327EeBC6vS6vW",
+      "name": "CHÚNG THẦN CHI NGUYÊN.pdf",
+      "mime": "application/pdf",
+      "size": 3346237,
+      "modified": "2026-08-15T09:58:24.000Z",
+      "checksum": "94a22b706a0e38a20034c3e86933d93b",
+      "folder": false
+    },
+    {
+      "id": "1_uoT11wWP4oaofbFRMpmcghwwuhnrpCz",
+      "parent_id": "1mQB_KGX9LEiddCIn54q327EeBC6vS6vW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3742,
+      "modified": "2026-08-15T09:58:06.000Z",
+      "checksum": "08e1d02bc14f42d72dde50557632bdda",
+      "folder": false
+    }
+  ]
+}

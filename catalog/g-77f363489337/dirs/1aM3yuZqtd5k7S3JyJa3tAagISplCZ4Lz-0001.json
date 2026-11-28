@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aM3yuZqtd5k7S3JyJa3tAagISplCZ4Lz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1abEDmQ4JS14vnikMqrHgs9pI5ooe4y5u",
+      "parent_id": "1aM3yuZqtd5k7S3JyJa3tAagISplCZ4Lz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1082,
+      "modified": "2026-08-15T03:50:56.000Z",
+      "checksum": "7ade1ca5ddac295da5677f021c851f84",
+      "folder": false
+    },
+    {
+      "id": "1iij-GgD0z9RoSiovRjVLcdcJlRLLz2Sf",
+      "parent_id": "1aM3yuZqtd5k7S3JyJa3tAagISplCZ4Lz",
+      "name": "KINH PHẬT CHO NGƯỜI MỚI BẮT ĐẦU.epub",
+      "mime": "application/epub+zip",
+      "size": 326211,
+      "modified": "2026-08-15T03:51:01.000Z",
+      "checksum": "0419fba322be614e23b9e488b02408f6",
+      "folder": false
+    },
+    {
+      "id": "1Nyjrl8xkjeXpoQJ-tM4n93ePiEEJdbHP",
+      "parent_id": "1aM3yuZqtd5k7S3JyJa3tAagISplCZ4Lz",
+      "name": "KINH PHẬT CHO NGƯỜI MỚI BẮT ĐẦU.pdf",
+      "mime": "application/pdf",
+      "size": 558885,
+      "modified": "2026-08-15T03:50:59.000Z",
+      "checksum": "a2754cb8516c897c622ec4a9f02827c0",
+      "folder": false
+    }
+  ]
+}

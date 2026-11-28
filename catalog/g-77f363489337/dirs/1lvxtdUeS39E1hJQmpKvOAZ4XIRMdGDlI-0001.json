@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lvxtdUeS39E1hJQmpKvOAZ4XIRMdGDlI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VxkWjUsxBru1lGVUVtxwTNeDKFiUV49s",
+      "parent_id": "1lvxtdUeS39E1hJQmpKvOAZ4XIRMdGDlI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 328,
+      "modified": "2026-08-15T10:59:35.000Z",
+      "checksum": "34cfc0b7aa9635b51463379f7cdcc612",
+      "folder": false
+    },
+    {
+      "id": "1qE6ZWofTo75RyB2OUVrxiJho5S7WeRGZ",
+      "parent_id": "1lvxtdUeS39E1hJQmpKvOAZ4XIRMdGDlI",
+      "name": "ĐÊM TÂN HÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 632362,
+      "modified": "2026-08-15T10:59:44.000Z",
+      "checksum": "8d3b68758229b2a54c4c3f9958e633b1",
+      "folder": false
+    },
+    {
+      "id": "1S4t3z1ZVwi5iOcGw_1y9wG2CBOss7oJd",
+      "parent_id": "1lvxtdUeS39E1hJQmpKvOAZ4XIRMdGDlI",
+      "name": "ĐÊM TÂN HÔN.pdf",
+      "mime": "application/pdf",
+      "size": 1807617,
+      "modified": "2026-08-15T10:59:42.000Z",
+      "checksum": "e0cbe62ce14c1e34d08e42d663aa75b2",
+      "folder": false
+    }
+  ]
+}

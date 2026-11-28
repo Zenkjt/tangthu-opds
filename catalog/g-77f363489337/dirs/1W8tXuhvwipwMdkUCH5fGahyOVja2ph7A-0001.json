@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1W8tXuhvwipwMdkUCH5fGahyOVja2ph7A",
+  "page": 1,
+  "items": [
+    {
+      "id": "1o-DGRPJkNtsyDM2WW1iBwslioRYkIrVn",
+      "parent_id": "1W8tXuhvwipwMdkUCH5fGahyOVja2ph7A",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3444,
+      "modified": "2026-08-16T04:00:52.000Z",
+      "checksum": "61a1da7130ef893ef03be8fb654051a6",
+      "folder": false
+    },
+    {
+      "id": "1EsBEAsJjk28ngSG-zod2HwEBDAGH7J-o",
+      "parent_id": "1W8tXuhvwipwMdkUCH5fGahyOVja2ph7A",
+      "name": "TÊN TRỘM CỦA CẢNH SÁT TRƯỞNG MAIGRET.epub",
+      "mime": "application/epub+zip",
+      "size": 479387,
+      "modified": "2026-08-16T04:00:58.000Z",
+      "checksum": "5c23fc90c2b9b1bbd77d6f62c61639c5",
+      "folder": false
+    },
+    {
+      "id": "1e7q5XOtpV4uwVzsfxLncBzJRekrXk64g",
+      "parent_id": "1W8tXuhvwipwMdkUCH5fGahyOVja2ph7A",
+      "name": "TÊN TRỘM CỦA CẢNH SÁT TRƯỞNG MAIGRET.pdf",
+      "mime": "application/pdf",
+      "size": 668504,
+      "modified": "2026-08-16T04:00:56.000Z",
+      "checksum": "cbdf807f54071c61d70c3c7f2b134146",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VciukQV_YbkKvUbPhosM5haFViiBIvWy",
+  "page": 1,
+  "items": [
+    {
+      "id": "111PhN5PpiZ684CBDEeHDZNsd_Z-ExcE5",
+      "parent_id": "1VciukQV_YbkKvUbPhosM5haFViiBIvWy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1371,
+      "modified": "2026-08-15T06:15:38.000Z",
+      "checksum": "26d986b8336f6ef293bbe717ca8b650a",
+      "folder": false
+    },
+    {
+      "id": "1Ol1Ms6tcyS26KTtH88L7cF8W1youFCrH",
+      "parent_id": "1VciukQV_YbkKvUbPhosM5haFViiBIvWy",
+      "name": "HÀ NỘI 36 PHỐ PHƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 349779,
+      "modified": "2026-08-15T06:15:44.000Z",
+      "checksum": "1c9517983a6d65ca194218551bb445cb",
+      "folder": false
+    },
+    {
+      "id": "1oShxRU0Qtj7PkyM4gFjvlkil5-f73Hec",
+      "parent_id": "1VciukQV_YbkKvUbPhosM5haFViiBIvWy",
+      "name": "HÀ NỘI 36 PHỐ PHƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 242683,
+      "modified": "2026-08-15T06:15:41.000Z",
+      "checksum": "22c52c0956d497720ff62ec0b434a208",
+      "folder": false
+    }
+  ]
+}

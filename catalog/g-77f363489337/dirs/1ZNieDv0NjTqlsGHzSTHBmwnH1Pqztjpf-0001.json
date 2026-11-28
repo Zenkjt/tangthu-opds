@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZNieDv0NjTqlsGHzSTHBmwnH1Pqztjpf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-_Mz7OJQIgoNsElqv9D9vrGfc81zClur",
+      "parent_id": "1ZNieDv0NjTqlsGHzSTHBmwnH1Pqztjpf",
+      "name": "ANNA KARENINA.epub",
+      "mime": "application/epub+zip",
+      "size": 1506656,
+      "modified": "2026-08-15T06:45:14.000Z",
+      "checksum": "ec25fe2656c7338995273a96193c5ba3",
+      "folder": false
+    },
+    {
+      "id": "1Y6-T-BaBNq_8rIh4cht38cggSk8EQ4oi",
+      "parent_id": "1ZNieDv0NjTqlsGHzSTHBmwnH1Pqztjpf",
+      "name": "ANNA KARENINA.pdf",
+      "mime": "application/pdf",
+      "size": 4204394,
+      "modified": "2026-08-15T06:45:09.000Z",
+      "checksum": "84f1aea3bcc0a105a043ec7143eabc54",
+      "folder": false
+    },
+    {
+      "id": "1BuA-H3BbvEO1adDvaeU0zzgKnT0xOqli",
+      "parent_id": "1ZNieDv0NjTqlsGHzSTHBmwnH1Pqztjpf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 19732,
+      "modified": "2026-08-15T06:44:15.000Z",
+      "checksum": "135c262133c40a5987881890f99e7145",
+      "folder": false
+    }
+  ]
+}

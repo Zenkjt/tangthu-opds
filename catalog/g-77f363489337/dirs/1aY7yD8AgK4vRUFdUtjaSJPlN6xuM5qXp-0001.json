@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aY7yD8AgK4vRUFdUtjaSJPlN6xuM5qXp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wcw7oyRIsSEMjCwW4TQq7TYZoMzEV1qi",
+      "parent_id": "1aY7yD8AgK4vRUFdUtjaSJPlN6xuM5qXp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3260,
+      "modified": "2026-08-15T10:12:01.000Z",
+      "checksum": "33f6f44d03048c78ceeb9df72ad7abf6",
+      "folder": false
+    },
+    {
+      "id": "1lHLIiCJg038wjdc7VmTRwih_uL6WwxBK",
+      "parent_id": "1aY7yD8AgK4vRUFdUtjaSJPlN6xuM5qXp",
+      "name": "THUNG LŨNG ẢO VỌNG.epub",
+      "mime": "application/epub+zip",
+      "size": 250912,
+      "modified": "2026-08-15T10:12:08.000Z",
+      "checksum": "c925168db965103a2e7c4a18adad4b8d",
+      "folder": false
+    },
+    {
+      "id": "1NdcW-imkLSkK5EndfSDSKqq9hbN2UkDl",
+      "parent_id": "1aY7yD8AgK4vRUFdUtjaSJPlN6xuM5qXp",
+      "name": "THUNG LŨNG ẢO VỌNG.pdf",
+      "mime": "application/pdf",
+      "size": 375995,
+      "modified": "2026-08-15T10:12:06.000Z",
+      "checksum": "e7c8cb5543b968966daadbdc7fa5eb40",
+      "folder": false
+    }
+  ]
+}

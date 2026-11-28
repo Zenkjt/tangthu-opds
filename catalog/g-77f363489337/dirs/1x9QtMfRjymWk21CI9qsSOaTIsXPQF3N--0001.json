@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1x9QtMfRjymWk21CI9qsSOaTIsXPQF3N-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BI2-91p1Ue2ONNOdsDiWYfTZPcoZ8YJu",
+      "parent_id": "1x9QtMfRjymWk21CI9qsSOaTIsXPQF3N-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1918,
+      "modified": "2026-08-15T03:24:00.000Z",
+      "checksum": "8721d7459d829355e561826fe39d2401",
+      "folder": false
+    },
+    {
+      "id": "1OWbijUcH4LZmM9C78vofKT4oWKDddDvx",
+      "parent_id": "1x9QtMfRjymWk21CI9qsSOaTIsXPQF3N-",
+      "name": "PHONG THÁI CỦA BẬC THẦY THUYẾT PHỤC.epub",
+      "mime": "application/epub+zip",
+      "size": 414380,
+      "modified": "2026-08-15T03:24:08.000Z",
+      "checksum": "a9c7cf3469902cae00b6de70d8295380",
+      "folder": false
+    },
+    {
+      "id": "1xkYM2X3sEJx-DUjybRz6iAC6J8x73RqT",
+      "parent_id": "1x9QtMfRjymWk21CI9qsSOaTIsXPQF3N-",
+      "name": "PHONG THÁI CỦA BẬC THẦY THUYẾT PHỤC.pdf",
+      "mime": "application/pdf",
+      "size": 1198462,
+      "modified": "2026-08-15T03:24:05.000Z",
+      "checksum": "0cb7e931a4276ee77c762a48695c5d24",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xHDsSNIJV4Ff5lPFk8VLcCJgt9DZfvQz",
+  "page": 1,
+  "items": [
+    {
+      "id": "18aICFeceXlk49uGq-tBotlsF3g9mwWhj",
+      "parent_id": "1xHDsSNIJV4Ff5lPFk8VLcCJgt9DZfvQz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 684,
+      "modified": "2026-08-15T10:16:17.000Z",
+      "checksum": "a36b9d1baad28e8c320fb282d62711e8",
+      "folder": false
+    },
+    {
+      "id": "1SxRa-r4zGqAKV2HXxlE8jAyFF4ctB-cc",
+      "parent_id": "1xHDsSNIJV4Ff5lPFk8VLcCJgt9DZfvQz",
+      "name": "THẬP GIÁC QUÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 398844,
+      "modified": "2026-08-15T10:16:26.000Z",
+      "checksum": "75650045adea6b9cb2ecda1111ccbd0a",
+      "folder": false
+    },
+    {
+      "id": "1tDX69u7pj32w3BnrfPV1WwVs5K5Oxw1w",
+      "parent_id": "1xHDsSNIJV4Ff5lPFk8VLcCJgt9DZfvQz",
+      "name": "THẬP GIÁC QUÁN.pdf",
+      "mime": "application/pdf",
+      "size": 799129,
+      "modified": "2026-08-15T10:16:23.000Z",
+      "checksum": "0d7bdcbcc5ee7de1564c4dd0eb5aec2c",
+      "folder": false
+    }
+  ]
+}

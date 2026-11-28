@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12ukbfuyc3FNC94JIcMhDPwkyX-6jy2kg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XgA_DfI6KrNR0wNDg0xlYMG86Ri-krca",
+      "parent_id": "12ukbfuyc3FNC94JIcMhDPwkyX-6jy2kg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1135,
+      "modified": "2026-08-15T07:24:07.000Z",
+      "checksum": "a4fd59d443e4e3958ca63258e5fe8289",
+      "folder": false
+    },
+    {
+      "id": "12bDv1gG3oEggOXQd4ccylpG5qj84kFMZ",
+      "parent_id": "12ukbfuyc3FNC94JIcMhDPwkyX-6jy2kg",
+      "name": "TƯ THÁI CUNG PHI.epub",
+      "mime": "application/epub+zip",
+      "size": 1429704,
+      "modified": "2026-08-15T07:24:22.000Z",
+      "checksum": "79efcc32be1d4c50b762da438e5a20c6",
+      "folder": false
+    },
+    {
+      "id": "1XR9clTEDrKWd6nIRV5M2UjXAxYg1ndfV",
+      "parent_id": "12ukbfuyc3FNC94JIcMhDPwkyX-6jy2kg",
+      "name": "TƯ THÁI CUNG PHI.pdf",
+      "mime": "application/pdf",
+      "size": 5706263,
+      "modified": "2026-08-15T07:24:18.000Z",
+      "checksum": "f1b629510ffea5c2391f2709100cd98c",
+      "folder": false
+    }
+  ]
+}

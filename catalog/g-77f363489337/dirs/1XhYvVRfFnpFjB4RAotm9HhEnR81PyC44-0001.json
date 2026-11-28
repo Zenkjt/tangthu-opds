@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XhYvVRfFnpFjB4RAotm9HhEnR81PyC44",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eGxR7sNVM_T4KDaheeP1d_qJ6rYeffg8",
+      "parent_id": "1XhYvVRfFnpFjB4RAotm9HhEnR81PyC44",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2526,
+      "modified": "2026-08-15T00:45:04.000Z",
+      "checksum": "c35b54088f8239acdf48ac8e68574eb9",
+      "folder": false
+    },
+    {
+      "id": "1e0JblKKRqXkwvDTNVRUF1UZAakZEgSDm",
+      "parent_id": "1XhYvVRfFnpFjB4RAotm9HhEnR81PyC44",
+      "name": "LÀM RA LÀM CHƠI RA CHƠI.epub",
+      "mime": "application/epub+zip",
+      "size": 499728,
+      "modified": "2026-08-15T00:45:09.000Z",
+      "checksum": "164e9aa8f0d3e8242d2c0e3b9d908f0a",
+      "folder": false
+    },
+    {
+      "id": "1yuGfifZJFKwwfnAUlpxzXq6oFqvblZOZ",
+      "parent_id": "1XhYvVRfFnpFjB4RAotm9HhEnR81PyC44",
+      "name": "LÀM RA LÀM CHƠI RA CHƠI.pdf",
+      "mime": "application/pdf",
+      "size": 1071032,
+      "modified": "2026-08-15T00:45:07.000Z",
+      "checksum": "47c609366c557f0243450b3e82e13128",
+      "folder": false
+    }
+  ]
+}

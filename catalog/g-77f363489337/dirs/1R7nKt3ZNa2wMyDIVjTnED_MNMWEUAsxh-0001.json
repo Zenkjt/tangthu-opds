@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1R7nKt3ZNa2wMyDIVjTnED_MNMWEUAsxh",
+  "page": 1,
+  "items": [
+    {
+      "id": "144EoleE1M_DpcWXszcUI1x_Y0xvzsicy",
+      "parent_id": "1R7nKt3ZNa2wMyDIVjTnED_MNMWEUAsxh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1948,
+      "modified": "2026-08-15T06:50:33.000Z",
+      "checksum": "2e8a8c895431ff33cad3fbb4fdcbce06",
+      "folder": false
+    },
+    {
+      "id": "1b9EADPdEzrsPS4plDNSQRRtmJTIYiZwY",
+      "parent_id": "1R7nKt3ZNa2wMyDIVjTnED_MNMWEUAsxh",
+      "name": "TẠP BÚT BẢO NINH.epub",
+      "mime": "application/epub+zip",
+      "size": 528259,
+      "modified": "2026-08-15T06:50:40.000Z",
+      "checksum": "ed5235522277dd2ddcae761201ab913b",
+      "folder": false
+    },
+    {
+      "id": "1ucksbNNUIwt9fzfFLeIkzP5sZa8hXPZY",
+      "parent_id": "1R7nKt3ZNa2wMyDIVjTnED_MNMWEUAsxh",
+      "name": "TẠP BÚT BẢO NINH.pdf",
+      "mime": "application/pdf",
+      "size": 1943554,
+      "modified": "2026-08-15T06:50:38.000Z",
+      "checksum": "52d0102aae4f8c7c26fee55fce9b3667",
+      "folder": false
+    }
+  ]
+}

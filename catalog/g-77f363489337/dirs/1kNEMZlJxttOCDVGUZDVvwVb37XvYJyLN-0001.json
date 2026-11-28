@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kNEMZlJxttOCDVGUZDVvwVb37XvYJyLN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qYvtsCazsuY86QK7mtgm80Y5TSrBc5PF",
+      "parent_id": "1kNEMZlJxttOCDVGUZDVvwVb37XvYJyLN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 558,
+      "modified": "2026-08-15T10:46:04.000Z",
+      "checksum": "531b45fae2bf34724c0570c9ae84724f",
+      "folder": false
+    },
+    {
+      "id": "1nhzNLEFPiZIqk4mOid0nz-4VHBp2gGtF",
+      "parent_id": "1kNEMZlJxttOCDVGUZDVvwVb37XvYJyLN",
+      "name": "NGÕ LỖ THỦNG.epub",
+      "mime": "application/epub+zip",
+      "size": 387461,
+      "modified": "2026-08-15T10:46:11.000Z",
+      "checksum": "389c8b9e4d292b2d08d50a968b25faad",
+      "folder": false
+    },
+    {
+      "id": "1eUu1JqDx622xfZRjOcUWnYGulI2FC8Qr",
+      "parent_id": "1kNEMZlJxttOCDVGUZDVvwVb37XvYJyLN",
+      "name": "NGÕ LỖ THỦNG.pdf",
+      "mime": "application/pdf",
+      "size": 509083,
+      "modified": "2026-08-15T10:46:08.000Z",
+      "checksum": "616b847fc4ed8a073f56ed7c1f84880d",
+      "folder": false
+    }
+  ]
+}

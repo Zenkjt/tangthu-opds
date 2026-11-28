@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1D0BN20SFMrxRTe49S7gqkkK205GHR2MA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xYP0cSoUM7D0inSmKIvE_0Kgmj2ACRcp",
+      "parent_id": "1D0BN20SFMrxRTe49S7gqkkK205GHR2MA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4027,
+      "modified": "2026-08-16T03:02:46.000Z",
+      "checksum": "e7303ccd37b27a91c2cb99c7762a759d",
+      "folder": false
+    },
+    {
+      "id": "1Icf0s0JhJ1weqnemR7Dv9p71SUsV4mOL",
+      "parent_id": "1D0BN20SFMrxRTe49S7gqkkK205GHR2MA",
+      "name": "TRONG CHIẾN HÀO THÀNH CỔ.epub",
+      "mime": "application/epub+zip",
+      "size": 294842,
+      "modified": "2026-08-16T03:02:52.000Z",
+      "checksum": "ee1879d41c700b99b46152296472fe9d",
+      "folder": false
+    },
+    {
+      "id": "1e-bPEQixoPLGeg669dPhuTWqAwoaDV2F",
+      "parent_id": "1D0BN20SFMrxRTe49S7gqkkK205GHR2MA",
+      "name": "TRONG CHIẾN HÀO THÀNH CỔ.pdf",
+      "mime": "application/pdf",
+      "size": 651397,
+      "modified": "2026-08-16T03:02:50.000Z",
+      "checksum": "ddbe582305622177089de96bb9d28afe",
+      "folder": false
+    }
+  ]
+}

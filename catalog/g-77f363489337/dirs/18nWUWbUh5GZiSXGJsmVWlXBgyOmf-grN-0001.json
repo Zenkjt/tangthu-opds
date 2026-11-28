@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18nWUWbUh5GZiSXGJsmVWlXBgyOmf-grN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uwvKHqExJGWEuH5FSF9CfLs-FZdUYjwQ",
+      "parent_id": "18nWUWbUh5GZiSXGJsmVWlXBgyOmf-grN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3345,
+      "modified": "2026-08-15T15:58:25.000Z",
+      "checksum": "d26443a695c242e5bd782cef07e44c02",
+      "folder": false
+    },
+    {
+      "id": "1Gs5fAMeWUrNNm-usZFJA8bYfS3yw4LU9",
+      "parent_id": "18nWUWbUh5GZiSXGJsmVWlXBgyOmf-grN",
+      "name": "SẮC ĐẸP THAY CƠM.epub",
+      "mime": "application/epub+zip",
+      "size": 490958,
+      "modified": "2026-08-15T15:58:32.000Z",
+      "checksum": "0695a845cb3537425147d59e2fe56d12",
+      "folder": false
+    },
+    {
+      "id": "1ckim87YUgEe38Zn6wR3Sa4t4VS-LaB_j",
+      "parent_id": "18nWUWbUh5GZiSXGJsmVWlXBgyOmf-grN",
+      "name": "SẮC ĐẸP THAY CƠM.pdf",
+      "mime": "application/pdf",
+      "size": 1460731,
+      "modified": "2026-08-15T15:58:29.000Z",
+      "checksum": "73e28367c777f7162b15b72ae85da683",
+      "folder": false
+    }
+  ]
+}

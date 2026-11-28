@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MDIRPuIjEW22Xz13dxv6h-khp373W0_0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bjLwEoIfzjdrdRyITADu_sIWvkZUSkB0",
+      "parent_id": "1MDIRPuIjEW22Xz13dxv6h-khp373W0_0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1727,
+      "modified": "2026-08-15T15:04:58.000Z",
+      "checksum": "1a9052308e507e88b265648e9ad63911",
+      "folder": false
+    },
+    {
+      "id": "1LLrWVD_i8jEUG9fN6_VWs_a2G6JzhO41",
+      "parent_id": "1MDIRPuIjEW22Xz13dxv6h-khp373W0_0",
+      "name": "TRINH SÁT KỂ TRUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 487245,
+      "modified": "2026-08-15T15:05:04.000Z",
+      "checksum": "bff2e6af08c5c537f1dfe217391f9414",
+      "folder": false
+    },
+    {
+      "id": "1fC1GffmU6rm0fDVhR04u7SXaCGqQAQQb",
+      "parent_id": "1MDIRPuIjEW22Xz13dxv6h-khp373W0_0",
+      "name": "TRINH SÁT KỂ TRUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 640341,
+      "modified": "2026-08-15T15:05:02.000Z",
+      "checksum": "76bf8ac346863c4b7fb1c604d3fab204",
+      "folder": false
+    }
+  ]
+}

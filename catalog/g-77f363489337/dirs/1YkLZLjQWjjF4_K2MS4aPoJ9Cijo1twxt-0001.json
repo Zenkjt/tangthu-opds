@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YkLZLjQWjjF4_K2MS4aPoJ9Cijo1twxt",
+  "page": 1,
+  "items": [
+    {
+      "id": "10jBXRzxoWZNg7GVu3d6UqjG_k3gauPBY",
+      "parent_id": "1YkLZLjQWjjF4_K2MS4aPoJ9Cijo1twxt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11127,
+      "modified": "2026-08-15T08:00:59.000Z",
+      "checksum": "261b0124bcd8fc61e62373cdefe46208",
+      "folder": false
+    },
+    {
+      "id": "1piKQsrcV0FtNqthtgnSKA7USElGM3sbA",
+      "parent_id": "1YkLZLjQWjjF4_K2MS4aPoJ9Cijo1twxt",
+      "name": "LỠ HẸN MÙA THU.epub",
+      "mime": "application/epub+zip",
+      "size": 402652,
+      "modified": "2026-08-15T08:01:05.000Z",
+      "checksum": "8532f8ad84feb3ad97be665559313924",
+      "folder": false
+    },
+    {
+      "id": "1nprHgEaoC2Ey7QRyKAwZDJXq5rra7HIJ",
+      "parent_id": "1YkLZLjQWjjF4_K2MS4aPoJ9Cijo1twxt",
+      "name": "LỠ HẸN MÙA THU.pdf",
+      "mime": "application/pdf",
+      "size": 666009,
+      "modified": "2026-08-15T08:01:03.000Z",
+      "checksum": "7c76a191c07333b4fee3fe4f32d5614a",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sNiCZMdmGNYJ1Pduc2mYmBeD-Y4DrN7F",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_UTx-ySaHrKE8euB8vKgq4pnafrb-doB",
+      "parent_id": "1sNiCZMdmGNYJ1Pduc2mYmBeD-Y4DrN7F",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2895,
+      "modified": "2026-08-15T03:48:51.000Z",
+      "checksum": "c45b98ff523af5f7bc5de84f526b5dcf",
+      "folder": false
+    },
+    {
+      "id": "1StQ9Tqsf6R_IubCX-7XLA3R8tPgeXjSD",
+      "parent_id": "1sNiCZMdmGNYJ1Pduc2mYmBeD-Y4DrN7F",
+      "name": "PHIÊU LƯU NGOÀI THÂN THỂ.epub",
+      "mime": "application/epub+zip",
+      "size": 783576,
+      "modified": "2026-08-15T03:49:00.000Z",
+      "checksum": "366aa91cf20d2d8706d4701a426a7917",
+      "folder": false
+    },
+    {
+      "id": "14Rxx5UQghwmjncJISLURc1eTBuPuQtbw",
+      "parent_id": "1sNiCZMdmGNYJ1Pduc2mYmBeD-Y4DrN7F",
+      "name": "PHIÊU LƯU NGOÀI THÂN THỂ.pdf",
+      "mime": "application/pdf",
+      "size": 2215724,
+      "modified": "2026-08-15T03:48:57.000Z",
+      "checksum": "4bbdf70f9fb2d88a4c088f25aa45cb20",
+      "folder": false
+    }
+  ]
+}

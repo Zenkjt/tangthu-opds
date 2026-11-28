@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1irHLU7vqtXmbAKSQFS4IIIIp-j96DbbX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P4Y0jSl-9yx_JM1TLCQyU_SQ87gueeXz",
+      "parent_id": "1irHLU7vqtXmbAKSQFS4IIIIp-j96DbbX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3147,
+      "modified": "2026-08-15T13:09:38.000Z",
+      "checksum": "19fc5d9c987ae28f791b07455733584d",
+      "folder": false
+    },
+    {
+      "id": "1FFHpUk5sGwJzz7mjVgXrKsRp7XLMr5au",
+      "parent_id": "1irHLU7vqtXmbAKSQFS4IIIIp-j96DbbX",
+      "name": "TAROT, BẢY MƯƠI TÁM ĐỘ MINH TRIẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 401043,
+      "modified": "2026-08-15T13:09:44.000Z",
+      "checksum": "9b4cbd162b82cce393cd1cc7676f0670",
+      "folder": false
+    },
+    {
+      "id": "1IFZlfQQi-CS-pve0Njd6amnm1egVgQ8l",
+      "parent_id": "1irHLU7vqtXmbAKSQFS4IIIIp-j96DbbX",
+      "name": "TAROT, BẢY MƯƠI TÁM ĐỘ MINH TRIẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1340653,
+      "modified": "2026-08-15T13:09:42.000Z",
+      "checksum": "d6eabe8227c04439165c9566e5cc2caf",
+      "folder": false
+    }
+  ]
+}

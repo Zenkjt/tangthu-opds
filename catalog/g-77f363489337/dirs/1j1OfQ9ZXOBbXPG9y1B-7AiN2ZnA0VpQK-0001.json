@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1j1OfQ9ZXOBbXPG9y1B-7AiN2ZnA0VpQK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yVjyu4whYVA-KRGU6PWBMv8Gd2yQsZaj",
+      "parent_id": "1j1OfQ9ZXOBbXPG9y1B-7AiN2ZnA0VpQK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4407,
+      "modified": "2026-08-16T03:32:02.000Z",
+      "checksum": "ca7399324d09bc683cadab360ff531c4",
+      "folder": false
+    },
+    {
+      "id": "1k6Wo696TcKpiTwN6vZPTznXbdrq0SVGm",
+      "parent_id": "1j1OfQ9ZXOBbXPG9y1B-7AiN2ZnA0VpQK",
+      "name": "NGANG TRÁI PHỦ TÂY HỒ.epub",
+      "mime": "application/epub+zip",
+      "size": 790934,
+      "modified": "2026-08-16T03:32:08.000Z",
+      "checksum": "7272684ed81a05be4ea2def5d97f3693",
+      "folder": false
+    },
+    {
+      "id": "1poqQIK646BFW-647wMKG6fFEnOiSh9xJ",
+      "parent_id": "1j1OfQ9ZXOBbXPG9y1B-7AiN2ZnA0VpQK",
+      "name": "NGANG TRÁI PHỦ TÂY HỒ.pdf",
+      "mime": "application/pdf",
+      "size": 764723,
+      "modified": "2026-08-16T03:32:06.000Z",
+      "checksum": "dda0b960de475eb3582394fd99493793",
+      "folder": false
+    }
+  ]
+}

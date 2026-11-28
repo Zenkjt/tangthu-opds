@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VqSpT8uU-vIwDY0zuqd_dWwY3-5htsZJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zbCi097FOgwD7sMfiL_d6xERXhKzgciC",
+      "parent_id": "1VqSpT8uU-vIwDY0zuqd_dWwY3-5htsZJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6263,
+      "modified": "2026-08-15T10:05:13.000Z",
+      "checksum": "16437ffe93382c7556e2cf8ec7cbf6db",
+      "folder": false
+    },
+    {
+      "id": "1qGE8N-U5l8WgD9iXOE7Cr2KODCm0ezc0",
+      "parent_id": "1VqSpT8uU-vIwDY0zuqd_dWwY3-5htsZJ",
+      "name": "VIỆT NAM MỘT THIÊN LỊCH SỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 831872,
+      "modified": "2026-08-15T10:05:22.000Z",
+      "checksum": "1e6a5a528ecf025e7e8664b17e41b1f9",
+      "folder": false
+    },
+    {
+      "id": "1Zy01g8QBRyvK_sBev4qJ-YA0eq-dF4ef",
+      "parent_id": "1VqSpT8uU-vIwDY0zuqd_dWwY3-5htsZJ",
+      "name": "VIỆT NAM MỘT THIÊN LỊCH SỬ.pdf",
+      "mime": "application/pdf",
+      "size": 2034364,
+      "modified": "2026-08-15T10:05:19.000Z",
+      "checksum": "c711caa915507ffd6147d74ac563eafe",
+      "folder": false
+    }
+  ]
+}

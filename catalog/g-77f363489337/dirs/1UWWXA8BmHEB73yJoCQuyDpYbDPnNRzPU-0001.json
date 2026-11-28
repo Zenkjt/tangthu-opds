@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UWWXA8BmHEB73yJoCQuyDpYbDPnNRzPU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ro9xgZtVJS1sgmmghAar7ZafXW3ThU0h",
+      "parent_id": "1UWWXA8BmHEB73yJoCQuyDpYbDPnNRzPU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3546,
+      "modified": "2026-08-15T06:41:13.000Z",
+      "checksum": "a2de76a87cc60c19d7b825a4315a6792",
+      "folder": false
+    },
+    {
+      "id": "1S-60MzGBw4ZJj1lItFrzw48hFcm2XKuM",
+      "parent_id": "1UWWXA8BmHEB73yJoCQuyDpYbDPnNRzPU",
+      "name": "HỒNG LÂU MỘNG.epub",
+      "mime": "application/epub+zip",
+      "size": 34886806,
+      "modified": "2026-08-15T06:41:55.000Z",
+      "checksum": "4e31032793db3d78db1c0f2a410a7d9c",
+      "folder": false
+    },
+    {
+      "id": "1P8PHZhHjeUBVR8c2_N3PRERpBOm-dLGq",
+      "parent_id": "1UWWXA8BmHEB73yJoCQuyDpYbDPnNRzPU",
+      "name": "HỒNG LÂU MỘNG.pdf",
+      "mime": "application/pdf",
+      "size": 39451549,
+      "modified": "2026-08-15T06:41:45.000Z",
+      "checksum": "d861c1cd2cb4e5144f631ffa41a3acb9",
+      "folder": false
+    }
+  ]
+}

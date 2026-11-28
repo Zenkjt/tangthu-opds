@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1F454FFa1kNOtJZ72OfHOuHqF-nH5xlij",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OoOKqIn0pQznrfbQBJurp-dZ6Px9CxyK",
+      "parent_id": "1F454FFa1kNOtJZ72OfHOuHqF-nH5xlij",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3054,
+      "modified": "2026-08-15T10:41:26.000Z",
+      "checksum": "39f4733afe3204f7667ead08eac9847d",
+      "folder": false
+    },
+    {
+      "id": "1UWlTLvK_N4ZO6QWWKOcyKp2CttWiHj19",
+      "parent_id": "1F454FFa1kNOtJZ72OfHOuHqF-nH5xlij",
+      "name": "NGƯỜI YÊU HOÀN MỸ.epub",
+      "mime": "application/epub+zip",
+      "size": 450360,
+      "modified": "2026-08-15T10:41:43.000Z",
+      "checksum": "3f817e4958d15963595fcdd899c8f524",
+      "folder": false
+    },
+    {
+      "id": "16r4C0djNAy7iGJaFGfDWPSld5ObEXYDU",
+      "parent_id": "1F454FFa1kNOtJZ72OfHOuHqF-nH5xlij",
+      "name": "NGƯỜI YÊU HOÀN MỸ.pdf",
+      "mime": "application/pdf",
+      "size": 1195588,
+      "modified": "2026-08-15T10:41:38.000Z",
+      "checksum": "03d3edafaf026cdbe84cc71e230db620",
+      "folder": false
+    }
+  ]
+}

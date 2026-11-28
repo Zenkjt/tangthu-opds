@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18O_CCTKaAV094sJTGnPOqZ6Tdw1njyeG",
+  "page": 1,
+  "items": [
+    {
+      "id": "17w8E6IPKDIMjWKddk2T693qyEAMZ2YS5",
+      "parent_id": "18O_CCTKaAV094sJTGnPOqZ6Tdw1njyeG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7485,
+      "modified": "2026-08-15T03:19:43.000Z",
+      "checksum": "b18a502be246cc032acc82ef8f2d809e",
+      "folder": false
+    },
+    {
+      "id": "1o9_578tdybvks4jXyPbl9EDa45o4Y0mE",
+      "parent_id": "18O_CCTKaAV094sJTGnPOqZ6Tdw1njyeG",
+      "name": "SỰ AN ỦI CỦA TRIẾT HỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 454940,
+      "modified": "2026-08-15T03:19:51.000Z",
+      "checksum": "ff09af29d65287a32abdd74010f9da7e",
+      "folder": false
+    },
+    {
+      "id": "1rWm-oEGYFD82q9RQYY5RtOntR8WBoGbP",
+      "parent_id": "18O_CCTKaAV094sJTGnPOqZ6Tdw1njyeG",
+      "name": "SỰ AN ỦI CỦA TRIẾT HỌC.pdf",
+      "mime": "application/pdf",
+      "size": 1161189,
+      "modified": "2026-08-15T03:19:49.000Z",
+      "checksum": "140d1f9ba83f5c530eb57afe67a61e05",
+      "folder": false
+    }
+  ]
+}

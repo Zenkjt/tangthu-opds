@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TXeLWtm4YoVvFx07MGJmoiYp85X2yMgi",
+  "page": 1,
+  "items": [
+    {
+      "id": "12dHjeqj8GIlqkpsW4yBxc9E1JYqsWdod",
+      "parent_id": "1TXeLWtm4YoVvFx07MGJmoiYp85X2yMgi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3208,
+      "modified": "2026-08-15T10:38:33.000Z",
+      "checksum": "d24371394ec3e41b35ed3d259adf9e69",
+      "folder": false
+    },
+    {
+      "id": "1Kg6Na744c97tCeEM3UFJiKKHh9POKYZ5",
+      "parent_id": "1TXeLWtm4YoVvFx07MGJmoiYp85X2yMgi",
+      "name": "NHƯ CHÂU NHƯ NGỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 1135273,
+      "modified": "2026-08-15T10:38:48.000Z",
+      "checksum": "9204231ffaa7ed71a2ce7c79f0e30228",
+      "folder": false
+    },
+    {
+      "id": "1haaOoCU9fu2vugZCqKGN1gJtv2zjePXa",
+      "parent_id": "1TXeLWtm4YoVvFx07MGJmoiYp85X2yMgi",
+      "name": "NHƯ CHÂU NHƯ NGỌC.pdf",
+      "mime": "application/pdf",
+      "size": 4422281,
+      "modified": "2026-08-15T10:38:44.000Z",
+      "checksum": "533ee73aa5222ead7175e2e4ebddd257",
+      "folder": false
+    }
+  ]
+}

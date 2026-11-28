@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PpSoOFmSgBu19VHGRjHEJDaANpDlWl_B",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wQs8H_BuKMt_ZhDrnayLVvbAETLVgwMO",
+      "parent_id": "1PpSoOFmSgBu19VHGRjHEJDaANpDlWl_B",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9299,
+      "modified": "2026-08-16T03:22:11.000Z",
+      "checksum": "ad4391faddcc57a6e0a507794d12fe04",
+      "folder": false
+    },
+    {
+      "id": "1C1nyM67ZlHQD0TYIO9K-hgL7sYEY0fld",
+      "parent_id": "1PpSoOFmSgBu19VHGRjHEJDaANpDlWl_B",
+      "name": "LỜI CHẨN ĐOÁN CUỐI CÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 620614,
+      "modified": "2026-08-16T03:22:18.000Z",
+      "checksum": "958e045c620be0b0e8acb3d0a128c28d",
+      "folder": false
+    },
+    {
+      "id": "1AXMn4UjBeC3FTp6yJgTjGTW3eD_lgBYZ",
+      "parent_id": "1PpSoOFmSgBu19VHGRjHEJDaANpDlWl_B",
+      "name": "LỜI CHẨN ĐOÁN CUỐI CÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 1393211,
+      "modified": "2026-08-16T03:22:16.000Z",
+      "checksum": "7799b64b8b2e7c059f9707f4820a9c77",
+      "folder": false
+    }
+  ]
+}

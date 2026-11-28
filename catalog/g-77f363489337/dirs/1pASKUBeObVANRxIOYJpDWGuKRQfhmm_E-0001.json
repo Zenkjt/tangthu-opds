@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pASKUBeObVANRxIOYJpDWGuKRQfhmm_E",
+  "page": 1,
+  "items": [
+    {
+      "id": "15OjEY4St4Q8CNCYZPuO9Dr8FAEn_ZixZ",
+      "parent_id": "1pASKUBeObVANRxIOYJpDWGuKRQfhmm_E",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5770,
+      "modified": "2026-08-15T07:57:15.000Z",
+      "checksum": "b472952bdd48593f4bdcb2d8e7c49e99",
+      "folder": false
+    },
+    {
+      "id": "1JTVPrRIaPdfKKbdymH4L_rHXLdMfcN5A",
+      "parent_id": "1pASKUBeObVANRxIOYJpDWGuKRQfhmm_E",
+      "name": "EM KHÔNG VÀO ĐỊA NGỤC THÌ AI VÀO.epub",
+      "mime": "application/epub+zip",
+      "size": 692299,
+      "modified": "2026-08-15T07:57:45.000Z",
+      "checksum": "b6cd5f9719520ff97e3c0bc21ee16f90",
+      "folder": false
+    },
+    {
+      "id": "1oq0arK2reqOonubgPHmZhMwm4Fy0CwEj",
+      "parent_id": "1pASKUBeObVANRxIOYJpDWGuKRQfhmm_E",
+      "name": "EM KHÔNG VÀO ĐỊA NGỤC THÌ AI VÀO.pdf",
+      "mime": "application/pdf",
+      "size": 1291996,
+      "modified": "2026-08-15T07:57:28.000Z",
+      "checksum": "aad432919e92928b5fd4bc4a5fad1486",
+      "folder": false
+    }
+  ]
+}

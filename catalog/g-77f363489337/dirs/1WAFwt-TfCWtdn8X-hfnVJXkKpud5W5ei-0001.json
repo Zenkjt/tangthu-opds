@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WAFwt-TfCWtdn8X-hfnVJXkKpud5W5ei",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rnnP7bv56H3OxZEgS6R02RE9f-Sdb1YD",
+      "parent_id": "1WAFwt-TfCWtdn8X-hfnVJXkKpud5W5ei",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8287,
+      "modified": "2026-08-15T08:01:49.000Z",
+      "checksum": "1bb5fb723e061ddac64ed74962ab97cd",
+      "folder": false
+    },
+    {
+      "id": "1N0NIxsu4A8tdvvd3p1rzk1WpoVJdCBvL",
+      "parent_id": "1WAFwt-TfCWtdn8X-hfnVJXkKpud5W5ei",
+      "name": "KẺ HAI MẶT.epub",
+      "mime": "application/epub+zip",
+      "size": 340604,
+      "modified": "2026-08-15T08:01:55.000Z",
+      "checksum": "4e889c4c169cda3bdd4f367780ec9fd0",
+      "folder": false
+    },
+    {
+      "id": "1so-DocGWdKEap-DFRW5rw61z3NEz4TyC",
+      "parent_id": "1WAFwt-TfCWtdn8X-hfnVJXkKpud5W5ei",
+      "name": "KẺ HAI MẶT.pdf",
+      "mime": "application/pdf",
+      "size": 323767,
+      "modified": "2026-08-15T08:01:52.000Z",
+      "checksum": "1b1f21b8b64e620fe24d25e8cc891212",
+      "folder": false
+    }
+  ]
+}

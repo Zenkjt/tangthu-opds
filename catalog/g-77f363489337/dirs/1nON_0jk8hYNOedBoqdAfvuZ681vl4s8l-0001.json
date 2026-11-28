@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nON_0jk8hYNOedBoqdAfvuZ681vl4s8l",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pveWMniGTXo9l5nzKzrVkRE9tH7PXvuW",
+      "parent_id": "1nON_0jk8hYNOedBoqdAfvuZ681vl4s8l",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1684,
+      "modified": "2026-08-15T08:11:30.000Z",
+      "checksum": "7845c9293e887275b201f42dfe277b09",
+      "folder": false
+    },
+    {
+      "id": "1UpvjdV28B_1FaCYX2mXLvPCPoTg7iqEC",
+      "parent_id": "1nON_0jk8hYNOedBoqdAfvuZ681vl4s8l",
+      "name": "MA ĐẠO TỔ SƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 1309135,
+      "modified": "2026-08-15T08:11:47.000Z",
+      "checksum": "eddf6763e6a5806ebc1b16b2bf0de729",
+      "folder": false
+    },
+    {
+      "id": "1WcQ93Uk65p9ea0wTaXXIGkEEqYUfwioZ",
+      "parent_id": "1nON_0jk8hYNOedBoqdAfvuZ681vl4s8l",
+      "name": "MA ĐẠO TỔ SƯ.pdf",
+      "mime": "application/pdf",
+      "size": 4663889,
+      "modified": "2026-08-15T08:11:43.000Z",
+      "checksum": "93d06fbfef1a779e83668a88197ca9b2",
+      "folder": false
+    }
+  ]
+}

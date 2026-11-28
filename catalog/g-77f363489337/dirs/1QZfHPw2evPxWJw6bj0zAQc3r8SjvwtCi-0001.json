@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QZfHPw2evPxWJw6bj0zAQc3r8SjvwtCi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UXWOfIFNC6YgKQw6x-pgo8VfK8BemBAw",
+      "parent_id": "1QZfHPw2evPxWJw6bj0zAQc3r8SjvwtCi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1713,
+      "modified": "2026-08-15T09:41:08.000Z",
+      "checksum": "9b8f56123c29044d0600b5665698c928",
+      "folder": false
+    },
+    {
+      "id": "1hAOjNFbVd8ntMqr2bhQrlY_bw244-awl",
+      "parent_id": "1QZfHPw2evPxWJw6bj0zAQc3r8SjvwtCi",
+      "name": "MỆNH KỴ SĨ.epub",
+      "mime": "application/epub+zip",
+      "size": 5109531,
+      "modified": "2026-08-15T09:41:27.000Z",
+      "checksum": "fb1002f53c80657f58d5cdc5a37ae1fc",
+      "folder": false
+    },
+    {
+      "id": "1FEttotPbIvTppdeqNV2LJzNmIkr5odlW",
+      "parent_id": "1QZfHPw2evPxWJw6bj0zAQc3r8SjvwtCi",
+      "name": "MỆNH KỴ SĨ.pdf",
+      "mime": "application/pdf",
+      "size": 6374766,
+      "modified": "2026-08-15T09:41:19.000Z",
+      "checksum": "1c903ad49bbb9c24de31a01f6ec80e86",
+      "folder": false
+    }
+  ]
+}

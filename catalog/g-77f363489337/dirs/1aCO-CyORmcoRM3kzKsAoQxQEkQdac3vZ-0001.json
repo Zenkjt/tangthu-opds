@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aCO-CyORmcoRM3kzKsAoQxQEkQdac3vZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AT4mtC-C8VFoGyxMW9RCcWpNw6Z6JT2Y",
+      "parent_id": "1aCO-CyORmcoRM3kzKsAoQxQEkQdac3vZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3027,
+      "modified": "2026-08-16T04:00:10.000Z",
+      "checksum": "6cfa7c9b06a523a9a04812defdb7e38a",
+      "folder": false
+    },
+    {
+      "id": "12jnovjX8ydMhMGqRwP2pnQcvwhBcjLLG",
+      "parent_id": "1aCO-CyORmcoRM3kzKsAoQxQEkQdac3vZ",
+      "name": "THẦM THÍCH ANH KHÔNG GIẤU ĐƯỢC.epub",
+      "mime": "application/epub+zip",
+      "size": 239258,
+      "modified": "2026-08-16T04:00:16.000Z",
+      "checksum": "64940ca9d07b24943c068a1ea36ea19f",
+      "folder": false
+    },
+    {
+      "id": "1MKtzTWIpb5R82R5X6nPNjvPZlaccPS7f",
+      "parent_id": "1aCO-CyORmcoRM3kzKsAoQxQEkQdac3vZ",
+      "name": "THẦM THÍCH ANH KHÔNG GIẤU ĐƯỢC.pdf",
+      "mime": "application/pdf",
+      "size": 528845,
+      "modified": "2026-08-16T04:00:14.000Z",
+      "checksum": "aae3a9ef4a14bb4e55c56d14180b8ca6",
+      "folder": false
+    }
+  ]
+}

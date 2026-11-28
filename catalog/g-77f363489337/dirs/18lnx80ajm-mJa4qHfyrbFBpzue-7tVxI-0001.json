@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18lnx80ajm-mJa4qHfyrbFBpzue-7tVxI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pu5vamqHBXYRFBd9tYXA6bdbmskGGsBV",
+      "parent_id": "18lnx80ajm-mJa4qHfyrbFBpzue-7tVxI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3285,
+      "modified": "2026-08-15T10:18:08.000Z",
+      "checksum": "83515fc353d264fde91dc3976ddf0b42",
+      "folder": false
+    },
+    {
+      "id": "11U3eIacUXuJd5VaqUpBx0bkkKZqLXSOd",
+      "parent_id": "18lnx80ajm-mJa4qHfyrbFBpzue-7tVxI",
+      "name": "THẦN CHẾT TRONG RỪNG.epub",
+      "mime": "application/epub+zip",
+      "size": 840563,
+      "modified": "2026-08-15T10:18:16.000Z",
+      "checksum": "6fcb6b5d271b43820fdd9f9d93f2bede",
+      "folder": false
+    },
+    {
+      "id": "1m9Tprmh5UdQ7kaKESGORkxCFZ8aB0Ayk",
+      "parent_id": "18lnx80ajm-mJa4qHfyrbFBpzue-7tVxI",
+      "name": "THẦN CHẾT TRONG RỪNG.pdf",
+      "mime": "application/pdf",
+      "size": 1052932,
+      "modified": "2026-08-15T10:18:12.000Z",
+      "checksum": "0e48cca0259ead3793499a93dbaf9db0",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qvXrHOyhIKrEB9uCT3wDKAIhacYY0PLZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jQlE6S3X48r1lf0RR2qPbhXHauxb2Gr8",
+      "parent_id": "1qvXrHOyhIKrEB9uCT3wDKAIhacYY0PLZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3203,
+      "modified": "2026-08-15T08:08:49.000Z",
+      "checksum": "34accead0ce181f765c1c5795f3e6aad",
+      "folder": false
+    },
+    {
+      "id": "1bMyBgyMWM2UMHAdCikj3CfqZ39T2CM63",
+      "parent_id": "1qvXrHOyhIKrEB9uCT3wDKAIhacYY0PLZ",
+      "name": "HUYỀN GIỚI CHI MÔN HẬU TRUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 1275610,
+      "modified": "2026-08-15T08:08:56.000Z",
+      "checksum": "4408d7e5e1d3172a5fa7ccc6380d8db7",
+      "folder": false
+    },
+    {
+      "id": "1pvJquEFgi82H-uRoqW4dNqiHdLrpO4DI",
+      "parent_id": "1qvXrHOyhIKrEB9uCT3wDKAIhacYY0PLZ",
+      "name": "HUYỀN GIỚI CHI MÔN HẬU TRUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 1343083,
+      "modified": "2026-08-15T08:08:53.000Z",
+      "checksum": "9d1d980d269ba2e5faa12676908d4ed0",
+      "folder": false
+    }
+  ]
+}

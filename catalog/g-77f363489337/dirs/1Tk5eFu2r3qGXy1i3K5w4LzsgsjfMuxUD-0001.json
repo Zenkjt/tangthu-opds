@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Tk5eFu2r3qGXy1i3K5w4LzsgsjfMuxUD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vKLOXxLzjJiz5ZSyHumZYKAJ_5vunNWc",
+      "parent_id": "1Tk5eFu2r3qGXy1i3K5w4LzsgsjfMuxUD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9820,
+      "modified": "2026-08-15T06:16:31.000Z",
+      "checksum": "b514d83d445c9411cba5790bc51ba2cd",
+      "folder": false
+    },
+    {
+      "id": "1HuYtXM2Ib5jHFBtDJmAZUh1e7LgyuczW",
+      "parent_id": "1Tk5eFu2r3qGXy1i3K5w4LzsgsjfMuxUD",
+      "name": "LỮ ĐOÀN MÔNG ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 603441,
+      "modified": "2026-08-15T06:16:38.000Z",
+      "checksum": "647157bd862123f25fa34475220cf6b9",
+      "folder": false
+    },
+    {
+      "id": "1CG-e2glFfecXRjtsjwcz7_M8o1KOTtqg",
+      "parent_id": "1Tk5eFu2r3qGXy1i3K5w4LzsgsjfMuxUD",
+      "name": "LỮ ĐOÀN MÔNG ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 1633454,
+      "modified": "2026-08-15T06:16:35.000Z",
+      "checksum": "bacf64816a6a4d20d6857fbacd72c2c9",
+      "folder": false
+    }
+  ]
+}

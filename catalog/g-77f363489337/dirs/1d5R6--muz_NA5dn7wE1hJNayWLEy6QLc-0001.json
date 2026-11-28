@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d5R6--muz_NA5dn7wE1hJNayWLEy6QLc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gVW07v8Y8q-JOx0mnYZcUM83DSs2hg5e",
+      "parent_id": "1d5R6--muz_NA5dn7wE1hJNayWLEy6QLc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 519,
+      "modified": "2026-08-16T04:02:27.000Z",
+      "checksum": "53b1424a1d234b24b574b85c785d6cf7",
+      "folder": false
+    },
+    {
+      "id": "1L6o_sSpBJYBbZVoXElhaNocWbRQWJh45",
+      "parent_id": "1d5R6--muz_NA5dn7wE1hJNayWLEy6QLc",
+      "name": "SƯ TỬ TUYẾT BỜM XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 250292,
+      "modified": "2026-08-16T04:02:33.000Z",
+      "checksum": "3babfe8cedd5026051e92e52f6722bff",
+      "folder": false
+    },
+    {
+      "id": "1CLR9BA9Ziy7a2CoH6vu1Ok8jw4dn6rpi",
+      "parent_id": "1d5R6--muz_NA5dn7wE1hJNayWLEy6QLc",
+      "name": "SƯ TỬ TUYẾT BỜM XANH.pdf",
+      "mime": "application/pdf",
+      "size": 612700,
+      "modified": "2026-08-16T04:02:31.000Z",
+      "checksum": "144c43757b128ee0df2e53e107c9dd85",
+      "folder": false
+    }
+  ]
+}

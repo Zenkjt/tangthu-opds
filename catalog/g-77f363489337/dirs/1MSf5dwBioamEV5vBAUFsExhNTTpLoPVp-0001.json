@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MSf5dwBioamEV5vBAUFsExhNTTpLoPVp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1freLbOoSzK2sJIOsUbCHn-UoK5PteBF3",
+      "parent_id": "1MSf5dwBioamEV5vBAUFsExhNTTpLoPVp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7740,
+      "modified": "2026-08-16T03:30:06.000Z",
+      "checksum": "e0206d7ba6f138193a9f513e3b94512c",
+      "folder": false
+    },
+    {
+      "id": "1R0Wj2ou1CQTBHHN-4-3DoJk2t9b1FyLm",
+      "parent_id": "1MSf5dwBioamEV5vBAUFsExhNTTpLoPVp",
+      "name": "HỎA NGỤC.epub",
+      "mime": "application/epub+zip",
+      "size": 1302926,
+      "modified": "2026-08-16T03:30:15.000Z",
+      "checksum": "7f62c1dd6887c548741c4e10cc1a5a69",
+      "folder": false
+    },
+    {
+      "id": "1GQspd4oskFy27b10-PSEUfyPeiOSKmj9",
+      "parent_id": "1MSf5dwBioamEV5vBAUFsExhNTTpLoPVp",
+      "name": "HỎA NGỤC.pdf",
+      "mime": "application/pdf",
+      "size": 2391474,
+      "modified": "2026-08-16T03:30:12.000Z",
+      "checksum": "102a6c845798e079800d8e5a6736c275",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LsZakR9rvTpq1r96IX_aQ79h9USXi_wy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mypGmpsjemDAeuaNsaS2Uas-LqzuBlAb",
+      "parent_id": "1LsZakR9rvTpq1r96IX_aQ79h9USXi_wy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2330,
+      "modified": "2026-08-15T04:24:49.000Z",
+      "checksum": "2f13d7008abc7605ae67b40090efa4ee",
+      "folder": false
+    },
+    {
+      "id": "1ZltkShsDMVs2X7dXvWTBqBzEXk4ZEJZ6",
+      "parent_id": "1LsZakR9rvTpq1r96IX_aQ79h9USXi_wy",
+      "name": "TRIẾT THUYẾT OHSAWA.epub",
+      "mime": "application/epub+zip",
+      "size": 347274,
+      "modified": "2026-08-15T04:24:55.000Z",
+      "checksum": "94e964dedb738ac4fbf2d0dfc0266374",
+      "folder": false
+    },
+    {
+      "id": "1O1DQcxCC6gTRyyVsD7OjCk6zgtIMv1DA",
+      "parent_id": "1LsZakR9rvTpq1r96IX_aQ79h9USXi_wy",
+      "name": "TRIẾT THUYẾT OHSAWA.pdf",
+      "mime": "application/pdf",
+      "size": 623959,
+      "modified": "2026-08-15T04:24:52.000Z",
+      "checksum": "6bf7cf13acb667722e811e2cf5be67aa",
+      "folder": false
+    }
+  ]
+}

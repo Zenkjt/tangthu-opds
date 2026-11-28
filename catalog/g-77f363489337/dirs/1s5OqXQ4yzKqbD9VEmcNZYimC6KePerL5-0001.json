@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1s5OqXQ4yzKqbD9VEmcNZYimC6KePerL5",
+  "page": 1,
+  "items": [
+    {
+      "id": "16pfEpzrAFfQ4F8v94B0_DgCNJfvmRIYG",
+      "parent_id": "1s5OqXQ4yzKqbD9VEmcNZYimC6KePerL5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1907,
+      "modified": "2026-08-16T03:16:25.000Z",
+      "checksum": "8f05337cc8411e0cf4e29d5177e98e5a",
+      "folder": false
+    },
+    {
+      "id": "15_rdtIEORfezI1GlnlK-51sSklBkuIx8",
+      "parent_id": "1s5OqXQ4yzKqbD9VEmcNZYimC6KePerL5",
+      "name": "NGƯỜI ĐẸP TRONG KHÁCH SẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 561106,
+      "modified": "2026-08-16T03:16:32.000Z",
+      "checksum": "7a1d7d941bad7fc1d35ae8384f87b07c",
+      "folder": false
+    },
+    {
+      "id": "1GE94RYiHUrlrmody8w7MKCtVPSudh3RP",
+      "parent_id": "1s5OqXQ4yzKqbD9VEmcNZYimC6KePerL5",
+      "name": "NGƯỜI ĐẸP TRONG KHÁCH SẠN.pdf",
+      "mime": "application/pdf",
+      "size": 783087,
+      "modified": "2026-08-16T03:16:30.000Z",
+      "checksum": "f953627be85f19b1f82d49a6b0156cc4",
+      "folder": false
+    }
+  ]
+}

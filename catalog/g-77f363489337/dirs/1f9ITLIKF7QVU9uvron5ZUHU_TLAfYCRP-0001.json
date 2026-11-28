@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1f9ITLIKF7QVU9uvron5ZUHU_TLAfYCRP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DeFxxm0iRrgFQha9ezbmrzN8e7mwtLvN",
+      "parent_id": "1f9ITLIKF7QVU9uvron5ZUHU_TLAfYCRP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 873,
+      "modified": "2026-08-15T00:53:27.000Z",
+      "checksum": "97c02697c19576e93f20550e989b46a2",
+      "folder": false
+    },
+    {
+      "id": "1cMIsKPdmlwGVKlvAWwubtmvwBmfFdQ-e",
+      "parent_id": "1f9ITLIKF7QVU9uvron5ZUHU_TLAfYCRP",
+      "name": "ĐỂ CÓ MỘT GIA ĐÌNH HẠNH PHÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 265370,
+      "modified": "2026-08-15T00:53:32.000Z",
+      "checksum": "2808aad2b7a5a43dfaa62785b2ee02bf",
+      "folder": false
+    },
+    {
+      "id": "17Fk803Kg22zHosJkWOUjfBzKZtAd4e4F",
+      "parent_id": "1f9ITLIKF7QVU9uvron5ZUHU_TLAfYCRP",
+      "name": "ĐỂ CÓ MỘT GIA ĐÌNH HẠNH PHÚC.pdf",
+      "mime": "application/pdf",
+      "size": 206156,
+      "modified": "2026-08-15T00:53:29.000Z",
+      "checksum": "2813858cfc3e83c8779f94ba7e1e8a05",
+      "folder": false
+    }
+  ]
+}

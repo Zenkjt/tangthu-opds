@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CAZttALzKaRM5bc1EOSAv2g6pMiQeqbE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MbgvPtrGCcRZvS_2vyMoNoEmRK0ViaL9",
+      "parent_id": "1CAZttALzKaRM5bc1EOSAv2g6pMiQeqbE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3095,
+      "modified": "2026-08-15T10:15:33.000Z",
+      "checksum": "afcdd22e12c62e27a4538b9f4d131947",
+      "folder": false
+    },
+    {
+      "id": "1sf8wvqxH2XUeWbimuRdMvm13ZIXnxqh0",
+      "parent_id": "1CAZttALzKaRM5bc1EOSAv2g6pMiQeqbE",
+      "name": "THẾ GIỚI CỦA CHÚNG TA.epub",
+      "mime": "application/epub+zip",
+      "size": 630993,
+      "modified": "2026-08-15T10:15:43.000Z",
+      "checksum": "2620c7e67a7a3cf6efda4fc6ea7fe2a0",
+      "folder": false
+    },
+    {
+      "id": "185UBsTTF5V328B7V4BOLBdlb7ebrkhAj",
+      "parent_id": "1CAZttALzKaRM5bc1EOSAv2g6pMiQeqbE",
+      "name": "THẾ GIỚI CỦA CHÚNG TA.pdf",
+      "mime": "application/pdf",
+      "size": 2950165,
+      "modified": "2026-08-15T10:15:40.000Z",
+      "checksum": "d1df13e2cae558311fa580fd19412dd3",
+      "folder": false
+    }
+  ]
+}

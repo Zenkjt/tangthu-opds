@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1haglsz2D374NiXlB98m99_-W1WUqBM1l",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mrFZE3RLm0lz9nJBr-K8ydtJF2QJNlwa",
+      "parent_id": "1haglsz2D374NiXlB98m99_-W1WUqBM1l",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2799,
+      "modified": "2026-08-15T10:22:36.000Z",
+      "checksum": "4c5994de5b82c5f495c7d731cbdbbe3c",
+      "folder": false
+    },
+    {
+      "id": "1FfO6vWzr2CWYjAp_JM8B9VEL4Q6IQgOt",
+      "parent_id": "1haglsz2D374NiXlB98m99_-W1WUqBM1l",
+      "name": "TẢN MẠN XỨ KIM CHI.epub",
+      "mime": "application/epub+zip",
+      "size": 519267,
+      "modified": "2026-08-15T10:22:47.000Z",
+      "checksum": "695169cce6c9ffd5bb56723e86d3ad8c",
+      "folder": false
+    },
+    {
+      "id": "1eF_Q8rb5VhuhMbPZTeIDkwC3Y5J_4Vhw",
+      "parent_id": "1haglsz2D374NiXlB98m99_-W1WUqBM1l",
+      "name": "TẢN MẠN XỨ KIM CHI.pdf",
+      "mime": "application/pdf",
+      "size": 2109459,
+      "modified": "2026-08-15T10:22:40.000Z",
+      "checksum": "0fb514df5f1035ea7d0dad07ab4afcc8",
+      "folder": false
+    }
+  ]
+}

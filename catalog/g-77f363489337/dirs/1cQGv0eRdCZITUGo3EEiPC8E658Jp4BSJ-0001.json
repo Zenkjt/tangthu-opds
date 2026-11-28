@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cQGv0eRdCZITUGo3EEiPC8E658Jp4BSJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eYus0RcVo_gInsYvoqNC7CegqN71PTln",
+      "parent_id": "1cQGv0eRdCZITUGo3EEiPC8E658Jp4BSJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1724,
+      "modified": "2026-08-15T07:23:26.000Z",
+      "checksum": "f16b638c4a6bacb78b10aa4d29c78d6c",
+      "folder": false
+    },
+    {
+      "id": "1Jx_0YW_3rSneFMuY4oXWxGYFw9snjatC",
+      "parent_id": "1cQGv0eRdCZITUGo3EEiPC8E658Jp4BSJ",
+      "name": "TRUY LÙNG TÊN SÁT NHÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 519363,
+      "modified": "2026-08-15T07:23:32.000Z",
+      "checksum": "cde9d0ae28cdb7e5e85b26a8eefb6d75",
+      "folder": false
+    },
+    {
+      "id": "1nw0nQ2a7r4FquHDMIUVZDUaj6fNnnR_w",
+      "parent_id": "1cQGv0eRdCZITUGo3EEiPC8E658Jp4BSJ",
+      "name": "TRUY LÙNG TÊN SÁT NHÂN.pdf",
+      "mime": "application/pdf",
+      "size": 361314,
+      "modified": "2026-08-15T07:23:30.000Z",
+      "checksum": "1a7d9430ef3171261c2ce08205e6ca07",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ehAXRnniwyNU7WwFvz61nphV0Jakl5DZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DaDV4JUXndWq5FgGNehEbHbRSkLHUxyC",
+      "parent_id": "1ehAXRnniwyNU7WwFvz61nphV0Jakl5DZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3298,
+      "modified": "2026-08-16T03:09:07.000Z",
+      "checksum": "0a4f134f5e91b3f8f6969bad9077f1aa",
+      "folder": false
+    },
+    {
+      "id": "1g3gwuXY9GFU4sqOl1A8PsviM-8hizhdH",
+      "parent_id": "1ehAXRnniwyNU7WwFvz61nphV0Jakl5DZ",
+      "name": "NHỮNG QUÂN BÀI TRÊN MẶT BÀN.epub",
+      "mime": "application/epub+zip",
+      "size": 625881,
+      "modified": "2026-08-16T03:09:13.000Z",
+      "checksum": "917716d30e1c295296a4a375b42041cb",
+      "folder": false
+    },
+    {
+      "id": "1nlo2u0MiUAX9nt2NpzNq8WW1Sd6zj9-p",
+      "parent_id": "1ehAXRnniwyNU7WwFvz61nphV0Jakl5DZ",
+      "name": "NHỮNG QUÂN BÀI TRÊN MẶT BÀN.pdf",
+      "mime": "application/pdf",
+      "size": 824718,
+      "modified": "2026-08-16T03:09:10.000Z",
+      "checksum": "b609ff0fa351e29e27d528b41b2c38ce",
+      "folder": false
+    }
+  ]
+}

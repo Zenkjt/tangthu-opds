@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Xx-9XdDa13Gdfk-Y5y8jypxPk1QzLFJ9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cc3kUuM97w-_O6ace6B4OVMaTHVKHR7W",
+      "parent_id": "1Xx-9XdDa13Gdfk-Y5y8jypxPk1QzLFJ9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5245,
+      "modified": "2026-08-15T07:31:05.000Z",
+      "checksum": "41192a027257841b41ef8620bb2be27a",
+      "folder": false
+    },
+    {
+      "id": "1qG9jZo_8oyZK8D_f_wBXVJqI-3MUnVEO",
+      "parent_id": "1Xx-9XdDa13Gdfk-Y5y8jypxPk1QzLFJ9",
+      "name": "VƯƠNG QUỐC ẢO.epub",
+      "mime": "application/epub+zip",
+      "size": 550065,
+      "modified": "2026-08-15T07:31:18.000Z",
+      "checksum": "aed6ed124d2d7662eb539d618056d6bf",
+      "folder": false
+    },
+    {
+      "id": "1-QFWAMkmQ5VQYdC1bPTkMmIYs-j1HbQr",
+      "parent_id": "1Xx-9XdDa13Gdfk-Y5y8jypxPk1QzLFJ9",
+      "name": "VƯƠNG QUỐC ẢO.pdf",
+      "mime": "application/pdf",
+      "size": 1013776,
+      "modified": "2026-08-15T07:31:11.000Z",
+      "checksum": "0072d08eefc5b3f1f404973ebe54338d",
+      "folder": false
+    }
+  ]
+}

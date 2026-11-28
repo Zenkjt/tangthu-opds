@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sp_uFDhda882t3CNeDanUImaj3uUJt-K",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EXxVVYoPCB2ir6TWOPlD4ld-MX4yG_5i",
+      "parent_id": "1sp_uFDhda882t3CNeDanUImaj3uUJt-K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4187,
+      "modified": "2026-08-15T12:35:28.000Z",
+      "checksum": "3b4e9850b1d23520649e6ce109ab8520",
+      "folder": false
+    },
+    {
+      "id": "1iCmgJLpTH8fLPJ_WYCrDS8-VWeSl7NJx",
+      "parent_id": "1sp_uFDhda882t3CNeDanUImaj3uUJt-K",
+      "name": "TRUYỆN KỂ TÂY TẠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 924902,
+      "modified": "2026-08-15T12:35:38.000Z",
+      "checksum": "c299b09f92b728e8cf258a0f954a12f6",
+      "folder": false
+    },
+    {
+      "id": "1TQKMlY-G6_huZshg8RU8cGLWl_8HBiV4",
+      "parent_id": "1sp_uFDhda882t3CNeDanUImaj3uUJt-K",
+      "name": "TRUYỆN KỂ TÂY TẠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1607542,
+      "modified": "2026-08-15T12:35:33.000Z",
+      "checksum": "e96887fac6eb3a34d472967166d4d3f7",
+      "folder": false
+    }
+  ]
+}

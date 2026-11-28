@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mS23RMl9JopuWk1MxrpNGlAqtj7BqKZR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Oi3bd3t0B88BPabp2I7qxO7MrSpuf0eP",
+      "parent_id": "1mS23RMl9JopuWk1MxrpNGlAqtj7BqKZR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3484,
+      "modified": "2026-08-15T08:03:11.000Z",
+      "checksum": "6631640e39aacc41102f6a49c7915fa2",
+      "folder": false
+    },
+    {
+      "id": "1xZ_rpswioj7jTYYqdThuJWr8YZmoBoyF",
+      "parent_id": "1mS23RMl9JopuWk1MxrpNGlAqtj7BqKZR",
+      "name": "NẾP XƯA.epub",
+      "mime": "application/epub+zip",
+      "size": 517747,
+      "modified": "2026-08-15T08:03:16.000Z",
+      "checksum": "70f141251f29bbcca30517df0ce66b69",
+      "folder": false
+    },
+    {
+      "id": "1Jg0E1zQK8LVkW6L5x7bolXZkbxG9-Ulu",
+      "parent_id": "1mS23RMl9JopuWk1MxrpNGlAqtj7BqKZR",
+      "name": "NẾP XƯA.pdf",
+      "mime": "application/pdf",
+      "size": 691993,
+      "modified": "2026-08-15T08:03:14.000Z",
+      "checksum": "59d3e1ad71bdf475c2abf2587a8ee1db",
+      "folder": false
+    }
+  ]
+}

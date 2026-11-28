@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1abONbsgj_OU6W1809Jx4tkBnLcMkTVdK",
+  "page": 1,
+  "items": [
+    {
+      "id": "13POGoHvK32bYM2myWzZs0hg9_p3G_T0k",
+      "parent_id": "1abONbsgj_OU6W1809Jx4tkBnLcMkTVdK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3383,
+      "modified": "2026-08-15T15:59:40.000Z",
+      "checksum": "68fe0f7ee3f894394b003520ad949f8d",
+      "folder": false
+    },
+    {
+      "id": "1Oi6xgEUnHQTIhVlsYz4k-iZoH4e_AplY",
+      "parent_id": "1abONbsgj_OU6W1809Jx4tkBnLcMkTVdK",
+      "name": "NHẬT KÝ CỦA NGÀY MAI.epub",
+      "mime": "application/epub+zip",
+      "size": 690956,
+      "modified": "2026-08-15T15:59:48.000Z",
+      "checksum": "ccca88df38dc2f2841fff2c53995d85e",
+      "folder": false
+    },
+    {
+      "id": "1V9QZwsUXEzpfPFwvOMD9W4woG7lbkSvM",
+      "parent_id": "1abONbsgj_OU6W1809Jx4tkBnLcMkTVdK",
+      "name": "NHẬT KÝ CỦA NGÀY MAI.pdf",
+      "mime": "application/pdf",
+      "size": 1558050,
+      "modified": "2026-08-15T15:59:45.000Z",
+      "checksum": "0aa30ee44398e285d391a9a5c4e510c7",
+      "folder": false
+    }
+  ]
+}

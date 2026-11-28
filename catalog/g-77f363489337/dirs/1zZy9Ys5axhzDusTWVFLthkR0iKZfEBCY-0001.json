@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zZy9Ys5axhzDusTWVFLthkR0iKZfEBCY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Gcov_05yGPdoYMhrOe-yMy50XuQEdYHO",
+      "parent_id": "1zZy9Ys5axhzDusTWVFLthkR0iKZfEBCY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3866,
+      "modified": "2026-08-16T04:10:22.000Z",
+      "checksum": "fda4890a52b9293194b87c276e2d857b",
+      "folder": false
+    },
+    {
+      "id": "1pFlACAIrF6zImgt2VnwZPBj2eCDq2ZNk",
+      "parent_id": "1zZy9Ys5axhzDusTWVFLthkR0iKZfEBCY",
+      "name": "NHỮNG CHUYỆN HUYỀN BÍ CÓ THẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 391952,
+      "modified": "2026-08-16T04:10:28.000Z",
+      "checksum": "695a0c4c1825b41c20f55c5eb5855cc5",
+      "folder": false
+    },
+    {
+      "id": "1flbTpMzx0MMg4pc5in7auL4ozKhYwnUf",
+      "parent_id": "1zZy9Ys5axhzDusTWVFLthkR0iKZfEBCY",
+      "name": "NHỮNG CHUYỆN HUYỀN BÍ CÓ THẬT.pdf",
+      "mime": "application/pdf",
+      "size": 940662,
+      "modified": "2026-08-16T04:10:26.000Z",
+      "checksum": "cf3d2757b913458b3e93e2a80f987216",
+      "folder": false
+    }
+  ]
+}

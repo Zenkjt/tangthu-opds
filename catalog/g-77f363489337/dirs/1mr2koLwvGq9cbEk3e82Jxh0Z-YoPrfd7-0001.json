@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mr2koLwvGq9cbEk3e82Jxh0Z-YoPrfd7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MShyMC5Rw8UwF9FEP2AfionnZd13CJwT",
+      "parent_id": "1mr2koLwvGq9cbEk3e82Jxh0Z-YoPrfd7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 396,
+      "modified": "2026-08-15T10:53:20.000Z",
+      "checksum": "df61a7b7a80481b3fcfdd951cad64b40",
+      "folder": false
+    },
+    {
+      "id": "1O22OU8bMnP9KogcikN4m-zRZcWxrM5x3",
+      "parent_id": "1mr2koLwvGq9cbEk3e82Jxh0Z-YoPrfd7",
+      "name": "LỜI HỒI ĐÁP 1997.epub",
+      "mime": "application/epub+zip",
+      "size": 625136,
+      "modified": "2026-08-15T10:53:36.000Z",
+      "checksum": "017412e299aed7f29adac8e0f68d31f4",
+      "folder": false
+    },
+    {
+      "id": "1Tla7VbwEnoOsWsy6g8J7qwgUsNuqbbgc",
+      "parent_id": "1mr2koLwvGq9cbEk3e82Jxh0Z-YoPrfd7",
+      "name": "LỜI HỒI ĐÁP 1997.pdf",
+      "mime": "application/pdf",
+      "size": 1264086,
+      "modified": "2026-08-15T10:53:28.000Z",
+      "checksum": "8e8b78473bc16949afc6e9904a00bc00",
+      "folder": false
+    }
+  ]
+}

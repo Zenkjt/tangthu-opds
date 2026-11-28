@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BKwIOhN0vDtBKufdYt0Lap6feJDStuXE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_2Z7PZqXiCnfnzzuoy7kVSL5gZZg5f5o",
+      "parent_id": "1BKwIOhN0vDtBKufdYt0Lap6feJDStuXE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 403,
+      "modified": "2026-08-16T04:00:18.000Z",
+      "checksum": "9c8d8b2534ba75c9e2c88b38c2581b80",
+      "folder": false
+    },
+    {
+      "id": "1seK5qHnQL3cdfx4lCx4AwK0fHhUSmw-8",
+      "parent_id": "1BKwIOhN0vDtBKufdYt0Lap6feJDStuXE",
+      "name": "THẮM MÃI TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 411463,
+      "modified": "2026-08-16T04:00:25.000Z",
+      "checksum": "869f87511622a90b7e1abddc1fc781b7",
+      "folder": false
+    },
+    {
+      "id": "1yokG1l6ODYnZYdSBGH8R2dEcce7YfGb_",
+      "parent_id": "1BKwIOhN0vDtBKufdYt0Lap6feJDStuXE",
+      "name": "THẮM MÃI TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 675135,
+      "modified": "2026-08-16T04:00:22.000Z",
+      "checksum": "53441c15b9d2ce62cbd286dfcdce074d",
+      "folder": false
+    }
+  ]
+}

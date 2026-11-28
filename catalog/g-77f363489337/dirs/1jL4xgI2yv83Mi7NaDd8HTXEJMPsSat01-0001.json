@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jL4xgI2yv83Mi7NaDd8HTXEJMPsSat01",
+  "page": 1,
+  "items": [
+    {
+      "id": "18DQe45uxmCQP-hz2zDImt2UZhvRo2qo_",
+      "parent_id": "1jL4xgI2yv83Mi7NaDd8HTXEJMPsSat01",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1224,
+      "modified": "2026-08-15T03:46:51.000Z",
+      "checksum": "8c1a85ca3b7dca90cdb6130fec687ac8",
+      "folder": false
+    },
+    {
+      "id": "1DNjvS37EmKJiFzetCrvo5W4HqQ_I8izf",
+      "parent_id": "1jL4xgI2yv83Mi7NaDd8HTXEJMPsSat01",
+      "name": "Á CHÂU HUYỀN BÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 494306,
+      "modified": "2026-08-15T03:46:58.000Z",
+      "checksum": "ae2f9c4cae397865bebf3fbc9f553209",
+      "folder": false
+    },
+    {
+      "id": "1jvB60b5F0ZGAs48UjrNWYGujdDCihmsi",
+      "parent_id": "1jL4xgI2yv83Mi7NaDd8HTXEJMPsSat01",
+      "name": "Á CHÂU HUYỀN BÍ.pdf",
+      "mime": "application/pdf",
+      "size": 545086,
+      "modified": "2026-08-15T03:46:55.000Z",
+      "checksum": "56357bed9a1a6a48af1ce4d7f80f1ff7",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qmH8k_L1bqy6ptugvmNLQWzPmIbaNGlK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1q8UUfwh54iOOBF10LNkFnRFbGaVN3TCk",
+      "parent_id": "1qmH8k_L1bqy6ptugvmNLQWzPmIbaNGlK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3247,
+      "modified": "2026-08-15T05:46:39.000Z",
+      "checksum": "77a147956523f40799c36549ea0e8c03",
+      "folder": false
+    },
+    {
+      "id": "1IVgmhSSZ44y0ipL178vRWXZPkX4ix6TS",
+      "parent_id": "1qmH8k_L1bqy6ptugvmNLQWzPmIbaNGlK",
+      "name": "NGỢI CA SỐNG CHẬM.epub",
+      "mime": "application/epub+zip",
+      "size": 565648,
+      "modified": "2026-08-15T05:46:46.000Z",
+      "checksum": "4d9655303571aa4b80f3037fa6ce4071",
+      "folder": false
+    },
+    {
+      "id": "1v22ISE9dyl308eGtw6fGEyPKceppeLJ2",
+      "parent_id": "1qmH8k_L1bqy6ptugvmNLQWzPmIbaNGlK",
+      "name": "NGỢI CA SỐNG CHẬM.pdf",
+      "mime": "application/pdf",
+      "size": 1317739,
+      "modified": "2026-08-15T05:46:44.000Z",
+      "checksum": "05bd45cd6b976a8c5fb9a8a0f43e01e7",
+      "folder": false
+    }
+  ]
+}

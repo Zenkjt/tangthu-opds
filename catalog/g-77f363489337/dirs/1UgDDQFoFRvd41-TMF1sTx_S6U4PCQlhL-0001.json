@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UgDDQFoFRvd41-TMF1sTx_S6U4PCQlhL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qUIq-5BwINEoLV1dWwPXhw4L4pXLHFeY",
+      "parent_id": "1UgDDQFoFRvd41-TMF1sTx_S6U4PCQlhL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 425,
+      "modified": "2026-08-16T04:18:56.000Z",
+      "checksum": "b96a41275dad32d9dc5df9c80fdff163",
+      "folder": false
+    },
+    {
+      "id": "1-XSZWULUOSQU0s7OP_hUlo3qyG5GWeE4",
+      "parent_id": "1UgDDQFoFRvd41-TMF1sTx_S6U4PCQlhL",
+      "name": "KHOẢNG CÁCH CỦA BIỆT LY.epub",
+      "mime": "application/epub+zip",
+      "size": 343780,
+      "modified": "2026-08-16T04:19:02.000Z",
+      "checksum": "3d68d58609afe8298bea7726fba58c94",
+      "folder": false
+    },
+    {
+      "id": "1SofJe3orYu_M9tJ4AOHdwbh027BKhXBu",
+      "parent_id": "1UgDDQFoFRvd41-TMF1sTx_S6U4PCQlhL",
+      "name": "KHOẢNG CÁCH CỦA BIỆT LY.pdf",
+      "mime": "application/pdf",
+      "size": 348940,
+      "modified": "2026-08-16T04:19:00.000Z",
+      "checksum": "ccc976f811d9aac8363fa663312bf067",
+      "folder": false
+    }
+  ]
+}

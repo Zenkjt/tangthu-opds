@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mJASowIY-57f5EkOGFEt2VqVaZgAdMUE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Jd1t7T5Zv87wZKCvFFntSJ7TFfiiYw8k",
+      "parent_id": "1mJASowIY-57f5EkOGFEt2VqVaZgAdMUE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6620,
+      "modified": "2026-08-15T08:17:01.000Z",
+      "checksum": "f0fad2ec4feeeb187db035ab271bbe3b",
+      "folder": false
+    },
+    {
+      "id": "13upAiFCjaP8eRddGzIkq0d9BKhnRtlDk",
+      "parent_id": "1mJASowIY-57f5EkOGFEt2VqVaZgAdMUE",
+      "name": "ĐỘT NHIÊN CÓ TIẾNG GÕ CỬA.epub",
+      "mime": "application/epub+zip",
+      "size": 630820,
+      "modified": "2026-08-15T08:17:07.000Z",
+      "checksum": "a3a411ce3a9e56dad1d48e9e1643a0a8",
+      "folder": false
+    },
+    {
+      "id": "1ZpGw2BAwN2M-MIg-SGljP3cXs3SdCptq",
+      "parent_id": "1mJASowIY-57f5EkOGFEt2VqVaZgAdMUE",
+      "name": "ĐỘT NHIÊN CÓ TIẾNG GÕ CỬA.pdf",
+      "mime": "application/pdf",
+      "size": 1211481,
+      "modified": "2026-08-15T08:17:05.000Z",
+      "checksum": "81acdc8d303cc5c5bcd2043a21cc75ed",
+      "folder": false
+    }
+  ]
+}

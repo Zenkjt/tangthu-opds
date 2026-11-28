@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12rj0qmmeq6wMhfv3XFenyeFEuoNiPn4O",
+  "page": 1,
+  "items": [
+    {
+      "id": "15hQhzk8wMWJ7mo73YiffhzbH9Mm8aYH2",
+      "parent_id": "12rj0qmmeq6wMhfv3XFenyeFEuoNiPn4O",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7556,
+      "modified": "2026-08-15T05:54:08.000Z",
+      "checksum": "a2394e50d9b0e7098bb30de58c2ee230",
+      "folder": false
+    },
+    {
+      "id": "1ivATFM_5pRHX9HrI5QREnS4ifIotPPtW",
+      "parent_id": "12rj0qmmeq6wMhfv3XFenyeFEuoNiPn4O",
+      "name": "TẠI SAO MÁC ĐÚNG.epub",
+      "mime": "application/epub+zip",
+      "size": 481882,
+      "modified": "2026-08-15T05:54:14.000Z",
+      "checksum": "0f738f9223a306b026c348eaeb40edab",
+      "folder": false
+    },
+    {
+      "id": "14YZ29UiNYY8dmO0qunC-uYZg48C433TI",
+      "parent_id": "12rj0qmmeq6wMhfv3XFenyeFEuoNiPn4O",
+      "name": "TẠI SAO MÁC ĐÚNG.pdf",
+      "mime": "application/pdf",
+      "size": 1049315,
+      "modified": "2026-08-15T05:54:11.000Z",
+      "checksum": "d21445260c7549eeb3ddb7c15a643ae2",
+      "folder": false
+    }
+  ]
+}

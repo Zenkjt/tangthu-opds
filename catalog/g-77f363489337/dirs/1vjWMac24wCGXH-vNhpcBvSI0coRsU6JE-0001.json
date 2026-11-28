@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vjWMac24wCGXH-vNhpcBvSI0coRsU6JE",
+  "page": 1,
+  "items": [
+    {
+      "id": "10_Uk-7-zQepqbWX8NcoidFalSuVdCpkM",
+      "parent_id": "1vjWMac24wCGXH-vNhpcBvSI0coRsU6JE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1224,
+      "modified": "2026-08-15T07:38:06.000Z",
+      "checksum": "62cf10619b85bef42b33f4e6a908a971",
+      "folder": false
+    },
+    {
+      "id": "1HRjc3EjP9vJfzXELbreyoDeH-N0jxkvL",
+      "parent_id": "1vjWMac24wCGXH-vNhpcBvSI0coRsU6JE",
+      "name": "RING - VÒNG TRÒN ÁC NGHIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 530688,
+      "modified": "2026-08-15T07:38:12.000Z",
+      "checksum": "2464bae1f895e854949ea39d6f257d86",
+      "folder": false
+    },
+    {
+      "id": "1WOfAdyk5x_rcqV7KRsObZy5NJXbbzuvU",
+      "parent_id": "1vjWMac24wCGXH-vNhpcBvSI0coRsU6JE",
+      "name": "RING - VÒNG TRÒN ÁC NGHIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 1031402,
+      "modified": "2026-08-15T07:38:10.000Z",
+      "checksum": "570e6df5ac273b47c729ee73ef95c118",
+      "folder": false
+    }
+  ]
+}

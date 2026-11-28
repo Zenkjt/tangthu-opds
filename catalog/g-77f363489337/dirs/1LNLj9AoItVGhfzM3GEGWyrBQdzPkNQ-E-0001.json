@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LNLj9AoItVGhfzM3GEGWyrBQdzPkNQ-E",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gYwJyeY3C8wwbhfy1TW_fQAPflmoeq6n",
+      "parent_id": "1LNLj9AoItVGhfzM3GEGWyrBQdzPkNQ-E",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1590,
+      "modified": "2026-08-15T15:15:57.000Z",
+      "checksum": "8811d987d88f49bc42116a124a591e2a",
+      "folder": false
+    },
+    {
+      "id": "1sdFOmo-1Q-IZAvlfORBvV8tqCvC6FGC6",
+      "parent_id": "1LNLj9AoItVGhfzM3GEGWyrBQdzPkNQ-E",
+      "name": "GIỜ G.epub",
+      "mime": "application/epub+zip",
+      "size": 464899,
+      "modified": "2026-08-15T15:16:04.000Z",
+      "checksum": "4a5a5eba7ed763dd3b553d5be5f2b18c",
+      "folder": false
+    },
+    {
+      "id": "1sCXYmmHoGjoo10GWCNgXZCmLhz4lT4I4",
+      "parent_id": "1LNLj9AoItVGhfzM3GEGWyrBQdzPkNQ-E",
+      "name": "GIỜ G.pdf",
+      "mime": "application/pdf",
+      "size": 755566,
+      "modified": "2026-08-15T15:16:01.000Z",
+      "checksum": "e49d7a9da637a29f5283bd03cb498ebf",
+      "folder": false
+    }
+  ]
+}

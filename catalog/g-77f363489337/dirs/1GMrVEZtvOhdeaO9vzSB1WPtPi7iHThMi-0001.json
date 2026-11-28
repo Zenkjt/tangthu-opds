@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GMrVEZtvOhdeaO9vzSB1WPtPi7iHThMi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sjT5eYB5-B2v6OZNDnVSRt23BP5i1W-J",
+      "parent_id": "1GMrVEZtvOhdeaO9vzSB1WPtPi7iHThMi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4444,
+      "modified": "2026-08-15T07:34:14.000Z",
+      "checksum": "6de785c5d363ba29cb1bd6e597e5afc0",
+      "folder": false
+    },
+    {
+      "id": "14gF4Vhj3ti0Ill0DLSrO1n2F0YBZfEwb",
+      "parent_id": "1GMrVEZtvOhdeaO9vzSB1WPtPi7iHThMi",
+      "name": "ULYSSES MOORE TẬP 1 CÁNH CỬA THỜI GIAN.epub",
+      "mime": "application/epub+zip",
+      "size": 993231,
+      "modified": "2026-08-15T07:34:20.000Z",
+      "checksum": "937a27d435ff352fb903a7efdf2a4ea2",
+      "folder": false
+    },
+    {
+      "id": "1rMd_f6uXq0u1PwC9abrTrQcInlsQXdpI",
+      "parent_id": "1GMrVEZtvOhdeaO9vzSB1WPtPi7iHThMi",
+      "name": "ULYSSES MOORE TẬP 1 CÁNH CỬA THỜI GIAN.pdf",
+      "mime": "application/pdf",
+      "size": 939135,
+      "modified": "2026-08-15T07:34:18.000Z",
+      "checksum": "400e4d59fe54cc23f479022f2f75bffd",
+      "folder": false
+    }
+  ]
+}

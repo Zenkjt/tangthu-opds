@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FMpQk_xzGz6kbqQQ3ISjfEWvVoI6FuiB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1e-exu4AFRy4943SnJ6wZYAbl77-0_1fm",
+      "parent_id": "1FMpQk_xzGz6kbqQQ3ISjfEWvVoI6FuiB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 18247,
+      "modified": "2026-08-15T09:30:35.000Z",
+      "checksum": "8d2284dfe768c06c13867c6e7ccbc778",
+      "folder": false
+    },
+    {
+      "id": "1zNYBz-rRQaHTx2Ut5pOoXOvi6eYZVsLv",
+      "parent_id": "1FMpQk_xzGz6kbqQQ3ISjfEWvVoI6FuiB",
+      "name": "KHANG KIỀU.epub",
+      "mime": "application/epub+zip",
+      "size": 1162995,
+      "modified": "2026-08-15T09:30:51.000Z",
+      "checksum": "2ae039d07e6bc016fc09af95ac4d8b41",
+      "folder": false
+    },
+    {
+      "id": "1yvRTsHwZMbLhHAP9rC6fMUrSoNcPX2mD",
+      "parent_id": "1FMpQk_xzGz6kbqQQ3ISjfEWvVoI6FuiB",
+      "name": "KHANG KIỀU.pdf",
+      "mime": "application/pdf",
+      "size": 4482896,
+      "modified": "2026-08-15T09:30:48.000Z",
+      "checksum": "d469d108b35e31e4bd1168eecbe03e68",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Aji5WXMj5ARe04CgAPlkpHIUBL-zcD_N",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aTl32BJ0PNTDzInBwdgb1iOX6p46M8Pj",
+      "parent_id": "1Aji5WXMj5ARe04CgAPlkpHIUBL-zcD_N",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3368,
+      "modified": "2026-08-15T03:37:13.000Z",
+      "checksum": "5e9621fd1b633fafa34dc82d2667857e",
+      "folder": false
+    },
+    {
+      "id": "1vLQnmRFkia04PVMUlQa5vbtqOw77V5IL",
+      "parent_id": "1Aji5WXMj5ARe04CgAPlkpHIUBL-zcD_N",
+      "name": "ĐẠO BỤT NGUYÊN CHẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 856952,
+      "modified": "2026-08-15T03:37:20.000Z",
+      "checksum": "8495e62e76aefcd30a41982061a673dc",
+      "folder": false
+    },
+    {
+      "id": "1QS49ihBxwYeWfydV4G-u5M6XQiXBC99T",
+      "parent_id": "1Aji5WXMj5ARe04CgAPlkpHIUBL-zcD_N",
+      "name": "ĐẠO BỤT NGUYÊN CHẤT.pdf",
+      "mime": "application/pdf",
+      "size": 1661122,
+      "modified": "2026-08-15T03:37:17.000Z",
+      "checksum": "508a8aa27e8762a9d644de711097b621",
+      "folder": false
+    }
+  ]
+}

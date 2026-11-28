@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iMmzEGiHjMTV28A7q9ilPtkb6rwEz3_N",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tnzsybEqRCFLzTJJOSmn1J8H5BzAInF1",
+      "parent_id": "1iMmzEGiHjMTV28A7q9ilPtkb6rwEz3_N",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5095,
+      "modified": "2026-08-16T03:33:08.000Z",
+      "checksum": "266002282d2d7820908f35aab87785e0",
+      "folder": false
+    },
+    {
+      "id": "1dNw_5-5JrQ9219lKJVJ49liInlaSfj0A",
+      "parent_id": "1iMmzEGiHjMTV28A7q9ilPtkb6rwEz3_N",
+      "name": "ẾCH.epub",
+      "mime": "application/epub+zip",
+      "size": 607613,
+      "modified": "2026-08-16T03:33:17.000Z",
+      "checksum": "1049ba4069db45c4ff0617ed50ec0543",
+      "folder": false
+    },
+    {
+      "id": "1QXR5a_yf1dErr-BhnsvGBvDF7FGC7X3K",
+      "parent_id": "1iMmzEGiHjMTV28A7q9ilPtkb6rwEz3_N",
+      "name": "ẾCH.pdf",
+      "mime": "application/pdf",
+      "size": 2329019,
+      "modified": "2026-08-16T03:33:14.000Z",
+      "checksum": "b87e51c0175007a3deb6d9c5e5728375",
+      "folder": false
+    }
+  ]
+}

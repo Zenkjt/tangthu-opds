@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZO0T-jehClYutyXggCrP6YCSUmJrv2H-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Hth8zNC6X4ahpgNmdWZd1Td3lYI91uiH",
+      "parent_id": "1ZO0T-jehClYutyXggCrP6YCSUmJrv2H-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 14617,
+      "modified": "2026-08-15T09:37:14.000Z",
+      "checksum": "a0d12d8b9f86de8ccf82eda92ea557cd",
+      "folder": false
+    },
+    {
+      "id": "1N5pTXnpf1vl8vjCubR4rxmhO0dGCqSsQ",
+      "parent_id": "1ZO0T-jehClYutyXggCrP6YCSUmJrv2H-",
+      "name": "LỐI SỐNG TỐI GIẢN CỦA NGƯỜI NHẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 306401,
+      "modified": "2026-08-15T09:37:29.000Z",
+      "checksum": "8df97c275f1384a408bf01cb555138cb",
+      "folder": false
+    },
+    {
+      "id": "1JGXXWT7eiVA5PHCnZnqDUA-oKm9To7CF",
+      "parent_id": "1ZO0T-jehClYutyXggCrP6YCSUmJrv2H-",
+      "name": "LỐI SỐNG TỐI GIẢN CỦA NGƯỜI NHẬT.pdf",
+      "mime": "application/pdf",
+      "size": 706749,
+      "modified": "2026-08-15T09:37:23.000Z",
+      "checksum": "b3bb79005086d4c0213832697029708b",
+      "folder": false
+    }
+  ]
+}

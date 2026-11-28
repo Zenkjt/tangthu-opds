@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gXuo2Qjy6mhN51T1r1xhAmnPU17OoUod",
+  "page": 1,
+  "items": [
+    {
+      "id": "1giRFxxhbblJAYH98tZaoRXXFcjilh59h",
+      "parent_id": "1gXuo2Qjy6mhN51T1r1xhAmnPU17OoUod",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3869,
+      "modified": "2026-08-15T03:50:30.000Z",
+      "checksum": "47f509c965b946be7a34d6134e3b384d",
+      "folder": false
+    },
+    {
+      "id": "1hJ3GQVIhepZ-GQBNc8GoSAjW65hR2VcB",
+      "parent_id": "1gXuo2Qjy6mhN51T1r1xhAmnPU17OoUod",
+      "name": "NHỮNG VỊ CỨU TRỢ VÔ HÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 190537,
+      "modified": "2026-08-15T03:50:36.000Z",
+      "checksum": "6a0acfe0a86e124c1e2c07f40f2bdd26",
+      "folder": false
+    },
+    {
+      "id": "1ua8KzoLBVSu_mOKWUmMuGaS_PPUOL19g",
+      "parent_id": "1gXuo2Qjy6mhN51T1r1xhAmnPU17OoUod",
+      "name": "NHỮNG VỊ CỨU TRỢ VÔ HÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 658662,
+      "modified": "2026-08-15T03:50:34.000Z",
+      "checksum": "02d44f56a60f54aa70ca54c28e340112",
+      "folder": false
+    }
+  ]
+}

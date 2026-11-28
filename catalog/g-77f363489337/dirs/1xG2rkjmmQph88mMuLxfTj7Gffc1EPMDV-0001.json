@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xG2rkjmmQph88mMuLxfTj7Gffc1EPMDV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1x7RKSoMUoV3FrMBL6GYlLl9zVBt0yIYo",
+      "parent_id": "1xG2rkjmmQph88mMuLxfTj7Gffc1EPMDV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3216,
+      "modified": "2026-08-16T04:04:09.000Z",
+      "checksum": "28c66537723107515d9b831be856486e",
+      "folder": false
+    },
+    {
+      "id": "1DWh0BSV-TYGIWUiIEy0eSYufn2FMP5_M",
+      "parent_id": "1xG2rkjmmQph88mMuLxfTj7Gffc1EPMDV",
+      "name": "SAU MÀN SƯƠNG LẠNH.epub",
+      "mime": "application/epub+zip",
+      "size": 275355,
+      "modified": "2026-08-16T04:04:15.000Z",
+      "checksum": "ab101f0e6314d58f04fb2d3c50aff592",
+      "folder": false
+    },
+    {
+      "id": "1F9XX5_JgUG18y_JWxsqIU_WpYbzDjYki",
+      "parent_id": "1xG2rkjmmQph88mMuLxfTj7Gffc1EPMDV",
+      "name": "SAU MÀN SƯƠNG LẠNH.pdf",
+      "mime": "application/pdf",
+      "size": 626441,
+      "modified": "2026-08-16T04:04:12.000Z",
+      "checksum": "86567ee08e651891335a9c1906052753",
+      "folder": false
+    }
+  ]
+}

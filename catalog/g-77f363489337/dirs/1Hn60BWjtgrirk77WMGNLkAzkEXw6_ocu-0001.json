@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Hn60BWjtgrirk77WMGNLkAzkEXw6_ocu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CDYGYhsDMWb5uJVEL9melAEA9NbWQdZY",
+      "parent_id": "1Hn60BWjtgrirk77WMGNLkAzkEXw6_ocu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3581,
+      "modified": "2026-08-15T00:50:35.000Z",
+      "checksum": "4aab716479f31133cc3fa84a5eec16a8",
+      "folder": false
+    },
+    {
+      "id": "1reyrly7wD-O5OkXlGqzTsm6Io6064dJ7",
+      "parent_id": "1Hn60BWjtgrirk77WMGNLkAzkEXw6_ocu",
+      "name": "KẺ THÀNH CÔNG PHẢI BIẾT LẮNG NGHE.epub",
+      "mime": "application/epub+zip",
+      "size": 474265,
+      "modified": "2026-08-15T00:50:43.000Z",
+      "checksum": "9196e3fd8aabc21962a3ead21bb43d08",
+      "folder": false
+    },
+    {
+      "id": "1hgjbnIEZG-PAxXcwjhkJgMNpP_YkqVd6",
+      "parent_id": "1Hn60BWjtgrirk77WMGNLkAzkEXw6_ocu",
+      "name": "KẺ THÀNH CÔNG PHẢI BIẾT LẮNG NGHE.pdf",
+      "mime": "application/pdf",
+      "size": 1060045,
+      "modified": "2026-08-15T00:50:41.000Z",
+      "checksum": "b831c51de4fb61fcaaca70170047bce4",
+      "folder": false
+    }
+  ]
+}

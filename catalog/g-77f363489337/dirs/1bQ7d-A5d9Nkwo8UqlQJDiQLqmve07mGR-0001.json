@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bQ7d-A5d9Nkwo8UqlQJDiQLqmve07mGR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZhbJJOMyxzjRqpQX21aEgRbkvn54Qeo4",
+      "parent_id": "1bQ7d-A5d9Nkwo8UqlQJDiQLqmve07mGR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2087,
+      "modified": "2026-08-16T03:49:59.000Z",
+      "checksum": "85465f33738b88fba26eacca60ff8760",
+      "folder": false
+    },
+    {
+      "id": "1VZDK8m2sY9kKPnH9Z3TksUHgkelT0EjC",
+      "parent_id": "1bQ7d-A5d9Nkwo8UqlQJDiQLqmve07mGR",
+      "name": "YOKO - NGƯỜI BẠN VÔ CÙNG ĐẶC BIỆT CỦA TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 163325,
+      "modified": "2026-08-16T03:50:04.000Z",
+      "checksum": "44c05b5919d4cfd5534724c5df5bc65f",
+      "folder": false
+    },
+    {
+      "id": "1NA_ZrHEv4jQB-BcP_nmwUXNHIE6Lz_cF",
+      "parent_id": "1bQ7d-A5d9Nkwo8UqlQJDiQLqmve07mGR",
+      "name": "YOKO - NGƯỜI BẠN VÔ CÙNG ĐẶC BIỆT CỦA TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 362021,
+      "modified": "2026-08-16T03:50:02.000Z",
+      "checksum": "d765c10d5d3b2d1df7533bba6ca4363a",
+      "folder": false
+    }
+  ]
+}

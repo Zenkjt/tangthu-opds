@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "branch_id": "g-88ec7bbc132e",
+  "root_folder_id": "1O8ho5tAfCXTqqg3eLb_3I2YS4L2vwZBl",
+  "root_shards": [
+    "catalog/g-88ec7bbc132e/1O8ho5tAfCXTqqg3eLb_3I2YS4L2vwZBl-0001.json"
+  ],
+  "directories": [
+    {
+      "id": "1-3xt0s1uLN43r65xG_ryVPAe8rW1LuFr",
+      "name": "01-Ebook Eink",
+      "parent_id": "1O8ho5tAfCXTqqg3eLb_3I2YS4L2vwZBl",
+      "shards": [
+        "catalog/g-88ec7bbc132e/dirs/1-3xt0s1uLN43r65xG_ryVPAe8rW1LuFr-0001.json"
+      ]
+    },
+    {
+      "id": "1uy06BFqYGpEJ1ubEVWyW3G-OUcFjgTZm",
+      "name": "Convert",
+      "parent_id": "1-3xt0s1uLN43r65xG_ryVPAe8rW1LuFr",
+      "shards": [
+        "catalog/g-88ec7bbc132e/dirs/1uy06BFqYGpEJ1ubEVWyW3G-OUcFjgTZm-0001.json"
+      ]
+    }
+  ]
+}

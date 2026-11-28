@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qafywZsFBrqdTmd-ZrnURTA_kaRm9iV_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1w8bN1Gjn1psR5ryN1r24Rn5VSEkuxbax",
+      "parent_id": "1qafywZsFBrqdTmd-ZrnURTA_kaRm9iV_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3206,
+      "modified": "2026-08-15T10:25:06.000Z",
+      "checksum": "c55e5576bac8481390262bbfe989b086",
+      "folder": false
+    },
+    {
+      "id": "1tKscLfzArhryymgC8an-zlK4vDLlddVg",
+      "parent_id": "1qafywZsFBrqdTmd-ZrnURTA_kaRm9iV_",
+      "name": "SỬ THƯỢNG ĐỆ NHẤT HỖN LOẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 2275439,
+      "modified": "2026-08-15T10:25:25.000Z",
+      "checksum": "b4fce2b70a5ccc56ee74cbd2f28ad260",
+      "folder": false
+    },
+    {
+      "id": "1OWhBKK0H__kuB9GNYA50dBRS1aw5Q1Ln",
+      "parent_id": "1qafywZsFBrqdTmd-ZrnURTA_kaRm9iV_",
+      "name": "SỬ THƯỢNG ĐỆ NHẤT HỖN LOẠN.pdf",
+      "mime": "application/pdf",
+      "size": 8885922,
+      "modified": "2026-08-15T10:25:20.000Z",
+      "checksum": "7858f1a4b0e90c5b46eae6bb389900bd",
+      "folder": false
+    }
+  ]
+}

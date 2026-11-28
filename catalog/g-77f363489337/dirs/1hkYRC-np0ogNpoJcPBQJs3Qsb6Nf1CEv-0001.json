@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hkYRC-np0ogNpoJcPBQJs3Qsb6Nf1CEv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aFWwCNaj9Tv-l9tXwlRzZ1Vi291A-CKI",
+      "parent_id": "1hkYRC-np0ogNpoJcPBQJs3Qsb6Nf1CEv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 491,
+      "modified": "2026-08-16T04:18:31.000Z",
+      "checksum": "f040f1bdf9c02f1aba93f335d4eda871",
+      "folder": false
+    },
+    {
+      "id": "1rzMGgK8F5-nw0ug4mw4a2LkRy_cyRswu",
+      "parent_id": "1hkYRC-np0ogNpoJcPBQJs3Qsb6Nf1CEv",
+      "name": "LẰN RANH SINH TỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 613794,
+      "modified": "2026-08-16T04:18:38.000Z",
+      "checksum": "a4ca7dd900f5132ace845056cf638073",
+      "folder": false
+    },
+    {
+      "id": "1B2CZ0HVLJLS0-WRmdgpkiV6_6WGrO4-F",
+      "parent_id": "1hkYRC-np0ogNpoJcPBQJs3Qsb6Nf1CEv",
+      "name": "LẰN RANH SINH TỬ.pdf",
+      "mime": "application/pdf",
+      "size": 617241,
+      "modified": "2026-08-16T04:18:35.000Z",
+      "checksum": "9da35a7b570d4ea47d8de676e52e8a6f",
+      "folder": false
+    }
+  ]
+}

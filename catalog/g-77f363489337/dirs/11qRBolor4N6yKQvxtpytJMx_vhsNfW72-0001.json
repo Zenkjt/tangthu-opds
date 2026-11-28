@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11qRBolor4N6yKQvxtpytJMx_vhsNfW72",
+  "page": 1,
+  "items": [
+    {
+      "id": "1enmQXVPFoBy8oLWKSHTfuwmcAOoaZmdi",
+      "parent_id": "11qRBolor4N6yKQvxtpytJMx_vhsNfW72",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 563,
+      "modified": "2026-08-16T03:52:25.000Z",
+      "checksum": "6acfeefd5664fefb576adb1b8b684685",
+      "folder": false
+    },
+    {
+      "id": "16H-yOY7Rqkhm0cCiO13A-UZzUE4WlMt2",
+      "parent_id": "11qRBolor4N6yKQvxtpytJMx_vhsNfW72",
+      "name": "TRUYỆN NGẮN CỦA TRUNG KIM.epub",
+      "mime": "application/epub+zip",
+      "size": 332196,
+      "modified": "2026-08-16T03:52:30.000Z",
+      "checksum": "1c980c75d8d28e6b8520e4107a966359",
+      "folder": false
+    },
+    {
+      "id": "1DMw6Jys6QXzPoasJnRA9Rv7TUNwS5v1J",
+      "parent_id": "11qRBolor4N6yKQvxtpytJMx_vhsNfW72",
+      "name": "TRUYỆN NGẮN CỦA TRUNG KIM.pdf",
+      "mime": "application/pdf",
+      "size": 370267,
+      "modified": "2026-08-16T03:52:28.000Z",
+      "checksum": "ef16d7990132f9a022fd64e6b3ae4b74",
+      "folder": false
+    }
+  ]
+}

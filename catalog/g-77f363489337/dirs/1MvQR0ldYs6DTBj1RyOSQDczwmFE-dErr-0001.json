@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MvQR0ldYs6DTBj1RyOSQDczwmFE-dErr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Yg4rJbIe1xH_fFJxZyUPWFo21wvVjuKP",
+      "parent_id": "1MvQR0ldYs6DTBj1RyOSQDczwmFE-dErr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 559,
+      "modified": "2026-08-16T04:18:50.000Z",
+      "checksum": "1603bb961451e5e98cf75c44a204b35b",
+      "folder": false
+    },
+    {
+      "id": "1ZAj_oH6RaIISiFtv29j0cO5R1UU5rA-o",
+      "parent_id": "1MvQR0ldYs6DTBj1RyOSQDczwmFE-dErr",
+      "name": "KIẾP CON LAI.epub",
+      "mime": "application/epub+zip",
+      "size": 355954,
+      "modified": "2026-08-16T04:18:58.000Z",
+      "checksum": "61c73e255691aeb69d48cd2eb544453f",
+      "folder": false
+    },
+    {
+      "id": "1VMYe3YT3AdKgnrsjpFJvVrB8MqA2XP9H",
+      "parent_id": "1MvQR0ldYs6DTBj1RyOSQDczwmFE-dErr",
+      "name": "KIẾP CON LAI.pdf",
+      "mime": "application/pdf",
+      "size": 1112651,
+      "modified": "2026-08-16T04:18:55.000Z",
+      "checksum": "dde8b98212dc972c7d1225576dbe5e47",
+      "folder": false
+    }
+  ]
+}

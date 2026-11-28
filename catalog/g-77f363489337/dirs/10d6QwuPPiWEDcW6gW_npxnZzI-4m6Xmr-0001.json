@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10d6QwuPPiWEDcW6gW_npxnZzI-4m6Xmr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LVXf6phO9kTV3PBtVxOzqKUSjCvEYZ2b",
+      "parent_id": "10d6QwuPPiWEDcW6gW_npxnZzI-4m6Xmr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5424,
+      "modified": "2026-08-16T04:24:30.000Z",
+      "checksum": "0227c6fc6b5d0342c56d7e2539d17ffb",
+      "folder": false
+    },
+    {
+      "id": "14rrqnbqb2_3Dj7atkeKUks-kEWHPqMxH",
+      "parent_id": "10d6QwuPPiWEDcW6gW_npxnZzI-4m6Xmr",
+      "name": "HẢI TRÌNH VEN BỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 251031,
+      "modified": "2026-08-16T04:24:36.000Z",
+      "checksum": "483e439490bef77de2d662f5780d9598",
+      "folder": false
+    },
+    {
+      "id": "1OcN8yNfL10Je7Jjzjt6WunteMqhnzI0j",
+      "parent_id": "10d6QwuPPiWEDcW6gW_npxnZzI-4m6Xmr",
+      "name": "HẢI TRÌNH VEN BỜ.pdf",
+      "mime": "application/pdf",
+      "size": 258827,
+      "modified": "2026-08-16T04:24:33.000Z",
+      "checksum": "d74fdce10789a247ce09fd66f7c1a4cb",
+      "folder": false
+    }
+  ]
+}

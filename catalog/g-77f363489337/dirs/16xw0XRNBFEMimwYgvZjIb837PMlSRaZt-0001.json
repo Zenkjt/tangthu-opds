@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16xw0XRNBFEMimwYgvZjIb837PMlSRaZt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ExLf8sgoWkPh3WCHpCY0zy-DBGB-u1q6",
+      "parent_id": "16xw0XRNBFEMimwYgvZjIb837PMlSRaZt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1437,
+      "modified": "2026-08-15T12:44:37.000Z",
+      "checksum": "302968ead6fbf21087936db4c6a75e50",
+      "folder": false
+    },
+    {
+      "id": "1LmoQSKd1q2KwXsvfqPqPCyezzau5KoaJ",
+      "parent_id": "16xw0XRNBFEMimwYgvZjIb837PMlSRaZt",
+      "name": "NGÔI TRƯỜNG MỌI KHI.epub",
+      "mime": "application/epub+zip",
+      "size": 994699,
+      "modified": "2026-08-15T12:44:44.000Z",
+      "checksum": "491bf587032e516fc425ff1332c2920d",
+      "folder": false
+    },
+    {
+      "id": "1jm7EzXSdqTswmmi1PWm3CUJDpkkh0ZFG",
+      "parent_id": "16xw0XRNBFEMimwYgvZjIb837PMlSRaZt",
+      "name": "NGÔI TRƯỜNG MỌI KHI.pdf",
+      "mime": "application/pdf",
+      "size": 1351202,
+      "modified": "2026-08-15T12:44:41.000Z",
+      "checksum": "8a99bb7bd8e3404088034f045cce2e6c",
+      "folder": false
+    }
+  ]
+}

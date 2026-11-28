@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uQE1_1_OUGQVsI-HLGVmOjuavziuyPJW",
+  "page": 1,
+  "items": [
+    {
+      "id": "16Ke7sR9UOZgSg82GJJb4yeoYuvRft9Bo",
+      "parent_id": "1uQE1_1_OUGQVsI-HLGVmOjuavziuyPJW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1285,
+      "modified": "2026-08-15T03:19:44.000Z",
+      "checksum": "bdf31e35b0126482105154f1c9708cc4",
+      "folder": false
+    },
+    {
+      "id": "1kOfYolajE9lusWhNEbPM7kkpJ4XtFMDM",
+      "parent_id": "1uQE1_1_OUGQVsI-HLGVmOjuavziuyPJW",
+      "name": "TỬ HUYỆT CẢM XÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 603084,
+      "modified": "2026-08-15T03:19:54.000Z",
+      "checksum": "dbf9f7628108a7e9e0daf18a462b769d",
+      "folder": false
+    },
+    {
+      "id": "171p5y5u1wDlz7kwE4FtwU6xqX4_ORvyZ",
+      "parent_id": "1uQE1_1_OUGQVsI-HLGVmOjuavziuyPJW",
+      "name": "TỬ HUYỆT CẢM XÚC.pdf",
+      "mime": "application/pdf",
+      "size": 3076452,
+      "modified": "2026-08-15T03:19:51.000Z",
+      "checksum": "549a4ac4513f4765ae00a901ba031bda",
+      "folder": false
+    }
+  ]
+}

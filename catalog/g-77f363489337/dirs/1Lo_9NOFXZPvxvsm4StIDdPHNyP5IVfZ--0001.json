@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Lo_9NOFXZPvxvsm4StIDdPHNyP5IVfZ-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QIJ10ZB1bgSUKh-W-FqM6Cqo2MzC-TsJ",
+      "parent_id": "1Lo_9NOFXZPvxvsm4StIDdPHNyP5IVfZ-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11952,
+      "modified": "2026-08-15T07:39:16.000Z",
+      "checksum": "49dcee24ef8b833a52ee9f449b61e144",
+      "folder": false
+    },
+    {
+      "id": "1O1Qxl3osLFqa5O5QNZNTP2D5qx76gUun",
+      "parent_id": "1Lo_9NOFXZPvxvsm4StIDdPHNyP5IVfZ-",
+      "name": "NGỌC BỘI THÁI TỬ GIA.epub",
+      "mime": "application/epub+zip",
+      "size": 276344,
+      "modified": "2026-08-15T07:39:22.000Z",
+      "checksum": "6b69dfad997d6226cf5abfe0b43a9117",
+      "folder": false
+    },
+    {
+      "id": "1vAYNuK1_Ipb98qsqAxVNDBAqDzh4Q1Ru",
+      "parent_id": "1Lo_9NOFXZPvxvsm4StIDdPHNyP5IVfZ-",
+      "name": "NGỌC BỘI THÁI TỬ GIA.pdf",
+      "mime": "application/pdf",
+      "size": 443726,
+      "modified": "2026-08-15T07:39:19.000Z",
+      "checksum": "755dbb38e054d4f9dcd2d8551d552039",
+      "folder": false
+    }
+  ]
+}

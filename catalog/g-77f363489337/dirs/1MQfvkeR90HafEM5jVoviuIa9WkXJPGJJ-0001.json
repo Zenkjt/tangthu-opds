@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MQfvkeR90HafEM5jVoviuIa9WkXJPGJJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P8ZqQAV6qBvGqu4ZsfLX3ybBKPWapVyE",
+      "parent_id": "1MQfvkeR90HafEM5jVoviuIa9WkXJPGJJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2484,
+      "modified": "2026-08-15T09:40:14.000Z",
+      "checksum": "bb7a8dcf4ce768ad521cc5bf33ca05b0",
+      "folder": false
+    },
+    {
+      "id": "1Uh8VutTTse4vmxIE5qDo_1_wqEEPNKc6",
+      "parent_id": "1MQfvkeR90HafEM5jVoviuIa9WkXJPGJJ",
+      "name": "NGƯỜI ĂN CHAY.epub",
+      "mime": "application/epub+zip",
+      "size": 233348,
+      "modified": "2026-08-15T09:40:20.000Z",
+      "checksum": "b4811466e0f42dcc80e7914c1d151746",
+      "folder": false
+    },
+    {
+      "id": "1HyEzfd2aoB0f0dV_vfG3qUYSmK_w2qtV",
+      "parent_id": "1MQfvkeR90HafEM5jVoviuIa9WkXJPGJJ",
+      "name": "NGƯỜI ĂN CHAY.pdf",
+      "mime": "application/pdf",
+      "size": 623509,
+      "modified": "2026-08-15T09:40:18.000Z",
+      "checksum": "ec5673eaf67bf85f39ab7046a32a5c20",
+      "folder": false
+    }
+  ]
+}

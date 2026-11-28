@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "172ldXih_FCPEpgz87ozKPbEtpOKRVnVE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iv0ElB8oeQvF2VCvyuu6zcbuDWz0prLW",
+      "parent_id": "172ldXih_FCPEpgz87ozKPbEtpOKRVnVE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3554,
+      "modified": "2026-08-15T10:26:05.000Z",
+      "checksum": "45497479613ab60c6dd052b1953ede5b",
+      "folder": false
+    },
+    {
+      "id": "1TzuWLZArC7glDULk7lcHQ2a0xz-Q8OaT",
+      "parent_id": "172ldXih_FCPEpgz87ozKPbEtpOKRVnVE",
+      "name": "SỐNG LẠI SINH EM BÉ.epub",
+      "mime": "application/epub+zip",
+      "size": 1494319,
+      "modified": "2026-08-15T10:26:14.000Z",
+      "checksum": "ed334098bdf4b7813b056153ea0f05a7",
+      "folder": false
+    },
+    {
+      "id": "1QyIuzzEqHYVSwt6ug-FTzJVjZUQlqFQ1",
+      "parent_id": "172ldXih_FCPEpgz87ozKPbEtpOKRVnVE",
+      "name": "SỐNG LẠI SINH EM BÉ.pdf",
+      "mime": "application/pdf",
+      "size": 1052029,
+      "modified": "2026-08-15T10:26:10.000Z",
+      "checksum": "a91d09243e619324e910c1cd860685bc",
+      "folder": false
+    }
+  ]
+}

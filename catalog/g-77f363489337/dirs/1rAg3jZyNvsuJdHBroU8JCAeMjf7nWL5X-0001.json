@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rAg3jZyNvsuJdHBroU8JCAeMjf7nWL5X",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CPdoiHOVp_R2xz1GijPr-5g1PaP2RfLQ",
+      "parent_id": "1rAg3jZyNvsuJdHBroU8JCAeMjf7nWL5X",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4779,
+      "modified": "2026-08-15T03:39:17.000Z",
+      "checksum": "2bd633f9f4b4e76344af76dc4e8e6b86",
+      "folder": false
+    },
+    {
+      "id": "1-fZoIlVf2aRz8ahRuLgtAvJnS3KkGkeh",
+      "parent_id": "1rAg3jZyNvsuJdHBroU8JCAeMjf7nWL5X",
+      "name": "NGHĨ TỪ TRÁI TIM.epub",
+      "mime": "application/epub+zip",
+      "size": 183004,
+      "modified": "2026-08-15T03:39:23.000Z",
+      "checksum": "b95ca81abf5c9f8333ab2cdbf3e17107",
+      "folder": false
+    },
+    {
+      "id": "11Yg5LJPstQ4qVvZnYXGTTg1fzBy37Vm6",
+      "parent_id": "1rAg3jZyNvsuJdHBroU8JCAeMjf7nWL5X",
+      "name": "NGHĨ TỪ TRÁI TIM.pdf",
+      "mime": "application/pdf",
+      "size": 659297,
+      "modified": "2026-08-15T03:39:21.000Z",
+      "checksum": "d3f45f1c5ce38311ef52c987d520b76c",
+      "folder": false
+    }
+  ]
+}

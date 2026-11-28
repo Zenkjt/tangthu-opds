@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KBhzqZV22c5N9YX2No5UzV3o2FNEhURL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JNLXkgCacujEBL2hF7ZKoEOX9fPf1LNG",
+      "parent_id": "1KBhzqZV22c5N9YX2No5UzV3o2FNEhURL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 20922,
+      "modified": "2026-08-16T03:14:39.000Z",
+      "checksum": "828f1fd3e7044aa0d92256c79587730e",
+      "folder": false
+    },
+    {
+      "id": "1t0f37JHYrqW6Jgy4H_APvgQDoekol74K",
+      "parent_id": "1KBhzqZV22c5N9YX2No5UzV3o2FNEhURL",
+      "name": "ĐỒNG BẠC TRẮNG HOA XÒE.epub",
+      "mime": "application/epub+zip",
+      "size": 624606,
+      "modified": "2026-08-16T03:14:59.000Z",
+      "checksum": "253fd696c17cc9336a7adee0adf6ede8",
+      "folder": false
+    },
+    {
+      "id": "1maaVReR6r8WayPUvjaRRlMxMiSHk4Eib",
+      "parent_id": "1KBhzqZV22c5N9YX2No5UzV3o2FNEhURL",
+      "name": "ĐỒNG BẠC TRẮNG HOA XÒE.pdf",
+      "mime": "application/pdf",
+      "size": 1582422,
+      "modified": "2026-08-16T03:14:56.000Z",
+      "checksum": "af536db162733be74b4622fc811f12d7",
+      "folder": false
+    }
+  ]
+}

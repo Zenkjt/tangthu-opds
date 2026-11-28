@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1z6CcXRx4RBD6xIgngp3aqFRtalbZ0aRu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1k0Rcu57iCynWFfraX0RJTfi4ttsulmlG",
+      "parent_id": "1z6CcXRx4RBD6xIgngp3aqFRtalbZ0aRu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3470,
+      "modified": "2026-08-15T15:36:24.000Z",
+      "checksum": "0a632d58a4d7e609330b50227684ac30",
+      "folder": false
+    },
+    {
+      "id": "1fmHl0YFsklLnDpO-N0yllhHtYO__Kha7",
+      "parent_id": "1z6CcXRx4RBD6xIgngp3aqFRtalbZ0aRu",
+      "name": "THÁM TỬ YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 571196,
+      "modified": "2026-08-15T15:36:35.000Z",
+      "checksum": "b1e566ccc5342d5b59d540e72de6ff6f",
+      "folder": false
+    },
+    {
+      "id": "1Ej3xPvOfAKECYsEnEIIYSikPkFrHMayA",
+      "parent_id": "1z6CcXRx4RBD6xIgngp3aqFRtalbZ0aRu",
+      "name": "THÁM TỬ YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1390509,
+      "modified": "2026-08-15T15:36:33.000Z",
+      "checksum": "c0aec0fb0c81b3f963ab26c94ba2ae3d",
+      "folder": false
+    }
+  ]
+}

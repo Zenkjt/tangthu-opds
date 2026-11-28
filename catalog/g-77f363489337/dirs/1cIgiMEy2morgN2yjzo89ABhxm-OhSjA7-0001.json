@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cIgiMEy2morgN2yjzo89ABhxm-OhSjA7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QTOSa-HZrdFHEpN_APLKM-pkwcgs4D4i",
+      "parent_id": "1cIgiMEy2morgN2yjzo89ABhxm-OhSjA7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10304,
+      "modified": "2026-08-15T06:49:44.000Z",
+      "checksum": "095300560f0a35faef7aa78edb828ef7",
+      "folder": false
+    },
+    {
+      "id": "1aaKATloDDTeAQTxVr-qEXnS-14rU4Xo2",
+      "parent_id": "1cIgiMEy2morgN2yjzo89ABhxm-OhSjA7",
+      "name": "MỘT NGÀY CỦA TÔI CÓ 48 GIỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 435294,
+      "modified": "2026-08-15T06:49:49.000Z",
+      "checksum": "a3dc5e54ee4329e7c546ea01ebb66473",
+      "folder": false
+    },
+    {
+      "id": "1jQrNS_22AQCoBxQKcZA_VvOqzry4Sh9-",
+      "parent_id": "1cIgiMEy2morgN2yjzo89ABhxm-OhSjA7",
+      "name": "MỘT NGÀY CỦA TÔI CÓ 48 GIỜ.pdf",
+      "mime": "application/pdf",
+      "size": 710454,
+      "modified": "2026-08-15T06:49:47.000Z",
+      "checksum": "d08a191e30a652d3693c9bb84261b1db",
+      "folder": false
+    }
+  ]
+}

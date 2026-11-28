@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LEfe6_U6WoCoaqwRc4LUr4fPKow_R6qj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1L9koaHkLhASjN1WUnzgq9eSyLrXU9kcJ",
+      "parent_id": "1LEfe6_U6WoCoaqwRc4LUr4fPKow_R6qj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 21452,
+      "modified": "2026-08-15T07:36:05.000Z",
+      "checksum": "ea08476063d789f748c51c3eaf328146",
+      "folder": false
+    },
+    {
+      "id": "113tgJ80pmtoHArsPH8iRlrbdUfKPQSCi",
+      "parent_id": "1LEfe6_U6WoCoaqwRc4LUr4fPKow_R6qj",
+      "name": "TRUYỆN KHOA HỌC VIỄN TƯỞNG CHỌN LỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 381939,
+      "modified": "2026-08-15T07:36:12.000Z",
+      "checksum": "5e6e37c995030689a0588f49ee890ea1",
+      "folder": false
+    },
+    {
+      "id": "1ntqolFHbENC03Se_lxrdzzkC_1a9snYY",
+      "parent_id": "1LEfe6_U6WoCoaqwRc4LUr4fPKow_R6qj",
+      "name": "TRUYỆN KHOA HỌC VIỄN TƯỞNG CHỌN LỌC.pdf",
+      "mime": "application/pdf",
+      "size": 902970,
+      "modified": "2026-08-15T07:36:09.000Z",
+      "checksum": "fc84f4d2fff631b443d2391daa57128c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1as5fjfWehbkdINFci7KAj19WXYNYBdvM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VuOfVUNtHZPyzhu8OEFO2Vc07wHY6Ukl",
+      "parent_id": "1as5fjfWehbkdINFci7KAj19WXYNYBdvM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3629,
+      "modified": "2026-08-16T03:08:11.000Z",
+      "checksum": "0e73d5cb03b494bb756638440b24ae95",
+      "folder": false
+    },
+    {
+      "id": "147998g28tiDTUCRCPJaforLgza3s3vxL",
+      "parent_id": "1as5fjfWehbkdINFci7KAj19WXYNYBdvM",
+      "name": "ULYSSES MOORE TẬP 3 NGÔI NHÀ GƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 990361,
+      "modified": "2026-08-16T03:08:17.000Z",
+      "checksum": "d6bb3fd3d659470ac7795c67288c6ab4",
+      "folder": false
+    },
+    {
+      "id": "1qnLs_UT6loAbAcuXvsMFi9P7Lh5p46gg",
+      "parent_id": "1as5fjfWehbkdINFci7KAj19WXYNYBdvM",
+      "name": "ULYSSES MOORE TẬP 3 NGÔI NHÀ GƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 976918,
+      "modified": "2026-08-16T03:08:15.000Z",
+      "checksum": "e7f2145f13524c6c20c92008e893c031",
+      "folder": false
+    }
+  ]
+}

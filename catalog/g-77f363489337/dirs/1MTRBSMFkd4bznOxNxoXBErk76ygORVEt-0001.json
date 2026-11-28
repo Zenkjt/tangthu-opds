@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MTRBSMFkd4bznOxNxoXBErk76ygORVEt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jrOUymNZtSlTG16OehApdpMvBc2cSrjd",
+      "parent_id": "1MTRBSMFkd4bznOxNxoXBErk76ygORVEt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3766,
+      "modified": "2026-08-15T03:55:18.000Z",
+      "checksum": "8321747e3bb45b58d92df633da511741",
+      "folder": false
+    },
+    {
+      "id": "1IUWnq-LT8prI1rbVPQ3ps6naaKxMpQlG",
+      "parent_id": "1MTRBSMFkd4bznOxNxoXBErk76ygORVEt",
+      "name": "ĐƯỜNG XA NẮNG MỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 2169808,
+      "modified": "2026-08-15T03:55:30.000Z",
+      "checksum": "40e1eeb77eacef98d2b7968467f25125",
+      "folder": false
+    },
+    {
+      "id": "1k4cDelSRttPSZbUqiCSMGoBIjmd_-V_p",
+      "parent_id": "1MTRBSMFkd4bznOxNxoXBErk76ygORVEt",
+      "name": "ĐƯỜNG XA NẮNG MỚI.pdf",
+      "mime": "application/pdf",
+      "size": 3724044,
+      "modified": "2026-08-15T03:55:25.000Z",
+      "checksum": "31ba10c41fde7b94f3311ba4db19559d",
+      "folder": false
+    }
+  ]
+}

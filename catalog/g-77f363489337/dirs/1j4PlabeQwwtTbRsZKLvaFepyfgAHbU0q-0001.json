@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1j4PlabeQwwtTbRsZKLvaFepyfgAHbU0q",
+  "page": 1,
+  "items": [
+    {
+      "id": "1y6Z8tpHXEKu4WBkPYT90MxL03rgofUi3",
+      "parent_id": "1j4PlabeQwwtTbRsZKLvaFepyfgAHbU0q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1565,
+      "modified": "2026-08-15T13:12:49.000Z",
+      "checksum": "d67e8601b198be13e8d39f68ce66fac4",
+      "folder": false
+    },
+    {
+      "id": "18M1D53htK4BMuxh_ruD8nk3LxZzvsfWT",
+      "parent_id": "1j4PlabeQwwtTbRsZKLvaFepyfgAHbU0q",
+      "name": "TỬ VI ĐẨU SỐ TOÀN THƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 448562,
+      "modified": "2026-08-15T13:12:56.000Z",
+      "checksum": "5fbbe7df177ed3c48df64ea1cff4d60f",
+      "folder": false
+    },
+    {
+      "id": "1eABf3D1eeHJyYzj9JJTMaWE9zE7-0NF_",
+      "parent_id": "1j4PlabeQwwtTbRsZKLvaFepyfgAHbU0q",
+      "name": "TỬ VI ĐẨU SỐ TOÀN THƯ.pdf",
+      "mime": "application/pdf",
+      "size": 1433083,
+      "modified": "2026-08-15T13:12:53.000Z",
+      "checksum": "7bfa6fc9d99595495e7fb93c4483bc43",
+      "folder": false
+    }
+  ]
+}

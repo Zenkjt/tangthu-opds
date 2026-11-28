@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13QHDqwv62Lp0lOFhi4hUEIffByx96U23",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FxIQ4eBYL2vVH5HWvEKjYweXdKu8KOQI",
+      "parent_id": "13QHDqwv62Lp0lOFhi4hUEIffByx96U23",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 703,
+      "modified": "2026-08-16T04:12:57.000Z",
+      "checksum": "4baa949eb15b16aa0b74a060258287f7",
+      "folder": false
+    },
+    {
+      "id": "14zadOyNNBYuvWz2J4Ozw4W6LLbMBl65h",
+      "parent_id": "13QHDqwv62Lp0lOFhi4hUEIffByx96U23",
+      "name": "NGƯỜI TRONG VÁN MÊ TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 627146,
+      "modified": "2026-08-16T04:13:05.000Z",
+      "checksum": "05cba93372fae25636e287f411ebff17",
+      "folder": false
+    },
+    {
+      "id": "1OUMZhi7SAgbhUSBzGUqyqEK95i_Ra5iu",
+      "parent_id": "13QHDqwv62Lp0lOFhi4hUEIffByx96U23",
+      "name": "NGƯỜI TRONG VÁN MÊ TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 1921596,
+      "modified": "2026-08-16T04:13:02.000Z",
+      "checksum": "160ed1659ba784b6f1590b2805254a9d",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Hze1DV5CZuHzjNB1e9kpG378HXC3CVTV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1l20cLWVZdK9g___eG_HpxFkJimnWsL7R",
+      "parent_id": "1Hze1DV5CZuHzjNB1e9kpG378HXC3CVTV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8331,
+      "modified": "2026-08-15T09:47:40.000Z",
+      "checksum": "d92fec27747fc0aa9f74de537e71bbc4",
+      "folder": false
+    },
+    {
+      "id": "1hdyes2nKLdWw-HajU8YTr5E25yFkkCVY",
+      "parent_id": "1Hze1DV5CZuHzjNB1e9kpG378HXC3CVTV",
+      "name": "HỦ NỮ GAGA.epub",
+      "mime": "application/epub+zip",
+      "size": 550903,
+      "modified": "2026-08-15T09:47:47.000Z",
+      "checksum": "40a55d78f92e75fb2bbdb5bc494c4d52",
+      "folder": false
+    },
+    {
+      "id": "1shSQFkrBRf5BfXQHhnywozLbzeNrDW0_",
+      "parent_id": "1Hze1DV5CZuHzjNB1e9kpG378HXC3CVTV",
+      "name": "HỦ NỮ GAGA.pdf",
+      "mime": "application/pdf",
+      "size": 1309343,
+      "modified": "2026-08-15T09:47:45.000Z",
+      "checksum": "821deaf4154b3e6e03933410f68c4e05",
+      "folder": false
+    }
+  ]
+}

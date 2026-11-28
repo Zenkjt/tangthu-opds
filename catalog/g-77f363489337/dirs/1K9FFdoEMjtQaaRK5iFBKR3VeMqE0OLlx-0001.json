@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1K9FFdoEMjtQaaRK5iFBKR3VeMqE0OLlx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qiVH5IkLmWrdnWgOBB_KlHtuoATrahby",
+      "parent_id": "1K9FFdoEMjtQaaRK5iFBKR3VeMqE0OLlx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7618,
+      "modified": "2026-08-15T03:52:05.000Z",
+      "checksum": "cb12170b46a7eae16c98d7c5be24b98e",
+      "folder": false
+    },
+    {
+      "id": "1Z8Z56siRnGbJxEBXf7HL5bpweoPhoBdc",
+      "parent_id": "1K9FFdoEMjtQaaRK5iFBKR3VeMqE0OLlx",
+      "name": "LUẬN VỀ NHÂN QUẢ.epub",
+      "mime": "application/epub+zip",
+      "size": 2971984,
+      "modified": "2026-08-15T03:52:13.000Z",
+      "checksum": "5ee7631fa4a278714ad48ace0047e05e",
+      "folder": false
+    },
+    {
+      "id": "1l4sFw5mMDUmJUdIKEli5gZtYGjdkRcgJ",
+      "parent_id": "1K9FFdoEMjtQaaRK5iFBKR3VeMqE0OLlx",
+      "name": "LUẬN VỀ NHÂN QUẢ.pdf",
+      "mime": "application/pdf",
+      "size": 997026,
+      "modified": "2026-08-15T03:52:10.000Z",
+      "checksum": "5ab764e31d942141cfde37fbe99c03ba",
+      "folder": false
+    }
+  ]
+}

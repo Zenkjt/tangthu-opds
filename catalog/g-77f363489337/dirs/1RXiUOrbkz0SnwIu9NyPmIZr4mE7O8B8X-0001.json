@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RXiUOrbkz0SnwIu9NyPmIZr4mE7O8B8X",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jrhaBlKTdTA8yeuQznHIMw9NecApzsAY",
+      "parent_id": "1RXiUOrbkz0SnwIu9NyPmIZr4mE7O8B8X",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 903,
+      "modified": "2026-08-15T06:15:59.000Z",
+      "checksum": "d2a555a6f913478fec4f8f6d791789c4",
+      "folder": false
+    },
+    {
+      "id": "1-QqUR8vYIUnrckxRgimxJHGwW3yh93Ta",
+      "parent_id": "1RXiUOrbkz0SnwIu9NyPmIZr4mE7O8B8X",
+      "name": "TỤC NGỮ, CỔ NGỮ, GIA NGÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 340682,
+      "modified": "2026-08-15T06:16:06.000Z",
+      "checksum": "f6451a8813e58ca51be990c47f36ca30",
+      "folder": false
+    },
+    {
+      "id": "1lJs7oxgqBqVbbuIBJFvrijD0AUKhK95m",
+      "parent_id": "1RXiUOrbkz0SnwIu9NyPmIZr4mE7O8B8X",
+      "name": "TỤC NGỮ, CỔ NGỮ, GIA NGÔN.pdf",
+      "mime": "application/pdf",
+      "size": 477270,
+      "modified": "2026-08-15T06:16:03.000Z",
+      "checksum": "f1667d4b34c8483264f0a7a6673d8c0e",
+      "folder": false
+    }
+  ]
+}

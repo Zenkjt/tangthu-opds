@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Q23yORmG_qLHA8uWtU8J3bbqAj8KT_3P",
+  "page": 1,
+  "items": [
+    {
+      "id": "10LFZolzNqIeZnTqCeG4b7TLQXOKHJmEB",
+      "parent_id": "1Q23yORmG_qLHA8uWtU8J3bbqAj8KT_3P",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2203,
+      "modified": "2026-08-16T03:06:50.000Z",
+      "checksum": "eeca5dd40263f0a1a265a6d485d18889",
+      "folder": false
+    },
+    {
+      "id": "1Z6AJhPMenOtZEyoMeGaczU6KtX5UQRaO",
+      "parent_id": "1Q23yORmG_qLHA8uWtU8J3bbqAj8KT_3P",
+      "name": "WARCRAFT TOÀN TẬP - PHẦN 2.epub",
+      "mime": "application/epub+zip",
+      "size": 1720812,
+      "modified": "2026-08-16T03:06:58.000Z",
+      "checksum": "b80550918e45f1b54e1962314266abeb",
+      "folder": false
+    },
+    {
+      "id": "1FphZWD9B0ZpnMAoBAjNFxVHe1ikh8f3s",
+      "parent_id": "1Q23yORmG_qLHA8uWtU8J3bbqAj8KT_3P",
+      "name": "WARCRAFT TOÀN TẬP - PHẦN 2.pdf",
+      "mime": "application/pdf",
+      "size": 2043398,
+      "modified": "2026-08-16T03:06:54.000Z",
+      "checksum": "222d858f412153f9b593846a37514091",
+      "folder": false
+    }
+  ]
+}

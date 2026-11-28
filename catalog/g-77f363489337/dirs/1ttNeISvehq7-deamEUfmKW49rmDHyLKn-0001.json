@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ttNeISvehq7-deamEUfmKW49rmDHyLKn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OX6s0SwXZLG_DeGf3uys6-zyyAZK08Pf",
+      "parent_id": "1ttNeISvehq7-deamEUfmKW49rmDHyLKn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1973,
+      "modified": "2026-08-16T03:36:15.000Z",
+      "checksum": "c375d5fb86337f265936b1bd1b0f6744",
+      "folder": false
+    },
+    {
+      "id": "1A1kQKHTHopInYUbWa3oUI7X0c-BlUqXo",
+      "parent_id": "1ttNeISvehq7-deamEUfmKW49rmDHyLKn",
+      "name": "KÝ ỨC ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 3952527,
+      "modified": "2026-08-16T03:36:25.000Z",
+      "checksum": "76b6701a3e7842544718322ea0c15f45",
+      "folder": false
+    },
+    {
+      "id": "12gyYnK_yRu-BBB-5b3xnuN3Malc2VM8e",
+      "parent_id": "1ttNeISvehq7-deamEUfmKW49rmDHyLKn",
+      "name": "KÝ ỨC ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 4612718,
+      "modified": "2026-08-16T03:36:22.000Z",
+      "checksum": "fe95a7ffec230bf51e2b2f1bb4acea72",
+      "folder": false
+    }
+  ]
+}

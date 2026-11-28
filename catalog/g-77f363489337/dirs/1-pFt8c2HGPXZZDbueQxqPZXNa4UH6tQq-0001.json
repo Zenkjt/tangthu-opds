@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-pFt8c2HGPXZZDbueQxqPZXNa4UH6tQq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1R14rAP8uPE91IXIveHfyC23YMU030jFr",
+      "parent_id": "1-pFt8c2HGPXZZDbueQxqPZXNa4UH6tQq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1522,
+      "modified": "2026-08-15T03:23:58.000Z",
+      "checksum": "a8ef91edd71f75cc53d19e26a5563610",
+      "folder": false
+    },
+    {
+      "id": "16YViBDFG8zrilrVUhGBWAhmrOayRHogZ",
+      "parent_id": "1-pFt8c2HGPXZZDbueQxqPZXNa4UH6tQq",
+      "name": "TƯ DUY NHƯ EINSTEIN.epub",
+      "mime": "application/epub+zip",
+      "size": 1369992,
+      "modified": "2026-08-15T03:24:08.000Z",
+      "checksum": "13727889b3550893cf932b7e65aeb7ef",
+      "folder": false
+    },
+    {
+      "id": "1_JPV5MLzBEZzxMlGVL051RNALAz7q9VR",
+      "parent_id": "1-pFt8c2HGPXZZDbueQxqPZXNa4UH6tQq",
+      "name": "TƯ DUY NHƯ EINSTEIN.pdf",
+      "mime": "application/pdf",
+      "size": 3167702,
+      "modified": "2026-08-15T03:24:05.000Z",
+      "checksum": "f73cd1f6bc25666799cc377258ab3162",
+      "folder": false
+    }
+  ]
+}

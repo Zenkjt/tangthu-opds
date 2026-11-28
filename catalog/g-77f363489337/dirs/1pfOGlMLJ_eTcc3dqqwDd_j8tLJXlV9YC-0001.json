@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pfOGlMLJ_eTcc3dqqwDd_j8tLJXlV9YC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jqYxVQcEtkm1Z-jmWsn8gasyD6FxfdZe",
+      "parent_id": "1pfOGlMLJ_eTcc3dqqwDd_j8tLJXlV9YC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8687,
+      "modified": "2026-08-15T05:45:38.000Z",
+      "checksum": "cc705f4e0e08bf484910d53b11a4fa2a",
+      "folder": false
+    },
+    {
+      "id": "1hZLO6Yxmp0hUd_Z59Cbf0-TLgbZFk0OJ",
+      "parent_id": "1pfOGlMLJ_eTcc3dqqwDd_j8tLJXlV9YC",
+      "name": "NGÀY CUỐI TRONG ĐỜI SOCRATES.epub",
+      "mime": "application/epub+zip",
+      "size": 383829,
+      "modified": "2026-08-15T05:45:45.000Z",
+      "checksum": "1196b9160986f2813bea5fa4596d4955",
+      "folder": false
+    },
+    {
+      "id": "1VYXq7xDitqG8Guj2fmScWdzXh_C42iuV",
+      "parent_id": "1pfOGlMLJ_eTcc3dqqwDd_j8tLJXlV9YC",
+      "name": "NGÀY CUỐI TRONG ĐỜI SOCRATES.pdf",
+      "mime": "application/pdf",
+      "size": 525135,
+      "modified": "2026-08-15T05:45:42.000Z",
+      "checksum": "1e92641f6a4bc14f835d6ea284b113b2",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OU4CANCW0wkSqK7JAkfaXIij5lLJhOB1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YEBV7lXb7AvYez67QidkyDx2bab1Z2ZP",
+      "parent_id": "1OU4CANCW0wkSqK7JAkfaXIij5lLJhOB1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2949,
+      "modified": "2026-08-16T03:51:23.000Z",
+      "checksum": "c7d1cb473804fd3c445095548ade3f37",
+      "folder": false
+    },
+    {
+      "id": "1gQ_76gV60-3UPRm6s5HnoWJLuCDEGdz2",
+      "parent_id": "1OU4CANCW0wkSqK7JAkfaXIij5lLJhOB1",
+      "name": "VỤ BẮT CÓC NỮ CA SĨ PHÒNG TRÀ.epub",
+      "mime": "application/epub+zip",
+      "size": 515449,
+      "modified": "2026-08-16T03:51:29.000Z",
+      "checksum": "919fbc53b60f94416f83abed9484e9e2",
+      "folder": false
+    },
+    {
+      "id": "16J1Lmg-4hqDbMTyGQJSqllrUacJaaN0X",
+      "parent_id": "1OU4CANCW0wkSqK7JAkfaXIij5lLJhOB1",
+      "name": "VỤ BẮT CÓC NỮ CA SĨ PHÒNG TRÀ.pdf",
+      "mime": "application/pdf",
+      "size": 610952,
+      "modified": "2026-08-16T03:51:26.000Z",
+      "checksum": "119a1572fbbfd9d055393defa189824c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nh5nuEZqS6V85ZocoO6aycdp77NgWr0b",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kr21WL9Aekx8chN7riN1XwmivCJKEkpe",
+      "parent_id": "1nh5nuEZqS6V85ZocoO6aycdp77NgWr0b",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8205,
+      "modified": "2026-08-16T03:03:44.000Z",
+      "checksum": "5e5b435b90260dc7dfaf5718119a45f2",
+      "folder": false
+    },
+    {
+      "id": "1QPoJVbUa1vjttMsrhp5rLBqxy3UTx2Pa",
+      "parent_id": "1nh5nuEZqS6V85ZocoO6aycdp77NgWr0b",
+      "name": "TỰ YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 574091,
+      "modified": "2026-08-16T03:03:49.000Z",
+      "checksum": "d7124e1492d365f9714e8b6d2947b6c1",
+      "folder": false
+    },
+    {
+      "id": "1EhOeWP9ceBTe8aHtJAu59n_4XFBHl9u2",
+      "parent_id": "1nh5nuEZqS6V85ZocoO6aycdp77NgWr0b",
+      "name": "TỰ YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 603984,
+      "modified": "2026-08-16T03:03:47.000Z",
+      "checksum": "1fdec4249ee531ca334b2f4d529fe21e",
+      "folder": false
+    }
+  ]
+}

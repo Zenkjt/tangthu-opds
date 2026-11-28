@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cK5P8_dmAFZuH1DnT083wtMS9crMVr0a",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HkAAki81_7CVhXh1La0tbwsOv0olb6eD",
+      "parent_id": "1cK5P8_dmAFZuH1DnT083wtMS9crMVr0a",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4070,
+      "modified": "2026-08-16T03:15:31.000Z",
+      "checksum": "eb1e2c76a2915192d70bf0e9e83f13e9",
+      "folder": false
+    },
+    {
+      "id": "1pR8kMO_L6BHNBWYtq4qqgG2CsTSHfHAm",
+      "parent_id": "1cK5P8_dmAFZuH1DnT083wtMS9crMVr0a",
+      "name": "KẾ HOẠCH TỰ SÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 153118,
+      "modified": "2026-08-16T03:15:37.000Z",
+      "checksum": "53860aec40aacd061ef6d8e1636b645e",
+      "folder": false
+    },
+    {
+      "id": "1a2i-Eh-pb23t2edRYAdAzQx8oKWU2crM",
+      "parent_id": "1cK5P8_dmAFZuH1DnT083wtMS9crMVr0a",
+      "name": "KẾ HOẠCH TỰ SÁT.pdf",
+      "mime": "application/pdf",
+      "size": 364229,
+      "modified": "2026-08-16T03:15:35.000Z",
+      "checksum": "7629da2a9e984a8d6c9d986e97db747e",
+      "folder": false
+    }
+  ]
+}

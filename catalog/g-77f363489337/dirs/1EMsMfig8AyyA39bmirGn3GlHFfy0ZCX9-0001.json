@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EMsMfig8AyyA39bmirGn3GlHFfy0ZCX9",
+  "page": 1,
+  "items": [
+    {
+      "id": "17TvJLg_RSaNuQgOc4aqzJeSjI-5-dLx9",
+      "parent_id": "1EMsMfig8AyyA39bmirGn3GlHFfy0ZCX9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2939,
+      "modified": "2026-08-15T06:36:54.000Z",
+      "checksum": "4e965cc2bf20ce9c4ac420934e965fc0",
+      "folder": false
+    },
+    {
+      "id": "1syddksMu4Lr3UnJf48s3-wKcc_JoYGVp",
+      "parent_id": "1EMsMfig8AyyA39bmirGn3GlHFfy0ZCX9",
+      "name": "TAM THỂ TẬP 1.epub",
+      "mime": "application/epub+zip",
+      "size": 674404,
+      "modified": "2026-08-15T06:37:22.000Z",
+      "checksum": "801623b7a8925eafa8af378c3b71edc7",
+      "folder": false
+    },
+    {
+      "id": "1M0BaMn0CRlGQmDw0dBthM5WGWaO4jXA9",
+      "parent_id": "1EMsMfig8AyyA39bmirGn3GlHFfy0ZCX9",
+      "name": "TAM THỂ TẬP 1.pdf",
+      "mime": "application/pdf",
+      "size": 2175484,
+      "modified": "2026-08-15T06:37:09.000Z",
+      "checksum": "a18d677ccc9a39b0b6793e00bc1f03a3",
+      "folder": false
+    }
+  ]
+}

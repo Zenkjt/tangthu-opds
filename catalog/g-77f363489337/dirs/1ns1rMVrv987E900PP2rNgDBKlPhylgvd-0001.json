@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ns1rMVrv987E900PP2rNgDBKlPhylgvd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xkpT0Epc9RjdWlWPx2Bq5qgB-P7T6qSu",
+      "parent_id": "1ns1rMVrv987E900PP2rNgDBKlPhylgvd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2948,
+      "modified": "2026-08-15T06:21:41.000Z",
+      "checksum": "5b78dd9b14ba638c6a3fa805d1b5788b",
+      "folder": false
+    },
+    {
+      "id": "1YG54J-Y22a8E9ChSmzvLaApvayGBU9rY",
+      "parent_id": "1ns1rMVrv987E900PP2rNgDBKlPhylgvd",
+      "name": "TÂN CHÂU XƯA.epub",
+      "mime": "application/epub+zip",
+      "size": 1193809,
+      "modified": "2026-08-15T06:21:51.000Z",
+      "checksum": "be097194d644f4cacb39d9e536d579c5",
+      "folder": false
+    },
+    {
+      "id": "1Gfc-EOEEOG4X_7MfHSOjnOoIGye9ZCxH",
+      "parent_id": "1ns1rMVrv987E900PP2rNgDBKlPhylgvd",
+      "name": "TÂN CHÂU XƯA.pdf",
+      "mime": "application/pdf",
+      "size": 2490113,
+      "modified": "2026-08-15T06:21:48.000Z",
+      "checksum": "dccdcd835ee1ea6825e2cb002f5bbe41",
+      "folder": false
+    }
+  ]
+}

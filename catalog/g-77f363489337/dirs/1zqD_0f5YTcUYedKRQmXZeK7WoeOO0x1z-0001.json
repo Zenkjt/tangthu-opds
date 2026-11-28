@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zqD_0f5YTcUYedKRQmXZeK7WoeOO0x1z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zQGgf6ZmWMdbzCeMo3oBnPDgx48Ee5eJ",
+      "parent_id": "1zqD_0f5YTcUYedKRQmXZeK7WoeOO0x1z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2157,
+      "modified": "2026-08-15T15:49:39.000Z",
+      "checksum": "2f98aa5bd555d60a18b376ff0dff7a73",
+      "folder": false
+    },
+    {
+      "id": "12jIhkRtMpobBlTA_QtohbqX2axp7klxw",
+      "parent_id": "1zqD_0f5YTcUYedKRQmXZeK7WoeOO0x1z",
+      "name": "THÙNG CƠM SÁT VÁCH.epub",
+      "mime": "application/epub+zip",
+      "size": 2835064,
+      "modified": "2026-08-15T15:49:48.000Z",
+      "checksum": "06e4982b602f7013bb3cc452e7bbd001",
+      "folder": false
+    },
+    {
+      "id": "1-8mMejy6S5W2Son3llu3qetI1PCqKXRi",
+      "parent_id": "1zqD_0f5YTcUYedKRQmXZeK7WoeOO0x1z",
+      "name": "THÙNG CƠM SÁT VÁCH.pdf",
+      "mime": "application/pdf",
+      "size": 2425399,
+      "modified": "2026-08-15T15:49:45.000Z",
+      "checksum": "9ad95ffcb34d1012d7da979274324322",
+      "folder": false
+    }
+  ]
+}

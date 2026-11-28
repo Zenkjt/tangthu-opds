@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RSzeJCUxZb33yfHQMudAK4VOBj3NoRnu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1quJgYEnTfjlsVUY4vjpb6c8qH4x2COb8",
+      "parent_id": "1RSzeJCUxZb33yfHQMudAK4VOBj3NoRnu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3369,
+      "modified": "2026-08-15T03:57:03.000Z",
+      "checksum": "bb0f20b17eb32e2cccbd9981fe71d3da",
+      "folder": false
+    },
+    {
+      "id": "1ue2qOW6W35igbXuZXLCkPDFzfOEWmXP8",
+      "parent_id": "1RSzeJCUxZb33yfHQMudAK4VOBj3NoRnu",
+      "name": "SUY NGẪM VỀ THIỆN VÀ ÁC.epub",
+      "mime": "application/epub+zip",
+      "size": 619111,
+      "modified": "2026-08-15T03:57:09.000Z",
+      "checksum": "dab67bd3af7780f85d7b64fce10f9955",
+      "folder": false
+    },
+    {
+      "id": "152ygzKZ7TAaJqTULWS1EPlYh4dRARa-i",
+      "parent_id": "1RSzeJCUxZb33yfHQMudAK4VOBj3NoRnu",
+      "name": "SUY NGẪM VỀ THIỆN VÀ ÁC.pdf",
+      "mime": "application/pdf",
+      "size": 892441,
+      "modified": "2026-08-15T03:57:06.000Z",
+      "checksum": "51694603faeea45c033f882ed8b7633f",
+      "folder": false
+    }
+  ]
+}

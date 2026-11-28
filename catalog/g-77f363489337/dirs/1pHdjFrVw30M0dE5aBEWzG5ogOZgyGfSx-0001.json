@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pHdjFrVw30M0dE5aBEWzG5ogOZgyGfSx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-mrrLc2sOG7aDS7m6vRPZ_z75ztFnugv",
+      "parent_id": "1pHdjFrVw30M0dE5aBEWzG5ogOZgyGfSx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 715,
+      "modified": "2026-08-15T12:56:14.000Z",
+      "checksum": "e36ad044e18be5b11919e272838759a6",
+      "folder": false
+    },
+    {
+      "id": "1jFyNy2D299c0e0qBIIHDoMB9JwVwsPvF",
+      "parent_id": "1pHdjFrVw30M0dE5aBEWzG5ogOZgyGfSx",
+      "name": "TIẾNG NÓI GIỮA ĐÊM KHUYA.epub",
+      "mime": "application/epub+zip",
+      "size": 471342,
+      "modified": "2026-08-15T12:56:32.000Z",
+      "checksum": "d6da4b0bc6725eb110599d0985d017fb",
+      "folder": false
+    },
+    {
+      "id": "1eJbvPA6AYN4UlYnm9D1t2v_ERoZbq2Sf",
+      "parent_id": "1pHdjFrVw30M0dE5aBEWzG5ogOZgyGfSx",
+      "name": "TIẾNG NÓI GIỮA ĐÊM KHUYA.pdf",
+      "mime": "application/pdf",
+      "size": 476394,
+      "modified": "2026-08-15T12:56:20.000Z",
+      "checksum": "24b9e37f2fb3eaec8c4700f348d44795",
+      "folder": false
+    }
+  ]
+}

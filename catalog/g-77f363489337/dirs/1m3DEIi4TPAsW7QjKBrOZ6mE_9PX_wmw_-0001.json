@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1m3DEIi4TPAsW7QjKBrOZ6mE_9PX_wmw_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hLkMiXrteRYZwxsJz0J9GopZG_5Y8YA_",
+      "parent_id": "1m3DEIi4TPAsW7QjKBrOZ6mE_9PX_wmw_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9182,
+      "modified": "2026-08-15T11:30:24.000Z",
+      "checksum": "e423a8e4385ddada856fe49d9bd2bf8f",
+      "folder": false
+    },
+    {
+      "id": "18rI0NyvQ9Yy3d1PRUkok5aNIbQu7UWVi",
+      "parent_id": "1m3DEIi4TPAsW7QjKBrOZ6mE_9PX_wmw_",
+      "name": "SINH HỌC CƠ THỂ.epub",
+      "mime": "application/epub+zip",
+      "size": 3208366,
+      "modified": "2026-08-15T11:30:31.000Z",
+      "checksum": "77812fd578f8196b05f15c8251f77d65",
+      "folder": false
+    },
+    {
+      "id": "1r-QBNl7SxONAMeXMMPvZ1vQozNJICqis",
+      "parent_id": "1m3DEIi4TPAsW7QjKBrOZ6mE_9PX_wmw_",
+      "name": "SINH HỌC CƠ THỂ.pdf",
+      "mime": "application/pdf",
+      "size": 3987660,
+      "modified": "2026-08-15T11:30:28.000Z",
+      "checksum": "ddf783300b80da77f3182e6bb9ebbf84",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1O1uzA6YvbkopNHeFvD-12gdNGB8-yIuy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mIQDjI_hUIg93ApzPrQxX-9lsezUysub",
+      "parent_id": "1O1uzA6YvbkopNHeFvD-12gdNGB8-yIuy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3047,
+      "modified": "2026-08-15T07:28:04.000Z",
+      "checksum": "b1fe20b84b50149f0844c35549b3949f",
+      "folder": false
+    },
+    {
+      "id": "1ylne9R0LsKcs-c0LDNAaf1SaCymGZC-D",
+      "parent_id": "1O1uzA6YvbkopNHeFvD-12gdNGB8-yIuy",
+      "name": "VIỄN VỌNG.epub",
+      "mime": "application/epub+zip",
+      "size": 265857,
+      "modified": "2026-08-15T07:28:10.000Z",
+      "checksum": "9476257a8580e7d004ff187d9aa66ac3",
+      "folder": false
+    },
+    {
+      "id": "1KhkH7i9OuOtOUGJXyfHar2QAC99ZjODT",
+      "parent_id": "1O1uzA6YvbkopNHeFvD-12gdNGB8-yIuy",
+      "name": "VIỄN VỌNG.pdf",
+      "mime": "application/pdf",
+      "size": 449763,
+      "modified": "2026-08-15T07:28:08.000Z",
+      "checksum": "17da59073b0dbbedfda13d2bd12ac930",
+      "folder": false
+    }
+  ]
+}

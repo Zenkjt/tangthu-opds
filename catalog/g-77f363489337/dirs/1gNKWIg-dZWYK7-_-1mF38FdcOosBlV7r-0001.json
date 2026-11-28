@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gNKWIg-dZWYK7-_-1mF38FdcOosBlV7r",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P-XuqgtacTTG-a5PxnDTNrXonRllfoFo",
+      "parent_id": "1gNKWIg-dZWYK7-_-1mF38FdcOosBlV7r",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1256,
+      "modified": "2026-08-15T07:51:02.000Z",
+      "checksum": "088a1846e96b137e30e69da8099181aa",
+      "folder": false
+    },
+    {
+      "id": "1JNHF0OPa0lF3LUFk3gfyt4RBdR9pXuBu",
+      "parent_id": "1gNKWIg-dZWYK7-_-1mF38FdcOosBlV7r",
+      "name": "HỒNG BÀO QUÁI NHÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 855825,
+      "modified": "2026-08-15T07:51:14.000Z",
+      "checksum": "dd464233c34779237f53b5500272dcc3",
+      "folder": false
+    },
+    {
+      "id": "1GoCwkl7K9f1Ca3hEqe3RWxppBG869ema",
+      "parent_id": "1gNKWIg-dZWYK7-_-1mF38FdcOosBlV7r",
+      "name": "HỒNG BÀO QUÁI NHÂN.pdf",
+      "mime": "application/pdf",
+      "size": 2816750,
+      "modified": "2026-08-15T07:51:10.000Z",
+      "checksum": "ca1873546f8ae6966e8b97e10c608766",
+      "folder": false
+    }
+  ]
+}

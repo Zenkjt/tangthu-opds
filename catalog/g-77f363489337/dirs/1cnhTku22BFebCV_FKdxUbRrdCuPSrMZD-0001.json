@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cnhTku22BFebCV_FKdxUbRrdCuPSrMZD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cmVUlkGaofYmkGAD-_yH63aSonpQVYAC",
+      "parent_id": "1cnhTku22BFebCV_FKdxUbRrdCuPSrMZD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2082,
+      "modified": "2026-08-15T06:16:14.000Z",
+      "checksum": "02dc86f4dc40a322207ba94b99a883a7",
+      "folder": false
+    },
+    {
+      "id": "1O7ASVMu0DOzLpieoXcKTCbP9BnRWryVH",
+      "parent_id": "1cnhTku22BFebCV_FKdxUbRrdCuPSrMZD",
+      "name": "NẾP CŨ - TÍN NGƯỠNG VIỆT NAM QUYỂN THƯỢNG.epub",
+      "mime": "application/epub+zip",
+      "size": 2569032,
+      "modified": "2026-08-15T06:16:25.000Z",
+      "checksum": "c34f6e5f00890802fa2d96378ad3e7b2",
+      "folder": false
+    },
+    {
+      "id": "1zALqtpQcanbC-9047KfiXMc4aXSUrAOp",
+      "parent_id": "1cnhTku22BFebCV_FKdxUbRrdCuPSrMZD",
+      "name": "NẾP CŨ - TÍN NGƯỠNG VIỆT NAM QUYỂN THƯỢNG.pdf",
+      "mime": "application/pdf",
+      "size": 2548440,
+      "modified": "2026-08-15T06:16:19.000Z",
+      "checksum": "b96a400bf7a3473784b010420227fb98",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vqZ9g17kpDdOLhvJzp_ioFK-uPsDDpu4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FJ4PB1gBihnhKVgECJR3RSVZMP8vzySf",
+      "parent_id": "1vqZ9g17kpDdOLhvJzp_ioFK-uPsDDpu4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1484,
+      "modified": "2026-08-16T03:09:04.000Z",
+      "checksum": "258b4192a73cd0b476b66c05934064f0",
+      "folder": false
+    },
+    {
+      "id": "1Trk-oElA19ko_ZPBwyJMJDge5Hctxq37",
+      "parent_id": "1vqZ9g17kpDdOLhvJzp_ioFK-uPsDDpu4",
+      "name": "LONG DUYÊN - TẬP 2.epub",
+      "mime": "application/epub+zip",
+      "size": 673972,
+      "modified": "2026-08-16T03:09:14.000Z",
+      "checksum": "4edfcf85bd125d6076692ae9529dbf8d",
+      "folder": false
+    },
+    {
+      "id": "11ixzVFcv5tC1SdflPsiRJ0n5dmg5APYu",
+      "parent_id": "1vqZ9g17kpDdOLhvJzp_ioFK-uPsDDpu4",
+      "name": "LONG DUYÊN - TẬP 2.pdf",
+      "mime": "application/pdf",
+      "size": 2627879,
+      "modified": "2026-08-16T03:09:11.000Z",
+      "checksum": "454f3f4171d837d6a83c35e56a364ed8",
+      "folder": false
+    }
+  ]
+}

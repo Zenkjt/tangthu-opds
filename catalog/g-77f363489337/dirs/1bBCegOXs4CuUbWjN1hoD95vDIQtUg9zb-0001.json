@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bBCegOXs4CuUbWjN1hoD95vDIQtUg9zb",
+  "page": 1,
+  "items": [
+    {
+      "id": "17wkG79YF0tp5yiRV5SD_-wPjHZ8IgLcp",
+      "parent_id": "1bBCegOXs4CuUbWjN1hoD95vDIQtUg9zb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 897,
+      "modified": "2026-08-15T03:53:37.000Z",
+      "checksum": "aadfe8c2f74b03be01cd61d904bb8497",
+      "folder": false
+    },
+    {
+      "id": "1AdmEaBzQhJUdgr9XIbt_BK8qSzj7BA2W",
+      "parent_id": "1bBCegOXs4CuUbWjN1hoD95vDIQtUg9zb",
+      "name": "ĐẠO PHẬT NGÀY NAY.epub",
+      "mime": "application/epub+zip",
+      "size": 389205,
+      "modified": "2026-08-15T03:53:43.000Z",
+      "checksum": "710cd78d0d29e84acb29613993d44c9e",
+      "folder": false
+    },
+    {
+      "id": "1GEi0vJJpNBhdJ5ds7et8V81Li6ktK2Xp",
+      "parent_id": "1bBCegOXs4CuUbWjN1hoD95vDIQtUg9zb",
+      "name": "ĐẠO PHẬT NGÀY NAY.pdf",
+      "mime": "application/pdf",
+      "size": 436246,
+      "modified": "2026-08-15T03:53:40.000Z",
+      "checksum": "d36f5e9183a537beb2d8a58ad0838763",
+      "folder": false
+    }
+  ]
+}

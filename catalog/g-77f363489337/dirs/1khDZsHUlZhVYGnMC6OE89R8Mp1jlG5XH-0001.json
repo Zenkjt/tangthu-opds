@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1khDZsHUlZhVYGnMC6OE89R8Mp1jlG5XH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kHZmgdGTRfJlCd_Se70n2X3I9b9wog5L",
+      "parent_id": "1khDZsHUlZhVYGnMC6OE89R8Mp1jlG5XH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2608,
+      "modified": "2026-08-15T03:19:55.000Z",
+      "checksum": "4082c74c9bb89ba544429e8924afb53c",
+      "folder": false
+    },
+    {
+      "id": "1jsdkBghcidiIDauTUfr3t9qYsZPG5PJL",
+      "parent_id": "1khDZsHUlZhVYGnMC6OE89R8Mp1jlG5XH",
+      "name": "PHẢI TRÁI ĐÚNG SAI.epub",
+      "mime": "application/epub+zip",
+      "size": 486667,
+      "modified": "2026-08-15T03:20:04.000Z",
+      "checksum": "a56fd51de8d963ce3cef4207e29269ba",
+      "folder": false
+    },
+    {
+      "id": "1d7b-mI86C8H5imshWHM55b_4rroUlF_V",
+      "parent_id": "1khDZsHUlZhVYGnMC6OE89R8Mp1jlG5XH",
+      "name": "PHẢI TRÁI ĐÚNG SAI.pdf",
+      "mime": "application/pdf",
+      "size": 1284742,
+      "modified": "2026-08-15T03:20:01.000Z",
+      "checksum": "66d88db94d75aa2c6fd939cbdba6e0c3",
+      "folder": false
+    }
+  ]
+}

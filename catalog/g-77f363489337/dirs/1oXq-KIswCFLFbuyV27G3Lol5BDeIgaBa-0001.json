@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oXq-KIswCFLFbuyV27G3Lol5BDeIgaBa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SCGUFm-VoHKfpb0eos2MZ8cheWQ0jSUj",
+      "parent_id": "1oXq-KIswCFLFbuyV27G3Lol5BDeIgaBa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2229,
+      "modified": "2026-08-16T03:26:28.000Z",
+      "checksum": "3b75cbfcf7857ea02268cb03e5991134",
+      "folder": false
+    },
+    {
+      "id": "1pU1LMiUj4wq17IErONswjIQlyKQa0TGa",
+      "parent_id": "1oXq-KIswCFLFbuyV27G3Lol5BDeIgaBa",
+      "name": "LẼ NÀO EM KHÔNG BIẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 2437340,
+      "modified": "2026-08-16T03:26:36.000Z",
+      "checksum": "b63e17ce12bc865330fa9daadea10dc8",
+      "folder": false
+    },
+    {
+      "id": "1AdxPCQ43W1hVreyLhFYUI3eWJve_AhYC",
+      "parent_id": "1oXq-KIswCFLFbuyV27G3Lol5BDeIgaBa",
+      "name": "LẼ NÀO EM KHÔNG BIẾT.pdf",
+      "mime": "application/pdf",
+      "size": 2030639,
+      "modified": "2026-08-16T03:26:33.000Z",
+      "checksum": "18a8e5d6940e29bfeab87b86e9e6c57d",
+      "folder": false
+    }
+  ]
+}

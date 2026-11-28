@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Dfw8g4fWPAXoPGfLjLncAVZjqe93IF5H",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QcnXB_Y6kucR7WqDEBWyPmX5tIdsnK7Q",
+      "parent_id": "1Dfw8g4fWPAXoPGfLjLncAVZjqe93IF5H",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 555,
+      "modified": "2026-08-15T10:50:20.000Z",
+      "checksum": "2379720dfdeb10706d021591ac645600",
+      "folder": false
+    },
+    {
+      "id": "1l_2Jg2zXvcwMVb2QbownZpY7UNxYPqa7",
+      "parent_id": "1Dfw8g4fWPAXoPGfLjLncAVZjqe93IF5H",
+      "name": "MÙA TRÔI TRÊN QUANG GÁNH.epub",
+      "mime": "application/epub+zip",
+      "size": 1120851,
+      "modified": "2026-08-15T10:51:45.000Z",
+      "checksum": "f41874dd2bf9009792851a69da8cbcbf",
+      "folder": false
+    },
+    {
+      "id": "1XxrWamLJSFf9ubw_Nnqp7iYc1sMnpzas",
+      "parent_id": "1Dfw8g4fWPAXoPGfLjLncAVZjqe93IF5H",
+      "name": "MÙA TRÔI TRÊN QUANG GÁNH.pdf",
+      "mime": "application/pdf",
+      "size": 1122683,
+      "modified": "2026-08-15T10:51:05.000Z",
+      "checksum": "b45974500c6f02c4a2aa3430d151ac0d",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1waHV9tVZisCJPRj4O_bSpT8wnj791Veu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1puWg2HkrKgv5Hn05l1v3dE8AVpg87eaz",
+      "parent_id": "1waHV9tVZisCJPRj4O_bSpT8wnj791Veu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3105,
+      "modified": "2026-08-16T04:00:23.000Z",
+      "checksum": "871066338b1a1f77d9cf72ecca142d0b",
+      "folder": false
+    },
+    {
+      "id": "1XBit5RU1FYdK72GLK2ZsTOmk1j3bmk9z",
+      "parent_id": "1waHV9tVZisCJPRj4O_bSpT8wnj791Veu",
+      "name": "THÂM CUNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1013893,
+      "modified": "2026-08-16T04:00:55.000Z",
+      "checksum": "dcb94e2856acef0be84624dfe2571ee7",
+      "folder": false
+    },
+    {
+      "id": "12ARuJBxsQSOLx8nx6IfUF9WrDl2PDQC4",
+      "parent_id": "1waHV9tVZisCJPRj4O_bSpT8wnj791Veu",
+      "name": "THÂM CUNG.pdf",
+      "mime": "application/pdf",
+      "size": 3791518,
+      "modified": "2026-08-16T04:00:52.000Z",
+      "checksum": "359445b6f8688c5840c74b4a769c0de4",
+      "folder": false
+    }
+  ]
+}

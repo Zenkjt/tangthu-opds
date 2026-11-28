@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Mzb64xUueC8v58ul_IhKL4NLPerQ2Xe8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PWlI5qozn1ek3CfehWCa2xD01wyWzjHt",
+      "parent_id": "1Mzb64xUueC8v58ul_IhKL4NLPerQ2Xe8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8635,
+      "modified": "2026-08-16T03:19:41.000Z",
+      "checksum": "8e1c36259f6aaf8ec76fdfafaa5dd247",
+      "folder": false
+    },
+    {
+      "id": "1zSnm745yln0MD87qBCWonp04_Qjl74LI",
+      "parent_id": "1Mzb64xUueC8v58ul_IhKL4NLPerQ2Xe8",
+      "name": "ĐAM MÊ ĐẮT GIÁ.epub",
+      "mime": "application/epub+zip",
+      "size": 529239,
+      "modified": "2026-08-16T03:19:50.000Z",
+      "checksum": "2b449b61c49a4fca10ef303f087bddfa",
+      "folder": false
+    },
+    {
+      "id": "1RR10qRLZgqe1udpey49gBLE92TsBDv3s",
+      "parent_id": "1Mzb64xUueC8v58ul_IhKL4NLPerQ2Xe8",
+      "name": "ĐAM MÊ ĐẮT GIÁ.pdf",
+      "mime": "application/pdf",
+      "size": 1396519,
+      "modified": "2026-08-16T03:19:48.000Z",
+      "checksum": "b080ebcbf99dde7893ad2f45af3d2a3e",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14lEtdVba69g7nngbo-wDPBjvvaoFGmVS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GbHLAv4ZVL2dNJlWk5YFbvsz0O-qMfQh",
+      "parent_id": "14lEtdVba69g7nngbo-wDPBjvvaoFGmVS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11701,
+      "modified": "2026-08-15T03:43:30.000Z",
+      "checksum": "cb7b5207ebe179b8f20835ac3d551301",
+      "folder": false
+    },
+    {
+      "id": "1ditf0rxPBtHelUit9YEHrKenv5mAWhS-",
+      "parent_id": "14lEtdVba69g7nngbo-wDPBjvvaoFGmVS",
+      "name": "KINH TRƯỜNG BỘ - TẬP 3.epub",
+      "mime": "application/epub+zip",
+      "size": 231686,
+      "modified": "2026-08-15T03:43:37.000Z",
+      "checksum": "591df0759ed376d91a0bda4c84faf719",
+      "folder": false
+    },
+    {
+      "id": "11_3pv5eUok2g48NA2R2SN8W9B03cTbib",
+      "parent_id": "14lEtdVba69g7nngbo-wDPBjvvaoFGmVS",
+      "name": "KINH TRƯỜNG BỘ - TẬP 3.pdf",
+      "mime": "application/pdf",
+      "size": 1583223,
+      "modified": "2026-08-15T03:43:35.000Z",
+      "checksum": "21238a255256444238f754258cdb25fd",
+      "folder": false
+    }
+  ]
+}

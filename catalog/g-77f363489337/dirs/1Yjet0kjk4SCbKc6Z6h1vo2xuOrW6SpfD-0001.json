@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Yjet0kjk4SCbKc6Z6h1vo2xuOrW6SpfD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NGMawJCrocmeIUi6MoxmqVoT3CHLpTlr",
+      "parent_id": "1Yjet0kjk4SCbKc6Z6h1vo2xuOrW6SpfD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1124,
+      "modified": "2026-08-16T03:38:01.000Z",
+      "checksum": "8ab817cae7a7635c493f1fdba027309c",
+      "folder": false
+    },
+    {
+      "id": "1datLNHKg-7SlWQ6CV5MEWogaU4bCyovZ",
+      "parent_id": "1Yjet0kjk4SCbKc6Z6h1vo2xuOrW6SpfD",
+      "name": "LUÔN CÓ NHÂN LOẠI MUỐN CHĂN NUÔI TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 1230454,
+      "modified": "2026-08-16T03:38:15.000Z",
+      "checksum": "6b8468e5ad1f05a0764948558920cfff",
+      "folder": false
+    },
+    {
+      "id": "1NpLFUZwE6qKZAXq7SXNVyuErngRylZMS",
+      "parent_id": "1Yjet0kjk4SCbKc6Z6h1vo2xuOrW6SpfD",
+      "name": "LUÔN CÓ NHÂN LOẠI MUỐN CHĂN NUÔI TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 4402114,
+      "modified": "2026-08-16T03:38:12.000Z",
+      "checksum": "206dd05bf8f6d3aad1a5149d15e9bb81",
+      "folder": false
+    }
+  ]
+}

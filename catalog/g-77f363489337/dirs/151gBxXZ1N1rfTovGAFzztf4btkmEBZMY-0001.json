@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "151gBxXZ1N1rfTovGAFzztf4btkmEBZMY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P3te3aiKIfwFiuKu6pi0auutR4fV98Qf",
+      "parent_id": "151gBxXZ1N1rfTovGAFzztf4btkmEBZMY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8849,
+      "modified": "2026-08-15T09:31:14.000Z",
+      "checksum": "2076ad86d1e82bb8cad19f20de253c6f",
+      "folder": false
+    },
+    {
+      "id": "1u3T5Zpi-HRc5vi2qi-FUjymq2NEq0nI4",
+      "parent_id": "151gBxXZ1N1rfTovGAFzztf4btkmEBZMY",
+      "name": "THƯƠNG LY.epub",
+      "mime": "application/epub+zip",
+      "size": 1302757,
+      "modified": "2026-08-15T09:31:25.000Z",
+      "checksum": "f6962e99f9f5e60034d2ef7a0ccf9b54",
+      "folder": false
+    },
+    {
+      "id": "1Kxu6Vkut9l_WBvYOgQSu2PagljUmlLVJ",
+      "parent_id": "151gBxXZ1N1rfTovGAFzztf4btkmEBZMY",
+      "name": "THƯƠNG LY.pdf",
+      "mime": "application/pdf",
+      "size": 1340864,
+      "modified": "2026-08-15T09:31:21.000Z",
+      "checksum": "3afd98b5a194a5c6a41d10b3af62903e",
+      "folder": false
+    }
+  ]
+}

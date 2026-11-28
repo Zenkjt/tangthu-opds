@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eNQlyCaMF8gK_W57U64BhQpRd-ub2735",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FUEpFcxGAoq4vtcw6mjYhYNig5mCuoQz",
+      "parent_id": "1eNQlyCaMF8gK_W57U64BhQpRd-ub2735",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3352,
+      "modified": "2026-08-15T03:21:13.000Z",
+      "checksum": "16afb80ef2643c91fa271320b88b4c45",
+      "folder": false
+    },
+    {
+      "id": "1jEAQDaLdVOoADWY0_2PJ2ZQjBZGJeNXM",
+      "parent_id": "1eNQlyCaMF8gK_W57U64BhQpRd-ub2735",
+      "name": "TỰ LUYỆN PHƯƠNG PHÁP ĐỌC NHANH.epub",
+      "mime": "application/epub+zip",
+      "size": 728535,
+      "modified": "2026-08-15T03:21:19.000Z",
+      "checksum": "4f905860a3d9b8bc3ec6229441ed1d31",
+      "folder": false
+    },
+    {
+      "id": "1vBQjq74na5ynRsYiJh6NQc7zQVduCoWk",
+      "parent_id": "1eNQlyCaMF8gK_W57U64BhQpRd-ub2735",
+      "name": "TỰ LUYỆN PHƯƠNG PHÁP ĐỌC NHANH.pdf",
+      "mime": "application/pdf",
+      "size": 682529,
+      "modified": "2026-08-15T03:21:17.000Z",
+      "checksum": "cae74f331ae61d275fef483499f8c49c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gIhadEjUErS7IF89Pqwi-pK-Aj8pVH7B",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QTcmzlyddHxkNlHpLdYK14jEpZh4qZ6a",
+      "parent_id": "1gIhadEjUErS7IF89Pqwi-pK-Aj8pVH7B",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 534,
+      "modified": "2026-08-15T10:58:07.000Z",
+      "checksum": "5b50f24d8cd02278babfed592c8c5452",
+      "folder": false
+    },
+    {
+      "id": "1ieajMBadASSyJgYBfQi8VzsC-XqW-AZy",
+      "parent_id": "1gIhadEjUErS7IF89Pqwi-pK-Aj8pVH7B",
+      "name": "ĐỪNG CHẾT VÌ YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 556014,
+      "modified": "2026-08-15T10:58:23.000Z",
+      "checksum": "5715d001eefc9921e418c955d810cddd",
+      "folder": false
+    },
+    {
+      "id": "1Uh2n2pI39Cw9DL-V3t3HpUoOqPbO4IZq",
+      "parent_id": "1gIhadEjUErS7IF89Pqwi-pK-Aj8pVH7B",
+      "name": "ĐỪNG CHẾT VÌ YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 734019,
+      "modified": "2026-08-15T10:58:19.000Z",
+      "checksum": "19d0c6ae7a59b1412cc1d8864750eee0",
+      "folder": false
+    }
+  ]
+}

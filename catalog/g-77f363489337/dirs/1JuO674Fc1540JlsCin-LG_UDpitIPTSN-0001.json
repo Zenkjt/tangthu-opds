@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JuO674Fc1540JlsCin-LG_UDpitIPTSN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kyw0R0oMxxy4JXIpFw0a-iowXVQPZu4X",
+      "parent_id": "1JuO674Fc1540JlsCin-LG_UDpitIPTSN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5433,
+      "modified": "2026-08-15T03:25:50.000Z",
+      "checksum": "36bd25d92d02f0b455c48ba9c0cff373",
+      "folder": false
+    },
+    {
+      "id": "1rHf51K25cpzwJheKGv8VqMfLX8uaLMwU",
+      "parent_id": "1JuO674Fc1540JlsCin-LG_UDpitIPTSN",
+      "name": "VƯƠN TỚI SỰ HOÀN HẢO.epub",
+      "mime": "application/epub+zip",
+      "size": 412207,
+      "modified": "2026-08-15T03:25:57.000Z",
+      "checksum": "498b63d0c3ba923c63ddde87c839845c",
+      "folder": false
+    },
+    {
+      "id": "1NTH7myb0wW7O1kufjLhJzWdHckOQPpIz",
+      "parent_id": "1JuO674Fc1540JlsCin-LG_UDpitIPTSN",
+      "name": "VƯƠN TỚI SỰ HOÀN HẢO.pdf",
+      "mime": "application/pdf",
+      "size": 1148693,
+      "modified": "2026-08-15T03:25:54.000Z",
+      "checksum": "1fabfa5b6891b3ccd4b625ddcc19606f",
+      "folder": false
+    }
+  ]
+}

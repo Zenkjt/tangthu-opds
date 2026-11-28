@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1K6100rXTQyirogVfGXTDEKDj2SP0zrwq",
+  "page": 1,
+  "items": [
+    {
+      "id": "18S5Gv7m_Zwds6x-ZTJesVfxmG62pFLYk",
+      "parent_id": "1K6100rXTQyirogVfGXTDEKDj2SP0zrwq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1051,
+      "modified": "2026-08-15T09:22:31.000Z",
+      "checksum": "26754e8c8595c0aa64ffbf78de5103c3",
+      "folder": false
+    },
+    {
+      "id": "14a-5ujaYQTjCYpxOFdX8rqLtmCg7JmcC",
+      "parent_id": "1K6100rXTQyirogVfGXTDEKDj2SP0zrwq",
+      "name": "DỊ THẾ TÀ QUÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 40783855,
+      "modified": "2026-08-15T09:29:32.000Z",
+      "checksum": "41dc563796e0d870c335d33668afffb2",
+      "folder": false
+    },
+    {
+      "id": "1yY4cICSBKsPBW1_DPsrvc0bRR3UqMa-U",
+      "parent_id": "1K6100rXTQyirogVfGXTDEKDj2SP0zrwq",
+      "name": "DỊ THẾ TÀ QUÂN.pdf",
+      "mime": "application/pdf",
+      "size": 34293362,
+      "modified": "2026-08-15T09:23:02.000Z",
+      "checksum": "38d3e426a4d6c8663125f4413fa02087",
+      "folder": false
+    }
+  ]
+}

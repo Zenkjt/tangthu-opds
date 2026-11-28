@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1G6JX-lcBm75-adsXH7sGfRVmHEUijrW5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SYzmjN6a9WfybqpAmJ2RDrtfq-niEd6x",
+      "parent_id": "1G6JX-lcBm75-adsXH7sGfRVmHEUijrW5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4830,
+      "modified": "2026-08-15T07:23:04.000Z",
+      "checksum": "09fd9cc45b99b55b73ce446e7885be07",
+      "folder": false
+    },
+    {
+      "id": "1gymrjwsrQWCGKUlJCOlwjqtkB0hjEAZs",
+      "parent_id": "1G6JX-lcBm75-adsXH7sGfRVmHEUijrW5",
+      "name": "TRƯỜNG MỆNH NỮ.epub",
+      "mime": "application/epub+zip",
+      "size": 392885,
+      "modified": "2026-08-15T07:23:10.000Z",
+      "checksum": "2e3528ef036589f2cfb7711d3ebea203",
+      "folder": false
+    },
+    {
+      "id": "1nmRElLLaHtoE1ElyxH6ooSIIU9Hgjggt",
+      "parent_id": "1G6JX-lcBm75-adsXH7sGfRVmHEUijrW5",
+      "name": "TRƯỜNG MỆNH NỮ.pdf",
+      "mime": "application/pdf",
+      "size": 661725,
+      "modified": "2026-08-15T07:23:07.000Z",
+      "checksum": "835bd991f2bcb6cb0b0b5a048cb07778",
+      "folder": false
+    }
+  ]
+}

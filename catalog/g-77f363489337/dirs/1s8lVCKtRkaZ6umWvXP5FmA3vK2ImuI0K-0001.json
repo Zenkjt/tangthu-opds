@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1s8lVCKtRkaZ6umWvXP5FmA3vK2ImuI0K",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mNOZbC0-5_5ARO2Rpp4TEOoItWQsLJdH",
+      "parent_id": "1s8lVCKtRkaZ6umWvXP5FmA3vK2ImuI0K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4279,
+      "modified": "2026-08-15T09:51:01.000Z",
+      "checksum": "54e70197fd395eba17a8c485e1dd412d",
+      "folder": false
+    },
+    {
+      "id": "1QFLaGRUjLyyI4xRxFI37EIagMQjBx7wc",
+      "parent_id": "1s8lVCKtRkaZ6umWvXP5FmA3vK2ImuI0K",
+      "name": "ĐỘC CHIẾM HOA KHÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 539660,
+      "modified": "2026-08-15T09:51:08.000Z",
+      "checksum": "5637d56f133affdc07e2652fb7d17bf1",
+      "folder": false
+    },
+    {
+      "id": "1IYPatP10szEX1dIVjEqB45EQ9AKSJRjw",
+      "parent_id": "1s8lVCKtRkaZ6umWvXP5FmA3vK2ImuI0K",
+      "name": "ĐỘC CHIẾM HOA KHÔI.pdf",
+      "mime": "application/pdf",
+      "size": 1125301,
+      "modified": "2026-08-15T09:51:06.000Z",
+      "checksum": "74a285d112be547df1edc9c89bfeaf44",
+      "folder": false
+    }
+  ]
+}

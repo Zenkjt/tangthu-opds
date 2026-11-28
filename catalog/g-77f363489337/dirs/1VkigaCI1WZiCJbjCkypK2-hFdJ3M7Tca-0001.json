@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VkigaCI1WZiCJbjCkypK2-hFdJ3M7Tca",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TTO5ZaTZJhfFNA6vMm7M9hkwmeKpG6zc",
+      "parent_id": "1VkigaCI1WZiCJbjCkypK2-hFdJ3M7Tca",
+      "name": "CHIẾC ĐẠI DƯƠNG CẦM.epub",
+      "mime": "application/epub+zip",
+      "size": 334086,
+      "modified": "2026-08-15T15:32:48.000Z",
+      "checksum": "e5f96fdc65fe8ef5d830adfc19b80be1",
+      "folder": false
+    },
+    {
+      "id": "1DYIdVxeysR1fcVP2MCvxK12nGQpI51lR",
+      "parent_id": "1VkigaCI1WZiCJbjCkypK2-hFdJ3M7Tca",
+      "name": "CHIẾC ĐẠI DƯƠNG CẦM.pdf",
+      "mime": "application/pdf",
+      "size": 399528,
+      "modified": "2026-08-15T15:32:45.000Z",
+      "checksum": "ee37183cafe5c4ee55586bc95d29a5a5",
+      "folder": false
+    },
+    {
+      "id": "16pOCETJOY5cOKoNrDAjQmzSXnSvxH1D2",
+      "parent_id": "1VkigaCI1WZiCJbjCkypK2-hFdJ3M7Tca",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1709,
+      "modified": "2026-08-15T15:32:41.000Z",
+      "checksum": "62c7e63f3b5ebb04cc9369bc25758397",
+      "folder": false
+    }
+  ]
+}

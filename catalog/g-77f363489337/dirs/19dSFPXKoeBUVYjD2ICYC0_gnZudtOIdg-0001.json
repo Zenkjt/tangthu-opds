@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19dSFPXKoeBUVYjD2ICYC0_gnZudtOIdg",
+  "page": 1,
+  "items": [
+    {
+      "id": "10nBzWuZ_UJ9OQ0TkEsF1RlMJRO3DJiTV",
+      "parent_id": "19dSFPXKoeBUVYjD2ICYC0_gnZudtOIdg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 440,
+      "modified": "2026-08-15T10:52:35.000Z",
+      "checksum": "9d0085bf059a4244dd0e74e19b6cc15d",
+      "folder": false
+    },
+    {
+      "id": "1OeLNpCCgxq0ikqHUZzyEhEFOyt1ZaEOq",
+      "parent_id": "19dSFPXKoeBUVYjD2ICYC0_gnZudtOIdg",
+      "name": "MIỀN LƯU DẤU VĂN NHÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 742538,
+      "modified": "2026-08-15T10:52:43.000Z",
+      "checksum": "384b76c9669cf98f0a76ed4c803bd94f",
+      "folder": false
+    },
+    {
+      "id": "1gfUGYsoX9OPsYEtfNK8DH1kCXqIAk4L1",
+      "parent_id": "19dSFPXKoeBUVYjD2ICYC0_gnZudtOIdg",
+      "name": "MIỀN LƯU DẤU VĂN NHÂN.pdf",
+      "mime": "application/pdf",
+      "size": 1502338,
+      "modified": "2026-08-15T10:52:40.000Z",
+      "checksum": "f05989b32c62b0441cde5d0e2e8e4b66",
+      "folder": false
+    }
+  ]
+}

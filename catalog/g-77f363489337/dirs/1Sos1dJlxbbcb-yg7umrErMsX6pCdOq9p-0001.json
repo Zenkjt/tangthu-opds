@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Sos1dJlxbbcb-yg7umrErMsX6pCdOq9p",
+  "page": 1,
+  "items": [
+    {
+      "id": "11oebRL850YEtbJdcRXbbE2JSps6vEtw3",
+      "parent_id": "1Sos1dJlxbbcb-yg7umrErMsX6pCdOq9p",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8452,
+      "modified": "2026-08-16T03:43:58.000Z",
+      "checksum": "996f05201d920f098ad98f117adce6f4",
+      "folder": false
+    },
+    {
+      "id": "1WeI4slRH6wNTpjSqlsxfSADDVv75wi5z",
+      "parent_id": "1Sos1dJlxbbcb-yg7umrErMsX6pCdOq9p",
+      "name": "ĐẢO BÁC SỸ MOREAU.epub",
+      "mime": "application/epub+zip",
+      "size": 731066,
+      "modified": "2026-08-16T03:44:04.000Z",
+      "checksum": "b7d60b34f6d4cf203e5e3486ccc9e56c",
+      "folder": false
+    },
+    {
+      "id": "1X_dD1CZN98UqS8T6PHxUcnMFrBoLDe-0",
+      "parent_id": "1Sos1dJlxbbcb-yg7umrErMsX6pCdOq9p",
+      "name": "ĐẢO BÁC SỸ MOREAU.pdf",
+      "mime": "application/pdf",
+      "size": 568321,
+      "modified": "2026-08-16T03:44:01.000Z",
+      "checksum": "d5a64495178ac8407b302bdb114e49ef",
+      "folder": false
+    }
+  ]
+}

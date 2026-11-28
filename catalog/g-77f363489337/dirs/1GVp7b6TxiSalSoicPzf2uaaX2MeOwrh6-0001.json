@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GVp7b6TxiSalSoicPzf2uaaX2MeOwrh6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oQ2YFxm3ZJW7kIa27UMg9dBq3juC-rZn",
+      "parent_id": "1GVp7b6TxiSalSoicPzf2uaaX2MeOwrh6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 569,
+      "modified": "2026-08-16T04:10:36.000Z",
+      "checksum": "5d38f8908c5276450261e22a393d4d81",
+      "folder": false
+    },
+    {
+      "id": "1qYJ7MqHFr9CFS5-mEWwcLMbQ7scZmR9Q",
+      "parent_id": "1GVp7b6TxiSalSoicPzf2uaaX2MeOwrh6",
+      "name": "NHỮNG CẬU BÉ HỎA TIỄN.epub",
+      "mime": "application/epub+zip",
+      "size": 812584,
+      "modified": "2026-08-16T04:11:03.000Z",
+      "checksum": "83db79731c4ea13482aabbf2cae5a535",
+      "folder": false
+    },
+    {
+      "id": "1QXCH_RlkLGzpBMoMzk_vweJd_CNqU5zM",
+      "parent_id": "1GVp7b6TxiSalSoicPzf2uaaX2MeOwrh6",
+      "name": "NHỮNG CẬU BÉ HỎA TIỄN.pdf",
+      "mime": "application/pdf",
+      "size": 1983491,
+      "modified": "2026-08-16T04:10:57.000Z",
+      "checksum": "c72b11116bcab448d5fd0da3ea8213b0",
+      "folder": false
+    }
+  ]
+}

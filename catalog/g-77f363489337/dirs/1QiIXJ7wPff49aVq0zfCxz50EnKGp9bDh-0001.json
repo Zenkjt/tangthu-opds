@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QiIXJ7wPff49aVq0zfCxz50EnKGp9bDh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1X4Uo3gksbdp3NK0HBQcEpW06Hmuc5T-M",
+      "parent_id": "1QiIXJ7wPff49aVq0zfCxz50EnKGp9bDh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5058,
+      "modified": "2026-08-15T03:40:11.000Z",
+      "checksum": "3a9166d89c316a472e28897a9dd5d1a6",
+      "folder": false
+    },
+    {
+      "id": "1mzpeT6N2QN7EgbQF8_pG4YfdwBj7tmSI",
+      "parent_id": "1QiIXJ7wPff49aVq0zfCxz50EnKGp9bDh",
+      "name": "TẬP YÊU ĐỨA BÉ TRONG TA.epub",
+      "mime": "application/epub+zip",
+      "size": 1684825,
+      "modified": "2026-08-15T03:40:22.000Z",
+      "checksum": "fba508ba20ff1465411caf830c82ecae",
+      "folder": false
+    },
+    {
+      "id": "1JP4lUys05LOsJaToitf6CwwNreWns1Ck",
+      "parent_id": "1QiIXJ7wPff49aVq0zfCxz50EnKGp9bDh",
+      "name": "TẬP YÊU ĐỨA BÉ TRONG TA.pdf",
+      "mime": "application/pdf",
+      "size": 3034940,
+      "modified": "2026-08-15T03:40:16.000Z",
+      "checksum": "1bd1a9e5356c50b6f1c5175555b30b49",
+      "folder": false
+    }
+  ]
+}

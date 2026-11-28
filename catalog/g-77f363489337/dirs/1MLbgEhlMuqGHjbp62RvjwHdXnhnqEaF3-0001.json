@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MLbgEhlMuqGHjbp62RvjwHdXnhnqEaF3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KJwlfwXH1A5QNZKUBfknKAcS6lHb2v9T",
+      "parent_id": "1MLbgEhlMuqGHjbp62RvjwHdXnhnqEaF3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 425,
+      "modified": "2026-08-15T10:31:40.000Z",
+      "checksum": "b96a41275dad32d9dc5df9c80fdff163",
+      "folder": false
+    },
+    {
+      "id": "1cSNhZbBZKYzatTkiai53eHefIsLnjEN_",
+      "parent_id": "1MLbgEhlMuqGHjbp62RvjwHdXnhnqEaF3",
+      "name": "QUÁ KHỨ LÀ MIỀN ĐẤT LẠ.epub",
+      "mime": "application/epub+zip",
+      "size": 525671,
+      "modified": "2026-08-15T10:31:48.000Z",
+      "checksum": "1f1644ef59a7f5e5b186380a77c0f472",
+      "folder": false
+    },
+    {
+      "id": "1pIScuQeDDR_kLONGNTf8csBcPHkZmPCZ",
+      "parent_id": "1MLbgEhlMuqGHjbp62RvjwHdXnhnqEaF3",
+      "name": "QUÁ KHỨ LÀ MIỀN ĐẤT LẠ.pdf",
+      "mime": "application/pdf",
+      "size": 1310050,
+      "modified": "2026-08-15T10:31:45.000Z",
+      "checksum": "21ce2b28a0be689a7ac66b87977ed171",
+      "folder": false
+    }
+  ]
+}

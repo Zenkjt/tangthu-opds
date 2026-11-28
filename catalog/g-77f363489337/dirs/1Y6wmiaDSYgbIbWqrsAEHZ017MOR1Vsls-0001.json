@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Y6wmiaDSYgbIbWqrsAEHZ017MOR1Vsls",
+  "page": 1,
+  "items": [
+    {
+      "id": "1e2nQv7dwu9YTadcprKj7yAxxGLGCiRnf",
+      "parent_id": "1Y6wmiaDSYgbIbWqrsAEHZ017MOR1Vsls",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6257,
+      "modified": "2026-08-15T09:40:43.000Z",
+      "checksum": "ed61411094a5dfab862d63ca3b208577",
+      "folder": false
+    },
+    {
+      "id": "1YHGJf5rjkP8mxRAUNSLYO8XpMxj8mp82",
+      "parent_id": "1Y6wmiaDSYgbIbWqrsAEHZ017MOR1Vsls",
+      "name": "MÓN QUÀ TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 961810,
+      "modified": "2026-08-15T09:40:50.000Z",
+      "checksum": "a1734d50fe8f5d2a1f57238864527dcb",
+      "folder": false
+    },
+    {
+      "id": "1ZL-8NYBwtBQfRoOOZ_Z46PsLLkLVg3mS",
+      "parent_id": "1Y6wmiaDSYgbIbWqrsAEHZ017MOR1Vsls",
+      "name": "MÓN QUÀ TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1067541,
+      "modified": "2026-08-15T09:40:47.000Z",
+      "checksum": "53f989ee39cff67c8d8843d8d80b6691",
+      "folder": false
+    }
+  ]
+}

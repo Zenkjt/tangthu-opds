@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YsGfbOSCbSUVeIWGz2djYeT0pXAh62U9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1c1wZOwdR3zbkAgxIWWHwLjM9bLrxxZnV",
+      "parent_id": "1YsGfbOSCbSUVeIWGz2djYeT0pXAh62U9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3228,
+      "modified": "2026-08-16T03:59:58.000Z",
+      "checksum": "2ad21c4688ae2cf29a32c2b6e003811f",
+      "folder": false
+    },
+    {
+      "id": "1sfFWx__elUGcbeR6wCVNXZg99N7aC6B5",
+      "parent_id": "1YsGfbOSCbSUVeIWGz2djYeT0pXAh62U9",
+      "name": "THÂN BIÊN (NHÂN QUỶ).epub",
+      "mime": "application/epub+zip",
+      "size": 1615635,
+      "modified": "2026-08-16T04:00:05.000Z",
+      "checksum": "6d852c5395ca137843702597ec9761f0",
+      "folder": false
+    },
+    {
+      "id": "13FDVm3FScya3hVOWH4B_Vi4DnKGnduTT",
+      "parent_id": "1YsGfbOSCbSUVeIWGz2djYeT0pXAh62U9",
+      "name": "THÂN BIÊN (NHÂN QUỶ).pdf",
+      "mime": "application/pdf",
+      "size": 1713011,
+      "modified": "2026-08-16T04:00:03.000Z",
+      "checksum": "bdd2427006f8dbf964ffd362a55e54eb",
+      "folder": false
+    }
+  ]
+}

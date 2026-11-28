@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14_S9bADRk_Ux7-kU1GC9I5nDznx9G96b",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UI5kaSpinjPm-wn8L6GGcsWHUBuRuc3L",
+      "parent_id": "14_S9bADRk_Ux7-kU1GC9I5nDznx9G96b",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9449,
+      "modified": "2026-08-15T07:31:41.000Z",
+      "checksum": "71f85982cea0a812648d1875f78ffe6d",
+      "folder": false
+    },
+    {
+      "id": "1sUxntKnsI6k8XfK3vLXrrzVZW9rpPnAu",
+      "parent_id": "14_S9bADRk_Ux7-kU1GC9I5nDznx9G96b",
+      "name": "XUÂN VỀ ĐẾ HẬU.epub",
+      "mime": "application/epub+zip",
+      "size": 965158,
+      "modified": "2026-08-15T07:31:51.000Z",
+      "checksum": "929e4d1773dc82959ef1a66aded3e0c4",
+      "folder": false
+    },
+    {
+      "id": "10oJsVctHvDfInm3xYYbFFUOSVLJQps3U",
+      "parent_id": "14_S9bADRk_Ux7-kU1GC9I5nDznx9G96b",
+      "name": "XUÂN VỀ ĐẾ HẬU.pdf",
+      "mime": "application/pdf",
+      "size": 3649010,
+      "modified": "2026-08-15T07:31:48.000Z",
+      "checksum": "8fa4ff9c647e410fceacf9a6a74213a7",
+      "folder": false
+    }
+  ]
+}

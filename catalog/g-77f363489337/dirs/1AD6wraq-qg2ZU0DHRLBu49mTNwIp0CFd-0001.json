@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AD6wraq-qg2ZU0DHRLBu49mTNwIp0CFd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pCt2jsyOqWt7EEAEtOPz6xY5PvqQZP9e",
+      "parent_id": "1AD6wraq-qg2ZU0DHRLBu49mTNwIp0CFd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4882,
+      "modified": "2026-08-15T15:06:43.000Z",
+      "checksum": "362f60cfb5a486adffb16dbb24a0012b",
+      "folder": false
+    },
+    {
+      "id": "1_FlcOBMh5ulABcaNz5jj8RbyJweAMOlI",
+      "parent_id": "1AD6wraq-qg2ZU0DHRLBu49mTNwIp0CFd",
+      "name": "VỆ TƯ LÝ HỆ LIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 795802,
+      "modified": "2026-08-15T15:07:26.000Z",
+      "checksum": "a48924155d951d73ef1c64fe40fc4f6f",
+      "folder": false
+    },
+    {
+      "id": "1pTEwh2H-7EIcnw4t2FVpIfGOnD9goxmb",
+      "parent_id": "1AD6wraq-qg2ZU0DHRLBu49mTNwIp0CFd",
+      "name": "VỆ TƯ LÝ HỆ LIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 2132901,
+      "modified": "2026-08-15T15:07:21.000Z",
+      "checksum": "13bca0d158e550de647db15433cc9b76",
+      "folder": false
+    }
+  ]
+}

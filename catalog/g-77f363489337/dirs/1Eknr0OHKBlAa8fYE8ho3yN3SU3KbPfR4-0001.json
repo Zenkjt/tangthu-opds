@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Eknr0OHKBlAa8fYE8ho3yN3SU3KbPfR4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XwZ3g5VcHRD5zlfJboCxfZZNJa7vTIVz",
+      "parent_id": "1Eknr0OHKBlAa8fYE8ho3yN3SU3KbPfR4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2277,
+      "modified": "2026-08-15T17:01:50.000Z",
+      "checksum": "90fb9ee29a97fc5ca935aff7aed3ff08",
+      "folder": false
+    },
+    {
+      "id": "1kVWSK2COD1zfUxoHG0H-cLvJPNKcC6Yp",
+      "parent_id": "1Eknr0OHKBlAa8fYE8ho3yN3SU3KbPfR4",
+      "name": "YÊU EM THEO CÁCH CỦA ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 31798054,
+      "modified": "2026-08-15T17:01:59.000Z",
+      "checksum": "40f69149390b50ea1ec66396a1ae19b1",
+      "folder": false
+    },
+    {
+      "id": "1cuXLO6xLEY6MP9CW_vjd3OeOykSsqk6p",
+      "parent_id": "1Eknr0OHKBlAa8fYE8ho3yN3SU3KbPfR4",
+      "name": "YÊU EM THEO CÁCH CỦA ANH.pdf",
+      "mime": "application/pdf",
+      "size": 3679000,
+      "modified": "2026-08-15T17:01:54.000Z",
+      "checksum": "f3374faf550ae9fc975689c54af474a9",
+      "folder": false
+    }
+  ]
+}

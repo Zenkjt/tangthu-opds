@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1v5IQz6SScVPnx4hxSpgoiTuExMMTg58d",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GGAgxgGTg2qsXgfNC4_YGEe89Pqdj0DE",
+      "parent_id": "1v5IQz6SScVPnx4hxSpgoiTuExMMTg58d",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1099,
+      "modified": "2026-08-15T11:30:55.000Z",
+      "checksum": "45ffa52ffe039df4ea3a602122496565",
+      "folder": false
+    },
+    {
+      "id": "1TLzS44b7fD6d1tpIe8CN86LBUQ8zmT9B",
+      "parent_id": "1v5IQz6SScVPnx4hxSpgoiTuExMMTg58d",
+      "name": "TỔNG HỢP KIẾN THỨC PHP CĂN BẢN.epub",
+      "mime": "application/epub+zip",
+      "size": 545270,
+      "modified": "2026-08-15T11:31:01.000Z",
+      "checksum": "9024b98e199c71b906e47bf09c1a9992",
+      "folder": false
+    },
+    {
+      "id": "18FuohfQSFo83hrMAKjREXwsGYVvGsPMT",
+      "parent_id": "1v5IQz6SScVPnx4hxSpgoiTuExMMTg58d",
+      "name": "TỔNG HỢP KIẾN THỨC PHP CĂN BẢN.pdf",
+      "mime": "application/pdf",
+      "size": 662676,
+      "modified": "2026-08-15T11:30:58.000Z",
+      "checksum": "e0042a24c26901a5f09770347850d24b",
+      "folder": false
+    }
+  ]
+}

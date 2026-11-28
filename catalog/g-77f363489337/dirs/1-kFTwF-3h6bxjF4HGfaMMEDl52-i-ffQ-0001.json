@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-kFTwF-3h6bxjF4HGfaMMEDl52-i-ffQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bQ9bHfhFXcYtPghylDoZjZAfHi_eoQHG",
+      "parent_id": "1-kFTwF-3h6bxjF4HGfaMMEDl52-i-ffQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3904,
+      "modified": "2026-08-16T03:31:17.000Z",
+      "checksum": "e2b2a76f854fa8f3ecf2e2c0c669d05b",
+      "folder": false
+    },
+    {
+      "id": "16cS59nqs7058kql8J_XhTubs8QCNX3DO",
+      "parent_id": "1-kFTwF-3h6bxjF4HGfaMMEDl52-i-ffQ",
+      "name": "TÂY SƠN BI HÙNG TRUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 770782,
+      "modified": "2026-08-16T03:31:26.000Z",
+      "checksum": "120197724dfa62cbef8391b7407fb5b8",
+      "folder": false
+    },
+    {
+      "id": "1DOe_FtiNpDPTScTf0CfbnKNeb86kbeso",
+      "parent_id": "1-kFTwF-3h6bxjF4HGfaMMEDl52-i-ffQ",
+      "name": "TÂY SƠN BI HÙNG TRUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 2746858,
+      "modified": "2026-08-16T03:31:23.000Z",
+      "checksum": "4b337a1c8981dc2f9ad22824f1dc6d3d",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10NKegNB-djaiXyphOBneuicMvbEpgg9Q",
+  "page": 1,
+  "items": [
+    {
+      "id": "145kF9zUHP9WzUO01_z7DK9cWdePDPfkD",
+      "parent_id": "10NKegNB-djaiXyphOBneuicMvbEpgg9Q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3552,
+      "modified": "2026-08-15T11:31:24.000Z",
+      "checksum": "833cfdb84be66101b362de0f7f5aabd4",
+      "folder": false
+    },
+    {
+      "id": "15PFSktVBlZbTeH3shYnTqxTwqcG9gcIh",
+      "parent_id": "10NKegNB-djaiXyphOBneuicMvbEpgg9Q",
+      "name": "TẬP SAN NGHIÊN CỨU VĂN SỬ ĐỊA - TẬP 25.epub",
+      "mime": "application/epub+zip",
+      "size": 390185,
+      "modified": "2026-08-15T11:31:28.000Z",
+      "checksum": "80d61518f5e9cd46c6c42cf20389eb57",
+      "folder": false
+    },
+    {
+      "id": "125XCQfQkaSefm65m1fpw8Pexm6Z4pdD8",
+      "parent_id": "10NKegNB-djaiXyphOBneuicMvbEpgg9Q",
+      "name": "TẬP SAN NGHIÊN CỨU VĂN SỬ ĐỊA - TẬP 25.pdf",
+      "mime": "application/pdf",
+      "size": 713863,
+      "modified": "2026-08-15T11:31:27.000Z",
+      "checksum": "ab0876a00e71b3ea79d70e5daae9994c",
+      "folder": false
+    }
+  ]
+}

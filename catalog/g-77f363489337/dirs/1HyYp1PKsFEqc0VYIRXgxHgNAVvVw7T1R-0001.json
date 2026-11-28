@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HyYp1PKsFEqc0VYIRXgxHgNAVvVw7T1R",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YTy8XcioV8itHutR6GOz7zESqofVwFw0",
+      "parent_id": "1HyYp1PKsFEqc0VYIRXgxHgNAVvVw7T1R",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12766,
+      "modified": "2026-08-15T00:59:26.000Z",
+      "checksum": "4d7a7c2bc6225ee70f18765d8eabc7a8",
+      "folder": false
+    },
+    {
+      "id": "1QORVB3JncD2Ty-L9H1yBVinNA5Lxdd7-",
+      "parent_id": "1HyYp1PKsFEqc0VYIRXgxHgNAVvVw7T1R",
+      "name": "SỔ TAY SỬA LỖI HÀNH VĂN.epub",
+      "mime": "application/epub+zip",
+      "size": 284122,
+      "modified": "2026-08-15T00:59:33.000Z",
+      "checksum": "c6d04ae0a029c18afa901b8303a1229b",
+      "folder": false
+    },
+    {
+      "id": "1BjSz4R8zCAcz9Zi7hGNf9dD_u_BhNkS9",
+      "parent_id": "1HyYp1PKsFEqc0VYIRXgxHgNAVvVw7T1R",
+      "name": "SỔ TAY SỬA LỖI HÀNH VĂN.pdf",
+      "mime": "application/pdf",
+      "size": 310344,
+      "modified": "2026-08-15T00:59:31.000Z",
+      "checksum": "71a2664a8b1527781c8098b7eb693262",
+      "folder": false
+    }
+  ]
+}

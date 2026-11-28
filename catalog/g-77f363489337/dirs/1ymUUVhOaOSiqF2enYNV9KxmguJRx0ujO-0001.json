@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ymUUVhOaOSiqF2enYNV9KxmguJRx0ujO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WYW3FFgAu0Nc0A5ktU59lUrBnyFqdckk",
+      "parent_id": "1ymUUVhOaOSiqF2enYNV9KxmguJRx0ujO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8448,
+      "modified": "2026-08-16T02:55:17.000Z",
+      "checksum": "1688accb77be562026a0b6317efd86c7",
+      "folder": false
+    },
+    {
+      "id": "1MNxEOEHsFmw4AvcK03O7rfAniDTqnUGb",
+      "parent_id": "1ymUUVhOaOSiqF2enYNV9KxmguJRx0ujO",
+      "name": "GIA ĐÌNH BUDDENBROOK.epub",
+      "mime": "application/epub+zip",
+      "size": 1235840,
+      "modified": "2026-08-16T02:55:27.000Z",
+      "checksum": "6d4bbf1c8d1a45d3e3e77a5614066111",
+      "folder": false
+    },
+    {
+      "id": "1wujaCRS93jMxce6khzXVlSegLsI6Nyen",
+      "parent_id": "1ymUUVhOaOSiqF2enYNV9KxmguJRx0ujO",
+      "name": "GIA ĐÌNH BUDDENBROOK.pdf",
+      "mime": "application/pdf",
+      "size": 3174611,
+      "modified": "2026-08-16T02:55:24.000Z",
+      "checksum": "5b316708ea9e1a3071f6ca8f5fe6f559",
+      "folder": false
+    }
+  ]
+}

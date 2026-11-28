@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1luw1zxhMoyou-bC7MijZzAuqqDJVq61S",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pEtgwG0nkXPEoykimrOZF4DjxyQONoWk",
+      "parent_id": "1luw1zxhMoyou-bC7MijZzAuqqDJVq61S",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3441,
+      "modified": "2026-08-15T10:35:55.000Z",
+      "checksum": "d12dd12bd1f4150e4f09548cc10ce58d",
+      "folder": false
+    },
+    {
+      "id": "1XVBdFqIvsMbaG4nnk8zVLINHtaJ1uaoA",
+      "parent_id": "1luw1zxhMoyou-bC7MijZzAuqqDJVq61S",
+      "name": "NƠI NÀY TRỜI VẪN CÒN XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 654286,
+      "modified": "2026-08-15T10:36:06.000Z",
+      "checksum": "222ad942d2b4decec2a1953989cd36b7",
+      "folder": false
+    },
+    {
+      "id": "1dyqBdsegJYl7_V9Izg0a46vOqOiACe4r",
+      "parent_id": "1luw1zxhMoyou-bC7MijZzAuqqDJVq61S",
+      "name": "NƠI NÀY TRỜI VẪN CÒN XANH.pdf",
+      "mime": "application/pdf",
+      "size": 1842804,
+      "modified": "2026-08-15T10:36:03.000Z",
+      "checksum": "f8b1de368176cf87b75c9d867f5c9dae",
+      "folder": false
+    }
+  ]
+}

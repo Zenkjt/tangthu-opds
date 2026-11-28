@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Nwq7BwDaVE7U9ukH0rGZ8gO-3rTMiACa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZWdEO7DG8Sr5MxHbpGsiMXby9VTMZShN",
+      "parent_id": "1Nwq7BwDaVE7U9ukH0rGZ8gO-3rTMiACa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3496,
+      "modified": "2026-08-15T06:34:36.000Z",
+      "checksum": "7b82243a8592e650b8869f65b964deb7",
+      "folder": false
+    },
+    {
+      "id": "1pGwDmjL-XdzneMQCOLOGjP0E4V_51dmt",
+      "parent_id": "1Nwq7BwDaVE7U9ukH0rGZ8gO-3rTMiACa",
+      "name": "GÁI TRỌ.epub",
+      "mime": "application/epub+zip",
+      "size": 356017,
+      "modified": "2026-08-15T06:34:42.000Z",
+      "checksum": "885be903217436fd46879606b58143f6",
+      "folder": false
+    },
+    {
+      "id": "1cY4lA6CmWuX0VfFy27jwDmYU4r1GAryN",
+      "parent_id": "1Nwq7BwDaVE7U9ukH0rGZ8gO-3rTMiACa",
+      "name": "GÁI TRỌ.pdf",
+      "mime": "application/pdf",
+      "size": 1025581,
+      "modified": "2026-08-15T06:34:40.000Z",
+      "checksum": "7a51e276f8e246e9109d5b66def4dbb2",
+      "folder": false
+    }
+  ]
+}

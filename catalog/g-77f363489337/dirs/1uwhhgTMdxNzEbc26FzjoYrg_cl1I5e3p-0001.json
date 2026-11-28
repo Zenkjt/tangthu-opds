@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uwhhgTMdxNzEbc26FzjoYrg_cl1I5e3p",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ck8BKqj-oOxpAe2h8VZB67nf3UZTcZay",
+      "parent_id": "1uwhhgTMdxNzEbc26FzjoYrg_cl1I5e3p",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1591,
+      "modified": "2026-08-15T10:01:14.000Z",
+      "checksum": "00eb3f397578893e0752ec82766cd1d6",
+      "folder": false
+    },
+    {
+      "id": "1KDarFVFI5C2aG0kTB22RtR0mk39tDO16",
+      "parent_id": "1uwhhgTMdxNzEbc26FzjoYrg_cl1I5e3p",
+      "name": "TỘI NÀY, TÔI KHÔNG NHẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 1186001,
+      "modified": "2026-08-15T10:01:26.000Z",
+      "checksum": "7ab2c6cb163770baaf0acdab4491e8c5",
+      "folder": false
+    },
+    {
+      "id": "1ERcq4hw6QrluGVEs3TPft2uc9Y55W3xE",
+      "parent_id": "1uwhhgTMdxNzEbc26FzjoYrg_cl1I5e3p",
+      "name": "TỘI NÀY, TÔI KHÔNG NHẬN.pdf",
+      "mime": "application/pdf",
+      "size": 4749022,
+      "modified": "2026-08-15T10:01:23.000Z",
+      "checksum": "3491919cb2ab00be7c689995147d659e",
+      "folder": false
+    }
+  ]
+}

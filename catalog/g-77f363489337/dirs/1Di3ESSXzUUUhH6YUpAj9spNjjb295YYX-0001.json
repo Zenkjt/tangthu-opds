@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Di3ESSXzUUUhH6YUpAj9spNjjb295YYX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZrvWGwmrbR3_Qg-a-QW0j5opPfJ-EFjr",
+      "parent_id": "1Di3ESSXzUUUhH6YUpAj9spNjjb295YYX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7090,
+      "modified": "2026-08-16T03:38:31.000Z",
+      "checksum": "67387c48fb35886d6ad3a1fd6134d597",
+      "folder": false
+    },
+    {
+      "id": "1uMiq5EbAddqfL3Jbah4CWlf6Q_2BMdH3",
+      "parent_id": "1Di3ESSXzUUUhH6YUpAj9spNjjb295YYX",
+      "name": "LINH SƠN.epub",
+      "mime": "application/epub+zip",
+      "size": 361963,
+      "modified": "2026-08-16T03:38:36.000Z",
+      "checksum": "0766759430022f461cbae5cade06bebd",
+      "folder": false
+    },
+    {
+      "id": "1hx5AsEXdKUv-l0tpnDkwkMTvVzOMSxZ_",
+      "parent_id": "1Di3ESSXzUUUhH6YUpAj9spNjjb295YYX",
+      "name": "LINH SƠN.pdf",
+      "mime": "application/pdf",
+      "size": 337152,
+      "modified": "2026-08-16T03:38:34.000Z",
+      "checksum": "1a6e450eb94cff554e9d62a87fcf1f04",
+      "folder": false
+    }
+  ]
+}

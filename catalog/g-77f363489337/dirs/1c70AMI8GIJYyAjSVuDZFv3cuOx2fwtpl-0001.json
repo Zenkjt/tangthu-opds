@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1c70AMI8GIJYyAjSVuDZFv3cuOx2fwtpl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qkrgycTgrFVUbXKrcGMBUnIhYuoEyhAY",
+      "parent_id": "1c70AMI8GIJYyAjSVuDZFv3cuOx2fwtpl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3293,
+      "modified": "2026-08-16T04:08:05.000Z",
+      "checksum": "0de317ed60359051707456528240f9a3",
+      "folder": false
+    },
+    {
+      "id": "1lpIKIHrHBUaFWzHn2bKNffCi6BINnlAM",
+      "parent_id": "1c70AMI8GIJYyAjSVuDZFv3cuOx2fwtpl",
+      "name": "NỮ TẶC GIANG BẮC.epub",
+      "mime": "application/epub+zip",
+      "size": 1121296,
+      "modified": "2026-08-16T04:08:19.000Z",
+      "checksum": "a3746ae060636bb5761b7e1db0ed3c6e",
+      "folder": false
+    },
+    {
+      "id": "12TfDfrIeg82dNbRS-tve3YJUWzPe0ARv",
+      "parent_id": "1c70AMI8GIJYyAjSVuDZFv3cuOx2fwtpl",
+      "name": "NỮ TẶC GIANG BẮC.pdf",
+      "mime": "application/pdf",
+      "size": 4148638,
+      "modified": "2026-08-16T04:08:15.000Z",
+      "checksum": "240f1c82365b88118b4c917f13a8fcf2",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wPoA2m0On7FVl6r9sNP1_pgdoIIt1OUZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vDWNzIwh5AG25hLI38t6lPs41QIsdP36",
+      "parent_id": "1wPoA2m0On7FVl6r9sNP1_pgdoIIt1OUZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1975,
+      "modified": "2026-08-15T15:10:14.000Z",
+      "checksum": "414c7d4e7d8207b57b8ca7693b453041",
+      "folder": false
+    },
+    {
+      "id": "1iAW05VK4sE4aYIHKr-tbjjv997F34jzW",
+      "parent_id": "1wPoA2m0On7FVl6r9sNP1_pgdoIIt1OUZ",
+      "name": "KHỈ VÀ HỔ.epub",
+      "mime": "application/epub+zip",
+      "size": 899080,
+      "modified": "2026-08-15T15:10:20.000Z",
+      "checksum": "898a9ad18f532843922c41a0d402f9af",
+      "folder": false
+    },
+    {
+      "id": "12XbAPgZwThGfPN6o0JhXSMIZe0a7J58S",
+      "parent_id": "1wPoA2m0On7FVl6r9sNP1_pgdoIIt1OUZ",
+      "name": "KHỈ VÀ HỔ.pdf",
+      "mime": "application/pdf",
+      "size": 1129236,
+      "modified": "2026-08-15T15:10:17.000Z",
+      "checksum": "d05cfcc60ae8d8a49a3d206499a6b24b",
+      "folder": false
+    }
+  ]
+}

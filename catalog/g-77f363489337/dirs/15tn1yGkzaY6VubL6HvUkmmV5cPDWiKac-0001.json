@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15tn1yGkzaY6VubL6HvUkmmV5cPDWiKac",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gGK_wRCcrqr8faDAkub6CpBI0MBn4B1i",
+      "parent_id": "15tn1yGkzaY6VubL6HvUkmmV5cPDWiKac",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 607,
+      "modified": "2026-08-16T04:01:24.000Z",
+      "checksum": "247a98c34b8304441c87bbdde83a2bd2",
+      "folder": false
+    },
+    {
+      "id": "1kvpa8xkJnTVEuB5O3znhbhMVt2G32Wcl",
+      "parent_id": "15tn1yGkzaY6VubL6HvUkmmV5cPDWiKac",
+      "name": "TẬP TRUYỆN NGẮN NGUYÊN BÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 345599,
+      "modified": "2026-08-16T04:01:30.000Z",
+      "checksum": "3726e9e42be9d79ad238af6c898e62f7",
+      "folder": false
+    },
+    {
+      "id": "1YdGu-xLYVqLWWZjU7vOsN4A_A0TTGr5C",
+      "parent_id": "15tn1yGkzaY6VubL6HvUkmmV5cPDWiKac",
+      "name": "TẬP TRUYỆN NGẮN NGUYÊN BÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 232261,
+      "modified": "2026-08-16T04:01:27.000Z",
+      "checksum": "9798783ab90c7b919908bdcbf2ad8474",
+      "folder": false
+    }
+  ]
+}

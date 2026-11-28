@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IGqTCQ8mZiJ-H-L8J-VUoREhSoQg_ede",
+  "page": 1,
+  "items": [
+    {
+      "id": "162UYSk1aZx-8-afh_B9Tv3-MamHHXZ5p",
+      "parent_id": "1IGqTCQ8mZiJ-H-L8J-VUoREhSoQg_ede",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1002,
+      "modified": "2026-08-15T10:47:31.000Z",
+      "checksum": "c8f746112e17bd3dc22420464b3b2a58",
+      "folder": false
+    },
+    {
+      "id": "1YhfD1502NzMSNUMEh5mOQBYkP9TRvRjV",
+      "parent_id": "1IGqTCQ8mZiJ-H-L8J-VUoREhSoQg_ede",
+      "name": "NGÀI ĐẠI TÁ CHỜ THƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 709020,
+      "modified": "2026-08-15T10:47:40.000Z",
+      "checksum": "c574ca1128e07d6a6bd0f2c1088465b6",
+      "folder": false
+    },
+    {
+      "id": "1crNwxwwEYl4it3Vm3rDzZ1006eCpfrgk",
+      "parent_id": "1IGqTCQ8mZiJ-H-L8J-VUoREhSoQg_ede",
+      "name": "NGÀI ĐẠI TÁ CHỜ THƯ.pdf",
+      "mime": "application/pdf",
+      "size": 1836266,
+      "modified": "2026-08-15T10:47:37.000Z",
+      "checksum": "9fc9474ff5667c777aebbf11fe0c9b7d",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1T8yLdmYOyTpOK5nlC3B25LPTgSv5H4V2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mE0zxSwnu7bMyavI5WmpdiLfDyLKg_Li",
+      "parent_id": "1T8yLdmYOyTpOK5nlC3B25LPTgSv5H4V2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4085,
+      "modified": "2026-08-15T00:52:14.000Z",
+      "checksum": "ff4e8186b8fe29183c69855d90eaa5a3",
+      "folder": false
+    },
+    {
+      "id": "19Eem2kKza9O6jkt3dQFvOw-N3RjbwBZz",
+      "parent_id": "1T8yLdmYOyTpOK5nlC3B25LPTgSv5H4V2",
+      "name": "SỨ MỆNH YÊU THƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 446104,
+      "modified": "2026-08-15T00:52:20.000Z",
+      "checksum": "c5edac87a11a145b686c5051bbf89530",
+      "folder": false
+    },
+    {
+      "id": "1LtPjvLjiGB3MFzlTY6rWFHb_vekjxBlO",
+      "parent_id": "1T8yLdmYOyTpOK5nlC3B25LPTgSv5H4V2",
+      "name": "SỨ MỆNH YÊU THƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 895979,
+      "modified": "2026-08-15T00:52:18.000Z",
+      "checksum": "a7cd66b244ee75ceecfe044866b7079b",
+      "folder": false
+    }
+  ]
+}

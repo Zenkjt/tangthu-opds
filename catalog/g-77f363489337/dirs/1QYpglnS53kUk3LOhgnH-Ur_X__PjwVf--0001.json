@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QYpglnS53kUk3LOhgnH-Ur_X__PjwVf-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1A6g5gGMvp8CBL3AfPep9-BrYilXmtcOY",
+      "parent_id": "1QYpglnS53kUk3LOhgnH-Ur_X__PjwVf-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3217,
+      "modified": "2026-08-15T15:36:00.000Z",
+      "checksum": "e6f3217cabc10084162303e83dba5f01",
+      "folder": false
+    },
+    {
+      "id": "1Xtnjsr4dBIsLpA9-L9RKxRVE64pizs5e",
+      "parent_id": "1QYpglnS53kUk3LOhgnH-Ur_X__PjwVf-",
+      "name": "THÚ SĂN NGƯỜI - PYENTA.epub",
+      "mime": "application/epub+zip",
+      "size": 385165,
+      "modified": "2026-08-15T15:36:05.000Z",
+      "checksum": "40231a05bf3ae8cb090eb0463c39bf6f",
+      "folder": false
+    },
+    {
+      "id": "1ZvbDKr-xmKr4tC-MRntWigm2qJHYAYpV",
+      "parent_id": "1QYpglnS53kUk3LOhgnH-Ur_X__PjwVf-",
+      "name": "THÚ SĂN NGƯỜI - PYENTA.pdf",
+      "mime": "application/pdf",
+      "size": 389054,
+      "modified": "2026-08-15T15:36:03.000Z",
+      "checksum": "1c88dccd464ec0e97bb2689b364cbd1b",
+      "folder": false
+    }
+  ]
+}

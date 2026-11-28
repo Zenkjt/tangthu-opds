@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yR44gwXbfgBEVmP-uWBqj3zZPmN580CK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dsM_UD8IEUFsNXz5kq5FkVQyyFo3GFVF",
+      "parent_id": "1yR44gwXbfgBEVmP-uWBqj3zZPmN580CK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5634,
+      "modified": "2026-08-16T03:08:47.000Z",
+      "checksum": "05eb9245070d639322a26c95e995548c",
+      "folder": false
+    },
+    {
+      "id": "12rgwJSMhAcN0L7RA7vRsjorqUoOJsK46",
+      "parent_id": "1yR44gwXbfgBEVmP-uWBqj3zZPmN580CK",
+      "name": "HẠNH PHÚC BẤT NGỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 526844,
+      "modified": "2026-08-16T03:08:55.000Z",
+      "checksum": "706b88f7c75710aa50a937508135a97d",
+      "folder": false
+    },
+    {
+      "id": "19huNl8M0dyzhddRbz8uC09_kdT0ZXNY9",
+      "parent_id": "1yR44gwXbfgBEVmP-uWBqj3zZPmN580CK",
+      "name": "HẠNH PHÚC BẤT NGỜ.pdf",
+      "mime": "application/pdf",
+      "size": 1234784,
+      "modified": "2026-08-16T03:08:52.000Z",
+      "checksum": "a3dfbaecfe68c790e9f10706327e50a2",
+      "folder": false
+    }
+  ]
+}

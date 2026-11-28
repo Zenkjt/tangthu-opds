@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NvxI-BAOHLpwHiLbj8ISj2nvI9AuK3vO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WTAuYaDpGacsjrT7lgJz80mEXKM0_0mm",
+      "parent_id": "1NvxI-BAOHLpwHiLbj8ISj2nvI9AuK3vO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3113,
+      "modified": "2026-08-16T03:54:39.000Z",
+      "checksum": "cee27e560da78bce8c32e74062135733",
+      "folder": false
+    },
+    {
+      "id": "1larBbb9fGht2sFTISio_oNUP5Qhvvxob",
+      "parent_id": "1NvxI-BAOHLpwHiLbj8ISj2nvI9AuK3vO",
+      "name": "TÌNH CA CHO NICK VÀ NORAH.epub",
+      "mime": "application/epub+zip",
+      "size": 509140,
+      "modified": "2026-08-16T03:54:44.000Z",
+      "checksum": "77f78b1afb0d018778434658d8aefa42",
+      "folder": false
+    },
+    {
+      "id": "1FkVxIF2had77IdQiNi82T08Rvkv4Hart",
+      "parent_id": "1NvxI-BAOHLpwHiLbj8ISj2nvI9AuK3vO",
+      "name": "TÌNH CA CHO NICK VÀ NORAH.pdf",
+      "mime": "application/pdf",
+      "size": 635525,
+      "modified": "2026-08-16T03:54:42.000Z",
+      "checksum": "1f6eab1b15d68a1eb7aaf209a11be883",
+      "folder": false
+    }
+  ]
+}

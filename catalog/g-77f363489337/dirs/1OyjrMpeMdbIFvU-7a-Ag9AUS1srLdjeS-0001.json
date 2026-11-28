@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OyjrMpeMdbIFvU-7a-Ag9AUS1srLdjeS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1923n6eY68qLNgJAUimyytlILs2dch8GL",
+      "parent_id": "1OyjrMpeMdbIFvU-7a-Ag9AUS1srLdjeS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 215,
+      "modified": "2026-08-15T10:52:21.000Z",
+      "checksum": "2fa6aef8bc930d786cc6a5542a78c081",
+      "folder": false
+    },
+    {
+      "id": "1XYFIPXvr2wSxn6viy0U3X3IiebuB0AFE",
+      "parent_id": "1OyjrMpeMdbIFvU-7a-Ag9AUS1srLdjeS",
+      "name": "MỘT NỬA ĐẠI ĐỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 367781,
+      "modified": "2026-08-15T10:52:27.000Z",
+      "checksum": "071418ba11a248fa1aadc2d227a3d579",
+      "folder": false
+    },
+    {
+      "id": "1AJchJynqcROQWQwlw-YJoeIherqDNmgt",
+      "parent_id": "1OyjrMpeMdbIFvU-7a-Ag9AUS1srLdjeS",
+      "name": "MỘT NỬA ĐẠI ĐỘI.pdf",
+      "mime": "application/pdf",
+      "size": 530295,
+      "modified": "2026-08-15T10:52:24.000Z",
+      "checksum": "de4f3af1f83a57712c83389fbf156ee4",
+      "folder": false
+    }
+  ]
+}

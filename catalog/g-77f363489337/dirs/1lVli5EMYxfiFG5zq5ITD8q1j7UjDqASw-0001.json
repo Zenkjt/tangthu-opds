@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lVli5EMYxfiFG5zq5ITD8q1j7UjDqASw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1R9TAbINDz5mcj1Brjd4KBIFZXcieT_8X",
+      "parent_id": "1lVli5EMYxfiFG5zq5ITD8q1j7UjDqASw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2705,
+      "modified": "2026-08-15T03:37:36.000Z",
+      "checksum": "ed6c9e81b899cd4e7e432e01170fecdc",
+      "folder": false
+    },
+    {
+      "id": "1zsIvfDm1L5lro4gWbMU1b0XgoA8yIdBk",
+      "parent_id": "1lVli5EMYxfiFG5zq5ITD8q1j7UjDqASw",
+      "name": "ĐỪNG COI THƯỜNG PHIỀN NÃO.epub",
+      "mime": "application/epub+zip",
+      "size": 162917,
+      "modified": "2026-08-15T03:37:42.000Z",
+      "checksum": "d08d009f599e7bf6dfa5418be8de11c9",
+      "folder": false
+    },
+    {
+      "id": "1FEsZ5PfK9Yzh0dF-eMYkV9IS5p47rHKi",
+      "parent_id": "1lVli5EMYxfiFG5zq5ITD8q1j7UjDqASw",
+      "name": "ĐỪNG COI THƯỜNG PHIỀN NÃO.pdf",
+      "mime": "application/pdf",
+      "size": 427052,
+      "modified": "2026-08-15T03:37:40.000Z",
+      "checksum": "237459eb4fa482627b8a6e351d8f13e8",
+      "folder": false
+    }
+  ]
+}

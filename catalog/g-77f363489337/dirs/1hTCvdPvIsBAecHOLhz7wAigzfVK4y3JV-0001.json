@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hTCvdPvIsBAecHOLhz7wAigzfVK4y3JV",
+  "page": 1,
+  "items": [
+    {
+      "id": "19WlGBQbyb-iV8IQADjb76kucB96jxIaP",
+      "parent_id": "1hTCvdPvIsBAecHOLhz7wAigzfVK4y3JV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1223,
+      "modified": "2026-08-15T03:15:54.000Z",
+      "checksum": "851f486f43936647bfaccee89b1a96bb",
+      "folder": false
+    },
+    {
+      "id": "1qnLqXQQIX8EPhjaBymyrlkHXU6MeyIM_",
+      "parent_id": "1hTCvdPvIsBAecHOLhz7wAigzfVK4y3JV",
+      "name": "HỌC GIỎI CÁCH NÀO ĐÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 1481828,
+      "modified": "2026-08-15T03:16:02.000Z",
+      "checksum": "0afd39c9075bf6bcb0b81b2d453162da",
+      "folder": false
+    },
+    {
+      "id": "1JsYFb7XS5APjWQa40Y7Fon0BAdDKtV9n",
+      "parent_id": "1hTCvdPvIsBAecHOLhz7wAigzfVK4y3JV",
+      "name": "HỌC GIỎI CÁCH NÀO ĐÂY.pdf",
+      "mime": "application/pdf",
+      "size": 8124118,
+      "modified": "2026-08-15T03:15:59.000Z",
+      "checksum": "dd57d66603a4e99332223756dd0b4b86",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13WHFioUtHjPXz1UBPAsXAUo_lrOn11KG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lmfGizVCks3Sf3u76fk5lFMT2gSnarUs",
+      "parent_id": "13WHFioUtHjPXz1UBPAsXAUo_lrOn11KG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3186,
+      "modified": "2026-08-16T04:03:31.000Z",
+      "checksum": "e85cd0350c7ab51058d857e79ae82837",
+      "folder": false
+    },
+    {
+      "id": "1Ox3T4_QlrCdeYD6C2FjsprGkG5d50ROm",
+      "parent_id": "13WHFioUtHjPXz1UBPAsXAUo_lrOn11KG",
+      "name": "SOCOLA CHO TUỔI MỚI LỚN.epub",
+      "mime": "application/epub+zip",
+      "size": 381099,
+      "modified": "2026-08-16T04:03:37.000Z",
+      "checksum": "ecd323ae22bd3756aec674dd7c92d156",
+      "folder": false
+    },
+    {
+      "id": "1MabX5uzJbja0dHc1YdC4Wd-GvZAo5Qcd",
+      "parent_id": "13WHFioUtHjPXz1UBPAsXAUo_lrOn11KG",
+      "name": "SOCOLA CHO TUỔI MỚI LỚN.pdf",
+      "mime": "application/pdf",
+      "size": 700565,
+      "modified": "2026-08-16T04:03:35.000Z",
+      "checksum": "5fff9d2572505e7ba75c6825f6eec0e5",
+      "folder": false
+    }
+  ]
+}

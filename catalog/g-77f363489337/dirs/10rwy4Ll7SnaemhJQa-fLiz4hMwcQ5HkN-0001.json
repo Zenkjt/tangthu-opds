@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10rwy4Ll7SnaemhJQa-fLiz4hMwcQ5HkN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ynIdSib4VVW7ct8iXj-dNLZSreXB40gg",
+      "parent_id": "10rwy4Ll7SnaemhJQa-fLiz4hMwcQ5HkN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 494,
+      "modified": "2026-08-16T04:02:58.000Z",
+      "checksum": "6066f067dd0cf05dff62d02ebad1a3d8",
+      "folder": false
+    },
+    {
+      "id": "1KXcBLJihZT-_683bbV8miL-EKfHhqbNZ",
+      "parent_id": "10rwy4Ll7SnaemhJQa-fLiz4hMwcQ5HkN",
+      "name": "SỰ BÙNG NỔ DỊU DÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 393960,
+      "modified": "2026-08-16T04:03:04.000Z",
+      "checksum": "a7592f890d65d0dace9fc4c04c33a4fd",
+      "folder": false
+    },
+    {
+      "id": "1uZYtrPDa6bvZ7W93GeEMIt2AbBbt3cFn",
+      "parent_id": "10rwy4Ll7SnaemhJQa-fLiz4hMwcQ5HkN",
+      "name": "SỰ BÙNG NỔ DỊU DÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 695843,
+      "modified": "2026-08-16T04:03:02.000Z",
+      "checksum": "393e630485e0ad89fee9e91d3888382d",
+      "folder": false
+    }
+  ]
+}

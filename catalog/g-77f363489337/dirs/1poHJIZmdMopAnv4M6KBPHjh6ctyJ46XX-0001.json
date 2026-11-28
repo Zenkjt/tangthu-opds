@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1poHJIZmdMopAnv4M6KBPHjh6ctyJ46XX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ClcrO-8aexx1_ToteXKy_Gt1lDDSfFQ8",
+      "parent_id": "1poHJIZmdMopAnv4M6KBPHjh6ctyJ46XX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4373,
+      "modified": "2026-08-15T09:44:22.000Z",
+      "checksum": "fa5cc0df296f62193c1871df23e85a93",
+      "folder": false
+    },
+    {
+      "id": "1RVzpu6s2AUxkQp7OXlTJpggL6Vxsd1oa",
+      "parent_id": "1poHJIZmdMopAnv4M6KBPHjh6ctyJ46XX",
+      "name": "LÂU ĐÀI HUYỀN BÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 583868,
+      "modified": "2026-08-15T09:44:35.000Z",
+      "checksum": "06a06bb86564bb18ca7100fc353db03c",
+      "folder": false
+    },
+    {
+      "id": "1Fa5fNFNIwpiZyj-lPUklj0OjrA-9u-mA",
+      "parent_id": "1poHJIZmdMopAnv4M6KBPHjh6ctyJ46XX",
+      "name": "LÂU ĐÀI HUYỀN BÍ.pdf",
+      "mime": "application/pdf",
+      "size": 934923,
+      "modified": "2026-08-15T09:44:31.000Z",
+      "checksum": "4ee329debe84fd687acfbc3e05710014",
+      "folder": false
+    }
+  ]
+}

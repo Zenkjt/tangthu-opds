@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UIyXYQ2_s6xEB-TNJPC0Yvz5gcCpUGaT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zLxvZLIy_1-06A6cRCCbHBZcFXITVofY",
+      "parent_id": "1UIyXYQ2_s6xEB-TNJPC0Yvz5gcCpUGaT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1626,
+      "modified": "2026-08-16T02:49:54.000Z",
+      "checksum": "c6a22d188d45600858b79612a1ba6702",
+      "folder": false
+    },
+    {
+      "id": "1DP-2OYVC0Hzi2kRhziNkbrhKTaIGgu7j",
+      "parent_id": "1UIyXYQ2_s6xEB-TNJPC0Yvz5gcCpUGaT",
+      "name": "GÁNH HÀNG HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 439336,
+      "modified": "2026-08-16T02:50:01.000Z",
+      "checksum": "61a654eb002303b7dfd952785c28568a",
+      "folder": false
+    },
+    {
+      "id": "1z2R-iF2B8f8ragVY8259jotPjSriv8Nx",
+      "parent_id": "1UIyXYQ2_s6xEB-TNJPC0Yvz5gcCpUGaT",
+      "name": "GÁNH HÀNG HOA.pdf",
+      "mime": "application/pdf",
+      "size": 858522,
+      "modified": "2026-08-16T02:49:59.000Z",
+      "checksum": "6f04e045b9e65d0f629ac95ec6f883b0",
+      "folder": false
+    }
+  ]
+}

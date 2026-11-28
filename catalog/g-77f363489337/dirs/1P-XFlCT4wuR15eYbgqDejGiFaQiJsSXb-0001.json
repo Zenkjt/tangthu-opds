@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1P-XFlCT4wuR15eYbgqDejGiFaQiJsSXb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kRZIMyb8QmX30Sqav0wDkqDlIX6WyQTx",
+      "parent_id": "1P-XFlCT4wuR15eYbgqDejGiFaQiJsSXb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5295,
+      "modified": "2026-08-15T00:47:00.000Z",
+      "checksum": "c40e00e0c9608ba126eae37c3b29a153",
+      "folder": false
+    },
+    {
+      "id": "1qm7YD8O5jrdHM9O7ya0S6Z-fgAsbW2ia",
+      "parent_id": "1P-XFlCT4wuR15eYbgqDejGiFaQiJsSXb",
+      "name": "GÓC NHÌN CỦA NGƯỜI THÔNG THÁI.epub",
+      "mime": "application/epub+zip",
+      "size": 465277,
+      "modified": "2026-08-15T00:47:06.000Z",
+      "checksum": "6fcc20cf31de62a8be9a31018e33f35c",
+      "folder": false
+    },
+    {
+      "id": "1uEbiT1f0zSAxJkGUqYFJpLTNGXPhiS_m",
+      "parent_id": "1P-XFlCT4wuR15eYbgqDejGiFaQiJsSXb",
+      "name": "GÓC NHÌN CỦA NGƯỜI THÔNG THÁI.pdf",
+      "mime": "application/pdf",
+      "size": 567303,
+      "modified": "2026-08-15T00:47:03.000Z",
+      "checksum": "03cc0bcb64d46e483bc13c438ee2a108",
+      "folder": false
+    }
+  ]
+}

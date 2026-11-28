@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sVXRqCeI3dq7F6P6vRBtlSANXVXlrDTp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EmhBHNZMEjdakDnnAC4oHzu5FkBx8qV1",
+      "parent_id": "1sVXRqCeI3dq7F6P6vRBtlSANXVXlrDTp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 394,
+      "modified": "2026-08-16T03:53:07.000Z",
+      "checksum": "e5221874ddc0d6404dc93cd98490d38a",
+      "folder": false
+    },
+    {
+      "id": "1NNvVsd48KvIpNSp0JPDGjBEzFZVY1yDk",
+      "parent_id": "1sVXRqCeI3dq7F6P6vRBtlSANXVXlrDTp",
+      "name": "TÔI LÀ NGƯỜI MÁY.epub",
+      "mime": "application/epub+zip",
+      "size": 357646,
+      "modified": "2026-08-16T03:53:13.000Z",
+      "checksum": "b53e8af5e9d5bedea7aed63674086313",
+      "folder": false
+    },
+    {
+      "id": "10ELKqcZ2YChBWSLJry7ZX8Qab0z1n4hw",
+      "parent_id": "1sVXRqCeI3dq7F6P6vRBtlSANXVXlrDTp",
+      "name": "TÔI LÀ NGƯỜI MÁY.pdf",
+      "mime": "application/pdf",
+      "size": 327397,
+      "modified": "2026-08-16T03:53:10.000Z",
+      "checksum": "fbdc3e20b56fd7804aa62f35a699e7b1",
+      "folder": false
+    }
+  ]
+}

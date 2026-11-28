@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16EbJl7aa-otO-dpQjVMkd78q8BckrZP_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qQZUq2Ly6bO33Hapd8WrME4py7YlG2Jn",
+      "parent_id": "16EbJl7aa-otO-dpQjVMkd78q8BckrZP_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3141,
+      "modified": "2026-08-15T10:09:25.000Z",
+      "checksum": "0625e4081e25cd07a9acfa2f2b0adb0a",
+      "folder": false
+    },
+    {
+      "id": "1asHsIvK9AA96f38dIFTthGemNS2PQ-YF",
+      "parent_id": "16EbJl7aa-otO-dpQjVMkd78q8BckrZP_",
+      "name": "TIỂU TUYẾT SƠ TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 385698,
+      "modified": "2026-08-15T10:09:30.000Z",
+      "checksum": "298f319c98fcbe5ef68b78485d1d3eba",
+      "folder": false
+    },
+    {
+      "id": "1HEsG1YKvROLfxqWQ4oowXME8WcFBpe_p",
+      "parent_id": "16EbJl7aa-otO-dpQjVMkd78q8BckrZP_",
+      "name": "TIỂU TUYẾT SƠ TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 713965,
+      "modified": "2026-08-15T10:09:28.000Z",
+      "checksum": "027aa1b8469d0e845c4b75b63b523a5b",
+      "folder": false
+    }
+  ]
+}

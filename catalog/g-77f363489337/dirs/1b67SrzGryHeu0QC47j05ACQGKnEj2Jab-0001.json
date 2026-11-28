@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1b67SrzGryHeu0QC47j05ACQGKnEj2Jab",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QgMTko4hvZJiKoxEt1wkfa4gm9W3ZTo4",
+      "parent_id": "1b67SrzGryHeu0QC47j05ACQGKnEj2Jab",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3217,
+      "modified": "2026-08-16T03:56:28.000Z",
+      "checksum": "59914fe5c4702177b03b21750a6da694",
+      "folder": false
+    },
+    {
+      "id": "1djBmn2cesSFm-saRSJ0554_X4TQUD3I6",
+      "parent_id": "1b67SrzGryHeu0QC47j05ACQGKnEj2Jab",
+      "name": "THỪA TỰ.epub",
+      "mime": "application/epub+zip",
+      "size": 226395,
+      "modified": "2026-08-16T03:56:33.000Z",
+      "checksum": "5e63177743eb9cbdb3cb17bd0f7337e6",
+      "folder": false
+    },
+    {
+      "id": "1_T4-XRQ22N79WsUZbEjXZ0ELwn8Py_Om",
+      "parent_id": "1b67SrzGryHeu0QC47j05ACQGKnEj2Jab",
+      "name": "THỪA TỰ.pdf",
+      "mime": "application/pdf",
+      "size": 486793,
+      "modified": "2026-08-16T03:56:31.000Z",
+      "checksum": "7e17047bf02f6b4d0fd7a0db7a3adf4a",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1crMkh4JScKTLQ-0f1cJytZutSArfeg1m",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jXY_ZAFbFDu6zlnej8yX5pq9kdJX1ulc",
+      "parent_id": "1crMkh4JScKTLQ-0f1cJytZutSArfeg1m",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1280,
+      "modified": "2026-08-15T00:47:54.000Z",
+      "checksum": "d2429f9ab20a33078921384c01a6f7cc",
+      "folder": false
+    },
+    {
+      "id": "1ii9FSZ7ZRlHtnnvbM1Wtus8qeO8CiN2k",
+      "parent_id": "1crMkh4JScKTLQ-0f1cJytZutSArfeg1m",
+      "name": "MỘT ĐỜI THƯƠNG THUYẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 1278849,
+      "modified": "2026-08-15T00:48:02.000Z",
+      "checksum": "b8174a886d6fdb8a552c26a840c741a9",
+      "folder": false
+    },
+    {
+      "id": "1i1fTBdwihmhniADGPNeULw7T54_9kC2J",
+      "parent_id": "1crMkh4JScKTLQ-0f1cJytZutSArfeg1m",
+      "name": "MỘT ĐỜI THƯƠNG THUYẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1889042,
+      "modified": "2026-08-15T00:47:59.000Z",
+      "checksum": "b61f831303e5eeccd8dea14cff5a6cd1",
+      "folder": false
+    }
+  ]
+}

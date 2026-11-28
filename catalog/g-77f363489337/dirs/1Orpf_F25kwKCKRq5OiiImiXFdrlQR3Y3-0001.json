@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Orpf_F25kwKCKRq5OiiImiXFdrlQR3Y3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cRwnLKh3ODX67XpSrHXnBTnIPVZbjg1p",
+      "parent_id": "1Orpf_F25kwKCKRq5OiiImiXFdrlQR3Y3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12684,
+      "modified": "2026-08-15T15:31:44.000Z",
+      "checksum": "fa05454f6f4714331c6cb34c157a5f50",
+      "folder": false
+    },
+    {
+      "id": "1DUTMc4extAmBQoD5bug7XWlmnzyX0VKX",
+      "parent_id": "1Orpf_F25kwKCKRq5OiiImiXFdrlQR3Y3",
+      "name": "MẠNG SỐNG MONG MANH.epub",
+      "mime": "application/epub+zip",
+      "size": 578507,
+      "modified": "2026-08-15T15:31:51.000Z",
+      "checksum": "c1bdd395072a3e047e2adc59859f9008",
+      "folder": false
+    },
+    {
+      "id": "1c1tuP3se7ggFFWrDZVpCue-76P9hZrT-",
+      "parent_id": "1Orpf_F25kwKCKRq5OiiImiXFdrlQR3Y3",
+      "name": "MẠNG SỐNG MONG MANH.pdf",
+      "mime": "application/pdf",
+      "size": 1589575,
+      "modified": "2026-08-15T15:31:48.000Z",
+      "checksum": "aecb772bf89dc06453f426619d00a860",
+      "folder": false
+    }
+  ]
+}

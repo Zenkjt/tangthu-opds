@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1STxFmUnjtN8TtCa498pCdsRjQQv_prVl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EWga4fCFiBihc81-PO9ClA-_P5zAIw6N",
+      "parent_id": "1STxFmUnjtN8TtCa498pCdsRjQQv_prVl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3278,
+      "modified": "2026-08-15T10:23:47.000Z",
+      "checksum": "85eaa063ac4ea0a7f506e8dbe9626259",
+      "folder": false
+    },
+    {
+      "id": "1abHgsOnvBWwH8nxv1grEko8oBG9eC12c",
+      "parent_id": "1STxFmUnjtN8TtCa498pCdsRjQQv_prVl",
+      "name": "TÀI NĂNG TUYỆT SẮC.epub",
+      "mime": "application/epub+zip",
+      "size": 1879873,
+      "modified": "2026-08-15T10:24:02.000Z",
+      "checksum": "1c8a659c204d6e5043d2be5b1129e734",
+      "folder": false
+    },
+    {
+      "id": "1utVBfWPI2nVCX0oBq3zzhtSOfL92YJwF",
+      "parent_id": "1STxFmUnjtN8TtCa498pCdsRjQQv_prVl",
+      "name": "TÀI NĂNG TUYỆT SẮC.pdf",
+      "mime": "application/pdf",
+      "size": 8787914,
+      "modified": "2026-08-15T10:23:59.000Z",
+      "checksum": "886480480aafd14b52bc45b130070008",
+      "folder": false
+    }
+  ]
+}

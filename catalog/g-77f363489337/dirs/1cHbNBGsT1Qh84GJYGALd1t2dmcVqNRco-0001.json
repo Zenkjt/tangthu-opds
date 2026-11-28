@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cHbNBGsT1Qh84GJYGALd1t2dmcVqNRco",
+  "page": 1,
+  "items": [
+    {
+      "id": "1shkMlezYWjMtSFc490hIJJ42qXqD6Hob",
+      "parent_id": "1cHbNBGsT1Qh84GJYGALd1t2dmcVqNRco",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2623,
+      "modified": "2026-08-15T07:06:18.000Z",
+      "checksum": "6ac94705768d315103b0e2561272ee00",
+      "folder": false
+    },
+    {
+      "id": "1FbIcZ8o8h4RHPEkD-EM5grqxbbzCO27s",
+      "parent_id": "1cHbNBGsT1Qh84GJYGALd1t2dmcVqNRco",
+      "name": "NAM HẢI DỊ NHÂN LIỆT TRUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 343021,
+      "modified": "2026-08-15T07:06:27.000Z",
+      "checksum": "57410f6946b992e4a3403223544b9606",
+      "folder": false
+    },
+    {
+      "id": "1nlsVKkrWVcHyDvEHBLNghZ10xvgpBASk",
+      "parent_id": "1cHbNBGsT1Qh84GJYGALd1t2dmcVqNRco",
+      "name": "NAM HẢI DỊ NHÂN LIỆT TRUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 865249,
+      "modified": "2026-08-15T07:06:25.000Z",
+      "checksum": "8946efcfb9b093c72b5a26f5ae3a88d5",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1M7QPvkD576q8DJkoFV3oECisCZ_hjkyz",
+  "page": 1,
+  "items": [
+    {
+      "id": "196XN4Sj48MNnBw5t87zJXKXdlYggUq0X",
+      "parent_id": "1M7QPvkD576q8DJkoFV3oECisCZ_hjkyz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6511,
+      "modified": "2026-08-16T04:23:56.000Z",
+      "checksum": "6cf78c1c7eab8bd0f2bcc7f25d128aa0",
+      "folder": false
+    },
+    {
+      "id": "1owLSaZ36GszWSkl-M8txWzhIn2FB575p",
+      "parent_id": "1M7QPvkD576q8DJkoFV3oECisCZ_hjkyz",
+      "name": "MỘT MÙA HÈ VẮNG BÓNG CHIM.epub",
+      "mime": "application/epub+zip",
+      "size": 712028,
+      "modified": "2026-08-16T04:24:08.000Z",
+      "checksum": "fe7a6361c4a7a4bd30d916704aa4f703",
+      "folder": false
+    },
+    {
+      "id": "1h2CG0if0ICHRDURCNtO8E923zGNvQWrb",
+      "parent_id": "1M7QPvkD576q8DJkoFV3oECisCZ_hjkyz",
+      "name": "MỘT MÙA HÈ VẮNG BÓNG CHIM.pdf",
+      "mime": "application/pdf",
+      "size": 1715669,
+      "modified": "2026-08-16T04:24:02.000Z",
+      "checksum": "2f74b635d39a2b37bb9608052e994ae5",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_KpQqCIrdgfiBlXM3v_CP6Y1olHkuknq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FnV40pmgJVjrOudE9pyLRUlV568Gx7-W",
+      "parent_id": "1_KpQqCIrdgfiBlXM3v_CP6Y1olHkuknq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5092,
+      "modified": "2026-08-15T09:29:56.000Z",
+      "checksum": "6811785c085bb36cfb8ae53654137708",
+      "folder": false
+    },
+    {
+      "id": "1Ay2JZetCUSy8Pt2X4ncm4y6PnvSaj-Mx",
+      "parent_id": "1_KpQqCIrdgfiBlXM3v_CP6Y1olHkuknq",
+      "name": "TÔI ĐÃ CHỜ EM RẤT LÂU RỒI.epub",
+      "mime": "application/epub+zip",
+      "size": 934116,
+      "modified": "2026-08-15T09:30:10.000Z",
+      "checksum": "649a8747becb69c92e87e3c9252306b4",
+      "folder": false
+    },
+    {
+      "id": "1zbkcloBbEzzErtWBzgR0zPb6SdTmGvti",
+      "parent_id": "1_KpQqCIrdgfiBlXM3v_CP6Y1olHkuknq",
+      "name": "TÔI ĐÃ CHỜ EM RẤT LÂU RỒI.pdf",
+      "mime": "application/pdf",
+      "size": 3211586,
+      "modified": "2026-08-15T09:30:07.000Z",
+      "checksum": "139fd8bd3c85b2b8eb39269346cc04f7",
+      "folder": false
+    }
+  ]
+}

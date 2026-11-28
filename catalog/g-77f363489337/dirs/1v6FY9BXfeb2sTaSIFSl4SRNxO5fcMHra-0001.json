@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1v6FY9BXfeb2sTaSIFSl4SRNxO5fcMHra",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OKzqKuyUM2NUie-Obn92d5hnuDe9Tmw1",
+      "parent_id": "1v6FY9BXfeb2sTaSIFSl4SRNxO5fcMHra",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3643,
+      "modified": "2026-08-15T15:59:31.000Z",
+      "checksum": "96c8a186af1e89441471795bfb789fb6",
+      "folder": false
+    },
+    {
+      "id": "1YyhB3CRHd8_5tZRBx0T83zsnTAsjg5AM",
+      "parent_id": "1v6FY9BXfeb2sTaSIFSl4SRNxO5fcMHra",
+      "name": "NHƯ CHỐN THIÊN ĐƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1003837,
+      "modified": "2026-08-15T15:59:38.000Z",
+      "checksum": "dbceccace3446cf89ca920e10256b790",
+      "folder": false
+    },
+    {
+      "id": "1gnQQcuRjmdSIS1zyb-fLN753pNz93CmB",
+      "parent_id": "1v6FY9BXfeb2sTaSIFSl4SRNxO5fcMHra",
+      "name": "NHƯ CHỐN THIÊN ĐƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 962515,
+      "modified": "2026-08-15T15:59:35.000Z",
+      "checksum": "849786d59e4f0d366124ac65227dea00",
+      "folder": false
+    }
+  ]
+}

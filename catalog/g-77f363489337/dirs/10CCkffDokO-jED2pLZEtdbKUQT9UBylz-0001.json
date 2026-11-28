@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10CCkffDokO-jED2pLZEtdbKUQT9UBylz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wqekW9-4Vc0jCkOhjYPAfxMdDS1X-Zmp",
+      "parent_id": "10CCkffDokO-jED2pLZEtdbKUQT9UBylz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3585,
+      "modified": "2026-08-16T04:07:44.000Z",
+      "checksum": "eaa94dd3f5d4dd32da2afb49e704f5a4",
+      "folder": false
+    },
+    {
+      "id": "1zk71Rw5caG79wkJPRAsyamSPGBO0wb2e",
+      "parent_id": "10CCkffDokO-jED2pLZEtdbKUQT9UBylz",
+      "name": "OAN HỒN MÁU.epub",
+      "mime": "application/epub+zip",
+      "size": 417266,
+      "modified": "2026-08-16T04:07:52.000Z",
+      "checksum": "e0f6fc226808537a464b2b541654d41f",
+      "folder": false
+    },
+    {
+      "id": "1VqxNkySJ2g084eJRuDv8naN_L9mddpZc",
+      "parent_id": "10CCkffDokO-jED2pLZEtdbKUQT9UBylz",
+      "name": "OAN HỒN MÁU.pdf",
+      "mime": "application/pdf",
+      "size": 987826,
+      "modified": "2026-08-16T04:07:49.000Z",
+      "checksum": "6e876a8acb1908908c9a6f2a97b3e132",
+      "folder": false
+    }
+  ]
+}

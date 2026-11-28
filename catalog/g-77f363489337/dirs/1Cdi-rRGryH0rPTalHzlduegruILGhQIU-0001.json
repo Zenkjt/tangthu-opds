@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Cdi-rRGryH0rPTalHzlduegruILGhQIU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P37E4W1r26tigEA7sxxpkqOZfS1lV1IW",
+      "parent_id": "1Cdi-rRGryH0rPTalHzlduegruILGhQIU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5323,
+      "modified": "2026-08-15T04:02:43.000Z",
+      "checksum": "9e762b72d7478d09199dcb3148ba84b3",
+      "folder": false
+    },
+    {
+      "id": "1rrOMvQIva16IUTbcZVz6xB_pxhSMKE8S",
+      "parent_id": "1Cdi-rRGryH0rPTalHzlduegruILGhQIU",
+      "name": "TÙNG BƯỞI HỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 281177,
+      "modified": "2026-08-15T04:02:49.000Z",
+      "checksum": "9c8ecd28167a3353abe47bb3b0ab2011",
+      "folder": false
+    },
+    {
+      "id": "1bkLZGVn4zQg3pYIPGWTZJqO_IlIeOwaL",
+      "parent_id": "1Cdi-rRGryH0rPTalHzlduegruILGhQIU",
+      "name": "TÙNG BƯỞI HỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 568857,
+      "modified": "2026-08-15T04:02:47.000Z",
+      "checksum": "4f71d4578cc13843caa9a852d7674584",
+      "folder": false
+    }
+  ]
+}

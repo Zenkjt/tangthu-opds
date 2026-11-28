@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HUZXZ3k-6IitXx4CCs9q-V2O7kcMM1xO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CErTaT8PU63LpFeDAGqZwVnR2HrAUwQK",
+      "parent_id": "1HUZXZ3k-6IitXx4CCs9q-V2O7kcMM1xO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3237,
+      "modified": "2026-08-16T04:05:34.000Z",
+      "checksum": "5377e12e00937a92daf334e30f7e4579",
+      "folder": false
+    },
+    {
+      "id": "1ofGLUlrgCopgmVdF2FjulOT-KuAKUDLv",
+      "parent_id": "1HUZXZ3k-6IitXx4CCs9q-V2O7kcMM1xO",
+      "name": "QUA SÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 432204,
+      "modified": "2026-08-16T04:05:40.000Z",
+      "checksum": "38c3a187d88aa63b785ef09e4ef4a9e5",
+      "folder": false
+    },
+    {
+      "id": "11Aee8evlDp66rHrF3MqkmgUWbXR4lvdi",
+      "parent_id": "1HUZXZ3k-6IitXx4CCs9q-V2O7kcMM1xO",
+      "name": "QUA SÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 596015,
+      "modified": "2026-08-16T04:05:37.000Z",
+      "checksum": "7a9553795eb4e64b10b86f60586df98a",
+      "folder": false
+    }
+  ]
+}

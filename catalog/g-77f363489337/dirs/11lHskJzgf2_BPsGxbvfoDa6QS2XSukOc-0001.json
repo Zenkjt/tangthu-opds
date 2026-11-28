@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11lHskJzgf2_BPsGxbvfoDa6QS2XSukOc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wUKMdHIsBdOtiouifUzv2gD9MT-ghDfs",
+      "parent_id": "11lHskJzgf2_BPsGxbvfoDa6QS2XSukOc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5553,
+      "modified": "2026-08-16T03:16:57.000Z",
+      "checksum": "1aea96ef788f8304870498b0dde13c6e",
+      "folder": false
+    },
+    {
+      "id": "1K7v2-9d9pAfUws6ByXFOYNg51_1euA1z",
+      "parent_id": "11lHskJzgf2_BPsGxbvfoDa6QS2XSukOc",
+      "name": "GIỌT RỪNG.epub",
+      "mime": "application/epub+zip",
+      "size": 997281,
+      "modified": "2026-08-16T03:17:03.000Z",
+      "checksum": "9970e209f6a51445dcf6f87521096781",
+      "folder": false
+    },
+    {
+      "id": "1p-PkW1QszUmvl58CSIE5FTL62ElkHjJJ",
+      "parent_id": "11lHskJzgf2_BPsGxbvfoDa6QS2XSukOc",
+      "name": "GIỌT RỪNG.pdf",
+      "mime": "application/pdf",
+      "size": 1148912,
+      "modified": "2026-08-16T03:17:01.000Z",
+      "checksum": "dea2f5c8a3ac00e10eea2976aef4309e",
+      "folder": false
+    }
+  ]
+}

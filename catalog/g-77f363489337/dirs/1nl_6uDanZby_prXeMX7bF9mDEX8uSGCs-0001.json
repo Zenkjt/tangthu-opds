@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nl_6uDanZby_prXeMX7bF9mDEX8uSGCs",
+  "page": 1,
+  "items": [
+    {
+      "id": "11DLZS9GMj7YfGPNw3UvPslsuWIrxwzzh",
+      "parent_id": "1nl_6uDanZby_prXeMX7bF9mDEX8uSGCs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 15769,
+      "modified": "2026-08-15T06:12:40.000Z",
+      "checksum": "279a7e1769e809f8d8668d11aff2bf88",
+      "folder": false
+    },
+    {
+      "id": "1UcX6mmLhifEP2K7w1q1I6CWqPwiUtZvL",
+      "parent_id": "1nl_6uDanZby_prXeMX7bF9mDEX8uSGCs",
+      "name": "MỒ HÔI NƯỚC MẮT.epub",
+      "mime": "application/epub+zip",
+      "size": 555471,
+      "modified": "2026-08-15T06:12:47.000Z",
+      "checksum": "c4172f85ed25de66f72b34a11dd3856c",
+      "folder": false
+    },
+    {
+      "id": "1Y8N40PlZlfhSj2b5snBqLSkGjv45gF8f",
+      "parent_id": "1nl_6uDanZby_prXeMX7bF9mDEX8uSGCs",
+      "name": "MỒ HÔI NƯỚC MẮT.pdf",
+      "mime": "application/pdf",
+      "size": 1217326,
+      "modified": "2026-08-15T06:12:45.000Z",
+      "checksum": "ef2e0ad03d7bc6fddcdfa9cdf39e5f76",
+      "folder": false
+    }
+  ]
+}

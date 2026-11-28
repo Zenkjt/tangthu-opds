@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1z9rwMPoYOAneOOjSsYHo1UQre21QSBoO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pp2pHMOD_FHL351oOgRdUVX2haqJ5xpv",
+      "parent_id": "1z9rwMPoYOAneOOjSsYHo1UQre21QSBoO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3488,
+      "modified": "2026-08-15T07:21:00.000Z",
+      "checksum": "d0d0f968088b3330b969a6563f0e204a",
+      "folder": false
+    },
+    {
+      "id": "1O5kTJHRaAlO2Df0KkZNcadyqetbhH2-S",
+      "parent_id": "1z9rwMPoYOAneOOjSsYHo1UQre21QSBoO",
+      "name": "TRÁI ĐẮNG TRƯỜNG SINH.epub",
+      "mime": "application/epub+zip",
+      "size": 308475,
+      "modified": "2026-08-15T07:21:05.000Z",
+      "checksum": "8a75cdb9471ca47fdba7192216b71cb1",
+      "folder": false
+    },
+    {
+      "id": "1BwczSnHp2wUTcso_VzGGT85fWgICQT5W",
+      "parent_id": "1z9rwMPoYOAneOOjSsYHo1UQre21QSBoO",
+      "name": "TRÁI ĐẮNG TRƯỜNG SINH.pdf",
+      "mime": "application/pdf",
+      "size": 360223,
+      "modified": "2026-08-15T07:21:03.000Z",
+      "checksum": "4863378a151a7c023962aad888db40b1",
+      "folder": false
+    }
+  ]
+}

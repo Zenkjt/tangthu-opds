@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dhx4AL3d-8TSPAL0RvITUU9Oduf3-XnT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LADHWMfsEU0V8zaTISDWt9-fQVAqrtG4",
+      "parent_id": "1dhx4AL3d-8TSPAL0RvITUU9Oduf3-XnT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 612,
+      "modified": "2026-08-15T05:40:33.000Z",
+      "checksum": "cf711b1222f209d44a7ad39300c6d816",
+      "folder": false
+    },
+    {
+      "id": "1iEHAXKwMCcdmWZhHGkL-42iQD7oopCcH",
+      "parent_id": "1dhx4AL3d-8TSPAL0RvITUU9Oduf3-XnT",
+      "name": "SENECA - NHỮNG BỨC THƯ ĐẠO ĐỨC.epub",
+      "mime": "application/epub+zip",
+      "size": 797745,
+      "modified": "2026-08-15T05:40:40.000Z",
+      "checksum": "668996165aa71ce26556fe48d6eace4f",
+      "folder": false
+    },
+    {
+      "id": "1DkiA3wI73b0pPzJcaEv5H70_A_-66MNg",
+      "parent_id": "1dhx4AL3d-8TSPAL0RvITUU9Oduf3-XnT",
+      "name": "SENECA - NHỮNG BỨC THƯ ĐẠO ĐỨC.pdf",
+      "mime": "application/pdf",
+      "size": 1147982,
+      "modified": "2026-08-15T05:40:37.000Z",
+      "checksum": "c95660974444912ad4816bf79d0c5e9f",
+      "folder": false
+    }
+  ]
+}

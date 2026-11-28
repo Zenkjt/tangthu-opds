@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11V_vYER8njAJ6tYMxncK_ZFUD3bYFulv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xSj23c0tQpRTElPBso8sNAj6G3WQeC76",
+      "parent_id": "11V_vYER8njAJ6tYMxncK_ZFUD3bYFulv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1387,
+      "modified": "2026-08-15T07:44:26.000Z",
+      "checksum": "43df4803ade22ed2a10cb69baed01fab",
+      "folder": false
+    },
+    {
+      "id": "1PHn8LI-8QZ3XJ_FaEZpQKayVxeRgmfwQ",
+      "parent_id": "11V_vYER8njAJ6tYMxncK_ZFUD3bYFulv",
+      "name": "THIÊN KIM ĐẠI CHIẾN.epub",
+      "mime": "application/epub+zip",
+      "size": 768680,
+      "modified": "2026-08-15T07:44:33.000Z",
+      "checksum": "af00037da1de9518ee767af7bed883f8",
+      "folder": false
+    },
+    {
+      "id": "13_19tCcpLRs4_TmeR7Qj11dX6JknUuTm",
+      "parent_id": "11V_vYER8njAJ6tYMxncK_ZFUD3bYFulv",
+      "name": "THIÊN KIM ĐẠI CHIẾN.pdf",
+      "mime": "application/pdf",
+      "size": 1577007,
+      "modified": "2026-08-15T07:44:31.000Z",
+      "checksum": "61e732a733a9a13508e20534cc91b12f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14ymeZjMpKAVCVNCzmyMzyLcP06X7RnC1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UxmvgkttdTplSKQEpD5bL1mqpJEXAuDz",
+      "parent_id": "14ymeZjMpKAVCVNCzmyMzyLcP06X7RnC1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5115,
+      "modified": "2026-08-15T06:59:40.000Z",
+      "checksum": "7c55303a10833d01dc32ce0d8a0771c0",
+      "folder": false
+    },
+    {
+      "id": "1Z0pqAVT-gWlLk80W14GIAR86CZq3Qo6D",
+      "parent_id": "14ymeZjMpKAVCVNCzmyMzyLcP06X7RnC1",
+      "name": "ĐÂU MÁI NHÀ XƯA.epub",
+      "mime": "application/epub+zip",
+      "size": 776438,
+      "modified": "2026-08-15T06:59:51.000Z",
+      "checksum": "961f5350318d771c575db7950dd7eacb",
+      "folder": false
+    },
+    {
+      "id": "1wHBVgqqSk_3mFBhYkclEZvACbgfZJ1e2",
+      "parent_id": "14ymeZjMpKAVCVNCzmyMzyLcP06X7RnC1",
+      "name": "ĐÂU MÁI NHÀ XƯA.pdf",
+      "mime": "application/pdf",
+      "size": 666867,
+      "modified": "2026-08-15T06:59:47.000Z",
+      "checksum": "b12f62d2e58cdf883674aa086fb29074",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1L0j_ERyBWL8D2ec4lorGWTfY6D1MYe6i",
+  "page": 1,
+  "items": [
+    {
+      "id": "1E0K61TiZ67FNdco2pFkyiIU8hCBc3V7y",
+      "parent_id": "1L0j_ERyBWL8D2ec4lorGWTfY6D1MYe6i",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5189,
+      "modified": "2026-08-15T03:56:10.000Z",
+      "checksum": "92112c621495ba75325c0dda8b75a01a",
+      "folder": false
+    },
+    {
+      "id": "1JLnP_TdLoVKF22G0s37zcjX_QpAllNvi",
+      "parent_id": "1L0j_ERyBWL8D2ec4lorGWTfY6D1MYe6i",
+      "name": "THẦN THÁNH TRUNG HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 665936,
+      "modified": "2026-08-15T03:56:19.000Z",
+      "checksum": "ee1b24ba5d9dc5c2eefa52fb1330fccc",
+      "folder": false
+    },
+    {
+      "id": "1axscrMATdAeUBlEwhdKn0-i-_JmJdP4j",
+      "parent_id": "1L0j_ERyBWL8D2ec4lorGWTfY6D1MYe6i",
+      "name": "THẦN THÁNH TRUNG HOA.pdf",
+      "mime": "application/pdf",
+      "size": 808951,
+      "modified": "2026-08-15T03:56:16.000Z",
+      "checksum": "51d027f3c6f00f1006fe7870cca92167",
+      "folder": false
+    }
+  ]
+}

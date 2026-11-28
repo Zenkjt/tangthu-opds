@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ikfkY7KP9bpER48bwwknR-CAzxNyGP-v",
+  "page": 1,
+  "items": [
+    {
+      "id": "1W0Q5WOQEdWGIxV6X2RQ3eYkUFn6ybR12",
+      "parent_id": "1ikfkY7KP9bpER48bwwknR-CAzxNyGP-v",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3354,
+      "modified": "2026-08-15T10:11:23.000Z",
+      "checksum": "d2e570685cdb2000f33b89cc8b0d0284",
+      "folder": false
+    },
+    {
+      "id": "1rzuubRKq1OvlBxYkQxXzu2YG1C9ZQG0k",
+      "parent_id": "1ikfkY7KP9bpER48bwwknR-CAzxNyGP-v",
+      "name": "TỊCH MỊCH.epub",
+      "mime": "application/epub+zip",
+      "size": 661442,
+      "modified": "2026-08-15T10:11:33.000Z",
+      "checksum": "2abeb529ac380063922e462e722611a2",
+      "folder": false
+    },
+    {
+      "id": "1mMRvcdbFmgmEv_Si9s0Dt0MnnLPZQL5b",
+      "parent_id": "1ikfkY7KP9bpER48bwwknR-CAzxNyGP-v",
+      "name": "TỊCH MỊCH.pdf",
+      "mime": "application/pdf",
+      "size": 1637681,
+      "modified": "2026-08-15T10:11:31.000Z",
+      "checksum": "7f6d6f45d26a85b104cbae01f88bbb44",
+      "folder": false
+    }
+  ]
+}

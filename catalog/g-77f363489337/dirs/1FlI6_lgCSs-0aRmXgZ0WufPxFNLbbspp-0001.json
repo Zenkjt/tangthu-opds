@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FlI6_lgCSs-0aRmXgZ0WufPxFNLbbspp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eHum5Rs7Vdo4KCilFzg6hTe9gJtVtIQJ",
+      "parent_id": "1FlI6_lgCSs-0aRmXgZ0WufPxFNLbbspp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3793,
+      "modified": "2026-08-16T04:09:54.000Z",
+      "checksum": "5e0c2ede4d67e2ce572dd2a3b87b813d",
+      "folder": false
+    },
+    {
+      "id": "15dckWumqizAoJ4QXP9HLK9_f2ulsn4lE",
+      "parent_id": "1FlI6_lgCSs-0aRmXgZ0WufPxFNLbbspp",
+      "name": "NHỮNG ĐIỀU HÀO NHOÁNG.epub",
+      "mime": "application/epub+zip",
+      "size": 806905,
+      "modified": "2026-08-16T04:10:02.000Z",
+      "checksum": "14f863f701d21e2c2ca837c046c511de",
+      "folder": false
+    },
+    {
+      "id": "1GTvYIC_PgRwsNOn9KFJFuZjoFfEVSvAd",
+      "parent_id": "1FlI6_lgCSs-0aRmXgZ0WufPxFNLbbspp",
+      "name": "NHỮNG ĐIỀU HÀO NHOÁNG.pdf",
+      "mime": "application/pdf",
+      "size": 1053223,
+      "modified": "2026-08-16T04:09:58.000Z",
+      "checksum": "c479ddf64faddad7db4d587c0b126fde",
+      "folder": false
+    }
+  ]
+}

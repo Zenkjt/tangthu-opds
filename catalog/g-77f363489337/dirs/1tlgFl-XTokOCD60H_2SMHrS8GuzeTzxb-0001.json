@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tlgFl-XTokOCD60H_2SMHrS8GuzeTzxb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qJul4V1xo4rLA2_6QFMbuRYXoIhJ461t",
+      "parent_id": "1tlgFl-XTokOCD60H_2SMHrS8GuzeTzxb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3099,
+      "modified": "2026-08-15T15:35:52.000Z",
+      "checksum": "007430edca7b3cea3fcae5e16ebab233",
+      "folder": false
+    },
+    {
+      "id": "1bxM1JHVfcXCAwmnVs9HqeDIMB0HBorsJ",
+      "parent_id": "1tlgFl-XTokOCD60H_2SMHrS8GuzeTzxb",
+      "name": "THỦY TRIỀU ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 532089,
+      "modified": "2026-08-15T15:36:04.000Z",
+      "checksum": "381fe0ecc2de3baa5a9f51f4daee545f",
+      "folder": false
+    },
+    {
+      "id": "1YdZuTP5kRBdrgAhLPDTXymKAgigUkaeq",
+      "parent_id": "1tlgFl-XTokOCD60H_2SMHrS8GuzeTzxb",
+      "name": "THỦY TRIỀU ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 1489913,
+      "modified": "2026-08-15T15:35:59.000Z",
+      "checksum": "9fb5fa695553f3be9efeb037bba82493",
+      "folder": false
+    }
+  ]
+}

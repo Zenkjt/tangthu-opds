@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-xnbSBp1otGIfl24eH-qOP3NKOcIEdJn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ekJSF_dYmkD8G3gSwa-tuDUAQ-yngn_-",
+      "parent_id": "1-xnbSBp1otGIfl24eH-qOP3NKOcIEdJn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 467,
+      "modified": "2026-08-15T10:52:45.000Z",
+      "checksum": "4faa3309c3ff9608f14f1ba9ff6bf8c7",
+      "folder": false
+    },
+    {
+      "id": "1E9dq7glBubtIkF4a7owrZ6dP-qtSxmIX",
+      "parent_id": "1-xnbSBp1otGIfl24eH-qOP3NKOcIEdJn",
+      "name": "MÁU THỜI GIAN.epub",
+      "mime": "application/epub+zip",
+      "size": 586287,
+      "modified": "2026-08-15T10:52:52.000Z",
+      "checksum": "5dafca0184c536937f6cce9d21c8fbbe",
+      "folder": false
+    },
+    {
+      "id": "1XxZQfv8fw5M2I17VbQu0cbSwAd_nIN5s",
+      "parent_id": "1-xnbSBp1otGIfl24eH-qOP3NKOcIEdJn",
+      "name": "MÁU THỜI GIAN.pdf",
+      "mime": "application/pdf",
+      "size": 1334108,
+      "modified": "2026-08-15T10:52:49.000Z",
+      "checksum": "56dc54dfc8d3454f2e3ba367cb465ace",
+      "folder": false
+    }
+  ]
+}

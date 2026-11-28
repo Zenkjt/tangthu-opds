@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1N5q9n8zlFen4WQRvd3mZSu_bjmvzfVB0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1T4qJ-y7O61WVoAVMPD9IHaKWALxCczYI",
+      "parent_id": "1N5q9n8zlFen4WQRvd3mZSu_bjmvzfVB0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2957,
+      "modified": "2026-08-15T10:13:42.000Z",
+      "checksum": "aebf458b287acb4c2d535e170cbcb77b",
+      "folder": false
+    },
+    {
+      "id": "1kDBlcYexx87SrTGipZKMy1XcWcCo6mch",
+      "parent_id": "1N5q9n8zlFen4WQRvd3mZSu_bjmvzfVB0",
+      "name": "THIẾT HỒN ẢNH.epub",
+      "mime": "application/epub+zip",
+      "size": 405980,
+      "modified": "2026-08-15T10:13:50.000Z",
+      "checksum": "58b9ea5f7609716e9135be484b59b096",
+      "folder": false
+    },
+    {
+      "id": "1xWakS6JBFBKdZlZxFQqJiAWUQS4m5sfP",
+      "parent_id": "1N5q9n8zlFen4WQRvd3mZSu_bjmvzfVB0",
+      "name": "THIẾT HỒN ẢNH.pdf",
+      "mime": "application/pdf",
+      "size": 699850,
+      "modified": "2026-08-15T10:13:47.000Z",
+      "checksum": "7728dc3661c0b4e6a4bed3e9abc470ae",
+      "folder": false
+    }
+  ]
+}

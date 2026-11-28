@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HnLPKY-WsVStfEi0X5tIOaoJv1Dr71ET",
+  "page": 1,
+  "items": [
+    {
+      "id": "1s-mThCvYZ3r1SdUoVcVaBlJB9w_bN6m_",
+      "parent_id": "1HnLPKY-WsVStfEi0X5tIOaoJv1Dr71ET",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5440,
+      "modified": "2026-08-15T03:47:39.000Z",
+      "checksum": "70ecd66c29c53e4e633b47e45b8ffa68",
+      "folder": false
+    },
+    {
+      "id": "1G08Apgi4YoPUJRQAIxSwDzxIZHbf-I5-",
+      "parent_id": "1HnLPKY-WsVStfEi0X5tIOaoJv1Dr71ET",
+      "name": "KINH KIM CƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 325532,
+      "modified": "2026-08-15T03:47:47.000Z",
+      "checksum": "e9d5150732ad2a08781e92d75cb90b74",
+      "folder": false
+    },
+    {
+      "id": "101GhbKQ0nwnEu-jR0uUtr2TGoeuIG6_U",
+      "parent_id": "1HnLPKY-WsVStfEi0X5tIOaoJv1Dr71ET",
+      "name": "KINH KIM CƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 2324749,
+      "modified": "2026-08-15T03:47:44.000Z",
+      "checksum": "a7457d71db462d4ae4d1a7fa706b1805",
+      "folder": false
+    }
+  ]
+}

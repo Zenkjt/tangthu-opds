@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1T7CfArwhzSBvB_fslImZo-lHGUnIjFO8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iuy1TTSmK0DFZCxa6nmCnJiPwEW6len5",
+      "parent_id": "1T7CfArwhzSBvB_fslImZo-lHGUnIjFO8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5719,
+      "modified": "2026-08-16T03:42:43.000Z",
+      "checksum": "f0c9812f688c9abc004702a236d16de7",
+      "folder": false
+    },
+    {
+      "id": "1Zhr9_c5g1pZPa-nRdkUVqX_Gtnxcof0q",
+      "parent_id": "1T7CfArwhzSBvB_fslImZo-lHGUnIjFO8",
+      "name": "ĐỪNG NÊN GẶP LẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 914804,
+      "modified": "2026-08-16T03:42:52.000Z",
+      "checksum": "f18cffc6fcdeb71a6a8d6c0a7897096b",
+      "folder": false
+    },
+    {
+      "id": "18nZR7NjsG0EyqZzHWTfycIyR4VSl9dtx",
+      "parent_id": "1T7CfArwhzSBvB_fslImZo-lHGUnIjFO8",
+      "name": "ĐỪNG NÊN GẶP LẠI.pdf",
+      "mime": "application/pdf",
+      "size": 3786625,
+      "modified": "2026-08-16T03:42:49.000Z",
+      "checksum": "77d50212f299ec1edcaa9fff62883a03",
+      "folder": false
+    }
+  ]
+}

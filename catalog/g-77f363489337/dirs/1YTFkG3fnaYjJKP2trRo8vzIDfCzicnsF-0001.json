@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YTFkG3fnaYjJKP2trRo8vzIDfCzicnsF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1H65fJ59FhvuYvCRfDoFLJ3jXB3l9imxX",
+      "parent_id": "1YTFkG3fnaYjJKP2trRo8vzIDfCzicnsF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2633,
+      "modified": "2026-08-15T10:04:27.000Z",
+      "checksum": "b857d6f0f27173ab32523883da6d273a",
+      "folder": false
+    },
+    {
+      "id": "1ULSkxV8lxvqQ6gVyFECqx0-Sxgu-a-ug",
+      "parent_id": "1YTFkG3fnaYjJKP2trRo8vzIDfCzicnsF",
+      "name": "YÊU TRONG CƠN MƠ.epub",
+      "mime": "application/epub+zip",
+      "size": 424163,
+      "modified": "2026-08-15T10:04:39.000Z",
+      "checksum": "3d7564d5d3eb2c043b3cf3578d839ac0",
+      "folder": false
+    },
+    {
+      "id": "10cFsf2HghX71K96EefZjZ-JnxEkX9JZ7",
+      "parent_id": "1YTFkG3fnaYjJKP2trRo8vzIDfCzicnsF",
+      "name": "YÊU TRONG CƠN MƠ.pdf",
+      "mime": "application/pdf",
+      "size": 550904,
+      "modified": "2026-08-15T10:04:36.000Z",
+      "checksum": "537eb2b4b906da98d416766ec066391b",
+      "folder": false
+    }
+  ]
+}

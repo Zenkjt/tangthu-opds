@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HG0KhmQcfe0dQzHXx_aIs-qHjl_9AbrO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XajkhhfNW6lVqafQZkP9GITCX-yt6l0U",
+      "parent_id": "1HG0KhmQcfe0dQzHXx_aIs-qHjl_9AbrO",
+      "name": "ALABAMA SONG.epub",
+      "mime": "application/epub+zip",
+      "size": 578620,
+      "modified": "2026-08-15T10:03:49.000Z",
+      "checksum": "10a8f45ea023a5e3a3c8cf217224120c",
+      "folder": false
+    },
+    {
+      "id": "18AgiapnHBQpC7UrXXCmeVXhb8iVsynTj",
+      "parent_id": "1HG0KhmQcfe0dQzHXx_aIs-qHjl_9AbrO",
+      "name": "ALABAMA SONG.pdf",
+      "mime": "application/pdf",
+      "size": 720203,
+      "modified": "2026-08-15T10:03:44.000Z",
+      "checksum": "9a922da31498c9b40eb91d57555681df",
+      "folder": false
+    },
+    {
+      "id": "1HWBPeH8d-rqoYG-M2aZAW6ca_dmo8awK",
+      "parent_id": "1HG0KhmQcfe0dQzHXx_aIs-qHjl_9AbrO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1479,
+      "modified": "2026-08-15T10:03:36.000Z",
+      "checksum": "4ca888caf89e91c1a87224d72ea0b0b2",
+      "folder": false
+    }
+  ]
+}

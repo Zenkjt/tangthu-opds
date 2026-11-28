@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FjXkCt7bbnVPgJTZdkOAoYPkF01VvmKL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1h5oEGlVNVkaAF3-qtg2gO4J-Q8C815sH",
+      "parent_id": "1FjXkCt7bbnVPgJTZdkOAoYPkF01VvmKL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2274,
+      "modified": "2026-08-16T03:27:25.000Z",
+      "checksum": "20c6bd93b3167cc64dabb92f6c4608d3",
+      "folder": false
+    },
+    {
+      "id": "1--B46mEetY_ckHX6aVozbGyiCr2ox98Y",
+      "parent_id": "1FjXkCt7bbnVPgJTZdkOAoYPkF01VvmKL",
+      "name": "ĐÔNG CUNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1083112,
+      "modified": "2026-08-16T03:27:33.000Z",
+      "checksum": "fe0e378de2f7db52d5e1d8c63c5d9db3",
+      "folder": false
+    },
+    {
+      "id": "1HrTyL6kiXgnDkrrnPvVbYn7XFG7ywgrq",
+      "parent_id": "1FjXkCt7bbnVPgJTZdkOAoYPkF01VvmKL",
+      "name": "ĐÔNG CUNG.pdf",
+      "mime": "application/pdf",
+      "size": 1270698,
+      "modified": "2026-08-16T03:27:29.000Z",
+      "checksum": "6bb7c91d9ac82b86b46cf28f80870462",
+      "folder": false
+    }
+  ]
+}

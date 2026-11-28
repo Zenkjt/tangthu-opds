@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uR6mWecw64qK_BQ5vzi1FZT_Karso7Bp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WfbNTuaavwilazynBtwbNHnESKOcQSEX",
+      "parent_id": "1uR6mWecw64qK_BQ5vzi1FZT_Karso7Bp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2695,
+      "modified": "2026-08-16T03:34:17.000Z",
+      "checksum": "7bb6d754d1db554a91fedee29e8a73ae",
+      "folder": false
+    },
+    {
+      "id": "1p8iR30AF4VPeudqh9ko4x2QFRnlDKgjE",
+      "parent_id": "1uR6mWecw64qK_BQ5vzi1FZT_Karso7Bp",
+      "name": "ĐÈN KHÔNG HẮT BÓNG.epub",
+      "mime": "application/epub+zip",
+      "size": 482484,
+      "modified": "2026-08-16T03:34:24.000Z",
+      "checksum": "e3527a203d521c1579a2509fa3a63797",
+      "folder": false
+    },
+    {
+      "id": "1D5Xk50ls8XYrHJe1eV3goN6uGuRYkmvl",
+      "parent_id": "1uR6mWecw64qK_BQ5vzi1FZT_Karso7Bp",
+      "name": "ĐÈN KHÔNG HẮT BÓNG.pdf",
+      "mime": "application/pdf",
+      "size": 1120936,
+      "modified": "2026-08-16T03:34:21.000Z",
+      "checksum": "ec1fc1267adb11d78417adbfee681673",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xV8AYFmRhOOSA-c5zB9oFwhDN7GAuOzp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uAec2KXB6mDrHv1oFhjmZNnoosfhg2V3",
+      "parent_id": "1xV8AYFmRhOOSA-c5zB9oFwhDN7GAuOzp",
+      "name": "CHUYỆN TRÒ.epub",
+      "mime": "application/epub+zip",
+      "size": 660931,
+      "modified": "2026-08-15T06:52:42.000Z",
+      "checksum": "fd0469b6d9265da6c737fd9e9d34af08",
+      "folder": false
+    },
+    {
+      "id": "1NToKZYciv3RuUeRFM9l0uCuMYf85OeRg",
+      "parent_id": "1xV8AYFmRhOOSA-c5zB9oFwhDN7GAuOzp",
+      "name": "CHUYỆN TRÒ.pdf",
+      "mime": "application/pdf",
+      "size": 1012844,
+      "modified": "2026-08-15T06:52:36.000Z",
+      "checksum": "b394a8260a2213621571aaa5dd373081",
+      "folder": false
+    },
+    {
+      "id": "1hTY7AkDO_8fhfjON-pf2dMpvpDBUzFb_",
+      "parent_id": "1xV8AYFmRhOOSA-c5zB9oFwhDN7GAuOzp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1941,
+      "modified": "2026-08-15T06:52:28.000Z",
+      "checksum": "569eeb31f7ff963f2336cf1f87e036b6",
+      "folder": false
+    }
+  ]
+}

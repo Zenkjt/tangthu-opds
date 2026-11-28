@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZSUqNiThEqboNEXQUOPOLaBdvpejlc7_",
+  "page": 1,
+  "items": [
+    {
+      "id": "18w5Wu4HHEb8ts7K60CX0xfmdWRVY7Xu-",
+      "parent_id": "1ZSUqNiThEqboNEXQUOPOLaBdvpejlc7_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2387,
+      "modified": "2026-08-15T08:01:24.000Z",
+      "checksum": "28c20df5d206b4ce5b435d5051f82164",
+      "folder": false
+    },
+    {
+      "id": "1rv60C33RkQXIGp4-0V8xoFBFVkn7ZWNM",
+      "parent_id": "1ZSUqNiThEqboNEXQUOPOLaBdvpejlc7_",
+      "name": "ĐỢI MƯA TẠNH.epub",
+      "mime": "application/epub+zip",
+      "size": 714326,
+      "modified": "2026-08-15T08:01:31.000Z",
+      "checksum": "c28a6586632df6eb4bbb8ee15409e32e",
+      "folder": false
+    },
+    {
+      "id": "1AjUxBDcMghUD1ubLvshUltwLMhBq_vmB",
+      "parent_id": "1ZSUqNiThEqboNEXQUOPOLaBdvpejlc7_",
+      "name": "ĐỢI MƯA TẠNH.pdf",
+      "mime": "application/pdf",
+      "size": 1837415,
+      "modified": "2026-08-15T08:01:29.000Z",
+      "checksum": "04d1802f8edb62465096e5fe91945352",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BitabfdfcBvaLVP7ah040VqOBFzGfhPp",
+  "page": 1,
+  "items": [
+    {
+      "id": "10I7ZsFzmEwofp5_XmVZjQ8p8cKZfW8Ul",
+      "parent_id": "1BitabfdfcBvaLVP7ah040VqOBFzGfhPp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3397,
+      "modified": "2026-08-15T10:30:05.000Z",
+      "checksum": "c7888ab34503bd1339fbb63006598ed5",
+      "folder": false
+    },
+    {
+      "id": "1Nitl3cs8UPUwem3us8W8GbGs-Xswbsna",
+      "parent_id": "1BitabfdfcBvaLVP7ah040VqOBFzGfhPp",
+      "name": "HÃY CỨU EM - RESCUE ME.epub",
+      "mime": "application/epub+zip",
+      "size": 641949,
+      "modified": "2026-08-15T10:30:15.000Z",
+      "checksum": "c895248a77b59c246ed7ba6069f825fd",
+      "folder": false
+    },
+    {
+      "id": "1wELpPh_juMrV0piHAP2IlnHSEyZQjqYw",
+      "parent_id": "1BitabfdfcBvaLVP7ah040VqOBFzGfhPp",
+      "name": "HÃY CỨU EM - RESCUE ME.pdf",
+      "mime": "application/pdf",
+      "size": 1328488,
+      "modified": "2026-08-15T10:30:13.000Z",
+      "checksum": "45944ce33b1e64c0a8fc67f93d111401",
+      "folder": false
+    }
+  ]
+}

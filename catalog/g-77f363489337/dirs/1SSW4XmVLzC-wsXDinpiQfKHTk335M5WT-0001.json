@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SSW4XmVLzC-wsXDinpiQfKHTk335M5WT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kkPQnm9cTQLiDYl987yADKS3ffyiXIO8",
+      "parent_id": "1SSW4XmVLzC-wsXDinpiQfKHTk335M5WT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2093,
+      "modified": "2026-08-15T07:14:33.000Z",
+      "checksum": "dedb22aaaca5bcb21fa7f610177f7057",
+      "folder": false
+    },
+    {
+      "id": "1m8UzmYTFSOu9cNwnm9yq-ebyyZ8Q812a",
+      "parent_id": "1SSW4XmVLzC-wsXDinpiQfKHTk335M5WT",
+      "name": "TRỌN ĐỜI BÊN NHAU.epub",
+      "mime": "application/epub+zip",
+      "size": 1129602,
+      "modified": "2026-08-15T07:14:47.000Z",
+      "checksum": "c357e65eeb2f85565122113fc538defe",
+      "folder": false
+    },
+    {
+      "id": "1E1PNJbUtbMjglEOuRNLM8NDnnk1GoP_k",
+      "parent_id": "1SSW4XmVLzC-wsXDinpiQfKHTk335M5WT",
+      "name": "TRỌN ĐỜI BÊN NHAU.pdf",
+      "mime": "application/pdf",
+      "size": 3577699,
+      "modified": "2026-08-15T07:14:44.000Z",
+      "checksum": "ced46b1145d0dea8a7a4484178cfa3af",
+      "folder": false
+    }
+  ]
+}

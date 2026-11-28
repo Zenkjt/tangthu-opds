@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nXyjHe-ZCpTPMTTX0Qjws-TrGm29qMDx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-smPkGcte5CC8Aky0lIHuANfcErXHnwC",
+      "parent_id": "1nXyjHe-ZCpTPMTTX0Qjws-TrGm29qMDx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9640,
+      "modified": "2026-08-15T07:04:41.000Z",
+      "checksum": "b9f73552b8b3967e504b9fd90b6901b5",
+      "folder": false
+    },
+    {
+      "id": "1x-lfFBV1lUAh1Mq_C5r2PWZbdkY3i1W_",
+      "parent_id": "1nXyjHe-ZCpTPMTTX0Qjws-TrGm29qMDx",
+      "name": "QUÊ NỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 602221,
+      "modified": "2026-08-15T07:04:48.000Z",
+      "checksum": "71cfe519adfee2eb916ad4396f8b3da0",
+      "folder": false
+    },
+    {
+      "id": "1L-ix03V8zH7AHcNcXj2aC-370jJ6-mNf",
+      "parent_id": "1nXyjHe-ZCpTPMTTX0Qjws-TrGm29qMDx",
+      "name": "QUÊ NỘI.pdf",
+      "mime": "application/pdf",
+      "size": 984719,
+      "modified": "2026-08-15T07:04:45.000Z",
+      "checksum": "b9a71368e3b22ba0a66bbfcb7539635a",
+      "folder": false
+    }
+  ]
+}

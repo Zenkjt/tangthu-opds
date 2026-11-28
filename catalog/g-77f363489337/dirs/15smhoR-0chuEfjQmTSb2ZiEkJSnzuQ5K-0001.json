@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15smhoR-0chuEfjQmTSb2ZiEkJSnzuQ5K",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XrRSNMVgOcDB3DKJo5T7gPhPRc-_t4qL",
+      "parent_id": "15smhoR-0chuEfjQmTSb2ZiEkJSnzuQ5K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3527,
+      "modified": "2026-08-15T15:36:56.000Z",
+      "checksum": "1bb18b2928087712e1a1164aa669b8f6",
+      "folder": false
+    },
+    {
+      "id": "1a3dJF2cmxepVYQozmrqdAbzuxKzh8OwU",
+      "parent_id": "15smhoR-0chuEfjQmTSb2ZiEkJSnzuQ5K",
+      "name": "TẤM GƯƠNG MA QUÁI.epub",
+      "mime": "application/epub+zip",
+      "size": 434804,
+      "modified": "2026-08-15T15:37:05.000Z",
+      "checksum": "4d51cae109ae5e52daa6d32bb802d9ea",
+      "folder": false
+    },
+    {
+      "id": "1tEYVHhVzXRuPfpGOnAl16bRR39OzkABT",
+      "parent_id": "15smhoR-0chuEfjQmTSb2ZiEkJSnzuQ5K",
+      "name": "TẤM GƯƠNG MA QUÁI.pdf",
+      "mime": "application/pdf",
+      "size": 768076,
+      "modified": "2026-08-15T15:37:01.000Z",
+      "checksum": "374f331482fc17d127de9722bcb42341",
+      "folder": false
+    }
+  ]
+}

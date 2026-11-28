@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1f2kXkndO5D4s0Lad5YqcYV1ri7bZjwy0",
+  "page": 1,
+  "items": [
+    {
+      "id": "10_O950ZxHoX4-Wd468Vw5NyCu5jlXacN",
+      "parent_id": "1f2kXkndO5D4s0Lad5YqcYV1ri7bZjwy0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 17108,
+      "modified": "2026-08-15T07:42:00.000Z",
+      "checksum": "26271e243f7e8c5a4db5171ef13cbf15",
+      "folder": false
+    },
+    {
+      "id": "1ok0OzImpVIgAMhmWOwxX7YGKQhlMyDTT",
+      "parent_id": "1f2kXkndO5D4s0Lad5YqcYV1ri7bZjwy0",
+      "name": "ĐÊM ĐEN BUÔNG XUỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 458115,
+      "modified": "2026-08-15T07:42:06.000Z",
+      "checksum": "8126ed05483c14f07c62337f5a4b76fc",
+      "folder": false
+    },
+    {
+      "id": "1Y3obOog07bTBxXXrMu7LErrgRkDce5xA",
+      "parent_id": "1f2kXkndO5D4s0Lad5YqcYV1ri7bZjwy0",
+      "name": "ĐÊM ĐEN BUÔNG XUỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 894980,
+      "modified": "2026-08-15T07:42:04.000Z",
+      "checksum": "a767585d8feb3f7f2bf0d739365d5ad3",
+      "folder": false
+    }
+  ]
+}

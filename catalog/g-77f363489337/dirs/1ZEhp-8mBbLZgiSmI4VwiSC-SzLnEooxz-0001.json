@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZEhp-8mBbLZgiSmI4VwiSC-SzLnEooxz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ezqyNqlYjJhaFZDxFveLBRt7ot5TNCkP",
+      "parent_id": "1ZEhp-8mBbLZgiSmI4VwiSC-SzLnEooxz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7446,
+      "modified": "2026-08-16T03:20:01.000Z",
+      "checksum": "55062363e119adc7d81965904aaeb880",
+      "folder": false
+    },
+    {
+      "id": "1aKtx6dvvBz1IVQ_EWLY7D4QpIo-mMn9n",
+      "parent_id": "1ZEhp-8mBbLZgiSmI4VwiSC-SzLnEooxz",
+      "name": "EMILY VÀ NGÔI NHÀ KHÔNG CÒN TUYỆT VỌNG.epub",
+      "mime": "application/epub+zip",
+      "size": 766274,
+      "modified": "2026-08-16T03:20:08.000Z",
+      "checksum": "2e8ade2cef46ae33a189cb0bed6063cc",
+      "folder": false
+    },
+    {
+      "id": "1_An3NEWQrPUxDZnOY6kVUmxBuyQUQa0U",
+      "parent_id": "1ZEhp-8mBbLZgiSmI4VwiSC-SzLnEooxz",
+      "name": "EMILY VÀ NGÔI NHÀ KHÔNG CÒN TUYỆT VỌNG.pdf",
+      "mime": "application/pdf",
+      "size": 1224913,
+      "modified": "2026-08-16T03:20:06.000Z",
+      "checksum": "df22a66a2b473194f96300a297aa2c30",
+      "folder": false
+    }
+  ]
+}

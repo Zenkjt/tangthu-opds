@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FlmR6GeSGdW--UV1oCwwXcBiJr4TtZRu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ku3C5XzYMT0HqZWdTu-2y-S5bM1VmGnU",
+      "parent_id": "1FlmR6GeSGdW--UV1oCwwXcBiJr4TtZRu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8481,
+      "modified": "2026-08-15T07:15:19.000Z",
+      "checksum": "8c2d84946357344cc573dd794cd87e06",
+      "folder": false
+    },
+    {
+      "id": "1gUOKZ6t0YbyEfyqeM_VwT72ogEI0tkwH",
+      "parent_id": "1FlmR6GeSGdW--UV1oCwwXcBiJr4TtZRu",
+      "name": "HOA HỒNG SỚM MAI.epub",
+      "mime": "application/epub+zip",
+      "size": 2702630,
+      "modified": "2026-08-15T07:15:27.000Z",
+      "checksum": "e27951e8336a2644051971ebec5d4dfb",
+      "folder": false
+    },
+    {
+      "id": "1CAW7a8XQ64y9Q3zp8kyFavioiwpxDDRW",
+      "parent_id": "1FlmR6GeSGdW--UV1oCwwXcBiJr4TtZRu",
+      "name": "HOA HỒNG SỚM MAI.pdf",
+      "mime": "application/pdf",
+      "size": 2576673,
+      "modified": "2026-08-15T07:15:24.000Z",
+      "checksum": "b071b539f65fef2ea97715f5b78d1d1d",
+      "folder": false
+    }
+  ]
+}

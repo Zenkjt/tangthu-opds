@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kxt9eFLC8HXJpPIXZQhA5f3GZd1lJOkR",
+  "page": 1,
+  "items": [
+    {
+      "id": "14O8XDhWse8YVTW4iHehVk88boWg8npcV",
+      "parent_id": "1kxt9eFLC8HXJpPIXZQhA5f3GZd1lJOkR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3481,
+      "modified": "2026-08-15T10:11:21.000Z",
+      "checksum": "407de0333dd40aadc40bebcbe8f84b41",
+      "folder": false
+    },
+    {
+      "id": "16G7rZDETdvBhcOyn2xQRBcKGV0wYmMKi",
+      "parent_id": "1kxt9eFLC8HXJpPIXZQhA5f3GZd1lJOkR",
+      "name": "TIA SÉT HOANG.epub",
+      "mime": "application/epub+zip",
+      "size": 563341,
+      "modified": "2026-08-15T10:11:30.000Z",
+      "checksum": "0e5d27d81d8195b2520cc5ee2ab32f07",
+      "folder": false
+    },
+    {
+      "id": "1V4zFwVLP7QwelVbOSbzC6D6-_Vn0TwRq",
+      "parent_id": "1kxt9eFLC8HXJpPIXZQhA5f3GZd1lJOkR",
+      "name": "TIA SÉT HOANG.pdf",
+      "mime": "application/pdf",
+      "size": 1339138,
+      "modified": "2026-08-15T10:11:27.000Z",
+      "checksum": "87499a6f1167cd784e73d2ab8a2d6288",
+      "folder": false
+    }
+  ]
+}

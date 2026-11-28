@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11MAVA5rWk34hS6pTtU4SazK-TbnduJhw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1C-OuWQRForvUG0MkDhgtd4H3v2Vn5ip4",
+      "parent_id": "11MAVA5rWk34hS6pTtU4SazK-TbnduJhw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2163,
+      "modified": "2026-08-15T03:43:55.000Z",
+      "checksum": "31c5e5bc2ab411ec9b7c388cdbd0bbaa",
+      "folder": false
+    },
+    {
+      "id": "1kr4DFPUCku2I6qTQjGOGUQERAyJI-q-s",
+      "parent_id": "11MAVA5rWk34hS6pTtU4SazK-TbnduJhw",
+      "name": "KINH VIÊN GIÁC.epub",
+      "mime": "application/epub+zip",
+      "size": 294731,
+      "modified": "2026-08-15T03:44:02.000Z",
+      "checksum": "e13880da07d2db5c09ae9ab169e0cb71",
+      "folder": false
+    },
+    {
+      "id": "1twdHAPisTPaM1mcOOSrRwxqcPzHTS-Uy",
+      "parent_id": "11MAVA5rWk34hS6pTtU4SazK-TbnduJhw",
+      "name": "KINH VIÊN GIÁC.pdf",
+      "mime": "application/pdf",
+      "size": 324672,
+      "modified": "2026-08-15T03:43:58.000Z",
+      "checksum": "057ae028a7c3a3bad6f7dbc196d4980c",
+      "folder": false
+    }
+  ]
+}

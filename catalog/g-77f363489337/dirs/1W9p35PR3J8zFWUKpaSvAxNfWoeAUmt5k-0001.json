@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1W9p35PR3J8zFWUKpaSvAxNfWoeAUmt5k",
+  "page": 1,
+  "items": [
+    {
+      "id": "1N3NkS6_adbdFz7hH9D1sZK7dvHq8NazL",
+      "parent_id": "1W9p35PR3J8zFWUKpaSvAxNfWoeAUmt5k",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8711,
+      "modified": "2026-08-15T15:23:30.000Z",
+      "checksum": "5222fb9c77e5ad49f594108ef30212b7",
+      "folder": false
+    },
+    {
+      "id": "18uFDS_ZwqoXW2ok6piYwd0bLmFEPH6GR",
+      "parent_id": "1W9p35PR3J8zFWUKpaSvAxNfWoeAUmt5k",
+      "name": "HỒ SƠ TÂM LÝ PHẠM TỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 1144481,
+      "modified": "2026-08-15T15:23:56.000Z",
+      "checksum": "9f091bd2ec4b3fc97a5b5c361d44be6b",
+      "folder": false
+    },
+    {
+      "id": "1pvw_0TMk4ZH9LAoruWosRrSqRyMRZJxC",
+      "parent_id": "1W9p35PR3J8zFWUKpaSvAxNfWoeAUmt5k",
+      "name": "HỒ SƠ TÂM LÝ PHẠM TỘI.pdf",
+      "mime": "application/pdf",
+      "size": 1286586,
+      "modified": "2026-08-15T15:23:47.000Z",
+      "checksum": "f5e70e8562bdcc42a2a2cedc81b8cdf9",
+      "folder": false
+    }
+  ]
+}

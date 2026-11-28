@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15YlzUAirTW-uZcm8oCbAFe35MSXq9od5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dvNy6LeCMcGpmGTL51uCcQr6QryI3mxB",
+      "parent_id": "15YlzUAirTW-uZcm8oCbAFe35MSXq9od5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3049,
+      "modified": "2026-08-16T03:58:57.000Z",
+      "checksum": "65f3ff0d50275e72d7b9428572f451fa",
+      "folder": false
+    },
+    {
+      "id": "1BWoN_iuERuJ7sSMHHdcjbc5-EIZxTpWa",
+      "parent_id": "15YlzUAirTW-uZcm8oCbAFe35MSXq9od5",
+      "name": "THẤT HIỆP NGŨ NGHĨA.epub",
+      "mime": "application/epub+zip",
+      "size": 4280343,
+      "modified": "2026-08-16T03:59:04.000Z",
+      "checksum": "2dd62f90e2891fdc3417eee8aceb7431",
+      "folder": false
+    },
+    {
+      "id": "1OzjU-yF6s6hiGGqRwSMpJPdgX1HGsqwQ",
+      "parent_id": "15YlzUAirTW-uZcm8oCbAFe35MSXq9od5",
+      "name": "THẤT HIỆP NGŨ NGHĨA.pdf",
+      "mime": "application/pdf",
+      "size": 3434407,
+      "modified": "2026-08-16T03:59:01.000Z",
+      "checksum": "56a28d1944c32284b6cc0e19c83ecae0",
+      "folder": false
+    }
+  ]
+}

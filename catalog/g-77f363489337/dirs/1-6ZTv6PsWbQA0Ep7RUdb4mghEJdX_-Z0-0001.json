@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-6ZTv6PsWbQA0Ep7RUdb4mghEJdX_-Z0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AFnRYbOnMW-A9JYL_i9bBRi6Grr8so_h",
+      "parent_id": "1-6ZTv6PsWbQA0Ep7RUdb4mghEJdX_-Z0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5162,
+      "modified": "2026-08-15T07:31:10.000Z",
+      "checksum": "63dcbdba22963c689c491f9955b2720a",
+      "folder": false
+    },
+    {
+      "id": "1AZC85OtLDiTUs0L7HDYKrmbbcz_m7Ma8",
+      "parent_id": "1-6ZTv6PsWbQA0Ep7RUdb4mghEJdX_-Z0",
+      "name": "VƯƠNG PHI XÀ Y.epub",
+      "mime": "application/epub+zip",
+      "size": 787746,
+      "modified": "2026-08-15T07:31:24.000Z",
+      "checksum": "664e1783a990a6aece8d797a378a85a5",
+      "folder": false
+    },
+    {
+      "id": "1pwvo6k-U-ReibPGau4Uv_Gl7XS5AvL3D",
+      "parent_id": "1-6ZTv6PsWbQA0Ep7RUdb4mghEJdX_-Z0",
+      "name": "VƯƠNG PHI XÀ Y.pdf",
+      "mime": "application/pdf",
+      "size": 2624809,
+      "modified": "2026-08-15T07:31:21.000Z",
+      "checksum": "e4f267b5d431d8feeff3df5d785a99c0",
+      "folder": false
+    }
+  ]
+}

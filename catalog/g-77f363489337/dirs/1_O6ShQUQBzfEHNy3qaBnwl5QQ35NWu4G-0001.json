@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_O6ShQUQBzfEHNy3qaBnwl5QQ35NWu4G",
+  "page": 1,
+  "items": [
+    {
+      "id": "1L2sj4QNij_K6vwAq_q6aJzdrNMdWhMQd",
+      "parent_id": "1_O6ShQUQBzfEHNy3qaBnwl5QQ35NWu4G",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3782,
+      "modified": "2026-08-15T03:40:44.000Z",
+      "checksum": "8e6fb781a017fb0bca1995b7b5043bcc",
+      "folder": false
+    },
+    {
+      "id": "14E5tz5nyfWh8KvdSysTU25DA6EC9yc7M",
+      "parent_id": "1_O6ShQUQBzfEHNy3qaBnwl5QQ35NWu4G",
+      "name": "THỨC TỈNH MỤC ĐÍCH SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1959268,
+      "modified": "2026-08-15T03:40:57.000Z",
+      "checksum": "a0cc2ace3ce1126e25936d1b68f2d622",
+      "folder": false
+    },
+    {
+      "id": "1xHmSTFj_mnafgpyZURQ1lteXqiFpuzC9",
+      "parent_id": "1_O6ShQUQBzfEHNy3qaBnwl5QQ35NWu4G",
+      "name": "THỨC TỈNH MỤC ĐÍCH SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 3674628,
+      "modified": "2026-08-15T03:40:50.000Z",
+      "checksum": "c4de09aedb121b14ef8d58b1cdb12fb2",
+      "folder": false
+    }
+  ]
+}

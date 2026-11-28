@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1f795f8KOhBSli8UnOYj22CptcZy9yHUd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tYx5EX-DRnTiJs3XxLoaLQiZIjMIuyDz",
+      "parent_id": "1f795f8KOhBSli8UnOYj22CptcZy9yHUd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5777,
+      "modified": "2026-08-15T07:41:00.000Z",
+      "checksum": "777c46bc2c5fa9f8a33d69b707488d01",
+      "folder": false
+    },
+    {
+      "id": "1PTtWZ5hVRiTOLNXXNcfVVFq2SEYohiJb",
+      "parent_id": "1f795f8KOhBSli8UnOYj22CptcZy9yHUd",
+      "name": "DƯỠNG NỮ THÀNH PHI.epub",
+      "mime": "application/epub+zip",
+      "size": 4633484,
+      "modified": "2026-08-15T07:41:10.000Z",
+      "checksum": "0fe29f49790b119335435ff2e76ecf93",
+      "folder": false
+    },
+    {
+      "id": "1MzZE-7GYSvo3nRT45PtJcanFcTWfk136",
+      "parent_id": "1f795f8KOhBSli8UnOYj22CptcZy9yHUd",
+      "name": "DƯỠNG NỮ THÀNH PHI.pdf",
+      "mime": "application/pdf",
+      "size": 3860379,
+      "modified": "2026-08-15T07:41:07.000Z",
+      "checksum": "d18e2fb06d528b9c8da22fc71a6ebe64",
+      "folder": false
+    }
+  ]
+}

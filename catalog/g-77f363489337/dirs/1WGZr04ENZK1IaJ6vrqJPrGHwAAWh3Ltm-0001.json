@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WGZr04ENZK1IaJ6vrqJPrGHwAAWh3Ltm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YPtsVBmrXPQ7VsbF-DRLmGfessEOzw7k",
+      "parent_id": "1WGZr04ENZK1IaJ6vrqJPrGHwAAWh3Ltm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3612,
+      "modified": "2026-08-15T08:13:15.000Z",
+      "checksum": "2905904d6cae48970568254886512690",
+      "folder": false
+    },
+    {
+      "id": "179D6dvW7J1Fsoxg5wdvZPPylfqdd6t5g",
+      "parent_id": "1WGZr04ENZK1IaJ6vrqJPrGHwAAWh3Ltm",
+      "name": "ĐẠO PHI THIÊN HẠ.epub",
+      "mime": "application/epub+zip",
+      "size": 2482625,
+      "modified": "2026-08-15T08:13:34.000Z",
+      "checksum": "78e3a0cb61a51bf7c6b522d32c36a13a",
+      "folder": false
+    },
+    {
+      "id": "1ZD_gTxqTX-xbUm5ngmtAz9zcYChb4mXR",
+      "parent_id": "1WGZr04ENZK1IaJ6vrqJPrGHwAAWh3Ltm",
+      "name": "ĐẠO PHI THIÊN HẠ.pdf",
+      "mime": "application/pdf",
+      "size": 3398126,
+      "modified": "2026-08-15T08:13:26.000Z",
+      "checksum": "51c4e09d0b24a80518d3508c68048232",
+      "folder": false
+    }
+  ]
+}

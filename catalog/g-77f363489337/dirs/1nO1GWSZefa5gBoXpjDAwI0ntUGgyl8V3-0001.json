@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nO1GWSZefa5gBoXpjDAwI0ntUGgyl8V3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lSVRcFeQ2PDWE6Bb709Dd9hj85GoXhzR",
+      "parent_id": "1nO1GWSZefa5gBoXpjDAwI0ntUGgyl8V3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 380,
+      "modified": "2026-08-16T03:47:48.000Z",
+      "checksum": "c9a1918e45517d9d11667ea479990a9c",
+      "folder": false
+    },
+    {
+      "id": "1Cu-iSGlD012Yiw6YRXbJkP8-kRsbnrLu",
+      "parent_id": "1nO1GWSZefa5gBoXpjDAwI0ntUGgyl8V3",
+      "name": "ĐỪNG QUÊN ĐÊM NAY.epub",
+      "mime": "application/epub+zip",
+      "size": 371015,
+      "modified": "2026-08-16T03:47:54.000Z",
+      "checksum": "414257e16fe8333310f3f433ee4ca3db",
+      "folder": false
+    },
+    {
+      "id": "1DAOggb5QM6SQn_Fp50hfPGg1cjcBfXhH",
+      "parent_id": "1nO1GWSZefa5gBoXpjDAwI0ntUGgyl8V3",
+      "name": "ĐỪNG QUÊN ĐÊM NAY.pdf",
+      "mime": "application/pdf",
+      "size": 1261696,
+      "modified": "2026-08-16T03:47:52.000Z",
+      "checksum": "0757a8019c306ebb0c530d06496336ad",
+      "folder": false
+    }
+  ]
+}

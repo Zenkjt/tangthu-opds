@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1j3t6hN_NFEJ8XC9JPBQNg1wgeKUFknDX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OoFidCkw78zl0NLQqgSXiojxhWmYUC9q",
+      "parent_id": "1j3t6hN_NFEJ8XC9JPBQNg1wgeKUFknDX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3110,
+      "modified": "2026-08-15T07:26:16.000Z",
+      "checksum": "109170e243ee5a97634436f2e7d214cb",
+      "folder": false
+    },
+    {
+      "id": "1q3lEdbSeuC4xjHXe8i4mqD6E8hmoEXHo",
+      "parent_id": "1j3t6hN_NFEJ8XC9JPBQNg1wgeKUFknDX",
+      "name": "HEIDI - CÔ BÉ TRÊN NÚI CAO.epub",
+      "mime": "application/epub+zip",
+      "size": 460687,
+      "modified": "2026-08-15T07:26:22.000Z",
+      "checksum": "6aadd9fa64ca23629fe5c5a38c0c4910",
+      "folder": false
+    },
+    {
+      "id": "18us7SabZPjwWNAHY5iMbUxhDod-1u_qD",
+      "parent_id": "1j3t6hN_NFEJ8XC9JPBQNg1wgeKUFknDX",
+      "name": "HEIDI - CÔ BÉ TRÊN NÚI CAO.pdf",
+      "mime": "application/pdf",
+      "size": 553613,
+      "modified": "2026-08-15T07:26:20.000Z",
+      "checksum": "4c1b3f5fa644973ce6e63feac7e7d295",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pE8Dw-z2eTJyC6QpOCh1lTsHpsSVB32d",
+  "page": 1,
+  "items": [
+    {
+      "id": "1M0KLciSIdJBvqZ4NqbOwG26t22frvQ46",
+      "parent_id": "1pE8Dw-z2eTJyC6QpOCh1lTsHpsSVB32d",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1714,
+      "modified": "2026-08-16T03:36:35.000Z",
+      "checksum": "8e33e219e48f0aac5ded05c273dc1da1",
+      "folder": false
+    },
+    {
+      "id": "1lhVIu9cdB1s5QE5_vHzzrg17X0UBRFfZ",
+      "parent_id": "1pE8Dw-z2eTJyC6QpOCh1lTsHpsSVB32d",
+      "name": "MỘT CÁI CHẾT THONG THẢ.epub",
+      "mime": "application/epub+zip",
+      "size": 259806,
+      "modified": "2026-08-16T03:36:40.000Z",
+      "checksum": "787423102dada29e0d2398c60bc7733a",
+      "folder": false
+    },
+    {
+      "id": "1i2etEWJS9PJ0Cb1nh7dg2GQW3VKBg96m",
+      "parent_id": "1pE8Dw-z2eTJyC6QpOCh1lTsHpsSVB32d",
+      "name": "MỘT CÁI CHẾT THONG THẢ.pdf",
+      "mime": "application/pdf",
+      "size": 371797,
+      "modified": "2026-08-16T03:36:38.000Z",
+      "checksum": "96e7ce9b3c1e04f00c9be0907001b4d9",
+      "folder": false
+    }
+  ]
+}

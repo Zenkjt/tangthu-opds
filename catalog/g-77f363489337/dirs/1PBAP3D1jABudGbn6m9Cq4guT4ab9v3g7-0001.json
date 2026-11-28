@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PBAP3D1jABudGbn6m9Cq4guT4ab9v3g7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tzl3MECR-12Me2ZgeRtYPrz9F4wTjWxb",
+      "parent_id": "1PBAP3D1jABudGbn6m9Cq4guT4ab9v3g7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3170,
+      "modified": "2026-08-15T15:36:35.000Z",
+      "checksum": "f9f4f238c489f5a4c03d5076a3509860",
+      "folder": false
+    },
+    {
+      "id": "1NPKUIyAYfn86scNIqgWcAYHkQWyaeaFA",
+      "parent_id": "1PBAP3D1jABudGbn6m9Cq4guT4ab9v3g7",
+      "name": "TÊN GIẾT NGƯỜI GIẤU MẶT.epub",
+      "mime": "application/epub+zip",
+      "size": 487584,
+      "modified": "2026-08-15T15:36:43.000Z",
+      "checksum": "4ed197bd5fd8729aedcb63f71503105a",
+      "folder": false
+    },
+    {
+      "id": "1YowXQnjzSK-krDCiu5X6wWzSZjYKfkE_",
+      "parent_id": "1PBAP3D1jABudGbn6m9Cq4guT4ab9v3g7",
+      "name": "TÊN GIẾT NGƯỜI GIẤU MẶT.pdf",
+      "mime": "application/pdf",
+      "size": 688224,
+      "modified": "2026-08-15T15:36:40.000Z",
+      "checksum": "45e54b220a902368da355f70cb63eb33",
+      "folder": false
+    }
+  ]
+}

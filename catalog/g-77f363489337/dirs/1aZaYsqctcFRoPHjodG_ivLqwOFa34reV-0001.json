@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aZaYsqctcFRoPHjodG_ivLqwOFa34reV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OK7jpx2Y6_JIMrqrSs3h4NSVNlMHfJHl",
+      "parent_id": "1aZaYsqctcFRoPHjodG_ivLqwOFa34reV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4342,
+      "modified": "2026-08-16T04:23:43.000Z",
+      "checksum": "5d96f741e64f5f9ab09159ad40fc6485",
+      "folder": false
+    },
+    {
+      "id": "1Wd7YbRNR0yi74q0VtuXEtgvvv50Oahi5",
+      "parent_id": "1aZaYsqctcFRoPHjodG_ivLqwOFa34reV",
+      "name": "VIẾT DƯỚI ÁNH ĐÈN DẦU.epub",
+      "mime": "application/epub+zip",
+      "size": 586090,
+      "modified": "2026-08-16T04:23:55.000Z",
+      "checksum": "f71cd438d5a3af121c3b582ba06d1b2a",
+      "folder": false
+    },
+    {
+      "id": "1Xx3h1dS650oy0yi_ig9ZHukfTfAUKrZ4",
+      "parent_id": "1aZaYsqctcFRoPHjodG_ivLqwOFa34reV",
+      "name": "VIẾT DƯỚI ÁNH ĐÈN DẦU.pdf",
+      "mime": "application/pdf",
+      "size": 657674,
+      "modified": "2026-08-16T04:23:50.000Z",
+      "checksum": "1e3709e0f49863e0c32ad1be8b7151f3",
+      "folder": false
+    }
+  ]
+}

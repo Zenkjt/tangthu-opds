@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TlSyAWdzHDnM0O1QcufdCU1Izh4eK5tL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zxUfKie3vnIhh8dnPgGJjxoFSL2qkbNt",
+      "parent_id": "1TlSyAWdzHDnM0O1QcufdCU1Izh4eK5tL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2732,
+      "modified": "2026-08-16T03:51:27.000Z",
+      "checksum": "c83503768b78b59d0a95f1f82bb8a964",
+      "folder": false
+    },
+    {
+      "id": "1KCPlEzxh3Wv3mMiQm3q1ALzRN-jaXQSf",
+      "parent_id": "1TlSyAWdzHDnM0O1QcufdCU1Izh4eK5tL",
+      "name": "VÒNG XOÁY TỘI ÁC.epub",
+      "mime": "application/epub+zip",
+      "size": 686001,
+      "modified": "2026-08-16T03:51:34.000Z",
+      "checksum": "4b704b557a9cab67ecd159fef254ed39",
+      "folder": false
+    },
+    {
+      "id": "19zTYIHn7typq8KLx5QdUqnk5RYzeR1Yl",
+      "parent_id": "1TlSyAWdzHDnM0O1QcufdCU1Izh4eK5tL",
+      "name": "VÒNG XOÁY TỘI ÁC.pdf",
+      "mime": "application/pdf",
+      "size": 1373656,
+      "modified": "2026-08-16T03:51:31.000Z",
+      "checksum": "ba11c67f832c3a1aefeb8f53415388db",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1n1k1079pe_jw7UhSCL1kdlPbPNrWlr7S",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VNqOehH06AD9d5VPZYYZhkl30LX5EdFt",
+      "parent_id": "1n1k1079pe_jw7UhSCL1kdlPbPNrWlr7S",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6164,
+      "modified": "2026-08-15T17:02:34.000Z",
+      "checksum": "4be8ffe32d391db0df5487a5f298996c",
+      "folder": false
+    },
+    {
+      "id": "1Np3xZJkLRf2lHVxQwEe7nk3hTuHh5ySN",
+      "parent_id": "1n1k1079pe_jw7UhSCL1kdlPbPNrWlr7S",
+      "name": "MUỐN PHI THĂNG THÌ YÊU ĐI.epub",
+      "mime": "application/epub+zip",
+      "size": 1665912,
+      "modified": "2026-08-15T17:02:48.000Z",
+      "checksum": "b4053bf47700ab7394d214dac85c9101",
+      "folder": false
+    },
+    {
+      "id": "1hrexzl5sr5ENRwfxjlk_WDaxU4z-4gcC",
+      "parent_id": "1n1k1079pe_jw7UhSCL1kdlPbPNrWlr7S",
+      "name": "MUỐN PHI THĂNG THÌ YÊU ĐI.pdf",
+      "mime": "application/pdf",
+      "size": 5915379,
+      "modified": "2026-08-15T17:02:43.000Z",
+      "checksum": "b6818cb79912369b300c74454e61ef46",
+      "folder": false
+    }
+  ]
+}

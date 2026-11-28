@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wasosXIirMHyJVUZQUhBjCb7SH2ooxFs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1m417yCGkCDZWo69QdzVztmpq6fQ3FBM6",
+      "parent_id": "1wasosXIirMHyJVUZQUhBjCb7SH2ooxFs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12832,
+      "modified": "2026-08-15T07:14:44.000Z",
+      "checksum": "ff527ead115379862d9d87347d624b3f",
+      "folder": false
+    },
+    {
+      "id": "1C-KAv-xg1TGNONTQdy3S2Ojj7CISLkAM",
+      "parent_id": "1wasosXIirMHyJVUZQUhBjCb7SH2ooxFs",
+      "name": "MÙA XUÂN Ở CĂN NHÀ CŨ.epub",
+      "mime": "application/epub+zip",
+      "size": 2120943,
+      "modified": "2026-08-15T07:14:51.000Z",
+      "checksum": "96f103e04c46cc1a2c3de246a5855341",
+      "folder": false
+    },
+    {
+      "id": "1lWj1s2zgHWMEhQjWOuHWM8MNufFj8zp6",
+      "parent_id": "1wasosXIirMHyJVUZQUhBjCb7SH2ooxFs",
+      "name": "MÙA XUÂN Ở CĂN NHÀ CŨ.pdf",
+      "mime": "application/pdf",
+      "size": 1807248,
+      "modified": "2026-08-15T07:14:48.000Z",
+      "checksum": "452dc2f8367b78472f3beece2dfa1b08",
+      "folder": false
+    }
+  ]
+}

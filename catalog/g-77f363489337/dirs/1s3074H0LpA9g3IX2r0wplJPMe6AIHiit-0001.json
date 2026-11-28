@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1s3074H0LpA9g3IX2r0wplJPMe6AIHiit",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_HpQmJ7VuaKKmlB_3BbgGcNPKCbOLjoh",
+      "parent_id": "1s3074H0LpA9g3IX2r0wplJPMe6AIHiit",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7670,
+      "modified": "2026-08-15T07:54:33.000Z",
+      "checksum": "28659b09d463b86dcae7e8d15c6e0d42",
+      "folder": false
+    },
+    {
+      "id": "1L8DXkx7BAnoaDmv58B6PHtigFRA9g4Pv",
+      "parent_id": "1s3074H0LpA9g3IX2r0wplJPMe6AIHiit",
+      "name": "QUÁ TRÌNH TỰ VẢ CỦA HOÀNG ĐẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 275953,
+      "modified": "2026-08-15T07:54:39.000Z",
+      "checksum": "0c387d5596233909607d197fb94274e3",
+      "folder": false
+    },
+    {
+      "id": "1P9oJBXePhe2gxhsBF3y9ZpEWkJ7s9SnQ",
+      "parent_id": "1s3074H0LpA9g3IX2r0wplJPMe6AIHiit",
+      "name": "QUÁ TRÌNH TỰ VẢ CỦA HOÀNG ĐẾ.pdf",
+      "mime": "application/pdf",
+      "size": 675890,
+      "modified": "2026-08-15T07:54:37.000Z",
+      "checksum": "94cdf3f48c5e724cc7e8f69e59fd9c43",
+      "folder": false
+    }
+  ]
+}

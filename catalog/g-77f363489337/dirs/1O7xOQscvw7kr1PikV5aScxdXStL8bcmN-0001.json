@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1O7xOQscvw7kr1PikV5aScxdXStL8bcmN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1K4PdbmG7YllvkK57Hz7hi4t8UB0YWsWe",
+      "parent_id": "1O7xOQscvw7kr1PikV5aScxdXStL8bcmN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3201,
+      "modified": "2026-08-16T04:14:17.000Z",
+      "checksum": "689d2839f55e9a47cb02215a809e0407",
+      "folder": false
+    },
+    {
+      "id": "12UuXm845jPP8Umt7fvNAcYT-yDIzsF2u",
+      "parent_id": "1O7xOQscvw7kr1PikV5aScxdXStL8bcmN",
+      "name": "NGƯỜI BỊ BUỘC TỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 641983,
+      "modified": "2026-08-16T04:14:24.000Z",
+      "checksum": "5954e895ae44796d87ae5169a0ae456c",
+      "folder": false
+    },
+    {
+      "id": "1iJ2cbjgvcJ0X8TXHkrdnTCWtKWJ0LBAX",
+      "parent_id": "1O7xOQscvw7kr1PikV5aScxdXStL8bcmN",
+      "name": "NGƯỜI BỊ BUỘC TỘI.pdf",
+      "mime": "application/pdf",
+      "size": 1092455,
+      "modified": "2026-08-16T04:14:22.000Z",
+      "checksum": "9491c90694d9929f5380649ccc014aaa",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QYugWdeyn98TyRBFW2rk7zvPjaOAzBG5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WVxdd8QqXGe0AiU0KsbEng5D1SpdWN_D",
+      "parent_id": "1QYugWdeyn98TyRBFW2rk7zvPjaOAzBG5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4690,
+      "modified": "2026-08-15T09:41:01.000Z",
+      "checksum": "2c5ed642a53f3cb2b837d43f787a8d2c",
+      "folder": false
+    },
+    {
+      "id": "1ZaJn1A_WSWKNTBGYnQ40C8S6Qm6JAsFY",
+      "parent_id": "1QYugWdeyn98TyRBFW2rk7zvPjaOAzBG5",
+      "name": "MINH KÍNH ĐÀI.epub",
+      "mime": "application/epub+zip",
+      "size": 504470,
+      "modified": "2026-08-15T09:41:08.000Z",
+      "checksum": "f3558164101d1eb76546a07661cd0ce6",
+      "folder": false
+    },
+    {
+      "id": "1ZlYrB9jKwvbrdk9yxhppgdlm7LE7vpIq",
+      "parent_id": "1QYugWdeyn98TyRBFW2rk7zvPjaOAzBG5",
+      "name": "MINH KÍNH ĐÀI.pdf",
+      "mime": "application/pdf",
+      "size": 1287575,
+      "modified": "2026-08-15T09:41:05.000Z",
+      "checksum": "9ac834a54943083e8faa178ca4906f34",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hhaGydlcuAOeUIxIzKCNkSwBveUwoZWR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BGd73HiVufb0KEMwrMHH-xFpsHiuHnDf",
+      "parent_id": "1hhaGydlcuAOeUIxIzKCNkSwBveUwoZWR",
+      "name": "CHIẾN BINH HẠT DẺ.epub",
+      "mime": "application/epub+zip",
+      "size": 300301,
+      "modified": "2026-08-16T03:45:45.000Z",
+      "checksum": "81720c0fb2dd39181e5f323341299569",
+      "folder": false
+    },
+    {
+      "id": "1vuaR_cm3AYbPVtr4MqOENE1ePSYrHXqD",
+      "parent_id": "1hhaGydlcuAOeUIxIzKCNkSwBveUwoZWR",
+      "name": "CHIẾN BINH HẠT DẺ.pdf",
+      "mime": "application/pdf",
+      "size": 234239,
+      "modified": "2026-08-16T03:45:43.000Z",
+      "checksum": "0bb88596c0c1055093c683872c27a476",
+      "folder": false
+    },
+    {
+      "id": "1j3sf_hGAgrKqBuyOpUpy7Fs1ifvF5-6N",
+      "parent_id": "1hhaGydlcuAOeUIxIzKCNkSwBveUwoZWR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1694,
+      "modified": "2026-08-16T03:45:39.000Z",
+      "checksum": "37fce09ef8dd61e97548521e782498ba",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14UchsaRmUHJ2R_JskEQ0VGaNCnDstrVG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Wmv0YZRW--HOnljbwMmo8bDp9WCroxtD",
+      "parent_id": "14UchsaRmUHJ2R_JskEQ0VGaNCnDstrVG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3291,
+      "modified": "2026-08-15T15:34:13.000Z",
+      "checksum": "7fbc89bbf9bd633366d23c4de18d1efd",
+      "folder": false
+    },
+    {
+      "id": "1LyCVrwVRt3Le_WJSTgyGvmdjIsvrX-V3",
+      "parent_id": "14UchsaRmUHJ2R_JskEQ0VGaNCnDstrVG",
+      "name": "VỤ BÍ ẨN VÒNG TRÒN THẦN BÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 414279,
+      "modified": "2026-08-15T15:34:19.000Z",
+      "checksum": "442959fa364d5076aa24d29b204c5815",
+      "folder": false
+    },
+    {
+      "id": "1W0G0mDFET4ArVwgMWkW-Tur56OZ_5Cp0",
+      "parent_id": "14UchsaRmUHJ2R_JskEQ0VGaNCnDstrVG",
+      "name": "VỤ BÍ ẨN VÒNG TRÒN THẦN BÍ.pdf",
+      "mime": "application/pdf",
+      "size": 482063,
+      "modified": "2026-08-15T15:34:17.000Z",
+      "checksum": "98b57d4c68b4e39600b9ade76814dfc2",
+      "folder": false
+    }
+  ]
+}

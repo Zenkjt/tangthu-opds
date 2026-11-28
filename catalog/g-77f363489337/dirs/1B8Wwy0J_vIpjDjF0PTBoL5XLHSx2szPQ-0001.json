@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1B8Wwy0J_vIpjDjF0PTBoL5XLHSx2szPQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "11OC1wDjjITswkWp88W4t980_sNqjVlYK",
+      "parent_id": "1B8Wwy0J_vIpjDjF0PTBoL5XLHSx2szPQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4345,
+      "modified": "2026-08-15T03:40:06.000Z",
+      "checksum": "cbd670bb9aa96e37474a568de5f837c3",
+      "folder": false
+    },
+    {
+      "id": "1kHXdBC4lfYAkhQAeRFKGWyBTWEc2dV37",
+      "parent_id": "1B8Wwy0J_vIpjDjF0PTBoL5XLHSx2szPQ",
+      "name": "THỨC TỈNH.epub",
+      "mime": "application/epub+zip",
+      "size": 3272752,
+      "modified": "2026-08-15T03:40:23.000Z",
+      "checksum": "5e27a55bf58fb63588dad6ceee3b3e20",
+      "folder": false
+    },
+    {
+      "id": "1gjHqLEMaakmcjRMlMMzZNerNi2GEeFXm",
+      "parent_id": "1B8Wwy0J_vIpjDjF0PTBoL5XLHSx2szPQ",
+      "name": "THỨC TỈNH.pdf",
+      "mime": "application/pdf",
+      "size": 5484366,
+      "modified": "2026-08-15T03:40:18.000Z",
+      "checksum": "4fb4b81899940544cca567b119f5f50c",
+      "folder": false
+    }
+  ]
+}

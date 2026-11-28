@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jcDitp-h9MgJ2DfRJJcpR3hATXDCpiIB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dJ0SuU8KIWy6XG4vNJJN_36HuO-dFFJ7",
+      "parent_id": "1jcDitp-h9MgJ2DfRJJcpR3hATXDCpiIB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3029,
+      "modified": "2026-08-16T04:11:48.000Z",
+      "checksum": "6a8c00e76e00ce168e6b6a43f4f5f505",
+      "folder": false
+    },
+    {
+      "id": "1WeWqQjRQMXojpspuEGshcsPsEZU8-ApO",
+      "parent_id": "1jcDitp-h9MgJ2DfRJJcpR3hATXDCpiIB",
+      "name": "NHO ĐẠO CHÍ THÁNH.epub",
+      "mime": "application/epub+zip",
+      "size": 348103,
+      "modified": "2026-08-16T04:11:55.000Z",
+      "checksum": "b80ff788b1714a3db8373101db00c6bb",
+      "folder": false
+    },
+    {
+      "id": "1bCNtoD_x8oT29BCAUpHR4OEaJrtDStUJ",
+      "parent_id": "1jcDitp-h9MgJ2DfRJJcpR3hATXDCpiIB",
+      "name": "NHO ĐẠO CHÍ THÁNH.pdf",
+      "mime": "application/pdf",
+      "size": 402229,
+      "modified": "2026-08-16T04:11:52.000Z",
+      "checksum": "cc8c525509a39d12d3ef8269c4499030",
+      "folder": false
+    }
+  ]
+}

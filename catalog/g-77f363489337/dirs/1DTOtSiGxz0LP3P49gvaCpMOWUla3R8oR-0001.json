@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DTOtSiGxz0LP3P49gvaCpMOWUla3R8oR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qSpOs3QfTsR3dbTyFlkDBYPvGeEKTaSZ",
+      "parent_id": "1DTOtSiGxz0LP3P49gvaCpMOWUla3R8oR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7378,
+      "modified": "2026-08-15T15:10:03.000Z",
+      "checksum": "c630fa446a29971cd015491e3cbc8781",
+      "folder": false
+    },
+    {
+      "id": "1zO8ziz-TblMwDnn1DFUOAqw94olzDQxl",
+      "parent_id": "1DTOtSiGxz0LP3P49gvaCpMOWUla3R8oR",
+      "name": "HOA HỒNG MÁU.epub",
+      "mime": "application/epub+zip",
+      "size": 580919,
+      "modified": "2026-08-15T15:10:13.000Z",
+      "checksum": "2c630b9497ff2e8a66ddaec2ccb28c70",
+      "folder": false
+    },
+    {
+      "id": "1iRrz6lCRKRb9DOWVozYPW1a6DGQFpuwT",
+      "parent_id": "1DTOtSiGxz0LP3P49gvaCpMOWUla3R8oR",
+      "name": "HOA HỒNG MÁU.pdf",
+      "mime": "application/pdf",
+      "size": 1073541,
+      "modified": "2026-08-15T15:10:11.000Z",
+      "checksum": "92602c3cfa750ac99d3289e08c93b3f1",
+      "folder": false
+    }
+  ]
+}

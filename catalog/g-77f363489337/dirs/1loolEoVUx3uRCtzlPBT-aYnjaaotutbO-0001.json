@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1loolEoVUx3uRCtzlPBT-aYnjaaotutbO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LHv1hGjXxNc8CCLpWMVEphpfruNSTa1E",
+      "parent_id": "1loolEoVUx3uRCtzlPBT-aYnjaaotutbO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3283,
+      "modified": "2026-08-16T04:07:27.000Z",
+      "checksum": "7317da00957063cd751ca7af3f4f478d",
+      "folder": false
+    },
+    {
+      "id": "1pfDSwXG5W8oD7Hb_i3i2EkNai7pfFxTf",
+      "parent_id": "1loolEoVUx3uRCtzlPBT-aYnjaaotutbO",
+      "name": "ÔM EM ĐI, DIỆP TƯ VIỄN.epub",
+      "mime": "application/epub+zip",
+      "size": 1067268,
+      "modified": "2026-08-16T04:07:42.000Z",
+      "checksum": "a4cf059b54c6e4118bb2d5720236a665",
+      "folder": false
+    },
+    {
+      "id": "1AlkX-eCTroEjnTSHy_eT41KR0qjZxASZ",
+      "parent_id": "1loolEoVUx3uRCtzlPBT-aYnjaaotutbO",
+      "name": "ÔM EM ĐI, DIỆP TƯ VIỄN.pdf",
+      "mime": "application/pdf",
+      "size": 4004941,
+      "modified": "2026-08-16T04:07:38.000Z",
+      "checksum": "cff2474c1a38500d17c866880e87502d",
+      "folder": false
+    }
+  ]
+}

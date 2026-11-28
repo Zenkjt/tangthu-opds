@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15Pcb34Mk_TAZF7skp0WcOGPLeas5Bei2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MsUAI3RtLxx-yfXluZPv1kOu2MAeocDs",
+      "parent_id": "15Pcb34Mk_TAZF7skp0WcOGPLeas5Bei2",
+      "name": "CHẠY ÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 845607,
+      "modified": "2026-08-15T06:09:14.000Z",
+      "checksum": "9f0a563d736d7bd638d32ee1dba11d78",
+      "folder": false
+    },
+    {
+      "id": "1-iT4j5Xy6rvrddtgFbJ7us_7-9pn_oHG",
+      "parent_id": "15Pcb34Mk_TAZF7skp0WcOGPLeas5Bei2",
+      "name": "CHẠY ÁN.pdf",
+      "mime": "application/pdf",
+      "size": 857934,
+      "modified": "2026-08-15T06:08:58.000Z",
+      "checksum": "e865d0a6b970aa845330e7c39e9c1920",
+      "folder": false
+    },
+    {
+      "id": "1-NyBnqqDHVHuDP_6VCetUAiG7upKPXe9",
+      "parent_id": "15Pcb34Mk_TAZF7skp0WcOGPLeas5Bei2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3185,
+      "modified": "2026-08-15T06:08:49.000Z",
+      "checksum": "155066b8cbd8b2c4d4b2f7f84434a116",
+      "folder": false
+    }
+  ]
+}

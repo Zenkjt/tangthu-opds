@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hKRUlJJrRuDBkqPFZ9lKs0cZ5Q9f5o2j",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CvNnzCPwRwZxkk2pFFZSaFfH9V2G0YnR",
+      "parent_id": "1hKRUlJJrRuDBkqPFZ9lKs0cZ5Q9f5o2j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4947,
+      "modified": "2026-08-15T08:18:10.000Z",
+      "checksum": "facddc9616d2404ab5114d0169fd5d09",
+      "folder": false
+    },
+    {
+      "id": "14lR80ObzeMkzWyO47vAa-cYU19sm1sxT",
+      "parent_id": "1hKRUlJJrRuDBkqPFZ9lKs0cZ5Q9f5o2j",
+      "name": "NAM TƯỚC PHÔN GÔN-RINH.epub",
+      "mime": "application/epub+zip",
+      "size": 896041,
+      "modified": "2026-08-15T08:18:19.000Z",
+      "checksum": "8824a7e13974cbca54b1c17670103faf",
+      "folder": false
+    },
+    {
+      "id": "1CqltMmMjwxl2W3CTtOtz4o_JNnqB8fb6",
+      "parent_id": "1hKRUlJJrRuDBkqPFZ9lKs0cZ5Q9f5o2j",
+      "name": "NAM TƯỚC PHÔN GÔN-RINH.pdf",
+      "mime": "application/pdf",
+      "size": 2609399,
+      "modified": "2026-08-15T08:18:17.000Z",
+      "checksum": "73afdae57a1597c4d1f3b760ed127100",
+      "folder": false
+    }
+  ]
+}

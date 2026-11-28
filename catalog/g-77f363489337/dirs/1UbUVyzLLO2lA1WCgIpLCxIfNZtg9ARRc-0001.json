@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UbUVyzLLO2lA1WCgIpLCxIfNZtg9ARRc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1p9CtqfXVWPc9HIITNONlNK8VVJ30SZRz",
+      "parent_id": "1UbUVyzLLO2lA1WCgIpLCxIfNZtg9ARRc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 510,
+      "modified": "2026-08-16T04:14:13.000Z",
+      "checksum": "1495336f756f1401c0d32a1b0bd9536b",
+      "folder": false
+    },
+    {
+      "id": "1y0q954kzRNRS6T6UCzURewZGeqhaijnQ",
+      "parent_id": "1UbUVyzLLO2lA1WCgIpLCxIfNZtg9ARRc",
+      "name": "NGƯỜI BỖNG LẠI VỀ.epub",
+      "mime": "application/epub+zip",
+      "size": 331812,
+      "modified": "2026-08-16T04:14:19.000Z",
+      "checksum": "eed4302eaf3f588a78d78e57bcd3eee2",
+      "folder": false
+    },
+    {
+      "id": "17lVVEAB4wPpB73ESq9KIsXROoG0dGLl5",
+      "parent_id": "1UbUVyzLLO2lA1WCgIpLCxIfNZtg9ARRc",
+      "name": "NGƯỜI BỖNG LẠI VỀ.pdf",
+      "mime": "application/pdf",
+      "size": 583098,
+      "modified": "2026-08-16T04:14:16.000Z",
+      "checksum": "591529baf368aaa575cf397733f663b7",
+      "folder": false
+    }
+  ]
+}

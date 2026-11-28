@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ForOTIOj0NTTsZH2nS63S-8eqhfBaeZ7",
+  "page": 1,
+  "items": [
+    {
+      "id": "17Q9BXb_Z14mpCiuhh_4Ir4LoJpzncCs2",
+      "parent_id": "1ForOTIOj0NTTsZH2nS63S-8eqhfBaeZ7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7510,
+      "modified": "2026-08-15T07:21:05.000Z",
+      "checksum": "3e559cbe0606e3db5894fc90745260cf",
+      "folder": false
+    },
+    {
+      "id": "1s9Txuvc7iDR_7SsDjzCRxwEF43CTGQ7A",
+      "parent_id": "1ForOTIOj0NTTsZH2nS63S-8eqhfBaeZ7",
+      "name": "TRANG.epub",
+      "mime": "application/epub+zip",
+      "size": 585967,
+      "modified": "2026-08-15T07:21:12.000Z",
+      "checksum": "ecb1a6f2dc8f099c47a5f1310b92e436",
+      "folder": false
+    },
+    {
+      "id": "1T_54y8KkR1vC_OJ7Y09aTiaudWSMeySE",
+      "parent_id": "1ForOTIOj0NTTsZH2nS63S-8eqhfBaeZ7",
+      "name": "TRANG.pdf",
+      "mime": "application/pdf",
+      "size": 1286273,
+      "modified": "2026-08-15T07:21:10.000Z",
+      "checksum": "8505ba8ac134219d5c85d49cc4bd9dfd",
+      "folder": false
+    }
+  ]
+}

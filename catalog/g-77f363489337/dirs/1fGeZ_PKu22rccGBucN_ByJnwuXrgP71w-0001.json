@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fGeZ_PKu22rccGBucN_ByJnwuXrgP71w",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SAHf4RT4j1-tRvgabkkfbBTUhvF4evy2",
+      "parent_id": "1fGeZ_PKu22rccGBucN_ByJnwuXrgP71w",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1602,
+      "modified": "2026-08-15T03:14:55.000Z",
+      "checksum": "20ce9abaece35be04c4de02ba69b1da6",
+      "folder": false
+    },
+    {
+      "id": "1D7g45tjV237nAwd1lFV5A04Pcgf5zFar",
+      "parent_id": "1fGeZ_PKu22rccGBucN_ByJnwuXrgP71w",
+      "name": "THUẬT TƯ TƯỞNG.epub",
+      "mime": "application/epub+zip",
+      "size": 345139,
+      "modified": "2026-08-15T03:15:02.000Z",
+      "checksum": "3f4c20cb3b42d8cc1fac82b95f735a3b",
+      "folder": false
+    },
+    {
+      "id": "1ZLnE4au1fIQAi_2QwSJUserdZI10AgX_",
+      "parent_id": "1fGeZ_PKu22rccGBucN_ByJnwuXrgP71w",
+      "name": "THUẬT TƯ TƯỞNG.pdf",
+      "mime": "application/pdf",
+      "size": 967388,
+      "modified": "2026-08-15T03:15:00.000Z",
+      "checksum": "08f3f4bb3b61c5adbd52ad386c41b77a",
+      "folder": false
+    }
+  ]
+}

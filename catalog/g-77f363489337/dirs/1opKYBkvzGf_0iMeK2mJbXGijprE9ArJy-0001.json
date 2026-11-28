@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1opKYBkvzGf_0iMeK2mJbXGijprE9ArJy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1La8dl8SzgwCBA__BCjdcu9_8Dt_CTV16",
+      "parent_id": "1opKYBkvzGf_0iMeK2mJbXGijprE9ArJy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 612,
+      "modified": "2026-08-15T10:59:16.000Z",
+      "checksum": "a46fd8bb7b294d28b0209b64642c7d97",
+      "folder": false
+    },
+    {
+      "id": "1M9QgcDMYlksD3qZZOZOofKBf0aelm5c0",
+      "parent_id": "1opKYBkvzGf_0iMeK2mJbXGijprE9ArJy",
+      "name": "ĐỊNH ĐÔNG LĂNG.epub",
+      "mime": "application/epub+zip",
+      "size": 527980,
+      "modified": "2026-08-15T10:59:29.000Z",
+      "checksum": "302b05ee6d6db791d35dd4421fb53059",
+      "folder": false
+    },
+    {
+      "id": "1XlmfnEGYWOKhJREiGvzFK6-z92dPkVT8",
+      "parent_id": "1opKYBkvzGf_0iMeK2mJbXGijprE9ArJy",
+      "name": "ĐỊNH ĐÔNG LĂNG.pdf",
+      "mime": "application/pdf",
+      "size": 1121543,
+      "modified": "2026-08-15T10:59:25.000Z",
+      "checksum": "1d8f6abee0c1e7dd2a84464dd8a2a29e",
+      "folder": false
+    }
+  ]
+}

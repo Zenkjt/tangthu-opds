@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gMzEd7vqi4l6Xf6oVTRd9wGS0239M1fR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1moJGawv2j3GgyFhR6dwo6kYmMk9Urjr6",
+      "parent_id": "1gMzEd7vqi4l6Xf6oVTRd9wGS0239M1fR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 650,
+      "modified": "2026-08-16T04:18:31.000Z",
+      "checksum": "2c812d0f5e2251c2da19cd3f3d9f57d5",
+      "folder": false
+    },
+    {
+      "id": "17w9ubPT7ktqTkwiyqOXDfRMnP_T79JWB",
+      "parent_id": "1gMzEd7vqi4l6Xf6oVTRd9wGS0239M1fR",
+      "name": "LẮNG NGHE TRONG GIÓ.epub",
+      "mime": "application/epub+zip",
+      "size": 595589,
+      "modified": "2026-08-16T04:18:41.000Z",
+      "checksum": "3553d2d1d06e2e6bd996658bab697d6b",
+      "folder": false
+    },
+    {
+      "id": "1Bw4180oV5A-LYJqTDMw9G6Mi42BNpEYt",
+      "parent_id": "1gMzEd7vqi4l6Xf6oVTRd9wGS0239M1fR",
+      "name": "LẮNG NGHE TRONG GIÓ.pdf",
+      "mime": "application/pdf",
+      "size": 1715173,
+      "modified": "2026-08-16T04:18:38.000Z",
+      "checksum": "c3502c27461aa9c7839df18d065b70d6",
+      "folder": false
+    }
+  ]
+}

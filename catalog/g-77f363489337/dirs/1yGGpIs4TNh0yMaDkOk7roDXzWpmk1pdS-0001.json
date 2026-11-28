@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yGGpIs4TNh0yMaDkOk7roDXzWpmk1pdS",
+  "page": 1,
+  "items": [
+    {
+      "id": "18Lq-CCQI8eFwhwL6URJ9puCmsOh6kxDS",
+      "parent_id": "1yGGpIs4TNh0yMaDkOk7roDXzWpmk1pdS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2386,
+      "modified": "2026-08-16T02:56:19.000Z",
+      "checksum": "ea3539a0050b3f97e441463d098a192c",
+      "folder": false
+    },
+    {
+      "id": "1bkTiMDyyi0d5uhVkz_OGjUFXUQiOi2jx",
+      "parent_id": "1yGGpIs4TNh0yMaDkOk7roDXzWpmk1pdS",
+      "name": "TÂN PHONG NỮ SĨ.epub",
+      "mime": "application/epub+zip",
+      "size": 276555,
+      "modified": "2026-08-16T02:56:26.000Z",
+      "checksum": "ebfb40f5e92801e1527a55c705e75040",
+      "folder": false
+    },
+    {
+      "id": "1MS-eXjthNR2PkK93qj5ICBW6NJ3E514-",
+      "parent_id": "1yGGpIs4TNh0yMaDkOk7roDXzWpmk1pdS",
+      "name": "TÂN PHONG NỮ SĨ.pdf",
+      "mime": "application/pdf",
+      "size": 1226614,
+      "modified": "2026-08-16T02:56:24.000Z",
+      "checksum": "9416b93237f0c410718a96c3110a350a",
+      "folder": false
+    }
+  ]
+}

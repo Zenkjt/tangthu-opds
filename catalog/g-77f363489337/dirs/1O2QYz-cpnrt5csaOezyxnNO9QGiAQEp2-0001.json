@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1O2QYz-cpnrt5csaOezyxnNO9QGiAQEp2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HazsPtP8JG37c3w0VaRZLkliBJHwxj7Y",
+      "parent_id": "1O2QYz-cpnrt5csaOezyxnNO9QGiAQEp2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2013,
+      "modified": "2026-08-16T03:10:54.000Z",
+      "checksum": "942f173f2ca9c05109e0385f608250fc",
+      "folder": false
+    },
+    {
+      "id": "1MLCA6RtAbImojcglBIEusVJ1JLeFn9aF",
+      "parent_id": "1O2QYz-cpnrt5csaOezyxnNO9QGiAQEp2",
+      "name": "ÁI TÌNH MIẾU.epub",
+      "mime": "application/epub+zip",
+      "size": 365154,
+      "modified": "2026-08-16T03:11:00.000Z",
+      "checksum": "16c474b9f31cf4e7995d16ac8f2db0c2",
+      "folder": false
+    },
+    {
+      "id": "1r65qGjTGznYnH3G_TFr8I0BjM_F7jaav",
+      "parent_id": "1O2QYz-cpnrt5csaOezyxnNO9QGiAQEp2",
+      "name": "ÁI TÌNH MIẾU.pdf",
+      "mime": "application/pdf",
+      "size": 485670,
+      "modified": "2026-08-16T03:10:58.000Z",
+      "checksum": "ff6ffe39af2a8253906ff131ea3ca797",
+      "folder": false
+    }
+  ]
+}

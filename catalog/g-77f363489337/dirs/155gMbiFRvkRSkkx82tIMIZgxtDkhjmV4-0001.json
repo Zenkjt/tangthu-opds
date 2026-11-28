@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "155gMbiFRvkRSkkx82tIMIZgxtDkhjmV4",
+  "page": 1,
+  "items": [
+    {
+      "id": "11hNrNcW63yDFZ9_ZADE_G1NlnqDNHive",
+      "parent_id": "155gMbiFRvkRSkkx82tIMIZgxtDkhjmV4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1950,
+      "modified": "2026-08-15T09:45:09.000Z",
+      "checksum": "22a513f5d1381f964f510a2efb1213a1",
+      "folder": false
+    },
+    {
+      "id": "16ctn1OdmEHC2VMW1L5QZhzEnoDCOOCEa",
+      "parent_id": "155gMbiFRvkRSkkx82tIMIZgxtDkhjmV4",
+      "name": "LẠC HỒNG KÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 1692312,
+      "modified": "2026-08-15T09:45:57.000Z",
+      "checksum": "ce08f60ba6d6781a766ae72fcf6ac70f",
+      "folder": false
+    },
+    {
+      "id": "1Fq8Q1Vm9LhNrjYTOXm0_7B47Tq-OUExv",
+      "parent_id": "155gMbiFRvkRSkkx82tIMIZgxtDkhjmV4",
+      "name": "LẠC HỒNG KÝ.pdf",
+      "mime": "application/pdf",
+      "size": 2021718,
+      "modified": "2026-08-15T09:45:50.000Z",
+      "checksum": "1b38697ad25668092dd60e56979c87db",
+      "folder": false
+    }
+  ]
+}

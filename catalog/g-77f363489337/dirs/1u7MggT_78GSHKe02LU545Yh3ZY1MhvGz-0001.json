@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1u7MggT_78GSHKe02LU545Yh3ZY1MhvGz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iAS3dIrgXtnoZjjFkm-Am2B_ek3R89ii",
+      "parent_id": "1u7MggT_78GSHKe02LU545Yh3ZY1MhvGz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1214,
+      "modified": "2026-08-15T09:33:39.000Z",
+      "checksum": "af82e51b845cc91f42d05dde74ad568d",
+      "folder": false
+    },
+    {
+      "id": "1ghi16HCxlvKggA8vJ8YdImeWfHh-5FB9",
+      "parent_id": "1u7MggT_78GSHKe02LU545Yh3ZY1MhvGz",
+      "name": "TRUYỆN KIỀU VĂN XUÔI DÀNH CHO NGƯỜI TRẺ.epub",
+      "mime": "application/epub+zip",
+      "size": 497376,
+      "modified": "2026-08-15T09:33:46.000Z",
+      "checksum": "08aa45994992b06bbe04f56a8b919053",
+      "folder": false
+    },
+    {
+      "id": "15lhqXUZ9OfoqTttX9PYByj7dt5ieeC4o",
+      "parent_id": "1u7MggT_78GSHKe02LU545Yh3ZY1MhvGz",
+      "name": "TRUYỆN KIỀU VĂN XUÔI DÀNH CHO NGƯỜI TRẺ.pdf",
+      "mime": "application/pdf",
+      "size": 740384,
+      "modified": "2026-08-15T09:33:43.000Z",
+      "checksum": "5ffe7c5812df0a0e126e9c361dac3aa9",
+      "folder": false
+    }
+  ]
+}

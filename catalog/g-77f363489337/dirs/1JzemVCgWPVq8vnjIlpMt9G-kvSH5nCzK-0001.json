@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JzemVCgWPVq8vnjIlpMt9G-kvSH5nCzK",
+  "page": 1,
+  "items": [
+    {
+      "id": "12t8Avcv20xznAUvytF_MH3pXs195wdRD",
+      "parent_id": "1JzemVCgWPVq8vnjIlpMt9G-kvSH5nCzK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5827,
+      "modified": "2026-08-15T15:21:13.000Z",
+      "checksum": "2bfd75165784969a2f6fb5d4378a37c3",
+      "folder": false
+    },
+    {
+      "id": "1aIAxQcWyEhyVB8sToeZdUkBfM-Q7mRH6",
+      "parent_id": "1JzemVCgWPVq8vnjIlpMt9G-kvSH5nCzK",
+      "name": "PHÁP Y TẦN MINH HỆ LIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 2122143,
+      "modified": "2026-08-15T15:21:35.000Z",
+      "checksum": "ab4ddbc67153ed4001ce810f2c24e5ef",
+      "folder": false
+    },
+    {
+      "id": "1n54xu9xa-X2_lnDvWnIaUVumaTXDfNwR",
+      "parent_id": "1JzemVCgWPVq8vnjIlpMt9G-kvSH5nCzK",
+      "name": "PHÁP Y TẦN MINH HỆ LIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 9008591,
+      "modified": "2026-08-15T15:21:30.000Z",
+      "checksum": "4af6e8bebff7ca9dcada59e4774795b9",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GOrZPe7KQtE-CEgVooaRdx0MZqjAZBKR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wtoaHpvnSw_FKxfPXE0fkmSPq3yABY2c",
+      "parent_id": "1GOrZPe7KQtE-CEgVooaRdx0MZqjAZBKR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3358,
+      "modified": "2026-08-15T12:31:17.000Z",
+      "checksum": "a1f68e92b314a3c3cbdccaacc8b5d145",
+      "folder": false
+    },
+    {
+      "id": "12SpvMsFWmdAy87AEwDGT-Lnp2Rb_JjJA",
+      "parent_id": "1GOrZPe7KQtE-CEgVooaRdx0MZqjAZBKR",
+      "name": "TRÊN SA MẠC VÀ TRONG RỪNG THẲM.epub",
+      "mime": "application/epub+zip",
+      "size": 2152279,
+      "modified": "2026-08-15T12:32:13.000Z",
+      "checksum": "33bac62c330d6e6efa20b732948389aa",
+      "folder": false
+    },
+    {
+      "id": "1WF5AJLaiQFP3eHzcG-odYi8uPEM5xzIR",
+      "parent_id": "1GOrZPe7KQtE-CEgVooaRdx0MZqjAZBKR",
+      "name": "TRÊN SA MẠC VÀ TRONG RỪNG THẲM.pdf",
+      "mime": "application/pdf",
+      "size": 1567977,
+      "modified": "2026-08-15T12:31:32.000Z",
+      "checksum": "91f38778e7641b6782b95bf2b4b05627",
+      "folder": false
+    }
+  ]
+}

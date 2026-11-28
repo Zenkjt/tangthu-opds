@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oVIXrCnE6tBFkIra9jHnb3vZLV5HFyCB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1i-7mATRZbc_cKzWOoQT4F0IY6GTJ_aeB",
+      "parent_id": "1oVIXrCnE6tBFkIra9jHnb3vZLV5HFyCB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3518,
+      "modified": "2026-08-15T07:15:20.000Z",
+      "checksum": "ace8c3c7bf4ea2409a7cdd7ac06fe790",
+      "folder": false
+    },
+    {
+      "id": "1OduxtFDS8i5w_iadnOL3Mztaatce9CO1",
+      "parent_id": "1oVIXrCnE6tBFkIra9jHnb3vZLV5HFyCB",
+      "name": "ĐỘC NỮ PK THẦY GIÁO LƯU MANH.epub",
+      "mime": "application/epub+zip",
+      "size": 497155,
+      "modified": "2026-08-15T07:15:28.000Z",
+      "checksum": "b42d68eb9bf9ce704dc89bbd54411e8e",
+      "folder": false
+    },
+    {
+      "id": "1Fun298dMVMtGiNOUInJsgXZzd_dArWE1",
+      "parent_id": "1oVIXrCnE6tBFkIra9jHnb3vZLV5HFyCB",
+      "name": "ĐỘC NỮ PK THẦY GIÁO LƯU MANH.pdf",
+      "mime": "application/pdf",
+      "size": 11876159,
+      "modified": "2026-08-15T07:15:26.000Z",
+      "checksum": "834731904fbdad142b8569c501a26902",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IMWQF1GaHlk3qM56DrfNwPMbjsfxBHt2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FojMcXxYrpjYZC5yJXpl1jML0fsyAJFn",
+      "parent_id": "1IMWQF1GaHlk3qM56DrfNwPMbjsfxBHt2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2858,
+      "modified": "2026-08-16T03:02:24.000Z",
+      "checksum": "ae3616159131ab7d3a0b58a738e04816",
+      "folder": false
+    },
+    {
+      "id": "1-74RTH8Hn10dC3SHbdR2eoEMaaWMuLMR",
+      "parent_id": "1IMWQF1GaHlk3qM56DrfNwPMbjsfxBHt2",
+      "name": "TRĂNG CƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 605603,
+      "modified": "2026-08-16T03:02:31.000Z",
+      "checksum": "6bd5fb232bb6723d4726838e816ba416",
+      "folder": false
+    },
+    {
+      "id": "1p2kKgKv5bzp7phZtSTOKTpIAynhyDMV4",
+      "parent_id": "1IMWQF1GaHlk3qM56DrfNwPMbjsfxBHt2",
+      "name": "TRĂNG CƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 1084521,
+      "modified": "2026-08-16T03:02:29.000Z",
+      "checksum": "1f26a6b0bcfd165bd6a50d1910d7d19f",
+      "folder": false
+    }
+  ]
+}

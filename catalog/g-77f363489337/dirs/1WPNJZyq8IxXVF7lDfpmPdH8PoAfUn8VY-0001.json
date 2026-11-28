@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WPNJZyq8IxXVF7lDfpmPdH8PoAfUn8VY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kXUUWc1Yf_VofI8gH8EiF7sThkq_7LI1",
+      "parent_id": "1WPNJZyq8IxXVF7lDfpmPdH8PoAfUn8VY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2110,
+      "modified": "2026-08-16T03:46:49.000Z",
+      "checksum": "87ec90df2fd561f3e79ff07e2f474f1e",
+      "folder": false
+    },
+    {
+      "id": "1oEw_2hk8CZEe9wogAyiQuiJQwImSpIUz",
+      "parent_id": "1WPNJZyq8IxXVF7lDfpmPdH8PoAfUn8VY",
+      "name": "KHÓM HOA TỬ ĐINH HƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 124974,
+      "modified": "2026-08-16T03:46:55.000Z",
+      "checksum": "24f6c87c6d732dcfa68cfc0db567cbe2",
+      "folder": false
+    },
+    {
+      "id": "1DC8Jy9x793WwLTRG6UrXlte9_Eh5-rX-",
+      "parent_id": "1WPNJZyq8IxXVF7lDfpmPdH8PoAfUn8VY",
+      "name": "KHÓM HOA TỬ ĐINH HƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 81029,
+      "modified": "2026-08-16T03:46:52.000Z",
+      "checksum": "f52ef58956cb3f8fe1023d0a75abce98",
+      "folder": false
+    }
+  ]
+}

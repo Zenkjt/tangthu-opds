@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ML23t0IbqEpQSAAJOnKg3W6lHB9zU7LV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CXrjWqwRthToF71M4EtgD9TTdSg2e5gH",
+      "parent_id": "1ML23t0IbqEpQSAAJOnKg3W6lHB9zU7LV",
+      "name": "CẬN KỀ TỔ ẤM.epub",
+      "mime": "application/epub+zip",
+      "size": 587473,
+      "modified": "2026-08-15T11:01:34.000Z",
+      "checksum": "d92e31ecb5be6e197528c6222d2d2dd7",
+      "folder": false
+    },
+    {
+      "id": "1sjmpOjvw_1OllPBVZ4BNzqnQhU2LfxAG",
+      "parent_id": "1ML23t0IbqEpQSAAJOnKg3W6lHB9zU7LV",
+      "name": "CẬN KỀ TỔ ẤM.pdf",
+      "mime": "application/pdf",
+      "size": 1504871,
+      "modified": "2026-08-15T11:01:25.000Z",
+      "checksum": "4459908ecd16ef3894c223580cbcd183",
+      "folder": false
+    },
+    {
+      "id": "1uZ5BYeoSdgyjmNLfJm3Cv2W6vDECbrVT",
+      "parent_id": "1ML23t0IbqEpQSAAJOnKg3W6lHB9zU7LV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 569,
+      "modified": "2026-08-15T11:01:12.000Z",
+      "checksum": "213c09d5cc74cbbead32c5b39a7473a2",
+      "folder": false
+    }
+  ]
+}

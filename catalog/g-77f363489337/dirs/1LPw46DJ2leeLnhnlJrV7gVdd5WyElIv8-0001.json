@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LPw46DJ2leeLnhnlJrV7gVdd5WyElIv8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NhlGhBbAs6e49-a_AdwNqQnFiipXasrU",
+      "parent_id": "1LPw46DJ2leeLnhnlJrV7gVdd5WyElIv8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3119,
+      "modified": "2026-08-16T03:54:54.000Z",
+      "checksum": "de28389335a8d15072b9d9af946f5415",
+      "folder": false
+    },
+    {
+      "id": "16In0tzr_p0JgoJ4Pil7n_UWdQEStGHHH",
+      "parent_id": "1LPw46DJ2leeLnhnlJrV7gVdd5WyElIv8",
+      "name": "TIỂU SỦNG PHI CỦA NHIẾP CHÍNH VƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 4030543,
+      "modified": "2026-08-16T03:55:06.000Z",
+      "checksum": "bccea9a85457bad02668ec412fb1a2a8",
+      "folder": false
+    },
+    {
+      "id": "1Sw07rNWpf6NVyEkylkDxPWzb4GGTSWnp",
+      "parent_id": "1LPw46DJ2leeLnhnlJrV7gVdd5WyElIv8",
+      "name": "TIỂU SỦNG PHI CỦA NHIẾP CHÍNH VƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 4471143,
+      "modified": "2026-08-16T03:55:02.000Z",
+      "checksum": "b0f064555e346a0efe2f1527ab13ec59",
+      "folder": false
+    }
+  ]
+}

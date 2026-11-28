@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cV5UOyIXk8aMyy8KQQARWPNDAhgTDKm5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-iFcqK1TYODIjIGWu1XdYsrR6P83Dm15",
+      "parent_id": "1cV5UOyIXk8aMyy8KQQARWPNDAhgTDKm5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4664,
+      "modified": "2026-08-15T03:52:25.000Z",
+      "checksum": "71e6b3a17b342c727990c719025d3ea5",
+      "folder": false
+    },
+    {
+      "id": "1mzmsWFXb-TUptNzEEOk8zHZkO1buZe-j",
+      "parent_id": "1cV5UOyIXk8aMyy8KQQARWPNDAhgTDKm5",
+      "name": "ĐẠI GIÁC THÁNH KINH.epub",
+      "mime": "application/epub+zip",
+      "size": 1029149,
+      "modified": "2026-08-15T03:52:31.000Z",
+      "checksum": "c41d1942f2c3258c09dd4b21f6f5890a",
+      "folder": false
+    },
+    {
+      "id": "1yesYbQ2RmIfJYNr85-W3PMm47EEmehhU",
+      "parent_id": "1cV5UOyIXk8aMyy8KQQARWPNDAhgTDKm5",
+      "name": "ĐẠI GIÁC THÁNH KINH.pdf",
+      "mime": "application/pdf",
+      "size": 1419424,
+      "modified": "2026-08-15T03:52:29.000Z",
+      "checksum": "28b47628dc3c2d17c6328a70738eb556",
+      "folder": false
+    }
+  ]
+}

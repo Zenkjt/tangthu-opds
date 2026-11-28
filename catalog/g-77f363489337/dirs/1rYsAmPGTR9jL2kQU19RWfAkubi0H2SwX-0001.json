@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rYsAmPGTR9jL2kQU19RWfAkubi0H2SwX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1y8fysmWmE4P4CGKE-eHjxM9fVacM3bXv",
+      "parent_id": "1rYsAmPGTR9jL2kQU19RWfAkubi0H2SwX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4807,
+      "modified": "2026-08-15T03:57:04.000Z",
+      "checksum": "d8129c7fb11a6deaab46ae61e462a122",
+      "folder": false
+    },
+    {
+      "id": "13atvnYzNFUpmWMWM8aYyYh01-RGJmUqY",
+      "parent_id": "1rYsAmPGTR9jL2kQU19RWfAkubi0H2SwX",
+      "name": "THỨC TỈNH TÂM LINH.epub",
+      "mime": "application/epub+zip",
+      "size": 315605,
+      "modified": "2026-08-15T03:57:09.000Z",
+      "checksum": "6bd4707aa8431d03b8f1dc434adfbd03",
+      "folder": false
+    },
+    {
+      "id": "1e1ocgozla-BTO1yJiWdVgivBtPlaV65z",
+      "parent_id": "1rYsAmPGTR9jL2kQU19RWfAkubi0H2SwX",
+      "name": "THỨC TỈNH TÂM LINH.pdf",
+      "mime": "application/pdf",
+      "size": 472343,
+      "modified": "2026-08-15T03:57:07.000Z",
+      "checksum": "448984af0482266d0ea8e1b172c2a15d",
+      "folder": false
+    }
+  ]
+}

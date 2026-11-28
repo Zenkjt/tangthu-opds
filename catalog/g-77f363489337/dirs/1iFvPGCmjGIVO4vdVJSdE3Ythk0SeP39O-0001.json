@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iFvPGCmjGIVO4vdVJSdE3Ythk0SeP39O",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S8w2VLuekfIRKPLloBbhMn4ST74j5N8g",
+      "parent_id": "1iFvPGCmjGIVO4vdVJSdE3Ythk0SeP39O",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3904,
+      "modified": "2026-08-16T03:37:06.000Z",
+      "checksum": "66430209ba0b97d6ada9ea997b74d2ac",
+      "folder": false
+    },
+    {
+      "id": "1WG8tCXM0Ee1UA9PPbpc6T5yhYPl-0y7u",
+      "parent_id": "1iFvPGCmjGIVO4vdVJSdE3Ythk0SeP39O",
+      "name": "MIÊU MỄ TRẬN TUYẾN LIÊN MANH.epub",
+      "mime": "application/epub+zip",
+      "size": 1017408,
+      "modified": "2026-08-16T03:37:15.000Z",
+      "checksum": "fecce55395e7e37c3248fdfdd169e040",
+      "folder": false
+    },
+    {
+      "id": "1T7C74txYmtQU0d91M-LcuZs1IQNZ9LgG",
+      "parent_id": "1iFvPGCmjGIVO4vdVJSdE3Ythk0SeP39O",
+      "name": "MIÊU MỄ TRẬN TUYẾN LIÊN MANH.pdf",
+      "mime": "application/pdf",
+      "size": 2480588,
+      "modified": "2026-08-16T03:37:12.000Z",
+      "checksum": "2482483c5a0deb8a5aa3620c6824aa99",
+      "folder": false
+    }
+  ]
+}

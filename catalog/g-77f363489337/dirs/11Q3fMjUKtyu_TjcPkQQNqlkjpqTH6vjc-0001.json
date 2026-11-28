@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11Q3fMjUKtyu_TjcPkQQNqlkjpqTH6vjc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XQvRdkZYwYtd6xYaYX0u2uj3S7v-tFFd",
+      "parent_id": "11Q3fMjUKtyu_TjcPkQQNqlkjpqTH6vjc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 23953,
+      "modified": "2026-08-15T04:01:19.000Z",
+      "checksum": "81749e3cdcdf59cca28de6f9db3bf7ff",
+      "folder": false
+    },
+    {
+      "id": "1nRCP_pWWnEGtmDeK1A0NIhCX5fpv9PUX",
+      "parent_id": "11Q3fMjUKtyu_TjcPkQQNqlkjpqTH6vjc",
+      "name": "HỎI HAY ĐÁP ĐÚNG.epub",
+      "mime": "application/epub+zip",
+      "size": 334832,
+      "modified": "2026-08-15T04:01:26.000Z",
+      "checksum": "2eff149047761656f56ff63a71e5d400",
+      "folder": false
+    },
+    {
+      "id": "1KyO0yZb7TcV6T1n_QimAohWmioKlo8Mb",
+      "parent_id": "11Q3fMjUKtyu_TjcPkQQNqlkjpqTH6vjc",
+      "name": "HỎI HAY ĐÁP ĐÚNG.pdf",
+      "mime": "application/pdf",
+      "size": 325455,
+      "modified": "2026-08-15T04:01:23.000Z",
+      "checksum": "0d7fe82013ba8bebc60c0cf828985772",
+      "folder": false
+    }
+  ]
+}

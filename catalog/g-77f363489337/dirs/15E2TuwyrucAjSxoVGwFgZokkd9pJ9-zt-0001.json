@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15E2TuwyrucAjSxoVGwFgZokkd9pJ9-zt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vg_-7EGcTHKpmSBPXQpRYUuS6nUgKI48",
+      "parent_id": "15E2TuwyrucAjSxoVGwFgZokkd9pJ9-zt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3503,
+      "modified": "2026-08-15T00:55:25.000Z",
+      "checksum": "560f6263454a6fee86d1fc2b65021e70",
+      "folder": false
+    },
+    {
+      "id": "1VHX1qI9r4W_RcpWdDu6JKjyD1o4kvsO8",
+      "parent_id": "15E2TuwyrucAjSxoVGwFgZokkd9pJ9-zt",
+      "name": "TRÍ TUỆ XÚC CẢM.epub",
+      "mime": "application/epub+zip",
+      "size": 438772,
+      "modified": "2026-08-15T00:55:32.000Z",
+      "checksum": "9739220893558b5e19c3668e87eb024c",
+      "folder": false
+    },
+    {
+      "id": "1iszQugtf7c4yIrK-K8whjkNFhr0nY9WQ",
+      "parent_id": "15E2TuwyrucAjSxoVGwFgZokkd9pJ9-zt",
+      "name": "TRÍ TUỆ XÚC CẢM.pdf",
+      "mime": "application/pdf",
+      "size": 1121337,
+      "modified": "2026-08-15T00:55:30.000Z",
+      "checksum": "d1cd2927086cc685f272fa989df336ee",
+      "folder": false
+    }
+  ]
+}

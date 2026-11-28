@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1usF_FpRD1RFtjzjc0K8LT0NuTgTTUcKb",
+  "page": 1,
+  "items": [
+    {
+      "id": "12s6WsVTA687H-ooaMnWejnX8-7VOrqrN",
+      "parent_id": "1usF_FpRD1RFtjzjc0K8LT0NuTgTTUcKb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1764,
+      "modified": "2026-08-15T12:46:34.000Z",
+      "checksum": "4ed914ae102518c3c822b85fcca75279",
+      "folder": false
+    },
+    {
+      "id": "1FdA4QDz-6b1rMMdK3n2kPmkHPDLxRak1",
+      "parent_id": "1usF_FpRD1RFtjzjc0K8LT0NuTgTTUcKb",
+      "name": "KÍNH VẠN HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 2830856,
+      "modified": "2026-08-15T12:49:06.000Z",
+      "checksum": "da09bfec3772246c12dd45cdcca8da76",
+      "folder": false
+    },
+    {
+      "id": "1_W9X3v9vIFYrsqwAnj9yFTugrn1jCmj0",
+      "parent_id": "1usF_FpRD1RFtjzjc0K8LT0NuTgTTUcKb",
+      "name": "KÍNH VẠN HOA.pdf",
+      "mime": "application/pdf",
+      "size": 9545158,
+      "modified": "2026-08-15T12:48:58.000Z",
+      "checksum": "6a3149976afb1250877e8ee6eec94c31",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ne7UxP-nS_XwNtwBlSLmtVkl3vE6qzo9",
+  "page": 1,
+  "items": [
+    {
+      "id": "11vTUVcYvxt6lo7rG16-EO9uD1rPhcWYa",
+      "parent_id": "1Ne7UxP-nS_XwNtwBlSLmtVkl3vE6qzo9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1304,
+      "modified": "2026-08-15T03:58:14.000Z",
+      "checksum": "4e45d385ee782b50a9f90c1f17cff68a",
+      "folder": false
+    },
+    {
+      "id": "19LmTUq39u9h3DcUm16OeYHgt2j2Um_dZ",
+      "parent_id": "1Ne7UxP-nS_XwNtwBlSLmtVkl3vE6qzo9",
+      "name": "NHÃN THÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 219767,
+      "modified": "2026-08-15T03:58:21.000Z",
+      "checksum": "a256d2acd66cc8857b11b52dcc0feb44",
+      "folder": false
+    },
+    {
+      "id": "1TH8xG1vk9JbqCcrrZQIYoq9IxJv8TJ_W",
+      "parent_id": "1Ne7UxP-nS_XwNtwBlSLmtVkl3vE6qzo9",
+      "name": "NHÃN THÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 890761,
+      "modified": "2026-08-15T03:58:18.000Z",
+      "checksum": "33df5cc0e3a7c5e8fc49f766c3f07fb3",
+      "folder": false
+    }
+  ]
+}

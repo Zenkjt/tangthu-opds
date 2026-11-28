@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aSg5cLmufc64k94qYAWBCHVkmZwb1jnR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kRVw-trvtb9aR1r0sGY50PDPdrOcyaIZ",
+      "parent_id": "1aSg5cLmufc64k94qYAWBCHVkmZwb1jnR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 965,
+      "modified": "2026-08-15T15:39:49.000Z",
+      "checksum": "7c48e95e441a4da21c26898ca4fa4254",
+      "folder": false
+    },
+    {
+      "id": "1WSouje0oNR-tZVspWIvKIDsH6LJ0fQ3E",
+      "parent_id": "1aSg5cLmufc64k94qYAWBCHVkmZwb1jnR",
+      "name": "NGƯỜI ĐÀN ÔNG BÍ ẨN.epub",
+      "mime": "application/epub+zip",
+      "size": 453261,
+      "modified": "2026-08-15T15:39:56.000Z",
+      "checksum": "496f9bb1a9295b8f9c885ae8dde67f22",
+      "folder": false
+    },
+    {
+      "id": "1QL4BETZo4BRmCwxVq3xCL4XxX6jMBwSb",
+      "parent_id": "1aSg5cLmufc64k94qYAWBCHVkmZwb1jnR",
+      "name": "NGƯỜI ĐÀN ÔNG BÍ ẨN.pdf",
+      "mime": "application/pdf",
+      "size": 591589,
+      "modified": "2026-08-15T15:39:53.000Z",
+      "checksum": "397f1c57ae44d8feae4bc46986921225",
+      "folder": false
+    }
+  ]
+}

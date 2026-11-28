@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16VRxpV0ho6EFqAvWLpakhh-xkxMx-5Mv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HiJTHjg8zjcLK9txNHmMgFx499p0rZEb",
+      "parent_id": "16VRxpV0ho6EFqAvWLpakhh-xkxMx-5Mv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6358,
+      "modified": "2026-08-15T03:41:09.000Z",
+      "checksum": "62c4c8cbbd18b5b90c02ab3f1b9243ec",
+      "folder": false
+    },
+    {
+      "id": "1cpjrvljSLychVA8nOL3D4Gwt-A_4qZ3J",
+      "parent_id": "16VRxpV0ho6EFqAvWLpakhh-xkxMx-5Mv",
+      "name": "MINH CHỨNG THIÊN ĐƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 588725,
+      "modified": "2026-08-15T03:41:17.000Z",
+      "checksum": "a875980b267d59cf91dec2eb187f32d0",
+      "folder": false
+    },
+    {
+      "id": "1rSxZ6ter9iEEr3W9amRyhXbP9ftj7zK2",
+      "parent_id": "16VRxpV0ho6EFqAvWLpakhh-xkxMx-5Mv",
+      "name": "MINH CHỨNG THIÊN ĐƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 2692291,
+      "modified": "2026-08-15T03:41:14.000Z",
+      "checksum": "895dbe648752c64720a54e3b88b9b871",
+      "folder": false
+    }
+  ]
+}

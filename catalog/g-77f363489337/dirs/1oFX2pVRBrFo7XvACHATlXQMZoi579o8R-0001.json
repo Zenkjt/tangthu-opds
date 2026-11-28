@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oFX2pVRBrFo7XvACHATlXQMZoi579o8R",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_AqudOAk75KyZuPUqYZshV6Ew-w8Sdet",
+      "parent_id": "1oFX2pVRBrFo7XvACHATlXQMZoi579o8R",
+      "name": "CHUYỆN ĐỜI XƯA.epub",
+      "mime": "application/epub+zip",
+      "size": 337264,
+      "modified": "2026-08-16T03:23:30.000Z",
+      "checksum": "46e0ea70900c71bbe3654c3656b131d9",
+      "folder": false
+    },
+    {
+      "id": "1iBTkHXEV2ystY0upSQFR2cs-j3d-m-X8",
+      "parent_id": "1oFX2pVRBrFo7XvACHATlXQMZoi579o8R",
+      "name": "CHUYỆN ĐỜI XƯA.pdf",
+      "mime": "application/pdf",
+      "size": 565578,
+      "modified": "2026-08-16T03:23:25.000Z",
+      "checksum": "e557f0a23d4769c83c6de0711d6c42fb",
+      "folder": false
+    },
+    {
+      "id": "1JSgCZWByy4J6vinksdDSuHxyrdCohWsr",
+      "parent_id": "1oFX2pVRBrFo7XvACHATlXQMZoi579o8R",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2069,
+      "modified": "2026-08-16T03:23:22.000Z",
+      "checksum": "0f9e705bf517400983c71761d0adccd8",
+      "folder": false
+    }
+  ]
+}

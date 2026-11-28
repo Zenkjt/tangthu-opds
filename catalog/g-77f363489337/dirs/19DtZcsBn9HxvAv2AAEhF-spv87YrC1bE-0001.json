@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19DtZcsBn9HxvAv2AAEhF-spv87YrC1bE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RRydqaSGUmEYCS-7QB1_uo4ed6EOct4k",
+      "parent_id": "19DtZcsBn9HxvAv2AAEhF-spv87YrC1bE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3376,
+      "modified": "2026-08-15T10:41:28.000Z",
+      "checksum": "4cbe2de5c379c9e00f2517a8a6dc9fe2",
+      "folder": false
+    },
+    {
+      "id": "12nlM8YKUXG27-AzaKRw7nSfWKHKx9H7K",
+      "parent_id": "19DtZcsBn9HxvAv2AAEhF-spv87YrC1bE",
+      "name": "NGƯỜI YÊU KẸO NGỌT.epub",
+      "mime": "application/epub+zip",
+      "size": 492399,
+      "modified": "2026-08-15T10:41:41.000Z",
+      "checksum": "6e912e00dfaed77d17d98465f8f4e2a2",
+      "folder": false
+    },
+    {
+      "id": "1zsmejSlI1PVztqpiHhI_jRog6FSOaqs4",
+      "parent_id": "19DtZcsBn9HxvAv2AAEhF-spv87YrC1bE",
+      "name": "NGƯỜI YÊU KẸO NGỌT.pdf",
+      "mime": "application/pdf",
+      "size": 908560,
+      "modified": "2026-08-15T10:41:37.000Z",
+      "checksum": "90605bc84b800c343917e0dedff56ad9",
+      "folder": false
+    }
+  ]
+}

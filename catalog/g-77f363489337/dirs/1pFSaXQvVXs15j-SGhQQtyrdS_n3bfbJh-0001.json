@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pFSaXQvVXs15j-SGhQQtyrdS_n3bfbJh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1f0Ams9AjpFJYEg0r67jb1MraIn_9Ctvk",
+      "parent_id": "1pFSaXQvVXs15j-SGhQQtyrdS_n3bfbJh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5952,
+      "modified": "2026-08-15T08:03:26.000Z",
+      "checksum": "445a5e671aa999d8aa97c1e8d46d4767",
+      "folder": false
+    },
+    {
+      "id": "1qbqbQp6oSD6ZNzJQU6Q2jUzSnjqGOVur",
+      "parent_id": "1pFSaXQvVXs15j-SGhQQtyrdS_n3bfbJh",
+      "name": "NGƯỜI VÔ HÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 391443,
+      "modified": "2026-08-15T08:03:32.000Z",
+      "checksum": "5168dcca0399eaf07570ce971c11434e",
+      "folder": false
+    },
+    {
+      "id": "1KLKp3pf6_ZvIbD5_gWSGATEDn75hWLe4",
+      "parent_id": "1pFSaXQvVXs15j-SGhQQtyrdS_n3bfbJh",
+      "name": "NGƯỜI VÔ HÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 635808,
+      "modified": "2026-08-15T08:03:30.000Z",
+      "checksum": "ca817510a2777663f05e7f7ed9c9649d",
+      "folder": false
+    }
+  ]
+}

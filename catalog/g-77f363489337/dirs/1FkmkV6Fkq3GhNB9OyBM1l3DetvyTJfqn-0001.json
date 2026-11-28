@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FkmkV6Fkq3GhNB9OyBM1l3DetvyTJfqn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZaDf0gHkJejWAibSFpYke5mYl8WvC5-m",
+      "parent_id": "1FkmkV6Fkq3GhNB9OyBM1l3DetvyTJfqn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12727,
+      "modified": "2026-08-16T02:50:33.000Z",
+      "checksum": "4f2fd1d373c63a97f0b9c59487118f2b",
+      "folder": false
+    },
+    {
+      "id": "1KPNIvMpkd4wbGcqwAQFfJa6BoMWI86oT",
+      "parent_id": "1FkmkV6Fkq3GhNB9OyBM1l3DetvyTJfqn",
+      "name": "THỜI THƠ ẤU.epub",
+      "mime": "application/epub+zip",
+      "size": 694525,
+      "modified": "2026-08-16T02:50:41.000Z",
+      "checksum": "19d3c9961937ee2b5fc439dedb552a4a",
+      "folder": false
+    },
+    {
+      "id": "1ketubZIu5yWpSSMCqYXVGU7-YxTR8rTQ",
+      "parent_id": "1FkmkV6Fkq3GhNB9OyBM1l3DetvyTJfqn",
+      "name": "THỜI THƠ ẤU.pdf",
+      "mime": "application/pdf",
+      "size": 918244,
+      "modified": "2026-08-16T02:50:38.000Z",
+      "checksum": "5bd6a563f85c214362c9c821d4807768",
+      "folder": false
+    }
+  ]
+}

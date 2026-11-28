@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1trPJMmMoJkQ-3aP4XRvBXa6XpPcEfsx6",
+  "page": 1,
+  "items": [
+    {
+      "id": "13fVj7hH9LYhrsATu-RFUtYOoSgV9swMi",
+      "parent_id": "1trPJMmMoJkQ-3aP4XRvBXa6XpPcEfsx6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3941,
+      "modified": "2026-08-15T03:23:16.000Z",
+      "checksum": "7b91fdd1f18e52f2313b283cfe0cb352",
+      "folder": false
+    },
+    {
+      "id": "12exR_CQZpk6EtGb0vq8l6aAO8XTPEVCB",
+      "parent_id": "1trPJMmMoJkQ-3aP4XRvBXa6XpPcEfsx6",
+      "name": "DÁM BỊ GHÉT.epub",
+      "mime": "application/epub+zip",
+      "size": 315141,
+      "modified": "2026-08-15T03:23:23.000Z",
+      "checksum": "6f8bc3fb45f6a36787b2b35f6061dda3",
+      "folder": false
+    },
+    {
+      "id": "18B6vyCHSlGwXcy8c4iHa52jmNJjpnBIO",
+      "parent_id": "1trPJMmMoJkQ-3aP4XRvBXa6XpPcEfsx6",
+      "name": "DÁM BỊ GHÉT.pdf",
+      "mime": "application/pdf",
+      "size": 848570,
+      "modified": "2026-08-15T03:23:20.000Z",
+      "checksum": "b5a5655cf5c11e6d3311ad49cea161ff",
+      "folder": false
+    }
+  ]
+}

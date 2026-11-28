@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19zgd8HR1r8oVFyW2yPfs_K_bFWT55z7r",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Cli9PbgApjMyvJUsDxCmVBIceJQfaK47",
+      "parent_id": "19zgd8HR1r8oVFyW2yPfs_K_bFWT55z7r",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3850,
+      "modified": "2026-08-15T06:12:14.000Z",
+      "checksum": "0660392c5701209add0fb4255292e9f6",
+      "folder": false
+    },
+    {
+      "id": "18C-VNBwDdooID4K7-fJNGNk4HEDgrDEF",
+      "parent_id": "19zgd8HR1r8oVFyW2yPfs_K_bFWT55z7r",
+      "name": "LUẬT NGẦM.epub",
+      "mime": "application/epub+zip",
+      "size": 321350,
+      "modified": "2026-08-15T06:12:22.000Z",
+      "checksum": "91f7bd9cbaec5d9c0b8d579ce7e2c9b9",
+      "folder": false
+    },
+    {
+      "id": "1D0gGibIDh-mtwj5NeKArPcOQHE5GyBYV",
+      "parent_id": "19zgd8HR1r8oVFyW2yPfs_K_bFWT55z7r",
+      "name": "LUẬT NGẦM.pdf",
+      "mime": "application/pdf",
+      "size": 943406,
+      "modified": "2026-08-15T06:12:20.000Z",
+      "checksum": "aa55b1337d654824383782619bc3c90d",
+      "folder": false
+    }
+  ]
+}

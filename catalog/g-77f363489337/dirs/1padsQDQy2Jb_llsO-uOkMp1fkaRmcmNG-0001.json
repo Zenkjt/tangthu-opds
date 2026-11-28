@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1padsQDQy2Jb_llsO-uOkMp1fkaRmcmNG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gjpPLmrRhT4nbrdBs5Xf6di21Pzcr1je",
+      "parent_id": "1padsQDQy2Jb_llsO-uOkMp1fkaRmcmNG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3110,
+      "modified": "2026-08-15T05:53:13.000Z",
+      "checksum": "b2508999adde015a08f413749e076c4d",
+      "folder": false
+    },
+    {
+      "id": "1F2I2RrJPSIi1Z2YXzZJnTq3MPjdBSh-b",
+      "parent_id": "1padsQDQy2Jb_llsO-uOkMp1fkaRmcmNG",
+      "name": "SỰ KHỦNG HOẢNG CỦA HỒI GIÁO.epub",
+      "mime": "application/epub+zip",
+      "size": 376211,
+      "modified": "2026-08-15T05:53:19.000Z",
+      "checksum": "2f1fd489ecda9f2eea45c2d6b404d752",
+      "folder": false
+    },
+    {
+      "id": "1CwdifFgQO5QtjG41FEhk8F7h1vR8QeSt",
+      "parent_id": "1padsQDQy2Jb_llsO-uOkMp1fkaRmcmNG",
+      "name": "SỰ KHỦNG HOẢNG CỦA HỒI GIÁO.pdf",
+      "mime": "application/pdf",
+      "size": 775401,
+      "modified": "2026-08-15T05:53:17.000Z",
+      "checksum": "bfb7c596d78027a754eec88ccaed9658",
+      "folder": false
+    }
+  ]
+}

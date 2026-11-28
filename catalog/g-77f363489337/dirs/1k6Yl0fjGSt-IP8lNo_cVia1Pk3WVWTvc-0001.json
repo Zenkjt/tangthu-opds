@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1k6Yl0fjGSt-IP8lNo_cVia1Pk3WVWTvc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SadSlP5Y5UAksqePcyvF5Q39_rYwK9gL",
+      "parent_id": "1k6Yl0fjGSt-IP8lNo_cVia1Pk3WVWTvc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 580,
+      "modified": "2026-08-15T10:25:55.000Z",
+      "checksum": "951c8349a5a99e825fd6d01cffdabcd2",
+      "folder": false
+    },
+    {
+      "id": "1Dpt9RaB1yvzp6DE6Qmw1--ZerRDxaNMv",
+      "parent_id": "1k6Yl0fjGSt-IP8lNo_cVia1Pk3WVWTvc",
+      "name": "SÔNG NGẦM.epub",
+      "mime": "application/epub+zip",
+      "size": 726893,
+      "modified": "2026-08-15T10:26:05.000Z",
+      "checksum": "3b23b44a3ec0897e4dd926e7ad4253bc",
+      "folder": false
+    },
+    {
+      "id": "1GxI-2-yKjFWtfDkaA-emN99b6P_LScP_",
+      "parent_id": "1k6Yl0fjGSt-IP8lNo_cVia1Pk3WVWTvc",
+      "name": "SÔNG NGẦM.pdf",
+      "mime": "application/pdf",
+      "size": 1595573,
+      "modified": "2026-08-15T10:26:03.000Z",
+      "checksum": "8d2b5d135c3626dfb6c13231fa95959f",
+      "folder": false
+    }
+  ]
+}

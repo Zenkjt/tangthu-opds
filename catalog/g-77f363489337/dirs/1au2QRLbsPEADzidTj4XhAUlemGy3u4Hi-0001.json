@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1au2QRLbsPEADzidTj4XhAUlemGy3u4Hi",
+  "page": 1,
+  "items": [
+    {
+      "id": "19NCTFulDoQ49fIaQJ6S5yV3IlHw90O_6",
+      "parent_id": "1au2QRLbsPEADzidTj4XhAUlemGy3u4Hi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2940,
+      "modified": "2026-08-15T07:09:19.000Z",
+      "checksum": "339f8a3e079ddbe14366d60544432ad9",
+      "folder": false
+    },
+    {
+      "id": "1yy-UBMg76FBpnkwilX7VaoLauXVy2Nxc",
+      "parent_id": "1au2QRLbsPEADzidTj4XhAUlemGy3u4Hi",
+      "name": "NGỌN CỎ GIÓ ĐÙA.epub",
+      "mime": "application/epub+zip",
+      "size": 784545,
+      "modified": "2026-08-15T07:09:27.000Z",
+      "checksum": "ad6626ce4e0415aae317fb04dedfb004",
+      "folder": false
+    },
+    {
+      "id": "1dmrzani5tVx3arcfsyGtttWXdb6lSGZX",
+      "parent_id": "1au2QRLbsPEADzidTj4XhAUlemGy3u4Hi",
+      "name": "NGỌN CỎ GIÓ ĐÙA.pdf",
+      "mime": "application/pdf",
+      "size": 1875187,
+      "modified": "2026-08-15T07:09:24.000Z",
+      "checksum": "02b59c7789813fbf64a0fc564c3cb572",
+      "folder": false
+    }
+  ]
+}

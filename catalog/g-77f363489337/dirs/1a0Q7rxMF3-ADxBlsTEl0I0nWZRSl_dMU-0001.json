@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1a0Q7rxMF3-ADxBlsTEl0I0nWZRSl_dMU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1m0gyj3F0jpOTufBtpHUb97WX9eIygf8a",
+      "parent_id": "1a0Q7rxMF3-ADxBlsTEl0I0nWZRSl_dMU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1787,
+      "modified": "2026-08-15T07:11:04.000Z",
+      "checksum": "5fae90e11330faa003a220c1702de7cb",
+      "folder": false
+    },
+    {
+      "id": "1XstzC4L2nWxoOdl9N8YUbLA0dGUQ8crW",
+      "parent_id": "1a0Q7rxMF3-ADxBlsTEl0I0nWZRSl_dMU",
+      "name": "QUÂN KHU NAM ĐỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 670508,
+      "modified": "2026-08-15T07:12:57.000Z",
+      "checksum": "1a2cc216e82b4e1ad95d9ffc58423e14",
+      "folder": false
+    },
+    {
+      "id": "1k_2AAxb0nRca-B9O09HMUyqNix-alMw9",
+      "parent_id": "1a0Q7rxMF3-ADxBlsTEl0I0nWZRSl_dMU",
+      "name": "QUÂN KHU NAM ĐỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 2289275,
+      "modified": "2026-08-15T07:11:13.000Z",
+      "checksum": "ad1cc5f53be425571659d4bf5b9b4e07",
+      "folder": false
+    }
+  ]
+}

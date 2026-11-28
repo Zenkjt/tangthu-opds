@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PrPyp4y897D6h2fntq8H1waNJUQIa7MX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eOwizoAaAMtum9FUi2MBGS7XVAtRkZSU",
+      "parent_id": "1PrPyp4y897D6h2fntq8H1waNJUQIa7MX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6820,
+      "modified": "2026-08-16T03:05:58.000Z",
+      "checksum": "52cda370b8fdb22015b90b09e89022c1",
+      "folder": false
+    },
+    {
+      "id": "1-VPnU_r7bNExHkngNYZ1DVPMUqa6VFpi",
+      "parent_id": "1PrPyp4y897D6h2fntq8H1waNJUQIa7MX",
+      "name": "VỊNH PHA LÊ.epub",
+      "mime": "application/epub+zip",
+      "size": 823573,
+      "modified": "2026-08-16T03:06:05.000Z",
+      "checksum": "4eb7e8866bdd42f345218af8f16cc2c2",
+      "folder": false
+    },
+    {
+      "id": "1XBNnfT0_kwFaZNkLrxnQx1sJk9xmcyeQ",
+      "parent_id": "1PrPyp4y897D6h2fntq8H1waNJUQIa7MX",
+      "name": "VỊNH PHA LÊ.pdf",
+      "mime": "application/pdf",
+      "size": 1428288,
+      "modified": "2026-08-16T03:06:03.000Z",
+      "checksum": "2b759fcc6e594ffd5629c807800ddd74",
+      "folder": false
+    }
+  ]
+}

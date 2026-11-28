@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eYpI1rIM79wKGtXGZTHtYpuwj5ae5O2L",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aOPP__fkJObuVfS832-6c1gbl824vvaH",
+      "parent_id": "1eYpI1rIM79wKGtXGZTHtYpuwj5ae5O2L",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 673,
+      "modified": "2026-08-15T10:27:14.000Z",
+      "checksum": "4712d4619f641418fd421754333e8830",
+      "folder": false
+    },
+    {
+      "id": "1lS5MklvOjhUde7Ztd10N7-EKRf2a1zlF",
+      "parent_id": "1eYpI1rIM79wKGtXGZTHtYpuwj5ae5O2L",
+      "name": "SHIORIKO VÀ ĐỜI THƯỜNG BÍ ẨN.epub",
+      "mime": "application/epub+zip",
+      "size": 570979,
+      "modified": "2026-08-15T10:27:23.000Z",
+      "checksum": "654f563f8f56b00a4a43e5bf8afb825e",
+      "folder": false
+    },
+    {
+      "id": "1t-tT6AVbKxqZzIOA3qoz642sIMKd8Fkj",
+      "parent_id": "1eYpI1rIM79wKGtXGZTHtYpuwj5ae5O2L",
+      "name": "SHIORIKO VÀ ĐỜI THƯỜNG BÍ ẨN.pdf",
+      "mime": "application/pdf",
+      "size": 740450,
+      "modified": "2026-08-15T10:27:20.000Z",
+      "checksum": "9393d0055c79fefade1e01a46e48f0ef",
+      "folder": false
+    }
+  ]
+}

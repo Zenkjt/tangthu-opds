@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UQKZNnsJJ1Uq3tq2zCaroqUp4-br3FW0",
+  "page": 1,
+  "items": [
+    {
+      "id": "13QGPacxg5zbToGkU1A3LKT9jib1jJNo1",
+      "parent_id": "1UQKZNnsJJ1Uq3tq2zCaroqUp4-br3FW0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9350,
+      "modified": "2026-08-15T07:27:22.000Z",
+      "checksum": "43495f8ef2bc5f2296c4a334f1913e02",
+      "folder": false
+    },
+    {
+      "id": "1tkv9DjL8wTqtUt44Me6mfqQK3El6IG5U",
+      "parent_id": "1UQKZNnsJJ1Uq3tq2zCaroqUp4-br3FW0",
+      "name": "VÌ EM YÊU ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 925703,
+      "modified": "2026-08-15T07:27:29.000Z",
+      "checksum": "3f813cab7b69af49c7b5ea99a196300c",
+      "folder": false
+    },
+    {
+      "id": "1CTXeaVrG_W-m1KlcMHzzA19qQPKyD6Ji",
+      "parent_id": "1UQKZNnsJJ1Uq3tq2zCaroqUp4-br3FW0",
+      "name": "VÌ EM YÊU ANH.pdf",
+      "mime": "application/pdf",
+      "size": 1153630,
+      "modified": "2026-08-15T07:27:26.000Z",
+      "checksum": "1b1ce09590c0828715d5d545e5f89bfc",
+      "folder": false
+    }
+  ]
+}

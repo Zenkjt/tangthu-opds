@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XotTjhL_w1A4BFgfDBNShpOic1AnY3Y2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iB-eqIIeFznXPNK123HggoEJ1LOpSPT5",
+      "parent_id": "1XotTjhL_w1A4BFgfDBNShpOic1AnY3Y2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3307,
+      "modified": "2026-08-16T03:34:54.000Z",
+      "checksum": "f23a95a21a3aaa5e69b316abb252721c",
+      "folder": false
+    },
+    {
+      "id": "1wXJep8LZJsLVZszAd3je4fpIXBUD88HA",
+      "parent_id": "1XotTjhL_w1A4BFgfDBNShpOic1AnY3Y2",
+      "name": "OXFORD THƯƠNG YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 235279,
+      "modified": "2026-08-16T03:35:01.000Z",
+      "checksum": "ba4987d467fd832cdc673846514e810e",
+      "folder": false
+    },
+    {
+      "id": "17-mEATHU0R-J3yaeGhlAnlW2VW3T-YPa",
+      "parent_id": "1XotTjhL_w1A4BFgfDBNShpOic1AnY3Y2",
+      "name": "OXFORD THƯƠNG YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 585635,
+      "modified": "2026-08-16T03:34:58.000Z",
+      "checksum": "8c8a57aec00e0c919634be7c0d6edf51",
+      "folder": false
+    }
+  ]
+}

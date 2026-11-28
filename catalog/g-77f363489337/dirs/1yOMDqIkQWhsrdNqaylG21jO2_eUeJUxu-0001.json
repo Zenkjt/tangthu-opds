@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yOMDqIkQWhsrdNqaylG21jO2_eUeJUxu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YiCOK1T6cRLpdbMYg0kaSvPhmYUDDb5V",
+      "parent_id": "1yOMDqIkQWhsrdNqaylG21jO2_eUeJUxu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 567,
+      "modified": "2026-08-16T04:01:07.000Z",
+      "checksum": "03548123d79fecd52a6e53e5bc4fda1d",
+      "folder": false
+    },
+    {
+      "id": "1J-IfyYSTuvbpDxent8mlzxdW8urb8-D0",
+      "parent_id": "1yOMDqIkQWhsrdNqaylG21jO2_eUeJUxu",
+      "name": "TAY LÁI SÚNG ĐA CẢM.epub",
+      "mime": "application/epub+zip",
+      "size": 718398,
+      "modified": "2026-08-16T04:01:15.000Z",
+      "checksum": "92b230c9a14bcd5ee915ffd491c3605b",
+      "folder": false
+    },
+    {
+      "id": "1QVa-Os9RrZmaQCR5E0tAkdL-Ad71wjp-",
+      "parent_id": "1yOMDqIkQWhsrdNqaylG21jO2_eUeJUxu",
+      "name": "TAY LÁI SÚNG ĐA CẢM.pdf",
+      "mime": "application/pdf",
+      "size": 1784029,
+      "modified": "2026-08-16T04:01:12.000Z",
+      "checksum": "7c8ff2b413e0363ae8864e73b83c32a8",
+      "folder": false
+    }
+  ]
+}

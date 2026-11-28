@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16eBOg7mxHrI-EIQzEpPKvK6qDZGk8MyG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1o6DKjS_noVFu0aftCn8_Iagm1j1E4LuU",
+      "parent_id": "16eBOg7mxHrI-EIQzEpPKvK6qDZGk8MyG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 602,
+      "modified": "2026-08-15T10:06:55.000Z",
+      "checksum": "9c676eb09140709b17c3176792dc4861",
+      "folder": false
+    },
+    {
+      "id": "1GeYqd2kvfLJuXolFG-eA7HCzLIjV2ELw",
+      "parent_id": "16eBOg7mxHrI-EIQzEpPKvK6qDZGk8MyG",
+      "name": "TRONG TẦM NGẮM.epub",
+      "mime": "application/epub+zip",
+      "size": 562196,
+      "modified": "2026-08-15T10:07:06.000Z",
+      "checksum": "139dd813d2ceafb3d8dcc063fc5d6d12",
+      "folder": false
+    },
+    {
+      "id": "1HTOaMpSWNxTGhQZIlbDqJIsd3-jaIm5u",
+      "parent_id": "16eBOg7mxHrI-EIQzEpPKvK6qDZGk8MyG",
+      "name": "TRONG TẦM NGẮM.pdf",
+      "mime": "application/pdf",
+      "size": 1484104,
+      "modified": "2026-08-15T10:07:03.000Z",
+      "checksum": "47b3ddeedb4a08aff0ed4565ee5332df",
+      "folder": false
+    }
+  ]
+}

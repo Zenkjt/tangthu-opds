@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TPOIPv5wzbN4A-GZiV5g5kW50vwdjTxJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "15cmdJHnrAlXJksZ2EIz4JIiN_5HHFfCy",
+      "parent_id": "1TPOIPv5wzbN4A-GZiV5g5kW50vwdjTxJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1395,
+      "modified": "2026-08-15T06:37:24.000Z",
+      "checksum": "5a407b753fe8bad1243186ffc27d53aa",
+      "folder": false
+    },
+    {
+      "id": "1ALEClzAmRxgzeLQgY8cBY4-1kUiLF7ZA",
+      "parent_id": "1TPOIPv5wzbN4A-GZiV5g5kW50vwdjTxJ",
+      "name": "ĐÔNG CHU LIỆT QUỐC.epub",
+      "mime": "application/epub+zip",
+      "size": 1377417,
+      "modified": "2026-08-15T06:38:20.000Z",
+      "checksum": "dbb7615dd282c590c97a450c5945f2f3",
+      "folder": false
+    },
+    {
+      "id": "1PO02ws0hvnL7V5cF6Am1NrbDRbLzVEBs",
+      "parent_id": "1TPOIPv5wzbN4A-GZiV5g5kW50vwdjTxJ",
+      "name": "ĐÔNG CHU LIỆT QUỐC.pdf",
+      "mime": "application/pdf",
+      "size": 5495000,
+      "modified": "2026-08-15T06:38:14.000Z",
+      "checksum": "8d5d977dcc6485bdc06efc8940dc6c39",
+      "folder": false
+    }
+  ]
+}

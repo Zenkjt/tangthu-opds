@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qnM9BxaRIGznlVvb5XOTx5mTt46buJYM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1s9OtM2IFCOf207Hwy00qHwcH3xLhPeMv",
+      "parent_id": "1qnM9BxaRIGznlVvb5XOTx5mTt46buJYM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2508,
+      "modified": "2026-08-15T12:45:06.000Z",
+      "checksum": "789c145c8d2c04c19b0282ee720b8027",
+      "folder": false
+    },
+    {
+      "id": "1hwppWACcLWTkF4ErsnxzmHbFPACHbTa3",
+      "parent_id": "1qnM9BxaRIGznlVvb5XOTx5mTt46buJYM",
+      "name": "NHÀ CHỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 722448,
+      "modified": "2026-08-15T12:45:12.000Z",
+      "checksum": "e6f9474f7dc61b7f2fc677cf458512e9",
+      "folder": false
+    },
+    {
+      "id": "1-9w8Jd8uO1QnPxo5Au5Sa6AlKvziuhML",
+      "parent_id": "1qnM9BxaRIGznlVvb5XOTx5mTt46buJYM",
+      "name": "NHÀ CHỬ.pdf",
+      "mime": "application/pdf",
+      "size": 658234,
+      "modified": "2026-08-15T12:45:09.000Z",
+      "checksum": "cb4d562d594720bb176dcb2fd738b737",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aq3pN45ya5BJZo2gmEstT6PkjFZdpeDU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1B31aSNDNI4R4beXcat0DPJqHHYrqfHdJ",
+      "parent_id": "1aq3pN45ya5BJZo2gmEstT6PkjFZdpeDU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6230,
+      "modified": "2026-08-16T03:19:18.000Z",
+      "checksum": "61e5b6ea535252c4513907a95915d7b2",
+      "folder": false
+    },
+    {
+      "id": "1i8PbMujXF--6Cw-NdKgyNdCeHMeJtIbS",
+      "parent_id": "1aq3pN45ya5BJZo2gmEstT6PkjFZdpeDU",
+      "name": "HOÀNG TỬ HẠNH PHÚC VÀ NHỮNG TRUYỆN KHÁC.epub",
+      "mime": "application/epub+zip",
+      "size": 515199,
+      "modified": "2026-08-16T03:19:24.000Z",
+      "checksum": "35df81107acfbbd96a74befbb58da577",
+      "folder": false
+    },
+    {
+      "id": "1Hnq-uq6Mm-3fAhY3efbGDOjCJIzXCDMV",
+      "parent_id": "1aq3pN45ya5BJZo2gmEstT6PkjFZdpeDU",
+      "name": "HOÀNG TỬ HẠNH PHÚC VÀ NHỮNG TRUYỆN KHÁC.pdf",
+      "mime": "application/pdf",
+      "size": 504073,
+      "modified": "2026-08-16T03:19:22.000Z",
+      "checksum": "bb91afcc8ac0a1036fca5aad09c4a1ba",
+      "folder": false
+    }
+  ]
+}

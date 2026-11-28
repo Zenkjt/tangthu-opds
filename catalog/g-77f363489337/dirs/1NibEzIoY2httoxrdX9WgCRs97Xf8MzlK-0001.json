@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NibEzIoY2httoxrdX9WgCRs97Xf8MzlK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ALYdYGbFUtaYSDgM8O-vbvoyso659R5t",
+      "parent_id": "1NibEzIoY2httoxrdX9WgCRs97Xf8MzlK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 961,
+      "modified": "2026-08-15T12:52:53.000Z",
+      "checksum": "94062994815d75c594cbbe969bb98d4e",
+      "folder": false
+    },
+    {
+      "id": "1UQ5z_uCbwjWR7MBYhTk1E2I78C4nOowv",
+      "parent_id": "1NibEzIoY2httoxrdX9WgCRs97Xf8MzlK",
+      "name": "TÔI GHÉT ANH ĐỒ DU CÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 1910395,
+      "modified": "2026-08-15T12:53:45.000Z",
+      "checksum": "36b75f3af2a5ce336e17718b06132796",
+      "folder": false
+    },
+    {
+      "id": "1td6XRqkPoKsoJINaOlD5RbZpGMU0v93I",
+      "parent_id": "1NibEzIoY2httoxrdX9WgCRs97Xf8MzlK",
+      "name": "TÔI GHÉT ANH ĐỒ DU CÔN.pdf",
+      "mime": "application/pdf",
+      "size": 1205706,
+      "modified": "2026-08-15T12:53:29.000Z",
+      "checksum": "7ac28c30033b471a18756610c0dcc0f7",
+      "folder": false
+    }
+  ]
+}

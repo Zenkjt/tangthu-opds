@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uIbUlCQRdfS_QHlOHIpGZL6Fq7YnBEJY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1M8RWhEl_YNCnHynyUk2chBKKv7M8hesp",
+      "parent_id": "1uIbUlCQRdfS_QHlOHIpGZL6Fq7YnBEJY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10089,
+      "modified": "2026-08-15T07:25:27.000Z",
+      "checksum": "78a46ff535a33be520e5a4d2b35c9773",
+      "folder": false
+    },
+    {
+      "id": "1fb48meYw9lTLJgz66N6GaidndWWTwLSk",
+      "parent_id": "1uIbUlCQRdfS_QHlOHIpGZL6Fq7YnBEJY",
+      "name": "ÔNG CỐ VẤN.epub",
+      "mime": "application/epub+zip",
+      "size": 1868806,
+      "modified": "2026-08-15T07:25:37.000Z",
+      "checksum": "a71bcedece734c1071925ce7768b3be6",
+      "folder": false
+    },
+    {
+      "id": "1DAOxV0qu0sDTOkn3VF_3ry-o25j9-Z0Z",
+      "parent_id": "1uIbUlCQRdfS_QHlOHIpGZL6Fq7YnBEJY",
+      "name": "ÔNG CỐ VẤN.pdf",
+      "mime": "application/pdf",
+      "size": 3944569,
+      "modified": "2026-08-15T07:25:34.000Z",
+      "checksum": "2af1104bfe1a4b46939effac992cfca7",
+      "folder": false
+    }
+  ]
+}

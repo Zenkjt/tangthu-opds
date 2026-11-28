@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15cdGeqNvPhuoHI56crVq1cwqSHfXONqx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wuxohCHDKi7lHWk-m9o6Jyeo9Ell8pvW",
+      "parent_id": "15cdGeqNvPhuoHI56crVq1cwqSHfXONqx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 352,
+      "modified": "2026-08-16T04:19:47.000Z",
+      "checksum": "255acefe90e98f11f1daf9546d305869",
+      "folder": false
+    },
+    {
+      "id": "1zyjyqhc7t7PWgOq3zxtsl2ITg_0OpID_",
+      "parent_id": "15cdGeqNvPhuoHI56crVq1cwqSHfXONqx",
+      "name": "GỢI GIẤC MƠ XƯA.epub",
+      "mime": "application/epub+zip",
+      "size": 402813,
+      "modified": "2026-08-16T04:19:53.000Z",
+      "checksum": "e926acbfbe11db3385262ae3b692ffa2",
+      "folder": false
+    },
+    {
+      "id": "1XaxryDsYaqqHPLs6UDBxAlrEIcMKc6NC",
+      "parent_id": "15cdGeqNvPhuoHI56crVq1cwqSHfXONqx",
+      "name": "GỢI GIẤC MƠ XƯA.pdf",
+      "mime": "application/pdf",
+      "size": 687788,
+      "modified": "2026-08-16T04:19:51.000Z",
+      "checksum": "2ee2b3ed3175d3d1a72f0e48cd206e16",
+      "folder": false
+    }
+  ]
+}

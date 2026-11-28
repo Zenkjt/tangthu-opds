@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1W9iU1SG81ZT6jn8cZr7Rl0P2pvZoBZuN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JQWpOzfoEZoh7AxdLS54sZVKcKnXssjx",
+      "parent_id": "1W9iU1SG81ZT6jn8cZr7Rl0P2pvZoBZuN",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 3016,
+      "modified": "2026-08-15T10:33:07.000Z",
+      "checksum": "e26bdf9580d7cace4d9f15e4e1ec1d1d",
+      "folder": false
+    },
+    {
+      "id": "1mVZ85v8e4QfNbd9cHkt-r2mASzq0-vTV",
+      "parent_id": "1W9iU1SG81ZT6jn8cZr7Rl0P2pvZoBZuN",
+      "name": "PHẬT TỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 1613289,
+      "modified": "2026-08-15T10:33:16.000Z",
+      "checksum": "c47a70d59d2d8888b9279df845be1157",
+      "folder": false
+    },
+    {
+      "id": "1Ama3VjdSiLdkR3a0JpzJIGGe2gmMfL_k",
+      "parent_id": "1W9iU1SG81ZT6jn8cZr7Rl0P2pvZoBZuN",
+      "name": "PHẬT TỘI.pdf",
+      "mime": "application/pdf",
+      "size": 1699956,
+      "modified": "2026-08-15T10:33:12.000Z",
+      "checksum": "0485d19b5130876499ee53e0c9054f04",
+      "folder": false
+    }
+  ]
+}

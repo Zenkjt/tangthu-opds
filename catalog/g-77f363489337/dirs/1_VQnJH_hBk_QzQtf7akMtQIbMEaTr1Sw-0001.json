@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_VQnJH_hBk_QzQtf7akMtQIbMEaTr1Sw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QQxk2kcPKZkLUBPkB2goComEDJeFywMU",
+      "parent_id": "1_VQnJH_hBk_QzQtf7akMtQIbMEaTr1Sw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3213,
+      "modified": "2026-08-15T09:44:38.000Z",
+      "checksum": "2e7c7bc6602890a45c3e66082ae78a55",
+      "folder": false
+    },
+    {
+      "id": "1sCJ3uofLWSiIcQ0g3cGkLSAqfF5gJ7sp",
+      "parent_id": "1_VQnJH_hBk_QzQtf7akMtQIbMEaTr1Sw",
+      "name": "LÃNH ĐẾ CUỒNG THÊ.epub",
+      "mime": "application/epub+zip",
+      "size": 849323,
+      "modified": "2026-08-15T09:45:01.000Z",
+      "checksum": "ea2c69f1c2dd797bf0a3f1de3aedf3c3",
+      "folder": false
+    },
+    {
+      "id": "1_gMmvbesKptjxsOpy3BVSqrRVWdZx-Tx",
+      "parent_id": "1_VQnJH_hBk_QzQtf7akMtQIbMEaTr1Sw",
+      "name": "LÃNH ĐẾ CUỒNG THÊ.pdf",
+      "mime": "application/pdf",
+      "size": 2544340,
+      "modified": "2026-08-15T09:44:53.000Z",
+      "checksum": "c751e02aeb845b1aae562612264a7de2",
+      "folder": false
+    }
+  ]
+}

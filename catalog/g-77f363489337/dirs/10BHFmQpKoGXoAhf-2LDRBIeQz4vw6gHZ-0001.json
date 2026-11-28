@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10BHFmQpKoGXoAhf-2LDRBIeQz4vw6gHZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NvrMnd1Tiy07mPJS9Pdz6bra6mwds0xS",
+      "parent_id": "10BHFmQpKoGXoAhf-2LDRBIeQz4vw6gHZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 784,
+      "modified": "2026-08-15T10:34:42.000Z",
+      "checksum": "5c500e4d86762e47dc068c6146615e03",
+      "folder": false
+    },
+    {
+      "id": "1w9PnIKsC5lJ2lQ1tsUHcJE7GbB4LT4y1",
+      "parent_id": "10BHFmQpKoGXoAhf-2LDRBIeQz4vw6gHZ",
+      "name": "OẲN TÀ RROẰN.epub",
+      "mime": "application/epub+zip",
+      "size": 465699,
+      "modified": "2026-08-15T10:34:50.000Z",
+      "checksum": "bbbdb269483eaec318aa5205d57bfe2e",
+      "folder": false
+    },
+    {
+      "id": "1lBlYYmCAooUC0_A4eafFq9q_xljQtTky",
+      "parent_id": "10BHFmQpKoGXoAhf-2LDRBIeQz4vw6gHZ",
+      "name": "OẲN TÀ RROẰN.pdf",
+      "mime": "application/pdf",
+      "size": 618480,
+      "modified": "2026-08-15T10:34:46.000Z",
+      "checksum": "24f5af574b6987191a904d42d808502d",
+      "folder": false
+    }
+  ]
+}

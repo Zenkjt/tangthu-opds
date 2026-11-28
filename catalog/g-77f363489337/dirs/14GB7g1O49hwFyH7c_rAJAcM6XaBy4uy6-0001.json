@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14GB7g1O49hwFyH7c_rAJAcM6XaBy4uy6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xTJKb6NqrrpQNh22BVmieYHoI1exmrEP",
+      "parent_id": "14GB7g1O49hwFyH7c_rAJAcM6XaBy4uy6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 19673,
+      "modified": "2026-08-15T07:44:00.000Z",
+      "checksum": "05c08e3017a577d0f66c8036da7e0cf5",
+      "folder": false
+    },
+    {
+      "id": "14Jq6uvL4167Y3YlliV0iTqzQmX1EJTuf",
+      "parent_id": "14GB7g1O49hwFyH7c_rAJAcM6XaBy4uy6",
+      "name": "MA ĐAO CA.epub",
+      "mime": "application/epub+zip",
+      "size": 1381868,
+      "modified": "2026-08-15T07:44:10.000Z",
+      "checksum": "713299b54c4a35d998d1ad8fdf3b6032",
+      "folder": false
+    },
+    {
+      "id": "1MKc3O4XIDGhzSZVpsAMXCkinSW1DM9YL",
+      "parent_id": "14GB7g1O49hwFyH7c_rAJAcM6XaBy4uy6",
+      "name": "MA ĐAO CA.pdf",
+      "mime": "application/pdf",
+      "size": 2064449,
+      "modified": "2026-08-15T07:44:06.000Z",
+      "checksum": "edeb6a4b94427206cacf1d195f8d7e4c",
+      "folder": false
+    }
+  ]
+}

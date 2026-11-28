@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vTT72sGvbPDetaXNRXtKS_-LIwzxI_NQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "10qJdLiZ3IZ68ZbSC3JLzUYlka3R5wYAb",
+      "parent_id": "1vTT72sGvbPDetaXNRXtKS_-LIwzxI_NQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3520,
+      "modified": "2026-08-15T06:23:02.000Z",
+      "checksum": "243e0c7b63d14f1d9d676bb09c027d6f",
+      "folder": false
+    },
+    {
+      "id": "1t1sNua9V2Ia2a_D0sDwiHndRXkrpAiTd",
+      "parent_id": "1vTT72sGvbPDetaXNRXtKS_-LIwzxI_NQ",
+      "name": "QUÁ NHIỀU HẠNH PHÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 380639,
+      "modified": "2026-08-15T06:23:26.000Z",
+      "checksum": "204b1818889a451cf58442063753b089",
+      "folder": false
+    },
+    {
+      "id": "11dtmTD2YKploEc3mB0CyWbZZsUP4it5x",
+      "parent_id": "1vTT72sGvbPDetaXNRXtKS_-LIwzxI_NQ",
+      "name": "QUÁ NHIỀU HẠNH PHÚC.pdf",
+      "mime": "application/pdf",
+      "size": 378909,
+      "modified": "2026-08-15T06:23:08.000Z",
+      "checksum": "117119619d48d3cc76398a3bdf3c84fe",
+      "folder": false
+    }
+  ]
+}

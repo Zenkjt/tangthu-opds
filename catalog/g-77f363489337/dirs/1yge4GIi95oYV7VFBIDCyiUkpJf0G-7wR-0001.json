@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yge4GIi95oYV7VFBIDCyiUkpJf0G-7wR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BXZWMpEqUD8YBnxx0Fer3dlEqrpEplo8",
+      "parent_id": "1yge4GIi95oYV7VFBIDCyiUkpJf0G-7wR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1320,
+      "modified": "2026-08-16T03:40:21.000Z",
+      "checksum": "16b4a446165dced88dd66f25c58fea1c",
+      "folder": false
+    },
+    {
+      "id": "1w0VX8Yg4NAyOnN0VQfHc_Ts-9SbPnLah",
+      "parent_id": "1yge4GIi95oYV7VFBIDCyiUkpJf0G-7wR",
+      "name": "HỌA ĐẾN RỒI, MỜI THANH TOÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 616993,
+      "modified": "2026-08-16T03:40:28.000Z",
+      "checksum": "8f3524bf7835bc28c3fa2ea2e1d25d44",
+      "folder": false
+    },
+    {
+      "id": "16kJUp8Y6BWm57-x2-Ssr3m4DumqCPFjD",
+      "parent_id": "1yge4GIi95oYV7VFBIDCyiUkpJf0G-7wR",
+      "name": "HỌA ĐẾN RỒI, MỜI THANH TOÁN.pdf",
+      "mime": "application/pdf",
+      "size": 1389826,
+      "modified": "2026-08-16T03:40:26.000Z",
+      "checksum": "a3019ecd2d67d5fd510ca4e475b1770d",
+      "folder": false
+    }
+  ]
+}

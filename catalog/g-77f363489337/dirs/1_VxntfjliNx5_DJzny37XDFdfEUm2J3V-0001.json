@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_VxntfjliNx5_DJzny37XDFdfEUm2J3V",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nvsiszpbnE6lnzlt6Z61MgiAP7s-DjTY",
+      "parent_id": "1_VxntfjliNx5_DJzny37XDFdfEUm2J3V",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3208,
+      "modified": "2026-08-16T03:36:50.000Z",
+      "checksum": "ee1fc830304fbcb742d2428100769d48",
+      "folder": false
+    },
+    {
+      "id": "1sUoQNNP0XRvwNLT0IBK2wlrLfl_BDtJM",
+      "parent_id": "1_VxntfjliNx5_DJzny37XDFdfEUm2J3V",
+      "name": "MỐI TÌNH ĐẦU.epub",
+      "mime": "application/epub+zip",
+      "size": 598182,
+      "modified": "2026-08-16T03:36:55.000Z",
+      "checksum": "e5ec66bb462302f93bf2703d35f920e1",
+      "folder": false
+    },
+    {
+      "id": "13637AiM3TgAtgpUM9G2ww_DDcoQ-FPPb",
+      "parent_id": "1_VxntfjliNx5_DJzny37XDFdfEUm2J3V",
+      "name": "MỐI TÌNH ĐẦU.pdf",
+      "mime": "application/pdf",
+      "size": 398118,
+      "modified": "2026-08-16T03:36:53.000Z",
+      "checksum": "661cea60aeb487237ccfc9c62b920e63",
+      "folder": false
+    }
+  ]
+}

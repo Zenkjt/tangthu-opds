@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Cjf0iUF2NNmVMo_Wq3xLTdVhuc9MDw-Y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-iAbGcXRI8kztr_5G8g2km3Ad5-6g2NT",
+      "parent_id": "1Cjf0iUF2NNmVMo_Wq3xLTdVhuc9MDw-Y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1894,
+      "modified": "2026-08-15T15:51:36.000Z",
+      "checksum": "e03d1fe95ed853ce5470f6e53b11e78b",
+      "folder": false
+    },
+    {
+      "id": "1VmyS-sW1-SjSAfq7ss_BN2CrbRJGSwAW",
+      "parent_id": "1Cjf0iUF2NNmVMo_Wq3xLTdVhuc9MDw-Y",
+      "name": "THÂM TÀNG BẤT LỘ.epub",
+      "mime": "application/epub+zip",
+      "size": 804279,
+      "modified": "2026-08-15T15:51:44.000Z",
+      "checksum": "ce0e69bb82226702024c4d594b0a312d",
+      "folder": false
+    },
+    {
+      "id": "1STAmY8xwbI4QshYn-Ozol3PDc5bfuI7Q",
+      "parent_id": "1Cjf0iUF2NNmVMo_Wq3xLTdVhuc9MDw-Y",
+      "name": "THÂM TÀNG BẤT LỘ.pdf",
+      "mime": "application/pdf",
+      "size": 2455752,
+      "modified": "2026-08-15T15:51:40.000Z",
+      "checksum": "63ae9d4c23c838b50a78f0906cae9f32",
+      "folder": false
+    }
+  ]
+}

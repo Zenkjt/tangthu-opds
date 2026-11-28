@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14x4NIPmlAgaIGccy7cILQ8w57HU01m7R",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BV-cN_9xKcaLxlBIRd5WeL7mkqdeTdAF",
+      "parent_id": "14x4NIPmlAgaIGccy7cILQ8w57HU01m7R",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1457,
+      "modified": "2026-08-15T03:24:28.000Z",
+      "checksum": "913e437b71ea2c36e12841771d70bb43",
+      "folder": false
+    },
+    {
+      "id": "1AN9bUwNwTsE_OklJWv_uJ5zjBfb4RqDq",
+      "parent_id": "14x4NIPmlAgaIGccy7cILQ8w57HU01m7R",
+      "name": "SỨC MẠNH TƯ DUY.epub",
+      "mime": "application/epub+zip",
+      "size": 235235,
+      "modified": "2026-08-15T03:24:34.000Z",
+      "checksum": "9ce28a6ede0909e8833c63d71337bb6a",
+      "folder": false
+    },
+    {
+      "id": "1rzH3089rr0tsfueMhYhPXppmlFBR7SoK",
+      "parent_id": "14x4NIPmlAgaIGccy7cILQ8w57HU01m7R",
+      "name": "SỨC MẠNH TƯ DUY.pdf",
+      "mime": "application/pdf",
+      "size": 569981,
+      "modified": "2026-08-15T03:24:32.000Z",
+      "checksum": "77fe12e39486e0d92d5f391cba54f828",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WbKkjaUWRsBDPyP3nFrFks97Eg98G4eh",
+  "page": 1,
+  "items": [
+    {
+      "id": "14ESQWI2xnrEzaE53NUg9SLP1xoQJ0kSO",
+      "parent_id": "1WbKkjaUWRsBDPyP3nFrFks97Eg98G4eh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6611,
+      "modified": "2026-08-15T03:52:07.000Z",
+      "checksum": "db680bba0cbf27f96c2bdf501387678d",
+      "folder": false
+    },
+    {
+      "id": "1-3DvKlev9f0MROC5YDkKB2JR_87AqbgB",
+      "parent_id": "1WbKkjaUWRsBDPyP3nFrFks97Eg98G4eh",
+      "name": "TỪ BI THỦY SÁM PHÁP.epub",
+      "mime": "application/epub+zip",
+      "size": 271075,
+      "modified": "2026-08-15T03:52:13.000Z",
+      "checksum": "7ad08d93506e567c4dcccac71c94f8fc",
+      "folder": false
+    },
+    {
+      "id": "1Rtok7Hpkcm86AfrEH5B63jA4Lf3Rtk5R",
+      "parent_id": "1WbKkjaUWRsBDPyP3nFrFks97Eg98G4eh",
+      "name": "TỪ BI THỦY SÁM PHÁP.pdf",
+      "mime": "application/pdf",
+      "size": 728020,
+      "modified": "2026-08-15T03:52:10.000Z",
+      "checksum": "ad2e020edfbdb75dec48fad68ad9a526",
+      "folder": false
+    }
+  ]
+}

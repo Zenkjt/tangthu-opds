@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UVfkcvgDVTzThq9-82YNf_DEU9oM85-2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Zr-BeICF1FaY1rQofIjlEgae6BIYK3cm",
+      "parent_id": "1UVfkcvgDVTzThq9-82YNf_DEU9oM85-2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 817,
+      "modified": "2026-08-16T03:42:29.000Z",
+      "checksum": "e4317005d0c4fdc8504ab72583a63af1",
+      "folder": false
+    },
+    {
+      "id": "1qS6XEWJXb4tkeGgrIKAo4tVWVaeZLx7v",
+      "parent_id": "1UVfkcvgDVTzThq9-82YNf_DEU9oM85-2",
+      "name": "EM, FACEBOOK VÀ TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 1022391,
+      "modified": "2026-08-16T03:42:35.000Z",
+      "checksum": "237860dc28c0c7acea0ad03fb275bd35",
+      "folder": false
+    },
+    {
+      "id": "1wU-7xIA_Y911iAUzngX4_NcvMPvW-du8",
+      "parent_id": "1UVfkcvgDVTzThq9-82YNf_DEU9oM85-2",
+      "name": "EM, FACEBOOK VÀ TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 1414389,
+      "modified": "2026-08-16T03:42:32.000Z",
+      "checksum": "9dd0c71ff82d6babca49fffb87b5ae40",
+      "folder": false
+    }
+  ]
+}

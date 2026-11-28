@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1g5fcrTojswNHBN4qEmAb2tyFxcbKG5OL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DApDSEdVETBuERpJXZxJ77zI41yFY0UH",
+      "parent_id": "1g5fcrTojswNHBN4qEmAb2tyFxcbKG5OL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4102,
+      "modified": "2026-08-15T03:46:06.000Z",
+      "checksum": "e52cc2a6663986bca6b3b839233f8de4",
+      "folder": false
+    },
+    {
+      "id": "1f6kIIqrZkw2POtllfCGUFg_zFiP2dmlg",
+      "parent_id": "1g5fcrTojswNHBN4qEmAb2tyFxcbKG5OL",
+      "name": "THIỀN TÔNG VĨNH GIA TẬP.epub",
+      "mime": "application/epub+zip",
+      "size": 388418,
+      "modified": "2026-08-15T03:46:11.000Z",
+      "checksum": "65cd53c28fcaa7ab507b3d71ab5faad4",
+      "folder": false
+    },
+    {
+      "id": "1ekihWEfSzi85-9fuBUHOkm05s18LROrL",
+      "parent_id": "1g5fcrTojswNHBN4qEmAb2tyFxcbKG5OL",
+      "name": "THIỀN TÔNG VĨNH GIA TẬP.pdf",
+      "mime": "application/pdf",
+      "size": 290083,
+      "modified": "2026-08-15T03:46:09.000Z",
+      "checksum": "294071649c38ec5889854408dcb075df",
+      "folder": false
+    }
+  ]
+}

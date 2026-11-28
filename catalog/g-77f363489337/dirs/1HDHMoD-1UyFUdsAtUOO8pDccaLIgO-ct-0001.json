@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HDHMoD-1UyFUdsAtUOO8pDccaLIgO-ct",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yjdtWVwUREOKHpiOdq-huG1t3YXmZzmC",
+      "parent_id": "1HDHMoD-1UyFUdsAtUOO8pDccaLIgO-ct",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 15010,
+      "modified": "2026-08-15T07:59:38.000Z",
+      "checksum": "faeafb341b546f9b13e7eacd5b5d6ebb",
+      "folder": false
+    },
+    {
+      "id": "1nc6BAO6bB8X2w3vYpeZkt2_aK995eC-Y",
+      "parent_id": "1HDHMoD-1UyFUdsAtUOO8pDccaLIgO-ct",
+      "name": "NGƯỜI MÁY CÓ MƠ VỀ CỪU ĐIỆN KHÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 603844,
+      "modified": "2026-08-15T07:59:44.000Z",
+      "checksum": "6d7e7daebcc80977b00dd0b5d914b5bb",
+      "folder": false
+    },
+    {
+      "id": "1MyyVRITiTsEp2icnGElRJWaCmRD-F2-3",
+      "parent_id": "1HDHMoD-1UyFUdsAtUOO8pDccaLIgO-ct",
+      "name": "NGƯỜI MÁY CÓ MƠ VỀ CỪU ĐIỆN KHÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 628986,
+      "modified": "2026-08-15T07:59:42.000Z",
+      "checksum": "b014213182e0f92db10057199c143774",
+      "folder": false
+    }
+  ]
+}

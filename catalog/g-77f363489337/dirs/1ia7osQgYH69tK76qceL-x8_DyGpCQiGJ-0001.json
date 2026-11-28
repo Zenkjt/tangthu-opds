@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ia7osQgYH69tK76qceL-x8_DyGpCQiGJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1r_CsTbDwqkJqAPTMi4Qzlnkel9OfF0xd",
+      "parent_id": "1ia7osQgYH69tK76qceL-x8_DyGpCQiGJ",
+      "name": "CON HOANG.epub",
+      "mime": "application/epub+zip",
+      "size": 396538,
+      "modified": "2026-08-16T02:56:47.000Z",
+      "checksum": "6a95edc722f9a97fe92d341dcc0e80a4",
+      "folder": false
+    },
+    {
+      "id": "1GLpr5SuoeOsUizofd2MW0p6d9jddLdd-",
+      "parent_id": "1ia7osQgYH69tK76qceL-x8_DyGpCQiGJ",
+      "name": "CON HOANG.pdf",
+      "mime": "application/pdf",
+      "size": 878965,
+      "modified": "2026-08-16T02:56:45.000Z",
+      "checksum": "b99f564a899e13ea7336ccce0756787f",
+      "folder": false
+    },
+    {
+      "id": "1gvwnrHZntGEA9mQRZoaLCfCA_4b4EqDm",
+      "parent_id": "1ia7osQgYH69tK76qceL-x8_DyGpCQiGJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2911,
+      "modified": "2026-08-16T02:56:41.000Z",
+      "checksum": "79d2986bba95239a9e07f6a49c006067",
+      "folder": false
+    }
+  ]
+}

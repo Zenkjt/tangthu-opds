@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_UFWLEeWS-d6s4eMDilMTBjYXjoCzhOi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1j8ZP52V5CiUz2Gw3u8pGgxqdFhpg6Yml",
+      "parent_id": "1_UFWLEeWS-d6s4eMDilMTBjYXjoCzhOi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8503,
+      "modified": "2026-08-15T07:43:15.000Z",
+      "checksum": "dd2e80a790a914c9d8ecf8bd057a02d3",
+      "folder": false
+    },
+    {
+      "id": "18xrOdMg6NGQvrYVLJNz9_tH61MNQgUCL",
+      "parent_id": "1_UFWLEeWS-d6s4eMDilMTBjYXjoCzhOi",
+      "name": "SAO ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 1433517,
+      "modified": "2026-08-15T07:43:37.000Z",
+      "checksum": "1a3e7138fb36975e454e1fcc3cda907f",
+      "folder": false
+    },
+    {
+      "id": "1JbGI_QNPmOPysqJnLvrbMxNy0U3xIgd3",
+      "parent_id": "1_UFWLEeWS-d6s4eMDilMTBjYXjoCzhOi",
+      "name": "SAO ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 5289652,
+      "modified": "2026-08-15T07:43:33.000Z",
+      "checksum": "3fdebaf6033aab15c70465bdeb5a06c9",
+      "folder": false
+    }
+  ]
+}

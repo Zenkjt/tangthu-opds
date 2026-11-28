@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1u4CQdCc4rfYmV6_Ozvv-t7j0omWWG_My",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LqvjI4nhhpyecT-jyULz8PU-lcZLVwq8",
+      "parent_id": "1u4CQdCc4rfYmV6_Ozvv-t7j0omWWG_My",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3524,
+      "modified": "2026-08-15T15:32:22.000Z",
+      "checksum": "2f477e1f4986795ed2070dcd75921e06",
+      "folder": false
+    },
+    {
+      "id": "1bv2m1afGh1OT0QLxjf297P2_Ue6ptsuW",
+      "parent_id": "1u4CQdCc4rfYmV6_Ozvv-t7j0omWWG_My",
+      "name": "ĐOẠT TỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 475035,
+      "modified": "2026-08-15T15:32:38.000Z",
+      "checksum": "9af0bbb436cd2a9d28b948817f687264",
+      "folder": false
+    },
+    {
+      "id": "1_ixnQ-n7vKCfTluSUMvtrkasqU7tc1wy",
+      "parent_id": "1u4CQdCc4rfYmV6_Ozvv-t7j0omWWG_My",
+      "name": "ĐOẠT TỬ.pdf",
+      "mime": "application/pdf",
+      "size": 1662537,
+      "modified": "2026-08-15T15:32:36.000Z",
+      "checksum": "a36744594ac5420720f629cb94f946e5",
+      "folder": false
+    }
+  ]
+}

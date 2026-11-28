@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Px-4EBY83-1rCx35xfxV4JPyOaBy8aK2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NzRO97vdNBA7wXK8U6xpzvT8TiECiXcv",
+      "parent_id": "1Px-4EBY83-1rCx35xfxV4JPyOaBy8aK2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5225,
+      "modified": "2026-08-15T03:50:23.000Z",
+      "checksum": "4ac38e9522373125720e042de9dfb824",
+      "folder": false
+    },
+    {
+      "id": "1z1AriHIsyLyJ3OcJ_aPIilPkdOsDOg3d",
+      "parent_id": "1Px-4EBY83-1rCx35xfxV4JPyOaBy8aK2",
+      "name": "LỊCH SỬ THÔNG THIÊN HỌC - TẬP 1.epub",
+      "mime": "application/epub+zip",
+      "size": 591502,
+      "modified": "2026-08-15T03:50:29.000Z",
+      "checksum": "e26898ff445763cbe94aaf536c1ca5cf",
+      "folder": false
+    },
+    {
+      "id": "1owJApgacGZarXOVte4Q8s66A2d-rUh9h",
+      "parent_id": "1Px-4EBY83-1rCx35xfxV4JPyOaBy8aK2",
+      "name": "LỊCH SỬ THÔNG THIÊN HỌC - TẬP 1.pdf",
+      "mime": "application/pdf",
+      "size": 1122100,
+      "modified": "2026-08-15T03:50:26.000Z",
+      "checksum": "48ebe978c7cd58b133d824921f069b00",
+      "folder": false
+    }
+  ]
+}

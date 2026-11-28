@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11j796PqpuFHOrRzg8RdtoCKs7Xx1qSWc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VWs0uhKcslcUxAnEvWLq0D1SUSYTLEFd",
+      "parent_id": "11j796PqpuFHOrRzg8RdtoCKs7Xx1qSWc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1814,
+      "modified": "2026-08-15T15:22:49.000Z",
+      "checksum": "48a5550120a5a596fd0f6f2083977053",
+      "folder": false
+    },
+    {
+      "id": "1zmyBs2CQ5_qil36urA2kiVXumpaDnnt4",
+      "parent_id": "11j796PqpuFHOrRzg8RdtoCKs7Xx1qSWc",
+      "name": "TỔ ĐIỀU TRA VÀ NHỮNG VỤ ÁN BÍ HIỂM.epub",
+      "mime": "application/epub+zip",
+      "size": 917942,
+      "modified": "2026-08-15T15:23:00.000Z",
+      "checksum": "2f9473b2a5b2bb25fbbcd3fe1445b54e",
+      "folder": false
+    },
+    {
+      "id": "1Zmpw0g_pyrwUAxRlxzPt3pNovO82It4z",
+      "parent_id": "11j796PqpuFHOrRzg8RdtoCKs7Xx1qSWc",
+      "name": "TỔ ĐIỀU TRA VÀ NHỮNG VỤ ÁN BÍ HIỂM.pdf",
+      "mime": "application/pdf",
+      "size": 2769455,
+      "modified": "2026-08-15T15:22:57.000Z",
+      "checksum": "271fd33ab67d87e73a3c1d509489625d",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TytJxkMtBn-g4LLnZIb5Y5rMkbggWeRC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BVFWlG2vapnE9QOatxaWh-oYUf2UoYSU",
+      "parent_id": "1TytJxkMtBn-g4LLnZIb5Y5rMkbggWeRC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1618,
+      "modified": "2026-08-15T04:02:00.000Z",
+      "checksum": "473aa380481f793f5c4156cd1729f8e6",
+      "folder": false
+    },
+    {
+      "id": "1Lm6LW1z3rTzsWf_M0kzcFBXpbQOUFzsz",
+      "parent_id": "1TytJxkMtBn-g4LLnZIb5Y5rMkbggWeRC",
+      "name": "TÁI SINH Ở PHƯƠNG TÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 193633,
+      "modified": "2026-08-15T04:02:06.000Z",
+      "checksum": "3224fa572db2bddb29a7a679420d158f",
+      "folder": false
+    },
+    {
+      "id": "1pOVUJEG2gBjDC1wLYg_u4-Xym9wQI-4c",
+      "parent_id": "1TytJxkMtBn-g4LLnZIb5Y5rMkbggWeRC",
+      "name": "TÁI SINH Ở PHƯƠNG TÂY.pdf",
+      "mime": "application/pdf",
+      "size": 190378,
+      "modified": "2026-08-15T04:02:04.000Z",
+      "checksum": "1078f51eb06b2a498a6bb3bae217f8e0",
+      "folder": false
+    }
+  ]
+}

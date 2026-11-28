@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1T-vLrk7ITzRy1q8PgRxo_0-hDfSD6V2T",
+  "page": 1,
+  "items": [
+    {
+      "id": "1L4FbDoSZXAVJsRzJc-8BIXIkh7OodZy0",
+      "parent_id": "1T-vLrk7ITzRy1q8PgRxo_0-hDfSD6V2T",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1323,
+      "modified": "2026-08-15T09:43:26.000Z",
+      "checksum": "2f3ac4f7adc896bb87d1d7bc7070d60f",
+      "folder": false
+    },
+    {
+      "id": "1Kcq0xV4Fyi-gxnLR5cBQssCmPbfbcMl-",
+      "parent_id": "1T-vLrk7ITzRy1q8PgRxo_0-hDfSD6V2T",
+      "name": "LỐI VỀ.epub",
+      "mime": "application/epub+zip",
+      "size": 442687,
+      "modified": "2026-08-15T09:43:35.000Z",
+      "checksum": "be722619ca1c7aeb25571d807b033028",
+      "folder": false
+    },
+    {
+      "id": "1m8j8ze8FYAssOQMvhEcz38_oVnB74GqR",
+      "parent_id": "1T-vLrk7ITzRy1q8PgRxo_0-hDfSD6V2T",
+      "name": "LỐI VỀ.pdf",
+      "mime": "application/pdf",
+      "size": 782722,
+      "modified": "2026-08-15T09:43:31.000Z",
+      "checksum": "b6dfa20681da269e27fed88b78aea9a5",
+      "folder": false
+    }
+  ]
+}

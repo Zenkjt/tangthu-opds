@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nwQ9DxLLsV4iasM7eNfzESzbCZsBCdvD",
+  "page": 1,
+  "items": [
+    {
+      "id": "17aAs8velrJgRGTcN-Q7_LFPqsZy4LoNt",
+      "parent_id": "1nwQ9DxLLsV4iasM7eNfzESzbCZsBCdvD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3371,
+      "modified": "2026-08-16T04:14:26.000Z",
+      "checksum": "a3475faab6af4efc3136b23443786541",
+      "folder": false
+    },
+    {
+      "id": "14dwojP_545z7K1YAvif__PoBRShb9XK2",
+      "parent_id": "1nwQ9DxLLsV4iasM7eNfzESzbCZsBCdvD",
+      "name": "NGƯNG HOAN.epub",
+      "mime": "application/epub+zip",
+      "size": 634819,
+      "modified": "2026-08-16T04:14:34.000Z",
+      "checksum": "b387adcceb6133278bceb219e329a51f",
+      "folder": false
+    },
+    {
+      "id": "1PffKhIddowjiNC6anT4GIAUXkvDyAKbq",
+      "parent_id": "1nwQ9DxLLsV4iasM7eNfzESzbCZsBCdvD",
+      "name": "NGƯNG HOAN.pdf",
+      "mime": "application/pdf",
+      "size": 1787132,
+      "modified": "2026-08-16T04:14:32.000Z",
+      "checksum": "8790013632927d62f2a968ab4a6fad6c",
+      "folder": false
+    }
+  ]
+}

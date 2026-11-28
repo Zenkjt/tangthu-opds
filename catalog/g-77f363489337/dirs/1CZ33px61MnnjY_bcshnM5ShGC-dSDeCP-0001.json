@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CZ33px61MnnjY_bcshnM5ShGC-dSDeCP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qGLnzdESmEwNXCFhcwGQem3v1M-dPKOE",
+      "parent_id": "1CZ33px61MnnjY_bcshnM5ShGC-dSDeCP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3238,
+      "modified": "2026-08-15T06:58:04.000Z",
+      "checksum": "d84cbb5fb1eea261ae9f9e51b75e5321",
+      "folder": false
+    },
+    {
+      "id": "1ImH3P7R0DuPvlpdl11fInmYW8H362rGj",
+      "parent_id": "1CZ33px61MnnjY_bcshnM5ShGC-dSDeCP",
+      "name": "THIÊN THẦN NỔI LOẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 934027,
+      "modified": "2026-08-15T06:58:19.000Z",
+      "checksum": "4a88ae532161a3a261cfe59602d57ca8",
+      "folder": false
+    },
+    {
+      "id": "1XqmCgjzy65x7-DefagPK97-Ar9RHVcx5",
+      "parent_id": "1CZ33px61MnnjY_bcshnM5ShGC-dSDeCP",
+      "name": "THIÊN THẦN NỔI LOẠN.pdf",
+      "mime": "application/pdf",
+      "size": 1673334,
+      "modified": "2026-08-15T06:58:14.000Z",
+      "checksum": "9a75f318cb482b312cfc718c6364a51a",
+      "folder": false
+    }
+  ]
+}

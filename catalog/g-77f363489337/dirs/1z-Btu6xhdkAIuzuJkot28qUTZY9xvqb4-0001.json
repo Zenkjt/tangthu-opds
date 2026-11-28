@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1z-Btu6xhdkAIuzuJkot28qUTZY9xvqb4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XrZ1abvsORCTLdrUX9aO04LsMWkDy9_B",
+      "parent_id": "1z-Btu6xhdkAIuzuJkot28qUTZY9xvqb4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6201,
+      "modified": "2026-08-15T09:49:29.000Z",
+      "checksum": "a807b34adcfecf8e2a7174a2c12d1374",
+      "folder": false
+    },
+    {
+      "id": "1DUeb1NJRCyOUKBI5uodv6mrHAhvkyQwV",
+      "parent_id": "1z-Btu6xhdkAIuzuJkot28qUTZY9xvqb4",
+      "name": "GẶP MA.epub",
+      "mime": "application/epub+zip",
+      "size": 530818,
+      "modified": "2026-08-15T09:49:37.000Z",
+      "checksum": "1dc321701de1c837c955afdc75dba185",
+      "folder": false
+    },
+    {
+      "id": "1gtIhrfGG4lP6k95zL7NRNvH2obYp6v6o",
+      "parent_id": "1z-Btu6xhdkAIuzuJkot28qUTZY9xvqb4",
+      "name": "GẶP MA.pdf",
+      "mime": "application/pdf",
+      "size": 1689066,
+      "modified": "2026-08-15T09:49:34.000Z",
+      "checksum": "4808467e98b5749903e04734e1be517f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13ndvXIdqC7kv0x8WihIVfCa61uuOzcNF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kU-qdYI087t4sKgwBI8TzgTQplRWPz3W",
+      "parent_id": "13ndvXIdqC7kv0x8WihIVfCa61uuOzcNF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 492,
+      "modified": "2026-08-15T10:06:06.000Z",
+      "checksum": "079408ffa7b84403744b5f58062e293e",
+      "folder": false
+    },
+    {
+      "id": "1t_jN5s_QvH7_1sFfFtMgTzddcGBStx7M",
+      "parent_id": "13ndvXIdqC7kv0x8WihIVfCa61uuOzcNF",
+      "name": "TU VIỆN THÀNH PARME.epub",
+      "mime": "application/epub+zip",
+      "size": 851083,
+      "modified": "2026-08-15T10:06:15.000Z",
+      "checksum": "4710620e46b26eab8d8b4f941e65422e",
+      "folder": false
+    },
+    {
+      "id": "1iM6pnmCcpVmmTovA78P9j8-cM8yXpaid",
+      "parent_id": "13ndvXIdqC7kv0x8WihIVfCa61uuOzcNF",
+      "name": "TU VIỆN THÀNH PARME.pdf",
+      "mime": "application/pdf",
+      "size": 2491468,
+      "modified": "2026-08-15T10:06:12.000Z",
+      "checksum": "33dc79929e1aa802f2579b2847dc0ce0",
+      "folder": false
+    }
+  ]
+}

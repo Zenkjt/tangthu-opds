@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oFcLRAUWbZy5KK1NZZXcLVSpnoagUhC0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rkk2hbQCcHzyoXFTNSTrJwKAMzlBn4-o",
+      "parent_id": "1oFcLRAUWbZy5KK1NZZXcLVSpnoagUhC0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4341,
+      "modified": "2026-08-15T03:52:23.000Z",
+      "checksum": "60c7ebe628f934cf3d2ebca5d7e49825",
+      "folder": false
+    },
+    {
+      "id": "1_T8ioGKYIF_sA5iDjwJgo_n8Z8ree5eB",
+      "parent_id": "1oFcLRAUWbZy5KK1NZZXcLVSpnoagUhC0",
+      "name": "NGHIỆM GIẢI ĐẠO ĐỨC KINH.epub",
+      "mime": "application/epub+zip",
+      "size": 795587,
+      "modified": "2026-08-15T03:52:29.000Z",
+      "checksum": "8fe76aeff9a69b254a89520366c06bcd",
+      "folder": false
+    },
+    {
+      "id": "1a6OlxKSSAAWU31fBNTKAnqLv2csvPwY-",
+      "parent_id": "1oFcLRAUWbZy5KK1NZZXcLVSpnoagUhC0",
+      "name": "NGHIỆM GIẢI ĐẠO ĐỨC KINH.pdf",
+      "mime": "application/pdf",
+      "size": 797784,
+      "modified": "2026-08-15T03:52:26.000Z",
+      "checksum": "0a81344dbb4f63e0308607357925dbcd",
+      "folder": false
+    }
+  ]
+}

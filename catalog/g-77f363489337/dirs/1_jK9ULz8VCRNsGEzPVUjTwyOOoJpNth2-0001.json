@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_jK9ULz8VCRNsGEzPVUjTwyOOoJpNth2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1G6qgLgTugTr3yyVpIZZAYG0npB9Ojkbs",
+      "parent_id": "1_jK9ULz8VCRNsGEzPVUjTwyOOoJpNth2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2120,
+      "modified": "2026-08-15T09:48:23.000Z",
+      "checksum": "d6f760ffa69cecd5cd7b6571131f5fb5",
+      "folder": false
+    },
+    {
+      "id": "1ed5zjGdBO_Rw6q4GxI4qVFmYmcfAQBDc",
+      "parent_id": "1_jK9ULz8VCRNsGEzPVUjTwyOOoJpNth2",
+      "name": "HOA ANH THẢO.epub",
+      "mime": "application/epub+zip",
+      "size": 687697,
+      "modified": "2026-08-15T09:48:31.000Z",
+      "checksum": "6ad3cc7a08c760bf36b24168e34fc33d",
+      "folder": false
+    },
+    {
+      "id": "17VO1B6f7dM-zbhA4_Fy3t4duhS54kI3A",
+      "parent_id": "1_jK9ULz8VCRNsGEzPVUjTwyOOoJpNth2",
+      "name": "HOA ANH THẢO.pdf",
+      "mime": "application/pdf",
+      "size": 1649546,
+      "modified": "2026-08-15T09:48:28.000Z",
+      "checksum": "47ca35153af16f40976d2878ef68282a",
+      "folder": false
+    }
+  ]
+}

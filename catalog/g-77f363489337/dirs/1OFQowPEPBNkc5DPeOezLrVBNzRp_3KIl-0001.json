@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OFQowPEPBNkc5DPeOezLrVBNzRp_3KIl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZdobGYI5wkerxbm4Jw8D0s5dFrXnQtFg",
+      "parent_id": "1OFQowPEPBNkc5DPeOezLrVBNzRp_3KIl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3528,
+      "modified": "2026-08-15T15:59:30.000Z",
+      "checksum": "aa601efe7d4e800c1016c395501045e6",
+      "folder": false
+    },
+    {
+      "id": "1hDfFe5Bohvo1bvzEcb9dppkTt2_xQOvB",
+      "parent_id": "1OFQowPEPBNkc5DPeOezLrVBNzRp_3KIl",
+      "name": "NHỮNG CÂU CHUYỆN HỒI HỘP NHẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 780073,
+      "modified": "2026-08-15T15:59:37.000Z",
+      "checksum": "469f7fe558905f3f836da9e6fd74e83e",
+      "folder": false
+    },
+    {
+      "id": "19hifAN8cv_j9L8ZMVTr_CWeFUuFBYqpC",
+      "parent_id": "1OFQowPEPBNkc5DPeOezLrVBNzRp_3KIl",
+      "name": "NHỮNG CÂU CHUYỆN HỒI HỘP NHẤT.pdf",
+      "mime": "application/pdf",
+      "size": 1235784,
+      "modified": "2026-08-15T15:59:34.000Z",
+      "checksum": "4b4295bfa30dcb50331ff0e2f2f08e16",
+      "folder": false
+    }
+  ]
+}

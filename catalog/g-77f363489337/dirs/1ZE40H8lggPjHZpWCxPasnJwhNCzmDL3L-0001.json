@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZE40H8lggPjHZpWCxPasnJwhNCzmDL3L",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kOpqgR30fwQ1nW4UbWJ3jp-hh8LH3NGz",
+      "parent_id": "1ZE40H8lggPjHZpWCxPasnJwhNCzmDL3L",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10455,
+      "modified": "2026-08-15T15:04:30.000Z",
+      "checksum": "f38f857ace3ace07186cb94e057182cd",
+      "folder": false
+    },
+    {
+      "id": "1vppuc4coIKRz_4LeQ9-w0333Em6xLaWE",
+      "parent_id": "1ZE40H8lggPjHZpWCxPasnJwhNCzmDL3L",
+      "name": "EM CHỜ ANH GIỮA MÙA XUÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 3001273,
+      "modified": "2026-08-15T15:04:38.000Z",
+      "checksum": "3c4008adc7095e063fa285e97330b988",
+      "folder": false
+    },
+    {
+      "id": "1sTQRL0t7yQUocEHBD00x_7WalpSUCAaR",
+      "parent_id": "1ZE40H8lggPjHZpWCxPasnJwhNCzmDL3L",
+      "name": "EM CHỜ ANH GIỮA MÙA XUÂN.pdf",
+      "mime": "application/pdf",
+      "size": 2743154,
+      "modified": "2026-08-15T15:04:35.000Z",
+      "checksum": "48823db6daa6990f5670ec8ec8f2ad91",
+      "folder": false
+    }
+  ]
+}

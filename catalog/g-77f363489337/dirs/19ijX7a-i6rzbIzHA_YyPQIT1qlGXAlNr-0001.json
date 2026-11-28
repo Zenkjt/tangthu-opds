@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19ijX7a-i6rzbIzHA_YyPQIT1qlGXAlNr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ax5Ju4xMO0HwpLzo2jT0dUDV7FX_RO4i",
+      "parent_id": "19ijX7a-i6rzbIzHA_YyPQIT1qlGXAlNr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3559,
+      "modified": "2026-08-16T03:13:50.000Z",
+      "checksum": "1962bbc18e254fbc2266dddb96a6f131",
+      "folder": false
+    },
+    {
+      "id": "1XjYXJyRsBptDXLRX5JyCMCsrQjQR3X95",
+      "parent_id": "19ijX7a-i6rzbIzHA_YyPQIT1qlGXAlNr",
+      "name": "THƯƠNG NHỚ ĐỒNG QUÊ.epub",
+      "mime": "application/epub+zip",
+      "size": 258079,
+      "modified": "2026-08-16T03:13:55.000Z",
+      "checksum": "cd9989a23708cf64ad3dbdcf6564226d",
+      "folder": false
+    },
+    {
+      "id": "1kA8JEjCS9pGc5-mdnWptbJKIPrKov9M0",
+      "parent_id": "19ijX7a-i6rzbIzHA_YyPQIT1qlGXAlNr",
+      "name": "THƯƠNG NHỚ ĐỒNG QUÊ.pdf",
+      "mime": "application/pdf",
+      "size": 136791,
+      "modified": "2026-08-16T03:13:53.000Z",
+      "checksum": "e4cf179ba85a4c0dc7ef22085d1d8ae2",
+      "folder": false
+    }
+  ]
+}

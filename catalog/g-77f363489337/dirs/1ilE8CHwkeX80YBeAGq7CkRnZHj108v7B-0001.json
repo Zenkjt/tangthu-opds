@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ilE8CHwkeX80YBeAGq7CkRnZHj108v7B",
+  "page": 1,
+  "items": [
+    {
+      "id": "1W7lyzVJjc1hVqT1hG3kVYZGpbVHBGMAw",
+      "parent_id": "1ilE8CHwkeX80YBeAGq7CkRnZHj108v7B",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4409,
+      "modified": "2026-08-15T03:59:46.000Z",
+      "checksum": "975dd34597c1ceef6388c40f237617c5",
+      "folder": false
+    },
+    {
+      "id": "12zY9F8TxDlJDAaJZucL2UQ60ym1rD-3a",
+      "parent_id": "1ilE8CHwkeX80YBeAGq7CkRnZHj108v7B",
+      "name": "THÔNG ĐIỆP TỪ THẾ GIỚI THƯỢNG THIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 8320738,
+      "modified": "2026-08-15T03:59:55.000Z",
+      "checksum": "aa98cf04edacd922f3fba9af6f2093c4",
+      "folder": false
+    },
+    {
+      "id": "1wdyrtWHwtfKOU0Fe4fegJVGU3wvG9wGK",
+      "parent_id": "1ilE8CHwkeX80YBeAGq7CkRnZHj108v7B",
+      "name": "THÔNG ĐIỆP TỪ THẾ GIỚI THƯỢNG THIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 9516259,
+      "modified": "2026-08-15T03:59:51.000Z",
+      "checksum": "faaaee3470267b46d4a882f67c7b245d",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IbEYANE9rayKWajMvqy7hsjQ94t9V4mV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1w1c8mPlrbwIW6PQsj32ETZBujFdagXhc",
+      "parent_id": "1IbEYANE9rayKWajMvqy7hsjQ94t9V4mV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1623,
+      "modified": "2026-08-16T03:50:53.000Z",
+      "checksum": "a4ac598da9d6e9544705c7727a65e4c0",
+      "folder": false
+    },
+    {
+      "id": "11P85OLLEnkl9-QibtTeKVnU-541WasLO",
+      "parent_id": "1IbEYANE9rayKWajMvqy7hsjQ94t9V4mV",
+      "name": "ĐỪNG ĐÁNH MẤT TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 243584,
+      "modified": "2026-08-16T03:51:01.000Z",
+      "checksum": "61bc87f5b3135b51a8ada1f434c864db",
+      "folder": false
+    },
+    {
+      "id": "1g2GiK1-mEud8mNcLNefY_Gz-73ID-yXF",
+      "parent_id": "1IbEYANE9rayKWajMvqy7hsjQ94t9V4mV",
+      "name": "ĐỪNG ĐÁNH MẤT TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 744190,
+      "modified": "2026-08-16T03:50:58.000Z",
+      "checksum": "80e93bb611f0529e365949103a7b7199",
+      "folder": false
+    }
+  ]
+}

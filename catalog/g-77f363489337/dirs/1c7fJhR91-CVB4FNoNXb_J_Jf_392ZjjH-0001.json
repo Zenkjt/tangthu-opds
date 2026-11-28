@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1c7fJhR91-CVB4FNoNXb_J_Jf_392ZjjH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JVacuF_Tefx_ePF0BlyHf8YouhY7YIQj",
+      "parent_id": "1c7fJhR91-CVB4FNoNXb_J_Jf_392ZjjH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2160,
+      "modified": "2026-08-15T03:59:11.000Z",
+      "checksum": "94006beea61e94018c3476f836950281",
+      "folder": false
+    },
+    {
+      "id": "1OUhefKNsamEcqUfCN0XYPxN0m3ww8SQH",
+      "parent_id": "1c7fJhR91-CVB4FNoNXb_J_Jf_392ZjjH",
+      "name": "KHỞI LINH HỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 359719,
+      "modified": "2026-08-15T03:59:17.000Z",
+      "checksum": "8c470354b26bdf437ca36b7d2fa32617",
+      "folder": false
+    },
+    {
+      "id": "1X8HLItWHpTQLzqPU7mBQer78GKQZPekM",
+      "parent_id": "1c7fJhR91-CVB4FNoNXb_J_Jf_392ZjjH",
+      "name": "KHỞI LINH HỌC.pdf",
+      "mime": "application/pdf",
+      "size": 1322423,
+      "modified": "2026-08-15T03:59:14.000Z",
+      "checksum": "480090f016158e1aa3c70d174a72ce2a",
+      "folder": false
+    }
+  ]
+}

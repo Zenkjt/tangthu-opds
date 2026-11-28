@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10C1l24Q0FSoSZD4XluFc1NyhtWOgH-z0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nDwS3hqdEETnPt6LIqtJi4h6WmnZG2jn",
+      "parent_id": "10C1l24Q0FSoSZD4XluFc1NyhtWOgH-z0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5075,
+      "modified": "2026-08-15T08:17:58.000Z",
+      "checksum": "48a8debfe2b1fb5db8ae7a58010eff94",
+      "folder": false
+    },
+    {
+      "id": "1VZwS6ikLVZ7ATazP2QKb2VF4PTMMgOrr",
+      "parent_id": "10C1l24Q0FSoSZD4XluFc1NyhtWOgH-z0",
+      "name": "LINH PHI KINH.epub",
+      "mime": "application/epub+zip",
+      "size": 5961311,
+      "modified": "2026-08-15T08:18:14.000Z",
+      "checksum": "b5290ca7e8ef59aecb45b05fbada9923",
+      "folder": false
+    },
+    {
+      "id": "1kVhWIUGkR-NfJEdnxpG-MjuBW-Zu0-3Z",
+      "parent_id": "10C1l24Q0FSoSZD4XluFc1NyhtWOgH-z0",
+      "name": "LINH PHI KINH.pdf",
+      "mime": "application/pdf",
+      "size": 8116170,
+      "modified": "2026-08-15T08:18:10.000Z",
+      "checksum": "cf9d21f5b5e3b9909724e5501598870f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Onsv80dcIx5g2txYKIFEeFnUNfZRIVMi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ndP9kLRzp_mnICWSfmS-b5PolQTjRlsD",
+      "parent_id": "1Onsv80dcIx5g2txYKIFEeFnUNfZRIVMi",
+      "name": "BÃO THÉP.epub",
+      "mime": "application/epub+zip",
+      "size": 1395600,
+      "modified": "2026-08-16T04:23:05.000Z",
+      "checksum": "eb9f5d1cd3640f6ab81078a2bb24a33f",
+      "folder": false
+    },
+    {
+      "id": "1ukPaawhHTVTU0om04gM4WRROKWNbVSWl",
+      "parent_id": "1Onsv80dcIx5g2txYKIFEeFnUNfZRIVMi",
+      "name": "BÃO THÉP.pdf",
+      "mime": "application/pdf",
+      "size": 3235882,
+      "modified": "2026-08-16T04:22:54.000Z",
+      "checksum": "726e071fe3fda17fc596b5c23a624348",
+      "folder": false
+    },
+    {
+      "id": "1Zbj4TWhjjjc7jitf9iToK9OVd8XgVm10",
+      "parent_id": "1Onsv80dcIx5g2txYKIFEeFnUNfZRIVMi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 812,
+      "modified": "2026-08-16T04:22:30.000Z",
+      "checksum": "0fbfabd5dbd4b5c7768d74e3c209a868",
+      "folder": false
+    }
+  ]
+}

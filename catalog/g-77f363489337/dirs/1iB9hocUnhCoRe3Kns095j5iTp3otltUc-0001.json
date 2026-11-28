@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iB9hocUnhCoRe3Kns095j5iTp3otltUc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1J_7IagwygjmphuWFIwVq09KC7Aa0VCv6",
+      "parent_id": "1iB9hocUnhCoRe3Kns095j5iTp3otltUc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3243,
+      "modified": "2026-08-16T04:11:58.000Z",
+      "checksum": "8afe6cf788551ff7080ef2e906c1de29",
+      "folder": false
+    },
+    {
+      "id": "11MriaQv4Hr7lWCPSB746w5vR1z1BbGxi",
+      "parent_id": "1iB9hocUnhCoRe3Kns095j5iTp3otltUc",
+      "name": "NHẬT KÝ THUẦN DƯỠNG NGHIỆT ĐỒ.epub",
+      "mime": "application/epub+zip",
+      "size": 644463,
+      "modified": "2026-08-16T04:12:08.000Z",
+      "checksum": "36f4f7a198396a2bc3d5cd0072eec5d6",
+      "folder": false
+    },
+    {
+      "id": "1LrpYKkmDhFwMss_zhsRV5Tp2cHpRFJVU",
+      "parent_id": "1iB9hocUnhCoRe3Kns095j5iTp3otltUc",
+      "name": "NHẬT KÝ THUẦN DƯỠNG NGHIỆT ĐỒ.pdf",
+      "mime": "application/pdf",
+      "size": 1827006,
+      "modified": "2026-08-16T04:12:05.000Z",
+      "checksum": "31537311cbd988ef245fecb61b1881ae",
+      "folder": false
+    }
+  ]
+}

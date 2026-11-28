@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CrS2wrd_OxCszbh3pcoH-TGK12_D2DyY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AiqKp1C0koskMk7grtNuIUSY15ZsHfZs",
+      "parent_id": "1CrS2wrd_OxCszbh3pcoH-TGK12_D2DyY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11883,
+      "modified": "2026-08-15T00:51:29.000Z",
+      "checksum": "a00d320255e00903a56bae7553fcf87a",
+      "folder": false
+    },
+    {
+      "id": "1ct9mA4ftUgUJ7a5ASpw3lSEGF7poSm0d",
+      "parent_id": "1CrS2wrd_OxCszbh3pcoH-TGK12_D2DyY",
+      "name": "ÓC SÁNG SUỐT.epub",
+      "mime": "application/epub+zip",
+      "size": 411425,
+      "modified": "2026-08-15T00:51:35.000Z",
+      "checksum": "0af0963891f862a505d8e3fe33ee78ee",
+      "folder": false
+    },
+    {
+      "id": "1DzNfoz1tbAaLDp6UndoU95osqm8B3YqZ",
+      "parent_id": "1CrS2wrd_OxCszbh3pcoH-TGK12_D2DyY",
+      "name": "ÓC SÁNG SUỐT.pdf",
+      "mime": "application/pdf",
+      "size": 1077380,
+      "modified": "2026-08-15T00:51:32.000Z",
+      "checksum": "1ed72d3f97192f1fc0789bba2c7f9804",
+      "folder": false
+    }
+  ]
+}

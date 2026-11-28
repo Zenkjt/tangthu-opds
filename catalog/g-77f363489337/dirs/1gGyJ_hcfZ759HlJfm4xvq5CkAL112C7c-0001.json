@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gGyJ_hcfZ759HlJfm4xvq5CkAL112C7c",
+  "page": 1,
+  "items": [
+    {
+      "id": "10pC5Xu-fN9dnxpE-WV0P_Q-0ooK7LEgK",
+      "parent_id": "1gGyJ_hcfZ759HlJfm4xvq5CkAL112C7c",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6750,
+      "modified": "2026-08-15T09:49:19.000Z",
+      "checksum": "e23c3a5e9225bf8112330245a8d4c278",
+      "folder": false
+    },
+    {
+      "id": "1_KaHynPT3nvgjRdeZbFiIYud66bnKtKz",
+      "parent_id": "1gGyJ_hcfZ759HlJfm4xvq5CkAL112C7c",
+      "name": "GIAM CẦM.epub",
+      "mime": "application/epub+zip",
+      "size": 1237934,
+      "modified": "2026-08-15T09:49:25.000Z",
+      "checksum": "3b72fd9309c5559265ac8d24363dca67",
+      "folder": false
+    },
+    {
+      "id": "1BToF5hDizlsvQrh2PKie6j9iEDsfMM2l",
+      "parent_id": "1gGyJ_hcfZ759HlJfm4xvq5CkAL112C7c",
+      "name": "GIAM CẦM.pdf",
+      "mime": "application/pdf",
+      "size": 876371,
+      "modified": "2026-08-15T09:49:22.000Z",
+      "checksum": "6364230d5fc4c20bbd6c30ff48ba9fe3",
+      "folder": false
+    }
+  ]
+}

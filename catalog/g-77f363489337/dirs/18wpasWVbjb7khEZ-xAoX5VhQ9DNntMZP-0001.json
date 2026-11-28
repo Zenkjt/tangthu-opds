@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18wpasWVbjb7khEZ-xAoX5VhQ9DNntMZP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LYLwrlkDpK436cIKSWdttF6INLcB8LQ4",
+      "parent_id": "18wpasWVbjb7khEZ-xAoX5VhQ9DNntMZP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3275,
+      "modified": "2026-08-16T04:17:08.000Z",
+      "checksum": "ba4c02e8128ea9478d36869296836604",
+      "folder": false
+    },
+    {
+      "id": "1dDRf8UQkovJSXJgIAdKkKbKWAlH9YGZR",
+      "parent_id": "18wpasWVbjb7khEZ-xAoX5VhQ9DNntMZP",
+      "name": "MỤC TIÊU CUỐI CÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 576385,
+      "modified": "2026-08-16T04:17:16.000Z",
+      "checksum": "43c011457fc5c5c357a12294ae6e66c1",
+      "folder": false
+    },
+    {
+      "id": "1Fiql0xxiAU-K2naQO7J_sGe01RKg0X2e",
+      "parent_id": "18wpasWVbjb7khEZ-xAoX5VhQ9DNntMZP",
+      "name": "MỤC TIÊU CUỐI CÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 1576081,
+      "modified": "2026-08-16T04:17:14.000Z",
+      "checksum": "caa322792245dc4bf7ab36af2161f376",
+      "folder": false
+    }
+  ]
+}

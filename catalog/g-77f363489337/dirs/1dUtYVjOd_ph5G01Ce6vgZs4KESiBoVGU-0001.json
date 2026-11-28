@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dUtYVjOd_ph5G01Ce6vgZs4KESiBoVGU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZH6tUQfkyxYVIbWgbt9XO-RaJolseUgH",
+      "parent_id": "1dUtYVjOd_ph5G01Ce6vgZs4KESiBoVGU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2793,
+      "modified": "2026-08-15T07:37:16.000Z",
+      "checksum": "fd0a0fd78634d2e31706b9ace9fc38e4",
+      "folder": false
+    },
+    {
+      "id": "1b30WKygu-83isbM_YyPwrAk7DXBPUPfL",
+      "parent_id": "1dUtYVjOd_ph5G01Ce6vgZs4KESiBoVGU",
+      "name": "TUYỆT SẮC QUỐC SƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 793425,
+      "modified": "2026-08-15T07:37:23.000Z",
+      "checksum": "5920d294ae598db85575ca356442beb4",
+      "folder": false
+    },
+    {
+      "id": "1kdalCD8SKH7q5SvqhEyoWXpyhopEOiC4",
+      "parent_id": "1dUtYVjOd_ph5G01Ce6vgZs4KESiBoVGU",
+      "name": "TUYỆT SẮC QUỐC SƯ.pdf",
+      "mime": "application/pdf",
+      "size": 686373,
+      "modified": "2026-08-15T07:37:20.000Z",
+      "checksum": "0ccffcf9199e84e9e7e1ae553e5aac84",
+      "folder": false
+    }
+  ]
+}

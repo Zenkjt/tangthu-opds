@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rdPn7HJdv8zMGOS4u4cKY7vZrSmw6h8A",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gBp0DtiCpFrxwxAP4FAizOiDgC-N2a-O",
+      "parent_id": "1rdPn7HJdv8zMGOS4u4cKY7vZrSmw6h8A",
+      "name": "BỌN SĂN VÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 466634,
+      "modified": "2026-08-15T11:02:24.000Z",
+      "checksum": "8fe6642bf60508f02cc674b1baab4666",
+      "folder": false
+    },
+    {
+      "id": "1MD9SKJB2b6fVvc4zVMG3D-q-8u1AIHn9",
+      "parent_id": "1rdPn7HJdv8zMGOS4u4cKY7vZrSmw6h8A",
+      "name": "BỌN SĂN VÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 748132,
+      "modified": "2026-08-15T11:02:21.000Z",
+      "checksum": "12476092834e5ebe5244817b943e6975",
+      "folder": false
+    },
+    {
+      "id": "1AFfuZebedzhkqOHOgHHNfZJ4DbN9FWM2",
+      "parent_id": "1rdPn7HJdv8zMGOS4u4cKY7vZrSmw6h8A",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 934,
+      "modified": "2026-08-15T11:02:13.000Z",
+      "checksum": "918908b050a21c0bf5d3a5bba5e8e57f",
+      "folder": false
+    }
+  ]
+}

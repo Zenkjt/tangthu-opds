@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pPvoRqkClz843ArfJsSoRZlOVyYVfM4K",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cbhP0Uj9MtLdtoIZcVyw5qYJtXRUU2xJ",
+      "parent_id": "1pPvoRqkClz843ArfJsSoRZlOVyYVfM4K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 492,
+      "modified": "2026-08-16T03:55:56.000Z",
+      "checksum": "9016169ae584c488ab617868d00a2d47",
+      "folder": false
+    },
+    {
+      "id": "1ZiZvVWyudrMflkh-OOd39cjSJDqeTjK8",
+      "parent_id": "1pPvoRqkClz843ArfJsSoRZlOVyYVfM4K",
+      "name": "TIA CHIẾU KHỦNG KHIẾP CỦA KỸ SƯ GARIN.epub",
+      "mime": "application/epub+zip",
+      "size": 637057,
+      "modified": "2026-08-16T03:56:03.000Z",
+      "checksum": "b5853a9f477efbe13821e94f9b77fffa",
+      "folder": false
+    },
+    {
+      "id": "1MMtDi63urtrXMBRdzxZF5TbUjujYWZ7k",
+      "parent_id": "1pPvoRqkClz843ArfJsSoRZlOVyYVfM4K",
+      "name": "TIA CHIẾU KHỦNG KHIẾP CỦA KỸ SƯ GARIN.pdf",
+      "mime": "application/pdf",
+      "size": 1519592,
+      "modified": "2026-08-16T03:56:00.000Z",
+      "checksum": "44cdf23569eda4d71264e20c6a85dba9",
+      "folder": false
+    }
+  ]
+}

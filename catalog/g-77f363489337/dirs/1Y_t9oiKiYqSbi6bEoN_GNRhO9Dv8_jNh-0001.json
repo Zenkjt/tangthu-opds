@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Y_t9oiKiYqSbi6bEoN_GNRhO9Dv8_jNh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MZCfny3LLa56N9M2uyr9s8cOQEyeqSOZ",
+      "parent_id": "1Y_t9oiKiYqSbi6bEoN_GNRhO9Dv8_jNh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3809,
+      "modified": "2026-08-15T08:04:00.000Z",
+      "checksum": "a4133888a46708632cf5c30e4d0dd26d",
+      "folder": false
+    },
+    {
+      "id": "1REM4f7cbfZUcbOonSnU_RmubM7I9MGAY",
+      "parent_id": "1Y_t9oiKiYqSbi6bEoN_GNRhO9Dv8_jNh",
+      "name": "NGÀY MAI.epub",
+      "mime": "application/epub+zip",
+      "size": 741883,
+      "modified": "2026-08-15T08:04:09.000Z",
+      "checksum": "71a0124dd37b0bdde83cae3c92ca9f37",
+      "folder": false
+    },
+    {
+      "id": "17Ki8ygJMGM05PQZvsLfWOfu77wmwiQlb",
+      "parent_id": "1Y_t9oiKiYqSbi6bEoN_GNRhO9Dv8_jNh",
+      "name": "NGÀY MAI.pdf",
+      "mime": "application/pdf",
+      "size": 1815170,
+      "modified": "2026-08-15T08:04:06.000Z",
+      "checksum": "9c82132146a4e4c0b4692c2196b9ceae",
+      "folder": false
+    }
+  ]
+}

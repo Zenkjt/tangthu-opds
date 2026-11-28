@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1twq5v0u_gRhDoCZqpjAakorK74xSOlId",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QEolJXQ5BRNzlWO6kNc6XuzL_oYrKeuK",
+      "parent_id": "1twq5v0u_gRhDoCZqpjAakorK74xSOlId",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1010,
+      "modified": "2026-08-15T04:02:43.000Z",
+      "checksum": "4555ee592fbf6de56442d48af1f2ff69",
+      "folder": false
+    },
+    {
+      "id": "10jFuzUg0GQ15If_0APIiKh8lNqueF-Lz",
+      "parent_id": "1twq5v0u_gRhDoCZqpjAakorK74xSOlId",
+      "name": "TRÁI TIM CỦA TRÚC LÂM ĐẠI SĨ.epub",
+      "mime": "application/epub+zip",
+      "size": 550755,
+      "modified": "2026-08-15T04:02:49.000Z",
+      "checksum": "9decf9bd01290352270b92632cc5d508",
+      "folder": false
+    },
+    {
+      "id": "1aqVWC3-mc8d6lRcEOpATHvL3LgZWBuE1",
+      "parent_id": "1twq5v0u_gRhDoCZqpjAakorK74xSOlId",
+      "name": "TRÁI TIM CỦA TRÚC LÂM ĐẠI SĨ.pdf",
+      "mime": "application/pdf",
+      "size": 1016972,
+      "modified": "2026-08-15T04:02:47.000Z",
+      "checksum": "c927be10c85ae01d389ed0bf5d8866c1",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tZAZ2QGrlP8fSHefE_Ig_nXOaMD7ccTI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1u0TCLC7-zVBWHa06oCXTjKrG6xg_EA6f",
+      "parent_id": "1tZAZ2QGrlP8fSHefE_Ig_nXOaMD7ccTI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3397,
+      "modified": "2026-08-16T03:36:35.000Z",
+      "checksum": "1d28d51e3149f311bfc323fcda2b0383",
+      "folder": false
+    },
+    {
+      "id": "1jjWf2oJShHDJrNo8vDgXjQV8h5gsiBkF",
+      "parent_id": "1tZAZ2QGrlP8fSHefE_Ig_nXOaMD7ccTI",
+      "name": "MỘNG XƯA THÀNH CŨ.epub",
+      "mime": "application/epub+zip",
+      "size": 563215,
+      "modified": "2026-08-16T03:36:41.000Z",
+      "checksum": "32208a124d2ad5b2eccd9f637f856691",
+      "folder": false
+    },
+    {
+      "id": "1cm3D0K6BOPe__LLIHWAzXyD-BW4Fx7ed",
+      "parent_id": "1tZAZ2QGrlP8fSHefE_Ig_nXOaMD7ccTI",
+      "name": "MỘNG XƯA THÀNH CŨ.pdf",
+      "mime": "application/pdf",
+      "size": 1389125,
+      "modified": "2026-08-16T03:36:39.000Z",
+      "checksum": "0ef770bbcdca532510e0da8a5ece8efb",
+      "folder": false
+    }
+  ]
+}

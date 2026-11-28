@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TPzd8YXB1cfSFmgpKoSP5M3h0Z6W_U08",
+  "page": 1,
+  "items": [
+    {
+      "id": "1w8Kiy4iW-7hY1NBUD7feJnhAplgYxop7",
+      "parent_id": "1TPzd8YXB1cfSFmgpKoSP5M3h0Z6W_U08",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12642,
+      "modified": "2026-08-16T03:13:01.000Z",
+      "checksum": "433aa0e58d06266a80a3190de7ee56d2",
+      "folder": false
+    },
+    {
+      "id": "15ZQLGKik2UUjOycf9Aiu-OlZQpVsbfNu",
+      "parent_id": "1TPzd8YXB1cfSFmgpKoSP5M3h0Z6W_U08",
+      "name": "HOA LINH LAN.epub",
+      "mime": "application/epub+zip",
+      "size": 562069,
+      "modified": "2026-08-16T03:13:06.000Z",
+      "checksum": "55ef7a9b69e3e172c1a067703fc578e0",
+      "folder": false
+    },
+    {
+      "id": "1IPGM2AqdQk7Q3RfvxBIBPv-4dUFD38Vx",
+      "parent_id": "1TPzd8YXB1cfSFmgpKoSP5M3h0Z6W_U08",
+      "name": "HOA LINH LAN.pdf",
+      "mime": "application/pdf",
+      "size": 399710,
+      "modified": "2026-08-16T03:13:04.000Z",
+      "checksum": "ff51b16fcb53db6491af4ba91a3d350d",
+      "folder": false
+    }
+  ]
+}

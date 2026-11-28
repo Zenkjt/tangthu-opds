@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UyqYwLHyftURNMQuhs76jixueFE9iTeS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1q_bYWwOMaMyMbMlKw3jmCETjLf7m00uK",
+      "parent_id": "1UyqYwLHyftURNMQuhs76jixueFE9iTeS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3368,
+      "modified": "2026-08-16T03:57:23.000Z",
+      "checksum": "1faadda97a45bfcb34a01f5f735baf2f",
+      "folder": false
+    },
+    {
+      "id": "1oXU_dVH09VQlkC3_p6A6DdsJ4c0zU2xZ",
+      "parent_id": "1UyqYwLHyftURNMQuhs76jixueFE9iTeS",
+      "name": "THIẾU NỮ TOÀN PHONG.epub",
+      "mime": "application/epub+zip",
+      "size": 3363617,
+      "modified": "2026-08-16T03:57:34.000Z",
+      "checksum": "3ae241acf9da02e3fdf25d9e4b62ecd6",
+      "folder": false
+    },
+    {
+      "id": "1GAM6yy1i3P6POCXD0Vn1mmQb26VYJsgQ",
+      "parent_id": "1UyqYwLHyftURNMQuhs76jixueFE9iTeS",
+      "name": "THIẾU NỮ TOÀN PHONG.pdf",
+      "mime": "application/pdf",
+      "size": 2800732,
+      "modified": "2026-08-16T03:57:29.000Z",
+      "checksum": "d2a946b5be4f4772b52d9291965c0ad5",
+      "folder": false
+    }
+  ]
+}

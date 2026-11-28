@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1S_p8IK7g0fngqzem60lONEnTBqHxfBu0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Mmj4-Dq8JyggqggXSLGVIf55FbfiIC8r",
+      "parent_id": "1S_p8IK7g0fngqzem60lONEnTBqHxfBu0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 695,
+      "modified": "2026-08-15T10:56:24.000Z",
+      "checksum": "a90240af4cd13f8d0066f0c9fcb76849",
+      "folder": false
+    },
+    {
+      "id": "1-Ka5RBOZtHzqF9cKDT6C21wUASMbJsIP",
+      "parent_id": "1S_p8IK7g0fngqzem60lONEnTBqHxfBu0",
+      "name": "HOÀNG KIM ÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 1829255,
+      "modified": "2026-08-15T10:56:31.000Z",
+      "checksum": "0554317dc7479108c3e5bf741f645fc3",
+      "folder": false
+    },
+    {
+      "id": "17FMlR6oxZ9osSmn58tFzoyG8aSLXHUVF",
+      "parent_id": "1S_p8IK7g0fngqzem60lONEnTBqHxfBu0",
+      "name": "HOÀNG KIM ÁN.pdf",
+      "mime": "application/pdf",
+      "size": 1914303,
+      "modified": "2026-08-15T10:56:28.000Z",
+      "checksum": "db49a238bb2641d995baa944e7efb6be",
+      "folder": false
+    }
+  ]
+}

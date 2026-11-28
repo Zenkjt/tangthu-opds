@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1i96vQEv9QNlUxTWqdWp3A-QOvT0Arfcp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1M_pobbRA8-COlFkmTajARJhMZzSktX_O",
+      "parent_id": "1i96vQEv9QNlUxTWqdWp3A-QOvT0Arfcp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1396,
+      "modified": "2026-08-16T03:08:49.000Z",
+      "checksum": "6ae7b63b8944252fc8e0d9dae75a4d98",
+      "folder": false
+    },
+    {
+      "id": "16h30QEutl_cme1MAcqL1PPlYYfmgBI7g",
+      "parent_id": "1i96vQEv9QNlUxTWqdWp3A-QOvT0Arfcp",
+      "name": "NẾU ĐỜI ANH VẮNG EM.epub",
+      "mime": "application/epub+zip",
+      "size": 602670,
+      "modified": "2026-08-16T03:08:57.000Z",
+      "checksum": "38f93901801d3ed7638af5523085e3a5",
+      "folder": false
+    },
+    {
+      "id": "1qZxexnUD9uPlxHmyP7b-zXSNk1yKUyNu",
+      "parent_id": "1i96vQEv9QNlUxTWqdWp3A-QOvT0Arfcp",
+      "name": "NẾU ĐỜI ANH VẮNG EM.pdf",
+      "mime": "application/pdf",
+      "size": 986924,
+      "modified": "2026-08-16T03:08:54.000Z",
+      "checksum": "916f753a59bb5f45a37d5ff96e6fc082",
+      "folder": false
+    }
+  ]
+}

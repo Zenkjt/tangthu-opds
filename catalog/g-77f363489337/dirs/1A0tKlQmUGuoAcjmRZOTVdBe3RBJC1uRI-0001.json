@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1A0tKlQmUGuoAcjmRZOTVdBe3RBJC1uRI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bIk2R-wWcIbPsmB4DwkgzKQTqmjCadJz",
+      "parent_id": "1A0tKlQmUGuoAcjmRZOTVdBe3RBJC1uRI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2874,
+      "modified": "2026-08-15T08:14:59.000Z",
+      "checksum": "e9af27c3fb9d0c0987a21ecba1a2f553",
+      "folder": false
+    },
+    {
+      "id": "1y9R3oDb_7Uazi5F_gPo4LadGNl-MrCYS",
+      "parent_id": "1A0tKlQmUGuoAcjmRZOTVdBe3RBJC1uRI",
+      "name": "MIẾNG NGON HÀ NỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 867389,
+      "modified": "2026-08-15T08:15:05.000Z",
+      "checksum": "03643b83cd9728d6b559c489d5947114",
+      "folder": false
+    },
+    {
+      "id": "1MBsUWu1jcz9sAPLOcBlOse8WjWYgIZHf",
+      "parent_id": "1A0tKlQmUGuoAcjmRZOTVdBe3RBJC1uRI",
+      "name": "MIẾNG NGON HÀ NỘI.pdf",
+      "mime": "application/pdf",
+      "size": 578805,
+      "modified": "2026-08-15T08:15:02.000Z",
+      "checksum": "f45dab1bbd5523ca9b4287f62789737a",
+      "folder": false
+    }
+  ]
+}

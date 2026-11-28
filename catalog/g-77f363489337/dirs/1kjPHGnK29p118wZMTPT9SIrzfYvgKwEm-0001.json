@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kjPHGnK29p118wZMTPT9SIrzfYvgKwEm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1o9mtW6E2Apqtb_FpnGcBtgSKVJg26SBM",
+      "parent_id": "1kjPHGnK29p118wZMTPT9SIrzfYvgKwEm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8552,
+      "modified": "2026-08-16T03:07:27.000Z",
+      "checksum": "c4efbc50bc3bcab7e14b9160edeac3d1",
+      "folder": false
+    },
+    {
+      "id": "1l5IfEju4A4RvseEkDhQf2D5aebCuHuul",
+      "parent_id": "1kjPHGnK29p118wZMTPT9SIrzfYvgKwEm",
+      "name": "YÊU EM TỪ GIỌNG NÓI.epub",
+      "mime": "application/epub+zip",
+      "size": 557671,
+      "modified": "2026-08-16T03:07:35.000Z",
+      "checksum": "c3739b4052c6dc900490e3394021e7f7",
+      "folder": false
+    },
+    {
+      "id": "1MLKqdo8zP_VweM2WLybNB0wePaKaJn3U",
+      "parent_id": "1kjPHGnK29p118wZMTPT9SIrzfYvgKwEm",
+      "name": "YÊU EM TỪ GIỌNG NÓI.pdf",
+      "mime": "application/pdf",
+      "size": 1356457,
+      "modified": "2026-08-16T03:07:32.000Z",
+      "checksum": "5e69897e395e766bccc9959a97e915c4",
+      "folder": false
+    }
+  ]
+}

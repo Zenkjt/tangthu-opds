@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TOMhFl-YTZFKZknVjqGwEWcfLmpuBqQK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IWaOdC22pHhb9HaxQPlz_rlg_jETHm-g",
+      "parent_id": "1TOMhFl-YTZFKZknVjqGwEWcfLmpuBqQK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3248,
+      "modified": "2026-08-16T04:01:07.000Z",
+      "checksum": "a41edf0f8b8ecb12479477cbf64b5e86",
+      "folder": false
+    },
+    {
+      "id": "1hWghFTNb8bDesP30QtCa3Qj89kWCACns",
+      "parent_id": "1TOMhFl-YTZFKZknVjqGwEWcfLmpuBqQK",
+      "name": "TỂ TƯỚNG LƯU GÙ.epub",
+      "mime": "application/epub+zip",
+      "size": 687175,
+      "modified": "2026-08-16T04:01:14.000Z",
+      "checksum": "f9df03e4f6b7fd9c9af02373d9b8ff85",
+      "folder": false
+    },
+    {
+      "id": "1ExymHUes8oZ2rMKD7FMUtAOt8C3d1ttq",
+      "parent_id": "1TOMhFl-YTZFKZknVjqGwEWcfLmpuBqQK",
+      "name": "TỂ TƯỚNG LƯU GÙ.pdf",
+      "mime": "application/pdf",
+      "size": 1630217,
+      "modified": "2026-08-16T04:01:11.000Z",
+      "checksum": "207dbbed383249f222a6e29e59ce52ea",
+      "folder": false
+    }
+  ]
+}

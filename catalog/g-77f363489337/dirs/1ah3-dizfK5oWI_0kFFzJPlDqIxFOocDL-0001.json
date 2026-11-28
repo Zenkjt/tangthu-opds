@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ah3-dizfK5oWI_0kFFzJPlDqIxFOocDL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uXsjKpHMl6EI-8AW57QuAHnaDbF7vz5m",
+      "parent_id": "1ah3-dizfK5oWI_0kFFzJPlDqIxFOocDL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1691,
+      "modified": "2026-08-15T09:22:08.000Z",
+      "checksum": "102df5b8cf40aba0a72cae19dea0641e",
+      "folder": false
+    },
+    {
+      "id": "1Pdrv8a2RREoKd7uPYILyKPjntrBIqmvM",
+      "parent_id": "1ah3-dizfK5oWI_0kFFzJPlDqIxFOocDL",
+      "name": "MA NỮ ĐA TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 1061247,
+      "modified": "2026-08-15T09:22:29.000Z",
+      "checksum": "b0d446f6fd39528c16a6762ac6cc3f07",
+      "folder": false
+    },
+    {
+      "id": "1ute0SHiZ0CB9ItH0vTTAXpehljZaTuxO",
+      "parent_id": "1ah3-dizfK5oWI_0kFFzJPlDqIxFOocDL",
+      "name": "MA NỮ ĐA TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 3221125,
+      "modified": "2026-08-15T09:22:26.000Z",
+      "checksum": "144b8ba6280009a67c264eb17829dad5",
+      "folder": false
+    }
+  ]
+}

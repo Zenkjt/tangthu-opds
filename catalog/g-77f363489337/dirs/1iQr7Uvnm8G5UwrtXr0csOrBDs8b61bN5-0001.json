@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iQr7Uvnm8G5UwrtXr0csOrBDs8b61bN5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gqLF7gIalxX007XKN9oSV8unsAXXwGfD",
+      "parent_id": "1iQr7Uvnm8G5UwrtXr0csOrBDs8b61bN5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3207,
+      "modified": "2026-08-16T04:02:34.000Z",
+      "checksum": "bb7b240f3de1afadc45c3167be25ebd6",
+      "folder": false
+    },
+    {
+      "id": "1RcDsS_i9gG7XmrxIYnRsw4ms2CxGmWek",
+      "parent_id": "1iQr7Uvnm8G5UwrtXr0csOrBDs8b61bN5",
+      "name": "SỬ THƯỢNG ĐỆ NHẤT YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 1048253,
+      "modified": "2026-08-16T04:02:45.000Z",
+      "checksum": "cd9cb6f57eed6ed22ababa6cee0298d3",
+      "folder": false
+    },
+    {
+      "id": "1HdYgb-Zat8SEvfiCF4PJsaDDozTY67Xd",
+      "parent_id": "1iQr7Uvnm8G5UwrtXr0csOrBDs8b61bN5",
+      "name": "SỬ THƯỢNG ĐỆ NHẤT YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 2994994,
+      "modified": "2026-08-16T04:02:42.000Z",
+      "checksum": "8500c3cf5233b0cafde0119a96cc951a",
+      "folder": false
+    }
+  ]
+}

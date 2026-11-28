@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19IPXKjJh0S6d8mTza531wsvd9fen3VwC",
+  "page": 1,
+  "items": [
+    {
+      "id": "12QbvCrtoEBLVrTATLrzcmg22OVENSJ9a",
+      "parent_id": "19IPXKjJh0S6d8mTza531wsvd9fen3VwC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9139,
+      "modified": "2026-08-16T03:06:22.000Z",
+      "checksum": "304ed64cec5d1805e6f30d872dc0ff82",
+      "folder": false
+    },
+    {
+      "id": "1Gz2qFj3nq14LJVL-afDiga11xIke2XZR",
+      "parent_id": "19IPXKjJh0S6d8mTza531wsvd9fen3VwC",
+      "name": "VUA MÈO.epub",
+      "mime": "application/epub+zip",
+      "size": 680654,
+      "modified": "2026-08-16T03:06:28.000Z",
+      "checksum": "7bd034b08dca4169a48b8f2e7a641d20",
+      "folder": false
+    },
+    {
+      "id": "1FtwgfyFO9QM8tM79_OF713_Dwdhs3uwj",
+      "parent_id": "19IPXKjJh0S6d8mTza531wsvd9fen3VwC",
+      "name": "VUA MÈO.pdf",
+      "mime": "application/pdf",
+      "size": 535380,
+      "modified": "2026-08-16T03:06:25.000Z",
+      "checksum": "988c07cfee41a200cc57c00b3e2e72f6",
+      "folder": false
+    }
+  ]
+}

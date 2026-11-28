@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UEGoM6k4dBy_11tzwHoFarn7IdJMrvhx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SQ0vMCtCoyMrhG65QGN6gM2xW4ibm5fp",
+      "parent_id": "1UEGoM6k4dBy_11tzwHoFarn7IdJMrvhx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3070,
+      "modified": "2026-08-15T10:08:49.000Z",
+      "checksum": "1b792884099e1ddc96adad7d91526da4",
+      "folder": false
+    },
+    {
+      "id": "1E0PCcrRwW75gxaXbp24Q5Vp_G2yNkgMi",
+      "parent_id": "1UEGoM6k4dBy_11tzwHoFarn7IdJMrvhx",
+      "name": "TÌNH HẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 453770,
+      "modified": "2026-08-15T10:08:57.000Z",
+      "checksum": "21fe3697397a13c781f2785b33a859f5",
+      "folder": false
+    },
+    {
+      "id": "15IiOq_0tUixKbslLlS05szxeHI2rlz50",
+      "parent_id": "1UEGoM6k4dBy_11tzwHoFarn7IdJMrvhx",
+      "name": "TÌNH HẬN.pdf",
+      "mime": "application/pdf",
+      "size": 1308714,
+      "modified": "2026-08-15T10:08:54.000Z",
+      "checksum": "be3991285c99ec9c49bc4eb605bd452c",
+      "folder": false
+    }
+  ]
+}

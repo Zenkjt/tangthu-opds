@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1L5Hm5smml6kBGvUhDdeuozgXPZPpzutO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AAY0l9X3cP5n5-0nbx8BrHR44c--tlM_",
+      "parent_id": "1L5Hm5smml6kBGvUhDdeuozgXPZPpzutO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 447,
+      "modified": "2026-08-15T10:34:57.000Z",
+      "checksum": "914970dd1c9a440e611c3604b3bda7b1",
+      "folder": false
+    },
+    {
+      "id": "19njnbdIpxFQI1JuV-bJGLd4BO7ZHFco5",
+      "parent_id": "1L5Hm5smml6kBGvUhDdeuozgXPZPpzutO",
+      "name": "NƯỚC MẮT ĐỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 415777,
+      "modified": "2026-08-15T10:35:05.000Z",
+      "checksum": "a249449caef885885e95727e655e158e",
+      "folder": false
+    },
+    {
+      "id": "1-zAH7UlFjdP9mWAaP7arBnK7_nVaRimJ",
+      "parent_id": "1L5Hm5smml6kBGvUhDdeuozgXPZPpzutO",
+      "name": "NƯỚC MẮT ĐỎ.pdf",
+      "mime": "application/pdf",
+      "size": 758067,
+      "modified": "2026-08-15T10:35:02.000Z",
+      "checksum": "a7be7d31eeaa18bea52f24630d899dce",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gYnueHDx3i5sbjHe1GZQXIeJA57sAe6i",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kgp7IdnQ-TpALUgcJXwVJGdbhKAAUcSP",
+      "parent_id": "1gYnueHDx3i5sbjHe1GZQXIeJA57sAe6i",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3215,
+      "modified": "2026-08-16T04:17:29.000Z",
+      "checksum": "58d2704ae3fc9f7f9892c0bdf4d3a48f",
+      "folder": false
+    },
+    {
+      "id": "1Cpxjn4RKY4SvICl9S0Kx3jybEygl44mb",
+      "parent_id": "1gYnueHDx3i5sbjHe1GZQXIeJA57sAe6i",
+      "name": "MỤ GHẺ.epub",
+      "mime": "application/epub+zip",
+      "size": 451762,
+      "modified": "2026-08-16T04:17:36.000Z",
+      "checksum": "dbf47abf1305393412ca79cff3cc0963",
+      "folder": false
+    },
+    {
+      "id": "1iIQbMS5N5Ndn9T7ywvscTptRZnWaCClp",
+      "parent_id": "1gYnueHDx3i5sbjHe1GZQXIeJA57sAe6i",
+      "name": "MỤ GHẺ.pdf",
+      "mime": "application/pdf",
+      "size": 404726,
+      "modified": "2026-08-16T04:17:33.000Z",
+      "checksum": "66b2583afb441aa54d03772b6febb981",
+      "folder": false
+    }
+  ]
+}

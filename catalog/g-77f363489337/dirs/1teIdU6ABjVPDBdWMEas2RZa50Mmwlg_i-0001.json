@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1teIdU6ABjVPDBdWMEas2RZa50Mmwlg_i",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AXx1gSubuQQKLcOVPqpZKNXuqYVC1w90",
+      "parent_id": "1teIdU6ABjVPDBdWMEas2RZa50Mmwlg_i",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3625,
+      "modified": "2026-08-15T10:12:56.000Z",
+      "checksum": "7c12bf774453c176f98a518e6298817a",
+      "folder": false
+    },
+    {
+      "id": "11qUvSBDUz6uX0voqKquu-o8l2z5mU8Sr",
+      "parent_id": "1teIdU6ABjVPDBdWMEas2RZa50Mmwlg_i",
+      "name": "THỜI CỦA MỖI NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 374541,
+      "modified": "2026-08-15T10:13:05.000Z",
+      "checksum": "20b0172e031367e21f2ab139eeed0bff",
+      "folder": false
+    },
+    {
+      "id": "15A0M9VsarocZNASoLPN-fuWOpSgtCW2k",
+      "parent_id": "1teIdU6ABjVPDBdWMEas2RZa50Mmwlg_i",
+      "name": "THỜI CỦA MỖI NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 605279,
+      "modified": "2026-08-15T10:13:02.000Z",
+      "checksum": "3f11a18ce26252cf7be5c62758c76336",
+      "folder": false
+    }
+  ]
+}

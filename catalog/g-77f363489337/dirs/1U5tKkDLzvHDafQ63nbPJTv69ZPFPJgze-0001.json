@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1U5tKkDLzvHDafQ63nbPJTv69ZPFPJgze",
+  "page": 1,
+  "items": [
+    {
+      "id": "12As2kYq3BoJLbHZymcdAND3tEDuYJ_tS",
+      "parent_id": "1U5tKkDLzvHDafQ63nbPJTv69ZPFPJgze",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2500,
+      "modified": "2026-08-15T10:01:33.000Z",
+      "checksum": "e77c0f25e69a6629a331191363a65c18",
+      "folder": false
+    },
+    {
+      "id": "19499LzWoYwurSISt8n_8XQ6TNDOrT6xl",
+      "parent_id": "1U5tKkDLzvHDafQ63nbPJTv69ZPFPJgze",
+      "name": "THẦN NÔNG VÀ CHUYỆN TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 424832,
+      "modified": "2026-08-15T10:02:15.000Z",
+      "checksum": "1691913ccc9f8b1c15f4ca5b50031cd3",
+      "folder": false
+    },
+    {
+      "id": "17NPmIzTsQjQYfkpsFAZRlFHrXObZMm5D",
+      "parent_id": "1U5tKkDLzvHDafQ63nbPJTv69ZPFPJgze",
+      "name": "THẦN NÔNG VÀ CHUYỆN TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1392771,
+      "modified": "2026-08-15T10:02:09.000Z",
+      "checksum": "c98fe655037f9746a8e85d22381684c9",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lfc3jXDUsKx-xa74vPKme_uRxLci_sQu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Y-13D_ah4ZF0sB1rSmbZN1lD3u4i6m9z",
+      "parent_id": "1lfc3jXDUsKx-xa74vPKme_uRxLci_sQu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4871,
+      "modified": "2026-08-16T03:07:26.000Z",
+      "checksum": "b0b29498f0379fdf56ae572598a03a82",
+      "folder": false
+    },
+    {
+      "id": "17DOiz7y8Sr5PR71mWvSNptNtlSrYuLr3",
+      "parent_id": "1lfc3jXDUsKx-xa74vPKme_uRxLci_sQu",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN YASUNARI KAWABATA.epub",
+      "mime": "application/epub+zip",
+      "size": 851603,
+      "modified": "2026-08-16T03:07:33.000Z",
+      "checksum": "ae4751484a7b9dc552c587b8ffcdcda2",
+      "folder": false
+    },
+    {
+      "id": "12Z5V5nAzkd0KlsBkATCYgTsXA9ZL0cQT",
+      "parent_id": "1lfc3jXDUsKx-xa74vPKme_uRxLci_sQu",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN YASUNARI KAWABATA.pdf",
+      "mime": "application/pdf",
+      "size": 832445,
+      "modified": "2026-08-16T03:07:31.000Z",
+      "checksum": "3a20a23c33a7edcd4120443fb8397efa",
+      "folder": false
+    }
+  ]
+}

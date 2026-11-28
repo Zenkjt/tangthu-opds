@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HMKej7XbJt7Bst0PwlJwbX8WiMFmhXAn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1w6Tnu16qPKBMBpgtMdIWeboCS50yaRxn",
+      "parent_id": "1HMKej7XbJt7Bst0PwlJwbX8WiMFmhXAn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1640,
+      "modified": "2026-08-15T05:47:06.000Z",
+      "checksum": "1ff8ab614a59fe07168c8d63df9950f8",
+      "folder": false
+    },
+    {
+      "id": "10CCKVj7d_CULw58K154NHAINUt75ibqZ",
+      "parent_id": "1HMKej7XbJt7Bst0PwlJwbX8WiMFmhXAn",
+      "name": "KHOA HỌC - NGHỊCH LÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 350720,
+      "modified": "2026-08-15T05:47:12.000Z",
+      "checksum": "1aca803be71e99fc0b110c98f231a007",
+      "folder": false
+    },
+    {
+      "id": "13L18wLGtf5Nx63DPXa8B_9W1ulUcXZZS",
+      "parent_id": "1HMKej7XbJt7Bst0PwlJwbX8WiMFmhXAn",
+      "name": "KHOA HỌC - NGHỊCH LÝ.pdf",
+      "mime": "application/pdf",
+      "size": 663282,
+      "modified": "2026-08-15T05:47:09.000Z",
+      "checksum": "d3219c4e5e94929eae8a3cfabeee60ad",
+      "folder": false
+    }
+  ]
+}

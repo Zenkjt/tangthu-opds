@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16_cZLfRYS7aFqsFbHeh3PJX_753azoPM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TiUbwuuj38UoRth3TV_YSAGlw4-rqDee",
+      "parent_id": "16_cZLfRYS7aFqsFbHeh3PJX_753azoPM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3331,
+      "modified": "2026-08-15T17:04:57.000Z",
+      "checksum": "8148d15f9d717dcef9f8473c157d3dfd",
+      "folder": false
+    },
+    {
+      "id": "10lmamrk5soaTxjNPRLh0ZH57K0ZHFGBT",
+      "parent_id": "16_cZLfRYS7aFqsFbHeh3PJX_753azoPM",
+      "name": "NAM THÊ CỦA TỂ TƯỚNG.epub",
+      "mime": "application/epub+zip",
+      "size": 706681,
+      "modified": "2026-08-15T17:05:06.000Z",
+      "checksum": "113630ff7a99e9346bd775cb0b0efbe9",
+      "folder": false
+    },
+    {
+      "id": "14A2CUOjmz98mONN9rWLdqFXsGs2-363J",
+      "parent_id": "16_cZLfRYS7aFqsFbHeh3PJX_753azoPM",
+      "name": "NAM THÊ CỦA TỂ TƯỚNG.pdf",
+      "mime": "application/pdf",
+      "size": 2205395,
+      "modified": "2026-08-15T17:05:03.000Z",
+      "checksum": "d0869d9b842740ce0a9ec0be39710394",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KoJ1G20Nkr3O--9G0gE5ugxvItSkzNmX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EZjgwraoQJyr60U43PNKJLsYxSMs2JhT",
+      "parent_id": "1KoJ1G20Nkr3O--9G0gE5ugxvItSkzNmX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6187,
+      "modified": "2026-08-15T04:02:08.000Z",
+      "checksum": "cc1dc0f6cc76486466117032c6e954e4",
+      "folder": false
+    },
+    {
+      "id": "11EYhmJ3NHbV9foqwdbwM5TLg44n9rJn2",
+      "parent_id": "1KoJ1G20Nkr3O--9G0gE5ugxvItSkzNmX",
+      "name": "LUẬT HẤP DẪN.epub",
+      "mime": "application/epub+zip",
+      "size": 260418,
+      "modified": "2026-08-15T04:02:15.000Z",
+      "checksum": "5c189f5e348184b10d689d86bb470904",
+      "folder": false
+    },
+    {
+      "id": "1BanroRjOLNrwex0rXXb7C8LDEtD7IA2O",
+      "parent_id": "1KoJ1G20Nkr3O--9G0gE5ugxvItSkzNmX",
+      "name": "LUẬT HẤP DẪN.pdf",
+      "mime": "application/pdf",
+      "size": 1209290,
+      "modified": "2026-08-15T04:02:13.000Z",
+      "checksum": "aa08b471060df429c3bcb563e1f31178",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1h4dQT742XY77ciKwFxanlx7yfNA_rWDp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zNgHmoqSIfxK4jRqx8eeA9auGeICU7Vg",
+      "parent_id": "1h4dQT742XY77ciKwFxanlx7yfNA_rWDp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6066,
+      "modified": "2026-08-15T07:38:32.000Z",
+      "checksum": "b28b4d0b2e030f2833487e577036ec71",
+      "folder": false
+    },
+    {
+      "id": "115Ie8LBb8s5SsMfUYb_uw6rUWl2M95dr",
+      "parent_id": "1h4dQT742XY77ciKwFxanlx7yfNA_rWDp",
+      "name": "THEO GIÒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 375260,
+      "modified": "2026-08-15T07:38:38.000Z",
+      "checksum": "9a664ffa3642eee9d55f0996a9597d66",
+      "folder": false
+    },
+    {
+      "id": "1mrep1BOMnS7wxTdKZdLhKTDZ2nMhIHDn",
+      "parent_id": "1h4dQT742XY77ciKwFxanlx7yfNA_rWDp",
+      "name": "THEO GIÒNG.pdf",
+      "mime": "application/pdf",
+      "size": 391482,
+      "modified": "2026-08-15T07:38:35.000Z",
+      "checksum": "b507ed8318bd8f128db0aeffdd24b8a4",
+      "folder": false
+    }
+  ]
+}

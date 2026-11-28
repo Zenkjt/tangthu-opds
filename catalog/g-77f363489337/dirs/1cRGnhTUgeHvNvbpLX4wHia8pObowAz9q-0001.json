@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cRGnhTUgeHvNvbpLX4wHia8pObowAz9q",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oZIG7SdULrFJPKDmfhd05wqmAmoxJXIg",
+      "parent_id": "1cRGnhTUgeHvNvbpLX4wHia8pObowAz9q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1855,
+      "modified": "2026-08-16T03:16:57.000Z",
+      "checksum": "e9611abe03b98b951ac0373d357deaf8",
+      "folder": false
+    },
+    {
+      "id": "1JUV-NP0bgIX5cQsi_W4O85n0hn6A2LrM",
+      "parent_id": "1cRGnhTUgeHvNvbpLX4wHia8pObowAz9q",
+      "name": "HÃY CỨU EM.epub",
+      "mime": "application/epub+zip",
+      "size": 1116284,
+      "modified": "2026-08-16T03:17:05.000Z",
+      "checksum": "08b24b8f3ad9ce20718a430aa545951b",
+      "folder": false
+    },
+    {
+      "id": "1wg6Na4jPVau851NMk62a5vZXTBQW5etw",
+      "parent_id": "1cRGnhTUgeHvNvbpLX4wHia8pObowAz9q",
+      "name": "HÃY CỨU EM.pdf",
+      "mime": "application/pdf",
+      "size": 977820,
+      "modified": "2026-08-16T03:17:02.000Z",
+      "checksum": "08fc3c9299cca1e59b4c065823d814c8",
+      "folder": false
+    }
+  ]
+}

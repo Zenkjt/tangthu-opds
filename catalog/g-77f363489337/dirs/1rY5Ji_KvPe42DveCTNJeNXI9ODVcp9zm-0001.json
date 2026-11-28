@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rY5Ji_KvPe42DveCTNJeNXI9ODVcp9zm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KTpZXcVyR_RjJzYoKcwQRSQjudxDQ9O1",
+      "parent_id": "1rY5Ji_KvPe42DveCTNJeNXI9ODVcp9zm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1079,
+      "modified": "2026-08-15T00:50:22.000Z",
+      "checksum": "12a5ff531d33c9d02fce445bc5881fc1",
+      "folder": false
+    },
+    {
+      "id": "1B8Vxd_pxAp5DjuhHBO614NK2RXa0bL6V",
+      "parent_id": "1rY5Ji_KvPe42DveCTNJeNXI9ODVcp9zm",
+      "name": "THUẬT ĐẤU TRÍ CHÂU Á.epub",
+      "mime": "application/epub+zip",
+      "size": 653480,
+      "modified": "2026-08-15T00:50:28.000Z",
+      "checksum": "9ecf6c4f3a9a8683112eca4ee5963dc1",
+      "folder": false
+    },
+    {
+      "id": "1edVwHKTFC6q1lCD-GzIZjFMDSnMDHu48",
+      "parent_id": "1rY5Ji_KvPe42DveCTNJeNXI9ODVcp9zm",
+      "name": "THUẬT ĐẤU TRÍ CHÂU Á.pdf",
+      "mime": "application/pdf",
+      "size": 1830381,
+      "modified": "2026-08-15T00:50:26.000Z",
+      "checksum": "934464588972635c79b10272d22ba031",
+      "folder": false
+    }
+  ]
+}

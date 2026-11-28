@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mVelj_GpF59IAYt0c6-jw6p3gB0Ru3Ju",
+  "page": 1,
+  "items": [
+    {
+      "id": "1C0xdKeIuB5GQzi4bvuJooYGqau62ZuVK",
+      "parent_id": "1mVelj_GpF59IAYt0c6-jw6p3gB0Ru3Ju",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4929,
+      "modified": "2026-08-15T12:35:42.000Z",
+      "checksum": "eb6466dc98130486314fe57b9141426d",
+      "folder": false
+    },
+    {
+      "id": "1H-bMd1eegO8Bouo9QwipkhNSvUMYphSN",
+      "parent_id": "1mVelj_GpF59IAYt0c6-jw6p3gB0Ru3Ju",
+      "name": "TUỔI THƠ - TẬP 1.epub",
+      "mime": "application/epub+zip",
+      "size": 917215,
+      "modified": "2026-08-15T12:36:13.000Z",
+      "checksum": "e4788ba22378e31cd34be7c2a20bccfd",
+      "folder": false
+    },
+    {
+      "id": "1RE47H4v9bPK6mpGdWCEssil3N_wo3xlH",
+      "parent_id": "1mVelj_GpF59IAYt0c6-jw6p3gB0Ru3Ju",
+      "name": "TUỔI THƠ - TẬP 1.pdf",
+      "mime": "application/pdf",
+      "size": 1081326,
+      "modified": "2026-08-15T12:36:05.000Z",
+      "checksum": "1780cba08573279abe143a37880d9729",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dxYEpj6NaChNRoqW2OFDBl9QAS9G1tkv",
+  "page": 1,
+  "items": [
+    {
+      "id": "14JdzTCcUO0c8aNYmNR8DjR5K6Usmg43h",
+      "parent_id": "1dxYEpj6NaChNRoqW2OFDBl9QAS9G1tkv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3250,
+      "modified": "2026-08-15T03:58:18.000Z",
+      "checksum": "5fd45c800fc67593bf764244bfcae1f4",
+      "folder": false
+    },
+    {
+      "id": "1_wQcfxgh2jCsluKNSE96ESuIFVwTVElq",
+      "parent_id": "1dxYEpj6NaChNRoqW2OFDBl9QAS9G1tkv",
+      "name": "SỰ HIỂN LỘ CỦA THÁNH ĐOÀN.epub",
+      "mime": "application/epub+zip",
+      "size": 495338,
+      "modified": "2026-08-15T03:58:28.000Z",
+      "checksum": "8283b65546b713eec7a44cfb14078109",
+      "folder": false
+    },
+    {
+      "id": "1KwVKyildgqn5QFlExFRVATdjnLYjbt22",
+      "parent_id": "1dxYEpj6NaChNRoqW2OFDBl9QAS9G1tkv",
+      "name": "SỰ HIỂN LỘ CỦA THÁNH ĐOÀN.pdf",
+      "mime": "application/pdf",
+      "size": 2678968,
+      "modified": "2026-08-15T03:58:25.000Z",
+      "checksum": "36bb72ef125e029eeb20bf381f2b999d",
+      "folder": false
+    }
+  ]
+}

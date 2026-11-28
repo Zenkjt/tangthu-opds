@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1p2BryccjoGMiySLpxipiNFt52gwLZUIU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VCBT-ymwOJY5vKkOrMQeb2iJgm-vh1Cp",
+      "parent_id": "1p2BryccjoGMiySLpxipiNFt52gwLZUIU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4296,
+      "modified": "2026-08-16T03:07:03.000Z",
+      "checksum": "12c0a9ab31e98840e85b7912657c3b17",
+      "folder": false
+    },
+    {
+      "id": "1q4HSs65t6ij39ewlzjAUiTw5c2zcZ0NP",
+      "parent_id": "1p2BryccjoGMiySLpxipiNFt52gwLZUIU",
+      "name": "XIN CHÀO, NGÀY XƯA ẤY.epub",
+      "mime": "application/epub+zip",
+      "size": 979185,
+      "modified": "2026-08-16T03:07:12.000Z",
+      "checksum": "e75cc7bf67210fede9969a4a6858a619",
+      "folder": false
+    },
+    {
+      "id": "11MWthviU6oq3UJ7yyl8yDXFBzjtYP8q_",
+      "parent_id": "1p2BryccjoGMiySLpxipiNFt52gwLZUIU",
+      "name": "XIN CHÀO, NGÀY XƯA ẤY.pdf",
+      "mime": "application/pdf",
+      "size": 3406050,
+      "modified": "2026-08-16T03:07:09.000Z",
+      "checksum": "87b0586037b53cf7031fce3ff65d0ca7",
+      "folder": false
+    }
+  ]
+}

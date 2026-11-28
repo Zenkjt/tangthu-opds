@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RDGaDu8L75AbfxSRwxKv3pn6lkmtOasd",
+  "page": 1,
+  "items": [
+    {
+      "id": "15SynpZwQv-C2daXZzpuPeG4Z61Ss3IKc",
+      "parent_id": "1RDGaDu8L75AbfxSRwxKv3pn6lkmtOasd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2848,
+      "modified": "2026-08-15T11:30:29.000Z",
+      "checksum": "e8b3fc6a899b51f8a797615ae6feee19",
+      "folder": false
+    },
+    {
+      "id": "1SrntMav5YPof4TwUVv7tykCKwl48r5VN",
+      "parent_id": "1RDGaDu8L75AbfxSRwxKv3pn6lkmtOasd",
+      "name": "LƯỢC SỬ BÁO CHÍ VIỆT NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 509107,
+      "modified": "2026-08-15T11:30:35.000Z",
+      "checksum": "eeed719abcc149aac8e7d8b36540d427",
+      "folder": false
+    },
+    {
+      "id": "13ieJCdbbeKwgtMuevYaT51dM99qg7N6F",
+      "parent_id": "1RDGaDu8L75AbfxSRwxKv3pn6lkmtOasd",
+      "name": "LƯỢC SỬ BÁO CHÍ VIỆT NAM.pdf",
+      "mime": "application/pdf",
+      "size": 706005,
+      "modified": "2026-08-15T11:30:32.000Z",
+      "checksum": "d60e9c89dc6a694bc0545cbfe07ed688",
+      "folder": false
+    }
+  ]
+}

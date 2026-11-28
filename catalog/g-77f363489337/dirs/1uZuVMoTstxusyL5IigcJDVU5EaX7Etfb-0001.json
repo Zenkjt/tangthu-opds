@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uZuVMoTstxusyL5IigcJDVU5EaX7Etfb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sN8We74uQ3RuEyJjiJt-7MFS8Ny752lL",
+      "parent_id": "1uZuVMoTstxusyL5IigcJDVU5EaX7Etfb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 904,
+      "modified": "2026-08-15T03:59:08.000Z",
+      "checksum": "bf0dc12429be00dc752e7a77444dcb63",
+      "folder": false
+    },
+    {
+      "id": "1Hi5FAx8d49pZXxEqoq8aZxxFHp1oSCF7",
+      "parent_id": "1uZuVMoTstxusyL5IigcJDVU5EaX7Etfb",
+      "name": "KHÔNG NÊN ĐÁNH MẤT TÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 229738,
+      "modified": "2026-08-15T03:59:14.000Z",
+      "checksum": "425e9d5141d533b886f736ed09ecac2c",
+      "folder": false
+    },
+    {
+      "id": "1D0_TlPLkxnt4wQY952mMQ4WWhWD2FfD3",
+      "parent_id": "1uZuVMoTstxusyL5IigcJDVU5EaX7Etfb",
+      "name": "KHÔNG NÊN ĐÁNH MẤT TÂM.pdf",
+      "mime": "application/pdf",
+      "size": 708199,
+      "modified": "2026-08-15T03:59:12.000Z",
+      "checksum": "ccc2658790d877bb72d900c08cc707d0",
+      "folder": false
+    }
+  ]
+}

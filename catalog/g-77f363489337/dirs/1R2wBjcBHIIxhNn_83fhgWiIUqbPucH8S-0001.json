@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1R2wBjcBHIIxhNn_83fhgWiIUqbPucH8S",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hMauW0_ZfRqu6WOMbmV6vrHBlXBYCUQG",
+      "parent_id": "1R2wBjcBHIIxhNn_83fhgWiIUqbPucH8S",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10453,
+      "modified": "2026-08-16T03:30:59.000Z",
+      "checksum": "46808cc04fc7d9115fb2c88d3a539321",
+      "folder": false
+    },
+    {
+      "id": "13NiuOFHdKPUQ93b429yLYuSguNquxB4g",
+      "parent_id": "1R2wBjcBHIIxhNn_83fhgWiIUqbPucH8S",
+      "name": "NGƯỜI ĐÀN ÔNG MANG TÊN OVE.epub",
+      "mime": "application/epub+zip",
+      "size": 650577,
+      "modified": "2026-08-16T03:31:06.000Z",
+      "checksum": "ef726776de3e6bf738251ab033eb63a7",
+      "folder": false
+    },
+    {
+      "id": "1Nhn5Z06z-eoLbeWG2dvbRgY1fJdJjUjR",
+      "parent_id": "1R2wBjcBHIIxhNn_83fhgWiIUqbPucH8S",
+      "name": "NGƯỜI ĐÀN ÔNG MANG TÊN OVE.pdf",
+      "mime": "application/pdf",
+      "size": 1201079,
+      "modified": "2026-08-16T03:31:03.000Z",
+      "checksum": "6eb88e089ef61e69c5ba5b96fc939bd5",
+      "folder": false
+    }
+  ]
+}

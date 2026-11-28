@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1btLVdIRiSe_r69BrQTBjkCFvvHbiSvyJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Xv6Bhh5Ju25-CrDiCmS6RSpJgje4niBh",
+      "parent_id": "1btLVdIRiSe_r69BrQTBjkCFvvHbiSvyJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2975,
+      "modified": "2026-08-15T10:16:14.000Z",
+      "checksum": "fe6bb9978689f01920f3728ae7edd044",
+      "folder": false
+    },
+    {
+      "id": "1VxPyruwzZ52X6uT9MvzCTXl4pKj08Vem",
+      "parent_id": "1btLVdIRiSe_r69BrQTBjkCFvvHbiSvyJ",
+      "name": "THANH XUÂN ĐỂ DÀNH - HIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 1496126,
+      "modified": "2026-08-15T10:16:22.000Z",
+      "checksum": "a159a33835d5c9066784c65f50f8fed2",
+      "folder": false
+    },
+    {
+      "id": "1XnT5NT4H0VGL56Q5l-cOdsaVeNSmZfzm",
+      "parent_id": "1btLVdIRiSe_r69BrQTBjkCFvvHbiSvyJ",
+      "name": "THANH XUÂN ĐỂ DÀNH - HIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 960913,
+      "modified": "2026-08-15T10:16:18.000Z",
+      "checksum": "a145f7f03dd058a6594d3d7bea22d852",
+      "folder": false
+    }
+  ]
+}

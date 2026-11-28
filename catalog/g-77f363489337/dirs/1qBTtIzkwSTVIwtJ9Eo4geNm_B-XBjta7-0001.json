@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qBTtIzkwSTVIwtJ9Eo4geNm_B-XBjta7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rPkiTm9aAqUUKrXlts2EgnH3zOVB283L",
+      "parent_id": "1qBTtIzkwSTVIwtJ9Eo4geNm_B-XBjta7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3100,
+      "modified": "2026-08-15T10:45:31.000Z",
+      "checksum": "fc050c1066582c7eb10c87a0303bbd8e",
+      "folder": false
+    },
+    {
+      "id": "1h8GAhjoPrprGgdSYKo3nEwDZ2IsgzR1a",
+      "parent_id": "1qBTtIzkwSTVIwtJ9Eo4geNm_B-XBjta7",
+      "name": "NGỰ THIÊN THẦN ĐẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 1635242,
+      "modified": "2026-08-15T10:45:45.000Z",
+      "checksum": "38beba670f88e234d9de236ba1cb5d97",
+      "folder": false
+    },
+    {
+      "id": "15hTiq9RyA8qI-VxagUP5IlT2iFdm1Oi2",
+      "parent_id": "1qBTtIzkwSTVIwtJ9Eo4geNm_B-XBjta7",
+      "name": "NGỰ THIÊN THẦN ĐẾ.pdf",
+      "mime": "application/pdf",
+      "size": 1388958,
+      "modified": "2026-08-15T10:45:39.000Z",
+      "checksum": "cffd73618ead28d0c360643b6badc18b",
+      "folder": false
+    }
+  ]
+}

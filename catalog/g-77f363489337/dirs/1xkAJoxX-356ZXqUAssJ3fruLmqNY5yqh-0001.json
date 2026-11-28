@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xkAJoxX-356ZXqUAssJ3fruLmqNY5yqh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OGReNTHG7fXc6uXjQHCYArC08SrpNgin",
+      "parent_id": "1xkAJoxX-356ZXqUAssJ3fruLmqNY5yqh",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 2984,
+      "modified": "2026-08-15T10:26:55.000Z",
+      "checksum": "87458692d02d9a6cd936f76185726530",
+      "folder": false
+    },
+    {
+      "id": "16R0Gn3fVK5d0eHKCNHeeKdnDL2ABowrq",
+      "parent_id": "1xkAJoxX-356ZXqUAssJ3fruLmqNY5yqh",
+      "name": "SIÊU CẤP YY HỆ THỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1813541,
+      "modified": "2026-08-15T10:27:13.000Z",
+      "checksum": "ec6e9602e63af1a574f3c82a1cb688fb",
+      "folder": false
+    },
+    {
+      "id": "1gfNdRLtw20nhYrlZ-gH46TzdJTk5cijB",
+      "parent_id": "1xkAJoxX-356ZXqUAssJ3fruLmqNY5yqh",
+      "name": "SIÊU CẤP YY HỆ THỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 7333628,
+      "modified": "2026-08-15T10:27:09.000Z",
+      "checksum": "f6ef6b5109b7df1184696381e753dd27",
+      "folder": false
+    }
+  ]
+}

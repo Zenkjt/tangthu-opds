@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JMMCrZRLeZFVMKH8zygw-6CQrrogOkHf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pV4Y8y3lfT7h3gYJP0cmcBs3p6ZK5__1",
+      "parent_id": "1JMMCrZRLeZFVMKH8zygw-6CQrrogOkHf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 595,
+      "modified": "2026-08-15T10:44:41.000Z",
+      "checksum": "20b01902955e0440849c426b416c4293",
+      "folder": false
+    },
+    {
+      "id": "1QqCY5pDyIHKcXPY299LLZbNDLbwAP17q",
+      "parent_id": "1JMMCrZRLeZFVMKH8zygw-6CQrrogOkHf",
+      "name": "NGƯỢC DÒNG THIÊN DI.epub",
+      "mime": "application/epub+zip",
+      "size": 363083,
+      "modified": "2026-08-15T10:45:05.000Z",
+      "checksum": "be403f066e212ed0e3905081df391ca2",
+      "folder": false
+    },
+    {
+      "id": "1lRtg2bwbDSSqFxdtwc87almlDcm2pcHs",
+      "parent_id": "1JMMCrZRLeZFVMKH8zygw-6CQrrogOkHf",
+      "name": "NGƯỢC DÒNG THIÊN DI.pdf",
+      "mime": "application/pdf",
+      "size": 623668,
+      "modified": "2026-08-15T10:44:55.000Z",
+      "checksum": "8ae2df2a58536edf8fee8e921373bec1",
+      "folder": false
+    }
+  ]
+}

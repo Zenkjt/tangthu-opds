@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jpI1WcT5ymvX3WWkhcIn5jChTIZqHN6e",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oRQ34cnh4jDoFC-JVJGSczJ7ZLxMTjOR",
+      "parent_id": "1jpI1WcT5ymvX3WWkhcIn5jChTIZqHN6e",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3593,
+      "modified": "2026-08-16T03:53:49.000Z",
+      "checksum": "d26aca369933d17f1ce32e7cd962ce8a",
+      "folder": false
+    },
+    {
+      "id": "1fH2bHj-Ozp0TnjOjUS3tfNm0NoKMvOlR",
+      "parent_id": "1jpI1WcT5ymvX3WWkhcIn5jChTIZqHN6e",
+      "name": "TÌNH YÊU ĐAU DẠ DÀY.epub",
+      "mime": "application/epub+zip",
+      "size": 1732998,
+      "modified": "2026-08-16T03:53:57.000Z",
+      "checksum": "9e0f5bb5f4ee5a7ef971b15c45b56553",
+      "folder": false
+    },
+    {
+      "id": "1p1LYmpX9pu0emMbOio-axRzAf96oZVJD",
+      "parent_id": "1jpI1WcT5ymvX3WWkhcIn5jChTIZqHN6e",
+      "name": "TÌNH YÊU ĐAU DẠ DÀY.pdf",
+      "mime": "application/pdf",
+      "size": 2387884,
+      "modified": "2026-08-16T03:53:54.000Z",
+      "checksum": "924bd9cc775eb2c594e20f79b81dee3d",
+      "folder": false
+    }
+  ]
+}

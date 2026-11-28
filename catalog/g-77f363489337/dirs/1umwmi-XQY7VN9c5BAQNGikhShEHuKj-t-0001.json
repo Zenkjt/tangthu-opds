@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1umwmi-XQY7VN9c5BAQNGikhShEHuKj-t",
+  "page": 1,
+  "items": [
+    {
+      "id": "12lMSf3D9G8wmRmeV_SOj2r-Jc7MEbpRD",
+      "parent_id": "1umwmi-XQY7VN9c5BAQNGikhShEHuKj-t",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 911,
+      "modified": "2026-08-15T15:39:04.000Z",
+      "checksum": "f9ddb3b8a7fd8f2fc8b7968149851123",
+      "folder": false
+    },
+    {
+      "id": "1jENwKxX2F3ugzikN5MsZVW8yf_P1Pfvb",
+      "parent_id": "1umwmi-XQY7VN9c5BAQNGikhShEHuKj-t",
+      "name": "NỮ THẦN BÁO OÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 389253,
+      "modified": "2026-08-15T15:39:21.000Z",
+      "checksum": "7711b56922b5bc7e8216335c3147f705",
+      "folder": false
+    },
+    {
+      "id": "1bn2hc97Aw40OOfgpQ2mGj6xdwGXQFMCO",
+      "parent_id": "1umwmi-XQY7VN9c5BAQNGikhShEHuKj-t",
+      "name": "NỮ THẦN BÁO OÁN.pdf",
+      "mime": "application/pdf",
+      "size": 514418,
+      "modified": "2026-08-15T15:39:16.000Z",
+      "checksum": "bde190de66a2b0f1af88dfff70d26469",
+      "folder": false
+    }
+  ]
+}

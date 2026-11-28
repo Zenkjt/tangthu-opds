@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TBR9TZzwfvnUNjSG0BwjYHCXMRJwekJd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vl2E13XaVt-hDKORxWHKpK6LRBR_xxwu",
+      "parent_id": "1TBR9TZzwfvnUNjSG0BwjYHCXMRJwekJd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 801,
+      "modified": "2026-08-16T03:55:08.000Z",
+      "checksum": "ffbe1fbab91b8d5341a3d626c3d07987",
+      "folder": false
+    },
+    {
+      "id": "1QgCql-4ukw8snCjHhHUT_wmGSSAR7CxU",
+      "parent_id": "1TBR9TZzwfvnUNjSG0BwjYHCXMRJwekJd",
+      "name": "TIỂU LONG NỮ.epub",
+      "mime": "application/epub+zip",
+      "size": 175050,
+      "modified": "2026-08-16T03:55:13.000Z",
+      "checksum": "f9387904c51f0d8627f3566dc54a7778",
+      "folder": false
+    },
+    {
+      "id": "1jL1FIUBmbV5_u-pN2_BfKSxkuNhhAZ_L",
+      "parent_id": "1TBR9TZzwfvnUNjSG0BwjYHCXMRJwekJd",
+      "name": "TIỂU LONG NỮ.pdf",
+      "mime": "application/pdf",
+      "size": 313386,
+      "modified": "2026-08-16T03:55:11.000Z",
+      "checksum": "bde8c4123505b48e303a4c852741a30d",
+      "folder": false
+    }
+  ]
+}

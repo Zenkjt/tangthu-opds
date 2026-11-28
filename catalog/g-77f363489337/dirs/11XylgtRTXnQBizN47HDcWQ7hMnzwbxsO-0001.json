@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11XylgtRTXnQBizN47HDcWQ7hMnzwbxsO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rl-dnrgj1yEXHdLPyYyekHYSDH1Ryja-",
+      "parent_id": "11XylgtRTXnQBizN47HDcWQ7hMnzwbxsO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3897,
+      "modified": "2026-08-15T07:53:52.000Z",
+      "checksum": "5659a436d84464c33014ab54374fd3a9",
+      "folder": false
+    },
+    {
+      "id": "1NVKxQLLKWIlH4YYdQg-CAVqinFQ4OozK",
+      "parent_id": "11XylgtRTXnQBizN47HDcWQ7hMnzwbxsO",
+      "name": "NGHIỆP ĐẾ VƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1843334,
+      "modified": "2026-08-15T07:54:04.000Z",
+      "checksum": "928f52aeeb948fdb3c99a3167b2853b5",
+      "folder": false
+    },
+    {
+      "id": "1gFjYoZGYGckXwiuXFG23LCGJa0MidBF0",
+      "parent_id": "11XylgtRTXnQBizN47HDcWQ7hMnzwbxsO",
+      "name": "NGHIỆP ĐẾ VƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 2739967,
+      "modified": "2026-08-15T07:54:00.000Z",
+      "checksum": "1152f4ce0ad0888cac5d60f60c545c67",
+      "folder": false
+    }
+  ]
+}

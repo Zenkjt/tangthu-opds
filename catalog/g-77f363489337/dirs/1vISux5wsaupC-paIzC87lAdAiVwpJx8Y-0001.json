@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vISux5wsaupC-paIzC87lAdAiVwpJx8Y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Q5mQE0SBYzIZBhbKnHVkKR6ToHd46WxM",
+      "parent_id": "1vISux5wsaupC-paIzC87lAdAiVwpJx8Y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2475,
+      "modified": "2026-08-15T07:44:53.000Z",
+      "checksum": "b9e0ae11d93d33ca74db6f62e24154d1",
+      "folder": false
+    },
+    {
+      "id": "1fQppzoHCND91AL9nnjH13DxspujPXza2",
+      "parent_id": "1vISux5wsaupC-paIzC87lAdAiVwpJx8Y",
+      "name": "HÀ THÀNH THẤT THỦ CA VÀ HOÀNG DIỆU.epub",
+      "mime": "application/epub+zip",
+      "size": 333236,
+      "modified": "2026-08-15T07:44:59.000Z",
+      "checksum": "fafea3f4a052e3d879c898c8b7847dc7",
+      "folder": false
+    },
+    {
+      "id": "1MndtRLChOz9BXvqapjqEkOQrFJNyfwYL",
+      "parent_id": "1vISux5wsaupC-paIzC87lAdAiVwpJx8Y",
+      "name": "HÀ THÀNH THẤT THỦ CA VÀ HOÀNG DIỆU.pdf",
+      "mime": "application/pdf",
+      "size": 597673,
+      "modified": "2026-08-15T07:44:56.000Z",
+      "checksum": "2883e5202971109a8b5685e2416cf632",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qtzKf1H9pmvCchwAYWKDgq4XVSwxxwqv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zkTRgAY_kwiTUj-OZ8Syp12bZf-QmBFd",
+      "parent_id": "1qtzKf1H9pmvCchwAYWKDgq4XVSwxxwqv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9238,
+      "modified": "2026-08-15T03:16:58.000Z",
+      "checksum": "ad21caa97be9e5d75c1628bfbd467bf3",
+      "folder": false
+    },
+    {
+      "id": "1XR2HW3w648NQHPoETgNRyMbZZRzVt0P0",
+      "parent_id": "1qtzKf1H9pmvCchwAYWKDgq4XVSwxxwqv",
+      "name": "NGHỆ THUẬT ĐỐI NHÂN XỬ THẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 264555,
+      "modified": "2026-08-15T03:17:03.000Z",
+      "checksum": "895d75e11417cbac065753e622687c55",
+      "folder": false
+    },
+    {
+      "id": "1PfxGOCUxHDL5tQmZ0SqzZ3fKlJm4kKX_",
+      "parent_id": "1qtzKf1H9pmvCchwAYWKDgq4XVSwxxwqv",
+      "name": "NGHỆ THUẬT ĐỐI NHÂN XỬ THẾ.pdf",
+      "mime": "application/pdf",
+      "size": 416521,
+      "modified": "2026-08-15T03:17:01.000Z",
+      "checksum": "6767afe14ca9377adb6f3ef26792d3e3",
+      "folder": false
+    }
+  ]
+}

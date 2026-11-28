@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZYUoYVfearXF6V7Nf67n9M6GJTL-Ki8k",
+  "page": 1,
+  "items": [
+    {
+      "id": "13KlHGGb_r4V75IX5-TDqySyAkBj3WSzV",
+      "parent_id": "1ZYUoYVfearXF6V7Nf67n9M6GJTL-Ki8k",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2573,
+      "modified": "2026-08-15T10:05:13.000Z",
+      "checksum": "c19416da4e58a993ffde436d7b7aeee6",
+      "folder": false
+    },
+    {
+      "id": "1i8WekQecX_-HU-n5qJWKZoEblGDuV18A",
+      "parent_id": "1ZYUoYVfearXF6V7Nf67n9M6GJTL-Ki8k",
+      "name": "VIÊN NGUYỆT QUAN ÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 691171,
+      "modified": "2026-08-15T10:05:20.000Z",
+      "checksum": "2f3f5612aff9498a417f23695c2c7653",
+      "folder": false
+    },
+    {
+      "id": "1UXXzGOCaaR3qoBOafmCV7Jt6ztqv9mMx",
+      "parent_id": "1ZYUoYVfearXF6V7Nf67n9M6GJTL-Ki8k",
+      "name": "VIÊN NGUYỆT QUAN ÂM.pdf",
+      "mime": "application/pdf",
+      "size": 1082058,
+      "modified": "2026-08-15T10:05:17.000Z",
+      "checksum": "518063da0d63dfff44517f7f418b1935",
+      "folder": false
+    }
+  ]
+}

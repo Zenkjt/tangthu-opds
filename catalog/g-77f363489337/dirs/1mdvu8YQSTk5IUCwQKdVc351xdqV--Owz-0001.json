@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mdvu8YQSTk5IUCwQKdVc351xdqV--Owz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Rr_bTH35V3A3_8iLw_p9-61HnOXLe0tc",
+      "parent_id": "1mdvu8YQSTk5IUCwQKdVc351xdqV--Owz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3320,
+      "modified": "2026-08-16T03:56:30.000Z",
+      "checksum": "3859f59acb8a035a5e945edb15711c83",
+      "folder": false
+    },
+    {
+      "id": "1gJUoq6a0gOm2rPoqKFFl39bjs2qPxSdm",
+      "parent_id": "1mdvu8YQSTk5IUCwQKdVc351xdqV--Owz",
+      "name": "THU TINH.epub",
+      "mime": "application/epub+zip",
+      "size": 161812,
+      "modified": "2026-08-16T03:56:35.000Z",
+      "checksum": "0e17aee917fe7ffd4f04cae73bee678c",
+      "folder": false
+    },
+    {
+      "id": "1l7w8Q1hblYRcPfa9D5ERk0MJaMTaKiqo",
+      "parent_id": "1mdvu8YQSTk5IUCwQKdVc351xdqV--Owz",
+      "name": "THU TINH.pdf",
+      "mime": "application/pdf",
+      "size": 463574,
+      "modified": "2026-08-16T03:56:33.000Z",
+      "checksum": "2e6461e5c78ce61c7169bde19cfc9e94",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ok6waTnrsE1Y4_9wBGH2o6UuU3XN2Lxy",
+  "page": 1,
+  "items": [
+    {
+      "id": "16pvN2nR8hecjcmiT7EE6UI1jRg77LF_f",
+      "parent_id": "1ok6waTnrsE1Y4_9wBGH2o6UuU3XN2Lxy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4396,
+      "modified": "2026-08-15T07:26:42.000Z",
+      "checksum": "78d6e57153a2101cf41a9d14e29e2730",
+      "folder": false
+    },
+    {
+      "id": "1IkXXWpdpj7-FOljtxVxlSJKaZxBdUixO",
+      "parent_id": "1ok6waTnrsE1Y4_9wBGH2o6UuU3XN2Lxy",
+      "name": "VẤN ĐẠO CHƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 2024405,
+      "modified": "2026-08-15T07:27:01.000Z",
+      "checksum": "3b91f3e45808d50345e8394305aad3ad",
+      "folder": false
+    },
+    {
+      "id": "1VbHHfGA0v6OCFCGJMXdGbe6YVZJeh0m0",
+      "parent_id": "1ok6waTnrsE1Y4_9wBGH2o6UuU3XN2Lxy",
+      "name": "VẤN ĐẠO CHƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 8189560,
+      "modified": "2026-08-15T07:26:56.000Z",
+      "checksum": "2e76c613d9f228b256d8c1fdfaa10237",
+      "folder": false
+    }
+  ]
+}

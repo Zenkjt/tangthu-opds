@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1utv7UiePaufh1EAw48vGKdtDmJksBWVO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jKVTMLHxJsc-DTCTvs8jMREP8k0tha0z",
+      "parent_id": "1utv7UiePaufh1EAw48vGKdtDmJksBWVO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2014,
+      "modified": "2026-08-16T03:43:27.000Z",
+      "checksum": "9c0829e50101426db5682e19c53bdc48",
+      "folder": false
+    },
+    {
+      "id": "1IdVIPqN4pgy2Gp9lYaLbWutDrg34wZO4",
+      "parent_id": "1utv7UiePaufh1EAw48vGKdtDmJksBWVO",
+      "name": "ĐIỆU WALTZ DƯỚI ÁNH TRĂNG.epub",
+      "mime": "application/epub+zip",
+      "size": 650495,
+      "modified": "2026-08-16T03:43:34.000Z",
+      "checksum": "10a29249770e95d4d7f29854742ddedf",
+      "folder": false
+    },
+    {
+      "id": "19cMdFl8zqhg0ySpqDEPGAHSeMsAlyGax",
+      "parent_id": "1utv7UiePaufh1EAw48vGKdtDmJksBWVO",
+      "name": "ĐIỆU WALTZ DƯỚI ÁNH TRĂNG.pdf",
+      "mime": "application/pdf",
+      "size": 1159924,
+      "modified": "2026-08-16T03:43:32.000Z",
+      "checksum": "fc7e2cb86220491d44fa271ddfb50278",
+      "folder": false
+    }
+  ]
+}

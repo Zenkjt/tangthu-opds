@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IIMfkc5zE0XUzFpYMPKnoI0QQwRJUSvI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EpObF7rEUtjFGvRQfJSobldODnOZfIoG",
+      "parent_id": "1IIMfkc5zE0XUzFpYMPKnoI0QQwRJUSvI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 653,
+      "modified": "2026-08-16T04:20:29.000Z",
+      "checksum": "51988cd7fcf704f1e1edcf8d4e5adeb9",
+      "folder": false
+    },
+    {
+      "id": "1dcKcq7OYnO1Pb2uKlVq_AOSMgS3GEoJz",
+      "parent_id": "1IIMfkc5zE0XUzFpYMPKnoI0QQwRJUSvI",
+      "name": "ĐÔI BẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 534466,
+      "modified": "2026-08-16T04:20:34.000Z",
+      "checksum": "2a4866ba4aa71c83f685d8367fa11cde",
+      "folder": false
+    },
+    {
+      "id": "1XsXVWP5X92kpO4OmqVUCS4uhCwsx7xDN",
+      "parent_id": "1IIMfkc5zE0XUzFpYMPKnoI0QQwRJUSvI",
+      "name": "ĐÔI BẠN.pdf",
+      "mime": "application/pdf",
+      "size": 547214,
+      "modified": "2026-08-16T04:20:32.000Z",
+      "checksum": "8d9c2a896ac96599297a12bf22e82e53",
+      "folder": false
+    }
+  ]
+}

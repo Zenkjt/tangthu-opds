@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xvLEFiAhFXhHYLq4ZXx2wkqUaVeKZHnC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-e01aaBaYK44E6U4d_R2xps0wTZJcMF_",
+      "parent_id": "1xvLEFiAhFXhHYLq4ZXx2wkqUaVeKZHnC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3220,
+      "modified": "2026-08-15T15:45:20.000Z",
+      "checksum": "66681a7602d89bab58adb2d521306db3",
+      "folder": false
+    },
+    {
+      "id": "1Y2sBnKNwRLlsVGF8ytvxmsGCv1Mbl05u",
+      "parent_id": "1xvLEFiAhFXhHYLq4ZXx2wkqUaVeKZHnC",
+      "name": "NHÕNG NHẼO GẶP ĐA TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 2205688,
+      "modified": "2026-08-15T15:45:30.000Z",
+      "checksum": "c544ea9aa4b7be211af79a78111437a6",
+      "folder": false
+    },
+    {
+      "id": "1yZuOWLWacyn2ehcNNVL23pnzTyMel5eS",
+      "parent_id": "1xvLEFiAhFXhHYLq4ZXx2wkqUaVeKZHnC",
+      "name": "NHÕNG NHẼO GẶP ĐA TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 1559959,
+      "modified": "2026-08-15T15:45:25.000Z",
+      "checksum": "bbed07ce1adca5f1448c09758938597b",
+      "folder": false
+    }
+  ]
+}

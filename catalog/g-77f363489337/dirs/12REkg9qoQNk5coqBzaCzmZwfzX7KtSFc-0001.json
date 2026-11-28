@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12REkg9qoQNk5coqBzaCzmZwfzX7KtSFc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1d-RRRN7gvopjRu3h2tSlxTPo8BF8phFt",
+      "parent_id": "12REkg9qoQNk5coqBzaCzmZwfzX7KtSFc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3065,
+      "modified": "2026-08-16T03:56:10.000Z",
+      "checksum": "48c796b4482bf9a86778f7cce7034e80",
+      "folder": false
+    },
+    {
+      "id": "1VJb_XApD745ggEpaWC3VcUZDW-nEkLBm",
+      "parent_id": "12REkg9qoQNk5coqBzaCzmZwfzX7KtSFc",
+      "name": "THỦY TÚ SƠN MINH.epub",
+      "mime": "application/epub+zip",
+      "size": 367011,
+      "modified": "2026-08-16T03:56:17.000Z",
+      "checksum": "c350f4e4c05a1361d908112d0bf59850",
+      "folder": false
+    },
+    {
+      "id": "10pEIRWNEtZtcnZOeNQYF_RZx05hkjhJP",
+      "parent_id": "12REkg9qoQNk5coqBzaCzmZwfzX7KtSFc",
+      "name": "THỦY TÚ SƠN MINH.pdf",
+      "mime": "application/pdf",
+      "size": 850353,
+      "modified": "2026-08-16T03:56:15.000Z",
+      "checksum": "a85bc5ffca72cab1061785a99a5eb38b",
+      "folder": false
+    }
+  ]
+}

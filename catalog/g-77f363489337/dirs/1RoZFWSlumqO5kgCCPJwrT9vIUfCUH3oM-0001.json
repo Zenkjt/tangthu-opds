@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RoZFWSlumqO5kgCCPJwrT9vIUfCUH3oM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1D70rIIRNjxG3IyZ3QSrJth6j9cezyEOQ",
+      "parent_id": "1RoZFWSlumqO5kgCCPJwrT9vIUfCUH3oM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6173,
+      "modified": "2026-08-15T15:31:15.000Z",
+      "checksum": "861b0cf5f2f462d935d6f693828283b1",
+      "folder": false
+    },
+    {
+      "id": "1Ot8Ws9BYKdIFjV6AUhy-l1BH0TxLu7T0",
+      "parent_id": "1RoZFWSlumqO5kgCCPJwrT9vIUfCUH3oM",
+      "name": "VỤ GIẾT NGƯỜI BÍ ẨN.epub",
+      "mime": "application/epub+zip",
+      "size": 311475,
+      "modified": "2026-08-15T15:31:40.000Z",
+      "checksum": "a214cdf9cca2785caf652b782882fe15",
+      "folder": false
+    },
+    {
+      "id": "1TdHbTA2XD5TnQVImM6Wmq6wVQKPdf669",
+      "parent_id": "1RoZFWSlumqO5kgCCPJwrT9vIUfCUH3oM",
+      "name": "VỤ GIẾT NGƯỜI BÍ ẨN.pdf",
+      "mime": "application/pdf",
+      "size": 744611,
+      "modified": "2026-08-15T15:31:36.000Z",
+      "checksum": "2fba835daaa9c10e48b22b2e9f062053",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uIZpcY9BXwxD3ePOzmngQAzmQqBSMMag",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EvKkuS6x3FJICt2nbiDEmbmvpR9GboxX",
+      "parent_id": "1uIZpcY9BXwxD3ePOzmngQAzmQqBSMMag",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3684,
+      "modified": "2026-08-16T03:05:36.000Z",
+      "checksum": "3d7a8588ae7da22cafeb7887933b568f",
+      "folder": false
+    },
+    {
+      "id": "1paCDLkRuQV4GLQVigbFoxFMaXIhkRjAj",
+      "parent_id": "1uIZpcY9BXwxD3ePOzmngQAzmQqBSMMag",
+      "name": "VỊ BÁ TƯỚC THỨ NĂM CỦA GIÒNG HỌ HAUBERK.epub",
+      "mime": "application/epub+zip",
+      "size": 1027743,
+      "modified": "2026-08-16T03:05:42.000Z",
+      "checksum": "edb10436dd08fe219cc5f514bb15de34",
+      "folder": false
+    },
+    {
+      "id": "1lw2Z8ZvJn2svZlF8kMJqQwSCRC5Ze1Pu",
+      "parent_id": "1uIZpcY9BXwxD3ePOzmngQAzmQqBSMMag",
+      "name": "VỊ BÁ TƯỚC THỨ NĂM CỦA GIÒNG HỌ HAUBERK.pdf",
+      "mime": "application/pdf",
+      "size": 648950,
+      "modified": "2026-08-16T03:05:39.000Z",
+      "checksum": "c87adb6fd6c7229625ab7a86b9250af1",
+      "folder": false
+    }
+  ]
+}

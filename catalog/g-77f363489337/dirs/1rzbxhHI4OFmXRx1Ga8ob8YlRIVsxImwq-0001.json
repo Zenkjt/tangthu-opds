@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rzbxhHI4OFmXRx1Ga8ob8YlRIVsxImwq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iZQBfCg0dfyFZQqZUM_U8XD5su4C3GcX",
+      "parent_id": "1rzbxhHI4OFmXRx1Ga8ob8YlRIVsxImwq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2774,
+      "modified": "2026-08-15T08:12:35.000Z",
+      "checksum": "0ddc3b27251c12775458f61ee2a6451d",
+      "folder": false
+    },
+    {
+      "id": "1OY8IZjI26qBlSFGAeDy6xZ_iGmKfs3QS",
+      "parent_id": "1rzbxhHI4OFmXRx1Ga8ob8YlRIVsxImwq",
+      "name": "TRƯỜNG PHONG ĐỘ.epub",
+      "mime": "application/epub+zip",
+      "size": 1824832,
+      "modified": "2026-08-15T08:13:00.000Z",
+      "checksum": "45ef02f8be81e98caf0d50e22fffdbf3",
+      "folder": false
+    },
+    {
+      "id": "144tRusy06V6-KaMFir1kIUXWTRqf2_PF",
+      "parent_id": "1rzbxhHI4OFmXRx1Ga8ob8YlRIVsxImwq",
+      "name": "TRƯỜNG PHONG ĐỘ.pdf",
+      "mime": "application/pdf",
+      "size": 7250040,
+      "modified": "2026-08-15T08:12:54.000Z",
+      "checksum": "f783bbd07192005fad402d6ec2018959",
+      "folder": false
+    }
+  ]
+}

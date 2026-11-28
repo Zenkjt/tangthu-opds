@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1i8JvD6ZydgPaL-kfYjSDXsXmTcs3rvfq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HAMdKSXXmNn4B00jaHoLLqlfBFZze979",
+      "parent_id": "1i8JvD6ZydgPaL-kfYjSDXsXmTcs3rvfq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10112,
+      "modified": "2026-08-15T07:37:09.000Z",
+      "checksum": "43df5efb65b47bc0bb79a69f8316a617",
+      "folder": false
+    },
+    {
+      "id": "1d0fUKzt7upgNIQJ0wYZN5fVpzbiQBska",
+      "parent_id": "1i8JvD6ZydgPaL-kfYjSDXsXmTcs3rvfq",
+      "name": "TUYỂN TẬP THƠ VICTOR HUGO.epub",
+      "mime": "application/epub+zip",
+      "size": 255878,
+      "modified": "2026-08-15T07:37:14.000Z",
+      "checksum": "9d3ef966dcac619b1cd8ce959ec237f4",
+      "folder": false
+    },
+    {
+      "id": "1V6d7eth2Og0ZkKo0R0ySN2ESUwlb6nB3",
+      "parent_id": "1i8JvD6ZydgPaL-kfYjSDXsXmTcs3rvfq",
+      "name": "TUYỂN TẬP THƠ VICTOR HUGO.pdf",
+      "mime": "application/pdf",
+      "size": 277843,
+      "modified": "2026-08-15T07:37:12.000Z",
+      "checksum": "4aebac7ebf44b00825a02ba1fa01c786",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KaXPUvPdBVGC7rxUqchqBfOtHPMmMUIF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ELzqX9dSbm09AKpVZ6mqW2Ig85KFR3Wd",
+      "parent_id": "1KaXPUvPdBVGC7rxUqchqBfOtHPMmMUIF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3334,
+      "modified": "2026-08-16T04:04:54.000Z",
+      "checksum": "5fa1383c6967922c4c0add4bc3964b33",
+      "folder": false
+    },
+    {
+      "id": "11oVyBQdxBMPnOblBJHUwp65hasov-AZj",
+      "parent_id": "1KaXPUvPdBVGC7rxUqchqBfOtHPMmMUIF",
+      "name": "QUYỀN KHUYNH NHẤT THẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 733294,
+      "modified": "2026-08-16T04:05:02.000Z",
+      "checksum": "fdb574d17c840d13436cdcfc42c68299",
+      "folder": false
+    },
+    {
+      "id": "1xmrsVZ0sZBlYlHDdf1-udtStAuGo4U9B",
+      "parent_id": "1KaXPUvPdBVGC7rxUqchqBfOtHPMmMUIF",
+      "name": "QUYỀN KHUYNH NHẤT THẾ.pdf",
+      "mime": "application/pdf",
+      "size": 2330620,
+      "modified": "2026-08-16T04:04:59.000Z",
+      "checksum": "da1defaa903179db7d1fe193a6b12172",
+      "folder": false
+    }
+  ]
+}

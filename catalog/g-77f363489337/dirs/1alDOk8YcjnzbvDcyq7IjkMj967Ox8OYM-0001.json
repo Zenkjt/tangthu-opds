@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1alDOk8YcjnzbvDcyq7IjkMj967Ox8OYM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1s6yIFSrp4g1s3YCrxmZYQiDBa0FxAKOe",
+      "parent_id": "1alDOk8YcjnzbvDcyq7IjkMj967Ox8OYM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6601,
+      "modified": "2026-08-15T04:20:07.000Z",
+      "checksum": "c79c9588816243e8047f84a318fe00a0",
+      "folder": false
+    },
+    {
+      "id": "1SydgLL5On8cWZ9PAK0refAMw5sJz-MVA",
+      "parent_id": "1alDOk8YcjnzbvDcyq7IjkMj967Ox8OYM",
+      "name": "SỐNG 365 NGÀY MỘT NĂM.epub",
+      "mime": "application/epub+zip",
+      "size": 431865,
+      "modified": "2026-08-15T04:20:13.000Z",
+      "checksum": "aacce56befbceedfff9bdf80c0a075f7",
+      "folder": false
+    },
+    {
+      "id": "1xBcz7wjC3PpEyqvyNHxo-wL340lTLe0q",
+      "parent_id": "1alDOk8YcjnzbvDcyq7IjkMj967Ox8OYM",
+      "name": "SỐNG 365 NGÀY MỘT NĂM.pdf",
+      "mime": "application/pdf",
+      "size": 647210,
+      "modified": "2026-08-15T04:20:10.000Z",
+      "checksum": "40fb1f1e38b3927b031551fe9efeacaa",
+      "folder": false
+    }
+  ]
+}

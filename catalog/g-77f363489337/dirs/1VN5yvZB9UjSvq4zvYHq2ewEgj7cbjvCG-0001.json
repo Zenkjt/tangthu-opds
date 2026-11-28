@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VN5yvZB9UjSvq4zvYHq2ewEgj7cbjvCG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ey7523mKw2OpQBVlfymqhgg3ikJnn5vw",
+      "parent_id": "1VN5yvZB9UjSvq4zvYHq2ewEgj7cbjvCG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6404,
+      "modified": "2026-08-16T03:01:37.000Z",
+      "checksum": "c36ccc19a5bccdf1de78d637327213d6",
+      "folder": false
+    },
+    {
+      "id": "1MTBI5LEpNxdDOTMD5d5vMKrCOxv3BcAW",
+      "parent_id": "1VN5yvZB9UjSvq4zvYHq2ewEgj7cbjvCG",
+      "name": "NGƯỜI THỢ MỘC VÀ TẤM VÁN THIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 538801,
+      "modified": "2026-08-16T03:01:43.000Z",
+      "checksum": "91df0f9da033a35ef9cad4958535f3a6",
+      "folder": false
+    },
+    {
+      "id": "1DJGz1vuKgyWiEmdty98nkA_orwlGcE4X",
+      "parent_id": "1VN5yvZB9UjSvq4zvYHq2ewEgj7cbjvCG",
+      "name": "NGƯỜI THỢ MỘC VÀ TẤM VÁN THIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 912857,
+      "modified": "2026-08-16T03:01:41.000Z",
+      "checksum": "89812a397735dcfcebfd3c336c913de5",
+      "folder": false
+    }
+  ]
+}

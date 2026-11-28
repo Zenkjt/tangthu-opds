@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FEzcp75reE7j9PyBNlXqBLVgc-86JXzN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cAEd3dvfXX5GUxzfKd6EO6phIl5iW-6q",
+      "parent_id": "1FEzcp75reE7j9PyBNlXqBLVgc-86JXzN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 13661,
+      "modified": "2026-08-15T06:15:54.000Z",
+      "checksum": "007c5aeacbe94aafdaa27bba4399434d",
+      "folder": false
+    },
+    {
+      "id": "1tPah_yMz0TLt-UiPlCMFwdvBTUNZPDFv",
+      "parent_id": "1FEzcp75reE7j9PyBNlXqBLVgc-86JXzN",
+      "name": "TRIẾT LÝ CÁI ĐÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 376479,
+      "modified": "2026-08-15T06:15:59.000Z",
+      "checksum": "03ac268d3f778910e90509d29ab3688a",
+      "folder": false
+    },
+    {
+      "id": "14La9MT0HFs6943a3m-pfVE5_Ni3JVOpr",
+      "parent_id": "1FEzcp75reE7j9PyBNlXqBLVgc-86JXzN",
+      "name": "TRIẾT LÝ CÁI ĐÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 724261,
+      "modified": "2026-08-15T06:15:57.000Z",
+      "checksum": "51b7952525a72b73609a25354e91069d",
+      "folder": false
+    }
+  ]
+}

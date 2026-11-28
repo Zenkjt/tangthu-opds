@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qNHRE5bseHoeDSq2Ai9BR-xAf_1jaN7a",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cTfxwKV3xKxc6CXfzrhD4gWBaWZvg_ix",
+      "parent_id": "1qNHRE5bseHoeDSq2Ai9BR-xAf_1jaN7a",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3238,
+      "modified": "2026-08-16T04:13:08.000Z",
+      "checksum": "54fe788343a70f6d40cee310ce9f2e9d",
+      "folder": false
+    },
+    {
+      "id": "1YxYq3VnN5gJghMkYJ-K5XJfZUgEbZh-a",
+      "parent_id": "1qNHRE5bseHoeDSq2Ai9BR-xAf_1jaN7a",
+      "name": "NGƯỜI TÌNH NGUY HIỂM.epub",
+      "mime": "application/epub+zip",
+      "size": 356389,
+      "modified": "2026-08-16T04:13:14.000Z",
+      "checksum": "acfc4f6497c8b594204d346c63eb1859",
+      "folder": false
+    },
+    {
+      "id": "1ItcLEzoIv7qkUqRBmuEW5zWt-fca0CaA",
+      "parent_id": "1qNHRE5bseHoeDSq2Ai9BR-xAf_1jaN7a",
+      "name": "NGƯỜI TÌNH NGUY HIỂM.pdf",
+      "mime": "application/pdf",
+      "size": 554960,
+      "modified": "2026-08-16T04:13:11.000Z",
+      "checksum": "e6299939b44ecdea4450270acdd851b5",
+      "folder": false
+    }
+  ]
+}

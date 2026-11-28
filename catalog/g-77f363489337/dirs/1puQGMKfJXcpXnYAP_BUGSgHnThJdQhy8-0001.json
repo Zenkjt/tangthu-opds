@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1puQGMKfJXcpXnYAP_BUGSgHnThJdQhy8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eXrywb4xtXIgPTzdDoSuGdsavkHS2f1X",
+      "parent_id": "1puQGMKfJXcpXnYAP_BUGSgHnThJdQhy8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4437,
+      "modified": "2026-08-15T09:14:36.000Z",
+      "checksum": "87511a7b857d6d26d696b7cd33171013",
+      "folder": false
+    },
+    {
+      "id": "1n0nLidrHAygneN-5FkqXP4Vvh2vidufX",
+      "parent_id": "1puQGMKfJXcpXnYAP_BUGSgHnThJdQhy8",
+      "name": "ĐẠO QUÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 7804264,
+      "modified": "2026-08-15T09:15:48.000Z",
+      "checksum": "321f0bb60cda237c15f5eb4f15519329",
+      "folder": false
+    },
+    {
+      "id": "1yNqfE4kvZBFW4XJYOhyHyTS7CHpdxRtC",
+      "parent_id": "1puQGMKfJXcpXnYAP_BUGSgHnThJdQhy8",
+      "name": "ĐẠO QUÂN.pdf",
+      "mime": "application/pdf",
+      "size": 30083183,
+      "modified": "2026-08-15T09:15:38.000Z",
+      "checksum": "c8ccce0acac2b005f3011f21272d947a",
+      "folder": false
+    }
+  ]
+}

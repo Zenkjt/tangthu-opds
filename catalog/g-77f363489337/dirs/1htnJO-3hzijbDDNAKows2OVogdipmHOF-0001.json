@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1htnJO-3hzijbDDNAKows2OVogdipmHOF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1j6Hsp-rJpV1D83McsB3wBkadKQTyYNRc",
+      "parent_id": "1htnJO-3hzijbDDNAKows2OVogdipmHOF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3456,
+      "modified": "2026-08-15T06:19:58.000Z",
+      "checksum": "737487fbd6d888e7ebc51b0917c52b78",
+      "folder": false
+    },
+    {
+      "id": "15EEKsGj_hcpxNVcEnz24YmsuDe8I2y92",
+      "parent_id": "1htnJO-3hzijbDDNAKows2OVogdipmHOF",
+      "name": "THỊ TRẤN TORTILLA FLAT.epub",
+      "mime": "application/epub+zip",
+      "size": 667359,
+      "modified": "2026-08-15T06:20:16.000Z",
+      "checksum": "82a6763ac6c556f41ba487cc19eb87dd",
+      "folder": false
+    },
+    {
+      "id": "1uXmwDL2p15bTzbPKArfFPO1LTTuT0lut",
+      "parent_id": "1htnJO-3hzijbDDNAKows2OVogdipmHOF",
+      "name": "THỊ TRẤN TORTILLA FLAT.pdf",
+      "mime": "application/pdf",
+      "size": 1136310,
+      "modified": "2026-08-15T06:20:09.000Z",
+      "checksum": "f1a87fdba5302bb7bbe83b72da266293",
+      "folder": false
+    }
+  ]
+}

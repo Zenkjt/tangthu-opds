@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Q6GWbeKNWzGKquDbwq1KepHMK5sTGtuO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1m_r7onnlB2MP1ALdacC9-oNuUng5KuMu",
+      "parent_id": "1Q6GWbeKNWzGKquDbwq1KepHMK5sTGtuO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4371,
+      "modified": "2026-08-15T08:11:59.000Z",
+      "checksum": "647ff52a252191d660306b6a505a7e61",
+      "folder": false
+    },
+    {
+      "id": "112m4CMDcHSlzG46uuNb0gymv94XEVBw7",
+      "parent_id": "1Q6GWbeKNWzGKquDbwq1KepHMK5sTGtuO",
+      "name": "DỊ NHÃN PHÒNG ĐÔNG - TẬP 1.epub",
+      "mime": "application/epub+zip",
+      "size": 459490,
+      "modified": "2026-08-15T08:12:05.000Z",
+      "checksum": "dd66dc9dee88db125cb3af8dcffd0b8e",
+      "folder": false
+    },
+    {
+      "id": "1s2h2AAi5TtTYN5C3BU29mX74PI8XHCcy",
+      "parent_id": "1Q6GWbeKNWzGKquDbwq1KepHMK5sTGtuO",
+      "name": "DỊ NHÃN PHÒNG ĐÔNG - TẬP 1.pdf",
+      "mime": "application/pdf",
+      "size": 584274,
+      "modified": "2026-08-15T08:12:02.000Z",
+      "checksum": "b89bdba948e772e80384b7c888dbf715",
+      "folder": false
+    }
+  ]
+}

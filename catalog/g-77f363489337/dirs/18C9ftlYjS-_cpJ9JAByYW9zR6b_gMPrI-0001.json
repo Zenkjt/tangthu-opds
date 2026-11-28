@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18C9ftlYjS-_cpJ9JAByYW9zR6b_gMPrI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cmM27-chjB3HXrOgtHuE7wq_bG8Ibk9U",
+      "parent_id": "18C9ftlYjS-_cpJ9JAByYW9zR6b_gMPrI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2804,
+      "modified": "2026-08-16T03:48:24.000Z",
+      "checksum": "f7c277d873032624353db1a37d025619",
+      "folder": false
+    },
+    {
+      "id": "1RkGgoMpcYdKgW4g0U09kDZNsL147uHrC",
+      "parent_id": "18C9ftlYjS-_cpJ9JAByYW9zR6b_gMPrI",
+      "name": "ÁNH SAO CHIỀU.epub",
+      "mime": "application/epub+zip",
+      "size": 892654,
+      "modified": "2026-08-16T03:48:31.000Z",
+      "checksum": "7ff3f2a587849e678e549af9bc67a503",
+      "folder": false
+    },
+    {
+      "id": "1ocApzHNNpqICVPD6HnMPR2qnyfmUSFWc",
+      "parent_id": "18C9ftlYjS-_cpJ9JAByYW9zR6b_gMPrI",
+      "name": "ÁNH SAO CHIỀU.pdf",
+      "mime": "application/pdf",
+      "size": 1017236,
+      "modified": "2026-08-16T03:48:28.000Z",
+      "checksum": "c49f52847a2a13ab4e3a70a1db62a14a",
+      "folder": false
+    }
+  ]
+}

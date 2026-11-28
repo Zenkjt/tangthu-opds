@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1q9BknnAbuBnEENMa2Z6rBLnov2EBuzzC",
+  "page": 1,
+  "items": [
+    {
+      "id": "13RUTOW2OQoUM4WpL-JDOMsJX6BhDW4tb",
+      "parent_id": "1q9BknnAbuBnEENMa2Z6rBLnov2EBuzzC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3367,
+      "modified": "2026-08-15T10:32:54.000Z",
+      "checksum": "ea5195bd05dcd48deebebd01e3f8baf2",
+      "folder": false
+    },
+    {
+      "id": "14MrWQRVfZKs8QCs-ciNy2VoDH4_JLldB",
+      "parent_id": "1q9BknnAbuBnEENMa2Z6rBLnov2EBuzzC",
+      "name": "PHI KIẾM VẤN ĐẠO.epub",
+      "mime": "application/epub+zip",
+      "size": 1496645,
+      "modified": "2026-08-15T10:33:11.000Z",
+      "checksum": "6a1ac4248007bb65b2c06c7a4a607341",
+      "folder": false
+    },
+    {
+      "id": "1ufGl8GoVYmnyeSpGTm7VE-viFmj1HDcZ",
+      "parent_id": "1q9BknnAbuBnEENMa2Z6rBLnov2EBuzzC",
+      "name": "PHI KIẾM VẤN ĐẠO.pdf",
+      "mime": "application/pdf",
+      "size": 5992242,
+      "modified": "2026-08-15T10:33:08.000Z",
+      "checksum": "6b11a7e9a98e49b1c3e530739e716cc0",
+      "folder": false
+    }
+  ]
+}

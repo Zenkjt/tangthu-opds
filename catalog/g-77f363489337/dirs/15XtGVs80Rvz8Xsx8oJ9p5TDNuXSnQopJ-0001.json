@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15XtGVs80Rvz8Xsx8oJ9p5TDNuXSnQopJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ThFR_BDcV2sa1qphiI1LHPdcJMgLJkHB",
+      "parent_id": "15XtGVs80Rvz8Xsx8oJ9p5TDNuXSnQopJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 536,
+      "modified": "2026-08-16T04:19:55.000Z",
+      "checksum": "107499deadb89b04dbd51257f48559c5",
+      "folder": false
+    },
+    {
+      "id": "1i-x1htcsBUJlFI-1HkEWjY83TSdHT7vG",
+      "parent_id": "15XtGVs80Rvz8Xsx8oJ9p5TDNuXSnQopJ",
+      "name": "GIẤC MƠ MỘT LOÀI CỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 530288,
+      "modified": "2026-08-16T04:20:12.000Z",
+      "checksum": "45272592ae4fa13460cee8287b778b81",
+      "folder": false
+    },
+    {
+      "id": "1yg_UZTpWBOnRZurl-4v1xyyUxF7Us0bK",
+      "parent_id": "15XtGVs80Rvz8Xsx8oJ9p5TDNuXSnQopJ",
+      "name": "GIẤC MƠ MỘT LOÀI CỎ.pdf",
+      "mime": "application/pdf",
+      "size": 490653,
+      "modified": "2026-08-16T04:20:09.000Z",
+      "checksum": "c852f089e67e073433ade70233d8d31b",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dL17772Ro8-xGKvUQWiPrvvwONN33yly",
+  "page": 1,
+  "items": [
+    {
+      "id": "1y6HaUGEMVVGyd7ppeqzaB_H-QEXanXmq",
+      "parent_id": "1dL17772Ro8-xGKvUQWiPrvvwONN33yly",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2966,
+      "modified": "2026-08-15T15:33:57.000Z",
+      "checksum": "c88022d4d0f729326de3065ad75da539",
+      "folder": false
+    },
+    {
+      "id": "1dXH2Frm1eX4nKR9Nnif73VhsQZ11rRQn",
+      "parent_id": "1dL17772Ro8-xGKvUQWiPrvvwONN33yly",
+      "name": "XƯNG TỘI TRƯỚC BÌNH MINH.epub",
+      "mime": "application/epub+zip",
+      "size": 355812,
+      "modified": "2026-08-15T15:34:03.000Z",
+      "checksum": "1e0b9551f4700e10ea7c39d280106ca3",
+      "folder": false
+    },
+    {
+      "id": "1MMDibFfXRB3bYilqwXRR-8g--WUbytZl",
+      "parent_id": "1dL17772Ro8-xGKvUQWiPrvvwONN33yly",
+      "name": "XƯNG TỘI TRƯỚC BÌNH MINH.pdf",
+      "mime": "application/pdf",
+      "size": 611762,
+      "modified": "2026-08-15T15:34:01.000Z",
+      "checksum": "9bf0e2309744dbdb2b43340698f6b1bd",
+      "folder": false
+    }
+  ]
+}

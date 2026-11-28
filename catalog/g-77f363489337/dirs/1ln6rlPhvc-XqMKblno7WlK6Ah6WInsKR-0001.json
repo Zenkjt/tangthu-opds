@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ln6rlPhvc-XqMKblno7WlK6Ah6WInsKR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1a4zfUhrbO-DEwua0CKk0xv5bse43xt8Y",
+      "parent_id": "1ln6rlPhvc-XqMKblno7WlK6Ah6WInsKR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3011,
+      "modified": "2026-08-15T10:20:19.000Z",
+      "checksum": "4ff1f5ce0466b3be9bc076242311e6e0",
+      "folder": false
+    },
+    {
+      "id": "1NCtH76QQTlQKxYzv7inDaHBAOW1yIv9m",
+      "parent_id": "1ln6rlPhvc-XqMKblno7WlK6Ah6WInsKR",
+      "name": "TẨU HÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 615337,
+      "modified": "2026-08-15T10:20:29.000Z",
+      "checksum": "5c5b637f7d70dc838d0a96a2e5a8c864",
+      "folder": false
+    },
+    {
+      "id": "1xAjmz8KsDyUR4c3DF7mGhFpRCMySPRxx",
+      "parent_id": "1ln6rlPhvc-XqMKblno7WlK6Ah6WInsKR",
+      "name": "TẨU HÔN.pdf",
+      "mime": "application/pdf",
+      "size": 1574680,
+      "modified": "2026-08-15T10:20:25.000Z",
+      "checksum": "b66719a6df4f80a924c3b69ef22d20bf",
+      "folder": false
+    }
+  ]
+}

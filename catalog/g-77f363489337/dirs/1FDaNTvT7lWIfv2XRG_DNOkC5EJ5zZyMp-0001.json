@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FDaNTvT7lWIfv2XRG_DNOkC5EJ5zZyMp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zlZwMBi45l-KCys6Di5XgB3rXV-xtsIL",
+      "parent_id": "1FDaNTvT7lWIfv2XRG_DNOkC5EJ5zZyMp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6012,
+      "modified": "2026-08-15T07:29:01.000Z",
+      "checksum": "62353a3166929f849c4c2e39d186b899",
+      "folder": false
+    },
+    {
+      "id": "1QUERSHFjL1Or3cLf1nZhzHLxKXNvDNlc",
+      "parent_id": "1FDaNTvT7lWIfv2XRG_DNOkC5EJ5zZyMp",
+      "name": "VÔ LẠI VÀ QUYẾN RŨ.epub",
+      "mime": "application/epub+zip",
+      "size": 497834,
+      "modified": "2026-08-15T07:29:11.000Z",
+      "checksum": "805db1085b580b54f941dda08e0301a5",
+      "folder": false
+    },
+    {
+      "id": "1r74175B7JET43CzDf9_P_c-c7t8Vi8_k",
+      "parent_id": "1FDaNTvT7lWIfv2XRG_DNOkC5EJ5zZyMp",
+      "name": "VÔ LẠI VÀ QUYẾN RŨ.pdf",
+      "mime": "application/pdf",
+      "size": 2107464,
+      "modified": "2026-08-15T07:29:07.000Z",
+      "checksum": "419477f0aa59a133a8209b5051c06bf3",
+      "folder": false
+    }
+  ]
+}

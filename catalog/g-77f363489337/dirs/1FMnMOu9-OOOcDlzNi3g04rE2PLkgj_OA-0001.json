@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FMnMOu9-OOOcDlzNi3g04rE2PLkgj_OA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1h8ED9MhpOf6QHj9s-1jF4JBjOkrtD4K6",
+      "parent_id": "1FMnMOu9-OOOcDlzNi3g04rE2PLkgj_OA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11693,
+      "modified": "2026-08-15T03:43:31.000Z",
+      "checksum": "a73ffea2fc81acecef4e5b8de367be2d",
+      "folder": false
+    },
+    {
+      "id": "1Ze35OnB0j5zea7iSvLzyLmEDHJaA5UxT",
+      "parent_id": "1FMnMOu9-OOOcDlzNi3g04rE2PLkgj_OA",
+      "name": "KINH TRƯỜNG BỘ - TẬP 2.epub",
+      "mime": "application/epub+zip",
+      "size": 273610,
+      "modified": "2026-08-15T03:43:37.000Z",
+      "checksum": "cd446dd3d965b28d90d385651e56db7a",
+      "folder": false
+    },
+    {
+      "id": "1kvWWGqSkddUZ-KOVMLcolUGbj3KAHs-f",
+      "parent_id": "1FMnMOu9-OOOcDlzNi3g04rE2PLkgj_OA",
+      "name": "KINH TRƯỜNG BỘ - TẬP 2.pdf",
+      "mime": "application/pdf",
+      "size": 1807806,
+      "modified": "2026-08-15T03:43:35.000Z",
+      "checksum": "00fef6e89d622d0477fc43989b116baa",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VP5KJk-sZUgQm0YkbjSW8H49ASxIZa95",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cF0LhJvgoSaeyjm1xGb1J3EUiEtVu8rE",
+      "parent_id": "1VP5KJk-sZUgQm0YkbjSW8H49ASxIZa95",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2352,
+      "modified": "2026-08-15T08:18:51.000Z",
+      "checksum": "7b58416a4d3c76a7aad910f49773db5a",
+      "folder": false
+    },
+    {
+      "id": "1fsnFp54lrV5HyWo9hKVJeLQXshrh6vzz",
+      "parent_id": "1VP5KJk-sZUgQm0YkbjSW8H49ASxIZa95",
+      "name": "NGÀY HOA LƯ NGƯỢC GIÓ.epub",
+      "mime": "application/epub+zip",
+      "size": 1017287,
+      "modified": "2026-08-15T08:19:01.000Z",
+      "checksum": "e36993e8caf30c5222076a26a1700fe6",
+      "folder": false
+    },
+    {
+      "id": "1o4Sk4JTUWtrkcJo0M-6zN7IU_I3KQs-k",
+      "parent_id": "1VP5KJk-sZUgQm0YkbjSW8H49ASxIZa95",
+      "name": "NGÀY HOA LƯ NGƯỢC GIÓ.pdf",
+      "mime": "application/pdf",
+      "size": 971004,
+      "modified": "2026-08-15T08:18:57.000Z",
+      "checksum": "24985cb1ded2e7c9939914b469742fcd",
+      "folder": false
+    }
+  ]
+}

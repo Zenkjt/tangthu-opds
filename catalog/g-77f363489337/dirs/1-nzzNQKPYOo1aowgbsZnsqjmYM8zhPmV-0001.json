@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-nzzNQKPYOo1aowgbsZnsqjmYM8zhPmV",
+  "page": 1,
+  "items": [
+    {
+      "id": "18eC8qq2sXu1MCoz4kIELruijIDtMufmG",
+      "parent_id": "1-nzzNQKPYOo1aowgbsZnsqjmYM8zhPmV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2641,
+      "modified": "2026-08-15T09:47:49.000Z",
+      "checksum": "0e924212f4c27b5151990005a3c4e2a1",
+      "folder": false
+    },
+    {
+      "id": "1b2yC0r_3sK41R5-jcLv4POc4tylzVz_F",
+      "parent_id": "1-nzzNQKPYOo1aowgbsZnsqjmYM8zhPmV",
+      "name": "HỒN MA TRONG BIỂN MÁU.epub",
+      "mime": "application/epub+zip",
+      "size": 314471,
+      "modified": "2026-08-15T09:47:54.000Z",
+      "checksum": "e02b8bdaff7d55a695174bc63241b450",
+      "folder": false
+    },
+    {
+      "id": "1gbc_xXNcMQw50AWZQpaPDX-NtBvs2dJv",
+      "parent_id": "1-nzzNQKPYOo1aowgbsZnsqjmYM8zhPmV",
+      "name": "HỒN MA TRONG BIỂN MÁU.pdf",
+      "mime": "application/pdf",
+      "size": 400884,
+      "modified": "2026-08-15T09:47:52.000Z",
+      "checksum": "28e8e8902ef13101fa7569ce67324bc1",
+      "folder": false
+    }
+  ]
+}

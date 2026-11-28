@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MUo4ekBHu7zuexJBDlVnW8BcS4XnN56S",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mcFxiftroRyLqmpjVGsQ2PzXvsEvIFSq",
+      "parent_id": "1MUo4ekBHu7zuexJBDlVnW8BcS4XnN56S",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 878,
+      "modified": "2026-08-15T13:12:55.000Z",
+      "checksum": "769a75e168cc16a5b5713f1eaed494b1",
+      "folder": false
+    },
+    {
+      "id": "1rOtQLqJm0VxN0odjlpxdsnkzLlFwQ7UN",
+      "parent_id": "1MUo4ekBHu7zuexJBDlVnW8BcS4XnN56S",
+      "name": "TỬ VI 12 CON GIÁP.epub",
+      "mime": "application/epub+zip",
+      "size": 493076,
+      "modified": "2026-08-15T13:13:02.000Z",
+      "checksum": "dbe970a614de744131bfeafaffc08aa6",
+      "folder": false
+    },
+    {
+      "id": "15k-C_i1FB4yoM_W45qvre_1CcK6XZY0S",
+      "parent_id": "1MUo4ekBHu7zuexJBDlVnW8BcS4XnN56S",
+      "name": "TỬ VI 12 CON GIÁP.pdf",
+      "mime": "application/pdf",
+      "size": 768428,
+      "modified": "2026-08-15T13:13:00.000Z",
+      "checksum": "38c817fc1e199448238490bb6eee0982",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uerC1B_Ca9ptsxv06_gKyLqorZ9ES6G9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MLMlREdf1ifzTgvudn7N3HV4_EQT1yWN",
+      "parent_id": "1uerC1B_Ca9ptsxv06_gKyLqorZ9ES6G9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3411,
+      "modified": "2026-08-15T10:46:41.000Z",
+      "checksum": "35fda2c7e3f4480c15d52ba80cbc174a",
+      "folder": false
+    },
+    {
+      "id": "1vOt0zVRb3XE5hTsbyINVV3mnABR6LKag",
+      "parent_id": "1uerC1B_Ca9ptsxv06_gKyLqorZ9ES6G9",
+      "name": "NGHÊ THƯỜNG THIẾT Y.epub",
+      "mime": "application/epub+zip",
+      "size": 612697,
+      "modified": "2026-08-15T10:46:49.000Z",
+      "checksum": "05c50bf29c80df4d9d244ff2ab6637d7",
+      "folder": false
+    },
+    {
+      "id": "16GK5VbH985OLpjTWLg8zQHBMHaYO3N3g",
+      "parent_id": "1uerC1B_Ca9ptsxv06_gKyLqorZ9ES6G9",
+      "name": "NGHÊ THƯỜNG THIẾT Y.pdf",
+      "mime": "application/pdf",
+      "size": 983068,
+      "modified": "2026-08-15T10:46:46.000Z",
+      "checksum": "67c6b11de699ea10b51b137d6c91e8fd",
+      "folder": false
+    }
+  ]
+}

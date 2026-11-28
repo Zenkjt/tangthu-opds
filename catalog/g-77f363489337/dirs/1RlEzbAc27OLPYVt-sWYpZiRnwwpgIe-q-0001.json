@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RlEzbAc27OLPYVt-sWYpZiRnwwpgIe-q",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P7yBLd62x6BmE1xFHn5YT4szKodh__37",
+      "parent_id": "1RlEzbAc27OLPYVt-sWYpZiRnwwpgIe-q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 576,
+      "modified": "2026-08-15T15:39:49.000Z",
+      "checksum": "d4a1090222fbef866666b473df331918",
+      "folder": false
+    },
+    {
+      "id": "1E6Q1j-HhNNFieLJkGwV8xQwfNI_8Fgv4",
+      "parent_id": "1RlEzbAc27OLPYVt-sWYpZiRnwwpgIe-q",
+      "name": "NGƯỜI ĐƯA TIN.epub",
+      "mime": "application/epub+zip",
+      "size": 854634,
+      "modified": "2026-08-15T15:39:56.000Z",
+      "checksum": "3289c7a8d97238edea0e7eb5b8b02ba5",
+      "folder": false
+    },
+    {
+      "id": "1Mwlk5GahjA4P1MEvhteKsOQXHZ_e2yXM",
+      "parent_id": "1RlEzbAc27OLPYVt-sWYpZiRnwwpgIe-q",
+      "name": "NGƯỜI ĐƯA TIN.pdf",
+      "mime": "application/pdf",
+      "size": 1079762,
+      "modified": "2026-08-15T15:39:53.000Z",
+      "checksum": "65966d0c04c1c2d8d33ceec4b3073831",
+      "folder": false
+    }
+  ]
+}

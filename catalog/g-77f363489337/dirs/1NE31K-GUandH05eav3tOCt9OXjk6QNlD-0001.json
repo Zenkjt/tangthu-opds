@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NE31K-GUandH05eav3tOCt9OXjk6QNlD",
+  "page": 1,
+  "items": [
+    {
+      "id": "16BrqDB_2YuM2pWMSyGqWhAnEAZooRZc1",
+      "parent_id": "1NE31K-GUandH05eav3tOCt9OXjk6QNlD",
+      "name": "BIỂN CHẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 528602,
+      "modified": "2026-08-15T08:19:34.000Z",
+      "checksum": "79eee9a7ba2cd59a291114716e91b28d",
+      "folder": false
+    },
+    {
+      "id": "1qoW07zlf-N1cblu_jx-uXHawbO6HcqoR",
+      "parent_id": "1NE31K-GUandH05eav3tOCt9OXjk6QNlD",
+      "name": "BIỂN CHẾT.pdf",
+      "mime": "application/pdf",
+      "size": 847305,
+      "modified": "2026-08-15T08:19:30.000Z",
+      "checksum": "63c3bef78e938d32f32562e23c1d9c7b",
+      "folder": false
+    },
+    {
+      "id": "1xFCcmIlfpPnBeaZzQUqhl-wQDkEEqlft",
+      "parent_id": "1NE31K-GUandH05eav3tOCt9OXjk6QNlD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5654,
+      "modified": "2026-08-15T08:19:26.000Z",
+      "checksum": "789830c73ac8cdd8e9a79eea75fe6067",
+      "folder": false
+    }
+  ]
+}

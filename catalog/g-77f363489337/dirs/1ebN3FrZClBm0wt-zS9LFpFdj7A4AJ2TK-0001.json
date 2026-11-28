@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ebN3FrZClBm0wt-zS9LFpFdj7A4AJ2TK",
+  "page": 1,
+  "items": [
+    {
+      "id": "17oz03n3QRlfFGCWmHsS4LVIfa3L4my68",
+      "parent_id": "1ebN3FrZClBm0wt-zS9LFpFdj7A4AJ2TK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 694,
+      "modified": "2026-08-15T10:07:11.000Z",
+      "checksum": "ee0068fb1019755b39358413135eb081",
+      "folder": false
+    },
+    {
+      "id": "1g2bKdrIHb0RFF7HyqZ_PvFfz1S8qvP2c",
+      "parent_id": "1ebN3FrZClBm0wt-zS9LFpFdj7A4AJ2TK",
+      "name": "TRẬT TỰ ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 939744,
+      "modified": "2026-08-15T10:07:27.000Z",
+      "checksum": "56f579271ba9cd1a06b008fc10a62dd1",
+      "folder": false
+    },
+    {
+      "id": "11b9QlwsV32OpffYQwncX1fqQGX67-zLn",
+      "parent_id": "1ebN3FrZClBm0wt-zS9LFpFdj7A4AJ2TK",
+      "name": "TRẬT TỰ ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 1988948,
+      "modified": "2026-08-15T10:07:23.000Z",
+      "checksum": "f27c5b272e5b647d09c9c768285b8662",
+      "folder": false
+    }
+  ]
+}

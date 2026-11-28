@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CxnMNjqS7ikPCKNfjukbuJawY8yIKhbZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ujz4DxlNhkMa2y1vHnRA37szovU2Z6vK",
+      "parent_id": "1CxnMNjqS7ikPCKNfjukbuJawY8yIKhbZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3788,
+      "modified": "2026-08-15T12:37:41.000Z",
+      "checksum": "507a54c124491000a41fc132588f5bde",
+      "folder": false
+    },
+    {
+      "id": "1AAw03iHSIXDTIKUnv1d0nx4-hvnnvsWb",
+      "parent_id": "1CxnMNjqS7ikPCKNfjukbuJawY8yIKhbZ",
+      "name": "GULLIVER DU KÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 1201406,
+      "modified": "2026-08-15T12:38:00.000Z",
+      "checksum": "d68cdfa0cc3ef9d468c6a9c61864c100",
+      "folder": false
+    },
+    {
+      "id": "1gmnSihrAp3s6-2DTU2vJIPH2gELyE1ig",
+      "parent_id": "1CxnMNjqS7ikPCKNfjukbuJawY8yIKhbZ",
+      "name": "GULLIVER DU KÝ.pdf",
+      "mime": "application/pdf",
+      "size": 1271749,
+      "modified": "2026-08-15T12:37:53.000Z",
+      "checksum": "1bdc054ed282258af5336efa08717367",
+      "folder": false
+    }
+  ]
+}

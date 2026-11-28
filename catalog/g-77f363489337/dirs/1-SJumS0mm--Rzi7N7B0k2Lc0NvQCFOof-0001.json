@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-SJumS0mm--Rzi7N7B0k2Lc0NvQCFOof",
+  "page": 1,
+  "items": [
+    {
+      "id": "1L6EYy6TeFmn8IgF4bWh5403M-Zo7dsQ1",
+      "parent_id": "1-SJumS0mm--Rzi7N7B0k2Lc0NvQCFOof",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3234,
+      "modified": "2026-08-15T10:22:23.000Z",
+      "checksum": "b0d9b83bfc383f209a5cf944bc076c0d",
+      "folder": false
+    },
+    {
+      "id": "1C67s_ThdZpRmjti_g7jf9fFTJpJtWjSp",
+      "parent_id": "1-SJumS0mm--Rzi7N7B0k2Lc0NvQCFOof",
+      "name": "TÀNG PHONG.epub",
+      "mime": "application/epub+zip",
+      "size": 561520,
+      "modified": "2026-08-15T10:22:30.000Z",
+      "checksum": "d33b1085cb6fd19fbc72370c1f5fdaa4",
+      "folder": false
+    },
+    {
+      "id": "1XeDNnOTc1YVU2EdduZH6MlVRPY58osIa",
+      "parent_id": "1-SJumS0mm--Rzi7N7B0k2Lc0NvQCFOof",
+      "name": "TÀNG PHONG.pdf",
+      "mime": "application/pdf",
+      "size": 775354,
+      "modified": "2026-08-15T10:22:27.000Z",
+      "checksum": "54b013ef310b37ef7efc32d479fa4a69",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zAf5Z3efZ6nJivLwNMGyKW7_jFsrClKf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WuU2TP1un7PqDi84Wsc4zXxQPON4eK-w",
+      "parent_id": "1zAf5Z3efZ6nJivLwNMGyKW7_jFsrClKf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2088,
+      "modified": "2026-08-15T07:55:00.000Z",
+      "checksum": "6d4a43a985b8149057cb1a881d436e92",
+      "folder": false
+    },
+    {
+      "id": "1AtNLwDILuShtwM8D0RnQUaklTOXvx0y1",
+      "parent_id": "1zAf5Z3efZ6nJivLwNMGyKW7_jFsrClKf",
+      "name": "NGẬP TRÀN YÊU THƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 330714,
+      "modified": "2026-08-15T07:55:07.000Z",
+      "checksum": "4f69aa527fc53efe86ddb008f3ae559f",
+      "folder": false
+    },
+    {
+      "id": "1JQgm14To6FZIANPwEeToWbq9qvzNCNrw",
+      "parent_id": "1zAf5Z3efZ6nJivLwNMGyKW7_jFsrClKf",
+      "name": "NGẬP TRÀN YÊU THƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 986118,
+      "modified": "2026-08-15T07:55:04.000Z",
+      "checksum": "1b192b6022391a42343797db0cc87a26",
+      "folder": false
+    }
+  ]
+}

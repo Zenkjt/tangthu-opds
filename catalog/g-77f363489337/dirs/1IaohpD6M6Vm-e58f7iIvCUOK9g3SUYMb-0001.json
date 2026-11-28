@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IaohpD6M6Vm-e58f7iIvCUOK9g3SUYMb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MtmR4gQHL2AWnL0jPlM-34BUseiKR_nl",
+      "parent_id": "1IaohpD6M6Vm-e58f7iIvCUOK9g3SUYMb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 548,
+      "modified": "2026-08-16T03:52:50.000Z",
+      "checksum": "fb9d9456b48a9cdba392dafff73b6551",
+      "folder": false
+    },
+    {
+      "id": "1uXjPMyOeQIIR221ZZpErfjoBK0cK1snU",
+      "parent_id": "1IaohpD6M6Vm-e58f7iIvCUOK9g3SUYMb",
+      "name": "TRẢ HOA HỒNG CHO ĐẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 454423,
+      "modified": "2026-08-16T03:52:56.000Z",
+      "checksum": "f5573bc33fad102717c5589acbeb525d",
+      "folder": false
+    },
+    {
+      "id": "1EZ2ELl668tUS-mIqRGmvalrE1e2zcaS2",
+      "parent_id": "1IaohpD6M6Vm-e58f7iIvCUOK9g3SUYMb",
+      "name": "TRẢ HOA HỒNG CHO ĐẤT.pdf",
+      "mime": "application/pdf",
+      "size": 930627,
+      "modified": "2026-08-16T03:52:54.000Z",
+      "checksum": "80b95eba7eaf4513e0ec927d3f72af99",
+      "folder": false
+    }
+  ]
+}

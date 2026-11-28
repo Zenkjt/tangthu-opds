@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sfmnlNRYByTGS09H707wQDaQu85H4EW6",
+  "page": 1,
+  "items": [
+    {
+      "id": "12a6uxKu473Ph8MmiAsXcY3dKcAK5LCZf",
+      "parent_id": "1sfmnlNRYByTGS09H707wQDaQu85H4EW6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4198,
+      "modified": "2026-08-15T00:47:24.000Z",
+      "checksum": "4fd366b4b0e7d3a410d739d0d5543c7c",
+      "folder": false
+    },
+    {
+      "id": "1zQpJoP9NEVTIXpOcPppD5SARAZOj2qbB",
+      "parent_id": "1sfmnlNRYByTGS09H707wQDaQu85H4EW6",
+      "name": "NGHỆ THUẬT QUYẾN RŨ.epub",
+      "mime": "application/epub+zip",
+      "size": 846965,
+      "modified": "2026-08-15T00:47:38.000Z",
+      "checksum": "831bca9d13bbafa35fe64c59a040943d",
+      "folder": false
+    },
+    {
+      "id": "1BYbpigKv9Dyz26colGHA6FnQLpfA9OVr",
+      "parent_id": "1sfmnlNRYByTGS09H707wQDaQu85H4EW6",
+      "name": "NGHỆ THUẬT QUYẾN RŨ.pdf",
+      "mime": "application/pdf",
+      "size": 3106060,
+      "modified": "2026-08-15T00:47:35.000Z",
+      "checksum": "b53ba1e46fc8573b156d2ba51c2f7464",
+      "folder": false
+    }
+  ]
+}

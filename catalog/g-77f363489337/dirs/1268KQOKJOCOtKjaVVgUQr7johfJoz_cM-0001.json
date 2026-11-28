@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1268KQOKJOCOtKjaVVgUQr7johfJoz_cM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1krNJ2bbVLvUU3P1HZZv90q4Mu_PH2YPJ",
+      "parent_id": "1268KQOKJOCOtKjaVVgUQr7johfJoz_cM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3262,
+      "modified": "2026-08-15T11:31:17.000Z",
+      "checksum": "7c2cd23495b2570c69767e5a81ad51e6",
+      "folder": false
+    },
+    {
+      "id": "19SO0t_94Dv9ghsYcN10JrTu3LZdDEpXH",
+      "parent_id": "1268KQOKJOCOtKjaVVgUQr7johfJoz_cM",
+      "name": "TIẾNG ANH TRONG GIAO DỊCH THƯƠNG MẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 445348,
+      "modified": "2026-08-15T11:31:22.000Z",
+      "checksum": "2d0a1c61b33c5d7e4a9d8dd45c95c263",
+      "folder": false
+    },
+    {
+      "id": "1gpo44kFFtTirTagUsFUx53b_QDnDXgRQ",
+      "parent_id": "1268KQOKJOCOtKjaVVgUQr7johfJoz_cM",
+      "name": "TIẾNG ANH TRONG GIAO DỊCH THƯƠNG MẠI.pdf",
+      "mime": "application/pdf",
+      "size": 1137238,
+      "modified": "2026-08-15T11:31:20.000Z",
+      "checksum": "5b750fb8f2c57a4c05c5cd835d32d6a3",
+      "folder": false
+    }
+  ]
+}

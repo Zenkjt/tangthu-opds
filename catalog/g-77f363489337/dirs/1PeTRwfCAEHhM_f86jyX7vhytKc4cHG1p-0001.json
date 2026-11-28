@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PeTRwfCAEHhM_f86jyX7vhytKc4cHG1p",
+  "page": 1,
+  "items": [
+    {
+      "id": "1n8YuEoz5bUu5gkPOgn3K05OMFfF6lICQ",
+      "parent_id": "1PeTRwfCAEHhM_f86jyX7vhytKc4cHG1p",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3079,
+      "modified": "2026-08-15T08:12:16.000Z",
+      "checksum": "e4aca46e920d9389056884f0be22c534",
+      "folder": false
+    },
+    {
+      "id": "10_aVAhsX9dE07_E24DQvu0GnDrLFAJXF",
+      "parent_id": "1PeTRwfCAEHhM_f86jyX7vhytKc4cHG1p",
+      "name": "NGƯỜI TRUYỀN KÝ ỨC.epub",
+      "mime": "application/epub+zip",
+      "size": 376558,
+      "modified": "2026-08-15T08:12:22.000Z",
+      "checksum": "33cb00197bd83bf8c5ebee4daf081419",
+      "folder": false
+    },
+    {
+      "id": "1Iz8NwPJVSOcrcQfxiwr5-wr1oPWyk9GV",
+      "parent_id": "1PeTRwfCAEHhM_f86jyX7vhytKc4cHG1p",
+      "name": "NGƯỜI TRUYỀN KÝ ỨC.pdf",
+      "mime": "application/pdf",
+      "size": 579139,
+      "modified": "2026-08-15T08:12:20.000Z",
+      "checksum": "c813d25abb88cf45cc5135ec24ebc57b",
+      "folder": false
+    }
+  ]
+}

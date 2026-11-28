@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pxk2gtKmNzF-YXQdf95GN1YUWP0Ekyr3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CfZZw1Dg4Nmeu0S4cDmzjd-K7zPxwZ-Z",
+      "parent_id": "1pxk2gtKmNzF-YXQdf95GN1YUWP0Ekyr3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1861,
+      "modified": "2026-08-15T15:31:15.000Z",
+      "checksum": "ccaa221ebc12ae813e668b45ee5f0065",
+      "folder": false
+    },
+    {
+      "id": "17O7A6QXoQ5ptBogwrUhMxzX820STeCcS",
+      "parent_id": "1pxk2gtKmNzF-YXQdf95GN1YUWP0Ekyr3",
+      "name": "PHI VỤ CUỐI.epub",
+      "mime": "application/epub+zip",
+      "size": 498975,
+      "modified": "2026-08-15T15:31:41.000Z",
+      "checksum": "867d4303fbb5487faea5374271f34a9b",
+      "folder": false
+    },
+    {
+      "id": "1eUBD57fZdbRpR2KVj-33_vndxPYf3QUA",
+      "parent_id": "1pxk2gtKmNzF-YXQdf95GN1YUWP0Ekyr3",
+      "name": "PHI VỤ CUỐI.pdf",
+      "mime": "application/pdf",
+      "size": 1175972,
+      "modified": "2026-08-15T15:31:38.000Z",
+      "checksum": "555474107de7f1f86dd0d309e225306a",
+      "folder": false
+    }
+  ]
+}

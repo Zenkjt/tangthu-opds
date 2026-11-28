@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RF0Xk009jDba29rCIwH6WlMeLlKdGpBD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kZPAHLEQZN1tMgueLs3FHDOWMKO-n9SO",
+      "parent_id": "1RF0Xk009jDba29rCIwH6WlMeLlKdGpBD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2540,
+      "modified": "2026-08-15T09:29:42.000Z",
+      "checksum": "9a1b2415a69afdc3f0ecbe9f82c24fad",
+      "folder": false
+    },
+    {
+      "id": "18hBRvL4sfrvSvCr3JYKf60vBsQd84vj-",
+      "parent_id": "1RF0Xk009jDba29rCIwH6WlMeLlKdGpBD",
+      "name": "NGÀY EM ĐẾN.epub",
+      "mime": "application/epub+zip",
+      "size": 1889776,
+      "modified": "2026-08-15T09:29:55.000Z",
+      "checksum": "e041e30fc3a91d51e6e1113aabd1dfce",
+      "folder": false
+    },
+    {
+      "id": "19qSXhl7LHCA4DTwhdmmVgjCdClGIYdFY",
+      "parent_id": "1RF0Xk009jDba29rCIwH6WlMeLlKdGpBD",
+      "name": "NGÀY EM ĐẾN.pdf",
+      "mime": "application/pdf",
+      "size": 2466695,
+      "modified": "2026-08-15T09:29:50.000Z",
+      "checksum": "f036cf9142877f55232dccede970f849",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zhZ2UzfWzaqssEH5RuuEA1lA-Jr8Qytz",
+  "page": 1,
+  "items": [
+    {
+      "id": "13yvS-9NS-zv0orCbZglgWx5n_pwIQTw6",
+      "parent_id": "1zhZ2UzfWzaqssEH5RuuEA1lA-Jr8Qytz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2137,
+      "modified": "2026-08-15T08:04:45.000Z",
+      "checksum": "b0ee3185d17e0ae7488e3533f091baee",
+      "folder": false
+    },
+    {
+      "id": "17InbmdrdOTtESVfl6Z65bSTB1RL4h7k7",
+      "parent_id": "1zhZ2UzfWzaqssEH5RuuEA1lA-Jr8Qytz",
+      "name": "ĐẢO KINH HOÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 608072,
+      "modified": "2026-08-15T08:04:54.000Z",
+      "checksum": "895af695edd6dec5542617d7b1165bc9",
+      "folder": false
+    },
+    {
+      "id": "1b53m2QziodM8kxDiiLvYluMaQVMmwDvU",
+      "parent_id": "1zhZ2UzfWzaqssEH5RuuEA1lA-Jr8Qytz",
+      "name": "ĐẢO KINH HOÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 1178318,
+      "modified": "2026-08-15T08:04:51.000Z",
+      "checksum": "ad7332370728f3f69d3b556404f6684a",
+      "folder": false
+    }
+  ]
+}

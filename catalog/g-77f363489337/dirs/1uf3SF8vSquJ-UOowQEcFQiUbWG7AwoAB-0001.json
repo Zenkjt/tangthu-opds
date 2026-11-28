@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uf3SF8vSquJ-UOowQEcFQiUbWG7AwoAB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_M_MkvHQVwpW6ghrPxBlJb2Alcw8LKiJ",
+      "parent_id": "1uf3SF8vSquJ-UOowQEcFQiUbWG7AwoAB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 818,
+      "modified": "2026-08-15T11:04:04.000Z",
+      "checksum": "636fe484288b0695276d90b102310885",
+      "folder": false
+    },
+    {
+      "id": "1AOLIwWym20w0c-rxQ2Q_kSMlr32U9vi-",
+      "parent_id": "1uf3SF8vSquJ-UOowQEcFQiUbWG7AwoAB",
+      "name": "TRUYỆN KỂ ĐÊM GIÁNG SINH.epub",
+      "mime": "application/epub+zip",
+      "size": 423542,
+      "modified": "2026-08-15T11:04:13.000Z",
+      "checksum": "f496e0b80b7cf3fc3abe0c7cc8db24be",
+      "folder": false
+    },
+    {
+      "id": "1bl1-zesbp-8H3hvzp9Gw4J4UbpQYtbWa",
+      "parent_id": "1uf3SF8vSquJ-UOowQEcFQiUbWG7AwoAB",
+      "name": "TRUYỆN KỂ ĐÊM GIÁNG SINH.pdf",
+      "mime": "application/pdf",
+      "size": 715536,
+      "modified": "2026-08-15T11:04:10.000Z",
+      "checksum": "a10131eaaf8b71afae3f3ea2b848a26a",
+      "folder": false
+    }
+  ]
+}

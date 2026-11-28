@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cwkKzMjJ1hL85IOGi0DxVbea-5BdTxQM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FEVHu6cSsL-_SGJ7ojD5miF_o8NIsTq1",
+      "parent_id": "1cwkKzMjJ1hL85IOGi0DxVbea-5BdTxQM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3324,
+      "modified": "2026-08-15T10:11:21.000Z",
+      "checksum": "3e3bdeaae70d78089fe5840c08b23f75",
+      "folder": false
+    },
+    {
+      "id": "16RqCTdGbQZGOtkb_A8tns2aCiQbG21lU",
+      "parent_id": "1cwkKzMjJ1hL85IOGi0DxVbea-5BdTxQM",
+      "name": "THUYẾT TƯƠNG ĐỐI HẸP VÀ RỘNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1102933,
+      "modified": "2026-08-15T10:11:32.000Z",
+      "checksum": "bef91d44d95b750f4b3a57e747edc1b6",
+      "folder": false
+    },
+    {
+      "id": "1qnp1RSjbsdOgvPD7xxgKed8HM80UGSSC",
+      "parent_id": "1cwkKzMjJ1hL85IOGi0DxVbea-5BdTxQM",
+      "name": "THUYẾT TƯƠNG ĐỐI HẸP VÀ RỘNG.pdf",
+      "mime": "application/pdf",
+      "size": 5459786,
+      "modified": "2026-08-15T10:11:29.000Z",
+      "checksum": "dbded1a0f51a9a018864fbe7ef5cc23f",
+      "folder": false
+    }
+  ]
+}

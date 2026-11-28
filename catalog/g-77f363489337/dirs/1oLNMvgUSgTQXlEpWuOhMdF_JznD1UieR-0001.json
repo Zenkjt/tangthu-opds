@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oLNMvgUSgTQXlEpWuOhMdF_JznD1UieR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bI-dQbs3Kmg5Gb6ZzdeaK2m5yvoz8jKM",
+      "parent_id": "1oLNMvgUSgTQXlEpWuOhMdF_JznD1UieR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1906,
+      "modified": "2026-08-15T09:48:16.000Z",
+      "checksum": "5d378d1f1f0bc996d2c3357bc76cbdc9",
+      "folder": false
+    },
+    {
+      "id": "1hXYc6mVgy0uMEYd04zLaDALAVxa52iGd",
+      "parent_id": "1oLNMvgUSgTQXlEpWuOhMdF_JznD1UieR",
+      "name": "HOA HỒNG ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 840904,
+      "modified": "2026-08-15T09:48:23.000Z",
+      "checksum": "33d7934574ef313800719d67264bf3ba",
+      "folder": false
+    },
+    {
+      "id": "1zEH3Gkx8vgAhuBz4i75UFSAn5GMzIa-2",
+      "parent_id": "1oLNMvgUSgTQXlEpWuOhMdF_JznD1UieR",
+      "name": "HOA HỒNG ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 776550,
+      "modified": "2026-08-15T09:48:20.000Z",
+      "checksum": "4c36dddf35232af6034326d1b7a78bfc",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yH9wmVmT4Mq94wi9SHqQi0MeFwvK4Olg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZY4YTcyVV-sbgC1-STtrJqzlelbMqkf8",
+      "parent_id": "1yH9wmVmT4Mq94wi9SHqQi0MeFwvK4Olg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1500,
+      "modified": "2026-08-15T03:36:28.000Z",
+      "checksum": "eb28594ffb00eb03be88b6eae0aa40f4",
+      "folder": false
+    },
+    {
+      "id": "1KVddSe-AjEPO7kgApK95LP2N6iq4Bzp4",
+      "parent_id": "1yH9wmVmT4Mq94wi9SHqQi0MeFwvK4Olg",
+      "name": "TÌNH NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 267274,
+      "modified": "2026-08-15T03:36:34.000Z",
+      "checksum": "ef2fe56b3235a365b0f58604c858a33f",
+      "folder": false
+    },
+    {
+      "id": "1kjSWSLtcpPqK62Pb-OESNflf_RJ-USu8",
+      "parent_id": "1yH9wmVmT4Mq94wi9SHqQi0MeFwvK4Olg",
+      "name": "TÌNH NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 476766,
+      "modified": "2026-08-15T03:36:32.000Z",
+      "checksum": "d6f739445cb793048635134e028d6d71",
+      "folder": false
+    }
+  ]
+}

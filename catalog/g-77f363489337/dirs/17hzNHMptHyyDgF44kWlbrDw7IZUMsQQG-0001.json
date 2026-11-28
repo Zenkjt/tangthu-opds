@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17hzNHMptHyyDgF44kWlbrDw7IZUMsQQG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fFOij1CfNILdP-Og-zwxUog51PVxnn8-",
+      "parent_id": "17hzNHMptHyyDgF44kWlbrDw7IZUMsQQG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1657,
+      "modified": "2026-08-16T02:50:18.000Z",
+      "checksum": "b4c6b747db68daadc65cba70ad8f6049",
+      "folder": false
+    },
+    {
+      "id": "1P-36LStIE0ofJSQI7cd3BWlt_aq4GfQf",
+      "parent_id": "17hzNHMptHyyDgF44kWlbrDw7IZUMsQQG",
+      "name": "NHỮNG CÔ EM GÁI.epub",
+      "mime": "application/epub+zip",
+      "size": 567919,
+      "modified": "2026-08-16T02:50:25.000Z",
+      "checksum": "dca76c0b748a9100004b103cf32df876",
+      "folder": false
+    },
+    {
+      "id": "1SdE1nxFDpXrZ5fWDrKfFDM2dzXirntG_",
+      "parent_id": "17hzNHMptHyyDgF44kWlbrDw7IZUMsQQG",
+      "name": "NHỮNG CÔ EM GÁI.pdf",
+      "mime": "application/pdf",
+      "size": 593510,
+      "modified": "2026-08-16T02:50:22.000Z",
+      "checksum": "877c15ac074393caa51b74acebd78605",
+      "folder": false
+    }
+  ]
+}

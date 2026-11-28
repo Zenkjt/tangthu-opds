@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16Kvve-y6j58cf5mFXZugCUuRhwd9AzSb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1H-o2Lq7jG2b948Nf5L2UFAVhg4jcNAZA",
+      "parent_id": "16Kvve-y6j58cf5mFXZugCUuRhwd9AzSb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 481,
+      "modified": "2026-08-15T15:40:32.000Z",
+      "checksum": "eaf77bf97f6d4c611148b859e8946a59",
+      "folder": false
+    },
+    {
+      "id": "1IhjIOsLaxRaMdpHuf-nDLzo4eeEwGyeD",
+      "parent_id": "16Kvve-y6j58cf5mFXZugCUuRhwd9AzSb",
+      "name": "KẺ SĂN NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 555495,
+      "modified": "2026-08-15T15:40:39.000Z",
+      "checksum": "696d87747c15f948bcc91d024a7142b2",
+      "folder": false
+    },
+    {
+      "id": "1_b9urPEeBlnenNC_EKJK1BSVinamEB_F",
+      "parent_id": "16Kvve-y6j58cf5mFXZugCUuRhwd9AzSb",
+      "name": "KẺ SĂN NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 1019322,
+      "modified": "2026-08-15T15:40:36.000Z",
+      "checksum": "c5858552e5996155ac8b8a22966f3c99",
+      "folder": false
+    }
+  ]
+}

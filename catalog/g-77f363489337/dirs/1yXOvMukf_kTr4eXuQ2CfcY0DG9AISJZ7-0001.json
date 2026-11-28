@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yXOvMukf_kTr4eXuQ2CfcY0DG9AISJZ7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZzJghgV5Eetuw5bJzCzgIhRsgKK0o4-X",
+      "parent_id": "1yXOvMukf_kTr4eXuQ2CfcY0DG9AISJZ7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12673,
+      "modified": "2026-08-15T09:36:57.000Z",
+      "checksum": "4ba1b9c79ee6970449577606573acfec",
+      "folder": false
+    },
+    {
+      "id": "1apc_vDDrwiMOoHTx0R11dwFFoz3fZ7qv",
+      "parent_id": "1yXOvMukf_kTr4eXuQ2CfcY0DG9AISJZ7",
+      "name": "ĐẤT NƯỚC ĐỨNG LÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 209139,
+      "modified": "2026-08-15T09:37:06.000Z",
+      "checksum": "335c8025abd784004ffb54c3a67b7eec",
+      "folder": false
+    },
+    {
+      "id": "1bKBBOpU6gvptQwN4cEmyttl156XeFkQs",
+      "parent_id": "1yXOvMukf_kTr4eXuQ2CfcY0DG9AISJZ7",
+      "name": "ĐẤT NƯỚC ĐỨNG LÊN.pdf",
+      "mime": "application/pdf",
+      "size": 677539,
+      "modified": "2026-08-15T09:37:04.000Z",
+      "checksum": "48aef4b0063d1eebb7726a4620d372bd",
+      "folder": false
+    }
+  ]
+}

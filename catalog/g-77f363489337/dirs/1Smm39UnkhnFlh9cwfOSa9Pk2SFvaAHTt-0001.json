@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Smm39UnkhnFlh9cwfOSa9Pk2SFvaAHTt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UtJMvDZAsQfVizk0ts-0FBOFJi3JYK_m",
+      "parent_id": "1Smm39UnkhnFlh9cwfOSa9Pk2SFvaAHTt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11632,
+      "modified": "2026-08-15T03:50:05.000Z",
+      "checksum": "bd3bbd887116365d041109ffe8ea3670",
+      "folder": false
+    },
+    {
+      "id": "1OZpL52YOW9Wd2GC-nEjmsBSYJ-pg25ci",
+      "parent_id": "1Smm39UnkhnFlh9cwfOSa9Pk2SFvaAHTt",
+      "name": "PHẢN BỘI CHÍNH MÌNH VÀ QUY TRÌNH CHỮA LÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 276072,
+      "modified": "2026-08-15T03:50:10.000Z",
+      "checksum": "5c032e8ce7ba5319dc16e72af186cca8",
+      "folder": false
+    },
+    {
+      "id": "1lHj_W9mlFnbwzspdLKwhsKo8CnOpDUA-",
+      "parent_id": "1Smm39UnkhnFlh9cwfOSa9Pk2SFvaAHTt",
+      "name": "PHẢN BỘI CHÍNH MÌNH VÀ QUY TRÌNH CHỮA LÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 76062,
+      "modified": "2026-08-15T03:50:08.000Z",
+      "checksum": "57519a7a158465fe3e0330c1deb8792d",
+      "folder": false
+    }
+  ]
+}

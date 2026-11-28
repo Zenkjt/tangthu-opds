@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BJe9_g4ZCS8hozkNnsUife0hB8zVxXRI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1H_bsXQtZRhCXjugaFVzdDk7gPay8gjES",
+      "parent_id": "1BJe9_g4ZCS8hozkNnsUife0hB8zVxXRI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3015,
+      "modified": "2026-08-16T04:05:35.000Z",
+      "checksum": "fab85dcf33ede5de825e5bc0135affa8",
+      "folder": false
+    },
+    {
+      "id": "1wvP6ElUkx6peGvspqHTRodP5xAGYhw_Q",
+      "parent_id": "1BJe9_g4ZCS8hozkNnsUife0hB8zVxXRI",
+      "name": "QUÀ CỦA CHÚA.epub",
+      "mime": "application/epub+zip",
+      "size": 968641,
+      "modified": "2026-08-16T04:05:42.000Z",
+      "checksum": "ef6b5366f0f0cf24744dff4e337a0c83",
+      "folder": false
+    },
+    {
+      "id": "10_EbtEpArmL6dsyVIHGfY7oO40yGWnsU",
+      "parent_id": "1BJe9_g4ZCS8hozkNnsUife0hB8zVxXRI",
+      "name": "QUÀ CỦA CHÚA.pdf",
+      "mime": "application/pdf",
+      "size": 1373157,
+      "modified": "2026-08-16T04:05:39.000Z",
+      "checksum": "93fedd936213b1996e254b950947271b",
+      "folder": false
+    }
+  ]
+}

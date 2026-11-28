@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-1I1o4ouaqfnucuWVbzor7wVfBpgiCru",
+  "page": 1,
+  "items": [
+    {
+      "id": "10he9zH0iE77HMyBpws5Mmeq353WCELSN",
+      "parent_id": "1-1I1o4ouaqfnucuWVbzor7wVfBpgiCru",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3207,
+      "modified": "2026-08-16T03:57:36.000Z",
+      "checksum": "1c1c52d350e5783b357696214fd7475c",
+      "folder": false
+    },
+    {
+      "id": "1tRpv1ch5l85FKymhpICB-54gtXLy17hq",
+      "parent_id": "1-1I1o4ouaqfnucuWVbzor7wVfBpgiCru",
+      "name": "THIẾP KHUYNH THÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 1806652,
+      "modified": "2026-08-16T03:57:52.000Z",
+      "checksum": "a43adf41c5fd8aa1a45f597d8ed8158d",
+      "folder": false
+    },
+    {
+      "id": "1hwDm-gK1wFa6JbuWS6s1zqkmJEnVQ8so",
+      "parent_id": "1-1I1o4ouaqfnucuWVbzor7wVfBpgiCru",
+      "name": "THIẾP KHUYNH THÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 7323490,
+      "modified": "2026-08-16T03:57:49.000Z",
+      "checksum": "a347e2a7814c436e4a9418e19a1a5a5a",
+      "folder": false
+    }
+  ]
+}

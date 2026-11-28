@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eBQppCJZw-YPm56ftYe88aa9JF2LAxet",
+  "page": 1,
+  "items": [
+    {
+      "id": "1R0qPxsgZ4YSo5VXtc98aljFvHti2qdpn",
+      "parent_id": "1eBQppCJZw-YPm56ftYe88aa9JF2LAxet",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7007,
+      "modified": "2026-08-15T05:53:00.000Z",
+      "checksum": "49b1426d5028ec48a8b0324bd57a99d0",
+      "folder": false
+    },
+    {
+      "id": "1qPq0HBgSkglNcZENP4ppsZg1mEr2xFQ4",
+      "parent_id": "1eBQppCJZw-YPm56ftYe88aa9JF2LAxet",
+      "name": "NHỮNG BÍ MẬT VỀ CHIẾN TRANH VIỆT NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 820995,
+      "modified": "2026-08-15T05:53:09.000Z",
+      "checksum": "3e4c7ecc90544bcf19bb6eb15590cd14",
+      "folder": false
+    },
+    {
+      "id": "1XziPV0kfNiml_D0g3en72QNo5-l1leRn",
+      "parent_id": "1eBQppCJZw-YPm56ftYe88aa9JF2LAxet",
+      "name": "NHỮNG BÍ MẬT VỀ CHIẾN TRANH VIỆT NAM.pdf",
+      "mime": "application/pdf",
+      "size": 2687234,
+      "modified": "2026-08-15T05:53:06.000Z",
+      "checksum": "01bb1b0f40f0b73ed2cb73b4d5f495c2",
+      "folder": false
+    }
+  ]
+}

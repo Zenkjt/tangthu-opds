@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1R7d1orxCovXkQEuXEvOJzV0TKpORMLCS",
+  "page": 1,
+  "items": [
+    {
+      "id": "14H9TQmqBfrx1wu-BAN6UDvcZb0UmLY9Y",
+      "parent_id": "1R7d1orxCovXkQEuXEvOJzV0TKpORMLCS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3431,
+      "modified": "2026-08-15T10:18:33.000Z",
+      "checksum": "8caf4490261fe9b438622ae85c80a969",
+      "folder": false
+    },
+    {
+      "id": "1B5mG3AGDX-3Ntbj7X0_xoIB2t-5fzGyZ",
+      "parent_id": "1R7d1orxCovXkQEuXEvOJzV0TKpORMLCS",
+      "name": "THẢM HỌA TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 427447,
+      "modified": "2026-08-15T10:18:47.000Z",
+      "checksum": "072da921549759db8d99524bdcc62d76",
+      "folder": false
+    },
+    {
+      "id": "1zs4jKGYl98fK36E8NUjZtUtQexrdAEQx",
+      "parent_id": "1R7d1orxCovXkQEuXEvOJzV0TKpORMLCS",
+      "name": "THẢM HỌA TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 912437,
+      "modified": "2026-08-15T10:18:44.000Z",
+      "checksum": "947b81acefcc9316cdee1fa8e0b939d1",
+      "folder": false
+    }
+  ]
+}

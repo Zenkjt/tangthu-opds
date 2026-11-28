@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mFKPNTM6PxdTIC7LLd8G0TH-GhBEKcBL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1m07nnkLUDnjGFcXlDBR3K4cSo-xExGmu",
+      "parent_id": "1mFKPNTM6PxdTIC7LLd8G0TH-GhBEKcBL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3497,
+      "modified": "2026-08-15T07:37:10.000Z",
+      "checksum": "8750a179285389880e337e942c0c311a",
+      "folder": false
+    },
+    {
+      "id": "1D3J-lxBir1aub_Y_9TPZLPFleZeS52VL",
+      "parent_id": "1mFKPNTM6PxdTIC7LLd8G0TH-GhBEKcBL",
+      "name": "TÊN CỦA ĐÓA HỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 827570,
+      "modified": "2026-08-15T07:37:19.000Z",
+      "checksum": "28c915da34469982d329eb903778fb3f",
+      "folder": false
+    },
+    {
+      "id": "1LkCBkkSEA-IU7ySYuPFxW4HjWNqQtwyB",
+      "parent_id": "1mFKPNTM6PxdTIC7LLd8G0TH-GhBEKcBL",
+      "name": "TÊN CỦA ĐÓA HỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 1896913,
+      "modified": "2026-08-15T07:37:16.000Z",
+      "checksum": "7ab3935f6f2489b01f20dfdd6b0dcd45",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Lk4u1kimjTkPRQuhkfdn7uWR8hpu_jmn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VZSeeP1OQ7KmUEV9IcamcvBWteNabtUa",
+      "parent_id": "1Lk4u1kimjTkPRQuhkfdn7uWR8hpu_jmn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6027,
+      "modified": "2026-08-15T17:04:33.000Z",
+      "checksum": "d78eab0a8fa5fc16d788bc987a69f338",
+      "folder": false
+    },
+    {
+      "id": "1DTTkAW91YImjyC1bFcC23x3Ta_aHOoYZ",
+      "parent_id": "1Lk4u1kimjTkPRQuhkfdn7uWR8hpu_jmn",
+      "name": "ĐẠO MỘ CHI TẾ PHẨM.epub",
+      "mime": "application/epub+zip",
+      "size": 1211512,
+      "modified": "2026-08-15T17:04:47.000Z",
+      "checksum": "f4cc597c1a5ab56f63cd075b5a5235f8",
+      "folder": false
+    },
+    {
+      "id": "12c-CYMpNctnl9P434bZPH8gyeY6QEkvM",
+      "parent_id": "1Lk4u1kimjTkPRQuhkfdn7uWR8hpu_jmn",
+      "name": "ĐẠO MỘ CHI TẾ PHẨM.pdf",
+      "mime": "application/pdf",
+      "size": 4909457,
+      "modified": "2026-08-15T17:04:44.000Z",
+      "checksum": "73bff694dc8a7d7ba1c09fcae8f8ea03",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1A4V9e_Xn2HdMJ8bOGmAy8iHV4qNRAI-n",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WB584k-deOlqcpU0xZLJbuHKeeK5cQBI",
+      "parent_id": "1A4V9e_Xn2HdMJ8bOGmAy8iHV4qNRAI-n",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3422,
+      "modified": "2026-08-15T03:56:36.000Z",
+      "checksum": "4c676bf3070baf58a3c8e534787efb38",
+      "folder": false
+    },
+    {
+      "id": "1jUMy91muwnL3DfCTIoDylhdYaIP3-Xl8",
+      "parent_id": "1A4V9e_Xn2HdMJ8bOGmAy8iHV4qNRAI-n",
+      "name": "KINH DỊCH VỚI ĐÔNG Y.epub",
+      "mime": "application/epub+zip",
+      "size": 374231,
+      "modified": "2026-08-15T03:56:41.000Z",
+      "checksum": "d73d83c5625c7cd0097baceae4f458a6",
+      "folder": false
+    },
+    {
+      "id": "1lbfe0bImS9QHGQ7Zqxvn0pxolwCbpKu5",
+      "parent_id": "1A4V9e_Xn2HdMJ8bOGmAy8iHV4qNRAI-n",
+      "name": "KINH DỊCH VỚI ĐÔNG Y.pdf",
+      "mime": "application/pdf",
+      "size": 322363,
+      "modified": "2026-08-15T03:56:39.000Z",
+      "checksum": "31faf806888d8cc98d89d391689465ee",
+      "folder": false
+    }
+  ]
+}

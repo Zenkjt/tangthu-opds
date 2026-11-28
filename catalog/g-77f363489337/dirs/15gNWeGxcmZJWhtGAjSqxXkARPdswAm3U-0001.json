@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15gNWeGxcmZJWhtGAjSqxXkARPdswAm3U",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qJTWMjr9SP1hx0qrTfvxf-KE8vvhIWkg",
+      "parent_id": "15gNWeGxcmZJWhtGAjSqxXkARPdswAm3U",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3377,
+      "modified": "2026-08-15T10:30:53.000Z",
+      "checksum": "866813fea889dad5dc363b8c33a3acc6",
+      "folder": false
+    },
+    {
+      "id": "1AF1YtxgrS8LXe4wngCCRnjcWP_bOUVzK",
+      "parent_id": "15gNWeGxcmZJWhtGAjSqxXkARPdswAm3U",
+      "name": "QUỐC TƯỚNG GIA THẦN TOÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 1020262,
+      "modified": "2026-08-15T10:31:03.000Z",
+      "checksum": "d87c252975b24705cf2384d0c86558d5",
+      "folder": false
+    },
+    {
+      "id": "1suQ4oHHNxHIs60ltjbKWHrEyHkiAS1kh",
+      "parent_id": "15gNWeGxcmZJWhtGAjSqxXkARPdswAm3U",
+      "name": "QUỐC TƯỚNG GIA THẦN TOÁN.pdf",
+      "mime": "application/pdf",
+      "size": 3293438,
+      "modified": "2026-08-15T10:31:00.000Z",
+      "checksum": "af5007b8dcc98a474e073f3b9a39066e",
+      "folder": false
+    }
+  ]
+}

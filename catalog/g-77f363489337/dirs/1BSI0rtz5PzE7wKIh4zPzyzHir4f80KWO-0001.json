@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BSI0rtz5PzE7wKIh4zPzyzHir4f80KWO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CEvdwEvp5jnLe49q_WqAHK4wKRcuEIJC",
+      "parent_id": "1BSI0rtz5PzE7wKIh4zPzyzHir4f80KWO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5771,
+      "modified": "2026-08-15T07:28:01.000Z",
+      "checksum": "f5edad2b124f512e4dc2b67726669a61",
+      "folder": false
+    },
+    {
+      "id": "17WUyI6M8PBZaw9T4MIsweBnWqg2Kk_hJ",
+      "parent_id": "1BSI0rtz5PzE7wKIh4zPzyzHir4f80KWO",
+      "name": "VĨNH BIỆT FACEBOOK.epub",
+      "mime": "application/epub+zip",
+      "size": 561300,
+      "modified": "2026-08-15T07:28:08.000Z",
+      "checksum": "5af0939d06cb8f4e85f4ff9dc9d43711",
+      "folder": false
+    },
+    {
+      "id": "1wkDbZINeMl0uYpo3sfkr66nUpbA1Jo2e",
+      "parent_id": "1BSI0rtz5PzE7wKIh4zPzyzHir4f80KWO",
+      "name": "VĨNH BIỆT FACEBOOK.pdf",
+      "mime": "application/pdf",
+      "size": 825287,
+      "modified": "2026-08-15T07:28:05.000Z",
+      "checksum": "63ef0f9e82b6c24f0a3392ec1540a2fa",
+      "folder": false
+    }
+  ]
+}

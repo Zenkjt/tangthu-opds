@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TiRFUzMnUo6P3IgZYUbY5ftFOsD0QlsB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QGwtBemG5prxLmNh-PuJ4lW8aEWDCRKB",
+      "parent_id": "1TiRFUzMnUo6P3IgZYUbY5ftFOsD0QlsB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 520,
+      "modified": "2026-08-16T03:52:28.000Z",
+      "checksum": "8371e58b0615312840df44fc76198cbf",
+      "folder": false
+    },
+    {
+      "id": "1VNqWh4osDYiDVrNRBQTZwaR-e10Muqv5",
+      "parent_id": "1TiRFUzMnUo6P3IgZYUbY5ftFOsD0QlsB",
+      "name": "TRUYỆN HAI NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 202002,
+      "modified": "2026-08-16T03:52:33.000Z",
+      "checksum": "331188b8b7bcff2febc49e9077672ec2",
+      "folder": false
+    },
+    {
+      "id": "1pBD7sfBJZ4WnEFw6E-qMe_ea7yFA2cFM",
+      "parent_id": "1TiRFUzMnUo6P3IgZYUbY5ftFOsD0QlsB",
+      "name": "TRUYỆN HAI NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 333193,
+      "modified": "2026-08-16T03:52:31.000Z",
+      "checksum": "e01832899b4ad233a31ce7f5f0e39cbd",
+      "folder": false
+    }
+  ]
+}

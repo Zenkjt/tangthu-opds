@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DGBcLIV-8JKUQTPQtk9BQNYKrxSIV_Lt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uTRQXSQG21wjlpEHRgNvG9Mo5Y05OEl7",
+      "parent_id": "1DGBcLIV-8JKUQTPQtk9BQNYKrxSIV_Lt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3124,
+      "modified": "2026-08-15T10:08:55.000Z",
+      "checksum": "77cb572ca441209427612084cd84fb7f",
+      "folder": false
+    },
+    {
+      "id": "1I8iVWUI_nKGaXuUbHw1Avumuj8KIaRYm",
+      "parent_id": "1DGBcLIV-8JKUQTPQtk9BQNYKrxSIV_Lt",
+      "name": "TÌNH HÉ MÔI SẦU.epub",
+      "mime": "application/epub+zip",
+      "size": 669180,
+      "modified": "2026-08-15T10:09:02.000Z",
+      "checksum": "f985ca6bfa2aafb1323f4679af78ce75",
+      "folder": false
+    },
+    {
+      "id": "177PVs7_xSy8G6-h2R2uG835Y7rwIEWBY",
+      "parent_id": "1DGBcLIV-8JKUQTPQtk9BQNYKrxSIV_Lt",
+      "name": "TÌNH HÉ MÔI SẦU.pdf",
+      "mime": "application/pdf",
+      "size": 1227906,
+      "modified": "2026-08-15T10:08:59.000Z",
+      "checksum": "e25517275e04f84b393b765872ea2749",
+      "folder": false
+    }
+  ]
+}

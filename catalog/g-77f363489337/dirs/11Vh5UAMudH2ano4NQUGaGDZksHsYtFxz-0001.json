@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11Vh5UAMudH2ano4NQUGaGDZksHsYtFxz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QOweG5V15Pj4G-aiECf1lLEOQV3aMqzr",
+      "parent_id": "11Vh5UAMudH2ano4NQUGaGDZksHsYtFxz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3328,
+      "modified": "2026-08-15T03:18:45.000Z",
+      "checksum": "7ff442781e6a782855603940728cc16b",
+      "folder": false
+    },
+    {
+      "id": "1K3kP8ZpmYAjGJqLXiWsi1fVYa8IVkgsE",
+      "parent_id": "11Vh5UAMudH2ano4NQUGaGDZksHsYtFxz",
+      "name": "NỀN GIÁO DỤC CỦA NGƯỜI GIÀU.epub",
+      "mime": "application/epub+zip",
+      "size": 472984,
+      "modified": "2026-08-15T03:18:51.000Z",
+      "checksum": "0c187d76f9628930871a1ea234d10bd8",
+      "folder": false
+    },
+    {
+      "id": "1TO0pRQMNI4RVcGKKXkasgS0kDqmImY4N",
+      "parent_id": "11Vh5UAMudH2ano4NQUGaGDZksHsYtFxz",
+      "name": "NỀN GIÁO DỤC CỦA NGƯỜI GIÀU.pdf",
+      "mime": "application/pdf",
+      "size": 628625,
+      "modified": "2026-08-15T03:18:49.000Z",
+      "checksum": "4d60147a75bd99833e3f5d38184f1e42",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RCy72PTZ4VdGGrp2AbifN0aeuPfVxx7J",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SXJNgG507yoXanmL-ohYK0WkBSrvlIQs",
+      "parent_id": "1RCy72PTZ4VdGGrp2AbifN0aeuPfVxx7J",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2949,
+      "modified": "2026-08-16T04:10:42.000Z",
+      "checksum": "900a6d0e4039bda5fb6030aae14459ff",
+      "folder": false
+    },
+    {
+      "id": "1qZxNMpPopncN8vLkqAEixjCi1QolXFnp",
+      "parent_id": "1RCy72PTZ4VdGGrp2AbifN0aeuPfVxx7J",
+      "name": "NHU PHONG.epub",
+      "mime": "application/epub+zip",
+      "size": 559788,
+      "modified": "2026-08-16T04:11:03.000Z",
+      "checksum": "2abc221521a1af49adb71f3e33dc950e",
+      "folder": false
+    },
+    {
+      "id": "1XgISZgWo4w2PqoS_S7i772ybx9JKFFu6",
+      "parent_id": "1RCy72PTZ4VdGGrp2AbifN0aeuPfVxx7J",
+      "name": "NHU PHONG.pdf",
+      "mime": "application/pdf",
+      "size": 1598288,
+      "modified": "2026-08-16T04:10:54.000Z",
+      "checksum": "3927a5e44605ca30f4307a50ac67c98c",
+      "folder": false
+    }
+  ]
+}

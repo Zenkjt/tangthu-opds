@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cdRlPl7EG3zc2DQ9WViKLzjLnrFiNHUC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lb1yIjIoSMkfk-K1WBQxsfQ2Fs7ga3qq",
+      "parent_id": "1cdRlPl7EG3zc2DQ9WViKLzjLnrFiNHUC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6757,
+      "modified": "2026-08-15T03:24:31.000Z",
+      "checksum": "95df845d358759110a65b6848ab4552c",
+      "folder": false
+    },
+    {
+      "id": "1nizsZzuZ-pBv_Ty7yy7fcRv5yVNeXlh8",
+      "parent_id": "1cdRlPl7EG3zc2DQ9WViKLzjLnrFiNHUC",
+      "name": "SÁU CHIẾC MŨ TƯ DUY.epub",
+      "mime": "application/epub+zip",
+      "size": 328083,
+      "modified": "2026-08-15T03:24:36.000Z",
+      "checksum": "f6ca1c3f49381413302101f516139abf",
+      "folder": false
+    },
+    {
+      "id": "1g1-5U0nTccvW4lhnV5r42UvY8EralzPi",
+      "parent_id": "1cdRlPl7EG3zc2DQ9WViKLzjLnrFiNHUC",
+      "name": "SÁU CHIẾC MŨ TƯ DUY.pdf",
+      "mime": "application/pdf",
+      "size": 564443,
+      "modified": "2026-08-15T03:24:34.000Z",
+      "checksum": "03a35e8c1380db0b156d42652d76387d",
+      "folder": false
+    }
+  ]
+}

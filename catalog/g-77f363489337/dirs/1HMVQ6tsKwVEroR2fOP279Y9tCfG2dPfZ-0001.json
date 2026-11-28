@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HMVQ6tsKwVEroR2fOP279Y9tCfG2dPfZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CoI46MdXf-sSZ6UDE8rVtWFZST7yIOQp",
+      "parent_id": "1HMVQ6tsKwVEroR2fOP279Y9tCfG2dPfZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2834,
+      "modified": "2026-08-15T12:51:38.000Z",
+      "checksum": "f28c8dc8cc120bde86583768ff0a19ff",
+      "folder": false
+    },
+    {
+      "id": "1T2hunHc6v60d3wo9b2d9X9PpfH1gQ9M_",
+      "parent_id": "1HMVQ6tsKwVEroR2fOP279Y9tCfG2dPfZ",
+      "name": "DƯỚI VÒM KÝ ỨC.epub",
+      "mime": "application/epub+zip",
+      "size": 449318,
+      "modified": "2026-08-15T12:51:48.000Z",
+      "checksum": "117c5880c9be8e0b943c327c69463768",
+      "folder": false
+    },
+    {
+      "id": "1XvUIs5FM4DqEtEtDj4i2R63Wa8WnIdAi",
+      "parent_id": "1HMVQ6tsKwVEroR2fOP279Y9tCfG2dPfZ",
+      "name": "DƯỚI VÒM KÝ ỨC.pdf",
+      "mime": "application/pdf",
+      "size": 375807,
+      "modified": "2026-08-15T12:51:42.000Z",
+      "checksum": "33c8f6ed363cc6773db3ab802b9f2358",
+      "folder": false
+    }
+  ]
+}

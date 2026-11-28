@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XJuj7USHUxh_jCmXU4o2CbXPMcL7E3lm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JRo9ILdaM5BqeJWLYFppR4jAfgcFh7QX",
+      "parent_id": "1XJuj7USHUxh_jCmXU4o2CbXPMcL7E3lm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3120,
+      "modified": "2026-08-16T03:58:14.000Z",
+      "checksum": "1b652b9bc87b0bcc11e256574b61e22e",
+      "folder": false
+    },
+    {
+      "id": "1hMCyr2HD5qlniHPSWJc9T6VAX-ElRLKy",
+      "parent_id": "1XJuj7USHUxh_jCmXU4o2CbXPMcL7E3lm",
+      "name": "THIÊN ĐƯỜNG CÓ THỂ ĐỢI.epub",
+      "mime": "application/epub+zip",
+      "size": 456399,
+      "modified": "2026-08-16T03:58:22.000Z",
+      "checksum": "2a781dcfc4fafc4774b6d96ac1e4e382",
+      "folder": false
+    },
+    {
+      "id": "1dQGIuORr_p-CbsqPqo_yIPBAqH5TI7XK",
+      "parent_id": "1XJuj7USHUxh_jCmXU4o2CbXPMcL7E3lm",
+      "name": "THIÊN ĐƯỜNG CÓ THỂ ĐỢI.pdf",
+      "mime": "application/pdf",
+      "size": 1414696,
+      "modified": "2026-08-16T03:58:19.000Z",
+      "checksum": "791f4bb5aa31147155e6a28e6c786cee",
+      "folder": false
+    }
+  ]
+}

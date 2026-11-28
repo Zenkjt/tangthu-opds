@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WPkK1wCVK-CAhbh9YrvwwRTvlyUMKiVR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dH3VVK-4ewllvzNbe0s2PXjkbg1axCP9",
+      "parent_id": "1WPkK1wCVK-CAhbh9YrvwwRTvlyUMKiVR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1104,
+      "modified": "2026-08-15T15:46:12.000Z",
+      "checksum": "74827b6ccdcb08caa62659d59d9f4b28",
+      "folder": false
+    },
+    {
+      "id": "1ET3xGXgAi3qkuv7XwnXGHY5kBPIE9C2Q",
+      "parent_id": "1WPkK1wCVK-CAhbh9YrvwwRTvlyUMKiVR",
+      "name": "HOAN NGHÊNH ĐẾN NHÀ TRẠCH NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 923288,
+      "modified": "2026-08-15T15:47:14.000Z",
+      "checksum": "72fe294578542aebd8a8f07de61ec0ef",
+      "folder": false
+    },
+    {
+      "id": "1FRkV-LzPI6p8XLAHkgtz5vDX16SLtnx8",
+      "parent_id": "1WPkK1wCVK-CAhbh9YrvwwRTvlyUMKiVR",
+      "name": "HOAN NGHÊNH ĐẾN NHÀ TRẠCH NAM.pdf",
+      "mime": "application/pdf",
+      "size": 1810802,
+      "modified": "2026-08-15T15:47:11.000Z",
+      "checksum": "b3f7e3683eff56f99dc4125c58ed89bc",
+      "folder": false
+    }
+  ]
+}

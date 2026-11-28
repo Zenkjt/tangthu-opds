@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KDVPRychkUlNlRJXa1dWf9gwzNl45OCT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PyX1mHUr62-IC0NJLBESEyFns-PrkAuF",
+      "parent_id": "1KDVPRychkUlNlRJXa1dWf9gwzNl45OCT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2937,
+      "modified": "2026-08-16T03:55:09.000Z",
+      "checksum": "9df0c6076c0bfdfe7d3cff5ecd3d595b",
+      "folder": false
+    },
+    {
+      "id": "1YluixN5ZbanKvMveBI1LkOoEHOcZ9bRM",
+      "parent_id": "1KDVPRychkUlNlRJXa1dWf9gwzNl45OCT",
+      "name": "TIỂU MINH TINH.epub",
+      "mime": "application/epub+zip",
+      "size": 258570,
+      "modified": "2026-08-16T03:55:16.000Z",
+      "checksum": "139da28b7fd60c226b54ea8d0f84f1ed",
+      "folder": false
+    },
+    {
+      "id": "1K0iykHSK4U6lhHtWuPvUqA87lm-rCzgB",
+      "parent_id": "1KDVPRychkUlNlRJXa1dWf9gwzNl45OCT",
+      "name": "TIỂU MINH TINH.pdf",
+      "mime": "application/pdf",
+      "size": 755995,
+      "modified": "2026-08-16T03:55:14.000Z",
+      "checksum": "5659a316ab5fdd630a453cc93095d100",
+      "folder": false
+    }
+  ]
+}

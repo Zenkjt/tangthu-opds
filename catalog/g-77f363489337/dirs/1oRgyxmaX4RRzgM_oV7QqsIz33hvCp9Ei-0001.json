@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oRgyxmaX4RRzgM_oV7QqsIz33hvCp9Ei",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hPDl7JauIbTR8z8GnWNamK40-AQqucTX",
+      "parent_id": "1oRgyxmaX4RRzgM_oV7QqsIz33hvCp9Ei",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3411,
+      "modified": "2026-08-16T03:58:07.000Z",
+      "checksum": "064ee74e80609d3ec13abbc2a4cd9026",
+      "folder": false
+    },
+    {
+      "id": "1XTbxWdawNcK1wR5h0C7tunzBsAQcL5RK",
+      "parent_id": "1oRgyxmaX4RRzgM_oV7QqsIz33hvCp9Ei",
+      "name": "THIÊN SƠN MỘ TUYẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 547849,
+      "modified": "2026-08-16T03:58:15.000Z",
+      "checksum": "8a593ff091bd452a420ff55fa4b8fd5a",
+      "folder": false
+    },
+    {
+      "id": "1nkA6MfBRoqJxm3FzOdjZvL-44e55flAa",
+      "parent_id": "1oRgyxmaX4RRzgM_oV7QqsIz33hvCp9Ei",
+      "name": "THIÊN SƠN MỘ TUYẾT.pdf",
+      "mime": "application/pdf",
+      "size": 2055850,
+      "modified": "2026-08-16T03:58:12.000Z",
+      "checksum": "e5f444feaa4159d994de9bb232ab632d",
+      "folder": false
+    }
+  ]
+}

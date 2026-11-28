@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZvK2OZpUOP8zKgcUk-V3YDmtdKBHEi9_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Is8uXCkJFDvilf4KpGPjxHDF-e3zFRGb",
+      "parent_id": "1ZvK2OZpUOP8zKgcUk-V3YDmtdKBHEi9_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1205,
+      "modified": "2026-08-15T07:09:30.000Z",
+      "checksum": "135ac2c73e53b37ffbf79411831a1fcf",
+      "folder": false
+    },
+    {
+      "id": "1YbbFAAN1WVL_kjFo4p2bvbNfjUHhzocF",
+      "parent_id": "1ZvK2OZpUOP8zKgcUk-V3YDmtdKBHEi9_",
+      "name": "SÂU LẮNG LỜI NGUYỀN.epub",
+      "mime": "application/epub+zip",
+      "size": 324493,
+      "modified": "2026-08-15T07:09:37.000Z",
+      "checksum": "156efb81a2960ec2b70d3335ea05b5e9",
+      "folder": false
+    },
+    {
+      "id": "1VePb8m4ez-6BC5RQUJLv3aXYuoo9kOx6",
+      "parent_id": "1ZvK2OZpUOP8zKgcUk-V3YDmtdKBHEi9_",
+      "name": "SÂU LẮNG LỜI NGUYỀN.pdf",
+      "mime": "application/pdf",
+      "size": 960562,
+      "modified": "2026-08-15T07:09:34.000Z",
+      "checksum": "635f9d9b42d794419d3eaa3001d1e1a1",
+      "folder": false
+    }
+  ]
+}

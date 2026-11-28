@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LZJPM7YHkGSjiXBwTlxW8-mKoutcmvzz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Erx6dTu2hOMY401e7qkeHuzCD5vbyzWr",
+      "parent_id": "1LZJPM7YHkGSjiXBwTlxW8-mKoutcmvzz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4696,
+      "modified": "2026-08-15T09:49:56.000Z",
+      "checksum": "b765f43e177a7b43cadf09835c3be318",
+      "folder": false
+    },
+    {
+      "id": "1mAYuOwSeBHSzsi0ycTYnk5DmLSlA76hY",
+      "parent_id": "1LZJPM7YHkGSjiXBwTlxW8-mKoutcmvzz",
+      "name": "EM LÀ CỦA ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 1019798,
+      "modified": "2026-08-15T09:50:03.000Z",
+      "checksum": "5ba1a568e6ccadaae7424d79f8d91789",
+      "folder": false
+    },
+    {
+      "id": "1eGLTAIpVuVphBoxu2HoZwetfu0myUrtU",
+      "parent_id": "1LZJPM7YHkGSjiXBwTlxW8-mKoutcmvzz",
+      "name": "EM LÀ CỦA ANH.pdf",
+      "mime": "application/pdf",
+      "size": 1172887,
+      "modified": "2026-08-15T09:50:00.000Z",
+      "checksum": "a9afd8c04e0ee5327897fa789401b080",
+      "folder": false
+    }
+  ]
+}

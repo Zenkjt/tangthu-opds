@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1y4RwRCXosGhBQZvC9hE1kvnS1PIq8Dlf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-eZTsWXzI-oSreNgiscNJ-GMsUvHDVwj",
+      "parent_id": "1y4RwRCXosGhBQZvC9hE1kvnS1PIq8Dlf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4881,
+      "modified": "2026-08-15T03:52:10.000Z",
+      "checksum": "155677a9d7df0e0c293dcfb0a73a0ee4",
+      "folder": false
+    },
+    {
+      "id": "1dMCeAD1Ciakl3JHE28vCN5OqL8GzXkJu",
+      "parent_id": "1y4RwRCXosGhBQZvC9hE1kvnS1PIq8Dlf",
+      "name": "ĐỊNH MỆNH LINH HỒN.epub",
+      "mime": "application/epub+zip",
+      "size": 297554,
+      "modified": "2026-08-15T03:52:15.000Z",
+      "checksum": "b98e950c9650a661f452d636835b4d88",
+      "folder": false
+    },
+    {
+      "id": "1zkznAbDBYpPdx-jiwkHu9jYTOmXQgCiZ",
+      "parent_id": "1y4RwRCXosGhBQZvC9hE1kvnS1PIq8Dlf",
+      "name": "ĐỊNH MỆNH LINH HỒN.pdf",
+      "mime": "application/pdf",
+      "size": 338718,
+      "modified": "2026-08-15T03:52:13.000Z",
+      "checksum": "869e41b6a38e7d9512cd766fd6d5a7da",
+      "folder": false
+    }
+  ]
+}

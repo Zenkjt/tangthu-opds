@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "branch_id": "g-69f1b7458b70",
+  "folder_id": "10CoPU6SN7vuRiQgETMs2y9WnqaMDmMeR",
+  "page": 1,
+  "items": [
+    {
+      "id": "12_CHl1FRutuA_zKNDYIYfr4icuPRlAy6",
+      "parent_id": "10CoPU6SN7vuRiQgETMs2y9WnqaMDmMeR",
+      "name": "Thien Ha Ba Xuong - Ma Thoi Den",
+      "mime": "application/vnd.google-apps.folder",
+      "size": 0,
+      "modified": "2026-04-16T04:32:30.233Z",
+      "folder": true
+    },
+    {
+      "id": "1omWkUu8YlT5GdCXVo8jH9QhzAYPwL3am",
+      "parent_id": "10CoPU6SN7vuRiQgETMs2y9WnqaMDmMeR",
+      "name": "Ma Thoi Den - Thien Ha Ba Xuong.azw3",
+      "mime": "application/octet-stream",
+      "size": 6119564,
+      "modified": "2026-04-11T19:15:54.519Z",
+      "checksum": "53b276c88e4587e9a80a04245486ee84",
+      "folder": false
+    },
+    {
+      "id": "1W0PDs0D5LS91qhRIlnhuJ_uFJLg2oOwY",
+      "parent_id": "10CoPU6SN7vuRiQgETMs2y9WnqaMDmMeR",
+      "name": "Ma Thoi Den - Thien Ha Ba Xuong.epub",
+      "mime": "application/epub+zip",
+      "size": 3870820,
+      "modified": "2026-04-11T19:15:54.519Z",
+      "checksum": "0634172463792311dbf2fb9041ba0b5b",
+      "folder": false
+    }
+  ]
+}

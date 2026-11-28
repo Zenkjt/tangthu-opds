@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1i1DqGv-Mokzf3pnSM9t_RgiOiQFSwvdN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Gr5n-vLbGuZLYun7X8E2sR6_i3aCnwO3",
+      "parent_id": "1i1DqGv-Mokzf3pnSM9t_RgiOiQFSwvdN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6863,
+      "modified": "2026-08-15T03:45:52.000Z",
+      "checksum": "b3462964a1165b493453879908db5213",
+      "folder": false
+    },
+    {
+      "id": "1dWpoiOv8bi9HRN8cYUZJTSMeGb5dwkxj",
+      "parent_id": "1i1DqGv-Mokzf3pnSM9t_RgiOiQFSwvdN",
+      "name": "THIỀN THƯ TÂY TẠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1174022,
+      "modified": "2026-08-15T03:45:59.000Z",
+      "checksum": "c69f374572ac37380ce8a086bc56e64f",
+      "folder": false
+    },
+    {
+      "id": "1QPWIvRMWM56CTtnicGfQr8Xboie7CGT1",
+      "parent_id": "1i1DqGv-Mokzf3pnSM9t_RgiOiQFSwvdN",
+      "name": "THIỀN THƯ TÂY TẠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1306187,
+      "modified": "2026-08-15T03:45:56.000Z",
+      "checksum": "6c51269a662bc895a211798589c26fcc",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gU_rwGvohN-2gkDhkAGs7d0JD-5pmKiV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YzhAFMit8VIWuf8EIcBVYXZoAff93obU",
+      "parent_id": "1gU_rwGvohN-2gkDhkAGs7d0JD-5pmKiV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4783,
+      "modified": "2026-08-15T15:50:00.000Z",
+      "checksum": "f1af7487561774a4e58f1f3708654a9f",
+      "folder": false
+    },
+    {
+      "id": "1UuVkRKxr93Z6OPEu3CP2UjnB5wJiEJoY",
+      "parent_id": "1gU_rwGvohN-2gkDhkAGs7d0JD-5pmKiV",
+      "name": "NHỮNG CÂU CHUYỆN HÀI HƯỚC NHẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 628863,
+      "modified": "2026-08-15T15:50:07.000Z",
+      "checksum": "5786b789c8a67b4f6ec322966970db53",
+      "folder": false
+    },
+    {
+      "id": "1pKwHAtZdkawQxoUMv6NWvITiwf0rx_st",
+      "parent_id": "1gU_rwGvohN-2gkDhkAGs7d0JD-5pmKiV",
+      "name": "NHỮNG CÂU CHUYỆN HÀI HƯỚC NHẤT.pdf",
+      "mime": "application/pdf",
+      "size": 1328143,
+      "modified": "2026-08-15T15:50:05.000Z",
+      "checksum": "9c53e6771206731fb5b3e399643b20aa",
+      "folder": false
+    }
+  ]
+}

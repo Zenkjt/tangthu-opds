@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ysesphVuVMO5Fi0ruuVN_qBr2sYUlXha",
+  "page": 1,
+  "items": [
+    {
+      "id": "1060Z2ziNNYIOB4PJkePk8N-8MXVA2P4-",
+      "parent_id": "1ysesphVuVMO5Fi0ruuVN_qBr2sYUlXha",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3600,
+      "modified": "2026-08-16T04:02:18.000Z",
+      "checksum": "6000c8647d1a0334672a38f959841f52",
+      "folder": false
+    },
+    {
+      "id": "1r0FyR9j4tW4LhyATW1bgCqMnKGq64q7h",
+      "parent_id": "1ysesphVuVMO5Fi0ruuVN_qBr2sYUlXha",
+      "name": "SƯƠNG MÙ VÂY THÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 593229,
+      "modified": "2026-08-16T04:02:25.000Z",
+      "checksum": "4a89ee43d3aa83c446b55cf836355ccc",
+      "folder": false
+    },
+    {
+      "id": "1Ruj9qw6acaVWVllX4U3QADxXfqIhrQ68",
+      "parent_id": "1ysesphVuVMO5Fi0ruuVN_qBr2sYUlXha",
+      "name": "SƯƠNG MÙ VÂY THÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 1804205,
+      "modified": "2026-08-16T04:02:23.000Z",
+      "checksum": "a76811bad10c3ebaa22aa17d07507268",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eWRpWf37cT7kCV3HerZU3-42VN7j0IWu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P_AtziJ-dHzzUmZ1sSj65-2cjOBJHXHP",
+      "parent_id": "1eWRpWf37cT7kCV3HerZU3-42VN7j0IWu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3720,
+      "modified": "2026-08-15T00:46:27.000Z",
+      "checksum": "3f884e649dcf796f10ba32611ebf7270",
+      "folder": false
+    },
+    {
+      "id": "1CRMOm9z1NzL5GURqVXPgQ4_oUTzmZokk",
+      "parent_id": "1eWRpWf37cT7kCV3HerZU3-42VN7j0IWu",
+      "name": "PHI LÝ TRÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 634801,
+      "modified": "2026-08-15T00:46:33.000Z",
+      "checksum": "d0360f1ec43d97491d07566cb7543f15",
+      "folder": false
+    },
+    {
+      "id": "1aUrCUr8_Q066PRjNV4W1Cekxtra5EKsm",
+      "parent_id": "1eWRpWf37cT7kCV3HerZU3-42VN7j0IWu",
+      "name": "PHI LÝ TRÍ.pdf",
+      "mime": "application/pdf",
+      "size": 1001939,
+      "modified": "2026-08-15T00:46:31.000Z",
+      "checksum": "fd34f003a9fc6f8167025f362ddc7229",
+      "folder": false
+    }
+  ]
+}

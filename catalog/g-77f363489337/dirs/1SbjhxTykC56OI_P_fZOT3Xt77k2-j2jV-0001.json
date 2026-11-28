@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SbjhxTykC56OI_P_fZOT3Xt77k2-j2jV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sKrpii4ClNtPYi8PjEH5Mx1MDJxXt00d",
+      "parent_id": "1SbjhxTykC56OI_P_fZOT3Xt77k2-j2jV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1414,
+      "modified": "2026-08-16T03:11:12.000Z",
+      "checksum": "381e6d7847942ccc896681410c9205f5",
+      "folder": false
+    },
+    {
+      "id": "1tdQnaUZsmWQaMXCQOtEqbzDv67tkNmdh",
+      "parent_id": "1SbjhxTykC56OI_P_fZOT3Xt77k2-j2jV",
+      "name": "MỌI ĐIỀU TA CHƯA NÓI.epub",
+      "mime": "application/epub+zip",
+      "size": 447010,
+      "modified": "2026-08-16T03:11:19.000Z",
+      "checksum": "a57c54d1168bee033b6ca265e79d7a64",
+      "folder": false
+    },
+    {
+      "id": "1MyYoPM3TnLmYL2EtvKKnYo2mVbfc8bgc",
+      "parent_id": "1SbjhxTykC56OI_P_fZOT3Xt77k2-j2jV",
+      "name": "MỌI ĐIỀU TA CHƯA NÓI.pdf",
+      "mime": "application/pdf",
+      "size": 1262430,
+      "modified": "2026-08-16T03:11:17.000Z",
+      "checksum": "0ea956f50710e514d22cdea42a528587",
+      "folder": false
+    }
+  ]
+}

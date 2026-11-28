@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RIOJCTU0QaPdlxMhl_ygasEqo1Udd5Yd",
+  "page": 1,
+  "items": [
+    {
+      "id": "12QPqh8DCatqfkt00UScXQtCX0fsEUhfA",
+      "parent_id": "1RIOJCTU0QaPdlxMhl_ygasEqo1Udd5Yd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3578,
+      "modified": "2026-08-15T10:28:31.000Z",
+      "checksum": "6ee3c0806fbe83af82b61db540a214f1",
+      "folder": false
+    },
+    {
+      "id": "152Al5-p2X_zddC3PBPpa050GS35WLVrQ",
+      "parent_id": "1RIOJCTU0QaPdlxMhl_ygasEqo1Udd5Yd",
+      "name": "SĂN LUNG TRUYỀN.epub",
+      "mime": "application/epub+zip",
+      "size": 250938,
+      "modified": "2026-08-15T10:28:38.000Z",
+      "checksum": "25007bf363aa21fb6c4e4fd66512bc5e",
+      "folder": false
+    },
+    {
+      "id": "18jdHWOAb_f69I7Z2f3hdGfyskqcDvuKh",
+      "parent_id": "1RIOJCTU0QaPdlxMhl_ygasEqo1Udd5Yd",
+      "name": "SĂN LUNG TRUYỀN.pdf",
+      "mime": "application/pdf",
+      "size": 234336,
+      "modified": "2026-08-15T10:28:35.000Z",
+      "checksum": "5eb1792d2ca8e40a18f52e891b9daf0d",
+      "folder": false
+    }
+  ]
+}

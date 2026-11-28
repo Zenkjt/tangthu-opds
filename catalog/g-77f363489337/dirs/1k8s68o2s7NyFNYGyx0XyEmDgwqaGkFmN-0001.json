@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1k8s68o2s7NyFNYGyx0XyEmDgwqaGkFmN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qtT-PwS3HcKfMdlC2Yud6jGU84JjTItp",
+      "parent_id": "1k8s68o2s7NyFNYGyx0XyEmDgwqaGkFmN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3685,
+      "modified": "2026-08-15T09:46:23.000Z",
+      "checksum": "f0cfddabe6e866a5c72d667e6c1572c6",
+      "folder": false
+    },
+    {
+      "id": "1jUtQRGtgvA6MC-miLcRoejw4qbUdSsmw",
+      "parent_id": "1k8s68o2s7NyFNYGyx0XyEmDgwqaGkFmN",
+      "name": "HƯƠNG MẬT TỰA KHÓI SƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 681885,
+      "modified": "2026-08-15T09:46:57.000Z",
+      "checksum": "20590896cab75b7d2a6c9e511b9bc1eb",
+      "folder": false
+    },
+    {
+      "id": "1HH0EeALZOplzaCPoSH05wYw8dsFsM7ej",
+      "parent_id": "1k8s68o2s7NyFNYGyx0XyEmDgwqaGkFmN",
+      "name": "HƯƠNG MẬT TỰA KHÓI SƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 2497815,
+      "modified": "2026-08-15T09:46:47.000Z",
+      "checksum": "570bfe00e5cd71757426324ef6833c91",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IF5cdeQ_6-OXvnxNzBCL9LLxuP-I0L_w",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HP6_-IuYV95GKKgl3iVLBatoCKyJzXZW",
+      "parent_id": "1IF5cdeQ_6-OXvnxNzBCL9LLxuP-I0L_w",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2059,
+      "modified": "2026-08-15T12:30:13.000Z",
+      "checksum": "64bcad57d7184f466f25e7122392d764",
+      "folder": false
+    },
+    {
+      "id": "1i-QkITywEYn4YiPmZhlfC6bUP8tFK0KE",
+      "parent_id": "1IF5cdeQ_6-OXvnxNzBCL9LLxuP-I0L_w",
+      "name": "ĐẤT RỪNG PHƯƠNG NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 900471,
+      "modified": "2026-08-15T12:30:22.000Z",
+      "checksum": "52de80e29c4c95bae49db46d253be03e",
+      "folder": false
+    },
+    {
+      "id": "1hkmhFZE9dxtZE9VR98y2BBZvksothU-c",
+      "parent_id": "1IF5cdeQ_6-OXvnxNzBCL9LLxuP-I0L_w",
+      "name": "ĐẤT RỪNG PHƯƠNG NAM.pdf",
+      "mime": "application/pdf",
+      "size": 1193926,
+      "modified": "2026-08-15T12:30:18.000Z",
+      "checksum": "f430ff993b03136a3a42cbe2946d3928",
+      "folder": false
+    }
+  ]
+}

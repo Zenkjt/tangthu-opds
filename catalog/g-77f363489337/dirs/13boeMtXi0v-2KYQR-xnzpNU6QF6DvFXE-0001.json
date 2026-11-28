@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13boeMtXi0v-2KYQR-xnzpNU6QF6DvFXE",
+  "page": 1,
+  "items": [
+    {
+      "id": "12fv_kVSWg0OG8FYzx0_lu6NMlBbY2Cnt",
+      "parent_id": "13boeMtXi0v-2KYQR-xnzpNU6QF6DvFXE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 807,
+      "modified": "2026-08-15T10:54:31.000Z",
+      "checksum": "bde1dfdf54b4db489305a4b11e1a35df",
+      "folder": false
+    },
+    {
+      "id": "1VI2v7jeSrFjSp0y8G4PLHt-bqi82If1U",
+      "parent_id": "13boeMtXi0v-2KYQR-xnzpNU6QF6DvFXE",
+      "name": "KHÚC LY BIỆT 2.epub",
+      "mime": "application/epub+zip",
+      "size": 662032,
+      "modified": "2026-08-15T10:55:15.000Z",
+      "checksum": "c2cb57642a1ee4cdca075d2401d04a43",
+      "folder": false
+    },
+    {
+      "id": "1U6TUZAIzSJ0RcgbQj4LHsFKoeI-rhrEu",
+      "parent_id": "13boeMtXi0v-2KYQR-xnzpNU6QF6DvFXE",
+      "name": "KHÚC LY BIỆT 2.pdf",
+      "mime": "application/pdf",
+      "size": 1827180,
+      "modified": "2026-08-15T10:55:11.000Z",
+      "checksum": "7b07a07363c969b64644375be05adf1f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mFcwWY0dG4uMHXvv-30B7pGndtYeIz2M",
+  "page": 1,
+  "items": [
+    {
+      "id": "13z9RaKYCgCjFJgsQEsKNosLz1YssWmGy",
+      "parent_id": "1mFcwWY0dG4uMHXvv-30B7pGndtYeIz2M",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3374,
+      "modified": "2026-08-15T10:16:30.000Z",
+      "checksum": "a1f289bf179d7e8405513eb89643a16f",
+      "folder": false
+    },
+    {
+      "id": "1nFpWp85jqHXYWeDKQahrZ7-8ogkN7n03",
+      "parent_id": "1mFcwWY0dG4uMHXvv-30B7pGndtYeIz2M",
+      "name": "NỮ HIỆP SĨ - THÀNH PHỐ ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 635531,
+      "modified": "2026-08-15T10:16:38.000Z",
+      "checksum": "4f01a6944c342af0d57010fd905b1398",
+      "folder": false
+    },
+    {
+      "id": "1SxJeq96W7pGXE-ZDLOrVtbFhtakI2vYv",
+      "parent_id": "1mFcwWY0dG4uMHXvv-30B7pGndtYeIz2M",
+      "name": "NỮ HIỆP SĨ - THÀNH PHỐ ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 946308,
+      "modified": "2026-08-15T10:16:34.000Z",
+      "checksum": "4d15fa60906ae0a0ef110332ed7557e9",
+      "folder": false
+    }
+  ]
+}

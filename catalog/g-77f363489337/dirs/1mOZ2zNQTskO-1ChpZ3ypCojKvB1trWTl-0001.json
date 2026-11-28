@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mOZ2zNQTskO-1ChpZ3ypCojKvB1trWTl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1h0xXoen2fpb4wnj_bHqg8GRrg7jn4Ar_",
+      "parent_id": "1mOZ2zNQTskO-1ChpZ3ypCojKvB1trWTl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8383,
+      "modified": "2026-08-15T09:36:50.000Z",
+      "checksum": "7697b4909cc2da95db4c05d0118cd6f6",
+      "folder": false
+    },
+    {
+      "id": "1jocMoCx8ljPjwT3ff56EXO3kFkU7_MJv",
+      "parent_id": "1mOZ2zNQTskO-1ChpZ3ypCojKvB1trWTl",
+      "name": "ÉMILE HAY LÀ VỀ GIÁO DỤC.epub",
+      "mime": "application/epub+zip",
+      "size": 1023753,
+      "modified": "2026-08-15T09:37:03.000Z",
+      "checksum": "b5278c36b4fb6565f1e782fff9e2bcf0",
+      "folder": false
+    },
+    {
+      "id": "1wKR9QSaSWXlOPkRU78juZwAQnjQefZrC",
+      "parent_id": "1mOZ2zNQTskO-1ChpZ3ypCojKvB1trWTl",
+      "name": "ÉMILE HAY LÀ VỀ GIÁO DỤC.pdf",
+      "mime": "application/pdf",
+      "size": 3136599,
+      "modified": "2026-08-15T09:36:59.000Z",
+      "checksum": "27bbc1711ae98f11b050829c4be14577",
+      "folder": false
+    }
+  ]
+}

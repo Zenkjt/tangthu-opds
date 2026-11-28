@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Z373kymuMJPh4a3-ETslwll_9l2EQB6E",
+  "page": 1,
+  "items": [
+    {
+      "id": "17ObzPEb1bXtVcQLTYuuggLIF2OXGkXvm",
+      "parent_id": "1Z373kymuMJPh4a3-ETslwll_9l2EQB6E",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1645,
+      "modified": "2026-08-16T02:51:59.000Z",
+      "checksum": "c7307f28fe97d048eaf142805cc50f26",
+      "folder": false
+    },
+    {
+      "id": "19iD6ECHzFv8oQ9oORzno2OaE4iT11_CJ",
+      "parent_id": "1Z373kymuMJPh4a3-ETslwll_9l2EQB6E",
+      "name": "SỐNG MÒN.epub",
+      "mime": "application/epub+zip",
+      "size": 681830,
+      "modified": "2026-08-16T02:52:05.000Z",
+      "checksum": "b7e26e2efbc7b295778dd3afcf3eb7a0",
+      "folder": false
+    },
+    {
+      "id": "16P16jQ97ujjKcU4WA-zFUHvPciMBhnUS",
+      "parent_id": "1Z373kymuMJPh4a3-ETslwll_9l2EQB6E",
+      "name": "SỐNG MÒN.pdf",
+      "mime": "application/pdf",
+      "size": 639580,
+      "modified": "2026-08-16T02:52:02.000Z",
+      "checksum": "b09d0c2f478a44f150d5fb67b1c254c2",
+      "folder": false
+    }
+  ]
+}

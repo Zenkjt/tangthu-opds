@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19nRuQoatWTOFVekfRHja05L4gvMkJdZq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OhZ427sATgwvdEDWyKaEJdZb4BRO7Bxy",
+      "parent_id": "19nRuQoatWTOFVekfRHja05L4gvMkJdZq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2986,
+      "modified": "2026-08-16T03:51:48.000Z",
+      "checksum": "f2398bc9bd1b9f282a2698c69aa0c347",
+      "folder": false
+    },
+    {
+      "id": "1ZabWAF8Syl9vAPOgPgz0KYqwiWruqNFM",
+      "parent_id": "19nRuQoatWTOFVekfRHja05L4gvMkJdZq",
+      "name": "VÌ NHỮNG ĐOÁ HỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1033916,
+      "modified": "2026-08-16T03:51:56.000Z",
+      "checksum": "46d324fca16a4a0dff94203c67847812",
+      "folder": false
+    },
+    {
+      "id": "1Umyw3ZrkgRlRiRGEhLZTiOnR3CEuyh2r",
+      "parent_id": "19nRuQoatWTOFVekfRHja05L4gvMkJdZq",
+      "name": "VÌ NHỮNG ĐOÁ HỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 2607979,
+      "modified": "2026-08-16T03:51:54.000Z",
+      "checksum": "784724387b00a146057ba8d286042ed7",
+      "folder": false
+    }
+  ]
+}

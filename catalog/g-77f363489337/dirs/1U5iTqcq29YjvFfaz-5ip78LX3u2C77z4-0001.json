@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1U5iTqcq29YjvFfaz-5ip78LX3u2C77z4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BPhtYBQEPd_VwseTCRVHT_sMesihpdXp",
+      "parent_id": "1U5iTqcq29YjvFfaz-5ip78LX3u2C77z4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3990,
+      "modified": "2026-08-15T06:24:05.000Z",
+      "checksum": "e301575ee022cccaf7f541ee32e96d84",
+      "folder": false
+    },
+    {
+      "id": "1sp71IVEuyG6zuTBZzII6zggSdDKmkMdG",
+      "parent_id": "1U5iTqcq29YjvFfaz-5ip78LX3u2C77z4",
+      "name": "NHỮNG MẢNH ĐỜI ĐEN TRẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 359704,
+      "modified": "2026-08-15T06:25:20.000Z",
+      "checksum": "d39cc6e6d8a9b4e0819d122a7aacdaf4",
+      "folder": false
+    },
+    {
+      "id": "1Iejntd2rv4g3eMoMBC9JsfRNA9QyLXDt",
+      "parent_id": "1U5iTqcq29YjvFfaz-5ip78LX3u2C77z4",
+      "name": "NHỮNG MẢNH ĐỜI ĐEN TRẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 979051,
+      "modified": "2026-08-15T06:24:57.000Z",
+      "checksum": "ecead618e0e5fe413a0e536d655e17a6",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1G0KqDBlHU-2aexEdMcmNQy6uyTZQPN1j",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VnLmkH8wsKp3zLwCCd2ASwWKpUbmThka",
+      "parent_id": "1G0KqDBlHU-2aexEdMcmNQy6uyTZQPN1j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 14069,
+      "modified": "2026-08-15T05:45:21.000Z",
+      "checksum": "a024f4aabbb34b1101306a7b31b32ea3",
+      "folder": false
+    },
+    {
+      "id": "1ic-fg1zWd9FEAIGS3WI1JTjzeuae0aVB",
+      "parent_id": "1G0KqDBlHU-2aexEdMcmNQy6uyTZQPN1j",
+      "name": "LUẬN VỀ BIẾU TẶNG.epub",
+      "mime": "application/epub+zip",
+      "size": 640516,
+      "modified": "2026-08-15T05:45:34.000Z",
+      "checksum": "a1e55edec637e5b956fef66726629d42",
+      "folder": false
+    },
+    {
+      "id": "1ZV-EW_qhkcMmYTYCGSo-xLbUKf2iTnrA",
+      "parent_id": "1G0KqDBlHU-2aexEdMcmNQy6uyTZQPN1j",
+      "name": "LUẬN VỀ BIẾU TẶNG.pdf",
+      "mime": "application/pdf",
+      "size": 1451162,
+      "modified": "2026-08-15T05:45:31.000Z",
+      "checksum": "594fee074b47e96353b90e3e3bb17400",
+      "folder": false
+    }
+  ]
+}

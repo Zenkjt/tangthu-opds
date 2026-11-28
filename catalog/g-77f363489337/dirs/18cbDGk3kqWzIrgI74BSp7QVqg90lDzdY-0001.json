@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18cbDGk3kqWzIrgI74BSp7QVqg90lDzdY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tcFb4XUSndv7_32K202IYwUfFFxfPhid",
+      "parent_id": "18cbDGk3kqWzIrgI74BSp7QVqg90lDzdY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2149,
+      "modified": "2026-08-15T07:20:29.000Z",
+      "checksum": "427154f5062fee72863a3daecdb9f9b1",
+      "folder": false
+    },
+    {
+      "id": "1emftRaNOuURQYPxgSe3uKQpAKm05AQXD",
+      "parent_id": "18cbDGk3kqWzIrgI74BSp7QVqg90lDzdY",
+      "name": "TÔN NGÔ BINH PHÁP.epub",
+      "mime": "application/epub+zip",
+      "size": 394979,
+      "modified": "2026-08-15T07:20:36.000Z",
+      "checksum": "fff90be1457e1a66b8d21628ad72c181",
+      "folder": false
+    },
+    {
+      "id": "1xO9JVTZJ-TLrvGqXSkhS88fmiRFeXQAs",
+      "parent_id": "18cbDGk3kqWzIrgI74BSp7QVqg90lDzdY",
+      "name": "TÔN NGÔ BINH PHÁP.pdf",
+      "mime": "application/pdf",
+      "size": 805524,
+      "modified": "2026-08-15T07:20:33.000Z",
+      "checksum": "e0ea96d43e847ae95345a09dab34bcd2",
+      "folder": false
+    }
+  ]
+}

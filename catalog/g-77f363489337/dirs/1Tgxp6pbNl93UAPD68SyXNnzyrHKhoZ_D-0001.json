@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Tgxp6pbNl93UAPD68SyXNnzyrHKhoZ_D",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BcRX9gRKfjxawG6a_mlIlk8_qpem2H1q",
+      "parent_id": "1Tgxp6pbNl93UAPD68SyXNnzyrHKhoZ_D",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5903,
+      "modified": "2026-08-16T02:45:26.000Z",
+      "checksum": "9cdb908ce271cf8ddf6d89c323e99dcd",
+      "folder": false
+    },
+    {
+      "id": "10epA2nHoKQf8ozoVhB6R3_evU8tBeqFr",
+      "parent_id": "1Tgxp6pbNl93UAPD68SyXNnzyrHKhoZ_D",
+      "name": "ĐONG TẤM LÒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 352258,
+      "modified": "2026-08-16T02:45:32.000Z",
+      "checksum": "776aee3f4d7282e2cead056ee196483c",
+      "folder": false
+    },
+    {
+      "id": "1o4MxEx5zFDbWVuowj9G0C_TW6a-XKba5",
+      "parent_id": "1Tgxp6pbNl93UAPD68SyXNnzyrHKhoZ_D",
+      "name": "ĐONG TẤM LÒNG.pdf",
+      "mime": "application/pdf",
+      "size": 513141,
+      "modified": "2026-08-16T02:45:29.000Z",
+      "checksum": "8c33f17d0c96a7d8ecece943853f765d",
+      "folder": false
+    }
+  ]
+}

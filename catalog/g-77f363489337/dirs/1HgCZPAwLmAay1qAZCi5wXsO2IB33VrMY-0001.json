@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HgCZPAwLmAay1qAZCi5wXsO2IB33VrMY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LPHe2pZJTHQ-BKKHV3s9JdLRMqAQIAQ6",
+      "parent_id": "1HgCZPAwLmAay1qAZCi5wXsO2IB33VrMY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1830,
+      "modified": "2026-08-15T07:43:39.000Z",
+      "checksum": "c2fbda7982a084a40dee8ba1a376e075",
+      "folder": false
+    },
+    {
+      "id": "1-hu-MKKH0NoVfmSaIH1c5uYHZhdZ7wJf",
+      "parent_id": "1HgCZPAwLmAay1qAZCi5wXsO2IB33VrMY",
+      "name": "HÀ THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 259266,
+      "modified": "2026-08-15T07:43:45.000Z",
+      "checksum": "6eda66b93f1fe7fd5defe3e540e53f3f",
+      "folder": false
+    },
+    {
+      "id": "15D5pbKKj1Rl3lpThpJdOqVwFc01iH979",
+      "parent_id": "1HgCZPAwLmAay1qAZCi5wXsO2IB33VrMY",
+      "name": "HÀ THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 261747,
+      "modified": "2026-08-15T07:43:42.000Z",
+      "checksum": "dcfce6a4b812e6efc0030c5e21e0c64d",
+      "folder": false
+    }
+  ]
+}

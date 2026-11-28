@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yOvFPLaCUZ5PFpmM3pzbVHZam8JvTWHD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1K9_m6lbRynWD_cNTNcqqMOr7odRw6KCh",
+      "parent_id": "1yOvFPLaCUZ5PFpmM3pzbVHZam8JvTWHD",
+      "name": "BIÊN THÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 446715,
+      "modified": "2026-08-16T04:22:25.000Z",
+      "checksum": "3af603eb6aede8c9319599b78cbee6a5",
+      "folder": false
+    },
+    {
+      "id": "1K2XabFnbvLiypwIjXw0767v5cX6Je9ME",
+      "parent_id": "1yOvFPLaCUZ5PFpmM3pzbVHZam8JvTWHD",
+      "name": "BIÊN THÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 728220,
+      "modified": "2026-08-16T04:22:19.000Z",
+      "checksum": "eae25aa2ee353a941354d90950e6c90b",
+      "folder": false
+    },
+    {
+      "id": "1cU3_bh6oiQTC69dBzgiYpQ8wh8FI2ITx",
+      "parent_id": "1yOvFPLaCUZ5PFpmM3pzbVHZam8JvTWHD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 540,
+      "modified": "2026-08-16T04:22:13.000Z",
+      "checksum": "ee979c2ebd801f043c24056eb7fde13e",
+      "folder": false
+    }
+  ]
+}

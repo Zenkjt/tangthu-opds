@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "105olRtqXqdl_sHvA_JeWttnpBXL4WJjg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CRTKcWKmBmFVo_QFpUOxY3e4EFcPgQ_l",
+      "parent_id": "105olRtqXqdl_sHvA_JeWttnpBXL4WJjg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4607,
+      "modified": "2026-08-15T09:45:03.000Z",
+      "checksum": "76d31708ebabb50156d581bd2e744a99",
+      "folder": false
+    },
+    {
+      "id": "19lzajSJsKOC_71yhpD9zOEqHArQDuDxW",
+      "parent_id": "105olRtqXqdl_sHvA_JeWttnpBXL4WJjg",
+      "name": "LẠC MẤT MỘT NGƯỜI THƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 572965,
+      "modified": "2026-08-15T09:45:57.000Z",
+      "checksum": "7f21585f5f920d8940e236462e2adf28",
+      "folder": false
+    },
+    {
+      "id": "19xMwBZZMqehOlgNBtC1o3VhNzJS6INdy",
+      "parent_id": "105olRtqXqdl_sHvA_JeWttnpBXL4WJjg",
+      "name": "LẠC MẤT MỘT NGƯỜI THƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1862695,
+      "modified": "2026-08-15T09:45:49.000Z",
+      "checksum": "6fc52104c0f66dd46e951517cb943473",
+      "folder": false
+    }
+  ]
+}

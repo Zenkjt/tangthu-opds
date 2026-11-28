@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gxmt8HA6zZ74QK-V8do6_Yl-wkKIbgKi",
+  "page": 1,
+  "items": [
+    {
+      "id": "140CUK7qql-djsIly4SGF1P2dEAqzYtyN",
+      "parent_id": "1gxmt8HA6zZ74QK-V8do6_Yl-wkKIbgKi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10887,
+      "modified": "2026-08-16T03:36:42.000Z",
+      "checksum": "faa673f2d4df74747f780d993bf528c5",
+      "folder": false
+    },
+    {
+      "id": "1eGfiflAV2zWAgzQ_4CAJN6NSBP2hpBnR",
+      "parent_id": "1gxmt8HA6zZ74QK-V8do6_Yl-wkKIbgKi",
+      "name": "MỘNG KINH SƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 298956,
+      "modified": "2026-08-16T03:36:48.000Z",
+      "checksum": "bc9034235971b3207a1ec7ffeff6d9c1",
+      "folder": false
+    },
+    {
+      "id": "1dmOPAYBjkSEZfN6UdSKtj9jOaRpEJWtX",
+      "parent_id": "1gxmt8HA6zZ74QK-V8do6_Yl-wkKIbgKi",
+      "name": "MỘNG KINH SƯ.pdf",
+      "mime": "application/pdf",
+      "size": 1026320,
+      "modified": "2026-08-16T03:36:46.000Z",
+      "checksum": "fb3703c3041cf0235e0d25d1efa7586c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1U4YQ_63iMnIprnztpyxD5ohthBJfQ4xG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tKWU83buyYM2-dY33lJWduihsqjYoW_-",
+      "parent_id": "1U4YQ_63iMnIprnztpyxD5ohthBJfQ4xG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2487,
+      "modified": "2026-08-15T15:23:28.000Z",
+      "checksum": "bfdbbe37e07ada1a19f79e704e204a95",
+      "folder": false
+    },
+    {
+      "id": "1Kmrz_9y2NSabNOQuKlm_M6XXJFR1uClY",
+      "parent_id": "1U4YQ_63iMnIprnztpyxD5ohthBJfQ4xG",
+      "name": "TRÒ CHƠI TỬ THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 538118,
+      "modified": "2026-08-15T15:23:47.000Z",
+      "checksum": "2ced724391add4ffba22ad61ec5ba220",
+      "folder": false
+    },
+    {
+      "id": "1HsDtjgShDHt7HC9BcEfBWs1VbJmB7V-K",
+      "parent_id": "1U4YQ_63iMnIprnztpyxD5ohthBJfQ4xG",
+      "name": "TRÒ CHƠI TỬ THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 4997500,
+      "modified": "2026-08-15T15:23:42.000Z",
+      "checksum": "02f5d0a7ee8f155b96b9f6735f87c592",
+      "folder": false
+    }
+  ]
+}

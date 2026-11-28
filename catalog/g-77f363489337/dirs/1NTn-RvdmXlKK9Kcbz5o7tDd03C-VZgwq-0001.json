@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NTn-RvdmXlKK9Kcbz5o7tDd03C-VZgwq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vYAl6foVARP0-vwVBEtPSjRk6c2f3hoz",
+      "parent_id": "1NTn-RvdmXlKK9Kcbz5o7tDd03C-VZgwq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 540,
+      "modified": "2026-08-15T10:59:48.000Z",
+      "checksum": "ee979c2ebd801f043c24056eb7fde13e",
+      "folder": false
+    },
+    {
+      "id": "1MW_dlm9Am6J9KLrzmUijzcSK8Ee87jp5",
+      "parent_id": "1NTn-RvdmXlKK9Kcbz5o7tDd03C-VZgwq",
+      "name": "ĐẰNG SAU BỨC TRANH.epub",
+      "mime": "application/epub+zip",
+      "size": 593088,
+      "modified": "2026-08-15T10:59:54.000Z",
+      "checksum": "80c4ee58fb86837c2b02cf0da578b79d",
+      "folder": false
+    },
+    {
+      "id": "1IAfuDptK2-GcV9HjsF-wgca_mJfWUPtZ",
+      "parent_id": "1NTn-RvdmXlKK9Kcbz5o7tDd03C-VZgwq",
+      "name": "ĐẰNG SAU BỨC TRANH.pdf",
+      "mime": "application/pdf",
+      "size": 805172,
+      "modified": "2026-08-15T10:59:52.000Z",
+      "checksum": "17b586e05e5b900199706504d3c6d117",
+      "folder": false
+    }
+  ]
+}

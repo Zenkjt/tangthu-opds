@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QDzfBnUveY117DmTioyoh8wN11YJzn69",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ts3rHz4eOh2a5OQKGj4hFl7rPgSUU69n",
+      "parent_id": "1QDzfBnUveY117DmTioyoh8wN11YJzn69",
+      "name": "BÁCH GIA CHƯ TỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 1236800,
+      "modified": "2026-08-15T05:44:17.000Z",
+      "checksum": "ab64923675747372ed2a5aa52a5a0016",
+      "folder": false
+    },
+    {
+      "id": "1_iEldZeP1FHK7N0WLCQEpWYakVtZ309E",
+      "parent_id": "1QDzfBnUveY117DmTioyoh8wN11YJzn69",
+      "name": "BÁCH GIA CHƯ TỬ.pdf",
+      "mime": "application/pdf",
+      "size": 1759728,
+      "modified": "2026-08-15T05:44:04.000Z",
+      "checksum": "2f715cf6804a57d1343150a22253e482",
+      "folder": false
+    },
+    {
+      "id": "1BsQdLw2cumqyQ1CZrm1Td3GwHmFhdM6c",
+      "parent_id": "1QDzfBnUveY117DmTioyoh8wN11YJzn69",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4954,
+      "modified": "2026-08-15T05:43:53.000Z",
+      "checksum": "a5b973b7abac24399f57b1763d208513",
+      "folder": false
+    }
+  ]
+}

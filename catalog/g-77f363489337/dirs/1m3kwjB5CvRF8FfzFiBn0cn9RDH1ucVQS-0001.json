@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1m3kwjB5CvRF8FfzFiBn0cn9RDH1ucVQS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iW60Zvkh53iHUBVzuzkF86M90AiIJbVP",
+      "parent_id": "1m3kwjB5CvRF8FfzFiBn0cn9RDH1ucVQS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4326,
+      "modified": "2026-08-16T03:19:40.000Z",
+      "checksum": "a965e73f8f34a92978e1adb971fbdd64",
+      "folder": false
+    },
+    {
+      "id": "1_Fpgxwmu2m3oWOKinpBdEnGJlQsRn7uv",
+      "parent_id": "1m3kwjB5CvRF8FfzFiBn0cn9RDH1ucVQS",
+      "name": "ĐƯỜNG TỰ DO - SÀI GÒN.epub",
+      "mime": "application/epub+zip",
+      "size": 679320,
+      "modified": "2026-08-16T03:19:48.000Z",
+      "checksum": "bb69744f9176de4796392bd2f201ed7b",
+      "folder": false
+    },
+    {
+      "id": "1Gse-FUC9h_6Fw4D6tRm7TpnEmWYLfb4R",
+      "parent_id": "1m3kwjB5CvRF8FfzFiBn0cn9RDH1ucVQS",
+      "name": "ĐƯỜNG TỰ DO - SÀI GÒN.pdf",
+      "mime": "application/pdf",
+      "size": 1789704,
+      "modified": "2026-08-16T03:19:45.000Z",
+      "checksum": "8afef69c83b5aead0f3dd3b2a1537f7e",
+      "folder": false
+    }
+  ]
+}

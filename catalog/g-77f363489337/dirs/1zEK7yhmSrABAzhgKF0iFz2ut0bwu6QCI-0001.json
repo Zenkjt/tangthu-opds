@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zEK7yhmSrABAzhgKF0iFz2ut0bwu6QCI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1N_HMHuwKpb45dfcmMNKATzYuxZpiQtgO",
+      "parent_id": "1zEK7yhmSrABAzhgKF0iFz2ut0bwu6QCI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3476,
+      "modified": "2026-08-16T03:54:25.000Z",
+      "checksum": "28e28d5f5fc97dab25af870d6fa91694",
+      "folder": false
+    },
+    {
+      "id": "1Yg_NO95EhsmZI15eajwhZXhLvQCQC6Ka",
+      "parent_id": "1zEK7yhmSrABAzhgKF0iFz2ut0bwu6QCI",
+      "name": "TÌNH KIẾP TAM SINH.epub",
+      "mime": "application/epub+zip",
+      "size": 584629,
+      "modified": "2026-08-16T03:54:31.000Z",
+      "checksum": "5b3a1eef3289a42d07659c29c14e66bf",
+      "folder": false
+    },
+    {
+      "id": "1xj2PNfl6lzRLt9KSKKFpzC0PCinoX1cS",
+      "parent_id": "1zEK7yhmSrABAzhgKF0iFz2ut0bwu6QCI",
+      "name": "TÌNH KIẾP TAM SINH.pdf",
+      "mime": "application/pdf",
+      "size": 1060692,
+      "modified": "2026-08-16T03:54:29.000Z",
+      "checksum": "81fc6e4ed7f5a7a9db51ffcb6416c3d1",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1H3lYHBu0YqN9Cp5EtEXVjrzparEsTzLk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_UcyMcTSb2qDNIeFIUKkq5oh1NIYMPiR",
+      "parent_id": "1H3lYHBu0YqN9Cp5EtEXVjrzparEsTzLk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 701,
+      "modified": "2026-08-15T13:03:00.000Z",
+      "checksum": "d6e58611226916de9abf5086c9d7979e",
+      "folder": false
+    },
+    {
+      "id": "1rV5yXkRrilXU_1GhnC5Yzu4d_W_Z7F3k",
+      "parent_id": "1H3lYHBu0YqN9Cp5EtEXVjrzparEsTzLk",
+      "name": "HOÀNG TỬ CASPIAN.epub",
+      "mime": "application/epub+zip",
+      "size": 509439,
+      "modified": "2026-08-15T13:03:06.000Z",
+      "checksum": "966b3fb5f023cbe505aad340fc7c4507",
+      "folder": false
+    },
+    {
+      "id": "11lAFd8dVe2VzxyHQgdSN3l_nYW7O51p-",
+      "parent_id": "1H3lYHBu0YqN9Cp5EtEXVjrzparEsTzLk",
+      "name": "HOÀNG TỬ CASPIAN.pdf",
+      "mime": "application/pdf",
+      "size": 691633,
+      "modified": "2026-08-15T13:03:04.000Z",
+      "checksum": "6b92e7e0017edbf094d1d202727fe86a",
+      "folder": false
+    }
+  ]
+}

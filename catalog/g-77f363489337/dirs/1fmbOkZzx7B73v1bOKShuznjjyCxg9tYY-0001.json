@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fmbOkZzx7B73v1bOKShuznjjyCxg9tYY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xV9s732tBIGvpIC1FWl8nCrf-Am11NId",
+      "parent_id": "1fmbOkZzx7B73v1bOKShuznjjyCxg9tYY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 867,
+      "modified": "2026-08-15T03:52:02.000Z",
+      "checksum": "90a4cf323931a827dcd2abd66f4a54b3",
+      "folder": false
+    },
+    {
+      "id": "1JSQr4HoHZz1DhdWUjxR2M4e3NVJHnJCi",
+      "parent_id": "1fmbOkZzx7B73v1bOKShuznjjyCxg9tYY",
+      "name": "THĂM DÒ TIỀM THỨC.epub",
+      "mime": "application/epub+zip",
+      "size": 311907,
+      "modified": "2026-08-15T03:52:08.000Z",
+      "checksum": "5d290b0a8e644c6a2263db4c6991698f",
+      "folder": false
+    },
+    {
+      "id": "1u3zUuJs8Sm3PB-G5Y9Rd5p5gnnNxOV-c",
+      "parent_id": "1fmbOkZzx7B73v1bOKShuznjjyCxg9tYY",
+      "name": "THĂM DÒ TIỀM THỨC.pdf",
+      "mime": "application/pdf",
+      "size": 799017,
+      "modified": "2026-08-15T03:52:06.000Z",
+      "checksum": "031a085e462226099baec143d4e042f7",
+      "folder": false
+    }
+  ]
+}

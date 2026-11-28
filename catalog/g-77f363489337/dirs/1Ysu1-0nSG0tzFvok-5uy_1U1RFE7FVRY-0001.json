@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ysu1-0nSG0tzFvok-5uy_1U1RFE7FVRY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Wt8AypV-ITx3pVapmv5lBby2s_Sn1TZu",
+      "parent_id": "1Ysu1-0nSG0tzFvok-5uy_1U1RFE7FVRY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9449,
+      "modified": "2026-08-15T07:39:42.000Z",
+      "checksum": "7adab6e10094904696a0e3f6952a5170",
+      "folder": false
+    },
+    {
+      "id": "1XfZzwl9t5ya-_kcjFihy-hIzTiqJ7fJB",
+      "parent_id": "1Ysu1-0nSG0tzFvok-5uy_1U1RFE7FVRY",
+      "name": "MƠ VỀ EM.epub",
+      "mime": "application/epub+zip",
+      "size": 647371,
+      "modified": "2026-08-15T07:39:49.000Z",
+      "checksum": "6fe41c6e0214e886c766a4b87c1e3d4c",
+      "folder": false
+    },
+    {
+      "id": "1hmPGn_JhPIsppRDw16ZADC2w4DCGgFoy",
+      "parent_id": "1Ysu1-0nSG0tzFvok-5uy_1U1RFE7FVRY",
+      "name": "MƠ VỀ EM.pdf",
+      "mime": "application/pdf",
+      "size": 1335414,
+      "modified": "2026-08-15T07:39:46.000Z",
+      "checksum": "5bd3cbb997915fd49fdb610903276bd6",
+      "folder": false
+    }
+  ]
+}

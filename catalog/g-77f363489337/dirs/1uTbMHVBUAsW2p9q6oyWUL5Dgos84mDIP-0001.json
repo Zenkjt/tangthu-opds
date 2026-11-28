@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uTbMHVBUAsW2p9q6oyWUL5Dgos84mDIP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Xpf0IZ06L1TpVK8uQHgHkMpfQPXy_uSF",
+      "parent_id": "1uTbMHVBUAsW2p9q6oyWUL5Dgos84mDIP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8194,
+      "modified": "2026-08-16T02:58:09.000Z",
+      "checksum": "41d16827f5c35c34433e5b7fe30d3ce0",
+      "folder": false
+    },
+    {
+      "id": "1Vt7quUPp5jP67eOK9h7ADUr_0raziPAe",
+      "parent_id": "1uTbMHVBUAsW2p9q6oyWUL5Dgos84mDIP",
+      "name": "NƯỚC MẮT LƯNG TRÒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 642206,
+      "modified": "2026-08-16T02:58:17.000Z",
+      "checksum": "3e7f82d63cd9d31161f8d8dbecdbb660",
+      "folder": false
+    },
+    {
+      "id": "1umJVSIP9rXFc6ScEWqLlpO6tucltCC7a",
+      "parent_id": "1uTbMHVBUAsW2p9q6oyWUL5Dgos84mDIP",
+      "name": "NƯỚC MẮT LƯNG TRÒNG.pdf",
+      "mime": "application/pdf",
+      "size": 1273381,
+      "modified": "2026-08-16T02:58:14.000Z",
+      "checksum": "0727a8e653f98f16d306b16d0f425bbd",
+      "folder": false
+    }
+  ]
+}

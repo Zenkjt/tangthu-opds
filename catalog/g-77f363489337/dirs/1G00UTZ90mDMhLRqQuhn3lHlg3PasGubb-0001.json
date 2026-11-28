@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1G00UTZ90mDMhLRqQuhn3lHlg3PasGubb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zFCdadazSwM9hf0mfmOwtOIGBMR4Ivdg",
+      "parent_id": "1G00UTZ90mDMhLRqQuhn3lHlg3PasGubb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3433,
+      "modified": "2026-08-15T00:52:04.000Z",
+      "checksum": "3e1e1169d7ed796e9fad5140f8ec5293",
+      "folder": false
+    },
+    {
+      "id": "1a2iTyv-bBXhgwoa0sfvVLyRgdhBjhNP4",
+      "parent_id": "1G00UTZ90mDMhLRqQuhn3lHlg3PasGubb",
+      "name": "YES OR NO - NHỮNG QUYẾT ĐỊNH THAY ĐỔI CUỘC SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 426775,
+      "modified": "2026-08-15T00:52:13.000Z",
+      "checksum": "550aff7070398f40388ef9a868499b08",
+      "folder": false
+    },
+    {
+      "id": "1cAntvq1wCiLzDRhGYX7AvEujDbrQe-fL",
+      "parent_id": "1G00UTZ90mDMhLRqQuhn3lHlg3PasGubb",
+      "name": "YES OR NO - NHỮNG QUYẾT ĐỊNH THAY ĐỔI CUỘC SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 5427008,
+      "modified": "2026-08-15T00:52:10.000Z",
+      "checksum": "8650026f5247fa7c2ee51703a488e725",
+      "folder": false
+    }
+  ]
+}

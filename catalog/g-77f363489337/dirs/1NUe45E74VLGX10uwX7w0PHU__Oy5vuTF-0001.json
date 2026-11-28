@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NUe45E74VLGX10uwX7w0PHU__Oy5vuTF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Lzb8Z-knTAUwNW-qpeg-Tfhk6XZ5usI0",
+      "parent_id": "1NUe45E74VLGX10uwX7w0PHU__Oy5vuTF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2387,
+      "modified": "2026-08-15T15:34:49.000Z",
+      "checksum": "ef0600072cd31bff0f682f80aef889b8",
+      "folder": false
+    },
+    {
+      "id": "13vc_XYcl6aaPBb0IUzchzbohOad32WKS",
+      "parent_id": "1NUe45E74VLGX10uwX7w0PHU__Oy5vuTF",
+      "name": "VIỆC MÁU.epub",
+      "mime": "application/epub+zip",
+      "size": 782600,
+      "modified": "2026-08-15T15:35:05.000Z",
+      "checksum": "67fd4e1ccb0be7192dfca0222d2e555c",
+      "folder": false
+    },
+    {
+      "id": "1--flTYtKlK1hu51v_Q1nn3UmhR_zV3pr",
+      "parent_id": "1NUe45E74VLGX10uwX7w0PHU__Oy5vuTF",
+      "name": "VIỆC MÁU.pdf",
+      "mime": "application/pdf",
+      "size": 2007206,
+      "modified": "2026-08-15T15:35:00.000Z",
+      "checksum": "3d320115bf3ee85da8120bdd3bdc951b",
+      "folder": false
+    }
+  ]
+}

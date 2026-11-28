@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YTYDUO-L-tzb6ysSXaP24Eo0Ms1x1v6O",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QIO3Qa4LjibiZ9LTbl1clusEf90cj8mP",
+      "parent_id": "1YTYDUO-L-tzb6ysSXaP24Eo0Ms1x1v6O",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6302,
+      "modified": "2026-08-15T00:50:54.000Z",
+      "checksum": "aa3e7dcdc31c13011779a81d66baf2fb",
+      "folder": false
+    },
+    {
+      "id": "1EFALMOY1cCGFNhODfjaaijFW7NULF8qm",
+      "parent_id": "1YTYDUO-L-tzb6ysSXaP24Eo0Ms1x1v6O",
+      "name": "TƯ DUY LẠI TƯƠNG LAI.epub",
+      "mime": "application/epub+zip",
+      "size": 873275,
+      "modified": "2026-08-15T00:51:03.000Z",
+      "checksum": "683eadadef798566c95067f4008d7c05",
+      "folder": false
+    },
+    {
+      "id": "1op2ULf2NNYHSGrxMkHWBRRT9wqflu27u",
+      "parent_id": "1YTYDUO-L-tzb6ysSXaP24Eo0Ms1x1v6O",
+      "name": "TƯ DUY LẠI TƯƠNG LAI.pdf",
+      "mime": "application/pdf",
+      "size": 1939559,
+      "modified": "2026-08-15T00:50:59.000Z",
+      "checksum": "64cf8368f334cd18b7a5103b7a25accb",
+      "folder": false
+    }
+  ]
+}

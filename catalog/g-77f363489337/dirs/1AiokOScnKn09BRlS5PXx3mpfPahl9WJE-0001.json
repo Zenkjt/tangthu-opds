@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AiokOScnKn09BRlS5PXx3mpfPahl9WJE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AE06kSKRjzE3RxLPQ0qn7YiUKZyPWYAD",
+      "parent_id": "1AiokOScnKn09BRlS5PXx3mpfPahl9WJE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2155,
+      "modified": "2026-08-15T04:25:05.000Z",
+      "checksum": "4bcd7900386805f00ae010b8f68c4024",
+      "folder": false
+    },
+    {
+      "id": "1KbthIggDfVQo7jNHO1CZr2WKv5OmuYcg",
+      "parent_id": "1AiokOScnKn09BRlS5PXx3mpfPahl9WJE",
+      "name": "NHỊN ĂN HỢP LÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 870825,
+      "modified": "2026-08-15T04:25:12.000Z",
+      "checksum": "cdff5110fe5e6d0fb89070576a418a91",
+      "folder": false
+    },
+    {
+      "id": "1kaCnC0rOQNYVoGJaXHh63svsJUy-Bicf",
+      "parent_id": "1AiokOScnKn09BRlS5PXx3mpfPahl9WJE",
+      "name": "NHỊN ĂN HỢP LÝ.pdf",
+      "mime": "application/pdf",
+      "size": 967251,
+      "modified": "2026-08-15T04:25:09.000Z",
+      "checksum": "4fc90b16a112cddd0b7fbc81dd4f3e75",
+      "folder": false
+    }
+  ]
+}

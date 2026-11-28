@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rNvY9d74TjpcnMuf1PVtKSt5LXQK8VuN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XsEWi0sNZ8P2u3yuRtrYm78_9S0o8ZI_",
+      "parent_id": "1rNvY9d74TjpcnMuf1PVtKSt5LXQK8VuN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 656,
+      "modified": "2026-08-16T04:18:22.000Z",
+      "checksum": "3279c7989edb0ce172e5b2de04b5250b",
+      "folder": false
+    },
+    {
+      "id": "1woGjKhduTwPLSzDhV5GSlpY2ETYcn9cr",
+      "parent_id": "1rNvY9d74TjpcnMuf1PVtKSt5LXQK8VuN",
+      "name": "LŨ MỤC ĐỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 536273,
+      "modified": "2026-08-16T04:18:29.000Z",
+      "checksum": "dbceab487f25c662cf7b615d6736792c",
+      "folder": false
+    },
+    {
+      "id": "1Wtv3AvcsHZJrltal0a0i1E7NnSTeDml-",
+      "parent_id": "1rNvY9d74TjpcnMuf1PVtKSt5LXQK8VuN",
+      "name": "LŨ MỤC ĐỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 970484,
+      "modified": "2026-08-16T04:18:27.000Z",
+      "checksum": "ee7125be68715ac76fe54908cc4a092d",
+      "folder": false
+    }
+  ]
+}

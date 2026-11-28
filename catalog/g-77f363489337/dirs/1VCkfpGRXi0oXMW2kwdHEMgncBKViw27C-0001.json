@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VCkfpGRXi0oXMW2kwdHEMgncBKViw27C",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VT2PW29QzsL2cDUwVx4HqJJsW0ZonsgD",
+      "parent_id": "1VCkfpGRXi0oXMW2kwdHEMgncBKViw27C",
+      "name": "CỬU MÔN KÝ SỰ.epub",
+      "mime": "application/epub+zip",
+      "size": 791800,
+      "modified": "2026-08-15T09:53:35.000Z",
+      "checksum": "3a124d809389fb0317dd6daf487ab82d",
+      "folder": false
+    },
+    {
+      "id": "1ER5yzCRHsHNKDsnqDt-3jdEVCXqR0iGw",
+      "parent_id": "1VCkfpGRXi0oXMW2kwdHEMgncBKViw27C",
+      "name": "CỬU MÔN KÝ SỰ.pdf",
+      "mime": "application/pdf",
+      "size": 2589902,
+      "modified": "2026-08-15T09:53:31.000Z",
+      "checksum": "8a8ad3c14f504555a70fa64f3a7c2fe8",
+      "folder": false
+    },
+    {
+      "id": "1ocOc1sPEgCR1BGY-IWtxpBHDTwL4snPy",
+      "parent_id": "1VCkfpGRXi0oXMW2kwdHEMgncBKViw27C",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5902,
+      "modified": "2026-08-15T09:53:24.000Z",
+      "checksum": "df577bbcd2cd0b18c27f5f1471ad6bdf",
+      "folder": false
+    }
+  ]
+}

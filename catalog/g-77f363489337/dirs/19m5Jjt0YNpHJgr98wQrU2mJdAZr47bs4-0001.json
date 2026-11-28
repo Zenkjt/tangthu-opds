@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19m5Jjt0YNpHJgr98wQrU2mJdAZr47bs4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1x9YWJQB313A2461eVqD6YXyMRGbpo21-",
+      "parent_id": "19m5Jjt0YNpHJgr98wQrU2mJdAZr47bs4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 855,
+      "modified": "2026-08-15T09:49:55.000Z",
+      "checksum": "d520985d77ad04c83c33722a3adb500c",
+      "folder": false
+    },
+    {
+      "id": "1KexPHHMpA7rTrM_eD9fpV6vENpfQEZKm",
+      "parent_id": "19m5Jjt0YNpHJgr98wQrU2mJdAZr47bs4",
+      "name": "EM LÀ NGOẠI LỆ.epub",
+      "mime": "application/epub+zip",
+      "size": 323107,
+      "modified": "2026-08-15T09:50:01.000Z",
+      "checksum": "3e0e43b1b0e589717f4f1d3bbc700b96",
+      "folder": false
+    },
+    {
+      "id": "1FUeSptNLTYgV-B1HsFmNQ9vuPvXSi1gd",
+      "parent_id": "19m5Jjt0YNpHJgr98wQrU2mJdAZr47bs4",
+      "name": "EM LÀ NGOẠI LỆ.pdf",
+      "mime": "application/pdf",
+      "size": 192232,
+      "modified": "2026-08-15T09:49:59.000Z",
+      "checksum": "4d0fdf6aa5b35915be0f6844da08451d",
+      "folder": false
+    }
+  ]
+}

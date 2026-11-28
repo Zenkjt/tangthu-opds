@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-lQNTu2hw0VYfhmwvt8cfUn6wX7cJgeL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1s4Uz5RYmjbsLQR8y7t1WTXw_FClyQYqH",
+      "parent_id": "1-lQNTu2hw0VYfhmwvt8cfUn6wX7cJgeL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1767,
+      "modified": "2026-08-15T07:28:04.000Z",
+      "checksum": "48cf90b7d62d8d13a63d7378fb78cee4",
+      "folder": false
+    },
+    {
+      "id": "1UlpI2R6nha3U03BcHDY8YGAE-kA47oll",
+      "parent_id": "1-lQNTu2hw0VYfhmwvt8cfUn6wX7cJgeL",
+      "name": "VĨNH AN.epub",
+      "mime": "application/epub+zip",
+      "size": 645170,
+      "modified": "2026-08-15T07:28:12.000Z",
+      "checksum": "13202b81ae841fb8ccdc76f590142dfd",
+      "folder": false
+    },
+    {
+      "id": "1JA5D_tErBr5PNGu-5CxLJyFFbMU1MT8Y",
+      "parent_id": "1-lQNTu2hw0VYfhmwvt8cfUn6wX7cJgeL",
+      "name": "VĨNH AN.pdf",
+      "mime": "application/pdf",
+      "size": 1442149,
+      "modified": "2026-08-15T07:28:10.000Z",
+      "checksum": "18075b8fca42777956bb02e8dd3e1f1b",
+      "folder": false
+    }
+  ]
+}

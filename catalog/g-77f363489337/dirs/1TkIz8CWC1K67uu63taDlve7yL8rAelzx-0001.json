@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TkIz8CWC1K67uu63taDlve7yL8rAelzx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1f8fiI2bJ-xuN8qcEkGoae9eY3vFnQ9yU",
+      "parent_id": "1TkIz8CWC1K67uu63taDlve7yL8rAelzx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 828,
+      "modified": "2026-08-15T10:40:53.000Z",
+      "checksum": "211996d0844a03fb4ccc66067a74947f",
+      "folder": false
+    },
+    {
+      "id": "1LmFOYiUHvBlJbmiA2D_zgN-sjGRd0ydD",
+      "parent_id": "1TkIz8CWC1K67uu63taDlve7yL8rAelzx",
+      "name": "NGUYÊN HỒNG TOÀN TẬP 4.epub",
+      "mime": "application/epub+zip",
+      "size": 975636,
+      "modified": "2026-08-15T10:41:24.000Z",
+      "checksum": "9132480491d0da917f6996dbd8fab40d",
+      "folder": false
+    },
+    {
+      "id": "1aRey_NA3Bf3lqZCFhmbPrnsgJMzWvhIX",
+      "parent_id": "1TkIz8CWC1K67uu63taDlve7yL8rAelzx",
+      "name": "NGUYÊN HỒNG TOÀN TẬP 4.pdf",
+      "mime": "application/pdf",
+      "size": 3189301,
+      "modified": "2026-08-15T10:41:09.000Z",
+      "checksum": "776e9bd7ce9e10811612790fcf7b496c",
+      "folder": false
+    }
+  ]
+}

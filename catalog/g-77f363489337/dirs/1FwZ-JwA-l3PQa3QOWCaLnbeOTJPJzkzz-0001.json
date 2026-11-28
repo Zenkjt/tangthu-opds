@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FwZ-JwA-l3PQa3QOWCaLnbeOTJPJzkzz",
+  "page": 1,
+  "items": [
+    {
+      "id": "19mOYJZdadqVqyqhPZIJ6uSA2p-9WbotQ",
+      "parent_id": "1FwZ-JwA-l3PQa3QOWCaLnbeOTJPJzkzz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4745,
+      "modified": "2026-08-16T02:47:24.000Z",
+      "checksum": "1ecc84801fb660332d74427546afaa46",
+      "folder": false
+    },
+    {
+      "id": "1iNNFXIBHngHUiJofTyQU7YqZb2K3Z_vA",
+      "parent_id": "1FwZ-JwA-l3PQa3QOWCaLnbeOTJPJzkzz",
+      "name": "TÔI KÉO XE.epub",
+      "mime": "application/epub+zip",
+      "size": 398827,
+      "modified": "2026-08-16T02:47:30.000Z",
+      "checksum": "0b3786e794047622f754b3d760dd37a1",
+      "folder": false
+    },
+    {
+      "id": "1GdxTxZM7EgRLZXeBFIggpkbbprh_Jl9o",
+      "parent_id": "1FwZ-JwA-l3PQa3QOWCaLnbeOTJPJzkzz",
+      "name": "TÔI KÉO XE.pdf",
+      "mime": "application/pdf",
+      "size": 485039,
+      "modified": "2026-08-16T02:47:28.000Z",
+      "checksum": "9faad9bdc84f9956e214d506dceaa53a",
+      "folder": false
+    }
+  ]
+}

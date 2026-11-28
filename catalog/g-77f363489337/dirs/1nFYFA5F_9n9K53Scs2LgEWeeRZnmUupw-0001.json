@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nFYFA5F_9n9K53Scs2LgEWeeRZnmUupw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1da1OGJB3J89hD8Fn0oP90A5LMhbj2HK-",
+      "parent_id": "1nFYFA5F_9n9K53Scs2LgEWeeRZnmUupw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 603,
+      "modified": "2026-08-15T10:42:40.000Z",
+      "checksum": "8f9f7f67d58592b3f83526e6e941484f",
+      "folder": false
+    },
+    {
+      "id": "1OTdG5-Z8PIPLeFjTywEUUokeWcisqM-c",
+      "parent_id": "1nFYFA5F_9n9K53Scs2LgEWeeRZnmUupw",
+      "name": "NGƯỜI THỨ 41.epub",
+      "mime": "application/epub+zip",
+      "size": 283147,
+      "modified": "2026-08-15T10:42:47.000Z",
+      "checksum": "1e9fc4444e00c04e4228a0822567764d",
+      "folder": false
+    },
+    {
+      "id": "1IgzRBzP_cyEa7KPBP2u8lHUBCAhQaquC",
+      "parent_id": "1nFYFA5F_9n9K53Scs2LgEWeeRZnmUupw",
+      "name": "NGƯỜI THỨ 41.pdf",
+      "mime": "application/pdf",
+      "size": 313133,
+      "modified": "2026-08-15T10:42:45.000Z",
+      "checksum": "e2244c82af6e96a1e79230f254128717",
+      "folder": false
+    }
+  ]
+}

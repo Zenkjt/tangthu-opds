@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18Q3Ayb_QdS-tmLIeOS4zeJflC34-_4HY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1w-IcVHpOH6V5BM88C5WHXaCY5ItueCPp",
+      "parent_id": "18Q3Ayb_QdS-tmLIeOS4zeJflC34-_4HY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1458,
+      "modified": "2026-08-15T03:52:22.000Z",
+      "checksum": "7052d3f8effedb2d0fc325cc0ff5eb69",
+      "folder": false
+    },
+    {
+      "id": "1cu52hH5eATowgh3qBOitA5Q9ZKELVkCH",
+      "parent_id": "18Q3Ayb_QdS-tmLIeOS4zeJflC34-_4HY",
+      "name": "ĐỨC PHẬT VÀ PHẬT PHÁP.epub",
+      "mime": "application/epub+zip",
+      "size": 1009341,
+      "modified": "2026-08-15T03:52:34.000Z",
+      "checksum": "b8eef23fc6099974f8e00c35ea690ef0",
+      "folder": false
+    },
+    {
+      "id": "1NTM9fFR3sJG3KV0CAjHSDO0hNhFzFmKu",
+      "parent_id": "18Q3Ayb_QdS-tmLIeOS4zeJflC34-_4HY",
+      "name": "ĐỨC PHẬT VÀ PHẬT PHÁP.pdf",
+      "mime": "application/pdf",
+      "size": 2734805,
+      "modified": "2026-08-15T03:52:31.000Z",
+      "checksum": "e2f7bd52398e14c220220b38a36e7039",
+      "folder": false
+    }
+  ]
+}

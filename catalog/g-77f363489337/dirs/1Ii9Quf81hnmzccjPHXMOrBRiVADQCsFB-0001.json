@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ii9Quf81hnmzccjPHXMOrBRiVADQCsFB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kcaY5Li2oWN70eKAL2Rm6MyqbLMUddMr",
+      "parent_id": "1Ii9Quf81hnmzccjPHXMOrBRiVADQCsFB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3106,
+      "modified": "2026-08-16T03:59:18.000Z",
+      "checksum": "c134064600a09b2aaa5761433ae02b5e",
+      "folder": false
+    },
+    {
+      "id": "1iGjNOb4-Fo0RvOADtSjo882Av2mVMInJ",
+      "parent_id": "1Ii9Quf81hnmzccjPHXMOrBRiVADQCsFB",
+      "name": "THÀNH PHỐ HOANG VẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1387532,
+      "modified": "2026-08-16T03:59:26.000Z",
+      "checksum": "f6a075563debb3d516d5245d83d31390",
+      "folder": false
+    },
+    {
+      "id": "1zk8yUPAVhqVScWE_NtouZz8oX6-9vBM4",
+      "parent_id": "1Ii9Quf81hnmzccjPHXMOrBRiVADQCsFB",
+      "name": "THÀNH PHỐ HOANG VẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 1544474,
+      "modified": "2026-08-16T03:59:23.000Z",
+      "checksum": "03a7a16a111f8af2a4d49edbd5ff1196",
+      "folder": false
+    }
+  ]
+}

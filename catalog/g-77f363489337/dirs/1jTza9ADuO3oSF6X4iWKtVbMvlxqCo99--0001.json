@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jTza9ADuO3oSF6X4iWKtVbMvlxqCo99-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1brxOqr7PO2UvF584usj1kp7x2pecnuTc",
+      "parent_id": "1jTza9ADuO3oSF6X4iWKtVbMvlxqCo99-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6905,
+      "modified": "2026-08-15T03:56:45.000Z",
+      "checksum": "f03f04ccf84e9acbe217122859b882b6",
+      "folder": false
+    },
+    {
+      "id": "1AMU60Cy9Cc5TYkIGqauUuKdaFNAPtMwU",
+      "parent_id": "1jTza9ADuO3oSF6X4iWKtVbMvlxqCo99-",
+      "name": "RA ĐỜI, VÀO ĐẠO.epub",
+      "mime": "application/epub+zip",
+      "size": 260966,
+      "modified": "2026-08-15T03:56:50.000Z",
+      "checksum": "f3eb9c59dcee8b74b285bdcf2d3b5fac",
+      "folder": false
+    },
+    {
+      "id": "1_I_C6tilsJgMCwGLGiWcH8v7xoVCTOP_",
+      "parent_id": "1jTza9ADuO3oSF6X4iWKtVbMvlxqCo99-",
+      "name": "RA ĐỜI, VÀO ĐẠO.pdf",
+      "mime": "application/pdf",
+      "size": 234581,
+      "modified": "2026-08-15T03:56:48.000Z",
+      "checksum": "ef77cb3efad965966c69229282cf3e9f",
+      "folder": false
+    }
+  ]
+}

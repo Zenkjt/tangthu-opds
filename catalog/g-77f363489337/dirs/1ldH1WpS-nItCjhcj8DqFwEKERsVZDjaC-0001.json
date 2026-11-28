@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ldH1WpS-nItCjhcj8DqFwEKERsVZDjaC",
+  "page": 1,
+  "items": [
+    {
+      "id": "11rxI2Q-k020wnD8WmpjiWIpLkep2Vsys",
+      "parent_id": "1ldH1WpS-nItCjhcj8DqFwEKERsVZDjaC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4368,
+      "modified": "2026-08-15T03:24:54.000Z",
+      "checksum": "2e0d379cca2b7be7739e38ae28bffcce",
+      "folder": false
+    },
+    {
+      "id": "1kI_kIMloG2SgzkRi44NNlvWZveDV2cxC",
+      "parent_id": "1ldH1WpS-nItCjhcj8DqFwEKERsVZDjaC",
+      "name": "GIẢI MÃ ĐÀN ÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1082102,
+      "modified": "2026-08-15T03:25:02.000Z",
+      "checksum": "bdfb78fbe67548ffad4821cc5992b289",
+      "folder": false
+    },
+    {
+      "id": "1Y1QdzQlYGbQpQ27XtxhrbjqKcHaBT9dk",
+      "parent_id": "1ldH1WpS-nItCjhcj8DqFwEKERsVZDjaC",
+      "name": "GIẢI MÃ ĐÀN ÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 3909562,
+      "modified": "2026-08-15T03:24:59.000Z",
+      "checksum": "24f4a18fb299fd6950182f31395ec79c",
+      "folder": false
+    }
+  ]
+}

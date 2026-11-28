@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1agpMf6ytbo68yG75_zJmCDVxursk8nSA",
+  "page": 1,
+  "items": [
+    {
+      "id": "17gn7bUPN02_Gp3JH1l49vpCMfhUzfPyD",
+      "parent_id": "1agpMf6ytbo68yG75_zJmCDVxursk8nSA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3017,
+      "modified": "2026-08-15T03:44:56.000Z",
+      "checksum": "c847d5679988282e489c1f9ea3b5d756",
+      "folder": false
+    },
+    {
+      "id": "1UmQpfyyIwJB1yx0CiSRVao3I7bA1bXvz",
+      "parent_id": "1agpMf6ytbo68yG75_zJmCDVxursk8nSA",
+      "name": "TÌM LẠI CHÍNH MÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 126693,
+      "modified": "2026-08-15T03:45:02.000Z",
+      "checksum": "a1027fece9089b0ce8c462012fbaa401",
+      "folder": false
+    },
+    {
+      "id": "1Ceg8jCXXvWlkxad28HKjQMjepbeDc2RZ",
+      "parent_id": "1agpMf6ytbo68yG75_zJmCDVxursk8nSA",
+      "name": "TÌM LẠI CHÍNH MÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 308656,
+      "modified": "2026-08-15T03:45:00.000Z",
+      "checksum": "b1c8bf5d31270f62a7c04edab2e47a00",
+      "folder": false
+    }
+  ]
+}

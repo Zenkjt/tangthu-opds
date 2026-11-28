@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1M689bxHpOgHwyl449W7gf05r90nFZMFl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1z-L7kti3t575vRXLKBkubwBnTN02PC5w",
+      "parent_id": "1M689bxHpOgHwyl449W7gf05r90nFZMFl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 13680,
+      "modified": "2026-08-15T07:31:26.000Z",
+      "checksum": "7cbb9bd675ad518fa91f6f9d0c93d323",
+      "folder": false
+    },
+    {
+      "id": "1ybBRsdVeYAsd5qhTbU-dtdklm3o4REOl",
+      "parent_id": "1M689bxHpOgHwyl449W7gf05r90nFZMFl",
+      "name": "WORLD OF WARCRAFT CHRONICLE QUYỂN 2.epub",
+      "mime": "application/epub+zip",
+      "size": 560666,
+      "modified": "2026-08-15T07:31:32.000Z",
+      "checksum": "4733a4a03adebcf341d3a0e23a9aec08",
+      "folder": false
+    },
+    {
+      "id": "1GRwiYRVL2l1fjLghmHG-AbjQutB_Hv_m",
+      "parent_id": "1M689bxHpOgHwyl449W7gf05r90nFZMFl",
+      "name": "WORLD OF WARCRAFT CHRONICLE QUYỂN 2.pdf",
+      "mime": "application/pdf",
+      "size": 1214693,
+      "modified": "2026-08-15T07:31:29.000Z",
+      "checksum": "78f75e311c81fec114372000336ad5ae",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nOF5H73KvLNy_h0toQ09p5FW8HLLipSo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WvBCdAjKqELNNYuF81dtMGsvUAIf-9rX",
+      "parent_id": "1nOF5H73KvLNy_h0toQ09p5FW8HLLipSo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3688,
+      "modified": "2026-08-15T03:21:03.000Z",
+      "checksum": "6f7f6fbf0914ddc18dcc479056a65e7d",
+      "folder": false
+    },
+    {
+      "id": "1eSGr3SR3r9_eeLi5TCmjruWGSpZnnkfj",
+      "parent_id": "1nOF5H73KvLNy_h0toQ09p5FW8HLLipSo",
+      "name": "LỜI NÓI DỐI VĨ ĐẠI CỦA NÃO.epub",
+      "mime": "application/epub+zip",
+      "size": 385940,
+      "modified": "2026-08-15T03:21:10.000Z",
+      "checksum": "b5ff2e7691b6244c41ffc8c1b6eb5796",
+      "folder": false
+    },
+    {
+      "id": "1xzPVqH2zgz5aui50XFXqChDXzMVtERhn",
+      "parent_id": "1nOF5H73KvLNy_h0toQ09p5FW8HLLipSo",
+      "name": "LỜI NÓI DỐI VĨ ĐẠI CỦA NÃO.pdf",
+      "mime": "application/pdf",
+      "size": 855163,
+      "modified": "2026-08-15T03:21:08.000Z",
+      "checksum": "8a20de5a8a00149f64b6da9240e2d129",
+      "folder": false
+    }
+  ]
+}

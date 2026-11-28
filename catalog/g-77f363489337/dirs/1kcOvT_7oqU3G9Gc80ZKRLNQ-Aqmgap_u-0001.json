@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kcOvT_7oqU3G9Gc80ZKRLNQ-Aqmgap_u",
+  "page": 1,
+  "items": [
+    {
+      "id": "157NAk_Pyy0CS64B242EchMWUkfsypXqd",
+      "parent_id": "1kcOvT_7oqU3G9Gc80ZKRLNQ-Aqmgap_u",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4004,
+      "modified": "2026-08-16T03:33:42.000Z",
+      "checksum": "311dbbd2c02fdde83acda668d3bfad40",
+      "folder": false
+    },
+    {
+      "id": "1g7aQ8MnYs5KXIELuy7KZ1cOSRIdnPhk2",
+      "parent_id": "1kcOvT_7oqU3G9Gc80ZKRLNQ-Aqmgap_u",
+      "name": "RUỒI TRÂU.epub",
+      "mime": "application/epub+zip",
+      "size": 830128,
+      "modified": "2026-08-16T03:33:51.000Z",
+      "checksum": "de9239caa24d8b3725a4d50a25ab315e",
+      "folder": false
+    },
+    {
+      "id": "1Dn-sw9Rs-n2LBhIbNbBeTGhDQ5O4GX9d",
+      "parent_id": "1kcOvT_7oqU3G9Gc80ZKRLNQ-Aqmgap_u",
+      "name": "RUỒI TRÂU.pdf",
+      "mime": "application/pdf",
+      "size": 2962609,
+      "modified": "2026-08-16T03:33:49.000Z",
+      "checksum": "86258c7267a56ce5804ae29679921d82",
+      "folder": false
+    }
+  ]
+}

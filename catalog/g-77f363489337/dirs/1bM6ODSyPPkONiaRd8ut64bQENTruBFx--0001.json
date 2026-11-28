@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bM6ODSyPPkONiaRd8ut64bQENTruBFx-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NWF0TnoPakKGvBtSkzOcRGM4ZZwRFc24",
+      "parent_id": "1bM6ODSyPPkONiaRd8ut64bQENTruBFx-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 413,
+      "modified": "2026-08-15T10:42:48.000Z",
+      "checksum": "3c76ec64ec77c60dbc2bab88b3df9013",
+      "folder": false
+    },
+    {
+      "id": "14gEz4F8Nuw5s2lygwQB5OOMVJ8C58wNE",
+      "parent_id": "1bM6ODSyPPkONiaRd8ut64bQENTruBFx-",
+      "name": "NGƯỜI THẦY THUỐC.epub",
+      "mime": "application/epub+zip",
+      "size": 1033903,
+      "modified": "2026-08-15T10:42:55.000Z",
+      "checksum": "264c11b31a4cf737a7edf3f0e8edf5b9",
+      "folder": false
+    },
+    {
+      "id": "1JW4U_5JVFkkmdfl6csOAwM-3e86st1mD",
+      "parent_id": "1bM6ODSyPPkONiaRd8ut64bQENTruBFx-",
+      "name": "NGƯỜI THẦY THUỐC.pdf",
+      "mime": "application/pdf",
+      "size": 670156,
+      "modified": "2026-08-15T10:42:52.000Z",
+      "checksum": "e3192de40a1b5b08b060f8d386e253b4",
+      "folder": false
+    }
+  ]
+}

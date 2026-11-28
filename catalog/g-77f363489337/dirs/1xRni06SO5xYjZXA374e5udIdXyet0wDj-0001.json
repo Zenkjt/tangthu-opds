@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xRni06SO5xYjZXA374e5udIdXyet0wDj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VBJG0YAfd7xZF25754CcxAy-iwmB0o_9",
+      "parent_id": "1xRni06SO5xYjZXA374e5udIdXyet0wDj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5914,
+      "modified": "2026-08-15T07:43:14.000Z",
+      "checksum": "8fa94873658895041326dfac6a5e7d14",
+      "folder": false
+    },
+    {
+      "id": "1bvyy0hUSG9qaW203bR5ALJ9FEpkNse1k",
+      "parent_id": "1xRni06SO5xYjZXA374e5udIdXyet0wDj",
+      "name": "QUAN THANH TRA.epub",
+      "mime": "application/epub+zip",
+      "size": 400479,
+      "modified": "2026-08-15T07:43:21.000Z",
+      "checksum": "67b86e9c1c612f068e44434b8369e797",
+      "folder": false
+    },
+    {
+      "id": "1RFTBOa9sL_VA3PiDyhIX8brCRVRldDLc",
+      "parent_id": "1xRni06SO5xYjZXA374e5udIdXyet0wDj",
+      "name": "QUAN THANH TRA.pdf",
+      "mime": "application/pdf",
+      "size": 1126909,
+      "modified": "2026-08-15T07:43:19.000Z",
+      "checksum": "dd128b898346ed85e6b0e71f4d24f986",
+      "folder": false
+    }
+  ]
+}

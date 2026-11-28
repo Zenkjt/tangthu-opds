@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ydmmI1nw80YlOK6N_2FJgHNte1WDW0Tc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gHxiktIMl7lahsbE7EuTjA8peoxaeA2D",
+      "parent_id": "1ydmmI1nw80YlOK6N_2FJgHNte1WDW0Tc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2974,
+      "modified": "2026-08-16T03:59:55.000Z",
+      "checksum": "f1c62e2486085f977470331d6a424c57",
+      "folder": false
+    },
+    {
+      "id": "1DlFwb-0G6ufb5qhnfNJYo3PqjhYxTCZ8",
+      "parent_id": "1ydmmI1nw80YlOK6N_2FJgHNte1WDW0Tc",
+      "name": "THẦN MÈO.epub",
+      "mime": "application/epub+zip",
+      "size": 250379,
+      "modified": "2026-08-16T04:00:01.000Z",
+      "checksum": "774980e7f5ce0077925eada55473e8d1",
+      "folder": false
+    },
+    {
+      "id": "1QnE00ngS1QJIscR07tLVEaMAgOtE1Lv0",
+      "parent_id": "1ydmmI1nw80YlOK6N_2FJgHNte1WDW0Tc",
+      "name": "THẦN MÈO.pdf",
+      "mime": "application/pdf",
+      "size": 261019,
+      "modified": "2026-08-16T03:59:58.000Z",
+      "checksum": "dfa2790ac8438187a69c01f47e6d05d5",
+      "folder": false
+    }
+  ]
+}

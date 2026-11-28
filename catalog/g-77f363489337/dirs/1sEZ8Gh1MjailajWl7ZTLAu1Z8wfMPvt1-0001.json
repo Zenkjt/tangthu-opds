@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sEZ8Gh1MjailajWl7ZTLAu1Z8wfMPvt1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gEZja4b0JJQ5h7bbDmiMzvlFutv0lt-8",
+      "parent_id": "1sEZ8Gh1MjailajWl7ZTLAu1Z8wfMPvt1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4802,
+      "modified": "2026-08-15T04:24:15.000Z",
+      "checksum": "974b0ca9a6db0c654e5c9be9f0b188be",
+      "folder": false
+    },
+    {
+      "id": "1ra8rx3ARn6l0-BCxAItzVyikzakUBR2Y",
+      "parent_id": "1sEZ8Gh1MjailajWl7ZTLAu1Z8wfMPvt1",
+      "name": "PHƯƠNG PHÁP TRỊ BỆNH UNG THƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 1460672,
+      "modified": "2026-08-15T04:24:22.000Z",
+      "checksum": "adc552a3c5e2f2fea9ed1210c4b9fa9a",
+      "folder": false
+    },
+    {
+      "id": "1m6XeaJ_qi9U3DeLy8B-0tOU69gAiFlmL",
+      "parent_id": "1sEZ8Gh1MjailajWl7ZTLAu1Z8wfMPvt1",
+      "name": "PHƯƠNG PHÁP TRỊ BỆNH UNG THƯ.pdf",
+      "mime": "application/pdf",
+      "size": 2048095,
+      "modified": "2026-08-15T04:24:19.000Z",
+      "checksum": "f633cfd200a63067b4d630bc1aea4e32",
+      "folder": false
+    }
+  ]
+}

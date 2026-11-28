@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1P_zJAmQ17AYUGXky7ogwBqjRpMi21IsB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GhLHCtmA7XxLvuUfshQY2fSFHQu0nNl5",
+      "parent_id": "1P_zJAmQ17AYUGXky7ogwBqjRpMi21IsB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 591,
+      "modified": "2026-08-15T10:29:54.000Z",
+      "checksum": "7a68f138921a5d8f41d82861706eda0f",
+      "folder": false
+    },
+    {
+      "id": "1Pl_123TwTTPMiLWjicKSlI76hGqc8B5X",
+      "parent_id": "1P_zJAmQ17AYUGXky7ogwBqjRpMi21IsB",
+      "name": "REACHER BÁO THÙ.epub",
+      "mime": "application/epub+zip",
+      "size": 775718,
+      "modified": "2026-08-15T10:30:14.000Z",
+      "checksum": "8aa6e2d8c691c3236e9133e7c6679176",
+      "folder": false
+    },
+    {
+      "id": "12Hex1SZyowxi5YKeC2yzWSvWrlry4Ayi",
+      "parent_id": "1P_zJAmQ17AYUGXky7ogwBqjRpMi21IsB",
+      "name": "REACHER BÁO THÙ.pdf",
+      "mime": "application/pdf",
+      "size": 1973073,
+      "modified": "2026-08-15T10:30:10.000Z",
+      "checksum": "ae19e421a71cfa05e77b9464925727eb",
+      "folder": false
+    }
+  ]
+}

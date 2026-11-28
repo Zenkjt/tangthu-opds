@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nk5mPCqJeb1N-0UmNuQXdJkwVbWkiZ8a",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AlRj5XcHEu6Iz0V7ArTYriOMPsQLeYYQ",
+      "parent_id": "1nk5mPCqJeb1N-0UmNuQXdJkwVbWkiZ8a",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4607,
+      "modified": "2026-08-15T00:49:29.000Z",
+      "checksum": "34330ff8ed234927cf77f5b42a090ddc",
+      "folder": false
+    },
+    {
+      "id": "14myh77lPzkR-NZ0fANNbBUyoLrPez8RT",
+      "parent_id": "1nk5mPCqJeb1N-0UmNuQXdJkwVbWkiZ8a",
+      "name": "KỶ NGUYÊN HỖN LOẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 2026935,
+      "modified": "2026-08-15T00:49:39.000Z",
+      "checksum": "844b3bb426862085fa57f2b39864f834",
+      "folder": false
+    },
+    {
+      "id": "1HBTIM7iupqt9g35q7WB_kxRvq2RYuQkI",
+      "parent_id": "1nk5mPCqJeb1N-0UmNuQXdJkwVbWkiZ8a",
+      "name": "KỶ NGUYÊN HỖN LOẠN.pdf",
+      "mime": "application/pdf",
+      "size": 4475915,
+      "modified": "2026-08-15T00:49:36.000Z",
+      "checksum": "b56e52b1f4e43e5204286fd40c4af837",
+      "folder": false
+    }
+  ]
+}

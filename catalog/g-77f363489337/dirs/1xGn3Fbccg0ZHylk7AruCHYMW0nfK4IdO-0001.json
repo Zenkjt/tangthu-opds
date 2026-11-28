@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xGn3Fbccg0ZHylk7AruCHYMW0nfK4IdO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-4I8ww7uCXv8P0gFylIFwy7CycMybaTf",
+      "parent_id": "1xGn3Fbccg0ZHylk7AruCHYMW0nfK4IdO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2136,
+      "modified": "2026-08-15T03:15:10.000Z",
+      "checksum": "5fa7ef98ccda8c3d3cc86e120d4e4fd0",
+      "folder": false
+    },
+    {
+      "id": "1qHB6m9iCV9YAd0bPj_k8N6Re1VoMXmJA",
+      "parent_id": "1xGn3Fbccg0ZHylk7AruCHYMW0nfK4IdO",
+      "name": "LẬP BẢN ĐỒ TƯ DUY.epub",
+      "mime": "application/epub+zip",
+      "size": 557112,
+      "modified": "2026-08-15T03:15:17.000Z",
+      "checksum": "00d9372ad02eb6b0d41f9d55c885568c",
+      "folder": false
+    },
+    {
+      "id": "1CyZE_Bop2EP046Ksynm55nK8vxkYijtB",
+      "parent_id": "1xGn3Fbccg0ZHylk7AruCHYMW0nfK4IdO",
+      "name": "LẬP BẢN ĐỒ TƯ DUY.pdf",
+      "mime": "application/pdf",
+      "size": 485695,
+      "modified": "2026-08-15T03:15:14.000Z",
+      "checksum": "9b4f57228a8149941ea841957005ee1e",
+      "folder": false
+    }
+  ]
+}

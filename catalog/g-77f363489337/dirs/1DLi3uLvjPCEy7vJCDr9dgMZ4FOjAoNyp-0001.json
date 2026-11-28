@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DLi3uLvjPCEy7vJCDr9dgMZ4FOjAoNyp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FAqFF0Io3wfo8tpmMS8pNRL2rdzCXXse",
+      "parent_id": "1DLi3uLvjPCEy7vJCDr9dgMZ4FOjAoNyp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2818,
+      "modified": "2026-08-16T03:39:47.000Z",
+      "checksum": "c32b6f34c73932ae192a21f970f4e784",
+      "folder": false
+    },
+    {
+      "id": "1_czeMpxfAE4kn9r85AqiQUQr1iFS1_iG",
+      "parent_id": "1DLi3uLvjPCEy7vJCDr9dgMZ4FOjAoNyp",
+      "name": "HƯ LỘ.epub",
+      "mime": "application/epub+zip",
+      "size": 1267419,
+      "modified": "2026-08-16T03:40:00.000Z",
+      "checksum": "2ababcd783f9ce783b1f90292f42215e",
+      "folder": false
+    },
+    {
+      "id": "1sdc9BeQU8sqdzQBuerR4XmJn0F4y-_k7",
+      "parent_id": "1DLi3uLvjPCEy7vJCDr9dgMZ4FOjAoNyp",
+      "name": "HƯ LỘ.pdf",
+      "mime": "application/pdf",
+      "size": 4683534,
+      "modified": "2026-08-16T03:39:57.000Z",
+      "checksum": "fe17c37999a11bd6fb072ff4224dc13b",
+      "folder": false
+    }
+  ]
+}

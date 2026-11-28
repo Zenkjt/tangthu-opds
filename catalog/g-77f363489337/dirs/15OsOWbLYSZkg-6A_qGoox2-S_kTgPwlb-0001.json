@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15OsOWbLYSZkg-6A_qGoox2-S_kTgPwlb",
+  "page": 1,
+  "items": [
+    {
+      "id": "19IS4NpaPvEcc2v6ugYZMArafL6dBKbnA",
+      "parent_id": "15OsOWbLYSZkg-6A_qGoox2-S_kTgPwlb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1416,
+      "modified": "2026-08-15T04:00:37.000Z",
+      "checksum": "986a2b8879930dc7d5d2a8fcc59ad35b",
+      "folder": false
+    },
+    {
+      "id": "15OCiyTescyIRsZX4A-Xmg38Vt_NJz_Si",
+      "parent_id": "15OsOWbLYSZkg-6A_qGoox2-S_kTgPwlb",
+      "name": "LUẬN VỀ HUYỀN LINH THUẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 820253,
+      "modified": "2026-08-15T04:00:48.000Z",
+      "checksum": "ba7c17ec8cd2147ba56abef50ecbcc2d",
+      "folder": false
+    },
+    {
+      "id": "14fmjwRjm_oz6yEJWvO7mhW-4D1nK_B8P",
+      "parent_id": "15OsOWbLYSZkg-6A_qGoox2-S_kTgPwlb",
+      "name": "LUẬN VỀ HUYỀN LINH THUẬT.pdf",
+      "mime": "application/pdf",
+      "size": 5056011,
+      "modified": "2026-08-15T04:00:45.000Z",
+      "checksum": "0063b386d4df3556cc7d972043af93cf",
+      "folder": false
+    }
+  ]
+}

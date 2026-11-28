@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eS4P0D1po9TI3NZDqV5buEOL4zHwPfF_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RafbU829lh_gzdwktzOKvxG3wktagfFL",
+      "parent_id": "1eS4P0D1po9TI3NZDqV5buEOL4zHwPfF_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2266,
+      "modified": "2026-08-16T02:42:34.000Z",
+      "checksum": "4d319f62d4460e6261c6853149f1147f",
+      "folder": false
+    },
+    {
+      "id": "1F9CYx3ARz2vdElEvSGmWr3gA2yjpU7ZP",
+      "parent_id": "1eS4P0D1po9TI3NZDqV5buEOL4zHwPfF_",
+      "name": "NGHÌN LẺ MỘT ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 3416793,
+      "modified": "2026-08-16T02:42:57.000Z",
+      "checksum": "2daae1ef50cc30eb3643f85fb58dd070",
+      "folder": false
+    },
+    {
+      "id": "1Eu-qgl6b8-GRFLO7d_LSyhP0PnTNdUjs",
+      "parent_id": "1eS4P0D1po9TI3NZDqV5buEOL4zHwPfF_",
+      "name": "NGHÌN LẺ MỘT ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 6949035,
+      "modified": "2026-08-16T02:42:53.000Z",
+      "checksum": "332e233c2bc3d6e82256633f92d0fcbc",
+      "folder": false
+    }
+  ]
+}

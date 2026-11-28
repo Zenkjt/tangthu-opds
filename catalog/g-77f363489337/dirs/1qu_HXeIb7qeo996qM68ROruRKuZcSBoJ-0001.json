@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qu_HXeIb7qeo996qM68ROruRKuZcSBoJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CBgvtQ_KgZhP0BxvGllnWeAtUw96LRLP",
+      "parent_id": "1qu_HXeIb7qeo996qM68ROruRKuZcSBoJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3986,
+      "modified": "2026-08-15T11:06:08.000Z",
+      "checksum": "e0576c09de7d9efd597ea2d40fcc5ade",
+      "folder": false
+    },
+    {
+      "id": "1Zh7B2QfOYiMrEJyrZp31b7DnYTxdnKls",
+      "parent_id": "1qu_HXeIb7qeo996qM68ROruRKuZcSBoJ",
+      "name": "TRỞ LẠI ĐỊA ĐÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 731757,
+      "modified": "2026-08-15T11:06:21.000Z",
+      "checksum": "3aa94f6a1e68592422b978e016b91f3b",
+      "folder": false
+    },
+    {
+      "id": "11iuzDZxaRjGZOKLWIthVlUe1E3_7aFjf",
+      "parent_id": "1qu_HXeIb7qeo996qM68ROruRKuZcSBoJ",
+      "name": "TRỞ LẠI ĐỊA ĐÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 1743530,
+      "modified": "2026-08-15T11:06:18.000Z",
+      "checksum": "26bddbd8bfe5df53d1cd144267f3e13c",
+      "folder": false
+    }
+  ]
+}

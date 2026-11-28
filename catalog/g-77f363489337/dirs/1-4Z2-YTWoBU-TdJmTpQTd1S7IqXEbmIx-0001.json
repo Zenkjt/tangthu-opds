@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-4Z2-YTWoBU-TdJmTpQTd1S7IqXEbmIx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_wqF5A_wX132lTPGWrL5J7ej63g8vnM9",
+      "parent_id": "1-4Z2-YTWoBU-TdJmTpQTd1S7IqXEbmIx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4527,
+      "modified": "2026-08-15T07:46:37.000Z",
+      "checksum": "d1d0c9565c6da956cc09127c7eaeb19c",
+      "folder": false
+    },
+    {
+      "id": "1gOgm9vg67uu0-uqGLnsMokeHiQh4L6oV",
+      "parent_id": "1-4Z2-YTWoBU-TdJmTpQTd1S7IqXEbmIx",
+      "name": "SỰ KHỞI ĐẦU.epub",
+      "mime": "application/epub+zip",
+      "size": 281796,
+      "modified": "2026-08-15T07:46:44.000Z",
+      "checksum": "3e62f1f7e71417214a462e30ba7e6aa6",
+      "folder": false
+    },
+    {
+      "id": "1xNvav4qxXRFb_scYT-ZDjZIA0SgIEops",
+      "parent_id": "1-4Z2-YTWoBU-TdJmTpQTd1S7IqXEbmIx",
+      "name": "SỰ KHỞI ĐẦU.pdf",
+      "mime": "application/pdf",
+      "size": 183156,
+      "modified": "2026-08-15T07:46:41.000Z",
+      "checksum": "6f35cd359df85258450739e9c1079fc1",
+      "folder": false
+    }
+  ]
+}

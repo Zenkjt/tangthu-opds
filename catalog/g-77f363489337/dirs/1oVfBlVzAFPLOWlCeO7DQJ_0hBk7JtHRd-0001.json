@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oVfBlVzAFPLOWlCeO7DQJ_0hBk7JtHRd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1La23jpJ-NmYa0YO9HAWo1nX1l3yaIRa3",
+      "parent_id": "1oVfBlVzAFPLOWlCeO7DQJ_0hBk7JtHRd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1355,
+      "modified": "2026-08-15T07:21:23.000Z",
+      "checksum": "c9c35684ac4882cdbf4a15401f346663",
+      "folder": false
+    },
+    {
+      "id": "1WnTG4OIQaTsDcAsxdYUv2VPUu_6fC0xr",
+      "parent_id": "1oVfBlVzAFPLOWlCeO7DQJ_0hBk7JtHRd",
+      "name": "TRÂM 3 TÌNH LANG HỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 758697,
+      "modified": "2026-08-15T07:21:32.000Z",
+      "checksum": "795fed06baa5c0758309c0a726cc0c1b",
+      "folder": false
+    },
+    {
+      "id": "1ThvFu2HkNZ_mgMoXJ5RuXeF05Wj9lBOp",
+      "parent_id": "1oVfBlVzAFPLOWlCeO7DQJ_0hBk7JtHRd",
+      "name": "TRÂM 3 TÌNH LANG HỜ.pdf",
+      "mime": "application/pdf",
+      "size": 1736801,
+      "modified": "2026-08-15T07:21:29.000Z",
+      "checksum": "7a7374bb65513ba23d720fe6f723dac9",
+      "folder": false
+    }
+  ]
+}

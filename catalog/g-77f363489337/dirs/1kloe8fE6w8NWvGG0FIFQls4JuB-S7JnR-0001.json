@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kloe8fE6w8NWvGG0FIFQls4JuB-S7JnR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JDewnSBsB4P8FDasHIMaSMuTMEulTRFe",
+      "parent_id": "1kloe8fE6w8NWvGG0FIFQls4JuB-S7JnR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2838,
+      "modified": "2026-08-15T07:27:47.000Z",
+      "checksum": "927c60674e4117d64b84dd0576ea93fe",
+      "folder": false
+    },
+    {
+      "id": "1YLwkGR7bQqVPC5jTxJTJ0AW4JkissjgO",
+      "parent_id": "1kloe8fE6w8NWvGG0FIFQls4JuB-S7JnR",
+      "name": "VIỄN CỔ HÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 2122949,
+      "modified": "2026-08-15T07:27:59.000Z",
+      "checksum": "8e02c6b4dc6101e8b974608d0ca46ce4",
+      "folder": false
+    },
+    {
+      "id": "1RTdzfl_HR8kdUaDAWMU9ITgkCRRyT306",
+      "parent_id": "1kloe8fE6w8NWvGG0FIFQls4JuB-S7JnR",
+      "name": "VIỄN CỔ HÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 2318981,
+      "modified": "2026-08-15T07:27:53.000Z",
+      "checksum": "cfde4f0a0d5d01edebd090256d385a35",
+      "folder": false
+    }
+  ]
+}

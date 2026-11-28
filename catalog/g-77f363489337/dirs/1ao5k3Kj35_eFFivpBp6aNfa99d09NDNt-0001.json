@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ao5k3Kj35_eFFivpBp6aNfa99d09NDNt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iKPJ8xgJ10mWm-7eOoqynBxYOmEZ3AdH",
+      "parent_id": "1ao5k3Kj35_eFFivpBp6aNfa99d09NDNt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6977,
+      "modified": "2026-08-16T03:36:28.000Z",
+      "checksum": "5f48bb5ef601a65c9fdcda59ffb24823",
+      "folder": false
+    },
+    {
+      "id": "1z9Jd9RsJdQAnDPO92yCZUqT7zo_xObtl",
+      "parent_id": "1ao5k3Kj35_eFFivpBp6aNfa99d09NDNt",
+      "name": "MỘT CHUYỆN TÌNH ĐẦY NƯỚC MẮT.epub",
+      "mime": "application/epub+zip",
+      "size": 341992,
+      "modified": "2026-08-16T03:36:33.000Z",
+      "checksum": "37265aa4ac68bfc7e75f8f44bb0cba0f",
+      "folder": false
+    },
+    {
+      "id": "163kc3846nvJfOCWz2UWkyCUqYzHo0ZSA",
+      "parent_id": "1ao5k3Kj35_eFFivpBp6aNfa99d09NDNt",
+      "name": "MỘT CHUYỆN TÌNH ĐẦY NƯỚC MẮT.pdf",
+      "mime": "application/pdf",
+      "size": 135854,
+      "modified": "2026-08-16T03:36:31.000Z",
+      "checksum": "4984dcfe34a89740f1af7793df68a143",
+      "folder": false
+    }
+  ]
+}

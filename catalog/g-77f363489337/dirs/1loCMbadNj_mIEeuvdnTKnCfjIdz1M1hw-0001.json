@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1loCMbadNj_mIEeuvdnTKnCfjIdz1M1hw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RMe-BLXCtFRtcE190r0dvnWcCw49TqVJ",
+      "parent_id": "1loCMbadNj_mIEeuvdnTKnCfjIdz1M1hw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 826,
+      "modified": "2026-08-15T10:19:32.000Z",
+      "checksum": "120a64e2d900d6674473e680302d6a3d",
+      "folder": false
+    },
+    {
+      "id": "1GMUO-8NY1SlhG0wdtfB5FXVmrp5a5rp1",
+      "parent_id": "1loCMbadNj_mIEeuvdnTKnCfjIdz1M1hw",
+      "name": "THẠCH HẦU.epub",
+      "mime": "application/epub+zip",
+      "size": 763479,
+      "modified": "2026-08-15T10:19:47.000Z",
+      "checksum": "20f51569c62946494419d0bff4d5b3aa",
+      "folder": false
+    },
+    {
+      "id": "1GYbVwroYuONvmgTSTAbW1S2UQBsOeG0o",
+      "parent_id": "1loCMbadNj_mIEeuvdnTKnCfjIdz1M1hw",
+      "name": "THẠCH HẦU.pdf",
+      "mime": "application/pdf",
+      "size": 1922007,
+      "modified": "2026-08-15T10:19:43.000Z",
+      "checksum": "9d5440b8a30da7f0dad14bee35146cbd",
+      "folder": false
+    }
+  ]
+}

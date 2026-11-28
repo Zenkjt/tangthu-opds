@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1shBFB_9osPRbkYKEsTvTgZqmtKFiQBkM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qacTX62qourpXaNTuTggVGKTLbr7MD0l",
+      "parent_id": "1shBFB_9osPRbkYKEsTvTgZqmtKFiQBkM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 531,
+      "modified": "2026-08-15T10:53:01.000Z",
+      "checksum": "c261ed16f7a3264cb209f96bcf4e480c",
+      "folder": false
+    },
+    {
+      "id": "1Hm3uc5FEcyWeEGsYJ9zuKZFC9sYe5pW0",
+      "parent_id": "1shBFB_9osPRbkYKEsTvTgZqmtKFiQBkM",
+      "name": "MẠNH MẼ VÀ CÔ ĐỘC.epub",
+      "mime": "application/epub+zip",
+      "size": 223657,
+      "modified": "2026-08-15T10:53:07.000Z",
+      "checksum": "8feaea26cc7a212469749c59a135f776",
+      "folder": false
+    },
+    {
+      "id": "1gww3FBStQUrjZJ5FUftvleztMxFUjF6E",
+      "parent_id": "1shBFB_9osPRbkYKEsTvTgZqmtKFiQBkM",
+      "name": "MẠNH MẼ VÀ CÔ ĐỘC.pdf",
+      "mime": "application/pdf",
+      "size": 345880,
+      "modified": "2026-08-15T10:53:04.000Z",
+      "checksum": "7a6a2254d81b5f18f66c415fb5ce5956",
+      "folder": false
+    }
+  ]
+}

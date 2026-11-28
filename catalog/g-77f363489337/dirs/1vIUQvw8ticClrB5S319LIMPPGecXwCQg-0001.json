@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vIUQvw8ticClrB5S319LIMPPGecXwCQg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OasiZBHofVhA9HFTEog1pf4V6B-bxTeb",
+      "parent_id": "1vIUQvw8ticClrB5S319LIMPPGecXwCQg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 489,
+      "modified": "2026-08-15T10:06:33.000Z",
+      "checksum": "8e1239db396f5af1bd70f31dba835bd7",
+      "folder": false
+    },
+    {
+      "id": "1rCiyRJSlGfr51TqUyStW52iKMpWVh86l",
+      "parent_id": "1vIUQvw8ticClrB5S319LIMPPGecXwCQg",
+      "name": "TRUY TÌM SỰ THẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 542627,
+      "modified": "2026-08-15T10:06:51.000Z",
+      "checksum": "a11f6413201edacbe9a6f3066a20042b",
+      "folder": false
+    },
+    {
+      "id": "1L34iKvctcFZpJU0xOXmdSqlNak5PTOPV",
+      "parent_id": "1vIUQvw8ticClrB5S319LIMPPGecXwCQg",
+      "name": "TRUY TÌM SỰ THẬT.pdf",
+      "mime": "application/pdf",
+      "size": 1911881,
+      "modified": "2026-08-15T10:06:47.000Z",
+      "checksum": "17fcdac33752bbf18897921e66ae9d48",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oVfeOEZ837dGnO-Swjlfa5JEUcgbJCXQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1V7GA00RUo8a3aBoCxCmNgNhUv-M8pcZg",
+      "parent_id": "1oVfeOEZ837dGnO-Swjlfa5JEUcgbJCXQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1969,
+      "modified": "2026-08-15T08:01:14.000Z",
+      "checksum": "55d6229b284b5d52827a1a4f9e98c594",
+      "folder": false
+    },
+    {
+      "id": "15ucFIfDQB0KVgLQS-TIu8Ty7jD282nki",
+      "parent_id": "1oVfeOEZ837dGnO-Swjlfa5JEUcgbJCXQ",
+      "name": "LÝ TRÍ VÀ TÌNH CẢM.epub",
+      "mime": "application/epub+zip",
+      "size": 1773184,
+      "modified": "2026-08-15T08:01:22.000Z",
+      "checksum": "10e431171a4193917a1743424c68794d",
+      "folder": false
+    },
+    {
+      "id": "135bWLh8GG_8o2wsvrntO1QmpuXICdme0",
+      "parent_id": "1oVfeOEZ837dGnO-Swjlfa5JEUcgbJCXQ",
+      "name": "LÝ TRÍ VÀ TÌNH CẢM.pdf",
+      "mime": "application/pdf",
+      "size": 1363643,
+      "modified": "2026-08-15T08:01:19.000Z",
+      "checksum": "eaae031403e1fc4af7ec4d127f164707",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AouSWVlkPF-7zpTAIt1hZnlmKnuWGB8L",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QbO0fPXDzdw0A4x7r0v5PiefkLmEvaO4",
+      "parent_id": "1AouSWVlkPF-7zpTAIt1hZnlmKnuWGB8L",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 719,
+      "modified": "2026-08-15T11:30:45.000Z",
+      "checksum": "11616b863431f8d1b90eea3b8d7884d2",
+      "folder": false
+    },
+    {
+      "id": "15N4WyxSxhpJvrJSAcssv8uE4HdyH7xAq",
+      "parent_id": "1AouSWVlkPF-7zpTAIt1hZnlmKnuWGB8L",
+      "name": "GIÁO TRÌNH C++.epub",
+      "mime": "application/epub+zip",
+      "size": 230666,
+      "modified": "2026-08-15T11:30:51.000Z",
+      "checksum": "625f86b4a547e95bc90584a848ca7c9e",
+      "folder": false
+    },
+    {
+      "id": "19l8km02khllpr7vqHB9UXt22sDU1egPH",
+      "parent_id": "1AouSWVlkPF-7zpTAIt1hZnlmKnuWGB8L",
+      "name": "GIÁO TRÌNH C++.pdf",
+      "mime": "application/pdf",
+      "size": 436100,
+      "modified": "2026-08-15T11:30:48.000Z",
+      "checksum": "115caaa7287cf16bcaf37fbffa9667d6",
+      "folder": false
+    }
+  ]
+}

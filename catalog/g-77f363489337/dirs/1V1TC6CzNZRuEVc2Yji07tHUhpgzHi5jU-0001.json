@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1V1TC6CzNZRuEVc2Yji07tHUhpgzHi5jU",
+  "page": 1,
+  "items": [
+    {
+      "id": "19wznzcU_bk5ZPzlrbFZ_k3yQy_KHteQ-",
+      "parent_id": "1V1TC6CzNZRuEVc2Yji07tHUhpgzHi5jU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3394,
+      "modified": "2026-08-16T04:06:32.000Z",
+      "checksum": "5cab8805ebdb59cfd68b879128c5c746",
+      "folder": false
+    },
+    {
+      "id": "1a0T_mL7m1om7MX0JMhRNflnKoiF2zk3U",
+      "parent_id": "1V1TC6CzNZRuEVc2Yji07tHUhpgzHi5jU",
+      "name": "PHẾ TÍCH TRÁNG LỆ.epub",
+      "mime": "application/epub+zip",
+      "size": 631205,
+      "modified": "2026-08-16T04:06:40.000Z",
+      "checksum": "6545d12b3c2edeb36d355dd62c3f2f4c",
+      "folder": false
+    },
+    {
+      "id": "1rL7LJT0bx-h1Sc_nNnh56tjmg5047aYa",
+      "parent_id": "1V1TC6CzNZRuEVc2Yji07tHUhpgzHi5jU",
+      "name": "PHẾ TÍCH TRÁNG LỆ.pdf",
+      "mime": "application/pdf",
+      "size": 1672582,
+      "modified": "2026-08-16T04:06:37.000Z",
+      "checksum": "ce91aac5f9c52289e1bbb8e532d045ec",
+      "folder": false
+    }
+  ]
+}

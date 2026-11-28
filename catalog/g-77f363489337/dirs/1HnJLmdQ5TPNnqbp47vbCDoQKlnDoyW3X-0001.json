@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HnJLmdQ5TPNnqbp47vbCDoQKlnDoyW3X",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fzGTRzibOdIxC1_8sraacOjvkh0spEYN",
+      "parent_id": "1HnJLmdQ5TPNnqbp47vbCDoQKlnDoyW3X",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 484,
+      "modified": "2026-08-15T10:30:30.000Z",
+      "checksum": "cf404476e997cc4f394de434e73c18dc",
+      "folder": false
+    },
+    {
+      "id": "1_JNCThoUyAoCpysojUxUyd7LKNNI39Ed",
+      "parent_id": "1HnJLmdQ5TPNnqbp47vbCDoQKlnDoyW3X",
+      "name": "QUỶ SỨ CŨNG PHẢI DÈ CHỪNG.epub",
+      "mime": "application/epub+zip",
+      "size": 530840,
+      "modified": "2026-08-15T10:30:43.000Z",
+      "checksum": "9a5ee4d7d41ababd7a51ceca7a2e34ca",
+      "folder": false
+    },
+    {
+      "id": "1vhGBysfB13_hfKa0jcDZVZ2HucGaMVaF",
+      "parent_id": "1HnJLmdQ5TPNnqbp47vbCDoQKlnDoyW3X",
+      "name": "QUỶ SỨ CŨNG PHẢI DÈ CHỪNG.pdf",
+      "mime": "application/pdf",
+      "size": 1163967,
+      "modified": "2026-08-15T10:30:35.000Z",
+      "checksum": "68723369ded88f3cb687cc7eb93b26b7",
+      "folder": false
+    }
+  ]
+}

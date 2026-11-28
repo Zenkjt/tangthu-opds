@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-Jl2XezWqpxy5E5qYBnWsg_VacDtKGxD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NWzSS7mn_Px9pWpVyLCnCwN4-Rl9Xoj1",
+      "parent_id": "1-Jl2XezWqpxy5E5qYBnWsg_VacDtKGxD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 25768,
+      "modified": "2026-08-15T07:48:56.000Z",
+      "checksum": "c01eb1c6b29fe84053241b5ff683a657",
+      "folder": false
+    },
+    {
+      "id": "1g6F3ZECqS67Gxq8o8CKtCnlcFtRWrq_B",
+      "parent_id": "1-Jl2XezWqpxy5E5qYBnWsg_VacDtKGxD",
+      "name": "HOÀNG HÀ QUỶ QUAN.epub",
+      "mime": "application/epub+zip",
+      "size": 420971,
+      "modified": "2026-08-15T07:49:12.000Z",
+      "checksum": "65bd9a0fe38e0cd66de25e2fbd8871d7",
+      "folder": false
+    },
+    {
+      "id": "1Aq11YDj1kReCDwuDg1oBukATcPjEDy_Q",
+      "parent_id": "1-Jl2XezWqpxy5E5qYBnWsg_VacDtKGxD",
+      "name": "HOÀNG HÀ QUỶ QUAN.pdf",
+      "mime": "application/pdf",
+      "size": 790004,
+      "modified": "2026-08-15T07:49:06.000Z",
+      "checksum": "a66342312dbfd5c3784573ec074a95c9",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HFaAI5ArvdKsPTwpWFmMxi7FLtfE50XU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1o-icXKJRbYSmBSmse6SfklefKcFEYGvP",
+      "parent_id": "1HFaAI5ArvdKsPTwpWFmMxi7FLtfE50XU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8425,
+      "modified": "2026-08-15T09:34:34.000Z",
+      "checksum": "b2e7c6a58b6650db8676b1f6bec7f975",
+      "folder": false
+    },
+    {
+      "id": "1f1yEPY-frrRfpciQsrDlbXus9TLvYeVS",
+      "parent_id": "1HFaAI5ArvdKsPTwpWFmMxi7FLtfE50XU",
+      "name": "DỊCH HẠCH.epub",
+      "mime": "application/epub+zip",
+      "size": 474121,
+      "modified": "2026-08-15T09:34:42.000Z",
+      "checksum": "bbd782487da6dadaeb0c72fe84774ae9",
+      "folder": false
+    },
+    {
+      "id": "13f2BkY0rQMguADadRyoQF3qs0prSQMWm",
+      "parent_id": "1HFaAI5ArvdKsPTwpWFmMxi7FLtfE50XU",
+      "name": "DỊCH HẠCH.pdf",
+      "mime": "application/pdf",
+      "size": 1125913,
+      "modified": "2026-08-15T09:34:39.000Z",
+      "checksum": "366b725c11cc611a8255efc124d6956f",
+      "folder": false
+    }
+  ]
+}

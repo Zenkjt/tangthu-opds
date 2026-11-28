@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1P7uZW6RE5QVbF3n1mKphJxV41Q3LRUZ6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Z4hr_0PAY-UrAt1KAI9eOirdbY6dWNAM",
+      "parent_id": "1P7uZW6RE5QVbF3n1mKphJxV41Q3LRUZ6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 755,
+      "modified": "2026-08-16T04:19:47.000Z",
+      "checksum": "7a8ec09daac4361eb83e9cb3ff1b780e",
+      "folder": false
+    },
+    {
+      "id": "1xnLXVPb_lqE4Qiy2EB4hpVCJbcgg_kI0",
+      "parent_id": "1P7uZW6RE5QVbF3n1mKphJxV41Q3LRUZ6",
+      "name": "HAI NỮ TƯỚNG CƯỚP.epub",
+      "mime": "application/epub+zip",
+      "size": 439617,
+      "modified": "2026-08-16T04:19:57.000Z",
+      "checksum": "30fa5a3f14faecc5bf608473bd7794a0",
+      "folder": false
+    },
+    {
+      "id": "12cJxpk2uv3y86FpSX-K1yxgGYTXxtKVm",
+      "parent_id": "1P7uZW6RE5QVbF3n1mKphJxV41Q3LRUZ6",
+      "name": "HAI NỮ TƯỚNG CƯỚP.pdf",
+      "mime": "application/pdf",
+      "size": 1019174,
+      "modified": "2026-08-16T04:19:54.000Z",
+      "checksum": "db5b61cb6d2a1f34509a8688bc092fe4",
+      "folder": false
+    }
+  ]
+}

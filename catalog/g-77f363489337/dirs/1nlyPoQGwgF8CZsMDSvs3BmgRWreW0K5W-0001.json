@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nlyPoQGwgF8CZsMDSvs3BmgRWreW0K5W",
+  "page": 1,
+  "items": [
+    {
+      "id": "1G9ti8dVPWlSG8aB8adphVdIe59sN_WgO",
+      "parent_id": "1nlyPoQGwgF8CZsMDSvs3BmgRWreW0K5W",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3895,
+      "modified": "2026-08-15T03:14:36.000Z",
+      "checksum": "c55c83551815c314b5c9f9a97c8a08e1",
+      "folder": false
+    },
+    {
+      "id": "1YNz7S_snAk51OikecR-hgakFj7EsLLNt",
+      "parent_id": "1nlyPoQGwgF8CZsMDSvs3BmgRWreW0K5W",
+      "name": "LÀM GIÀU KHÔNG CẦN MAY MẮN.epub",
+      "mime": "application/epub+zip",
+      "size": 404184,
+      "modified": "2026-08-15T03:14:43.000Z",
+      "checksum": "8d794019d3a9adf76335259b251173e4",
+      "folder": false
+    },
+    {
+      "id": "1qQoZfwbUx-ilYrpOQ-ej2PeLoyJ0tzN0",
+      "parent_id": "1nlyPoQGwgF8CZsMDSvs3BmgRWreW0K5W",
+      "name": "LÀM GIÀU KHÔNG CẦN MAY MẮN.pdf",
+      "mime": "application/pdf",
+      "size": 838052,
+      "modified": "2026-08-15T03:14:41.000Z",
+      "checksum": "32a7abc0a90d159b9d76f3c42273396c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RISIihuh0ycRNBo_erFPjuz5FIoCT8jR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1za6UWYGdCGRNxBADodIgkzVzuT2flSD9",
+      "parent_id": "1RISIihuh0ycRNBo_erFPjuz5FIoCT8jR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6724,
+      "modified": "2026-08-15T10:00:04.000Z",
+      "checksum": "1fe035cdb06d2bbd81ab9f66407fd22a",
+      "folder": false
+    },
+    {
+      "id": "1o5f7DHo6vFdviXb8EXBLYEBCRpo5yZyq",
+      "parent_id": "1RISIihuh0ycRNBo_erFPjuz5FIoCT8jR",
+      "name": "TỔ TRỌNG ÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 5346747,
+      "modified": "2026-08-15T10:00:54.000Z",
+      "checksum": "428729b1bf072bd9e399606fb3791cdb",
+      "folder": false
+    },
+    {
+      "id": "1ixCjwFSYQ3oNIUlbLyonUVARuoZUv7Z8",
+      "parent_id": "1RISIihuh0ycRNBo_erFPjuz5FIoCT8jR",
+      "name": "TỔ TRỌNG ÁN.pdf",
+      "mime": "application/pdf",
+      "size": 5358820,
+      "modified": "2026-08-15T10:00:49.000Z",
+      "checksum": "e6099872430d866dac8d55a15719722c",
+      "folder": false
+    }
+  ]
+}

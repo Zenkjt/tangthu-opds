@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bBOrzKb8Lggu7jt52r9Ju-hZ-UGXfUvu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SkrK7Vriud-PltwYHzapRI1db-QcFSCf",
+      "parent_id": "1bBOrzKb8Lggu7jt52r9Ju-hZ-UGXfUvu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 423,
+      "modified": "2026-08-15T10:53:22.000Z",
+      "checksum": "8eaef16ad2fa56bd0c839efe7872262c",
+      "folder": false
+    },
+    {
+      "id": "1ExZ65J40LLldawnPyvOmS6tkVMnny4sA",
+      "parent_id": "1bBOrzKb8Lggu7jt52r9Ju-hZ-UGXfUvu",
+      "name": "LỜI ANH MUỐN NÓI.epub",
+      "mime": "application/epub+zip",
+      "size": 390832,
+      "modified": "2026-08-15T10:53:33.000Z",
+      "checksum": "e69aa88aa41c4d2533d21a92ac371cf6",
+      "folder": false
+    },
+    {
+      "id": "1NfpZjJ0PLEvHR_RYkqzs8q6_cxn2bTjD",
+      "parent_id": "1bBOrzKb8Lggu7jt52r9Ju-hZ-UGXfUvu",
+      "name": "LỜI ANH MUỐN NÓI.pdf",
+      "mime": "application/pdf",
+      "size": 681904,
+      "modified": "2026-08-15T10:53:27.000Z",
+      "checksum": "b1760e37d6a0802c85442b61bdb506e0",
+      "folder": false
+    }
+  ]
+}

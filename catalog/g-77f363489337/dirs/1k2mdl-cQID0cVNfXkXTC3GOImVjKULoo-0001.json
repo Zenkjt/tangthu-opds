@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1k2mdl-cQID0cVNfXkXTC3GOImVjKULoo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1c0ktap7LAvuBObzYI-AEO3N1-NDuhE3B",
+      "parent_id": "1k2mdl-cQID0cVNfXkXTC3GOImVjKULoo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1890,
+      "modified": "2026-08-15T03:55:45.000Z",
+      "checksum": "eb9488f163dec3c048a7640c2ebc1077",
+      "folder": false
+    },
+    {
+      "id": "1WXH1x1QUCc4JtuGFo6uV9Bt1qhcpy19O",
+      "parent_id": "1k2mdl-cQID0cVNfXkXTC3GOImVjKULoo",
+      "name": "VÔ NGÃ VÔ ƯU.epub",
+      "mime": "application/epub+zip",
+      "size": 546844,
+      "modified": "2026-08-15T03:55:51.000Z",
+      "checksum": "3767ed55429a07de005fa1c89b92322a",
+      "folder": false
+    },
+    {
+      "id": "1JAvfH03vqUsFoomiBYfKXtj_r5KgPYbM",
+      "parent_id": "1k2mdl-cQID0cVNfXkXTC3GOImVjKULoo",
+      "name": "VÔ NGÃ VÔ ƯU.pdf",
+      "mime": "application/pdf",
+      "size": 1075660,
+      "modified": "2026-08-15T03:55:48.000Z",
+      "checksum": "e446e43c80994db04f1f146d34f4ee2e",
+      "folder": false
+    }
+  ]
+}

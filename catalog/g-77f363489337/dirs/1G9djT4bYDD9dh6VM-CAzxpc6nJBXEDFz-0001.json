@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1G9djT4bYDD9dh6VM-CAzxpc6nJBXEDFz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cqgNvOU0UFfEb7EmkpPbHqCGDbZhAewc",
+      "parent_id": "1G9djT4bYDD9dh6VM-CAzxpc6nJBXEDFz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1189,
+      "modified": "2026-08-15T13:11:55.000Z",
+      "checksum": "cd8904082ed7a2d42f264bacc1a0548c",
+      "folder": false
+    },
+    {
+      "id": "1mlDJlMdys9PPiA61yf3WxwUCGZPnzjOO",
+      "parent_id": "1G9djT4bYDD9dh6VM-CAzxpc6nJBXEDFz",
+      "name": "DỊCH KINH TƯỜNG GIẢI (DI CẢO) - QUYỂN THƯỢNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1039277,
+      "modified": "2026-08-15T13:12:03.000Z",
+      "checksum": "0cfb794d353159b132769525eead6024",
+      "folder": false
+    },
+    {
+      "id": "109ViIfugKJ7JjqClH9Elt5XO7uSsgSiK",
+      "parent_id": "1G9djT4bYDD9dh6VM-CAzxpc6nJBXEDFz",
+      "name": "DỊCH KINH TƯỜNG GIẢI (DI CẢO) - QUYỂN THƯỢNG.pdf",
+      "mime": "application/pdf",
+      "size": 3838508,
+      "modified": "2026-08-15T13:12:00.000Z",
+      "checksum": "b70cf3b757d17107293f8315b4bd6064",
+      "folder": false
+    }
+  ]
+}

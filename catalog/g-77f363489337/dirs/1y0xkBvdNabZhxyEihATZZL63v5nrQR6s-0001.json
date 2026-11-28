@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1y0xkBvdNabZhxyEihATZZL63v5nrQR6s",
+  "page": 1,
+  "items": [
+    {
+      "id": "121V2lWGxHUvFpmx8eox2ocJ-EO3CG0Vx",
+      "parent_id": "1y0xkBvdNabZhxyEihATZZL63v5nrQR6s",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7173,
+      "modified": "2026-08-15T10:01:21.000Z",
+      "checksum": "004fbc56019d909dddc17c268c31e8f3",
+      "folder": false
+    },
+    {
+      "id": "1Soqmj3W6QZB1ZA9WpCXFLwyS_9CqrAwH",
+      "parent_id": "1y0xkBvdNabZhxyEihATZZL63v5nrQR6s",
+      "name": "KHUÔN MẶT BỊ ĐÁNH CẮP.epub",
+      "mime": "application/epub+zip",
+      "size": 608072,
+      "modified": "2026-08-15T10:01:27.000Z",
+      "checksum": "a9b1276eda178037c5ce6ee0dde940ac",
+      "folder": false
+    },
+    {
+      "id": "1mwcSU518g_MMBCfTi2MpNmtsTggAT8PG",
+      "parent_id": "1y0xkBvdNabZhxyEihATZZL63v5nrQR6s",
+      "name": "KHUÔN MẶT BỊ ĐÁNH CẮP.pdf",
+      "mime": "application/pdf",
+      "size": 1086821,
+      "modified": "2026-08-15T10:01:25.000Z",
+      "checksum": "1ff4a063b485bf9020f4e9976c72b1f3",
+      "folder": false
+    }
+  ]
+}

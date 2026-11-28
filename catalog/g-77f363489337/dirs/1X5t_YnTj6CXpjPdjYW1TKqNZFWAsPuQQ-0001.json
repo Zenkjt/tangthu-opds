@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1X5t_YnTj6CXpjPdjYW1TKqNZFWAsPuQQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cbMQv2D6JXHEUEe60guGTZbmsg9c8MWw",
+      "parent_id": "1X5t_YnTj6CXpjPdjYW1TKqNZFWAsPuQQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9705,
+      "modified": "2026-08-15T08:14:47.000Z",
+      "checksum": "f9d51317e30e39bbe14c0ce38cde199b",
+      "folder": false
+    },
+    {
+      "id": "1-2CB1plLcIlFvic5ZfsyLGt5y2ehmJpE",
+      "parent_id": "1X5t_YnTj6CXpjPdjYW1TKqNZFWAsPuQQ",
+      "name": "KẺ TẦM DA.epub",
+      "mime": "application/epub+zip",
+      "size": 861807,
+      "modified": "2026-08-15T08:14:57.000Z",
+      "checksum": "75a58e17066bcd517b153b466517a1cc",
+      "folder": false
+    },
+    {
+      "id": "1fUePv00Dnp48ZuImrqybOnavCcPiVMsA",
+      "parent_id": "1X5t_YnTj6CXpjPdjYW1TKqNZFWAsPuQQ",
+      "name": "KẺ TẦM DA.pdf",
+      "mime": "application/pdf",
+      "size": 1875455,
+      "modified": "2026-08-15T08:14:54.000Z",
+      "checksum": "b466b75954616c7e3a85d289cbd72c7d",
+      "folder": false
+    }
+  ]
+}

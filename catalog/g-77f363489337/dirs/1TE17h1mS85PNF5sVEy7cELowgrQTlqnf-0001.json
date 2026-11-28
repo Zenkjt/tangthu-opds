@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TE17h1mS85PNF5sVEy7cELowgrQTlqnf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Q2l75c2SeKuLcJPpaGEkOaT_iCSy96d_",
+      "parent_id": "1TE17h1mS85PNF5sVEy7cELowgrQTlqnf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3442,
+      "modified": "2026-08-16T04:04:04.000Z",
+      "checksum": "d2d97281515bc790fe566c2db175b3fd",
+      "folder": false
+    },
+    {
+      "id": "1LkRYkWPcgJiByXCS384OarwNsLsv-lHI",
+      "parent_id": "1TE17h1mS85PNF5sVEy7cELowgrQTlqnf",
+      "name": "SAY ĐẮM MỘT NÀNG MÈO.epub",
+      "mime": "application/epub+zip",
+      "size": 365820,
+      "modified": "2026-08-16T04:04:09.000Z",
+      "checksum": "c1d998651dd8297cb50566324ee9057c",
+      "folder": false
+    },
+    {
+      "id": "1cS6F0llEzLOsZi4LD6ScFA3wRATk2Yds",
+      "parent_id": "1TE17h1mS85PNF5sVEy7cELowgrQTlqnf",
+      "name": "SAY ĐẮM MỘT NÀNG MÈO.pdf",
+      "mime": "application/pdf",
+      "size": 635970,
+      "modified": "2026-08-16T04:04:07.000Z",
+      "checksum": "91c81e0331dfddb7e55f1d060acd49c4",
+      "folder": false
+    }
+  ]
+}

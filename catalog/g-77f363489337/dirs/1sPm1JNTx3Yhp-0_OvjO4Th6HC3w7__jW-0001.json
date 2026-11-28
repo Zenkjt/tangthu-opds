@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sPm1JNTx3Yhp-0_OvjO4Th6HC3w7__jW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ma-MT9yh2oMfkYL-FBTA3Qu8tF80GMcY",
+      "parent_id": "1sPm1JNTx3Yhp-0_OvjO4Th6HC3w7__jW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9412,
+      "modified": "2026-08-15T06:16:50.000Z",
+      "checksum": "d7a093bb3ba001a848925de462a416c0",
+      "folder": false
+    },
+    {
+      "id": "1Gr_6T16ji9oII7vRlNrHAgKB3wRgsGKH",
+      "parent_id": "1sPm1JNTx3Yhp-0_OvjO4Th6HC3w7__jW",
+      "name": "NHỮNG ĐỈNH NÚI DU CA.epub",
+      "mime": "application/epub+zip",
+      "size": 2873771,
+      "modified": "2026-08-15T06:17:04.000Z",
+      "checksum": "c3b49921d2e3723669f38503da462363",
+      "folder": false
+    },
+    {
+      "id": "1UgNfJ4s4TDxhwU5DGrQMC8Ppv1-vahVj",
+      "parent_id": "1sPm1JNTx3Yhp-0_OvjO4Th6HC3w7__jW",
+      "name": "NHỮNG ĐỈNH NÚI DU CA.pdf",
+      "mime": "application/pdf",
+      "size": 3832150,
+      "modified": "2026-08-15T06:16:58.000Z",
+      "checksum": "1dee5fc3210da84ce47028d02d3f2603",
+      "folder": false
+    }
+  ]
+}

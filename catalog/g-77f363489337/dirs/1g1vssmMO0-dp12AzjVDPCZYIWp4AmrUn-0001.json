@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1g1vssmMO0-dp12AzjVDPCZYIWp4AmrUn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AepOqTGo73eABr9GTOGE0QAXc5mU0T-j",
+      "parent_id": "1g1vssmMO0-dp12AzjVDPCZYIWp4AmrUn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 17076,
+      "modified": "2026-08-15T07:27:38.000Z",
+      "checksum": "2c2dfe1b4c165c76d878bc0c0760b60d",
+      "folder": false
+    },
+    {
+      "id": "1Db-WaK67lVvodBGYBvv06juFzjbzQeQ-",
+      "parent_id": "1g1vssmMO0-dp12AzjVDPCZYIWp4AmrUn",
+      "name": "VENISE VÀ NHỮNG CUỘC TÌNH GONDOLA.epub",
+      "mime": "application/epub+zip",
+      "size": 610003,
+      "modified": "2026-08-15T07:27:45.000Z",
+      "checksum": "cd322d9787b16c4140151e94179915a6",
+      "folder": false
+    },
+    {
+      "id": "1iYNhbEpyFn48yWOBFBukqOUb3pya1N10",
+      "parent_id": "1g1vssmMO0-dp12AzjVDPCZYIWp4AmrUn",
+      "name": "VENISE VÀ NHỮNG CUỘC TÌNH GONDOLA.pdf",
+      "mime": "application/pdf",
+      "size": 585318,
+      "modified": "2026-08-15T07:27:42.000Z",
+      "checksum": "f5f671bd202930cd337403aff45bb049",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fzFP7Sn0fVqrZEUeeF2_DJIyzARV-ZAj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Az5fqgV5n0ytOJFjbXXIYwdxNrvyiz8W",
+      "parent_id": "1fzFP7Sn0fVqrZEUeeF2_DJIyzARV-ZAj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 449,
+      "modified": "2026-08-16T04:20:16.000Z",
+      "checksum": "0e199657dfa5f4ec60ff8dc8c2771092",
+      "folder": false
+    },
+    {
+      "id": "1NZ6W35o0VyxCZx3TEo3v5OCuxcoE-jQ1",
+      "parent_id": "1fzFP7Sn0fVqrZEUeeF2_DJIyzARV-ZAj",
+      "name": "ĐỪNG ĐÁNH MẤT THIÊN ĐƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 402448,
+      "modified": "2026-08-16T04:20:22.000Z",
+      "checksum": "c889c2e71b5e0aba8cc9f78f1f451487",
+      "folder": false
+    },
+    {
+      "id": "1SXpW8UbotCyq5Hz3V2mze2m_cwrmxQoU",
+      "parent_id": "1fzFP7Sn0fVqrZEUeeF2_DJIyzARV-ZAj",
+      "name": "ĐỪNG ĐÁNH MẤT THIÊN ĐƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 727857,
+      "modified": "2026-08-16T04:20:20.000Z",
+      "checksum": "e179fc0a8aa25ab78059e491ccb8dceb",
+      "folder": false
+    }
+  ]
+}

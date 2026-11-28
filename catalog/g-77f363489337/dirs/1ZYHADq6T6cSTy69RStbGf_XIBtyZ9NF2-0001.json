@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZYHADq6T6cSTy69RStbGf_XIBtyZ9NF2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oexZFBEoDfXUe9m-6frQfIcSjqDN-Xo9",
+      "parent_id": "1ZYHADq6T6cSTy69RStbGf_XIBtyZ9NF2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2886,
+      "modified": "2026-08-15T03:18:30.000Z",
+      "checksum": "7b8e22be60417de82438c1d0b29f1db5",
+      "folder": false
+    },
+    {
+      "id": "1PSLYV2kJLUi1zwBLECAka9nbKmC7SsrR",
+      "parent_id": "1ZYHADq6T6cSTy69RStbGf_XIBtyZ9NF2",
+      "name": "NHÀ QUẢN LÝ THOÁNG.epub",
+      "mime": "application/epub+zip",
+      "size": 353707,
+      "modified": "2026-08-15T03:18:37.000Z",
+      "checksum": "82d669e7ab61f4ed0b26e224d009bb91",
+      "folder": false
+    },
+    {
+      "id": "10ddqoYMcAlxf0loekHxraVl8P9dsE_y2",
+      "parent_id": "1ZYHADq6T6cSTy69RStbGf_XIBtyZ9NF2",
+      "name": "NHÀ QUẢN LÝ THOÁNG.pdf",
+      "mime": "application/pdf",
+      "size": 707722,
+      "modified": "2026-08-15T03:18:34.000Z",
+      "checksum": "6ce179eca2919a67e2a1e67805d57fb1",
+      "folder": false
+    }
+  ]
+}

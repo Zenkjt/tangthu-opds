@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GzqtHb9zID_4vmJ-yNkygzKfmRNUNF8b",
+  "page": 1,
+  "items": [
+    {
+      "id": "1T79Wy0wSKxHxxQ7kPoVFye8w3YC7kQ4I",
+      "parent_id": "1GzqtHb9zID_4vmJ-yNkygzKfmRNUNF8b",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6818,
+      "modified": "2026-08-16T03:46:49.000Z",
+      "checksum": "ead82c1249c2cf988543a96954582381",
+      "folder": false
+    },
+    {
+      "id": "1yWarVpNV9TTSmaMoqyzY_JDNX0IT-54m",
+      "parent_id": "1GzqtHb9zID_4vmJ-yNkygzKfmRNUNF8b",
+      "name": "KHỞI SINH CỦA CÔ ĐỘC.epub",
+      "mime": "application/epub+zip",
+      "size": 587655,
+      "modified": "2026-08-16T03:46:56.000Z",
+      "checksum": "1bafa031daf262e9e9a9bc04c79ccea4",
+      "folder": false
+    },
+    {
+      "id": "13uH1ltXQUwuOhDAYHqtw4T0Tcsd0tD_E",
+      "parent_id": "1GzqtHb9zID_4vmJ-yNkygzKfmRNUNF8b",
+      "name": "KHỞI SINH CỦA CÔ ĐỘC.pdf",
+      "mime": "application/pdf",
+      "size": 1021430,
+      "modified": "2026-08-16T03:46:53.000Z",
+      "checksum": "a8e36676ecc6601ce9b43849789233d3",
+      "folder": false
+    }
+  ]
+}

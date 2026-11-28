@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11KfFDvkdfRoWoF-srb_4yPojtweVFMNk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EcaCYUMhVNPWaE3byvwk40RmkiXH_bvR",
+      "parent_id": "11KfFDvkdfRoWoF-srb_4yPojtweVFMNk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 20192,
+      "modified": "2026-08-16T03:17:32.000Z",
+      "checksum": "c998d8cc6d57cdcd0bdf3ef6e99d2677",
+      "folder": false
+    },
+    {
+      "id": "13noQFEXOJw0zQAGyVEmnCy7poG_pv4Wq",
+      "parent_id": "11KfFDvkdfRoWoF-srb_4yPojtweVFMNk",
+      "name": "MÁU HIẾM.epub",
+      "mime": "application/epub+zip",
+      "size": 409150,
+      "modified": "2026-08-16T03:17:38.000Z",
+      "checksum": "a1b98121255a4ce2c7f6633f7fbe1353",
+      "folder": false
+    },
+    {
+      "id": "12dQraCUWHUN7SNkkpCYqqPfBKbOaUFgx",
+      "parent_id": "11KfFDvkdfRoWoF-srb_4yPojtweVFMNk",
+      "name": "MÁU HIẾM.pdf",
+      "mime": "application/pdf",
+      "size": 445249,
+      "modified": "2026-08-16T03:17:36.000Z",
+      "checksum": "2c2aadb4c806970597117342ec614624",
+      "folder": false
+    }
+  ]
+}

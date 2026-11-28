@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SpnLVcpSlQawrXe1nYYKb0pbHp24XAc_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rCzSwt7ydTUynX_h4HnO37sJasBD3UyQ",
+      "parent_id": "1SpnLVcpSlQawrXe1nYYKb0pbHp24XAc_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3290,
+      "modified": "2026-08-15T10:25:33.000Z",
+      "checksum": "209ac511fc3e18103da43104cc4cad6c",
+      "folder": false
+    },
+    {
+      "id": "1-GWeazS4brW1ONBailMQetZgxAqCM5qS",
+      "parent_id": "1SpnLVcpSlQawrXe1nYYKb0pbHp24XAc_",
+      "name": "SƯ GIA LẠI CÓ ĐIÊU DÂN CẦU KIẾN.epub",
+      "mime": "application/epub+zip",
+      "size": 515038,
+      "modified": "2026-08-15T10:25:41.000Z",
+      "checksum": "8e6c487fd0204e9922ee02ea11f5f001",
+      "folder": false
+    },
+    {
+      "id": "1dv_bT1bhgFk5D5r3DxnGmUJVSNh7X9HH",
+      "parent_id": "1SpnLVcpSlQawrXe1nYYKb0pbHp24XAc_",
+      "name": "SƯ GIA LẠI CÓ ĐIÊU DÂN CẦU KIẾN.pdf",
+      "mime": "application/pdf",
+      "size": 1062912,
+      "modified": "2026-08-15T10:25:39.000Z",
+      "checksum": "093fe6c63a3a1ec1244fa0d8c3f4c74c",
+      "folder": false
+    }
+  ]
+}

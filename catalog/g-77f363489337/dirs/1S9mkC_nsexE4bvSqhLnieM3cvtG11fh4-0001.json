@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1S9mkC_nsexE4bvSqhLnieM3cvtG11fh4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rGbwqFZUHnK-MU6EIspUYxuWQLPoSUwb",
+      "parent_id": "1S9mkC_nsexE4bvSqhLnieM3cvtG11fh4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 511,
+      "modified": "2026-08-15T04:23:02.000Z",
+      "checksum": "99754e0f0984ec476288fb5ef1608318",
+      "folder": false
+    },
+    {
+      "id": "1XhNNoGIPG3gw1wDLeJuEswGTCTL07KAa",
+      "parent_id": "1S9mkC_nsexE4bvSqhLnieM3cvtG11fh4",
+      "name": "HƯỚNG DẪN CHO NGƯỜI CHĂM SÓC COVID-19.epub",
+      "mime": "application/epub+zip",
+      "size": 9540612,
+      "modified": "2026-08-15T04:23:20.000Z",
+      "checksum": "b6738203b548b4b7505c2ae7d6cd024b",
+      "folder": false
+    },
+    {
+      "id": "1CpEHY8RLXrmwyKuSHVrcMU6ks6Nfqvdw",
+      "parent_id": "1S9mkC_nsexE4bvSqhLnieM3cvtG11fh4",
+      "name": "HƯỚNG DẪN CHO NGƯỜI CHĂM SÓC COVID-19.pdf",
+      "mime": "application/pdf",
+      "size": 1944765,
+      "modified": "2026-08-15T04:23:07.000Z",
+      "checksum": "ab3e29d5a666e4ca48a893fb6244ea1b",
+      "folder": false
+    }
+  ]
+}

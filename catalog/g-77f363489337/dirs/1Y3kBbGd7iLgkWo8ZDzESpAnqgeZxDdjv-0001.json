@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Y3kBbGd7iLgkWo8ZDzESpAnqgeZxDdjv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LjUXQqpIFO1dhP1sTT70FTUgNwHf6C9Q",
+      "parent_id": "1Y3kBbGd7iLgkWo8ZDzESpAnqgeZxDdjv",
+      "name": "CON VE SẦU.epub",
+      "mime": "application/epub+zip",
+      "size": 324592,
+      "modified": "2026-08-16T04:21:06.000Z",
+      "checksum": "abd92bdcb6af22360e16c20f6c114dd9",
+      "folder": false
+    },
+    {
+      "id": "1WDfyWpvxhHKfHI50ByeG6gw2dEGDnRGi",
+      "parent_id": "1Y3kBbGd7iLgkWo8ZDzESpAnqgeZxDdjv",
+      "name": "CON VE SẦU.pdf",
+      "mime": "application/pdf",
+      "size": 408351,
+      "modified": "2026-08-16T04:21:03.000Z",
+      "checksum": "e93ae0658f639240ae0e47ded5dfdf76",
+      "folder": false
+    },
+    {
+      "id": "14tJL9DUeTzlCNIZHl76CHEmfEkcMYQuz",
+      "parent_id": "1Y3kBbGd7iLgkWo8ZDzESpAnqgeZxDdjv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 572,
+      "modified": "2026-08-16T04:20:59.000Z",
+      "checksum": "69ab090f24cd8c86670bbfaa3ad02f65",
+      "folder": false
+    }
+  ]
+}

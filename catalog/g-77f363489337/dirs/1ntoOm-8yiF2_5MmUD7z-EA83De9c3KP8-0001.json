@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ntoOm-8yiF2_5MmUD7z-EA83De9c3KP8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oh09H9iwkawu3Tkjrllra-qDEJ_Nyl6a",
+      "parent_id": "1ntoOm-8yiF2_5MmUD7z-EA83De9c3KP8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 477,
+      "modified": "2026-08-15T12:59:21.000Z",
+      "checksum": "292363195507b5296463079649737cb9",
+      "folder": false
+    },
+    {
+      "id": "1E5jRH8JKGXJidZbtd21L2-3o8z8nVmqQ",
+      "parent_id": "1ntoOm-8yiF2_5MmUD7z-EA83De9c3KP8",
+      "name": "Ở NƠI BIỂN CẢ.epub",
+      "mime": "application/epub+zip",
+      "size": 534710,
+      "modified": "2026-08-15T12:59:27.000Z",
+      "checksum": "cc94e16397a5d1e84f58e18d7188dafe",
+      "folder": false
+    },
+    {
+      "id": "1zur8Y1ZP5FIySkZQcjtv1uRBRFRtepox",
+      "parent_id": "1ntoOm-8yiF2_5MmUD7z-EA83De9c3KP8",
+      "name": "Ở NƠI BIỂN CẢ.pdf",
+      "mime": "application/pdf",
+      "size": 668178,
+      "modified": "2026-08-15T12:59:25.000Z",
+      "checksum": "db0ef21d91bdbeebb47ff9ec63ff819f",
+      "folder": false
+    }
+  ]
+}

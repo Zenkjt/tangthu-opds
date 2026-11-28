@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1y4YeWWS-rW4UQS7DswDMNoK7dZKvjWRy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fWddmDHETM_8Ek8qbbY-vU7FKdaftBOf",
+      "parent_id": "1y4YeWWS-rW4UQS7DswDMNoK7dZKvjWRy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3665,
+      "modified": "2026-08-15T10:52:19.000Z",
+      "checksum": "049439a6ab7171a5c10bd0c1d1ad4303",
+      "folder": false
+    },
+    {
+      "id": "1W1xJQADE6ALDMFwXlbVc2lMiRz22aR-o",
+      "parent_id": "1y4YeWWS-rW4UQS7DswDMNoK7dZKvjWRy",
+      "name": "MỘT PHÚT DÀNH CHO NHỮNG CHUYỆN TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 429631,
+      "modified": "2026-08-15T10:52:25.000Z",
+      "checksum": "4b9ffb1fc2f1d1797468aa9d22e414c9",
+      "folder": false
+    },
+    {
+      "id": "1YBSvZS815QyPnfxaXgbPwEiFz36RCPz4",
+      "parent_id": "1y4YeWWS-rW4UQS7DswDMNoK7dZKvjWRy",
+      "name": "MỘT PHÚT DÀNH CHO NHỮNG CHUYỆN TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 841780,
+      "modified": "2026-08-15T10:52:22.000Z",
+      "checksum": "d92eadbe26796057ec7d50f3e7b02df2",
+      "folder": false
+    }
+  ]
+}

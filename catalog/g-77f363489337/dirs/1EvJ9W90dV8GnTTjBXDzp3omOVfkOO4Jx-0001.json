@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EvJ9W90dV8GnTTjBXDzp3omOVfkOO4Jx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WzdsoGbsBErdtxxWX19iuupAgpNlbmuR",
+      "parent_id": "1EvJ9W90dV8GnTTjBXDzp3omOVfkOO4Jx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7285,
+      "modified": "2026-08-15T06:56:36.000Z",
+      "checksum": "db79f97a72e1a42f2e4480df5dca358e",
+      "folder": false
+    },
+    {
+      "id": "1vb_3zwJR1iyxs2AgQA_411ssXMj0qVzu",
+      "parent_id": "1EvJ9W90dV8GnTTjBXDzp3omOVfkOO4Jx",
+      "name": "NGỌN HẢI ĐĂNG NƠI CUỐI TRỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 880143,
+      "modified": "2026-08-15T06:56:43.000Z",
+      "checksum": "287ee542d2acc3864f607eda52269504",
+      "folder": false
+    },
+    {
+      "id": "1GA8925blnljHzDCVvl_EkJlKRKc9T3fS",
+      "parent_id": "1EvJ9W90dV8GnTTjBXDzp3omOVfkOO4Jx",
+      "name": "NGỌN HẢI ĐĂNG NƠI CUỐI TRỜI.pdf",
+      "mime": "application/pdf",
+      "size": 847395,
+      "modified": "2026-08-15T06:56:40.000Z",
+      "checksum": "96ea39be28f6c5cb4a021fed231628ef",
+      "folder": false
+    }
+  ]
+}

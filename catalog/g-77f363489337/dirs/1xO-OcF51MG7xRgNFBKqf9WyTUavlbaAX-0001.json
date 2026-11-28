@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xO-OcF51MG7xRgNFBKqf9WyTUavlbaAX",
+  "page": 1,
+  "items": [
+    {
+      "id": "108t0AMLQdaOh31vUU9LLiqtXzr2AjGM1",
+      "parent_id": "1xO-OcF51MG7xRgNFBKqf9WyTUavlbaAX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2936,
+      "modified": "2026-08-15T04:20:32.000Z",
+      "checksum": "f7b337341c57f8dfa27c61e826033cf4",
+      "folder": false
+    },
+    {
+      "id": "1dEo73OGPfwnyCjZVriHeQ9mVqV8R9bfK",
+      "parent_id": "1xO-OcF51MG7xRgNFBKqf9WyTUavlbaAX",
+      "name": "SỐNG THIỀN.epub",
+      "mime": "application/epub+zip",
+      "size": 211059,
+      "modified": "2026-08-15T04:20:38.000Z",
+      "checksum": "a28fda40c9a4699b9f71d5a91944a6ef",
+      "folder": false
+    },
+    {
+      "id": "1eTYS-a-rCa7GE3rTGRQZPQUQasc5_wQv",
+      "parent_id": "1xO-OcF51MG7xRgNFBKqf9WyTUavlbaAX",
+      "name": "SỐNG THIỀN.pdf",
+      "mime": "application/pdf",
+      "size": 572770,
+      "modified": "2026-08-15T04:20:36.000Z",
+      "checksum": "d05cbae9f389a5ebb91dbf80a660c1cd",
+      "folder": false
+    }
+  ]
+}

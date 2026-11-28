@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hTd3kJhw1kuP3c095MKDdpdfnDlRuyQR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VYYGLIiDZ4xkjTx7ulljJh7VDJ3nOEyi",
+      "parent_id": "1hTd3kJhw1kuP3c095MKDdpdfnDlRuyQR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1343,
+      "modified": "2026-08-16T03:46:41.000Z",
+      "checksum": "914dcb6a2d5aadf26c8cec4dca939f06",
+      "folder": false
+    },
+    {
+      "id": "1wak40M1maD-jQ2waGDDsh0kVm8PPkrPY",
+      "parent_id": "1hTd3kJhw1kuP3c095MKDdpdfnDlRuyQR",
+      "name": "KHO BÁU CỦA VUA SOLOMON.epub",
+      "mime": "application/epub+zip",
+      "size": 949180,
+      "modified": "2026-08-16T03:46:47.000Z",
+      "checksum": "50364467d49194e1918993aedc8c6655",
+      "folder": false
+    },
+    {
+      "id": "1uEk07tTC9SpuCJstASYKS1RaIItSWMId",
+      "parent_id": "1hTd3kJhw1kuP3c095MKDdpdfnDlRuyQR",
+      "name": "KHO BÁU CỦA VUA SOLOMON.pdf",
+      "mime": "application/pdf",
+      "size": 939561,
+      "modified": "2026-08-16T03:46:45.000Z",
+      "checksum": "ce9446afadc257ae0377d0d2ed20f663",
+      "folder": false
+    }
+  ]
+}

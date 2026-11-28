@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sCEIHE1aXAywKqET6nsxC0BOXaFSpSu0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UKp6D81FwTe1KhtZE5eTG8qLGrXz5POL",
+      "parent_id": "1sCEIHE1aXAywKqET6nsxC0BOXaFSpSu0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3648,
+      "modified": "2026-08-15T08:16:49.000Z",
+      "checksum": "583147d248912e6d203d91bc66111efa",
+      "folder": false
+    },
+    {
+      "id": "13nOOTXT29WQRpY0PpZziljz1pc2Ki09c",
+      "parent_id": "1sCEIHE1aXAywKqET6nsxC0BOXaFSpSu0",
+      "name": "DỊU DÀNG LÀ ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 721634,
+      "modified": "2026-08-15T08:16:56.000Z",
+      "checksum": "1ce9deaf8a1542b12be228eead73dddd",
+      "folder": false
+    },
+    {
+      "id": "1UijmZXBuaGs-UE_53t8UXM0T55Yl9UQh",
+      "parent_id": "1sCEIHE1aXAywKqET6nsxC0BOXaFSpSu0",
+      "name": "DỊU DÀNG LÀ ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 1611685,
+      "modified": "2026-08-15T08:16:53.000Z",
+      "checksum": "afc592ebccf1984dbeb10c5e3361aa52",
+      "folder": false
+    }
+  ]
+}

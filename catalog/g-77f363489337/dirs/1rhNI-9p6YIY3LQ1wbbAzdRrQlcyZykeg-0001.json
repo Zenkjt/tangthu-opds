@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rhNI-9p6YIY3LQ1wbbAzdRrQlcyZykeg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mTONeTN_sot1LyruJZLD2PlQU6V3dAHK",
+      "parent_id": "1rhNI-9p6YIY3LQ1wbbAzdRrQlcyZykeg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12553,
+      "modified": "2026-08-15T07:22:53.000Z",
+      "checksum": "4017b42b512f86ca68089cc7d644ba2c",
+      "folder": false
+    },
+    {
+      "id": "1CJUUsMf5xRZcnz2cmC_fsOGAf8FrGS2k",
+      "parent_id": "1rhNI-9p6YIY3LQ1wbbAzdRrQlcyZykeg",
+      "name": "TRONG THẲM SÂU TÂM HỒN.epub",
+      "mime": "application/epub+zip",
+      "size": 791674,
+      "modified": "2026-08-15T07:23:01.000Z",
+      "checksum": "2aa4173777b7a42b1ecb25402ac02b1e",
+      "folder": false
+    },
+    {
+      "id": "1zScoABeNhHOwcN5S9KwweoM-EpiBPabK",
+      "parent_id": "1rhNI-9p6YIY3LQ1wbbAzdRrQlcyZykeg",
+      "name": "TRONG THẲM SÂU TÂM HỒN.pdf",
+      "mime": "application/pdf",
+      "size": 1899982,
+      "modified": "2026-08-15T07:22:59.000Z",
+      "checksum": "8f12860104f25ee4bc105acd414aabb9",
+      "folder": false
+    }
+  ]
+}

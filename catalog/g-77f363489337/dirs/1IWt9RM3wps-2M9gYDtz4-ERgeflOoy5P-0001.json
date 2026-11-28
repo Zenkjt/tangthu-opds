@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IWt9RM3wps-2M9gYDtz4-ERgeflOoy5P",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iXj8ttLqJFy5GtJKgbw5pzBQ4lS5gzlD",
+      "parent_id": "1IWt9RM3wps-2M9gYDtz4-ERgeflOoy5P",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 705,
+      "modified": "2026-08-15T13:03:21.000Z",
+      "checksum": "9c4e456304a0956cf731b629f280d57d",
+      "folder": false
+    },
+    {
+      "id": "1dkP5FaRTnWxieX6aOu9RzdVjvsY0wYFz",
+      "parent_id": "1IWt9RM3wps-2M9gYDtz4-ERgeflOoy5P",
+      "name": "ĐỒI THỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 834326,
+      "modified": "2026-08-15T13:03:29.000Z",
+      "checksum": "99771d90984f72a5342ff8502e22e6e7",
+      "folder": false
+    },
+    {
+      "id": "1pKpEKI83HQitoO78AKCeTUUcRxPNDvr-",
+      "parent_id": "1IWt9RM3wps-2M9gYDtz4-ERgeflOoy5P",
+      "name": "ĐỒI THỎ.pdf",
+      "mime": "application/pdf",
+      "size": 2244793,
+      "modified": "2026-08-15T13:03:26.000Z",
+      "checksum": "3eac366660ec90d7cb4c6fd9ad3999aa",
+      "folder": false
+    }
+  ]
+}

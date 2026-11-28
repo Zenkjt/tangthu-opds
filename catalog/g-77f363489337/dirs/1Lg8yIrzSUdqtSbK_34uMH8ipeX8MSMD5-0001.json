@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Lg8yIrzSUdqtSbK_34uMH8ipeX8MSMD5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1V4phQDbR3Pr6avDwcHjxc315yKDZi6Sl",
+      "parent_id": "1Lg8yIrzSUdqtSbK_34uMH8ipeX8MSMD5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3193,
+      "modified": "2026-08-16T04:11:49.000Z",
+      "checksum": "394c0c4bf38ca9baf8c7e8f09fe602d6",
+      "folder": false
+    },
+    {
+      "id": "1vOeMMPweTVuMuJmYmzbZlE0CuolJRY9S",
+      "parent_id": "1Lg8yIrzSUdqtSbK_34uMH8ipeX8MSMD5",
+      "name": "NHẤT NỘ BẠT KIẾM.epub",
+      "mime": "application/epub+zip",
+      "size": 610423,
+      "modified": "2026-08-16T04:11:58.000Z",
+      "checksum": "9b16d1024a16a8f068dc0f4600bb373b",
+      "folder": false
+    },
+    {
+      "id": "1mVGbvy2g8xtRz1_eAOBp3IOtJiA6fPP8",
+      "parent_id": "1Lg8yIrzSUdqtSbK_34uMH8ipeX8MSMD5",
+      "name": "NHẤT NỘ BẠT KIẾM.pdf",
+      "mime": "application/pdf",
+      "size": 1798601,
+      "modified": "2026-08-16T04:11:55.000Z",
+      "checksum": "4f5a43feea7e2b8d25f509f8ce8822fb",
+      "folder": false
+    }
+  ]
+}

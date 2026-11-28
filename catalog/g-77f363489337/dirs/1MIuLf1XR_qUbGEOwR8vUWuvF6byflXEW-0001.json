@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MIuLf1XR_qUbGEOwR8vUWuvF6byflXEW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Q9h6YtMmcpSP3SDwY2aHNtj4wiDDQdgn",
+      "parent_id": "1MIuLf1XR_qUbGEOwR8vUWuvF6byflXEW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3066,
+      "modified": "2026-08-15T10:35:13.000Z",
+      "checksum": "e0b4d68363592cf5bd01a9eb18cde68b",
+      "folder": false
+    },
+    {
+      "id": "1hurG7tZB4n13p21f48zYxsneqEuUUiJ3",
+      "parent_id": "1MIuLf1XR_qUbGEOwR8vUWuvF6byflXEW",
+      "name": "NỮ TÚ TÀI.epub",
+      "mime": "application/epub+zip",
+      "size": 358031,
+      "modified": "2026-08-15T10:35:23.000Z",
+      "checksum": "9d30f7870ae9a6d7b481faa8fb4832cf",
+      "folder": false
+    },
+    {
+      "id": "1SZ6JyVq1P8FOWCP4yOION5vO4NArHu8Z",
+      "parent_id": "1MIuLf1XR_qUbGEOwR8vUWuvF6byflXEW",
+      "name": "NỮ TÚ TÀI.pdf",
+      "mime": "application/pdf",
+      "size": 488973,
+      "modified": "2026-08-15T10:35:20.000Z",
+      "checksum": "d696000dfcb2217504ec5db0360f8490",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Yag9sJq2qanPlrdiYTYKtT4im6e7CISc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MboWiUzlSGY8frDs5CopT8VM0T9fys1g",
+      "parent_id": "1Yag9sJq2qanPlrdiYTYKtT4im6e7CISc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3356,
+      "modified": "2026-08-15T10:20:39.000Z",
+      "checksum": "d3f15a4834b330cf3abdb19438640c4e",
+      "folder": false
+    },
+    {
+      "id": "1lSoBgVOQB7Up_v0GeT40iTDACMj53QAy",
+      "parent_id": "1Yag9sJq2qanPlrdiYTYKtT4im6e7CISc",
+      "name": "TẬP TRUYỆN NGẮN DINO BUZZATI.epub",
+      "mime": "application/epub+zip",
+      "size": 412743,
+      "modified": "2026-08-15T10:20:53.000Z",
+      "checksum": "c34cfe51eed5d5996b4370b5d6493103",
+      "folder": false
+    },
+    {
+      "id": "1TGBI6gpsZKnO2et54wcszW6CKVeFCqL6",
+      "parent_id": "1Yag9sJq2qanPlrdiYTYKtT4im6e7CISc",
+      "name": "TẬP TRUYỆN NGẮN DINO BUZZATI.pdf",
+      "mime": "application/pdf",
+      "size": 625049,
+      "modified": "2026-08-15T10:20:47.000Z",
+      "checksum": "ed1efe28e38f848746ce30724aafb671",
+      "folder": false
+    }
+  ]
+}

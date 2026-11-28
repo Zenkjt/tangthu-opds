@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tfW6zARnBmgjUa_p8q3ugZZ1VkBLsyQW",
+  "page": 1,
+  "items": [
+    {
+      "id": "12f6xdpwJzrqFL_OHBpUJjL9WzzF2stOM",
+      "parent_id": "1tfW6zARnBmgjUa_p8q3ugZZ1VkBLsyQW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3769,
+      "modified": "2026-08-15T05:53:50.000Z",
+      "checksum": "38d10517d1833a90f044d272d016fa72",
+      "folder": false
+    },
+    {
+      "id": "1ZdOdaV231K6L6K5zBuUrF14ml7KsshpR",
+      "parent_id": "1tfW6zARnBmgjUa_p8q3ugZZ1VkBLsyQW",
+      "name": "MIỀN ĐẤT HỨA - OBAMA.epub",
+      "mime": "application/epub+zip",
+      "size": 20533715,
+      "modified": "2026-08-15T05:54:10.000Z",
+      "checksum": "8a1df813d7487fa462dcf6fe75ff1f14",
+      "folder": false
+    },
+    {
+      "id": "1oqyjwrkQVS6PpdKkpudxFuRftMevtSLc",
+      "parent_id": "1tfW6zARnBmgjUa_p8q3ugZZ1VkBLsyQW",
+      "name": "MIỀN ĐẤT HỨA - OBAMA.pdf",
+      "mime": "application/pdf",
+      "size": 28796130,
+      "modified": "2026-08-15T05:54:05.000Z",
+      "checksum": "aa39e3b15a53e0369c9d9a4c3fdea742",
+      "folder": false
+    }
+  ]
+}

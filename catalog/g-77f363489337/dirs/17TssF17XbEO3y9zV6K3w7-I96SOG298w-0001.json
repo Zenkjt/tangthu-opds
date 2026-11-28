@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17TssF17XbEO3y9zV6K3w7-I96SOG298w",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EUzCcaq1C97-QF958Xs1cYQfRmbnC1wD",
+      "parent_id": "17TssF17XbEO3y9zV6K3w7-I96SOG298w",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1561,
+      "modified": "2026-08-15T07:06:35.000Z",
+      "checksum": "77a2284a6ff1aae96441a05b7b7ceafc",
+      "folder": false
+    },
+    {
+      "id": "189kQdo4jTaorFbTOgOo5a0NqM7-MAhdn",
+      "parent_id": "17TssF17XbEO3y9zV6K3w7-I96SOG298w",
+      "name": "KHOẢNH KHẮC CẦU VỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 524825,
+      "modified": "2026-08-15T07:06:41.000Z",
+      "checksum": "3d5c0096ce3c986e550c1a11be996ae5",
+      "folder": false
+    },
+    {
+      "id": "17CqjT-SxAoHiEzrRXquRVNZl5cGEav1v",
+      "parent_id": "17TssF17XbEO3y9zV6K3w7-I96SOG298w",
+      "name": "KHOẢNH KHẮC CẦU VỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 882437,
+      "modified": "2026-08-15T07:06:39.000Z",
+      "checksum": "4ca2a3ded9cd8022955c4c28bbc116b2",
+      "folder": false
+    }
+  ]
+}

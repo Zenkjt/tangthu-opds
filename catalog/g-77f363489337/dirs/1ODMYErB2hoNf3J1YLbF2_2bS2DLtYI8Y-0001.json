@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ODMYErB2hoNf3J1YLbF2_2bS2DLtYI8Y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1h1AfMjRpomYSjSLinawQTpxQEWzNb9qc",
+      "parent_id": "1ODMYErB2hoNf3J1YLbF2_2bS2DLtYI8Y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3019,
+      "modified": "2026-08-15T15:39:18.000Z",
+      "checksum": "cd3b6a0d298a1887c7566ede40b939a0",
+      "folder": false
+    },
+    {
+      "id": "1Hm1Lsf8QQxJFAiF5sbEHHhCMfphlaDRu",
+      "parent_id": "1ODMYErB2hoNf3J1YLbF2_2bS2DLtYI8Y",
+      "name": "NHỮNG KẺ BẢN NĂNG - PYENTA.epub",
+      "mime": "application/epub+zip",
+      "size": 821215,
+      "modified": "2026-08-15T15:39:27.000Z",
+      "checksum": "4905ee1e5e01a49005465e102b2d4794",
+      "folder": false
+    },
+    {
+      "id": "1plfYujv3-JOzN8FxOrT5D4HOHwMyeWLp",
+      "parent_id": "1ODMYErB2hoNf3J1YLbF2_2bS2DLtYI8Y",
+      "name": "NHỮNG KẺ BẢN NĂNG - PYENTA.pdf",
+      "mime": "application/pdf",
+      "size": 875181,
+      "modified": "2026-08-15T15:39:23.000Z",
+      "checksum": "14e0604fca86b0f825317c01bd9d6797",
+      "folder": false
+    }
+  ]
+}

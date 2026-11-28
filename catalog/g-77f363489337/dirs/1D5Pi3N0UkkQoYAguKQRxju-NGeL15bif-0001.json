@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1D5Pi3N0UkkQoYAguKQRxju-NGeL15bif",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zI-RDO7Iw-PpaZCk-8BbkEKSssd5X1Ds",
+      "parent_id": "1D5Pi3N0UkkQoYAguKQRxju-NGeL15bif",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 441,
+      "modified": "2026-08-15T13:03:18.000Z",
+      "checksum": "26c26a49a2ab43161615e4a0b65040b1",
+      "folder": false
+    },
+    {
+      "id": "1LPyv9OcwjwO8iAqefRPYQ5X6DZKU9GDJ",
+      "parent_id": "1D5Pi3N0UkkQoYAguKQRxju-NGeL15bif",
+      "name": "ERAGON - CẬU BÉ CƯỠI RỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 630643,
+      "modified": "2026-08-15T13:03:25.000Z",
+      "checksum": "e73c151ae77c4b314f73c3d58d3ddb5e",
+      "folder": false
+    },
+    {
+      "id": "1zCJZQQPAowhpc-ElHrCRpQV2Gfbr0kFz",
+      "parent_id": "1D5Pi3N0UkkQoYAguKQRxju-NGeL15bif",
+      "name": "ERAGON - CẬU BÉ CƯỠI RỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 1511040,
+      "modified": "2026-08-15T13:03:23.000Z",
+      "checksum": "b543128a0d3c89e25fb72e12418966a5",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PW7yaZeghZj8hj4ITfPPmx8rwy5KNaEC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1St1TcgfCKQEyf2DSXvT-JE2JcQTs0S5C",
+      "parent_id": "1PW7yaZeghZj8hj4ITfPPmx8rwy5KNaEC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3235,
+      "modified": "2026-08-16T03:14:41.000Z",
+      "checksum": "d4f53f08c5d925f274d98610052d9b8e",
+      "folder": false
+    },
+    {
+      "id": "1CZ7E5OMAxTCKTd70K3mloX38ppEoLmXe",
+      "parent_id": "1PW7yaZeghZj8hj4ITfPPmx8rwy5KNaEC",
+      "name": "NHÀ TIỂU HỌA.epub",
+      "mime": "application/epub+zip",
+      "size": 771628,
+      "modified": "2026-08-16T03:15:00.000Z",
+      "checksum": "e50f5f94406cb6fad19762eb2631ee73",
+      "folder": false
+    },
+    {
+      "id": "1GKWjHSo8ug8b6V0KRdwvoktlhskHl7LB",
+      "parent_id": "1PW7yaZeghZj8hj4ITfPPmx8rwy5KNaEC",
+      "name": "NHÀ TIỂU HỌA.pdf",
+      "mime": "application/pdf",
+      "size": 1583298,
+      "modified": "2026-08-16T03:14:57.000Z",
+      "checksum": "6e40b4b609e231ef3eb50ff3a59a2349",
+      "folder": false
+    }
+  ]
+}

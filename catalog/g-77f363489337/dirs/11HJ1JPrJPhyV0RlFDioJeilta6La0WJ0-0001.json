@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11HJ1JPrJPhyV0RlFDioJeilta6La0WJ0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OGvIZW6YKp3mKiPzcwg8bAk3G_vw5I60",
+      "parent_id": "11HJ1JPrJPhyV0RlFDioJeilta6La0WJ0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7078,
+      "modified": "2026-08-16T03:10:16.000Z",
+      "checksum": "e975dd15921ff5e4ae3bb0bd6746b82f",
+      "folder": false
+    },
+    {
+      "id": "1CkyYWzm7_1U0QmUYF6DvIKlC0mnhgOd2",
+      "parent_id": "11HJ1JPrJPhyV0RlFDioJeilta6La0WJ0",
+      "name": "NHÂN CHỨNG ĐÃ CHẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 528821,
+      "modified": "2026-08-16T03:10:23.000Z",
+      "checksum": "e2a56c84abbc6295f2dbb4253d56b011",
+      "folder": false
+    },
+    {
+      "id": "1ph5sJP-gb4y0HDbxToOeb3e4dIY-ZoE5",
+      "parent_id": "11HJ1JPrJPhyV0RlFDioJeilta6La0WJ0",
+      "name": "NHÂN CHỨNG ĐÃ CHẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1324481,
+      "modified": "2026-08-16T03:10:20.000Z",
+      "checksum": "f440b58166c533f5aa1c7e09935b68c1",
+      "folder": false
+    }
+  ]
+}

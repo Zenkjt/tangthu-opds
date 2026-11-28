@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ebNMgIuSqvPqutJRgbylu1C5Q23GgSx9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HmQYEJDRsyPbjpESZh8_B7E2kJ_92XaB",
+      "parent_id": "1ebNMgIuSqvPqutJRgbylu1C5Q23GgSx9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4862,
+      "modified": "2026-08-15T03:58:30.000Z",
+      "checksum": "3d4cde1209e3e51849917c720c7eede2",
+      "folder": false
+    },
+    {
+      "id": "1NWpfFRuaHh_lO69qC0RXGh26r6ppdY_B",
+      "parent_id": "1ebNMgIuSqvPqutJRgbylu1C5Q23GgSx9",
+      "name": "HÓA HỌC HUYỀN BÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 8119531,
+      "modified": "2026-08-15T03:58:38.000Z",
+      "checksum": "8ce582e2d8e45011b5c8e99c44bc3bfb",
+      "folder": false
+    },
+    {
+      "id": "1kEOTDKE8h8E8PNwZ8k8T0OsjbEoBNtCt",
+      "parent_id": "1ebNMgIuSqvPqutJRgbylu1C5Q23GgSx9",
+      "name": "HÓA HỌC HUYỀN BÍ.pdf",
+      "mime": "application/pdf",
+      "size": 5076871,
+      "modified": "2026-08-15T03:58:36.000Z",
+      "checksum": "274b2b494045f3776372f7c4279cbbe6",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ud-S7owciWUOezoodJEiWkkds5ksfG5P",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_PJ0iidliiA2pE1DMcE3xmNOBAq1BRvn",
+      "parent_id": "1Ud-S7owciWUOezoodJEiWkkds5ksfG5P",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3853,
+      "modified": "2026-08-15T15:34:21.000Z",
+      "checksum": "d24e8246f4ae5a2cb9c9d364585d0f91",
+      "folder": false
+    },
+    {
+      "id": "1JGE4r8ofeDT_rA3g4kcTDtuB-EP3B3fb",
+      "parent_id": "1Ud-S7owciWUOezoodJEiWkkds5ksfG5P",
+      "name": "VỤ BÍ ẨN HANG ĐỘNG RÊN RỈ.epub",
+      "mime": "application/epub+zip",
+      "size": 437593,
+      "modified": "2026-08-15T15:34:28.000Z",
+      "checksum": "9eb916e8b791c6f795bba0d2b11cd1fd",
+      "folder": false
+    },
+    {
+      "id": "17MH4XSyXHIwkQLMNljKGHKfKNsWnUVqI",
+      "parent_id": "1Ud-S7owciWUOezoodJEiWkkds5ksfG5P",
+      "name": "VỤ BÍ ẨN HANG ĐỘNG RÊN RỈ.pdf",
+      "mime": "application/pdf",
+      "size": 524425,
+      "modified": "2026-08-15T15:34:25.000Z",
+      "checksum": "c87e3313d10e833444547cc9b5bbba87",
+      "folder": false
+    }
+  ]
+}

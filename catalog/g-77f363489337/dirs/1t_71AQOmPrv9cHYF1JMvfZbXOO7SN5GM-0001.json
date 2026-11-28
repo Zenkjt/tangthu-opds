@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1t_71AQOmPrv9cHYF1JMvfZbXOO7SN5GM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1X26RFKAyRWwdcd9xqXB2wRv30j1JkYFd",
+      "parent_id": "1t_71AQOmPrv9cHYF1JMvfZbXOO7SN5GM",
+      "name": "CẨM NANG CON GÁI.epub",
+      "mime": "application/epub+zip",
+      "size": 3460530,
+      "modified": "2026-08-15T12:46:08.000Z",
+      "checksum": "c22afd5ffed88a133c3e276046d0f497",
+      "folder": false
+    },
+    {
+      "id": "1BN3wm6ocAfMsFFLl-BzhxVp15tRc28eH",
+      "parent_id": "1t_71AQOmPrv9cHYF1JMvfZbXOO7SN5GM",
+      "name": "CẨM NANG CON GÁI.pdf",
+      "mime": "application/pdf",
+      "size": 3616683,
+      "modified": "2026-08-15T12:45:59.000Z",
+      "checksum": "aba823266fc08eb4444ec174da3b7102",
+      "folder": false
+    },
+    {
+      "id": "1ggSusABPp9aMaufa-JQJP7KiuxeCD3w2",
+      "parent_id": "1t_71AQOmPrv9cHYF1JMvfZbXOO7SN5GM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3603,
+      "modified": "2026-08-15T12:45:50.000Z",
+      "checksum": "d3100292b45398e5e51937f83bb83781",
+      "folder": false
+    }
+  ]
+}

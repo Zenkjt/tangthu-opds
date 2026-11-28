@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OmHhLiNd59CJbSeEi-GrQ8PgKc-WckIs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CGOJ2FbpM8BnG40P4AIhvAPUDojofBxt",
+      "parent_id": "1OmHhLiNd59CJbSeEi-GrQ8PgKc-WckIs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 13357,
+      "modified": "2026-08-15T07:21:48.000Z",
+      "checksum": "cd1476e180920e5dc0077e1da3c45d3e",
+      "folder": false
+    },
+    {
+      "id": "1VcjVO6NPHY0ZEjBJBZfsUlqdmipHSbfa",
+      "parent_id": "1OmHhLiNd59CJbSeEi-GrQ8PgKc-WckIs",
+      "name": "TRỞ VỀ NƠI TÌNH YÊU BẮT ĐẦU.epub",
+      "mime": "application/epub+zip",
+      "size": 619972,
+      "modified": "2026-08-15T07:21:56.000Z",
+      "checksum": "e08cf720dcaa14a34ed8a121505c9e66",
+      "folder": false
+    },
+    {
+      "id": "1leIKbgDYjVRyN9aoRbIePR8nbsxLgFbG",
+      "parent_id": "1OmHhLiNd59CJbSeEi-GrQ8PgKc-WckIs",
+      "name": "TRỞ VỀ NƠI TÌNH YÊU BẮT ĐẦU.pdf",
+      "mime": "application/pdf",
+      "size": 1320889,
+      "modified": "2026-08-15T07:21:53.000Z",
+      "checksum": "884b8532908abd390b06d7d99be2315d",
+      "folder": false
+    }
+  ]
+}

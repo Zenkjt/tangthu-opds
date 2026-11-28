@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Dqwivt1kcrouTXIZG8oCbXeuxc9gphGR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Du2A2KI8QB6UyUVygNEx0slYIAhBIBqf",
+      "parent_id": "1Dqwivt1kcrouTXIZG8oCbXeuxc9gphGR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2929,
+      "modified": "2026-08-16T03:59:47.000Z",
+      "checksum": "7bdc738f766dcd867667c6f7f49b693d",
+      "folder": false
+    },
+    {
+      "id": "1Et-aM449ucN8EypCDE4Tsq8T1gneu2MM",
+      "parent_id": "1Dqwivt1kcrouTXIZG8oCbXeuxc9gphGR",
+      "name": "THẦN THOẠI MA VƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 718410,
+      "modified": "2026-08-16T03:59:53.000Z",
+      "checksum": "dd003070d72f500c0c285788a9aff922",
+      "folder": false
+    },
+    {
+      "id": "16Bd6u5t0_Uj5FkmEZP0-fKpVbl8B3AKL",
+      "parent_id": "1Dqwivt1kcrouTXIZG8oCbXeuxc9gphGR",
+      "name": "THẦN THOẠI MA VƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 641284,
+      "modified": "2026-08-16T03:59:51.000Z",
+      "checksum": "a589b92a38ec662784070ec483283777",
+      "folder": false
+    }
+  ]
+}

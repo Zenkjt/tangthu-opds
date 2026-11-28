@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rvavvG0hi8ChaJAV4pYk_gEiz3oA3jrG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1v93zZ5aS3j2PER8ZiwSQd8bMJ3df3avT",
+      "parent_id": "1rvavvG0hi8ChaJAV4pYk_gEiz3oA3jrG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 512,
+      "modified": "2026-08-15T12:59:38.000Z",
+      "checksum": "d6670cd0181ad83783a8976474b4a838",
+      "folder": false
+    },
+    {
+      "id": "1VFb-88PNd7UNGOvFlXyH6RWFRbTX2uou",
+      "parent_id": "1rvavvG0hi8ChaJAV4pYk_gEiz3oA3jrG",
+      "name": "NHỮNG CHUYỆN KỲ DIỆU.epub",
+      "mime": "application/epub+zip",
+      "size": 1812499,
+      "modified": "2026-08-15T12:59:45.000Z",
+      "checksum": "e6d731a804b9e8a2846b46af7e6e0379",
+      "folder": false
+    },
+    {
+      "id": "1ChX8ir-1WifUW2LG4yzX25Y1s0lA832N",
+      "parent_id": "1rvavvG0hi8ChaJAV4pYk_gEiz3oA3jrG",
+      "name": "NHỮNG CHUYỆN KỲ DIỆU.pdf",
+      "mime": "application/pdf",
+      "size": 1965881,
+      "modified": "2026-08-15T12:59:42.000Z",
+      "checksum": "c0ce009a03c27f7ccd338541b5f95a1c",
+      "folder": false
+    }
+  ]
+}

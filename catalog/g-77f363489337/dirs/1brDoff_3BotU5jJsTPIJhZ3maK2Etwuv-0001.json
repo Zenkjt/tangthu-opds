@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1brDoff_3BotU5jJsTPIJhZ3maK2Etwuv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1s1tYIQ4B9ZBjTCDAudV0RN8doYDbWgS0",
+      "parent_id": "1brDoff_3BotU5jJsTPIJhZ3maK2Etwuv",
+      "name": "CHUYỆN NGƯỜI TÙY NỮ.epub",
+      "mime": "application/epub+zip",
+      "size": 576809,
+      "modified": "2026-08-15T01:00:32.000Z",
+      "checksum": "c55bedeeeb5d132ec615f282f27366b7",
+      "folder": false
+    },
+    {
+      "id": "1ZWhV42qvmZfXXjSeMxyLkHlFthpWtj20",
+      "parent_id": "1brDoff_3BotU5jJsTPIJhZ3maK2Etwuv",
+      "name": "CHUYỆN NGƯỜI TÙY NỮ.pdf",
+      "mime": "application/pdf",
+      "size": 1352890,
+      "modified": "2026-08-15T01:00:29.000Z",
+      "checksum": "0947d14de7803ab96e9b9a7a3c6f6dd6",
+      "folder": false
+    },
+    {
+      "id": "18xwE7XLnTMyZWVy8y-atuxWJ8bnG9S2O",
+      "parent_id": "1brDoff_3BotU5jJsTPIJhZ3maK2Etwuv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 13409,
+      "modified": "2026-08-15T01:00:23.000Z",
+      "checksum": "7dd0b4e5fd8cb64ec02e325c938f50de",
+      "folder": false
+    }
+  ]
+}

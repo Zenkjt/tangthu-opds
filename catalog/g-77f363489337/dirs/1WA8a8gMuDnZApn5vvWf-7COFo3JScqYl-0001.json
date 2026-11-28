@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WA8a8gMuDnZApn5vvWf-7COFo3JScqYl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GYB9iXvcMF6SEjXdqpgrh-SV7U2PX526",
+      "parent_id": "1WA8a8gMuDnZApn5vvWf-7COFo3JScqYl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2232,
+      "modified": "2026-08-15T06:42:47.000Z",
+      "checksum": "1489e34505034ce7e192d6860a8d1069",
+      "folder": false
+    },
+    {
+      "id": "1XtYepZcObtxvKloDiVppI7SkkyJZerd_",
+      "parent_id": "1WA8a8gMuDnZApn5vvWf-7COFo3JScqYl",
+      "name": "VÕ LÂM NGŨ BÁ.epub",
+      "mime": "application/epub+zip",
+      "size": 1687222,
+      "modified": "2026-08-15T06:43:15.000Z",
+      "checksum": "57011e1a75b93fef41d2a9172df73c31",
+      "folder": false
+    },
+    {
+      "id": "195isoxIt3vSch5C7ZvSbXIjC7rpG4hTu",
+      "parent_id": "1WA8a8gMuDnZApn5vvWf-7COFo3JScqYl",
+      "name": "VÕ LÂM NGŨ BÁ.pdf",
+      "mime": "application/pdf",
+      "size": 3700498,
+      "modified": "2026-08-15T06:43:06.000Z",
+      "checksum": "942bc28abf305feb9b8e9ffedb66d85e",
+      "folder": false
+    }
+  ]
+}

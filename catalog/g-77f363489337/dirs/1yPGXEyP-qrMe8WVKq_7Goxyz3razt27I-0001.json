@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yPGXEyP-qrMe8WVKq_7Goxyz3razt27I",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UfznD8tXeNEdduv2in4Fxu5GKI9uNkdd",
+      "parent_id": "1yPGXEyP-qrMe8WVKq_7Goxyz3razt27I",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5837,
+      "modified": "2026-08-15T07:06:10.000Z",
+      "checksum": "e95f86b0fa76f6284de96dd742545dc7",
+      "folder": false
+    },
+    {
+      "id": "1qS3Fp2vCU6m8i-jmQvR6c0Zcv0E6fv2t",
+      "parent_id": "1yPGXEyP-qrMe8WVKq_7Goxyz3razt27I",
+      "name": "MÙI HƯƠNG TRẦM.epub",
+      "mime": "application/epub+zip",
+      "size": 1432786,
+      "modified": "2026-08-15T07:06:21.000Z",
+      "checksum": "5570b25cf0cff51baff56f9e6ce4584a",
+      "folder": false
+    },
+    {
+      "id": "1F-ZYYbAFRsHAVu19-7EsXDWY3M7gGcS8",
+      "parent_id": "1yPGXEyP-qrMe8WVKq_7Goxyz3razt27I",
+      "name": "MÙI HƯƠNG TRẦM.pdf",
+      "mime": "application/pdf",
+      "size": 2443025,
+      "modified": "2026-08-15T07:06:18.000Z",
+      "checksum": "6f31147b8d3d306dbf9c6803b066e28e",
+      "folder": false
+    }
+  ]
+}

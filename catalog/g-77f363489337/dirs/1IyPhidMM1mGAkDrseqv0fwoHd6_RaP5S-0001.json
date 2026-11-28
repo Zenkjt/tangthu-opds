@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IyPhidMM1mGAkDrseqv0fwoHd6_RaP5S",
+  "page": 1,
+  "items": [
+    {
+      "id": "169quBvBEml4_6g29tgjJbl1e7s84SpLd",
+      "parent_id": "1IyPhidMM1mGAkDrseqv0fwoHd6_RaP5S",
+      "name": "CẬU CHÓ.epub",
+      "mime": "application/epub+zip",
+      "size": 472365,
+      "modified": "2026-08-16T03:21:11.000Z",
+      "checksum": "8ea229660a6ba17d82c1ff01bf195c49",
+      "folder": false
+    },
+    {
+      "id": "1FDL9L0GOx764jAsC1Loy0yU5rs-TGysx",
+      "parent_id": "1IyPhidMM1mGAkDrseqv0fwoHd6_RaP5S",
+      "name": "CẬU CHÓ.pdf",
+      "mime": "application/pdf",
+      "size": 1160673,
+      "modified": "2026-08-16T03:21:08.000Z",
+      "checksum": "aab407eac263ad27b162c24459dcbe49",
+      "folder": false
+    },
+    {
+      "id": "17882uD14dkq8r9kA89RT9Dxusho3KqgS",
+      "parent_id": "1IyPhidMM1mGAkDrseqv0fwoHd6_RaP5S",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3881,
+      "modified": "2026-08-16T03:21:03.000Z",
+      "checksum": "1f8122c31333d5373867d4cfae2aa8b0",
+      "folder": false
+    }
+  ]
+}

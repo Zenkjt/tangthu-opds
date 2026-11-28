@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CvvaGlOamVdHm5DkR2ip2C8QSg5fqsYU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1v3bS3JE3mMsYbDgfQqUKzth7Z_R3R8yf",
+      "parent_id": "1CvvaGlOamVdHm5DkR2ip2C8QSg5fqsYU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3116,
+      "modified": "2026-08-15T10:25:43.000Z",
+      "checksum": "748b5a1cbe2dacea4c331027aab74661",
+      "folder": false
+    },
+    {
+      "id": "1eMP--s3wOItPxfZSNCmuT9qWfkaK09-p",
+      "parent_id": "1CvvaGlOamVdHm5DkR2ip2C8QSg5fqsYU",
+      "name": "STALINGRAD CUỘC CHIẾN ĐỊNH MỆNH.epub",
+      "mime": "application/epub+zip",
+      "size": 824458,
+      "modified": "2026-08-15T10:25:54.000Z",
+      "checksum": "366b4b3708f0effabc4c0dd9abfaaa54",
+      "folder": false
+    },
+    {
+      "id": "1eyWVYREsD01hpM_xEFPmqW8mw6UL2Kvd",
+      "parent_id": "1CvvaGlOamVdHm5DkR2ip2C8QSg5fqsYU",
+      "name": "STALINGRAD CUỘC CHIẾN ĐỊNH MỆNH.pdf",
+      "mime": "application/pdf",
+      "size": 1811509,
+      "modified": "2026-08-15T10:25:51.000Z",
+      "checksum": "56f73cc283a34454526b2435e51ce54d",
+      "folder": false
+    }
+  ]
+}

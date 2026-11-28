@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WtYqn7G5PvZldRb_DDgRca2D3CiLzhIe",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P3uWVsQIMS6Bd0e63ejINZcKlFbwH7x4",
+      "parent_id": "1WtYqn7G5PvZldRb_DDgRca2D3CiLzhIe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6723,
+      "modified": "2026-08-15T07:27:09.000Z",
+      "checksum": "46362b521eeaf8b127148248dd317a9a",
+      "folder": false
+    },
+    {
+      "id": "1HiHLDW_uT-a2XTqwljT5duKAQRpnj_X2",
+      "parent_id": "1WtYqn7G5PvZldRb_DDgRca2D3CiLzhIe",
+      "name": "VẦNG DƯƠNG ÔM LẤY EM.epub",
+      "mime": "application/epub+zip",
+      "size": 489445,
+      "modified": "2026-08-15T07:27:17.000Z",
+      "checksum": "7c64690a5c1599b2abfcdf23b661d6b4",
+      "folder": false
+    },
+    {
+      "id": "1bptYgzcfgcaYzlljYZB_Ut7c1H0Iu0Us",
+      "parent_id": "1WtYqn7G5PvZldRb_DDgRca2D3CiLzhIe",
+      "name": "VẦNG DƯƠNG ÔM LẤY EM.pdf",
+      "mime": "application/pdf",
+      "size": 1275650,
+      "modified": "2026-08-15T07:27:14.000Z",
+      "checksum": "df741cf349a192c6826990317103589d",
+      "folder": false
+    }
+  ]
+}

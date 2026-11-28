@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fN8GpGQHAnGK33AvsDtyAkUdUpe1Ai1B",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eZaSufRPYnpna_jKIP5lLZKAUkONW6Vh",
+      "parent_id": "1fN8GpGQHAnGK33AvsDtyAkUdUpe1Ai1B",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1016,
+      "modified": "2026-08-15T03:41:42.000Z",
+      "checksum": "f21f230c1bed5004d2210b127ce96d92",
+      "folder": false
+    },
+    {
+      "id": "1EHlzrWQkPSmR9670LErNUyjBpEijoh1n",
+      "parent_id": "1fN8GpGQHAnGK33AvsDtyAkUdUpe1Ai1B",
+      "name": "ĐỊA NGỤC DU KÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 2602033,
+      "modified": "2026-08-15T03:41:52.000Z",
+      "checksum": "24bb62f38a2590bb00157a90fdd3f3ea",
+      "folder": false
+    },
+    {
+      "id": "1fOydQwoorX6ueYQM7mlvEmGdfpK1jmJ3",
+      "parent_id": "1fN8GpGQHAnGK33AvsDtyAkUdUpe1Ai1B",
+      "name": "ĐỊA NGỤC DU KÝ.pdf",
+      "mime": "application/pdf",
+      "size": 4926232,
+      "modified": "2026-08-15T03:41:49.000Z",
+      "checksum": "b4aec3fc2abebeb0ad88376e8f41f1f1",
+      "folder": false
+    }
+  ]
+}

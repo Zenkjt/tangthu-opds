@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TiDNwYvWiZhAdA_mSXkKcehYZSnLCUw8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pISdpUv8vVblFaT71C1ZQW3CZHB2FJbn",
+      "parent_id": "1TiDNwYvWiZhAdA_mSXkKcehYZSnLCUw8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2896,
+      "modified": "2026-08-16T02:56:06.000Z",
+      "checksum": "fc2ec2a20812c57b363be609b6aa9a5c",
+      "folder": false
+    },
+    {
+      "id": "10FQ_d2Oy69_vhjVt_gtaA1C924dG3eRK",
+      "parent_id": "1TiDNwYvWiZhAdA_mSXkKcehYZSnLCUw8",
+      "name": "NHỮNG ĐỒNG TIỀN SIẾT MÁU.epub",
+      "mime": "application/epub+zip",
+      "size": 342494,
+      "modified": "2026-08-16T02:56:12.000Z",
+      "checksum": "d9ab1ad121bf9e208ce702a0fccb3c6d",
+      "folder": false
+    },
+    {
+      "id": "1Zjx87t1nlmLi65Xdcm3TqPGzLwChjgsY",
+      "parent_id": "1TiDNwYvWiZhAdA_mSXkKcehYZSnLCUw8",
+      "name": "NHỮNG ĐỒNG TIỀN SIẾT MÁU.pdf",
+      "mime": "application/pdf",
+      "size": 340299,
+      "modified": "2026-08-16T02:56:10.000Z",
+      "checksum": "7f83e7a9d60fa2d3fd987fd6346847ff",
+      "folder": false
+    }
+  ]
+}

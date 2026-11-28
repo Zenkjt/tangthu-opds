@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NV1jPzHV7pfr3AIOCT9rOtsjBu618w1g",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CJe-0QFueFmDz1E7BKFdaRRQD0xw0mXr",
+      "parent_id": "1NV1jPzHV7pfr3AIOCT9rOtsjBu618w1g",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3728,
+      "modified": "2026-08-16T04:10:30.000Z",
+      "checksum": "cdf0e1cf955c365c025603bd7aece5cf",
+      "folder": false
+    },
+    {
+      "id": "1yxgxtOzEppeEVjBTySUo7w4jiXPJ3dXg",
+      "parent_id": "1NV1jPzHV7pfr3AIOCT9rOtsjBu618w1g",
+      "name": "NHỮNG CÂU CHUYỆN THÀNH RÔM.epub",
+      "mime": "application/epub+zip",
+      "size": 863779,
+      "modified": "2026-08-16T04:10:42.000Z",
+      "checksum": "eeb474b9c71dd4b31a7cfa42ed5da759",
+      "folder": false
+    },
+    {
+      "id": "1C-EB0RyYMFfJG34BaSVlstSObXzuGVL5",
+      "parent_id": "1NV1jPzHV7pfr3AIOCT9rOtsjBu618w1g",
+      "name": "NHỮNG CÂU CHUYỆN THÀNH RÔM.pdf",
+      "mime": "application/pdf",
+      "size": 700234,
+      "modified": "2026-08-16T04:10:34.000Z",
+      "checksum": "6e6fe815695d01c21c1c1194f3eb877b",
+      "folder": false
+    }
+  ]
+}

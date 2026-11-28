@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iOHy10iBbg9ipX3CVNC4N3y2aDDcKMNE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1d5LFhRPQyieP1cdsmprUl2ECLS6y9nMr",
+      "parent_id": "1iOHy10iBbg9ipX3CVNC4N3y2aDDcKMNE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 658,
+      "modified": "2026-08-15T07:10:04.000Z",
+      "checksum": "d60350c256d713c8f175c1cec26acf7f",
+      "folder": false
+    },
+    {
+      "id": "1x7Hj4KX9LAcUsOCiJJPrMm_0KbnoHSVW",
+      "parent_id": "1iOHy10iBbg9ipX3CVNC4N3y2aDDcKMNE",
+      "name": "GIỌT NƯỚC MẮT THỦY TINH.epub",
+      "mime": "application/epub+zip",
+      "size": 400417,
+      "modified": "2026-08-15T07:10:10.000Z",
+      "checksum": "0bd316ed63f59c02f173521eb4710b13",
+      "folder": false
+    },
+    {
+      "id": "1o2XgDDyk8pXIYCj90G2AdQjfgECa9cSI",
+      "parent_id": "1iOHy10iBbg9ipX3CVNC4N3y2aDDcKMNE",
+      "name": "GIỌT NƯỚC MẮT THỦY TINH.pdf",
+      "mime": "application/pdf",
+      "size": 865986,
+      "modified": "2026-08-15T07:10:07.000Z",
+      "checksum": "cd0e1ac324a309ae95dee6abf3bf78a2",
+      "folder": false
+    }
+  ]
+}

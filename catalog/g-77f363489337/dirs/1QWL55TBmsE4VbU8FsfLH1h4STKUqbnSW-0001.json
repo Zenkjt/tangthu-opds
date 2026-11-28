@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QWL55TBmsE4VbU8FsfLH1h4STKUqbnSW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zHKEcnazBDeaP0Pjkbf7FH5f8PM0_gbu",
+      "parent_id": "1QWL55TBmsE4VbU8FsfLH1h4STKUqbnSW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 610,
+      "modified": "2026-08-15T10:38:25.000Z",
+      "checksum": "0a7d977e620d76100194f85be3672ad6",
+      "folder": false
+    },
+    {
+      "id": "1VAzUuds2b61PXfh08RFMjRCsk_AIix5p",
+      "parent_id": "1QWL55TBmsE4VbU8FsfLH1h4STKUqbnSW",
+      "name": "NHƯ CON MÈO NGÁI NGỦ TRÊN TAY ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 351175,
+      "modified": "2026-08-15T10:38:31.000Z",
+      "checksum": "ea89ec6a84d27c5db4225fc32a13f295",
+      "folder": false
+    },
+    {
+      "id": "1gCyu6Z8z1CQscd97havY0wdGm3PSqocP",
+      "parent_id": "1QWL55TBmsE4VbU8FsfLH1h4STKUqbnSW",
+      "name": "NHƯ CON MÈO NGÁI NGỦ TRÊN TAY ANH.pdf",
+      "mime": "application/pdf",
+      "size": 356311,
+      "modified": "2026-08-15T10:38:28.000Z",
+      "checksum": "cf591d6279f7d7eab8c2912b2f2baf1a",
+      "folder": false
+    }
+  ]
+}

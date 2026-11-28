@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1x7pFWkn8Q4caPE_kBHFavH6U2GZKD17h",
+  "page": 1,
+  "items": [
+    {
+      "id": "10q84kYaDZiemcx3SOGzxcCTTDDQ4ioLf",
+      "parent_id": "1x7pFWkn8Q4caPE_kBHFavH6U2GZKD17h",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5494,
+      "modified": "2026-08-15T06:44:04.000Z",
+      "checksum": "25953587dc18f7f861ded6ed9e5d8edd",
+      "folder": false
+    },
+    {
+      "id": "1IbqfTPvm36DvcdW6rRo-LdKDr-QJ3A7n",
+      "parent_id": "1x7pFWkn8Q4caPE_kBHFavH6U2GZKD17h",
+      "name": "LUẬN ANH HÙNG HỆ LIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 609340,
+      "modified": "2026-08-15T06:45:24.000Z",
+      "checksum": "eeea51d2af913c08301625933f5a74a7",
+      "folder": false
+    },
+    {
+      "id": "19wLbeBjDXpurgRjI3gNJX08cv12xeYpQ",
+      "parent_id": "1x7pFWkn8Q4caPE_kBHFavH6U2GZKD17h",
+      "name": "LUẬN ANH HÙNG HỆ LIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 17063063,
+      "modified": "2026-08-15T06:45:21.000Z",
+      "checksum": "a25f7cd4efddd001222caf25d686aa9d",
+      "folder": false
+    }
+  ]
+}

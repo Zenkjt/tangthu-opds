@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mXoQG7WCDMKrVl-kX-Jc2jQw3dSczUbo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Oylh6FClKLISNOZVMwMstZUfBb55Bp91",
+      "parent_id": "1mXoQG7WCDMKrVl-kX-Jc2jQw3dSczUbo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3376,
+      "modified": "2026-08-16T04:24:21.000Z",
+      "checksum": "3795bf833a1eee8cd31a3fef63e908b9",
+      "folder": false
+    },
+    {
+      "id": "1sEhb-M4s_tLEXC8ku-k_lrj-rry5QYWr",
+      "parent_id": "1mXoQG7WCDMKrVl-kX-Jc2jQw3dSczUbo",
+      "name": "HỒI KÝ NGƯỜI VỢ Á.epub",
+      "mime": "application/epub+zip",
+      "size": 529364,
+      "modified": "2026-08-16T04:24:29.000Z",
+      "checksum": "b1be96b2c73d063aba835f9a247d24f8",
+      "folder": false
+    },
+    {
+      "id": "1qQe7NAhRpI3IM_VZOSxCFqmBitOPUgkE",
+      "parent_id": "1mXoQG7WCDMKrVl-kX-Jc2jQw3dSczUbo",
+      "name": "HỒI KÝ NGƯỜI VỢ Á.pdf",
+      "mime": "application/pdf",
+      "size": 1073417,
+      "modified": "2026-08-16T04:24:26.000Z",
+      "checksum": "444ab8ce13048d7e623f46ebbfaab5d5",
+      "folder": false
+    }
+  ]
+}

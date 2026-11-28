@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SiO37bXxGUBAYoanRM0XEwMiOw1an0dr",
+  "page": 1,
+  "items": [
+    {
+      "id": "19KHRqsrHL0RlwSch8ghf4ZJnKOyuXeeJ",
+      "parent_id": "1SiO37bXxGUBAYoanRM0XEwMiOw1an0dr",
+      "name": "CÁ VOI ĐỈNH NÚI.epub",
+      "mime": "application/epub+zip",
+      "size": 342856,
+      "modified": "2026-08-15T11:01:57.000Z",
+      "checksum": "67588b2aadcfa12d46bdfcbe50b22091",
+      "folder": false
+    },
+    {
+      "id": "1lf8u01xGUadH5UOgOaKwwRCuFPS-mw2-",
+      "parent_id": "1SiO37bXxGUBAYoanRM0XEwMiOw1an0dr",
+      "name": "CÁ VOI ĐỈNH NÚI.pdf",
+      "mime": "application/pdf",
+      "size": 249728,
+      "modified": "2026-08-15T11:01:54.000Z",
+      "checksum": "db5d6493c3f9d387d5c269c564bad20c",
+      "folder": false
+    },
+    {
+      "id": "1lqhS9-WcM1sfxZLsPB7RlEE6S00FIcws",
+      "parent_id": "1SiO37bXxGUBAYoanRM0XEwMiOw1an0dr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 542,
+      "modified": "2026-08-15T11:01:51.000Z",
+      "checksum": "414c90bb708cdefa2a39b3426a786264",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QXFmOhGr8a46-VvTyjeI_Aaw_Z3TWC8o",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tmEH56rls9UvG53-HBrxCS5IU5g-etCX",
+      "parent_id": "1QXFmOhGr8a46-VvTyjeI_Aaw_Z3TWC8o",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 558,
+      "modified": "2026-08-16T04:13:57.000Z",
+      "checksum": "77334263efb745f496a87b9b4a38c79f",
+      "folder": false
+    },
+    {
+      "id": "1hHykCinjjwbCGqmMQIxhpjiUVbx9wmQ7",
+      "parent_id": "1QXFmOhGr8a46-VvTyjeI_Aaw_Z3TWC8o",
+      "name": "NGƯỜI ĐÁNH CẮP SỰ THẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 381462,
+      "modified": "2026-08-16T04:14:03.000Z",
+      "checksum": "6d824edf93e0b95275b4beea6ca67580",
+      "folder": false
+    },
+    {
+      "id": "1qyBcBO0q4tRAv7EZuuEgtcp6-eJv0sYK",
+      "parent_id": "1QXFmOhGr8a46-VvTyjeI_Aaw_Z3TWC8o",
+      "name": "NGƯỜI ĐÁNH CẮP SỰ THẬT.pdf",
+      "mime": "application/pdf",
+      "size": 675910,
+      "modified": "2026-08-16T04:14:00.000Z",
+      "checksum": "3775c4f521d2f600d571f7315b8cbcc1",
+      "folder": false
+    }
+  ]
+}

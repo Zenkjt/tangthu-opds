@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1INu543Pd9CZmP5Rfypy7R2iDro7t08Uo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ysReuNq8vrHmTAZfCu7dRxxsikuA3woJ",
+      "parent_id": "1INu543Pd9CZmP5Rfypy7R2iDro7t08Uo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10774,
+      "modified": "2026-08-15T07:43:16.000Z",
+      "checksum": "cbefa41ed11ac04d2b260185f631a5a1",
+      "folder": false
+    },
+    {
+      "id": "1MJTLyzuv7B4YnzkhLmOPaguF5bT-g1Vc",
+      "parent_id": "1INu543Pd9CZmP5Rfypy7R2iDro7t08Uo",
+      "name": "THỨC ĂN TRONG NỒI, EM TRONG CHĂN.epub",
+      "mime": "application/epub+zip",
+      "size": 479575,
+      "modified": "2026-08-15T07:43:23.000Z",
+      "checksum": "db940e8d9ad36672cdd9c955b56cb034",
+      "folder": false
+    },
+    {
+      "id": "1IRpj9cvvXvSP0R-JKM3Tk7hRk92_Bajh",
+      "parent_id": "1INu543Pd9CZmP5Rfypy7R2iDro7t08Uo",
+      "name": "THỨC ĂN TRONG NỒI, EM TRONG CHĂN.pdf",
+      "mime": "application/pdf",
+      "size": 1279307,
+      "modified": "2026-08-15T07:43:21.000Z",
+      "checksum": "0eadc9a706abdce6b09855af79d31f4b",
+      "folder": false
+    }
+  ]
+}

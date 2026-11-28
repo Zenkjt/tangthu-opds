@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1o7E9fHkQLsF01G4DMK5uQ4VZXrWFlv6P",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OY2MQXZoUTXztw4u2FBZLDUbqPsyvnsW",
+      "parent_id": "1o7E9fHkQLsF01G4DMK5uQ4VZXrWFlv6P",
+      "name": "CỔ ĐỘC PHỦ TIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 430217,
+      "modified": "2026-08-15T08:21:36.000Z",
+      "checksum": "632eec59669c6fdd3822a97f6fd2e9d8",
+      "folder": false
+    },
+    {
+      "id": "1g8RYS7V8MoZ8WFFP1iwIc5yTbCfHgN5Y",
+      "parent_id": "1o7E9fHkQLsF01G4DMK5uQ4VZXrWFlv6P",
+      "name": "CỔ ĐỘC PHỦ TIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 599116,
+      "modified": "2026-08-15T08:21:25.000Z",
+      "checksum": "af156940cd6364cca618093ad7467c90",
+      "folder": false
+    },
+    {
+      "id": "1AZAp7jv-UOTtMB5xtfByvLHOPu6Mt9gU",
+      "parent_id": "1o7E9fHkQLsF01G4DMK5uQ4VZXrWFlv6P",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2326,
+      "modified": "2026-08-15T08:21:14.000Z",
+      "checksum": "77e2f9abc9bb38d3d547b7898bb0de6b",
+      "folder": false
+    }
+  ]
+}

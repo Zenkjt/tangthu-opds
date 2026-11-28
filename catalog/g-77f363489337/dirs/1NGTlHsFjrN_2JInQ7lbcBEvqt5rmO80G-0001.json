@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NGTlHsFjrN_2JInQ7lbcBEvqt5rmO80G",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Nm5eYvdgT8YCg0OJbxyzcOCqGcn0OTNx",
+      "parent_id": "1NGTlHsFjrN_2JInQ7lbcBEvqt5rmO80G",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1630,
+      "modified": "2026-08-15T07:20:42.000Z",
+      "checksum": "fb1dd009ab926a3c6e3c0964736795e8",
+      "folder": false
+    },
+    {
+      "id": "1128fSlrnnFerMt56sAtT-i3Z0o1L3va7",
+      "parent_id": "1NGTlHsFjrN_2JInQ7lbcBEvqt5rmO80G",
+      "name": "TỐT NGHIỆP RỒI KẾT HÔN THÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 808222,
+      "modified": "2026-08-15T07:20:50.000Z",
+      "checksum": "1456a0231943e5fd421e989931cc61ac",
+      "folder": false
+    },
+    {
+      "id": "1AFExD21zbRFxnQ9-jlWxgxYnljPtL50H",
+      "parent_id": "1NGTlHsFjrN_2JInQ7lbcBEvqt5rmO80G",
+      "name": "TỐT NGHIỆP RỒI KẾT HÔN THÔI.pdf",
+      "mime": "application/pdf",
+      "size": 1649973,
+      "modified": "2026-08-15T07:20:47.000Z",
+      "checksum": "55949d1a6f145415c80fb00b29948662",
+      "folder": false
+    }
+  ]
+}

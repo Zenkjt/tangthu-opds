@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UISCKmYOkDDXNbqf6V6qf-SB-69i562k",
+  "page": 1,
+  "items": [
+    {
+      "id": "16abz0ORkpqECE4Zkyas-2ylod1Hxl6Eh",
+      "parent_id": "1UISCKmYOkDDXNbqf6V6qf-SB-69i562k",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3227,
+      "modified": "2026-08-15T10:01:01.000Z",
+      "checksum": "7b530f1e7a4e3370c328ec9267f2076c",
+      "folder": false
+    },
+    {
+      "id": "1bHLSDAdQ56j3fhJE1tKtDJaLZuFy5IEb",
+      "parent_id": "1UISCKmYOkDDXNbqf6V6qf-SB-69i562k",
+      "name": "TÔI TÊN LÀ ARK.epub",
+      "mime": "application/epub+zip",
+      "size": 1107436,
+      "modified": "2026-08-15T10:01:13.000Z",
+      "checksum": "8296d7bcde5dd86c8aaf04465244ae50",
+      "folder": false
+    },
+    {
+      "id": "1MK97vMpy-GDMMKCBfamDftM6xXw3moLT",
+      "parent_id": "1UISCKmYOkDDXNbqf6V6qf-SB-69i562k",
+      "name": "TÔI TÊN LÀ ARK.pdf",
+      "mime": "application/pdf",
+      "size": 3712399,
+      "modified": "2026-08-15T10:01:10.000Z",
+      "checksum": "cdc7039a1fb173937fa4c9f052121a96",
+      "folder": false
+    }
+  ]
+}

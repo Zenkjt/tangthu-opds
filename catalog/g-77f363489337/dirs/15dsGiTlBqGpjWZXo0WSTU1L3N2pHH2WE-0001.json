@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15dsGiTlBqGpjWZXo0WSTU1L3N2pHH2WE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JALjaHcMojgAK4p9-4yD3mXTsqEC7C8p",
+      "parent_id": "15dsGiTlBqGpjWZXo0WSTU1L3N2pHH2WE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3335,
+      "modified": "2026-08-16T03:16:20.000Z",
+      "checksum": "fffeb235226a0f8ca170906e6b9595ae",
+      "folder": false
+    },
+    {
+      "id": "1VliAm6zOc8jJRDu3I6v7iJoK8du1bGZL",
+      "parent_id": "15dsGiTlBqGpjWZXo0WSTU1L3N2pHH2WE",
+      "name": "NÓI CÓ SÁCH.epub",
+      "mime": "application/epub+zip",
+      "size": 350124,
+      "modified": "2026-08-16T03:16:26.000Z",
+      "checksum": "842c589092ceba7d1cbb709c2768604f",
+      "folder": false
+    },
+    {
+      "id": "12G2Hlcfa6W_BBpIBaAfwmiEu3hzOicrz",
+      "parent_id": "15dsGiTlBqGpjWZXo0WSTU1L3N2pHH2WE",
+      "name": "NÓI CÓ SÁCH.pdf",
+      "mime": "application/pdf",
+      "size": 784797,
+      "modified": "2026-08-16T03:16:24.000Z",
+      "checksum": "39f997ff59669e94659e31d1099a052a",
+      "folder": false
+    }
+  ]
+}

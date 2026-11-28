@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1icfErJ1FfOtMZQ7uwmy2Nd-CyuRkpLD2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KWdTDLb1s_RnTdmmFBSdXXRLgy2eHpbA",
+      "parent_id": "1icfErJ1FfOtMZQ7uwmy2Nd-CyuRkpLD2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3044,
+      "modified": "2026-08-15T10:26:13.000Z",
+      "checksum": "1abeafd320efbd91f957c00ce6b4cf3a",
+      "folder": false
+    },
+    {
+      "id": "1OTLXSDDG5ssxlOxzuby99NNsJPRq27dG",
+      "parent_id": "1icfErJ1FfOtMZQ7uwmy2Nd-CyuRkpLD2",
+      "name": "SÒNG BẠC.epub",
+      "mime": "application/epub+zip",
+      "size": 583882,
+      "modified": "2026-08-15T10:26:21.000Z",
+      "checksum": "1dba0a4ed95d2f8006f8d5eae3352a61",
+      "folder": false
+    },
+    {
+      "id": "1FfhG3sYz-E6aDJQBNSyM20zcBz-dPaOG",
+      "parent_id": "1icfErJ1FfOtMZQ7uwmy2Nd-CyuRkpLD2",
+      "name": "SÒNG BẠC.pdf",
+      "mime": "application/pdf",
+      "size": 1174327,
+      "modified": "2026-08-15T10:26:18.000Z",
+      "checksum": "caecf54abe501f825f8aef1334efef5f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hX2shRyI8l23aWN529sEgCqOoJneyn7J",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jEbyiIMRJK7x9EJ5tkLVRTOAgyHfmhQm",
+      "parent_id": "1hX2shRyI8l23aWN529sEgCqOoJneyn7J",
+      "name": "CON MỒI TÁO BẠO.epub",
+      "mime": "application/epub+zip",
+      "size": 404209,
+      "modified": "2026-08-15T15:15:47.000Z",
+      "checksum": "b725b9028d8d48397c458f16c193fb94",
+      "folder": false
+    },
+    {
+      "id": "1Wic2CsohOiFe9RZy8EZuUZgnfD7JkiU3",
+      "parent_id": "1hX2shRyI8l23aWN529sEgCqOoJneyn7J",
+      "name": "CON MỒI TÁO BẠO.pdf",
+      "mime": "application/pdf",
+      "size": 658511,
+      "modified": "2026-08-15T15:15:44.000Z",
+      "checksum": "cd5b0aff8156c261e361d2d74bfe113b",
+      "folder": false
+    },
+    {
+      "id": "1jNK2JAYxV2xCzeWqK7MThaMlvw1px5F7",
+      "parent_id": "1hX2shRyI8l23aWN529sEgCqOoJneyn7J",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1695,
+      "modified": "2026-08-15T15:15:41.000Z",
+      "checksum": "f100fbcf12aa145ff875ed55c0d7c49f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LqFB0OkPS_O6MMiV3B7Ddv4V4glnRSgg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Wi1m6wRNiaFqXhz0zagvta5WAVGSKOGA",
+      "parent_id": "1LqFB0OkPS_O6MMiV3B7Ddv4V4glnRSgg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3634,
+      "modified": "2026-08-15T03:52:14.000Z",
+      "checksum": "c70dfda81ab80c193e77675c331478be",
+      "folder": false
+    },
+    {
+      "id": "1at9BfzY5FLOLCVSfLdiqsBAcN7ZIe1h7",
+      "parent_id": "1LqFB0OkPS_O6MMiV3B7Ddv4V4glnRSgg",
+      "name": "LINH HỒN CỦA TIỀN.epub",
+      "mime": "application/epub+zip",
+      "size": 525333,
+      "modified": "2026-08-15T03:52:21.000Z",
+      "checksum": "9d396f5ddcb253dae74f308e553a7a30",
+      "folder": false
+    },
+    {
+      "id": "1qSVs3g1FrsJ_dYxfoIrVZRt9CeyqZPc6",
+      "parent_id": "1LqFB0OkPS_O6MMiV3B7Ddv4V4glnRSgg",
+      "name": "LINH HỒN CỦA TIỀN.pdf",
+      "mime": "application/pdf",
+      "size": 1905018,
+      "modified": "2026-08-15T03:52:19.000Z",
+      "checksum": "fccdc0cc133410a391fd4365f8d9a64a",
+      "folder": false
+    }
+  ]
+}

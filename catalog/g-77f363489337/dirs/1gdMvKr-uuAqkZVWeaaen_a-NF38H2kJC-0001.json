@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gdMvKr-uuAqkZVWeaaen_a-NF38H2kJC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lFsQkOZcX2y_ZUtQxnkeS8BNWfyPolbS",
+      "parent_id": "1gdMvKr-uuAqkZVWeaaen_a-NF38H2kJC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3245,
+      "modified": "2026-08-15T03:17:26.000Z",
+      "checksum": "50e452830825e00c40b7a1c6b963ec0f",
+      "folder": false
+    },
+    {
+      "id": "12sgTZUZkMPj6Owh_mh8mDBMRf-PCSo9t",
+      "parent_id": "1gdMvKr-uuAqkZVWeaaen_a-NF38H2kJC",
+      "name": "NỘI TÌNH CỦA NGOẠI TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 619034,
+      "modified": "2026-08-15T03:17:34.000Z",
+      "checksum": "05ac135384bd30dd3183158de5f0461e",
+      "folder": false
+    },
+    {
+      "id": "1s5WAVBUcLx5RC7DN5_UZQpeXqPdIKFfl",
+      "parent_id": "1gdMvKr-uuAqkZVWeaaen_a-NF38H2kJC",
+      "name": "NỘI TÌNH CỦA NGOẠI TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 1334140,
+      "modified": "2026-08-15T03:17:31.000Z",
+      "checksum": "2a5826b791d5d4c170367e8e458db979",
+      "folder": false
+    }
+  ]
+}

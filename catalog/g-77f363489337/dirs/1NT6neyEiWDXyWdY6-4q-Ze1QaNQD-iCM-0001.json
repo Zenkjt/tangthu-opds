@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NT6neyEiWDXyWdY6-4q-Ze1QaNQD-iCM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nRA8aC3Rh8BJYML1WN2Vwse4eikt_Vrm",
+      "parent_id": "1NT6neyEiWDXyWdY6-4q-Ze1QaNQD-iCM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 910,
+      "modified": "2026-08-15T10:56:42.000Z",
+      "checksum": "dc60be925727d8e02421d3677e7fea17",
+      "folder": false
+    },
+    {
+      "id": "1DHfc30qD4a2UnkdpKsa1hjxAJdI6OHgz",
+      "parent_id": "1NT6neyEiWDXyWdY6-4q-Ze1QaNQD-iCM",
+      "name": "HIỆP SĨ SAINTE HERMINE.epub",
+      "mime": "application/epub+zip",
+      "size": 1527055,
+      "modified": "2026-08-15T10:56:53.000Z",
+      "checksum": "ca560638deecf6229d5e676f6cb294c7",
+      "folder": false
+    },
+    {
+      "id": "1xM3ObVHjEgcJm6VMA88JUeVn4pO1jFIk",
+      "parent_id": "1NT6neyEiWDXyWdY6-4q-Ze1QaNQD-iCM",
+      "name": "HIỆP SĨ SAINTE HERMINE.pdf",
+      "mime": "application/pdf",
+      "size": 3909053,
+      "modified": "2026-08-15T10:56:49.000Z",
+      "checksum": "dd438e29ca3b4830c71920f5b4ade676",
+      "folder": false
+    }
+  ]
+}

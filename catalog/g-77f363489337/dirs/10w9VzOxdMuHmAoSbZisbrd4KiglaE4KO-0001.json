@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10w9VzOxdMuHmAoSbZisbrd4KiglaE4KO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1easn8jVfkFGaCHv00D-IIp_IQp-Z_uVT",
+      "parent_id": "10w9VzOxdMuHmAoSbZisbrd4KiglaE4KO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7755,
+      "modified": "2026-08-15T03:46:13.000Z",
+      "checksum": "b58ab32ca214ff47fc6aa3c5ccbb0d14",
+      "folder": false
+    },
+    {
+      "id": "1X3LGsPQYQxGt9-5S1aMRl1KNhek3gwqs",
+      "parent_id": "10w9VzOxdMuHmAoSbZisbrd4KiglaE4KO",
+      "name": "TỌA THIỀN THÔNG MINH PHÁP.epub",
+      "mime": "application/epub+zip",
+      "size": 414200,
+      "modified": "2026-08-15T03:46:20.000Z",
+      "checksum": "91e44fb098d6cb1581aa863a7fcbfc1d",
+      "folder": false
+    },
+    {
+      "id": "1QQhtqPYl3efP6AYg3uza4cT5iBugNVmo",
+      "parent_id": "10w9VzOxdMuHmAoSbZisbrd4KiglaE4KO",
+      "name": "TỌA THIỀN THÔNG MINH PHÁP.pdf",
+      "mime": "application/pdf",
+      "size": 462624,
+      "modified": "2026-08-15T03:46:17.000Z",
+      "checksum": "e92bfde712695a6aeb0d9e77b909534a",
+      "folder": false
+    }
+  ]
+}

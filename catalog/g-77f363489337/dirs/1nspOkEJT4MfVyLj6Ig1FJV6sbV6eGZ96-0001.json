@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nspOkEJT4MfVyLj6Ig1FJV6sbV6eGZ96",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mfYG1uIYtGTB9SebtxaCXJN8DWm3dOud",
+      "parent_id": "1nspOkEJT4MfVyLj6Ig1FJV6sbV6eGZ96",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2976,
+      "modified": "2026-08-15T10:26:07.000Z",
+      "checksum": "b9f3f2a32e91b8ba64bf5819ff448801",
+      "folder": false
+    },
+    {
+      "id": "1VtTBnlufWCjk11gVfASegCHg2zm_kid9",
+      "parent_id": "1nspOkEJT4MfVyLj6Ig1FJV6sbV6eGZ96",
+      "name": "SỐNG CHUNG VỚI MẸ CHỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 855688,
+      "modified": "2026-08-15T10:26:19.000Z",
+      "checksum": "f6a5c4b10989336a0284238070eab9ee",
+      "folder": false
+    },
+    {
+      "id": "1BJmQl6vwkBgR7KsWgHBP3TkJAav5-sAi",
+      "parent_id": "1nspOkEJT4MfVyLj6Ig1FJV6sbV6eGZ96",
+      "name": "SỐNG CHUNG VỚI MẸ CHỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 2022786,
+      "modified": "2026-08-15T10:26:14.000Z",
+      "checksum": "6c6a60bad71742220feada23970e94ca",
+      "folder": false
+    }
+  ]
+}

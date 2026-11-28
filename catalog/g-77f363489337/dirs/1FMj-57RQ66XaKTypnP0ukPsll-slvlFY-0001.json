@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FMj-57RQ66XaKTypnP0ukPsll-slvlFY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GFSLSGCQfbAa-Dt4sHW-ontqpH7VfSfU",
+      "parent_id": "1FMj-57RQ66XaKTypnP0ukPsll-slvlFY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3750,
+      "modified": "2026-08-15T10:24:04.000Z",
+      "checksum": "105e3908bb275beb3819aa50f7e7d97b",
+      "folder": false
+    },
+    {
+      "id": "1MjYDpiVJTtEfYPmZDPWhG6r3vSLvPMnt",
+      "parent_id": "1FMj-57RQ66XaKTypnP0ukPsll-slvlFY",
+      "name": "TẶC MIÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 527772,
+      "modified": "2026-08-15T10:24:13.000Z",
+      "checksum": "31a4b9de7f8508c631ee06376f5c8aed",
+      "folder": false
+    },
+    {
+      "id": "1QWDXniXUc96vns2uwT5St7ala_g2AQGT",
+      "parent_id": "1FMj-57RQ66XaKTypnP0ukPsll-slvlFY",
+      "name": "TẶC MIÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1122785,
+      "modified": "2026-08-15T10:24:11.000Z",
+      "checksum": "e148f1bb317ca91bf7dd42cb3691ac6c",
+      "folder": false
+    }
+  ]
+}

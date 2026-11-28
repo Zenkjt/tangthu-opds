@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hW_SlTcvIesaATRXe8oUVefyoplSFDDp",
+  "page": 1,
+  "items": [
+    {
+      "id": "11aN3tsVAZq9EidrM77lO_50eRxaNjH_T",
+      "parent_id": "1hW_SlTcvIesaATRXe8oUVefyoplSFDDp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2948,
+      "modified": "2026-08-15T03:18:03.000Z",
+      "checksum": "08012de9b340892eb2b1cea8b9f781c5",
+      "folder": false
+    },
+    {
+      "id": "1Mzyq41filZqemZd10orfPMKX7Hamvtkh",
+      "parent_id": "1hW_SlTcvIesaATRXe8oUVefyoplSFDDp",
+      "name": "SỐNG ĐẲNG CẤP.epub",
+      "mime": "application/epub+zip",
+      "size": 546040,
+      "modified": "2026-08-15T03:18:10.000Z",
+      "checksum": "cf96f6dd12672d2584be43e66dbb271b",
+      "folder": false
+    },
+    {
+      "id": "1ACg4LQ6ElP5xNfmpcO7iigHy9J5okZkJ",
+      "parent_id": "1hW_SlTcvIesaATRXe8oUVefyoplSFDDp",
+      "name": "SỐNG ĐẲNG CẤP.pdf",
+      "mime": "application/pdf",
+      "size": 1334540,
+      "modified": "2026-08-15T03:18:07.000Z",
+      "checksum": "2971ff887d832dd757d2e7013e71e014",
+      "folder": false
+    }
+  ]
+}

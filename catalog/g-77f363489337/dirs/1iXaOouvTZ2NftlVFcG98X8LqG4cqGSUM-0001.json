@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iXaOouvTZ2NftlVFcG98X8LqG4cqGSUM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GKY6cjnkL09rcsCcY8ge6KWexeuwN4Xn",
+      "parent_id": "1iXaOouvTZ2NftlVFcG98X8LqG4cqGSUM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1811,
+      "modified": "2026-08-15T07:34:48.000Z",
+      "checksum": "775c6fb2dc55a48a2de335cd86137db6",
+      "folder": false
+    },
+    {
+      "id": "1ee9QF5fsMN-ajdE9qOQ5ZBS66R4H1K2Z",
+      "parent_id": "1iXaOouvTZ2NftlVFcG98X8LqG4cqGSUM",
+      "name": "HỌC VIỆN Y HỌC ĐÁNG SỢ.epub",
+      "mime": "application/epub+zip",
+      "size": 473063,
+      "modified": "2026-08-15T07:34:54.000Z",
+      "checksum": "3b4a79f146ea8ac27b674372e317afd9",
+      "folder": false
+    },
+    {
+      "id": "1BVHT4H1D-984VaYxIpVg3WjrjgDrPS1E",
+      "parent_id": "1iXaOouvTZ2NftlVFcG98X8LqG4cqGSUM",
+      "name": "HỌC VIỆN Y HỌC ĐÁNG SỢ.pdf",
+      "mime": "application/pdf",
+      "size": 1215704,
+      "modified": "2026-08-15T07:34:52.000Z",
+      "checksum": "e9bc6dea081f5e36f303e3f177a65933",
+      "folder": false
+    }
+  ]
+}

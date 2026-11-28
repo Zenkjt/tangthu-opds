@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IrNE50qH37-HqiLfJDJafzbQWV4fb9M-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-AmY3hVNOq-uNg0y228ffG8k2KuOn1fF",
+      "parent_id": "1IrNE50qH37-HqiLfJDJafzbQWV4fb9M-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6877,
+      "modified": "2026-08-15T05:47:13.000Z",
+      "checksum": "50f74417e7a59e05c5acb0f73ae0b963",
+      "folder": false
+    },
+    {
+      "id": "1MgGSyUkYO4RB5tqjZn0wMqRAvCGzGZwG",
+      "parent_id": "1IrNE50qH37-HqiLfJDJafzbQWV4fb9M-",
+      "name": "PHI LÝ MỘT CÁCH HỢP LÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 2545681,
+      "modified": "2026-08-15T05:47:20.000Z",
+      "checksum": "b989ce78f24f1f15fcc17d3994083937",
+      "folder": false
+    },
+    {
+      "id": "1nAYjCSC0ur3Gt2uBf8htj8duiG9oSOOF",
+      "parent_id": "1IrNE50qH37-HqiLfJDJafzbQWV4fb9M-",
+      "name": "PHI LÝ MỘT CÁCH HỢP LÝ.pdf",
+      "mime": "application/pdf",
+      "size": 2962636,
+      "modified": "2026-08-15T05:47:18.000Z",
+      "checksum": "fb89aeb10724a8e20eb8055f2711bf5b",
+      "folder": false
+    }
+  ]
+}

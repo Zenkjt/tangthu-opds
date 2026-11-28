@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aj8nMNvTNM4H8L0ebMYcaE9RNZrczkqm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Rvri0_CZacoi7A6obIRPL2Vx2r8P7mB-",
+      "parent_id": "1aj8nMNvTNM4H8L0ebMYcaE9RNZrczkqm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5722,
+      "modified": "2026-08-15T15:51:39.000Z",
+      "checksum": "7edf7faf3df35f9d9c91092312f972f0",
+      "folder": false
+    },
+    {
+      "id": "1uSg6dzfwfayH0l8Z0cJQOr15G3uz2JiW",
+      "parent_id": "1aj8nMNvTNM4H8L0ebMYcaE9RNZrczkqm",
+      "name": "VI THẦN CÓ TỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 286670,
+      "modified": "2026-08-15T15:51:45.000Z",
+      "checksum": "9fa6875ed2b2d39a91be6437e97a0d7f",
+      "folder": false
+    },
+    {
+      "id": "1ilSxpJTs8dw-Zn-0uAEngulgSf2b1VoT",
+      "parent_id": "1aj8nMNvTNM4H8L0ebMYcaE9RNZrczkqm",
+      "name": "VI THẦN CÓ TỘI.pdf",
+      "mime": "application/pdf",
+      "size": 227996,
+      "modified": "2026-08-15T15:51:42.000Z",
+      "checksum": "c04d59116057cdad84571f009c1367cc",
+      "folder": false
+    }
+  ]
+}

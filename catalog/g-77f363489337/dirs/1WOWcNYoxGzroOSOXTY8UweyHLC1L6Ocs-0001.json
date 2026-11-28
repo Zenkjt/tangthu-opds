@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WOWcNYoxGzroOSOXTY8UweyHLC1L6Ocs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gpLhyODFMtemokNsDxehlFnBp-GvMOS4",
+      "parent_id": "1WOWcNYoxGzroOSOXTY8UweyHLC1L6Ocs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6712,
+      "modified": "2026-08-15T06:58:10.000Z",
+      "checksum": "20d9e05b53dd056fa30121c3391484c1",
+      "folder": false
+    },
+    {
+      "id": "1XmA2ECIUIAtRM5RPtsEQ8U5Yf8xHX7Bu",
+      "parent_id": "1WOWcNYoxGzroOSOXTY8UweyHLC1L6Ocs",
+      "name": "TẤT CẢ CÁC DÒNG SÔNG ĐỀU CHẢY.epub",
+      "mime": "application/epub+zip",
+      "size": 702338,
+      "modified": "2026-08-15T06:58:28.000Z",
+      "checksum": "87d59bae490d29f11bee867303fed2a7",
+      "folder": false
+    },
+    {
+      "id": "18rQ-vQN9jEhlN5ni0PRKjFG6hyZZrtvS",
+      "parent_id": "1WOWcNYoxGzroOSOXTY8UweyHLC1L6Ocs",
+      "name": "TẤT CẢ CÁC DÒNG SÔNG ĐỀU CHẢY.pdf",
+      "mime": "application/pdf",
+      "size": 2124383,
+      "modified": "2026-08-15T06:58:19.000Z",
+      "checksum": "285da79e69a054fb2bdcabbf16928e1b",
+      "folder": false
+    }
+  ]
+}

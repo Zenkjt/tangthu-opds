@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IajhS9xZCXUutho77Sa9rgEmnWV3LT4V",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YVdX9yLznnNvwduE_qxDy4LG_fl4z912",
+      "parent_id": "1IajhS9xZCXUutho77Sa9rgEmnWV3LT4V",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1907,
+      "modified": "2026-08-16T03:03:33.000Z",
+      "checksum": "7395311344739deabb2195befcb5ce79",
+      "folder": false
+    },
+    {
+      "id": "1NZM4nJL_pctCIknL4VuhG7NBSxFRoW2p",
+      "parent_id": "1IajhS9xZCXUutho77Sa9rgEmnWV3LT4V",
+      "name": "TỨ CẦM THÚ VÀ TỨ HOA KHÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 770541,
+      "modified": "2026-08-16T03:03:42.000Z",
+      "checksum": "e2ae6506e098c766d0b0e52ae8eca7ea",
+      "folder": false
+    },
+    {
+      "id": "12Nh9aPbFO34dma11Oc3v_HwajBtb5JjH",
+      "parent_id": "1IajhS9xZCXUutho77Sa9rgEmnWV3LT4V",
+      "name": "TỨ CẦM THÚ VÀ TỨ HOA KHÔI.pdf",
+      "mime": "application/pdf",
+      "size": 2457186,
+      "modified": "2026-08-16T03:03:39.000Z",
+      "checksum": "24f8cccc5d748eb2189d3d067c8d2561",
+      "folder": false
+    }
+  ]
+}

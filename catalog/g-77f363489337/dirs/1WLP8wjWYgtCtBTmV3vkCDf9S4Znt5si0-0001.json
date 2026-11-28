@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WLP8wjWYgtCtBTmV3vkCDf9S4Znt5si0",
+  "page": 1,
+  "items": [
+    {
+      "id": "11LMNsHxewfw5jp5nrHBO6lXoSZ3cR7bM",
+      "parent_id": "1WLP8wjWYgtCtBTmV3vkCDf9S4Znt5si0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2969,
+      "modified": "2026-08-15T04:22:57.000Z",
+      "checksum": "4423c6c368529d49fc7d9bbd6363aeac",
+      "folder": false
+    },
+    {
+      "id": "1eYXxcKS1-R8czvCSAld-Vq3QMxcPM4J6",
+      "parent_id": "1WLP8wjWYgtCtBTmV3vkCDf9S4Znt5si0",
+      "name": "SINH TRẮC HỌC DẤU VÂN TAY.epub",
+      "mime": "application/epub+zip",
+      "size": 1661548,
+      "modified": "2026-08-15T04:23:06.000Z",
+      "checksum": "4355694b2a6fa945b0d72464b6ec9984",
+      "folder": false
+    },
+    {
+      "id": "1EYQy0prGD6B1ngkjHQZ9BleWSnr25XMT",
+      "parent_id": "1WLP8wjWYgtCtBTmV3vkCDf9S4Znt5si0",
+      "name": "SINH TRẮC HỌC DẤU VÂN TAY.pdf",
+      "mime": "application/pdf",
+      "size": 1882395,
+      "modified": "2026-08-15T04:23:02.000Z",
+      "checksum": "395f57a1f947b60a6763d170b22b11b1",
+      "folder": false
+    }
+  ]
+}

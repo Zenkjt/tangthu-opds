@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "117Zk5H2VG6UTowSrrykcyEI8-X1WDbMp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ap48UYF_QBYRejGmaq3fHZ9LXLSxGuYz",
+      "parent_id": "117Zk5H2VG6UTowSrrykcyEI8-X1WDbMp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 13397,
+      "modified": "2026-08-15T15:17:02.000Z",
+      "checksum": "4137016d03649623c786444a56b48cbf",
+      "folder": false
+    },
+    {
+      "id": "1P0wL3WuULyqJZnw6qMFAciSZ52HveCVn",
+      "parent_id": "117Zk5H2VG6UTowSrrykcyEI8-X1WDbMp",
+      "name": "NGŨ ĐẠI THẦN THÚ.epub",
+      "mime": "application/epub+zip",
+      "size": 504238,
+      "modified": "2026-08-15T15:17:13.000Z",
+      "checksum": "ce8eda7bcceee5ac47426bc2eb09c58c",
+      "folder": false
+    },
+    {
+      "id": "1DtCvfDn1uEhOaljmmQZ0-faMar34Su3t",
+      "parent_id": "117Zk5H2VG6UTowSrrykcyEI8-X1WDbMp",
+      "name": "NGŨ ĐẠI THẦN THÚ.pdf",
+      "mime": "application/pdf",
+      "size": 1017492,
+      "modified": "2026-08-15T15:17:07.000Z",
+      "checksum": "ab603605f78a9ed2cc0dc1b51ffb98f6",
+      "folder": false
+    }
+  ]
+}

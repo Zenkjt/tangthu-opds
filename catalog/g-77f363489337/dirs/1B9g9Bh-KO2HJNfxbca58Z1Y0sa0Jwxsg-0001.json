@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1B9g9Bh-KO2HJNfxbca58Z1Y0sa0Jwxsg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qDWeA0lsKflennem4md6ue4lujqAUgDk",
+      "parent_id": "1B9g9Bh-KO2HJNfxbca58Z1Y0sa0Jwxsg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1458,
+      "modified": "2026-08-15T03:38:30.000Z",
+      "checksum": "4237a602de24e7f2461884c1ae2bb894",
+      "folder": false
+    },
+    {
+      "id": "11mZ336ACflnKXETPm-e9hIRDLHqLqjKZ",
+      "parent_id": "1B9g9Bh-KO2HJNfxbca58Z1Y0sa0Jwxsg",
+      "name": "SEN NỞ TRỜI PHƯƠNG NGOẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 946483,
+      "modified": "2026-08-15T03:38:37.000Z",
+      "checksum": "e7842b613ee9d19140617c570b6cb691",
+      "folder": false
+    },
+    {
+      "id": "1Zvp_aUH7c1wU1K9Y-F3RUuZPI6OhlP1u",
+      "parent_id": "1B9g9Bh-KO2HJNfxbca58Z1Y0sa0Jwxsg",
+      "name": "SEN NỞ TRỜI PHƯƠNG NGOẠI.pdf",
+      "mime": "application/pdf",
+      "size": 1450886,
+      "modified": "2026-08-15T03:38:34.000Z",
+      "checksum": "4fece6c87e1edc27ba4168869f155e52",
+      "folder": false
+    }
+  ]
+}

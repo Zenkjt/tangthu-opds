@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mgYIrpbTFSeHy_LScLhcRVK2xApcetqh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-nb3uXmc1oxOohWSg7rXpasCwG3SvdDf",
+      "parent_id": "1mgYIrpbTFSeHy_LScLhcRVK2xApcetqh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2788,
+      "modified": "2026-08-15T15:32:20.000Z",
+      "checksum": "a09d6175e8438d13735af15cd43e3d57",
+      "folder": false
+    },
+    {
+      "id": "1lI2Yihej5eLO-DoeSeTV_WmByBO_kRn6",
+      "parent_id": "1mgYIrpbTFSeHy_LScLhcRVK2xApcetqh",
+      "name": "ĐÔI HOA TAI TỪ FRANKFURT.epub",
+      "mime": "application/epub+zip",
+      "size": 2436586,
+      "modified": "2026-08-15T15:32:29.000Z",
+      "checksum": "6a204ac4538a03622a790b6e6595fdd2",
+      "folder": false
+    },
+    {
+      "id": "1kVKo2bIhG0oZxJUWaSoZXXIw9IUtvzIc",
+      "parent_id": "1mgYIrpbTFSeHy_LScLhcRVK2xApcetqh",
+      "name": "ĐÔI HOA TAI TỪ FRANKFURT.pdf",
+      "mime": "application/pdf",
+      "size": 2233786,
+      "modified": "2026-08-15T15:32:25.000Z",
+      "checksum": "61193956318216a6877b81e4f7d046c7",
+      "folder": false
+    }
+  ]
+}

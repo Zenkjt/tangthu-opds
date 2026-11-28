@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GUOuAen1zSwoRwWlni6Me7x6XaRrufRV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DWR26Kt-sTEoAjPicdIMe_fIeAOtC6Jv",
+      "parent_id": "1GUOuAen1zSwoRwWlni6Me7x6XaRrufRV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2652,
+      "modified": "2026-08-16T03:51:58.000Z",
+      "checksum": "4258cb92a8457a7381cb1024edb4e35a",
+      "folder": false
+    },
+    {
+      "id": "15vTJpUHKKlXaTpJ6LskKFNswJd7t-dB7",
+      "parent_id": "1GUOuAen1zSwoRwWlni6Me7x6XaRrufRV",
+      "name": "VẾT TAY TRÊN TRẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 583853,
+      "modified": "2026-08-16T03:52:04.000Z",
+      "checksum": "0c91aed1df681c601fc7d6a11fa6f802",
+      "folder": false
+    },
+    {
+      "id": "1XuKnq6Vm8jXaWr0Lj4H6wxuiOa_MLCcB",
+      "parent_id": "1GUOuAen1zSwoRwWlni6Me7x6XaRrufRV",
+      "name": "VẾT TAY TRÊN TRẦN.pdf",
+      "mime": "application/pdf",
+      "size": 701685,
+      "modified": "2026-08-16T03:52:02.000Z",
+      "checksum": "63a90084a2fab0bbaeedd263f875f8c1",
+      "folder": false
+    }
+  ]
+}

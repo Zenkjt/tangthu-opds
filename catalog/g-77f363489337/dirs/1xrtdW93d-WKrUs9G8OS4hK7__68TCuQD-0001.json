@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xrtdW93d-WKrUs9G8OS4hK7__68TCuQD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LktElhWi2tBob2AwNVgJSUTaBx359kME",
+      "parent_id": "1xrtdW93d-WKrUs9G8OS4hK7__68TCuQD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6993,
+      "modified": "2026-08-15T12:25:27.000Z",
+      "checksum": "f00fc72063bbf86832f207a8e27db836",
+      "folder": false
+    },
+    {
+      "id": "1zo1A-BjIuOi2gKTV-xtS_tcg1LGgzmVU",
+      "parent_id": "1xrtdW93d-WKrUs9G8OS4hK7__68TCuQD",
+      "name": "DẠY CON THEO LỐI MỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 721277,
+      "modified": "2026-08-15T12:27:08.000Z",
+      "checksum": "016da8938f817952dedb45550cbfc94a",
+      "folder": false
+    },
+    {
+      "id": "1WcwuymZUjPi5zLXDngVvb_qpdvxTT1cN",
+      "parent_id": "1xrtdW93d-WKrUs9G8OS4hK7__68TCuQD",
+      "name": "DẠY CON THEO LỐI MỚI.pdf",
+      "mime": "application/pdf",
+      "size": 903007,
+      "modified": "2026-08-15T12:25:35.000Z",
+      "checksum": "fa5f47c4d507147e637b6b1087fbe6bc",
+      "folder": false
+    }
+  ]
+}

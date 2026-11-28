@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fR7q0zqnuadou68CRRrs-YQHGPbjR7_b",
+  "page": 1,
+  "items": [
+    {
+      "id": "1R15qoloT0miAJ-AUi7ELCQenpJV8jKYg",
+      "parent_id": "1fR7q0zqnuadou68CRRrs-YQHGPbjR7_b",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2503,
+      "modified": "2026-08-15T11:31:49.000Z",
+      "checksum": "c4b732aded06dee1b9c93f590de58a18",
+      "folder": false
+    },
+    {
+      "id": "1zLPjieBu9BOsH9c_dWrdyVEBvEl9dtJV",
+      "parent_id": "1fR7q0zqnuadou68CRRrs-YQHGPbjR7_b",
+      "name": "DẠY TRẺ VỀ THẾ GIỚI XUNG QUANH.epub",
+      "mime": "application/epub+zip",
+      "size": 1110627,
+      "modified": "2026-08-15T11:31:56.000Z",
+      "checksum": "2bcd4ff13a681caa9787582a47a4950c",
+      "folder": false
+    },
+    {
+      "id": "1jpbFoP9NqpbJ4N5xcZpeZ0elxz0-eMJp",
+      "parent_id": "1fR7q0zqnuadou68CRRrs-YQHGPbjR7_b",
+      "name": "DẠY TRẺ VỀ THẾ GIỚI XUNG QUANH.pdf",
+      "mime": "application/pdf",
+      "size": 1489191,
+      "modified": "2026-08-15T11:31:54.000Z",
+      "checksum": "72e730386164cfbdb38fdd389e8d70af",
+      "folder": false
+    }
+  ]
+}

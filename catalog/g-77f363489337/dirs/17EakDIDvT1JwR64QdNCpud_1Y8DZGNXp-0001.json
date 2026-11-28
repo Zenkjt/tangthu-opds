@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17EakDIDvT1JwR64QdNCpud_1Y8DZGNXp",
+  "page": 1,
+  "items": [
+    {
+      "id": "13pYUhLOjINn2JL0Xs0f1tQi5xWXxAUQ7",
+      "parent_id": "17EakDIDvT1JwR64QdNCpud_1Y8DZGNXp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3523,
+      "modified": "2026-08-15T10:47:59.000Z",
+      "checksum": "b4e9886cdefaa6f50a53b2f5c82f6c8a",
+      "folder": false
+    },
+    {
+      "id": "1uhUpeI3IrWMLy-M8GEmaBwqhwGx5ZnKM",
+      "parent_id": "17EakDIDvT1JwR64QdNCpud_1Y8DZGNXp",
+      "name": "NẾU EM THẤY ANH BÂY GIỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 627292,
+      "modified": "2026-08-15T10:48:07.000Z",
+      "checksum": "bc31a39aa90b189ca6b8fab043e973d8",
+      "folder": false
+    },
+    {
+      "id": "1ufdgx6MO67qWkJmbDgVBqUKUynUjhGPg",
+      "parent_id": "17EakDIDvT1JwR64QdNCpud_1Y8DZGNXp",
+      "name": "NẾU EM THẤY ANH BÂY GIỜ.pdf",
+      "mime": "application/pdf",
+      "size": 1000262,
+      "modified": "2026-08-15T10:48:04.000Z",
+      "checksum": "872499f717711c28b87196738dbeb9c4",
+      "folder": false
+    }
+  ]
+}

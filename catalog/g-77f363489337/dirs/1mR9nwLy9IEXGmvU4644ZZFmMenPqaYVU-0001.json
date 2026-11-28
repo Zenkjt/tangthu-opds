@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mR9nwLy9IEXGmvU4644ZZFmMenPqaYVU",
+  "page": 1,
+  "items": [
+    {
+      "id": "11ra7ml1NteAV1Wx_Y2gauyo4gAAClnlu",
+      "parent_id": "1mR9nwLy9IEXGmvU4644ZZFmMenPqaYVU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3187,
+      "modified": "2026-08-16T04:04:38.000Z",
+      "checksum": "8925c8e114bddd162fe33fbe689de105",
+      "folder": false
+    },
+    {
+      "id": "1pryLtHnJR33XWHvQ5_ehG2vNUkDCKJKs",
+      "parent_id": "1mR9nwLy9IEXGmvU4644ZZFmMenPqaYVU",
+      "name": "RUMP CẬU BÉ XE RƠM THÀNH VÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 929914,
+      "modified": "2026-08-16T04:04:44.000Z",
+      "checksum": "3f9b21144d50d7df1ed86558d2aebb91",
+      "folder": false
+    },
+    {
+      "id": "1AkPKMXU_X8_NW7w6DsoYHwrn3HiJlSuj",
+      "parent_id": "1mR9nwLy9IEXGmvU4644ZZFmMenPqaYVU",
+      "name": "RUMP CẬU BÉ XE RƠM THÀNH VÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 1645264,
+      "modified": "2026-08-16T04:04:42.000Z",
+      "checksum": "0bb491792f3d79c6546d6fc67858e139",
+      "folder": false
+    }
+  ]
+}

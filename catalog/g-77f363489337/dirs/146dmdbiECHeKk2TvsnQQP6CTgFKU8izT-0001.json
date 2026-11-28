@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "146dmdbiECHeKk2TvsnQQP6CTgFKU8izT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jKGaC6rpev-Utcs9ZDaVTVAu327VYfk4",
+      "parent_id": "146dmdbiECHeKk2TvsnQQP6CTgFKU8izT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 657,
+      "modified": "2026-08-16T04:18:44.000Z",
+      "checksum": "b1940d77d7c2ffc7474421a19d24b4c6",
+      "folder": false
+    },
+    {
+      "id": "1Z2seO92GGI0NcWRxjLcJ_iyiAq0KV9G5",
+      "parent_id": "146dmdbiECHeKk2TvsnQQP6CTgFKU8izT",
+      "name": "KIÊU HÃNH VÀ THÀNH KIẾN.epub",
+      "mime": "application/epub+zip",
+      "size": 440138,
+      "modified": "2026-08-16T04:18:54.000Z",
+      "checksum": "3078c9c8232215de1ffd0369d354a6fb",
+      "folder": false
+    },
+    {
+      "id": "1-GP8Vw4SUnKPx5esP-vrzL_4a_3fnh8d",
+      "parent_id": "146dmdbiECHeKk2TvsnQQP6CTgFKU8izT",
+      "name": "KIÊU HÃNH VÀ THÀNH KIẾN.pdf",
+      "mime": "application/pdf",
+      "size": 1560245,
+      "modified": "2026-08-16T04:18:51.000Z",
+      "checksum": "7f037ea5ceb8ba68391d7fc434333953",
+      "folder": false
+    }
+  ]
+}

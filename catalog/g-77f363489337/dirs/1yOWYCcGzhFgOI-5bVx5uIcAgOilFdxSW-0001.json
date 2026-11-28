@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yOWYCcGzhFgOI-5bVx5uIcAgOilFdxSW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yZ2bAFs19JmLke9soXMY6WXMDJW-2bXN",
+      "parent_id": "1yOWYCcGzhFgOI-5bVx5uIcAgOilFdxSW",
+      "name": "BẾN HẸN.epub",
+      "mime": "application/epub+zip",
+      "size": 574026,
+      "modified": "2026-08-16T03:19:19.000Z",
+      "checksum": "782285d6c1dab8f4057f160d212f7abc",
+      "folder": false
+    },
+    {
+      "id": "102g-_soZ6dptEdQyhGpQK0Hbzx_u61BY",
+      "parent_id": "1yOWYCcGzhFgOI-5bVx5uIcAgOilFdxSW",
+      "name": "BẾN HẸN.pdf",
+      "mime": "application/pdf",
+      "size": 518942,
+      "modified": "2026-08-16T03:19:17.000Z",
+      "checksum": "496b2968d9b2c895bde437ce07207c39",
+      "folder": false
+    },
+    {
+      "id": "1t3waNeupstQrWCe8PL-PJCye6G4iEVx6",
+      "parent_id": "1yOWYCcGzhFgOI-5bVx5uIcAgOilFdxSW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4109,
+      "modified": "2026-08-16T03:19:14.000Z",
+      "checksum": "822bb18e5bba4330232a5d9632ebad3c",
+      "folder": false
+    }
+  ]
+}

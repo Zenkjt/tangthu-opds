@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15Z5okcRMSTtE6JQANujkg1eN0DtA3AcL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vu24X6JU1RAW4WuaWiCfUFLie1eaD7Js",
+      "parent_id": "15Z5okcRMSTtE6JQANujkg1eN0DtA3AcL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3311,
+      "modified": "2026-08-15T15:07:58.000Z",
+      "checksum": "2b85b5150874baa3401d10623c653245",
+      "folder": false
+    },
+    {
+      "id": "17frVCisxwOrQV2_F8laD7-KN0kyscwoF",
+      "parent_id": "15Z5okcRMSTtE6JQANujkg1eN0DtA3AcL",
+      "name": "XIN ĐỪNG BUÔNG TAY.epub",
+      "mime": "application/epub+zip",
+      "size": 793133,
+      "modified": "2026-08-15T15:10:01.000Z",
+      "checksum": "897afd8e62d0ea3dd4f6a8dd978aa03a",
+      "folder": false
+    },
+    {
+      "id": "1dTTLkmobjwBb2LV-gdQLfz2G3EbTKdvF",
+      "parent_id": "15Z5okcRMSTtE6JQANujkg1eN0DtA3AcL",
+      "name": "XIN ĐỪNG BUÔNG TAY.pdf",
+      "mime": "application/pdf",
+      "size": 1534830,
+      "modified": "2026-08-15T15:09:32.000Z",
+      "checksum": "4c0c4ad4b553253e44f6a1915490ceed",
+      "folder": false
+    }
+  ]
+}

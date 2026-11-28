@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1izxaEYlXMde8EyGq2PeAkukMoIq7MAJA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vveNP9eQJYLxtCEabh0b1f9b-W_SI8sB",
+      "parent_id": "1izxaEYlXMde8EyGq2PeAkukMoIq7MAJA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2799,
+      "modified": "2026-08-16T03:25:18.000Z",
+      "checksum": "f24d4893a749b5114b94b2d9a5e1c890",
+      "folder": false
+    },
+    {
+      "id": "1wa1g4RFxruaU8kQ4_s5fkPxdHhEdUDc0",
+      "parent_id": "1izxaEYlXMde8EyGq2PeAkukMoIq7MAJA",
+      "name": "QUAN TRƯỜNG HỦ BẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 579107,
+      "modified": "2026-08-16T03:25:26.000Z",
+      "checksum": "443f1c9250fe17e4b3e3b1ed03fedd18",
+      "folder": false
+    },
+    {
+      "id": "1ExdnGNMmdU2fJhW0ESAykDh5GvQ802hU",
+      "parent_id": "1izxaEYlXMde8EyGq2PeAkukMoIq7MAJA",
+      "name": "QUAN TRƯỜNG HỦ BẠI.pdf",
+      "mime": "application/pdf",
+      "size": 2378764,
+      "modified": "2026-08-16T03:25:24.000Z",
+      "checksum": "c82d2720f170cee817853bfb8e45dca3",
+      "folder": false
+    }
+  ]
+}

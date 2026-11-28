@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wtfyBAXgJiHg8_zYGczrklPdbYYrNPFu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1H08bgf0YKa7gaQHvbfAuQx3_J_V48zSq",
+      "parent_id": "1wtfyBAXgJiHg8_zYGczrklPdbYYrNPFu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7890,
+      "modified": "2026-08-15T00:54:33.000Z",
+      "checksum": "af929b1b13f04bb8c135d4116722b11f",
+      "folder": false
+    },
+    {
+      "id": "1fPDQmbkByAu7yCoQNlzdO4j_PsnMastA",
+      "parent_id": "1wtfyBAXgJiHg8_zYGczrklPdbYYrNPFu",
+      "name": "SỨC MẠNH CỦA SỰ TRẦM LẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 2814952,
+      "modified": "2026-08-15T00:54:41.000Z",
+      "checksum": "e8d88a5e70c1850f2ea12ec53e007e47",
+      "folder": false
+    },
+    {
+      "id": "1my0t7E39ikTXzwu6yIgPDCXzp7jOLs6v",
+      "parent_id": "1wtfyBAXgJiHg8_zYGczrklPdbYYrNPFu",
+      "name": "SỨC MẠNH CỦA SỰ TRẦM LẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 3701647,
+      "modified": "2026-08-15T00:54:38.000Z",
+      "checksum": "3637394d3813043ec2f96790192399b4",
+      "folder": false
+    }
+  ]
+}

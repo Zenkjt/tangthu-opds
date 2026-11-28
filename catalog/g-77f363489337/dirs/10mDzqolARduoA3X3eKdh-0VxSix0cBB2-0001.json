@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10mDzqolARduoA3X3eKdh-0VxSix0cBB2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pOIXahvZG04bR8IAkbMc4UrKkPTON-0U",
+      "parent_id": "10mDzqolARduoA3X3eKdh-0VxSix0cBB2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2904,
+      "modified": "2026-08-16T03:28:13.000Z",
+      "checksum": "0b37c5e30737233e1251c5e4f690bc41",
+      "folder": false
+    },
+    {
+      "id": "1Wt4rM_gVvThPpjqo4uMUs9iCOMp1cA-O",
+      "parent_id": "10mDzqolARduoA3X3eKdh-0VxSix0cBB2",
+      "name": "HANG DÃ THÚ.epub",
+      "mime": "application/epub+zip",
+      "size": 925007,
+      "modified": "2026-08-16T03:28:28.000Z",
+      "checksum": "3abb5bd7b36e495d54d3b8a40b012d90",
+      "folder": false
+    },
+    {
+      "id": "1eWGrv_ilx6_53DQgKf54xCiAbOK7ZUCd",
+      "parent_id": "10mDzqolARduoA3X3eKdh-0VxSix0cBB2",
+      "name": "HANG DÃ THÚ.pdf",
+      "mime": "application/pdf",
+      "size": 1918701,
+      "modified": "2026-08-16T03:28:17.000Z",
+      "checksum": "1ff3a2958de9065b1c5f28de91f3e27b",
+      "folder": false
+    }
+  ]
+}

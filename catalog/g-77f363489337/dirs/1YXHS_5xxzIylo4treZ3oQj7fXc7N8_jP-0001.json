@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YXHS_5xxzIylo4treZ3oQj7fXc7N8_jP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-zcsyRtOXM_twqHrhKOt1tFu6fRXf746",
+      "parent_id": "1YXHS_5xxzIylo4treZ3oQj7fXc7N8_jP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9031,
+      "modified": "2026-08-15T07:27:16.000Z",
+      "checksum": "adaa31306ffecd4ab02eca686432fcba",
+      "folder": false
+    },
+    {
+      "id": "1PxpYEav4T4-XP8ns1UQfelUrxw_lj8Tk",
+      "parent_id": "1YXHS_5xxzIylo4treZ3oQj7fXc7N8_jP",
+      "name": "VĂN PHÒNG CHỦ TỊCH PHI NHÂN LOẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 583689,
+      "modified": "2026-08-15T07:27:24.000Z",
+      "checksum": "d2baf4cc904be4671981d83b83bdf333",
+      "folder": false
+    },
+    {
+      "id": "1Kn2nRVTzyKdpxlMokbM0v36vMekFGxgY",
+      "parent_id": "1YXHS_5xxzIylo4treZ3oQj7fXc7N8_jP",
+      "name": "VĂN PHÒNG CHỦ TỊCH PHI NHÂN LOẠI.pdf",
+      "mime": "application/pdf",
+      "size": 1483581,
+      "modified": "2026-08-15T07:27:21.000Z",
+      "checksum": "f3c4cc53eb7dd05293ce96a8a08c7964",
+      "folder": false
+    }
+  ]
+}

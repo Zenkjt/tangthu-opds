@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZMVEkULxoUYwSwybZq7JYPcV4VtGIxJ5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_1zYJ2EJhcNlamAz8CDPio1nVxHPiiXz",
+      "parent_id": "1ZMVEkULxoUYwSwybZq7JYPcV4VtGIxJ5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 601,
+      "modified": "2026-08-15T12:56:20.000Z",
+      "checksum": "03c635b60efadd18484513fbe9278cb1",
+      "folder": false
+    },
+    {
+      "id": "1P0nanEWfR6UFonqzrzjNjS8cLGDDSeBA",
+      "parent_id": "1ZMVEkULxoUYwSwybZq7JYPcV4VtGIxJ5",
+      "name": "THẦY PHÙ THỦY ĐI TRONG THÀNH PHỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 776037,
+      "modified": "2026-08-15T12:56:31.000Z",
+      "checksum": "43fcde18d5c466c8de928efb8b4a3d86",
+      "folder": false
+    },
+    {
+      "id": "1GdTEMDsuDJfmJ1Yj3cndP2LExiLkGKJR",
+      "parent_id": "1ZMVEkULxoUYwSwybZq7JYPcV4VtGIxJ5",
+      "name": "THẦY PHÙ THỦY ĐI TRONG THÀNH PHỐ.pdf",
+      "mime": "application/pdf",
+      "size": 588850,
+      "modified": "2026-08-15T12:56:28.000Z",
+      "checksum": "37dddd1bf1992676450d257ef7a90caf",
+      "folder": false
+    }
+  ]
+}

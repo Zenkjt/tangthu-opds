@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TNoexM05kLQu_9jwPlnDWObRd-sxko7Y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1i1JinqeLDnr6VUNrXTWsO7Lz_h2UCgMO",
+      "parent_id": "1TNoexM05kLQu_9jwPlnDWObRd-sxko7Y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5430,
+      "modified": "2026-08-16T03:21:31.000Z",
+      "checksum": "abbbd77acc030cea07c7a0250c91aad4",
+      "folder": false
+    },
+    {
+      "id": "1fcbtGmKKkOIeIrtdGYaZ6F90L4QgMXcg",
+      "parent_id": "1TNoexM05kLQu_9jwPlnDWObRd-sxko7Y",
+      "name": "GIÂY PHÚT NÀY.epub",
+      "mime": "application/epub+zip",
+      "size": 729800,
+      "modified": "2026-08-16T03:21:39.000Z",
+      "checksum": "75a6a7b6917d24ba5992f86136fc0d57",
+      "folder": false
+    },
+    {
+      "id": "1q7lLaktRLM-JCGNOWHPnj9_rkGShwQMx",
+      "parent_id": "1TNoexM05kLQu_9jwPlnDWObRd-sxko7Y",
+      "name": "GIÂY PHÚT NÀY.pdf",
+      "mime": "application/pdf",
+      "size": 1540368,
+      "modified": "2026-08-16T03:21:37.000Z",
+      "checksum": "c2dd3ea3eec9eda8b0c6268f3d80ee5a",
+      "folder": false
+    }
+  ]
+}

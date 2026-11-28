@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PYwNaM9EcJnvBNBwdH1gXEB3t-BMLZx1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jMG4InSrsRm1G5xGgYrkI7WT7x2Y40DP",
+      "parent_id": "1PYwNaM9EcJnvBNBwdH1gXEB3t-BMLZx1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1162,
+      "modified": "2026-08-15T07:23:43.000Z",
+      "checksum": "34d034c36205ba257f566ea61e554101",
+      "folder": false
+    },
+    {
+      "id": "1ZgEb2ZP_zMw0rr7TxC1BjrlI3k48f247",
+      "parent_id": "1PYwNaM9EcJnvBNBwdH1gXEB3t-BMLZx1",
+      "name": "TỬ ĐỘNG.epub",
+      "mime": "application/epub+zip",
+      "size": 551190,
+      "modified": "2026-08-15T07:23:50.000Z",
+      "checksum": "50c990084f0b678e00853ce9a3e30d16",
+      "folder": false
+    },
+    {
+      "id": "1_FvauhXqDt0zq16mNnCpALhoDP6Cxl15",
+      "parent_id": "1PYwNaM9EcJnvBNBwdH1gXEB3t-BMLZx1",
+      "name": "TỬ ĐỘNG.pdf",
+      "mime": "application/pdf",
+      "size": 1393552,
+      "modified": "2026-08-15T07:23:47.000Z",
+      "checksum": "512298943a23c51793c34861e799a160",
+      "folder": false
+    }
+  ]
+}

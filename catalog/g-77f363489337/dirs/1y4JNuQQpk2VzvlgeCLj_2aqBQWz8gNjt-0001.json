@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1y4JNuQQpk2VzvlgeCLj_2aqBQWz8gNjt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HiZ2fjNW8qYwKboE-M53MVIQljEIIWuo",
+      "parent_id": "1y4JNuQQpk2VzvlgeCLj_2aqBQWz8gNjt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3606,
+      "modified": "2026-08-15T15:52:02.000Z",
+      "checksum": "4e761818e44d1289d66278e948ef55ba",
+      "folder": false
+    },
+    {
+      "id": "1bzY2iuCXDBH9hh4ZdrugnCFih-qXrt6s",
+      "parent_id": "1y4JNuQQpk2VzvlgeCLj_2aqBQWz8gNjt",
+      "name": "HỘI NHỮNG TRÁI TIM CÔ ĐƠN.epub",
+      "mime": "application/epub+zip",
+      "size": 821789,
+      "modified": "2026-08-15T15:52:08.000Z",
+      "checksum": "d93f0d3f4d33831028f1e5d0f506bb26",
+      "folder": false
+    },
+    {
+      "id": "1iMoH0yiHiLjNd2yHArs3HMecJfC2oj8u",
+      "parent_id": "1y4JNuQQpk2VzvlgeCLj_2aqBQWz8gNjt",
+      "name": "HỘI NHỮNG TRÁI TIM CÔ ĐƠN.pdf",
+      "mime": "application/pdf",
+      "size": 903346,
+      "modified": "2026-08-15T15:52:06.000Z",
+      "checksum": "45d88d9a827260855c26ac749781d254",
+      "folder": false
+    }
+  ]
+}

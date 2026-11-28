@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SoSXwAZGiOdEikOicLAqhmshzqkr87iN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1j4TsXuDbUjyV9YoJeTuo-ExZ_d6qRYZ-",
+      "parent_id": "1SoSXwAZGiOdEikOicLAqhmshzqkr87iN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6375,
+      "modified": "2026-08-15T00:54:30.000Z",
+      "checksum": "5a17da67c25eefc90e550abf14610c4c",
+      "folder": false
+    },
+    {
+      "id": "1swmP_ZrDderbi4JOD7tNNDaPBh6bRQqe",
+      "parent_id": "1SoSXwAZGiOdEikOicLAqhmshzqkr87iN",
+      "name": "KỶ LUẬT KHÔNG NƯỚC MẮT.epub",
+      "mime": "application/epub+zip",
+      "size": 837468,
+      "modified": "2026-08-15T00:54:36.000Z",
+      "checksum": "3689b92b3e0e1c4041ba75eeffa59350",
+      "folder": false
+    },
+    {
+      "id": "1NF2-dDiEJEfc0LESdKtyi5ldmXpTzwpo",
+      "parent_id": "1SoSXwAZGiOdEikOicLAqhmshzqkr87iN",
+      "name": "KỶ LUẬT KHÔNG NƯỚC MẮT.pdf",
+      "mime": "application/pdf",
+      "size": 1593173,
+      "modified": "2026-08-15T00:54:34.000Z",
+      "checksum": "503714c64ad1f77f6e77f9b64b71ff43",
+      "folder": false
+    }
+  ]
+}

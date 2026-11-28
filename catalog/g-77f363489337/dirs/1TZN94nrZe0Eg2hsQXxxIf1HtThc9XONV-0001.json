@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TZN94nrZe0Eg2hsQXxxIf1HtThc9XONV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Vups4BLeDH1zWLYBeQgtHKGHvFFk8kVK",
+      "parent_id": "1TZN94nrZe0Eg2hsQXxxIf1HtThc9XONV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1806,
+      "modified": "2026-08-15T09:15:28.000Z",
+      "checksum": "1f343964dcb8175960d5ca93bd2facdc",
+      "folder": false
+    },
+    {
+      "id": "17wLhfiAJVqWX8NvhUHWbxmdbfRuJL9B-",
+      "parent_id": "1TZN94nrZe0Eg2hsQXxxIf1HtThc9XONV",
+      "name": "TỤC TIỂU TÀ THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 707218,
+      "modified": "2026-08-15T09:15:37.000Z",
+      "checksum": "4bdb9dd5eedfe68fa15c0e6a379e7933",
+      "folder": false
+    },
+    {
+      "id": "1tMaMuz0GWX7CWURuPIFWWp0R6sO1R5Ek",
+      "parent_id": "1TZN94nrZe0Eg2hsQXxxIf1HtThc9XONV",
+      "name": "TỤC TIỂU TÀ THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 2021891,
+      "modified": "2026-08-15T09:15:34.000Z",
+      "checksum": "6a557ac7caf820730643d80c04b945f7",
+      "folder": false
+    }
+  ]
+}

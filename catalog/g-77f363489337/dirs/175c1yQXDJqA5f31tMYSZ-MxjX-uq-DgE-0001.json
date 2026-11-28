@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "175c1yQXDJqA5f31tMYSZ-MxjX-uq-DgE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UJjd7pTDQ-j4V4_TeGuwpo7ZQvhfbuKn",
+      "parent_id": "175c1yQXDJqA5f31tMYSZ-MxjX-uq-DgE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 569,
+      "modified": "2026-08-15T15:39:45.000Z",
+      "checksum": "a49acd7cbc6e7a1a90fe2565e0826fe9",
+      "folder": false
+    },
+    {
+      "id": "1uI6v69RUywpunGoCh3ngTr0oFumZPqoH",
+      "parent_id": "175c1yQXDJqA5f31tMYSZ-MxjX-uq-DgE",
+      "name": "NGƯỜI LẠ TRONG GƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 676006,
+      "modified": "2026-08-15T15:39:51.000Z",
+      "checksum": "cf47e2e42dc0cb5672422195cb8af043",
+      "folder": false
+    },
+    {
+      "id": "136sUDZg7DOyz2iw0AZ0EjyyjDJ813HQJ",
+      "parent_id": "175c1yQXDJqA5f31tMYSZ-MxjX-uq-DgE",
+      "name": "NGƯỜI LẠ TRONG GƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1101467,
+      "modified": "2026-08-15T15:39:49.000Z",
+      "checksum": "ebd5fc2a5f42bca8b2aa5e017c303515",
+      "folder": false
+    }
+  ]
+}

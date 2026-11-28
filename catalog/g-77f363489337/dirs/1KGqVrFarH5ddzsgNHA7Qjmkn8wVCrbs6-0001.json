@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KGqVrFarH5ddzsgNHA7Qjmkn8wVCrbs6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OTMOp5igrvZnN1BxQoYcex6v4T_VjWOw",
+      "parent_id": "1KGqVrFarH5ddzsgNHA7Qjmkn8wVCrbs6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7471,
+      "modified": "2026-08-15T03:15:42.000Z",
+      "checksum": "1e0895aa2bdb0ca76271d0eeba957161",
+      "folder": false
+    },
+    {
+      "id": "1Z_5It2Zzkf8kyBbsYj1xjNmJU19KQQNZ",
+      "parent_id": "1KGqVrFarH5ddzsgNHA7Qjmkn8wVCrbs6",
+      "name": "MỘT CÁCH ĐỂ CỦA CHO CON.epub",
+      "mime": "application/epub+zip",
+      "size": 401045,
+      "modified": "2026-08-15T03:15:48.000Z",
+      "checksum": "3173b5649afc7edc4afe31e6801e75ac",
+      "folder": false
+    },
+    {
+      "id": "1hiCq7OCcEIyyjMIWfVCUYrdFi0GawO7C",
+      "parent_id": "1KGqVrFarH5ddzsgNHA7Qjmkn8wVCrbs6",
+      "name": "MỘT CÁCH ĐỂ CỦA CHO CON.pdf",
+      "mime": "application/pdf",
+      "size": 1020227,
+      "modified": "2026-08-15T03:15:46.000Z",
+      "checksum": "79fa4ff26dcedb1f3301da51b321a6fd",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VkpcY9EG0N9NA2gTCVwwVy9_jZQLrTyb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1okGnfK-JS1Cs5s4W3j1KO8mvrMCaoiuu",
+      "parent_id": "1VkpcY9EG0N9NA2gTCVwwVy9_jZQLrTyb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 21161,
+      "modified": "2026-08-15T07:42:07.000Z",
+      "checksum": "d06b51e15cc56584e356b94d01eb7937",
+      "folder": false
+    },
+    {
+      "id": "1ekfVlF5QYXsM6j6GPi5GJVIhqtMr4YvB",
+      "parent_id": "1VkpcY9EG0N9NA2gTCVwwVy9_jZQLrTyb",
+      "name": "GIẢI NGẢI KÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 688935,
+      "modified": "2026-08-15T07:42:14.000Z",
+      "checksum": "84f5d641b35aff5d52310418f80c19cf",
+      "folder": false
+    },
+    {
+      "id": "1eaxyZxYsI9Wpqer55dRMWjeKfO3U2dvM",
+      "parent_id": "1VkpcY9EG0N9NA2gTCVwwVy9_jZQLrTyb",
+      "name": "GIẢI NGẢI KÝ.pdf",
+      "mime": "application/pdf",
+      "size": 1852776,
+      "modified": "2026-08-15T07:42:12.000Z",
+      "checksum": "7f566ddf5f4d2893aa8c0a346a76e1e8",
+      "folder": false
+    }
+  ]
+}

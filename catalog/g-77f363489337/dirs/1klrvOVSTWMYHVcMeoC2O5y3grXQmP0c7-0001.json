@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1klrvOVSTWMYHVcMeoC2O5y3grXQmP0c7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AXaixzKZbW4FPPgLWvXqAa8qD8GoWsQA",
+      "parent_id": "1klrvOVSTWMYHVcMeoC2O5y3grXQmP0c7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4600,
+      "modified": "2026-08-15T03:47:54.000Z",
+      "checksum": "7ee863b3dd53dabdbc7c746638f448e4",
+      "folder": false
+    },
+    {
+      "id": "14_Mu7a5Qnqj4L5KKE92kZknUBkEYFLaJ",
+      "parent_id": "1klrvOVSTWMYHVcMeoC2O5y3grXQmP0c7",
+      "name": "NỀN TẢNG ĐẠO ĐỨC (SONG NGỮ).epub",
+      "mime": "application/epub+zip",
+      "size": 391645,
+      "modified": "2026-08-15T03:48:00.000Z",
+      "checksum": "c359811482ed2e26ae7fdb39de8593dc",
+      "folder": false
+    },
+    {
+      "id": "1eO7et15YVUQ2o89RSlu9GBMEe1ttDwIi",
+      "parent_id": "1klrvOVSTWMYHVcMeoC2O5y3grXQmP0c7",
+      "name": "NỀN TẢNG ĐẠO ĐỨC (SONG NGỮ).pdf",
+      "mime": "application/pdf",
+      "size": 547242,
+      "modified": "2026-08-15T03:47:57.000Z",
+      "checksum": "8a06c416ae90bfa28ef23b21dd2051ec",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dxm1CdycQHt61MrLWjatb1cnanLWjXHl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mIcb7Q4uAI6jRGDH8L-XkvAoG6yN6zOB",
+      "parent_id": "1dxm1CdycQHt61MrLWjatb1cnanLWjXHl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3284,
+      "modified": "2026-08-16T03:57:51.000Z",
+      "checksum": "1b2b1d6a0ba574632b8dda4a2b63452c",
+      "folder": false
+    },
+    {
+      "id": "1I4Ahu1b_l307zPBBkcX2TmXGPNZVY93a",
+      "parent_id": "1dxm1CdycQHt61MrLWjatb1cnanLWjXHl",
+      "name": "THIÊN TỎA.epub",
+      "mime": "application/epub+zip",
+      "size": 827071,
+      "modified": "2026-08-16T03:58:00.000Z",
+      "checksum": "c84e6eea6644acfd9a413de56a2c716b",
+      "folder": false
+    },
+    {
+      "id": "1bNSGJtFwwOzIWVdRSt_dzYeUj8vPQpgn",
+      "parent_id": "1dxm1CdycQHt61MrLWjatb1cnanLWjXHl",
+      "name": "THIÊN TỎA.pdf",
+      "mime": "application/pdf",
+      "size": 2120536,
+      "modified": "2026-08-16T03:57:58.000Z",
+      "checksum": "01ebb312df7824dbafb7bc00ddee0951",
+      "folder": false
+    }
+  ]
+}

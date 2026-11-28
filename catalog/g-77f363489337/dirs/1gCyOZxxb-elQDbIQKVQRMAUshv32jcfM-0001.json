@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gCyOZxxb-elQDbIQKVQRMAUshv32jcfM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1E7B6pMasVqmpW1vlW7yAhXI4iCxE7GjJ",
+      "parent_id": "1gCyOZxxb-elQDbIQKVQRMAUshv32jcfM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6765,
+      "modified": "2026-08-15T06:11:54.000Z",
+      "checksum": "e11dd39d993ca2be25e4192fbc51c397",
+      "folder": false
+    },
+    {
+      "id": "1-5lLiikHOKP5mr9t2N8Rfxuy_67GTy1h",
+      "parent_id": "1gCyOZxxb-elQDbIQKVQRMAUshv32jcfM",
+      "name": "SỨC MẠNH CỦA TRÍ TUỆ XÃ HỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 362414,
+      "modified": "2026-08-15T06:12:02.000Z",
+      "checksum": "3c203de77091f8589b851cac2669966a",
+      "folder": false
+    },
+    {
+      "id": "15WXGelfqP4ztTWiI2Wg64dmqnyZbSc07",
+      "parent_id": "1gCyOZxxb-elQDbIQKVQRMAUshv32jcfM",
+      "name": "SỨC MẠNH CỦA TRÍ TUỆ XÃ HỘI.pdf",
+      "mime": "application/pdf",
+      "size": 474377,
+      "modified": "2026-08-15T06:11:59.000Z",
+      "checksum": "95aaf79c343e2bc0ee76c1260c2aceb8",
+      "folder": false
+    }
+  ]
+}

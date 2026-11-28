@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yCUvfw7ohu9T9uPdj-KfGGrgTIdiwXT_",
+  "page": 1,
+  "items": [
+    {
+      "id": "13pgveVwJ_CrW-0oRpYNb_HZCipKdQHH0",
+      "parent_id": "1yCUvfw7ohu9T9uPdj-KfGGrgTIdiwXT_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1890,
+      "modified": "2026-08-16T03:08:59.000Z",
+      "checksum": "7c04176d4f3ed046d4cba60d3583383b",
+      "folder": false
+    },
+    {
+      "id": "1MgVFBPLyOChZmIrZ2o1YHlJFDH-hTUFs",
+      "parent_id": "1yCUvfw7ohu9T9uPdj-KfGGrgTIdiwXT_",
+      "name": "KHI TA MƠ QUÁ LÂU.epub",
+      "mime": "application/epub+zip",
+      "size": 638317,
+      "modified": "2026-08-16T03:09:05.000Z",
+      "checksum": "304e5deab83b7a0706d968f98d9295eb",
+      "folder": false
+    },
+    {
+      "id": "1oM1KA8YHx78fdR0osnw9t4i0blqMMuUf",
+      "parent_id": "1yCUvfw7ohu9T9uPdj-KfGGrgTIdiwXT_",
+      "name": "KHI TA MƠ QUÁ LÂU.pdf",
+      "mime": "application/pdf",
+      "size": 776452,
+      "modified": "2026-08-16T03:09:03.000Z",
+      "checksum": "2a58bca275f6f1abdd6d26b47d4c666e",
+      "folder": false
+    }
+  ]
+}

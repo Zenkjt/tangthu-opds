@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CquGw4rK5ResRJw2tqEzebBPUelhlqjZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "14gL_IK-8yHpWUbuSodybrN-oXJFd4pXi",
+      "parent_id": "1CquGw4rK5ResRJw2tqEzebBPUelhlqjZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 291,
+      "modified": "2026-08-16T04:02:15.000Z",
+      "checksum": "b864ea7593f9b9953324ce2efb37d6ec",
+      "folder": false
+    },
+    {
+      "id": "1-gEcftMeKHlqLze8yFH4A0z7ztWoavQT",
+      "parent_id": "1CquGw4rK5ResRJw2tqEzebBPUelhlqjZ",
+      "name": "TÀ DƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 483221,
+      "modified": "2026-08-16T04:02:21.000Z",
+      "checksum": "4332986d2a26520592f688d4f4c1f46a",
+      "folder": false
+    },
+    {
+      "id": "1zVdOv5P1kGmFm9uXi0Tk5JGMm9gPWDGg",
+      "parent_id": "1CquGw4rK5ResRJw2tqEzebBPUelhlqjZ",
+      "name": "TÀ DƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1240514,
+      "modified": "2026-08-16T04:02:18.000Z",
+      "checksum": "cfb6c2170b8c9dcad20d5084894a7163",
+      "folder": false
+    }
+  ]
+}

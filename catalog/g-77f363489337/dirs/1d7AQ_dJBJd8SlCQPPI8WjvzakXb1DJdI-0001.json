@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d7AQ_dJBJd8SlCQPPI8WjvzakXb1DJdI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JBq2gEDe3kzQZPH1EZdVel9HZF1IK6di",
+      "parent_id": "1d7AQ_dJBJd8SlCQPPI8WjvzakXb1DJdI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2243,
+      "modified": "2026-08-15T03:19:44.000Z",
+      "checksum": "59a6b48c7dd3908f7d578cad1ca83cce",
+      "folder": false
+    },
+    {
+      "id": "1sZPDpbGU1OerEXo3lR-Ks6T-DfcIqwZ2",
+      "parent_id": "1d7AQ_dJBJd8SlCQPPI8WjvzakXb1DJdI",
+      "name": "LUẬN VỀ YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 583689,
+      "modified": "2026-08-15T03:19:51.000Z",
+      "checksum": "a5fb40de8291f7c9424557c94c5d6b19",
+      "folder": false
+    },
+    {
+      "id": "1AusJNGlzqzmCDv7UZt6T4j5hClbFhaWr",
+      "parent_id": "1d7AQ_dJBJd8SlCQPPI8WjvzakXb1DJdI",
+      "name": "LUẬN VỀ YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1006786,
+      "modified": "2026-08-15T03:19:49.000Z",
+      "checksum": "f7af2454a4d5d0f99a138ab54c45631d",
+      "folder": false
+    }
+  ]
+}

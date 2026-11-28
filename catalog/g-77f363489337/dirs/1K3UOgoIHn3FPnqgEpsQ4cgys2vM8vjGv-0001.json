@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1K3UOgoIHn3FPnqgEpsQ4cgys2vM8vjGv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FAOF8dG4KFoXiZpzLrNoRGxDLvbdqQ84",
+      "parent_id": "1K3UOgoIHn3FPnqgEpsQ4cgys2vM8vjGv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 911,
+      "modified": "2026-08-15T04:24:34.000Z",
+      "checksum": "56061183df80075374a215f2d5f1c560",
+      "folder": false
+    },
+    {
+      "id": "1_QQobu4jWR-gJhRieaMjNHM5kajZ0zS_",
+      "parent_id": "1K3UOgoIHn3FPnqgEpsQ4cgys2vM8vjGv",
+      "name": "HUYỀN THOẠI MẠN ĐÀ LA.epub",
+      "mime": "application/epub+zip",
+      "size": 229354,
+      "modified": "2026-08-15T04:24:39.000Z",
+      "checksum": "3e651b3af5e10509b164aa4135f74d14",
+      "folder": false
+    },
+    {
+      "id": "1QlSzDBkawEoSJkA7qiU3PPivi1dLnwTz",
+      "parent_id": "1K3UOgoIHn3FPnqgEpsQ4cgys2vM8vjGv",
+      "name": "HUYỀN THOẠI MẠN ĐÀ LA.pdf",
+      "mime": "application/pdf",
+      "size": 78995,
+      "modified": "2026-08-15T04:24:37.000Z",
+      "checksum": "d1f00854d5eb46f9b82d6abec5f413c3",
+      "folder": false
+    }
+  ]
+}

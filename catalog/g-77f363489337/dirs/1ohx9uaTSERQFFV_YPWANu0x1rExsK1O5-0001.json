@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ohx9uaTSERQFFV_YPWANu0x1rExsK1O5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pqTVO2nynCOcQGlsrGxTyNV0mC9kPbqf",
+      "parent_id": "1ohx9uaTSERQFFV_YPWANu0x1rExsK1O5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4106,
+      "modified": "2026-08-15T07:49:08.000Z",
+      "checksum": "e6cff0ac5040d1fd7b973b36da82797f",
+      "folder": false
+    },
+    {
+      "id": "1oXVHsY9ICdyMlkTCWMs2tqabOXAtuoWN",
+      "parent_id": "1ohx9uaTSERQFFV_YPWANu0x1rExsK1O5",
+      "name": "LỄ TÌNH NHÂN ĐẪM MÁU.epub",
+      "mime": "application/epub+zip",
+      "size": 809938,
+      "modified": "2026-08-15T07:49:30.000Z",
+      "checksum": "51e13c655075b9942de9a702565c6137",
+      "folder": false
+    },
+    {
+      "id": "1McvfC5TJLxCOtqivN9tWBB4FPtpuZuU1",
+      "parent_id": "1ohx9uaTSERQFFV_YPWANu0x1rExsK1O5",
+      "name": "LỄ TÌNH NHÂN ĐẪM MÁU.pdf",
+      "mime": "application/pdf",
+      "size": 1639078,
+      "modified": "2026-08-15T07:49:22.000Z",
+      "checksum": "3c247380886b8fa120a3550d1278064f",
+      "folder": false
+    }
+  ]
+}

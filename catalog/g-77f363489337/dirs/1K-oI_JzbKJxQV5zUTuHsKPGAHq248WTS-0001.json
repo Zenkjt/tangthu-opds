@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1K-oI_JzbKJxQV5zUTuHsKPGAHq248WTS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1F4X-KjxSb4ASLcTNkyMV8cf-3eY_NhGc",
+      "parent_id": "1K-oI_JzbKJxQV5zUTuHsKPGAHq248WTS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10395,
+      "modified": "2026-08-15T09:50:36.000Z",
+      "checksum": "8b71c2e5217185d769077806eddd5c26",
+      "folder": false
+    },
+    {
+      "id": "1IB7HCsnIKTPPiey_YoSXdDKkTg1nE4v9",
+      "parent_id": "1K-oI_JzbKJxQV5zUTuHsKPGAHq248WTS",
+      "name": "ĐỒNG XU NHUỐM MÁU.epub",
+      "mime": "application/epub+zip",
+      "size": 338735,
+      "modified": "2026-08-15T09:50:42.000Z",
+      "checksum": "266cf0eaa5348b67c2599e8ec19c77e2",
+      "folder": false
+    },
+    {
+      "id": "17Zhqn4PGtlPdRYQtLYZDEHNUP_dduA8P",
+      "parent_id": "1K-oI_JzbKJxQV5zUTuHsKPGAHq248WTS",
+      "name": "ĐỒNG XU NHUỐM MÁU.pdf",
+      "mime": "application/pdf",
+      "size": 386923,
+      "modified": "2026-08-15T09:50:39.000Z",
+      "checksum": "d83c4cac9ea816a0ca39e711cc1ea449",
+      "folder": false
+    }
+  ]
+}

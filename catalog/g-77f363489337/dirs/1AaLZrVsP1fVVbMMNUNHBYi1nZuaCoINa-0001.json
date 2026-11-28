@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AaLZrVsP1fVVbMMNUNHBYi1nZuaCoINa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zbEdxXSELxYnXWcvG7Dn74IaPM5pKKbl",
+      "parent_id": "1AaLZrVsP1fVVbMMNUNHBYi1nZuaCoINa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11309,
+      "modified": "2026-08-15T03:45:51.000Z",
+      "checksum": "63242daefbd77a282b786a55df6d1bd2",
+      "folder": false
+    },
+    {
+      "id": "1xF8nrC3F4Nlgg6pnek8l8pqCzBNEZmnk",
+      "parent_id": "1AaLZrVsP1fVVbMMNUNHBYi1nZuaCoINa",
+      "name": "TƯƠNG LAI THIỀN HỌC VIỆT NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 186441,
+      "modified": "2026-08-15T03:45:57.000Z",
+      "checksum": "f71e8459540c683812295da3c9fee078",
+      "folder": false
+    },
+    {
+      "id": "1QZvWdHqPIgp1Pcna2XTmm-kT3FEaGZ_X",
+      "parent_id": "1AaLZrVsP1fVVbMMNUNHBYi1nZuaCoINa",
+      "name": "TƯƠNG LAI THIỀN HỌC VIỆT NAM.pdf",
+      "mime": "application/pdf",
+      "size": 345096,
+      "modified": "2026-08-15T03:45:54.000Z",
+      "checksum": "930afef0c037dac4d7c47728e9310924",
+      "folder": false
+    }
+  ]
+}

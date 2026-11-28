@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HiVsfJRNHIR48gLZaTSQBH72Tx-cn5hp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HugpJRFLtCf9YccvTk_gvBdzNVaIxSJr",
+      "parent_id": "1HiVsfJRNHIR48gLZaTSQBH72Tx-cn5hp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3047,
+      "modified": "2026-08-15T03:18:35.000Z",
+      "checksum": "72723e6f0017a2f864c0c24f851a50a6",
+      "folder": false
+    },
+    {
+      "id": "1aSSxGLkao9aU4NiOXj1aMj-bsh_4QcTS",
+      "parent_id": "1HiVsfJRNHIR48gLZaTSQBH72Tx-cn5hp",
+      "name": "NGUY CƠ.epub",
+      "mime": "application/epub+zip",
+      "size": 518164,
+      "modified": "2026-08-15T03:18:43.000Z",
+      "checksum": "0d03d025065902f7691a9d1a42cf3c04",
+      "folder": false
+    },
+    {
+      "id": "1GQKbuFE4jVZmkNNggtCYhrfQu_9ax3yr",
+      "parent_id": "1HiVsfJRNHIR48gLZaTSQBH72Tx-cn5hp",
+      "name": "NGUY CƠ.pdf",
+      "mime": "application/pdf",
+      "size": 2393481,
+      "modified": "2026-08-15T03:18:40.000Z",
+      "checksum": "fe80edcdd0c7c2a32ab6b32356aa2481",
+      "folder": false
+    }
+  ]
+}

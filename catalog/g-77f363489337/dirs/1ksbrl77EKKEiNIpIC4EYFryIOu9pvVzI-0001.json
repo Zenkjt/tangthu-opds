@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ksbrl77EKKEiNIpIC4EYFryIOu9pvVzI",
+  "page": 1,
+  "items": [
+    {
+      "id": "101gzvcbu4ddYghyXWYOIrimMCWXq5xME",
+      "parent_id": "1ksbrl77EKKEiNIpIC4EYFryIOu9pvVzI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 781,
+      "modified": "2026-08-16T03:52:45.000Z",
+      "checksum": "7d1d721b6d5c4c1291a556b46b2e7fbb",
+      "folder": false
+    },
+    {
+      "id": "1jKckAZnhiHYkFd54RpxJHc2s4e_Bvoaw",
+      "parent_id": "1ksbrl77EKKEiNIpIC4EYFryIOu9pvVzI",
+      "name": "TRĂNG HUYẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 1461379,
+      "modified": "2026-08-16T03:52:57.000Z",
+      "checksum": "c6b830b39d200a2a74351757efefdc04",
+      "folder": false
+    },
+    {
+      "id": "1eIkVNfAQ31sp-hSeSy_s5XuhN8RQKKC0",
+      "parent_id": "1ksbrl77EKKEiNIpIC4EYFryIOu9pvVzI",
+      "name": "TRĂNG HUYẾT.pdf",
+      "mime": "application/pdf",
+      "size": 5093112,
+      "modified": "2026-08-16T03:52:55.000Z",
+      "checksum": "c429e9c607f1b6ff380284afa7653a1d",
+      "folder": false
+    }
+  ]
+}

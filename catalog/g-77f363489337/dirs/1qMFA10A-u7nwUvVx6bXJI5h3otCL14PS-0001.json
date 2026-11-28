@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qMFA10A-u7nwUvVx6bXJI5h3otCL14PS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zzCX0Zi3RxYSuhhnGaNxOLZrC3XUF1aL",
+      "parent_id": "1qMFA10A-u7nwUvVx6bXJI5h3otCL14PS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1575,
+      "modified": "2026-08-15T06:16:11.000Z",
+      "checksum": "fddfadbb43dfc1f12edc7c772b2fed5c",
+      "folder": false
+    },
+    {
+      "id": "1gebhoi3YxR2QqV4eL0b5etgwBIzXLRkD",
+      "parent_id": "1qMFA10A-u7nwUvVx6bXJI5h3otCL14PS",
+      "name": "NẾP CŨ - TIẾT THÁO MỘT THỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 6512674,
+      "modified": "2026-08-15T06:16:18.000Z",
+      "checksum": "247e5e5982826446c6bfa15356993e60",
+      "folder": false
+    },
+    {
+      "id": "1PdpYAAmkhaf_3teoIMIFWF5KV-2HX2UN",
+      "parent_id": "1qMFA10A-u7nwUvVx6bXJI5h3otCL14PS",
+      "name": "NẾP CŨ - TIẾT THÁO MỘT THỜI.pdf",
+      "mime": "application/pdf",
+      "size": 1749590,
+      "modified": "2026-08-15T06:16:15.000Z",
+      "checksum": "7793c1ba3897adfc10cfca726a9fdfd0",
+      "folder": false
+    }
+  ]
+}

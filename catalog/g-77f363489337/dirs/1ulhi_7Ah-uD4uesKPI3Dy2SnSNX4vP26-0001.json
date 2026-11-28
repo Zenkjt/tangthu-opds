@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ulhi_7Ah-uD4uesKPI3Dy2SnSNX4vP26",
+  "page": 1,
+  "items": [
+    {
+      "id": "12YuLzJYSWJLve0Me_nHcQn_Sk2YetI8J",
+      "parent_id": "1ulhi_7Ah-uD4uesKPI3Dy2SnSNX4vP26",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 606,
+      "modified": "2026-08-16T04:17:50.000Z",
+      "checksum": "5dd39f57d090b9abdd69135e3d526f28",
+      "folder": false
+    },
+    {
+      "id": "19onnPQkoR8YiEyvq-b6bT0rsynKVOfaA",
+      "parent_id": "1ulhi_7Ah-uD4uesKPI3Dy2SnSNX4vP26",
+      "name": "MỘT ĐỜI CÓ NHAU.epub",
+      "mime": "application/epub+zip",
+      "size": 223769,
+      "modified": "2026-08-16T04:17:56.000Z",
+      "checksum": "25af8320ffd4a83ff71e0c3875e7803d",
+      "folder": false
+    },
+    {
+      "id": "1jVMJ8Sgv_IpaiXMtrbRwKdvO1WoErOmd",
+      "parent_id": "1ulhi_7Ah-uD4uesKPI3Dy2SnSNX4vP26",
+      "name": "MỘT ĐỜI CÓ NHAU.pdf",
+      "mime": "application/pdf",
+      "size": 619262,
+      "modified": "2026-08-16T04:17:54.000Z",
+      "checksum": "31eb19ee2a194ab3386de885fce8d7c7",
+      "folder": false
+    }
+  ]
+}

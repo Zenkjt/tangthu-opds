@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "156RABRErAE_hCkivwq9vymUw-QHtac3c",
+  "page": 1,
+  "items": [
+    {
+      "id": "12foSoS3fCpoGuZkopxHHO0Q989fnylQH",
+      "parent_id": "156RABRErAE_hCkivwq9vymUw-QHtac3c",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3306,
+      "modified": "2026-08-15T03:17:14.000Z",
+      "checksum": "15f43d5c72d70791517e2d7c32cb7800",
+      "folder": false
+    },
+    {
+      "id": "1skaRJ6HntMdSW-NCrO178q4OFNGgInCg",
+      "parent_id": "156RABRErAE_hCkivwq9vymUw-QHtac3c",
+      "name": "HỌC CÁCH TIÊU TIỀN.epub",
+      "mime": "application/epub+zip",
+      "size": 684979,
+      "modified": "2026-08-15T03:17:21.000Z",
+      "checksum": "087c4a627100ce2c89763f7463bf2552",
+      "folder": false
+    },
+    {
+      "id": "13c4M_EVxFmy47lJYkHQs4vo9oDokbflO",
+      "parent_id": "156RABRErAE_hCkivwq9vymUw-QHtac3c",
+      "name": "HỌC CÁCH TIÊU TIỀN.pdf",
+      "mime": "application/pdf",
+      "size": 1121440,
+      "modified": "2026-08-15T03:17:18.000Z",
+      "checksum": "6098570c7fd2a02bb3d73424f7a993d3",
+      "folder": false
+    }
+  ]
+}

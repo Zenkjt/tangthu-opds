@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1R6mYp633EIu5XGXJak17IYPLLM9n-9RV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yG4QiPsTydnCP2CvVAYvgslGqMsPBElr",
+      "parent_id": "1R6mYp633EIu5XGXJak17IYPLLM9n-9RV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4280,
+      "modified": "2026-08-15T01:01:18.000Z",
+      "checksum": "3aa2ce251417073b03bcd0e5e9c4bfff",
+      "folder": false
+    },
+    {
+      "id": "1KZpSAxXP6kL6rPxQgLSb0BJ7pWyTd0CC",
+      "parent_id": "1R6mYp633EIu5XGXJak17IYPLLM9n-9RV",
+      "name": "NGHỆ THUẬT NÓI NHỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 374949,
+      "modified": "2026-08-15T01:01:25.000Z",
+      "checksum": "9581dd9f8becbf17cdad076a0953f3e6",
+      "folder": false
+    },
+    {
+      "id": "1DR0jeF50lsibUjTIuLluFVhYGdr8372y",
+      "parent_id": "1R6mYp633EIu5XGXJak17IYPLLM9n-9RV",
+      "name": "NGHỆ THUẬT NÓI NHỎ.pdf",
+      "mime": "application/pdf",
+      "size": 793363,
+      "modified": "2026-08-15T01:01:23.000Z",
+      "checksum": "cdc7d5df45b56bebb4beb0bcf974633e",
+      "folder": false
+    }
+  ]
+}

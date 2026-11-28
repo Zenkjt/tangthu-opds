@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RsJCAb_0LyMaLCZu7xyetxcWITgbmuR9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fKJEt0mnjrjGEKXruEIk3ZApujhA_unj",
+      "parent_id": "1RsJCAb_0LyMaLCZu7xyetxcWITgbmuR9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7866,
+      "modified": "2026-08-15T05:42:33.000Z",
+      "checksum": "eb84c7478a6d1ca0190e558c89e0ecd8",
+      "folder": false
+    },
+    {
+      "id": "1UI9G1ctYuT0c_3T9b-g2Jdqciv1WlXY4",
+      "parent_id": "1RsJCAb_0LyMaLCZu7xyetxcWITgbmuR9",
+      "name": "TỰ DO ĐẦU TIÊN VÀ CUỐI CÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 480742,
+      "modified": "2026-08-15T05:42:40.000Z",
+      "checksum": "37485fe08e1f853a5e9fb6afbe4111eb",
+      "folder": false
+    },
+    {
+      "id": "1AI54I6snOSIOy6F8tGDzag-nOYxxFskA",
+      "parent_id": "1RsJCAb_0LyMaLCZu7xyetxcWITgbmuR9",
+      "name": "TỰ DO ĐẦU TIÊN VÀ CUỐI CÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 1580439,
+      "modified": "2026-08-15T05:42:37.000Z",
+      "checksum": "baa245205f273ed04741e70e1d724f3c",
+      "folder": false
+    }
+  ]
+}

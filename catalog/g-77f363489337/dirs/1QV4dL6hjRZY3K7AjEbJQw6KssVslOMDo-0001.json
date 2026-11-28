@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QV4dL6hjRZY3K7AjEbJQw6KssVslOMDo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HSrKWoM82aBZucCb5QZYSOYqfTRA_62r",
+      "parent_id": "1QV4dL6hjRZY3K7AjEbJQw6KssVslOMDo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2806,
+      "modified": "2026-08-16T03:51:06.000Z",
+      "checksum": "384225ca29a7e6c2e95c7b19076170e1",
+      "folder": false
+    },
+    {
+      "id": "1FHb7d4N76d7tgBosVx8XjI8Fc1RnzOi5",
+      "parent_id": "1QV4dL6hjRZY3K7AjEbJQw6KssVslOMDo",
+      "name": "YÊU CON MA.epub",
+      "mime": "application/epub+zip",
+      "size": 455394,
+      "modified": "2026-08-16T03:51:13.000Z",
+      "checksum": "26f545c899e72344b531775bca224915",
+      "folder": false
+    },
+    {
+      "id": "1-XapoPr5tHNGZDYTN1pvLiZ_gu39VY3P",
+      "parent_id": "1QV4dL6hjRZY3K7AjEbJQw6KssVslOMDo",
+      "name": "YÊU CON MA.pdf",
+      "mime": "application/pdf",
+      "size": 1158145,
+      "modified": "2026-08-16T03:51:10.000Z",
+      "checksum": "86203bdda58ed470bbb7317431f8cf54",
+      "folder": false
+    }
+  ]
+}

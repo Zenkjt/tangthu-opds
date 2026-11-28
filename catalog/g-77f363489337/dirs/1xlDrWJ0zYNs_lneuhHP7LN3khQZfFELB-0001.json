@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xlDrWJ0zYNs_lneuhHP7LN3khQZfFELB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IUTdCrsCC0npmZ09h2aOcUw4CULIF0PV",
+      "parent_id": "1xlDrWJ0zYNs_lneuhHP7LN3khQZfFELB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7090,
+      "modified": "2026-08-15T07:42:26.000Z",
+      "checksum": "e5b1bcc5844337b2f9957f8279c90681",
+      "folder": false
+    },
+    {
+      "id": "10MaqCehiEz75F_PorzdcsxD0T_SVjJ6S",
+      "parent_id": "1xlDrWJ0zYNs_lneuhHP7LN3khQZfFELB",
+      "name": "MỘNG DỤC.epub",
+      "mime": "application/epub+zip",
+      "size": 401009,
+      "modified": "2026-08-15T07:42:33.000Z",
+      "checksum": "ac7a58f44bad0f15474bc379bbbe9f6c",
+      "folder": false
+    },
+    {
+      "id": "1_yY9HtNxsayFn9Q8IdfNho--U82PrD3U",
+      "parent_id": "1xlDrWJ0zYNs_lneuhHP7LN3khQZfFELB",
+      "name": "MỘNG DỤC.pdf",
+      "mime": "application/pdf",
+      "size": 1070192,
+      "modified": "2026-08-15T07:42:31.000Z",
+      "checksum": "77847b61c00f5456fdfdf9e218086c6e",
+      "folder": false
+    }
+  ]
+}

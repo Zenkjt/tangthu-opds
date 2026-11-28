@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WiylUH9chhA3HkNJdvvAwJsw3zcaqGN1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ztAonJzQBciUyf82NfjNI91hSUYdOcr4",
+      "parent_id": "1WiylUH9chhA3HkNJdvvAwJsw3zcaqGN1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2426,
+      "modified": "2026-08-15T06:12:23.000Z",
+      "checksum": "dbae88a79dd90d6ec2dd022b2ba47da8",
+      "folder": false
+    },
+    {
+      "id": "1xxb-jokgbdog3mpSjnyiZ_vLqubz-jW_",
+      "parent_id": "1WiylUH9chhA3HkNJdvvAwJsw3zcaqGN1",
+      "name": "LUẬT ĐỜI VÀ CHA CON.epub",
+      "mime": "application/epub+zip",
+      "size": 608460,
+      "modified": "2026-08-15T06:12:31.000Z",
+      "checksum": "5320c888669cecfa5a6ff56ad6ae7105",
+      "folder": false
+    },
+    {
+      "id": "1wb7dZjiQkn8gCueuuIASf2qS_b9rInYD",
+      "parent_id": "1WiylUH9chhA3HkNJdvvAwJsw3zcaqGN1",
+      "name": "LUẬT ĐỜI VÀ CHA CON.pdf",
+      "mime": "application/pdf",
+      "size": 1355713,
+      "modified": "2026-08-15T06:12:29.000Z",
+      "checksum": "5fcdadf0330391203a6ce9326abc2636",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1F31DBCCK0T5LQxqUqD_V4UNqxCQ80Rc4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lI4u3Jigqu3FzqrtmXMOe3D7ZcxFyhfF",
+      "parent_id": "1F31DBCCK0T5LQxqUqD_V4UNqxCQ80Rc4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5610,
+      "modified": "2026-08-15T05:48:06.000Z",
+      "checksum": "fd46cbe879800c9696f6f9442c681f06",
+      "folder": false
+    },
+    {
+      "id": "1YbQ6c1FlKaYhy9FcgmqDU25jilKUUHOf",
+      "parent_id": "1F31DBCCK0T5LQxqUqD_V4UNqxCQ80Rc4",
+      "name": "ĐƯỜNG, TỐNG BÁT ĐẠI GIA.epub",
+      "mime": "application/epub+zip",
+      "size": 750986,
+      "modified": "2026-08-15T05:48:15.000Z",
+      "checksum": "3886e835d81b7464fd0f1c2613b53abe",
+      "folder": false
+    },
+    {
+      "id": "1E2tJdyXnvP8jU5x6tMU8MDl_vcl2eKuW",
+      "parent_id": "1F31DBCCK0T5LQxqUqD_V4UNqxCQ80Rc4",
+      "name": "ĐƯỜNG, TỐNG BÁT ĐẠI GIA.pdf",
+      "mime": "application/pdf",
+      "size": 3334876,
+      "modified": "2026-08-15T05:48:12.000Z",
+      "checksum": "c696173eee79a54258be0771215ffe77",
+      "folder": false
+    }
+  ]
+}

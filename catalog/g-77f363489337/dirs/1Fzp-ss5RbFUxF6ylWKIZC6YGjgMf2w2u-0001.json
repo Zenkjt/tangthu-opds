@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Fzp-ss5RbFUxF6ylWKIZC6YGjgMf2w2u",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ORBGJVg5OsSp9dtrkRjkpGPoceg_ZU3m",
+      "parent_id": "1Fzp-ss5RbFUxF6ylWKIZC6YGjgMf2w2u",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 477,
+      "modified": "2026-08-15T01:01:34.000Z",
+      "checksum": "292363195507b5296463079649737cb9",
+      "folder": false
+    },
+    {
+      "id": "1aS-InnVw78dAd8jJPIs4gH_n4psHQOB7",
+      "parent_id": "1Fzp-ss5RbFUxF6ylWKIZC6YGjgMf2w2u",
+      "name": "HỌC LÀM NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 236151,
+      "modified": "2026-08-15T01:01:41.000Z",
+      "checksum": "b2128a854137b3db97e4b177172684b9",
+      "folder": false
+    },
+    {
+      "id": "1Sae4x69oeqD3p4rdvxQhuWKF4gHg9iqv",
+      "parent_id": "1Fzp-ss5RbFUxF6ylWKIZC6YGjgMf2w2u",
+      "name": "HỌC LÀM NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 182629,
+      "modified": "2026-08-15T01:01:38.000Z",
+      "checksum": "066d4c74e3259328cdb74d16bd546ca3",
+      "folder": false
+    }
+  ]
+}

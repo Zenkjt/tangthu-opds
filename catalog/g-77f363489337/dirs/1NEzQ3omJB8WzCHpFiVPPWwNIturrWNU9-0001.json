@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NEzQ3omJB8WzCHpFiVPPWwNIturrWNU9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lQYbOEIqiTFJTl7Jr9vAwfvqMko-2I70",
+      "parent_id": "1NEzQ3omJB8WzCHpFiVPPWwNIturrWNU9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4605,
+      "modified": "2026-08-15T07:07:59.000Z",
+      "checksum": "5ef327ecc058578243af09cb65b6a3f1",
+      "folder": false
+    },
+    {
+      "id": "1vEUvNHS4AfEM6FGbnp6ZUVHv354dy7C0",
+      "parent_id": "1NEzQ3omJB8WzCHpFiVPPWwNIturrWNU9",
+      "name": "Ý CAO TÌNH ĐẸP.epub",
+      "mime": "application/epub+zip",
+      "size": 92604,
+      "modified": "2026-08-15T07:08:05.000Z",
+      "checksum": "1e19225b5753d2d567450a06de9dd5a7",
+      "folder": false
+    },
+    {
+      "id": "1fMvna2cXa41I4WUoDK8KpW4i7qhwlYtl",
+      "parent_id": "1NEzQ3omJB8WzCHpFiVPPWwNIturrWNU9",
+      "name": "Ý CAO TÌNH ĐẸP.pdf",
+      "mime": "application/pdf",
+      "size": 112541,
+      "modified": "2026-08-15T07:08:02.000Z",
+      "checksum": "5afb319908fb4d2a1fa412f6a89db81e",
+      "folder": false
+    }
+  ]
+}

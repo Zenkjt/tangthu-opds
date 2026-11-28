@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wxH-3nZLDihCa2lLi7YNNdeR9gcknZyV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NplNrgtgRubCBEakDMplifdavETYMufZ",
+      "parent_id": "1wxH-3nZLDihCa2lLi7YNNdeR9gcknZyV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1607,
+      "modified": "2026-08-15T09:36:09.000Z",
+      "checksum": "785717292d4c350113e34d68e56340bc",
+      "folder": false
+    },
+    {
+      "id": "1aCaGXZrYz3DGaakd4G4PGbTJ0BgsIFLB",
+      "parent_id": "1wxH-3nZLDihCa2lLi7YNNdeR9gcknZyV",
+      "name": "MỘT MÌNH Ở CHÂU ÂU.epub",
+      "mime": "application/epub+zip",
+      "size": 1184001,
+      "modified": "2026-08-15T09:36:20.000Z",
+      "checksum": "215423cf52b5c72f943d64137e3f4a41",
+      "folder": false
+    },
+    {
+      "id": "1GrQ99dvGvEbv2CiODQSL2QPE-xBIZKjl",
+      "parent_id": "1wxH-3nZLDihCa2lLi7YNNdeR9gcknZyV",
+      "name": "MỘT MÌNH Ở CHÂU ÂU.pdf",
+      "mime": "application/pdf",
+      "size": 1679599,
+      "modified": "2026-08-15T09:36:16.000Z",
+      "checksum": "e049d42fa26ad5fc1d8c091c2d7d952e",
+      "folder": false
+    }
+  ]
+}

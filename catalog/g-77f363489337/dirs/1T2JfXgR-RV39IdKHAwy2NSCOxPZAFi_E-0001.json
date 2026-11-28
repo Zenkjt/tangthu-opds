@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1T2JfXgR-RV39IdKHAwy2NSCOxPZAFi_E",
+  "page": 1,
+  "items": [
+    {
+      "id": "1x0wsr6sm2tIIr2hKTRD4x-eXgxIvPFYT",
+      "parent_id": "1T2JfXgR-RV39IdKHAwy2NSCOxPZAFi_E",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5130,
+      "modified": "2026-08-15T15:17:00.000Z",
+      "checksum": "ed3d48ac8c97e39831f62e3b8514169b",
+      "folder": false
+    },
+    {
+      "id": "18qUxoLbHZ03YUpeDOSJ04x7tbo8WLJUM",
+      "parent_id": "1T2JfXgR-RV39IdKHAwy2NSCOxPZAFi_E",
+      "name": "KẺ THÙ BÍ MẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 545082,
+      "modified": "2026-08-15T15:17:09.000Z",
+      "checksum": "4a6fe88fdaaab7991f4376fe090f9953",
+      "folder": false
+    },
+    {
+      "id": "1khKj4G_WYVz5TpVuz6xnK4i33sNFMSrm",
+      "parent_id": "1T2JfXgR-RV39IdKHAwy2NSCOxPZAFi_E",
+      "name": "KẺ THÙ BÍ MẬT.pdf",
+      "mime": "application/pdf",
+      "size": 981882,
+      "modified": "2026-08-15T15:17:06.000Z",
+      "checksum": "49d4bb5109cf4cc704ec52f3cca4eef8",
+      "folder": false
+    }
+  ]
+}

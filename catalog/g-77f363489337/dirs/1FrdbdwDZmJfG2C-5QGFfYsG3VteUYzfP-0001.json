@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FrdbdwDZmJfG2C-5QGFfYsG3VteUYzfP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KUqLDgSE5JwPBFIMsebzDs5AMBhI8Nv2",
+      "parent_id": "1FrdbdwDZmJfG2C-5QGFfYsG3VteUYzfP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1376,
+      "modified": "2026-08-15T15:15:32.000Z",
+      "checksum": "12fef235165c14791791f5a1ce06cfcf",
+      "folder": false
+    },
+    {
+      "id": "1J1BJlcg-lUAeNcCQQsrrINy9ZZke7GWo",
+      "parent_id": "1FrdbdwDZmJfG2C-5QGFfYsG3VteUYzfP",
+      "name": "ĐỒNG TRINH NGẢI.epub",
+      "mime": "application/epub+zip",
+      "size": 245245,
+      "modified": "2026-08-15T15:15:37.000Z",
+      "checksum": "583bf9c02df19bb152fc5f2a20d6fdda",
+      "folder": false
+    },
+    {
+      "id": "104g7KMhyJGawxqpsSh-sSUskfyRtqcjS",
+      "parent_id": "1FrdbdwDZmJfG2C-5QGFfYsG3VteUYzfP",
+      "name": "ĐỒNG TRINH NGẢI.pdf",
+      "mime": "application/pdf",
+      "size": 352185,
+      "modified": "2026-08-15T15:15:35.000Z",
+      "checksum": "3598b8110447fccea357554f49525ea7",
+      "folder": false
+    }
+  ]
+}

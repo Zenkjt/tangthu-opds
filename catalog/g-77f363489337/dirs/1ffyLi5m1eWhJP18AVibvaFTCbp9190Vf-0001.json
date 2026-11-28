@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ffyLi5m1eWhJP18AVibvaFTCbp9190Vf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1K2g9KtQtUxjhrDP1BqzrlXZl0cvJpA8U",
+      "parent_id": "1ffyLi5m1eWhJP18AVibvaFTCbp9190Vf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1822,
+      "modified": "2026-08-15T12:43:07.000Z",
+      "checksum": "c01b950b313670f8d2de35c5267f249c",
+      "folder": false
+    },
+    {
+      "id": "1XkclYlij85OOHglB4TWBqLttks_QcIiZ",
+      "parent_id": "1ffyLi5m1eWhJP18AVibvaFTCbp9190Vf",
+      "name": "VẬT LÝ LÝ THÚ.epub",
+      "mime": "application/epub+zip",
+      "size": 786583,
+      "modified": "2026-08-15T12:43:14.000Z",
+      "checksum": "02fcae35a42121d26ba18ff6b1846fcf",
+      "folder": false
+    },
+    {
+      "id": "1OLpQluMzAkMg1fQJGc4geN3XUMv018Qr",
+      "parent_id": "1ffyLi5m1eWhJP18AVibvaFTCbp9190Vf",
+      "name": "VẬT LÝ LÝ THÚ.pdf",
+      "mime": "application/pdf",
+      "size": 1038310,
+      "modified": "2026-08-15T12:43:11.000Z",
+      "checksum": "549073ea62a1bdae42ae3484dff2f9c0",
+      "folder": false
+    }
+  ]
+}

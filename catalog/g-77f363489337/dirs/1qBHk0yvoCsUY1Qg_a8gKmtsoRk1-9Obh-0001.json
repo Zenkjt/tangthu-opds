@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qBHk0yvoCsUY1Qg_a8gKmtsoRk1-9Obh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eX2bnbmE8btpalMEMTH9kOAElVgi5g5I",
+      "parent_id": "1qBHk0yvoCsUY1Qg_a8gKmtsoRk1-9Obh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 806,
+      "modified": "2026-08-16T04:19:11.000Z",
+      "checksum": "4ad41b63a48fe7c964290d9a8ed97a7d",
+      "folder": false
+    },
+    {
+      "id": "1Ro6KNGgfwKjwroLd4mrlPRw7sR6BoJUZ",
+      "parent_id": "1qBHk0yvoCsUY1Qg_a8gKmtsoRk1-9Obh",
+      "name": "JOHN CARTER VÀ THỐNG SOÁI HỎA TINH.epub",
+      "mime": "application/epub+zip",
+      "size": 433704,
+      "modified": "2026-08-16T04:19:18.000Z",
+      "checksum": "4eae0d3179904f77164831b5c0fc4dd4",
+      "folder": false
+    },
+    {
+      "id": "1k1EONKYDd4o7YZr2fI-7eyHfdSz7v9xW",
+      "parent_id": "1qBHk0yvoCsUY1Qg_a8gKmtsoRk1-9Obh",
+      "name": "JOHN CARTER VÀ THỐNG SOÁI HỎA TINH.pdf",
+      "mime": "application/pdf",
+      "size": 798823,
+      "modified": "2026-08-16T04:19:15.000Z",
+      "checksum": "386b338c609481b6072d6560dfa9552b",
+      "folder": false
+    }
+  ]
+}

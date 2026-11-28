@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-fbMcJAcnjtObhTob1-dACTyIH4h0a_f",
+  "page": 1,
+  "items": [
+    {
+      "id": "10TEFipLwXRgO5LuCUqNDe25b2pXvls5I",
+      "parent_id": "1-fbMcJAcnjtObhTob1-dACTyIH4h0a_f",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3148,
+      "modified": "2026-08-15T03:18:10.000Z",
+      "checksum": "32af9f6c3bd62e2887c7495c92cdf00b",
+      "folder": false
+    },
+    {
+      "id": "1sdyqEVGihX85fhhTmOt0KCsm-ULTKPTf",
+      "parent_id": "1-fbMcJAcnjtObhTob1-dACTyIH4h0a_f",
+      "name": "SÁCH CỦA NHỮNG CÂU HỎI.epub",
+      "mime": "application/epub+zip",
+      "size": 235963,
+      "modified": "2026-08-15T03:18:17.000Z",
+      "checksum": "a48a2fba329745ae1a4a0751aec351f3",
+      "folder": false
+    },
+    {
+      "id": "1bOuhfjMahsCKG3UykST1inPqjZ6C716T",
+      "parent_id": "1-fbMcJAcnjtObhTob1-dACTyIH4h0a_f",
+      "name": "SÁCH CỦA NHỮNG CÂU HỎI.pdf",
+      "mime": "application/pdf",
+      "size": 595158,
+      "modified": "2026-08-15T03:18:15.000Z",
+      "checksum": "d98298ad3007c7291d1b8027858264cd",
+      "folder": false
+    }
+  ]
+}

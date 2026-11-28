@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lusJ7-dc3pYKD22xvs5JHpyrr_lRPEqH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oimpL_ZKrCG5sxuR_KkY7Q9tgax7REBM",
+      "parent_id": "1lusJ7-dc3pYKD22xvs5JHpyrr_lRPEqH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 842,
+      "modified": "2026-08-15T12:58:59.000Z",
+      "checksum": "412ca1f1df04857f6df29de29467badf",
+      "folder": false
+    },
+    {
+      "id": "1kVbN_1EqHG1MJMpCYraCT7o0FX0AcIa1",
+      "parent_id": "1lusJ7-dc3pYKD22xvs5JHpyrr_lRPEqH",
+      "name": "PIN NGUYÊN TỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 405707,
+      "modified": "2026-08-15T12:59:19.000Z",
+      "checksum": "9f86486ab9b15065857e7cb8ebd77933",
+      "folder": false
+    },
+    {
+      "id": "1hWMU9Vj79VmBvvb9SygXGY1o2hG7JQ-E",
+      "parent_id": "1lusJ7-dc3pYKD22xvs5JHpyrr_lRPEqH",
+      "name": "PIN NGUYÊN TỬ.pdf",
+      "mime": "application/pdf",
+      "size": 533011,
+      "modified": "2026-08-15T12:59:16.000Z",
+      "checksum": "7bee4cd3226f9726b306ba83ee1a2b8f",
+      "folder": false
+    }
+  ]
+}

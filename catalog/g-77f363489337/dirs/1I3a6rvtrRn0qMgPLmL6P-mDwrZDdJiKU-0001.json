@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1I3a6rvtrRn0qMgPLmL6P-mDwrZDdJiKU",
+  "page": 1,
+  "items": [
+    {
+      "id": "11AMvzK4eKAAhjF1SrXaSTIWs_zMSjeYT",
+      "parent_id": "1I3a6rvtrRn0qMgPLmL6P-mDwrZDdJiKU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3178,
+      "modified": "2026-08-16T04:14:00.000Z",
+      "checksum": "a36b140e03332c94d74a08f82b410933",
+      "folder": false
+    },
+    {
+      "id": "1efsixKGLQQHZW3mZqM1zUosOF298cE0t",
+      "parent_id": "1I3a6rvtrRn0qMgPLmL6P-mDwrZDdJiKU",
+      "name": "NGƯỜI CÙNG THỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 382413,
+      "modified": "2026-08-16T04:14:06.000Z",
+      "checksum": "86166d9147f3bc4d16f16ea6f2ab9947",
+      "folder": false
+    },
+    {
+      "id": "1dRaDzrp3TiyURPxOrt-DLvZUShEk4EOD",
+      "parent_id": "1I3a6rvtrRn0qMgPLmL6P-mDwrZDdJiKU",
+      "name": "NGƯỜI CÙNG THỜI.pdf",
+      "mime": "application/pdf",
+      "size": 895431,
+      "modified": "2026-08-16T04:14:04.000Z",
+      "checksum": "fd91af219e1c10315495d9995929b1fb",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1q_R_Zdh9UPhG4DN-P5dTEjj6E50k93ag",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EHl_-F6mL0cJdW1IpBWxd4tYS4Frh5iM",
+      "parent_id": "1q_R_Zdh9UPhG4DN-P5dTEjj6E50k93ag",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6083,
+      "modified": "2026-08-16T02:42:53.000Z",
+      "checksum": "d26e990e3ce3a4fa70fadc9b59fce32d",
+      "folder": false
+    },
+    {
+      "id": "1cCBsghC5FsmVJFeKfHSivMy-R1IWIP3M",
+      "parent_id": "1q_R_Zdh9UPhG4DN-P5dTEjj6E50k93ag",
+      "name": "KHÔNG GIA ĐÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 721445,
+      "modified": "2026-08-16T02:43:01.000Z",
+      "checksum": "9fc5087882b2fab87b9276014745f725",
+      "folder": false
+    },
+    {
+      "id": "1q0O-8L_Ufrz9Kggsn9at7oi6ps5vWrMo",
+      "parent_id": "1q_R_Zdh9UPhG4DN-P5dTEjj6E50k93ag",
+      "name": "KHÔNG GIA ĐÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 1958863,
+      "modified": "2026-08-16T02:42:59.000Z",
+      "checksum": "f0ae1af60894b9b482ee15816fab5b9f",
+      "folder": false
+    }
+  ]
+}

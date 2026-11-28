@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DJyUjjKsEshqF8JutCVO62TRo4nzDQOw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eUkW6ceaoxmnap6Hv92JNIzQG3n53UQV",
+      "parent_id": "1DJyUjjKsEshqF8JutCVO62TRo4nzDQOw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 705,
+      "modified": "2026-08-16T03:52:13.000Z",
+      "checksum": "9c4e456304a0956cf731b629f280d57d",
+      "folder": false
+    },
+    {
+      "id": "1oGaKrAG6xHWXaIfapZDAP4DGKCVY74MI",
+      "parent_id": "1DJyUjjKsEshqF8JutCVO62TRo4nzDQOw",
+      "name": "ƯỚC MƠ.epub",
+      "mime": "application/epub+zip",
+      "size": 473539,
+      "modified": "2026-08-16T03:52:19.000Z",
+      "checksum": "3d717e64091783278191521c7c9deec2",
+      "folder": false
+    },
+    {
+      "id": "1ox4Xt9dqTc29EZ6Do6uTbUgaqY7GzpPE",
+      "parent_id": "1DJyUjjKsEshqF8JutCVO62TRo4nzDQOw",
+      "name": "ƯỚC MƠ.pdf",
+      "mime": "application/pdf",
+      "size": 1005755,
+      "modified": "2026-08-16T03:52:17.000Z",
+      "checksum": "47422de298ad779421a2b52c58c4571d",
+      "folder": false
+    }
+  ]
+}

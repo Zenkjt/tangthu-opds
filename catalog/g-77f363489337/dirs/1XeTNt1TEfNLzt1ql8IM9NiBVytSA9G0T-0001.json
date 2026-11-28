@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XeTNt1TEfNLzt1ql8IM9NiBVytSA9G0T",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eC_vD_RngcqrmZJIhrwV8F0_BaPC1yuX",
+      "parent_id": "1XeTNt1TEfNLzt1ql8IM9NiBVytSA9G0T",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2214,
+      "modified": "2026-08-15T07:45:21.000Z",
+      "checksum": "bf433aee0203326dfb46a8abb0280166",
+      "folder": false
+    },
+    {
+      "id": "1w5yXSaqt1b5ZqP8qzN8QYgnjeC6f7PFW",
+      "parent_id": "1XeTNt1TEfNLzt1ql8IM9NiBVytSA9G0T",
+      "name": "ĐẶC CÔNG HOÀNG PHI.epub",
+      "mime": "application/epub+zip",
+      "size": 8486213,
+      "modified": "2026-08-15T07:45:46.000Z",
+      "checksum": "1748c6c0ca6f2c6f26df8e542651f429",
+      "folder": false
+    },
+    {
+      "id": "1C0hVLG2fVVWq2RDyWdJNZ3PqZWg_jYg2",
+      "parent_id": "1XeTNt1TEfNLzt1ql8IM9NiBVytSA9G0T",
+      "name": "ĐẶC CÔNG HOÀNG PHI.pdf",
+      "mime": "application/pdf",
+      "size": 7866192,
+      "modified": "2026-08-15T07:45:35.000Z",
+      "checksum": "73fa99408419ea05bcced793eb5c69ab",
+      "folder": false
+    }
+  ]
+}

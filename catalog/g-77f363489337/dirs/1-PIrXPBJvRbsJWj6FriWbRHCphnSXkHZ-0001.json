@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-PIrXPBJvRbsJWj6FriWbRHCphnSXkHZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "19NvHBn-6nJhHhz6TdE-OVGjOdLTgpnLh",
+      "parent_id": "1-PIrXPBJvRbsJWj6FriWbRHCphnSXkHZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1703,
+      "modified": "2026-08-15T07:32:17.000Z",
+      "checksum": "e1ad9d05587ebd2847de18ecf68ec99a",
+      "folder": false
+    },
+    {
+      "id": "1jXbealnRuknUgY1Ne2zTFa4va6FaJ13B",
+      "parent_id": "1-PIrXPBJvRbsJWj6FriWbRHCphnSXkHZ",
+      "name": "XUYÊN VIỆT CHI PHÁO HÔI NAM XỨNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1975585,
+      "modified": "2026-08-15T07:32:41.000Z",
+      "checksum": "dfef6021bc2c4615c151ff82932e9f3a",
+      "folder": false
+    },
+    {
+      "id": "1XIswKWHDGMZeNDZCj0IO7pH1I6T_D3xA",
+      "parent_id": "1-PIrXPBJvRbsJWj6FriWbRHCphnSXkHZ",
+      "name": "XUYÊN VIỆT CHI PHÁO HÔI NAM XỨNG.pdf",
+      "mime": "application/pdf",
+      "size": 8873040,
+      "modified": "2026-08-15T07:32:36.000Z",
+      "checksum": "a2ea92e14703cbb7e2d2d53e2c1cbb58",
+      "folder": false
+    }
+  ]
+}

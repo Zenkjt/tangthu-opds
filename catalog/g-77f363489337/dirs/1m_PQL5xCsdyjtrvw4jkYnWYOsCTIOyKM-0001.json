@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1m_PQL5xCsdyjtrvw4jkYnWYOsCTIOyKM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oJ6jyKSLsISnFiFGg4_wGW5Mx7xOqJkZ",
+      "parent_id": "1m_PQL5xCsdyjtrvw4jkYnWYOsCTIOyKM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3004,
+      "modified": "2026-08-16T04:23:05.000Z",
+      "checksum": "13bebcfa9224fa35c1784bcf5de66066",
+      "folder": false
+    },
+    {
+      "id": "1APFaZ3zSMMBX4Zr6RY_FdE1C72F0zZwm",
+      "parent_id": "1m_PQL5xCsdyjtrvw4jkYnWYOsCTIOyKM",
+      "name": "HOA TUY LÍP ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 284595,
+      "modified": "2026-08-16T04:23:14.000Z",
+      "checksum": "f88f4093681c9e2db8de499ed7450b27",
+      "folder": false
+    },
+    {
+      "id": "1uANomm9sjsK3WknKqaC_NcVFPRwPd1u5",
+      "parent_id": "1m_PQL5xCsdyjtrvw4jkYnWYOsCTIOyKM",
+      "name": "HOA TUY LÍP ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 396622,
+      "modified": "2026-08-16T04:23:09.000Z",
+      "checksum": "23b4bb5c014a275a881ad1f4d8df95ed",
+      "folder": false
+    }
+  ]
+}

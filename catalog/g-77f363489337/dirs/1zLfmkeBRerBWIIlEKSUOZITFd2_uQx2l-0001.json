@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zLfmkeBRerBWIIlEKSUOZITFd2_uQx2l",
+  "page": 1,
+  "items": [
+    {
+      "id": "15tSXREswYg6LrBjqRM2W-jxsqifE-To3",
+      "parent_id": "1zLfmkeBRerBWIIlEKSUOZITFd2_uQx2l",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1022,
+      "modified": "2026-08-15T07:20:25.000Z",
+      "checksum": "5212d4fb447e726b7dc72c12edef0b99",
+      "folder": false
+    },
+    {
+      "id": "1l3TkCsXo6wSSP0U7GVIK6Nh-bVPDzJfZ",
+      "parent_id": "1zLfmkeBRerBWIIlEKSUOZITFd2_uQx2l",
+      "name": "TỔNG ĐÀI BỨC HÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 511059,
+      "modified": "2026-08-15T07:20:34.000Z",
+      "checksum": "a360a40934b52294d24561cf54f67210",
+      "folder": false
+    },
+    {
+      "id": "15O0IsLdI8qmhnl345lnZ8Nf8PmfNCKVs",
+      "parent_id": "1zLfmkeBRerBWIIlEKSUOZITFd2_uQx2l",
+      "name": "TỔNG ĐÀI BỨC HÔN.pdf",
+      "mime": "application/pdf",
+      "size": 1194602,
+      "modified": "2026-08-15T07:20:31.000Z",
+      "checksum": "0fa2f008c9105c1978ed6931e43ef785",
+      "folder": false
+    }
+  ]
+}

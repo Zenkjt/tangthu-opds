@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1t1CQRlRaOCGTGTAAd0lRlz-jWVIE1bLa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KDfB4et1Vz_JBsHOYoxFZ5IqeP_0XReK",
+      "parent_id": "1t1CQRlRaOCGTGTAAd0lRlz-jWVIE1bLa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10771,
+      "modified": "2026-08-16T03:14:13.000Z",
+      "checksum": "57b891c64c95877b4596cf19245d6a66",
+      "folder": false
+    },
+    {
+      "id": "1RJuHac1P_SRkVDJe1Z-OyA4ZOBS5wKIU",
+      "parent_id": "1t1CQRlRaOCGTGTAAd0lRlz-jWVIE1bLa",
+      "name": "ĐÊM HỒNG HOANG.epub",
+      "mime": "application/epub+zip",
+      "size": 593741,
+      "modified": "2026-08-16T03:14:21.000Z",
+      "checksum": "a7f26e43a69abd85ee2b7aff134a2f75",
+      "folder": false
+    },
+    {
+      "id": "11MM31METSVJuOftP4zXTAK1GsxZcoioC",
+      "parent_id": "1t1CQRlRaOCGTGTAAd0lRlz-jWVIE1bLa",
+      "name": "ĐÊM HỒNG HOANG.pdf",
+      "mime": "application/pdf",
+      "size": 1210199,
+      "modified": "2026-08-16T03:14:18.000Z",
+      "checksum": "d0fe0b3049024284d424e3d1cf1fdead",
+      "folder": false
+    }
+  ]
+}

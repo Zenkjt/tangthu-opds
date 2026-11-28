@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EHDQFccfRNHINBTqv1Rn3CRY6BJSmDVn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1btBHEuxf-afmEXKwzW_jsvPMgcpONnFy",
+      "parent_id": "1EHDQFccfRNHINBTqv1Rn3CRY6BJSmDVn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1188,
+      "modified": "2026-08-15T07:42:16.000Z",
+      "checksum": "5afebac6aeb11759ef3c1da2f27c8e85",
+      "folder": false
+    },
+    {
+      "id": "1sqWF2RbhWjxgNWGBhhhV6Wdwv6Ivr1ok",
+      "parent_id": "1EHDQFccfRNHINBTqv1Rn3CRY6BJSmDVn",
+      "name": "VÔ TỰ THIÊN THƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 7673720,
+      "modified": "2026-08-15T07:42:34.000Z",
+      "checksum": "d15a5cdbb2214b4d78dc7b0e760b6189",
+      "folder": false
+    },
+    {
+      "id": "1r9QiI_8x-hI1lcoBBQr4d2e0kzzZqjoz",
+      "parent_id": "1EHDQFccfRNHINBTqv1Rn3CRY6BJSmDVn",
+      "name": "VÔ TỰ THIÊN THƯ.pdf",
+      "mime": "application/pdf",
+      "size": 8555474,
+      "modified": "2026-08-15T07:42:29.000Z",
+      "checksum": "443e3c8de5fc928afdc8ebb0a6032033",
+      "folder": false
+    }
+  ]
+}

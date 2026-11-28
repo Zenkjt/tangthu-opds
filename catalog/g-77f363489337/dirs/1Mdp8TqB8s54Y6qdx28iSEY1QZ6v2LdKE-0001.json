@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Mdp8TqB8s54Y6qdx28iSEY1QZ6v2LdKE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JImZoEsheO_23tlFgj5KoHTzV6sL5O0E",
+      "parent_id": "1Mdp8TqB8s54Y6qdx28iSEY1QZ6v2LdKE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10411,
+      "modified": "2026-08-15T07:21:06.000Z",
+      "checksum": "e40b53ecca74b23c206d13e546351380",
+      "folder": false
+    },
+    {
+      "id": "1u1x2-3yXhPhub_ox1aQ5S8b03c9wNOG8",
+      "parent_id": "1Mdp8TqB8s54Y6qdx28iSEY1QZ6v2LdKE",
+      "name": "TRẦN TRỤI VỚI VĂN CHƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 746181,
+      "modified": "2026-08-15T07:21:13.000Z",
+      "checksum": "d9ea3456d29481b73184fa7172db4380",
+      "folder": false
+    },
+    {
+      "id": "1f53TXXX4ExK6qwGKLur1qMdKrM6Cdk_0",
+      "parent_id": "1Mdp8TqB8s54Y6qdx28iSEY1QZ6v2LdKE",
+      "name": "TRẦN TRỤI VỚI VĂN CHƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1745665,
+      "modified": "2026-08-15T07:21:11.000Z",
+      "checksum": "85ee83a12541cc76baa8a76d06ebf9b1",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1n104OmxXwnelCHw47daisXeI04viQDui",
+  "page": 1,
+  "items": [
+    {
+      "id": "1t6FQ6F1fPpuFlgQC764bq6YVAdQAi6BV",
+      "parent_id": "1n104OmxXwnelCHw47daisXeI04viQDui",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5943,
+      "modified": "2026-08-15T10:01:09.000Z",
+      "checksum": "492558742613fdb2004c69c0aac2f3df",
+      "folder": false
+    },
+    {
+      "id": "1ZJXUkqzmxzCS73B3fW3QPEtTfw5_GLVx",
+      "parent_id": "1n104OmxXwnelCHw47daisXeI04viQDui",
+      "name": "TÔI VÀ PARIS CÂU CHUYỆN MỘT DÒNG SÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1295658,
+      "modified": "2026-08-15T10:01:16.000Z",
+      "checksum": "d21a157cdd2ea98ba6b662fc6e861b11",
+      "folder": false
+    },
+    {
+      "id": "1xx30P7_aRdldT8H2ibJT47mGYiqnbQY0",
+      "parent_id": "1n104OmxXwnelCHw47daisXeI04viQDui",
+      "name": "TÔI VÀ PARIS CÂU CHUYỆN MỘT DÒNG SÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 1650846,
+      "modified": "2026-08-15T10:01:13.000Z",
+      "checksum": "673a8205cab06c4c2257b08ae721aaae",
+      "folder": false
+    }
+  ]
+}

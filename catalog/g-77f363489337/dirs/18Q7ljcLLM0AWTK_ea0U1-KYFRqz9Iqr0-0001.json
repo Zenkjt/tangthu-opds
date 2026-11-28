@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18Q7ljcLLM0AWTK_ea0U1-KYFRqz9Iqr0",
+  "page": 1,
+  "items": [
+    {
+      "id": "18Thp1uj43LcBIj8GVJgiQq-isGUCFJTp",
+      "parent_id": "18Q7ljcLLM0AWTK_ea0U1-KYFRqz9Iqr0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3695,
+      "modified": "2026-08-15T10:28:23.000Z",
+      "checksum": "dc9b6c195689c94d31ba27ecee929ffb",
+      "folder": false
+    },
+    {
+      "id": "17C2JtpFsmGaBR7X7IqEBFvrN87mJNgSD",
+      "parent_id": "18Q7ljcLLM0AWTK_ea0U1-KYFRqz9Iqr0",
+      "name": "SẪM VIOLET.epub",
+      "mime": "application/epub+zip",
+      "size": 343985,
+      "modified": "2026-08-15T10:28:32.000Z",
+      "checksum": "64af2392cbf53f3ae3a41f060f93fc47",
+      "folder": false
+    },
+    {
+      "id": "1JkxYgcVAIpBxFudphhdvxxjNQrGcrtA9",
+      "parent_id": "18Q7ljcLLM0AWTK_ea0U1-KYFRqz9Iqr0",
+      "name": "SẪM VIOLET.pdf",
+      "mime": "application/pdf",
+      "size": 630529,
+      "modified": "2026-08-15T10:28:29.000Z",
+      "checksum": "807ee75fc5685145f963b92a08ab0486",
+      "folder": false
+    }
+  ]
+}

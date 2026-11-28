@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tVqE2IRexqroA_0LRGSsTWOVEpO8Xhs8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ekRtyXRuInq6PXYpbWQa2yfM3ygNSIWO",
+      "parent_id": "1tVqE2IRexqroA_0LRGSsTWOVEpO8Xhs8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12973,
+      "modified": "2026-08-15T15:09:36.000Z",
+      "checksum": "1b20e945a76f5236b4cbd0fc58b563dd",
+      "folder": false
+    },
+    {
+      "id": "1zAnhOIsxOwICEdIDAOXZ_Rfllyzf4C-s",
+      "parent_id": "1tVqE2IRexqroA_0LRGSsTWOVEpO8Xhs8",
+      "name": "XUYÊN THẤM.epub",
+      "mime": "application/epub+zip",
+      "size": 358647,
+      "modified": "2026-08-15T15:10:04.000Z",
+      "checksum": "7e8aba0bb4a676ac71fdc757d8984766",
+      "folder": false
+    },
+    {
+      "id": "1WCL_O1vdGSalgC_K606jURWqOE0kZ0F8",
+      "parent_id": "1tVqE2IRexqroA_0LRGSsTWOVEpO8Xhs8",
+      "name": "XUYÊN THẤM.pdf",
+      "mime": "application/pdf",
+      "size": 730833,
+      "modified": "2026-08-15T15:10:01.000Z",
+      "checksum": "499d4f03c3f0c17c4315776904aa1e5a",
+      "folder": false
+    }
+  ]
+}

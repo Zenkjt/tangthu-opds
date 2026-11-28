@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dq2zXMPCGfYkmVw8QzG4TmymSEec4G9i",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sPdk3g5s_GxvaiMUzHb3yJ5yvxC9C8vB",
+      "parent_id": "1dq2zXMPCGfYkmVw8QzG4TmymSEec4G9i",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3982,
+      "modified": "2026-08-15T15:11:46.000Z",
+      "checksum": "f8e8c1fedd6020dc6d973dc80d09f18f",
+      "folder": false
+    },
+    {
+      "id": "1Xm4ieyiI1LVfmjW7_X2bOttZ-glZqMnt",
+      "parent_id": "1dq2zXMPCGfYkmVw8QzG4TmymSEec4G9i",
+      "name": "TRẤN BẠCH PHỤC CÓ MA.epub",
+      "mime": "application/epub+zip",
+      "size": 1457168,
+      "modified": "2026-08-15T15:14:30.000Z",
+      "checksum": "5cb63fa03e09bd70aafae8717e1f810e",
+      "folder": false
+    },
+    {
+      "id": "1_YXp4CrktBJ1CsNfnxohByFFnjc0-Gqn",
+      "parent_id": "1dq2zXMPCGfYkmVw8QzG4TmymSEec4G9i",
+      "name": "TRẤN BẠCH PHỤC CÓ MA.pdf",
+      "mime": "application/pdf",
+      "size": 4468993,
+      "modified": "2026-08-15T15:13:29.000Z",
+      "checksum": "6c549727fc07d5308d022f5e40e444eb",
+      "folder": false
+    }
+  ]
+}

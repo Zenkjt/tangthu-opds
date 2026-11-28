@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mIdd8PxIBKFzfsgT6bH5b4F0fS2MvhMZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hHW4ABaU0_pdSyt0l3XUXwK7POS4rN4J",
+      "parent_id": "1mIdd8PxIBKFzfsgT6bH5b4F0fS2MvhMZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 553,
+      "modified": "2026-08-15T13:03:01.000Z",
+      "checksum": "ff0e29689016e1ab1d1645995390fb72",
+      "folder": false
+    },
+    {
+      "id": "1NXj4h4lTldlEOBValRLqiY5LxLrxVvBh",
+      "parent_id": "1mIdd8PxIBKFzfsgT6bH5b4F0fS2MvhMZ",
+      "name": "HỌC VIỆN KHẮC NGHIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 362485,
+      "modified": "2026-08-15T13:03:07.000Z",
+      "checksum": "76a08f6693e2a2f7726481b0730186dc",
+      "folder": false
+    },
+    {
+      "id": "1rLeHEGz_6of7xXaIeJNKpgm88eVR-wOC",
+      "parent_id": "1mIdd8PxIBKFzfsgT6bH5b4F0fS2MvhMZ",
+      "name": "HỌC VIỆN KHẮC NGHIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 463075,
+      "modified": "2026-08-15T13:03:04.000Z",
+      "checksum": "e9b823cbf40d14e262f1fc7dd0f49299",
+      "folder": false
+    }
+  ]
+}

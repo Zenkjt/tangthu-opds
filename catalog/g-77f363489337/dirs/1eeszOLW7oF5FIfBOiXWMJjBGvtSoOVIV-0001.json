@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eeszOLW7oF5FIfBOiXWMJjBGvtSoOVIV",
+  "page": 1,
+  "items": [
+    {
+      "id": "16Th49u2TjTAspR99fgXhVkQadsU9QKl7",
+      "parent_id": "1eeszOLW7oF5FIfBOiXWMJjBGvtSoOVIV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6230,
+      "modified": "2026-08-15T07:26:21.000Z",
+      "checksum": "ea63afac7a9a0fa158bcac2b8be6948b",
+      "folder": false
+    },
+    {
+      "id": "1saz27WOqCnjXN2eHuPYbEWcPlRpj-7Q1",
+      "parent_id": "1eeszOLW7oF5FIfBOiXWMJjBGvtSoOVIV",
+      "name": "ÚM BA LA - HANG THUỒNG LUỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 753333,
+      "modified": "2026-08-15T07:26:27.000Z",
+      "checksum": "24c2a1c71176937aee40db6f172a1ea4",
+      "folder": false
+    },
+    {
+      "id": "1Ncd-b6VHa7kKGJYObydJL6Q1dCM8VbmR",
+      "parent_id": "1eeszOLW7oF5FIfBOiXWMJjBGvtSoOVIV",
+      "name": "ÚM BA LA - HANG THUỒNG LUỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 1070285,
+      "modified": "2026-08-15T07:26:24.000Z",
+      "checksum": "49f30bdcbd785582ff0ec53a27450292",
+      "folder": false
+    }
+  ]
+}

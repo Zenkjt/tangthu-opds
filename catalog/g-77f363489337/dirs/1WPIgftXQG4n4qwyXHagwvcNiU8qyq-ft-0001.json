@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WPIgftXQG4n4qwyXHagwvcNiU8qyq-ft",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tKDLpZ4PQngOmABiwuOxtS03QniggANb",
+      "parent_id": "1WPIgftXQG4n4qwyXHagwvcNiU8qyq-ft",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2766,
+      "modified": "2026-08-15T07:20:55.000Z",
+      "checksum": "72f7b3fb4e51f93361cee883a48cf30e",
+      "folder": false
+    },
+    {
+      "id": "10nDJFtpCic3jWhS4eEoJM7VkQY7QkBz4",
+      "parent_id": "1WPIgftXQG4n4qwyXHagwvcNiU8qyq-ft",
+      "name": "TRÁI TÁO CÒN XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 654388,
+      "modified": "2026-08-15T07:21:03.000Z",
+      "checksum": "72ee8b6e518ba938fb105dc858609ed6",
+      "folder": false
+    },
+    {
+      "id": "1vi3L9U6nt_xchQwp6lk7FKE94y45Z5Xs",
+      "parent_id": "1WPIgftXQG4n4qwyXHagwvcNiU8qyq-ft",
+      "name": "TRÁI TÁO CÒN XANH.pdf",
+      "mime": "application/pdf",
+      "size": 1728000,
+      "modified": "2026-08-15T07:21:01.000Z",
+      "checksum": "a1926a4e57aa91a7cf30a9e7a6df24be",
+      "folder": false
+    }
+  ]
+}

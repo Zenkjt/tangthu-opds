@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Qwq9HjkcdwFn8nMlT3aF-EkVFw6CSdky",
+  "page": 1,
+  "items": [
+    {
+      "id": "12lWuiUgur4FXravFuoz8rPVKgM45P9pN",
+      "parent_id": "1Qwq9HjkcdwFn8nMlT3aF-EkVFw6CSdky",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 515,
+      "modified": "2026-08-16T04:18:47.000Z",
+      "checksum": "ac833598057c6e732463719298468d36",
+      "folder": false
+    },
+    {
+      "id": "13d9WSwOZVoLGI7AeNrBNorEGwW1O-MN8",
+      "parent_id": "1Qwq9HjkcdwFn8nMlT3aF-EkVFw6CSdky",
+      "name": "KIẾN.epub",
+      "mime": "application/epub+zip",
+      "size": 1004690,
+      "modified": "2026-08-16T04:18:56.000Z",
+      "checksum": "775f451e51c3ef9feb56aba95409eabc",
+      "folder": false
+    },
+    {
+      "id": "1qzS52x2evIQO4RrtiI2ipArj6W1yfZsk",
+      "parent_id": "1Qwq9HjkcdwFn8nMlT3aF-EkVFw6CSdky",
+      "name": "KIẾN.pdf",
+      "mime": "application/pdf",
+      "size": 834866,
+      "modified": "2026-08-16T04:18:52.000Z",
+      "checksum": "0db36da69643a7285de50bac431f8f28",
+      "folder": false
+    }
+  ]
+}

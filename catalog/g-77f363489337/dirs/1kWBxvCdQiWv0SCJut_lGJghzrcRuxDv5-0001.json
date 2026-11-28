@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kWBxvCdQiWv0SCJut_lGJghzrcRuxDv5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Q8CXOMSRTRhJx5kWM-P8FGbqd1L4pr3e",
+      "parent_id": "1kWBxvCdQiWv0SCJut_lGJghzrcRuxDv5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1755,
+      "modified": "2026-08-15T06:43:11.000Z",
+      "checksum": "e94fd49fcc248aa7ee204ddfdd5499aa",
+      "folder": false
+    },
+    {
+      "id": "1a1X-F0dfqN0g5Zm-59lvD4_rdUWshNcA",
+      "parent_id": "1kWBxvCdQiWv0SCJut_lGJghzrcRuxDv5",
+      "name": "ĐỜI THỪA.epub",
+      "mime": "application/epub+zip",
+      "size": 282239,
+      "modified": "2026-08-15T06:43:17.000Z",
+      "checksum": "1b71901243fc2d949b8685a0dea10ba8",
+      "folder": false
+    },
+    {
+      "id": "1-BGEm-qns8NpJWzAuYKCv-0hVc12y0Nt",
+      "parent_id": "1kWBxvCdQiWv0SCJut_lGJghzrcRuxDv5",
+      "name": "ĐỜI THỪA.pdf",
+      "mime": "application/pdf",
+      "size": 104313,
+      "modified": "2026-08-15T06:43:14.000Z",
+      "checksum": "56a56e474ee2e92cb8d35145024294d0",
+      "folder": false
+    }
+  ]
+}

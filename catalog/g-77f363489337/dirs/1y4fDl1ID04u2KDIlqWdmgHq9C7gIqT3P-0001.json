@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1y4fDl1ID04u2KDIlqWdmgHq9C7gIqT3P",
+  "page": 1,
+  "items": [
+    {
+      "id": "1V9QW0CjwIEo7GzCzcBRzfHp74RxupV_z",
+      "parent_id": "1y4fDl1ID04u2KDIlqWdmgHq9C7gIqT3P",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3583,
+      "modified": "2026-08-16T03:39:01.000Z",
+      "checksum": "739b36c5bae9ee34809d6b32ae054990",
+      "folder": false
+    },
+    {
+      "id": "1lrMiM8Kdl2farY_XYA1Mwxt2n_WBvu54",
+      "parent_id": "1y4fDl1ID04u2KDIlqWdmgHq9C7gIqT3P",
+      "name": "KHI TA ĐI LƯỚT QUA NHAU.epub",
+      "mime": "application/epub+zip",
+      "size": 621083,
+      "modified": "2026-08-16T03:39:09.000Z",
+      "checksum": "3db46ae5fc2e68ab47bb5dd87e9f0603",
+      "folder": false
+    },
+    {
+      "id": "1CvGchvHPZoGCFfXUPSpOP1FhIujbugw1",
+      "parent_id": "1y4fDl1ID04u2KDIlqWdmgHq9C7gIqT3P",
+      "name": "KHI TA ĐI LƯỚT QUA NHAU.pdf",
+      "mime": "application/pdf",
+      "size": 1567638,
+      "modified": "2026-08-16T03:39:06.000Z",
+      "checksum": "4841362b4df82bae9e7e8a4331d8578f",
+      "folder": false
+    }
+  ]
+}

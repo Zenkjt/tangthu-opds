@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lx9jvLo5N-h-6L7bzSiWC0l1-PW6taDd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qw0zMNVjWIWCmfe7o8W1PNZ1X1syL37L",
+      "parent_id": "1lx9jvLo5N-h-6L7bzSiWC0l1-PW6taDd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1395,
+      "modified": "2026-08-16T03:25:27.000Z",
+      "checksum": "bec9f23e50fefaea52a09b8025d9772e",
+      "folder": false
+    },
+    {
+      "id": "1wDry2pjEdlv10upVkc7bnb_em7tMnl65",
+      "parent_id": "1lx9jvLo5N-h-6L7bzSiWC0l1-PW6taDd",
+      "name": "HAI MẶT CỦA THỜI GIAN.epub",
+      "mime": "application/epub+zip",
+      "size": 896735,
+      "modified": "2026-08-16T03:25:33.000Z",
+      "checksum": "0f4213d296cb151fba9b5de514acf808",
+      "folder": false
+    },
+    {
+      "id": "1lrCd_0ESMq9m0MR0uhUEFsJ2_FR7XK1q",
+      "parent_id": "1lx9jvLo5N-h-6L7bzSiWC0l1-PW6taDd",
+      "name": "HAI MẶT CỦA THỜI GIAN.pdf",
+      "mime": "application/pdf",
+      "size": 592322,
+      "modified": "2026-08-16T03:25:30.000Z",
+      "checksum": "37fb796effe68a52b21cf520b66cff6e",
+      "folder": false
+    }
+  ]
+}

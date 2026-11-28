@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UqXHdWatFO_K16TfjLL1zB5loJa7fIXM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SE5OeU-LPJ7fOhfNqxYPksx4jqQgwwCx",
+      "parent_id": "1UqXHdWatFO_K16TfjLL1zB5loJa7fIXM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3769,
+      "modified": "2026-08-15T08:09:59.000Z",
+      "checksum": "529f7e42a5aa7acd72b41c8df694aed1",
+      "folder": false
+    },
+    {
+      "id": "15oB2ohuF8Lf4X_EO08RHPpnrB6dEmcwj",
+      "parent_id": "1UqXHdWatFO_K16TfjLL1zB5loJa7fIXM",
+      "name": "HỒI ỨC KẺ SÁT NHÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 676036,
+      "modified": "2026-08-15T08:10:05.000Z",
+      "checksum": "ba798ce3f975a6938610ac1d09d4d0ca",
+      "folder": false
+    },
+    {
+      "id": "1mhmC_rG6xef7ed-hOuLW9YLfY5IMe3zL",
+      "parent_id": "1UqXHdWatFO_K16TfjLL1zB5loJa7fIXM",
+      "name": "HỒI ỨC KẺ SÁT NHÂN.pdf",
+      "mime": "application/pdf",
+      "size": 594158,
+      "modified": "2026-08-15T08:10:02.000Z",
+      "checksum": "1f2f61671676257932dcb67c5a016d16",
+      "folder": false
+    }
+  ]
+}

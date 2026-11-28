@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1marJBlXXUpb-T07hpB8d78FRp93HT4xt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SVEUD0ZuMG9-nq8J9sehudx05p8YAP_P",
+      "parent_id": "1marJBlXXUpb-T07hpB8d78FRp93HT4xt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 570,
+      "modified": "2026-08-15T10:55:34.000Z",
+      "checksum": "8ddbfdb25780856aabfb93907e5ff26f",
+      "folder": false
+    },
+    {
+      "id": "14xsSIepWI6BzjF0pIPtCKggxYtTvRPUq",
+      "parent_id": "1marJBlXXUpb-T07hpB8d78FRp93HT4xt",
+      "name": "KHI VẾT THƯƠNG NẰM XUỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 445772,
+      "modified": "2026-08-15T10:55:41.000Z",
+      "checksum": "cb516641d5d90d29495393f1c606a26a",
+      "folder": false
+    },
+    {
+      "id": "1teiXjFiUJvdFsMOrEtUv_ea3mupEiM8Y",
+      "parent_id": "1marJBlXXUpb-T07hpB8d78FRp93HT4xt",
+      "name": "KHI VẾT THƯƠNG NẰM XUỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 864135,
+      "modified": "2026-08-15T10:55:39.000Z",
+      "checksum": "857ebe41e906f6d090cc5a00d37f4de6",
+      "folder": false
+    }
+  ]
+}

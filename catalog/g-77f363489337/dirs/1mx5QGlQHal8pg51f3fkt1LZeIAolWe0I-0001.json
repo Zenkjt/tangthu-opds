@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mx5QGlQHal8pg51f3fkt1LZeIAolWe0I",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LpQw_qM4OiR5SUn_eQQvv_FxFaqSc-aD",
+      "parent_id": "1mx5QGlQHal8pg51f3fkt1LZeIAolWe0I",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 349,
+      "modified": "2026-08-15T12:56:09.000Z",
+      "checksum": "66d86ee0af09f54448ee2ee2670a2f2c",
+      "folder": false
+    },
+    {
+      "id": "1Zl4rW8JfcNK03uwVyiG4nwbW56nNLLLT",
+      "parent_id": "1mx5QGlQHal8pg51f3fkt1LZeIAolWe0I",
+      "name": "TIX-TU NGÓN TAY CÁI XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 401851,
+      "modified": "2026-08-15T12:56:36.000Z",
+      "checksum": "4751b8e2ec3c1d2282cf0da2bc1914f9",
+      "folder": false
+    },
+    {
+      "id": "1jQpWl8DQ59WwT01CcEdpGQAnnzFjpdXD",
+      "parent_id": "1mx5QGlQHal8pg51f3fkt1LZeIAolWe0I",
+      "name": "TIX-TU NGÓN TAY CÁI XANH.pdf",
+      "mime": "application/pdf",
+      "size": 426690,
+      "modified": "2026-08-15T12:56:29.000Z",
+      "checksum": "c123f43909a98fc102df269a60ade4af",
+      "folder": false
+    }
+  ]
+}

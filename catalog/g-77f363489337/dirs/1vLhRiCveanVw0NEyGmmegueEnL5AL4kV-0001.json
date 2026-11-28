@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vLhRiCveanVw0NEyGmmegueEnL5AL4kV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1L9857wbRgrF2C76DjqtXl4cOIlhu5-sy",
+      "parent_id": "1vLhRiCveanVw0NEyGmmegueEnL5AL4kV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2954,
+      "modified": "2026-08-16T03:54:35.000Z",
+      "checksum": "b6eccb5fedc0f681d41d781fb1256d75",
+      "folder": false
+    },
+    {
+      "id": "1AXmwu1ARkO9M4XaV7qaS5SqiDPMH5czd",
+      "parent_id": "1vLhRiCveanVw0NEyGmmegueEnL5AL4kV",
+      "name": "TÌNH BẤT YẾM TRÁ.epub",
+      "mime": "application/epub+zip",
+      "size": 1331891,
+      "modified": "2026-08-16T03:54:42.000Z",
+      "checksum": "aa8ba0cf88a324662d265241d64ddbc8",
+      "folder": false
+    },
+    {
+      "id": "1S980XJq3qew_Clu6vyP3moNpKBQdcK9H",
+      "parent_id": "1vLhRiCveanVw0NEyGmmegueEnL5AL4kV",
+      "name": "TÌNH BẤT YẾM TRÁ.pdf",
+      "mime": "application/pdf",
+      "size": 1766496,
+      "modified": "2026-08-16T03:54:39.000Z",
+      "checksum": "4cfa80dc2921ddd749a7eb4089c9f2cc",
+      "folder": false
+    }
+  ]
+}

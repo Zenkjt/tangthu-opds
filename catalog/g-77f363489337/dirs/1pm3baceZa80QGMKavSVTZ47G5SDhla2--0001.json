@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pm3baceZa80QGMKavSVTZ47G5SDhla2-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tOrdhYh-76AIOBAKc9q06XgEIjzeFVO5",
+      "parent_id": "1pm3baceZa80QGMKavSVTZ47G5SDhla2-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11873,
+      "modified": "2026-08-15T08:00:37.000Z",
+      "checksum": "1d7626443b137b7cc4e3c013a00fb97b",
+      "folder": false
+    },
+    {
+      "id": "1WXv1CauodacmlJvWbMKYK1ywD3cYEpmR",
+      "parent_id": "1pm3baceZa80QGMKavSVTZ47G5SDhla2-",
+      "name": "NGHỆ NHÂN VÀ MARGARITA.epub",
+      "mime": "application/epub+zip",
+      "size": 2998669,
+      "modified": "2026-08-15T08:00:47.000Z",
+      "checksum": "dbef70f8ca0df31bb98a00ba9591bbbc",
+      "folder": false
+    },
+    {
+      "id": "1cZg5I0bKOSrpmo5cHXQWhhFwnxYkOFwM",
+      "parent_id": "1pm3baceZa80QGMKavSVTZ47G5SDhla2-",
+      "name": "NGHỆ NHÂN VÀ MARGARITA.pdf",
+      "mime": "application/pdf",
+      "size": 4564429,
+      "modified": "2026-08-15T08:00:43.000Z",
+      "checksum": "25bce83f8ec1a9430ac0c8a88878f578",
+      "folder": false
+    }
+  ]
+}

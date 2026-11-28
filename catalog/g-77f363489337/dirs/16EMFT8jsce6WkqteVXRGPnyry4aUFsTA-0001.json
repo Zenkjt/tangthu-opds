@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16EMFT8jsce6WkqteVXRGPnyry4aUFsTA",
+  "page": 1,
+  "items": [
+    {
+      "id": "187BlxiNxlOpeJlB9rW19PMjOVEOxm39W",
+      "parent_id": "16EMFT8jsce6WkqteVXRGPnyry4aUFsTA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8199,
+      "modified": "2026-08-15T15:32:10.000Z",
+      "checksum": "e965f5330030cebbdaf3eb8fe88fb9ec",
+      "folder": false
+    },
+    {
+      "id": "1VsoyuyWfPpu4Z6N7mClaRIz4osaezJc2",
+      "parent_id": "16EMFT8jsce6WkqteVXRGPnyry4aUFsTA",
+      "name": "NĂM VỊ TỔ SƯ TẬP 4 HẠC.epub",
+      "mime": "application/epub+zip",
+      "size": 689800,
+      "modified": "2026-08-15T15:32:16.000Z",
+      "checksum": "53c57aecd81448697fbc42cba501a12e",
+      "folder": false
+    },
+    {
+      "id": "1CBmRbRAPlAc3Dggb-hmvWd0X-f9SsyCU",
+      "parent_id": "16EMFT8jsce6WkqteVXRGPnyry4aUFsTA",
+      "name": "NĂM VỊ TỔ SƯ TẬP 4 HẠC.pdf",
+      "mime": "application/pdf",
+      "size": 874202,
+      "modified": "2026-08-15T15:32:14.000Z",
+      "checksum": "7c0b96139aac5e565e43e2ea7e7336b2",
+      "folder": false
+    }
+  ]
+}

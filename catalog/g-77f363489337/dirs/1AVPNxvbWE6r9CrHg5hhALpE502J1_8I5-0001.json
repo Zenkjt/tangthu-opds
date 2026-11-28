@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AVPNxvbWE6r9CrHg5hhALpE502J1_8I5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kbhNmwQxCBByilKtNXiuIU9IcR34dIFS",
+      "parent_id": "1AVPNxvbWE6r9CrHg5hhALpE502J1_8I5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5122,
+      "modified": "2026-08-15T00:54:08.000Z",
+      "checksum": "5e8ba18705b3176b8b1ea552c45b07b3",
+      "folder": false
+    },
+    {
+      "id": "1AActWGGUWE--1FKY9r5_jAaAr2DaN0lD",
+      "parent_id": "1AVPNxvbWE6r9CrHg5hhALpE502J1_8I5",
+      "name": "XUYÊN QUA NỖI SỢ.epub",
+      "mime": "application/epub+zip",
+      "size": 575406,
+      "modified": "2026-08-15T00:54:15.000Z",
+      "checksum": "071175abc19ce77ba5f0ac4d62ea1908",
+      "folder": false
+    },
+    {
+      "id": "1XsQhkfJjhyca3X8XfrpAU6k3VLvqRGWG",
+      "parent_id": "1AVPNxvbWE6r9CrHg5hhALpE502J1_8I5",
+      "name": "XUYÊN QUA NỖI SỢ.pdf",
+      "mime": "application/pdf",
+      "size": 868888,
+      "modified": "2026-08-15T00:54:13.000Z",
+      "checksum": "cd95ea459d0f19068e368ab35f1a045b",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BG9tcbF40JGB08_vvIoZrHmMxHP6-uMs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1El9VHEOcoSN54W6uibqd7dpIsMR2RTVr",
+      "parent_id": "1BG9tcbF40JGB08_vvIoZrHmMxHP6-uMs",
+      "name": "CHUYẾN BAY FRANKFURT.epub",
+      "mime": "application/epub+zip",
+      "size": 1086675,
+      "modified": "2026-08-16T03:23:22.000Z",
+      "checksum": "80436b8960e8953b327841da8394dc5a",
+      "folder": false
+    },
+    {
+      "id": "1wSqK4bwW7MJJuRx_4LaIPp9IcZU90A3B",
+      "parent_id": "1BG9tcbF40JGB08_vvIoZrHmMxHP6-uMs",
+      "name": "CHUYẾN BAY FRANKFURT.pdf",
+      "mime": "application/pdf",
+      "size": 1095686,
+      "modified": "2026-08-16T03:23:19.000Z",
+      "checksum": "62f476e71830902c6e5497673a61f266",
+      "folder": false
+    },
+    {
+      "id": "1tHme1UdfTvqryHPGjtIs1rNG9fkGT0jJ",
+      "parent_id": "1BG9tcbF40JGB08_vvIoZrHmMxHP6-uMs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4247,
+      "modified": "2026-08-16T03:23:16.000Z",
+      "checksum": "bf0f6fa15bc29e2d4c272647dbc8a732",
+      "folder": false
+    }
+  ]
+}

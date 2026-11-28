@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Yq4DFAarzRxfKftAMQH7Zuo1iYHpTcC0",
+  "page": 1,
+  "items": [
+    {
+      "id": "19X3JJig3fJY3eEhtI7xo21LOHUfUuKA5",
+      "parent_id": "1Yq4DFAarzRxfKftAMQH7Zuo1iYHpTcC0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 501,
+      "modified": "2026-08-16T03:52:19.000Z",
+      "checksum": "d5da2531f44e7c92efe9f7ad2d62831b",
+      "folder": false
+    },
+    {
+      "id": "1gHeOVzLXeo8QpgFOgo62fRtsO6_9KLEU",
+      "parent_id": "1Yq4DFAarzRxfKftAMQH7Zuo1iYHpTcC0",
+      "name": "TUỔI SẮT ĐÁ.epub",
+      "mime": "application/epub+zip",
+      "size": 307536,
+      "modified": "2026-08-16T03:52:24.000Z",
+      "checksum": "397a1b121871cd504d16dee54132755c",
+      "folder": false
+    },
+    {
+      "id": "1H-zVPpB9ALmFVs5R0aMzgxFAudmMV2Jw",
+      "parent_id": "1Yq4DFAarzRxfKftAMQH7Zuo1iYHpTcC0",
+      "name": "TUỔI SẮT ĐÁ.pdf",
+      "mime": "application/pdf",
+      "size": 639758,
+      "modified": "2026-08-16T03:52:22.000Z",
+      "checksum": "abd7181c44be4931da32ab708cdace42",
+      "folder": false
+    }
+  ]
+}

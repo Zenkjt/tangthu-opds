@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Eb1lly593AhJHv4OMj7IGkbzSyEaLkgI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1diaVJVG5HbUA0OioD_RFKT0ZC6CvbUNO",
+      "parent_id": "1Eb1lly593AhJHv4OMj7IGkbzSyEaLkgI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1834,
+      "modified": "2026-08-15T03:51:50.000Z",
+      "checksum": "2e2ab14d037ca584f9451f11f020f898",
+      "folder": false
+    },
+    {
+      "id": "1lHV3VdYfCkcVH1_tfN_d4u8fOOUnlH9W",
+      "parent_id": "1Eb1lly593AhJHv4OMj7IGkbzSyEaLkgI",
+      "name": "ĐỨC PHẬT THÍCH CA - PHẦN 3.epub",
+      "mime": "application/epub+zip",
+      "size": 11596062,
+      "modified": "2026-08-15T03:52:01.000Z",
+      "checksum": "657402a75e03738bfd6514b6f198faf9",
+      "folder": false
+    },
+    {
+      "id": "1U2PRWnPHm2SqCV6Vju18SM6R5HJEUIZE",
+      "parent_id": "1Eb1lly593AhJHv4OMj7IGkbzSyEaLkgI",
+      "name": "ĐỨC PHẬT THÍCH CA - PHẦN 3.pdf",
+      "mime": "application/pdf",
+      "size": 11433787,
+      "modified": "2026-08-15T03:51:57.000Z",
+      "checksum": "8a954b4ea7d196a491a7bcad739c4ac6",
+      "folder": false
+    }
+  ]
+}

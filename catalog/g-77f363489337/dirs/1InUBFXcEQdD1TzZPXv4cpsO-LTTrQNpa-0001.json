@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1InUBFXcEQdD1TzZPXv4cpsO-LTTrQNpa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YUZ54nOnkod-cArMQkRYIv0pEj79fIz7",
+      "parent_id": "1InUBFXcEQdD1TzZPXv4cpsO-LTTrQNpa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 667,
+      "modified": "2026-08-15T10:45:38.000Z",
+      "checksum": "866e4fa9cff7bdd60fd6bd98d90d54dc",
+      "folder": false
+    },
+    {
+      "id": "1PlrcMUR5a1GNLsT0UBinyjLxGZ93uD38",
+      "parent_id": "1InUBFXcEQdD1TzZPXv4cpsO-LTTrQNpa",
+      "name": "NGÓN TAY THỨ MƯỜI MỘT.epub",
+      "mime": "application/epub+zip",
+      "size": 566810,
+      "modified": "2026-08-15T10:45:50.000Z",
+      "checksum": "6bbafa34758fa9b7b210f19a2ec3a32a",
+      "folder": false
+    },
+    {
+      "id": "19CRAl0gZt5TkXueJ7kWHMqbSe4844BdD",
+      "parent_id": "1InUBFXcEQdD1TzZPXv4cpsO-LTTrQNpa",
+      "name": "NGÓN TAY THỨ MƯỜI MỘT.pdf",
+      "mime": "application/pdf",
+      "size": 1676295,
+      "modified": "2026-08-15T10:45:47.000Z",
+      "checksum": "2a74415119096313baff8fc7e4657ebb",
+      "folder": false
+    }
+  ]
+}

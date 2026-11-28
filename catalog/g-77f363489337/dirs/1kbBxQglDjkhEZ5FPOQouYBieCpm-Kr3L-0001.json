@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kbBxQglDjkhEZ5FPOQouYBieCpm-Kr3L",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-AND2vat2tJn1JX-3YquDCrhUrxlIX5n",
+      "parent_id": "1kbBxQglDjkhEZ5FPOQouYBieCpm-Kr3L",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8285,
+      "modified": "2026-08-15T00:49:18.000Z",
+      "checksum": "7dbbcdb86dd64ca6de0f58e82de2e79c",
+      "folder": false
+    },
+    {
+      "id": "1WS-5V0WQzrAstZ0YQwJU-i4zdE_ajk7B",
+      "parent_id": "1kbBxQglDjkhEZ5FPOQouYBieCpm-Kr3L",
+      "name": "TUẦN LÀM VIỆC 4 GIỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 829411,
+      "modified": "2026-08-15T00:49:27.000Z",
+      "checksum": "8378cb0ced4d54d529150fa95b029133",
+      "folder": false
+    },
+    {
+      "id": "1OPKTg13oBda9O2XLWhwz7wQP7FTmxibO",
+      "parent_id": "1kbBxQglDjkhEZ5FPOQouYBieCpm-Kr3L",
+      "name": "TUẦN LÀM VIỆC 4 GIỜ.pdf",
+      "mime": "application/pdf",
+      "size": 1674688,
+      "modified": "2026-08-15T00:49:25.000Z",
+      "checksum": "3bd3da64a9fa0b00ef49bffef9d52280",
+      "folder": false
+    }
+  ]
+}

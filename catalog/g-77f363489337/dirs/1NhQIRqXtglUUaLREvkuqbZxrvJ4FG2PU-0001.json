@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NhQIRqXtglUUaLREvkuqbZxrvJ4FG2PU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Bzfk0GX3bvuURz7ZKGV_vmcUVb-xjWpS",
+      "parent_id": "1NhQIRqXtglUUaLREvkuqbZxrvJ4FG2PU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 696,
+      "modified": "2026-08-15T03:47:37.000Z",
+      "checksum": "ae514f226c4cf05afe64cbeb9dbf8e57",
+      "folder": false
+    },
+    {
+      "id": "1zLM6B1WEf5dn-yCBs-YHGpvKZ4XP58CH",
+      "parent_id": "1NhQIRqXtglUUaLREvkuqbZxrvJ4FG2PU",
+      "name": "KHÔNG NƯỚC KHÔNG TRĂNG.epub",
+      "mime": "application/epub+zip",
+      "size": 328894,
+      "modified": "2026-08-15T03:47:44.000Z",
+      "checksum": "5d31ffe018676a62c250ab251eaea730",
+      "folder": false
+    },
+    {
+      "id": "1EA4vuEMlg6qVwCGCxQ-1N5fZjZ5bwwlO",
+      "parent_id": "1NhQIRqXtglUUaLREvkuqbZxrvJ4FG2PU",
+      "name": "KHÔNG NƯỚC KHÔNG TRĂNG.pdf",
+      "mime": "application/pdf",
+      "size": 1720793,
+      "modified": "2026-08-15T03:47:42.000Z",
+      "checksum": "2c6ec6ff5c40afed4e88078a6d0f06ce",
+      "folder": false
+    }
+  ]
+}

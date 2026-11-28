@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FDiuLnjNwmzno8LAXO3qIMtVA67Dv6b7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FXvF61DxoKIWZg2Dr3kcvgZuqqPQr1Aq",
+      "parent_id": "1FDiuLnjNwmzno8LAXO3qIMtVA67Dv6b7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3257,
+      "modified": "2026-08-16T04:14:07.000Z",
+      "checksum": "c95cfa8430a51764dc5c9eb59929d5c1",
+      "folder": false
+    },
+    {
+      "id": "1BQfncU4MJhxMedFYHKpPZ4w4rGoHWAq7",
+      "parent_id": "1FDiuLnjNwmzno8LAXO3qIMtVA67Dv6b7",
+      "name": "NGƯỜI CÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 489538,
+      "modified": "2026-08-16T04:14:12.000Z",
+      "checksum": "1eabca10f6597791b3308571147a0000",
+      "folder": false
+    },
+    {
+      "id": "14WguHgYaLa5yRGFeVK-w2Bdm5eyEDuVV",
+      "parent_id": "1FDiuLnjNwmzno8LAXO3qIMtVA67Dv6b7",
+      "name": "NGƯỜI CÁT.pdf",
+      "mime": "application/pdf",
+      "size": 568166,
+      "modified": "2026-08-16T04:14:10.000Z",
+      "checksum": "ae731fd65b0ee9fabf8859b439266e1f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RmHXE_cPOUg6Q1JYgycpx0wMgk-9wSlw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sc66Am3y9dQ0PwbwP_ZTquUZtdK9ov4p",
+      "parent_id": "1RmHXE_cPOUg6Q1JYgycpx0wMgk-9wSlw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3588,
+      "modified": "2026-08-15T15:40:06.000Z",
+      "checksum": "087c17f68f330920875c5e455a7ab830",
+      "folder": false
+    },
+    {
+      "id": "1Wfrrtgw6gfpi8Rcs1Lz-GpRiA2nFLdJJ",
+      "parent_id": "1RmHXE_cPOUg6Q1JYgycpx0wMgk-9wSlw",
+      "name": "NĂM CHÀNG MỘT NÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 449996,
+      "modified": "2026-08-15T15:40:12.000Z",
+      "checksum": "768d61704d019ce78ff31d3ed7f0af05",
+      "folder": false
+    },
+    {
+      "id": "1QX-H82T1NddQRAKVVy0SQ8lggh2V0upG",
+      "parent_id": "1RmHXE_cPOUg6Q1JYgycpx0wMgk-9wSlw",
+      "name": "NĂM CHÀNG MỘT NÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 640852,
+      "modified": "2026-08-15T15:40:10.000Z",
+      "checksum": "b4a79db8fc378102dad7f6ee7c4c7f69",
+      "folder": false
+    }
+  ]
+}

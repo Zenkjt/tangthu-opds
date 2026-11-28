@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aBQSgqKdAkC_Uitx5prVdi6T0wwBJIat",
+  "page": 1,
+  "items": [
+    {
+      "id": "1L0udXXCpw3ttT5z9Wiq4wD80HUu5U9ou",
+      "parent_id": "1aBQSgqKdAkC_Uitx5prVdi6T0wwBJIat",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2969,
+      "modified": "2026-08-16T04:01:33.000Z",
+      "checksum": "ccdd0bbf06dadaf838b185e21f21d5d1",
+      "folder": false
+    },
+    {
+      "id": "1N1ZpAI9lvQ38Gmx5fHFsuXapxyMpy5nT",
+      "parent_id": "1aBQSgqKdAkC_Uitx5prVdi6T0wwBJIat",
+      "name": "TẬP SÁCH VỀ NHỮNG CHUYẾN NGAO DU.epub",
+      "mime": "application/epub+zip",
+      "size": 553081,
+      "modified": "2026-08-16T04:01:39.000Z",
+      "checksum": "d67446a80ce60dc35da3e056b18f5aa6",
+      "folder": false
+    },
+    {
+      "id": "1CuDS7l1C-nfEQYAOBMLVPXF4m98vxfwl",
+      "parent_id": "1aBQSgqKdAkC_Uitx5prVdi6T0wwBJIat",
+      "name": "TẬP SÁCH VỀ NHỮNG CHUYẾN NGAO DU.pdf",
+      "mime": "application/pdf",
+      "size": 981713,
+      "modified": "2026-08-16T04:01:37.000Z",
+      "checksum": "61ec991bd6ee1e1c7e2849e1a7870507",
+      "folder": false
+    }
+  ]
+}

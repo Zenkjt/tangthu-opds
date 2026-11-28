@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KRnG3Ei9qwL0eKy-xKFv01ekQwsMcjpi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Rw1aeiBFylZajTOt8NGNmDVb2blgBcdx",
+      "parent_id": "1KRnG3Ei9qwL0eKy-xKFv01ekQwsMcjpi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2557,
+      "modified": "2026-08-15T07:24:14.000Z",
+      "checksum": "76582d34e4691224c593cc3a3fa0a68d",
+      "folder": false
+    },
+    {
+      "id": "1fXlGUrfrFf-ERmuNWc__qf83teiZfE_j",
+      "parent_id": "1KRnG3Ei9qwL0eKy-xKFv01ekQwsMcjpi",
+      "name": "TU LA VŨ THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 1758826,
+      "modified": "2026-08-15T07:24:26.000Z",
+      "checksum": "aa48c790930881a4298ba2862e4f82c8",
+      "folder": false
+    },
+    {
+      "id": "1djNtYpPXiJArSMOrRESEe4jCPGzv8nP1",
+      "parent_id": "1KRnG3Ei9qwL0eKy-xKFv01ekQwsMcjpi",
+      "name": "TU LA VŨ THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 7280713,
+      "modified": "2026-08-15T07:24:22.000Z",
+      "checksum": "893fd548220eb41c798b3e4a4328c78d",
+      "folder": false
+    }
+  ]
+}

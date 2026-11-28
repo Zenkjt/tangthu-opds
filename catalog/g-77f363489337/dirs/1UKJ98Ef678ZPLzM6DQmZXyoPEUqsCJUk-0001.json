@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UKJ98Ef678ZPLzM6DQmZXyoPEUqsCJUk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cUEtF1EEhCC_jSlO_S48DfeBQN6efmP0",
+      "parent_id": "1UKJ98Ef678ZPLzM6DQmZXyoPEUqsCJUk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 17679,
+      "modified": "2026-08-15T08:08:44.000Z",
+      "checksum": "9791434306a34afe62df19fbca86a17e",
+      "folder": false
+    },
+    {
+      "id": "1GhClizLXnU7WVJqEzmhE-25lx1o5nrew",
+      "parent_id": "1UKJ98Ef678ZPLzM6DQmZXyoPEUqsCJUk",
+      "name": "MAO SƠN ÂM DƯƠNG MÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 1501030,
+      "modified": "2026-08-15T08:08:58.000Z",
+      "checksum": "57e99d235c186f82f38db45f594444bc",
+      "folder": false
+    },
+    {
+      "id": "1ODOrkM30x2y-BaHaO_Vlq_GUnu-lzL9i",
+      "parent_id": "1UKJ98Ef678ZPLzM6DQmZXyoPEUqsCJUk",
+      "name": "MAO SƠN ÂM DƯƠNG MÔN.pdf",
+      "mime": "application/pdf",
+      "size": 6000398,
+      "modified": "2026-08-15T08:08:54.000Z",
+      "checksum": "0b66d8571bc3c2cef10209f4c7c20fb8",
+      "folder": false
+    }
+  ]
+}

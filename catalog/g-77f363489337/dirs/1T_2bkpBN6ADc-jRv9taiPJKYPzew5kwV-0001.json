@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1T_2bkpBN6ADc-jRv9taiPJKYPzew5kwV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GIbEh1U3GG7xqekasdaoAPCHOOYVNpGn",
+      "parent_id": "1T_2bkpBN6ADc-jRv9taiPJKYPzew5kwV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5372,
+      "modified": "2026-08-15T05:47:09.000Z",
+      "checksum": "b03b6bc5c2e01b5c50eca9d9135b846c",
+      "folder": false
+    },
+    {
+      "id": "10qQggjfV5sn1Kg68IEuX9gT2Kis-rSg3",
+      "parent_id": "1T_2bkpBN6ADc-jRv9taiPJKYPzew5kwV",
+      "name": "NGÔN NGỮ CỦA ĐỐI XỨNG.epub",
+      "mime": "application/epub+zip",
+      "size": 2152192,
+      "modified": "2026-08-15T05:47:16.000Z",
+      "checksum": "6ed1aa691e11823d7412ca2bca05ee3f",
+      "folder": false
+    },
+    {
+      "id": "1FtJqph1dt6t3X4Y38Vn4Q6PVg40FqeIt",
+      "parent_id": "1T_2bkpBN6ADc-jRv9taiPJKYPzew5kwV",
+      "name": "NGÔN NGỮ CỦA ĐỐI XỨNG.pdf",
+      "mime": "application/pdf",
+      "size": 2918861,
+      "modified": "2026-08-15T05:47:13.000Z",
+      "checksum": "cb8bec5ca33833b78e9b5c54e2c4bba0",
+      "folder": false
+    }
+  ]
+}

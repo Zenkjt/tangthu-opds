@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1x01FXyRz9hixzaePPbMT9Yk8ksOIvAe4",
+  "page": 1,
+  "items": [
+    {
+      "id": "10zYt78-FgQUNhFk6HEu447e5jRphYSrm",
+      "parent_id": "1x01FXyRz9hixzaePPbMT9Yk8ksOIvAe4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 998,
+      "modified": "2026-08-15T13:12:23.000Z",
+      "checksum": "605da52b542dfcd0566a8fe3cf42e816",
+      "folder": false
+    },
+    {
+      "id": "1baE4XtS7OR8dx_hxqkqSPe_34-wWgu3V",
+      "parent_id": "1x01FXyRz9hixzaePPbMT9Yk8ksOIvAe4",
+      "name": "DƯƠNG CƠ CHỨNG GIẢI.epub",
+      "mime": "application/epub+zip",
+      "size": 1196710,
+      "modified": "2026-08-15T13:12:29.000Z",
+      "checksum": "4c5b79565a889e9fa2350f1801f2fcad",
+      "folder": false
+    },
+    {
+      "id": "1Krj_CQVb0s47yWmC1UtyjAp-gNO3xMMY",
+      "parent_id": "1x01FXyRz9hixzaePPbMT9Yk8ksOIvAe4",
+      "name": "DƯƠNG CƠ CHỨNG GIẢI.pdf",
+      "mime": "application/pdf",
+      "size": 1561374,
+      "modified": "2026-08-15T13:12:27.000Z",
+      "checksum": "70287b4fd7eafe87eac51f0e4c501cf9",
+      "folder": false
+    }
+  ]
+}

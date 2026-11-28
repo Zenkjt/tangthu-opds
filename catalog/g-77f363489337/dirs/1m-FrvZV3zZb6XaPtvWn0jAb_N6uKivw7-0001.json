@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1m-FrvZV3zZb6XaPtvWn0jAb_N6uKivw7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yj-lRcSJMPtVzoRseynGI0eEguzGGsZm",
+      "parent_id": "1m-FrvZV3zZb6XaPtvWn0jAb_N6uKivw7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3027,
+      "modified": "2026-08-15T07:52:09.000Z",
+      "checksum": "f6cbeccd39d044806d251e4799f14d3d",
+      "folder": false
+    },
+    {
+      "id": "1d9kj5kLWMJhyLTXE6UfMEy23vYjUJPb0",
+      "parent_id": "1m-FrvZV3zZb6XaPtvWn0jAb_N6uKivw7",
+      "name": "ĐÓA SEN BÊN HỒ TẢ VỌNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1074508,
+      "modified": "2026-08-15T07:52:18.000Z",
+      "checksum": "b92fcfe2d11fcf602193720934e0bed4",
+      "folder": false
+    },
+    {
+      "id": "1QqXaqSBfVYLq_IJVDk-1UCa8dgOtuCME",
+      "parent_id": "1m-FrvZV3zZb6XaPtvWn0jAb_N6uKivw7",
+      "name": "ĐÓA SEN BÊN HỒ TẢ VỌNG.pdf",
+      "mime": "application/pdf",
+      "size": 1436193,
+      "modified": "2026-08-15T07:52:12.000Z",
+      "checksum": "15390d0d42296c64d7ab4556b153f2f1",
+      "folder": false
+    }
+  ]
+}

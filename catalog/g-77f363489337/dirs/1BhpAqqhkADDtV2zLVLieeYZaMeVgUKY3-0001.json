@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BhpAqqhkADDtV2zLVLieeYZaMeVgUKY3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EwWjpn1pW931ftUAJvBCEfTCeOTlnz8M",
+      "parent_id": "1BhpAqqhkADDtV2zLVLieeYZaMeVgUKY3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4279,
+      "modified": "2026-08-16T03:16:03.000Z",
+      "checksum": "54846beae055a971449001da5e86271e",
+      "folder": false
+    },
+    {
+      "id": "1ktLxmrU3eQAtku4XK6AvfQQRXTwUdXv7",
+      "parent_id": "1BhpAqqhkADDtV2zLVLieeYZaMeVgUKY3",
+      "name": "GƯƠNG THẦY TRÒ.epub",
+      "mime": "application/epub+zip",
+      "size": 925548,
+      "modified": "2026-08-16T03:16:09.000Z",
+      "checksum": "37b90d30d473090779482c0fbbace3b6",
+      "folder": false
+    },
+    {
+      "id": "1U-r3i-3isl2IO3VVg7y6EXIuDECxRSKl",
+      "parent_id": "1BhpAqqhkADDtV2zLVLieeYZaMeVgUKY3",
+      "name": "GƯƠNG THẦY TRÒ.pdf",
+      "mime": "application/pdf",
+      "size": 902788,
+      "modified": "2026-08-16T03:16:07.000Z",
+      "checksum": "55cdccb87344919e05dbddb29516fbd1",
+      "folder": false
+    }
+  ]
+}

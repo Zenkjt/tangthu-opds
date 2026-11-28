@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FqkoKjymR3kJKoYbjIXMq8YnWHOjKwWE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DQVGk3VOEA491KSvFGgkQltsSPs24dzg",
+      "parent_id": "1FqkoKjymR3kJKoYbjIXMq8YnWHOjKwWE",
+      "name": "BẠCH NHẬT HUYÊN TIÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 503161,
+      "modified": "2026-08-15T08:03:45.000Z",
+      "checksum": "d117702138adb1e3cdb6f945ca1f36df",
+      "folder": false
+    },
+    {
+      "id": "1d1dSP2Frj_4oXSuhcHAVqAs2jNmHyxRL",
+      "parent_id": "1FqkoKjymR3kJKoYbjIXMq8YnWHOjKwWE",
+      "name": "BẠCH NHẬT HUYÊN TIÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1315679,
+      "modified": "2026-08-15T08:03:42.000Z",
+      "checksum": "6a6800a14d996b6da09475a5320842c0",
+      "folder": false
+    },
+    {
+      "id": "1lTv7CJzbtIG0b2-CwfpdTfdNbblQ5pwc",
+      "parent_id": "1FqkoKjymR3kJKoYbjIXMq8YnWHOjKwWE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1049,
+      "modified": "2026-08-15T08:03:38.000Z",
+      "checksum": "2eb517b9ff64ea02c58a6187c249f8ef",
+      "folder": false
+    }
+  ]
+}

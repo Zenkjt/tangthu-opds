@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oMIgA-e4cR2G7t5XvTnLEchor43LZtul",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qFJ8fI3wiQUUs4xQfv8Whz3VjCOyyX-I",
+      "parent_id": "1oMIgA-e4cR2G7t5XvTnLEchor43LZtul",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 396,
+      "modified": "2026-08-15T10:56:40.000Z",
+      "checksum": "df61a7b7a80481b3fcfdd951cad64b40",
+      "folder": false
+    },
+    {
+      "id": "1LB90pl4LCpl4oMnX6GcwcdJb1vLnR0R_",
+      "parent_id": "1oMIgA-e4cR2G7t5XvTnLEchor43LZtul",
+      "name": "HIỆP SĨ VÔ HÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 431405,
+      "modified": "2026-08-15T10:56:47.000Z",
+      "checksum": "9faa93a09948ac365053705bb8447365",
+      "folder": false
+    },
+    {
+      "id": "1QOYAbWUn4OLO4aCQx8tnfzpXzpV-VV-8",
+      "parent_id": "1oMIgA-e4cR2G7t5XvTnLEchor43LZtul",
+      "name": "HIỆP SĨ VÔ HÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 880612,
+      "modified": "2026-08-15T10:56:44.000Z",
+      "checksum": "bee6ae36bcecb64867bd7c4e66dc7fc0",
+      "folder": false
+    }
+  ]
+}

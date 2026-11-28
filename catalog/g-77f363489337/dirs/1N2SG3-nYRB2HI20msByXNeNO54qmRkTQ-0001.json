@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1N2SG3-nYRB2HI20msByXNeNO54qmRkTQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1w8LCdDk6KsyXC284EdA-nvyHMXhYWTP4",
+      "parent_id": "1N2SG3-nYRB2HI20msByXNeNO54qmRkTQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2193,
+      "modified": "2026-08-16T02:50:31.000Z",
+      "checksum": "bf5f0d35fcabf17a50f1e29695fd456e",
+      "folder": false
+    },
+    {
+      "id": "1rQpOEbrq0nizIShjdqvbOql1DnmpsI6x",
+      "parent_id": "1N2SG3-nYRB2HI20msByXNeNO54qmRkTQ",
+      "name": "TÚP LỀU BÁC TOM.epub",
+      "mime": "application/epub+zip",
+      "size": 840512,
+      "modified": "2026-08-16T02:50:42.000Z",
+      "checksum": "cb2329d26e62d924fd2d894371aa6cad",
+      "folder": false
+    },
+    {
+      "id": "1QWXhnJtT8WjnamoNgZRwiP2UtQU_X5eI",
+      "parent_id": "1N2SG3-nYRB2HI20msByXNeNO54qmRkTQ",
+      "name": "TÚP LỀU BÁC TOM.pdf",
+      "mime": "application/pdf",
+      "size": 1480980,
+      "modified": "2026-08-16T02:50:39.000Z",
+      "checksum": "93d9ca353fbbd6bf1dea606269b68a84",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kstJNQ19CSj2cinYAhpMyGQDgotFWE4r",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UKfcqAgvitAo13MMon-1J91blJ8bPinJ",
+      "parent_id": "1kstJNQ19CSj2cinYAhpMyGQDgotFWE4r",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3010,
+      "modified": "2026-08-15T03:17:15.000Z",
+      "checksum": "71e19fdab1b5e87c8a47e90beb359ecc",
+      "folder": false
+    },
+    {
+      "id": "14fdxM6NxrHu54TE9OiscAU2duBSfqhCK",
+      "parent_id": "1kstJNQ19CSj2cinYAhpMyGQDgotFWE4r",
+      "name": "NHỮNG QUY TẮC ĐỂ GIÀU CÓ.epub",
+      "mime": "application/epub+zip",
+      "size": 347935,
+      "modified": "2026-08-15T03:17:21.000Z",
+      "checksum": "d5d9e470bec88d31a043e53cafa4df7e",
+      "folder": false
+    },
+    {
+      "id": "19xxOBn-MMtBruoVlgLxLv5qOXf7H9Q62",
+      "parent_id": "1kstJNQ19CSj2cinYAhpMyGQDgotFWE4r",
+      "name": "NHỮNG QUY TẮC ĐỂ GIÀU CÓ.pdf",
+      "mime": "application/pdf",
+      "size": 672516,
+      "modified": "2026-08-15T03:17:19.000Z",
+      "checksum": "0af85f714023a009589f73653be32c95",
+      "folder": false
+    }
+  ]
+}

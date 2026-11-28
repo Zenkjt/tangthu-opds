@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SudxTJ4YQ1BhKKbF1ubNd4lRGTRf7DAA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DmRBfAUxM98KZc9xWhQ1UF4Br39SUMDK",
+      "parent_id": "1SudxTJ4YQ1BhKKbF1ubNd4lRGTRf7DAA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4222,
+      "modified": "2026-08-15T03:19:19.000Z",
+      "checksum": "c611e730e072181ee004fa890bc4f95f",
+      "folder": false
+    },
+    {
+      "id": "1AiHvCWqDZQFXAWim9KxsvWRrIsk9i3Mu",
+      "parent_id": "1SudxTJ4YQ1BhKKbF1ubNd4lRGTRf7DAA",
+      "name": "NÃO BỘ KỂ GÌ VỀ BẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 1601523,
+      "modified": "2026-08-15T03:19:27.000Z",
+      "checksum": "53b33c37e087e98e95f38ec0fdbd2fed",
+      "folder": false
+    },
+    {
+      "id": "19dDAi5vFX1kj0r9L3MAll_h6QQBDVtQy",
+      "parent_id": "1SudxTJ4YQ1BhKKbF1ubNd4lRGTRf7DAA",
+      "name": "NÃO BỘ KỂ GÌ VỀ BẠN.pdf",
+      "mime": "application/pdf",
+      "size": 4148221,
+      "modified": "2026-08-15T03:19:24.000Z",
+      "checksum": "746b6a3cf3aa43d5cf7514a224aec7e2",
+      "folder": false
+    }
+  ]
+}

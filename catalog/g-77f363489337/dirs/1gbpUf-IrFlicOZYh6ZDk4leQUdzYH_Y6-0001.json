@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gbpUf-IrFlicOZYh6ZDk4leQUdzYH_Y6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vlqjBLVTPK13jwPpGKwjhIRgySmB1HJL",
+      "parent_id": "1gbpUf-IrFlicOZYh6ZDk4leQUdzYH_Y6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3135,
+      "modified": "2026-08-15T03:58:28.000Z",
+      "checksum": "e143f8e79762de571ed223da478b7fbe",
+      "folder": false
+    },
+    {
+      "id": "1yuEK2SpWtVIMKAvb6m_kkbJruzzBHAzN",
+      "parent_id": "1gbpUf-IrFlicOZYh6ZDk4leQUdzYH_Y6",
+      "name": "GIẢNG LUẬN ÁNH SÁNG TRÊN THÁNH ĐẠO.epub",
+      "mime": "application/epub+zip",
+      "size": 790617,
+      "modified": "2026-08-15T03:58:36.000Z",
+      "checksum": "9379a4cf40cd7f3bbd736938b376dc7d",
+      "folder": false
+    },
+    {
+      "id": "1ADgSRbpUZT5u1Rvzhl1q2hSJ9BODvrXw",
+      "parent_id": "1gbpUf-IrFlicOZYh6ZDk4leQUdzYH_Y6",
+      "name": "GIẢNG LUẬN ÁNH SÁNG TRÊN THÁNH ĐẠO.pdf",
+      "mime": "application/pdf",
+      "size": 2681484,
+      "modified": "2026-08-15T03:58:33.000Z",
+      "checksum": "350149649728e84bd2442c69475a25b0",
+      "folder": false
+    }
+  ]
+}

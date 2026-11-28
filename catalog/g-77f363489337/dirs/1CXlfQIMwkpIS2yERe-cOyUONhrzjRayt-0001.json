@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CXlfQIMwkpIS2yERe-cOyUONhrzjRayt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CRDxbgeS8xiA0LXdYKFOfIhcTKC28UJJ",
+      "parent_id": "1CXlfQIMwkpIS2yERe-cOyUONhrzjRayt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1676,
+      "modified": "2026-08-15T06:18:18.000Z",
+      "checksum": "27f0ebe0f7c5ea571fb84cff949535b5",
+      "folder": false
+    },
+    {
+      "id": "15cWUvngAiYFeRAoPmlINev6TJLFb8Ehy",
+      "parent_id": "1CXlfQIMwkpIS2yERe-cOyUONhrzjRayt",
+      "name": "HỒN VIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 429035,
+      "modified": "2026-08-15T06:18:26.000Z",
+      "checksum": "25e9f5afd3a289e52551a24ed00516e9",
+      "folder": false
+    },
+    {
+      "id": "16oCAR2Se53_PcQiUWYH9bZyar9AqVvRv",
+      "parent_id": "1CXlfQIMwkpIS2yERe-cOyUONhrzjRayt",
+      "name": "HỒN VIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 1297150,
+      "modified": "2026-08-15T06:18:24.000Z",
+      "checksum": "4807bcb62b911629953d6de228b616d2",
+      "folder": false
+    }
+  ]
+}

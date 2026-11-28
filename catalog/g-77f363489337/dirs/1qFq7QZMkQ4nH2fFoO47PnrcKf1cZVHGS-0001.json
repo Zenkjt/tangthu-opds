@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qFq7QZMkQ4nH2fFoO47PnrcKf1cZVHGS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JMwDZYbtOlertiMqeIAwuJWOUS-B2LQt",
+      "parent_id": "1qFq7QZMkQ4nH2fFoO47PnrcKf1cZVHGS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8483,
+      "modified": "2026-08-15T04:25:13.000Z",
+      "checksum": "2f110bc8cfd42e21d4fd7754cee81f42",
+      "folder": false
+    },
+    {
+      "id": "1MeBSPAWkx5p6wUj8oUj4VSDPFmVu3fpT",
+      "parent_id": "1qFq7QZMkQ4nH2fFoO47PnrcKf1cZVHGS",
+      "name": "ĐIỀU KỲ DIỆU CỦA NHỊN ĂN.epub",
+      "mime": "application/epub+zip",
+      "size": 255315,
+      "modified": "2026-08-15T04:25:19.000Z",
+      "checksum": "f3e17d9fc9b0111e9a89daef22593c43",
+      "folder": false
+    },
+    {
+      "id": "1c7soXJVgXIl6w-EHSFIPkuTu634YdeTe",
+      "parent_id": "1qFq7QZMkQ4nH2fFoO47PnrcKf1cZVHGS",
+      "name": "ĐIỀU KỲ DIỆU CỦA NHỊN ĂN.pdf",
+      "mime": "application/pdf",
+      "size": 801622,
+      "modified": "2026-08-15T04:25:17.000Z",
+      "checksum": "42db60b865af07eec6123ecce18d3096",
+      "folder": false
+    }
+  ]
+}

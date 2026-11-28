@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17ddGXGZysno6HJgCgbFL-KLrldDmBWLj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Y3lrsET6N2M1vZgOFGx3Ej_RWzryOU4V",
+      "parent_id": "17ddGXGZysno6HJgCgbFL-KLrldDmBWLj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2863,
+      "modified": "2026-08-15T10:05:05.000Z",
+      "checksum": "57ef56ab0dfa3be05aefbc2d1035b1f3",
+      "folder": false
+    },
+    {
+      "id": "1ZstOzx8jmFCH7AG5FSZFB_iTQQTc98xt",
+      "parent_id": "17ddGXGZysno6HJgCgbFL-KLrldDmBWLj",
+      "name": "VINH QUANG VÔ ÍCH.epub",
+      "mime": "application/epub+zip",
+      "size": 251513,
+      "modified": "2026-08-15T10:05:11.000Z",
+      "checksum": "b3263704af05b3b68ad5673c5931dffc",
+      "folder": false
+    },
+    {
+      "id": "1zLPLQzCZI_fSr2t86YHnJbNnVUgkXH0S",
+      "parent_id": "17ddGXGZysno6HJgCgbFL-KLrldDmBWLj",
+      "name": "VINH QUANG VÔ ÍCH.pdf",
+      "mime": "application/pdf",
+      "size": 383834,
+      "modified": "2026-08-15T10:05:09.000Z",
+      "checksum": "c039ee38f14391cc4c953516d94a0e89",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1S3AhERBPz1qa1l1TWxViwvGxZ_MmmsZC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1u-UuuYNamIxnQCZ4PhWUhrnffx-zuC2g",
+      "parent_id": "1S3AhERBPz1qa1l1TWxViwvGxZ_MmmsZC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2878,
+      "modified": "2026-08-15T10:31:45.000Z",
+      "checksum": "9b9df2867e927eb469138b5f55e719bf",
+      "folder": false
+    },
+    {
+      "id": "1ytz2iBl-mknuDr3HJH5357D2ITazVph8",
+      "parent_id": "1S3AhERBPz1qa1l1TWxViwvGxZ_MmmsZC",
+      "name": "PROVENCE ĐỢI CHỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 354311,
+      "modified": "2026-08-15T10:31:51.000Z",
+      "checksum": "a6d714b89ef6e6eeb5232dd1c6fe10bd",
+      "folder": false
+    },
+    {
+      "id": "1RzwdsunLW2wBDOeZfIsqVNcATBBwlbQA",
+      "parent_id": "1S3AhERBPz1qa1l1TWxViwvGxZ_MmmsZC",
+      "name": "PROVENCE ĐỢI CHỜ.pdf",
+      "mime": "application/pdf",
+      "size": 195914,
+      "modified": "2026-08-15T10:31:48.000Z",
+      "checksum": "bb93f88eede6bb050be566fc4b14e5a8",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_BoJFLR5aHS6ODM_QzKWptZOQTyKf6f7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vH93ruEVaTlRiXh2PkU23g436ubRT5we",
+      "parent_id": "1_BoJFLR5aHS6ODM_QzKWptZOQTyKf6f7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3789,
+      "modified": "2026-08-16T03:10:57.000Z",
+      "checksum": "8730a27968c8b2f1d711aace92b09841",
+      "folder": false
+    },
+    {
+      "id": "16hcmRBllgc0W6LwCfhGZawet_Dd6duYx",
+      "parent_id": "1_BoJFLR5aHS6ODM_QzKWptZOQTyKf6f7",
+      "name": "NGỌN LỬA MÙA ĐÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 683456,
+      "modified": "2026-08-16T03:11:04.000Z",
+      "checksum": "76f27475b0d4ce561a74a1a0295ee47f",
+      "folder": false
+    },
+    {
+      "id": "1z9jtuYwXJfO3qcuGquwS-29dnbXiJeGT",
+      "parent_id": "1_BoJFLR5aHS6ODM_QzKWptZOQTyKf6f7",
+      "name": "NGỌN LỬA MÙA ĐÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 1522301,
+      "modified": "2026-08-16T03:11:01.000Z",
+      "checksum": "edbfd0c5be052435a2cf7ef5707245a1",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SOcgAZ3HtAtr6Au47Jc7l6w1BHW3eBUG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kQoupgoq9B2400O_VaUqnA5XxswhDv89",
+      "parent_id": "1SOcgAZ3HtAtr6Au47Jc7l6w1BHW3eBUG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7744,
+      "modified": "2026-08-15T07:48:48.000Z",
+      "checksum": "c2fee6df8ecd89ff4734d342b7c7007e",
+      "folder": false
+    },
+    {
+      "id": "1WOiscwf9SAbsndCkuHgvEAamA1jHmAn3",
+      "parent_id": "1SOcgAZ3HtAtr6Au47Jc7l6w1BHW3eBUG",
+      "name": "HOÀNG ĐẾ CÀNG MUỐN CƯNG CHIỀU NÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 851932,
+      "modified": "2026-08-15T07:49:12.000Z",
+      "checksum": "148b3905657233701288e8292a74e94c",
+      "folder": false
+    },
+    {
+      "id": "1sSkct1DVANvtDqV9P6JRHeUlOJUPO8Y3",
+      "parent_id": "1SOcgAZ3HtAtr6Au47Jc7l6w1BHW3eBUG",
+      "name": "HOÀNG ĐẾ CÀNG MUỐN CƯNG CHIỀU NÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 2615239,
+      "modified": "2026-08-15T07:49:05.000Z",
+      "checksum": "61df205e3376e4e61b4e102e64a51197",
+      "folder": false
+    }
+  ]
+}

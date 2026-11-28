@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pDc6JQZLbZLT8vRgDej6JxBbnHmtYr9K",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eU9QZGpdAHY7G2ARE5CqVzjoX2u_EzbS",
+      "parent_id": "1pDc6JQZLbZLT8vRgDej6JxBbnHmtYr9K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3746,
+      "modified": "2026-08-15T00:45:18.000Z",
+      "checksum": "d6f1040e9e78055e9dc7826c4655400b",
+      "folder": false
+    },
+    {
+      "id": "1yGfB8mWWS5MUgfijx7tKv_TlyPb0e90I",
+      "parent_id": "1pDc6JQZLbZLT8vRgDej6JxBbnHmtYr9K",
+      "name": "TRANG TỬ TÂM ĐẮC.epub",
+      "mime": "application/epub+zip",
+      "size": 389233,
+      "modified": "2026-08-15T00:45:25.000Z",
+      "checksum": "2ac10fa1676b076bf45849c497a27c78",
+      "folder": false
+    },
+    {
+      "id": "1oGIbabmyRgBpHQujKR6eHf5DKjQMlVgT",
+      "parent_id": "1pDc6JQZLbZLT8vRgDej6JxBbnHmtYr9K",
+      "name": "TRANG TỬ TÂM ĐẮC.pdf",
+      "mime": "application/pdf",
+      "size": 636300,
+      "modified": "2026-08-15T00:45:22.000Z",
+      "checksum": "d240b31170d8f21d65f8fbe53ff9e1cd",
+      "folder": false
+    }
+  ]
+}

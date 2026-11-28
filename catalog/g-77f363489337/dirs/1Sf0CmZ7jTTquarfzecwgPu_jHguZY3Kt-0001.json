@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Sf0CmZ7jTTquarfzecwgPu_jHguZY3Kt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gQWb80Fjf8e-TGXT0GTd3MQzKd2997FG",
+      "parent_id": "1Sf0CmZ7jTTquarfzecwgPu_jHguZY3Kt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 458,
+      "modified": "2026-08-15T13:02:49.000Z",
+      "checksum": "09a22c44208da3f076b7fe84d725502c",
+      "folder": false
+    },
+    {
+      "id": "1TE69swSIAIu2xFMDsgyQP2Uut4RVddph",
+      "parent_id": "1Sf0CmZ7jTTquarfzecwgPu_jHguZY3Kt",
+      "name": "KIẾM SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 626827,
+      "modified": "2026-08-15T13:02:59.000Z",
+      "checksum": "7c8d5e60e912c6298a233b2ff4e09552",
+      "folder": false
+    },
+    {
+      "id": "1F6VhYx9evibwd-aTBeUuZAJF0LGi6XTU",
+      "parent_id": "1Sf0CmZ7jTTquarfzecwgPu_jHguZY3Kt",
+      "name": "KIẾM SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 1771262,
+      "modified": "2026-08-15T13:02:55.000Z",
+      "checksum": "3f91be768b5cb7019e0c233acd0ab750",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16rrKx-m3l9J5tp4BuKPCFkp7QWniUeJy",
+  "page": 1,
+  "items": [
+    {
+      "id": "10_0_yw3JFedHTW5nHkbSpMsKSIhbUiu1",
+      "parent_id": "16rrKx-m3l9J5tp4BuKPCFkp7QWniUeJy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 763,
+      "modified": "2026-08-15T10:53:35.000Z",
+      "checksum": "aef4e57b7c8d5df2b2d828ea34bb64c2",
+      "folder": false
+    },
+    {
+      "id": "1z-8gyOEvdylL9WUzPIlqvIsi1j_26N6Z",
+      "parent_id": "16rrKx-m3l9J5tp4BuKPCFkp7QWniUeJy",
+      "name": "LIỆT HỎA NHƯ CA.epub",
+      "mime": "application/epub+zip",
+      "size": 669829,
+      "modified": "2026-08-15T10:54:16.000Z",
+      "checksum": "626359147128e2a50c37a9a0f58725e1",
+      "folder": false
+    },
+    {
+      "id": "1MGLZoyfBch9NAUJGG0bLkkwD8SXEz-RR",
+      "parent_id": "16rrKx-m3l9J5tp4BuKPCFkp7QWniUeJy",
+      "name": "LIỆT HỎA NHƯ CA.pdf",
+      "mime": "application/pdf",
+      "size": 1555123,
+      "modified": "2026-08-15T10:54:04.000Z",
+      "checksum": "4b55a7fe7b83d69748aa553b0791e8a5",
+      "folder": false
+    }
+  ]
+}

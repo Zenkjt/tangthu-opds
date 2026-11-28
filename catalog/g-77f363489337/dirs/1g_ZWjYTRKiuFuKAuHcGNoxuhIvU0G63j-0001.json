@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1g_ZWjYTRKiuFuKAuHcGNoxuhIvU0G63j",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_EnoH-cQCTVsP0IxHe7nkFA_DF4qQQ-3",
+      "parent_id": "1g_ZWjYTRKiuFuKAuHcGNoxuhIvU0G63j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2258,
+      "modified": "2026-08-15T06:16:29.000Z",
+      "checksum": "f7db65b4aa69fb0031910891e9c31bfc",
+      "folder": false
+    },
+    {
+      "id": "1v0FEBMlgxCyRW2oQ-ecGDFD1WKqZAtcT",
+      "parent_id": "1g_ZWjYTRKiuFuKAuHcGNoxuhIvU0G63j",
+      "name": "LÀNG THIÊN NGA ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 892613,
+      "modified": "2026-08-15T06:16:37.000Z",
+      "checksum": "8dd637833c1edd250df5b4ec36fa14b5",
+      "folder": false
+    },
+    {
+      "id": "1GZHB19_X2Ku1lgZiMxjQvGEjlNdBnI7s",
+      "parent_id": "1g_ZWjYTRKiuFuKAuHcGNoxuhIvU0G63j",
+      "name": "LÀNG THIÊN NGA ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 1918500,
+      "modified": "2026-08-15T06:16:34.000Z",
+      "checksum": "b380556314a7d579ce8a42b4515585a0",
+      "folder": false
+    }
+  ]
+}

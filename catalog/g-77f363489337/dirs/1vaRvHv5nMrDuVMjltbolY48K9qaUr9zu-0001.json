@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vaRvHv5nMrDuVMjltbolY48K9qaUr9zu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VlPvkCN_iDECE_cMcgnjTuc21VNLHTRj",
+      "parent_id": "1vaRvHv5nMrDuVMjltbolY48K9qaUr9zu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3277,
+      "modified": "2026-08-15T10:19:50.000Z",
+      "checksum": "bed225e0aa1923f1cfbe02fb8163dc72",
+      "folder": false
+    },
+    {
+      "id": "1B4YN3dXj5ZTj02xti7w4xNujvr5YdZmU",
+      "parent_id": "1vaRvHv5nMrDuVMjltbolY48K9qaUr9zu",
+      "name": "TÊN CỦA KHÍ TRỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 347786,
+      "modified": "2026-08-15T10:19:59.000Z",
+      "checksum": "198cd0b490bff1ff99f2a97ed9c551a9",
+      "folder": false
+    },
+    {
+      "id": "1Tsuf2ncbTLg1DoxPrWyWJ5athi3HylWM",
+      "parent_id": "1vaRvHv5nMrDuVMjltbolY48K9qaUr9zu",
+      "name": "TÊN CỦA KHÍ TRỜI.pdf",
+      "mime": "application/pdf",
+      "size": 354449,
+      "modified": "2026-08-15T10:19:55.000Z",
+      "checksum": "ad1c6fa1e5d222732bbe4151732ea916",
+      "folder": false
+    }
+  ]
+}

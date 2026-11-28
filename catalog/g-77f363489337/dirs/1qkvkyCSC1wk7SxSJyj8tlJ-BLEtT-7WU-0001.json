@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qkvkyCSC1wk7SxSJyj8tlJ-BLEtT-7WU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1w6TPiPglt--xojW1yuWPWwkEs83uxTGD",
+      "parent_id": "1qkvkyCSC1wk7SxSJyj8tlJ-BLEtT-7WU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2475,
+      "modified": "2026-08-15T03:15:40.000Z",
+      "checksum": "b88f4568a72bcb7ac217097861dac22e",
+      "folder": false
+    },
+    {
+      "id": "1pU2kRGIy4qB9FIeBGQnKqHC0cBW8jXq-",
+      "parent_id": "1qkvkyCSC1wk7SxSJyj8tlJ-BLEtT-7WU",
+      "name": "LỜI VÀNG CỦA BỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 305865,
+      "modified": "2026-08-15T03:15:45.000Z",
+      "checksum": "9ff9bcf951f18f63d6937895489f00e9",
+      "folder": false
+    },
+    {
+      "id": "1nCOQQUho0aObahnLdzDA1PeSUQi4USdU",
+      "parent_id": "1qkvkyCSC1wk7SxSJyj8tlJ-BLEtT-7WU",
+      "name": "LỜI VÀNG CỦA BỐ.pdf",
+      "mime": "application/pdf",
+      "size": 500303,
+      "modified": "2026-08-15T03:15:42.000Z",
+      "checksum": "3cef903a7f37685ef790097fbb35d197",
+      "folder": false
+    }
+  ]
+}

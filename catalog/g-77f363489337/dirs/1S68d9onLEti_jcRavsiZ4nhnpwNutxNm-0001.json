@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1S68d9onLEti_jcRavsiZ4nhnpwNutxNm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1z98pZtDZDBIMeneZAaltHaHrZ6nTpvxM",
+      "parent_id": "1S68d9onLEti_jcRavsiZ4nhnpwNutxNm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1641,
+      "modified": "2026-08-15T13:13:03.000Z",
+      "checksum": "5494f927496d8f5035a10e08e982c714",
+      "folder": false
+    },
+    {
+      "id": "1NJdBCQFKWCKAX0JX2Lhs-dq5oociNfPB",
+      "parent_id": "1S68d9onLEti_jcRavsiZ4nhnpwNutxNm",
+      "name": "ĐỊA LỢI.epub",
+      "mime": "application/epub+zip",
+      "size": 629543,
+      "modified": "2026-08-15T13:13:11.000Z",
+      "checksum": "ff208f0f5a2d8b1fe83ad9288e3ddae6",
+      "folder": false
+    },
+    {
+      "id": "10L4R23SVLzSdjgs5wP6Mbil-pncFV11c",
+      "parent_id": "1S68d9onLEti_jcRavsiZ4nhnpwNutxNm",
+      "name": "ĐỊA LỢI.pdf",
+      "mime": "application/pdf",
+      "size": 999593,
+      "modified": "2026-08-15T13:13:08.000Z",
+      "checksum": "baaea01d1673c4f69d921e51b3033577",
+      "folder": false
+    }
+  ]
+}

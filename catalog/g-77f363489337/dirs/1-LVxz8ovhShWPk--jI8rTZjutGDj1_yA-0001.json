@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-LVxz8ovhShWPk--jI8rTZjutGDj1_yA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pxFlnyxJ0GTDhDV2V_qgvZlXTTuCyLmb",
+      "parent_id": "1-LVxz8ovhShWPk--jI8rTZjutGDj1_yA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2523,
+      "modified": "2026-08-15T03:24:38.000Z",
+      "checksum": "63f55e188c15bfd377b66f7c73d9abe0",
+      "folder": false
+    },
+    {
+      "id": "1Hcm-Ttpt4qu7NZlcxJwRx-UfuBO2NVaf",
+      "parent_id": "1-LVxz8ovhShWPk--jI8rTZjutGDj1_yA",
+      "name": "MỞ KHÓA SÁNG TẠO.epub",
+      "mime": "application/epub+zip",
+      "size": 680024,
+      "modified": "2026-08-15T03:24:45.000Z",
+      "checksum": "9c0c19653a8c9527e9748dbe462db54e",
+      "folder": false
+    },
+    {
+      "id": "1CqwKKEh1hgrKe2OsmDE4-15qUWF6EXxq",
+      "parent_id": "1-LVxz8ovhShWPk--jI8rTZjutGDj1_yA",
+      "name": "MỞ KHÓA SÁNG TẠO.pdf",
+      "mime": "application/pdf",
+      "size": 739232,
+      "modified": "2026-08-15T03:24:42.000Z",
+      "checksum": "01719666ce7838c131b63b4d532d41f9",
+      "folder": false
+    }
+  ]
+}

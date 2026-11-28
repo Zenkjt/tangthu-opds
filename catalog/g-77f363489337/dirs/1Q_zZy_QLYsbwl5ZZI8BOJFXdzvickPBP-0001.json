@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Q_zZy_QLYsbwl5ZZI8BOJFXdzvickPBP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NzhRA53FI3FgbmyNfmlEuWyG0lbeqOfz",
+      "parent_id": "1Q_zZy_QLYsbwl5ZZI8BOJFXdzvickPBP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6730,
+      "modified": "2026-08-16T03:29:53.000Z",
+      "checksum": "9059c590cbdd1b4c57f21c939b249df9",
+      "folder": false
+    },
+    {
+      "id": "18deQTGzgD5Gs1bB6tOWD2eNqOJEO7TAp",
+      "parent_id": "1Q_zZy_QLYsbwl5ZZI8BOJFXdzvickPBP",
+      "name": "DẶM XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 526361,
+      "modified": "2026-08-16T03:30:00.000Z",
+      "checksum": "cdf2af1c7b55053e8880e713f727b231",
+      "folder": false
+    },
+    {
+      "id": "1Fka5cetYWbNgnJ8mJoN17jq8zBx1CVsR",
+      "parent_id": "1Q_zZy_QLYsbwl5ZZI8BOJFXdzvickPBP",
+      "name": "DẶM XANH.pdf",
+      "mime": "application/pdf",
+      "size": 1153608,
+      "modified": "2026-08-16T03:29:57.000Z",
+      "checksum": "efc8fa040c34590d94110c1570e90088",
+      "folder": false
+    }
+  ]
+}

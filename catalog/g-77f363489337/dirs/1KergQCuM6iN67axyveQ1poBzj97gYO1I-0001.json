@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KergQCuM6iN67axyveQ1poBzj97gYO1I",
+  "page": 1,
+  "items": [
+    {
+      "id": "135vJRCWxmWFBXJfv644lBAU3bQ0kna6Z",
+      "parent_id": "1KergQCuM6iN67axyveQ1poBzj97gYO1I",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2745,
+      "modified": "2026-08-15T15:34:45.000Z",
+      "checksum": "8108ed7574e3875a14afc41e898a8aa2",
+      "folder": false
+    },
+    {
+      "id": "1Y8k7mvD_KgT2-e45hlAB6X1PJjRiN39E",
+      "parent_id": "1KergQCuM6iN67axyveQ1poBzj97gYO1I",
+      "name": "VIÊN NGỌC CỦA HOÀNG ĐẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 549183,
+      "modified": "2026-08-15T15:34:53.000Z",
+      "checksum": "5a7848d0ce4f8cc3694dd893ef926e3b",
+      "folder": false
+    },
+    {
+      "id": "1kxdA3THAJQRZqtvEZy1k6ohDYgimV_5I",
+      "parent_id": "1KergQCuM6iN67axyveQ1poBzj97gYO1I",
+      "name": "VIÊN NGỌC CỦA HOÀNG ĐẾ.pdf",
+      "mime": "application/pdf",
+      "size": 623625,
+      "modified": "2026-08-15T15:34:49.000Z",
+      "checksum": "f24cd9a1f9c451ff30a507b2a219dcc4",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-cOFMiJJgs5Q4MRRuMCFTB3TXRXbTsCw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HeZPuXUfDj5gu4FUHrDIx1P6bukUE6Kn",
+      "parent_id": "1-cOFMiJJgs5Q4MRRuMCFTB3TXRXbTsCw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3484,
+      "modified": "2026-08-15T07:54:43.000Z",
+      "checksum": "c876bd8534b6afb441418c7cc3c8e188",
+      "folder": false
+    },
+    {
+      "id": "1hwWopr8omKj7YOyhRZcGcL8gtZ5Ya3M9",
+      "parent_id": "1-cOFMiJJgs5Q4MRRuMCFTB3TXRXbTsCw",
+      "name": "HÀNH TRÌNH TÌM KIẾM SAM.epub",
+      "mime": "application/epub+zip",
+      "size": 499279,
+      "modified": "2026-08-15T07:54:49.000Z",
+      "checksum": "e30890c52fe3d6df791c466e11f3fc4c",
+      "folder": false
+    },
+    {
+      "id": "1tIXqzp_Uo5CrQFXXTxeIk_C5BSt_7Fzr",
+      "parent_id": "1-cOFMiJJgs5Q4MRRuMCFTB3TXRXbTsCw",
+      "name": "HÀNH TRÌNH TÌM KIẾM SAM.pdf",
+      "mime": "application/pdf",
+      "size": 406156,
+      "modified": "2026-08-15T07:54:46.000Z",
+      "checksum": "35ce44e5c4a46335eac904193df9e947",
+      "folder": false
+    }
+  ]
+}

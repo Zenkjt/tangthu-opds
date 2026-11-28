@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Xrv6ReeuF2m2_Urd66ddX3_KBrpAQUBB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rHsWuN7Nq3um-VHmUZKcCKxsUrwDOAwf",
+      "parent_id": "1Xrv6ReeuF2m2_Urd66ddX3_KBrpAQUBB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10847,
+      "modified": "2026-08-16T03:47:33.000Z",
+      "checksum": "01c1cf625a1cac3b0ed820044255db09",
+      "folder": false
+    },
+    {
+      "id": "1kdvaYWHBMBoK7tKlcfe2u5mjqsUV3Uym",
+      "parent_id": "1Xrv6ReeuF2m2_Urd66ddX3_KBrpAQUBB",
+      "name": "VUA HÀM NGHI.epub",
+      "mime": "application/epub+zip",
+      "size": 279274,
+      "modified": "2026-08-16T03:47:39.000Z",
+      "checksum": "5c72a930185a708c14967d4dd27d20b2",
+      "folder": false
+    },
+    {
+      "id": "1o17idJ4RC7SUspH2AGgNjPowoOdREIBe",
+      "parent_id": "1Xrv6ReeuF2m2_Urd66ddX3_KBrpAQUBB",
+      "name": "VUA HÀM NGHI.pdf",
+      "mime": "application/pdf",
+      "size": 610263,
+      "modified": "2026-08-16T03:47:37.000Z",
+      "checksum": "a676701a5ad09d5338139b8dfe31bdcf",
+      "folder": false
+    }
+  ]
+}

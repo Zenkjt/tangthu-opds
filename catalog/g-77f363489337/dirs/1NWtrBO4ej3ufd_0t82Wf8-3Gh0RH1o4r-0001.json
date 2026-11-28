@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NWtrBO4ej3ufd_0t82Wf8-3Gh0RH1o4r",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yiUdQC4pwrBUxbwmEdMXfwjWxpdccMnC",
+      "parent_id": "1NWtrBO4ej3ufd_0t82Wf8-3Gh0RH1o4r",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3205,
+      "modified": "2026-08-15T05:53:21.000Z",
+      "checksum": "a7cc7b030a91a37d490bd900e6032e1b",
+      "folder": false
+    },
+    {
+      "id": "14KwYyKDIwjijZxqUTwRDf2no-uZemHsw",
+      "parent_id": "1NWtrBO4ej3ufd_0t82Wf8-3Gh0RH1o4r",
+      "name": "ÔSIN NHÀ BỘ TRƯỞNG.epub",
+      "mime": "application/epub+zip",
+      "size": 764428,
+      "modified": "2026-08-15T05:53:30.000Z",
+      "checksum": "f2dcb41d66929d497b1e80d19e724bf4",
+      "folder": false
+    },
+    {
+      "id": "1tMchHVu2mI9lh2r281wGwTDyTuYvFjte",
+      "parent_id": "1NWtrBO4ej3ufd_0t82Wf8-3Gh0RH1o4r",
+      "name": "ÔSIN NHÀ BỘ TRƯỞNG.pdf",
+      "mime": "application/pdf",
+      "size": 2386152,
+      "modified": "2026-08-15T05:53:27.000Z",
+      "checksum": "460869c502376ef4f2a8f444dd2b7cd9",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PCCvSHwQEHPWleDx-_GrtC0_CurKON56",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dLwqdHfTFdIqRBw7j_JGL4kClMWHkvq4",
+      "parent_id": "1PCCvSHwQEHPWleDx-_GrtC0_CurKON56",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3020,
+      "modified": "2026-08-15T10:34:51.000Z",
+      "checksum": "83b765711f605c740555bb9d4319e398",
+      "folder": false
+    },
+    {
+      "id": "1DNt-uqaegLtuAafPZkw9-7OGPf3aAT5a",
+      "parent_id": "1PCCvSHwQEHPWleDx-_GrtC0_CurKON56",
+      "name": "Ổ RẮN ĐỘC.epub",
+      "mime": "application/epub+zip",
+      "size": 494306,
+      "modified": "2026-08-15T10:35:00.000Z",
+      "checksum": "32165dc392ce95869b1dd960cd00b6b5",
+      "folder": false
+    },
+    {
+      "id": "1lwCjnDw8PhYGkTOjGUf-PKhZZBtA9RWV",
+      "parent_id": "1PCCvSHwQEHPWleDx-_GrtC0_CurKON56",
+      "name": "Ổ RẮN ĐỘC.pdf",
+      "mime": "application/pdf",
+      "size": 506504,
+      "modified": "2026-08-15T10:34:56.000Z",
+      "checksum": "e00b31c752b1355e0a40afbe6f0004c0",
+      "folder": false
+    }
+  ]
+}

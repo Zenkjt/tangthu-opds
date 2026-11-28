@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11BJ4jOGkJMiUNf5RMgzArpyw0hkecW-N",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VZmeyeHt2TYu5YW0kZ6AcYgCInhn3i6l",
+      "parent_id": "11BJ4jOGkJMiUNf5RMgzArpyw0hkecW-N",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2285,
+      "modified": "2026-08-16T03:37:05.000Z",
+      "checksum": "11409afa98b7e21b2581c3afe83d9f5f",
+      "folder": false
+    },
+    {
+      "id": "1YNBc-p2Jg5uop6lKGCsgK4r4luFh8Zfv",
+      "parent_id": "11BJ4jOGkJMiUNf5RMgzArpyw0hkecW-N",
+      "name": "MÌNH VỀ NHÀ THÔI!.epub",
+      "mime": "application/epub+zip",
+      "size": 359304,
+      "modified": "2026-08-16T03:37:11.000Z",
+      "checksum": "1dc453ff1c3a2096fb674261f8261635",
+      "folder": false
+    },
+    {
+      "id": "1hd2kgmcPpNkdzoSaWrnQzZqR3TYryBKa",
+      "parent_id": "11BJ4jOGkJMiUNf5RMgzArpyw0hkecW-N",
+      "name": "MÌNH VỀ NHÀ THÔI!.pdf",
+      "mime": "application/pdf",
+      "size": 424603,
+      "modified": "2026-08-16T03:37:09.000Z",
+      "checksum": "3938cc9435b3f8d7f8c2a0f42682d130",
+      "folder": false
+    }
+  ]
+}

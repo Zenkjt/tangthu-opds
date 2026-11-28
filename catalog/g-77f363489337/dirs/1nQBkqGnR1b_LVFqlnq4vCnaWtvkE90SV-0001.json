@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nQBkqGnR1b_LVFqlnq4vCnaWtvkE90SV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CjTWeFwYULXNsL48K39LVDAaNno6LOG1",
+      "parent_id": "1nQBkqGnR1b_LVFqlnq4vCnaWtvkE90SV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2228,
+      "modified": "2026-08-16T03:09:08.000Z",
+      "checksum": "aaa2b08e8d5ea4c761ea4cf9ac28b4e8",
+      "folder": false
+    },
+    {
+      "id": "1rBie42kfVjdyqG_DyIKo30i8cB4d1BUR",
+      "parent_id": "1nQBkqGnR1b_LVFqlnq4vCnaWtvkE90SV",
+      "name": "ĐỐT ĐỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 521751,
+      "modified": "2026-08-16T03:09:14.000Z",
+      "checksum": "3895325c14b67d65c7ae9fabf9ca49da",
+      "folder": false
+    },
+    {
+      "id": "1PLzJAiR81gRQ0-iqy2BLQS5ywS3Ji0T-",
+      "parent_id": "1nQBkqGnR1b_LVFqlnq4vCnaWtvkE90SV",
+      "name": "ĐỐT ĐỜI.pdf",
+      "mime": "application/pdf",
+      "size": 657542,
+      "modified": "2026-08-16T03:09:12.000Z",
+      "checksum": "c2a498185ab3be62797d8213e508fb44",
+      "folder": false
+    }
+  ]
+}

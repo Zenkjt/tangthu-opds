@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1I86lWHhqPtfEWCR-IRKLq4OsZ97dJ3g5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cghVM8ZQ75t6ZaAkRkktpr2eklo5wtYh",
+      "parent_id": "1I86lWHhqPtfEWCR-IRKLq4OsZ97dJ3g5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2261,
+      "modified": "2026-08-15T03:59:30.000Z",
+      "checksum": "961dcfe2aed752d84b476dd2b93053d7",
+      "folder": false
+    },
+    {
+      "id": "1aXRpK29KvStvKi5svKjYwkFF_d7pNaHX",
+      "parent_id": "1I86lWHhqPtfEWCR-IRKLq4OsZ97dJ3g5",
+      "name": "HÀO QUANG CON NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 3375375,
+      "modified": "2026-08-15T03:59:39.000Z",
+      "checksum": "54f6a647fe23400aad1c2f3650f65904",
+      "folder": false
+    },
+    {
+      "id": "1k3W79pG3m5ftsVxv9orwVkC0aAf93aLw",
+      "parent_id": "1I86lWHhqPtfEWCR-IRKLq4OsZ97dJ3g5",
+      "name": "HÀO QUANG CON NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 3931581,
+      "modified": "2026-08-15T03:59:36.000Z",
+      "checksum": "b9d8399980118a69b9ac789f30d9168a",
+      "folder": false
+    }
+  ]
+}

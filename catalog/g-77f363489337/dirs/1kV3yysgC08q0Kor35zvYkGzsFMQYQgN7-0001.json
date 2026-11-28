@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kV3yysgC08q0Kor35zvYkGzsFMQYQgN7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dRGXlgwNSHIdLHQW_WZkW44BsT9s27ql",
+      "parent_id": "1kV3yysgC08q0Kor35zvYkGzsFMQYQgN7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3382,
+      "modified": "2026-08-15T08:11:34.000Z",
+      "checksum": "e7a8acb7a22fc94be4dddf0368bb29fe",
+      "folder": false
+    },
+    {
+      "id": "1vM2UEd420_Duce9jR6UHuuaUsjHjHn0r",
+      "parent_id": "1kV3yysgC08q0Kor35zvYkGzsFMQYQgN7",
+      "name": "MẪU HẬU, TA CHỈ CẦN NGƯỜI!.epub",
+      "mime": "application/epub+zip",
+      "size": 1042907,
+      "modified": "2026-08-15T08:11:43.000Z",
+      "checksum": "23631b098ad657644748d71d4f19d534",
+      "folder": false
+    },
+    {
+      "id": "1by30jfxlE7CtIe24h5TX6V7qW3oawdFX",
+      "parent_id": "1kV3yysgC08q0Kor35zvYkGzsFMQYQgN7",
+      "name": "MẪU HẬU, TA CHỈ CẦN NGƯỜI!.pdf",
+      "mime": "application/pdf",
+      "size": 520184,
+      "modified": "2026-08-15T08:11:38.000Z",
+      "checksum": "cf87e2811e463647f9421a0dcd87db70",
+      "folder": false
+    }
+  ]
+}

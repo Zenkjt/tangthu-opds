@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11E1VSxyA2YNvGbg-NUKTz2pmYHqqFb-n",
+  "page": 1,
+  "items": [
+    {
+      "id": "14i5Pp95_mXZbkVWXLWO8XIfjGE7kTvEB",
+      "parent_id": "11E1VSxyA2YNvGbg-NUKTz2pmYHqqFb-n",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3188,
+      "modified": "2026-08-15T10:12:16.000Z",
+      "checksum": "a6a05041b7c382cb2793077cc6b26b67",
+      "folder": false
+    },
+    {
+      "id": "1bl8HwE5fqOLRSvxROiWHG8g4DEqxjDDL",
+      "parent_id": "11E1VSxyA2YNvGbg-NUKTz2pmYHqqFb-n",
+      "name": "THỦ TUẾ HỆ LIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 1568098,
+      "modified": "2026-08-15T10:12:26.000Z",
+      "checksum": "06377488cdb2059a5910de4ed78ea7b4",
+      "folder": false
+    },
+    {
+      "id": "168Fo5aAZXGEJz-eNgU5GjawO-xsagynB",
+      "parent_id": "11E1VSxyA2YNvGbg-NUKTz2pmYHqqFb-n",
+      "name": "THỦ TUẾ HỆ LIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 1812120,
+      "modified": "2026-08-15T10:12:23.000Z",
+      "checksum": "11719d4b2cac97155f5401263503a7d7",
+      "folder": false
+    }
+  ]
+}

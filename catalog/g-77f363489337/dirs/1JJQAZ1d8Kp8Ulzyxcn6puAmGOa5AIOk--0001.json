@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JJQAZ1d8Kp8Ulzyxcn6puAmGOa5AIOk-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fmB1wY00_6NzpKw4qSuRTxyBz21m7aVk",
+      "parent_id": "1JJQAZ1d8Kp8Ulzyxcn6puAmGOa5AIOk-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4023,
+      "modified": "2026-08-15T07:50:26.000Z",
+      "checksum": "cab75bf94dc188431021cf0dc0ab06a4",
+      "folder": false
+    },
+    {
+      "id": "1-Ickm_DpA_w3qCw-HNu4c9-Rl-cqBtcE",
+      "parent_id": "1JJQAZ1d8Kp8Ulzyxcn6puAmGOa5AIOk-",
+      "name": "ĐẠI LỤC THẤT LẠC.epub",
+      "mime": "application/epub+zip",
+      "size": 1846699,
+      "modified": "2026-08-15T07:50:40.000Z",
+      "checksum": "32510057b2047c7e9bf03db1571441da",
+      "folder": false
+    },
+    {
+      "id": "18TrAUs1hQQ11WiAVNolntstrosmhvFlW",
+      "parent_id": "1JJQAZ1d8Kp8Ulzyxcn6puAmGOa5AIOk-",
+      "name": "ĐẠI LỤC THẤT LẠC.pdf",
+      "mime": "application/pdf",
+      "size": 1457564,
+      "modified": "2026-08-15T07:50:35.000Z",
+      "checksum": "e1ee4fe509a3ad9d6b1cfc28a300d535",
+      "folder": false
+    }
+  ]
+}

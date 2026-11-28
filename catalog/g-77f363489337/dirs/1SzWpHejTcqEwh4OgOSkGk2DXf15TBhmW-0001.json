@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SzWpHejTcqEwh4OgOSkGk2DXf15TBhmW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1T8q4avmKhgKQc9sFCFhot3NuruXmfzQg",
+      "parent_id": "1SzWpHejTcqEwh4OgOSkGk2DXf15TBhmW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3165,
+      "modified": "2026-08-16T04:15:36.000Z",
+      "checksum": "9d0c2169b531cd32acb5fc515a719952",
+      "folder": false
+    },
+    {
+      "id": "1U-U3YJWg7vOIy_pJ-ZHuHhbDZ081qfZI",
+      "parent_id": "1SzWpHejTcqEwh4OgOSkGk2DXf15TBhmW",
+      "name": "NGÀY 4 THÁNG 7.epub",
+      "mime": "application/epub+zip",
+      "size": 501964,
+      "modified": "2026-08-16T04:15:43.000Z",
+      "checksum": "787457dc24fe67b06cf9c4bf5917e9aa",
+      "folder": false
+    },
+    {
+      "id": "1pI6kxk_k3NoFmnuV-mYtxKPNk9J_L_QP",
+      "parent_id": "1SzWpHejTcqEwh4OgOSkGk2DXf15TBhmW",
+      "name": "NGÀY 4 THÁNG 7.pdf",
+      "mime": "application/pdf",
+      "size": 891982,
+      "modified": "2026-08-16T04:15:40.000Z",
+      "checksum": "9fbc14961c17a447ef9fd13d77be3bca",
+      "folder": false
+    }
+  ]
+}

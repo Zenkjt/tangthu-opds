@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EDqu_uSCYKUCgaHpxU8fbrpzyvm3I71h",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sjq6sA8aApQBgCNYK13pU64bDLARK_-X",
+      "parent_id": "1EDqu_uSCYKUCgaHpxU8fbrpzyvm3I71h",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4275,
+      "modified": "2026-08-16T03:30:34.000Z",
+      "checksum": "c2e45d8527a582559a53d4bbc58bd4c9",
+      "folder": false
+    },
+    {
+      "id": "1qw5frgdiyUDdJ77aXmymiS7qwPkhHgHy",
+      "parent_id": "1EDqu_uSCYKUCgaHpxU8fbrpzyvm3I71h",
+      "name": "NAM CỰC TINH HUY.epub",
+      "mime": "application/epub+zip",
+      "size": 571576,
+      "modified": "2026-08-16T03:30:41.000Z",
+      "checksum": "8cfc446847deabcae5cb88f300b201b8",
+      "folder": false
+    },
+    {
+      "id": "1ikxDfGdviZNtFMkMw0FzeNqaXpihOGal",
+      "parent_id": "1EDqu_uSCYKUCgaHpxU8fbrpzyvm3I71h",
+      "name": "NAM CỰC TINH HUY.pdf",
+      "mime": "application/pdf",
+      "size": 1147364,
+      "modified": "2026-08-16T03:30:39.000Z",
+      "checksum": "fe01925685a7847c4e88c9ea50b74fee",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QxKk5sd1dimf7iT2mXn_hNn3nqTJNHJV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HfQgOWGTyRMvLILfkWxkj9sg6U2-9g-H",
+      "parent_id": "1QxKk5sd1dimf7iT2mXn_hNn3nqTJNHJV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 542,
+      "modified": "2026-08-15T10:27:54.000Z",
+      "checksum": "7cd2a7abd434e43a3ec5bd4966e73e9d",
+      "folder": false
+    },
+    {
+      "id": "1ErO1SevH9YeEcaOGtE4ywzQ0NP6_NDwu",
+      "parent_id": "1QxKk5sd1dimf7iT2mXn_hNn3nqTJNHJV",
+      "name": "SÁT THỦ TOKYO.epub",
+      "mime": "application/epub+zip",
+      "size": 695450,
+      "modified": "2026-08-15T10:28:04.000Z",
+      "checksum": "4419e26053665f4f0e985a21ef0420b3",
+      "folder": false
+    },
+    {
+      "id": "1OeVDaj3opAfZVwdDDX4KrBZ2ap_SvneH",
+      "parent_id": "1QxKk5sd1dimf7iT2mXn_hNn3nqTJNHJV",
+      "name": "SÁT THỦ TOKYO.pdf",
+      "mime": "application/pdf",
+      "size": 1359890,
+      "modified": "2026-08-15T10:28:01.000Z",
+      "checksum": "50b392d094ccf70b83d76c68845e7db6",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1s7lZgmmpj_p3wR79Ex7RFJ0bSi801UZa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LyFgWJ-gHdY7rHFdE1kl6ZZ-i2K3F4yo",
+      "parent_id": "1s7lZgmmpj_p3wR79Ex7RFJ0bSi801UZa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5913,
+      "modified": "2026-08-16T03:40:30.000Z",
+      "checksum": "2b5937cdf60680b3919043a418f56cd2",
+      "folder": false
+    },
+    {
+      "id": "1C-3GYqG0Rj9GmBf-LWwe6gAUugksW4Ad",
+      "parent_id": "1s7lZgmmpj_p3wR79Ex7RFJ0bSi801UZa",
+      "name": "HIỀN HẬU THỰC NHÀN.epub",
+      "mime": "application/epub+zip",
+      "size": 1093124,
+      "modified": "2026-08-16T03:40:45.000Z",
+      "checksum": "3ba095c3b69914dad5091e3aa8f0a2ca",
+      "folder": false
+    },
+    {
+      "id": "1Yqg0IZvVp0LBoOYBL9qe3oyIzINpW6dB",
+      "parent_id": "1s7lZgmmpj_p3wR79Ex7RFJ0bSi801UZa",
+      "name": "HIỀN HẬU THỰC NHÀN.pdf",
+      "mime": "application/pdf",
+      "size": 4208086,
+      "modified": "2026-08-16T03:40:41.000Z",
+      "checksum": "dd035892a144ed2c0c866c5bb7b84ca1",
+      "folder": false
+    }
+  ]
+}

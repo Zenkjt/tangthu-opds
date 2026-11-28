@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bMX7O9vR5iCw_Xx1Tlhp2IM6sczY_15Z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1x3T2fBxamReIqCAyuF5EYbAx_eJoiuQh",
+      "parent_id": "1bMX7O9vR5iCw_Xx1Tlhp2IM6sczY_15Z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3619,
+      "modified": "2026-08-15T10:13:28.000Z",
+      "checksum": "7dd1963101249d74d4c86afdd3a6db84",
+      "folder": false
+    },
+    {
+      "id": "1YnY5u_2ci1-ew1HeksjS9J2T1uHnqvHp",
+      "parent_id": "1bMX7O9vR5iCw_Xx1Tlhp2IM6sczY_15Z",
+      "name": "THIẾU PHU NHÂN VÔ LẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 1480262,
+      "modified": "2026-08-15T10:13:43.000Z",
+      "checksum": "35c74a8f361c121196cbdb2d6d62bf86",
+      "folder": false
+    },
+    {
+      "id": "1d85168cadOXP14ShMIFTkk0ZBobi0PQ9",
+      "parent_id": "1bMX7O9vR5iCw_Xx1Tlhp2IM6sczY_15Z",
+      "name": "THIẾU PHU NHÂN VÔ LẠI.pdf",
+      "mime": "application/pdf",
+      "size": 7012758,
+      "modified": "2026-08-15T10:13:39.000Z",
+      "checksum": "b4fd32b5ac72fb030d45a2120a96abb9",
+      "folder": false
+    }
+  ]
+}

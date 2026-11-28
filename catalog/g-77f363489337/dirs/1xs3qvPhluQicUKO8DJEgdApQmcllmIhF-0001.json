@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xs3qvPhluQicUKO8DJEgdApQmcllmIhF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1f83tZ3H0I3EOKI7Bm1uSdew40f_Copia",
+      "parent_id": "1xs3qvPhluQicUKO8DJEgdApQmcllmIhF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3242,
+      "modified": "2026-08-15T10:25:05.000Z",
+      "checksum": "328b3644120dba332f280ce38f8e780a",
+      "folder": false
+    },
+    {
+      "id": "1OlzGDANeAuics2RV7MIN-0w__VHiVYca",
+      "parent_id": "1xs3qvPhluQicUKO8DJEgdApQmcllmIhF",
+      "name": "SỰ THẬT VỀ HÒN ĐÁ PHÙ THỦY.epub",
+      "mime": "application/epub+zip",
+      "size": 558653,
+      "modified": "2026-08-15T10:25:16.000Z",
+      "checksum": "512e29c52ddd674a9a798eb442da4259",
+      "folder": false
+    },
+    {
+      "id": "1DY9kT5yAZJp6wdv5sZaf2oLLKjJJ_09w",
+      "parent_id": "1xs3qvPhluQicUKO8DJEgdApQmcllmIhF",
+      "name": "SỰ THẬT VỀ HÒN ĐÁ PHÙ THỦY.pdf",
+      "mime": "application/pdf",
+      "size": 1590004,
+      "modified": "2026-08-15T10:25:13.000Z",
+      "checksum": "92b05091e2c733b1f30ad42e3b7bfbee",
+      "folder": false
+    }
+  ]
+}

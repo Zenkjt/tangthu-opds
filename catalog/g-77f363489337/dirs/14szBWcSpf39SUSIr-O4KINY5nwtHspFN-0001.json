@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14szBWcSpf39SUSIr-O4KINY5nwtHspFN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1--_SddpsTu5AKPAA3HOMaFGQKMqh0exN",
+      "parent_id": "14szBWcSpf39SUSIr-O4KINY5nwtHspFN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3359,
+      "modified": "2026-08-15T07:03:59.000Z",
+      "checksum": "610f115f101abd55b436dfe34734c331",
+      "folder": false
+    },
+    {
+      "id": "1nHbAQEy5UOv0wgqChGYqe1-5uEgUp0RJ",
+      "parent_id": "14szBWcSpf39SUSIr-O4KINY5nwtHspFN",
+      "name": "ĂN THEO THUỞ, Ở THEO THỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 384870,
+      "modified": "2026-08-15T07:04:06.000Z",
+      "checksum": "50131f9f2fc49512bb027d17a547f888",
+      "folder": false
+    },
+    {
+      "id": "16JTBNBVIwY7MJehju1V0-ASVLik3rwwy",
+      "parent_id": "14szBWcSpf39SUSIr-O4KINY5nwtHspFN",
+      "name": "ĂN THEO THUỞ, Ở THEO THỜI.pdf",
+      "mime": "application/pdf",
+      "size": 478296,
+      "modified": "2026-08-15T07:04:03.000Z",
+      "checksum": "00d7dee86215596feb7bf05b8cdbf991",
+      "folder": false
+    }
+  ]
+}

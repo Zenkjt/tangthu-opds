@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1e5pfy2-buXH_mks_E_IO9_ySi0Dzp1xz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MGgn4_klzzCwCvgsA7rpzOKVx0XvVPR-",
+      "parent_id": "1e5pfy2-buXH_mks_E_IO9_ySi0Dzp1xz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 652,
+      "modified": "2026-08-16T03:47:24.000Z",
+      "checksum": "4c419979ac9355f304ac002496b83778",
+      "folder": false
+    },
+    {
+      "id": "1ZOa4ALRdaRiykD5hzFf7oIgDuMkriL6Z",
+      "parent_id": "1e5pfy2-buXH_mks_E_IO9_ySi0Dzp1xz",
+      "name": "HOÀN CHÂU CÁT CÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 471756,
+      "modified": "2026-08-16T03:47:32.000Z",
+      "checksum": "388b386119229e11ae93370cb6f3f2e2",
+      "folder": false
+    },
+    {
+      "id": "1zTvwwBg3fqTZkE3I4Tq2hNcH4Zxin0EQ",
+      "parent_id": "1e5pfy2-buXH_mks_E_IO9_ySi0Dzp1xz",
+      "name": "HOÀN CHÂU CÁT CÁT.pdf",
+      "mime": "application/pdf",
+      "size": 1685098,
+      "modified": "2026-08-16T03:47:29.000Z",
+      "checksum": "f94436b29050a86e29c25ed89180be2b",
+      "folder": false
+    }
+  ]
+}

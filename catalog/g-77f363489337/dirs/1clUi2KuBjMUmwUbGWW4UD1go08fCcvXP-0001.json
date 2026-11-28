@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1clUi2KuBjMUmwUbGWW4UD1go08fCcvXP",
+  "page": 1,
+  "items": [
+    {
+      "id": "16OvJVhWZcTs9DZ3JK_Y70A0hVcfL4911",
+      "parent_id": "1clUi2KuBjMUmwUbGWW4UD1go08fCcvXP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7200,
+      "modified": "2026-08-16T03:10:10.000Z",
+      "checksum": "ed046902a66d09c7e117663cf2a851b1",
+      "folder": false
+    },
+    {
+      "id": "13ZhFhL2n9bQIFNOmD0WG-YP0_pqAirhn",
+      "parent_id": "1clUi2KuBjMUmwUbGWW4UD1go08fCcvXP",
+      "name": "NHÀ TRẺ HOÀNG GIA.epub",
+      "mime": "application/epub+zip",
+      "size": 6175837,
+      "modified": "2026-08-16T03:10:22.000Z",
+      "checksum": "5197be4d596a79f5a46559f5ea41a5d2",
+      "folder": false
+    },
+    {
+      "id": "1VoOyRiStn-OdIRp8J-HOmUofHUqBGL1L",
+      "parent_id": "1clUi2KuBjMUmwUbGWW4UD1go08fCcvXP",
+      "name": "NHÀ TRẺ HOÀNG GIA.pdf",
+      "mime": "application/pdf",
+      "size": 6742786,
+      "modified": "2026-08-16T03:10:18.000Z",
+      "checksum": "de0ab1daa766753ce612913100a28dcf",
+      "folder": false
+    }
+  ]
+}

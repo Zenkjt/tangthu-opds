@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wP9auEb7nbnvCFBwxXAUn_GdinYludMy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yAPFcBsRNxFs2gRwYn8boxIcW7Qnllad",
+      "parent_id": "1wP9auEb7nbnvCFBwxXAUn_GdinYludMy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 874,
+      "modified": "2026-08-15T10:27:27.000Z",
+      "checksum": "d4bf9d71a13dbb320e75670693efffc1",
+      "folder": false
+    },
+    {
+      "id": "18J8mGLg4VgDV9BG9hqXVFGvQglAv1V3i",
+      "parent_id": "1wP9auEb7nbnvCFBwxXAUn_GdinYludMy",
+      "name": "SẼ CÓ THIÊN THẦN THAY ANH YÊU EM.epub",
+      "mime": "application/epub+zip",
+      "size": 705856,
+      "modified": "2026-08-15T10:27:36.000Z",
+      "checksum": "0ab65bcc0941f1c0152843a6ef47b0eb",
+      "folder": false
+    },
+    {
+      "id": "1beGL4tTg4ik5nRCOoX3cMgf0m-gOYEko",
+      "parent_id": "1wP9auEb7nbnvCFBwxXAUn_GdinYludMy",
+      "name": "SẼ CÓ THIÊN THẦN THAY ANH YÊU EM.pdf",
+      "mime": "application/pdf",
+      "size": 1338052,
+      "modified": "2026-08-15T10:27:34.000Z",
+      "checksum": "f7f6a9e4a4363b28a094cdadd5fb6925",
+      "folder": false
+    }
+  ]
+}

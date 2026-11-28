@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1omJ5kE0PBWIEeJgcEQKGlqcryvQC2Qk2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rhRFbX7EcaLiTP7vT24DuVUxAVlekKrE",
+      "parent_id": "1omJ5kE0PBWIEeJgcEQKGlqcryvQC2Qk2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3293,
+      "modified": "2026-08-15T10:14:43.000Z",
+      "checksum": "2526273f4847e8649cf11e9fd9a4e0fa",
+      "folder": false
+    },
+    {
+      "id": "1IQq9KA_g053QyIjjFRcTC1QegnhVJ0m_",
+      "parent_id": "1omJ5kE0PBWIEeJgcEQKGlqcryvQC2Qk2",
+      "name": "THIÊN HẠ HỮU TUYẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 693856,
+      "modified": "2026-08-15T10:14:50.000Z",
+      "checksum": "bab0d6e0cbb0c31836b22cf0b0cf0f40",
+      "folder": false
+    },
+    {
+      "id": "1xcVHhyPBuzJU3e-cTLJZaSMTcrR6kdxW",
+      "parent_id": "1omJ5kE0PBWIEeJgcEQKGlqcryvQC2Qk2",
+      "name": "THIÊN HẠ HỮU TUYẾT.pdf",
+      "mime": "application/pdf",
+      "size": 740856,
+      "modified": "2026-08-15T10:14:47.000Z",
+      "checksum": "012f72bed4f55cd01f8c2f6dd77e632a",
+      "folder": false
+    }
+  ]
+}

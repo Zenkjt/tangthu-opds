@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Mv-PTbz4iG5Gb1L9QkP09Aq1ZKPU33H2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qBQm_SdoupVAZutcE5kyYKfbgxqQ1WkJ",
+      "parent_id": "1Mv-PTbz4iG5Gb1L9QkP09Aq1ZKPU33H2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 542,
+      "modified": "2026-08-15T10:46:47.000Z",
+      "checksum": "414c90bb708cdefa2a39b3426a786264",
+      "folder": false
+    },
+    {
+      "id": "1oEZriq1GnvH160elbY5PiSkl8Fk4GFZ5",
+      "parent_id": "1Mv-PTbz4iG5Gb1L9QkP09Aq1ZKPU33H2",
+      "name": "NGÂY THƠ VÀ PHÓNG ĐÃNG.epub",
+      "mime": "application/epub+zip",
+      "size": 447078,
+      "modified": "2026-08-15T10:46:55.000Z",
+      "checksum": "1016af9bab9dba2ac978245b1cbc5ea2",
+      "folder": false
+    },
+    {
+      "id": "1cfXrzaZaxjPgWBp748s0txePopn9Ktyg",
+      "parent_id": "1Mv-PTbz4iG5Gb1L9QkP09Aq1ZKPU33H2",
+      "name": "NGÂY THƠ VÀ PHÓNG ĐÃNG.pdf",
+      "mime": "application/pdf",
+      "size": 747636,
+      "modified": "2026-08-15T10:46:51.000Z",
+      "checksum": "d19288f46696b2738bec214033df001d",
+      "folder": false
+    }
+  ]
+}

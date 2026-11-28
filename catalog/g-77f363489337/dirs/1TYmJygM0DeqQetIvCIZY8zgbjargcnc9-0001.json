@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TYmJygM0DeqQetIvCIZY8zgbjargcnc9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1J5QgPACFKJE-6jSbnTn_8H-GdA1SrOVX",
+      "parent_id": "1TYmJygM0DeqQetIvCIZY8zgbjargcnc9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 719,
+      "modified": "2026-08-15T04:24:27.000Z",
+      "checksum": "acce145b3cb9a5c60d06609f25c2c687",
+      "folder": false
+    },
+    {
+      "id": "1X4T_hbBSY47wQ54c-ikzBdMiUQd6uSkS",
+      "parent_id": "1TYmJygM0DeqQetIvCIZY8zgbjargcnc9",
+      "name": "TRUY TÌM HIV.epub",
+      "mime": "application/epub+zip",
+      "size": 490962,
+      "modified": "2026-08-15T04:24:33.000Z",
+      "checksum": "34fed761c6058cc98161e4716e35733c",
+      "folder": false
+    },
+    {
+      "id": "1a66KAGE-ldvu_pdzb-ziFNq3FrQd_RuA",
+      "parent_id": "1TYmJygM0DeqQetIvCIZY8zgbjargcnc9",
+      "name": "TRUY TÌM HIV.pdf",
+      "mime": "application/pdf",
+      "size": 247504,
+      "modified": "2026-08-15T04:24:30.000Z",
+      "checksum": "e2d2e5aac19cd3c250c52d6eb08ab991",
+      "folder": false
+    }
+  ]
+}

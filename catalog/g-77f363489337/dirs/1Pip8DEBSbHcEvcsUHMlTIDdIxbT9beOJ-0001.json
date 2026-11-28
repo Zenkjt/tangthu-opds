@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Pip8DEBSbHcEvcsUHMlTIDdIxbT9beOJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rcMcBj44cd40k4QnIzRDXSlSFHEN1n8k",
+      "parent_id": "1Pip8DEBSbHcEvcsUHMlTIDdIxbT9beOJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 536,
+      "modified": "2026-08-16T03:52:09.000Z",
+      "checksum": "e695ca4fcbd995905243999af47e76e6",
+      "folder": false
+    },
+    {
+      "id": "1BWrGS9SXWEtfpoy1MlWdTUUNHwrakFx4",
+      "parent_id": "1Pip8DEBSbHcEvcsUHMlTIDdIxbT9beOJ",
+      "name": "VẪN Ở BÊN ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 534226,
+      "modified": "2026-08-16T03:52:15.000Z",
+      "checksum": "6c7530b641631f876e72f85bceee6447",
+      "folder": false
+    },
+    {
+      "id": "1UkO4jFJpNxjlq9Qxc56VzXA8mNsMG4F_",
+      "parent_id": "1Pip8DEBSbHcEvcsUHMlTIDdIxbT9beOJ",
+      "name": "VẪN Ở BÊN ANH.pdf",
+      "mime": "application/pdf",
+      "size": 673710,
+      "modified": "2026-08-16T03:52:12.000Z",
+      "checksum": "fc0bc27966ca29ac86a90688d4870469",
+      "folder": false
+    }
+  ]
+}

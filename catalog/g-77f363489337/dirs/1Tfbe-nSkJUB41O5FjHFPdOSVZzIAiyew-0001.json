@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Tfbe-nSkJUB41O5FjHFPdOSVZzIAiyew",
+  "page": 1,
+  "items": [
+    {
+      "id": "18w6UZEFxaecse1J6Fg31_L2CdMe2V7cW",
+      "parent_id": "1Tfbe-nSkJUB41O5FjHFPdOSVZzIAiyew",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 805,
+      "modified": "2026-08-16T04:09:38.000Z",
+      "checksum": "9298b877b428a72396554520ea2e25ef",
+      "folder": false
+    },
+    {
+      "id": "1ziHIQyM9C-47xmheMAJRqEB_TBT3vAiX",
+      "parent_id": "1Tfbe-nSkJUB41O5FjHFPdOSVZzIAiyew",
+      "name": "NHỮNG KỲ TÍCH CỦA HERCULE POIROT.epub",
+      "mime": "application/epub+zip",
+      "size": 388460,
+      "modified": "2026-08-16T04:09:44.000Z",
+      "checksum": "66821f55b2af523b7c245a0829f67fa2",
+      "folder": false
+    },
+    {
+      "id": "1v8-5YDWB13mj3U34JHG31OllDFlsVKP5",
+      "parent_id": "1Tfbe-nSkJUB41O5FjHFPdOSVZzIAiyew",
+      "name": "NHỮNG KỲ TÍCH CỦA HERCULE POIROT.pdf",
+      "mime": "application/pdf",
+      "size": 568126,
+      "modified": "2026-08-16T04:09:42.000Z",
+      "checksum": "fca73c64bfd80b7b111119bf22bb3d0d",
+      "folder": false
+    }
+  ]
+}

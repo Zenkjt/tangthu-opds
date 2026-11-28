@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OdTRMhbjxphNVQ7qM5WJ_CHo4SbNTH2E",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Kbkm5PAz6QJhjM6YNB_KTtqXNrKXSViQ",
+      "parent_id": "1OdTRMhbjxphNVQ7qM5WJ_CHo4SbNTH2E",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2587,
+      "modified": "2026-08-15T17:02:17.000Z",
+      "checksum": "f96fca4d082903401c7a0416a8a23221",
+      "folder": false
+    },
+    {
+      "id": "1ZYSHmbsnzW_BhH90Z-DfI_WiJnc3vIxi",
+      "parent_id": "1OdTRMhbjxphNVQ7qM5WJ_CHo4SbNTH2E",
+      "name": "XIN ĐỪNG ĂN EM.epub",
+      "mime": "application/epub+zip",
+      "size": 400016,
+      "modified": "2026-08-15T17:02:22.000Z",
+      "checksum": "cdae9576d97347b4c43dee0e88183532",
+      "folder": false
+    },
+    {
+      "id": "1dynGuMZpjqA6Hqu1HioFQzDrqHWWXAXy",
+      "parent_id": "1OdTRMhbjxphNVQ7qM5WJ_CHo4SbNTH2E",
+      "name": "XIN ĐỪNG ĂN EM.pdf",
+      "mime": "application/pdf",
+      "size": 316567,
+      "modified": "2026-08-15T17:02:20.000Z",
+      "checksum": "ad93f4e11a8aa3e934f1b448a41cca53",
+      "folder": false
+    }
+  ]
+}

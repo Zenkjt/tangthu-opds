@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Q7KmROcM-_Li5VtPc2mcBW_IuGO8LiZP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ndd3QDBjDgFr1ZhuYuw3gcafQOqitLKU",
+      "parent_id": "1Q7KmROcM-_Li5VtPc2mcBW_IuGO8LiZP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 407,
+      "modified": "2026-08-16T04:03:03.000Z",
+      "checksum": "13ffeb1d9106aadfdb053b1fdd518818",
+      "folder": false
+    },
+    {
+      "id": "1A6eKjmng7hnWcuOyBpzORwYnzzyNW74S",
+      "parent_id": "1Q7KmROcM-_Li5VtPc2mcBW_IuGO8LiZP",
+      "name": "SỐNG TRONG BÃO BIỂN.epub",
+      "mime": "application/epub+zip",
+      "size": 488668,
+      "modified": "2026-08-16T04:03:10.000Z",
+      "checksum": "db09791c26feb854cf19a9f99f3cfcd5",
+      "folder": false
+    },
+    {
+      "id": "1Vy84fMuGhceOFQQXnsanImwzfRUHvW0V",
+      "parent_id": "1Q7KmROcM-_Li5VtPc2mcBW_IuGO8LiZP",
+      "name": "SỐNG TRONG BÃO BIỂN.pdf",
+      "mime": "application/pdf",
+      "size": 517269,
+      "modified": "2026-08-16T04:03:07.000Z",
+      "checksum": "da40353d0635ac6272d241882e16c023",
+      "folder": false
+    }
+  ]
+}

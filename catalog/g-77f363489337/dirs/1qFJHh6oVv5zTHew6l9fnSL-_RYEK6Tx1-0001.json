@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qFJHh6oVv5zTHew6l9fnSL-_RYEK6Tx1",
+  "page": 1,
+  "items": [
+    {
+      "id": "11Qzq0UQIVvxjnDZpmylJoCbWjN53AwmB",
+      "parent_id": "1qFJHh6oVv5zTHew6l9fnSL-_RYEK6Tx1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 557,
+      "modified": "2026-08-15T15:40:53.000Z",
+      "checksum": "7b1473493580b3ae0497d30c7cafaf4c",
+      "folder": false
+    },
+    {
+      "id": "1YQ9rt376kXXUUE20oYsU5GMkXA-cm8Rw",
+      "parent_id": "1qFJHh6oVv5zTHew6l9fnSL-_RYEK6Tx1",
+      "name": "ĐỢI CHỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 556553,
+      "modified": "2026-08-15T15:41:02.000Z",
+      "checksum": "c6fbebf74794418b669af0b3001ffb49",
+      "folder": false
+    },
+    {
+      "id": "1XY7XJ3S19_VK5ZtE0qGEDZYCU5ta6fpO",
+      "parent_id": "1qFJHh6oVv5zTHew6l9fnSL-_RYEK6Tx1",
+      "name": "ĐỢI CHỜ.pdf",
+      "mime": "application/pdf",
+      "size": 1081608,
+      "modified": "2026-08-15T15:40:58.000Z",
+      "checksum": "525c78137cebcf99c24c4f50f563147a",
+      "folder": false
+    }
+  ]
+}

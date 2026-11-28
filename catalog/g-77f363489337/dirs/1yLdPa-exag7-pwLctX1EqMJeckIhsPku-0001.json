@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yLdPa-exag7-pwLctX1EqMJeckIhsPku",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BhthOyoejxXwwEtOmHK6GOLI-kmRTKiM",
+      "parent_id": "1yLdPa-exag7-pwLctX1EqMJeckIhsPku",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5445,
+      "modified": "2026-08-16T03:24:35.000Z",
+      "checksum": "cfa8ead565ad2f2b4b39ebe4f661e056",
+      "folder": false
+    },
+    {
+      "id": "1sdk9ckuDCVkqr5xdlB5sCunn94bDAgOf",
+      "parent_id": "1yLdPa-exag7-pwLctX1EqMJeckIhsPku",
+      "name": "ĐO THẾ GIỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 542786,
+      "modified": "2026-08-16T03:24:42.000Z",
+      "checksum": "adbafc8fba089acd5c9193e2d16ece0a",
+      "folder": false
+    },
+    {
+      "id": "1QsPTeXY5fdANrLvl-3nuSWXP0-cGwgnv",
+      "parent_id": "1yLdPa-exag7-pwLctX1EqMJeckIhsPku",
+      "name": "ĐO THẾ GIỚI.pdf",
+      "mime": "application/pdf",
+      "size": 1272813,
+      "modified": "2026-08-16T03:24:40.000Z",
+      "checksum": "998d54664b2bf96d1f9d84878a8128a7",
+      "folder": false
+    }
+  ]
+}

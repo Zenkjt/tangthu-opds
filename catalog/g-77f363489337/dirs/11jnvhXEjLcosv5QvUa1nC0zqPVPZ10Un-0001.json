@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11jnvhXEjLcosv5QvUa1nC0zqPVPZ10Un",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S5lWPKcVjonrTGJy6II6_nL38CHbbOoq",
+      "parent_id": "11jnvhXEjLcosv5QvUa1nC0zqPVPZ10Un",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3774,
+      "modified": "2026-08-16T04:05:58.000Z",
+      "checksum": "4813fda2fb88bf3646f23729ef0a2cff",
+      "folder": false
+    },
+    {
+      "id": "1NMPL7t2r58AdyYKLvbu8aEniDiraHYvs",
+      "parent_id": "11jnvhXEjLcosv5QvUa1nC0zqPVPZ10Un",
+      "name": "PHÙ THẾ PHÙ THÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 1535523,
+      "modified": "2026-08-16T04:06:07.000Z",
+      "checksum": "af2dedfa15331deaa7294bb884f63ea6",
+      "folder": false
+    },
+    {
+      "id": "1XQ2vm1LtCh1xry5hLe4yEjZYyErgSSL0",
+      "parent_id": "11jnvhXEjLcosv5QvUa1nC0zqPVPZ10Un",
+      "name": "PHÙ THẾ PHÙ THÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 1589102,
+      "modified": "2026-08-16T04:06:03.000Z",
+      "checksum": "165cb3cb767acf2923eb7776bc335e48",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1si7p8Dwq9E9nh5wPP6HQYmfnr1DINgmh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1y2H07Pln0kG2A3RD2WgDtUUMmfeHh_5U",
+      "parent_id": "1si7p8Dwq9E9nh5wPP6HQYmfnr1DINgmh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4819,
+      "modified": "2026-08-15T07:11:06.000Z",
+      "checksum": "75451410541b9d42068dc5829598d4f9",
+      "folder": false
+    },
+    {
+      "id": "1U8YoJpTX5jxFhKtLuDT_U2Qv9L6VazPy",
+      "parent_id": "1si7p8Dwq9E9nh5wPP6HQYmfnr1DINgmh",
+      "name": "HỠI NGƯỜI TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 2257015,
+      "modified": "2026-08-15T07:13:13.000Z",
+      "checksum": "f8d9d1ee4ab65a49315917ece097c0dd",
+      "folder": false
+    },
+    {
+      "id": "1SbYgB7gIhsagbLUnO7zFcQ5hSoUekLZZ",
+      "parent_id": "1si7p8Dwq9E9nh5wPP6HQYmfnr1DINgmh",
+      "name": "HỠI NGƯỜI TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 2367856,
+      "modified": "2026-08-15T07:13:09.000Z",
+      "checksum": "4feb715568df75a60e226f10c92a1204",
+      "folder": false
+    }
+  ]
+}

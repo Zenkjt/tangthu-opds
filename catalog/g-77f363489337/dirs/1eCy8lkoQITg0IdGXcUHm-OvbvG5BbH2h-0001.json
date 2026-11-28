@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eCy8lkoQITg0IdGXcUHm-OvbvG5BbH2h",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_ZxJM86OXOGHJfJAqJOOmr3yq4fxwm_P",
+      "parent_id": "1eCy8lkoQITg0IdGXcUHm-OvbvG5BbH2h",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2255,
+      "modified": "2026-08-15T17:02:49.000Z",
+      "checksum": "4cad5f31027c3d665313fa34fb83941d",
+      "folder": false
+    },
+    {
+      "id": "1KV0GLypidnEIaoutaehSBBjXXzJ_5bW4",
+      "parent_id": "1eCy8lkoQITg0IdGXcUHm-OvbvG5BbH2h",
+      "name": "HOÀNG THƯỢNG ĐỪNG NGHỊCH.epub",
+      "mime": "application/epub+zip",
+      "size": 958288,
+      "modified": "2026-08-15T17:02:58.000Z",
+      "checksum": "843b062f5af152d6f5df6b6529d5def5",
+      "folder": false
+    },
+    {
+      "id": "18N-rBjTyKLOgZa8dpUEv9aHsRngRtIyx",
+      "parent_id": "1eCy8lkoQITg0IdGXcUHm-OvbvG5BbH2h",
+      "name": "HOÀNG THƯỢNG ĐỪNG NGHỊCH.pdf",
+      "mime": "application/pdf",
+      "size": 3095121,
+      "modified": "2026-08-15T17:02:55.000Z",
+      "checksum": "53c9a98e7684a7633b64ab4b17e2ebe7",
+      "folder": false
+    }
+  ]
+}

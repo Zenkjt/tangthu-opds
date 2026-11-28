@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qhAEoVzsYMGDbVEDirDlY0chZ-vHIKZZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yZ08IyqWSOllS-0fdLNjCNVCmsn06v7o",
+      "parent_id": "1qhAEoVzsYMGDbVEDirDlY0chZ-vHIKZZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1620,
+      "modified": "2026-08-15T07:19:03.000Z",
+      "checksum": "0dbd39d351a20159c4827cc57b5d6c63",
+      "folder": false
+    },
+    {
+      "id": "1IXZ64aPDHB8TvB50SktVinDTwJt8vevK",
+      "parent_id": "1qhAEoVzsYMGDbVEDirDlY0chZ-vHIKZZ",
+      "name": "THƯƠNG NHỚ TRÀ LONG.epub",
+      "mime": "application/epub+zip",
+      "size": 301929,
+      "modified": "2026-08-15T07:19:08.000Z",
+      "checksum": "f4a21e204a10cee38755394cbd507ccf",
+      "folder": false
+    },
+    {
+      "id": "14fcUXKYYRHmMCbEpoZxTtyet6MvSRnvB",
+      "parent_id": "1qhAEoVzsYMGDbVEDirDlY0chZ-vHIKZZ",
+      "name": "THƯƠNG NHỚ TRÀ LONG.pdf",
+      "mime": "application/pdf",
+      "size": 240740,
+      "modified": "2026-08-15T07:19:06.000Z",
+      "checksum": "63c5a3c766e6339a4843b9d3240d7780",
+      "folder": false
+    }
+  ]
+}

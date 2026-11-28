@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1P_p1aJcr7LJs2XdC8iA_iTiV1L36irwe",
+  "page": 1,
+  "items": [
+    {
+      "id": "15GTqye0_XfcYNFVrIRzPf39A5zxWGL4d",
+      "parent_id": "1P_p1aJcr7LJs2XdC8iA_iTiV1L36irwe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4233,
+      "modified": "2026-08-15T15:31:38.000Z",
+      "checksum": "e3b2a2237e184327149ff5f0896eac1f",
+      "folder": false
+    },
+    {
+      "id": "1M6F0V1cd9TgQRCyGa9w1YsJNt64FF1P_",
+      "parent_id": "1P_p1aJcr7LJs2XdC8iA_iTiV1L36irwe",
+      "name": "NẾU CÒN CÓ NGÀY MAI.epub",
+      "mime": "application/epub+zip",
+      "size": 644441,
+      "modified": "2026-08-15T15:31:47.000Z",
+      "checksum": "99a5e6b0b8954a5a64352bc842db95b7",
+      "folder": false
+    },
+    {
+      "id": "1mpKKC9RQR8m-Mjw8qRFDs6vGFCjIgNqE",
+      "parent_id": "1P_p1aJcr7LJs2XdC8iA_iTiV1L36irwe",
+      "name": "NẾU CÒN CÓ NGÀY MAI.pdf",
+      "mime": "application/pdf",
+      "size": 1507446,
+      "modified": "2026-08-15T15:31:45.000Z",
+      "checksum": "c3206dabcf39f20705a4ed0878432967",
+      "folder": false
+    }
+  ]
+}

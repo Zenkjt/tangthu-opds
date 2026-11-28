@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ix0LhOEJHJq48E7SOLzb2jJd4iGPDx3z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1R8XIuFc8czy-lFbFZsyAxDdmWlDXJmTB",
+      "parent_id": "1Ix0LhOEJHJq48E7SOLzb2jJd4iGPDx3z",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 2527,
+      "modified": "2026-08-15T10:04:30.000Z",
+      "checksum": "917583ac90a909c82ee2aa9970f35d66",
+      "folder": false
+    },
+    {
+      "id": "1OlveqYm99ODUB6mgmMIDdeMqbcBjQ6Mq",
+      "parent_id": "1Ix0LhOEJHJq48E7SOLzb2jJd4iGPDx3z",
+      "name": "YÊU TINH.epub",
+      "mime": "application/epub+zip",
+      "size": 1325587,
+      "modified": "2026-08-15T10:04:55.000Z",
+      "checksum": "7fe56225702ced0509075e104fafd0a6",
+      "folder": false
+    },
+    {
+      "id": "1Y9i3841738vJ6jRWKMcjulJM4gnz4sIW",
+      "parent_id": "1Ix0LhOEJHJq48E7SOLzb2jJd4iGPDx3z",
+      "name": "YÊU TINH.pdf",
+      "mime": "application/pdf",
+      "size": 2298237,
+      "modified": "2026-08-15T10:04:51.000Z",
+      "checksum": "43c1712105ab7547eac036770d2b2f3e",
+      "folder": false
+    }
+  ]
+}

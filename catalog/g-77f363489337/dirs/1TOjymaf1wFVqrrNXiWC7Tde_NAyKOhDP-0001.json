@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TOjymaf1wFVqrrNXiWC7Tde_NAyKOhDP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MF8RSPNDCXpL1OwIM-ADNIKGJR512ZL9",
+      "parent_id": "1TOjymaf1wFVqrrNXiWC7Tde_NAyKOhDP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3412,
+      "modified": "2026-08-15T06:20:54.000Z",
+      "checksum": "52f44ec29e56718c83ed296e370514e0",
+      "folder": false
+    },
+    {
+      "id": "1rN-6JxRlfCZ8FWs6VLGt6O1fHQ5jY_hY",
+      "parent_id": "1TOjymaf1wFVqrrNXiWC7Tde_NAyKOhDP",
+      "name": "TẬP TỤC QUI CHÁNH.epub",
+      "mime": "application/epub+zip",
+      "size": 354961,
+      "modified": "2026-08-15T06:21:03.000Z",
+      "checksum": "381b026e9bbe0fc9291fc65680eac6a7",
+      "folder": false
+    },
+    {
+      "id": "1WT5NURrrPqKXAMGxnBFubnTGo-HiFXMv",
+      "parent_id": "1TOjymaf1wFVqrrNXiWC7Tde_NAyKOhDP",
+      "name": "TẬP TỤC QUI CHÁNH.pdf",
+      "mime": "application/pdf",
+      "size": 243879,
+      "modified": "2026-08-15T06:20:59.000Z",
+      "checksum": "2f2aa6e701346072450c48467ea78922",
+      "folder": false
+    }
+  ]
+}

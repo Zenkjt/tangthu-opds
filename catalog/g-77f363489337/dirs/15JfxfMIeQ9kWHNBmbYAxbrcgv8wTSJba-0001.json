@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15JfxfMIeQ9kWHNBmbYAxbrcgv8wTSJba",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EtdwB4_G0pyG6rgHA3WLOfD-Twu_ZNmN",
+      "parent_id": "15JfxfMIeQ9kWHNBmbYAxbrcgv8wTSJba",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4250,
+      "modified": "2026-08-15T15:04:31.000Z",
+      "checksum": "8d5b0602f88dd7c93deafa8b363070c4",
+      "folder": false
+    },
+    {
+      "id": "1y4aZiolVCGFRbxcX3R6UzA4vuNCHa-11",
+      "parent_id": "15JfxfMIeQ9kWHNBmbYAxbrcgv8wTSJba",
+      "name": "VÒNG TAY YÊU TINH.epub",
+      "mime": "application/epub+zip",
+      "size": 338173,
+      "modified": "2026-08-15T15:04:37.000Z",
+      "checksum": "85225c3dfa242957b86a1ed8d01dfa7b",
+      "folder": false
+    },
+    {
+      "id": "1oJHqmDxK3b8xiPMZ0RIrvnp1UFLpzf97",
+      "parent_id": "15JfxfMIeQ9kWHNBmbYAxbrcgv8wTSJba",
+      "name": "VÒNG TAY YÊU TINH.pdf",
+      "mime": "application/pdf",
+      "size": 1055936,
+      "modified": "2026-08-15T15:04:35.000Z",
+      "checksum": "21a91e83704224262160be8e23b81080",
+      "folder": false
+    }
+  ]
+}

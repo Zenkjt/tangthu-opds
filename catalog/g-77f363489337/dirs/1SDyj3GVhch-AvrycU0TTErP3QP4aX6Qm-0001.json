@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SDyj3GVhch-AvrycU0TTErP3QP4aX6Qm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VS9uA1FNFK3dsJnC5Jinv1pEeDPWVFUH",
+      "parent_id": "1SDyj3GVhch-AvrycU0TTErP3QP4aX6Qm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3699,
+      "modified": "2026-08-15T00:44:57.000Z",
+      "checksum": "0f9115aa9e9f3e6cdf20aa7e9f7c0b4a",
+      "folder": false
+    },
+    {
+      "id": "1o0OK3n3-mk2JtbbM0Rz9B34O7qSA6c7E",
+      "parent_id": "1SDyj3GVhch-AvrycU0TTErP3QP4aX6Qm",
+      "name": "ĐẮC NHÂN TÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 397332,
+      "modified": "2026-08-15T00:45:02.000Z",
+      "checksum": "5b00588fdb0bf28d14860cf9b67eee21",
+      "folder": false
+    },
+    {
+      "id": "12LzYE5I4mYHjV6qnFLPKcb9fiUra2wkI",
+      "parent_id": "1SDyj3GVhch-AvrycU0TTErP3QP4aX6Qm",
+      "name": "ĐẮC NHÂN TÂM.pdf",
+      "mime": "application/pdf",
+      "size": 1569966,
+      "modified": "2026-08-15T00:45:00.000Z",
+      "checksum": "c99f3f0ca7a5778f2f457e8d234757e5",
+      "folder": false
+    }
+  ]
+}

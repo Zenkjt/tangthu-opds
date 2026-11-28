@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xxuLHY5H7JTx897wgx_Yra40Ybb8fV4O",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_tB9i6SN6Ri_5x-ln5BrDRRA1DgROHVS",
+      "parent_id": "1xxuLHY5H7JTx897wgx_Yra40Ybb8fV4O",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 503,
+      "modified": "2026-08-15T10:06:01.000Z",
+      "checksum": "6d293c82461e43d7c3d7384ed4260e6b",
+      "folder": false
+    },
+    {
+      "id": "15Mmhb_Atrh_xRx3OTfOqfophIvSz5kS1",
+      "parent_id": "1xxuLHY5H7JTx897wgx_Yra40Ybb8fV4O",
+      "name": "TUỔI 17.epub",
+      "mime": "application/epub+zip",
+      "size": 676082,
+      "modified": "2026-08-15T10:06:12.000Z",
+      "checksum": "4e11f8ebfa3b927d3dd3e1d30dfca19e",
+      "folder": false
+    },
+    {
+      "id": "1rBY0GjptV4lITt0z7XH38q0sqZrEFpY8",
+      "parent_id": "1xxuLHY5H7JTx897wgx_Yra40Ybb8fV4O",
+      "name": "TUỔI 17.pdf",
+      "mime": "application/pdf",
+      "size": 2199174,
+      "modified": "2026-08-15T10:06:10.000Z",
+      "checksum": "bd8bd68bf747987436fcac93f135532b",
+      "folder": false
+    }
+  ]
+}

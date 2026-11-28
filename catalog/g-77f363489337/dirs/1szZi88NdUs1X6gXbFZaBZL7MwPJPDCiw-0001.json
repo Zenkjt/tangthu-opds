@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1szZi88NdUs1X6gXbFZaBZL7MwPJPDCiw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1B7urKoy00uKj7I1W9m2pe8T5W3fYK4_e",
+      "parent_id": "1szZi88NdUs1X6gXbFZaBZL7MwPJPDCiw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3745,
+      "modified": "2026-08-15T10:38:22.000Z",
+      "checksum": "43b127057dd9f6f9a716d4523601cd31",
+      "folder": false
+    },
+    {
+      "id": "1BkLGEQy5xAZlQBCBp82iQiSGZlDiCyoN",
+      "parent_id": "1szZi88NdUs1X6gXbFZaBZL7MwPJPDCiw",
+      "name": "NHƯ CHƯA TỪNG QUEN BIẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 616879,
+      "modified": "2026-08-15T10:38:29.000Z",
+      "checksum": "9b13dfa59e72e983bb5b9d23854e16d2",
+      "folder": false
+    },
+    {
+      "id": "10gcubog25UDaYlUoj-Yl3Her4sYhSzEm",
+      "parent_id": "1szZi88NdUs1X6gXbFZaBZL7MwPJPDCiw",
+      "name": "NHƯ CHƯA TỪNG QUEN BIẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1043051,
+      "modified": "2026-08-15T10:38:26.000Z",
+      "checksum": "f0daf4425792eae6ab86a07214ca09bd",
+      "folder": false
+    }
+  ]
+}

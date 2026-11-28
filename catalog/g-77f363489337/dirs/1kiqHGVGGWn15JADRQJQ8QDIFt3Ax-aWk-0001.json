@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kiqHGVGGWn15JADRQJQ8QDIFt3Ax-aWk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XzdAh4av2oyvQJr0m4M1Zioa23PnYS2O",
+      "parent_id": "1kiqHGVGGWn15JADRQJQ8QDIFt3Ax-aWk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3225,
+      "modified": "2026-08-15T10:12:20.000Z",
+      "checksum": "e549c91e2419614fa31b690797083204",
+      "folder": false
+    },
+    {
+      "id": "1wQXZHBQlBG-W5iwik-4ik8qPoNrW8lpu",
+      "parent_id": "1kiqHGVGGWn15JADRQJQ8QDIFt3Ax-aWk",
+      "name": "THÚ VUI XÊ DỊCH.epub",
+      "mime": "application/epub+zip",
+      "size": 776582,
+      "modified": "2026-08-15T10:12:30.000Z",
+      "checksum": "4b9cb6cd2af5aefad411623a2016bff5",
+      "folder": false
+    },
+    {
+      "id": "1FAof8PZgpx8BehE8M47bG3cZhSP6tn6n",
+      "parent_id": "1kiqHGVGGWn15JADRQJQ8QDIFt3Ax-aWk",
+      "name": "THÚ VUI XÊ DỊCH.pdf",
+      "mime": "application/pdf",
+      "size": 1510507,
+      "modified": "2026-08-15T10:12:27.000Z",
+      "checksum": "6b5caea41b6731efd226aac64dfc79eb",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cspy67pEz1ZrbiW53F1YHlvOEdzeAG8A",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-uLNCT_zPKip-ZNVF9AGj40iVcG1chx3",
+      "parent_id": "1cspy67pEz1ZrbiW53F1YHlvOEdzeAG8A",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8944,
+      "modified": "2026-08-15T07:46:45.000Z",
+      "checksum": "daa66691c0816effa9e5f7bc44a5ef61",
+      "folder": false
+    },
+    {
+      "id": "1Z9QCFRiXekpawN9cRt89i-tjaRV7IPai",
+      "parent_id": "1cspy67pEz1ZrbiW53F1YHlvOEdzeAG8A",
+      "name": "HỢP ĐỒNG TÌNH NHÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 5729689,
+      "modified": "2026-08-15T07:47:40.000Z",
+      "checksum": "2f06e0e789fcbd497669ea55345df0ca",
+      "folder": false
+    },
+    {
+      "id": "1JRKVsHyiHchscf51WhBEaVYqpx1nu8VP",
+      "parent_id": "1cspy67pEz1ZrbiW53F1YHlvOEdzeAG8A",
+      "name": "HỢP ĐỒNG TÌNH NHÂN.pdf",
+      "mime": "application/pdf",
+      "size": 4584549,
+      "modified": "2026-08-15T07:47:02.000Z",
+      "checksum": "260ebf0bb68a1111d00a90603c437fed",
+      "folder": false
+    }
+  ]
+}

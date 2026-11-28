@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13cF66fKFrHf_iyhoEvTPPRbByVQfmbS1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zrQDr6dkT1w_KvqG5odkFyD9ObcIki60",
+      "parent_id": "13cF66fKFrHf_iyhoEvTPPRbByVQfmbS1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1780,
+      "modified": "2026-08-15T04:02:21.000Z",
+      "checksum": "53ea904e5d6092dd918bf8fea97a3f43",
+      "folder": false
+    },
+    {
+      "id": "10bFYEJziQlBed2D846hHOAQfH1iDKwr0",
+      "parent_id": "13cF66fKFrHf_iyhoEvTPPRbByVQfmbS1",
+      "name": "TÂY TẠNG VÀ GIỌT HOA TRONG NẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 327944,
+      "modified": "2026-08-15T04:02:29.000Z",
+      "checksum": "e1744050c2be3023dd31dd543106f893",
+      "folder": false
+    },
+    {
+      "id": "1A6wJ9VJwKjauW0gRy5S8vYcJCPYTUgJ6",
+      "parent_id": "13cF66fKFrHf_iyhoEvTPPRbByVQfmbS1",
+      "name": "TÂY TẠNG VÀ GIỌT HOA TRONG NẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 559318,
+      "modified": "2026-08-15T04:02:26.000Z",
+      "checksum": "5e00d97607515f54602ba77f90d34771",
+      "folder": false
+    }
+  ]
+}

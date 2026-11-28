@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1L063mUITSSjFwgu1mp-XK6mCwHMvUT3x",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sDsrBSAEe4AITEpIG2H82ANuTODX8msm",
+      "parent_id": "1L063mUITSSjFwgu1mp-XK6mCwHMvUT3x",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2962,
+      "modified": "2026-08-16T04:10:23.000Z",
+      "checksum": "33513ab8c48c8f362cbdd0f840d50c31",
+      "folder": false
+    },
+    {
+      "id": "1nG7yDrDX7cb3s2EjbAnsyVlJAthtKw8X",
+      "parent_id": "1L063mUITSSjFwgu1mp-XK6mCwHMvUT3x",
+      "name": "NHỮNG CHÀNG TRAI THÁNG 12.epub",
+      "mime": "application/epub+zip",
+      "size": 376696,
+      "modified": "2026-08-16T04:10:31.000Z",
+      "checksum": "ce6374d5de6c08d2bd479384a947d9f2",
+      "folder": false
+    },
+    {
+      "id": "1rOXgCq4RdAPRUQwmqEeTqo0STuFVOFxk",
+      "parent_id": "1L063mUITSSjFwgu1mp-XK6mCwHMvUT3x",
+      "name": "NHỮNG CHÀNG TRAI THÁNG 12.pdf",
+      "mime": "application/pdf",
+      "size": 1173577,
+      "modified": "2026-08-16T04:10:29.000Z",
+      "checksum": "881713f3bbf6140265c88fa976caab68",
+      "folder": false
+    }
+  ]
+}

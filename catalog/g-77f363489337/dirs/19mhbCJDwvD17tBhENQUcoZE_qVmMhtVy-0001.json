@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19mhbCJDwvD17tBhENQUcoZE_qVmMhtVy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TcCgfaOGkvxy1IwayLeMPw9UW_Iy8I_e",
+      "parent_id": "19mhbCJDwvD17tBhENQUcoZE_qVmMhtVy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7451,
+      "modified": "2026-08-15T07:33:51.000Z",
+      "checksum": "99dab276caff2f58e1cc4e1dab8335b6",
+      "folder": false
+    },
+    {
+      "id": "1SlZbONgUNDclMeW0xHHX3pDkisPJYzlP",
+      "parent_id": "19mhbCJDwvD17tBhENQUcoZE_qVmMhtVy",
+      "name": "VẼ EM BẰNG MÀU NỖI NHỚ.epub",
+      "mime": "application/epub+zip",
+      "size": 1223563,
+      "modified": "2026-08-15T07:33:57.000Z",
+      "checksum": "caa5097a216fb07064eb79477f5f5bc2",
+      "folder": false
+    },
+    {
+      "id": "19_xuAo7vBm332EZhOk2nMqN_kBOs_rWy",
+      "parent_id": "19mhbCJDwvD17tBhENQUcoZE_qVmMhtVy",
+      "name": "VẼ EM BẰNG MÀU NỖI NHỚ.pdf",
+      "mime": "application/pdf",
+      "size": 986271,
+      "modified": "2026-08-15T07:33:55.000Z",
+      "checksum": "0847383f849e6a2f92a593d0a90bcc52",
+      "folder": false
+    }
+  ]
+}

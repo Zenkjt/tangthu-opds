@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13q_KjPKUxPLmP_gVe9hSe23mC7WvWDT9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iYHnVhFC6sILSsQO3nnEaRe4ibrZhEPj",
+      "parent_id": "13q_KjPKUxPLmP_gVe9hSe23mC7WvWDT9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5584,
+      "modified": "2026-08-15T00:46:03.000Z",
+      "checksum": "284d8aba87dafdfbe5be3875d9879d58",
+      "folder": false
+    },
+    {
+      "id": "1TF9cozAMfR-eTQJM5XDjeJjvh7pDXkqV",
+      "parent_id": "13q_KjPKUxPLmP_gVe9hSe23mC7WvWDT9",
+      "name": "SỨC MẠNH CỦA NGÔN TỪ.epub",
+      "mime": "application/epub+zip",
+      "size": 567388,
+      "modified": "2026-08-15T00:46:10.000Z",
+      "checksum": "fcc95954e566ec0804deef8d6a33dcfb",
+      "folder": false
+    },
+    {
+      "id": "1wP4BxIoni1AX4cVWSOCY6W4KfeYnjSxJ",
+      "parent_id": "13q_KjPKUxPLmP_gVe9hSe23mC7WvWDT9",
+      "name": "SỨC MẠNH CỦA NGÔN TỪ.pdf",
+      "mime": "application/pdf",
+      "size": 1420373,
+      "modified": "2026-08-15T00:46:07.000Z",
+      "checksum": "e16883d08cc77e4bfd69f603622833dc",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19M30FqIwKAbeXA0svb-p-k9zp_QqZN47",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rOK-z1Htu9niNEiSwdHwh6wOm7dlZs3k",
+      "parent_id": "19M30FqIwKAbeXA0svb-p-k9zp_QqZN47",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 722,
+      "modified": "2026-08-15T12:59:54.000Z",
+      "checksum": "e49d09d85ea22dd89e2be45a4aa6c706",
+      "folder": false
+    },
+    {
+      "id": "1-oM2jMGeEIasxDtcn-oytZ0rn8NpFSEE",
+      "parent_id": "19M30FqIwKAbeXA0svb-p-k9zp_QqZN47",
+      "name": "NGÔI NHÀ CÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 536898,
+      "modified": "2026-08-15T13:00:11.000Z",
+      "checksum": "5c01e934dfc17f98f73c2be3b01acba8",
+      "folder": false
+    },
+    {
+      "id": "1bl-bxzQPWJXr0bhxV1TBslzfUsav9ztl",
+      "parent_id": "19M30FqIwKAbeXA0svb-p-k9zp_QqZN47",
+      "name": "NGÔI NHÀ CÂY.pdf",
+      "mime": "application/pdf",
+      "size": 409316,
+      "modified": "2026-08-15T13:00:05.000Z",
+      "checksum": "b4bbc6249917d4879d81c97f82aa4bc3",
+      "folder": false
+    }
+  ]
+}

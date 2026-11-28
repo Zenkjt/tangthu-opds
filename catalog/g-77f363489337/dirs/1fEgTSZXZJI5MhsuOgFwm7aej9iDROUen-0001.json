@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fEgTSZXZJI5MhsuOgFwm7aej9iDROUen",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sj62jtVG6Yc__1ewgJt8yVlyDMYhgsDk",
+      "parent_id": "1fEgTSZXZJI5MhsuOgFwm7aej9iDROUen",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5567,
+      "modified": "2026-08-15T08:01:36.000Z",
+      "checksum": "c479897efbfffe374af73e3629e5f17e",
+      "folder": false
+    },
+    {
+      "id": "1KJF0jZSJSPSyZpT4v3fZ6U0izWX5lf0R",
+      "parent_id": "1fEgTSZXZJI5MhsuOgFwm7aej9iDROUen",
+      "name": "MA THẦN HOÀNG THIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 2060059,
+      "modified": "2026-08-15T08:01:59.000Z",
+      "checksum": "cd962448748283ecf5f3fced85b3f8dd",
+      "folder": false
+    },
+    {
+      "id": "1iowKETHgsb6Wz9BUwLiW9f96LtMhZw1h",
+      "parent_id": "1fEgTSZXZJI5MhsuOgFwm7aej9iDROUen",
+      "name": "MA THẦN HOÀNG THIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 8750634,
+      "modified": "2026-08-15T08:01:55.000Z",
+      "checksum": "07c607ae30fdc3866045b0cf0c9c7d3f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JHq-Hx60FIoI_Utl5TSDEOocPViwQMxB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1y2BhORbuTuY1zCWnrRyV4ibGtvv76cu4",
+      "parent_id": "1JHq-Hx60FIoI_Utl5TSDEOocPViwQMxB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2703,
+      "modified": "2026-08-15T06:53:01.000Z",
+      "checksum": "13d3c3a4d467229133167571790296c9",
+      "folder": false
+    },
+    {
+      "id": "1pDazxatVX3pGtgEjbDY91OQMNiimDfGH",
+      "parent_id": "1JHq-Hx60FIoI_Utl5TSDEOocPViwQMxB",
+      "name": "NHỮNG CÂU CHUYỆN THÀNH ROME.epub",
+      "mime": "application/epub+zip",
+      "size": 864723,
+      "modified": "2026-08-15T06:53:10.000Z",
+      "checksum": "2d3d8e7eb90a5e41f77b3b33c144ef23",
+      "folder": false
+    },
+    {
+      "id": "17lIvlHvtHHZZ0HqWBDHCyBZ7v9P-FO9N",
+      "parent_id": "1JHq-Hx60FIoI_Utl5TSDEOocPViwQMxB",
+      "name": "NHỮNG CÂU CHUYỆN THÀNH ROME.pdf",
+      "mime": "application/pdf",
+      "size": 707921,
+      "modified": "2026-08-15T06:53:07.000Z",
+      "checksum": "b12003997cdd8b51ce1ac8397e679475",
+      "folder": false
+    }
+  ]
+}

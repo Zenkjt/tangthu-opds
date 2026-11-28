@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1w6ZU_jSoAQMz6Aoj7MGyBgdrH3GHNR0y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PiBN2PvpMu5gUKku5uVsInWmFY4vZI6Z",
+      "parent_id": "1w6ZU_jSoAQMz6Aoj7MGyBgdrH3GHNR0y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3528,
+      "modified": "2026-08-15T09:36:39.000Z",
+      "checksum": "ba68772ea5bd4da3858a72fd4dc4d0ec",
+      "folder": false
+    },
+    {
+      "id": "1xYfUFCm-Y-RMbjt6zCOGUcQd0qA-VmP3",
+      "parent_id": "1w6ZU_jSoAQMz6Aoj7MGyBgdrH3GHNR0y",
+      "name": "TÌNH THẾ HIỂM NGHÈO.epub",
+      "mime": "application/epub+zip",
+      "size": 504018,
+      "modified": "2026-08-15T09:36:48.000Z",
+      "checksum": "636f0ac83b84464d698fd3f5f7b069c0",
+      "folder": false
+    },
+    {
+      "id": "1DsQ44JjvANxvEBMveVUViyUeRklVyczD",
+      "parent_id": "1w6ZU_jSoAQMz6Aoj7MGyBgdrH3GHNR0y",
+      "name": "TÌNH THẾ HIỂM NGHÈO.pdf",
+      "mime": "application/pdf",
+      "size": 1279170,
+      "modified": "2026-08-15T09:36:46.000Z",
+      "checksum": "aa3676f1e746e5f97b2c31ad12193fb6",
+      "folder": false
+    }
+  ]
+}

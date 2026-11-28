@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ecA6nKgo0JFvQUvybxGN7YQTP7QOGoUP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1h0LLUscpDajU3W5S-8PaGVEENucnonez",
+      "parent_id": "1ecA6nKgo0JFvQUvybxGN7YQTP7QOGoUP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2984,
+      "modified": "2026-08-15T10:09:04.000Z",
+      "checksum": "7325c9346666fa2bec2f4d933be8c38f",
+      "folder": false
+    },
+    {
+      "id": "1uCI0qGR4JZNpFOoNyS1CfmAzadyoX375",
+      "parent_id": "1ecA6nKgo0JFvQUvybxGN7YQTP7QOGoUP",
+      "name": "TÌNH ĐẦY HENNESSY.epub",
+      "mime": "application/epub+zip",
+      "size": 488613,
+      "modified": "2026-08-15T10:09:11.000Z",
+      "checksum": "1cf8a4ed36b0b666e8a841953f8d690a",
+      "folder": false
+    },
+    {
+      "id": "19nIH99fUQ_q5_ISlKV2qp2rDQjWDZOgI",
+      "parent_id": "1ecA6nKgo0JFvQUvybxGN7YQTP7QOGoUP",
+      "name": "TÌNH ĐẦY HENNESSY.pdf",
+      "mime": "application/pdf",
+      "size": 1225710,
+      "modified": "2026-08-15T10:09:08.000Z",
+      "checksum": "17f80939bdf511d8a9b802e730c130f4",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fMVqzCT458sTV63EI53_OifIa7kz3Aak",
+  "page": 1,
+  "items": [
+    {
+      "id": "14-mn2VySV8UUTR8hEXxYzDSK3aM75m5d",
+      "parent_id": "1fMVqzCT458sTV63EI53_OifIa7kz3Aak",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 399,
+      "modified": "2026-08-15T12:57:34.000Z",
+      "checksum": "b00ba4c9c4dbf93cb481cffd64f3d70f",
+      "folder": false
+    },
+    {
+      "id": "1sU-duGZ9H2Jz0SNtY1r3skv9sAHeTNbP",
+      "parent_id": "1fMVqzCT458sTV63EI53_OifIa7kz3Aak",
+      "name": "SẮC LÁ XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 467766,
+      "modified": "2026-08-15T12:58:39.000Z",
+      "checksum": "7fea159774550befdff3ffca21f7d61d",
+      "folder": false
+    },
+    {
+      "id": "1HxisSa_D2UYFNqxImtuj7pYtnKO59-31",
+      "parent_id": "1fMVqzCT458sTV63EI53_OifIa7kz3Aak",
+      "name": "SẮC LÁ XANH.pdf",
+      "mime": "application/pdf",
+      "size": 334097,
+      "modified": "2026-08-15T12:57:42.000Z",
+      "checksum": "24cde43feaf978f2fb6707c5e0ba85e0",
+      "folder": false
+    }
+  ]
+}

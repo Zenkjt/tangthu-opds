@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YIZMGMcFI_mH0pHih992ylzlVE1Vikzy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MCGTTdzXkfRxie_zg11ibh1CWF9rCEFs",
+      "parent_id": "1YIZMGMcFI_mH0pHih992ylzlVE1Vikzy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2744,
+      "modified": "2026-08-15T03:20:16.000Z",
+      "checksum": "e58181d3225c5094431283673a56c3df",
+      "folder": false
+    },
+    {
+      "id": "1ZBWXPBUSuclvUhEYSvKHTsvI_s4iCmoB",
+      "parent_id": "1YIZMGMcFI_mH0pHih992ylzlVE1Vikzy",
+      "name": "HƯỚNG ĐẾN CUỘC ĐỜI TƯƠI ĐẸP.epub",
+      "mime": "application/epub+zip",
+      "size": 530055,
+      "modified": "2026-08-15T03:20:22.000Z",
+      "checksum": "3b5dd590caf329d14374ebe638eb74c0",
+      "folder": false
+    },
+    {
+      "id": "1W7zQQkQgSK-uW1pFYAfwffCyZC_UQH7a",
+      "parent_id": "1YIZMGMcFI_mH0pHih992ylzlVE1Vikzy",
+      "name": "HƯỚNG ĐẾN CUỘC ĐỜI TƯƠI ĐẸP.pdf",
+      "mime": "application/pdf",
+      "size": 642863,
+      "modified": "2026-08-15T03:20:19.000Z",
+      "checksum": "098963c6075e1393418dccf52dcd8b7a",
+      "folder": false
+    }
+  ]
+}

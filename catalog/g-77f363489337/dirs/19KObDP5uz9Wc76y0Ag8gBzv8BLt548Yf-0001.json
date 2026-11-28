@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19KObDP5uz9Wc76y0Ag8gBzv8BLt548Yf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xsnCtUiB2Y4zEy4z0wSHUy0mvbd1Ti1G",
+      "parent_id": "19KObDP5uz9Wc76y0Ag8gBzv8BLt548Yf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4260,
+      "modified": "2026-08-15T07:29:16.000Z",
+      "checksum": "987b29d298e0b4efdff1c84f949b5b4b",
+      "folder": false
+    },
+    {
+      "id": "1i62IJRPLV6ChMH0PRi15OCVKihy-KEb0",
+      "parent_id": "19KObDP5uz9Wc76y0Ag8gBzv8BLt548Yf",
+      "name": "VỤ ÁN HOA HẬU ÁO TẮM.epub",
+      "mime": "application/epub+zip",
+      "size": 389213,
+      "modified": "2026-08-15T07:29:23.000Z",
+      "checksum": "f929c43b073093b2bdde9b8adabe0016",
+      "folder": false
+    },
+    {
+      "id": "1VjbDFQpm1pMh0g066wuJINDutZ8GF-Nk",
+      "parent_id": "19KObDP5uz9Wc76y0Ag8gBzv8BLt548Yf",
+      "name": "VỤ ÁN HOA HẬU ÁO TẮM.pdf",
+      "mime": "application/pdf",
+      "size": 1015502,
+      "modified": "2026-08-15T07:29:20.000Z",
+      "checksum": "08017d14984d6ec95db8aaf1bb547059",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UUuMl3X0PKL4d60IlomHBC309hTiohKs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cLiPXfvHPcQZL_-yoF0s1IcSow2KLbdo",
+      "parent_id": "1UUuMl3X0PKL4d60IlomHBC309hTiohKs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3089,
+      "modified": "2026-08-15T07:51:16.000Z",
+      "checksum": "1d832e4be6114d697a213de455df1f88",
+      "folder": false
+    },
+    {
+      "id": "1RF3_LWzw1D-GmDA54bLFx80f9YML91ih",
+      "parent_id": "1UUuMl3X0PKL4d60IlomHBC309hTiohKs",
+      "name": "KẺ GÂY HẤN.epub",
+      "mime": "application/epub+zip",
+      "size": 590616,
+      "modified": "2026-08-15T07:51:22.000Z",
+      "checksum": "c2dd16dca76bb14b07e97a811cb32554",
+      "folder": false
+    },
+    {
+      "id": "1JSORM88SS_tPWdJ8u0xDTVARCHwzG_Tt",
+      "parent_id": "1UUuMl3X0PKL4d60IlomHBC309hTiohKs",
+      "name": "KẺ GÂY HẤN.pdf",
+      "mime": "application/pdf",
+      "size": 834304,
+      "modified": "2026-08-15T07:51:19.000Z",
+      "checksum": "4eeed9d68f9d3aaa29db3b697c37d898",
+      "folder": false
+    }
+  ]
+}

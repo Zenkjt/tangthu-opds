@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1I-Y6qlHczdmLzJCAUgXjcsF6_3pVmitp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GcAC3yhCy9k5bJ03spzD5ammRtk9z3cx",
+      "parent_id": "1I-Y6qlHczdmLzJCAUgXjcsF6_3pVmitp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 450,
+      "modified": "2026-08-15T10:52:22.000Z",
+      "checksum": "cd6aaffdfa057d31f76682d963c2dc7d",
+      "folder": false
+    },
+    {
+      "id": "1OVK-S-wWZda7fdDeZVbomJV7PLAGcg8m",
+      "parent_id": "1I-Y6qlHczdmLzJCAUgXjcsF6_3pVmitp",
+      "name": "MỘT NGÀY MƯA ĐẸP TRỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 463746,
+      "modified": "2026-08-15T10:52:27.000Z",
+      "checksum": "fd59f04dc7a1fabf5222806d50ef1175",
+      "folder": false
+    },
+    {
+      "id": "1EvWS5EAlWeciOnN-hwvMsklHc0avxF3-",
+      "parent_id": "1I-Y6qlHczdmLzJCAUgXjcsF6_3pVmitp",
+      "name": "MỘT NGÀY MƯA ĐẸP TRỜI.pdf",
+      "mime": "application/pdf",
+      "size": 685536,
+      "modified": "2026-08-15T10:52:25.000Z",
+      "checksum": "b164998b9dc7a9d830dbb4a3b068eebf",
+      "folder": false
+    }
+  ]
+}

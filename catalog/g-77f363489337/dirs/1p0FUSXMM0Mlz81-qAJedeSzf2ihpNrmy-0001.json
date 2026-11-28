@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1p0FUSXMM0Mlz81-qAJedeSzf2ihpNrmy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SlujVEhR7L6SHjHGb0c75VJAjs5l9fuv",
+      "parent_id": "1p0FUSXMM0Mlz81-qAJedeSzf2ihpNrmy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3304,
+      "modified": "2026-08-16T03:44:10.000Z",
+      "checksum": "96d10cf58a16e4aa1a449915f77e7327",
+      "folder": false
+    },
+    {
+      "id": "1_kumn1BYZE-g5yvgBn032Yx7zRZIVuFg",
+      "parent_id": "1p0FUSXMM0Mlz81-qAJedeSzf2ihpNrmy",
+      "name": "ĐẠI MINH VÕ PHU.epub",
+      "mime": "application/epub+zip",
+      "size": 611690,
+      "modified": "2026-08-16T03:44:15.000Z",
+      "checksum": "dda0b8f16913bd8c39aa6eb586d370bc",
+      "folder": false
+    },
+    {
+      "id": "1t6eTvZ6uxP_ayEStFClvRTeHE3ByHUYk",
+      "parent_id": "1p0FUSXMM0Mlz81-qAJedeSzf2ihpNrmy",
+      "name": "ĐẠI MINH VÕ PHU.pdf",
+      "mime": "application/pdf",
+      "size": 533620,
+      "modified": "2026-08-16T03:44:13.000Z",
+      "checksum": "976662fb274da373e95f0772356a22e2",
+      "folder": false
+    }
+  ]
+}

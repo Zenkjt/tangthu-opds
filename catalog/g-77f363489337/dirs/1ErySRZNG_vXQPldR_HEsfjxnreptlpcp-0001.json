@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ErySRZNG_vXQPldR_HEsfjxnreptlpcp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hxZ53nmg7yYcPI_Y1AzJIepo-2jdqION",
+      "parent_id": "1ErySRZNG_vXQPldR_HEsfjxnreptlpcp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1647,
+      "modified": "2026-08-15T15:11:27.000Z",
+      "checksum": "53af133a0ce54465b605ebc09b627b5f",
+      "folder": false
+    },
+    {
+      "id": "1rUEgRCq2vRFG1KlbOrK5EVlmCSk5QMwM",
+      "parent_id": "1ErySRZNG_vXQPldR_HEsfjxnreptlpcp",
+      "name": "LƯỠI GƯƠM CỦA THẦN SHIVA.epub",
+      "mime": "application/epub+zip",
+      "size": 611021,
+      "modified": "2026-08-15T15:11:34.000Z",
+      "checksum": "7731fd6ea606af2675cb62a2fbbef244",
+      "folder": false
+    },
+    {
+      "id": "1rkcWNJEEbFbj1gWydOTJt2y2M20wVHsy",
+      "parent_id": "1ErySRZNG_vXQPldR_HEsfjxnreptlpcp",
+      "name": "LƯỠI GƯƠM CỦA THẦN SHIVA.pdf",
+      "mime": "application/pdf",
+      "size": 1539483,
+      "modified": "2026-08-15T15:11:31.000Z",
+      "checksum": "1f46c3203eb2ac92184efd220379dda9",
+      "folder": false
+    }
+  ]
+}

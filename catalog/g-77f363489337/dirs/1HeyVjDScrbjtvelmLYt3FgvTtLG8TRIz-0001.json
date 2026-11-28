@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HeyVjDScrbjtvelmLYt3FgvTtLG8TRIz",
+  "page": 1,
+  "items": [
+    {
+      "id": "12n6etd41YU6xl2aC0fPuNjLrnjE42Xo8",
+      "parent_id": "1HeyVjDScrbjtvelmLYt3FgvTtLG8TRIz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 769,
+      "modified": "2026-08-15T03:46:22.000Z",
+      "checksum": "1fdbc05f7322c690ccca0184dba149fc",
+      "folder": false
+    },
+    {
+      "id": "1GhVz33_lV3bGC0wj9oRkGUDv0Uqhzp2A",
+      "parent_id": "1HeyVjDScrbjtvelmLYt3FgvTtLG8TRIz",
+      "name": "THIỀN ĐỊNH.epub",
+      "mime": "application/epub+zip",
+      "size": 175697,
+      "modified": "2026-08-15T03:46:28.000Z",
+      "checksum": "9025e0a5a0f39a70e399283027984b2f",
+      "folder": false
+    },
+    {
+      "id": "19T3G2hO9EX-8NnT0-UHoe_QMx5hdVNe1",
+      "parent_id": "1HeyVjDScrbjtvelmLYt3FgvTtLG8TRIz",
+      "name": "THIỀN ĐỊNH.pdf",
+      "mime": "application/pdf",
+      "size": 102140,
+      "modified": "2026-08-15T03:46:26.000Z",
+      "checksum": "0a77d6b23868325828f276b5512579df",
+      "folder": false
+    }
+  ]
+}

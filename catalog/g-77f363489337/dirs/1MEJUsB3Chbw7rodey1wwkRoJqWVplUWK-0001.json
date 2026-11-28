@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MEJUsB3Chbw7rodey1wwkRoJqWVplUWK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zRslpQovKAke7dy6U-zR9EPr58xuvVOw",
+      "parent_id": "1MEJUsB3Chbw7rodey1wwkRoJqWVplUWK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6222,
+      "modified": "2026-08-15T09:30:53.000Z",
+      "checksum": "6d64d48a94f671b877e39fdeef7b4701",
+      "folder": false
+    },
+    {
+      "id": "1QLTywareuXOx2UbR-LyNHOEQpQV8hxms",
+      "parent_id": "1MEJUsB3Chbw7rodey1wwkRoJqWVplUWK",
+      "name": "TRỜI XANH ĐỔ LỆ.epub",
+      "mime": "application/epub+zip",
+      "size": 716190,
+      "modified": "2026-08-15T09:31:03.000Z",
+      "checksum": "f6f8fb6484394379cca48706f2d915f6",
+      "folder": false
+    },
+    {
+      "id": "1XPlQavQsffBOd6JEvYBpFgAU87G3mk7v",
+      "parent_id": "1MEJUsB3Chbw7rodey1wwkRoJqWVplUWK",
+      "name": "TRỜI XANH ĐỔ LỆ.pdf",
+      "mime": "application/pdf",
+      "size": 1595278,
+      "modified": "2026-08-15T09:31:00.000Z",
+      "checksum": "ade2c53f8df64f32b6c746438ec7e905",
+      "folder": false
+    }
+  ]
+}

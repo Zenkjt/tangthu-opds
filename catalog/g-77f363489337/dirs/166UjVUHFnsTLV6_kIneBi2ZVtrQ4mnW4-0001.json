@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "166UjVUHFnsTLV6_kIneBi2ZVtrQ4mnW4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_1ACl-8HucjOUXcfeF4PAW9E8YJjXAs_",
+      "parent_id": "166UjVUHFnsTLV6_kIneBi2ZVtrQ4mnW4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3456,
+      "modified": "2026-08-16T03:05:25.000Z",
+      "checksum": "7b0eace842378b6ddc50e40bb82459e2",
+      "folder": false
+    },
+    {
+      "id": "1KobD73OpjjkbX9Y5CvYir9iuUZaJVmOo",
+      "parent_id": "166UjVUHFnsTLV6_kIneBi2ZVtrQ4mnW4",
+      "name": "VỊ GIÁM MỤC NÓI LẮP.epub",
+      "mime": "application/epub+zip",
+      "size": 471245,
+      "modified": "2026-08-16T03:05:31.000Z",
+      "checksum": "0ac5d850997f112e93e624f575d80366",
+      "folder": false
+    },
+    {
+      "id": "1UT5oP3nOEYaD16HxRIV4noNdhK003VdF",
+      "parent_id": "166UjVUHFnsTLV6_kIneBi2ZVtrQ4mnW4",
+      "name": "VỊ GIÁM MỤC NÓI LẮP.pdf",
+      "mime": "application/pdf",
+      "size": 695946,
+      "modified": "2026-08-16T03:05:28.000Z",
+      "checksum": "f90bf6fcb626f0094a55c363299c90b5",
+      "folder": false
+    }
+  ]
+}

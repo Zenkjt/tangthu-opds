@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SZfSaOtuU5rBwc-dMauJHz3YIDMGtJVO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1h2VyfXtCftSpUTWZR04hDZJO9swreHLG",
+      "parent_id": "1SZfSaOtuU5rBwc-dMauJHz3YIDMGtJVO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2730,
+      "modified": "2026-08-15T07:38:58.000Z",
+      "checksum": "4d94eb4eaf2078e4667d6c5087cafa76",
+      "folder": false
+    },
+    {
+      "id": "1opwk50RHjeMTaCMB-3uvgIkTX29I4GIA",
+      "parent_id": "1SZfSaOtuU5rBwc-dMauJHz3YIDMGtJVO",
+      "name": "KHÁCH ĐẾN TỪ NƠI NÀO.epub",
+      "mime": "application/epub+zip",
+      "size": 321013,
+      "modified": "2026-08-15T07:39:03.000Z",
+      "checksum": "4e4127b6ee0ab71206405dbbd152b7d2",
+      "folder": false
+    },
+    {
+      "id": "18oYrkimjoOJv2xtHXbpNNiRNUsQh_gW7",
+      "parent_id": "1SZfSaOtuU5rBwc-dMauJHz3YIDMGtJVO",
+      "name": "KHÁCH ĐẾN TỪ NƠI NÀO.pdf",
+      "mime": "application/pdf",
+      "size": 383238,
+      "modified": "2026-08-15T07:39:01.000Z",
+      "checksum": "e57cdb72d235463e351f92182e455092",
+      "folder": false
+    }
+  ]
+}

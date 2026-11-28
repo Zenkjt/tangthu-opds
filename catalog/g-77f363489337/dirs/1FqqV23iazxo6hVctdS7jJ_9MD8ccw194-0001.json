@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FqqV23iazxo6hVctdS7jJ_9MD8ccw194",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WgK4hUDvg6aAPjtNBQVG7t5N-bHbyD97",
+      "parent_id": "1FqqV23iazxo6hVctdS7jJ_9MD8ccw194",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3913,
+      "modified": "2026-08-16T04:13:07.000Z",
+      "checksum": "793c36dadf66a543f4ac8cacc735e0df",
+      "folder": false
+    },
+    {
+      "id": "1tSxwlxtsVORrk_Wbljf00mTY74n8t6rQ",
+      "parent_id": "1FqqV23iazxo6hVctdS7jJ_9MD8ccw194",
+      "name": "NGƯỜI TÌNH HOẠT NGÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 575953,
+      "modified": "2026-08-16T04:13:14.000Z",
+      "checksum": "e677d0a4d04b41c1915c978695dd0228",
+      "folder": false
+    },
+    {
+      "id": "1Hf-S0UfC3MSbpqy9heXXZ_Lqs7mQqwdL",
+      "parent_id": "1FqqV23iazxo6hVctdS7jJ_9MD8ccw194",
+      "name": "NGƯỜI TÌNH HOẠT NGÔN.pdf",
+      "mime": "application/pdf",
+      "size": 1260120,
+      "modified": "2026-08-16T04:13:11.000Z",
+      "checksum": "8cb5e633c1e5d0391052c2d45c4d59ef",
+      "folder": false
+    }
+  ]
+}

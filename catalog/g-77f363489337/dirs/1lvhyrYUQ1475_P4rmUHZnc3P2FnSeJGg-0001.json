@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lvhyrYUQ1475_P4rmUHZnc3P2FnSeJGg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YKb26y4rF7VUIp7ZKzylNkinzIDqePXh",
+      "parent_id": "1lvhyrYUQ1475_P4rmUHZnc3P2FnSeJGg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4421,
+      "modified": "2026-08-16T03:40:05.000Z",
+      "checksum": "ba12333fd7ed26f3b96ee20fdae277eb",
+      "folder": false
+    },
+    {
+      "id": "1ACp-Fm2z5tk_cYy0QupemK-vy9MZ50mL",
+      "parent_id": "1lvhyrYUQ1475_P4rmUHZnc3P2FnSeJGg",
+      "name": "HOÀNG ĐẾ VÀ GIAI NHÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 556774,
+      "modified": "2026-08-16T03:40:11.000Z",
+      "checksum": "9d1bee11188450665ae03809d860d79d",
+      "folder": false
+    },
+    {
+      "id": "12k0bZjx68xm2KDx8ViKQLeUMYoJ8aR53",
+      "parent_id": "1lvhyrYUQ1475_P4rmUHZnc3P2FnSeJGg",
+      "name": "HOÀNG ĐẾ VÀ GIAI NHÂN.pdf",
+      "mime": "application/pdf",
+      "size": 575809,
+      "modified": "2026-08-16T03:40:08.000Z",
+      "checksum": "fc9fee4fe68626748d83c2eb3c02a6d3",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zPSIqn0nZs8BZT2SCcRnvd7LLbkK-UpW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cuvP3nsuNy8VKKB5tT3FjkB6IAT9Wh2_",
+      "parent_id": "1zPSIqn0nZs8BZT2SCcRnvd7LLbkK-UpW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2671,
+      "modified": "2026-08-15T04:23:08.000Z",
+      "checksum": "330de83123783fb6aab2df17e01d27d4",
+      "folder": false
+    },
+    {
+      "id": "1ou3WxXJiEwhzzAbTINaX-l8T2Fe9GA2W",
+      "parent_id": "1zPSIqn0nZs8BZT2SCcRnvd7LLbkK-UpW",
+      "name": "KIẾN THỨC DINH DƯỠNG NỀN TẢNG.epub",
+      "mime": "application/epub+zip",
+      "size": 4872995,
+      "modified": "2026-08-15T04:23:45.000Z",
+      "checksum": "e88f624bbe5c3e81c268834f15f21b2b",
+      "folder": false
+    },
+    {
+      "id": "11nFV8WPeR-H2WgaqClEeck94U0Bao6De",
+      "parent_id": "1zPSIqn0nZs8BZT2SCcRnvd7LLbkK-UpW",
+      "name": "KIẾN THỨC DINH DƯỠNG NỀN TẢNG.pdf",
+      "mime": "application/pdf",
+      "size": 3483248,
+      "modified": "2026-08-15T04:23:29.000Z",
+      "checksum": "daf98100c08911a422233bb021c1e095",
+      "folder": false
+    }
+  ]
+}

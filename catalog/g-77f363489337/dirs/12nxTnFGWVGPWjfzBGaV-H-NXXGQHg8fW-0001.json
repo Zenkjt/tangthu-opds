@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12nxTnFGWVGPWjfzBGaV-H-NXXGQHg8fW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nOjuBNH7r1HPnDhpkVDmIwOEuf1c1W6u",
+      "parent_id": "12nxTnFGWVGPWjfzBGaV-H-NXXGQHg8fW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3769,
+      "modified": "2026-08-15T03:16:49.000Z",
+      "checksum": "ab60213fe36ba398f2b35d192a0141b9",
+      "folder": false
+    },
+    {
+      "id": "1ZwXe1ld5lBcStl2wNkFoCiTAdssXGGDo",
+      "parent_id": "12nxTnFGWVGPWjfzBGaV-H-NXXGQHg8fW",
+      "name": "HỌC LÀM LÃNH ĐẠO.epub",
+      "mime": "application/epub+zip",
+      "size": 368011,
+      "modified": "2026-08-15T03:16:56.000Z",
+      "checksum": "a52dc3715e566e8d299aced74dde82e2",
+      "folder": false
+    },
+    {
+      "id": "1Qy17jFJRqRp6JzPD16tkCZ5quifUA2ar",
+      "parent_id": "12nxTnFGWVGPWjfzBGaV-H-NXXGQHg8fW",
+      "name": "HỌC LÀM LÃNH ĐẠO.pdf",
+      "mime": "application/pdf",
+      "size": 961221,
+      "modified": "2026-08-15T03:16:53.000Z",
+      "checksum": "9eaf68494b64fc7d777031f1e0e51580",
+      "folder": false
+    }
+  ]
+}

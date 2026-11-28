@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16PmIVNDpQro8r4MTt276m7r9ZzlPUd5j",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rqETrpp51BXVR0zsXLoKuK8vjy4Ucekd",
+      "parent_id": "16PmIVNDpQro8r4MTt276m7r9ZzlPUd5j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 550,
+      "modified": "2026-08-16T04:20:14.000Z",
+      "checksum": "fac4de8f76fadfe92557d3d1f5ef589e",
+      "folder": false
+    },
+    {
+      "id": "1Cg7O-ZoRcymBfO4-QbpEbvzyQ2gGd5gR",
+      "parent_id": "16PmIVNDpQro8r4MTt276m7r9ZzlPUd5j",
+      "name": "ĐỪNG NHƯ MÂY LANG THANG.epub",
+      "mime": "application/epub+zip",
+      "size": 529338,
+      "modified": "2026-08-16T04:20:20.000Z",
+      "checksum": "88a3119eb1664090fd29f0f1de7062fc",
+      "folder": false
+    },
+    {
+      "id": "1mMr1Lq69hhiHX1ar8d4RsbGwbHtpw_IL",
+      "parent_id": "16PmIVNDpQro8r4MTt276m7r9ZzlPUd5j",
+      "name": "ĐỪNG NHƯ MÂY LANG THANG.pdf",
+      "mime": "application/pdf",
+      "size": 616310,
+      "modified": "2026-08-16T04:20:17.000Z",
+      "checksum": "e4420392c4782bca166f3fdea3b2dbed",
+      "folder": false
+    }
+  ]
+}

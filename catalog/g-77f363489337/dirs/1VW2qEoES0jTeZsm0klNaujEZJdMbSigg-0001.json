@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VW2qEoES0jTeZsm0klNaujEZJdMbSigg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Srm2rl4J9YZEg7ei68-2hDREDpqH21_7",
+      "parent_id": "1VW2qEoES0jTeZsm0klNaujEZJdMbSigg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10010,
+      "modified": "2026-08-15T07:13:19.000Z",
+      "checksum": "b626a7b83314e5986c7d9c0e95161d84",
+      "folder": false
+    },
+    {
+      "id": "1N97PnxWFBVpEHnDc0PWuJCjCRJ_P1tLe",
+      "parent_id": "1VW2qEoES0jTeZsm0klNaujEZJdMbSigg",
+      "name": "ĐỊNH MỆNH ĐÃ AN BÀI.epub",
+      "mime": "application/epub+zip",
+      "size": 519760,
+      "modified": "2026-08-15T07:13:26.000Z",
+      "checksum": "2d7736a475747b7c2a112a3fb17d1152",
+      "folder": false
+    },
+    {
+      "id": "1X60pfMcraFq118LjMtYDO8rM5JzkN_Kk",
+      "parent_id": "1VW2qEoES0jTeZsm0klNaujEZJdMbSigg",
+      "name": "ĐỊNH MỆNH ĐÃ AN BÀI.pdf",
+      "mime": "application/pdf",
+      "size": 1506235,
+      "modified": "2026-08-15T07:13:23.000Z",
+      "checksum": "6b828e8bbeb5bb4a45372a4fe9bb41c1",
+      "folder": false
+    }
+  ]
+}

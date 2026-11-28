@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HcHi8qPaJe9zX91diqU3PGoR6SPCAojD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LgoX-Q96wGnCQL5cA5eGipZwqxRJh5FT",
+      "parent_id": "1HcHi8qPaJe9zX91diqU3PGoR6SPCAojD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6464,
+      "modified": "2026-08-15T09:25:04.000Z",
+      "checksum": "e26bb16799d78ba3e3ec90623d2e5821",
+      "folder": false
+    },
+    {
+      "id": "1RanWKEl5XLrytk9sNwuemF16GfwPHo0W",
+      "parent_id": "1HcHi8qPaJe9zX91diqU3PGoR6SPCAojD",
+      "name": "YÊU MUỘN.epub",
+      "mime": "application/epub+zip",
+      "size": 562089,
+      "modified": "2026-08-15T09:25:46.000Z",
+      "checksum": "8def2a15a026e9db41ea21e5554a79bf",
+      "folder": false
+    },
+    {
+      "id": "1of1OnNDQVb__zDOI3q7J8CBzf-ReIdLa",
+      "parent_id": "1HcHi8qPaJe9zX91diqU3PGoR6SPCAojD",
+      "name": "YÊU MUỘN.pdf",
+      "mime": "application/pdf",
+      "size": 1485865,
+      "modified": "2026-08-15T09:25:36.000Z",
+      "checksum": "1211820b8c173a0b755a0081d9290372",
+      "folder": false
+    }
+  ]
+}

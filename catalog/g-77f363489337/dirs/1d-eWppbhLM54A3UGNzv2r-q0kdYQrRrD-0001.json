@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d-eWppbhLM54A3UGNzv2r-q0kdYQrRrD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bjyZ5FDWkcsDNLreaEiNQcw46KK0Zv7o",
+      "parent_id": "1d-eWppbhLM54A3UGNzv2r-q0kdYQrRrD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5538,
+      "modified": "2026-08-15T04:02:55.000Z",
+      "checksum": "0db6ee86c78719b193928b55c472238e",
+      "folder": false
+    },
+    {
+      "id": "1w3NtN4E85TprhMYI3xq_Pt30zPlt0gTy",
+      "parent_id": "1d-eWppbhLM54A3UGNzv2r-q0kdYQrRrD",
+      "name": "KINH QUÁN NIỆM HƠI THỞ.epub",
+      "mime": "application/epub+zip",
+      "size": 801035,
+      "modified": "2026-08-15T04:03:01.000Z",
+      "checksum": "46e3fdb069d0a8e64b118af58e37f28a",
+      "folder": false
+    },
+    {
+      "id": "12brri8jfjJPL9rLZ0rb9lANKNQWULpAW",
+      "parent_id": "1d-eWppbhLM54A3UGNzv2r-q0kdYQrRrD",
+      "name": "KINH QUÁN NIỆM HƠI THỞ.pdf",
+      "mime": "application/pdf",
+      "size": 611414,
+      "modified": "2026-08-15T04:02:59.000Z",
+      "checksum": "56092eff33c18e1c5701b935fa33156b",
+      "folder": false
+    }
+  ]
+}

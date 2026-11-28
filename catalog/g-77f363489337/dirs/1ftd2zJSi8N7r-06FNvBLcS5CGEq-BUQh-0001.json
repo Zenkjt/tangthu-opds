@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ftd2zJSi8N7r-06FNvBLcS5CGEq-BUQh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1i_f2G_-t06CrHBmAzAPVrzMm7VdAXDU2",
+      "parent_id": "1ftd2zJSi8N7r-06FNvBLcS5CGEq-BUQh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1429,
+      "modified": "2026-08-15T07:25:04.000Z",
+      "checksum": "4ce680714035016efaed31f749cb91bb",
+      "folder": false
+    },
+    {
+      "id": "1zWYxmum9Ban6FvNOJYdIEWmlTyS_dPu6",
+      "parent_id": "1ftd2zJSi8N7r-06FNvBLcS5CGEq-BUQh",
+      "name": "TUYỂN TẬP ERICH MARIA REMARQUE.epub",
+      "mime": "application/epub+zip",
+      "size": 4520024,
+      "modified": "2026-08-15T07:25:16.000Z",
+      "checksum": "29e833816c5aa0a66f4c39728bc1f653",
+      "folder": false
+    },
+    {
+      "id": "1j4PdujqxqBsJgcIzD25OydQcqPqwnMeX",
+      "parent_id": "1ftd2zJSi8N7r-06FNvBLcS5CGEq-BUQh",
+      "name": "TUYỂN TẬP ERICH MARIA REMARQUE.pdf",
+      "mime": "application/pdf",
+      "size": 4688720,
+      "modified": "2026-08-15T07:25:13.000Z",
+      "checksum": "b71804c23a48ccbd6818f3210640b990",
+      "folder": false
+    }
+  ]
+}

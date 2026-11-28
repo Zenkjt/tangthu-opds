@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UK7aBQba304BZ83beK9PSQ_o72wJAf7Z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zJXlOIdsfzD3IOtHCd4gpCnPQzuvemT2",
+      "parent_id": "1UK7aBQba304BZ83beK9PSQ_o72wJAf7Z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8526,
+      "modified": "2026-08-15T09:35:47.000Z",
+      "checksum": "b7048c85515c943dce9fc6351549ae38",
+      "folder": false
+    },
+    {
+      "id": "1AvQqnfcfP2udThKdXthjcq1b4tK8ylvC",
+      "parent_id": "1UK7aBQba304BZ83beK9PSQ_o72wJAf7Z",
+      "name": "ĐÔI MẮT.epub",
+      "mime": "application/epub+zip",
+      "size": 438297,
+      "modified": "2026-08-15T09:35:55.000Z",
+      "checksum": "1eef6fa76587513996bbc89ed84cb50d",
+      "folder": false
+    },
+    {
+      "id": "1OATnzQeIj2P0BQ1PpLLg7jhjauBVilau",
+      "parent_id": "1UK7aBQba304BZ83beK9PSQ_o72wJAf7Z",
+      "name": "ĐÔI MẮT.pdf",
+      "mime": "application/pdf",
+      "size": 698908,
+      "modified": "2026-08-15T09:35:52.000Z",
+      "checksum": "79f86069e3d3590ed922335ad04ea68c",
+      "folder": false
+    }
+  ]
+}

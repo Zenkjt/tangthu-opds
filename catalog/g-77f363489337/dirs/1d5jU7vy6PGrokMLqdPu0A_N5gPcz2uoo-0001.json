@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d5jU7vy6PGrokMLqdPu0A_N5gPcz2uoo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yqXnTmV5PEMOmaUYOb_VkheoNnmPE-uQ",
+      "parent_id": "1d5jU7vy6PGrokMLqdPu0A_N5gPcz2uoo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4480,
+      "modified": "2026-08-16T03:36:50.000Z",
+      "checksum": "c5d85bde9265b5749ceac9e0f3d6527d",
+      "folder": false
+    },
+    {
+      "id": "1yAfUDujcVwuW-fMuXNCPMlKVoa1DI3X7",
+      "parent_id": "1d5jU7vy6PGrokMLqdPu0A_N5gPcz2uoo",
+      "name": "MỐI TÌNH “CHÂN”.epub",
+      "mime": "application/epub+zip",
+      "size": 294888,
+      "modified": "2026-08-16T03:36:56.000Z",
+      "checksum": "2ff3cdf024edbf7e0a6e855ffc0f0591",
+      "folder": false
+    },
+    {
+      "id": "1JsAbNuHsYpZFyQeKfAlUw0ROXw0VlC55",
+      "parent_id": "1d5jU7vy6PGrokMLqdPu0A_N5gPcz2uoo",
+      "name": "MỐI TÌNH “CHÂN”.pdf",
+      "mime": "application/pdf",
+      "size": 361952,
+      "modified": "2026-08-16T03:36:53.000Z",
+      "checksum": "38e672e82f3f8c5b44eceac4dfe9e180",
+      "folder": false
+    }
+  ]
+}

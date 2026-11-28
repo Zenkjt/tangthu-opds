@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yHzM36rAHC23V7iGIEEmqa5WHwXNJtkG",
+  "page": 1,
+  "items": [
+    {
+      "id": "18Civn3nmR5zwDuf14Dw8SoLmBLa_zKkf",
+      "parent_id": "1yHzM36rAHC23V7iGIEEmqa5WHwXNJtkG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1710,
+      "modified": "2026-08-15T11:29:53.000Z",
+      "checksum": "34827b04f5ec8e327eee0a27d12c902e",
+      "folder": false
+    },
+    {
+      "id": "13B-2SgoV58RImVj6VIl6koruhqaF9SgN",
+      "parent_id": "1yHzM36rAHC23V7iGIEEmqa5WHwXNJtkG",
+      "name": "VẬT LÝ VUI - TẬP 1.epub",
+      "mime": "application/epub+zip",
+      "size": 1301486,
+      "modified": "2026-08-15T11:29:59.000Z",
+      "checksum": "ccbab96fdc7022d38827bdb1013210a6",
+      "folder": false
+    },
+    {
+      "id": "1U5YfUo2-gzKpjWk8QBG0s9WhginVsU9Q",
+      "parent_id": "1yHzM36rAHC23V7iGIEEmqa5WHwXNJtkG",
+      "name": "VẬT LÝ VUI - TẬP 1.pdf",
+      "mime": "application/pdf",
+      "size": 966260,
+      "modified": "2026-08-15T11:29:56.000Z",
+      "checksum": "c8c6bab06433b32406aee1810e8da823",
+      "folder": false
+    }
+  ]
+}

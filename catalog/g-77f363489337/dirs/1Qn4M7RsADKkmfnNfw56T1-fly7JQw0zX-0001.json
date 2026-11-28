@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Qn4M7RsADKkmfnNfw56T1-fly7JQw0zX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EYScZVeGjMeAbR42U-5iL7xrzsp_nDDZ",
+      "parent_id": "1Qn4M7RsADKkmfnNfw56T1-fly7JQw0zX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3130,
+      "modified": "2026-08-15T10:15:06.000Z",
+      "checksum": "8f07435c4abd60bc2fbc103579142e05",
+      "folder": false
+    },
+    {
+      "id": "1iWoFGHGZTz7qObuiEWzUe9lBNyceaROK",
+      "parent_id": "1Qn4M7RsADKkmfnNfw56T1-fly7JQw0zX",
+      "name": "THIÊN ĐẾ KIẾM.epub",
+      "mime": "application/epub+zip",
+      "size": 1823370,
+      "modified": "2026-08-15T10:15:20.000Z",
+      "checksum": "1ff59f3ac2e5abe384c0ec93c75633f9",
+      "folder": false
+    },
+    {
+      "id": "1CUIgMgyaZAI3ZNX96eTMjssQAcC5NdAC",
+      "parent_id": "1Qn4M7RsADKkmfnNfw56T1-fly7JQw0zX",
+      "name": "THIÊN ĐẾ KIẾM.pdf",
+      "mime": "application/pdf",
+      "size": 4632400,
+      "modified": "2026-08-15T10:15:16.000Z",
+      "checksum": "22bcc5138aff7e29e2aed7bdd7863e28",
+      "folder": false
+    }
+  ]
+}

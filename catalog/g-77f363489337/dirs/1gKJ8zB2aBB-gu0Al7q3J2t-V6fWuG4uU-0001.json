@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gKJ8zB2aBB-gu0Al7q3J2t-V6fWuG4uU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1I1dRXfCAvKy5h68SNQOZCp4rorXbVR2b",
+      "parent_id": "1gKJ8zB2aBB-gu0Al7q3J2t-V6fWuG4uU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1865,
+      "modified": "2026-08-15T06:55:09.000Z",
+      "checksum": "6da74678c81cce49934c93628576419b",
+      "folder": false
+    },
+    {
+      "id": "10J82HCu-KLob-MVGCKJ3il6xUPLxVrNx",
+      "parent_id": "1gKJ8zB2aBB-gu0Al7q3J2t-V6fWuG4uU",
+      "name": "TRƯỚC VÒNG CHUNG KẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 477145,
+      "modified": "2026-08-15T06:55:36.000Z",
+      "checksum": "411c150a5ea6c1d6cba282313ceeed17",
+      "folder": false
+    },
+    {
+      "id": "1XtcLryHjExkz79lE8TzhicnL1e8A5PDv",
+      "parent_id": "1gKJ8zB2aBB-gu0Al7q3J2t-V6fWuG4uU",
+      "name": "TRƯỚC VÒNG CHUNG KẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1333042,
+      "modified": "2026-08-15T06:55:29.000Z",
+      "checksum": "691c346bf50b68a095cca5e1cfe11a8c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1phIhIcD02zhuUoAylvMAEvN5An0gUNVk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZFbiApCCpZA_nyiRNpueNMB25NMw-fga",
+      "parent_id": "1phIhIcD02zhuUoAylvMAEvN5An0gUNVk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 597,
+      "modified": "2026-08-15T06:51:09.000Z",
+      "checksum": "8f1ccc9eb75ce1e0539f48d451d86273",
+      "folder": false
+    },
+    {
+      "id": "1MWy4astwX2H05Lw3EeCDtwFFmMMJ8upW",
+      "parent_id": "1phIhIcD02zhuUoAylvMAEvN5An0gUNVk",
+      "name": "MẮT BÃO.epub",
+      "mime": "application/epub+zip",
+      "size": 672348,
+      "modified": "2026-08-15T06:51:16.000Z",
+      "checksum": "27b8d781213754d4092729f30bdfa9e4",
+      "folder": false
+    },
+    {
+      "id": "1KrZU0JsplJwUuX-wYIf3Dd4-bngBVauL",
+      "parent_id": "1phIhIcD02zhuUoAylvMAEvN5An0gUNVk",
+      "name": "MẮT BÃO.pdf",
+      "mime": "application/pdf",
+      "size": 1133632,
+      "modified": "2026-08-15T06:51:13.000Z",
+      "checksum": "6dc9658f86c57d7efbfde02436bb1e36",
+      "folder": false
+    }
+  ]
+}

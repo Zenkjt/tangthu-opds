@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EhBEC9bBo1OvWkEl05y2KlpDvmz7APYd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1C043zlURLklDbtnqy5VyRMuvOaCKK9VL",
+      "parent_id": "1EhBEC9bBo1OvWkEl05y2KlpDvmz7APYd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 508,
+      "modified": "2026-08-15T15:33:07.000Z",
+      "checksum": "17d3347237c26521a89815b72b339a39",
+      "folder": false
+    },
+    {
+      "id": "1CL1BXWvDkiQ6fx2F5ck9PBlzxuRLHBi4",
+      "parent_id": "1EhBEC9bBo1OvWkEl05y2KlpDvmz7APYd",
+      "name": "KẺ NẶN SÁP.epub",
+      "mime": "application/epub+zip",
+      "size": 624990,
+      "modified": "2026-08-15T15:33:15.000Z",
+      "checksum": "d7ec936a8155596ccf38b535bf4d9287",
+      "folder": false
+    },
+    {
+      "id": "14-VBhj1w5Zl22pDL0-TEqyx93mG66DuU",
+      "parent_id": "1EhBEC9bBo1OvWkEl05y2KlpDvmz7APYd",
+      "name": "KẺ NẶN SÁP.pdf",
+      "mime": "application/pdf",
+      "size": 1374995,
+      "modified": "2026-08-15T15:33:12.000Z",
+      "checksum": "352e46ce2a61424c808424ae55e8ea62",
+      "folder": false
+    }
+  ]
+}

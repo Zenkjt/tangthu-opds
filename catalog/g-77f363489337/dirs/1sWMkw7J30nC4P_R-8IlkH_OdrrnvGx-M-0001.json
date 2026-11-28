@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sWMkw7J30nC4P_R-8IlkH_OdrrnvGx-M",
+  "page": 1,
+  "items": [
+    {
+      "id": "16g31I1cjuFBFMwYCbpghVwbSbdrnC7WG",
+      "parent_id": "1sWMkw7J30nC4P_R-8IlkH_OdrrnvGx-M",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3873,
+      "modified": "2026-08-15T15:33:23.000Z",
+      "checksum": "3d4af1f053d5aa2d2a908b561ce581b7",
+      "folder": false
+    },
+    {
+      "id": "1BcZwMDV337MS_s75-1QcGKqapRMivw41",
+      "parent_id": "1sWMkw7J30nC4P_R-8IlkH_OdrrnvGx-M",
+      "name": "NẠN NHÂN THỨ TƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 522761,
+      "modified": "2026-08-15T15:33:30.000Z",
+      "checksum": "719711d7d0322948bba803c017e6743b",
+      "folder": false
+    },
+    {
+      "id": "1Q4FHJKeqGftmp21a_90UJaY3KuDWmfTg",
+      "parent_id": "1sWMkw7J30nC4P_R-8IlkH_OdrrnvGx-M",
+      "name": "NẠN NHÂN THỨ TƯ.pdf",
+      "mime": "application/pdf",
+      "size": 1581770,
+      "modified": "2026-08-15T15:33:28.000Z",
+      "checksum": "820cee5f9f1255db6dd3eed57a4d492e",
+      "folder": false
+    }
+  ]
+}

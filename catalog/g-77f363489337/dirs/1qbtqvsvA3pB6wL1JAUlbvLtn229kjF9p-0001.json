@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qbtqvsvA3pB6wL1JAUlbvLtn229kjF9p",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ySECJ2yRvPhzCTmGGPzXqXGlbIRu2pdc",
+      "parent_id": "1qbtqvsvA3pB6wL1JAUlbvLtn229kjF9p",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1842,
+      "modified": "2026-08-15T09:42:03.000Z",
+      "checksum": "038316dabb29d3d08c3046e3ea00c8ef",
+      "folder": false
+    },
+    {
+      "id": "1xoTUp6jePDTDAfL0QpJY3MKbayFzDT5H",
+      "parent_id": "1qbtqvsvA3pB6wL1JAUlbvLtn229kjF9p",
+      "name": "LY DỊ - TUYỆT VỌNG VÀ DỄ THƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 492011,
+      "modified": "2026-08-15T09:42:10.000Z",
+      "checksum": "223a5f2f79845be9ae0ee1dad0fb09cb",
+      "folder": false
+    },
+    {
+      "id": "1WGFgvtGVRqB4dlu3HNS43S-5ZALFr1UB",
+      "parent_id": "1qbtqvsvA3pB6wL1JAUlbvLtn229kjF9p",
+      "name": "LY DỊ - TUYỆT VỌNG VÀ DỄ THƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1494715,
+      "modified": "2026-08-15T09:42:07.000Z",
+      "checksum": "4deb7dcfd20b3a66172f95b2fa7f303f",
+      "folder": false
+    }
+  ]
+}

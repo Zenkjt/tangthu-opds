@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qqT9L7IbTeSpgmd6vfvzPjwAPUsH8dw5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rmUD3UKIOVXqNpksl4gY5R8yx5h1liW8",
+      "parent_id": "1qqT9L7IbTeSpgmd6vfvzPjwAPUsH8dw5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9971,
+      "modified": "2026-08-15T08:13:48.000Z",
+      "checksum": "bd3b79bcf68af24c284b71679a8d43f1",
+      "folder": false
+    },
+    {
+      "id": "1WZb6G31Jwd9-jTtPN4q5ThH7_M6Lka1X",
+      "parent_id": "1qqT9L7IbTeSpgmd6vfvzPjwAPUsH8dw5",
+      "name": "ĐẠI KIẾM SƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 4810740,
+      "modified": "2026-08-15T08:14:09.000Z",
+      "checksum": "7b9ef30fb50af2e60df8c77eba698462",
+      "folder": false
+    },
+    {
+      "id": "1o1p3_CQbrrnITGUy1cPXKAuyoUQdYKw0",
+      "parent_id": "1qqT9L7IbTeSpgmd6vfvzPjwAPUsH8dw5",
+      "name": "ĐẠI KIẾM SƯ.pdf",
+      "mime": "application/pdf",
+      "size": 6909436,
+      "modified": "2026-08-15T08:14:01.000Z",
+      "checksum": "1461c4a15f2e594ca8762f8770779102",
+      "folder": false
+    }
+  ]
+}

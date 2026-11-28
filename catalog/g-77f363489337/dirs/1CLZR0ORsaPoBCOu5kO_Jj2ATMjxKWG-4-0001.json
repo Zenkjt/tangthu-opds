@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CLZR0ORsaPoBCOu5kO_Jj2ATMjxKWG-4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TQdXiqmYE2kNmkzJALERe6UP4QwvMwFv",
+      "parent_id": "1CLZR0ORsaPoBCOu5kO_Jj2ATMjxKWG-4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3647,
+      "modified": "2026-08-16T03:06:58.000Z",
+      "checksum": "186e5e3625de8172687a98493f4d5b83",
+      "folder": false
+    },
+    {
+      "id": "1iATCnyCO8lXuBdaSr7H1_oItwCzX7Akd",
+      "parent_id": "1CLZR0ORsaPoBCOu5kO_Jj2ATMjxKWG-4",
+      "name": "XUÂN SẮC NHƯ THẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 1152621,
+      "modified": "2026-08-16T03:07:14.000Z",
+      "checksum": "65a24a8fd7a934ea972bc94a9fe73bd8",
+      "folder": false
+    },
+    {
+      "id": "1F4FF5LqmXrEMlQwtq9u2wqF9kHWb1xML",
+      "parent_id": "1CLZR0ORsaPoBCOu5kO_Jj2ATMjxKWG-4",
+      "name": "XUÂN SẮC NHƯ THẾ.pdf",
+      "mime": "application/pdf",
+      "size": 5159491,
+      "modified": "2026-08-16T03:07:12.000Z",
+      "checksum": "b8e0618c156a3c2fd10f0e5e0cb555d4",
+      "folder": false
+    }
+  ]
+}

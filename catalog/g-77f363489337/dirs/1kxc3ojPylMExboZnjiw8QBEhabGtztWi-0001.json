@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kxc3ojPylMExboZnjiw8QBEhabGtztWi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-Q-pwJZODKpmBnoGEvSC4IRZtmgN2frQ",
+      "parent_id": "1kxc3ojPylMExboZnjiw8QBEhabGtztWi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 33811,
+      "modified": "2026-08-15T03:42:32.000Z",
+      "checksum": "00d7e8407b1cbe3a8a11d80be2a9247c",
+      "folder": false
+    },
+    {
+      "id": "1_bIb5OcZ_ju4s8xUwomqYlefWvefSyU1",
+      "parent_id": "1kxc3ojPylMExboZnjiw8QBEhabGtztWi",
+      "name": "LỊCH SỬ GIÁO HỘI CÔNG GIÁO.epub",
+      "mime": "application/epub+zip",
+      "size": 558920,
+      "modified": "2026-08-15T03:42:38.000Z",
+      "checksum": "c93fbd09eb8c70a8b54c206a93a4efff",
+      "folder": false
+    },
+    {
+      "id": "1-m5alLxNC_cvuA4hCxkTzfYmctEFsqK9",
+      "parent_id": "1kxc3ojPylMExboZnjiw8QBEhabGtztWi",
+      "name": "LỊCH SỬ GIÁO HỘI CÔNG GIÁO.pdf",
+      "mime": "application/pdf",
+      "size": 832019,
+      "modified": "2026-08-15T03:42:36.000Z",
+      "checksum": "ac7be57f47680160ccd75b803bc4e11d",
+      "folder": false
+    }
+  ]
+}

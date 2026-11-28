@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hXZCbECGyeRY2ACJs5c_tojB91jKx6KR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QL5439dGXmZd3PMZGEx1GPOfMQ_t3ELX",
+      "parent_id": "1hXZCbECGyeRY2ACJs5c_tojB91jKx6KR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 530,
+      "modified": "2026-08-16T04:10:33.000Z",
+      "checksum": "bc105cb2d19035fefebc118cb31d263e",
+      "folder": false
+    },
+    {
+      "id": "1329ppmLoidV7rNfwGsMkBcixhbWA-sry",
+      "parent_id": "1hXZCbECGyeRY2ACJs5c_tojB91jKx6KR",
+      "name": "NHỮNG BÔNG HOA TRÊN TẦNG ÁP MÁI.epub",
+      "mime": "application/epub+zip",
+      "size": 610039,
+      "modified": "2026-08-16T04:10:40.000Z",
+      "checksum": "df591af055d5da5062362c48254fb3c5",
+      "folder": false
+    },
+    {
+      "id": "1ZWYTELES8YYHAHHfgrb_OksP5x-BxD8P",
+      "parent_id": "1hXZCbECGyeRY2ACJs5c_tojB91jKx6KR",
+      "name": "NHỮNG BÔNG HOA TRÊN TẦNG ÁP MÁI.pdf",
+      "mime": "application/pdf",
+      "size": 1536624,
+      "modified": "2026-08-16T04:10:37.000Z",
+      "checksum": "c6960dd2bcd2b6487b4b645604ae3e56",
+      "folder": false
+    }
+  ]
+}

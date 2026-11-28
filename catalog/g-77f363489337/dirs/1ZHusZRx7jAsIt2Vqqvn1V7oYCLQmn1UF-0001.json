@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZHusZRx7jAsIt2Vqqvn1V7oYCLQmn1UF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QDxO5dqcJNL9MQ6mvRc97Rkz5qLE49UX",
+      "parent_id": "1ZHusZRx7jAsIt2Vqqvn1V7oYCLQmn1UF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9693,
+      "modified": "2026-08-15T15:11:13.000Z",
+      "checksum": "e68767fec2a6ad681ecb63d2d8fc6a4e",
+      "folder": false
+    },
+    {
+      "id": "1CWOUH9l9bJq5P7uNBsvuj8o3ZgXmPhdS",
+      "parent_id": "1ZHusZRx7jAsIt2Vqqvn1V7oYCLQmn1UF",
+      "name": "KẺ GIẾT NGƯỜI ĐỘI LỐT.epub",
+      "mime": "application/epub+zip",
+      "size": 478784,
+      "modified": "2026-08-15T15:11:20.000Z",
+      "checksum": "9fd29e4fdd0f90535d4218e6bc2dfd15",
+      "folder": false
+    },
+    {
+      "id": "1J56pqLJU45PorE1_qBNZNPNTFLDYUwzm",
+      "parent_id": "1ZHusZRx7jAsIt2Vqqvn1V7oYCLQmn1UF",
+      "name": "KẺ GIẾT NGƯỜI ĐỘI LỐT.pdf",
+      "mime": "application/pdf",
+      "size": 913560,
+      "modified": "2026-08-15T15:11:17.000Z",
+      "checksum": "eeadec83d13b5b9ecbba5ad1b6b56643",
+      "folder": false
+    }
+  ]
+}

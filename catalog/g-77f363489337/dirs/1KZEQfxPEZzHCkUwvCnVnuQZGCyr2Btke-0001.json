@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KZEQfxPEZzHCkUwvCnVnuQZGCyr2Btke",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AxoBWuz8kxjofClYsjP1Kj3yvvNX5ZvI",
+      "parent_id": "1KZEQfxPEZzHCkUwvCnVnuQZGCyr2Btke",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3391,
+      "modified": "2026-08-15T12:39:36.000Z",
+      "checksum": "06d009086f0f54145e42e0c3deb7985a",
+      "folder": false
+    },
+    {
+      "id": "1Fu003omoDTjD0cKpqwCjmmntPR_vr5jW",
+      "parent_id": "1KZEQfxPEZzHCkUwvCnVnuQZGCyr2Btke",
+      "name": "THỊ TRẤN XE BUS MÀU XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 1185953,
+      "modified": "2026-08-15T12:41:27.000Z",
+      "checksum": "01e41f9a27e7c0028916e33307a64ea9",
+      "folder": false
+    },
+    {
+      "id": "1n6yiWLnON6EfGE3hJX9tseWl8Hx3z7QC",
+      "parent_id": "1KZEQfxPEZzHCkUwvCnVnuQZGCyr2Btke",
+      "name": "THỊ TRẤN XE BUS MÀU XANH.pdf",
+      "mime": "application/pdf",
+      "size": 1610454,
+      "modified": "2026-08-15T12:39:43.000Z",
+      "checksum": "e132ad016ec71a5fb6e5c7bc763ce8aa",
+      "folder": false
+    }
+  ]
+}

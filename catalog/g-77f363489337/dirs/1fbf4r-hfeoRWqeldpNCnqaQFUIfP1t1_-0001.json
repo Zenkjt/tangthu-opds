@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fbf4r-hfeoRWqeldpNCnqaQFUIfP1t1_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1i-uzzefGeTH_GerLdKHH-sZWTICMolzw",
+      "parent_id": "1fbf4r-hfeoRWqeldpNCnqaQFUIfP1t1_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8273,
+      "modified": "2026-08-15T11:04:03.000Z",
+      "checksum": "e0e406cb91263c620f6f40898b3ed6d0",
+      "folder": false
+    },
+    {
+      "id": "1bRiaTIpckcxmONET4ZSe9dkhtwvP9vOT",
+      "parent_id": "1fbf4r-hfeoRWqeldpNCnqaQFUIfP1t1_",
+      "name": "SỐNG MẠNH MẼ.epub",
+      "mime": "application/epub+zip",
+      "size": 2298098,
+      "modified": "2026-08-15T11:04:30.000Z",
+      "checksum": "81de7fddc0fb3be4f223fd792bb0d726",
+      "folder": false
+    },
+    {
+      "id": "1zUA_-c213vKoihGKe-RhSfu9ibZcJcZR",
+      "parent_id": "1fbf4r-hfeoRWqeldpNCnqaQFUIfP1t1_",
+      "name": "SỐNG MẠNH MẼ.pdf",
+      "mime": "application/pdf",
+      "size": 2995754,
+      "modified": "2026-08-15T11:04:13.000Z",
+      "checksum": "86d9e1054e00f2ceadf4228abd05baac",
+      "folder": false
+    }
+  ]
+}

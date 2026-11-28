@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pY1JL1vjnSpQjT1x80vJ_4sfaL3v9SdB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uz04EhhlY0-V1-bLWm5TbfPyZEqJaVie",
+      "parent_id": "1pY1JL1vjnSpQjT1x80vJ_4sfaL3v9SdB",
+      "name": "CỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 553430,
+      "modified": "2026-08-16T03:45:25.000Z",
+      "checksum": "afa5c8cdcc9798a689691e8cd35f096a",
+      "folder": false
+    },
+    {
+      "id": "1Pe_2C5_mMqKJoje80KmcrP6vp6QfsNpG",
+      "parent_id": "1pY1JL1vjnSpQjT1x80vJ_4sfaL3v9SdB",
+      "name": "CỎ.pdf",
+      "mime": "application/pdf",
+      "size": 841747,
+      "modified": "2026-08-16T03:45:23.000Z",
+      "checksum": "8dac2452f28ded62d551e15bd9522403",
+      "folder": false
+    },
+    {
+      "id": "1FlKE98O5oI5aP8vGeCQB4fwnz4FSTWBM",
+      "parent_id": "1pY1JL1vjnSpQjT1x80vJ_4sfaL3v9SdB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9803,
+      "modified": "2026-08-16T03:45:19.000Z",
+      "checksum": "799ab31489776d21d5cdcf99fcacd8f0",
+      "folder": false
+    }
+  ]
+}

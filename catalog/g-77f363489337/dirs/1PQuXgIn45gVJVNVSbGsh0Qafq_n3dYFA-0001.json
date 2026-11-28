@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PQuXgIn45gVJVNVSbGsh0Qafq_n3dYFA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_tiwJhfySQGJ1JrWi7Wrh14grWLCSqKR",
+      "parent_id": "1PQuXgIn45gVJVNVSbGsh0Qafq_n3dYFA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6437,
+      "modified": "2026-08-15T03:19:11.000Z",
+      "checksum": "ada7f3602260d0ccc3c44751c567ed1c",
+      "folder": false
+    },
+    {
+      "id": "1cxX7gBswG5cQWy-OKGfZfHe-OOOJ3e5E",
+      "parent_id": "1PQuXgIn45gVJVNVSbGsh0Qafq_n3dYFA",
+      "name": "SỐNG ĐƠN GIẢN CHO MÌNH THANH THẢN.epub",
+      "mime": "application/epub+zip",
+      "size": 326472,
+      "modified": "2026-08-15T03:19:18.000Z",
+      "checksum": "6ef6dfc06759e19811be938e07f07a50",
+      "folder": false
+    },
+    {
+      "id": "1TL8QIGtxIVFmdZWSZQ5pFXJAzHNFSU4i",
+      "parent_id": "1PQuXgIn45gVJVNVSbGsh0Qafq_n3dYFA",
+      "name": "SỐNG ĐƠN GIẢN CHO MÌNH THANH THẢN.pdf",
+      "mime": "application/pdf",
+      "size": 450166,
+      "modified": "2026-08-15T03:19:15.000Z",
+      "checksum": "0fadb6f040d6011eb50636ed0c28d120",
+      "folder": false
+    }
+  ]
+}

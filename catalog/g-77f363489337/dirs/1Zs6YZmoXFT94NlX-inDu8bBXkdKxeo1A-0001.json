@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Zs6YZmoXFT94NlX-inDu8bBXkdKxeo1A",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rriK5I-c30eX7Ql3bw36duxbTNYjtHE-",
+      "parent_id": "1Zs6YZmoXFT94NlX-inDu8bBXkdKxeo1A",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1295,
+      "modified": "2026-08-15T04:01:59.000Z",
+      "checksum": "17ed5cc54ff35c90b2d248f646745fdf",
+      "folder": false
+    },
+    {
+      "id": "1Ydn7KWPXsib6OyeyypdIIzMewji93zfm",
+      "parent_id": "1Zs6YZmoXFT94NlX-inDu8bBXkdKxeo1A",
+      "name": "TAROT CHÚ GIẢI.epub",
+      "mime": "application/epub+zip",
+      "size": 13057061,
+      "modified": "2026-08-15T04:02:23.000Z",
+      "checksum": "6c22bbebc8282d67b7cd45b4db8ff5d4",
+      "folder": false
+    },
+    {
+      "id": "1rS3foY1vXfZTQN4Y_1omgHY7xw_uE76I",
+      "parent_id": "1Zs6YZmoXFT94NlX-inDu8bBXkdKxeo1A",
+      "name": "TAROT CHÚ GIẢI.pdf",
+      "mime": "application/pdf",
+      "size": 8548990,
+      "modified": "2026-08-15T04:02:08.000Z",
+      "checksum": "2f2a1ac7697fd085d72be0d4f5346e05",
+      "folder": false
+    }
+  ]
+}

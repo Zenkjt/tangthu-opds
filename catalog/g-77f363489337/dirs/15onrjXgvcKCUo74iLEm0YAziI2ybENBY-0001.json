@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15onrjXgvcKCUo74iLEm0YAziI2ybENBY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hxeWF0pQvYdsrEAl0g31QVL01gQ6ta6A",
+      "parent_id": "15onrjXgvcKCUo74iLEm0YAziI2ybENBY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10343,
+      "modified": "2026-08-16T03:12:04.000Z",
+      "checksum": "4fda21c024e0a70fd8374aabd9c70886",
+      "folder": false
+    },
+    {
+      "id": "1SiRnLjxMIU_POIAqd4x2dW9MiVAww16X",
+      "parent_id": "15onrjXgvcKCUo74iLEm0YAziI2ybENBY",
+      "name": "NÚI THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 1534120,
+      "modified": "2026-08-16T03:12:18.000Z",
+      "checksum": "66989877499e05e770b2a8f713132de6",
+      "folder": false
+    },
+    {
+      "id": "11GFefrPYRTe8l236mzzkQKtBxLRz89YW",
+      "parent_id": "15onrjXgvcKCUo74iLEm0YAziI2ybENBY",
+      "name": "NÚI THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 4819584,
+      "modified": "2026-08-16T03:12:14.000Z",
+      "checksum": "3a59aa3b1dbb1e83db0460fbf01f7217",
+      "folder": false
+    }
+  ]
+}

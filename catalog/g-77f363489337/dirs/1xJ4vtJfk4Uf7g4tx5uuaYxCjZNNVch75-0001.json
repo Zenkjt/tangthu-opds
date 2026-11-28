@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xJ4vtJfk4Uf7g4tx5uuaYxCjZNNVch75",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hw9PpfRPayPNHJ6LSO0GjtWi7DebsLZO",
+      "parent_id": "1xJ4vtJfk4Uf7g4tx5uuaYxCjZNNVch75",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 255,
+      "modified": "2026-08-15T10:05:43.000Z",
+      "checksum": "eaa640a2c001fb7b8e63c7b90e663c63",
+      "folder": false
+    },
+    {
+      "id": "1-CKjDyeamutyg9krlvnRvaPiEzSY4ZSb",
+      "parent_id": "1xJ4vtJfk4Uf7g4tx5uuaYxCjZNNVch75",
+      "name": "VỀ TRONG MƯA BÃO.epub",
+      "mime": "application/epub+zip",
+      "size": 351475,
+      "modified": "2026-08-15T10:05:49.000Z",
+      "checksum": "6de40ef4d2d23a45b00574cc638ee338",
+      "folder": false
+    },
+    {
+      "id": "1TkvUk_3vWrqNf1RpZOdWdy1MyiNRhZmC",
+      "parent_id": "1xJ4vtJfk4Uf7g4tx5uuaYxCjZNNVch75",
+      "name": "VỀ TRONG MƯA BÃO.pdf",
+      "mime": "application/pdf",
+      "size": 659193,
+      "modified": "2026-08-15T10:05:46.000Z",
+      "checksum": "22e9b82e5440395c4850f47990e6e0fe",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19HIdJgYX-ExcbeG0opvF3kA7jNZkvLRQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "127jPozbFpedAg8wFXcAQ52ummwJF6c7i",
+      "parent_id": "19HIdJgYX-ExcbeG0opvF3kA7jNZkvLRQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 576,
+      "modified": "2026-08-16T03:52:07.000Z",
+      "checksum": "c9d601eaff034c931536f5a9a9dbdd05",
+      "folder": false
+    },
+    {
+      "id": "13Bqz_NKXD6ZHj7rs06za0-O6pN6bThUv",
+      "parent_id": "19HIdJgYX-ExcbeG0opvF3kA7jNZkvLRQ",
+      "name": "VÀO TRONG HOANG DÃ.epub",
+      "mime": "application/epub+zip",
+      "size": 428005,
+      "modified": "2026-08-16T03:52:13.000Z",
+      "checksum": "c5bfea4692848bbece12aa0e50083d64",
+      "folder": false
+    },
+    {
+      "id": "1obeFHCPR-YXvMe5zoWRRRp02etlul6t5",
+      "parent_id": "19HIdJgYX-ExcbeG0opvF3kA7jNZkvLRQ",
+      "name": "VÀO TRONG HOANG DÃ.pdf",
+      "mime": "application/pdf",
+      "size": 987821,
+      "modified": "2026-08-16T03:52:11.000Z",
+      "checksum": "fb0b51f690744915dff3d6829a3d95a7",
+      "folder": false
+    }
+  ]
+}

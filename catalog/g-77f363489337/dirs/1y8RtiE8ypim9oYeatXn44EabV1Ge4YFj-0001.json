@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1y8RtiE8ypim9oYeatXn44EabV1Ge4YFj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1981AnvU8yrOsOmMgAva_aR--lRD_nLlS",
+      "parent_id": "1y8RtiE8ypim9oYeatXn44EabV1Ge4YFj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2349,
+      "modified": "2026-08-15T03:46:00.000Z",
+      "checksum": "66fe8dce34938d82ed6e2729110544d8",
+      "folder": false
+    },
+    {
+      "id": "1MTVQGBJQ3XcXuso6ouitbHiA2jYI1Qkt",
+      "parent_id": "1y8RtiE8ypim9oYeatXn44EabV1Ge4YFj",
+      "name": "THIỀN TÔNG TRỰC CHỈ.epub",
+      "mime": "application/epub+zip",
+      "size": 338326,
+      "modified": "2026-08-15T03:46:06.000Z",
+      "checksum": "7e66ce1b8f00f2eea607d990a98c74e7",
+      "folder": false
+    },
+    {
+      "id": "1us9b6AY4NlR_UJcESg8wB9Jrq621gkvm",
+      "parent_id": "1y8RtiE8ypim9oYeatXn44EabV1Ge4YFj",
+      "name": "THIỀN TÔNG TRỰC CHỈ.pdf",
+      "mime": "application/pdf",
+      "size": 198646,
+      "modified": "2026-08-15T03:46:04.000Z",
+      "checksum": "dd274d067bd8ef94ac28f318e6900449",
+      "folder": false
+    }
+  ]
+}

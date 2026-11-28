@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Sr1_WcAmdOlLdSRob63gdux25_IvgmIc",
+  "page": 1,
+  "items": [
+    {
+      "id": "16qtAOenDHQGd-oVe9Uepd4ZoV3DFTLxG",
+      "parent_id": "1Sr1_WcAmdOlLdSRob63gdux25_IvgmIc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5543,
+      "modified": "2026-08-16T03:37:24.000Z",
+      "checksum": "0386c05a600cd3ad6b9380438f2425c6",
+      "folder": false
+    },
+    {
+      "id": "1HCWguZvHPmnHWepX_Ewxhu9PLj7rbP3M",
+      "parent_id": "1Sr1_WcAmdOlLdSRob63gdux25_IvgmIc",
+      "name": "MẶT NẠ HOÀN HẢO.epub",
+      "mime": "application/epub+zip",
+      "size": 533949,
+      "modified": "2026-08-16T03:37:32.000Z",
+      "checksum": "b69089fad03968fba1ad7c51435e4d4a",
+      "folder": false
+    },
+    {
+      "id": "1-wy31pPgh3nONXWTnWuDUww7_KkeuTBq",
+      "parent_id": "1Sr1_WcAmdOlLdSRob63gdux25_IvgmIc",
+      "name": "MẶT NẠ HOÀN HẢO.pdf",
+      "mime": "application/pdf",
+      "size": 1176149,
+      "modified": "2026-08-16T03:37:29.000Z",
+      "checksum": "bacdc7e18e627ab72bb5d7de140beb5a",
+      "folder": false
+    }
+  ]
+}

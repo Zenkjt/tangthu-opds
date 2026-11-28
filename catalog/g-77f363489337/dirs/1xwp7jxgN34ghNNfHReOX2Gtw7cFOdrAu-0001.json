@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xwp7jxgN34ghNNfHReOX2Gtw7cFOdrAu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VR4v-jBGCYOPDI-dyiX_mh7S5VNreayZ",
+      "parent_id": "1xwp7jxgN34ghNNfHReOX2Gtw7cFOdrAu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6790,
+      "modified": "2026-08-15T09:49:07.000Z",
+      "checksum": "f7e4e9ca8bd3899aa073f624ab5884ae",
+      "folder": false
+    },
+    {
+      "id": "1rQK6j_QRUbNcF970sa8oL0POJzmZKC73",
+      "parent_id": "1xwp7jxgN34ghNNfHReOX2Gtw7cFOdrAu",
+      "name": "HẠNH PHÚC KHÔNG NGỪNG.epub",
+      "mime": "application/epub+zip",
+      "size": 646693,
+      "modified": "2026-08-15T09:49:15.000Z",
+      "checksum": "3e7b0a83be086045f46a84757a5ae955",
+      "folder": false
+    },
+    {
+      "id": "1fxgz5Ml77gQgPzSX5befv21YLQc2rjPT",
+      "parent_id": "1xwp7jxgN34ghNNfHReOX2Gtw7cFOdrAu",
+      "name": "HẠNH PHÚC KHÔNG NGỪNG.pdf",
+      "mime": "application/pdf",
+      "size": 1704387,
+      "modified": "2026-08-15T09:49:13.000Z",
+      "checksum": "fb232cabade25568d48f0e024cac0bc6",
+      "folder": false
+    }
+  ]
+}

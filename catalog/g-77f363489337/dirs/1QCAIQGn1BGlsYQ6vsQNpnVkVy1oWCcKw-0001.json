@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QCAIQGn1BGlsYQ6vsQNpnVkVy1oWCcKw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OIV3FF41C0Mq_xiCq7Jl4r8S23pCddGr",
+      "parent_id": "1QCAIQGn1BGlsYQ6vsQNpnVkVy1oWCcKw",
+      "name": "CÔNG LÝ THẢO NGUYÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 704093,
+      "modified": "2026-08-15T15:16:46.000Z",
+      "checksum": "bffc74cf99d6d01651273f2c7c2bc032",
+      "folder": false
+    },
+    {
+      "id": "1iHAn_JavKbN9H1KGCnvpfT3lBsSdmPXV",
+      "parent_id": "1QCAIQGn1BGlsYQ6vsQNpnVkVy1oWCcKw",
+      "name": "CÔNG LÝ THẢO NGUYÊN.pdf",
+      "mime": "application/pdf",
+      "size": 1937586,
+      "modified": "2026-08-15T15:16:43.000Z",
+      "checksum": "5052e6f05e3c4d0e37cdf94e936e3d8d",
+      "folder": false
+    },
+    {
+      "id": "1sgJLCtrhiSgQMtV2qPLYbyfsBxgwUbbX",
+      "parent_id": "1QCAIQGn1BGlsYQ6vsQNpnVkVy1oWCcKw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4835,
+      "modified": "2026-08-15T15:16:36.000Z",
+      "checksum": "8b2a913f0bfc849102be448af8fecff6",
+      "folder": false
+    }
+  ]
+}

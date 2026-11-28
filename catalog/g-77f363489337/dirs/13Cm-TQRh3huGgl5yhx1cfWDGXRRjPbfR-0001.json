@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13Cm-TQRh3huGgl5yhx1cfWDGXRRjPbfR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1e_DSRZvMIFBCJkPosHj0t_Rc3xv2CsaY",
+      "parent_id": "13Cm-TQRh3huGgl5yhx1cfWDGXRRjPbfR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10156,
+      "modified": "2026-08-16T02:43:49.000Z",
+      "checksum": "71fe157c1739e8d1d81e18eae9117972",
+      "folder": false
+    },
+    {
+      "id": "1c2L1p5YDwAI7VndLpwq5-CRjJ8XkHBno",
+      "parent_id": "13Cm-TQRh3huGgl5yhx1cfWDGXRRjPbfR",
+      "name": "TRƯỜNG CA ACHILLES.epub",
+      "mime": "application/epub+zip",
+      "size": 901318,
+      "modified": "2026-08-16T02:43:56.000Z",
+      "checksum": "87206d6f05c99f6ade8afbb65363b9a6",
+      "folder": false
+    },
+    {
+      "id": "1fpGSWEbOpQqtqwPMuiq-6hvxPm09XB9g",
+      "parent_id": "13Cm-TQRh3huGgl5yhx1cfWDGXRRjPbfR",
+      "name": "TRƯỜNG CA ACHILLES.pdf",
+      "mime": "application/pdf",
+      "size": 1627599,
+      "modified": "2026-08-16T02:43:54.000Z",
+      "checksum": "5f184085d3c6dea08417fdb8f53b5b6f",
+      "folder": false
+    }
+  ]
+}

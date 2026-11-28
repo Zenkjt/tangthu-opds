@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hYuwweu1aZjuT9ZF6OPLHgp9ReUzTlHL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1od4z40CAypDwxflEaLkYHZA4iRd_CnJX",
+      "parent_id": "1hYuwweu1aZjuT9ZF6OPLHgp9ReUzTlHL",
+      "name": "CUỐN SÁCH VỀ MẸ.epub",
+      "mime": "application/epub+zip",
+      "size": 369761,
+      "modified": "2026-08-15T06:17:10.000Z",
+      "checksum": "a625d7dcc45b4e050d195507a9326c7a",
+      "folder": false
+    },
+    {
+      "id": "1-3Lvk_lChpPsfsrSOAuC1vZjY08IkG-S",
+      "parent_id": "1hYuwweu1aZjuT9ZF6OPLHgp9ReUzTlHL",
+      "name": "CUỐN SÁCH VỀ MẸ.pdf",
+      "mime": "application/pdf",
+      "size": 362321,
+      "modified": "2026-08-15T06:17:07.000Z",
+      "checksum": "241b25db9a870e3f9f50e9dfbe676ac3",
+      "folder": false
+    },
+    {
+      "id": "1Msx538eNJdEE_GYKGVU2oQiyDxEISou9",
+      "parent_id": "1hYuwweu1aZjuT9ZF6OPLHgp9ReUzTlHL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7086,
+      "modified": "2026-08-15T06:17:03.000Z",
+      "checksum": "c3a6a2d45350020c57f89ea2ce4a93ba",
+      "folder": false
+    }
+  ]
+}

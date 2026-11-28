@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qX5QB76my-CM7lq0nB_OjNP3Tfe37CLM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BFROxzR6ISjiywwdojQfSYGdI6BCsxNA",
+      "parent_id": "1qX5QB76my-CM7lq0nB_OjNP3Tfe37CLM",
+      "name": "CON MÈO ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 218591,
+      "modified": "2026-08-16T03:50:57.000Z",
+      "checksum": "8ec284ad5a25c0c059212559bb69b835",
+      "folder": false
+    },
+    {
+      "id": "1YS6_ZEid4wNcQ4VkxCepY5fKKBcwMUfF",
+      "parent_id": "1qX5QB76my-CM7lq0nB_OjNP3Tfe37CLM",
+      "name": "CON MÈO ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 108829,
+      "modified": "2026-08-16T03:50:55.000Z",
+      "checksum": "55ab0e5638db20f557b79115141acf52",
+      "folder": false
+    },
+    {
+      "id": "1oyVvTeR4FTK4GvoG6bskQSYpatyjNqgl",
+      "parent_id": "1qX5QB76my-CM7lq0nB_OjNP3Tfe37CLM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1770,
+      "modified": "2026-08-16T03:50:51.000Z",
+      "checksum": "335c4930642dcf061d5c9eb46a4802d3",
+      "folder": false
+    }
+  ]
+}

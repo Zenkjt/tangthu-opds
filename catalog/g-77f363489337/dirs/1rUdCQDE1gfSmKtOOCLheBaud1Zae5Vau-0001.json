@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rUdCQDE1gfSmKtOOCLheBaud1Zae5Vau",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZH-2ANkCel8t4WIQcTF2TG9EuINSGPNZ",
+      "parent_id": "1rUdCQDE1gfSmKtOOCLheBaud1Zae5Vau",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3430,
+      "modified": "2026-08-16T04:13:04.000Z",
+      "checksum": "fff4fc10c43423d45081a3cdbcd54fe6",
+      "folder": false
+    },
+    {
+      "id": "1JjSZ6CV76RgsA46mchREar0XTNpiel5q",
+      "parent_id": "1rUdCQDE1gfSmKtOOCLheBaud1Zae5Vau",
+      "name": "NGƯỜI TỚI KHÔNG TỐT.epub",
+      "mime": "application/epub+zip",
+      "size": 580657,
+      "modified": "2026-08-16T04:13:11.000Z",
+      "checksum": "10657e18d4ea8b3a63762337fd4663b2",
+      "folder": false
+    },
+    {
+      "id": "1VGidYxtfVx3v7jMyW2-REkfZzQABQN5h",
+      "parent_id": "1rUdCQDE1gfSmKtOOCLheBaud1Zae5Vau",
+      "name": "NGƯỜI TỚI KHÔNG TỐT.pdf",
+      "mime": "application/pdf",
+      "size": 1989434,
+      "modified": "2026-08-16T04:13:09.000Z",
+      "checksum": "a30c627a19d1b1a8f91993bfc9f3c992",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1V7Ncu0Twy1wMGnsSr1YWhmZqBGWu12v5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1atk9ejofUuUkJnxL30bgNNUtjCHaO4ay",
+      "parent_id": "1V7Ncu0Twy1wMGnsSr1YWhmZqBGWu12v5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6268,
+      "modified": "2026-08-15T07:21:39.000Z",
+      "checksum": "b786769fd0eeda8f30a3728a18d06e87",
+      "folder": false
+    },
+    {
+      "id": "1ccprj_tBzKJluVpVZYYMvlJnhxqjHgUH",
+      "parent_id": "1V7Ncu0Twy1wMGnsSr1YWhmZqBGWu12v5",
+      "name": "TRÊN NGỌN TÌNH SẦU.epub",
+      "mime": "application/epub+zip",
+      "size": 286454,
+      "modified": "2026-08-15T07:21:45.000Z",
+      "checksum": "51f97025775f07092e23bef64f8e9c54",
+      "folder": false
+    },
+    {
+      "id": "1GCEodDD1dvmOtyuLt1lZh8Hn_Suuk1ZL",
+      "parent_id": "1V7Ncu0Twy1wMGnsSr1YWhmZqBGWu12v5",
+      "name": "TRÊN NGỌN TÌNH SẦU.pdf",
+      "mime": "application/pdf",
+      "size": 262226,
+      "modified": "2026-08-15T07:21:42.000Z",
+      "checksum": "d02bb2be3f4160692d215a92a1147a98",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zldzb01t9BWomPeXhPWK_HH5Azcs8w84",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qdZ60qiM_dI6hIaYkC5iV4InOzsbczwC",
+      "parent_id": "1zldzb01t9BWomPeXhPWK_HH5Azcs8w84",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7925,
+      "modified": "2026-08-15T13:12:56.000Z",
+      "checksum": "c2bfc4461368c63944a9b7b0b8d6af93",
+      "folder": false
+    },
+    {
+      "id": "197efqOZbMzkOAPmo-lOjpsr-tccJaGwe",
+      "parent_id": "1zldzb01t9BWomPeXhPWK_HH5Azcs8w84",
+      "name": "PHONG THỦY TOÀN TẬP.epub",
+      "mime": "application/epub+zip",
+      "size": 455357,
+      "modified": "2026-08-15T13:13:03.000Z",
+      "checksum": "bc2510f08ffdeee95c7d136cd6af8290",
+      "folder": false
+    },
+    {
+      "id": "16FwxrQ1H3Hka6ZxeuQgBpgu5AVvFvThP",
+      "parent_id": "1zldzb01t9BWomPeXhPWK_HH5Azcs8w84",
+      "name": "PHONG THỦY TOÀN TẬP.pdf",
+      "mime": "application/pdf",
+      "size": 1633264,
+      "modified": "2026-08-15T13:13:00.000Z",
+      "checksum": "0b51e4d8702833db910175449dc74216",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YJJoCCJM00x1Dpcx-dRU6Hm8LrfDAIdt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EvbwgGtKSJbJRza-s4nPuXR7FlDMwIYK",
+      "parent_id": "1YJJoCCJM00x1Dpcx-dRU6Hm8LrfDAIdt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5846,
+      "modified": "2026-08-15T03:48:30.000Z",
+      "checksum": "85bc007b9f06e5c82205c7ac473c83b7",
+      "folder": false
+    },
+    {
+      "id": "1oRhwUqcBtYzVq0S-fVOtX-B4wzN2OQ6J",
+      "parent_id": "1YJJoCCJM00x1Dpcx-dRU6Hm8LrfDAIdt",
+      "name": "GIÁO LÝ ĐẠO CAO ĐÀI CƠ BẢN.epub",
+      "mime": "application/epub+zip",
+      "size": 367631,
+      "modified": "2026-08-15T03:48:36.000Z",
+      "checksum": "90b99c06d9a7e4227469ce12e1dac0c1",
+      "folder": false
+    },
+    {
+      "id": "11KZZmJ2He6DhSfneMTjASKOKt6Iz1aX0",
+      "parent_id": "1YJJoCCJM00x1Dpcx-dRU6Hm8LrfDAIdt",
+      "name": "GIÁO LÝ ĐẠO CAO ĐÀI CƠ BẢN.pdf",
+      "mime": "application/pdf",
+      "size": 334701,
+      "modified": "2026-08-15T03:48:33.000Z",
+      "checksum": "d131e5ae4e6a485eff2fec7a425027a3",
+      "folder": false
+    }
+  ]
+}

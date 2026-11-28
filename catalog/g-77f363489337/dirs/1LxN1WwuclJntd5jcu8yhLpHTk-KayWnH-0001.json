@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LxN1WwuclJntd5jcu8yhLpHTk-KayWnH",
+  "page": 1,
+  "items": [
+    {
+      "id": "188hMd0DVKuMYfcwPIzjLYCqE7CTHaTsc",
+      "parent_id": "1LxN1WwuclJntd5jcu8yhLpHTk-KayWnH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3170,
+      "modified": "2026-08-15T10:32:41.000Z",
+      "checksum": "e6a18b393813714258d2032f8bf74647",
+      "folder": false
+    },
+    {
+      "id": "16xKjKkp1o6YX-hO7iYvwsVXqgJosTUHz",
+      "parent_id": "1LxN1WwuclJntd5jcu8yhLpHTk-KayWnH",
+      "name": "PHÍA ĐÔNG MẶT TRỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 1016534,
+      "modified": "2026-08-15T10:32:52.000Z",
+      "checksum": "d1ee71a203fdd4bd86d6ccff144f3976",
+      "folder": false
+    },
+    {
+      "id": "1gwbznkkuU4rmB7IBvMFJ7-GW90epTy06",
+      "parent_id": "1LxN1WwuclJntd5jcu8yhLpHTk-KayWnH",
+      "name": "PHÍA ĐÔNG MẶT TRỜI.pdf",
+      "mime": "application/pdf",
+      "size": 3766074,
+      "modified": "2026-08-15T10:32:50.000Z",
+      "checksum": "d5e4e9541f6f6ab5a21eb80142ed3b09",
+      "folder": false
+    }
+  ]
+}

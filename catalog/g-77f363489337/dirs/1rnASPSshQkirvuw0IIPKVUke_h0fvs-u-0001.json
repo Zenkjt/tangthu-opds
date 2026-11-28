@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rnASPSshQkirvuw0IIPKVUke_h0fvs-u",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qvNkgFe0V-z_9cy0QcFt4BHyMCmn_5ea",
+      "parent_id": "1rnASPSshQkirvuw0IIPKVUke_h0fvs-u",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2744,
+      "modified": "2026-08-15T07:39:54.000Z",
+      "checksum": "5f349fb78778a844658ac52f47202c99",
+      "folder": false
+    },
+    {
+      "id": "1Elo5d7pmNd4JBFLKbCTbME2JZ_2mmmNu",
+      "parent_id": "1rnASPSshQkirvuw0IIPKVUke_h0fvs-u",
+      "name": "NAM THẦN Ở PHÒNG BÊN CẠNH.epub",
+      "mime": "application/epub+zip",
+      "size": 2201831,
+      "modified": "2026-08-15T07:40:12.000Z",
+      "checksum": "263762c16053b7d487f207ff343ae926",
+      "folder": false
+    },
+    {
+      "id": "1_PbdNiFBhpHRZdEKUcbPAXWn7hXyx4H0",
+      "parent_id": "1rnASPSshQkirvuw0IIPKVUke_h0fvs-u",
+      "name": "NAM THẦN Ở PHÒNG BÊN CẠNH.pdf",
+      "mime": "application/pdf",
+      "size": 9440091,
+      "modified": "2026-08-15T07:40:08.000Z",
+      "checksum": "96ea872161d870829cd56c753e464ad6",
+      "folder": false
+    }
+  ]
+}

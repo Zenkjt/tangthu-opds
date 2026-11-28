@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1V_-0MyNFBieTcbnn6OqjU5Q5Vk7rOEOX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mfuKxYNYOVk8zJ8nVQX9yrCpZBJG1vCs",
+      "parent_id": "1V_-0MyNFBieTcbnn6OqjU5Q5Vk7rOEOX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2494,
+      "modified": "2026-08-15T15:44:52.000Z",
+      "checksum": "4fcdb55f09b1dc631df4afc1047886b1",
+      "folder": false
+    },
+    {
+      "id": "1t34O0YET2DcqBgPJXrjX0CMmhQ14jCee",
+      "parent_id": "1V_-0MyNFBieTcbnn6OqjU5Q5Vk7rOEOX",
+      "name": "TUYỂN TẬP TRUYỆN CƯỜI VOVA.epub",
+      "mime": "application/epub+zip",
+      "size": 312116,
+      "modified": "2026-08-15T15:44:57.000Z",
+      "checksum": "066e8082a0dcdcaea4c1d75fc94a560a",
+      "folder": false
+    },
+    {
+      "id": "1IBy6WMsMvw2CfslO1THfrTbg3G5Ws4xI",
+      "parent_id": "1V_-0MyNFBieTcbnn6OqjU5Q5Vk7rOEOX",
+      "name": "TUYỂN TẬP TRUYỆN CƯỜI VOVA.pdf",
+      "mime": "application/pdf",
+      "size": 194650,
+      "modified": "2026-08-15T15:44:54.000Z",
+      "checksum": "f0ae3383884bebe1854ac90f1bb70622",
+      "folder": false
+    }
+  ]
+}

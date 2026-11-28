@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sw33pOUPL9VeI71f_M_RZzIOM06xDgzF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LbcmouTavDu89Tm3mpkvWbuODMtYk_ni",
+      "parent_id": "1sw33pOUPL9VeI71f_M_RZzIOM06xDgzF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 13855,
+      "modified": "2026-08-16T03:11:35.000Z",
+      "checksum": "3c34bf13fbf4e36a8214fe667bd671b9",
+      "folder": false
+    },
+    {
+      "id": "1KzNbCKLSIZkQy8YHPeiqGv5qNtc035MA",
+      "parent_id": "1sw33pOUPL9VeI71f_M_RZzIOM06xDgzF",
+      "name": "GIA ĐÌNH PENDERWICK Ở PHỐ GARDAM.epub",
+      "mime": "application/epub+zip",
+      "size": 468092,
+      "modified": "2026-08-16T03:11:41.000Z",
+      "checksum": "dc0f0689e5cdbb031e819012b511af51",
+      "folder": false
+    },
+    {
+      "id": "1RYVYtrx8BOLF7dMF20blzCyK3rLcH5fC",
+      "parent_id": "1sw33pOUPL9VeI71f_M_RZzIOM06xDgzF",
+      "name": "GIA ĐÌNH PENDERWICK Ở PHỐ GARDAM.pdf",
+      "mime": "application/pdf",
+      "size": 737316,
+      "modified": "2026-08-16T03:11:39.000Z",
+      "checksum": "9a7a77adb71371e08ebb4f9619e01906",
+      "folder": false
+    }
+  ]
+}

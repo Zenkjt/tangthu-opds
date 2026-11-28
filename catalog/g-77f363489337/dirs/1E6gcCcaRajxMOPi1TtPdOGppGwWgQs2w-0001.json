@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1E6gcCcaRajxMOPi1TtPdOGppGwWgQs2w",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uSSLdO37bAc4npQGuPRW7pQJqkAjNGGE",
+      "parent_id": "1E6gcCcaRajxMOPi1TtPdOGppGwWgQs2w",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3495,
+      "modified": "2026-08-15T10:45:27.000Z",
+      "checksum": "4e661c9972b375c7c5a8ee1a26e407aa",
+      "folder": false
+    },
+    {
+      "id": "1eMflWXwc7d-D5Yqy0Pjxysw0I_qcE4k1",
+      "parent_id": "1E6gcCcaRajxMOPi1TtPdOGppGwWgQs2w",
+      "name": "NGỰ PHỒN HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 614599,
+      "modified": "2026-08-15T10:45:41.000Z",
+      "checksum": "1cf4b306dc6824c5a2da6ae2f7b3dba4",
+      "folder": false
+    },
+    {
+      "id": "1V0Gv3wJDPCoNfcBV2DYc1zTsBjzazvVF",
+      "parent_id": "1E6gcCcaRajxMOPi1TtPdOGppGwWgQs2w",
+      "name": "NGỰ PHỒN HOA.pdf",
+      "mime": "application/pdf",
+      "size": 1779639,
+      "modified": "2026-08-15T10:45:36.000Z",
+      "checksum": "0f87a85028f6f07bce0186171f50c3d0",
+      "folder": false
+    }
+  ]
+}

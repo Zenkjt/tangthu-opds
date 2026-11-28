@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HWRLY3AbzZ7Jc6w1N-xHsPcPoOJ6oq4E",
+  "page": 1,
+  "items": [
+    {
+      "id": "16rAPUZdwXtIiUnyZzfUh6XrNS-zJpZqO",
+      "parent_id": "1HWRLY3AbzZ7Jc6w1N-xHsPcPoOJ6oq4E",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10516,
+      "modified": "2026-08-16T03:01:57.000Z",
+      "checksum": "76e422899fc4744515c2f3ace36b5773",
+      "folder": false
+    },
+    {
+      "id": "1Y_icvvqJfh1V8F0qgrFgRMmwgGFye99z",
+      "parent_id": "1HWRLY3AbzZ7Jc6w1N-xHsPcPoOJ6oq4E",
+      "name": "ĐIỆU RU NƯỚC MẮT.epub",
+      "mime": "application/epub+zip",
+      "size": 912886,
+      "modified": "2026-08-16T03:02:03.000Z",
+      "checksum": "39378e9bd4873ef43ebe7950f135b22d",
+      "folder": false
+    },
+    {
+      "id": "12kVpFgxjVawZXxRYdXvmOoIlx5Apk2WW",
+      "parent_id": "1HWRLY3AbzZ7Jc6w1N-xHsPcPoOJ6oq4E",
+      "name": "ĐIỆU RU NƯỚC MẮT.pdf",
+      "mime": "application/pdf",
+      "size": 1172566,
+      "modified": "2026-08-16T03:02:01.000Z",
+      "checksum": "d38172c5f7106803d4e93da063fbdeae",
+      "folder": false
+    }
+  ]
+}

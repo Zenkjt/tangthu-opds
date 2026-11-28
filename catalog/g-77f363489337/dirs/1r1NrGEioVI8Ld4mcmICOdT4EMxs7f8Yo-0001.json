@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1r1NrGEioVI8Ld4mcmICOdT4EMxs7f8Yo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oWQiKKqQAHtXm47yjzTgVvjvayzQ2v38",
+      "parent_id": "1r1NrGEioVI8Ld4mcmICOdT4EMxs7f8Yo",
+      "name": "CUỐN THEO CHIỀU GIÓ.epub",
+      "mime": "application/epub+zip",
+      "size": 1679125,
+      "modified": "2026-08-16T02:44:37.000Z",
+      "checksum": "e8331b11ef1000061c132c1d8fcf0fc9",
+      "folder": false
+    },
+    {
+      "id": "1MLQNNoYwJq1JA9FqwYlsJ4NEJ68atvdc",
+      "parent_id": "1r1NrGEioVI8Ld4mcmICOdT4EMxs7f8Yo",
+      "name": "CUỐN THEO CHIỀU GIÓ.pdf",
+      "mime": "application/pdf",
+      "size": 5624089,
+      "modified": "2026-08-16T02:44:33.000Z",
+      "checksum": "d549051f29c5fee7c2873ab13a353b6f",
+      "folder": false
+    },
+    {
+      "id": "1teDu-o7sVV1vmPZQhuoCL0oOkLOczE7w",
+      "parent_id": "1r1NrGEioVI8Ld4mcmICOdT4EMxs7f8Yo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11560,
+      "modified": "2026-08-16T02:44:11.000Z",
+      "checksum": "e6d6c4deb9a3d67c4c5c919351d73b73",
+      "folder": false
+    }
+  ]
+}

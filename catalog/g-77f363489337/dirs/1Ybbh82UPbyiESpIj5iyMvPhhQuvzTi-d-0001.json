@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ybbh82UPbyiESpIj5iyMvPhhQuvzTi-d",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Bbs6mn9XxqDvDLUPb5nfDssGNEYtmfu0",
+      "parent_id": "1Ybbh82UPbyiESpIj5iyMvPhhQuvzTi-d",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4173,
+      "modified": "2026-08-15T03:39:38.000Z",
+      "checksum": "afb0c147bbf6b42fa6c1b04497533c80",
+      "folder": false
+    },
+    {
+      "id": "1QyYk12xhMMgOtXw7oyrGivpKkJirju61",
+      "parent_id": "1Ybbh82UPbyiESpIj5iyMvPhhQuvzTi-d",
+      "name": "KINH ĐẠI BÁT NIẾT BÀN.epub",
+      "mime": "application/epub+zip",
+      "size": 738874,
+      "modified": "2026-08-15T03:39:47.000Z",
+      "checksum": "f2b00c4fed14f3fbc49f8c41b596c27b",
+      "folder": false
+    },
+    {
+      "id": "1BO8flY9ZjCi5Fn4kQmH-Nt0b794PakSc",
+      "parent_id": "1Ybbh82UPbyiESpIj5iyMvPhhQuvzTi-d",
+      "name": "KINH ĐẠI BÁT NIẾT BÀN.pdf",
+      "mime": "application/pdf",
+      "size": 3208564,
+      "modified": "2026-08-15T03:39:44.000Z",
+      "checksum": "fda195f1ccce4d45c9a2ac63f6ea3353",
+      "folder": false
+    }
+  ]
+}

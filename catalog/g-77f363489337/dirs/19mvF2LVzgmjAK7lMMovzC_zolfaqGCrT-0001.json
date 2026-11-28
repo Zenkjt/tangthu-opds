@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19mvF2LVzgmjAK7lMMovzC_zolfaqGCrT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BJdf8iyUTX5pRWZ4zuWtVF5QtcDczOFk",
+      "parent_id": "19mvF2LVzgmjAK7lMMovzC_zolfaqGCrT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1666,
+      "modified": "2026-08-15T03:21:02.000Z",
+      "checksum": "0fe69913375c98e196d23ee3d456519b",
+      "folder": false
+    },
+    {
+      "id": "1axlVNIez2iJ_JicEvhrl_dbdHzNr_Oip",
+      "parent_id": "19mvF2LVzgmjAK7lMMovzC_zolfaqGCrT",
+      "name": "KÝ GIẢ CHUYÊN NGHIỆP.epub",
+      "mime": "application/epub+zip",
+      "size": 910681,
+      "modified": "2026-08-15T03:21:16.000Z",
+      "checksum": "b851c179dc3e7dbae43c42c9016dd431",
+      "folder": false
+    },
+    {
+      "id": "1eOpTZvfjMcI03rGhoWXWXeH_Sa9z5zY0",
+      "parent_id": "19mvF2LVzgmjAK7lMMovzC_zolfaqGCrT",
+      "name": "KÝ GIẢ CHUYÊN NGHIỆP.pdf",
+      "mime": "application/pdf",
+      "size": 2545007,
+      "modified": "2026-08-15T03:21:13.000Z",
+      "checksum": "93a8703c945915d80a1c44c14a2b95a6",
+      "folder": false
+    }
+  ]
+}

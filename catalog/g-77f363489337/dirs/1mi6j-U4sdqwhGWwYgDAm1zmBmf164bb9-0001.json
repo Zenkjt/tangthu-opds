@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mi6j-U4sdqwhGWwYgDAm1zmBmf164bb9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MwgwVVunvO5l1QOV34XB050q_yAnvrbY",
+      "parent_id": "1mi6j-U4sdqwhGWwYgDAm1zmBmf164bb9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1222,
+      "modified": "2026-08-16T03:48:53.000Z",
+      "checksum": "6606743e7d5b12f45182dbdaa43cd189",
+      "folder": false
+    },
+    {
+      "id": "1Qki5Qi6HHuWKoxW_76sM-9bJsocM8aB1",
+      "parent_id": "1mi6j-U4sdqwhGWwYgDAm1zmBmf164bb9",
+      "name": "THƯỢC DƯỢC ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 605103,
+      "modified": "2026-08-16T03:49:00.000Z",
+      "checksum": "4f49e962d8241c418f329d1b2bcbe994",
+      "folder": false
+    },
+    {
+      "id": "1oTCelUj67ovZ10Fr5493BZFX64eiBKkf",
+      "parent_id": "1mi6j-U4sdqwhGWwYgDAm1zmBmf164bb9",
+      "name": "THƯỢC DƯỢC ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 1586431,
+      "modified": "2026-08-16T03:48:58.000Z",
+      "checksum": "0010b7f8c84d1c85a17d3c6c87106793",
+      "folder": false
+    }
+  ]
+}

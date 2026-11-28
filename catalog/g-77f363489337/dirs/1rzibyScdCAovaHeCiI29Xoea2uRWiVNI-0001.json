@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rzibyScdCAovaHeCiI29Xoea2uRWiVNI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DPm-csHlSsg8sVCytCh86u1Jhpde3RQP",
+      "parent_id": "1rzibyScdCAovaHeCiI29Xoea2uRWiVNI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3494,
+      "modified": "2026-08-15T12:29:35.000Z",
+      "checksum": "6ca687d3af791505b41ef22cf99176b2",
+      "folder": false
+    },
+    {
+      "id": "1o-WBR5aFYjlwXlFS1bcz5lQiIf_OQB92",
+      "parent_id": "1rzibyScdCAovaHeCiI29Xoea2uRWiVNI",
+      "name": "MÙA HÈ THỨ BA CỦA QUẦN JEANS MAY MẮN.epub",
+      "mime": "application/epub+zip",
+      "size": 1241931,
+      "modified": "2026-08-15T12:29:41.000Z",
+      "checksum": "64e957c91b67e5be4cf6e0d681bfa6e3",
+      "folder": false
+    },
+    {
+      "id": "1Bhm38Pp3KrRYw-zKdIHsBcjaCQCqpnvp",
+      "parent_id": "1rzibyScdCAovaHeCiI29Xoea2uRWiVNI",
+      "name": "MÙA HÈ THỨ BA CỦA QUẦN JEANS MAY MẮN.pdf",
+      "mime": "application/pdf",
+      "size": 1540776,
+      "modified": "2026-08-15T12:29:38.000Z",
+      "checksum": "e5a35099c5134bcbc8ec4c6e901ce73c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZIulCiAT5djqlQc-5rPpz_WlQlcugPM6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GmtblDrEvbo1eLBU-rdlrfMN-PPJtuW6",
+      "parent_id": "1ZIulCiAT5djqlQc-5rPpz_WlQlcugPM6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3445,
+      "modified": "2026-08-15T10:17:56.000Z",
+      "checksum": "eb6da69c91182bbf7d329002d0d2620d",
+      "folder": false
+    },
+    {
+      "id": "1flnDdW_tPf2BMQLfGrGvPCTvnPGl-v8F",
+      "parent_id": "1ZIulCiAT5djqlQc-5rPpz_WlQlcugPM6",
+      "name": "THẦM YÊU - QUẤT SINH HOÀI NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 2600960,
+      "modified": "2026-08-15T10:18:16.000Z",
+      "checksum": "d30b6c8c2da3e86e2a102bc3aa56e6c1",
+      "folder": false
+    },
+    {
+      "id": "1CGzShSyqyvUCvjB1fzl4UrLesPrSCzNF",
+      "parent_id": "1ZIulCiAT5djqlQc-5rPpz_WlQlcugPM6",
+      "name": "THẦM YÊU - QUẤT SINH HOÀI NAM.pdf",
+      "mime": "application/pdf",
+      "size": 3088683,
+      "modified": "2026-08-15T10:18:06.000Z",
+      "checksum": "43e015f05bde4b7f1e4ce942544cbe16",
+      "folder": false
+    }
+  ]
+}

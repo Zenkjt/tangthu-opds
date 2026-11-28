@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QROskX5mTUC6l9SPw8Mos32X7sZAxyLm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UaNUJnQ4Lb3TlFeckTCbG_sk478vDGcK",
+      "parent_id": "1QROskX5mTUC6l9SPw8Mos32X7sZAxyLm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 515,
+      "modified": "2026-08-16T04:06:25.000Z",
+      "checksum": "3d1d05c3fbf199e5d5218c88fbbf088e",
+      "folder": false
+    },
+    {
+      "id": "1OrvYFqh4xxBTbIERedhHngwIdTpsOqW1",
+      "parent_id": "1QROskX5mTUC6l9SPw8Mos32X7sZAxyLm",
+      "name": "PHÍA ẤY NGƯỜI ĐI.epub",
+      "mime": "application/epub+zip",
+      "size": 406777,
+      "modified": "2026-08-16T04:06:31.000Z",
+      "checksum": "29ef6834fa189566e83b61efbabca38b",
+      "folder": false
+    },
+    {
+      "id": "1QNqTyON7kX1x3UwypxKPG7sFG9LdXT1W",
+      "parent_id": "1QROskX5mTUC6l9SPw8Mos32X7sZAxyLm",
+      "name": "PHÍA ẤY NGƯỜI ĐI.pdf",
+      "mime": "application/pdf",
+      "size": 931018,
+      "modified": "2026-08-16T04:06:29.000Z",
+      "checksum": "af3b0ec55f098ff55a87fa308e388cfa",
+      "folder": false
+    }
+  ]
+}

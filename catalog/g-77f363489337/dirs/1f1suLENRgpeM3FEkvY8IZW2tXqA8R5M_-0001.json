@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1f1suLENRgpeM3FEkvY8IZW2tXqA8R5M_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iko2FRRMhRfyM_9LG9mRGzNeHLU1RSXT",
+      "parent_id": "1f1suLENRgpeM3FEkvY8IZW2tXqA8R5M_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9015,
+      "modified": "2026-08-15T09:26:27.000Z",
+      "checksum": "9680027d9a3314e7e4bef2ce24f0032f",
+      "folder": false
+    },
+    {
+      "id": "1Wg6gwNmawoNTr4H-C8Z7jnjtcHTLRMgz",
+      "parent_id": "1f1suLENRgpeM3FEkvY8IZW2tXqA8R5M_",
+      "name": "NỬA ĐÊM TRẢNG SỤP.epub",
+      "mime": "application/epub+zip",
+      "size": 581283,
+      "modified": "2026-08-15T09:26:40.000Z",
+      "checksum": "067f55fc0baa79023d0116d70bcd7f10",
+      "folder": false
+    },
+    {
+      "id": "1_iIDO0pgIUwHQX_E9jgI-prqIcDaIMfs",
+      "parent_id": "1f1suLENRgpeM3FEkvY8IZW2tXqA8R5M_",
+      "name": "NỬA ĐÊM TRẢNG SỤP.pdf",
+      "mime": "application/pdf",
+      "size": 814015,
+      "modified": "2026-08-15T09:26:33.000Z",
+      "checksum": "f3abc760445ed2aab8a7e21b6b1cc558",
+      "folder": false
+    }
+  ]
+}

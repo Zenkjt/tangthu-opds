@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bg3AO_0Qb82l6uP3vuh_wY2ccA4LX-ol",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CAItmCIMWbcESbLjXMGPY6uxFz842mgz",
+      "parent_id": "1bg3AO_0Qb82l6uP3vuh_wY2ccA4LX-ol",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6697,
+      "modified": "2026-08-15T03:41:19.000Z",
+      "checksum": "420dfce608f6cda10096bb83f5452c75",
+      "folder": false
+    },
+    {
+      "id": "1_uxvrwgrAOMY-VyHEGpu0r3yijlLfhIZ",
+      "parent_id": "1bg3AO_0Qb82l6uP3vuh_wY2ccA4LX-ol",
+      "name": "HOA SEN TRÊN TUYẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 443959,
+      "modified": "2026-08-15T03:41:26.000Z",
+      "checksum": "3ae697d42b47d4918cb2e6ba4c224db5",
+      "folder": false
+    },
+    {
+      "id": "1WQnNbSFA3KNZkA3IURQLhBmKEStTRTHa",
+      "parent_id": "1bg3AO_0Qb82l6uP3vuh_wY2ccA4LX-ol",
+      "name": "HOA SEN TRÊN TUYẾT.pdf",
+      "mime": "application/pdf",
+      "size": 713136,
+      "modified": "2026-08-15T03:41:23.000Z",
+      "checksum": "853c6255abc5a3805c24ca2e4271f566",
+      "folder": false
+    }
+  ]
+}

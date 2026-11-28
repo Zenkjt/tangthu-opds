@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KSo6bHuRiSI8IyRzVO6m4OsqCV9Fifbi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ll88vzUmHamVa2ZNoQHfhyJ8sw4CJQVU",
+      "parent_id": "1KSo6bHuRiSI8IyRzVO6m4OsqCV9Fifbi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 470,
+      "modified": "2026-08-16T04:01:39.000Z",
+      "checksum": "0506e4b67dfc63d782d17c4a35c76c02",
+      "folder": false
+    },
+    {
+      "id": "1r-FAlN1ZZq2Yifz_ZGj56VvLEQ4M_Ype",
+      "parent_id": "1KSo6bHuRiSI8IyRzVO6m4OsqCV9Fifbi",
+      "name": "TẦNG ĐẦU ĐỊA NGỤC.epub",
+      "mime": "application/epub+zip",
+      "size": 547776,
+      "modified": "2026-08-16T04:01:47.000Z",
+      "checksum": "6d5470b39054dd3f4cf8bb204113db63",
+      "folder": false
+    },
+    {
+      "id": "1rCoYTYPvNvlA9ckxeOdV8mdN6AYkoQM_",
+      "parent_id": "1KSo6bHuRiSI8IyRzVO6m4OsqCV9Fifbi",
+      "name": "TẦNG ĐẦU ĐỊA NGỤC.pdf",
+      "mime": "application/pdf",
+      "size": 1558504,
+      "modified": "2026-08-16T04:01:44.000Z",
+      "checksum": "c29d96d127c83f1107a0a07608f8e376",
+      "folder": false
+    }
+  ]
+}

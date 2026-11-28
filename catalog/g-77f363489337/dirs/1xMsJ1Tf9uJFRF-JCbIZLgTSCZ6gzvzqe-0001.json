@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xMsJ1Tf9uJFRF-JCbIZLgTSCZ6gzvzqe",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ujPIJ9KSVsHPpIWdqAGTwQIzIdG9TVXd",
+      "parent_id": "1xMsJ1Tf9uJFRF-JCbIZLgTSCZ6gzvzqe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6710,
+      "modified": "2026-08-16T03:51:39.000Z",
+      "checksum": "18d8114d61485cd317ce71204e114e48",
+      "folder": false
+    },
+    {
+      "id": "1Eu63Tw7oDhDjCAYeGYwr9O8UtH3BlrqI",
+      "parent_id": "1xMsJ1Tf9uJFRF-JCbIZLgTSCZ6gzvzqe",
+      "name": "VĨNH BIỆT TUGUMI.epub",
+      "mime": "application/epub+zip",
+      "size": 232261,
+      "modified": "2026-08-16T03:51:45.000Z",
+      "checksum": "38a909ddfa759651931f8335e21b6ea6",
+      "folder": false
+    },
+    {
+      "id": "1xZIfjxm02owK6czXkSELZR3x5KejjT5L",
+      "parent_id": "1xMsJ1Tf9uJFRF-JCbIZLgTSCZ6gzvzqe",
+      "name": "VĨNH BIỆT TUGUMI.pdf",
+      "mime": "application/pdf",
+      "size": 519864,
+      "modified": "2026-08-16T03:51:42.000Z",
+      "checksum": "42df772dcc6858c71acc8011dde63071",
+      "folder": false
+    }
+  ]
+}

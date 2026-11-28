@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1T9cTKSIBqTdD92jhIb3mcRZQYU69DaNn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SXpGX1_VdT6-cV0Qy9fyfkar7YJdExzx",
+      "parent_id": "1T9cTKSIBqTdD92jhIb3mcRZQYU69DaNn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1635,
+      "modified": "2026-08-15T07:15:11.000Z",
+      "checksum": "62135b47f47d923892c288dc9dbb5866",
+      "folder": false
+    },
+    {
+      "id": "12r6ozB7TKtlm5FxV0sj3hzW5tkz5gejJ",
+      "parent_id": "1T9cTKSIBqTdD92jhIb3mcRZQYU69DaNn",
+      "name": "SHOCK TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 818777,
+      "modified": "2026-08-15T07:15:19.000Z",
+      "checksum": "a0bb2697f400155c11c18e955bf3791c",
+      "folder": false
+    },
+    {
+      "id": "1Avc0hLE_3M2llWqZHcLGBqn0s5iBx2WE",
+      "parent_id": "1T9cTKSIBqTdD92jhIb3mcRZQYU69DaNn",
+      "name": "SHOCK TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 2580386,
+      "modified": "2026-08-15T07:15:16.000Z",
+      "checksum": "9fa171d2eb2cd57ab2076b4ecc215865",
+      "folder": false
+    }
+  ]
+}

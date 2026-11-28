@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UKVuvTve8xMhvnM09b-_ds5hnxVi15t5",
+  "page": 1,
+  "items": [
+    {
+      "id": "19C1w6bjfkax4DHiplxbHC_B8_dadRH0H",
+      "parent_id": "1UKVuvTve8xMhvnM09b-_ds5hnxVi15t5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5280,
+      "modified": "2026-08-16T03:11:48.000Z",
+      "checksum": "9f49a4b29c72561453739f341f4b4496",
+      "folder": false
+    },
+    {
+      "id": "1MkKZe_rJQTvxH6V8kgm4L-DTuD4XxHGm",
+      "parent_id": "1UKVuvTve8xMhvnM09b-_ds5hnxVi15t5",
+      "name": "ĐỨA TRẺ MA QUỶ.epub",
+      "mime": "application/epub+zip",
+      "size": 432968,
+      "modified": "2026-08-16T03:11:54.000Z",
+      "checksum": "1e8e9edb67651eefb7ac05a2c3a9f047",
+      "folder": false
+    },
+    {
+      "id": "1DtP9v629m2iydZghEWJVtpjYfKXqStgR",
+      "parent_id": "1UKVuvTve8xMhvnM09b-_ds5hnxVi15t5",
+      "name": "ĐỨA TRẺ MA QUỶ.pdf",
+      "mime": "application/pdf",
+      "size": 641382,
+      "modified": "2026-08-16T03:11:52.000Z",
+      "checksum": "04fb23d942c02c22acf931f2073cefd7",
+      "folder": false
+    }
+  ]
+}

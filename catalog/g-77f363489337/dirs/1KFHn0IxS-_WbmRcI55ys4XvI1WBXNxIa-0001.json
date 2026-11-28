@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KFHn0IxS-_WbmRcI55ys4XvI1WBXNxIa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eWBBzIyvIgn4Vw9wVAisthrOEprwoV-A",
+      "parent_id": "1KFHn0IxS-_WbmRcI55ys4XvI1WBXNxIa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4026,
+      "modified": "2026-08-15T04:01:18.000Z",
+      "checksum": "c83aa416c4be64f995d648bd5d9c23ce",
+      "folder": false
+    },
+    {
+      "id": "1ZBsls79b2r9vSZPsOPVNjy07QpPCPXv2",
+      "parent_id": "1KFHn0IxS-_WbmRcI55ys4XvI1WBXNxIa",
+      "name": "NGƯỜI CÂN LINH HỒN.epub",
+      "mime": "application/epub+zip",
+      "size": 389485,
+      "modified": "2026-08-15T04:01:25.000Z",
+      "checksum": "ac80efbdb9852ffc23aeedff9911452e",
+      "folder": false
+    },
+    {
+      "id": "1zha2Do1uESEvcdc2koXoAuSp02KYILSz",
+      "parent_id": "1KFHn0IxS-_WbmRcI55ys4XvI1WBXNxIa",
+      "name": "NGƯỜI CÂN LINH HỒN.pdf",
+      "mime": "application/pdf",
+      "size": 556826,
+      "modified": "2026-08-15T04:01:23.000Z",
+      "checksum": "e00e11cfcb91796d8f59d6b3d6a64009",
+      "folder": false
+    }
+  ]
+}

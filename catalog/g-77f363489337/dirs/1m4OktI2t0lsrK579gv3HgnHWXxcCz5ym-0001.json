@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1m4OktI2t0lsrK579gv3HgnHWXxcCz5ym",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fsjzuauaxhdsZF-B6humCU5_8yGwo45I",
+      "parent_id": "1m4OktI2t0lsrK579gv3HgnHWXxcCz5ym",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 402,
+      "modified": "2026-08-16T04:19:32.000Z",
+      "checksum": "b863695f2083cfbeec79d3c9b8b6615b",
+      "folder": false
+    },
+    {
+      "id": "1XH6zXD-_F-x9th6KZiLfoO_UE_GUNXdG",
+      "parent_id": "1m4OktI2t0lsrK579gv3HgnHWXxcCz5ym",
+      "name": "HÓA THÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 295153,
+      "modified": "2026-08-16T04:19:37.000Z",
+      "checksum": "585a3b8485a14cb0d84365ea136d1fc2",
+      "folder": false
+    },
+    {
+      "id": "1KQan-Vdi1_eQBrm2we2UIiHMeQz5P8dh",
+      "parent_id": "1m4OktI2t0lsrK579gv3HgnHWXxcCz5ym",
+      "name": "HÓA THÂN.pdf",
+      "mime": "application/pdf",
+      "size": 464878,
+      "modified": "2026-08-16T04:19:35.000Z",
+      "checksum": "8c1b6a9b44e70dbcb45c3ce84c22d169",
+      "folder": false
+    }
+  ]
+}

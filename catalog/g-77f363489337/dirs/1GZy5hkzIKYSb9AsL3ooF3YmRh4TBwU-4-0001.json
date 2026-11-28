@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GZy5hkzIKYSb9AsL3ooF3YmRh4TBwU-4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oa_ga89H5XP8vg_osXjbJE4ZvI9UyVpk",
+      "parent_id": "1GZy5hkzIKYSb9AsL3ooF3YmRh4TBwU-4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 961,
+      "modified": "2026-08-15T10:06:25.000Z",
+      "checksum": "858ee986ae6d35053d4a848b25f8d1a8",
+      "folder": false
+    },
+    {
+      "id": "1JoFmzSQlq7tODqhU6sYvvo9HqLDNoZFm",
+      "parent_id": "1GZy5hkzIKYSb9AsL3ooF3YmRh4TBwU-4",
+      "name": "TRUYỆN NGẮN HAY 2017.epub",
+      "mime": "application/epub+zip",
+      "size": 370090,
+      "modified": "2026-08-15T10:06:32.000Z",
+      "checksum": "b1c1b42cedab51b1b86127e8d24bf677",
+      "folder": false
+    },
+    {
+      "id": "1A9F6AqYn74r-Qc2hmho1dFqNGf47AQ-w",
+      "parent_id": "1GZy5hkzIKYSb9AsL3ooF3YmRh4TBwU-4",
+      "name": "TRUYỆN NGẮN HAY 2017.pdf",
+      "mime": "application/pdf",
+      "size": 814046,
+      "modified": "2026-08-15T10:06:29.000Z",
+      "checksum": "1de3c413112d54de08d772a66871c749",
+      "folder": false
+    }
+  ]
+}

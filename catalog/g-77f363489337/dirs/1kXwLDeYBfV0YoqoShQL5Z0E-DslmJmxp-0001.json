@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kXwLDeYBfV0YoqoShQL5Z0E-DslmJmxp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qWh2sYieCKUsKsmCz8xNzHHxa2_QK0Tb",
+      "parent_id": "1kXwLDeYBfV0YoqoShQL5Z0E-DslmJmxp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3739,
+      "modified": "2026-08-15T10:10:27.000Z",
+      "checksum": "ca92b099e2a3af5f6879a2534306883e",
+      "folder": false
+    },
+    {
+      "id": "1Zw1mXuA13-oyeq-2NDP-3st-8_aSQubT",
+      "parent_id": "1kXwLDeYBfV0YoqoShQL5Z0E-DslmJmxp",
+      "name": "TIẾNG CHÓ TRU TRONG ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 513623,
+      "modified": "2026-08-15T10:10:33.000Z",
+      "checksum": "9d909cb71c451d9c9e0fc1ff24d3b6d1",
+      "folder": false
+    },
+    {
+      "id": "1Ie0AvSpM5eXK1Rw1UK3aXCxGW-7hYG6L",
+      "parent_id": "1kXwLDeYBfV0YoqoShQL5Z0E-DslmJmxp",
+      "name": "TIẾNG CHÓ TRU TRONG ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 796962,
+      "modified": "2026-08-15T10:10:30.000Z",
+      "checksum": "6efb56b5751f57ee2740b014540a3b0d",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1u09K1bWjhT6fjZvU90yCZqAyKuSF8jKK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JrqpRi85DI9w-vuzDEWlt19OGWQKLBXx",
+      "parent_id": "1u09K1bWjhT6fjZvU90yCZqAyKuSF8jKK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3335,
+      "modified": "2026-08-15T10:10:28.000Z",
+      "checksum": "8a6e826d37c0cf01c2a96c2c2987a230",
+      "folder": false
+    },
+    {
+      "id": "1VLjef3amp5ByrJfACJDeTJltjhACqHln",
+      "parent_id": "1u09K1bWjhT6fjZvU90yCZqAyKuSF8jKK",
+      "name": "TIẾNG ĐÀN KHUYẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 367376,
+      "modified": "2026-08-15T10:10:34.000Z",
+      "checksum": "3212cc4e7efd751cbd9069fc9a6c6b49",
+      "folder": false
+    },
+    {
+      "id": "1oPZqcjWxQQt63e-lznUQcdHnlVCmTm6g",
+      "parent_id": "1u09K1bWjhT6fjZvU90yCZqAyKuSF8jKK",
+      "name": "TIẾNG ĐÀN KHUYẾT.pdf",
+      "mime": "application/pdf",
+      "size": 406492,
+      "modified": "2026-08-15T10:10:31.000Z",
+      "checksum": "684e238e48f3fe94849ecb5ddb2682d5",
+      "folder": false
+    }
+  ]
+}

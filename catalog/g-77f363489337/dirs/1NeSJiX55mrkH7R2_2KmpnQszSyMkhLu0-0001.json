@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NeSJiX55mrkH7R2_2KmpnQszSyMkhLu0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ua3m6w91ZDbWQxKelyN_lDZP_koOI-n3",
+      "parent_id": "1NeSJiX55mrkH7R2_2KmpnQszSyMkhLu0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11100,
+      "modified": "2026-08-15T09:44:33.000Z",
+      "checksum": "a922ebccb246a519adb4d3df4cc5f643",
+      "folder": false
+    },
+    {
+      "id": "1HSS_YdZ2WpcJw6maJ4h1V2a4PvbOq17q",
+      "parent_id": "1NeSJiX55mrkH7R2_2KmpnQszSyMkhLu0",
+      "name": "LÂU CHỦ VÔ TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 333474,
+      "modified": "2026-08-15T09:44:45.000Z",
+      "checksum": "ecac3a8b8ba8b85e8f078af64e662f71",
+      "folder": false
+    },
+    {
+      "id": "1gLbWFwDl6Xpc58fB0P7spFMRY0RC8SWx",
+      "parent_id": "1NeSJiX55mrkH7R2_2KmpnQszSyMkhLu0",
+      "name": "LÂU CHỦ VÔ TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 426017,
+      "modified": "2026-08-15T09:44:40.000Z",
+      "checksum": "3e7a48ee38890ec658056343a00deed9",
+      "folder": false
+    }
+  ]
+}

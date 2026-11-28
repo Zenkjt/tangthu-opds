@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pA3_tgPGd1o-qciie84nhb98xDTxeb4S",
+  "page": 1,
+  "items": [
+    {
+      "id": "123M0HhfVAV1Z-WrIdXkEU_8cULqDyT_-",
+      "parent_id": "1pA3_tgPGd1o-qciie84nhb98xDTxeb4S",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 547,
+      "modified": "2026-08-16T04:19:14.000Z",
+      "checksum": "6798b4cdf46658daeeab8a07ade96cb1",
+      "folder": false
+    },
+    {
+      "id": "15NQjFsAHV3oARsSJk0uRy0rAQwZp5FTT",
+      "parent_id": "1pA3_tgPGd1o-qciie84nhb98xDTxeb4S",
+      "name": "HUYỀN SỬ CỎ TIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 518570,
+      "modified": "2026-08-16T04:19:21.000Z",
+      "checksum": "d4c980c55effab614e6a445063ad0293",
+      "folder": false
+    },
+    {
+      "id": "1FyjWMgL5OIuayp1FxSaFsFdtaXaTx4Sc",
+      "parent_id": "1pA3_tgPGd1o-qciie84nhb98xDTxeb4S",
+      "name": "HUYỀN SỬ CỎ TIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 869769,
+      "modified": "2026-08-16T04:19:18.000Z",
+      "checksum": "186efbbaa31e6b4bcac589a8885fe788",
+      "folder": false
+    }
+  ]
+}

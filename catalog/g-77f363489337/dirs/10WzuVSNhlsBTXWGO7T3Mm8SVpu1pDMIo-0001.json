@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10WzuVSNhlsBTXWGO7T3Mm8SVpu1pDMIo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Y7CDxNMJuwcO6d7h8oxRjBJsLliSfNcl",
+      "parent_id": "10WzuVSNhlsBTXWGO7T3Mm8SVpu1pDMIo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3425,
+      "modified": "2026-08-15T15:58:51.000Z",
+      "checksum": "0fda82ce0d51ebadacf5c0d20d2b89f8",
+      "folder": false
+    },
+    {
+      "id": "1MDssSfbRKpsKniH03dBt9Br7v_ERMmhZ",
+      "parent_id": "10WzuVSNhlsBTXWGO7T3Mm8SVpu1pDMIo",
+      "name": "PHẾ HẬU XOAY NGƯỜI KÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 817980,
+      "modified": "2026-08-15T15:58:59.000Z",
+      "checksum": "197533018d6c66af3f1a8d62b1bd60e9",
+      "folder": false
+    },
+    {
+      "id": "1x7aFktLu8YNVYT9TSwVUEoZaXEOQzzM7",
+      "parent_id": "10WzuVSNhlsBTXWGO7T3Mm8SVpu1pDMIo",
+      "name": "PHẾ HẬU XOAY NGƯỜI KÝ.pdf",
+      "mime": "application/pdf",
+      "size": 1871901,
+      "modified": "2026-08-15T15:58:56.000Z",
+      "checksum": "46c7674cda66da1e43d747abf62e99c9",
+      "folder": false
+    }
+  ]
+}

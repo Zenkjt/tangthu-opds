@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YoiMhynOvYbFy99A9XnA2v5jUN8lUoN_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1r2AvjiBN32d-l48KhWiHyJluKv89aerB",
+      "parent_id": "1YoiMhynOvYbFy99A9XnA2v5jUN8lUoN_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3194,
+      "modified": "2026-08-16T03:58:59.000Z",
+      "checksum": "ddfb0916a10d1a9f9be828806753e15e",
+      "folder": false
+    },
+    {
+      "id": "18x-NuMhu63oJ_MxkU7xyfBQ04vaUivRu",
+      "parent_id": "1YoiMhynOvYbFy99A9XnA2v5jUN8lUoN_",
+      "name": "THẤT HUYỀN CẦM.epub",
+      "mime": "application/epub+zip",
+      "size": 426535,
+      "modified": "2026-08-16T03:59:06.000Z",
+      "checksum": "92a997f1959aa3ca78cccbb660bc84c0",
+      "folder": false
+    },
+    {
+      "id": "1u4FjMHQ6zdvDdC6VwVtADrDqps5czbk3",
+      "parent_id": "1YoiMhynOvYbFy99A9XnA2v5jUN8lUoN_",
+      "name": "THẤT HUYỀN CẦM.pdf",
+      "mime": "application/pdf",
+      "size": 1057874,
+      "modified": "2026-08-16T03:59:03.000Z",
+      "checksum": "ce6d30fda64c46bbabc746ad499de332",
+      "folder": false
+    }
+  ]
+}

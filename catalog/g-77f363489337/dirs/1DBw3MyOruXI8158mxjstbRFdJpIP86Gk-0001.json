@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DBw3MyOruXI8158mxjstbRFdJpIP86Gk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NF48c9QY3M4HvQ2kl5D8mo7BU9-DY67z",
+      "parent_id": "1DBw3MyOruXI8158mxjstbRFdJpIP86Gk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3702,
+      "modified": "2026-08-16T03:55:47.000Z",
+      "checksum": "a6a8eb00182fbadd1ef98d2090f76217",
+      "folder": false
+    },
+    {
+      "id": "1e4KzK4-vc2lJTpnVBtliNPcvnRfXS5mG",
+      "parent_id": "1DBw3MyOruXI8158mxjstbRFdJpIP86Gk",
+      "name": "TỊCH MỊCH KHÔNG ĐÌNH XUÂN DỤC VÃN.epub",
+      "mime": "application/epub+zip",
+      "size": 657272,
+      "modified": "2026-08-16T03:55:54.000Z",
+      "checksum": "699e6cc62dc8e0a044802006598a4f9c",
+      "folder": false
+    },
+    {
+      "id": "13t_zIcqJ2U1OXaBDhQKrnqTvIUA5amX7",
+      "parent_id": "1DBw3MyOruXI8158mxjstbRFdJpIP86Gk",
+      "name": "TỊCH MỊCH KHÔNG ĐÌNH XUÂN DỤC VÃN.pdf",
+      "mime": "application/pdf",
+      "size": 1282925,
+      "modified": "2026-08-16T03:55:52.000Z",
+      "checksum": "e655585b57c64ce9171a4b1f909cabef",
+      "folder": false
+    }
+  ]
+}

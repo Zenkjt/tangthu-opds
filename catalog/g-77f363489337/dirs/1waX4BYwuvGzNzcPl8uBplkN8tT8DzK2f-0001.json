@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1waX4BYwuvGzNzcPl8uBplkN8tT8DzK2f",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AxmLKBelv9aCug2qI9n2yxKopoPhxEsZ",
+      "parent_id": "1waX4BYwuvGzNzcPl8uBplkN8tT8DzK2f",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3316,
+      "modified": "2026-08-15T10:35:46.000Z",
+      "checksum": "89a328daca30658fb0ecb21d86f8fb34",
+      "folder": false
+    },
+    {
+      "id": "1QlNyNqAJSuuIovrxyHYBUy-N6i0ZumBY",
+      "parent_id": "1waX4BYwuvGzNzcPl8uBplkN8tT8DzK2f",
+      "name": "NỮ HOÀNG THINH LẶNG.epub",
+      "mime": "application/epub+zip",
+      "size": 425352,
+      "modified": "2026-08-15T10:35:53.000Z",
+      "checksum": "db93e2373193d9b5857999dcd42bd8a9",
+      "folder": false
+    },
+    {
+      "id": "19hzhLra0lhvf7lNZLURS13oVtXVeqa7f",
+      "parent_id": "1waX4BYwuvGzNzcPl8uBplkN8tT8DzK2f",
+      "name": "NỮ HOÀNG THINH LẶNG.pdf",
+      "mime": "application/pdf",
+      "size": 656998,
+      "modified": "2026-08-15T10:35:51.000Z",
+      "checksum": "86a8e82b5fca8e8a3cbaa954bf8180cc",
+      "folder": false
+    }
+  ]
+}

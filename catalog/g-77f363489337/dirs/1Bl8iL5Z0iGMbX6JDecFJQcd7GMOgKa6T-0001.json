@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Bl8iL5Z0iGMbX6JDecFJQcd7GMOgKa6T",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ChyWS8EzqkjuLLnhteFK83tbUXyfZTNZ",
+      "parent_id": "1Bl8iL5Z0iGMbX6JDecFJQcd7GMOgKa6T",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 689,
+      "modified": "2026-08-15T15:40:23.000Z",
+      "checksum": "3033dc1319cebac6f86d0ddbd7fe0f92",
+      "folder": false
+    },
+    {
+      "id": "1rLQ_KOJM9uqZQdeJE_nvzM3II7iBiAsW",
+      "parent_id": "1Bl8iL5Z0iGMbX6JDecFJQcd7GMOgKa6T",
+      "name": "KIM CƯƠNG ĐOẠT MẠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 898860,
+      "modified": "2026-08-15T15:40:33.000Z",
+      "checksum": "94a56622f28ce26ae47c90e74ce7f963",
+      "folder": false
+    },
+    {
+      "id": "1WEDuDW2K2O776befRRTia_VdHdKuuVwK",
+      "parent_id": "1Bl8iL5Z0iGMbX6JDecFJQcd7GMOgKa6T",
+      "name": "KIM CƯƠNG ĐOẠT MẠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1901429,
+      "modified": "2026-08-15T15:40:29.000Z",
+      "checksum": "076cdad22e9bbcf7cc82b4b6b133cad9",
+      "folder": false
+    }
+  ]
+}

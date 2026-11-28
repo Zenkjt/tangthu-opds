@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BcPPhApSHdC0do0yS_7DTHkL3I4W9fod",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P0bHmmGvJpr50HtcI6XrBxPvFIm1mGiy",
+      "parent_id": "1BcPPhApSHdC0do0yS_7DTHkL3I4W9fod",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 535,
+      "modified": "2026-08-15T10:48:09.000Z",
+      "checksum": "38f59f310722a6fe0372f2d91d01cc20",
+      "folder": false
+    },
+    {
+      "id": "1hx56HIQaZBpKAhYBCuxX_yXOiS7jiuyx",
+      "parent_id": "1BcPPhApSHdC0do0yS_7DTHkL3I4W9fod",
+      "name": "NẮP BIỂN.epub",
+      "mime": "application/epub+zip",
+      "size": 363926,
+      "modified": "2026-08-15T10:48:16.000Z",
+      "checksum": "7192232006e04b097c42fddef369f3c5",
+      "folder": false
+    },
+    {
+      "id": "1fGNOVVt5BG1Irx-GS52bWnX0HDonkZDl",
+      "parent_id": "1BcPPhApSHdC0do0yS_7DTHkL3I4W9fod",
+      "name": "NẮP BIỂN.pdf",
+      "mime": "application/pdf",
+      "size": 418648,
+      "modified": "2026-08-15T10:48:14.000Z",
+      "checksum": "020c16bb6284d3d19cdd0c98fb312783",
+      "folder": false
+    }
+  ]
+}

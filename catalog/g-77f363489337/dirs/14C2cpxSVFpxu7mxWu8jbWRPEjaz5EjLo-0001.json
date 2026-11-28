@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14C2cpxSVFpxu7mxWu8jbWRPEjaz5EjLo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xAasRpSdxItzubuBRCPwmfABcvmRaYCu",
+      "parent_id": "14C2cpxSVFpxu7mxWu8jbWRPEjaz5EjLo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2404,
+      "modified": "2026-08-16T03:33:19.000Z",
+      "checksum": "1931cedb2c0b46b7c8fc00ef1bb9bfc0",
+      "folder": false
+    },
+    {
+      "id": "1wV9RZL1_287WPhb8OCsFRv2-3pZZ6bui",
+      "parent_id": "14C2cpxSVFpxu7mxWu8jbWRPEjaz5EjLo",
+      "name": "ĐỖ NƯƠNG NƯƠNG BÁO OÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 532088,
+      "modified": "2026-08-16T03:33:26.000Z",
+      "checksum": "1098a589d0c211ee736a0044390e7bd8",
+      "folder": false
+    },
+    {
+      "id": "14vHh7zYrbvBwNSKxTElmXbYlv2J4BF_r",
+      "parent_id": "14C2cpxSVFpxu7mxWu8jbWRPEjaz5EjLo",
+      "name": "ĐỖ NƯƠNG NƯƠNG BÁO OÁN.pdf",
+      "mime": "application/pdf",
+      "size": 796832,
+      "modified": "2026-08-16T03:33:23.000Z",
+      "checksum": "c608e2fc16d2908886a9396435b20e88",
+      "folder": false
+    }
+  ]
+}

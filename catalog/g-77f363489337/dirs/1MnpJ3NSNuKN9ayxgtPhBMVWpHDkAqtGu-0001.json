@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MnpJ3NSNuKN9ayxgtPhBMVWpHDkAqtGu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jojFeFVJXQjs18Ps1GDG5W1WvyzuLSEg",
+      "parent_id": "1MnpJ3NSNuKN9ayxgtPhBMVWpHDkAqtGu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1218,
+      "modified": "2026-08-16T03:37:36.000Z",
+      "checksum": "146cf70c3f3b56a9d8df165d272ea700",
+      "folder": false
+    },
+    {
+      "id": "1gMabACNpp9FHTU9Qao_sVNOkPeTplw-F",
+      "parent_id": "1MnpJ3NSNuKN9ayxgtPhBMVWpHDkAqtGu",
+      "name": "MẬP ĐẸP BÉO DỄ THƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 473872,
+      "modified": "2026-08-16T03:37:43.000Z",
+      "checksum": "ba508d1463a5df272e2973e17f271b4b",
+      "folder": false
+    },
+    {
+      "id": "1d74XFgCFyGvZ34ENkMyXRDTOdx8LxRmd",
+      "parent_id": "1MnpJ3NSNuKN9ayxgtPhBMVWpHDkAqtGu",
+      "name": "MẬP ĐẸP BÉO DỄ THƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 872152,
+      "modified": "2026-08-16T03:37:40.000Z",
+      "checksum": "d99d2732cf730968e91f52f53b42b564",
+      "folder": false
+    }
+  ]
+}

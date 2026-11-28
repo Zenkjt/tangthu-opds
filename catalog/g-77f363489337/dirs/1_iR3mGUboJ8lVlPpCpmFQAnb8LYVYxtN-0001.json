@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_iR3mGUboJ8lVlPpCpmFQAnb8LYVYxtN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1l_qwGz4x_LF1ehqqaeOUZc209BVjEi5Y",
+      "parent_id": "1_iR3mGUboJ8lVlPpCpmFQAnb8LYVYxtN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1918,
+      "modified": "2026-08-15T09:38:05.000Z",
+      "checksum": "7297f31d0b6a3ae258a857b3e280332f",
+      "folder": false
+    },
+    {
+      "id": "1kk1uCTArRkmjnNxymGxBqQcFUEX0dd3E",
+      "parent_id": "1_iR3mGUboJ8lVlPpCpmFQAnb8LYVYxtN",
+      "name": "LÒNG DẠ ÐÀN BÀ.epub",
+      "mime": "application/epub+zip",
+      "size": 471123,
+      "modified": "2026-08-15T09:38:12.000Z",
+      "checksum": "fece128965e091fa939de5d9adcc2e9c",
+      "folder": false
+    },
+    {
+      "id": "1SsPzrQYp1UBopN18WmFVsW4BHGd0aq8p",
+      "parent_id": "1_iR3mGUboJ8lVlPpCpmFQAnb8LYVYxtN",
+      "name": "LÒNG DẠ ÐÀN BÀ.pdf",
+      "mime": "application/pdf",
+      "size": 120931,
+      "modified": "2026-08-15T09:38:09.000Z",
+      "checksum": "82d638472c664b99d8f10b30fe0fdc8c",
+      "folder": false
+    }
+  ]
+}

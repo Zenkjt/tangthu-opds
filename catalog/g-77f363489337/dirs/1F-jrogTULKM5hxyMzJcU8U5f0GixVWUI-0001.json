@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1F-jrogTULKM5hxyMzJcU8U5f0GixVWUI",
+  "page": 1,
+  "items": [
+    {
+      "id": "19K2iNi9S0wndY30oOeXBuQvxseWswObt",
+      "parent_id": "1F-jrogTULKM5hxyMzJcU8U5f0GixVWUI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1652,
+      "modified": "2026-08-16T03:22:15.000Z",
+      "checksum": "f63cf198746a3203e077d82b6453a21f",
+      "folder": false
+    },
+    {
+      "id": "1lKnkifYBoRvNAFZ6fFmax5uDgnYjpp8u",
+      "parent_id": "1F-jrogTULKM5hxyMzJcU8U5f0GixVWUI",
+      "name": "LỜI NGUYỀN LỖ BAN - TẬP 2.epub",
+      "mime": "application/epub+zip",
+      "size": 508729,
+      "modified": "2026-08-16T03:22:22.000Z",
+      "checksum": "96020ec5bf2682bc20f2bf26152c93a2",
+      "folder": false
+    },
+    {
+      "id": "1zaDT44PvLToyCJ5i1aObdJbFq2QIKXY9",
+      "parent_id": "1F-jrogTULKM5hxyMzJcU8U5f0GixVWUI",
+      "name": "LỜI NGUYỀN LỖ BAN - TẬP 2.pdf",
+      "mime": "application/pdf",
+      "size": 1269622,
+      "modified": "2026-08-16T03:22:20.000Z",
+      "checksum": "2a029e9e729e666ccf1be46ee1bb42cd",
+      "folder": false
+    }
+  ]
+}

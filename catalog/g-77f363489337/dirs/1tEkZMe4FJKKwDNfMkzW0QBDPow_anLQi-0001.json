@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tEkZMe4FJKKwDNfMkzW0QBDPow_anLQi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xvdFppfoa7OEQN5aG2cmhvNLSb2IGg9T",
+      "parent_id": "1tEkZMe4FJKKwDNfMkzW0QBDPow_anLQi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9731,
+      "modified": "2026-08-15T15:11:10.000Z",
+      "checksum": "8f19b9c4491da5130458fcca512146b1",
+      "folder": false
+    },
+    {
+      "id": "1H8oPwvuL7UVOcK4_VC-OhtjyEPX5iKby",
+      "parent_id": "1tEkZMe4FJKKwDNfMkzW0QBDPow_anLQi",
+      "name": "QUỶ SỰ VÔ TẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 487649,
+      "modified": "2026-08-15T15:11:17.000Z",
+      "checksum": "cbaa9dd3fdd9b16a9afc94ae6995c968",
+      "folder": false
+    },
+    {
+      "id": "1006QiGhPSV3C9gKfosLhHqVj8O09j1NF",
+      "parent_id": "1tEkZMe4FJKKwDNfMkzW0QBDPow_anLQi",
+      "name": "QUỶ SỰ VÔ TẬN.pdf",
+      "mime": "application/pdf",
+      "size": 1804516,
+      "modified": "2026-08-15T15:11:15.000Z",
+      "checksum": "775002121d9766dbdadbb60db053ae0b",
+      "folder": false
+    }
+  ]
+}

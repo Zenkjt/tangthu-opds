@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1q2QHoMlWTnc0sn82hn9mCcMfNZttaNk6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zAnbXxJbomeK5wj7ATcbePGyMlp2VE5M",
+      "parent_id": "1q2QHoMlWTnc0sn82hn9mCcMfNZttaNk6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1192,
+      "modified": "2026-08-15T03:44:50.000Z",
+      "checksum": "123c24e87454b8398f1f826515612f7a",
+      "folder": false
+    },
+    {
+      "id": "1YfFNOc1O0-6uWARfHVWjljNF7gUoZewI",
+      "parent_id": "1q2QHoMlWTnc0sn82hn9mCcMfNZttaNk6",
+      "name": "NGHỆ THUẬT BIẾN MẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 281545,
+      "modified": "2026-08-15T03:44:57.000Z",
+      "checksum": "6534fa6259df2195704d52bb512ea31b",
+      "folder": false
+    },
+    {
+      "id": "1UWw1QglSQ8MAX-XojNn77P-Wu3cfDS3b",
+      "parent_id": "1q2QHoMlWTnc0sn82hn9mCcMfNZttaNk6",
+      "name": "NGHỆ THUẬT BIẾN MẤT.pdf",
+      "mime": "application/pdf",
+      "size": 1284426,
+      "modified": "2026-08-15T03:44:54.000Z",
+      "checksum": "79095f3cc3b902350d35b2d731afc738",
+      "folder": false
+    }
+  ]
+}

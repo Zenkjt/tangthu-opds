@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fDbwJD_lrvIR8zg57Ad79Epiw5fURrYD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dxur3vTdCV17GTBMVEfLnIysLVWrybSx",
+      "parent_id": "1fDbwJD_lrvIR8zg57Ad79Epiw5fURrYD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1858,
+      "modified": "2026-08-15T10:01:26.000Z",
+      "checksum": "1d8762ad8168a63b3a35e7b38e8cc484",
+      "folder": false
+    },
+    {
+      "id": "1JMWarul2pEk3fFEe8d9cknHSzmgBrHBo",
+      "parent_id": "1fDbwJD_lrvIR8zg57Ad79Epiw5fURrYD",
+      "name": "KÍ ỨC ĐÔNG DƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 382244,
+      "modified": "2026-08-15T10:01:33.000Z",
+      "checksum": "03a664d42738c5b3ab18e89b9a4a4242",
+      "folder": false
+    },
+    {
+      "id": "1XnIEQWHBA2PhdKt-VdDZoYpComtUluv-",
+      "parent_id": "1fDbwJD_lrvIR8zg57Ad79Epiw5fURrYD",
+      "name": "KÍ ỨC ĐÔNG DƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1089608,
+      "modified": "2026-08-15T10:01:30.000Z",
+      "checksum": "5aca96ab4a4e9ba7ef6f77fd673fe2a0",
+      "folder": false
+    }
+  ]
+}

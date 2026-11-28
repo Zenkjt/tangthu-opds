@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1b04XqKYuiDni-YGVWbmczFqEsqGl4ljY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1q4_UgPWSUaaobfCH9dOr34ryLYHz7-YB",
+      "parent_id": "1b04XqKYuiDni-YGVWbmczFqEsqGl4ljY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7934,
+      "modified": "2026-08-15T15:22:24.000Z",
+      "checksum": "64a1a279f6f642f938c84f93e0bcb1e4",
+      "folder": false
+    },
+    {
+      "id": "1yJVPMvkbSnTpRUzNfSZmMZjjZA0IA0TF",
+      "parent_id": "1b04XqKYuiDni-YGVWbmczFqEsqGl4ljY",
+      "name": "ĐỒNG THOẠI ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 483137,
+      "modified": "2026-08-15T15:22:35.000Z",
+      "checksum": "89a0ce91d0e27606c160757b36e5bbbc",
+      "folder": false
+    },
+    {
+      "id": "1I4wOiA0bwcW4W3w-pVorKxx4Bu5_vHg-",
+      "parent_id": "1b04XqKYuiDni-YGVWbmczFqEsqGl4ljY",
+      "name": "ĐỒNG THOẠI ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 413417,
+      "modified": "2026-08-15T15:22:31.000Z",
+      "checksum": "4eb5a9b6fcf14d06071a0d648f74863b",
+      "folder": false
+    }
+  ]
+}

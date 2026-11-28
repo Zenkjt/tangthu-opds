@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IpwxASu4jtyjUl-TcVOp--jO530W1WFs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WdlPB2lFpbdCcazszsHI9TB_HzIp0woR",
+      "parent_id": "1IpwxASu4jtyjUl-TcVOp--jO530W1WFs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5678,
+      "modified": "2026-08-15T03:45:35.000Z",
+      "checksum": "2a7ff76494d4bb9fec184bd26657fd76",
+      "folder": false
+    },
+    {
+      "id": "1l-6wnkHivc6VdGainSQH7iZMOWKwStpw",
+      "parent_id": "1IpwxASu4jtyjUl-TcVOp--jO530W1WFs",
+      "name": "NGHĨ VỀ NHỮNG ĐIỀU NÀY.epub",
+      "mime": "application/epub+zip",
+      "size": 332925,
+      "modified": "2026-08-15T03:45:42.000Z",
+      "checksum": "509c3bdd0bce17d988d28cf7aa12cb19",
+      "folder": false
+    },
+    {
+      "id": "1lQnA0To6xWrqA3rdEcMsQ76JM0xujSxa",
+      "parent_id": "1IpwxASu4jtyjUl-TcVOp--jO530W1WFs",
+      "name": "NGHĨ VỀ NHỮNG ĐIỀU NÀY.pdf",
+      "mime": "application/pdf",
+      "size": 1211976,
+      "modified": "2026-08-15T03:45:39.000Z",
+      "checksum": "7849039569882157e9cd283b237765e4",
+      "folder": false
+    }
+  ]
+}

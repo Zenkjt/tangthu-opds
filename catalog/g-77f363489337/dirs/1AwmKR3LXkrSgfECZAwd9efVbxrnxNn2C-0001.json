@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AwmKR3LXkrSgfECZAwd9efVbxrnxNn2C",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RNqWRcyUH4GXGw8IA_g1WXi8Sh6TFlvO",
+      "parent_id": "1AwmKR3LXkrSgfECZAwd9efVbxrnxNn2C",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4110,
+      "modified": "2026-08-15T03:51:11.000Z",
+      "checksum": "ace67edb3bc0795a4d19a6224adab4aa",
+      "folder": false
+    },
+    {
+      "id": "1GM-ClZAIj6J_FNPtMe2FgqvclU8uqxKE",
+      "parent_id": "1AwmKR3LXkrSgfECZAwd9efVbxrnxNn2C",
+      "name": "THẤT CHÂN NHÂN QUẢ.epub",
+      "mime": "application/epub+zip",
+      "size": 374144,
+      "modified": "2026-08-15T03:51:17.000Z",
+      "checksum": "c861f37b7f90f24536a7b2ead87ac192",
+      "folder": false
+    },
+    {
+      "id": "1W7XXK5oHGpj8jRSOHOSHSUWnxeETC4Tq",
+      "parent_id": "1AwmKR3LXkrSgfECZAwd9efVbxrnxNn2C",
+      "name": "THẤT CHÂN NHÂN QUẢ.pdf",
+      "mime": "application/pdf",
+      "size": 1381755,
+      "modified": "2026-08-15T03:51:15.000Z",
+      "checksum": "eba66faffa6588986e9b0a819953244c",
+      "folder": false
+    }
+  ]
+}

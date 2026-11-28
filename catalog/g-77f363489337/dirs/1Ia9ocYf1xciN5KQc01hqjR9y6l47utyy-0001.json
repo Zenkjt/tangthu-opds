@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ia9ocYf1xciN5KQc01hqjR9y6l47utyy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fAdUK16qemwOpBJuUultKNVA4-BwyEwG",
+      "parent_id": "1Ia9ocYf1xciN5KQc01hqjR9y6l47utyy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 597,
+      "modified": "2026-08-16T04:18:41.000Z",
+      "checksum": "80e8095a275808ed0ffd1c0bb9af309c",
+      "folder": false
+    },
+    {
+      "id": "1HoSkFP9Jll1-TjYnUvsn6O_mDzccHIVi",
+      "parent_id": "1Ia9ocYf1xciN5KQc01hqjR9y6l47utyy",
+      "name": "KIM CÁC TỰ ( KINKAKUJI ) - YUKIO.epub",
+      "mime": "application/epub+zip",
+      "size": 784666,
+      "modified": "2026-08-16T04:18:49.000Z",
+      "checksum": "33d1aa0b88fc841f7f59dd34f3aaa786",
+      "folder": false
+    },
+    {
+      "id": "1RXQSOju_48afq14OkZox3w7_K4rRs05f",
+      "parent_id": "1Ia9ocYf1xciN5KQc01hqjR9y6l47utyy",
+      "name": "KIM CÁC TỰ ( KINKAKUJI ) - YUKIO.pdf",
+      "mime": "application/pdf",
+      "size": 1088561,
+      "modified": "2026-08-16T04:18:45.000Z",
+      "checksum": "cf26c00cb0267d789ef1f6fe588d4537",
+      "folder": false
+    }
+  ]
+}

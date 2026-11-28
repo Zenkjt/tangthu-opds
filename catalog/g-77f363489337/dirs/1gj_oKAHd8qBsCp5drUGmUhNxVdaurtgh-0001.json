@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gj_oKAHd8qBsCp5drUGmUhNxVdaurtgh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UgoawdQFqNJH4frdLyQ-96BnULr9Hu3b",
+      "parent_id": "1gj_oKAHd8qBsCp5drUGmUhNxVdaurtgh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 17350,
+      "modified": "2026-08-15T07:20:37.000Z",
+      "checksum": "61429bd8780eb9714ef086c1c9147ac6",
+      "folder": false
+    },
+    {
+      "id": "1sXVEI1FEivwNe5xtoGmvssdUpgA0aZpw",
+      "parent_id": "1gj_oKAHd8qBsCp5drUGmUhNxVdaurtgh",
+      "name": "TỔNG TÀI THỰC ĐÁNG SỢ.epub",
+      "mime": "application/epub+zip",
+      "size": 1234394,
+      "modified": "2026-08-15T07:20:49.000Z",
+      "checksum": "f4911bbdced505c29030b34a8e1556ba",
+      "folder": false
+    },
+    {
+      "id": "1UAyuj_M8tQIwmGTia6WjKg-rxR8TXMfi",
+      "parent_id": "1gj_oKAHd8qBsCp5drUGmUhNxVdaurtgh",
+      "name": "TỔNG TÀI THỰC ĐÁNG SỢ.pdf",
+      "mime": "application/pdf",
+      "size": 4497126,
+      "modified": "2026-08-15T07:20:46.000Z",
+      "checksum": "10b578383bdcf5d9aad0405861e9d51b",
+      "folder": false
+    }
+  ]
+}

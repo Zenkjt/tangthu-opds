@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WVLdmLjjdkdGfZtyCJ7-v12VH8QaGFA6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CkQz_iria3pB3wCelBz3sMc1TxvNw5tx",
+      "parent_id": "1WVLdmLjjdkdGfZtyCJ7-v12VH8QaGFA6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3369,
+      "modified": "2026-08-15T15:35:59.000Z",
+      "checksum": "adc0db3362d4f4a2825dba22abc25db4",
+      "folder": false
+    },
+    {
+      "id": "1bLDxrYMLb579i7CONnVdE9W-GOOjURoN",
+      "parent_id": "1WVLdmLjjdkdGfZtyCJ7-v12VH8QaGFA6",
+      "name": "THUNG LŨNG.epub",
+      "mime": "application/epub+zip",
+      "size": 504034,
+      "modified": "2026-08-15T15:36:07.000Z",
+      "checksum": "ea48873b6442a16798a77bd6c1aa65f9",
+      "folder": false
+    },
+    {
+      "id": "1K-mfXQH95vOIeVG7pFotU5kCudtfX8si",
+      "parent_id": "1WVLdmLjjdkdGfZtyCJ7-v12VH8QaGFA6",
+      "name": "THUNG LŨNG.pdf",
+      "mime": "application/pdf",
+      "size": 1012285,
+      "modified": "2026-08-15T15:36:04.000Z",
+      "checksum": "57e0a4bd4f9165dfbf4fa79b6f26af4a",
+      "folder": false
+    }
+  ]
+}

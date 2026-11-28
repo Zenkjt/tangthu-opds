@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1emEZ5h5SGZL0wRhZpWdWE4ZiHHBxhZ5J",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_KZFe8fwYI53uz_P8LuTGvC_xddXoidX",
+      "parent_id": "1emEZ5h5SGZL0wRhZpWdWE4ZiHHBxhZ5J",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3224,
+      "modified": "2026-08-15T10:47:12.000Z",
+      "checksum": "dd5dd685bbe1cfff02a61a115a92d091",
+      "folder": false
+    },
+    {
+      "id": "1JBxKZzkxnhd76PZqAY6nG5goZMZvbz59",
+      "parent_id": "1emEZ5h5SGZL0wRhZpWdWE4ZiHHBxhZ5J",
+      "name": "NGẠO THẾ TUYỆT TRẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 756345,
+      "modified": "2026-08-15T10:47:23.000Z",
+      "checksum": "ec25d1b5ba27c62efb11b92d6937bc3d",
+      "folder": false
+    },
+    {
+      "id": "1s54VuDfu36JKVgf8dTCZsYZJ-BLNeGNa",
+      "parent_id": "1emEZ5h5SGZL0wRhZpWdWE4ZiHHBxhZ5J",
+      "name": "NGẠO THẾ TUYỆT TRẦN.pdf",
+      "mime": "application/pdf",
+      "size": 2173638,
+      "modified": "2026-08-15T10:47:19.000Z",
+      "checksum": "bb1e1f121b31999b0cd4790ac2f9e2a2",
+      "folder": false
+    }
+  ]
+}

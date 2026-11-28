@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xUqHU28YlwsTzycsCpOo58y71TTeVF6J",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bhMTvCXpD0deZFNh0ZX8XRErX7-fv4T6",
+      "parent_id": "1xUqHU28YlwsTzycsCpOo58y71TTeVF6J",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5215,
+      "modified": "2026-08-15T04:20:07.000Z",
+      "checksum": "79cb5e1104f3e5709357a633e996de31",
+      "folder": false
+    },
+    {
+      "id": "1_aVNTID0LRZD7Q7nzs2A2pEeIvHPi8bW",
+      "parent_id": "1xUqHU28YlwsTzycsCpOo58y71TTeVF6J",
+      "name": "MINH TRIẾT TRONG ĂN UỐNG CỦA PHƯƠNG ĐÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 600612,
+      "modified": "2026-08-15T04:20:13.000Z",
+      "checksum": "a134319a2d1cb1690502db0bbc2e14b8",
+      "folder": false
+    },
+    {
+      "id": "1ukNH7pPySrplrBjNo76YbCfkMzGOHtb3",
+      "parent_id": "1xUqHU28YlwsTzycsCpOo58y71TTeVF6J",
+      "name": "MINH TRIẾT TRONG ĂN UỐNG CỦA PHƯƠNG ĐÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 1243957,
+      "modified": "2026-08-15T04:20:10.000Z",
+      "checksum": "1399f19a31d49c5020240a72cfc063ec",
+      "folder": false
+    }
+  ]
+}

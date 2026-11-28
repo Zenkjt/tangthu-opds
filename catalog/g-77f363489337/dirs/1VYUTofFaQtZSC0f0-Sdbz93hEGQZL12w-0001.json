@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VYUTofFaQtZSC0f0-Sdbz93hEGQZL12w",
+  "page": 1,
+  "items": [
+    {
+      "id": "11Z-gXp3RKaYlVhdnoJ3VmJ261zJ3nCsO",
+      "parent_id": "1VYUTofFaQtZSC0f0-Sdbz93hEGQZL12w",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8917,
+      "modified": "2026-08-15T08:14:41.000Z",
+      "checksum": "c6412cffb3ec8f94b1ada430674785ac",
+      "folder": false
+    },
+    {
+      "id": "1NHLX248ErFWW4BpR_JIV1InCAR4fdhhn",
+      "parent_id": "1VYUTofFaQtZSC0f0-Sdbz93hEGQZL12w",
+      "name": "DÒNG THƠ THỨ CHÍN.epub",
+      "mime": "application/epub+zip",
+      "size": 698540,
+      "modified": "2026-08-15T08:14:51.000Z",
+      "checksum": "cd91a5e301eac09b847657a8d95affd2",
+      "folder": false
+    },
+    {
+      "id": "1JohlFG5jTIuejokhOIT1td3r0uPeBNZu",
+      "parent_id": "1VYUTofFaQtZSC0f0-Sdbz93hEGQZL12w",
+      "name": "DÒNG THƠ THỨ CHÍN.pdf",
+      "mime": "application/pdf",
+      "size": 2322674,
+      "modified": "2026-08-15T08:14:48.000Z",
+      "checksum": "67eed83a435b674805ff2d0bb2aac77f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15txCJDx6jclc8XVMRqUDsZrRSvofAldl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oE1D3zdj90uB5egoKP6JZaNj0Z-tecC-",
+      "parent_id": "15txCJDx6jclc8XVMRqUDsZrRSvofAldl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7198,
+      "modified": "2026-08-15T03:59:20.000Z",
+      "checksum": "82a4f3be85f36c6d39a7450104db6333",
+      "folder": false
+    },
+    {
+      "id": "1gsSE4KIs27kpEQM8frYnpTSHlYoBdpk7",
+      "parent_id": "15txCJDx6jclc8XVMRqUDsZrRSvofAldl",
+      "name": "SỰ SỐNG CỦA VŨ TRỤ.epub",
+      "mime": "application/epub+zip",
+      "size": 787094,
+      "modified": "2026-08-15T03:59:28.000Z",
+      "checksum": "8b0395b6896b06109e07cacf90a45c5d",
+      "folder": false
+    },
+    {
+      "id": "1E_y8D_OOedvQiDPydoSxXxqucIi_wKZ_",
+      "parent_id": "15txCJDx6jclc8XVMRqUDsZrRSvofAldl",
+      "name": "SỰ SỐNG CỦA VŨ TRỤ.pdf",
+      "mime": "application/pdf",
+      "size": 2124854,
+      "modified": "2026-08-15T03:59:25.000Z",
+      "checksum": "1dae94e92f746678b0406aff2614b43d",
+      "folder": false
+    }
+  ]
+}

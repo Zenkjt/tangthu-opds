@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WbenW0ZxuAlkT3htTGeegMJcHJJH3AkB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1n99JCQRX4UDJsbKF8YYCUbGCQX21IHOp",
+      "parent_id": "1WbenW0ZxuAlkT3htTGeegMJcHJJH3AkB",
+      "name": "CHUYỆN HOA CHUYỆN QUẢ.epub",
+      "mime": "application/epub+zip",
+      "size": 302180,
+      "modified": "2026-08-15T07:05:06.000Z",
+      "checksum": "000a20ddf1f21db7bab7d5d67eaa0f06",
+      "folder": false
+    },
+    {
+      "id": "1qMwqW11tMJHMUBSPQ5wJsaNQRB90GRfe",
+      "parent_id": "1WbenW0ZxuAlkT3htTGeegMJcHJJH3AkB",
+      "name": "CHUYỆN HOA CHUYỆN QUẢ.pdf",
+      "mime": "application/pdf",
+      "size": 636985,
+      "modified": "2026-08-15T07:05:03.000Z",
+      "checksum": "885f68e1f7aa25fb893b6d67f9d4fd1c",
+      "folder": false
+    },
+    {
+      "id": "1FlEQDhP6sWGzPTkC2Ium5_-KEuoJXFPB",
+      "parent_id": "1WbenW0ZxuAlkT3htTGeegMJcHJJH3AkB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1651,
+      "modified": "2026-08-15T07:04:59.000Z",
+      "checksum": "304e408d224f562c2250ebc3748dc7da",
+      "folder": false
+    }
+  ]
+}

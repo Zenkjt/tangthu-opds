@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_byFV7hNXFSVGgXiQ0JCDgX_zQTju5HA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hzuQyF0RPahnhYJJH0MwYWIwnCmRjEvK",
+      "parent_id": "1_byFV7hNXFSVGgXiQ0JCDgX_zQTju5HA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4843,
+      "modified": "2026-08-15T04:02:38.000Z",
+      "checksum": "704461ab6597b7f530d27ad9bc3f480b",
+      "folder": false
+    },
+    {
+      "id": "1qIQNFPDESJX4KI2pcHDUMVyd2JH8mRjc",
+      "parent_id": "1_byFV7hNXFSVGgXiQ0JCDgX_zQTju5HA",
+      "name": "VƯƠNG QUỐC CỦA NHỮNG NGƯỜI KHÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 165390,
+      "modified": "2026-08-15T04:02:43.000Z",
+      "checksum": "308a1231991d116c311e3dda4853eedc",
+      "folder": false
+    },
+    {
+      "id": "12elpe06Bz0FePt3wtTwG6uP7kJUo9gus",
+      "parent_id": "1_byFV7hNXFSVGgXiQ0JCDgX_zQTju5HA",
+      "name": "VƯƠNG QUỐC CỦA NHỮNG NGƯỜI KHÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 402667,
+      "modified": "2026-08-15T04:02:41.000Z",
+      "checksum": "9505e7b37911a1028710ecdf4e58c983",
+      "folder": false
+    }
+  ]
+}

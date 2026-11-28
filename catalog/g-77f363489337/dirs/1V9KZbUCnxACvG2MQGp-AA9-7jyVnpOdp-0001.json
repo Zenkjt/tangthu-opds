@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1V9KZbUCnxACvG2MQGp-AA9-7jyVnpOdp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1izf_cyJhGdmmqTcLIQNd2GCK6FqJtYzI",
+      "parent_id": "1V9KZbUCnxACvG2MQGp-AA9-7jyVnpOdp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6663,
+      "modified": "2026-08-15T07:27:40.000Z",
+      "checksum": "e146a05e5dd0e2044ceee38d70aed8ea",
+      "folder": false
+    },
+    {
+      "id": "1gI3K7TtLkEyUG7XIKXmvbz6arliLm4QJ",
+      "parent_id": "1V9KZbUCnxACvG2MQGp-AA9-7jyVnpOdp",
+      "name": "VIÊN NGỌC TRAI.epub",
+      "mime": "application/epub+zip",
+      "size": 407141,
+      "modified": "2026-08-15T07:27:46.000Z",
+      "checksum": "d4e557480aecc76e2dc8a4fa42ed77f3",
+      "folder": false
+    },
+    {
+      "id": "1Y9N7tn7AYCczl0PanQFnrBHEfsaKxHPE",
+      "parent_id": "1V9KZbUCnxACvG2MQGp-AA9-7jyVnpOdp",
+      "name": "VIÊN NGỌC TRAI.pdf",
+      "mime": "application/pdf",
+      "size": 369909,
+      "modified": "2026-08-15T07:27:43.000Z",
+      "checksum": "f04ed9b8b6e267346a4cdf8a3fb9a4f4",
+      "folder": false
+    }
+  ]
+}

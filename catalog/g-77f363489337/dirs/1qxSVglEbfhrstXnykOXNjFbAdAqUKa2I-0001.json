@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qxSVglEbfhrstXnykOXNjFbAdAqUKa2I",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jOXbCnASi9ifU3-_WN06HeqLx6OMf0Uq",
+      "parent_id": "1qxSVglEbfhrstXnykOXNjFbAdAqUKa2I",
+      "name": "CHIẾC KHUY ĐỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 383586,
+      "modified": "2026-08-15T15:15:24.000Z",
+      "checksum": "86feb9703a5d8ea2fbcdda326f7eca35",
+      "folder": false
+    },
+    {
+      "id": "1xAKxcmWsY6iFKw82UBJVmiGqL-uKu--V",
+      "parent_id": "1qxSVglEbfhrstXnykOXNjFbAdAqUKa2I",
+      "name": "CHIẾC KHUY ĐỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 719685,
+      "modified": "2026-08-15T15:15:21.000Z",
+      "checksum": "4197c7e0c25208fdfb83da78cf4a4c36",
+      "folder": false
+    },
+    {
+      "id": "1LLgBmelKALsZw5-3sZ0vw3FH13FwPly2",
+      "parent_id": "1qxSVglEbfhrstXnykOXNjFbAdAqUKa2I",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8059,
+      "modified": "2026-08-15T15:15:18.000Z",
+      "checksum": "ac116f80b1a89bfe6ce4e67f360ae36b",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16_iCcwBdekuHLyZV0a7ThA-eUjT2AklE",
+  "page": 1,
+  "items": [
+    {
+      "id": "10RWjqdIVmmIr0LylNSd7gATtlpHKXmq9",
+      "parent_id": "16_iCcwBdekuHLyZV0a7ThA-eUjT2AklE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1482,
+      "modified": "2026-08-16T03:24:57.000Z",
+      "checksum": "d0b63bdefe182fa1cfda19f4764b5418",
+      "folder": false
+    },
+    {
+      "id": "1y3pX0d3CiU4WQ6uoUtR1zQr0VMXbX7Ub",
+      "parent_id": "16_iCcwBdekuHLyZV0a7ThA-eUjT2AklE",
+      "name": "LIÊN HOA LÂU - TẬP 4.epub",
+      "mime": "application/epub+zip",
+      "size": 485572,
+      "modified": "2026-08-16T03:25:05.000Z",
+      "checksum": "f9216283466635b4da3ec5c9e959e91d",
+      "folder": false
+    },
+    {
+      "id": "1p4hkXWPG1tZIqMr_U8pdOYamzbVusWRr",
+      "parent_id": "16_iCcwBdekuHLyZV0a7ThA-eUjT2AklE",
+      "name": "LIÊN HOA LÂU - TẬP 4.pdf",
+      "mime": "application/pdf",
+      "size": 1625726,
+      "modified": "2026-08-16T03:25:02.000Z",
+      "checksum": "93aa8e9cbcc18a2f1f9c34c461afc016",
+      "folder": false
+    }
+  ]
+}

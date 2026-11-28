@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-T6T3QJ7GJi215RKKfYihHbrYRFjMaUx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KHRlknniHb28WmZtetf3QzoIh00R6T-0",
+      "parent_id": "1-T6T3QJ7GJi215RKKfYihHbrYRFjMaUx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1027,
+      "modified": "2026-08-15T03:41:29.000Z",
+      "checksum": "39f3054f83ad77dd2f1b272de94283a1",
+      "folder": false
+    },
+    {
+      "id": "1vtNcKfQIM1-KhIu0Dzu39PEK7Mi__r2S",
+      "parent_id": "1-T6T3QJ7GJi215RKKfYihHbrYRFjMaUx",
+      "name": "TRỞ VỀ TỪ CÕI SÁNG.epub",
+      "mime": "application/epub+zip",
+      "size": 217654,
+      "modified": "2026-08-15T03:41:37.000Z",
+      "checksum": "f62f773500732e2077b74e1455194684",
+      "folder": false
+    },
+    {
+      "id": "1WdX_19Uhc0qZ6BrQeDw5CtpRpm7_Tjgl",
+      "parent_id": "1-T6T3QJ7GJi215RKKfYihHbrYRFjMaUx",
+      "name": "TRỞ VỀ TỪ CÕI SÁNG.pdf",
+      "mime": "application/pdf",
+      "size": 727142,
+      "modified": "2026-08-15T03:41:34.000Z",
+      "checksum": "3bad25c624c5d165cb0b5ad439354c48",
+      "folder": false
+    }
+  ]
+}

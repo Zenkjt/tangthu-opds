@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rMs7wUcGYsf5NQr2JsnI3toQRztWzMcm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lytMAH9Y4XgrLCGf5VU3MZYLJi8RqSUL",
+      "parent_id": "1rMs7wUcGYsf5NQr2JsnI3toQRztWzMcm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10327,
+      "modified": "2026-08-15T06:41:31.000Z",
+      "checksum": "8f05502f1e92cbf230c8767e2ccf7091",
+      "folder": false
+    },
+    {
+      "id": "1vzmA-FLyriTWwM032Vo1mKebezppDf1f",
+      "parent_id": "1rMs7wUcGYsf5NQr2JsnI3toQRztWzMcm",
+      "name": "TIẾNG CHIM HÓT TRONG BỤI MẬN GAI.epub",
+      "mime": "application/epub+zip",
+      "size": 1119777,
+      "modified": "2026-08-15T06:41:44.000Z",
+      "checksum": "5a6f3b7715c432706051ec144a809652",
+      "folder": false
+    },
+    {
+      "id": "1OQ_K2v0sCZsE67rvx03xR1KO3lemUXEB",
+      "parent_id": "1rMs7wUcGYsf5NQr2JsnI3toQRztWzMcm",
+      "name": "TIẾNG CHIM HÓT TRONG BỤI MẬN GAI.pdf",
+      "mime": "application/pdf",
+      "size": 4032386,
+      "modified": "2026-08-15T06:41:41.000Z",
+      "checksum": "c08c7e6d700c8d1d1dfb392824b3f8d8",
+      "folder": false
+    }
+  ]
+}

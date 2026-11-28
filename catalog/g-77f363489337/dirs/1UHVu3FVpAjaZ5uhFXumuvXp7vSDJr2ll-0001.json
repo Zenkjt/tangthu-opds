@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UHVu3FVpAjaZ5uhFXumuvXp7vSDJr2ll",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P5j40ew3vOz5_AVyyy3FF_lCGZxnT9Iz",
+      "parent_id": "1UHVu3FVpAjaZ5uhFXumuvXp7vSDJr2ll",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3285,
+      "modified": "2026-08-15T04:03:03.000Z",
+      "checksum": "ae2f60d06cacc9a04d68ef44f0d168d1",
+      "folder": false
+    },
+    {
+      "id": "1_Dht3B5HCYfOPy2gcmC610WCtjyqOD-3",
+      "parent_id": "1UHVu3FVpAjaZ5uhFXumuvXp7vSDJr2ll",
+      "name": "ĐỂ HIỂU ĐẠO PHẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 296094,
+      "modified": "2026-08-15T04:03:09.000Z",
+      "checksum": "3536b75448638a6aaa175be4def23e06",
+      "folder": false
+    },
+    {
+      "id": "1JDhyN4OiKKUEqrVH40GI_eE4eF4B6pBW",
+      "parent_id": "1UHVu3FVpAjaZ5uhFXumuvXp7vSDJr2ll",
+      "name": "ĐỂ HIỂU ĐẠO PHẬT.pdf",
+      "mime": "application/pdf",
+      "size": 852243,
+      "modified": "2026-08-15T04:03:07.000Z",
+      "checksum": "d82917758f5a198a8017dc3770f9227d",
+      "folder": false
+    }
+  ]
+}

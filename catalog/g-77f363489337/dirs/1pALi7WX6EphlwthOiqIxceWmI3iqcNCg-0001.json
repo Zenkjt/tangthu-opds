@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pALi7WX6EphlwthOiqIxceWmI3iqcNCg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MIban9aCk2pp3bhEu_BUe1DzECKFwtuA",
+      "parent_id": "1pALi7WX6EphlwthOiqIxceWmI3iqcNCg",
+      "name": "CHÍ TÔN CA.epub",
+      "mime": "application/epub+zip",
+      "size": 145350,
+      "modified": "2026-08-15T03:51:45.000Z",
+      "checksum": "a9c72edfef5ef93f4a68f1e359d884f5",
+      "folder": false
+    },
+    {
+      "id": "1S9vPEhKXEIL4BwRXCFvMLfAwQ06fpDwe",
+      "parent_id": "1pALi7WX6EphlwthOiqIxceWmI3iqcNCg",
+      "name": "CHÍ TÔN CA.pdf",
+      "mime": "application/pdf",
+      "size": 376242,
+      "modified": "2026-08-15T03:51:42.000Z",
+      "checksum": "c4441e0395eefc6ba380064aceb002ce",
+      "folder": false
+    },
+    {
+      "id": "1a2qzDIO3WpS2_pKLpD37a_fIVGCEItcf",
+      "parent_id": "1pALi7WX6EphlwthOiqIxceWmI3iqcNCg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1532,
+      "modified": "2026-08-15T03:51:38.000Z",
+      "checksum": "e4d8a88555fab27a6c6a5969d4e27972",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Gb8UZLHTdlahH6vFkXWshjzoifR6vye3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LROQfzLJoaZgpTv8Uwl3ZzNU7XGONqSh",
+      "parent_id": "1Gb8UZLHTdlahH6vFkXWshjzoifR6vye3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4456,
+      "modified": "2026-08-15T07:21:14.000Z",
+      "checksum": "0dfd482f09b1747a40b6c7b183a21214",
+      "folder": false
+    },
+    {
+      "id": "1ePcTH4FNPnjgV0X3fSxuTL5QwZvKAUgc",
+      "parent_id": "1Gb8UZLHTdlahH6vFkXWshjzoifR6vye3",
+      "name": "TRẬN CHIẾN CUỐI CÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 907673,
+      "modified": "2026-08-15T07:21:22.000Z",
+      "checksum": "7126a95822f03919b1c2de8b36226c7e",
+      "folder": false
+    },
+    {
+      "id": "1KBRvvfNH0J1C9jY8axitLIEZbcQY6eb1",
+      "parent_id": "1Gb8UZLHTdlahH6vFkXWshjzoifR6vye3",
+      "name": "TRẬN CHIẾN CUỐI CÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 2113782,
+      "modified": "2026-08-15T07:21:19.000Z",
+      "checksum": "6ec5d2f87d8a40a3c1154b9dfff3c904",
+      "folder": false
+    }
+  ]
+}

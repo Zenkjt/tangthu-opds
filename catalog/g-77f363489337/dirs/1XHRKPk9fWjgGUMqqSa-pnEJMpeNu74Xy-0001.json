@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XHRKPk9fWjgGUMqqSa-pnEJMpeNu74Xy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eTPQZEdmIplLEhxdSOFHatmdt5Y9YwNo",
+      "parent_id": "1XHRKPk9fWjgGUMqqSa-pnEJMpeNu74Xy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5218,
+      "modified": "2026-08-15T06:15:51.000Z",
+      "checksum": "6c46dd8af85fd84efaa8aa4b2f1439c2",
+      "folder": false
+    },
+    {
+      "id": "1O5v6jGXytaynN8s14NfIXRN_25GtS4_-",
+      "parent_id": "1XHRKPk9fWjgGUMqqSa-pnEJMpeNu74Xy",
+      "name": "NGƯỜI CỦA GIANG HỒ.epub",
+      "mime": "application/epub+zip",
+      "size": 429230,
+      "modified": "2026-08-15T06:15:58.000Z",
+      "checksum": "7eedc31bc150db6dbf7404c0b61ed441",
+      "folder": false
+    },
+    {
+      "id": "1Chtc91ayKV4QXbrpVr0v9xiyDmg1nA0a",
+      "parent_id": "1XHRKPk9fWjgGUMqqSa-pnEJMpeNu74Xy",
+      "name": "NGƯỜI CỦA GIANG HỒ.pdf",
+      "mime": "application/pdf",
+      "size": 1057592,
+      "modified": "2026-08-15T06:15:55.000Z",
+      "checksum": "a2739d4f1139c264d0ed2e6394311874",
+      "folder": false
+    }
+  ]
+}

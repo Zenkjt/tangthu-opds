@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1E5Sd8XECtt-tonWDJRoETxjkalPSHzUr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1098Tljlv2TpWXvUZf7nyoNJTdgzaihpD",
+      "parent_id": "1E5Sd8XECtt-tonWDJRoETxjkalPSHzUr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6002,
+      "modified": "2026-08-16T02:56:09.000Z",
+      "checksum": "b72c1f1554dcb2a443f6d42617f7eb88",
+      "folder": false
+    },
+    {
+      "id": "1RdwcnrHTg9rQO1pm4uU_z9k76nQhB0Ad",
+      "parent_id": "1E5Sd8XECtt-tonWDJRoETxjkalPSHzUr",
+      "name": "ÔNG CHỦ.epub",
+      "mime": "application/epub+zip",
+      "size": 322495,
+      "modified": "2026-08-16T02:56:14.000Z",
+      "checksum": "7c80f3153f23a038eae275f2f2f8a682",
+      "folder": false
+    },
+    {
+      "id": "1uZX45HFmoDZEOAEatyjY-7H5u1uOzb_2",
+      "parent_id": "1E5Sd8XECtt-tonWDJRoETxjkalPSHzUr",
+      "name": "ÔNG CHỦ.pdf",
+      "mime": "application/pdf",
+      "size": 398991,
+      "modified": "2026-08-16T02:56:12.000Z",
+      "checksum": "791bcd649a1c808cd67587e7abdd90d7",
+      "folder": false
+    }
+  ]
+}

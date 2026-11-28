@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12TXiLEHjjMsDSkWIWu1QJ54edyM2B9AJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1J9Cv01ulfTmclPvW_gGmCi_v0VCt4jf2",
+      "parent_id": "12TXiLEHjjMsDSkWIWu1QJ54edyM2B9AJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2845,
+      "modified": "2026-08-15T03:38:56.000Z",
+      "checksum": "b94b06abcac1ae6bbd260720a213c19e",
+      "folder": false
+    },
+    {
+      "id": "1VhCvopcWo36Jjx6_nGEcvDILuwA1r4qp",
+      "parent_id": "12TXiLEHjjMsDSkWIWu1QJ54edyM2B9AJ",
+      "name": "NHỮNG TÂM TÌNH CÔ ĐƠN.epub",
+      "mime": "application/epub+zip",
+      "size": 231089,
+      "modified": "2026-08-15T03:39:03.000Z",
+      "checksum": "8332dce4d4d28f7d8e572727b49c4fac",
+      "folder": false
+    },
+    {
+      "id": "14ZTl6HOrruXv1eqNaNa8U8TlaExX9dD2",
+      "parent_id": "12TXiLEHjjMsDSkWIWu1QJ54edyM2B9AJ",
+      "name": "NHỮNG TÂM TÌNH CÔ ĐƠN.pdf",
+      "mime": "application/pdf",
+      "size": 627653,
+      "modified": "2026-08-15T03:39:00.000Z",
+      "checksum": "94152690a772dbc0fa726f7136489662",
+      "folder": false
+    }
+  ]
+}

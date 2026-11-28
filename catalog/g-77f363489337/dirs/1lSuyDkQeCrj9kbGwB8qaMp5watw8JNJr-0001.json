@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lSuyDkQeCrj9kbGwB8qaMp5watw8JNJr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_HwyULGXqULwq1oqoOyM5vUTC433QR86",
+      "parent_id": "1lSuyDkQeCrj9kbGwB8qaMp5watw8JNJr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 548,
+      "modified": "2026-08-16T04:18:51.000Z",
+      "checksum": "fb9d9456b48a9cdba392dafff73b6551",
+      "folder": false
+    },
+    {
+      "id": "1tKqjbi1gR5KZF-NXiPuk7nkBq1ZNrAbQ",
+      "parent_id": "1lSuyDkQeCrj9kbGwB8qaMp5watw8JNJr",
+      "name": "KHÔNG LẤM MÁU.epub",
+      "mime": "application/epub+zip",
+      "size": 457899,
+      "modified": "2026-08-16T04:18:58.000Z",
+      "checksum": "bf344b8dc0adafae15c3eac5a80ac1b9",
+      "folder": false
+    },
+    {
+      "id": "1cAJUqkBE2SXyuH0Qkb9tkkiFEpuDtkJL",
+      "parent_id": "1lSuyDkQeCrj9kbGwB8qaMp5watw8JNJr",
+      "name": "KHÔNG LẤM MÁU.pdf",
+      "mime": "application/pdf",
+      "size": 481433,
+      "modified": "2026-08-16T04:18:55.000Z",
+      "checksum": "a3685b290197d121135e6e24af5b61b9",
+      "folder": false
+    }
+  ]
+}

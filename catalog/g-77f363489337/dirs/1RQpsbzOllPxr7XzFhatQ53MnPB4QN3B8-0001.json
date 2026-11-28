@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RQpsbzOllPxr7XzFhatQ53MnPB4QN3B8",
+  "page": 1,
+  "items": [
+    {
+      "id": "199FvaqvMgagnv3LqiJLLLCWaECLvDqei",
+      "parent_id": "1RQpsbzOllPxr7XzFhatQ53MnPB4QN3B8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4238,
+      "modified": "2026-08-15T07:18:43.000Z",
+      "checksum": "edf7d001f44f642eb22a2fd4923d467c",
+      "folder": false
+    },
+    {
+      "id": "1LNIU9oZr99NKdtFPOXooaOz7VzpW_p6P",
+      "parent_id": "1RQpsbzOllPxr7XzFhatQ53MnPB4QN3B8",
+      "name": "THIÊN QUAN TỨ PHÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 5432372,
+      "modified": "2026-08-15T07:18:55.000Z",
+      "checksum": "704c849d5143153695ce954a4393e6a7",
+      "folder": false
+    },
+    {
+      "id": "1za32EG9M5D1HpaKsG-xsxCG_2yM_ueIA",
+      "parent_id": "1RQpsbzOllPxr7XzFhatQ53MnPB4QN3B8",
+      "name": "THIÊN QUAN TỨ PHÚC.pdf",
+      "mime": "application/pdf",
+      "size": 6262404,
+      "modified": "2026-08-15T07:18:51.000Z",
+      "checksum": "eeaeedc942057a5213812160e60a5e2f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kUlXpN1G_9kpUWRo95g0v00GdKoNbKy_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1p0hF0r5D90WZvnefvFwTpEMx3qv9Xo7U",
+      "parent_id": "1kUlXpN1G_9kpUWRo95g0v00GdKoNbKy_",
+      "name": "CHỒN MẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 955243,
+      "modified": "2026-08-15T06:17:09.000Z",
+      "checksum": "a4a611cdce25a219c3eb377d69833603",
+      "folder": false
+    },
+    {
+      "id": "1JsJ5q3dyPOpFFJaGXsaBq89U0TS2cvwJ",
+      "parent_id": "1kUlXpN1G_9kpUWRo95g0v00GdKoNbKy_",
+      "name": "CHỒN MẬT.pdf",
+      "mime": "application/pdf",
+      "size": 3397019,
+      "modified": "2026-08-15T06:17:05.000Z",
+      "checksum": "903e526ea1fa5d97edaf9aad325d967a",
+      "folder": false
+    },
+    {
+      "id": "15gEfNicXHXaKZdIwa2EzySzgKWv3hXCX",
+      "parent_id": "1kUlXpN1G_9kpUWRo95g0v00GdKoNbKy_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6736,
+      "modified": "2026-08-15T06:16:56.000Z",
+      "checksum": "39704018f3107c3bf3ffb86353583806",
+      "folder": false
+    }
+  ]
+}

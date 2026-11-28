@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rTZa9Tdqf_RJreo0132IIi8Ph9TfSdrq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MIUFNXa_ck4RqXH1m1tHtJb1BJctP-7c",
+      "parent_id": "1rTZa9Tdqf_RJreo0132IIi8Ph9TfSdrq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4472,
+      "modified": "2026-08-15T05:47:19.000Z",
+      "checksum": "92911158a1b20c21f48f4edcc5972ba6",
+      "folder": false
+    },
+    {
+      "id": "1l0iLfWHxWmy0fnY753WnO80rH3EZYvWP",
+      "parent_id": "1rTZa9Tdqf_RJreo0132IIi8Ph9TfSdrq",
+      "name": "THUYẾT THỰC CHỨNG.epub",
+      "mime": "application/epub+zip",
+      "size": 326007,
+      "modified": "2026-08-15T05:47:27.000Z",
+      "checksum": "2003b2d90bee411be1924e0743bb16f1",
+      "folder": false
+    },
+    {
+      "id": "12o-Xjp9gQSNqdH3V85j_Z-f5ziKwcl_Y",
+      "parent_id": "1rTZa9Tdqf_RJreo0132IIi8Ph9TfSdrq",
+      "name": "THUYẾT THỰC CHỨNG.pdf",
+      "mime": "application/pdf",
+      "size": 590955,
+      "modified": "2026-08-15T05:47:23.000Z",
+      "checksum": "550e95eee33467a1d361ec9ddc7faa92",
+      "folder": false
+    }
+  ]
+}

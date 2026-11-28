@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ll5cEKpsTPrfiz86NbTGx2JiqTZPnW3X",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cAwAHpxMUqtrSGlGd78b8IPcQ3OpqUh7",
+      "parent_id": "1ll5cEKpsTPrfiz86NbTGx2JiqTZPnW3X",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3366,
+      "modified": "2026-08-15T10:38:48.000Z",
+      "checksum": "2fb5e27098804d20c4c7c53365831702",
+      "folder": false
+    },
+    {
+      "id": "1j3_Z62YKDyv2dsQEfThDjEnfiKYM8YqO",
+      "parent_id": "1ll5cEKpsTPrfiz86NbTGx2JiqTZPnW3X",
+      "name": "NHẤT NIỆM LỘ HƯỚNG BẮC.epub",
+      "mime": "application/epub+zip",
+      "size": 573430,
+      "modified": "2026-08-15T10:38:56.000Z",
+      "checksum": "cf564365860d9b9f49e3f86fed7032e1",
+      "folder": false
+    },
+    {
+      "id": "1uC2mzkB1UrtqracN6UHu343UxLfamkJo",
+      "parent_id": "1ll5cEKpsTPrfiz86NbTGx2JiqTZPnW3X",
+      "name": "NHẤT NIỆM LỘ HƯỚNG BẮC.pdf",
+      "mime": "application/pdf",
+      "size": 1294083,
+      "modified": "2026-08-15T10:38:54.000Z",
+      "checksum": "d297dde8a31ce02d131e72624cdab96c",
+      "folder": false
+    }
+  ]
+}

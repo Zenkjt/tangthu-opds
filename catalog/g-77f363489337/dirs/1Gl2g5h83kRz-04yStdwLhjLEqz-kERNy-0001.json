@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Gl2g5h83kRz-04yStdwLhjLEqz-kERNy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eZVpnR6uoYcZbCREMh8dhi1mTs9BtiQr",
+      "parent_id": "1Gl2g5h83kRz-04yStdwLhjLEqz-kERNy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9946,
+      "modified": "2026-08-15T03:46:42.000Z",
+      "checksum": "8b7805254d448145b47a5ef508972bad",
+      "folder": false
+    },
+    {
+      "id": "1Msqhd8g5f9vuHMnjKKH7ZexZ3p1Ih2KX",
+      "parent_id": "1Gl2g5h83kRz-04yStdwLhjLEqz-kERNy",
+      "name": "ÁM ẢNH TỪ KIẾP TRƯỚC.epub",
+      "mime": "application/epub+zip",
+      "size": 362844,
+      "modified": "2026-08-15T03:46:48.000Z",
+      "checksum": "6c0fcbad752ce8b58841f5810fce997a",
+      "folder": false
+    },
+    {
+      "id": "1TFI8akAUUMRoypSnJ2WhZkAuqvDQAxxM",
+      "parent_id": "1Gl2g5h83kRz-04yStdwLhjLEqz-kERNy",
+      "name": "ÁM ẢNH TỪ KIẾP TRƯỚC.pdf",
+      "mime": "application/pdf",
+      "size": 930677,
+      "modified": "2026-08-15T03:46:46.000Z",
+      "checksum": "497daeb354d87618f9a74cadd55b0ed0",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1g0QuiLE2SSghYTAO81rwXZPHYnlm7OuF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qzdlUAcYQTq2coevN0bBQQaZue9feoRN",
+      "parent_id": "1g0QuiLE2SSghYTAO81rwXZPHYnlm7OuF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8725,
+      "modified": "2026-08-15T05:45:16.000Z",
+      "checksum": "ea254a067892924745fc7f5c7999fbc1",
+      "folder": false
+    },
+    {
+      "id": "1X0yTt39gmdgArxJeGaHaWxsABgy3LOTW",
+      "parent_id": "1g0QuiLE2SSghYTAO81rwXZPHYnlm7OuF",
+      "name": "MƯỜI HAI HỌC THUYẾT VỀ BẢN TÍNH CON NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 1164660,
+      "modified": "2026-08-15T05:45:30.000Z",
+      "checksum": "1e59ab37f19e02d14f2b32c9b2d4ca6f",
+      "folder": false
+    },
+    {
+      "id": "173liZxXWIoor2yYCCEu0sOKeLwZEo1AW",
+      "parent_id": "1g0QuiLE2SSghYTAO81rwXZPHYnlm7OuF",
+      "name": "MƯỜI HAI HỌC THUYẾT VỀ BẢN TÍNH CON NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 2240771,
+      "modified": "2026-08-15T05:45:25.000Z",
+      "checksum": "9aaab406470171d624aef1140d46707f",
+      "folder": false
+    }
+  ]
+}

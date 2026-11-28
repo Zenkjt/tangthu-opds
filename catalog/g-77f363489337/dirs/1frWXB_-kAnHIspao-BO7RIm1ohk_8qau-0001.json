@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1frWXB_-kAnHIspao-BO7RIm1ohk_8qau",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Q0S1Y5jatrf2NXBdGb2HnAeZzcGWZa3R",
+      "parent_id": "1frWXB_-kAnHIspao-BO7RIm1ohk_8qau",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 531,
+      "modified": "2026-08-15T10:57:28.000Z",
+      "checksum": "8fd6ca82171a0e06ce2a904bc72e0dfe",
+      "folder": false
+    },
+    {
+      "id": "1p3dsVRW_p0f4a_0yQMOujmcIcWbwZ6nY",
+      "parent_id": "1frWXB_-kAnHIspao-BO7RIm1ohk_8qau",
+      "name": "GÁNH VÁC NGỌT NGÀO.epub",
+      "mime": "application/epub+zip",
+      "size": 343723,
+      "modified": "2026-08-15T10:57:34.000Z",
+      "checksum": "b50b674892c39c03a25eef445ea60c2f",
+      "folder": false
+    },
+    {
+      "id": "1e01ZR5HqYuiDZT2EhiauAaSiKfN4QOsv",
+      "parent_id": "1frWXB_-kAnHIspao-BO7RIm1ohk_8qau",
+      "name": "GÁNH VÁC NGỌT NGÀO.pdf",
+      "mime": "application/pdf",
+      "size": 598930,
+      "modified": "2026-08-15T10:57:31.000Z",
+      "checksum": "38ff0061f1995e88e7769d3b55c45d67",
+      "folder": false
+    }
+  ]
+}

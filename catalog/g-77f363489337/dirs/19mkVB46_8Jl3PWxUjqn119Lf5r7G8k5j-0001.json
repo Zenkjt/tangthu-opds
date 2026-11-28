@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19mkVB46_8Jl3PWxUjqn119Lf5r7G8k5j",
+  "page": 1,
+  "items": [
+    {
+      "id": "13qJSg5m19h1uex44N5RD4BJ6H_h4c7bX",
+      "parent_id": "19mkVB46_8Jl3PWxUjqn119Lf5r7G8k5j",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 2152,
+      "modified": "2026-08-15T07:31:14.000Z",
+      "checksum": "f7c0ac04d25a679c100c31291c391a53",
+      "folder": false
+    },
+    {
+      "id": "12K6uv9ZTPt8pUoY400HDVswG7vZ_O-23",
+      "parent_id": "19mkVB46_8Jl3PWxUjqn119Lf5r7G8k5j",
+      "name": "VƯƠNG PHI TRỞ VỀ.epub",
+      "mime": "application/epub+zip",
+      "size": 1457654,
+      "modified": "2026-08-15T07:31:22.000Z",
+      "checksum": "fcdf781e7c2bb2edf7c50d0ac00831c9",
+      "folder": false
+    },
+    {
+      "id": "1uIU7AzCRI9BfwFWcReFu0xkyyd6oA6kU",
+      "parent_id": "19mkVB46_8Jl3PWxUjqn119Lf5r7G8k5j",
+      "name": "VƯƠNG PHI TRỞ VỀ.pdf",
+      "mime": "application/pdf",
+      "size": 1500703,
+      "modified": "2026-08-15T07:31:20.000Z",
+      "checksum": "bc2ebafec8d00f31fbd3233cc83d50e8",
+      "folder": false
+    }
+  ]
+}

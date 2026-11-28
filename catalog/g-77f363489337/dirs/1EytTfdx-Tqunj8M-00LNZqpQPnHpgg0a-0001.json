@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EytTfdx-Tqunj8M-00LNZqpQPnHpgg0a",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pUqMkejl1hqP4usxfKO9Y0zDkfQshe08",
+      "parent_id": "1EytTfdx-Tqunj8M-00LNZqpQPnHpgg0a",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 520,
+      "modified": "2026-08-15T10:57:05.000Z",
+      "checksum": "96426674e97e9cb66ab3256984c43f9b",
+      "folder": false
+    },
+    {
+      "id": "1R6_xdFaH1ByAIvTPzo6LzlZr86ykKW63",
+      "parent_id": "1EytTfdx-Tqunj8M-00LNZqpQPnHpgg0a",
+      "name": "HẠ TÂN LANG.epub",
+      "mime": "application/epub+zip",
+      "size": 435932,
+      "modified": "2026-08-15T10:57:11.000Z",
+      "checksum": "9eff03d52a36d1c9b27cde044eece284",
+      "folder": false
+    },
+    {
+      "id": "1d274riwZLrroXPdsZ_lrmVcEeT2YsCOF",
+      "parent_id": "1EytTfdx-Tqunj8M-00LNZqpQPnHpgg0a",
+      "name": "HẠ TÂN LANG.pdf",
+      "mime": "application/pdf",
+      "size": 748486,
+      "modified": "2026-08-15T10:57:08.000Z",
+      "checksum": "a206ed4349a2b3b4f35413caddea3716",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-wp0CXITqnZ2DGTtIGpNfvhh-cHLU82r",
+  "page": 1,
+  "items": [
+    {
+      "id": "13bRtnkOvMbwO0AwWN8QQICpb3GcYfnAk",
+      "parent_id": "1-wp0CXITqnZ2DGTtIGpNfvhh-cHLU82r",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 532,
+      "modified": "2026-08-15T10:07:05.000Z",
+      "checksum": "9c25f48436d3d13d6848db15a10ec73f",
+      "folder": false
+    },
+    {
+      "id": "1s4QOoLcLDxGl9AGUGF9v4qE0x8rYefd0",
+      "parent_id": "1-wp0CXITqnZ2DGTtIGpNfvhh-cHLU82r",
+      "name": "TRÒ CHƠI CẤM.epub",
+      "mime": "application/epub+zip",
+      "size": 438377,
+      "modified": "2026-08-15T10:07:12.000Z",
+      "checksum": "dfa529764696a8b8d5043f7b39cf3254",
+      "folder": false
+    },
+    {
+      "id": "1lOfKfGaVigsUX9jjpjpjfrIVY5Nyr1OY",
+      "parent_id": "1-wp0CXITqnZ2DGTtIGpNfvhh-cHLU82r",
+      "name": "TRÒ CHƠI CẤM.pdf",
+      "mime": "application/pdf",
+      "size": 594336,
+      "modified": "2026-08-15T10:07:09.000Z",
+      "checksum": "9e0209de0caf6efef554adfd9f6d30bc",
+      "folder": false
+    }
+  ]
+}

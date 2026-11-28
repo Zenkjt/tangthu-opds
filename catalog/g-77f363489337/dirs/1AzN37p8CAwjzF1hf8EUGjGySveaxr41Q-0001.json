@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AzN37p8CAwjzF1hf8EUGjGySveaxr41Q",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KAAH-GiDh0lsRmnIPyWnejo7H9h-OFBJ",
+      "parent_id": "1AzN37p8CAwjzF1hf8EUGjGySveaxr41Q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6079,
+      "modified": "2026-08-16T03:17:37.000Z",
+      "checksum": "1d210412e4cb2c5a6641a2f35a94fcfa",
+      "folder": false
+    },
+    {
+      "id": "1hSsg5EaEfHOa9cNuOsvJjPyM6d0N2DRY",
+      "parent_id": "1AzN37p8CAwjzF1hf8EUGjGySveaxr41Q",
+      "name": "ĐIỆU NHẢY VỚI TỬ THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 640198,
+      "modified": "2026-08-16T03:17:43.000Z",
+      "checksum": "72a338f39e7373e3b73bd9fd52e0c825",
+      "folder": false
+    },
+    {
+      "id": "1kgzcZfwIj2JCkL_pzjBYVVLHv4kLk_S8",
+      "parent_id": "1AzN37p8CAwjzF1hf8EUGjGySveaxr41Q",
+      "name": "ĐIỆU NHẢY VỚI TỬ THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 990032,
+      "modified": "2026-08-16T03:17:41.000Z",
+      "checksum": "d5e9f932153ec4a519bc5e556df72080",
+      "folder": false
+    }
+  ]
+}

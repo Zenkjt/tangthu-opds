@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rws_c0eHRV-3YJKJzHIkG_qr_LDuCs94",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kGGnBGnNZOdLRQ1ddbCEf4WG9YQ9r4QX",
+      "parent_id": "1rws_c0eHRV-3YJKJzHIkG_qr_LDuCs94",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8447,
+      "modified": "2026-08-15T15:13:29.000Z",
+      "checksum": "4008234795a85e055ff4dad0ab705612",
+      "folder": false
+    },
+    {
+      "id": "13bMHBwQd6qCW_Lav4MO-VqrxhdZ4ocrp",
+      "parent_id": "1rws_c0eHRV-3YJKJzHIkG_qr_LDuCs94",
+      "name": "RẠP XIẾC ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 629467,
+      "modified": "2026-08-15T15:14:34.000Z",
+      "checksum": "b97d5e0f4888961d11f69bbdd8d66caf",
+      "folder": false
+    },
+    {
+      "id": "1b1t7ulIAKcm-SmZQLGfx-ynma58ePref",
+      "parent_id": "1rws_c0eHRV-3YJKJzHIkG_qr_LDuCs94",
+      "name": "RẠP XIẾC ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 1621564,
+      "modified": "2026-08-15T15:14:25.000Z",
+      "checksum": "52d748e32ab4326c4d47c80a9e44dc22",
+      "folder": false
+    }
+  ]
+}

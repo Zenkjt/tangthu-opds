@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ECwwhoLTNmZ_0qkLLHudQ_qLHFjxwOBG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NdlxwbW4evu4R-7TUDaO4VTZfExKgp_7",
+      "parent_id": "1ECwwhoLTNmZ_0qkLLHudQ_qLHFjxwOBG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1993,
+      "modified": "2026-08-16T03:18:44.000Z",
+      "checksum": "aeccb8dccadc7ced43507c2c6f932ccd",
+      "folder": false
+    },
+    {
+      "id": "13sSHg6Tku8kpwUi7I_hJUxTSy8HICu_k",
+      "parent_id": "1ECwwhoLTNmZ_0qkLLHudQ_qLHFjxwOBG",
+      "name": "NANA DU KÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 517236,
+      "modified": "2026-08-16T03:18:51.000Z",
+      "checksum": "282d9eb50a7aaaf6c7d1467d3fd9c717",
+      "folder": false
+    },
+    {
+      "id": "1t1V2R_sthm1dUrl3zmOq8QmMKQRqpYu1",
+      "parent_id": "1ECwwhoLTNmZ_0qkLLHudQ_qLHFjxwOBG",
+      "name": "NANA DU KÝ.pdf",
+      "mime": "application/pdf",
+      "size": 959517,
+      "modified": "2026-08-16T03:18:48.000Z",
+      "checksum": "3ff927b753e7e5c6e97a73529042f209",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_zKukixOXnkEF7HFHOotHK-mZessCp_8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dgwIAwETVike7I3ZM57KLrjrxuVdauVG",
+      "parent_id": "1_zKukixOXnkEF7HFHOotHK-mZessCp_8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2680,
+      "modified": "2026-08-15T03:47:03.000Z",
+      "checksum": "def6ddd7545d2e5d99f454758c21907f",
+      "folder": false
+    },
+    {
+      "id": "1ZvI1PNmPFddDQZUJkSL1K6J3UntExaCJ",
+      "parent_id": "1_zKukixOXnkEF7HFHOotHK-mZessCp_8",
+      "name": "SỰ SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 82117328,
+      "modified": "2026-08-15T03:47:21.000Z",
+      "checksum": "2e642dd05e83b498acb94928a9d9df75",
+      "folder": false
+    },
+    {
+      "id": "12V4B1AF4zeN-AH59UXbqsLewA_ZzVdqe",
+      "parent_id": "1_zKukixOXnkEF7HFHOotHK-mZessCp_8",
+      "name": "SỰ SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 6467180,
+      "modified": "2026-08-15T03:47:08.000Z",
+      "checksum": "a8ec3432e4aa4199a9c2d1e33e738359",
+      "folder": false
+    }
+  ]
+}

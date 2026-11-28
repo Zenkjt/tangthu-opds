@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fJ0nLRYTl_wF_GFyMYTCdeZ8bm6wralP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vAJIhTpf_sJeXJr_SP9zbnMOM0DzZkEj",
+      "parent_id": "1fJ0nLRYTl_wF_GFyMYTCdeZ8bm6wralP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 304,
+      "modified": "2026-08-16T04:11:39.000Z",
+      "checksum": "4ebc0f6d0bec7642da2496d51801a1a6",
+      "folder": false
+    },
+    {
+      "id": "1x8IHwbUYdwNRISjJgw6DWFrgbMGyFEr1",
+      "parent_id": "1fJ0nLRYTl_wF_GFyMYTCdeZ8bm6wralP",
+      "name": "NHỚ MÃI NỤ HÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 361774,
+      "modified": "2026-08-16T04:11:46.000Z",
+      "checksum": "51f76f0ba606b159b8f76f39bfef6c4e",
+      "folder": false
+    },
+    {
+      "id": "1a-wrtgf8HSZewplNfcvsHkKYPlEki06q",
+      "parent_id": "1fJ0nLRYTl_wF_GFyMYTCdeZ8bm6wralP",
+      "name": "NHỚ MÃI NỤ HÔN.pdf",
+      "mime": "application/pdf",
+      "size": 618394,
+      "modified": "2026-08-16T04:11:43.000Z",
+      "checksum": "761360c0bc8c32a690e47b754692e1dd",
+      "folder": false
+    }
+  ]
+}

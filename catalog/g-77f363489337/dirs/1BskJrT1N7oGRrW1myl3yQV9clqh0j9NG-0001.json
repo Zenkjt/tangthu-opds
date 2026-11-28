@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BskJrT1N7oGRrW1myl3yQV9clqh0j9NG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1j0_QHb_5dMexGFyQLi_KRkTVzdmB046U",
+      "parent_id": "1BskJrT1N7oGRrW1myl3yQV9clqh0j9NG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 16115,
+      "modified": "2026-08-15T07:41:16.000Z",
+      "checksum": "dd3c0e41080a9519cc0159f0d0455c73",
+      "folder": false
+    },
+    {
+      "id": "1TD5v7-nbtgE4_64lVwniaB-1Z3EwAsFH",
+      "parent_id": "1BskJrT1N7oGRrW1myl3yQV9clqh0j9NG",
+      "name": "DƯỚI CÁNH THIÊN THẦN RƯỢU.epub",
+      "mime": "application/epub+zip",
+      "size": 791909,
+      "modified": "2026-08-15T07:41:23.000Z",
+      "checksum": "d6263ba114f239ac6459d44de4f3e638",
+      "folder": false
+    },
+    {
+      "id": "1tbxJB0LCjYNhKw6Me4UNcvNLLTzoUn55",
+      "parent_id": "1BskJrT1N7oGRrW1myl3yQV9clqh0j9NG",
+      "name": "DƯỚI CÁNH THIÊN THẦN RƯỢU.pdf",
+      "mime": "application/pdf",
+      "size": 1141390,
+      "modified": "2026-08-15T07:41:21.000Z",
+      "checksum": "917e03de68ce2a0fd37a1d765bc062f0",
+      "folder": false
+    }
+  ]
+}

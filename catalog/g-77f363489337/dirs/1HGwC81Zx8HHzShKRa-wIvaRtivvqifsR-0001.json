@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HGwC81Zx8HHzShKRa-wIvaRtivvqifsR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RQXM8DBsv4d4vcKKWEX7R-XDRU8l1cZy",
+      "parent_id": "1HGwC81Zx8HHzShKRa-wIvaRtivvqifsR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4634,
+      "modified": "2026-08-15T00:46:22.000Z",
+      "checksum": "53643714cd5a34ee3f01a3dda9838f26",
+      "folder": false
+    },
+    {
+      "id": "1FGfKrsrY72r82jcEeEvyp7WJ-SX37mN4",
+      "parent_id": "1HGwC81Zx8HHzShKRa-wIvaRtivvqifsR",
+      "name": "ĐÁNH THỨC CON NGƯỜI PHI THƯỜNG TRONG BẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 927551,
+      "modified": "2026-08-15T00:46:29.000Z",
+      "checksum": "cd5757dd2b28eb7dc04a529a872572dd",
+      "folder": false
+    },
+    {
+      "id": "1yHE7rfTeAE19J2GXU5jVSLwJLhMkwDOy",
+      "parent_id": "1HGwC81Zx8HHzShKRa-wIvaRtivvqifsR",
+      "name": "ĐÁNH THỨC CON NGƯỜI PHI THƯỜNG TRONG BẠN.pdf",
+      "mime": "application/pdf",
+      "size": 1537465,
+      "modified": "2026-08-15T00:46:27.000Z",
+      "checksum": "c85a1b7281959ba2c8a377ba9493b133",
+      "folder": false
+    }
+  ]
+}

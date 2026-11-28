@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QqrBD_xp-4l6eMlgFztR0juoVK3PURUO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XCTqaPwWKOvvz40CRbO0I7PU_vF_obIT",
+      "parent_id": "1QqrBD_xp-4l6eMlgFztR0juoVK3PURUO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4429,
+      "modified": "2026-08-15T07:33:23.000Z",
+      "checksum": "8c93280ef5a4e698c74bbeb630254056",
+      "folder": false
+    },
+    {
+      "id": "1uo-N_auI0fmOJwfLm1X9COeo_kj4ayUg",
+      "parent_id": "1QqrBD_xp-4l6eMlgFztR0juoVK3PURUO",
+      "name": "ĐỪNG BAO GIỜ NÓI LỜI CHIA XA.epub",
+      "mime": "application/epub+zip",
+      "size": 382343,
+      "modified": "2026-08-15T07:33:29.000Z",
+      "checksum": "dcfa1a60de1c0dd0cdd994c74e29f068",
+      "folder": false
+    },
+    {
+      "id": "1hxzrq96meKhs7XoBFycQ8R_fi5giWUU3",
+      "parent_id": "1QqrBD_xp-4l6eMlgFztR0juoVK3PURUO",
+      "name": "ĐỪNG BAO GIỜ NÓI LỜI CHIA XA.pdf",
+      "mime": "application/pdf",
+      "size": 794467,
+      "modified": "2026-08-15T07:33:26.000Z",
+      "checksum": "5a9275df80eb64ee84bb55a594024dc7",
+      "folder": false
+    }
+  ]
+}

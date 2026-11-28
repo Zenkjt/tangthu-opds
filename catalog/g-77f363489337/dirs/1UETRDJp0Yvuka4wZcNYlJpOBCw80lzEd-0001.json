@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UETRDJp0Yvuka4wZcNYlJpOBCw80lzEd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wgXrP-dRzLcHlHilMExFPvwmrfiWarKv",
+      "parent_id": "1UETRDJp0Yvuka4wZcNYlJpOBCw80lzEd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1289,
+      "modified": "2026-08-15T09:31:57.000Z",
+      "checksum": "bb5fb26013ac9745cd0662d7647754c5",
+      "folder": false
+    },
+    {
+      "id": "18Mu-n-5DLctAZFFxc-hIlklgXGMs1lWw",
+      "parent_id": "1UETRDJp0Yvuka4wZcNYlJpOBCw80lzEd",
+      "name": "THÚ TỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 425881,
+      "modified": "2026-08-15T09:32:05.000Z",
+      "checksum": "4142ef2d753a35a545c9ced7feedf514",
+      "folder": false
+    },
+    {
+      "id": "1_1Z51wegGn81qYxI7O5vTDpLh1oa3gEB",
+      "parent_id": "1UETRDJp0Yvuka4wZcNYlJpOBCw80lzEd",
+      "name": "THÚ TỘI.pdf",
+      "mime": "application/pdf",
+      "size": 767975,
+      "modified": "2026-08-15T09:32:02.000Z",
+      "checksum": "c67486ffa322ee9195041303bfb02687",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Xup3f0ljzmpDjgqsY3jFhZ28TSOIqOpY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fTwNnlvn7XkX5zXcCyCIxTxLKSoJP6f7",
+      "parent_id": "1Xup3f0ljzmpDjgqsY3jFhZ28TSOIqOpY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 568,
+      "modified": "2026-08-15T10:31:38.000Z",
+      "checksum": "6c6a0ee75360d46df2570f78bc8d6a7c",
+      "folder": false
+    },
+    {
+      "id": "1uv-VFmkYYKHgoeaSq8bvU37_l0cSepVo",
+      "parent_id": "1Xup3f0ljzmpDjgqsY3jFhZ28TSOIqOpY",
+      "name": "QUẠ ĐEN QUẠ TRẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 780043,
+      "modified": "2026-08-15T10:31:46.000Z",
+      "checksum": "5b95544ed3a9c384d2d5e66b2dc52e4e",
+      "folder": false
+    },
+    {
+      "id": "1JZPAxXFYuhT2O7rvWxZ7IvMna-4uAjKh",
+      "parent_id": "1Xup3f0ljzmpDjgqsY3jFhZ28TSOIqOpY",
+      "name": "QUẠ ĐEN QUẠ TRẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 2109507,
+      "modified": "2026-08-15T10:31:44.000Z",
+      "checksum": "eb8e7f6fb927d2571ea9837e54e10404",
+      "folder": false
+    }
+  ]
+}

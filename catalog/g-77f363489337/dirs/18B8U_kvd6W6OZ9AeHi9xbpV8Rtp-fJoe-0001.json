@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18B8U_kvd6W6OZ9AeHi9xbpV8Rtp-fJoe",
+  "page": 1,
+  "items": [
+    {
+      "id": "160eD0vs4Mt0wd94mmrywUMHhUoU1uhMF",
+      "parent_id": "18B8U_kvd6W6OZ9AeHi9xbpV8Rtp-fJoe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5284,
+      "modified": "2026-08-16T03:18:53.000Z",
+      "checksum": "aa188db61c854dbaa40af1f35f0b9f08",
+      "folder": false
+    },
+    {
+      "id": "1JUDT7VNSwJ31XE9sgIvrF8qtMn6WnnnB",
+      "parent_id": "18B8U_kvd6W6OZ9AeHi9xbpV8Rtp-fJoe",
+      "name": "LÍNH CANH.epub",
+      "mime": "application/epub+zip",
+      "size": 1960801,
+      "modified": "2026-08-16T03:19:01.000Z",
+      "checksum": "f892bf4dab5bf91c2c7a9051cd8bc881",
+      "folder": false
+    },
+    {
+      "id": "1QKrWBguzVPjPbZvgfzKmBxmFe5piJIM0",
+      "parent_id": "18B8U_kvd6W6OZ9AeHi9xbpV8Rtp-fJoe",
+      "name": "LÍNH CANH.pdf",
+      "mime": "application/pdf",
+      "size": 2390971,
+      "modified": "2026-08-16T03:18:58.000Z",
+      "checksum": "23f29f2252db3a45616481ffb973346e",
+      "folder": false
+    }
+  ]
+}

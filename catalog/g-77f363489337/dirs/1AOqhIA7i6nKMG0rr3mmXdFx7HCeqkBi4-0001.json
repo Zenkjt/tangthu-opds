@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AOqhIA7i6nKMG0rr3mmXdFx7HCeqkBi4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iDSZuU4VNSwsRarx_rL3tlvdpvrqBtmN",
+      "parent_id": "1AOqhIA7i6nKMG0rr3mmXdFx7HCeqkBi4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3635,
+      "modified": "2026-08-15T07:24:59.000Z",
+      "checksum": "ed19587e4d1f5e2e2afeaafe669a7414",
+      "folder": false
+    },
+    {
+      "id": "1ItuQJ-nEaKY1cWvwBprK_bFtbVJiKEoq",
+      "parent_id": "1AOqhIA7i6nKMG0rr3mmXdFx7HCeqkBi4",
+      "name": "TƯƠNG TƯ MÙA HẠ NĂM ẤY.epub",
+      "mime": "application/epub+zip",
+      "size": 362966,
+      "modified": "2026-08-15T07:25:05.000Z",
+      "checksum": "f6d767f4f30de265ea5c9e457027df32",
+      "folder": false
+    },
+    {
+      "id": "1rvqNHTKggOZIAAEyNY0iLr0NSJ2vVIxN",
+      "parent_id": "1AOqhIA7i6nKMG0rr3mmXdFx7HCeqkBi4",
+      "name": "TƯƠNG TƯ MÙA HẠ NĂM ẤY.pdf",
+      "mime": "application/pdf",
+      "size": 615703,
+      "modified": "2026-08-15T07:25:02.000Z",
+      "checksum": "75220a4deaa870726f64be403520055a",
+      "folder": false
+    }
+  ]
+}

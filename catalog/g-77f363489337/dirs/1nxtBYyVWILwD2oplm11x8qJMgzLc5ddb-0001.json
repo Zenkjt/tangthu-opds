@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nxtBYyVWILwD2oplm11x8qJMgzLc5ddb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kscsrhTWvMsaeeqoRR6Jv79ZzK7pPeBz",
+      "parent_id": "1nxtBYyVWILwD2oplm11x8qJMgzLc5ddb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5329,
+      "modified": "2026-08-15T07:32:51.000Z",
+      "checksum": "0003ee8a3703dd203744d2a8ff2b302f",
+      "folder": false
+    },
+    {
+      "id": "1FPeQm96XYeskxYI8Pl_5jsxTX9rVyCdO",
+      "parent_id": "1nxtBYyVWILwD2oplm11x8qJMgzLc5ddb",
+      "name": "YÊU EM TỪ CÁI NHÌN ĐẦU TIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 625463,
+      "modified": "2026-08-15T07:32:59.000Z",
+      "checksum": "546673971e85128e61be0a0370780928",
+      "folder": false
+    },
+    {
+      "id": "14-SmUO_NPx1_VCKOe3z3V8RpkQ2-MT9M",
+      "parent_id": "1nxtBYyVWILwD2oplm11x8qJMgzLc5ddb",
+      "name": "YÊU EM TỪ CÁI NHÌN ĐẦU TIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 1658209,
+      "modified": "2026-08-15T07:32:56.000Z",
+      "checksum": "97baa40e3fe5caaf4e683054558aed5d",
+      "folder": false
+    }
+  ]
+}

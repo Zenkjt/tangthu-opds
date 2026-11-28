@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EkifPPhbS--6M5afpabRKipIrW_q8QXE",
+  "page": 1,
+  "items": [
+    {
+      "id": "129mPsiZqcueSrPfwqkYw_OMvEeOwPxP-",
+      "parent_id": "1EkifPPhbS--6M5afpabRKipIrW_q8QXE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3111,
+      "modified": "2026-08-16T04:23:56.000Z",
+      "checksum": "65f587a8737dac082ba15dc8d9bd9ce7",
+      "folder": false
+    },
+    {
+      "id": "16WsoL_pruWSKTvWeWsi4ISg5oQmRkFjC",
+      "parent_id": "1EkifPPhbS--6M5afpabRKipIrW_q8QXE",
+      "name": "TRĂNG DU ĐÃNG.epub",
+      "mime": "application/epub+zip",
+      "size": 336064,
+      "modified": "2026-08-16T04:24:06.000Z",
+      "checksum": "3ff9d6559993a00edf5acd0b8c2c299f",
+      "folder": false
+    },
+    {
+      "id": "1Gqu43TxuZngBYuhcQQAadvbAyrRqyJOw",
+      "parent_id": "1EkifPPhbS--6M5afpabRKipIrW_q8QXE",
+      "name": "TRĂNG DU ĐÃNG.pdf",
+      "mime": "application/pdf",
+      "size": 1201019,
+      "modified": "2026-08-16T04:24:02.000Z",
+      "checksum": "523ddd59eafcbbeec80f8e7183193cb0",
+      "folder": false
+    }
+  ]
+}

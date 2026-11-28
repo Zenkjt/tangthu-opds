@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dJoOM5MVDgYkPpyricGlzTR7RyuoSHTC",
+  "page": 1,
+  "items": [
+    {
+      "id": "15hqO4S7HT6WRnOrLvEAF8bIoknD2JIsl",
+      "parent_id": "1dJoOM5MVDgYkPpyricGlzTR7RyuoSHTC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 886,
+      "modified": "2026-08-15T03:54:20.000Z",
+      "checksum": "85bc9f25075e5917e28c8b1028a6f074",
+      "folder": false
+    },
+    {
+      "id": "16nAQjQZknNbgZNdDFXAOA-b0RQ8dPwDK",
+      "parent_id": "1dJoOM5MVDgYkPpyricGlzTR7RyuoSHTC",
+      "name": "TÂM LINH VÀ SUY NGẪM.epub",
+      "mime": "application/epub+zip",
+      "size": 2042478,
+      "modified": "2026-08-15T03:55:21.000Z",
+      "checksum": "d16754c560f8cf16ec25baba8179532c",
+      "folder": false
+    },
+    {
+      "id": "1SBnFx6lSvrrfBXojZLSFL1gS5S7Q4uSh",
+      "parent_id": "1dJoOM5MVDgYkPpyricGlzTR7RyuoSHTC",
+      "name": "TÂM LINH VÀ SUY NGẪM.pdf",
+      "mime": "application/pdf",
+      "size": 5846674,
+      "modified": "2026-08-15T03:55:16.000Z",
+      "checksum": "8b82329ca634b31ca824d6391f667b71",
+      "folder": false
+    }
+  ]
+}

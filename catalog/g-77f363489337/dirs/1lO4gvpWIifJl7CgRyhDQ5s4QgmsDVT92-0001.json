@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lO4gvpWIifJl7CgRyhDQ5s4QgmsDVT92",
+  "page": 1,
+  "items": [
+    {
+      "id": "1U2g7l5cMxeSf2sSGrxRTP5ff0eWMXFy8",
+      "parent_id": "1lO4gvpWIifJl7CgRyhDQ5s4QgmsDVT92",
+      "name": "CẨM NANG PHÓNG SINH.epub",
+      "mime": "application/epub+zip",
+      "size": 248959,
+      "modified": "2026-08-15T06:18:12.000Z",
+      "checksum": "21b21f37a63cbfcc4eff2307ed1a37d5",
+      "folder": false
+    },
+    {
+      "id": "1PUv2j-cbWfS6HtZ4x1LgTZ5LxEFpjVmL",
+      "parent_id": "1lO4gvpWIifJl7CgRyhDQ5s4QgmsDVT92",
+      "name": "CẨM NANG PHÓNG SINH.pdf",
+      "mime": "application/pdf",
+      "size": 343172,
+      "modified": "2026-08-15T06:18:10.000Z",
+      "checksum": "dba92d1b17ea5ec7f6cd914a112a17f5",
+      "folder": false
+    },
+    {
+      "id": "1j0tJd2QyTwAhCyz8n_I9BhigIxkbT1Rs",
+      "parent_id": "1lO4gvpWIifJl7CgRyhDQ5s4QgmsDVT92",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 1723,
+      "modified": "2026-08-15T06:18:07.000Z",
+      "checksum": "f72ee81e5652e4342be84599cd3dcb18",
+      "folder": false
+    }
+  ]
+}

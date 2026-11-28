@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1f1HXCRNdfXpz3ZUIVJuPeB_1vxvET8sv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1w1CxbfSNfEKO1kZTV13u5Ai-EeySA3mP",
+      "parent_id": "1f1HXCRNdfXpz3ZUIVJuPeB_1vxvET8sv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10358,
+      "modified": "2026-08-15T07:29:52.000Z",
+      "checksum": "535b883e27ac2e0d055524fdffdfa84f",
+      "folder": false
+    },
+    {
+      "id": "1VkxSs94bMtrNAg6IoHaVw7NijdJS1KSs",
+      "parent_id": "1f1HXCRNdfXpz3ZUIVJuPeB_1vxvET8sv",
+      "name": "VU HIỆP QUAN SƠN.epub",
+      "mime": "application/epub+zip",
+      "size": 330279,
+      "modified": "2026-08-15T07:29:59.000Z",
+      "checksum": "764eaf005c55fa09297c0e93376ad4ff",
+      "folder": false
+    },
+    {
+      "id": "1sX3Gtk2J8FR8s5K5TjmCfXQ8gOpBVSsE",
+      "parent_id": "1f1HXCRNdfXpz3ZUIVJuPeB_1vxvET8sv",
+      "name": "VU HIỆP QUAN SƠN.pdf",
+      "mime": "application/pdf",
+      "size": 217538,
+      "modified": "2026-08-15T07:29:55.000Z",
+      "checksum": "b4e81dc67eab00b29077b690ed80aa6b",
+      "folder": false
+    }
+  ]
+}

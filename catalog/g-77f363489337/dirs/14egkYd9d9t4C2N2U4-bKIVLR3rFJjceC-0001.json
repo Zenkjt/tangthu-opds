@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14egkYd9d9t4C2N2U4-bKIVLR3rFJjceC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1u_YWzIDtqMadGjv9WNDworDaIUhuV8Ob",
+      "parent_id": "14egkYd9d9t4C2N2U4-bKIVLR3rFJjceC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 550,
+      "modified": "2026-08-16T04:20:22.000Z",
+      "checksum": "17f6636bec35095ec86319dd89bfc64a",
+      "folder": false
+    },
+    {
+      "id": "1bOMT3M334DBl6WC93l-Sx-rMX6Tnfsls",
+      "parent_id": "14egkYd9d9t4C2N2U4-bKIVLR3rFJjceC",
+      "name": "DOÑA BÁRBARA.epub",
+      "mime": "application/epub+zip",
+      "size": 588001,
+      "modified": "2026-08-16T04:20:29.000Z",
+      "checksum": "6a23e9e78baaf978fbe3280839e8bc2d",
+      "folder": false
+    },
+    {
+      "id": "1XItx-d3awE0BEIASHq3MkH6oYu0A50A3",
+      "parent_id": "14egkYd9d9t4C2N2U4-bKIVLR3rFJjceC",
+      "name": "DOÑA BÁRBARA.pdf",
+      "mime": "application/pdf",
+      "size": 1451644,
+      "modified": "2026-08-16T04:20:26.000Z",
+      "checksum": "3c72955333bb04c45b321186e1d644df",
+      "folder": false
+    }
+  ]
+}

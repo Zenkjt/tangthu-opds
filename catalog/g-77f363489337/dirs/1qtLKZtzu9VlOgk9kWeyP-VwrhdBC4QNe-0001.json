@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qtLKZtzu9VlOgk9kWeyP-VwrhdBC4QNe",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RZiYff78nLXg1zTzEtzEfn_Kumsy8zsW",
+      "parent_id": "1qtLKZtzu9VlOgk9kWeyP-VwrhdBC4QNe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3374,
+      "modified": "2026-08-15T12:59:42.000Z",
+      "checksum": "b8bb1f7f7cd6701ebb81770a14516ecc",
+      "folder": false
+    },
+    {
+      "id": "1iOYFea8Sze3VFMEshiL2M44LxUDZzD8q",
+      "parent_id": "1qtLKZtzu9VlOgk9kWeyP-VwrhdBC4QNe",
+      "name": "NHỮNG CẬU CON TRAI PHỐ PAN.epub",
+      "mime": "application/epub+zip",
+      "size": 860134,
+      "modified": "2026-08-15T12:59:48.000Z",
+      "checksum": "8df3910e864dfcb6dbac1833914fc927",
+      "folder": false
+    },
+    {
+      "id": "109eUQkltnQZuMKMag25wvHngoyx_c5-U",
+      "parent_id": "1qtLKZtzu9VlOgk9kWeyP-VwrhdBC4QNe",
+      "name": "NHỮNG CẬU CON TRAI PHỐ PAN.pdf",
+      "mime": "application/pdf",
+      "size": 928402,
+      "modified": "2026-08-15T12:59:46.000Z",
+      "checksum": "244544aaf3b0c063792a8e25c2592369",
+      "folder": false
+    }
+  ]
+}

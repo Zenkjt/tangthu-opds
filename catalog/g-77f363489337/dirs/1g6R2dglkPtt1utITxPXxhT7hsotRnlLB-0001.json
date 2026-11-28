@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1g6R2dglkPtt1utITxPXxhT7hsotRnlLB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1q0piJoFhyKJ0trj2niV0a3jnEb87pQFf",
+      "parent_id": "1g6R2dglkPtt1utITxPXxhT7hsotRnlLB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1612,
+      "modified": "2026-08-15T03:51:03.000Z",
+      "checksum": "bcbb9653336ebc5aef6744a5004e90fb",
+      "folder": false
+    },
+    {
+      "id": "1q0EkSu1bpPgnmEQLwMkBdpinWSM0l_m4",
+      "parent_id": "1g6R2dglkPtt1utITxPXxhT7hsotRnlLB",
+      "name": "TAM GIỚI TOÀN THƯ - QUYỂN 6.epub",
+      "mime": "application/epub+zip",
+      "size": 156586,
+      "modified": "2026-08-15T03:51:09.000Z",
+      "checksum": "6ede3e638fe0afd80e04740e479b31b8",
+      "folder": false
+    },
+    {
+      "id": "1KnyubKbIOO8F-glNcuMj_DmzpP5fhTu8",
+      "parent_id": "1g6R2dglkPtt1utITxPXxhT7hsotRnlLB",
+      "name": "TAM GIỚI TOÀN THƯ - QUYỂN 6.pdf",
+      "mime": "application/pdf",
+      "size": 571737,
+      "modified": "2026-08-15T03:51:07.000Z",
+      "checksum": "01aae85a258a59818cb303302eafebe9",
+      "folder": false
+    }
+  ]
+}

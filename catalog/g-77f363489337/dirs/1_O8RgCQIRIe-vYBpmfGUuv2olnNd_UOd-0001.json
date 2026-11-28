@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_O8RgCQIRIe-vYBpmfGUuv2olnNd_UOd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-ChPP4Vt98bhdFEfr6J0BUESN0syhgGS",
+      "parent_id": "1_O8RgCQIRIe-vYBpmfGUuv2olnNd_UOd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9363,
+      "modified": "2026-08-15T07:23:04.000Z",
+      "checksum": "92309d198e39d1b97ebfa70fd9443ef5",
+      "folder": false
+    },
+    {
+      "id": "1wm9oaTsFiz4VICQbqu1lGNrLn_Uu1Z9Y",
+      "parent_id": "1_O8RgCQIRIe-vYBpmfGUuv2olnNd_UOd",
+      "name": "TRƯỢNG PHU KHÔNG NGỒI YÊN TRONG PHÒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 300451,
+      "modified": "2026-08-15T07:23:10.000Z",
+      "checksum": "b6415662130948631fd58a457672e26c",
+      "folder": false
+    },
+    {
+      "id": "1gdC4pxiJaxuupyRmdbhQLmPPBwD9oJ2U",
+      "parent_id": "1_O8RgCQIRIe-vYBpmfGUuv2olnNd_UOd",
+      "name": "TRƯỢNG PHU KHÔNG NGỒI YÊN TRONG PHÒNG.pdf",
+      "mime": "application/pdf",
+      "size": 554581,
+      "modified": "2026-08-15T07:23:07.000Z",
+      "checksum": "64988ce3de280a5eb7a61717204ed4e8",
+      "folder": false
+    }
+  ]
+}

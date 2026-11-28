@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16kNjd0AfV2QpkmjMqBxFMoRdH33Z7f6c",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ThaH9bYtdLQe3Gnmrcf4LwftfDLtaPNL",
+      "parent_id": "16kNjd0AfV2QpkmjMqBxFMoRdH33Z7f6c",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3184,
+      "modified": "2026-08-16T04:11:31.000Z",
+      "checksum": "fad9cb740a86ffa0b19e50de1aa78b57",
+      "folder": false
+    },
+    {
+      "id": "1vv6_JfQWQwDypTBqZTbqVW9G_qSBSAgF",
+      "parent_id": "16kNjd0AfV2QpkmjMqBxFMoRdH33Z7f6c",
+      "name": "NHỚ MÃI KHÔNG QUÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 2897667,
+      "modified": "2026-08-16T04:11:47.000Z",
+      "checksum": "c8437140e6cd4cbc0472934da68aa567",
+      "folder": false
+    },
+    {
+      "id": "1FrzSakPaKoePlsyPWuzn8K8DIYKDem90",
+      "parent_id": "16kNjd0AfV2QpkmjMqBxFMoRdH33Z7f6c",
+      "name": "NHỚ MÃI KHÔNG QUÊN.pdf",
+      "mime": "application/pdf",
+      "size": 2236109,
+      "modified": "2026-08-16T04:11:42.000Z",
+      "checksum": "be4a022b4158d12cf71ec6692ed407d0",
+      "folder": false
+    }
+  ]
+}

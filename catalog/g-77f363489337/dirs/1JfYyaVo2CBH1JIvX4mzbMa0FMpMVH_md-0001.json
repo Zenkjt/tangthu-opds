@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JfYyaVo2CBH1JIvX4mzbMa0FMpMVH_md",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mT-ep9ofNI99hSPHAd85dy1liGfZjKu8",
+      "parent_id": "1JfYyaVo2CBH1JIvX4mzbMa0FMpMVH_md",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8420,
+      "modified": "2026-08-15T03:24:21.000Z",
+      "checksum": "82f967860720eb7d46b141eb358ed47a",
+      "folder": false
+    },
+    {
+      "id": "1Gdp4OKahguorvcACQCMgt3_EbFOniMOf",
+      "parent_id": "1JfYyaVo2CBH1JIvX4mzbMa0FMpMVH_md",
+      "name": "THAY ĐỔI CUỘC SỐNG CỦA BẠN TRONG 7 NGÀY.epub",
+      "mime": "application/epub+zip",
+      "size": 238160,
+      "modified": "2026-08-15T03:24:29.000Z",
+      "checksum": "5bd7bef5c73205c3ac709fdfbb1b454e",
+      "folder": false
+    },
+    {
+      "id": "1SL54N8crKfAyOnsbj49oVlavoITr9eBJ",
+      "parent_id": "1JfYyaVo2CBH1JIvX4mzbMa0FMpMVH_md",
+      "name": "THAY ĐỔI CUỘC SỐNG CỦA BẠN TRONG 7 NGÀY.pdf",
+      "mime": "application/pdf",
+      "size": 752051,
+      "modified": "2026-08-15T03:24:26.000Z",
+      "checksum": "153703e25f7e52533a6c48df3b473c0c",
+      "folder": false
+    }
+  ]
+}

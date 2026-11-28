@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KUZAbDpL8jR2QBpZOPFdme09P7vV-LvL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wQNX2jquK0Y2Ybxr2ur6781RN7GxdGY6",
+      "parent_id": "1KUZAbDpL8jR2QBpZOPFdme09P7vV-LvL",
+      "name": "CẬU TÚ.epub",
+      "mime": "application/epub+zip",
+      "size": 505079,
+      "modified": "2026-08-15T11:01:07.000Z",
+      "checksum": "5c563e83a4363b58c411e2b81e259b3d",
+      "folder": false
+    },
+    {
+      "id": "1OQXVde9h4WHnlyLBsPY4sGZzGkCO1AMh",
+      "parent_id": "1KUZAbDpL8jR2QBpZOPFdme09P7vV-LvL",
+      "name": "CẬU TÚ.pdf",
+      "mime": "application/pdf",
+      "size": 1340970,
+      "modified": "2026-08-15T11:01:04.000Z",
+      "checksum": "b2504b2bb3a7b9581e87d36925613b42",
+      "folder": false
+    },
+    {
+      "id": "1xmLgLBIf3-DErNnSJHmcN567yiL3t_Qp",
+      "parent_id": "1KUZAbDpL8jR2QBpZOPFdme09P7vV-LvL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 475,
+      "modified": "2026-08-15T11:00:54.000Z",
+      "checksum": "31d2ec28148725c9f585f101b415934f",
+      "folder": false
+    }
+  ]
+}

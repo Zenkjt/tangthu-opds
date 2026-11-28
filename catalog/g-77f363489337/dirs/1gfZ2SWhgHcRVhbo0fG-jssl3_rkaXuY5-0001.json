@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gfZ2SWhgHcRVhbo0fG-jssl3_rkaXuY5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xM6cbohpfKbKLejKNKtor81HuoYPXqIS",
+      "parent_id": "1gfZ2SWhgHcRVhbo0fG-jssl3_rkaXuY5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2502,
+      "modified": "2026-08-15T00:56:31.000Z",
+      "checksum": "51356b7a3bad190185ce170719bf865e",
+      "folder": false
+    },
+    {
+      "id": "1VyenFyjkxUyK4YeWCNqG7OrpPwPYC4xx",
+      "parent_id": "1gfZ2SWhgHcRVhbo0fG-jssl3_rkaXuY5",
+      "name": "NGÀY TÂM TA AN, SÓNG GIÓ SẼ TAN.epub",
+      "mime": "application/epub+zip",
+      "size": 2731249,
+      "modified": "2026-08-15T00:56:45.000Z",
+      "checksum": "d08d3fb1d11a0da4c520be5e3fc83698",
+      "folder": false
+    },
+    {
+      "id": "1fpefoDeP36rdkR7nFpX3Z9qHxtQfGQpu",
+      "parent_id": "1gfZ2SWhgHcRVhbo0fG-jssl3_rkaXuY5",
+      "name": "NGÀY TÂM TA AN, SÓNG GIÓ SẼ TAN.pdf",
+      "mime": "application/pdf",
+      "size": 6772784,
+      "modified": "2026-08-15T00:56:36.000Z",
+      "checksum": "c2bbc1fdee011646047bd44bc8889851",
+      "folder": false
+    }
+  ]
+}

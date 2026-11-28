@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NFiRp36-nevMpD5JRRUfvXzmL6am4k6j",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kTTFY4NbxNhbiPGintvUYKGsXb9J5LnX",
+      "parent_id": "1NFiRp36-nevMpD5JRRUfvXzmL6am4k6j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5011,
+      "modified": "2026-08-15T07:59:09.000Z",
+      "checksum": "49842b7d12bf8309fab895afb8569c65",
+      "folder": false
+    },
+    {
+      "id": "1MrrXPqjV0UPX5gVDGPKMmfdIqqBMLG_a",
+      "parent_id": "1NFiRp36-nevMpD5JRRUfvXzmL6am4k6j",
+      "name": "NƯỚC CAM CÓ GAS (NƯỚC SODA CAM).epub",
+      "mime": "application/epub+zip",
+      "size": 345923,
+      "modified": "2026-08-15T07:59:16.000Z",
+      "checksum": "173b542df41d4162d302893a8cb4d3ff",
+      "folder": false
+    },
+    {
+      "id": "13UlwdR7XdwojyNW2ZuoYiZK3vwC28-OM",
+      "parent_id": "1NFiRp36-nevMpD5JRRUfvXzmL6am4k6j",
+      "name": "NƯỚC CAM CÓ GAS (NƯỚC SODA CAM).pdf",
+      "mime": "application/pdf",
+      "size": 954714,
+      "modified": "2026-08-15T07:59:13.000Z",
+      "checksum": "6ee9478910be486c263f6cf17afbd2f2",
+      "folder": false
+    }
+  ]
+}

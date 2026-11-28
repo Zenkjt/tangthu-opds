@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12U7BP1wi-0M97w-dN7cMc7OlwKw3g_2C",
+  "page": 1,
+  "items": [
+    {
+      "id": "10K02dJ5YQ4FlNqhFVd3AKO_1cbNDCH1B",
+      "parent_id": "12U7BP1wi-0M97w-dN7cMc7OlwKw3g_2C",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2201,
+      "modified": "2026-08-15T09:47:25.000Z",
+      "checksum": "e2ccfac95d70e041a9cf16d1336c7bb3",
+      "folder": false
+    },
+    {
+      "id": "1LlnRrS36wRAkC2AM0hgjL71zLoU2LXH2",
+      "parent_id": "12U7BP1wi-0M97w-dN7cMc7OlwKw3g_2C",
+      "name": "KẾ HOẠCH CHINH PHỤC LỌ LEM.epub",
+      "mime": "application/epub+zip",
+      "size": 433551,
+      "modified": "2026-08-15T09:47:31.000Z",
+      "checksum": "291f13cc2db01abe061f481fd5bb0bc3",
+      "folder": false
+    },
+    {
+      "id": "1K3S_KNffweEZCmoSelIhHQSNgTnG4xBZ",
+      "parent_id": "12U7BP1wi-0M97w-dN7cMc7OlwKw3g_2C",
+      "name": "KẾ HOẠCH CHINH PHỤC LỌ LEM.pdf",
+      "mime": "application/pdf",
+      "size": 914010,
+      "modified": "2026-08-15T09:47:29.000Z",
+      "checksum": "1917f62c5a049eee2f279a9df7eef792",
+      "folder": false
+    }
+  ]
+}

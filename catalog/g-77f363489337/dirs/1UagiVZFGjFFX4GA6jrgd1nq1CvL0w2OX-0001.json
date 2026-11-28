@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UagiVZFGjFFX4GA6jrgd1nq1CvL0w2OX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1USRnjjqlsHHQBBSTK0M_gE3ND5JLC2Za",
+      "parent_id": "1UagiVZFGjFFX4GA6jrgd1nq1CvL0w2OX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4084,
+      "modified": "2026-08-16T04:09:49.000Z",
+      "checksum": "a36a5d7b213fb52087e64ab9aa11b49c",
+      "folder": false
+    },
+    {
+      "id": "1_TZVHeL7kOQ3oFyysQgTOrkeDpoK2NaJ",
+      "parent_id": "1UagiVZFGjFFX4GA6jrgd1nq1CvL0w2OX",
+      "name": "NHỮNG KẺ BỊ LÃNG QUÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 266466,
+      "modified": "2026-08-16T04:09:55.000Z",
+      "checksum": "15454bdd57c22fd49e8cc15ae0942a10",
+      "folder": false
+    },
+    {
+      "id": "10zxLUN4wtIMYLKJj_iVRgsgk-FHfIGqB",
+      "parent_id": "1UagiVZFGjFFX4GA6jrgd1nq1CvL0w2OX",
+      "name": "NHỮNG KẺ BỊ LÃNG QUÊN.pdf",
+      "mime": "application/pdf",
+      "size": 332247,
+      "modified": "2026-08-16T04:09:52.000Z",
+      "checksum": "3bae1e1e5558b0c962fb7ef0b8efa2e1",
+      "folder": false
+    }
+  ]
+}

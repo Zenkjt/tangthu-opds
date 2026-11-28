@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iU3CoavwCUvmCJEiUk_rAjFMWna9D08C",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HRMy4kxdtoxt_t90WVJAuD0MBB9afmCn",
+      "parent_id": "1iU3CoavwCUvmCJEiUk_rAjFMWna9D08C",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2695,
+      "modified": "2026-08-15T04:21:23.000Z",
+      "checksum": "08c8af4e1f57676cf9740518f66478de",
+      "folder": false
+    },
+    {
+      "id": "10u6E5l3ntzm_5cZupfJHfy7Dg4Cgg7Q0",
+      "parent_id": "1iU3CoavwCUvmCJEiUk_rAjFMWna9D08C",
+      "name": "LỊCH SỬ Y HỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 3970159,
+      "modified": "2026-08-15T04:21:55.000Z",
+      "checksum": "05dd0effd117b7735fe0d540b29b9fb3",
+      "folder": false
+    },
+    {
+      "id": "1s38FX7lptLYLZvKUTooIvqcfffAJFJy9",
+      "parent_id": "1iU3CoavwCUvmCJEiUk_rAjFMWna9D08C",
+      "name": "LỊCH SỬ Y HỌC.pdf",
+      "mime": "application/pdf",
+      "size": 5955085,
+      "modified": "2026-08-15T04:21:44.000Z",
+      "checksum": "7547cc2a634b08f80d36607e687a870c",
+      "folder": false
+    }
+  ]
+}

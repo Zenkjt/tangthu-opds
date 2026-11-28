@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WjvJ9fcxYBu2hQlluPudP9EkpC8DEz_G",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eXarq6LzkIBx1cgMyuxp0mVl6CvE8O40",
+      "parent_id": "1WjvJ9fcxYBu2hQlluPudP9EkpC8DEz_G",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5762,
+      "modified": "2026-08-16T03:27:09.000Z",
+      "checksum": "72334820b69689026b9ec9607f10b11d",
+      "folder": false
+    },
+    {
+      "id": "1O9kjaBogwz4iTACwUK7i5KTHakN1GH0N",
+      "parent_id": "1WjvJ9fcxYBu2hQlluPudP9EkpC8DEz_G",
+      "name": "LÃO GORIOT.epub",
+      "mime": "application/epub+zip",
+      "size": 774696,
+      "modified": "2026-08-16T03:27:16.000Z",
+      "checksum": "b15dca9f15a4a4322c708023df28e0ea",
+      "folder": false
+    },
+    {
+      "id": "1LdhyjAK2wvgkscr18ZXFrFkq9WfGKlBa",
+      "parent_id": "1WjvJ9fcxYBu2hQlluPudP9EkpC8DEz_G",
+      "name": "LÃO GORIOT.pdf",
+      "mime": "application/pdf",
+      "size": 950962,
+      "modified": "2026-08-16T03:27:13.000Z",
+      "checksum": "982b1d9fdf71c5f102f5fa9e5c4852cf",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fVFY-KfY5hwuxs47xlGSBXX_9NzmlvDW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FUl76fyEg_XQyvlxmN3XaujWJPkuFXsn",
+      "parent_id": "1fVFY-KfY5hwuxs47xlGSBXX_9NzmlvDW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 14756,
+      "modified": "2026-08-15T06:15:37.000Z",
+      "checksum": "cc37e4972444cbbf3504c82068ce39ec",
+      "folder": false
+    },
+    {
+      "id": "1zwXDPajA2bWtRHKLwy4JhbMRrotqn9Pz",
+      "parent_id": "1fVFY-KfY5hwuxs47xlGSBXX_9NzmlvDW",
+      "name": "RUỒNG BỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 484341,
+      "modified": "2026-08-15T06:15:44.000Z",
+      "checksum": "295cf639f766d5f850f650684d0bc7f1",
+      "folder": false
+    },
+    {
+      "id": "1NjdXaNcjwgws9LaOERlahz8PnKa5M-4f",
+      "parent_id": "1fVFY-KfY5hwuxs47xlGSBXX_9NzmlvDW",
+      "name": "RUỒNG BỎ.pdf",
+      "mime": "application/pdf",
+      "size": 1229611,
+      "modified": "2026-08-15T06:15:41.000Z",
+      "checksum": "bae6b4125474eec320aac7cafcbe5aea",
+      "folder": false
+    }
+  ]
+}

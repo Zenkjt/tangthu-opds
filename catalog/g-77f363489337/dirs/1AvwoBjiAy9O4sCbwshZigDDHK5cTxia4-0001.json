@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AvwoBjiAy9O4sCbwshZigDDHK5cTxia4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P0uVyh-ktnwG1SyTWO_uii-VdtQz5UG8",
+      "parent_id": "1AvwoBjiAy9O4sCbwshZigDDHK5cTxia4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 580,
+      "modified": "2026-08-16T04:09:59.000Z",
+      "checksum": "616d414b15e4ab7bcb41d92b2259e172",
+      "folder": false
+    },
+    {
+      "id": "1IBzHWKTKsAsls5mBEbOw0X7kBFC8gSGd",
+      "parent_id": "1AvwoBjiAy9O4sCbwshZigDDHK5cTxia4",
+      "name": "NHỮNG DI CHÚC BỊ PHẢN BỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 313415,
+      "modified": "2026-08-16T04:10:05.000Z",
+      "checksum": "1168a6744402040a21aba1e6bf92627a",
+      "folder": false
+    },
+    {
+      "id": "1su2jSo9tIewUZOkOkDf7dQmYHLBAnTEG",
+      "parent_id": "1AvwoBjiAy9O4sCbwshZigDDHK5cTxia4",
+      "name": "NHỮNG DI CHÚC BỊ PHẢN BỘI.pdf",
+      "mime": "application/pdf",
+      "size": 922617,
+      "modified": "2026-08-16T04:10:03.000Z",
+      "checksum": "c222c20c8f028dd19b48937f403c06a0",
+      "folder": false
+    }
+  ]
+}

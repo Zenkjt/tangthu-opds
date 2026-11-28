@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1u-chykDW_iQY7RbxiMoQ9IC6EsE2Mtt5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1O0_QUcXBU1os7EX5cbqA-LO7Umozhh9F",
+      "parent_id": "1u-chykDW_iQY7RbxiMoQ9IC6EsE2Mtt5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3293,
+      "modified": "2026-08-15T07:24:47.000Z",
+      "checksum": "7cc5d2aa257a741ec0d0405679454655",
+      "folder": false
+    },
+    {
+      "id": "1ijpkfZDNoWas-r4_AHAKuy8inqIHGAxv",
+      "parent_id": "1u-chykDW_iQY7RbxiMoQ9IC6EsE2Mtt5",
+      "name": "TƯỚNG QUÂN HOÀNG HOA THÁM.epub",
+      "mime": "application/epub+zip",
+      "size": 351728,
+      "modified": "2026-08-15T07:24:53.000Z",
+      "checksum": "1effaffd6ca7a0bd25f474e9308962c2",
+      "folder": false
+    },
+    {
+      "id": "1FgqJS6Bn2psfO5cCZj-6V6yGBnHdk80B",
+      "parent_id": "1u-chykDW_iQY7RbxiMoQ9IC6EsE2Mtt5",
+      "name": "TƯỚNG QUÂN HOÀNG HOA THÁM.pdf",
+      "mime": "application/pdf",
+      "size": 609155,
+      "modified": "2026-08-15T07:24:51.000Z",
+      "checksum": "59f7cda9c28bb57e9adfd4b91b413988",
+      "folder": false
+    }
+  ]
+}

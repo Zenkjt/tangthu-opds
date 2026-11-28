@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15P9lf4D5DWzd2Df5-ilg0L3jViSBmPBB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NXlmY-8-ziIrkQ4wUFRRiTL1NrZggO3s",
+      "parent_id": "15P9lf4D5DWzd2Df5-ilg0L3jViSBmPBB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3290,
+      "modified": "2026-08-15T09:51:20.000Z",
+      "checksum": "f5d040724e9a5d580ab7f0ffbbca6c3a",
+      "folder": false
+    },
+    {
+      "id": "1-12tmtf_A79Iy4k6Zu3qdRHV1qz-2kxJ",
+      "parent_id": "15P9lf4D5DWzd2Df5-ilg0L3jViSBmPBB",
+      "name": "ĐÈN KHUYA.epub",
+      "mime": "application/epub+zip",
+      "size": 433412,
+      "modified": "2026-08-15T09:51:27.000Z",
+      "checksum": "9a5a8660323cc0c0c82b017e77494b4a",
+      "folder": false
+    },
+    {
+      "id": "1gn4qyvgxE9ED-KPD1AUBognPA7f_Hqiy",
+      "parent_id": "15P9lf4D5DWzd2Df5-ilg0L3jViSBmPBB",
+      "name": "ĐÈN KHUYA.pdf",
+      "mime": "application/pdf",
+      "size": 375894,
+      "modified": "2026-08-15T09:51:24.000Z",
+      "checksum": "ffca2d13cc6a2c42b20b52412ea0eaa0",
+      "folder": false
+    }
+  ]
+}

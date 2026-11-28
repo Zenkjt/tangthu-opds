@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BztkCzz9XOujLQigSt2QarK20Tidytx2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PZb3WeMiYDjR8YPDi9CAw02QLXkC5s4-",
+      "parent_id": "1BztkCzz9XOujLQigSt2QarK20Tidytx2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3251,
+      "modified": "2026-08-16T03:59:52.000Z",
+      "checksum": "051c5b9075925c8203b839347e8a7892",
+      "folder": false
+    },
+    {
+      "id": "15olKMSfRwunScJwVBcLDqBXiqFjHno94",
+      "parent_id": "1BztkCzz9XOujLQigSt2QarK20Tidytx2",
+      "name": "THẦN THOẠI LA MÃ.epub",
+      "mime": "application/epub+zip",
+      "size": 697990,
+      "modified": "2026-08-16T03:59:58.000Z",
+      "checksum": "17faf39b42837fd5481b7eeee97d62c9",
+      "folder": false
+    },
+    {
+      "id": "1e0Tfi1DLSzlQto0gy0UkBWB59LK1G4Be",
+      "parent_id": "1BztkCzz9XOujLQigSt2QarK20Tidytx2",
+      "name": "THẦN THOẠI LA MÃ.pdf",
+      "mime": "application/pdf",
+      "size": 929913,
+      "modified": "2026-08-16T03:59:55.000Z",
+      "checksum": "1c95ccc595894bf2fd922242e73d2eb6",
+      "folder": false
+    }
+  ]
+}

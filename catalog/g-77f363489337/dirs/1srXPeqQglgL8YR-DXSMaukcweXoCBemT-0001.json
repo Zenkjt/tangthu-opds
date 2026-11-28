@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1srXPeqQglgL8YR-DXSMaukcweXoCBemT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BHYYfTzOX7HififtoU8z3uRsm318r6im",
+      "parent_id": "1srXPeqQglgL8YR-DXSMaukcweXoCBemT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5622,
+      "modified": "2026-08-15T08:15:33.000Z",
+      "checksum": "aa78276bfd108b85d857f38cc75a858c",
+      "folder": false
+    },
+    {
+      "id": "1m1qQBKVkavZ0F3LTb4QjddCPE-7RdVtd",
+      "parent_id": "1srXPeqQglgL8YR-DXSMaukcweXoCBemT",
+      "name": "LÂM THỊ LANG CỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 1383043,
+      "modified": "2026-08-15T08:15:47.000Z",
+      "checksum": "0c98b35e46e6b34baa1e2f3d0e7d1e9a",
+      "folder": false
+    },
+    {
+      "id": "1lx139cpj-93VGjxh3SGTk1_eg8Zb9I6c",
+      "parent_id": "1srXPeqQglgL8YR-DXSMaukcweXoCBemT",
+      "name": "LÂM THỊ LANG CỐ.pdf",
+      "mime": "application/pdf",
+      "size": 5436887,
+      "modified": "2026-08-15T08:15:43.000Z",
+      "checksum": "e00d290df912379e867e52bb2ec4dc8f",
+      "folder": false
+    }
+  ]
+}

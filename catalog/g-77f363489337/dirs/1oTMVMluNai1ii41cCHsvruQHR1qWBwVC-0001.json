@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oTMVMluNai1ii41cCHsvruQHR1qWBwVC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1no2Lop0u_MwbXBz52n7MBtCsYKPtBPPL",
+      "parent_id": "1oTMVMluNai1ii41cCHsvruQHR1qWBwVC",
+      "name": "BÚP SEN XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 1024947,
+      "modified": "2026-08-15T06:45:42.000Z",
+      "checksum": "6a306c57a340a289d9140a9f34fe93f3",
+      "folder": false
+    },
+    {
+      "id": "1azkw2w3nbQjLUZbxaXf50At19iQvhcGJ",
+      "parent_id": "1oTMVMluNai1ii41cCHsvruQHR1qWBwVC",
+      "name": "BÚP SEN XANH.pdf",
+      "mime": "application/pdf",
+      "size": 1087646,
+      "modified": "2026-08-15T06:45:33.000Z",
+      "checksum": "123155a8a27894d50957ad4c592ff779",
+      "folder": false
+    },
+    {
+      "id": "1UhYzgwScvCaLOpzHH9hZgpD0ivQ-AO0c",
+      "parent_id": "1oTMVMluNai1ii41cCHsvruQHR1qWBwVC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6563,
+      "modified": "2026-08-15T06:45:27.000Z",
+      "checksum": "104018388720e803dd18d8ad0118327d",
+      "folder": false
+    }
+  ]
+}

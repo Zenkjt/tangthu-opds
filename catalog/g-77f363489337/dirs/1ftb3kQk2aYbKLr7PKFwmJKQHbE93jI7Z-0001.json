@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ftb3kQk2aYbKLr7PKFwmJKQHbE93jI7Z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-A-8Uc533lucBp_lsb8QdVPYP4Sa80Sa",
+      "parent_id": "1ftb3kQk2aYbKLr7PKFwmJKQHbE93jI7Z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3500,
+      "modified": "2026-08-16T04:13:16.000Z",
+      "checksum": "0c029c8b451118fbdd0ab17131a1bee1",
+      "folder": false
+    },
+    {
+      "id": "1J-LPVyAHf7DxM8E9Zls2Viqd4LrLu7Cq",
+      "parent_id": "1ftb3kQk2aYbKLr7PKFwmJKQHbE93jI7Z",
+      "name": "NGƯỜI TÌNH CỦA MARXIM GORKY.epub",
+      "mime": "application/epub+zip",
+      "size": 730970,
+      "modified": "2026-08-16T04:13:25.000Z",
+      "checksum": "4bcee36b6b389fc2648dd08f6c7bd682",
+      "folder": false
+    },
+    {
+      "id": "1UaNv7otHMXztBu7JBKT9YnOPpUVqPdHz",
+      "parent_id": "1ftb3kQk2aYbKLr7PKFwmJKQHbE93jI7Z",
+      "name": "NGƯỜI TÌNH CỦA MARXIM GORKY.pdf",
+      "mime": "application/pdf",
+      "size": 3210415,
+      "modified": "2026-08-16T04:13:22.000Z",
+      "checksum": "23778eadaa1ee279e4ba7aacc840cd75",
+      "folder": false
+    }
+  ]
+}

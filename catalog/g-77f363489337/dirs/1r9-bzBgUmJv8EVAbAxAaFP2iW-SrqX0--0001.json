@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1r9-bzBgUmJv8EVAbAxAaFP2iW-SrqX0-",
+  "page": 1,
+  "items": [
+    {
+      "id": "12eEnYDdovnT7TPSu7Ih6VUwG6V2eDcDR",
+      "parent_id": "1r9-bzBgUmJv8EVAbAxAaFP2iW-SrqX0-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3159,
+      "modified": "2026-08-16T03:55:42.000Z",
+      "checksum": "26ad2ceb3b9bb6ebcdb144f96851a9ed",
+      "folder": false
+    },
+    {
+      "id": "17RX-vxX1CBvPVBwF5nXvtiuQGxhpEyYo",
+      "parent_id": "1r9-bzBgUmJv8EVAbAxAaFP2iW-SrqX0-",
+      "name": "TIÊN ẤN.epub",
+      "mime": "application/epub+zip",
+      "size": 3280765,
+      "modified": "2026-08-16T03:55:51.000Z",
+      "checksum": "bd5e4c0fb15e5234c3126d7de08a4f36",
+      "folder": false
+    },
+    {
+      "id": "1KscEIejiBQuroccMm9V9SFdEHXCi3i-E",
+      "parent_id": "1r9-bzBgUmJv8EVAbAxAaFP2iW-SrqX0-",
+      "name": "TIÊN ẤN.pdf",
+      "mime": "application/pdf",
+      "size": 3416215,
+      "modified": "2026-08-16T03:55:47.000Z",
+      "checksum": "8c6e31e1020ce1fc3f26c898a1e64e1a",
+      "folder": false
+    }
+  ]
+}

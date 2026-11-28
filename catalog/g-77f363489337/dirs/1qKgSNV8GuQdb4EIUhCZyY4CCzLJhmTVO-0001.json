@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qKgSNV8GuQdb4EIUhCZyY4CCzLJhmTVO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MdJgaRWzwghYbX_60qwIzwWLHz7GZva9",
+      "parent_id": "1qKgSNV8GuQdb4EIUhCZyY4CCzLJhmTVO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3389,
+      "modified": "2026-08-15T15:59:56.000Z",
+      "checksum": "b8c3b9ccaedf966e2214a3294627c3b8",
+      "folder": false
+    },
+    {
+      "id": "15IOfCxNiOBEY_SwzTw53eBJ_SCLRtFa-",
+      "parent_id": "1qKgSNV8GuQdb4EIUhCZyY4CCzLJhmTVO",
+      "name": "NHÂN GIAN HOAN HỈ.epub",
+      "mime": "application/epub+zip",
+      "size": 851246,
+      "modified": "2026-08-15T16:00:05.000Z",
+      "checksum": "a57146307d71639db3b9f6fc7abd8534",
+      "folder": false
+    },
+    {
+      "id": "1tXGTDOHoGqyj94anMMj10FuqU3jvVDBx",
+      "parent_id": "1qKgSNV8GuQdb4EIUhCZyY4CCzLJhmTVO",
+      "name": "NHÂN GIAN HOAN HỈ.pdf",
+      "mime": "application/pdf",
+      "size": 2233611,
+      "modified": "2026-08-15T16:00:02.000Z",
+      "checksum": "284fb1c82d9632fd633d440f70948ae1",
+      "folder": false
+    }
+  ]
+}

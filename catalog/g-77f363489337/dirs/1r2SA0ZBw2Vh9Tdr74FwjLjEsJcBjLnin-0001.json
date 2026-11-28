@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1r2SA0ZBw2Vh9Tdr74FwjLjEsJcBjLnin",
+  "page": 1,
+  "items": [
+    {
+      "id": "16w7CabbQFQ1E3UgQR1H49bU22l9zGeKX",
+      "parent_id": "1r2SA0ZBw2Vh9Tdr74FwjLjEsJcBjLnin",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5227,
+      "modified": "2026-08-15T03:18:54.000Z",
+      "checksum": "e1d376e65935fd074257447ae690d60d",
+      "folder": false
+    },
+    {
+      "id": "1TpnnKOkJ19gII5_kBH8Ho0ZpT_EeX8kx",
+      "parent_id": "1r2SA0ZBw2Vh9Tdr74FwjLjEsJcBjLnin",
+      "name": "TÂM LÝ HỌC ĐÁM ĐÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 346046,
+      "modified": "2026-08-15T03:19:01.000Z",
+      "checksum": "ca8394adb248c9c8baeac1a8cad591dc",
+      "folder": false
+    },
+    {
+      "id": "1dPC1uKNvDb6CkVrKOvYpUkHs_oadM4k2",
+      "parent_id": "1r2SA0ZBw2Vh9Tdr74FwjLjEsJcBjLnin",
+      "name": "TÂM LÝ HỌC ĐÁM ĐÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 741099,
+      "modified": "2026-08-15T03:18:58.000Z",
+      "checksum": "02475a1c6f8424db8a2faf9fb59caa66",
+      "folder": false
+    }
+  ]
+}

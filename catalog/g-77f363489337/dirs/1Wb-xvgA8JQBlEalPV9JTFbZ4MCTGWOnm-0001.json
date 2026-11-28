@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Wb-xvgA8JQBlEalPV9JTFbZ4MCTGWOnm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mHthfLES3joapCd0wk9cZsaDLGFsmUKf",
+      "parent_id": "1Wb-xvgA8JQBlEalPV9JTFbZ4MCTGWOnm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3326,
+      "modified": "2026-08-15T10:35:55.000Z",
+      "checksum": "76c01109789fff54f6c9b186150cc683",
+      "folder": false
+    },
+    {
+      "id": "117dAhXb3uXkmhxl83Ik-2Uc7UKzAyvIt",
+      "parent_id": "1Wb-xvgA8JQBlEalPV9JTFbZ4MCTGWOnm",
+      "name": "NƠI NÀO PHONG CẢNH NHƯ TRANH.epub",
+      "mime": "application/epub+zip",
+      "size": 890599,
+      "modified": "2026-08-15T10:36:05.000Z",
+      "checksum": "3027a5419bdf7aa3b699cbab79bcdfac",
+      "folder": false
+    },
+    {
+      "id": "1HaKtp-_mELEnKJEWeivzvoMHyjYLJmOo",
+      "parent_id": "1Wb-xvgA8JQBlEalPV9JTFbZ4MCTGWOnm",
+      "name": "NƠI NÀO PHONG CẢNH NHƯ TRANH.pdf",
+      "mime": "application/pdf",
+      "size": 2281447,
+      "modified": "2026-08-15T10:36:02.000Z",
+      "checksum": "3cd90e98c9a7fe0954d5a6bbaeecee8e",
+      "folder": false
+    }
+  ]
+}

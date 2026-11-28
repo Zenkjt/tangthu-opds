@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1m3lTxLMAazIPSpzEiQ9u0QfoICK9RXYd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jm8sprS-n21dRkhW1bYiEoZT2XfqN8ww",
+      "parent_id": "1m3lTxLMAazIPSpzEiQ9u0QfoICK9RXYd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10653,
+      "modified": "2026-08-15T07:27:03.000Z",
+      "checksum": "f916c6846f90d46fe5acba9a428605f7",
+      "folder": false
+    },
+    {
+      "id": "1geWrnsA1cg4cEWwWc3IOpfXOsyOY84zt",
+      "parent_id": "1m3lTxLMAazIPSpzEiQ9u0QfoICK9RXYd",
+      "name": "VỀ CÁI TINH THẦN TRONG NGHỆ THUẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 999832,
+      "modified": "2026-08-15T07:27:12.000Z",
+      "checksum": "3bb9e97e3e0ecf785ab35f9822287d96",
+      "folder": false
+    },
+    {
+      "id": "1dpBMYo3eZMneAE9-585f4CGPAhSEFu7A",
+      "parent_id": "1m3lTxLMAazIPSpzEiQ9u0QfoICK9RXYd",
+      "name": "VỀ CÁI TINH THẦN TRONG NGHỆ THUẬT.pdf",
+      "mime": "application/pdf",
+      "size": 1242321,
+      "modified": "2026-08-15T07:27:08.000Z",
+      "checksum": "e7afde860ce05c5b6ddf9c3e7a43f224",
+      "folder": false
+    }
+  ]
+}

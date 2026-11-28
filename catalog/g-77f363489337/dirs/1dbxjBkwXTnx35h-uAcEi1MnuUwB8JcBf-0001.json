@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dbxjBkwXTnx35h-uAcEi1MnuUwB8JcBf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SUT8GEqJfQHo7criUUagUXLyPWQtdua1",
+      "parent_id": "1dbxjBkwXTnx35h-uAcEi1MnuUwB8JcBf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 596,
+      "modified": "2026-08-15T10:56:38.000Z",
+      "checksum": "8910abd51f9801517b6feb94063c3237",
+      "folder": false
+    },
+    {
+      "id": "1hDh0NbMOgTN46MPAJO8nl0mSUIMtGmTo",
+      "parent_id": "1dbxjBkwXTnx35h-uAcEi1MnuUwB8JcBf",
+      "name": "HỒ DUYÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 243608,
+      "modified": "2026-08-15T10:56:44.000Z",
+      "checksum": "4e633cd77d45f4a0c9e94ef6d0ea17d5",
+      "folder": false
+    },
+    {
+      "id": "1XwoJNAQkU1UOLWzvqaB02e0G6oj1I7tC",
+      "parent_id": "1dbxjBkwXTnx35h-uAcEi1MnuUwB8JcBf",
+      "name": "HỒ DUYÊN.pdf",
+      "mime": "application/pdf",
+      "size": 457690,
+      "modified": "2026-08-15T10:56:41.000Z",
+      "checksum": "c6ade975dc06050192f80e2e5c26b000",
+      "folder": false
+    }
+  ]
+}

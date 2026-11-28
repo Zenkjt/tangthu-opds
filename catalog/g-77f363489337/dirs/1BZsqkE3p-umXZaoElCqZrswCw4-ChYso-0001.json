@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BZsqkE3p-umXZaoElCqZrswCw4-ChYso",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jGp8agSso5yVXn8z58WR_FsJ7Cp1zXch",
+      "parent_id": "1BZsqkE3p-umXZaoElCqZrswCw4-ChYso",
+      "name": "CUNG ĐIỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 211673,
+      "modified": "2026-08-15T07:45:54.000Z",
+      "checksum": "3c19ed8014d9bcf4b8522aa68f8dafdc",
+      "folder": false
+    },
+    {
+      "id": "1JO_qpz783pCtCSINCUNwX5j9qHsxEXbC",
+      "parent_id": "1BZsqkE3p-umXZaoElCqZrswCw4-ChYso",
+      "name": "CUNG ĐIỆN.pdf",
+      "mime": "application/pdf",
+      "size": 147599,
+      "modified": "2026-08-15T07:45:52.000Z",
+      "checksum": "87d2679842f4f956e2fbd8d3018b4b55",
+      "folder": false
+    },
+    {
+      "id": "1jnfOR0Mmc3sfRwzTQrFb12FTC8SrLQTu",
+      "parent_id": "1BZsqkE3p-umXZaoElCqZrswCw4-ChYso",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 553,
+      "modified": "2026-08-15T07:45:49.000Z",
+      "checksum": "39b8fb598579b18267a6abcf9d3e1d7a",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zhFiTTe6q_-5d7sD-RqBq4CnQ_UmoEJO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PrJsOS8BDCOCsckFq40xZFmAqt5gBhHZ",
+      "parent_id": "1zhFiTTe6q_-5d7sD-RqBq4CnQ_UmoEJO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 836,
+      "modified": "2026-08-15T10:07:08.000Z",
+      "checksum": "5638ee6ad646003e0b580ab49f03584e",
+      "folder": false
+    },
+    {
+      "id": "1I-AkKHm4CZDS3CTkZmdfTwbKfGJPV6ol",
+      "parent_id": "1zhFiTTe6q_-5d7sD-RqBq4CnQ_UmoEJO",
+      "name": "TRANG VIÊN MANSFIELD.epub",
+      "mime": "application/epub+zip",
+      "size": 746416,
+      "modified": "2026-08-15T10:07:30.000Z",
+      "checksum": "832dc71d40da5b8b75eaf77516d1f4b5",
+      "folder": false
+    },
+    {
+      "id": "1aW4cwteV9MKTHAoxnej8GwCRLHLu__DE",
+      "parent_id": "1zhFiTTe6q_-5d7sD-RqBq4CnQ_UmoEJO",
+      "name": "TRANG VIÊN MANSFIELD.pdf",
+      "mime": "application/pdf",
+      "size": 1909214,
+      "modified": "2026-08-15T10:07:27.000Z",
+      "checksum": "399a17b109f0e4814eab05ad47eb583b",
+      "folder": false
+    }
+  ]
+}

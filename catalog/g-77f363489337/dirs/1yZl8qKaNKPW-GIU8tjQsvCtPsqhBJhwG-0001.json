@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yZl8qKaNKPW-GIU8tjQsvCtPsqhBJhwG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PhI3OtwVBjIYUDbrrSUkmK4BQXoo5nts",
+      "parent_id": "1yZl8qKaNKPW-GIU8tjQsvCtPsqhBJhwG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3304,
+      "modified": "2026-08-15T03:45:16.000Z",
+      "checksum": "768a0dc835d22817a01a3d456866964f",
+      "folder": false
+    },
+    {
+      "id": "1Ng-fG32eVx31sIBTaasLkrM1_QS_MhmW",
+      "parent_id": "1yZl8qKaNKPW-GIU8tjQsvCtPsqhBJhwG",
+      "name": "KINH NGHIỆM THIỀN QUÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 484550,
+      "modified": "2026-08-15T03:45:23.000Z",
+      "checksum": "9a37475d05323faead3191de4df4f21c",
+      "folder": false
+    },
+    {
+      "id": "1EdKf02yyWdfayj0sE4mOQxhPBUt15s0C",
+      "parent_id": "1yZl8qKaNKPW-GIU8tjQsvCtPsqhBJhwG",
+      "name": "KINH NGHIỆM THIỀN QUÁN.pdf",
+      "mime": "application/pdf",
+      "size": 724997,
+      "modified": "2026-08-15T03:45:21.000Z",
+      "checksum": "c2e99761dea1e968576effc0c4b0419a",
+      "folder": false
+    }
+  ]
+}

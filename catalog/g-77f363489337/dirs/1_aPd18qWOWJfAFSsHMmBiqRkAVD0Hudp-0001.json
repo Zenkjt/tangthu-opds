@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_aPd18qWOWJfAFSsHMmBiqRkAVD0Hudp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qCheGKzIJg0WBHPdXVfJ1RjuySOsgVa1",
+      "parent_id": "1_aPd18qWOWJfAFSsHMmBiqRkAVD0Hudp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1427,
+      "modified": "2026-08-15T06:42:37.000Z",
+      "checksum": "5c935789ec3150d3691515d302d8a9dc",
+      "folder": false
+    },
+    {
+      "id": "1Ku0d5FQMV8ALgpwZxUe_ZQn31Y59F8pS",
+      "parent_id": "1_aPd18qWOWJfAFSsHMmBiqRkAVD0Hudp",
+      "name": "HẠ ĐỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 586729,
+      "modified": "2026-08-15T06:42:44.000Z",
+      "checksum": "2d2fe420a5e1876dea367c50b2e18b56",
+      "folder": false
+    },
+    {
+      "id": "1v3VtBSs8gZ5OjOEP2K3uVrC3ezndhT90",
+      "parent_id": "1_aPd18qWOWJfAFSsHMmBiqRkAVD0Hudp",
+      "name": "HẠ ĐỎ.pdf",
+      "mime": "application/pdf",
+      "size": 865183,
+      "modified": "2026-08-15T06:42:41.000Z",
+      "checksum": "725a9e2e4f908267ee1c60eba510bdc7",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_vX81vzp1fRE7cpSSxFsyzNH5d0ZwWw7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1w-XckZUncQ_--v1LAmBMlXHaJaFuUiU1",
+      "parent_id": "1_vX81vzp1fRE7cpSSxFsyzNH5d0ZwWw7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4436,
+      "modified": "2026-08-15T03:45:25.000Z",
+      "checksum": "58cef9a9fc29c2aa771c931d7989068a",
+      "folder": false
+    },
+    {
+      "id": "1OFZw-1zQPtjT4j_vv30fz4uAEn6SiAzn",
+      "parent_id": "1_vX81vzp1fRE7cpSSxFsyzNH5d0ZwWw7",
+      "name": "TÂM VŨ TRỤ.epub",
+      "mime": "application/epub+zip",
+      "size": 2238953,
+      "modified": "2026-08-15T03:45:32.000Z",
+      "checksum": "2084ef1bbd7e62a728588e9b570d8639",
+      "folder": false
+    },
+    {
+      "id": "1PMilKC5CfQ7mAZr1KCtPr94lVpf55axR",
+      "parent_id": "1_vX81vzp1fRE7cpSSxFsyzNH5d0ZwWw7",
+      "name": "TÂM VŨ TRỤ.pdf",
+      "mime": "application/pdf",
+      "size": 2644520,
+      "modified": "2026-08-15T03:45:29.000Z",
+      "checksum": "82b3d75952c0b56431836287b62469b0",
+      "folder": false
+    }
+  ]
+}

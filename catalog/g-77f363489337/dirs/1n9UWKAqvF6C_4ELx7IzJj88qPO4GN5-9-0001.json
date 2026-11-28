@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1n9UWKAqvF6C_4ELx7IzJj88qPO4GN5-9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Nx6CS-R1o4ftvZhmJ1EzJ9rfOAUgaX05",
+      "parent_id": "1n9UWKAqvF6C_4ELx7IzJj88qPO4GN5-9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4992,
+      "modified": "2026-08-15T15:26:57.000Z",
+      "checksum": "764d17fe06ad8b66f04cc2afa75d2dbc",
+      "folder": false
+    },
+    {
+      "id": "1aq8K476J3e9o-oDNfScy8Yb1nYRnqpOi",
+      "parent_id": "1n9UWKAqvF6C_4ELx7IzJj88qPO4GN5-9",
+      "name": "THIÊN LINH CÁI.epub",
+      "mime": "application/epub+zip",
+      "size": 238158,
+      "modified": "2026-08-15T15:27:47.000Z",
+      "checksum": "081152c9875f88530528b8cc88705c09",
+      "folder": false
+    },
+    {
+      "id": "1Dw7doHfjaOIzvDuF2nXBQf6odRjf70t3",
+      "parent_id": "1n9UWKAqvF6C_4ELx7IzJj88qPO4GN5-9",
+      "name": "THIÊN LINH CÁI.pdf",
+      "mime": "application/pdf",
+      "size": 1300434,
+      "modified": "2026-08-15T15:27:22.000Z",
+      "checksum": "642b68abb45d93d2553c41bb1e9aed76",
+      "folder": false
+    }
+  ]
+}

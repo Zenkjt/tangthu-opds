@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14Qjv6JYwxzGWDlv7wtNzR4an494Ohpiy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iHnBhG2bxAQaf3IzLwGNxlpm2vnH0quJ",
+      "parent_id": "14Qjv6JYwxzGWDlv7wtNzR4an494Ohpiy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7425,
+      "modified": "2026-08-15T09:43:44.000Z",
+      "checksum": "d2e2514294080b0dc548513e06281d21",
+      "folder": false
+    },
+    {
+      "id": "1KOz9OvRG8Ioh77pvdV4-PBysl5D5N-6v",
+      "parent_id": "14Qjv6JYwxzGWDlv7wtNzR4an494Ohpiy",
+      "name": "LINH KHÍ BỨC NHÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 1718569,
+      "modified": "2026-08-15T09:44:36.000Z",
+      "checksum": "f53a7de4f1fbcd11928fa1e1286ae5e6",
+      "folder": false
+    },
+    {
+      "id": "1XHBeDCEptxzBA-E0_z2rCQFW7EE1sR_E",
+      "parent_id": "14Qjv6JYwxzGWDlv7wtNzR4an494Ohpiy",
+      "name": "LINH KHÍ BỨC NHÂN.pdf",
+      "mime": "application/pdf",
+      "size": 6617015,
+      "modified": "2026-08-15T09:44:11.000Z",
+      "checksum": "4dc8b3a99216b8183db7136a60512384",
+      "folder": false
+    }
+  ]
+}

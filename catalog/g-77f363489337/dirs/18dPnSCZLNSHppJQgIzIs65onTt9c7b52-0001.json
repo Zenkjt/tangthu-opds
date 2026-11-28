@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18dPnSCZLNSHppJQgIzIs65onTt9c7b52",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hRBsEK1NLyqlMKJrS9O4WJlrYOD2QRgf",
+      "parent_id": "18dPnSCZLNSHppJQgIzIs65onTt9c7b52",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2178,
+      "modified": "2026-08-15T09:38:29.000Z",
+      "checksum": "f3d52c7b016c2f89f597230579eda5e7",
+      "folder": false
+    },
+    {
+      "id": "1L-6_tFcfrYX0dPgi6FJVb_zxj9CuP2vk",
+      "parent_id": "18dPnSCZLNSHppJQgIzIs65onTt9c7b52",
+      "name": "NGƯỜI MẸ.epub",
+      "mime": "application/epub+zip",
+      "size": 688443,
+      "modified": "2026-08-15T09:38:38.000Z",
+      "checksum": "e6c26942e51f01d3a1ac1dcad4878a6a",
+      "folder": false
+    },
+    {
+      "id": "1hsIqzRiMfJiF56xTYOVLse7vtgvqGUAc",
+      "parent_id": "18dPnSCZLNSHppJQgIzIs65onTt9c7b52",
+      "name": "NGƯỜI MẸ.pdf",
+      "mime": "application/pdf",
+      "size": 1507543,
+      "modified": "2026-08-15T09:38:34.000Z",
+      "checksum": "1544a87add232d2f4159441002a5b761",
+      "folder": false
+    }
+  ]
+}

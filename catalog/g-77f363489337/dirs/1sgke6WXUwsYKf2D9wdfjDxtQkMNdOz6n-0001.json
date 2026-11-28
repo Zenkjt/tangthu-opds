@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sgke6WXUwsYKf2D9wdfjDxtQkMNdOz6n",
+  "page": 1,
+  "items": [
+    {
+      "id": "1l-8Hs_NlTLqGqMOuOcvW9Pvx9yH9TIK6",
+      "parent_id": "1sgke6WXUwsYKf2D9wdfjDxtQkMNdOz6n",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1385,
+      "modified": "2026-08-15T06:44:43.000Z",
+      "checksum": "f4ba43649c423829274bcde895b1b42c",
+      "folder": false
+    },
+    {
+      "id": "19Zs9OW7n0n4sMCU106gHYIrNlIppF8eR",
+      "parent_id": "1sgke6WXUwsYKf2D9wdfjDxtQkMNdOz6n",
+      "name": "THẾ GIA DANH MÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 2197364,
+      "modified": "2026-08-15T06:45:14.000Z",
+      "checksum": "d3cc7027dcac64ae0335d4fbb75e7eac",
+      "folder": false
+    },
+    {
+      "id": "1gQz4_vxC_yxyo5cKus3fBltyCODc2yQ2",
+      "parent_id": "1sgke6WXUwsYKf2D9wdfjDxtQkMNdOz6n",
+      "name": "THẾ GIA DANH MÔN.pdf",
+      "mime": "application/pdf",
+      "size": 7592984,
+      "modified": "2026-08-15T06:45:07.000Z",
+      "checksum": "8c58f61adeb3024da21824ff6d80b24c",
+      "folder": false
+    }
+  ]
+}

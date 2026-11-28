@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "113V2vn415DqZSdK7tCkJ0BYvwHFnglgq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jqhqPgH3TohqUXx11aMHZZwpJmxlOGfH",
+      "parent_id": "113V2vn415DqZSdK7tCkJ0BYvwHFnglgq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 547,
+      "modified": "2026-08-15T10:22:51.000Z",
+      "checksum": "7a9a035432f43932afe464f67f73973c",
+      "folder": false
+    },
+    {
+      "id": "1TdN9mpgGHEFC98d_8ZqIBZIcorWC6e48",
+      "parent_id": "113V2vn415DqZSdK7tCkJ0BYvwHFnglgq",
+      "name": "TÂM NGUYỆN CUỐI CÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 753737,
+      "modified": "2026-08-15T10:23:35.000Z",
+      "checksum": "d33d88bc3ac3441a9e44a57c29ef1d37",
+      "folder": false
+    },
+    {
+      "id": "1D55piRop4-hL1WspLJwiNTyl-N3Fkp58",
+      "parent_id": "113V2vn415DqZSdK7tCkJ0BYvwHFnglgq",
+      "name": "TÂM NGUYỆN CUỐI CÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 2013011,
+      "modified": "2026-08-15T10:23:27.000Z",
+      "checksum": "6e3edfae1fe454fef37c92302d8e5b80",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "152Mc4YUZ3t9eZYoIe12uTur1epXIWzhQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VJNeKcuH6SchPKhsokIzGWY812uWTuPG",
+      "parent_id": "152Mc4YUZ3t9eZYoIe12uTur1epXIWzhQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2234,
+      "modified": "2026-08-15T03:24:21.000Z",
+      "checksum": "d7a49a69fa37fd18fd5e1d11b285c0ef",
+      "folder": false
+    },
+    {
+      "id": "1FwB-Xz3khKolzpo1nKDLnKalcYHcp16t",
+      "parent_id": "152Mc4YUZ3t9eZYoIe12uTur1epXIWzhQ",
+      "name": "THẤT NHÂN TÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 375855,
+      "modified": "2026-08-15T03:24:29.000Z",
+      "checksum": "2d30116736939dce193835d411d42854",
+      "folder": false
+    },
+    {
+      "id": "18DfU_BJT0wa2WWUzGqdzbzfZa97a5tPS",
+      "parent_id": "152Mc4YUZ3t9eZYoIe12uTur1epXIWzhQ",
+      "name": "THẤT NHÂN TÂM.pdf",
+      "mime": "application/pdf",
+      "size": 833049,
+      "modified": "2026-08-15T03:24:26.000Z",
+      "checksum": "b68a9500f04290a0a7f7f50733be30c5",
+      "folder": false
+    }
+  ]
+}

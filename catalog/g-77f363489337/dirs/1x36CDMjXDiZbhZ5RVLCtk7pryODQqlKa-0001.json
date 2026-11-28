@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1x36CDMjXDiZbhZ5RVLCtk7pryODQqlKa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jPkdbwr5_2ktIwZYuoNMJjja9bzxwoRb",
+      "parent_id": "1x36CDMjXDiZbhZ5RVLCtk7pryODQqlKa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5309,
+      "modified": "2026-08-15T03:25:04.000Z",
+      "checksum": "66a66143c4d9c98c079b946b1cc76325",
+      "folder": false
+    },
+    {
+      "id": "1kg0vvV8OQX_D9XxE7dU77vILoiI8yCsb",
+      "parent_id": "1x36CDMjXDiZbhZ5RVLCtk7pryODQqlKa",
+      "name": "DÁM KHÁC BIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 541075,
+      "modified": "2026-08-15T03:25:12.000Z",
+      "checksum": "d9eae9cce2609410f07ae895e91b4dae",
+      "folder": false
+    },
+    {
+      "id": "1HN7PMyvh3pyrwBxCtWPu8MhucQNXBmfm",
+      "parent_id": "1x36CDMjXDiZbhZ5RVLCtk7pryODQqlKa",
+      "name": "DÁM KHÁC BIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 1126893,
+      "modified": "2026-08-15T03:25:09.000Z",
+      "checksum": "59723da32384446699921988733003d6",
+      "folder": false
+    }
+  ]
+}

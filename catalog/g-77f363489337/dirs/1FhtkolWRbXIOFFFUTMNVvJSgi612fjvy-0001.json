@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FhtkolWRbXIOFFFUTMNVvJSgi612fjvy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1d7XSuIcfg5zs-wkXeMPJcu42nGo_9SQi",
+      "parent_id": "1FhtkolWRbXIOFFFUTMNVvJSgi612fjvy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2494,
+      "modified": "2026-08-16T03:04:02.000Z",
+      "checksum": "4fcdb55f09b1dc631df4afc1047886b1",
+      "folder": false
+    },
+    {
+      "id": "11fjh24Y76VCPH-9rDOcj2eUaUIg9B_ie",
+      "parent_id": "1FhtkolWRbXIOFFFUTMNVvJSgi612fjvy",
+      "name": "TUYỂN TẬP TRUYỆN CƯỜI VOVA.epub",
+      "mime": "application/epub+zip",
+      "size": 312116,
+      "modified": "2026-08-16T03:04:08.000Z",
+      "checksum": "066e8082a0dcdcaea4c1d75fc94a560a",
+      "folder": false
+    },
+    {
+      "id": "1JRz7nPUIwwfomOvNpDlZaoZssOI0Ycn8",
+      "parent_id": "1FhtkolWRbXIOFFFUTMNVvJSgi612fjvy",
+      "name": "TUYỂN TẬP TRUYỆN CƯỜI VOVA.pdf",
+      "mime": "application/pdf",
+      "size": 194650,
+      "modified": "2026-08-16T03:04:05.000Z",
+      "checksum": "f0ae3383884bebe1854ac90f1bb70622",
+      "folder": false
+    }
+  ]
+}

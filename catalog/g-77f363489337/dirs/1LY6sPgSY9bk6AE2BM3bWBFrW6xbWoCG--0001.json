@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LY6sPgSY9bk6AE2BM3bWBFrW6xbWoCG-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gi5rcwhqljv9jKh0nhVEaNNQyUS75lzp",
+      "parent_id": "1LY6sPgSY9bk6AE2BM3bWBFrW6xbWoCG-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3719,
+      "modified": "2026-08-15T07:33:03.000Z",
+      "checksum": "7a6d97ac2486f269b154ce1f41d35a89",
+      "folder": false
+    },
+    {
+      "id": "149kIvqGxCyY8lNMSJr58IH24nvCpBPeI",
+      "parent_id": "1LY6sPgSY9bk6AE2BM3bWBFrW6xbWoCG-",
+      "name": "YÊU KHÔNG BẾN BỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 590745,
+      "modified": "2026-08-15T07:33:11.000Z",
+      "checksum": "2dab145602844ad68378032f191df2a4",
+      "folder": false
+    },
+    {
+      "id": "1GTTn3kVM3bXkFTH-rjp5InkCrEaUlOdD",
+      "parent_id": "1LY6sPgSY9bk6AE2BM3bWBFrW6xbWoCG-",
+      "name": "YÊU KHÔNG BẾN BỜ.pdf",
+      "mime": "application/pdf",
+      "size": 1901967,
+      "modified": "2026-08-15T07:33:08.000Z",
+      "checksum": "0cb797809de8be094e401c3ac704f481",
+      "folder": false
+    }
+  ]
+}

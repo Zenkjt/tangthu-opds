@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1llqPKYmAuts-5YrfjL0e_ATppv7KUdFe",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AR9uL_GEoE_8UG3SbeASxbRYLyYdHuFR",
+      "parent_id": "1llqPKYmAuts-5YrfjL0e_ATppv7KUdFe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2270,
+      "modified": "2026-08-15T06:54:01.000Z",
+      "checksum": "cfa710ef4d3fd53db21c02df66b20840",
+      "folder": false
+    },
+    {
+      "id": "1RLnwXSzUTXWAu_Nq3LTFAlM6v5bvwHt-",
+      "parent_id": "1llqPKYmAuts-5YrfjL0e_ATppv7KUdFe",
+      "name": "LÁ NẰM TRONG LÁ.epub",
+      "mime": "application/epub+zip",
+      "size": 469110,
+      "modified": "2026-08-15T06:54:08.000Z",
+      "checksum": "b12353f25ceeb4123fa2e9eaf8182d6a",
+      "folder": false
+    },
+    {
+      "id": "190VLVlAFTt80WC20qrD9GLDxQYXpoiAW",
+      "parent_id": "1llqPKYmAuts-5YrfjL0e_ATppv7KUdFe",
+      "name": "LÁ NẰM TRONG LÁ.pdf",
+      "mime": "application/pdf",
+      "size": 613845,
+      "modified": "2026-08-15T06:54:05.000Z",
+      "checksum": "b50ae8b8468dc9974c8b4fa10729dd84",
+      "folder": false
+    }
+  ]
+}

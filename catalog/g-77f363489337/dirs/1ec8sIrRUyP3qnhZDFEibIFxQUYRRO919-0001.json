@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ec8sIrRUyP3qnhZDFEibIFxQUYRRO919",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ga7YjnsGoU4uNIIHNLgKRJEqXHBi0tJS",
+      "parent_id": "1ec8sIrRUyP3qnhZDFEibIFxQUYRRO919",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6293,
+      "modified": "2026-08-16T03:30:18.000Z",
+      "checksum": "8524c55e82d000f835d4341ff34840e4",
+      "folder": false
+    },
+    {
+      "id": "1-0YjQ4BRsE6JdKzs6yeb82-0kULFkhpt",
+      "parent_id": "1ec8sIrRUyP3qnhZDFEibIFxQUYRRO919",
+      "name": "TẮT LỬA LÒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 415058,
+      "modified": "2026-08-16T03:30:24.000Z",
+      "checksum": "5879962f368dfc0e912134a2d24fda3f",
+      "folder": false
+    },
+    {
+      "id": "11fHtOQf8nLsjKzPZFtk0IDN8TRBYplB8",
+      "parent_id": "1ec8sIrRUyP3qnhZDFEibIFxQUYRRO919",
+      "name": "TẮT LỬA LÒNG.pdf",
+      "mime": "application/pdf",
+      "size": 565399,
+      "modified": "2026-08-16T03:30:22.000Z",
+      "checksum": "b219c8d4bab6ac63b5a2037445edd9f5",
+      "folder": false
+    }
+  ]
+}

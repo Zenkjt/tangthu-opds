@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1H4-bt3oAjen1jGYWaNHTbT6iChJI6uqz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hasOJsuy74RMT3cp2IBaqtsc0BjhHYvO",
+      "parent_id": "1H4-bt3oAjen1jGYWaNHTbT6iChJI6uqz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5930,
+      "modified": "2026-08-16T03:43:54.000Z",
+      "checksum": "3155e876124d25edd6d3c110811db492",
+      "folder": false
+    },
+    {
+      "id": "1U-TC42jWoFxOWSIpOPDCN4lILFkwvYla",
+      "parent_id": "1H4-bt3oAjen1jGYWaNHTbT6iChJI6uqz",
+      "name": "ĐÀO YÊU KÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 630768,
+      "modified": "2026-08-16T03:44:01.000Z",
+      "checksum": "bbb001abcd008d0e1c30e6e577a40716",
+      "folder": false
+    },
+    {
+      "id": "1FnGgpYecVUUd6fmO5tYcngjDJu8lyn1C",
+      "parent_id": "1H4-bt3oAjen1jGYWaNHTbT6iChJI6uqz",
+      "name": "ĐÀO YÊU KÝ.pdf",
+      "mime": "application/pdf",
+      "size": 1572280,
+      "modified": "2026-08-16T03:43:59.000Z",
+      "checksum": "c8d9c6925ba3fad36a62edf19de79c0f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "version": 2,
+  "branch_id": "g-7daa3b16549b",
+  "root_folder_id": "16XkI9-XTt6Fv43ltG3T3tTYsEWMC3GpI",
+  "root_shards": [
+    "catalog/g-7daa3b16549b/16XkI9-XTt6Fv43ltG3T3tTYsEWMC3GpI-0001.json"
+  ],
+  "directories": [
+    {
+      "id": "11Rdvo9LLncTUNtj24xafw3GrlDK5F2kv",
+      "name": "Việt Nam",
+      "parent_id": "16XkI9-XTt6Fv43ltG3T3tTYsEWMC3GpI",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/11Rdvo9LLncTUNtj24xafw3GrlDK5F2kv-0001.json"
+      ]
+    },
+    {
+      "id": "13PQf03iTKIjeWDhw4nZbkLdRiirLZJIm",
+      "name": "1-14 Ninh hàng nhất",
+      "parent_id": "1sSTt8-YrZLIEvavcCawiKLcblFZLTHXL",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/13PQf03iTKIjeWDhw4nZbkLdRiirLZJIm-0001.json"
+      ]
+    },
+    {
+      "id": "1ERyzsPZJC_4fzbuw3au53bm2ZMTF6za8",
+      "name": "Haruki Murakami",
+      "parent_id": "16XkI9-XTt6Fv43ltG3T3tTYsEWMC3GpI",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/1ERyzsPZJC_4fzbuw3au53bm2ZMTF6za8-0001.json"
+      ]
+    },
+    {
+      "id": "1Kslud2e7VmRKylPOM06ike9YKpgZCl8x",
+      "name": "Higashino Keigo",
+      "parent_id": "16XkI9-XTt6Fv43ltG3T3tTYsEWMC3GpI",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/1Kslud2e7VmRKylPOM06ike9YKpgZCl8x-0001.json"
+      ]
+    },
+    {
+      "id": "1OX7h8rInItijF0wXerVNU5N-01C1PrwT",
+      "name": "Nguyễn Nhật Ánh",
+      "parent_id": "11Rdvo9LLncTUNtj24xafw3GrlDK5F2kv",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/1OX7h8rInItijF0wXerVNU5N-01C1PrwT-0001.json"
+      ]
+    },
+    {
+      "id": "1RiTpKwEH8INOdizdXGbW7ugfWqSP4VCe",
+      "name": "trinh thám",
+      "parent_id": "16XkI9-XTt6Fv43ltG3T3tTYsEWMC3GpI",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/1RiTpKwEH8INOdizdXGbW7ugfWqSP4VCe-0001.json"
+      ]
+    },
+    {
+      "id": "1SE6QGPTY_nPp2BhNrgRwKJW6tGqjDe7b",
+      "name": "Sơn Tùng",
+      "parent_id": "11Rdvo9LLncTUNtj24xafw3GrlDK5F2kv",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/1SE6QGPTY_nPp2BhNrgRwKJW6tGqjDe7b-0001.json"
+      ]
+    },
+    {
+      "id": "1SRHzUTWQwa000jCxOzpt0eKom6ScaWz-",
+      "name": "Nga",
+      "parent_id": "16XkI9-XTt6Fv43ltG3T3tTYsEWMC3GpI",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/1SRHzUTWQwa000jCxOzpt0eKom6ScaWz--0001.json"
+      ]
+    },
+    {
+      "id": "1UCWobm_qJ2mhtl3KXWfPvUJqg13OGDW2",
+      "name": "Mỹ",
+      "parent_id": "16XkI9-XTt6Fv43ltG3T3tTYsEWMC3GpI",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/1UCWobm_qJ2mhtl3KXWfPvUJqg13OGDW2-0001.json"
+      ]
+    },
+    {
+      "id": "1VuhoKJQIULAq0zxC0aV4KrYvMcjLttwM",
+      "name": "Đường Bác Hồ đi cứu nước",
+      "parent_id": "11Rdvo9LLncTUNtj24xafw3GrlDK5F2kv",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/1VuhoKJQIULAq0zxC0aV4KrYvMcjLttwM-0001.json"
+      ]
+    },
+    {
+      "id": "1c_5Ym25cAu3UAQUpsLjO400Lyu4K9P2U",
+      "name": "Nhật Bản",
+      "parent_id": "16XkI9-XTt6Fv43ltG3T3tTYsEWMC3GpI",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/1c_5Ym25cAu3UAQUpsLjO400Lyu4K9P2U-0001.json"
+      ]
+    },
+    {
+      "id": "1f-JGvhUUyzD_u95e1Hv8al-4RGt9MI8I",
+      "name": "Thời Thanh Niên Của Bác Hồ",
+      "parent_id": "11Rdvo9LLncTUNtj24xafw3GrlDK5F2kv",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/1f-JGvhUUyzD_u95e1Hv8al-4RGt9MI8I-0001.json"
+      ]
+    },
+    {
+      "id": "1kUYIoosIRWYZ6UtWbA8j4qL8lz-j8ys_",
+      "name": "Pháp",
+      "parent_id": "16XkI9-XTt6Fv43ltG3T3tTYsEWMC3GpI",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/1kUYIoosIRWYZ6UtWbA8j4qL8lz-j8ys_-0001.json"
+      ]
+    },
+    {
+      "id": "1mq2Od155i7kCw49MqF-xosWLjASy7iHN",
+      "name": "Anh",
+      "parent_id": "16XkI9-XTt6Fv43ltG3T3tTYsEWMC3GpI",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/1mq2Od155i7kCw49MqF-xosWLjASy7iHN-0001.json"
+      ]
+    },
+    {
+      "id": "1o0lRZ6GgGMDNXzUMoY0bVhAcM0_iosKL",
+      "name": "z.Quốc gia khác",
+      "parent_id": "16XkI9-XTt6Fv43ltG3T3tTYsEWMC3GpI",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/1o0lRZ6GgGMDNXzUMoY0bVhAcM0_iosKL-0001.json"
+      ]
+    },
+    {
+      "id": "1rVT_Xk4MJAX0MWMg1ww4yh8QSx7BmMvj",
+      "name": "Hoa học trò",
+      "parent_id": "11Rdvo9LLncTUNtj24xafw3GrlDK5F2kv",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/1rVT_Xk4MJAX0MWMg1ww4yh8QSx7BmMvj-0001.json"
+      ]
+    },
+    {
+      "id": "1sSTt8-YrZLIEvavcCawiKLcblFZLTHXL",
+      "name": "Trung quốc",
+      "parent_id": "16XkI9-XTt6Fv43ltG3T3tTYsEWMC3GpI",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/1sSTt8-YrZLIEvavcCawiKLcblFZLTHXL-0001.json"
+      ]
+    },
+    {
+      "id": "1yQEDIjMMkpEgE0c_KGbsobJ7WrBJsCp2",
+      "name": "Nguyễn Xuân Khánh",
+      "parent_id": "11Rdvo9LLncTUNtj24xafw3GrlDK5F2kv",
+      "shards": [
+        "catalog/g-7daa3b16549b/dirs/1yQEDIjMMkpEgE0c_KGbsobJ7WrBJsCp2-0001.json"
+      ]
+    }
+  ]
+}

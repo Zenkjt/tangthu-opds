@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EV_lCcmoPDNwLsQEMY5i9w8DbefL-OMO",
+  "page": 1,
+  "items": [
+    {
+      "id": "17JoU9e3ApPfPJ0QIvVTSSjJLQ4eKU0j3",
+      "parent_id": "1EV_lCcmoPDNwLsQEMY5i9w8DbefL-OMO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3337,
+      "modified": "2026-08-15T04:22:35.000Z",
+      "checksum": "5124536f94de75859007a5ec341e5730",
+      "folder": false
+    },
+    {
+      "id": "1vhl7hz7Nie3dvm32GvsKgrvROumxfVQZ",
+      "parent_id": "1EV_lCcmoPDNwLsQEMY5i9w8DbefL-OMO",
+      "name": "NẠN DỊCH VACCINE.epub",
+      "mime": "application/epub+zip",
+      "size": 420256,
+      "modified": "2026-08-15T04:22:41.000Z",
+      "checksum": "2a1015050a44747d51ca8a0eb340bfcb",
+      "folder": false
+    },
+    {
+      "id": "12LiIhp3w_4csONBgsFwigQY_af9ktCUd",
+      "parent_id": "1EV_lCcmoPDNwLsQEMY5i9w8DbefL-OMO",
+      "name": "NẠN DỊCH VACCINE.pdf",
+      "mime": "application/pdf",
+      "size": 378934,
+      "modified": "2026-08-15T04:22:38.000Z",
+      "checksum": "34cb6dc823bb10d1dc85867e54aaf1c5",
+      "folder": false
+    }
+  ]
+}

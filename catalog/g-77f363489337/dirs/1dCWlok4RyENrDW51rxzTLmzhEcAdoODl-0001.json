@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dCWlok4RyENrDW51rxzTLmzhEcAdoODl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ADncaD-LHBo-_rJumYGhR22i-Mx75iqp",
+      "parent_id": "1dCWlok4RyENrDW51rxzTLmzhEcAdoODl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 534,
+      "modified": "2026-08-15T10:42:27.000Z",
+      "checksum": "5b50f24d8cd02278babfed592c8c5452",
+      "folder": false
+    },
+    {
+      "id": "1Mtd7XptBZrwVSFUOYEFOplTXLrAK1MCJ",
+      "parent_id": "1dCWlok4RyENrDW51rxzTLmzhEcAdoODl",
+      "name": "NGƯỜI TỊ NẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 385286,
+      "modified": "2026-08-15T10:42:38.000Z",
+      "checksum": "c51879de96a5fded9ecdd8ee55361cde",
+      "folder": false
+    },
+    {
+      "id": "19XTcjjSFsZYMy7btRZgCPlJXl8jY9CIY",
+      "parent_id": "1dCWlok4RyENrDW51rxzTLmzhEcAdoODl",
+      "name": "NGƯỜI TỊ NẠN.pdf",
+      "mime": "application/pdf",
+      "size": 702702,
+      "modified": "2026-08-15T10:42:35.000Z",
+      "checksum": "cd1fc61923d94e30be0989034b4ee727",
+      "folder": false
+    }
+  ]
+}

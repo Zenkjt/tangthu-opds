@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tG4jV4TXeGVwp6sAeE_oKctJFiR_m2sH",
+  "page": 1,
+  "items": [
+    {
+      "id": "19BvHmOR7i9HTRnri72IyTL1YbWn5UW1U",
+      "parent_id": "1tG4jV4TXeGVwp6sAeE_oKctJFiR_m2sH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6502,
+      "modified": "2026-08-15T07:56:05.000Z",
+      "checksum": "5266e7b7cb55200746104878f54c013b",
+      "folder": false
+    },
+    {
+      "id": "1MgIic98PMHRASOSrJX-BEzIRMvGvvjhf",
+      "parent_id": "1tG4jV4TXeGVwp6sAeE_oKctJFiR_m2sH",
+      "name": "ĐỆ NHẤT SỦNG.epub",
+      "mime": "application/epub+zip",
+      "size": 2122514,
+      "modified": "2026-08-15T07:56:28.000Z",
+      "checksum": "435c5263d4bf49dd3c12bda1b51ec64f",
+      "folder": false
+    },
+    {
+      "id": "187qaJQhoYMy6WLNC26cOAcsdKhS5GzJp",
+      "parent_id": "1tG4jV4TXeGVwp6sAeE_oKctJFiR_m2sH",
+      "name": "ĐỆ NHẤT SỦNG.pdf",
+      "mime": "application/pdf",
+      "size": 5540885,
+      "modified": "2026-08-15T07:56:22.000Z",
+      "checksum": "a68dc1810301b5cd2319089e3331ecb9",
+      "folder": false
+    }
+  ]
+}

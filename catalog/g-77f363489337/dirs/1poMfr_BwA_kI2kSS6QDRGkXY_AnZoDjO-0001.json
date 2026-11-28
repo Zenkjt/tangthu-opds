@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1poMfr_BwA_kI2kSS6QDRGkXY_AnZoDjO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DOvsMieochMpGvD-k6xUwrs6gDrvz1pM",
+      "parent_id": "1poMfr_BwA_kI2kSS6QDRGkXY_AnZoDjO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2075,
+      "modified": "2026-08-15T09:40:28.000Z",
+      "checksum": "5d4eef61e9d899900ed28c940bcada67",
+      "folder": false
+    },
+    {
+      "id": "1kIK9VAKGMC1kZHRQ2hibJ4jdEZj9R0Qx",
+      "parent_id": "1poMfr_BwA_kI2kSS6QDRGkXY_AnZoDjO",
+      "name": "MỘNG TU TIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 6575039,
+      "modified": "2026-08-15T09:40:41.000Z",
+      "checksum": "cdb991460ae62eecc35d127d37ce973b",
+      "folder": false
+    },
+    {
+      "id": "1TDM85eL8DP3OBx0uXno5zRyu8J4EJhy7",
+      "parent_id": "1poMfr_BwA_kI2kSS6QDRGkXY_AnZoDjO",
+      "name": "MỘNG TU TIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 6127341,
+      "modified": "2026-08-15T09:40:37.000Z",
+      "checksum": "578a6c6cd24797e1bb66edef26699f3c",
+      "folder": false
+    }
+  ]
+}

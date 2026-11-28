@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Vd_6dtmQjm0vcH-RcagR3cO5iee664SR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P4X4xHQvDAm-8W3218K6uY84CSeWtykV",
+      "parent_id": "1Vd_6dtmQjm0vcH-RcagR3cO5iee664SR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 413,
+      "modified": "2026-08-15T10:55:51.000Z",
+      "checksum": "3c76ec64ec77c60dbc2bab88b3df9013",
+      "folder": false
+    },
+    {
+      "id": "1UFkRjBKGqM7_UG73JoeuB5vKX4Hl8yXk",
+      "parent_id": "1Vd_6dtmQjm0vcH-RcagR3cO5iee664SR",
+      "name": "KẺ SỐNG SÓT.epub",
+      "mime": "application/epub+zip",
+      "size": 888640,
+      "modified": "2026-08-15T10:55:59.000Z",
+      "checksum": "d14a6777ed4d5961dc7712f495b60e04",
+      "folder": false
+    },
+    {
+      "id": "1tskVGhxJMIvMaHlsfCt3yZl2ZPKrMrtb",
+      "parent_id": "1Vd_6dtmQjm0vcH-RcagR3cO5iee664SR",
+      "name": "KẺ SỐNG SÓT.pdf",
+      "mime": "application/pdf",
+      "size": 1788346,
+      "modified": "2026-08-15T10:55:57.000Z",
+      "checksum": "a837af4efa8b0a539bc435052f56c275",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qoYxuSubXtPJo3jGcDwRZWm-cCG_iwZU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NDQBTsI9WhXjvs1WfNiBrjtnvoNHhC2t",
+      "parent_id": "1qoYxuSubXtPJo3jGcDwRZWm-cCG_iwZU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 585,
+      "modified": "2026-08-16T04:13:53.000Z",
+      "checksum": "6334a64a8c9a319f222ba54b606c5f56",
+      "folder": false
+    },
+    {
+      "id": "1uwZyXkjVr0hrLpzZVaBW2HTiIabXROlf",
+      "parent_id": "1qoYxuSubXtPJo3jGcDwRZWm-cCG_iwZU",
+      "name": "NGƯỜI ĐÀN ÔNG XA LẠ.epub",
+      "mime": "application/epub+zip",
+      "size": 202996,
+      "modified": "2026-08-16T04:13:59.000Z",
+      "checksum": "a8ed4986cb1a410604ff8a0e0fac88ed",
+      "folder": false
+    },
+    {
+      "id": "1bpSc3m-IGKpRD8NFyKZQJrhViGhLGG7g",
+      "parent_id": "1qoYxuSubXtPJo3jGcDwRZWm-cCG_iwZU",
+      "name": "NGƯỜI ĐÀN ÔNG XA LẠ.pdf",
+      "mime": "application/pdf",
+      "size": 485886,
+      "modified": "2026-08-16T04:13:56.000Z",
+      "checksum": "82d7a73a675819824595e9fe7e29624d",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aYj7QfeGRsyt7rlFcvpi8CDjknviGhf1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mtb2eNoGtLTFM12bKuFhCCVzalMLnYQX",
+      "parent_id": "1aYj7QfeGRsyt7rlFcvpi8CDjknviGhf1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1626,
+      "modified": "2026-08-16T02:52:21.000Z",
+      "checksum": "26f0c3135dc9202ceeed430fb83d2706",
+      "folder": false
+    },
+    {
+      "id": "1NwT5CWI8vCaauLJeMP_ajJpsPGAma5mM",
+      "parent_id": "1aYj7QfeGRsyt7rlFcvpi8CDjknviGhf1",
+      "name": "HOÀNG LÊ NHẤT THỐNG CHÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 1981093,
+      "modified": "2026-08-16T02:52:31.000Z",
+      "checksum": "75785f7e6b93d4103a7b9e866c71dc68",
+      "folder": false
+    },
+    {
+      "id": "1QUiL7jM26nPbhYg74e-BipF5OiLkab31",
+      "parent_id": "1aYj7QfeGRsyt7rlFcvpi8CDjknviGhf1",
+      "name": "HOÀNG LÊ NHẤT THỐNG CHÍ.pdf",
+      "mime": "application/pdf",
+      "size": 4916328,
+      "modified": "2026-08-16T02:52:28.000Z",
+      "checksum": "0ea512bd69f64e654fd79982e458f34a",
+      "folder": false
+    }
+  ]
+}

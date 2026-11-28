@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ufJCWLKLJJGhjkHWiI-gTBKkQIPDBln1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EGQI9JG8ZNC-KvpZtQKG7EKhE2IER4Bp",
+      "parent_id": "1ufJCWLKLJJGhjkHWiI-gTBKkQIPDBln1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3232,
+      "modified": "2026-08-16T03:46:50.000Z",
+      "checksum": "2bc7aaf09d8eff78c909e6e7716e2cf4",
+      "folder": false
+    },
+    {
+      "id": "1TR9xUCmoNkq9ZdSjeiJScxstrmOw3xN3",
+      "parent_id": "1ufJCWLKLJJGhjkHWiI-gTBKkQIPDBln1",
+      "name": "KITCHEN NHÀ BẾP.epub",
+      "mime": "application/epub+zip",
+      "size": 501715,
+      "modified": "2026-08-16T03:46:55.000Z",
+      "checksum": "5923dfff9ad8673f3a917f3d786ffac9",
+      "folder": false
+    },
+    {
+      "id": "1N2tW7t_z5kItM2BsOh2C3U2p8c7hE82D",
+      "parent_id": "1ufJCWLKLJJGhjkHWiI-gTBKkQIPDBln1",
+      "name": "KITCHEN NHÀ BẾP.pdf",
+      "mime": "application/pdf",
+      "size": 293707,
+      "modified": "2026-08-16T03:46:53.000Z",
+      "checksum": "83249823a51801d905c4a060135d57f3",
+      "folder": false
+    }
+  ]
+}

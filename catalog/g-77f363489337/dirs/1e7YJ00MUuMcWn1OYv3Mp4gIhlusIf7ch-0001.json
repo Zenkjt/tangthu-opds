@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1e7YJ00MUuMcWn1OYv3Mp4gIhlusIf7ch",
+  "page": 1,
+  "items": [
+    {
+      "id": "16L_o5q8Gch21vGjc3WjXla5dJEVe5TmC",
+      "parent_id": "1e7YJ00MUuMcWn1OYv3Mp4gIhlusIf7ch",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 878,
+      "modified": "2026-08-16T04:13:50.000Z",
+      "checksum": "6678a1ab74c650314cc21204aa9d8a1d",
+      "folder": false
+    },
+    {
+      "id": "1zUnm5aohNN4_-k1LgRdBIU0nuzzCrADG",
+      "parent_id": "1e7YJ00MUuMcWn1OYv3Mp4gIhlusIf7ch",
+      "name": "NGƯỜI ĐẸP NGỦ MÊ.epub",
+      "mime": "application/epub+zip",
+      "size": 435251,
+      "modified": "2026-08-16T04:13:56.000Z",
+      "checksum": "2fd1e9a01b240459b6d9ba2d53a5fe40",
+      "folder": false
+    },
+    {
+      "id": "1YKU4KGANYpTj91-oyL5UvvKO8jvRCxbK",
+      "parent_id": "1e7YJ00MUuMcWn1OYv3Mp4gIhlusIf7ch",
+      "name": "NGƯỜI ĐẸP NGỦ MÊ.pdf",
+      "mime": "application/pdf",
+      "size": 770578,
+      "modified": "2026-08-16T04:13:54.000Z",
+      "checksum": "ea5ce2abc9c7071af49672678ac2ad77",
+      "folder": false
+    }
+  ]
+}

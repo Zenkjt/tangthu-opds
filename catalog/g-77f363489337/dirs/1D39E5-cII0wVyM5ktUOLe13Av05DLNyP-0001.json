@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1D39E5-cII0wVyM5ktUOLe13Av05DLNyP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1o4WJS1bNV8dSGibeoGKUySLonKxCf22i",
+      "parent_id": "1D39E5-cII0wVyM5ktUOLe13Av05DLNyP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4109,
+      "modified": "2026-08-16T03:22:25.000Z",
+      "checksum": "d2b379bc21991bc58352ee4f549b6331",
+      "folder": false
+    },
+    {
+      "id": "1rgBdAUcloRJOSWm7-8DyKPq_APQIuHgI",
+      "parent_id": "1D39E5-cII0wVyM5ktUOLe13Av05DLNyP",
+      "name": "KẺ ÍCH KỶ LÃNG MẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 760427,
+      "modified": "2026-08-16T03:22:33.000Z",
+      "checksum": "f2bb079daefaa65825bbd09457624df5",
+      "folder": false
+    },
+    {
+      "id": "1ubLAEeTfXkE18FX2pRLQKiopmmfLHOjU",
+      "parent_id": "1D39E5-cII0wVyM5ktUOLe13Av05DLNyP",
+      "name": "KẺ ÍCH KỶ LÃNG MẠN.pdf",
+      "mime": "application/pdf",
+      "size": 1873355,
+      "modified": "2026-08-16T03:22:30.000Z",
+      "checksum": "8be225ef9a72bf6a19a77d8c4812c729",
+      "folder": false
+    }
+  ]
+}

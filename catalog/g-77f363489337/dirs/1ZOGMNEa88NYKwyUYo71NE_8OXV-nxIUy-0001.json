@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZOGMNEa88NYKwyUYo71NE_8OXV-nxIUy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Iciugjkw0V1SGW47XpRLNGzA_FgJ52BB",
+      "parent_id": "1ZOGMNEa88NYKwyUYo71NE_8OXV-nxIUy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3119,
+      "modified": "2026-08-15T10:26:56.000Z",
+      "checksum": "b09ac2802946a9319f64d7852a99fcb6",
+      "folder": false
+    },
+    {
+      "id": "11Gxb-CberXxcUP87uR7X6IyavPUzZahK",
+      "parent_id": "1ZOGMNEa88NYKwyUYo71NE_8OXV-nxIUy",
+      "name": "SIÊU MẪU.epub",
+      "mime": "application/epub+zip",
+      "size": 616786,
+      "modified": "2026-08-15T10:27:07.000Z",
+      "checksum": "513c7581e02828044084652938502d7c",
+      "folder": false
+    },
+    {
+      "id": "1cClSDUNCOPM6KPIzESs7JxfU9YUra-kb",
+      "parent_id": "1ZOGMNEa88NYKwyUYo71NE_8OXV-nxIUy",
+      "name": "SIÊU MẪU.pdf",
+      "mime": "application/pdf",
+      "size": 1735974,
+      "modified": "2026-08-15T10:27:04.000Z",
+      "checksum": "3b90852c0f317f106b4fad1f81b92cd2",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bMFFzfqWls2TPguZS-bxPD3buAocWDsF",
+  "page": 1,
+  "items": [
+    {
+      "id": "12V-79Zw2dzUxq2IKU04Y2RQVNBhWN-9Z",
+      "parent_id": "1bMFFzfqWls2TPguZS-bxPD3buAocWDsF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3260,
+      "modified": "2026-08-15T09:49:45.000Z",
+      "checksum": "53890d0457fa38c5210e10d1095de6e0",
+      "folder": false
+    },
+    {
+      "id": "1KxIhszvD67nrgIN3QPL3X8Xnn3U1r6PK",
+      "parent_id": "1bMFFzfqWls2TPguZS-bxPD3buAocWDsF",
+      "name": "GẢ CHO NHÂN VIÊN CÔNG VỤ THỜI BẮC TỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 848202,
+      "modified": "2026-08-15T09:49:55.000Z",
+      "checksum": "e30de463aad700b6c4defb5988389f5a",
+      "folder": false
+    },
+    {
+      "id": "14RMmIQzDefGXwLyz17TINI8Nfuvpct7x",
+      "parent_id": "1bMFFzfqWls2TPguZS-bxPD3buAocWDsF",
+      "name": "GẢ CHO NHÂN VIÊN CÔNG VỤ THỜI BẮC TỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 2380865,
+      "modified": "2026-08-15T09:49:52.000Z",
+      "checksum": "190d4c1cee84af4e6e85611f26aab4de",
+      "folder": false
+    }
+  ]
+}

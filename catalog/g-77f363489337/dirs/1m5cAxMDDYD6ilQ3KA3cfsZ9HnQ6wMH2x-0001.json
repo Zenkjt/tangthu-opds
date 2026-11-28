@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1m5cAxMDDYD6ilQ3KA3cfsZ9HnQ6wMH2x",
+  "page": 1,
+  "items": [
+    {
+      "id": "1x5mYdrc4QlIGU3Wp9qlYJn8cTdYih67O",
+      "parent_id": "1m5cAxMDDYD6ilQ3KA3cfsZ9HnQ6wMH2x",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2357,
+      "modified": "2026-08-15T07:23:52.000Z",
+      "checksum": "3ec3ffbb4692a6c91de9c55a1f5b2bcf",
+      "folder": false
+    },
+    {
+      "id": "1FNJQapMxMFu69iQBGHJVZa2dudzCJBV8",
+      "parent_id": "1m5cAxMDDYD6ilQ3KA3cfsZ9HnQ6wMH2x",
+      "name": "TỪ BỎ EM KIẾP SAU NHÉ.epub",
+      "mime": "application/epub+zip",
+      "size": 636262,
+      "modified": "2026-08-15T07:23:59.000Z",
+      "checksum": "8dce479f41468bc373dbb818d3b4e077",
+      "folder": false
+    },
+    {
+      "id": "1KcOkfJASSreJbwXfnWFQjTDUB3BtCLEi",
+      "parent_id": "1m5cAxMDDYD6ilQ3KA3cfsZ9HnQ6wMH2x",
+      "name": "TỪ BỎ EM KIẾP SAU NHÉ.pdf",
+      "mime": "application/pdf",
+      "size": 2250702,
+      "modified": "2026-08-15T07:23:56.000Z",
+      "checksum": "16fb1b62db73928aa3df31d30ab04725",
+      "folder": false
+    }
+  ]
+}

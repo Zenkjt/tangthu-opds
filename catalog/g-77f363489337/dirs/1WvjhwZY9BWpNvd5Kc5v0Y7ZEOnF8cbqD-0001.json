@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WvjhwZY9BWpNvd5Kc5v0Y7ZEOnF8cbqD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UQQd4YyTTWDca3-SkgsUtpb4FW8afiMF",
+      "parent_id": "1WvjhwZY9BWpNvd5Kc5v0Y7ZEOnF8cbqD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11308,
+      "modified": "2026-08-15T07:55:36.000Z",
+      "checksum": "91469a3c8a2530ccd7edd399e9e3037c",
+      "folder": false
+    },
+    {
+      "id": "1mvABMfkwhYJ3w-dMoD0NHVVWNBMDXPIV",
+      "parent_id": "1WvjhwZY9BWpNvd5Kc5v0Y7ZEOnF8cbqD",
+      "name": "LES - VÒNG TAY KHÔNG ĐÀN ÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 711549,
+      "modified": "2026-08-15T07:55:43.000Z",
+      "checksum": "35b56ceb817324f5400b4df9eae64aa7",
+      "folder": false
+    },
+    {
+      "id": "15ZPkQxt1y2GiaJRsBf0FJQkllz8Rdnaw",
+      "parent_id": "1WvjhwZY9BWpNvd5Kc5v0Y7ZEOnF8cbqD",
+      "name": "LES - VÒNG TAY KHÔNG ĐÀN ÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 795296,
+      "modified": "2026-08-15T07:55:40.000Z",
+      "checksum": "baf4ff1560f3314d91b2ad6ad36ba256",
+      "folder": false
+    }
+  ]
+}

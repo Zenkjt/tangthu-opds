@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1f59FRWuCSPYMQZOjsmRZgKC2IKho3bP-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XWj909pDLiK2c7fOXWmCBoS7jwy8PZQ5",
+      "parent_id": "1f59FRWuCSPYMQZOjsmRZgKC2IKho3bP-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3360,
+      "modified": "2026-08-15T03:28:54.000Z",
+      "checksum": "a479a1264c9ddfc395b26359d55bf96e",
+      "folder": false
+    },
+    {
+      "id": "16qHfBMdQ2EDk19cLhUgxUTQdedwSdP6n",
+      "parent_id": "1f59FRWuCSPYMQZOjsmRZgKC2IKho3bP-",
+      "name": "TỨ DIỆU ĐẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 226179,
+      "modified": "2026-08-15T03:29:00.000Z",
+      "checksum": "cffe594ecbab6989d07c00e4f0748fb9",
+      "folder": false
+    },
+    {
+      "id": "1j-7Z8nE86dO5ZDozCANeqnszOstGPqJU",
+      "parent_id": "1f59FRWuCSPYMQZOjsmRZgKC2IKho3bP-",
+      "name": "TỨ DIỆU ĐẾ.pdf",
+      "mime": "application/pdf",
+      "size": 418817,
+      "modified": "2026-08-15T03:28:57.000Z",
+      "checksum": "2b621bad23668e045dc16e0cc1576a9f",
+      "folder": false
+    }
+  ]
+}

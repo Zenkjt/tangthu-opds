@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1763wR4mmQcwUVZbYYLCgEbNqDLE70k2d",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ca50ZNFiZbApEdnzPiiGZzvsICg9TPmb",
+      "parent_id": "1763wR4mmQcwUVZbYYLCgEbNqDLE70k2d",
+      "name": "CONTENT BẠC TỶ.epub",
+      "mime": "application/epub+zip",
+      "size": 5829350,
+      "modified": "2026-08-15T00:55:52.000Z",
+      "checksum": "bbbb9f28e3ad4405be6a343abd1dfa2f",
+      "folder": false
+    },
+    {
+      "id": "10a5gJdrVa3GlfqyXNQ2lXHReppss_IBj",
+      "parent_id": "1763wR4mmQcwUVZbYYLCgEbNqDLE70k2d",
+      "name": "CONTENT BẠC TỶ.pdf",
+      "mime": "application/pdf",
+      "size": 6881005,
+      "modified": "2026-08-15T00:55:49.000Z",
+      "checksum": "e8e5534449cee315d37b8a6341d793e7",
+      "folder": false
+    },
+    {
+      "id": "1PhpjdPBWK2M_Tf5mcimsytSobZ00dm2A",
+      "parent_id": "1763wR4mmQcwUVZbYYLCgEbNqDLE70k2d",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11342,
+      "modified": "2026-08-15T00:55:44.000Z",
+      "checksum": "db3f5da3c6d1e49366f37338669c472b",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13JxS-QyF-wjN_OR9ih-eiwafo0a-f4AY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZolNc7MYkhJZjs0kgskml9aZgDxk1Yiq",
+      "parent_id": "13JxS-QyF-wjN_OR9ih-eiwafo0a-f4AY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 925,
+      "modified": "2026-08-15T09:41:47.000Z",
+      "checksum": "c9a548f32eec097ffdaff5838f63b1d8",
+      "folder": false
+    },
+    {
+      "id": "1e4-D0vLmyWrYixEGBMnC-aINbuT0vsNf",
+      "parent_id": "13JxS-QyF-wjN_OR9ih-eiwafo0a-f4AY",
+      "name": "MAI KHÔI SỨ GIẢ.epub",
+      "mime": "application/epub+zip",
+      "size": 1450331,
+      "modified": "2026-08-15T09:41:57.000Z",
+      "checksum": "c8db809266984af09b2825487a1da13e",
+      "folder": false
+    },
+    {
+      "id": "1GfNwRYh9prDNMz8Ae8RQaxee-FAIkTpm",
+      "parent_id": "13JxS-QyF-wjN_OR9ih-eiwafo0a-f4AY",
+      "name": "MAI KHÔI SỨ GIẢ.pdf",
+      "mime": "application/pdf",
+      "size": 4526790,
+      "modified": "2026-08-15T09:41:54.000Z",
+      "checksum": "00975b4013aabce29df29b9044ac8792",
+      "folder": false
+    }
+  ]
+}

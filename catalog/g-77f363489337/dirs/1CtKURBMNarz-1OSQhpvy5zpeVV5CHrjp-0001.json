@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CtKURBMNarz-1OSQhpvy5zpeVV5CHrjp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JxQZL_KpcvxxMKcY7phBMevod38Fy5It",
+      "parent_id": "1CtKURBMNarz-1OSQhpvy5zpeVV5CHrjp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 996,
+      "modified": "2026-08-15T12:46:39.000Z",
+      "checksum": "29fb22c993d37e0128258330c3396f4c",
+      "folder": false
+    },
+    {
+      "id": "1pBJqB-M92HGliFSdOhSKSy_ZrOA3_pck",
+      "parent_id": "1CtKURBMNarz-1OSQhpvy5zpeVV5CHrjp",
+      "name": "ĐẢO MỘNG MƠ.epub",
+      "mime": "application/epub+zip",
+      "size": 303184,
+      "modified": "2026-08-15T12:46:49.000Z",
+      "checksum": "4fca3c706381f29c85f42840650fdd58",
+      "folder": false
+    },
+    {
+      "id": "10_zr7Ywz0Wk4hBSia9orjOG9IJGNKm0_",
+      "parent_id": "1CtKURBMNarz-1OSQhpvy5zpeVV5CHrjp",
+      "name": "ĐẢO MỘNG MƠ.pdf",
+      "mime": "application/pdf",
+      "size": 635212,
+      "modified": "2026-08-15T12:46:46.000Z",
+      "checksum": "22c69ce96a15e3a0b3f3d0bba7c9cf70",
+      "folder": false
+    }
+  ]
+}

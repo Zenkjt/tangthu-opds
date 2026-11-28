@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FLO3hYCMm0KazFrXkiZRd_XM7wdkmIFM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZgOG-8AmmdGFUTWbLliVDbveRDOKMTQF",
+      "parent_id": "1FLO3hYCMm0KazFrXkiZRd_XM7wdkmIFM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2760,
+      "modified": "2026-08-15T03:53:05.000Z",
+      "checksum": "68e9f39393272e0e5acd9dc594bee6c3",
+      "folder": false
+    },
+    {
+      "id": "1vO7Oa7SxDg65VQsswDSAD-JTwHiDuEuT",
+      "parent_id": "1FLO3hYCMm0KazFrXkiZRd_XM7wdkmIFM",
+      "name": "PHẬT MIỀN TÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 868596,
+      "modified": "2026-08-15T03:53:17.000Z",
+      "checksum": "dce0346f926717cc5e4b4a87e56e6ee3",
+      "folder": false
+    },
+    {
+      "id": "1vSEZKTxWyxOitXJBFuVM-OHGxn9ngpoK",
+      "parent_id": "1FLO3hYCMm0KazFrXkiZRd_XM7wdkmIFM",
+      "name": "PHẬT MIỀN TÂY.pdf",
+      "mime": "application/pdf",
+      "size": 1852210,
+      "modified": "2026-08-15T03:53:14.000Z",
+      "checksum": "c265c542037e10e33f2a1252cf90248e",
+      "folder": false
+    }
+  ]
+}

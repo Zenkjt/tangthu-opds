@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pM_4l_2ot1qD5ENUyyB-hHf3IAVh8sXq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sMnCpph9kSAhgD475noUhVfGeV_DSsuf",
+      "parent_id": "1pM_4l_2ot1qD5ENUyyB-hHf3IAVh8sXq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3396,
+      "modified": "2026-08-16T03:08:40.000Z",
+      "checksum": "4f5ee2406dfa9bb35298f3f20f0d0b07",
+      "folder": false
+    },
+    {
+      "id": "113ElApufIXZ7l5opfM0QpsXg8Y7GpRRH",
+      "parent_id": "1pM_4l_2ot1qD5ENUyyB-hHf3IAVh8sXq",
+      "name": "THOÁT BÓNG.epub",
+      "mime": "application/epub+zip",
+      "size": 687421,
+      "modified": "2026-08-16T03:08:48.000Z",
+      "checksum": "75753e51e6e9946b465311be1cdfc919",
+      "folder": false
+    },
+    {
+      "id": "1iWVkJHWvmW0i-6XyDut6A5mB1mhO9VnA",
+      "parent_id": "1pM_4l_2ot1qD5ENUyyB-hHf3IAVh8sXq",
+      "name": "THOÁT BÓNG.pdf",
+      "mime": "application/pdf",
+      "size": 1395351,
+      "modified": "2026-08-16T03:08:45.000Z",
+      "checksum": "a3493c1b84e1832ff73ba76da30956bd",
+      "folder": false
+    }
+  ]
+}

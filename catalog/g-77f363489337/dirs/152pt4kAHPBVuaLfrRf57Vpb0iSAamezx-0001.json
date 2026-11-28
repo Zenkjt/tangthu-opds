@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "152pt4kAHPBVuaLfrRf57Vpb0iSAamezx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oGu0BCBERlKxQIXKKFeX8YROjW6ks7ZJ",
+      "parent_id": "152pt4kAHPBVuaLfrRf57Vpb0iSAamezx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3335,
+      "modified": "2026-08-16T03:17:27.000Z",
+      "checksum": "f8614d90e18bc4d88644b3f5814070bd",
+      "folder": false
+    },
+    {
+      "id": "1nq6GhVj-Kp4VNVWQvThq5u2KlUO9SiTf",
+      "parent_id": "152pt4kAHPBVuaLfrRf57Vpb0iSAamezx",
+      "name": "NHỮNG CÂU CHUYỆN KỲ LẠ NHẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 856146,
+      "modified": "2026-08-16T03:17:35.000Z",
+      "checksum": "909763dcb8e6794b175db822de54f8cf",
+      "folder": false
+    },
+    {
+      "id": "18PZUD-4y0o0Mp_45ozvNwGWKLgOstNXG",
+      "parent_id": "152pt4kAHPBVuaLfrRf57Vpb0iSAamezx",
+      "name": "NHỮNG CÂU CHUYỆN KỲ LẠ NHẤT.pdf",
+      "mime": "application/pdf",
+      "size": 1381595,
+      "modified": "2026-08-16T03:17:31.000Z",
+      "checksum": "a2f5204400f37a1aab226c52ed7ceb30",
+      "folder": false
+    }
+  ]
+}

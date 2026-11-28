@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gwS4CzzAUfS71L_ApJ--MaJU0kwpGWh1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SfYn8rdVSB9_FFryAbFeJgWVgYeSQl_2",
+      "parent_id": "1gwS4CzzAUfS71L_ApJ--MaJU0kwpGWh1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3326,
+      "modified": "2026-08-15T10:14:23.000Z",
+      "checksum": "cceb7c52856949117ea690c58368e47c",
+      "folder": false
+    },
+    {
+      "id": "1j3IMRx0amjjD_bnCfH0tzDXlcYEuL4q-",
+      "parent_id": "1gwS4CzzAUfS71L_ApJ--MaJU0kwpGWh1",
+      "name": "THIÊN TÀI CUỒNG PHI.epub",
+      "mime": "application/epub+zip",
+      "size": 1177967,
+      "modified": "2026-08-15T10:14:34.000Z",
+      "checksum": "f07161a67494b98d0dec119b2ce2ca30",
+      "folder": false
+    },
+    {
+      "id": "1VTA_lvV-bJsDWqulw0t-npCLq-PqbiD3",
+      "parent_id": "1gwS4CzzAUfS71L_ApJ--MaJU0kwpGWh1",
+      "name": "THIÊN TÀI CUỒNG PHI.pdf",
+      "mime": "application/pdf",
+      "size": 4186563,
+      "modified": "2026-08-15T10:14:30.000Z",
+      "checksum": "11a0192cd7eab36fc7bc7615fa1fb71c",
+      "folder": false
+    }
+  ]
+}

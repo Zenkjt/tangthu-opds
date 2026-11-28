@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xb6nuIw1czE67beAgAJd0nqrRhBDnkXY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Dh_iYPql2-K553uKJlHFYfBtGkbnx-WZ",
+      "parent_id": "1xb6nuIw1czE67beAgAJd0nqrRhBDnkXY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6989,
+      "modified": "2026-08-16T03:46:23.000Z",
+      "checksum": "f3d7507b130de7b7e81ff6aad6f28f5f",
+      "folder": false
+    },
+    {
+      "id": "15iYttG2KwpyrMx9V4Zv6m5wR84-9nei7",
+      "parent_id": "1xb6nuIw1czE67beAgAJd0nqrRhBDnkXY",
+      "name": "TỐI NAY MUỐN BÊN EM.epub",
+      "mime": "application/epub+zip",
+      "size": 374457,
+      "modified": "2026-08-16T03:46:28.000Z",
+      "checksum": "f976b177306d2f85e77406dfa3dac3ae",
+      "folder": false
+    },
+    {
+      "id": "1FpGR6Za_pIIakbBpz7KiFlSaitYcd-wW",
+      "parent_id": "1xb6nuIw1czE67beAgAJd0nqrRhBDnkXY",
+      "name": "TỐI NAY MUỐN BÊN EM.pdf",
+      "mime": "application/pdf",
+      "size": 623352,
+      "modified": "2026-08-16T03:46:26.000Z",
+      "checksum": "a4ef1108ecd863ae34ce1e7e8780fd6b",
+      "folder": false
+    }
+  ]
+}

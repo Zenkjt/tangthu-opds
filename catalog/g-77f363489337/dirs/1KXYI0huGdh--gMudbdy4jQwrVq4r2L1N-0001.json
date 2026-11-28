@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KXYI0huGdh--gMudbdy4jQwrVq4r2L1N",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_B7aNKjIDPP_rzky1fdhO3BVXOlaCFED",
+      "parent_id": "1KXYI0huGdh--gMudbdy4jQwrVq4r2L1N",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3647,
+      "modified": "2026-08-15T07:13:20.000Z",
+      "checksum": "0f248071fde57afc3204fd864ed0a954",
+      "folder": false
+    },
+    {
+      "id": "1Q1ZGeAakfqOkRD1Ty3MdMSEVU-unielJ",
+      "parent_id": "1KXYI0huGdh--gMudbdy4jQwrVq4r2L1N",
+      "name": "ĐỨA CON NGOÀI GIÁ THÚ.epub",
+      "mime": "application/epub+zip",
+      "size": 663308,
+      "modified": "2026-08-15T07:13:26.000Z",
+      "checksum": "8ecaaaffc701472ed28a894abcd0db3f",
+      "folder": false
+    },
+    {
+      "id": "1ldS9F9Kg1bwS3p7xLWmwHT3CN0A3vzbL",
+      "parent_id": "1KXYI0huGdh--gMudbdy4jQwrVq4r2L1N",
+      "name": "ĐỨA CON NGOÀI GIÁ THÚ.pdf",
+      "mime": "application/pdf",
+      "size": 1159211,
+      "modified": "2026-08-15T07:13:23.000Z",
+      "checksum": "e736a4a55998e101833d52f8a0aad671",
+      "folder": false
+    }
+  ]
+}

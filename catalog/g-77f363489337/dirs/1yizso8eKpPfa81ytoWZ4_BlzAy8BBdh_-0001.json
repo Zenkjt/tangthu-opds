@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yizso8eKpPfa81ytoWZ4_BlzAy8BBdh_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YQkMAth3U4aCLuRyr5oxIk_dQgkfM51C",
+      "parent_id": "1yizso8eKpPfa81ytoWZ4_BlzAy8BBdh_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 551,
+      "modified": "2026-08-15T15:39:34.000Z",
+      "checksum": "df38de6d229332140ad877801b1c740e",
+      "folder": false
+    },
+    {
+      "id": "13ZTbZL8VtDJqwGb575UsVrHSUNPX7gDV",
+      "parent_id": "1yizso8eKpPfa81ytoWZ4_BlzAy8BBdh_",
+      "name": "NGƯỜI VÔ TỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 649430,
+      "modified": "2026-08-15T15:39:41.000Z",
+      "checksum": "344f368c8a3a2dee4f1e56da3fa9d051",
+      "folder": false
+    },
+    {
+      "id": "1zn0UWmKm-CjkdJQLUv_VXTDmc8Q1wPmG",
+      "parent_id": "1yizso8eKpPfa81ytoWZ4_BlzAy8BBdh_",
+      "name": "NGƯỜI VÔ TỘI.pdf",
+      "mime": "application/pdf",
+      "size": 1562149,
+      "modified": "2026-08-15T15:39:38.000Z",
+      "checksum": "d620ecc26b6860b4e02a67a048c4aea2",
+      "folder": false
+    }
+  ]
+}

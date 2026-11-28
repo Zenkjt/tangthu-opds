@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1n1nm7IH32ovpKhPmZS1Lvmr0pv6ypReo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IkD2Mz3Di8ASWUwjc21JTXhxgxfjYRw_",
+      "parent_id": "1n1nm7IH32ovpKhPmZS1Lvmr0pv6ypReo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 556,
+      "modified": "2026-08-15T15:38:49.000Z",
+      "checksum": "0dd4ad17b140df37c404e4ec991a1c34",
+      "folder": false
+    },
+    {
+      "id": "1Gi5GbTJjFCMfQzIdzInfBHbF6hfWPR3H",
+      "parent_id": "1n1nm7IH32ovpKhPmZS1Lvmr0pv6ypReo",
+      "name": "PHÁO HIỆU ĐỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 344802,
+      "modified": "2026-08-15T15:39:01.000Z",
+      "checksum": "6f23243635cf8be8c54719c7f817aabd",
+      "folder": false
+    },
+    {
+      "id": "1EZ0lvvBlnULg7Vq0sr6AAhQXz7XAE52f",
+      "parent_id": "1n1nm7IH32ovpKhPmZS1Lvmr0pv6ypReo",
+      "name": "PHÁO HIỆU ĐỎ.pdf",
+      "mime": "application/pdf",
+      "size": 382860,
+      "modified": "2026-08-15T15:38:57.000Z",
+      "checksum": "d9638d351a65a547eababc98fd29c7fc",
+      "folder": false
+    }
+  ]
+}

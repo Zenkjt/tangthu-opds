@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XYs551GX-E4EKhnc9Gz9ifY3nK6iR1BN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_oFYO1zesS-IMJDrOFYps0aHpI922PIv",
+      "parent_id": "1XYs551GX-E4EKhnc9Gz9ifY3nK6iR1BN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 898,
+      "modified": "2026-08-15T07:09:20.000Z",
+      "checksum": "2dfa61f10faa1d527d122a9ba6ff4028",
+      "folder": false
+    },
+    {
+      "id": "1h7cE7dX76Jvp8ktWttBTlXyg9nBnQRoY",
+      "parent_id": "1XYs551GX-E4EKhnc9Gz9ifY3nK6iR1BN",
+      "name": "NGƯỜI MẸ ĐẺ THUÊ.epub",
+      "mime": "application/epub+zip",
+      "size": 115913,
+      "modified": "2026-08-15T07:09:26.000Z",
+      "checksum": "c25813966bca70fd40b3677b5a6d1691",
+      "folder": false
+    },
+    {
+      "id": "1cuTvw8Gk6-4_YwoUPsb0J2VrLylfk879",
+      "parent_id": "1XYs551GX-E4EKhnc9Gz9ifY3nK6iR1BN",
+      "name": "NGƯỜI MẸ ĐẺ THUÊ.pdf",
+      "mime": "application/pdf",
+      "size": 197797,
+      "modified": "2026-08-15T07:09:23.000Z",
+      "checksum": "132beb6265273ed4149f69fdbfc6843b",
+      "folder": false
+    }
+  ]
+}

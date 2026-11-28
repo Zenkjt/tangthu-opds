@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tea8wu74t6A4krDxdB9Dp-utiCHEvJcX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BfPwCtUtfg1AXTppcRvOF8dX1USRlcOG",
+      "parent_id": "1tea8wu74t6A4krDxdB9Dp-utiCHEvJcX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5985,
+      "modified": "2026-08-15T08:01:08.000Z",
+      "checksum": "aef6d1cdb1a20ec88e741c6ef910e755",
+      "folder": false
+    },
+    {
+      "id": "1V3oREvLCQQEPhTD8h_Rdn89dC2-jTLHe",
+      "parent_id": "1tea8wu74t6A4krDxdB9Dp-utiCHEvJcX",
+      "name": "GIANG SƠN CHIẾN ĐỒ.epub",
+      "mime": "application/epub+zip",
+      "size": 7011813,
+      "modified": "2026-08-15T08:01:22.000Z",
+      "checksum": "36adfac1ea748f8f6ead2fdceadbd385",
+      "folder": false
+    },
+    {
+      "id": "1cxC4o0p7--lHCs5YA5zZFqgx4Gf8UDEY",
+      "parent_id": "1tea8wu74t6A4krDxdB9Dp-utiCHEvJcX",
+      "name": "GIANG SƠN CHIẾN ĐỒ.pdf",
+      "mime": "application/pdf",
+      "size": 5500217,
+      "modified": "2026-08-15T08:01:17.000Z",
+      "checksum": "f772657788f05ec177fcd4f7102c9413",
+      "folder": false
+    }
+  ]
+}

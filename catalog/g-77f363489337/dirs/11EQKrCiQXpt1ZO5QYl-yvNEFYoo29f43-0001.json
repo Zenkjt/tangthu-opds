@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11EQKrCiQXpt1ZO5QYl-yvNEFYoo29f43",
+  "page": 1,
+  "items": [
+    {
+      "id": "1l1EayFcX2PrKalvY4yZBmU6rKtulSWFE",
+      "parent_id": "11EQKrCiQXpt1ZO5QYl-yvNEFYoo29f43",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4257,
+      "modified": "2026-08-15T06:58:52.000Z",
+      "checksum": "2933ee6182746be2cf48701a288b3b97",
+      "folder": false
+    },
+    {
+      "id": "1MTU7jR2v_bBpOQ_FPdaYp6jsi9JKdK_a",
+      "parent_id": "11EQKrCiQXpt1ZO5QYl-yvNEFYoo29f43",
+      "name": "MIẾNG DA LỪA.epub",
+      "mime": "application/epub+zip",
+      "size": 1053280,
+      "modified": "2026-08-15T06:59:07.000Z",
+      "checksum": "44f01d0809002cd5362292b1d530cd09",
+      "folder": false
+    },
+    {
+      "id": "1oLbezhBjAi6xZbtBig4q9Feyb9WfQPTV",
+      "parent_id": "11EQKrCiQXpt1ZO5QYl-yvNEFYoo29f43",
+      "name": "MIẾNG DA LỪA.pdf",
+      "mime": "application/pdf",
+      "size": 1124736,
+      "modified": "2026-08-15T06:59:00.000Z",
+      "checksum": "0fd09f5b53dcf1da9193cbea1e355580",
+      "folder": false
+    }
+  ]
+}

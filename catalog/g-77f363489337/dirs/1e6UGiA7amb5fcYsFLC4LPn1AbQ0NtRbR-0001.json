@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1e6UGiA7amb5fcYsFLC4LPn1AbQ0NtRbR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1byjGyld9vHyzEC4LLOwWDr3cSrYOSvL8",
+      "parent_id": "1e6UGiA7amb5fcYsFLC4LPn1AbQ0NtRbR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3084,
+      "modified": "2026-08-15T10:32:54.000Z",
+      "checksum": "ea206faf50208385602a736d51ebd79e",
+      "folder": false
+    },
+    {
+      "id": "1B21zVO1MYobQDOBe1EjP1MDtv2ly0tYE",
+      "parent_id": "1e6UGiA7amb5fcYsFLC4LPn1AbQ0NtRbR",
+      "name": "PHI THƯỜNG HOÀN MỸ.epub",
+      "mime": "application/epub+zip",
+      "size": 2155163,
+      "modified": "2026-08-15T10:33:03.000Z",
+      "checksum": "b275a309298393d1794f8b7215844d60",
+      "folder": false
+    },
+    {
+      "id": "1_wQrC3-2pG-sZdc6fBV2MSmm6-TMw_Hk",
+      "parent_id": "1e6UGiA7amb5fcYsFLC4LPn1AbQ0NtRbR",
+      "name": "PHI THƯỜNG HOÀN MỸ.pdf",
+      "mime": "application/pdf",
+      "size": 2445904,
+      "modified": "2026-08-15T10:33:00.000Z",
+      "checksum": "fe007c73a00fecd37b8f1b666dadf8b3",
+      "folder": false
+    }
+  ]
+}

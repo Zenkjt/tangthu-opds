@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BSYerEAgdnIAOjclcDq-8Z2QoV-4jLv2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MdEEQYFbMVlmGlDCJF2bJE76sRxU9O0T",
+      "parent_id": "1BSYerEAgdnIAOjclcDq-8Z2QoV-4jLv2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4699,
+      "modified": "2026-08-15T00:53:29.000Z",
+      "checksum": "20d8db61a5df33ed424f137890513385",
+      "folder": false
+    },
+    {
+      "id": "1JMsSG8EGWdtK2eslEOb-MqwAGl8oudt-",
+      "parent_id": "1BSYerEAgdnIAOjclcDq-8Z2QoV-4jLv2",
+      "name": "NHỮNG CÂU CHUYỆN KHÔNG PHẢI LÀ CỔ TÍCH.epub",
+      "mime": "application/epub+zip",
+      "size": 1581204,
+      "modified": "2026-08-15T00:53:35.000Z",
+      "checksum": "a1f8a01ad3b35da3d8299a7ae7b2682e",
+      "folder": false
+    },
+    {
+      "id": "1qmIhSv-WrOiJ3bNNiE9ZmKdPZy6jpBaB",
+      "parent_id": "1BSYerEAgdnIAOjclcDq-8Z2QoV-4jLv2",
+      "name": "NHỮNG CÂU CHUYỆN KHÔNG PHẢI LÀ CỔ TÍCH.pdf",
+      "mime": "application/pdf",
+      "size": 1877003,
+      "modified": "2026-08-15T00:53:32.000Z",
+      "checksum": "4d83e9c09e110e857979054cc12e738b",
+      "folder": false
+    }
+  ]
+}

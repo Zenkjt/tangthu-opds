@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MGThujhvGYSqb5_Z2qVQa49yu7ZnEACK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZzOq5lhyO19xtytymfDHQWTOZtq2XJcg",
+      "parent_id": "1MGThujhvGYSqb5_Z2qVQa49yu7ZnEACK",
+      "name": "BÁCH LUYỆN THÀNH THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 2216965,
+      "modified": "2026-08-15T09:25:09.000Z",
+      "checksum": "fcff027c2ec6e125fa640da511e11970",
+      "folder": false
+    },
+    {
+      "id": "1WJoiEM2KFfzRSAJeT4ufQzyoeJnEIccZ",
+      "parent_id": "1MGThujhvGYSqb5_Z2qVQa49yu7ZnEACK",
+      "name": "BÁCH LUYỆN THÀNH THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 10183160,
+      "modified": "2026-08-15T09:24:59.000Z",
+      "checksum": "4adf35fa5d862be5fe64dd46387ddd58",
+      "folder": false
+    },
+    {
+      "id": "1l2Leidyp8UCIpvihs_Iw-qvE_SPKd9r0",
+      "parent_id": "1MGThujhvGYSqb5_Z2qVQa49yu7ZnEACK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1107,
+      "modified": "2026-08-15T09:23:58.000Z",
+      "checksum": "ae295b38b940d827dbcfe4549496ba88",
+      "folder": false
+    }
+  ]
+}

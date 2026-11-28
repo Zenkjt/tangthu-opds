@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GHg-iAfrU8GAQAKwxZ5RIcTaJUFjfmhn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UmZIILTL9xRkVKiDxbI2m9zU1cSi8A-d",
+      "parent_id": "1GHg-iAfrU8GAQAKwxZ5RIcTaJUFjfmhn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4157,
+      "modified": "2026-08-15T03:21:18.000Z",
+      "checksum": "480059390f8c6ac2da177cd355dea9e7",
+      "folder": false
+    },
+    {
+      "id": "1bXGrE3desqEwLLkNQ3OqNEnVyAgIXe2c",
+      "parent_id": "1GHg-iAfrU8GAQAKwxZ5RIcTaJUFjfmhn",
+      "name": "TƯ DUY THIÊN TÀI.epub",
+      "mime": "application/epub+zip",
+      "size": 1094153,
+      "modified": "2026-08-15T03:21:28.000Z",
+      "checksum": "1a324e3f739f358c6ddc28cd2d94390c",
+      "folder": false
+    },
+    {
+      "id": "1Nq3OEoC2R6W1qTbSlp7RQaevl2LQSEkw",
+      "parent_id": "1GHg-iAfrU8GAQAKwxZ5RIcTaJUFjfmhn",
+      "name": "TƯ DUY THIÊN TÀI.pdf",
+      "mime": "application/pdf",
+      "size": 5440498,
+      "modified": "2026-08-15T03:21:24.000Z",
+      "checksum": "3e7051bcb309cc2839eaa078fc3393cc",
+      "folder": false
+    }
+  ]
+}

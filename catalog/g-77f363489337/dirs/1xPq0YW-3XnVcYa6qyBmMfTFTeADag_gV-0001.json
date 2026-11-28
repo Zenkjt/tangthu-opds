@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xPq0YW-3XnVcYa6qyBmMfTFTeADag_gV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-dqT66OebmeXrLiPg8hjGIKFJFPQthul",
+      "parent_id": "1xPq0YW-3XnVcYa6qyBmMfTFTeADag_gV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 533,
+      "modified": "2026-08-15T12:59:43.000Z",
+      "checksum": "04041441c478b9ec9a2c7ec9329d25e4",
+      "folder": false
+    },
+    {
+      "id": "1I3ubiBIhX0EJXVzyxEIrYgs4AYqnSDEV",
+      "parent_id": "1xPq0YW-3XnVcYa6qyBmMfTFTeADag_gV",
+      "name": "NHẬT KÝ CÔNG CHÚA.epub",
+      "mime": "application/epub+zip",
+      "size": 667704,
+      "modified": "2026-08-15T12:59:49.000Z",
+      "checksum": "fe9311e5faed2f959cdc09c86b5f5f36",
+      "folder": false
+    },
+    {
+      "id": "10qDPUOxr4-te28U4NjfR_thptQDq1ViQ",
+      "parent_id": "1xPq0YW-3XnVcYa6qyBmMfTFTeADag_gV",
+      "name": "NHẬT KÝ CÔNG CHÚA.pdf",
+      "mime": "application/pdf",
+      "size": 1324715,
+      "modified": "2026-08-15T12:59:47.000Z",
+      "checksum": "9f5190cc64c68d494355f8e745c5b0bd",
+      "folder": false
+    }
+  ]
+}

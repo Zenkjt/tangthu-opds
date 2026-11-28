@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16vDaMbO23oZDoeL3xKzQrp18e0hQNcUC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RmT0GY_DfVZWJB0qIb-x2EGsFC88qyfU",
+      "parent_id": "16vDaMbO23oZDoeL3xKzQrp18e0hQNcUC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5853,
+      "modified": "2026-08-15T12:53:21.000Z",
+      "checksum": "933062d8b7d84546871d186d54a85e4f",
+      "folder": false
+    },
+    {
+      "id": "1QI6e-yANTeTzbeeb04DdPb_Xm-09IJyj",
+      "parent_id": "16vDaMbO23oZDoeL3xKzQrp18e0hQNcUC",
+      "name": "ÁNH NẮNG NHIỆM MÀU.epub",
+      "mime": "application/epub+zip",
+      "size": 347122,
+      "modified": "2026-08-15T12:53:39.000Z",
+      "checksum": "85a8f4d947d4ae17f325ae0e15169cb3",
+      "folder": false
+    },
+    {
+      "id": "1wsd-OkHtfHuGn8PuCacGh7t5lVx9cgH6",
+      "parent_id": "16vDaMbO23oZDoeL3xKzQrp18e0hQNcUC",
+      "name": "ÁNH NẮNG NHIỆM MÀU.pdf",
+      "mime": "application/pdf",
+      "size": 895755,
+      "modified": "2026-08-15T12:53:31.000Z",
+      "checksum": "2333ee9354c5991182d64d6c8f3aecc7",
+      "folder": false
+    }
+  ]
+}

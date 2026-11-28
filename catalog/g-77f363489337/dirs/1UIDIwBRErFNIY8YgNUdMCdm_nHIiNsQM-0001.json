@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UIDIwBRErFNIY8YgNUdMCdm_nHIiNsQM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zM4ZoVbia7KPktk6prAVa0VN62AxKy69",
+      "parent_id": "1UIDIwBRErFNIY8YgNUdMCdm_nHIiNsQM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3331,
+      "modified": "2026-08-16T03:58:35.000Z",
+      "checksum": "c439fa25c1fcafbfd47321934d027326",
+      "folder": false
+    },
+    {
+      "id": "1-_dbWX-YxkzjMIkeElRLJ2IwMsv8svC_",
+      "parent_id": "1UIDIwBRErFNIY8YgNUdMCdm_nHIiNsQM",
+      "name": "THẾ GIỚI NGÀY HÔM QUA.epub",
+      "mime": "application/epub+zip",
+      "size": 844030,
+      "modified": "2026-08-16T03:58:44.000Z",
+      "checksum": "b39d9ad4a8d9555b3e2c76fac1743921",
+      "folder": false
+    },
+    {
+      "id": "1LdDzj1V57H2M85MZp8IoPVOdse2VQy3k",
+      "parent_id": "1UIDIwBRErFNIY8YgNUdMCdm_nHIiNsQM",
+      "name": "THẾ GIỚI NGÀY HÔM QUA.pdf",
+      "mime": "application/pdf",
+      "size": 1515897,
+      "modified": "2026-08-16T03:58:41.000Z",
+      "checksum": "9564ef3ca580deba8b96432cbe398184",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1q5Kuhwv-h-9-zcw_FVJy9QQo5DtgL5Ek",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RPIGJaRJKAxTWh36Brwv1Bouc9WWAWSN",
+      "parent_id": "1q5Kuhwv-h-9-zcw_FVJy9QQo5DtgL5Ek",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4911,
+      "modified": "2026-08-15T07:21:41.000Z",
+      "checksum": "9d511d3475ef2801e99a57c015e7b146",
+      "folder": false
+    },
+    {
+      "id": "1O3PAjXWcTZTqLozTTz7kRbN02gY4bFwa",
+      "parent_id": "1q5Kuhwv-h-9-zcw_FVJy9QQo5DtgL5Ek",
+      "name": "TRÊN BỜ SÔNG HOANG VẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 750313,
+      "modified": "2026-08-15T07:21:51.000Z",
+      "checksum": "fc087ad538bcbadd617a8f0eac78e996",
+      "folder": false
+    },
+    {
+      "id": "1RkSeieZ5_TSacCqdOQvayEMSgupzNBf6",
+      "parent_id": "1q5Kuhwv-h-9-zcw_FVJy9QQo5DtgL5Ek",
+      "name": "TRÊN BỜ SÔNG HOANG VẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 2318058,
+      "modified": "2026-08-15T07:21:48.000Z",
+      "checksum": "1be715fb0a1185293430a657d1e1f140",
+      "folder": false
+    }
+  ]
+}

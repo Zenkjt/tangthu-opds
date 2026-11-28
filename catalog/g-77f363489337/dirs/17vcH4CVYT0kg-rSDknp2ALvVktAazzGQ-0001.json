@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17vcH4CVYT0kg-rSDknp2ALvVktAazzGQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hjHkuiaNTYrVsBCp11IIxYviZf6AgSsq",
+      "parent_id": "17vcH4CVYT0kg-rSDknp2ALvVktAazzGQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6951,
+      "modified": "2026-08-16T03:18:17.000Z",
+      "checksum": "ca7a25fb236f2d1ff3835d130cb05f74",
+      "folder": false
+    },
+    {
+      "id": "16MsdtcCFqO10dNccZqW07dBispSmckax",
+      "parent_id": "17vcH4CVYT0kg-rSDknp2ALvVktAazzGQ",
+      "name": "LỜI NGUYỀN HAI TRĂM NĂM.epub",
+      "mime": "application/epub+zip",
+      "size": 862322,
+      "modified": "2026-08-16T03:18:24.000Z",
+      "checksum": "cbf910d19ad34934415db39312732ee7",
+      "folder": false
+    },
+    {
+      "id": "1kvUVbc1eL9TU022BYzVtV61tbGyAlqvQ",
+      "parent_id": "17vcH4CVYT0kg-rSDknp2ALvVktAazzGQ",
+      "name": "LỜI NGUYỀN HAI TRĂM NĂM.pdf",
+      "mime": "application/pdf",
+      "size": 645145,
+      "modified": "2026-08-16T03:18:21.000Z",
+      "checksum": "98412b682be6e661149788d08eb14bec",
+      "folder": false
+    }
+  ]
+}

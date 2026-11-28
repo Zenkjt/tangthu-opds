@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1moe0hTWNtidBgGo_0q3NrtXvszE0u-2A",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_F0Ehjh5epKxMrE652KYrFb8wAwPW4Kp",
+      "parent_id": "1moe0hTWNtidBgGo_0q3NrtXvszE0u-2A",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6314,
+      "modified": "2026-08-15T04:02:31.000Z",
+      "checksum": "334a7d55609c2af41863894a47d91b47",
+      "folder": false
+    },
+    {
+      "id": "1qcNq171ZZJkol7t8bRfsf3987cYAnNOQ",
+      "parent_id": "1moe0hTWNtidBgGo_0q3NrtXvszE0u-2A",
+      "name": "VƯỢT KHỎI BẠO LỰC.epub",
+      "mime": "application/epub+zip",
+      "size": 418930,
+      "modified": "2026-08-15T04:02:39.000Z",
+      "checksum": "c27f735b75c70fef20da59115b7c47ad",
+      "folder": false
+    },
+    {
+      "id": "1DtTfYdCoDk3Ell1IXX67usiU_KUqv4f9",
+      "parent_id": "1moe0hTWNtidBgGo_0q3NrtXvszE0u-2A",
+      "name": "VƯỢT KHỎI BẠO LỰC.pdf",
+      "mime": "application/pdf",
+      "size": 886274,
+      "modified": "2026-08-15T04:02:36.000Z",
+      "checksum": "040745f8b6c52616a2291adf03baaf63",
+      "folder": false
+    }
+  ]
+}

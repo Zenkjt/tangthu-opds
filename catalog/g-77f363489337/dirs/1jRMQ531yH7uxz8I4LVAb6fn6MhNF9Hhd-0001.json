@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jRMQ531yH7uxz8I4LVAb6fn6MhNF9Hhd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Pql1ee9bamuIP-z9-FzziQnRT7tk6iap",
+      "parent_id": "1jRMQ531yH7uxz8I4LVAb6fn6MhNF9Hhd",
+      "name": "CHUYỆN DÀI BẤT TẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 1358352,
+      "modified": "2026-08-16T03:24:43.000Z",
+      "checksum": "8e6cdc4680bb9ec6e86ef17414ea4c82",
+      "folder": false
+    },
+    {
+      "id": "1jz8Z-yCBy3fHKGyXiJJqo13iIp1m7cUO",
+      "parent_id": "1jRMQ531yH7uxz8I4LVAb6fn6MhNF9Hhd",
+      "name": "CHUYỆN DÀI BẤT TẬN.pdf",
+      "mime": "application/pdf",
+      "size": 1283573,
+      "modified": "2026-08-16T03:24:41.000Z",
+      "checksum": "da28948b12607c03c2f04cf10819a8c5",
+      "folder": false
+    },
+    {
+      "id": "1iEnSA_6O1zLEAdPBzomYATWm1-OpYMQ8",
+      "parent_id": "1jRMQ531yH7uxz8I4LVAb6fn6MhNF9Hhd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9490,
+      "modified": "2026-08-16T03:24:37.000Z",
+      "checksum": "b21894014ca749b8875ef3d8126e932c",
+      "folder": false
+    }
+  ]
+}

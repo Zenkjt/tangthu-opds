@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_Tc6io7FJetdmxEz3uGWbUZKES-2MrbS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RokVW9heX5pYDu3F9-XzW9wSCE3-2bmo",
+      "parent_id": "1_Tc6io7FJetdmxEz3uGWbUZKES-2MrbS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3310,
+      "modified": "2026-08-15T15:34:19.000Z",
+      "checksum": "f4e4dfbdf1a6bb4026c50ab6ca98fe6e",
+      "folder": false
+    },
+    {
+      "id": "1_q52hrpKRj8v9-7jcKSj0M7U4H3JoDp5",
+      "parent_id": "1_Tc6io7FJetdmxEz3uGWbUZKES-2MrbS",
+      "name": "VỤ BÍ ẨN ĐỒNG HỒ LA HÉT.epub",
+      "mime": "application/epub+zip",
+      "size": 533858,
+      "modified": "2026-08-15T15:34:25.000Z",
+      "checksum": "78e46e1d46fd91c75d1d9e0747cbb579",
+      "folder": false
+    },
+    {
+      "id": "1YzRi_oVYvCW75Yj73La99uIu-OMydapp",
+      "parent_id": "1_Tc6io7FJetdmxEz3uGWbUZKES-2MrbS",
+      "name": "VỤ BÍ ẨN ĐỒNG HỒ LA HÉT.pdf",
+      "mime": "application/pdf",
+      "size": 501762,
+      "modified": "2026-08-15T15:34:22.000Z",
+      "checksum": "c19b0f2bea13131d62c5af247bdbb625",
+      "folder": false
+    }
+  ]
+}

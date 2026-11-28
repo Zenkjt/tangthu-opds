@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wlmSXf9uzCCXq0ddoE_cE9URqcGcp9A4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uBHAa9zVoKwty7mv6JYrQmRl8AZMtyKb",
+      "parent_id": "1wlmSXf9uzCCXq0ddoE_cE9URqcGcp9A4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1845,
+      "modified": "2026-08-15T06:19:05.000Z",
+      "checksum": "0095dacb61b6f23b61aa793b405d32bb",
+      "folder": false
+    },
+    {
+      "id": "1RxrnPtKRL-C7xpz85zCIJm5mIN4FrCes",
+      "parent_id": "1wlmSXf9uzCCXq0ddoE_cE9URqcGcp9A4",
+      "name": "TƯƠNG LAI VĂN HÓA VIỆT NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 199452,
+      "modified": "2026-08-15T06:19:10.000Z",
+      "checksum": "fffc57de1c6679dd7f002caca0065222",
+      "folder": false
+    },
+    {
+      "id": "1UV6aVZYZ0aqkxWxwB1hEUBudkl34E0CO",
+      "parent_id": "1wlmSXf9uzCCXq0ddoE_cE9URqcGcp9A4",
+      "name": "TƯƠNG LAI VĂN HÓA VIỆT NAM.pdf",
+      "mime": "application/pdf",
+      "size": 389433,
+      "modified": "2026-08-15T06:19:08.000Z",
+      "checksum": "6d3803553bccccec8de1a4f04d7ade2b",
+      "folder": false
+    }
+  ]
+}

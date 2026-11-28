@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1USl6Zd6ccnL-8jzjPBMOkLKd04JT0MG4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1k8dF2U-pgU82zFOrIbzYX7vzPdQSGWvV",
+      "parent_id": "1USl6Zd6ccnL-8jzjPBMOkLKd04JT0MG4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4419,
+      "modified": "2026-08-16T03:38:49.000Z",
+      "checksum": "cf376934fb437287469dfed08a763c41",
+      "folder": false
+    },
+    {
+      "id": "1sK8t3nIyW4r6Rghip-WMfqZodsJf0MmK",
+      "parent_id": "1USl6Zd6ccnL-8jzjPBMOkLKd04JT0MG4",
+      "name": "LẮNG NGHE TIẾNG YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 457516,
+      "modified": "2026-08-16T03:38:55.000Z",
+      "checksum": "56dd0ca4fe7d904e36b8f625250eeea5",
+      "folder": false
+    },
+    {
+      "id": "1hsI9I0Vu6QZ64O-J3fmIuZC4bAXxezLE",
+      "parent_id": "1USl6Zd6ccnL-8jzjPBMOkLKd04JT0MG4",
+      "name": "LẮNG NGHE TIẾNG YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 688449,
+      "modified": "2026-08-16T03:38:52.000Z",
+      "checksum": "763a20173e390a05391fceccd652620c",
+      "folder": false
+    }
+  ]
+}

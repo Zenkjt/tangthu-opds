@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uDrAKYD-e4SPKEnkuQgCas9Vcp6CKC39",
+  "page": 1,
+  "items": [
+    {
+      "id": "1q2WMnnZKdEHikX5tHkbTvH-36123aC2Y",
+      "parent_id": "1uDrAKYD-e4SPKEnkuQgCas9Vcp6CKC39",
+      "name": "CON VOI.epub",
+      "mime": "application/epub+zip",
+      "size": 351669,
+      "modified": "2026-08-15T07:46:48.000Z",
+      "checksum": "6632edb59accd260456ae5de9f24c0f8",
+      "folder": false
+    },
+    {
+      "id": "1Z09udIiw24VuI63hCQE-Y2xCL8YVx-5p",
+      "parent_id": "1uDrAKYD-e4SPKEnkuQgCas9Vcp6CKC39",
+      "name": "CON VOI.pdf",
+      "mime": "application/pdf",
+      "size": 881762,
+      "modified": "2026-08-15T07:46:45.000Z",
+      "checksum": "3d35b73d63642ba7b7eb7cb7cc92295f",
+      "folder": false
+    },
+    {
+      "id": "1GfzscCHUdaELsLSoRsxYZkAszoK9QaA2",
+      "parent_id": "1uDrAKYD-e4SPKEnkuQgCas9Vcp6CKC39",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8219,
+      "modified": "2026-08-15T07:46:38.000Z",
+      "checksum": "5bc3fa5fc6de531719539a5c8e0f9fb7",
+      "folder": false
+    }
+  ]
+}

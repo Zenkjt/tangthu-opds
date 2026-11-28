@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10ER0mz5e4xBH7TdL8-i6ZmZIfmeGbBaw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_mBvaV8F0CAeb7xHyTdeUvb7uJzMphZS",
+      "parent_id": "10ER0mz5e4xBH7TdL8-i6ZmZIfmeGbBaw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5687,
+      "modified": "2026-08-15T07:34:26.000Z",
+      "checksum": "07f09b4a6fc623252d66075fa3c47e0e",
+      "folder": false
+    },
+    {
+      "id": "1xlbryqFFBGsDOFR75Ccmkd7gi9Do1uv4",
+      "parent_id": "10ER0mz5e4xBH7TdL8-i6ZmZIfmeGbBaw",
+      "name": "THANH GƯƠM CÔNG LÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 581409,
+      "modified": "2026-08-15T07:34:32.000Z",
+      "checksum": "300d62f7d3bd4ffe9f422c8b7a5895c8",
+      "folder": false
+    },
+    {
+      "id": "1Dgb7QoB7kzfbjQEo0tceQu556WoxWIDh",
+      "parent_id": "10ER0mz5e4xBH7TdL8-i6ZmZIfmeGbBaw",
+      "name": "THANH GƯƠM CÔNG LÝ.pdf",
+      "mime": "application/pdf",
+      "size": 1351790,
+      "modified": "2026-08-15T07:34:30.000Z",
+      "checksum": "4bc2a3c27ff545e9e4221423cf1f1e86",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gr6Jjsg3agq7TxpPI-ZczkXcBuYfSqx7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CP6uxSyd-WjsCFRe9DVSd2JphTFNFyj-",
+      "parent_id": "1gr6Jjsg3agq7TxpPI-ZczkXcBuYfSqx7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3042,
+      "modified": "2026-08-15T15:56:16.000Z",
+      "checksum": "b725c88969e6d4a86022086c3e329ef5",
+      "folder": false
+    },
+    {
+      "id": "1rGX7K1QLP1kBfU9WJ0rXkO0yH8Kn5Ug6",
+      "parent_id": "1gr6Jjsg3agq7TxpPI-ZczkXcBuYfSqx7",
+      "name": "TA LÀ ĐÀO HOA TINH.epub",
+      "mime": "application/epub+zip",
+      "size": 304726,
+      "modified": "2026-08-15T15:56:27.000Z",
+      "checksum": "d4dd701a29020f630f34c64fc027c702",
+      "folder": false
+    },
+    {
+      "id": "1W7IdaCXFnXPayv2WWhsIBJVEaDG2Xh9J",
+      "parent_id": "1gr6Jjsg3agq7TxpPI-ZczkXcBuYfSqx7",
+      "name": "TA LÀ ĐÀO HOA TINH.pdf",
+      "mime": "application/pdf",
+      "size": 446183,
+      "modified": "2026-08-15T15:56:24.000Z",
+      "checksum": "a7f271d9ed321c638e5127842830ea4c",
+      "folder": false
+    }
+  ]
+}

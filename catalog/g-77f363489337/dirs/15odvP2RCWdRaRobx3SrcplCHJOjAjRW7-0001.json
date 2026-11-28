@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15odvP2RCWdRaRobx3SrcplCHJOjAjRW7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JfyyJcD2S82jJNkIoc5jUbY4kNK-MO6a",
+      "parent_id": "15odvP2RCWdRaRobx3SrcplCHJOjAjRW7",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 6641,
+      "modified": "2026-08-15T00:55:50.000Z",
+      "checksum": "b64814f5c4f938184a9ca708d21e9333",
+      "folder": false
+    },
+    {
+      "id": "1GXv5U8KK1ck9HtfWM_2ZzcePCGNijSwC",
+      "parent_id": "15odvP2RCWdRaRobx3SrcplCHJOjAjRW7",
+      "name": "TRÍ TUỆ DO THÁI.epub",
+      "mime": "application/epub+zip",
+      "size": 606804,
+      "modified": "2026-08-15T00:55:58.000Z",
+      "checksum": "35e931861e73282f248a736d1e4c4400",
+      "folder": false
+    },
+    {
+      "id": "102nj_MwTaq3dAZjB7HmeXkmol3CCxBde",
+      "parent_id": "15odvP2RCWdRaRobx3SrcplCHJOjAjRW7",
+      "name": "TRÍ TUỆ DO THÁI.pdf",
+      "mime": "application/pdf",
+      "size": 3672432,
+      "modified": "2026-08-15T00:55:56.000Z",
+      "checksum": "d3e46c7421af0a1b66cd28f43c5f788c",
+      "folder": false
+    }
+  ]
+}

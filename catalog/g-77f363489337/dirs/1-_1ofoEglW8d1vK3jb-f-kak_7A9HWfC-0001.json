@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-_1ofoEglW8d1vK3jb-f-kak_7A9HWfC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gAvwVNvqKOc4VSdqyl9w-rU_zvir78sV",
+      "parent_id": "1-_1ofoEglW8d1vK3jb-f-kak_7A9HWfC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5472,
+      "modified": "2026-08-15T07:23:37.000Z",
+      "checksum": "f681d12d24affd154b902e921f5ab337",
+      "folder": false
+    },
+    {
+      "id": "1icuAOka-xUxVtPzjP_nO8v_SeU76rJn2",
+      "parent_id": "1-_1ofoEglW8d1vK3jb-f-kak_7A9HWfC",
+      "name": "TRUYỆN NGẮN KỲ LẠ.epub",
+      "mime": "application/epub+zip",
+      "size": 739813,
+      "modified": "2026-08-15T07:23:44.000Z",
+      "checksum": "7b31c3099ef5701d3576d50b71b7a4f2",
+      "folder": false
+    },
+    {
+      "id": "1LV1olU_4YfMd4vWFxzVPQuoRst-uL-3Y",
+      "parent_id": "1-_1ofoEglW8d1vK3jb-f-kak_7A9HWfC",
+      "name": "TRUYỆN NGẮN KỲ LẠ.pdf",
+      "mime": "application/pdf",
+      "size": 1081455,
+      "modified": "2026-08-15T07:23:41.000Z",
+      "checksum": "9886c6d6e77479417a6f98ce1d270021",
+      "folder": false
+    }
+  ]
+}

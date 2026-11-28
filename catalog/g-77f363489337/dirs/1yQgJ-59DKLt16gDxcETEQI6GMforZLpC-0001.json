@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yQgJ-59DKLt16gDxcETEQI6GMforZLpC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LQTqM-9dKyX8ZBlBOpb6PUKTXsUoZejj",
+      "parent_id": "1yQgJ-59DKLt16gDxcETEQI6GMforZLpC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3083,
+      "modified": "2026-08-15T10:09:59.000Z",
+      "checksum": "b1937995b71f6b272ccb3aed0f83f7d4",
+      "folder": false
+    },
+    {
+      "id": "1FgPn_U4lKvMf8vMewARpP_eejCIs21JH",
+      "parent_id": "1yQgJ-59DKLt16gDxcETEQI6GMforZLpC",
+      "name": "TIẾU LÂM VIỆT NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 415143,
+      "modified": "2026-08-15T10:10:06.000Z",
+      "checksum": "ac07d6f62741d725e6e671c5874e4e2f",
+      "folder": false
+    },
+    {
+      "id": "1iHDf0egtZTE1-LeIy2t0Bc6BHeLDWlAa",
+      "parent_id": "1yQgJ-59DKLt16gDxcETEQI6GMforZLpC",
+      "name": "TIẾU LÂM VIỆT NAM.pdf",
+      "mime": "application/pdf",
+      "size": 466296,
+      "modified": "2026-08-15T10:10:04.000Z",
+      "checksum": "cd76bf9cdf987c2dfe4716c85bca388e",
+      "folder": false
+    }
+  ]
+}

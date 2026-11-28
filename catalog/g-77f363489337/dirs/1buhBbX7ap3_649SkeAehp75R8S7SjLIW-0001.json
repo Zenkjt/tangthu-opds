@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1buhBbX7ap3_649SkeAehp75R8S7SjLIW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_P_PPujXhGhYN7yWIiSum69X7C7EOxji",
+      "parent_id": "1buhBbX7ap3_649SkeAehp75R8S7SjLIW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2644,
+      "modified": "2026-08-15T04:03:03.000Z",
+      "checksum": "000c1fcdd3c575c298fa41e31bc45cb5",
+      "folder": false
+    },
+    {
+      "id": "1npmC_i0-gNV6xpY8qVMDRkfac2tQ0b1K",
+      "parent_id": "1buhBbX7ap3_649SkeAehp75R8S7SjLIW",
+      "name": "GIỚI TIẾP HIỆN CHÚ GIẢI.epub",
+      "mime": "application/epub+zip",
+      "size": 317269,
+      "modified": "2026-08-15T04:03:09.000Z",
+      "checksum": "e44c13d5841a66994128d9615ce4d903",
+      "folder": false
+    },
+    {
+      "id": "1lZJbAuVTTLvMzGJspnjWLEirhbFNNV_O",
+      "parent_id": "1buhBbX7ap3_649SkeAehp75R8S7SjLIW",
+      "name": "GIỚI TIẾP HIỆN CHÚ GIẢI.pdf",
+      "mime": "application/pdf",
+      "size": 698524,
+      "modified": "2026-08-15T04:03:06.000Z",
+      "checksum": "82aed8a3a9e8897b1b7fb078f6ec2e04",
+      "folder": false
+    }
+  ]
+}

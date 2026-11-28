@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12rMSL85XGFctV63FIPnepyeYXKgCvLOa",
+  "page": 1,
+  "items": [
+    {
+      "id": "13rs8cdHmjG1YFi7TdvtlJrsOty9JZCQu",
+      "parent_id": "12rMSL85XGFctV63FIPnepyeYXKgCvLOa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 432,
+      "modified": "2026-08-16T04:18:53.000Z",
+      "checksum": "90bed0e2aa1b33722641d5456819605d",
+      "folder": false
+    },
+    {
+      "id": "1UHJNlmQYOfr7U5AChB86qIXRukOLdPWy",
+      "parent_id": "12rMSL85XGFctV63FIPnepyeYXKgCvLOa",
+      "name": "KHÓC LÊN ĐI, ÔI QUÊ HƯƠNG YÊU DẤU.epub",
+      "mime": "application/epub+zip",
+      "size": 568335,
+      "modified": "2026-08-16T04:19:01.000Z",
+      "checksum": "29d0cdbf2d4d62ef01cdd924eb76ae1e",
+      "folder": false
+    },
+    {
+      "id": "16fBFFFas-YpVBJ0r5NUVhbYSpAtJLdKC",
+      "parent_id": "12rMSL85XGFctV63FIPnepyeYXKgCvLOa",
+      "name": "KHÓC LÊN ĐI, ÔI QUÊ HƯƠNG YÊU DẤU.pdf",
+      "mime": "application/pdf",
+      "size": 1162233,
+      "modified": "2026-08-16T04:18:58.000Z",
+      "checksum": "84158da12bcd90647d33903566035f23",
+      "folder": false
+    }
+  ]
+}

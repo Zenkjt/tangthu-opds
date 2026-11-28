@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YZ8YCJYtBnStd4a2TrDIOFaJaCMrwRS-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Eu1JBsprhiL5OvaQjDhXhR0F6dNg8e-h",
+      "parent_id": "1YZ8YCJYtBnStd4a2TrDIOFaJaCMrwRS-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1558,
+      "modified": "2026-08-15T09:42:49.000Z",
+      "checksum": "18900d6427feaf6dd0808d85bdf93b26",
+      "folder": false
+    },
+    {
+      "id": "1xowLk0Wn20Y5dfw7QH3tyfr9AnTrSy7q",
+      "parent_id": "1YZ8YCJYtBnStd4a2TrDIOFaJaCMrwRS-",
+      "name": "LỮ QUÁN 007.epub",
+      "mime": "application/epub+zip",
+      "size": 328321,
+      "modified": "2026-08-15T09:42:56.000Z",
+      "checksum": "62d5660a6b45deeb2a571f10fb0f20d5",
+      "folder": false
+    },
+    {
+      "id": "14zwKUxh614FMJ93ka1e9YJis_b43TbMp",
+      "parent_id": "1YZ8YCJYtBnStd4a2TrDIOFaJaCMrwRS-",
+      "name": "LỮ QUÁN 007.pdf",
+      "mime": "application/pdf",
+      "size": 448317,
+      "modified": "2026-08-15T09:42:53.000Z",
+      "checksum": "94317581fb939aa2416f2044155e202e",
+      "folder": false
+    }
+  ]
+}

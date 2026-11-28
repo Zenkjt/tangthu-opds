@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wznkoVgO55XBHDPV35874MJRZKW6Y0Xb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yR2qR5WipyHG19bLvyoDeDTqnhXgQiXm",
+      "parent_id": "1wznkoVgO55XBHDPV35874MJRZKW6Y0Xb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 646,
+      "modified": "2026-08-15T10:47:49.000Z",
+      "checksum": "f51b0b2fe6f4b24b1a0af345ba55d4f5",
+      "folder": false
+    },
+    {
+      "id": "1Y61VRcKe2_sCFttx4agb7_PnHRnbuY6L",
+      "parent_id": "1wznkoVgO55XBHDPV35874MJRZKW6Y0Xb",
+      "name": "NẾU MỘT ĐÊM ĐÔNG CÓ NGƯỜI LỮ KHÁCH.epub",
+      "mime": "application/epub+zip",
+      "size": 506787,
+      "modified": "2026-08-15T10:47:57.000Z",
+      "checksum": "0a1631daff24c0440a21df0ce95ee399",
+      "folder": false
+    },
+    {
+      "id": "1tqDJllrFgE5NjQKSQgPHCN48HlDobmId",
+      "parent_id": "1wznkoVgO55XBHDPV35874MJRZKW6Y0Xb",
+      "name": "NẾU MỘT ĐÊM ĐÔNG CÓ NGƯỜI LỮ KHÁCH.pdf",
+      "mime": "application/pdf",
+      "size": 1164642,
+      "modified": "2026-08-15T10:47:54.000Z",
+      "checksum": "fa691bec93c2906d6cf9f386f5a85385",
+      "folder": false
+    }
+  ]
+}

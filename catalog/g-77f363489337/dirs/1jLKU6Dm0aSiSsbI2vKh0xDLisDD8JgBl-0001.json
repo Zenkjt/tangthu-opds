@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jLKU6Dm0aSiSsbI2vKh0xDLisDD8JgBl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GR6-G00rqQuf0YjpVNl0emw5-gNf799B",
+      "parent_id": "1jLKU6Dm0aSiSsbI2vKh0xDLisDD8JgBl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9822,
+      "modified": "2026-08-16T03:38:10.000Z",
+      "checksum": "680c78fa95a7f0f194e4936d844c9747",
+      "folder": false
+    },
+    {
+      "id": "1heAw1xbiB6MeN2i7Mlecp3Uya_BurdPx",
+      "parent_id": "1jLKU6Dm0aSiSsbI2vKh0xDLisDD8JgBl",
+      "name": "LỬA HOANG.epub",
+      "mime": "application/epub+zip",
+      "size": 766312,
+      "modified": "2026-08-16T03:38:19.000Z",
+      "checksum": "d86a8b889e61b3dc07f0c8e38b356ce1",
+      "folder": false
+    },
+    {
+      "id": "1yPL90Op4CqLMvcBmAl1CujktWCtN6sPo",
+      "parent_id": "1jLKU6Dm0aSiSsbI2vKh0xDLisDD8JgBl",
+      "name": "LỬA HOANG.pdf",
+      "mime": "application/pdf",
+      "size": 2129566,
+      "modified": "2026-08-16T03:38:16.000Z",
+      "checksum": "3f7bda9fcf522b17f16d713f709a6207",
+      "folder": false
+    }
+  ]
+}

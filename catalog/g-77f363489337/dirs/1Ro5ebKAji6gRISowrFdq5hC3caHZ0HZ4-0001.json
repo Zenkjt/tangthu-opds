@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ro5ebKAji6gRISowrFdq5hC3caHZ0HZ4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OCqCxWo3JLGcSX-Ri030mix97dQnNAUF",
+      "parent_id": "1Ro5ebKAji6gRISowrFdq5hC3caHZ0HZ4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3782,
+      "modified": "2026-08-16T03:41:40.000Z",
+      "checksum": "5cfef8f1a08484797a37397a8c0e25ce",
+      "folder": false
+    },
+    {
+      "id": "1teoAtxp-TBCjekzTu70YPFIdR7Myid1o",
+      "parent_id": "1Ro5ebKAji6gRISowrFdq5hC3caHZ0HZ4",
+      "name": "HẠNH PHÚC NGỌT NGÀO.epub",
+      "mime": "application/epub+zip",
+      "size": 366498,
+      "modified": "2026-08-16T03:41:46.000Z",
+      "checksum": "a6fda25b539721fdf52ea5b3a8bd1906",
+      "folder": false
+    },
+    {
+      "id": "1dPzshiCMWUl_5Nlkx19OSLFiend-DKt_",
+      "parent_id": "1Ro5ebKAji6gRISowrFdq5hC3caHZ0HZ4",
+      "name": "HẠNH PHÚC NGỌT NGÀO.pdf",
+      "mime": "application/pdf",
+      "size": 529810,
+      "modified": "2026-08-16T03:41:43.000Z",
+      "checksum": "bcd67d04d2f9dc79d8677e17b79258e3",
+      "folder": false
+    }
+  ]
+}

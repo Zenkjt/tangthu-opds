@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16u_UDz3sGDEfSU9A6dsfrvvMzbQQIgOK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S7QZl84YdN6p35QHfKIVs4efD1V_Ju81",
+      "parent_id": "16u_UDz3sGDEfSU9A6dsfrvvMzbQQIgOK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1753,
+      "modified": "2026-08-15T03:44:28.000Z",
+      "checksum": "01480e5391a29ca64b33a00d67eb6f53",
+      "folder": false
+    },
+    {
+      "id": "1D-8j3aIYsbywWb3_k7lvlBy7tozi3AOC",
+      "parent_id": "16u_UDz3sGDEfSU9A6dsfrvvMzbQQIgOK",
+      "name": "KINH DUY MA CẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 372616,
+      "modified": "2026-08-15T03:44:34.000Z",
+      "checksum": "b5c5deb1c077c91e0705c7c505bbd03e",
+      "folder": false
+    },
+    {
+      "id": "1ywY1yC40ErnDCHSclhNqL9x3VxTcYBUt",
+      "parent_id": "16u_UDz3sGDEfSU9A6dsfrvvMzbQQIgOK",
+      "name": "KINH DUY MA CẬT.pdf",
+      "mime": "application/pdf",
+      "size": 1082331,
+      "modified": "2026-08-15T03:44:32.000Z",
+      "checksum": "3edf8a59b060478f1267df72d1820a46",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sutAs5n60nrpNUrEQqgijCEG4eJgNuXW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HsS_lidRTLgNjHhDrmzPtB9LJdBPM0Xl",
+      "parent_id": "1sutAs5n60nrpNUrEQqgijCEG4eJgNuXW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4641,
+      "modified": "2026-08-15T03:57:08.000Z",
+      "checksum": "a4cdae0e2a2783dd8fb7cc6ff3b9a07d",
+      "folder": false
+    },
+    {
+      "id": "1xmoPvgrSVO50fRaPb9plyqIVTzty1GYt",
+      "parent_id": "1sutAs5n60nrpNUrEQqgijCEG4eJgNuXW",
+      "name": "KHÁM PHÁ THẾ GIỚI TÂM LINH.epub",
+      "mime": "application/epub+zip",
+      "size": 605287,
+      "modified": "2026-08-15T03:57:17.000Z",
+      "checksum": "f1fcc4ed4a4a88aa6ab46e34e2f4e7d7",
+      "folder": false
+    },
+    {
+      "id": "1jP1eGRwDNsGap9I9e6zIyqUaQ421yRP-",
+      "parent_id": "1sutAs5n60nrpNUrEQqgijCEG4eJgNuXW",
+      "name": "KHÁM PHÁ THẾ GIỚI TÂM LINH.pdf",
+      "mime": "application/pdf",
+      "size": 840537,
+      "modified": "2026-08-15T03:57:14.000Z",
+      "checksum": "419f140d7f0d3f506ebd166174fc6c17",
+      "folder": false
+    }
+  ]
+}

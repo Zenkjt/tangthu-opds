@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11kL1KsNL1sR9cu0VAtvqZm_fhwjgCvUS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CGqCBjIhgb4DbglAUwVqDgxjZoFCrfhS",
+      "parent_id": "11kL1KsNL1sR9cu0VAtvqZm_fhwjgCvUS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4040,
+      "modified": "2026-08-15T08:13:25.000Z",
+      "checksum": "a4556b4391d78281a7c829ca0affab1d",
+      "folder": false
+    },
+    {
+      "id": "1Jg5GOJxOe6CZlJRdfXC55w7773cKz17n",
+      "parent_id": "11kL1KsNL1sR9cu0VAtvqZm_fhwjgCvUS",
+      "name": "GÒ CÔNG - XƯA VÀ NAY.epub",
+      "mime": "application/epub+zip",
+      "size": 1227980,
+      "modified": "2026-08-15T08:13:33.000Z",
+      "checksum": "9405203c01f54b55f75f32e7f6ac8e7d",
+      "folder": false
+    },
+    {
+      "id": "1OWeIjUNNJV6VwWprdQISORm7gATPl5ol",
+      "parent_id": "11kL1KsNL1sR9cu0VAtvqZm_fhwjgCvUS",
+      "name": "GÒ CÔNG - XƯA VÀ NAY.pdf",
+      "mime": "application/pdf",
+      "size": 1970360,
+      "modified": "2026-08-15T08:13:30.000Z",
+      "checksum": "f0d7c7a66ccb9322f52ea7f159a4553b",
+      "folder": false
+    }
+  ]
+}

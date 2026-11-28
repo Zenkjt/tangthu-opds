@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xaOBHXeTGPYIGFUG7B6Atg0801KXUZau",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lbn8lgCVc7RVeomPi0RcgjNC9ri0dKYW",
+      "parent_id": "1xaOBHXeTGPYIGFUG7B6Atg0801KXUZau",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9413,
+      "modified": "2026-08-15T09:30:08.000Z",
+      "checksum": "dd89da1405c048743817db3c4d1e6b84",
+      "folder": false
+    },
+    {
+      "id": "1ZCIMYlS_6ihuoF5oGisUc9mnTHb4SGGl",
+      "parent_id": "1xaOBHXeTGPYIGFUG7B6Atg0801KXUZau",
+      "name": "QUẢ NGỌT NĂM THÁNG.epub",
+      "mime": "application/epub+zip",
+      "size": 938627,
+      "modified": "2026-08-15T09:30:21.000Z",
+      "checksum": "07fc89b21f65a9bc91bf2bf51083da80",
+      "folder": false
+    },
+    {
+      "id": "13_y9Kf-o22TG_jDVujt1oBO7Z-9fipSH",
+      "parent_id": "1xaOBHXeTGPYIGFUG7B6Atg0801KXUZau",
+      "name": "QUẢ NGỌT NĂM THÁNG.pdf",
+      "mime": "application/pdf",
+      "size": 2933210,
+      "modified": "2026-08-15T09:30:17.000Z",
+      "checksum": "42110286a08e3d4d62dd1e3f71816901",
+      "folder": false
+    }
+  ]
+}

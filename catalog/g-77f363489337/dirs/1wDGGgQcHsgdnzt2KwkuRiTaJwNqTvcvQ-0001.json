@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wDGGgQcHsgdnzt2KwkuRiTaJwNqTvcvQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iT5z3jsizczMyTUf85HzqMa75eJWREqN",
+      "parent_id": "1wDGGgQcHsgdnzt2KwkuRiTaJwNqTvcvQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4424,
+      "modified": "2026-08-15T03:45:49.000Z",
+      "checksum": "29b426ec9d2210e53f503a38441e36c6",
+      "folder": false
+    },
+    {
+      "id": "1SvAuojkmjbYmq9Ldb5JSq714gSSf6bh2",
+      "parent_id": "1wDGGgQcHsgdnzt2KwkuRiTaJwNqTvcvQ",
+      "name": "THIỀN HÀNH YẾU CHỈ.epub",
+      "mime": "application/epub+zip",
+      "size": 160632,
+      "modified": "2026-08-15T03:45:54.000Z",
+      "checksum": "7569013643225b426c7e6071896f0e0d",
+      "folder": false
+    },
+    {
+      "id": "1jImrGAGVFofsMk9aH3kLWcszqqCN6nbL",
+      "parent_id": "1wDGGgQcHsgdnzt2KwkuRiTaJwNqTvcvQ",
+      "name": "THIỀN HÀNH YẾU CHỈ.pdf",
+      "mime": "application/pdf",
+      "size": 282850,
+      "modified": "2026-08-15T03:45:52.000Z",
+      "checksum": "d95ce96ca56be5136c4afc3f65b697d4",
+      "folder": false
+    }
+  ]
+}

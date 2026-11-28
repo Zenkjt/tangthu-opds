@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yW979MqvwA52226-E_73ujKuk25XsuvZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "18XTkx_vGQWH7aq1M4pv25d_751jGIvW5",
+      "parent_id": "1yW979MqvwA52226-E_73ujKuk25XsuvZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3108,
+      "modified": "2026-08-15T16:00:53.000Z",
+      "checksum": "131903a4c60f7192430e2fdc35fb2c1a",
+      "folder": false
+    },
+    {
+      "id": "123K0NCjzgbFqnm6QIgBB7Lwz47FEoAnQ",
+      "parent_id": "1yW979MqvwA52226-E_73ujKuk25XsuvZ",
+      "name": "MUA PHU.epub",
+      "mime": "application/epub+zip",
+      "size": 556500,
+      "modified": "2026-08-15T16:00:59.000Z",
+      "checksum": "2920b36a3091bd4557752bac6b0d6946",
+      "folder": false
+    },
+    {
+      "id": "1CCA3-lCNWns5XGUD1j3_L6i0jbP1gg6N",
+      "parent_id": "1yW979MqvwA52226-E_73ujKuk25XsuvZ",
+      "name": "MUA PHU.pdf",
+      "mime": "application/pdf",
+      "size": 529644,
+      "modified": "2026-08-15T16:00:57.000Z",
+      "checksum": "096ef2cf166b359307a7fd499c2907af",
+      "folder": false
+    }
+  ]
+}

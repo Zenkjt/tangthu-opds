@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tW1PSmHwNnDThZJ1yxptzGV2DObMynby",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uRckliNlGTFPhPFUizX326nGORIHZgE8",
+      "parent_id": "1tW1PSmHwNnDThZJ1yxptzGV2DObMynby",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 467,
+      "modified": "2026-08-15T10:38:38.000Z",
+      "checksum": "fab5f6ef5eed4844bb5683f6fa1b5821",
+      "folder": false
+    },
+    {
+      "id": "1SQoOEfGm7t0itvGxKedHCKgyjOoXza4G",
+      "parent_id": "1tW1PSmHwNnDThZJ1yxptzGV2DObMynby",
+      "name": "NHÍM THANH LỊCH.epub",
+      "mime": "application/epub+zip",
+      "size": 628076,
+      "modified": "2026-08-15T10:38:46.000Z",
+      "checksum": "ae23935c8808247fb87f9b40d08d7f78",
+      "folder": false
+    },
+    {
+      "id": "1rKDp1YZvxbaDGQI5XLITZyZOSW7jIfLf",
+      "parent_id": "1tW1PSmHwNnDThZJ1yxptzGV2DObMynby",
+      "name": "NHÍM THANH LỊCH.pdf",
+      "mime": "application/pdf",
+      "size": 1201943,
+      "modified": "2026-08-15T10:38:43.000Z",
+      "checksum": "4cf4ca43200eb53f57e5723d92f4d187",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LG8E3ZSGModo47jrIxOOePXLpOMKf-2s",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Yd9tBu5r09WdzMwzmIvFVIbXuEPoYnnl",
+      "parent_id": "1LG8E3ZSGModo47jrIxOOePXLpOMKf-2s",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3034,
+      "modified": "2026-08-15T10:26:23.000Z",
+      "checksum": "542a5714b4a00537ef11431d03e7ad10",
+      "folder": false
+    },
+    {
+      "id": "1fSPkd6J2_6QjE4Tqi5Kmya24QkdKqqTw",
+      "parent_id": "1LG8E3ZSGModo47jrIxOOePXLpOMKf-2s",
+      "name": "SONECHKA.epub",
+      "mime": "application/epub+zip",
+      "size": 647394,
+      "modified": "2026-08-15T10:26:31.000Z",
+      "checksum": "65e0fabf85670ecca6fd05fdda640b0a",
+      "folder": false
+    },
+    {
+      "id": "1qVBCiWMRNJON7rOx5gDOPJpZnyUQqUUR",
+      "parent_id": "1LG8E3ZSGModo47jrIxOOePXLpOMKf-2s",
+      "name": "SONECHKA.pdf",
+      "mime": "application/pdf",
+      "size": 703013,
+      "modified": "2026-08-15T10:26:28.000Z",
+      "checksum": "3a9b3f5ad41c300b0dcfe4753c064e05",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NhmDEQ6GdUgsl4_UiUbKFXrz-4Hq98mv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1d7HGmOFWJk9unAJQcxhniLLrTYmxZWlQ",
+      "parent_id": "1NhmDEQ6GdUgsl4_UiUbKFXrz-4Hq98mv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3410,
+      "modified": "2026-08-15T10:02:13.000Z",
+      "checksum": "67e46bc016f97187c3b65ab7e2839224",
+      "folder": false
+    },
+    {
+      "id": "1pmLmtLKzmMYUrkn7xoLC_-AyFfL9-qPf",
+      "parent_id": "1NhmDEQ6GdUgsl4_UiUbKFXrz-4Hq98mv",
+      "name": "ẤU HỌC KHẢI MÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 466580,
+      "modified": "2026-08-15T10:02:39.000Z",
+      "checksum": "12d5e8432ea5a3b51f165febcb07107b",
+      "folder": false
+    },
+    {
+      "id": "1SxT_1zy1ETIj9MflWDEux6Op-qQt8V4M",
+      "parent_id": "1NhmDEQ6GdUgsl4_UiUbKFXrz-4Hq98mv",
+      "name": "ẤU HỌC KHẢI MÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 664863,
+      "modified": "2026-08-15T10:02:29.000Z",
+      "checksum": "ea3590e4c53983e30ac52313051b7321",
+      "folder": false
+    }
+  ]
+}

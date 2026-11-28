@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NmZbt5zbhHYn5bO-HXuFP0j2EgJ0s3pe",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ncwK1VXGJFoSB7k9YafO4fCz9Cvoy6RE",
+      "parent_id": "1NmZbt5zbhHYn5bO-HXuFP0j2EgJ0s3pe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2848,
+      "modified": "2026-08-15T00:55:36.000Z",
+      "checksum": "08c1ce55b91896d454fab84bef90c2e7",
+      "folder": false
+    },
+    {
+      "id": "15o2_su4ibs3SdVGpZMmOg3QFRR8Dm3lc",
+      "parent_id": "1NmZbt5zbhHYn5bO-HXuFP0j2EgJ0s3pe",
+      "name": "LỜI TỪ CHỐI HOÀN HẢO.epub",
+      "mime": "application/epub+zip",
+      "size": 842332,
+      "modified": "2026-08-15T00:55:42.000Z",
+      "checksum": "250d2c28793b5f86b4d059e2972242af",
+      "folder": false
+    },
+    {
+      "id": "1id5IH_KRRq27VQWr8zlA569iD4Cevk3y",
+      "parent_id": "1NmZbt5zbhHYn5bO-HXuFP0j2EgJ0s3pe",
+      "name": "LỜI TỪ CHỐI HOÀN HẢO.pdf",
+      "mime": "application/pdf",
+      "size": 1426236,
+      "modified": "2026-08-15T00:55:39.000Z",
+      "checksum": "750f70d36850c16fcbca1cb6d24e5863",
+      "folder": false
+    }
+  ]
+}

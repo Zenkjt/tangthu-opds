@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gKm3_rrHZR23e127BflzEttbquc3ZedO",
+  "page": 1,
+  "items": [
+    {
+      "id": "17SileJ3ptmOkPdpoiSVrzAX_sYQUYXCk",
+      "parent_id": "1gKm3_rrHZR23e127BflzEttbquc3ZedO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8253,
+      "modified": "2026-08-16T03:07:24.000Z",
+      "checksum": "1e0f6fa0505ca37ea4af6969fc958d26",
+      "folder": false
+    },
+    {
+      "id": "12b3-POLthnM56yPHDMQRjVgWI2EH5KaC",
+      "parent_id": "1gKm3_rrHZR23e127BflzEttbquc3ZedO",
+      "name": "YESIN DỊCH HẠCH VÀ THỔ TẢ.epub",
+      "mime": "application/epub+zip",
+      "size": 338314,
+      "modified": "2026-08-16T03:07:31.000Z",
+      "checksum": "27cc6cd9a0965e6531b77902f8160fca",
+      "folder": false
+    },
+    {
+      "id": "1Kojp8AwVw8pqLVfEMcSATHLS1l4gKBua",
+      "parent_id": "1gKm3_rrHZR23e127BflzEttbquc3ZedO",
+      "name": "YESIN DỊCH HẠCH VÀ THỔ TẢ.pdf",
+      "mime": "application/pdf",
+      "size": 1589267,
+      "modified": "2026-08-16T03:07:29.000Z",
+      "checksum": "923fc920908809e98f943a392fe828ce",
+      "folder": false
+    }
+  ]
+}

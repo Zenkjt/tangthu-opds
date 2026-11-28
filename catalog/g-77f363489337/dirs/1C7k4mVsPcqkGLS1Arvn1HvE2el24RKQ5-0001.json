@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1C7k4mVsPcqkGLS1Arvn1HvE2el24RKQ5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1k4JawM20CbJKuSBh3lW3Qh5K6ab175YM",
+      "parent_id": "1C7k4mVsPcqkGLS1Arvn1HvE2el24RKQ5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2622,
+      "modified": "2026-08-15T04:02:34.000Z",
+      "checksum": "847aa549971e8f645517f1076586bd3e",
+      "folder": false
+    },
+    {
+      "id": "1k4jb3FTZOnHENhZ80we7kdcLNRmosLd9",
+      "parent_id": "1C7k4mVsPcqkGLS1Arvn1HvE2el24RKQ5",
+      "name": "TRỜI CHẲNG XA NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 3017599,
+      "modified": "2026-08-15T04:02:41.000Z",
+      "checksum": "d96abbb19d07475ea4c0ec2595979eaf",
+      "folder": false
+    },
+    {
+      "id": "15bo6rD8nRi-ZAsiqbUByWPwHvh-ZpF8h",
+      "parent_id": "1C7k4mVsPcqkGLS1Arvn1HvE2el24RKQ5",
+      "name": "TRỜI CHẲNG XA NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 2967108,
+      "modified": "2026-08-15T04:02:37.000Z",
+      "checksum": "bb4c31c6880570b785cd8700bb07c616",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_eFLCeWjblaN7e5uaasu1evuf0EmDMI9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TAdbI5uc07QDhfNe-wPxO5rn9sH0Hj-3",
+      "parent_id": "1_eFLCeWjblaN7e5uaasu1evuf0EmDMI9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2297,
+      "modified": "2026-08-15T07:25:38.000Z",
+      "checksum": "c14528baa58641951663d1c5c2fa3891",
+      "folder": false
+    },
+    {
+      "id": "1k79aNq70nomxvhIe4u48lXokF2gLYA47",
+      "parent_id": "1_eFLCeWjblaN7e5uaasu1evuf0EmDMI9",
+      "name": "ĐỘC GIẢ THỨ 7.epub",
+      "mime": "application/epub+zip",
+      "size": 1285932,
+      "modified": "2026-08-15T07:25:46.000Z",
+      "checksum": "297983721d9e631bf7b0e20d86ec3eec",
+      "folder": false
+    },
+    {
+      "id": "1wsyCOqZK6sIbQiPKCGsZHr1snZuTELWS",
+      "parent_id": "1_eFLCeWjblaN7e5uaasu1evuf0EmDMI9",
+      "name": "ĐỘC GIẢ THỨ 7.pdf",
+      "mime": "application/pdf",
+      "size": 2340725,
+      "modified": "2026-08-15T07:25:43.000Z",
+      "checksum": "d90ad456a96ecfa2b7fd2c0833d4022b",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1E3b6fjtPhgAfiuUHEa34T2q6_gNUcd6W",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZaYdVXiXvOJhWV3MJlbme_kBwNWFUgW_",
+      "parent_id": "1E3b6fjtPhgAfiuUHEa34T2q6_gNUcd6W",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6878,
+      "modified": "2026-08-15T03:53:29.000Z",
+      "checksum": "8de25add6c543bfac2af6d531fd391f4",
+      "folder": false
+    },
+    {
+      "id": "19UAAku1RTZ23pL7RLNzSxWugx4-LQQtl",
+      "parent_id": "1E3b6fjtPhgAfiuUHEa34T2q6_gNUcd6W",
+      "name": "KINH NGƯỜI ÁO TRẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 447717,
+      "modified": "2026-08-15T03:53:36.000Z",
+      "checksum": "b470f3a8c8bcbb9210ec431478b729ed",
+      "folder": false
+    },
+    {
+      "id": "1hrYGZhchN1y7yV7SeMayP5xT11gDl_1s",
+      "parent_id": "1E3b6fjtPhgAfiuUHEa34T2q6_gNUcd6W",
+      "name": "KINH NGƯỜI ÁO TRẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 510368,
+      "modified": "2026-08-15T03:53:32.000Z",
+      "checksum": "2c35ae90d63016a4880e00abde972297",
+      "folder": false
+    }
+  ]
+}

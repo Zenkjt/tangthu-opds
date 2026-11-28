@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GhMDSam50qkU9sqHcltTe_Gbk9IzpbKk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sDWcaaUML0WFSqIG3sg96NHlZSnpktaD",
+      "parent_id": "1GhMDSam50qkU9sqHcltTe_Gbk9IzpbKk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3095,
+      "modified": "2026-08-15T07:09:14.000Z",
+      "checksum": "db6f439de8c9df29c4ce680a05021d86",
+      "folder": false
+    },
+    {
+      "id": "1hTZB4hpLsK5vZwPJ-xDCrf2ctYBOV3FY",
+      "parent_id": "1GhMDSam50qkU9sqHcltTe_Gbk9IzpbKk",
+      "name": "LỚP SÓNG PHẾ HƯNG.epub",
+      "mime": "application/epub+zip",
+      "size": 281877,
+      "modified": "2026-08-15T07:09:21.000Z",
+      "checksum": "cbb42c7e5218be3fcc971c5e84f55b2f",
+      "folder": false
+    },
+    {
+      "id": "1LC5JZh6FbRy0tAZPCFoSqIszuDAsPrV_",
+      "parent_id": "1GhMDSam50qkU9sqHcltTe_Gbk9IzpbKk",
+      "name": "LỚP SÓNG PHẾ HƯNG.pdf",
+      "mime": "application/pdf",
+      "size": 752101,
+      "modified": "2026-08-15T07:09:18.000Z",
+      "checksum": "7d825ad3de4b6cd59aa22ea9ba236fbe",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mLOfOyfHn0UudZjewAmZtinScKXbYwNe",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BcRtJ9ErksfvEsrnZQKNkbQT44928TOZ",
+      "parent_id": "1mLOfOyfHn0UudZjewAmZtinScKXbYwNe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3639,
+      "modified": "2026-08-15T10:49:08.000Z",
+      "checksum": "51911ed1a66e972f3ffa49e65de95733",
+      "folder": false
+    },
+    {
+      "id": "1kdUPsyP_u7lMGM59CjNUJ4z8otTE5mSv",
+      "parent_id": "1mLOfOyfHn0UudZjewAmZtinScKXbYwNe",
+      "name": "MƯỜI NĂM KHÔNG XA.epub",
+      "mime": "application/epub+zip",
+      "size": 623853,
+      "modified": "2026-08-15T10:49:36.000Z",
+      "checksum": "949f13e67f94568f5f26754d3ed9cf5b",
+      "folder": false
+    },
+    {
+      "id": "1AAOLvJtHHwjAbxk12eOvcKY5DYukan1P",
+      "parent_id": "1mLOfOyfHn0UudZjewAmZtinScKXbYwNe",
+      "name": "MƯỜI NĂM KHÔNG XA.pdf",
+      "mime": "application/pdf",
+      "size": 1334159,
+      "modified": "2026-08-15T10:49:29.000Z",
+      "checksum": "647146dce24ac535852444da1d621b24",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Gjp7rnYSAZHCtvA7u7iSmVIjGvwhYv9m",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Zq4xNv9Wxt2HXVioCQdObT8p2i94qJeP",
+      "parent_id": "1Gjp7rnYSAZHCtvA7u7iSmVIjGvwhYv9m",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10561,
+      "modified": "2026-08-15T00:49:36.000Z",
+      "checksum": "b24e2c04fb94212b3f58cf1273d7746a",
+      "folder": false
+    },
+    {
+      "id": "1RExiKbm37kHwaPAjUZvL2XRknTqokUYm",
+      "parent_id": "1Gjp7rnYSAZHCtvA7u7iSmVIjGvwhYv9m",
+      "name": "LÀM ÍT ĐƯỢC NHIỀU.epub",
+      "mime": "application/epub+zip",
+      "size": 450462,
+      "modified": "2026-08-15T00:49:43.000Z",
+      "checksum": "d221752253d8b5ed18bb4b8215e7633a",
+      "folder": false
+    },
+    {
+      "id": "1EVPDPhDSLqAv0IV3KKzGipHLXu_40wH-",
+      "parent_id": "1Gjp7rnYSAZHCtvA7u7iSmVIjGvwhYv9m",
+      "name": "LÀM ÍT ĐƯỢC NHIỀU.pdf",
+      "mime": "application/pdf",
+      "size": 1210004,
+      "modified": "2026-08-15T00:49:40.000Z",
+      "checksum": "cdc3268cbbd5ed41db4bf6eb699ed998",
+      "folder": false
+    }
+  ]
+}

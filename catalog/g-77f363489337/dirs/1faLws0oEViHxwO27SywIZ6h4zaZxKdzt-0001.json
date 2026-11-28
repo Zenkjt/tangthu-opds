@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1faLws0oEViHxwO27SywIZ6h4zaZxKdzt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-9lwT7qM6zb15kYd4Sb4oXza5KFADjoJ",
+      "parent_id": "1faLws0oEViHxwO27SywIZ6h4zaZxKdzt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3358,
+      "modified": "2026-08-16T04:06:16.000Z",
+      "checksum": "010ec29ade5412b4a7dc14860f7d4216",
+      "folder": false
+    },
+    {
+      "id": "1mCoFzY5e8BPVUQ6YfrvRZ7PAvA6Vc0y-",
+      "parent_id": "1faLws0oEViHxwO27SywIZ6h4zaZxKdzt",
+      "name": "PHIẾN TỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 568804,
+      "modified": "2026-08-16T04:06:22.000Z",
+      "checksum": "5bbe92206c9f37ae99baaa5f24dae009",
+      "folder": false
+    },
+    {
+      "id": "1UUSW4eZ-KyMJOuzcFtIADTexnef8PIzS",
+      "parent_id": "1faLws0oEViHxwO27SywIZ6h4zaZxKdzt",
+      "name": "PHIẾN TỘI.pdf",
+      "mime": "application/pdf",
+      "size": 1617876,
+      "modified": "2026-08-16T04:06:20.000Z",
+      "checksum": "1ead26e92fc2630b859f9686bad2a97f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1POOOFtWtP7jjYYa7PKX9u3CqQmf_M7WB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1g9j-BKY6v4YyGzEFC_sujhQKjRGaToPE",
+      "parent_id": "1POOOFtWtP7jjYYa7PKX9u3CqQmf_M7WB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4674,
+      "modified": "2026-08-15T03:58:38.000Z",
+      "checksum": "88cf9f913fe7077ecdc3bd2cf2e4b120",
+      "folder": false
+    },
+    {
+      "id": "1rXDXdagSX7C72hSrQQ53ykDzJ-cK83Ol",
+      "parent_id": "1POOOFtWtP7jjYYa7PKX9u3CqQmf_M7WB",
+      "name": "KHẢO CỨU VỀ TÂM THỨC.epub",
+      "mime": "application/epub+zip",
+      "size": 886684,
+      "modified": "2026-08-15T03:58:46.000Z",
+      "checksum": "3b842dbea56a6b295e56bfd1273c8562",
+      "folder": false
+    },
+    {
+      "id": "1qfPYrpdooE9mmUtck1NDJWBPIzOpNYkR",
+      "parent_id": "1POOOFtWtP7jjYYa7PKX9u3CqQmf_M7WB",
+      "name": "KHẢO CỨU VỀ TÂM THỨC.pdf",
+      "mime": "application/pdf",
+      "size": 2330586,
+      "modified": "2026-08-15T03:58:43.000Z",
+      "checksum": "6c143d1b1881a8ecd9a2a78e828094c5",
+      "folder": false
+    }
+  ]
+}

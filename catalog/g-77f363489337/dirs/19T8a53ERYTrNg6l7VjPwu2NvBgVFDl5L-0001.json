@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19T8a53ERYTrNg6l7VjPwu2NvBgVFDl5L",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VF1ZiLnTbi4xzALuVtLYdJ9PmRa352zW",
+      "parent_id": "19T8a53ERYTrNg6l7VjPwu2NvBgVFDl5L",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3402,
+      "modified": "2026-08-15T15:37:06.000Z",
+      "checksum": "196ee23da0040044cad7238ac17c72d0",
+      "folder": false
+    },
+    {
+      "id": "13rGSucSWzEQ29rZHvbJXQl9lUOu1FvwU",
+      "parent_id": "19T8a53ERYTrNg6l7VjPwu2NvBgVFDl5L",
+      "name": "SỐ 31 ĐƯỜNG GIẤC MƠ.epub",
+      "mime": "application/epub+zip",
+      "size": 623643,
+      "modified": "2026-08-15T15:38:12.000Z",
+      "checksum": "58bbcbe88af0c5a7ecbd28e21538910f",
+      "folder": false
+    },
+    {
+      "id": "18rQxzUVyY5OGbY12fPoeYgXx0IVrjIDz",
+      "parent_id": "19T8a53ERYTrNg6l7VjPwu2NvBgVFDl5L",
+      "name": "SỐ 31 ĐƯỜNG GIẤC MƠ.pdf",
+      "mime": "application/pdf",
+      "size": 2201758,
+      "modified": "2026-08-15T15:38:04.000Z",
+      "checksum": "a269d13d90c60370b420a23e13bc01e9",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1O__u5zloyP0Q_Swt8x4OmjdvPv-neRon",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mq0Vyidpp7jQrmJPuJQ1q6Ci8IZFOJwR",
+      "parent_id": "1O__u5zloyP0Q_Swt8x4OmjdvPv-neRon",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3055,
+      "modified": "2026-08-15T10:38:56.000Z",
+      "checksum": "205668ce680ff2c9e8115b69bcfe972a",
+      "folder": false
+    },
+    {
+      "id": "1jFwKwjkZ5EzUoLFejbfrTF5_zMQHL1cd",
+      "parent_id": "1O__u5zloyP0Q_Swt8x4OmjdvPv-neRon",
+      "name": "NHẠT MÀU.epub",
+      "mime": "application/epub+zip",
+      "size": 534066,
+      "modified": "2026-08-15T10:39:07.000Z",
+      "checksum": "893a8ab56c85def0f118d15e997eb7be",
+      "folder": false
+    },
+    {
+      "id": "1ZyLQxXNSVnpVN_u0-hpRS_eXzTYf3tUX",
+      "parent_id": "1O__u5zloyP0Q_Swt8x4OmjdvPv-neRon",
+      "name": "NHẠT MÀU.pdf",
+      "mime": "application/pdf",
+      "size": 1524423,
+      "modified": "2026-08-15T10:39:03.000Z",
+      "checksum": "3c176691235384faed9e8a86abd8f13d",
+      "folder": false
+    }
+  ]
+}

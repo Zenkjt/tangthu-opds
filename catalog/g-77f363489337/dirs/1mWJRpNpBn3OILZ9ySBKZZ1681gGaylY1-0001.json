@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mWJRpNpBn3OILZ9ySBKZZ1681gGaylY1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aYqErEz58sl3g5vxxCtfGtm4shMn6LWp",
+      "parent_id": "1mWJRpNpBn3OILZ9ySBKZZ1681gGaylY1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 350,
+      "modified": "2026-08-15T15:40:41.000Z",
+      "checksum": "dd149c859e33eb63601c9aca4b6d1c5e",
+      "folder": false
+    },
+    {
+      "id": "1pwWVb1raY5DzBUkzexxSH0VSUD7GFQib",
+      "parent_id": "1mWJRpNpBn3OILZ9ySBKZZ1681gGaylY1",
+      "name": "HÃY NGHĨ TỚI MỘT CON SỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 697276,
+      "modified": "2026-08-15T15:40:51.000Z",
+      "checksum": "e1d336bb3e58ca85392dd4bc51682f16",
+      "folder": false
+    },
+    {
+      "id": "1goBPzpweAVre7ABGlr__S6KDTj_MwLHb",
+      "parent_id": "1mWJRpNpBn3OILZ9ySBKZZ1681gGaylY1",
+      "name": "HÃY NGHĨ TỚI MỘT CON SỐ.pdf",
+      "mime": "application/pdf",
+      "size": 1720192,
+      "modified": "2026-08-15T15:40:47.000Z",
+      "checksum": "2847098b7273432b23fe071f824894a5",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_SW8Wi4MYnJbGeuYoyjdPMZwllAxuObA",
+  "page": 1,
+  "items": [
+    {
+      "id": "15aBcx2I2u5hwBJ3xWUHdZ089WQKo_bp3",
+      "parent_id": "1_SW8Wi4MYnJbGeuYoyjdPMZwllAxuObA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3190,
+      "modified": "2026-08-15T10:35:13.000Z",
+      "checksum": "78683dc02a288586055b607be8b8c483",
+      "folder": false
+    },
+    {
+      "id": "1rFg7Oa_Pva4vxa3C82hndxkM1btzo77N",
+      "parent_id": "1_SW8Wi4MYnJbGeuYoyjdPMZwllAxuObA",
+      "name": "NỬA ĐỜI THANH TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 1441582,
+      "modified": "2026-08-15T10:35:40.000Z",
+      "checksum": "d368ca35e7b11429c047774ae2e0f07e",
+      "folder": false
+    },
+    {
+      "id": "1co8lgZ_ZwGbQtroquWq9Ipmy_59OeaKX",
+      "parent_id": "1_SW8Wi4MYnJbGeuYoyjdPMZwllAxuObA",
+      "name": "NỬA ĐỜI THANH TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 5625312,
+      "modified": "2026-08-15T10:35:35.000Z",
+      "checksum": "03308a89553ac2fd704ccf785cdb5ab6",
+      "folder": false
+    }
+  ]
+}

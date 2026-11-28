@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fClC_c1MNNyOt3O9ccAYTTiJ3X6FDzSH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1i7AvTCf-vZQrxbazoGCrV4vd84IHocFx",
+      "parent_id": "1fClC_c1MNNyOt3O9ccAYTTiJ3X6FDzSH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3337,
+      "modified": "2026-08-15T15:59:33.000Z",
+      "checksum": "fd604eece65744802a7bb46a06a482ef",
+      "folder": false
+    },
+    {
+      "id": "11Pvvj51BdNSE6364ZiyhT974SvOOt9Tt",
+      "parent_id": "1fClC_c1MNNyOt3O9ccAYTTiJ3X6FDzSH",
+      "name": "NHẤT PHẨM PHONG LƯU.epub",
+      "mime": "application/epub+zip",
+      "size": 10144811,
+      "modified": "2026-08-15T15:59:56.000Z",
+      "checksum": "eb74d78a8ec6d877e76e4aaf7d6cc94c",
+      "folder": false
+    },
+    {
+      "id": "1QRTAm2pTELLZ002tOBe9xbzMllAEwkf7",
+      "parent_id": "1fClC_c1MNNyOt3O9ccAYTTiJ3X6FDzSH",
+      "name": "NHẤT PHẨM PHONG LƯU.pdf",
+      "mime": "application/pdf",
+      "size": 9268910,
+      "modified": "2026-08-15T15:59:48.000Z",
+      "checksum": "1998a85ad3da0afdc2e8610ed9647cc1",
+      "folder": false
+    }
+  ]
+}

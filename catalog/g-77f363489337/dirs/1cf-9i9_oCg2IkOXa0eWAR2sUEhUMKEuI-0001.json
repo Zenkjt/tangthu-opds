@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cf-9i9_oCg2IkOXa0eWAR2sUEhUMKEuI",
+  "page": 1,
+  "items": [
+    {
+      "id": "13qzbo8j0AC-YbpygTz06jvHIjpT1Hcwv",
+      "parent_id": "1cf-9i9_oCg2IkOXa0eWAR2sUEhUMKEuI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3503,
+      "modified": "2026-08-16T04:05:38.000Z",
+      "checksum": "df857c183b3713488c8b79b663e1f2df",
+      "folder": false
+    },
+    {
+      "id": "1UW7xQJTek7IcTFI82YkwoJTqoCTraiN7",
+      "parent_id": "1cf-9i9_oCg2IkOXa0eWAR2sUEhUMKEuI",
+      "name": "QUA CƠN ÁC MỘNG.epub",
+      "mime": "application/epub+zip",
+      "size": 719522,
+      "modified": "2026-08-16T04:05:44.000Z",
+      "checksum": "80c08d3f0b4c13d9fdfc9623695c80a4",
+      "folder": false
+    },
+    {
+      "id": "1zJc5Allm_QP_WzTSSarZb08IWcmkhSV3",
+      "parent_id": "1cf-9i9_oCg2IkOXa0eWAR2sUEhUMKEuI",
+      "name": "QUA CƠN ÁC MỘNG.pdf",
+      "mime": "application/pdf",
+      "size": 657750,
+      "modified": "2026-08-16T04:05:41.000Z",
+      "checksum": "f2a49cf0e7b206d827272a16cde056d6",
+      "folder": false
+    }
+  ]
+}

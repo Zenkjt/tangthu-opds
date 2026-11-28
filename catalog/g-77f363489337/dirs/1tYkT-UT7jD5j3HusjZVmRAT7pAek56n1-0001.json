@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tYkT-UT7jD5j3HusjZVmRAT7pAek56n1",
+  "page": 1,
+  "items": [
+    {
+      "id": "10Bny57b6xNWDWutWYNuqc2CmWzs0ACrD",
+      "parent_id": "1tYkT-UT7jD5j3HusjZVmRAT7pAek56n1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1928,
+      "modified": "2026-08-15T07:06:10.000Z",
+      "checksum": "903b3c45fac52ea68d0939687e11feb2",
+      "folder": false
+    },
+    {
+      "id": "1RsQMLh6x7S4R6cPnX79fpDRkwJ-w6GH8",
+      "parent_id": "1tYkT-UT7jD5j3HusjZVmRAT7pAek56n1",
+      "name": "LỊCH SỬ KHẨN HOANG MIỀN NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 304651,
+      "modified": "2026-08-15T07:06:17.000Z",
+      "checksum": "5cb47eb497af5971d762b3f0ad854a25",
+      "folder": false
+    },
+    {
+      "id": "19DsSdPSJIypeoYRPNltixUom4CaeNpzx",
+      "parent_id": "1tYkT-UT7jD5j3HusjZVmRAT7pAek56n1",
+      "name": "LỊCH SỬ KHẨN HOANG MIỀN NAM.pdf",
+      "mime": "application/pdf",
+      "size": 921998,
+      "modified": "2026-08-15T07:06:14.000Z",
+      "checksum": "34bc7e27d14c691a7965a9bcf7a7ca89",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wJE6NXtqHlnozvckpv6qkZlLZsW0kRTo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lg5-LEO9dMYGI2UJ2g0zBt-yo0Fa9dJT",
+      "parent_id": "1wJE6NXtqHlnozvckpv6qkZlLZsW0kRTo",
+      "name": "BÀ BOVARY.epub",
+      "mime": "application/epub+zip",
+      "size": 572973,
+      "modified": "2026-08-15T09:38:29.000Z",
+      "checksum": "0edb996a01a2def4ad3d60ed018370e9",
+      "folder": false
+    },
+    {
+      "id": "1nSn9CKlbj9QYoLPCfygZNyKPI8LW9rr5",
+      "parent_id": "1wJE6NXtqHlnozvckpv6qkZlLZsW0kRTo",
+      "name": "BÀ BOVARY.pdf",
+      "mime": "application/pdf",
+      "size": 1996771,
+      "modified": "2026-08-15T09:38:26.000Z",
+      "checksum": "8dac45aa443101ee036cf88e69c11663",
+      "folder": false
+    },
+    {
+      "id": "1H0034bpynn0M8iiFiJGtm7wKHAgKTUYH",
+      "parent_id": "1wJE6NXtqHlnozvckpv6qkZlLZsW0kRTo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2366,
+      "modified": "2026-08-15T09:38:22.000Z",
+      "checksum": "9d4765b8bfe6c53b9cc00fa3faab5a77",
+      "folder": false
+    }
+  ]
+}

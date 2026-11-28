@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "148G-ae7KAzOJOniqRUUSOS7-M0OFmF6C",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OKjQVFY5ca2KAjWX4zZL82nKGhk46mMu",
+      "parent_id": "148G-ae7KAzOJOniqRUUSOS7-M0OFmF6C",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1722,
+      "modified": "2026-08-16T03:20:12.000Z",
+      "checksum": "1ea93177473866dac0372728835e6a01",
+      "folder": false
+    },
+    {
+      "id": "1GuW-bNj1UJTC2xp39QHdjJwE4XgTdxvB",
+      "parent_id": "148G-ae7KAzOJOniqRUUSOS7-M0OFmF6C",
+      "name": "HỆ THỐNG HẮC KHOA KỸ QUÁN NÉT.epub",
+      "mime": "application/epub+zip",
+      "size": 802527,
+      "modified": "2026-08-16T03:20:21.000Z",
+      "checksum": "65f03302f01b72c09c2b317e70c28323",
+      "folder": false
+    },
+    {
+      "id": "1wb4_wsYjrZ2qIHPjYSE0DD7BZsq0PF-2",
+      "parent_id": "148G-ae7KAzOJOniqRUUSOS7-M0OFmF6C",
+      "name": "HỆ THỐNG HẮC KHOA KỸ QUÁN NÉT.pdf",
+      "mime": "application/pdf",
+      "size": 2305589,
+      "modified": "2026-08-16T03:20:18.000Z",
+      "checksum": "3238262cdda0afdf3fd77cbccecd89d0",
+      "folder": false
+    }
+  ]
+}

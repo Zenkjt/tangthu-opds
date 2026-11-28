@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10V3UZs7rFD6phC2IyVlddpdpyg1k3QOT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pEb8FqQzI0w2sMQqP6WVhO3QcpJtRxqE",
+      "parent_id": "10V3UZs7rFD6phC2IyVlddpdpyg1k3QOT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6168,
+      "modified": "2026-08-15T08:00:16.000Z",
+      "checksum": "c66e0508ab1006f8fe211595eecf62ab",
+      "folder": false
+    },
+    {
+      "id": "1taLqd6PbBK5f1wmVQnFghbn768Y1LQ2U",
+      "parent_id": "10V3UZs7rFD6phC2IyVlddpdpyg1k3QOT",
+      "name": "KẺ TRĂN TRỞ.epub",
+      "mime": "application/epub+zip",
+      "size": 400567,
+      "modified": "2026-08-15T08:00:24.000Z",
+      "checksum": "b81c321e03cb4056cda2d899883dcdf5",
+      "folder": false
+    },
+    {
+      "id": "1sXBzWxFV8tzpchtB8PydXriEiFMKMBND",
+      "parent_id": "10V3UZs7rFD6phC2IyVlddpdpyg1k3QOT",
+      "name": "KẺ TRĂN TRỞ.pdf",
+      "mime": "application/pdf",
+      "size": 2093209,
+      "modified": "2026-08-15T08:00:21.000Z",
+      "checksum": "a47ff55c00934d55e815e0df97b33978",
+      "folder": false
+    }
+  ]
+}

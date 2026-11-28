@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oxIJaE1JATpR4d7QhNii50fFMG15dzBa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sIdjdbmKO_nC6zIGb9DhDO2EecSdMDnV",
+      "parent_id": "1oxIJaE1JATpR4d7QhNii50fFMG15dzBa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2294,
+      "modified": "2026-08-15T03:14:17.000Z",
+      "checksum": "a186a7626a6dda50f157361c6e6ef2e5",
+      "folder": false
+    },
+    {
+      "id": "1zM4ajOXpXCzgyTednHdopv8fDWWOFi1L",
+      "parent_id": "1oxIJaE1JATpR4d7QhNii50fFMG15dzBa",
+      "name": "PHỤ NỮ THÔNG MINH PHẢI BIẾT TIÊU TIỀN.epub",
+      "mime": "application/epub+zip",
+      "size": 542331,
+      "modified": "2026-08-15T03:14:21.000Z",
+      "checksum": "e3d469e3dbf8171dabd8796b380250bd",
+      "folder": false
+    },
+    {
+      "id": "1oi6PvhnjVJhR0wtzo5q2binJ3Tn-ae8r",
+      "parent_id": "1oxIJaE1JATpR4d7QhNii50fFMG15dzBa",
+      "name": "PHỤ NỮ THÔNG MINH PHẢI BIẾT TIÊU TIỀN.pdf",
+      "mime": "application/pdf",
+      "size": 278528,
+      "modified": "2026-08-15T01:01:49.000Z",
+      "checksum": "6d809c9033f8baca5ecd31ed9169d7e0",
+      "folder": false
+    }
+  ]
+}

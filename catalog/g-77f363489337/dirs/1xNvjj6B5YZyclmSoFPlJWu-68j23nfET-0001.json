@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xNvjj6B5YZyclmSoFPlJWu-68j23nfET",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ENgRa4B0EThiCuF_4Nh-RNMLgzzfIJeZ",
+      "parent_id": "1xNvjj6B5YZyclmSoFPlJWu-68j23nfET",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3375,
+      "modified": "2026-08-15T10:31:46.000Z",
+      "checksum": "67fe183e15f8975486a2ce5725245ec7",
+      "folder": false
+    },
+    {
+      "id": "1cELpkWRfbPTBMEVJr5-Qu-ha_-g_Fck3",
+      "parent_id": "1xNvjj6B5YZyclmSoFPlJWu-68j23nfET",
+      "name": "PHÚT TRÁNG LỆ CUỐI ĐỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 504749,
+      "modified": "2026-08-15T10:31:53.000Z",
+      "checksum": "d0019ec5e6d5588022cdc74c519ea3b3",
+      "folder": false
+    },
+    {
+      "id": "1-maaiRAcecoIfsxGjbmuUxnfTpPKAmd9",
+      "parent_id": "1xNvjj6B5YZyclmSoFPlJWu-68j23nfET",
+      "name": "PHÚT TRÁNG LỆ CUỐI ĐỜI.pdf",
+      "mime": "application/pdf",
+      "size": 806776,
+      "modified": "2026-08-15T10:31:51.000Z",
+      "checksum": "c9ca0847c008031083910f1ed3fedff2",
+      "folder": false
+    }
+  ]
+}

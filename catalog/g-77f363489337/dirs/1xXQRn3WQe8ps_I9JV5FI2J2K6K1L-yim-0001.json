@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xXQRn3WQe8ps_I9JV5FI2J2K6K1L-yim",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HsyBrVVQN7FrdJrLeN8VPs4UYpYp47qk",
+      "parent_id": "1xXQRn3WQe8ps_I9JV5FI2J2K6K1L-yim",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9269,
+      "modified": "2026-08-15T08:13:17.000Z",
+      "checksum": "a26ac6ac9cd8a6272e50bcdd6ead1448",
+      "folder": false
+    },
+    {
+      "id": "1pEOZgern86loFr8ROVjSi9LJSHFNJdHG",
+      "parent_id": "1xXQRn3WQe8ps_I9JV5FI2J2K6K1L-yim",
+      "name": "GIẢI KHĂN SÔ CHO HUẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 508829,
+      "modified": "2026-08-15T08:13:24.000Z",
+      "checksum": "eb13252941f866514763dfec32cc3fdf",
+      "folder": false
+    },
+    {
+      "id": "1BeY5R1f37EaIXgF3Qba3VbVcvQhgE0jK",
+      "parent_id": "1xXQRn3WQe8ps_I9JV5FI2J2K6K1L-yim",
+      "name": "GIẢI KHĂN SÔ CHO HUẾ.pdf",
+      "mime": "application/pdf",
+      "size": 1050138,
+      "modified": "2026-08-15T08:13:22.000Z",
+      "checksum": "246e6ed2f56591766980481c01b514e7",
+      "folder": false
+    }
+  ]
+}

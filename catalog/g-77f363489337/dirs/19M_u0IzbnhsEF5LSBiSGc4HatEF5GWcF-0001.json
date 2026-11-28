@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19M_u0IzbnhsEF5LSBiSGc4HatEF5GWcF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ni5BEUh_7qy0QW5OvNfJ3TNxXi9PnDAz",
+      "parent_id": "19M_u0IzbnhsEF5LSBiSGc4HatEF5GWcF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8827,
+      "modified": "2026-08-15T03:40:00.000Z",
+      "checksum": "07a582b3fa30409129500a42ebb9c1f6",
+      "folder": false
+    },
+    {
+      "id": "1yjjhjB6cvjvhU043l4e3waVEFsw9p5Jg",
+      "parent_id": "19M_u0IzbnhsEF5LSBiSGc4HatEF5GWcF",
+      "name": "TÔI, CHA VÀ EM.epub",
+      "mime": "application/epub+zip",
+      "size": 2203182,
+      "modified": "2026-08-15T03:40:09.000Z",
+      "checksum": "3b9fb0b7e48728e52500e2900e536640",
+      "folder": false
+    },
+    {
+      "id": "1IUKusv1qDbx74PRxK4X26urvPTq_yLwE",
+      "parent_id": "19M_u0IzbnhsEF5LSBiSGc4HatEF5GWcF",
+      "name": "TÔI, CHA VÀ EM.pdf",
+      "mime": "application/pdf",
+      "size": 4392169,
+      "modified": "2026-08-15T03:40:06.000Z",
+      "checksum": "5e2a49e20c012bd4dbf18692127fe37c",
+      "folder": false
+    }
+  ]
+}

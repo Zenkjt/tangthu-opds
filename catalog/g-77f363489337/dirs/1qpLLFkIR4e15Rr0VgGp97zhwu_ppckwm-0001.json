@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qpLLFkIR4e15Rr0VgGp97zhwu_ppckwm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yVNh3inqCvgoOe_gon1wa910vWSca818",
+      "parent_id": "1qpLLFkIR4e15Rr0VgGp97zhwu_ppckwm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4712,
+      "modified": "2026-08-15T04:21:17.000Z",
+      "checksum": "3eab7670359e6b0108c8b08f10876f9d",
+      "folder": false
+    },
+    {
+      "id": "19o1VVccN_OhsPVZBRXPYNExDQPdM3z0e",
+      "parent_id": "1qpLLFkIR4e15Rr0VgGp97zhwu_ppckwm",
+      "name": "ĐƯỜNG LÀ KHỔ ÁCH.epub",
+      "mime": "application/epub+zip",
+      "size": 935101,
+      "modified": "2026-08-15T04:21:32.000Z",
+      "checksum": "10275316f9e3592ae4237f9b64a2e970",
+      "folder": false
+    },
+    {
+      "id": "1Yp_7IDYVTfDRt8nzzp2dAM-j9FMrRCfW",
+      "parent_id": "1qpLLFkIR4e15Rr0VgGp97zhwu_ppckwm",
+      "name": "ĐƯỜNG LÀ KHỔ ÁCH.pdf",
+      "mime": "application/pdf",
+      "size": 1760909,
+      "modified": "2026-08-15T04:21:25.000Z",
+      "checksum": "be9be83b6de8bfa387abce2adc1e0d15",
+      "folder": false
+    }
+  ]
+}

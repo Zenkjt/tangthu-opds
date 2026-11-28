@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1souaV3ydlWdFDRLmnIzo86gk8AHj1KoH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oBdFH8dYBOFgw1m5aRjGP5FyyRTw2cOh",
+      "parent_id": "1souaV3ydlWdFDRLmnIzo86gk8AHj1KoH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1793,
+      "modified": "2026-08-15T04:02:52.000Z",
+      "checksum": "2bb0e35baea26bfaf99e9fde730bd408",
+      "folder": false
+    },
+    {
+      "id": "1izaLedUqhfGZidOx1ZA5j3ws8fovJ1XU",
+      "parent_id": "1souaV3ydlWdFDRLmnIzo86gk8AHj1KoH",
+      "name": "NGHI THỨC TỤNG NIỆM ĐẠI TOÀN.epub",
+      "mime": "application/epub+zip",
+      "size": 676707,
+      "modified": "2026-08-15T04:03:01.000Z",
+      "checksum": "c960d550c1d451b485b90ae3db91b577",
+      "folder": false
+    },
+    {
+      "id": "1NzyPgD5wpTjg6su5DNKhZCfomsUohoTV",
+      "parent_id": "1souaV3ydlWdFDRLmnIzo86gk8AHj1KoH",
+      "name": "NGHI THỨC TỤNG NIỆM ĐẠI TOÀN.pdf",
+      "mime": "application/pdf",
+      "size": 1721613,
+      "modified": "2026-08-15T04:02:58.000Z",
+      "checksum": "52cd37ad18bd358c6afadb3674e19a43",
+      "folder": false
+    }
+  ]
+}

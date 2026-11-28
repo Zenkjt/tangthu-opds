@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Xm3uZUz92OOi5ccNIFsSAV5vDXFcfn-j",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Br2bFmXxTZY7BSU1G-DEeiJ4qqP29H2Z",
+      "parent_id": "1Xm3uZUz92OOi5ccNIFsSAV5vDXFcfn-j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6422,
+      "modified": "2026-08-15T11:04:14.000Z",
+      "checksum": "653c772272e90edf1b52a9125d036a82",
+      "folder": false
+    },
+    {
+      "id": "1eKdQRcdv6RhfLF-t8_F-U2qCnxhVywtE",
+      "parent_id": "1Xm3uZUz92OOi5ccNIFsSAV5vDXFcfn-j",
+      "name": "TỐ THIỀU LAN.epub",
+      "mime": "application/epub+zip",
+      "size": 400018,
+      "modified": "2026-08-15T11:04:22.000Z",
+      "checksum": "42cc6270720b0841c39c7c5aec677198",
+      "folder": false
+    },
+    {
+      "id": "1cul3LlrQOoLmKpj0kenK7cGWXupLskOd",
+      "parent_id": "1Xm3uZUz92OOi5ccNIFsSAV5vDXFcfn-j",
+      "name": "TỐ THIỀU LAN.pdf",
+      "mime": "application/pdf",
+      "size": 722611,
+      "modified": "2026-08-15T11:04:19.000Z",
+      "checksum": "34d1d4e875591d176d25e5329a97e890",
+      "folder": false
+    }
+  ]
+}

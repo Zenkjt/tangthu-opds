@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RKFeZRNFV09q2TKJz_ucUP0NkTiV0P05",
+  "page": 1,
+  "items": [
+    {
+      "id": "12kGatqLHD5iNj_XQ6AiKCSa2JF-_piLh",
+      "parent_id": "1RKFeZRNFV09q2TKJz_ucUP0NkTiV0P05",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 482,
+      "modified": "2026-08-15T10:37:14.000Z",
+      "checksum": "8f0de719cefd526de18bf85327a8173b",
+      "folder": false
+    },
+    {
+      "id": "11tB4TCceW3c-ro7q26r1i-RlYzlCHsaT",
+      "parent_id": "1RKFeZRNFV09q2TKJz_ucUP0NkTiV0P05",
+      "name": "NHỮNG LINH CẢM BÍ ẨN.epub",
+      "mime": "application/epub+zip",
+      "size": 616557,
+      "modified": "2026-08-15T10:37:24.000Z",
+      "checksum": "47c8cac735aaa51decb2387fe3f9a8e8",
+      "folder": false
+    },
+    {
+      "id": "1IgIYBRB4TZXA-5z6D246cVNnhODkDvCj",
+      "parent_id": "1RKFeZRNFV09q2TKJz_ucUP0NkTiV0P05",
+      "name": "NHỮNG LINH CẢM BÍ ẨN.pdf",
+      "mime": "application/pdf",
+      "size": 1539721,
+      "modified": "2026-08-15T10:37:22.000Z",
+      "checksum": "a0c5215141258fcf228aa82743483fe8",
+      "folder": false
+    }
+  ]
+}

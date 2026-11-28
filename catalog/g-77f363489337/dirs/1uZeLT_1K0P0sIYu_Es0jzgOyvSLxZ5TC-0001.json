@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uZeLT_1K0P0sIYu_Es0jzgOyvSLxZ5TC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_8XBvue9w_Itsufb3G8uWRLaSCjwihSe",
+      "parent_id": "1uZeLT_1K0P0sIYu_Es0jzgOyvSLxZ5TC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1450,
+      "modified": "2026-08-15T03:43:59.000Z",
+      "checksum": "05eae5bfda23d43cf8b44bd14c842947",
+      "folder": false
+    },
+    {
+      "id": "1JXBQ5-XbvzubLTF6vqUnJSr85BQ8aaQ_",
+      "parent_id": "1uZeLT_1K0P0sIYu_Es0jzgOyvSLxZ5TC",
+      "name": "LƯỢC GIẢNG KINH LĂNG NGHIÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 310729,
+      "modified": "2026-08-15T03:44:06.000Z",
+      "checksum": "db2950c586f4703332965047c3063662",
+      "folder": false
+    },
+    {
+      "id": "1Km4yPB_6Nfj1eZvT_hrJSeDw6sD-rfES",
+      "parent_id": "1uZeLT_1K0P0sIYu_Es0jzgOyvSLxZ5TC",
+      "name": "LƯỢC GIẢNG KINH LĂNG NGHIÊM.pdf",
+      "mime": "application/pdf",
+      "size": 1294742,
+      "modified": "2026-08-15T03:44:03.000Z",
+      "checksum": "bc0c621733a1803a71b60c38aee42e39",
+      "folder": false
+    }
+  ]
+}

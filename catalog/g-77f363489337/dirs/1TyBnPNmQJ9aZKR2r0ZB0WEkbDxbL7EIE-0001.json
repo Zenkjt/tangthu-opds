@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TyBnPNmQJ9aZKR2r0ZB0WEkbDxbL7EIE",
+  "page": 1,
+  "items": [
+    {
+      "id": "15x2gdlKCJ1s116qYO1VKl-vLLXdPltvH",
+      "parent_id": "1TyBnPNmQJ9aZKR2r0ZB0WEkbDxbL7EIE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3167,
+      "modified": "2026-08-15T12:42:10.000Z",
+      "checksum": "3939ec9e9014cce8f7e4355f1e83392f",
+      "folder": false
+    },
+    {
+      "id": "1383rZEo46iHtUTi7mFRr1B4E7lc4kj3s",
+      "parent_id": "1TyBnPNmQJ9aZKR2r0ZB0WEkbDxbL7EIE",
+      "name": "NGỘ ĐỘC SÁCH.epub",
+      "mime": "application/epub+zip",
+      "size": 486281,
+      "modified": "2026-08-15T12:42:16.000Z",
+      "checksum": "4aaa561330945fedf48a955e05f6740f",
+      "folder": false
+    },
+    {
+      "id": "17iPvrs71L5cL-sYqk_JNDGionINL4tok",
+      "parent_id": "1TyBnPNmQJ9aZKR2r0ZB0WEkbDxbL7EIE",
+      "name": "NGỘ ĐỘC SÁCH.pdf",
+      "mime": "application/pdf",
+      "size": 375761,
+      "modified": "2026-08-15T12:42:14.000Z",
+      "checksum": "e56849d71647ecd0b2d43e4ed7a472d2",
+      "folder": false
+    }
+  ]
+}

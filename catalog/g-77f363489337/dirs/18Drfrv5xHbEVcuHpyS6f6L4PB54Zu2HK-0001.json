@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18Drfrv5xHbEVcuHpyS6f6L4PB54Zu2HK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PX3smtfCbA98DqLb8Df7hYdttdhLC6c3",
+      "parent_id": "18Drfrv5xHbEVcuHpyS6f6L4PB54Zu2HK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2441,
+      "modified": "2026-08-15T03:42:28.000Z",
+      "checksum": "ec7f6f3440a6486b072b560ee8a401f6",
+      "folder": false
+    },
+    {
+      "id": "1_8rzP3sS9T3mpZF0kehcfq1k_npkRmHc",
+      "parent_id": "18Drfrv5xHbEVcuHpyS6f6L4PB54Zu2HK",
+      "name": "GIÁC NIỆM VỀ HƠI THỞ.epub",
+      "mime": "application/epub+zip",
+      "size": 106728,
+      "modified": "2026-08-15T03:42:33.000Z",
+      "checksum": "10dde75875bc53aef0b3190c0e7c49d3",
+      "folder": false
+    },
+    {
+      "id": "1aNSAwNQM694EaYcPlBB8tun6PNBXhIGN",
+      "parent_id": "18Drfrv5xHbEVcuHpyS6f6L4PB54Zu2HK",
+      "name": "GIÁC NIỆM VỀ HƠI THỞ.pdf",
+      "mime": "application/pdf",
+      "size": 132717,
+      "modified": "2026-08-15T03:42:31.000Z",
+      "checksum": "581d027cf176be5ac0c7636dc82c55ec",
+      "folder": false
+    }
+  ]
+}

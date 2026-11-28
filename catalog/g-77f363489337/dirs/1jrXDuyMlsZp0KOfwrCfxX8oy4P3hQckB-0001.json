@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jrXDuyMlsZp0KOfwrCfxX8oy4P3hQckB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qrDhQw2tbu-6ZU5nGHBBkxo0wvC9c7jq",
+      "parent_id": "1jrXDuyMlsZp0KOfwrCfxX8oy4P3hQckB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3010,
+      "modified": "2026-08-16T03:30:18.000Z",
+      "checksum": "7caad956b322387249190475474a26e8",
+      "folder": false
+    },
+    {
+      "id": "1z4gA1H5PivMj7rfuyvJJfd3065zsuuiV",
+      "parent_id": "1jrXDuyMlsZp0KOfwrCfxX8oy4P3hQckB",
+      "name": "TƠ HỒNG VƯƠNG VẤN.epub",
+      "mime": "application/epub+zip",
+      "size": 636375,
+      "modified": "2026-08-16T03:30:25.000Z",
+      "checksum": "df9d4c2e654e2f36af9e3ac6d44a5e46",
+      "folder": false
+    },
+    {
+      "id": "1Zt5UoYLNAL1U9bdpeOfBjn61KgUgLaxi",
+      "parent_id": "1jrXDuyMlsZp0KOfwrCfxX8oy4P3hQckB",
+      "name": "TƠ HỒNG VƯƠNG VẤN.pdf",
+      "mime": "application/pdf",
+      "size": 1554519,
+      "modified": "2026-08-16T03:30:22.000Z",
+      "checksum": "6979f4f9f5de2cf0941efb5636714f8f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_klWNCEt3l3Ges3hgZCYAMmJv0hoGPPk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YztyVz3HST2Bcp-5GXEtU0mlEafdFPBe",
+      "parent_id": "1_klWNCEt3l3Ges3hgZCYAMmJv0hoGPPk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 891,
+      "modified": "2026-08-15T06:09:38.000Z",
+      "checksum": "cad6b0574e1c11f2652e5b83e87e607e",
+      "folder": false
+    },
+    {
+      "id": "1QHXv5_s8SkouUJwsDbYWbrLsUaqmVGuV",
+      "parent_id": "1_klWNCEt3l3Ges3hgZCYAMmJv0hoGPPk",
+      "name": "NHỮNG TẤM GƯƠNG XƯA.epub",
+      "mime": "application/epub+zip",
+      "size": 224872,
+      "modified": "2026-08-15T06:10:00.000Z",
+      "checksum": "070ba47b3d7b23508a71fd446c0b39ac",
+      "folder": false
+    },
+    {
+      "id": "1pLceSLUsFc28cJ3-XmsST0FfZbPWBGn1",
+      "parent_id": "1_klWNCEt3l3Ges3hgZCYAMmJv0hoGPPk",
+      "name": "NHỮNG TẤM GƯƠNG XƯA.pdf",
+      "mime": "application/pdf",
+      "size": 723539,
+      "modified": "2026-08-15T06:09:53.000Z",
+      "checksum": "8d3fae617c69e8d3cdba5f2197514d64",
+      "folder": false
+    }
+  ]
+}

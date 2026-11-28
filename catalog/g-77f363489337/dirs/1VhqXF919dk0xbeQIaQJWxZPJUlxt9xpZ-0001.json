@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VhqXF919dk0xbeQIaQJWxZPJUlxt9xpZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zzUwSOv1ahJWBxIhB4p_TpuSx9y2LuVo",
+      "parent_id": "1VhqXF919dk0xbeQIaQJWxZPJUlxt9xpZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4036,
+      "modified": "2026-08-15T15:45:02.000Z",
+      "checksum": "9006da21af0a257799b1462949748540",
+      "folder": false
+    },
+    {
+      "id": "1k-wxTNVbBCyuugImBpAxo0cmYxiYLo2-",
+      "parent_id": "1VhqXF919dk0xbeQIaQJWxZPJUlxt9xpZ",
+      "name": "VÔ LẠI KIM TIÊN - PHẦN 2.epub",
+      "mime": "application/epub+zip",
+      "size": 2432288,
+      "modified": "2026-08-15T15:45:11.000Z",
+      "checksum": "28790b5c740ecab4ad57302a9d5a8705",
+      "folder": false
+    },
+    {
+      "id": "1zNI-gXsn9ZfkHfnlWt41RYW-LMKPmkTP",
+      "parent_id": "1VhqXF919dk0xbeQIaQJWxZPJUlxt9xpZ",
+      "name": "VÔ LẠI KIM TIÊN - PHẦN 2.pdf",
+      "mime": "application/pdf",
+      "size": 2328532,
+      "modified": "2026-08-15T15:45:08.000Z",
+      "checksum": "0de99f64633835bc5ca8c23770db1ff5",
+      "folder": false
+    }
+  ]
+}

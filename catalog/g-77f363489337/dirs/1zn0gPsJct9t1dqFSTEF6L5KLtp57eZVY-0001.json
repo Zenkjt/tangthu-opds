@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zn0gPsJct9t1dqFSTEF6L5KLtp57eZVY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Zk54EjGNrBkzobzHd50_34apq6K_uM42",
+      "parent_id": "1zn0gPsJct9t1dqFSTEF6L5KLtp57eZVY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3656,
+      "modified": "2026-08-16T02:42:30.000Z",
+      "checksum": "44740f5f6b1612c854fad2ad0dc0db38",
+      "folder": false
+    },
+    {
+      "id": "1aswQNeiqiQ0YJJYT0Iu2y74DjbVNAfWZ",
+      "parent_id": "1zn0gPsJct9t1dqFSTEF6L5KLtp57eZVY",
+      "name": "THÉP ĐÃ TÔI THẾ ĐẤY.epub",
+      "mime": "application/epub+zip",
+      "size": 660400,
+      "modified": "2026-08-16T02:42:39.000Z",
+      "checksum": "9ea089d1081d0f86e86b7548cccfa3dc",
+      "folder": false
+    },
+    {
+      "id": "1waAP3xJBuDo9PvXXeIdb67msQyb0bkoB",
+      "parent_id": "1zn0gPsJct9t1dqFSTEF6L5KLtp57eZVY",
+      "name": "THÉP ĐÃ TÔI THẾ ĐẤY.pdf",
+      "mime": "application/pdf",
+      "size": 1353370,
+      "modified": "2026-08-16T02:42:37.000Z",
+      "checksum": "33e36d6a7628ef4b3ab533c283971410",
+      "folder": false
+    }
+  ]
+}

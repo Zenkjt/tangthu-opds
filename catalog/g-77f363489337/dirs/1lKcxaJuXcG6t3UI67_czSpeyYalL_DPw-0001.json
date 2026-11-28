@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lKcxaJuXcG6t3UI67_czSpeyYalL_DPw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lMRe-1iV_wMbrS_xgAhP_lG_SzBqvkrS",
+      "parent_id": "1lKcxaJuXcG6t3UI67_czSpeyYalL_DPw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6874,
+      "modified": "2026-08-15T06:52:52.000Z",
+      "checksum": "662d7c2088defbd8cddf659d4686299e",
+      "folder": false
+    },
+    {
+      "id": "1Xk_g26QqSchARcHpZ8QMhZKFApZ-5WU0",
+      "parent_id": "1lKcxaJuXcG6t3UI67_czSpeyYalL_DPw",
+      "name": "TRUYỆN LOÀI VẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 909363,
+      "modified": "2026-08-15T06:53:03.000Z",
+      "checksum": "5b69e812cfb88676613faedf27afa2ca",
+      "folder": false
+    },
+    {
+      "id": "1JUjX4R84iaqPIUwuqZkbJXQ11Cin8EwK",
+      "parent_id": "1lKcxaJuXcG6t3UI67_czSpeyYalL_DPw",
+      "name": "TRUYỆN LOÀI VẬT.pdf",
+      "mime": "application/pdf",
+      "size": 1891899,
+      "modified": "2026-08-15T06:53:00.000Z",
+      "checksum": "952d3c29e397937c0cafb9bf5ac3312f",
+      "folder": false
+    }
+  ]
+}

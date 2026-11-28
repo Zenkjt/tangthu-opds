@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yGOMaP92qOBBJ8lGK9qN8D0MXXb3sZJw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1X2SfoULR9AZO1y_Ap3qEpo9_mrPyS7OS",
+      "parent_id": "1yGOMaP92qOBBJ8lGK9qN8D0MXXb3sZJw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3270,
+      "modified": "2026-08-15T10:24:13.000Z",
+      "checksum": "fbb9ffcfb57332addba5cf2e1f151790",
+      "folder": false
+    },
+    {
+      "id": "1Lj2zSIEUM8UOEG-iM4RPXF8h84SC_DlP",
+      "parent_id": "1yGOMaP92qOBBJ8lGK9qN8D0MXXb3sZJw",
+      "name": "TẠ TIỂU NGA TRUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 733946,
+      "modified": "2026-08-15T10:24:26.000Z",
+      "checksum": "fe111e417fee480b528d89a97b96c8fc",
+      "folder": false
+    },
+    {
+      "id": "1zT_qzPZaDf0cRvU9znYjc1MfcgJ_6tMr",
+      "parent_id": "1yGOMaP92qOBBJ8lGK9qN8D0MXXb3sZJw",
+      "name": "TẠ TIỂU NGA TRUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 2556631,
+      "modified": "2026-08-15T10:24:23.000Z",
+      "checksum": "ff4aa38962911ce75fc9089685741623",
+      "folder": false
+    }
+  ]
+}

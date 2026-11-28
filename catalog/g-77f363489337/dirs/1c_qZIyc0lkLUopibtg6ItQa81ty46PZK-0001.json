@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1c_qZIyc0lkLUopibtg6ItQa81ty46PZK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hQuaTwxy32Uu2cJzxdVELGSGLiLAP2oj",
+      "parent_id": "1c_qZIyc0lkLUopibtg6ItQa81ty46PZK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6319,
+      "modified": "2026-08-15T07:38:40.000Z",
+      "checksum": "978a65696571a9922e3f82cd4bc9186e",
+      "folder": false
+    },
+    {
+      "id": "1g3ZxDgWfnQuL0e5xQ0VoW0xjDmIxo4C7",
+      "parent_id": "1c_qZIyc0lkLUopibtg6ItQa81ty46PZK",
+      "name": "SỬ LIỆU PHÙ NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 2802892,
+      "modified": "2026-08-15T07:38:47.000Z",
+      "checksum": "cd57a64b47367dcc76adb432f674deb6",
+      "folder": false
+    },
+    {
+      "id": "1xRyOBuJOCiLMACkMepEbCYXZwzeGybI_",
+      "parent_id": "1c_qZIyc0lkLUopibtg6ItQa81ty46PZK",
+      "name": "SỬ LIỆU PHÙ NAM.pdf",
+      "mime": "application/pdf",
+      "size": 2623512,
+      "modified": "2026-08-15T07:38:44.000Z",
+      "checksum": "a36f8fa386ef4bd89c09dbf98014778f",
+      "folder": false
+    }
+  ]
+}

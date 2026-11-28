@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15mn_V86q78NSCn8LXc0NgMGAOIZXt09E",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_OhXe3fgkDq1QnNtd8jeML06MKvp-QOx",
+      "parent_id": "15mn_V86q78NSCn8LXc0NgMGAOIZXt09E",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10971,
+      "modified": "2026-08-15T07:23:58.000Z",
+      "checksum": "5f80695d35d1012f73a47d01a53c45c7",
+      "folder": false
+    },
+    {
+      "id": "1I4dkb_TlOoIvZ-D2TOR8Xmfj9JoLJbWZ",
+      "parent_id": "15mn_V86q78NSCn8LXc0NgMGAOIZXt09E",
+      "name": "TỪ TỪ DỤ DỖ.epub",
+      "mime": "application/epub+zip",
+      "size": 794745,
+      "modified": "2026-08-15T07:24:06.000Z",
+      "checksum": "ee288e7054861ada64ad6f5a8598dd04",
+      "folder": false
+    },
+    {
+      "id": "179Ud3KnnOSk9tOU36LqXRf-_5O6ywpyu",
+      "parent_id": "15mn_V86q78NSCn8LXc0NgMGAOIZXt09E",
+      "name": "TỪ TỪ DỤ DỖ.pdf",
+      "mime": "application/pdf",
+      "size": 2285280,
+      "modified": "2026-08-15T07:24:03.000Z",
+      "checksum": "5888446e5d5923681f0216f7d36096c5",
+      "folder": false
+    }
+  ]
+}

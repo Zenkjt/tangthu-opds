@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rdH0-MvNAmfaVgcVWeXs1hO4OOWA37qS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jQeXFMXAA5-WuX8bzQt7wzM3GAtaYUr-",
+      "parent_id": "1rdH0-MvNAmfaVgcVWeXs1hO4OOWA37qS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7270,
+      "modified": "2026-08-15T06:49:27.000Z",
+      "checksum": "3b6e7c4ab2192a127bb3807c2e392a29",
+      "folder": false
+    },
+    {
+      "id": "13pCSZKVrxFjV4AtQ-AVXZ8wdY0bjIps8",
+      "parent_id": "1rdH0-MvNAmfaVgcVWeXs1hO4OOWA37qS",
+      "name": "ĐÁNH THẮNG B52.epub",
+      "mime": "application/epub+zip",
+      "size": 4283405,
+      "modified": "2026-08-15T06:49:35.000Z",
+      "checksum": "b4babdae865305fdab912be1cb9ffaa7",
+      "folder": false
+    },
+    {
+      "id": "1ZrMecQ7vFrZyKawurAW6DYsWdpKfRmPV",
+      "parent_id": "1rdH0-MvNAmfaVgcVWeXs1hO4OOWA37qS",
+      "name": "ĐÁNH THẮNG B52.pdf",
+      "mime": "application/pdf",
+      "size": 1469334,
+      "modified": "2026-08-15T06:49:31.000Z",
+      "checksum": "838090385969a37eadec978d75d592f7",
+      "folder": false
+    }
+  ]
+}

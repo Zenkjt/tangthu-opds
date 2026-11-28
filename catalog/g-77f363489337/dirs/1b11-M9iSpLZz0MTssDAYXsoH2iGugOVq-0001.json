@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1b11-M9iSpLZz0MTssDAYXsoH2iGugOVq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cbwrrDU--YtUI2RNaAyItrbeFGC3yNcn",
+      "parent_id": "1b11-M9iSpLZz0MTssDAYXsoH2iGugOVq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3370,
+      "modified": "2026-08-16T04:03:11.000Z",
+      "checksum": "c0d8efb5cdeb6ecc5ed1309ab463ee8a",
+      "folder": false
+    },
+    {
+      "id": "1z1nVEZ1bP247h9IXAfUm1hFgPPMW2kUW",
+      "parent_id": "1b11-M9iSpLZz0MTssDAYXsoH2iGugOVq",
+      "name": "SỐNG LẠI CÓ ANH BÊN EM LÀ ĐỦ.epub",
+      "mime": "application/epub+zip",
+      "size": 546880,
+      "modified": "2026-08-16T04:03:19.000Z",
+      "checksum": "c379f75b4d2cc2320047b273803ee9e3",
+      "folder": false
+    },
+    {
+      "id": "151_TE5hsRmXO3LHcRpKz0I6m6toeGSVO",
+      "parent_id": "1b11-M9iSpLZz0MTssDAYXsoH2iGugOVq",
+      "name": "SỐNG LẠI CÓ ANH BÊN EM LÀ ĐỦ.pdf",
+      "mime": "application/pdf",
+      "size": 1817406,
+      "modified": "2026-08-16T04:03:17.000Z",
+      "checksum": "a98ce84dc6129e276443a953ae87498c",
+      "folder": false
+    }
+  ]
+}

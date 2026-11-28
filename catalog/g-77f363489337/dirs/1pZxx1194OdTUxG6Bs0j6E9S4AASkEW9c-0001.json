@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pZxx1194OdTUxG6Bs0j6E9S4AASkEW9c",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SKyYLNd_60cys6aBWFrybuSrnihOIAWM",
+      "parent_id": "1pZxx1194OdTUxG6Bs0j6E9S4AASkEW9c",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3728,
+      "modified": "2026-08-16T03:22:24.000Z",
+      "checksum": "b7ef5ed4fa3a295b9ab98ea8f65d66de",
+      "folder": false
+    },
+    {
+      "id": "1T8NaauW6N0UxVXREbNS2OSZC9RTmG37B",
+      "parent_id": "1pZxx1194OdTUxG6Bs0j6E9S4AASkEW9c",
+      "name": "MÙ LÒA.epub",
+      "mime": "application/epub+zip",
+      "size": 523498,
+      "modified": "2026-08-16T03:22:31.000Z",
+      "checksum": "fe6284fa0cba4b9a107e997d6e8a3f56",
+      "folder": false
+    },
+    {
+      "id": "1hvchdZV4EYsR70RXv49oVI9Pt5THOqD6",
+      "parent_id": "1pZxx1194OdTUxG6Bs0j6E9S4AASkEW9c",
+      "name": "MÙ LÒA.pdf",
+      "mime": "application/pdf",
+      "size": 1216954,
+      "modified": "2026-08-16T03:22:29.000Z",
+      "checksum": "dd8591dc8037609bc7fc0f318b8fc8c3",
+      "folder": false
+    }
+  ]
+}

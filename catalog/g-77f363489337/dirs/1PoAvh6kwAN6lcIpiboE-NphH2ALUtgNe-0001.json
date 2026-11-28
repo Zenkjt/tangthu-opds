@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PoAvh6kwAN6lcIpiboE-NphH2ALUtgNe",
+  "page": 1,
+  "items": [
+    {
+      "id": "188Iws7lUVN7YdPgl3FhfV8R6kdwDSkBc",
+      "parent_id": "1PoAvh6kwAN6lcIpiboE-NphH2ALUtgNe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6914,
+      "modified": "2026-08-15T15:31:06.000Z",
+      "checksum": "75c9621a363f7a01a77343547fefc829",
+      "folder": false
+    },
+    {
+      "id": "10WVEf-oSiLnANkn0UpykQyjVCGBHBFeo",
+      "parent_id": "1PoAvh6kwAN6lcIpiboE-NphH2ALUtgNe",
+      "name": "PHÍA BÊN KIA NỬA ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 833019,
+      "modified": "2026-08-15T15:31:38.000Z",
+      "checksum": "0f9a66cdb5f821272b61405bef1b504e",
+      "folder": false
+    },
+    {
+      "id": "1aPt3HWbBcVv-oaXS9kaI7Z2R5it9GVGE",
+      "parent_id": "1PoAvh6kwAN6lcIpiboE-NphH2ALUtgNe",
+      "name": "PHÍA BÊN KIA NỬA ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 1076433,
+      "modified": "2026-08-15T15:31:12.000Z",
+      "checksum": "edaa17e75d2ec0f868ccf1324c5e65d9",
+      "folder": false
+    }
+  ]
+}

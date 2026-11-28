@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AT-onevoGeh2ssyTXMLYydcdVWfrU3ie",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Nm_9z_oEzt4ARr5wY428ssDjPGt4Lupn",
+      "parent_id": "1AT-onevoGeh2ssyTXMLYydcdVWfrU3ie",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1773,
+      "modified": "2026-08-15T17:01:50.000Z",
+      "checksum": "8f7b4679ce4377ddd89e4aa447a7b09a",
+      "folder": false
+    },
+    {
+      "id": "1vC5dDxUDdtfER2EbguvbRyLg6SMDv6kA",
+      "parent_id": "1AT-onevoGeh2ssyTXMLYydcdVWfrU3ie",
+      "name": "THIÊN LÝ KHỞI GIẢI.epub",
+      "mime": "application/epub+zip",
+      "size": 879362,
+      "modified": "2026-08-15T17:01:57.000Z",
+      "checksum": "deb9141a91c3b952afd1e71ac9636a47",
+      "folder": false
+    },
+    {
+      "id": "1ain-RanmZR1LcCeMNoVJqf3vnlXkKHtU",
+      "parent_id": "1AT-onevoGeh2ssyTXMLYydcdVWfrU3ie",
+      "name": "THIÊN LÝ KHỞI GIẢI.pdf",
+      "mime": "application/pdf",
+      "size": 1130229,
+      "modified": "2026-08-15T17:01:54.000Z",
+      "checksum": "511c083384037560a8c1e0e71631f3b1",
+      "folder": false
+    }
+  ]
+}

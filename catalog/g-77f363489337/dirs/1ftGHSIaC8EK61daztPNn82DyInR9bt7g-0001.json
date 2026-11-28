@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ftGHSIaC8EK61daztPNn82DyInR9bt7g",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pvw3D4qtt9tCZbNxEf4sk0K7z2pEOPES",
+      "parent_id": "1ftGHSIaC8EK61daztPNn82DyInR9bt7g",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3122,
+      "modified": "2026-08-15T10:10:08.000Z",
+      "checksum": "631e7fbe8179e876380125b595deea9b",
+      "folder": false
+    },
+    {
+      "id": "17VQlIxXhRcbIfCUlO5NcOfJRSCCjnksx",
+      "parent_id": "1ftGHSIaC8EK61daztPNn82DyInR9bt7g",
+      "name": "TIẾNG THỜI GIAN DU DƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 682607,
+      "modified": "2026-08-15T10:10:16.000Z",
+      "checksum": "9f69adf44c3cc8aa4e28aa25d0bea181",
+      "folder": false
+    },
+    {
+      "id": "19J5TF92MnKLv-Y2s7t9h2ZTK-fl-aqmz",
+      "parent_id": "1ftGHSIaC8EK61daztPNn82DyInR9bt7g",
+      "name": "TIẾNG THỜI GIAN DU DƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 2072810,
+      "modified": "2026-08-15T10:10:13.000Z",
+      "checksum": "369826de82d0fc3538ede0727303910e",
+      "folder": false
+    }
+  ]
+}

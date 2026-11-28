@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IG6oX6ysFUoVQJGgnqMIE_Q45mfoKXZ3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bSGnk1zBnShRE8nev6fhV6d9FVW3YCv-",
+      "parent_id": "1IG6oX6ysFUoVQJGgnqMIE_Q45mfoKXZ3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 557,
+      "modified": "2026-08-15T10:34:52.000Z",
+      "checksum": "78fa676ce47030a540dec54036dbb611",
+      "folder": false
+    },
+    {
+      "id": "1jsakbvSZQy-xGhnkpf7ZvGwABla_1xw1",
+      "parent_id": "1IG6oX6ysFUoVQJGgnqMIE_Q45mfoKXZ3",
+      "name": "Ở LẠI ĐÂY VỚI ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 526251,
+      "modified": "2026-08-15T10:35:01.000Z",
+      "checksum": "0af27e7b4c05c37de90159bc2a698b06",
+      "folder": false
+    },
+    {
+      "id": "1utIlOTi58Gdt6uihlXFOLLedzSJtBb1u",
+      "parent_id": "1IG6oX6ysFUoVQJGgnqMIE_Q45mfoKXZ3",
+      "name": "Ở LẠI ĐÂY VỚI ANH.pdf",
+      "mime": "application/pdf",
+      "size": 744040,
+      "modified": "2026-08-15T10:34:58.000Z",
+      "checksum": "4fdd200d2207895a3d175b0fee17ba0c",
+      "folder": false
+    }
+  ]
+}

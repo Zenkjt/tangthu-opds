@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1abZjn9UuQAgyvexcwvCXffu4N3Q1l6Qp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_0N6ZB205FzpUhx6jpFmqXie0OlkYCCF",
+      "parent_id": "1abZjn9UuQAgyvexcwvCXffu4N3Q1l6Qp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 594,
+      "modified": "2026-08-16T04:19:48.000Z",
+      "checksum": "c923c89407c695e9e6fbbe5f5c715559",
+      "folder": false
+    },
+    {
+      "id": "1v9TuEdXp2YrEpDpNerk5OHGZ9EfrzAiS",
+      "parent_id": "1abZjn9UuQAgyvexcwvCXffu4N3Q1l6Qp",
+      "name": "GỢN SÓNG.epub",
+      "mime": "application/epub+zip",
+      "size": 473327,
+      "modified": "2026-08-16T04:19:54.000Z",
+      "checksum": "ebedc9a8e70c3a5cac6af4f529b74ced",
+      "folder": false
+    },
+    {
+      "id": "1U5dHsBIRufaqGlbM5otkCDySz8zNLjOS",
+      "parent_id": "1abZjn9UuQAgyvexcwvCXffu4N3Q1l6Qp",
+      "name": "GỢN SÓNG.pdf",
+      "mime": "application/pdf",
+      "size": 377894,
+      "modified": "2026-08-16T04:19:51.000Z",
+      "checksum": "ebaf2cd9ffceb5eaaf52409824cb1b65",
+      "folder": false
+    }
+  ]
+}

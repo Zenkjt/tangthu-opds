@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1R-CWfjsA6kowlWcJWDJpooLH8Ps1vKDO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FeCdwK_NKXNFWPwdtn4BwUZt__r09RDI",
+      "parent_id": "1R-CWfjsA6kowlWcJWDJpooLH8Ps1vKDO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3574,
+      "modified": "2026-08-15T00:45:29.000Z",
+      "checksum": "7e99cc6598908a932478639dd363aeb8",
+      "folder": false
+    },
+    {
+      "id": "132xetrl6KNExHQ2pEQronBmMzdnodaMl",
+      "parent_id": "1R-CWfjsA6kowlWcJWDJpooLH8Ps1vKDO",
+      "name": "HIỂU VỀ TRÁI TIM.epub",
+      "mime": "application/epub+zip",
+      "size": 646141,
+      "modified": "2026-08-15T00:45:38.000Z",
+      "checksum": "ac6bbf13379de0b037aa82d84fd5138c",
+      "folder": false
+    },
+    {
+      "id": "1X2cthfYxYARFcRvw4NfgR3vtXkxWh8px",
+      "parent_id": "1R-CWfjsA6kowlWcJWDJpooLH8Ps1vKDO",
+      "name": "HIỂU VỀ TRÁI TIM.pdf",
+      "mime": "application/pdf",
+      "size": 1257350,
+      "modified": "2026-08-15T00:45:35.000Z",
+      "checksum": "cf7d1b2e8edc6db4d8b6c4d277cbdfa1",
+      "folder": false
+    }
+  ]
+}

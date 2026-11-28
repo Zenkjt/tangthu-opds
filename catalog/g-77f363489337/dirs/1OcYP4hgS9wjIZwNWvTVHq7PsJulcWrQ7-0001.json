@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OcYP4hgS9wjIZwNWvTVHq7PsJulcWrQ7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fQ4f06fqZlZtAEwOYDRKg3GWYVCymw0b",
+      "parent_id": "1OcYP4hgS9wjIZwNWvTVHq7PsJulcWrQ7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3523,
+      "modified": "2026-08-15T10:48:13.000Z",
+      "checksum": "d1a9e7d891788c4a15c1470e2cffefec",
+      "folder": false
+    },
+    {
+      "id": "1SL6aUXdybLaTCsbcWEY42XoiGbl-XPqZ",
+      "parent_id": "1OcYP4hgS9wjIZwNWvTVHq7PsJulcWrQ7",
+      "name": "NÀNG LIKA.epub",
+      "mime": "application/epub+zip",
+      "size": 391468,
+      "modified": "2026-08-15T10:48:20.000Z",
+      "checksum": "628b56dc22152ac6b9cd744fe502a41b",
+      "folder": false
+    },
+    {
+      "id": "1UbwgKueysHnu6jYq7YxEByfRbrhIS1pP",
+      "parent_id": "1OcYP4hgS9wjIZwNWvTVHq7PsJulcWrQ7",
+      "name": "NÀNG LIKA.pdf",
+      "mime": "application/pdf",
+      "size": 547021,
+      "modified": "2026-08-15T10:48:17.000Z",
+      "checksum": "904c04a23ca6b5b94ee9383f1f9ca9ef",
+      "folder": false
+    }
+  ]
+}

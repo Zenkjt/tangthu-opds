@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mdgfLqvou_bWKXXJ-mUHMIMsx6KMMSUy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Euvt2NIWz6nwL1evIzDWbpGD1zOVNHTZ",
+      "parent_id": "1mdgfLqvou_bWKXXJ-mUHMIMsx6KMMSUy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3965,
+      "modified": "2026-08-15T08:17:54.000Z",
+      "checksum": "c2f99fd4edd676fa2558088762764e21",
+      "folder": false
+    },
+    {
+      "id": "1Js1TJqt5GMJ4DNPYfG8xWbSvMHzLRAsE",
+      "parent_id": "1mdgfLqvou_bWKXXJ-mUHMIMsx6KMMSUy",
+      "name": "ĐẤT VIỆT TRỜI NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 1057873,
+      "modified": "2026-08-15T08:18:07.000Z",
+      "checksum": "06cbd0ecdc4c08022c9957e080f1f67e",
+      "folder": false
+    },
+    {
+      "id": "1fRWcW1cZZj5mKBRB7Ecm0HFFqMC6BFnA",
+      "parent_id": "1mdgfLqvou_bWKXXJ-mUHMIMsx6KMMSUy",
+      "name": "ĐẤT VIỆT TRỜI NAM.pdf",
+      "mime": "application/pdf",
+      "size": 3697685,
+      "modified": "2026-08-15T08:18:04.000Z",
+      "checksum": "7f3942631cc7a59b1a841939f46bbee1",
+      "folder": false
+    }
+  ]
+}

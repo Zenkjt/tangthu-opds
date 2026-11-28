@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QC25YNf5H9O1VQKLid2LWu3i7cjnUWBJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pZxexD2q07kMBMDSqLMCdhhCdVMJzDPi",
+      "parent_id": "1QC25YNf5H9O1VQKLid2LWu3i7cjnUWBJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7934,
+      "modified": "2026-08-16T03:26:51.000Z",
+      "checksum": "797fb280119d05cba25295dbadf9c229",
+      "folder": false
+    },
+    {
+      "id": "1DQS2kPWUf5VwjYYiRwjlBiC_OudllvuL",
+      "parent_id": "1QC25YNf5H9O1VQKLid2LWu3i7cjnUWBJ",
+      "name": "HAI CHẬU LAN TỐ TÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 677312,
+      "modified": "2026-08-16T03:26:58.000Z",
+      "checksum": "80aa5974568a0fcb4293b3cd03cf3e7b",
+      "folder": false
+    },
+    {
+      "id": "18N7syD3F5pnRNR4LUNr8woBIvEOD-zwz",
+      "parent_id": "1QC25YNf5H9O1VQKLid2LWu3i7cjnUWBJ",
+      "name": "HAI CHẬU LAN TỐ TÂM.pdf",
+      "mime": "application/pdf",
+      "size": 1223315,
+      "modified": "2026-08-16T03:26:56.000Z",
+      "checksum": "8749c34c35daded2e8e17c44d75dae6e",
+      "folder": false
+    }
+  ]
+}

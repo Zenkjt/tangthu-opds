@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1N6Cx6Ql0r0AUOOOIRtRriQ_cqNM1LdrG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DwKc7ATlUBED-PEUBkfox77VcKcoVVpR",
+      "parent_id": "1N6Cx6Ql0r0AUOOOIRtRriQ_cqNM1LdrG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 522,
+      "modified": "2026-08-15T10:57:40.000Z",
+      "checksum": "5d8c7d6cf49262ecd571439aac70e952",
+      "folder": false
+    },
+    {
+      "id": "1JrQ5RJM0dUpju2pROWHylXJtcdr8Pkr8",
+      "parent_id": "1N6Cx6Ql0r0AUOOOIRtRriQ_cqNM1LdrG",
+      "name": "ĐƯỜNG ĐUA CỦA NHỮNG GIẤC MƠ.epub",
+      "mime": "application/epub+zip",
+      "size": 614320,
+      "modified": "2026-08-15T10:57:58.000Z",
+      "checksum": "7df6b1023ff0783f84c3fd92e8019a32",
+      "folder": false
+    },
+    {
+      "id": "1lrFUtUsUiSmfPaO9DL4U0N3s7O7hcWEY",
+      "parent_id": "1N6Cx6Ql0r0AUOOOIRtRriQ_cqNM1LdrG",
+      "name": "ĐƯỜNG ĐUA CỦA NHỮNG GIẤC MƠ.pdf",
+      "mime": "application/pdf",
+      "size": 1022302,
+      "modified": "2026-08-15T10:57:52.000Z",
+      "checksum": "a1001e255d7e82605f000fd5c610e101",
+      "folder": false
+    }
+  ]
+}

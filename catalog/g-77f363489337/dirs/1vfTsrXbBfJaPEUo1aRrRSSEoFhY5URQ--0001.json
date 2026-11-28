@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vfTsrXbBfJaPEUo1aRrRSSEoFhY5URQ-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1w-3tIVKwobPLusnpLCGhO09he91TzTxV",
+      "parent_id": "1vfTsrXbBfJaPEUo1aRrRSSEoFhY5URQ-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 711,
+      "modified": "2026-08-15T10:54:03.000Z",
+      "checksum": "5843f1cf5c4b5b063f5789b900674bf3",
+      "folder": false
+    },
+    {
+      "id": "1hpWUV_gU_bjxS9UWkdxJOiyoaQmS9aRw",
+      "parent_id": "1vfTsrXbBfJaPEUo1aRrRSSEoFhY5URQ-",
+      "name": "LÁ NGỌC CÀNH VÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 411871,
+      "modified": "2026-08-15T10:54:16.000Z",
+      "checksum": "0528abe97174f96a8d046a76b97e5a99",
+      "folder": false
+    },
+    {
+      "id": "1QWZP-w4OI4OUIOmgiEDRIhxbKQWWZ9OC",
+      "parent_id": "1vfTsrXbBfJaPEUo1aRrRSSEoFhY5URQ-",
+      "name": "LÁ NGỌC CÀNH VÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 432253,
+      "modified": "2026-08-15T10:54:11.000Z",
+      "checksum": "aa5ad9e51a527642f43c182e0726a137",
+      "folder": false
+    }
+  ]
+}

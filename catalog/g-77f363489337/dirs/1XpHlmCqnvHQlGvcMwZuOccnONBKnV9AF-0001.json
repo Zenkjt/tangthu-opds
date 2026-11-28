@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XpHlmCqnvHQlGvcMwZuOccnONBKnV9AF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1s9aLAGfbd_SxyUfifg0PQqdaho0H3ueM",
+      "parent_id": "1XpHlmCqnvHQlGvcMwZuOccnONBKnV9AF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 27129,
+      "modified": "2026-08-15T05:41:59.000Z",
+      "checksum": "4f1ac801ef5557763a7a7395d9e41e60",
+      "folder": false
+    },
+    {
+      "id": "10ev0fW9kfQdwCux98X1Pe3KBt_MfwkwR",
+      "parent_id": "1XpHlmCqnvHQlGvcMwZuOccnONBKnV9AF",
+      "name": "NHIỆT ĐỚI BUỒN.epub",
+      "mime": "application/epub+zip",
+      "size": 3114654,
+      "modified": "2026-08-15T05:42:09.000Z",
+      "checksum": "d50af2477d2b749f06e7ca5fd6d5dd90",
+      "folder": false
+    },
+    {
+      "id": "1bHkfFFguUjuOrH-fm0013X8utH-BcSuJ",
+      "parent_id": "1XpHlmCqnvHQlGvcMwZuOccnONBKnV9AF",
+      "name": "NHIỆT ĐỚI BUỒN.pdf",
+      "mime": "application/pdf",
+      "size": 4655057,
+      "modified": "2026-08-15T05:42:06.000Z",
+      "checksum": "3bc361693d7b7501238b0c73e612326a",
+      "folder": false
+    }
+  ]
+}

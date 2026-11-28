@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Q2U2gLo1sCKzNPUqRUjmEd4FbbkK3E18",
+  "page": 1,
+  "items": [
+    {
+      "id": "1v5hcm7BLFvTTP8lBli0QetACIuOmuRej",
+      "parent_id": "1Q2U2gLo1sCKzNPUqRUjmEd4FbbkK3E18",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 3051,
+      "modified": "2026-08-16T03:55:02.000Z",
+      "checksum": "e4f7aa2d52b1b1b487b662de6e302208",
+      "folder": false
+    },
+    {
+      "id": "13HTT186FxX1PcKF6d_7arBkbDKYrQVMW",
+      "parent_id": "1Q2U2gLo1sCKzNPUqRUjmEd4FbbkK3E18",
+      "name": "TIỂU THỜI ĐẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 1208097,
+      "modified": "2026-08-16T03:55:12.000Z",
+      "checksum": "c2196f2d17353258707ba820a18937df",
+      "folder": false
+    },
+    {
+      "id": "1S8J1jXKAIeqZpWYBEbfImMbN3TC1xMH4",
+      "parent_id": "1Q2U2gLo1sCKzNPUqRUjmEd4FbbkK3E18",
+      "name": "TIỂU THỜI ĐẠI.pdf",
+      "mime": "application/pdf",
+      "size": 4101206,
+      "modified": "2026-08-16T03:55:09.000Z",
+      "checksum": "093bc2d5d97d51ce14fccb695022a1c2",
+      "folder": false
+    }
+  ]
+}

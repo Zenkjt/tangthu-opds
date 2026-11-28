@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-Iz-kBIYdv-0Z5cGOEXYadupVej9bgJH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xC8zv8_vB8sBxaJDXHuw1NjXjsoNFdwP",
+      "parent_id": "1-Iz-kBIYdv-0Z5cGOEXYadupVej9bgJH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1554,
+      "modified": "2026-08-15T07:21:52.000Z",
+      "checksum": "e3d8441107d5f71edff3e6e0174e7861",
+      "folder": false
+    },
+    {
+      "id": "1z39DrEpcDhB3WmBkWYcCZnVrHnB_6WYC",
+      "parent_id": "1-Iz-kBIYdv-0Z5cGOEXYadupVej9bgJH",
+      "name": "TRỞ VỀ NĂM 1981.epub",
+      "mime": "application/epub+zip",
+      "size": 844559,
+      "modified": "2026-08-15T07:22:02.000Z",
+      "checksum": "07168d64b01fb0b5f595bb26de80e5cf",
+      "folder": false
+    },
+    {
+      "id": "10Qt8Q9afwX-tIipAHO3amwPo1SFNbl68",
+      "parent_id": "1-Iz-kBIYdv-0Z5cGOEXYadupVej9bgJH",
+      "name": "TRỞ VỀ NĂM 1981.pdf",
+      "mime": "application/pdf",
+      "size": 2884993,
+      "modified": "2026-08-15T07:21:59.000Z",
+      "checksum": "d67482bcf201a9187ff3489ce051f948",
+      "folder": false
+    }
+  ]
+}

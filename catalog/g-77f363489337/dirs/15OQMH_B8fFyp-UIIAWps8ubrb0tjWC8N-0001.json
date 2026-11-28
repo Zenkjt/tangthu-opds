@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15OQMH_B8fFyp-UIIAWps8ubrb0tjWC8N",
+  "page": 1,
+  "items": [
+    {
+      "id": "16BbqbshGHt3IMOomOrcgs1PmAVAr_Htt",
+      "parent_id": "15OQMH_B8fFyp-UIIAWps8ubrb0tjWC8N",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6829,
+      "modified": "2026-08-16T03:05:19.000Z",
+      "checksum": "23c8d5dd89226e22746f7e291373302d",
+      "folder": false
+    },
+    {
+      "id": "1nayb08YMCyH0NeG6kpNUGmCG9evS51X5",
+      "parent_id": "15OQMH_B8fFyp-UIIAWps8ubrb0tjWC8N",
+      "name": "VÀNG THÁP HỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 301552,
+      "modified": "2026-08-16T03:05:26.000Z",
+      "checksum": "8a68342204d560012865e34c9b0a0a24",
+      "folder": false
+    },
+    {
+      "id": "1KXB0403y0ZbtxDFVJhOdshUGlaUeAIXJ",
+      "parent_id": "15OQMH_B8fFyp-UIIAWps8ubrb0tjWC8N",
+      "name": "VÀNG THÁP HỜI.pdf",
+      "mime": "application/pdf",
+      "size": 246920,
+      "modified": "2026-08-16T03:05:23.000Z",
+      "checksum": "08f739950840b943eaae107ab51795ae",
+      "folder": false
+    }
+  ]
+}

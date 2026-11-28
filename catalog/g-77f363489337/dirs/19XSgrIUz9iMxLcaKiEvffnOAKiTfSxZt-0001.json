@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19XSgrIUz9iMxLcaKiEvffnOAKiTfSxZt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JboclOxt56IAUfhGaPtDHvX4hCLQDO5s",
+      "parent_id": "19XSgrIUz9iMxLcaKiEvffnOAKiTfSxZt",
+      "name": "CHIỀU CHIỀU.epub",
+      "mime": "application/epub+zip",
+      "size": 623329,
+      "modified": "2026-08-16T02:52:52.000Z",
+      "checksum": "4fcdeca89771c59b781595aaf8b0d846",
+      "folder": false
+    },
+    {
+      "id": "1ua-nyo_wPi-BOPcP4zogC1AFSEeZLW9Y",
+      "parent_id": "19XSgrIUz9iMxLcaKiEvffnOAKiTfSxZt",
+      "name": "CHIỀU CHIỀU.pdf",
+      "mime": "application/pdf",
+      "size": 1060304,
+      "modified": "2026-08-16T02:52:50.000Z",
+      "checksum": "79b3eda43c492d6fb77189af1ffc365a",
+      "folder": false
+    },
+    {
+      "id": "156zYJorHHbOlmon4zHYCLIp1NoU6wBpY",
+      "parent_id": "19XSgrIUz9iMxLcaKiEvffnOAKiTfSxZt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2946,
+      "modified": "2026-08-16T02:52:46.000Z",
+      "checksum": "777c536bf0e2ae33cfd48d5c870803f4",
+      "folder": false
+    }
+  ]
+}

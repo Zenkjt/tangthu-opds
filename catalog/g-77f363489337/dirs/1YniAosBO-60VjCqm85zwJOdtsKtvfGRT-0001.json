@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YniAosBO-60VjCqm85zwJOdtsKtvfGRT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jmXczwxQMkp7X9hD_GaUBakC_s0I8d_t",
+      "parent_id": "1YniAosBO-60VjCqm85zwJOdtsKtvfGRT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3516,
+      "modified": "2026-08-16T03:11:54.000Z",
+      "checksum": "817158899b884c44a16dec805ec7781c",
+      "folder": false
+    },
+    {
+      "id": "1a0lBxVgjzl55qBaHwG3mq77AQXHleo-7",
+      "parent_id": "1YniAosBO-60VjCqm85zwJOdtsKtvfGRT",
+      "name": "TUYỂN TẬP TRUYỆN MA VÀ TRUYỆN NGẮN NGUYỄN NGỌC NGẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 988455,
+      "modified": "2026-08-16T03:12:03.000Z",
+      "checksum": "76a419aa6e7e690c7e0a67f929566421",
+      "folder": false
+    },
+    {
+      "id": "1gmZjw83hRYc_p1asPuZI22M19kTHYfSx",
+      "parent_id": "1YniAosBO-60VjCqm85zwJOdtsKtvfGRT",
+      "name": "TUYỂN TẬP TRUYỆN MA VÀ TRUYỆN NGẮN NGUYỄN NGỌC NGẠN.pdf",
+      "mime": "application/pdf",
+      "size": 1832781,
+      "modified": "2026-08-16T03:12:00.000Z",
+      "checksum": "d9f9d834706cb23eb7757a5344cf3b13",
+      "folder": false
+    }
+  ]
+}

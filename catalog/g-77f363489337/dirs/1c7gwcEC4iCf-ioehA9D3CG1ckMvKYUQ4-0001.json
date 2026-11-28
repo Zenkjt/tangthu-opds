@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1c7gwcEC4iCf-ioehA9D3CG1ckMvKYUQ4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S5gCpcIdiGZTvV0Dt9H-CCQ7BMNO4XFd",
+      "parent_id": "1c7gwcEC4iCf-ioehA9D3CG1ckMvKYUQ4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2176,
+      "modified": "2026-08-15T03:44:51.000Z",
+      "checksum": "791668556d9d9a51b0f76bc4a85be33a",
+      "folder": false
+    },
+    {
+      "id": "1YdqnfECTKU1y4ZSGgLk9GJ1NOSTcvP3V",
+      "parent_id": "1c7gwcEC4iCf-ioehA9D3CG1ckMvKYUQ4",
+      "name": "QUẢN LÝ NGHIỆP.epub",
+      "mime": "application/epub+zip",
+      "size": 705667,
+      "modified": "2026-08-15T03:44:59.000Z",
+      "checksum": "bd71df25d629d30814288cc2fb848ab6",
+      "folder": false
+    },
+    {
+      "id": "1Ke5NTdmRqiTVk73hnIeltEVvSYvFgI3M",
+      "parent_id": "1c7gwcEC4iCf-ioehA9D3CG1ckMvKYUQ4",
+      "name": "QUẢN LÝ NGHIỆP.pdf",
+      "mime": "application/pdf",
+      "size": 1107792,
+      "modified": "2026-08-15T03:44:56.000Z",
+      "checksum": "b177e900a4b3082857e90f7226223a07",
+      "folder": false
+    }
+  ]
+}

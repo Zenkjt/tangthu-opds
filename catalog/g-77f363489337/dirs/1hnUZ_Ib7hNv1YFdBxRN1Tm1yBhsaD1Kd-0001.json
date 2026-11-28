@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hnUZ_Ib7hNv1YFdBxRN1Tm1yBhsaD1Kd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nZ6uRg-KGLLb3LEPm_cGL4qYd0ll0ar3",
+      "parent_id": "1hnUZ_Ib7hNv1YFdBxRN1Tm1yBhsaD1Kd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 591,
+      "modified": "2026-08-16T03:54:15.000Z",
+      "checksum": "76493f1e3df7ba205add88eba5560ded",
+      "folder": false
+    },
+    {
+      "id": "1MNq0sVLvZ0nXltLZauY-dheGO9svDOpN",
+      "parent_id": "1hnUZ_Ib7hNv1YFdBxRN1Tm1yBhsaD1Kd",
+      "name": "TÌNH LOẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 289449,
+      "modified": "2026-08-16T03:54:21.000Z",
+      "checksum": "7d2389503eaad45d3083c7a952efa69c",
+      "folder": false
+    },
+    {
+      "id": "1e6QffyKm6DX5enNYx___B4SQMmwlW1BV",
+      "parent_id": "1hnUZ_Ib7hNv1YFdBxRN1Tm1yBhsaD1Kd",
+      "name": "TÌNH LOẠN.pdf",
+      "mime": "application/pdf",
+      "size": 900171,
+      "modified": "2026-08-16T03:54:19.000Z",
+      "checksum": "a93e886269b52cbb0b8fdc15e7d3a076",
+      "folder": false
+    }
+  ]
+}

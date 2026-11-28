@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ohuow6wXpXjRsqm57c7W-AljURh3B1Yz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fVycd5M49whrccCdUYNEJ0d7mt1aGLTU",
+      "parent_id": "1ohuow6wXpXjRsqm57c7W-AljURh3B1Yz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 464,
+      "modified": "2026-08-16T03:52:35.000Z",
+      "checksum": "2f3c49cff1da4368ab52d1805a2cffe4",
+      "folder": false
+    },
+    {
+      "id": "1TWOI3dtyRUAnV16650dcNjxvVlot_kBZ",
+      "parent_id": "1ohuow6wXpXjRsqm57c7W-AljURh3B1Yz",
+      "name": "TRÂU THIẾN.epub",
+      "mime": "application/epub+zip",
+      "size": 231158,
+      "modified": "2026-08-16T03:52:40.000Z",
+      "checksum": "bb6511c69ec8eeb4b390e047711ce77f",
+      "folder": false
+    },
+    {
+      "id": "1k0152tBLnHJSEBez-p1Tpq-u7uD2X4NW",
+      "parent_id": "1ohuow6wXpXjRsqm57c7W-AljURh3B1Yz",
+      "name": "TRÂU THIẾN.pdf",
+      "mime": "application/pdf",
+      "size": 545376,
+      "modified": "2026-08-16T03:52:38.000Z",
+      "checksum": "ea75316f612603c1efd5000c88784c12",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Uvos1bne-x3gZZXY41STv3F2CPmNuwte",
+  "page": 1,
+  "items": [
+    {
+      "id": "18idy5Zo_8rN3p2h8nF9ybbbMe8UQ2D2O",
+      "parent_id": "1Uvos1bne-x3gZZXY41STv3F2CPmNuwte",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4474,
+      "modified": "2026-08-16T03:12:40.000Z",
+      "checksum": "06b5a3863b030db7ad845c720bb02b11",
+      "folder": false
+    },
+    {
+      "id": "1eoVA_6giD8doWi5axtJRbFAKwzFh0eCK",
+      "parent_id": "1Uvos1bne-x3gZZXY41STv3F2CPmNuwte",
+      "name": "LẠC NHẬT ĐẠI KỲ.epub",
+      "mime": "application/epub+zip",
+      "size": 399217,
+      "modified": "2026-08-16T03:12:46.000Z",
+      "checksum": "9f54e22b81ea4fc8a5a5a8dfe4f01d2d",
+      "folder": false
+    },
+    {
+      "id": "11nt6dnGl1GRSvHoPPMn2UZ8-AzIp6p4N",
+      "parent_id": "1Uvos1bne-x3gZZXY41STv3F2CPmNuwte",
+      "name": "LẠC NHẬT ĐẠI KỲ.pdf",
+      "mime": "application/pdf",
+      "size": 780569,
+      "modified": "2026-08-16T03:12:44.000Z",
+      "checksum": "01d19f3858b12514a2bfe43947f55461",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1K7MsrHzSwOn5xfpyUTraPIFq8XiLsOXd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gXYRnWOgOwzrrgFublluXgrOYTVyIc3r",
+      "parent_id": "1K7MsrHzSwOn5xfpyUTraPIFq8XiLsOXd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2790,
+      "modified": "2026-08-15T00:50:46.000Z",
+      "checksum": "0fe18b7dfbfd2e8a73a5eb3dc44d1a25",
+      "folder": false
+    },
+    {
+      "id": "1ADlb4iPXU6aLyEzBkD5CL2I8_FMaYXyg",
+      "parent_id": "1K7MsrHzSwOn5xfpyUTraPIFq8XiLsOXd",
+      "name": "SỨC MẠNH CỦA TẬP TRUNG.epub",
+      "mime": "application/epub+zip",
+      "size": 2970638,
+      "modified": "2026-08-15T00:50:54.000Z",
+      "checksum": "b278896e9e920cdddce2232932e7aae2",
+      "folder": false
+    },
+    {
+      "id": "1AeaJdgHqtoRkiorVm_-k7DesyAivsV-N",
+      "parent_id": "1K7MsrHzSwOn5xfpyUTraPIFq8XiLsOXd",
+      "name": "SỨC MẠNH CỦA TẬP TRUNG.pdf",
+      "mime": "application/pdf",
+      "size": 3403065,
+      "modified": "2026-08-15T00:50:51.000Z",
+      "checksum": "963ffa2a79170e2639dedd52dcede54d",
+      "folder": false
+    }
+  ]
+}

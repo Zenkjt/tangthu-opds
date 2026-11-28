@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1v0a2SaoleYWP_X8IcVWElAETSckgw7IO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1w3X3iIisUfxvJJu_oufzn4N53Hk5WR5_",
+      "parent_id": "1v0a2SaoleYWP_X8IcVWElAETSckgw7IO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5246,
+      "modified": "2026-08-15T07:34:58.000Z",
+      "checksum": "dcda2b5e9fa1f238c84c7b7c528f0791",
+      "folder": false
+    },
+    {
+      "id": "1TyL6lye67zhLxE9x3uUKqvm7QYAaFc5T",
+      "parent_id": "1v0a2SaoleYWP_X8IcVWElAETSckgw7IO",
+      "name": "THỜI THƠ NGÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 677769,
+      "modified": "2026-08-15T07:35:05.000Z",
+      "checksum": "17c8c5192765d3ee21d1e7942a7a9682",
+      "folder": false
+    },
+    {
+      "id": "1jSw4epjSYi-jRIEJJWZgMjI_mORytGGO",
+      "parent_id": "1v0a2SaoleYWP_X8IcVWElAETSckgw7IO",
+      "name": "THỜI THƠ NGÂY.pdf",
+      "mime": "application/pdf",
+      "size": 1449907,
+      "modified": "2026-08-15T07:35:02.000Z",
+      "checksum": "f66fa70eacdca5e57177e11dd626426b",
+      "folder": false
+    }
+  ]
+}

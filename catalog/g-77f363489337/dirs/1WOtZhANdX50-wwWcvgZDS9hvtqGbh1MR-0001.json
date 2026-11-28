@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WOtZhANdX50-wwWcvgZDS9hvtqGbh1MR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xXUpYKWm0o-dQPvZAxKRdpP9_KlKd4l6",
+      "parent_id": "1WOtZhANdX50-wwWcvgZDS9hvtqGbh1MR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2901,
+      "modified": "2026-08-15T06:26:54.000Z",
+      "checksum": "bc9dbb118522098df24018e99e32815c",
+      "folder": false
+    },
+    {
+      "id": "19SgbmCP6R2OcjkBdolJ1Lg9Tf1E8yxuP",
+      "parent_id": "1WOtZhANdX50-wwWcvgZDS9hvtqGbh1MR",
+      "name": "NGƯỜI VIỆT CAO QUÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 336760,
+      "modified": "2026-08-15T06:27:00.000Z",
+      "checksum": "26f3c4f70c8b2e32364840f7b4deb298",
+      "folder": false
+    },
+    {
+      "id": "16I78fbe_UTvR7BC5VFHL_D9Pz6P833sK",
+      "parent_id": "1WOtZhANdX50-wwWcvgZDS9hvtqGbh1MR",
+      "name": "NGƯỜI VIỆT CAO QUÝ.pdf",
+      "mime": "application/pdf",
+      "size": 325363,
+      "modified": "2026-08-15T06:26:57.000Z",
+      "checksum": "112575ec7a48906d4fd60f706aaf1594",
+      "folder": false
+    }
+  ]
+}

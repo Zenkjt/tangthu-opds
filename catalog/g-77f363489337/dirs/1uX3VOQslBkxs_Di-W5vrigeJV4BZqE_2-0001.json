@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uX3VOQslBkxs_Di-W5vrigeJV4BZqE_2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wa0MReqZo1yBK8mXtcf72v5fMtOhBnfi",
+      "parent_id": "1uX3VOQslBkxs_Di-W5vrigeJV4BZqE_2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4003,
+      "modified": "2026-08-15T00:56:49.000Z",
+      "checksum": "4b5dabee9df076f6beca711bbafbc7bd",
+      "folder": false
+    },
+    {
+      "id": "1DBxjLhI0HQOTmikVLfe36hgX6UUAdO9E",
+      "parent_id": "1uX3VOQslBkxs_Di-W5vrigeJV4BZqE_2",
+      "name": "XỬ NỮ VÀ CHUYỆN TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 727110,
+      "modified": "2026-08-15T00:57:06.000Z",
+      "checksum": "3778dbbe2e26c2a68c82c52ba02f6c7f",
+      "folder": false
+    },
+    {
+      "id": "1VXuhVZF22UUpstq3_2bAahx20HQL-luV",
+      "parent_id": "1uX3VOQslBkxs_Di-W5vrigeJV4BZqE_2",
+      "name": "XỬ NỮ VÀ CHUYỆN TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 860551,
+      "modified": "2026-08-15T00:56:54.000Z",
+      "checksum": "afda83492d18769cab11e206ce2626b8",
+      "folder": false
+    }
+  ]
+}

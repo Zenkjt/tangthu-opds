@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18WPjJqVYtDk7unAL0O2PJmlv7J3d5bNk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ek9_iUwTJwcZPI2H2oZhF3roUWA4ohLT",
+      "parent_id": "18WPjJqVYtDk7unAL0O2PJmlv7J3d5bNk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10716,
+      "modified": "2026-08-16T03:06:08.000Z",
+      "checksum": "68a7d8e288d0f1eb7f49809f9a3f77d8",
+      "folder": false
+    },
+    {
+      "id": "1yO7V39OP_b4zw-g0qwmIqm_AI9LW0G9Y",
+      "parent_id": "18WPjJqVYtDk7unAL0O2PJmlv7J3d5bNk",
+      "name": "VỢ ƠI THEO ANH VỀ NHÀ.epub",
+      "mime": "application/epub+zip",
+      "size": 2560864,
+      "modified": "2026-08-16T03:06:17.000Z",
+      "checksum": "350bb99a3fd6de8425dd39788746eab2",
+      "folder": false
+    },
+    {
+      "id": "19VPl03FbGuQVv9rDQ-CA8HK_sIwA9aVX",
+      "parent_id": "18WPjJqVYtDk7unAL0O2PJmlv7J3d5bNk",
+      "name": "VỢ ƠI THEO ANH VỀ NHÀ.pdf",
+      "mime": "application/pdf",
+      "size": 2107254,
+      "modified": "2026-08-16T03:06:13.000Z",
+      "checksum": "be37d09ca302da9011be94b5e043dd58",
+      "folder": false
+    }
+  ]
+}

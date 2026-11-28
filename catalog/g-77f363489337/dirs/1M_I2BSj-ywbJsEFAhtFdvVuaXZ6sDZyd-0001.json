@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1M_I2BSj-ywbJsEFAhtFdvVuaXZ6sDZyd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1l7WZt-xH89xZs929l48mOrmCEXaE1suQ",
+      "parent_id": "1M_I2BSj-ywbJsEFAhtFdvVuaXZ6sDZyd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3560,
+      "modified": "2026-08-15T12:59:32.000Z",
+      "checksum": "8826a27548c2c4b655260884cca53345",
+      "folder": false
+    },
+    {
+      "id": "17qxpselRVXQlD9e6_PK0-4gvQn7CtHoO",
+      "parent_id": "1M_I2BSj-ywbJsEFAhtFdvVuaXZ6sDZyd",
+      "name": "NHỮNG KẺ TRUNG KIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 1152890,
+      "modified": "2026-08-15T12:59:40.000Z",
+      "checksum": "ebf71f35bc594ffb1ec82e0cc723529a",
+      "folder": false
+    },
+    {
+      "id": "1J5mtcy6sizLs6jp_1YyHA56adj6W43aH",
+      "parent_id": "1M_I2BSj-ywbJsEFAhtFdvVuaXZ6sDZyd",
+      "name": "NHỮNG KẺ TRUNG KIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 1768267,
+      "modified": "2026-08-15T12:59:38.000Z",
+      "checksum": "c7a81345f1876fda9c2636bb7997ae85",
+      "folder": false
+    }
+  ]
+}

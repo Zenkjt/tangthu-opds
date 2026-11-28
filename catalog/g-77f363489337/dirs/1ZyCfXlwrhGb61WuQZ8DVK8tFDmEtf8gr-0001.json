@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZyCfXlwrhGb61WuQZ8DVK8tFDmEtf8gr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1G5cfjELQIiSLJbVb_lcLV5Of27uXzWBj",
+      "parent_id": "1ZyCfXlwrhGb61WuQZ8DVK8tFDmEtf8gr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7442,
+      "modified": "2026-08-15T07:28:53.000Z",
+      "checksum": "b4945ab85557ed2f565b22b594d9307f",
+      "folder": false
+    },
+    {
+      "id": "1K_qe8BDmdk99sqoqJ_4jWfRCQMPhNBaU",
+      "parent_id": "1ZyCfXlwrhGb61WuQZ8DVK8tFDmEtf8gr",
+      "name": "VÕ LÂM TAM TUYỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 812804,
+      "modified": "2026-08-15T07:29:00.000Z",
+      "checksum": "edf28e24ef4cc24272688f0c4831079f",
+      "folder": false
+    },
+    {
+      "id": "16pvDjfsna4G22QOa_LsONiZmYGH0vfDw",
+      "parent_id": "1ZyCfXlwrhGb61WuQZ8DVK8tFDmEtf8gr",
+      "name": "VÕ LÂM TAM TUYỆT.pdf",
+      "mime": "application/pdf",
+      "size": 2086266,
+      "modified": "2026-08-15T07:28:58.000Z",
+      "checksum": "85c3f27cea99b06b6ed6bc358872ac49",
+      "folder": false
+    }
+  ]
+}

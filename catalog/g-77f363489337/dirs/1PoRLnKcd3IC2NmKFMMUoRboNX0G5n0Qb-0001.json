@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PoRLnKcd3IC2NmKFMMUoRboNX0G5n0Qb",
+  "page": 1,
+  "items": [
+    {
+      "id": "18VnK4PmC7gfhNehh7CYHOpDif6beqCoR",
+      "parent_id": "1PoRLnKcd3IC2NmKFMMUoRboNX0G5n0Qb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3441,
+      "modified": "2026-08-15T06:24:01.000Z",
+      "checksum": "371af06e13735d8f577ef1a74a874b63",
+      "folder": false
+    },
+    {
+      "id": "1rDBtn484CNXkLZAQC-RAVf-SDliNZwYz",
+      "parent_id": "1PoRLnKcd3IC2NmKFMMUoRboNX0G5n0Qb",
+      "name": "NHỮNG NGÕ PHỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 573679,
+      "modified": "2026-08-15T06:26:53.000Z",
+      "checksum": "a5a7663a17b38777404286c527593b33",
+      "folder": false
+    },
+    {
+      "id": "1PHv6BJLBSxeAY31ZSPWtwWcjyLL1iVNA",
+      "parent_id": "1PoRLnKcd3IC2NmKFMMUoRboNX0G5n0Qb",
+      "name": "NHỮNG NGÕ PHỐ.pdf",
+      "mime": "application/pdf",
+      "size": 1318391,
+      "modified": "2026-08-15T06:26:39.000Z",
+      "checksum": "ebf8e1f80cc33966f8302bbd05e24235",
+      "folder": false
+    }
+  ]
+}

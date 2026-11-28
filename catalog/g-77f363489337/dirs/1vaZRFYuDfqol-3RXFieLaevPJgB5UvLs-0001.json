@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vaZRFYuDfqol-3RXFieLaevPJgB5UvLs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JuyBEcApEuxKIirx_uH9KY5ohpjvjepS",
+      "parent_id": "1vaZRFYuDfqol-3RXFieLaevPJgB5UvLs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11604,
+      "modified": "2026-08-15T08:08:29.000Z",
+      "checksum": "de6ed309391946818eb8cb5ef569a943",
+      "folder": false
+    },
+    {
+      "id": "1osk73dvI6_pjppjtGteB_lfAHGRrsOaS",
+      "parent_id": "1vaZRFYuDfqol-3RXFieLaevPJgB5UvLs",
+      "name": "NHỮNG ĐÊM KHÔNG NGỦ.epub",
+      "mime": "application/epub+zip",
+      "size": 476938,
+      "modified": "2026-08-15T08:08:34.000Z",
+      "checksum": "8d25a834d206b60e53574e82f92bd0f7",
+      "folder": false
+    },
+    {
+      "id": "1hJhDdLUP8YZHIChdTmtpRJ1N7VEFIXEY",
+      "parent_id": "1vaZRFYuDfqol-3RXFieLaevPJgB5UvLs",
+      "name": "NHỮNG ĐÊM KHÔNG NGỦ.pdf",
+      "mime": "application/pdf",
+      "size": 262013,
+      "modified": "2026-08-15T08:08:32.000Z",
+      "checksum": "ac43419fdf388aba17a6d7ddda1bb969",
+      "folder": false
+    }
+  ]
+}

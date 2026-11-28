@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IeRFVcyberyqNvW27e70_26WYElJf1h-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RgjTtewPF9SCbzr2y61RHTuXbOffilj6",
+      "parent_id": "1IeRFVcyberyqNvW27e70_26WYElJf1h-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3580,
+      "modified": "2026-08-16T03:48:56.000Z",
+      "checksum": "712bc02f477bc94b57728ddd2ead739c",
+      "folder": false
+    },
+    {
+      "id": "1MFu8JgHYJgj8PtoM7wayKoqUgU3flEP9",
+      "parent_id": "1IeRFVcyberyqNvW27e70_26WYElJf1h-",
+      "name": "TÔN TỬ TRUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 911444,
+      "modified": "2026-08-16T03:49:04.000Z",
+      "checksum": "7f3b08751b204db097efa91d1bf2e924",
+      "folder": false
+    },
+    {
+      "id": "1RtmfgVVq-9Su0NYJysNFclrIx_PIXbDE",
+      "parent_id": "1IeRFVcyberyqNvW27e70_26WYElJf1h-",
+      "name": "TÔN TỬ TRUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 2960109,
+      "modified": "2026-08-16T03:49:02.000Z",
+      "checksum": "dc0ed9f3969077b203c938e4d035f7c3",
+      "folder": false
+    }
+  ]
+}

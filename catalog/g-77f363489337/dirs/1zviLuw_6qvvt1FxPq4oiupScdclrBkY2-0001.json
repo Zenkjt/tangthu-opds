@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zviLuw_6qvvt1FxPq4oiupScdclrBkY2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1f9TSdfSWrs1-mVS-RP4bWWV5t1K8MO2x",
+      "parent_id": "1zviLuw_6qvvt1FxPq4oiupScdclrBkY2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2447,
+      "modified": "2026-08-15T12:23:32.000Z",
+      "checksum": "edf163c110ab70457259da745f627b62",
+      "folder": false
+    },
+    {
+      "id": "1ENKBodinm43KtDQiom5JEVG9PljB2OS-",
+      "parent_id": "1zviLuw_6qvvt1FxPq4oiupScdclrBkY2",
+      "name": "ĐỪNG ÉP CON KHÔN SỚM.epub",
+      "mime": "application/epub+zip",
+      "size": 1151899,
+      "modified": "2026-08-15T12:24:28.000Z",
+      "checksum": "a7545c47fde3f0f764108a4555f944c1",
+      "folder": false
+    },
+    {
+      "id": "1pHMLirQoyI1wIpO2oUgOF5gahvnkJoTv",
+      "parent_id": "1zviLuw_6qvvt1FxPq4oiupScdclrBkY2",
+      "name": "ĐỪNG ÉP CON KHÔN SỚM.pdf",
+      "mime": "application/pdf",
+      "size": 1622052,
+      "modified": "2026-08-15T12:23:50.000Z",
+      "checksum": "1cdac6eb4311e5bcae1d1b7d223c19f3",
+      "folder": false
+    }
+  ]
+}

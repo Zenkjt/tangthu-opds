@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TG9ufeoTZRuqcp7ukGoPkI76Ouuaf9lx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AA0gPMqAfx3Qv3LwhbOYJUmyR5jhNiQE",
+      "parent_id": "1TG9ufeoTZRuqcp7ukGoPkI76Ouuaf9lx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3310,
+      "modified": "2026-08-15T15:36:07.000Z",
+      "checksum": "475b4062c3d27297d342cf4318f43761",
+      "folder": false
+    },
+    {
+      "id": "11UtjbeD_HtdA9CKqFbSQw5LL4AoeEPXh",
+      "parent_id": "1TG9ufeoTZRuqcp7ukGoPkI76Ouuaf9lx",
+      "name": "THIÊN ĐƯỜNG KINH HÃI.epub",
+      "mime": "application/epub+zip",
+      "size": 1035180,
+      "modified": "2026-08-15T15:36:18.000Z",
+      "checksum": "55b48f2d6f41acf8ddee4f61dbfe81ee",
+      "folder": false
+    },
+    {
+      "id": "1dFMlDqDFpBG8Qeb69sMU9TDAdLU6UUGv",
+      "parent_id": "1TG9ufeoTZRuqcp7ukGoPkI76Ouuaf9lx",
+      "name": "THIÊN ĐƯỜNG KINH HÃI.pdf",
+      "mime": "application/pdf",
+      "size": 3532787,
+      "modified": "2026-08-15T15:36:15.000Z",
+      "checksum": "08084af2c0d2d2237dc62d896c13a40e",
+      "folder": false
+    }
+  ]
+}

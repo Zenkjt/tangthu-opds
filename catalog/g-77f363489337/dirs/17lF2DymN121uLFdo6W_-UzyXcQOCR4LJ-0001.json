@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17lF2DymN121uLFdo6W_-UzyXcQOCR4LJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PaPgyP4be5VYv2qZYr1tTqBQ7_F8zGzt",
+      "parent_id": "17lF2DymN121uLFdo6W_-UzyXcQOCR4LJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1908,
+      "modified": "2026-08-15T09:30:22.000Z",
+      "checksum": "d8b8ca3194720199ad5c0049d188a19b",
+      "folder": false
+    },
+    {
+      "id": "1Md4ujyiR5G6B1QWxrPjxTvF_G-YWpLwa",
+      "parent_id": "17lF2DymN121uLFdo6W_-UzyXcQOCR4LJ",
+      "name": "MÂY TRÊN ĐỒNG BAY MÃI.epub",
+      "mime": "application/epub+zip",
+      "size": 629237,
+      "modified": "2026-08-15T09:30:33.000Z",
+      "checksum": "2a10e8d6f269ce62c10b5cd45b3eec65",
+      "folder": false
+    },
+    {
+      "id": "1RU5UXCjwUw2xMSxtD8RECfVFIUh7toAp",
+      "parent_id": "17lF2DymN121uLFdo6W_-UzyXcQOCR4LJ",
+      "name": "MÂY TRÊN ĐỒNG BAY MÃI.pdf",
+      "mime": "application/pdf",
+      "size": 1691726,
+      "modified": "2026-08-15T09:30:30.000Z",
+      "checksum": "cfaa206957a5eb2ac5def1354aaa9e97",
+      "folder": false
+    }
+  ]
+}

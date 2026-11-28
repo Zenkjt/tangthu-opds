@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_e0UntXTuDQNPC5B-C2JM_GljSqu13WS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RxCYdKDnbDgRjAFGyK4aDoEJJbQxwOWa",
+      "parent_id": "1_e0UntXTuDQNPC5B-C2JM_GljSqu13WS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 446,
+      "modified": "2026-08-16T04:18:38.000Z",
+      "checksum": "11d885f35484478e5c366d80044455db",
+      "folder": false
+    },
+    {
+      "id": "1bLQUTR5nH-5Sg4cUN8WZuNQI5tYCsvIo",
+      "parent_id": "1_e0UntXTuDQNPC5B-C2JM_GljSqu13WS",
+      "name": "LÀ ĐIỀU ANH MUỐN.epub",
+      "mime": "application/epub+zip",
+      "size": 1000145,
+      "modified": "2026-08-16T04:18:49.000Z",
+      "checksum": "b6bd8385acb1100a1de96340d1f229cc",
+      "folder": false
+    },
+    {
+      "id": "1WfXtLMM46xH5zDi8KoYPyA-sXRPgaksY",
+      "parent_id": "1_e0UntXTuDQNPC5B-C2JM_GljSqu13WS",
+      "name": "LÀ ĐIỀU ANH MUỐN.pdf",
+      "mime": "application/pdf",
+      "size": 2235740,
+      "modified": "2026-08-16T04:18:47.000Z",
+      "checksum": "456b00f310e8329bb279a3fbe42f0b99",
+      "folder": false
+    }
+  ]
+}

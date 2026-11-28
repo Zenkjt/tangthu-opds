@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1h_MwEHZ8ckxfYk08UUIPrqXyoy5z9OFy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JP_ElWXTYQ5tpr9oRzYTfNyCli0Phgq8",
+      "parent_id": "1h_MwEHZ8ckxfYk08UUIPrqXyoy5z9OFy",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 5449,
+      "modified": "2026-08-16T03:01:30.000Z",
+      "checksum": "7b917f8ef648418a111181e7c452c936",
+      "folder": false
+    },
+    {
+      "id": "1KQ4SA_F_meLNonowk6WyiHs0pDmVLBuL",
+      "parent_id": "1h_MwEHZ8ckxfYk08UUIPrqXyoy5z9OFy",
+      "name": "GIẾT CON CHIM NHẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 532675,
+      "modified": "2026-08-16T03:01:39.000Z",
+      "checksum": "c82882ac61215179bbbdbbf54af59e87",
+      "folder": false
+    },
+    {
+      "id": "1ZdRE6O_Yrb7SOPsuLwahGwVp8cfougvQ",
+      "parent_id": "1h_MwEHZ8ckxfYk08UUIPrqXyoy5z9OFy",
+      "name": "GIẾT CON CHIM NHẠI.pdf",
+      "mime": "application/pdf",
+      "size": 1307811,
+      "modified": "2026-08-16T03:01:37.000Z",
+      "checksum": "3f8a4a66c4b8fb96a104e584d0e0b755",
+      "folder": false
+    }
+  ]
+}

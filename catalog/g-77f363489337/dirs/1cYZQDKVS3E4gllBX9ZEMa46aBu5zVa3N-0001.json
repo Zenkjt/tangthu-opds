@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cYZQDKVS3E4gllBX9ZEMa46aBu5zVa3N",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Y5SVv3Idwx8WpJ8RIf5ZNnhQF10mr5nK",
+      "parent_id": "1cYZQDKVS3E4gllBX9ZEMa46aBu5zVa3N",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3101,
+      "modified": "2026-08-16T04:06:21.000Z",
+      "checksum": "93fb6d6ddcf6674404b2b061c5572a2b",
+      "folder": false
+    },
+    {
+      "id": "1sgGMcOCRhp1J6FdcRAe9s-nvrkP0Em3h",
+      "parent_id": "1cYZQDKVS3E4gllBX9ZEMa46aBu5zVa3N",
+      "name": "PHÍA SAU ÁO CƯỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 248512,
+      "modified": "2026-08-16T04:06:28.000Z",
+      "checksum": "fcb48ea1c62f4188346679f59a6c3723",
+      "folder": false
+    },
+    {
+      "id": "1hb4vspImgDJG373AR-P6DCNyj_TfDU_C",
+      "parent_id": "1cYZQDKVS3E4gllBX9ZEMa46aBu5zVa3N",
+      "name": "PHÍA SAU ÁO CƯỚI.pdf",
+      "mime": "application/pdf",
+      "size": 1367327,
+      "modified": "2026-08-16T04:06:26.000Z",
+      "checksum": "7bcd538317c9f28a0bce6b4a765d81e5",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Pi30zyYizPo9ISk-s9JtYUyyCqVvHXPg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qgydzdMTk6YksyE_yK_cs6LKP3hJ1jbs",
+      "parent_id": "1Pi30zyYizPo9ISk-s9JtYUyyCqVvHXPg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 569,
+      "modified": "2026-08-16T04:16:46.000Z",
+      "checksum": "5d38f8908c5276450261e22a393d4d81",
+      "folder": false
+    },
+    {
+      "id": "10u609jOi4VBWHzLiO6jhMnL2Z5obxle3",
+      "parent_id": "1Pi30zyYizPo9ISk-s9JtYUyyCqVvHXPg",
+      "name": "MUÔN NẺO ĐƯỜNG YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 428314,
+      "modified": "2026-08-16T04:16:53.000Z",
+      "checksum": "e61103ecd91b95b5f0c85dcb7ae48ef6",
+      "folder": false
+    },
+    {
+      "id": "1QB8V9VuNbhzlFaosZeKL4v4K5-3_rdw1",
+      "parent_id": "1Pi30zyYizPo9ISk-s9JtYUyyCqVvHXPg",
+      "name": "MUÔN NẺO ĐƯỜNG YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1101876,
+      "modified": "2026-08-16T04:16:51.000Z",
+      "checksum": "439dba7547dada31a561015cf4d16c25",
+      "folder": false
+    }
+  ]
+}

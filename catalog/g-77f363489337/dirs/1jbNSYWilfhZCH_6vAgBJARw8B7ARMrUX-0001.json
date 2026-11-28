@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jbNSYWilfhZCH_6vAgBJARw8B7ARMrUX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TtcAMoOQSPEjqafWHMbeKhT-JaW26f_a",
+      "parent_id": "1jbNSYWilfhZCH_6vAgBJARw8B7ARMrUX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6071,
+      "modified": "2026-08-15T03:36:38.000Z",
+      "checksum": "d8b02bd2651e56b6c3cf274d5da5b983",
+      "folder": false
+    },
+    {
+      "id": "14LxlSxHHKOHSPO4KeAfefECSIOxOX2OM",
+      "parent_id": "1jbNSYWilfhZCH_6vAgBJARw8B7ARMrUX",
+      "name": "THIỀN VÀ GIẢI THOÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 3839350,
+      "modified": "2026-08-15T03:36:45.000Z",
+      "checksum": "0f49a29db579c8753a5213f3b4ad2271",
+      "folder": false
+    },
+    {
+      "id": "1olzJ2G90Yc9Hhx03I-ug_5-ozRqKi8_m",
+      "parent_id": "1jbNSYWilfhZCH_6vAgBJARw8B7ARMrUX",
+      "name": "THIỀN VÀ GIẢI THOÁT.pdf",
+      "mime": "application/pdf",
+      "size": 3725859,
+      "modified": "2026-08-15T03:36:42.000Z",
+      "checksum": "d005f11854600b5f62e7d20f439ad89d",
+      "folder": false
+    }
+  ]
+}

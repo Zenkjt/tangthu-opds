@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10nqX4JvbUfQJvJuBlHt7XevA7LdvFIVJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VhPFxxdrcdJPQwJ2ZhjprRDsU25U4u-r",
+      "parent_id": "10nqX4JvbUfQJvJuBlHt7XevA7LdvFIVJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6786,
+      "modified": "2026-08-15T09:34:06.000Z",
+      "checksum": "45e20b31fbcef1bf48125025d9162ca6",
+      "folder": false
+    },
+    {
+      "id": "1SYCeGVgneRyNuF8H6b-aKYryAf7ThBJk",
+      "parent_id": "10nqX4JvbUfQJvJuBlHt7XevA7LdvFIVJ",
+      "name": "HÔM NAY TÔI THẤT TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 245502,
+      "modified": "2026-08-15T09:34:15.000Z",
+      "checksum": "3ece6d92a58e6f7254655e301c543cd5",
+      "folder": false
+    },
+    {
+      "id": "1FrIYoEhK_EeEXhYkNUDOYMbIqZMEfOKi",
+      "parent_id": "10nqX4JvbUfQJvJuBlHt7XevA7LdvFIVJ",
+      "name": "HÔM NAY TÔI THẤT TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 435007,
+      "modified": "2026-08-15T09:34:11.000Z",
+      "checksum": "e57e6a9141790078b0a47737300cbef3",
+      "folder": false
+    }
+  ]
+}

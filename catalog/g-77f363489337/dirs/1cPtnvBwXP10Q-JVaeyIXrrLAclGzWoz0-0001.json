@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cPtnvBwXP10Q-JVaeyIXrrLAclGzWoz0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vrLeyP-h_Qe2xVtGveC6mJdyIgeTnF-m",
+      "parent_id": "1cPtnvBwXP10Q-JVaeyIXrrLAclGzWoz0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2033,
+      "modified": "2026-08-16T02:49:32.000Z",
+      "checksum": "0a64707c97fcfbc2a410f40124d1e143",
+      "folder": false
+    },
+    {
+      "id": "1Mz4-UP_xo8_S4ItT97uBedH0Ql924dOT",
+      "parent_id": "1cPtnvBwXP10Q-JVaeyIXrrLAclGzWoz0",
+      "name": "THƯƠNG NHỚ MƯỜI HAI.epub",
+      "mime": "application/epub+zip",
+      "size": 499515,
+      "modified": "2026-08-16T02:49:39.000Z",
+      "checksum": "1ac1dad230a53ef1d0c57709825855df",
+      "folder": false
+    },
+    {
+      "id": "1GYveiKoCWtgiEUt38pKVg1TmoYZXcS9J",
+      "parent_id": "1cPtnvBwXP10Q-JVaeyIXrrLAclGzWoz0",
+      "name": "THƯƠNG NHỚ MƯỜI HAI.pdf",
+      "mime": "application/pdf",
+      "size": 909228,
+      "modified": "2026-08-16T02:49:36.000Z",
+      "checksum": "b4e73c8741acf10f93dc4699d9af848d",
+      "folder": false
+    }
+  ]
+}

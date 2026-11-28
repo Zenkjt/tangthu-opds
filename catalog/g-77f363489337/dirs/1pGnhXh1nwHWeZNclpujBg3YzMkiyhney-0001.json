@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pGnhXh1nwHWeZNclpujBg3YzMkiyhney",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OVbmsV-xufrXtn2akk3joy9UnyWd65c6",
+      "parent_id": "1pGnhXh1nwHWeZNclpujBg3YzMkiyhney",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3095,
+      "modified": "2026-08-15T15:26:17.000Z",
+      "checksum": "4e7709190606558323b43685ace4d728",
+      "folder": false
+    },
+    {
+      "id": "1IZyHjZgY1khAS3kzP9EGwSvuiqrZLWZH",
+      "parent_id": "1pGnhXh1nwHWeZNclpujBg3YzMkiyhney",
+      "name": "THẰNG KHÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 343035,
+      "modified": "2026-08-15T15:26:52.000Z",
+      "checksum": "08981499537548df82661641bd0875a6",
+      "folder": false
+    },
+    {
+      "id": "1w18SijyWyl7r91-8dsbfvlI9S_7FHvAf",
+      "parent_id": "1pGnhXh1nwHWeZNclpujBg3YzMkiyhney",
+      "name": "THẰNG KHÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 775937,
+      "modified": "2026-08-15T15:26:27.000Z",
+      "checksum": "1f6522a7e475fafc833bdd9d9bfabfe8",
+      "folder": false
+    }
+  ]
+}

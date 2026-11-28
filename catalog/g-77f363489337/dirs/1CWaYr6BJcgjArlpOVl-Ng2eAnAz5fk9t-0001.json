@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CWaYr6BJcgjArlpOVl-Ng2eAnAz5fk9t",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xSoAc6_dpfVm0nL1jfuG9yMCaDPVErbm",
+      "parent_id": "1CWaYr6BJcgjArlpOVl-Ng2eAnAz5fk9t",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 983,
+      "modified": "2026-08-15T15:33:05.000Z",
+      "checksum": "1af6b048102e344fbc4e2138fe7fa871",
+      "folder": false
+    },
+    {
+      "id": "1-Ac1t_Qq-PJHA96yTb9JOkmCRyk9aqD6",
+      "parent_id": "1CWaYr6BJcgjArlpOVl-Ng2eAnAz5fk9t",
+      "name": "GIAI ĐIỆU TỬ THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 829808,
+      "modified": "2026-08-15T15:33:13.000Z",
+      "checksum": "81f88331ff94bbf290e4629199ab8219",
+      "folder": false
+    },
+    {
+      "id": "1FqHVSxPdIOA4zfu-5bsDiFefpC5-qk8T",
+      "parent_id": "1CWaYr6BJcgjArlpOVl-Ng2eAnAz5fk9t",
+      "name": "GIAI ĐIỆU TỬ THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 1707985,
+      "modified": "2026-08-15T15:33:10.000Z",
+      "checksum": "8f33759b72be2d0daf1b93ccf59f9977",
+      "folder": false
+    }
+  ]
+}

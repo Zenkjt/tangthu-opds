@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TBykkf4_kNgAK43wqh6HtTxU1XUQrj8W",
+  "page": 1,
+  "items": [
+    {
+      "id": "12xbvB5KoiNES-zwth3-9inBsQBtDChe7",
+      "parent_id": "1TBykkf4_kNgAK43wqh6HtTxU1XUQrj8W",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10517,
+      "modified": "2026-08-16T03:11:02.000Z",
+      "checksum": "eece4adb770402014ae2d014fbb59dfb",
+      "folder": false
+    },
+    {
+      "id": "1ZovK5sWGe2na1aiihoRcc3wIIb59y6dT",
+      "parent_id": "1TBykkf4_kNgAK43wqh6HtTxU1XUQrj8W",
+      "name": "HÒN ĐẢO PHÍA CHÂN TRỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 548893,
+      "modified": "2026-08-16T03:11:08.000Z",
+      "checksum": "2bf642fcd2b460924a45d18944ff5a5a",
+      "folder": false
+    },
+    {
+      "id": "1arQPtwOBBauT3pFAmkrromNB1b5qLHac",
+      "parent_id": "1TBykkf4_kNgAK43wqh6HtTxU1XUQrj8W",
+      "name": "HÒN ĐẢO PHÍA CHÂN TRỜI.pdf",
+      "mime": "application/pdf",
+      "size": 731996,
+      "modified": "2026-08-16T03:11:05.000Z",
+      "checksum": "bfde9f30e26cf1b99cba2a4dcd6028ef",
+      "folder": false
+    }
+  ]
+}

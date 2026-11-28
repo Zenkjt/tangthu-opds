@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jmultTfsSERcoHwz90sTH6bn27qrGKmP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1brR76L2qyNDE3mtoAvyabkDtvvo5PM15",
+      "parent_id": "1jmultTfsSERcoHwz90sTH6bn27qrGKmP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9181,
+      "modified": "2026-08-15T07:43:06.000Z",
+      "checksum": "c43c30f6077692396b5ecdcd505cd52b",
+      "folder": false
+    },
+    {
+      "id": "1Wnzn_fuPquvxAvwzBfW7p406HmyWbdjF",
+      "parent_id": "1jmultTfsSERcoHwz90sTH6bn27qrGKmP",
+      "name": "HÁN MẠT TRIỆU HỔ.epub",
+      "mime": "application/epub+zip",
+      "size": 213063,
+      "modified": "2026-08-15T07:43:12.000Z",
+      "checksum": "aff4aa269f1b993361671392da7543ad",
+      "folder": false
+    },
+    {
+      "id": "1kYvdtXIxcIP1Cfe7r7_w5hYYo6F98sEA",
+      "parent_id": "1jmultTfsSERcoHwz90sTH6bn27qrGKmP",
+      "name": "HÁN MẠT TRIỆU HỔ.pdf",
+      "mime": "application/pdf",
+      "size": 129160,
+      "modified": "2026-08-15T07:43:10.000Z",
+      "checksum": "2aa99021abea2650c686074de3cae0d4",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15zkpZS1FzLlEU6XIQIKPscgOtI4BZgI1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WpcjwF7NCXMyw1Pxx3fMn3iplw2UcvtI",
+      "parent_id": "15zkpZS1FzLlEU6XIQIKPscgOtI4BZgI1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5042,
+      "modified": "2026-08-15T07:46:39.000Z",
+      "checksum": "56eb9ab79c34999c2ed423860c55e831",
+      "folder": false
+    },
+    {
+      "id": "1vihEYoYUPn0vTfIR6ldBbt6XPsFdu4FN",
+      "parent_id": "15zkpZS1FzLlEU6XIQIKPscgOtI4BZgI1",
+      "name": "HOÀNG GIA TIỂU KIỀU PHI.epub",
+      "mime": "application/epub+zip",
+      "size": 1741891,
+      "modified": "2026-08-15T07:47:32.000Z",
+      "checksum": "51d6ed6179e11b47f00374b170cf8246",
+      "folder": false
+    },
+    {
+      "id": "11ojIp0_2zYLvPybtjg00wuKCZmQLcmeQ",
+      "parent_id": "15zkpZS1FzLlEU6XIQIKPscgOtI4BZgI1",
+      "name": "HOÀNG GIA TIỂU KIỀU PHI.pdf",
+      "mime": "application/pdf",
+      "size": 6820710,
+      "modified": "2026-08-15T07:47:11.000Z",
+      "checksum": "91269aad7809558f7c2b82f181c3e4be",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pJE7q2VI0FdPuaNhMN7SIGcCqbKab2N3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1N_edKDFyt4rxvEOV4PICJriZ5wJvZmt9",
+      "parent_id": "1pJE7q2VI0FdPuaNhMN7SIGcCqbKab2N3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6601,
+      "modified": "2026-08-15T03:56:56.000Z",
+      "checksum": "ac0a24b2cdd79bd47e39b33eeb620cc1",
+      "folder": false
+    },
+    {
+      "id": "1UFrX2ap8phSqXSLttdm4lZvZNayklppK",
+      "parent_id": "1pJE7q2VI0FdPuaNhMN7SIGcCqbKab2N3",
+      "name": "PHẬT GIÁO.epub",
+      "mime": "application/epub+zip",
+      "size": 550372,
+      "modified": "2026-08-15T03:57:02.000Z",
+      "checksum": "438818f8dc9523de138f9ff740594797",
+      "folder": false
+    },
+    {
+      "id": "1vSyuCxHd2AbEmgUv8UbOohvsYuHSJQ0m",
+      "parent_id": "1pJE7q2VI0FdPuaNhMN7SIGcCqbKab2N3",
+      "name": "PHẬT GIÁO.pdf",
+      "mime": "application/pdf",
+      "size": 1071126,
+      "modified": "2026-08-15T03:56:59.000Z",
+      "checksum": "67eedc1c13367f4d8730fe22d36780a5",
+      "folder": false
+    }
+  ]
+}

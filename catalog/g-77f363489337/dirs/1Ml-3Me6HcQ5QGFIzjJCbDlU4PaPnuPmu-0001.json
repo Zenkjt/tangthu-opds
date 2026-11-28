@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ml-3Me6HcQ5QGFIzjJCbDlU4PaPnuPmu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fCLI93Ieju-tMarOw1cWDXmd4mg-gTW7",
+      "parent_id": "1Ml-3Me6HcQ5QGFIzjJCbDlU4PaPnuPmu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3125,
+      "modified": "2026-08-16T04:05:21.000Z",
+      "checksum": "0818528bf2e77a045a2a9975fefb63be",
+      "folder": false
+    },
+    {
+      "id": "1L3tZLMEhDviGb9SpEIUbGYNoRXlop7tv",
+      "parent_id": "1Ml-3Me6HcQ5QGFIzjJCbDlU4PaPnuPmu",
+      "name": "QUAN HỆ NGUY HIỂM.epub",
+      "mime": "application/epub+zip",
+      "size": 454876,
+      "modified": "2026-08-16T04:05:28.000Z",
+      "checksum": "56043895c147e688dadbdc74a290e9c7",
+      "folder": false
+    },
+    {
+      "id": "1SdGaM6x6fbAI3OwdJiOD9Y9DWRe_CAq5",
+      "parent_id": "1Ml-3Me6HcQ5QGFIzjJCbDlU4PaPnuPmu",
+      "name": "QUAN HỆ NGUY HIỂM.pdf",
+      "mime": "application/pdf",
+      "size": 1380284,
+      "modified": "2026-08-16T04:05:25.000Z",
+      "checksum": "7212a4d62c4728718725f71ccdcf6f51",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Hjz8BDskpX1iWI3vW_SveShzY5kelWPY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UTJi2bc-JlaKDd0tWTOLATKWH-XwFbPg",
+      "parent_id": "1Hjz8BDskpX1iWI3vW_SveShzY5kelWPY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 15113,
+      "modified": "2026-08-15T07:43:35.000Z",
+      "checksum": "8f0b963691322907584e98d394e61659",
+      "folder": false
+    },
+    {
+      "id": "1ZfAWk2aVXB2iJw4RMP5h3I7V4RIVcjdz",
+      "parent_id": "1Hjz8BDskpX1iWI3vW_SveShzY5kelWPY",
+      "name": "GÓT SẮT.epub",
+      "mime": "application/epub+zip",
+      "size": 987759,
+      "modified": "2026-08-15T07:43:42.000Z",
+      "checksum": "2ab2665e83836761db671bba20e7a1ab",
+      "folder": false
+    },
+    {
+      "id": "11A175Jgjy7yCelaqZZDSkXu6cWpoKqsv",
+      "parent_id": "1Hjz8BDskpX1iWI3vW_SveShzY5kelWPY",
+      "name": "GÓT SẮT.pdf",
+      "mime": "application/pdf",
+      "size": 1055405,
+      "modified": "2026-08-15T07:43:39.000Z",
+      "checksum": "cd725979f8e01d82eccf8da9e76e6224",
+      "folder": false
+    }
+  ]
+}

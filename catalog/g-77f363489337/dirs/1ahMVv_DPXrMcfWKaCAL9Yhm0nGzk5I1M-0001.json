@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ahMVv_DPXrMcfWKaCAL9Yhm0nGzk5I1M",
+  "page": 1,
+  "items": [
+    {
+      "id": "1O8cMLuGYUw4CJFm31-K-MW1-OfxhJlHg",
+      "parent_id": "1ahMVv_DPXrMcfWKaCAL9Yhm0nGzk5I1M",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 372,
+      "modified": "2026-08-15T15:40:45.000Z",
+      "checksum": "dd753fd66e290760edbc03a1581537eb",
+      "folder": false
+    },
+    {
+      "id": "1oNNFxipD-uVqwFTZxWzNDD_eWgb3sxcj",
+      "parent_id": "1ahMVv_DPXrMcfWKaCAL9Yhm0nGzk5I1M",
+      "name": "GIẤC NGỦ DÀI.epub",
+      "mime": "application/epub+zip",
+      "size": 544129,
+      "modified": "2026-08-15T15:40:52.000Z",
+      "checksum": "127b8c59d0cca8e089c99e6c7366c5ca",
+      "folder": false
+    },
+    {
+      "id": "1DijKA9oaMeER6ciw8bMlIihnkJ_z6uoi",
+      "parent_id": "1ahMVv_DPXrMcfWKaCAL9Yhm0nGzk5I1M",
+      "name": "GIẤC NGỦ DÀI.pdf",
+      "mime": "application/pdf",
+      "size": 917363,
+      "modified": "2026-08-15T15:40:49.000Z",
+      "checksum": "af19809984d5a2b22b660fedd08cd442",
+      "folder": false
+    }
+  ]
+}

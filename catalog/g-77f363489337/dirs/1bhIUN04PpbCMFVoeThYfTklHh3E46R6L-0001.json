@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bhIUN04PpbCMFVoeThYfTklHh3E46R6L",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UkYLcunMxJwXyEzMbN37VDT87ex3RQLi",
+      "parent_id": "1bhIUN04PpbCMFVoeThYfTklHh3E46R6L",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1294,
+      "modified": "2026-08-15T03:47:51.000Z",
+      "checksum": "f7d3434a53ce7b551a8345a144776bff",
+      "folder": false
+    },
+    {
+      "id": "1SKoH0CPmfVy6gaEcEvPK-FBn9JOB8OBT",
+      "parent_id": "1bhIUN04PpbCMFVoeThYfTklHh3E46R6L",
+      "name": "HOA SEN TRẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 368491,
+      "modified": "2026-08-15T03:48:00.000Z",
+      "checksum": "c1e4f5521575a88771f7e5e44f65610c",
+      "folder": false
+    },
+    {
+      "id": "1tZwlfCwso2rlDOQoXN2UcadbVpXRi_7u",
+      "parent_id": "1bhIUN04PpbCMFVoeThYfTklHh3E46R6L",
+      "name": "HOA SEN TRẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 3101550,
+      "modified": "2026-08-15T03:47:57.000Z",
+      "checksum": "ad8c8ff397199079cea73f1554cb28d6",
+      "folder": false
+    }
+  ]
+}

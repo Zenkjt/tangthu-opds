@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kIlWOxSIMG6eYzyYEm-Btx-mpEM-mcsU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oKzTAZWkBwCUxZgrqrMvhySd6N2_L1f7",
+      "parent_id": "1kIlWOxSIMG6eYzyYEm-Btx-mpEM-mcsU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3277,
+      "modified": "2026-08-16T04:09:13.000Z",
+      "checksum": "7143f437ef2e284fd41fed571bd548d1",
+      "folder": false
+    },
+    {
+      "id": "1Qw_SeIJXb9yvlBVX22pyjiEB_BTP962X",
+      "parent_id": "1kIlWOxSIMG6eYzyYEm-Btx-mpEM-mcsU",
+      "name": "NHỮNG NGƯỜI SINH VIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 1001479,
+      "modified": "2026-08-16T04:09:20.000Z",
+      "checksum": "6d143a0100999f244339337291ff843f",
+      "folder": false
+    },
+    {
+      "id": "1cVEQ6PyZgLL9QRA7L8RusiYvSnh-ewa2",
+      "parent_id": "1kIlWOxSIMG6eYzyYEm-Btx-mpEM-mcsU",
+      "name": "NHỮNG NGƯỜI SINH VIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 2145704,
+      "modified": "2026-08-16T04:09:18.000Z",
+      "checksum": "261ddaf7ed7a76b603b1084f42384732",
+      "folder": false
+    }
+  ]
+}

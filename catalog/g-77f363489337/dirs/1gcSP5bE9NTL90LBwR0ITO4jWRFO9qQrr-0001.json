@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gcSP5bE9NTL90LBwR0ITO4jWRFO9qQrr",
+  "page": 1,
+  "items": [
+    {
+      "id": "12tdASANnU4zNmsvsav0rlAW4AECh4zEc",
+      "parent_id": "1gcSP5bE9NTL90LBwR0ITO4jWRFO9qQrr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2880,
+      "modified": "2026-08-16T03:51:59.000Z",
+      "checksum": "e9dac6bf6ac5ab97f7136cdf2dfcef6d",
+      "folder": false
+    },
+    {
+      "id": "1TwbAHEVUUW2RDErw-NnJ9sVFdVO34ZFv",
+      "parent_id": "1gcSP5bE9NTL90LBwR0ITO4jWRFO9qQrr",
+      "name": "VẾT SẸO VÀ CÁI ĐẦU HÓI.epub",
+      "mime": "application/epub+zip",
+      "size": 540064,
+      "modified": "2026-08-16T03:52:05.000Z",
+      "checksum": "fd9caf2d9258aa198c87401821bea27b",
+      "folder": false
+    },
+    {
+      "id": "1KnE2f0D7k_kFq3Vw4Bs4ST85DC_OEHOz",
+      "parent_id": "1gcSP5bE9NTL90LBwR0ITO4jWRFO9qQrr",
+      "name": "VẾT SẸO VÀ CÁI ĐẦU HÓI.pdf",
+      "mime": "application/pdf",
+      "size": 1238792,
+      "modified": "2026-08-16T03:52:03.000Z",
+      "checksum": "ee10fc9639eca487f484dc8939f2920d",
+      "folder": false
+    }
+  ]
+}

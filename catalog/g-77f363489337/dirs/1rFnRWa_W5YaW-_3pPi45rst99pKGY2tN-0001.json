@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rFnRWa_W5YaW-_3pPi45rst99pKGY2tN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tRlDTT6uoADhqu3ptjpKOx8HPI-GGFPA",
+      "parent_id": "1rFnRWa_W5YaW-_3pPi45rst99pKGY2tN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6156,
+      "modified": "2026-08-15T08:03:52.000Z",
+      "checksum": "35d032df58785f1f5c20676b8aafcf5e",
+      "folder": false
+    },
+    {
+      "id": "1npbwbiWGamrGALdgoE5gg-EH5Qq-8y0a",
+      "parent_id": "1rFnRWa_W5YaW-_3pPi45rst99pKGY2tN",
+      "name": "DIỆP GIA KIẾM.epub",
+      "mime": "application/epub+zip",
+      "size": 562531,
+      "modified": "2026-08-15T08:03:59.000Z",
+      "checksum": "d4d6157b3eb23c8da597d8b954ffa952",
+      "folder": false
+    },
+    {
+      "id": "1cplpEUpLiaZk344hq8VuB7ItsNo7MxII",
+      "parent_id": "1rFnRWa_W5YaW-_3pPi45rst99pKGY2tN",
+      "name": "DIỆP GIA KIẾM.pdf",
+      "mime": "application/pdf",
+      "size": 1799344,
+      "modified": "2026-08-15T08:03:56.000Z",
+      "checksum": "1786cb1fabe06c62ae93e136d858f6e6",
+      "folder": false
+    }
+  ]
+}

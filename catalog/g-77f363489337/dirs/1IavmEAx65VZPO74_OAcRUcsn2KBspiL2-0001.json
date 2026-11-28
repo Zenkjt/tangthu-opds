@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IavmEAx65VZPO74_OAcRUcsn2KBspiL2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mIuU3jcfOKO-uDQJej1EOLBaKLLFWkLe",
+      "parent_id": "1IavmEAx65VZPO74_OAcRUcsn2KBspiL2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2787,
+      "modified": "2026-08-15T08:21:55.000Z",
+      "checksum": "a265b97f9438b12a8c2adbd314893a28",
+      "folder": false
+    },
+    {
+      "id": "1hS9TiEjA0OlpZEgrDNBqpke7347Zqi7W",
+      "parent_id": "1IavmEAx65VZPO74_OAcRUcsn2KBspiL2",
+      "name": "NGHIỆT DUYÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 780770,
+      "modified": "2026-08-15T08:22:41.000Z",
+      "checksum": "c46d543602d9c5834d660b55cadd8e3c",
+      "folder": false
+    },
+    {
+      "id": "1p85iRFQnNZqHZgwtaipDx0gbtNK7wZkU",
+      "parent_id": "1IavmEAx65VZPO74_OAcRUcsn2KBspiL2",
+      "name": "NGHIỆT DUYÊN.pdf",
+      "mime": "application/pdf",
+      "size": 2112177,
+      "modified": "2026-08-15T08:22:09.000Z",
+      "checksum": "9e5c2da465aeaf8f849adaa23eee4646",
+      "folder": false
+    }
+  ]
+}

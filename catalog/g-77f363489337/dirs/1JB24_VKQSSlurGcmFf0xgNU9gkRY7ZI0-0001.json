@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JB24_VKQSSlurGcmFf0xgNU9gkRY7ZI0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1o9o82MYnsga3DNOkohn58JYGAzJ1abfl",
+      "parent_id": "1JB24_VKQSSlurGcmFf0xgNU9gkRY7ZI0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6428,
+      "modified": "2026-08-16T03:25:20.000Z",
+      "checksum": "e923c36dd83a57fb70ecea815eb08095",
+      "folder": false
+    },
+    {
+      "id": "1TSfFXK364U1pIhJY8jw7fkc9YRpSXurD",
+      "parent_id": "1JB24_VKQSSlurGcmFf0xgNU9gkRY7ZI0",
+      "name": "ĐI TÌM ALASKA.epub",
+      "mime": "application/epub+zip",
+      "size": 456016,
+      "modified": "2026-08-16T03:25:26.000Z",
+      "checksum": "5ef22c3c2e70085e19d60c5fcc45b3fb",
+      "folder": false
+    },
+    {
+      "id": "1cZN4X0mkNqgDq1VbFY3Cf-ebU1UPxjYR",
+      "parent_id": "1JB24_VKQSSlurGcmFf0xgNU9gkRY7ZI0",
+      "name": "ĐI TÌM ALASKA.pdf",
+      "mime": "application/pdf",
+      "size": 964320,
+      "modified": "2026-08-16T03:25:24.000Z",
+      "checksum": "4478c6872934edfd68f7b76143e47f38",
+      "folder": false
+    }
+  ]
+}

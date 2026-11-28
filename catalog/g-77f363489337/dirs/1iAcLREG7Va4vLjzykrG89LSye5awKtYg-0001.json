@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iAcLREG7Va4vLjzykrG89LSye5awKtYg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EMKTb3PyfEPvcU1VVM0ds69GRcoMxVWi",
+      "parent_id": "1iAcLREG7Va4vLjzykrG89LSye5awKtYg",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 3301,
+      "modified": "2026-08-15T15:36:18.000Z",
+      "checksum": "900d4fca59e412e8500e741fc6df94bd",
+      "folder": false
+    },
+    {
+      "id": "1LVeobOch03ONvmmIAWkut3bOkH1XiCB9",
+      "parent_id": "1iAcLREG7Va4vLjzykrG89LSye5awKtYg",
+      "name": "KẺ MẠO DANH.epub",
+      "mime": "application/epub+zip",
+      "size": 423353,
+      "modified": "2026-08-15T15:36:25.000Z",
+      "checksum": "4ff732978f77564f91cde06aea2a2cd2",
+      "folder": false
+    },
+    {
+      "id": "1EsTtxdxgWkzBW0vYCxgCtC26Ksc0DIj_",
+      "parent_id": "1iAcLREG7Va4vLjzykrG89LSye5awKtYg",
+      "name": "KẺ MẠO DANH.pdf",
+      "mime": "application/pdf",
+      "size": 641102,
+      "modified": "2026-08-15T15:36:22.000Z",
+      "checksum": "f56b4d1193fbc791f85222490def1c0c",
+      "folder": false
+    }
+  ]
+}

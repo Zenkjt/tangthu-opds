@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1giJ61tdS3ZM6bblsW8MvVumJO_tD15H2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1h2iptXK24JuzAioLKo01TnWdmvdr1mWz",
+      "parent_id": "1giJ61tdS3ZM6bblsW8MvVumJO_tD15H2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3002,
+      "modified": "2026-08-15T10:10:33.000Z",
+      "checksum": "a9c6daf8b90612925399f3f47153a2df",
+      "folder": false
+    },
+    {
+      "id": "1hDTzjcdTH9TD0RlZBlNmHqvTQWiTejEG",
+      "parent_id": "1giJ61tdS3ZM6bblsW8MvVumJO_tD15H2",
+      "name": "TIÊN SINH ĐẾN TỪ 1930.epub",
+      "mime": "application/epub+zip",
+      "size": 938605,
+      "modified": "2026-08-15T10:10:45.000Z",
+      "checksum": "fc9e7eedaf5e81b2b7d4d202dcee8f9c",
+      "folder": false
+    },
+    {
+      "id": "1zj0YJDMb45O43oVfIrnA9q7zecbvyLlk",
+      "parent_id": "1giJ61tdS3ZM6bblsW8MvVumJO_tD15H2",
+      "name": "TIÊN SINH ĐẾN TỪ 1930.pdf",
+      "mime": "application/pdf",
+      "size": 3083036,
+      "modified": "2026-08-15T10:10:42.000Z",
+      "checksum": "caec24396af5ea16305f21dafe78ccfe",
+      "folder": false
+    }
+  ]
+}

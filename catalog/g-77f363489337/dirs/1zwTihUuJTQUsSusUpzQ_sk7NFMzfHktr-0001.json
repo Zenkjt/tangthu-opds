@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zwTihUuJTQUsSusUpzQ_sk7NFMzfHktr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mf_BBpYuha_ZbkBY2AYNRZ91vEZnygbY",
+      "parent_id": "1zwTihUuJTQUsSusUpzQ_sk7NFMzfHktr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3329,
+      "modified": "2026-08-15T10:38:06.000Z",
+      "checksum": "1da8fb91437c31e49b6ba06a75f6ea46",
+      "folder": false
+    },
+    {
+      "id": "1mKyg5_oOrICnb_7GMcZIoX7g1PFmcd7f",
+      "parent_id": "1zwTihUuJTQUsSusUpzQ_sk7NFMzfHktr",
+      "name": "NHỮNG CÂU CHUYỆN CUỘC SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 893988,
+      "modified": "2026-08-15T10:38:15.000Z",
+      "checksum": "c4073c567cc7384e33ffe8c5aa4e1582",
+      "folder": false
+    },
+    {
+      "id": "1-f7eakSZc5Yst6cwLdd2KnhWKbCusb4S",
+      "parent_id": "1zwTihUuJTQUsSusUpzQ_sk7NFMzfHktr",
+      "name": "NHỮNG CÂU CHUYỆN CUỘC SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 3708561,
+      "modified": "2026-08-15T10:38:12.000Z",
+      "checksum": "015ced65fd9bf5f100c30d229afc564a",
+      "folder": false
+    }
+  ]
+}

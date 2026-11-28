@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZlOk9fPb0XpiHqrewix2anhIimOlerwQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SRznkor_eOT7DMDCdvQXf8gW_LXpwluk",
+      "parent_id": "1ZlOk9fPb0XpiHqrewix2anhIimOlerwQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2860,
+      "modified": "2026-08-15T09:30:59.000Z",
+      "checksum": "55f7f5ab137d378c95b5a3f763d02552",
+      "folder": false
+    },
+    {
+      "id": "1Ijmjv0owg7LHEdmg7nzZSCdebunJoj3n",
+      "parent_id": "1ZlOk9fPb0XpiHqrewix2anhIimOlerwQ",
+      "name": "TAM SINH TAM THẾ, THẬP LÝ ĐÀO HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 627473,
+      "modified": "2026-08-15T09:31:08.000Z",
+      "checksum": "d3def2946eb824f42afee6c1d873f7eb",
+      "folder": false
+    },
+    {
+      "id": "1RMJSGRpEqeq8SwBL5vArqPYsgmO4-MSY",
+      "parent_id": "1ZlOk9fPb0XpiHqrewix2anhIimOlerwQ",
+      "name": "TAM SINH TAM THẾ, THẬP LÝ ĐÀO HOA.pdf",
+      "mime": "application/pdf",
+      "size": 1628917,
+      "modified": "2026-08-15T09:31:06.000Z",
+      "checksum": "d6d021b82a47e6a38f6b706a841b46f6",
+      "folder": false
+    }
+  ]
+}

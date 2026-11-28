@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16l-DP-hMfzCzeWchAyKq46ZUu4hjL3dk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FHCKIAqna-hQd2jBRBlu426dKlDQpipP",
+      "parent_id": "16l-DP-hMfzCzeWchAyKq46ZUu4hjL3dk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2736,
+      "modified": "2026-08-15T04:01:38.000Z",
+      "checksum": "ee49282d2f9488410bb9aa3dd6268475",
+      "folder": false
+    },
+    {
+      "id": "1OU2__s3ED2tCfYcgHkT-P1HnIE0YI7Ve",
+      "parent_id": "16l-DP-hMfzCzeWchAyKq46ZUu4hjL3dk",
+      "name": "TỰ TRUYỆN CHƯA HOÀN THÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 389885,
+      "modified": "2026-08-15T04:01:46.000Z",
+      "checksum": "2665377348a866ab79d79a0ba30b4b86",
+      "folder": false
+    },
+    {
+      "id": "1I6j6ia5-ZhVkM4gInRLSrEdDahSkX-fa",
+      "parent_id": "16l-DP-hMfzCzeWchAyKq46ZUu4hjL3dk",
+      "name": "TỰ TRUYỆN CHƯA HOÀN THÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 937759,
+      "modified": "2026-08-15T04:01:43.000Z",
+      "checksum": "59b91fc0f1f79a86766d2c1dc4a9c953",
+      "folder": false
+    }
+  ]
+}

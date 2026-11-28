@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1igiKCCSk08-S_Djctl-jzM2b3If1WFh5",
+  "page": 1,
+  "items": [
+    {
+      "id": "11wnQaJHMEHMgYpbdT-C7xawnX6Db2Sr3",
+      "parent_id": "1igiKCCSk08-S_Djctl-jzM2b3If1WFh5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2245,
+      "modified": "2026-08-16T03:37:16.000Z",
+      "checksum": "00f25af8ddc78741d0d3b6dafccafa75",
+      "folder": false
+    },
+    {
+      "id": "1U2VCtAO_Mxz9-YY5mwcVxnppaFnUBAzw",
+      "parent_id": "1igiKCCSk08-S_Djctl-jzM2b3If1WFh5",
+      "name": "TRUYỆN PHẬT THÍCH CA.epub",
+      "mime": "application/epub+zip",
+      "size": 1059117,
+      "modified": "2026-08-16T03:37:23.000Z",
+      "checksum": "a2867bb6bb377ac9aa30a869c4a03c55",
+      "folder": false
+    },
+    {
+      "id": "1zmob5e1xu0HoxT7blBCfP9XBk-JAJ9Rn",
+      "parent_id": "1igiKCCSk08-S_Djctl-jzM2b3If1WFh5",
+      "name": "TRUYỆN PHẬT THÍCH CA.pdf",
+      "mime": "application/pdf",
+      "size": 725564,
+      "modified": "2026-08-16T03:37:20.000Z",
+      "checksum": "a4d55ad44fd10de4b9d2b7fd98affdd6",
+      "folder": false
+    }
+  ]
+}

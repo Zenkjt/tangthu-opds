@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1p9cxRdo7MT5vbNiJm7Lo02GGtbj_BbiJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VsinScB2b8BPXCDP-vu-r17M3gsd1aZT",
+      "parent_id": "1p9cxRdo7MT5vbNiJm7Lo02GGtbj_BbiJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 622,
+      "modified": "2026-08-15T09:40:51.000Z",
+      "checksum": "3c2e3665ced1a778326f67f088b4df56",
+      "folder": false
+    },
+    {
+      "id": "1zYS8bsQd2GzotDAr3x-LlSJ8RvtFANY8",
+      "parent_id": "1p9cxRdo7MT5vbNiJm7Lo02GGtbj_BbiJ",
+      "name": "MỌI CÁI TÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 498316,
+      "modified": "2026-08-15T09:40:58.000Z",
+      "checksum": "264037a6dab9e2f8dc23175cb4385e57",
+      "folder": false
+    },
+    {
+      "id": "1ELx-c1NKW4nCRWJeyvurLf3RpI8eSM8s",
+      "parent_id": "1p9cxRdo7MT5vbNiJm7Lo02GGtbj_BbiJ",
+      "name": "MỌI CÁI TÊN.pdf",
+      "mime": "application/pdf",
+      "size": 1082409,
+      "modified": "2026-08-15T09:40:56.000Z",
+      "checksum": "56a69547e2afcff8cff7a80e5eb676ed",
+      "folder": false
+    }
+  ]
+}

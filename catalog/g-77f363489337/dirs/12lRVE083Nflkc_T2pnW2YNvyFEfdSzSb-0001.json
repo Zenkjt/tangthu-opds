@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12lRVE083Nflkc_T2pnW2YNvyFEfdSzSb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SU2V0N0ySXEE1kGB9wJrYrPjYLt0fN1G",
+      "parent_id": "12lRVE083Nflkc_T2pnW2YNvyFEfdSzSb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3082,
+      "modified": "2026-08-15T03:23:44.000Z",
+      "checksum": "99850a0ce844c9d9a3088e3e1d9e15d0",
+      "folder": false
+    },
+    {
+      "id": "1TzUVmzR1Z8GXHZwgs0weHvRymoifXz8f",
+      "parent_id": "12lRVE083Nflkc_T2pnW2YNvyFEfdSzSb",
+      "name": "EQ TRÍ TUỆ CẢM XÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 7704017,
+      "modified": "2026-08-15T03:23:53.000Z",
+      "checksum": "ead7de1e8bb324b861cbbdef7ef81747",
+      "folder": false
+    },
+    {
+      "id": "17iP5u8mhRKkq3XfvvC8OjZ-Yo2h8PoXp",
+      "parent_id": "12lRVE083Nflkc_T2pnW2YNvyFEfdSzSb",
+      "name": "EQ TRÍ TUỆ CẢM XÚC.pdf",
+      "mime": "application/pdf",
+      "size": 3278323,
+      "modified": "2026-08-15T03:23:50.000Z",
+      "checksum": "81d648bd0076330f375a17170eee3a09",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uunJyo9ZeuZrj-YRuP58raVc8bI5JYT7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HRGitGdtNycyS7ZiqZFKiUq0p6GZB23T",
+      "parent_id": "1uunJyo9ZeuZrj-YRuP58raVc8bI5JYT7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3254,
+      "modified": "2026-08-15T10:42:51.000Z",
+      "checksum": "8aec411fa4131ad284a4f0eda9740387",
+      "folder": false
+    },
+    {
+      "id": "1Qo3cFOWgJlg1yvKRtYazN9WfUuZSctJl",
+      "parent_id": "1uunJyo9ZeuZrj-YRuP58raVc8bI5JYT7",
+      "name": "NGƯỜI PHIÊN DỊCH.epub",
+      "mime": "application/epub+zip",
+      "size": 530184,
+      "modified": "2026-08-15T10:42:58.000Z",
+      "checksum": "a4d5da45dfb16236e0893cd85844ed63",
+      "folder": false
+    },
+    {
+      "id": "1tmHiw24uibnvPho9ko-ZGGRBqD90sOyr",
+      "parent_id": "1uunJyo9ZeuZrj-YRuP58raVc8bI5JYT7",
+      "name": "NGƯỜI PHIÊN DỊCH.pdf",
+      "mime": "application/pdf",
+      "size": 1449566,
+      "modified": "2026-08-15T10:42:56.000Z",
+      "checksum": "c041e31ca901c26dca3ebb4a34295e60",
+      "folder": false
+    }
+  ]
+}

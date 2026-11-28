@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BGB-fDMzGv3sy9gqw1gALRLmohO54Htl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ERPlq9NixcxyXAECCl7yjtTfKFyDYdP3",
+      "parent_id": "1BGB-fDMzGv3sy9gqw1gALRLmohO54Htl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 912,
+      "modified": "2026-08-15T04:24:28.000Z",
+      "checksum": "6b7f28a939f4cf02bba59fa0b47fa343",
+      "folder": false
+    },
+    {
+      "id": "1fuy4-GU78xDcQyNBVprIdXqLAjjGaRFU",
+      "parent_id": "1BGB-fDMzGv3sy9gqw1gALRLmohO54Htl",
+      "name": "THÔNG TIN Y HỌC VỀ HIV-AIDS.epub",
+      "mime": "application/epub+zip",
+      "size": 336716,
+      "modified": "2026-08-15T04:24:33.000Z",
+      "checksum": "1d5b76092efbeb0b36706eda8918b30c",
+      "folder": false
+    },
+    {
+      "id": "1qyGTvV73roELZSKW4JlMS9k38MVGgiz0",
+      "parent_id": "1BGB-fDMzGv3sy9gqw1gALRLmohO54Htl",
+      "name": "THÔNG TIN Y HỌC VỀ HIV-AIDS.pdf",
+      "mime": "application/pdf",
+      "size": 112907,
+      "modified": "2026-08-15T04:24:30.000Z",
+      "checksum": "26bcda64b2a788a361c9ead20e35354f",
+      "folder": false
+    }
+  ]
+}

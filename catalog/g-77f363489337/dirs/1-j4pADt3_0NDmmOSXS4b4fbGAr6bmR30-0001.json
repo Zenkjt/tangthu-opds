@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-j4pADt3_0NDmmOSXS4b4fbGAr6bmR30",
+  "page": 1,
+  "items": [
+    {
+      "id": "107JL6-_e84FfdpTf7v0eKoBW5UQeKI-Y",
+      "parent_id": "1-j4pADt3_0NDmmOSXS4b4fbGAr6bmR30",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3583,
+      "modified": "2026-08-15T10:14:17.000Z",
+      "checksum": "a8a89b3b8ce413d23867674b43f874e0",
+      "folder": false
+    },
+    {
+      "id": "1mWATT6XBKRh-8z5CycwqiwGhleJWMJcG",
+      "parent_id": "1-j4pADt3_0NDmmOSXS4b4fbGAr6bmR30",
+      "name": "THIỀN TÂM SƠ TÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 438674,
+      "modified": "2026-08-15T10:14:23.000Z",
+      "checksum": "b472b1f42a044383dff2e9c8eecf3df2",
+      "folder": false
+    },
+    {
+      "id": "1k4zm3z3haSD1HOpzCR3uwITdu9N7koKT",
+      "parent_id": "1-j4pADt3_0NDmmOSXS4b4fbGAr6bmR30",
+      "name": "THIỀN TÂM SƠ TÂM.pdf",
+      "mime": "application/pdf",
+      "size": 637899,
+      "modified": "2026-08-15T10:14:21.000Z",
+      "checksum": "99dc8723ceac7c2205f963c280edb19b",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FQC0m2Oo67_J1S50mj4Oq0rqe6lXPAvx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ztpWv_vQX_dXZT_W0XGfaE7JDxnayO5V",
+      "parent_id": "1FQC0m2Oo67_J1S50mj4Oq0rqe6lXPAvx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1856,
+      "modified": "2026-08-15T07:31:16.000Z",
+      "checksum": "4888da16504b7390217dd33261baeb9b",
+      "folder": false
+    },
+    {
+      "id": "1JfeE1h77raQcn6PuuFSS2XjFLgdIJ6-w",
+      "parent_id": "1FQC0m2Oo67_J1S50mj4Oq0rqe6lXPAvx",
+      "name": "VƯƠNG PHI THẤT SỦNG.epub",
+      "mime": "application/epub+zip",
+      "size": 869984,
+      "modified": "2026-08-15T07:31:29.000Z",
+      "checksum": "18019b8cdd472b1ee1d44c5cda009e81",
+      "folder": false
+    },
+    {
+      "id": "1xoaVMX80pL_ZAGqsefKb4wFoxG1MT9gg",
+      "parent_id": "1FQC0m2Oo67_J1S50mj4Oq0rqe6lXPAvx",
+      "name": "VƯƠNG PHI THẤT SỦNG.pdf",
+      "mime": "application/pdf",
+      "size": 2381882,
+      "modified": "2026-08-15T07:31:25.000Z",
+      "checksum": "85bb537ce1c40d48455ad10fb6edcb9f",
+      "folder": false
+    }
+  ]
+}

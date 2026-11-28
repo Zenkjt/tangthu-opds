@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18jR491mKuxRSzR9uzH0E4k1vu2HUtJdf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YmhW77dR5Xcn6oAA8IiLXlq3XBPW-ido",
+      "parent_id": "18jR491mKuxRSzR9uzH0E4k1vu2HUtJdf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 805,
+      "modified": "2026-08-16T04:18:28.000Z",
+      "checksum": "dd68319d3d1793705482172d01a108bc",
+      "folder": false
+    },
+    {
+      "id": "1pkhFwwRfNFiqX6k7DDPcy5ThahrCURX7",
+      "parent_id": "18jR491mKuxRSzR9uzH0E4k1vu2HUtJdf",
+      "name": "LẲNG LƠ.epub",
+      "mime": "application/epub+zip",
+      "size": 432976,
+      "modified": "2026-08-16T04:18:34.000Z",
+      "checksum": "a1a4ac6354db2d7530820a1af9fabf90",
+      "folder": false
+    },
+    {
+      "id": "1YrXNxxpETzfqtmsYiKrNXFrv-pkHHLen",
+      "parent_id": "18jR491mKuxRSzR9uzH0E4k1vu2HUtJdf",
+      "name": "LẲNG LƠ.pdf",
+      "mime": "application/pdf",
+      "size": 573245,
+      "modified": "2026-08-16T04:18:31.000Z",
+      "checksum": "61c4b9cd9dd658ec512c301392776896",
+      "folder": false
+    }
+  ]
+}

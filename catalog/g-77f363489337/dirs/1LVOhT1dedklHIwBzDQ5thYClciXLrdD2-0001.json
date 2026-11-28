@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LVOhT1dedklHIwBzDQ5thYClciXLrdD2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_eO3XS36wYFEcCfwF2fjlHFFwuN5X_x8",
+      "parent_id": "1LVOhT1dedklHIwBzDQ5thYClciXLrdD2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4567,
+      "modified": "2026-08-15T06:49:13.000Z",
+      "checksum": "b3a58a5375e4fca1acbc702ec7019424",
+      "folder": false
+    },
+    {
+      "id": "1yK6MavyJ5JRzXhCuSKMjj8tKt225wsYb",
+      "parent_id": "1LVOhT1dedklHIwBzDQ5thYClciXLrdD2",
+      "name": "DẤU CHÂN TRÊN CÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 715753,
+      "modified": "2026-08-15T06:49:20.000Z",
+      "checksum": "441a1256bd1b910917939b5c86dac5a3",
+      "folder": false
+    },
+    {
+      "id": "1XRyCBsJfK2UU_y42H4-0g0qHW2TF_VaH",
+      "parent_id": "1LVOhT1dedklHIwBzDQ5thYClciXLrdD2",
+      "name": "DẤU CHÂN TRÊN CÁT.pdf",
+      "mime": "application/pdf",
+      "size": 1549601,
+      "modified": "2026-08-15T06:49:18.000Z",
+      "checksum": "1b58e04028b5b6e36d0252cdb4abe0bd",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iW8lzdZotP5JDlKXL2CymIdbksjvI9bq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uWfYpVNWLLVKOwCMWVGnXQGLu5Mg9HWM",
+      "parent_id": "1iW8lzdZotP5JDlKXL2CymIdbksjvI9bq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8072,
+      "modified": "2026-08-16T03:43:52.000Z",
+      "checksum": "def53a2446856e5635439ad6c349d5a3",
+      "folder": false
+    },
+    {
+      "id": "1jeWlfyMVU_9nbfrDy_filnH39KZ-0RJI",
+      "parent_id": "1iW8lzdZotP5JDlKXL2CymIdbksjvI9bq",
+      "name": "ĐỂ ANH GẶP EM LÚC TỐT NHẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 450660,
+      "modified": "2026-08-16T03:44:00.000Z",
+      "checksum": "879f2ad89968335ef4f2824fd65f495a",
+      "folder": false
+    },
+    {
+      "id": "1jkYvNzXNXkZ85jShE_Lt7Z0XDgOySbbG",
+      "parent_id": "1iW8lzdZotP5JDlKXL2CymIdbksjvI9bq",
+      "name": "ĐỂ ANH GẶP EM LÚC TỐT NHẤT.pdf",
+      "mime": "application/pdf",
+      "size": 1488139,
+      "modified": "2026-08-16T03:43:57.000Z",
+      "checksum": "0231a69b92e0cdee6abff7c804c211f5",
+      "folder": false
+    }
+  ]
+}

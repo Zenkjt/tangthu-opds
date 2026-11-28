@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aIK4celhAPdFsSgucUpAQf9XD4U4tm07",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Q1uw3XDQuJsseMpKtG_l9MwdveczUXQS",
+      "parent_id": "1aIK4celhAPdFsSgucUpAQf9XD4U4tm07",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4821,
+      "modified": "2026-08-16T03:46:45.000Z",
+      "checksum": "7f81c05a84df6cc71a295279d3f9f833",
+      "folder": false
+    },
+    {
+      "id": "1vJV-NygCkc0empvk08szyEHAsTbks1S2",
+      "parent_id": "1aIK4celhAPdFsSgucUpAQf9XD4U4tm07",
+      "name": "KHÔNG CÒN TÂM TRẠNG ĐỂ YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 548000,
+      "modified": "2026-08-16T03:46:52.000Z",
+      "checksum": "5f5852021f6723b2c3eac08ca6e70c9e",
+      "folder": false
+    },
+    {
+      "id": "1fFwdVfdLCW9-uGqv1gZSdDWFZnz9FgXz",
+      "parent_id": "1aIK4celhAPdFsSgucUpAQf9XD4U4tm07",
+      "name": "KHÔNG CÒN TÂM TRẠNG ĐỂ YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1081384,
+      "modified": "2026-08-16T03:46:49.000Z",
+      "checksum": "39c1a82622b88cee4d1c5a28b92351eb",
+      "folder": false
+    }
+  ]
+}

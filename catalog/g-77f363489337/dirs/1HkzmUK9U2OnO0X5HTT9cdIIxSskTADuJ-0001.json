@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HkzmUK9U2OnO0X5HTT9cdIIxSskTADuJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wQjuFyE6TqeTr-ZWPJuDe89fjRDAMNgo",
+      "parent_id": "1HkzmUK9U2OnO0X5HTT9cdIIxSskTADuJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 749,
+      "modified": "2026-08-15T11:03:23.000Z",
+      "checksum": "b7fd9e8e681808cc473f18ab69c58eb0",
+      "folder": false
+    },
+    {
+      "id": "1qXmz3y96xYsfPs5YUCWyK31FrSvxwYMo",
+      "parent_id": "1HkzmUK9U2OnO0X5HTT9cdIIxSskTADuJ",
+      "name": "ÁO CƯỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 738832,
+      "modified": "2026-08-15T11:03:50.000Z",
+      "checksum": "41bbcad4f890eb1155aef705be8cc5a2",
+      "folder": false
+    },
+    {
+      "id": "1ZyJ5F9J8fBi6AioBUvR_IXCwxxnSPLnX",
+      "parent_id": "1HkzmUK9U2OnO0X5HTT9cdIIxSskTADuJ",
+      "name": "ÁO CƯỚI.pdf",
+      "mime": "application/pdf",
+      "size": 1652290,
+      "modified": "2026-08-15T11:03:40.000Z",
+      "checksum": "2418681e325aaa763f381fc3a736bc26",
+      "folder": false
+    }
+  ]
+}

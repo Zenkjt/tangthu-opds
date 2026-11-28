@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d9ICH-Qw8f2nBvvkDaoMy7_2o6u2tZa-",
+  "page": 1,
+  "items": [
+    {
+      "id": "12DGzJpR3hdZAjJ4387g20ieNvBUjpOWm",
+      "parent_id": "1d9ICH-Qw8f2nBvvkDaoMy7_2o6u2tZa-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2839,
+      "modified": "2026-08-16T04:04:11.000Z",
+      "checksum": "eb98a02d0a27912afeb3fc8187f15d3d",
+      "folder": false
+    },
+    {
+      "id": "1FmQeSE5o0GnTakoGWbJMfWrkwjaHcNjx",
+      "parent_id": "1d9ICH-Qw8f2nBvvkDaoMy7_2o6u2tZa-",
+      "name": "SAU CÀNH VIOLET.epub",
+      "mime": "application/epub+zip",
+      "size": 539119,
+      "modified": "2026-08-16T04:04:17.000Z",
+      "checksum": "884f363e1fe485c7a05228fcc0874250",
+      "folder": false
+    },
+    {
+      "id": "17aFnEdxZ7cQu34FJaC7N27dJt7gcp39N",
+      "parent_id": "1d9ICH-Qw8f2nBvvkDaoMy7_2o6u2tZa-",
+      "name": "SAU CÀNH VIOLET.pdf",
+      "mime": "application/pdf",
+      "size": 927195,
+      "modified": "2026-08-16T04:04:14.000Z",
+      "checksum": "366169899894f45b7c2231e0d671ccb1",
+      "folder": false
+    }
+  ]
+}

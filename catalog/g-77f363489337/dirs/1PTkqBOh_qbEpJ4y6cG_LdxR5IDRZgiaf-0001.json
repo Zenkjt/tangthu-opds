@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PTkqBOh_qbEpJ4y6cG_LdxR5IDRZgiaf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ePk7yJTbMeKBK-eBl4SHhQOSsbBDyHud",
+      "parent_id": "1PTkqBOh_qbEpJ4y6cG_LdxR5IDRZgiaf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7866,
+      "modified": "2026-08-15T03:41:13.000Z",
+      "checksum": "eb84c7478a6d1ca0190e558c89e0ecd8",
+      "folder": false
+    },
+    {
+      "id": "1mCNsYV19LK5h8RHVa3fQvXKoMz5vFrCd",
+      "parent_id": "1PTkqBOh_qbEpJ4y6cG_LdxR5IDRZgiaf",
+      "name": "TỰ DO ĐẦU TIÊN VÀ CUỐI CÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 480742,
+      "modified": "2026-08-15T03:41:21.000Z",
+      "checksum": "37485fe08e1f853a5e9fb6afbe4111eb",
+      "folder": false
+    },
+    {
+      "id": "1RqiGKI124ZKJx7DPD-S1b-Ys-WZYpc6w",
+      "parent_id": "1PTkqBOh_qbEpJ4y6cG_LdxR5IDRZgiaf",
+      "name": "TỰ DO ĐẦU TIÊN VÀ CUỐI CÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 1580439,
+      "modified": "2026-08-15T03:41:18.000Z",
+      "checksum": "baa245205f273ed04741e70e1d724f3c",
+      "folder": false
+    }
+  ]
+}

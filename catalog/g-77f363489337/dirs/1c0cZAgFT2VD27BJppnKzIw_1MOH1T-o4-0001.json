@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1c0cZAgFT2VD27BJppnKzIw_1MOH1T-o4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1neBsPyPi1tThteAXLJY2mZylxCj_e3BC",
+      "parent_id": "1c0cZAgFT2VD27BJppnKzIw_1MOH1T-o4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 15486,
+      "modified": "2026-08-15T08:06:16.000Z",
+      "checksum": "faa23648b4584fed01cad7c68892366c",
+      "folder": false
+    },
+    {
+      "id": "1HFlGE_8CHflulbM9uDimNs2TMd2Ob6lg",
+      "parent_id": "1c0cZAgFT2VD27BJppnKzIw_1MOH1T-o4",
+      "name": "MADE IN VIETNAM.epub",
+      "mime": "application/epub+zip",
+      "size": 406958,
+      "modified": "2026-08-15T08:06:25.000Z",
+      "checksum": "6c0929223e6988d7bd19f9f29f6f0c84",
+      "folder": false
+    },
+    {
+      "id": "16kFzpGBOXKDh848X5-6JLcNS9zHGvxTM",
+      "parent_id": "1c0cZAgFT2VD27BJppnKzIw_1MOH1T-o4",
+      "name": "MADE IN VIETNAM.pdf",
+      "mime": "application/pdf",
+      "size": 659835,
+      "modified": "2026-08-15T08:06:21.000Z",
+      "checksum": "f721bd5ffe619bfcabf5f8069fefbfe5",
+      "folder": false
+    }
+  ]
+}

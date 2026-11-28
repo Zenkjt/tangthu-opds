@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18BBACoe52U_5R5sWJxx_JaRyyjn7dsry",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Vyyh6NYuhwsXnrMoHQ_uQmdS4UimhWJQ",
+      "parent_id": "18BBACoe52U_5R5sWJxx_JaRyyjn7dsry",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2246,
+      "modified": "2026-08-15T07:45:06.000Z",
+      "checksum": "7956d034f0979d96bc3bf4de93ce0fa4",
+      "folder": false
+    },
+    {
+      "id": "1MsbbIBWHhW5wFDCdbSCe0cQdVaLknb1j",
+      "parent_id": "18BBACoe52U_5R5sWJxx_JaRyyjn7dsry",
+      "name": "ĐOÀN TRƯỞNG Ở TRÊN CAO.epub",
+      "mime": "application/epub+zip",
+      "size": 630152,
+      "modified": "2026-08-15T07:45:14.000Z",
+      "checksum": "b03793e4e8770bfdc3380070520d0c80",
+      "folder": false
+    },
+    {
+      "id": "1g8VdrZFdWL3C7nWKOScGH56BPd0ipBaX",
+      "parent_id": "18BBACoe52U_5R5sWJxx_JaRyyjn7dsry",
+      "name": "ĐOÀN TRƯỞNG Ở TRÊN CAO.pdf",
+      "mime": "application/pdf",
+      "size": 1734633,
+      "modified": "2026-08-15T07:45:12.000Z",
+      "checksum": "1b41af177ddf42eabfffb07f6ba17f29",
+      "folder": false
+    }
+  ]
+}

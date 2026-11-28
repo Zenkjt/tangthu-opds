@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Um7CdK9Y3fTNUDEHenxOFgcbTCr7ALTx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nCLmMI3yJXps8lFmjQPCv5bhygnwF0u3",
+      "parent_id": "1Um7CdK9Y3fTNUDEHenxOFgcbTCr7ALTx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2540,
+      "modified": "2026-08-15T09:50:41.000Z",
+      "checksum": "74123abfff143a495602ea63c0f29b60",
+      "folder": false
+    },
+    {
+      "id": "1KlwWdVe2az6-TcK-3tl4HK8OKLOI8qAa",
+      "parent_id": "1Um7CdK9Y3fTNUDEHenxOFgcbTCr7ALTx",
+      "name": "ĐÔNG CUNG CHI CHỦ.epub",
+      "mime": "application/epub+zip",
+      "size": 4204900,
+      "modified": "2026-08-15T09:50:55.000Z",
+      "checksum": "2d8e459d4242ff4450f16ae15b964237",
+      "folder": false
+    },
+    {
+      "id": "191s2rSexmKrOEhgKOQlpYmIi8JS_k4MS",
+      "parent_id": "1Um7CdK9Y3fTNUDEHenxOFgcbTCr7ALTx",
+      "name": "ĐÔNG CUNG CHI CHỦ.pdf",
+      "mime": "application/pdf",
+      "size": 3078745,
+      "modified": "2026-08-15T09:50:49.000Z",
+      "checksum": "b6a4c9ecdacce41f092b0529ecb0fd93",
+      "folder": false
+    }
+  ]
+}

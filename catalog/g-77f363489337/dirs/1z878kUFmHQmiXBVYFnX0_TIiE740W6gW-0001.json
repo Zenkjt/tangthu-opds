@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1z878kUFmHQmiXBVYFnX0_TIiE740W6gW",
+  "page": 1,
+  "items": [
+    {
+      "id": "13BtqH759CAVkrZM-ql_fjv9hc7f65FQq",
+      "parent_id": "1z878kUFmHQmiXBVYFnX0_TIiE740W6gW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 521,
+      "modified": "2026-08-16T04:09:30.000Z",
+      "checksum": "89b2c0b481c9786dc857bc108356e40e",
+      "folder": false
+    },
+    {
+      "id": "1nkjf7YL_MjLVxMpwiEGcFy_PAup4mkfC",
+      "parent_id": "1z878kUFmHQmiXBVYFnX0_TIiE740W6gW",
+      "name": "NHỮNG NGÃ TƯ VÀ NHỮNG CỘT ĐÈN.epub",
+      "mime": "application/epub+zip",
+      "size": 507179,
+      "modified": "2026-08-16T04:09:37.000Z",
+      "checksum": "facb2c16dd1d515976acbfbed35cfc78",
+      "folder": false
+    },
+    {
+      "id": "12NOjRoW63MvceTGuNQBo9ObC5FJm7IJH",
+      "parent_id": "1z878kUFmHQmiXBVYFnX0_TIiE740W6gW",
+      "name": "NHỮNG NGÃ TƯ VÀ NHỮNG CỘT ĐÈN.pdf",
+      "mime": "application/pdf",
+      "size": 1139420,
+      "modified": "2026-08-16T04:09:34.000Z",
+      "checksum": "5b0538e17dd0e0cd19342f17891bab25",
+      "folder": false
+    }
+  ]
+}

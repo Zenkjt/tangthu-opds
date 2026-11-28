@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1otkveDu8AxTNGIiaF0Roud7DZ-qPI80j",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-xyObPwDeSLTURpY4-nDgd3tVwhCS8I2",
+      "parent_id": "1otkveDu8AxTNGIiaF0Roud7DZ-qPI80j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 558,
+      "modified": "2026-08-15T15:36:15.000Z",
+      "checksum": "77334263efb745f496a87b9b4a38c79f",
+      "folder": false
+    },
+    {
+      "id": "1VHpu76DqFkVrkjq1T3G_9FFxwaVqK0N7",
+      "parent_id": "1otkveDu8AxTNGIiaF0Roud7DZ-qPI80j",
+      "name": "THẾ GIỚI NGẦM CỦA RIPLEY.epub",
+      "mime": "application/epub+zip",
+      "size": 523430,
+      "modified": "2026-08-15T15:36:23.000Z",
+      "checksum": "9b4cf5a1a26d0db73736a9cd23872ed1",
+      "folder": false
+    },
+    {
+      "id": "1aEKoCQzPqTbeicO8tKcOmz2WRtvV9m3s",
+      "parent_id": "1otkveDu8AxTNGIiaF0Roud7DZ-qPI80j",
+      "name": "THẾ GIỚI NGẦM CỦA RIPLEY.pdf",
+      "mime": "application/pdf",
+      "size": 1253281,
+      "modified": "2026-08-15T15:36:20.000Z",
+      "checksum": "0d7a2bdf8905004b618a051bff3064c5",
+      "folder": false
+    }
+  ]
+}

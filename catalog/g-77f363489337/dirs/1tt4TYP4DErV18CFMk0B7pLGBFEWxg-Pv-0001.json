@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tt4TYP4DErV18CFMk0B7pLGBFEWxg-Pv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JgIvXNeZSeKPM1r11YtJCLVh97BB7pxv",
+      "parent_id": "1tt4TYP4DErV18CFMk0B7pLGBFEWxg-Pv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 724,
+      "modified": "2026-08-15T13:03:08.000Z",
+      "checksum": "779c1e8179521ce4b867d2ee15634a2f",
+      "folder": false
+    },
+    {
+      "id": "1JfUBKR4KRWcjVkfEr1wWqhFDYXq4nrMp",
+      "parent_id": "1tt4TYP4DErV18CFMk0B7pLGBFEWxg-Pv",
+      "name": "HOA MẬN TRẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 435042,
+      "modified": "2026-08-15T13:03:14.000Z",
+      "checksum": "e54f9a00645c6750af2ec2629534d935",
+      "folder": false
+    },
+    {
+      "id": "1kYvG6ndmsh6Gvz6HRokjqMdhW1kXWFiv",
+      "parent_id": "1tt4TYP4DErV18CFMk0B7pLGBFEWxg-Pv",
+      "name": "HOA MẬN TRẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 387919,
+      "modified": "2026-08-15T13:03:12.000Z",
+      "checksum": "3f74a6f2e14d6ec98d3f4dc76d03287c",
+      "folder": false
+    }
+  ]
+}

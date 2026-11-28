@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1drsA35SdC3NgLzUidy1Bk1yaBlJ-pwnY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1m_ewHRirbIRW3ivAG07O5zkvWa8aZAyq",
+      "parent_id": "1drsA35SdC3NgLzUidy1Bk1yaBlJ-pwnY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 540,
+      "modified": "2026-08-16T04:12:37.000Z",
+      "checksum": "795ba274cf2103cffc0d0904aa158207",
+      "folder": false
+    },
+    {
+      "id": "1MV96LTG_2g29ud5x7iVNDB8efuFS3rRt",
+      "parent_id": "1drsA35SdC3NgLzUidy1Bk1yaBlJ-pwnY",
+      "name": "NHA TRANG DẤU CHÂN KỶ NIỆM.epub",
+      "mime": "application/epub+zip",
+      "size": 339879,
+      "modified": "2026-08-16T04:12:43.000Z",
+      "checksum": "83816d8cc88d8ca8bfa36bd867585939",
+      "folder": false
+    },
+    {
+      "id": "13yQUOeCSOwJ_H-zRC0IBkDTaSZb9Y9kM",
+      "parent_id": "1drsA35SdC3NgLzUidy1Bk1yaBlJ-pwnY",
+      "name": "NHA TRANG DẤU CHÂN KỶ NIỆM.pdf",
+      "mime": "application/pdf",
+      "size": 564015,
+      "modified": "2026-08-16T04:12:41.000Z",
+      "checksum": "2407d0e7740d1422cc6f4ff3ca1fbfbc",
+      "folder": false
+    }
+  ]
+}

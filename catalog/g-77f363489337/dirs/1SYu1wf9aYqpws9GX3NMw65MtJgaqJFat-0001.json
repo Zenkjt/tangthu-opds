@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SYu1wf9aYqpws9GX3NMw65MtJgaqJFat",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CS25OruaBUjoMwCF0rmN36s0-uJQRR5D",
+      "parent_id": "1SYu1wf9aYqpws9GX3NMw65MtJgaqJFat",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 750,
+      "modified": "2026-08-15T12:55:21.000Z",
+      "checksum": "9f6736454d6ea48e9d3a671046baa4ff",
+      "folder": false
+    },
+    {
+      "id": "1BcX39KZDrwCRdgCxatqDfLW5msXvoM35",
+      "parent_id": "1SYu1wf9aYqpws9GX3NMw65MtJgaqJFat",
+      "name": "TRƯỜNG AN CỔ Ý TẬP 1.epub",
+      "mime": "application/epub+zip",
+      "size": 412189,
+      "modified": "2026-08-15T12:56:07.000Z",
+      "checksum": "d3dbe114715586a0c67f958556792b41",
+      "folder": false
+    },
+    {
+      "id": "18-PereBDB0BFoXnQeYKqQnC0-QL08lCe",
+      "parent_id": "1SYu1wf9aYqpws9GX3NMw65MtJgaqJFat",
+      "name": "TRƯỜNG AN CỔ Ý TẬP 1.pdf",
+      "mime": "application/pdf",
+      "size": 492948,
+      "modified": "2026-08-15T12:55:43.000Z",
+      "checksum": "c49ac7a2f821a7c0176a7475f785920a",
+      "folder": false
+    }
+  ]
+}

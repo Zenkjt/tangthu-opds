@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mQ1skx7ZABC70peIguRfs_M9qEP9BmHT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XcuECU5TC-ts5DIRT7_o7vpM2TUeFn0M",
+      "parent_id": "1mQ1skx7ZABC70peIguRfs_M9qEP9BmHT",
+      "name": "CHIÊU DIÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 729109,
+      "modified": "2026-08-15T08:03:36.000Z",
+      "checksum": "205e3ab9cafbe226b2fb908344602df7",
+      "folder": false
+    },
+    {
+      "id": "1QDsY_5CuhFOulGEH64SLCmldNey4YsWf",
+      "parent_id": "1mQ1skx7ZABC70peIguRfs_M9qEP9BmHT",
+      "name": "CHIÊU DIÊU.pdf",
+      "mime": "application/pdf",
+      "size": 2285182,
+      "modified": "2026-08-15T08:03:33.000Z",
+      "checksum": "bacb5d97edfb4f0f220e6b91f42c7386",
+      "folder": false
+    },
+    {
+      "id": "12NQsJR59w75tK9u48x-bor5oOJd2uFGc",
+      "parent_id": "1mQ1skx7ZABC70peIguRfs_M9qEP9BmHT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3284,
+      "modified": "2026-08-15T08:03:28.000Z",
+      "checksum": "3ae7e05fd9554afcd2a42cd8b37b9271",
+      "folder": false
+    }
+  ]
+}

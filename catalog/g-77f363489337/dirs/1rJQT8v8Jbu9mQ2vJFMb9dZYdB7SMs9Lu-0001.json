@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rJQT8v8Jbu9mQ2vJFMb9dZYdB7SMs9Lu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bNDaT44aEGvcArCb0WkS5W6zY9Yr1Uwi",
+      "parent_id": "1rJQT8v8Jbu9mQ2vJFMb9dZYdB7SMs9Lu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7780,
+      "modified": "2026-08-16T03:07:22.000Z",
+      "checksum": "77f5b55630cf7105ba028948ae275c76",
+      "folder": false
+    },
+    {
+      "id": "1hTiKddM2aIVyX__2RwNl7KSVCT9C1FsJ",
+      "parent_id": "1rJQT8v8Jbu9mQ2vJFMb9dZYdB7SMs9Lu",
+      "name": "YÊU CHỈ MỘT LẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 946862,
+      "modified": "2026-08-16T03:07:30.000Z",
+      "checksum": "ead166c80632d3b85a6502b376f6509e",
+      "folder": false
+    },
+    {
+      "id": "14IlhHCmJu88b71GhJetaoTiVjRug-WbU",
+      "parent_id": "1rJQT8v8Jbu9mQ2vJFMb9dZYdB7SMs9Lu",
+      "name": "YÊU CHỈ MỘT LẦN.pdf",
+      "mime": "application/pdf",
+      "size": 983346,
+      "modified": "2026-08-16T03:07:27.000Z",
+      "checksum": "848e9783e8def968c15e9b325dc75b5a",
+      "folder": false
+    }
+  ]
+}

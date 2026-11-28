@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gEzFBCyEiBS7lPdtaBLF84oZi4n51Fdm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KSA9ybSmhVxQv53hnXvmXaWmGnEcB5ng",
+      "parent_id": "1gEzFBCyEiBS7lPdtaBLF84oZi4n51Fdm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4190,
+      "modified": "2026-08-15T03:19:50.000Z",
+      "checksum": "3310331de7700988f16a5d1d3c6ad0a8",
+      "folder": false
+    },
+    {
+      "id": "1K3N4S7dnjY-5uOrByH4SFpOM8RLjtyEm",
+      "parent_id": "1gEzFBCyEiBS7lPdtaBLF84oZi4n51Fdm",
+      "name": "TỐC ĐỘ CỦA NIỀM TIN.epub",
+      "mime": "application/epub+zip",
+      "size": 1168769,
+      "modified": "2026-08-15T03:19:59.000Z",
+      "checksum": "f2635840fc75d8aeeca0ea91b1433343",
+      "folder": false
+    },
+    {
+      "id": "1MSz9nSjprQp287E1RDTCXHdDMc_nPeQy",
+      "parent_id": "1gEzFBCyEiBS7lPdtaBLF84oZi4n51Fdm",
+      "name": "TỐC ĐỘ CỦA NIỀM TIN.pdf",
+      "mime": "application/pdf",
+      "size": 2638182,
+      "modified": "2026-08-15T03:19:57.000Z",
+      "checksum": "e374802dfb5212e5cd11b5224b90fc83",
+      "folder": false
+    }
+  ]
+}

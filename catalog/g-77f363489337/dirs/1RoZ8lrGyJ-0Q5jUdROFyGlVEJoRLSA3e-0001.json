@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RoZ8lrGyJ-0Q5jUdROFyGlVEJoRLSA3e",
+  "page": 1,
+  "items": [
+    {
+      "id": "19WUhBZtGWAff0EMsOrUvauP9HZOYwv64",
+      "parent_id": "1RoZ8lrGyJ-0Q5jUdROFyGlVEJoRLSA3e",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3342,
+      "modified": "2026-08-16T03:30:26.000Z",
+      "checksum": "3b9300e5c4cf58b93b0b7ce67bff6a9f",
+      "folder": false
+    },
+    {
+      "id": "1pjTc2wlVBDgMlNbo5NuSBCy0r8VTnEIL",
+      "parent_id": "1RoZ8lrGyJ-0Q5jUdROFyGlVEJoRLSA3e",
+      "name": "NỢ NẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 369212,
+      "modified": "2026-08-16T03:30:31.000Z",
+      "checksum": "6d2695a1a9c0ab95dc8d00bdcccee13d",
+      "folder": false
+    },
+    {
+      "id": "1poM9IqscEaipze61hSGg-KjvjTEK5I8W",
+      "parent_id": "1RoZ8lrGyJ-0Q5jUdROFyGlVEJoRLSA3e",
+      "name": "NỢ NẦN.pdf",
+      "mime": "application/pdf",
+      "size": 378533,
+      "modified": "2026-08-16T03:30:29.000Z",
+      "checksum": "767e0d3a666ecf056ed810ae16adaaaf",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1b7EEX-aU73AN1QcI16BkWchIyaXQrRE7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1s9-aokc9LJMXmbkMtda4vMIhMfrqDe0F",
+      "parent_id": "1b7EEX-aU73AN1QcI16BkWchIyaXQrRE7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3033,
+      "modified": "2026-08-15T10:16:24.000Z",
+      "checksum": "96a958f8594d64be52332372c948b530",
+      "folder": false
+    },
+    {
+      "id": "1-HX-OiRISDAKtXBrYD40s3J8ZtbbMqsD",
+      "parent_id": "1b7EEX-aU73AN1QcI16BkWchIyaXQrRE7",
+      "name": "THÁNH VIỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 916135,
+      "modified": "2026-08-15T10:16:34.000Z",
+      "checksum": "edcee9a4cd6b1a8b6a647b2bde72a2a8",
+      "folder": false
+    },
+    {
+      "id": "15BI_s67W_aImI2wpSRMaiLH3qE9H-YLm",
+      "parent_id": "1b7EEX-aU73AN1QcI16BkWchIyaXQrRE7",
+      "name": "THÁNH VIỆN.pdf",
+      "mime": "application/pdf",
+      "size": 2151871,
+      "modified": "2026-08-15T10:16:30.000Z",
+      "checksum": "bb2f9d82d3091d7dd7f04783aa118e89",
+      "folder": false
+    }
+  ]
+}

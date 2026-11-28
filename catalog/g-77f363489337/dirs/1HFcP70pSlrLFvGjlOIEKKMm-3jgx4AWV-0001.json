@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HFcP70pSlrLFvGjlOIEKKMm-3jgx4AWV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TiorxanusSal7OVZZ0g8GObBJjVS4Vof",
+      "parent_id": "1HFcP70pSlrLFvGjlOIEKKMm-3jgx4AWV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1232,
+      "modified": "2026-08-15T07:36:51.000Z",
+      "checksum": "428db43a4101fdb00f0b972d60379985",
+      "folder": false
+    },
+    {
+      "id": "1V7KnAEQKxOFZC2XoG3v9tIRbWW2vXHoO",
+      "parent_id": "1HFcP70pSlrLFvGjlOIEKKMm-3jgx4AWV",
+      "name": "THÔN QUÊ LIỆT TRUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 603382,
+      "modified": "2026-08-15T07:36:58.000Z",
+      "checksum": "00c0ceb56851a2215187daaf08384f9d",
+      "folder": false
+    },
+    {
+      "id": "1St5ZAw94RQ0nePl4hoaMtcJ5RrP3R-Od",
+      "parent_id": "1HFcP70pSlrLFvGjlOIEKKMm-3jgx4AWV",
+      "name": "THÔN QUÊ LIỆT TRUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 1060505,
+      "modified": "2026-08-15T07:36:55.000Z",
+      "checksum": "69150d6edb063df5c2f77fe6f20b1734",
+      "folder": false
+    }
+  ]
+}

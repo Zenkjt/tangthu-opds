@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SOoah-2eZ5eTVHFpPNthCZWRFEuj0arO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vU7SMaJ3Z4dGaTxixh4gZrjYCjXIuunm",
+      "parent_id": "1SOoah-2eZ5eTVHFpPNthCZWRFEuj0arO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1536,
+      "modified": "2026-08-15T13:11:55.000Z",
+      "checksum": "a9c3ad799045e4c31968ea0ea10fc5ad",
+      "folder": false
+    },
+    {
+      "id": "1aVO28GXUfUSp83eQuxm9vRV2DfT8hPBd",
+      "parent_id": "1SOoah-2eZ5eTVHFpPNthCZWRFEuj0arO",
+      "name": "PHONG THỦY THỰC DỤNG.epub",
+      "mime": "application/epub+zip",
+      "size": 943616,
+      "modified": "2026-08-15T13:12:02.000Z",
+      "checksum": "51e7e943bfacdfedb9c7aeb957237acd",
+      "folder": false
+    },
+    {
+      "id": "1IDh_S6B8C874iATaPi3dCCXDOHv8hmF3",
+      "parent_id": "1SOoah-2eZ5eTVHFpPNthCZWRFEuj0arO",
+      "name": "PHONG THỦY THỰC DỤNG.pdf",
+      "mime": "application/pdf",
+      "size": 1269597,
+      "modified": "2026-08-15T13:12:00.000Z",
+      "checksum": "36b69024ec47a62fdb1c0a6405c1afb8",
+      "folder": false
+    }
+  ]
+}

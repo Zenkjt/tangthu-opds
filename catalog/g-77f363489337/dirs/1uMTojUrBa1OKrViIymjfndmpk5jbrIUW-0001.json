@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uMTojUrBa1OKrViIymjfndmpk5jbrIUW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hQDsYcDWPYqBSH4WBAz2l-3ZgPp-a0xh",
+      "parent_id": "1uMTojUrBa1OKrViIymjfndmpk5jbrIUW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 13525,
+      "modified": "2026-08-16T03:01:36.000Z",
+      "checksum": "0e8ea6a1b602bb79fdf7aef7c3b6a521",
+      "folder": false
+    },
+    {
+      "id": "16dSuPIReeekypZG7cY2bx1yhDGkA6Mo-",
+      "parent_id": "1uMTojUrBa1OKrViIymjfndmpk5jbrIUW",
+      "name": "MỘT NỬA ĐÀN ÔNG LÀ ĐÀN BÀ.epub",
+      "mime": "application/epub+zip",
+      "size": 502978,
+      "modified": "2026-08-16T03:01:43.000Z",
+      "checksum": "deb8ee17a2b2ff540a0210d91423fa35",
+      "folder": false
+    },
+    {
+      "id": "1s3GWc_clvJ0KEEDEY-Wt_CBdimT_Ue3S",
+      "parent_id": "1uMTojUrBa1OKrViIymjfndmpk5jbrIUW",
+      "name": "MỘT NỬA ĐÀN ÔNG LÀ ĐÀN BÀ.pdf",
+      "mime": "application/pdf",
+      "size": 1098292,
+      "modified": "2026-08-16T03:01:40.000Z",
+      "checksum": "3fc230b2c5ae97665c6d12fbf1107b13",
+      "folder": false
+    }
+  ]
+}

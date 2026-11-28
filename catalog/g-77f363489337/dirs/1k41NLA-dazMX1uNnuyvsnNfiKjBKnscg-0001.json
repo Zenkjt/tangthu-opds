@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1k41NLA-dazMX1uNnuyvsnNfiKjBKnscg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1paFRDFyx5YlV6PcF4b9khiBS7nOOk_kk",
+      "parent_id": "1k41NLA-dazMX1uNnuyvsnNfiKjBKnscg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2963,
+      "modified": "2026-08-16T04:00:15.000Z",
+      "checksum": "9ccef7038fde1c7feedceb41e17857aa",
+      "folder": false
+    },
+    {
+      "id": "17IEzZKeUg0uqYFbbBcZXAe6T3YUAsNbp",
+      "parent_id": "1k41NLA-dazMX1uNnuyvsnNfiKjBKnscg",
+      "name": "THAM THIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 705301,
+      "modified": "2026-08-16T04:00:21.000Z",
+      "checksum": "7ff2bca45d4a140c22c4c8e8545eabd6",
+      "folder": false
+    },
+    {
+      "id": "1th0JODHvnd22I2vtyluCjry4I6G4fy1x",
+      "parent_id": "1k41NLA-dazMX1uNnuyvsnNfiKjBKnscg",
+      "name": "THAM THIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 592776,
+      "modified": "2026-08-16T04:00:18.000Z",
+      "checksum": "f7e93b20783eb1402f51116b7f1b1c46",
+      "folder": false
+    }
+  ]
+}

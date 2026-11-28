@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "152dRsYDPgpmbyen_VOf-6JQQIiTIUNR7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QaCr2PrYZHvvwnEv_doo5i9DM3ldzUxV",
+      "parent_id": "152dRsYDPgpmbyen_VOf-6JQQIiTIUNR7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1792,
+      "modified": "2026-08-15T06:49:44.000Z",
+      "checksum": "eaa0453b52d2273084e9a3b6d72ecc4a",
+      "folder": false
+    },
+    {
+      "id": "1KA3OlIW4_8i43_nRhoojHKcfBK0pmQ4L",
+      "parent_id": "152dRsYDPgpmbyen_VOf-6JQQIiTIUNR7",
+      "name": "KHU RỪNG KỲ DIỆU.epub",
+      "mime": "application/epub+zip",
+      "size": 1266672,
+      "modified": "2026-08-15T06:49:51.000Z",
+      "checksum": "542c3e81401fcc7fd331c6ebdcb8cf69",
+      "folder": false
+    },
+    {
+      "id": "1DOYjZRRo2T8bXQIvT_23aoNlwyIwOWRK",
+      "parent_id": "152dRsYDPgpmbyen_VOf-6JQQIiTIUNR7",
+      "name": "KHU RỪNG KỲ DIỆU.pdf",
+      "mime": "application/pdf",
+      "size": 1159914,
+      "modified": "2026-08-15T06:49:48.000Z",
+      "checksum": "bf1ebb8e16be9351a89af58a10122a29",
+      "folder": false
+    }
+  ]
+}

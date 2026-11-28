@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tvPs-se023xn0DCSEiRvpKj7pXF24tle",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oWC4bLIAIW9zoGiJoruJo2dOMxFV11yH",
+      "parent_id": "1tvPs-se023xn0DCSEiRvpKj7pXF24tle",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3266,
+      "modified": "2026-08-16T03:54:16.000Z",
+      "checksum": "71532d5e108a7bd7ed11eaa18682836d",
+      "folder": false
+    },
+    {
+      "id": "1PJTEe-D8wUtrI5zJhjXhqmD06ag94ap9",
+      "parent_id": "1tvPs-se023xn0DCSEiRvpKj7pXF24tle",
+      "name": "TÌNH MỚI LÀ SẾP TỔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 455766,
+      "modified": "2026-08-16T03:54:23.000Z",
+      "checksum": "8f931da76a4b722661fbeafab0d4ab67",
+      "folder": false
+    },
+    {
+      "id": "1sALgdBXPKMOYQUB2GHbjnozquFHKwbOt",
+      "parent_id": "1tvPs-se023xn0DCSEiRvpKj7pXF24tle",
+      "name": "TÌNH MỚI LÀ SẾP TỔNG.pdf",
+      "mime": "application/pdf",
+      "size": 1201804,
+      "modified": "2026-08-16T03:54:20.000Z",
+      "checksum": "5170c0ec56a16799c3a7d48e14ff7a11",
+      "folder": false
+    }
+  ]
+}

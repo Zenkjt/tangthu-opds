@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10slHVt2CtaD4QXjM22u9o6EFCAlwIUil",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CgXkuuqAarJrRx-ibVySUMVsZ8x7K6TR",
+      "parent_id": "10slHVt2CtaD4QXjM22u9o6EFCAlwIUil",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5815,
+      "modified": "2026-08-15T06:41:16.000Z",
+      "checksum": "390f3543eb76dd90810557f6176c3f75",
+      "folder": false
+    },
+    {
+      "id": "1ykkUK9TLWH-mMJZnP_ofNUuZCIQEIvsZ",
+      "parent_id": "10slHVt2CtaD4QXjM22u9o6EFCAlwIUil",
+      "name": "HARRY POTTER VÀ HỘI PHƯỢNG HOÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 954826,
+      "modified": "2026-08-15T06:41:28.000Z",
+      "checksum": "c4af0e1a2cd228f2e9ffb120b8ef2f4b",
+      "folder": false
+    },
+    {
+      "id": "1DtK-SAA3bhhFluLJQ7genGKoETMsxbm_",
+      "parent_id": "10slHVt2CtaD4QXjM22u9o6EFCAlwIUil",
+      "name": "HARRY POTTER VÀ HỘI PHƯỢNG HOÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 5084717,
+      "modified": "2026-08-15T06:41:25.000Z",
+      "checksum": "497e9399451e01b34029af02ebab4484",
+      "folder": false
+    }
+  ]
+}

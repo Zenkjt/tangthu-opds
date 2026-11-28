@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YVFuEI2kCvvV6QtsOMobiv0G-ugbRNHG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_yQUvu7vbBOsyEKlELPcREzDfpNbOs91",
+      "parent_id": "1YVFuEI2kCvvV6QtsOMobiv0G-ugbRNHG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 792,
+      "modified": "2026-08-15T10:55:46.000Z",
+      "checksum": "b227b1ce2abcaa94f2495727355e7d82",
+      "folder": false
+    },
+    {
+      "id": "1gYR2Y_Pf6aylFFtI9wYl-frp3okoOH9u",
+      "parent_id": "1YVFuEI2kCvvV6QtsOMobiv0G-ugbRNHG",
+      "name": "KÉP TƯ BỀN.epub",
+      "mime": "application/epub+zip",
+      "size": 295167,
+      "modified": "2026-08-15T10:55:52.000Z",
+      "checksum": "1b5f7cf3fffef924e1d9d2e0291e0340",
+      "folder": false
+    },
+    {
+      "id": "1cJLD6-scaT5GikxarQ1Xu8PxIE5Q8Xof",
+      "parent_id": "1YVFuEI2kCvvV6QtsOMobiv0G-ugbRNHG",
+      "name": "KÉP TƯ BỀN.pdf",
+      "mime": "application/pdf",
+      "size": 446008,
+      "modified": "2026-08-15T10:55:49.000Z",
+      "checksum": "74250bc5d6f1c022cf3270435abe6bfd",
+      "folder": false
+    }
+  ]
+}

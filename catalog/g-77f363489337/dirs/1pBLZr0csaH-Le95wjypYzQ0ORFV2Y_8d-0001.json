@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pBLZr0csaH-Le95wjypYzQ0ORFV2Y_8d",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fuAh7Sl21Cn9sJd8jj8lo8UHDbBW59ZF",
+      "parent_id": "1pBLZr0csaH-Le95wjypYzQ0ORFV2Y_8d",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3239,
+      "modified": "2026-08-15T03:16:04.000Z",
+      "checksum": "ee08b737ae0db7b331db2275c1f9b31f",
+      "folder": false
+    },
+    {
+      "id": "1HzGMrOyD3ilp42OOUAD__NoVcdkP2o1P",
+      "parent_id": "1pBLZr0csaH-Le95wjypYzQ0ORFV2Y_8d",
+      "name": "HƯỚNG NGHIỆP TRONG THỜI ĐẠI 4.0.epub",
+      "mime": "application/epub+zip",
+      "size": 647648,
+      "modified": "2026-08-15T03:16:11.000Z",
+      "checksum": "09097246492990017352acda9bfbbeaf",
+      "folder": false
+    },
+    {
+      "id": "1mEh-UaC6KgXCJWEJB7rrSQD0HMPV4V0p",
+      "parent_id": "1pBLZr0csaH-Le95wjypYzQ0ORFV2Y_8d",
+      "name": "HƯỚNG NGHIỆP TRONG THỜI ĐẠI 4.0.pdf",
+      "mime": "application/pdf",
+      "size": 977223,
+      "modified": "2026-08-15T03:16:08.000Z",
+      "checksum": "d67d4fdb361c717678d87200730878ca",
+      "folder": false
+    }
+  ]
+}

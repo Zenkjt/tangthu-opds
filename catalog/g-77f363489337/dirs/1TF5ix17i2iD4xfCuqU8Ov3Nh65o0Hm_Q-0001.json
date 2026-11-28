@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TF5ix17i2iD4xfCuqU8Ov3Nh65o0Hm_Q",
+  "page": 1,
+  "items": [
+    {
+      "id": "1k8TuN_a1ZHbyAW7QUAWmJ14USwP5Gkvf",
+      "parent_id": "1TF5ix17i2iD4xfCuqU8Ov3Nh65o0Hm_Q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2826,
+      "modified": "2026-08-15T10:12:59.000Z",
+      "checksum": "4e2e312cc0faeae90a536e3af3acd29a",
+      "folder": false
+    },
+    {
+      "id": "1ZVKS9u1pIfoRCHgaZZkugjZALO3fJw09",
+      "parent_id": "1TF5ix17i2iD4xfCuqU8Ov3Nh65o0Hm_Q",
+      "name": "THỢ SĂN ALPHA.epub",
+      "mime": "application/epub+zip",
+      "size": 594845,
+      "modified": "2026-08-15T10:13:08.000Z",
+      "checksum": "57de00d7e53c385af0c3284320022b6d",
+      "folder": false
+    },
+    {
+      "id": "1Tmz-OS00_fdtSXaJHPgvjUwnKlsSQgn_",
+      "parent_id": "1TF5ix17i2iD4xfCuqU8Ov3Nh65o0Hm_Q",
+      "name": "THỢ SĂN ALPHA.pdf",
+      "mime": "application/pdf",
+      "size": 329608,
+      "modified": "2026-08-15T10:13:05.000Z",
+      "checksum": "6abc7304a18cfcf577c530d2c3043606",
+      "folder": false
+    }
+  ]
+}

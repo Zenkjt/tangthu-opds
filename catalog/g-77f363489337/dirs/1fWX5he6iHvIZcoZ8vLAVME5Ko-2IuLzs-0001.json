@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fWX5he6iHvIZcoZ8vLAVME5Ko-2IuLzs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yVQOWUFYDW7PvwwiFKRwBab-zlGXjM6W",
+      "parent_id": "1fWX5he6iHvIZcoZ8vLAVME5Ko-2IuLzs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9746,
+      "modified": "2026-08-15T00:59:05.000Z",
+      "checksum": "a0c16e44f70c44d1ef0d689cfe43e487",
+      "folder": false
+    },
+    {
+      "id": "1sHCUUw-TEMlvdiKtDqlbTHLw7zRr7bIQ",
+      "parent_id": "1fWX5he6iHvIZcoZ8vLAVME5Ko-2IuLzs",
+      "name": "HIỆU ỨNG TUYẾT LĂN.epub",
+      "mime": "application/epub+zip",
+      "size": 1089738,
+      "modified": "2026-08-15T00:59:13.000Z",
+      "checksum": "824ae3d4b8f2c82bc5a6f6bf15c0724b",
+      "folder": false
+    },
+    {
+      "id": "1796_JveBWUVli0G4pyXc0IIJyqjEIfYi",
+      "parent_id": "1fWX5he6iHvIZcoZ8vLAVME5Ko-2IuLzs",
+      "name": "HIỆU ỨNG TUYẾT LĂN.pdf",
+      "mime": "application/pdf",
+      "size": 1765805,
+      "modified": "2026-08-15T00:59:10.000Z",
+      "checksum": "cb4474d94a181dedf59311fbef3f4cd9",
+      "folder": false
+    }
+  ]
+}

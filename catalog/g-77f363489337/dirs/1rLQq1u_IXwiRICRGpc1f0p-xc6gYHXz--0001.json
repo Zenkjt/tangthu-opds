@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rLQq1u_IXwiRICRGpc1f0p-xc6gYHXz-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LjjRmSgN3EDKCuNQj9q1cVrtPL3961xw",
+      "parent_id": "1rLQq1u_IXwiRICRGpc1f0p-xc6gYHXz-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3176,
+      "modified": "2026-08-15T10:12:04.000Z",
+      "checksum": "be9686952dcba6e4aa86a97262e264a9",
+      "folder": false
+    },
+    {
+      "id": "1oL3YmQ7fHJ3DXBpiNcPwwoD41levCxQQ",
+      "parent_id": "1rLQq1u_IXwiRICRGpc1f0p-xc6gYHXz-",
+      "name": "THỨC NHỮ BẤT THỨC ĐINH.epub",
+      "mime": "application/epub+zip",
+      "size": 3626499,
+      "modified": "2026-08-15T10:12:19.000Z",
+      "checksum": "3069cd6b58ac449019696ddc836bfada",
+      "folder": false
+    },
+    {
+      "id": "1roSIQJbtYElz0noJRy6q3nPwFp6SB138",
+      "parent_id": "1rLQq1u_IXwiRICRGpc1f0p-xc6gYHXz-",
+      "name": "THỨC NHỮ BẤT THỨC ĐINH.pdf",
+      "mime": "application/pdf",
+      "size": 3290666,
+      "modified": "2026-08-15T10:12:12.000Z",
+      "checksum": "7509fa0f341750610598faced13fccbd",
+      "folder": false
+    }
+  ]
+}

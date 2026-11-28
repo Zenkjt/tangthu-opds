@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ExM8W9K-vb0DqnrjcuKIsscVLyUSnm2b",
+  "page": 1,
+  "items": [
+    {
+      "id": "18N3JI6ueJh-uFhZn240q2uZAiMdTo8-U",
+      "parent_id": "1ExM8W9K-vb0DqnrjcuKIsscVLyUSnm2b",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2893,
+      "modified": "2026-08-15T10:48:32.000Z",
+      "checksum": "7851556fcb49351201948969d729947a",
+      "folder": false
+    },
+    {
+      "id": "14uWYIbuKeqWXxhcMmIqefAXeuZUJwpwA",
+      "parent_id": "1ExM8W9K-vb0DqnrjcuKIsscVLyUSnm2b",
+      "name": "NĂM THÁNG RỰC RỠ.epub",
+      "mime": "application/epub+zip",
+      "size": 856424,
+      "modified": "2026-08-15T10:48:42.000Z",
+      "checksum": "c5d6cfc1d5223ad9b44bccf51ef43fd6",
+      "folder": false
+    },
+    {
+      "id": "1GMGJiLP9ZEaot9uweN2YHXMnZwg1UHD6",
+      "parent_id": "1ExM8W9K-vb0DqnrjcuKIsscVLyUSnm2b",
+      "name": "NĂM THÁNG RỰC RỠ.pdf",
+      "mime": "application/pdf",
+      "size": 2994569,
+      "modified": "2026-08-15T10:48:38.000Z",
+      "checksum": "0087133112262d487790e251ba82db8b",
+      "folder": false
+    }
+  ]
+}

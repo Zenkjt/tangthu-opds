@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kUN7YLCtAMAYPx1BLAMXSiUwulb8m4l_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HQb-fLWKMczn5KCNjF3Dyvd2pxWMNC2r",
+      "parent_id": "1kUN7YLCtAMAYPx1BLAMXSiUwulb8m4l_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1198,
+      "modified": "2026-08-15T12:42:13.000Z",
+      "checksum": "e3476ada0706646129abeb96ef7ccb62",
+      "folder": false
+    },
+    {
+      "id": "1ymqUSaz48NzmRXmVHqueWR0RugCPmQVv",
+      "parent_id": "1kUN7YLCtAMAYPx1BLAMXSiUwulb8m4l_",
+      "name": "HORRIBLE GEOGRAPHY - BỜ BIỂN BỤI BỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 8362711,
+      "modified": "2026-08-15T12:42:24.000Z",
+      "checksum": "20b63a93d853060e82ca83709839e74b",
+      "folder": false
+    },
+    {
+      "id": "189pN8B_5XIm59hIifY_bfSf4uoYEpO1F",
+      "parent_id": "1kUN7YLCtAMAYPx1BLAMXSiUwulb8m4l_",
+      "name": "HORRIBLE GEOGRAPHY - BỜ BIỂN BỤI BỜ.pdf",
+      "mime": "application/pdf",
+      "size": 7527354,
+      "modified": "2026-08-15T12:42:19.000Z",
+      "checksum": "c2d3e957cd414ee42602691e99f7cf49",
+      "folder": false
+    }
+  ]
+}

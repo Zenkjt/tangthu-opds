@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WXI7u-0j9rKvp_A5HDN-vmrzoCxkJo--",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iMc_ZjO2Zg6FP1HrVWopnQ6oCfQnej6S",
+      "parent_id": "1WXI7u-0j9rKvp_A5HDN-vmrzoCxkJo--",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3277,
+      "modified": "2026-08-15T16:00:23.000Z",
+      "checksum": "fb7e445403e15a89264ad56fcc75fdad",
+      "folder": false
+    },
+    {
+      "id": "1XGpYbyP7YAMR9U7-cwjobtJJLfvkS6cD",
+      "parent_id": "1WXI7u-0j9rKvp_A5HDN-vmrzoCxkJo--",
+      "name": "NGƯƠI LÀ CÁI TAY NẢI.epub",
+      "mime": "application/epub+zip",
+      "size": 661977,
+      "modified": "2026-08-15T16:00:32.000Z",
+      "checksum": "7f5bb464e27c9c00aa7fb8623976fd3d",
+      "folder": false
+    },
+    {
+      "id": "17NNVMqJzXyZAWdDSe0R4Hww8uDq1xiC9",
+      "parent_id": "1WXI7u-0j9rKvp_A5HDN-vmrzoCxkJo--",
+      "name": "NGƯƠI LÀ CÁI TAY NẢI.pdf",
+      "mime": "application/pdf",
+      "size": 2069449,
+      "modified": "2026-08-15T16:00:29.000Z",
+      "checksum": "65eeaa967816e6e6fca1c8cdd08f19d2",
+      "folder": false
+    }
+  ]
+}

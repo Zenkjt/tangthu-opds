@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MIoJY1HjBL_unT8WjLNTqLE3LlaW0WWk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Q8CH_6ykIWbGV5rwfvIj5MRFFMinUKGc",
+      "parent_id": "1MIoJY1HjBL_unT8WjLNTqLE3LlaW0WWk",
+      "name": "CHUNG VÔ DIỆM.epub",
+      "mime": "application/epub+zip",
+      "size": 1190774,
+      "modified": "2026-08-15T07:00:27.000Z",
+      "checksum": "bb12977445fb438d1c325e03c8792f04",
+      "folder": false
+    },
+    {
+      "id": "1lySh3ogwA2_UmTqbg8bikRJKzWwOAXMe",
+      "parent_id": "1MIoJY1HjBL_unT8WjLNTqLE3LlaW0WWk",
+      "name": "CHUNG VÔ DIỆM.pdf",
+      "mime": "application/pdf",
+      "size": 2712294,
+      "modified": "2026-08-15T07:00:14.000Z",
+      "checksum": "793b6eb7b968bf9e28d65512e64ba595",
+      "folder": false
+    },
+    {
+      "id": "1ARN9j8yd7VoWgOCn3_1P76ti129gwBh8",
+      "parent_id": "1MIoJY1HjBL_unT8WjLNTqLE3LlaW0WWk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5184,
+      "modified": "2026-08-15T07:00:02.000Z",
+      "checksum": "17b1acc93d3f1eb1bded4fe32eb0bf6d",
+      "folder": false
+    }
+  ]
+}

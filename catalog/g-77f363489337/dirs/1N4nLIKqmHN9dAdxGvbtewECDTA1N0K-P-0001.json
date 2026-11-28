@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1N4nLIKqmHN9dAdxGvbtewECDTA1N0K-P",
+  "page": 1,
+  "items": [
+    {
+      "id": "1I2rMPvaNpT89nzvgmEl5srLn05QsvqVi",
+      "parent_id": "1N4nLIKqmHN9dAdxGvbtewECDTA1N0K-P",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1508,
+      "modified": "2026-08-15T07:33:31.000Z",
+      "checksum": "bb54777f0fbcf20e8757ce8ee6cba611",
+      "folder": false
+    },
+    {
+      "id": "17dAAWUL4pCEP2hR9UZJOTHca5q0WW3HL",
+      "parent_id": "1N4nLIKqmHN9dAdxGvbtewECDTA1N0K-P",
+      "name": "GIỮ TRỌN LỜI THỀ.epub",
+      "mime": "application/epub+zip",
+      "size": 1059130,
+      "modified": "2026-08-15T07:33:38.000Z",
+      "checksum": "2acdefa78e15761955a5290b3dcbbd99",
+      "folder": false
+    },
+    {
+      "id": "1qaR9kGUv1W72ANzFuZsRd1sV7YlqFS_B",
+      "parent_id": "1N4nLIKqmHN9dAdxGvbtewECDTA1N0K-P",
+      "name": "GIỮ TRỌN LỜI THỀ.pdf",
+      "mime": "application/pdf",
+      "size": 1235670,
+      "modified": "2026-08-15T07:33:35.000Z",
+      "checksum": "f041adf405cac3663e33627fd40c79fa",
+      "folder": false
+    }
+  ]
+}

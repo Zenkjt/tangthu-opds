@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fYJroWLaA4O2dYPamu3mXDe2PsDQeh-L",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fbvfDP2Vm7N4wR8s07zsCrb6jqyiDAgv",
+      "parent_id": "1fYJroWLaA4O2dYPamu3mXDe2PsDQeh-L",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2275,
+      "modified": "2026-08-15T15:32:50.000Z",
+      "checksum": "312fe50d065e2a2a095ce015020c3c01",
+      "folder": false
+    },
+    {
+      "id": "19IDFVW9KbGF68Q6WKFv79XSLJZhO8_TK",
+      "parent_id": "1fYJroWLaA4O2dYPamu3mXDe2PsDQeh-L",
+      "name": "TỘI PHẠM MA TÚY Ở AMSTERDAM.epub",
+      "mime": "application/epub+zip",
+      "size": 647947,
+      "modified": "2026-08-15T15:32:57.000Z",
+      "checksum": "b74da29675986c839af3fc200b88f22c",
+      "folder": false
+    },
+    {
+      "id": "1d-I69VzK1Gw8CaPmucr88TLDcFAC4P5U",
+      "parent_id": "1fYJroWLaA4O2dYPamu3mXDe2PsDQeh-L",
+      "name": "TỘI PHẠM MA TÚY Ở AMSTERDAM.pdf",
+      "mime": "application/pdf",
+      "size": 1164363,
+      "modified": "2026-08-15T15:32:54.000Z",
+      "checksum": "90a137605c04a14cb7cbd7de1dea17c6",
+      "folder": false
+    }
+  ]
+}

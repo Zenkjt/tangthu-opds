@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Vvc_6HldiCLcwVK2ypGz2hQ6IUXXwTux",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QISkUDu_Dgj0ZsI82dpLhIvsUvOpeCOZ",
+      "parent_id": "1Vvc_6HldiCLcwVK2ypGz2hQ6IUXXwTux",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3326,
+      "modified": "2026-08-16T03:06:37.000Z",
+      "checksum": "916b21abe21f92688e2dfc01aec04d51",
+      "folder": false
+    },
+    {
+      "id": "1I53U5s8UAWBrFfWEbSv9tEmIl7YDKBmb",
+      "parent_id": "1Vvc_6HldiCLcwVK2ypGz2hQ6IUXXwTux",
+      "name": "VÙNG BIỂN MẤT TÍCH.epub",
+      "mime": "application/epub+zip",
+      "size": 354748,
+      "modified": "2026-08-16T03:06:44.000Z",
+      "checksum": "447c5954874f9d461b20d0158bb2aee7",
+      "folder": false
+    },
+    {
+      "id": "1AZTBgYI6n_6d6YSTxXm9bFR56DyxZ_mV",
+      "parent_id": "1Vvc_6HldiCLcwVK2ypGz2hQ6IUXXwTux",
+      "name": "VÙNG BIỂN MẤT TÍCH.pdf",
+      "mime": "application/pdf",
+      "size": 333524,
+      "modified": "2026-08-16T03:06:42.000Z",
+      "checksum": "6c4c3efefee164792136bae7b019aaec",
+      "folder": false
+    }
+  ]
+}

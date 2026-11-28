@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "163PmEYjJld4H9GMsmxkl7OxUbYRlwQj-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1g5WQ7iRyScoMkjI35OYMTMlX1dEgEG30",
+      "parent_id": "163PmEYjJld4H9GMsmxkl7OxUbYRlwQj-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1524,
+      "modified": "2026-08-15T07:29:16.000Z",
+      "checksum": "a4733e619a930cf015572f70c1c2ede5",
+      "folder": false
+    },
+    {
+      "id": "1jpU0r0srkTHzAukYdVvS0jnsu3PW0abR",
+      "parent_id": "163PmEYjJld4H9GMsmxkl7OxUbYRlwQj-",
+      "name": "VONG TÍCH.epub",
+      "mime": "application/epub+zip",
+      "size": 837620,
+      "modified": "2026-08-15T07:29:25.000Z",
+      "checksum": "7fdf33e45c85e46ee690cd785d73f65a",
+      "folder": false
+    },
+    {
+      "id": "14lG1AQNPYIcZzGdcM74VqvzlAYsT4ufU",
+      "parent_id": "163PmEYjJld4H9GMsmxkl7OxUbYRlwQj-",
+      "name": "VONG TÍCH.pdf",
+      "mime": "application/pdf",
+      "size": 2588373,
+      "modified": "2026-08-15T07:29:22.000Z",
+      "checksum": "ec95e96cf0a769cd4397c13b76460627",
+      "folder": false
+    }
+  ]
+}

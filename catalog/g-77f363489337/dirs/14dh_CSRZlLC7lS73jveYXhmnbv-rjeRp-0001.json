@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14dh_CSRZlLC7lS73jveYXhmnbv-rjeRp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sPWf-WHDCyHSKpMvSycrPMKGyhzvPvdy",
+      "parent_id": "14dh_CSRZlLC7lS73jveYXhmnbv-rjeRp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3577,
+      "modified": "2026-08-16T04:14:51.000Z",
+      "checksum": "f5eff27d1586c423f797feb1da705334",
+      "folder": false
+    },
+    {
+      "id": "1oB1Twq8I4ejZRZwJmoRR35ZbT2tEk8Mo",
+      "parent_id": "14dh_CSRZlLC7lS73jveYXhmnbv-rjeRp",
+      "name": "NGÔI NHÀ CÓ MA.epub",
+      "mime": "application/epub+zip",
+      "size": 530251,
+      "modified": "2026-08-16T04:14:56.000Z",
+      "checksum": "fc943cf27677fafe7a371e2591cc6454",
+      "folder": false
+    },
+    {
+      "id": "1WZQSvsbcdamCVbRKnxLv5GyAFtuJTEfz",
+      "parent_id": "14dh_CSRZlLC7lS73jveYXhmnbv-rjeRp",
+      "name": "NGÔI NHÀ CÓ MA.pdf",
+      "mime": "application/pdf",
+      "size": 347114,
+      "modified": "2026-08-16T04:14:54.000Z",
+      "checksum": "20f1f2118d1af13cdf7df2d5326d7436",
+      "folder": false
+    }
+  ]
+}

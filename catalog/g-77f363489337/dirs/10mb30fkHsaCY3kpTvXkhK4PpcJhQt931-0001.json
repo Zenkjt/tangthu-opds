@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10mb30fkHsaCY3kpTvXkhK4PpcJhQt931",
+  "page": 1,
+  "items": [
+    {
+      "id": "1780s3jGkqecpY7YBCIeTn65JxEJHfFvn",
+      "parent_id": "10mb30fkHsaCY3kpTvXkhK4PpcJhQt931",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4038,
+      "modified": "2026-08-16T03:18:30.000Z",
+      "checksum": "58e331809199563ff34cdf314ee84e6b",
+      "folder": false
+    },
+    {
+      "id": "17SAksyAkrGlP6RDW7c9sZmPWMucBntSl",
+      "parent_id": "10mb30fkHsaCY3kpTvXkhK4PpcJhQt931",
+      "name": "ĐÀN ÔNG + ĐÀN BÀ = CUỘC SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 714610,
+      "modified": "2026-08-16T03:18:37.000Z",
+      "checksum": "9bfc889c581356b3a35643b902c1cdb0",
+      "folder": false
+    },
+    {
+      "id": "1Pc9FLDH0E-zH9VrREX-4QctoDCYgBrWu",
+      "parent_id": "10mb30fkHsaCY3kpTvXkhK4PpcJhQt931",
+      "name": "ĐÀN ÔNG + ĐÀN BÀ = CUỘC SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 1106442,
+      "modified": "2026-08-16T03:18:34.000Z",
+      "checksum": "1e5c37a1e3f4111f164ef7c8b45591ab",
+      "folder": false
+    }
+  ]
+}

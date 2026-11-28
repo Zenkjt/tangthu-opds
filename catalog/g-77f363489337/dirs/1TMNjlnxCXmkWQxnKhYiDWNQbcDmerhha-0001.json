@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TMNjlnxCXmkWQxnKhYiDWNQbcDmerhha",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-3THCOKwInKsMoyLK0N8xlJ_4qL8DtbX",
+      "parent_id": "1TMNjlnxCXmkWQxnKhYiDWNQbcDmerhha",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3355,
+      "modified": "2026-08-16T04:17:33.000Z",
+      "checksum": "306a78ee2d03a107cb6b3c291a2bfc10",
+      "folder": false
+    },
+    {
+      "id": "1FZLwu92KWQZTcmIZyuHfvva6teMqaV38",
+      "parent_id": "1TMNjlnxCXmkWQxnKhYiDWNQbcDmerhha",
+      "name": "MR. ĐÀ ĐIỂU CỦA TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 1121125,
+      "modified": "2026-08-16T04:17:43.000Z",
+      "checksum": "ad03cad7fb824266e2dd7a2c4c758c31",
+      "folder": false
+    },
+    {
+      "id": "1Q4UQQro6eYbibjOZ5rADZ9WdNAuZ6ZAp",
+      "parent_id": "1TMNjlnxCXmkWQxnKhYiDWNQbcDmerhha",
+      "name": "MR. ĐÀ ĐIỂU CỦA TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 3796756,
+      "modified": "2026-08-16T04:17:40.000Z",
+      "checksum": "dd77c808a3e9876946deee5fbef58717",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lW0uxKvW830XiMyacWuq-UtcVMr1MLE4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DnrozvphJmVNXx719fMTCzeUdal1S9Hr",
+      "parent_id": "1lW0uxKvW830XiMyacWuq-UtcVMr1MLE4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8469,
+      "modified": "2026-08-15T15:44:55.000Z",
+      "checksum": "d12dcab8268817a74fcf30200efc470f",
+      "folder": false
+    },
+    {
+      "id": "1akgde03Lq_0zB0GRDt02QUGPYlaS5Czr",
+      "parent_id": "1lW0uxKvW830XiMyacWuq-UtcVMr1MLE4",
+      "name": "VÔ ĐỊCH SƯ THÚC TỔ.epub",
+      "mime": "application/epub+zip",
+      "size": 1415419,
+      "modified": "2026-08-15T15:45:07.000Z",
+      "checksum": "d5116dde459e99399256f68dc3601f32",
+      "folder": false
+    },
+    {
+      "id": "1CHzYhOV22C0ht0mox96ghszJKO8KqQgf",
+      "parent_id": "1lW0uxKvW830XiMyacWuq-UtcVMr1MLE4",
+      "name": "VÔ ĐỊCH SƯ THÚC TỔ.pdf",
+      "mime": "application/pdf",
+      "size": 4917135,
+      "modified": "2026-08-15T15:45:04.000Z",
+      "checksum": "c64ce3d07f38e99008a5543917e5545f",
+      "folder": false
+    }
+  ]
+}

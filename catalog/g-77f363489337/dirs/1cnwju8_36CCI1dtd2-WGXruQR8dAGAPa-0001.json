@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cnwju8_36CCI1dtd2-WGXruQR8dAGAPa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VnKWeF-ME3mhp5jdidBPE_qA_0j3YOXd",
+      "parent_id": "1cnwju8_36CCI1dtd2-WGXruQR8dAGAPa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3843,
+      "modified": "2026-08-15T12:30:13.000Z",
+      "checksum": "028e6d50d185ff8f334cf5b54ab75fab",
+      "folder": false
+    },
+    {
+      "id": "1m7zM4JVC48lZn7lrD3DX9FanXfe3c7wG",
+      "parent_id": "1cnwju8_36CCI1dtd2-WGXruQR8dAGAPa",
+      "name": "TÂM HỒN CAO THƯỢNG.epub",
+      "mime": "application/epub+zip",
+      "size": 2276396,
+      "modified": "2026-08-15T12:30:20.000Z",
+      "checksum": "71ef6fb5747b283a89027f7f44ab12c9",
+      "folder": false
+    },
+    {
+      "id": "1YX2YNoNpg1iqhMKAXS7s83Yn8lksM5fF",
+      "parent_id": "1cnwju8_36CCI1dtd2-WGXruQR8dAGAPa",
+      "name": "TÂM HỒN CAO THƯỢNG.pdf",
+      "mime": "application/pdf",
+      "size": 1344252,
+      "modified": "2026-08-15T12:30:16.000Z",
+      "checksum": "af9caa5ea5d02258c54a87c7e833b982",
+      "folder": false
+    }
+  ]
+}

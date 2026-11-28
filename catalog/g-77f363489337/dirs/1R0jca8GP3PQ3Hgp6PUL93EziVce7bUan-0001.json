@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1R0jca8GP3PQ3Hgp6PUL93EziVce7bUan",
+  "page": 1,
+  "items": [
+    {
+      "id": "16DIae3nhnGr3FAgPeQSPVdGd8BhoMiOV",
+      "parent_id": "1R0jca8GP3PQ3Hgp6PUL93EziVce7bUan",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3982,
+      "modified": "2026-08-15T07:55:39.000Z",
+      "checksum": "420adb99090de6ac40139123eb33d12e",
+      "folder": false
+    },
+    {
+      "id": "1zaWDKUBrDwYxvVqOlQt58jl3dYFs-JIZ",
+      "parent_id": "1R0jca8GP3PQ3Hgp6PUL93EziVce7bUan",
+      "name": "KẺ MÓC TÚI.epub",
+      "mime": "application/epub+zip",
+      "size": 361824,
+      "modified": "2026-08-15T07:55:45.000Z",
+      "checksum": "c99103345393e1327a228c921def63b0",
+      "folder": false
+    },
+    {
+      "id": "1DbV4sktTKDmsl6mKnoiohoyAw5OxaJKj",
+      "parent_id": "1R0jca8GP3PQ3Hgp6PUL93EziVce7bUan",
+      "name": "KẺ MÓC TÚI.pdf",
+      "mime": "application/pdf",
+      "size": 522017,
+      "modified": "2026-08-15T07:55:43.000Z",
+      "checksum": "c22071e82bd59f428702f9c34058eceb",
+      "folder": false
+    }
+  ]
+}

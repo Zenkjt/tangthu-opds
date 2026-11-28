@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RFG09D9SVomnI1flbcMz6cy4Fsnq0o7E",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jtuU2_Lvj17KzPr2GHrgAoPAqW4XCwvq",
+      "parent_id": "1RFG09D9SVomnI1flbcMz6cy4Fsnq0o7E",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3286,
+      "modified": "2026-08-15T10:15:56.000Z",
+      "checksum": "2374cead9bce33b1c1129d4dde706930",
+      "folder": false
+    },
+    {
+      "id": "1_oc4dWwwc8ie6v6ppPmgpAc6op8EkEyr",
+      "parent_id": "1RFG09D9SVomnI1flbcMz6cy4Fsnq0o7E",
+      "name": "THẤT THÂN LÀM THIẾP.epub",
+      "mime": "application/epub+zip",
+      "size": 6398519,
+      "modified": "2026-08-15T10:16:15.000Z",
+      "checksum": "447370d03b7013467c1fbb832fdebefc",
+      "folder": false
+    },
+    {
+      "id": "1fV9pt38bg5Y4764rmJ1HlXkBvH1tpSJI",
+      "parent_id": "1RFG09D9SVomnI1flbcMz6cy4Fsnq0o7E",
+      "name": "THẤT THÂN LÀM THIẾP.pdf",
+      "mime": "application/pdf",
+      "size": 5375791,
+      "modified": "2026-08-15T10:16:09.000Z",
+      "checksum": "2f4552a300d4a3e264f4ba4bdecda4d4",
+      "folder": false
+    }
+  ]
+}

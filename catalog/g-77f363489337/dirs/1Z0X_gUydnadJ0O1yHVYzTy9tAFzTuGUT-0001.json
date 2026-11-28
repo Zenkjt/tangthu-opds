@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Z0X_gUydnadJ0O1yHVYzTy9tAFzTuGUT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DSiyG5GkZP2s3URlO3eGJZtwrBkIbbpc",
+      "parent_id": "1Z0X_gUydnadJ0O1yHVYzTy9tAFzTuGUT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3083,
+      "modified": "2026-08-15T10:30:44.000Z",
+      "checksum": "6139093676a8f809e0f5f45bf278db78",
+      "folder": false
+    },
+    {
+      "id": "1Tnt4-NJ9cJbQpobqgAEf_FVFM-6wSStP",
+      "parent_id": "1Z0X_gUydnadJ0O1yHVYzTy9tAFzTuGUT",
+      "name": "QUỶ BẢO.epub",
+      "mime": "application/epub+zip",
+      "size": 3242655,
+      "modified": "2026-08-15T10:30:57.000Z",
+      "checksum": "6484e71d4e7d4275736026b67127c1aa",
+      "folder": false
+    },
+    {
+      "id": "1KBQn6s_-JLJdbKmCmbOKBhRHKTR2UyA7",
+      "parent_id": "1Z0X_gUydnadJ0O1yHVYzTy9tAFzTuGUT",
+      "name": "QUỶ BẢO.pdf",
+      "mime": "application/pdf",
+      "size": 4493229,
+      "modified": "2026-08-15T10:30:53.000Z",
+      "checksum": "10e41375a1d7909fbf52cf1290b2eb27",
+      "folder": false
+    }
+  ]
+}

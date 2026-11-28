@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MircwrR41VNf6Sn__6yhTyYc9MTLrmfe",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JIplitXdlLvTd5DS5ype_d2zZMhjhmMv",
+      "parent_id": "1MircwrR41VNf6Sn__6yhTyYc9MTLrmfe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 431,
+      "modified": "2026-08-15T10:45:47.000Z",
+      "checksum": "1d1e0d4d3de6a161c92355c0a34d8a6e",
+      "folder": false
+    },
+    {
+      "id": "1de07FMaIhUa0wVBAFmKtEvFhqsyesfeQ",
+      "parent_id": "1MircwrR41VNf6Sn__6yhTyYc9MTLrmfe",
+      "name": "NGÔI NHÀ THẠCH LỰU.epub",
+      "mime": "application/epub+zip",
+      "size": 557382,
+      "modified": "2026-08-15T10:45:53.000Z",
+      "checksum": "d4e87ceb3905084dc57b3817fe205443",
+      "folder": false
+    },
+    {
+      "id": "11u81IwW9JSKQHd_rvDZTZnnTj6ZuCyoe",
+      "parent_id": "1MircwrR41VNf6Sn__6yhTyYc9MTLrmfe",
+      "name": "NGÔI NHÀ THẠCH LỰU.pdf",
+      "mime": "application/pdf",
+      "size": 516300,
+      "modified": "2026-08-15T10:45:51.000Z",
+      "checksum": "bd9e91f6b386539e9d60c1589d24b327",
+      "folder": false
+    }
+  ]
+}

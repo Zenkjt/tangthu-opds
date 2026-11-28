@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_yBQ10pAgWyJjlBFHNd_bD10yboefhUe",
+  "page": 1,
+  "items": [
+    {
+      "id": "1k_nNZFtYFxOwcEkzucxZ1yUkfYf0E07x",
+      "parent_id": "1_yBQ10pAgWyJjlBFHNd_bD10yboefhUe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6458,
+      "modified": "2026-08-16T03:34:44.000Z",
+      "checksum": "cc62aa4b8176e34ea95a0ff6188d79be",
+      "folder": false
+    },
+    {
+      "id": "13X00vWFtKjRPfPy5qUkJxcx3wbaXy-Fn",
+      "parent_id": "1_yBQ10pAgWyJjlBFHNd_bD10yboefhUe",
+      "name": "DẤU CHÂN NGƯỜI LÍNH.epub",
+      "mime": "application/epub+zip",
+      "size": 565113,
+      "modified": "2026-08-16T03:34:52.000Z",
+      "checksum": "9d6cd0411120f485e6d6a43774e5f398",
+      "folder": false
+    },
+    {
+      "id": "1Yhf5Tky_Zum4UgMYjYNCq9viiAhQxLSa",
+      "parent_id": "1_yBQ10pAgWyJjlBFHNd_bD10yboefhUe",
+      "name": "DẤU CHÂN NGƯỜI LÍNH.pdf",
+      "mime": "application/pdf",
+      "size": 1494292,
+      "modified": "2026-08-16T03:34:49.000Z",
+      "checksum": "012f4c320bce234956582b606479a7bb",
+      "folder": false
+    }
+  ]
+}

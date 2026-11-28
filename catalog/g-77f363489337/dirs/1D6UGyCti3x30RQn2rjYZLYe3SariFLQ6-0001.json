@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1D6UGyCti3x30RQn2rjYZLYe3SariFLQ6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gYTt_eCLJWd1gkUiUsr8zTS8uiNS2WWL",
+      "parent_id": "1D6UGyCti3x30RQn2rjYZLYe3SariFLQ6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3310,
+      "modified": "2026-08-16T04:06:52.000Z",
+      "checksum": "b63d9c3ce6ea7045c0fc1b3c37fe8874",
+      "folder": false
+    },
+    {
+      "id": "1lm00pmu_XjgCL9asXrofOSKVc7xC6ega",
+      "parent_id": "1D6UGyCti3x30RQn2rjYZLYe3SariFLQ6",
+      "name": "PHÁP Y PHU NHÂN LẠNH LÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 462596,
+      "modified": "2026-08-16T04:07:01.000Z",
+      "checksum": "8f4b1d8b043ebab5654fdfe87ea111b7",
+      "folder": false
+    },
+    {
+      "id": "1shhxO3dLkZfiDOoYErKRmis6b4wi-1zV",
+      "parent_id": "1D6UGyCti3x30RQn2rjYZLYe3SariFLQ6",
+      "name": "PHÁP Y PHU NHÂN LẠNH LÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 1258782,
+      "modified": "2026-08-16T04:06:58.000Z",
+      "checksum": "ac8609a74d7ca98f6b52833fbc2eb4b4",
+      "folder": false
+    }
+  ]
+}

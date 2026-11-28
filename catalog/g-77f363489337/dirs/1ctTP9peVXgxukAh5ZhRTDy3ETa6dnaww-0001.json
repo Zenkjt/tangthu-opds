@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ctTP9peVXgxukAh5ZhRTDy3ETa6dnaww",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LTJWEO30c89piqAZo3g-NC4z4yljzm5x",
+      "parent_id": "1ctTP9peVXgxukAh5ZhRTDy3ETa6dnaww",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9290,
+      "modified": "2026-08-15T08:14:39.000Z",
+      "checksum": "aa871534970c6e8a6a8be9c08d7012d4",
+      "folder": false
+    },
+    {
+      "id": "1UXG6fBTAORsnVfLympo4Z52_uBMupDXg",
+      "parent_id": "1ctTP9peVXgxukAh5ZhRTDy3ETa6dnaww",
+      "name": "ĐÔI BẠN CHÂN TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 445967,
+      "modified": "2026-08-15T08:14:46.000Z",
+      "checksum": "6a827670629037a131f76515e1dccf46",
+      "folder": false
+    },
+    {
+      "id": "1q0jcCq6YZv5lBmsC4ZLfkEr6PJNGLRxW",
+      "parent_id": "1ctTP9peVXgxukAh5ZhRTDy3ETa6dnaww",
+      "name": "ĐÔI BẠN CHÂN TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 1106409,
+      "modified": "2026-08-15T08:14:43.000Z",
+      "checksum": "1fe53c02038f85df3a48ee17f9aa64ae",
+      "folder": false
+    }
+  ]
+}

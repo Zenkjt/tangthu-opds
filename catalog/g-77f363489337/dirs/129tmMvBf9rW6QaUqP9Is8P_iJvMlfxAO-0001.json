@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "129tmMvBf9rW6QaUqP9Is8P_iJvMlfxAO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wPzPwKh1j_us3gCUgQ3iG0mO-80gPY8J",
+      "parent_id": "129tmMvBf9rW6QaUqP9Is8P_iJvMlfxAO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1818,
+      "modified": "2026-08-15T07:28:45.000Z",
+      "checksum": "3f104f5ad85e419829bf049d83d1fbc0",
+      "folder": false
+    },
+    {
+      "id": "1ZoeLRCy5zSHwUmE8Yh_ejqNedYmR8zU3",
+      "parent_id": "129tmMvBf9rW6QaUqP9Is8P_iJvMlfxAO",
+      "name": "VÔ SỈ ĐẠO TẶC.epub",
+      "mime": "application/epub+zip",
+      "size": 8162588,
+      "modified": "2026-08-15T07:29:04.000Z",
+      "checksum": "8ad44ea87b061bfbfd49ca89496a9dc6",
+      "folder": false
+    },
+    {
+      "id": "10eXIwCBQhY8pADQcowoFHDmyGz---5a7",
+      "parent_id": "129tmMvBf9rW6QaUqP9Is8P_iJvMlfxAO",
+      "name": "VÔ SỈ ĐẠO TẶC.pdf",
+      "mime": "application/pdf",
+      "size": 6165188,
+      "modified": "2026-08-15T07:28:56.000Z",
+      "checksum": "9b572b2e1d3df8f5be126cf6744e67cf",
+      "folder": false
+    }
+  ]
+}

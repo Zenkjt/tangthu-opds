@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1n9W6bbSclib15xj14vWp86kTlRbPfdA7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zWg5Q6SUHfL9H5V7zJMbk8mD652kVJFH",
+      "parent_id": "1n9W6bbSclib15xj14vWp86kTlRbPfdA7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4377,
+      "modified": "2026-08-15T03:56:18.000Z",
+      "checksum": "065aa0d73e43e697e874385e4543b253",
+      "folder": false
+    },
+    {
+      "id": "1rrsxQSMhsosTU-Cus3ETz9f8WxbCFdFd",
+      "parent_id": "1n9W6bbSclib15xj14vWp86kTlRbPfdA7",
+      "name": "ĐỐI THOẠI VỚI THƯỢNG ĐẾ - TẬP 7.epub",
+      "mime": "application/epub+zip",
+      "size": 281511,
+      "modified": "2026-08-15T03:56:23.000Z",
+      "checksum": "9c64a7a798d3a2a4eb21599cb022c640",
+      "folder": false
+    },
+    {
+      "id": "1sUpBsy87S1q_cmis-LtVExlQLDg5IeNk",
+      "parent_id": "1n9W6bbSclib15xj14vWp86kTlRbPfdA7",
+      "name": "ĐỐI THOẠI VỚI THƯỢNG ĐẾ - TẬP 7.pdf",
+      "mime": "application/pdf",
+      "size": 457885,
+      "modified": "2026-08-15T03:56:21.000Z",
+      "checksum": "2c85855093c4995549d138f92cbc8e07",
+      "folder": false
+    }
+  ]
+}

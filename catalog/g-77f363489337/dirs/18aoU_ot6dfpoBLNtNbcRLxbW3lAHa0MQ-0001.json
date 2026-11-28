@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18aoU_ot6dfpoBLNtNbcRLxbW3lAHa0MQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MJ6uuvCDo2HJcZ-9VMGPKuvg7rgYmsgQ",
+      "parent_id": "18aoU_ot6dfpoBLNtNbcRLxbW3lAHa0MQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3658,
+      "modified": "2026-08-16T04:15:40.000Z",
+      "checksum": "75173c1d28ea67901d1a33e14b9bbee5",
+      "folder": false
+    },
+    {
+      "id": "1HJghJ-upuSya6jRlOVNvHIWBsVOdiilF",
+      "parent_id": "18aoU_ot6dfpoBLNtNbcRLxbW3lAHa0MQ",
+      "name": "NGÀY CUỐI TUẦN ĐỊNH MỆNH.epub",
+      "mime": "application/epub+zip",
+      "size": 454754,
+      "modified": "2026-08-16T04:15:46.000Z",
+      "checksum": "ed563db0da176d42b15a349860e07848",
+      "folder": false
+    },
+    {
+      "id": "1NCpi93VgLMTRn48pcdslk1kr8o9AeJWO",
+      "parent_id": "18aoU_ot6dfpoBLNtNbcRLxbW3lAHa0MQ",
+      "name": "NGÀY CUỐI TUẦN ĐỊNH MỆNH.pdf",
+      "mime": "application/pdf",
+      "size": 1408910,
+      "modified": "2026-08-16T04:15:44.000Z",
+      "checksum": "f5142b8d725b7ba30d2f43aa83be2ebe",
+      "folder": false
+    }
+  ]
+}

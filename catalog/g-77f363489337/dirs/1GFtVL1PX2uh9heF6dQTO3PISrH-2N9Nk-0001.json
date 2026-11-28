@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GFtVL1PX2uh9heF6dQTO3PISrH-2N9Nk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-gp2cjVMMwLQXfJKn3CM-GCig-5MbDZZ",
+      "parent_id": "1GFtVL1PX2uh9heF6dQTO3PISrH-2N9Nk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3480,
+      "modified": "2026-08-16T04:10:33.000Z",
+      "checksum": "2aa07bf89a49838fa09cada42e821afd",
+      "folder": false
+    },
+    {
+      "id": "1SyMuso8BimKzIQxAHFUBmRkpSN8j9niW",
+      "parent_id": "1GFtVL1PX2uh9heF6dQTO3PISrH-2N9Nk",
+      "name": "NHỮNG CÁNH THƯ CHƯA KHÉP.epub",
+      "mime": "application/epub+zip",
+      "size": 431903,
+      "modified": "2026-08-16T04:10:41.000Z",
+      "checksum": "e87518c42ffcb94a7f8b25ec58ce9a74",
+      "folder": false
+    },
+    {
+      "id": "1RN1Nvs4-oYM8x_FNy5ac_nz7sJ-b8sJB",
+      "parent_id": "1GFtVL1PX2uh9heF6dQTO3PISrH-2N9Nk",
+      "name": "NHỮNG CÁNH THƯ CHƯA KHÉP.pdf",
+      "mime": "application/pdf",
+      "size": 901100,
+      "modified": "2026-08-16T04:10:38.000Z",
+      "checksum": "4abd6d23024de33ee7f7416968cd5c7c",
+      "folder": false
+    }
+  ]
+}

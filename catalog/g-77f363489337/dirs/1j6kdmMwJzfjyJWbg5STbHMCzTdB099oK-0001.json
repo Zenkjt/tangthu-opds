@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1j6kdmMwJzfjyJWbg5STbHMCzTdB099oK",
+  "page": 1,
+  "items": [
+    {
+      "id": "15SZ34LXZ71AjYLOTuhmlq7s0CCf-LNZs",
+      "parent_id": "1j6kdmMwJzfjyJWbg5STbHMCzTdB099oK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3059,
+      "modified": "2026-08-15T03:18:38.000Z",
+      "checksum": "6db91b4459310211ee9c8fa646fbdb36",
+      "folder": false
+    },
+    {
+      "id": "1_5HtXl6JZVrWJ0kiys1IdPf2AlRAa6In",
+      "parent_id": "1j6kdmMwJzfjyJWbg5STbHMCzTdB099oK",
+      "name": "NGHĨ ĐÚNG NHẮM TRÚNG.epub",
+      "mime": "application/epub+zip",
+      "size": 454328,
+      "modified": "2026-08-15T03:18:45.000Z",
+      "checksum": "fe53a3d9f0c9bb3bdb55b505af2f44c2",
+      "folder": false
+    },
+    {
+      "id": "1RYdvumbxSNhh6FsWhh_vKMJyJ_BG2y6E",
+      "parent_id": "1j6kdmMwJzfjyJWbg5STbHMCzTdB099oK",
+      "name": "NGHĨ ĐÚNG NHẮM TRÚNG.pdf",
+      "mime": "application/pdf",
+      "size": 1819307,
+      "modified": "2026-08-15T03:18:43.000Z",
+      "checksum": "ce782e9f88ec94a187cc0d78cba6c142",
+      "folder": false
+    }
+  ]
+}

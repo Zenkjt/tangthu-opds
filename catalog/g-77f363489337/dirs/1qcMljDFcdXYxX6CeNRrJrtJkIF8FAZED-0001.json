@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qcMljDFcdXYxX6CeNRrJrtJkIF8FAZED",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hGbXRgpqHlMqdCfRPwQGK16LD_A8hZxL",
+      "parent_id": "1qcMljDFcdXYxX6CeNRrJrtJkIF8FAZED",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2269,
+      "modified": "2026-08-15T07:23:30.000Z",
+      "checksum": "a22fc996744bcc0980697a34f28e5488",
+      "folder": false
+    },
+    {
+      "id": "1wnZrIm-kc9nMCN1HMbMjzhHC5EfhRzKb",
+      "parent_id": "1qcMljDFcdXYxX6CeNRrJrtJkIF8FAZED",
+      "name": "TRUYỀN THỐNG DÂN TỘC.epub",
+      "mime": "application/epub+zip",
+      "size": 369030,
+      "modified": "2026-08-15T07:23:36.000Z",
+      "checksum": "7feb75edda0c29991fd0dd25a377b2b2",
+      "folder": false
+    },
+    {
+      "id": "1uzB_OJ7XYAEbpPlGh9hcwHcZbm9XJAlA",
+      "parent_id": "1qcMljDFcdXYxX6CeNRrJrtJkIF8FAZED",
+      "name": "TRUYỀN THỐNG DÂN TỘC.pdf",
+      "mime": "application/pdf",
+      "size": 671892,
+      "modified": "2026-08-15T07:23:33.000Z",
+      "checksum": "2b8a1131c626ecfa9d2c4ee7e0f89c77",
+      "folder": false
+    }
+  ]
+}

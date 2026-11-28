@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uGIQ-STPcH3-Br2GMc3AnBDmOScNp_bg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ctkAhWhWMCriYeixvVZ6VEGeNfhmykQd",
+      "parent_id": "1uGIQ-STPcH3-Br2GMc3AnBDmOScNp_bg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3626,
+      "modified": "2026-08-16T02:42:27.000Z",
+      "checksum": "05f02e63567a2b960bfbacce83e31acd",
+      "folder": false
+    },
+    {
+      "id": "1L_wM5KWd1nEL1poYhVxD-ktvAACr9FHO",
+      "parent_id": "1uGIQ-STPcH3-Br2GMc3AnBDmOScNp_bg",
+      "name": "NỔ NHƯ TẠC ĐẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 294856,
+      "modified": "2026-08-16T02:42:33.000Z",
+      "checksum": "f465d059fbb90624fc52009f2a1c6f0a",
+      "folder": false
+    },
+    {
+      "id": "12UR5uvqtgOQo9IfjE1m99tatBRtwxuUu",
+      "parent_id": "1uGIQ-STPcH3-Br2GMc3AnBDmOScNp_bg",
+      "name": "NỔ NHƯ TẠC ĐẠN.pdf",
+      "mime": "application/pdf",
+      "size": 592159,
+      "modified": "2026-08-16T02:42:31.000Z",
+      "checksum": "e27ba978e10b4d5b7c7fb5dd5d9fc28f",
+      "folder": false
+    }
+  ]
+}

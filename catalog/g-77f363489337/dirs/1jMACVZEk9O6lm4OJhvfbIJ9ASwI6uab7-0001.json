@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jMACVZEk9O6lm4OJhvfbIJ9ASwI6uab7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eoPG1b3bYXcGoIxF_hkO4lg5novO6kkO",
+      "parent_id": "1jMACVZEk9O6lm4OJhvfbIJ9ASwI6uab7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5388,
+      "modified": "2026-08-15T07:39:47.000Z",
+      "checksum": "e16623e275a2f4bf1d6484a431bd2912",
+      "folder": false
+    },
+    {
+      "id": "13DRzlLKCjAEgrci45QyrORadGQstjVqB",
+      "parent_id": "1jMACVZEk9O6lm4OJhvfbIJ9ASwI6uab7",
+      "name": "NGƯỢC CHIỀU VUN VÚT.epub",
+      "mime": "application/epub+zip",
+      "size": 573810,
+      "modified": "2026-08-15T07:39:53.000Z",
+      "checksum": "e1bda838eb637576a063660bc60a9778",
+      "folder": false
+    },
+    {
+      "id": "1D6Qf6Yf-Kz4VT3oqnhrpLJUYro1q-fnl",
+      "parent_id": "1jMACVZEk9O6lm4OJhvfbIJ9ASwI6uab7",
+      "name": "NGƯỢC CHIỀU VUN VÚT.pdf",
+      "mime": "application/pdf",
+      "size": 1039178,
+      "modified": "2026-08-15T07:39:50.000Z",
+      "checksum": "beb9b7355a33a5473be1fefde8a48a83",
+      "folder": false
+    }
+  ]
+}

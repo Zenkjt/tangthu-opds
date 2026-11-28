@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lVIPEjiiramTbdiuvjZjuOI2lCwF8nYX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_mNH9hLj3ljj1S43f792z9O0-1_wh1v-",
+      "parent_id": "1lVIPEjiiramTbdiuvjZjuOI2lCwF8nYX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7435,
+      "modified": "2026-08-16T02:51:01.000Z",
+      "checksum": "331d4af881c821fff487c7fd7cb3996a",
+      "folder": false
+    },
+    {
+      "id": "1Nf5s0gQrTUHnkJD3PAU9FJPW6tYjCGKT",
+      "parent_id": "1lVIPEjiiramTbdiuvjZjuOI2lCwF8nYX",
+      "name": "MÙA TÔM.epub",
+      "mime": "application/epub+zip",
+      "size": 525938,
+      "modified": "2026-08-16T02:51:08.000Z",
+      "checksum": "469f9a776145cb43da1e10380e15fbc4",
+      "folder": false
+    },
+    {
+      "id": "1NIH0KATO3pMfhnCQbeusNH0pHzVK9hah",
+      "parent_id": "1lVIPEjiiramTbdiuvjZjuOI2lCwF8nYX",
+      "name": "MÙA TÔM.pdf",
+      "mime": "application/pdf",
+      "size": 803558,
+      "modified": "2026-08-16T02:51:05.000Z",
+      "checksum": "596c1f7430103f617c49d8b326131d24",
+      "folder": false
+    }
+  ]
+}

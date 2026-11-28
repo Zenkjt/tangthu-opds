@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10BN1qKjkc_2TZcrKVXm0BUj2h6sXQ2d3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ET5dLxLK_AbNPqq5ovBflIiRoGu0frs4",
+      "parent_id": "10BN1qKjkc_2TZcrKVXm0BUj2h6sXQ2d3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 466,
+      "modified": "2026-08-16T04:20:11.000Z",
+      "checksum": "ed11a1b455508b88e67544c3f863b3da",
+      "folder": false
+    },
+    {
+      "id": "1mvrJeZ6KrcgePOlweuDoMryo4dEqyo2p",
+      "parent_id": "10BN1qKjkc_2TZcrKVXm0BUj2h6sXQ2d3",
+      "name": "ĐỨNG VỮNG ĐẾN CÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 635985,
+      "modified": "2026-08-16T04:20:20.000Z",
+      "checksum": "edbacf6eafc47b4a4da10da0c282e2dd",
+      "folder": false
+    },
+    {
+      "id": "1m4rhM44OV6a_0JR0giRo3ojY3gJ4T3x4",
+      "parent_id": "10BN1qKjkc_2TZcrKVXm0BUj2h6sXQ2d3",
+      "name": "ĐỨNG VỮNG ĐẾN CÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 1691572,
+      "modified": "2026-08-16T04:20:17.000Z",
+      "checksum": "39124bdff7f0920482bf60a62ab3ba5c",
+      "folder": false
+    }
+  ]
+}

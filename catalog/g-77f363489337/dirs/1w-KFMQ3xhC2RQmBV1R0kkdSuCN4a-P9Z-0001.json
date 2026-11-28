@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1w-KFMQ3xhC2RQmBV1R0kkdSuCN4a-P9Z",
+  "page": 1,
+  "items": [
+    {
+      "id": "123uNuD1S69cxbTsXTeflECrgQ7yfA-lh",
+      "parent_id": "1w-KFMQ3xhC2RQmBV1R0kkdSuCN4a-P9Z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1827,
+      "modified": "2026-08-15T07:57:46.000Z",
+      "checksum": "bae6a265c2c8ddc90c3494ffef0994cc",
+      "folder": false
+    },
+    {
+      "id": "1wdp8jFQydqHrxfpq_IXgw29__y1JOUR9",
+      "parent_id": "1w-KFMQ3xhC2RQmBV1R0kkdSuCN4a-P9Z",
+      "name": "HOA HỒNG KÝ ỨC.epub",
+      "mime": "application/epub+zip",
+      "size": 845627,
+      "modified": "2026-08-15T07:58:28.000Z",
+      "checksum": "f6bf9bc248574c8226b5b78d0d6b4368",
+      "folder": false
+    },
+    {
+      "id": "19kEkJQElaenoVcRwZIStW04CrqC_ls52",
+      "parent_id": "1w-KFMQ3xhC2RQmBV1R0kkdSuCN4a-P9Z",
+      "name": "HOA HỒNG KÝ ỨC.pdf",
+      "mime": "application/pdf",
+      "size": 2650394,
+      "modified": "2026-08-15T07:58:24.000Z",
+      "checksum": "f865e3d3ae71129622dbbf4b374cc5c3",
+      "folder": false
+    }
+  ]
+}

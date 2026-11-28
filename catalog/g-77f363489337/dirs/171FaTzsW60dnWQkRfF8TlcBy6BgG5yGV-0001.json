@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "171FaTzsW60dnWQkRfF8TlcBy6BgG5yGV",
+  "page": 1,
+  "items": [
+    {
+      "id": "18VP1duTitoP6u-9GsjviAePLZ0TsviKG",
+      "parent_id": "171FaTzsW60dnWQkRfF8TlcBy6BgG5yGV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 828,
+      "modified": "2026-08-15T10:56:11.000Z",
+      "checksum": "c8afb43eea829d769fb73307ed5f69a2",
+      "folder": false
+    },
+    {
+      "id": "1CzPUl9rGQnREUesvVqVonMwpr9czRxZq",
+      "parent_id": "171FaTzsW60dnWQkRfF8TlcBy6BgG5yGV",
+      "name": "HỦY HOẠI VÌ YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 367453,
+      "modified": "2026-08-15T10:56:17.000Z",
+      "checksum": "2cbfac6f4b16b2980a0ad52c69434450",
+      "folder": false
+    },
+    {
+      "id": "1NFKVL2XE9bBovXDQqbE309L9w0GW4_Mp",
+      "parent_id": "171FaTzsW60dnWQkRfF8TlcBy6BgG5yGV",
+      "name": "HỦY HOẠI VÌ YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 522086,
+      "modified": "2026-08-15T10:56:14.000Z",
+      "checksum": "8c0d3fae53722098e97d91fa4d2decd1",
+      "folder": false
+    }
+  ]
+}

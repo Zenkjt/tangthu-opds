@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uKrprX3ABLOyca5buUyA8VdyhJtGwLqs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sly6xXmOz1Zlrg1QjWaia2kxmKyo2y4t",
+      "parent_id": "1uKrprX3ABLOyca5buUyA8VdyhJtGwLqs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5114,
+      "modified": "2026-08-15T09:27:22.000Z",
+      "checksum": "089f47e3d629fe3544d29f2b4abc41f3",
+      "folder": false
+    },
+    {
+      "id": "1VvyVonwrqBtxd0aWzXd5cZxws-F4pdhm",
+      "parent_id": "1uKrprX3ABLOyca5buUyA8VdyhJtGwLqs",
+      "name": "GIEO GIÓ GẶT BÃO.epub",
+      "mime": "application/epub+zip",
+      "size": 543747,
+      "modified": "2026-08-15T09:29:28.000Z",
+      "checksum": "62df21fd55f7e6c5a18b0969623be78f",
+      "folder": false
+    },
+    {
+      "id": "1cu3J-CEiuxhvF2LUIzGhrpJ-9WYb4mjp",
+      "parent_id": "1uKrprX3ABLOyca5buUyA8VdyhJtGwLqs",
+      "name": "GIEO GIÓ GẶT BÃO.pdf",
+      "mime": "application/pdf",
+      "size": 877321,
+      "modified": "2026-08-15T09:29:24.000Z",
+      "checksum": "d5dde8d7c87cd3c538c213fbe2400723",
+      "folder": false
+    }
+  ]
+}

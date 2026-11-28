@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lJZx77XMFkiKeLKWOIWTiBbV14rUtaiH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1orgTQ9C3pz3sK-venu71T0YX1CIlARqR",
+      "parent_id": "1lJZx77XMFkiKeLKWOIWTiBbV14rUtaiH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7404,
+      "modified": "2026-08-15T08:12:35.000Z",
+      "checksum": "5302cb5059bef34ed77faf5098f0368f",
+      "folder": false
+    },
+    {
+      "id": "1vGjNbrCNaYOmsX5k63Ke1A3R-pEhh3wp",
+      "parent_id": "1lJZx77XMFkiKeLKWOIWTiBbV14rUtaiH",
+      "name": "DON JUAN.epub",
+      "mime": "application/epub+zip",
+      "size": 434145,
+      "modified": "2026-08-15T08:12:45.000Z",
+      "checksum": "599cab4cc0d43909a250396b6d3508f3",
+      "folder": false
+    },
+    {
+      "id": "1GmtS055IPTTBccmjQqQ5Zix2VNHZQcAe",
+      "parent_id": "1lJZx77XMFkiKeLKWOIWTiBbV14rUtaiH",
+      "name": "DON JUAN.pdf",
+      "mime": "application/pdf",
+      "size": 1279286,
+      "modified": "2026-08-15T08:12:41.000Z",
+      "checksum": "f876613299d361d7480c52b278f8ac77",
+      "folder": false
+    }
+  ]
+}

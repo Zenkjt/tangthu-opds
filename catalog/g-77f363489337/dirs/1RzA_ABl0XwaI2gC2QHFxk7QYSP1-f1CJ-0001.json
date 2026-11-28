@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RzA_ABl0XwaI2gC2QHFxk7QYSP1-f1CJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1e95BImq4tj6fvOw6Ec1FtMnaUY9XjNaB",
+      "parent_id": "1RzA_ABl0XwaI2gC2QHFxk7QYSP1-f1CJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3141,
+      "modified": "2026-08-16T04:14:34.000Z",
+      "checksum": "b6ef91bd77913d8eafc0582f011c5ed7",
+      "folder": false
+    },
+    {
+      "id": "1GNKj_ZBXGJlrPIi9yMVhuurOHzOmuNZP",
+      "parent_id": "1RzA_ABl0XwaI2gC2QHFxk7QYSP1-f1CJ",
+      "name": "NGU NGƠ.epub",
+      "mime": "application/epub+zip",
+      "size": 870411,
+      "modified": "2026-08-16T04:14:39.000Z",
+      "checksum": "724277cde416bd1b79ba70573362b700",
+      "folder": false
+    },
+    {
+      "id": "11kHivjFA1PsCb0aIRYB81W69ZkQB7XxB",
+      "parent_id": "1RzA_ABl0XwaI2gC2QHFxk7QYSP1-f1CJ",
+      "name": "NGU NGƠ.pdf",
+      "mime": "application/pdf",
+      "size": 833882,
+      "modified": "2026-08-16T04:14:37.000Z",
+      "checksum": "55321a25520d3785272f5e51d5bec9fa",
+      "folder": false
+    }
+  ]
+}

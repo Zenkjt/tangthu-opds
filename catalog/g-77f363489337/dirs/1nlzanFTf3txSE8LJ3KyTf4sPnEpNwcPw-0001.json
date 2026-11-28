@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nlzanFTf3txSE8LJ3KyTf4sPnEpNwcPw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wJKDZNVhDvwMvvhoxkyDVU1SGbUDXWvN",
+      "parent_id": "1nlzanFTf3txSE8LJ3KyTf4sPnEpNwcPw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6520,
+      "modified": "2026-08-15T07:40:34.000Z",
+      "checksum": "3da818bef30db0b13c4c36523ee9ff52",
+      "folder": false
+    },
+    {
+      "id": "1MnEhy8TKuN4s8VOCn6PekSV-fAoEBLyA",
+      "parent_id": "1nlzanFTf3txSE8LJ3KyTf4sPnEpNwcPw",
+      "name": "HÀN MÔN TRẠNG NGUYÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 400762,
+      "modified": "2026-08-15T07:40:40.000Z",
+      "checksum": "401f65899e7c56185446afcd19cf1fda",
+      "folder": false
+    },
+    {
+      "id": "1zoSik1BKyjkqL3PffH2wWiI66k9bMwG-",
+      "parent_id": "1nlzanFTf3txSE8LJ3KyTf4sPnEpNwcPw",
+      "name": "HÀN MÔN TRẠNG NGUYÊN.pdf",
+      "mime": "application/pdf",
+      "size": 603874,
+      "modified": "2026-08-15T07:40:38.000Z",
+      "checksum": "44ae5180dd4fd4896b4672b990fe4a0d",
+      "folder": false
+    }
+  ]
+}

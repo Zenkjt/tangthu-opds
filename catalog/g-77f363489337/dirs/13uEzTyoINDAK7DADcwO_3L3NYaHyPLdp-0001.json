@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13uEzTyoINDAK7DADcwO_3L3NYaHyPLdp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jXefO4qK9dhYRtLPyvJp-yopVP95IMOp",
+      "parent_id": "13uEzTyoINDAK7DADcwO_3L3NYaHyPLdp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2858,
+      "modified": "2026-08-15T10:10:04.000Z",
+      "checksum": "c876e204a8df9c5fc4c0e30f046926d2",
+      "folder": false
+    },
+    {
+      "id": "1ESvI4XJpO_Gwi9KISPNhGqiV41GB4XnU",
+      "parent_id": "13uEzTyoINDAK7DADcwO_3L3NYaHyPLdp",
+      "name": "TIỂU HÀ SƠN.epub",
+      "mime": "application/epub+zip",
+      "size": 639535,
+      "modified": "2026-08-15T10:10:12.000Z",
+      "checksum": "b6af9dd4731cf5568011949c309386d4",
+      "folder": false
+    },
+    {
+      "id": "1Bka-bOxy1_zyb8cqBHMddcORdpi4S_iU",
+      "parent_id": "13uEzTyoINDAK7DADcwO_3L3NYaHyPLdp",
+      "name": "TIỂU HÀ SƠN.pdf",
+      "mime": "application/pdf",
+      "size": 1712478,
+      "modified": "2026-08-15T10:10:09.000Z",
+      "checksum": "4ce5eaa8745f8aa6786109ce3cc74853",
+      "folder": false
+    }
+  ]
+}

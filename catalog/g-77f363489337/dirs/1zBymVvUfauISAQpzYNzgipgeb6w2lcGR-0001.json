@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zBymVvUfauISAQpzYNzgipgeb6w2lcGR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NaIejy1Ltbcwot3E8MgkE-PKp89c1W3-",
+      "parent_id": "1zBymVvUfauISAQpzYNzgipgeb6w2lcGR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6574,
+      "modified": "2026-08-16T03:07:54.000Z",
+      "checksum": "31aeb1c86f319491b2e27deaa7aef9d4",
+      "folder": false
+    },
+    {
+      "id": "1oNv7dQ7pEDZW0QXWZKYS5zNwVbvEUFrZ",
+      "parent_id": "1zBymVvUfauISAQpzYNzgipgeb6w2lcGR",
+      "name": "KẺ PHÓNG ĐÃNG BẤT TRỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 600020,
+      "modified": "2026-08-16T03:08:01.000Z",
+      "checksum": "d0c81c4d88eb77e407a7a77a693a9415",
+      "folder": false
+    },
+    {
+      "id": "1g49UgjLsHmZlZaAZ1WrU9l2tfzQsHX2Q",
+      "parent_id": "1zBymVvUfauISAQpzYNzgipgeb6w2lcGR",
+      "name": "KẺ PHÓNG ĐÃNG BẤT TRỊ.pdf",
+      "mime": "application/pdf",
+      "size": 1394862,
+      "modified": "2026-08-16T03:07:59.000Z",
+      "checksum": "da9f001864158f1929396d73d8f54ef0",
+      "folder": false
+    }
+  ]
+}

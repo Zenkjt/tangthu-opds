@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DcwT72Z6W2s4Ft5YuG2hX58KMiHxHWej",
+  "page": 1,
+  "items": [
+    {
+      "id": "18ENh2Ld-fCmag1zFaNz3ZF76ICn0pZdB",
+      "parent_id": "1DcwT72Z6W2s4Ft5YuG2hX58KMiHxHWej",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3146,
+      "modified": "2026-08-15T15:45:19.000Z",
+      "checksum": "9297fef0cfc6be2226ed80cdd1df3a8c",
+      "folder": false
+    },
+    {
+      "id": "1Ygf2vNzw2etamkeGgvtNw8d969z0qgyn",
+      "parent_id": "1DcwT72Z6W2s4Ft5YuG2hX58KMiHxHWej",
+      "name": "SIÊU GIÀU.epub",
+      "mime": "application/epub+zip",
+      "size": 706568,
+      "modified": "2026-08-15T15:45:27.000Z",
+      "checksum": "fc2740df6ce8284763fc3fa4eef98c15",
+      "folder": false
+    },
+    {
+      "id": "15HppZZxYhWwhnVQtN589bxAVajfBed55",
+      "parent_id": "1DcwT72Z6W2s4Ft5YuG2hX58KMiHxHWej",
+      "name": "SIÊU GIÀU.pdf",
+      "mime": "application/pdf",
+      "size": 1890520,
+      "modified": "2026-08-15T15:45:25.000Z",
+      "checksum": "8526d0414bb055c977ba5ac1abdb5aed",
+      "folder": false
+    }
+  ]
+}

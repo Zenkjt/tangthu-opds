@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nITWmtWbF8-M7L3W-EHzVeAwQsdqyPkB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BfbAgy9vwV5X1CHNeZwLZ8LvC4XXowWq",
+      "parent_id": "1nITWmtWbF8-M7L3W-EHzVeAwQsdqyPkB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3980,
+      "modified": "2026-08-15T12:49:34.000Z",
+      "checksum": "28ce4239e8c60084cf6878fbe7cfe3c8",
+      "folder": false
+    },
+    {
+      "id": "1MLOJtLkFQdDOZYJMto4lkE8_fyz7f_h5",
+      "parent_id": "1nITWmtWbF8-M7L3W-EHzVeAwQsdqyPkB",
+      "name": "TRĂNG 30.epub",
+      "mime": "application/epub+zip",
+      "size": 387228,
+      "modified": "2026-08-15T12:49:39.000Z",
+      "checksum": "fe62a60c911a05cc759b0cd7dca50985",
+      "folder": false
+    },
+    {
+      "id": "1PS95cTsxWqShT63sciOz0L5x6MZg6Bkb",
+      "parent_id": "1nITWmtWbF8-M7L3W-EHzVeAwQsdqyPkB",
+      "name": "TRĂNG 30.pdf",
+      "mime": "application/pdf",
+      "size": 445755,
+      "modified": "2026-08-15T12:49:37.000Z",
+      "checksum": "4798b1d58b62944686643dd59ea3e9be",
+      "folder": false
+    }
+  ]
+}

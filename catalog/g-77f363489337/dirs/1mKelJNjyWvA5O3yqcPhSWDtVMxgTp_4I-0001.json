@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mKelJNjyWvA5O3yqcPhSWDtVMxgTp_4I",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NIC3yVaRWkGRgoow04Vt3gMmuodcMu3g",
+      "parent_id": "1mKelJNjyWvA5O3yqcPhSWDtVMxgTp_4I",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1540,
+      "modified": "2026-08-15T03:59:23.000Z",
+      "checksum": "31b4cbb4a4599ad1c376cccee0a3c541",
+      "folder": false
+    },
+    {
+      "id": "11Ov9QOF_hNdYNc9VFMIkt5faV26-1Xke",
+      "parent_id": "1mKelJNjyWvA5O3yqcPhSWDtVMxgTp_4I",
+      "name": "KINH DIÊN MỆNH ĐỊA TẠNG BỒ TÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 214366,
+      "modified": "2026-08-15T03:59:28.000Z",
+      "checksum": "dc19a7cd548b50664afaa2131024548a",
+      "folder": false
+    },
+    {
+      "id": "1nykYBJq6C3L18Q6e9QmhJQpPR2Z57Fel",
+      "parent_id": "1mKelJNjyWvA5O3yqcPhSWDtVMxgTp_4I",
+      "name": "KINH DIÊN MỆNH ĐỊA TẠNG BỒ TÁT.pdf",
+      "mime": "application/pdf",
+      "size": 377416,
+      "modified": "2026-08-15T03:59:26.000Z",
+      "checksum": "4d09c2740d55acd4ec3dca908a75768d",
+      "folder": false
+    }
+  ]
+}

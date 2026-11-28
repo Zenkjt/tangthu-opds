@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hq-vreDgmcyFbw0b1XCapTYG9SzI39ma",
+  "page": 1,
+  "items": [
+    {
+      "id": "1b_NXNkmfo_o8hYLhpvxWchgZqvFGbZ75",
+      "parent_id": "1hq-vreDgmcyFbw0b1XCapTYG9SzI39ma",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3448,
+      "modified": "2026-08-15T03:57:59.000Z",
+      "checksum": "3b10d5d2d952ed36992916c53aebdf13",
+      "folder": false
+    },
+    {
+      "id": "17KedYr-rE1k6sjqfutmpzTgMWEHR2RAs",
+      "parent_id": "1hq-vreDgmcyFbw0b1XCapTYG9SzI39ma",
+      "name": "LỬA TRONG CÁI TRÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 415292,
+      "modified": "2026-08-15T03:58:05.000Z",
+      "checksum": "dc9220a6849c1e0e650c9b879e9a639f",
+      "folder": false
+    },
+    {
+      "id": "1ZYmBudnQpvpK1G5gO7U_SubXenjOt5Lf",
+      "parent_id": "1hq-vreDgmcyFbw0b1XCapTYG9SzI39ma",
+      "name": "LỬA TRONG CÁI TRÍ.pdf",
+      "mime": "application/pdf",
+      "size": 1521926,
+      "modified": "2026-08-15T03:58:03.000Z",
+      "checksum": "9126a3598d865264c23f97bb07586bcb",
+      "folder": false
+    }
+  ]
+}

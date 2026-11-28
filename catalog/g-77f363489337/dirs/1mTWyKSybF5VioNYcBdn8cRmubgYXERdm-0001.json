@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mTWyKSybF5VioNYcBdn8cRmubgYXERdm",
+  "page": 1,
+  "items": [
+    {
+      "id": "15RuaYrmo88HmpUAkI4GF1z0MpTxHdXLl",
+      "parent_id": "1mTWyKSybF5VioNYcBdn8cRmubgYXERdm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7641,
+      "modified": "2026-08-16T02:52:54.000Z",
+      "checksum": "10e0b78395074e093d55cb596d13705a",
+      "folder": false
+    },
+    {
+      "id": "1zFi_mTil6Dw1Gs4ytLp_qCPdu8218QeD",
+      "parent_id": "1mTWyKSybF5VioNYcBdn8cRmubgYXERdm",
+      "name": "ĐÊM TỐI VÀ ÁNH SÁNG.epub",
+      "mime": "application/epub+zip",
+      "size": 516789,
+      "modified": "2026-08-16T02:53:01.000Z",
+      "checksum": "d460122d8154f161fe9ee3d88ae75d7f",
+      "folder": false
+    },
+    {
+      "id": "18tunol4AV574LNBvR2SoSUmfDMlFqiUe",
+      "parent_id": "1mTWyKSybF5VioNYcBdn8cRmubgYXERdm",
+      "name": "ĐÊM TỐI VÀ ÁNH SÁNG.pdf",
+      "mime": "application/pdf",
+      "size": 810757,
+      "modified": "2026-08-16T02:52:58.000Z",
+      "checksum": "75204cb613fdf973406c7872cfdba326",
+      "folder": false
+    }
+  ]
+}

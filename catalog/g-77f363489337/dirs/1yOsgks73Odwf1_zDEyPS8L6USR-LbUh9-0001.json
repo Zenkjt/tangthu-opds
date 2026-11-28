@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yOsgks73Odwf1_zDEyPS8L6USR-LbUh9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XedQW6mBXGxG-qZcNtykqHFoPOgEvFr-",
+      "parent_id": "1yOsgks73Odwf1_zDEyPS8L6USR-LbUh9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2785,
+      "modified": "2026-08-16T02:47:56.000Z",
+      "checksum": "abb7b58cc5d7bf2ac31205ccb4a00f3c",
+      "folder": false
+    },
+    {
+      "id": "1kik7seQRMkYRxW2vnLLsSMuHxzxoucWE",
+      "parent_id": "1yOsgks73Odwf1_zDEyPS8L6USR-LbUh9",
+      "name": "NHẬT KÝ TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 4704799,
+      "modified": "2026-08-16T02:48:03.000Z",
+      "checksum": "2cebf4f628890ad05c8434e473f897f9",
+      "folder": false
+    },
+    {
+      "id": "1DTldYefnO1CHym1bb6JQxdPmBZje-EX-",
+      "parent_id": "1yOsgks73Odwf1_zDEyPS8L6USR-LbUh9",
+      "name": "NHẬT KÝ TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 4660215,
+      "modified": "2026-08-16T02:48:01.000Z",
+      "checksum": "854725f6ff03b2ce221df5ea5e0683cd",
+      "folder": false
+    }
+  ]
+}

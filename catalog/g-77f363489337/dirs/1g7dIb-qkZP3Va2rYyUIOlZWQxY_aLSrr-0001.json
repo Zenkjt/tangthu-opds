@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1g7dIb-qkZP3Va2rYyUIOlZWQxY_aLSrr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VFgX7Db4axXtriOJX8UlQfRgJzqjVAcD",
+      "parent_id": "1g7dIb-qkZP3Va2rYyUIOlZWQxY_aLSrr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2765,
+      "modified": "2026-08-15T08:03:08.000Z",
+      "checksum": "cdaeb7ccc8f1746b2a6e7eed41cd8f15",
+      "folder": false
+    },
+    {
+      "id": "1djKFUGFrihlE_hbnjB6lrwdm8LBCFglt",
+      "parent_id": "1g7dIb-qkZP3Va2rYyUIOlZWQxY_aLSrr",
+      "name": "LUYỆN KHÍ CHÂN TIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 2194377,
+      "modified": "2026-08-15T08:03:31.000Z",
+      "checksum": "0afc295f464e68954a7360c9d3f2ec60",
+      "folder": false
+    },
+    {
+      "id": "1xOz7PQBOAJm0B1qdJXGXcOemIrEsJivf",
+      "parent_id": "1g7dIb-qkZP3Va2rYyUIOlZWQxY_aLSrr",
+      "name": "LUYỆN KHÍ CHÂN TIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 9909861,
+      "modified": "2026-08-15T08:03:26.000Z",
+      "checksum": "eed3f9ba8d9ee7ec4d550ae460119a53",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10PEI3kjBFU4kIpkyQF956G1JrmbVSOcp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Z6cM1NPCZkwem_xELAEIFApB9XJ1noGC",
+      "parent_id": "10PEI3kjBFU4kIpkyQF956G1JrmbVSOcp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6692,
+      "modified": "2026-08-15T07:45:43.000Z",
+      "checksum": "0680fefe6c683e4fe61aeafccbef30ff",
+      "folder": false
+    },
+    {
+      "id": "1hF9YAbqDH5BZhhtXFwuMJK0UXW9FS5at",
+      "parent_id": "10PEI3kjBFU4kIpkyQF956G1JrmbVSOcp",
+      "name": "GIÓ NGHIÊNG MƯA NHẸ CHẲNG NÊN VỀ.epub",
+      "mime": "application/epub+zip",
+      "size": 490338,
+      "modified": "2026-08-15T07:45:49.000Z",
+      "checksum": "8c0a82d6ac1ff1844bbf62aa6d16954d",
+      "folder": false
+    },
+    {
+      "id": "1bnK2a0ln7qybQhVCPlCvsOVfVfdHJvs1",
+      "parent_id": "10PEI3kjBFU4kIpkyQF956G1JrmbVSOcp",
+      "name": "GIÓ NGHIÊNG MƯA NHẸ CHẲNG NÊN VỀ.pdf",
+      "mime": "application/pdf",
+      "size": 293924,
+      "modified": "2026-08-15T07:45:46.000Z",
+      "checksum": "410e3695b53595d8bde414f84a013aee",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JoSGelX3lXWexTt5VK3YPgTDvqgKlnhT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S_91Q0BHta9o8yoaXwC9pJIstK33VZvD",
+      "parent_id": "1JoSGelX3lXWexTt5VK3YPgTDvqgKlnhT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8214,
+      "modified": "2026-08-15T08:10:07.000Z",
+      "checksum": "7c84f21699c7c6a605e06962852ff9df",
+      "folder": false
+    },
+    {
+      "id": "1gBMEfLPGYLhUDM93eMa4-q4uAAMqsuy_",
+      "parent_id": "1JoSGelX3lXWexTt5VK3YPgTDvqgKlnhT",
+      "name": "GIÓ MÙA HÈ.epub",
+      "mime": "application/epub+zip",
+      "size": 1081980,
+      "modified": "2026-08-15T08:10:16.000Z",
+      "checksum": "3f01d39e1ca7a3f440cc5afdacb76dc0",
+      "folder": false
+    },
+    {
+      "id": "196B01lMSzyo6yPMPHHKKLG43fhtES0nB",
+      "parent_id": "1JoSGelX3lXWexTt5VK3YPgTDvqgKlnhT",
+      "name": "GIÓ MÙA HÈ.pdf",
+      "mime": "application/pdf",
+      "size": 1672968,
+      "modified": "2026-08-15T08:10:13.000Z",
+      "checksum": "ea759c9825d703e7f32e084c78ca2546",
+      "folder": false
+    }
+  ]
+}

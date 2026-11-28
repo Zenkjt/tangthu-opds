@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EtYAi0L9QqYvGsp8s0qYwFfdaFkXQTpY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bSBtTXIOSY1xm8cPsgx8fKtMlcrZ8c5q",
+      "parent_id": "1EtYAi0L9QqYvGsp8s0qYwFfdaFkXQTpY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7118,
+      "modified": "2026-08-15T00:45:37.000Z",
+      "checksum": "d27ea99a8c0353c8be296239ec7dcbd5",
+      "folder": false
+    },
+    {
+      "id": "16ohS9RdiBb5SyWuYtxns41Z_DArUcu7M",
+      "parent_id": "1EtYAi0L9QqYvGsp8s0qYwFfdaFkXQTpY",
+      "name": "TƯ DUY NHANH VÀ CHẬM.epub",
+      "mime": "application/epub+zip",
+      "size": 720122,
+      "modified": "2026-08-15T00:45:48.000Z",
+      "checksum": "116806fdac5a93d666168d5ecb83d43a",
+      "folder": false
+    },
+    {
+      "id": "1dI45tDb8P76gqMzyRGKOHbhWucDjOsvM",
+      "parent_id": "1EtYAi0L9QqYvGsp8s0qYwFfdaFkXQTpY",
+      "name": "TƯ DUY NHANH VÀ CHẬM.pdf",
+      "mime": "application/pdf",
+      "size": 1947027,
+      "modified": "2026-08-15T00:45:45.000Z",
+      "checksum": "b240869199f0f9c4823fd40c2dc254d3",
+      "folder": false
+    }
+  ]
+}

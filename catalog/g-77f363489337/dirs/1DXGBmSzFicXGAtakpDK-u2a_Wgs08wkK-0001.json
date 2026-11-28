@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DXGBmSzFicXGAtakpDK-u2a_Wgs08wkK",
+  "page": 1,
+  "items": [
+    {
+      "id": "14k6Uf8zjDgRMYFwgwPt6qO0Q0jlfe94u",
+      "parent_id": "1DXGBmSzFicXGAtakpDK-u2a_Wgs08wkK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3075,
+      "modified": "2026-08-16T03:56:06.000Z",
+      "checksum": "f206f0ffa7c241e6ad1835df81b4cd71",
+      "folder": false
+    },
+    {
+      "id": "1XAKF2_H5SCWfbvCnkOPzHkDTrXuDJ7ry",
+      "parent_id": "1DXGBmSzFicXGAtakpDK-u2a_Wgs08wkK",
+      "name": "THỦY VÂN GIAN.epub",
+      "mime": "application/epub+zip",
+      "size": 450474,
+      "modified": "2026-08-16T03:56:13.000Z",
+      "checksum": "b20f3b187c3980b5bb06aa99e2a1b2b9",
+      "folder": false
+    },
+    {
+      "id": "1FLnx6hkFRf5SczaJxcSHh_KVoXcsesON",
+      "parent_id": "1DXGBmSzFicXGAtakpDK-u2a_Wgs08wkK",
+      "name": "THỦY VÂN GIAN.pdf",
+      "mime": "application/pdf",
+      "size": 977177,
+      "modified": "2026-08-16T03:56:10.000Z",
+      "checksum": "e4b496337a8d554ab077b594c5150a2e",
+      "folder": false
+    }
+  ]
+}

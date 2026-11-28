@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1w3yRvDJ1KbOHFC-rX369TNHFkWwNvKEa",
+  "page": 1,
+  "items": [
+    {
+      "id": "136Pg0VR22G9Z64cXLmfITqqupgB9ubXm",
+      "parent_id": "1w3yRvDJ1KbOHFC-rX369TNHFkWwNvKEa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3077,
+      "modified": "2026-08-15T10:15:55.000Z",
+      "checksum": "f3a90885024f1f23ffca4cf8c67bb66b",
+      "folder": false
+    },
+    {
+      "id": "1vZ7ug5DGqjeuRTkeQUGlFrrwmh4leNu4",
+      "parent_id": "1w3yRvDJ1KbOHFC-rX369TNHFkWwNvKEa",
+      "name": "THẤT PHU NHÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 3635469,
+      "modified": "2026-08-15T10:16:08.000Z",
+      "checksum": "0cd6e7b04097748293cc4388deb4bc8b",
+      "folder": false
+    },
+    {
+      "id": "1RN_33WAr3xBdFcfA1NkpcsFVpsvKK6Xh",
+      "parent_id": "1w3yRvDJ1KbOHFC-rX369TNHFkWwNvKEa",
+      "name": "THẤT PHU NHÂN.pdf",
+      "mime": "application/pdf",
+      "size": 3948177,
+      "modified": "2026-08-15T10:16:03.000Z",
+      "checksum": "89f8ff7bb62f8a2920fddc1d1df9d3cd",
+      "folder": false
+    }
+  ]
+}

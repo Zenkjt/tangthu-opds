@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13sE_QfjyLmHOPOxWrkCZ7zirAZzI2hol",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KhYwVNSMv3L_2j1dKV4QZ4uf0OmiiI6r",
+      "parent_id": "13sE_QfjyLmHOPOxWrkCZ7zirAZzI2hol",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4725,
+      "modified": "2026-08-15T09:34:57.000Z",
+      "checksum": "3a44cb5733f40befc776ac1fa05e0467",
+      "folder": false
+    },
+    {
+      "id": "1WGRbb9K-IL_6YhiugVUcV5isovx0Ex5L",
+      "parent_id": "13sE_QfjyLmHOPOxWrkCZ7zirAZzI2hol",
+      "name": "ĐAGHEXTAN CỦA TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 704977,
+      "modified": "2026-08-15T09:35:07.000Z",
+      "checksum": "5a44b91d01d0a430c6c81647964b7723",
+      "folder": false
+    },
+    {
+      "id": "1P-cW4szmGynPvudqM8Rq_L2ICwEflxaO",
+      "parent_id": "13sE_QfjyLmHOPOxWrkCZ7zirAZzI2hol",
+      "name": "ĐAGHEXTAN CỦA TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 2066096,
+      "modified": "2026-08-15T09:35:04.000Z",
+      "checksum": "4759d6c9f424a15cb847a0e8c3e4a4d2",
+      "folder": false
+    }
+  ]
+}

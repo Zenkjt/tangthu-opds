@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uMkQLQU3yqKSuBxhrkR9UkkU7LfUlRZ1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BOEVYcR0vrrzJeoq15Yc1wZGOHNg2vtC",
+      "parent_id": "1uMkQLQU3yqKSuBxhrkR9UkkU7LfUlRZ1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3160,
+      "modified": "2026-08-15T10:27:00.000Z",
+      "checksum": "98f25330790cd1430a2c7b6b648b4ffc",
+      "folder": false
+    },
+    {
+      "id": "1yD1Y_lNKkK8XfAVHwUYJn7SmJAX9MQiv",
+      "parent_id": "1uMkQLQU3yqKSuBxhrkR9UkkU7LfUlRZ1",
+      "name": "SIÊU QUẬY TRƯỜNG SS (SUPER STAR).epub",
+      "mime": "application/epub+zip",
+      "size": 1638002,
+      "modified": "2026-08-15T10:27:09.000Z",
+      "checksum": "4e08e0910bcd3aa363a45cce04c086d8",
+      "folder": false
+    },
+    {
+      "id": "1LOf5zsANhHa8olvzARx52uc1WxOGovys",
+      "parent_id": "1uMkQLQU3yqKSuBxhrkR9UkkU7LfUlRZ1",
+      "name": "SIÊU QUẬY TRƯỜNG SS (SUPER STAR).pdf",
+      "mime": "application/pdf",
+      "size": 608627,
+      "modified": "2026-08-15T10:27:05.000Z",
+      "checksum": "a2ae27a843199380ffe50679a6143811",
+      "folder": false
+    }
+  ]
+}

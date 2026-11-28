@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_mB4scqYMuQBb5wunAzLa1OfXWyZPf4h",
+  "page": 1,
+  "items": [
+    {
+      "id": "1knIdyDQ5s9K2qRLjnYvPezMENgTgnBCt",
+      "parent_id": "1_mB4scqYMuQBb5wunAzLa1OfXWyZPf4h",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1060,
+      "modified": "2026-08-16T03:30:16.000Z",
+      "checksum": "d3112ba056ab960868ad428233676aee",
+      "folder": false
+    },
+    {
+      "id": "1c1Ats9S4x_Mr1vG8a9ZOPRRUEEKHuKI-",
+      "parent_id": "1_mB4scqYMuQBb5wunAzLa1OfXWyZPf4h",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN ĐẶC SẮC.epub",
+      "mime": "application/epub+zip",
+      "size": 401397,
+      "modified": "2026-08-16T03:30:23.000Z",
+      "checksum": "30030102c2ea5b0830561d9d6b1eb7a1",
+      "folder": false
+    },
+    {
+      "id": "1dlzaRAS6us9ttwmj5AG5w5_Xct-96je7",
+      "parent_id": "1_mB4scqYMuQBb5wunAzLa1OfXWyZPf4h",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN ĐẶC SẮC.pdf",
+      "mime": "application/pdf",
+      "size": 880910,
+      "modified": "2026-08-16T03:30:21.000Z",
+      "checksum": "3e50115634b7c09bd29d6578bb7cfebb",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13_YiqbQjkctP3MRXK5wKXIcggI98GaFU",
+  "page": 1,
+  "items": [
+    {
+      "id": "105o7AkW5uHlr_SU-aDPq7BVAeRz4_nlx",
+      "parent_id": "13_YiqbQjkctP3MRXK5wKXIcggI98GaFU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3471,
+      "modified": "2026-08-15T10:08:39.000Z",
+      "checksum": "0f157e53a70a4328e9d1daa3fe470f95",
+      "folder": false
+    },
+    {
+      "id": "11J9Y0xcDzqNmFxnwUXLqoMUpQ5kmFa1k",
+      "parent_id": "13_YiqbQjkctP3MRXK5wKXIcggI98GaFU",
+      "name": "TINH VÂN TIÊN NỮ.epub",
+      "mime": "application/epub+zip",
+      "size": 862566,
+      "modified": "2026-08-15T10:08:47.000Z",
+      "checksum": "fd707fce24752789c62dcc53f43229c8",
+      "folder": false
+    },
+    {
+      "id": "1Pll4ViEmIGQLF6CrukNuD5YPJV8xARs7",
+      "parent_id": "13_YiqbQjkctP3MRXK5wKXIcggI98GaFU",
+      "name": "TINH VÂN TIÊN NỮ.pdf",
+      "mime": "application/pdf",
+      "size": 1866894,
+      "modified": "2026-08-15T10:08:44.000Z",
+      "checksum": "124f33be4bf9b2f9dd239b24d4c112ad",
+      "folder": false
+    }
+  ]
+}

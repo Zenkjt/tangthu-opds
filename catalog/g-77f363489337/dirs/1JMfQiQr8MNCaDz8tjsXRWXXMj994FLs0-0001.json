@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JMfQiQr8MNCaDz8tjsXRWXXMj994FLs0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oQ6Xo0C_PN8zNga57JPOI3KpfTuF4qzO",
+      "parent_id": "1JMfQiQr8MNCaDz8tjsXRWXXMj994FLs0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7103,
+      "modified": "2026-08-15T07:55:56.000Z",
+      "checksum": "5e4b247236acb1cc466874e39e071639",
+      "folder": false
+    },
+    {
+      "id": "1sXaxgr_9xJIUHmfZtD_h2FWYWJKXFeoC",
+      "parent_id": "1JMfQiQr8MNCaDz8tjsXRWXXMj994FLs0",
+      "name": "NGƯỜI ĐẾN TỪ BÓNG TỐI.epub",
+      "mime": "application/epub+zip",
+      "size": 1814839,
+      "modified": "2026-08-15T07:56:04.000Z",
+      "checksum": "b3739ce6ce5c8235bb0834c607426045",
+      "folder": false
+    },
+    {
+      "id": "1jncNAcKnyjj0uAL9mdWmH4BRDlOvVdi4",
+      "parent_id": "1JMfQiQr8MNCaDz8tjsXRWXXMj994FLs0",
+      "name": "NGƯỜI ĐẾN TỪ BÓNG TỐI.pdf",
+      "mime": "application/pdf",
+      "size": 1786352,
+      "modified": "2026-08-15T07:56:00.000Z",
+      "checksum": "1c41ac78f57be6811e223f63d2dfe99d",
+      "folder": false
+    }
+  ]
+}

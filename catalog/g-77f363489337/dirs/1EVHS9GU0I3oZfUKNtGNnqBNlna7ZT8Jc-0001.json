@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EVHS9GU0I3oZfUKNtGNnqBNlna7ZT8Jc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rb8m7rbrdiwGfQPN0dhIj8-IWZ3IguNL",
+      "parent_id": "1EVHS9GU0I3oZfUKNtGNnqBNlna7ZT8Jc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4710,
+      "modified": "2026-08-15T09:51:11.000Z",
+      "checksum": "e22613e3100a98ce1b0a9ff333737977",
+      "folder": false
+    },
+    {
+      "id": "1kbJN-d4KYqcdZgLXcEDkTDCYIJA3Maw2",
+      "parent_id": "1EVHS9GU0I3oZfUKNtGNnqBNlna7ZT8Jc",
+      "name": "ĐIỆP MỘNG HỒNG HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 6419233,
+      "modified": "2026-08-15T09:52:02.000Z",
+      "checksum": "01ca5c949285c1244e4b9c0d8c902dea",
+      "folder": false
+    },
+    {
+      "id": "1ueaaJaJAdNi_K8OJfjGKC11RfjAQp4Qk",
+      "parent_id": "1EVHS9GU0I3oZfUKNtGNnqBNlna7ZT8Jc",
+      "name": "ĐIỆP MỘNG HỒNG HOA.pdf",
+      "mime": "application/pdf",
+      "size": 5562527,
+      "modified": "2026-08-15T09:51:25.000Z",
+      "checksum": "974abd521efc833043e49b0fb3eb94c0",
+      "folder": false
+    }
+  ]
+}

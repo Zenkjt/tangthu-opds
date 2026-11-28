@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1igMnOhLQWJMlWu0ZqL9Mb6kWEzd9utxQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1y0K4OCdZgHm-mNyM-1E33ZEe_M5za2OB",
+      "parent_id": "1igMnOhLQWJMlWu0ZqL9Mb6kWEzd9utxQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 876,
+      "modified": "2026-08-15T15:36:54.000Z",
+      "checksum": "d72b50cd5781a0c2bfe0b9e44f2f5008",
+      "folder": false
+    },
+    {
+      "id": "1uFgdyOe1O2CuK4NZUDN6syEgnr3ROBR7",
+      "parent_id": "1igMnOhLQWJMlWu0ZqL9Mb6kWEzd9utxQ",
+      "name": "TẬN CÙNG LÀ CÁI CHẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 427474,
+      "modified": "2026-08-15T15:37:01.000Z",
+      "checksum": "209eb1cf2f7ae452755becf35b174528",
+      "folder": false
+    },
+    {
+      "id": "1clZuOp4kl92IPMwwg66YS4h8gzSh6Cc1",
+      "parent_id": "1igMnOhLQWJMlWu0ZqL9Mb6kWEzd9utxQ",
+      "name": "TẬN CÙNG LÀ CÁI CHẾT.pdf",
+      "mime": "application/pdf",
+      "size": 827140,
+      "modified": "2026-08-15T15:36:58.000Z",
+      "checksum": "9d56001d09e4fce00215480ad7bfaa36",
+      "folder": false
+    }
+  ]
+}

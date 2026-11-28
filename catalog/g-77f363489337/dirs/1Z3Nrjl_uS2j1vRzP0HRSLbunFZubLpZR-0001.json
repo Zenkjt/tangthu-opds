@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Z3Nrjl_uS2j1vRzP0HRSLbunFZubLpZR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yoYAhiU1FbupHEpZRiDAyxruafc0-_M-",
+      "parent_id": "1Z3Nrjl_uS2j1vRzP0HRSLbunFZubLpZR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3624,
+      "modified": "2026-08-15T10:39:28.000Z",
+      "checksum": "b15e87320e98a4d72669b183cf5d53a0",
+      "folder": false
+    },
+    {
+      "id": "1RU8X_76la2J24ey4kCn0QY9de9seS4wU",
+      "parent_id": "1Z3Nrjl_uS2j1vRzP0HRSLbunFZubLpZR",
+      "name": "NHẬT KÝ CHIM ÉN.epub",
+      "mime": "application/epub+zip",
+      "size": 322910,
+      "modified": "2026-08-15T10:39:37.000Z",
+      "checksum": "34e607732be632e890d9dbea95ce8f61",
+      "folder": false
+    },
+    {
+      "id": "15RjqvVa5J0Er4C2O_DHFqpqqKpo310aW",
+      "parent_id": "1Z3Nrjl_uS2j1vRzP0HRSLbunFZubLpZR",
+      "name": "NHẬT KÝ CHIM ÉN.pdf",
+      "mime": "application/pdf",
+      "size": 512812,
+      "modified": "2026-08-15T10:39:34.000Z",
+      "checksum": "ec154ff50bf389112839221c1dd00b19",
+      "folder": false
+    }
+  ]
+}

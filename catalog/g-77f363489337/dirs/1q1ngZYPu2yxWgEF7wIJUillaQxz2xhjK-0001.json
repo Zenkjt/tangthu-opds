@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1q1ngZYPu2yxWgEF7wIJUillaQxz2xhjK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NaJTAQmdI4WlznQeJMXi_PvAbKs4JRiM",
+      "parent_id": "1q1ngZYPu2yxWgEF7wIJUillaQxz2xhjK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1342,
+      "modified": "2026-08-15T03:39:27.000Z",
+      "checksum": "4f21c1e45ef152c9f65ab608ce9a5ac5",
+      "folder": false
+    },
+    {
+      "id": "1vQG5wtvdhM0JfmoROom5VJ-v3EYbFDYJ",
+      "parent_id": "1q1ngZYPu2yxWgEF7wIJUillaQxz2xhjK",
+      "name": "TỪNG BƯỚC NỞ HOA SEN.epub",
+      "mime": "application/epub+zip",
+      "size": 740553,
+      "modified": "2026-08-15T03:39:33.000Z",
+      "checksum": "ebe53f5c88690ad903a9638974e82877",
+      "folder": false
+    },
+    {
+      "id": "1B3pOA-WZCPNVJhPw2yG3oqG3glaTiBUm",
+      "parent_id": "1q1ngZYPu2yxWgEF7wIJUillaQxz2xhjK",
+      "name": "TỪNG BƯỚC NỞ HOA SEN.pdf",
+      "mime": "application/pdf",
+      "size": 598926,
+      "modified": "2026-08-15T03:39:30.000Z",
+      "checksum": "4b4e00e1027c5d59986e0b2141711677",
+      "folder": false
+    }
+  ]
+}

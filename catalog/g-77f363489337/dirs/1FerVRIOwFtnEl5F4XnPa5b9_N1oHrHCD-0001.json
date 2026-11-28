@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FerVRIOwFtnEl5F4XnPa5b9_N1oHrHCD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FVeWx9Blwq5NXRI8YIyrajeexhWdraYa",
+      "parent_id": "1FerVRIOwFtnEl5F4XnPa5b9_N1oHrHCD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3203,
+      "modified": "2026-08-15T00:56:16.000Z",
+      "checksum": "56ad5e524f3903fa8aa3cf4050cec9a5",
+      "folder": false
+    },
+    {
+      "id": "1SdHqJLI7U-ezO12kR-9oJ-DLMqUEXYJe",
+      "parent_id": "1FerVRIOwFtnEl5F4XnPa5b9_N1oHrHCD",
+      "name": "ĐÀN HƯƠNG HÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 682381,
+      "modified": "2026-08-15T00:56:24.000Z",
+      "checksum": "1541de15907ec5a5bad16011ce930fb1",
+      "folder": false
+    },
+    {
+      "id": "1Tj2gFyuEgooEmpaMrr_Xdw9jBibYfsc7",
+      "parent_id": "1FerVRIOwFtnEl5F4XnPa5b9_N1oHrHCD",
+      "name": "ĐÀN HƯƠNG HÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 1762722,
+      "modified": "2026-08-15T00:56:22.000Z",
+      "checksum": "0b7f65ada1bb619e0ce30c1df4dca2b6",
+      "folder": false
+    }
+  ]
+}

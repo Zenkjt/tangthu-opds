@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13m9V866OBUewdvy16noH25dlX0JbmaZb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nf2WuCsG7Oa-ckXhhunF4OEmbbBLqg6Q",
+      "parent_id": "13m9V866OBUewdvy16noH25dlX0JbmaZb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 650,
+      "modified": "2026-08-15T10:57:04.000Z",
+      "checksum": "c83836ff44f6155551b02eaf01ebe484",
+      "folder": false
+    },
+    {
+      "id": "19uIVDffhBtBfn-32MtvcbLF2_LqrYPKu",
+      "parent_id": "13m9V866OBUewdvy16noH25dlX0JbmaZb",
+      "name": "HAI MƯƠI NĂM SAU.epub",
+      "mime": "application/epub+zip",
+      "size": 975746,
+      "modified": "2026-08-15T10:57:14.000Z",
+      "checksum": "3a0a033f87b77ef7d78d83bb412bd888",
+      "folder": false
+    },
+    {
+      "id": "1TT4O_dIQE31wxhNeTNPn6-sFsl0XL-Up",
+      "parent_id": "13m9V866OBUewdvy16noH25dlX0JbmaZb",
+      "name": "HAI MƯƠI NĂM SAU.pdf",
+      "mime": "application/pdf",
+      "size": 3246698,
+      "modified": "2026-08-15T10:57:11.000Z",
+      "checksum": "40797f07aa1f56b2a7d8c3179d2c58d2",
+      "folder": false
+    }
+  ]
+}

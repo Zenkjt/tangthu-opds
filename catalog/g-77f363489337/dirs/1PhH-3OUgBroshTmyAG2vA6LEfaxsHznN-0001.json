@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PhH-3OUgBroshTmyAG2vA6LEfaxsHznN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dAfcT_S9lRFjKkS0ZU5jXJG47OuScTyD",
+      "parent_id": "1PhH-3OUgBroshTmyAG2vA6LEfaxsHznN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3109,
+      "modified": "2026-08-15T07:24:59.000Z",
+      "checksum": "55cb85da3ca4d7a41fbfb58f4fbe4e4c",
+      "folder": false
+    },
+    {
+      "id": "1iHl7CuLnM0o7ziY-q7GfkeDw93fn9lBG",
+      "parent_id": "1PhH-3OUgBroshTmyAG2vA6LEfaxsHznN",
+      "name": "TÚY LINH LUNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1400500,
+      "modified": "2026-08-15T07:25:14.000Z",
+      "checksum": "abfa0d30f5ff9dc0736178d374969e56",
+      "folder": false
+    },
+    {
+      "id": "14ScLV-kM6eDRSp7aBSND7YjWmrFp2JwW",
+      "parent_id": "1PhH-3OUgBroshTmyAG2vA6LEfaxsHznN",
+      "name": "TÚY LINH LUNG.pdf",
+      "mime": "application/pdf",
+      "size": 5325972,
+      "modified": "2026-08-15T07:25:10.000Z",
+      "checksum": "5698ddbea805a189602ba9244588368d",
+      "folder": false
+    }
+  ]
+}

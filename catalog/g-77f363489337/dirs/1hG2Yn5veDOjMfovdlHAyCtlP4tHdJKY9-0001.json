@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hG2Yn5veDOjMfovdlHAyCtlP4tHdJKY9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nS8nd9wlZxb2L-7IirjPuhn30mNbk8GN",
+      "parent_id": "1hG2Yn5veDOjMfovdlHAyCtlP4tHdJKY9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4741,
+      "modified": "2026-08-15T07:22:45.000Z",
+      "checksum": "bce56986cb94bc55ef186032e089d744",
+      "folder": false
+    },
+    {
+      "id": "1FkMB8F5ek4VFYzv8df4UiOUdvWIwF4la",
+      "parent_id": "1hG2Yn5veDOjMfovdlHAyCtlP4tHdJKY9",
+      "name": "TRÙNG SINH CHI KẾ MẪU.epub",
+      "mime": "application/epub+zip",
+      "size": 881720,
+      "modified": "2026-08-15T07:22:51.000Z",
+      "checksum": "4c2762b2c6842f16299cfa577c0697c4",
+      "folder": false
+    },
+    {
+      "id": "1YdhABj9qc3GPMxwAWr-C-w94dt4iqCAp",
+      "parent_id": "1hG2Yn5veDOjMfovdlHAyCtlP4tHdJKY9",
+      "name": "TRÙNG SINH CHI KẾ MẪU.pdf",
+      "mime": "application/pdf",
+      "size": 445097,
+      "modified": "2026-08-15T07:22:48.000Z",
+      "checksum": "0d1f35297fb46daabb9989ef8ad33428",
+      "folder": false
+    }
+  ]
+}

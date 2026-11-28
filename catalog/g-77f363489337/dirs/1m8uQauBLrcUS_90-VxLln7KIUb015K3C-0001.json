@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1m8uQauBLrcUS_90-VxLln7KIUb015K3C",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Z1_bJyBnh5svF6TG2x8uQs7iVZZpZNnp",
+      "parent_id": "1m8uQauBLrcUS_90-VxLln7KIUb015K3C",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3137,
+      "modified": "2026-08-15T12:27:10.000Z",
+      "checksum": "58f3a2a0a3a17f4508fa1b090840ec82",
+      "folder": false
+    },
+    {
+      "id": "1hmOW-9AxsCTev59oGwsbzJP8PlWoteaz",
+      "parent_id": "1m8uQauBLrcUS_90-VxLln7KIUb015K3C",
+      "name": "SĂN SÓC SỰ HỌC CỦA CON EM.epub",
+      "mime": "application/epub+zip",
+      "size": 368217,
+      "modified": "2026-08-15T12:27:19.000Z",
+      "checksum": "9d0b8ed3a77e8fc1f74bde97cb29b606",
+      "folder": false
+    },
+    {
+      "id": "1NR4v1iiGE7Ko1SvGBtTH3ol1gp1AXtFn",
+      "parent_id": "1m8uQauBLrcUS_90-VxLln7KIUb015K3C",
+      "name": "SĂN SÓC SỰ HỌC CỦA CON EM.pdf",
+      "mime": "application/pdf",
+      "size": 900326,
+      "modified": "2026-08-15T12:27:16.000Z",
+      "checksum": "3e6dcda29d0608e5cf91452da963baad",
+      "folder": false
+    }
+  ]
+}

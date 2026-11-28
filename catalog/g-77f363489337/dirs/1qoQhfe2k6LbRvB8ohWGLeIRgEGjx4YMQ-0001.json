@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qoQhfe2k6LbRvB8ohWGLeIRgEGjx4YMQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1shIQxAZkVM3tLvQDmUABcwZ2TRv192wT",
+      "parent_id": "1qoQhfe2k6LbRvB8ohWGLeIRgEGjx4YMQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1700,
+      "modified": "2026-08-15T03:38:25.000Z",
+      "checksum": "35b2717aeb268ac5010251d514abdd6f",
+      "folder": false
+    },
+    {
+      "id": "1dur_wlQKDhst4u-NXUjup4pq1lpYwGcG",
+      "parent_id": "1qoQhfe2k6LbRvB8ohWGLeIRgEGjx4YMQ",
+      "name": "PHÉP LẠ CỦA SỰ TỈNH THỨC.epub",
+      "mime": "application/epub+zip",
+      "size": 235999,
+      "modified": "2026-08-15T03:38:32.000Z",
+      "checksum": "ed1f69ca8bee47db77b008fd1468c774",
+      "folder": false
+    },
+    {
+      "id": "1jzIn2zsSKtSU5Bx7udj0_jLTdxXo_DxM",
+      "parent_id": "1qoQhfe2k6LbRvB8ohWGLeIRgEGjx4YMQ",
+      "name": "PHÉP LẠ CỦA SỰ TỈNH THỨC.pdf",
+      "mime": "application/pdf",
+      "size": 556765,
+      "modified": "2026-08-15T03:38:29.000Z",
+      "checksum": "756093da35dc623fe49e962efa3e8ac9",
+      "folder": false
+    }
+  ]
+}

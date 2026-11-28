@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Li8P7Lhgkbgf8LZSAfNdTQoIGTYpdeOv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AviFgrc5ImS4fbMnhu34vDsToW2Em36j",
+      "parent_id": "1Li8P7Lhgkbgf8LZSAfNdTQoIGTYpdeOv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 585,
+      "modified": "2026-08-16T04:19:50.000Z",
+      "checksum": "6334a64a8c9a319f222ba54b606c5f56",
+      "folder": false
+    },
+    {
+      "id": "1Re9ftU3XzfS_QhE8tpbXbGUyMAXoB67J",
+      "parent_id": "1Li8P7Lhgkbgf8LZSAfNdTQoIGTYpdeOv",
+      "name": "GIÓ XOAY CHIỀU.epub",
+      "mime": "application/epub+zip",
+      "size": 326807,
+      "modified": "2026-08-16T04:19:57.000Z",
+      "checksum": "7f2232b1851edac0692066ef7599d92f",
+      "folder": false
+    },
+    {
+      "id": "1-2dP6-FQHmcd5Jo139QoZbP3gxNAoXbb",
+      "parent_id": "1Li8P7Lhgkbgf8LZSAfNdTQoIGTYpdeOv",
+      "name": "GIÓ XOAY CHIỀU.pdf",
+      "mime": "application/pdf",
+      "size": 648166,
+      "modified": "2026-08-16T04:19:54.000Z",
+      "checksum": "f69248f8988783e84791ecec282ea0f5",
+      "folder": false
+    }
+  ]
+}

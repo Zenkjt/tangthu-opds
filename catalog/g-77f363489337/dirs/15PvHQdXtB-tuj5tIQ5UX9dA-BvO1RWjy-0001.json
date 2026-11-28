@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15PvHQdXtB-tuj5tIQ5UX9dA-BvO1RWjy",
+  "page": 1,
+  "items": [
+    {
+      "id": "19Mjlonf7Z4gYgdffarx5GxT4yYhHjCCG",
+      "parent_id": "15PvHQdXtB-tuj5tIQ5UX9dA-BvO1RWjy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 553,
+      "modified": "2026-08-15T10:52:27.000Z",
+      "checksum": "ff0e29689016e1ab1d1645995390fb72",
+      "folder": false
+    },
+    {
+      "id": "106sMfymn0T3fiCZYFOganSKwEzIlc7Ml",
+      "parent_id": "15PvHQdXtB-tuj5tIQ5UX9dA-BvO1RWjy",
+      "name": "MỘT CHỖ TRONG ĐỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 557373,
+      "modified": "2026-08-15T10:52:33.000Z",
+      "checksum": "c60e3517678a352a678d30a6421d64a7",
+      "folder": false
+    },
+    {
+      "id": "14DFP6aYp29292F-oLe2fZ7dnujVgGAM4",
+      "parent_id": "15PvHQdXtB-tuj5tIQ5UX9dA-BvO1RWjy",
+      "name": "MỘT CHỖ TRONG ĐỜI.pdf",
+      "mime": "application/pdf",
+      "size": 420305,
+      "modified": "2026-08-15T10:52:30.000Z",
+      "checksum": "405abe845d3e17951e262b3607157212",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bL2U7lYmX1PzZ7HQgzeSLV6UX4OK-wUK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S78WzrPm49puPLjrMEvtG4Xp5Iua2Ozx",
+      "parent_id": "1bL2U7lYmX1PzZ7HQgzeSLV6UX4OK-wUK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 16179,
+      "modified": "2026-08-15T03:44:18.000Z",
+      "checksum": "e189ebd075ee11aa0d050d01a12cdf77",
+      "folder": false
+    },
+    {
+      "id": "1pKNCi3GKKZmb5HvGF0Svzcglz4eUhS9v",
+      "parent_id": "1bL2U7lYmX1PzZ7HQgzeSLV6UX4OK-wUK",
+      "name": "VÒNG TÁI SINH.epub",
+      "mime": "application/epub+zip",
+      "size": 587308,
+      "modified": "2026-08-15T03:44:25.000Z",
+      "checksum": "8c66a41390d36705119e27e160e2201b",
+      "folder": false
+    },
+    {
+      "id": "1exfcA04rVYHtRi2BeGVlGdmXz8Je-U47",
+      "parent_id": "1bL2U7lYmX1PzZ7HQgzeSLV6UX4OK-wUK",
+      "name": "VÒNG TÁI SINH.pdf",
+      "mime": "application/pdf",
+      "size": 905283,
+      "modified": "2026-08-15T03:44:22.000Z",
+      "checksum": "1fc353632e346252bee07f24189f39ca",
+      "folder": false
+    }
+  ]
+}

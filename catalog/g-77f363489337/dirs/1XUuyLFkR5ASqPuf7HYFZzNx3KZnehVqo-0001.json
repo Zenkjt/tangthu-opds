@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XUuyLFkR5ASqPuf7HYFZzNx3KZnehVqo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hQQ2R8TZ5Gm_8UzYOtyGzzzctLq-0FyP",
+      "parent_id": "1XUuyLFkR5ASqPuf7HYFZzNx3KZnehVqo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 566,
+      "modified": "2026-08-15T10:59:09.000Z",
+      "checksum": "32afe7372f9bc7b0fd8c9a808695e7ce",
+      "folder": false
+    },
+    {
+      "id": "1VihwYBMLdoZKfoYk2ZdLtOyZydpb0R0N",
+      "parent_id": "1XUuyLFkR5ASqPuf7HYFZzNx3KZnehVqo",
+      "name": "ĐỊNH MỆNH ANH YÊU EM.epub",
+      "mime": "application/epub+zip",
+      "size": 275593,
+      "modified": "2026-08-15T10:59:19.000Z",
+      "checksum": "522c6eeb245fdb11e3482df4fec3a01b",
+      "folder": false
+    },
+    {
+      "id": "1_70khs2smbyLPbS9-w1onSj9gR4ceOU3",
+      "parent_id": "1XUuyLFkR5ASqPuf7HYFZzNx3KZnehVqo",
+      "name": "ĐỊNH MỆNH ANH YÊU EM.pdf",
+      "mime": "application/pdf",
+      "size": 307128,
+      "modified": "2026-08-15T10:59:16.000Z",
+      "checksum": "b5724891e95669874e4697a7ddb543bd",
+      "folder": false
+    }
+  ]
+}

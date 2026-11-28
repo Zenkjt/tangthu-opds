@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1L97XyDTMNMKr78R2QwG_3STT6n7Feaui",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oU7jhC0FeFYiIKoYAyMPlhINEENBrxwW",
+      "parent_id": "1L97XyDTMNMKr78R2QwG_3STT6n7Feaui",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 534,
+      "modified": "2026-08-15T10:30:05.000Z",
+      "checksum": "f58489379ef9c2d919118f4938818da3",
+      "folder": false
+    },
+    {
+      "id": "1ZVMmDA1YxkteLn6PdivpMaioKMcIi_kS",
+      "parent_id": "1L97XyDTMNMKr78R2QwG_3STT6n7Feaui",
+      "name": "RAMAYANA.epub",
+      "mime": "application/epub+zip",
+      "size": 491627,
+      "modified": "2026-08-15T10:30:13.000Z",
+      "checksum": "0e268b34ae33ee7debe86067424ecb06",
+      "folder": false
+    },
+    {
+      "id": "1uGc51QySGoY0RQlDoyym1GvBM-J2kQAQ",
+      "parent_id": "1L97XyDTMNMKr78R2QwG_3STT6n7Feaui",
+      "name": "RAMAYANA.pdf",
+      "mime": "application/pdf",
+      "size": 785127,
+      "modified": "2026-08-15T10:30:11.000Z",
+      "checksum": "64a168360f52fac103f713b85eeb6652",
+      "folder": false
+    }
+  ]
+}

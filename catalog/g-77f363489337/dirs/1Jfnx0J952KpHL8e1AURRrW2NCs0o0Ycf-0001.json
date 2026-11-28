@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Jfnx0J952KpHL8e1AURRrW2NCs0o0Ycf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P6hIR_QuEUQjM316mr7VTaZ8HSIv44zA",
+      "parent_id": "1Jfnx0J952KpHL8e1AURRrW2NCs0o0Ycf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3616,
+      "modified": "2026-08-16T04:15:36.000Z",
+      "checksum": "ca99fa0dccae969573038a6611ed9fd8",
+      "folder": false
+    },
+    {
+      "id": "1x-xnfMGDbW2xxaAq9w8Beo06T40tJDlc",
+      "parent_id": "1Jfnx0J952KpHL8e1AURRrW2NCs0o0Ycf",
+      "name": "NGÀY MAI KHÔNG HẸN TRƯỚC.epub",
+      "mime": "application/epub+zip",
+      "size": 1269091,
+      "modified": "2026-08-16T04:15:42.000Z",
+      "checksum": "355ec6545ca24d14a77b371c1242b0c4",
+      "folder": false
+    },
+    {
+      "id": "1vAIzYH7H-Kwyt83oAGJYg7mgaYxqyoM0",
+      "parent_id": "1Jfnx0J952KpHL8e1AURRrW2NCs0o0Ycf",
+      "name": "NGÀY MAI KHÔNG HẸN TRƯỚC.pdf",
+      "mime": "application/pdf",
+      "size": 1095838,
+      "modified": "2026-08-16T04:15:40.000Z",
+      "checksum": "756801cd3b619ea8b709578871596b64",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Dp8oHz20-fzGkJvlcPsmZS6yQncutjuV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TZUGDcTdet1k6GHLMOH6Kn6akOEz4UQQ",
+      "parent_id": "1Dp8oHz20-fzGkJvlcPsmZS6yQncutjuV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3406,
+      "modified": "2026-08-15T10:36:51.000Z",
+      "checksum": "a2648c2837e66992f3263512a10ea346",
+      "folder": false
+    },
+    {
+      "id": "1Jrj64VpsNZamSAeu9NS6LV9Cm2jhEMZw",
+      "parent_id": "1Dp8oHz20-fzGkJvlcPsmZS6yQncutjuV",
+      "name": "NHỮNG NGƯỜI ĐÀN BÀ TẮM.epub",
+      "mime": "application/epub+zip",
+      "size": 615743,
+      "modified": "2026-08-15T10:37:01.000Z",
+      "checksum": "cae54a22e9c82036ddd2be9b1976ca89",
+      "folder": false
+    },
+    {
+      "id": "1wJLJIXmNayLTcSI5cjimEQZSnK_uXSrN",
+      "parent_id": "1Dp8oHz20-fzGkJvlcPsmZS6yQncutjuV",
+      "name": "NHỮNG NGƯỜI ĐÀN BÀ TẮM.pdf",
+      "mime": "application/pdf",
+      "size": 1398544,
+      "modified": "2026-08-15T10:36:56.000Z",
+      "checksum": "0723bba29b5635e528cd385ea162a3a3",
+      "folder": false
+    }
+  ]
+}

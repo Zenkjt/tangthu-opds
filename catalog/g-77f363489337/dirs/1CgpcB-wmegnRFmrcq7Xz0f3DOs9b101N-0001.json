@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CgpcB-wmegnRFmrcq7Xz0f3DOs9b101N",
+  "page": 1,
+  "items": [
+    {
+      "id": "11zl8lkcdrfNCL3xRJtE5blt92vW0hIZ0",
+      "parent_id": "1CgpcB-wmegnRFmrcq7Xz0f3DOs9b101N",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2290,
+      "modified": "2026-08-15T07:44:28.000Z",
+      "checksum": "9b95a5632ec240721f05a0e569af9dbc",
+      "folder": false
+    },
+    {
+      "id": "1pYAUzuUzuMBtUk5SJoJ3tsfEdlTVu-Dv",
+      "parent_id": "1CgpcB-wmegnRFmrcq7Xz0f3DOs9b101N",
+      "name": "THÚ PHI.epub",
+      "mime": "application/epub+zip",
+      "size": 4552979,
+      "modified": "2026-08-15T07:44:46.000Z",
+      "checksum": "191d7df6d072b3c130efc9de7c32a2f6",
+      "folder": false
+    },
+    {
+      "id": "1_m13zOCvE-7wqJnsGsPWzz3_RW0jE4Qu",
+      "parent_id": "1CgpcB-wmegnRFmrcq7Xz0f3DOs9b101N",
+      "name": "THÚ PHI.pdf",
+      "mime": "application/pdf",
+      "size": 9028457,
+      "modified": "2026-08-15T07:44:41.000Z",
+      "checksum": "74c93f963274d0e884aeb79ae2b38f86",
+      "folder": false
+    }
+  ]
+}

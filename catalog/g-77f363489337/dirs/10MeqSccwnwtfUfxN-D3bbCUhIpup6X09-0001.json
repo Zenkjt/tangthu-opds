@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10MeqSccwnwtfUfxN-D3bbCUhIpup6X09",
+  "page": 1,
+  "items": [
+    {
+      "id": "1a_UnRf3ziGSIPhasiK-MyUXEFj3F0WqS",
+      "parent_id": "10MeqSccwnwtfUfxN-D3bbCUhIpup6X09",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3610,
+      "modified": "2026-08-16T03:56:58.000Z",
+      "checksum": "05712b003c7b468c4be6c4d44685ce03",
+      "folder": false
+    },
+    {
+      "id": "1yvO4-7CTUpCTPEKHD7NavMYSKwc3Yb4s",
+      "parent_id": "10MeqSccwnwtfUfxN-D3bbCUhIpup6X09",
+      "name": "THỜI GIAN CHỈ DỪNG LẠI VÌ EM.epub",
+      "mime": "application/epub+zip",
+      "size": 1221523,
+      "modified": "2026-08-16T03:57:06.000Z",
+      "checksum": "78ee9eb8ad7c61cc0d977c62a0cc93f9",
+      "folder": false
+    },
+    {
+      "id": "1qNKeiMjjLRcTJ0XIbPZF8x2FPiS0fHdH",
+      "parent_id": "10MeqSccwnwtfUfxN-D3bbCUhIpup6X09",
+      "name": "THỜI GIAN CHỈ DỪNG LẠI VÌ EM.pdf",
+      "mime": "application/pdf",
+      "size": 1404070,
+      "modified": "2026-08-16T03:57:02.000Z",
+      "checksum": "db5209a87e6829af5ef340a0d6f861fa",
+      "folder": false
+    }
+  ]
+}

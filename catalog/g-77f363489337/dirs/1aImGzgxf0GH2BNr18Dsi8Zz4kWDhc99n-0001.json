@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aImGzgxf0GH2BNr18Dsi8Zz4kWDhc99n",
+  "page": 1,
+  "items": [
+    {
+      "id": "15F4jekCjdozVVXhcT1MM_aFJGS1iEPA9",
+      "parent_id": "1aImGzgxf0GH2BNr18Dsi8Zz4kWDhc99n",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3503,
+      "modified": "2026-08-15T10:40:25.000Z",
+      "checksum": "6473ef0bcff782ad103383ed38641507",
+      "folder": false
+    },
+    {
+      "id": "1XMR7V8kH6mXsM2HLGmy23GUFgz-hLonu",
+      "parent_id": "1aImGzgxf0GH2BNr18Dsi8Zz4kWDhc99n",
+      "name": "NHÂN CHỨNG CÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 1015650,
+      "modified": "2026-08-15T10:40:36.000Z",
+      "checksum": "7b856db9fc2ea03c97b05383a0012c7d",
+      "folder": false
+    },
+    {
+      "id": "1yBHSFk9A2I5rfQ3XdzDWw3CyiofJ43RG",
+      "parent_id": "1aImGzgxf0GH2BNr18Dsi8Zz4kWDhc99n",
+      "name": "NHÂN CHỨNG CÂM.pdf",
+      "mime": "application/pdf",
+      "size": 967178,
+      "modified": "2026-08-15T10:40:32.000Z",
+      "checksum": "b3ce3c5fffd9b7b9e033dc04285b92a7",
+      "folder": false
+    }
+  ]
+}

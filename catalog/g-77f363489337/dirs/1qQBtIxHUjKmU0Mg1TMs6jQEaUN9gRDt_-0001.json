@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qQBtIxHUjKmU0Mg1TMs6jQEaUN9gRDt_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qxyiSERjFOjtWw17aIJFdpz8Bk3gkEoY",
+      "parent_id": "1qQBtIxHUjKmU0Mg1TMs6jQEaUN9gRDt_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2351,
+      "modified": "2026-08-15T03:45:49.000Z",
+      "checksum": "c7d59f00db188b959b66dbb8172ddbf9",
+      "folder": false
+    },
+    {
+      "id": "1nwmnnkyKHC10jRsjShfHbKp-N2hzrCLs",
+      "parent_id": "1qQBtIxHUjKmU0Mg1TMs6jQEaUN9gRDt_",
+      "name": "THIỀN SƯ TĂNG HỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 588984,
+      "modified": "2026-08-15T03:45:55.000Z",
+      "checksum": "cd3dd2a7476297291012a3bfc42d7fd7",
+      "folder": false
+    },
+    {
+      "id": "19srRLKgec8SAXzLCx6-vZEcMinagaEIh",
+      "parent_id": "1qQBtIxHUjKmU0Mg1TMs6jQEaUN9gRDt_",
+      "name": "THIỀN SƯ TĂNG HỘI.pdf",
+      "mime": "application/pdf",
+      "size": 881341,
+      "modified": "2026-08-15T03:45:52.000Z",
+      "checksum": "1e4e74f931379630c94fa0f91dc3cd2e",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EdfNaHsIr8wEpLxWSrHHg_ZYPmLftF0L",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aDe6fKk6jKxfu3e-vUfZ9a7h7FpL-EW1",
+      "parent_id": "1EdfNaHsIr8wEpLxWSrHHg_ZYPmLftF0L",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2318,
+      "modified": "2026-08-15T15:33:25.000Z",
+      "checksum": "230584616ad44125d22c756dcada8be1",
+      "folder": false
+    },
+    {
+      "id": "1OQfqdm1vBTTDUiERARlNT8y6Ru2pDN7w",
+      "parent_id": "1EdfNaHsIr8wEpLxWSrHHg_ZYPmLftF0L",
+      "name": "VỤ ÁN TRƯỜNG THE OXFORD.epub",
+      "mime": "application/epub+zip",
+      "size": 424761,
+      "modified": "2026-08-15T15:33:32.000Z",
+      "checksum": "c3bcb68829457e9106a36f4eeddf77c1",
+      "folder": false
+    },
+    {
+      "id": "12oPHZkmjB75kcV5np0irVvpHdcb5tckV",
+      "parent_id": "1EdfNaHsIr8wEpLxWSrHHg_ZYPmLftF0L",
+      "name": "VỤ ÁN TRƯỜNG THE OXFORD.pdf",
+      "mime": "application/pdf",
+      "size": 959746,
+      "modified": "2026-08-15T15:33:29.000Z",
+      "checksum": "f51814ce660a770d4fd065f88f5b5f7e",
+      "folder": false
+    }
+  ]
+}

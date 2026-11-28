@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11nW-zVJ4v4ZCL1x4Qwm9fuj1obMAnvrU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1V6p9PqTN9x3r-4TM1nU2Vc2e0IpsnJ-Z",
+      "parent_id": "11nW-zVJ4v4ZCL1x4Qwm9fuj1obMAnvrU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1742,
+      "modified": "2026-08-15T17:02:50.000Z",
+      "checksum": "23601e886b6728eda0f8522684486a56",
+      "folder": false
+    },
+    {
+      "id": "1rAnUCf79jYkAYQTJsKP6WcjV0r_2aSc3",
+      "parent_id": "11nW-zVJ4v4ZCL1x4Qwm9fuj1obMAnvrU",
+      "name": "DU LONG TÙY NGUYỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 5673706,
+      "modified": "2026-08-15T17:03:05.000Z",
+      "checksum": "d4f7d40b69edddc2f51521dacd19ca85",
+      "folder": false
+    },
+    {
+      "id": "1Q6I7u-20wjbMEr6npMir4DkvhnKiutb1",
+      "parent_id": "11nW-zVJ4v4ZCL1x4Qwm9fuj1obMAnvrU",
+      "name": "DU LONG TÙY NGUYỆT.pdf",
+      "mime": "application/pdf",
+      "size": 6140798,
+      "modified": "2026-08-15T17:03:02.000Z",
+      "checksum": "df503c5e3f55cc8fa7cf50d84318ccd7",
+      "folder": false
+    }
+  ]
+}

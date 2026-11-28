@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10yx2fFzc92xMOMGTxmld8aQWuHj-BguY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XBco1O7JiwO8y6CFu3B-MWc3pp4L16RT",
+      "parent_id": "10yx2fFzc92xMOMGTxmld8aQWuHj-BguY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2685,
+      "modified": "2026-08-16T03:51:11.000Z",
+      "checksum": "d2456364142b687e8d47c12f549e66f1",
+      "folder": false
+    },
+    {
+      "id": "1Fg7LrWd757Rvy1hEx6Y1HcJt307j0Iit",
+      "parent_id": "10yx2fFzc92xMOMGTxmld8aQWuHj-BguY",
+      "name": "VƯỢN CÁO.epub",
+      "mime": "application/epub+zip",
+      "size": 897493,
+      "modified": "2026-08-16T03:51:17.000Z",
+      "checksum": "2fe938812a87a83564bd778fe72a3e28",
+      "folder": false
+    },
+    {
+      "id": "1YdHFvAeM240LAdWW95J1xZWQED7DXFMx",
+      "parent_id": "10yx2fFzc92xMOMGTxmld8aQWuHj-BguY",
+      "name": "VƯỢN CÁO.pdf",
+      "mime": "application/pdf",
+      "size": 837582,
+      "modified": "2026-08-16T03:51:14.000Z",
+      "checksum": "92de5fa82b03d748e224920ef0f0185b",
+      "folder": false
+    }
+  ]
+}

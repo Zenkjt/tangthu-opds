@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lio5SprxEWVaV6cdZia1Wo0Y9UtvIviE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oXo8JunoqZ2Qxd5i0MxXNjvJggwyQkNi",
+      "parent_id": "1lio5SprxEWVaV6cdZia1Wo0Y9UtvIviE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3158,
+      "modified": "2026-08-16T04:13:42.000Z",
+      "checksum": "e8ac95a72fe1f01a7f17f2b2a3020d9c",
+      "folder": false
+    },
+    {
+      "id": "10QhijLylMiYN0f9xTbDS_Dc3SwE8LVxd",
+      "parent_id": "1lio5SprxEWVaV6cdZia1Wo0Y9UtvIviE",
+      "name": "NGƯỜI GIA SƯ, AGNES GREY.epub",
+      "mime": "application/epub+zip",
+      "size": 443833,
+      "modified": "2026-08-16T04:13:49.000Z",
+      "checksum": "7391f0f58fdba7053b4cf07dfcd98355",
+      "folder": false
+    },
+    {
+      "id": "1G3X4Gmo13ajKwZS88BErPjib7w2bRQyT",
+      "parent_id": "1lio5SprxEWVaV6cdZia1Wo0Y9UtvIviE",
+      "name": "NGƯỜI GIA SƯ, AGNES GREY.pdf",
+      "mime": "application/pdf",
+      "size": 921786,
+      "modified": "2026-08-16T04:13:47.000Z",
+      "checksum": "28a59f145dc4d599f2195ca3f55c2798",
+      "folder": false
+    }
+  ]
+}

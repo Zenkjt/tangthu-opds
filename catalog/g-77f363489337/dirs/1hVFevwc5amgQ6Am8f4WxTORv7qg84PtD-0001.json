@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hVFevwc5amgQ6Am8f4WxTORv7qg84PtD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zAs9s5ITYWDpHhZRaoyHC0Yah9GjawO0",
+      "parent_id": "1hVFevwc5amgQ6Am8f4WxTORv7qg84PtD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2040,
+      "modified": "2026-08-16T03:40:09.000Z",
+      "checksum": "27e668f4ab009da037455b3e1172330c",
+      "folder": false
+    },
+    {
+      "id": "1vUkYbS5idaDnwKtm9Otm1l4pASQxGxcY",
+      "parent_id": "1hVFevwc5amgQ6Am8f4WxTORv7qg84PtD",
+      "name": "HÒA THÂN TÂN TRUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 5266609,
+      "modified": "2026-08-16T03:40:20.000Z",
+      "checksum": "348bbf5bf388af8853d55002e169c7f3",
+      "folder": false
+    },
+    {
+      "id": "1I0No7q9EnGP-Q7DsEhXyuF2H7XuNuO6U",
+      "parent_id": "1hVFevwc5amgQ6Am8f4WxTORv7qg84PtD",
+      "name": "HÒA THÂN TÂN TRUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 4539425,
+      "modified": "2026-08-16T03:40:17.000Z",
+      "checksum": "16a6d1f9b733bc49854dc846092aa32e",
+      "folder": false
+    }
+  ]
+}

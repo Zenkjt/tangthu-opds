@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TuFMUDjaNbXLaKTVFKQCr7XtXjJ7CBDg",
+  "page": 1,
+  "items": [
+    {
+      "id": "122ultA8s1RhwYDIQgwdTXiS8tbLAM50b",
+      "parent_id": "1TuFMUDjaNbXLaKTVFKQCr7XtXjJ7CBDg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 570,
+      "modified": "2026-08-16T03:54:38.000Z",
+      "checksum": "5e16f5d456c2edd34e8b31f1c194a813",
+      "folder": false
+    },
+    {
+      "id": "11APF8mVvWGGS_OPyLpjTD9TwZ-1cBH5A",
+      "parent_id": "1TuFMUDjaNbXLaKTVFKQCr7XtXjJ7CBDg",
+      "name": "TÌNH BUỒN.epub",
+      "mime": "application/epub+zip",
+      "size": 443723,
+      "modified": "2026-08-16T03:54:45.000Z",
+      "checksum": "e9294fadbd5a13a8c43294b2e56da897",
+      "folder": false
+    },
+    {
+      "id": "1aFkDQhdW11G5aiqXKPvUCyE3cqbHMakQ",
+      "parent_id": "1TuFMUDjaNbXLaKTVFKQCr7XtXjJ7CBDg",
+      "name": "TÌNH BUỒN.pdf",
+      "mime": "application/pdf",
+      "size": 1466458,
+      "modified": "2026-08-16T03:54:43.000Z",
+      "checksum": "a18a55f19d50e1fa649a620c85682db4",
+      "folder": false
+    }
+  ]
+}

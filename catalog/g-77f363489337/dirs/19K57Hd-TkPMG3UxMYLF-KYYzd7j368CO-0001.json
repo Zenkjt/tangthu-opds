@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19K57Hd-TkPMG3UxMYLF-KYYzd7j368CO",
+  "page": 1,
+  "items": [
+    {
+      "id": "11uEpMysSLqX9mXpJ-uAUbpfCIuDmz53C",
+      "parent_id": "19K57Hd-TkPMG3UxMYLF-KYYzd7j368CO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 315,
+      "modified": "2026-08-15T10:52:23.000Z",
+      "checksum": "372ffdb33ef273a78b7aafab6fce6c0e",
+      "folder": false
+    },
+    {
+      "id": "1Sk-F6-H3YsLOxmuhYTXP3bdmo9IzpURV",
+      "parent_id": "19K57Hd-TkPMG3UxMYLF-KYYzd7j368CO",
+      "name": "MỘT ĐƯỜNG NÚI SÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 232062,
+      "modified": "2026-08-15T10:52:29.000Z",
+      "checksum": "5cc5a815c8c0d09fc1ccccaaa3e009eb",
+      "folder": false
+    },
+    {
+      "id": "1uxe0theyBZgWqnvY2O2da-zLWX6sYgm3",
+      "parent_id": "19K57Hd-TkPMG3UxMYLF-KYYzd7j368CO",
+      "name": "MỘT ĐƯỜNG NÚI SÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 232344,
+      "modified": "2026-08-15T10:52:26.000Z",
+      "checksum": "ca3b97ab9604d61b6adbc33b881564cd",
+      "folder": false
+    }
+  ]
+}

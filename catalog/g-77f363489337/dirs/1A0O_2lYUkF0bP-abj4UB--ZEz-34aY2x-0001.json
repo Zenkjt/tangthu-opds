@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1A0O_2lYUkF0bP-abj4UB--ZEz-34aY2x",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UajFtTKdM1wJIJrE9-xxriSR_tBm8-0-",
+      "parent_id": "1A0O_2lYUkF0bP-abj4UB--ZEz-34aY2x",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 515,
+      "modified": "2026-08-15T10:05:50.000Z",
+      "checksum": "51eba474102e48692130ce4eef17ae0f",
+      "folder": false
+    },
+    {
+      "id": "1_oefNpmP8lLARd9Wf57619ymRjqxNJZ0",
+      "parent_id": "1A0O_2lYUkF0bP-abj4UB--ZEz-34aY2x",
+      "name": "TUYỂN TẬP TRUYỆN THIẾU NHI.epub",
+      "mime": "application/epub+zip",
+      "size": 835315,
+      "modified": "2026-08-15T10:05:59.000Z",
+      "checksum": "996e1b27a24cd982408a1a4d9e1dcc97",
+      "folder": false
+    },
+    {
+      "id": "1Rop4a72Mfg-NK4QNaJrfuNMOX5CdcAOL",
+      "parent_id": "1A0O_2lYUkF0bP-abj4UB--ZEz-34aY2x",
+      "name": "TUYỂN TẬP TRUYỆN THIẾU NHI.pdf",
+      "mime": "application/pdf",
+      "size": 1903101,
+      "modified": "2026-08-15T10:05:56.000Z",
+      "checksum": "edf6d501d7cfcd077c99a56b7531ec1a",
+      "folder": false
+    }
+  ]
+}

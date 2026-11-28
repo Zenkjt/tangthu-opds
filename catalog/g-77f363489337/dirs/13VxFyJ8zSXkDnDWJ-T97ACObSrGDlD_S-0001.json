@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13VxFyJ8zSXkDnDWJ-T97ACObSrGDlD_S",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jbVZuowAoUHEWyBmogBWetkY4rqOa_eS",
+      "parent_id": "13VxFyJ8zSXkDnDWJ-T97ACObSrGDlD_S",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11064,
+      "modified": "2026-08-16T02:55:06.000Z",
+      "checksum": "cc01193216a557611f7c5930bb6bf523",
+      "folder": false
+    },
+    {
+      "id": "1T-ijxhyXcCoBhto4gP5oG6OVuoU5z6Ao",
+      "parent_id": "13VxFyJ8zSXkDnDWJ-T97ACObSrGDlD_S",
+      "name": "ĐI RA TỪ BÓNG TỐI.epub",
+      "mime": "application/epub+zip",
+      "size": 600391,
+      "modified": "2026-08-16T02:55:13.000Z",
+      "checksum": "8cdc14570a5b445e6c3d1f62a9f6bd7a",
+      "folder": false
+    },
+    {
+      "id": "1HJ1XkesAUGNEPjgOwLHA3DZICLdjXwul",
+      "parent_id": "13VxFyJ8zSXkDnDWJ-T97ACObSrGDlD_S",
+      "name": "ĐI RA TỪ BÓNG TỐI.pdf",
+      "mime": "application/pdf",
+      "size": 1982731,
+      "modified": "2026-08-16T02:55:10.000Z",
+      "checksum": "8ff0a2825e950705a8eaae05d6fcdbf8",
+      "folder": false
+    }
+  ]
+}

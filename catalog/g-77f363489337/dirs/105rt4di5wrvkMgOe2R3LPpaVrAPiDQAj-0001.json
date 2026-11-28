@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "105rt4di5wrvkMgOe2R3LPpaVrAPiDQAj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gXTM3YyaSN939VqpGUz4duAoJ5l6sd-G",
+      "parent_id": "105rt4di5wrvkMgOe2R3LPpaVrAPiDQAj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3986,
+      "modified": "2026-08-16T03:40:09.000Z",
+      "checksum": "ef0abb149f206dd0fa7a865705cd0ecd",
+      "folder": false
+    },
+    {
+      "id": "1HR-TWlh3lewoH-ixauYNd-fnbbb_fnlQ",
+      "parent_id": "105rt4di5wrvkMgOe2R3LPpaVrAPiDQAj",
+      "name": "HOÀNG BÁN TIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 1069619,
+      "modified": "2026-08-16T03:40:20.000Z",
+      "checksum": "7c4129ea3d920b0295f6270ff992a2d3",
+      "folder": false
+    },
+    {
+      "id": "1o3195k56dMYabd4IWCLo0seLLa4OP1Dy",
+      "parent_id": "105rt4di5wrvkMgOe2R3LPpaVrAPiDQAj",
+      "name": "HOÀNG BÁN TIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 3595823,
+      "modified": "2026-08-16T03:40:17.000Z",
+      "checksum": "02a9df515357afe2a145c48aad276158",
+      "folder": false
+    }
+  ]
+}

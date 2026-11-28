@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KJAv9aaMrMWmuD9tY7S51x_2MfTNDXEt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1L4WROFGkmR-ejeyY8m-bxMB4L3g-Q3Ow",
+      "parent_id": "1KJAv9aaMrMWmuD9tY7S51x_2MfTNDXEt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1713,
+      "modified": "2026-08-15T03:46:46.000Z",
+      "checksum": "c1c2ce42a863b53c8db9a9a512aba18e",
+      "folder": false
+    },
+    {
+      "id": "1MoKZnhBc8dek5zJpQVPEXYuvDsHzegQP",
+      "parent_id": "1KJAv9aaMrMWmuD9tY7S51x_2MfTNDXEt",
+      "name": "THANH TỊNH TÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 387306,
+      "modified": "2026-08-15T03:46:53.000Z",
+      "checksum": "e7c7470982df83b1a28c76dd41a41ed6",
+      "folder": false
+    },
+    {
+      "id": "11K70-3zwkdayt0xbA9xU10KG1jbaBIbM",
+      "parent_id": "1KJAv9aaMrMWmuD9tY7S51x_2MfTNDXEt",
+      "name": "THANH TỊNH TÂM.pdf",
+      "mime": "application/pdf",
+      "size": 1008249,
+      "modified": "2026-08-15T03:46:50.000Z",
+      "checksum": "fdb73ae260d954db525239d8dfa95eb0",
+      "folder": false
+    }
+  ]
+}

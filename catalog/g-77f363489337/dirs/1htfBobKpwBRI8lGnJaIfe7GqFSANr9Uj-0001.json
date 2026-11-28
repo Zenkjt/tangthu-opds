@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1htfBobKpwBRI8lGnJaIfe7GqFSANr9Uj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jDmpQjtvl4atDuEm5y2uOX7F2aCEicfP",
+      "parent_id": "1htfBobKpwBRI8lGnJaIfe7GqFSANr9Uj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 732,
+      "modified": "2026-08-15T04:03:25.000Z",
+      "checksum": "c13696715314405709956a45de615b41",
+      "folder": false
+    },
+    {
+      "id": "1Z2TZJVnJhOGowmBhlKdj-5XhjRxLNd5_",
+      "parent_id": "1htfBobKpwBRI8lGnJaIfe7GqFSANr9Uj",
+      "name": "KINH NGHIỆM MẬT TÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 387478,
+      "modified": "2026-08-15T04:03:34.000Z",
+      "checksum": "774b13228e616de01541773fd4a016e3",
+      "folder": false
+    },
+    {
+      "id": "1sF3O6Mgj-M3Ngj6uz4px-IUHEBwpOppJ",
+      "parent_id": "1htfBobKpwBRI8lGnJaIfe7GqFSANr9Uj",
+      "name": "KINH NGHIỆM MẬT TÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 1798527,
+      "modified": "2026-08-15T04:03:31.000Z",
+      "checksum": "273581df1321ab4b7d4bcbfae59259d5",
+      "folder": false
+    }
+  ]
+}

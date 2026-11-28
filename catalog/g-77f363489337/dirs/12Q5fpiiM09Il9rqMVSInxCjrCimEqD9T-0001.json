@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12Q5fpiiM09Il9rqMVSInxCjrCimEqD9T",
+  "page": 1,
+  "items": [
+    {
+      "id": "1N3Qc22GEuCMXyWRFVtL0Hj5GxevO_IR5",
+      "parent_id": "12Q5fpiiM09Il9rqMVSInxCjrCimEqD9T",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 401,
+      "modified": "2026-08-15T12:59:49.000Z",
+      "checksum": "7c2c951884f9cef46f4642f8591f8827",
+      "folder": false
+    },
+    {
+      "id": "1bBNgplCPe76zE1i0AJMIgHXFMLbQHgKe",
+      "parent_id": "12Q5fpiiM09Il9rqMVSInxCjrCimEqD9T",
+      "name": "NGƯỜI BẠN BÍ ẨN.epub",
+      "mime": "application/epub+zip",
+      "size": 459850,
+      "modified": "2026-08-15T12:59:56.000Z",
+      "checksum": "74bfe1c0fa64ff3a196412cefc3d9cab",
+      "folder": false
+    },
+    {
+      "id": "1J9ieXLrK4g-3JP-wfQbnD3Di6XglCrnX",
+      "parent_id": "12Q5fpiiM09Il9rqMVSInxCjrCimEqD9T",
+      "name": "NGƯỜI BẠN BÍ ẨN.pdf",
+      "mime": "application/pdf",
+      "size": 907922,
+      "modified": "2026-08-15T12:59:53.000Z",
+      "checksum": "dc9b416b29e27fa6750ad2c39ac7657a",
+      "folder": false
+    }
+  ]
+}

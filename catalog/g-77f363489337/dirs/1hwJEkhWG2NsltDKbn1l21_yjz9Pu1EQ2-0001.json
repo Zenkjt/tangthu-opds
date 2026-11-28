@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hwJEkhWG2NsltDKbn1l21_yjz9Pu1EQ2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eEPr7SgwB9M0qfstcNt8V1g_yLDQwfVo",
+      "parent_id": "1hwJEkhWG2NsltDKbn1l21_yjz9Pu1EQ2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3707,
+      "modified": "2026-08-15T10:45:46.000Z",
+      "checksum": "f182c405d17d49290ee3f64b06b40123",
+      "folder": false
+    },
+    {
+      "id": "1kaMJaj_wy2HvvexUz1t1bCZ79hjQHUCu",
+      "parent_id": "1hwJEkhWG2NsltDKbn1l21_yjz9Pu1EQ2",
+      "name": "NGÔI SAO LẠC LOÀI.epub",
+      "mime": "application/epub+zip",
+      "size": 1019858,
+      "modified": "2026-08-15T10:45:55.000Z",
+      "checksum": "f8e7e363023bc4b34d4fb8ff006c3c4f",
+      "folder": false
+    },
+    {
+      "id": "1J9XzohTeCisN9IYyJRdNuwbybL98IQ6C",
+      "parent_id": "1hwJEkhWG2NsltDKbn1l21_yjz9Pu1EQ2",
+      "name": "NGÔI SAO LẠC LOÀI.pdf",
+      "mime": "application/pdf",
+      "size": 1121529,
+      "modified": "2026-08-15T10:45:51.000Z",
+      "checksum": "15fc4c7f314b7f32b08c9dc1f1872676",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oX0nNrLb2dXiqlX0Gckdte8JaSHjruZ7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JeN8LROj2leOAndNapX17SPaRm0YPZhF",
+      "parent_id": "1oX0nNrLb2dXiqlX0Gckdte8JaSHjruZ7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7398,
+      "modified": "2026-08-15T06:16:39.000Z",
+      "checksum": "c139602d56abf24dc32dec8b4bf07834",
+      "folder": false
+    },
+    {
+      "id": "1Bzq46-q7XXbYbOkx0qtGskuA0jWF2Fuy",
+      "parent_id": "1oX0nNrLb2dXiqlX0Gckdte8JaSHjruZ7",
+      "name": "HIẾN PHÁP MỸ.epub",
+      "mime": "application/epub+zip",
+      "size": 890540,
+      "modified": "2026-08-15T06:16:47.000Z",
+      "checksum": "bcc1fb913305ec98e5a80d08ea0d47c5",
+      "folder": false
+    },
+    {
+      "id": "1zkrOAhzYVBrsUO03b5VqH480EGH9G4aN",
+      "parent_id": "1oX0nNrLb2dXiqlX0Gckdte8JaSHjruZ7",
+      "name": "HIẾN PHÁP MỸ.pdf",
+      "mime": "application/pdf",
+      "size": 1396979,
+      "modified": "2026-08-15T06:16:44.000Z",
+      "checksum": "a9fcd4b02925412c42a843a87e4150b6",
+      "folder": false
+    }
+  ]
+}

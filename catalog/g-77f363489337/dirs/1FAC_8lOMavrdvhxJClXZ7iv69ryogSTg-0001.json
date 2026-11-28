@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FAC_8lOMavrdvhxJClXZ7iv69ryogSTg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qxof2IMU_VZfyKIsfO5Nl_sGCZ95wQo2",
+      "parent_id": "1FAC_8lOMavrdvhxJClXZ7iv69ryogSTg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3363,
+      "modified": "2026-08-15T10:43:25.000Z",
+      "checksum": "fa7a4911b9f58fbb4dcffbe89c0a41fd",
+      "folder": false
+    },
+    {
+      "id": "16QzeoZy4lqmyABZz3XmPTPnjI0GHBM0A",
+      "parent_id": "1FAC_8lOMavrdvhxJClXZ7iv69ryogSTg",
+      "name": "NGƯỜI ĐÀN ÔNG CÓ ĐÔI MẮT TRONG.epub",
+      "mime": "application/epub+zip",
+      "size": 304275,
+      "modified": "2026-08-15T10:43:31.000Z",
+      "checksum": "c3ef3c47ceb768de37c2a497704e4c4b",
+      "folder": false
+    },
+    {
+      "id": "1DVjDytKdR2vLGnp2VzUOtUUNlhbDmvst",
+      "parent_id": "1FAC_8lOMavrdvhxJClXZ7iv69ryogSTg",
+      "name": "NGƯỜI ĐÀN ÔNG CÓ ĐÔI MẮT TRONG.pdf",
+      "mime": "application/pdf",
+      "size": 340937,
+      "modified": "2026-08-15T10:43:29.000Z",
+      "checksum": "4ae05358f8728048aa8b923012ea2ad9",
+      "folder": false
+    }
+  ]
+}

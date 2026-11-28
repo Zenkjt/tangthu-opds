@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ylErOzcHPKm4v8ALecnTuzhCKdiEIPR7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rUK0Db7mw-17ZMrlt7nvL7HUKj0PmTCe",
+      "parent_id": "1ylErOzcHPKm4v8ALecnTuzhCKdiEIPR7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3743,
+      "modified": "2026-08-16T04:08:03.000Z",
+      "checksum": "1b21131b976d307874e3684546bb0d09",
+      "folder": false
+    },
+    {
+      "id": "1T1TNwtYiFG2nxG-GQz1ARtcKu8jnRzgs",
+      "parent_id": "1ylErOzcHPKm4v8ALecnTuzhCKdiEIPR7",
+      "name": "NỬA HOAN NỬA ÁI - YÊU KHÔNG LỐI THOÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 666795,
+      "modified": "2026-08-16T04:08:13.000Z",
+      "checksum": "90add1f2a4b3617adb6bcf99346285db",
+      "folder": false
+    },
+    {
+      "id": "1CAjBsMb5R3ZYIdmX4cDUuyjTnfR4Upsb",
+      "parent_id": "1ylErOzcHPKm4v8ALecnTuzhCKdiEIPR7",
+      "name": "NỬA HOAN NỬA ÁI - YÊU KHÔNG LỐI THOÁT.pdf",
+      "mime": "application/pdf",
+      "size": 2081580,
+      "modified": "2026-08-16T04:08:10.000Z",
+      "checksum": "b0ec798175de1757d6cbb1d5c584f085",
+      "folder": false
+    }
+  ]
+}

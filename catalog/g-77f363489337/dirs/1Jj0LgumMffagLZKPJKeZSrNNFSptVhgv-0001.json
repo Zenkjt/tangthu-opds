@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Jj0LgumMffagLZKPJKeZSrNNFSptVhgv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1a7Uv2xDUkabHbaztelaWSovO2amjQcWJ",
+      "parent_id": "1Jj0LgumMffagLZKPJKeZSrNNFSptVhgv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3118,
+      "modified": "2026-08-15T10:22:32.000Z",
+      "checksum": "4539a1a10ebd443c4bcd1854a8c523a1",
+      "folder": false
+    },
+    {
+      "id": "1WfQwE2cX-YIUKdmKoIJpIreYfL-wCeCc",
+      "parent_id": "1Jj0LgumMffagLZKPJKeZSrNNFSptVhgv",
+      "name": "TẬN XƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 760586,
+      "modified": "2026-08-15T10:22:40.000Z",
+      "checksum": "c4e516d01bc169ec835ab64a64d21698",
+      "folder": false
+    },
+    {
+      "id": "1p10usJzNfLYaWmlMF-wHB0qz4aEiCiSY",
+      "parent_id": "1Jj0LgumMffagLZKPJKeZSrNNFSptVhgv",
+      "name": "TẬN XƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 2100800,
+      "modified": "2026-08-15T10:22:38.000Z",
+      "checksum": "ad780ed2c05eb8e3b672bfe750ed290d",
+      "folder": false
+    }
+  ]
+}

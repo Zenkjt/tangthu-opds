@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1umXYEykqHMBX04rTsVxAU4Tq3sssC-BX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZZoFNmGpBrRYSCW8X3PLK6RIyw6hAZi0",
+      "parent_id": "1umXYEykqHMBX04rTsVxAU4Tq3sssC-BX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5668,
+      "modified": "2026-08-15T07:38:15.000Z",
+      "checksum": "a3d15e7064429fa96dfd1da7dd38d666",
+      "folder": false
+    },
+    {
+      "id": "10b-KVNWTFsACV7CeX5K_3SRjFGkagmhZ",
+      "parent_id": "1umXYEykqHMBX04rTsVxAU4Tq3sssC-BX",
+      "name": "VẠN HUÊ LẦU DIỄN NGHĨA.epub",
+      "mime": "application/epub+zip",
+      "size": 570963,
+      "modified": "2026-08-15T07:38:22.000Z",
+      "checksum": "4798ae0c549ae07ec3050762bc76162c",
+      "folder": false
+    },
+    {
+      "id": "1HyiN1mNZXjIHmjRn_jQ--z9PsVE8irLy",
+      "parent_id": "1umXYEykqHMBX04rTsVxAU4Tq3sssC-BX",
+      "name": "VẠN HUÊ LẦU DIỄN NGHĨA.pdf",
+      "mime": "application/pdf",
+      "size": 901447,
+      "modified": "2026-08-15T07:38:19.000Z",
+      "checksum": "d8bf49debed0836bbf77b0819a6b589c",
+      "folder": false
+    }
+  ]
+}

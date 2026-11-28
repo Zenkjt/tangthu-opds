@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OXW02dEyvuCjsJLePu1fTuh41byYrg1g",
+  "page": 1,
+  "items": [
+    {
+      "id": "11tU-tbyvwRv3dVdr3bmEWeNG9HB1RI5M",
+      "parent_id": "1OXW02dEyvuCjsJLePu1fTuh41byYrg1g",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1798,
+      "modified": "2026-08-16T02:45:24.000Z",
+      "checksum": "eb15c2805508fa3993d865ac5bdebfb5",
+      "folder": false
+    },
+    {
+      "id": "12LjXYOP121Rg7YyRTa7I5H3TG8DtrmyK",
+      "parent_id": "1OXW02dEyvuCjsJLePu1fTuh41byYrg1g",
+      "name": "JACK LONDON TRUYỆN NGẮN CHỌN LỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 1080780,
+      "modified": "2026-08-16T02:45:31.000Z",
+      "checksum": "b14fa4c46450b0e04db6bca2243edf67",
+      "folder": false
+    },
+    {
+      "id": "10ycDvu5J-GtpPUbc91PRTOQHmAL4iajY",
+      "parent_id": "1OXW02dEyvuCjsJLePu1fTuh41byYrg1g",
+      "name": "JACK LONDON TRUYỆN NGẮN CHỌN LỌC.pdf",
+      "mime": "application/pdf",
+      "size": 1017007,
+      "modified": "2026-08-16T02:45:28.000Z",
+      "checksum": "da593a7553123d474e3746256b073cd2",
+      "folder": false
+    }
+  ]
+}

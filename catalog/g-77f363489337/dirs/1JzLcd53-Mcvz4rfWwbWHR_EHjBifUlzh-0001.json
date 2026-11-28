@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JzLcd53-Mcvz4rfWwbWHR_EHjBifUlzh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1f13DxEIgHpaPHLBPQKruADrsuPkupRhp",
+      "parent_id": "1JzLcd53-Mcvz4rfWwbWHR_EHjBifUlzh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11354,
+      "modified": "2026-08-15T09:39:44.000Z",
+      "checksum": "e182f7e1d7bf39a4dcc1671f991e9044",
+      "folder": false
+    },
+    {
+      "id": "1MjCxbC0b3LgZfrTX7ot2i3C3_QuQFCO-",
+      "parent_id": "1JzLcd53-Mcvz4rfWwbWHR_EHjBifUlzh",
+      "name": "NỬA CHỪNG XUÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 393429,
+      "modified": "2026-08-15T09:39:57.000Z",
+      "checksum": "f4a4472dbb67dd996f5a7db694b1a251",
+      "folder": false
+    },
+    {
+      "id": "11DWxNoDlEL-7uSrxWqUsX8upNuEsZcXA",
+      "parent_id": "1JzLcd53-Mcvz4rfWwbWHR_EHjBifUlzh",
+      "name": "NỬA CHỪNG XUÂN.pdf",
+      "mime": "application/pdf",
+      "size": 655922,
+      "modified": "2026-08-15T09:39:54.000Z",
+      "checksum": "a41b2793dcdb921ecbdde8901a610f76",
+      "folder": false
+    }
+  ]
+}

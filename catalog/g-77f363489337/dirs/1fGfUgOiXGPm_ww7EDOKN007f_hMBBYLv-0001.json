@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fGfUgOiXGPm_ww7EDOKN007f_hMBBYLv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MwTzDgE6FjUOs4DKirotEOFfHvr9ID8n",
+      "parent_id": "1fGfUgOiXGPm_ww7EDOKN007f_hMBBYLv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3316,
+      "modified": "2026-08-16T04:07:19.000Z",
+      "checksum": "5fdfe4986daa5afe129c0e6e4fea8ff0",
+      "folder": false
+    },
+    {
+      "id": "19OimAJ8Lq7-4wU-DTpe6ik35E1Ni9g8_",
+      "parent_id": "1fGfUgOiXGPm_ww7EDOKN007f_hMBBYLv",
+      "name": "ÔNG CHỦ KHÓ TÍNH.epub",
+      "mime": "application/epub+zip",
+      "size": 316291,
+      "modified": "2026-08-16T04:07:26.000Z",
+      "checksum": "21373fce2b60baa6fc82f7cde4ec0790",
+      "folder": false
+    },
+    {
+      "id": "1aEayQLmZxca2-NQHx-9xcRiLuYQlYm5Z",
+      "parent_id": "1fGfUgOiXGPm_ww7EDOKN007f_hMBBYLv",
+      "name": "ÔNG CHỦ KHÓ TÍNH.pdf",
+      "mime": "application/pdf",
+      "size": 615383,
+      "modified": "2026-08-16T04:07:23.000Z",
+      "checksum": "d0574ddb8b31a2a6bc14ee467f6cdfd7",
+      "folder": false
+    }
+  ]
+}

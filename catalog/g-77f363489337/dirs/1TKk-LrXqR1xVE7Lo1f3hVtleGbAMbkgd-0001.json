@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TKk-LrXqR1xVE7Lo1f3hVtleGbAMbkgd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wbB-eHcZL8RlFcIM1PPiKfXEjkFELiiW",
+      "parent_id": "1TKk-LrXqR1xVE7Lo1f3hVtleGbAMbkgd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1917,
+      "modified": "2026-08-15T09:43:46.000Z",
+      "checksum": "c1de575ec6aaddb3b4713d6a789162f6",
+      "folder": false
+    },
+    {
+      "id": "1elufE1AeYUePq8u3T7yZDsltJAkMgySQ",
+      "parent_id": "1TKk-LrXqR1xVE7Lo1f3hVtleGbAMbkgd",
+      "name": "LIỆU DƯỠNG VIỆN TRỰC BÁ GIAN.epub",
+      "mime": "application/epub+zip",
+      "size": 2253846,
+      "modified": "2026-08-15T09:43:56.000Z",
+      "checksum": "52894332d5562d557964b308b6561882",
+      "folder": false
+    },
+    {
+      "id": "1PPqjlOcrqJSl-MHoDySftVK7V5w_dlAD",
+      "parent_id": "1TKk-LrXqR1xVE7Lo1f3hVtleGbAMbkgd",
+      "name": "LIỆU DƯỠNG VIỆN TRỰC BÁ GIAN.pdf",
+      "mime": "application/pdf",
+      "size": 2050671,
+      "modified": "2026-08-15T09:43:52.000Z",
+      "checksum": "78dbda795222d366418c36520bcd1760",
+      "folder": false
+    }
+  ]
+}

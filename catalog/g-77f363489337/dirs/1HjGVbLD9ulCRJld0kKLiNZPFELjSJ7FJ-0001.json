@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HjGVbLD9ulCRJld0kKLiNZPFELjSJ7FJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "19R_stg1M_giRHNgu_w871sLUjRR-ZfyS",
+      "parent_id": "1HjGVbLD9ulCRJld0kKLiNZPFELjSJ7FJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4537,
+      "modified": "2026-08-15T09:22:41.000Z",
+      "checksum": "9b6e3bc94cfb7abfee25fab681eeb702",
+      "folder": false
+    },
+    {
+      "id": "1hFeqHyivZVfzqpdy_kgYgnulbSLu-M4O",
+      "parent_id": "1HjGVbLD9ulCRJld0kKLiNZPFELjSJ7FJ",
+      "name": "ĐẤU THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 3705445,
+      "modified": "2026-08-15T09:23:53.000Z",
+      "checksum": "991a4ab0cedb7efcfa39981c4fd5f38f",
+      "folder": false
+    },
+    {
+      "id": "16F_4iulXYAu9X5rOvbGtYnM0CKaYp9ey",
+      "parent_id": "1HjGVbLD9ulCRJld0kKLiNZPFELjSJ7FJ",
+      "name": "ĐẤU THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 16871034,
+      "modified": "2026-08-15T09:23:34.000Z",
+      "checksum": "83fdd7e77733b9da4c9f8a2ea5106f1a",
+      "folder": false
+    }
+  ]
+}

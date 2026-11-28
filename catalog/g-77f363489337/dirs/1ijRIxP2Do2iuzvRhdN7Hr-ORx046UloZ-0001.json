@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ijRIxP2Do2iuzvRhdN7Hr-ORx046UloZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aLBI9-SCcL8tPY7vSZ7XWVmlKEnsguHe",
+      "parent_id": "1ijRIxP2Do2iuzvRhdN7Hr-ORx046UloZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3143,
+      "modified": "2026-08-15T10:10:36.000Z",
+      "checksum": "012dfb30211737a6edfa5fb354cddd24",
+      "folder": false
+    },
+    {
+      "id": "1gA7359RSs2RQZqQVOc9vakOu7xmAdPa6",
+      "parent_id": "1ijRIxP2Do2iuzvRhdN7Hr-ORx046UloZ",
+      "name": "TIÊN LỘ PHONG LƯU.epub",
+      "mime": "application/epub+zip",
+      "size": 1631286,
+      "modified": "2026-08-15T10:10:46.000Z",
+      "checksum": "5aba6a90d0c083fa1c0c70f921225c26",
+      "folder": false
+    },
+    {
+      "id": "1RG7K6dbErCA91dLczRQopN3LUqqj6OFA",
+      "parent_id": "1ijRIxP2Do2iuzvRhdN7Hr-ORx046UloZ",
+      "name": "TIÊN LỘ PHONG LƯU.pdf",
+      "mime": "application/pdf",
+      "size": 1631904,
+      "modified": "2026-08-15T10:10:42.000Z",
+      "checksum": "e4e47e5e6799e1cd203952a899cf5659",
+      "folder": false
+    }
+  ]
+}

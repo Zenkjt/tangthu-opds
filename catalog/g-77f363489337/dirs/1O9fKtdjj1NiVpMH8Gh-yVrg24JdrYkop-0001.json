@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1O9fKtdjj1NiVpMH8Gh-yVrg24JdrYkop",
+  "page": 1,
+  "items": [
+    {
+      "id": "11OLufWzIX046f7Drhiz_Qn5oa7FH4FTi",
+      "parent_id": "1O9fKtdjj1NiVpMH8Gh-yVrg24JdrYkop",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10753,
+      "modified": "2026-08-15T09:33:51.000Z",
+      "checksum": "087710e0c0789ef5130b3086efd1467e",
+      "folder": false
+    },
+    {
+      "id": "1Hylv3XJHJXFLZXa-JUNrdGKtZBzN-TO2",
+      "parent_id": "1O9fKtdjj1NiVpMH8Gh-yVrg24JdrYkop",
+      "name": "DÒNG SÔNG LY BIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 422565,
+      "modified": "2026-08-15T09:33:57.000Z",
+      "checksum": "e12404ecd4faace86ffb4813d601a4dc",
+      "folder": false
+    },
+    {
+      "id": "1iVldHRrEh89jLrzWBxXaZ_3_6KkZ6u6Y",
+      "parent_id": "1O9fKtdjj1NiVpMH8Gh-yVrg24JdrYkop",
+      "name": "DÒNG SÔNG LY BIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 882069,
+      "modified": "2026-08-15T09:33:55.000Z",
+      "checksum": "ee2bd80483e00ec42a82177f6ed28a40",
+      "folder": false
+    }
+  ]
+}

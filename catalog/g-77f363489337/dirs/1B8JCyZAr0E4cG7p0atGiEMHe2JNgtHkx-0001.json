@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1B8JCyZAr0E4cG7p0atGiEMHe2JNgtHkx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fyX5IjTjhmyQpJWBlz7NbDt3z3pvnzk-",
+      "parent_id": "1B8JCyZAr0E4cG7p0atGiEMHe2JNgtHkx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 272,
+      "modified": "2026-08-16T04:19:28.000Z",
+      "checksum": "4be9cab46456341b6201a512b5f9836b",
+      "folder": false
+    },
+    {
+      "id": "15wLBuB4PcxRztkeWJXfVtnM4VCcdIwM-",
+      "parent_id": "1B8JCyZAr0E4cG7p0atGiEMHe2JNgtHkx",
+      "name": "HOA TRINH NỮ CỦA ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 390842,
+      "modified": "2026-08-16T04:19:34.000Z",
+      "checksum": "80ebe5723c9f28bf6b1315186f356b7c",
+      "folder": false
+    },
+    {
+      "id": "1w4I_TnOQihhPKr0H0YMyY_coQF6EzaR5",
+      "parent_id": "1B8JCyZAr0E4cG7p0atGiEMHe2JNgtHkx",
+      "name": "HOA TRINH NỮ CỦA ANH.pdf",
+      "mime": "application/pdf",
+      "size": 577085,
+      "modified": "2026-08-16T04:19:32.000Z",
+      "checksum": "69b57bbd0c86c875b0d50ec1927bcaeb",
+      "folder": false
+    }
+  ]
+}

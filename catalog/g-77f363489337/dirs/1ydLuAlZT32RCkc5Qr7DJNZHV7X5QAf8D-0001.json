@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ydLuAlZT32RCkc5Qr7DJNZHV7X5QAf8D",
+  "page": 1,
+  "items": [
+    {
+      "id": "18HHa3qxcz81CWM-SBtJ2NQrMe96_fP5l",
+      "parent_id": "1ydLuAlZT32RCkc5Qr7DJNZHV7X5QAf8D",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9792,
+      "modified": "2026-08-15T00:50:37.000Z",
+      "checksum": "208a0a398636af327de1d515063086c3",
+      "folder": false
+    },
+    {
+      "id": "1waqQ5Ka6MBr_C1D_rRCzFaG0CiBsX0AX",
+      "parent_id": "1ydLuAlZT32RCkc5Qr7DJNZHV7X5QAf8D",
+      "name": "NĂNG ĐOẠN KIM CƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 489822,
+      "modified": "2026-08-15T00:50:43.000Z",
+      "checksum": "0db83a2921e6ef6c80be4f4234b55bd5",
+      "folder": false
+    },
+    {
+      "id": "1PmcloBTXw0hStL3W8z7wcMjk-I1K1_rx",
+      "parent_id": "1ydLuAlZT32RCkc5Qr7DJNZHV7X5QAf8D",
+      "name": "NĂNG ĐOẠN KIM CƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1734120,
+      "modified": "2026-08-15T00:50:41.000Z",
+      "checksum": "c994da87d5f990c13ddcdcb22d499626",
+      "folder": false
+    }
+  ]
+}

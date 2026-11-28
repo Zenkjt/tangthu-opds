@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dhhaWRwhxWMusQzN56XoB7LG-f_I9wh6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lF7Z_VkT6o1ptuzqDC-1_CQyfBn-v0Lb",
+      "parent_id": "1dhhaWRwhxWMusQzN56XoB7LG-f_I9wh6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1706,
+      "modified": "2026-08-15T07:37:55.000Z",
+      "checksum": "e084eda8c0802f80e0cf0d7ff9277465",
+      "folder": false
+    },
+    {
+      "id": "1cjgxwrSNtKvIb8JfMnm7gvite64I-oVu",
+      "parent_id": "1dhhaWRwhxWMusQzN56XoB7LG-f_I9wh6",
+      "name": "THIÊN HẠ ĐỆ CỬU.epub",
+      "mime": "application/epub+zip",
+      "size": 914414,
+      "modified": "2026-08-15T07:38:04.000Z",
+      "checksum": "368fb47e6dd8af1154ae9abc27e8fdad",
+      "folder": false
+    },
+    {
+      "id": "1wrCJhTrfzztvBftTA--gDyUjn3qRDi6l",
+      "parent_id": "1dhhaWRwhxWMusQzN56XoB7LG-f_I9wh6",
+      "name": "THIÊN HẠ ĐỆ CỬU.pdf",
+      "mime": "application/pdf",
+      "size": 3556404,
+      "modified": "2026-08-15T07:38:01.000Z",
+      "checksum": "57b8ca03d273862dd0027debf475ef0b",
+      "folder": false
+    }
+  ]
+}

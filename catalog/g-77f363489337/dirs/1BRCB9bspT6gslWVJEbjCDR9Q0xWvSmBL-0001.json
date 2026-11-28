@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BRCB9bspT6gslWVJEbjCDR9Q0xWvSmBL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ar5adk7Vu7Lv94G5r5g-cDTIzmxQ96fY",
+      "parent_id": "1BRCB9bspT6gslWVJEbjCDR9Q0xWvSmBL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 388,
+      "modified": "2026-08-15T10:05:57.000Z",
+      "checksum": "989c9c74bd57f4cded320a276e7308ee",
+      "folder": false
+    },
+    {
+      "id": "15zWoIr4bNnjdPhijkcFJ-arQ4KF1WfPw",
+      "parent_id": "1BRCB9bspT6gslWVJEbjCDR9Q0xWvSmBL",
+      "name": "TƯƠNG LAI XÁN LẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 467561,
+      "modified": "2026-08-15T10:06:05.000Z",
+      "checksum": "7bfa54767321756d2b5d092e51a5e1db",
+      "folder": false
+    },
+    {
+      "id": "1eJY2UuaVB3oHyIIOHQlGAJdHEw5YL6_M",
+      "parent_id": "1BRCB9bspT6gslWVJEbjCDR9Q0xWvSmBL",
+      "name": "TƯƠNG LAI XÁN LẠN.pdf",
+      "mime": "application/pdf",
+      "size": 1104231,
+      "modified": "2026-08-15T10:06:02.000Z",
+      "checksum": "c86227d87452a23879669551aab929bb",
+      "folder": false
+    }
+  ]
+}

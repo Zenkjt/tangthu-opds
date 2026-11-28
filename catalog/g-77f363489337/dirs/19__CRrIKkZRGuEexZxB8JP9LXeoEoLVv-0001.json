@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19__CRrIKkZRGuEexZxB8JP9LXeoEoLVv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1O4oHMRZWIaup_dNBDh1jVQQm06O6nlS1",
+      "parent_id": "19__CRrIKkZRGuEexZxB8JP9LXeoEoLVv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 16289,
+      "modified": "2026-08-16T03:09:16.000Z",
+      "checksum": "e7dbbdc9e51ca0a17a2196d28127638f",
+      "folder": false
+    },
+    {
+      "id": "15gsM_0mkxy92JAYvQd99bmT1KeX0KFdv",
+      "parent_id": "19__CRrIKkZRGuEexZxB8JP9LXeoEoLVv",
+      "name": "XIN CẠCH ĐÀN ÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 435343,
+      "modified": "2026-08-16T03:09:23.000Z",
+      "checksum": "3a01ea2474b287fc6f21e86bb7cf0106",
+      "folder": false
+    },
+    {
+      "id": "1wVN2mkALSCfrseRuPMO9KUisHb6Nkx34",
+      "parent_id": "19__CRrIKkZRGuEexZxB8JP9LXeoEoLVv",
+      "name": "XIN CẠCH ĐÀN ÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 1652000,
+      "modified": "2026-08-16T03:09:21.000Z",
+      "checksum": "746f934d1fbc792a55bd3ab8cb29203a",
+      "folder": false
+    }
+  ]
+}

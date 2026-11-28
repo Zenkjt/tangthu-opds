@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wYrABGd3ArdpJPlLAhzhrKb9OvCcNZYI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1K5J5ai5FLq6KBmFbSaEhLHK8IDa5LoZY",
+      "parent_id": "1wYrABGd3ArdpJPlLAhzhrKb9OvCcNZYI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8233,
+      "modified": "2026-08-16T03:49:02.000Z",
+      "checksum": "55175f8ed214647fd33212caa46d5567",
+      "folder": false
+    },
+    {
+      "id": "14Gijj34gZQgXT6t5PfmLyZB49Viw1xfp",
+      "parent_id": "1wYrABGd3ArdpJPlLAhzhrKb9OvCcNZYI",
+      "name": "VÌ THƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 479198,
+      "modified": "2026-08-16T03:49:08.000Z",
+      "checksum": "37243e4f735b73c6f277e592393774be",
+      "folder": false
+    },
+    {
+      "id": "15TFAktWyEkJQkD45N0IPg6WD69gI0n7n",
+      "parent_id": "1wYrABGd3ArdpJPlLAhzhrKb9OvCcNZYI",
+      "name": "VÌ THƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 521853,
+      "modified": "2026-08-16T03:49:05.000Z",
+      "checksum": "bc996568a84f336f27cfeb510b9ddaaa",
+      "folder": false
+    }
+  ]
+}

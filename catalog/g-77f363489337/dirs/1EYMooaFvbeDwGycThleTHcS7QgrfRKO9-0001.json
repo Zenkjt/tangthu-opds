@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EYMooaFvbeDwGycThleTHcS7QgrfRKO9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1x4ANg4iijPA7tPTfGd3lE9uf-wRYIn_C",
+      "parent_id": "1EYMooaFvbeDwGycThleTHcS7QgrfRKO9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2101,
+      "modified": "2026-08-15T12:45:52.000Z",
+      "checksum": "610e636f6dd5d5d06e7d7ebdf174d3bc",
+      "folder": false
+    },
+    {
+      "id": "1-rwuANIEmE29ef0HeCTMmDue0Mlvv9Vv",
+      "parent_id": "1EYMooaFvbeDwGycThleTHcS7QgrfRKO9",
+      "name": "KHÚC NAM AI.epub",
+      "mime": "application/epub+zip",
+      "size": 404796,
+      "modified": "2026-08-15T12:46:02.000Z",
+      "checksum": "a2aab81d4be9ee8ec74a837cbeb099d7",
+      "folder": false
+    },
+    {
+      "id": "1xzPvAdYU42YvvH9sV1TmGMYoIX5hkYN2",
+      "parent_id": "1EYMooaFvbeDwGycThleTHcS7QgrfRKO9",
+      "name": "KHÚC NAM AI.pdf",
+      "mime": "application/pdf",
+      "size": 631984,
+      "modified": "2026-08-15T12:45:57.000Z",
+      "checksum": "6e0b01a5d89b190d96736ec29cd5b168",
+      "folder": false
+    }
+  ]
+}

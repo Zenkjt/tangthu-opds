@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PWlUy2gh8pfGe3oqXcX4pYox2mMAp9ra",
+  "page": 1,
+  "items": [
+    {
+      "id": "1m9qHW1YLqpIJKu0ka4KIxQIflVC8Hnec",
+      "parent_id": "1PWlUy2gh8pfGe3oqXcX4pYox2mMAp9ra",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2879,
+      "modified": "2026-08-15T09:22:54.000Z",
+      "checksum": "40a441d4b89648eff94a9d2c6c784b5f",
+      "folder": false
+    },
+    {
+      "id": "1A96HQFrWAp9J830gX67OB8kHiZCnYWVj",
+      "parent_id": "1PWlUy2gh8pfGe3oqXcX4pYox2mMAp9ra",
+      "name": "ĐỀ THI ĐẪM MÁU.epub",
+      "mime": "application/epub+zip",
+      "size": 691329,
+      "modified": "2026-08-15T09:23:01.000Z",
+      "checksum": "23eceedaf9379d6c5e6b516c5a22f60b",
+      "folder": false
+    },
+    {
+      "id": "1KlbApG-7si5Lz-r1ieSg8t-157lnj7r8",
+      "parent_id": "1PWlUy2gh8pfGe3oqXcX4pYox2mMAp9ra",
+      "name": "ĐỀ THI ĐẪM MÁU.pdf",
+      "mime": "application/pdf",
+      "size": 1835105,
+      "modified": "2026-08-15T09:22:59.000Z",
+      "checksum": "6d4e27c04f965458be45b3d8ad8a392b",
+      "folder": false
+    }
+  ]
+}

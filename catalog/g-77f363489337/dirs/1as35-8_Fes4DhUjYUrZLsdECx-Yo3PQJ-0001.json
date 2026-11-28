@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1as35-8_Fes4DhUjYUrZLsdECx-Yo3PQJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jvyJYBI2GlA_TCnS2EB21OaGB9BtCIze",
+      "parent_id": "1as35-8_Fes4DhUjYUrZLsdECx-Yo3PQJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1575,
+      "modified": "2026-08-16T02:42:57.000Z",
+      "checksum": "5b28832a262335e77c2876952502707b",
+      "folder": false
+    },
+    {
+      "id": "1CACVxYUgmLz95XEaJ2A7ERIkOkIT5yHE",
+      "parent_id": "1as35-8_Fes4DhUjYUrZLsdECx-Yo3PQJ",
+      "name": "SỐ ĐỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 457473,
+      "modified": "2026-08-16T02:43:04.000Z",
+      "checksum": "2b9e1f8c1e74b23c00db10644b874690",
+      "folder": false
+    },
+    {
+      "id": "1ovG0ZJWbKRzt5qH2z8mlcXgUxXKy0uwG",
+      "parent_id": "1as35-8_Fes4DhUjYUrZLsdECx-Yo3PQJ",
+      "name": "SỐ ĐỎ.pdf",
+      "mime": "application/pdf",
+      "size": 717882,
+      "modified": "2026-08-16T02:43:01.000Z",
+      "checksum": "deb6d7524fa59ddf3cea7590f7119755",
+      "folder": false
+    }
+  ]
+}

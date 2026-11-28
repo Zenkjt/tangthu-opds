@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1R8GavOWT2jPprIDei4mqfB-CM7LgxPnB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XHTj-ca7WSYQ_TWKUZatk_LPxrZikEn7",
+      "parent_id": "1R8GavOWT2jPprIDei4mqfB-CM7LgxPnB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1806,
+      "modified": "2026-08-16T03:02:18.000Z",
+      "checksum": "0ededb7a5122ace306c04c79cbaf2639",
+      "folder": false
+    },
+    {
+      "id": "182Vbky3LC5t3sZPqa5yVVEvq10B1xtWF",
+      "parent_id": "1R8GavOWT2jPprIDei4mqfB-CM7LgxPnB",
+      "name": "TRÂM 2 KẺ YỂU MỆNH.epub",
+      "mime": "application/epub+zip",
+      "size": 693092,
+      "modified": "2026-08-16T03:02:25.000Z",
+      "checksum": "414eac714dd092a4fbebe618ead1f989",
+      "folder": false
+    },
+    {
+      "id": "1ZjG9jJ7AxJLCs03CCjIDcPzq_RK_Pb_5",
+      "parent_id": "1R8GavOWT2jPprIDei4mqfB-CM7LgxPnB",
+      "name": "TRÂM 2 KẺ YỂU MỆNH.pdf",
+      "mime": "application/pdf",
+      "size": 1206382,
+      "modified": "2026-08-16T03:02:23.000Z",
+      "checksum": "cf7d3735efb9a9bc5414053c075f6260",
+      "folder": false
+    }
+  ]
+}

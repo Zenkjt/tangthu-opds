@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wuMDCYPoaqXXbyjVRaphKUXX_NgoEYps",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SRDLwr0rVrmnBhXw-QIaadD4jzbdEmBY",
+      "parent_id": "1wuMDCYPoaqXXbyjVRaphKUXX_NgoEYps",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 446,
+      "modified": "2026-08-15T10:52:27.000Z",
+      "checksum": "11d885f35484478e5c366d80044455db",
+      "folder": false
+    },
+    {
+      "id": "13FhV8vP1S_QicCwfMaGQTvdVcDYKeVXK",
+      "parent_id": "1wuMDCYPoaqXXbyjVRaphKUXX_NgoEYps",
+      "name": "MỘT ANH HÙNG THỜI ĐẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 463771,
+      "modified": "2026-08-15T10:52:34.000Z",
+      "checksum": "35fe895d7172f09989cbbcca4db08ef7",
+      "folder": false
+    },
+    {
+      "id": "1PEf0Ebkkhy2sJK759LQJfD68VtQ3bSrg",
+      "parent_id": "1wuMDCYPoaqXXbyjVRaphKUXX_NgoEYps",
+      "name": "MỘT ANH HÙNG THỜI ĐẠI.pdf",
+      "mime": "application/pdf",
+      "size": 785197,
+      "modified": "2026-08-15T10:52:31.000Z",
+      "checksum": "98801a8762b97a296cb3dbf20840333d",
+      "folder": false
+    }
+  ]
+}

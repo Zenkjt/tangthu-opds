@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NhzTiMMAWbCNEB-V0ObrZzoOR9M72LpB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1StFQlcySLDKEtkVJTJb8JQOebc1_nHMK",
+      "parent_id": "1NhzTiMMAWbCNEB-V0ObrZzoOR9M72LpB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1662,
+      "modified": "2026-08-15T09:35:11.000Z",
+      "checksum": "b94653356a5f88ac5e26e12bb99fa439",
+      "folder": false
+    },
+    {
+      "id": "1vHRjciA_gL_9-PLC3yI9Pev499BvjBz9",
+      "parent_id": "1NhzTiMMAWbCNEB-V0ObrZzoOR9M72LpB",
+      "name": "ĐẠI NAM LIỆT TRUYỆN - TẬP 2.epub",
+      "mime": "application/epub+zip",
+      "size": 689480,
+      "modified": "2026-08-15T09:35:20.000Z",
+      "checksum": "5603aa0631fbef953777be5309fedc17",
+      "folder": false
+    },
+    {
+      "id": "1cS5fWsyoPG5V-6rAFlGrjt8PAqH6WNuA",
+      "parent_id": "1NhzTiMMAWbCNEB-V0ObrZzoOR9M72LpB",
+      "name": "ĐẠI NAM LIỆT TRUYỆN - TẬP 2.pdf",
+      "mime": "application/pdf",
+      "size": 1279298,
+      "modified": "2026-08-15T09:35:17.000Z",
+      "checksum": "51cbe7dcf3aaa7f8e9e98bd6531f5b7a",
+      "folder": false
+    }
+  ]
+}

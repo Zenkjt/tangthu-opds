@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DkYOv4_GHV17yHvLPjPk8-hSp63js6RW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1V3NdUV7eKJb2DhY_edDyXq-Ca7GYtpho",
+      "parent_id": "1DkYOv4_GHV17yHvLPjPk8-hSp63js6RW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10471,
+      "modified": "2026-08-15T15:15:04.000Z",
+      "checksum": "a238ac539e3ecf99acf273ae7727a59c",
+      "folder": false
+    },
+    {
+      "id": "1G1sbMMnyEj_s6QP5LAVVAEmmIFz0HNgi",
+      "parent_id": "1DkYOv4_GHV17yHvLPjPk8-hSp63js6RW",
+      "name": "HỒ SƠ MỘT ĐIỆP VIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 575931,
+      "modified": "2026-08-15T15:15:10.000Z",
+      "checksum": "5f2a7aad0ff27fc0f15d2503f36e4d19",
+      "folder": false
+    },
+    {
+      "id": "1YRPmPP82Rmw6-ygvjjkl-DJD1u-XNwfL",
+      "parent_id": "1DkYOv4_GHV17yHvLPjPk8-hSp63js6RW",
+      "name": "HỒ SƠ MỘT ĐIỆP VIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 620285,
+      "modified": "2026-08-15T15:15:07.000Z",
+      "checksum": "ab97ba75b567c0a816b5378f3d83bffe",
+      "folder": false
+    }
+  ]
+}

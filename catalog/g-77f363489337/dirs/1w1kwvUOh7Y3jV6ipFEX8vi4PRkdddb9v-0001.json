@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1w1kwvUOh7Y3jV6ipFEX8vi4PRkdddb9v",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nhGOe6yat-qf-HER-ApAhvj3xqMOqtsX",
+      "parent_id": "1w1kwvUOh7Y3jV6ipFEX8vi4PRkdddb9v",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3768,
+      "modified": "2026-08-15T09:31:46.000Z",
+      "checksum": "57d42ae43aad4e5a3e1fdb6f48ebfad4",
+      "folder": false
+    },
+    {
+      "id": "1KFWBKzpUu4p6hJNCdXwS_cqu0PNZk4mi",
+      "parent_id": "1w1kwvUOh7Y3jV6ipFEX8vi4PRkdddb9v",
+      "name": "MẬT MÃ DA VINCI.epub",
+      "mime": "application/epub+zip",
+      "size": 738084,
+      "modified": "2026-08-15T09:31:57.000Z",
+      "checksum": "cd684b7a453dcf7c81c6640bb932cff0",
+      "folder": false
+    },
+    {
+      "id": "1TCCdSx7KvRa21v7OdIDvvyM9ZrALBXwN",
+      "parent_id": "1w1kwvUOh7Y3jV6ipFEX8vi4PRkdddb9v",
+      "name": "MẬT MÃ DA VINCI.pdf",
+      "mime": "application/pdf",
+      "size": 2081346,
+      "modified": "2026-08-15T09:31:54.000Z",
+      "checksum": "62470a28dc31da6616dbc0cec02b375f",
+      "folder": false
+    }
+  ]
+}

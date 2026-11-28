@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "135hPWNCYRX0q6noKbw-G9G8BwZPyQNg9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QdWX9vCAU1Nwbus1CN-itRE4WVrrrY6W",
+      "parent_id": "135hPWNCYRX0q6noKbw-G9G8BwZPyQNg9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 752,
+      "modified": "2026-08-15T15:34:59.000Z",
+      "checksum": "56be44087cdcbd07d94bedbaa7ba8b68",
+      "folder": false
+    },
+    {
+      "id": "1_DR9NubUx2GjcKyfw65MTuG1Znp_Y3Ub",
+      "parent_id": "135hPWNCYRX0q6noKbw-G9G8BwZPyQNg9",
+      "name": "VÀNH KHĂN CHO EM.epub",
+      "mime": "application/epub+zip",
+      "size": 464420,
+      "modified": "2026-08-15T15:35:11.000Z",
+      "checksum": "5392ec7d93825a0843c2e31964d869b6",
+      "folder": false
+    },
+    {
+      "id": "1RWzriM8lkTsO17lzsm5MnNDRmU0eK9dJ",
+      "parent_id": "135hPWNCYRX0q6noKbw-G9G8BwZPyQNg9",
+      "name": "VÀNH KHĂN CHO EM.pdf",
+      "mime": "application/pdf",
+      "size": 706478,
+      "modified": "2026-08-15T15:35:07.000Z",
+      "checksum": "90b59ab289ddfe275d2722ca55554f22",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sZzWxXbCzV15ak5kbV6f5Q7WUeiXUnzw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1T67pTr6iWL6HvuxMAKklWRZjG27W9MMs",
+      "parent_id": "1sZzWxXbCzV15ak5kbV6f5Q7WUeiXUnzw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1698,
+      "modified": "2026-08-16T03:41:57.000Z",
+      "checksum": "d3e8a2173b44886f10cad3cf09d29192",
+      "folder": false
+    },
+    {
+      "id": "1WdhFrqOZD_qBHCshvXpxDlw1Isjt4AvK",
+      "parent_id": "1sZzWxXbCzV15ak5kbV6f5Q7WUeiXUnzw",
+      "name": "GIÃ BIỆT TÌNH XA.epub",
+      "mime": "application/epub+zip",
+      "size": 581741,
+      "modified": "2026-08-16T03:42:04.000Z",
+      "checksum": "e94441b2d67f85784474e2460690f552",
+      "folder": false
+    },
+    {
+      "id": "1-B4ixUF2kCLXYPgDOLyTfII3oEkxB2EN",
+      "parent_id": "1sZzWxXbCzV15ak5kbV6f5Q7WUeiXUnzw",
+      "name": "GIÃ BIỆT TÌNH XA.pdf",
+      "mime": "application/pdf",
+      "size": 1175612,
+      "modified": "2026-08-16T03:42:01.000Z",
+      "checksum": "de91d85999a6661c4db2e8983657dfad",
+      "folder": false
+    }
+  ]
+}

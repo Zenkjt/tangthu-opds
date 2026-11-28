@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Pvo-T02PatgnitY8xiRCGqJUQjfMSF0a",
+  "page": 1,
+  "items": [
+    {
+      "id": "1e43gOl5x3-u4zQfFnTUct5bwFYiHUSfD",
+      "parent_id": "1Pvo-T02PatgnitY8xiRCGqJUQjfMSF0a",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2139,
+      "modified": "2026-08-15T09:32:09.000Z",
+      "checksum": "a88061ba59414b59f822778151663e67",
+      "folder": false
+    },
+    {
+      "id": "1TqmXoVpVHX-SGCykJAC9SDVPJEKBemW4",
+      "parent_id": "1Pvo-T02PatgnitY8xiRCGqJUQjfMSF0a",
+      "name": "TRẦM HƯƠNG TUYẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 925051,
+      "modified": "2026-08-15T09:32:20.000Z",
+      "checksum": "89d31ea56075af53f49661fdaab90d48",
+      "folder": false
+    },
+    {
+      "id": "18wfJ9sP-pC_wDy_79Z0Iq50MEztMXwNt",
+      "parent_id": "1Pvo-T02PatgnitY8xiRCGqJUQjfMSF0a",
+      "name": "TRẦM HƯƠNG TUYẾT.pdf",
+      "mime": "application/pdf",
+      "size": 2500497,
+      "modified": "2026-08-15T09:32:18.000Z",
+      "checksum": "ae717761202b0b7bb836df3a9fa28898",
+      "folder": false
+    }
+  ]
+}

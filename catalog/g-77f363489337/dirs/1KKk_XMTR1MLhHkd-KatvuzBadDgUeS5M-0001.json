@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KKk_XMTR1MLhHkd-KatvuzBadDgUeS5M",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fZQlXYCyU7vYZocBvKtUmrVYe2qGWUrS",
+      "parent_id": "1KKk_XMTR1MLhHkd-KatvuzBadDgUeS5M",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2147,
+      "modified": "2026-08-15T04:24:48.000Z",
+      "checksum": "702b71772bf7439f3cb1dea239127a1b",
+      "folder": false
+    },
+    {
+      "id": "1xnp_TyAoylXjOXtWqKte_v9qWxBD24cN",
+      "parent_id": "1KKk_XMTR1MLhHkd-KatvuzBadDgUeS5M",
+      "name": "NHÌN MẶT BIẾT BỆNH.epub",
+      "mime": "application/epub+zip",
+      "size": 414555,
+      "modified": "2026-08-15T04:24:53.000Z",
+      "checksum": "9552014548001bda58fcc357610681af",
+      "folder": false
+    },
+    {
+      "id": "1Ev0pwIBJZqf31XIxiVMd4HzDLEeYpYCj",
+      "parent_id": "1KKk_XMTR1MLhHkd-KatvuzBadDgUeS5M",
+      "name": "NHÌN MẶT BIẾT BỆNH.pdf",
+      "mime": "application/pdf",
+      "size": 441401,
+      "modified": "2026-08-15T04:24:51.000Z",
+      "checksum": "05b20b4cf2116941eed4c6ccd0488aab",
+      "folder": false
+    }
+  ]
+}

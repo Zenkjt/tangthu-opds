@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jjmdTDCF9lpdd01RV8BLio8OI7LHXs3H",
+  "page": 1,
+  "items": [
+    {
+      "id": "17TTcEOfaqaw9drFy6cRp_pqO-tdma104",
+      "parent_id": "1jjmdTDCF9lpdd01RV8BLio8OI7LHXs3H",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1408,
+      "modified": "2026-08-15T12:44:02.000Z",
+      "checksum": "19e7b81b723d31765dfe30f5bf7dedd0",
+      "folder": false
+    },
+    {
+      "id": "13tWJjRarq_OGHqOgTQQCfhGCohnx9L6h",
+      "parent_id": "1jjmdTDCF9lpdd01RV8BLio8OI7LHXs3H",
+      "name": "ĐI QUA HOA CÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 757027,
+      "modified": "2026-08-15T12:44:10.000Z",
+      "checksum": "665ad036fa13f93892b7fd76c746f70c",
+      "folder": false
+    },
+    {
+      "id": "16TxPKR9M73_YjIoaX2bGBvx-V6Jv7AFG",
+      "parent_id": "1jjmdTDCF9lpdd01RV8BLio8OI7LHXs3H",
+      "name": "ĐI QUA HOA CÚC.pdf",
+      "mime": "application/pdf",
+      "size": 1261816,
+      "modified": "2026-08-15T12:44:05.000Z",
+      "checksum": "6b541d0622c2293af0d9e479868ecb2b",
+      "folder": false
+    }
+  ]
+}

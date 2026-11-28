@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qBtknvYk2OwUSHc-OfqCkugaGs0y1DQJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jKoqDYPQXTp52dfOTZwV0Rw1i80ZSmoi",
+      "parent_id": "1qBtknvYk2OwUSHc-OfqCkugaGs0y1DQJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4317,
+      "modified": "2026-08-16T03:01:03.000Z",
+      "checksum": "4c6be2eb14af44c4441b1bacbd1f5309",
+      "folder": false
+    },
+    {
+      "id": "16v46bXGnBNAVILtmv3HZml-p9vPe_qS8",
+      "parent_id": "1qBtknvYk2OwUSHc-OfqCkugaGs0y1DQJ",
+      "name": "ĐỨA TRẺ HƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 656451,
+      "modified": "2026-08-16T03:01:10.000Z",
+      "checksum": "3e89d86c9d16cc8a9a8ec2a5a440d054",
+      "folder": false
+    },
+    {
+      "id": "13J0Bk7V0makbZ0RlF9Xx-NaAG4x94fed",
+      "parent_id": "1qBtknvYk2OwUSHc-OfqCkugaGs0y1DQJ",
+      "name": "ĐỨA TRẺ HƯ.pdf",
+      "mime": "application/pdf",
+      "size": 1456883,
+      "modified": "2026-08-16T03:01:08.000Z",
+      "checksum": "d65564d2a49e86ab0b701336de0696fc",
+      "folder": false
+    }
+  ]
+}

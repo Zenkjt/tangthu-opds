@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NCX4t0TQcH9Gz7kLRVgjJ8uqMmLLshPw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1M1DwBo2q0Feu5i--ZIK3ULxK0zYIPZfn",
+      "parent_id": "1NCX4t0TQcH9Gz7kLRVgjJ8uqMmLLshPw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3699,
+      "modified": "2026-08-15T10:20:26.000Z",
+      "checksum": "daa101901a92c4b1b51c57e358ac6857",
+      "folder": false
+    },
+    {
+      "id": "1jycQJk61kYo0mjTLZqr5ynK8oo_KNFh3",
+      "parent_id": "1NCX4t0TQcH9Gz7kLRVgjJ8uqMmLLshPw",
+      "name": "TẬP TRUYỆN TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 458825,
+      "modified": "2026-08-15T10:20:34.000Z",
+      "checksum": "b2702d5e0ca6588fda98ce2b00a374ad",
+      "folder": false
+    },
+    {
+      "id": "1_p-Xs_QR3e6-D-KzI3JODVlPzMB_wbUO",
+      "parent_id": "1NCX4t0TQcH9Gz7kLRVgjJ8uqMmLLshPw",
+      "name": "TẬP TRUYỆN TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 2045249,
+      "modified": "2026-08-15T10:20:31.000Z",
+      "checksum": "3565015ddaba732cd8f5b1805dffad8b",
+      "folder": false
+    }
+  ]
+}

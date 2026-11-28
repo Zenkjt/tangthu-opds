@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rEPgC3jiUAXPJu82b5bgfn57lkiS5lnn",
+  "page": 1,
+  "items": [
+    {
+      "id": "15UyX4w5sKSKNUOwVJv3RcwFDgk5ZQgJo",
+      "parent_id": "1rEPgC3jiUAXPJu82b5bgfn57lkiS5lnn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2382,
+      "modified": "2026-08-16T03:43:16.000Z",
+      "checksum": "e11f19bba47a539fe752f74f0b3f3295",
+      "folder": false
+    },
+    {
+      "id": "1FDUU2RgJh4ihZpOp3n_zHSefi188MJuw",
+      "parent_id": "1rEPgC3jiUAXPJu82b5bgfn57lkiS5lnn",
+      "name": "ĐỐI DIỆN VỚI TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 998885,
+      "modified": "2026-08-16T03:43:23.000Z",
+      "checksum": "d3974846b22e2898a2580d1a9406b462",
+      "folder": false
+    },
+    {
+      "id": "10sjapiw7-7QH04VSuXOojRIjWtE2A2lj",
+      "parent_id": "1rEPgC3jiUAXPJu82b5bgfn57lkiS5lnn",
+      "name": "ĐỐI DIỆN VỚI TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1785082,
+      "modified": "2026-08-16T03:43:20.000Z",
+      "checksum": "5a651af62747fb0e3191c1302280545c",
+      "folder": false
+    }
+  ]
+}

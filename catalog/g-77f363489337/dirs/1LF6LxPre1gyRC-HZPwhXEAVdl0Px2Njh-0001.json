@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LF6LxPre1gyRC-HZPwhXEAVdl0Px2Njh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BzY499ebVxBqg_kZ3bUzXbQvRKUI7X-C",
+      "parent_id": "1LF6LxPre1gyRC-HZPwhXEAVdl0Px2Njh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 570,
+      "modified": "2026-08-16T03:55:32.000Z",
+      "checksum": "2f4695884aea738192af46ab2020f68b",
+      "folder": false
+    },
+    {
+      "id": "1N4QhW1Ms1_6AOBIFesuJkX4OP6FMM2qC",
+      "parent_id": "1LF6LxPre1gyRC-HZPwhXEAVdl0Px2Njh",
+      "name": "TIẾNG HÚ BAN ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 429512,
+      "modified": "2026-08-16T03:55:39.000Z",
+      "checksum": "90ca41d240dfcc495c657b8f4ec8ef3f",
+      "folder": false
+    },
+    {
+      "id": "18mYHG47a6n2ixu4sEr8L5XVTh1pc5En9",
+      "parent_id": "1LF6LxPre1gyRC-HZPwhXEAVdl0Px2Njh",
+      "name": "TIẾNG HÚ BAN ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 876951,
+      "modified": "2026-08-16T03:55:36.000Z",
+      "checksum": "ef5fce977e73f3ab1a93bc2511783afc",
+      "folder": false
+    }
+  ]
+}

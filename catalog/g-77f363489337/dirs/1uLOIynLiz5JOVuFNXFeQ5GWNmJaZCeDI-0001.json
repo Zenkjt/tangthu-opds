@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uLOIynLiz5JOVuFNXFeQ5GWNmJaZCeDI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rutJgoaIPfnoJYIof7Kh2wARueSy66Uq",
+      "parent_id": "1uLOIynLiz5JOVuFNXFeQ5GWNmJaZCeDI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1048,
+      "modified": "2026-08-15T10:07:36.000Z",
+      "checksum": "7fffa6f0ebb972e1ecc27b912e29d2d2",
+      "folder": false
+    },
+    {
+      "id": "1_vdFUgnnXnyCM6MO-IOcrLJN0yoxCsdY",
+      "parent_id": "1uLOIynLiz5JOVuFNXFeQ5GWNmJaZCeDI",
+      "name": "TỐI MANH XUYÊN QUA.epub",
+      "mime": "application/epub+zip",
+      "size": 796447,
+      "modified": "2026-08-15T10:07:45.000Z",
+      "checksum": "9c4cabb4b7c4e922f7c9b2285786be6e",
+      "folder": false
+    },
+    {
+      "id": "1t7ORT_F_Ob6_79SVeCNjWO-ydo3kdiUA",
+      "parent_id": "1uLOIynLiz5JOVuFNXFeQ5GWNmJaZCeDI",
+      "name": "TỐI MANH XUYÊN QUA.pdf",
+      "mime": "application/pdf",
+      "size": 2439125,
+      "modified": "2026-08-15T10:07:42.000Z",
+      "checksum": "f4034b535f9e371006539b5825e72036",
+      "folder": false
+    }
+  ]
+}

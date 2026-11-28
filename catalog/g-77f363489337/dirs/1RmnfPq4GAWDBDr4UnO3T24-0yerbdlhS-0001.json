@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RmnfPq4GAWDBDr4UnO3T24-0yerbdlhS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1V8kGf4RbULq-6Z0Xozly5DgKPFiF510S",
+      "parent_id": "1RmnfPq4GAWDBDr4UnO3T24-0yerbdlhS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3909,
+      "modified": "2026-08-16T03:25:28.000Z",
+      "checksum": "d2961cdaa78b053010705dab7499dac7",
+      "folder": false
+    },
+    {
+      "id": "1oTNI1ARBb4oujHjgGuLujvDCD4q6pfeN",
+      "parent_id": "1RmnfPq4GAWDBDr4UnO3T24-0yerbdlhS",
+      "name": "ĐOẠT LỬA.epub",
+      "mime": "application/epub+zip",
+      "size": 498474,
+      "modified": "2026-08-16T03:25:37.000Z",
+      "checksum": "b5b30b905f0b53b902be68fb5f25bfa1",
+      "folder": false
+    },
+    {
+      "id": "15zTJzAkV_S8ryNCHsmd0YZtUXV9XuQKS",
+      "parent_id": "1RmnfPq4GAWDBDr4UnO3T24-0yerbdlhS",
+      "name": "ĐOẠT LỬA.pdf",
+      "mime": "application/pdf",
+      "size": 884512,
+      "modified": "2026-08-16T03:25:34.000Z",
+      "checksum": "4a00db6f1e3808967459616c261baa63",
+      "folder": false
+    }
+  ]
+}

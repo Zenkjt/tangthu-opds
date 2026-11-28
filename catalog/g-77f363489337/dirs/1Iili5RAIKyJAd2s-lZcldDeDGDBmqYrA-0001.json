@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Iili5RAIKyJAd2s-lZcldDeDGDBmqYrA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AJ1gc2V09DOcBJ0vfgpu8trNne54etYB",
+      "parent_id": "1Iili5RAIKyJAd2s-lZcldDeDGDBmqYrA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 407,
+      "modified": "2026-08-15T10:05:43.000Z",
+      "checksum": "13ffeb1d9106aadfdb053b1fdd518818",
+      "folder": false
+    },
+    {
+      "id": "1kCYalDMFfbCGUhoX4qtohvXu3AFNRLp3",
+      "parent_id": "1Iili5RAIKyJAd2s-lZcldDeDGDBmqYrA",
+      "name": "VÁN BÀI AN ỦI.epub",
+      "mime": "application/epub+zip",
+      "size": 686388,
+      "modified": "2026-08-15T10:05:52.000Z",
+      "checksum": "b5d841781de08cd84587d6d0510e1cd5",
+      "folder": false
+    },
+    {
+      "id": "1yq727gOd6w9oyaCnyffJbaMT7NbG7KIB",
+      "parent_id": "1Iili5RAIKyJAd2s-lZcldDeDGDBmqYrA",
+      "name": "VÁN BÀI AN ỦI.pdf",
+      "mime": "application/pdf",
+      "size": 1842190,
+      "modified": "2026-08-15T10:05:49.000Z",
+      "checksum": "e1fdd58b1030d678103835bc2a930b6f",
+      "folder": false
+    }
+  ]
+}

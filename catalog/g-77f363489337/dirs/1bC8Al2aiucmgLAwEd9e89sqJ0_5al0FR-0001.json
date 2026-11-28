@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bC8Al2aiucmgLAwEd9e89sqJ0_5al0FR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1igotPZOMviNQoVdelJthMJN7UIGUh0JN",
+      "parent_id": "1bC8Al2aiucmgLAwEd9e89sqJ0_5al0FR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3055,
+      "modified": "2026-08-15T10:14:25.000Z",
+      "checksum": "a30f61de95cb9bf4bbd699d5ca84d84d",
+      "folder": false
+    },
+    {
+      "id": "143IArPb70W9m-HxxkLtcgxcwzB1qgxvM",
+      "parent_id": "1bC8Al2aiucmgLAwEd9e89sqJ0_5al0FR",
+      "name": "THIÊN TÀI ĐẠO SĨ.epub",
+      "mime": "application/epub+zip",
+      "size": 839415,
+      "modified": "2026-08-15T10:14:32.000Z",
+      "checksum": "cc58d969a1c6a862068e0c692f0a571d",
+      "folder": false
+    },
+    {
+      "id": "117p9oVdGQ89Dl5GTC_o-y0-nzsKWIvJr",
+      "parent_id": "1bC8Al2aiucmgLAwEd9e89sqJ0_5al0FR",
+      "name": "THIÊN TÀI ĐẠO SĨ.pdf",
+      "mime": "application/pdf",
+      "size": 757195,
+      "modified": "2026-08-15T10:14:29.000Z",
+      "checksum": "aca5f0bc7225213522bc1de8a007e259",
+      "folder": false
+    }
+  ]
+}

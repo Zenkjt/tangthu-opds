@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1prFTIVF1iu-M99dLJMDTOpVfdEZ8inM_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eakqEAKo-7jiMP4cjlhuESVBaSluqOqo",
+      "parent_id": "1prFTIVF1iu-M99dLJMDTOpVfdEZ8inM_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2647,
+      "modified": "2026-08-15T09:16:17.000Z",
+      "checksum": "22df18cbf6e9906e3748c5c0140f8796",
+      "folder": false
+    },
+    {
+      "id": "17zMuWbb0hAYQTV38thbXWhFv45P8Fmef",
+      "parent_id": "1prFTIVF1iu-M99dLJMDTOpVfdEZ8inM_",
+      "name": "THẦN ẤN VƯƠNG TỌA.epub",
+      "mime": "application/epub+zip",
+      "size": 13554782,
+      "modified": "2026-08-15T09:19:54.000Z",
+      "checksum": "3dce96ab85cb1d5a3ea692f06f28e6a6",
+      "folder": false
+    },
+    {
+      "id": "1oaA1W9R-AdBRdOxNrp2Lr30DXvFxtRBF",
+      "parent_id": "1prFTIVF1iu-M99dLJMDTOpVfdEZ8inM_",
+      "name": "THẦN ẤN VƯƠNG TỌA.pdf",
+      "mime": "application/pdf",
+      "size": 15386761,
+      "modified": "2026-08-15T09:19:36.000Z",
+      "checksum": "af16fe432e38626ecf644a698bc21b7a",
+      "folder": false
+    }
+  ]
+}

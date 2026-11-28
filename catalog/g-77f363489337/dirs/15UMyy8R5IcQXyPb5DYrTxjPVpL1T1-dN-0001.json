@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15UMyy8R5IcQXyPb5DYrTxjPVpL1T1-dN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IkH3fTZRXp2V8UMR3q7vi6H0Mv_FtZtA",
+      "parent_id": "15UMyy8R5IcQXyPb5DYrTxjPVpL1T1-dN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1968,
+      "modified": "2026-08-15T09:29:44.000Z",
+      "checksum": "790a8d2a5481158a932769ddb1bcc5ef",
+      "folder": false
+    },
+    {
+      "id": "1TXPc61YQQB2DhSAT91htKH_Dy8mA2UTg",
+      "parent_id": "15UMyy8R5IcQXyPb5DYrTxjPVpL1T1-dN",
+      "name": "TIẾN VỀ PHÍA NHAU.epub",
+      "mime": "application/epub+zip",
+      "size": 2556922,
+      "modified": "2026-08-15T09:29:57.000Z",
+      "checksum": "ee30cd01afdb2f3765fe3d0fe41e2245",
+      "folder": false
+    },
+    {
+      "id": "1dWb0HlSCU_Jw-Vj74IyKw2z6RWijQoum",
+      "parent_id": "15UMyy8R5IcQXyPb5DYrTxjPVpL1T1-dN",
+      "name": "TIẾN VỀ PHÍA NHAU.pdf",
+      "mime": "application/pdf",
+      "size": 2792569,
+      "modified": "2026-08-15T09:29:52.000Z",
+      "checksum": "f11264c183774f06faba424d1f3a1473",
+      "folder": false
+    }
+  ]
+}

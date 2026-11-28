@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Fb22RjbMlV2gMqU_obZGyRL-PN368YJm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MU1Ks5PjzqU809FccU9yBYiv8a67jxRb",
+      "parent_id": "1Fb22RjbMlV2gMqU_obZGyRL-PN368YJm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2276,
+      "modified": "2026-08-15T17:01:59.000Z",
+      "checksum": "197a6c0c3e636a4b863b809c86348bfe",
+      "folder": false
+    },
+    {
+      "id": "1OwGtwa1WeCN1hOh1Oe6acMtrhNSXIU50",
+      "parent_id": "1Fb22RjbMlV2gMqU_obZGyRL-PN368YJm",
+      "name": "TRẠM XE BUÝT LÃNG MẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 559332,
+      "modified": "2026-08-15T17:02:05.000Z",
+      "checksum": "deec34b6361c8f0b0309e8a90b77c4ad",
+      "folder": false
+    },
+    {
+      "id": "1UmlT_BzioYKprOFoVjUOPmFDi0GW_yy2",
+      "parent_id": "1Fb22RjbMlV2gMqU_obZGyRL-PN368YJm",
+      "name": "TRẠM XE BUÝT LÃNG MẠN.pdf",
+      "mime": "application/pdf",
+      "size": 912898,
+      "modified": "2026-08-15T17:02:03.000Z",
+      "checksum": "2ffcc4eb4cc28cd36f3e03d4365c8287",
+      "folder": false
+    }
+  ]
+}

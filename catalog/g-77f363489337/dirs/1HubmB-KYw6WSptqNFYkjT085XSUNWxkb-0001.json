@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HubmB-KYw6WSptqNFYkjT085XSUNWxkb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZvZTLe9USk5lxz3RrT8GrJnAaoTVBqyw",
+      "parent_id": "1HubmB-KYw6WSptqNFYkjT085XSUNWxkb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3598,
+      "modified": "2026-08-16T03:12:43.000Z",
+      "checksum": "0992457182acf773b0fce825e4b0e3ef",
+      "folder": false
+    },
+    {
+      "id": "1xYRC805Si9bHqbShSlNDUPwAyH03uoza",
+      "parent_id": "1HubmB-KYw6WSptqNFYkjT085XSUNWxkb",
+      "name": "FREDDY VÀ KẺ MẶT MỊT.epub",
+      "mime": "application/epub+zip",
+      "size": 2000303,
+      "modified": "2026-08-16T03:12:50.000Z",
+      "checksum": "6aa51d40bb0474e41421c80b6392bd43",
+      "folder": false
+    },
+    {
+      "id": "1hwrzqEsnmyVX22XDriBoWi205XV4M757",
+      "parent_id": "1HubmB-KYw6WSptqNFYkjT085XSUNWxkb",
+      "name": "FREDDY VÀ KẺ MẶT MỊT.pdf",
+      "mime": "application/pdf",
+      "size": 2192676,
+      "modified": "2026-08-16T03:12:47.000Z",
+      "checksum": "4492c9898b4dfbb33f4bcf76506e3def",
+      "folder": false
+    }
+  ]
+}

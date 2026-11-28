@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VIHP9XnNTxshYzAQFUbL29thyw3MrZUa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zcHGS0esM4-pIRVrvygoen5cBlr36QFU",
+      "parent_id": "1VIHP9XnNTxshYzAQFUbL29thyw3MrZUa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3546,
+      "modified": "2026-08-15T10:12:33.000Z",
+      "checksum": "16058de659c46a0fd6fc6c846f8c47fe",
+      "folder": false
+    },
+    {
+      "id": "1vJKJtskHCwvTVtdRRL64mnCqCIorDd7U",
+      "parent_id": "1VIHP9XnNTxshYzAQFUbL29thyw3MrZUa",
+      "name": "THỜI NIÊN THIẾU TƯƠI ĐẸP ẤY.epub",
+      "mime": "application/epub+zip",
+      "size": 436902,
+      "modified": "2026-08-15T10:12:41.000Z",
+      "checksum": "e62d0ed975698bd2e8d7932fad654f2f",
+      "folder": false
+    },
+    {
+      "id": "180keGXGpX6bwQnK-9xodWTWK5Hmdxo1v",
+      "parent_id": "1VIHP9XnNTxshYzAQFUbL29thyw3MrZUa",
+      "name": "THỜI NIÊN THIẾU TƯƠI ĐẸP ẤY.pdf",
+      "mime": "application/pdf",
+      "size": 967715,
+      "modified": "2026-08-15T10:12:39.000Z",
+      "checksum": "323e2dd3ce30594b4e1a5a6598f1ff6f",
+      "folder": false
+    }
+  ]
+}

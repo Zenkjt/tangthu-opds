@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1j2NfskOWuMo9hF-QxQ0I7ckiUJXykNvt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fQfuMpEY7hoWgyTlUn35-PGinehaYIjy",
+      "parent_id": "1j2NfskOWuMo9hF-QxQ0I7ckiUJXykNvt",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 3016,
+      "modified": "2026-08-16T04:06:47.000Z",
+      "checksum": "e26bdf9580d7cace4d9f15e4e1ec1d1d",
+      "folder": false
+    },
+    {
+      "id": "1A3bh0p641OY0uHpa9cLUsaY7dRnSY082",
+      "parent_id": "1j2NfskOWuMo9hF-QxQ0I7ckiUJXykNvt",
+      "name": "PHẬT TỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 1613289,
+      "modified": "2026-08-16T04:06:57.000Z",
+      "checksum": "c47a70d59d2d8888b9279df845be1157",
+      "folder": false
+    },
+    {
+      "id": "18WBWd_dZHwtmTUp6YZjl7aHVBSRJ5doY",
+      "parent_id": "1j2NfskOWuMo9hF-QxQ0I7ckiUJXykNvt",
+      "name": "PHẬT TỘI.pdf",
+      "mime": "application/pdf",
+      "size": 1699956,
+      "modified": "2026-08-16T04:06:53.000Z",
+      "checksum": "0485d19b5130876499ee53e0c9054f04",
+      "folder": false
+    }
+  ]
+}

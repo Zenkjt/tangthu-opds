@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17jfSv7kLYmWIXwEMA8gMseOZ1pf10-uP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZWPWl6gyOKzQCMV9cPJvfj1pFpRlS4-x",
+      "parent_id": "17jfSv7kLYmWIXwEMA8gMseOZ1pf10-uP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 670,
+      "modified": "2026-08-15T10:57:02.000Z",
+      "checksum": "47382e68c8e637cd5d46973fe7b3934a",
+      "folder": false
+    },
+    {
+      "id": "1p_cuiV9CCM3PENuUNW5FSVeJZv66wHdD",
+      "parent_id": "17jfSv7kLYmWIXwEMA8gMseOZ1pf10-uP",
+      "name": "HAI KINH THÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 644628,
+      "modified": "2026-08-15T10:57:09.000Z",
+      "checksum": "3bb5bb5ac317a268445156b1f85f9b77",
+      "folder": false
+    },
+    {
+      "id": "10n_XdWgFpHbFw0AMD8q-mTCNJDu03fZG",
+      "parent_id": "17jfSv7kLYmWIXwEMA8gMseOZ1pf10-uP",
+      "name": "HAI KINH THÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 1663013,
+      "modified": "2026-08-15T10:57:06.000Z",
+      "checksum": "29bd6ad499ca4c38e407ae2a99dd4873",
+      "folder": false
+    }
+  ]
+}

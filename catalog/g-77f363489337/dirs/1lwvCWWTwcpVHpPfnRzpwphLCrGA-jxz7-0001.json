@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lwvCWWTwcpVHpPfnRzpwphLCrGA-jxz7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nLgj9YhFIZOIkbnKDpXMwZBMyaQ87ZHh",
+      "parent_id": "1lwvCWWTwcpVHpPfnRzpwphLCrGA-jxz7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 572,
+      "modified": "2026-08-16T04:20:36.000Z",
+      "checksum": "69ab090f24cd8c86670bbfaa3ad02f65",
+      "folder": false
+    },
+    {
+      "id": "10FrOfLnoxrGN3BlWBMWnuRt9t8JqLVQs",
+      "parent_id": "1lwvCWWTwcpVHpPfnRzpwphLCrGA-jxz7",
+      "name": "ĐỆ NHẤT PHU NHÂN TRẦN LỆ XUÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 1299334,
+      "modified": "2026-08-16T04:20:46.000Z",
+      "checksum": "3cbbeb5fa8931f1b28b3903834bee413",
+      "folder": false
+    },
+    {
+      "id": "1XRsiIeYFzZ-cDSAm938QADzf9dJJOWzC",
+      "parent_id": "1lwvCWWTwcpVHpPfnRzpwphLCrGA-jxz7",
+      "name": "ĐỆ NHẤT PHU NHÂN TRẦN LỆ XUÂN.pdf",
+      "mime": "application/pdf",
+      "size": 3627221,
+      "modified": "2026-08-16T04:20:43.000Z",
+      "checksum": "3a2857036e17ee2578ede5faa204c958",
+      "folder": false
+    }
+  ]
+}

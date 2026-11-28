@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19nsnZE5jAiFGnFQVF0zOQ4I6rtHk_Sxy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GgiY2S8sgWt9JlxA7VjPu9jMkmUGGRmJ",
+      "parent_id": "19nsnZE5jAiFGnFQVF0zOQ4I6rtHk_Sxy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12313,
+      "modified": "2026-08-15T07:10:09.000Z",
+      "checksum": "facd53bc9c459544b89f7de60d3b8f26",
+      "folder": false
+    },
+    {
+      "id": "1WX1p5UUGs1pV2z4DSRXOpiwBNtIA_oL5",
+      "parent_id": "19nsnZE5jAiFGnFQVF0zOQ4I6rtHk_Sxy",
+      "name": "ÁNH SAO LẤP LÁNH.epub",
+      "mime": "application/epub+zip",
+      "size": 549313,
+      "modified": "2026-08-15T07:10:15.000Z",
+      "checksum": "c1bac7e0b687c9173bff736722c48147",
+      "folder": false
+    },
+    {
+      "id": "1eD7tTPon1gknjD86yaPa8ydoLnpm2-38",
+      "parent_id": "19nsnZE5jAiFGnFQVF0zOQ4I6rtHk_Sxy",
+      "name": "ÁNH SAO LẤP LÁNH.pdf",
+      "mime": "application/pdf",
+      "size": 649423,
+      "modified": "2026-08-15T07:10:12.000Z",
+      "checksum": "59454d8fc2eeda1bb9239191ce81cb48",
+      "folder": false
+    }
+  ]
+}

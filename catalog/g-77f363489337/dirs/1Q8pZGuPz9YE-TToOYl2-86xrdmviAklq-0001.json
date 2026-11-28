@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Q8pZGuPz9YE-TToOYl2-86xrdmviAklq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1abCAzHulNH35ede-WoPEPJ_mhJYmeoWq",
+      "parent_id": "1Q8pZGuPz9YE-TToOYl2-86xrdmviAklq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 617,
+      "modified": "2026-08-15T07:18:57.000Z",
+      "checksum": "c736f6843a37e8c1f306c4a21ce73ed4",
+      "folder": false
+    },
+    {
+      "id": "1UCvcdSb11rq9OOwTgnJMp-lc370pPAP9",
+      "parent_id": "1Q8pZGuPz9YE-TToOYl2-86xrdmviAklq",
+      "name": "NGÔI SAO NHỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 487651,
+      "modified": "2026-08-15T07:19:03.000Z",
+      "checksum": "2e11de1a5e5ae499026c2e137f61daa2",
+      "folder": false
+    },
+    {
+      "id": "1h4rIXavuZbP_de3qfNEqZXg2EBtuV4D8",
+      "parent_id": "1Q8pZGuPz9YE-TToOYl2-86xrdmviAklq",
+      "name": "NGÔI SAO NHỎ.pdf",
+      "mime": "application/pdf",
+      "size": 364333,
+      "modified": "2026-08-15T07:19:01.000Z",
+      "checksum": "b944909cbd9133cc86a03b38a8be0852",
+      "folder": false
+    }
+  ]
+}

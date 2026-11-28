@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kSwK1HhhMMBrhFkw9t-jKdC-KRZymLb9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QzpUNsy0c-Oc8O6nZDiFY9ViuLf6sSL5",
+      "parent_id": "1kSwK1HhhMMBrhFkw9t-jKdC-KRZymLb9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3658,
+      "modified": "2026-08-15T07:23:25.000Z",
+      "checksum": "028986925de04ce8e6a6843fa770b7a5",
+      "folder": false
+    },
+    {
+      "id": "16dbCvfCa-dfYL--wJd7l0pEh8ibUDoqg",
+      "parent_id": "1kSwK1HhhMMBrhFkw9t-jKdC-KRZymLb9",
+      "name": "TRUYỆN CỔ MARỐC.epub",
+      "mime": "application/epub+zip",
+      "size": 487654,
+      "modified": "2026-08-15T07:23:31.000Z",
+      "checksum": "c150fa678bfe001ef77a917b40a57803",
+      "folder": false
+    },
+    {
+      "id": "1p3NFQkOBfN97d3wpcBQaVBSOssF2_i4C",
+      "parent_id": "1kSwK1HhhMMBrhFkw9t-jKdC-KRZymLb9",
+      "name": "TRUYỆN CỔ MARỐC.pdf",
+      "mime": "application/pdf",
+      "size": 837248,
+      "modified": "2026-08-15T07:23:29.000Z",
+      "checksum": "7564affc38dfcc8c648a7f5043a76e2d",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NGztGdsDRleKYoHCTX8ksid5vth5KZgE",
+  "page": 1,
+  "items": [
+    {
+      "id": "19DT2foNzfuvZeDjurXaN1g4aKwcoF5Qs",
+      "parent_id": "1NGztGdsDRleKYoHCTX8ksid5vth5KZgE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1547,
+      "modified": "2026-08-15T03:28:57.000Z",
+      "checksum": "32ce6f416328751fb138f97f4c80f635",
+      "folder": false
+    },
+    {
+      "id": "1Em47c6hueUBVywmb1GP6xRDVsbUDCkeV",
+      "parent_id": "1NGztGdsDRleKYoHCTX8ksid5vth5KZgE",
+      "name": "KINH SÁM HỐI.epub",
+      "mime": "application/epub+zip",
+      "size": 370329,
+      "modified": "2026-08-15T03:29:04.000Z",
+      "checksum": "f8d0e4ca1d9d4b2c05c004a16220f2f2",
+      "folder": false
+    },
+    {
+      "id": "1vf4aA3mzAJXFj04U1TrO8xJmTyGMfgGS",
+      "parent_id": "1NGztGdsDRleKYoHCTX8ksid5vth5KZgE",
+      "name": "KINH SÁM HỐI.pdf",
+      "mime": "application/pdf",
+      "size": 1672679,
+      "modified": "2026-08-15T03:29:01.000Z",
+      "checksum": "3ede25c2221986262a825ee8f4721230",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14LU1UehGPgRtd0_pRlWMRj5trVCsrhug",
+  "page": 1,
+  "items": [
+    {
+      "id": "1N7S-sEQ3BTcyFXLidYzPD1EJiEbTAmHk",
+      "parent_id": "14LU1UehGPgRtd0_pRlWMRj5trVCsrhug",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1936,
+      "modified": "2026-08-16T03:29:08.000Z",
+      "checksum": "f1fae111ae0b172ef3187e4692c37560",
+      "folder": false
+    },
+    {
+      "id": "1mO6IKJK8r_y5nOqJorobTJ8Rwh0PSjlK",
+      "parent_id": "14LU1UehGPgRtd0_pRlWMRj5trVCsrhug",
+      "name": "GẶP LẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 502915,
+      "modified": "2026-08-16T03:29:15.000Z",
+      "checksum": "4bc602fa25b229e8bdd7d338e27979e4",
+      "folder": false
+    },
+    {
+      "id": "1tUNHuZ4mAqulNyJhjLtkjG3O9VWkzclq",
+      "parent_id": "14LU1UehGPgRtd0_pRlWMRj5trVCsrhug",
+      "name": "GẶP LẠI.pdf",
+      "mime": "application/pdf",
+      "size": 924099,
+      "modified": "2026-08-16T03:29:12.000Z",
+      "checksum": "a4ca08155a9d85861218fc16c71c541f",
+      "folder": false
+    }
+  ]
+}

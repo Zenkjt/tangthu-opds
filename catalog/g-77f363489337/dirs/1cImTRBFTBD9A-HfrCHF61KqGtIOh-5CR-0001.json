@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cImTRBFTBD9A-HfrCHF61KqGtIOh-5CR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pZHyh00jJ-FYv8_GzmPJLeF6lj6S6ItY",
+      "parent_id": "1cImTRBFTBD9A-HfrCHF61KqGtIOh-5CR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1636,
+      "modified": "2026-08-15T07:29:33.000Z",
+      "checksum": "cd0a2327a50315caaf905c107b06bca4",
+      "folder": false
+    },
+    {
+      "id": "14uvLEEZoeEeLLAwKhVaeisnZhneb1fkP",
+      "parent_id": "1cImTRBFTBD9A-HfrCHF61KqGtIOh-5CR",
+      "name": "VŨ TOÁI HƯ KHÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 2244599,
+      "modified": "2026-08-15T07:30:42.000Z",
+      "checksum": "8532d4dec6cc1e0f8dff7be441968db1",
+      "folder": false
+    },
+    {
+      "id": "1HGYdzRVz7x2hpuA5rMRyU5Z2MoA1y6tJ",
+      "parent_id": "1cImTRBFTBD9A-HfrCHF61KqGtIOh-5CR",
+      "name": "VŨ TOÁI HƯ KHÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 9869065,
+      "modified": "2026-08-15T07:30:27.000Z",
+      "checksum": "f54bce6675e62af2df7a64bae39814f1",
+      "folder": false
+    }
+  ]
+}

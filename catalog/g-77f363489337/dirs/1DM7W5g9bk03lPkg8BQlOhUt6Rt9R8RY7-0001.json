@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DM7W5g9bk03lPkg8BQlOhUt6Rt9R8RY7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dlyVpkEHpp4i1uQmmS4a4nJj4d0hZJyO",
+      "parent_id": "1DM7W5g9bk03lPkg8BQlOhUt6Rt9R8RY7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5036,
+      "modified": "2026-08-15T00:55:28.000Z",
+      "checksum": "fc0f54e71a95d0d6af95cb1713550579",
+      "folder": false
+    },
+    {
+      "id": "11MhO8LFiRs_ewEEKGxXIQPaqzKreJdaS",
+      "parent_id": "1DM7W5g9bk03lPkg8BQlOhUt6Rt9R8RY7",
+      "name": "NHÂN TƯỚNG HỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 1758787,
+      "modified": "2026-08-15T00:55:36.000Z",
+      "checksum": "62fd219b1722de15657e48461451e7ec",
+      "folder": false
+    },
+    {
+      "id": "1CDioYDKo9BKwmsBHTrFMOCzVUVlhwvXz",
+      "parent_id": "1DM7W5g9bk03lPkg8BQlOhUt6Rt9R8RY7",
+      "name": "NHÂN TƯỚNG HỌC.pdf",
+      "mime": "application/pdf",
+      "size": 2836304,
+      "modified": "2026-08-15T00:55:33.000Z",
+      "checksum": "30dd226a3c1ced3fb5cafab6e1a66dc5",
+      "folder": false
+    }
+  ]
+}

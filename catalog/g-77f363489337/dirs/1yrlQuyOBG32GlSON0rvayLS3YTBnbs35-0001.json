@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yrlQuyOBG32GlSON0rvayLS3YTBnbs35",
+  "page": 1,
+  "items": [
+    {
+      "id": "1phMdQrDyV6nhqA-GmKgkGd2ofta8fUMl",
+      "parent_id": "1yrlQuyOBG32GlSON0rvayLS3YTBnbs35",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5290,
+      "modified": "2026-08-15T06:36:15.000Z",
+      "checksum": "2bdb231a716adb29dacc4e66ae112cd6",
+      "folder": false
+    },
+    {
+      "id": "1QpGlX64M2H0DX8ZM_SPzImLDTC4beQU6",
+      "parent_id": "1yrlQuyOBG32GlSON0rvayLS3YTBnbs35",
+      "name": "TAM QUỐC DIỄN NGHĨA.epub",
+      "mime": "application/epub+zip",
+      "size": 1776220,
+      "modified": "2026-08-15T06:36:53.000Z",
+      "checksum": "b84a366fbf4b23b95f05b6cfc483642b",
+      "folder": false
+    },
+    {
+      "id": "12z04XnE_8Xca1PAs-ZxXRtW26sYgs3J3",
+      "parent_id": "1yrlQuyOBG32GlSON0rvayLS3YTBnbs35",
+      "name": "TAM QUỐC DIỄN NGHĨA.pdf",
+      "mime": "application/pdf",
+      "size": 8351868,
+      "modified": "2026-08-15T06:36:40.000Z",
+      "checksum": "9fe11d9cb906e35d74d08ab60f805d41",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Iw5oDusMRkQCIWofGW562fRAEr9Xu6o8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1l6lnTYCGYTzYMfdb_cbHhoAIVrLxIrQh",
+      "parent_id": "1Iw5oDusMRkQCIWofGW562fRAEr9Xu6o8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 315,
+      "modified": "2026-08-15T10:58:59.000Z",
+      "checksum": "372ffdb33ef273a78b7aafab6fce6c0e",
+      "folder": false
+    },
+    {
+      "id": "1FAhopwac1_SGmzrEyxqrlM_iA65G8OcI",
+      "parent_id": "1Iw5oDusMRkQCIWofGW562fRAEr9Xu6o8",
+      "name": "ĐỐ DÁM YÊU EM.epub",
+      "mime": "application/epub+zip",
+      "size": 550112,
+      "modified": "2026-08-15T10:59:24.000Z",
+      "checksum": "5ecfbaf6743fa7de73665645b8d717db",
+      "folder": false
+    },
+    {
+      "id": "19M33NhaazHcz2oyDTjAjJWpQjNxMlHpN",
+      "parent_id": "1Iw5oDusMRkQCIWofGW562fRAEr9Xu6o8",
+      "name": "ĐỐ DÁM YÊU EM.pdf",
+      "mime": "application/pdf",
+      "size": 1238012,
+      "modified": "2026-08-15T10:59:19.000Z",
+      "checksum": "7a00a7b926450f86d6b7580a746fba87",
+      "folder": false
+    }
+  ]
+}

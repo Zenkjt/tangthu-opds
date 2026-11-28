@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1q8EjDxo3N7OshTwZLe37wXK1bQzmZHQ9",
+  "page": 1,
+  "items": [
+    {
+      "id": "19lLce1HwPpEebUkGPcz6ffLVJYXheJEe",
+      "parent_id": "1q8EjDxo3N7OshTwZLe37wXK1bQzmZHQ9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3534,
+      "modified": "2026-08-15T01:00:35.000Z",
+      "checksum": "95bfd0f0bfe48d046b9de9a7e5d8a163",
+      "folder": false
+    },
+    {
+      "id": "1CpsZLQWNT_tqPfVRtqfwhaYoCWkaJFi8",
+      "parent_id": "1q8EjDxo3N7OshTwZLe37wXK1bQzmZHQ9",
+      "name": "NÓI NHIỀU KHÔNG BẰNG NÓI ĐÚNG.epub",
+      "mime": "application/epub+zip",
+      "size": 292313,
+      "modified": "2026-08-15T01:00:43.000Z",
+      "checksum": "255c57b18a43c251f975d141b99daf6c",
+      "folder": false
+    },
+    {
+      "id": "1TPXyY_k94HAN774Q_T3FXkkQ9zYZ28_C",
+      "parent_id": "1q8EjDxo3N7OshTwZLe37wXK1bQzmZHQ9",
+      "name": "NÓI NHIỀU KHÔNG BẰNG NÓI ĐÚNG.pdf",
+      "mime": "application/pdf",
+      "size": 326624,
+      "modified": "2026-08-15T01:00:40.000Z",
+      "checksum": "545c0f9855ddd9d77fa8c58857d144ac",
+      "folder": false
+    }
+  ]
+}

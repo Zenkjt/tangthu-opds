@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FgaGMbP7eGV-oZsKbJg_5kMAWdAzHFgP",
+  "page": 1,
+  "items": [
+    {
+      "id": "163n3IVVQ_BDEBgoxGzkcffGlri0WXHyL",
+      "parent_id": "1FgaGMbP7eGV-oZsKbJg_5kMAWdAzHFgP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3457,
+      "modified": "2026-08-15T03:49:11.000Z",
+      "checksum": "76d5e76b66419ebaf1df04168b239a8b",
+      "folder": false
+    },
+    {
+      "id": "1A-cy8CeHl5MdIla7Ri5vcUYM2b2Xy0QO",
+      "parent_id": "1FgaGMbP7eGV-oZsKbJg_5kMAWdAzHFgP",
+      "name": "TÂM VÀ ĐẠO.epub",
+      "mime": "application/epub+zip",
+      "size": 658686,
+      "modified": "2026-08-15T03:49:18.000Z",
+      "checksum": "ef9c446bda22a479e0bcc26f8f92695c",
+      "folder": false
+    },
+    {
+      "id": "14EcPJlUd3jzHp_m3xYniTawOmmhGvz0L",
+      "parent_id": "1FgaGMbP7eGV-oZsKbJg_5kMAWdAzHFgP",
+      "name": "TÂM VÀ ĐẠO.pdf",
+      "mime": "application/pdf",
+      "size": 1341920,
+      "modified": "2026-08-15T03:49:15.000Z",
+      "checksum": "3c397ffac96638bd88d3f120144554a6",
+      "folder": false
+    }
+  ]
+}

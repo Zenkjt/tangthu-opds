@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ucQuc1y79V2v_UlWRcD6zf80ws02jLqA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fXGX2grwneMthLNAkzkD_79rd9KXV8Mx",
+      "parent_id": "1ucQuc1y79V2v_UlWRcD6zf80ws02jLqA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2489,
+      "modified": "2026-08-15T07:38:49.000Z",
+      "checksum": "a56e702e43987d391e5908488d58dc18",
+      "folder": false
+    },
+    {
+      "id": "1eDSy3XAZnYq3Bo_w0i051hpyJ83QTvET",
+      "parent_id": "1ucQuc1y79V2v_UlWRcD6zf80ws02jLqA",
+      "name": "QUÊ NỘI, QUÊ NGOẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 478836,
+      "modified": "2026-08-15T07:38:56.000Z",
+      "checksum": "88ea676324d71ef03daf6b3e544f0d9d",
+      "folder": false
+    },
+    {
+      "id": "1bwzK4hQM63SadAjh3KZqAj5zj_uGnQDQ",
+      "parent_id": "1ucQuc1y79V2v_UlWRcD6zf80ws02jLqA",
+      "name": "QUÊ NỘI, QUÊ NGOẠI.pdf",
+      "mime": "application/pdf",
+      "size": 1306037,
+      "modified": "2026-08-15T07:38:54.000Z",
+      "checksum": "cc1fc358a664786d713f768d9f5d37ed",
+      "folder": false
+    }
+  ]
+}

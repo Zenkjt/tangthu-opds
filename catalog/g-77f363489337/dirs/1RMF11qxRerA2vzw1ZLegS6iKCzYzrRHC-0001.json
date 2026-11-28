@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RMF11qxRerA2vzw1ZLegS6iKCzYzrRHC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PHUyFreKR1Wms67NEzJsoIyDlzLmZtEf",
+      "parent_id": "1RMF11qxRerA2vzw1ZLegS6iKCzYzrRHC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 557,
+      "modified": "2026-08-15T15:39:41.000Z",
+      "checksum": "7b1473493580b3ae0497d30c7cafaf4c",
+      "folder": false
+    },
+    {
+      "id": "1fjJoNU7JkWjaPjhD2K2d8Qpp8-j7ayGY",
+      "parent_id": "1RMF11qxRerA2vzw1ZLegS6iKCzYzrRHC",
+      "name": "NGƯỜI TÌNH KỲ LẠ - BOILEAU.epub",
+      "mime": "application/epub+zip",
+      "size": 376523,
+      "modified": "2026-08-15T15:39:47.000Z",
+      "checksum": "dd11978f8ed7371a94aedbfc0da490c1",
+      "folder": false
+    },
+    {
+      "id": "1DRisj53Wn8iqJpud20cBk1kKrnXQ8_We",
+      "parent_id": "1RMF11qxRerA2vzw1ZLegS6iKCzYzrRHC",
+      "name": "NGƯỜI TÌNH KỲ LẠ - BOILEAU.pdf",
+      "mime": "application/pdf",
+      "size": 536091,
+      "modified": "2026-08-15T15:39:45.000Z",
+      "checksum": "81a7c40b51878c58f0ff01fc3aa6841b",
+      "folder": false
+    }
+  ]
+}

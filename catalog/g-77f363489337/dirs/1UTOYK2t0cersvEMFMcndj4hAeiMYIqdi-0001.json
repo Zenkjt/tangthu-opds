@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UTOYK2t0cersvEMFMcndj4hAeiMYIqdi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_zwf3Hs77pIqx_lEfeZujbcocaQfndu0",
+      "parent_id": "1UTOYK2t0cersvEMFMcndj4hAeiMYIqdi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 747,
+      "modified": "2026-08-16T04:09:00.000Z",
+      "checksum": "80bd11374d3ffc0a9a1af87902d61277",
+      "folder": false
+    },
+    {
+      "id": "19QWynk692xy9of8QNFw9RMhY6CswcHc3",
+      "parent_id": "1UTOYK2t0cersvEMFMcndj4hAeiMYIqdi",
+      "name": "NHỮNG TRÁI TIM VÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 640067,
+      "modified": "2026-08-16T04:09:06.000Z",
+      "checksum": "2a48d85105eec028fd1d65ecf6cdc620",
+      "folder": false
+    },
+    {
+      "id": "15ifCv6hnfEAJxFJGOqXF1H3wdV2zdGYw",
+      "parent_id": "1UTOYK2t0cersvEMFMcndj4hAeiMYIqdi",
+      "name": "NHỮNG TRÁI TIM VÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 1302852,
+      "modified": "2026-08-16T04:09:04.000Z",
+      "checksum": "6375d0f60349cb5baeff567375117a33",
+      "folder": false
+    }
+  ]
+}

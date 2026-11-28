@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YwSer1mflcsvlA25-w1W6-lOKQJWhMs9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tAX-Kz-wIIe-GowdFZ8G-ztTCcBJa9yU",
+      "parent_id": "1YwSer1mflcsvlA25-w1W6-lOKQJWhMs9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 744,
+      "modified": "2026-08-15T10:55:57.000Z",
+      "checksum": "87e9b0d4901b58d4281415e7360e424b",
+      "folder": false
+    },
+    {
+      "id": "1fYZMb6BGsClTQGXfP2dpTInKAjS-wP9B",
+      "parent_id": "1YwSer1mflcsvlA25-w1W6-lOKQJWhMs9",
+      "name": "KẺ DỌN RÁC.epub",
+      "mime": "application/epub+zip",
+      "size": 554747,
+      "modified": "2026-08-15T10:56:06.000Z",
+      "checksum": "46fbae9b5cfe284bbccf2b731821492f",
+      "folder": false
+    },
+    {
+      "id": "1hcj5LVa_4zeo3LuhS72GENBWWtbDqwFj",
+      "parent_id": "1YwSer1mflcsvlA25-w1W6-lOKQJWhMs9",
+      "name": "KẺ DỌN RÁC.pdf",
+      "mime": "application/pdf",
+      "size": 1810277,
+      "modified": "2026-08-15T10:56:03.000Z",
+      "checksum": "ea083589f541ba9a62c80f9aeceed73d",
+      "folder": false
+    }
+  ]
+}

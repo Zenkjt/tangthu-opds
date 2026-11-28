@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NBlRXGdSzMP5G9tPRQyF7ROI8KdELOcf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tex0RGD_xzhAD_U4jgXmlH_d2v_-nyD9",
+      "parent_id": "1NBlRXGdSzMP5G9tPRQyF7ROI8KdELOcf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 16023,
+      "modified": "2026-08-16T03:13:26.000Z",
+      "checksum": "9faa7f60e465e01ce09a92421d2e106e",
+      "folder": false
+    },
+    {
+      "id": "15jpzEULCyynXw31PaSJTAucAKPRK-Kzo",
+      "parent_id": "1NBlRXGdSzMP5G9tPRQyF7ROI8KdELOcf",
+      "name": "NGƯỜI HOA TIÊU TRÊN SÔNG DANUBE.epub",
+      "mime": "application/epub+zip",
+      "size": 1079292,
+      "modified": "2026-08-16T03:13:37.000Z",
+      "checksum": "8eab933a073183b359e065182f8c03c7",
+      "folder": false
+    },
+    {
+      "id": "1ETpXw2GiU8-7EnUSo_ktsQHCynPMDHox",
+      "parent_id": "1NBlRXGdSzMP5G9tPRQyF7ROI8KdELOcf",
+      "name": "NGƯỜI HOA TIÊU TRÊN SÔNG DANUBE.pdf",
+      "mime": "application/pdf",
+      "size": 1019666,
+      "modified": "2026-08-16T03:13:32.000Z",
+      "checksum": "0e884a21ada13328506f230048a62644",
+      "folder": false
+    }
+  ]
+}

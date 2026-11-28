@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1G0zpmpOGzOb5cKwQ6oc1_5y9fB06Gi7b",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mgQ9xgUuMh3dkGXmFwccpREuyABhPyeW",
+      "parent_id": "1G0zpmpOGzOb5cKwQ6oc1_5y9fB06Gi7b",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11247,
+      "modified": "2026-08-15T07:09:11.000Z",
+      "checksum": "eaf06bd540eda4f4764e054acc1a8beb",
+      "folder": false
+    },
+    {
+      "id": "18TPM1twVptvwhj4qTrNvaAxdeJ8wzgTg",
+      "parent_id": "1G0zpmpOGzOb5cKwQ6oc1_5y9fB06Gi7b",
+      "name": "LÀM LẼ.epub",
+      "mime": "application/epub+zip",
+      "size": 567588,
+      "modified": "2026-08-15T07:09:17.000Z",
+      "checksum": "45e045bc8589e69e885afeb40cdca2e1",
+      "folder": false
+    },
+    {
+      "id": "1mAQLI7yTegt7U34oRQ5iNUtE5Q1XgVhr",
+      "parent_id": "1G0zpmpOGzOb5cKwQ6oc1_5y9fB06Gi7b",
+      "name": "LÀM LẼ.pdf",
+      "mime": "application/pdf",
+      "size": 607375,
+      "modified": "2026-08-15T07:09:15.000Z",
+      "checksum": "42c6e7edd2c6d4b0a92393f0211d3062",
+      "folder": false
+    }
+  ]
+}

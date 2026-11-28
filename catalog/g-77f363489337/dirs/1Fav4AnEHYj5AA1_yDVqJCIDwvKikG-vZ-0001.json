@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Fav4AnEHYj5AA1_yDVqJCIDwvKikG-vZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ayum_GCIq_w_Va-hORctCbu1vcpawPnQ",
+      "parent_id": "1Fav4AnEHYj5AA1_yDVqJCIDwvKikG-vZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3208,
+      "modified": "2026-08-16T04:03:38.000Z",
+      "checksum": "f95d8f1f74cdaa2909850edcda52629d",
+      "folder": false
+    },
+    {
+      "id": "1HJE25xZpdQsvkgBuWOUc75EeiFJbkJr1",
+      "parent_id": "1Fav4AnEHYj5AA1_yDVqJCIDwvKikG-vZ",
+      "name": "SỐ 10 PHỐ YÊN ĐẠI TÀ.epub",
+      "mime": "application/epub+zip",
+      "size": 1323602,
+      "modified": "2026-08-16T04:03:45.000Z",
+      "checksum": "54e0d4dc0b1e38a71be93b0a4107b3d6",
+      "folder": false
+    },
+    {
+      "id": "1ZGB_BQzr_VfgqBxj4BFZFK8Ku89CLKRM",
+      "parent_id": "1Fav4AnEHYj5AA1_yDVqJCIDwvKikG-vZ",
+      "name": "SỐ 10 PHỐ YÊN ĐẠI TÀ.pdf",
+      "mime": "application/pdf",
+      "size": 1272383,
+      "modified": "2026-08-16T04:03:42.000Z",
+      "checksum": "7a590f9e37347d2de4d602f8fe857d2c",
+      "folder": false
+    }
+  ]
+}

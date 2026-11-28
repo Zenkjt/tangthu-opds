@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IttxS4LlJ4_ZJgEIJXE_phuEuhohwt3h",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eMbs1I6xfscrrHMOVCHb3yrksVTV0NDa",
+      "parent_id": "1IttxS4LlJ4_ZJgEIJXE_phuEuhohwt3h",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6284,
+      "modified": "2026-08-16T03:48:37.000Z",
+      "checksum": "7ed0f047785881cad99fdb8df023cf89",
+      "folder": false
+    },
+    {
+      "id": "1ynITkTb3wHpLIOfOXOZpTHKF8Ncb_8lz",
+      "parent_id": "1IttxS4LlJ4_ZJgEIJXE_phuEuhohwt3h",
+      "name": "NHÂN DÂN BẤT DIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 640102,
+      "modified": "2026-08-16T03:48:43.000Z",
+      "checksum": "b1a94f8c642d18eb30357181d0c97af6",
+      "folder": false
+    },
+    {
+      "id": "1HEmUY_hCysjToTqL0d84c_cuAfW2TWLl",
+      "parent_id": "1IttxS4LlJ4_ZJgEIJXE_phuEuhohwt3h",
+      "name": "NHÂN DÂN BẤT DIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 853986,
+      "modified": "2026-08-16T03:48:40.000Z",
+      "checksum": "872041e083576223f82c25f66a4786f1",
+      "folder": false
+    }
+  ]
+}

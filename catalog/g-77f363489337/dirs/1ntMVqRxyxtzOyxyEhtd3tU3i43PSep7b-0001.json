@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ntMVqRxyxtzOyxyEhtd3tU3i43PSep7b",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GD8HVYKT_OY1Kc6P2t4ZAs6CcFR86Uub",
+      "parent_id": "1ntMVqRxyxtzOyxyEhtd3tU3i43PSep7b",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5742,
+      "modified": "2026-08-15T08:00:06.000Z",
+      "checksum": "53df732a38534ab23961bd70bb0d0ac6",
+      "folder": false
+    },
+    {
+      "id": "1MCcmfR5WZRCDC5Lwc_75JEe6IM8uA8xZ",
+      "parent_id": "1ntMVqRxyxtzOyxyEhtd3tU3i43PSep7b",
+      "name": "MỘNG HỒI ĐẠI THANH.epub",
+      "mime": "application/epub+zip",
+      "size": 375020,
+      "modified": "2026-08-15T08:00:13.000Z",
+      "checksum": "8978657b8d40d2d2fc2fdf462b1b61e1",
+      "folder": false
+    },
+    {
+      "id": "1JwMRz0RtuOhv2tD9pk4QBZQAIgwzPysm",
+      "parent_id": "1ntMVqRxyxtzOyxyEhtd3tU3i43PSep7b",
+      "name": "MỘNG HỒI ĐẠI THANH.pdf",
+      "mime": "application/pdf",
+      "size": 646372,
+      "modified": "2026-08-15T08:00:10.000Z",
+      "checksum": "77c6211282ffde4d93a6763afff2fa46",
+      "folder": false
+    }
+  ]
+}

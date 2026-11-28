@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AlMN5v9Y7KVUvXMGlDzrhKlL7csBbqbG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PH10QLWPyqNyZ7uMxkMTUzLus0AnrjKc",
+      "parent_id": "1AlMN5v9Y7KVUvXMGlDzrhKlL7csBbqbG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2185,
+      "modified": "2026-08-15T05:49:03.000Z",
+      "checksum": "d3b84282ffad0197b811c03692995ae1",
+      "folder": false
+    },
+    {
+      "id": "1jg_SD_znGGrcft-uqF0l6T25mtFYTM7Y",
+      "parent_id": "1AlMN5v9Y7KVUvXMGlDzrhKlL7csBbqbG",
+      "name": "NƯỚC NHẬT MUA CẢ THẾ GIỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 718059,
+      "modified": "2026-08-15T05:49:26.000Z",
+      "checksum": "1e430db15e6dca34fcf6f607f66934da",
+      "folder": false
+    },
+    {
+      "id": "1aN1AUS468sCmnfTYF7fHW63VKprZlpD2",
+      "parent_id": "1AlMN5v9Y7KVUvXMGlDzrhKlL7csBbqbG",
+      "name": "NƯỚC NHẬT MUA CẢ THẾ GIỚI.pdf",
+      "mime": "application/pdf",
+      "size": 1643834,
+      "modified": "2026-08-15T05:49:19.000Z",
+      "checksum": "8029c8811d89fecde612c0c3f5077c42",
+      "folder": false
+    }
+  ]
+}

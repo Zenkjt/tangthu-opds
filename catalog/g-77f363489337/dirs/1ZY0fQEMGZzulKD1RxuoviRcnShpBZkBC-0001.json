@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZY0fQEMGZzulKD1RxuoviRcnShpBZkBC",
+  "page": 1,
+  "items": [
+    {
+      "id": "18KO6BhufMjtIBW6M3XY6hW6tSnoXLm7m",
+      "parent_id": "1ZY0fQEMGZzulKD1RxuoviRcnShpBZkBC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12100,
+      "modified": "2026-08-16T03:08:09.000Z",
+      "checksum": "cb4e01c4d882e03543afc4871b66241d",
+      "folder": false
+    },
+    {
+      "id": "1HG_fnUHveFMx8gFGbjXwjzhVB3OfdgRX",
+      "parent_id": "1ZY0fQEMGZzulKD1RxuoviRcnShpBZkBC",
+      "name": "VÒNG TRÒN ĐÁ THIÊNG - TẬP 1.epub",
+      "mime": "application/epub+zip",
+      "size": 826872,
+      "modified": "2026-08-16T03:08:16.000Z",
+      "checksum": "094caf5fc6b13278f6f5ece80df841ba",
+      "folder": false
+    },
+    {
+      "id": "1AuctNtESdPV_hA7A2SfX_q0sVGW93gIk",
+      "parent_id": "1ZY0fQEMGZzulKD1RxuoviRcnShpBZkBC",
+      "name": "VÒNG TRÒN ĐÁ THIÊNG - TẬP 1.pdf",
+      "mime": "application/pdf",
+      "size": 1984040,
+      "modified": "2026-08-16T03:08:13.000Z",
+      "checksum": "b79df6dc974ef0dfc93ed43e0e28b8b3",
+      "folder": false
+    }
+  ]
+}

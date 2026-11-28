@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZDBFp1T8eJ7-cnSAy6cn9AvAVOx88ges",
+  "page": 1,
+  "items": [
+    {
+      "id": "16f1DNZUH1nhs65Jg_mK_vdifAW4WhEKU",
+      "parent_id": "1ZDBFp1T8eJ7-cnSAy6cn9AvAVOx88ges",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3437,
+      "modified": "2026-08-16T03:55:25.000Z",
+      "checksum": "4de23ee93e7fd1bc062c32d0b2eafb80",
+      "folder": false
+    },
+    {
+      "id": "1sWEhYN6HaDK-61ayniYpS2UPmSrVzLQb",
+      "parent_id": "1ZDBFp1T8eJ7-cnSAy6cn9AvAVOx88ges",
+      "name": "TIỂU BÉO.epub",
+      "mime": "application/epub+zip",
+      "size": 237497,
+      "modified": "2026-08-16T03:55:31.000Z",
+      "checksum": "8b2dbd423fae3d516ed691d73bdabf5e",
+      "folder": false
+    },
+    {
+      "id": "1o080tMo5C1tqTwznWzSsjRHh1TgVJJss",
+      "parent_id": "1ZDBFp1T8eJ7-cnSAy6cn9AvAVOx88ges",
+      "name": "TIỂU BÉO.pdf",
+      "mime": "application/pdf",
+      "size": 158516,
+      "modified": "2026-08-16T03:55:28.000Z",
+      "checksum": "48fe03ebe1e3a9950444bb96a2bdf31f",
+      "folder": false
+    }
+  ]
+}

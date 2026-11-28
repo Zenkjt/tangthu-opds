@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "branch_id": "g-45b1fb18db22",
+  "root_folder_id": "1AmncRk2cMkXtHQzy9Ii226uPIDY2cCCb",
+  "root_shards": [
+    "catalog/g-45b1fb18db22/1AmncRk2cMkXtHQzy9Ii226uPIDY2cCCb-0001.json"
+  ],
+  "directories": [
+    {
+      "id": "1-T5BUZgp5UtsrhIfAxm7-P62gTnorFM4",
+      "name": "Anne Tóc Đỏ - L. M. Montgomery",
+      "parent_id": "1AmncRk2cMkXtHQzy9Ii226uPIDY2cCCb",
+      "shards": [
+        "catalog/g-45b1fb18db22/dirs/1-T5BUZgp5UtsrhIfAxm7-P62gTnorFM4-0001.json"
+      ]
+    },
+    {
+      "id": "10HsM6EcTuyIFzMaAS0_kBq7E6bBu5hrI",
+      "name": "Tác Giả",
+      "parent_id": "1AmncRk2cMkXtHQzy9Ii226uPIDY2cCCb",
+      "shards": [
+        "catalog/g-45b1fb18db22/dirs/10HsM6EcTuyIFzMaAS0_kBq7E6bBu5hrI-0001.json"
+      ]
+    },
+    {
+      "id": "12UYLrrEhG9EVVRNn7EBuTQ9vC5U4bhVB",
+      "name": " THÔNG BÁO CẬP NHẬT SÁCH MỚI",
+      "parent_id": "1AmncRk2cMkXtHQzy9Ii226uPIDY2cCCb",
+      "shards": []
+    },
+    {
+      "id": "12cwjyqCCtCtX93k1lt3jCMPzGhpG9kiS",
+      "name": "Khái Lược Những Tư Tưởng Lớn - DK",
+      "parent_id": "1AmncRk2cMkXtHQzy9Ii226uPIDY2cCCb",
+      "shards": [
+        "catalog/g-45b1fb18db22/dirs/12cwjyqCCtCtX93k1lt3jCMPzGhpG9kiS-0001.json"
+      ]
+    },
+    {
+      "id": "1B7COlYHAmp-p87Hc616pA1F992alWVvg",
+      "name": "Nguyễn Nhật Ánh",
+      "parent_id": "10HsM6EcTuyIFzMaAS0_kBq7E6bBu5hrI",
+      "shards": [
+        "catalog/g-45b1fb18db22/dirs/1B7COlYHAmp-p87Hc616pA1F992alWVvg-0001.json"
+      ]
+    },
+    {
+      "id": "1EyiOe90e70cPwZbRHvcI4HqTjihnoahM",
+      "name": "PDF",
+      "parent_id": "1AmncRk2cMkXtHQzy9Ii226uPIDY2cCCb",
+      "shards": [
+        "catalog/g-45b1fb18db22/dirs/1EyiOe90e70cPwZbRHvcI4HqTjihnoahM-0001.json"
+      ]
+    },
+    {
+      "id": "1ILkkD45SS536DaQt4h770hNfZQyqNzSE",
+      "name": "Higashino Keigo",
+      "parent_id": "10HsM6EcTuyIFzMaAS0_kBq7E6bBu5hrI",
+      "shards": [
+        "catalog/g-45b1fb18db22/dirs/1ILkkD45SS536DaQt4h770hNfZQyqNzSE-0001.json"
+      ]
+    },
+    {
+      "id": "1_pTxOo6oEI8T7oHO8JdKsvS6b2zAt8XX",
+      "name": "Beartown - Fredrik Backman",
+      "parent_id": "1AmncRk2cMkXtHQzy9Ii226uPIDY2cCCb",
+      "shards": [
+        "catalog/g-45b1fb18db22/dirs/1_pTxOo6oEI8T7oHO8JdKsvS6b2zAt8XX-0001.json"
+      ]
+    }
+  ]
+}

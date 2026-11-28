@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iRDzyf52EydhubDsQm34GUUG9cgSQsPS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QKGcrY1-XOAOOoo7hLw3YZpTOAZpnLHU",
+      "parent_id": "1iRDzyf52EydhubDsQm34GUUG9cgSQsPS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 671,
+      "modified": "2026-08-16T04:15:15.000Z",
+      "checksum": "33b723297179174bc90aecd448c488e3",
+      "folder": false
+    },
+    {
+      "id": "1R5Rlnl_8iX9Zz7S5NX3ClmStgCScG09c",
+      "parent_id": "1iRDzyf52EydhubDsQm34GUUG9cgSQsPS",
+      "name": "NGHIÊNG MỘT SUỐI ĐÀN.epub",
+      "mime": "application/epub+zip",
+      "size": 357693,
+      "modified": "2026-08-16T04:15:21.000Z",
+      "checksum": "289a1d3aefd0792d9d6a3cff4ceaa248",
+      "folder": false
+    },
+    {
+      "id": "18v-AczLSVp2pHvUpLpJ6j6M5jOp0xH3R",
+      "parent_id": "1iRDzyf52EydhubDsQm34GUUG9cgSQsPS",
+      "name": "NGHIÊNG MỘT SUỐI ĐÀN.pdf",
+      "mime": "application/pdf",
+      "size": 597635,
+      "modified": "2026-08-16T04:15:18.000Z",
+      "checksum": "2591e482efce2a5199407e352ae52eb6",
+      "folder": false
+    }
+  ]
+}

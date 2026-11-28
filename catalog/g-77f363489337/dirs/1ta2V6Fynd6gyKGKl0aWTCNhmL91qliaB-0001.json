@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ta2V6Fynd6gyKGKl0aWTCNhmL91qliaB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mzWz_Aacr6FLIZ9ES4jYf2wUQjtTzE1e",
+      "parent_id": "1ta2V6Fynd6gyKGKl0aWTCNhmL91qliaB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2195,
+      "modified": "2026-08-15T07:34:45.000Z",
+      "checksum": "0cdd8ae316218db73bc5e57a86d41bfd",
+      "folder": false
+    },
+    {
+      "id": "1I-1Kb1fYeJXeTZNgnzYhOu5sDq7L6miP",
+      "parent_id": "1ta2V6Fynd6gyKGKl0aWTCNhmL91qliaB",
+      "name": "NGỦ CÙNG SÓI.epub",
+      "mime": "application/epub+zip",
+      "size": 1385224,
+      "modified": "2026-08-15T07:34:52.000Z",
+      "checksum": "64d9d9d868bd0d58cd151f9ec3870746",
+      "folder": false
+    },
+    {
+      "id": "1Ht2bg7lKrkICbk5tG1iXhJyjhH_zQcaX",
+      "parent_id": "1ta2V6Fynd6gyKGKl0aWTCNhmL91qliaB",
+      "name": "NGỦ CÙNG SÓI.pdf",
+      "mime": "application/pdf",
+      "size": 1351809,
+      "modified": "2026-08-15T07:34:49.000Z",
+      "checksum": "1eb5fce6aa0cddce5177890ddd79c570",
+      "folder": false
+    }
+  ]
+}

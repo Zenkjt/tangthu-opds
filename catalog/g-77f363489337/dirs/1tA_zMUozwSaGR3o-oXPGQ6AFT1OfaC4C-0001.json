@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tA_zMUozwSaGR3o-oXPGQ6AFT1OfaC4C",
+  "page": 1,
+  "items": [
+    {
+      "id": "1K-0NWeD34o1oJa4rRHQyF3yLu1HvsKp_",
+      "parent_id": "1tA_zMUozwSaGR3o-oXPGQ6AFT1OfaC4C",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 939,
+      "modified": "2026-08-15T10:52:38.000Z",
+      "checksum": "ea8f1f6706fceade5974d44fbf69e674",
+      "folder": false
+    },
+    {
+      "id": "1aLSLyROn-XuvhVFdhqssYNnn9yToFD5Q",
+      "parent_id": "1tA_zMUozwSaGR3o-oXPGQ6AFT1OfaC4C",
+      "name": "MẸ TRONG TÂM TRÍ CON.epub",
+      "mime": "application/epub+zip",
+      "size": 300837,
+      "modified": "2026-08-15T10:52:44.000Z",
+      "checksum": "03584655e46c321331e2785084ca31a1",
+      "folder": false
+    },
+    {
+      "id": "11IUqHgk0FVIr0BMgRmqbhIm35XHNEqxF",
+      "parent_id": "1tA_zMUozwSaGR3o-oXPGQ6AFT1OfaC4C",
+      "name": "MẸ TRONG TÂM TRÍ CON.pdf",
+      "mime": "application/pdf",
+      "size": 558513,
+      "modified": "2026-08-15T10:52:41.000Z",
+      "checksum": "b193fc71ab707baba31ef3ab67e425c5",
+      "folder": false
+    }
+  ]
+}

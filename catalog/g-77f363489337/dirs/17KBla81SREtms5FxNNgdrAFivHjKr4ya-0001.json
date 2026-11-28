@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17KBla81SREtms5FxNNgdrAFivHjKr4ya",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XeLIJlI76jcxjnGSJ56GWWaiE3Paelh-",
+      "parent_id": "17KBla81SREtms5FxNNgdrAFivHjKr4ya",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10049,
+      "modified": "2026-08-15T03:24:40.000Z",
+      "checksum": "06484b97d6ad2734d661cb32b5f398fe",
+      "folder": false
+    },
+    {
+      "id": "1zulsEQh-sfezRKgnq0i-48fF3SHShZJX",
+      "parent_id": "17KBla81SREtms5FxNNgdrAFivHjKr4ya",
+      "name": "LẮNG NGHE YÊU THƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 461870,
+      "modified": "2026-08-15T03:24:49.000Z",
+      "checksum": "448bc14ecaffdbd8d9ee35d5a752350d",
+      "folder": false
+    },
+    {
+      "id": "1sWrtWost9U-3d9UZqlJ5gtrF_BVyafi4",
+      "parent_id": "17KBla81SREtms5FxNNgdrAFivHjKr4ya",
+      "name": "LẮNG NGHE YÊU THƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 793081,
+      "modified": "2026-08-15T03:24:46.000Z",
+      "checksum": "c431cf05b2ecef74281241ce0c22842e",
+      "folder": false
+    }
+  ]
+}

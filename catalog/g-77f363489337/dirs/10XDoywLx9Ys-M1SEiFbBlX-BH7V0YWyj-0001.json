@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10XDoywLx9Ys-M1SEiFbBlX-BH7V0YWyj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Bfgc0qOuNWawsmhjssu09IU-8klH8LYy",
+      "parent_id": "10XDoywLx9Ys-M1SEiFbBlX-BH7V0YWyj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1886,
+      "modified": "2026-08-15T06:18:25.000Z",
+      "checksum": "8a44c350f8e701b72a85bd0d5ed4f45a",
+      "folder": false
+    },
+    {
+      "id": "1h-IqHbdNjVAm22Ty1BbKNAmieylQKbQS",
+      "parent_id": "10XDoywLx9Ys-M1SEiFbBlX-BH7V0YWyj",
+      "name": "ĐỪNG ĐÙA VỚI MA.epub",
+      "mime": "application/epub+zip",
+      "size": 516771,
+      "modified": "2026-08-15T06:18:32.000Z",
+      "checksum": "1ad4722b32cfd2b4d008195cb80a897f",
+      "folder": false
+    },
+    {
+      "id": "1wYwEjTaPPryzEfD4j1YW5XqzSc7YGXi6",
+      "parent_id": "10XDoywLx9Ys-M1SEiFbBlX-BH7V0YWyj",
+      "name": "ĐỪNG ĐÙA VỚI MA.pdf",
+      "mime": "application/pdf",
+      "size": 1071991,
+      "modified": "2026-08-15T06:18:30.000Z",
+      "checksum": "235a525418048e3abfb0c5500a5e0e3a",
+      "folder": false
+    }
+  ]
+}

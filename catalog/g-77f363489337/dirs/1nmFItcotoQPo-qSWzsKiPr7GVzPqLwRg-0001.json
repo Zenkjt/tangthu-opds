@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nmFItcotoQPo-qSWzsKiPr7GVzPqLwRg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1f6D022iPcmKtVHofQGpQdFPy1ObWeDef",
+      "parent_id": "1nmFItcotoQPo-qSWzsKiPr7GVzPqLwRg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 825,
+      "modified": "2026-08-15T03:14:45.000Z",
+      "checksum": "661bead1d2a9342745e8f086572dca3d",
+      "folder": false
+    },
+    {
+      "id": "1hOPtkQtLp-rMtPfHtsYKXustSxqJNUkK",
+      "parent_id": "1nmFItcotoQPo-qSWzsKiPr7GVzPqLwRg",
+      "name": "ĐỂ KÉN THÀNH BƯỚM.epub",
+      "mime": "application/epub+zip",
+      "size": 421050,
+      "modified": "2026-08-15T03:14:52.000Z",
+      "checksum": "4f48065cf2fb9edd30b471dd195e5844",
+      "folder": false
+    },
+    {
+      "id": "1ua0d8i55P7uxftF6Kcl0kOiYg2eK8UDf",
+      "parent_id": "1nmFItcotoQPo-qSWzsKiPr7GVzPqLwRg",
+      "name": "ĐỂ KÉN THÀNH BƯỚM.pdf",
+      "mime": "application/pdf",
+      "size": 738088,
+      "modified": "2026-08-15T03:14:50.000Z",
+      "checksum": "0bf881f931b74527f867eafebd417283",
+      "folder": false
+    }
+  ]
+}

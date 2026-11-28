@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Q4Klpasi3BPa3TUYsYyD6yumIRLAfnWD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1J52Z20FZLZHoQHPR5Ccb3Ij7kBZ0ZaDL",
+      "parent_id": "1Q4Klpasi3BPa3TUYsYyD6yumIRLAfnWD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8924,
+      "modified": "2026-08-16T03:16:52.000Z",
+      "checksum": "429dd834fbff445c6ab6ebbc2b5e4e47",
+      "folder": false
+    },
+    {
+      "id": "1rTawXDiGGIhJz-Y1P3JXVBQ2fzcN7MSF",
+      "parent_id": "1Q4Klpasi3BPa3TUYsYyD6yumIRLAfnWD",
+      "name": "XỨ TUYẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 365895,
+      "modified": "2026-08-16T03:16:59.000Z",
+      "checksum": "594b2dca5b6beee52820ccadb92edb66",
+      "folder": false
+    },
+    {
+      "id": "17xOaWclaqKRadIta2O92y9BHuxz_tlrx",
+      "parent_id": "1Q4Klpasi3BPa3TUYsYyD6yumIRLAfnWD",
+      "name": "XỨ TUYẾT.pdf",
+      "mime": "application/pdf",
+      "size": 388233,
+      "modified": "2026-08-16T03:16:56.000Z",
+      "checksum": "75cc2c51f26181fa92d4f51e675972af",
+      "folder": false
+    }
+  ]
+}

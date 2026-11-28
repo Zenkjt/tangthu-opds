@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Yb6XGhwbtox59IiBM08u1RynwNUiuq-W",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rN7ZC4jowAHaGLtUlRivy5lvwFSUuW-N",
+      "parent_id": "1Yb6XGhwbtox59IiBM08u1RynwNUiuq-W",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4284,
+      "modified": "2026-08-16T03:35:33.000Z",
+      "checksum": "1b5f3d6f6bc18fa2a98f1623748363cf",
+      "folder": false
+    },
+    {
+      "id": "1IvG6lEKwl3feWvtLoz5_LRWGhKp9X_UB",
+      "parent_id": "1Yb6XGhwbtox59IiBM08u1RynwNUiuq-W",
+      "name": "LẤY NHAU VÌ TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 440017,
+      "modified": "2026-08-16T03:35:39.000Z",
+      "checksum": "709d691915c41cefaf0c5bed01ed2358",
+      "folder": false
+    },
+    {
+      "id": "1q0Utk3KvV-b0LVjnanQK53QS_CwxuxjM",
+      "parent_id": "1Yb6XGhwbtox59IiBM08u1RynwNUiuq-W",
+      "name": "LẤY NHAU VÌ TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 642247,
+      "modified": "2026-08-16T03:35:36.000Z",
+      "checksum": "1b0c5d251015e631032e1dabdf36913f",
+      "folder": false
+    }
+  ]
+}

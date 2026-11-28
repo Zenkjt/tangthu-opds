@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1g-wv5GQrKX70OlitNN9ZuJL_Ps0eaCiF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BO0oF4lxhWqiYxqUGJITfDytPl6sRKuZ",
+      "parent_id": "1g-wv5GQrKX70OlitNN9ZuJL_Ps0eaCiF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3282,
+      "modified": "2026-08-16T04:03:33.000Z",
+      "checksum": "d7e5f7072e79d156d3bb9590a102ea05",
+      "folder": false
+    },
+    {
+      "id": "1rYa6tceve_uuf5lEbC1GG-_K-XkG6zio",
+      "parent_id": "1g-wv5GQrKX70OlitNN9ZuJL_Ps0eaCiF",
+      "name": "SỢ YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 832635,
+      "modified": "2026-08-16T04:03:39.000Z",
+      "checksum": "cf38cc0f421ea956ac0e70277dedaca5",
+      "folder": false
+    },
+    {
+      "id": "1s_Lr3gMWbRvm7EIQHHo_C1pzuRNAfEvK",
+      "parent_id": "1g-wv5GQrKX70OlitNN9ZuJL_Ps0eaCiF",
+      "name": "SỢ YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 928247,
+      "modified": "2026-08-16T04:03:36.000Z",
+      "checksum": "d17659868cfa808e1527b41ab1e8c794",
+      "folder": false
+    }
+  ]
+}

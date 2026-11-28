@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YF4ITGWir5FwkKW-bEEm7tCDAsu8weB4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HnRVkZ44NS5ZTSUz2ycXRQr4sOXN90Vh",
+      "parent_id": "1YF4ITGWir5FwkKW-bEEm7tCDAsu8weB4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2985,
+      "modified": "2026-08-16T04:16:18.000Z",
+      "checksum": "324a6bd84435e2ed74c70f17770d516a",
+      "folder": false
+    },
+    {
+      "id": "1qNmWS3MOASTn4o_L0kbQs7p5GOwTBTBx",
+      "parent_id": "1YF4ITGWir5FwkKW-bEEm7tCDAsu8weB4",
+      "name": "NẮNG ẤM.epub",
+      "mime": "application/epub+zip",
+      "size": 275950,
+      "modified": "2026-08-16T04:16:24.000Z",
+      "checksum": "09dd34b42ebacef95da37bd22bfbde8a",
+      "folder": false
+    },
+    {
+      "id": "1FdLUgZfW-SleSvyk3kv5QPBjUhpB-cb0",
+      "parent_id": "1YF4ITGWir5FwkKW-bEEm7tCDAsu8weB4",
+      "name": "NẮNG ẤM.pdf",
+      "mime": "application/pdf",
+      "size": 184692,
+      "modified": "2026-08-16T04:16:21.000Z",
+      "checksum": "4a85476be053d159fcc954cc28ce80ec",
+      "folder": false
+    }
+  ]
+}

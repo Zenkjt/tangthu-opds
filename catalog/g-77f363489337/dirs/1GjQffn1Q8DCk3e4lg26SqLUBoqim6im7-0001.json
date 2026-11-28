@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GjQffn1Q8DCk3e4lg26SqLUBoqim6im7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CnXpg-SQWvwtt6U2-ybmgTpT9sgpkR68",
+      "parent_id": "1GjQffn1Q8DCk3e4lg26SqLUBoqim6im7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2341,
+      "modified": "2026-08-15T03:58:55.000Z",
+      "checksum": "994bfe99324efc71d289298c425f4ada",
+      "folder": false
+    },
+    {
+      "id": "1AM1QYVzZzKa0fv0Sfi11-V1S57QXeVLG",
+      "parent_id": "1GjQffn1Q8DCk3e4lg26SqLUBoqim6im7",
+      "name": "NGHI LỄ PHẬT GIÁO.epub",
+      "mime": "application/epub+zip",
+      "size": 1047079,
+      "modified": "2026-08-15T03:59:02.000Z",
+      "checksum": "1bb4dde84f68a406dac5b6c82b79bf47",
+      "folder": false
+    },
+    {
+      "id": "1rDDm_fatwY8L5whqFNliwH74KT_FjJZa",
+      "parent_id": "1GjQffn1Q8DCk3e4lg26SqLUBoqim6im7",
+      "name": "NGHI LỄ PHẬT GIÁO.pdf",
+      "mime": "application/pdf",
+      "size": 2324556,
+      "modified": "2026-08-15T03:58:59.000Z",
+      "checksum": "5b298973bd2ce6c1b32b2e67cc6fa763",
+      "folder": false
+    }
+  ]
+}

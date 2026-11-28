@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BFU2b3EoPAIek79QzzS-RPYgX_FCt_kE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fgBu3h66uj0gkct3i1YPeCoJ_lrBF3Mt",
+      "parent_id": "1BFU2b3EoPAIek79QzzS-RPYgX_FCt_kE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3614,
+      "modified": "2026-08-15T04:03:18.000Z",
+      "checksum": "e5fc759ca3ee4b9a3b979ce37e3de2dd",
+      "folder": false
+    },
+    {
+      "id": "1RfXqgFZA3DUw1B_r8kO6_VSU-9wV5uMb",
+      "parent_id": "1BFU2b3EoPAIek79QzzS-RPYgX_FCt_kE",
+      "name": "TRONG VÒNG TAY SAMBALA.epub",
+      "mime": "application/epub+zip",
+      "size": 8903516,
+      "modified": "2026-08-15T04:03:27.000Z",
+      "checksum": "a0293b766b4f87aa912de8b37df7e202",
+      "folder": false
+    },
+    {
+      "id": "1fKe31BfIUtEKQXCmaXVBtRltmJFBMeSJ",
+      "parent_id": "1BFU2b3EoPAIek79QzzS-RPYgX_FCt_kE",
+      "name": "TRONG VÒNG TAY SAMBALA.pdf",
+      "mime": "application/pdf",
+      "size": 10318724,
+      "modified": "2026-08-15T04:03:23.000Z",
+      "checksum": "4a203a7fed973d5a1b8994499fb861c8",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1a1hbue-DpBCXDedPeZ39oHlH3OUlt0uV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WVhWPX3bHYCbBgyhYzwXPnPKmul9zVxH",
+      "parent_id": "1a1hbue-DpBCXDedPeZ39oHlH3OUlt0uV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12046,
+      "modified": "2026-08-15T07:28:35.000Z",
+      "checksum": "e84e2f99acea45fec7e49ba4471c58e2",
+      "folder": false
+    },
+    {
+      "id": "1ICNxV6sK08MCIC-EwFlrTf6tqCCOsAqz",
+      "parent_id": "1a1hbue-DpBCXDedPeZ39oHlH3OUlt0uV",
+      "name": "VỊNH KIM CƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 549462,
+      "modified": "2026-08-15T07:28:42.000Z",
+      "checksum": "13318389b546b53e7a487046ebd1aca4",
+      "folder": false
+    },
+    {
+      "id": "1WEeSNfxke7SNcOG-kEoDYf3yxD6rkhNe",
+      "parent_id": "1a1hbue-DpBCXDedPeZ39oHlH3OUlt0uV",
+      "name": "VỊNH KIM CƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 945352,
+      "modified": "2026-08-15T07:28:39.000Z",
+      "checksum": "139eedf8ba747af08887550330aab3a4",
+      "folder": false
+    }
+  ]
+}

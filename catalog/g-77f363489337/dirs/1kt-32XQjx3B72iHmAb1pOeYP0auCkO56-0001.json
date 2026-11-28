@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kt-32XQjx3B72iHmAb1pOeYP0auCkO56",
+  "page": 1,
+  "items": [
+    {
+      "id": "11-3eWL9FtqC0dHJT-_HZCkph7L21z_NO",
+      "parent_id": "1kt-32XQjx3B72iHmAb1pOeYP0auCkO56",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3340,
+      "modified": "2026-08-15T08:05:50.000Z",
+      "checksum": "a3d2176d22a8944cbc406e354fae9c4a",
+      "folder": false
+    },
+    {
+      "id": "1YcFWiRdB9r9u39Vkez10PP9v6nWCmbFy",
+      "parent_id": "1kt-32XQjx3B72iHmAb1pOeYP0auCkO56",
+      "name": "GẢ CHO CHA CỦA NAM CHÍNH.epub",
+      "mime": "application/epub+zip",
+      "size": 1005446,
+      "modified": "2026-08-15T08:06:00.000Z",
+      "checksum": "6d2537865ea6adb144e960a1757b9422",
+      "folder": false
+    },
+    {
+      "id": "1ot3gZK7IBG1vdrjMw9ybk1PLV6GVy8wf",
+      "parent_id": "1kt-32XQjx3B72iHmAb1pOeYP0auCkO56",
+      "name": "GẢ CHO CHA CỦA NAM CHÍNH.pdf",
+      "mime": "application/pdf",
+      "size": 3533221,
+      "modified": "2026-08-15T08:05:57.000Z",
+      "checksum": "2e31c508b1794c5ec237d50149ccd0c2",
+      "folder": false
+    }
+  ]
+}

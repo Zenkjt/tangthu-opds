@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tFPRFpQ4Z5hWJbj3IORmoOg4YOQcdsDd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yRhU0TBAJC7_BnDxRQQPkdemOq5opZFn",
+      "parent_id": "1tFPRFpQ4Z5hWJbj3IORmoOg4YOQcdsDd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6743,
+      "modified": "2026-08-15T03:25:40.000Z",
+      "checksum": "24f5215b5470a7d2f7ab0f0ee6a63ebd",
+      "folder": false
+    },
+    {
+      "id": "1P793-Q217YsKlQpT2z69PYHsDsPMzsvT",
+      "parent_id": "1tFPRFpQ4Z5hWJbj3IORmoOg4YOQcdsDd",
+      "name": "TRÍ TUỆ LOÀI RÙA.epub",
+      "mime": "application/epub+zip",
+      "size": 1575320,
+      "modified": "2026-08-15T03:25:48.000Z",
+      "checksum": "f263dd6dab779a7f390c60639ac42781",
+      "folder": false
+    },
+    {
+      "id": "1eCGBmqntMnfGWMkCMQVJGMjbnJjfdudK",
+      "parent_id": "1tFPRFpQ4Z5hWJbj3IORmoOg4YOQcdsDd",
+      "name": "TRÍ TUỆ LOÀI RÙA.pdf",
+      "mime": "application/pdf",
+      "size": 1773662,
+      "modified": "2026-08-15T03:25:45.000Z",
+      "checksum": "0fc67d9b85a4d3c22c7f3b1062b9bd5a",
+      "folder": false
+    }
+  ]
+}

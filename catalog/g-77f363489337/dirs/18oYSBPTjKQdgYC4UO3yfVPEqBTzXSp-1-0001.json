@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18oYSBPTjKQdgYC4UO3yfVPEqBTzXSp-1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ne-VUxs60NPPvh4p49Kkv-VGoWfeY8eP",
+      "parent_id": "18oYSBPTjKQdgYC4UO3yfVPEqBTzXSp-1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3414,
+      "modified": "2026-08-15T10:11:24.000Z",
+      "checksum": "accd44aa93beed2b6fa787f0caae4cc5",
+      "folder": false
+    },
+    {
+      "id": "13Q00BBdm04ujK4isswFSjT_ZmLGfFjgQ",
+      "parent_id": "18oYSBPTjKQdgYC4UO3yfVPEqBTzXSp-1",
+      "name": "TỊCH MỊCH CAO THỦ.epub",
+      "mime": "application/epub+zip",
+      "size": 699287,
+      "modified": "2026-08-15T10:11:33.000Z",
+      "checksum": "ac5eb45a1cbfa177fc7b216103e5bc6c",
+      "folder": false
+    },
+    {
+      "id": "1s2SBvlQpvfuyIA1CejBygUDx6Hxkm6ui",
+      "parent_id": "18oYSBPTjKQdgYC4UO3yfVPEqBTzXSp-1",
+      "name": "TỊCH MỊCH CAO THỦ.pdf",
+      "mime": "application/pdf",
+      "size": 712269,
+      "modified": "2026-08-15T10:11:30.000Z",
+      "checksum": "087235bf11fb04a0009a7e840d36189d",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10re6DNPXEmyhsf539ktOfG3xpDaZA-5K",
+  "page": 1,
+  "items": [
+    {
+      "id": "11vC7BQiILVHJ5_VNJRq2ka32t7xPRsPR",
+      "parent_id": "10re6DNPXEmyhsf539ktOfG3xpDaZA-5K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3263,
+      "modified": "2026-08-16T04:02:14.000Z",
+      "checksum": "0dc9e6d6438de6d080f868c816b00940",
+      "folder": false
+    },
+    {
+      "id": "1Yr7SjOFkFqutyHg17FKlC_4dVxzOJkuS",
+      "parent_id": "10re6DNPXEmyhsf539ktOfG3xpDaZA-5K",
+      "name": "TÁ ÁO HỌC SINH.epub",
+      "mime": "application/epub+zip",
+      "size": 387446,
+      "modified": "2026-08-16T04:02:20.000Z",
+      "checksum": "3942807b97ad2ca50ed7c9d7e98a79e5",
+      "folder": false
+    },
+    {
+      "id": "1dXbyF4mrLdeCwCybJ19Rs4b7yii30HRY",
+      "parent_id": "10re6DNPXEmyhsf539ktOfG3xpDaZA-5K",
+      "name": "TÁ ÁO HỌC SINH.pdf",
+      "mime": "application/pdf",
+      "size": 630458,
+      "modified": "2026-08-16T04:02:17.000Z",
+      "checksum": "ca5a89250f05b92a71033c606f9a3c13",
+      "folder": false
+    }
+  ]
+}

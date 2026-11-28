@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KcTMQw2h2Z0_yV6fPOYYLHmhR-tNAANa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WZu0NS-ZsbXVAqInDVqOrOk_ffTGGjxj",
+      "parent_id": "1KcTMQw2h2Z0_yV6fPOYYLHmhR-tNAANa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 515,
+      "modified": "2026-08-15T10:54:02.000Z",
+      "checksum": "3d1d05c3fbf199e5d5218c88fbbf088e",
+      "folder": false
+    },
+    {
+      "id": "1b-wXyqj3eQs9R6Xx2lK0B1XxZKI9BMpz",
+      "parent_id": "1KcTMQw2h2Z0_yV6fPOYYLHmhR-tNAANa",
+      "name": "LÃO HÀ TIỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 463296,
+      "modified": "2026-08-15T10:54:17.000Z",
+      "checksum": "371880f5532850979a1f95f3f8446c90",
+      "folder": false
+    },
+    {
+      "id": "1CSgBDVVYYJ3MRBC7b3uoQoECOqYPeWpu",
+      "parent_id": "1KcTMQw2h2Z0_yV6fPOYYLHmhR-tNAANa",
+      "name": "LÃO HÀ TIỆN.pdf",
+      "mime": "application/pdf",
+      "size": 464919,
+      "modified": "2026-08-15T10:54:09.000Z",
+      "checksum": "9093747d24637f71baa56de1c50c54c0",
+      "folder": false
+    }
+  ]
+}

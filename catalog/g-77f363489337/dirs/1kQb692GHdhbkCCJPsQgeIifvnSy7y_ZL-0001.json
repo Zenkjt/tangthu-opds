@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kQb692GHdhbkCCJPsQgeIifvnSy7y_ZL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1boWVr5f7R5QvxrUXadHpjbtl86w5MFyw",
+      "parent_id": "1kQb692GHdhbkCCJPsQgeIifvnSy7y_ZL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8516,
+      "modified": "2026-08-15T09:19:57.000Z",
+      "checksum": "952a3e416500fff5be495692cf73e4fd",
+      "folder": false
+    },
+    {
+      "id": "1o0TBi1WEkqC728kbul-4NejMmSJFOXiA",
+      "parent_id": "1kQb692GHdhbkCCJPsQgeIifvnSy7y_ZL",
+      "name": "NGUYÊN TÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 1279447,
+      "modified": "2026-08-15T09:21:59.000Z",
+      "checksum": "547aaa5ba771d5525e9743b21c7b2045",
+      "folder": false
+    },
+    {
+      "id": "1kMoqCttnZWnCOgnznlYlzzqibLweZIsF",
+      "parent_id": "1kQb692GHdhbkCCJPsQgeIifvnSy7y_ZL",
+      "name": "NGUYÊN TÔN.pdf",
+      "mime": "application/pdf",
+      "size": 5390514,
+      "modified": "2026-08-15T09:21:54.000Z",
+      "checksum": "1fe299bdd88a87d17b7cc668d37f27e0",
+      "folder": false
+    }
+  ]
+}

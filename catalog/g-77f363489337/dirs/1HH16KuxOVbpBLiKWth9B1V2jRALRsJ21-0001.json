@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HH16KuxOVbpBLiKWth9B1V2jRALRsJ21",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DV9JkNWAzg29i_ls_1GqJfgmHBg9l77z",
+      "parent_id": "1HH16KuxOVbpBLiKWth9B1V2jRALRsJ21",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 449,
+      "modified": "2026-08-15T15:52:37.000Z",
+      "checksum": "0e199657dfa5f4ec60ff8dc8c2771092",
+      "folder": false
+    },
+    {
+      "id": "1vbVlKcBIBIPCdFl-FKT3jOBgMQywnDwI",
+      "parent_id": "1HH16KuxOVbpBLiKWth9B1V2jRALRsJ21",
+      "name": "PLAYBOOK - CẨM NANG CƯA GÁI CỦA DÂN CHƠI.epub",
+      "mime": "application/epub+zip",
+      "size": 778922,
+      "modified": "2026-08-15T15:52:43.000Z",
+      "checksum": "9981759052b42625d0a84df069191414",
+      "folder": false
+    },
+    {
+      "id": "1EyyOoJ-y1gsaz_937mEZxdSAeH20T5-Z",
+      "parent_id": "1HH16KuxOVbpBLiKWth9B1V2jRALRsJ21",
+      "name": "PLAYBOOK - CẨM NANG CƯA GÁI CỦA DÂN CHƠI.pdf",
+      "mime": "application/pdf",
+      "size": 720076,
+      "modified": "2026-08-15T15:52:40.000Z",
+      "checksum": "89bd77cef38683c971beb92fe4260243",
+      "folder": false
+    }
+  ]
+}

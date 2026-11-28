@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oGWB-6DQfEwHlGatFkSjexVRiJM3Nwci",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DyFKOnBz9ZzVNSEH6VBW8a6Vxx545x2g",
+      "parent_id": "1oGWB-6DQfEwHlGatFkSjexVRiJM3Nwci",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7282,
+      "modified": "2026-08-16T03:37:31.000Z",
+      "checksum": "efc8bac30247421ca060f40a22d52aaa",
+      "folder": false
+    },
+    {
+      "id": "16QLBvSz_dOGtehGO84w_PQELWhltPoxT",
+      "parent_id": "1oGWB-6DQfEwHlGatFkSjexVRiJM3Nwci",
+      "name": "MARLEY VÀ TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 518674,
+      "modified": "2026-08-16T03:37:38.000Z",
+      "checksum": "144f2ae6a61586979111a6b78fac3e4c",
+      "folder": false
+    },
+    {
+      "id": "1J9kpA6qcl8oErqLAlXynzbh9bGmxZRZN",
+      "parent_id": "1oGWB-6DQfEwHlGatFkSjexVRiJM3Nwci",
+      "name": "MARLEY VÀ TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 1224994,
+      "modified": "2026-08-16T03:37:35.000Z",
+      "checksum": "bc52cae979c279a56b819c61d024021e",
+      "folder": false
+    }
+  ]
+}

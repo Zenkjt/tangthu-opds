@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1S53rue5Jaxa83J0-kiwZx3OVgWf5Q6s6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VsoKaItrOf2sO2os2efGyDD1_Il6vN1_",
+      "parent_id": "1S53rue5Jaxa83J0-kiwZx3OVgWf5Q6s6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2816,
+      "modified": "2026-08-15T10:14:07.000Z",
+      "checksum": "bcc9c13744724d2a29872d6fc5670c43",
+      "folder": false
+    },
+    {
+      "id": "1_eGF3doMdDgslZQ813aK7JwL4_7Bi7Hf",
+      "parent_id": "1S53rue5Jaxa83J0-kiwZx3OVgWf5Q6s6",
+      "name": "THIÊN VĂN.epub",
+      "mime": "application/epub+zip",
+      "size": 712620,
+      "modified": "2026-08-15T10:14:18.000Z",
+      "checksum": "f5b9f571deeafcd327df18556bde175e",
+      "folder": false
+    },
+    {
+      "id": "1Qz8IYc_3OVAKaBs3mFYqOO_OnIDpZnDU",
+      "parent_id": "1S53rue5Jaxa83J0-kiwZx3OVgWf5Q6s6",
+      "name": "THIÊN VĂN.pdf",
+      "mime": "application/pdf",
+      "size": 1794929,
+      "modified": "2026-08-15T10:14:15.000Z",
+      "checksum": "4d245272c5da4ff825f21e3366c1961c",
+      "folder": false
+    }
+  ]
+}

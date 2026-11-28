@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1c5YhQWEWzc05rnwVtCZcbCWGwUhc_MOt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JklyjjrkSDScHmlv47hXExsoYEVTiMm8",
+      "parent_id": "1c5YhQWEWzc05rnwVtCZcbCWGwUhc_MOt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11169,
+      "modified": "2026-08-15T00:59:33.000Z",
+      "checksum": "21a1d46bc1d75d3a9bd71ec60729b9ca",
+      "folder": false
+    },
+    {
+      "id": "1H3okhu0sib0B-AG53ltPsl5E_sJJ6iNO",
+      "parent_id": "1c5YhQWEWzc05rnwVtCZcbCWGwUhc_MOt",
+      "name": "ĐỒNG HÀNH CÙNG VĨ NHÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 271400,
+      "modified": "2026-08-15T00:59:40.000Z",
+      "checksum": "741a9f1979d97ad5d50a3755b0d68a86",
+      "folder": false
+    },
+    {
+      "id": "1TjKyIYqrc7tQbSGFQVPAzPkWojfhJHYG",
+      "parent_id": "1c5YhQWEWzc05rnwVtCZcbCWGwUhc_MOt",
+      "name": "ĐỒNG HÀNH CÙNG VĨ NHÂN.pdf",
+      "mime": "application/pdf",
+      "size": 421808,
+      "modified": "2026-08-15T00:59:38.000Z",
+      "checksum": "2c7bf82f756ce9febd908f950f0a2432",
+      "folder": false
+    }
+  ]
+}

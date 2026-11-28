@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SPFZmbCwuwSbxlpziT_3Kn0UIRQBSpwv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XAP79y-u9dQ4nKszqsmervAuKQsgDuNM",
+      "parent_id": "1SPFZmbCwuwSbxlpziT_3Kn0UIRQBSpwv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8802,
+      "modified": "2026-08-15T08:15:45.000Z",
+      "checksum": "4bb734fdf842178a416633532839f47a",
+      "folder": false
+    },
+    {
+      "id": "1h5qUl9gMTdqniGsLpjyKo6FA6RMbM4dj",
+      "parent_id": "1SPFZmbCwuwSbxlpziT_3Kn0UIRQBSpwv",
+      "name": "HOA HỒNG GIẤY.epub",
+      "mime": "application/epub+zip",
+      "size": 2386458,
+      "modified": "2026-08-15T08:15:54.000Z",
+      "checksum": "a1727e98940765be99e0523d70078bb9",
+      "folder": false
+    },
+    {
+      "id": "1YtHiu3bi7LkOQIYMHRDOedyCjA-pWz1j",
+      "parent_id": "1SPFZmbCwuwSbxlpziT_3Kn0UIRQBSpwv",
+      "name": "HOA HỒNG GIẤY.pdf",
+      "mime": "application/pdf",
+      "size": 2775951,
+      "modified": "2026-08-15T08:15:51.000Z",
+      "checksum": "2cc2c85c38b54cff27725afc1b769c1c",
+      "folder": false
+    }
+  ]
+}

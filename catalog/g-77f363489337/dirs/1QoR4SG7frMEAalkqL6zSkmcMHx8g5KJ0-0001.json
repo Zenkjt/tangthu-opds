@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QoR4SG7frMEAalkqL6zSkmcMHx8g5KJ0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1A4oNR5Dle_dePhBXO8v85YdsvNT_qD5k",
+      "parent_id": "1QoR4SG7frMEAalkqL6zSkmcMHx8g5KJ0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 22745,
+      "modified": "2026-08-15T03:57:58.000Z",
+      "checksum": "dc4bfa6252dd28e2424c6b9eeb3e66bf",
+      "folder": false
+    },
+    {
+      "id": "1__GLR61pOtDKrusScOLxoSHLLhuTErFs",
+      "parent_id": "1QoR4SG7frMEAalkqL6zSkmcMHx8g5KJ0",
+      "name": "GIÁO LÝ BÍ NHIỆM - QUYỂN 2.epub",
+      "mime": "application/epub+zip",
+      "size": 737408,
+      "modified": "2026-08-15T03:58:07.000Z",
+      "checksum": "16f436d11924d5d3268f3c09388e19be",
+      "folder": false
+    },
+    {
+      "id": "1D5l9V0GjJKwbWwu9UdiLs9cxL60drpxT",
+      "parent_id": "1QoR4SG7frMEAalkqL6zSkmcMHx8g5KJ0",
+      "name": "GIÁO LÝ BÍ NHIỆM - QUYỂN 2.pdf",
+      "mime": "application/pdf",
+      "size": 4083421,
+      "modified": "2026-08-15T03:58:04.000Z",
+      "checksum": "978e4cf92ea8d8a9c6d078688313f41b",
+      "folder": false
+    }
+  ]
+}

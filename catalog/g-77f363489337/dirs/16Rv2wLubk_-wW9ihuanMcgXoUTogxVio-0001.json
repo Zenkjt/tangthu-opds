@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16Rv2wLubk_-wW9ihuanMcgXoUTogxVio",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-e-A9WAglzDIlmHbhbfaDZKwB22x7qhV",
+      "parent_id": "16Rv2wLubk_-wW9ihuanMcgXoUTogxVio",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3324,
+      "modified": "2026-08-15T03:21:04.000Z",
+      "checksum": "71716736890d92e333577df2009ccbf4",
+      "folder": false
+    },
+    {
+      "id": "1pXHXJ-cBZtZo5WhSz0VEYMpV485JU_HK",
+      "parent_id": "16Rv2wLubk_-wW9ihuanMcgXoUTogxVio",
+      "name": "SINH TỒN NƠI HOANG DÃ.epub",
+      "mime": "application/epub+zip",
+      "size": 27461828,
+      "modified": "2026-08-15T03:21:16.000Z",
+      "checksum": "7fc4bcfa98917c0d79a9a096ea97c2f9",
+      "folder": false
+    },
+    {
+      "id": "18Jqhgh1vagrhtNyf_qogJgyoU6oJleZY",
+      "parent_id": "16Rv2wLubk_-wW9ihuanMcgXoUTogxVio",
+      "name": "SINH TỒN NƠI HOANG DÃ.pdf",
+      "mime": "application/pdf",
+      "size": 26306568,
+      "modified": "2026-08-15T03:21:11.000Z",
+      "checksum": "9f4f1f933aac8d879cb8ded9cfb3cc19",
+      "folder": false
+    }
+  ]
+}

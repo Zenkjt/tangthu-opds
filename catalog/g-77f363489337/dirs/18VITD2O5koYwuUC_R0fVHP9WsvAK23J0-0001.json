@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18VITD2O5koYwuUC_R0fVHP9WsvAK23J0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MuxPil3fXubiKC0IhVvwFqdt0pfkB_DO",
+      "parent_id": "18VITD2O5koYwuUC_R0fVHP9WsvAK23J0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3446,
+      "modified": "2026-08-16T03:55:44.000Z",
+      "checksum": "411bf37d3f8d8ebe42a87c804faa8996",
+      "folder": false
+    },
+    {
+      "id": "1CN9jaU7AvPZvu1x6JmsONcvlfLcFN2u7",
+      "parent_id": "18VITD2O5koYwuUC_R0fVHP9WsvAK23J0",
+      "name": "TIỀN CHUỘC MẠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 459228,
+      "modified": "2026-08-16T03:55:53.000Z",
+      "checksum": "37b9a9c661977727ecb93643c5888c79",
+      "folder": false
+    },
+    {
+      "id": "1e-BXq07-BnaxF5Vema1exp1z-gWHDB9w",
+      "parent_id": "18VITD2O5koYwuUC_R0fVHP9WsvAK23J0",
+      "name": "TIỀN CHUỘC MẠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1763712,
+      "modified": "2026-08-16T03:55:50.000Z",
+      "checksum": "38c433beec5c8667ad816b8b2cb6517e",
+      "folder": false
+    }
+  ]
+}

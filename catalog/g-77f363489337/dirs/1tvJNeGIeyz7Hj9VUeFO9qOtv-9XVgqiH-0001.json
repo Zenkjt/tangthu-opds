@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tvJNeGIeyz7Hj9VUeFO9qOtv-9XVgqiH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JQqpYTvcpipEOswvNwinhzz4mxHAp7ri",
+      "parent_id": "1tvJNeGIeyz7Hj9VUeFO9qOtv-9XVgqiH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3454,
+      "modified": "2026-08-16T03:53:16.000Z",
+      "checksum": "0c46435bf971905ca4eaf257676db815",
+      "folder": false
+    },
+    {
+      "id": "1JwArjscgANKAV_7sGYelOd0ajSdJaBZ4",
+      "parent_id": "1tvJNeGIeyz7Hj9VUeFO9qOtv-9XVgqiH",
+      "name": "TÌNH YÊU VÀ ƯỚC VỌNG.epub",
+      "mime": "application/epub+zip",
+      "size": 860349,
+      "modified": "2026-08-16T03:53:23.000Z",
+      "checksum": "9014d9fee6d6e8bf1b5d45fd6abfd84e",
+      "folder": false
+    },
+    {
+      "id": "1WkrV4xZA0hSU8v9swtU3jQntg_LWzvMU",
+      "parent_id": "1tvJNeGIeyz7Hj9VUeFO9qOtv-9XVgqiH",
+      "name": "TÌNH YÊU VÀ ƯỚC VỌNG.pdf",
+      "mime": "application/pdf",
+      "size": 638011,
+      "modified": "2026-08-16T03:53:19.000Z",
+      "checksum": "2c64342aaa0aa05ef7f6bf7062071900",
+      "folder": false
+    }
+  ]
+}

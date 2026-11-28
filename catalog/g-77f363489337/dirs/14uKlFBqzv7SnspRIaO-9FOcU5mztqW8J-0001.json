@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14uKlFBqzv7SnspRIaO-9FOcU5mztqW8J",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DuNiCV7Q6V2owOHxWEe9SzC7wFpvF1td",
+      "parent_id": "14uKlFBqzv7SnspRIaO-9FOcU5mztqW8J",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1639,
+      "modified": "2026-08-15T09:33:56.000Z",
+      "checksum": "0119c1db5594c326bf7c1b999b57c6ee",
+      "folder": false
+    },
+    {
+      "id": "1TlwgJIkN63A1LSLzWJkf_L7qlyEudp4B",
+      "parent_id": "14uKlFBqzv7SnspRIaO-9FOcU5mztqW8J",
+      "name": "TỪ HÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 407999,
+      "modified": "2026-08-15T09:34:05.000Z",
+      "checksum": "2fa8e6ec154755485160787d007d53d6",
+      "folder": false
+    },
+    {
+      "id": "10-Uzzb57OZneP8PhSmO4Cvf_XAgawSm-",
+      "parent_id": "14uKlFBqzv7SnspRIaO-9FOcU5mztqW8J",
+      "name": "TỪ HÔN.pdf",
+      "mime": "application/pdf",
+      "size": 443487,
+      "modified": "2026-08-15T09:34:02.000Z",
+      "checksum": "3bb8743fb1ccc2c28c41a9b85cbc4471",
+      "folder": false
+    }
+  ]
+}

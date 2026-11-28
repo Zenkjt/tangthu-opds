@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vBVZl5mzCeswiEXErWcl0sjqaMrIZdbD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1l2xtzsakagDYmi75f5e4cfCzhjU4t320",
+      "parent_id": "1vBVZl5mzCeswiEXErWcl0sjqaMrIZdbD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3342,
+      "modified": "2026-08-15T10:46:10.000Z",
+      "checksum": "c0760ffbb5bf9aa7f61558523e81b75f",
+      "folder": false
+    },
+    {
+      "id": "1aavIJjisQ8RTcDZPLX2wF3dv2rzw6LgC",
+      "parent_id": "1vBVZl5mzCeswiEXErWcl0sjqaMrIZdbD",
+      "name": "NGỌ MÔN QUẪN SỰ.epub",
+      "mime": "application/epub+zip",
+      "size": 800659,
+      "modified": "2026-08-15T10:46:23.000Z",
+      "checksum": "b14c5e3380fd31e15ba9cbe2fa90b3f1",
+      "folder": false
+    },
+    {
+      "id": "1iXMZKIAqu5trpat4LH5txgBtPnG21B9a",
+      "parent_id": "1vBVZl5mzCeswiEXErWcl0sjqaMrIZdbD",
+      "name": "NGỌ MÔN QUẪN SỰ.pdf",
+      "mime": "application/pdf",
+      "size": 2387289,
+      "modified": "2026-08-15T10:46:19.000Z",
+      "checksum": "767cbe10f55f178504da24199671fd54",
+      "folder": false
+    }
+  ]
+}

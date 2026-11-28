@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HtaIzxpLhjPUOsXyvO0J9-Mma3KFFwaw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KvJRBgFsRvgTfq6nzpYLHTDiC4Y00jDH",
+      "parent_id": "1HtaIzxpLhjPUOsXyvO0J9-Mma3KFFwaw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3129,
+      "modified": "2026-08-16T04:03:57.000Z",
+      "checksum": "832b9d8bea98caec14adf5573381d934",
+      "folder": false
+    },
+    {
+      "id": "1HamzBUAVnpRml6ulm2EgY035lmYHWApH",
+      "parent_id": "1HtaIzxpLhjPUOsXyvO0J9-Mma3KFFwaw",
+      "name": "SEDUCED IN THE DARK.epub",
+      "mime": "application/epub+zip",
+      "size": 622636,
+      "modified": "2026-08-16T04:04:05.000Z",
+      "checksum": "fe14ebb3c2505ca7489071f03d713f65",
+      "folder": false
+    },
+    {
+      "id": "1_O4NL-qzlERtA2ZGarkyGE4ss5yG1qsr",
+      "parent_id": "1HtaIzxpLhjPUOsXyvO0J9-Mma3KFFwaw",
+      "name": "SEDUCED IN THE DARK.pdf",
+      "mime": "application/pdf",
+      "size": 1958506,
+      "modified": "2026-08-16T04:04:02.000Z",
+      "checksum": "f91dbef64082e1a93edfc7b254f99851",
+      "folder": false
+    }
+  ]
+}

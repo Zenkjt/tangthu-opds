@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1O6lkSLBqDXwoo8kgzi4oTGON0zMNcCg9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GelLHlV_c8A-HOi6Kat5Bpcfx-99Gb2g",
+      "parent_id": "1O6lkSLBqDXwoo8kgzi4oTGON0zMNcCg9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2537,
+      "modified": "2026-08-15T09:38:31.000Z",
+      "checksum": "eacf12fa99d3a36b4b72b90ce91dcc7c",
+      "folder": false
+    },
+    {
+      "id": "12rXpLoJI0yqBq4ishMSpPFk_d4GHjTkQ",
+      "parent_id": "1O6lkSLBqDXwoo8kgzi4oTGON0zMNcCg9",
+      "name": "POLLYANNA.epub",
+      "mime": "application/epub+zip",
+      "size": 586530,
+      "modified": "2026-08-15T09:38:37.000Z",
+      "checksum": "4d74a4d3a180c0071e2a5b60871437df",
+      "folder": false
+    },
+    {
+      "id": "1NKvs89PlkQiWTlwbTn3EnOnZSIKoXdza",
+      "parent_id": "1O6lkSLBqDXwoo8kgzi4oTGON0zMNcCg9",
+      "name": "POLLYANNA.pdf",
+      "mime": "application/pdf",
+      "size": 871929,
+      "modified": "2026-08-15T09:38:34.000Z",
+      "checksum": "5713d8e34448d98b8be9eddb989eec81",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18kGecBljfRVjuFzA5Lh_W1tevjG-bbWc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ET_hZb3K5Ttukq-JBi1EQIyGsM8n34nV",
+      "parent_id": "18kGecBljfRVjuFzA5Lh_W1tevjG-bbWc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1188,
+      "modified": "2026-08-15T03:56:48.000Z",
+      "checksum": "e6101a6b2e65ee44bf48bcd71244231b",
+      "folder": false
+    },
+    {
+      "id": "1LOycdLeEwns-p-ozgkOG-Jn1vNKx0NbK",
+      "parent_id": "18kGecBljfRVjuFzA5Lh_W1tevjG-bbWc",
+      "name": "LÃO, TRANG GIẢN LƯỢC.epub",
+      "mime": "application/epub+zip",
+      "size": 350620,
+      "modified": "2026-08-15T03:56:54.000Z",
+      "checksum": "0dc37b5df7c8201502622d0014f3062e",
+      "folder": false
+    },
+    {
+      "id": "1ToveKWf0P9C8Fl62SQhZlA7LA7x3aanU",
+      "parent_id": "18kGecBljfRVjuFzA5Lh_W1tevjG-bbWc",
+      "name": "LÃO, TRANG GIẢN LƯỢC.pdf",
+      "mime": "application/pdf",
+      "size": 853674,
+      "modified": "2026-08-15T03:56:52.000Z",
+      "checksum": "fe6e83046f96e2247646bc48f1d51bf3",
+      "folder": false
+    }
+  ]
+}

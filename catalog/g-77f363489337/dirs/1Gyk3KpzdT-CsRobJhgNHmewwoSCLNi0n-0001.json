@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Gyk3KpzdT-CsRobJhgNHmewwoSCLNi0n",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RCMml--StUGxuA_5buwWqbVgH7ZtSht3",
+      "parent_id": "1Gyk3KpzdT-CsRobJhgNHmewwoSCLNi0n",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3070,
+      "modified": "2026-08-15T15:34:36.000Z",
+      "checksum": "5cf583de993ffd3de7a36a8548b2a6c4",
+      "folder": false
+    },
+    {
+      "id": "1zeymDa90E9bRwOnJEaqs_U-B3rIAbTAb",
+      "parent_id": "1Gyk3KpzdT-CsRobJhgNHmewwoSCLNi0n",
+      "name": "VỤ BÍ ẨN BẮT CÓC CÁ VOI.epub",
+      "mime": "application/epub+zip",
+      "size": 397668,
+      "modified": "2026-08-15T15:34:43.000Z",
+      "checksum": "64c9c34858403946c1026e01a6acbbe1",
+      "folder": false
+    },
+    {
+      "id": "1glYbQsW9tZXKXl3Oeec4aDHNOIc5w_Xg",
+      "parent_id": "1Gyk3KpzdT-CsRobJhgNHmewwoSCLNi0n",
+      "name": "VỤ BÍ ẨN BẮT CÓC CÁ VOI.pdf",
+      "mime": "application/pdf",
+      "size": 462092,
+      "modified": "2026-08-15T15:34:40.000Z",
+      "checksum": "18af4aa04153d1e48cf69395c84846ac",
+      "folder": false
+    }
+  ]
+}

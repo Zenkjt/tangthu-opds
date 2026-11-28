@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11kE9SqEOMTfNhY53Wqaj16WjgTzrU9iK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PIZ94iKDb1AzOrMOG6QTRRZqFjB4EYYn",
+      "parent_id": "11kE9SqEOMTfNhY53Wqaj16WjgTzrU9iK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3505,
+      "modified": "2026-08-16T03:12:28.000Z",
+      "checksum": "3651427e9fad8e391070334bc54c2348",
+      "folder": false
+    },
+    {
+      "id": "1n5OnieC9CsanlFOWZqvQWMCED8PdsiAB",
+      "parent_id": "11kE9SqEOMTfNhY53Wqaj16WjgTzrU9iK",
+      "name": "ĐÊM THÁNH VÔ CÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 265397,
+      "modified": "2026-08-16T03:12:33.000Z",
+      "checksum": "6ca0cf2b420ac2e13a9ae3e4acc2ccf3",
+      "folder": false
+    },
+    {
+      "id": "1lhJKAxlDcgbCQRZ5cESWdl10lT6T3fON",
+      "parent_id": "11kE9SqEOMTfNhY53Wqaj16WjgTzrU9iK",
+      "name": "ĐÊM THÁNH VÔ CÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 260259,
+      "modified": "2026-08-16T03:12:31.000Z",
+      "checksum": "884d03c88752c22160d65eafd86b7d65",
+      "folder": false
+    }
+  ]
+}

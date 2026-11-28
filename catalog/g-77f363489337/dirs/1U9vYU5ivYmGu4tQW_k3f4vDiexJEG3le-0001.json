@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1U9vYU5ivYmGu4tQW_k3f4vDiexJEG3le",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LB4Dt72mL2mgLeT0gpbCDJGU5462ongE",
+      "parent_id": "1U9vYU5ivYmGu4tQW_k3f4vDiexJEG3le",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2877,
+      "modified": "2026-08-15T17:03:08.000Z",
+      "checksum": "396e85262f68d732b65315c51dd74c6c",
+      "folder": false
+    },
+    {
+      "id": "1bnBgvLZIWQgI_Wx5Rj8Ea0TY87ynXA-W",
+      "parent_id": "1U9vYU5ivYmGu4tQW_k3f4vDiexJEG3le",
+      "name": "HOÀNG HÔN MÀU MÁU.epub",
+      "mime": "application/epub+zip",
+      "size": 777803,
+      "modified": "2026-08-15T17:03:16.000Z",
+      "checksum": "4d97ba967dc0e9027c1b9c6b93817d78",
+      "folder": false
+    },
+    {
+      "id": "1EEhLgYepSHdL_504zPJmqnpbjKjmEGLl",
+      "parent_id": "1U9vYU5ivYmGu4tQW_k3f4vDiexJEG3le",
+      "name": "HOÀNG HÔN MÀU MÁU.pdf",
+      "mime": "application/pdf",
+      "size": 2142859,
+      "modified": "2026-08-15T17:03:13.000Z",
+      "checksum": "6f13a6b762a9497c71382bce542ace59",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Tll7z2vpKGv8k6vOTKtvVyRmzJJB9mHz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UeQhs-kldZiuX7WM_gmnNmo3kEZsoVCJ",
+      "parent_id": "1Tll7z2vpKGv8k6vOTKtvVyRmzJJB9mHz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3074,
+      "modified": "2026-08-15T17:04:44.000Z",
+      "checksum": "de947e2aeaf185efaa01af0356b3124e",
+      "folder": false
+    },
+    {
+      "id": "1eeTlCDhIc00vvrl9hekmtGeOw_c10Op4",
+      "parent_id": "1Tll7z2vpKGv8k6vOTKtvVyRmzJJB9mHz",
+      "name": "THỔ PHỈ CÔNG LƯỢC.epub",
+      "mime": "application/epub+zip",
+      "size": 1521446,
+      "modified": "2026-08-15T17:04:59.000Z",
+      "checksum": "a21a65d8152c3cef8094363d0b2959ee",
+      "folder": false
+    },
+    {
+      "id": "1EuDwmGwUW9IaC24WWKmNiCJtKbZbawLc",
+      "parent_id": "1Tll7z2vpKGv8k6vOTKtvVyRmzJJB9mHz",
+      "name": "THỔ PHỈ CÔNG LƯỢC.pdf",
+      "mime": "application/pdf",
+      "size": 6472095,
+      "modified": "2026-08-15T17:04:55.000Z",
+      "checksum": "1fda3b5a7d50a99858fa0e95e7388ae4",
+      "folder": false
+    }
+  ]
+}

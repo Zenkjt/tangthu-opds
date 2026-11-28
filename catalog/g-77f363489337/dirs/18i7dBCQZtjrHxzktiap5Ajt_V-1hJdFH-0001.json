@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18i7dBCQZtjrHxzktiap5Ajt_V-1hJdFH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Lq2lAIKzasJgXVKgBRc_WwEiZIowHUq4",
+      "parent_id": "18i7dBCQZtjrHxzktiap5Ajt_V-1hJdFH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2719,
+      "modified": "2026-08-15T07:01:12.000Z",
+      "checksum": "ac15eed7eb9395dc273e342a449f6ad3",
+      "folder": false
+    },
+    {
+      "id": "1vRbciEWP6c8u9RIiU9ht2o2VWKtWdbs_",
+      "parent_id": "18i7dBCQZtjrHxzktiap5Ajt_V-1hJdFH",
+      "name": "TẠI TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 445571,
+      "modified": "2026-08-15T07:01:40.000Z",
+      "checksum": "2b9a724aef7f03740dc37f1c6c39eff7",
+      "folder": false
+    },
+    {
+      "id": "12CCFm-T_J7d4e0oftTfOFndWRqCooYYT",
+      "parent_id": "18i7dBCQZtjrHxzktiap5Ajt_V-1hJdFH",
+      "name": "TẠI TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 1463077,
+      "modified": "2026-08-15T07:01:25.000Z",
+      "checksum": "a1af7206d85ec551e2d4008b0af2c82b",
+      "folder": false
+    }
+  ]
+}

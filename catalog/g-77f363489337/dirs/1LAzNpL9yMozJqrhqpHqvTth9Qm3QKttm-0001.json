@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LAzNpL9yMozJqrhqpHqvTth9Qm3QKttm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YoxCozmG7NOrR7eKjCTkKs15wKCqQAW1",
+      "parent_id": "1LAzNpL9yMozJqrhqpHqvTth9Qm3QKttm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4337,
+      "modified": "2026-08-15T09:40:38.000Z",
+      "checksum": "f45874ec83da35be3ac7afc92991874f",
+      "folder": false
+    },
+    {
+      "id": "19Lppmk_8BK0hTrTutRQ8zF9ozGqZPIql",
+      "parent_id": "1LAzNpL9yMozJqrhqpHqvTth9Qm3QKttm",
+      "name": "MỘNG ĐẸP TUYỀN CƠ.epub",
+      "mime": "application/epub+zip",
+      "size": 1265466,
+      "modified": "2026-08-15T09:40:52.000Z",
+      "checksum": "f531863621dc351418724775f2d0e7ed",
+      "folder": false
+    },
+    {
+      "id": "1fHobrqVYFoueXXagbH9mrL6lHHDp9q7n",
+      "parent_id": "1LAzNpL9yMozJqrhqpHqvTth9Qm3QKttm",
+      "name": "MỘNG ĐẸP TUYỀN CƠ.pdf",
+      "mime": "application/pdf",
+      "size": 4953880,
+      "modified": "2026-08-15T09:40:49.000Z",
+      "checksum": "987dc403a9e5f2e12f762a837cb735e3",
+      "folder": false
+    }
+  ]
+}

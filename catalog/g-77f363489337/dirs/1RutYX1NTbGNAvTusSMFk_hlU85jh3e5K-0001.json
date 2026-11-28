@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RutYX1NTbGNAvTusSMFk_hlU85jh3e5K",
+  "page": 1,
+  "items": [
+    {
+      "id": "1divRNCXpSPK7KihW25yPmauLGZcD0pkg",
+      "parent_id": "1RutYX1NTbGNAvTusSMFk_hlU85jh3e5K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2547,
+      "modified": "2026-08-15T06:19:34.000Z",
+      "checksum": "a11973d2d197b81cef3adedc4939a15e",
+      "folder": false
+    },
+    {
+      "id": "1pPHfjIp7z1WONOskNHFujrOb8a9zsgf9",
+      "parent_id": "1RutYX1NTbGNAvTusSMFk_hlU85jh3e5K",
+      "name": "VU QUY.epub",
+      "mime": "application/epub+zip",
+      "size": 322660,
+      "modified": "2026-08-15T06:19:40.000Z",
+      "checksum": "13407301d9b07d0c6cf323ab354c3237",
+      "folder": false
+    },
+    {
+      "id": "1c4v67vyUrLEk7WBTlyZKXPNveOwPp-PK",
+      "parent_id": "1RutYX1NTbGNAvTusSMFk_hlU85jh3e5K",
+      "name": "VU QUY.pdf",
+      "mime": "application/pdf",
+      "size": 476698,
+      "modified": "2026-08-15T06:19:37.000Z",
+      "checksum": "f399e74c2e87c794c6018c5567177e0b",
+      "folder": false
+    }
+  ]
+}

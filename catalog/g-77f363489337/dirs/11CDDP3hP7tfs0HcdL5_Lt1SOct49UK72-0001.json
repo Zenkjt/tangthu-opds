@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11CDDP3hP7tfs0HcdL5_Lt1SOct49UK72",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Jfzs5ZVfEdiGrCZIZAX73UsvGIOcItZE",
+      "parent_id": "11CDDP3hP7tfs0HcdL5_Lt1SOct49UK72",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6395,
+      "modified": "2026-08-16T02:43:50.000Z",
+      "checksum": "70bdc3b62b7a39777e8a4c30036e15e3",
+      "folder": false
+    },
+    {
+      "id": "1_o4GsDrg8DJNQ_zASOcreVnOl0nK_9kh",
+      "parent_id": "11CDDP3hP7tfs0HcdL5_Lt1SOct49UK72",
+      "name": "ĐỒI GIÓ HÚ.epub",
+      "mime": "application/epub+zip",
+      "size": 331552,
+      "modified": "2026-08-16T02:43:56.000Z",
+      "checksum": "8868deefe48b22f83c6f2cfb1032c08e",
+      "folder": false
+    },
+    {
+      "id": "1q_2VBCI6XCovLug0xeQgyPQg30y7APrV",
+      "parent_id": "11CDDP3hP7tfs0HcdL5_Lt1SOct49UK72",
+      "name": "ĐỒI GIÓ HÚ.pdf",
+      "mime": "application/pdf",
+      "size": 687912,
+      "modified": "2026-08-16T02:43:54.000Z",
+      "checksum": "d7fbb8cf922e172964c4f313bed26347",
+      "folder": false
+    }
+  ]
+}

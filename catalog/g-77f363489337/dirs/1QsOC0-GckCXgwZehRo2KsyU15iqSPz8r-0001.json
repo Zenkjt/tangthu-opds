@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QsOC0-GckCXgwZehRo2KsyU15iqSPz8r",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YUbGcc2ipxmLqd1b36_maKSCWd9QE9rl",
+      "parent_id": "1QsOC0-GckCXgwZehRo2KsyU15iqSPz8r",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8649,
+      "modified": "2026-08-15T07:43:58.000Z",
+      "checksum": "6958f28045fb71f2ccc34a8b58b5b862",
+      "folder": false
+    },
+    {
+      "id": "1EHMf1035INYbzTqkq3y31koFLtSvL0fn",
+      "parent_id": "1QsOC0-GckCXgwZehRo2KsyU15iqSPz8r",
+      "name": "MẢNH VỤN VĂN HỌC SỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 432339,
+      "modified": "2026-08-15T07:44:04.000Z",
+      "checksum": "b4b537b72c51e48a73b12a55911747c5",
+      "folder": false
+    },
+    {
+      "id": "1RROtlULLfxGsQ_RVuNtnPDtlsCzb_5eJ",
+      "parent_id": "1QsOC0-GckCXgwZehRo2KsyU15iqSPz8r",
+      "name": "MẢNH VỤN VĂN HỌC SỬ.pdf",
+      "mime": "application/pdf",
+      "size": 1246134,
+      "modified": "2026-08-15T07:44:02.000Z",
+      "checksum": "44435d5c81fa5b942ab9ebdbd44991fb",
+      "folder": false
+    }
+  ]
+}

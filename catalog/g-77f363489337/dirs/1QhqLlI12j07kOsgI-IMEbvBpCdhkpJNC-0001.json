@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QhqLlI12j07kOsgI-IMEbvBpCdhkpJNC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TxlPoMByG5UeyfKlrB9g5lF2nCLYkX0s",
+      "parent_id": "1QhqLlI12j07kOsgI-IMEbvBpCdhkpJNC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2157,
+      "modified": "2026-08-15T03:15:03.000Z",
+      "checksum": "46c3954e03bc67bb6f26286ecef50534",
+      "folder": false
+    },
+    {
+      "id": "18-DpdZgpXcgQluwSPPscGZHJvilshvb4",
+      "parent_id": "1QhqLlI12j07kOsgI-IMEbvBpCdhkpJNC",
+      "name": "SỨC MẠNH CỦA TỊNH KHẨU.epub",
+      "mime": "application/epub+zip",
+      "size": 123797,
+      "modified": "2026-08-15T03:15:08.000Z",
+      "checksum": "4a4b691ffab582e6962fe979cfaf81b8",
+      "folder": false
+    },
+    {
+      "id": "1hrsxlWHeWrym1NfV667wXkIXh19jpobk",
+      "parent_id": "1QhqLlI12j07kOsgI-IMEbvBpCdhkpJNC",
+      "name": "SỨC MẠNH CỦA TỊNH KHẨU.pdf",
+      "mime": "application/pdf",
+      "size": 109776,
+      "modified": "2026-08-15T03:15:06.000Z",
+      "checksum": "c12d04c2c7e21eb947f73fd8883e62df",
+      "folder": false
+    }
+  ]
+}

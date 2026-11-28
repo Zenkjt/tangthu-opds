@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xNk7An7PpIGG3gAsJsouTFXAkXMGLzvI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S53Nq6O2a5HIC69SsS1o8WfTkQ_YcsAd",
+      "parent_id": "1xNk7An7PpIGG3gAsJsouTFXAkXMGLzvI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8045,
+      "modified": "2026-08-15T09:42:34.000Z",
+      "checksum": "3a74271b8eddc9b2886130aeb6f57520",
+      "folder": false
+    },
+    {
+      "id": "1So3gc5IurbgjQOHzwT1BQotLqqRk4-Xw",
+      "parent_id": "1xNk7An7PpIGG3gAsJsouTFXAkXMGLzvI",
+      "name": "LỤC CHỈ CẦM MA.epub",
+      "mime": "application/epub+zip",
+      "size": 1921930,
+      "modified": "2026-08-15T09:42:47.000Z",
+      "checksum": "81b40de2414b8ab92d4ab29134f896ce",
+      "folder": false
+    },
+    {
+      "id": "18mpgajxn43XmBCfTV7aaodGn-Vc-46vN",
+      "parent_id": "1xNk7An7PpIGG3gAsJsouTFXAkXMGLzvI",
+      "name": "LỤC CHỈ CẦM MA.pdf",
+      "mime": "application/pdf",
+      "size": 3015636,
+      "modified": "2026-08-15T09:42:41.000Z",
+      "checksum": "badc8dc161ec05fb71ae12da03c6e6a4",
+      "folder": false
+    }
+  ]
+}

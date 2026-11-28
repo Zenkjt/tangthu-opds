@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oi9SDf1uPnDDHM4HRuV4M8lwW7kIkla0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uux_dPFMvGh41bL35KWK0FW-AQ-20bNH",
+      "parent_id": "1oi9SDf1uPnDDHM4HRuV4M8lwW7kIkla0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2971,
+      "modified": "2026-08-16T04:02:23.000Z",
+      "checksum": "bc82436902783c097c75613a17f84284",
+      "folder": false
+    },
+    {
+      "id": "1LbAh-HbhbYeMJqL5AO3yRUzdskrbLsTF",
+      "parent_id": "1oi9SDf1uPnDDHM4HRuV4M8lwW7kIkla0",
+      "name": "SỦNG PHI ĐƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 798353,
+      "modified": "2026-08-16T04:02:32.000Z",
+      "checksum": "f11e8d97312c01c6ab6fcd70181c0671",
+      "folder": false
+    },
+    {
+      "id": "1_VAChxv9CyWHUjA6et-Fddfhr3Uz4SK3",
+      "parent_id": "1oi9SDf1uPnDDHM4HRuV4M8lwW7kIkla0",
+      "name": "SỦNG PHI ĐƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 2594806,
+      "modified": "2026-08-16T04:02:30.000Z",
+      "checksum": "76ac118cb889c10dc26ee3ad3f4158ea",
+      "folder": false
+    }
+  ]
+}

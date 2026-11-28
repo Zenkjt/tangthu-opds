@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "194QB21RZu_pgt17p1MONt3vNFKKQ_oWY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1x0jFLiSy7pVm2Zho2Jkg5aNQAdmyF_hp",
+      "parent_id": "194QB21RZu_pgt17p1MONt3vNFKKQ_oWY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3165,
+      "modified": "2026-08-15T03:18:28.000Z",
+      "checksum": "a9dcf49277819ff4eb7c94c8368bd4ff",
+      "folder": false
+    },
+    {
+      "id": "1o9kWE_2RFhVNO4uTFgtTBGT8QRMG_1VO",
+      "parent_id": "194QB21RZu_pgt17p1MONt3vNFKKQ_oWY",
+      "name": "NHỮNG TRIỆU PHÚ THẦM LẶNG.epub",
+      "mime": "application/epub+zip",
+      "size": 790131,
+      "modified": "2026-08-15T03:18:35.000Z",
+      "checksum": "228794e9afa6c9bfa204578f6725f14d",
+      "folder": false
+    },
+    {
+      "id": "194rkFPTbj2SfqSgl3rSDIpkRXrg6FIVI",
+      "parent_id": "194QB21RZu_pgt17p1MONt3vNFKKQ_oWY",
+      "name": "NHỮNG TRIỆU PHÚ THẦM LẶNG.pdf",
+      "mime": "application/pdf",
+      "size": 859874,
+      "modified": "2026-08-15T03:18:32.000Z",
+      "checksum": "621bf733c5dde6e965d2305857076d28",
+      "folder": false
+    }
+  ]
+}

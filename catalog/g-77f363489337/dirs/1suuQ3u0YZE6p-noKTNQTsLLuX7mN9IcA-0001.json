@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1suuQ3u0YZE6p-noKTNQTsLLuX7mN9IcA",
+  "page": 1,
+  "items": [
+    {
+      "id": "17gtLC4i0a-aTuuO6NjMZKKiZySS3drRI",
+      "parent_id": "1suuQ3u0YZE6p-noKTNQTsLLuX7mN9IcA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3351,
+      "modified": "2026-08-15T03:19:14.000Z",
+      "checksum": "1252af581ee40b378a791c03b314dbb9",
+      "folder": false
+    },
+    {
+      "id": "1GQCvuu18T_E7ch0-jNIsz9hPuhKgbamU",
+      "parent_id": "1suuQ3u0YZE6p-noKTNQTsLLuX7mN9IcA",
+      "name": "SỐNG TRONG TRÁI TIM.epub",
+      "mime": "application/epub+zip",
+      "size": 1800187,
+      "modified": "2026-08-15T03:19:21.000Z",
+      "checksum": "70b79675bdb3e2d3ce1babb181aa95a6",
+      "folder": false
+    },
+    {
+      "id": "1c3hk0VzFapJFm_uLqSnCd4xR1GYgYlCm",
+      "parent_id": "1suuQ3u0YZE6p-noKTNQTsLLuX7mN9IcA",
+      "name": "SỐNG TRONG TRÁI TIM.pdf",
+      "mime": "application/pdf",
+      "size": 2261902,
+      "modified": "2026-08-15T03:19:18.000Z",
+      "checksum": "987c12142c1d8ed1ac96d378ff1cc321",
+      "folder": false
+    }
+  ]
+}

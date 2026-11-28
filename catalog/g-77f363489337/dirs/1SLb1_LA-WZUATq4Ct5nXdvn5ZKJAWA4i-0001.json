@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SLb1_LA-WZUATq4Ct5nXdvn5ZKJAWA4i",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LnZyG2bqTdFmauzMvU5Wl-BRLfyc8TNr",
+      "parent_id": "1SLb1_LA-WZUATq4Ct5nXdvn5ZKJAWA4i",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9844,
+      "modified": "2026-08-15T07:33:32.000Z",
+      "checksum": "141ec12b9ba7e6cb500927776b4cfd5f",
+      "folder": false
+    },
+    {
+      "id": "1dc_5COOuaZB-q68Utnl88oSaGkPuCZpg",
+      "parent_id": "1SLb1_LA-WZUATq4Ct5nXdvn5ZKJAWA4i",
+      "name": "TỬ TƯỚC VÀ EM.epub",
+      "mime": "application/epub+zip",
+      "size": 1019684,
+      "modified": "2026-08-15T07:33:38.000Z",
+      "checksum": "c56c779bd053884f736c5b73d10435d3",
+      "folder": false
+    },
+    {
+      "id": "1u7HSeJibi89N8bLsOG-amnmSR4WWtdKS",
+      "parent_id": "1SLb1_LA-WZUATq4Ct5nXdvn5ZKJAWA4i",
+      "name": "TỬ TƯỚC VÀ EM.pdf",
+      "mime": "application/pdf",
+      "size": 1147127,
+      "modified": "2026-08-15T07:33:36.000Z",
+      "checksum": "180be97b32d48dc7918a0399523cdbd0",
+      "folder": false
+    }
+  ]
+}

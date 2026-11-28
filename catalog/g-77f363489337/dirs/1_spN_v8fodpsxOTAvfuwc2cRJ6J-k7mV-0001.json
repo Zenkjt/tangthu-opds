@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_spN_v8fodpsxOTAvfuwc2cRJ6J-k7mV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yLpm8yD1KiYPksBpPhuibd5ymjipaC-h",
+      "parent_id": "1_spN_v8fodpsxOTAvfuwc2cRJ6J-k7mV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1926,
+      "modified": "2026-08-15T00:54:51.000Z",
+      "checksum": "8d3edc9444ce65a573f8fc2b767eaf76",
+      "folder": false
+    },
+    {
+      "id": "1Ov-co7efCpM7wAF-wPu1H22NWepnGk10",
+      "parent_id": "1_spN_v8fodpsxOTAvfuwc2cRJ6J-k7mV",
+      "name": "KHAI THÁC SỨC MẠNH TIỀM THỨC.epub",
+      "mime": "application/epub+zip",
+      "size": 421937,
+      "modified": "2026-08-15T00:54:58.000Z",
+      "checksum": "9fa05ca8f0e21a0dcef91a6d4f0e32b6",
+      "folder": false
+    },
+    {
+      "id": "1aVxvGiC-nFDBqvtZhNlqeGBL8Gc-0Gwp",
+      "parent_id": "1_spN_v8fodpsxOTAvfuwc2cRJ6J-k7mV",
+      "name": "KHAI THÁC SỨC MẠNH TIỀM THỨC.pdf",
+      "mime": "application/pdf",
+      "size": 839024,
+      "modified": "2026-08-15T00:54:56.000Z",
+      "checksum": "c0805234dcffa4d4383e0e54633ad06d",
+      "folder": false
+    }
+  ]
+}

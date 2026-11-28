@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cG3XJ5TvlCoYZ-zxp1NLeYSxwIf_2bb4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_sLKf5onL3mw50W8hPtMrKApblOLD1Eg",
+      "parent_id": "1cG3XJ5TvlCoYZ-zxp1NLeYSxwIf_2bb4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6014,
+      "modified": "2026-08-16T03:40:14.000Z",
+      "checksum": "c997f9c093a5f52ac3f33e2fce034f8c",
+      "folder": false
+    },
+    {
+      "id": "1ModWDNXOwvktNCK7HyXNN_EgfrxfnlFK",
+      "parent_id": "1cG3XJ5TvlCoYZ-zxp1NLeYSxwIf_2bb4",
+      "name": "HÒA LÝ THANH.epub",
+      "mime": "application/epub+zip",
+      "size": 1463816,
+      "modified": "2026-08-16T03:40:21.000Z",
+      "checksum": "a99f8b34c34aaaff0ba6456a1c701936",
+      "folder": false
+    },
+    {
+      "id": "1iUj_sqSXB_l4b7XygEzvWZD82SghLZem",
+      "parent_id": "1cG3XJ5TvlCoYZ-zxp1NLeYSxwIf_2bb4",
+      "name": "HÒA LÝ THANH.pdf",
+      "mime": "application/pdf",
+      "size": 1082994,
+      "modified": "2026-08-16T03:40:18.000Z",
+      "checksum": "8cc98de4567f7b5cc82abf4c4d880c41",
+      "folder": false
+    }
+  ]
+}

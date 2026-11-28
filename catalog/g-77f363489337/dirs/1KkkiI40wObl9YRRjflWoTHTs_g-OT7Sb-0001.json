@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KkkiI40wObl9YRRjflWoTHTs_g-OT7Sb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BAcFoH10-QfiaYhH4mVsSpb_95aGhy3s",
+      "parent_id": "1KkkiI40wObl9YRRjflWoTHTs_g-OT7Sb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9282,
+      "modified": "2026-08-15T12:36:15.000Z",
+      "checksum": "e3b1fe2b9f2e54aa263d5600e206a89b",
+      "folder": false
+    },
+    {
+      "id": "16WTsdF8qz-fDP4L3ZPRZS2uYyI40jP69",
+      "parent_id": "1KkkiI40wObl9YRRjflWoTHTs_g-OT7Sb",
+      "name": "HỌC TRÒ BÀ MỤ.epub",
+      "mime": "application/epub+zip",
+      "size": 663212,
+      "modified": "2026-08-15T12:36:28.000Z",
+      "checksum": "14a262d22fffba73d71763d8c088853c",
+      "folder": false
+    },
+    {
+      "id": "1adcTGweFZjcPZxjnyI-LuwYvsFIcU8yA",
+      "parent_id": "1KkkiI40wObl9YRRjflWoTHTs_g-OT7Sb",
+      "name": "HỌC TRÒ BÀ MỤ.pdf",
+      "mime": "application/pdf",
+      "size": 715192,
+      "modified": "2026-08-15T12:36:21.000Z",
+      "checksum": "6f994055aec393bc20ca4008438c0462",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uZaUI_hc1ZSD4PFwIuRWwxcpmT1u_qaf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OjpRown4t1R9ASMKqEvQ0G5u5t6Ym0UJ",
+      "parent_id": "1uZaUI_hc1ZSD4PFwIuRWwxcpmT1u_qaf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2956,
+      "modified": "2026-08-15T03:50:27.000Z",
+      "checksum": "df1485b5463468ab6c9c3875d9a6611b",
+      "folder": false
+    },
+    {
+      "id": "1SZjxvzIQ7EicBerzDuPZBWgdP2bbsjzL",
+      "parent_id": "1uZaUI_hc1ZSD4PFwIuRWwxcpmT1u_qaf",
+      "name": "ĐI ĐỂ MÀ ĐI.epub",
+      "mime": "application/epub+zip",
+      "size": 1994767,
+      "modified": "2026-08-15T03:50:34.000Z",
+      "checksum": "879d53b76ba809a5993632c0ec1e087e",
+      "folder": false
+    },
+    {
+      "id": "1o0o0wqcZjrfym7N_dxiUUt9bvBSMoMas",
+      "parent_id": "1uZaUI_hc1ZSD4PFwIuRWwxcpmT1u_qaf",
+      "name": "ĐI ĐỂ MÀ ĐI.pdf",
+      "mime": "application/pdf",
+      "size": 1981461,
+      "modified": "2026-08-15T03:50:32.000Z",
+      "checksum": "044fa59642281fc344de5050efaf7b0a",
+      "folder": false
+    }
+  ]
+}

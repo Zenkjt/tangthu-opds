@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MYn0pezUO1WzLi9g-b1qYyYzyxNE6DA9",
+  "page": 1,
+  "items": [
+    {
+      "id": "14b0VuNYThVtmFnqRsIGvIfwk-FwH0QtY",
+      "parent_id": "1MYn0pezUO1WzLi9g-b1qYyYzyxNE6DA9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4092,
+      "modified": "2026-08-15T00:49:28.000Z",
+      "checksum": "ef4f1de3dc3cfab700e81be44d7be9a4",
+      "folder": false
+    },
+    {
+      "id": "1fBXqRP4gCZRrTdJZi9aIL9D45KrNe6T0",
+      "parent_id": "1MYn0pezUO1WzLi9g-b1qYyYzyxNE6DA9",
+      "name": "SÁCH ĐEN VỀ TINH THẦN DOANH NHÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 318328,
+      "modified": "2026-08-15T00:49:34.000Z",
+      "checksum": "bafa157c9f538fddf5439a32bfbec86d",
+      "folder": false
+    },
+    {
+      "id": "1KQSg8jeaNLQqv0ihWLFopZ1MVMnR5uCG",
+      "parent_id": "1MYn0pezUO1WzLi9g-b1qYyYzyxNE6DA9",
+      "name": "SÁCH ĐEN VỀ TINH THẦN DOANH NHÂN.pdf",
+      "mime": "application/pdf",
+      "size": 628399,
+      "modified": "2026-08-15T00:49:31.000Z",
+      "checksum": "8fe1b9a51c44107e9b1df5a7378d2922",
+      "folder": false
+    }
+  ]
+}

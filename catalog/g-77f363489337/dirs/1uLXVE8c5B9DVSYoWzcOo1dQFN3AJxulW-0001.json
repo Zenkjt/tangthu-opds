@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uLXVE8c5B9DVSYoWzcOo1dQFN3AJxulW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1us2CF-GWVYiVTqWQDBMLs5VyixI9YiMC",
+      "parent_id": "1uLXVE8c5B9DVSYoWzcOo1dQFN3AJxulW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3083,
+      "modified": "2026-08-15T07:44:41.000Z",
+      "checksum": "2a549a629690ae00c8a12ed357c4a6af",
+      "folder": false
+    },
+    {
+      "id": "11uQgaybkHOIt-MZG0Uim_Cp1pJ9SZfCu",
+      "parent_id": "1uLXVE8c5B9DVSYoWzcOo1dQFN3AJxulW",
+      "name": "MẠNH HƠN SỢ HÃI.epub",
+      "mime": "application/epub+zip",
+      "size": 598229,
+      "modified": "2026-08-15T07:44:49.000Z",
+      "checksum": "ad3c28f04d346e7547b75f505cdc40db",
+      "folder": false
+    },
+    {
+      "id": "1bVSVSrGkp80MLh7uIO8TbdAQ5UU7hLLD",
+      "parent_id": "1uLXVE8c5B9DVSYoWzcOo1dQFN3AJxulW",
+      "name": "MẠNH HƠN SỢ HÃI.pdf",
+      "mime": "application/pdf",
+      "size": 1633466,
+      "modified": "2026-08-15T07:44:46.000Z",
+      "checksum": "e5d57da647dcd404093d2700b12b5f7b",
+      "folder": false
+    }
+  ]
+}

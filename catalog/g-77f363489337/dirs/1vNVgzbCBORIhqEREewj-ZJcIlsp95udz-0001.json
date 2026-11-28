@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vNVgzbCBORIhqEREewj-ZJcIlsp95udz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1w1fkr6blsIgDYoGUXX6OoraACvnrtWDA",
+      "parent_id": "1vNVgzbCBORIhqEREewj-ZJcIlsp95udz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1564,
+      "modified": "2026-08-15T09:38:40.000Z",
+      "checksum": "7e9daaf956a360c80bd28233e9d83d42",
+      "folder": false
+    },
+    {
+      "id": "1RcGQm8LJMxWalunEUCeaLgE-EXNt7rWo",
+      "parent_id": "1vNVgzbCBORIhqEREewj-ZJcIlsp95udz",
+      "name": "ĐẢO GIẤU VÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 425264,
+      "modified": "2026-08-15T09:38:50.000Z",
+      "checksum": "1a7a7bfdfcc11a39b2c5a25643000ea8",
+      "folder": false
+    },
+    {
+      "id": "1A0rpqqFcNXXOUb1Mtvuay_EiS926GejC",
+      "parent_id": "1vNVgzbCBORIhqEREewj-ZJcIlsp95udz",
+      "name": "ĐẢO GIẤU VÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 492328,
+      "modified": "2026-08-15T09:38:46.000Z",
+      "checksum": "51c8523034ea98e367d6f1a620205b29",
+      "folder": false
+    }
+  ]
+}

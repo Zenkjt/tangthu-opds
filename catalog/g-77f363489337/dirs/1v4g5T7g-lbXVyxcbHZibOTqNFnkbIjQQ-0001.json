@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1v4g5T7g-lbXVyxcbHZibOTqNFnkbIjQQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1F1p2TW7Zo3Okip4nMYeMJW8BnZyfmBrx",
+      "parent_id": "1v4g5T7g-lbXVyxcbHZibOTqNFnkbIjQQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3192,
+      "modified": "2026-08-16T03:55:33.000Z",
+      "checksum": "0451c8f13684e5f3b271e86d9d8fc7dc",
+      "folder": false
+    },
+    {
+      "id": "1Y-2YhCC5dyLlef72Z8iZAUelCaKxtNKb",
+      "parent_id": "1v4g5T7g-lbXVyxcbHZibOTqNFnkbIjQQ",
+      "name": "TIẾNG GỌI NGÀN.epub",
+      "mime": "application/epub+zip",
+      "size": 542085,
+      "modified": "2026-08-16T03:55:38.000Z",
+      "checksum": "c9db17440135b4dbbd9455cb8eb3fb76",
+      "folder": false
+    },
+    {
+      "id": "1X26FtrzIBOrfvYq0REahSGUo5XCRmQYt",
+      "parent_id": "1v4g5T7g-lbXVyxcbHZibOTqNFnkbIjQQ",
+      "name": "TIẾNG GỌI NGÀN.pdf",
+      "mime": "application/pdf",
+      "size": 356473,
+      "modified": "2026-08-16T03:55:36.000Z",
+      "checksum": "20b5e4af3a18adc9beaa33851f03a367",
+      "folder": false
+    }
+  ]
+}

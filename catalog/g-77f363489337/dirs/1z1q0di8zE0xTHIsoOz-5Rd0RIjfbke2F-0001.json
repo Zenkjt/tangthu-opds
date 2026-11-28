@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1z1q0di8zE0xTHIsoOz-5Rd0RIjfbke2F",
+  "page": 1,
+  "items": [
+    {
+      "id": "1z6LMJ03YV1zteXxfeA1uHHJEk6WDC6xu",
+      "parent_id": "1z1q0di8zE0xTHIsoOz-5Rd0RIjfbke2F",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1440,
+      "modified": "2026-08-16T03:04:17.000Z",
+      "checksum": "e7c69f2d7ca5a3c906960fba3a59991f",
+      "folder": false
+    },
+    {
+      "id": "1IxbaqpXQj-0QSTMvJKCa9ue9Rb1tnBOw",
+      "parent_id": "1z1q0di8zE0xTHIsoOz-5Rd0RIjfbke2F",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN HAY.epub",
+      "mime": "application/epub+zip",
+      "size": 645441,
+      "modified": "2026-08-16T03:04:25.000Z",
+      "checksum": "d63bccfb13c5d2b9f6bf47ddc5f7862d",
+      "folder": false
+    },
+    {
+      "id": "15mE87T35lSayv8-Ay6qupCEKjm1Njw2d",
+      "parent_id": "1z1q0di8zE0xTHIsoOz-5Rd0RIjfbke2F",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN HAY.pdf",
+      "mime": "application/pdf",
+      "size": 1856782,
+      "modified": "2026-08-16T03:04:22.000Z",
+      "checksum": "a8f1c7aecb342fcaf2b486d032707484",
+      "folder": false
+    }
+  ]
+}

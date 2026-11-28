@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HRJuEjqx75i1ocTYagLNwUf8YNA9vryG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IYqVXwCZX6UppWz_Yx1xVYR05MNdmHE5",
+      "parent_id": "1HRJuEjqx75i1ocTYagLNwUf8YNA9vryG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 466,
+      "modified": "2026-08-15T10:46:49.000Z",
+      "checksum": "ed11a1b455508b88e67544c3f863b3da",
+      "folder": false
+    },
+    {
+      "id": "1zEdz0GnLn7pVoDfoZHcN7nxs9iIEI3Jy",
+      "parent_id": "1HRJuEjqx75i1ocTYagLNwUf8YNA9vryG",
+      "name": "NGHE MÙI KẾT THÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 423901,
+      "modified": "2026-08-15T10:46:57.000Z",
+      "checksum": "e4a95031cec0066c5ad2fa58a372dbac",
+      "folder": false
+    },
+    {
+      "id": "1qFqRA9I-KZ1mBEkBqLk9md50hwce4NL5",
+      "parent_id": "1HRJuEjqx75i1ocTYagLNwUf8YNA9vryG",
+      "name": "NGHE MÙI KẾT THÚC.pdf",
+      "mime": "application/pdf",
+      "size": 692539,
+      "modified": "2026-08-15T10:46:53.000Z",
+      "checksum": "6d284d135bf90166d3e51a378455b6c3",
+      "folder": false
+    }
+  ]
+}

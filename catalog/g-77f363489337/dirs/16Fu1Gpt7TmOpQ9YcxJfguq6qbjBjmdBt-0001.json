@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16Fu1Gpt7TmOpQ9YcxJfguq6qbjBjmdBt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HUJOByrQVyNVCbZWQ1nJBmbQhB9dq8Xc",
+      "parent_id": "16Fu1Gpt7TmOpQ9YcxJfguq6qbjBjmdBt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 564,
+      "modified": "2026-08-15T10:56:22.000Z",
+      "checksum": "448a9ee96795cf03cbb7bec179f147c9",
+      "folder": false
+    },
+    {
+      "id": "1t1xFUCmR3womrzbLQcAesIh8gtv-XXOC",
+      "parent_id": "16Fu1Gpt7TmOpQ9YcxJfguq6qbjBjmdBt",
+      "name": "HOA-TIÊN TRUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 292008,
+      "modified": "2026-08-15T10:56:28.000Z",
+      "checksum": "3916882eb81a0f5ed168475d789c3290",
+      "folder": false
+    },
+    {
+      "id": "1LSU-J9_7uMbk0mI4nCsRJlxePh5dIiA_",
+      "parent_id": "16Fu1Gpt7TmOpQ9YcxJfguq6qbjBjmdBt",
+      "name": "HOA-TIÊN TRUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 378914,
+      "modified": "2026-08-15T10:56:26.000Z",
+      "checksum": "6d57e9ffefcb863229c0117aad2d65f7",
+      "folder": false
+    }
+  ]
+}

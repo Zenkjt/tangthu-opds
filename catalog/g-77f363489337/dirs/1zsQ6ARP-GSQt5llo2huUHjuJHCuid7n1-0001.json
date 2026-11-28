@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zsQ6ARP-GSQt5llo2huUHjuJHCuid7n1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AAbC3vlFH-tqaUFt5SPW4-qdmzw3FPA1",
+      "parent_id": "1zsQ6ARP-GSQt5llo2huUHjuJHCuid7n1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 746,
+      "modified": "2026-08-15T15:39:12.000Z",
+      "checksum": "8074e7426c0e865c1dbd494ce4482b64",
+      "folder": false
+    },
+    {
+      "id": "1LwsOwwoAfxR590jGpx8KvtbrUSckN_Nh",
+      "parent_id": "1zsQ6ARP-GSQt5llo2huUHjuJHCuid7n1",
+      "name": "NỤ HÔN CUỐI CÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 358096,
+      "modified": "2026-08-15T15:39:21.000Z",
+      "checksum": "4338bb30d995173e21fba34018110197",
+      "folder": false
+    },
+    {
+      "id": "1zxWzo9mnVTOhQKB4xalc2c83sKUgNNPR",
+      "parent_id": "1zsQ6ARP-GSQt5llo2huUHjuJHCuid7n1",
+      "name": "NỤ HÔN CUỐI CÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 619490,
+      "modified": "2026-08-15T15:39:17.000Z",
+      "checksum": "52985c39ddea8205d3c6ace46ed81409",
+      "folder": false
+    }
+  ]
+}

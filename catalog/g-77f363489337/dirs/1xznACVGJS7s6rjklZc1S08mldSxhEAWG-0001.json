@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xznACVGJS7s6rjklZc1S08mldSxhEAWG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1D9cJMUkmOWPQA6mkmKi780WxSe6z0Z7j",
+      "parent_id": "1xznACVGJS7s6rjklZc1S08mldSxhEAWG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5828,
+      "modified": "2026-08-15T03:45:01.000Z",
+      "checksum": "8806b38a4d28621ef2567b41d77e829e",
+      "folder": false
+    },
+    {
+      "id": "1IvxpIHJ_EdW15X8mJqEDo7f6fZnaVtWP",
+      "parent_id": "1xznACVGJS7s6rjklZc1S08mldSxhEAWG",
+      "name": "THƯ GỬI TRƯỜNG HỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 281687,
+      "modified": "2026-08-15T03:45:07.000Z",
+      "checksum": "37db69e80e5c1406e2ef8f4391874ea1",
+      "folder": false
+    },
+    {
+      "id": "1uL8CA-fPzYv39vwntkP0yhNyb8jIyZWa",
+      "parent_id": "1xznACVGJS7s6rjklZc1S08mldSxhEAWG",
+      "name": "THƯ GỬI TRƯỜNG HỌC.pdf",
+      "mime": "application/pdf",
+      "size": 952840,
+      "modified": "2026-08-15T03:45:05.000Z",
+      "checksum": "42ca8e6d859a683c0e80db1de5aeacba",
+      "folder": false
+    }
+  ]
+}

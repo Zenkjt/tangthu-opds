@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TKSCSrcfAvP9-veNjRj3hIwHOKF7MM-1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ha8nQaydbT1tCs9ooBa2lmBpOIIdREAU",
+      "parent_id": "1TKSCSrcfAvP9-veNjRj3hIwHOKF7MM-1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2810,
+      "modified": "2026-08-15T10:04:54.000Z",
+      "checksum": "c301097095d8f69cd4f0d45e54d2060f",
+      "folder": false
+    },
+    {
+      "id": "1PsS5UNOeYlEQ49TeoTZPdhdPGlVkonto",
+      "parent_id": "1TKSCSrcfAvP9-veNjRj3hIwHOKF7MM-1",
+      "name": "VỤ ÁN KOREAN AIRLINES.epub",
+      "mime": "application/epub+zip",
+      "size": 400612,
+      "modified": "2026-08-15T10:05:01.000Z",
+      "checksum": "daa0e9443a975fc6b9c105a703da87e5",
+      "folder": false
+    },
+    {
+      "id": "11T2FWOvDNAS2xEyuTeoQjZaAcFBeJCOL",
+      "parent_id": "1TKSCSrcfAvP9-veNjRj3hIwHOKF7MM-1",
+      "name": "VỤ ÁN KOREAN AIRLINES.pdf",
+      "mime": "application/pdf",
+      "size": 756464,
+      "modified": "2026-08-15T10:04:58.000Z",
+      "checksum": "c6d9576de5218185ef2cbd982a6cbbfd",
+      "folder": false
+    }
+  ]
+}

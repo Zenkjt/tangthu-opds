@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1emwXmmQGUKeIZ_gJ_uJ_SW_55owcV-fa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OCmsDX4oLsPuBmuUUwOFpinyd6lPt-Ij",
+      "parent_id": "1emwXmmQGUKeIZ_gJ_uJ_SW_55owcV-fa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 646,
+      "modified": "2026-08-16T04:04:33.000Z",
+      "checksum": "c9ba62286acd01ddc5bb8905a102a944",
+      "folder": false
+    },
+    {
+      "id": "1hUqgJWr7AUgZoj5-rfCbtpJ1NNl_fqmj",
+      "parent_id": "1emwXmmQGUKeIZ_gJ_uJ_SW_55owcV-fa",
+      "name": "SA HUỲNH.epub",
+      "mime": "application/epub+zip",
+      "size": 499945,
+      "modified": "2026-08-16T04:04:39.000Z",
+      "checksum": "a057561e6ea0712e547821f7515a2360",
+      "folder": false
+    },
+    {
+      "id": "1WAOOAXWPXEWJSqt_3NbdBwMtLQ5PT2mY",
+      "parent_id": "1emwXmmQGUKeIZ_gJ_uJ_SW_55owcV-fa",
+      "name": "SA HUỲNH.pdf",
+      "mime": "application/pdf",
+      "size": 725317,
+      "modified": "2026-08-16T04:04:36.000Z",
+      "checksum": "922ac2f3a4a5cdd6c73d4356836a5252",
+      "folder": false
+    }
+  ]
+}

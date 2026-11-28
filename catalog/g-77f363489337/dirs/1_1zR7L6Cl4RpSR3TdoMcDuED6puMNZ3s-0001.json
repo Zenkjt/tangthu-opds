@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_1zR7L6Cl4RpSR3TdoMcDuED6puMNZ3s",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aCVA51VCdn0RXxkuotXB-eaLzHOm-3Qa",
+      "parent_id": "1_1zR7L6Cl4RpSR3TdoMcDuED6puMNZ3s",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10792,
+      "modified": "2026-08-16T03:12:53.000Z",
+      "checksum": "e9ca6a53b1968dcd82fc50709ac984df",
+      "folder": false
+    },
+    {
+      "id": "1rqRKBAt-009gTcuAAf_dKSG4X5IFVLr_",
+      "parent_id": "1_1zR7L6Cl4RpSR3TdoMcDuED6puMNZ3s",
+      "name": "MỐI THÙ THIÊN THU.epub",
+      "mime": "application/epub+zip",
+      "size": 490240,
+      "modified": "2026-08-16T03:12:59.000Z",
+      "checksum": "a9e811c2a43e25f0bdd3d0b062073b41",
+      "folder": false
+    },
+    {
+      "id": "1WZa0ThQF7IOILACmqmy96sHA70CQiJAG",
+      "parent_id": "1_1zR7L6Cl4RpSR3TdoMcDuED6puMNZ3s",
+      "name": "MỐI THÙ THIÊN THU.pdf",
+      "mime": "application/pdf",
+      "size": 198929,
+      "modified": "2026-08-16T03:12:56.000Z",
+      "checksum": "e5d79c9f2a4f1cea6d1d8020a7d244c2",
+      "folder": false
+    }
+  ]
+}

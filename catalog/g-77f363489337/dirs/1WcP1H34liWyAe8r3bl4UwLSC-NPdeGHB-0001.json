@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WcP1H34liWyAe8r3bl4UwLSC-NPdeGHB",
+  "page": 1,
+  "items": [
+    {
+      "id": "18Ic02rEK1PUvbMW-jJhQZD97ZyfNP5Zt",
+      "parent_id": "1WcP1H34liWyAe8r3bl4UwLSC-NPdeGHB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1272,
+      "modified": "2026-08-15T06:54:23.000Z",
+      "checksum": "d19e56f6f6385992bc1167369f5714a0",
+      "folder": false
+    },
+    {
+      "id": "1xdLQ8lQ18W0mODj-accWn2_J8gkgP3a2",
+      "parent_id": "1WcP1H34liWyAe8r3bl4UwLSC-NPdeGHB",
+      "name": "LIÊN THÀNH QUYẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 492621,
+      "modified": "2026-08-15T06:54:32.000Z",
+      "checksum": "ffdb662b216d805a73f714e0b4cbe635",
+      "folder": false
+    },
+    {
+      "id": "1-zBKHYYyw9EYnYfweMn12ctcpd5wlqzH",
+      "parent_id": "1WcP1H34liWyAe8r3bl4UwLSC-NPdeGHB",
+      "name": "LIÊN THÀNH QUYẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1773791,
+      "modified": "2026-08-15T06:54:29.000Z",
+      "checksum": "d2b2f24f0a15be1ee997d01ef2396c50",
+      "folder": false
+    }
+  ]
+}

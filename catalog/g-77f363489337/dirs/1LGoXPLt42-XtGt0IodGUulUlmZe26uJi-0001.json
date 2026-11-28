@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LGoXPLt42-XtGt0IodGUulUlmZe26uJi",
+  "page": 1,
+  "items": [
+    {
+      "id": "12q4SlIZGtCqTCvIa_UWeKd_u2ZPlom1-",
+      "parent_id": "1LGoXPLt42-XtGt0IodGUulUlmZe26uJi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 582,
+      "modified": "2026-08-15T10:57:02.000Z",
+      "checksum": "73bac8e281ff5b6af47f2545aecaf5c5",
+      "folder": false
+    },
+    {
+      "id": "1Ul3VdWN2olkiCScyV5mTwcKmrW8pISXg",
+      "parent_id": "1LGoXPLt42-XtGt0IodGUulUlmZe26uJi",
+      "name": "HAI CUỐN NHẬT KÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 507809,
+      "modified": "2026-08-15T10:57:07.000Z",
+      "checksum": "8f0119f28f0a8935976a8f0ff79b4778",
+      "folder": false
+    },
+    {
+      "id": "1Ov40daJXOjbUPFiaU6pQUk3-fAjB7-2S",
+      "parent_id": "1LGoXPLt42-XtGt0IodGUulUlmZe26uJi",
+      "name": "HAI CUỐN NHẬT KÝ.pdf",
+      "mime": "application/pdf",
+      "size": 600806,
+      "modified": "2026-08-15T10:57:05.000Z",
+      "checksum": "b60fe9b46af8d3e4d885394aa8b6150b",
+      "folder": false
+    }
+  ]
+}

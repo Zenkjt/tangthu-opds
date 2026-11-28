@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hv77-o46xCEzM5p03vgKJJOYx8dJEqAf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HwBV3_RCl2OFBr7UnFPSBoZjf54CWPIz",
+      "parent_id": "1hv77-o46xCEzM5p03vgKJJOYx8dJEqAf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3436,
+      "modified": "2026-08-16T04:10:11.000Z",
+      "checksum": "e3145b720a40051396ad82015d9ace86",
+      "folder": false
+    },
+    {
+      "id": "10v6zu2nb1JaSfv4cUbYj1X42wnPqmO-G",
+      "parent_id": "1hv77-o46xCEzM5p03vgKJJOYx8dJEqAf",
+      "name": "NHỮNG CỘT TRỤ CỦA TRÁI ĐẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 1544750,
+      "modified": "2026-08-16T04:10:24.000Z",
+      "checksum": "04585c56d9342ec1a1a857aaa9704958",
+      "folder": false
+    },
+    {
+      "id": "1IUMKRqZI5yMmaPD-_v9W_TQbTBRs6b2d",
+      "parent_id": "1hv77-o46xCEzM5p03vgKJJOYx8dJEqAf",
+      "name": "NHỮNG CỘT TRỤ CỦA TRÁI ĐẤT.pdf",
+      "mime": "application/pdf",
+      "size": 4451170,
+      "modified": "2026-08-16T04:10:20.000Z",
+      "checksum": "642aa9e40fd5e141305fede9ccab1d9c",
+      "folder": false
+    }
+  ]
+}

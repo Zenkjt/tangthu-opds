@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1N0pd-GfyWDquBaay0XStY2adbDVexQFl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cO4_7bHTCX2RfopomB8MrC9X5wunRLTY",
+      "parent_id": "1N0pd-GfyWDquBaay0XStY2adbDVexQFl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 832,
+      "modified": "2026-08-16T04:14:57.000Z",
+      "checksum": "00ae775fb6959d7df4d2d2576ffe1180",
+      "folder": false
+    },
+    {
+      "id": "1GqxzlX5A1VBYZhM1LcnSWkFMogOejoxh",
+      "parent_id": "1N0pd-GfyWDquBaay0XStY2adbDVexQFl",
+      "name": "NGỌC PHƯƠNG NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 4450484,
+      "modified": "2026-08-16T04:15:06.000Z",
+      "checksum": "48681a77bb0822604998b32de0ad911d",
+      "folder": false
+    },
+    {
+      "id": "1vBrQLTdMahvjJ0DlzHA9ieCIS1TDS5vv",
+      "parent_id": "1N0pd-GfyWDquBaay0XStY2adbDVexQFl",
+      "name": "NGỌC PHƯƠNG NAM.pdf",
+      "mime": "application/pdf",
+      "size": 5324643,
+      "modified": "2026-08-16T04:15:03.000Z",
+      "checksum": "c5b029e10d27ecdd4a683b9e585b9e0f",
+      "folder": false
+    }
+  ]
+}

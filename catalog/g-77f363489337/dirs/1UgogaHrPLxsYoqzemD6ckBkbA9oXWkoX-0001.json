@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UgogaHrPLxsYoqzemD6ckBkbA9oXWkoX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mFYkiXd223UvxUAuFY1uqM2P8pAZdtk3",
+      "parent_id": "1UgogaHrPLxsYoqzemD6ckBkbA9oXWkoX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8018,
+      "modified": "2026-08-15T06:38:31.000Z",
+      "checksum": "5d87f0c3fe88e11e1d7c77ca260b4268",
+      "folder": false
+    },
+    {
+      "id": "1E4luroHIKHY5pZlYjyKkR35Qrh-lR3H2",
+      "parent_id": "1UgogaHrPLxsYoqzemD6ckBkbA9oXWkoX",
+      "name": "ĐÊM TRẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 371921,
+      "modified": "2026-08-15T06:38:37.000Z",
+      "checksum": "5f46cbfd38c2a001d4e14f988cecfad5",
+      "folder": false
+    },
+    {
+      "id": "1pFUk5vgZhRj0C1IeV9qG54BwJEO5ZDlI",
+      "parent_id": "1UgogaHrPLxsYoqzemD6ckBkbA9oXWkoX",
+      "name": "ĐÊM TRẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 310088,
+      "modified": "2026-08-15T06:38:34.000Z",
+      "checksum": "95798c91ffe119d45b7a96d3730af18b",
+      "folder": false
+    }
+  ]
+}

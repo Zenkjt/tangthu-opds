@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1w4g_lyFxvyEYM20RHbl7NzcL4otssHcA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WxDBdKH0PgQwUKLQFdiqwvaSTzMEo7NE",
+      "parent_id": "1w4g_lyFxvyEYM20RHbl7NzcL4otssHcA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 918,
+      "modified": "2026-08-15T10:42:56.000Z",
+      "checksum": "99e0bdbe9dc576352fd4698971778aac",
+      "folder": false
+    },
+    {
+      "id": "1APXQgjPRkY8PQr9XMIx17X5-4h8TAJD1",
+      "parent_id": "1w4g_lyFxvyEYM20RHbl7NzcL4otssHcA",
+      "name": "NGƯỜI NGỰA, NGỰA NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 278045,
+      "modified": "2026-08-15T10:43:02.000Z",
+      "checksum": "41cacbb234bafb6210baab3bd0af9feb",
+      "folder": false
+    },
+    {
+      "id": "1MDHoiUN5EzYIW6lZwVAXsQffKaV4up--",
+      "parent_id": "1w4g_lyFxvyEYM20RHbl7NzcL4otssHcA",
+      "name": "NGƯỜI NGỰA, NGỰA NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 100235,
+      "modified": "2026-08-15T10:42:59.000Z",
+      "checksum": "611b0f5fa6ce54ea599f28940e5f93bf",
+      "folder": false
+    }
+  ]
+}

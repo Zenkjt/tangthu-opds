@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1obJBFtAGlyMZwu4MBhkkYqwAR91i3fx2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ButtFonzXUS9UdVpOFBMMBCtz7Mxav51",
+      "parent_id": "1obJBFtAGlyMZwu4MBhkkYqwAR91i3fx2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7778,
+      "modified": "2026-08-15T06:14:51.000Z",
+      "checksum": "c3ef23b09ef4adcbe78134291714204f",
+      "folder": false
+    },
+    {
+      "id": "1doRwXbikYc1pc06Tej_-2gbFkV79Yaq-",
+      "parent_id": "1obJBFtAGlyMZwu4MBhkkYqwAR91i3fx2",
+      "name": "ĐỜI MƯA GIÓ.epub",
+      "mime": "application/epub+zip",
+      "size": 651096,
+      "modified": "2026-08-15T06:14:56.000Z",
+      "checksum": "8053157f2edd1cdf8c5c1aff97f54f47",
+      "folder": false
+    },
+    {
+      "id": "1QhP-QFjZICBV869u7HKnbYcqyI8Ynquz",
+      "parent_id": "1obJBFtAGlyMZwu4MBhkkYqwAR91i3fx2",
+      "name": "ĐỜI MƯA GIÓ.pdf",
+      "mime": "application/pdf",
+      "size": 771378,
+      "modified": "2026-08-15T06:14:54.000Z",
+      "checksum": "63d204978fde670b1231a4eba259d798",
+      "folder": false
+    }
+  ]
+}

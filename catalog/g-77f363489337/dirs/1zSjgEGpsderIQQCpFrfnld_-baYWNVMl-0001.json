@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zSjgEGpsderIQQCpFrfnld_-baYWNVMl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sV26tPsBR1skuIGHRZ0q_bf8r89WXdTf",
+      "parent_id": "1zSjgEGpsderIQQCpFrfnld_-baYWNVMl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 549,
+      "modified": "2026-08-15T15:40:32.000Z",
+      "checksum": "85219668b4a735709dc2b82e9825486e",
+      "folder": false
+    },
+    {
+      "id": "1U2z3o651F7eKh8AhwtYHl5ZehbJmMExX",
+      "parent_id": "1zSjgEGpsderIQQCpFrfnld_-baYWNVMl",
+      "name": "KẺ PHỤNG SỰ THẦM LẶNG.epub",
+      "mime": "application/epub+zip",
+      "size": 888281,
+      "modified": "2026-08-15T15:40:40.000Z",
+      "checksum": "100a9cc8c64a69419871da1bcd36bf77",
+      "folder": false
+    },
+    {
+      "id": "1bgWZlDLNbqIq8eNzTroiIphRh_9jMBtK",
+      "parent_id": "1zSjgEGpsderIQQCpFrfnld_-baYWNVMl",
+      "name": "KẺ PHỤNG SỰ THẦM LẶNG.pdf",
+      "mime": "application/pdf",
+      "size": 1047388,
+      "modified": "2026-08-15T15:40:37.000Z",
+      "checksum": "df6edb0248bc75441f8ae63152a26b90",
+      "folder": false
+    }
+  ]
+}

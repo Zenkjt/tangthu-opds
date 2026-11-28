@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KTycMAiXBJehFQO0ltOYvzNJdHRhqc3c",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mjDTcor63gDhIBbGiYoYjUKjJUuGtus0",
+      "parent_id": "1KTycMAiXBJehFQO0ltOYvzNJdHRhqc3c",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3470,
+      "modified": "2026-08-15T10:08:21.000Z",
+      "checksum": "13f9cf233c707e58ec1dbca4301d1c10",
+      "folder": false
+    },
+    {
+      "id": "1JNK84T629WYc8WdSlAaYuQyijkslOjz9",
+      "parent_id": "1KTycMAiXBJehFQO0ltOYvzNJdHRhqc3c",
+      "name": "TÌNH YÊU KHÔNG CÓ TRÁI TIM.epub",
+      "mime": "application/epub+zip",
+      "size": 412197,
+      "modified": "2026-08-15T10:08:26.000Z",
+      "checksum": "a5d14b1f99f2adfcaf3478acf7f6461b",
+      "folder": false
+    },
+    {
+      "id": "1sCs24hce1tUu_NTlvo9QKDtrrhNSOa-i",
+      "parent_id": "1KTycMAiXBJehFQO0ltOYvzNJdHRhqc3c",
+      "name": "TÌNH YÊU KHÔNG CÓ TRÁI TIM.pdf",
+      "mime": "application/pdf",
+      "size": 280930,
+      "modified": "2026-08-15T10:08:24.000Z",
+      "checksum": "6f5e9d5a786d9abc21d6d2871efec03d",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10OlcJ_8wG8jNog9UDWiQXDSJ48ccU-1C",
+  "page": 1,
+  "items": [
+    {
+      "id": "16fEgTeDPgklZbNUzBGU41AK4bI5xSsGI",
+      "parent_id": "10OlcJ_8wG8jNog9UDWiQXDSJ48ccU-1C",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 2687,
+      "modified": "2026-08-15T12:55:02.000Z",
+      "checksum": "a3752a6211af3164e8235aa372b1636a",
+      "folder": false
+    },
+    {
+      "id": "1mGL6JDgJ3iTLMt17qzn-qjckKmwwHoC5",
+      "parent_id": "10OlcJ_8wG8jNog9UDWiQXDSJ48ccU-1C",
+      "name": "VỢ CHỒNG LÃO TWIT.epub",
+      "mime": "application/epub+zip",
+      "size": 279171,
+      "modified": "2026-08-15T12:55:19.000Z",
+      "checksum": "65a6ed988151ed772f9d5f8d59722b85",
+      "folder": false
+    },
+    {
+      "id": "1Bud8h7CrJGycP1nA2S7CH54eGvsH-p3S",
+      "parent_id": "10OlcJ_8wG8jNog9UDWiQXDSJ48ccU-1C",
+      "name": "VỢ CHỒNG LÃO TWIT.pdf",
+      "mime": "application/pdf",
+      "size": 213408,
+      "modified": "2026-08-15T12:55:08.000Z",
+      "checksum": "15e046d9ca59a96227a75b31b9f2bfb6",
+      "folder": false
+    }
+  ]
+}

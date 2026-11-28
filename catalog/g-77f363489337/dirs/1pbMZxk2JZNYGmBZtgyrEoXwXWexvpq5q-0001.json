@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pbMZxk2JZNYGmBZtgyrEoXwXWexvpq5q",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GR34KuZvv1A7Hq2_9GsxmUfsPTruTKfu",
+      "parent_id": "1pbMZxk2JZNYGmBZtgyrEoXwXWexvpq5q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 813,
+      "modified": "2026-08-16T04:19:09.000Z",
+      "checksum": "33e488e043b2112dc36bcf6a3747b9fb",
+      "folder": false
+    },
+    {
+      "id": "1Up6SIBIrQ72lGTwWNgUW642EPiHVXE7o",
+      "parent_id": "1pbMZxk2JZNYGmBZtgyrEoXwXWexvpq5q",
+      "name": "JOHN CARTER VÀ LINH THẦN HỎA TINH.epub",
+      "mime": "application/epub+zip",
+      "size": 563905,
+      "modified": "2026-08-16T04:19:17.000Z",
+      "checksum": "dd06fd976e0e2f1761475d3a412e0263",
+      "folder": false
+    },
+    {
+      "id": "1yy4ZVx2VtJNE6OeUfJbcqpINqQ_Ixr1Z",
+      "parent_id": "1pbMZxk2JZNYGmBZtgyrEoXwXWexvpq5q",
+      "name": "JOHN CARTER VÀ LINH THẦN HỎA TINH.pdf",
+      "mime": "application/pdf",
+      "size": 1093834,
+      "modified": "2026-08-16T04:19:14.000Z",
+      "checksum": "5ee526f0e3c7569f65501def1354ef9c",
+      "folder": false
+    }
+  ]
+}

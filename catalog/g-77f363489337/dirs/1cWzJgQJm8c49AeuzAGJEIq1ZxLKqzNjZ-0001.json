@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cWzJgQJm8c49AeuzAGJEIq1ZxLKqzNjZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-p5o2W_foA0Xa9FWGK6IaDyrtyKFS9M8",
+      "parent_id": "1cWzJgQJm8c49AeuzAGJEIq1ZxLKqzNjZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3266,
+      "modified": "2026-08-15T06:22:29.000Z",
+      "checksum": "e33cfd25d04a4bc1cf7e5d6948a52609",
+      "folder": false
+    },
+    {
+      "id": "13qxcoy-reawBxHi_KGYvJGIUoEndAYc3",
+      "parent_id": "1cWzJgQJm8c49AeuzAGJEIq1ZxLKqzNjZ",
+      "name": "SAO CÒN MÃI ĐỘC.epub",
+      "mime": "application/epub+zip",
+      "size": 569717,
+      "modified": "2026-08-15T06:23:36.000Z",
+      "checksum": "490cfbb8cfc150e1004b17c7cb9d95ed",
+      "folder": false
+    },
+    {
+      "id": "1gQGfeZ8wbyBQYiJt0z_QBzp7wUQbn_kA",
+      "parent_id": "1cWzJgQJm8c49AeuzAGJEIq1ZxLKqzNjZ",
+      "name": "SAO CÒN MÃI ĐỘC.pdf",
+      "mime": "application/pdf",
+      "size": 2235361,
+      "modified": "2026-08-15T06:23:20.000Z",
+      "checksum": "c8f29da7803c793ba4416b65017d9c12",
+      "folder": false
+    }
+  ]
+}

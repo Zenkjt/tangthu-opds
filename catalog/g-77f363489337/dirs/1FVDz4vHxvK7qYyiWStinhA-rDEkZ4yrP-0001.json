@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FVDz4vHxvK7qYyiWStinhA-rDEkZ4yrP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hKnGSouBwvU5iulwyedgoRQgM-Tv4qEv",
+      "parent_id": "1FVDz4vHxvK7qYyiWStinhA-rDEkZ4yrP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3309,
+      "modified": "2026-08-16T03:58:28.000Z",
+      "checksum": "dc556c35f10280c1d873bbae25cf583a",
+      "folder": false
+    },
+    {
+      "id": "1CzYZbK38jc-ZDliASHYEuJDG6TeKYoQr",
+      "parent_id": "1FVDz4vHxvK7qYyiWStinhA-rDEkZ4yrP",
+      "name": "THÊ TỬ LÀ CHÓ TA NUÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 717181,
+      "modified": "2026-08-16T03:58:36.000Z",
+      "checksum": "55003c631e1f52ca1a364d4887e08f1d",
+      "folder": false
+    },
+    {
+      "id": "1Up0DAeQBqbJxJ5owFwC-EQHjcZhpZrZd",
+      "parent_id": "1FVDz4vHxvK7qYyiWStinhA-rDEkZ4yrP",
+      "name": "THÊ TỬ LÀ CHÓ TA NUÔI.pdf",
+      "mime": "application/pdf",
+      "size": 2032553,
+      "modified": "2026-08-16T03:58:33.000Z",
+      "checksum": "0250ab0041c9c9133ee908ac1b8ed81d",
+      "folder": false
+    }
+  ]
+}

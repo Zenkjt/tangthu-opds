@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OdntHnmnzjbq3bl5EbpAseEraYbdIPF5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pBwWqtjUny9MbSdsAo8mLYePfb06tGA0",
+      "parent_id": "1OdntHnmnzjbq3bl5EbpAseEraYbdIPF5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3309,
+      "modified": "2026-08-16T04:14:26.000Z",
+      "checksum": "ee545dcba107c15195e2fbbf59efc316",
+      "folder": false
+    },
+    {
+      "id": "14PuXGIlUmgBN-lzy9Kiq801w4ZwwynxY",
+      "parent_id": "1OdntHnmnzjbq3bl5EbpAseEraYbdIPF5",
+      "name": "NGỬA MẶT.epub",
+      "mime": "application/epub+zip",
+      "size": 396310,
+      "modified": "2026-08-16T04:14:33.000Z",
+      "checksum": "371ee8facae4044cb7ec9eb5adcdf4f1",
+      "folder": false
+    },
+    {
+      "id": "10mvQA3USXMI0UcgKnhU_FTPs2k4ePUqO",
+      "parent_id": "1OdntHnmnzjbq3bl5EbpAseEraYbdIPF5",
+      "name": "NGỬA MẶT.pdf",
+      "mime": "application/pdf",
+      "size": 706491,
+      "modified": "2026-08-16T04:14:30.000Z",
+      "checksum": "993315bdb3857f04982372601a44674e",
+      "folder": false
+    }
+  ]
+}

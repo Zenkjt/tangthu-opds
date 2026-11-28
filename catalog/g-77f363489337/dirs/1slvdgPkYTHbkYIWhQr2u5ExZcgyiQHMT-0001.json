@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1slvdgPkYTHbkYIWhQr2u5ExZcgyiQHMT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1c58qNAPn_r3sloSCPqotEWuX0CDtRIfB",
+      "parent_id": "1slvdgPkYTHbkYIWhQr2u5ExZcgyiQHMT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2432,
+      "modified": "2026-08-15T12:32:25.000Z",
+      "checksum": "4ef04611c8899c57b60caf6e67a00e03",
+      "folder": false
+    },
+    {
+      "id": "1rmrBcm8NGj4xg9MDmqtj3LUc_i2TFclR",
+      "parent_id": "1slvdgPkYTHbkYIWhQr2u5ExZcgyiQHMT",
+      "name": "THUYỀN TRƯỞNG TUỔI 15.epub",
+      "mime": "application/epub+zip",
+      "size": 589922,
+      "modified": "2026-08-15T12:32:32.000Z",
+      "checksum": "a8b0c72e2da33ab093a400c6c2f7e6bc",
+      "folder": false
+    },
+    {
+      "id": "16ghsxRYUBQEJmYO2Sob9L4DvSYTqGEmJ",
+      "parent_id": "1slvdgPkYTHbkYIWhQr2u5ExZcgyiQHMT",
+      "name": "THUYỀN TRƯỞNG TUỔI 15.pdf",
+      "mime": "application/pdf",
+      "size": 708608,
+      "modified": "2026-08-15T12:32:30.000Z",
+      "checksum": "66d056f2ce61510ba6cf9478906298cb",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VFt75Q5X1916BY4DSOjGTBNHrKDn8z8A",
+  "page": 1,
+  "items": [
+    {
+      "id": "1x3zpn3jPAKYB85op0N2rXWcU9GTk55Cp",
+      "parent_id": "1VFt75Q5X1916BY4DSOjGTBNHrKDn8z8A",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 545,
+      "modified": "2026-08-16T04:02:59.000Z",
+      "checksum": "4dcd4c11cd9e99826e58e427d7bc3f9d",
+      "folder": false
+    },
+    {
+      "id": "1F5TZB7PR0Vu3QFRu31pAFi01lerLaIM2",
+      "parent_id": "1VFt75Q5X1916BY4DSOjGTBNHrKDn8z8A",
+      "name": "SÔNG XA.epub",
+      "mime": "application/epub+zip",
+      "size": 541179,
+      "modified": "2026-08-16T04:03:06.000Z",
+      "checksum": "bcb77995d4e372997005b9bc04ce0412",
+      "folder": false
+    },
+    {
+      "id": "1-NhF-rvq_lhPwafn9dYuV8PPqgzXWWeT",
+      "parent_id": "1VFt75Q5X1916BY4DSOjGTBNHrKDn8z8A",
+      "name": "SÔNG XA.pdf",
+      "mime": "application/pdf",
+      "size": 1324408,
+      "modified": "2026-08-16T04:03:04.000Z",
+      "checksum": "64e7d9cb5f4259445d06962480cb53d8",
+      "folder": false
+    }
+  ]
+}

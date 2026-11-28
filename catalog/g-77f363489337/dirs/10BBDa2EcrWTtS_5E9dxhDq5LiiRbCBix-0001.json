@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10BBDa2EcrWTtS_5E9dxhDq5LiiRbCBix",
+  "page": 1,
+  "items": [
+    {
+      "id": "1M75kynUzpxJZmI95QVgkhM_HIf2jW7Rq",
+      "parent_id": "10BBDa2EcrWTtS_5E9dxhDq5LiiRbCBix",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1384,
+      "modified": "2026-08-16T03:41:00.000Z",
+      "checksum": "a5b9597ccb8300f88a48de9dfe09cb1b",
+      "folder": false
+    },
+    {
+      "id": "1DP3w1F5MZIEuBhmkd_CrYHHxLKDfknO-",
+      "parent_id": "10BBDa2EcrWTtS_5E9dxhDq5LiiRbCBix",
+      "name": "HÀNH VÂN CÔNG TỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 723533,
+      "modified": "2026-08-16T03:41:38.000Z",
+      "checksum": "d45e8459ef00b42a48d54424026f32dc",
+      "folder": false
+    },
+    {
+      "id": "15-uIsK7HEeYvTv5UMdCtYTkziPud6waW",
+      "parent_id": "10BBDa2EcrWTtS_5E9dxhDq5LiiRbCBix",
+      "name": "HÀNH VÂN CÔNG TỬ.pdf",
+      "mime": "application/pdf",
+      "size": 602662,
+      "modified": "2026-08-16T03:41:35.000Z",
+      "checksum": "d4072b562b1ccf8c7e0e7dbbe5370cb3",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10_xhM3Rg-RtQS8MKNudI_yDCZ86lktdH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qhzWmv7EsU7UghCNwtQR8DN067zrNCAe",
+      "parent_id": "10_xhM3Rg-RtQS8MKNudI_yDCZ86lktdH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 586,
+      "modified": "2026-08-15T10:06:10.000Z",
+      "checksum": "1a53af4ab171eb78760395d64f390943",
+      "folder": false
+    },
+    {
+      "id": "1-Jt2qU9mQ1NZQJEVPB7aIg1DOR-r_zyu",
+      "parent_id": "10_xhM3Rg-RtQS8MKNudI_yDCZ86lktdH",
+      "name": "TỨ QUÝ CẨM.epub",
+      "mime": "application/epub+zip",
+      "size": 2433527,
+      "modified": "2026-08-15T10:06:26.000Z",
+      "checksum": "8274da87dc0ad2003295ff900010b27b",
+      "folder": false
+    },
+    {
+      "id": "1jQjDlSnT5NtPwlDCHAPwq6O4LDkfGk0e",
+      "parent_id": "10_xhM3Rg-RtQS8MKNudI_yDCZ86lktdH",
+      "name": "TỨ QUÝ CẨM.pdf",
+      "mime": "application/pdf",
+      "size": 7541144,
+      "modified": "2026-08-15T10:06:22.000Z",
+      "checksum": "642160e6302f5888d23cad7fde45633d",
+      "folder": false
+    }
+  ]
+}

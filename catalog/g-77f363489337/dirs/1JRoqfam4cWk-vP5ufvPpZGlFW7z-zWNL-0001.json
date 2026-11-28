@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JRoqfam4cWk-vP5ufvPpZGlFW7z-zWNL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BYsPcv18W9Zi_nO-8ofcpG-WYy5qQ_fs",
+      "parent_id": "1JRoqfam4cWk-vP5ufvPpZGlFW7z-zWNL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3265,
+      "modified": "2026-08-16T04:05:44.000Z",
+      "checksum": "aa5eaaa76e1be0ecc53338837a094f01",
+      "folder": false
+    },
+    {
+      "id": "1BpYSR6GKIjksJAg1q6Hu7UzqKsd3Devl",
+      "parent_id": "1JRoqfam4cWk-vP5ufvPpZGlFW7z-zWNL",
+      "name": "PHƯỢNG VŨ CHIẾN CA.epub",
+      "mime": "application/epub+zip",
+      "size": 3328118,
+      "modified": "2026-08-16T04:05:56.000Z",
+      "checksum": "77de11ebcd91882a4794107d0cf2e2bc",
+      "folder": false
+    },
+    {
+      "id": "1TXpUReoZez1nLVVM28gm3sz3as1vtzVd",
+      "parent_id": "1JRoqfam4cWk-vP5ufvPpZGlFW7z-zWNL",
+      "name": "PHƯỢNG VŨ CHIẾN CA.pdf",
+      "mime": "application/pdf",
+      "size": 3356617,
+      "modified": "2026-08-16T04:05:52.000Z",
+      "checksum": "3bfb97d65d8e30510310601edcb2bf17",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1adjZlG6CnmKs5ivktS0VoVEu64lD0lZX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Bx6LDOcXKo8dihvcIHe43KmgkP9vzxkO",
+      "parent_id": "1adjZlG6CnmKs5ivktS0VoVEu64lD0lZX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3395,
+      "modified": "2026-08-15T10:37:49.000Z",
+      "checksum": "5e7c4c63491a7f60cb2ed6fbcaa21eac",
+      "folder": false
+    },
+    {
+      "id": "1SXZiSfCwLhO-VsqSoi-0vw5bm-8BALdG",
+      "parent_id": "1adjZlG6CnmKs5ivktS0VoVEu64lD0lZX",
+      "name": "NHỮNG CÔ NÀNG GUCCI.epub",
+      "mime": "application/epub+zip",
+      "size": 494647,
+      "modified": "2026-08-15T10:37:56.000Z",
+      "checksum": "edbed4ed5f0ffebe31d38ef1ec40d5a8",
+      "folder": false
+    },
+    {
+      "id": "1mad0vjBUKL3qhIUc3QzpRrNpVmjf8P1-",
+      "parent_id": "1adjZlG6CnmKs5ivktS0VoVEu64lD0lZX",
+      "name": "NHỮNG CÔ NÀNG GUCCI.pdf",
+      "mime": "application/pdf",
+      "size": 867351,
+      "modified": "2026-08-15T10:37:53.000Z",
+      "checksum": "94fe912a14038c739dc4396af489f918",
+      "folder": false
+    }
+  ]
+}

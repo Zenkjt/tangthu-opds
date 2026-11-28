@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ox9zTa-r4iJOTuIw9zKtB3DIEZx5xG9Q",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qfOc7PV_ZSBJaB5Ya8WkBVaDz0NJMhHC",
+      "parent_id": "1ox9zTa-r4iJOTuIw9zKtB3DIEZx5xG9Q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 415,
+      "modified": "2026-08-15T15:39:40.000Z",
+      "checksum": "013e9adfb866cc43eee01a4414075fe0",
+      "folder": false
+    },
+    {
+      "id": "10Fuz5mgwFp_vas6BaeW6TFITbD1x39_U",
+      "parent_id": "1ox9zTa-r4iJOTuIw9zKtB3DIEZx5xG9Q",
+      "name": "NGƯỜI VỆ TINH.epub",
+      "mime": "application/epub+zip",
+      "size": 459287,
+      "modified": "2026-08-15T15:39:46.000Z",
+      "checksum": "8aca1e02c527b7970f4a3dfde30cfb62",
+      "folder": false
+    },
+    {
+      "id": "15gXjKdEaLBk-T4G3bNOGPC4lLareLEJN",
+      "parent_id": "1ox9zTa-r4iJOTuIw9zKtB3DIEZx5xG9Q",
+      "name": "NGƯỜI VỆ TINH.pdf",
+      "mime": "application/pdf",
+      "size": 1138464,
+      "modified": "2026-08-15T15:39:44.000Z",
+      "checksum": "62e618310a728baa8684b59d3787d32d",
+      "folder": false
+    }
+  ]
+}

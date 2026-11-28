@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hVgCw95GzyZIpkJLYCbXGzP6E8FC85n8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1R6bVIeYDMzodn8JpDw9htoXAJrCKvb3k",
+      "parent_id": "1hVgCw95GzyZIpkJLYCbXGzP6E8FC85n8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 514,
+      "modified": "2026-08-15T06:19:10.000Z",
+      "checksum": "5005413b94153c53b8cdde77529beaf6",
+      "folder": false
+    },
+    {
+      "id": "1RjY-nIDih0LfHxyX-ganifutLm_FyCoy",
+      "parent_id": "1hVgCw95GzyZIpkJLYCbXGzP6E8FC85n8",
+      "name": "MẬT MÃ VĂN HÓA.epub",
+      "mime": "application/epub+zip",
+      "size": 410717,
+      "modified": "2026-08-15T06:19:18.000Z",
+      "checksum": "e2189cdd77fd6515237cc7634f8f93a1",
+      "folder": false
+    },
+    {
+      "id": "1y4OsZukaUQc6UEkHPuGT4m-InVpFBFyB",
+      "parent_id": "1hVgCw95GzyZIpkJLYCbXGzP6E8FC85n8",
+      "name": "MẬT MÃ VĂN HÓA.pdf",
+      "mime": "application/pdf",
+      "size": 965566,
+      "modified": "2026-08-15T06:19:15.000Z",
+      "checksum": "b9c8cb42a3669007709dfecf485b2a29",
+      "folder": false
+    }
+  ]
+}

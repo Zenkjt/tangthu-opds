@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WyLaJpgdkDAwnDAQYhQM70jSZlg3AWj5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WCQGbSs1-sQtibu6d1tdQfYtup5g8Lxc",
+      "parent_id": "1WyLaJpgdkDAwnDAQYhQM70jSZlg3AWj5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3176,
+      "modified": "2026-08-16T03:53:55.000Z",
+      "checksum": "84c1d02b92c1ab547af5c216c5789109",
+      "folder": false
+    },
+    {
+      "id": "1i07e_uWMNuRm5DTBdHdb5SUTIHXguCXW",
+      "parent_id": "1WyLaJpgdkDAwnDAQYhQM70jSZlg3AWj5",
+      "name": "TÌNH YÊU CẤM LOẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 1576206,
+      "modified": "2026-08-16T03:54:02.000Z",
+      "checksum": "c5cce0399d796c93dbb2257a69702cdb",
+      "folder": false
+    },
+    {
+      "id": "1ItJ3_2W3q-85vc1LRWGWNkmzvSDA3HxO",
+      "parent_id": "1WyLaJpgdkDAwnDAQYhQM70jSZlg3AWj5",
+      "name": "TÌNH YÊU CẤM LOẠN.pdf",
+      "mime": "application/pdf",
+      "size": 1760569,
+      "modified": "2026-08-16T03:53:59.000Z",
+      "checksum": "335df95e0b1cdd9e459586678a0f5132",
+      "folder": false
+    }
+  ]
+}

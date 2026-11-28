@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kVk2kCmVgl5fgDE2fi3RBrENYMtAiOdm",
+  "page": 1,
+  "items": [
+    {
+      "id": "126Wj-imiszD16OmVFAyzFgaCcpCkUFry",
+      "parent_id": "1kVk2kCmVgl5fgDE2fi3RBrENYMtAiOdm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2296,
+      "modified": "2026-08-15T07:39:55.000Z",
+      "checksum": "86af9c129081e48c4b7525516e79113c",
+      "folder": false
+    },
+    {
+      "id": "1dxJ_nYc_0UD-SpLCsSbljlcT2BaFY0bB",
+      "parent_id": "1kVk2kCmVgl5fgDE2fi3RBrENYMtAiOdm",
+      "name": "DẠ THOẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 342980,
+      "modified": "2026-08-15T07:40:01.000Z",
+      "checksum": "029ecb2de90c9872561d5e4b18406841",
+      "folder": false
+    },
+    {
+      "id": "1x-Y7C5VzkG7vys-eLeojRIVOw6sSrOyi",
+      "parent_id": "1kVk2kCmVgl5fgDE2fi3RBrENYMtAiOdm",
+      "name": "DẠ THOẠI.pdf",
+      "mime": "application/pdf",
+      "size": 1123870,
+      "modified": "2026-08-15T07:39:59.000Z",
+      "checksum": "7da0f07235fabec754d6b0c5b313d6a6",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hwUxNUWquEhRhzt117qruUrtx1l2gTKh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Al8jZSSFuN95Gj7XZrUEReyGAJJCBqFj",
+      "parent_id": "1hwUxNUWquEhRhzt117qruUrtx1l2gTKh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4013,
+      "modified": "2026-08-16T03:28:03.000Z",
+      "checksum": "fca7ac16d0f925ebd62f14af527b7ffe",
+      "folder": false
+    },
+    {
+      "id": "1pSFJ8_gfLHXU-q5o2VUnMOy0yPq1vUZP",
+      "parent_id": "1hwUxNUWquEhRhzt117qruUrtx1l2gTKh",
+      "name": "KHÁCH BỘ HÀNH THỜI GIAN.epub",
+      "mime": "application/epub+zip",
+      "size": 259048,
+      "modified": "2026-08-16T03:28:08.000Z",
+      "checksum": "96f6af1221ba89f1f2bf5b2aaffc1ad9",
+      "folder": false
+    },
+    {
+      "id": "1_i7dA4KBJsJzZzZVzeyRD2-Anr2taZcd",
+      "parent_id": "1hwUxNUWquEhRhzt117qruUrtx1l2gTKh",
+      "name": "KHÁCH BỘ HÀNH THỜI GIAN.pdf",
+      "mime": "application/pdf",
+      "size": 621864,
+      "modified": "2026-08-16T03:28:06.000Z",
+      "checksum": "d06c8d280c4b6dfeb25e40ba67e743a4",
+      "folder": false
+    }
+  ]
+}

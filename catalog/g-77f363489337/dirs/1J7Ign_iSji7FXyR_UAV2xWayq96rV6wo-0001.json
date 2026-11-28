@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1J7Ign_iSji7FXyR_UAV2xWayq96rV6wo",
+  "page": 1,
+  "items": [
+    {
+      "id": "19yT3iy2A-Q0GjwntV-hzFZd4OZ04BELO",
+      "parent_id": "1J7Ign_iSji7FXyR_UAV2xWayq96rV6wo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4295,
+      "modified": "2026-08-15T08:17:44.000Z",
+      "checksum": "11f82db1d4d0df13fe9db2824d9e4b68",
+      "folder": false
+    },
+    {
+      "id": "1lao3ENVGqDRjDKfGlG74lMlbFTjH_Kok",
+      "parent_id": "1J7Ign_iSji7FXyR_UAV2xWayq96rV6wo",
+      "name": "GIỚI NỮ - TẬP 2.epub",
+      "mime": "application/epub+zip",
+      "size": 623757,
+      "modified": "2026-08-15T08:17:52.000Z",
+      "checksum": "b423b6fd8b785d1e2a8ccd61dfc91f30",
+      "folder": false
+    },
+    {
+      "id": "1EFdoosNWL-IniruykoHvN-O-t2XI7qkh",
+      "parent_id": "1J7Ign_iSji7FXyR_UAV2xWayq96rV6wo",
+      "name": "GIỚI NỮ - TẬP 2.pdf",
+      "mime": "application/pdf",
+      "size": 3322987,
+      "modified": "2026-08-15T08:17:50.000Z",
+      "checksum": "128917ea53732444bddda5e7bbbc8768",
+      "folder": false
+    }
+  ]
+}

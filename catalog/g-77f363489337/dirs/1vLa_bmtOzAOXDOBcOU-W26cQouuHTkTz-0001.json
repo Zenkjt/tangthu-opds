@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vLa_bmtOzAOXDOBcOU-W26cQouuHTkTz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sHJQ6scMF0m06BvyRi6qtP2wy82PwTb5",
+      "parent_id": "1vLa_bmtOzAOXDOBcOU-W26cQouuHTkTz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12807,
+      "modified": "2026-08-15T07:34:42.000Z",
+      "checksum": "08b13af1db08ffa29334463e85cce12b",
+      "folder": false
+    },
+    {
+      "id": "1sIb6893qnwFmfgkDpo5flWuZAYVJO8kW",
+      "parent_id": "1vLa_bmtOzAOXDOBcOU-W26cQouuHTkTz",
+      "name": "LỄ CƯỚI LÚC BÌNH MINH.epub",
+      "mime": "application/epub+zip",
+      "size": 449959,
+      "modified": "2026-08-15T07:34:48.000Z",
+      "checksum": "6c4b1a96b1c2122b7043411aa3d9ab86",
+      "folder": false
+    },
+    {
+      "id": "13k4Ax1OV2Je0Dq865crRjGrFVi6auxax",
+      "parent_id": "1vLa_bmtOzAOXDOBcOU-W26cQouuHTkTz",
+      "name": "LỄ CƯỚI LÚC BÌNH MINH.pdf",
+      "mime": "application/pdf",
+      "size": 1203040,
+      "modified": "2026-08-15T07:34:46.000Z",
+      "checksum": "796326075ae1bccc0cb418dec07e85b3",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vHso56Buu0PberYqsmRf8QBL8S50xMxo",
+  "page": 1,
+  "items": [
+    {
+      "id": "18rsAcbz8SIsjuwncwiYBKGCYPZ7gU7Z1",
+      "parent_id": "1vHso56Buu0PberYqsmRf8QBL8S50xMxo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3630,
+      "modified": "2026-08-15T08:19:44.000Z",
+      "checksum": "046d82c57f7f938c3a32a646e6333548",
+      "folder": false
+    },
+    {
+      "id": "1nOyNdzOqELttMZa3Ed_DwkgZTzYCKk7q",
+      "parent_id": "1vHso56Buu0PberYqsmRf8QBL8S50xMxo",
+      "name": "ĐỪNG KHÁCH SÁO, ANH YÊU EM.epub",
+      "mime": "application/epub+zip",
+      "size": 467138,
+      "modified": "2026-08-15T08:19:51.000Z",
+      "checksum": "8e870f2b260bb26cab4fccebfa53db60",
+      "folder": false
+    },
+    {
+      "id": "1b8riTVgL3nySVAlqv5pDA_hfhpHozX-E",
+      "parent_id": "1vHso56Buu0PberYqsmRf8QBL8S50xMxo",
+      "name": "ĐỪNG KHÁCH SÁO, ANH YÊU EM.pdf",
+      "mime": "application/pdf",
+      "size": 963045,
+      "modified": "2026-08-15T08:19:48.000Z",
+      "checksum": "36599c7f1e822ed00bf2bd2d0f5c258b",
+      "folder": false
+    }
+  ]
+}

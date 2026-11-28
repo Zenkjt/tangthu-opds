@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "194sKAGnD-R2D8VKwsRGxS9H0iOsuWveQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ewf8xfWupgm6zMrj5Xw6sphcteG4OcK1",
+      "parent_id": "194sKAGnD-R2D8VKwsRGxS9H0iOsuWveQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6118,
+      "modified": "2026-08-16T03:34:37.000Z",
+      "checksum": "3aad507d3a12445fbe2617b5ccba5041",
+      "folder": false
+    },
+    {
+      "id": "1DfDeGX8yG0IZURWEkFXbfXc1x9IVXDHE",
+      "parent_id": "194sKAGnD-R2D8VKwsRGxS9H0iOsuWveQ",
+      "name": "HỒI KÝ PHẠM DUY.epub",
+      "mime": "application/epub+zip",
+      "size": 1671587,
+      "modified": "2026-08-16T03:34:48.000Z",
+      "checksum": "fbc4d8301e9329c011248656e40b0b81",
+      "folder": false
+    },
+    {
+      "id": "1l3FtwANQR6WmAmQ9rMx0Ge1KyEjS55aF",
+      "parent_id": "194sKAGnD-R2D8VKwsRGxS9H0iOsuWveQ",
+      "name": "HỒI KÝ PHẠM DUY.pdf",
+      "mime": "application/pdf",
+      "size": 4194258,
+      "modified": "2026-08-16T03:34:45.000Z",
+      "checksum": "81776d48ced2636eea3b112f4b8e1320",
+      "folder": false
+    }
+  ]
+}

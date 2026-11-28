@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19C6yxFUZEjg-oLoFfjkCa1pLIXSR0qmK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dBpPfpQD680wrzOrTJk9DpCkdYJPLpLV",
+      "parent_id": "19C6yxFUZEjg-oLoFfjkCa1pLIXSR0qmK",
+      "name": "AXYA.epub",
+      "mime": "application/epub+zip",
+      "size": 293924,
+      "modified": "2026-08-16T03:48:13.000Z",
+      "checksum": "6e96cbd0e30b57d1c58a4232f82468ac",
+      "folder": false
+    },
+    {
+      "id": "1hX_8pS4jWZzyAj5caYSVTMrL1YiCGYbq",
+      "parent_id": "19C6yxFUZEjg-oLoFfjkCa1pLIXSR0qmK",
+      "name": "AXYA.pdf",
+      "mime": "application/pdf",
+      "size": 660849,
+      "modified": "2026-08-16T03:48:11.000Z",
+      "checksum": "46fc36e51be23f5c90fb3d27600b1c1d",
+      "folder": false
+    },
+    {
+      "id": "1vhCLNUo9JNRG3CYBYICcFDgpIxKwEvdl",
+      "parent_id": "19C6yxFUZEjg-oLoFfjkCa1pLIXSR0qmK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9420,
+      "modified": "2026-08-16T03:48:08.000Z",
+      "checksum": "d73d5247e7bc7140363744936d7de081",
+      "folder": false
+    }
+  ]
+}

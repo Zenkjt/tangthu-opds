@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18dhx_o8LJkBDrHeMQLeMJH7XUAjzvNC0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mRDtt8tsysAl7HDQnJ5FhBIJ7Lf2_t8d",
+      "parent_id": "18dhx_o8LJkBDrHeMQLeMJH7XUAjzvNC0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3156,
+      "modified": "2026-08-15T10:17:22.000Z",
+      "checksum": "3c0886e597cc3a142f96bbd48b9439a3",
+      "folder": false
+    },
+    {
+      "id": "1974SQnQHgcPgDNF62fQFwCFY8II2jZFq",
+      "parent_id": "18dhx_o8LJkBDrHeMQLeMJH7XUAjzvNC0",
+      "name": "THẦN Y NGỐC PHI.epub",
+      "mime": "application/epub+zip",
+      "size": 5046428,
+      "modified": "2026-08-15T10:17:46.000Z",
+      "checksum": "f500ba207075a7e4924136a4ec61093d",
+      "folder": false
+    },
+    {
+      "id": "1PNHAj8TBlZe2byQ8ARH07iEaAFM352Ki",
+      "parent_id": "18dhx_o8LJkBDrHeMQLeMJH7XUAjzvNC0",
+      "name": "THẦN Y NGỐC PHI.pdf",
+      "mime": "application/pdf",
+      "size": 6290215,
+      "modified": "2026-08-15T10:17:37.000Z",
+      "checksum": "cc6a5fbc41fedd263e6f23279f78c2ea",
+      "folder": false
+    }
+  ]
+}

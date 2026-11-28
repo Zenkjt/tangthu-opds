@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bhK_SXHtXnmp11IRo-eIwhP_kKh3yh3A",
+  "page": 1,
+  "items": [
+    {
+      "id": "1d1FH0UKq1DFPhcoaLMqJ1cAnNFORnW87",
+      "parent_id": "1bhK_SXHtXnmp11IRo-eIwhP_kKh3yh3A",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 557,
+      "modified": "2026-08-16T04:18:15.000Z",
+      "checksum": "e1efdd4b740ee134b366153be29bc85c",
+      "folder": false
+    },
+    {
+      "id": "1EodVXDn1DYWpBmGkPFawZ5JaP10ldjnD",
+      "parent_id": "1bhK_SXHtXnmp11IRo-eIwhP_kKh3yh3A",
+      "name": "MÃ TÓC XOĂN.epub",
+      "mime": "application/epub+zip",
+      "size": 516940,
+      "modified": "2026-08-16T04:18:21.000Z",
+      "checksum": "8ab6f9278779d76905dd07b26cb67c43",
+      "folder": false
+    },
+    {
+      "id": "1amCThUhlMLAedMNndZPY3K0ssaPE7fxS",
+      "parent_id": "1bhK_SXHtXnmp11IRo-eIwhP_kKh3yh3A",
+      "name": "MÃ TÓC XOĂN.pdf",
+      "mime": "application/pdf",
+      "size": 690542,
+      "modified": "2026-08-16T04:18:18.000Z",
+      "checksum": "a6af5eb1100ef57a996553a7f7e57cb4",
+      "folder": false
+    }
+  ]
+}

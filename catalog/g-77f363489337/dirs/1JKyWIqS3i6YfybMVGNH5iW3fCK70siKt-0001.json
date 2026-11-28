@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JKyWIqS3i6YfybMVGNH5iW3fCK70siKt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ml9ao1ccPfdK0VJsOs1inMDcW4iE3Rms",
+      "parent_id": "1JKyWIqS3i6YfybMVGNH5iW3fCK70siKt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1588,
+      "modified": "2026-08-15T03:22:52.000Z",
+      "checksum": "7a3177bdfde7a8d4cdd9935f3b151cba",
+      "folder": false
+    },
+    {
+      "id": "1nq6gV2A6o_eNixF_8N1pBrBb3EdPdYpL",
+      "parent_id": "1JKyWIqS3i6YfybMVGNH5iW3fCK70siKt",
+      "name": "PHỤ NỮ YÊU NHƯ THẾ NÀO.epub",
+      "mime": "application/epub+zip",
+      "size": 560860,
+      "modified": "2026-08-15T03:23:02.000Z",
+      "checksum": "9dfe14d89d36c465d62b9b869d32c901",
+      "folder": false
+    },
+    {
+      "id": "1fBHXRJZTXVcQRUqAATLVnRX2k0JrL3FZ",
+      "parent_id": "1JKyWIqS3i6YfybMVGNH5iW3fCK70siKt",
+      "name": "PHỤ NỮ YÊU NHƯ THẾ NÀO.pdf",
+      "mime": "application/pdf",
+      "size": 1162051,
+      "modified": "2026-08-15T03:23:00.000Z",
+      "checksum": "5e1f331669f9f838e543f7cd25fda7c9",
+      "folder": false
+    }
+  ]
+}

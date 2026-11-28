@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mDG2-0OjiQHvxhVho7J3yXtj8MY22j_9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HfUevi_o2IwLm4O6xgUUaIulGclhwqdD",
+      "parent_id": "1mDG2-0OjiQHvxhVho7J3yXtj8MY22j_9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3373,
+      "modified": "2026-08-15T10:28:31.000Z",
+      "checksum": "7e3ed75e36277fe48e5dd9f520521047",
+      "folder": false
+    },
+    {
+      "id": "192K0hEEH4CNYMMZHWfp_EcbrDhW8-XQ5",
+      "parent_id": "1mDG2-0OjiQHvxhVho7J3yXtj8MY22j_9",
+      "name": "SẤM ĐÃNG GIANG HỒ.epub",
+      "mime": "application/epub+zip",
+      "size": 736832,
+      "modified": "2026-08-15T10:28:40.000Z",
+      "checksum": "30a7e29495d9a3c1fd826991c3e7290a",
+      "folder": false
+    },
+    {
+      "id": "1mcgrusZpeVx7xM50NzMW4tffOtLCsmer",
+      "parent_id": "1mDG2-0OjiQHvxhVho7J3yXtj8MY22j_9",
+      "name": "SẤM ĐÃNG GIANG HỒ.pdf",
+      "mime": "application/pdf",
+      "size": 734936,
+      "modified": "2026-08-15T10:28:36.000Z",
+      "checksum": "c0c79a432740468f07a68e65518b4dcf",
+      "folder": false
+    }
+  ]
+}

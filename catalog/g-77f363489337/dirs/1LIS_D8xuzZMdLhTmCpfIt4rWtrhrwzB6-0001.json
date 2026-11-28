@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LIS_D8xuzZMdLhTmCpfIt4rWtrhrwzB6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zDuCRkiIK84Jru-xa3pWGIM8CfD8nE7s",
+      "parent_id": "1LIS_D8xuzZMdLhTmCpfIt4rWtrhrwzB6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3159,
+      "modified": "2026-08-16T04:02:32.000Z",
+      "checksum": "4a3fe06aac8179e81fd27841b5917f88",
+      "folder": false
+    },
+    {
+      "id": "15RenGKke7bLEScgUId14B__OhWAqwUxC",
+      "parent_id": "1LIS_D8xuzZMdLhTmCpfIt4rWtrhrwzB6",
+      "name": "SỰ TRỖI DẬY CỦA ĐẠI TỘC.epub",
+      "mime": "application/epub+zip",
+      "size": 503726,
+      "modified": "2026-08-16T04:02:40.000Z",
+      "checksum": "01bde584c69916926d758c2a8b710c44",
+      "folder": false
+    },
+    {
+      "id": "1VErd-j2eIFYzt6RCDwsRqj8jUy3wtQeW",
+      "parent_id": "1LIS_D8xuzZMdLhTmCpfIt4rWtrhrwzB6",
+      "name": "SỰ TRỖI DẬY CỦA ĐẠI TỘC.pdf",
+      "mime": "application/pdf",
+      "size": 998522,
+      "modified": "2026-08-16T04:02:37.000Z",
+      "checksum": "dbc7d5f51571a9a9531fa7925eaad978",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cneDjMfcP0vnQ-SymTT_Op3R59kO0Pgr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ERb4BHQCMV3KdP8arLBdt3NDkpjr4H3m",
+      "parent_id": "1cneDjMfcP0vnQ-SymTT_Op3R59kO0Pgr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3021,
+      "modified": "2026-08-15T10:18:14.000Z",
+      "checksum": "2b7876d0f96c526e8b305bfa60ac7391",
+      "folder": false
+    },
+    {
+      "id": "1vJR_tsqakeYvAqYrQWpPL4KRpD7gNl75",
+      "parent_id": "1cneDjMfcP0vnQ-SymTT_Op3R59kO0Pgr",
+      "name": "THÁM TỬ FREDDY.epub",
+      "mime": "application/epub+zip",
+      "size": 951315,
+      "modified": "2026-08-15T10:18:27.000Z",
+      "checksum": "9410c339bd82f8d0d0724610b5b44ceb",
+      "folder": false
+    },
+    {
+      "id": "101bxhVb_e6Ntl92nHnMFpGdBDfNSZvAQ",
+      "parent_id": "1cneDjMfcP0vnQ-SymTT_Op3R59kO0Pgr",
+      "name": "THÁM TỬ FREDDY.pdf",
+      "mime": "application/pdf",
+      "size": 1132724,
+      "modified": "2026-08-15T10:18:21.000Z",
+      "checksum": "eafb1ca5a502a0ea9ae0a35d4d3b5000",
+      "folder": false
+    }
+  ]
+}

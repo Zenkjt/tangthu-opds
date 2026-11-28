@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Hp3pJurGS0R-s2cY1BGTybZaMNZDiUBy",
+  "page": 1,
+  "items": [
+    {
+      "id": "116eqFIFTEOKz6hc3hMpWWsdeH04YUZO8",
+      "parent_id": "1Hp3pJurGS0R-s2cY1BGTybZaMNZDiUBy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2043,
+      "modified": "2026-08-15T08:02:14.000Z",
+      "checksum": "d4dbf8d2badf83d54ff60fc22f602719",
+      "folder": false
+    },
+    {
+      "id": "1mS4OJWw_vfg8imV0XNXiKz7EBMp50PpB",
+      "parent_id": "1Hp3pJurGS0R-s2cY1BGTybZaMNZDiUBy",
+      "name": "GIẤC MỘNG SAU RÈM.epub",
+      "mime": "application/epub+zip",
+      "size": 384827,
+      "modified": "2026-08-15T08:02:19.000Z",
+      "checksum": "30da4c90bca6e8b2499a01b9a1238541",
+      "folder": false
+    },
+    {
+      "id": "1yV4HanWCDlj9tFusgglf3iQIyTR1Nr1b",
+      "parent_id": "1Hp3pJurGS0R-s2cY1BGTybZaMNZDiUBy",
+      "name": "GIẤC MỘNG SAU RÈM.pdf",
+      "mime": "application/pdf",
+      "size": 821590,
+      "modified": "2026-08-15T08:02:17.000Z",
+      "checksum": "daa87f2d3508bd9f6b9c15673236680e",
+      "folder": false
+    }
+  ]
+}

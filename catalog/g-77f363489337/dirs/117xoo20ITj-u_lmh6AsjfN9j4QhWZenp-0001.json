@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "117xoo20ITj-u_lmh6AsjfN9j4QhWZenp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xnY6ul6uTrMjLud_o43wRt5ZROmooV-r",
+      "parent_id": "117xoo20ITj-u_lmh6AsjfN9j4QhWZenp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 556,
+      "modified": "2026-08-15T10:17:48.000Z",
+      "checksum": "b3871186fb2eb587dd6edf0c0a837e39",
+      "folder": false
+    },
+    {
+      "id": "1AgRWmnJZWw9JRCryHLtNxWqqc7nQrAzz",
+      "parent_id": "117xoo20ITj-u_lmh6AsjfN9j4QhWZenp",
+      "name": "THẰN LẰN.epub",
+      "mime": "application/epub+zip",
+      "size": 329552,
+      "modified": "2026-08-15T10:17:54.000Z",
+      "checksum": "eed3d78522807251cc2bb71fe7dd4a3a",
+      "folder": false
+    },
+    {
+      "id": "1Ptbtnu035Iud5R1kkj1DFOaGByRu2Hz_",
+      "parent_id": "117xoo20ITj-u_lmh6AsjfN9j4QhWZenp",
+      "name": "THẰN LẰN.pdf",
+      "mime": "application/pdf",
+      "size": 504909,
+      "modified": "2026-08-15T10:17:52.000Z",
+      "checksum": "99ce53b6967158eb824e2cd9caa26e8e",
+      "folder": false
+    }
+  ]
+}

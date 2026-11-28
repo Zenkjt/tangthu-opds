@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10MZuDuX4wsVJFjMO4ITzDA0T8KcUlMco",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NHQWjuacKBijjxB4L7X4f7YqP9z5sbu_",
+      "parent_id": "10MZuDuX4wsVJFjMO4ITzDA0T8KcUlMco",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12916,
+      "modified": "2026-08-15T04:00:50.000Z",
+      "checksum": "83fefeb7d5dbebc9bc652a1e9d9a3fb9",
+      "folder": false
+    },
+    {
+      "id": "1zwGCnz-6K5fwF1Fgan8NiDyZ4WHb_NSQ",
+      "parent_id": "10MZuDuX4wsVJFjMO4ITzDA0T8KcUlMco",
+      "name": "MẬT MÃ DO THÁI.epub",
+      "mime": "application/epub+zip",
+      "size": 1329454,
+      "modified": "2026-08-15T04:00:59.000Z",
+      "checksum": "2886c124324e92f824b227e0c6e93c47",
+      "folder": false
+    },
+    {
+      "id": "1po0PueJQvF_nRvTY6zp2YGIie3JxIX2Z",
+      "parent_id": "10MZuDuX4wsVJFjMO4ITzDA0T8KcUlMco",
+      "name": "MẬT MÃ DO THÁI.pdf",
+      "mime": "application/pdf",
+      "size": 1697590,
+      "modified": "2026-08-15T04:00:56.000Z",
+      "checksum": "c6ac400c9e4775b3252d1792d5f25c77",
+      "folder": false
+    }
+  ]
+}

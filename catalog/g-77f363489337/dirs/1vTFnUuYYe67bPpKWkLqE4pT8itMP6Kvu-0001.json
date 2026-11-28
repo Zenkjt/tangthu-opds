@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vTFnUuYYe67bPpKWkLqE4pT8itMP6Kvu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ObwZUZP9_ya9B-RmEflEintNjpWSxM-S",
+      "parent_id": "1vTFnUuYYe67bPpKWkLqE4pT8itMP6Kvu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 608,
+      "modified": "2026-08-15T10:40:46.000Z",
+      "checksum": "b8bdc13f1c339098dd697d0f41186240",
+      "folder": false
+    },
+    {
+      "id": "1jy1fXNKq7xA1e-NRHnzpGhsJFPVVwRc-",
+      "parent_id": "1vTFnUuYYe67bPpKWkLqE4pT8itMP6Kvu",
+      "name": "NGUYỆT ẢNH, ẢNH HẢI.epub",
+      "mime": "application/epub+zip",
+      "size": 960028,
+      "modified": "2026-08-15T10:41:00.000Z",
+      "checksum": "568595a203de06763c1c2fb5f32d8c87",
+      "folder": false
+    },
+    {
+      "id": "1-zZ7-7riqQ2a9jCk3-jVlknBVeMyE5Dd",
+      "parent_id": "1vTFnUuYYe67bPpKWkLqE4pT8itMP6Kvu",
+      "name": "NGUYỆT ẢNH, ẢNH HẢI.pdf",
+      "mime": "application/pdf",
+      "size": 1537174,
+      "modified": "2026-08-15T10:40:55.000Z",
+      "checksum": "f01c56a73df950d407a62a70597bea64",
+      "folder": false
+    }
+  ]
+}

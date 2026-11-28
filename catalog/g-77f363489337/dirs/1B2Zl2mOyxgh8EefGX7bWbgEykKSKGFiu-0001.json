@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1B2Zl2mOyxgh8EefGX7bWbgEykKSKGFiu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bhwCw3Z7_PuX4XiLr7K-UMCF9Via9E3m",
+      "parent_id": "1B2Zl2mOyxgh8EefGX7bWbgEykKSKGFiu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3374,
+      "modified": "2026-08-16T04:05:25.000Z",
+      "checksum": "0141a42162eda1fd84f78016b0e40f6d",
+      "folder": false
+    },
+    {
+      "id": "1lKvljLXKMIVVkz_egztQgXG6G80JJjKt",
+      "parent_id": "1B2Zl2mOyxgh8EefGX7bWbgEykKSKGFiu",
+      "name": "QUAN HỆ BẤT CHÍNH.epub",
+      "mime": "application/epub+zip",
+      "size": 432917,
+      "modified": "2026-08-16T04:05:32.000Z",
+      "checksum": "2567e2634be78db9c04097d64cbd039c",
+      "folder": false
+    },
+    {
+      "id": "1fY7YFSdRVfls-Mh-Vt0xeZ4Q-Peh2V9I",
+      "parent_id": "1B2Zl2mOyxgh8EefGX7bWbgEykKSKGFiu",
+      "name": "QUAN HỆ BẤT CHÍNH.pdf",
+      "mime": "application/pdf",
+      "size": 873184,
+      "modified": "2026-08-16T04:05:29.000Z",
+      "checksum": "986fea6b34bbdc99f8490a91804327ff",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LNWchkKbMLnz2k2FB9B5uoPFdmOrOayE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fRFA1X4GeiqU1zqp6wa7kPDH6Lfdy1Uj",
+      "parent_id": "1LNWchkKbMLnz2k2FB9B5uoPFdmOrOayE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 13183,
+      "modified": "2026-08-15T12:31:04.000Z",
+      "checksum": "5f7565f8ea6ae164619c730a5ae92350",
+      "folder": false
+    },
+    {
+      "id": "1Z6cgLk0GB74ZNT1VNTRvIcztZfaBCHBa",
+      "parent_id": "1LNWchkKbMLnz2k2FB9B5uoPFdmOrOayE",
+      "name": "NHỮNG ĐỨA CON CỦA THUYỀN TRƯỞNG GRANT.epub",
+      "mime": "application/epub+zip",
+      "size": 625274,
+      "modified": "2026-08-15T12:31:19.000Z",
+      "checksum": "4f0b7f9f203f71109059f8ac0ce37bcc",
+      "folder": false
+    },
+    {
+      "id": "1LTqYyr7kk7nUwmiobghSh00qC5PtqyD0",
+      "parent_id": "1LNWchkKbMLnz2k2FB9B5uoPFdmOrOayE",
+      "name": "NHỮNG ĐỨA CON CỦA THUYỀN TRƯỞNG GRANT.pdf",
+      "mime": "application/pdf",
+      "size": 1045425,
+      "modified": "2026-08-15T12:31:13.000Z",
+      "checksum": "c481038ec0cb80cf5a539acaa91f638c",
+      "folder": false
+    }
+  ]
+}

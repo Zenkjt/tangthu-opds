@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d1wl4zRCAmdvGxeI_7aeczB37HaVtEJa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gLALK04EcxLjBkxUjUZY1mXN3EcHuGK3",
+      "parent_id": "1d1wl4zRCAmdvGxeI_7aeczB37HaVtEJa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3118,
+      "modified": "2026-08-15T06:23:55.000Z",
+      "checksum": "d42b22b6a6ef099c4fc4deab1d892073",
+      "folder": false
+    },
+    {
+      "id": "14Ll446r9FVlF2GzfcHKGUETjr-INx3RO",
+      "parent_id": "1d1wl4zRCAmdvGxeI_7aeczB37HaVtEJa",
+      "name": "NỖI LÒNG ĐỒ CHIỂU.epub",
+      "mime": "application/epub+zip",
+      "size": 334877,
+      "modified": "2026-08-15T06:24:03.000Z",
+      "checksum": "c8507a0a9d8998dc1e6e968317a32336",
+      "folder": false
+    },
+    {
+      "id": "1u47hpcPn7SBdeAN_3SuBL6KJz05UwDcj",
+      "parent_id": "1d1wl4zRCAmdvGxeI_7aeczB37HaVtEJa",
+      "name": "NỖI LÒNG ĐỒ CHIỂU.pdf",
+      "mime": "application/pdf",
+      "size": 393248,
+      "modified": "2026-08-15T06:23:59.000Z",
+      "checksum": "a61074242359ab1b8fec317fdb4c22b3",
+      "folder": false
+    }
+  ]
+}

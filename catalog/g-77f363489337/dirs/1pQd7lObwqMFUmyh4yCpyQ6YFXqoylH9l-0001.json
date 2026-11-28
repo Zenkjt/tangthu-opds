@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pQd7lObwqMFUmyh4yCpyQ6YFXqoylH9l",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S7xnw9UvOAmtPmnbVaqN6DYdkP0ha6n5",
+      "parent_id": "1pQd7lObwqMFUmyh4yCpyQ6YFXqoylH9l",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3363,
+      "modified": "2026-08-15T08:08:33.000Z",
+      "checksum": "b035139ce1bcca5a605531ec849e7566",
+      "folder": false
+    },
+    {
+      "id": "1e6aU7veFmofk_-g6fDx6a4UnQW4AzeBt",
+      "parent_id": "1pQd7lObwqMFUmyh4yCpyQ6YFXqoylH9l",
+      "name": "TIÊN LÔI CUỒN CUỘN ĐẾN.epub",
+      "mime": "application/epub+zip",
+      "size": 481516,
+      "modified": "2026-08-15T08:08:40.000Z",
+      "checksum": "9f1651f90c53738ac26c2e0b738c4c8d",
+      "folder": false
+    },
+    {
+      "id": "1YXdcoo_LZKSWpQn-2Wv4Zi85EGorurhV",
+      "parent_id": "1pQd7lObwqMFUmyh4yCpyQ6YFXqoylH9l",
+      "name": "TIÊN LÔI CUỒN CUỘN ĐẾN.pdf",
+      "mime": "application/pdf",
+      "size": 1264290,
+      "modified": "2026-08-15T08:08:37.000Z",
+      "checksum": "99c99fcf170d9ab9c55bb2c088148116",
+      "folder": false
+    }
+  ]
+}

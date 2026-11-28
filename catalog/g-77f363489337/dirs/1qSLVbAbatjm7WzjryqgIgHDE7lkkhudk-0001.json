@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qSLVbAbatjm7WzjryqgIgHDE7lkkhudk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GAaVDerbldcA8cNBfc_vD8DHiDBxeC7G",
+      "parent_id": "1qSLVbAbatjm7WzjryqgIgHDE7lkkhudk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1858,
+      "modified": "2026-08-15T03:20:55.000Z",
+      "checksum": "48311def6515a3a12d8fd4b298af88b5",
+      "folder": false
+    },
+    {
+      "id": "1uhmABC2Ee2_9iQ8x3iF6hCKvkgdJUBYE",
+      "parent_id": "1qSLVbAbatjm7WzjryqgIgHDE7lkkhudk",
+      "name": "PQ - CHỈ SỐ ĐAM MÊ.epub",
+      "mime": "application/epub+zip",
+      "size": 410811,
+      "modified": "2026-08-15T03:21:02.000Z",
+      "checksum": "77fb6284d9f6953e2ac5bea25bddd40e",
+      "folder": false
+    },
+    {
+      "id": "1oKZZ0wBH6E5Ub0JTRNZABnw3cEB9yzkM",
+      "parent_id": "1qSLVbAbatjm7WzjryqgIgHDE7lkkhudk",
+      "name": "PQ - CHỈ SỐ ĐAM MÊ.pdf",
+      "mime": "application/pdf",
+      "size": 1063184,
+      "modified": "2026-08-15T03:21:00.000Z",
+      "checksum": "fba92081e9f57cac99b5985582f07c5d",
+      "folder": false
+    }
+  ]
+}

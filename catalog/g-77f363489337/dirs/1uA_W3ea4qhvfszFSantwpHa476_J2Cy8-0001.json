@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uA_W3ea4qhvfszFSantwpHa476_J2Cy8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1M7fk664IOgYoLBFvYcA8-8ifjnRLilqv",
+      "parent_id": "1uA_W3ea4qhvfszFSantwpHa476_J2Cy8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3736,
+      "modified": "2026-08-15T11:31:34.000Z",
+      "checksum": "f1fc44f70bc8038b3b9fd55e35c488bc",
+      "folder": false
+    },
+    {
+      "id": "1v_6onwcmlv15odKTjb8iRKoEzowFYm1J",
+      "parent_id": "1uA_W3ea4qhvfszFSantwpHa476_J2Cy8",
+      "name": "TẬP SAN NGHIÊN CỨU VĂN SỬ ĐỊA.epub",
+      "mime": "application/epub+zip",
+      "size": 393527,
+      "modified": "2026-08-15T11:31:41.000Z",
+      "checksum": "7732fe547fc8904d36742bfcd0a4b713",
+      "folder": false
+    },
+    {
+      "id": "1G7acVIoOKBeb1j8KOel9NwV_Iojs4ulb",
+      "parent_id": "1uA_W3ea4qhvfszFSantwpHa476_J2Cy8",
+      "name": "TẬP SAN NGHIÊN CỨU VĂN SỬ ĐỊA.pdf",
+      "mime": "application/pdf",
+      "size": 748784,
+      "modified": "2026-08-15T11:31:38.000Z",
+      "checksum": "9a3d0bd841c185f7b4c6ad566f1ea136",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Vi710-ZjEah-JcCg45qFveq2gj0FYQow",
+  "page": 1,
+  "items": [
+    {
+      "id": "1i7ebcT5740LxbvQzOM-cgB74l7evBG11",
+      "parent_id": "1Vi710-ZjEah-JcCg45qFveq2gj0FYQow",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 17001,
+      "modified": "2026-08-15T03:56:20.000Z",
+      "checksum": "b81773441b45c74464beebed275c9f6d",
+      "folder": false
+    },
+    {
+      "id": "1RZ9uhp79AeSEvfoNDebxeejtE1lIJo6O",
+      "parent_id": "1Vi710-ZjEah-JcCg45qFveq2gj0FYQow",
+      "name": "TÌM HIỂU KINH HOA NGHIÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 319645,
+      "modified": "2026-08-15T03:56:26.000Z",
+      "checksum": "1d62a3bc1cd2d355081619780435a817",
+      "folder": false
+    },
+    {
+      "id": "1Drp0377LAbk8V5Qa0n_yPkQxT-D7eAv9",
+      "parent_id": "1Vi710-ZjEah-JcCg45qFveq2gj0FYQow",
+      "name": "TÌM HIỂU KINH HOA NGHIÊM.pdf",
+      "mime": "application/pdf",
+      "size": 543971,
+      "modified": "2026-08-15T03:56:24.000Z",
+      "checksum": "f8d99500893df12bb8e3b220056466a6",
+      "folder": false
+    }
+  ]
+}

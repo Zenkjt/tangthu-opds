@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1s32PMhN1IbPcUe4t1luiW_nlSDSibo_R",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qWdWILJ1o3qPiqKpcqDiKcrgzNKMNae1",
+      "parent_id": "1s32PMhN1IbPcUe4t1luiW_nlSDSibo_R",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3274,
+      "modified": "2026-08-16T04:02:47.000Z",
+      "checksum": "ef69b7fa44d1f13da03d51307117eeb8",
+      "folder": false
+    },
+    {
+      "id": "1S71nnrOMy3LzOJsJ7hZyLp9dMsQEPW8x",
+      "parent_id": "1s32PMhN1IbPcUe4t1luiW_nlSDSibo_R",
+      "name": "SỰ MAY RỦI CỦA TRÁI TIM.epub",
+      "mime": "application/epub+zip",
+      "size": 721393,
+      "modified": "2026-08-16T04:02:53.000Z",
+      "checksum": "fd564a0f2f48b5f570f8f95eba6897ae",
+      "folder": false
+    },
+    {
+      "id": "19ULUXpfxh227lt3qBf_AHapEJpcodLB7",
+      "parent_id": "1s32PMhN1IbPcUe4t1luiW_nlSDSibo_R",
+      "name": "SỰ MAY RỦI CỦA TRÁI TIM.pdf",
+      "mime": "application/pdf",
+      "size": 964970,
+      "modified": "2026-08-16T04:02:51.000Z",
+      "checksum": "2de984bcc33b59f24ae95d377f5f659f",
+      "folder": false
+    }
+  ]
+}

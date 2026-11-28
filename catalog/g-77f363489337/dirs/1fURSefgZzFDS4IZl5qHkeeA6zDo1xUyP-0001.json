@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fURSefgZzFDS4IZl5qHkeeA6zDo1xUyP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TakRAkzj9dqku98fZnPxZokNfPG1Y2zJ",
+      "parent_id": "1fURSefgZzFDS4IZl5qHkeeA6zDo1xUyP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 515,
+      "modified": "2026-08-15T10:58:16.000Z",
+      "checksum": "acbd2196dcf12480779662f0f120b36c",
+      "folder": false
+    },
+    {
+      "id": "1hOtJgHtUYLV2GbPm57S7Ae_EPOpMIaRe",
+      "parent_id": "1fURSefgZzFDS4IZl5qHkeeA6zDo1xUyP",
+      "name": "ĐỒNG LÀNG ĐOM ĐÓM.epub",
+      "mime": "application/epub+zip",
+      "size": 599052,
+      "modified": "2026-08-15T10:58:30.000Z",
+      "checksum": "b30a7abee331eefde4de8d2cf5f4e03d",
+      "folder": false
+    },
+    {
+      "id": "17aHAYfkHMJ8AyLfqma-x4m7JMFFLSdhB",
+      "parent_id": "1fURSefgZzFDS4IZl5qHkeeA6zDo1xUyP",
+      "name": "ĐỒNG LÀNG ĐOM ĐÓM.pdf",
+      "mime": "application/pdf",
+      "size": 1109900,
+      "modified": "2026-08-15T10:58:25.000Z",
+      "checksum": "774855a6b2df43ba68be2cf4433fe723",
+      "folder": false
+    }
+  ]
+}

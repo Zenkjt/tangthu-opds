@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TyQ_rfgZBEPi3EEO7Bv9lVpJgcjr2m2R",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-zHwyE8jJUtDr1QYX618kmW3wVVyvGY8",
+      "parent_id": "1TyQ_rfgZBEPi3EEO7Bv9lVpJgcjr2m2R",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3480,
+      "modified": "2026-08-15T03:53:44.000Z",
+      "checksum": "8ce071bcafd640eefab2dbd1963d01dc",
+      "folder": false
+    },
+    {
+      "id": "1bWSzs3tvdRS1BJo1gqRLYsWZ6yX2X1xx",
+      "parent_id": "1TyQ_rfgZBEPi3EEO7Bv9lVpJgcjr2m2R",
+      "name": "TÔI TIN.epub",
+      "mime": "application/epub+zip",
+      "size": 622103,
+      "modified": "2026-08-15T03:53:50.000Z",
+      "checksum": "0c21d2f78e6ac831b68f00ee704fedfb",
+      "folder": false
+    },
+    {
+      "id": "1hK77k9YXx_BxYCajba5vEP2gr-HRG_9R",
+      "parent_id": "1TyQ_rfgZBEPi3EEO7Bv9lVpJgcjr2m2R",
+      "name": "TÔI TIN.pdf",
+      "mime": "application/pdf",
+      "size": 1127286,
+      "modified": "2026-08-15T03:53:48.000Z",
+      "checksum": "801857c0665e98093d3fac0d707958f9",
+      "folder": false
+    }
+  ]
+}

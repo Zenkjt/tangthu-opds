@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hbpnA-beEU8236vwElQcHWtfL0TgIlGa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1muf6igum6a1nGyuMuzIoTZUJLpfEoWjk",
+      "parent_id": "1hbpnA-beEU8236vwElQcHWtfL0TgIlGa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 884,
+      "modified": "2026-08-15T09:23:05.000Z",
+      "checksum": "2b4b0a758c6c20d8e13c7dd3f0db9b17",
+      "folder": false
+    },
+    {
+      "id": "1keMl_Iy0vUPC7yi2FdjhEzvK7crvf-uJ",
+      "parent_id": "1hbpnA-beEU8236vwElQcHWtfL0TgIlGa",
+      "name": "ĐOẠT HỒN KỲ.epub",
+      "mime": "application/epub+zip",
+      "size": 1607096,
+      "modified": "2026-08-15T09:23:46.000Z",
+      "checksum": "37b9255fdaade34951d8e094a38a6f8c",
+      "folder": false
+    },
+    {
+      "id": "1vJNwtJpsSbTWeZmcbeL1cN8NBZOUAGnY",
+      "parent_id": "1hbpnA-beEU8236vwElQcHWtfL0TgIlGa",
+      "name": "ĐOẠT HỒN KỲ.pdf",
+      "mime": "application/pdf",
+      "size": 6220246,
+      "modified": "2026-08-15T09:23:38.000Z",
+      "checksum": "3a69713cbdf98cabbd82eb6c319b78ae",
+      "folder": false
+    }
+  ]
+}

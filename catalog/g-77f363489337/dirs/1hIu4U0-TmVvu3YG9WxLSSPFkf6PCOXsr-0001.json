@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hIu4U0-TmVvu3YG9WxLSSPFkf6PCOXsr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NiIrB8SllJgdgKt6adv3se5wf3qLnOGe",
+      "parent_id": "1hIu4U0-TmVvu3YG9WxLSSPFkf6PCOXsr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3275,
+      "modified": "2026-08-15T15:10:49.000Z",
+      "checksum": "00a65d745c09110da54eb719f1b9000b",
+      "folder": false
+    },
+    {
+      "id": "17MtmDrQ6Q1sRXKtjVze40fzqqeAlH-o2",
+      "parent_id": "1hIu4U0-TmVvu3YG9WxLSSPFkf6PCOXsr",
+      "name": "THÁNH TUYỀN TẦM TUNG.epub",
+      "mime": "application/epub+zip",
+      "size": 655383,
+      "modified": "2026-08-15T15:10:58.000Z",
+      "checksum": "df9df1b407b299730c1ce2d59b2ce2c7",
+      "folder": false
+    },
+    {
+      "id": "1XBsYrYuQazDz7cDRCg0nl452L3M8FwUK",
+      "parent_id": "1hIu4U0-TmVvu3YG9WxLSSPFkf6PCOXsr",
+      "name": "THÁNH TUYỀN TẦM TUNG.pdf",
+      "mime": "application/pdf",
+      "size": 1887613,
+      "modified": "2026-08-15T15:10:55.000Z",
+      "checksum": "bc350c2da8474faae185646ed4c05bfc",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hxXMcK3LSLnvRM1MwvUC2B5Gbxcv-5iB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Cp3rVvkI5yRvjutvncImn4wp7BAamWjc",
+      "parent_id": "1hxXMcK3LSLnvRM1MwvUC2B5Gbxcv-5iB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8954,
+      "modified": "2026-08-15T07:36:33.000Z",
+      "checksum": "f3774f3e4355cab8fa90f189658a51bb",
+      "folder": false
+    },
+    {
+      "id": "1uF1-uEdViB8UDM91EfgPuNlwMBWtndb_",
+      "parent_id": "1hxXMcK3LSLnvRM1MwvUC2B5Gbxcv-5iB",
+      "name": "HÔN MIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 929219,
+      "modified": "2026-08-15T07:36:41.000Z",
+      "checksum": "5e16ec042286af5f3ce64439f30d83e9",
+      "folder": false
+    },
+    {
+      "id": "1CcODAFvG0BYPX6fq_TvdZGyw7Odgpv1L",
+      "parent_id": "1hxXMcK3LSLnvRM1MwvUC2B5Gbxcv-5iB",
+      "name": "HÔN MIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 1251315,
+      "modified": "2026-08-15T07:36:38.000Z",
+      "checksum": "9a7c57b87c7c6dac70100086c7fcb758",
+      "folder": false
+    }
+  ]
+}

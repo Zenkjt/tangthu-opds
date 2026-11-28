@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19cxogFJhc8iXnqs1yUxibUj8m1b5GmfL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1d9evDm0tqKA3OA236BeJ01Qj1rKIz5IQ",
+      "parent_id": "19cxogFJhc8iXnqs1yUxibUj8m1b5GmfL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3295,
+      "modified": "2026-08-16T04:16:53.000Z",
+      "checksum": "cd9f2cddcd374eb7a146784c42905b55",
+      "folder": false
+    },
+    {
+      "id": "1W09pgb-vs0s6Nu1-tC9Oyx0jpGsv96qf",
+      "parent_id": "19cxogFJhc8iXnqs1yUxibUj8m1b5GmfL",
+      "name": "MƯỜI HAI CHIẾC GHẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 665663,
+      "modified": "2026-08-16T04:17:08.000Z",
+      "checksum": "057f78844be80929d0a81d05c162cc9b",
+      "folder": false
+    },
+    {
+      "id": "1YEQB1aetGDn77Y6EIde1nVzVz4Pmc9DY",
+      "parent_id": "19cxogFJhc8iXnqs1yUxibUj8m1b5GmfL",
+      "name": "MƯỜI HAI CHIẾC GHẾ.pdf",
+      "mime": "application/pdf",
+      "size": 1601043,
+      "modified": "2026-08-16T04:16:57.000Z",
+      "checksum": "78653575d5c5a020dbfcec02f0387239",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wjF6N3eE6x_1f1f2STis2dEKi2Abc09l",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LX_sqd1Gq21XAeM47snzbsxxyWesH_nV",
+      "parent_id": "1wjF6N3eE6x_1f1f2STis2dEKi2Abc09l",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3362,
+      "modified": "2026-08-15T07:30:21.000Z",
+      "checksum": "392cf7bfd166a144e9f2f1fbd262c365",
+      "folder": false
+    },
+    {
+      "id": "1fGKsHoppRgwinWOCHm7EuYv16vgx_HDH",
+      "parent_id": "1wjF6N3eE6x_1f1f2STis2dEKi2Abc09l",
+      "name": "VƯƠNG PHẢI TÌNH EM.epub",
+      "mime": "application/epub+zip",
+      "size": 405095,
+      "modified": "2026-08-15T07:30:38.000Z",
+      "checksum": "e40bbce91a640b7796f1e056322c0628",
+      "folder": false
+    },
+    {
+      "id": "1N6RhNhSUttwNdCfGu_Io19ex71mCxCow",
+      "parent_id": "1wjF6N3eE6x_1f1f2STis2dEKi2Abc09l",
+      "name": "VƯƠNG PHẢI TÌNH EM.pdf",
+      "mime": "application/pdf",
+      "size": 939964,
+      "modified": "2026-08-15T07:30:34.000Z",
+      "checksum": "6aece70561304cb62d27758cba274816",
+      "folder": false
+    }
+  ]
+}

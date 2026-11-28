@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hgQRtLNsyjG1WaZiQr_BSbhRtFB-Zk5x",
+  "page": 1,
+  "items": [
+    {
+      "id": "17Cedctq_x37uKzdluTJoh_Eb4AhpaVOF",
+      "parent_id": "1hgQRtLNsyjG1WaZiQr_BSbhRtFB-Zk5x",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3055,
+      "modified": "2026-08-16T02:42:34.000Z",
+      "checksum": "1044f45234f1f797d876dece324d11d9",
+      "folder": false
+    },
+    {
+      "id": "10rHxmDx3-HMXZ912MjxTYp1HUAHlXqPp",
+      "parent_id": "1hgQRtLNsyjG1WaZiQr_BSbhRtFB-Zk5x",
+      "name": "DUNE - XỨ CÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 1134592,
+      "modified": "2026-08-16T02:42:48.000Z",
+      "checksum": "3c7b062d9411fc8c6ece07f2fc434820",
+      "folder": false
+    },
+    {
+      "id": "1Gl763YJLb_RMuab_fHPbCDYaXZ9LNAKQ",
+      "parent_id": "1hgQRtLNsyjG1WaZiQr_BSbhRtFB-Zk5x",
+      "name": "DUNE - XỨ CÁT.pdf",
+      "mime": "application/pdf",
+      "size": 4505925,
+      "modified": "2026-08-16T02:42:46.000Z",
+      "checksum": "410b2ce7685290e2123c98270c261db6",
+      "folder": false
+    }
+  ]
+}

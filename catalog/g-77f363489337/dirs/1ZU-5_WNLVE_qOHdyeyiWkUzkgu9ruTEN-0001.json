@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZU-5_WNLVE_qOHdyeyiWkUzkgu9ruTEN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hv4NY7Skrnu3ZcJYfRIi1a8OIadRxnAu",
+      "parent_id": "1ZU-5_WNLVE_qOHdyeyiWkUzkgu9ruTEN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4714,
+      "modified": "2026-08-15T00:51:15.000Z",
+      "checksum": "60b8c37716f64d8a27d556e785189a61",
+      "folder": false
+    },
+    {
+      "id": "156QaF0NxeVB4qCsuhKwGLD-6Xbenu7O_",
+      "parent_id": "1ZU-5_WNLVE_qOHdyeyiWkUzkgu9ruTEN",
+      "name": "GIẢI PHÁP ĐỘT PHÁ.epub",
+      "mime": "application/epub+zip",
+      "size": 260660,
+      "modified": "2026-08-15T00:51:20.000Z",
+      "checksum": "d05d755b14942f09eeb4d9021fce20f4",
+      "folder": false
+    },
+    {
+      "id": "1KcdDHRgHsvN83uN3bSsVcOuxFyRf6dzE",
+      "parent_id": "1ZU-5_WNLVE_qOHdyeyiWkUzkgu9ruTEN",
+      "name": "GIẢI PHÁP ĐỘT PHÁ.pdf",
+      "mime": "application/pdf",
+      "size": 295179,
+      "modified": "2026-08-15T00:51:18.000Z",
+      "checksum": "198bb0c6bdd83a5d45a29bb373b65322",
+      "folder": false
+    }
+  ]
+}

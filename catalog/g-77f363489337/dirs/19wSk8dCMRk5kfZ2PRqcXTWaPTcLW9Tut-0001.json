@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19wSk8dCMRk5kfZ2PRqcXTWaPTcLW9Tut",
+  "page": 1,
+  "items": [
+    {
+      "id": "11PnQEsiT8w-SRvEBBun5_KWuidm_d-HP",
+      "parent_id": "19wSk8dCMRk5kfZ2PRqcXTWaPTcLW9Tut",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 396,
+      "modified": "2026-08-15T10:43:25.000Z",
+      "checksum": "b64741e707b849706fdc95107844adeb",
+      "folder": false
+    },
+    {
+      "id": "1-AEx5IiUOgQChg_bzLiUgYyvvVnE_EYQ",
+      "parent_id": "19wSk8dCMRk5kfZ2PRqcXTWaPTcLW9Tut",
+      "name": "NGƯỜI ĐÀN BÀ ĐANG YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 1007407,
+      "modified": "2026-08-15T10:44:21.000Z",
+      "checksum": "e739ef791affcf591d96ad6739af56c2",
+      "folder": false
+    },
+    {
+      "id": "1uwefZKY-4q7hbfpKxbZdRjd7vyxFPFJz",
+      "parent_id": "19wSk8dCMRk5kfZ2PRqcXTWaPTcLW9Tut",
+      "name": "NGƯỜI ĐÀN BÀ ĐANG YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 2690277,
+      "modified": "2026-08-15T10:44:08.000Z",
+      "checksum": "d4fdac080e0f9b636533af9bc558e19f",
+      "folder": false
+    }
+  ]
+}

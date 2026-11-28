@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OowVITEjmlh4yxLVuPuPe7ngLKrwGi2W",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mJFQU4mKwkyTYFGkSoMJiHsIwwXLV4cK",
+      "parent_id": "1OowVITEjmlh4yxLVuPuPe7ngLKrwGi2W",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9710,
+      "modified": "2026-08-16T03:47:06.000Z",
+      "checksum": "d2175da7390ed2a52f230b3756d9df01",
+      "folder": false
+    },
+    {
+      "id": "1Pri1kPJo7SFYGVbQYatgPJS4kF2PXN5e",
+      "parent_id": "1OowVITEjmlh4yxLVuPuPe7ngLKrwGi2W",
+      "name": "KHUNG TRỜI QUYẾN RŨ.epub",
+      "mime": "application/epub+zip",
+      "size": 1065199,
+      "modified": "2026-08-16T03:47:13.000Z",
+      "checksum": "3ecd89df28539a13596ab51064371e94",
+      "folder": false
+    },
+    {
+      "id": "1c6vHr-dn3F8mOJ2-rPzT4mGQJBnqtHKn",
+      "parent_id": "1OowVITEjmlh4yxLVuPuPe7ngLKrwGi2W",
+      "name": "KHUNG TRỜI QUYẾN RŨ.pdf",
+      "mime": "application/pdf",
+      "size": 1200230,
+      "modified": "2026-08-16T03:47:10.000Z",
+      "checksum": "e413cd0f070cabb5510b7a26f7416f1f",
+      "folder": false
+    }
+  ]
+}

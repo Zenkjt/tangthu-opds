@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EI9pcsPS0Nwg6r0461D59RILmExZL4Wb",
+  "page": 1,
+  "items": [
+    {
+      "id": "108t9PSzXI0PUhGcGjF5EwAdEl8fXNCNS",
+      "parent_id": "1EI9pcsPS0Nwg6r0461D59RILmExZL4Wb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 515,
+      "modified": "2026-08-15T10:08:27.000Z",
+      "checksum": "3d1d05c3fbf199e5d5218c88fbbf088e",
+      "folder": false
+    },
+    {
+      "id": "1y4GD-ebkTZulPHUwW40Hz-eMKRETH2q_",
+      "parent_id": "1EI9pcsPS0Nwg6r0461D59RILmExZL4Wb",
+      "name": "TÌNH YÊU ĐẾN MUỘN.epub",
+      "mime": "application/epub+zip",
+      "size": 488808,
+      "modified": "2026-08-15T10:08:33.000Z",
+      "checksum": "573d7dba310c6a90f22700e0c36075b8",
+      "folder": false
+    },
+    {
+      "id": "1-WbiylS_OtzUsJshXm2EIxzLvM51THYJ",
+      "parent_id": "1EI9pcsPS0Nwg6r0461D59RILmExZL4Wb",
+      "name": "TÌNH YÊU ĐẾN MUỘN.pdf",
+      "mime": "application/pdf",
+      "size": 718406,
+      "modified": "2026-08-15T10:08:31.000Z",
+      "checksum": "fdf97db3cc722908d4d92f0146e2b946",
+      "folder": false
+    }
+  ]
+}

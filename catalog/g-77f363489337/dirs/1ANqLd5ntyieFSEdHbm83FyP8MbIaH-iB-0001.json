@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ANqLd5ntyieFSEdHbm83FyP8MbIaH-iB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eU7lwuZ1w7Gzc9wzpL142o3aELLN6Dpz",
+      "parent_id": "1ANqLd5ntyieFSEdHbm83FyP8MbIaH-iB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3445,
+      "modified": "2026-08-15T09:31:52.000Z",
+      "checksum": "8e8d711cd2c826b105cfad044ce96b98",
+      "folder": false
+    },
+    {
+      "id": "1Hm48HAHyqnXGRoRLid-xEBGR_TfxEZ7w",
+      "parent_id": "1ANqLd5ntyieFSEdHbm83FyP8MbIaH-iB",
+      "name": "PHÍA SAU NGHI CAN X.epub",
+      "mime": "application/epub+zip",
+      "size": 928266,
+      "modified": "2026-08-15T09:32:00.000Z",
+      "checksum": "23f8247e3643ee142a28dc3c15c6430f",
+      "folder": false
+    },
+    {
+      "id": "1q2Kehl-BVOKtE5zxgLcnAYn-joUpuTgA",
+      "parent_id": "1ANqLd5ntyieFSEdHbm83FyP8MbIaH-iB",
+      "name": "PHÍA SAU NGHI CAN X.pdf",
+      "mime": "application/pdf",
+      "size": 951521,
+      "modified": "2026-08-15T09:31:57.000Z",
+      "checksum": "612c2cf7b78e8d538bd951413cbe3e2b",
+      "folder": false
+    }
+  ]
+}

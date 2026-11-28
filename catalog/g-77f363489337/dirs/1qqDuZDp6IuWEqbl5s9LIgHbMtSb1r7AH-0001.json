@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qqDuZDp6IuWEqbl5s9LIgHbMtSb1r7AH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ea2fvixBxjzfBXG83QR-pr-2KaizY0-y",
+      "parent_id": "1qqDuZDp6IuWEqbl5s9LIgHbMtSb1r7AH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3279,
+      "modified": "2026-08-15T06:26:46.000Z",
+      "checksum": "c081e8acc76219864225c98d6ce744dc",
+      "folder": false
+    },
+    {
+      "id": "1sjDhKyaB0_5GdhWiONmqRqEDTg1lCngK",
+      "parent_id": "1qqDuZDp6IuWEqbl5s9LIgHbMtSb1r7AH",
+      "name": "NHƯ KHÔNG HỀ CÓ.epub",
+      "mime": "application/epub+zip",
+      "size": 553091,
+      "modified": "2026-08-15T06:26:55.000Z",
+      "checksum": "bc2dd18378f65191f54aa86eb026ba93",
+      "folder": false
+    },
+    {
+      "id": "1kj6y5ryh31HVir332MYPlqB-y8ND9uvM",
+      "parent_id": "1qqDuZDp6IuWEqbl5s9LIgHbMtSb1r7AH",
+      "name": "NHƯ KHÔNG HỀ CÓ.pdf",
+      "mime": "application/pdf",
+      "size": 569628,
+      "modified": "2026-08-15T06:26:52.000Z",
+      "checksum": "194fbd363915a6b577a0ed458de9dda1",
+      "folder": false
+    }
+  ]
+}

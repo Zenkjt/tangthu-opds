@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WKppg3rDURRdJFxJASSONyorfnirPest",
+  "page": 1,
+  "items": [
+    {
+      "id": "182ZTVGGYIxj9x4hB8V4ov1DfQ4r4Yj2r",
+      "parent_id": "1WKppg3rDURRdJFxJASSONyorfnirPest",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8560,
+      "modified": "2026-08-15T07:24:24.000Z",
+      "checksum": "6676de378dd570373b966dbee681b895",
+      "folder": false
+    },
+    {
+      "id": "1Miq1bAJuggeIZtN2YG_4bveBR4cInuI3",
+      "parent_id": "1WKppg3rDURRdJFxJASSONyorfnirPest",
+      "name": "TƯỚC TÍCH.epub",
+      "mime": "application/epub+zip",
+      "size": 2839304,
+      "modified": "2026-08-15T07:24:35.000Z",
+      "checksum": "e848f9d86c27db7ce60ff5c7f77c86ac",
+      "folder": false
+    },
+    {
+      "id": "1FkOMkoiXOgH89Z2xqX3eWA687MLCEr32",
+      "parent_id": "1WKppg3rDURRdJFxJASSONyorfnirPest",
+      "name": "TƯỚC TÍCH.pdf",
+      "mime": "application/pdf",
+      "size": 3419495,
+      "modified": "2026-08-15T07:24:32.000Z",
+      "checksum": "a47be7545d73d47bcc3dc0082c4b4423",
+      "folder": false
+    }
+  ]
+}

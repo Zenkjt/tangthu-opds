@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Y0ttBYhs3LeB1d_iCwxrtQTEUfL0GnFm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yiUa-gtP6qMZqJaJl0NTyXueeKgyKrm4",
+      "parent_id": "1Y0ttBYhs3LeB1d_iCwxrtQTEUfL0GnFm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1010,
+      "modified": "2026-08-16T03:33:11.000Z",
+      "checksum": "57e4d41062dbdff0f158b91fafae2297",
+      "folder": false
+    },
+    {
+      "id": "1nt2ZNUAw6mUwjgnUEh_TCe78omFuXkd-",
+      "parent_id": "1Y0ttBYhs3LeB1d_iCwxrtQTEUfL0GnFm",
+      "name": "DẠO BƯỚC PHỒN HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 1099602,
+      "modified": "2026-08-16T03:33:23.000Z",
+      "checksum": "60963e38d4b255d6451f74936477de53",
+      "folder": false
+    },
+    {
+      "id": "1JG3ukQ1_vB95tSZRC6EMWSNDPXrvuSAr",
+      "parent_id": "1Y0ttBYhs3LeB1d_iCwxrtQTEUfL0GnFm",
+      "name": "DẠO BƯỚC PHỒN HOA.pdf",
+      "mime": "application/pdf",
+      "size": 4381392,
+      "modified": "2026-08-16T03:33:20.000Z",
+      "checksum": "d8ecf3d268fd187cee2b83c718398049",
+      "folder": false
+    }
+  ]
+}

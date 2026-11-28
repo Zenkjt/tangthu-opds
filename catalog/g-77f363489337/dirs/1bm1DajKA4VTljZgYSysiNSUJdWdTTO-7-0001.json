@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bm1DajKA4VTljZgYSysiNSUJdWdTTO-7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kI4r2ZynXTvSsm7js8ewKA5y065jGTQY",
+      "parent_id": "1bm1DajKA4VTljZgYSysiNSUJdWdTTO-7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10148,
+      "modified": "2026-08-15T05:45:20.000Z",
+      "checksum": "aa1db8d94c71bea5f642167bca0ef3b0",
+      "folder": false
+    },
+    {
+      "id": "1F1-QOszvZsmoDbxTs1OcWHQDkIKw4bps",
+      "parent_id": "1bm1DajKA4VTljZgYSysiNSUJdWdTTO-7",
+      "name": "FREUD ĐÃ THỰC SỰ NÓI GÌ.epub",
+      "mime": "application/epub+zip",
+      "size": 474152,
+      "modified": "2026-08-15T05:45:38.000Z",
+      "checksum": "deadfe3a94d023f131b5ee963c2a1da0",
+      "folder": false
+    },
+    {
+      "id": "18oCNjldKNE2wN9QvwKrYZ86d5poEd7-Z",
+      "parent_id": "1bm1DajKA4VTljZgYSysiNSUJdWdTTO-7",
+      "name": "FREUD ĐÃ THỰC SỰ NÓI GÌ.pdf",
+      "mime": "application/pdf",
+      "size": 1179126,
+      "modified": "2026-08-15T05:45:34.000Z",
+      "checksum": "f48d62a66ee2349fbc24d4841ccdc93d",
+      "folder": false
+    }
+  ]
+}

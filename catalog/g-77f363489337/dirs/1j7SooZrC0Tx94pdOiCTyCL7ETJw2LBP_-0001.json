@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1j7SooZrC0Tx94pdOiCTyCL7ETJw2LBP_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZH4ChADmrNhVMOupMQAsAXrfRfTCGat8",
+      "parent_id": "1j7SooZrC0Tx94pdOiCTyCL7ETJw2LBP_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3780,
+      "modified": "2026-08-15T07:29:02.000Z",
+      "checksum": "0dbcb6f8851d9c69ccf6c0ee2a3fdf29",
+      "folder": false
+    },
+    {
+      "id": "1Eawwn44GJdH11_diHBrpOtkF32h5WLtS",
+      "parent_id": "1j7SooZrC0Tx94pdOiCTyCL7ETJw2LBP_",
+      "name": "VŨ DẠ KỲ ĐÀM.epub",
+      "mime": "application/epub+zip",
+      "size": 4956880,
+      "modified": "2026-08-15T07:29:25.000Z",
+      "checksum": "ef079ec3e6c9643788566eb05ce7bc2b",
+      "folder": false
+    },
+    {
+      "id": "1gqFjQKHLfmUSb3f7P8OMwD2d9YOZ5rfZ",
+      "parent_id": "1j7SooZrC0Tx94pdOiCTyCL7ETJw2LBP_",
+      "name": "VŨ DẠ KỲ ĐÀM.pdf",
+      "mime": "application/pdf",
+      "size": 5647204,
+      "modified": "2026-08-15T07:29:17.000Z",
+      "checksum": "29d31c629490eb3eb9d15a59b3321ec3",
+      "folder": false
+    }
+  ]
+}

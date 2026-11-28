@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UQ7e77c7w0xVjhNPrhJSoW9osKo1H1C4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1s8wtmlJPTPDyFJjW_SC9Fh9qIMDZxKtL",
+      "parent_id": "1UQ7e77c7w0xVjhNPrhJSoW9osKo1H1C4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2719,
+      "modified": "2026-08-15T08:12:26.000Z",
+      "checksum": "95c975ed34765ba93fa2d26c8fde1692",
+      "folder": false
+    },
+    {
+      "id": "1Z_-LBPmluuz19LsnV_cFca-T-OhP53jO",
+      "parent_id": "1UQ7e77c7w0xVjhNPrhJSoW9osKo1H1C4",
+      "name": "HÓA RA ANH VẪN Ở ĐÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 385780,
+      "modified": "2026-08-15T08:12:34.000Z",
+      "checksum": "f0af7e88182235f7d9b39c554bb8bfa4",
+      "folder": false
+    },
+    {
+      "id": "1hmC77hGskY68oi8Ho_2U2qI-KhCsYIhL",
+      "parent_id": "1UQ7e77c7w0xVjhNPrhJSoW9osKo1H1C4",
+      "name": "HÓA RA ANH VẪN Ở ĐÂY.pdf",
+      "mime": "application/pdf",
+      "size": 1095721,
+      "modified": "2026-08-15T08:12:31.000Z",
+      "checksum": "7fb745e6b1a31e3af018d00653e984f7",
+      "folder": false
+    }
+  ]
+}

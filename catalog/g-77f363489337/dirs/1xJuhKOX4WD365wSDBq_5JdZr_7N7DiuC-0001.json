@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xJuhKOX4WD365wSDBq_5JdZr_7N7DiuC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LAz92CEwQXQm0rHXgv5I26PTJv2tgbFX",
+      "parent_id": "1xJuhKOX4WD365wSDBq_5JdZr_7N7DiuC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3422,
+      "modified": "2026-08-15T10:08:38.000Z",
+      "checksum": "2777e8de304c74c7d8e0c3eacfcff214",
+      "folder": false
+    },
+    {
+      "id": "1izlOjzcOG-1V1yNlPQrUroX23c55ntq4",
+      "parent_id": "1xJuhKOX4WD365wSDBq_5JdZr_7N7DiuC",
+      "name": "TÌNH TRONG CHIẾN HÀO.epub",
+      "mime": "application/epub+zip",
+      "size": 478187,
+      "modified": "2026-08-15T10:08:44.000Z",
+      "checksum": "622a5a2be15de1e70d53347eb02fea3b",
+      "folder": false
+    },
+    {
+      "id": "1cpSk6nKjIyy_ZneSXrQm8TY2NGUj8LAm",
+      "parent_id": "1xJuhKOX4WD365wSDBq_5JdZr_7N7DiuC",
+      "name": "TÌNH TRONG CHIẾN HÀO.pdf",
+      "mime": "application/pdf",
+      "size": 681588,
+      "modified": "2026-08-15T10:08:41.000Z",
+      "checksum": "60839590b0a9aa3d532f2fca0fbbd1fc",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19MEAUyWvSqHURhVnKbIlOuPv8LfEPl9h",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Nezj4PY0AJDcKuob8o9PA4hq6d1cPjUS",
+      "parent_id": "19MEAUyWvSqHURhVnKbIlOuPv8LfEPl9h",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3213,
+      "modified": "2026-08-15T06:56:24.000Z",
+      "checksum": "5299bb81e2256dd8f86bb107c6fac775",
+      "folder": false
+    },
+    {
+      "id": "1ywSNR5U8ohEPpxRihx8W8GfGHo2zxTQg",
+      "parent_id": "19MEAUyWvSqHURhVnKbIlOuPv8LfEPl9h",
+      "name": "LỚN LÊN TRÊN ĐẢO VẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 510013,
+      "modified": "2026-08-15T06:56:32.000Z",
+      "checksum": "67a40b7aa50ee1a2dafe8409c9b698a2",
+      "folder": false
+    },
+    {
+      "id": "1XpIdeEVCaCq6EjeO_EnBQp38wJ0eYiYu",
+      "parent_id": "19MEAUyWvSqHURhVnKbIlOuPv8LfEPl9h",
+      "name": "LỚN LÊN TRÊN ĐẢO VẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 1054007,
+      "modified": "2026-08-15T06:56:29.000Z",
+      "checksum": "0a95c1cf9e1607a63647cec5863a099a",
+      "folder": false
+    }
+  ]
+}

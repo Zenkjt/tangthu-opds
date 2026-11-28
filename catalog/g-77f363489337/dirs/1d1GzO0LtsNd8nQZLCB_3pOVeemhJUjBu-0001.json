@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d1GzO0LtsNd8nQZLCB_3pOVeemhJUjBu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QBnvYbTpKi5dLXsUYe8qz8hsIOjDgZzy",
+      "parent_id": "1d1GzO0LtsNd8nQZLCB_3pOVeemhJUjBu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5469,
+      "modified": "2026-08-15T09:44:36.000Z",
+      "checksum": "504f99ea85876dd5eef73adbbcde7720",
+      "folder": false
+    },
+    {
+      "id": "1R5lDbAlOnaYBHI91ByKlZYqjZlN5A-kW",
+      "parent_id": "1d1GzO0LtsNd8nQZLCB_3pOVeemhJUjBu",
+      "name": "LÃNH PHI SỦNG PHU.epub",
+      "mime": "application/epub+zip",
+      "size": 513833,
+      "modified": "2026-08-15T09:44:48.000Z",
+      "checksum": "7017bfe6a40b55526b8b30f9e61461ea",
+      "folder": false
+    },
+    {
+      "id": "1dBtUqvtczx0FckEVdeys-DRB875qNo-g",
+      "parent_id": "1d1GzO0LtsNd8nQZLCB_3pOVeemhJUjBu",
+      "name": "LÃNH PHI SỦNG PHU.pdf",
+      "mime": "application/pdf",
+      "size": 300530,
+      "modified": "2026-08-15T09:44:43.000Z",
+      "checksum": "36367d82d89ec47ace659bf8722085d9",
+      "folder": false
+    }
+  ]
+}

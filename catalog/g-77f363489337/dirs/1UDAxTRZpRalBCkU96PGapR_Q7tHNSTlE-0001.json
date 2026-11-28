@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UDAxTRZpRalBCkU96PGapR_Q7tHNSTlE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TQryl_hZOttMmNSUy8ILjU2Qc9XMVhah",
+      "parent_id": "1UDAxTRZpRalBCkU96PGapR_Q7tHNSTlE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 888,
+      "modified": "2026-08-16T03:30:34.000Z",
+      "checksum": "d84f68a6474c037b341ae29b0cbc8761",
+      "folder": false
+    },
+    {
+      "id": "17GY-D4uXyJYmOA-4I-ufltrWAx26Ny75",
+      "parent_id": "1UDAxTRZpRalBCkU96PGapR_Q7tHNSTlE",
+      "name": "ĐƯỜNG MỘT CHIỀU.epub",
+      "mime": "application/epub+zip",
+      "size": 279910,
+      "modified": "2026-08-16T03:30:39.000Z",
+      "checksum": "706dd30134af3575837dd4eb84945a01",
+      "folder": false
+    },
+    {
+      "id": "1aSb2syNm_0TmArkwPJfBprJbsf0nJrHM",
+      "parent_id": "1UDAxTRZpRalBCkU96PGapR_Q7tHNSTlE",
+      "name": "ĐƯỜNG MỘT CHIỀU.pdf",
+      "mime": "application/pdf",
+      "size": 475310,
+      "modified": "2026-08-16T03:30:37.000Z",
+      "checksum": "6a86bf8937371095f52d387b8105b67a",
+      "folder": false
+    }
+  ]
+}

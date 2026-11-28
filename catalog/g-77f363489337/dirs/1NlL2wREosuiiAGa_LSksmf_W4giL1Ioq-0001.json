@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NlL2wREosuiiAGa_LSksmf_W4giL1Ioq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YEHVwNbOmgJAbTbaciCEi6oJZadWrAfk",
+      "parent_id": "1NlL2wREosuiiAGa_LSksmf_W4giL1Ioq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3128,
+      "modified": "2026-08-15T10:27:43.000Z",
+      "checksum": "7e1feec73321d7a6d37544694c137b21",
+      "folder": false
+    },
+    {
+      "id": "1Mo2ChUh26W5dXCSEGqX3kHoXQpFYRvvW",
+      "parent_id": "1NlL2wREosuiiAGa_LSksmf_W4giL1Ioq",
+      "name": "SAY NẮNG SÀI GÒN.epub",
+      "mime": "application/epub+zip",
+      "size": 472110,
+      "modified": "2026-08-15T10:27:52.000Z",
+      "checksum": "d3a628b47a2a7928f808b5084c345c5d",
+      "folder": false
+    },
+    {
+      "id": "1D-PgQf6yuQVtF-Shl36wdnNDbPFYimoU",
+      "parent_id": "1NlL2wREosuiiAGa_LSksmf_W4giL1Ioq",
+      "name": "SAY NẮNG SÀI GÒN.pdf",
+      "mime": "application/pdf",
+      "size": 1106483,
+      "modified": "2026-08-15T10:27:49.000Z",
+      "checksum": "9ca498eb6a9c43bd37f533adb52536d0",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1p2kn1-Utmdr1w97VhNBaHCMmy_SYBQKu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mcXfkXfsJWMrZVojvKkFtTwKiyNs1UA7",
+      "parent_id": "1p2kn1-Utmdr1w97VhNBaHCMmy_SYBQKu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2675,
+      "modified": "2026-08-15T03:59:03.000Z",
+      "checksum": "b5956856a9bffaf6d80dde871b483a14",
+      "folder": false
+    },
+    {
+      "id": "1wEnZp3PHVYXAlV0PgUHuEEBuZJHjARfo",
+      "parent_id": "1p2kn1-Utmdr1w97VhNBaHCMmy_SYBQKu",
+      "name": "THẾ GIỚI THIÊN THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 1669258,
+      "modified": "2026-08-15T03:59:09.000Z",
+      "checksum": "fecd482ce8059e8af7abd151c6b58e52",
+      "folder": false
+    },
+    {
+      "id": "117YIu6vj2fWS5eLd3jQuRLExFSU3hUmR",
+      "parent_id": "1p2kn1-Utmdr1w97VhNBaHCMmy_SYBQKu",
+      "name": "THẾ GIỚI THIÊN THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 1548147,
+      "modified": "2026-08-15T03:59:06.000Z",
+      "checksum": "5cfbd686b9cea26f5667c398ac1810ad",
+      "folder": false
+    }
+  ]
+}

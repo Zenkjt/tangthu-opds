@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qiO1O-Gile8ZJaZUo1oXpmqHpPirC5EN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1daBDpASzvecNfdwkD01pOCpgDRMbXo3r",
+      "parent_id": "1qiO1O-Gile8ZJaZUo1oXpmqHpPirC5EN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 512,
+      "modified": "2026-08-15T03:49:43.000Z",
+      "checksum": "55a07b8a3387ffc890459d827dcd28a3",
+      "folder": false
+    },
+    {
+      "id": "1HR57V097XNNO9vFumc12XzOBZdo9G4NE",
+      "parent_id": "1qiO1O-Gile8ZJaZUo1oXpmqHpPirC5EN",
+      "name": "ĐI TÌM TỪ BI.epub",
+      "mime": "application/epub+zip",
+      "size": 541705,
+      "modified": "2026-08-15T03:49:49.000Z",
+      "checksum": "fd3b6bb41b48b0e2407cb6c819fe0c12",
+      "folder": false
+    },
+    {
+      "id": "1jQnTHmDjjRW3FTqItRlJtrlm0XrMz3kA",
+      "parent_id": "1qiO1O-Gile8ZJaZUo1oXpmqHpPirC5EN",
+      "name": "ĐI TÌM TỪ BI.pdf",
+      "mime": "application/pdf",
+      "size": 197388,
+      "modified": "2026-08-15T03:49:46.000Z",
+      "checksum": "4fa94de9b51d252d16f132840f7f7967",
+      "folder": false
+    }
+  ]
+}

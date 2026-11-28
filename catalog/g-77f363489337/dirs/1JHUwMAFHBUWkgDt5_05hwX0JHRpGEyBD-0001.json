@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JHUwMAFHBUWkgDt5_05hwX0JHRpGEyBD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1C8yF00WnMzCWpKJ9q7m6MOxDXMxotnTO",
+      "parent_id": "1JHUwMAFHBUWkgDt5_05hwX0JHRpGEyBD",
+      "name": "CẠM BẪY NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 393918,
+      "modified": "2026-08-15T09:36:32.000Z",
+      "checksum": "37bb333067da8b7d2d9a312cbe670a6d",
+      "folder": false
+    },
+    {
+      "id": "1EwgAHyxsWFhvAimp2c7Xrhp6QrWjYT7E",
+      "parent_id": "1JHUwMAFHBUWkgDt5_05hwX0JHRpGEyBD",
+      "name": "CẠM BẪY NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 757776,
+      "modified": "2026-08-15T09:36:28.000Z",
+      "checksum": "a9937fdf16dcecd5d2ce081858a3bd7e",
+      "folder": false
+    },
+    {
+      "id": "1uD9jet20BntuNwcO2WXrRmVMkzmNfeMS",
+      "parent_id": "1JHUwMAFHBUWkgDt5_05hwX0JHRpGEyBD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3315,
+      "modified": "2026-08-15T09:36:23.000Z",
+      "checksum": "458e998f69c25e186f69380dd40f79f6",
+      "folder": false
+    }
+  ]
+}

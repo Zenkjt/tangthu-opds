@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nveBznBEwawGdp-o6toBJk3mhHC5YcUY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WXQqmRJCLcMvYNH36olVb9mTmodFMr0l",
+      "parent_id": "1nveBznBEwawGdp-o6toBJk3mhHC5YcUY",
+      "name": "BA VỤ BÍ ẨN.epub",
+      "mime": "application/epub+zip",
+      "size": 509650,
+      "modified": "2026-08-15T15:33:07.000Z",
+      "checksum": "42350503de001fadc2ed55ae6bddfb07",
+      "folder": false
+    },
+    {
+      "id": "1DPTyAWyg5WtuiMrqlPmfGEaSsToO1Ze7",
+      "parent_id": "1nveBznBEwawGdp-o6toBJk3mhHC5YcUY",
+      "name": "BA VỤ BÍ ẨN.pdf",
+      "mime": "application/pdf",
+      "size": 501560,
+      "modified": "2026-08-15T15:33:04.000Z",
+      "checksum": "02c099662cc94e16d52bd2f0062a7f4a",
+      "folder": false
+    },
+    {
+      "id": "1zJtU1XLFb57MqQZCE21qOmlSpHqAf7cO",
+      "parent_id": "1nveBznBEwawGdp-o6toBJk3mhHC5YcUY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 725,
+      "modified": "2026-08-15T15:33:01.000Z",
+      "checksum": "804a7d13f248888c538d40e9f5343a76",
+      "folder": false
+    }
+  ]
+}

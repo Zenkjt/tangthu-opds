@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kFwkIkH_WjVkBnn6OOtbRT00ruD5oeL2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QBqOcpietjpRdjEvXtPQsoT2wWazPlIG",
+      "parent_id": "1kFwkIkH_WjVkBnn6OOtbRT00ruD5oeL2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 513,
+      "modified": "2026-08-15T10:52:53.000Z",
+      "checksum": "86a3c0073bc3d795888c190d10fb806a",
+      "folder": false
+    },
+    {
+      "id": "1bNUJUkGcAQVjuKbvqvOjwa-pbPvpH-Hv",
+      "parent_id": "1kFwkIkH_WjVkBnn6OOtbRT00ruD5oeL2",
+      "name": "MẬT MÃ THANH MINH THƯỢNG HÀ TẬP 2.epub",
+      "mime": "application/epub+zip",
+      "size": 1024467,
+      "modified": "2026-08-15T10:53:00.000Z",
+      "checksum": "ff182b7631fd2a2953637dbfee9c8525",
+      "folder": false
+    },
+    {
+      "id": "1fTcSDNs97a6YiqECJ5CgH47aED2ywnpY",
+      "parent_id": "1kFwkIkH_WjVkBnn6OOtbRT00ruD5oeL2",
+      "name": "MẬT MÃ THANH MINH THƯỢNG HÀ TẬP 2.pdf",
+      "mime": "application/pdf",
+      "size": 1724986,
+      "modified": "2026-08-15T10:52:57.000Z",
+      "checksum": "2a2b2cdeb627e02c7d59955521c1f068",
+      "folder": false
+    }
+  ]
+}

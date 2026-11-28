@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cukYqooB0VtK0OFg1mGkWPME5EBKnI2S",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bNV-9B_TrX5tUQJ1Na7gB-1X4swJBtaK",
+      "parent_id": "1cukYqooB0VtK0OFg1mGkWPME5EBKnI2S",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3254,
+      "modified": "2026-08-15T10:33:05.000Z",
+      "checksum": "39fb80ce97e4bd68b74272b8b0f0516e",
+      "folder": false
+    },
+    {
+      "id": "1S9eLxEV1U5LT-VUhwWkAccgYI5fnRt2f",
+      "parent_id": "1cukYqooB0VtK0OFg1mGkWPME5EBKnI2S",
+      "name": "PHÁT RỒ.epub",
+      "mime": "application/epub+zip",
+      "size": 526418,
+      "modified": "2026-08-15T10:33:11.000Z",
+      "checksum": "492ece1a71bc4b1cec4d706f7deaa482",
+      "folder": false
+    },
+    {
+      "id": "1aOAZ73hyXAyU69t47K_2rV1SYaQRg2xJ",
+      "parent_id": "1cukYqooB0VtK0OFg1mGkWPME5EBKnI2S",
+      "name": "PHÁT RỒ.pdf",
+      "mime": "application/pdf",
+      "size": 957680,
+      "modified": "2026-08-15T10:33:09.000Z",
+      "checksum": "4bc393f401d1cbe5d47ff27bc1c29c00",
+      "folder": false
+    }
+  ]
+}

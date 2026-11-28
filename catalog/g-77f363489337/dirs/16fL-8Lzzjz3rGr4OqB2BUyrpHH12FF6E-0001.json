@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16fL-8Lzzjz3rGr4OqB2BUyrpHH12FF6E",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cVat6MHFXkMqjV_0pCFZWckwaaWdp2oC",
+      "parent_id": "16fL-8Lzzjz3rGr4OqB2BUyrpHH12FF6E",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1666,
+      "modified": "2026-08-16T03:37:22.000Z",
+      "checksum": "5d250991ba5c5ad269a066b3c6ff7599",
+      "folder": false
+    },
+    {
+      "id": "1R4i-rQWT513QONxStzYZJjDyAn3fJ5Td",
+      "parent_id": "16fL-8Lzzjz3rGr4OqB2BUyrpHH12FF6E",
+      "name": "MẠT THẾ TRỌNG SINH LỘ.epub",
+      "mime": "application/epub+zip",
+      "size": 1565447,
+      "modified": "2026-08-16T03:37:30.000Z",
+      "checksum": "737158fea9ead5c09755fbb554f1e769",
+      "folder": false
+    },
+    {
+      "id": "1W8CFfJHsG2iuDvZ3J3ZR3vX7ZQKDbxjJ",
+      "parent_id": "16fL-8Lzzjz3rGr4OqB2BUyrpHH12FF6E",
+      "name": "MẠT THẾ TRỌNG SINH LỘ.pdf",
+      "mime": "application/pdf",
+      "size": 1838423,
+      "modified": "2026-08-16T03:37:27.000Z",
+      "checksum": "26dc57c8162c2de41d959a9c86339ae8",
+      "folder": false
+    }
+  ]
+}

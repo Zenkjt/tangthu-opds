@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iHqAlLy9J8Mg4EX5U1B6pgGhqpsKG4-f",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OrQQExdDFrFP6a3vsBUq23LtT9zEHvwK",
+      "parent_id": "1iHqAlLy9J8Mg4EX5U1B6pgGhqpsKG4-f",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5891,
+      "modified": "2026-08-15T15:10:30.000Z",
+      "checksum": "88a85d9a3076cb784d6c71c048c55ec6",
+      "folder": false
+    },
+    {
+      "id": "1buLQLH_iYU8r3ssHeNq__HO--B_PodNB",
+      "parent_id": "1iHqAlLy9J8Mg4EX5U1B6pgGhqpsKG4-f",
+      "name": "TIỀN! NIỀM VUI SƯỚNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1339220,
+      "modified": "2026-08-15T15:10:36.000Z",
+      "checksum": "0db2b14bb4f4d3e68cd2c10b78c8ae71",
+      "folder": false
+    },
+    {
+      "id": "1N_r9ME-vulFakNl-_ZB0qWSb5VUz3VCh",
+      "parent_id": "1iHqAlLy9J8Mg4EX5U1B6pgGhqpsKG4-f",
+      "name": "TIỀN! NIỀM VUI SƯỚNG.pdf",
+      "mime": "application/pdf",
+      "size": 1251229,
+      "modified": "2026-08-15T15:10:34.000Z",
+      "checksum": "6852fa26e08fecc99620e474ba36de19",
+      "folder": false
+    }
+  ]
+}

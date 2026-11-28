@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Z8uesbhA-MSLdz7bpAOPcKAd6M24Kvby",
+  "page": 1,
+  "items": [
+    {
+      "id": "1i7sHrkT8_M-_wtOW36km8NFkV6QLLYbW",
+      "parent_id": "1Z8uesbhA-MSLdz7bpAOPcKAd6M24Kvby",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3127,
+      "modified": "2026-08-15T10:12:40.000Z",
+      "checksum": "17f75528f4cf814301543354fe445f07",
+      "folder": false
+    },
+    {
+      "id": "1ujnHHp_2Vn91wJnVsqAY-5IwFQiN24dN",
+      "parent_id": "1Z8uesbhA-MSLdz7bpAOPcKAd6M24Kvby",
+      "name": "THỜI GIAN HẸN HÒ MỘT TUẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 283560,
+      "modified": "2026-08-15T10:12:47.000Z",
+      "checksum": "5b7ec6c79db31712e64aee445f9208aa",
+      "folder": false
+    },
+    {
+      "id": "11DN-m_bWAA3OTAc110cSvimzB6fa_faz",
+      "parent_id": "1Z8uesbhA-MSLdz7bpAOPcKAd6M24Kvby",
+      "name": "THỜI GIAN HẸN HÒ MỘT TUẦN.pdf",
+      "mime": "application/pdf",
+      "size": 279692,
+      "modified": "2026-08-15T10:12:45.000Z",
+      "checksum": "a5c43bf3dcf33a6f90c19be23dd437f7",
+      "folder": false
+    }
+  ]
+}

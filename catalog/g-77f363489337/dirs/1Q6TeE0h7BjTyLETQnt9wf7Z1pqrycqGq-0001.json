@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Q6TeE0h7BjTyLETQnt9wf7Z1pqrycqGq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Iy_5vN7bJuutLQPYpID4cmk3PpaHgzJq",
+      "parent_id": "1Q6TeE0h7BjTyLETQnt9wf7Z1pqrycqGq",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 5182,
+      "modified": "2026-08-15T09:29:43.000Z",
+      "checksum": "3237f2f8f478ed582fac568a495b51e2",
+      "folder": false
+    },
+    {
+      "id": "12jZd45vNU9JTXZLBdtNHuBTHW63Tl5XB",
+      "parent_id": "1Q6TeE0h7BjTyLETQnt9wf7Z1pqrycqGq",
+      "name": "NGƯỜI Ở NƠI TỊCH LẶNG.epub",
+      "mime": "application/epub+zip",
+      "size": 538281,
+      "modified": "2026-08-15T09:29:54.000Z",
+      "checksum": "ef3f979c601a4ee564d1898a12f442a4",
+      "folder": false
+    },
+    {
+      "id": "1g98cFgLGb5RPxsKI6y5n6s6etyXI5_mn",
+      "parent_id": "1Q6TeE0h7BjTyLETQnt9wf7Z1pqrycqGq",
+      "name": "NGƯỜI Ở NƠI TỊCH LẶNG.pdf",
+      "mime": "application/pdf",
+      "size": 1657571,
+      "modified": "2026-08-15T09:29:51.000Z",
+      "checksum": "52ec7a81b7e81d0231c0aca27c33a9e2",
+      "folder": false
+    }
+  ]
+}

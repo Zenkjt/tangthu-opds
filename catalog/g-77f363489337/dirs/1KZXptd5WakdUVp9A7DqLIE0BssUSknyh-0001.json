@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KZXptd5WakdUVp9A7DqLIE0BssUSknyh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rX0-1YW_06P9UiftqD2gYVyQ6nfL-oe6",
+      "parent_id": "1KZXptd5WakdUVp9A7DqLIE0BssUSknyh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4240,
+      "modified": "2026-08-15T07:21:02.000Z",
+      "checksum": "31f9470114458a10957e334045b48e2f",
+      "folder": false
+    },
+    {
+      "id": "1BtsA5jg8rOLLi7Y510SuGJMsHW1Y9ryY",
+      "parent_id": "1KZXptd5WakdUVp9A7DqLIE0BssUSknyh",
+      "name": "TRÁCH EM THẬT QUÁ XINH.epub",
+      "mime": "application/epub+zip",
+      "size": 714536,
+      "modified": "2026-08-15T07:21:10.000Z",
+      "checksum": "85741c8d957562b226b68d80a34dd3eb",
+      "folder": false
+    },
+    {
+      "id": "1crf0wRypUFupAR2u014afsWX4NQuzBAu",
+      "parent_id": "1KZXptd5WakdUVp9A7DqLIE0BssUSknyh",
+      "name": "TRÁCH EM THẬT QUÁ XINH.pdf",
+      "mime": "application/pdf",
+      "size": 2287722,
+      "modified": "2026-08-15T07:21:07.000Z",
+      "checksum": "b195d2ead3de72cae41b05634701337b",
+      "folder": false
+    }
+  ]
+}

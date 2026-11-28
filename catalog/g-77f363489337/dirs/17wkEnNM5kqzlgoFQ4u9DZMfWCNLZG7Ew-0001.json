@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17wkEnNM5kqzlgoFQ4u9DZMfWCNLZG7Ew",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UE5Df_0lWU9BmSwz-jTPlmNeFXubZQQg",
+      "parent_id": "17wkEnNM5kqzlgoFQ4u9DZMfWCNLZG7Ew",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2312,
+      "modified": "2026-08-15T13:12:31.000Z",
+      "checksum": "2af1456e06bfb026838e96a63061246c",
+      "folder": false
+    },
+    {
+      "id": "1zs4VFobUz4YOIdMlw9-S2OWxHJ0Mb8jm",
+      "parent_id": "17wkEnNM5kqzlgoFQ4u9DZMfWCNLZG7Ew",
+      "name": "TỬ VI THỰC HÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 581633,
+      "modified": "2026-08-15T13:12:38.000Z",
+      "checksum": "fabbf6d3b100f6014c65a0a74ca812a0",
+      "folder": false
+    },
+    {
+      "id": "1FrxaEkB5eL6gQtMk4AoXKQNe8s200ytJ",
+      "parent_id": "17wkEnNM5kqzlgoFQ4u9DZMfWCNLZG7Ew",
+      "name": "TỬ VI THỰC HÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 1040439,
+      "modified": "2026-08-15T13:12:35.000Z",
+      "checksum": "a6dfe831c78443e9e9561b6d96d27cac",
+      "folder": false
+    }
+  ]
+}

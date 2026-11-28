@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kNChkAhafscN6HDUPs83T4rZVu58cWbD",
+  "page": 1,
+  "items": [
+    {
+      "id": "16-wf9tvKmjxSR8_JL6Z8mpACZF19ue1h",
+      "parent_id": "1kNChkAhafscN6HDUPs83T4rZVu58cWbD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 454,
+      "modified": "2026-08-15T10:56:46.000Z",
+      "checksum": "ee7e2d4885609c5c8d504ef051a84dcd",
+      "folder": false
+    },
+    {
+      "id": "1bIyxuBt3oMdvHJvEE1oOdkIPwNjhDZew",
+      "parent_id": "1kNChkAhafscN6HDUPs83T4rZVu58cWbD",
+      "name": "HẸN GẶP LẠI TRÊN KIA.epub",
+      "mime": "application/epub+zip",
+      "size": 795949,
+      "modified": "2026-08-15T10:56:53.000Z",
+      "checksum": "e6dee223cc22a04457b2002af7b36ca9",
+      "folder": false
+    },
+    {
+      "id": "1icSSkyQn6fzOTAVkXXt2gPIRRRHwk-HX",
+      "parent_id": "1kNChkAhafscN6HDUPs83T4rZVu58cWbD",
+      "name": "HẸN GẶP LẠI TRÊN KIA.pdf",
+      "mime": "application/pdf",
+      "size": 1810061,
+      "modified": "2026-08-15T10:56:51.000Z",
+      "checksum": "377e2b479cd721768a73ccaaf0ca7862",
+      "folder": false
+    }
+  ]
+}

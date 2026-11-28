@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1h0OxUEQWTG-UlGt-mCF_m8tWZtb-FjYd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LkjmfYpnEP0ga3QurPnQG_yy7MXeISzm",
+      "parent_id": "1h0OxUEQWTG-UlGt-mCF_m8tWZtb-FjYd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7303,
+      "modified": "2026-08-15T05:46:48.000Z",
+      "checksum": "d5c2e252f64e250a64fdc3a440876ab4",
+      "folder": false
+    },
+    {
+      "id": "1rVLlRus8pZ-kdBF7Jl3kI1gVRlL3xMTa",
+      "parent_id": "1h0OxUEQWTG-UlGt-mCF_m8tWZtb-FjYd",
+      "name": "SUY TƯỞNG.epub",
+      "mime": "application/epub+zip",
+      "size": 549803,
+      "modified": "2026-08-15T05:46:56.000Z",
+      "checksum": "5da46248c410b6453274ac4fa580a581",
+      "folder": false
+    },
+    {
+      "id": "1CejBHb3w5MIAyMppbAC8U1595dYedDfS",
+      "parent_id": "1h0OxUEQWTG-UlGt-mCF_m8tWZtb-FjYd",
+      "name": "SUY TƯỞNG.pdf",
+      "mime": "application/pdf",
+      "size": 3315671,
+      "modified": "2026-08-15T05:46:54.000Z",
+      "checksum": "9aa27bd56ae877b298a1a6d1ddeeda0e",
+      "folder": false
+    }
+  ]
+}

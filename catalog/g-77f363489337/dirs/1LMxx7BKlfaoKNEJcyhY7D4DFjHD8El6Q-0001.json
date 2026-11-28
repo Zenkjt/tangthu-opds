@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LMxx7BKlfaoKNEJcyhY7D4DFjHD8El6Q",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NFJDHYOQ2cngII73cZcu3mGpbW-7fGV-",
+      "parent_id": "1LMxx7BKlfaoKNEJcyhY7D4DFjHD8El6Q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2600,
+      "modified": "2026-08-15T07:26:43.000Z",
+      "checksum": "977d09fb467b81e59bdc0dc980f5a54d",
+      "folder": false
+    },
+    {
+      "id": "1PYpcY47AnBvDk-iFt3Cewh828ya4Vw90",
+      "parent_id": "1LMxx7BKlfaoKNEJcyhY7D4DFjHD8El6Q",
+      "name": "VẠN DẶM TÌM CHỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1268866,
+      "modified": "2026-08-15T07:27:01.000Z",
+      "checksum": "ecb5da931418d9a1b858aabd6c83c816",
+      "folder": false
+    },
+    {
+      "id": "1iFvFKVrwvBSHFkdSW0JVs1MSY-u1Uyza",
+      "parent_id": "1LMxx7BKlfaoKNEJcyhY7D4DFjHD8El6Q",
+      "name": "VẠN DẶM TÌM CHỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 4880810,
+      "modified": "2026-08-15T07:26:58.000Z",
+      "checksum": "38f946999b98c1a8ab556bf84730d4f7",
+      "folder": false
+    }
+  ]
+}

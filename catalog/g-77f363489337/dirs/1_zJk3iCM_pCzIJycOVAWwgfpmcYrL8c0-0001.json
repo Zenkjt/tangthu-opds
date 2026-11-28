@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_zJk3iCM_pCzIJycOVAWwgfpmcYrL8c0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ly4J31izoQ9dOFP2c1PoQbz2zh8dkexy",
+      "parent_id": "1_zJk3iCM_pCzIJycOVAWwgfpmcYrL8c0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4934,
+      "modified": "2026-08-15T15:44:22.000Z",
+      "checksum": "9e67b4150edc4bd71eb769270ecfce70",
+      "folder": false
+    },
+    {
+      "id": "1QEQAvJ2XA3lSrRH0537tAC742OUiQdha",
+      "parent_id": "1_zJk3iCM_pCzIJycOVAWwgfpmcYrL8c0",
+      "name": "NHỮNG NGÀY TƯƠI ĐẸP.epub",
+      "mime": "application/epub+zip",
+      "size": 1222236,
+      "modified": "2026-08-15T15:44:29.000Z",
+      "checksum": "187e0bbcd4276c4b1ab78d786763589c",
+      "folder": false
+    },
+    {
+      "id": "1hJk9H_Zvzkxk2BsboDaePkZL60cardDn",
+      "parent_id": "1_zJk3iCM_pCzIJycOVAWwgfpmcYrL8c0",
+      "name": "NHỮNG NGÀY TƯƠI ĐẸP.pdf",
+      "mime": "application/pdf",
+      "size": 3624885,
+      "modified": "2026-08-15T15:44:27.000Z",
+      "checksum": "5872e31525312af7070c7f87c91ccd66",
+      "folder": false
+    }
+  ]
+}

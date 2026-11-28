@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IHyCcNDNMSYBDTJqMHqUT8-k6ELA0RtC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wwX3A42D_s7kkkzEDkeBWjQb5dkmurfq",
+      "parent_id": "1IHyCcNDNMSYBDTJqMHqUT8-k6ELA0RtC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3329,
+      "modified": "2026-08-15T10:23:56.000Z",
+      "checksum": "8953f1756b72ba7106dfd031d8dc1727",
+      "folder": false
+    },
+    {
+      "id": "1fexY9t2gtrdEfZSprKrHhtwoHuZ0BxFK",
+      "parent_id": "1IHyCcNDNMSYBDTJqMHqUT8-k6ELA0RtC",
+      "name": "TA VÀ HOÀNG THƯỢNG CÙNG PHE.epub",
+      "mime": "application/epub+zip",
+      "size": 739128,
+      "modified": "2026-08-15T10:24:08.000Z",
+      "checksum": "e66d7c7f2394c242babb2d8780e0a979",
+      "folder": false
+    },
+    {
+      "id": "1DNGg8i35Lq1gBDyYXMdb7jLtWTS7zZWY",
+      "parent_id": "1IHyCcNDNMSYBDTJqMHqUT8-k6ELA0RtC",
+      "name": "TA VÀ HOÀNG THƯỢNG CÙNG PHE.pdf",
+      "mime": "application/pdf",
+      "size": 2396599,
+      "modified": "2026-08-15T10:24:05.000Z",
+      "checksum": "1f9b42eb3a7988f6dd841c40ab02d292",
+      "folder": false
+    }
+  ]
+}

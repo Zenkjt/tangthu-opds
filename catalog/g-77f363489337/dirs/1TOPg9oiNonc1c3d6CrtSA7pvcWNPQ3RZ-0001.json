@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TOPg9oiNonc1c3d6CrtSA7pvcWNPQ3RZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UTsK58R81ycs1ob9Dec7VrRGWlMMXzhT",
+      "parent_id": "1TOPg9oiNonc1c3d6CrtSA7pvcWNPQ3RZ",
+      "name": "BA ĐIỀU BÍ ẨN.epub",
+      "mime": "application/epub+zip",
+      "size": 368317,
+      "modified": "2026-08-16T03:34:24.000Z",
+      "checksum": "9c259d947215d8a065cdd1fe54e9800d",
+      "folder": false
+    },
+    {
+      "id": "1G0nCbqcJrKktmPNpbkKBfzUD_PPfcTLA",
+      "parent_id": "1TOPg9oiNonc1c3d6CrtSA7pvcWNPQ3RZ",
+      "name": "BA ĐIỀU BÍ ẨN.pdf",
+      "mime": "application/pdf",
+      "size": 640864,
+      "modified": "2026-08-16T03:34:21.000Z",
+      "checksum": "4d2a5a3b9d2ebf47a2f0b8919b080b47",
+      "folder": false
+    },
+    {
+      "id": "1yiM_JJmDHLtnGkCf1e3SlncAvI43sNOw",
+      "parent_id": "1TOPg9oiNonc1c3d6CrtSA7pvcWNPQ3RZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3015,
+      "modified": "2026-08-16T03:34:17.000Z",
+      "checksum": "10f125d8fb8b844e7f9c60234168f02a",
+      "folder": false
+    }
+  ]
+}

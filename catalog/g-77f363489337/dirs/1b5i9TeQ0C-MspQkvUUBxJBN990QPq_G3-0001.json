@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1b5i9TeQ0C-MspQkvUUBxJBN990QPq_G3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gcSFMo8OKBiMKfGmuCYy91xn8t1O2U6a",
+      "parent_id": "1b5i9TeQ0C-MspQkvUUBxJBN990QPq_G3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2982,
+      "modified": "2026-08-16T04:16:09.000Z",
+      "checksum": "b32880fbffeb57005f0532ed82f7b32e",
+      "folder": false
+    },
+    {
+      "id": "1y2Tv0eNRYh5oKESUAniWo2bqYTGsGqOe",
+      "parent_id": "1b5i9TeQ0C-MspQkvUUBxJBN990QPq_G3",
+      "name": "NẾU EM Ở LẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 367498,
+      "modified": "2026-08-16T04:16:14.000Z",
+      "checksum": "ab7d9270b55c894848270c0dc6e0f790",
+      "folder": false
+    },
+    {
+      "id": "15NEFhWYVXsK_VeyFsyomxwZiM_bdVSTk",
+      "parent_id": "1b5i9TeQ0C-MspQkvUUBxJBN990QPq_G3",
+      "name": "NẾU EM Ở LẠI.pdf",
+      "mime": "application/pdf",
+      "size": 444432,
+      "modified": "2026-08-16T04:16:12.000Z",
+      "checksum": "ea38a9ab576ea633657ef5c1e71d383e",
+      "folder": false
+    }
+  ]
+}

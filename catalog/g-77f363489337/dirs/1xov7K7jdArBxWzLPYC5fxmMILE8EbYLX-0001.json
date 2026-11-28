@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xov7K7jdArBxWzLPYC5fxmMILE8EbYLX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UYuPBuQ_BNFBnfy6qdvGEUWnsgaV5EMK",
+      "parent_id": "1xov7K7jdArBxWzLPYC5fxmMILE8EbYLX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5719,
+      "modified": "2026-08-15T07:57:07.000Z",
+      "checksum": "f46e800dd1c4a52086346acb7753f7bb",
+      "folder": false
+    },
+    {
+      "id": "18V_NzMalX4BNXUOUsFrByT9aI_1RWAwF",
+      "parent_id": "1xov7K7jdArBxWzLPYC5fxmMILE8EbYLX",
+      "name": "ĐOÁN ÁN KỲ QUAN.epub",
+      "mime": "application/epub+zip",
+      "size": 1488090,
+      "modified": "2026-08-15T07:58:27.000Z",
+      "checksum": "b146e7c9910abb3456368e92eb6486b7",
+      "folder": false
+    },
+    {
+      "id": "1Uk7dat6_aQl4ptuWbSOKt7Fvnm96Y0kH",
+      "parent_id": "1xov7K7jdArBxWzLPYC5fxmMILE8EbYLX",
+      "name": "ĐOÁN ÁN KỲ QUAN.pdf",
+      "mime": "application/pdf",
+      "size": 5118503,
+      "modified": "2026-08-15T07:58:10.000Z",
+      "checksum": "fda10e66126a5fb354911ca84e3e2aaf",
+      "folder": false
+    }
+  ]
+}

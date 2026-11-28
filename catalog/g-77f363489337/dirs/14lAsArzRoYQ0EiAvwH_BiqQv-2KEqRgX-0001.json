@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14lAsArzRoYQ0EiAvwH_BiqQv-2KEqRgX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1erKvCNxeuTtU7rjDP5hxgSfJ-4ugL2Ex",
+      "parent_id": "14lAsArzRoYQ0EiAvwH_BiqQv-2KEqRgX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1914,
+      "modified": "2026-08-15T04:02:50.000Z",
+      "checksum": "185018ed41e1c5b170373fd293c4a367",
+      "folder": false
+    },
+    {
+      "id": "1fWaF6pf8aLWbIv9iPOy5ZcZXbfe_AreJ",
+      "parent_id": "14lAsArzRoYQ0EiAvwH_BiqQv-2KEqRgX",
+      "name": "SEN BÚP TỪNG CÀNH HÉ.epub",
+      "mime": "application/epub+zip",
+      "size": 305786,
+      "modified": "2026-08-15T04:02:57.000Z",
+      "checksum": "6d719ee59774fe077797c824ebb92c83",
+      "folder": false
+    },
+    {
+      "id": "1ORP_ycjEzGjGVSc3eQpmYOL0HcoVxVb6",
+      "parent_id": "14lAsArzRoYQ0EiAvwH_BiqQv-2KEqRgX",
+      "name": "SEN BÚP TỪNG CÀNH HÉ.pdf",
+      "mime": "application/pdf",
+      "size": 714222,
+      "modified": "2026-08-15T04:02:54.000Z",
+      "checksum": "897bf979290e2b149d250d84536babb5",
+      "folder": false
+    }
+  ]
+}

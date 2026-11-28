@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qYJaF_uxI3yGKrB_iB0afZ5OGmU2vLTN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WsrYvVHX2M9ej9M5mUJ9XTPPMw9QV7Kv",
+      "parent_id": "1qYJaF_uxI3yGKrB_iB0afZ5OGmU2vLTN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 16502,
+      "modified": "2026-08-15T07:34:15.000Z",
+      "checksum": "50172e326a838a1f3cad3c2ae1c0f02c",
+      "folder": false
+    },
+    {
+      "id": "1NQ6uEQfOGHmqKuw_pHwq4wZVOTkvnGmJ",
+      "parent_id": "1qYJaF_uxI3yGKrB_iB0afZ5OGmU2vLTN",
+      "name": "QUÊ HƯƠNG TAN RÃ.epub",
+      "mime": "application/epub+zip",
+      "size": 398161,
+      "modified": "2026-08-15T07:34:22.000Z",
+      "checksum": "51393ca629a2eb5494d7836fd3af70a1",
+      "folder": false
+    },
+    {
+      "id": "1aiJe2GYuiXgu7QFADLbkMzibkDYA8i8G",
+      "parent_id": "1qYJaF_uxI3yGKrB_iB0afZ5OGmU2vLTN",
+      "name": "QUÊ HƯƠNG TAN RÃ.pdf",
+      "mime": "application/pdf",
+      "size": 1003105,
+      "modified": "2026-08-15T07:34:19.000Z",
+      "checksum": "a866fa1791b13c76fae175672172f531",
+      "folder": false
+    }
+  ]
+}

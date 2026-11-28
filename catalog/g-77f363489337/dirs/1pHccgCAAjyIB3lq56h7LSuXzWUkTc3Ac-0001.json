@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pHccgCAAjyIB3lq56h7LSuXzWUkTc3Ac",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-LXUnk1HgT4hnyOTXODMxzDFPiycV_cy",
+      "parent_id": "1pHccgCAAjyIB3lq56h7LSuXzWUkTc3Ac",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6500,
+      "modified": "2026-08-16T04:23:55.000Z",
+      "checksum": "8c1a4dfc026b8c3fdc93a713d6391d2b",
+      "folder": false
+    },
+    {
+      "id": "1xl9lEJEbwgvPkkd9v-dVJLAPm0mSKbc1",
+      "parent_id": "1pHccgCAAjyIB3lq56h7LSuXzWUkTc3Ac",
+      "name": "NGƯỜI ĐÀN BÀ MÙ CHỮ.epub",
+      "mime": "application/epub+zip",
+      "size": 248421,
+      "modified": "2026-08-16T04:24:04.000Z",
+      "checksum": "7d191e67e1c3ca23adb4a013051d20e3",
+      "folder": false
+    },
+    {
+      "id": "1xFh1RPMW5g8vJKwXhyRGeGRqDpMsZbDF",
+      "parent_id": "1pHccgCAAjyIB3lq56h7LSuXzWUkTc3Ac",
+      "name": "NGƯỜI ĐÀN BÀ MÙ CHỮ.pdf",
+      "mime": "application/pdf",
+      "size": 250520,
+      "modified": "2026-08-16T04:23:59.000Z",
+      "checksum": "01cd03e3ed35e215685610afd86ea1d0",
+      "folder": false
+    }
+  ]
+}

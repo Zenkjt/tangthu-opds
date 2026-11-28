@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qeglwe8bybKy91kRH59Xo_cBoKeJWJlx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1x-utCN6tvgpuGbxDJJObKuSNVTCgXMeM",
+      "parent_id": "1qeglwe8bybKy91kRH59Xo_cBoKeJWJlx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1169,
+      "modified": "2026-08-15T12:37:54.000Z",
+      "checksum": "b4d673918c425801bedae379b1f4774e",
+      "folder": false
+    },
+    {
+      "id": "1dG94tabuDTrB2sg6_45eSc6NBkXqIEn9",
+      "parent_id": "1qeglwe8bybKy91kRH59Xo_cBoKeJWJlx",
+      "name": "TUYỂN CHỌN NHỮNG TRUYỆN CỔ TÍCH VIỆT NAM HAY NHẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 2192844,
+      "modified": "2026-08-15T12:38:43.000Z",
+      "checksum": "b24abd9583bcd161d4a5981aa43cbd19",
+      "folder": false
+    },
+    {
+      "id": "1mQqJHJj58MsTk3Uv0AZd97DkzuvU8jPO",
+      "parent_id": "1qeglwe8bybKy91kRH59Xo_cBoKeJWJlx",
+      "name": "TUYỂN CHỌN NHỮNG TRUYỆN CỔ TÍCH VIỆT NAM HAY NHẤT.pdf",
+      "mime": "application/pdf",
+      "size": 11769774,
+      "modified": "2026-08-15T12:38:31.000Z",
+      "checksum": "6d54fbe8a8c17ecfd224ea0677af4603",
+      "folder": false
+    }
+  ]
+}

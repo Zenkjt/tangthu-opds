@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1U0MzEQJ9y6z7lnVsD8fA5sUztE9Rvyh6",
+  "page": 1,
+  "items": [
+    {
+      "id": "16A7IxPcV_kE2Latse90K4PebbW5S6XDD",
+      "parent_id": "1U0MzEQJ9y6z7lnVsD8fA5sUztE9Rvyh6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3347,
+      "modified": "2026-08-16T03:01:27.000Z",
+      "checksum": "71428cefaf16a5afb6c71a893fb681bc",
+      "folder": false
+    },
+    {
+      "id": "1L6hGhGhq7xs8tvfY750te3kwhDaXe3_A",
+      "parent_id": "1U0MzEQJ9y6z7lnVsD8fA5sUztE9Rvyh6",
+      "name": "QUÁN GÒ ĐI LÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 797584,
+      "modified": "2026-08-16T03:01:34.000Z",
+      "checksum": "01350ef9872f4c5de3457d4708cb89c8",
+      "folder": false
+    },
+    {
+      "id": "1XEFdoGzX4uZHghJ5rmzR9jKLyQwyGA-m",
+      "parent_id": "1U0MzEQJ9y6z7lnVsD8fA5sUztE9Rvyh6",
+      "name": "QUÁN GÒ ĐI LÊN.pdf",
+      "mime": "application/pdf",
+      "size": 813358,
+      "modified": "2026-08-16T03:01:31.000Z",
+      "checksum": "c88268d62bf3ba984a5cd5062173ead3",
+      "folder": false
+    }
+  ]
+}

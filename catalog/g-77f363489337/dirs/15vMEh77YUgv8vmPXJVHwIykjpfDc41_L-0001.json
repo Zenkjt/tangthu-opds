@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15vMEh77YUgv8vmPXJVHwIykjpfDc41_L",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EcQgsKc_xVK-fxCbCDNnsCbhvbLd6ZGR",
+      "parent_id": "15vMEh77YUgv8vmPXJVHwIykjpfDc41_L",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 538,
+      "modified": "2026-08-16T04:04:44.000Z",
+      "checksum": "b28bbd0aeafe824ed509135905f2d121",
+      "folder": false
+    },
+    {
+      "id": "1otD7sDJaij4EPqkb4A5wiewJR0ne5R-j",
+      "parent_id": "15vMEh77YUgv8vmPXJVHwIykjpfDc41_L",
+      "name": "RỒNG ĐÁ.epub",
+      "mime": "application/epub+zip",
+      "size": 258772,
+      "modified": "2026-08-16T04:04:50.000Z",
+      "checksum": "daa4d8242f27b2c17f0e84fe87c50f6a",
+      "folder": false
+    },
+    {
+      "id": "1jM7zhPU7BtBzOWmpC-IRse7xXi0nPD4j",
+      "parent_id": "15vMEh77YUgv8vmPXJVHwIykjpfDc41_L",
+      "name": "RỒNG ĐÁ.pdf",
+      "mime": "application/pdf",
+      "size": 518945,
+      "modified": "2026-08-16T04:04:48.000Z",
+      "checksum": "ce62249bde01a981847564f184f26f49",
+      "folder": false
+    }
+  ]
+}

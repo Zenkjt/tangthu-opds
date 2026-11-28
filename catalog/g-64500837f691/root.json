@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "branch_id": "g-64500837f691",
+  "root_folder_id": "1-3xt0s1uLN43r65xG_ryVPAe8rW1LuFr",
+  "root_shards": [
+    "catalog/g-64500837f691/1-3xt0s1uLN43r65xG_ryVPAe8rW1LuFr-0001.json"
+  ],
+  "directories": [
+    {
+      "id": "1uy06BFqYGpEJ1ubEVWyW3G-OUcFjgTZm",
+      "name": "Convert",
+      "parent_id": "1-3xt0s1uLN43r65xG_ryVPAe8rW1LuFr",
+      "shards": [
+        "catalog/g-64500837f691/dirs/1uy06BFqYGpEJ1ubEVWyW3G-OUcFjgTZm-0001.json"
+      ]
+    }
+  ]
+}

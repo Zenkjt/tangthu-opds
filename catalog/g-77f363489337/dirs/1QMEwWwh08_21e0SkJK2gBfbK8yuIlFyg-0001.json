@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QMEwWwh08_21e0SkJK2gBfbK8yuIlFyg",
+  "page": 1,
+  "items": [
+    {
+      "id": "13k3XxfUASfC_4wEplndRg5KT8WlkeDrE",
+      "parent_id": "1QMEwWwh08_21e0SkJK2gBfbK8yuIlFyg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6208,
+      "modified": "2026-08-15T17:01:48.000Z",
+      "checksum": "6ba0f07f83844889828631927ab14d1f",
+      "folder": false
+    },
+    {
+      "id": "18sM68dd6SGeCw4EZ6OTmmqK0seEmqH7W",
+      "parent_id": "1QMEwWwh08_21e0SkJK2gBfbK8yuIlFyg",
+      "name": "MỤC NHIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 1667347,
+      "modified": "2026-08-15T17:01:56.000Z",
+      "checksum": "69b54882c79c9baf3b9edbb50d5b9ae8",
+      "folder": false
+    },
+    {
+      "id": "1f1R3FqeZd7VMCuwj8r2W11f4i4F57VJ-",
+      "parent_id": "1QMEwWwh08_21e0SkJK2gBfbK8yuIlFyg",
+      "name": "MỤC NHIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 1682611,
+      "modified": "2026-08-15T17:01:53.000Z",
+      "checksum": "e436b9d1760212ba2d92499c8b80127b",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MGV2YNrRYMyceajDYRdL3JEn06igR9t1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jff3Bw4FOQHgrnR7Di7fj3zwI5iBtkaO",
+      "parent_id": "1MGV2YNrRYMyceajDYRdL3JEn06igR9t1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3296,
+      "modified": "2026-08-16T02:54:36.000Z",
+      "checksum": "8add597704c7e018a0c058c83c153dec",
+      "folder": false
+    },
+    {
+      "id": "15J32V-rO1XWHjcmS76amAhXSZHJgaXF6",
+      "parent_id": "1MGV2YNrRYMyceajDYRdL3JEn06igR9t1",
+      "name": "TUYỂN TẬP TRUYỆN CỔ TÍCH THẾ GIỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 583771,
+      "modified": "2026-08-16T02:54:43.000Z",
+      "checksum": "f2ec5a9c4e1715f8dbed1f3a2dbdd83b",
+      "folder": false
+    },
+    {
+      "id": "1XwPFP_iSTANA3JaOBoDbRGd7KE5LJ5C8",
+      "parent_id": "1MGV2YNrRYMyceajDYRdL3JEn06igR9t1",
+      "name": "TUYỂN TẬP TRUYỆN CỔ TÍCH THẾ GIỚI.pdf",
+      "mime": "application/pdf",
+      "size": 1423262,
+      "modified": "2026-08-16T02:54:41.000Z",
+      "checksum": "e81314274081b920fc1157f09e8e974a",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JhvoWLcvMfhXIas_llNaAK6gUtuAZtyQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hgB7eKIWQtCpzJmACFZJochcBK6QVD4_",
+      "parent_id": "1JhvoWLcvMfhXIas_llNaAK6gUtuAZtyQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2092,
+      "modified": "2026-08-16T02:49:45.000Z",
+      "checksum": "7b25a1b314da37a9aa6a6941ce7c2354",
+      "folder": false
+    },
+    {
+      "id": "1YxmjxgfoxHYVb4vj7rKcuureOjuaVtLI",
+      "parent_id": "1JhvoWLcvMfhXIas_llNaAK6gUtuAZtyQ",
+      "name": "NGỒI KHÓC TRÊN CÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 428686,
+      "modified": "2026-08-16T02:49:52.000Z",
+      "checksum": "388e7e3a75f8dcdfdae4f3b343e7bb71",
+      "folder": false
+    },
+    {
+      "id": "1It2afEhP9Ujjz-GhcKYjoTY76dEJx1TN",
+      "parent_id": "1JhvoWLcvMfhXIas_llNaAK6gUtuAZtyQ",
+      "name": "NGỒI KHÓC TRÊN CÂY.pdf",
+      "mime": "application/pdf",
+      "size": 639861,
+      "modified": "2026-08-16T02:49:49.000Z",
+      "checksum": "6367680802fa898e400d976892f79de8",
+      "folder": false
+    }
+  ]
+}

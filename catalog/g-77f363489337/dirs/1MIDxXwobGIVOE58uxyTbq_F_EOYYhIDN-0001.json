@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MIDxXwobGIVOE58uxyTbq_F_EOYYhIDN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XtB41whP_g6-pgBogVzrQ38Kt7OX6Q6D",
+      "parent_id": "1MIDxXwobGIVOE58uxyTbq_F_EOYYhIDN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 477,
+      "modified": "2026-08-15T10:56:18.000Z",
+      "checksum": "25984d57523f0b1bc4b046dabe50b256",
+      "folder": false
+    },
+    {
+      "id": "1Nj4RClM_0TDQGgsmeh_tfKmq2RqVfnIq",
+      "parent_id": "1MIDxXwobGIVOE58uxyTbq_F_EOYYhIDN",
+      "name": "HOKKAIDO MÊ TRẬN ÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 1061956,
+      "modified": "2026-08-15T10:56:24.000Z",
+      "checksum": "d4014e1ac8494debc38c38f7f446b4c2",
+      "folder": false
+    },
+    {
+      "id": "1PcLwTcY5krlrbkYv2zSIVnzgSU7j7EDx",
+      "parent_id": "1MIDxXwobGIVOE58uxyTbq_F_EOYYhIDN",
+      "name": "HOKKAIDO MÊ TRẬN ÁN.pdf",
+      "mime": "application/pdf",
+      "size": 1563966,
+      "modified": "2026-08-15T10:56:22.000Z",
+      "checksum": "0b517df02af95641aba621b60cba8888",
+      "folder": false
+    }
+  ]
+}

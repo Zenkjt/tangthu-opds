@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UfZGjp59j_KuGJ1fo5VicaTlDHwEsH7W",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wFbHe5BPfRiJ6XDqnIJwfTXmbGTVXyv7",
+      "parent_id": "1UfZGjp59j_KuGJ1fo5VicaTlDHwEsH7W",
+      "name": "CANH KHUYA.epub",
+      "mime": "application/epub+zip",
+      "size": 475708,
+      "modified": "2026-08-15T08:04:31.000Z",
+      "checksum": "c2aa59e07ba16f27ea86e818e1916b46",
+      "folder": false
+    },
+    {
+      "id": "1K0mWKSY2uq6eOGo92oMYPLLX06VwMcE6",
+      "parent_id": "1UfZGjp59j_KuGJ1fo5VicaTlDHwEsH7W",
+      "name": "CANH KHUYA.pdf",
+      "mime": "application/pdf",
+      "size": 823967,
+      "modified": "2026-08-15T08:04:28.000Z",
+      "checksum": "942774c13fa1fe152bc42bdad2f4d2c2",
+      "folder": false
+    },
+    {
+      "id": "1prEfkrSI003okiBvotIOJFEL15KrYLbL",
+      "parent_id": "1UfZGjp59j_KuGJ1fo5VicaTlDHwEsH7W",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4315,
+      "modified": "2026-08-15T08:04:25.000Z",
+      "checksum": "8319924de6a9215a54c35dfea1fd3ea5",
+      "folder": false
+    }
+  ]
+}

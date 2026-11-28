@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1m0CnvKFkgTcdlqB_GqRoJXOQj8VI8Fuu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1e_B2PPlNscPUyTd4KHXzv-Lp3wQbiqGc",
+      "parent_id": "1m0CnvKFkgTcdlqB_GqRoJXOQj8VI8Fuu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2919,
+      "modified": "2026-08-16T02:54:42.000Z",
+      "checksum": "1e52d31ed21848adde3f649a185fce4a",
+      "folder": false
+    },
+    {
+      "id": "16hfCRAO6dnPMzga6b6Va8uyC5Sd1J_X7",
+      "parent_id": "1m0CnvKFkgTcdlqB_GqRoJXOQj8VI8Fuu",
+      "name": "MƯỜI NĂM THƯƠNG NHỚ.epub",
+      "mime": "application/epub+zip",
+      "size": 3688745,
+      "modified": "2026-08-16T02:54:51.000Z",
+      "checksum": "13670ecf7d5d3a2416e1af3552186b89",
+      "folder": false
+    },
+    {
+      "id": "1P8UE4yu4ihVljvLTQSdqM9NsqzoZKLVU",
+      "parent_id": "1m0CnvKFkgTcdlqB_GqRoJXOQj8VI8Fuu",
+      "name": "MƯỜI NĂM THƯƠNG NHỚ.pdf",
+      "mime": "application/pdf",
+      "size": 2662884,
+      "modified": "2026-08-16T02:54:48.000Z",
+      "checksum": "7679fa1cea1bb396e3360b124a72bbb8",
+      "folder": false
+    }
+  ]
+}

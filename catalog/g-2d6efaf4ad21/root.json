@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "branch_id": "g-2d6efaf4ad21",
+  "root_folder_id": "1zFqvGniUeM5Yn6CyM_7_sJIcW5ZOUklP",
+  "root_shards": [
+    "catalog/g-2d6efaf4ad21/1zFqvGniUeM5Yn6CyM_7_sJIcW5ZOUklP-0001.json"
+  ],
+  "directories": [
+    {
+      "id": "1BXgbTkeABFZr9GzhD3_LuTssHL5JtHI4",
+      "name": "Tuyển Tập Alexandre Dumas",
+      "parent_id": "1WTYBgNJ2NV4lpL7dtXVJAkvO8ulHf9C_",
+      "shards": [
+        "catalog/g-2d6efaf4ad21/dirs/1BXgbTkeABFZr9GzhD3_LuTssHL5JtHI4-0001.json"
+      ]
+    },
+    {
+      "id": "1WTYBgNJ2NV4lpL7dtXVJAkvO8ulHf9C_",
+      "name": "Dumas, Alexandre",
+      "parent_id": "1zFqvGniUeM5Yn6CyM_7_sJIcW5ZOUklP",
+      "shards": [
+        "catalog/g-2d6efaf4ad21/dirs/1WTYBgNJ2NV4lpL7dtXVJAkvO8ulHf9C_-0001.json"
+      ]
+    },
+    {
+      "id": "1XxG_d73Kje-oJFop_1vDIVhqPQ8ZEdKO",
+      "name": "Lich su Trung quoc 5000 nam",
+      "parent_id": "1zFqvGniUeM5Yn6CyM_7_sJIcW5ZOUklP",
+      "shards": [
+        "catalog/g-2d6efaf4ad21/dirs/1XxG_d73Kje-oJFop_1vDIVhqPQ8ZEdKO-0001.json"
+      ]
+    },
+    {
+      "id": "1g7uL17_WxELo4ttUZadpzxKpvLNdWkUQ",
+      "name": "Đã chép",
+      "parent_id": "1zFqvGniUeM5Yn6CyM_7_sJIcW5ZOUklP",
+      "shards": [
+        "catalog/g-2d6efaf4ad21/dirs/1g7uL17_WxELo4ttUZadpzxKpvLNdWkUQ-0001.json"
+      ]
+    }
+  ]
+}

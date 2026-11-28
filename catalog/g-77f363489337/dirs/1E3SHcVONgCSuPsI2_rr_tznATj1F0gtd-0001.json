@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1E3SHcVONgCSuPsI2_rr_tznATj1F0gtd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Xr9nkEFOvDfqw0bxurw-YUJAPXFtPlyk",
+      "parent_id": "1E3SHcVONgCSuPsI2_rr_tznATj1F0gtd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3674,
+      "modified": "2026-08-15T07:40:03.000Z",
+      "checksum": "e5c25fc97a28471156acfdc72fe82103",
+      "folder": false
+    },
+    {
+      "id": "1TIkC023nlpbLvW1SHaLSTND8i-PAUuaD",
+      "parent_id": "1E3SHcVONgCSuPsI2_rr_tznATj1F0gtd",
+      "name": "LỤC TÍCH CHI ĐẠI HOANG TẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 504576,
+      "modified": "2026-08-15T07:40:10.000Z",
+      "checksum": "da87568ed3c4e5ea1cfe49dd6b586641",
+      "folder": false
+    },
+    {
+      "id": "1jT2wFW7QX2-SphhMJbDUMYLw_dv5Yjfg",
+      "parent_id": "1E3SHcVONgCSuPsI2_rr_tznATj1F0gtd",
+      "name": "LỤC TÍCH CHI ĐẠI HOANG TẾ.pdf",
+      "mime": "application/pdf",
+      "size": 1659183,
+      "modified": "2026-08-15T07:40:08.000Z",
+      "checksum": "ae6aca1c394695e1f1a482303ca8562e",
+      "folder": false
+    }
+  ]
+}

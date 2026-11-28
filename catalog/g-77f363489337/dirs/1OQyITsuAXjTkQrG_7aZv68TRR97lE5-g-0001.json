@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OQyITsuAXjTkQrG_7aZv68TRR97lE5-g",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LZnp3Ve5ACM95EWHCqGXfdZARpVMf0FH",
+      "parent_id": "1OQyITsuAXjTkQrG_7aZv68TRR97lE5-g",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 509,
+      "modified": "2026-08-15T10:22:42.000Z",
+      "checksum": "105ecbf351dae8f42631a7ae5bb8ccf4",
+      "folder": false
+    },
+    {
+      "id": "1_Rjz1sr0zvvGJnogXX9iVJXgNN7JE3ii",
+      "parent_id": "1OQyITsuAXjTkQrG_7aZv68TRR97lE5-g",
+      "name": "TẤN BI KỊCH X.epub",
+      "mime": "application/epub+zip",
+      "size": 547695,
+      "modified": "2026-08-15T10:23:05.000Z",
+      "checksum": "be75b95e320e9ea909f5324587e48852",
+      "folder": false
+    },
+    {
+      "id": "11weqlbpcnRTb33tEydSbbAIwbspQEzVK",
+      "parent_id": "1OQyITsuAXjTkQrG_7aZv68TRR97lE5-g",
+      "name": "TẤN BI KỊCH X.pdf",
+      "mime": "application/pdf",
+      "size": 1394596,
+      "modified": "2026-08-15T10:22:56.000Z",
+      "checksum": "6ead9375a7c5391bce5b509722444e1a",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WV5MpwIgWLpu5hD4hqJbsQ0syCN6K0YJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vIvmJ1S2EVKNI_fIX4kZmAXGmMyAd-3j",
+      "parent_id": "1WV5MpwIgWLpu5hD4hqJbsQ0syCN6K0YJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3243,
+      "modified": "2026-08-16T03:23:17.000Z",
+      "checksum": "b4b831b7cf8e6d405bf8551911c38ce0",
+      "folder": false
+    },
+    {
+      "id": "1Oj_qb_00rQHnm7zLFmMOquSwoIRTBEx5",
+      "parent_id": "1WV5MpwIgWLpu5hD4hqJbsQ0syCN6K0YJ",
+      "name": "NGÔI SAO CỦA QUỶ.epub",
+      "mime": "application/epub+zip",
+      "size": 958025,
+      "modified": "2026-08-16T03:23:24.000Z",
+      "checksum": "38013583c0a0fc0e53cc64d9c3b51937",
+      "folder": false
+    },
+    {
+      "id": "1t9PP9KkTv92BzLU8ap0Cjuw3kOWFMuqg",
+      "parent_id": "1WV5MpwIgWLpu5hD4hqJbsQ0syCN6K0YJ",
+      "name": "NGÔI SAO CỦA QUỶ.pdf",
+      "mime": "application/pdf",
+      "size": 1938107,
+      "modified": "2026-08-16T03:23:21.000Z",
+      "checksum": "a8e87598799fa8ad462565577f97e269",
+      "folder": false
+    }
+  ]
+}

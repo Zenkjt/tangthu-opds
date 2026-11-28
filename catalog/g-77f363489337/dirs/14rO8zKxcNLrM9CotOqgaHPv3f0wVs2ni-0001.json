@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14rO8zKxcNLrM9CotOqgaHPv3f0wVs2ni",
+  "page": 1,
+  "items": [
+    {
+      "id": "10Vy-RXcmckpAVy7og3sxu-AEsHqN2ZdX",
+      "parent_id": "14rO8zKxcNLrM9CotOqgaHPv3f0wVs2ni",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5347,
+      "modified": "2026-08-15T04:00:03.000Z",
+      "checksum": "786674ad0367afd7b13aa80b9ccaa9c6",
+      "folder": false
+    },
+    {
+      "id": "1Rd-yod9CIyFSczv8xB9S-a5w625jCrVh",
+      "parent_id": "14rO8zKxcNLrM9CotOqgaHPv3f0wVs2ni",
+      "name": "VẤN ĐÁP PHẬT GIÁO.epub",
+      "mime": "application/epub+zip",
+      "size": 269905,
+      "modified": "2026-08-15T04:00:08.000Z",
+      "checksum": "ae66290425e5254dc15d4935580e0c74",
+      "folder": false
+    },
+    {
+      "id": "1qR-Roknkt7oPPNminihoSnY9pMHhTQOe",
+      "parent_id": "14rO8zKxcNLrM9CotOqgaHPv3f0wVs2ni",
+      "name": "VẤN ĐÁP PHẬT GIÁO.pdf",
+      "mime": "application/pdf",
+      "size": 598454,
+      "modified": "2026-08-15T04:00:06.000Z",
+      "checksum": "d4a0ad18b782509c58bd2fadb28eaf10",
+      "folder": false
+    }
+  ]
+}

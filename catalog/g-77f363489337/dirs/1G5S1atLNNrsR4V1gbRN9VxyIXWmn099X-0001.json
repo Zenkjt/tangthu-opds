@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1G5S1atLNNrsR4V1gbRN9VxyIXWmn099X",
+  "page": 1,
+  "items": [
+    {
+      "id": "1viVhxX-k-3R473JqETe-cEmCh-eUYL9s",
+      "parent_id": "1G5S1atLNNrsR4V1gbRN9VxyIXWmn099X",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7059,
+      "modified": "2026-08-16T03:12:09.000Z",
+      "checksum": "905224fd87c03b1857e6dde7ba6b148a",
+      "folder": false
+    },
+    {
+      "id": "1ejw2mRTN_EavGMZlLNYI9PbNBCdfPxdu",
+      "parent_id": "1G5S1atLNNrsR4V1gbRN9VxyIXWmn099X",
+      "name": "GIẢI THƯỞNG BẤT NGỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 770333,
+      "modified": "2026-08-16T03:12:15.000Z",
+      "checksum": "762233c8662012d72c15c2c833b16a51",
+      "folder": false
+    },
+    {
+      "id": "1teHuhpfGmQyc8EYXxRyxomn2M-DtOk_0",
+      "parent_id": "1G5S1atLNNrsR4V1gbRN9VxyIXWmn099X",
+      "name": "GIẢI THƯỞNG BẤT NGỜ.pdf",
+      "mime": "application/pdf",
+      "size": 1062172,
+      "modified": "2026-08-16T03:12:13.000Z",
+      "checksum": "0d3ec2fb53be30ac6ef4bfe2210751bb",
+      "folder": false
+    }
+  ]
+}

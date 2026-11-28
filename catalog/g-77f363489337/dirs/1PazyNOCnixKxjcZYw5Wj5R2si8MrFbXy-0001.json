@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PazyNOCnixKxjcZYw5Wj5R2si8MrFbXy",
+  "page": 1,
+  "items": [
+    {
+      "id": "18xLqujzqexyaH5QU5LePAeY0Qkq5Rg5_",
+      "parent_id": "1PazyNOCnixKxjcZYw5Wj5R2si8MrFbXy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3020,
+      "modified": "2026-08-16T04:15:48.000Z",
+      "checksum": "5dcd6791e2065f37866795495c7da0e1",
+      "folder": false
+    },
+    {
+      "id": "15EhBXNc94AqBr3swNguaXWtmaI0WBlWE",
+      "parent_id": "1PazyNOCnixKxjcZYw5Wj5R2si8MrFbXy",
+      "name": "NGÂM NGA (BÁN NGÂM).epub",
+      "mime": "application/epub+zip",
+      "size": 645179,
+      "modified": "2026-08-16T04:15:57.000Z",
+      "checksum": "7514f30393114c88d39e106c8483da14",
+      "folder": false
+    },
+    {
+      "id": "1xfracbkBX3jTYD6nSrCKnwcbt8qYoZr4",
+      "parent_id": "1PazyNOCnixKxjcZYw5Wj5R2si8MrFbXy",
+      "name": "NGÂM NGA (BÁN NGÂM).pdf",
+      "mime": "application/pdf",
+      "size": 2369409,
+      "modified": "2026-08-16T04:15:54.000Z",
+      "checksum": "83d6d8422039aebccc9099427ec80e14",
+      "folder": false
+    }
+  ]
+}

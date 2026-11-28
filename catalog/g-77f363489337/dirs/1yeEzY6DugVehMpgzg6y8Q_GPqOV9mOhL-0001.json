@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yeEzY6DugVehMpgzg6y8Q_GPqOV9mOhL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JhV3NLWZe3QaYpTZ6_LEF9AnzBOWxNxn",
+      "parent_id": "1yeEzY6DugVehMpgzg6y8Q_GPqOV9mOhL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3164,
+      "modified": "2026-08-15T06:23:51.000Z",
+      "checksum": "5af701101fe716718990cee5711ec2ac",
+      "folder": false
+    },
+    {
+      "id": "1QWzVuPO2PBXF4mwCOjnRMnOlG4aIh_9G",
+      "parent_id": "1yeEzY6DugVehMpgzg6y8Q_GPqOV9mOhL",
+      "name": "ÔNG GIÀ GORIOT.epub",
+      "mime": "application/epub+zip",
+      "size": 777920,
+      "modified": "2026-08-15T06:24:35.000Z",
+      "checksum": "bdcd6fa4bacb383d930efa1a86f83429",
+      "folder": false
+    },
+    {
+      "id": "1Z54tnr9KLKyS-Lp5LdfBoFikoZm4syCS",
+      "parent_id": "1yeEzY6DugVehMpgzg6y8Q_GPqOV9mOhL",
+      "name": "ÔNG GIÀ GORIOT.pdf",
+      "mime": "application/pdf",
+      "size": 893109,
+      "modified": "2026-08-15T06:24:03.000Z",
+      "checksum": "557a401a0f9670be1ed2c948eecb77b2",
+      "folder": false
+    }
+  ]
+}

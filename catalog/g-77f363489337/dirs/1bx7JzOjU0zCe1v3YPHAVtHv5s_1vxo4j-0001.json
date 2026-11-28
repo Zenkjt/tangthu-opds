@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bx7JzOjU0zCe1v3YPHAVtHv5s_1vxo4j",
+  "page": 1,
+  "items": [
+    {
+      "id": "1f46JpDKYPJIITjXN3CNzUlBDpzdaetlX",
+      "parent_id": "1bx7JzOjU0zCe1v3YPHAVtHv5s_1vxo4j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3002,
+      "modified": "2026-08-15T10:36:24.000Z",
+      "checksum": "e057f609bc26ca65ebf2a219bab0acbc",
+      "folder": false
+    },
+    {
+      "id": "1LDyv7OpwvJOE4s3bAGpzqA9Asj6SJbzE",
+      "parent_id": "1bx7JzOjU0zCe1v3YPHAVtHv5s_1vxo4j",
+      "name": "NỖI BUỒN THÁNG BA.epub",
+      "mime": "application/epub+zip",
+      "size": 373853,
+      "modified": "2026-08-15T10:36:30.000Z",
+      "checksum": "e0811aa5905e588ee16f13ace6c48aef",
+      "folder": false
+    },
+    {
+      "id": "1q2ZS9rY9qZgQwMbpXrQtK26qDH5H4qYI",
+      "parent_id": "1bx7JzOjU0zCe1v3YPHAVtHv5s_1vxo4j",
+      "name": "NỖI BUỒN THÁNG BA.pdf",
+      "mime": "application/pdf",
+      "size": 456653,
+      "modified": "2026-08-15T10:36:28.000Z",
+      "checksum": "5ba097083500870068aeda3d54e4c29e",
+      "folder": false
+    }
+  ]
+}

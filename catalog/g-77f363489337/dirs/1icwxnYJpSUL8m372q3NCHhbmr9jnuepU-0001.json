@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1icwxnYJpSUL8m372q3NCHhbmr9jnuepU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Z9NjEjjiPtyiZ8h4-PT6AAxEs-Hy_Thh",
+      "parent_id": "1icwxnYJpSUL8m372q3NCHhbmr9jnuepU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5980,
+      "modified": "2026-08-15T07:35:14.000Z",
+      "checksum": "e6abcf1b0e28eefec29ba8cfc88dbbaa",
+      "folder": false
+    },
+    {
+      "id": "1RUExuX22OtlM0WqUkedeuHSYVm_shfjv",
+      "parent_id": "1icwxnYJpSUL8m372q3NCHhbmr9jnuepU",
+      "name": "GIẤC MỘNG ĐẾ VƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1211514,
+      "modified": "2026-08-15T07:35:27.000Z",
+      "checksum": "907560eec851d0ec20973fc72656739a",
+      "folder": false
+    },
+    {
+      "id": "1vZNav0AoBZv9m7BP4uQMmOaOk0w7h-hY",
+      "parent_id": "1icwxnYJpSUL8m372q3NCHhbmr9jnuepU",
+      "name": "GIẤC MỘNG ĐẾ VƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 4450525,
+      "modified": "2026-08-15T07:35:24.000Z",
+      "checksum": "7504d70c7660ddc8fb4a89942233463e",
+      "folder": false
+    }
+  ]
+}

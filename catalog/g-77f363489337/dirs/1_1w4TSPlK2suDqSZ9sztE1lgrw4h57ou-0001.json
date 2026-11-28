@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_1w4TSPlK2suDqSZ9sztE1lgrw4h57ou",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aL7b4bpig3Qoj79OMuXf2N9C8HaFf2bn",
+      "parent_id": "1_1w4TSPlK2suDqSZ9sztE1lgrw4h57ou",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6166,
+      "modified": "2026-08-15T10:38:14.000Z",
+      "checksum": "c05f063202a2196ab9ef6da52ff564fb",
+      "folder": false
+    },
+    {
+      "id": "1dohnNW0hsxwwS-wtTwiSWctrLp0v_uTY",
+      "parent_id": "1_1w4TSPlK2suDqSZ9sztE1lgrw4h57ou",
+      "name": "NHỤC HỒNG NGẢI.epub",
+      "mime": "application/epub+zip",
+      "size": 400454,
+      "modified": "2026-08-15T10:38:20.000Z",
+      "checksum": "e6d2d465bbb8a50b96e12fa9ccc96035",
+      "folder": false
+    },
+    {
+      "id": "1tXdpVM3RbsXoeRn_heTwqSAvizMVCkJs",
+      "parent_id": "1_1w4TSPlK2suDqSZ9sztE1lgrw4h57ou",
+      "name": "NHỤC HỒNG NGẢI.pdf",
+      "mime": "application/pdf",
+      "size": 721532,
+      "modified": "2026-08-15T10:38:18.000Z",
+      "checksum": "a0c4299efa7e6a4f5871845dd8d155fe",
+      "folder": false
+    }
+  ]
+}

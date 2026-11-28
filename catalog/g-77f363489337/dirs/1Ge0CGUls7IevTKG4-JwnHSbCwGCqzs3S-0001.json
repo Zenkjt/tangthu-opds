@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ge0CGUls7IevTKG4-JwnHSbCwGCqzs3S",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ggb4UGSkLZHdofe8K3nhJLW7VV0o8tcy",
+      "parent_id": "1Ge0CGUls7IevTKG4-JwnHSbCwGCqzs3S",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7946,
+      "modified": "2026-08-15T09:48:33.000Z",
+      "checksum": "8a33190beda252035382c1b210f59550",
+      "folder": false
+    },
+    {
+      "id": "1_EKWzHDYWc20NC4XRr9FyHkeZNwjOQGE",
+      "parent_id": "1Ge0CGUls7IevTKG4-JwnHSbCwGCqzs3S",
+      "name": "HỈ OA.epub",
+      "mime": "application/epub+zip",
+      "size": 410730,
+      "modified": "2026-08-15T09:48:38.000Z",
+      "checksum": "18b04a03c829125090ecf544d7af52dd",
+      "folder": false
+    },
+    {
+      "id": "1x7Y9X9N_wFTd_CS1OVhvbey7tBT7kPP2",
+      "parent_id": "1Ge0CGUls7IevTKG4-JwnHSbCwGCqzs3S",
+      "name": "HỈ OA.pdf",
+      "mime": "application/pdf",
+      "size": 640889,
+      "modified": "2026-08-15T09:48:36.000Z",
+      "checksum": "be9ccf0a5136a0ed27803764e4c1f5da",
+      "folder": false
+    }
+  ]
+}

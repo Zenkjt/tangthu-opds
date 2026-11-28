@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_dzQKv-eIN-tUlzDcq3O46edjpVjPsjG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1l3JujjSVCQhH1d6UKE1x0D6bSGbl-arJ",
+      "parent_id": "1_dzQKv-eIN-tUlzDcq3O46edjpVjPsjG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2043,
+      "modified": "2026-08-15T07:42:00.000Z",
+      "checksum": "df9dcfba03f981e20c484dbc3180f4f5",
+      "folder": false
+    },
+    {
+      "id": "1rJX_hqK6jHp3oKcEy02ga1ooKxOPBVog",
+      "parent_id": "1_dzQKv-eIN-tUlzDcq3O46edjpVjPsjG",
+      "name": "ĐIỀU BÁC SĨ MUỐN.epub",
+      "mime": "application/epub+zip",
+      "size": 458301,
+      "modified": "2026-08-15T07:42:06.000Z",
+      "checksum": "908752c84ae13e2663011675cbd07be8",
+      "folder": false
+    },
+    {
+      "id": "1dETr_gME23fNwOtaApx2YUB34OkGbbpH",
+      "parent_id": "1_dzQKv-eIN-tUlzDcq3O46edjpVjPsjG",
+      "name": "ĐIỀU BÁC SĨ MUỐN.pdf",
+      "mime": "application/pdf",
+      "size": 881482,
+      "modified": "2026-08-15T07:42:04.000Z",
+      "checksum": "9db11fa142c3dfca92f2a0f36adb5191",
+      "folder": false
+    }
+  ]
+}

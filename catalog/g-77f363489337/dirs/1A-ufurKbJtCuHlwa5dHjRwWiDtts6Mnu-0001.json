@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1A-ufurKbJtCuHlwa5dHjRwWiDtts6Mnu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ze17hFDiREwuEbkwY78buqqs5mhztVev",
+      "parent_id": "1A-ufurKbJtCuHlwa5dHjRwWiDtts6Mnu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4370,
+      "modified": "2026-08-15T03:36:41.000Z",
+      "checksum": "4a047131fd9ce188ab454db2da4f0f87",
+      "folder": false
+    },
+    {
+      "id": "1BR2mlTFaszuXhrbLNI3x0TFeAL3R6FBy",
+      "parent_id": "1A-ufurKbJtCuHlwa5dHjRwWiDtts6Mnu",
+      "name": "THIỀN ĐỐN NGỘ.epub",
+      "mime": "application/epub+zip",
+      "size": 433794,
+      "modified": "2026-08-15T03:36:48.000Z",
+      "checksum": "327226280ae7d5631bfc7c7c02e656df",
+      "folder": false
+    },
+    {
+      "id": "1Ds9IBqXxJjdRqIA2a8kfFbWgiXuKhQf6",
+      "parent_id": "1A-ufurKbJtCuHlwa5dHjRwWiDtts6Mnu",
+      "name": "THIỀN ĐỐN NGỘ.pdf",
+      "mime": "application/pdf",
+      "size": 723768,
+      "modified": "2026-08-15T03:36:46.000Z",
+      "checksum": "d9cc7a445242ee899ecfa68c5ce0fdb8",
+      "folder": false
+    }
+  ]
+}

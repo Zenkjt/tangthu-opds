@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hKQuhiOY-ouMsvXPqFxGsvIO5YxJK8uz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ATRGQrpcdG_-EPWNsPm7dCXfJARpAva0",
+      "parent_id": "1hKQuhiOY-ouMsvXPqFxGsvIO5YxJK8uz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1889,
+      "modified": "2026-08-15T07:37:39.000Z",
+      "checksum": "0c25e063637d0be33ee419d2760aa4f4",
+      "folder": false
+    },
+    {
+      "id": "1Z7yBPrB-ZAL8Qbm4zba9BH8A0ijI978R",
+      "parent_id": "1hKQuhiOY-ouMsvXPqFxGsvIO5YxJK8uz",
+      "name": "THƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 505593,
+      "modified": "2026-08-15T07:37:46.000Z",
+      "checksum": "9c08c9d2452336e3a9a09ee276fbeb90",
+      "folder": false
+    },
+    {
+      "id": "1WVuPmUxUeWXpwrWgTfFaJPaVXwAf0g-6",
+      "parent_id": "1hKQuhiOY-ouMsvXPqFxGsvIO5YxJK8uz",
+      "name": "THƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1296786,
+      "modified": "2026-08-15T07:37:43.000Z",
+      "checksum": "301b63a6879a1d934fdade2e56d16c8e",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RWx2JcrYUNJHiEuGE_jwRZl6XrGg94dO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lL5xBl8DN8MfmDIFkmTT3Cekzib_UhRb",
+      "parent_id": "1RWx2JcrYUNJHiEuGE_jwRZl6XrGg94dO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3040,
+      "modified": "2026-08-16T03:42:59.000Z",
+      "checksum": "08c9a65fd6ed2b974d8e2529733319a8",
+      "folder": false
+    },
+    {
+      "id": "1jlIlHUotn7tbyqqjsza-BDeEEum_joJm",
+      "parent_id": "1RWx2JcrYUNJHiEuGE_jwRZl6XrGg94dO",
+      "name": "DU ĐỒNG NỞ HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 579493,
+      "modified": "2026-08-16T03:43:06.000Z",
+      "checksum": "beaedfd66a2b8475452d466a72c8c2bf",
+      "folder": false
+    },
+    {
+      "id": "1oD-HPgfCTkLuATv9OLPpiEd5AA9u2iEh",
+      "parent_id": "1RWx2JcrYUNJHiEuGE_jwRZl6XrGg94dO",
+      "name": "DU ĐỒNG NỞ HOA.pdf",
+      "mime": "application/pdf",
+      "size": 1412144,
+      "modified": "2026-08-16T03:43:03.000Z",
+      "checksum": "5f15059d4528896567e2cb941325f082",
+      "folder": false
+    }
+  ]
+}

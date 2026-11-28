@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MnE6dhZuyswp628ddElpZdyYH8XGlRjM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1r9DAhCOBAHYgG38l9vxCXF-5g4nlrdE3",
+      "parent_id": "1MnE6dhZuyswp628ddElpZdyYH8XGlRjM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 705,
+      "modified": "2026-08-16T04:20:43.000Z",
+      "checksum": "9c4e456304a0956cf731b629f280d57d",
+      "folder": false
+    },
+    {
+      "id": "1loYm0k7U1GizUO694CrPPKKx0JRkP9Ta",
+      "parent_id": "1MnE6dhZuyswp628ddElpZdyYH8XGlRjM",
+      "name": "ĐẤT NGHỊCH.epub",
+      "mime": "application/epub+zip",
+      "size": 349054,
+      "modified": "2026-08-16T04:20:49.000Z",
+      "checksum": "3786c08c7c1641248abaad356a812364",
+      "folder": false
+    },
+    {
+      "id": "1So7O975Sgg2hshBQ1N-e1fpkReiFfi3y",
+      "parent_id": "1MnE6dhZuyswp628ddElpZdyYH8XGlRjM",
+      "name": "ĐẤT NGHỊCH.pdf",
+      "mime": "application/pdf",
+      "size": 635767,
+      "modified": "2026-08-16T04:20:46.000Z",
+      "checksum": "e6bb52c9c9582da39af060e0bcad0f62",
+      "folder": false
+    }
+  ]
+}

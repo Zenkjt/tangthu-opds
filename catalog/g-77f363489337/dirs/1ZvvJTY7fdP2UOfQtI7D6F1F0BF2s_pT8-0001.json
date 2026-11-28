@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZvvJTY7fdP2UOfQtI7D6F1F0BF2s_pT8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NrUhKm9HYtj8z8e8EdHGLrVxVXNCPZTI",
+      "parent_id": "1ZvvJTY7fdP2UOfQtI7D6F1F0BF2s_pT8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3404,
+      "modified": "2026-08-15T09:40:14.000Z",
+      "checksum": "4c863614fcae1cfdf33d0b8a9e9a8791",
+      "folder": false
+    },
+    {
+      "id": "15czeBgHO9BIwwJwn0PlPEPFTU4NSYKaL",
+      "parent_id": "1ZvvJTY7fdP2UOfQtI7D6F1F0BF2s_pT8",
+      "name": "MỘT MỐI TÌNH CHUNG THỦY.epub",
+      "mime": "application/epub+zip",
+      "size": 354702,
+      "modified": "2026-08-15T09:40:19.000Z",
+      "checksum": "fe215b53e9b80f1dc9f971ab97f994d9",
+      "folder": false
+    },
+    {
+      "id": "1DYaVTG9hWZQjM7cCLQWRz2iWBWfwC_ax",
+      "parent_id": "1ZvvJTY7fdP2UOfQtI7D6F1F0BF2s_pT8",
+      "name": "MỘT MỐI TÌNH CHUNG THỦY.pdf",
+      "mime": "application/pdf",
+      "size": 200932,
+      "modified": "2026-08-15T09:40:17.000Z",
+      "checksum": "bbf7d6bcec1d683b001832f736190cd2",
+      "folder": false
+    }
+  ]
+}

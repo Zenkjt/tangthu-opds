@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1O4m3tqJzzJjMyoR7L-hqnE3RFskEaCWB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1y2mUPIuL_waTpqYVInrfYImu-dEob6pk",
+      "parent_id": "1O4m3tqJzzJjMyoR7L-hqnE3RFskEaCWB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2964,
+      "modified": "2026-08-15T12:40:38.000Z",
+      "checksum": "2d0e8b55d4187bc3077df149acd32552",
+      "folder": false
+    },
+    {
+      "id": "1fx_7UAg_WLpgue9AbNRxsI33kccrATDM",
+      "parent_id": "1O4m3tqJzzJjMyoR7L-hqnE3RFskEaCWB",
+      "name": "QUYỀN CỦA EVA.epub",
+      "mime": "application/epub+zip",
+      "size": 800509,
+      "modified": "2026-08-15T12:42:14.000Z",
+      "checksum": "4f75bb4aabe3af865412fad8dc89e338",
+      "folder": false
+    },
+    {
+      "id": "1qx1ff_qqpB-9L-ye9yE7whXYKzbh_rVK",
+      "parent_id": "1O4m3tqJzzJjMyoR7L-hqnE3RFskEaCWB",
+      "name": "QUYỀN CỦA EVA.pdf",
+      "mime": "application/pdf",
+      "size": 1875543,
+      "modified": "2026-08-15T12:42:11.000Z",
+      "checksum": "f13e22355c631313e1e661bbc502b18e",
+      "folder": false
+    }
+  ]
+}

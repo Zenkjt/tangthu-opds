@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OKyrt_RyEqUU6PL6Vrwmu8JGWf95FNSn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SPavB4hB6Ae8xC7MIdlasEHUjq98pAB8",
+      "parent_id": "1OKyrt_RyEqUU6PL6Vrwmu8JGWf95FNSn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10784,
+      "modified": "2026-08-15T00:56:10.000Z",
+      "checksum": "6c336e224816f88195a17d1fc83c91a4",
+      "folder": false
+    },
+    {
+      "id": "1Acade8wOwrp0iiYVOujOTsEsRl706JnX",
+      "parent_id": "1OKyrt_RyEqUU6PL6Vrwmu8JGWf95FNSn",
+      "name": "TƯ DUY VƯỢT GIỚI HẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 381367,
+      "modified": "2026-08-15T00:56:16.000Z",
+      "checksum": "0048aaa3088a1bcee1368db8c1513fc9",
+      "folder": false
+    },
+    {
+      "id": "11DkLaDTjlLLSZEOQoBQOCwaHPo7PYeva",
+      "parent_id": "1OKyrt_RyEqUU6PL6Vrwmu8JGWf95FNSn",
+      "name": "TƯ DUY VƯỢT GIỚI HẠN.pdf",
+      "mime": "application/pdf",
+      "size": 679364,
+      "modified": "2026-08-15T00:56:14.000Z",
+      "checksum": "e078d2ff1c4385f000e87a7957bdebdd",
+      "folder": false
+    }
+  ]
+}

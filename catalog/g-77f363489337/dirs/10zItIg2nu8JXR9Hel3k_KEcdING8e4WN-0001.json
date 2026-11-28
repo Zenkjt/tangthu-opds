@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10zItIg2nu8JXR9Hel3k_KEcdING8e4WN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Mrp-OlhU2JYBHpybQ3OvNylRaE2qmn-o",
+      "parent_id": "10zItIg2nu8JXR9Hel3k_KEcdING8e4WN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2968,
+      "modified": "2026-08-15T15:55:04.000Z",
+      "checksum": "e7706e117320f2dfe396b7a55cb85ed2",
+      "folder": false
+    },
+    {
+      "id": "1GVYonpPKc0ws3kUckhgNB4XdiLM6iuxe",
+      "parent_id": "10zItIg2nu8JXR9Hel3k_KEcdING8e4WN",
+      "name": "THẺ ĐỌC TÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 531514,
+      "modified": "2026-08-15T15:55:12.000Z",
+      "checksum": "64b2b373d1c87264227129650c99b8b4",
+      "folder": false
+    },
+    {
+      "id": "18XbpMqfti9n2QxcfgDxRoKQZPrNpFheA",
+      "parent_id": "10zItIg2nu8JXR9Hel3k_KEcdING8e4WN",
+      "name": "THẺ ĐỌC TÂM.pdf",
+      "mime": "application/pdf",
+      "size": 931830,
+      "modified": "2026-08-15T15:55:08.000Z",
+      "checksum": "b7de2e7f191620d9a409e83090f40949",
+      "folder": false
+    }
+  ]
+}

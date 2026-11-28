@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1y24hltu1fQYgzojPFSJWNdDqjLSU_zut",
+  "page": 1,
+  "items": [
+    {
+      "id": "12e9lSTNzzz0N0K8vD7CKafbyHQh4Z2Gi",
+      "parent_id": "1y24hltu1fQYgzojPFSJWNdDqjLSU_zut",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1114,
+      "modified": "2026-08-15T00:52:59.000Z",
+      "checksum": "03368d59e37620fc26521ed2c249e615",
+      "folder": false
+    },
+    {
+      "id": "1JShWsOD_1G1hP5sf0KNVmEvEGjxarfnf",
+      "parent_id": "1y24hltu1fQYgzojPFSJWNdDqjLSU_zut",
+      "name": "MỘT TÚI YÊU THƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 3212266,
+      "modified": "2026-08-15T00:53:07.000Z",
+      "checksum": "8a5d55e7c5ec9bee0021249249dd775a",
+      "folder": false
+    },
+    {
+      "id": "1rj2O6yK25zXp68T430DJlnfDbhga5Fg0",
+      "parent_id": "1y24hltu1fQYgzojPFSJWNdDqjLSU_zut",
+      "name": "MỘT TÚI YÊU THƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 2769140,
+      "modified": "2026-08-15T00:53:03.000Z",
+      "checksum": "2eab293df9e787bd7b9ce368409a45fc",
+      "folder": false
+    }
+  ]
+}

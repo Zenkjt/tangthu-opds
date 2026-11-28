@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tF1aNRM1MLWDVdGilqkmFeibpHYvWgqg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vOdkLC9aZ2FKoNcHFxA_UhHvSSghHb2V",
+      "parent_id": "1tF1aNRM1MLWDVdGilqkmFeibpHYvWgqg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6432,
+      "modified": "2026-08-16T04:24:22.000Z",
+      "checksum": "c8a47b35fda3d84fcbe0bb39de81e5bc",
+      "folder": false
+    },
+    {
+      "id": "13ndb_XR4zX8lfVhlp-aCQ8k9LUQzTOZ3",
+      "parent_id": "1tF1aNRM1MLWDVdGilqkmFeibpHYvWgqg",
+      "name": "NỮ HOÀNG PHONG LAN.epub",
+      "mime": "application/epub+zip",
+      "size": 669367,
+      "modified": "2026-08-16T04:24:32.000Z",
+      "checksum": "60507412bdc8921a53e98a0899dc47d9",
+      "folder": false
+    },
+    {
+      "id": "1O7X5RYNnPMOP_svur3Y8sbq0ANHNk1KR",
+      "parent_id": "1tF1aNRM1MLWDVdGilqkmFeibpHYvWgqg",
+      "name": "NỮ HOÀNG PHONG LAN.pdf",
+      "mime": "application/pdf",
+      "size": 1535274,
+      "modified": "2026-08-16T04:24:29.000Z",
+      "checksum": "cb1a419497bc106c234ac71c183b7d76",
+      "folder": false
+    }
+  ]
+}

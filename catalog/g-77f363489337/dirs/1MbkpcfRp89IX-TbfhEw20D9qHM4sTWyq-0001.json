@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MbkpcfRp89IX-TbfhEw20D9qHM4sTWyq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1f6WTWgnnNIhLpmqq3QmHadlWSsV5oGbG",
+      "parent_id": "1MbkpcfRp89IX-TbfhEw20D9qHM4sTWyq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5708,
+      "modified": "2026-08-16T03:09:25.000Z",
+      "checksum": "2a791224796b510e0d0d497ca917abb1",
+      "folder": false
+    },
+    {
+      "id": "10BVcDGYiJCSakyH8herRqllLPItnENVD",
+      "parent_id": "1MbkpcfRp89IX-TbfhEw20D9qHM4sTWyq",
+      "name": "TÌNH YÊU LÀ MỘT NỖI BUỒN.epub",
+      "mime": "application/epub+zip",
+      "size": 440132,
+      "modified": "2026-08-16T03:09:32.000Z",
+      "checksum": "7e8f3886c9d5772e33a214544a7d7883",
+      "folder": false
+    },
+    {
+      "id": "1hIxszUsHSWcMKw5UPwPwTLxpivjHmiul",
+      "parent_id": "1MbkpcfRp89IX-TbfhEw20D9qHM4sTWyq",
+      "name": "TÌNH YÊU LÀ MỘT NỖI BUỒN.pdf",
+      "mime": "application/pdf",
+      "size": 684668,
+      "modified": "2026-08-16T03:09:29.000Z",
+      "checksum": "9f437c443fde3b1ba588ce67abfbdab0",
+      "folder": false
+    }
+  ]
+}

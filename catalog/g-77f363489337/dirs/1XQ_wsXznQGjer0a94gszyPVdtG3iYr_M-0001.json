@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XQ_wsXznQGjer0a94gszyPVdtG3iYr_M",
+  "page": 1,
+  "items": [
+    {
+      "id": "1C88yLIxxebpzTy5IxSuRG1JAGD6aYLUW",
+      "parent_id": "1XQ_wsXznQGjer0a94gszyPVdtG3iYr_M",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2002,
+      "modified": "2026-08-15T04:03:09.000Z",
+      "checksum": "1c145983f5cda55e2d0ce90b16eb76d0",
+      "folder": false
+    },
+    {
+      "id": "1zYy6s5pN6mNugf5qnK4QGHCgECvGSU6f",
+      "parent_id": "1XQ_wsXznQGjer0a94gszyPVdtG3iYr_M",
+      "name": "ĐẠO PHẬT CỦA TUỔI TRẺ.epub",
+      "mime": "application/epub+zip",
+      "size": 509026,
+      "modified": "2026-08-15T04:03:16.000Z",
+      "checksum": "80550015ca7722a30444b2002d202f21",
+      "folder": false
+    },
+    {
+      "id": "1K9oLMUFlDWm2BoBCfJW6BESsLr-PuYPj",
+      "parent_id": "1XQ_wsXznQGjer0a94gszyPVdtG3iYr_M",
+      "name": "ĐẠO PHẬT CỦA TUỔI TRẺ.pdf",
+      "mime": "application/pdf",
+      "size": 1611198,
+      "modified": "2026-08-15T04:03:13.000Z",
+      "checksum": "81a68e8da603b15151ee03b549300087",
+      "folder": false
+    }
+  ]
+}

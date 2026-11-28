@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13Hzr-w5PfwQws_tQoVnDbtr7Axsu5N8i",
+  "page": 1,
+  "items": [
+    {
+      "id": "13tkl-f-E2YKuVA-sXZuKL4STK_bVMXsu",
+      "parent_id": "13Hzr-w5PfwQws_tQoVnDbtr7Axsu5N8i",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 14406,
+      "modified": "2026-08-15T07:41:52.000Z",
+      "checksum": "3626ae49b570856592dc0a88a2ab79ba",
+      "folder": false
+    },
+    {
+      "id": "16d5_gA2ygbPugcJu4ASwuJWfPy9aNJMg",
+      "parent_id": "13Hzr-w5PfwQws_tQoVnDbtr7Axsu5N8i",
+      "name": "TÂN NƯƠNG CỦA QUỶ.epub",
+      "mime": "application/epub+zip",
+      "size": 463848,
+      "modified": "2026-08-15T07:41:58.000Z",
+      "checksum": "50a74ed3c9e7acaf478dc9b48bd5a501",
+      "folder": false
+    },
+    {
+      "id": "14v9qW2L_2du67WrQ7EBC4IWbzWiwsv67",
+      "parent_id": "13Hzr-w5PfwQws_tQoVnDbtr7Axsu5N8i",
+      "name": "TÂN NƯƠNG CỦA QUỶ.pdf",
+      "mime": "application/pdf",
+      "size": 1154323,
+      "modified": "2026-08-15T07:41:55.000Z",
+      "checksum": "dda3da0d839346d9aab5477262c1beb8",
+      "folder": false
+    }
+  ]
+}

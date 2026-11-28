@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1U4nF_6eSsHsZZZfF42pRvCs-ihB7D7rc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tjq1LQi8BL5VkoLMGvZYaYXF9yd7uftI",
+      "parent_id": "1U4nF_6eSsHsZZZfF42pRvCs-ihB7D7rc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6161,
+      "modified": "2026-08-15T09:41:46.000Z",
+      "checksum": "974cf9d58f68364445220ec2263e1649",
+      "folder": false
+    },
+    {
+      "id": "1q4IztJgKe4pQ5T_75PXP_qLq3oiqguOk",
+      "parent_id": "1U4nF_6eSsHsZZZfF42pRvCs-ihB7D7rc",
+      "name": "MÃI MÃI BÊN ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 249175,
+      "modified": "2026-08-15T09:41:52.000Z",
+      "checksum": "b2c089c5a250d302df2609254870dbdf",
+      "folder": false
+    },
+    {
+      "id": "1kIXJk0ble7SfnQu9MEpKCGzi3wtCa0Bb",
+      "parent_id": "1U4nF_6eSsHsZZZfF42pRvCs-ihB7D7rc",
+      "name": "MÃI MÃI BÊN ANH.pdf",
+      "mime": "application/pdf",
+      "size": 213555,
+      "modified": "2026-08-15T09:41:49.000Z",
+      "checksum": "ec0423dbd03a9cfe156731299c23a138",
+      "folder": false
+    }
+  ]
+}

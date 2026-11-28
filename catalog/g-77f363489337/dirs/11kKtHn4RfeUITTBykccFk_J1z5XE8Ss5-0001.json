@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11kKtHn4RfeUITTBykccFk_J1z5XE8Ss5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QNOCvpmmZ0B6HUPhp2M3H158ZA4jRsIn",
+      "parent_id": "11kKtHn4RfeUITTBykccFk_J1z5XE8Ss5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5481,
+      "modified": "2026-08-15T07:26:47.000Z",
+      "checksum": "a3fc33b22bf94684de8979717821dbe4",
+      "folder": false
+    },
+    {
+      "id": "1XHmg6i98ALMZeD0HpiKGubcmTBqr80ac",
+      "parent_id": "11kKtHn4RfeUITTBykccFk_J1z5XE8Ss5",
+      "name": "VẪN CÓ NHẠN BAY VỀ.epub",
+      "mime": "application/epub+zip",
+      "size": 885643,
+      "modified": "2026-08-15T07:26:55.000Z",
+      "checksum": "c3c93376c36fe850390003127cb8142a",
+      "folder": false
+    },
+    {
+      "id": "1wqA0mil6JXPrhC2P5bchlGMOMA6_3yW_",
+      "parent_id": "11kKtHn4RfeUITTBykccFk_J1z5XE8Ss5",
+      "name": "VẪN CÓ NHẠN BAY VỀ.pdf",
+      "mime": "application/pdf",
+      "size": 819366,
+      "modified": "2026-08-15T07:26:51.000Z",
+      "checksum": "d06ba31567db4da21fa4bb6b8e84d842",
+      "folder": false
+    }
+  ]
+}

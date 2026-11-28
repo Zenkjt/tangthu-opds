@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZrKQVbiRbtBeNvOqdTDqyHMqdwX7-Wef",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VQIcpoKNgK3GprEzYdNt5TWMIn18ewHI",
+      "parent_id": "1ZrKQVbiRbtBeNvOqdTDqyHMqdwX7-Wef",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1767,
+      "modified": "2026-08-15T09:31:10.000Z",
+      "checksum": "77620fd68e9d8648bf9a43843f05eee9",
+      "folder": false
+    },
+    {
+      "id": "1hrmO6m0zKl9wLeXCzkmIXzdZ7qBuVYWc",
+      "parent_id": "1ZrKQVbiRbtBeNvOqdTDqyHMqdwX7-Wef",
+      "name": "MỘT TÒA THÀNH ĐANG CHỜ ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 744127,
+      "modified": "2026-08-15T09:31:21.000Z",
+      "checksum": "5454543564654f7f894db1a9f4bc0c26",
+      "folder": false
+    },
+    {
+      "id": "1hAq9dFiR-9T_0n2wiVcrFixKhvzETw7U",
+      "parent_id": "1ZrKQVbiRbtBeNvOqdTDqyHMqdwX7-Wef",
+      "name": "MỘT TÒA THÀNH ĐANG CHỜ ANH.pdf",
+      "mime": "application/pdf",
+      "size": 2231180,
+      "modified": "2026-08-15T09:31:18.000Z",
+      "checksum": "e401934a427d0bc3f5df02b2cd6859a5",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Otaxs_gqwP6HV0IQGda36dctdCeyA23Y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gzX_symZRwZ1LxkRJsnOTZqR6VL2W84Y",
+      "parent_id": "1Otaxs_gqwP6HV0IQGda36dctdCeyA23Y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3539,
+      "modified": "2026-08-15T12:44:28.000Z",
+      "checksum": "55490478afc99da99dbc92086cd47f3c",
+      "folder": false
+    },
+    {
+      "id": "1RhKoj2UjwmN7u28oTU3hGlF009Io77gD",
+      "parent_id": "1Otaxs_gqwP6HV0IQGda36dctdCeyA23Y",
+      "name": "NGƯỜI QUẢNG ĐI ĂN MÌ QUẢNG.epub",
+      "mime": "application/epub+zip",
+      "size": 9487396,
+      "modified": "2026-08-15T12:44:36.000Z",
+      "checksum": "c5fe5fe729508c2f294305100a174dbe",
+      "folder": false
+    },
+    {
+      "id": "1GDscNZb0MF7w-5WSeKsZ0y_-nysKVw8m",
+      "parent_id": "1Otaxs_gqwP6HV0IQGda36dctdCeyA23Y",
+      "name": "NGƯỜI QUẢNG ĐI ĂN MÌ QUẢNG.pdf",
+      "mime": "application/pdf",
+      "size": 4248022,
+      "modified": "2026-08-15T12:44:33.000Z",
+      "checksum": "cade21e7a272a2483cd686e4919bc133",
+      "folder": false
+    }
+  ]
+}

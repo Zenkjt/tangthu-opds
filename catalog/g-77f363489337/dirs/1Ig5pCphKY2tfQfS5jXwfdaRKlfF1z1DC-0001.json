@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ig5pCphKY2tfQfS5jXwfdaRKlfF1z1DC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LHr7bQ_5yV0UDVhqLfJBk5en1AVYvnNZ",
+      "parent_id": "1Ig5pCphKY2tfQfS5jXwfdaRKlfF1z1DC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6324,
+      "modified": "2026-08-15T03:45:57.000Z",
+      "checksum": "7e642240328364e262e0cdf400de7586",
+      "folder": false
+    },
+    {
+      "id": "1opY2cQVg94hYaC5oecX29S4PpxQlxsw_",
+      "parent_id": "1Ig5pCphKY2tfQfS5jXwfdaRKlfF1z1DC",
+      "name": "THAM THIỀN HUYỀN LINH.epub",
+      "mime": "application/epub+zip",
+      "size": 453141,
+      "modified": "2026-08-15T03:46:05.000Z",
+      "checksum": "ce707c078e8365f643cf1addab7bbd67",
+      "folder": false
+    },
+    {
+      "id": "1a7Doim63Iys-AwH4PVuuRM7I4zed13E7",
+      "parent_id": "1Ig5pCphKY2tfQfS5jXwfdaRKlfF1z1DC",
+      "name": "THAM THIỀN HUYỀN LINH.pdf",
+      "mime": "application/pdf",
+      "size": 2484322,
+      "modified": "2026-08-15T03:46:02.000Z",
+      "checksum": "df95184b23de42f0a637f4e701ea6fa9",
+      "folder": false
+    }
+  ]
+}

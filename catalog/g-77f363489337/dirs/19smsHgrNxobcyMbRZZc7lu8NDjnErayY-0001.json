@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19smsHgrNxobcyMbRZZc7lu8NDjnErayY",
+  "page": 1,
+  "items": [
+    {
+      "id": "19_Emrtbi6qYqpKp3A9RXptt3OU3B2I2h",
+      "parent_id": "19smsHgrNxobcyMbRZZc7lu8NDjnErayY",
+      "name": "BỘ TỨ.epub",
+      "mime": "application/epub+zip",
+      "size": 442652,
+      "modified": "2026-08-15T15:43:22.000Z",
+      "checksum": "4587fa211bd086859d6b69135ed82ac3",
+      "folder": false
+    },
+    {
+      "id": "1HyZKJkHUGf1w57sDSgXQa4ZlP-imLgMC",
+      "parent_id": "19smsHgrNxobcyMbRZZc7lu8NDjnErayY",
+      "name": "BỘ TỨ.pdf",
+      "mime": "application/pdf",
+      "size": 598644,
+      "modified": "2026-08-15T15:43:11.000Z",
+      "checksum": "083d0e92f74ab3247fdaf539ee37b545",
+      "folder": false
+    },
+    {
+      "id": "1RdghCQlgAZH-iYhu3FQk4NdHvp6NzSnE",
+      "parent_id": "19smsHgrNxobcyMbRZZc7lu8NDjnErayY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 823,
+      "modified": "2026-08-15T15:42:48.000Z",
+      "checksum": "26712e57f242e57d228c7c0f283fca08",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FTysRHCV1TBchDJc-GVSOXX2eWHoLoad",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gUGA8PUnLQaxY-UjQpZP60joLV0oJMqk",
+      "parent_id": "1FTysRHCV1TBchDJc-GVSOXX2eWHoLoad",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3091,
+      "modified": "2026-08-15T10:28:40.000Z",
+      "checksum": "416a3bcdde3333b6ded26538b2b8ff87",
+      "folder": false
+    },
+    {
+      "id": "1U33sts4CZiZFJ4a4f8HrOz3Xj7KCRUwm",
+      "parent_id": "1FTysRHCV1TBchDJc-GVSOXX2eWHoLoad",
+      "name": "SÁCH ĐẠN TINH ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 631935,
+      "modified": "2026-08-15T10:29:07.000Z",
+      "checksum": "07b352337cd82734b57bbd8086cec238",
+      "folder": false
+    },
+    {
+      "id": "1dpZ6YpfixZTv8RRbFd63bepiGVe9BN3i",
+      "parent_id": "1FTysRHCV1TBchDJc-GVSOXX2eWHoLoad",
+      "name": "SÁCH ĐẠN TINH ANH.pdf",
+      "mime": "application/pdf",
+      "size": 1972068,
+      "modified": "2026-08-15T10:28:56.000Z",
+      "checksum": "2c3f3d9e27a3d74f2f84b60fe8e91efb",
+      "folder": false
+    }
+  ]
+}

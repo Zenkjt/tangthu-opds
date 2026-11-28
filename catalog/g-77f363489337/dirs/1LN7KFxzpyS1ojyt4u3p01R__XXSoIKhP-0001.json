@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LN7KFxzpyS1ojyt4u3p01R__XXSoIKhP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fZkBLnLv0xpfOdll6KvN00aKBqx2QPC6",
+      "parent_id": "1LN7KFxzpyS1ojyt4u3p01R__XXSoIKhP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2004,
+      "modified": "2026-08-15T15:15:53.000Z",
+      "checksum": "b41bcc55870007d36e4b2a007858e9b9",
+      "folder": false
+    },
+    {
+      "id": "1WqLwJD39YKfZuyEpNW601lnxQEPUioIl",
+      "parent_id": "1LN7KFxzpyS1ojyt4u3p01R__XXSoIKhP",
+      "name": "LỜI NGUYỀN LÂU LAN.epub",
+      "mime": "application/epub+zip",
+      "size": 550826,
+      "modified": "2026-08-15T15:15:59.000Z",
+      "checksum": "a6455472d2f32da52ae0824e43f5fe4f",
+      "folder": false
+    },
+    {
+      "id": "1Sp15pxS1rpOlndVesgXxHm0lNlx3nU8U",
+      "parent_id": "1LN7KFxzpyS1ojyt4u3p01R__XXSoIKhP",
+      "name": "LỜI NGUYỀN LÂU LAN.pdf",
+      "mime": "application/pdf",
+      "size": 1367121,
+      "modified": "2026-08-15T15:15:57.000Z",
+      "checksum": "a16f6d152c2b5aafc14dabcfa660a5c6",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BuxCID9K-Rn8-J8jmwrfqvPxBvRbgxdu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1z6k8egsu0iscOBkg7yEhxr3BweoqWf7N",
+      "parent_id": "1BuxCID9K-Rn8-J8jmwrfqvPxBvRbgxdu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4864,
+      "modified": "2026-08-15T07:40:14.000Z",
+      "checksum": "db945f9029d92b4172f156e51fe75eaf",
+      "folder": false
+    },
+    {
+      "id": "1BMKK024vtA562mbrw_-q8Hp8TcdJ0x1j",
+      "parent_id": "1BuxCID9K-Rn8-J8jmwrfqvPxBvRbgxdu",
+      "name": "ĐƯỜNG MÒN.epub",
+      "mime": "application/epub+zip",
+      "size": 680545,
+      "modified": "2026-08-15T07:40:22.000Z",
+      "checksum": "0202f677d24bd0461de8a2329246c654",
+      "folder": false
+    },
+    {
+      "id": "1f5MLosoUkF4tk1amx86ufD8nYNrANwDF",
+      "parent_id": "1BuxCID9K-Rn8-J8jmwrfqvPxBvRbgxdu",
+      "name": "ĐƯỜNG MÒN.pdf",
+      "mime": "application/pdf",
+      "size": 1623716,
+      "modified": "2026-08-15T07:40:20.000Z",
+      "checksum": "9e0e83e46a2bc1aea8008492fc8580a3",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1G0jV14jbFt1CQcYoi9Qy099FcdxJ6JCf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NvdzE8HkVEgqSA2YC_Z3NT8bB4VXcqTN",
+      "parent_id": "1G0jV14jbFt1CQcYoi9Qy099FcdxJ6JCf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3258,
+      "modified": "2026-08-15T07:38:58.000Z",
+      "checksum": "36a792ca24df6b0199238150823a5087",
+      "folder": false
+    },
+    {
+      "id": "1XWV2IFUVN6qcg48ZePTRNwnSpuCfr109",
+      "parent_id": "1G0jV14jbFt1CQcYoi9Qy099FcdxJ6JCf",
+      "name": "NGHIỆT SÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 753111,
+      "modified": "2026-08-15T07:39:05.000Z",
+      "checksum": "a8a15045911a9e70eb68436029864740",
+      "folder": false
+    },
+    {
+      "id": "1EmES8LoMO8a6ayopN1hja5cFddZeqa_g",
+      "parent_id": "1G0jV14jbFt1CQcYoi9Qy099FcdxJ6JCf",
+      "name": "NGHIỆT SÚC.pdf",
+      "mime": "application/pdf",
+      "size": 1710111,
+      "modified": "2026-08-15T07:39:03.000Z",
+      "checksum": "1155d5a4eb83595b837ad0e31eff10cf",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XaWQXRTP7LlxUYp4SNlWozlI6I4gltK-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WQk5TiI0Ae1gQ_uN9s7cnIOdQ1Cvvzwx",
+      "parent_id": "1XaWQXRTP7LlxUYp4SNlWozlI6I4gltK-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 402,
+      "modified": "2026-08-15T10:58:15.000Z",
+      "checksum": "66bc14c845cc077fd12a76cf11c9688f",
+      "folder": false
+    },
+    {
+      "id": "1UDYwgaK2Fwsul0krEg86fTRZWJNtAo_v",
+      "parent_id": "1XaWQXRTP7LlxUYp4SNlWozlI6I4gltK-",
+      "name": "DƯA.epub",
+      "mime": "application/epub+zip",
+      "size": 597294,
+      "modified": "2026-08-15T10:58:45.000Z",
+      "checksum": "1c38e01c3927e6968627e5e7644d05fa",
+      "folder": false
+    },
+    {
+      "id": "16TapuE55jmoqIVMNDgCKwM6ZVULL75oV",
+      "parent_id": "1XaWQXRTP7LlxUYp4SNlWozlI6I4gltK-",
+      "name": "DƯA.pdf",
+      "mime": "application/pdf",
+      "size": 1665028,
+      "modified": "2026-08-15T10:58:40.000Z",
+      "checksum": "37a85f5804abc07cf6d98bb2224b73b0",
+      "folder": false
+    }
+  ]
+}

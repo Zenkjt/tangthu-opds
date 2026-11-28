@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19dTWo26FtBNLd7VNVuIEYCsF9RSvkIct",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zoxHISD2Wn91U3A3TcvaHhyzO0DPwP62",
+      "parent_id": "19dTWo26FtBNLd7VNVuIEYCsF9RSvkIct",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1732,
+      "modified": "2026-08-15T07:09:11.000Z",
+      "checksum": "3de1b9c8921604497b1d03aeb4f9924a",
+      "folder": false
+    },
+    {
+      "id": "1SyMdLF9xcDX1V1AXN8Xcv0Cz0HAyyGtj",
+      "parent_id": "19dTWo26FtBNLd7VNVuIEYCsF9RSvkIct",
+      "name": "LẠC ĐƯỜNG - HỒ BIỂU CHÁNH.epub",
+      "mime": "application/epub+zip",
+      "size": 432066,
+      "modified": "2026-08-15T07:09:17.000Z",
+      "checksum": "bbf04a0019dfb09e75fa8926852dc5cd",
+      "folder": false
+    },
+    {
+      "id": "1Y4gnulk1ccynzUS4kUEKcaOn1f8Zgpqp",
+      "parent_id": "19dTWo26FtBNLd7VNVuIEYCsF9RSvkIct",
+      "name": "LẠC ĐƯỜNG - HỒ BIỂU CHÁNH.pdf",
+      "mime": "application/pdf",
+      "size": 595353,
+      "modified": "2026-08-15T07:09:14.000Z",
+      "checksum": "33ac96a94d344b10616903b583e12751",
+      "folder": false
+    }
+  ]
+}

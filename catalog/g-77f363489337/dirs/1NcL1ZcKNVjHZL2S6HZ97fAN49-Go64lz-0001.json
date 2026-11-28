@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NcL1ZcKNVjHZL2S6HZ97fAN49-Go64lz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1df1qZfADuYcsqxIWzz2F_yTWgFhMR7qO",
+      "parent_id": "1NcL1ZcKNVjHZL2S6HZ97fAN49-Go64lz",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 4441,
+      "modified": "2026-08-15T03:42:40.000Z",
+      "checksum": "0e246106ca30b42139ee7a14f85ba296",
+      "folder": false
+    },
+    {
+      "id": "1_EJYaxQPx73Txb_pVYoRWKzMXqnGAZhY",
+      "parent_id": "1NcL1ZcKNVjHZL2S6HZ97fAN49-Go64lz",
+      "name": "NHO GIÁO.epub",
+      "mime": "application/epub+zip",
+      "size": 912594,
+      "modified": "2026-08-15T03:42:51.000Z",
+      "checksum": "b7ef74685ac7ab763bc0edc69fec9708",
+      "folder": false
+    },
+    {
+      "id": "1XKBImsjlrN1fdNid61Ddwp22MYurbUe-",
+      "parent_id": "1NcL1ZcKNVjHZL2S6HZ97fAN49-Go64lz",
+      "name": "NHO GIÁO.pdf",
+      "mime": "application/pdf",
+      "size": 4289872,
+      "modified": "2026-08-15T03:42:48.000Z",
+      "checksum": "03496b3fdbee816649efe00c8baac638",
+      "folder": false
+    }
+  ]
+}

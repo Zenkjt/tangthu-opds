@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17GW6txFYKo3eNimjVVMkXoZYbplfiZU3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nrCDTiro11fQCKFa5-ftphDTPaW4Jr1m",
+      "parent_id": "17GW6txFYKo3eNimjVVMkXoZYbplfiZU3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 548,
+      "modified": "2026-08-15T04:00:10.000Z",
+      "checksum": "22e3de21f4b32bcd2d09f88a1a88ad2d",
+      "folder": false
+    },
+    {
+      "id": "1t9rb7Py4OkEfam_-riSn77GvyhXlAL-F",
+      "parent_id": "17GW6txFYKo3eNimjVVMkXoZYbplfiZU3",
+      "name": "TƯ TƯỞNG ĐẠO GIA.epub",
+      "mime": "application/epub+zip",
+      "size": 503578,
+      "modified": "2026-08-15T04:00:17.000Z",
+      "checksum": "6344ce1819a4581e8422250057f818cd",
+      "folder": false
+    },
+    {
+      "id": "1CjKU3Y76G3xPCb0a_D7M19TWgX6VSxaW",
+      "parent_id": "17GW6txFYKo3eNimjVVMkXoZYbplfiZU3",
+      "name": "TƯ TƯỞNG ĐẠO GIA.pdf",
+      "mime": "application/pdf",
+      "size": 1716486,
+      "modified": "2026-08-15T04:00:14.000Z",
+      "checksum": "a2671b1ad5d29a124b0742492a75c85d",
+      "folder": false
+    }
+  ]
+}

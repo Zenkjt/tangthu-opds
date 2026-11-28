@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pWfaj-Olep1XokcXIsW5yeuIDmcmlr4p",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JYYu8RYO_9ASz3KLiU8a3T14dGl-vRV_",
+      "parent_id": "1pWfaj-Olep1XokcXIsW5yeuIDmcmlr4p",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4638,
+      "modified": "2026-08-15T03:44:35.000Z",
+      "checksum": "31e571e3c86f8863dd6f789531c43128",
+      "folder": false
+    },
+    {
+      "id": "1Mr44BvvIR2SsiILHhc3ISJuPbSwdegfn",
+      "parent_id": "1pWfaj-Olep1XokcXIsW5yeuIDmcmlr4p",
+      "name": "MỘT LINH HỒN NHIỀU THỂ XÁC.epub",
+      "mime": "application/epub+zip",
+      "size": 403091,
+      "modified": "2026-08-15T03:44:41.000Z",
+      "checksum": "a5b71785c39162d42e0bbe75d7cc7026",
+      "folder": false
+    },
+    {
+      "id": "1oMJ8pRLdZs4_d9OPSh7FGrQB_EdzRuSz",
+      "parent_id": "1pWfaj-Olep1XokcXIsW5yeuIDmcmlr4p",
+      "name": "MỘT LINH HỒN NHIỀU THỂ XÁC.pdf",
+      "mime": "application/pdf",
+      "size": 1005601,
+      "modified": "2026-08-15T03:44:39.000Z",
+      "checksum": "6fec5c79e608ce5139d8188324568e91",
+      "folder": false
+    }
+  ]
+}

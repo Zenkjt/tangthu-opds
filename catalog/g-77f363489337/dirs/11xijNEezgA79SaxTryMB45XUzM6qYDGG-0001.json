@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11xijNEezgA79SaxTryMB45XUzM6qYDGG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RqW7Jc3QPiy_BdvzwbxBeWrCM9APtgIt",
+      "parent_id": "11xijNEezgA79SaxTryMB45XUzM6qYDGG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4141,
+      "modified": "2026-08-15T12:49:43.000Z",
+      "checksum": "4d0746e0175eacf6bfeb3a0808e4c19b",
+      "folder": false
+    },
+    {
+      "id": "1FVUhk-aRcvBAKBen6eBwgmyfrKxLdY3r",
+      "parent_id": "11xijNEezgA79SaxTryMB45XUzM6qYDGG",
+      "name": "TUẦN LỄ THỜI TRANG.epub",
+      "mime": "application/epub+zip",
+      "size": 655047,
+      "modified": "2026-08-15T12:49:49.000Z",
+      "checksum": "73750381672e070d66de2d7cc1bd7946",
+      "folder": false
+    },
+    {
+      "id": "1LebdN44F8q59SNdjHHuMWspdEEY6puvP",
+      "parent_id": "11xijNEezgA79SaxTryMB45XUzM6qYDGG",
+      "name": "TUẦN LỄ THỜI TRANG.pdf",
+      "mime": "application/pdf",
+      "size": 915238,
+      "modified": "2026-08-15T12:49:47.000Z",
+      "checksum": "4006b3fa529191ee220d81886ddd14ff",
+      "folder": false
+    }
+  ]
+}

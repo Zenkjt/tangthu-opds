@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OxuUisLFGutJUSkT7deyqlyvjjgel6hC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wt2Iwc4BId4QiI0Fw7JUwzeVQkePi04c",
+      "parent_id": "1OxuUisLFGutJUSkT7deyqlyvjjgel6hC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7387,
+      "modified": "2026-08-16T03:15:18.000Z",
+      "checksum": "51aefc581461833b0baefa289f1e4d70",
+      "folder": false
+    },
+    {
+      "id": "1R3RRVEUJM-YmLdmpM4d3M2W8OAERXo-y",
+      "parent_id": "1OxuUisLFGutJUSkT7deyqlyvjjgel6hC",
+      "name": "NHỮNG NGÀY MAI ĐẾN KHÔNG CÓ CẬU KỀ BÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 462962,
+      "modified": "2026-08-16T03:15:24.000Z",
+      "checksum": "b2e6186ebc6af8e6a90f6c11ad33b415",
+      "folder": false
+    },
+    {
+      "id": "1zLCzdFc5HLdF387FkdbaHcmvWkYY0mBL",
+      "parent_id": "1OxuUisLFGutJUSkT7deyqlyvjjgel6hC",
+      "name": "NHỮNG NGÀY MAI ĐẾN KHÔNG CÓ CẬU KỀ BÊN.pdf",
+      "mime": "application/pdf",
+      "size": 635811,
+      "modified": "2026-08-16T03:15:21.000Z",
+      "checksum": "db3af2b44170ba34c7138d961b00a843",
+      "folder": false
+    }
+  ]
+}

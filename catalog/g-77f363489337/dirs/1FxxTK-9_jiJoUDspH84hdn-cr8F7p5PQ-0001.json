@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FxxTK-9_jiJoUDspH84hdn-cr8F7p5PQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lT6-xlDqSe1KeOEMezC0TIDsUvZHjOhk",
+      "parent_id": "1FxxTK-9_jiJoUDspH84hdn-cr8F7p5PQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4077,
+      "modified": "2026-08-16T03:30:17.000Z",
+      "checksum": "c9db7e31e9098b41f41966da0c76121d",
+      "folder": false
+    },
+    {
+      "id": "1_HwF6I4j7veDSNMARqLmk-Jd_LPfttAV",
+      "parent_id": "1FxxTK-9_jiJoUDspH84hdn-cr8F7p5PQ",
+      "name": "ĐÒ DỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 513237,
+      "modified": "2026-08-16T03:30:23.000Z",
+      "checksum": "bb42ae01aad2c8987b11fa9275bf242f",
+      "folder": false
+    },
+    {
+      "id": "15jZqOsBk8A0GRR26oOkgWEQSniuIM6pl",
+      "parent_id": "1FxxTK-9_jiJoUDspH84hdn-cr8F7p5PQ",
+      "name": "ĐÒ DỌC.pdf",
+      "mime": "application/pdf",
+      "size": 807341,
+      "modified": "2026-08-16T03:30:21.000Z",
+      "checksum": "71558cfa99427e809c7630dfd2a48477",
+      "folder": false
+    }
+  ]
+}

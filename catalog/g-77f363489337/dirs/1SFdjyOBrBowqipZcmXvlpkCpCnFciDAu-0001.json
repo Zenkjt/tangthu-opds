@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SFdjyOBrBowqipZcmXvlpkCpCnFciDAu",
+  "page": 1,
+  "items": [
+    {
+      "id": "18LXb2OTRiAU544lriSNTYmO8HhdBlXHo",
+      "parent_id": "1SFdjyOBrBowqipZcmXvlpkCpCnFciDAu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 603,
+      "modified": "2026-08-15T10:36:25.000Z",
+      "checksum": "1592429c86fe9f20566437438c15a1c3",
+      "folder": false
+    },
+    {
+      "id": "1JOBIgClqvjA1lun6W-P20nJIqyQfwXAC",
+      "parent_id": "1SFdjyOBrBowqipZcmXvlpkCpCnFciDAu",
+      "name": "NO.6 TẬP 2.epub",
+      "mime": "application/epub+zip",
+      "size": 512279,
+      "modified": "2026-08-15T10:36:31.000Z",
+      "checksum": "f4930a218888c6610d1537e51b763e81",
+      "folder": false
+    },
+    {
+      "id": "1YjzSWX9P98Eb3UuzpAl0rfQMYwqS97cy",
+      "parent_id": "1SFdjyOBrBowqipZcmXvlpkCpCnFciDAu",
+      "name": "NO.6 TẬP 2.pdf",
+      "mime": "application/pdf",
+      "size": 547654,
+      "modified": "2026-08-15T10:36:29.000Z",
+      "checksum": "930c254af5349e6372abc0cf0ea23d36",
+      "folder": false
+    }
+  ]
+}

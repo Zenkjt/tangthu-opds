@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1G71AI0dfqpDmbiQG1Wf9yVh5iHnLDAU4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1987-tg-GhSdL6jizxpPN1Sg_uZmlrXih",
+      "parent_id": "1G71AI0dfqpDmbiQG1Wf9yVh5iHnLDAU4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5374,
+      "modified": "2026-08-15T07:55:50.000Z",
+      "checksum": "bb85960001698f1f60032844b6d45595",
+      "folder": false
+    },
+    {
+      "id": "1a9KFqqvFOzOaqUMfAA6-RnJeSvF6m_xU",
+      "parent_id": "1G71AI0dfqpDmbiQG1Wf9yVh5iHnLDAU4",
+      "name": "KẺ VƯỢT THỜI GIAN.epub",
+      "mime": "application/epub+zip",
+      "size": 622912,
+      "modified": "2026-08-15T07:55:56.000Z",
+      "checksum": "ad2e840a7afd7dfbc7ce1c0b0ea56b3d",
+      "folder": false
+    },
+    {
+      "id": "1mL9K_1UmBlC3egHK-cEKzaz8wjzJhvj_",
+      "parent_id": "1G71AI0dfqpDmbiQG1Wf9yVh5iHnLDAU4",
+      "name": "KẺ VƯỢT THỜI GIAN.pdf",
+      "mime": "application/pdf",
+      "size": 399568,
+      "modified": "2026-08-15T07:55:53.000Z",
+      "checksum": "2937131d132dbf9356b8aee9006cd578",
+      "folder": false
+    }
+  ]
+}

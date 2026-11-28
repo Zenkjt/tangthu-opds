@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cYM0C7BTIykIZusLb7Uq0sAassPgDm5M",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Fe0irCqWGYjBOATpPsNsBvm44ABuw-zz",
+      "parent_id": "1cYM0C7BTIykIZusLb7Uq0sAassPgDm5M",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3484,
+      "modified": "2026-08-15T15:59:19.000Z",
+      "checksum": "63fcdd019754be54b3c177d7c8b7d2ba",
+      "folder": false
+    },
+    {
+      "id": "1j1zj13X1L8t2JqF7BGbbjKJQFgKJYPpI",
+      "parent_id": "1cYM0C7BTIykIZusLb7Uq0sAassPgDm5M",
+      "name": "NỮ HOÀNG VÀ KẺ CƯỚP.epub",
+      "mime": "application/epub+zip",
+      "size": 540668,
+      "modified": "2026-08-15T15:59:26.000Z",
+      "checksum": "93fe206aaa207ed68dfde455062509b6",
+      "folder": false
+    },
+    {
+      "id": "1nFlAuCi-oX23UcinajrmO8g9KrDSK-63",
+      "parent_id": "1cYM0C7BTIykIZusLb7Uq0sAassPgDm5M",
+      "name": "NỮ HOÀNG VÀ KẺ CƯỚP.pdf",
+      "mime": "application/pdf",
+      "size": 1611730,
+      "modified": "2026-08-15T15:59:23.000Z",
+      "checksum": "ec7e348c8ee429604ed0667b0a66bd6a",
+      "folder": false
+    }
+  ]
+}

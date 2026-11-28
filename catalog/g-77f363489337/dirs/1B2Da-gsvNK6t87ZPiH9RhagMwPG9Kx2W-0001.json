@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1B2Da-gsvNK6t87ZPiH9RhagMwPG9Kx2W",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ViOM7kQHP3j17FrUeNbn9ejwV-TIS0jc",
+      "parent_id": "1B2Da-gsvNK6t87ZPiH9RhagMwPG9Kx2W",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4525,
+      "modified": "2026-08-16T03:07:07.000Z",
+      "checksum": "b376922a8230bfe1b90db8e9e3bd6ea7",
+      "folder": false
+    },
+    {
+      "id": "1bokGm1VwC9r85Mj95_5jezm-TqoG_yJH",
+      "parent_id": "1B2Da-gsvNK6t87ZPiH9RhagMwPG9Kx2W",
+      "name": "XE LÊN XE XUỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 362872,
+      "modified": "2026-08-16T03:07:13.000Z",
+      "checksum": "0b3bab4a56b97a377f65342ec6a57c09",
+      "folder": false
+    },
+    {
+      "id": "16fvcobul0v5aW8f1p8IjqwwEOuE4W03V",
+      "parent_id": "1B2Da-gsvNK6t87ZPiH9RhagMwPG9Kx2W",
+      "name": "XE LÊN XE XUỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 588957,
+      "modified": "2026-08-16T03:07:11.000Z",
+      "checksum": "52e83b939ff6aed4c942cb98c7894daf",
+      "folder": false
+    }
+  ]
+}

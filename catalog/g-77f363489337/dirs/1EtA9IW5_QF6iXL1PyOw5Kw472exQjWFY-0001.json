@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EtA9IW5_QF6iXL1PyOw5Kw472exQjWFY",
+  "page": 1,
+  "items": [
+    {
+      "id": "18-9smqxKWFipkrRiEuqtSBZwrVOwFrO-",
+      "parent_id": "1EtA9IW5_QF6iXL1PyOw5Kw472exQjWFY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2167,
+      "modified": "2026-08-15T07:40:38.000Z",
+      "checksum": "aaddecc37f1da34557445514f7fc8239",
+      "folder": false
+    },
+    {
+      "id": "1wT72fLidEYl0oyLLXPRa4MxdgbHCOacQ",
+      "parent_id": "1EtA9IW5_QF6iXL1PyOw5Kw472exQjWFY",
+      "name": "NHẬT KÝ XIZ.epub",
+      "mime": "application/epub+zip",
+      "size": 548794,
+      "modified": "2026-08-15T07:40:44.000Z",
+      "checksum": "a8cfb470725ad8e72fa9e4bbe807a6b6",
+      "folder": false
+    },
+    {
+      "id": "12CpaPL0NEcGMAk5UitqpHiHBcTG8MBV2",
+      "parent_id": "1EtA9IW5_QF6iXL1PyOw5Kw472exQjWFY",
+      "name": "NHẬT KÝ XIZ.pdf",
+      "mime": "application/pdf",
+      "size": 1126039,
+      "modified": "2026-08-15T07:40:41.000Z",
+      "checksum": "e9476be0561e2555e7caacf0ec1dc669",
+      "folder": false
+    }
+  ]
+}

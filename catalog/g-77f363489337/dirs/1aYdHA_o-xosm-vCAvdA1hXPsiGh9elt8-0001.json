@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aYdHA_o-xosm-vCAvdA1hXPsiGh9elt8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Kzh9X5Ba5avnB4aVnuu3p9vrXap_G9_p",
+      "parent_id": "1aYdHA_o-xosm-vCAvdA1hXPsiGh9elt8",
+      "name": "CHÍ DÃ.epub",
+      "mime": "application/epub+zip",
+      "size": 359463,
+      "modified": "2026-08-15T09:30:22.000Z",
+      "checksum": "ce4139ea37ebaa792efde3d3b830349c",
+      "folder": false
+    },
+    {
+      "id": "1DwOvCs0c1YZVfZ7bTSsWerWPL7oNZYNl",
+      "parent_id": "1aYdHA_o-xosm-vCAvdA1hXPsiGh9elt8",
+      "name": "CHÍ DÃ.pdf",
+      "mime": "application/pdf",
+      "size": 627764,
+      "modified": "2026-08-15T09:30:19.000Z",
+      "checksum": "a8935807f91eef8a607b8b63025b8a5e",
+      "folder": false
+    },
+    {
+      "id": "1lFx8bmkn3Fy8LXLld8-W_bkhOWoahGqB",
+      "parent_id": "1aYdHA_o-xosm-vCAvdA1hXPsiGh9elt8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1704,
+      "modified": "2026-08-15T09:30:13.000Z",
+      "checksum": "963589c30f243a42c16d102c75858ce9",
+      "folder": false
+    }
+  ]
+}

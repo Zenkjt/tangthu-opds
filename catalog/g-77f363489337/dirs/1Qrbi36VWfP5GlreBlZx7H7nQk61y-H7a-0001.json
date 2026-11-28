@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Qrbi36VWfP5GlreBlZx7H7nQk61y-H7a",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dkvUnTtfOnRShm_K0CeUmGPiogNoW8xO",
+      "parent_id": "1Qrbi36VWfP5GlreBlZx7H7nQk61y-H7a",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3155,
+      "modified": "2026-08-15T07:23:38.000Z",
+      "checksum": "a5afc5c1708bd5204933094b1f8b7997",
+      "folder": false
+    },
+    {
+      "id": "1l4cNsnRyVpLY4ajyBljgEdmlYU-KFcOL",
+      "parent_id": "1Qrbi36VWfP5GlreBlZx7H7nQk61y-H7a",
+      "name": "TRUYỆN NGẮN CỔ TRANG.epub",
+      "mime": "application/epub+zip",
+      "size": 370969,
+      "modified": "2026-08-15T07:23:44.000Z",
+      "checksum": "1a21553704ddad3f7a4cf9bc0b6b632f",
+      "folder": false
+    },
+    {
+      "id": "1S9mxlMGK40HJc3R1eNbf6yizsmCMnV0U",
+      "parent_id": "1Qrbi36VWfP5GlreBlZx7H7nQk61y-H7a",
+      "name": "TRUYỆN NGẮN CỔ TRANG.pdf",
+      "mime": "application/pdf",
+      "size": 309369,
+      "modified": "2026-08-15T07:23:42.000Z",
+      "checksum": "f84b2aff47ba482b236e56b3554197cd",
+      "folder": false
+    }
+  ]
+}

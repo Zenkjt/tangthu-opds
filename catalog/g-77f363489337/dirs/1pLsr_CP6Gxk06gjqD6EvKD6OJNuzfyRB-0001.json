@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pLsr_CP6Gxk06gjqD6EvKD6OJNuzfyRB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Tp3Z-0IBTPTccfp_B4RLa66Uoguedk3-",
+      "parent_id": "1pLsr_CP6Gxk06gjqD6EvKD6OJNuzfyRB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1943,
+      "modified": "2026-08-15T06:12:25.000Z",
+      "checksum": "a000d28b0410e15a7b7ce07221961744",
+      "folder": false
+    },
+    {
+      "id": "1jUYOscnVP33RlVDyh46NdzZ0MfC0mP_0",
+      "parent_id": "1pLsr_CP6Gxk06gjqD6EvKD6OJNuzfyRB",
+      "name": "LOAN MẮT NHUNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1053220,
+      "modified": "2026-08-15T06:12:35.000Z",
+      "checksum": "8215cef944eac8355f69b0c9822d84d0",
+      "folder": false
+    },
+    {
+      "id": "1het5W4bxtyCauMEVElgwk3ugyZeF-i-Q",
+      "parent_id": "1pLsr_CP6Gxk06gjqD6EvKD6OJNuzfyRB",
+      "name": "LOAN MẮT NHUNG.pdf",
+      "mime": "application/pdf",
+      "size": 2476748,
+      "modified": "2026-08-15T06:12:32.000Z",
+      "checksum": "99e1a354f02de58551c1f31fa3dc30cc",
+      "folder": false
+    }
+  ]
+}

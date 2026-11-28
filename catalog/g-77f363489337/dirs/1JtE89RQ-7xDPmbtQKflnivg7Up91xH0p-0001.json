@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JtE89RQ-7xDPmbtQKflnivg7Up91xH0p",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PLjmkR9NeB5HEYNeyrk2Bc0GczpY6zsL",
+      "parent_id": "1JtE89RQ-7xDPmbtQKflnivg7Up91xH0p",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3154,
+      "modified": "2026-08-15T07:38:46.000Z",
+      "checksum": "fbc364cd536b491338cb4a43def26eef",
+      "folder": false
+    },
+    {
+      "id": "1ZZrStj8AWKmLseBiEFAeKEj1Z_R1hJQ8",
+      "parent_id": "1JtE89RQ-7xDPmbtQKflnivg7Up91xH0p",
+      "name": "GIÓ ĐÔNG, GIÓ TÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 461534,
+      "modified": "2026-08-15T07:38:52.000Z",
+      "checksum": "36c5fae4c4d56b7f2bbb2523facc7b19",
+      "folder": false
+    },
+    {
+      "id": "18Eg97Xvw-nD2nn-MT6TAw0Buo37ipVIL",
+      "parent_id": "1JtE89RQ-7xDPmbtQKflnivg7Up91xH0p",
+      "name": "GIÓ ĐÔNG, GIÓ TÂY.pdf",
+      "mime": "application/pdf",
+      "size": 649497,
+      "modified": "2026-08-15T07:38:50.000Z",
+      "checksum": "66cf8c025760dff519bc78a17964527f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1b4x5_bq6atxt3vXK3EwgDpDCyChKwFFD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wmj4OPfLmA4rgQHtWCe_iAQrv1jyFr5l",
+      "parent_id": "1b4x5_bq6atxt3vXK3EwgDpDCyChKwFFD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 761,
+      "modified": "2026-08-16T04:20:29.000Z",
+      "checksum": "48b9e407c50b09e2a0a7100b5640facb",
+      "folder": false
+    },
+    {
+      "id": "1-r6OHkmv1lyRxygHnLldDtEkKfDt72Se",
+      "parent_id": "1b4x5_bq6atxt3vXK3EwgDpDCyChKwFFD",
+      "name": "ĐIỆU VALSE GIÃ TỪ.epub",
+      "mime": "application/epub+zip",
+      "size": 420965,
+      "modified": "2026-08-16T04:20:35.000Z",
+      "checksum": "9903ad478711fa24ff9d8d4901edb2e4",
+      "folder": false
+    },
+    {
+      "id": "1pNPDp-MPbB1P041jhH_UUmGcmAzFnVlc",
+      "parent_id": "1b4x5_bq6atxt3vXK3EwgDpDCyChKwFFD",
+      "name": "ĐIỆU VALSE GIÃ TỪ.pdf",
+      "mime": "application/pdf",
+      "size": 843514,
+      "modified": "2026-08-16T04:20:33.000Z",
+      "checksum": "f955689c9a051b93a8894f337bde6f12",
+      "folder": false
+    }
+  ]
+}

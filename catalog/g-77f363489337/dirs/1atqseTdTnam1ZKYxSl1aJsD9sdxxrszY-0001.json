@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1atqseTdTnam1ZKYxSl1aJsD9sdxxrszY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1isdrPxxcblcfT1Q4uxkr6GfNIZPZbrOy",
+      "parent_id": "1atqseTdTnam1ZKYxSl1aJsD9sdxxrszY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4322,
+      "modified": "2026-08-15T08:07:11.000Z",
+      "checksum": "431c0c16a3af87c194b9447acf612e78",
+      "folder": false
+    },
+    {
+      "id": "1hf_lGz0CsbJ3ENljs1vAVwFymNsuTOGO",
+      "parent_id": "1atqseTdTnam1ZKYxSl1aJsD9sdxxrszY",
+      "name": "THÁNH KHƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 754865,
+      "modified": "2026-08-15T08:08:00.000Z",
+      "checksum": "49bd7619d1075a0eea6f6ab46f5d54ab",
+      "folder": false
+    },
+    {
+      "id": "1YyDLRPfIuquPjacu2nOEBWkRVzL7c3Hv",
+      "parent_id": "1atqseTdTnam1ZKYxSl1aJsD9sdxxrszY",
+      "name": "THÁNH KHƯ.pdf",
+      "mime": "application/pdf",
+      "size": 3209002,
+      "modified": "2026-08-15T08:07:55.000Z",
+      "checksum": "59414bf61f42ce8652517cc10833437a",
+      "folder": false
+    }
+  ]
+}

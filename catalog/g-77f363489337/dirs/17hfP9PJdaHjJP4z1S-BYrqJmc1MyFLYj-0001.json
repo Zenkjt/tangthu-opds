@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17hfP9PJdaHjJP4z1S-BYrqJmc1MyFLYj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nmtD-uJtKmVfrgRoS_5uoooiYMA0X7II",
+      "parent_id": "17hfP9PJdaHjJP4z1S-BYrqJmc1MyFLYj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3133,
+      "modified": "2026-08-16T02:52:10.000Z",
+      "checksum": "4f171d21899e8f4cf4cfc2b76fc8d3f1",
+      "folder": false
+    },
+    {
+      "id": "1k_K1dyvY62vpR3KdsjIkPPLPVajGF9Ck",
+      "parent_id": "17hfP9PJdaHjJP4z1S-BYrqJmc1MyFLYj",
+      "name": "ME TƯ HỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 515565,
+      "modified": "2026-08-16T02:52:17.000Z",
+      "checksum": "e028de8a234858ee22ed5437f17e11e1",
+      "folder": false
+    },
+    {
+      "id": "1xjzUK0VFBQI31SGZMCUCMMxNT0OFMlEq",
+      "parent_id": "17hfP9PJdaHjJP4z1S-BYrqJmc1MyFLYj",
+      "name": "ME TƯ HỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 961580,
+      "modified": "2026-08-16T02:52:15.000Z",
+      "checksum": "90a2823da8811ebd9113d461fc3eeaf7",
+      "folder": false
+    }
+  ]
+}

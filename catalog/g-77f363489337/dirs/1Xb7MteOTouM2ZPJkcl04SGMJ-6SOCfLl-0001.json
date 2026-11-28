@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Xb7MteOTouM2ZPJkcl04SGMJ-6SOCfLl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hoCZuFgbPUWRttT2NRUNyQzExW4WsqE0",
+      "parent_id": "1Xb7MteOTouM2ZPJkcl04SGMJ-6SOCfLl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3127,
+      "modified": "2026-08-16T04:02:23.000Z",
+      "checksum": "9e2b53e2e3be2ea41a1e7841b0dea80f",
+      "folder": false
+    },
+    {
+      "id": "1JcqMMvB0nmuFzoSauTLQOezEV1FP6OCl",
+      "parent_id": "1Xb7MteOTouM2ZPJkcl04SGMJ-6SOCfLl",
+      "name": "SỦNG LÂU SẼ THÀNH HÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 469765,
+      "modified": "2026-08-16T04:02:30.000Z",
+      "checksum": "bed58c7b68a8a6ea8f7cf37e150ba11a",
+      "folder": false
+    },
+    {
+      "id": "10Y_ag1zOS_PDzP0qyiaXavXGVC58wU--",
+      "parent_id": "1Xb7MteOTouM2ZPJkcl04SGMJ-6SOCfLl",
+      "name": "SỦNG LÂU SẼ THÀNH HÔN.pdf",
+      "mime": "application/pdf",
+      "size": 1388789,
+      "modified": "2026-08-16T04:02:27.000Z",
+      "checksum": "54361ec4f816be9fa68458fb5d23a4d5",
+      "folder": false
+    }
+  ]
+}

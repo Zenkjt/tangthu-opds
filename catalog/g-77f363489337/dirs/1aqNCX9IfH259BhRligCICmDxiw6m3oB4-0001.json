@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aqNCX9IfH259BhRligCICmDxiw6m3oB4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hrahGhEQvATQU6wU3aZmnQJNKBHAMN7z",
+      "parent_id": "1aqNCX9IfH259BhRligCICmDxiw6m3oB4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2945,
+      "modified": "2026-08-15T07:36:18.000Z",
+      "checksum": "e2e2955ef544383a146dd3d1eb8f633b",
+      "folder": false
+    },
+    {
+      "id": "1499iGpgwz3g2qCHUziPJnDtNRXh667Pc",
+      "parent_id": "1aqNCX9IfH259BhRligCICmDxiw6m3oB4",
+      "name": "TRÒ CHƠI CỦA ENDER.epub",
+      "mime": "application/epub+zip",
+      "size": 1096639,
+      "modified": "2026-08-15T07:36:25.000Z",
+      "checksum": "968f2d8f06e815dd868801c34221db7f",
+      "folder": false
+    },
+    {
+      "id": "1plnPbh8u9UE8_mc45c8S4icd4Lf9SKYz",
+      "parent_id": "1aqNCX9IfH259BhRligCICmDxiw6m3oB4",
+      "name": "TRÒ CHƠI CỦA ENDER.pdf",
+      "mime": "application/pdf",
+      "size": 1176836,
+      "modified": "2026-08-15T07:36:22.000Z",
+      "checksum": "7c519d383f8517b71f173ea2ea61065a",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZVT4RqE8HtuSTh0Ayu5gWM8Bpiqldrt5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EFpo7VhzHExNGJB-7vDG_R8e_3vuzShY",
+      "parent_id": "1ZVT4RqE8HtuSTh0Ayu5gWM8Bpiqldrt5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2081,
+      "modified": "2026-08-15T17:02:54.000Z",
+      "checksum": "83f483ecdb05533ddb38ed0469d50060",
+      "folder": false
+    },
+    {
+      "id": "1CRjNiY4qGP1b52XqfCYKx21uGy1o-ZC_",
+      "parent_id": "1ZVT4RqE8HtuSTh0Ayu5gWM8Bpiqldrt5",
+      "name": "SÁT PHÁ LANG.epub",
+      "mime": "application/epub+zip",
+      "size": 1253159,
+      "modified": "2026-08-15T17:03:07.000Z",
+      "checksum": "82dac4024b3b986bba74391a735877be",
+      "folder": false
+    },
+    {
+      "id": "1RYgyQSYeLGMFTYjrfV5WR73JflH2Djs5",
+      "parent_id": "1ZVT4RqE8HtuSTh0Ayu5gWM8Bpiqldrt5",
+      "name": "SÁT PHÁ LANG.pdf",
+      "mime": "application/pdf",
+      "size": 4225658,
+      "modified": "2026-08-15T17:03:04.000Z",
+      "checksum": "040a1b9f418aaff43c1181d63fe788bf",
+      "folder": false
+    }
+  ]
+}

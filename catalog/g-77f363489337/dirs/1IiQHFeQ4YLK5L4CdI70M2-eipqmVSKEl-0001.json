@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IiQHFeQ4YLK5L4CdI70M2-eipqmVSKEl",
+  "page": 1,
+  "items": [
+    {
+      "id": "11_DboKwZ7GTpn7jXB_sIRuZ8cT8_STYu",
+      "parent_id": "1IiQHFeQ4YLK5L4CdI70M2-eipqmVSKEl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 788,
+      "modified": "2026-08-15T10:05:56.000Z",
+      "checksum": "9514a8a3fe2777446e6c3fbce2ed3868",
+      "folder": false
+    },
+    {
+      "id": "1yZKUdkvBAdW9ueJDs6N1B1LwQPpPWCc4",
+      "parent_id": "1IiQHFeQ4YLK5L4CdI70M2-eipqmVSKEl",
+      "name": "TƯỜNG VI ĐÊM ĐẦU TIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 983478,
+      "modified": "2026-08-15T10:06:04.000Z",
+      "checksum": "8c2306dec500aa639566c1f65a5caa66",
+      "folder": false
+    },
+    {
+      "id": "1m1hiIrubKofc0-7xXYAOAFN53zZiLxp-",
+      "parent_id": "1IiQHFeQ4YLK5L4CdI70M2-eipqmVSKEl",
+      "name": "TƯỜNG VI ĐÊM ĐẦU TIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 2096380,
+      "modified": "2026-08-15T10:06:01.000Z",
+      "checksum": "4ccd7b496942f2965700ba623ed599cc",
+      "folder": false
+    }
+  ]
+}

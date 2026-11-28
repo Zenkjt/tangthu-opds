@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UkXlfl0HEghP-nX5Awsjy85lp7jy4N-t",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iqr7M2Yt-Qt9hCGjD_SAW2XcFre3AUNB",
+      "parent_id": "1UkXlfl0HEghP-nX5Awsjy85lp7jy4N-t",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2583,
+      "modified": "2026-08-15T11:28:33.000Z",
+      "checksum": "f4cc508809de0c5938eb9e15ab66ca3d",
+      "folder": false
+    },
+    {
+      "id": "1Erg8juloxYKjn94Dvk_wDIulTCxVo-i0",
+      "parent_id": "1UkXlfl0HEghP-nX5Awsjy85lp7jy4N-t",
+      "name": "TRẠNG NGUYÊN VIỆT NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 465137,
+      "modified": "2026-08-15T11:28:40.000Z",
+      "checksum": "8e68f743f630d7ec80fdcfc186bd9453",
+      "folder": false
+    },
+    {
+      "id": "1kbKv289dAXUwRP8cTQAO1ytTQYxoqzyP",
+      "parent_id": "1UkXlfl0HEghP-nX5Awsjy85lp7jy4N-t",
+      "name": "TRẠNG NGUYÊN VIỆT NAM.pdf",
+      "mime": "application/pdf",
+      "size": 1263395,
+      "modified": "2026-08-15T11:28:37.000Z",
+      "checksum": "b773b736c9a8b548d3dff539c7f93012",
+      "folder": false
+    }
+  ]
+}

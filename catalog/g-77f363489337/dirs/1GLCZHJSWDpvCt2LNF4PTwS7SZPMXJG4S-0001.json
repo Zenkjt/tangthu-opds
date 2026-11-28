@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GLCZHJSWDpvCt2LNF4PTwS7SZPMXJG4S",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aAxVM8Hr_caWf-zXwTg72DikU8e09EpG",
+      "parent_id": "1GLCZHJSWDpvCt2LNF4PTwS7SZPMXJG4S",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3507,
+      "modified": "2026-08-15T06:22:13.000Z",
+      "checksum": "b3db471d785a2def922eff5467010be8",
+      "folder": false
+    },
+    {
+      "id": "1AR7aO4qQPpZXhvOZSs7E5aculjFuJmDe",
+      "parent_id": "1GLCZHJSWDpvCt2LNF4PTwS7SZPMXJG4S",
+      "name": "SỐ ÍT ĐƯỢC LỰA CHỌN.epub",
+      "mime": "application/epub+zip",
+      "size": 2622296,
+      "modified": "2026-08-15T06:23:38.000Z",
+      "checksum": "e7955648c6b780eb72dfa49e5ea9530b",
+      "folder": false
+    },
+    {
+      "id": "1RVJ2tmHFal7RQkNRKORUEK2soRH2rghB",
+      "parent_id": "1GLCZHJSWDpvCt2LNF4PTwS7SZPMXJG4S",
+      "name": "SỐ ÍT ĐƯỢC LỰA CHỌN.pdf",
+      "mime": "application/pdf",
+      "size": 4477710,
+      "modified": "2026-08-15T06:22:46.000Z",
+      "checksum": "197a83808a78957c434340ccf07669b5",
+      "folder": false
+    }
+  ]
+}

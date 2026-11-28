@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18kQ51uHQwKkGtnzta3B0rkEV243Se7tH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dd5rpLoJT5VaQNUo9DJc_dm7_zwz3e7F",
+      "parent_id": "18kQ51uHQwKkGtnzta3B0rkEV243Se7tH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10100,
+      "modified": "2026-08-15T09:50:08.000Z",
+      "checksum": "944f13b79f71d6a2e76c773b06eafb52",
+      "folder": false
+    },
+    {
+      "id": "1UU4mB9fyaHojm3CMSq7IpgjkppZaAVVL",
+      "parent_id": "18kQ51uHQwKkGtnzta3B0rkEV243Se7tH",
+      "name": "DƯỚI ÁNH HOA ĐĂNG.epub",
+      "mime": "application/epub+zip",
+      "size": 413815,
+      "modified": "2026-08-15T09:50:15.000Z",
+      "checksum": "f17e4e41341ad1e5e9d4482c3c785ba0",
+      "folder": false
+    },
+    {
+      "id": "1BnZ4eUyjZ6AO6nYZlouLtjUXEGIz5vbo",
+      "parent_id": "18kQ51uHQwKkGtnzta3B0rkEV243Se7tH",
+      "name": "DƯỚI ÁNH HOA ĐĂNG.pdf",
+      "mime": "application/pdf",
+      "size": 469001,
+      "modified": "2026-08-15T09:50:12.000Z",
+      "checksum": "ba7aafd5a79129689e9647741a23f3da",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ka2bvulqTinKFhZBJZ5iXB8YiXXeMPDd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uiR1K7kQjECLSLZQGymCxqqA3N0Qa4BH",
+      "parent_id": "1Ka2bvulqTinKFhZBJZ5iXB8YiXXeMPDd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2538,
+      "modified": "2026-08-16T03:35:59.000Z",
+      "checksum": "dc2a05dff262556f8a2637220b58a61d",
+      "folder": false
+    },
+    {
+      "id": "1cA_PTiXxx1_S5sFuvPoStKK01fa_4v45",
+      "parent_id": "1Ka2bvulqTinKFhZBJZ5iXB8YiXXeMPDd",
+      "name": "PHẢI LẤY NGƯỜI NHƯ ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 555534,
+      "modified": "2026-08-16T03:36:06.000Z",
+      "checksum": "473ab6c86bfc686d3dc81fb1ae325d4c",
+      "folder": false
+    },
+    {
+      "id": "1xxuU5VcOoAUXNnbnUnbtBsdY_Zc73u_G",
+      "parent_id": "1Ka2bvulqTinKFhZBJZ5iXB8YiXXeMPDd",
+      "name": "PHẢI LẤY NGƯỜI NHƯ ANH.pdf",
+      "mime": "application/pdf",
+      "size": 535846,
+      "modified": "2026-08-16T03:36:03.000Z",
+      "checksum": "b8783821e549527a28c67426a6e1aa89",
+      "folder": false
+    }
+  ]
+}

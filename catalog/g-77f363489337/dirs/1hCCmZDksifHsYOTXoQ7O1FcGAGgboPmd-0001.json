@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hCCmZDksifHsYOTXoQ7O1FcGAGgboPmd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1L2vEaZXZTvomQC1aHP_AdhJyi3g10LZc",
+      "parent_id": "1hCCmZDksifHsYOTXoQ7O1FcGAGgboPmd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3386,
+      "modified": "2026-08-15T10:39:43.000Z",
+      "checksum": "d341a52043fde0f8222e7d8e67e69433",
+      "folder": false
+    },
+    {
+      "id": "1P-q9VWh9OjJ5403gZi5ppEv2WOSwlzqz",
+      "parent_id": "1hCCmZDksifHsYOTXoQ7O1FcGAGgboPmd",
+      "name": "NHẶT DŨNG CẢM LÊN TA LÀM LẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 443676,
+      "modified": "2026-08-15T10:39:52.000Z",
+      "checksum": "0c4b22289aaddc4f5badcb37bd75eed2",
+      "folder": false
+    },
+    {
+      "id": "1g0JV-XppOTLKPFoBcYG-JUbkrm-sC6C7",
+      "parent_id": "1hCCmZDksifHsYOTXoQ7O1FcGAGgboPmd",
+      "name": "NHẶT DŨNG CẢM LÊN TA LÀM LẠI.pdf",
+      "mime": "application/pdf",
+      "size": 701989,
+      "modified": "2026-08-15T10:39:48.000Z",
+      "checksum": "29cd816e874db0e6900d644386e82ce9",
+      "folder": false
+    }
+  ]
+}

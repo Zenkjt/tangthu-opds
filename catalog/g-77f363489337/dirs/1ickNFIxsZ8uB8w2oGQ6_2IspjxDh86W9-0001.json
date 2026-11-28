@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ickNFIxsZ8uB8w2oGQ6_2IspjxDh86W9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aWQ804b1sCtSgjsLkWEErGwMxua4muUA",
+      "parent_id": "1ickNFIxsZ8uB8w2oGQ6_2IspjxDh86W9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2789,
+      "modified": "2026-08-16T03:56:26.000Z",
+      "checksum": "7aca26cb0ac46e0e1c081b8d6b54ded4",
+      "folder": false
+    },
+    {
+      "id": "1_E1sQbt4uwCjDVT4dT9hZsotWPw8dlY4",
+      "parent_id": "1ickNFIxsZ8uB8w2oGQ6_2IspjxDh86W9",
+      "name": "THỤC SƠN THIẾU NIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 2652631,
+      "modified": "2026-08-16T03:56:36.000Z",
+      "checksum": "1fa54d4ae03a3e818e8163fb628edd92",
+      "folder": false
+    },
+    {
+      "id": "1k2cZRRHhZa7-NXrScF5gP9ICunWgDEA4",
+      "parent_id": "1ickNFIxsZ8uB8w2oGQ6_2IspjxDh86W9",
+      "name": "THỤC SƠN THIẾU NIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 2766523,
+      "modified": "2026-08-16T03:56:32.000Z",
+      "checksum": "1f3c3201e6bd9f5b71d2d1227475960c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NtyNluO6h2rqXTLEwAV8rzWO4eZKl9d_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Aca0vc1wecPBqTjPjxUIOnf49M0Q02YM",
+      "parent_id": "1NtyNluO6h2rqXTLEwAV8rzWO4eZKl9d_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3951,
+      "modified": "2026-08-15T05:48:38.000Z",
+      "checksum": "43386b04afebb8e8ba4c8562490dbbe6",
+      "folder": false
+    },
+    {
+      "id": "1gfmKRqsn3j21ik5ecbth0grs6vYm4GTY",
+      "parent_id": "1NtyNluO6h2rqXTLEwAV8rzWO4eZKl9d_",
+      "name": "NỀN DÂN TRỊ MĨ.epub",
+      "mime": "application/epub+zip",
+      "size": 1861919,
+      "modified": "2026-08-15T05:49:10.000Z",
+      "checksum": "f474cd12df94449eee04c2ee592e5ad9",
+      "folder": false
+    },
+    {
+      "id": "18pSSfIpDLyHIRWc_KOI6F62wjXwLUdck",
+      "parent_id": "1NtyNluO6h2rqXTLEwAV8rzWO4eZKl9d_",
+      "name": "NỀN DÂN TRỊ MĨ.pdf",
+      "mime": "application/pdf",
+      "size": 5153599,
+      "modified": "2026-08-15T05:49:01.000Z",
+      "checksum": "ff54c689f14b54d20a80256fc529b64d",
+      "folder": false
+    }
+  ]
+}

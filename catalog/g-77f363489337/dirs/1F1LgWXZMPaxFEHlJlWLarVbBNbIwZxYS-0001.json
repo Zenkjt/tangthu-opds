@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1F1LgWXZMPaxFEHlJlWLarVbBNbIwZxYS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1s85gWNbfNVbWoON1LeeWChdUU6NNsnST",
+      "parent_id": "1F1LgWXZMPaxFEHlJlWLarVbBNbIwZxYS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 884,
+      "modified": "2026-08-15T10:27:16.000Z",
+      "checksum": "32c9123aa136376ceb973bf2e1a223de",
+      "folder": false
+    },
+    {
+      "id": "1Aj9Aertf-v1FlyiMQopCF0oo2jo5dfRy",
+      "parent_id": "1F1LgWXZMPaxFEHlJlWLarVbBNbIwZxYS",
+      "name": "SHIORIKO VÀ DUNG NHAN HAI MẶT.epub",
+      "mime": "application/epub+zip",
+      "size": 458584,
+      "modified": "2026-08-15T10:27:25.000Z",
+      "checksum": "9a31c031b60dedd96c960007a4145f13",
+      "folder": false
+    },
+    {
+      "id": "1AaEcOKd3ti4HWTtLGyecOSNzedej40We",
+      "parent_id": "1F1LgWXZMPaxFEHlJlWLarVbBNbIwZxYS",
+      "name": "SHIORIKO VÀ DUNG NHAN HAI MẶT.pdf",
+      "mime": "application/pdf",
+      "size": 769819,
+      "modified": "2026-08-15T10:27:22.000Z",
+      "checksum": "2da9020a251de1d8fa55b3cbd550fa08",
+      "folder": false
+    }
+  ]
+}

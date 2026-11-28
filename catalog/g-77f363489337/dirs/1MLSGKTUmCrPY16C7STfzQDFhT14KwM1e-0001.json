@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MLSGKTUmCrPY16C7STfzQDFhT14KwM1e",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Y0sqfFfBwLADHChnO4etbskuAAnMKq69",
+      "parent_id": "1MLSGKTUmCrPY16C7STfzQDFhT14KwM1e",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3125,
+      "modified": "2026-08-15T10:23:07.000Z",
+      "checksum": "a3eaa9a92f2d9a2fc6790823e72ad885",
+      "folder": false
+    },
+    {
+      "id": "1aBvThR6EmOuoWPS2fJXVbT6Bg6WzYiuN",
+      "parent_id": "1MLSGKTUmCrPY16C7STfzQDFhT14KwM1e",
+      "name": "TÂM NHẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 489512,
+      "modified": "2026-08-15T10:24:11.000Z",
+      "checksum": "613170bf3bf7b46708d82c55d9f91ce7",
+      "folder": false
+    },
+    {
+      "id": "1Eo3UAnedkXRmHZE21LbB7LbqhETnJfB3",
+      "parent_id": "1MLSGKTUmCrPY16C7STfzQDFhT14KwM1e",
+      "name": "TÂM NHẬN.pdf",
+      "mime": "application/pdf",
+      "size": 1277662,
+      "modified": "2026-08-15T10:23:53.000Z",
+      "checksum": "d05909a7d1a01cb79f44e7cd6ed91bb7",
+      "folder": false
+    }
+  ]
+}

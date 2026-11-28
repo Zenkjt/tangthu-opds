@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yAk9PW-mifJefpOOFWUfqPhr9m0Uj8LM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ylYqJI2DY9SQHBIsdIa2UMQ321hiow4o",
+      "parent_id": "1yAk9PW-mifJefpOOFWUfqPhr9m0Uj8LM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 622,
+      "modified": "2026-08-16T04:19:31.000Z",
+      "checksum": "3c2e3665ced1a778326f67f088b4df56",
+      "folder": false
+    },
+    {
+      "id": "1Rb0q44Tk6KhLC9tsu3ho4tj2GNhBIYHh",
+      "parent_id": "1yAk9PW-mifJefpOOFWUfqPhr9m0Uj8LM",
+      "name": "HOA VÀNG CỐ HƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 922440,
+      "modified": "2026-08-16T04:19:39.000Z",
+      "checksum": "df4194268237c00e53f1f2b0cf845fa4",
+      "folder": false
+    },
+    {
+      "id": "1TrmhXbxCdxCMOveJSkrS4iPTKcRglHMu",
+      "parent_id": "1yAk9PW-mifJefpOOFWUfqPhr9m0Uj8LM",
+      "name": "HOA VÀNG CỐ HƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1545602,
+      "modified": "2026-08-16T04:19:35.000Z",
+      "checksum": "6b941fb8c5fc5e0e4df8ef318063b608",
+      "folder": false
+    }
+  ]
+}

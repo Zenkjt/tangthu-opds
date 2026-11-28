@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gmUHYr5_1w6kb0GwkB5k9PCrUhYHpo0Y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DVr5Ys54sAaw2hN-1pT7kglRjzbXb-Ua",
+      "parent_id": "1gmUHYr5_1w6kb0GwkB5k9PCrUhYHpo0Y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 516,
+      "modified": "2026-08-15T10:05:44.000Z",
+      "checksum": "d6432e6d5a519cfcad67e1698f3ed1c6",
+      "folder": false
+    },
+    {
+      "id": "1z1Lzo-9ZiKF-Q4z6jfQsIb9ITenzF5L1",
+      "parent_id": "1gmUHYr5_1w6kb0GwkB5k9PCrUhYHpo0Y",
+      "name": "VÁN CỜ NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 598944,
+      "modified": "2026-08-15T10:05:52.000Z",
+      "checksum": "204a943dfdb7406e20b0cae087e85163",
+      "folder": false
+    },
+    {
+      "id": "1BjgJmeBfAUTgJ_AI7lFo3MeEAmakm5Ho",
+      "parent_id": "1gmUHYr5_1w6kb0GwkB5k9PCrUhYHpo0Y",
+      "name": "VÁN CỜ NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 1602350,
+      "modified": "2026-08-15T10:05:49.000Z",
+      "checksum": "92a0f6ce62bce93346415acf0e45a8f9",
+      "folder": false
+    }
+  ]
+}

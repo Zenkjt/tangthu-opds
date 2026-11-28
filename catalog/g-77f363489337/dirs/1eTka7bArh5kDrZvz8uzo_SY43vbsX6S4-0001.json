@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eTka7bArh5kDrZvz8uzo_SY43vbsX6S4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CHUoLs8JsQ3aG-k2pC4T2lp-bgqhsSTM",
+      "parent_id": "1eTka7bArh5kDrZvz8uzo_SY43vbsX6S4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1293,
+      "modified": "2026-08-16T03:20:10.000Z",
+      "checksum": "9d8d8f91e7fc0954add282bdf16834df",
+      "folder": false
+    },
+    {
+      "id": "1klVGzDWG4F5vikG3H0Xgisr3VIRva5Yn",
+      "parent_id": "1eTka7bArh5kDrZvz8uzo_SY43vbsX6S4",
+      "name": "TIỂU BẢO BỐI CỦA BẠO VƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 871654,
+      "modified": "2026-08-16T03:20:16.000Z",
+      "checksum": "57a6f53cadb4e371f2fbb0cc7230bedc",
+      "folder": false
+    },
+    {
+      "id": "1S_cFzdRwLNMp2bNghJ2qEvsbPYB_yGzI",
+      "parent_id": "1eTka7bArh5kDrZvz8uzo_SY43vbsX6S4",
+      "name": "TIỂU BẢO BỐI CỦA BẠO VƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 758118,
+      "modified": "2026-08-16T03:20:14.000Z",
+      "checksum": "4f080d66546b6a3804f1ae3476128ec1",
+      "folder": false
+    }
+  ]
+}

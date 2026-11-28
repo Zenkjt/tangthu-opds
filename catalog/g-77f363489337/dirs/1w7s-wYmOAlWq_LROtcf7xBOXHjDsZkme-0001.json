@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1w7s-wYmOAlWq_LROtcf7xBOXHjDsZkme",
+  "page": 1,
+  "items": [
+    {
+      "id": "13L8ofObD1aZNSSZ4OSCXNVcI9BdczPSA",
+      "parent_id": "1w7s-wYmOAlWq_LROtcf7xBOXHjDsZkme",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4014,
+      "modified": "2026-08-15T06:15:46.000Z",
+      "checksum": "31b76ad42e53789e65dc902c3b7f9e86",
+      "folder": false
+    },
+    {
+      "id": "1S_rkCqjM0mtLNc7JQgkbwKAViGAA6eP1",
+      "parent_id": "1w7s-wYmOAlWq_LROtcf7xBOXHjDsZkme",
+      "name": "NỮ QUÁI.epub",
+      "mime": "application/epub+zip",
+      "size": 295330,
+      "modified": "2026-08-15T06:15:52.000Z",
+      "checksum": "a9fe43b555b8e99dc788cc0b1b9b7abf",
+      "folder": false
+    },
+    {
+      "id": "1nOU85MdZH5VICoSa9iDuAuSCUwncQqf6",
+      "parent_id": "1w7s-wYmOAlWq_LROtcf7xBOXHjDsZkme",
+      "name": "NỮ QUÁI.pdf",
+      "mime": "application/pdf",
+      "size": 257557,
+      "modified": "2026-08-15T06:15:50.000Z",
+      "checksum": "458c1a5c7bb5e9084c300a82d4ab5989",
+      "folder": false
+    }
+  ]
+}

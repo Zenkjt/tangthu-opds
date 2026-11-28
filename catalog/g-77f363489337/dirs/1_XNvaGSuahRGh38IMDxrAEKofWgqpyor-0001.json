@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_XNvaGSuahRGh38IMDxrAEKofWgqpyor",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CfKVa89jVWC-R3oPus0ZRkjEm46RlpbV",
+      "parent_id": "1_XNvaGSuahRGh38IMDxrAEKofWgqpyor",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2670,
+      "modified": "2026-08-15T07:38:23.000Z",
+      "checksum": "d714a33306e1c6dfa87725802690c3c8",
+      "folder": false
+    },
+    {
+      "id": "1sn6PAq0oRwFayL30LTaHoEg4tmarIGHn",
+      "parent_id": "1_XNvaGSuahRGh38IMDxrAEKofWgqpyor",
+      "name": "PHONG VÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 2852294,
+      "modified": "2026-08-15T07:38:33.000Z",
+      "checksum": "338cc0f0fc521fd46f7b8e175b00d27e",
+      "folder": false
+    },
+    {
+      "id": "1qtjVMJpn9M4I2dDfHkfy7H-cLkKiKD23",
+      "parent_id": "1_XNvaGSuahRGh38IMDxrAEKofWgqpyor",
+      "name": "PHONG VÂN.pdf",
+      "mime": "application/pdf",
+      "size": 2883712,
+      "modified": "2026-08-15T07:38:29.000Z",
+      "checksum": "68c6ead0cdd224f6b71217841e335a26",
+      "folder": false
+    }
+  ]
+}

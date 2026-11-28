@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Zlw8-6SJkZaCx0Q6lVm5BHbvjoE1g03j",
+  "page": 1,
+  "items": [
+    {
+      "id": "15wBhL885bXPbSuBohSczGqAv7beS5O5c",
+      "parent_id": "1Zlw8-6SJkZaCx0Q6lVm5BHbvjoE1g03j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 711,
+      "modified": "2026-08-16T03:52:13.000Z",
+      "checksum": "9959eea4c1b6d3974d5c957cf42c228e",
+      "folder": false
+    },
+    {
+      "id": "1HzyS-xK_SA8PRp5_b-2k1MCM1DIPCniR",
+      "parent_id": "1Zlw8-6SJkZaCx0Q6lVm5BHbvjoE1g03j",
+      "name": "TUYỆT TÌNH CA.epub",
+      "mime": "application/epub+zip",
+      "size": 450918,
+      "modified": "2026-08-16T03:52:20.000Z",
+      "checksum": "6955ce0b14e80b117f753d70fe9fd049",
+      "folder": false
+    },
+    {
+      "id": "15JPnnkvnKbHBugeuLHY-bzbxLAUnfvEp",
+      "parent_id": "1Zlw8-6SJkZaCx0Q6lVm5BHbvjoE1g03j",
+      "name": "TUYỆT TÌNH CA.pdf",
+      "mime": "application/pdf",
+      "size": 1533529,
+      "modified": "2026-08-16T03:52:17.000Z",
+      "checksum": "ec3286e6908657e8560dcde1a2762768",
+      "folder": false
+    }
+  ]
+}

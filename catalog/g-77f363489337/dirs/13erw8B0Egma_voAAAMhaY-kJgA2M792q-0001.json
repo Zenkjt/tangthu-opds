@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13erw8B0Egma_voAAAMhaY-kJgA2M792q",
+  "page": 1,
+  "items": [
+    {
+      "id": "13qG3_ssVrYlvck_8zb5kb2qPd8gu-3gx",
+      "parent_id": "13erw8B0Egma_voAAAMhaY-kJgA2M792q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5359,
+      "modified": "2026-08-15T03:20:39.000Z",
+      "checksum": "5340d63e5d6bd683ceea8a8c8b6be59e",
+      "folder": false
+    },
+    {
+      "id": "188aKAI9wTwQOPRq1QKuxBQMD5OM68J73",
+      "parent_id": "13erw8B0Egma_voAAAMhaY-kJgA2M792q",
+      "name": "TÔI TƯ DUY - TÔI THÀNH ĐẠT.epub",
+      "mime": "application/epub+zip",
+      "size": 318539,
+      "modified": "2026-08-15T03:20:45.000Z",
+      "checksum": "e2682333e353fb80db5dcf09554e3ae7",
+      "folder": false
+    },
+    {
+      "id": "1G3HmbYWOfAY8j0JEpmZCW0UMoNvNSXNR",
+      "parent_id": "13erw8B0Egma_voAAAMhaY-kJgA2M792q",
+      "name": "TÔI TƯ DUY - TÔI THÀNH ĐẠT.pdf",
+      "mime": "application/pdf",
+      "size": 609201,
+      "modified": "2026-08-15T03:20:43.000Z",
+      "checksum": "0c7d4581d26e0600796c9595643ebe03",
+      "folder": false
+    }
+  ]
+}

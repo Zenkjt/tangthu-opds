@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1X9iqMCmZBGb-ETXcCt2GS0Z4a41Kx86K",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JYAJNy2vpZ_0ugqlZWMoF0RZ_k_Oz-5y",
+      "parent_id": "1X9iqMCmZBGb-ETXcCt2GS0Z4a41Kx86K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3335,
+      "modified": "2026-08-16T04:03:41.000Z",
+      "checksum": "043716d0e96979bcb9dc5e70ec346a62",
+      "folder": false
+    },
+    {
+      "id": "1qR7DJz9vzybbjxmgx1_PALeN9k8ntrLI",
+      "parent_id": "1X9iqMCmZBGb-ETXcCt2GS0Z4a41Kx86K",
+      "name": "SINH THỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 483704,
+      "modified": "2026-08-16T04:03:48.000Z",
+      "checksum": "fa6424632cd8b54f922a9a9c068994b8",
+      "folder": false
+    },
+    {
+      "id": "1mYd9RFRqQhmep1IFWiEsdgTZueRp9ECe",
+      "parent_id": "1X9iqMCmZBGb-ETXcCt2GS0Z4a41Kx86K",
+      "name": "SINH THỜI.pdf",
+      "mime": "application/pdf",
+      "size": 1539495,
+      "modified": "2026-08-16T04:03:45.000Z",
+      "checksum": "33254f3495b2eab597336dd0025aa9c3",
+      "folder": false
+    }
+  ]
+}

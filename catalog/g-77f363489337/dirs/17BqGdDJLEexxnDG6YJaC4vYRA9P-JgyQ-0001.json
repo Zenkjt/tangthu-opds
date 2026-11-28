@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17BqGdDJLEexxnDG6YJaC4vYRA9P-JgyQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bS5CDlaVBrsjtd1R_qgjZ_PVnmO_M_VS",
+      "parent_id": "17BqGdDJLEexxnDG6YJaC4vYRA9P-JgyQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3815,
+      "modified": "2026-08-16T03:38:30.000Z",
+      "checksum": "3818a7244d7c3d1473926b9ef5690a1c",
+      "folder": false
+    },
+    {
+      "id": "1rYXQrGxpnjR4fQVaHYWVTPbItAaSIV7S",
+      "parent_id": "17BqGdDJLEexxnDG6YJaC4vYRA9P-JgyQ",
+      "name": "LỌ LEM ĐƯỜNG PHỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 467840,
+      "modified": "2026-08-16T03:38:36.000Z",
+      "checksum": "e03981006b6fbc7d9b1678fb70324642",
+      "folder": false
+    },
+    {
+      "id": "1wSJu7KpDqhWWeKU0VPv7BuFWTgjC9yLM",
+      "parent_id": "17BqGdDJLEexxnDG6YJaC4vYRA9P-JgyQ",
+      "name": "LỌ LEM ĐƯỜNG PHỐ.pdf",
+      "mime": "application/pdf",
+      "size": 1254908,
+      "modified": "2026-08-16T03:38:34.000Z",
+      "checksum": "7a879263a0c241aea7d2a2f613003f09",
+      "folder": false
+    }
+  ]
+}

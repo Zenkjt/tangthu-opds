@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1738qOLpu87Fj9-OBTOVQkPZ8yChWNE_n",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wwQzZJBCKKmWwu1J4R-f8UjkEbkHB5Lq",
+      "parent_id": "1738qOLpu87Fj9-OBTOVQkPZ8yChWNE_n",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1261,
+      "modified": "2026-08-15T06:10:41.000Z",
+      "checksum": "003934cec8f703e7384adee9c00e1215",
+      "folder": false
+    },
+    {
+      "id": "1YI6l5-Kr8XCfucNZAoqXFc9DyTazOtso",
+      "parent_id": "1738qOLpu87Fj9-OBTOVQkPZ8yChWNE_n",
+      "name": "GIANG HỒ SÀI GÒN.epub",
+      "mime": "application/epub+zip",
+      "size": 400832,
+      "modified": "2026-08-15T06:10:51.000Z",
+      "checksum": "2840f70d8bb2c63073a859021246f8b4",
+      "folder": false
+    },
+    {
+      "id": "17kZ09roaizXglOwOPRSicfusVdHoGul3",
+      "parent_id": "1738qOLpu87Fj9-OBTOVQkPZ8yChWNE_n",
+      "name": "GIANG HỒ SÀI GÒN.pdf",
+      "mime": "application/pdf",
+      "size": 668681,
+      "modified": "2026-08-15T06:10:47.000Z",
+      "checksum": "828c797563b97fbe7f22ef4c70961a32",
+      "folder": false
+    }
+  ]
+}

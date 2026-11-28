@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sJUODLHA9E7qbWxINz8p-QQBPxblWR6S",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IZafqj_CskK1xTdmisvQ0oWBEUOGbq8l",
+      "parent_id": "1sJUODLHA9E7qbWxINz8p-QQBPxblWR6S",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5430,
+      "modified": "2026-08-15T06:45:16.000Z",
+      "checksum": "42a83b34455f553f9e0ac2f24920a148",
+      "folder": false
+    },
+    {
+      "id": "1ukz_sZpZCEqLQH_RMxddnXFwhXlOIZoa",
+      "parent_id": "1sJUODLHA9E7qbWxINz8p-QQBPxblWR6S",
+      "name": "KHÓI TRỜI LỘNG LẪY.epub",
+      "mime": "application/epub+zip",
+      "size": 247170,
+      "modified": "2026-08-15T06:45:23.000Z",
+      "checksum": "bdd2eea1a68c4e70fefdbf3661223ff6",
+      "folder": false
+    },
+    {
+      "id": "1BtqrtIbpLwPmvNOi_-2XL2_GKH5WSxVn",
+      "parent_id": "1sJUODLHA9E7qbWxINz8p-QQBPxblWR6S",
+      "name": "KHÓI TRỜI LỘNG LẪY.pdf",
+      "mime": "application/pdf",
+      "size": 207962,
+      "modified": "2026-08-15T06:45:19.000Z",
+      "checksum": "18d6927c3b30893d019a28e1582794bc",
+      "folder": false
+    }
+  ]
+}

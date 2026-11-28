@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17GnWLxJ1E6KSm9XFWl_hPU4ECYHMluKk",
+  "page": 1,
+  "items": [
+    {
+      "id": "12rMwe2zTxMbFyMlDbGYtBdTpZxZNfKOo",
+      "parent_id": "17GnWLxJ1E6KSm9XFWl_hPU4ECYHMluKk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5667,
+      "modified": "2026-08-15T03:53:21.000Z",
+      "checksum": "aad766f1b075f84e06adea307ca30717",
+      "folder": false
+    },
+    {
+      "id": "1MAPjiR7qI3BumYEboS5cIN-F41ug_n7A",
+      "parent_id": "17GnWLxJ1E6KSm9XFWl_hPU4ECYHMluKk",
+      "name": "THÔNG ĐIỆP CỦA NƯỚC.epub",
+      "mime": "application/epub+zip",
+      "size": 398512,
+      "modified": "2026-08-15T03:53:27.000Z",
+      "checksum": "d6a8ab48aed82a084ca36a3831c88537",
+      "folder": false
+    },
+    {
+      "id": "1PTVwF0PJ-9-nNBmW6cVuZ4zlZmIIwMXW",
+      "parent_id": "17GnWLxJ1E6KSm9XFWl_hPU4ECYHMluKk",
+      "name": "THÔNG ĐIỆP CỦA NƯỚC.pdf",
+      "mime": "application/pdf",
+      "size": 516493,
+      "modified": "2026-08-15T03:53:25.000Z",
+      "checksum": "2417be18e58a0bfcde9d2bc3b8cc8a86",
+      "folder": false
+    }
+  ]
+}

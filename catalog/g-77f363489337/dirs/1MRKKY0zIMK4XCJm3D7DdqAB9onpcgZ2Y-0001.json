@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MRKKY0zIMK4XCJm3D7DdqAB9onpcgZ2Y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ML3RE4w_5wZXhEhoGyms2uKoq6xCmbYi",
+      "parent_id": "1MRKKY0zIMK4XCJm3D7DdqAB9onpcgZ2Y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10124,
+      "modified": "2026-08-15T03:19:14.000Z",
+      "checksum": "abef15c3ed0450c266cfb13aeb9f1e8c",
+      "folder": false
+    },
+    {
+      "id": "1jDHqUl6fURzrad2QdZTqC4L2uPcnhzbc",
+      "parent_id": "1MRKKY0zIMK4XCJm3D7DdqAB9onpcgZ2Y",
+      "name": "NGƯỜI QUÉT DỌN TÂM HỒN.epub",
+      "mime": "application/epub+zip",
+      "size": 1223128,
+      "modified": "2026-08-15T03:19:20.000Z",
+      "checksum": "c4bbe2daff562d2d42c262e51b74785b",
+      "folder": false
+    },
+    {
+      "id": "16LVGtdjz5qIy1isgZ3pJmqxUFScdzaW-",
+      "parent_id": "1MRKKY0zIMK4XCJm3D7DdqAB9onpcgZ2Y",
+      "name": "NGƯỜI QUÉT DỌN TÂM HỒN.pdf",
+      "mime": "application/pdf",
+      "size": 1625778,
+      "modified": "2026-08-15T03:19:18.000Z",
+      "checksum": "daa24902a622a44d2a4047953f2010b1",
+      "folder": false
+    }
+  ]
+}

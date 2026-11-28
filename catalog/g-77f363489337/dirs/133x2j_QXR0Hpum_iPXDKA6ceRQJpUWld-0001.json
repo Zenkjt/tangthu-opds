@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "133x2j_QXR0Hpum_iPXDKA6ceRQJpUWld",
+  "page": 1,
+  "items": [
+    {
+      "id": "1x9K9OWspdS6h1FMytp1WSFnQ0xg2G-ss",
+      "parent_id": "133x2j_QXR0Hpum_iPXDKA6ceRQJpUWld",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8002,
+      "modified": "2026-08-16T03:26:27.000Z",
+      "checksum": "d9743f08591e9fb13717585e9c016f0b",
+      "folder": false
+    },
+    {
+      "id": "1jJaRMk6GhV5Me2wSOSDAGH5TTNZfXXzT",
+      "parent_id": "133x2j_QXR0Hpum_iPXDKA6ceRQJpUWld",
+      "name": "ĐỘI SĂN CỦA QUỐC VƯƠNG XTAC.epub",
+      "mime": "application/epub+zip",
+      "size": 607559,
+      "modified": "2026-08-16T03:26:35.000Z",
+      "checksum": "1762e64227101bd1ff783d21997e8437",
+      "folder": false
+    },
+    {
+      "id": "1ss6nCB5ZWQ1mkc6ZgxVcIG5Zc0x9C9EA",
+      "parent_id": "133x2j_QXR0Hpum_iPXDKA6ceRQJpUWld",
+      "name": "ĐỘI SĂN CỦA QUỐC VƯƠNG XTAC.pdf",
+      "mime": "application/pdf",
+      "size": 1033042,
+      "modified": "2026-08-16T03:26:32.000Z",
+      "checksum": "1528a7e3a3592289f64aee8bf533efad",
+      "folder": false
+    }
+  ]
+}

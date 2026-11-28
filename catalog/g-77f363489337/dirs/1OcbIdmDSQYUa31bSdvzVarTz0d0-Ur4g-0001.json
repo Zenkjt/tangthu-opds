@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OcbIdmDSQYUa31bSdvzVarTz0d0-Ur4g",
+  "page": 1,
+  "items": [
+    {
+      "id": "11r1WNqlIkJYyXvPP562XoSTrC_F0kcVh",
+      "parent_id": "1OcbIdmDSQYUa31bSdvzVarTz0d0-Ur4g",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3203,
+      "modified": "2026-08-15T07:54:58.000Z",
+      "checksum": "bbdf45a92e576a8175adcb9e59dc5b8a",
+      "folder": false
+    },
+    {
+      "id": "1K83zh8jlQ1WTNbELjatBr7GsjFkwPzpM",
+      "parent_id": "1OcbIdmDSQYUa31bSdvzVarTz0d0-Ur4g",
+      "name": "MẶC NHIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 274972,
+      "modified": "2026-08-15T07:55:04.000Z",
+      "checksum": "8cb5e43805c80dfe6af82464fcc50a8a",
+      "folder": false
+    },
+    {
+      "id": "1NP-FU1KIn5EOIvr1JQhRbjSkjbFVrcuJ",
+      "parent_id": "1OcbIdmDSQYUa31bSdvzVarTz0d0-Ur4g",
+      "name": "MẶC NHIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 745600,
+      "modified": "2026-08-15T07:55:01.000Z",
+      "checksum": "0b3d658136a2820a4f11a91d439ef0d5",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ft58SK5cm-KxXUypUugahm7GuB_C8Ow2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kN8qt16afaJ4_DSpgXigLoT35GZJYp5c",
+      "parent_id": "1ft58SK5cm-KxXUypUugahm7GuB_C8Ow2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3337,
+      "modified": "2026-08-15T00:47:16.000Z",
+      "checksum": "e913cfb5b6d7f6a858599aaa361a6853",
+      "folder": false
+    },
+    {
+      "id": "1cnCTR9Ze68ax47PqPV61VqrGFOURPFHY",
+      "parent_id": "1ft58SK5cm-KxXUypUugahm7GuB_C8Ow2",
+      "name": "TÌM VỀ SỨC MẠNH VÔ BIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 1440860,
+      "modified": "2026-08-15T00:47:22.000Z",
+      "checksum": "a6fdbacd8b068684594b65420f970770",
+      "folder": false
+    },
+    {
+      "id": "1QexF8iwUzZ10s4RSdd3AyCIXvSPnxFwI",
+      "parent_id": "1ft58SK5cm-KxXUypUugahm7GuB_C8Ow2",
+      "name": "TÌM VỀ SỨC MẠNH VÔ BIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 599652,
+      "modified": "2026-08-15T00:47:19.000Z",
+      "checksum": "e3caeede49679a60a8506e1dcb0aa9bf",
+      "folder": false
+    }
+  ]
+}

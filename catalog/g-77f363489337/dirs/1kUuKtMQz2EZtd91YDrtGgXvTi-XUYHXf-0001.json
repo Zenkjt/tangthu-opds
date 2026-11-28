@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kUuKtMQz2EZtd91YDrtGgXvTi-XUYHXf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rIeXJnWBznNcSZO2ZJQI6mH-IjdoAszA",
+      "parent_id": "1kUuKtMQz2EZtd91YDrtGgXvTi-XUYHXf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4111,
+      "modified": "2026-08-15T01:01:10.000Z",
+      "checksum": "a2d2748154d9dbb3685f751e348a241b",
+      "folder": false
+    },
+    {
+      "id": "1LX1XbyQnQWnntRUppFPxoMN0Ckv34zNz",
+      "parent_id": "1kUuKtMQz2EZtd91YDrtGgXvTi-XUYHXf",
+      "name": "NGHỆ THUẬT CHINH PHỤC KHÁCH HÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 475790,
+      "modified": "2026-08-15T01:01:22.000Z",
+      "checksum": "829da628747232086e741055080a70c9",
+      "folder": false
+    },
+    {
+      "id": "1me1znfHYqMCa9mBBIkeIwJWkpHpyGKC2",
+      "parent_id": "1kUuKtMQz2EZtd91YDrtGgXvTi-XUYHXf",
+      "name": "NGHỆ THUẬT CHINH PHỤC KHÁCH HÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 1872931,
+      "modified": "2026-08-15T01:01:20.000Z",
+      "checksum": "aa653929925fcc27fd7561cbbbea0d5d",
+      "folder": false
+    }
+  ]
+}

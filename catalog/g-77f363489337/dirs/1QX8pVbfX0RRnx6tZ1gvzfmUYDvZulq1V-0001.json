@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QX8pVbfX0RRnx6tZ1gvzfmUYDvZulq1V",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dEJh0VtuFIritgNLVFiYH5DLo8eFYxIO",
+      "parent_id": "1QX8pVbfX0RRnx6tZ1gvzfmUYDvZulq1V",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5685,
+      "modified": "2026-08-15T09:42:16.000Z",
+      "checksum": "68019923cf685d9d5ad13c6e7fbb8e28",
+      "folder": false
+    },
+    {
+      "id": "1Ez4ThuIvuhEZRyfeY7yuWKd4cz98ccGi",
+      "parent_id": "1QX8pVbfX0RRnx6tZ1gvzfmUYDvZulq1V",
+      "name": "LƯƠNG ĐIỀN MỸ THƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 3618547,
+      "modified": "2026-08-15T09:42:25.000Z",
+      "checksum": "09d6fe49a178ddeaafc4d0804693f550",
+      "folder": false
+    },
+    {
+      "id": "1h6FE_La-ArIp2aZudrS4jXvQVrIgFsfx",
+      "parent_id": "1QX8pVbfX0RRnx6tZ1gvzfmUYDvZulq1V",
+      "name": "LƯƠNG ĐIỀN MỸ THƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 2404450,
+      "modified": "2026-08-15T09:42:21.000Z",
+      "checksum": "6e5cde58019ff505abffddb54c14174c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15eM8ZKHW_HuP5cVl7Idq_swVUwPoVQTB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1f9Vq79UR6IAh-pgDsxMsx8QU-23iVjxG",
+      "parent_id": "15eM8ZKHW_HuP5cVl7Idq_swVUwPoVQTB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 809,
+      "modified": "2026-08-15T11:31:51.000Z",
+      "checksum": "9efaaa13054f0e0930afc52c3cc7cc23",
+      "folder": false
+    },
+    {
+      "id": "16mcqHwwQJtMdaTLYesOZg18-YMtpMuhG",
+      "parent_id": "15eM8ZKHW_HuP5cVl7Idq_swVUwPoVQTB",
+      "name": "GIÁO TRÌNH LÝ THUYẾT MẠCH.epub",
+      "mime": "application/epub+zip",
+      "size": 3175887,
+      "modified": "2026-08-15T11:31:59.000Z",
+      "checksum": "5447285db452c04645f275759ceff4c8",
+      "folder": false
+    },
+    {
+      "id": "1ujri1g6VxgtuLLXNswG12rHsg2e81w-B",
+      "parent_id": "15eM8ZKHW_HuP5cVl7Idq_swVUwPoVQTB",
+      "name": "GIÁO TRÌNH LÝ THUYẾT MẠCH.pdf",
+      "mime": "application/pdf",
+      "size": 4226722,
+      "modified": "2026-08-15T11:31:55.000Z",
+      "checksum": "a23e3a5e6dc988c2ccf67f049cdb242e",
+      "folder": false
+    }
+  ]
+}

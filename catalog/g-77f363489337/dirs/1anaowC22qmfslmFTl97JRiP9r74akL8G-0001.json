@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1anaowC22qmfslmFTl97JRiP9r74akL8G",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OHdLlWn093quf9Y-7qmvRXCNhFgKiB7p",
+      "parent_id": "1anaowC22qmfslmFTl97JRiP9r74akL8G",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5413,
+      "modified": "2026-08-15T06:12:43.000Z",
+      "checksum": "acca6d40b785a926257acd8b2264c03e",
+      "folder": false
+    },
+    {
+      "id": "15ZuQAtvebnmESXYdhbSWwP5pNA6vC7Ww",
+      "parent_id": "1anaowC22qmfslmFTl97JRiP9r74akL8G",
+      "name": "TRĂNG THƯỢNG HUYỀN.epub",
+      "mime": "application/epub+zip",
+      "size": 493851,
+      "modified": "2026-08-15T06:12:49.000Z",
+      "checksum": "0de7e2e925a5f0fac44cf4aaa0f6a5e2",
+      "folder": false
+    },
+    {
+      "id": "1GRTD0BnkqWChOFh-aYZ3rbCQk1nJkGuH",
+      "parent_id": "1anaowC22qmfslmFTl97JRiP9r74akL8G",
+      "name": "TRĂNG THƯỢNG HUYỀN.pdf",
+      "mime": "application/pdf",
+      "size": 785129,
+      "modified": "2026-08-15T06:12:47.000Z",
+      "checksum": "5aebb519b5e0b9b2195afe9237dc7330",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1e4WRzCX2yaLWQjm30jg-qUDc2eNysUxf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1B88yaUVyYGlGE2I0GCPKnLiznYgI2BW8",
+      "parent_id": "1e4WRzCX2yaLWQjm30jg-qUDc2eNysUxf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2777,
+      "modified": "2026-08-15T06:58:32.000Z",
+      "checksum": "b014f5e6bc33b3ac4f41904b8585ec2d",
+      "folder": false
+    },
+    {
+      "id": "1HSTl4mUH4qV_p4NrTnWV6WZleQZozoQ1",
+      "parent_id": "1e4WRzCX2yaLWQjm30jg-qUDc2eNysUxf",
+      "name": "NHỮNG CHIẾC CẦU Ở QUẬN MADISON.epub",
+      "mime": "application/epub+zip",
+      "size": 759804,
+      "modified": "2026-08-15T06:58:44.000Z",
+      "checksum": "2949e943ed0b5824b6c87be40eec8022",
+      "folder": false
+    },
+    {
+      "id": "1MlKNIs7R-taQGsNWidAiqDJKde_pvZ2M",
+      "parent_id": "1e4WRzCX2yaLWQjm30jg-qUDc2eNysUxf",
+      "name": "NHỮNG CHIẾC CẦU Ở QUẬN MADISON.pdf",
+      "mime": "application/pdf",
+      "size": 565566,
+      "modified": "2026-08-15T06:58:39.000Z",
+      "checksum": "da9af86d5071756f84d3ce8ddd52ebd5",
+      "folder": false
+    }
+  ]
+}

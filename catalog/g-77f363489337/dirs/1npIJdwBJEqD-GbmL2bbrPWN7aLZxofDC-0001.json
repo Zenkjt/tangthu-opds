@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1npIJdwBJEqD-GbmL2bbrPWN7aLZxofDC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ig4IKDYCwKsD-qjobo15qhSSDzg8MdWK",
+      "parent_id": "1npIJdwBJEqD-GbmL2bbrPWN7aLZxofDC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7521,
+      "modified": "2026-08-15T08:19:23.000Z",
+      "checksum": "74282fed8bff67b8439f57cde1560180",
+      "folder": false
+    },
+    {
+      "id": "1FeCKltn5lK7evppwwVo6LkoaVuDHmSCD",
+      "parent_id": "1npIJdwBJEqD-GbmL2bbrPWN7aLZxofDC",
+      "name": "ĐÊM KHOÁI LẠC.epub",
+      "mime": "application/epub+zip",
+      "size": 897438,
+      "modified": "2026-08-15T08:19:32.000Z",
+      "checksum": "3c8101ef57ed4964e0fd6073a170a074",
+      "folder": false
+    },
+    {
+      "id": "1VrfXDb1arYHSHUOaEGupG_iQx0A5X1xV",
+      "parent_id": "1npIJdwBJEqD-GbmL2bbrPWN7aLZxofDC",
+      "name": "ĐÊM KHOÁI LẠC.pdf",
+      "mime": "application/pdf",
+      "size": 1189240,
+      "modified": "2026-08-15T08:19:28.000Z",
+      "checksum": "b92633244c5a4983b081df9b06de3e19",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZhVTwaVjNWbuek_j2VaB_qpvUwLpdpa9",
+  "page": 1,
+  "items": [
+    {
+      "id": "11C722jU8UAGNqhRWOD5KM3ze2UbETqRh",
+      "parent_id": "1ZhVTwaVjNWbuek_j2VaB_qpvUwLpdpa9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 272,
+      "modified": "2026-08-15T15:37:27.000Z",
+      "checksum": "4be9cab46456341b6201a512b5f9836b",
+      "folder": false
+    },
+    {
+      "id": "10jVT6hHD89C3V2IUysDq-yGHUtqVmqQj",
+      "parent_id": "1ZhVTwaVjNWbuek_j2VaB_qpvUwLpdpa9",
+      "name": "SÁU NGÀY CỦA CONDOR.epub",
+      "mime": "application/epub+zip",
+      "size": 524792,
+      "modified": "2026-08-15T15:37:54.000Z",
+      "checksum": "91768a6df0dbc2869c73688096935d41",
+      "folder": false
+    },
+    {
+      "id": "1lh9CQhdiW8xdnePLE_41QIdK6ktwrJ0L",
+      "parent_id": "1ZhVTwaVjNWbuek_j2VaB_qpvUwLpdpa9",
+      "name": "SÁU NGÀY CỦA CONDOR.pdf",
+      "mime": "application/pdf",
+      "size": 960951,
+      "modified": "2026-08-15T15:37:40.000Z",
+      "checksum": "4fdbc59bab4f3dbc7465d5f69a4253dd",
+      "folder": false
+    }
+  ]
+}

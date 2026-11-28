@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KNHSJW4a_Sa0s_7F4IUW4FxG0RCKRYGT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yjC3mno1_ciRn7olpQ07B7RwGTPKHAK5",
+      "parent_id": "1KNHSJW4a_Sa0s_7F4IUW4FxG0RCKRYGT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3369,
+      "modified": "2026-08-15T10:10:55.000Z",
+      "checksum": "f858251547b3b7e886698713d5a78ee3",
+      "folder": false
+    },
+    {
+      "id": "1xgACGrvrN8SNGmOh-Bg1XG_ZomO3rkDr",
+      "parent_id": "1KNHSJW4a_Sa0s_7F4IUW4FxG0RCKRYGT",
+      "name": "TIÊM KÍCH SỐNG BẰNG CHIẾN TRẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 513755,
+      "modified": "2026-08-15T10:11:07.000Z",
+      "checksum": "27beb30e83d2b1bcba57dc0e09d1aced",
+      "folder": false
+    },
+    {
+      "id": "10CEd5xLtkfaiBjlMTVMLUp9ccgJvFU_j",
+      "parent_id": "1KNHSJW4a_Sa0s_7F4IUW4FxG0RCKRYGT",
+      "name": "TIÊM KÍCH SỐNG BẰNG CHIẾN TRẬN.pdf",
+      "mime": "application/pdf",
+      "size": 1707726,
+      "modified": "2026-08-15T10:11:04.000Z",
+      "checksum": "d1db34d9689c9b90f19e4c7821dfa39e",
+      "folder": false
+    }
+  ]
+}

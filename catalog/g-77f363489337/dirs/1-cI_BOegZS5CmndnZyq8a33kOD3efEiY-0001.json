@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-cI_BOegZS5CmndnZyq8a33kOD3efEiY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fPVjA4Ur_-sB5sU1phiUYN51RJSjQk5x",
+      "parent_id": "1-cI_BOegZS5CmndnZyq8a33kOD3efEiY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4582,
+      "modified": "2026-08-15T08:03:33.000Z",
+      "checksum": "ca44e27bad6e9b671f49580a9e2a5cff",
+      "folder": false
+    },
+    {
+      "id": "1bnVW96D3ddgoZ60sm2txr_zlBuO-OZys",
+      "parent_id": "1-cI_BOegZS5CmndnZyq8a33kOD3efEiY",
+      "name": "HUYỀN THOẠI TÀU KHÔNG SỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 461515,
+      "modified": "2026-08-15T08:03:41.000Z",
+      "checksum": "06ced6653e827afdafdb019ffe3b36be",
+      "folder": false
+    },
+    {
+      "id": "1ZoQgrWI6TX2B7bHo6yceTWFuJ7cLVUl-",
+      "parent_id": "1-cI_BOegZS5CmndnZyq8a33kOD3efEiY",
+      "name": "HUYỀN THOẠI TÀU KHÔNG SỐ.pdf",
+      "mime": "application/pdf",
+      "size": 1233860,
+      "modified": "2026-08-15T08:03:38.000Z",
+      "checksum": "6aadacce1440c9ef7b22514a41b4f798",
+      "folder": false
+    }
+  ]
+}

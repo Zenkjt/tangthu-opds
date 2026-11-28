@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1V_C7tvZe4Q2JYzxBgfHEsYB5Ki7muhPZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1n5qIUO1CYJ7wyRFiZRKktfzheFyM7mWa",
+      "parent_id": "1V_C7tvZe4Q2JYzxBgfHEsYB5Ki7muhPZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12279,
+      "modified": "2026-08-15T07:41:44.000Z",
+      "checksum": "967fa274a857c1d7f26d0969856d97f6",
+      "folder": false
+    },
+    {
+      "id": "1YFavyVa-Xyzueiw5R2ou7Y3pwkwWiYkE",
+      "parent_id": "1V_C7tvZe4Q2JYzxBgfHEsYB5Ki7muhPZ",
+      "name": "LÀM NŨNG TRONG LÒNG ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 437839,
+      "modified": "2026-08-15T07:41:50.000Z",
+      "checksum": "9d650f2df3188a5273c68968915123bf",
+      "folder": false
+    },
+    {
+      "id": "1u711NU58oNovExsFDJ_ouG1-yKfhfJgA",
+      "parent_id": "1V_C7tvZe4Q2JYzxBgfHEsYB5Ki7muhPZ",
+      "name": "LÀM NŨNG TRONG LÒNG ANH.pdf",
+      "mime": "application/pdf",
+      "size": 1070516,
+      "modified": "2026-08-15T07:41:48.000Z",
+      "checksum": "a6d9d0e42cc9a51938108ae7a6ffbf95",
+      "folder": false
+    }
+  ]
+}

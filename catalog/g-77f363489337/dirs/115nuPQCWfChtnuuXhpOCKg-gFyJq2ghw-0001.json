@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "115nuPQCWfChtnuuXhpOCKg-gFyJq2ghw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gQRbjXeBOcpwoZsvCEdKPQLQRrrjQWo9",
+      "parent_id": "115nuPQCWfChtnuuXhpOCKg-gFyJq2ghw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3036,
+      "modified": "2026-08-15T03:24:18.000Z",
+      "checksum": "8598bbcc7a6f6caa4ec8c21f2ed70704",
+      "folder": false
+    },
+    {
+      "id": "1NGM4PNsPEm-xEck3fs7u8Mn4XIZaElY0",
+      "parent_id": "115nuPQCWfChtnuuXhpOCKg-gFyJq2ghw",
+      "name": "THÓI QUEN LÀM NÊN SÁNG TẠO.epub",
+      "mime": "application/epub+zip",
+      "size": 510671,
+      "modified": "2026-08-15T03:24:26.000Z",
+      "checksum": "2735f3a092e8896b49c2ac54cfe89658",
+      "folder": false
+    },
+    {
+      "id": "1tfYK8J8K_8B5I9MiDZcIpmL7D6rI6jIi",
+      "parent_id": "115nuPQCWfChtnuuXhpOCKg-gFyJq2ghw",
+      "name": "THÓI QUEN LÀM NÊN SÁNG TẠO.pdf",
+      "mime": "application/pdf",
+      "size": 799459,
+      "modified": "2026-08-15T03:24:23.000Z",
+      "checksum": "6767bc3661fb447391b7879c27b15bc8",
+      "folder": false
+    }
+  ]
+}

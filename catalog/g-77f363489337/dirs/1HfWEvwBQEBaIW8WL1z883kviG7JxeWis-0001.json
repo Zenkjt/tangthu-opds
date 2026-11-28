@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HfWEvwBQEBaIW8WL1z883kviG7JxeWis",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-kehE_bhnnxXt1f4E-uCi_RCsDlkN0KR",
+      "parent_id": "1HfWEvwBQEBaIW8WL1z883kviG7JxeWis",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5665,
+      "modified": "2026-08-15T08:00:53.000Z",
+      "checksum": "fae9cfe531654c836e6c77d1ea1cd149",
+      "folder": false
+    },
+    {
+      "id": "1st0iy6hJaNWuygmnJZEpxj5munlCgrUo",
+      "parent_id": "1HfWEvwBQEBaIW8WL1z883kviG7JxeWis",
+      "name": "NGỰC VÀ TRỨNG.epub",
+      "mime": "application/epub+zip",
+      "size": 307382,
+      "modified": "2026-08-15T08:01:00.000Z",
+      "checksum": "4f3a349bae78e4344de7cf39d7ea5d3f",
+      "folder": false
+    },
+    {
+      "id": "1-atP93P4M_0T6KJxLXCPfR4hvO81mt6A",
+      "parent_id": "1HfWEvwBQEBaIW8WL1z883kviG7JxeWis",
+      "name": "NGỰC VÀ TRỨNG.pdf",
+      "mime": "application/pdf",
+      "size": 497598,
+      "modified": "2026-08-15T08:00:57.000Z",
+      "checksum": "2e3cd222ffa111d3cb21af4a54ec434b",
+      "folder": false
+    }
+  ]
+}

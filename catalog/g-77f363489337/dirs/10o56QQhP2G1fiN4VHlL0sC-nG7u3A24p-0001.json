@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10o56QQhP2G1fiN4VHlL0sC-nG7u3A24p",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qkWdQT-ED_KWp_r1c-OD-5NgU5-WG8vS",
+      "parent_id": "10o56QQhP2G1fiN4VHlL0sC-nG7u3A24p",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 462,
+      "modified": "2026-08-15T10:54:18.000Z",
+      "checksum": "0a4a073a0b888e3792e8982102b2a14e",
+      "folder": false
+    },
+    {
+      "id": "1f6OZYn1tg004uQpvDGhd33VXkPtKOrgZ",
+      "parent_id": "10o56QQhP2G1fiN4VHlL0sC-nG7u3A24p",
+      "name": "KIẾP NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 1032298,
+      "modified": "2026-08-15T10:55:21.000Z",
+      "checksum": "7d49a3994186023eb65a57e9e868ca0b",
+      "folder": false
+    },
+    {
+      "id": "192DUmkvU_nshdKBq0jAi-xspvSujVtKp",
+      "parent_id": "10o56QQhP2G1fiN4VHlL0sC-nG7u3A24p",
+      "name": "KIẾP NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 3216597,
+      "modified": "2026-08-15T10:55:16.000Z",
+      "checksum": "e2ed58facb4a9e49b5d96b397b0c1578",
+      "folder": false
+    }
+  ]
+}

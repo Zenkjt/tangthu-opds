@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12idmFPa83UwRoyNX08cOPw9EUrw1Nnpr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JOhkPBwES6jFNFxbe5quPridpSfM0FZf",
+      "parent_id": "12idmFPa83UwRoyNX08cOPw9EUrw1Nnpr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1962,
+      "modified": "2026-08-15T06:11:38.000Z",
+      "checksum": "21db8978659f151cdea89db92acb89e6",
+      "folder": false
+    },
+    {
+      "id": "1AdGMS6GSs97gsKMwWzPHD8h3qvBBrhtU",
+      "parent_id": "12idmFPa83UwRoyNX08cOPw9EUrw1Nnpr",
+      "name": "PHÁT TRIỂN CỘNG ĐỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 2075258,
+      "modified": "2026-08-15T06:11:56.000Z",
+      "checksum": "c0feff3545dfb797ee49e65fbcf8bbcc",
+      "folder": false
+    },
+    {
+      "id": "1bayXXWKVe0yv_TDfv846dF_Xe7ebpslK",
+      "parent_id": "12idmFPa83UwRoyNX08cOPw9EUrw1Nnpr",
+      "name": "PHÁT TRIỂN CỘNG ĐỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 3536191,
+      "modified": "2026-08-15T06:11:49.000Z",
+      "checksum": "e13c972f53889705f06c04d81eacdee0",
+      "folder": false
+    }
+  ]
+}

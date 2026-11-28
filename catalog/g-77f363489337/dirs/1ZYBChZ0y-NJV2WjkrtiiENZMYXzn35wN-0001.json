@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZYBChZ0y-NJV2WjkrtiiENZMYXzn35wN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FFN0I_1Ctk4qGx2UAqgTok8iHIH6pGD-",
+      "parent_id": "1ZYBChZ0y-NJV2WjkrtiiENZMYXzn35wN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 14457,
+      "modified": "2026-08-15T06:16:22.000Z",
+      "checksum": "41526feb5e1b44ccc75f492dc888a35f",
+      "folder": false
+    },
+    {
+      "id": "1_moTdlPdgxO6pMOfujviUtgCG4x9G9yb",
+      "parent_id": "1ZYBChZ0y-NJV2WjkrtiiENZMYXzn35wN",
+      "name": "NẾP CŨ, HỘI HÈ ĐÌNH ĐÁM.epub",
+      "mime": "application/epub+zip",
+      "size": 842315,
+      "modified": "2026-08-15T06:16:29.000Z",
+      "checksum": "dafe16e931877fa35ddd1c521a0ebe00",
+      "folder": false
+    },
+    {
+      "id": "1ls3v4dif3McKInYFa3AtSAl9gVOKWQoM",
+      "parent_id": "1ZYBChZ0y-NJV2WjkrtiiENZMYXzn35wN",
+      "name": "NẾP CŨ, HỘI HÈ ĐÌNH ĐÁM.pdf",
+      "mime": "application/pdf",
+      "size": 1331863,
+      "modified": "2026-08-15T06:16:26.000Z",
+      "checksum": "f69074f6bbdfb6fcf6c212c20676e6d1",
+      "folder": false
+    }
+  ]
+}

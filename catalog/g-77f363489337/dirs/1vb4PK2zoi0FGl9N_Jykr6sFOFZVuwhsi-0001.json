@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vb4PK2zoi0FGl9N_Jykr6sFOFZVuwhsi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Pr0wtAhfB9de_OhgOTWcChmGx192ppr0",
+      "parent_id": "1vb4PK2zoi0FGl9N_Jykr6sFOFZVuwhsi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 515,
+      "modified": "2026-08-15T11:03:24.000Z",
+      "checksum": "ac833598057c6e732463719298468d36",
+      "folder": false
+    },
+    {
+      "id": "1WdqU63xAf3XJzS3124449G0VeBYWLJ_k",
+      "parent_id": "1vb4PK2zoi0FGl9N_Jykr6sFOFZVuwhsi",
+      "name": "ÁO KHOÁC VAI NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 746252,
+      "modified": "2026-08-15T11:03:41.000Z",
+      "checksum": "1a2e1056e2a3f28608acb2d884aebc9d",
+      "folder": false
+    },
+    {
+      "id": "1qo1yWtUV3DFm5_NnLfdNvIHuZKoJxhE4",
+      "parent_id": "1vb4PK2zoi0FGl9N_Jykr6sFOFZVuwhsi",
+      "name": "ÁO KHOÁC VAI NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 1495396,
+      "modified": "2026-08-15T11:03:33.000Z",
+      "checksum": "f3f2f3abb9e1a25dbb08812e3cb3e392",
+      "folder": false
+    }
+  ]
+}

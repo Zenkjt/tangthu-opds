@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AjPh_cnXimLkan3flKTVA6uLY8gw66_Y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wcRgTNCcL-CIIcpfiuevb455JRTZbekX",
+      "parent_id": "1AjPh_cnXimLkan3flKTVA6uLY8gw66_Y",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 2609,
+      "modified": "2026-08-15T07:33:00.000Z",
+      "checksum": "7b1dc269baee6daf2905d506bb68b6ee",
+      "folder": false
+    },
+    {
+      "id": "1t9wEWYErglbqqeOdJBa1Hl3wk7tvudxx",
+      "parent_id": "1AjPh_cnXimLkan3flKTVA6uLY8gw66_Y",
+      "name": "YÊU NGƯỜI KHÔNG NÊN YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 2471884,
+      "modified": "2026-08-15T07:33:07.000Z",
+      "checksum": "ff038be0cac40ccf6b4c89b4671b171c",
+      "folder": false
+    },
+    {
+      "id": "1D8hPvl7SCZwk59AJ0uXKckWOj-2JoR3h",
+      "parent_id": "1AjPh_cnXimLkan3flKTVA6uLY8gw66_Y",
+      "name": "YÊU NGƯỜI KHÔNG NÊN YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 2243835,
+      "modified": "2026-08-15T07:33:04.000Z",
+      "checksum": "4550e37c814615c5d24ed41761c91ab9",
+      "folder": false
+    }
+  ]
+}

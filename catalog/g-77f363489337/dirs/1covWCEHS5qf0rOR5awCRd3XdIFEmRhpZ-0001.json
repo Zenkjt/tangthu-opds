@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1covWCEHS5qf0rOR5awCRd3XdIFEmRhpZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "17He6t14PHzYCSA3xlF-61rjnU-k3ojNF",
+      "parent_id": "1covWCEHS5qf0rOR5awCRd3XdIFEmRhpZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3385,
+      "modified": "2026-08-16T03:51:16.000Z",
+      "checksum": "23b7738f62b93102355b24f584f59556",
+      "folder": false
+    },
+    {
+      "id": "12wy4XtFTM7RpKTZrxBgX_rYSycl4bhfv",
+      "parent_id": "1covWCEHS5qf0rOR5awCRd3XdIFEmRhpZ",
+      "name": "VÙNG MẮT BÃO.epub",
+      "mime": "application/epub+zip",
+      "size": 605325,
+      "modified": "2026-08-16T03:51:22.000Z",
+      "checksum": "3dfa1e48902145a023a0c745b1487251",
+      "folder": false
+    },
+    {
+      "id": "1tPcSs7zVdIMSkjq-NgKCwsfdzxfjG7fS",
+      "parent_id": "1covWCEHS5qf0rOR5awCRd3XdIFEmRhpZ",
+      "name": "VÙNG MẮT BÃO.pdf",
+      "mime": "application/pdf",
+      "size": 1139862,
+      "modified": "2026-08-16T03:51:20.000Z",
+      "checksum": "073c876d53236fd6bd449703d0ca7bfe",
+      "folder": false
+    }
+  ]
+}

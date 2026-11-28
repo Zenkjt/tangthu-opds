@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gNxNikj1VgdjdGk5zI1tughS1JQkRsyC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-d75H1wn5oHiIBl95j1naL8FQjWJg80g",
+      "parent_id": "1gNxNikj1VgdjdGk5zI1tughS1JQkRsyC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 661,
+      "modified": "2026-08-16T04:04:03.000Z",
+      "checksum": "083a241c15f987e45840ed0989d7f17c",
+      "folder": false
+    },
+    {
+      "id": "1ydFX_g8pBsaP9DVJ7KXV4h4Vrt2XAsbC",
+      "parent_id": "1gNxNikj1VgdjdGk5zI1tughS1JQkRsyC",
+      "name": "SAY SẮC.epub",
+      "mime": "application/epub+zip",
+      "size": 772297,
+      "modified": "2026-08-16T04:04:11.000Z",
+      "checksum": "40c7327c22864e477ad0f8200b2b2ba6",
+      "folder": false
+    },
+    {
+      "id": "15ED0uK6VASyplMVttTtmuF6G2cAqGb4u",
+      "parent_id": "1gNxNikj1VgdjdGk5zI1tughS1JQkRsyC",
+      "name": "SAY SẮC.pdf",
+      "mime": "application/pdf",
+      "size": 1932477,
+      "modified": "2026-08-16T04:04:08.000Z",
+      "checksum": "89e6c32d2e5c51bbef4a1d04f517f8ee",
+      "folder": false
+    }
+  ]
+}

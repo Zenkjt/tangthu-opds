@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17zQkVavjz4k8skh2vFfEy27zRfAgAcYu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Bi0HF5UcBM7JOxm7gCzM10Pt52Q-egat",
+      "parent_id": "17zQkVavjz4k8skh2vFfEy27zRfAgAcYu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6140,
+      "modified": "2026-08-15T09:39:27.000Z",
+      "checksum": "e589a1c558edb09a96c2b289ce9baa35",
+      "folder": false
+    },
+    {
+      "id": "16VAAFi_3iKV2N9cErECtCu2FjLn2ZlCj",
+      "parent_id": "17zQkVavjz4k8skh2vFfEy27zRfAgAcYu",
+      "name": "MÙA LÁ RỤNG TRONG VƯỜN.epub",
+      "mime": "application/epub+zip",
+      "size": 550953,
+      "modified": "2026-08-15T09:39:42.000Z",
+      "checksum": "174c779c654b59041c210a216c495cf1",
+      "folder": false
+    },
+    {
+      "id": "15cknrBYLRTuL05_5LJrrXfyclVn2_T8p",
+      "parent_id": "17zQkVavjz4k8skh2vFfEy27zRfAgAcYu",
+      "name": "MÙA LÁ RỤNG TRONG VƯỜN.pdf",
+      "mime": "application/pdf",
+      "size": 985086,
+      "modified": "2026-08-15T09:39:39.000Z",
+      "checksum": "c4722d7a44d73b4613ef88b9adc816ac",
+      "folder": false
+    }
+  ]
+}

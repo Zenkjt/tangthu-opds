@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19iowymSvTI_PveVIXYsDKbWFX6BcIE5k",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NH_mTXvt_8nKEF0TS9oZi2nYLe2GAe8f",
+      "parent_id": "19iowymSvTI_PveVIXYsDKbWFX6BcIE5k",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2193,
+      "modified": "2026-08-16T03:31:46.000Z",
+      "checksum": "5369e8f7e08ee4d5cc1b0997f83f9d1e",
+      "folder": false
+    },
+    {
+      "id": "1DiVhQ5PuoUR4BjVyU7vz0MMMY3AwhBF8",
+      "parent_id": "19iowymSvTI_PveVIXYsDKbWFX6BcIE5k",
+      "name": "NHỊ GIA NHÀ TA.epub",
+      "mime": "application/epub+zip",
+      "size": 276273,
+      "modified": "2026-08-16T03:31:52.000Z",
+      "checksum": "fcc06eb373006166cbe998942cf321be",
+      "folder": false
+    },
+    {
+      "id": "10kw9RzkODLmBqWtJthK0FYqOQAe09IsJ",
+      "parent_id": "19iowymSvTI_PveVIXYsDKbWFX6BcIE5k",
+      "name": "NHỊ GIA NHÀ TA.pdf",
+      "mime": "application/pdf",
+      "size": 252759,
+      "modified": "2026-08-16T03:31:49.000Z",
+      "checksum": "02e85bbacfe19e7875189e2af4a787d0",
+      "folder": false
+    }
+  ]
+}

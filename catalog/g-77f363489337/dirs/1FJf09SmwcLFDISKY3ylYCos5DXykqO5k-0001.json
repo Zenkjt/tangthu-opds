@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FJf09SmwcLFDISKY3ylYCos5DXykqO5k",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cs6css8e2mVPo2KwXhawbFAUw9K_AgYZ",
+      "parent_id": "1FJf09SmwcLFDISKY3ylYCos5DXykqO5k",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2451,
+      "modified": "2026-08-15T00:59:24.000Z",
+      "checksum": "60cc51eccca85f81e3e6f7a6fe022102",
+      "folder": false
+    },
+    {
+      "id": "1wzB3zS_2rfksk20x52xuRiVzHmY_X3gw",
+      "parent_id": "1FJf09SmwcLFDISKY3ylYCos5DXykqO5k",
+      "name": "HOÀN THÀNH MỌI VIỆC KHÔNG HỀ KHÓ.epub",
+      "mime": "application/epub+zip",
+      "size": 616649,
+      "modified": "2026-08-15T00:59:31.000Z",
+      "checksum": "b8ee53dbbd176c5e309a3c6f8de53d1b",
+      "folder": false
+    },
+    {
+      "id": "1pgey9DgMT0WQsiqNGJ72Kv8Lmfw_aFT8",
+      "parent_id": "1FJf09SmwcLFDISKY3ylYCos5DXykqO5k",
+      "name": "HOÀN THÀNH MỌI VIỆC KHÔNG HỀ KHÓ.pdf",
+      "mime": "application/pdf",
+      "size": 891209,
+      "modified": "2026-08-15T00:59:29.000Z",
+      "checksum": "202e4f31b8c88e72943baf74451793ee",
+      "folder": false
+    }
+  ]
+}

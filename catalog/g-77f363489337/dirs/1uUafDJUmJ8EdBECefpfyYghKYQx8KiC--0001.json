@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uUafDJUmJ8EdBECefpfyYghKYQx8KiC-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fO20bBurW_jy7sWaEONVoS6KDZpelhP7",
+      "parent_id": "1uUafDJUmJ8EdBECefpfyYghKYQx8KiC-",
+      "name": "BỈ VỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 182320,
+      "modified": "2026-08-16T03:35:54.000Z",
+      "checksum": "0734c6a2a82c8c3f779cdd16deb501a4",
+      "folder": false
+    },
+    {
+      "id": "1JwGJHgjZ-qBuvmhhXqHOIeJFBRqzExcH",
+      "parent_id": "1uUafDJUmJ8EdBECefpfyYghKYQx8KiC-",
+      "name": "BỈ VỎ.pdf",
+      "mime": "application/pdf",
+      "size": 579283,
+      "modified": "2026-08-16T03:35:52.000Z",
+      "checksum": "eb894f53f027cd8dd9ad03786164146c",
+      "folder": false
+    },
+    {
+      "id": "18Jk1yK8-fV2eYhpeV12MJ2K8pLPcU0Xi",
+      "parent_id": "1uUafDJUmJ8EdBECefpfyYghKYQx8KiC-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4203,
+      "modified": "2026-08-16T03:35:48.000Z",
+      "checksum": "b3939c0dc9e9d4d444c624b14298b9c1",
+      "folder": false
+    }
+  ]
+}

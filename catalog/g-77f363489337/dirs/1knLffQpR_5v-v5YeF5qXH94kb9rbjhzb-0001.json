@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1knLffQpR_5v-v5YeF5qXH94kb9rbjhzb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zlBPidfKFJ3plWJC4r96859ASlrMrPTB",
+      "parent_id": "1knLffQpR_5v-v5YeF5qXH94kb9rbjhzb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3305,
+      "modified": "2026-08-16T04:09:04.000Z",
+      "checksum": "3f6bd74ec9cb30f302bc0ba6a122a4ff",
+      "folder": false
+    },
+    {
+      "id": "1BEu8ERT960jCGXv_HrRtRg354DaJEJmP",
+      "parent_id": "1knLffQpR_5v-v5YeF5qXH94kb9rbjhzb",
+      "name": "NHỮNG QUÂN CỜ DOMINO.epub",
+      "mime": "application/epub+zip",
+      "size": 492962,
+      "modified": "2026-08-16T04:09:11.000Z",
+      "checksum": "6251eb169d761c9620435b1ff845c5da",
+      "folder": false
+    },
+    {
+      "id": "11PKWnFWkOYPZm3yKohfO30ubkCvBtgvx",
+      "parent_id": "1knLffQpR_5v-v5YeF5qXH94kb9rbjhzb",
+      "name": "NHỮNG QUÂN CỜ DOMINO.pdf",
+      "mime": "application/pdf",
+      "size": 964274,
+      "modified": "2026-08-16T04:09:08.000Z",
+      "checksum": "2f2f571d5ca5e69cd0c5706d60b1f2e6",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1g6JcWN8PANm0SCRUObfKoEPgYEHgXpH3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UmQFpS_nb8uLiO24Ygqr-mMSeLzN-ddO",
+      "parent_id": "1g6JcWN8PANm0SCRUObfKoEPgYEHgXpH3",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 439,
+      "modified": "2026-08-15T10:42:43.000Z",
+      "checksum": "bbd520156ca99f7228f3650f4ee17596",
+      "folder": false
+    },
+    {
+      "id": "1_PBOSO7TgMWuha9s7ucVbRoQVY4gNiWF",
+      "parent_id": "1g6JcWN8PANm0SCRUObfKoEPgYEHgXpH3",
+      "name": "NGƯỜI SỬA ĐÀN DƯƠNG CẦM.epub",
+      "mime": "application/epub+zip",
+      "size": 263492,
+      "modified": "2026-08-15T10:42:49.000Z",
+      "checksum": "1aed9c98cd6ab02c5da5f9889a34a0fa",
+      "folder": false
+    },
+    {
+      "id": "1UyuXV1TWE5kooTBKdBSXFBMQ4Ar027kB",
+      "parent_id": "1g6JcWN8PANm0SCRUObfKoEPgYEHgXpH3",
+      "name": "NGƯỜI SỬA ĐÀN DƯƠNG CẦM.pdf",
+      "mime": "application/pdf",
+      "size": 75060,
+      "modified": "2026-08-15T10:42:47.000Z",
+      "checksum": "75033283c4a12541ba8684238e446c38",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wWi5D9rEn_LLCjn2UoOcl8FssgEA8fII",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ATZSNojGbbi8xgNm0_6XGosbiYPt7TEM",
+      "parent_id": "1wWi5D9rEn_LLCjn2UoOcl8FssgEA8fII",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1952,
+      "modified": "2026-08-15T09:50:10.000Z",
+      "checksum": "dc675909ef9e032dbaf81dee47183f73",
+      "folder": false
+    },
+    {
+      "id": "1AnQO_TqNxsddPjSlBKVeIU61-SuZ5K7d",
+      "parent_id": "1wWi5D9rEn_LLCjn2UoOcl8FssgEA8fII",
+      "name": "DƯỢC MÃ HOÀNG HÀ.epub",
+      "mime": "application/epub+zip",
+      "size": 475207,
+      "modified": "2026-08-15T09:50:16.000Z",
+      "checksum": "f4923d8e24c23f77f08feca044a885a6",
+      "folder": false
+    },
+    {
+      "id": "1OoAQisdhOtHqECRRrFwD3v53-Jx5A3cn",
+      "parent_id": "1wWi5D9rEn_LLCjn2UoOcl8FssgEA8fII",
+      "name": "DƯỢC MÃ HOÀNG HÀ.pdf",
+      "mime": "application/pdf",
+      "size": 640250,
+      "modified": "2026-08-15T09:50:14.000Z",
+      "checksum": "961b3176e728f5ceb1e8d3b35653f08b",
+      "folder": false
+    }
+  ]
+}

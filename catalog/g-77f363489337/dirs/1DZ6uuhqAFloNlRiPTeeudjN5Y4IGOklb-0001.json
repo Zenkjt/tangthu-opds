@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DZ6uuhqAFloNlRiPTeeudjN5Y4IGOklb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P9Odhu90VHbEATpd-WpZODB2e3MJ80kG",
+      "parent_id": "1DZ6uuhqAFloNlRiPTeeudjN5Y4IGOklb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3180,
+      "modified": "2026-08-15T15:54:33.000Z",
+      "checksum": "fe49f77b7c54ed3556c900d88a59f9f2",
+      "folder": false
+    },
+    {
+      "id": "1ZZ5svPaA5mPHAnS5G9y3IT3uht2fjZBr",
+      "parent_id": "1DZ6uuhqAFloNlRiPTeeudjN5Y4IGOklb",
+      "name": "THỜI ĐẠI GÁI Ế HƯNG THỊNH.epub",
+      "mime": "application/epub+zip",
+      "size": 561128,
+      "modified": "2026-08-15T15:54:45.000Z",
+      "checksum": "d1db644c16f325496773d74b3a6ca994",
+      "folder": false
+    },
+    {
+      "id": "1zXNoxFHRO8wljfGR31CVAxwYDaLHuI0u",
+      "parent_id": "1DZ6uuhqAFloNlRiPTeeudjN5Y4IGOklb",
+      "name": "THỜI ĐẠI GÁI Ế HƯNG THỊNH.pdf",
+      "mime": "application/pdf",
+      "size": 924347,
+      "modified": "2026-08-15T15:54:41.000Z",
+      "checksum": "3a64bf3810ede5d31531e9061c07c338",
+      "folder": false
+    }
+  ]
+}

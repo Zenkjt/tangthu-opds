@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1E7bRw7T4gzHzFEZUSFRPQCgbMj7tPiRb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kAMYUcedIoHoA06_PxylRvEOierqgOGs",
+      "parent_id": "1E7bRw7T4gzHzFEZUSFRPQCgbMj7tPiRb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 805,
+      "modified": "2026-08-15T15:40:03.000Z",
+      "checksum": "9298b877b428a72396554520ea2e25ef",
+      "folder": false
+    },
+    {
+      "id": "1m39oKZ5449hxhvLa23_cAaomRA1jB5Uv",
+      "parent_id": "1E7bRw7T4gzHzFEZUSFRPQCgbMj7tPiRb",
+      "name": "NĂM CHÚ LỢN NHỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 386383,
+      "modified": "2026-08-15T15:40:10.000Z",
+      "checksum": "a8bc992d3c530a364708a15462f27a3e",
+      "folder": false
+    },
+    {
+      "id": "17nLlykvci_Zwz5iqIKxlRjIgpBjwrlHE",
+      "parent_id": "1E7bRw7T4gzHzFEZUSFRPQCgbMj7tPiRb",
+      "name": "NĂM CHÚ LỢN NHỎ.pdf",
+      "mime": "application/pdf",
+      "size": 879200,
+      "modified": "2026-08-15T15:40:08.000Z",
+      "checksum": "409441b8f6f893fcc107bb3b0b92fc09",
+      "folder": false
+    }
+  ]
+}

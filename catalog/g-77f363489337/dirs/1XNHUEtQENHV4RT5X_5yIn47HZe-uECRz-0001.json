@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XNHUEtQENHV4RT5X_5yIn47HZe-uECRz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GDdnLQdWnfAv8qQcy1VeBu1S0hkL3kLa",
+      "parent_id": "1XNHUEtQENHV4RT5X_5yIn47HZe-uECRz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2471,
+      "modified": "2026-08-16T03:39:14.000Z",
+      "checksum": "a7b74ae26c48ed42910d3462224f408c",
+      "folder": false
+    },
+    {
+      "id": "1WzKrLsejP5do3Y19L6pmV1jf5D9nHmPY",
+      "parent_id": "1XNHUEtQENHV4RT5X_5yIn47HZe-uECRz",
+      "name": "KHÁCH QUA ĐƯỜNG VỘI VÃ - TẬP 2.epub",
+      "mime": "application/epub+zip",
+      "size": 642771,
+      "modified": "2026-08-16T03:39:22.000Z",
+      "checksum": "769dc4445ca18cac544bbc6674cb4540",
+      "folder": false
+    },
+    {
+      "id": "1vx54MX8CF17wAdGYkbEggDoQUu_JsEBp",
+      "parent_id": "1XNHUEtQENHV4RT5X_5yIn47HZe-uECRz",
+      "name": "KHÁCH QUA ĐƯỜNG VỘI VÃ - TẬP 2.pdf",
+      "mime": "application/pdf",
+      "size": 1545120,
+      "modified": "2026-08-16T03:39:20.000Z",
+      "checksum": "4ca71707059faf40256c74fb10238369",
+      "folder": false
+    }
+  ]
+}

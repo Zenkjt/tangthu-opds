@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1beiyNZ6PuGywzTnXBoWZ0leFmtIANvVK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CwnDqvYgIJrcqTGRz7cy66HjMzg8Usd3",
+      "parent_id": "1beiyNZ6PuGywzTnXBoWZ0leFmtIANvVK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 16827,
+      "modified": "2026-08-15T15:16:28.000Z",
+      "checksum": "5c15a879bda744644b3c5ea009968b07",
+      "folder": false
+    },
+    {
+      "id": "19ISvfGIopyWaFZBBNlRSsnrxxNz0vb5l",
+      "parent_id": "1beiyNZ6PuGywzTnXBoWZ0leFmtIANvVK",
+      "name": "THE JOKER.epub",
+      "mime": "application/epub+zip",
+      "size": 286090,
+      "modified": "2026-08-15T15:16:35.000Z",
+      "checksum": "1a072e00dc8d091c372fcd095bd125fc",
+      "folder": false
+    },
+    {
+      "id": "1aQ2iLhpJoGg8Mt6Y9Vq6buGICD5Nzigd",
+      "parent_id": "1beiyNZ6PuGywzTnXBoWZ0leFmtIANvVK",
+      "name": "THE JOKER.pdf",
+      "mime": "application/pdf",
+      "size": 578720,
+      "modified": "2026-08-15T15:16:32.000Z",
+      "checksum": "dbf84b505d129bbb816e0fcb208b357a",
+      "folder": false
+    }
+  ]
+}

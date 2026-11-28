@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IKnAlyLW6KtuNkVH3y-AIaIFxhW6YFcm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iM8gpcvjXWbfmXvUIAktdoIgvnvYKUgJ",
+      "parent_id": "1IKnAlyLW6KtuNkVH3y-AIaIFxhW6YFcm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2978,
+      "modified": "2026-08-15T10:15:08.000Z",
+      "checksum": "0ce4123ef48a27b540eadf8365279961",
+      "folder": false
+    },
+    {
+      "id": "1PtEA4S6X5PkJkOVdFU0BFobZtuSWvB_e",
+      "parent_id": "1IKnAlyLW6KtuNkVH3y-AIaIFxhW6YFcm",
+      "name": "THIÊN ĐẾ TRỌNG SINH ĐÔ THỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 396921,
+      "modified": "2026-08-15T10:15:14.000Z",
+      "checksum": "268a442924fb445ca7670cd6636749b8",
+      "folder": false
+    },
+    {
+      "id": "1NATSOMV5IZlP1j6LQvAIwneE9IpYYfUz",
+      "parent_id": "1IKnAlyLW6KtuNkVH3y-AIaIFxhW6YFcm",
+      "name": "THIÊN ĐẾ TRỌNG SINH ĐÔ THỊ.pdf",
+      "mime": "application/pdf",
+      "size": 528591,
+      "modified": "2026-08-15T10:15:12.000Z",
+      "checksum": "39d002e1764a0cc8160ba10255360f04",
+      "folder": false
+    }
+  ]
+}

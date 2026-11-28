@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dO7qAAhgXvRsnUJgyblkrQ9AnNUpGM1_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GF1QAWpExVGzlC5x1GJq7vj8VMH387cx",
+      "parent_id": "1dO7qAAhgXvRsnUJgyblkrQ9AnNUpGM1_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3116,
+      "modified": "2026-08-16T04:07:36.000Z",
+      "checksum": "26099b88363a7d07a7e6a3ee9ed493aa",
+      "folder": false
+    },
+    {
+      "id": "1Z7RN8wOhCAZpk05FEjwkt8vsFEtK5-2n",
+      "parent_id": "1dO7qAAhgXvRsnUJgyblkrQ9AnNUpGM1_",
+      "name": "OAN GIA TƯƠNG PHÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 655430,
+      "modified": "2026-08-16T04:07:45.000Z",
+      "checksum": "4a66156c7e607be08c7623276b19f47a",
+      "folder": false
+    },
+    {
+      "id": "1d9Yww3_pNqfV8bRNxfPziQDmD6Nv9RbL",
+      "parent_id": "1dO7qAAhgXvRsnUJgyblkrQ9AnNUpGM1_",
+      "name": "OAN GIA TƯƠNG PHÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 1083918,
+      "modified": "2026-08-16T04:07:41.000Z",
+      "checksum": "587061343d7e6ab9333b1bfa79cb441e",
+      "folder": false
+    }
+  ]
+}

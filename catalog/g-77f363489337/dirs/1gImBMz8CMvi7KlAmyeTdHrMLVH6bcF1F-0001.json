@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gImBMz8CMvi7KlAmyeTdHrMLVH6bcF1F",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GiYSltJYRdF5u8aLhrpNwDWuGplh8ycF",
+      "parent_id": "1gImBMz8CMvi7KlAmyeTdHrMLVH6bcF1F",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 8979,
+      "modified": "2026-08-16T03:07:31.000Z",
+      "checksum": "cf223428ecaf4f652edd70f04ab098d7",
+      "folder": false
+    },
+    {
+      "id": "1PUu2FGDuvZdNWpPIJaGzyTcZXKyp2Wp_",
+      "parent_id": "1gImBMz8CMvi7KlAmyeTdHrMLVH6bcF1F",
+      "name": "YÊU EM CUỒNG SI.epub",
+      "mime": "application/epub+zip",
+      "size": 444858,
+      "modified": "2026-08-16T03:07:38.000Z",
+      "checksum": "2dae2e87c8717886159245622f29d886",
+      "folder": false
+    },
+    {
+      "id": "1e03ItPSCrPk4Z3u_cyvqxmRTPrLASa64",
+      "parent_id": "1gImBMz8CMvi7KlAmyeTdHrMLVH6bcF1F",
+      "name": "YÊU EM CUỒNG SI.pdf",
+      "mime": "application/pdf",
+      "size": 320770,
+      "modified": "2026-08-16T03:07:35.000Z",
+      "checksum": "6af7ea8e9bc89ddc2ee538ef0b0f1e3d",
+      "folder": false
+    }
+  ]
+}

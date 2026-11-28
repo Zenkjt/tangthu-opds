@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1K_jYQXlaObZ2SQSGqATCOGDmlAEQZTvU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aqEMTGIYjisvzBa8_2d3xPAq1IADNnho",
+      "parent_id": "1K_jYQXlaObZ2SQSGqATCOGDmlAEQZTvU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6086,
+      "modified": "2026-08-15T07:21:47.000Z",
+      "checksum": "f579dcfd6df8dd8e8e471dafd0a4c791",
+      "folder": false
+    },
+    {
+      "id": "1Tjqr8x1S3CiqP_AdljBEONtLC1B7YUWs",
+      "parent_id": "1K_jYQXlaObZ2SQSGqATCOGDmlAEQZTvU",
+      "name": "TRANG TRẠI TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 414759,
+      "modified": "2026-08-15T07:21:53.000Z",
+      "checksum": "81c68361a20dd81bb86953c36e202c3c",
+      "folder": false
+    },
+    {
+      "id": "15MroxktvFqax7hjT0boPYcDgNbSt8wks",
+      "parent_id": "1K_jYQXlaObZ2SQSGqATCOGDmlAEQZTvU",
+      "name": "TRANG TRẠI TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 658720,
+      "modified": "2026-08-15T07:21:50.000Z",
+      "checksum": "0307b0fc385b2636837fd030d3bb787a",
+      "folder": false
+    }
+  ]
+}

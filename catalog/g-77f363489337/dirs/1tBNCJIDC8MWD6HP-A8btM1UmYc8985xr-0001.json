@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tBNCJIDC8MWD6HP-A8btM1UmYc8985xr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pz6iA568biZkuzITnvm5X9BsJ75Bnq6L",
+      "parent_id": "1tBNCJIDC8MWD6HP-A8btM1UmYc8985xr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1799,
+      "modified": "2026-08-15T13:12:55.000Z",
+      "checksum": "fd927a6c4afc2ef228656bcd90238715",
+      "folder": false
+    },
+    {
+      "id": "13o2qV4567uEu7VHDLE9zJ3esFblyfj5K",
+      "parent_id": "1tBNCJIDC8MWD6HP-A8btM1UmYc8985xr",
+      "name": "LẬP VÀ GIẢI TỬ VI.epub",
+      "mime": "application/epub+zip",
+      "size": 1049209,
+      "modified": "2026-08-15T13:13:01.000Z",
+      "checksum": "0ea54fe24822ea378bc747ce6ec18534",
+      "folder": false
+    },
+    {
+      "id": "1T4ZV5duuNVYm9XQ5kYHNnYbG4tXUubLk",
+      "parent_id": "1tBNCJIDC8MWD6HP-A8btM1UmYc8985xr",
+      "name": "LẬP VÀ GIẢI TỬ VI.pdf",
+      "mime": "application/pdf",
+      "size": 1497985,
+      "modified": "2026-08-15T13:12:58.000Z",
+      "checksum": "b8e0b852efa30d4228653ac856c5b472",
+      "folder": false
+    }
+  ]
+}

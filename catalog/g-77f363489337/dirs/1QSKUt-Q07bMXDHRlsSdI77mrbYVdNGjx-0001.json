@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QSKUt-Q07bMXDHRlsSdI77mrbYVdNGjx",
+  "page": 1,
+  "items": [
+    {
+      "id": "18Wt0crXOxRiOjUfJl0T7tTGgkKNxl90A",
+      "parent_id": "1QSKUt-Q07bMXDHRlsSdI77mrbYVdNGjx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3624,
+      "modified": "2026-08-16T03:12:13.000Z",
+      "checksum": "47b3118a57d42e3a3bffa879552feb08",
+      "folder": false
+    },
+    {
+      "id": "1BQewZFAhcqSnL_tN6EL2CSNdSzpI6scE",
+      "parent_id": "1QSKUt-Q07bMXDHRlsSdI77mrbYVdNGjx",
+      "name": "HOA TRÁI CỦA NIỀM ĐẮM SAY.epub",
+      "mime": "application/epub+zip",
+      "size": 738084,
+      "modified": "2026-08-16T03:12:20.000Z",
+      "checksum": "fd0fd0d762aaaf30a90315a53f9f5410",
+      "folder": false
+    },
+    {
+      "id": "1ReeqzDOSMwv2DPpznQTmoVT1PIJCPMor",
+      "parent_id": "1QSKUt-Q07bMXDHRlsSdI77mrbYVdNGjx",
+      "name": "HOA TRÁI CỦA NIỀM ĐẮM SAY.pdf",
+      "mime": "application/pdf",
+      "size": 897347,
+      "modified": "2026-08-16T03:12:17.000Z",
+      "checksum": "6295fedda20e0728dcdb295851b12d70",
+      "folder": false
+    }
+  ]
+}

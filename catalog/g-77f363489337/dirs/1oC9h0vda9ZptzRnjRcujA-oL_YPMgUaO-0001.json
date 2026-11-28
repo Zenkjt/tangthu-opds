@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oC9h0vda9ZptzRnjRcujA-oL_YPMgUaO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1y_tGwBpLxv4qxjdQ2n6m13-idOrqfgQ8",
+      "parent_id": "1oC9h0vda9ZptzRnjRcujA-oL_YPMgUaO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3517,
+      "modified": "2026-08-16T03:38:09.000Z",
+      "checksum": "5b5c214caa54d2fa484331a08f776d2d",
+      "folder": false
+    },
+    {
+      "id": "1vufLlBTmlRN9x9E0xoxsslXBMmqzlnjM",
+      "parent_id": "1oC9h0vda9ZptzRnjRcujA-oL_YPMgUaO",
+      "name": "LỬA YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 604293,
+      "modified": "2026-08-16T03:38:15.000Z",
+      "checksum": "fed4fb5a3835a5e72c9fa8be04b504a8",
+      "folder": false
+    },
+    {
+      "id": "1T7S6q0PwcYyPn8ABhGeG31wXcBfYDU9q",
+      "parent_id": "1oC9h0vda9ZptzRnjRcujA-oL_YPMgUaO",
+      "name": "LỬA YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1438011,
+      "modified": "2026-08-16T03:38:12.000Z",
+      "checksum": "e4f41009c2b4b3eac9d68a7ebb1f1e84",
+      "folder": false
+    }
+  ]
+}

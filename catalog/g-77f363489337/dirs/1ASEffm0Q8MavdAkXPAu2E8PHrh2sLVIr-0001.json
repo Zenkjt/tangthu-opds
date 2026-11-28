@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ASEffm0Q8MavdAkXPAu2E8PHrh2sLVIr",
+  "page": 1,
+  "items": [
+    {
+      "id": "124Kv0KE13evyo04ZTNaDYc61QNCVDKsL",
+      "parent_id": "1ASEffm0Q8MavdAkXPAu2E8PHrh2sLVIr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4005,
+      "modified": "2026-08-15T03:44:44.000Z",
+      "checksum": "22f85477bdb443ad19e5a1634d5775db",
+      "folder": false
+    },
+    {
+      "id": "16WECdD4Wc7-r7M58FZiJKXLZi1CceGAo",
+      "parent_id": "1ASEffm0Q8MavdAkXPAu2E8PHrh2sLVIr",
+      "name": "KHÔNG CÓ CÁI CHẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 2015044,
+      "modified": "2026-08-15T03:44:51.000Z",
+      "checksum": "2605d63213b063a17008e6598100d272",
+      "folder": false
+    },
+    {
+      "id": "1uyEw4-zT_Gdt8isIsronN_IVRmsZbDqX",
+      "parent_id": "1ASEffm0Q8MavdAkXPAu2E8PHrh2sLVIr",
+      "name": "KHÔNG CÓ CÁI CHẾT.pdf",
+      "mime": "application/pdf",
+      "size": 2447432,
+      "modified": "2026-08-15T03:44:47.000Z",
+      "checksum": "460d60a87de4b214817fc8b3f387d9d6",
+      "folder": false
+    }
+  ]
+}

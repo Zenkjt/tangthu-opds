@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aDuG4zJp0zkSyectMXaub6nzYBsrOxtG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Xtfgl72n7yb7NUUACWd6ayCjtmZzoupQ",
+      "parent_id": "1aDuG4zJp0zkSyectMXaub6nzYBsrOxtG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3557,
+      "modified": "2026-08-15T10:46:01.000Z",
+      "checksum": "fb68c9860d1ede88a67712dc40bbe2e3",
+      "folder": false
+    },
+    {
+      "id": "176RcHPVKpphdkaGk6TtektaWE3_HV5la",
+      "parent_id": "1aDuG4zJp0zkSyectMXaub6nzYBsrOxtG",
+      "name": "NGOÀI VÒNG TAY ANH LÀ BÃO TỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 428265,
+      "modified": "2026-08-15T10:46:11.000Z",
+      "checksum": "44ad072002fde3f78852096a7ac6f23d",
+      "folder": false
+    },
+    {
+      "id": "10hJ6012AlJwsZBYOkDQv39i4OGC3UEvZ",
+      "parent_id": "1aDuG4zJp0zkSyectMXaub6nzYBsrOxtG",
+      "name": "NGOÀI VÒNG TAY ANH LÀ BÃO TỐ.pdf",
+      "mime": "application/pdf",
+      "size": 1145885,
+      "modified": "2026-08-15T10:46:06.000Z",
+      "checksum": "61a827e457ba82c324f82c17d3686d29",
+      "folder": false
+    }
+  ]
+}

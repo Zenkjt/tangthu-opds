@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15FQxuYaffvUIfTl6ev_SW2dt5EWcVpCp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ud2hOvuvwDxL9yZ8FYdFlvABwukNCgQ9",
+      "parent_id": "15FQxuYaffvUIfTl6ev_SW2dt5EWcVpCp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4559,
+      "modified": "2026-08-15T04:00:28.000Z",
+      "checksum": "909582b64aacbac0aa7e2d2a3c15ed72",
+      "folder": false
+    },
+    {
+      "id": "1sZ0GZqV7cPW8St-0k5DcHnfhIcjqispf",
+      "parent_id": "15FQxuYaffvUIfTl6ev_SW2dt5EWcVpCp",
+      "name": "TÂM LÝ HỌC PHẬT GIÁO.epub",
+      "mime": "application/epub+zip",
+      "size": 479162,
+      "modified": "2026-08-15T04:00:35.000Z",
+      "checksum": "1eae2124dc0c69d1a5d77ba975026560",
+      "folder": false
+    },
+    {
+      "id": "1rJ-P879NicH8c6wqI77Y8d0Eii9xy4ww",
+      "parent_id": "15FQxuYaffvUIfTl6ev_SW2dt5EWcVpCp",
+      "name": "TÂM LÝ HỌC PHẬT GIÁO.pdf",
+      "mime": "application/pdf",
+      "size": 655048,
+      "modified": "2026-08-15T04:00:33.000Z",
+      "checksum": "d679daa6b588f56515aaf80e767fef82",
+      "folder": false
+    }
+  ]
+}

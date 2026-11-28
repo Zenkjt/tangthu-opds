@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mG_988XqfPuBcIZA8o1POFOBX8we9q_f",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dYYtpbHJtgyQjOcxFZtEMJQwgA-BoXZO",
+      "parent_id": "1mG_988XqfPuBcIZA8o1POFOBX8we9q_f",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2883,
+      "modified": "2026-08-15T10:32:11.000Z",
+      "checksum": "4763c675be788333442125e5ed89dbcb",
+      "folder": false
+    },
+    {
+      "id": "1xQOae-SBJDTM00_zVFycKJNzddefYGFq",
+      "parent_id": "1mG_988XqfPuBcIZA8o1POFOBX8we9q_f",
+      "name": "PHÙ DUNG TRÌ.epub",
+      "mime": "application/epub+zip",
+      "size": 1228173,
+      "modified": "2026-08-15T10:32:24.000Z",
+      "checksum": "cef78d06e4c84cfb839357f3e286320f",
+      "folder": false
+    },
+    {
+      "id": "1ynn8edSf1T-8mQ7YX3OoRhD3-1XzdGt8",
+      "parent_id": "1mG_988XqfPuBcIZA8o1POFOBX8we9q_f",
+      "name": "PHÙ DUNG TRÌ.pdf",
+      "mime": "application/pdf",
+      "size": 4453855,
+      "modified": "2026-08-15T10:32:21.000Z",
+      "checksum": "7fd49d35b402374eba4afc9861088aca",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eN3Ky-0O9b1346ewQTwmoX1KHf1UvzUF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zWLxhQfuls59L7h7DHkRt6Ldu4EHhgcf",
+      "parent_id": "1eN3Ky-0O9b1346ewQTwmoX1KHf1UvzUF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2029,
+      "modified": "2026-08-16T03:15:27.000Z",
+      "checksum": "83ff8f0d800a9ad29d822ffb68a77d7d",
+      "folder": false
+    },
+    {
+      "id": "1wGZL4vjRnUzzqk6cmYhkXhCGHerKF9H_",
+      "parent_id": "1eN3Ky-0O9b1346ewQTwmoX1KHf1UvzUF",
+      "name": "ĐỘC THÂN CẦN YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 415307,
+      "modified": "2026-08-16T03:15:34.000Z",
+      "checksum": "8a714216c8ff27f9f4b520857b202856",
+      "folder": false
+    },
+    {
+      "id": "1lK-czX3SiFcxFMgF3ZKwKJJJdOHlX5rr",
+      "parent_id": "1eN3Ky-0O9b1346ewQTwmoX1KHf1UvzUF",
+      "name": "ĐỘC THÂN CẦN YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 790973,
+      "modified": "2026-08-16T03:15:31.000Z",
+      "checksum": "bfd108d5c5f8789f6057252952e1ae53",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11IFJvohlOcAvGB7uW9MF71d0bPaTQms8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1q1GUiyOOpYNyBkwJ9Me1Rgd2HCLrUbWc",
+      "parent_id": "11IFJvohlOcAvGB7uW9MF71d0bPaTQms8",
+      "name": "BAY ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 291011,
+      "modified": "2026-08-15T11:03:03.000Z",
+      "checksum": "1635bc3ecb8456a695a79567fd47661a",
+      "folder": false
+    },
+    {
+      "id": "1PMYPSysPwC_xj2yOzYXvvIqT5y8fIpD_",
+      "parent_id": "11IFJvohlOcAvGB7uW9MF71d0bPaTQms8",
+      "name": "BAY ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 320986,
+      "modified": "2026-08-15T11:03:00.000Z",
+      "checksum": "9931277e9ae220b2025faad3e1a1a29e",
+      "folder": false
+    },
+    {
+      "id": "1DMLrbtUDrKpdsVPQqOsejS94AicSwq2d",
+      "parent_id": "11IFJvohlOcAvGB7uW9MF71d0bPaTQms8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 394,
+      "modified": "2026-08-15T11:02:55.000Z",
+      "checksum": "80f1c0032e16a62b44680fcee848bf76",
+      "folder": false
+    }
+  ]
+}

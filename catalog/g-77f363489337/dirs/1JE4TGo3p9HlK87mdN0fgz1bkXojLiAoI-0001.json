@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JE4TGo3p9HlK87mdN0fgz1bkXojLiAoI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ersOrucwKJYctrabKf5EGz1--bY-RBlM",
+      "parent_id": "1JE4TGo3p9HlK87mdN0fgz1bkXojLiAoI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9481,
+      "modified": "2026-08-15T00:46:30.000Z",
+      "checksum": "dc93ac5cdeca45025dd55f2869e44cb7",
+      "folder": false
+    },
+    {
+      "id": "1hjCrLTIIRnhso3PooZ1mvC2c5obj3x51",
+      "parent_id": "1JE4TGo3p9HlK87mdN0fgz1bkXojLiAoI",
+      "name": "ĐI TÌM LẼ SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 442956,
+      "modified": "2026-08-15T00:46:36.000Z",
+      "checksum": "c546d5aaab22d4090864e37e564a04e3",
+      "folder": false
+    },
+    {
+      "id": "1A1qwNbQwTEQUSDIeM19SrqKwI4TQZPCR",
+      "parent_id": "1JE4TGo3p9HlK87mdN0fgz1bkXojLiAoI",
+      "name": "ĐI TÌM LẼ SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 1247619,
+      "modified": "2026-08-15T00:46:33.000Z",
+      "checksum": "c7faf0ebf2213934a955f5d67d6f1883",
+      "folder": false
+    }
+  ]
+}

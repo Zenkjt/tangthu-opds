@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pbvgTRjOqECibonvHQAWb_w12kIcyA16",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qUaCZlRrHplMrNdj296aTAfKxyICB8dv",
+      "parent_id": "1pbvgTRjOqECibonvHQAWb_w12kIcyA16",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 828,
+      "modified": "2026-08-16T04:13:27.000Z",
+      "checksum": "274a47902ae56066c6bda88179cb90c0",
+      "folder": false
+    },
+    {
+      "id": "1Yo97i0VNbaatIrqd9Rrhp69h9u0BUxyN",
+      "parent_id": "1pbvgTRjOqECibonvHQAWb_w12kIcyA16",
+      "name": "NGƯỜI THẦY DẬY ĐÁNH KIẾM.epub",
+      "mime": "application/epub+zip",
+      "size": 413372,
+      "modified": "2026-08-16T04:13:33.000Z",
+      "checksum": "6cdf4f86650fcbff4cbfc196f24942eb",
+      "folder": false
+    },
+    {
+      "id": "1HcW6tagoffUFNVeWOgthGscrGc0xIUMr",
+      "parent_id": "1pbvgTRjOqECibonvHQAWb_w12kIcyA16",
+      "name": "NGƯỜI THẦY DẬY ĐÁNH KIẾM.pdf",
+      "mime": "application/pdf",
+      "size": 883890,
+      "modified": "2026-08-16T04:13:30.000Z",
+      "checksum": "e0812f1489c0a7159efe2bf403aa9d84",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d8mCgHgfdBsP4Opbili9XZMkeL10jqbX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eN_9ruyaFboL-qFo-r5Mv3nkeGSssChH",
+      "parent_id": "1d8mCgHgfdBsP4Opbili9XZMkeL10jqbX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1355,
+      "modified": "2026-08-16T02:54:33.000Z",
+      "checksum": "ca1f54de369f426414d6e30df4ea1445",
+      "folder": false
+    },
+    {
+      "id": "1GBJr4pGyZbzuLwMXgKiVSBpk1IAkrGfp",
+      "parent_id": "1d8mCgHgfdBsP4Opbili9XZMkeL10jqbX",
+      "name": "TRUYỆN CỔ TÍCH VIỆT NAM CHỌN LỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 476349,
+      "modified": "2026-08-16T02:54:40.000Z",
+      "checksum": "e6d7870282231b6c2d3db8e1f48ea677",
+      "folder": false
+    },
+    {
+      "id": "16Ql_FtX0Aa8bs3pkYox2uKt5kcR13h5Y",
+      "parent_id": "1d8mCgHgfdBsP4Opbili9XZMkeL10jqbX",
+      "name": "TRUYỆN CỔ TÍCH VIỆT NAM CHỌN LỌC.pdf",
+      "mime": "application/pdf",
+      "size": 913166,
+      "modified": "2026-08-16T02:54:38.000Z",
+      "checksum": "06275c8ea10ce418c541b472cd17c4bb",
+      "folder": false
+    }
+  ]
+}

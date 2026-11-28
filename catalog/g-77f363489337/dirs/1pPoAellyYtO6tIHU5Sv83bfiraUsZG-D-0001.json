@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pPoAellyYtO6tIHU5Sv83bfiraUsZG-D",
+  "page": 1,
+  "items": [
+    {
+      "id": "1v2A1Uvma7vrjoQGdhezA7shnduKgbKgl",
+      "parent_id": "1pPoAellyYtO6tIHU5Sv83bfiraUsZG-D",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3301,
+      "modified": "2026-08-15T10:27:05.000Z",
+      "checksum": "eb61e09103b8a3918f5ed01e13684642",
+      "folder": false
+    },
+    {
+      "id": "1PEVSkfmu9DB0F1oLiD62_qlSGOMqjxKR",
+      "parent_id": "1pPoAellyYtO6tIHU5Sv83bfiraUsZG-D",
+      "name": "SI MÊ VÀ LIỀU LĨNH.epub",
+      "mime": "application/epub+zip",
+      "size": 607101,
+      "modified": "2026-08-15T10:27:14.000Z",
+      "checksum": "c95e899f876457b96fed997d867d15ea",
+      "folder": false
+    },
+    {
+      "id": "16W1DMvSOU-8UHJUpt-6yKQo0dgZyqDOW",
+      "parent_id": "1pPoAellyYtO6tIHU5Sv83bfiraUsZG-D",
+      "name": "SI MÊ VÀ LIỀU LĨNH.pdf",
+      "mime": "application/pdf",
+      "size": 1438210,
+      "modified": "2026-08-15T10:27:11.000Z",
+      "checksum": "eabcb8994b2f299233831777f9788be5",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WkLqTKTr3KcZu9sE8m8R36TANrrJGn54",
+  "page": 1,
+  "items": [
+    {
+      "id": "147ywoEmB972YJwnGW-jq4PerpoFD5jSQ",
+      "parent_id": "1WkLqTKTr3KcZu9sE8m8R36TANrrJGn54",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3091,
+      "modified": "2026-08-16T03:33:32.000Z",
+      "checksum": "264be7ddfc34f68cdc6ec7f3ce54eca7",
+      "folder": false
+    },
+    {
+      "id": "1X3J2PD47lEiwWBUh1aYlG0zldQ73bkdI",
+      "parent_id": "1WkLqTKTr3KcZu9sE8m8R36TANrrJGn54",
+      "name": "ÁI QUẢ TÌNH HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 355061,
+      "modified": "2026-08-16T03:33:39.000Z",
+      "checksum": "e55fa74db61cc5464791dc47c2b906ca",
+      "folder": false
+    },
+    {
+      "id": "1O1GXeylG7jg9n3XMAjtYEemyGLfUYmbQ",
+      "parent_id": "1WkLqTKTr3KcZu9sE8m8R36TANrrJGn54",
+      "name": "ÁI QUẢ TÌNH HOA.pdf",
+      "mime": "application/pdf",
+      "size": 1195121,
+      "modified": "2026-08-16T03:33:37.000Z",
+      "checksum": "179e029a8779b3016250ce52b3b42d7c",
+      "folder": false
+    }
+  ]
+}

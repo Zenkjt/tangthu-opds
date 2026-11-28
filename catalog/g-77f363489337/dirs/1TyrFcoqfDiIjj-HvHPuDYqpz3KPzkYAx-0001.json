@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TyrFcoqfDiIjj-HvHPuDYqpz3KPzkYAx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AwZdRir5qa-BsJ4grC7tqa4pnJtUk-_P",
+      "parent_id": "1TyrFcoqfDiIjj-HvHPuDYqpz3KPzkYAx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9141,
+      "modified": "2026-08-15T07:00:35.000Z",
+      "checksum": "8b77c53b1cefbba435e794b675e00abd",
+      "folder": false
+    },
+    {
+      "id": "1DsrMVLmBmrJBaNURQ9YH4v57SwXuWXCN",
+      "parent_id": "1TyrFcoqfDiIjj-HvHPuDYqpz3KPzkYAx",
+      "name": "IVANHOE.epub",
+      "mime": "application/epub+zip",
+      "size": 7280403,
+      "modified": "2026-08-15T07:03:23.000Z",
+      "checksum": "0dc1f30289668b204ab5079f439f9b1a",
+      "folder": false
+    },
+    {
+      "id": "157Ooty_VNHyAqnleN-3IWa4vBg3wVC_T",
+      "parent_id": "1TyrFcoqfDiIjj-HvHPuDYqpz3KPzkYAx",
+      "name": "IVANHOE.pdf",
+      "mime": "application/pdf",
+      "size": 9060605,
+      "modified": "2026-08-15T07:01:04.000Z",
+      "checksum": "968c457656daabc046a2b870caba64db",
+      "folder": false
+    }
+  ]
+}

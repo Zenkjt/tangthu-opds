@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lIsMECSyDmjCCIGQluuLwitO5NcWIVd-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uVpW5ze5qK4dJDnAnPWCd0YRUyEYuleM",
+      "parent_id": "1lIsMECSyDmjCCIGQluuLwitO5NcWIVd-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3572,
+      "modified": "2026-08-15T07:42:16.000Z",
+      "checksum": "8373f7f1fc0d186bfe3d0192090d7988",
+      "folder": false
+    },
+    {
+      "id": "1EHeC9r-MlhX4oGWHIakybPGAKh4zycYr",
+      "parent_id": "1lIsMECSyDmjCCIGQluuLwitO5NcWIVd-",
+      "name": "ĐÃ LÂU KHÔNG GẶP.epub",
+      "mime": "application/epub+zip",
+      "size": 1777454,
+      "modified": "2026-08-15T07:42:26.000Z",
+      "checksum": "0e3905ca3157e46bd8f0db24284a67e5",
+      "folder": false
+    },
+    {
+      "id": "1Y2c-Bd7m5BDLO-Tj0nqCvcs0Dqe5Wkuh",
+      "parent_id": "1lIsMECSyDmjCCIGQluuLwitO5NcWIVd-",
+      "name": "ĐÃ LÂU KHÔNG GẶP.pdf",
+      "mime": "application/pdf",
+      "size": 2031415,
+      "modified": "2026-08-15T07:42:21.000Z",
+      "checksum": "06fd54a9b6d3a9a35c79353d054f806d",
+      "folder": false
+    }
+  ]
+}

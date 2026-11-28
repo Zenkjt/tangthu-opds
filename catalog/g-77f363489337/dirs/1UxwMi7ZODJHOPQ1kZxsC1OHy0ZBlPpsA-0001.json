@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UxwMi7ZODJHOPQ1kZxsC1OHy0ZBlPpsA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WRB3A9e6htK8TxrDARi3bl-EG8KVltb6",
+      "parent_id": "1UxwMi7ZODJHOPQ1kZxsC1OHy0ZBlPpsA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9672,
+      "modified": "2026-08-15T12:29:11.000Z",
+      "checksum": "95f8a477152f6dedbca6cea6bf47c979",
+      "folder": false
+    },
+    {
+      "id": "1DoAFhkzwLLCWv9Ko9AZdVGgzSPwOe7Dh",
+      "parent_id": "1UxwMi7ZODJHOPQ1kZxsC1OHy0ZBlPpsA",
+      "name": "TỔ CHỨC GIA ĐÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 479115,
+      "modified": "2026-08-15T12:29:17.000Z",
+      "checksum": "c2d0a038cff0a04e437f101a0700011c",
+      "folder": false
+    },
+    {
+      "id": "1k3cDY__pgRgHtoleR32qRhuqSpXCbqoF",
+      "parent_id": "1UxwMi7ZODJHOPQ1kZxsC1OHy0ZBlPpsA",
+      "name": "TỔ CHỨC GIA ĐÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 686314,
+      "modified": "2026-08-15T12:29:14.000Z",
+      "checksum": "634fa7f4ef0f4f8c9bf3522b428cc9f1",
+      "folder": false
+    }
+  ]
+}

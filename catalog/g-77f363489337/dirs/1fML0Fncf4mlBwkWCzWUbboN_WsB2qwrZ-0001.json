@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fML0Fncf4mlBwkWCzWUbboN_WsB2qwrZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xsiTv-8ohaxmf5qmFiIX2hj9R4cwvIMm",
+      "parent_id": "1fML0Fncf4mlBwkWCzWUbboN_WsB2qwrZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6479,
+      "modified": "2026-08-16T03:18:48.000Z",
+      "checksum": "398a871aa5090110530e90280003344b",
+      "folder": false
+    },
+    {
+      "id": "1LVrKFlb4SHGV_oWds_dyoGmoNbU7ol4Z",
+      "parent_id": "1fML0Fncf4mlBwkWCzWUbboN_WsB2qwrZ",
+      "name": "NGƯỜI ĐÀN BÀ TRONG ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 631223,
+      "modified": "2026-08-16T03:18:55.000Z",
+      "checksum": "ec5e336b44510771dd0dabaf4c1c7112",
+      "folder": false
+    },
+    {
+      "id": "1ejlckoisueK9TunrkHxkjELV0JnOWDv2",
+      "parent_id": "1fML0Fncf4mlBwkWCzWUbboN_WsB2qwrZ",
+      "name": "NGƯỜI ĐÀN BÀ TRONG ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 1074565,
+      "modified": "2026-08-16T03:18:52.000Z",
+      "checksum": "416c381cffe565a3c96d5dc2af7cd6dc",
+      "folder": false
+    }
+  ]
+}

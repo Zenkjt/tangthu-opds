@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZFW4OTHWJd9aIj5BAjta2-YsZlHMzepY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rvvpMAfSoFatCu01jl2wAgbs0j0yXBld",
+      "parent_id": "1ZFW4OTHWJd9aIj5BAjta2-YsZlHMzepY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3293,
+      "modified": "2026-08-15T15:36:08.000Z",
+      "checksum": "ddc42e092d9b2a2105f50bcb2d09259b",
+      "folder": false
+    },
+    {
+      "id": "1x-tTYnzv6Cnjxb4tY6IA71nnejiHWMKl",
+      "parent_id": "1ZFW4OTHWJd9aIj5BAjta2-YsZlHMzepY",
+      "name": "THEODORE BOONE - LUẬT SƯ NHÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 477573,
+      "modified": "2026-08-15T15:36:18.000Z",
+      "checksum": "147df016da0cdeaa9204a317c08ea7d5",
+      "folder": false
+    },
+    {
+      "id": "1o5w9pArUAepnuzOTTPxehAeLOtH25P7f",
+      "parent_id": "1ZFW4OTHWJd9aIj5BAjta2-YsZlHMzepY",
+      "name": "THEODORE BOONE - LUẬT SƯ NHÍ.pdf",
+      "mime": "application/pdf",
+      "size": 802430,
+      "modified": "2026-08-15T15:36:14.000Z",
+      "checksum": "933925c7a9591cc6efe09a382741f334",
+      "folder": false
+    }
+  ]
+}

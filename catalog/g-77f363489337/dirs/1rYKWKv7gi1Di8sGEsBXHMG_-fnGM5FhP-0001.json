@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rYKWKv7gi1Di8sGEsBXHMG_-fnGM5FhP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SJBDYiCD3mFzNeQ7elHW1Ez9sdtiG91R",
+      "parent_id": "1rYKWKv7gi1Di8sGEsBXHMG_-fnGM5FhP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3764,
+      "modified": "2026-08-15T13:09:38.000Z",
+      "checksum": "7c9f4b8638c3a65feae5d396bd6441e0",
+      "folder": false
+    },
+    {
+      "id": "1WIhKna90moTkvt02Ab9iI3VMBAuyhaRZ",
+      "parent_id": "1rYKWKv7gi1Di8sGEsBXHMG_-fnGM5FhP",
+      "name": "KINH DỊCH - ĐẠO CỦA NGƯỜI QUÂN TỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 1256152,
+      "modified": "2026-08-15T13:09:46.000Z",
+      "checksum": "e06c2a85a3e828f70bf7f3839077aeb6",
+      "folder": false
+    },
+    {
+      "id": "1GTYtH64scPXgQKflsivV9U2avOGTbz_G",
+      "parent_id": "1rYKWKv7gi1Di8sGEsBXHMG_-fnGM5FhP",
+      "name": "KINH DỊCH - ĐẠO CỦA NGƯỜI QUÂN TỬ.pdf",
+      "mime": "application/pdf",
+      "size": 2237718,
+      "modified": "2026-08-15T13:09:42.000Z",
+      "checksum": "ba52739ba7b2ee4cad184b58260f8d1c",
+      "folder": false
+    }
+  ]
+}

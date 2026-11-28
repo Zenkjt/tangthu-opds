@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1b9wFR2MJ4S_h70Dp-FU9DKYSB9wyEuv5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aasQTlOVv4Y-ua6cnCVPpUhzV-SVlh4t",
+      "parent_id": "1b9wFR2MJ4S_h70Dp-FU9DKYSB9wyEuv5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 481,
+      "modified": "2026-08-15T10:32:03.000Z",
+      "checksum": "0192e9b21c8fc751074a84c398315242",
+      "folder": false
+    },
+    {
+      "id": "1inWk-6F64Uny3eeXoiUVuMs5Ub5TQm78",
+      "parent_id": "1b9wFR2MJ4S_h70Dp-FU9DKYSB9wyEuv5",
+      "name": "PHÙ THUỶ XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 564824,
+      "modified": "2026-08-15T10:32:10.000Z",
+      "checksum": "73da5d0dacf4006cbaebe3ede1b08cc1",
+      "folder": false
+    },
+    {
+      "id": "1flgQkm9qwyQtjI7XxICESBQrMBeV83LY",
+      "parent_id": "1b9wFR2MJ4S_h70Dp-FU9DKYSB9wyEuv5",
+      "name": "PHÙ THUỶ XANH.pdf",
+      "mime": "application/pdf",
+      "size": 726814,
+      "modified": "2026-08-15T10:32:07.000Z",
+      "checksum": "ab4160b1724e622f31bba11b8b4db126",
+      "folder": false
+    }
+  ]
+}

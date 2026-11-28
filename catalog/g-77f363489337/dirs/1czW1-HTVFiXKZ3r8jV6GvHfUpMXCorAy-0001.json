@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1czW1-HTVFiXKZ3r8jV6GvHfUpMXCorAy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MF3pI4dohlXCmCzEdIZc9CHQ9l1PiNpv",
+      "parent_id": "1czW1-HTVFiXKZ3r8jV6GvHfUpMXCorAy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 866,
+      "modified": "2026-08-15T15:37:56.000Z",
+      "checksum": "ebbb45a111b797b0475ced81ee5b539a",
+      "folder": false
+    },
+    {
+      "id": "1DFimbgViwnxUkcz_DUBTeeqFMNKUvd52",
+      "parent_id": "1czW1-HTVFiXKZ3r8jV6GvHfUpMXCorAy",
+      "name": "RƯỢU ĐỘC LÓNG LÁNH.epub",
+      "mime": "application/epub+zip",
+      "size": 678057,
+      "modified": "2026-08-15T15:38:20.000Z",
+      "checksum": "ee6279589355c0a00a89a859bdc42a6e",
+      "folder": false
+    },
+    {
+      "id": "1ylMvwE2HLn6164hrBn2tUk5XubaJ6Zqe",
+      "parent_id": "1czW1-HTVFiXKZ3r8jV6GvHfUpMXCorAy",
+      "name": "RƯỢU ĐỘC LÓNG LÁNH.pdf",
+      "mime": "application/pdf",
+      "size": 960687,
+      "modified": "2026-08-15T15:38:16.000Z",
+      "checksum": "a4262234813a57213e097a205a0ae3e7",
+      "folder": false
+    }
+  ]
+}

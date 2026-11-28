@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YEMQpWug_nAcNSEILoeu-JjGgk9O1fY2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1R4qjkKFYUVuqulXq6AwjqgYSw4xuf4rE",
+      "parent_id": "1YEMQpWug_nAcNSEILoeu-JjGgk9O1fY2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5019,
+      "modified": "2026-08-15T09:52:04.000Z",
+      "checksum": "741e448f3837a030ec9ec8716fc9966d",
+      "folder": false
+    },
+    {
+      "id": "1_E-i7ekybIh7iT6TmCwMfeH9JWMZSFJp",
+      "parent_id": "1YEMQpWug_nAcNSEILoeu-JjGgk9O1fY2",
+      "name": "ĐEM MƯA VỀ CHO CÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 1938772,
+      "modified": "2026-08-15T09:52:32.000Z",
+      "checksum": "1571c74a7439dbbd73b94a4f03853c7c",
+      "folder": false
+    },
+    {
+      "id": "12AaFMNzj7haM0TNpanXuFKV6qOKkj1wF",
+      "parent_id": "1YEMQpWug_nAcNSEILoeu-JjGgk9O1fY2",
+      "name": "ĐEM MƯA VỀ CHO CÂY.pdf",
+      "mime": "application/pdf",
+      "size": 1587023,
+      "modified": "2026-08-15T09:52:21.000Z",
+      "checksum": "7455ea135a252db2c2f037f2f6b71f6a",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SGeyXrxzPcGXQ12FGFoOtuvbK9BOicah",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DelEYLYzvmLYwmJLzkTJgNdSjiL8_Dk8",
+      "parent_id": "1SGeyXrxzPcGXQ12FGFoOtuvbK9BOicah",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1584,
+      "modified": "2026-08-15T00:49:24.000Z",
+      "checksum": "cb2a6ce5db833484810c93166e422045",
+      "folder": false
+    },
+    {
+      "id": "1fsRCgRk9DWaUsJVWry3RT5koX1Yuxlv5",
+      "parent_id": "1SGeyXrxzPcGXQ12FGFoOtuvbK9BOicah",
+      "name": "TƯ DUY TÍCH CỰC THAY ĐỔI CUỘC SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 4262840,
+      "modified": "2026-08-15T00:49:33.000Z",
+      "checksum": "b57bdaac17e42e7aeca4a111cc808552",
+      "folder": false
+    },
+    {
+      "id": "1NJYi7ZQm8iNPPsnysON7Xq0YDnoWYz7I",
+      "parent_id": "1SGeyXrxzPcGXQ12FGFoOtuvbK9BOicah",
+      "name": "TƯ DUY TÍCH CỰC THAY ĐỔI CUỘC SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 4834945,
+      "modified": "2026-08-15T00:49:29.000Z",
+      "checksum": "51ce4b6d4cf53b6be30ef07992a65835",
+      "folder": false
+    }
+  ]
+}

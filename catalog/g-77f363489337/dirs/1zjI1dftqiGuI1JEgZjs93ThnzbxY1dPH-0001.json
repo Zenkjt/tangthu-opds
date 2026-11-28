@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zjI1dftqiGuI1JEgZjs93ThnzbxY1dPH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lRYgzQhim2YDI4u23JZh1WL7hnHltXVe",
+      "parent_id": "1zjI1dftqiGuI1JEgZjs93ThnzbxY1dPH",
+      "name": "CÁI BỚT.epub",
+      "mime": "application/epub+zip",
+      "size": 331407,
+      "modified": "2026-08-16T04:21:49.000Z",
+      "checksum": "0dec0967be3d35919a5cf29c0849dca2",
+      "folder": false
+    },
+    {
+      "id": "1MVUPHk6vipRW0HFnSbXlwwvTNlf5ursZ",
+      "parent_id": "1zjI1dftqiGuI1JEgZjs93ThnzbxY1dPH",
+      "name": "CÁI BỚT.pdf",
+      "mime": "application/pdf",
+      "size": 202932,
+      "modified": "2026-08-16T04:21:46.000Z",
+      "checksum": "63149cbde4630e5aa971e5bfd1a19bac",
+      "folder": false
+    },
+    {
+      "id": "14zsjHZpbmeYXr3zNK6LN6M16hL7F8Q_l",
+      "parent_id": "1zjI1dftqiGuI1JEgZjs93ThnzbxY1dPH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 831,
+      "modified": "2026-08-16T04:21:42.000Z",
+      "checksum": "fbc29d5532fa28706b1e49a22267846c",
+      "folder": false
+    }
+  ]
+}

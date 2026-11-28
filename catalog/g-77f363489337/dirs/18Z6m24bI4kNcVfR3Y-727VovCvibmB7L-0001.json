@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18Z6m24bI4kNcVfR3Y-727VovCvibmB7L",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LoDMAi6zfYkbPKhnX6YbFEQXUt754fba",
+      "parent_id": "18Z6m24bI4kNcVfR3Y-727VovCvibmB7L",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3274,
+      "modified": "2026-08-16T03:46:32.000Z",
+      "checksum": "4fa48d027c086ae1a236ef7e4cf2c3c7",
+      "folder": false
+    },
+    {
+      "id": "1xjLQvcP484iun3sKaGgC3NKg4gOfS2VT",
+      "parent_id": "18Z6m24bI4kNcVfR3Y-727VovCvibmB7L",
+      "name": "TÔI VÀ BẠN TRAI KINH TẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 712280,
+      "modified": "2026-08-16T03:46:39.000Z",
+      "checksum": "eb15dc766c0ca63b0c006094983887ee",
+      "folder": false
+    },
+    {
+      "id": "1b2wJkV6hoQp9gaCJb4_M6jQHmSJHI2qZ",
+      "parent_id": "18Z6m24bI4kNcVfR3Y-727VovCvibmB7L",
+      "name": "TÔI VÀ BẠN TRAI KINH TẾ.pdf",
+      "mime": "application/pdf",
+      "size": 966237,
+      "modified": "2026-08-16T03:46:36.000Z",
+      "checksum": "09dbcccd57a043d678bf63353ec76801",
+      "folder": false
+    }
+  ]
+}

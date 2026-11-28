@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cJf_4oLNzAZHyonQlZHrDkowLhqhK7FQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ECCRfXsfd6GHGYQdKlrStW24TyDCBmgv",
+      "parent_id": "1cJf_4oLNzAZHyonQlZHrDkowLhqhK7FQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 416,
+      "modified": "2026-08-15T10:57:41.000Z",
+      "checksum": "f7a87f8b387584522214035d6d6f3576",
+      "folder": false
+    },
+    {
+      "id": "1Gohb72n1qnr1xc9MoAMBZzqEYBCKx-Ad",
+      "parent_id": "1cJf_4oLNzAZHyonQlZHrDkowLhqhK7FQ",
+      "name": "ĐƯỜNG CÔNG DANH CỦA NIKODEM DYZMA.epub",
+      "mime": "application/epub+zip",
+      "size": 586792,
+      "modified": "2026-08-15T10:57:55.000Z",
+      "checksum": "19b5372e2b9468f9429d0f93a769b342",
+      "folder": false
+    },
+    {
+      "id": "1P6KR5DltwnfnQtWgRqJGv4HjuBShQXJE",
+      "parent_id": "1cJf_4oLNzAZHyonQlZHrDkowLhqhK7FQ",
+      "name": "ĐƯỜNG CÔNG DANH CỦA NIKODEM DYZMA.pdf",
+      "mime": "application/pdf",
+      "size": 1406451,
+      "modified": "2026-08-15T10:57:50.000Z",
+      "checksum": "05d6592842318c2b769173e47190dd18",
+      "folder": false
+    }
+  ]
+}

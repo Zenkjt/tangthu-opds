@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OthFiEsEobnh82bmO1MrQ0Qv95q8fZIW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1le8JYt0JTiYsOegqVEQhcLEvAx1lL5FG",
+      "parent_id": "1OthFiEsEobnh82bmO1MrQ0Qv95q8fZIW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3673,
+      "modified": "2026-08-15T01:00:14.000Z",
+      "checksum": "654ddd8079822314cc69e665d7e2266e",
+      "folder": false
+    },
+    {
+      "id": "1ksIZo61GpIk6eVuFaaqbBFH9xyCGIWMH",
+      "parent_id": "1OthFiEsEobnh82bmO1MrQ0Qv95q8fZIW",
+      "name": "MỘT NỬA CỦA 13 LÀ 8.epub",
+      "mime": "application/epub+zip",
+      "size": 410295,
+      "modified": "2026-08-15T01:00:21.000Z",
+      "checksum": "4612ef92765b152b0039199edfbfe87a",
+      "folder": false
+    },
+    {
+      "id": "1lilQIVrF1Quxf29cL9z64yZ51NYho4xr",
+      "parent_id": "1OthFiEsEobnh82bmO1MrQ0Qv95q8fZIW",
+      "name": "MỘT NỬA CỦA 13 LÀ 8.pdf",
+      "mime": "application/pdf",
+      "size": 615129,
+      "modified": "2026-08-15T01:00:19.000Z",
+      "checksum": "a07e1f98c764a320cbd358990352bfc5",
+      "folder": false
+    }
+  ]
+}

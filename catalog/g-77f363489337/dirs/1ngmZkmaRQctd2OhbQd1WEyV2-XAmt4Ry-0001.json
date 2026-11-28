@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ngmZkmaRQctd2OhbQd1WEyV2-XAmt4Ry",
+  "page": 1,
+  "items": [
+    {
+      "id": "10RjyvS1PPo6esJ6De5gRQQDwf5SGGqhh",
+      "parent_id": "1ngmZkmaRQctd2OhbQd1WEyV2-XAmt4Ry",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3638,
+      "modified": "2026-08-15T12:46:33.000Z",
+      "checksum": "0f84aa0d940fcbe34476e4c56994066c",
+      "folder": false
+    },
+    {
+      "id": "1Lgn-8SMqF_pKqWhDsgnfcrMcPoNIMfME",
+      "parent_id": "1ngmZkmaRQctd2OhbQd1WEyV2-XAmt4Ry",
+      "name": "NGÀY XƯA CÓ MỘT CHUYỆN TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 376180,
+      "modified": "2026-08-15T12:46:39.000Z",
+      "checksum": "4ee96c1a350ec6d94f23d2839ff36ed6",
+      "folder": false
+    },
+    {
+      "id": "1fQgFbij4C093AVdaCDe5IBPKuTjHq7tC",
+      "parent_id": "1ngmZkmaRQctd2OhbQd1WEyV2-XAmt4Ry",
+      "name": "NGÀY XƯA CÓ MỘT CHUYỆN TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 265634,
+      "modified": "2026-08-15T12:46:36.000Z",
+      "checksum": "5486bd65b79b220d642f2e535378cb1d",
+      "folder": false
+    }
+  ]
+}

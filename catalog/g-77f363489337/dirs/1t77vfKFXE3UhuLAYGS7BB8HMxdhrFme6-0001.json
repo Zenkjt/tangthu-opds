@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1t77vfKFXE3UhuLAYGS7BB8HMxdhrFme6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1i-h6Fne4I9uwlsCpCPmvrfsMEJP_ReDH",
+      "parent_id": "1t77vfKFXE3UhuLAYGS7BB8HMxdhrFme6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5320,
+      "modified": "2026-08-15T12:49:35.000Z",
+      "checksum": "5a17c25773eb94ddde5a310adbf84918",
+      "folder": false
+    },
+    {
+      "id": "1-prXnig953INg3EHIo4Fk-9krocWRP0i",
+      "parent_id": "1t77vfKFXE3UhuLAYGS7BB8HMxdhrFme6",
+      "name": "TRỞ THÀNH SIÊU MẪU.epub",
+      "mime": "application/epub+zip",
+      "size": 539342,
+      "modified": "2026-08-15T12:49:42.000Z",
+      "checksum": "96e8edae2ec3bbb2a1c176049db170f0",
+      "folder": false
+    },
+    {
+      "id": "1qm30S2tSwctK67HWyklWXbjFDVEWatWm",
+      "parent_id": "1t77vfKFXE3UhuLAYGS7BB8HMxdhrFme6",
+      "name": "TRỞ THÀNH SIÊU MẪU.pdf",
+      "mime": "application/pdf",
+      "size": 758406,
+      "modified": "2026-08-15T12:49:39.000Z",
+      "checksum": "960f357be5c90132032c6b2d037f0336",
+      "folder": false
+    }
+  ]
+}

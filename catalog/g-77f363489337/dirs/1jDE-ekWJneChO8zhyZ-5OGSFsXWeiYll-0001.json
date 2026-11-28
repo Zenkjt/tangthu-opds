@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jDE-ekWJneChO8zhyZ-5OGSFsXWeiYll",
+  "page": 1,
+  "items": [
+    {
+      "id": "16S-RxkwK0dIxf6icpSHUBMn3P5vu3vHU",
+      "parent_id": "1jDE-ekWJneChO8zhyZ-5OGSFsXWeiYll",
+      "name": "CỐ CHẤP.epub",
+      "mime": "application/epub+zip",
+      "size": 615418,
+      "modified": "2026-08-15T07:54:57.000Z",
+      "checksum": "6aa5bb51b02a7b7afe25433a67d6e98d",
+      "folder": false
+    },
+    {
+      "id": "1MlBZkKkj4JNa5HWlakZBqfKDQBm_7vjr",
+      "parent_id": "1jDE-ekWJneChO8zhyZ-5OGSFsXWeiYll",
+      "name": "CỐ CHẤP.pdf",
+      "mime": "application/pdf",
+      "size": 1766842,
+      "modified": "2026-08-15T07:54:54.000Z",
+      "checksum": "f5a153f5aaaf05e9d2f7b5bcfb4fdb0a",
+      "folder": false
+    },
+    {
+      "id": "1dnh-8ojJqk82wZM9g_1hS6QDtAfFN_Xm",
+      "parent_id": "1jDE-ekWJneChO8zhyZ-5OGSFsXWeiYll",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2791,
+      "modified": "2026-08-15T07:54:49.000Z",
+      "checksum": "b539b00c8f599c446c0aab65a28e7f21",
+      "folder": false
+    }
+  ]
+}

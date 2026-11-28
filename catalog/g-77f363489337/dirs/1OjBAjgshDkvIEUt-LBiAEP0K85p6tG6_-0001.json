@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OjBAjgshDkvIEUt-LBiAEP0K85p6tG6_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1h7FcBbQdWk-nOvrbh0aBzIQWVMkuQfU9",
+      "parent_id": "1OjBAjgshDkvIEUt-LBiAEP0K85p6tG6_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3903,
+      "modified": "2026-08-16T03:37:51.000Z",
+      "checksum": "3fe3e90fd32b245f964d08f1e225a935",
+      "folder": false
+    },
+    {
+      "id": "10guQ-_DymJyhk8ZUn3Iqvtyx25q_9CC6",
+      "parent_id": "1OjBAjgshDkvIEUt-LBiAEP0K85p6tG6_",
+      "name": "MẠCH - THANH.epub",
+      "mime": "application/epub+zip",
+      "size": 1681901,
+      "modified": "2026-08-16T03:37:59.000Z",
+      "checksum": "42960fb5111b71baa9d6b4af18ea14e5",
+      "folder": false
+    },
+    {
+      "id": "1_ryjf003_Rw2DON2BimPlMi9FJbSuuuj",
+      "parent_id": "1OjBAjgshDkvIEUt-LBiAEP0K85p6tG6_",
+      "name": "MẠCH - THANH.pdf",
+      "mime": "application/pdf",
+      "size": 1899171,
+      "modified": "2026-08-16T03:37:56.000Z",
+      "checksum": "476b5debb4cb048e18c1d5abbf5ae9f5",
+      "folder": false
+    }
+  ]
+}

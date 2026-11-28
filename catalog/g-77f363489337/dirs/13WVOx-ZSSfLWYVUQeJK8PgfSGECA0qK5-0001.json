@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13WVOx-ZSSfLWYVUQeJK8PgfSGECA0qK5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1c6mJ8N8c0rFYfNA1jbzy1hzDFU7PEPvE",
+      "parent_id": "13WVOx-ZSSfLWYVUQeJK8PgfSGECA0qK5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1654,
+      "modified": "2026-08-15T03:46:37.000Z",
+      "checksum": "afc99f3906114cb1f9a0db22b641f76a",
+      "folder": false
+    },
+    {
+      "id": "1N311UN-Rr3MyGic-ppjxazRCSVLFex_q",
+      "parent_id": "13WVOx-ZSSfLWYVUQeJK8PgfSGECA0qK5",
+      "name": "PHÉP XUẤT HỒN.epub",
+      "mime": "application/epub+zip",
+      "size": 234725,
+      "modified": "2026-08-15T03:46:42.000Z",
+      "checksum": "06cdcf137dab1c8a431a0ffb3f29ebd5",
+      "folder": false
+    },
+    {
+      "id": "1BVd4Mq7UpXfdNL-SBDe-2HVkjbqcJQvh",
+      "parent_id": "13WVOx-ZSSfLWYVUQeJK8PgfSGECA0qK5",
+      "name": "PHÉP XUẤT HỒN.pdf",
+      "mime": "application/pdf",
+      "size": 431313,
+      "modified": "2026-08-15T03:46:40.000Z",
+      "checksum": "e5ee8a53e092a3bab9b9cd7ad1f4d2f2",
+      "folder": false
+    }
+  ]
+}

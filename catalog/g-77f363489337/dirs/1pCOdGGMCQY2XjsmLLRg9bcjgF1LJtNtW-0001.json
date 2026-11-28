@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pCOdGGMCQY2XjsmLLRg9bcjgF1LJtNtW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dXsAVOpsZ9V7lwsrfu-Cqbsi-HRVWwX6",
+      "parent_id": "1pCOdGGMCQY2XjsmLLRg9bcjgF1LJtNtW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5481,
+      "modified": "2026-08-16T03:07:18.000Z",
+      "checksum": "24eb3ff88db129af43bd4c4b45a4aaf9",
+      "folder": false
+    },
+    {
+      "id": "1oAR8wNUvKxk3ADkTPOO0SeyBLbVtiwK-",
+      "parent_id": "1pCOdGGMCQY2XjsmLLRg9bcjgF1LJtNtW",
+      "name": "YÊU ĐI RỒI KHÓC.epub",
+      "mime": "application/epub+zip",
+      "size": 591508,
+      "modified": "2026-08-16T03:07:24.000Z",
+      "checksum": "9ebdb640da50b0d65b7818d48093a20b",
+      "folder": false
+    },
+    {
+      "id": "1ugGaGu7y7jGdi-JydL_kyNcKGoY9hcWF",
+      "parent_id": "1pCOdGGMCQY2XjsmLLRg9bcjgF1LJtNtW",
+      "name": "YÊU ĐI RỒI KHÓC.pdf",
+      "mime": "application/pdf",
+      "size": 1169646,
+      "modified": "2026-08-16T03:07:22.000Z",
+      "checksum": "772fd48f5d2f07f178040602b147476d",
+      "folder": false
+    }
+  ]
+}

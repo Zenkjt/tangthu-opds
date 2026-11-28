@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16Au8hlBkW6-xZeYAvlyTF3Ur17KLQG7e",
+  "page": 1,
+  "items": [
+    {
+      "id": "13qgV_yU6VMYuhhB3Iz9HE69GUysetHT_",
+      "parent_id": "16Au8hlBkW6-xZeYAvlyTF3Ur17KLQG7e",
+      "name": "CUỐN SÁCH CỦA CUỘC SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1227241,
+      "modified": "2026-08-16T03:44:39.000Z",
+      "checksum": "edfa6d6b7da7559f65295b9b6b8bfd38",
+      "folder": false
+    },
+    {
+      "id": "1wvrVZEK0U8_erB9Q-0uP843jefJ1lKQl",
+      "parent_id": "16Au8hlBkW6-xZeYAvlyTF3Ur17KLQG7e",
+      "name": "CUỐN SÁCH CỦA CUỘC SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 2881053,
+      "modified": "2026-08-16T03:44:35.000Z",
+      "checksum": "12fc215ef9d2bd885e46fec08f12e107",
+      "folder": false
+    },
+    {
+      "id": "1AFv_6L6C6WcUBuqgW6INiJWynBfxAlly",
+      "parent_id": "16Au8hlBkW6-xZeYAvlyTF3Ur17KLQG7e",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1678,
+      "modified": "2026-08-16T03:44:29.000Z",
+      "checksum": "c619e1f8563f31e39e8e1e2628d64a3b",
+      "folder": false
+    }
+  ]
+}

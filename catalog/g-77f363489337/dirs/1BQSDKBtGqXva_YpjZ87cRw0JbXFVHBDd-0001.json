@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BQSDKBtGqXva_YpjZ87cRw0JbXFVHBDd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1woG1xZnHfN1GLLRHrH9okI-Bqi3cmXtz",
+      "parent_id": "1BQSDKBtGqXva_YpjZ87cRw0JbXFVHBDd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2660,
+      "modified": "2026-08-16T02:51:07.000Z",
+      "checksum": "d2a3cecbd978c8d9296c22c9367626b6",
+      "folder": false
+    },
+    {
+      "id": "1yywRwPbXsgF5whekulMtfNWCmznWCZxR",
+      "parent_id": "1BQSDKBtGqXva_YpjZ87cRw0JbXFVHBDd",
+      "name": "KHIÊU VŨ VỚI BẦY SÓI.epub",
+      "mime": "application/epub+zip",
+      "size": 910527,
+      "modified": "2026-08-16T02:51:14.000Z",
+      "checksum": "7908dbe2ebba734680d9db3b703b311a",
+      "folder": false
+    },
+    {
+      "id": "19EcuAW1x8mUHoCAls61zckFMoOdXk9UM",
+      "parent_id": "1BQSDKBtGqXva_YpjZ87cRw0JbXFVHBDd",
+      "name": "KHIÊU VŨ VỚI BẦY SÓI.pdf",
+      "mime": "application/pdf",
+      "size": 1401782,
+      "modified": "2026-08-16T02:51:11.000Z",
+      "checksum": "24b409a846aa954b9d6c441cfd3581cf",
+      "folder": false
+    }
+  ]
+}

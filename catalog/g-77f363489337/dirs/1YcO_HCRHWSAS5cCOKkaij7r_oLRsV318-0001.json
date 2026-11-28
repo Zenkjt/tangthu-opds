@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YcO_HCRHWSAS5cCOKkaij7r_oLRsV318",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LDF8IpboEd5QQaHDqsjhr2p1RuvsG1qC",
+      "parent_id": "1YcO_HCRHWSAS5cCOKkaij7r_oLRsV318",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1806,
+      "modified": "2026-08-15T15:00:59.000Z",
+      "checksum": "d97658fb35a64c2917afb261bf480ff4",
+      "folder": false
+    },
+    {
+      "id": "14LORI6zTQ1QWJnxAHqGQA4FMaxKVyIzn",
+      "parent_id": "1YcO_HCRHWSAS5cCOKkaij7r_oLRsV318",
+      "name": "THỜI KHẮC ĐỊNH MỆNH.epub",
+      "mime": "application/epub+zip",
+      "size": 469705,
+      "modified": "2026-08-15T15:01:48.000Z",
+      "checksum": "41ee133838d6ab08a2df4440cbce9938",
+      "folder": false
+    },
+    {
+      "id": "1LfXBG8qi9k6PSbmKLXdC9EEEeRAigaY_",
+      "parent_id": "1YcO_HCRHWSAS5cCOKkaij7r_oLRsV318",
+      "name": "THỜI KHẮC ĐỊNH MỆNH.pdf",
+      "mime": "application/pdf",
+      "size": 773218,
+      "modified": "2026-08-15T15:01:33.000Z",
+      "checksum": "b1d2c235c8a4b8fa3db5570275cd7f82",
+      "folder": false
+    }
+  ]
+}

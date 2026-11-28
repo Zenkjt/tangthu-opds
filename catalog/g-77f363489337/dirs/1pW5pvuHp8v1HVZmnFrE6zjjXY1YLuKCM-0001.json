@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pW5pvuHp8v1HVZmnFrE6zjjXY1YLuKCM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1t_913KGgFslxs5-huIGFnXUf54KMjyaQ",
+      "parent_id": "1pW5pvuHp8v1HVZmnFrE6zjjXY1YLuKCM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3931,
+      "modified": "2026-08-16T02:49:05.000Z",
+      "checksum": "10a2d3768ea99f0a1987e49eb09ed527",
+      "folder": false
+    },
+    {
+      "id": "1VG9CeWbPCXOYij0XM1i3S1kPZfXRpADx",
+      "parent_id": "1pW5pvuHp8v1HVZmnFrE6zjjXY1YLuKCM",
+      "name": "KHUÔN MẶT NGƯỜI KHÁC.epub",
+      "mime": "application/epub+zip",
+      "size": 520336,
+      "modified": "2026-08-16T02:49:11.000Z",
+      "checksum": "1290fe71b51ea243e3f7887a796c1340",
+      "folder": false
+    },
+    {
+      "id": "1rkbMMh_ZT7aziPT9wXXYWksHh20XGl0C",
+      "parent_id": "1pW5pvuHp8v1HVZmnFrE6zjjXY1YLuKCM",
+      "name": "KHUÔN MẶT NGƯỜI KHÁC.pdf",
+      "mime": "application/pdf",
+      "size": 676898,
+      "modified": "2026-08-16T02:49:09.000Z",
+      "checksum": "f044958e753756b9465f2adeedff6b25",
+      "folder": false
+    }
+  ]
+}

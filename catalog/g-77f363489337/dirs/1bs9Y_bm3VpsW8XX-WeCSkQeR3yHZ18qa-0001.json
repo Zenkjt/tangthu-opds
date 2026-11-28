@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bs9Y_bm3VpsW8XX-WeCSkQeR3yHZ18qa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1p59oK1XttLhJgB7GcBW8BTmtD8ti3Kbv",
+      "parent_id": "1bs9Y_bm3VpsW8XX-WeCSkQeR3yHZ18qa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 530,
+      "modified": "2026-08-15T10:01:04.000Z",
+      "checksum": "bc105cb2d19035fefebc118cb31d263e",
+      "folder": false
+    },
+    {
+      "id": "1fFtjVkAoVE6_NSwKyOASLbrPTpaJR-UF",
+      "parent_id": "1bs9Y_bm3VpsW8XX-WeCSkQeR3yHZ18qa",
+      "name": "TÔI TỪNG LÀ PHI CÔNG TIÊM KÍCH.epub",
+      "mime": "application/epub+zip",
+      "size": 734684,
+      "modified": "2026-08-15T10:01:10.000Z",
+      "checksum": "b4a86aa2cec772158d2665044c6e808c",
+      "folder": false
+    },
+    {
+      "id": "14DbRoUQmlnCaXadJt-AssJ7cDVeqkREC",
+      "parent_id": "1bs9Y_bm3VpsW8XX-WeCSkQeR3yHZ18qa",
+      "name": "TÔI TỪNG LÀ PHI CÔNG TIÊM KÍCH.pdf",
+      "mime": "application/pdf",
+      "size": 962337,
+      "modified": "2026-08-15T10:01:08.000Z",
+      "checksum": "cff6ba6f0f192d3907b4186623e1ad48",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hu09Asl6VxRKbh_v-eWXDgZOY16tfrUX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CNYmnMkfH3TX7Ma6hkELe0IhRcMlBswa",
+      "parent_id": "1hu09Asl6VxRKbh_v-eWXDgZOY16tfrUX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2391,
+      "modified": "2026-08-15T07:51:15.000Z",
+      "checksum": "6a4f650381ce8110876e1bcf83e140fa",
+      "folder": false
+    },
+    {
+      "id": "1MgP8Txs0BTKbFE2mQ6400_NJELECkeCA",
+      "parent_id": "1hu09Asl6VxRKbh_v-eWXDgZOY16tfrUX",
+      "name": "GIAI ĐIỆU CUỐI CỦA CHA.epub",
+      "mime": "application/epub+zip",
+      "size": 609041,
+      "modified": "2026-08-15T07:51:23.000Z",
+      "checksum": "24f7b8f221952258adfe1e280d41a4aa",
+      "folder": false
+    },
+    {
+      "id": "17KDM1K7FNQoabZjG4kOwoTGG_n-hmtLh",
+      "parent_id": "1hu09Asl6VxRKbh_v-eWXDgZOY16tfrUX",
+      "name": "GIAI ĐIỆU CUỐI CỦA CHA.pdf",
+      "mime": "application/pdf",
+      "size": 1588254,
+      "modified": "2026-08-15T07:51:20.000Z",
+      "checksum": "f71352bf9139486bee68c7a1525da902",
+      "folder": false
+    }
+  ]
+}

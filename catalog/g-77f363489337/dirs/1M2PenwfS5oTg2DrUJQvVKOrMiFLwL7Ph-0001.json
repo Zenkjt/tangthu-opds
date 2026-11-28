@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1M2PenwfS5oTg2DrUJQvVKOrMiFLwL7Ph",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FwR38tmcvEG4R37fwQBcC1WREC7CcDQi",
+      "parent_id": "1M2PenwfS5oTg2DrUJQvVKOrMiFLwL7Ph",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3546,
+      "modified": "2026-08-15T08:06:26.000Z",
+      "checksum": "a50f9dfd4ef26d84e71f460b6369f921",
+      "folder": false
+    },
+    {
+      "id": "1gh4WXgIqXBEh6FDzPg6evn_7SrZMZQnj",
+      "parent_id": "1M2PenwfS5oTg2DrUJQvVKOrMiFLwL7Ph",
+      "name": "NGOẠI TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 304427,
+      "modified": "2026-08-15T08:06:35.000Z",
+      "checksum": "ee0d502a5accd166896c081db9a23e77",
+      "folder": false
+    },
+    {
+      "id": "1U0oDxhUcwAtojiZi-4KRvQpELA5wwzoU",
+      "parent_id": "1M2PenwfS5oTg2DrUJQvVKOrMiFLwL7Ph",
+      "name": "NGOẠI TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 829352,
+      "modified": "2026-08-15T08:06:32.000Z",
+      "checksum": "3e7e176a5e56e1480932237c3113e62d",
+      "folder": false
+    }
+  ]
+}

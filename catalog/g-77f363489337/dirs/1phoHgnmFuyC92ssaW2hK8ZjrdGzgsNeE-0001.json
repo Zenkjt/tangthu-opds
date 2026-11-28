@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1phoHgnmFuyC92ssaW2hK8ZjrdGzgsNeE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1H65J7vd3wdfq-gPJPfGfW9pY3xe1bBR1",
+      "parent_id": "1phoHgnmFuyC92ssaW2hK8ZjrdGzgsNeE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1670,
+      "modified": "2026-08-15T03:39:25.000Z",
+      "checksum": "ea47f87c022e2652c94daf518b43c88e",
+      "folder": false
+    },
+    {
+      "id": "1SawnUj1qnGNAZhBdgsaT8haWJEOIRDct",
+      "parent_id": "1phoHgnmFuyC92ssaW2hK8ZjrdGzgsNeE",
+      "name": "ỐC ĐẢO TỰ THÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 277849,
+      "modified": "2026-08-15T03:39:34.000Z",
+      "checksum": "fc5e6b1a92c34189a764b0d942ccd679",
+      "folder": false
+    },
+    {
+      "id": "1xhfGOISPyPHsdjmJjqL2klTiAICVdBNO",
+      "parent_id": "1phoHgnmFuyC92ssaW2hK8ZjrdGzgsNeE",
+      "name": "ỐC ĐẢO TỰ THÂN.pdf",
+      "mime": "application/pdf",
+      "size": 612317,
+      "modified": "2026-08-15T03:39:31.000Z",
+      "checksum": "d4b0c73e91a2b7f166a69a550bcd5416",
+      "folder": false
+    }
+  ]
+}

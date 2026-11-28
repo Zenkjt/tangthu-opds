@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IjUj1Fw6vU-y5EXC1nQxVF75Ijb2zIsu",
+  "page": 1,
+  "items": [
+    {
+      "id": "15yD8bqlCw86eASISGpd1oZkao6-z0dtS",
+      "parent_id": "1IjUj1Fw6vU-y5EXC1nQxVF75Ijb2zIsu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 960,
+      "modified": "2026-08-15T04:02:51.000Z",
+      "checksum": "85b98aa72524190feb695896ca229692",
+      "folder": false
+    },
+    {
+      "id": "1p8Ck9VNKcZXtS3tLGL0LwzO6eckecfd1",
+      "parent_id": "1IjUj1Fw6vU-y5EXC1nQxVF75Ijb2zIsu",
+      "name": "NGƯỜI VÔ SỰ.epub",
+      "mime": "application/epub+zip",
+      "size": 619158,
+      "modified": "2026-08-15T04:02:59.000Z",
+      "checksum": "e8e02212f66117d73a28252a2481ec57",
+      "folder": false
+    },
+    {
+      "id": "1gHpe3nckK2buc-4NJ1XXtWIm7au3flVo",
+      "parent_id": "1IjUj1Fw6vU-y5EXC1nQxVF75Ijb2zIsu",
+      "name": "NGƯỜI VÔ SỰ.pdf",
+      "mime": "application/pdf",
+      "size": 2357180,
+      "modified": "2026-08-15T04:02:57.000Z",
+      "checksum": "b8b7f369d1be9d62b9a652cd6c7b2ae4",
+      "folder": false
+    }
+  ]
+}

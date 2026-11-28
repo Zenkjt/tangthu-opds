@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DMqH8PlbZw8LbWMkk69Vmz9NaPx4efVv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mMxVKLF5vbrnc5OosNtqrFZc3KU1zJ8K",
+      "parent_id": "1DMqH8PlbZw8LbWMkk69Vmz9NaPx4efVv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2504,
+      "modified": "2026-08-16T03:35:25.000Z",
+      "checksum": "ca1a0dd269a62a5fe6b87390d5de9f86",
+      "folder": false
+    },
+    {
+      "id": "1NWPVczqSKEHTTfAHF8iCFrOL1TFYBmTi",
+      "parent_id": "1DMqH8PlbZw8LbWMkk69Vmz9NaPx4efVv",
+      "name": "TIỀN BẠC BẠC TIỀN.epub",
+      "mime": "application/epub+zip",
+      "size": 392107,
+      "modified": "2026-08-16T03:35:31.000Z",
+      "checksum": "3a2fcb371812aac1766576a7eac52dbd",
+      "folder": false
+    },
+    {
+      "id": "1_UmSyfT3qtdWHfpHQQufBXb0uE_1IbUn",
+      "parent_id": "1DMqH8PlbZw8LbWMkk69Vmz9NaPx4efVv",
+      "name": "TIỀN BẠC BẠC TIỀN.pdf",
+      "mime": "application/pdf",
+      "size": 588008,
+      "modified": "2026-08-16T03:35:28.000Z",
+      "checksum": "bdf955be72454cc41cb0ad59e9399b51",
+      "folder": false
+    }
+  ]
+}

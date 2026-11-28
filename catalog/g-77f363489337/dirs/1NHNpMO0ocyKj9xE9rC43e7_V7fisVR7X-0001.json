@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NHNpMO0ocyKj9xE9rC43e7_V7fisVR7X",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_O8PhH3WCU8usFdj8blbvOpPn1PbbC8G",
+      "parent_id": "1NHNpMO0ocyKj9xE9rC43e7_V7fisVR7X",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 20012,
+      "modified": "2026-08-16T03:27:58.000Z",
+      "checksum": "1db528efd05cf57207090b986558cb40",
+      "folder": false
+    },
+    {
+      "id": "1csaAGM5o-5P2_u19q6gTcmtEeLPsViTp",
+      "parent_id": "1NHNpMO0ocyKj9xE9rC43e7_V7fisVR7X",
+      "name": "ĐỜI TƯ MAO TRẠCH ĐÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 810102,
+      "modified": "2026-08-16T03:28:06.000Z",
+      "checksum": "453bfaf945b6ee73b933f22463c443e3",
+      "folder": false
+    },
+    {
+      "id": "1fmxh-bsiD8Y_qY_AxZTNdf9b1s6woCTI",
+      "parent_id": "1NHNpMO0ocyKj9xE9rC43e7_V7fisVR7X",
+      "name": "ĐỜI TƯ MAO TRẠCH ĐÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 2890729,
+      "modified": "2026-08-16T03:28:04.000Z",
+      "checksum": "eae504e32743c82ddc2ba4cfda44f3bf",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kb9LnN8jXkhrF8YBswl1OZbg6w1dQkuM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YUucmiorq-YkGYpbIglN5LX37Z2ysWCU",
+      "parent_id": "1kb9LnN8jXkhrF8YBswl1OZbg6w1dQkuM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 560,
+      "modified": "2026-08-15T10:32:15.000Z",
+      "checksum": "8f41e6cbb8cb3845af1d303d9122d344",
+      "folder": false
+    },
+    {
+      "id": "1Mlm9NT9DgX3nUfQ4mi6zGoOKTLVP8s4a",
+      "parent_id": "1kb9LnN8jXkhrF8YBswl1OZbg6w1dQkuM",
+      "name": "PHỎNG VẤN MA CÀ RỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 280847,
+      "modified": "2026-08-15T10:32:21.000Z",
+      "checksum": "1e35e42d19c9d5b8c1689e9eaf9b54fa",
+      "folder": false
+    },
+    {
+      "id": "1se6N-vMB89KPT9LGBBti-wqF8sbp0pLK",
+      "parent_id": "1kb9LnN8jXkhrF8YBswl1OZbg6w1dQkuM",
+      "name": "PHỎNG VẤN MA CÀ RỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 137262,
+      "modified": "2026-08-15T10:32:18.000Z",
+      "checksum": "6ea269ef6bb2be3ad11607f17ce69c63",
+      "folder": false
+    }
+  ]
+}

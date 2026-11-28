@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1G4Bmf0zMfk1DlwSMbdZDpUXXKbREZWxC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qSQDWMeB1HJ9Y6XDNxqu-IsFn-yxBuCB",
+      "parent_id": "1G4Bmf0zMfk1DlwSMbdZDpUXXKbREZWxC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 679,
+      "modified": "2026-08-15T10:28:22.000Z",
+      "checksum": "47097aa4050646aa7235016c34edc83d",
+      "folder": false
+    },
+    {
+      "id": "1oyMmW0MG11ly3NGy2VREjMSUMZ9TkWkV",
+      "parent_id": "1G4Bmf0zMfk1DlwSMbdZDpUXXKbREZWxC",
+      "name": "SẤM TRUYỀN BÍ ẨN.epub",
+      "mime": "application/epub+zip",
+      "size": 549445,
+      "modified": "2026-08-15T10:28:30.000Z",
+      "checksum": "8e0762a8e9166b92c98b359372570b15",
+      "folder": false
+    },
+    {
+      "id": "1PEbUpcgLi4xg47L71oShwG9u__S5jDC9",
+      "parent_id": "1G4Bmf0zMfk1DlwSMbdZDpUXXKbREZWxC",
+      "name": "SẤM TRUYỀN BÍ ẨN.pdf",
+      "mime": "application/pdf",
+      "size": 989647,
+      "modified": "2026-08-15T10:28:28.000Z",
+      "checksum": "93a493283055f9f45da0a523864f6954",
+      "folder": false
+    }
+  ]
+}

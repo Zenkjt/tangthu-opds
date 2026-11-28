@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ei8hFNjZGPqUSZySfOx4_7PZNDZrhOoM",
+  "page": 1,
+  "items": [
+    {
+      "id": "12-YNsa9DNIe-UqDqAPqJbuj8JLSVnaBx",
+      "parent_id": "1Ei8hFNjZGPqUSZySfOx4_7PZNDZrhOoM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2054,
+      "modified": "2026-08-15T03:50:49.000Z",
+      "checksum": "0d1ba73c14bd2a072aee85f1f1395840",
+      "folder": false
+    },
+    {
+      "id": "1O2f0W-NARxrRU8XBRdqUFxZlKKebnyqQ",
+      "parent_id": "1Ei8hFNjZGPqUSZySfOx4_7PZNDZrhOoM",
+      "name": "THÔNG THIÊN HỌC KHÁI LƯỢC.epub",
+      "mime": "application/epub+zip",
+      "size": 190690,
+      "modified": "2026-08-15T03:50:54.000Z",
+      "checksum": "0f505371c490e049d4be895aa57a4069",
+      "folder": false
+    },
+    {
+      "id": "1_4feHZqAap99W0Zz4-VqcCdoO3cEb9py",
+      "parent_id": "1Ei8hFNjZGPqUSZySfOx4_7PZNDZrhOoM",
+      "name": "THÔNG THIÊN HỌC KHÁI LƯỢC.pdf",
+      "mime": "application/pdf",
+      "size": 403042,
+      "modified": "2026-08-15T03:50:52.000Z",
+      "checksum": "6daa8f259d8e376512e9df9e47541211",
+      "folder": false
+    }
+  ]
+}

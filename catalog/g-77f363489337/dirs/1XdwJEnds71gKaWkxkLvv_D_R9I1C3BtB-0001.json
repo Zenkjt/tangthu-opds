@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XdwJEnds71gKaWkxkLvv_D_R9I1C3BtB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1p2TS1ue3KoNMXzD8l8JSDTgsCepphPQh",
+      "parent_id": "1XdwJEnds71gKaWkxkLvv_D_R9I1C3BtB",
+      "name": "CON CÁ MẮC CẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 339759,
+      "modified": "2026-08-16T03:21:27.000Z",
+      "checksum": "48a30d721c1820bacc5d8662342ed852",
+      "folder": false
+    },
+    {
+      "id": "1HvYBFCKxNZrKY7IL_OKef7Fh8dZX5_5t",
+      "parent_id": "1XdwJEnds71gKaWkxkLvv_D_R9I1C3BtB",
+      "name": "CON CÁ MẮC CẠN.pdf",
+      "mime": "application/pdf",
+      "size": 135463,
+      "modified": "2026-08-16T03:21:25.000Z",
+      "checksum": "fb9a513e659887d797325c4dc3c3ba7d",
+      "folder": false
+    },
+    {
+      "id": "1InbOsDOKTtR4TKx9MNBg3HRvmEgDjGHZ",
+      "parent_id": "1XdwJEnds71gKaWkxkLvv_D_R9I1C3BtB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3569,
+      "modified": "2026-08-16T03:21:22.000Z",
+      "checksum": "34199435691ee07a59bcff97adcfc5a7",
+      "folder": false
+    }
+  ]
+}

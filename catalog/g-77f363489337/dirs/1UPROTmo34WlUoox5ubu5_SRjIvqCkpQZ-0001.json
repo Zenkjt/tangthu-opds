@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UPROTmo34WlUoox5ubu5_SRjIvqCkpQZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JyMLJb5XwfM5_RvZ2yNMScsSO6n4Usk5",
+      "parent_id": "1UPROTmo34WlUoox5ubu5_SRjIvqCkpQZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10316,
+      "modified": "2026-08-15T08:14:25.000Z",
+      "checksum": "efa6988af5d8b1f1a271455dd79141e5",
+      "folder": false
+    },
+    {
+      "id": "1V8C8KVhyMSncSL-Uw7-vxIrETQElhbMu",
+      "parent_id": "1UPROTmo34WlUoox5ubu5_SRjIvqCkpQZ",
+      "name": "GỖ MUN.epub",
+      "mime": "application/epub+zip",
+      "size": 549773,
+      "modified": "2026-08-15T08:14:35.000Z",
+      "checksum": "43d94a9527ae24bd669076e6ec38b84d",
+      "folder": false
+    },
+    {
+      "id": "1BcqZKH4Xpgh-9F8B6qJ7P5a7Psp1GpRm",
+      "parent_id": "1UPROTmo34WlUoox5ubu5_SRjIvqCkpQZ",
+      "name": "GỖ MUN.pdf",
+      "mime": "application/pdf",
+      "size": 1712751,
+      "modified": "2026-08-15T08:14:32.000Z",
+      "checksum": "2d8883e0960e1ded4eec80e9997beb4b",
+      "folder": false
+    }
+  ]
+}

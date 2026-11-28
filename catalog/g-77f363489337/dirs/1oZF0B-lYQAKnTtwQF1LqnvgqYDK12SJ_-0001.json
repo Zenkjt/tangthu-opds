@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oZF0B-lYQAKnTtwQF1LqnvgqYDK12SJ_",
+  "page": 1,
+  "items": [
+    {
+      "id": "11FHKvxDRC5_vWh33fjbJokAh06WAAURp",
+      "parent_id": "1oZF0B-lYQAKnTtwQF1LqnvgqYDK12SJ_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5059,
+      "modified": "2026-08-15T07:29:34.000Z",
+      "checksum": "e8cdd68396b70de59eb9522d56836e57",
+      "folder": false
+    },
+    {
+      "id": "1_um0RwNC3raJQZmSpJTkRmsnmwXZow3I",
+      "parent_id": "1oZF0B-lYQAKnTtwQF1LqnvgqYDK12SJ_",
+      "name": "VU SƯ CHI LỮ.epub",
+      "mime": "application/epub+zip",
+      "size": 578107,
+      "modified": "2026-08-15T07:29:55.000Z",
+      "checksum": "8825393e3922583af7f64394e7e674ff",
+      "folder": false
+    },
+    {
+      "id": "1wB0CtUjV1h1aL13YFuIA_xRMWhtd43rq",
+      "parent_id": "1oZF0B-lYQAKnTtwQF1LqnvgqYDK12SJ_",
+      "name": "VU SƯ CHI LỮ.pdf",
+      "mime": "application/pdf",
+      "size": 1646995,
+      "modified": "2026-08-15T07:29:49.000Z",
+      "checksum": "77fe3c74ec4707b0358915a7a355987d",
+      "folder": false
+    }
+  ]
+}

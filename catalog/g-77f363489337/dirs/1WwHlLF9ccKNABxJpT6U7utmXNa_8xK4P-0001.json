@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WwHlLF9ccKNABxJpT6U7utmXNa_8xK4P",
+  "page": 1,
+  "items": [
+    {
+      "id": "1F-IQ-YtnpJEvtzscoDkm86aMwg1xkX4v",
+      "parent_id": "1WwHlLF9ccKNABxJpT6U7utmXNa_8xK4P",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2543,
+      "modified": "2026-08-15T08:18:11.000Z",
+      "checksum": "bed6cadbc071cf0b5f86a84109afa564",
+      "folder": false
+    },
+    {
+      "id": "1GAwTzWI2uCyhF9olR64C_Fn1Fqwvybdi",
+      "parent_id": "1WwHlLF9ccKNABxJpT6U7utmXNa_8xK4P",
+      "name": "HỌC VIỆN MA THUẬT VÀ PHÁP THUẬT ILVERMORNY.epub",
+      "mime": "application/epub+zip",
+      "size": 271040,
+      "modified": "2026-08-15T08:18:16.000Z",
+      "checksum": "f790ac90474bb106b65e9f04f071d8ec",
+      "folder": false
+    },
+    {
+      "id": "1BPPsKri3URBHCfbuVlz4gJzC4Hq1hUD6",
+      "parent_id": "1WwHlLF9ccKNABxJpT6U7utmXNa_8xK4P",
+      "name": "HỌC VIỆN MA THUẬT VÀ PHÁP THUẬT ILVERMORNY.pdf",
+      "mime": "application/pdf",
+      "size": 176430,
+      "modified": "2026-08-15T08:18:14.000Z",
+      "checksum": "87bce05429022a9ed8c9fa2463519c7a",
+      "folder": false
+    }
+  ]
+}

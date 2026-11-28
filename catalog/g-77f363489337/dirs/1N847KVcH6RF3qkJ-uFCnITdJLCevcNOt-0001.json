@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1N847KVcH6RF3qkJ-uFCnITdJLCevcNOt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ci4KmzDz6BqKMp4x7EK6ynHi5gw8bkWt",
+      "parent_id": "1N847KVcH6RF3qkJ-uFCnITdJLCevcNOt",
+      "name": "CHIỀU RIAZAN.epub",
+      "mime": "application/epub+zip",
+      "size": 296337,
+      "modified": "2026-08-15T09:58:38.000Z",
+      "checksum": "7e3cafa0b23899689bf8a4062072b8d0",
+      "folder": false
+    },
+    {
+      "id": "1UgVPsA8q7GOGzxwTLZyRObjV1ooZrKlb",
+      "parent_id": "1N847KVcH6RF3qkJ-uFCnITdJLCevcNOt",
+      "name": "CHIỀU RIAZAN.pdf",
+      "mime": "application/pdf",
+      "size": 520811,
+      "modified": "2026-08-15T09:58:35.000Z",
+      "checksum": "f62ba4ddb4a23959dd77fba9136ad37d",
+      "folder": false
+    },
+    {
+      "id": "1bwXH6ub5Q3zTt6cILlUAsr1JHxYrGt0N",
+      "parent_id": "1N847KVcH6RF3qkJ-uFCnITdJLCevcNOt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 912,
+      "modified": "2026-08-15T09:58:31.000Z",
+      "checksum": "441ebc7543011ee179d3720f9a3ae17c",
+      "folder": false
+    }
+  ]
+}

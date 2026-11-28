@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xmzaVBYhhNwWwMWNRt5jvC8Jl2pIaO5w",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IvQ7618RG6JsFUsm28i5eElFnfckjb17",
+      "parent_id": "1xmzaVBYhhNwWwMWNRt5jvC8Jl2pIaO5w",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5392,
+      "modified": "2026-08-15T00:56:18.000Z",
+      "checksum": "fb903776b90efd70eb9724c4ab463f65",
+      "folder": false
+    },
+    {
+      "id": "1IV4MxXIR6ZgQFWieuMT3OTJzQcwS96hR",
+      "parent_id": "1xmzaVBYhhNwWwMWNRt5jvC8Jl2pIaO5w",
+      "name": "VƯƠNG QUỐC SÁNG TẠO.epub",
+      "mime": "application/epub+zip",
+      "size": 700096,
+      "modified": "2026-08-15T00:56:25.000Z",
+      "checksum": "f7fb1d81e06b090dfa4c4b2160faa21b",
+      "folder": false
+    },
+    {
+      "id": "1Z18QEH1qfPaqXpAwFt4DUQ1KAKJNMi3V",
+      "parent_id": "1xmzaVBYhhNwWwMWNRt5jvC8Jl2pIaO5w",
+      "name": "VƯƠNG QUỐC SÁNG TẠO.pdf",
+      "mime": "application/pdf",
+      "size": 1860627,
+      "modified": "2026-08-15T00:56:23.000Z",
+      "checksum": "f921f563b12f3d75ea78d8f06933de03",
+      "folder": false
+    }
+  ]
+}

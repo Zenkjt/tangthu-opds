@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1P-PiQ4t5UAcCjShVQs3xni_FfsqldzH_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VXv0XIbjT2zRaoEuJs4OU5wq8vQmFEe2",
+      "parent_id": "1P-PiQ4t5UAcCjShVQs3xni_FfsqldzH_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5280,
+      "modified": "2026-08-15T08:14:05.000Z",
+      "checksum": "69e01b2cf8effdfc21d7733f0cec01e7",
+      "folder": false
+    },
+    {
+      "id": "1t8cxTFP3FuCz4kbIPQNY88VPie6_yjiP",
+      "parent_id": "1P-PiQ4t5UAcCjShVQs3xni_FfsqldzH_",
+      "name": "GIỮA TRONG XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 631020,
+      "modified": "2026-08-15T08:14:11.000Z",
+      "checksum": "a11c5bf06595b55aa8a4304173053021",
+      "folder": false
+    },
+    {
+      "id": "1lZTvfPpuQAbqn1Ll7JmGhI4HtfPdMRHk",
+      "parent_id": "1P-PiQ4t5UAcCjShVQs3xni_FfsqldzH_",
+      "name": "GIỮA TRONG XANH.pdf",
+      "mime": "application/pdf",
+      "size": 672130,
+      "modified": "2026-08-15T08:14:09.000Z",
+      "checksum": "a668a09370f621ceb770074b4d82ed9e",
+      "folder": false
+    }
+  ]
+}

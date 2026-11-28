@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sYRI0TrRO9Ul87HpdXUywvghxkOHcfYY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1d9SUIgwbmYD4jwZdqNUmu_HyMO59nkQu",
+      "parent_id": "1sYRI0TrRO9Ul87HpdXUywvghxkOHcfYY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3327,
+      "modified": "2026-08-15T05:53:32.000Z",
+      "checksum": "21ace703d17498a67625744994c251dd",
+      "folder": false
+    },
+    {
+      "id": "1S3OQziY2ZgavEmYWriiV4-kx7SxygZTH",
+      "parent_id": "1sYRI0TrRO9Ul87HpdXUywvghxkOHcfYY",
+      "name": "NHỮNG LỰA CHỌN KHÓ KHĂN.epub",
+      "mime": "application/epub+zip",
+      "size": 910687,
+      "modified": "2026-08-15T05:53:41.000Z",
+      "checksum": "98a7912ccee40ca0d74ecf71e9128078",
+      "folder": false
+    },
+    {
+      "id": "1slHk1SPD1ibwizC_EbMAOts055aPLeMB",
+      "parent_id": "1sYRI0TrRO9Ul87HpdXUywvghxkOHcfYY",
+      "name": "NHỮNG LỰA CHỌN KHÓ KHĂN.pdf",
+      "mime": "application/pdf",
+      "size": 3153242,
+      "modified": "2026-08-15T05:53:38.000Z",
+      "checksum": "2261fc87b2ccb3ca677c9aa8390d633b",
+      "folder": false
+    }
+  ]
+}

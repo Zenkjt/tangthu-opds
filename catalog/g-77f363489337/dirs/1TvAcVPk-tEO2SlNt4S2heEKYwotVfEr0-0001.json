@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TvAcVPk-tEO2SlNt4S2heEKYwotVfEr0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fv1iKjaAEetmqoiCgKzPtb9hS_2i7Isf",
+      "parent_id": "1TvAcVPk-tEO2SlNt4S2heEKYwotVfEr0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 662,
+      "modified": "2026-08-16T04:18:43.000Z",
+      "checksum": "d86da04276ea4c1292175492255a8dae",
+      "folder": false
+    },
+    {
+      "id": "1eCZfAmqg4DA1l9qxqzy4LYXrUwMK7dta",
+      "parent_id": "1TvAcVPk-tEO2SlNt4S2heEKYwotVfEr0",
+      "name": "KIẾP SAU.epub",
+      "mime": "application/epub+zip",
+      "size": 536022,
+      "modified": "2026-08-16T04:18:52.000Z",
+      "checksum": "c60e13195951bb881b396e34f8089dd8",
+      "folder": false
+    },
+    {
+      "id": "1M3bPDSW1giZvXY3UUr895ucEOh6VOEXv",
+      "parent_id": "1TvAcVPk-tEO2SlNt4S2heEKYwotVfEr0",
+      "name": "KIẾP SAU.pdf",
+      "mime": "application/pdf",
+      "size": 1073844,
+      "modified": "2026-08-16T04:18:49.000Z",
+      "checksum": "e29c8ad97a63015abb191d9069d8a2da",
+      "folder": false
+    }
+  ]
+}

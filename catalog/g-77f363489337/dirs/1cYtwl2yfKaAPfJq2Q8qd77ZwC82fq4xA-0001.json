@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cYtwl2yfKaAPfJq2Q8qd77ZwC82fq4xA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CoCe-PBADN1sDQqwZeeZnH7thFRLL1Dy",
+      "parent_id": "1cYtwl2yfKaAPfJq2Q8qd77ZwC82fq4xA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10444,
+      "modified": "2026-08-15T00:59:08.000Z",
+      "checksum": "ba922389324ddb93a7472df58f698066",
+      "folder": false
+    },
+    {
+      "id": "1onxyR7FlANyeGR0uMMBvM4djOaSNms1I",
+      "parent_id": "1cYtwl2yfKaAPfJq2Q8qd77ZwC82fq4xA",
+      "name": "ĐỂ BÁO GIỚI TRÍCH DẪN LỜI BẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 714101,
+      "modified": "2026-08-15T00:59:16.000Z",
+      "checksum": "7cc431025f6cdedcd4f2163a3c586b25",
+      "folder": false
+    },
+    {
+      "id": "1-cpDO3hrNIN4tnot7gG7u1_-OJIHY51Q",
+      "parent_id": "1cYtwl2yfKaAPfJq2Q8qd77ZwC82fq4xA",
+      "name": "ĐỂ BÁO GIỚI TRÍCH DẪN LỜI BẠN.pdf",
+      "mime": "application/pdf",
+      "size": 1117797,
+      "modified": "2026-08-15T00:59:14.000Z",
+      "checksum": "12fc1cbcf801d2d843002cbe3faf34c0",
+      "folder": false
+    }
+  ]
+}

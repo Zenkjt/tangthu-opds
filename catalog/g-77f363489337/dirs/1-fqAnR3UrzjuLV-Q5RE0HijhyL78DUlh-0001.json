@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-fqAnR3UrzjuLV-Q5RE0HijhyL78DUlh",
+  "page": 1,
+  "items": [
+    {
+      "id": "10Qv5D0Mc3qbHllaLRvcYjj_i16i7HsNh",
+      "parent_id": "1-fqAnR3UrzjuLV-Q5RE0HijhyL78DUlh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3534,
+      "modified": "2026-08-15T03:19:53.000Z",
+      "checksum": "57215f2bbbf7b341f7bca9e09f9e60c3",
+      "folder": false
+    },
+    {
+      "id": "1myEAVYTgq9XUyVV4ioow-mlFLt26fXlj",
+      "parent_id": "1-fqAnR3UrzjuLV-Q5RE0HijhyL78DUlh",
+      "name": "THUẬT QUẢN LÝ THỜI GIAN.epub",
+      "mime": "application/epub+zip",
+      "size": 282413,
+      "modified": "2026-08-15T03:19:59.000Z",
+      "checksum": "8eb2f6f0dc2b0e4a7dc98295e97ff525",
+      "folder": false
+    },
+    {
+      "id": "1Y88A943IKTXgrCUyHuILSHVUuQycVBF5",
+      "parent_id": "1-fqAnR3UrzjuLV-Q5RE0HijhyL78DUlh",
+      "name": "THUẬT QUẢN LÝ THỜI GIAN.pdf",
+      "mime": "application/pdf",
+      "size": 668565,
+      "modified": "2026-08-15T03:19:57.000Z",
+      "checksum": "39e066d7903e29819aab2fb48ec7ba70",
+      "folder": false
+    }
+  ]
+}

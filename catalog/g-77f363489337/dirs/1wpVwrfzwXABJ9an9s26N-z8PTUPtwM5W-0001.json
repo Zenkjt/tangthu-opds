@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wpVwrfzwXABJ9an9s26N-z8PTUPtwM5W",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Arbk2GPgZ0vampe_lJaew5ntaRuOqJRE",
+      "parent_id": "1wpVwrfzwXABJ9an9s26N-z8PTUPtwM5W",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 552,
+      "modified": "2026-08-16T03:52:40.000Z",
+      "checksum": "92229ae7583f5b1a323f76d95956298d",
+      "folder": false
+    },
+    {
+      "id": "14J88YKR-A6-YAbTZDU8uiQ70dWNgTd8l",
+      "parent_id": "1wpVwrfzwXABJ9an9s26N-z8PTUPtwM5W",
+      "name": "TRẺ EM ĐƯỜNG PHỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 535247,
+      "modified": "2026-08-16T03:52:45.000Z",
+      "checksum": "e3f89a814ae93513f83ec0224d8d3d5c",
+      "folder": false
+    },
+    {
+      "id": "1I0XokivWeXfvfzjU88Q4zJNYKvYyqEMs",
+      "parent_id": "1wpVwrfzwXABJ9an9s26N-z8PTUPtwM5W",
+      "name": "TRẺ EM ĐƯỜNG PHỐ.pdf",
+      "mime": "application/pdf",
+      "size": 756905,
+      "modified": "2026-08-16T03:52:43.000Z",
+      "checksum": "d9ef19799b6d06d74f3fc34755e36b51",
+      "folder": false
+    }
+  ]
+}

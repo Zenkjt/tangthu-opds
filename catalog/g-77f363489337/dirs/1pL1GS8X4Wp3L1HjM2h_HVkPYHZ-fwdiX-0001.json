@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pL1GS8X4Wp3L1HjM2h_HVkPYHZ-fwdiX",
+  "page": 1,
+  "items": [
+    {
+      "id": "11Vp_hzv3Xw82KHLNMD4vdRrltC4ylZdk",
+      "parent_id": "1pL1GS8X4Wp3L1HjM2h_HVkPYHZ-fwdiX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7146,
+      "modified": "2026-08-15T03:58:07.000Z",
+      "checksum": "f06fc6af326828613a64966641cd6998",
+      "folder": false
+    },
+    {
+      "id": "11VUkW4w-eJvOEzeMZxyFBKCe41T289i1",
+      "parent_id": "1pL1GS8X4Wp3L1HjM2h_HVkPYHZ-fwdiX",
+      "name": "SỐNG CHẾT VÀ SAU KHI CHẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 364913,
+      "modified": "2026-08-15T03:58:12.000Z",
+      "checksum": "d41654b2dba108f4cddead3ac5ac5eef",
+      "folder": false
+    },
+    {
+      "id": "1czwNb215pv3aOWS2HqikTCU_l3oqzXru",
+      "parent_id": "1pL1GS8X4Wp3L1HjM2h_HVkPYHZ-fwdiX",
+      "name": "SỐNG CHẾT VÀ SAU KHI CHẾT.pdf",
+      "mime": "application/pdf",
+      "size": 293137,
+      "modified": "2026-08-15T03:58:10.000Z",
+      "checksum": "a8d04a004ff323f95a985decc6ca02f3",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YXboc2yMeS2JNlWpmyMh1UVXxxhpQJAT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dbSmxAisN7ZR7jvXdmt9xqZP2UMFn7Xr",
+      "parent_id": "1YXboc2yMeS2JNlWpmyMh1UVXxxhpQJAT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1706,
+      "modified": "2026-08-15T03:40:33.000Z",
+      "checksum": "a2468926cb5213bfa759a13cec4ad3d6",
+      "folder": false
+    },
+    {
+      "id": "1ta5IMoZNsPLjGCeEcmQRngeshm3JX5nL",
+      "parent_id": "1YXboc2yMeS2JNlWpmyMh1UVXxxhpQJAT",
+      "name": "THỞ VÀ THIỀN.epub",
+      "mime": "application/epub+zip",
+      "size": 2043078,
+      "modified": "2026-08-15T03:40:43.000Z",
+      "checksum": "aeb5dba70bf981ef614237e58de2a228",
+      "folder": false
+    },
+    {
+      "id": "1RVSZ3kYFjrPrw46vRUNBVv56h-8wP2cN",
+      "parent_id": "1YXboc2yMeS2JNlWpmyMh1UVXxxhpQJAT",
+      "name": "THỞ VÀ THIỀN.pdf",
+      "mime": "application/pdf",
+      "size": 2413660,
+      "modified": "2026-08-15T03:40:38.000Z",
+      "checksum": "3ffb8b290471d0b0a33dbe6f5d22166e",
+      "folder": false
+    }
+  ]
+}

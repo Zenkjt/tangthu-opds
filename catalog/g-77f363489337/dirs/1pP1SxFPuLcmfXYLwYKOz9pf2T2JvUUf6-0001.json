@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pP1SxFPuLcmfXYLwYKOz9pf2T2JvUUf6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nHORzNwA3W1Jrin_1AekdNmtHurkVddM",
+      "parent_id": "1pP1SxFPuLcmfXYLwYKOz9pf2T2JvUUf6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2804,
+      "modified": "2026-08-15T07:40:20.000Z",
+      "checksum": "3390e25695435676abce0bb8e1518349",
+      "folder": false
+    },
+    {
+      "id": "1jzHzmJ-hx9AgPJ_gty39ccprFQGfhV7P",
+      "parent_id": "1pP1SxFPuLcmfXYLwYKOz9pf2T2JvUUf6",
+      "name": "HỒNG NHAN THỦ TRÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 183731,
+      "modified": "2026-08-15T07:40:25.000Z",
+      "checksum": "18199df272a222b7904166d235cc187e",
+      "folder": false
+    },
+    {
+      "id": "1YCuGMLtBuKiGOyH6eTVoluQ0Ky0iXkqw",
+      "parent_id": "1pP1SxFPuLcmfXYLwYKOz9pf2T2JvUUf6",
+      "name": "HỒNG NHAN THỦ TRÁT.pdf",
+      "mime": "application/pdf",
+      "size": 157441,
+      "modified": "2026-08-15T07:40:23.000Z",
+      "checksum": "e7251c3bc28bb44d25997d5086691600",
+      "folder": false
+    }
+  ]
+}

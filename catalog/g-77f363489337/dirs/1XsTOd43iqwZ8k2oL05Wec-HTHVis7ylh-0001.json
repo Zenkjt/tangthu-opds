@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XsTOd43iqwZ8k2oL05Wec-HTHVis7ylh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1k0e7CanPxNaeEorAuL26VkwgC5WJSnKW",
+      "parent_id": "1XsTOd43iqwZ8k2oL05Wec-HTHVis7ylh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2138,
+      "modified": "2026-08-15T07:15:10.000Z",
+      "checksum": "202b5c4cf1c7140d89a175bfa3dc55a5",
+      "folder": false
+    },
+    {
+      "id": "1tGVcv_GFY3nrczHmOc76qiPy7V7OOBJ8",
+      "parent_id": "1XsTOd43iqwZ8k2oL05Wec-HTHVis7ylh",
+      "name": "THÀ ĐỪNG GẶP GỠ.epub",
+      "mime": "application/epub+zip",
+      "size": 1852055,
+      "modified": "2026-08-15T07:15:25.000Z",
+      "checksum": "40cb8d3a221fd3c1dc0c756d6142af57",
+      "folder": false
+    },
+    {
+      "id": "1wY0cFOVIxSN2G8N2XPD3bePmitcDGalg",
+      "parent_id": "1XsTOd43iqwZ8k2oL05Wec-HTHVis7ylh",
+      "name": "THÀ ĐỪNG GẶP GỠ.pdf",
+      "mime": "application/pdf",
+      "size": 5837080,
+      "modified": "2026-08-15T07:15:21.000Z",
+      "checksum": "6e57b7a82886d9c7f0b34687a74b14b0",
+      "folder": false
+    }
+  ]
+}

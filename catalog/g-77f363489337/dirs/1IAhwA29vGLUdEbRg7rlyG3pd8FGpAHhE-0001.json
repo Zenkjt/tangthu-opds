@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IAhwA29vGLUdEbRg7rlyG3pd8FGpAHhE",
+  "page": 1,
+  "items": [
+    {
+      "id": "12G1Gscvf40i-5Uasejlqa5ZxcaZYY5UM",
+      "parent_id": "1IAhwA29vGLUdEbRg7rlyG3pd8FGpAHhE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8390,
+      "modified": "2026-08-15T07:14:45.000Z",
+      "checksum": "6ff6aab3124c7fb392d0eb92f749f52e",
+      "folder": false
+    },
+    {
+      "id": "1E-yuM7laDEn91od_aVc0tlzGtWxqG4Zm",
+      "parent_id": "1IAhwA29vGLUdEbRg7rlyG3pd8FGpAHhE",
+      "name": "MỘT NÉT SON TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 2165256,
+      "modified": "2026-08-15T07:14:54.000Z",
+      "checksum": "753f34f9d321eb465a2c946825f906cc",
+      "folder": false
+    },
+    {
+      "id": "1X8j4aj64bUJztWiMW4H5hBNp6aTNyquE",
+      "parent_id": "1IAhwA29vGLUdEbRg7rlyG3pd8FGpAHhE",
+      "name": "MỘT NÉT SON TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 2493727,
+      "modified": "2026-08-15T07:14:50.000Z",
+      "checksum": "ec0610c900e763a823eeb2702d4d72a6",
+      "folder": false
+    }
+  ]
+}

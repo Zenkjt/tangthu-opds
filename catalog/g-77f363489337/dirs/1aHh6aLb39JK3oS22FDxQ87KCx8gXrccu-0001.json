@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aHh6aLb39JK3oS22FDxQ87KCx8gXrccu",
+  "page": 1,
+  "items": [
+    {
+      "id": "19jkG2W6t_8KR8ahUoo3YPYy2S-3vAobb",
+      "parent_id": "1aHh6aLb39JK3oS22FDxQ87KCx8gXrccu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3055,
+      "modified": "2026-08-15T10:09:16.000Z",
+      "checksum": "62876fb7783d04f99ee6448619f36c89",
+      "folder": false
+    },
+    {
+      "id": "1OFlegPu5tQJrfioPL3IKoY8TNBOvwfa9",
+      "parent_id": "1aHh6aLb39JK3oS22FDxQ87KCx8gXrccu",
+      "name": "TÌNH CẠN NGƯỜI KHÔNG BIẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 551043,
+      "modified": "2026-08-15T10:09:23.000Z",
+      "checksum": "9195ffab2eef54ed12ddcfb0b999d1dd",
+      "folder": false
+    },
+    {
+      "id": "1znnwqscxgsnRseeN-mghWXWcg5Kk1r0i",
+      "parent_id": "1aHh6aLb39JK3oS22FDxQ87KCx8gXrccu",
+      "name": "TÌNH CẠN NGƯỜI KHÔNG BIẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1906594,
+      "modified": "2026-08-15T10:09:20.000Z",
+      "checksum": "d40de04ac55c200f3dd782f0ca0c9f14",
+      "folder": false
+    }
+  ]
+}

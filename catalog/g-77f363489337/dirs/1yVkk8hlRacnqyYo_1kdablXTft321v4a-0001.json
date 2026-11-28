@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yVkk8hlRacnqyYo_1kdablXTft321v4a",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TJcDQ42U-N7KvHJ-lEhXw1HlmtcQeIke",
+      "parent_id": "1yVkk8hlRacnqyYo_1kdablXTft321v4a",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3204,
+      "modified": "2026-08-15T00:49:23.000Z",
+      "checksum": "651c2e548347bebadc2e2978f16c23d2",
+      "folder": false
+    },
+    {
+      "id": "1d9F9O8GZVVwEVvHZK0nkj3lNm5_qZqAG",
+      "parent_id": "1yVkk8hlRacnqyYo_1kdablXTft321v4a",
+      "name": "TAM QUỐC @ BÍ QUYẾT KINH DOANH.epub",
+      "mime": "application/epub+zip",
+      "size": 690462,
+      "modified": "2026-08-15T00:49:31.000Z",
+      "checksum": "334e47321c89a9c80eec1244fb06b761",
+      "folder": false
+    },
+    {
+      "id": "1cCUHlAQRjzkLqj3FX_p40fCh0eH39680",
+      "parent_id": "1yVkk8hlRacnqyYo_1kdablXTft321v4a",
+      "name": "TAM QUỐC @ BÍ QUYẾT KINH DOANH.pdf",
+      "mime": "application/pdf",
+      "size": 2004641,
+      "modified": "2026-08-15T00:49:28.000Z",
+      "checksum": "393067d74e7b8d2c9f166616ab3c47f9",
+      "folder": false
+    }
+  ]
+}

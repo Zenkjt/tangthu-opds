@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13vMpfIoHH1lfG-VqinnT_J0Aci38e_Ly",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hGm2uYFEbd8ZHtCHBTLvavXuBpbUedfk",
+      "parent_id": "13vMpfIoHH1lfG-VqinnT_J0Aci38e_Ly",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3421,
+      "modified": "2026-08-15T10:17:59.000Z",
+      "checksum": "397e51114e32f78cb29f0a1d122b5990",
+      "folder": false
+    },
+    {
+      "id": "1JqhsGsf02t9oZ9UP5h3mU31vBpbdHvoE",
+      "parent_id": "13vMpfIoHH1lfG-VqinnT_J0Aci38e_Ly",
+      "name": "THẦN CHÂU VÔ ĐỊCH.epub",
+      "mime": "application/epub+zip",
+      "size": 634719,
+      "modified": "2026-08-15T10:18:11.000Z",
+      "checksum": "a3c9b74cc40a0815483efc73be7e6aca",
+      "folder": false
+    },
+    {
+      "id": "1c82V3HsFooVP8fvu3S_qB6J76UG_VU4N",
+      "parent_id": "13vMpfIoHH1lfG-VqinnT_J0Aci38e_Ly",
+      "name": "THẦN CHÂU VÔ ĐỊCH.pdf",
+      "mime": "application/pdf",
+      "size": 1105377,
+      "modified": "2026-08-15T10:18:07.000Z",
+      "checksum": "49368989084e0756e7c37c936042e2ab",
+      "folder": false
+    }
+  ]
+}

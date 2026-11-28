@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1J06JJFh0HNtZmgqw-orNtmhxO-qpBcts",
+  "page": 1,
+  "items": [
+    {
+      "id": "1W_zElswjuAOggBRUmIAUAWvAniV-0DmY",
+      "parent_id": "1J06JJFh0HNtZmgqw-orNtmhxO-qpBcts",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1449,
+      "modified": "2026-08-15T07:45:18.000Z",
+      "checksum": "797f1575eee0def92bc5da559a51039e",
+      "folder": false
+    },
+    {
+      "id": "1hsyWjh1HDXYtYfSPZSBeg3z6o45xej2k",
+      "parent_id": "1J06JJFh0HNtZmgqw-orNtmhxO-qpBcts",
+      "name": "THẦN THƯƠNG VÔ ĐỊCH.epub",
+      "mime": "application/epub+zip",
+      "size": 532824,
+      "modified": "2026-08-15T07:45:26.000Z",
+      "checksum": "8578e277d45780fa1b375bbe36bf3684",
+      "folder": false
+    },
+    {
+      "id": "1UJztd8HpoSqiEHsCdwFBejhbjM5kMYdI",
+      "parent_id": "1J06JJFh0HNtZmgqw-orNtmhxO-qpBcts",
+      "name": "THẦN THƯƠNG VÔ ĐỊCH.pdf",
+      "mime": "application/pdf",
+      "size": 458583,
+      "modified": "2026-08-15T07:45:23.000Z",
+      "checksum": "375030c4616ff81553a70b1a45003df0",
+      "folder": false
+    }
+  ]
+}

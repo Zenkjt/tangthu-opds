@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EyfOP8RTx1thKevOo3BvIelJD-5V-G18",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XuIdzI8rHSxX55dH3ZB4FiK53N9GWbGv",
+      "parent_id": "1EyfOP8RTx1thKevOo3BvIelJD-5V-G18",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1225,
+      "modified": "2026-08-15T03:47:52.000Z",
+      "checksum": "56043123e4c777704e4d1512cbb3b0c2",
+      "folder": false
+    },
+    {
+      "id": "1mDWKq4aEVCqGR6dMK1pdkO2m-ERfSeLf",
+      "parent_id": "1EyfOP8RTx1thKevOo3BvIelJD-5V-G18",
+      "name": "THƯỢNG ĐẾ, THIÊN NHIÊN, NGƯỜI, TÔI VÀ TA.epub",
+      "mime": "application/epub+zip",
+      "size": 360579,
+      "modified": "2026-08-15T03:47:58.000Z",
+      "checksum": "a826978bc6deea9b4f6d8696d14ccc22",
+      "folder": false
+    },
+    {
+      "id": "1asgLqbdAYqaTpjcHpmmZSNA5FmRR_hhG",
+      "parent_id": "1EyfOP8RTx1thKevOo3BvIelJD-5V-G18",
+      "name": "THƯỢNG ĐẾ, THIÊN NHIÊN, NGƯỜI, TÔI VÀ TA.pdf",
+      "mime": "application/pdf",
+      "size": 599634,
+      "modified": "2026-08-15T03:47:56.000Z",
+      "checksum": "994a72c9b79755b8d8215b0635b52bb3",
+      "folder": false
+    }
+  ]
+}

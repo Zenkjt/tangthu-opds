@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1afoxW0yF9Fy7nScXEMAFqmxtodYtyc96",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_oiugCGSXblzkaImJ0ySAxFYqL67Cb_u",
+      "parent_id": "1afoxW0yF9Fy7nScXEMAFqmxtodYtyc96",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3764,
+      "modified": "2026-08-15T03:38:09.000Z",
+      "checksum": "6b050dfbe512a504ca0c4d05361df1f4",
+      "folder": false
+    },
+    {
+      "id": "1ijCE5sqWutOw51wypm9R5Hf11Mrap39f",
+      "parent_id": "1afoxW0yF9Fy7nScXEMAFqmxtodYtyc96",
+      "name": "TRÁI TIM CỦA BỤT.epub",
+      "mime": "application/epub+zip",
+      "size": 643535,
+      "modified": "2026-08-15T03:38:16.000Z",
+      "checksum": "1340f3dcca1dddca829f5af0fa1a8be6",
+      "folder": false
+    },
+    {
+      "id": "1nEG4-mg_G3rwGZ7G1zonM5GkYe7oGyqe",
+      "parent_id": "1afoxW0yF9Fy7nScXEMAFqmxtodYtyc96",
+      "name": "TRÁI TIM CỦA BỤT.pdf",
+      "mime": "application/pdf",
+      "size": 1942915,
+      "modified": "2026-08-15T03:38:14.000Z",
+      "checksum": "4dd23824a472c5f3534926589475694d",
+      "folder": false
+    }
+  ]
+}

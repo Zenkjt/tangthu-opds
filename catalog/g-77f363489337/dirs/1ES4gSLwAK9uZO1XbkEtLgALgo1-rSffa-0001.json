@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ES4gSLwAK9uZO1XbkEtLgALgo1-rSffa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tnBxKblY95Hu-NEtRJJktjLf7q3n6ZLH",
+      "parent_id": "1ES4gSLwAK9uZO1XbkEtLgALgo1-rSffa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6464,
+      "modified": "2026-08-16T03:47:16.000Z",
+      "checksum": "92ff2ba72d2dbb7eb2ebe7ce4d9e3397",
+      "folder": false
+    },
+    {
+      "id": "1AXhnMDxBxgrtqIWyaoa9wTC2p7S2wHYv",
+      "parent_id": "1ES4gSLwAK9uZO1XbkEtLgALgo1-rSffa",
+      "name": "ÁNH SÁNG CẦU VỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 577411,
+      "modified": "2026-08-16T03:47:22.000Z",
+      "checksum": "0e03ae4e8e6b213efc05f66d8313da2c",
+      "folder": false
+    },
+    {
+      "id": "1XcMiYXgHifE9yy-31vCUXnXeNeCiPT8m",
+      "parent_id": "1ES4gSLwAK9uZO1XbkEtLgALgo1-rSffa",
+      "name": "ÁNH SÁNG CẦU VỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 1336819,
+      "modified": "2026-08-16T03:47:20.000Z",
+      "checksum": "9b43e89da448208a62a0ecedacec4e76",
+      "folder": false
+    }
+  ]
+}

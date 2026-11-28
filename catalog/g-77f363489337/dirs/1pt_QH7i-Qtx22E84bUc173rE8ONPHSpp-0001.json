@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pt_QH7i-Qtx22E84bUc173rE8ONPHSpp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Cb-h6aGhgCtwnRBlZHuZu3kdiQ6wfd6p",
+      "parent_id": "1pt_QH7i-Qtx22E84bUc173rE8ONPHSpp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1147,
+      "modified": "2026-08-15T15:31:54.000Z",
+      "checksum": "621165ffcee4bc46e7adf558f4ad5d2e",
+      "folder": false
+    },
+    {
+      "id": "1vY52W00gbK2Ixa05QvImadvFf7a281bj",
+      "parent_id": "1pt_QH7i-Qtx22E84bUc173rE8ONPHSpp",
+      "name": "LÀM DÂU NHÀ MA.epub",
+      "mime": "application/epub+zip",
+      "size": 1124782,
+      "modified": "2026-08-15T15:32:01.000Z",
+      "checksum": "213dbc1f416970e3732ccc4c2affa012",
+      "folder": false
+    },
+    {
+      "id": "1j-Bai7Y1yvzFKr8xLnXNc1Fp0BRcAjVs",
+      "parent_id": "1pt_QH7i-Qtx22E84bUc173rE8ONPHSpp",
+      "name": "LÀM DÂU NHÀ MA.pdf",
+      "mime": "application/pdf",
+      "size": 1512566,
+      "modified": "2026-08-15T15:31:58.000Z",
+      "checksum": "3ab54e3fc430930c2568563491880b91",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zPvmj7XcDPbmYng6teCbUAErDcv1wvQF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZUh0-CKxBoFwzKDYuX9QmL2u-NiwPzZM",
+      "parent_id": "1zPvmj7XcDPbmYng6teCbUAErDcv1wvQF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 844,
+      "modified": "2026-08-15T13:03:00.000Z",
+      "checksum": "3df78586f02c6365e92cab26c69c55db",
+      "folder": false
+    },
+    {
+      "id": "1LM7qFgXk2BFFBa6RBfn5jFqRslNNqIzN",
+      "parent_id": "1zPvmj7XcDPbmYng6teCbUAErDcv1wvQF",
+      "name": "HỢP CHẤT MÀU DA CAM.epub",
+      "mime": "application/epub+zip",
+      "size": 611395,
+      "modified": "2026-08-15T13:03:07.000Z",
+      "checksum": "0e28bdeb269918eb7d0d5be859aa2132",
+      "folder": false
+    },
+    {
+      "id": "1C_jWQYKXlLC7p57ujGyNefFr6sxoV4XU",
+      "parent_id": "1zPvmj7XcDPbmYng6teCbUAErDcv1wvQF",
+      "name": "HỢP CHẤT MÀU DA CAM.pdf",
+      "mime": "application/pdf",
+      "size": 534543,
+      "modified": "2026-08-15T13:03:05.000Z",
+      "checksum": "ab2cf91edcec96e4cd218cf72e22c895",
+      "folder": false
+    }
+  ]
+}

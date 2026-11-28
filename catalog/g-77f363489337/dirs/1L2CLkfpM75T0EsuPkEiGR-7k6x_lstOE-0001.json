@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1L2CLkfpM75T0EsuPkEiGR-7k6x_lstOE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LYjwSBrHOm0i-8h-hB5rMAr_yjFBzgDC",
+      "parent_id": "1L2CLkfpM75T0EsuPkEiGR-7k6x_lstOE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3418,
+      "modified": "2026-08-16T04:17:25.000Z",
+      "checksum": "1fcc7c4dc007eb4f9572ea098afebd07",
+      "folder": false
+    },
+    {
+      "id": "15XQor3wCHTvFGBCHi7lrJC8VGtfa8phG",
+      "parent_id": "1L2CLkfpM75T0EsuPkEiGR-7k6x_lstOE",
+      "name": "MÙA HÈ TƯƠI ĐẸP.epub",
+      "mime": "application/epub+zip",
+      "size": 391919,
+      "modified": "2026-08-16T04:17:31.000Z",
+      "checksum": "851aa4e25c62e0d160fc50cb0c8780bb",
+      "folder": false
+    },
+    {
+      "id": "1qAwFHnbCqDdXQDYQN7r4uh8_xvnO3MBU",
+      "parent_id": "1L2CLkfpM75T0EsuPkEiGR-7k6x_lstOE",
+      "name": "MÙA HÈ TƯƠI ĐẸP.pdf",
+      "mime": "application/pdf",
+      "size": 696428,
+      "modified": "2026-08-16T04:17:29.000Z",
+      "checksum": "70128edaf9ddec8c6352b7a8087b3680",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vT88Q-HJq_C22UmeJb0Y2Bv0Y9lIT48F",
+  "page": 1,
+  "items": [
+    {
+      "id": "1T0ZRh5M88OFXccJvhok9OmXc5C8AXwrH",
+      "parent_id": "1vT88Q-HJq_C22UmeJb0Y2Bv0Y9lIT48F",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1837,
+      "modified": "2026-08-15T03:38:09.000Z",
+      "checksum": "e192d64d3032fc55280775dca9f02acb",
+      "folder": false
+    },
+    {
+      "id": "1JiJvCouoTRpg2RVJVKmnOpwcyaqe7OD7",
+      "parent_id": "1vT88Q-HJq_C22UmeJb0Y2Bv0Y9lIT48F",
+      "name": "HƯƠNG VỊ CỦA GIẢI THOÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 343680,
+      "modified": "2026-08-15T03:38:15.000Z",
+      "checksum": "b4138ceefc13a038a36d3f56a44eade8",
+      "folder": false
+    },
+    {
+      "id": "1Y_6kI5sbdhBseI6oDPea-txB-wPURfSs",
+      "parent_id": "1vT88Q-HJq_C22UmeJb0Y2Bv0Y9lIT48F",
+      "name": "HƯƠNG VỊ CỦA GIẢI THOÁT.pdf",
+      "mime": "application/pdf",
+      "size": 423647,
+      "modified": "2026-08-15T03:38:13.000Z",
+      "checksum": "7e17819a4318860562e6b052eeb13796",
+      "folder": false
+    }
+  ]
+}

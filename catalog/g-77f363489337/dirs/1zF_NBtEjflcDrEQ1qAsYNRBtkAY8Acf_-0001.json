@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zF_NBtEjflcDrEQ1qAsYNRBtkAY8Acf_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1W7C-NRQ_kQS9u8qNPz4b2k2XAIYDlrWh",
+      "parent_id": "1zF_NBtEjflcDrEQ1qAsYNRBtkAY8Acf_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3308,
+      "modified": "2026-08-15T03:17:43.000Z",
+      "checksum": "472bc9112f2b1dd4ad03ffaf206a394d",
+      "folder": false
+    },
+    {
+      "id": "1nunz0xV_AfT1POvkCfCV2tx00NqijwQX",
+      "parent_id": "1zF_NBtEjflcDrEQ1qAsYNRBtkAY8Acf_",
+      "name": "TÌNH YÊU DỐI TRÁ.epub",
+      "mime": "application/epub+zip",
+      "size": 685999,
+      "modified": "2026-08-15T03:17:51.000Z",
+      "checksum": "08dce0bcbd32eb05edb81c265d7bd6f6",
+      "folder": false
+    },
+    {
+      "id": "1gXNbioH1iWVHoN7H9oe0AOKMLfaM3FaX",
+      "parent_id": "1zF_NBtEjflcDrEQ1qAsYNRBtkAY8Acf_",
+      "name": "TÌNH YÊU DỐI TRÁ.pdf",
+      "mime": "application/pdf",
+      "size": 1651080,
+      "modified": "2026-08-15T03:17:48.000Z",
+      "checksum": "87e6a2c87d82e2e6e4f87ce7cc9ead1b",
+      "folder": false
+    }
+  ]
+}

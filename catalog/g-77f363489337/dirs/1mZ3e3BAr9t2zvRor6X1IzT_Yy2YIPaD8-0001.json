@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mZ3e3BAr9t2zvRor6X1IzT_Yy2YIPaD8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sBqWzlHNYrSFlw_bpGcNj3r20Zc_hSUg",
+      "parent_id": "1mZ3e3BAr9t2zvRor6X1IzT_Yy2YIPaD8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 601,
+      "modified": "2026-08-16T03:50:40.000Z",
+      "checksum": "4f5730a2f7add010ac0af5522aa19d31",
+      "folder": false
+    },
+    {
+      "id": "1bA8kU9ADEv54Hb148J8egTKZZF5P_wOo",
+      "parent_id": "1mZ3e3BAr9t2zvRor6X1IzT_Yy2YIPaD8",
+      "name": "ẢO VỌNG TUỔI TRẺ.epub",
+      "mime": "application/epub+zip",
+      "size": 213390,
+      "modified": "2026-08-16T03:50:45.000Z",
+      "checksum": "89858233c5c47a41f341c8801f925d3c",
+      "folder": false
+    },
+    {
+      "id": "19PsWP0IAPLtU4Wz4L9Dok_3v5mAwAsj0",
+      "parent_id": "1mZ3e3BAr9t2zvRor6X1IzT_Yy2YIPaD8",
+      "name": "ẢO VỌNG TUỔI TRẺ.pdf",
+      "mime": "application/pdf",
+      "size": 487799,
+      "modified": "2026-08-16T03:50:43.000Z",
+      "checksum": "7d8007f72899ec33086bd137ae2ed345",
+      "folder": false
+    }
+  ]
+}

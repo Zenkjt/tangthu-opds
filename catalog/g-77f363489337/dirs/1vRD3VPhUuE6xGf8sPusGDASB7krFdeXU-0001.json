@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vRD3VPhUuE6xGf8sPusGDASB7krFdeXU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iua-pLE0DWsajN5eTZAoo2qIrQDI9yoN",
+      "parent_id": "1vRD3VPhUuE6xGf8sPusGDASB7krFdeXU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1427,
+      "modified": "2026-08-15T03:29:41.000Z",
+      "checksum": "6777d0a18a1a39e7a2d6b11a4f8d6b81",
+      "folder": false
+    },
+    {
+      "id": "19JMmdAoz14wRiffkAHZIH8yhP10NXTYZ",
+      "parent_id": "1vRD3VPhUuE6xGf8sPusGDASB7krFdeXU",
+      "name": "THƯỢNG ĐẾ GIẢNG CHÂN LÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 1517593,
+      "modified": "2026-08-15T03:29:57.000Z",
+      "checksum": "e3e7e091820877c66e26fcbda6bade05",
+      "folder": false
+    },
+    {
+      "id": "1jwAWOXynYPZjVRdmYSvkG2W-Wb3oHKig",
+      "parent_id": "1vRD3VPhUuE6xGf8sPusGDASB7krFdeXU",
+      "name": "THƯỢNG ĐẾ GIẢNG CHÂN LÝ.pdf",
+      "mime": "application/pdf",
+      "size": 3118472,
+      "modified": "2026-08-15T03:29:49.000Z",
+      "checksum": "dd17e437d33d9e0c6235a4286f035728",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LBCYQYvI90jeblAro1yT3TajP2ruawsc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WYB8bzCGjYpyR-eI0m7_ApGeMq9Sfsts",
+      "parent_id": "1LBCYQYvI90jeblAro1yT3TajP2ruawsc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 897,
+      "modified": "2026-08-15T03:51:30.000Z",
+      "checksum": "73c4a2289e39d7bd0722e2208246e65f",
+      "folder": false
+    },
+    {
+      "id": "1VIXLdzUcUNtTLyU4y1Z9Y8C7jCyV36Zu",
+      "parent_id": "1LBCYQYvI90jeblAro1yT3TajP2ruawsc",
+      "name": "ĐẠO ĐƯỜNG VÔ LỘ - TẬP 2.epub",
+      "mime": "application/epub+zip",
+      "size": 467701,
+      "modified": "2026-08-15T03:51:39.000Z",
+      "checksum": "9b47acf8621dbd7ee127aa1885d69677",
+      "folder": false
+    },
+    {
+      "id": "1sHmGc7U3g-TKCSkbHphqcvVapvl15NR1",
+      "parent_id": "1LBCYQYvI90jeblAro1yT3TajP2ruawsc",
+      "name": "ĐẠO ĐƯỜNG VÔ LỘ - TẬP 2.pdf",
+      "mime": "application/pdf",
+      "size": 2198206,
+      "modified": "2026-08-15T03:51:36.000Z",
+      "checksum": "ba31ab1d83f1b43ad8673402f771a281",
+      "folder": false
+    }
+  ]
+}

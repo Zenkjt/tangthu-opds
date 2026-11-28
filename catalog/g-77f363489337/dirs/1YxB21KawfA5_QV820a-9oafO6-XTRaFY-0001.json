@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YxB21KawfA5_QV820a-9oafO6-XTRaFY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1W0uO2ftroi_LVKO8bYExNhKmVmM5TJ6M",
+      "parent_id": "1YxB21KawfA5_QV820a-9oafO6-XTRaFY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3635,
+      "modified": "2026-08-15T00:59:08.000Z",
+      "checksum": "a86d1afaeee728807af8e0e1e8bb8ca3",
+      "folder": false
+    },
+    {
+      "id": "19-ADgWrbYjPFDIYICrwYjOBkQYQVZbT-",
+      "parent_id": "1YxB21KawfA5_QV820a-9oafO6-XTRaFY",
+      "name": "ĐÁM ĐÔNG CÔ ĐƠN.epub",
+      "mime": "application/epub+zip",
+      "size": 618067,
+      "modified": "2026-08-15T00:59:18.000Z",
+      "checksum": "72570afcdc947b9401a4c3b1000a915a",
+      "folder": false
+    },
+    {
+      "id": "1fC8bthHbETQXqG1CImuabBBxsJbQXUQM",
+      "parent_id": "1YxB21KawfA5_QV820a-9oafO6-XTRaFY",
+      "name": "ĐÁM ĐÔNG CÔ ĐƠN.pdf",
+      "mime": "application/pdf",
+      "size": 2221380,
+      "modified": "2026-08-15T00:59:16.000Z",
+      "checksum": "170b5922bf8a569c6a4145f3a3e8dcde",
+      "folder": false
+    }
+  ]
+}

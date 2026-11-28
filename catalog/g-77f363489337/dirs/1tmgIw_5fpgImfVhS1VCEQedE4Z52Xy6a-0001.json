@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tmgIw_5fpgImfVhS1VCEQedE4Z52Xy6a",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ITniYopis6xdqXawXaSnucgvZ895aG6Y",
+      "parent_id": "1tmgIw_5fpgImfVhS1VCEQedE4Z52Xy6a",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3402,
+      "modified": "2026-08-16T04:15:24.000Z",
+      "checksum": "2700d02f957a49d9f3cdb4db3b9b18e8",
+      "folder": false
+    },
+    {
+      "id": "1QwdMvzFTSizwhtofmfn7f5pf4hiKQwaR",
+      "parent_id": "1tmgIw_5fpgImfVhS1VCEQedE4Z52Xy6a",
+      "name": "NGHE NÓI ANH YÊU EM.epub",
+      "mime": "application/epub+zip",
+      "size": 1399072,
+      "modified": "2026-08-16T04:15:32.000Z",
+      "checksum": "578d4ec6955ba48cf343ecaef066dc89",
+      "folder": false
+    },
+    {
+      "id": "14Oe_AsBx1Jzm_RIndSEhjRjp8tiKHFKV",
+      "parent_id": "1tmgIw_5fpgImfVhS1VCEQedE4Z52Xy6a",
+      "name": "NGHE NÓI ANH YÊU EM.pdf",
+      "mime": "application/pdf",
+      "size": 1713291,
+      "modified": "2026-08-16T04:15:29.000Z",
+      "checksum": "e6efe244cd3de32b991a5e4b0164218e",
+      "folder": false
+    }
+  ]
+}

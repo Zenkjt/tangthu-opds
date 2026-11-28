@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-g95ZIztFuTB66by_OY0kIXdszTorQkE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bVmUEDayhka-xPZ4KXNp-nZVqQ8eOhwS",
+      "parent_id": "1-g95ZIztFuTB66by_OY0kIXdszTorQkE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1073,
+      "modified": "2026-08-16T04:19:27.000Z",
+      "checksum": "5d8b71a2bd24db59d2d913ed5d979d50",
+      "folder": false
+    },
+    {
+      "id": "1H0vOuQtl6yQPKLPZrVYP8t8t3KAoLsrY",
+      "parent_id": "1-g95ZIztFuTB66by_OY0kIXdszTorQkE",
+      "name": "HOÀNG HẬU MARGOT.epub",
+      "mime": "application/epub+zip",
+      "size": 879773,
+      "modified": "2026-08-16T04:19:36.000Z",
+      "checksum": "8edfe9408301689195b74215af30e619",
+      "folder": false
+    },
+    {
+      "id": "14YeFhCMsetbXUGj82YJBZoXXPsYIN1i0",
+      "parent_id": "1-g95ZIztFuTB66by_OY0kIXdszTorQkE",
+      "name": "HOÀNG HẬU MARGOT.pdf",
+      "mime": "application/pdf",
+      "size": 2415795,
+      "modified": "2026-08-16T04:19:33.000Z",
+      "checksum": "100d1f251a8bcc47c55b24a27bb8be4c",
+      "folder": false
+    }
+  ]
+}

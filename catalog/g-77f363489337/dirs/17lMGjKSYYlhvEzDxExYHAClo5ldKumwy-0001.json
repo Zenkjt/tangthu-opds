@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17lMGjKSYYlhvEzDxExYHAClo5ldKumwy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sJxN2DIgp4BoFN1sheu74smEu8nslrO9",
+      "parent_id": "17lMGjKSYYlhvEzDxExYHAClo5ldKumwy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4928,
+      "modified": "2026-08-15T03:16:16.000Z",
+      "checksum": "880fe8967309b6fc5e567248c4dd14a9",
+      "folder": false
+    },
+    {
+      "id": "1PyvVvGVOg8nvj8QOHx331ZDMOhjsKMSf",
+      "parent_id": "17lMGjKSYYlhvEzDxExYHAClo5ldKumwy",
+      "name": "QUẢN LÝ THỜI GIAN.epub",
+      "mime": "application/epub+zip",
+      "size": 270774,
+      "modified": "2026-08-15T03:16:21.000Z",
+      "checksum": "8f588c70fe6deacd4f4419508a3aefa3",
+      "folder": false
+    },
+    {
+      "id": "1zcL5bW_B7CJVHnoV6Ucya0n0Vx1VnGsF",
+      "parent_id": "17lMGjKSYYlhvEzDxExYHAClo5ldKumwy",
+      "name": "QUẢN LÝ THỜI GIAN.pdf",
+      "mime": "application/pdf",
+      "size": 661644,
+      "modified": "2026-08-15T03:16:19.000Z",
+      "checksum": "68447994167645616cf42ac4bc626b17",
+      "folder": false
+    }
+  ]
+}

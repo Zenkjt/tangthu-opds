@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cOtSJRpalYZ_iXBgjvQE7rcIkzvtbq3M",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sREYamgEX4kMTFc3Ma30F1hZ80e4sfQ5",
+      "parent_id": "1cOtSJRpalYZ_iXBgjvQE7rcIkzvtbq3M",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1477,
+      "modified": "2026-08-15T11:31:58.000Z",
+      "checksum": "d3c404665540304dcf3a22ac9bf9af5b",
+      "folder": false
+    },
+    {
+      "id": "1hkSm9VaUgDppY9kUzN-Y0_thgJ1K92SD",
+      "parent_id": "1cOtSJRpalYZ_iXBgjvQE7rcIkzvtbq3M",
+      "name": "GIÁO TRÌNH ĐÁNH GIÁ TÁC ĐỘNG MÔI TRƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 343111,
+      "modified": "2026-08-15T11:32:04.000Z",
+      "checksum": "d6d9bb57d006da527d72073a0e6bd0eb",
+      "folder": false
+    },
+    {
+      "id": "1pHATR6h87ylGO9wFBSkOLglZAutYtOUm",
+      "parent_id": "1cOtSJRpalYZ_iXBgjvQE7rcIkzvtbq3M",
+      "name": "GIÁO TRÌNH ĐÁNH GIÁ TÁC ĐỘNG MÔI TRƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 1548372,
+      "modified": "2026-08-15T11:32:02.000Z",
+      "checksum": "b16bed164134b8b9fe8ac0fb4041feab",
+      "folder": false
+    }
+  ]
+}

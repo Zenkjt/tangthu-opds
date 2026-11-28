@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JmmV3jGqidblVgv_sLtTidkejYH1758g",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_n_QmunuZ3Z2T8_5mJya47Q704Lpn02F",
+      "parent_id": "1JmmV3jGqidblVgv_sLtTidkejYH1758g",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 498,
+      "modified": "2026-08-15T10:26:10.000Z",
+      "checksum": "55323fc99fa7c42247900f5fa402a7f5",
+      "folder": false
+    },
+    {
+      "id": "1Ksyzxspdv360RyAA6qghc2AuMmTQzoH2",
+      "parent_id": "1JmmV3jGqidblVgv_sLtTidkejYH1758g",
+      "name": "SỐNG HAY CHẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 710845,
+      "modified": "2026-08-15T10:26:20.000Z",
+      "checksum": "a216c29aefe1b66f583b350314198361",
+      "folder": false
+    },
+    {
+      "id": "1LIvOjqVUhvwu48H2nZ3Z71CnUwMnSVdl",
+      "parent_id": "1JmmV3jGqidblVgv_sLtTidkejYH1758g",
+      "name": "SỐNG HAY CHẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1591767,
+      "modified": "2026-08-15T10:26:18.000Z",
+      "checksum": "ba9511255095ac59bc96b6399ab38fec",
+      "folder": false
+    }
+  ]
+}

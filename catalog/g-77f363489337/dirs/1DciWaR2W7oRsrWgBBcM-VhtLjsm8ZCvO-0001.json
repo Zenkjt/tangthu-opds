@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DciWaR2W7oRsrWgBBcM-VhtLjsm8ZCvO",
+  "page": 1,
+  "items": [
+    {
+      "id": "14boaTZombHvWrUzyTyg7iwSCb_IH94-j",
+      "parent_id": "1DciWaR2W7oRsrWgBBcM-VhtLjsm8ZCvO",
+      "name": "BẾN XE.epub",
+      "mime": "application/epub+zip",
+      "size": 627853,
+      "modified": "2026-08-16T03:33:40.000Z",
+      "checksum": "441f3e3adb83a85311d58a3d01c80ffc",
+      "folder": false
+    },
+    {
+      "id": "1r8lc6YnBiTlaeUbd-LHqrMuTFeCKWhvA",
+      "parent_id": "1DciWaR2W7oRsrWgBBcM-VhtLjsm8ZCvO",
+      "name": "BẾN XE.pdf",
+      "mime": "application/pdf",
+      "size": 582502,
+      "modified": "2026-08-16T03:33:37.000Z",
+      "checksum": "0683826bf30901463e2d20263f10b6ae",
+      "folder": false
+    },
+    {
+      "id": "1dRFVIiFB1fnKay8wCOFQL1nAAjUF85T3",
+      "parent_id": "1DciWaR2W7oRsrWgBBcM-VhtLjsm8ZCvO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 19241,
+      "modified": "2026-08-16T03:33:34.000Z",
+      "checksum": "d65485c81c941b9ab4f17732191871e1",
+      "folder": false
+    }
+  ]
+}

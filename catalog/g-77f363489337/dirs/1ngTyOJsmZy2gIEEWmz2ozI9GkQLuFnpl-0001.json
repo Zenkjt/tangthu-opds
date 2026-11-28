@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ngTyOJsmZy2gIEEWmz2ozI9GkQLuFnpl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xUf0dHc5tj2qephHaYDiJdZHjU5sYLeG",
+      "parent_id": "1ngTyOJsmZy2gIEEWmz2ozI9GkQLuFnpl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2792,
+      "modified": "2026-08-15T00:53:57.000Z",
+      "checksum": "e7ffebba455c0a23e6605dcaa6ef73a3",
+      "folder": false
+    },
+    {
+      "id": "1vfm5db0pLaFvBeuAKVO4HmZpItXdHPcg",
+      "parent_id": "1ngTyOJsmZy2gIEEWmz2ozI9GkQLuFnpl",
+      "name": "TỬ TẾ ĐÁNG GIÁ BAO NHIÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 603673,
+      "modified": "2026-08-15T00:54:02.000Z",
+      "checksum": "5c8025732829efeeb108934879af29a9",
+      "folder": false
+    },
+    {
+      "id": "1L8YcnTldzDc4xQtWtRo9RZo4jBFALb7A",
+      "parent_id": "1ngTyOJsmZy2gIEEWmz2ozI9GkQLuFnpl",
+      "name": "TỬ TẾ ĐÁNG GIÁ BAO NHIÊU.pdf",
+      "mime": "application/pdf",
+      "size": 747582,
+      "modified": "2026-08-15T00:54:00.000Z",
+      "checksum": "a1a83d2b667e320e2273b6ebddcbb95b",
+      "folder": false
+    }
+  ]
+}

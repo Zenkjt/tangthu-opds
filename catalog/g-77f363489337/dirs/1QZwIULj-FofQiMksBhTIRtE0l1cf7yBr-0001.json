@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QZwIULj-FofQiMksBhTIRtE0l1cf7yBr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ye6BdKxDee2hSMfnOXduWpi5ESkIITjd",
+      "parent_id": "1QZwIULj-FofQiMksBhTIRtE0l1cf7yBr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3258,
+      "modified": "2026-08-15T06:24:56.000Z",
+      "checksum": "934abed3a5ff01499eb7a6691cf38431",
+      "folder": false
+    },
+    {
+      "id": "1e3-j2_DdKVrMlPlzcDzFiYZwLcNwkWrA",
+      "parent_id": "1QZwIULj-FofQiMksBhTIRtE0l1cf7yBr",
+      "name": "NHỮNG ĐIỀN CHỦ NẾP XƯA.epub",
+      "mime": "application/epub+zip",
+      "size": 899111,
+      "modified": "2026-08-15T06:26:51.000Z",
+      "checksum": "4e64033340d6ad6145e97c1f616a3ca2",
+      "folder": false
+    },
+    {
+      "id": "1Rf0aNJbrze6gt84549UjOeCy2Y6r-fQR",
+      "parent_id": "1QZwIULj-FofQiMksBhTIRtE0l1cf7yBr",
+      "name": "NHỮNG ĐIỀN CHỦ NẾP XƯA.pdf",
+      "mime": "application/pdf",
+      "size": 799036,
+      "modified": "2026-08-15T06:25:55.000Z",
+      "checksum": "5940fb8e192b4fe499e06b45baace1b1",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19T1Ao5BsgiE5i6ag-SB9ay0bqsao1tYd",
+  "page": 1,
+  "items": [
+    {
+      "id": "19RKF7unjiMkK5MUOAWeEaA0RgoHLMS-I",
+      "parent_id": "19T1Ao5BsgiE5i6ag-SB9ay0bqsao1tYd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5392,
+      "modified": "2026-08-16T03:18:53.000Z",
+      "checksum": "002058ba006b2a1f1a75e3abb27db3db",
+      "folder": false
+    },
+    {
+      "id": "1AuI8ZvIXYMOkk6eQaGUq1-IM1Spl7SMg",
+      "parent_id": "19T1Ao5BsgiE5i6ag-SB9ay0bqsao1tYd",
+      "name": "LUẬT CHƠI.epub",
+      "mime": "application/epub+zip",
+      "size": 709980,
+      "modified": "2026-08-16T03:19:00.000Z",
+      "checksum": "85412e22ebac7ab73facaf4b2eb7779b",
+      "folder": false
+    },
+    {
+      "id": "1Kfhk2owrkCOHHWSYArtARjD8mnnxeP7B",
+      "parent_id": "19T1Ao5BsgiE5i6ag-SB9ay0bqsao1tYd",
+      "name": "LUẬT CHƠI.pdf",
+      "mime": "application/pdf",
+      "size": 1195414,
+      "modified": "2026-08-16T03:18:57.000Z",
+      "checksum": "f90ccc2805c8bf1d5e2ce31f29502f43",
+      "folder": false
+    }
+  ]
+}

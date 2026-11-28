@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gQISfhO89RbwsGyasOHmRknxJTN7vm6f",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vUWZZYDU69OmFWEubklVnpNnp0L3XAcV",
+      "parent_id": "1gQISfhO89RbwsGyasOHmRknxJTN7vm6f",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1755,
+      "modified": "2026-08-16T03:14:06.000Z",
+      "checksum": "6aec1e9d20bbc23fdc085ddca688a31a",
+      "folder": false
+    },
+    {
+      "id": "1uAf8Rc7EG4zIfK1lj_De9ZGAOMPQ3JQE",
+      "parent_id": "1gQISfhO89RbwsGyasOHmRknxJTN7vm6f",
+      "name": "HẲN LÀ YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 464085,
+      "modified": "2026-08-16T03:14:14.000Z",
+      "checksum": "13cd37284107690f8d9aab6d8ef1b66e",
+      "folder": false
+    },
+    {
+      "id": "1_wLxPxfAHOnkzhvJC5xyCn52YGRk-eK-",
+      "parent_id": "1gQISfhO89RbwsGyasOHmRknxJTN7vm6f",
+      "name": "HẲN LÀ YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1117796,
+      "modified": "2026-08-16T03:14:11.000Z",
+      "checksum": "1ed6f636140d713836dcc5e4c3df298d",
+      "folder": false
+    }
+  ]
+}

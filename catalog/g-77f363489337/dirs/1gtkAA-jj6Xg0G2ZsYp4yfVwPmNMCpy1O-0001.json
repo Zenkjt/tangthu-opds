@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gtkAA-jj6Xg0G2ZsYp4yfVwPmNMCpy1O",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eJHtB0lhw8sAt8sCf6g0hWZdDqYcWGT1",
+      "parent_id": "1gtkAA-jj6Xg0G2ZsYp4yfVwPmNMCpy1O",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8358,
+      "modified": "2026-08-15T05:42:58.000Z",
+      "checksum": "7df7127f29ec0aaa39a2751d0678fe23",
+      "folder": false
+    },
+    {
+      "id": "1ekLSAQu1F5gY0gnhn6EI5Vz5zmsbtStJ",
+      "parent_id": "1gtkAA-jj6Xg0G2ZsYp4yfVwPmNMCpy1O",
+      "name": "TRIẾT HỌC ALBERT CAMUS.epub",
+      "mime": "application/epub+zip",
+      "size": 353575,
+      "modified": "2026-08-15T05:43:05.000Z",
+      "checksum": "d6eb11cd6eb826d82f9212866ba6dcf4",
+      "folder": false
+    },
+    {
+      "id": "1K1Gbnfk-Jl_gas5_s1KArti8XX5khF-g",
+      "parent_id": "1gtkAA-jj6Xg0G2ZsYp4yfVwPmNMCpy1O",
+      "name": "TRIẾT HỌC ALBERT CAMUS.pdf",
+      "mime": "application/pdf",
+      "size": 1161707,
+      "modified": "2026-08-15T05:43:02.000Z",
+      "checksum": "c0f5ded5205e5daa8073e5481955ced0",
+      "folder": false
+    }
+  ]
+}

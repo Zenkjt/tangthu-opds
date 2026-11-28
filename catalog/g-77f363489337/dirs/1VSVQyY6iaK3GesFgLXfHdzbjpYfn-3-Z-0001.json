@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VSVQyY6iaK3GesFgLXfHdzbjpYfn-3-Z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OW85FrpiP1ZLOIq517KBLaQmByInKjta",
+      "parent_id": "1VSVQyY6iaK3GesFgLXfHdzbjpYfn-3-Z",
+      "name": "CỐ ĐÔ.epub",
+      "mime": "application/epub+zip",
+      "size": 374486,
+      "modified": "2026-08-16T03:23:46.000Z",
+      "checksum": "80eb3e0911893285fcee0d965057d511",
+      "folder": false
+    },
+    {
+      "id": "1VCPnt-CJKFaEl5Wrds4DU_EIIAPsz9qp",
+      "parent_id": "1VSVQyY6iaK3GesFgLXfHdzbjpYfn-3-Z",
+      "name": "CỐ ĐÔ.pdf",
+      "mime": "application/pdf",
+      "size": 558813,
+      "modified": "2026-08-16T03:23:44.000Z",
+      "checksum": "75628d9a04d2c911d0361d5ec2a5da6b",
+      "folder": false
+    },
+    {
+      "id": "1w-V7OTRuZidlIbMB2jEfQeP9b1RzFlyU",
+      "parent_id": "1VSVQyY6iaK3GesFgLXfHdzbjpYfn-3-Z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8101,
+      "modified": "2026-08-16T03:23:40.000Z",
+      "checksum": "c0ae69032dfded5c6efb84ce5474e9d0",
+      "folder": false
+    }
+  ]
+}

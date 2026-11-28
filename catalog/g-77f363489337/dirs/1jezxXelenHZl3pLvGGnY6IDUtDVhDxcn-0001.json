@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jezxXelenHZl3pLvGGnY6IDUtDVhDxcn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zEXGfstmokHxaamg94MAu9AjWhkLVY4w",
+      "parent_id": "1jezxXelenHZl3pLvGGnY6IDUtDVhDxcn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6966,
+      "modified": "2026-08-15T09:35:53.000Z",
+      "checksum": "f53d2b2f71ae9795037a1546eef99542",
+      "folder": false
+    },
+    {
+      "id": "17bR5UDWH9TFe2kUSk4Yv_I85KWBItsPx",
+      "parent_id": "1jezxXelenHZl3pLvGGnY6IDUtDVhDxcn",
+      "name": "NGHỆ THUẬT CHỌN LỰA.epub",
+      "mime": "application/epub+zip",
+      "size": 707413,
+      "modified": "2026-08-15T09:36:04.000Z",
+      "checksum": "94cb2966c6fb04a92b5b8b20398c435f",
+      "folder": false
+    },
+    {
+      "id": "12QqHVqy1rEAhK7TamjJpHv82RPYwbDgG",
+      "parent_id": "1jezxXelenHZl3pLvGGnY6IDUtDVhDxcn",
+      "name": "NGHỆ THUẬT CHỌN LỰA.pdf",
+      "mime": "application/pdf",
+      "size": 2846999,
+      "modified": "2026-08-15T09:36:01.000Z",
+      "checksum": "46a96b58b12269b3bb079ad6cf4d86ea",
+      "folder": false
+    }
+  ]
+}

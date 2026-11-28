@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nRLFPYBrVS7hGvcShMlQgWgkaf50Hy6-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oI0OavZzTXQxeU0DT9_W2Z47tZgaXN_y",
+      "parent_id": "1nRLFPYBrVS7hGvcShMlQgWgkaf50Hy6-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2801,
+      "modified": "2026-08-16T04:02:41.000Z",
+      "checksum": "1ba352124da4b1ebf4f1dca40d71ad26",
+      "folder": false
+    },
+    {
+      "id": "1KxGr8n7RKcyc1ecnF1yXpJX-IVHZDbtQ",
+      "parent_id": "1nRLFPYBrVS7hGvcShMlQgWgkaf50Hy6-",
+      "name": "SỰ RÀNG BUỘC ÊM ĐỀM.epub",
+      "mime": "application/epub+zip",
+      "size": 350591,
+      "modified": "2026-08-16T04:02:47.000Z",
+      "checksum": "bd1bddef600290ddb8ded277855efbe3",
+      "folder": false
+    },
+    {
+      "id": "1GXhubZKgFedKv6rQOrTZPlDYP61okaUU",
+      "parent_id": "1nRLFPYBrVS7hGvcShMlQgWgkaf50Hy6-",
+      "name": "SỰ RÀNG BUỘC ÊM ĐỀM.pdf",
+      "mime": "application/pdf",
+      "size": 493386,
+      "modified": "2026-08-16T04:02:45.000Z",
+      "checksum": "fa1cff22aab55235c86d402614a90ec0",
+      "folder": false
+    }
+  ]
+}

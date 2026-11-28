@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LHPgNcoUFTrDoxBlvY-ORlDgft_D6UmB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iD5ns9sCPuxO7yVsxtBQfDOvQRDX0xkw",
+      "parent_id": "1LHPgNcoUFTrDoxBlvY-ORlDgft_D6UmB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4669,
+      "modified": "2026-08-15T15:45:45.000Z",
+      "checksum": "01af1274f5044ae0782f98ba213507cc",
+      "folder": false
+    },
+    {
+      "id": "1psKoGyHvbQM1hjyQvxXGtJ8Q1zp___YO",
+      "parent_id": "1LHPgNcoUFTrDoxBlvY-ORlDgft_D6UmB",
+      "name": "ĐIỆU SLOW TRONG THANG MÁY.epub",
+      "mime": "application/epub+zip",
+      "size": 649481,
+      "modified": "2026-08-15T15:46:13.000Z",
+      "checksum": "c603d1ee08b7d59b3cacab2f2fe7962d",
+      "folder": false
+    },
+    {
+      "id": "14UYnwnyx7Q_nGRxzllZG8dFq5EtPBdRF",
+      "parent_id": "1LHPgNcoUFTrDoxBlvY-ORlDgft_D6UmB",
+      "name": "ĐIỆU SLOW TRONG THANG MÁY.pdf",
+      "mime": "application/pdf",
+      "size": 1852762,
+      "modified": "2026-08-15T15:46:03.000Z",
+      "checksum": "94db1bd87325de8e45ae157eecc4c393",
+      "folder": false
+    }
+  ]
+}

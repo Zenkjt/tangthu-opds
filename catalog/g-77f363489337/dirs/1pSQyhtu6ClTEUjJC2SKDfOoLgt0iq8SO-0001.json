@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pSQyhtu6ClTEUjJC2SKDfOoLgt0iq8SO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1r4YTxOpqxp9LCuZEIMZv7D09klk4rXd7",
+      "parent_id": "1pSQyhtu6ClTEUjJC2SKDfOoLgt0iq8SO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2003,
+      "modified": "2026-08-16T03:35:29.000Z",
+      "checksum": "87d01af32abbf508a6137eee28efa832",
+      "folder": false
+    },
+    {
+      "id": "139L6mnTD3tVANQO-lvLsdn0ZKIR4R6FH",
+      "parent_id": "1pSQyhtu6ClTEUjJC2SKDfOoLgt0iq8SO",
+      "name": "ĐI TÌM BÀ NGOẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 309748,
+      "modified": "2026-08-16T03:35:34.000Z",
+      "checksum": "f2cc131165082871bd9dc68424174a5f",
+      "folder": false
+    },
+    {
+      "id": "1liLFSYwpjyUAz2eqpei7bSwWlhL-WUxu",
+      "parent_id": "1pSQyhtu6ClTEUjJC2SKDfOoLgt0iq8SO",
+      "name": "ĐI TÌM BÀ NGOẠI.pdf",
+      "mime": "application/pdf",
+      "size": 570149,
+      "modified": "2026-08-16T03:35:32.000Z",
+      "checksum": "5728962fa81ca197c6ddc26e1603af80",
+      "folder": false
+    }
+  ]
+}

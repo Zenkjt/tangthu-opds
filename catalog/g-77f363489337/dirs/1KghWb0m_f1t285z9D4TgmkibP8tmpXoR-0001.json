@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KghWb0m_f1t285z9D4TgmkibP8tmpXoR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wGfiFyK_iS0dLSu9d6v--kWV1MMoSGjK",
+      "parent_id": "1KghWb0m_f1t285z9D4TgmkibP8tmpXoR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4212,
+      "modified": "2026-08-15T03:15:47.000Z",
+      "checksum": "6c30999f7e483f1437a2c516c8c9165c",
+      "folder": false
+    },
+    {
+      "id": "16IWxnVd5jQtEwD2LlY1wdjidw0MnrYuL",
+      "parent_id": "1KghWb0m_f1t285z9D4TgmkibP8tmpXoR",
+      "name": "TIỀN KHÔNG MỌC TRÊN CÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 735761,
+      "modified": "2026-08-15T03:15:54.000Z",
+      "checksum": "285980cf31aa24e7ce32a508ef12af97",
+      "folder": false
+    },
+    {
+      "id": "1CjaCTiq4fULksuPqANc2z9aZ6tbpBM77",
+      "parent_id": "1KghWb0m_f1t285z9D4TgmkibP8tmpXoR",
+      "name": "TIỀN KHÔNG MỌC TRÊN CÂY.pdf",
+      "mime": "application/pdf",
+      "size": 1118479,
+      "modified": "2026-08-15T03:15:51.000Z",
+      "checksum": "bf6bc36caf2f1ef03c70c4d03de93dc8",
+      "folder": false
+    }
+  ]
+}

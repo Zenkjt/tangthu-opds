@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1i41-NzmQCzqpSM3T7wxDKBEL8SzTvwAr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iCfDHSbZBr-zP75JYYl_ZrlKAUjkrmYA",
+      "parent_id": "1i41-NzmQCzqpSM3T7wxDKBEL8SzTvwAr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8019,
+      "modified": "2026-08-15T03:24:04.000Z",
+      "checksum": "ac454e2f88ac69ec93abeda3240e9a69",
+      "folder": false
+    },
+    {
+      "id": "1mvQlxCYhjbK87LulepH7tFGKQltg0ToW",
+      "parent_id": "1i41-NzmQCzqpSM3T7wxDKBEL8SzTvwAr",
+      "name": "TƯ DUY LÀ TỒN TẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 350009,
+      "modified": "2026-08-15T03:24:11.000Z",
+      "checksum": "bed2ebb28e54317b13ce96a75e5008e9",
+      "folder": false
+    },
+    {
+      "id": "1yv9KothqOvhbpJzxNeSwqfHdZ3fZCZQb",
+      "parent_id": "1i41-NzmQCzqpSM3T7wxDKBEL8SzTvwAr",
+      "name": "TƯ DUY LÀ TỒN TẠI.pdf",
+      "mime": "application/pdf",
+      "size": 1156648,
+      "modified": "2026-08-15T03:24:09.000Z",
+      "checksum": "3a65faa62c97ee255095c8afed7f1eaa",
+      "folder": false
+    }
+  ]
+}

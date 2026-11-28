@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1frbqECaeLwB-TdfSt8jdPY7qnZadBznn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qADh-vKnhoo25Y4ufeqZ_60-L9gG6qjK",
+      "parent_id": "1frbqECaeLwB-TdfSt8jdPY7qnZadBznn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 553,
+      "modified": "2026-08-15T10:44:23.000Z",
+      "checksum": "8429a005670b112ba930e826846fde16",
+      "folder": false
+    },
+    {
+      "id": "1T6SwuWdrlkABEoir-BnaTnpDZsvCP_pX",
+      "parent_id": "1frbqECaeLwB-TdfSt8jdPY7qnZadBznn",
+      "name": "NGƯỜI CHỒNG VĨNH CỬU.epub",
+      "mime": "application/epub+zip",
+      "size": 374216,
+      "modified": "2026-08-15T10:44:40.000Z",
+      "checksum": "66e8727010ef48f7dc83743d57cc17c6",
+      "folder": false
+    },
+    {
+      "id": "1JGcOaoKWaKcQCkgDqYTJX99PUYKykypu",
+      "parent_id": "1frbqECaeLwB-TdfSt8jdPY7qnZadBznn",
+      "name": "NGƯỜI CHỒNG VĨNH CỬU.pdf",
+      "mime": "application/pdf",
+      "size": 739545,
+      "modified": "2026-08-15T10:44:34.000Z",
+      "checksum": "7aace7282253ef206f09124f54ba9576",
+      "folder": false
+    }
+  ]
+}

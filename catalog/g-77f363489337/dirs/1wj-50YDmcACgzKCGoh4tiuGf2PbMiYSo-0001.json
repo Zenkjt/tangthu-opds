@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wj-50YDmcACgzKCGoh4tiuGf2PbMiYSo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zITbmeKi1zYeyvyMa_bkBqj06l2XD6eS",
+      "parent_id": "1wj-50YDmcACgzKCGoh4tiuGf2PbMiYSo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5042,
+      "modified": "2026-08-15T05:42:34.000Z",
+      "checksum": "3a2f450d11e51196692bf072bd1b5732",
+      "folder": false
+    },
+    {
+      "id": "1JKzwC0KCUebuk2kHNh-9W8YVVxFq6P48",
+      "parent_id": "1wj-50YDmcACgzKCGoh4tiuGf2PbMiYSo",
+      "name": "ĐÁNH THỨC TRÍ THÔNG MINH.epub",
+      "mime": "application/epub+zip",
+      "size": 535733,
+      "modified": "2026-08-15T05:42:42.000Z",
+      "checksum": "74e29e4df96ffa171e42054fbb09670c",
+      "folder": false
+    },
+    {
+      "id": "1NG_8P7Ht_XE8ajls8hiuoNcCruepY7e2",
+      "parent_id": "1wj-50YDmcACgzKCGoh4tiuGf2PbMiYSo",
+      "name": "ĐÁNH THỨC TRÍ THÔNG MINH.pdf",
+      "mime": "application/pdf",
+      "size": 2015698,
+      "modified": "2026-08-15T05:42:39.000Z",
+      "checksum": "b7bf7ae3f00df03ed7ed4f742a1273d1",
+      "folder": false
+    }
+  ]
+}

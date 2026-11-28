@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vcOwkGGQv_2PCLAkGqA4gqhxY2OPq2ph",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AcsQ98NvbrZm-OiNyKFH8mzqR4ymdeai",
+      "parent_id": "1vcOwkGGQv_2PCLAkGqA4gqhxY2OPq2ph",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 458,
+      "modified": "2026-08-15T10:16:52.000Z",
+      "checksum": "0a91495c082bb61f547ea3ef67f97d6f",
+      "folder": false
+    },
+    {
+      "id": "1i98zGw4EC-0B9DUsXcjaK-Q1CPfBPzrx",
+      "parent_id": "1vcOwkGGQv_2PCLAkGqA4gqhxY2OPq2ph",
+      "name": "THÁNG SÁU TRỜI XANH LAM.epub",
+      "mime": "application/epub+zip",
+      "size": 479887,
+      "modified": "2026-08-15T10:16:59.000Z",
+      "checksum": "a1ea6b948745a2a1bf1acb05c36bb2d4",
+      "folder": false
+    },
+    {
+      "id": "1oV7bt3YQbC8vRdwrPNTOsYvZjaJPgNQ5",
+      "parent_id": "1vcOwkGGQv_2PCLAkGqA4gqhxY2OPq2ph",
+      "name": "THÁNG SÁU TRỜI XANH LAM.pdf",
+      "mime": "application/pdf",
+      "size": 1065987,
+      "modified": "2026-08-15T10:16:56.000Z",
+      "checksum": "27565251c7a57557c08e127e5a4be65e",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rWB1YZJ0f0V7vt7igexbVLYADI-VTPu5",
+  "page": 1,
+  "items": [
+    {
+      "id": "121qYIkDe6Qh7xMsZkrcdIWPUEAnKP2VL",
+      "parent_id": "1rWB1YZJ0f0V7vt7igexbVLYADI-VTPu5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1011,
+      "modified": "2026-08-15T09:47:31.000Z",
+      "checksum": "72d3aa506abd277ade86ec96255c9799",
+      "folder": false
+    },
+    {
+      "id": "1QqY6a5P5hLtnokF4OghqorPA4EyuDRNl",
+      "parent_id": "1rWB1YZJ0f0V7vt7igexbVLYADI-VTPu5",
+      "name": "HUYẾT DẠ DỊ VĂN LỤC.epub",
+      "mime": "application/epub+zip",
+      "size": 627602,
+      "modified": "2026-08-15T09:47:38.000Z",
+      "checksum": "145aa13e92ffb666a32167855dc25540",
+      "folder": false
+    },
+    {
+      "id": "1rg2_DzMEFOfDx6Gwzp3MICx6HNXt8ers",
+      "parent_id": "1rWB1YZJ0f0V7vt7igexbVLYADI-VTPu5",
+      "name": "HUYẾT DẠ DỊ VĂN LỤC.pdf",
+      "mime": "application/pdf",
+      "size": 1645992,
+      "modified": "2026-08-15T09:47:36.000Z",
+      "checksum": "9e005557b0522db1efd6f7130ae0c70f",
+      "folder": false
+    }
+  ]
+}

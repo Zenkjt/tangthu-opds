@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vFz7Qpm-5WfiaWyaShiMM3BTkNBMEc5K",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fGugEGoJJPCeCo-6ubdcYTL8Ixi1PB5X",
+      "parent_id": "1vFz7Qpm-5WfiaWyaShiMM3BTkNBMEc5K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3412,
+      "modified": "2026-08-15T10:48:22.000Z",
+      "checksum": "1950df54f5d3ec50a7e57eb74b322371",
+      "folder": false
+    },
+    {
+      "id": "1LF18I4_Ou50jQmcHotiGVFHLNG6nsU8B",
+      "parent_id": "1vFz7Qpm-5WfiaWyaShiMM3BTkNBMEc5K",
+      "name": "NÀNG CÔNG CHÚA GỖ ĐÀN HƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 742517,
+      "modified": "2026-08-15T10:48:30.000Z",
+      "checksum": "5720b129d72e6381ce91e30d1334b04e",
+      "folder": false
+    },
+    {
+      "id": "1Oh67gEYOnB3cGzxXM_a5p7Qe7yBPUEtm",
+      "parent_id": "1vFz7Qpm-5WfiaWyaShiMM3BTkNBMEc5K",
+      "name": "NÀNG CÔNG CHÚA GỖ ĐÀN HƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 798053,
+      "modified": "2026-08-15T10:48:26.000Z",
+      "checksum": "0a636cf50494f5c2ea5b32f125904bd0",
+      "folder": false
+    }
+  ]
+}

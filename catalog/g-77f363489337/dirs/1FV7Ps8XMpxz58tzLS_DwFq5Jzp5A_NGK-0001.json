@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FV7Ps8XMpxz58tzLS_DwFq5Jzp5A_NGK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yWUQRxGW8uDrK5mcqSdhNBtsuXjKCbrL",
+      "parent_id": "1FV7Ps8XMpxz58tzLS_DwFq5Jzp5A_NGK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5091,
+      "modified": "2026-08-15T09:46:09.000Z",
+      "checksum": "d458519b784c4d9756c7d1dc0904ea5e",
+      "folder": false
+    },
+    {
+      "id": "1HCIEMVXJ2Hkvv4nO-bM0Tc-0IL6MZFzx",
+      "parent_id": "1FV7Ps8XMpxz58tzLS_DwFq5Jzp5A_NGK",
+      "name": "KHAI QUỐC CÔNG TẶC.epub",
+      "mime": "application/epub+zip",
+      "size": 1974097,
+      "modified": "2026-08-15T09:47:15.000Z",
+      "checksum": "19b7f5fcde869feaecca17bfc7690ad8",
+      "folder": false
+    },
+    {
+      "id": "1veE0aDSBdAYQHJghto3ZM2VC_EjlflvJ",
+      "parent_id": "1FV7Ps8XMpxz58tzLS_DwFq5Jzp5A_NGK",
+      "name": "KHAI QUỐC CÔNG TẶC.pdf",
+      "mime": "application/pdf",
+      "size": 9263262,
+      "modified": "2026-08-15T09:47:01.000Z",
+      "checksum": "810373ba3556744064d154ee78f6755d",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EoKWPJy0KfQHec_kHEqI5hs_uV5QAySR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LuoMNSXP1htAJMl9hSXevUQFGWEugrd9",
+      "parent_id": "1EoKWPJy0KfQHec_kHEqI5hs_uV5QAySR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1631,
+      "modified": "2026-08-15T06:16:13.000Z",
+      "checksum": "fafac1ed5cd61459b30d6257df72de9c",
+      "folder": false
+    },
+    {
+      "id": "1wbmHA-UVuxsYxJrcR2w5IztDcWEJn5Ki",
+      "parent_id": "1EoKWPJy0KfQHec_kHEqI5hs_uV5QAySR",
+      "name": "NẾP CŨ - BÓ HOA BẮC VIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 1540073,
+      "modified": "2026-08-15T06:16:20.000Z",
+      "checksum": "f5fd1174fe146b13a1608ebd1f992703",
+      "folder": false
+    },
+    {
+      "id": "1bE1vlBGxLpWh_1bVYno0Fqd9CXfjq9tJ",
+      "parent_id": "1EoKWPJy0KfQHec_kHEqI5hs_uV5QAySR",
+      "name": "NẾP CŨ - BÓ HOA BẮC VIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 900474,
+      "modified": "2026-08-15T06:16:17.000Z",
+      "checksum": "cef67c7ef7373a75245f06cded6ae160",
+      "folder": false
+    }
+  ]
+}

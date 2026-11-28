@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DB2b3svdC7cO7ZmHTmmlIt9CuftheCuk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZnVS2jBHCA6HTO4fdlBhj5vxkPfO-3iU",
+      "parent_id": "1DB2b3svdC7cO7ZmHTmmlIt9CuftheCuk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4164,
+      "modified": "2026-08-16T03:36:40.000Z",
+      "checksum": "184c9b3ac9bdb57d60dd84cafd412339",
+      "folder": false
+    },
+    {
+      "id": "17ipIiyGMN6nAKHBF9b1qtecxKP363RW8",
+      "parent_id": "1DB2b3svdC7cO7ZmHTmmlIt9CuftheCuk",
+      "name": "MONG MANH TÌNH ĐẦU.epub",
+      "mime": "application/epub+zip",
+      "size": 560499,
+      "modified": "2026-08-16T03:36:47.000Z",
+      "checksum": "67f63f1e303624dc5f713f8ce4af5747",
+      "folder": false
+    },
+    {
+      "id": "13hvduNGb5SPUkQeacB6hFGiLFar_WlEI",
+      "parent_id": "1DB2b3svdC7cO7ZmHTmmlIt9CuftheCuk",
+      "name": "MONG MANH TÌNH ĐẦU.pdf",
+      "mime": "application/pdf",
+      "size": 1594004,
+      "modified": "2026-08-16T03:36:45.000Z",
+      "checksum": "d327f58a927d771972d31956245d9671",
+      "folder": false
+    }
+  ]
+}

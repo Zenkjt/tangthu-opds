@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KrvUXyqshF-eE3GUodU2gkyBmTYHFhYy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eWx6D11-Kda7NQMi8Sl_drnjGCpTcYWP",
+      "parent_id": "1KrvUXyqshF-eE3GUodU2gkyBmTYHFhYy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3121,
+      "modified": "2026-08-15T09:31:05.000Z",
+      "checksum": "54662fbf03c7193c2f0bd28ae751f0aa",
+      "folder": false
+    },
+    {
+      "id": "1nhY9y9AncHADBhMvfLc7W3bPBpIK5LPH",
+      "parent_id": "1KrvUXyqshF-eE3GUodU2gkyBmTYHFhYy",
+      "name": "GẶP LẠI CHỐN HỒNG TRẦN SÂU NHẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 617226,
+      "modified": "2026-08-15T09:31:15.000Z",
+      "checksum": "a4411ee08559675ceba4b9475218e85a",
+      "folder": false
+    },
+    {
+      "id": "1rZvQ9oPwNrGcKJb6dV9_ZJxnb2C_tf16",
+      "parent_id": "1KrvUXyqshF-eE3GUodU2gkyBmTYHFhYy",
+      "name": "GẶP LẠI CHỐN HỒNG TRẦN SÂU NHẤT.pdf",
+      "mime": "application/pdf",
+      "size": 1354480,
+      "modified": "2026-08-15T09:31:12.000Z",
+      "checksum": "c2eefd96e71446d35ca3017f06f647ee",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tRUcbqQ0nCVitwAIH4fLoDIjcuwwyFk2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xUPWZsHRx5dXtwAZTBoSPA5BFus4O28Z",
+      "parent_id": "1tRUcbqQ0nCVitwAIH4fLoDIjcuwwyFk2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4071,
+      "modified": "2026-08-15T00:49:50.000Z",
+      "checksum": "c5b23e22c93d0aea7c886e0b34124119",
+      "folder": false
+    },
+    {
+      "id": "1P93vcPhq6axssOgsLYFiiIGyYnvX-p3p",
+      "parent_id": "1tRUcbqQ0nCVitwAIH4fLoDIjcuwwyFk2",
+      "name": "ĐỪNG HOANG TƯỞNG VỀ BIỂN LỚN.epub",
+      "mime": "application/epub+zip",
+      "size": 381321,
+      "modified": "2026-08-15T00:49:56.000Z",
+      "checksum": "8c84ba128f3b8162790d93f81677a838",
+      "folder": false
+    },
+    {
+      "id": "1hvekUf85V6jzDgpemptiSdTUYeXd3VEF",
+      "parent_id": "1tRUcbqQ0nCVitwAIH4fLoDIjcuwwyFk2",
+      "name": "ĐỪNG HOANG TƯỞNG VỀ BIỂN LỚN.pdf",
+      "mime": "application/pdf",
+      "size": 972151,
+      "modified": "2026-08-15T00:49:54.000Z",
+      "checksum": "1c0859b4ef58567edcba09980ce858a0",
+      "folder": false
+    }
+  ]
+}

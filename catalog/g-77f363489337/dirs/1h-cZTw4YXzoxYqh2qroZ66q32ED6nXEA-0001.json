@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1h-cZTw4YXzoxYqh2qroZ66q32ED6nXEA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vP_kWkTvYPSbUXgtXxZAEee5zKx3Qgot",
+      "parent_id": "1h-cZTw4YXzoxYqh2qroZ66q32ED6nXEA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2632,
+      "modified": "2026-08-16T03:49:20.000Z",
+      "checksum": "48c64a10eae55767782b097d1d635837",
+      "folder": false
+    },
+    {
+      "id": "1oP2nK_j9r8kCZNtfzHc4lYllQJJW8WTa",
+      "parent_id": "1h-cZTw4YXzoxYqh2qroZ66q32ED6nXEA",
+      "name": "ÁN MẠNG DƯỚI ĐÁY HỒ.epub",
+      "mime": "application/epub+zip",
+      "size": 405432,
+      "modified": "2026-08-16T03:49:27.000Z",
+      "checksum": "92c2104e4d92293f32c02a614998d67c",
+      "folder": false
+    },
+    {
+      "id": "18S8csoS_EnBg1NTOsoKEA7NhHfopO-Tw",
+      "parent_id": "1h-cZTw4YXzoxYqh2qroZ66q32ED6nXEA",
+      "name": "ÁN MẠNG DƯỚI ĐÁY HỒ.pdf",
+      "mime": "application/pdf",
+      "size": 887260,
+      "modified": "2026-08-16T03:49:24.000Z",
+      "checksum": "6b5debc22ec147a51e18e14f31aa8bc8",
+      "folder": false
+    }
+  ]
+}

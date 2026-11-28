@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BwAlbMVqGBV0xaviZ42sBuELgPmM0ITM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WkNNafJRGFYhvr9AoaF-fbDBxpdbBjUL",
+      "parent_id": "1BwAlbMVqGBV0xaviZ42sBuELgPmM0ITM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3329,
+      "modified": "2026-08-16T03:57:14.000Z",
+      "checksum": "cb1721813303a339553fdc04dc82063d",
+      "folder": false
+    },
+    {
+      "id": "1QnC8QG9GIs434gdIoSEYaKWmcdjB90H3",
+      "parent_id": "1BwAlbMVqGBV0xaviZ42sBuELgPmM0ITM",
+      "name": "THỊNH ĐƯỜNG VÔ YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 1344370,
+      "modified": "2026-08-16T03:57:27.000Z",
+      "checksum": "d4239c2ce1581ea7d660fcc69c7a1323",
+      "folder": false
+    },
+    {
+      "id": "1vi_6cOXgUIinM5PBQJf5fSZ17GBpcv8S",
+      "parent_id": "1BwAlbMVqGBV0xaviZ42sBuELgPmM0ITM",
+      "name": "THỊNH ĐƯỜNG VÔ YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 4677456,
+      "modified": "2026-08-16T03:57:24.000Z",
+      "checksum": "a49adec09e60353de5ef7c3b2617f852",
+      "folder": false
+    }
+  ]
+}

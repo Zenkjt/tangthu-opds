@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uRyIYiH6caTYOtDgXO3mYkAfw-OK3-_3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pV02GiOCD_kCRmnTJWXrjIcnS0RmRzjl",
+      "parent_id": "1uRyIYiH6caTYOtDgXO3mYkAfw-OK3-_3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10257,
+      "modified": "2026-08-15T07:33:01.000Z",
+      "checksum": "8f27b01b4b6cf66787a7554c66b894d2",
+      "folder": false
+    },
+    {
+      "id": "1u_RHqmCqbys6H18bJzStKRi-7U0wo4mu",
+      "parent_id": "1uRyIYiH6caTYOtDgXO3mYkAfw-OK3-_3",
+      "name": "YÊU KHÔNG HỐI TIẾC.epub",
+      "mime": "application/epub+zip",
+      "size": 937805,
+      "modified": "2026-08-15T07:33:06.000Z",
+      "checksum": "61d801bc59828c43106f886058c33398",
+      "folder": false
+    },
+    {
+      "id": "1xiA5vnHroxysi2Cbx5LX_LTq321aTBwy",
+      "parent_id": "1uRyIYiH6caTYOtDgXO3mYkAfw-OK3-_3",
+      "name": "YÊU KHÔNG HỐI TIẾC.pdf",
+      "mime": "application/pdf",
+      "size": 807153,
+      "modified": "2026-08-15T07:33:04.000Z",
+      "checksum": "d9f7fa1148a2893ee7226f6d3c98677b",
+      "folder": false
+    }
+  ]
+}

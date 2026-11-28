@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1O3BFgtqEOthHXZ3gow1493AnX4GrxFZh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uqAET8dIregJacfCrcoRRBwo6Hto4kow",
+      "parent_id": "1O3BFgtqEOthHXZ3gow1493AnX4GrxFZh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1181,
+      "modified": "2026-08-15T03:53:22.000Z",
+      "checksum": "90fc9b7fa70100e92dcbef2f54f8efae",
+      "folder": false
+    },
+    {
+      "id": "1M1OfqGEsLNXUFvnpScxLrB-fCwbbLsgQ",
+      "parent_id": "1O3BFgtqEOthHXZ3gow1493AnX4GrxFZh",
+      "name": "ƯỚC HẸN VỚI SỰ SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 473526,
+      "modified": "2026-08-15T03:53:27.000Z",
+      "checksum": "35a3f0d284bfbbebc0bb312bcefdc3cc",
+      "folder": false
+    },
+    {
+      "id": "1KsP2aUXDYXkyYY_hVpMTF4A9eHBH4QPt",
+      "parent_id": "1O3BFgtqEOthHXZ3gow1493AnX4GrxFZh",
+      "name": "ƯỚC HẸN VỚI SỰ SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 495063,
+      "modified": "2026-08-15T03:53:25.000Z",
+      "checksum": "1f304a21c0e75952ffe30bd0fb96bef5",
+      "folder": false
+    }
+  ]
+}

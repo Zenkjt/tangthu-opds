@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tgVunQ7OtfA7eQTGlmtR344MPT_dgJlo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1l9J6Yw9jdZeSgH0-_9OrGSfFERBM8nAQ",
+      "parent_id": "1tgVunQ7OtfA7eQTGlmtR344MPT_dgJlo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 440,
+      "modified": "2026-08-15T10:52:20.000Z",
+      "checksum": "9d0085bf059a4244dd0e74e19b6cc15d",
+      "folder": false
+    },
+    {
+      "id": "1evqDlSO-TwISBJboBNNoY0NEo5Hdx4FA",
+      "parent_id": "1tgVunQ7OtfA7eQTGlmtR344MPT_dgJlo",
+      "name": "MỘT NỖI ĐAU RIÊNG.epub",
+      "mime": "application/epub+zip",
+      "size": 507044,
+      "modified": "2026-08-15T10:52:26.000Z",
+      "checksum": "503880699f7e22e9a235086193f319a7",
+      "folder": false
+    },
+    {
+      "id": "1vXQGr36wUKB77_ANHu5AreEwj8BkOEJY",
+      "parent_id": "1tgVunQ7OtfA7eQTGlmtR344MPT_dgJlo",
+      "name": "MỘT NỖI ĐAU RIÊNG.pdf",
+      "mime": "application/pdf",
+      "size": 873400,
+      "modified": "2026-08-15T10:52:23.000Z",
+      "checksum": "2e215b9316747965b3e69f195a712f04",
+      "folder": false
+    }
+  ]
+}

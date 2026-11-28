@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11qiR31Wg_9pcZ6PudRJTlRc0dystHU-V",
+  "page": 1,
+  "items": [
+    {
+      "id": "1G9TxEymHVonmkgJk3KE_LL1Aq6S9xuK4",
+      "parent_id": "11qiR31Wg_9pcZ6PudRJTlRc0dystHU-V",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1450,
+      "modified": "2026-08-15T15:16:17.000Z",
+      "checksum": "2e234053cf9bf9e38e820dd17e67f136",
+      "folder": false
+    },
+    {
+      "id": "1bOTT_F0i4wK-zrcj12eGEqKejmpNSCQV",
+      "parent_id": "11qiR31Wg_9pcZ6PudRJTlRc0dystHU-V",
+      "name": "QUYỀN LỰC THỨ TƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 825163,
+      "modified": "2026-08-15T15:16:26.000Z",
+      "checksum": "fe89e1d49bab5e14bf38a8df217ac319",
+      "folder": false
+    },
+    {
+      "id": "105ZDzzCjAf5iAo6y7ed5G6A0EU2yh9af",
+      "parent_id": "11qiR31Wg_9pcZ6PudRJTlRc0dystHU-V",
+      "name": "QUYỀN LỰC THỨ TƯ.pdf",
+      "mime": "application/pdf",
+      "size": 2387839,
+      "modified": "2026-08-15T15:16:23.000Z",
+      "checksum": "79d0977d2cc283f94cb4354f9e23a88b",
+      "folder": false
+    }
+  ]
+}

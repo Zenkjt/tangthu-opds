@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yTi7_cI84NmEi3j9fMDJ29QhgsT0psZo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HT3rQci03EYpVNpmLf_DL04AsqnBCu7s",
+      "parent_id": "1yTi7_cI84NmEi3j9fMDJ29QhgsT0psZo",
+      "name": "BIA MỘ ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 738894,
+      "modified": "2026-08-16T03:08:37.000Z",
+      "checksum": "c64dcf09adbbeeb4bde2c910bd135a56",
+      "folder": false
+    },
+    {
+      "id": "1wvWYx8h8fcfbludBTksU2-WHfV7gWzJs",
+      "parent_id": "1yTi7_cI84NmEi3j9fMDJ29QhgsT0psZo",
+      "name": "BIA MỘ ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 898914,
+      "modified": "2026-08-16T03:08:34.000Z",
+      "checksum": "22924071d05457c06f1bf4a34c082080",
+      "folder": false
+    },
+    {
+      "id": "15_TWavyUxIY_CJZtDY0dEs_7flaM0Zpe",
+      "parent_id": "1yTi7_cI84NmEi3j9fMDJ29QhgsT0psZo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7007,
+      "modified": "2026-08-16T03:08:30.000Z",
+      "checksum": "acfc12b58b58ecd3108a77b54d2d3c9b",
+      "folder": false
+    }
+  ]
+}

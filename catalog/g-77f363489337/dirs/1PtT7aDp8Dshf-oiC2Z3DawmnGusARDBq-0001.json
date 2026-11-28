@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PtT7aDp8Dshf-oiC2Z3DawmnGusARDBq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LdYJcrIZ2a9sitVkl6ZLpo2UR9EHC5pa",
+      "parent_id": "1PtT7aDp8Dshf-oiC2Z3DawmnGusARDBq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2684,
+      "modified": "2026-08-16T02:48:32.000Z",
+      "checksum": "23e7b492b30c6272afd146c25b939140",
+      "folder": false
+    },
+    {
+      "id": "13SMrlg2yREFbhaeoKQMGB3-ivKM-rRY4",
+      "parent_id": "1PtT7aDp8Dshf-oiC2Z3DawmnGusARDBq",
+      "name": "SỬ VIỆT - 12 KHÚC TRÁNG CA.epub",
+      "mime": "application/epub+zip",
+      "size": 758500,
+      "modified": "2026-08-16T02:48:39.000Z",
+      "checksum": "0ec8f79595cdb57f464fb384db54987d",
+      "folder": false
+    },
+    {
+      "id": "1i6fMlW5nFyd4PVIGmbOuUQq49eEQgMBM",
+      "parent_id": "1PtT7aDp8Dshf-oiC2Z3DawmnGusARDBq",
+      "name": "SỬ VIỆT - 12 KHÚC TRÁNG CA.pdf",
+      "mime": "application/pdf",
+      "size": 977197,
+      "modified": "2026-08-16T02:48:37.000Z",
+      "checksum": "6b88338d8745e0cb5c66801c6dc881a1",
+      "folder": false
+    }
+  ]
+}

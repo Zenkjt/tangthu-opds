@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yFfw0dhprFwGl7O_7UnOQR_R_zKDdGkY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vC9r8odkqHhHycRhuhP_r1udLxdocGQw",
+      "parent_id": "1yFfw0dhprFwGl7O_7UnOQR_R_zKDdGkY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7424,
+      "modified": "2026-08-16T03:20:01.000Z",
+      "checksum": "5dc05b91698059f08ed6c5d57f03a54c",
+      "folder": false
+    },
+    {
+      "id": "1FewPAb3JKMGfZR4Rv0h5gi_CcwJ75kCq",
+      "parent_id": "1yFfw0dhprFwGl7O_7UnOQR_R_zKDdGkY",
+      "name": "EMILY TRÊN DẢI CẦU VỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 628970,
+      "modified": "2026-08-16T03:20:10.000Z",
+      "checksum": "f576df6ffcfbe2518f0e8c1f851daea4",
+      "folder": false
+    },
+    {
+      "id": "1r5cKShW2mXdRRyZMx6zC_fnShzNUAjjO",
+      "parent_id": "1yFfw0dhprFwGl7O_7UnOQR_R_zKDdGkY",
+      "name": "EMILY TRÊN DẢI CẦU VỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 1514091,
+      "modified": "2026-08-16T03:20:07.000Z",
+      "checksum": "702ad0f248760f5642657958eac7f2c5",
+      "folder": false
+    }
+  ]
+}

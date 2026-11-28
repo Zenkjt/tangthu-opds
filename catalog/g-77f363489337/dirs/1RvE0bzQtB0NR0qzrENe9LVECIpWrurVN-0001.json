@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RvE0bzQtB0NR0qzrENe9LVECIpWrurVN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Wh9nsKTM-bDYKsO8zGHLqOCfSkM3oxSq",
+      "parent_id": "1RvE0bzQtB0NR0qzrENe9LVECIpWrurVN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3408,
+      "modified": "2026-08-15T05:45:37.000Z",
+      "checksum": "62b0b875f09ccee6144e7451949324a1",
+      "folder": false
+    },
+    {
+      "id": "1BEOdRvgPeY0al1QjqK-am1zUxmuE20UD",
+      "parent_id": "1RvE0bzQtB0NR0qzrENe9LVECIpWrurVN",
+      "name": "TRIẾT HỌC TỔNG QUÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 890947,
+      "modified": "2026-08-15T05:45:50.000Z",
+      "checksum": "ba24ea22ced5c0c995faf9e3fd0e4650",
+      "folder": false
+    },
+    {
+      "id": "1XrobftxHMfwcXCtUPnXpClfeT2kfJ853",
+      "parent_id": "1RvE0bzQtB0NR0qzrENe9LVECIpWrurVN",
+      "name": "TRIẾT HỌC TỔNG QUÁT.pdf",
+      "mime": "application/pdf",
+      "size": 1586177,
+      "modified": "2026-08-15T05:45:44.000Z",
+      "checksum": "dc10340ed3580d287ce9dbc8f45fe0b9",
+      "folder": false
+    }
+  ]
+}

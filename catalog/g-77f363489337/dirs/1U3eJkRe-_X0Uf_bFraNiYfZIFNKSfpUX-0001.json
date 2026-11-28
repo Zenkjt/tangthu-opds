@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1U3eJkRe-_X0Uf_bFraNiYfZIFNKSfpUX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OpfrnzQ5DpFcdLz3DF7WtVUGZc8Cf9Ko",
+      "parent_id": "1U3eJkRe-_X0Uf_bFraNiYfZIFNKSfpUX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2253,
+      "modified": "2026-08-15T09:49:46.000Z",
+      "checksum": "bb02d30141ba2f26ff38b3696fa848ff",
+      "folder": false
+    },
+    {
+      "id": "140flU5cw93asGxMIO5h3DSRuiinpY7FB",
+      "parent_id": "1U3eJkRe-_X0Uf_bFraNiYfZIFNKSfpUX",
+      "name": "EM MÙ MỚI YÊU ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 616390,
+      "modified": "2026-08-15T09:49:54.000Z",
+      "checksum": "bbaa0c0e7cab2c06427d0f99dd4a3a00",
+      "folder": false
+    },
+    {
+      "id": "1h-mHLH6_Bb8_EBaxQtlCA7oq4fI1xkZp",
+      "parent_id": "1U3eJkRe-_X0Uf_bFraNiYfZIFNKSfpUX",
+      "name": "EM MÙ MỚI YÊU ANH.pdf",
+      "mime": "application/pdf",
+      "size": 1858657,
+      "modified": "2026-08-15T09:49:51.000Z",
+      "checksum": "8659a1eeba9a9ff422cda2fbfa9fdda5",
+      "folder": false
+    }
+  ]
+}

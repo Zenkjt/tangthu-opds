@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DfgY8HK45FfGheD3DLtjeVraRfHFnoqn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VPNsHS-93kct4ebhfQ2hamcOIDQqpCk1",
+      "parent_id": "1DfgY8HK45FfGheD3DLtjeVraRfHFnoqn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4155,
+      "modified": "2026-08-15T03:55:25.000Z",
+      "checksum": "78549e21d6d08a6aea308dc22b5f206d",
+      "folder": false
+    },
+    {
+      "id": "16aY72iCRPM_ea94YSo65t3A6s13YUb3c",
+      "parent_id": "1DfgY8HK45FfGheD3DLtjeVraRfHFnoqn",
+      "name": "THẦN TIÊN TRÍCH LỤC.epub",
+      "mime": "application/epub+zip",
+      "size": 29828808,
+      "modified": "2026-08-15T03:55:58.000Z",
+      "checksum": "c5b4f0b514253fdb37fc75816155bc1b",
+      "folder": false
+    },
+    {
+      "id": "18sQI1W5HvNJWJJKB6LCqJPjtUoWfVUil",
+      "parent_id": "1DfgY8HK45FfGheD3DLtjeVraRfHFnoqn",
+      "name": "THẦN TIÊN TRÍCH LỤC.pdf",
+      "mime": "application/pdf",
+      "size": 11129027,
+      "modified": "2026-08-15T03:55:37.000Z",
+      "checksum": "da6010b2b5787e6bd7ae89ee1977ce2f",
+      "folder": false
+    }
+  ]
+}

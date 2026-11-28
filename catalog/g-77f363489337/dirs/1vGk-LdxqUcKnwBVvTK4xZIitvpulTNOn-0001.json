@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vGk-LdxqUcKnwBVvTK4xZIitvpulTNOn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kzCoqhZ78Zl6NVY-sDG2kG6pSW9FM7aX",
+      "parent_id": "1vGk-LdxqUcKnwBVvTK4xZIitvpulTNOn",
+      "name": "CHÂM CỨU HỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 929765,
+      "modified": "2026-08-15T04:22:37.000Z",
+      "checksum": "fee4063de848fcaeba2fa933d6c6f2fb",
+      "folder": false
+    },
+    {
+      "id": "1sgSsmNU4jDlk1ZnTl7w_6UkstI0T_W38",
+      "parent_id": "1vGk-LdxqUcKnwBVvTK4xZIitvpulTNOn",
+      "name": "CHÂM CỨU HỌC.pdf",
+      "mime": "application/pdf",
+      "size": 1128663,
+      "modified": "2026-08-15T04:22:27.000Z",
+      "checksum": "98bf7ae3b433bb7652f75117fb4f4d12",
+      "folder": false
+    },
+    {
+      "id": "1RYO4faIZEPh7LfFSa2JZl6YolAFrT2_A",
+      "parent_id": "1vGk-LdxqUcKnwBVvTK4xZIitvpulTNOn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1620,
+      "modified": "2026-08-15T04:22:19.000Z",
+      "checksum": "f32b5b354b082b28d674a1d9c3b639db",
+      "folder": false
+    }
+  ]
+}

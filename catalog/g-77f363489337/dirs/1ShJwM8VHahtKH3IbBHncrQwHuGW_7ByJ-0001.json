@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ShJwM8VHahtKH3IbBHncrQwHuGW_7ByJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VNgZ5gYEHdg0ur-afPKvd0VOttiP0Ka2",
+      "parent_id": "1ShJwM8VHahtKH3IbBHncrQwHuGW_7ByJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 499,
+      "modified": "2026-08-15T15:40:54.000Z",
+      "checksum": "f5ac980a356da0dce468eb62fa978d04",
+      "folder": false
+    },
+    {
+      "id": "1et5M6W7nv9VaBYHxC05ZRzhrFUTACSIB",
+      "parent_id": "1ShJwM8VHahtKH3IbBHncrQwHuGW_7ByJ",
+      "name": "ĐÓA HỒNG QUỶ QUYỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 764729,
+      "modified": "2026-08-15T15:41:13.000Z",
+      "checksum": "6bbfe063c8663fe708968098238914f6",
+      "folder": false
+    },
+    {
+      "id": "1SXPiMA8a1QUEirrfd5volkhUxAz39RFQ",
+      "parent_id": "1ShJwM8VHahtKH3IbBHncrQwHuGW_7ByJ",
+      "name": "ĐÓA HỒNG QUỶ QUYỆT.pdf",
+      "mime": "application/pdf",
+      "size": 1355910,
+      "modified": "2026-08-15T15:41:07.000Z",
+      "checksum": "b84f5f48a442395ebc576a7020e92ee4",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Vfp9H-xhxAzv6t2xWJYxiUcB8EmnKqW-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AcGy0OHrkx1rKrUCuV303ybbp6-Egmu-",
+      "parent_id": "1Vfp9H-xhxAzv6t2xWJYxiUcB8EmnKqW-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2979,
+      "modified": "2026-08-15T06:26:54.000Z",
+      "checksum": "c05a9610b5691fd2fe54279bd944e82a",
+      "folder": false
+    },
+    {
+      "id": "1ULZN1PZw8ALBLV0mPLKyCcrWyTVTUnX8",
+      "parent_id": "1Vfp9H-xhxAzv6t2xWJYxiUcB8EmnKqW-",
+      "name": "NGUYỄN VĂN VĨNH.epub",
+      "mime": "application/epub+zip",
+      "size": 528062,
+      "modified": "2026-08-15T06:27:00.000Z",
+      "checksum": "a3d0653936dbbd14f140a72c7bfcdec6",
+      "folder": false
+    },
+    {
+      "id": "1jknbl-fiFPyQSDPwW4g2J5HzJrWT_vSk",
+      "parent_id": "1Vfp9H-xhxAzv6t2xWJYxiUcB8EmnKqW-",
+      "name": "NGUYỄN VĂN VĨNH.pdf",
+      "mime": "application/pdf",
+      "size": 1166637,
+      "modified": "2026-08-15T06:26:58.000Z",
+      "checksum": "371758ce54d11a1a08d86914dfe9e703",
+      "folder": false
+    }
+  ]
+}

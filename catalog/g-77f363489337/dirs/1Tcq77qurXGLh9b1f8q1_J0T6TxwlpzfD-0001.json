@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Tcq77qurXGLh9b1f8q1_J0T6TxwlpzfD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Lt8isFwHX7Y1WKU3iD9jWiwBQbewGmtW",
+      "parent_id": "1Tcq77qurXGLh9b1f8q1_J0T6TxwlpzfD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 16558,
+      "modified": "2026-08-16T03:06:05.000Z",
+      "checksum": "c26ba6f8c1ba92b2926e246d9ba3f902",
+      "folder": false
+    },
+    {
+      "id": "1ZJj2VXyrCGtSRT7_XyE3nWYjWin8j6Gj",
+      "parent_id": "1Tcq77qurXGLh9b1f8q1_J0T6TxwlpzfD",
+      "name": "VỠ TỔ.epub",
+      "mime": "application/epub+zip",
+      "size": 305181,
+      "modified": "2026-08-16T03:06:11.000Z",
+      "checksum": "690b21b7ee13113984e329722c3d8090",
+      "folder": false
+    },
+    {
+      "id": "1zMpsx7FVItxpNKyVoz5fylYaJipLbiVS",
+      "parent_id": "1Tcq77qurXGLh9b1f8q1_J0T6TxwlpzfD",
+      "name": "VỠ TỔ.pdf",
+      "mime": "application/pdf",
+      "size": 463114,
+      "modified": "2026-08-16T03:06:08.000Z",
+      "checksum": "e685c25b5dbcc7d0e9e5bedbfef5c577",
+      "folder": false
+    }
+  ]
+}

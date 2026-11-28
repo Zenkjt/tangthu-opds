@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11NvbNgr0WEZ_dsIEHtw-vbvZvdw60pI9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1to7lZlkr9OMcBPC0xvh6DryfyNvAkse6",
+      "parent_id": "11NvbNgr0WEZ_dsIEHtw-vbvZvdw60pI9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2307,
+      "modified": "2026-08-15T07:28:22.000Z",
+      "checksum": "09ed6dd52297baddc17fb8b84bcd433f",
+      "folder": false
+    },
+    {
+      "id": "17lYVrntX7ASfvzl5YIcDpsOTM7bfaa1R",
+      "parent_id": "11NvbNgr0WEZ_dsIEHtw-vbvZvdw60pI9",
+      "name": "VỢ CHỒNG CHỚP NHOÁNG.epub",
+      "mime": "application/epub+zip",
+      "size": 361069,
+      "modified": "2026-08-15T07:28:31.000Z",
+      "checksum": "3b1f8e584dfd1f40a1ed3c462c4d4662",
+      "folder": false
+    },
+    {
+      "id": "1qCc8umZlJzdb1BlFXZCoWwqQA_4JJ5sV",
+      "parent_id": "11NvbNgr0WEZ_dsIEHtw-vbvZvdw60pI9",
+      "name": "VỢ CHỒNG CHỚP NHOÁNG.pdf",
+      "mime": "application/pdf",
+      "size": 729712,
+      "modified": "2026-08-15T07:28:29.000Z",
+      "checksum": "f62a890acbbf6ef8413cdc770bfee3e2",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WxCY6Ztoj3vxuauOPYYK-zJ2maQFXI5m",
+  "page": 1,
+  "items": [
+    {
+      "id": "1etoCrpUQJAkTVs6crKO2UQfkieGLXU6M",
+      "parent_id": "1WxCY6Ztoj3vxuauOPYYK-zJ2maQFXI5m",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5250,
+      "modified": "2026-08-15T10:01:16.000Z",
+      "checksum": "5fbed44b3b5f1f2481da78565bf7ff7e",
+      "folder": false
+    },
+    {
+      "id": "1_uSclSjzIvITUyITO-7uhi_HP5z3AYYq",
+      "parent_id": "1WxCY6Ztoj3vxuauOPYYK-zJ2maQFXI5m",
+      "name": "KHOẢNG TRỜI MÊNH MÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 989397,
+      "modified": "2026-08-15T10:01:23.000Z",
+      "checksum": "0933d428ff2a59d3ab8a1f76580a0054",
+      "folder": false
+    },
+    {
+      "id": "1gzU6rDfuJ1diG9NJ9hD4HxNpWgqJOmMH",
+      "parent_id": "1WxCY6Ztoj3vxuauOPYYK-zJ2maQFXI5m",
+      "name": "KHOẢNG TRỜI MÊNH MÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 963192,
+      "modified": "2026-08-15T10:01:20.000Z",
+      "checksum": "ad362285534d7ceb56a9322cb3b9622e",
+      "folder": false
+    }
+  ]
+}

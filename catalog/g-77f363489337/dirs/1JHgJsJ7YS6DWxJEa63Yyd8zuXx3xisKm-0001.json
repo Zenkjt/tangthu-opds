@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JHgJsJ7YS6DWxJEa63Yyd8zuXx3xisKm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1foIkzZeWTz5OrF1lovuBCkZfNSmHn3uF",
+      "parent_id": "1JHgJsJ7YS6DWxJEa63Yyd8zuXx3xisKm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1070,
+      "modified": "2026-08-15T13:10:11.000Z",
+      "checksum": "00a8e817afbd5e8689f95f0c6bd51708",
+      "folder": false
+    },
+    {
+      "id": "1chY6807hswP2G66XcQl5sWO2n8Q1eZmi",
+      "parent_id": "1JHgJsJ7YS6DWxJEa63Yyd8zuXx3xisKm",
+      "name": "TỬ VI TỔNG HỢP.epub",
+      "mime": "application/epub+zip",
+      "size": 3878228,
+      "modified": "2026-08-15T13:10:41.000Z",
+      "checksum": "0f8f8ff6bd2438e9f4939e1d4affbaee",
+      "folder": false
+    },
+    {
+      "id": "1sdK-IR_OkEtgh--X6rDW9Lc4gHzCq-pC",
+      "parent_id": "1JHgJsJ7YS6DWxJEa63Yyd8zuXx3xisKm",
+      "name": "TỬ VI TỔNG HỢP.pdf",
+      "mime": "application/pdf",
+      "size": 6643057,
+      "modified": "2026-08-15T13:10:26.000Z",
+      "checksum": "bd0d7d178a367d86d0c0ccfd007de4d2",
+      "folder": false
+    }
+  ]
+}

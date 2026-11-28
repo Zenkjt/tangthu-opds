@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rvN7SOwIwglqE6IZcuassxsIHL_g1d-j",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YxCnVzMMHLYmdI1XSiC1ubROtdm1B-cj",
+      "parent_id": "1rvN7SOwIwglqE6IZcuassxsIHL_g1d-j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3419,
+      "modified": "2026-08-15T10:51:57.000Z",
+      "checksum": "071ee8d47fe25083841bdbd3fa9e8f01",
+      "folder": false
+    },
+    {
+      "id": "1y562_3sj4hj_DoUDy45amLiBjMFI9hpD",
+      "parent_id": "1rvN7SOwIwglqE6IZcuassxsIHL_g1d-j",
+      "name": "MÙA HÈ ĐỂ NHỚ.epub",
+      "mime": "application/epub+zip",
+      "size": 1000601,
+      "modified": "2026-08-15T10:52:03.000Z",
+      "checksum": "b4c818e47398e2185276cba3739f087e",
+      "folder": false
+    },
+    {
+      "id": "1LvKyCT1I8vQyERgiI4Si74UY40jhKf-m",
+      "parent_id": "1rvN7SOwIwglqE6IZcuassxsIHL_g1d-j",
+      "name": "MÙA HÈ ĐỂ NHỚ.pdf",
+      "mime": "application/pdf",
+      "size": 1103710,
+      "modified": "2026-08-15T10:52:01.000Z",
+      "checksum": "bee88358837809f7a17fa69877712103",
+      "folder": false
+    }
+  ]
+}

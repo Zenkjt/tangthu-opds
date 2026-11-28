@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nJEwGR-3i5XA7bgjBOs8a-DJD09aLIBt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dtU5GTmX2WSr6ON3fvEli2fKLw6lUPJd",
+      "parent_id": "1nJEwGR-3i5XA7bgjBOs8a-DJD09aLIBt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3245,
+      "modified": "2026-08-15T06:51:15.000Z",
+      "checksum": "b61bd7994c1332afc154118a8d2d2f81",
+      "folder": false
+    },
+    {
+      "id": "1i8vE_0di_5vFbzGbcFPyyWyH_JbCYuLB",
+      "parent_id": "1nJEwGR-3i5XA7bgjBOs8a-DJD09aLIBt",
+      "name": "HỒI KÝ SƠN NAM TOÀN TẬP.epub",
+      "mime": "application/epub+zip",
+      "size": 414810,
+      "modified": "2026-08-15T06:51:23.000Z",
+      "checksum": "b626fcd7632cef4255adaee654de3701",
+      "folder": false
+    },
+    {
+      "id": "1FEt1gJAA1Sntwy9wxJIqP0ly3ktVIcrz",
+      "parent_id": "1nJEwGR-3i5XA7bgjBOs8a-DJD09aLIBt",
+      "name": "HỒI KÝ SƠN NAM TOÀN TẬP.pdf",
+      "mime": "application/pdf",
+      "size": 1122196,
+      "modified": "2026-08-15T06:51:20.000Z",
+      "checksum": "43fe411ff21b9d48b3c8872c382a97dc",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ii9EeDXWpOogkkuin-JmHcaYS1y9dDNG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rwFeZwUbuyB8gp6k8ZNZmDCXpTpAMoin",
+      "parent_id": "1ii9EeDXWpOogkkuin-JmHcaYS1y9dDNG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8339,
+      "modified": "2026-08-15T00:53:43.000Z",
+      "checksum": "b2a3e75c82f03efb41252d4e703ee746",
+      "folder": false
+    },
+    {
+      "id": "1Oyh_Fh14C6emsv_kc5Chx3gHYojDC_pO",
+      "parent_id": "1ii9EeDXWpOogkkuin-JmHcaYS1y9dDNG",
+      "name": "SỨC MẠNH CỦA TRÍ TUỆ SÁNG TẠO.epub",
+      "mime": "application/epub+zip",
+      "size": 1524571,
+      "modified": "2026-08-15T00:53:50.000Z",
+      "checksum": "78df195150f38da38883e1bc3d4ac9da",
+      "folder": false
+    },
+    {
+      "id": "1jyLoIMKnl9QV9BKuP8JwT2cKQUfb0QyX",
+      "parent_id": "1ii9EeDXWpOogkkuin-JmHcaYS1y9dDNG",
+      "name": "SỨC MẠNH CỦA TRÍ TUỆ SÁNG TẠO.pdf",
+      "mime": "application/pdf",
+      "size": 2625663,
+      "modified": "2026-08-15T00:53:47.000Z",
+      "checksum": "6ea044b7edd1c4ccffddde21a05167b3",
+      "folder": false
+    }
+  ]
+}

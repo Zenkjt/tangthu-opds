@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Qy1FBvhhhDsXzWn0e_hkTtO1XojVfk4W",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FyrCUn1NYLAwo2Zz4kWjQHlfMdXe3Mhh",
+      "parent_id": "1Qy1FBvhhhDsXzWn0e_hkTtO1XojVfk4W",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6173,
+      "modified": "2026-08-16T03:04:20.000Z",
+      "checksum": "5568b9fe13a0883501ff784ba553135a",
+      "folder": false
+    },
+    {
+      "id": "1Ua5krMmmaVfnM2djyCKvlfi0l6wSjlWC",
+      "parent_id": "1Qy1FBvhhhDsXzWn0e_hkTtO1XojVfk4W",
+      "name": "NGỰA CHỨNG TRONG SÂN TRƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 330567,
+      "modified": "2026-08-16T03:04:27.000Z",
+      "checksum": "d457fecd836b52c9041343e1e7dc9f13",
+      "folder": false
+    },
+    {
+      "id": "1_uJvFkE4XklXhHpEEN8t2I4m7eeth2Vy",
+      "parent_id": "1Qy1FBvhhhDsXzWn0e_hkTtO1XojVfk4W",
+      "name": "NGỰA CHỨNG TRONG SÂN TRƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 560894,
+      "modified": "2026-08-16T03:04:24.000Z",
+      "checksum": "53f2e9be066ed915718a64815e69791e",
+      "folder": false
+    }
+  ]
+}

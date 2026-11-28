@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AlBBfF0FalOom7KlxrGVTvcWlIr5p5zE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yF1_VLkjpe4sllTNRGvdL7OuYPTAZSLn",
+      "parent_id": "1AlBBfF0FalOom7KlxrGVTvcWlIr5p5zE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6969,
+      "modified": "2026-08-15T07:53:24.000Z",
+      "checksum": "9f34a89f8a6d6910422ab42bb93c0b44",
+      "folder": false
+    },
+    {
+      "id": "1SR0SYweQwNGmwrlTBz2-WhgQn6DvG1nF",
+      "parent_id": "1AlBBfF0FalOom7KlxrGVTvcWlIr5p5zE",
+      "name": "HÔN NHÂN GIẤY.epub",
+      "mime": "application/epub+zip",
+      "size": 645878,
+      "modified": "2026-08-15T07:53:46.000Z",
+      "checksum": "2f13e5558adee7e70f0c96d6e795f2f6",
+      "folder": false
+    },
+    {
+      "id": "1y47-8_s_uMAfFUz8je2pcu60QCr42dCO",
+      "parent_id": "1AlBBfF0FalOom7KlxrGVTvcWlIr5p5zE",
+      "name": "HÔN NHÂN GIẤY.pdf",
+      "mime": "application/pdf",
+      "size": 2436869,
+      "modified": "2026-08-15T07:53:40.000Z",
+      "checksum": "5fa1770ac2639f333a95a1ceef86d7f1",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lCjvuvlb_x4LIktr5YZ9-oADCRN7JEb-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TUFxecFYGWI6Z7M5ek17KEpLtcScEgLb",
+      "parent_id": "1lCjvuvlb_x4LIktr5YZ9-oADCRN7JEb-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7586,
+      "modified": "2026-08-16T03:08:57.000Z",
+      "checksum": "edc288017cb2bfe78d172ee4a26271bc",
+      "folder": false
+    },
+    {
+      "id": "1dz1GTdy0DpI13O_SPzkgdxN8ULoSO1jc",
+      "parent_id": "1lCjvuvlb_x4LIktr5YZ9-oADCRN7JEb-",
+      "name": "NGƯỜI ĐÀN BÀ ĐÁNG SỢ.epub",
+      "mime": "application/epub+zip",
+      "size": 556532,
+      "modified": "2026-08-16T03:09:03.000Z",
+      "checksum": "7542f1b698b56b9b4e3c19c0232acb62",
+      "folder": false
+    },
+    {
+      "id": "1Y3w-Gld6pkdZ2xY5bXdnKezlJNn5RGsI",
+      "parent_id": "1lCjvuvlb_x4LIktr5YZ9-oADCRN7JEb-",
+      "name": "NGƯỜI ĐÀN BÀ ĐÁNG SỢ.pdf",
+      "mime": "application/pdf",
+      "size": 699404,
+      "modified": "2026-08-16T03:09:00.000Z",
+      "checksum": "9c0bae4979fa71b7e969614565ec489f",
+      "folder": false
+    }
+  ]
+}

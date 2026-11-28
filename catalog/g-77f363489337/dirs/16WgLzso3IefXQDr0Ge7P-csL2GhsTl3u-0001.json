@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16WgLzso3IefXQDr0Ge7P-csL2GhsTl3u",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YvarAR8Ubj1tS-gT3fN56A0smw1Axyxt",
+      "parent_id": "16WgLzso3IefXQDr0Ge7P-csL2GhsTl3u",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3274,
+      "modified": "2026-08-15T15:39:03.000Z",
+      "checksum": "1d94de787e8ba6e44606d0b424c379f0",
+      "folder": false
+    },
+    {
+      "id": "1TdVMe1FFSsXhN5ppApclEO-GK9feJt4j",
+      "parent_id": "16WgLzso3IefXQDr0Ge7P-csL2GhsTl3u",
+      "name": "OAN HỒN.epub",
+      "mime": "application/epub+zip",
+      "size": 200511,
+      "modified": "2026-08-15T15:39:10.000Z",
+      "checksum": "9d21c7bb1ab4060ab51e21a2dde670f0",
+      "folder": false
+    },
+    {
+      "id": "11JUmUtzqpZpnLOZA4hNybNdvnrwvxDOI",
+      "parent_id": "16WgLzso3IefXQDr0Ge7P-csL2GhsTl3u",
+      "name": "OAN HỒN.pdf",
+      "mime": "application/pdf",
+      "size": 98173,
+      "modified": "2026-08-15T15:39:06.000Z",
+      "checksum": "7220ec67ee1dec3be8b08e5bf6c080b1",
+      "folder": false
+    }
+  ]
+}

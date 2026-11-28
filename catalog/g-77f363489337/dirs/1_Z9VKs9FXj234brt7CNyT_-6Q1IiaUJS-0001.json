@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_Z9VKs9FXj234brt7CNyT_-6Q1IiaUJS",
+  "page": 1,
+  "items": [
+    {
+      "id": "17Uh8nnbfTF-3xh2xIfUbTGAqtyZLgvwn",
+      "parent_id": "1_Z9VKs9FXj234brt7CNyT_-6Q1IiaUJS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 850,
+      "modified": "2026-08-15T12:59:57.000Z",
+      "checksum": "e1bb8c31aa594026c9218e9863bd476a",
+      "folder": false
+    },
+    {
+      "id": "1b9-ZJlOV78t9znSmG-UzS55T2YWXIE0p",
+      "parent_id": "1_Z9VKs9FXj234brt7CNyT_-6Q1IiaUJS",
+      "name": "NGÔI LÀNG BỊ LỤT.epub",
+      "mime": "application/epub+zip",
+      "size": 515314,
+      "modified": "2026-08-15T13:00:15.000Z",
+      "checksum": "bb22f2d44d08309ae7d275c9c52f0855",
+      "folder": false
+    },
+    {
+      "id": "17r-XHdbpqvQDsLwc8o6T19vkFjkOuOOH",
+      "parent_id": "1_Z9VKs9FXj234brt7CNyT_-6Q1IiaUJS",
+      "name": "NGÔI LÀNG BỊ LỤT.pdf",
+      "mime": "application/pdf",
+      "size": 509685,
+      "modified": "2026-08-15T13:00:01.000Z",
+      "checksum": "f69f17f13ba5e39f8d264b12df3824af",
+      "folder": false
+    }
+  ]
+}

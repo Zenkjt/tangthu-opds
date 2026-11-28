@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xrRUe3KlRRZkJkgXbeY3V_H32wP6q9bz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jb1O_gtLfghiRJ37ID_fQtMZr3r6H34k",
+      "parent_id": "1xrRUe3KlRRZkJkgXbeY3V_H32wP6q9bz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3957,
+      "modified": "2026-08-15T06:49:48.000Z",
+      "checksum": "cbdc0c40640a6c5271a3654cd58efd70",
+      "folder": false
+    },
+    {
+      "id": "1S1jQSfyh3MLa8vb7llwFmaM6ZYhLoPKG",
+      "parent_id": "1xrRUe3KlRRZkJkgXbeY3V_H32wP6q9bz",
+      "name": "ÁN MẠNG TRÊN SÔNG NILE.epub",
+      "mime": "application/epub+zip",
+      "size": 490057,
+      "modified": "2026-08-15T06:49:55.000Z",
+      "checksum": "0c9bdad154b9ddff69970fe53332fd5c",
+      "folder": false
+    },
+    {
+      "id": "1kcFd4xvyeLxHz9qT3qFn_KpuaD-kBttI",
+      "parent_id": "1xrRUe3KlRRZkJkgXbeY3V_H32wP6q9bz",
+      "name": "ÁN MẠNG TRÊN SÔNG NILE.pdf",
+      "mime": "application/pdf",
+      "size": 1060164,
+      "modified": "2026-08-15T06:49:52.000Z",
+      "checksum": "708bf699bae86c540b7426912aa4bca5",
+      "folder": false
+    }
+  ]
+}

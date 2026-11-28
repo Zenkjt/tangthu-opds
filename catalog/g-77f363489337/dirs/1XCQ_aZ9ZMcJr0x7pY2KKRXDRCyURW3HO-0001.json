@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XCQ_aZ9ZMcJr0x7pY2KKRXDRCyURW3HO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bk3x1TRGQ7NL7vNAmxACh3jRFU4lUzIc",
+      "parent_id": "1XCQ_aZ9ZMcJr0x7pY2KKRXDRCyURW3HO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5392,
+      "modified": "2026-08-16T02:53:52.000Z",
+      "checksum": "9490ad046f668c7afaa571199c511ea0",
+      "folder": false
+    },
+    {
+      "id": "1SYKZgS5pQUefttZkhQ1BUX1q8jZFpLCx",
+      "parent_id": "1XCQ_aZ9ZMcJr0x7pY2KKRXDRCyURW3HO",
+      "name": "MỘT CHUYẾN ĐI XA.epub",
+      "mime": "application/epub+zip",
+      "size": 328228,
+      "modified": "2026-08-16T02:53:59.000Z",
+      "checksum": "eb5ee0190ea636d5538190b2d840af0f",
+      "folder": false
+    },
+    {
+      "id": "1P9haZmpB0MKmvWPQRHK5fqs4lcfO68rl",
+      "parent_id": "1XCQ_aZ9ZMcJr0x7pY2KKRXDRCyURW3HO",
+      "name": "MỘT CHUYẾN ĐI XA.pdf",
+      "mime": "application/pdf",
+      "size": 279249,
+      "modified": "2026-08-16T02:53:56.000Z",
+      "checksum": "9b34fc8a6564cb665a6aa298dea1b307",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PMEszaVKc8-E25hy9cumuGIDs021EYzl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UlCe9CUNj9biOrvqrhU1UygzDbz4JL0u",
+      "parent_id": "1PMEszaVKc8-E25hy9cumuGIDs021EYzl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5877,
+      "modified": "2026-08-16T03:44:02.000Z",
+      "checksum": "b939ebc4b93db1b4270faee914c9adf1",
+      "folder": false
+    },
+    {
+      "id": "1oMHbBQ20UPOsNN4UzqqFZakQIvre97Od",
+      "parent_id": "1PMEszaVKc8-E25hy9cumuGIDs021EYzl",
+      "name": "ĐÁNH CƯỚC VỚI YÊU THƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 601991,
+      "modified": "2026-08-16T03:44:08.000Z",
+      "checksum": "b25a6e6d40b1e9e2ae4d897f36333038",
+      "folder": false
+    },
+    {
+      "id": "1IkOWbzXO5BvxpYCmPmVhwEiv1AbQSPd-",
+      "parent_id": "1PMEszaVKc8-E25hy9cumuGIDs021EYzl",
+      "name": "ĐÁNH CƯỚC VỚI YÊU THƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1085564,
+      "modified": "2026-08-16T03:44:06.000Z",
+      "checksum": "183d3a4809ea7840e84e52d5e0543bfe",
+      "folder": false
+    }
+  ]
+}

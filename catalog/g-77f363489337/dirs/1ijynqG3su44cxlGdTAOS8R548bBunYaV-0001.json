@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ijynqG3su44cxlGdTAOS8R548bBunYaV",
+  "page": 1,
+  "items": [
+    {
+      "id": "19bX3ObqpoAx6DaHxZT-DeQ6zU-SmOMcd",
+      "parent_id": "1ijynqG3su44cxlGdTAOS8R548bBunYaV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4477,
+      "modified": "2026-08-15T07:50:29.000Z",
+      "checksum": "c0e93cebcd9f675d946f7212b36296cb",
+      "folder": false
+    },
+    {
+      "id": "1WZOSPFT8fZqDnoMKeKLcXoQ-oJdmf5lB",
+      "parent_id": "1ijynqG3su44cxlGdTAOS8R548bBunYaV",
+      "name": "HÃY ĐỂ ANH Ở BÊN EM.epub",
+      "mime": "application/epub+zip",
+      "size": 718880,
+      "modified": "2026-08-15T07:50:41.000Z",
+      "checksum": "f8d5f6c2fa04b2aa4591ee0d6027be29",
+      "folder": false
+    },
+    {
+      "id": "1y_M7CVDsB937duiHKbJfYXXmlvMf9E1D",
+      "parent_id": "1ijynqG3su44cxlGdTAOS8R548bBunYaV",
+      "name": "HÃY ĐỂ ANH Ở BÊN EM.pdf",
+      "mime": "application/pdf",
+      "size": 1681895,
+      "modified": "2026-08-15T07:50:38.000Z",
+      "checksum": "4aacbd50a534e7e0c77ddc1e61e0d59c",
+      "folder": false
+    }
+  ]
+}

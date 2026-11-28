@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ps8sSgDNUSrxYXG0y2B83PtUeDqq9H3X",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EKpEO2YdqfhOK2m6X8ICN77I_Mu6TcYQ",
+      "parent_id": "1ps8sSgDNUSrxYXG0y2B83PtUeDqq9H3X",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3064,
+      "modified": "2026-08-16T02:43:31.000Z",
+      "checksum": "b18604f8f956b89d624fad65871c6019",
+      "folder": false
+    },
+    {
+      "id": "1IOR_nX4YwbX9hxMJgZnw7IN4kUmi2v6w",
+      "parent_id": "1ps8sSgDNUSrxYXG0y2B83PtUeDqq9H3X",
+      "name": "KHU VƯỜN NGÔN TỪ.epub",
+      "mime": "application/epub+zip",
+      "size": 633433,
+      "modified": "2026-08-16T02:43:38.000Z",
+      "checksum": "01fd9da07023c4d142cdc507b485992a",
+      "folder": false
+    },
+    {
+      "id": "10rp_JLVVuPnBLm_AEAmCrZO-O7MEnxFa",
+      "parent_id": "1ps8sSgDNUSrxYXG0y2B83PtUeDqq9H3X",
+      "name": "KHU VƯỜN NGÔN TỪ.pdf",
+      "mime": "application/pdf",
+      "size": 1080242,
+      "modified": "2026-08-16T02:43:35.000Z",
+      "checksum": "4e4e1076549de8aa8746b6b524288188",
+      "folder": false
+    }
+  ]
+}

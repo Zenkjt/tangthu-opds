@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FZCiPFwgN8OE76w-elgEh6QvGphvvYv5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DpOm-tA87QZBvrSYIKRaLaICBMcLNRTO",
+      "parent_id": "1FZCiPFwgN8OE76w-elgEh6QvGphvvYv5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 616,
+      "modified": "2026-08-15T13:02:45.000Z",
+      "checksum": "c26f037e41d785d78dbc222733006f35",
+      "folder": false
+    },
+    {
+      "id": "1y4VMQlAcCi_SfEzITpeEzEpx9DG26Q-B",
+      "parent_id": "1FZCiPFwgN8OE76w-elgEh6QvGphvvYv5",
+      "name": "LỬA TRONG THÀNH PHỐ SẨM TỐI.epub",
+      "mime": "application/epub+zip",
+      "size": 595521,
+      "modified": "2026-08-15T13:02:51.000Z",
+      "checksum": "2153cf4c97bd6730cb4daa96b046fb90",
+      "folder": false
+    },
+    {
+      "id": "1kVI-B95qbJdP2JNrag6j5Kq7d84yN-BQ",
+      "parent_id": "1FZCiPFwgN8OE76w-elgEh6QvGphvvYv5",
+      "name": "LỬA TRONG THÀNH PHỐ SẨM TỐI.pdf",
+      "mime": "application/pdf",
+      "size": 823469,
+      "modified": "2026-08-15T13:02:48.000Z",
+      "checksum": "8ef4f2b700920358755003b86dbbf77e",
+      "folder": false
+    }
+  ]
+}

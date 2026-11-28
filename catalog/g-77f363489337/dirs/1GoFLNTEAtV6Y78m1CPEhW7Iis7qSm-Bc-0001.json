@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GoFLNTEAtV6Y78m1CPEhW7Iis7qSm-Bc",
+  "page": 1,
+  "items": [
+    {
+      "id": "132l-y2w_wMMxoHOGSD0u4MwdV57HemTG",
+      "parent_id": "1GoFLNTEAtV6Y78m1CPEhW7Iis7qSm-Bc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3064,
+      "modified": "2026-08-15T10:15:47.000Z",
+      "checksum": "0c05b580dcad2c52c395a2f2af393400",
+      "folder": false
+    },
+    {
+      "id": "11IGxszFEqt4IcHudLvD0sxKbG_SV9Q5o",
+      "parent_id": "1GoFLNTEAtV6Y78m1CPEhW7Iis7qSm-Bc",
+      "name": "THẦY GIÁO ÁC MA.epub",
+      "mime": "application/epub+zip",
+      "size": 398564,
+      "modified": "2026-08-15T10:15:54.000Z",
+      "checksum": "74872b5f5614f5035211a7faaff2428e",
+      "folder": false
+    },
+    {
+      "id": "1KVDoiO3fIfaS7iOkuFHXA3WPYDl0BuhF",
+      "parent_id": "1GoFLNTEAtV6Y78m1CPEhW7Iis7qSm-Bc",
+      "name": "THẦY GIÁO ÁC MA.pdf",
+      "mime": "application/pdf",
+      "size": 584395,
+      "modified": "2026-08-15T10:15:51.000Z",
+      "checksum": "b7bafd58244beff7d8a1eb0795e9960e",
+      "folder": false
+    }
+  ]
+}

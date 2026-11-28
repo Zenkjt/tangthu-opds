@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1P2tNs3Gqiz-sogPIF69NKTj0rUU2Wat5",
+  "page": 1,
+  "items": [
+    {
+      "id": "100Jg7CPuQywVq_Fa5b06Tf7wd2PsTkwL",
+      "parent_id": "1P2tNs3Gqiz-sogPIF69NKTj0rUU2Wat5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3318,
+      "modified": "2026-08-15T10:28:44.000Z",
+      "checksum": "c56234576d2602e5e3e388a1a6f48306",
+      "folder": false
+    },
+    {
+      "id": "1tocMw6sETGYOQa2Ip1AJaBu4y-2Yl53F",
+      "parent_id": "1P2tNs3Gqiz-sogPIF69NKTj0rUU2Wat5",
+      "name": "RỪNG TỬ VONG.epub",
+      "mime": "application/epub+zip",
+      "size": 856240,
+      "modified": "2026-08-15T10:29:05.000Z",
+      "checksum": "9f33911f7e39b4f8b666e1deb02c0df2",
+      "folder": false
+    },
+    {
+      "id": "1vEnLuU3NUPAu3-0whZmskdi3GcYh32mT",
+      "parent_id": "1P2tNs3Gqiz-sogPIF69NKTj0rUU2Wat5",
+      "name": "RỪNG TỬ VONG.pdf",
+      "mime": "application/pdf",
+      "size": 2005194,
+      "modified": "2026-08-15T10:28:58.000Z",
+      "checksum": "bbfa2683875d8aefd5039664019ef4e1",
+      "folder": false
+    }
+  ]
+}

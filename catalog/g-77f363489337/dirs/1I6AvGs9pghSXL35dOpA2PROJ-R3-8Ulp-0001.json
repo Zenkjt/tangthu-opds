@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1I6AvGs9pghSXL35dOpA2PROJ-R3-8Ulp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zjscoN-X2lxF0EiUrbX7mxdL9BANyTjK",
+      "parent_id": "1I6AvGs9pghSXL35dOpA2PROJ-R3-8Ulp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9975,
+      "modified": "2026-08-15T11:29:53.000Z",
+      "checksum": "f652a851f3c14edf90e63cb312bc0694",
+      "folder": false
+    },
+    {
+      "id": "1EgG-7xOKKt-DK5W6Q_Rgj4BxvbRC7FM6",
+      "parent_id": "1I6AvGs9pghSXL35dOpA2PROJ-R3-8Ulp",
+      "name": "NGHỆ THUẬT VÀ VẬT LÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 3796296,
+      "modified": "2026-08-15T11:30:02.000Z",
+      "checksum": "91c53eb3053f0b729d883959d96936ff",
+      "folder": false
+    },
+    {
+      "id": "1f_jLGS5IR3qRLX_3Ed6g2XO_ex8WGYAH",
+      "parent_id": "1I6AvGs9pghSXL35dOpA2PROJ-R3-8Ulp",
+      "name": "NGHỆ THUẬT VÀ VẬT LÍ.pdf",
+      "mime": "application/pdf",
+      "size": 5889938,
+      "modified": "2026-08-15T11:29:59.000Z",
+      "checksum": "3d99b3c67d9b2f4012a261dd9b3048cd",
+      "folder": false
+    }
+  ]
+}

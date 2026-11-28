@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gdm3uLaW42M5x3DZN7-VIaZvw2rycaZD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZdxmuX3V8AaRA2TtqTS59iTxFK0PgluU",
+      "parent_id": "1gdm3uLaW42M5x3DZN7-VIaZvw2rycaZD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2189,
+      "modified": "2026-08-15T08:04:06.000Z",
+      "checksum": "82cadf0d640fff905196f3d1187f30af",
+      "folder": false
+    },
+    {
+      "id": "1oPLrizitgaXIknajCW33IZb3CcplPKh8",
+      "parent_id": "1gdm3uLaW42M5x3DZN7-VIaZvw2rycaZD",
+      "name": "HOÀNG TỬ VÀ CHÚ BÉ NGHÈO KHỔ.epub",
+      "mime": "application/epub+zip",
+      "size": 3918339,
+      "modified": "2026-08-15T08:04:14.000Z",
+      "checksum": "cd9a7e47bb9ad4a4e2a9b7ecb1049115",
+      "folder": false
+    },
+    {
+      "id": "1f-P5CtaF9IMFASWN6UUY9INp-hDLMsMD",
+      "parent_id": "1gdm3uLaW42M5x3DZN7-VIaZvw2rycaZD",
+      "name": "HOÀNG TỬ VÀ CHÚ BÉ NGHÈO KHỔ.pdf",
+      "mime": "application/pdf",
+      "size": 4535467,
+      "modified": "2026-08-15T08:04:10.000Z",
+      "checksum": "79ea4addad0a12543f602ab4b42d9a47",
+      "folder": false
+    }
+  ]
+}

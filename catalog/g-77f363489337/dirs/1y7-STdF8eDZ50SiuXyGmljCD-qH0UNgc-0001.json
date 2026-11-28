@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1y7-STdF8eDZ50SiuXyGmljCD-qH0UNgc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Y2zDDwUZqklFedBrzFhBdesZ22kQRlU-",
+      "parent_id": "1y7-STdF8eDZ50SiuXyGmljCD-qH0UNgc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2074,
+      "modified": "2026-08-15T03:24:19.000Z",
+      "checksum": "59d56045a749aa78739cfea2766741bc",
+      "folder": false
+    },
+    {
+      "id": "1pb7CKqHJuXHsA-U3SGvBBc3s4CIT2LV7",
+      "parent_id": "1y7-STdF8eDZ50SiuXyGmljCD-qH0UNgc",
+      "name": "THINH LẶNG CŨNG LÀ HÙNG BIỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 337346,
+      "modified": "2026-08-15T03:24:26.000Z",
+      "checksum": "5a586477a624f452ac575d9145b4ee1d",
+      "folder": false
+    },
+    {
+      "id": "1Jk6QG9rpw4uHuFegtlDvncj5dggYS68K",
+      "parent_id": "1y7-STdF8eDZ50SiuXyGmljCD-qH0UNgc",
+      "name": "THINH LẶNG CŨNG LÀ HÙNG BIỆN.pdf",
+      "mime": "application/pdf",
+      "size": 622286,
+      "modified": "2026-08-15T03:24:23.000Z",
+      "checksum": "d72de3dbb9024e5eedacd7ad9374869b",
+      "folder": false
+    }
+  ]
+}

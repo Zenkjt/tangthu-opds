@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wxgn9mrY-RMg2DLQ3dSQSvTqAbTB-2Dp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lDVnHN1w00F-8opdgQOikvEVORL0NDfc",
+      "parent_id": "1wxgn9mrY-RMg2DLQ3dSQSvTqAbTB-2Dp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2953,
+      "modified": "2026-08-15T05:46:39.000Z",
+      "checksum": "00c6a4add2b3445cc8ccbe7ccbbbe661",
+      "folder": false
+    },
+    {
+      "id": "1WoYdSppJLV9ifuUfOb57IIfHpzHLaIOS",
+      "parent_id": "1wxgn9mrY-RMg2DLQ3dSQSvTqAbTB-2Dp",
+      "name": "NÀO TỐI NAY ĂN GÌ.epub",
+      "mime": "application/epub+zip",
+      "size": 659871,
+      "modified": "2026-08-15T05:46:49.000Z",
+      "checksum": "5b3e630de22463073a3458a3559b9111",
+      "folder": false
+    },
+    {
+      "id": "13l0JANSuEbAVZ6cX29EoqruSwxUDhDcD",
+      "parent_id": "1wxgn9mrY-RMg2DLQ3dSQSvTqAbTB-2Dp",
+      "name": "NÀO TỐI NAY ĂN GÌ.pdf",
+      "mime": "application/pdf",
+      "size": 2044782,
+      "modified": "2026-08-15T05:46:46.000Z",
+      "checksum": "08cb3d1e7cc94e413ffa2bb6031868e7",
+      "folder": false
+    }
+  ]
+}

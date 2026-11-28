@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hY6ydJ1gzdM9UT20yUWt7xHodkr5GX2q",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ENnRFdsC4kbmib5F0ef4s5JLQPN1Qq1N",
+      "parent_id": "1hY6ydJ1gzdM9UT20yUWt7xHodkr5GX2q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4005,
+      "modified": "2026-08-15T06:57:54.000Z",
+      "checksum": "e21b32e455ac6949d9a28197ca5259c5",
+      "folder": false
+    },
+    {
+      "id": "1ZooPPZ8X1vAmmke9xjTYO4BAYpxqfspr",
+      "parent_id": "1hY6ydJ1gzdM9UT20yUWt7xHodkr5GX2q",
+      "name": "TRONG GIA ĐÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 1018375,
+      "modified": "2026-08-15T06:58:00.000Z",
+      "checksum": "7a8edd6249e39e79c1afa19f1a63152c",
+      "folder": false
+    },
+    {
+      "id": "1L6T3wMwtBBxDYQvfJ9vUUrnNtCuGVcTD",
+      "parent_id": "1hY6ydJ1gzdM9UT20yUWt7xHodkr5GX2q",
+      "name": "TRONG GIA ĐÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 1087753,
+      "modified": "2026-08-15T06:57:58.000Z",
+      "checksum": "efc5510ceb35ec4b44cf76751fbdb1e5",
+      "folder": false
+    }
+  ]
+}

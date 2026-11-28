@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ogmpbA51E4snPOgXcVsKNtSkYepBdtCO",
+  "page": 1,
+  "items": [
+    {
+      "id": "14EnXE1q9otHn-Xikgg4qUO0ZrVI7bnfz",
+      "parent_id": "1ogmpbA51E4snPOgXcVsKNtSkYepBdtCO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3151,
+      "modified": "2026-08-16T03:48:34.000Z",
+      "checksum": "71c312d0671cca44cd0b388cdca9df75",
+      "folder": false
+    },
+    {
+      "id": "12_IGUDByLI1EQDpeoOJaOIw1GlMk35XW",
+      "parent_id": "1ogmpbA51E4snPOgXcVsKNtSkYepBdtCO",
+      "name": "NHỮNG CUỘC PHIÊU LƯU CỦA CÁO RƠNA.epub",
+      "mime": "application/epub+zip",
+      "size": 332070,
+      "modified": "2026-08-16T03:48:40.000Z",
+      "checksum": "1be11485282ece3c81b21b3a7764cc96",
+      "folder": false
+    },
+    {
+      "id": "1-ZUMzAHXvmVGaMUeg75ztSawD8QRfQqD",
+      "parent_id": "1ogmpbA51E4snPOgXcVsKNtSkYepBdtCO",
+      "name": "NHỮNG CUỘC PHIÊU LƯU CỦA CÁO RƠNA.pdf",
+      "mime": "application/pdf",
+      "size": 531187,
+      "modified": "2026-08-16T03:48:37.000Z",
+      "checksum": "47363255fef1707ed7a758b05a408bb4",
+      "folder": false
+    }
+  ]
+}

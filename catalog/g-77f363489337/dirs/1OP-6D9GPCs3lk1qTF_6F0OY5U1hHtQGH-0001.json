@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OP-6D9GPCs3lk1qTF_6F0OY5U1hHtQGH",
+  "page": 1,
+  "items": [
+    {
+      "id": "16tENupRB2Xual1hjUFtkcmLiTqwUDaNX",
+      "parent_id": "1OP-6D9GPCs3lk1qTF_6F0OY5U1hHtQGH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7605,
+      "modified": "2026-08-15T06:19:23.000Z",
+      "checksum": "e86eadd704ae53040976d5637e1890f0",
+      "folder": false
+    },
+    {
+      "id": "1S-OLcu_7tjnDvtZe6YAg2B85cWncBs-b",
+      "parent_id": "1OP-6D9GPCs3lk1qTF_6F0OY5U1hHtQGH",
+      "name": "SỐNG ĐẸP.epub",
+      "mime": "application/epub+zip",
+      "size": 610562,
+      "modified": "2026-08-15T06:19:30.000Z",
+      "checksum": "2786caf41fccc70f048c46f23e4ef811",
+      "folder": false
+    },
+    {
+      "id": "17dYKSAVYr_uxzuc56hrdZy-yZxMQVt9y",
+      "parent_id": "1OP-6D9GPCs3lk1qTF_6F0OY5U1hHtQGH",
+      "name": "SỐNG ĐẸP.pdf",
+      "mime": "application/pdf",
+      "size": 2461642,
+      "modified": "2026-08-15T06:19:27.000Z",
+      "checksum": "a8582a417a3c401b03e73fee12972694",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19Cetvtz8LSWjUnUl1Mv-SoQxQVOzSO0o",
+  "page": 1,
+  "items": [
+    {
+      "id": "19R5IbeMOpjeunK8eEAK4WloxWysojcLo",
+      "parent_id": "19Cetvtz8LSWjUnUl1Mv-SoQxQVOzSO0o",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3741,
+      "modified": "2026-08-15T10:02:40.000Z",
+      "checksum": "67393aa31becf038b19ce1286f759e5e",
+      "folder": false
+    },
+    {
+      "id": "1rxFuA_GUrHHCGGqCWWqSKdWeYWX3OWmx",
+      "parent_id": "19Cetvtz8LSWjUnUl1Mv-SoQxQVOzSO0o",
+      "name": "TRUYỀN THUYẾT VIỆT NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 608951,
+      "modified": "2026-08-15T10:03:35.000Z",
+      "checksum": "e5d649e51059f621cbd6a1deb048f281",
+      "folder": false
+    },
+    {
+      "id": "1AUGRMbo5FZ1RytA3doDCmBqQ9f_FREs6",
+      "parent_id": "19Cetvtz8LSWjUnUl1Mv-SoQxQVOzSO0o",
+      "name": "TRUYỀN THUYẾT VIỆT NAM.pdf",
+      "mime": "application/pdf",
+      "size": 1325655,
+      "modified": "2026-08-15T10:03:25.000Z",
+      "checksum": "195fe784c02704a7160d208fa28404ea",
+      "folder": false
+    }
+  ]
+}

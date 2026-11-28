@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Di6-Fl60LQb5EkG2AhHxXcd9KkeXZO8y",
+  "page": 1,
+  "items": [
+    {
+      "id": "12fAO99itg8mOc_ap-GV2Iyb-4ImlKSuF",
+      "parent_id": "1Di6-Fl60LQb5EkG2AhHxXcd9KkeXZO8y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3065,
+      "modified": "2026-08-16T03:53:31.000Z",
+      "checksum": "b9c120feb51eb6c52be67318db90bc52",
+      "folder": false
+    },
+    {
+      "id": "19LeMzPpWlZk9suzgAYYfEh6Uw2JdDAT3",
+      "parent_id": "1Di6-Fl60LQb5EkG2AhHxXcd9KkeXZO8y",
+      "name": "TÌNH YÊU MÀU HOA ANH TÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 554475,
+      "modified": "2026-08-16T03:53:38.000Z",
+      "checksum": "42403059b8ed8e2ce79667d71002b002",
+      "folder": false
+    },
+    {
+      "id": "1f1ftfwxnuXoUfTMRzVOs5JrB6tZM9Jh6",
+      "parent_id": "1Di6-Fl60LQb5EkG2AhHxXcd9KkeXZO8y",
+      "name": "TÌNH YÊU MÀU HOA ANH TÚC.pdf",
+      "mime": "application/pdf",
+      "size": 1497770,
+      "modified": "2026-08-16T03:53:36.000Z",
+      "checksum": "96c38a196010a1fc28491e3040e1af0a",
+      "folder": false
+    }
+  ]
+}

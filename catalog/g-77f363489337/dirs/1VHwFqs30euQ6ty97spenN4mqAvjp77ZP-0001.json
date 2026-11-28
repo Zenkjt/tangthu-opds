@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VHwFqs30euQ6ty97spenN4mqAvjp77ZP",
+  "page": 1,
+  "items": [
+    {
+      "id": "12sNB6nvzjSjo8vcMr7j3Ohv4IFjOTu-z",
+      "parent_id": "1VHwFqs30euQ6ty97spenN4mqAvjp77ZP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6688,
+      "modified": "2026-08-15T07:39:38.000Z",
+      "checksum": "a7309735ae9ec44dae1c6f77dedc5c3c",
+      "folder": false
+    },
+    {
+      "id": "19n4DKM-ugeQO1KO_3mawUM9KyIoR76wh",
+      "parent_id": "1VHwFqs30euQ6ty97spenN4mqAvjp77ZP",
+      "name": "HIỆP HÀNH THIÊN HẠ.epub",
+      "mime": "application/epub+zip",
+      "size": 775421,
+      "modified": "2026-08-15T07:39:45.000Z",
+      "checksum": "11c39c254501491e26077b63da4591e3",
+      "folder": false
+    },
+    {
+      "id": "1m2ctyV5EhbqI5N7YC3frX1E5yFkph41f",
+      "parent_id": "1VHwFqs30euQ6ty97spenN4mqAvjp77ZP",
+      "name": "HIỆP HÀNH THIÊN HẠ.pdf",
+      "mime": "application/pdf",
+      "size": 921096,
+      "modified": "2026-08-15T07:39:42.000Z",
+      "checksum": "ab318974b54a23e18d4e60531d308132",
+      "folder": false
+    }
+  ]
+}

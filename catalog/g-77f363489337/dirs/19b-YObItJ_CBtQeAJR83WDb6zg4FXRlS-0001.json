@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19b-YObItJ_CBtQeAJR83WDb6zg4FXRlS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-M28qISyEbKJpG9zfJfWiQd7HPXG73VO",
+      "parent_id": "19b-YObItJ_CBtQeAJR83WDb6zg4FXRlS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5174,
+      "modified": "2026-08-15T15:32:59.000Z",
+      "checksum": "cc7cd54c72dda44d1deeb2e7206f315e",
+      "folder": false
+    },
+    {
+      "id": "15MtjqnADcqVMiisbnDr7q4fhC7hYKK8E",
+      "parent_id": "19b-YObItJ_CBtQeAJR83WDb6zg4FXRlS",
+      "name": "KINH CẦU HỒN CHO AI.epub",
+      "mime": "application/epub+zip",
+      "size": 516544,
+      "modified": "2026-08-15T15:33:06.000Z",
+      "checksum": "6d5013d14a2720d29cf5632f637cdd50",
+      "folder": false
+    },
+    {
+      "id": "1WWpylpOWvlMQFGMSnRYmiDG6Sfl8S-lj",
+      "parent_id": "19b-YObItJ_CBtQeAJR83WDb6zg4FXRlS",
+      "name": "KINH CẦU HỒN CHO AI.pdf",
+      "mime": "application/pdf",
+      "size": 646953,
+      "modified": "2026-08-15T15:33:03.000Z",
+      "checksum": "c3595c55678497a0e9555818abacdf50",
+      "folder": false
+    }
+  ]
+}

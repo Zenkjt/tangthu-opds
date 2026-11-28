@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1e3doZfS3rzah58MRoPmJ8FaG7H8YEXv6",
+  "page": 1,
+  "items": [
+    {
+      "id": "19uKFsDZcTucPuHEIwoSgGsnOhhzjr-4p",
+      "parent_id": "1e3doZfS3rzah58MRoPmJ8FaG7H8YEXv6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1511,
+      "modified": "2026-08-15T04:03:03.000Z",
+      "checksum": "b359a35cf2cda876745822299193e205",
+      "folder": false
+    },
+    {
+      "id": "1fxe1p1yCb5c5noEsXhg16QvP1Uh3BZm7",
+      "parent_id": "1e3doZfS3rzah58MRoPmJ8FaG7H8YEXv6",
+      "name": "ĐỂ CÓ MỘT TƯƠNG LAI.epub",
+      "mime": "application/epub+zip",
+      "size": 503516,
+      "modified": "2026-08-15T04:03:10.000Z",
+      "checksum": "37ab606aea2b56814e47d6a7a51f9277",
+      "folder": false
+    },
+    {
+      "id": "1m7HWeJfacdsdDFNMk4e_KT8CbaV8fjsa",
+      "parent_id": "1e3doZfS3rzah58MRoPmJ8FaG7H8YEXv6",
+      "name": "ĐỂ CÓ MỘT TƯƠNG LAI.pdf",
+      "mime": "application/pdf",
+      "size": 1069731,
+      "modified": "2026-08-15T04:03:07.000Z",
+      "checksum": "a09bf51afbe344484e823175499852da",
+      "folder": false
+    }
+  ]
+}

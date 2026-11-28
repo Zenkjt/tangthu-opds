@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uPUvHEOTi14C8mjZ6xeGk62K_XN8w5L9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ecObTVpeGGNVLazkrd_x28BkCLE7dXeJ",
+      "parent_id": "1uPUvHEOTi14C8mjZ6xeGk62K_XN8w5L9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 761,
+      "modified": "2026-08-15T10:06:14.000Z",
+      "checksum": "386f8b1bd369409b19001b7015475e61",
+      "folder": false
+    },
+    {
+      "id": "12Ha0UEScS0ROZnYFUYU2nH6dU8Pc5J51",
+      "parent_id": "1uPUvHEOTi14C8mjZ6xeGk62K_XN8w5L9",
+      "name": "TỪ BỎ THẾ GIỚI VÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 625849,
+      "modified": "2026-08-15T10:06:21.000Z",
+      "checksum": "8547b3757fde2959b4a71d10b40827f3",
+      "folder": false
+    },
+    {
+      "id": "1eqG3qjEkiWFKGBXLB4x-7DeF1heLioWE",
+      "parent_id": "1uPUvHEOTi14C8mjZ6xeGk62K_XN8w5L9",
+      "name": "TỪ BỎ THẾ GIỚI VÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 1480231,
+      "modified": "2026-08-15T10:06:19.000Z",
+      "checksum": "3b5aa6d8c18218602efb71a63e104972",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YjTGnjhNAw7tsyG-4NTcZ1idROXchezO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PoJu4K4ePTEfO6Rhce5L69vf2Wrvz5d3",
+      "parent_id": "1YjTGnjhNAw7tsyG-4NTcZ1idROXchezO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2798,
+      "modified": "2026-08-16T03:58:25.000Z",
+      "checksum": "4833c6d8b26e4b3f7e244e3e07d51736",
+      "folder": false
+    },
+    {
+      "id": "1XnWL-Ub9duSE5nnKMQEV6hKTlvK9LcJY",
+      "parent_id": "1YjTGnjhNAw7tsyG-4NTcZ1idROXchezO",
+      "name": "THEO ĐUỔI.epub",
+      "mime": "application/epub+zip",
+      "size": 462436,
+      "modified": "2026-08-16T03:58:31.000Z",
+      "checksum": "96ac55b7220c1ca28e332d09459a426a",
+      "folder": false
+    },
+    {
+      "id": "17TLxu1kcNbD6Km-Tufw5l31AXQ11pb2b",
+      "parent_id": "1YjTGnjhNAw7tsyG-4NTcZ1idROXchezO",
+      "name": "THEO ĐUỔI.pdf",
+      "mime": "application/pdf",
+      "size": 967304,
+      "modified": "2026-08-16T03:58:29.000Z",
+      "checksum": "b2373c2eeeab890195d186219b7f8bfa",
+      "folder": false
+    }
+  ]
+}

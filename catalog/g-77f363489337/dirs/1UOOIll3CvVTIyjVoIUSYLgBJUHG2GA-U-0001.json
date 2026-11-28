@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UOOIll3CvVTIyjVoIUSYLgBJUHG2GA-U",
+  "page": 1,
+  "items": [
+    {
+      "id": "1i3urNVaiPzILZjhK9W4ediDvI3g3cnKY",
+      "parent_id": "1UOOIll3CvVTIyjVoIUSYLgBJUHG2GA-U",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 13719,
+      "modified": "2026-08-15T07:13:46.000Z",
+      "checksum": "6fe690a6f3dfb3f3bfa80b0a9c0fead9",
+      "folder": false
+    },
+    {
+      "id": "1HBq2Q-ldXNubJ-NLoPmIXPA5N-Zb5Bs1",
+      "parent_id": "1UOOIll3CvVTIyjVoIUSYLgBJUHG2GA-U",
+      "name": "MÀU XANH MƠ ƯỚC.epub",
+      "mime": "application/epub+zip",
+      "size": 336082,
+      "modified": "2026-08-15T07:13:53.000Z",
+      "checksum": "089fc5076477549889b02406f4a497a3",
+      "folder": false
+    },
+    {
+      "id": "1d9bmmiOLCN5yWJZJXRSlEXVHTLecdEfx",
+      "parent_id": "1UOOIll3CvVTIyjVoIUSYLgBJUHG2GA-U",
+      "name": "MÀU XANH MƠ ƯỚC.pdf",
+      "mime": "application/pdf",
+      "size": 909527,
+      "modified": "2026-08-15T07:13:50.000Z",
+      "checksum": "6268addfb8da28ec0cd80e67524f76d8",
+      "folder": false
+    }
+  ]
+}

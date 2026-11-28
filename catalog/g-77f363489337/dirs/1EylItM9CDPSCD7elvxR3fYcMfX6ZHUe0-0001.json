@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EylItM9CDPSCD7elvxR3fYcMfX6ZHUe0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_1j3KVZjRGsFHAj75EZ1PL5gwJ5Di5Af",
+      "parent_id": "1EylItM9CDPSCD7elvxR3fYcMfX6ZHUe0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8728,
+      "modified": "2026-08-16T03:40:04.000Z",
+      "checksum": "aa28f37e89d1b863853e1a79634925c5",
+      "folder": false
+    },
+    {
+      "id": "1R_1IpA7pfDw1P8P7aHpM9R0hOkBTv-xH",
+      "parent_id": "1EylItM9CDPSCD7elvxR3fYcMfX6ZHUe0",
+      "name": "HOANG ĐƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 597421,
+      "modified": "2026-08-16T03:40:12.000Z",
+      "checksum": "8a02d18d18627dde6a238b2cd1bc445a",
+      "folder": false
+    },
+    {
+      "id": "1j6qRgy4_VXBhhSQVEHcqTJZxlLdnUEUr",
+      "parent_id": "1EylItM9CDPSCD7elvxR3fYcMfX6ZHUe0",
+      "name": "HOANG ĐƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 1677232,
+      "modified": "2026-08-16T03:40:09.000Z",
+      "checksum": "e0a2afa7fe16167de01024f6f0f7bfff",
+      "folder": false
+    }
+  ]
+}

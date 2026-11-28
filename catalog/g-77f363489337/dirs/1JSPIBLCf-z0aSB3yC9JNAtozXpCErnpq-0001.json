@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JSPIBLCf-z0aSB3yC9JNAtozXpCErnpq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XJ9a8-KRb8qLkAbd3ss_nywY2NNo37vh",
+      "parent_id": "1JSPIBLCf-z0aSB3yC9JNAtozXpCErnpq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2403,
+      "modified": "2026-08-16T03:36:32.000Z",
+      "checksum": "68d3085a2cb6b672ad5ffc174240fdf3",
+      "folder": false
+    },
+    {
+      "id": "1MvpxUc6MAQ9eqKAfsDvNdiV56tvMeKhp",
+      "parent_id": "1JSPIBLCf-z0aSB3yC9JNAtozXpCErnpq",
+      "name": "MỘT CHÚT MỖI NGÀY.epub",
+      "mime": "application/epub+zip",
+      "size": 646868,
+      "modified": "2026-08-16T03:36:38.000Z",
+      "checksum": "71a736819301c83be0ded3979df7a6d9",
+      "folder": false
+    },
+    {
+      "id": "16TyYUQef6F4OyrUICbwFHpvGzAuznRRF",
+      "parent_id": "1JSPIBLCf-z0aSB3yC9JNAtozXpCErnpq",
+      "name": "MỘT CHÚT MỖI NGÀY.pdf",
+      "mime": "application/pdf",
+      "size": 849219,
+      "modified": "2026-08-16T03:36:36.000Z",
+      "checksum": "91ab5216c31e83dba737c3a3bf5dfb3a",
+      "folder": false
+    }
+  ]
+}

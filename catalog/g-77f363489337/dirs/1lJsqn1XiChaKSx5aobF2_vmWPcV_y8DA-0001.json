@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lJsqn1XiChaKSx5aobF2_vmWPcV_y8DA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YBzslGqHNgex6LFaSqSDfcN50j8K0XgB",
+      "parent_id": "1lJsqn1XiChaKSx5aobF2_vmWPcV_y8DA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3197,
+      "modified": "2026-08-15T15:15:48.000Z",
+      "checksum": "c98d8a9d485ac1515e6d0a44334c71c2",
+      "folder": false
+    },
+    {
+      "id": "1838CUB-_raLrRtAuhp_wX4bqp2eoofZ5",
+      "parent_id": "1lJsqn1XiChaKSx5aobF2_vmWPcV_y8DA",
+      "name": "HỎA THẦN - DANIEL SILVA.epub",
+      "mime": "application/epub+zip",
+      "size": 639392,
+      "modified": "2026-08-15T15:15:56.000Z",
+      "checksum": "79e2f7a834bc00304f3e2818f063d3e3",
+      "folder": false
+    },
+    {
+      "id": "1a_-zQRvwkI1ULy_tVn6Vt8riuULZUk69",
+      "parent_id": "1lJsqn1XiChaKSx5aobF2_vmWPcV_y8DA",
+      "name": "HỎA THẦN - DANIEL SILVA.pdf",
+      "mime": "application/pdf",
+      "size": 1525530,
+      "modified": "2026-08-15T15:15:53.000Z",
+      "checksum": "e7bca3b3d1b82bcc1deaf70476864089",
+      "folder": false
+    }
+  ]
+}

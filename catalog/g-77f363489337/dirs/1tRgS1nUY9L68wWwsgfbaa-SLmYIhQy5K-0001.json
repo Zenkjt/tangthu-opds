@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tRgS1nUY9L68wWwsgfbaa-SLmYIhQy5K",
+  "page": 1,
+  "items": [
+    {
+      "id": "10nq90yonOxA6czMBciH1D2bs8PNEoshG",
+      "parent_id": "1tRgS1nUY9L68wWwsgfbaa-SLmYIhQy5K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 564,
+      "modified": "2026-08-15T12:55:23.000Z",
+      "checksum": "448a9ee96795cf03cbb7bec179f147c9",
+      "folder": false
+    },
+    {
+      "id": "1qi0C2AP5vaOYCUhu0zGRoeqvUDUbTJV4",
+      "parent_id": "1tRgS1nUY9L68wWwsgfbaa-SLmYIhQy5K",
+      "name": "TRÔNG VỀ QUÊ MẸ.epub",
+      "mime": "application/epub+zip",
+      "size": 440933,
+      "modified": "2026-08-15T12:56:13.000Z",
+      "checksum": "3c02eaa36940d265c95e907b144f237b",
+      "folder": false
+    },
+    {
+      "id": "1377dKCUkRW1tXummHvWIo4Kg6uFNL42F",
+      "parent_id": "1tRgS1nUY9L68wWwsgfbaa-SLmYIhQy5K",
+      "name": "TRÔNG VỀ QUÊ MẸ.pdf",
+      "mime": "application/pdf",
+      "size": 370782,
+      "modified": "2026-08-15T12:55:48.000Z",
+      "checksum": "6e12a287e8f24740bd0ba2b01d41c896",
+      "folder": false
+    }
+  ]
+}

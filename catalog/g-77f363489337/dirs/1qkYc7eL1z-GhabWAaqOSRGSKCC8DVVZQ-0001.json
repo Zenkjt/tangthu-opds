@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qkYc7eL1z-GhabWAaqOSRGSKCC8DVVZQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1n-MVvE4hTtqdjHR5WDE5WVufnmkjyldH",
+      "parent_id": "1qkYc7eL1z-GhabWAaqOSRGSKCC8DVVZQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3675,
+      "modified": "2026-08-15T07:10:52.000Z",
+      "checksum": "bdb0ae9d7a4976a6155ac500014d3b69",
+      "folder": false
+    },
+    {
+      "id": "1poSEJ8JF9_152NeOhzb2WgnmGUuyqVCz",
+      "parent_id": "1qkYc7eL1z-GhabWAaqOSRGSKCC8DVVZQ",
+      "name": "TRONG VÒNG TAY DU ĐÃNG.epub",
+      "mime": "application/epub+zip",
+      "size": 686298,
+      "modified": "2026-08-15T07:11:02.000Z",
+      "checksum": "9d1c314d06cf62702ca6812ff0a08c7c",
+      "folder": false
+    },
+    {
+      "id": "1eYoEAsVmCqkHAgX4ECdKfYuxHEIVj0NW",
+      "parent_id": "1qkYc7eL1z-GhabWAaqOSRGSKCC8DVVZQ",
+      "name": "TRONG VÒNG TAY DU ĐÃNG.pdf",
+      "mime": "application/pdf",
+      "size": 1630069,
+      "modified": "2026-08-15T07:10:58.000Z",
+      "checksum": "7a8d217082396a2d6c7213e207504054",
+      "folder": false
+    }
+  ]
+}

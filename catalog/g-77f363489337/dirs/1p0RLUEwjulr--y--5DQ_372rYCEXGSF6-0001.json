@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1p0RLUEwjulr--y--5DQ_372rYCEXGSF6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pbAqV_DH1GwMZ-PZWSEhI0hgL1h1pqzv",
+      "parent_id": "1p0RLUEwjulr--y--5DQ_372rYCEXGSF6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 19675,
+      "modified": "2026-08-15T08:09:06.000Z",
+      "checksum": "c1c5064eae4458bb3f16d52b0addde77",
+      "folder": false
+    },
+    {
+      "id": "1GJhFsdob--mRVUQ0LcDsh4IjfB70xaaN",
+      "parent_id": "1p0RLUEwjulr--y--5DQ_372rYCEXGSF6",
+      "name": "MARTIN EDEN.epub",
+      "mime": "application/epub+zip",
+      "size": 572172,
+      "modified": "2026-08-15T08:09:14.000Z",
+      "checksum": "914b0f4c8be16db525286496745684df",
+      "folder": false
+    },
+    {
+      "id": "1ol0ZhLj1SFErdjorycY5LN8e6ZvI9Aqx",
+      "parent_id": "1p0RLUEwjulr--y--5DQ_372rYCEXGSF6",
+      "name": "MARTIN EDEN.pdf",
+      "mime": "application/pdf",
+      "size": 1803888,
+      "modified": "2026-08-15T08:09:11.000Z",
+      "checksum": "38e59e5036ec28f5cdb0c6381dac63ae",
+      "folder": false
+    }
+  ]
+}

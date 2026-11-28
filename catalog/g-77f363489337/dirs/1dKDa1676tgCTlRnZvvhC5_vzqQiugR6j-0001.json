@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dKDa1676tgCTlRnZvvhC5_vzqQiugR6j",
+  "page": 1,
+  "items": [
+    {
+      "id": "184O75CSh2c8KAMI6utSoXiPvJSZ-CU_c",
+      "parent_id": "1dKDa1676tgCTlRnZvvhC5_vzqQiugR6j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 519,
+      "modified": "2026-08-15T10:48:19.000Z",
+      "checksum": "278b2297a7aa304c787797de513caf87",
+      "folder": false
+    },
+    {
+      "id": "1veSRuMLqrhZ_jN-jagdgOtvQG8ACh-Et",
+      "parent_id": "1dKDa1676tgCTlRnZvvhC5_vzqQiugR6j",
+      "name": "NẮNG VỠ.epub",
+      "mime": "application/epub+zip",
+      "size": 377864,
+      "modified": "2026-08-15T10:48:28.000Z",
+      "checksum": "b39dfd13d3b1dce5b72d454e60f00b0d",
+      "folder": false
+    },
+    {
+      "id": "1IxrEjCJm75Zwbt8U7AgwtHiqY7SisV4m",
+      "parent_id": "1dKDa1676tgCTlRnZvvhC5_vzqQiugR6j",
+      "name": "NẮNG VỠ.pdf",
+      "mime": "application/pdf",
+      "size": 692105,
+      "modified": "2026-08-15T10:48:25.000Z",
+      "checksum": "e76f4a108b84d812be8a17f770850a8d",
+      "folder": false
+    }
+  ]
+}

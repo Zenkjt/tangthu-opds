@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LpGDbwm7KPnO6HO9uxaCbU3V5ceU_tLt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JfKPFWPUvadye8KnpQYFOmyNP6wWA5QI",
+      "parent_id": "1LpGDbwm7KPnO6HO9uxaCbU3V5ceU_tLt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9418,
+      "modified": "2026-08-15T06:16:39.000Z",
+      "checksum": "8ef81e0f3cd79e6d773bce956c908083",
+      "folder": false
+    },
+    {
+      "id": "1R3Em5wO_8XUQxHF0id4igfvQtTl9u6GD",
+      "parent_id": "1LpGDbwm7KPnO6HO9uxaCbU3V5ceU_tLt",
+      "name": "HÀ NỘI CŨ NẰM ĐÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 633172,
+      "modified": "2026-08-15T06:16:47.000Z",
+      "checksum": "1d6fc0c1354f3200ad172a9cd0a19442",
+      "folder": false
+    },
+    {
+      "id": "1ohNCmqoCSV6ZCTijmxRF6yeh7JpMsWg8",
+      "parent_id": "1LpGDbwm7KPnO6HO9uxaCbU3V5ceU_tLt",
+      "name": "HÀ NỘI CŨ NẰM ĐÂY.pdf",
+      "mime": "application/pdf",
+      "size": 1406049,
+      "modified": "2026-08-15T06:16:44.000Z",
+      "checksum": "0196e9b9bd0a8f1a02eca377e772621c",
+      "folder": false
+    }
+  ]
+}

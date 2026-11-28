@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15ANYyYnxKVBLhreWwYs55KG2aXUtZOtx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PaZtfoxjLHgaW_jI6Ert5vLekHSbQ9JO",
+      "parent_id": "15ANYyYnxKVBLhreWwYs55KG2aXUtZOtx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8350,
+      "modified": "2026-08-15T06:54:47.000Z",
+      "checksum": "f8ab829ad1803922f830035949ca4500",
+      "folder": false
+    },
+    {
+      "id": "1gSpG1vHijVodUHZIYrpZTOWRqU3FAvf-",
+      "parent_id": "15ANYyYnxKVBLhreWwYs55KG2aXUtZOtx",
+      "name": "NGỌA HỔ TÀNG LONG.epub",
+      "mime": "application/epub+zip",
+      "size": 1483965,
+      "modified": "2026-08-15T06:55:16.000Z",
+      "checksum": "4f9b6845e8138bce9daf29f8ff71c805",
+      "folder": false
+    },
+    {
+      "id": "1yM78sQTUnQIcID6IezasRDa9ftHBql3l",
+      "parent_id": "15ANYyYnxKVBLhreWwYs55KG2aXUtZOtx",
+      "name": "NGỌA HỔ TÀNG LONG.pdf",
+      "mime": "application/pdf",
+      "size": 2281034,
+      "modified": "2026-08-15T06:54:56.000Z",
+      "checksum": "f42dbfeae4995059cac8720818679aca",
+      "folder": false
+    }
+  ]
+}

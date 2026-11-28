@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ceRvxamalKJlT6egqBA4gCAOa2XogpU7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pZkZT0-Mg6BKWKcRGcCpBepcXa1FhmPr",
+      "parent_id": "1ceRvxamalKJlT6egqBA4gCAOa2XogpU7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2059,
+      "modified": "2026-08-15T03:59:29.000Z",
+      "checksum": "4bf2c88ddcd81108af71b9d65be360b0",
+      "folder": false
+    },
+    {
+      "id": "1Fz5lyv-fkwDcvytICmOIA3z9UwmO-CFA",
+      "parent_id": "1ceRvxamalKJlT6egqBA4gCAOa2XogpU7",
+      "name": "ĐẠO LÝ THỰC HÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 506662,
+      "modified": "2026-08-15T03:59:36.000Z",
+      "checksum": "a77fa09e8b3597f904941fe412afd312",
+      "folder": false
+    },
+    {
+      "id": "1IiK1eR7dSkvdGK6VRZYs-op17pINA2IY",
+      "parent_id": "1ceRvxamalKJlT6egqBA4gCAOa2XogpU7",
+      "name": "ĐẠO LÝ THỰC HÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 916404,
+      "modified": "2026-08-15T03:59:33.000Z",
+      "checksum": "d6a95c9070cb97c859cfa88492bfd527",
+      "folder": false
+    }
+  ]
+}

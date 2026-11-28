@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ob-maLUJhDQKCf2OYPDguaKlFdgAxV_V",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uFhcrEIy20fsyij1p3kiqOBcCDnXvgUS",
+      "parent_id": "1ob-maLUJhDQKCf2OYPDguaKlFdgAxV_V",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7381,
+      "modified": "2026-08-15T01:00:34.000Z",
+      "checksum": "76275fc3eedb2755b77215e733a8f243",
+      "folder": false
+    },
+    {
+      "id": "1SVVRXhMFyi69Oj5faC4UVGv8rVkiMG90",
+      "parent_id": "1ob-maLUJhDQKCf2OYPDguaKlFdgAxV_V",
+      "name": "SUY NGHĨ VÀ LÀM GIÀU.epub",
+      "mime": "application/epub+zip",
+      "size": 307211,
+      "modified": "2026-08-15T01:00:43.000Z",
+      "checksum": "a10e1420727c4d5af8a3044a26e77e16",
+      "folder": false
+    },
+    {
+      "id": "1mIeCnZlbeED016d70wJEJG77UvISP2DW",
+      "parent_id": "1ob-maLUJhDQKCf2OYPDguaKlFdgAxV_V",
+      "name": "SUY NGHĨ VÀ LÀM GIÀU.pdf",
+      "mime": "application/pdf",
+      "size": 1125564,
+      "modified": "2026-08-15T01:00:40.000Z",
+      "checksum": "51ae8e7e7f7ca606b3340829953775e8",
+      "folder": false
+    }
+  ]
+}

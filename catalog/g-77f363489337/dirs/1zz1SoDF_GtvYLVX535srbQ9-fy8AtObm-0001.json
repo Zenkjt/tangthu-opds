@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zz1SoDF_GtvYLVX535srbQ9-fy8AtObm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tWyOHZNGJzeyyvz0ZAvSAiWYnLfUd32M",
+      "parent_id": "1zz1SoDF_GtvYLVX535srbQ9-fy8AtObm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1704,
+      "modified": "2026-08-15T03:43:46.000Z",
+      "checksum": "92224032a8f37aea1d774b4fcf3fde14",
+      "folder": false
+    },
+    {
+      "id": "1wMZuHiXIKf0sAAyijzGD_k9vZiZR_B0q",
+      "parent_id": "1zz1SoDF_GtvYLVX535srbQ9-fy8AtObm",
+      "name": "KINH TIỂU BỘ - TẬP 7.epub",
+      "mime": "application/epub+zip",
+      "size": 519199,
+      "modified": "2026-08-15T03:43:53.000Z",
+      "checksum": "e1f1350a254a70fc39eaa5760bfb3828",
+      "folder": false
+    },
+    {
+      "id": "124KCH0fdRTc7avhu9ByHMfCOLFO7OLEz",
+      "parent_id": "1zz1SoDF_GtvYLVX535srbQ9-fy8AtObm",
+      "name": "KINH TIỂU BỘ - TẬP 7.pdf",
+      "mime": "application/pdf",
+      "size": 1537609,
+      "modified": "2026-08-15T03:43:51.000Z",
+      "checksum": "f359f3aecd477dde5be1af45b8f080b7",
+      "folder": false
+    }
+  ]
+}

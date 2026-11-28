@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FAuDpbPWA5U0gTZc39RWSAqzklDovnju",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yX5pFEaHaOrocfwWQkqzJncnQLxD8DkX",
+      "parent_id": "1FAuDpbPWA5U0gTZc39RWSAqzklDovnju",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2697,
+      "modified": "2026-08-15T00:49:35.000Z",
+      "checksum": "b98a1eae9d2aaf414476107553de2b31",
+      "folder": false
+    },
+    {
+      "id": "1eGDFlO0917dEEqKgiympU2rumJKa_Ei-",
+      "parent_id": "1FAuDpbPWA5U0gTZc39RWSAqzklDovnju",
+      "name": "NHỮNG TRÒ NGỤY BIỆN BIẾN SAI THÀNH TRÁI.epub",
+      "mime": "application/epub+zip",
+      "size": 972519,
+      "modified": "2026-08-15T00:49:41.000Z",
+      "checksum": "2d095f6e341351d638225e352c6000d3",
+      "folder": false
+    },
+    {
+      "id": "1OBEYcurc2bzdZm4VNlHfHjKDGH2FPkdV",
+      "parent_id": "1FAuDpbPWA5U0gTZc39RWSAqzklDovnju",
+      "name": "NHỮNG TRÒ NGỤY BIỆN BIẾN SAI THÀNH TRÁI.pdf",
+      "mime": "application/pdf",
+      "size": 1329264,
+      "modified": "2026-08-15T00:49:39.000Z",
+      "checksum": "fdbcce5ba10ac612ef3e43f618218e54",
+      "folder": false
+    }
+  ]
+}

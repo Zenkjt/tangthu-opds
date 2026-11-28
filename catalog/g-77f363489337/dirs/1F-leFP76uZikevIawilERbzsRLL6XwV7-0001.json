@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1F-leFP76uZikevIawilERbzsRLL6XwV7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AG8mK4UeepLO0ojp9JrSB-UzEyQPo2Ju",
+      "parent_id": "1F-leFP76uZikevIawilERbzsRLL6XwV7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1414,
+      "modified": "2026-08-15T08:12:52.000Z",
+      "checksum": "65cb77d97774fe16a1a7b81099402cd2",
+      "folder": false
+    },
+    {
+      "id": "1WPSOQ6VTcmn2G_kaaq3BjavxWm1SVlqt",
+      "parent_id": "1F-leFP76uZikevIawilERbzsRLL6XwV7",
+      "name": "KẸO DẺO VỊ QUÝT.epub",
+      "mime": "application/epub+zip",
+      "size": 369988,
+      "modified": "2026-08-15T08:13:03.000Z",
+      "checksum": "29cd7d36b45809cbde455cc8bcdeab1d",
+      "folder": false
+    },
+    {
+      "id": "1dR_jNMZJ7YYPJL0FcyHYo_lib9aE_Boj",
+      "parent_id": "1F-leFP76uZikevIawilERbzsRLL6XwV7",
+      "name": "KẸO DẺO VỊ QUÝT.pdf",
+      "mime": "application/pdf",
+      "size": 1259108,
+      "modified": "2026-08-15T08:13:00.000Z",
+      "checksum": "c881712882d17f2e7eddbec1511e0e3a",
+      "folder": false
+    }
+  ]
+}

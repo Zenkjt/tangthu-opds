@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bQ7Q3wvBlJnlDBVI8aLRGlj6iETOi8Wq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VMi_FAYp4gwNQ5O-Q6yPJizK49Q74pJg",
+      "parent_id": "1bQ7Q3wvBlJnlDBVI8aLRGlj6iETOi8Wq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2725,
+      "modified": "2026-08-16T03:10:40.000Z",
+      "checksum": "a00b7e9a30a07066de225c38e51ccd1a",
+      "folder": false
+    },
+    {
+      "id": "1tcNXJTPbJ2X-VUvSHfRKi9CrDZoM8dRv",
+      "parent_id": "1bQ7Q3wvBlJnlDBVI8aLRGlj6iETOi8Wq",
+      "name": "QUÁN TAI HEO.epub",
+      "mime": "application/epub+zip",
+      "size": 436584,
+      "modified": "2026-08-16T03:10:46.000Z",
+      "checksum": "2298445a4b55905781a65717c73cb962",
+      "folder": false
+    },
+    {
+      "id": "14YELNYBvHHw02RClbi0gyTVmxDvIBkxq",
+      "parent_id": "1bQ7Q3wvBlJnlDBVI8aLRGlj6iETOi8Wq",
+      "name": "QUÁN TAI HEO.pdf",
+      "mime": "application/pdf",
+      "size": 617401,
+      "modified": "2026-08-16T03:10:43.000Z",
+      "checksum": "62d840c8235dc8c591e40113f44e3c78",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tO5eeydAkCOCKkuo1sjUynnfsORm754r",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LtVTgqQ20xlhCf9Ww2tFUVyC312ggvMJ",
+      "parent_id": "1tO5eeydAkCOCKkuo1sjUynnfsORm754r",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3792,
+      "modified": "2026-08-15T03:41:07.000Z",
+      "checksum": "ec7d38d59f039e2c0d0c97232cf2b04e",
+      "folder": false
+    },
+    {
+      "id": "1kWv7pKZ6uVlE9nzC2HCCsge5sUQnUB-_",
+      "parent_id": "1tO5eeydAkCOCKkuo1sjUynnfsORm754r",
+      "name": "TÂM TỪ - KINDFULNESS.epub",
+      "mime": "application/epub+zip",
+      "size": 624219,
+      "modified": "2026-08-15T03:41:13.000Z",
+      "checksum": "c73d6f0a55890340ab6ba996199bb176",
+      "folder": false
+    },
+    {
+      "id": "1l4WuEEQwKcSjb62KogpIGvly-ZCQmUwP",
+      "parent_id": "1tO5eeydAkCOCKkuo1sjUynnfsORm754r",
+      "name": "TÂM TỪ - KINDFULNESS.pdf",
+      "mime": "application/pdf",
+      "size": 2341176,
+      "modified": "2026-08-15T03:41:10.000Z",
+      "checksum": "cba76ab971a47d6192c78cd62604bc39",
+      "folder": false
+    }
+  ]
+}

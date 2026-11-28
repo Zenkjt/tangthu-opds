@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RyditNTF5k_FKMVNGjF19o1xCvmZFxNa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gK55K4wH7wAS0MC0t0huCAi5PKtG2JR3",
+      "parent_id": "1RyditNTF5k_FKMVNGjF19o1xCvmZFxNa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11427,
+      "modified": "2026-08-15T07:42:10.000Z",
+      "checksum": "9ffb2016055a6c524ce08e3bbbb8a4a7",
+      "folder": false
+    },
+    {
+      "id": "1H2_1fq3MEg0NddwZTHUAf6_iNarM1gEw",
+      "parent_id": "1RyditNTF5k_FKMVNGjF19o1xCvmZFxNa",
+      "name": "HẠN CHÓT LÚC BÌNH MINH.epub",
+      "mime": "application/epub+zip",
+      "size": 610365,
+      "modified": "2026-08-15T07:42:18.000Z",
+      "checksum": "17f3a2487e7192b93dc3f34d864414a0",
+      "folder": false
+    },
+    {
+      "id": "1JIu_V2sUMERrvCB_S9G0dAJimHO3azKs",
+      "parent_id": "1RyditNTF5k_FKMVNGjF19o1xCvmZFxNa",
+      "name": "HẠN CHÓT LÚC BÌNH MINH.pdf",
+      "mime": "application/pdf",
+      "size": 1128149,
+      "modified": "2026-08-15T07:42:14.000Z",
+      "checksum": "fecfc73b05f5b13482bd8cef6735f173",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DMyW707IupH9o5UfEdNY7u1XgFM2MEmW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PlHHS88NcGhNfbt9EL42OTgEWp1xfE1W",
+      "parent_id": "1DMyW707IupH9o5UfEdNY7u1XgFM2MEmW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 649,
+      "modified": "2026-08-16T04:19:40.000Z",
+      "checksum": "56e3429a42f0c824a1ef48b57cf92d1e",
+      "folder": false
+    },
+    {
+      "id": "1mO0qaHSHg00FfTO8vwCnNPCV2p4fxMm1",
+      "parent_id": "1DMyW707IupH9o5UfEdNY7u1XgFM2MEmW",
+      "name": "HÃY HIỂU TÌNH EM.epub",
+      "mime": "application/epub+zip",
+      "size": 445761,
+      "modified": "2026-08-16T04:19:46.000Z",
+      "checksum": "6916c8c95f4ce879ef2ed18f2a54956d",
+      "folder": false
+    },
+    {
+      "id": "1SziIh7_TNnFMfPsnCQ7kFt4s_2GOfCKV",
+      "parent_id": "1DMyW707IupH9o5UfEdNY7u1XgFM2MEmW",
+      "name": "HÃY HIỂU TÌNH EM.pdf",
+      "mime": "application/pdf",
+      "size": 770723,
+      "modified": "2026-08-16T04:19:43.000Z",
+      "checksum": "4ac6d1d36f0e23bc4f2cd8a04ebdf96c",
+      "folder": false
+    }
+  ]
+}

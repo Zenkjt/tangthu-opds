@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yqSKNcsHJL2nQzKsqTh4olU7keb3bXd0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QIQugNzCcwUlyS-lT7-C8vspIC3azElO",
+      "parent_id": "1yqSKNcsHJL2nQzKsqTh4olU7keb3bXd0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3438,
+      "modified": "2026-08-15T08:15:20.000Z",
+      "checksum": "a5fc71b51f3a992571d47428fc79fb13",
+      "folder": false
+    },
+    {
+      "id": "1_mcBpm8NbU_Zf35b663I1vvBkWUk-sHZ",
+      "parent_id": "1yqSKNcsHJL2nQzKsqTh4olU7keb3bXd0",
+      "name": "ĐÁNH CƯỢC VỚI TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 1113399,
+      "modified": "2026-08-15T08:15:27.000Z",
+      "checksum": "0731f18522a9044effc6293786749e01",
+      "folder": false
+    },
+    {
+      "id": "1QIuFkRAy4r0eIJHQvMnzmLv4VtcBxOtG",
+      "parent_id": "1yqSKNcsHJL2nQzKsqTh4olU7keb3bXd0",
+      "name": "ĐÁNH CƯỢC VỚI TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1321864,
+      "modified": "2026-08-15T08:15:25.000Z",
+      "checksum": "cd47d2913dda3243bb2feb4bfa779ebc",
+      "folder": false
+    }
+  ]
+}

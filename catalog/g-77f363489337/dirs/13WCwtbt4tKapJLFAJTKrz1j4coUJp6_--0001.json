@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13WCwtbt4tKapJLFAJTKrz1j4coUJp6_-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KK364P-gd2QAqumcJqrUWEjzCh6KJnL0",
+      "parent_id": "13WCwtbt4tKapJLFAJTKrz1j4coUJp6_-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3012,
+      "modified": "2026-08-15T03:49:07.000Z",
+      "checksum": "ba970d2a3b49293ecefecdfe99ed1c68",
+      "folder": false
+    },
+    {
+      "id": "1Udt6IXk7bMp0pdxNBwMf7v6bpE0FkFpN",
+      "parent_id": "13WCwtbt4tKapJLFAJTKrz1j4coUJp6_-",
+      "name": "THÁNH NỮ TU ĐẠO VIỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 7922134,
+      "modified": "2026-08-15T03:49:31.000Z",
+      "checksum": "0a9473d824ae6f5539a13f13d01fd64b",
+      "folder": false
+    },
+    {
+      "id": "1kzMCqLhoK5X-0VIAD5nXe_JonmB631-x",
+      "parent_id": "13WCwtbt4tKapJLFAJTKrz1j4coUJp6_-",
+      "name": "THÁNH NỮ TU ĐẠO VIỆN.pdf",
+      "mime": "application/pdf",
+      "size": 9648327,
+      "modified": "2026-08-15T03:49:22.000Z",
+      "checksum": "40588cc14a5a1f032722c5ac9988cc71",
+      "folder": false
+    }
+  ]
+}

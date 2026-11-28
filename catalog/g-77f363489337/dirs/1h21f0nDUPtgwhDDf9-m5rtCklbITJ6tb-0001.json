@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1h21f0nDUPtgwhDDf9-m5rtCklbITJ6tb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VHtdPHiArIZ066nE2ySZBrX3SFZrbc0u",
+      "parent_id": "1h21f0nDUPtgwhDDf9-m5rtCklbITJ6tb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3363,
+      "modified": "2026-08-16T04:06:32.000Z",
+      "checksum": "18711e4e1752ebf12e8550898c02da3c",
+      "folder": false
+    },
+    {
+      "id": "1aS435eJeMZBL6L6AZNk2OhQwrJX8rtUM",
+      "parent_id": "1h21f0nDUPtgwhDDf9-m5rtCklbITJ6tb",
+      "name": "PHI TỬ CỦA CA CA.epub",
+      "mime": "application/epub+zip",
+      "size": 966456,
+      "modified": "2026-08-16T04:06:44.000Z",
+      "checksum": "a1551f0c259a0cf6dbeff232f099a940",
+      "folder": false
+    },
+    {
+      "id": "1qS7Bda3J811xrzoNARWRJSwfaSUroJnH",
+      "parent_id": "1h21f0nDUPtgwhDDf9-m5rtCklbITJ6tb",
+      "name": "PHI TỬ CỦA CA CA.pdf",
+      "mime": "application/pdf",
+      "size": 3120819,
+      "modified": "2026-08-16T04:06:41.000Z",
+      "checksum": "86f73187f8a7a12c0017513e03883b91",
+      "folder": false
+    }
+  ]
+}

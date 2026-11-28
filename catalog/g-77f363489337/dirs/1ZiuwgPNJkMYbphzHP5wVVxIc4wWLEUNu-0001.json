@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZiuwgPNJkMYbphzHP5wVVxIc4wWLEUNu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FfE4aqIji-Qs_Qf7lgy05g7YrwpFv_SA",
+      "parent_id": "1ZiuwgPNJkMYbphzHP5wVVxIc4wWLEUNu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 822,
+      "modified": "2026-08-15T05:42:45.000Z",
+      "checksum": "46e67cd25bf5be0a1200b96d7ff3c506",
+      "folder": false
+    },
+    {
+      "id": "15nNQHFLDkYLB0zQGCHKyScwRsLq3AJn_",
+      "parent_id": "1ZiuwgPNJkMYbphzHP5wVVxIc4wWLEUNu",
+      "name": "ĐẠO ĐỨC KINH LÃO TỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 1146534,
+      "modified": "2026-08-15T05:42:56.000Z",
+      "checksum": "9bd1817f5cc75620242afdb44346b6c7",
+      "folder": false
+    },
+    {
+      "id": "1ZUoL875EAwq1ooxzihPaFWhGZdM2iAso",
+      "parent_id": "1ZiuwgPNJkMYbphzHP5wVVxIc4wWLEUNu",
+      "name": "ĐẠO ĐỨC KINH LÃO TỬ.pdf",
+      "mime": "application/pdf",
+      "size": 4901741,
+      "modified": "2026-08-15T05:42:52.000Z",
+      "checksum": "5985008d704acfa6a6a03850c14b621e",
+      "folder": false
+    }
+  ]
+}

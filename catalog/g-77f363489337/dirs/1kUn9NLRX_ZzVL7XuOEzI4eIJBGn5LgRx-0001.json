@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kUn9NLRX_ZzVL7XuOEzI4eIJBGn5LgRx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1U7w76HFzRPtog9brvJEU6yYaK_6DPWRt",
+      "parent_id": "1kUn9NLRX_ZzVL7XuOEzI4eIJBGn5LgRx",
+      "name": "CHÚA RUỒI.epub",
+      "mime": "application/epub+zip",
+      "size": 613921,
+      "modified": "2026-08-16T02:44:44.000Z",
+      "checksum": "0e898a0d9f07f8a05ed77295bdd82079",
+      "folder": false
+    },
+    {
+      "id": "1JVq-ZiymiNERhIqB4CQC2-dfZUGRMSSD",
+      "parent_id": "1kUn9NLRX_ZzVL7XuOEzI4eIJBGn5LgRx",
+      "name": "CHÚA RUỒI.pdf",
+      "mime": "application/pdf",
+      "size": 1269828,
+      "modified": "2026-08-16T02:44:41.000Z",
+      "checksum": "5de21d6a9cfd04d4d3530766873f7b5c",
+      "folder": false
+    },
+    {
+      "id": "1U8-3XY-s232Bm40GAUgBuq1peoni04TG",
+      "parent_id": "1kUn9NLRX_ZzVL7XuOEzI4eIJBGn5LgRx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9684,
+      "modified": "2026-08-16T02:44:36.000Z",
+      "checksum": "173b60baa5b151e222124560ae56a9c9",
+      "folder": false
+    }
+  ]
+}

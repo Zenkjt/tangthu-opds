@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jMVjeur-sytErtvgTvNmcASVyKYQAkAK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uWFts8T3brdGp-piRx6tquWsX6Lnjpn7",
+      "parent_id": "1jMVjeur-sytErtvgTvNmcASVyKYQAkAK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2479,
+      "modified": "2026-08-15T15:52:32.000Z",
+      "checksum": "2e5a810e7f3dbe09221ff49fe0d1a2ed",
+      "folder": false
+    },
+    {
+      "id": "1PJrukgEgjeTSG9PZAtMFivayMmPKpmHQ",
+      "parent_id": "1jMVjeur-sytErtvgTvNmcASVyKYQAkAK",
+      "name": "KÝ SỰ ĐÒI NỢ.epub",
+      "mime": "application/epub+zip",
+      "size": 622584,
+      "modified": "2026-08-15T15:52:39.000Z",
+      "checksum": "1bc7f4ed1be154e2afcedcef33dc3b3c",
+      "folder": false
+    },
+    {
+      "id": "13wEGFoAVczw98rf5LCWVBnvhA_7E9j97",
+      "parent_id": "1jMVjeur-sytErtvgTvNmcASVyKYQAkAK",
+      "name": "KÝ SỰ ĐÒI NỢ.pdf",
+      "mime": "application/pdf",
+      "size": 1606557,
+      "modified": "2026-08-15T15:52:37.000Z",
+      "checksum": "f471623d34e530e94e364d3888351ae9",
+      "folder": false
+    }
+  ]
+}

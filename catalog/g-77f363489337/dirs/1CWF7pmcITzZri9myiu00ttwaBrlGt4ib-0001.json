@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CWF7pmcITzZri9myiu00ttwaBrlGt4ib",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lkby_bx8Sk85_XeDu8UDdsOYFH5-WssS",
+      "parent_id": "1CWF7pmcITzZri9myiu00ttwaBrlGt4ib",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1686,
+      "modified": "2026-08-16T02:50:07.000Z",
+      "checksum": "89bfbc09cd70285a5a279e6ad2627c89",
+      "folder": false
+    },
+    {
+      "id": "10fWDDyZdTfhnFqHg0u7rFDsxdAlACXYi",
+      "parent_id": "1CWF7pmcITzZri9myiu00ttwaBrlGt4ib",
+      "name": "THIÊN THẦN NHỎ CỦA TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 229127,
+      "modified": "2026-08-16T02:50:13.000Z",
+      "checksum": "6698120d53806ba3935fa46a4a222323",
+      "folder": false
+    },
+    {
+      "id": "1dpVZaMZLvUwahFNEi1K8JjcfLsVbzsg8",
+      "parent_id": "1CWF7pmcITzZri9myiu00ttwaBrlGt4ib",
+      "name": "THIÊN THẦN NHỎ CỦA TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 312962,
+      "modified": "2026-08-16T02:50:10.000Z",
+      "checksum": "1a122f4223f47f0a377805461bf5c5f9",
+      "folder": false
+    }
+  ]
+}

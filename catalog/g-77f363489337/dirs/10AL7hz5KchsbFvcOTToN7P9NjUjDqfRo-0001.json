@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10AL7hz5KchsbFvcOTToN7P9NjUjDqfRo",
+  "page": 1,
+  "items": [
+    {
+      "id": "12lEHyhZatQy4PHx8Gfu18LVaSwKiUxbf",
+      "parent_id": "10AL7hz5KchsbFvcOTToN7P9NjUjDqfRo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2788,
+      "modified": "2026-08-15T03:21:14.000Z",
+      "checksum": "6fd2820d04b417519204188e724f42a3",
+      "folder": false
+    },
+    {
+      "id": "1oEdbtEp_d3H7wocbUOorOkLCfsaVPhWG",
+      "parent_id": "10AL7hz5KchsbFvcOTToN7P9NjUjDqfRo",
+      "name": "THUẬT ĐỌC SÁCH BÁO.epub",
+      "mime": "application/epub+zip",
+      "size": 267564,
+      "modified": "2026-08-15T03:21:20.000Z",
+      "checksum": "432b6627ae3ceaeb02306f278c7b6f6d",
+      "folder": false
+    },
+    {
+      "id": "1d_q4whCbTsaBOtFlYgzU2N-wow2-eg4y",
+      "parent_id": "10AL7hz5KchsbFvcOTToN7P9NjUjDqfRo",
+      "name": "THUẬT ĐỌC SÁCH BÁO.pdf",
+      "mime": "application/pdf",
+      "size": 479632,
+      "modified": "2026-08-15T03:21:18.000Z",
+      "checksum": "c274240f0ecf7d1c957a8fe8403e24eb",
+      "folder": false
+    }
+  ]
+}

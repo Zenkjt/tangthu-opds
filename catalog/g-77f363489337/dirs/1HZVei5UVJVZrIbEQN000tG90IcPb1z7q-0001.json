@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HZVei5UVJVZrIbEQN000tG90IcPb1z7q",
+  "page": 1,
+  "items": [
+    {
+      "id": "16JMcMDq_BtOyKW8RyFtfnN5eFkFmrja3",
+      "parent_id": "1HZVei5UVJVZrIbEQN000tG90IcPb1z7q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3928,
+      "modified": "2026-08-15T07:09:03.000Z",
+      "checksum": "61a477cc3eae2687dcecaa56ff81d67a",
+      "folder": false
+    },
+    {
+      "id": "1yN7049_OFLVvU6bniJNqABFuEghk2jvf",
+      "parent_id": "1HZVei5UVJVZrIbEQN000tG90IcPb1z7q",
+      "name": "DƯỚI ĐỒNG SÂU.epub",
+      "mime": "application/epub+zip",
+      "size": 513668,
+      "modified": "2026-08-15T07:09:09.000Z",
+      "checksum": "36b96f8dca5bbcbec103abca072c284f",
+      "folder": false
+    },
+    {
+      "id": "1Z3wZMG7ON2esgJYID4XbYhbIwe8WjdL6",
+      "parent_id": "1HZVei5UVJVZrIbEQN000tG90IcPb1z7q",
+      "name": "DƯỚI ĐỒNG SÂU.pdf",
+      "mime": "application/pdf",
+      "size": 348297,
+      "modified": "2026-08-15T07:09:06.000Z",
+      "checksum": "3123c1006ebda07d69a3b94f29899798",
+      "folder": false
+    }
+  ]
+}

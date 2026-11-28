@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17JLvyTaWYGDwczMplHVxE4MwSEAh4DuW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TeEybk1B_BWHKN7rGpYr8_C78lhQmTdK",
+      "parent_id": "17JLvyTaWYGDwczMplHVxE4MwSEAh4DuW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3266,
+      "modified": "2026-08-16T04:14:20.000Z",
+      "checksum": "a574926a8417dff995080d3c27bbddb8",
+      "folder": false
+    },
+    {
+      "id": "1cmzgohFchNyEO085KYb0FX453rXKJhIM",
+      "parent_id": "17JLvyTaWYGDwczMplHVxE4MwSEAh4DuW",
+      "name": "NGƯỢC ĐƯỜNG TRƯỜNG THI.epub",
+      "mime": "application/epub+zip",
+      "size": 375159,
+      "modified": "2026-08-16T04:14:26.000Z",
+      "checksum": "95b994fbcfa1150034b1a4ff7108a132",
+      "folder": false
+    },
+    {
+      "id": "1IrUoUoOlU0V4ns35jxdzkWobO2dMhzAX",
+      "parent_id": "17JLvyTaWYGDwczMplHVxE4MwSEAh4DuW",
+      "name": "NGƯỢC ĐƯỜNG TRƯỜNG THI.pdf",
+      "mime": "application/pdf",
+      "size": 390064,
+      "modified": "2026-08-16T04:14:23.000Z",
+      "checksum": "c7af581703c5b694e10936e5094d8393",
+      "folder": false
+    }
+  ]
+}

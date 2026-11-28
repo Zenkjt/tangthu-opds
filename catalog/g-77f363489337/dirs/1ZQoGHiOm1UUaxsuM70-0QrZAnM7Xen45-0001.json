@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZQoGHiOm1UUaxsuM70-0QrZAnM7Xen45",
+  "page": 1,
+  "items": [
+    {
+      "id": "1a-x016pw3tcyFrdSrodvWns7pTO-Z9VM",
+      "parent_id": "1ZQoGHiOm1UUaxsuM70-0QrZAnM7Xen45",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 21460,
+      "modified": "2026-08-15T07:06:16.000Z",
+      "checksum": "274372e5949b6c9d52a360f3e8b3f197",
+      "folder": false
+    },
+    {
+      "id": "1FF08Op6s9ahVvyhugkHws5TGqAXn_kz0",
+      "parent_id": "1ZQoGHiOm1UUaxsuM70-0QrZAnM7Xen45",
+      "name": "NHỮNG TRƯỜNG ĐẠI HỌC CỦA TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 417990,
+      "modified": "2026-08-15T07:06:24.000Z",
+      "checksum": "bf0ab08301ae653cc417f204486d2062",
+      "folder": false
+    },
+    {
+      "id": "1de5HCeCwIgaPYeVH3HXp2sSlyq2qBkfI",
+      "parent_id": "1ZQoGHiOm1UUaxsuM70-0QrZAnM7Xen45",
+      "name": "NHỮNG TRƯỜNG ĐẠI HỌC CỦA TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 777033,
+      "modified": "2026-08-15T07:06:21.000Z",
+      "checksum": "b4b6ce88621b8bcc8a22b5bc16dd646c",
+      "folder": false
+    }
+  ]
+}

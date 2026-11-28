@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1D4t3imwjQk8odd9r6zny01a7iftCsczF",
+  "page": 1,
+  "items": [
+    {
+      "id": "14bYrZ8bfAdAMIx_4i1pD4foYgU1KfmI7",
+      "parent_id": "1D4t3imwjQk8odd9r6zny01a7iftCsczF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3308,
+      "modified": "2026-08-15T15:34:31.000Z",
+      "checksum": "0612115e5a0bd61bf7557df69c720e86",
+      "folder": false
+    },
+    {
+      "id": "1vJrIsLTlPYU-kjhwcmbK2uL-b8FGuM6z",
+      "parent_id": "1D4t3imwjQk8odd9r6zny01a7iftCsczF",
+      "name": "VỤ BÍ ẨN CON MẮT LỬA.epub",
+      "mime": "application/epub+zip",
+      "size": 584431,
+      "modified": "2026-08-15T15:34:39.000Z",
+      "checksum": "890a31131a1707546a54645ee5ec4ae3",
+      "folder": false
+    },
+    {
+      "id": "1z5gBJOaNCQrtXww8ZL-i9oQF-cbxtE0v",
+      "parent_id": "1D4t3imwjQk8odd9r6zny01a7iftCsczF",
+      "name": "VỤ BÍ ẨN CON MẮT LỬA.pdf",
+      "mime": "application/pdf",
+      "size": 535824,
+      "modified": "2026-08-15T15:34:36.000Z",
+      "checksum": "4b3f9aacfe07afd6b9a8feab4027d7e5",
+      "folder": false
+    }
+  ]
+}

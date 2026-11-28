@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MxveejozhYI00r8TgMMBixAqvH_UV9iJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pn_xzVntwoBkYab2ntkBf1tPxK17dIL9",
+      "parent_id": "1MxveejozhYI00r8TgMMBixAqvH_UV9iJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 13970,
+      "modified": "2026-08-15T03:45:21.000Z",
+      "checksum": "43b1ef91abc61a958acd3d37e222b56b",
+      "folder": false
+    },
+    {
+      "id": "1y8Mcg8WzbWzPNzgTRzZu8r1nvGuNYgmG",
+      "parent_id": "1MxveejozhYI00r8TgMMBixAqvH_UV9iJ",
+      "name": "KINH HOA NGHIÊM GIẢN GIẢI.epub",
+      "mime": "application/epub+zip",
+      "size": 1236292,
+      "modified": "2026-08-15T03:45:36.000Z",
+      "checksum": "dfdc4f47758de0b2ceb51f81ce262f9b",
+      "folder": false
+    },
+    {
+      "id": "1dt0Sq2xH2NeRsgEbbQ1ZHK0uCxHdQ8I_",
+      "parent_id": "1MxveejozhYI00r8TgMMBixAqvH_UV9iJ",
+      "name": "KINH HOA NGHIÊM GIẢN GIẢI.pdf",
+      "mime": "application/pdf",
+      "size": 6212873,
+      "modified": "2026-08-15T03:45:33.000Z",
+      "checksum": "b279fd39d7e56a413c211ed447de9100",
+      "folder": false
+    }
+  ]
+}

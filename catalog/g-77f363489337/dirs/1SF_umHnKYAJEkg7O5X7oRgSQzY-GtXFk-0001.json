@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SF_umHnKYAJEkg7O5X7oRgSQzY-GtXFk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Hz7ZoxzpEA_DS2mkZ595fZlp067c1o2X",
+      "parent_id": "1SF_umHnKYAJEkg7O5X7oRgSQzY-GtXFk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2233,
+      "modified": "2026-08-15T06:19:28.000Z",
+      "checksum": "6b289aeb2a16ee4a4ff1d3f77c131803",
+      "folder": false
+    },
+    {
+      "id": "1a-4EkNBi3Iumd8oMD_xTR7zvH1Q1iRtL",
+      "parent_id": "1SF_umHnKYAJEkg7O5X7oRgSQzY-GtXFk",
+      "name": "THẦN NGƯỜI VÀ ĐẤT VIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 464015,
+      "modified": "2026-08-15T06:19:36.000Z",
+      "checksum": "0ddabc47cd7a48e0ad3840df68ff6753",
+      "folder": false
+    },
+    {
+      "id": "1ylI71KJhVYY5JV-LlJhWQXyHkTXLmmoc",
+      "parent_id": "1SF_umHnKYAJEkg7O5X7oRgSQzY-GtXFk",
+      "name": "THẦN NGƯỜI VÀ ĐẤT VIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 1184446,
+      "modified": "2026-08-15T06:19:33.000Z",
+      "checksum": "6003b99bed1211b83878a914e04c9ae0",
+      "folder": false
+    }
+  ]
+}

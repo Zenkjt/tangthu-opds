@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ddx5zEVgd0PQLJUl5qCixY8ldOlNdy8a",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wCzc-YedPRHfLWoR_dCNeWi47g_RRFmh",
+      "parent_id": "1Ddx5zEVgd0PQLJUl5qCixY8ldOlNdy8a",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1982,
+      "modified": "2026-08-15T09:38:22.000Z",
+      "checksum": "3afe03f1d837b146b9aaa71419b412b6",
+      "folder": false
+    },
+    {
+      "id": "1tGgVs5CP3Pn-ICPh9_xLtPD_mJJg9LCu",
+      "parent_id": "1Ddx5zEVgd0PQLJUl5qCixY8ldOlNdy8a",
+      "name": "THIỆT GIẢ GIẢ THIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 435988,
+      "modified": "2026-08-15T09:38:27.000Z",
+      "checksum": "74809be5022b63068a3f40c56e1f472c",
+      "folder": false
+    },
+    {
+      "id": "1JmbBugBNPskfbTOndfpl0uWo-l3x18UG",
+      "parent_id": "1Ddx5zEVgd0PQLJUl5qCixY8ldOlNdy8a",
+      "name": "THIỆT GIẢ GIẢ THIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 416659,
+      "modified": "2026-08-15T09:38:25.000Z",
+      "checksum": "59ae0559b1db5ef41e13c90dbd5e7b2e",
+      "folder": false
+    }
+  ]
+}

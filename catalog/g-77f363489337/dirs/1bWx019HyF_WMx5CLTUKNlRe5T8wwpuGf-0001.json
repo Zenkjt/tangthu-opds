@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bWx019HyF_WMx5CLTUKNlRe5T8wwpuGf",
+  "page": 1,
+  "items": [
+    {
+      "id": "18qNfR87BWFhO8PnTY75RhMdwYTFSU3vq",
+      "parent_id": "1bWx019HyF_WMx5CLTUKNlRe5T8wwpuGf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6717,
+      "modified": "2026-08-15T09:32:32.000Z",
+      "checksum": "b515a49b92aa2aaebdfb2fa7dfe349d2",
+      "folder": false
+    },
+    {
+      "id": "1tp0mZqIrlZVsatc6qPlCqjwcnhxYB-Xc",
+      "parent_id": "1bWx019HyF_WMx5CLTUKNlRe5T8wwpuGf",
+      "name": "TUYẾT ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 545612,
+      "modified": "2026-08-15T09:32:40.000Z",
+      "checksum": "8702999dd44891756a9a02682bbd1b79",
+      "folder": false
+    },
+    {
+      "id": "1A9POr3f3KiA6VHtSVT70RASDES2cSiMJ",
+      "parent_id": "1bWx019HyF_WMx5CLTUKNlRe5T8wwpuGf",
+      "name": "TUYẾT ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 685284,
+      "modified": "2026-08-15T09:32:38.000Z",
+      "checksum": "9d4390e5a295187d11553a7cbc12f001",
+      "folder": false
+    }
+  ]
+}

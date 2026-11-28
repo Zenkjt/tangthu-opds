@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jhApilDYCUJulaQPhjO_CXU50o4jBOM5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vcBD35wPmc5CUoffrY6fLe5bnTAu6qN2",
+      "parent_id": "1jhApilDYCUJulaQPhjO_CXU50o4jBOM5",
+      "name": "CHÚ BÉ THÀNH PARIS.epub",
+      "mime": "application/epub+zip",
+      "size": 550360,
+      "modified": "2026-08-15T08:15:35.000Z",
+      "checksum": "b2fd7d29b1d117ad974ad0174eadd192",
+      "folder": false
+    },
+    {
+      "id": "12BzYO5xQhqomlhA7oVuzP-2dAdEkiV7c",
+      "parent_id": "1jhApilDYCUJulaQPhjO_CXU50o4jBOM5",
+      "name": "CHÚ BÉ THÀNH PARIS.pdf",
+      "mime": "application/pdf",
+      "size": 450343,
+      "modified": "2026-08-15T08:15:33.000Z",
+      "checksum": "90ee9729d80b98b0d05562e590f8edaf",
+      "folder": false
+    },
+    {
+      "id": "1l7Y7LVce-qzwLzwknc6H0UwJRscHl2V1",
+      "parent_id": "1jhApilDYCUJulaQPhjO_CXU50o4jBOM5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5259,
+      "modified": "2026-08-15T08:15:29.000Z",
+      "checksum": "cfa21fb3053c3c1d612ed066d68e55dd",
+      "folder": false
+    }
+  ]
+}

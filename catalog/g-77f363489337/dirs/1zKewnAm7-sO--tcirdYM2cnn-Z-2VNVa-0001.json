@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zKewnAm7-sO--tcirdYM2cnn-Z-2VNVa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XtMpv_r6gAEBL_z1nWntFuko2hdR-kGv",
+      "parent_id": "1zKewnAm7-sO--tcirdYM2cnn-Z-2VNVa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9085,
+      "modified": "2026-08-15T04:01:19.000Z",
+      "checksum": "11198680f002136f447f6d0d78bfa318",
+      "folder": false
+    },
+    {
+      "id": "1r5tJeYmjKNKpefMzKmKlW8aCZ9UORQCy",
+      "parent_id": "1zKewnAm7-sO--tcirdYM2cnn-Z-2VNVa",
+      "name": "GIẢI MÃ TÂM LINH.epub",
+      "mime": "application/epub+zip",
+      "size": 328150,
+      "modified": "2026-08-15T04:01:27.000Z",
+      "checksum": "88510827dae04eaef9b12e0abfb4d7ee",
+      "folder": false
+    },
+    {
+      "id": "1tPXJAe5KWgMO80vd9kT8K6MEaUhgNUK3",
+      "parent_id": "1zKewnAm7-sO--tcirdYM2cnn-Z-2VNVa",
+      "name": "GIẢI MÃ TÂM LINH.pdf",
+      "mime": "application/pdf",
+      "size": 635308,
+      "modified": "2026-08-15T04:01:24.000Z",
+      "checksum": "11b3a4c9c22b432dea008f131fd8e329",
+      "folder": false
+    }
+  ]
+}

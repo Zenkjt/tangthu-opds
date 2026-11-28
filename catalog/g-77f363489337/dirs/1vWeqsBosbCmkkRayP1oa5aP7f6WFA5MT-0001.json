@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vWeqsBosbCmkkRayP1oa5aP7f6WFA5MT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KdpGJzTQao--et3A24t7ydEJjbrAeYa_",
+      "parent_id": "1vWeqsBosbCmkkRayP1oa5aP7f6WFA5MT",
+      "name": "CAO ĐIỂM CUỐI CÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 545207,
+      "modified": "2026-08-16T04:23:47.000Z",
+      "checksum": "501db936186659c5f706927677bb6b75",
+      "folder": false
+    },
+    {
+      "id": "1WtAJqovEo3faioKZbV_mh1ZsodwxQffJ",
+      "parent_id": "1vWeqsBosbCmkkRayP1oa5aP7f6WFA5MT",
+      "name": "CAO ĐIỂM CUỐI CÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 1081885,
+      "modified": "2026-08-16T04:23:43.000Z",
+      "checksum": "ca04301e9f2a084a20e529166e5a5f8b",
+      "folder": false
+    },
+    {
+      "id": "1UqFyJp50vB4NaVpZNQbz5zX357R94iMA",
+      "parent_id": "1vWeqsBosbCmkkRayP1oa5aP7f6WFA5MT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1042,
+      "modified": "2026-08-16T04:23:33.000Z",
+      "checksum": "62f2a6c324b563d71ee4def34adfb1ed",
+      "folder": false
+    }
+  ]
+}

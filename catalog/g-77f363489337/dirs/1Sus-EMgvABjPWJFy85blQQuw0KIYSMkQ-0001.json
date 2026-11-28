@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Sus-EMgvABjPWJFy85blQQuw0KIYSMkQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SH31dHS8gzKZJTmpqiw6j8LjB6yVuOpn",
+      "parent_id": "1Sus-EMgvABjPWJFy85blQQuw0KIYSMkQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1970,
+      "modified": "2026-08-15T07:14:02.000Z",
+      "checksum": "0761486fd16d964fb0b1b683bffa9fff",
+      "folder": false
+    },
+    {
+      "id": "1OUcR4oPEJfj37GE9fz0m4mMUj9GoMYwb",
+      "parent_id": "1Sus-EMgvABjPWJFy85blQQuw0KIYSMkQ",
+      "name": "TRẦM ẨN.epub",
+      "mime": "application/epub+zip",
+      "size": 2170507,
+      "modified": "2026-08-15T07:14:10.000Z",
+      "checksum": "fff5cfc4bb7a905d1be85cffd6c26abc",
+      "folder": false
+    },
+    {
+      "id": "1b_teCMIRQMU6hvM0n87wEIyyr3CUxiLV",
+      "parent_id": "1Sus-EMgvABjPWJFy85blQQuw0KIYSMkQ",
+      "name": "TRẦM ẨN.pdf",
+      "mime": "application/pdf",
+      "size": 2813519,
+      "modified": "2026-08-15T07:14:07.000Z",
+      "checksum": "a67d9f12b0c8f827d8ef1d2b654ffacf",
+      "folder": false
+    }
+  ]
+}

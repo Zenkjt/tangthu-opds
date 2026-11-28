@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dD7AKqmwiYmrS2-Kdr1MzcAZ8uv5KI0Z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1J1tRmEt92rhJUF3LFE7cX7KyNx_jKGnU",
+      "parent_id": "1dD7AKqmwiYmrS2-Kdr1MzcAZ8uv5KI0Z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3825,
+      "modified": "2026-08-15T00:54:33.000Z",
+      "checksum": "b15a73dda96d8e15cc91b9bc930df91a",
+      "folder": false
+    },
+    {
+      "id": "1sF-m6eo8BGu11vYPMndKumEd3meaFAhN",
+      "parent_id": "1dD7AKqmwiYmrS2-Kdr1MzcAZ8uv5KI0Z",
+      "name": "KHÔNG THEO LỐI MÒN.epub",
+      "mime": "application/epub+zip",
+      "size": 852935,
+      "modified": "2026-08-15T00:54:40.000Z",
+      "checksum": "4df501fb848025bd337c4eeedc1522fc",
+      "folder": false
+    },
+    {
+      "id": "1cpBR4ywcyBfYiNq6HYb4gG0DLm-rYApF",
+      "parent_id": "1dD7AKqmwiYmrS2-Kdr1MzcAZ8uv5KI0Z",
+      "name": "KHÔNG THEO LỐI MÒN.pdf",
+      "mime": "application/pdf",
+      "size": 1387466,
+      "modified": "2026-08-15T00:54:38.000Z",
+      "checksum": "4ff9d8f8fda7469eb69ec2e03b56582d",
+      "folder": false
+    }
+  ]
+}

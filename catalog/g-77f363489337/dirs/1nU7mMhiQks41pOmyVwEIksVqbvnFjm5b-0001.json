@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nU7mMhiQks41pOmyVwEIksVqbvnFjm5b",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FjcBnlc3jOG0kuQqUvRnpwm1PTrQlEWd",
+      "parent_id": "1nU7mMhiQks41pOmyVwEIksVqbvnFjm5b",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5477,
+      "modified": "2026-08-15T09:31:00.000Z",
+      "checksum": "31158b04326e25927516089bfe34dbec",
+      "folder": false
+    },
+    {
+      "id": "1EjX6ET5IsMifdxAKd-hBBnZJD7FF7ghL",
+      "parent_id": "1nU7mMhiQks41pOmyVwEIksVqbvnFjm5b",
+      "name": "SỐNG NHƯ NGƯỜI PARIS.epub",
+      "mime": "application/epub+zip",
+      "size": 645489,
+      "modified": "2026-08-15T09:31:07.000Z",
+      "checksum": "01f8dba0daf51ce45c4f587682fbbf01",
+      "folder": false
+    },
+    {
+      "id": "1fWi6tp7U3qeq7Cw5qWy1Oj-ZZYDyKY9w",
+      "parent_id": "1nU7mMhiQks41pOmyVwEIksVqbvnFjm5b",
+      "name": "SỐNG NHƯ NGƯỜI PARIS.pdf",
+      "mime": "application/pdf",
+      "size": 426710,
+      "modified": "2026-08-15T09:31:04.000Z",
+      "checksum": "020ba0f44e30ca66e63665d1ab99d541",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18RWs2AjRV2Kk4HcOpHk_o4fMYef4Q7Cc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pzwLjBvSmKnbWanDkx9Yg_qMshRziw-A",
+      "parent_id": "18RWs2AjRV2Kk4HcOpHk_o4fMYef4Q7Cc",
+      "name": "CHIM.epub",
+      "mime": "application/epub+zip",
+      "size": 434814,
+      "modified": "2026-08-15T08:09:51.000Z",
+      "checksum": "7d7c1f313b07032e65fb23953a360068",
+      "folder": false
+    },
+    {
+      "id": "15_hs1jZlA696nPBoHMjfLmWxQN4q9iyx",
+      "parent_id": "18RWs2AjRV2Kk4HcOpHk_o4fMYef4Q7Cc",
+      "name": "CHIM.pdf",
+      "mime": "application/pdf",
+      "size": 260487,
+      "modified": "2026-08-15T08:09:48.000Z",
+      "checksum": "82faa792de3d90fc0bb58867d039cdde",
+      "folder": false
+    },
+    {
+      "id": "1c3UFGpSLkf_Zjame9c9t4mbGSmqUZrxP",
+      "parent_id": "18RWs2AjRV2Kk4HcOpHk_o4fMYef4Q7Cc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7006,
+      "modified": "2026-08-15T08:09:45.000Z",
+      "checksum": "e70dbddd1a267023698563d94adf6f54",
+      "folder": false
+    }
+  ]
+}

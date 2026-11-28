@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-H6wURVA4HhH65a2CfhCWfppPgOrzppL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UUZhDFKqWk-SE8KMIClsSVlZWWNLZX0n",
+      "parent_id": "1-H6wURVA4HhH65a2CfhCWfppPgOrzppL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3383,
+      "modified": "2026-08-15T10:19:49.000Z",
+      "checksum": "95f11374e318fb1f31d9dcd7cb2e85e1",
+      "folder": false
+    },
+    {
+      "id": "1ndWxxP86LSljvDZ7pZkzuZXb2Nj1sWo5",
+      "parent_id": "1-H6wURVA4HhH65a2CfhCWfppPgOrzppL",
+      "name": "THA THỨ TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 269658,
+      "modified": "2026-08-15T10:19:56.000Z",
+      "checksum": "d5ed93e48c55b61d1fffaad6405e5f85",
+      "folder": false
+    },
+    {
+      "id": "1CNl-j4u780N2xJujY_1V79OnEX3uetMa",
+      "parent_id": "1-H6wURVA4HhH65a2CfhCWfppPgOrzppL",
+      "name": "THA THỨ TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 377734,
+      "modified": "2026-08-15T10:19:53.000Z",
+      "checksum": "d7f434570c926b0e3589d769fe597042",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZruASfVdiEGgONfSaSZZdz15gpUFJSqR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vu-k41QLCcSVauIkeTnPXufXBzZ42Njd",
+      "parent_id": "1ZruASfVdiEGgONfSaSZZdz15gpUFJSqR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1090,
+      "modified": "2026-08-16T03:52:22.000Z",
+      "checksum": "ad36e24c3600ff7b4364bfb286cca2e8",
+      "folder": false
+    },
+    {
+      "id": "14NFdSuPLetb6UuN7L3VkV25pcpoaA6QA",
+      "parent_id": "1ZruASfVdiEGgONfSaSZZdz15gpUFJSqR",
+      "name": "TRUYỆN NGẮN 100 CHỮ.epub",
+      "mime": "application/epub+zip",
+      "size": 274536,
+      "modified": "2026-08-16T03:52:27.000Z",
+      "checksum": "f34b784077c2f3131ab2410a98616e63",
+      "folder": false
+    },
+    {
+      "id": "1bebLy6dpVU-YoN1L-vYzqaxio13U5hVn",
+      "parent_id": "1ZruASfVdiEGgONfSaSZZdz15gpUFJSqR",
+      "name": "TRUYỆN NGẮN 100 CHỮ.pdf",
+      "mime": "application/pdf",
+      "size": 314931,
+      "modified": "2026-08-16T03:52:25.000Z",
+      "checksum": "bf648db6bb931dc2f2eaae4f21ae504b",
+      "folder": false
+    }
+  ]
+}

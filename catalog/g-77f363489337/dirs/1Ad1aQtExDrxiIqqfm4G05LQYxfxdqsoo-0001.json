@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ad1aQtExDrxiIqqfm4G05LQYxfxdqsoo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gVcGtzLy5sp5jOJn26cxbVJ1iYEHfiuJ",
+      "parent_id": "1Ad1aQtExDrxiIqqfm4G05LQYxfxdqsoo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4102,
+      "modified": "2026-08-16T02:55:18.000Z",
+      "checksum": "e44e825b58dda697ef7a874174613534",
+      "folder": false
+    },
+    {
+      "id": "1Uxcvz936JTA-IrtIWe3_TQcv_85-Pc3A",
+      "parent_id": "1Ad1aQtExDrxiIqqfm4G05LQYxfxdqsoo",
+      "name": "GIA ĐÌNH MÁ BẢY.epub",
+      "mime": "application/epub+zip",
+      "size": 457276,
+      "modified": "2026-08-16T02:55:26.000Z",
+      "checksum": "723292e87588cdf4d76d1a27f57d65b1",
+      "folder": false
+    },
+    {
+      "id": "1DXki-NlDZihw7xSPKZhzN4wRJoQOQ617",
+      "parent_id": "1Ad1aQtExDrxiIqqfm4G05LQYxfxdqsoo",
+      "name": "GIA ĐÌNH MÁ BẢY.pdf",
+      "mime": "application/pdf",
+      "size": 1175061,
+      "modified": "2026-08-16T02:55:24.000Z",
+      "checksum": "01b5dbec30cd839b321ff07d6300b062",
+      "folder": false
+    }
+  ]
+}

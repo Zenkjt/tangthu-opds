@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LFfHRpLa9mFwxraOvEv09n7NA2GzfumH",
+  "page": 1,
+  "items": [
+    {
+      "id": "10pHXzgug0bgsCajd6irUsL7nffzo-8Qb",
+      "parent_id": "1LFfHRpLa9mFwxraOvEv09n7NA2GzfumH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3068,
+      "modified": "2026-08-15T13:09:39.000Z",
+      "checksum": "0229797005c1571a8b9e35dcd486b2fa",
+      "folder": false
+    },
+    {
+      "id": "1SqOTk-Kh7Ey7DJuNF08F_-ONbAxhetvQ",
+      "parent_id": "1LFfHRpLa9mFwxraOvEv09n7NA2GzfumH",
+      "name": "NHỮNG BÍ ẨN CỦA CUỘC ĐỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 476942,
+      "modified": "2026-08-15T13:09:46.000Z",
+      "checksum": "87e81c47d4321f254540db3e5268d617",
+      "folder": false
+    },
+    {
+      "id": "1lfJ7uosFPY_bcxdpbV8ESiT_Mc5hKxBq",
+      "parent_id": "1LFfHRpLa9mFwxraOvEv09n7NA2GzfumH",
+      "name": "NHỮNG BÍ ẨN CỦA CUỘC ĐỜI.pdf",
+      "mime": "application/pdf",
+      "size": 700814,
+      "modified": "2026-08-15T13:09:44.000Z",
+      "checksum": "ce7d4ce47acd0b89a8011179102c41c0",
+      "folder": false
+    }
+  ]
+}

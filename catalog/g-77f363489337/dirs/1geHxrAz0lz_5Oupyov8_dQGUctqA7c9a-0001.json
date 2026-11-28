@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1geHxrAz0lz_5Oupyov8_dQGUctqA7c9a",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fQxp0MAUpXc4TRji0g9G9F4qDUUauV3g",
+      "parent_id": "1geHxrAz0lz_5Oupyov8_dQGUctqA7c9a",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3493,
+      "modified": "2026-08-16T04:08:51.000Z",
+      "checksum": "cb8d3eba6fa8fceb954887d9e02d1139",
+      "folder": false
+    },
+    {
+      "id": "1zMgl0rtHW_pSNrF8cXXCjr_io0mJYgK7",
+      "parent_id": "1geHxrAz0lz_5Oupyov8_dQGUctqA7c9a",
+      "name": "NƠI CUỐI CON ĐƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 407570,
+      "modified": "2026-08-16T04:08:57.000Z",
+      "checksum": "379dc39ea8dedb81005ca121daa55958",
+      "folder": false
+    },
+    {
+      "id": "1vM1tlN1VQld9LFBfO11gIOu0DipGz4bN",
+      "parent_id": "1geHxrAz0lz_5Oupyov8_dQGUctqA7c9a",
+      "name": "NƠI CUỐI CON ĐƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 1230170,
+      "modified": "2026-08-16T04:08:55.000Z",
+      "checksum": "a0a1deb62d0139eee22864f70f135534",
+      "folder": false
+    }
+  ]
+}

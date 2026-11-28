@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PvyTB8nwUC2Xx8j2su4RxkLTiIEbIdbM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AdNGRbETcNW71DQ1qreZgn8nxzRQMMtO",
+      "parent_id": "1PvyTB8nwUC2Xx8j2su4RxkLTiIEbIdbM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3490,
+      "modified": "2026-08-15T03:50:33.000Z",
+      "checksum": "32e5b94b2804e2c48ff73c50a00564bc",
+      "folder": false
+    },
+    {
+      "id": "1qFOcywosgkXx3NaxMWEqZZ_wwqh2hmci",
+      "parent_id": "1PvyTB8nwUC2Xx8j2su4RxkLTiIEbIdbM",
+      "name": "GIẢNG LÝ DƯỚI CHÂN THẦY.epub",
+      "mime": "application/epub+zip",
+      "size": 526093,
+      "modified": "2026-08-15T03:50:41.000Z",
+      "checksum": "2866ae91c2242c3ce5ae2705cc37ecc5",
+      "folder": false
+    },
+    {
+      "id": "14iZsoVVQ-6O52Jht-MbmDnY51YZ2vT-Z",
+      "parent_id": "1PvyTB8nwUC2Xx8j2su4RxkLTiIEbIdbM",
+      "name": "GIẢNG LÝ DƯỚI CHÂN THẦY.pdf",
+      "mime": "application/pdf",
+      "size": 1450934,
+      "modified": "2026-08-15T03:50:38.000Z",
+      "checksum": "a70783500c5fcc2571f2478352ca0c63",
+      "folder": false
+    }
+  ]
+}

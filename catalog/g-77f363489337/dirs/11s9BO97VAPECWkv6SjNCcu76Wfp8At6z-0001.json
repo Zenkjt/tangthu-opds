@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11s9BO97VAPECWkv6SjNCcu76Wfp8At6z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HV-KMlWN1caKVzWpMBpTA6gfTr-8iB88",
+      "parent_id": "11s9BO97VAPECWkv6SjNCcu76Wfp8At6z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1852,
+      "modified": "2026-08-15T06:36:48.000Z",
+      "checksum": "e3f8919d6ae909b55585a6ad28709ca0",
+      "folder": false
+    },
+    {
+      "id": "1OIeVUcO48QnqxqqB7lOPROVnU2ANRq8C",
+      "parent_id": "11s9BO97VAPECWkv6SjNCcu76Wfp8At6z",
+      "name": "RỪNG NA UY.epub",
+      "mime": "application/epub+zip",
+      "size": 642433,
+      "modified": "2026-08-15T06:37:22.000Z",
+      "checksum": "88b46c187cb1dc28a34dfcedb30f4767",
+      "folder": false
+    },
+    {
+      "id": "1cF1H-9V8jGt8Z_mFBufNCJFT4J1325_O",
+      "parent_id": "11s9BO97VAPECWkv6SjNCcu76Wfp8At6z",
+      "name": "RỪNG NA UY.pdf",
+      "mime": "application/pdf",
+      "size": 1464762,
+      "modified": "2026-08-15T06:37:10.000Z",
+      "checksum": "42aee503fcb233fd0937bddd6f8c4535",
+      "folder": false
+    }
+  ]
+}

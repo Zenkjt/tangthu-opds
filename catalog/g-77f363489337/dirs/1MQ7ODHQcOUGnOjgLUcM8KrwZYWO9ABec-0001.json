@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MQ7ODHQcOUGnOjgLUcM8KrwZYWO9ABec",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ubdkTgNh4CTb5xvd1E11C9CU230l8GAk",
+      "parent_id": "1MQ7ODHQcOUGnOjgLUcM8KrwZYWO9ABec",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3858,
+      "modified": "2026-08-15T10:25:42.000Z",
+      "checksum": "d36f88de13f08fe59852954b128aa73e",
+      "folder": false
+    },
+    {
+      "id": "1k3GAGrMuORwZiCo716s3KUJGVb9mjxPQ",
+      "parent_id": "1MQ7ODHQcOUGnOjgLUcM8KrwZYWO9ABec",
+      "name": "SỰ BÁO THÙ CỦA BẢY.epub",
+      "mime": "application/epub+zip",
+      "size": 682256,
+      "modified": "2026-08-15T10:25:50.000Z",
+      "checksum": "94a3172a6c6e5f7d8a2c528ec38485b5",
+      "folder": false
+    },
+    {
+      "id": "19kAgCTBEG2jQlY_178mA0MDuiWdPopMR",
+      "parent_id": "1MQ7ODHQcOUGnOjgLUcM8KrwZYWO9ABec",
+      "name": "SỰ BÁO THÙ CỦA BẢY.pdf",
+      "mime": "application/pdf",
+      "size": 1171925,
+      "modified": "2026-08-15T10:25:48.000Z",
+      "checksum": "01d50aa76e4a7069d80e576223a65c52",
+      "folder": false
+    }
+  ]
+}

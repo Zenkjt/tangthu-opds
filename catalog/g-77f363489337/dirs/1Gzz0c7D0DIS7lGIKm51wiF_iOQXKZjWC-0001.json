@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Gzz0c7D0DIS7lGIKm51wiF_iOQXKZjWC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1h1xpnTK5--j-8HlWndzyK4kaSa_4UesE",
+      "parent_id": "1Gzz0c7D0DIS7lGIKm51wiF_iOQXKZjWC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 575,
+      "modified": "2026-08-15T15:40:22.000Z",
+      "checksum": "01990d1e8d0120676c1b72c6d07f516c",
+      "folder": false
+    },
+    {
+      "id": "1eO3Ojd9sq8qyrlF6STZtGoqz5uSGqNmT",
+      "parent_id": "1Gzz0c7D0DIS7lGIKm51wiF_iOQXKZjWC",
+      "name": "LỜI NGUYỀN TRUYỀN KIẾP.epub",
+      "mime": "application/epub+zip",
+      "size": 562242,
+      "modified": "2026-08-15T15:40:30.000Z",
+      "checksum": "ed8fd236a7b863e4153c163f65db1570",
+      "folder": false
+    },
+    {
+      "id": "1-L7qxE2b8pZBfsLUUg9KbVn524cGJnLw",
+      "parent_id": "1Gzz0c7D0DIS7lGIKm51wiF_iOQXKZjWC",
+      "name": "LỜI NGUYỀN TRUYỀN KIẾP.pdf",
+      "mime": "application/pdf",
+      "size": 1169934,
+      "modified": "2026-08-15T15:40:27.000Z",
+      "checksum": "d42178305c8532ea3d5833d3c49b1bf9",
+      "folder": false
+    }
+  ]
+}

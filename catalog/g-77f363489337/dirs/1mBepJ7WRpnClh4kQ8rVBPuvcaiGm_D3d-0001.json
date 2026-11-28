@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mBepJ7WRpnClh4kQ8rVBPuvcaiGm_D3d",
+  "page": 1,
+  "items": [
+    {
+      "id": "1m-FgZw3CjURVwU36FhxrJ6sEfpj--qMw",
+      "parent_id": "1mBepJ7WRpnClh4kQ8rVBPuvcaiGm_D3d",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 439,
+      "modified": "2026-08-16T04:17:17.000Z",
+      "checksum": "a85e33e943c28e5450ca6e7bb1feac6d",
+      "folder": false
+    },
+    {
+      "id": "1w7I9ihNbEQhWlnWGYe3TWZzYY3wn6tH_",
+      "parent_id": "1mBepJ7WRpnClh4kQ8rVBPuvcaiGm_D3d",
+      "name": "MƯA SA GIÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 316015,
+      "modified": "2026-08-16T04:17:24.000Z",
+      "checksum": "2c4f7883ea23e670a2dc3d0f09b50ce6",
+      "folder": false
+    },
+    {
+      "id": "1r62LljrCWo7-vHOaLxz3tFrcnSZCRwL8",
+      "parent_id": "1mBepJ7WRpnClh4kQ8rVBPuvcaiGm_D3d",
+      "name": "MƯA SA GIÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 525540,
+      "modified": "2026-08-16T04:17:21.000Z",
+      "checksum": "8d654fe983c7b10b3dd782a0a48b2275",
+      "folder": false
+    }
+  ]
+}

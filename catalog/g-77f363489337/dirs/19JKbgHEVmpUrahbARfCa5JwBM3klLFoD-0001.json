@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19JKbgHEVmpUrahbARfCa5JwBM3klLFoD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qRTGm2cMw8Vwb_Ch4TnPkIkTLdDusl8t",
+      "parent_id": "19JKbgHEVmpUrahbARfCa5JwBM3klLFoD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3784,
+      "modified": "2026-08-15T06:18:03.000Z",
+      "checksum": "bedf3ef4c4f8b0bcaca31d255453cb74",
+      "folder": false
+    },
+    {
+      "id": "1rP4Zwd48rc--Fyg_wxPpwNbgA23YHgBp",
+      "parent_id": "19JKbgHEVmpUrahbARfCa5JwBM3klLFoD",
+      "name": "MÓN NGON HÀ NỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 481981,
+      "modified": "2026-08-15T06:18:09.000Z",
+      "checksum": "f5cc0654d3fae5ed5078d76f394c02a0",
+      "folder": false
+    },
+    {
+      "id": "1Kmf2Br7rLV1nAsmA9NJeYFebEFBc9kEf",
+      "parent_id": "19JKbgHEVmpUrahbARfCa5JwBM3klLFoD",
+      "name": "MÓN NGON HÀ NỘI.pdf",
+      "mime": "application/pdf",
+      "size": 573676,
+      "modified": "2026-08-15T06:18:06.000Z",
+      "checksum": "5bd8f8dbeffc4ad0a417b1b254b11c01",
+      "folder": false
+    }
+  ]
+}

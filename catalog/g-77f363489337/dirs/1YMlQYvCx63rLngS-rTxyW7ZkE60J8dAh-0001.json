@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YMlQYvCx63rLngS-rTxyW7ZkE60J8dAh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_cH5-8OGC6fJn-ROkISKEgAg4mIaRXPg",
+      "parent_id": "1YMlQYvCx63rLngS-rTxyW7ZkE60J8dAh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3251,
+      "modified": "2026-08-15T15:58:38.000Z",
+      "checksum": "5c7547352f2db170f1485053b92586d3",
+      "folder": false
+    },
+    {
+      "id": "1RNrcsS0FvwtYFn_QRPJIJ-oLok1103k3",
+      "parent_id": "1YMlQYvCx63rLngS-rTxyW7ZkE60J8dAh",
+      "name": "QUYỂN DƯỠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 435112,
+      "modified": "2026-08-15T15:58:44.000Z",
+      "checksum": "a28b09d8d35d581e511656472af2ff75",
+      "folder": false
+    },
+    {
+      "id": "1xsBZz_wQrH7h_Cjv0wMSflKjoXSzTJgm",
+      "parent_id": "1YMlQYvCx63rLngS-rTxyW7ZkE60J8dAh",
+      "name": "QUYỂN DƯỠNG.pdf",
+      "mime": "application/pdf",
+      "size": 588962,
+      "modified": "2026-08-15T15:58:42.000Z",
+      "checksum": "052d15b32d266dde6ddfd8865e740e4d",
+      "folder": false
+    }
+  ]
+}

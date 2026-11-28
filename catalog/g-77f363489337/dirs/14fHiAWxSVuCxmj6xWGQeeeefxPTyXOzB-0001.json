@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14fHiAWxSVuCxmj6xWGQeeeefxPTyXOzB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QwT6UBz-p1JZ14tNBBjyhIAW_iZr0iFM",
+      "parent_id": "14fHiAWxSVuCxmj6xWGQeeeefxPTyXOzB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4282,
+      "modified": "2026-08-15T10:00:59.000Z",
+      "checksum": "a1d0033d2dc4c555137db88820df1c1a",
+      "folder": false
+    },
+    {
+      "id": "1HK_HrlPBbYg3zuTEF5ro7S-8xWc-ccLC",
+      "parent_id": "14fHiAWxSVuCxmj6xWGQeeeefxPTyXOzB",
+      "name": "TÔI RẤT NHỚ EM.epub",
+      "mime": "application/epub+zip",
+      "size": 223008,
+      "modified": "2026-08-15T10:01:05.000Z",
+      "checksum": "0a4b948aea72e4b25dee6b3e0b06e3b3",
+      "folder": false
+    },
+    {
+      "id": "1aYeq9M2Tp9i7ziT7gVR7AzxzmYJ8Zl9s",
+      "parent_id": "14fHiAWxSVuCxmj6xWGQeeeefxPTyXOzB",
+      "name": "TÔI RẤT NHỚ EM.pdf",
+      "mime": "application/pdf",
+      "size": 367016,
+      "modified": "2026-08-15T10:01:03.000Z",
+      "checksum": "9d40bca309973007bc4f271de4eb9b39",
+      "folder": false
+    }
+  ]
+}

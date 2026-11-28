@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZI2Y2f-sI6gS-x7-A4G2MuzCSGSzueBG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_-6svLgbY7kKM9BrP0rU1jlne4yAVGo8",
+      "parent_id": "1ZI2Y2f-sI6gS-x7-A4G2MuzCSGSzueBG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8107,
+      "modified": "2026-08-15T07:08:02.000Z",
+      "checksum": "b4cc84eda706500e1c23502d1ed0b741",
+      "folder": false
+    },
+    {
+      "id": "1JHOghPJkK12MRaKOgMb9nEI9eyDwTPHO",
+      "parent_id": "1ZI2Y2f-sI6gS-x7-A4G2MuzCSGSzueBG",
+      "name": "HÃY YÊU CUỘC SỐNG BẠN CHỌN.epub",
+      "mime": "application/epub+zip",
+      "size": 428682,
+      "modified": "2026-08-15T07:08:09.000Z",
+      "checksum": "d08259c2e22f0b37fa3cb507a812bcbc",
+      "folder": false
+    },
+    {
+      "id": "19kFqcHVJcDcwcyHpFwMq7IPBBvw8X40X",
+      "parent_id": "1ZI2Y2f-sI6gS-x7-A4G2MuzCSGSzueBG",
+      "name": "HÃY YÊU CUỘC SỐNG BẠN CHỌN.pdf",
+      "mime": "application/pdf",
+      "size": 358861,
+      "modified": "2026-08-15T07:08:06.000Z",
+      "checksum": "70cadd5bd6199fc2667e82e83bc4717d",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VSg9hUZgW1dqC4IdOTF7ZHJR5bIZReUs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DJobeQemn9HrXm48JHnJwIoagp4lm_-S",
+      "parent_id": "1VSg9hUZgW1dqC4IdOTF7ZHJR5bIZReUs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3559,
+      "modified": "2026-08-15T07:56:22.000Z",
+      "checksum": "69c6349f8398bc629283f974ebfc205b",
+      "folder": false
+    },
+    {
+      "id": "1EAnhMx5lbwUjv3Ipmh75AhUyvZMVP0sd",
+      "parent_id": "1VSg9hUZgW1dqC4IdOTF7ZHJR5bIZReUs",
+      "name": "THỜI GIAN NHƯ HẸN.epub",
+      "mime": "application/epub+zip",
+      "size": 608866,
+      "modified": "2026-08-15T07:56:30.000Z",
+      "checksum": "40bbcb76eeb6801436748d365d75faca",
+      "folder": false
+    },
+    {
+      "id": "129wiv7_KFwLT5bCsh0UKqpEarvEvK__3",
+      "parent_id": "1VSg9hUZgW1dqC4IdOTF7ZHJR5bIZReUs",
+      "name": "THỜI GIAN NHƯ HẸN.pdf",
+      "mime": "application/pdf",
+      "size": 2090753,
+      "modified": "2026-08-15T07:56:27.000Z",
+      "checksum": "702c57a177d377ab01c6ec588a5e4f94",
+      "folder": false
+    }
+  ]
+}

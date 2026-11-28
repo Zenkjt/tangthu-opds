@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BZnBmlaG9AXxJfHX6QXdzoZS66sXE0i1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xv4ZluXg9ny6UzwOfEIe_OO1O7_1XHLe",
+      "parent_id": "1BZnBmlaG9AXxJfHX6QXdzoZS66sXE0i1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2702,
+      "modified": "2026-08-16T03:17:04.000Z",
+      "checksum": "92ba54c0ffc9c28d015186a71fb3be63",
+      "folder": false
+    },
+    {
+      "id": "1ZsDlSlr6uWNXiN8c68MTlmCbEavStJLx",
+      "parent_id": "1BZnBmlaG9AXxJfHX6QXdzoZS66sXE0i1",
+      "name": "GIỮA NHỮNG HIỆP SĨ ĐEN TẬP 1.epub",
+      "mime": "application/epub+zip",
+      "size": 487211,
+      "modified": "2026-08-16T03:17:12.000Z",
+      "checksum": "d208ab6129f3ee96aa65177cf6532772",
+      "folder": false
+    },
+    {
+      "id": "1xD2qQdOJwMn1w65RChJn4dWNCVAWS-Uf",
+      "parent_id": "1BZnBmlaG9AXxJfHX6QXdzoZS66sXE0i1",
+      "name": "GIỮA NHỮNG HIỆP SĨ ĐEN TẬP 1.pdf",
+      "mime": "application/pdf",
+      "size": 1675815,
+      "modified": "2026-08-16T03:17:09.000Z",
+      "checksum": "dbdbee63cc600212140b07e16e54f204",
+      "folder": false
+    }
+  ]
+}

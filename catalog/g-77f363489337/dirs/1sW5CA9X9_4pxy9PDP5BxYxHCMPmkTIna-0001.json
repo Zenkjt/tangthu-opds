@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sW5CA9X9_4pxy9PDP5BxYxHCMPmkTIna",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QwLhGFshpr8lX8fYi_oSoUtuThBT5qJj",
+      "parent_id": "1sW5CA9X9_4pxy9PDP5BxYxHCMPmkTIna",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1762,
+      "modified": "2026-08-16T03:35:32.000Z",
+      "checksum": "7845c5888898971b039688c708e8f94c",
+      "folder": false
+    },
+    {
+      "id": "12h9hjb3WnT1Oo_yRrv_9Npot1S2ihNQC",
+      "parent_id": "1sW5CA9X9_4pxy9PDP5BxYxHCMPmkTIna",
+      "name": "LÃO HẠC.epub",
+      "mime": "application/epub+zip",
+      "size": 392089,
+      "modified": "2026-08-16T03:35:37.000Z",
+      "checksum": "05a7f24a72ecd297e69163f81a45b120",
+      "folder": false
+    },
+    {
+      "id": "1cBncxwpfeayHZNE7K2rFOyRERdgilM3D",
+      "parent_id": "1sW5CA9X9_4pxy9PDP5BxYxHCMPmkTIna",
+      "name": "LÃO HẠC.pdf",
+      "mime": "application/pdf",
+      "size": 100340,
+      "modified": "2026-08-16T03:35:34.000Z",
+      "checksum": "e5ebb632cdc61e6288ad2d8d9d42d30c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16NMnpi6xeSBpybcvllSDyO-PQB96U2-N",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JuiQjjMMBx8Q5kk5moHw6eLiTDt9-8u8",
+      "parent_id": "16NMnpi6xeSBpybcvllSDyO-PQB96U2-N",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 482,
+      "modified": "2026-08-15T09:50:35.000Z",
+      "checksum": "1dff9285f2c2ce272f09930f322f20be",
+      "folder": false
+    },
+    {
+      "id": "18fyzysfKvLQeIPguLLhIxV8Gt7dDoOTt",
+      "parent_id": "16NMnpi6xeSBpybcvllSDyO-PQB96U2-N",
+      "name": "DÙ ĐẾN RỒI ĐI.epub",
+      "mime": "application/epub+zip",
+      "size": 282999,
+      "modified": "2026-08-15T09:50:41.000Z",
+      "checksum": "f28a74fedd4cc8ce68b88646ec8d409b",
+      "folder": false
+    },
+    {
+      "id": "1-OuiNCZsKAHIP6GtR39I9OLtc3ITvyuq",
+      "parent_id": "16NMnpi6xeSBpybcvllSDyO-PQB96U2-N",
+      "name": "DÙ ĐẾN RỒI ĐI.pdf",
+      "mime": "application/pdf",
+      "size": 417876,
+      "modified": "2026-08-15T09:50:39.000Z",
+      "checksum": "0b6624486310dc40f3d128f97e3b61be",
+      "folder": false
+    }
+  ]
+}

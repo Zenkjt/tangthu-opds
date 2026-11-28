@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1--y9wyhGWHiLN5RIaOUbKeGVoOFQbi7m",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Tx_L13Fj4GWa3GUMvuyXaH8zhvqwJoLq",
+      "parent_id": "1--y9wyhGWHiLN5RIaOUbKeGVoOFQbi7m",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 785,
+      "modified": "2026-08-15T15:36:27.000Z",
+      "checksum": "d384fe1461f5ddae6034d1beb0d24b96",
+      "folder": false
+    },
+    {
+      "id": "1XKiAkdLSHBYwnVArHFMRB-DBcArBwHPF",
+      "parent_id": "1--y9wyhGWHiLN5RIaOUbKeGVoOFQbi7m",
+      "name": "THẢM KỊCH Ở STYLES.epub",
+      "mime": "application/epub+zip",
+      "size": 697252,
+      "modified": "2026-08-15T15:36:34.000Z",
+      "checksum": "4171d24b0c61c9587722e306535b3ff6",
+      "folder": false
+    },
+    {
+      "id": "1IMD2XSYrFAjTg2ueh0ChuUh87PXkMTun",
+      "parent_id": "1--y9wyhGWHiLN5RIaOUbKeGVoOFQbi7m",
+      "name": "THẢM KỊCH Ở STYLES.pdf",
+      "mime": "application/pdf",
+      "size": 927619,
+      "modified": "2026-08-15T15:36:32.000Z",
+      "checksum": "12e9836deb7fec8a339ccf5a57364cb9",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10MtTcr92PppqKa8XsDyoABYpL5AkVEQq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UB4ufr3jpKvqumXIuh7p6d8Tyd2ocnAY",
+      "parent_id": "10MtTcr92PppqKa8XsDyoABYpL5AkVEQq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 749,
+      "modified": "2026-08-15T10:06:12.000Z",
+      "checksum": "8e5902a71ccc74cd8fc1656c0b9ca084",
+      "folder": false
+    },
+    {
+      "id": "1Rh_GMjM2fireCv4KfVvJ74w3rqoliZve",
+      "parent_id": "10MtTcr92PppqKa8XsDyoABYpL5AkVEQq",
+      "name": "TỨ BÌNH PHONG.epub",
+      "mime": "application/epub+zip",
+      "size": 1402086,
+      "modified": "2026-08-15T10:06:20.000Z",
+      "checksum": "8c54f0395ff6fd4365096be2c130396f",
+      "folder": false
+    },
+    {
+      "id": "1IMXDszDJiAwLU9t8CDCYEXyNqH0QPYzy",
+      "parent_id": "10MtTcr92PppqKa8XsDyoABYpL5AkVEQq",
+      "name": "TỨ BÌNH PHONG.pdf",
+      "mime": "application/pdf",
+      "size": 1552063,
+      "modified": "2026-08-15T10:06:16.000Z",
+      "checksum": "b494f500c57612e61d0788c78f0ae89b",
+      "folder": false
+    }
+  ]
+}

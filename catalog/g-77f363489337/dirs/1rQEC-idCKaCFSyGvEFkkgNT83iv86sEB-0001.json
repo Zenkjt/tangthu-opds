@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rQEC-idCKaCFSyGvEFkkgNT83iv86sEB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lATRj85e7JcMwRSdJjwdV5ZRcHT6MHHx",
+      "parent_id": "1rQEC-idCKaCFSyGvEFkkgNT83iv86sEB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2896,
+      "modified": "2026-08-15T03:18:07.000Z",
+      "checksum": "d879e424f3c63f916bac0deb358243fd",
+      "folder": false
+    },
+    {
+      "id": "1Zgc-6lxRPAZrKAdQ64zafU5W83bo_Qrt",
+      "parent_id": "1rQEC-idCKaCFSyGvEFkkgNT83iv86sEB",
+      "name": "SỢI CHỈ MỎNG MANH.epub",
+      "mime": "application/epub+zip",
+      "size": 546934,
+      "modified": "2026-08-15T03:18:15.000Z",
+      "checksum": "ae5b1dc99b3531d1dc9919643361c53f",
+      "folder": false
+    },
+    {
+      "id": "1TfJSLrbqbeCy_tHxENCvsRJrGVjRb-2I",
+      "parent_id": "1rQEC-idCKaCFSyGvEFkkgNT83iv86sEB",
+      "name": "SỢI CHỈ MỎNG MANH.pdf",
+      "mime": "application/pdf",
+      "size": 1626739,
+      "modified": "2026-08-15T03:18:12.000Z",
+      "checksum": "4b94101cf2aa5bc55ab15ee17062789b",
+      "folder": false
+    }
+  ]
+}

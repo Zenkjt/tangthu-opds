@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TAuTvU201BsyoLePprXz_2CWblnnVCa5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PgYy4wqEiQdy8zSh96qEGmfvCGNVRf_L",
+      "parent_id": "1TAuTvU201BsyoLePprXz_2CWblnnVCa5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6932,
+      "modified": "2026-08-15T00:48:18.000Z",
+      "checksum": "8a25da705840eea34330977278b0c5cf",
+      "folder": false
+    },
+    {
+      "id": "1boXAVHhY8G0Rydm9rmWEhDOC4GWR9wgo",
+      "parent_id": "1TAuTvU201BsyoLePprXz_2CWblnnVCa5",
+      "name": "HẠNH PHÚC LÀ ĐIỀU CÓ THẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 530853,
+      "modified": "2026-08-15T00:48:25.000Z",
+      "checksum": "759fc78839d9133575a89836cd95a58a",
+      "folder": false
+    },
+    {
+      "id": "1hyDuiog1jgNBBB3rbTzmDfjkc-G8cDBo",
+      "parent_id": "1TAuTvU201BsyoLePprXz_2CWblnnVCa5",
+      "name": "HẠNH PHÚC LÀ ĐIỀU CÓ THẬT.pdf",
+      "mime": "application/pdf",
+      "size": 755460,
+      "modified": "2026-08-15T00:48:22.000Z",
+      "checksum": "733c33fdfede92c9aeee571b8d026b4a",
+      "folder": false
+    }
+  ]
+}

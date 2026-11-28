@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bp-tOFKIMQv9GaImznxe2b9pK9QSrmSJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZdvrUlWleRPnjTYPz0-Yd3WtDs0SAX1N",
+      "parent_id": "1bp-tOFKIMQv9GaImznxe2b9pK9QSrmSJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6524,
+      "modified": "2026-08-15T03:14:39.000Z",
+      "checksum": "7f166b0a260693b4053c76f91b35fc88",
+      "folder": false
+    },
+    {
+      "id": "1SX298Nx-pbM179LRGL7RP7yp522QKE1s",
+      "parent_id": "1bp-tOFKIMQv9GaImznxe2b9pK9QSrmSJ",
+      "name": "LẼ PHẢI CỦA PHI LÝ TRÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 749505,
+      "modified": "2026-08-15T03:14:47.000Z",
+      "checksum": "474c48aed2ce691fdce4eb9a54d0fb14",
+      "folder": false
+    },
+    {
+      "id": "1XWMk59Y6k6SRz25Nl-1kvcYJ81pGm7KE",
+      "parent_id": "1bp-tOFKIMQv9GaImznxe2b9pK9QSrmSJ",
+      "name": "LẼ PHẢI CỦA PHI LÝ TRÍ.pdf",
+      "mime": "application/pdf",
+      "size": 1464352,
+      "modified": "2026-08-15T03:14:44.000Z",
+      "checksum": "f5e5d3d3b2f31d2054e9f0eb4c70b747",
+      "folder": false
+    }
+  ]
+}

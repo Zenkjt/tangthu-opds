@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1J2QVKTt4LjpIh15xO0WlQ76C1LEKU698",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rZzw1a7J5wVG49XZ6OJvImksVa5xIfTY",
+      "parent_id": "1J2QVKTt4LjpIh15xO0WlQ76C1LEKU698",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2494,
+      "modified": "2026-08-15T03:49:59.000Z",
+      "checksum": "e8cc3574a1adb08ee2ffebd91d57da86",
+      "folder": false
+    },
+    {
+      "id": "1UPlLB2x_hGjNiFPweHCMh46BO6JaUIjQ",
+      "parent_id": "1J2QVKTt4LjpIh15xO0WlQ76C1LEKU698",
+      "name": "HÀNH TRÌNH CỦA LINH HỒN.epub",
+      "mime": "application/epub+zip",
+      "size": 478076,
+      "modified": "2026-08-15T03:50:07.000Z",
+      "checksum": "95962fa79397969db4e44983b23ef88f",
+      "folder": false
+    },
+    {
+      "id": "1jNX0iJFB5SVGcMu6p-fO9FkD4SFmerlo",
+      "parent_id": "1J2QVKTt4LjpIh15xO0WlQ76C1LEKU698",
+      "name": "HÀNH TRÌNH CỦA LINH HỒN.pdf",
+      "mime": "application/pdf",
+      "size": 2950283,
+      "modified": "2026-08-15T03:50:05.000Z",
+      "checksum": "01519fe4ef17d9d1170a0810ca151f3d",
+      "folder": false
+    }
+  ]
+}

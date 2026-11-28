@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KU4-I56bil-NT7xsypJMxVj7PmTuWWCD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ih8StHsmR7NqMh61eTHaeTh_w5bhxfyZ",
+      "parent_id": "1KU4-I56bil-NT7xsypJMxVj7PmTuWWCD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2690,
+      "modified": "2026-08-15T10:12:29.000Z",
+      "checksum": "30d0fbde3500001699e127229492ca69",
+      "folder": false
+    },
+    {
+      "id": "1iZ-t0EnIg888elF9cCLAdnzlBNusFKa7",
+      "parent_id": "1KU4-I56bil-NT7xsypJMxVj7PmTuWWCD",
+      "name": "THƯ HÀ NỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 205564,
+      "modified": "2026-08-15T10:12:37.000Z",
+      "checksum": "8a415e5a69571ef1b0421e836e3717e4",
+      "folder": false
+    },
+    {
+      "id": "1qLRnnuLVrxWdk09LoMsXvtXuhNaA_nAB",
+      "parent_id": "1KU4-I56bil-NT7xsypJMxVj7PmTuWWCD",
+      "name": "THƯ HÀ NỘI.pdf",
+      "mime": "application/pdf",
+      "size": 210907,
+      "modified": "2026-08-15T10:12:34.000Z",
+      "checksum": "47de944d7ac1830f24cf3dc5c2a47a7c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vQGOM2QRqIgesmxHMwnhTCr_Zo1E-8UO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rdwLtx0uEd4XwGhznxIARPBL8j0zzULa",
+      "parent_id": "1vQGOM2QRqIgesmxHMwnhTCr_Zo1E-8UO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2904,
+      "modified": "2026-08-16T04:08:52.000Z",
+      "checksum": "6a6adc8ecc0597a9c852f7477c729269",
+      "folder": false
+    },
+    {
+      "id": "1i6Qg4h2OpTUMVaeCdjib2yuqyyO6Zc4f",
+      "parent_id": "1vQGOM2QRqIgesmxHMwnhTCr_Zo1E-8UO",
+      "name": "NƠI ẤY CÓ ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 878487,
+      "modified": "2026-08-16T04:08:59.000Z",
+      "checksum": "1af8f9d3ef2c1bb1b421dfa545a1fef7",
+      "folder": false
+    },
+    {
+      "id": "1G72qGtfGLQzSvLfyRPpv7U8HogvHoBIU",
+      "parent_id": "1vQGOM2QRqIgesmxHMwnhTCr_Zo1E-8UO",
+      "name": "NƠI ẤY CÓ ANH.pdf",
+      "mime": "application/pdf",
+      "size": 1500432,
+      "modified": "2026-08-16T04:08:57.000Z",
+      "checksum": "4a067a966e22a8a435713f68642aa54e",
+      "folder": false
+    }
+  ]
+}

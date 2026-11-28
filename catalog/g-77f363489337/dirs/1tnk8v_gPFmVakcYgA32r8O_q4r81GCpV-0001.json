@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tnk8v_gPFmVakcYgA32r8O_q4r81GCpV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FbqHBuPZagwBD_mj1w2P7H1EgsQANjj5",
+      "parent_id": "1tnk8v_gPFmVakcYgA32r8O_q4r81GCpV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2820,
+      "modified": "2026-08-15T09:50:16.000Z",
+      "checksum": "b074c537af3445c3736921acfde40b5c",
+      "folder": false
+    },
+    {
+      "id": "1FjvHBbOlJZEP8FuvAds_eh6qLeOcSBay",
+      "parent_id": "1tnk8v_gPFmVakcYgA32r8O_q4r81GCpV",
+      "name": "ĐỪNG HỎI.epub",
+      "mime": "application/epub+zip",
+      "size": 314968,
+      "modified": "2026-08-15T09:50:22.000Z",
+      "checksum": "030b38ca39e3534f2b1982e3219b778b",
+      "folder": false
+    },
+    {
+      "id": "10NEIAT_Umk5iTisEBYHeJpSoFZPP1j81",
+      "parent_id": "1tnk8v_gPFmVakcYgA32r8O_q4r81GCpV",
+      "name": "ĐỪNG HỎI.pdf",
+      "mime": "application/pdf",
+      "size": 202178,
+      "modified": "2026-08-15T09:50:19.000Z",
+      "checksum": "fc8f098779cfe6a85efa07f58876edfc",
+      "folder": false
+    }
+  ]
+}

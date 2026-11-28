@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wqERZ7T-WYrslPX6wadEqhScN7mQdmvv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ey_Sr0oA93yoA90mz7B7cJ41TVSV3y18",
+      "parent_id": "1wqERZ7T-WYrslPX6wadEqhScN7mQdmvv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 439,
+      "modified": "2026-08-15T10:06:44.000Z",
+      "checksum": "2c813c56b866d56d7f33dcc0ee7f9274",
+      "folder": false
+    },
+    {
+      "id": "1_jDIeqeS_71eI3f8hdx4cQWMrVlPMnHB",
+      "parent_id": "1wqERZ7T-WYrslPX6wadEqhScN7mQdmvv",
+      "name": "TRƯỚC GIỜ NỔ SÚNG.epub",
+      "mime": "application/epub+zip",
+      "size": 392746,
+      "modified": "2026-08-15T10:06:53.000Z",
+      "checksum": "fc26baeb49d8e269bbf6427f7c66e37b",
+      "folder": false
+    },
+    {
+      "id": "1MOBVZ5vYWhdUSxDmG8Gz0fp3mJWGJrYO",
+      "parent_id": "1wqERZ7T-WYrslPX6wadEqhScN7mQdmvv",
+      "name": "TRƯỚC GIỜ NỔ SÚNG.pdf",
+      "mime": "application/pdf",
+      "size": 795127,
+      "modified": "2026-08-15T10:06:50.000Z",
+      "checksum": "6fed6638dc183e374518f20cd85807eb",
+      "folder": false
+    }
+  ]
+}

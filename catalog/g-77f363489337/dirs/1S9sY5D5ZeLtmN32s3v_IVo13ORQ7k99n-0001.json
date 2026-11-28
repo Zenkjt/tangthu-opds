@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1S9sY5D5ZeLtmN32s3v_IVo13ORQ7k99n",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wis3Cni9h3A3VKzEH8fdm8ubV1JwMziZ",
+      "parent_id": "1S9sY5D5ZeLtmN32s3v_IVo13ORQ7k99n",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 587,
+      "modified": "2026-08-16T04:09:49.000Z",
+      "checksum": "037fac0eb3e4fbe4878aee9f7dd60e93",
+      "folder": false
+    },
+    {
+      "id": "1Ertg3YR55XLp5SXlTRBl05ZsuRTjFhBG",
+      "parent_id": "1S9sY5D5ZeLtmN32s3v_IVo13ORQ7k99n",
+      "name": "NHỮNG KẺ BẤT KHUẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 577781,
+      "modified": "2026-08-16T04:09:57.000Z",
+      "checksum": "fb95ac84457f60bb3a680af35e6e0489",
+      "folder": false
+    },
+    {
+      "id": "1FCP7qCJw1fNKRzX9mI7HC5GzjanUXtYc",
+      "parent_id": "1S9sY5D5ZeLtmN32s3v_IVo13ORQ7k99n",
+      "name": "NHỮNG KẺ BẤT KHUẤT.pdf",
+      "mime": "application/pdf",
+      "size": 1104118,
+      "modified": "2026-08-16T04:09:54.000Z",
+      "checksum": "29b8d0e95b1217eaba490db96bab9df5",
+      "folder": false
+    }
+  ]
+}

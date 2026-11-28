@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10t3gafu0z9p72qfX_-oB0SGxM_u-6lbu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FdnkzGzmTXX5ph8KGmYC8BDQCLHMZS6C",
+      "parent_id": "10t3gafu0z9p72qfX_-oB0SGxM_u-6lbu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9280,
+      "modified": "2026-08-15T07:22:31.000Z",
+      "checksum": "499e0b64d293ecae9486b519df47292d",
+      "folder": false
+    },
+    {
+      "id": "1siLiPcO1rd0m0PUxuw4uXtzH71fcw3c1",
+      "parent_id": "10t3gafu0z9p72qfX_-oB0SGxM_u-6lbu",
+      "name": "TRONG BUỐT PHA LÊ.epub",
+      "mime": "application/epub+zip",
+      "size": 562217,
+      "modified": "2026-08-15T07:22:38.000Z",
+      "checksum": "46dda3fa2e1b221d36b240121f970d3b",
+      "folder": false
+    },
+    {
+      "id": "1bUWYm889YrSVvqoyrQsLt59IsEOb-UCW",
+      "parent_id": "10t3gafu0z9p72qfX_-oB0SGxM_u-6lbu",
+      "name": "TRONG BUỐT PHA LÊ.pdf",
+      "mime": "application/pdf",
+      "size": 1091555,
+      "modified": "2026-08-15T07:22:35.000Z",
+      "checksum": "12adf2e1981cd13dd4b5b5c02fecfff5",
+      "folder": false
+    }
+  ]
+}

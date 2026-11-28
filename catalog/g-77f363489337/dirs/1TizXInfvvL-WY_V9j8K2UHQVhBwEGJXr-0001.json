@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TizXInfvvL-WY_V9j8K2UHQVhBwEGJXr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FiOnkCoyLY5NH0Xh8fdic-TEiBvR-TE4",
+      "parent_id": "1TizXInfvvL-WY_V9j8K2UHQVhBwEGJXr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3092,
+      "modified": "2026-08-15T10:17:29.000Z",
+      "checksum": "88d3826db5e6fe63255ef0fb9265887d",
+      "folder": false
+    },
+    {
+      "id": "14joXzPPOisFd3rlu6j3DBd2ak-RMSiB6",
+      "parent_id": "1TizXInfvvL-WY_V9j8K2UHQVhBwEGJXr",
+      "name": "THẦN TIÊN ĐẠO HỆ THỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 6592445,
+      "modified": "2026-08-15T10:17:50.000Z",
+      "checksum": "4486eecb9b2e436709572b52e1254c22",
+      "folder": false
+    },
+    {
+      "id": "1uHJzXFuAAK31m7LpgaN36DJRSOeEqUNM",
+      "parent_id": "1TizXInfvvL-WY_V9j8K2UHQVhBwEGJXr",
+      "name": "THẦN TIÊN ĐẠO HỆ THỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 7664384,
+      "modified": "2026-08-15T10:17:43.000Z",
+      "checksum": "7d0c1a0fd76d972df6b713afe1a6e42a",
+      "folder": false
+    }
+  ]
+}

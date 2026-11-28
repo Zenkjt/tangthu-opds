@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Gg4l483bn4nv_6gYLRACCOXoqzktlJ8V",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hB1rofI1EaHiJwmn2VRyxHbcyWWMFDxv",
+      "parent_id": "1Gg4l483bn4nv_6gYLRACCOXoqzktlJ8V",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2651,
+      "modified": "2026-08-15T07:42:53.000Z",
+      "checksum": "87600043da9f97405657fc703067aadb",
+      "folder": false
+    },
+    {
+      "id": "1LcZBDhRwzbDEBIwHNoOJiz07MIx6tSJI",
+      "parent_id": "1Gg4l483bn4nv_6gYLRACCOXoqzktlJ8V",
+      "name": "VÂN TỊCH TRUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 893060,
+      "modified": "2026-08-15T07:43:04.000Z",
+      "checksum": "c65afe9165ada3e8579e2901cdd57fff",
+      "folder": false
+    },
+    {
+      "id": "1IK5Odil0-0ww6FOcYUjCJf3Bh3cgmhHF",
+      "parent_id": "1Gg4l483bn4nv_6gYLRACCOXoqzktlJ8V",
+      "name": "VÂN TỊCH TRUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 3566920,
+      "modified": "2026-08-15T07:43:01.000Z",
+      "checksum": "2ebcf802e8d9e8c50313d123df11297c",
+      "folder": false
+    }
+  ]
+}

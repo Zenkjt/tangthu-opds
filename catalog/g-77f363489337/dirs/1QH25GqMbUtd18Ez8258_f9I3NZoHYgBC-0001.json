@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QH25GqMbUtd18Ez8258_f9I3NZoHYgBC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iJqEz-vy2zVU43nAQezW1CqW9SgyeZ0T",
+      "parent_id": "1QH25GqMbUtd18Ez8258_f9I3NZoHYgBC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3041,
+      "modified": "2026-08-15T10:47:55.000Z",
+      "checksum": "2865f3c9ff73ea0abc699845a43b66f0",
+      "folder": false
+    },
+    {
+      "id": "1vzqX8heqTqslCFgzzv60SfvopBjocA1g",
+      "parent_id": "1QH25GqMbUtd18Ez8258_f9I3NZoHYgBC",
+      "name": "NẾU MƯA RƠI VÀO ĐÊM GIÁNG SINH.epub",
+      "mime": "application/epub+zip",
+      "size": 293975,
+      "modified": "2026-08-15T10:48:02.000Z",
+      "checksum": "52a8064e64372481b248764ff2c9e8dd",
+      "folder": false
+    },
+    {
+      "id": "1uk2g7tmMOT-b_jmWkp3nlJ5F-_m0rEWG",
+      "parent_id": "1QH25GqMbUtd18Ez8258_f9I3NZoHYgBC",
+      "name": "NẾU MƯA RƠI VÀO ĐÊM GIÁNG SINH.pdf",
+      "mime": "application/pdf",
+      "size": 883439,
+      "modified": "2026-08-15T10:48:00.000Z",
+      "checksum": "41e8714baa1fc721821674f32ba5647d",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1I1JUCrz8LJfB418dBmbTBsu1T65JDwdw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xqF8v1ekPJOattLw5PxfxM3PNziFmHYJ",
+      "parent_id": "1I1JUCrz8LJfB418dBmbTBsu1T65JDwdw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3451,
+      "modified": "2026-08-16T03:39:50.000Z",
+      "checksum": "46d92f4a69a56767bbd701be317d8773",
+      "folder": false
+    },
+    {
+      "id": "1_jo3QsaWaZLJftQ21fiI8YSi1BKBedwZ",
+      "parent_id": "1I1JUCrz8LJfB418dBmbTBsu1T65JDwdw",
+      "name": "HÔN LỄ THÁNG 3.epub",
+      "mime": "application/epub+zip",
+      "size": 396439,
+      "modified": "2026-08-16T03:39:55.000Z",
+      "checksum": "d9a20e1c52bf239e201b3332758d7f53",
+      "folder": false
+    },
+    {
+      "id": "1Fe8wTJG__wA8ZoDpeUauno4Hld2Ezg5v",
+      "parent_id": "1I1JUCrz8LJfB418dBmbTBsu1T65JDwdw",
+      "name": "HÔN LỄ THÁNG 3.pdf",
+      "mime": "application/pdf",
+      "size": 343502,
+      "modified": "2026-08-16T03:39:53.000Z",
+      "checksum": "53e488fc5446e3d56957dd73bcfb2dbf",
+      "folder": false
+    }
+  ]
+}

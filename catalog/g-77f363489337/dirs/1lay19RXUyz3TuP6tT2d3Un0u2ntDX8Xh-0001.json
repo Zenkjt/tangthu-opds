@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lay19RXUyz3TuP6tT2d3Un0u2ntDX8Xh",
+  "page": 1,
+  "items": [
+    {
+      "id": "17MTPFO2zde-9uiQbljgaWC5q1Tp8JZLe",
+      "parent_id": "1lay19RXUyz3TuP6tT2d3Un0u2ntDX8Xh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1846,
+      "modified": "2026-08-16T02:54:33.000Z",
+      "checksum": "13af3c610f99ae541a3cd94092e50ba1",
+      "folder": false
+    },
+    {
+      "id": "1HyptsetS71De8uj6JS4UMZKoy9VV2Wq9",
+      "parent_id": "1lay19RXUyz3TuP6tT2d3Un0u2ntDX8Xh",
+      "name": "TRUYỆN CỔ ANDERSEN.epub",
+      "mime": "application/epub+zip",
+      "size": 4413116,
+      "modified": "2026-08-16T02:54:47.000Z",
+      "checksum": "86e40aafb8362b74c43baf9bb035263a",
+      "folder": false
+    },
+    {
+      "id": "1M2dhvf5WRn2AuHHpaefZ_88Xw00uYT3R",
+      "parent_id": "1lay19RXUyz3TuP6tT2d3Un0u2ntDX8Xh",
+      "name": "TRUYỆN CỔ ANDERSEN.pdf",
+      "mime": "application/pdf",
+      "size": 6458090,
+      "modified": "2026-08-16T02:54:44.000Z",
+      "checksum": "dc8855430c9fbbef3179f9801ca3f9a1",
+      "folder": false
+    }
+  ]
+}

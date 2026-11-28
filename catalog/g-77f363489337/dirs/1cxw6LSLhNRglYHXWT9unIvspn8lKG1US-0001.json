@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cxw6LSLhNRglYHXWT9unIvspn8lKG1US",
+  "page": 1,
+  "items": [
+    {
+      "id": "1q9UbbUKWQ0HaqO8ueZ6T2ICgULFfLOCL",
+      "parent_id": "1cxw6LSLhNRglYHXWT9unIvspn8lKG1US",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1585,
+      "modified": "2026-08-15T08:17:36.000Z",
+      "checksum": "e88db1c1833deef6eaff65f3cd4d0289",
+      "folder": false
+    },
+    {
+      "id": "1AVxXyyT5pj1_w7TMe-1yENa70XDNxN8g",
+      "parent_id": "1cxw6LSLhNRglYHXWT9unIvspn8lKG1US",
+      "name": "ĐÁ QUÝ KHÔNG NÓI DỐI.epub",
+      "mime": "application/epub+zip",
+      "size": 470126,
+      "modified": "2026-08-15T08:17:42.000Z",
+      "checksum": "63021a7d06682e8fe05a440170340382",
+      "folder": false
+    },
+    {
+      "id": "1RnLM9Y4VUlmI_jAdjVNWfv56Pc_uG98V",
+      "parent_id": "1cxw6LSLhNRglYHXWT9unIvspn8lKG1US",
+      "name": "ĐÁ QUÝ KHÔNG NÓI DỐI.pdf",
+      "mime": "application/pdf",
+      "size": 1122674,
+      "modified": "2026-08-15T08:17:40.000Z",
+      "checksum": "52d8ca93e64c3f4aea0db551542578ba",
+      "folder": false
+    }
+  ]
+}

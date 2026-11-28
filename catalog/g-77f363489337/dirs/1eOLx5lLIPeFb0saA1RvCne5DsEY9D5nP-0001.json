@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eOLx5lLIPeFb0saA1RvCne5DsEY9D5nP",
+  "page": 1,
+  "items": [
+    {
+      "id": "18wbOfCBzXtOf62aRzeJjJpNmNBd7pA8c",
+      "parent_id": "1eOLx5lLIPeFb0saA1RvCne5DsEY9D5nP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3292,
+      "modified": "2026-08-15T11:29:34.000Z",
+      "checksum": "cc08f82cc41c9d4dae2f6364dcc7dd49",
+      "folder": false
+    },
+    {
+      "id": "14fF-206FcuVmHqlIpfqMeH4n-GZh5i8P",
+      "parent_id": "1eOLx5lLIPeFb0saA1RvCne5DsEY9D5nP",
+      "name": "ĐẾN VỚI NHẠC CỔ ĐIỂN.epub",
+      "mime": "application/epub+zip",
+      "size": 2864653,
+      "modified": "2026-08-15T11:29:43.000Z",
+      "checksum": "5422b6c6888caf8f384b6fa9c776cc45",
+      "folder": false
+    },
+    {
+      "id": "1uyYTbYI9shA2phZWaOZ7bQ3s2CQUwGxS",
+      "parent_id": "1eOLx5lLIPeFb0saA1RvCne5DsEY9D5nP",
+      "name": "ĐẾN VỚI NHẠC CỔ ĐIỂN.pdf",
+      "mime": "application/pdf",
+      "size": 4369253,
+      "modified": "2026-08-15T11:29:39.000Z",
+      "checksum": "bb66074ec7253231ec0f6f1dda33c772",
+      "folder": false
+    }
+  ]
+}

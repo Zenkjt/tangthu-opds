@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bYa8BDG5NTrsQ5xocRPd9GZM3Qe-0Yne",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DgpJwBzO8fHp6LWHUAXSFnDPnbi0kFXi",
+      "parent_id": "1bYa8BDG5NTrsQ5xocRPd9GZM3Qe-0Yne",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3394,
+      "modified": "2026-08-15T10:24:42.000Z",
+      "checksum": "af063ce4a0fe00637ee11291151c6940",
+      "folder": false
+    },
+    {
+      "id": "1HX45LUy3XapcBzRYCKmJKfAHHUTurinu",
+      "parent_id": "1bYa8BDG5NTrsQ5xocRPd9GZM3Qe-0Yne",
+      "name": "SỨC MẠNH HẮC ÁM.epub",
+      "mime": "application/epub+zip",
+      "size": 1072362,
+      "modified": "2026-08-15T10:24:55.000Z",
+      "checksum": "0dc83c8bc042aab93d03f084190f12aa",
+      "folder": false
+    },
+    {
+      "id": "1np-Bq-JOpxLeamnfQX0ve45nqQrPhqK_",
+      "parent_id": "1bYa8BDG5NTrsQ5xocRPd9GZM3Qe-0Yne",
+      "name": "SỨC MẠNH HẮC ÁM.pdf",
+      "mime": "application/pdf",
+      "size": 3237150,
+      "modified": "2026-08-15T10:24:51.000Z",
+      "checksum": "27020d9022b9f96ed110c92379a8eb4f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dAhnzPruEPLg1XSK19Q2b_SIEG-NENfc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1B9iXtxu6hkRzsN7wiI9smTPiaLP1S04j",
+      "parent_id": "1dAhnzPruEPLg1XSK19Q2b_SIEG-NENfc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 536,
+      "modified": "2026-08-16T04:09:25.000Z",
+      "checksum": "a2a1bb6cf02f5a3cfa6afc26e5a51431",
+      "folder": false
+    },
+    {
+      "id": "14sqGl4fZ4ZQKE5ZDcNajgMvr30wyNqJN",
+      "parent_id": "1dAhnzPruEPLg1XSK19Q2b_SIEG-NENfc",
+      "name": "NHỮNG MẢNH ĐỜI LUÂN LẠC.epub",
+      "mime": "application/epub+zip",
+      "size": 411474,
+      "modified": "2026-08-16T04:09:31.000Z",
+      "checksum": "ab2e12924ec109800dea4d5771b8a482",
+      "folder": false
+    },
+    {
+      "id": "1LfPLQO-rs7WPO8MUqvRFWeB8uTP4Xcbo",
+      "parent_id": "1dAhnzPruEPLg1XSK19Q2b_SIEG-NENfc",
+      "name": "NHỮNG MẢNH ĐỜI LUÂN LẠC.pdf",
+      "mime": "application/pdf",
+      "size": 441482,
+      "modified": "2026-08-16T04:09:29.000Z",
+      "checksum": "01619252016ccdf452e7060ee86e3924",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cnwzj8SW1-Ij3Epi-Ft64_yQ8CLWFZ2X",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dYkM_l9CPY8OXMaf8uAJVGAIBZB_ZQzd",
+      "parent_id": "1cnwzj8SW1-Ij3Epi-Ft64_yQ8CLWFZ2X",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9353,
+      "modified": "2026-08-15T07:45:08.000Z",
+      "checksum": "d4d580e15727f85f462116058dd694e5",
+      "folder": false
+    },
+    {
+      "id": "16z59B35TmclofxnYV-IJ3ng0NRk7b9Hc",
+      "parent_id": "1cnwzj8SW1-Ij3Epi-Ft64_yQ8CLWFZ2X",
+      "name": "ĐÔI ĐIỀU VỀ ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 604310,
+      "modified": "2026-08-15T07:45:16.000Z",
+      "checksum": "6525f7f66fb34ff282d8f0c6e972cdea",
+      "folder": false
+    },
+    {
+      "id": "10i5vVHnXhdzUuG40OFQRjtY97wJIWs2m",
+      "parent_id": "1cnwzj8SW1-Ij3Epi-Ft64_yQ8CLWFZ2X",
+      "name": "ĐÔI ĐIỀU VỀ ANH.pdf",
+      "mime": "application/pdf",
+      "size": 1117252,
+      "modified": "2026-08-15T07:45:13.000Z",
+      "checksum": "aaa32285d75552d3444119b95d37b484",
+      "folder": false
+    }
+  ]
+}

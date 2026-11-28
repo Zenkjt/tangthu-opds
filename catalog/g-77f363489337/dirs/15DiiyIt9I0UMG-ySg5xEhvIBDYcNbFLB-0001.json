@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15DiiyIt9I0UMG-ySg5xEhvIBDYcNbFLB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JhadayeLJvvXwULuV9LQvz_Ne0gzefCt",
+      "parent_id": "15DiiyIt9I0UMG-ySg5xEhvIBDYcNbFLB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3163,
+      "modified": "2026-08-15T11:31:20.000Z",
+      "checksum": "576226d6d66767680baacf9d902e443f",
+      "folder": false
+    },
+    {
+      "id": "1esT_RAG8zyESIJHBd8hmGwh6hf0R0zH2",
+      "parent_id": "15DiiyIt9I0UMG-ySg5xEhvIBDYcNbFLB",
+      "name": "THU HOẠCH ĐẪM MÁU.epub",
+      "mime": "application/epub+zip",
+      "size": 650307,
+      "modified": "2026-08-15T11:31:26.000Z",
+      "checksum": "ab59542c4ba5b6fb0a85149f211570a0",
+      "folder": false
+    },
+    {
+      "id": "1TTVzQX_FhNE-JTBh1XK-KF4RvSYbM_Tl",
+      "parent_id": "15DiiyIt9I0UMG-ySg5xEhvIBDYcNbFLB",
+      "name": "THU HOẠCH ĐẪM MÁU.pdf",
+      "mime": "application/pdf",
+      "size": 1285018,
+      "modified": "2026-08-15T11:31:24.000Z",
+      "checksum": "b636b12ce29bd35c03728598875f6a91",
+      "folder": false
+    }
+  ]
+}

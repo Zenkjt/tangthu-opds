@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bQkjIfchpKYChkYrhPriNT4ApwvzsdqP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1G1PzwmILs4Bkcsk6QhDdtMPgHZkIBXVJ",
+      "parent_id": "1bQkjIfchpKYChkYrhPriNT4ApwvzsdqP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4612,
+      "modified": "2026-08-16T03:46:18.000Z",
+      "checksum": "ba4b40f6987e7cc806a615409ce505ae",
+      "folder": false
+    },
+    {
+      "id": "1XRnWzQLE4AnMy90GWO7raGk6Z16wN2hc",
+      "parent_id": "1bQkjIfchpKYChkYrhPriNT4ApwvzsdqP",
+      "name": "TÔI MỘNG GIỮA BAN NGÀY.epub",
+      "mime": "application/epub+zip",
+      "size": 641081,
+      "modified": "2026-08-16T03:46:25.000Z",
+      "checksum": "198e640c4da6ea9db215b463022425b3",
+      "folder": false
+    },
+    {
+      "id": "1rYPT2wqWNXWhs9j-pQrwQyLMN0w7UeqO",
+      "parent_id": "1bQkjIfchpKYChkYrhPriNT4ApwvzsdqP",
+      "name": "TÔI MỘNG GIỮA BAN NGÀY.pdf",
+      "mime": "application/pdf",
+      "size": 2107145,
+      "modified": "2026-08-16T03:46:23.000Z",
+      "checksum": "f2f7dca76bb007f0603bca879f6643a6",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YbscX02xgRPTFcZ6ImU3M2dewnr4kdqt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QNCSXSdhplng-OW5JvNsp-AqEYfMxjGY",
+      "parent_id": "1YbscX02xgRPTFcZ6ImU3M2dewnr4kdqt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4092,
+      "modified": "2026-08-15T03:37:52.000Z",
+      "checksum": "a95156bdf8606b5c64a836dbb4d8cb55",
+      "folder": false
+    },
+    {
+      "id": "1ftCvYBhdPKJsuZw4GQtOXFfhtphSNg9P",
+      "parent_id": "1YbscX02xgRPTFcZ6ImU3M2dewnr4kdqt",
+      "name": "THIỀN SƯ VIỆT NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 320824,
+      "modified": "2026-08-15T03:37:59.000Z",
+      "checksum": "344ea031d89c8db751e112629b3aa54b",
+      "folder": false
+    },
+    {
+      "id": "1YZmNN-qn4-bJ4eWdvIn2B4vuNSnvZjiq",
+      "parent_id": "1YbscX02xgRPTFcZ6ImU3M2dewnr4kdqt",
+      "name": "THIỀN SƯ VIỆT NAM.pdf",
+      "mime": "application/pdf",
+      "size": 1614112,
+      "modified": "2026-08-15T03:37:57.000Z",
+      "checksum": "796dc617df5f4155f7310cc90969eb4b",
+      "folder": false
+    }
+  ]
+}

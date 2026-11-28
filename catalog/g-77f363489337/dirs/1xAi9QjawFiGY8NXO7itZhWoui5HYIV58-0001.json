@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xAi9QjawFiGY8NXO7itZhWoui5HYIV58",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ebz-oS8YwqA0hxU4FdUgSPBJYsx_0ZS3",
+      "parent_id": "1xAi9QjawFiGY8NXO7itZhWoui5HYIV58",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8552,
+      "modified": "2026-08-16T02:46:32.000Z",
+      "checksum": "183a0a3551a47947a519e96a9c4ae787",
+      "folder": false
+    },
+    {
+      "id": "1RFfx1UZ4UDBN2qsWSe_foz-Clt4n9F4Z",
+      "parent_id": "1xAi9QjawFiGY8NXO7itZhWoui5HYIV58",
+      "name": "LĨNH NAM CHÍCH QUÁI.epub",
+      "mime": "application/epub+zip",
+      "size": 304117,
+      "modified": "2026-08-16T02:46:39.000Z",
+      "checksum": "2a2c64b58c4bb9db5e39b09460bac37c",
+      "folder": false
+    },
+    {
+      "id": "15pd-OaHXd1Zxu37hmAfo-KRSLkayhXBx",
+      "parent_id": "1xAi9QjawFiGY8NXO7itZhWoui5HYIV58",
+      "name": "LĨNH NAM CHÍCH QUÁI.pdf",
+      "mime": "application/pdf",
+      "size": 465428,
+      "modified": "2026-08-16T02:46:36.000Z",
+      "checksum": "bcd05395bc103f9df6ea08672b423f82",
+      "folder": false
+    }
+  ]
+}

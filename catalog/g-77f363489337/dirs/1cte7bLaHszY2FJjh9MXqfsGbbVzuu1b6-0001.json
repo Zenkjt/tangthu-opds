@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cte7bLaHszY2FJjh9MXqfsGbbVzuu1b6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sYjTigzkl9EySqI-WDyguKN7z6Qnw6O_",
+      "parent_id": "1cte7bLaHszY2FJjh9MXqfsGbbVzuu1b6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5243,
+      "modified": "2026-08-16T03:02:24.000Z",
+      "checksum": "b3d4231133fe40c38cef2dd45811d4b7",
+      "folder": false
+    },
+    {
+      "id": "1wB__l6OsoAiOQ-RzwQTtb8MGOPBOMo6c",
+      "parent_id": "1cte7bLaHszY2FJjh9MXqfsGbbVzuu1b6",
+      "name": "TRĂNG SÁNG CỐ HƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 618465,
+      "modified": "2026-08-16T03:02:32.000Z",
+      "checksum": "35d9ffeffd8dda6555a358d419cb9601",
+      "folder": false
+    },
+    {
+      "id": "1JsOoZyWvaiFD8Gj8sBukVLHYvuPIOHbJ",
+      "parent_id": "1cte7bLaHszY2FJjh9MXqfsGbbVzuu1b6",
+      "name": "TRĂNG SÁNG CỐ HƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 1956985,
+      "modified": "2026-08-16T03:02:29.000Z",
+      "checksum": "4aff36f567ad6ed5a55f3302b901bacf",
+      "folder": false
+    }
+  ]
+}

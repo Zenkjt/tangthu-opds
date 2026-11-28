@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bVYBeniGLut6jxqMoZjR3Yp3hStA0lBE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BR3rnbnIHjnSDBSYyKbofnZ42FL_XhMP",
+      "parent_id": "1bVYBeniGLut6jxqMoZjR3Yp3hStA0lBE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6500,
+      "modified": "2026-08-15T07:21:18.000Z",
+      "checksum": "fba74fc6a3499680593021a357bea16f",
+      "folder": false
+    },
+    {
+      "id": "1cVbjdSq7FaWBdeTXunKJYLp5Q1yhgoBR",
+      "parent_id": "1bVYBeniGLut6jxqMoZjR3Yp3hStA0lBE",
+      "name": "TRẦM NGUYỆT CHI THƯỢC.epub",
+      "mime": "application/epub+zip",
+      "size": 2015281,
+      "modified": "2026-08-15T07:21:43.000Z",
+      "checksum": "f107b614c9b5818a0835e624ae4e3e40",
+      "folder": false
+    },
+    {
+      "id": "1F0pBdK-PEAL_X2sDTfeIgLBTwlTeWiW2",
+      "parent_id": "1bVYBeniGLut6jxqMoZjR3Yp3hStA0lBE",
+      "name": "TRẦM NGUYỆT CHI THƯỢC.pdf",
+      "mime": "application/pdf",
+      "size": 7866101,
+      "modified": "2026-08-15T07:21:39.000Z",
+      "checksum": "283c2e6f0f61540ea3db59c0fab14937",
+      "folder": false
+    }
+  ]
+}

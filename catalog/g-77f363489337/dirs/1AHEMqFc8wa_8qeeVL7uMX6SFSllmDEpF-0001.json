@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AHEMqFc8wa_8qeeVL7uMX6SFSllmDEpF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vK-_7lqzAXyTx-5_ZLWQpzz2-vBFzmgU",
+      "parent_id": "1AHEMqFc8wa_8qeeVL7uMX6SFSllmDEpF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2198,
+      "modified": "2026-08-15T03:49:59.000Z",
+      "checksum": "282afbadfab58ca232a4ccdb118ca789",
+      "folder": false
+    },
+    {
+      "id": "1T_057AqDER5FHpdBcDxER4mmXP_9C9dV",
+      "parent_id": "1AHEMqFc8wa_8qeeVL7uMX6SFSllmDEpF",
+      "name": "HÀNH TRÌNH MỘT LINH HỒN.epub",
+      "mime": "application/epub+zip",
+      "size": 487656,
+      "modified": "2026-08-15T03:50:04.000Z",
+      "checksum": "7f28891e7255f52bdc027179b2290b91",
+      "folder": false
+    },
+    {
+      "id": "1__OEKTs7VoZwBHYSIs_ZbainI9gqcy6m",
+      "parent_id": "1AHEMqFc8wa_8qeeVL7uMX6SFSllmDEpF",
+      "name": "HÀNH TRÌNH MỘT LINH HỒN.pdf",
+      "mime": "application/pdf",
+      "size": 1028645,
+      "modified": "2026-08-15T03:50:02.000Z",
+      "checksum": "4fd31321a0084ebf175f4767b9b0f4c5",
+      "folder": false
+    }
+  ]
+}

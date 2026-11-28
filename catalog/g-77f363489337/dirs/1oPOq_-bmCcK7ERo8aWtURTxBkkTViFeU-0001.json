@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oPOq_-bmCcK7ERo8aWtURTxBkkTViFeU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lOmqEwkvW6qS9TxbZm6F__LhGV_IknBv",
+      "parent_id": "1oPOq_-bmCcK7ERo8aWtURTxBkkTViFeU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3214,
+      "modified": "2026-08-15T09:22:03.000Z",
+      "checksum": "1a7c1a08d9327f1c0fb56247695219af",
+      "folder": false
+    },
+    {
+      "id": "1nDFr9asQWrIvL_9WKOMtBUqiWmlyZyfX",
+      "parent_id": "1oPOq_-bmCcK7ERo8aWtURTxBkkTViFeU",
+      "name": "LÂM VŨ THIÊN HẠ.epub",
+      "mime": "application/epub+zip",
+      "size": 1289249,
+      "modified": "2026-08-15T09:22:35.000Z",
+      "checksum": "9edb428e76b5fbd9e8699b407984e054",
+      "folder": false
+    },
+    {
+      "id": "16kc0cfgpKJzk0TkWoIr3bzvc0xEYyepC",
+      "parent_id": "1oPOq_-bmCcK7ERo8aWtURTxBkkTViFeU",
+      "name": "LÂM VŨ THIÊN HẠ.pdf",
+      "mime": "application/pdf",
+      "size": 4948564,
+      "modified": "2026-08-15T09:22:31.000Z",
+      "checksum": "bebd53fbd65ff7ab997779d8af3d81d8",
+      "folder": false
+    }
+  ]
+}

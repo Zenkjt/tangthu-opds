@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hq6HRcGXEL82qmF6NuARO-JD5QFqe2m9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZQZvA5aKkzyHHcf-XrttLPQSWdcXB2f7",
+      "parent_id": "1hq6HRcGXEL82qmF6NuARO-JD5QFqe2m9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12530,
+      "modified": "2026-08-16T03:01:49.000Z",
+      "checksum": "8bb9124d99327067005cf5bfff55ccd7",
+      "folder": false
+    },
+    {
+      "id": "1BoLKIaQk4-n_tlw_Z4uv11DYsdY9GMKe",
+      "parent_id": "1hq6HRcGXEL82qmF6NuARO-JD5QFqe2m9",
+      "name": "NGƯỜI VỢ MẤT TÍCH.epub",
+      "mime": "application/epub+zip",
+      "size": 549591,
+      "modified": "2026-08-16T03:01:55.000Z",
+      "checksum": "200fbdb6d916cf79de9f2022f06f9e33",
+      "folder": false
+    },
+    {
+      "id": "1t5p1Vd2ov44BnfYLA12ajMjmDQevL95C",
+      "parent_id": "1hq6HRcGXEL82qmF6NuARO-JD5QFqe2m9",
+      "name": "NGƯỜI VỢ MẤT TÍCH.pdf",
+      "mime": "application/pdf",
+      "size": 874123,
+      "modified": "2026-08-16T03:01:53.000Z",
+      "checksum": "83a84bdd1a7dad49226ec87d6364dec3",
+      "folder": false
+    }
+  ]
+}

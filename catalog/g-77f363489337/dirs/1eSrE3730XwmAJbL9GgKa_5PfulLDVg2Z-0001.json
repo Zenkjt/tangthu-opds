@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eSrE3730XwmAJbL9GgKa_5PfulLDVg2Z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wf2m34QUL-hJ6bdiuK8LqjRUTiALRSN8",
+      "parent_id": "1eSrE3730XwmAJbL9GgKa_5PfulLDVg2Z",
+      "name": "CHUYỆN TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 550823,
+      "modified": "2026-08-16T03:02:02.000Z",
+      "checksum": "88982df531808a09f4a6afdbc4a27fe6",
+      "folder": false
+    },
+    {
+      "id": "1wbhr0PB1KAPd0DLt4RrProUodL_I6kH6",
+      "parent_id": "1eSrE3730XwmAJbL9GgKa_5PfulLDVg2Z",
+      "name": "CHUYỆN TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 1011608,
+      "modified": "2026-08-16T03:02:00.000Z",
+      "checksum": "2c68d9c61a533f78a1c02df7f4bba8a8",
+      "folder": false
+    },
+    {
+      "id": "1ahmWYGf7vSDZAQFq1ScUmmvhu2uGm-HD",
+      "parent_id": "1eSrE3730XwmAJbL9GgKa_5PfulLDVg2Z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1000,
+      "modified": "2026-08-16T03:01:55.000Z",
+      "checksum": "a62b31d75108197ec9b4b7b88af8766c",
+      "folder": false
+    }
+  ]
+}

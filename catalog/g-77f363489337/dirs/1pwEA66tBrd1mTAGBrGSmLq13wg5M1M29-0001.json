@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pwEA66tBrd1mTAGBrGSmLq13wg5M1M29",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uAimMLX0biEHjccTWQsAxMZmM_ZmJPjw",
+      "parent_id": "1pwEA66tBrd1mTAGBrGSmLq13wg5M1M29",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4184,
+      "modified": "2026-08-15T12:50:26.000Z",
+      "checksum": "fe40e700f039a50c5b595f307d762a6e",
+      "folder": false
+    },
+    {
+      "id": "1KL0NPNIDdzin37MptPethH77WotECBdI",
+      "parent_id": "1pwEA66tBrd1mTAGBrGSmLq13wg5M1M29",
+      "name": "HÈ CỦA CÔ BÉ MẤT GỐC.epub",
+      "mime": "application/epub+zip",
+      "size": 732796,
+      "modified": "2026-08-15T12:50:34.000Z",
+      "checksum": "09fa61b4001ba6d61edd09a560868163",
+      "folder": false
+    },
+    {
+      "id": "1CExyzBgyBk6FHubN9d2OM-1gs48SGnL6",
+      "parent_id": "1pwEA66tBrd1mTAGBrGSmLq13wg5M1M29",
+      "name": "HÈ CỦA CÔ BÉ MẤT GỐC.pdf",
+      "mime": "application/pdf",
+      "size": 556080,
+      "modified": "2026-08-15T12:50:32.000Z",
+      "checksum": "bb6c546058d01ca5cc882041fabc59c6",
+      "folder": false
+    }
+  ]
+}

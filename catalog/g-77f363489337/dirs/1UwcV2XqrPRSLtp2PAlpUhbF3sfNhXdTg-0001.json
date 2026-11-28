@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UwcV2XqrPRSLtp2PAlpUhbF3sfNhXdTg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EM3sfBw-KhA6QUjf0ssGwFe5XAlRpq1u",
+      "parent_id": "1UwcV2XqrPRSLtp2PAlpUhbF3sfNhXdTg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7947,
+      "modified": "2026-08-15T11:31:07.000Z",
+      "checksum": "0f198238d8da10ca58ed74edf88c07e5",
+      "folder": false
+    },
+    {
+      "id": "1MXujvuaikU00eoshIyUMEoRkTrJtcW1y",
+      "parent_id": "1UwcV2XqrPRSLtp2PAlpUhbF3sfNhXdTg",
+      "name": "LÝ VĂN PHỨC (1785-1849).epub",
+      "mime": "application/epub+zip",
+      "size": 172503,
+      "modified": "2026-08-15T11:31:13.000Z",
+      "checksum": "0fa41af7282c0958c19d4823818a5a9f",
+      "folder": false
+    },
+    {
+      "id": "1-VZewagvR0ZYuvNrbQfgWXUsGulKWZaz",
+      "parent_id": "1UwcV2XqrPRSLtp2PAlpUhbF3sfNhXdTg",
+      "name": "LÝ VĂN PHỨC (1785-1849).pdf",
+      "mime": "application/pdf",
+      "size": 581366,
+      "modified": "2026-08-15T11:31:10.000Z",
+      "checksum": "4888994574ab33c432c33d38c4129a32",
+      "folder": false
+    }
+  ]
+}

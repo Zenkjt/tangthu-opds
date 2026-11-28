@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1h1pB_C-VzK_vAjV83nMPQK11Ukz9N_di",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SSxX9zeq89UweCYBzattl3CAb7rj9tFM",
+      "parent_id": "1h1pB_C-VzK_vAjV83nMPQK11Ukz9N_di",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9002,
+      "modified": "2026-08-15T03:16:58.000Z",
+      "checksum": "7732cb363775a9c97e4a630dab91139a",
+      "folder": false
+    },
+    {
+      "id": "1a6acD8A2wNz4F6juq5eCkt5ewcMRsuAz",
+      "parent_id": "1h1pB_C-VzK_vAjV83nMPQK11Ukz9N_di",
+      "name": "TRÀ KINH.epub",
+      "mime": "application/epub+zip",
+      "size": 470371,
+      "modified": "2026-08-15T03:17:06.000Z",
+      "checksum": "03f0350971098d33e90482ed2d2f27af",
+      "folder": false
+    },
+    {
+      "id": "1v1aoexfW83RcW5rtXZ9vNAevbE5xQgFV",
+      "parent_id": "1h1pB_C-VzK_vAjV83nMPQK11Ukz9N_di",
+      "name": "TRÀ KINH.pdf",
+      "mime": "application/pdf",
+      "size": 708732,
+      "modified": "2026-08-15T03:17:03.000Z",
+      "checksum": "f9aa0c180b58631dd19a8727a96ed0fa",
+      "folder": false
+    }
+  ]
+}

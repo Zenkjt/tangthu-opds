@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xbEWxBi-ojYpY6bIZc9aWuJr_YF5PEHe",
+  "page": 1,
+  "items": [
+    {
+      "id": "1c_G6HuCm1RP-J13jX_QpXD0wfQkR0PX9",
+      "parent_id": "1xbEWxBi-ojYpY6bIZc9aWuJr_YF5PEHe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 550,
+      "modified": "2026-08-15T10:16:14.000Z",
+      "checksum": "17f6636bec35095ec86319dd89bfc64a",
+      "folder": false
+    },
+    {
+      "id": "17KXZw6-E9j85polioU4v_KMX7WDL3oZO",
+      "parent_id": "1xbEWxBi-ojYpY6bIZc9aWuJr_YF5PEHe",
+      "name": "THẤT BỘ THI.epub",
+      "mime": "application/epub+zip",
+      "size": 295984,
+      "modified": "2026-08-15T10:16:20.000Z",
+      "checksum": "217231a861a5ad05934bde514f64d3c2",
+      "folder": false
+    },
+    {
+      "id": "1TeNh5GuOblBGnF9idhCYPwLy_nDKt2UT",
+      "parent_id": "1xbEWxBi-ojYpY6bIZc9aWuJr_YF5PEHe",
+      "name": "THẤT BỘ THI.pdf",
+      "mime": "application/pdf",
+      "size": 195806,
+      "modified": "2026-08-15T10:16:17.000Z",
+      "checksum": "aeab9d63eec423e13c0ed418613e01a7",
+      "folder": false
+    }
+  ]
+}

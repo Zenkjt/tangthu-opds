@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pQmGJT0kunYXE63ZortP03DOVsE9rfCY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YID1kPHjgK9xoLcJQUFyLe_yndiB5FUA",
+      "parent_id": "1pQmGJT0kunYXE63ZortP03DOVsE9rfCY",
+      "name": "BÁO CÁO CHÍNH PHỦ.epub",
+      "mime": "application/epub+zip",
+      "size": 384964,
+      "modified": "2026-08-16T03:16:02.000Z",
+      "checksum": "e540fa579ae3b3061d095ece7d2727a8",
+      "folder": false
+    },
+    {
+      "id": "1QQCnlhTLFplqhPqHv9_KxwE6ymAwwqTs",
+      "parent_id": "1pQmGJT0kunYXE63ZortP03DOVsE9rfCY",
+      "name": "BÁO CÁO CHÍNH PHỦ.pdf",
+      "mime": "application/pdf",
+      "size": 429747,
+      "modified": "2026-08-16T03:15:59.000Z",
+      "checksum": "18254739662ebe02d5d8ac12b0bf17e8",
+      "folder": false
+    },
+    {
+      "id": "1HOg3kYNdU3j9Up-j9WqaxrHgtz8ixQ72",
+      "parent_id": "1pQmGJT0kunYXE63ZortP03DOVsE9rfCY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1830,
+      "modified": "2026-08-16T03:15:56.000Z",
+      "checksum": "508a15ad1161d759224866360cfbfd7c",
+      "folder": false
+    }
+  ]
+}

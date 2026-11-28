@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QhBgWi60aN9yfmEhTOXyTGNNUaNnelW0",
+  "page": 1,
+  "items": [
+    {
+      "id": "115SCXfXmh3XgfKlaJGrJHuRfl0QTfmtc",
+      "parent_id": "1QhBgWi60aN9yfmEhTOXyTGNNUaNnelW0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3158,
+      "modified": "2026-08-16T02:47:26.000Z",
+      "checksum": "26d97805e2946c5855c0db68433fefa3",
+      "folder": false
+    },
+    {
+      "id": "1y1Bj9rjeldtOiXcKsoU7HfyHTBuFzkj6",
+      "parent_id": "1QhBgWi60aN9yfmEhTOXyTGNNUaNnelW0",
+      "name": "TỐ TÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 249053,
+      "modified": "2026-08-16T02:47:32.000Z",
+      "checksum": "a6e8004532bffcae86a39d64e907b7b5",
+      "folder": false
+    },
+    {
+      "id": "1L2Op_ZQX2pctG-B5ZOZGa2faO4PHdgO0",
+      "parent_id": "1QhBgWi60aN9yfmEhTOXyTGNNUaNnelW0",
+      "name": "TỐ TÂM.pdf",
+      "mime": "application/pdf",
+      "size": 410837,
+      "modified": "2026-08-16T02:47:29.000Z",
+      "checksum": "b1a7d86a78d6269a0854f913849f1f00",
+      "folder": false
+    }
+  ]
+}

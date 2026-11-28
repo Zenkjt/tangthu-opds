@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vd0PpvdgT2YvMBhnvKHTBgMVYHqZbrtF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ytSGbY9a36mGW8Vdy3ieUCG853esAyXN",
+      "parent_id": "1vd0PpvdgT2YvMBhnvKHTBgMVYHqZbrtF",
+      "name": "COLORFUL.epub",
+      "mime": "application/epub+zip",
+      "size": 398723,
+      "modified": "2026-08-15T07:26:05.000Z",
+      "checksum": "091c04aef71878b20843e91d95f958cd",
+      "folder": false
+    },
+    {
+      "id": "1r5Qzw78qUDDyYEXryHqAYgl_u2kCV7ws",
+      "parent_id": "1vd0PpvdgT2YvMBhnvKHTBgMVYHqZbrtF",
+      "name": "COLORFUL.pdf",
+      "mime": "application/pdf",
+      "size": 481693,
+      "modified": "2026-08-15T07:26:02.000Z",
+      "checksum": "388e6f8d6b4c29d4e5eca7ca23941274",
+      "folder": false
+    },
+    {
+      "id": "1DUm13KsMAYowUyFbrGop4_TC7SHTvM4A",
+      "parent_id": "1vd0PpvdgT2YvMBhnvKHTBgMVYHqZbrtF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2428,
+      "modified": "2026-08-15T07:25:59.000Z",
+      "checksum": "cc15c485ff1580c5f2d3a89a3ce6da03",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19e7tdLca-73Q7bQa9W3OCyBz6UkV1w_z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BLRZyTRoZcdWiIWu7BRjDCOeVnmI4Jio",
+      "parent_id": "19e7tdLca-73Q7bQa9W3OCyBz6UkV1w_z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3301,
+      "modified": "2026-08-15T15:31:58.000Z",
+      "checksum": "63a5b3b51b36d67457ca98a22cfec990",
+      "folder": false
+    },
+    {
+      "id": "1EQ6hWaBID1-BWcB4eJjCdPGInKdjTJxT",
+      "parent_id": "19e7tdLca-73Q7bQa9W3OCyBz6UkV1w_z",
+      "name": "KẺ HÙN VỐN.epub",
+      "mime": "application/epub+zip",
+      "size": 452830,
+      "modified": "2026-08-15T15:32:04.000Z",
+      "checksum": "a6fc8b36b3ca49c35c73ab91042a6f42",
+      "folder": false
+    },
+    {
+      "id": "13ZDYaMp-EjyFE6WU5KEniDZdOZHAeo17",
+      "parent_id": "19e7tdLca-73Q7bQa9W3OCyBz6UkV1w_z",
+      "name": "KẺ HÙN VỐN.pdf",
+      "mime": "application/pdf",
+      "size": 686297,
+      "modified": "2026-08-15T15:32:01.000Z",
+      "checksum": "9e97407059abf46cc31629c0e8e72afa",
+      "folder": false
+    }
+  ]
+}

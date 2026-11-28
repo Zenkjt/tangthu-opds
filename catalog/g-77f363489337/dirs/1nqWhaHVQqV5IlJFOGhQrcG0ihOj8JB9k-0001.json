@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nqWhaHVQqV5IlJFOGhQrcG0ihOj8JB9k",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jM4pVRKyrApRIlYbmETUIQec-g57pD1u",
+      "parent_id": "1nqWhaHVQqV5IlJFOGhQrcG0ihOj8JB9k",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2365,
+      "modified": "2026-08-16T03:35:09.000Z",
+      "checksum": "c541c3e4daae86bfadeeaf61f9bdcaf4",
+      "folder": false
+    },
+    {
+      "id": "1T7SOgs1wd4x3Z5TZxSwYZ-ZYGBR3jOkX",
+      "parent_id": "1nqWhaHVQqV5IlJFOGhQrcG0ihOj8JB9k",
+      "name": "HẠNH PHÚC LỐI NÀO.epub",
+      "mime": "application/epub+zip",
+      "size": 439435,
+      "modified": "2026-08-16T03:35:15.000Z",
+      "checksum": "f8468e49ecde141cadbdc23807a33372",
+      "folder": false
+    },
+    {
+      "id": "1M0nhP8FucA5lvjgLMAuV1qxteyopwkNo",
+      "parent_id": "1nqWhaHVQqV5IlJFOGhQrcG0ihOj8JB9k",
+      "name": "HẠNH PHÚC LỐI NÀO.pdf",
+      "mime": "application/pdf",
+      "size": 626712,
+      "modified": "2026-08-16T03:35:12.000Z",
+      "checksum": "893a61ee14d68cda7acec38732743187",
+      "folder": false
+    }
+  ]
+}

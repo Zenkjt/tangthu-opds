@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NxmdbDOQ5-JzOMTSFQr6nDhcCCwLiuKA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YrDbt4p4HeUbkj_a_TrLIV-PX2EgQXYs",
+      "parent_id": "1NxmdbDOQ5-JzOMTSFQr6nDhcCCwLiuKA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3775,
+      "modified": "2026-08-15T07:38:07.000Z",
+      "checksum": "7b43760ab3ee837f049b2e83da3db2b4",
+      "folder": false
+    },
+    {
+      "id": "1EmlZ38d7yjNkrGesTdmysuqOb7Y5hFQ5",
+      "parent_id": "1NxmdbDOQ5-JzOMTSFQr6nDhcCCwLiuKA",
+      "name": "TỪ THĂM THẲM LÃNG QUÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 740690,
+      "modified": "2026-08-15T07:38:13.000Z",
+      "checksum": "21712a2969481e2db5147ffdfd89f2bb",
+      "folder": false
+    },
+    {
+      "id": "13l9Zi8-DmdJ76qrl-h0fUSce1NRz9vKs",
+      "parent_id": "1NxmdbDOQ5-JzOMTSFQr6nDhcCCwLiuKA",
+      "name": "TỪ THĂM THẲM LÃNG QUÊN.pdf",
+      "mime": "application/pdf",
+      "size": 686516,
+      "modified": "2026-08-15T07:38:10.000Z",
+      "checksum": "e87e51ed10c98fac926c51b4bc447e5d",
+      "folder": false
+    }
+  ]
+}

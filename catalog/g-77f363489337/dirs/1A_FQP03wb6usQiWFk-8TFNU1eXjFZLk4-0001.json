@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1A_FQP03wb6usQiWFk-8TFNU1eXjFZLk4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PaP7gejaWSqbujrS4GGlqWRlnTwCjX6Z",
+      "parent_id": "1A_FQP03wb6usQiWFk-8TFNU1eXjFZLk4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4857,
+      "modified": "2026-08-15T03:20:34.000Z",
+      "checksum": "8059f3eef886427cdc13d441ba392b0c",
+      "folder": false
+    },
+    {
+      "id": "1ypGUwxZ5JaJgPht9m70yDKkA-K1CaUDh",
+      "parent_id": "1A_FQP03wb6usQiWFk-8TFNU1eXjFZLk4",
+      "name": "NHỮNG QUY TẮC TRONG CUỘC SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 211885,
+      "modified": "2026-08-15T03:20:40.000Z",
+      "checksum": "ed93cb9ad56281b2d931b4ecde9ae8ba",
+      "folder": false
+    },
+    {
+      "id": "148hiwp_og4dRb4XrrjLJOkHjORYer5Zd",
+      "parent_id": "1A_FQP03wb6usQiWFk-8TFNU1eXjFZLk4",
+      "name": "NHỮNG QUY TẮC TRONG CUỘC SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 443930,
+      "modified": "2026-08-15T03:20:38.000Z",
+      "checksum": "7ea242cf8f66a37111627ddef530c9cb",
+      "folder": false
+    }
+  ]
+}

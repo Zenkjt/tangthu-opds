@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AxuOKmMOBIf-c06yIk9viWMxGdWsWw5O",
+  "page": 1,
+  "items": [
+    {
+      "id": "12KsvBkwkMinR9C3JZm4J2KS6lo6mkewM",
+      "parent_id": "1AxuOKmMOBIf-c06yIk9viWMxGdWsWw5O",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3303,
+      "modified": "2026-08-15T10:16:39.000Z",
+      "checksum": "d9c5accf6b07f7a31f7a3c0208c032da",
+      "folder": false
+    },
+    {
+      "id": "114wnLpz04P7M2vqW2WGSD2Jj5xQVDkAs",
+      "parent_id": "1AxuOKmMOBIf-c06yIk9viWMxGdWsWw5O",
+      "name": "THANH HUYỀN.epub",
+      "mime": "application/epub+zip",
+      "size": 2287446,
+      "modified": "2026-08-15T10:16:50.000Z",
+      "checksum": "4854047ff5ed7ad38375e2e0cabb8f1f",
+      "folder": false
+    },
+    {
+      "id": "1JeMfdElZzyvqbL0O2dhxfV0TUdw0q1fy",
+      "parent_id": "1AxuOKmMOBIf-c06yIk9viWMxGdWsWw5O",
+      "name": "THANH HUYỀN.pdf",
+      "mime": "application/pdf",
+      "size": 1825697,
+      "modified": "2026-08-15T10:16:45.000Z",
+      "checksum": "587917dd5daa67cf2b5c820ee07292fb",
+      "folder": false
+    }
+  ]
+}

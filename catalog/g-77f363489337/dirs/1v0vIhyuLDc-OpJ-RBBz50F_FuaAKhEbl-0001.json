@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1v0vIhyuLDc-OpJ-RBBz50F_FuaAKhEbl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zeDFiWRPlRjeJtjcEbZRxFWy4Tg9KkUk",
+      "parent_id": "1v0vIhyuLDc-OpJ-RBBz50F_FuaAKhEbl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2395,
+      "modified": "2026-08-16T03:29:10.000Z",
+      "checksum": "fff8234d0856caab2b9e1e2fa8aef08e",
+      "folder": false
+    },
+    {
+      "id": "1bxCGBb2oq4ufg7Txf87Yf49vxq4ul6Ff",
+      "parent_id": "1v0vIhyuLDc-OpJ-RBBz50F_FuaAKhEbl",
+      "name": "ĐỘI CẤN KHỞI NGHĨA.epub",
+      "mime": "application/epub+zip",
+      "size": 394660,
+      "modified": "2026-08-16T03:29:16.000Z",
+      "checksum": "d7d032c3a2d9266a3127781a3e161f1a",
+      "folder": false
+    },
+    {
+      "id": "1iiRaPv_2ZUH4LNsWJbzDnsawLIYGpsIy",
+      "parent_id": "1v0vIhyuLDc-OpJ-RBBz50F_FuaAKhEbl",
+      "name": "ĐỘI CẤN KHỞI NGHĨA.pdf",
+      "mime": "application/pdf",
+      "size": 425091,
+      "modified": "2026-08-16T03:29:14.000Z",
+      "checksum": "4ee62724fc2f959d5b343953223d2fed",
+      "folder": false
+    }
+  ]
+}

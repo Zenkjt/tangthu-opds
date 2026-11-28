@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JmNixmKobPRE8VHzEK_iBW73k81CayMp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1POMU4_zIRaBLZGMvobGBao9S0eE5Ycd3",
+      "parent_id": "1JmNixmKobPRE8VHzEK_iBW73k81CayMp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 544,
+      "modified": "2026-08-15T10:56:36.000Z",
+      "checksum": "a5559569b44e8d4c636e43a8ecbd0916",
+      "folder": false
+    },
+    {
+      "id": "1t71Tn2WX47dAfj8gEC8xWADKXDLYikRW",
+      "parent_id": "1JmNixmKobPRE8VHzEK_iBW73k81CayMp",
+      "name": "HỔ PHÙ LỆNH.epub",
+      "mime": "application/epub+zip",
+      "size": 695761,
+      "modified": "2026-08-15T10:56:43.000Z",
+      "checksum": "79e5f263312942a5effb9b1b729aad45",
+      "folder": false
+    },
+    {
+      "id": "1xc7hMHex_s7NxKUKfQD5akhAkCQeVcAO",
+      "parent_id": "1JmNixmKobPRE8VHzEK_iBW73k81CayMp",
+      "name": "HỔ PHÙ LỆNH.pdf",
+      "mime": "application/pdf",
+      "size": 1178267,
+      "modified": "2026-08-15T10:56:40.000Z",
+      "checksum": "7ceb101ec35f1533af0518b4581639a6",
+      "folder": false
+    }
+  ]
+}

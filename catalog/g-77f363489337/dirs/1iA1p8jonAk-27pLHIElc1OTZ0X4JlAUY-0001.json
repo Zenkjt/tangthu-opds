@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iA1p8jonAk-27pLHIElc1OTZ0X4JlAUY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jXnQfVEpArTISR5TJEIbaD96cTJOFjrR",
+      "parent_id": "1iA1p8jonAk-27pLHIElc1OTZ0X4JlAUY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 446,
+      "modified": "2026-08-16T04:18:57.000Z",
+      "checksum": "11d885f35484478e5c366d80044455db",
+      "folder": false
+    },
+    {
+      "id": "1mUXHuHICsdiDRTfZ1JKjccL8-qRE3uW6",
+      "parent_id": "1iA1p8jonAk-27pLHIElc1OTZ0X4JlAUY",
+      "name": "KHO BÁU CỦA CÁC HIỆP SĨ ĐỀN THỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 1075047,
+      "modified": "2026-08-16T04:19:09.000Z",
+      "checksum": "b4485b429cbcc9a694f767116261cf11",
+      "folder": false
+    },
+    {
+      "id": "1VZin2bjbXbeBoePfVnwK5T0FnHgPWjZ8",
+      "parent_id": "1iA1p8jonAk-27pLHIElc1OTZ0X4JlAUY",
+      "name": "KHO BÁU CỦA CÁC HIỆP SĨ ĐỀN THỜ.pdf",
+      "mime": "application/pdf",
+      "size": 2546296,
+      "modified": "2026-08-16T04:19:05.000Z",
+      "checksum": "4fd4cef60081f9e1d3e6060928673b3a",
+      "folder": false
+    }
+  ]
+}

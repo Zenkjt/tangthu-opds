@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16HHAaw36em7imSME0UF23-N2__pqLGQG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iB6uovrZpD5YR09yN_QnLcTYr0A-Kex6",
+      "parent_id": "16HHAaw36em7imSME0UF23-N2__pqLGQG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3159,
+      "modified": "2026-08-16T03:55:20.000Z",
+      "checksum": "20ed5ad79f224406daba3f4af993852f",
+      "folder": false
+    },
+    {
+      "id": "12TOM7JC_CJCnCovj8jcTDZXqexvzbPLK",
+      "parent_id": "16HHAaw36em7imSME0UF23-N2__pqLGQG",
+      "name": "TIỂU ĐOÀN TRỪNG GIỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 548261,
+      "modified": "2026-08-16T03:55:26.000Z",
+      "checksum": "7d3023a88626e10817784fa472919c58",
+      "folder": false
+    },
+    {
+      "id": "1Olo56Dbjhlsiq_01dmb_XFlaQgwaZ8jN",
+      "parent_id": "16HHAaw36em7imSME0UF23-N2__pqLGQG",
+      "name": "TIỂU ĐOÀN TRỪNG GIỚI.pdf",
+      "mime": "application/pdf",
+      "size": 1081237,
+      "modified": "2026-08-16T03:55:23.000Z",
+      "checksum": "d194d5a8c108016380c5c528df3f6262",
+      "folder": false
+    }
+  ]
+}

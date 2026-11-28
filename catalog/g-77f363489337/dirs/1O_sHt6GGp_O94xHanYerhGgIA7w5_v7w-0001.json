@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1O_sHt6GGp_O94xHanYerhGgIA7w5_v7w",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RXiCcPNNTGhceNZFQAbXUW7wV_we2vDa",
+      "parent_id": "1O_sHt6GGp_O94xHanYerhGgIA7w5_v7w",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2921,
+      "modified": "2026-08-15T10:05:30.000Z",
+      "checksum": "93ae278e6e1fc0106c62379b487ee14f",
+      "folder": false
+    },
+    {
+      "id": "1TLN8do605Obr9DHFklf1pNsqnzdufO3X",
+      "parent_id": "1O_sHt6GGp_O94xHanYerhGgIA7w5_v7w",
+      "name": "VI THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 536723,
+      "modified": "2026-08-15T10:05:36.000Z",
+      "checksum": "45cb068cd93583e9ff44f5a695c89ced",
+      "folder": false
+    },
+    {
+      "id": "1BiXErB3RtYptlhzicZKpDO3VpksK5esB",
+      "parent_id": "1O_sHt6GGp_O94xHanYerhGgIA7w5_v7w",
+      "name": "VI THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 840462,
+      "modified": "2026-08-15T10:05:34.000Z",
+      "checksum": "797938e45d507277ded143ddfbc9df17",
+      "folder": false
+    }
+  ]
+}

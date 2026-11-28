@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yOIFGEOYuzX87nIpWIu2zXAV-rFaceye",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sBdIRAsTlQVBfKKhF1TW8nQAoXMiTZuE",
+      "parent_id": "1yOIFGEOYuzX87nIpWIu2zXAV-rFaceye",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3447,
+      "modified": "2026-08-15T10:30:52.000Z",
+      "checksum": "cd6383ce685624031403320fb3ee342f",
+      "folder": false
+    },
+    {
+      "id": "1yNGp3xS2p2Y9k7OxzoxIpBujngx4f4zR",
+      "parent_id": "1yOIFGEOYuzX87nIpWIu2zXAV-rFaceye",
+      "name": "QUỶ HÔ BẮT QUỶ.epub",
+      "mime": "application/epub+zip",
+      "size": 2453721,
+      "modified": "2026-08-15T10:31:13.000Z",
+      "checksum": "5102dba1a352c97c4974809e4baddc21",
+      "folder": false
+    },
+    {
+      "id": "1LIjF1J52Wg49O9X66NuaSs2_u0TIIJCQ",
+      "parent_id": "1yOIFGEOYuzX87nIpWIu2zXAV-rFaceye",
+      "name": "QUỶ HÔ BẮT QUỶ.pdf",
+      "mime": "application/pdf",
+      "size": 9731605,
+      "modified": "2026-08-15T10:31:08.000Z",
+      "checksum": "6dc0981177a41ca6201fc96948f5b70e",
+      "folder": false
+    }
+  ]
+}

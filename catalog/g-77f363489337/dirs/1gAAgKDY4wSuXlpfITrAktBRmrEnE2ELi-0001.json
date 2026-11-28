@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gAAgKDY4wSuXlpfITrAktBRmrEnE2ELi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ha5Nk8qHC0rkiao9OPoB8qsFrI3PdF3G",
+      "parent_id": "1gAAgKDY4wSuXlpfITrAktBRmrEnE2ELi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 364,
+      "modified": "2026-08-16T04:16:48.000Z",
+      "checksum": "c5bddc2df23f37ca97d49adecd3c9ec9",
+      "folder": false
+    },
+    {
+      "id": "1QDk6Crib7cPGeIw9I4B5wiV7qA799vwf",
+      "parent_id": "1gAAgKDY4wSuXlpfITrAktBRmrEnE2ELi",
+      "name": "MƯỜI GIỜ RƯỠI ĐÊM HÈ.epub",
+      "mime": "application/epub+zip",
+      "size": 263561,
+      "modified": "2026-08-16T04:16:54.000Z",
+      "checksum": "a84d439aa624c88d03df38dec366c351",
+      "folder": false
+    },
+    {
+      "id": "1hNsdcuXl1vMMJfeZKI7_UfY2152SYDmM",
+      "parent_id": "1gAAgKDY4wSuXlpfITrAktBRmrEnE2ELi",
+      "name": "MƯỜI GIỜ RƯỠI ĐÊM HÈ.pdf",
+      "mime": "application/pdf",
+      "size": 447000,
+      "modified": "2026-08-16T04:16:52.000Z",
+      "checksum": "e1a074629220abd7ad5096b8cbe89baf",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JZGgWLCchvPOwMvje8ZFYfXRDJ6uI_sd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WC6X-9NWocbkUVtX_KZLeYNmdzaQrERN",
+      "parent_id": "1JZGgWLCchvPOwMvje8ZFYfXRDJ6uI_sd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3313,
+      "modified": "2026-08-15T10:13:37.000Z",
+      "checksum": "f81e8b67e10cbb6ae6ac87cbd69ed979",
+      "folder": false
+    },
+    {
+      "id": "10gJCHi48AtXtRICiUepb1Z8TWyVDK4Hd",
+      "parent_id": "1JZGgWLCchvPOwMvje8ZFYfXRDJ6uI_sd",
+      "name": "THIẾU NỮ ĐEO HOA TAI NGỌC TRAI.epub",
+      "mime": "application/epub+zip",
+      "size": 961587,
+      "modified": "2026-08-15T10:13:45.000Z",
+      "checksum": "7a8f9d13946e9c77b8f32a21749a1fb0",
+      "folder": false
+    },
+    {
+      "id": "1rbNdvqiSfg_JKsaQDocaApUdsUBtLJmP",
+      "parent_id": "1JZGgWLCchvPOwMvje8ZFYfXRDJ6uI_sd",
+      "name": "THIẾU NỮ ĐEO HOA TAI NGỌC TRAI.pdf",
+      "mime": "application/pdf",
+      "size": 797718,
+      "modified": "2026-08-15T10:13:43.000Z",
+      "checksum": "3b512794b301ff32bbe124d36bd262e6",
+      "folder": false
+    }
+  ]
+}

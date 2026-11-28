@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hAVaz4nus6VCcfZJjjLGZkkKnq7r8N14",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nFFeNXabsO0srFVNMz1_yFTG4dZ7n0kI",
+      "parent_id": "1hAVaz4nus6VCcfZJjjLGZkkKnq7r8N14",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7892,
+      "modified": "2026-08-16T03:39:10.000Z",
+      "checksum": "744923dfa53771efb45a0149ea600e36",
+      "folder": false
+    },
+    {
+      "id": "1xQAVc5ODNGZc0Tk8PNFveER8W7dBmy4b",
+      "parent_id": "1hAVaz4nus6VCcfZJjjLGZkkKnq7r8N14",
+      "name": "KHÁCH QUAN KHÔNG THỂ ĐƯỢC.epub",
+      "mime": "application/epub+zip",
+      "size": 550524,
+      "modified": "2026-08-16T03:39:18.000Z",
+      "checksum": "57fb6fcf267b4316ec88b27de5e28b1b",
+      "folder": false
+    },
+    {
+      "id": "1hj3Bhfz1EGdH7cOaahZWdDcAwHCyGkjC",
+      "parent_id": "1hAVaz4nus6VCcfZJjjLGZkkKnq7r8N14",
+      "name": "KHÁCH QUAN KHÔNG THỂ ĐƯỢC.pdf",
+      "mime": "application/pdf",
+      "size": 1090891,
+      "modified": "2026-08-16T03:39:15.000Z",
+      "checksum": "1563b6b5721f745e95c7faf689ee0477",
+      "folder": false
+    }
+  ]
+}

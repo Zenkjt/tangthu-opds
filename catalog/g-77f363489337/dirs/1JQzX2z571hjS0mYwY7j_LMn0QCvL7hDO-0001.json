@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JQzX2z571hjS0mYwY7j_LMn0QCvL7hDO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jwa0e9GT0t9XcOYQ2BXMKj7uuCPCLtlz",
+      "parent_id": "1JQzX2z571hjS0mYwY7j_LMn0QCvL7hDO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3873,
+      "modified": "2026-08-15T03:28:39.000Z",
+      "checksum": "76699a73810e70ce379127edc50403af",
+      "folder": false
+    },
+    {
+      "id": "1RLk0YR_4iJm0hpiXjC3sh1XMYVeRj-a5",
+      "parent_id": "1JQzX2z571hjS0mYwY7j_LMn0QCvL7hDO",
+      "name": "SÁCH CỦA ENOCH.epub",
+      "mime": "application/epub+zip",
+      "size": 461347,
+      "modified": "2026-08-15T03:28:45.000Z",
+      "checksum": "a5cec61b20499c0c29945e90e25da211",
+      "folder": false
+    },
+    {
+      "id": "14gqgf4UCrqfWG8D0GTb-S0xBuiKEzfB4",
+      "parent_id": "1JQzX2z571hjS0mYwY7j_LMn0QCvL7hDO",
+      "name": "SÁCH CỦA ENOCH.pdf",
+      "mime": "application/pdf",
+      "size": 834761,
+      "modified": "2026-08-15T03:28:43.000Z",
+      "checksum": "e50d6b33ef20a80108a66c0eb20446ee",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ufMuYhyOA2jt0I30_FzQ1EVWNICemVsh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Gga43_gk7VZO2597qJaf7C2BivwmGKee",
+      "parent_id": "1ufMuYhyOA2jt0I30_FzQ1EVWNICemVsh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2383,
+      "modified": "2026-08-15T08:19:18.000Z",
+      "checksum": "96339b23e3482e24bb5e900d5bc4bfa6",
+      "folder": false
+    },
+    {
+      "id": "1QL4sx6DJnMDioVRNxCNOARyiSzbjVPT6",
+      "parent_id": "1ufMuYhyOA2jt0I30_FzQ1EVWNICemVsh",
+      "name": "LÃO GIÀ MÊ ĐỌC TRUYỆN TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 510687,
+      "modified": "2026-08-15T08:19:24.000Z",
+      "checksum": "c587553547be79b5c3b78de8bb22b2cd",
+      "folder": false
+    },
+    {
+      "id": "1KL1sFOvcOgTRpgN56T2sC2unkww2jYFA",
+      "parent_id": "1ufMuYhyOA2jt0I30_FzQ1EVWNICemVsh",
+      "name": "LÃO GIÀ MÊ ĐỌC TRUYỆN TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 394132,
+      "modified": "2026-08-15T08:19:21.000Z",
+      "checksum": "2857aa18041fcc2b1a544e105aef5dae",
+      "folder": false
+    }
+  ]
+}

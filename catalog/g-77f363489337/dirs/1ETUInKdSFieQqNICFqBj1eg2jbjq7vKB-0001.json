@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ETUInKdSFieQqNICFqBj1eg2jbjq7vKB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KrinVfVQYyRQQ5SVzzJDhAxTSqyxYzvx",
+      "parent_id": "1ETUInKdSFieQqNICFqBj1eg2jbjq7vKB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3178,
+      "modified": "2026-08-16T03:49:17.000Z",
+      "checksum": "067d80367da1da3d2afcd4853cc46fa6",
+      "folder": false
+    },
+    {
+      "id": "1QxYbVSyR2UYwOFH2yiNToCw3RjkLQRUr",
+      "parent_id": "1ETUInKdSFieQqNICFqBj1eg2jbjq7vKB",
+      "name": "ÂM THANH VÀ CUỒNG NỘ.epub",
+      "mime": "application/epub+zip",
+      "size": 427220,
+      "modified": "2026-08-16T03:49:24.000Z",
+      "checksum": "2e1dbd7d2b8be23a9ab0bbb1380f1bc4",
+      "folder": false
+    },
+    {
+      "id": "1ld3SPOahE7ItjU7pt1xWAbrUrOPYTARm",
+      "parent_id": "1ETUInKdSFieQqNICFqBj1eg2jbjq7vKB",
+      "name": "ÂM THANH VÀ CUỒNG NỘ.pdf",
+      "mime": "application/pdf",
+      "size": 1114642,
+      "modified": "2026-08-16T03:49:21.000Z",
+      "checksum": "280e6b7385851794230c1146a9e0ad2a",
+      "folder": false
+    }
+  ]
+}

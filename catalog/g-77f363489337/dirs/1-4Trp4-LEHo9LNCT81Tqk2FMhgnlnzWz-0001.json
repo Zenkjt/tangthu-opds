@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-4Trp4-LEHo9LNCT81Tqk2FMhgnlnzWz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_xfFHGUsH9XDUCCBXNIxEGb5CWEDNPSN",
+      "parent_id": "1-4Trp4-LEHo9LNCT81Tqk2FMhgnlnzWz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 399,
+      "modified": "2026-08-16T04:20:21.000Z",
+      "checksum": "b00ba4c9c4dbf93cb481cffd64f3d70f",
+      "folder": false
+    },
+    {
+      "id": "1jO3JYirCSvMNPRCUG7bNWe178lGHVmTs",
+      "parent_id": "1-4Trp4-LEHo9LNCT81Tqk2FMhgnlnzWz",
+      "name": "DÒNG SÔNG OAN NGHIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 476072,
+      "modified": "2026-08-16T04:20:27.000Z",
+      "checksum": "85a4c3ec3f379d04530a3ec961c755da",
+      "folder": false
+    },
+    {
+      "id": "17XBow9IMN-uV4vq_KQu3f-EPbwKPCzCe",
+      "parent_id": "1-4Trp4-LEHo9LNCT81Tqk2FMhgnlnzWz",
+      "name": "DÒNG SÔNG OAN NGHIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 914557,
+      "modified": "2026-08-16T04:20:25.000Z",
+      "checksum": "a596a9903f470312f1a8e8cdd72e8eb3",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1I41CzaxmY9YcADIqgvxjA87NEgKf4CAp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1g5I7ZU6g_oR8GrCL_BwUE0Nbb5E_VqxY",
+      "parent_id": "1I41CzaxmY9YcADIqgvxjA87NEgKf4CAp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2835,
+      "modified": "2026-08-15T10:10:47.000Z",
+      "checksum": "e0b69f248b1eadee7b8b4f7cf0143f1e",
+      "folder": false
+    },
+    {
+      "id": "1d9P6GnsDLflK469jPgyqpJHWvqZ6K5Kb",
+      "parent_id": "1I41CzaxmY9YcADIqgvxjA87NEgKf4CAp",
+      "name": "TIÊN MA CHI HỒN.epub",
+      "mime": "application/epub+zip",
+      "size": 1623340,
+      "modified": "2026-08-15T10:10:57.000Z",
+      "checksum": "7ef01b4f28c2d3673ad03eb2630248e3",
+      "folder": false
+    },
+    {
+      "id": "1VKx9fQy6iX9WfSYm_3S0JUQI-QLlRQBH",
+      "parent_id": "1I41CzaxmY9YcADIqgvxjA87NEgKf4CAp",
+      "name": "TIÊN MA CHI HỒN.pdf",
+      "mime": "application/pdf",
+      "size": 1425170,
+      "modified": "2026-08-15T10:10:53.000Z",
+      "checksum": "7af799f53a71bad75b91475ce99755a8",
+      "folder": false
+    }
+  ]
+}

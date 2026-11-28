@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HO4DUZYh7ouBQgVz4GtwKMU8nDVl4W_k",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WT8qc3Lgiz_OAaHXCWXYde8XGMzU-fjm",
+      "parent_id": "1HO4DUZYh7ouBQgVz4GtwKMU8nDVl4W_k",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3034,
+      "modified": "2026-08-15T06:19:53.000Z",
+      "checksum": "536745e2173b711227043e82820e7271",
+      "folder": false
+    },
+    {
+      "id": "1Kxb8IzQ9fZ4ExfK9ZjnPc2rtpdaVthN0",
+      "parent_id": "1HO4DUZYh7ouBQgVz4GtwKMU8nDVl4W_k",
+      "name": "THỜI HOÀNG KIM.epub",
+      "mime": "application/epub+zip",
+      "size": 559584,
+      "modified": "2026-08-15T06:20:08.000Z",
+      "checksum": "db006a1ed1d9bd4662d5b76c5fd4a9bd",
+      "folder": false
+    },
+    {
+      "id": "1Imj8cLpNtyCsMxBUaZ5EmgRnqkLh8OIP",
+      "parent_id": "1HO4DUZYh7ouBQgVz4GtwKMU8nDVl4W_k",
+      "name": "THỜI HOÀNG KIM.pdf",
+      "mime": "application/pdf",
+      "size": 1687527,
+      "modified": "2026-08-15T06:20:03.000Z",
+      "checksum": "c2fe000bb4aa33fb124409b8b1cb38fd",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cw4BCgqYB7lmhlV4zP2fYw9kPy20KgQL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1V6-RXF1YFCTLb9__46d-PSmXJcUDvxK4",
+      "parent_id": "1cw4BCgqYB7lmhlV4zP2fYw9kPy20KgQL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 359,
+      "modified": "2026-08-16T04:20:34.000Z",
+      "checksum": "9576bd05ffca36f86242fb48341d2084",
+      "folder": false
+    },
+    {
+      "id": "1R6_7VGujizdZA2VBp2RoEIFDK8cO8gaH",
+      "parent_id": "1cw4BCgqYB7lmhlV4zP2fYw9kPy20KgQL",
+      "name": "DI SẢN CỦA MẤT MÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 645295,
+      "modified": "2026-08-16T04:20:42.000Z",
+      "checksum": "1dd2f52fcc55ad48fc23294009ced9bc",
+      "folder": false
+    },
+    {
+      "id": "1f_TU45IGqaQ0blp_H4FFQa-OprxErOwb",
+      "parent_id": "1cw4BCgqYB7lmhlV4zP2fYw9kPy20KgQL",
+      "name": "DI SẢN CỦA MẤT MÁT.pdf",
+      "mime": "application/pdf",
+      "size": 1563814,
+      "modified": "2026-08-16T04:20:38.000Z",
+      "checksum": "eaf1365a41bcbd7a5a99463511cd18e1",
+      "folder": false
+    }
+  ]
+}

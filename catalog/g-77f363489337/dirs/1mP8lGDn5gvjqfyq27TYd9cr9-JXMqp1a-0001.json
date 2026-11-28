@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mP8lGDn5gvjqfyq27TYd9cr9-JXMqp1a",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FDeAAqmhHJyLl8ubfr2aO7kgOv7luHRg",
+      "parent_id": "1mP8lGDn5gvjqfyq27TYd9cr9-JXMqp1a",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2996,
+      "modified": "2026-08-16T03:58:51.000Z",
+      "checksum": "cf73ff712668ba8617373668541f62ff",
+      "folder": false
+    },
+    {
+      "id": "1-dJtqhI3wraJ8BBYC9Kc2DgYpwyL5C_v",
+      "parent_id": "1mP8lGDn5gvjqfyq27TYd9cr9-JXMqp1a",
+      "name": "THẤT NIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 512658,
+      "modified": "2026-08-16T03:58:57.000Z",
+      "checksum": "c5f2aa74cf17e0d4b92e766df239f888",
+      "folder": false
+    },
+    {
+      "id": "1sPV_anWPS929lPcWMWcdvsvmbAsDR-Rz",
+      "parent_id": "1mP8lGDn5gvjqfyq27TYd9cr9-JXMqp1a",
+      "name": "THẤT NIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 832688,
+      "modified": "2026-08-16T03:58:55.000Z",
+      "checksum": "48415b8c245dc13d76552be318fbf999",
+      "folder": false
+    }
+  ]
+}

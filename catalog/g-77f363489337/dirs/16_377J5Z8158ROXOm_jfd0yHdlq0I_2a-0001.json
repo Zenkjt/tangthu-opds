@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16_377J5Z8158ROXOm_jfd0yHdlq0I_2a",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rfp-PWgGhbSjVf2pXhN9C8yY7B1Uk56j",
+      "parent_id": "16_377J5Z8158ROXOm_jfd0yHdlq0I_2a",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7328,
+      "modified": "2026-08-16T02:44:18.000Z",
+      "checksum": "540227b07b57132596813b43549b80ce",
+      "folder": false
+    },
+    {
+      "id": "1MvUBmY7b46Z-piDyYCuAus4F7I0WU8f0",
+      "parent_id": "16_377J5Z8158ROXOm_jfd0yHdlq0I_2a",
+      "name": "HỒ QUÝ LY.epub",
+      "mime": "application/epub+zip",
+      "size": 797627,
+      "modified": "2026-08-16T02:44:27.000Z",
+      "checksum": "b18f866019ae18f73f3974ab40b47791",
+      "folder": false
+    },
+    {
+      "id": "1gl5oRP2V8yj43bJp24J14imXUvB3im6l",
+      "parent_id": "16_377J5Z8158ROXOm_jfd0yHdlq0I_2a",
+      "name": "HỒ QUÝ LY.pdf",
+      "mime": "application/pdf",
+      "size": 2066203,
+      "modified": "2026-08-16T02:44:24.000Z",
+      "checksum": "a20da84b497bab85afeb35093e0beec2",
+      "folder": false
+    }
+  ]
+}

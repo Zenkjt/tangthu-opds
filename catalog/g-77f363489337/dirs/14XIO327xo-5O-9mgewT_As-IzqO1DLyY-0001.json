@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14XIO327xo-5O-9mgewT_As-IzqO1DLyY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fqg7soYc8FpHbIV7SPpU5_RJxRlRs86-",
+      "parent_id": "14XIO327xo-5O-9mgewT_As-IzqO1DLyY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1323,
+      "modified": "2026-08-15T06:55:37.000Z",
+      "checksum": "2535288580c6e8ec7e75984032585aae",
+      "folder": false
+    },
+    {
+      "id": "1NRFvcuOdakITgA3K9Qwi_suBo5YWVVHl",
+      "parent_id": "14XIO327xo-5O-9mgewT_As-IzqO1DLyY",
+      "name": "NỮ SINH.epub",
+      "mime": "application/epub+zip",
+      "size": 159616,
+      "modified": "2026-08-15T06:55:51.000Z",
+      "checksum": "da8bb5b94b3a227d1543c27f29360a0c",
+      "folder": false
+    },
+    {
+      "id": "1zJdctMDMUaw0eNmKjJvrx6xG3OdGDKrr",
+      "parent_id": "14XIO327xo-5O-9mgewT_As-IzqO1DLyY",
+      "name": "NỮ SINH.pdf",
+      "mime": "application/pdf",
+      "size": 280844,
+      "modified": "2026-08-15T06:55:43.000Z",
+      "checksum": "7fe64ce2e3e6513b5b48685ffed92cac",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PLTOWAwGAlCkLMoDd2oJ8ek7mihC13vw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hQ1BRTAsKFUzL9Mv8HEacfWaf77wFN5g",
+      "parent_id": "1PLTOWAwGAlCkLMoDd2oJ8ek7mihC13vw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2810,
+      "modified": "2026-08-15T11:29:22.000Z",
+      "checksum": "a2915f000a6ba30c394d36e1167ea3fa",
+      "folder": false
+    },
+    {
+      "id": "1_P8DdGHurEQ-SoFdMXzQaKogwxfJDgyb",
+      "parent_id": "1PLTOWAwGAlCkLMoDd2oJ8ek7mihC13vw",
+      "name": "GIÁO TRÌNH LUẬT CẠNH TRANH.epub",
+      "mime": "application/epub+zip",
+      "size": 2971046,
+      "modified": "2026-08-15T11:29:28.000Z",
+      "checksum": "9be69aa4ad8583ee13afaa78757fea12",
+      "folder": false
+    },
+    {
+      "id": "10SsDOd3zJCyb5TGrqYGd53_nyEobe3js",
+      "parent_id": "1PLTOWAwGAlCkLMoDd2oJ8ek7mihC13vw",
+      "name": "GIÁO TRÌNH LUẬT CẠNH TRANH.pdf",
+      "mime": "application/pdf",
+      "size": 912172,
+      "modified": "2026-08-15T11:29:25.000Z",
+      "checksum": "aa5ce734b457c3e2ef32b011202529e0",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pRjuZEKeAUvoYu1ekwyVLcWsaiOrBL0R",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jFSuORFaZwPL4_QFh6bCZIZXgDbu4kwJ",
+      "parent_id": "1pRjuZEKeAUvoYu1ekwyVLcWsaiOrBL0R",
+      "name": "CHÚT PHẬN LINH ĐINH.epub",
+      "mime": "application/epub+zip",
+      "size": 399812,
+      "modified": "2026-08-15T09:34:14.000Z",
+      "checksum": "298edaa67e8653e2b870587d49599655",
+      "folder": false
+    },
+    {
+      "id": "1pCq57LXKkHb1VLouY4lBvys5yQKBSGBb",
+      "parent_id": "1pRjuZEKeAUvoYu1ekwyVLcWsaiOrBL0R",
+      "name": "CHÚT PHẬN LINH ĐINH.pdf",
+      "mime": "application/pdf",
+      "size": 620669,
+      "modified": "2026-08-15T09:34:10.000Z",
+      "checksum": "ccf4b6657163214d7cafb5f355689935",
+      "folder": false
+    },
+    {
+      "id": "1EbV1X7JAM4wqomp4VB1qok65UeojG4s8",
+      "parent_id": "1pRjuZEKeAUvoYu1ekwyVLcWsaiOrBL0R",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2341,
+      "modified": "2026-08-15T09:34:05.000Z",
+      "checksum": "5f857ed6a0c02b2af23971be52e44f6b",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1genlQyB31NMDj-amGjj0cxgRHSm1uNL_",
+  "page": 1,
+  "items": [
+    {
+      "id": "15Iu6lHQ2mCDdWgz99Q0T48ROEDlZYwb2",
+      "parent_id": "1genlQyB31NMDj-amGjj0cxgRHSm1uNL_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 454,
+      "modified": "2026-08-16T04:12:59.000Z",
+      "checksum": "ee7e2d4885609c5c8d504ef051a84dcd",
+      "folder": false
+    },
+    {
+      "id": "1xCCV67DLk1wQqa0RZQydQ3aWn3S4EMgC",
+      "parent_id": "1genlQyB31NMDj-amGjj0cxgRHSm1uNL_",
+      "name": "NGƯỜI TÙ BÉ NHỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 369601,
+      "modified": "2026-08-16T04:13:06.000Z",
+      "checksum": "9578169bdedfb9414a3605df58f5e5e9",
+      "folder": false
+    },
+    {
+      "id": "15uVuCxj3zF9xFQ47INt4ZLsBcDf6aUCK",
+      "parent_id": "1genlQyB31NMDj-amGjj0cxgRHSm1uNL_",
+      "name": "NGƯỜI TÙ BÉ NHỎ.pdf",
+      "mime": "application/pdf",
+      "size": 867112,
+      "modified": "2026-08-16T04:13:03.000Z",
+      "checksum": "e0c32b24befd82114e1c9e5c2e24db6e",
+      "folder": false
+    }
+  ]
+}

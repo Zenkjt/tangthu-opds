@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17IrGwTcRD-rybyHmXNnQYTBtdiUMtKfm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wTSao-4zelhhu4K6kGoIh3rxIWLz6iey",
+      "parent_id": "17IrGwTcRD-rybyHmXNnQYTBtdiUMtKfm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3598,
+      "modified": "2026-08-15T16:00:44.000Z",
+      "checksum": "d324da8c43f084d4108f9731bed2ba31",
+      "folder": false
+    },
+    {
+      "id": "1sy6vbL6SahBpiSbYkAFY3y64v1x1ZaqX",
+      "parent_id": "17IrGwTcRD-rybyHmXNnQYTBtdiUMtKfm",
+      "name": "NÉT CƯỜI NƠI ẤY.epub",
+      "mime": "application/epub+zip",
+      "size": 403896,
+      "modified": "2026-08-15T16:00:50.000Z",
+      "checksum": "bf2a966d995dd1346803681c0fc498fc",
+      "folder": false
+    },
+    {
+      "id": "1i7Y4zkV-6T8CQLvMrGuvXnQs0nOc9unR",
+      "parent_id": "17IrGwTcRD-rybyHmXNnQYTBtdiUMtKfm",
+      "name": "NÉT CƯỜI NƠI ẤY.pdf",
+      "mime": "application/pdf",
+      "size": 837105,
+      "modified": "2026-08-15T16:00:48.000Z",
+      "checksum": "4e6935da0a0a0965ed8abd078bdbf2eb",
+      "folder": false
+    }
+  ]
+}

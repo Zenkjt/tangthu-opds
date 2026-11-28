@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EubXj1AcmUJw_KQkWo_O1SQUyYNnL-eL",
+  "page": 1,
+  "items": [
+    {
+      "id": "12Jr4lG8YlWvuryT1H24guhR9utBY7OPE",
+      "parent_id": "1EubXj1AcmUJw_KQkWo_O1SQUyYNnL-eL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2580,
+      "modified": "2026-08-15T03:59:54.000Z",
+      "checksum": "619a01aa665c77566dd0fc9ba41889e5",
+      "folder": false
+    },
+    {
+      "id": "1tj2WA5urELgEkT4JsV2MIewdAKesZTcC",
+      "parent_id": "1EubXj1AcmUJw_KQkWo_O1SQUyYNnL-eL",
+      "name": "THÂM NHẬP THẤU TRIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 292369,
+      "modified": "2026-08-15T04:00:01.000Z",
+      "checksum": "390f96c050897cd4369bba9f2b382813",
+      "folder": false
+    },
+    {
+      "id": "1mjbD-NrP5GbkvhsTYsON9Z9t_3MKezs2",
+      "parent_id": "1EubXj1AcmUJw_KQkWo_O1SQUyYNnL-eL",
+      "name": "THÂM NHẬP THẤU TRIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 1113420,
+      "modified": "2026-08-15T03:59:58.000Z",
+      "checksum": "e14189b38e56d1273f691e8b7a56598b",
+      "folder": false
+    }
+  ]
+}

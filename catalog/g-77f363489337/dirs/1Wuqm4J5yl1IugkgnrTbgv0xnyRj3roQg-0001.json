@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Wuqm4J5yl1IugkgnrTbgv0xnyRj3roQg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1V-wjAAfADsRo94yn8D7evzyL7zTkAiWv",
+      "parent_id": "1Wuqm4J5yl1IugkgnrTbgv0xnyRj3roQg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8083,
+      "modified": "2026-08-16T03:27:09.000Z",
+      "checksum": "e9eb3daa03fff176fa2e6d0378673f14",
+      "folder": false
+    },
+    {
+      "id": "1k1EOjVyFSKK4Jh8cQlEmhvfOOjQ46c1U",
+      "parent_id": "1Wuqm4J5yl1IugkgnrTbgv0xnyRj3roQg",
+      "name": "LẴNG QUẢ THÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 883479,
+      "modified": "2026-08-16T03:27:15.000Z",
+      "checksum": "69235c5f1bac27d6fe877e0697b2b59e",
+      "folder": false
+    },
+    {
+      "id": "1eDt4qnLf2Sh6OvYZid18XzhP5CmBeNKk",
+      "parent_id": "1Wuqm4J5yl1IugkgnrTbgv0xnyRj3roQg",
+      "name": "LẴNG QUẢ THÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 1079400,
+      "modified": "2026-08-16T03:27:12.000Z",
+      "checksum": "401da63e163c5501674c7ba80a9549cd",
+      "folder": false
+    }
+  ]
+}

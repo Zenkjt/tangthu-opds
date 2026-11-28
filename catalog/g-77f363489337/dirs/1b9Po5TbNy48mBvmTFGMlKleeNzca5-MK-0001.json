@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1b9Po5TbNy48mBvmTFGMlKleeNzca5-MK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LEox_eGDW9a3TslViC7PmLhsNGzsJK4E",
+      "parent_id": "1b9Po5TbNy48mBvmTFGMlKleeNzca5-MK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2872,
+      "modified": "2026-08-16T03:49:59.000Z",
+      "checksum": "adf1c3305d1a4aec573977604a301659",
+      "folder": false
+    },
+    {
+      "id": "1bF5qvGMMTur-h5_MCo4AHwR4hqVHtWwQ",
+      "parent_id": "1b9Po5TbNy48mBvmTFGMlKleeNzca5-MK",
+      "name": "ZAZIE TRONG TÀU ĐIỆN NGẦM.epub",
+      "mime": "application/epub+zip",
+      "size": 475814,
+      "modified": "2026-08-16T03:50:06.000Z",
+      "checksum": "07e12e053cafe9d73f04d0fb8b31b38a",
+      "folder": false
+    },
+    {
+      "id": "1rBsH3rb6Xb21y0dKG_EtAgDOzMcmLAcy",
+      "parent_id": "1b9Po5TbNy48mBvmTFGMlKleeNzca5-MK",
+      "name": "ZAZIE TRONG TÀU ĐIỆN NGẦM.pdf",
+      "mime": "application/pdf",
+      "size": 817955,
+      "modified": "2026-08-16T03:50:03.000Z",
+      "checksum": "262a139edd470b4deb01efe1f1268d8f",
+      "folder": false
+    }
+  ]
+}

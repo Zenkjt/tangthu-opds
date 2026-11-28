@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jad23pvL-Ry4rl22iQA_dSNXzqxfHd-j",
+  "page": 1,
+  "items": [
+    {
+      "id": "1x3Ht84CZFDsacbY_RPvIVWy22kXJieKk",
+      "parent_id": "1jad23pvL-Ry4rl22iQA_dSNXzqxfHd-j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4583,
+      "modified": "2026-08-15T05:50:14.000Z",
+      "checksum": "804c35cc8422496562ab3becc48453a3",
+      "folder": false
+    },
+    {
+      "id": "1iQ5Z115-Uxc_MmCNzUZHePwEpTJUbyJ2",
+      "parent_id": "1jad23pvL-Ry4rl22iQA_dSNXzqxfHd-j",
+      "name": "HÀN PHI TỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 610450,
+      "modified": "2026-08-15T05:51:35.000Z",
+      "checksum": "72f245717ef19c0179cd3fe489f4e3a0",
+      "folder": false
+    },
+    {
+      "id": "117s0_-1icYiErWQ0XWqSQc1o_RxiIYqS",
+      "parent_id": "1jad23pvL-Ry4rl22iQA_dSNXzqxfHd-j",
+      "name": "HÀN PHI TỬ.pdf",
+      "mime": "application/pdf",
+      "size": 2363689,
+      "modified": "2026-08-15T05:50:48.000Z",
+      "checksum": "0180ae3034bfc08039b0c5d9e8f4a849",
+      "folder": false
+    }
+  ]
+}

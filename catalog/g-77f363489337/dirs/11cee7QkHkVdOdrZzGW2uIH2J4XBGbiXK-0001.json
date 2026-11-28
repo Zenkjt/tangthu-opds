@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11cee7QkHkVdOdrZzGW2uIH2J4XBGbiXK",
+  "page": 1,
+  "items": [
+    {
+      "id": "17euXLX7gLPuJW_OFpfHz-xhI8GLlqxGH",
+      "parent_id": "11cee7QkHkVdOdrZzGW2uIH2J4XBGbiXK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5387,
+      "modified": "2026-08-16T03:43:04.000Z",
+      "checksum": "711a8dce5af045fa335db527ff3a0ed9",
+      "folder": false
+    },
+    {
+      "id": "18tsuVVsqPvK_xGBfpbFQbND2NWmsisKw",
+      "parent_id": "11cee7QkHkVdOdrZzGW2uIH2J4XBGbiXK",
+      "name": "DÒNG SÔNG THƠ ẤU.epub",
+      "mime": "application/epub+zip",
+      "size": 766685,
+      "modified": "2026-08-16T03:43:10.000Z",
+      "checksum": "2d1d63bebe7173cb4e4b84e64400947e",
+      "folder": false
+    },
+    {
+      "id": "1h4KbNpY8PCl_rEsjFwUJrp4hhedb8sp2",
+      "parent_id": "11cee7QkHkVdOdrZzGW2uIH2J4XBGbiXK",
+      "name": "DÒNG SÔNG THƠ ẤU.pdf",
+      "mime": "application/pdf",
+      "size": 1017052,
+      "modified": "2026-08-16T03:43:08.000Z",
+      "checksum": "9d2239fe843e9e5dfb000d85ba1b72cb",
+      "folder": false
+    }
+  ]
+}

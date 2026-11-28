@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LQ1SzlWJ5QaJXvkd6b4uh5Cz3MVsuonm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yY4qJkt--Axoimv4XmoSh8pVAsTIojuS",
+      "parent_id": "1LQ1SzlWJ5QaJXvkd6b4uh5Cz3MVsuonm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5915,
+      "modified": "2026-08-15T03:22:30.000Z",
+      "checksum": "63b4a5ed1ad99c1c5719911aba76aa72",
+      "folder": false
+    },
+    {
+      "id": "1URQKBuIpZIZ3YqXu82cfI_lIYLbdcc6P",
+      "parent_id": "1LQ1SzlWJ5QaJXvkd6b4uh5Cz3MVsuonm",
+      "name": "TẠI SAO CẦN ĐƠN GIẢN.epub",
+      "mime": "application/epub+zip",
+      "size": 400519,
+      "modified": "2026-08-15T03:22:37.000Z",
+      "checksum": "4c4d5667a60148dd6a0cf725e72d4e8e",
+      "folder": false
+    },
+    {
+      "id": "1JBQvGeYgDA1B6oCw265mNRo0kUMYmDTx",
+      "parent_id": "1LQ1SzlWJ5QaJXvkd6b4uh5Cz3MVsuonm",
+      "name": "TẠI SAO CẦN ĐƠN GIẢN.pdf",
+      "mime": "application/pdf",
+      "size": 400873,
+      "modified": "2026-08-15T03:22:34.000Z",
+      "checksum": "de2b4375b4b762cb43e1e1ef6f3aa87d",
+      "folder": false
+    }
+  ]
+}

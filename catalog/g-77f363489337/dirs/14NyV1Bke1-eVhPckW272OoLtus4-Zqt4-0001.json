@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14NyV1Bke1-eVhPckW272OoLtus4-Zqt4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1raS83yGl9-u4ayaFWVXrcv-MTWhqDu55",
+      "parent_id": "14NyV1Bke1-eVhPckW272OoLtus4-Zqt4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1655,
+      "modified": "2026-08-16T02:48:43.000Z",
+      "checksum": "42eda9b88c18e6b0748e6105aca661dc",
+      "folder": false
+    },
+    {
+      "id": "1jVpBRiWmYAMP54fOYZXYsbQ8jYVbYeI6",
+      "parent_id": "14NyV1Bke1-eVhPckW272OoLtus4-Zqt4",
+      "name": "TÔI LÀ BÊTÔ.epub",
+      "mime": "application/epub+zip",
+      "size": 469873,
+      "modified": "2026-08-16T02:48:50.000Z",
+      "checksum": "797673e854d71cadb3cb72b077e51380",
+      "folder": false
+    },
+    {
+      "id": "1Cy-xTudLO3xpt_RvBJ6ALiQamjN6b9t6",
+      "parent_id": "14NyV1Bke1-eVhPckW272OoLtus4-Zqt4",
+      "name": "TÔI LÀ BÊTÔ.pdf",
+      "mime": "application/pdf",
+      "size": 844766,
+      "modified": "2026-08-16T02:48:47.000Z",
+      "checksum": "08b785ac1669ebf343bd49c0869d71c1",
+      "folder": false
+    }
+  ]
+}

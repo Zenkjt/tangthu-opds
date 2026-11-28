@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EDgXyOtrQK4y7-z5Db3_gRj9k9IwERBk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eauVaHnKgBHfJKKrGwwT2jUG-vHDuQSh",
+      "parent_id": "1EDgXyOtrQK4y7-z5Db3_gRj9k9IwERBk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3438,
+      "modified": "2026-08-15T10:23:18.000Z",
+      "checksum": "6e2cc8638dd78a6d2345350617291976",
+      "folder": false
+    },
+    {
+      "id": "14oybADOWmMlU4axn_rQ4p3gt9eRNkkPz",
+      "parent_id": "1EDgXyOtrQK4y7-z5Db3_gRj9k9IwERBk",
+      "name": "TÂM MANH.epub",
+      "mime": "application/epub+zip",
+      "size": 464122,
+      "modified": "2026-08-15T10:23:45.000Z",
+      "checksum": "f411528c378350c3169b40b43fe77ec3",
+      "folder": false
+    },
+    {
+      "id": "1VZafEMD4c2DYOHghkVHYpbW2bwE1rpyP",
+      "parent_id": "1EDgXyOtrQK4y7-z5Db3_gRj9k9IwERBk",
+      "name": "TÂM MANH.pdf",
+      "mime": "application/pdf",
+      "size": 1102463,
+      "modified": "2026-08-15T10:23:37.000Z",
+      "checksum": "9268dd4b1219821bcb381226db82f318",
+      "folder": false
+    }
+  ]
+}

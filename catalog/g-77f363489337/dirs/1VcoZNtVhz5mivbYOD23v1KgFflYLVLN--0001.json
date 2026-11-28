@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VcoZNtVhz5mivbYOD23v1KgFflYLVLN-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GnSOhn97cjXykXCNhy2yFIHrnZPvGv2P",
+      "parent_id": "1VcoZNtVhz5mivbYOD23v1KgFflYLVLN-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3246,
+      "modified": "2026-08-15T09:50:24.000Z",
+      "checksum": "cb252b89d8a06da47458fa63c90e8b2f",
+      "folder": false
+    },
+    {
+      "id": "1Jy7KW2fZp9VBHo8AQgheHrUtnFh7mStj",
+      "parent_id": "1VcoZNtVhz5mivbYOD23v1KgFflYLVLN-",
+      "name": "ĐỘC CHIẾN THIÊN NHAI.epub",
+      "mime": "application/epub+zip",
+      "size": 1926405,
+      "modified": "2026-08-15T09:50:34.000Z",
+      "checksum": "5c33e5014227c1f5bb1a37ad350db19e",
+      "folder": false
+    },
+    {
+      "id": "1gFGC0z5lnyzOgUk6_S2ssul0ToKVkjXb",
+      "parent_id": "1VcoZNtVhz5mivbYOD23v1KgFflYLVLN-",
+      "name": "ĐỘC CHIẾN THIÊN NHAI.pdf",
+      "mime": "application/pdf",
+      "size": 2476659,
+      "modified": "2026-08-15T09:50:31.000Z",
+      "checksum": "1ad29a370b93cea170fcc21e24b5c80d",
+      "folder": false
+    }
+  ]
+}

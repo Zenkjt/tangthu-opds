@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hdyh4ETeZXD2CANzHhjNLQOt_uj4oMsk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UWaaf7dFZ7C3AZ_a-gWuhao1A53qZ9XY",
+      "parent_id": "1hdyh4ETeZXD2CANzHhjNLQOt_uj4oMsk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2288,
+      "modified": "2026-08-15T13:12:47.000Z",
+      "checksum": "79457131c7166c18c896705b7167179b",
+      "folder": false
+    },
+    {
+      "id": "1sA-7J0WapNx4R6eAPTN7Sg031bDIpcH-",
+      "parent_id": "1hdyh4ETeZXD2CANzHhjNLQOt_uj4oMsk",
+      "name": "DƯƠNG TRẠCH TAM YẾU.epub",
+      "mime": "application/epub+zip",
+      "size": 680156,
+      "modified": "2026-08-15T13:12:54.000Z",
+      "checksum": "bb261a6b7abe06e7068f07158801e620",
+      "folder": false
+    },
+    {
+      "id": "1Gg5O7xviJhFtAIg4PMRGQhHvYpMC52GM",
+      "parent_id": "1hdyh4ETeZXD2CANzHhjNLQOt_uj4oMsk",
+      "name": "DƯƠNG TRẠCH TAM YẾU.pdf",
+      "mime": "application/pdf",
+      "size": 1230012,
+      "modified": "2026-08-15T13:12:51.000Z",
+      "checksum": "be6b5beb23a92d08ffafe2e789f67984",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zRWfSVvbyG4n4nIGB3RGNQFBvG_oIgpR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P3PH3k0QEhWOjW1ao0uOL1r4YY0v-RTF",
+      "parent_id": "1zRWfSVvbyG4n4nIGB3RGNQFBvG_oIgpR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 471,
+      "modified": "2026-08-15T10:54:18.000Z",
+      "checksum": "b415cba88ae899b1958c60b68dbcf653",
+      "folder": false
+    },
+    {
+      "id": "13lnlSACueqKiSpA3Au3waX6uXI7CglJg",
+      "parent_id": "1zRWfSVvbyG4n4nIGB3RGNQFBvG_oIgpR",
+      "name": "KIẾP NẠN NGƯỜI SÓI.epub",
+      "mime": "application/epub+zip",
+      "size": 703780,
+      "modified": "2026-08-15T10:55:00.000Z",
+      "checksum": "6240929489a1534485a465865689aa34",
+      "folder": false
+    },
+    {
+      "id": "1Y8r5V-pWVRYod3bqsm7_E1BVvSczkI6Q",
+      "parent_id": "1zRWfSVvbyG4n4nIGB3RGNQFBvG_oIgpR",
+      "name": "KIẾP NẠN NGƯỜI SÓI.pdf",
+      "mime": "application/pdf",
+      "size": 1248164,
+      "modified": "2026-08-15T10:54:35.000Z",
+      "checksum": "caca004bd798f4a7ff31026a1238f2bd",
+      "folder": false
+    }
+  ]
+}

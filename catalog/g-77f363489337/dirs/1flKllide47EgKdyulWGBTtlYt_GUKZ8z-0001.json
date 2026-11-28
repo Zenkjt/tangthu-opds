@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1flKllide47EgKdyulWGBTtlYt_GUKZ8z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VaWEA7xIOyvmFDOsa3Lqv7tg4r8fXec9",
+      "parent_id": "1flKllide47EgKdyulWGBTtlYt_GUKZ8z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4643,
+      "modified": "2026-08-15T03:41:08.000Z",
+      "checksum": "b4df99a08a21bba445c205e20fa2a1cb",
+      "folder": false
+    },
+    {
+      "id": "1UKyC0JS_1gVCFMt39x6CgcNDrJx3c8Z0",
+      "parent_id": "1flKllide47EgKdyulWGBTtlYt_GUKZ8z",
+      "name": "ĐÔI ĐIỀU CẦN SUY NGẪM.epub",
+      "mime": "application/epub+zip",
+      "size": 506222,
+      "modified": "2026-08-15T03:41:16.000Z",
+      "checksum": "2f9ebe3326889795d448ee8ffb52d260",
+      "folder": false
+    },
+    {
+      "id": "1JaurWIvb97x9P4M7t3ynHbmfKTg9sETK",
+      "parent_id": "1flKllide47EgKdyulWGBTtlYt_GUKZ8z",
+      "name": "ĐÔI ĐIỀU CẦN SUY NGẪM.pdf",
+      "mime": "application/pdf",
+      "size": 1564799,
+      "modified": "2026-08-15T03:41:13.000Z",
+      "checksum": "cfef4d542272d0c72317215ceb998a91",
+      "folder": false
+    }
+  ]
+}

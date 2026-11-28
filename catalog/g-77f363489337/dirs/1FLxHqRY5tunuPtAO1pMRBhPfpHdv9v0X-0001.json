@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FLxHqRY5tunuPtAO1pMRBhPfpHdv9v0X",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bNnKggbiig4CQ3aimKiZeRepTlWQbrx1",
+      "parent_id": "1FLxHqRY5tunuPtAO1pMRBhPfpHdv9v0X",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 918,
+      "modified": "2026-08-15T07:58:51.000Z",
+      "checksum": "0722092a24134a64f8c70349fc3364a8",
+      "folder": false
+    },
+    {
+      "id": "14eXEke9W7HWIIgdXmElnAw5IBTAWbdXr",
+      "parent_id": "1FLxHqRY5tunuPtAO1pMRBhPfpHdv9v0X",
+      "name": "GIANG SƠN NHƯ HỌA.epub",
+      "mime": "application/epub+zip",
+      "size": 907107,
+      "modified": "2026-08-15T07:58:58.000Z",
+      "checksum": "e55ed488a580c26b70bc0c7e702ff856",
+      "folder": false
+    },
+    {
+      "id": "1k3dIXCB7gZcbfq2jLS6ZvhHx0me7fQ-L",
+      "parent_id": "1FLxHqRY5tunuPtAO1pMRBhPfpHdv9v0X",
+      "name": "GIANG SƠN NHƯ HỌA.pdf",
+      "mime": "application/pdf",
+      "size": 1128093,
+      "modified": "2026-08-15T07:58:56.000Z",
+      "checksum": "62954e131c9568b0fbb6361df2221d38",
+      "folder": false
+    }
+  ]
+}

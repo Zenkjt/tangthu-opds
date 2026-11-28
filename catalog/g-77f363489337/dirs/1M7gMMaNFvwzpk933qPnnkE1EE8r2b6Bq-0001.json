@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1M7gMMaNFvwzpk933qPnnkE1EE8r2b6Bq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lUxJc083pG3kANfUh9Qk-k3c9w5-RhGd",
+      "parent_id": "1M7gMMaNFvwzpk933qPnnkE1EE8r2b6Bq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2042,
+      "modified": "2026-08-15T07:08:37.000Z",
+      "checksum": "cbb7fdc156d159c354266c08d113fdf9",
+      "folder": false
+    },
+    {
+      "id": "15HkWxI8OnniU0KazFGxaA65vbNU2Dd04",
+      "parent_id": "1M7gMMaNFvwzpk933qPnnkE1EE8r2b6Bq",
+      "name": "NGANG TÀNG (TÁT DÃ).epub",
+      "mime": "application/epub+zip",
+      "size": 4625911,
+      "modified": "2026-08-15T07:08:51.000Z",
+      "checksum": "0facb18c6a3f89bb0a91bc380d3e07c7",
+      "folder": false
+    },
+    {
+      "id": "1WQfQLcW_fXgGYe8JHRhKHXU5MvXKU5uF",
+      "parent_id": "1M7gMMaNFvwzpk933qPnnkE1EE8r2b6Bq",
+      "name": "NGANG TÀNG (TÁT DÃ).pdf",
+      "mime": "application/pdf",
+      "size": 6074390,
+      "modified": "2026-08-15T07:08:46.000Z",
+      "checksum": "5aa3c4e9e2c49718f3ff5cde2beccec4",
+      "folder": false
+    }
+  ]
+}

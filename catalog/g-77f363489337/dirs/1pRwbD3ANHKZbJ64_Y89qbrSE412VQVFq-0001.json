@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pRwbD3ANHKZbJ64_Y89qbrSE412VQVFq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sP-xOq_0R2I9lOCjeXtvTdMVgN_ezPo8",
+      "parent_id": "1pRwbD3ANHKZbJ64_Y89qbrSE412VQVFq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3153,
+      "modified": "2026-08-15T10:26:55.000Z",
+      "checksum": "db83da65a91be3da54895915a0a44e76",
+      "folder": false
+    },
+    {
+      "id": "1cK2cwMDdxIgtyuZk6KkwtY9g-RBd2_w2",
+      "parent_id": "1pRwbD3ANHKZbJ64_Y89qbrSE412VQVFq",
+      "name": "SIZZLE.epub",
+      "mime": "application/epub+zip",
+      "size": 819913,
+      "modified": "2026-08-15T10:27:04.000Z",
+      "checksum": "e52ee3421140fc2cbcded7b1cb1da617",
+      "folder": false
+    },
+    {
+      "id": "1XjvGiFEzA4CqaYS1EE3e63bPd1ZPgQcT",
+      "parent_id": "1pRwbD3ANHKZbJ64_Y89qbrSE412VQVFq",
+      "name": "SIZZLE.pdf",
+      "mime": "application/pdf",
+      "size": 996586,
+      "modified": "2026-08-15T10:27:00.000Z",
+      "checksum": "ea2836b7362b707541a05ba56123f995",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vHz5wp248u8vm9J7DcPZvBixK6fZwghW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wPkUsKXeeakD1foQGxmnD5-g-MqkXsj1",
+      "parent_id": "1vHz5wp248u8vm9J7DcPZvBixK6fZwghW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5763,
+      "modified": "2026-08-15T09:47:49.000Z",
+      "checksum": "47ed89adeef94a3662e9abc9700d580b",
+      "folder": false
+    },
+    {
+      "id": "1F3465vEx2PfCiynf9bts5UMSd7ykf3Hu",
+      "parent_id": "1vHz5wp248u8vm9J7DcPZvBixK6fZwghW",
+      "name": "HỒN MA CÔ ĐÀO HÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 326344,
+      "modified": "2026-08-15T09:47:55.000Z",
+      "checksum": "35e48e2077067f1a992940c360630f93",
+      "folder": false
+    },
+    {
+      "id": "1u0x9ogMQkSRxWNog3IBlDTe2udmpXaXX",
+      "parent_id": "1vHz5wp248u8vm9J7DcPZvBixK6fZwghW",
+      "name": "HỒN MA CÔ ĐÀO HÁT.pdf",
+      "mime": "application/pdf",
+      "size": 470926,
+      "modified": "2026-08-15T09:47:52.000Z",
+      "checksum": "6d25bae64a6cbe3206265e2687255099",
+      "folder": false
+    }
+  ]
+}

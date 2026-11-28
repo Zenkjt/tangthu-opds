@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gXBHi3lPTOgeHBKlA8_E8Jm10ny5_uO4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OLV6N1XixcraT3-RVXeZ1wyXnkgzXB4e",
+      "parent_id": "1gXBHi3lPTOgeHBKlA8_E8Jm10ny5_uO4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3501,
+      "modified": "2026-08-16T03:20:55.000Z",
+      "checksum": "e2798d1dac3f73375c10a51cccd5171f",
+      "folder": false
+    },
+    {
+      "id": "1ehQ9OfF-LAOPbVMSN6RFzcg2r_xNF0ZP",
+      "parent_id": "1gXBHi3lPTOgeHBKlA8_E8Jm10ny5_uO4",
+      "name": "MẠC CAN - TRUYỆN NGẮN CHỌN LỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 539556,
+      "modified": "2026-08-16T03:21:02.000Z",
+      "checksum": "a3bf7ee43d621d644897ef3f12331565",
+      "folder": false
+    },
+    {
+      "id": "1jwSAHKubgtHacdpIaImRz4dJRqK7saFE",
+      "parent_id": "1gXBHi3lPTOgeHBKlA8_E8Jm10ny5_uO4",
+      "name": "MẠC CAN - TRUYỆN NGẮN CHỌN LỌC.pdf",
+      "mime": "application/pdf",
+      "size": 431387,
+      "modified": "2026-08-16T03:20:59.000Z",
+      "checksum": "28e34ad810cd5a1f1f58d923fe0a2963",
+      "folder": false
+    }
+  ]
+}

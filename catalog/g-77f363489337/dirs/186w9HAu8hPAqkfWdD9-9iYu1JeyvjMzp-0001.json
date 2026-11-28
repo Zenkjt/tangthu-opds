@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "186w9HAu8hPAqkfWdD9-9iYu1JeyvjMzp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cCt9o07jeBbwAunNbEzbmX62FhneNZBZ",
+      "parent_id": "186w9HAu8hPAqkfWdD9-9iYu1JeyvjMzp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3470,
+      "modified": "2026-08-16T04:01:49.000Z",
+      "checksum": "03a4f205f2007dd7f04b33e609b5bfe0",
+      "folder": false
+    },
+    {
+      "id": "1nX-lfTi4MrfCiOBIbv9G_151GZ9EnoBS",
+      "parent_id": "186w9HAu8hPAqkfWdD9-9iYu1JeyvjMzp",
+      "name": "TÀN UẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 537638,
+      "modified": "2026-08-16T04:01:55.000Z",
+      "checksum": "49e80b5eddd6f852d994d55598d5363e",
+      "folder": false
+    },
+    {
+      "id": "1RVsjg3lFCV7mimDQ7m_xwBOi93BNhBVe",
+      "parent_id": "186w9HAu8hPAqkfWdD9-9iYu1JeyvjMzp",
+      "name": "TÀN UẾ.pdf",
+      "mime": "application/pdf",
+      "size": 996852,
+      "modified": "2026-08-16T04:01:53.000Z",
+      "checksum": "1339310249cca7bf4abc1f34a1f9332e",
+      "folder": false
+    }
+  ]
+}

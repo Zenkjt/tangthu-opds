@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YODppmLz-9XKBxKvfunRKq1zVHUypHrt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dMa1FJHyqjN51bmsGSiE_9m16pQQxEmH",
+      "parent_id": "1YODppmLz-9XKBxKvfunRKq1zVHUypHrt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3438,
+      "modified": "2026-08-16T04:01:38.000Z",
+      "checksum": "63ea800e2f3399617334f06de54fb14c",
+      "folder": false
+    },
+    {
+      "id": "16cgVESzmbR9Sfytq6bxQa6rzhVy3dzb1",
+      "parent_id": "1YODppmLz-9XKBxKvfunRKq1zVHUypHrt",
+      "name": "TÁNG TUYẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 1295338,
+      "modified": "2026-08-16T04:01:45.000Z",
+      "checksum": "4455bce62637eeffd5bab3b326a2c448",
+      "folder": false
+    },
+    {
+      "id": "19CruiyWxmCssYp1Hmp_KEAbh3U8P31Tr",
+      "parent_id": "1YODppmLz-9XKBxKvfunRKq1zVHUypHrt",
+      "name": "TÁNG TUYẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1201101,
+      "modified": "2026-08-16T04:01:43.000Z",
+      "checksum": "4702728166737e3eada08bc9ce0f0554",
+      "folder": false
+    }
+  ]
+}

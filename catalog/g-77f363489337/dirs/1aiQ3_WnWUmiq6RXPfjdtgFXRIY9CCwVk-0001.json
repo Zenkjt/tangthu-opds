@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aiQ3_WnWUmiq6RXPfjdtgFXRIY9CCwVk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1INQ62trbweG4_X4i-djFHlJBkX96XhVj",
+      "parent_id": "1aiQ3_WnWUmiq6RXPfjdtgFXRIY9CCwVk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4058,
+      "modified": "2026-08-16T03:21:04.000Z",
+      "checksum": "22affd168f158c8246ffb0244b27b462",
+      "folder": false
+    },
+    {
+      "id": "1-It9NHmpCftgs85cMKvQ6elgTdDBIT8l",
+      "parent_id": "1aiQ3_WnWUmiq6RXPfjdtgFXRIY9CCwVk",
+      "name": "HỒ CẨM ĐÀO - CON ĐƯỜNG PHÍA TRƯỚC.epub",
+      "mime": "application/epub+zip",
+      "size": 612928,
+      "modified": "2026-08-16T03:21:13.000Z",
+      "checksum": "da1910e3c8471abcf9e393d915507460",
+      "folder": false
+    },
+    {
+      "id": "1rkRnX5Tfqv1zqG4Z6vaqbjqEu-mAiPId",
+      "parent_id": "1aiQ3_WnWUmiq6RXPfjdtgFXRIY9CCwVk",
+      "name": "HỒ CẨM ĐÀO - CON ĐƯỜNG PHÍA TRƯỚC.pdf",
+      "mime": "application/pdf",
+      "size": 1692360,
+      "modified": "2026-08-16T03:21:10.000Z",
+      "checksum": "039eab68e751e81aab715bab23f72f22",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1a97W6Y4tVwKGkVxCzQJuUK2CNNxv529F",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CM9QbN-4i6NrGHIR9GjTkKgdO2SMnlVJ",
+      "parent_id": "1a97W6Y4tVwKGkVxCzQJuUK2CNNxv529F",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2285,
+      "modified": "2026-08-16T02:47:48.000Z",
+      "checksum": "1d0a47f37953f1959f85729f060c3489",
+      "folder": false
+    },
+    {
+      "id": "1LEYuoOxm1VAmOgsHtpn4pbaheGrj-7bQ",
+      "parent_id": "1a97W6Y4tVwKGkVxCzQJuUK2CNNxv529F",
+      "name": "TIẾNG HÁT NGƯỜI CÁ.epub",
+      "mime": "application/epub+zip",
+      "size": 566708,
+      "modified": "2026-08-16T02:47:55.000Z",
+      "checksum": "5c4fc7d4a00fa82e99119b78af65d6f6",
+      "folder": false
+    },
+    {
+      "id": "1JGT5GXbRuJzlNl9llLpoXcPDwvR9-8mi",
+      "parent_id": "1a97W6Y4tVwKGkVxCzQJuUK2CNNxv529F",
+      "name": "TIẾNG HÁT NGƯỜI CÁ.pdf",
+      "mime": "application/pdf",
+      "size": 869166,
+      "modified": "2026-08-16T02:47:52.000Z",
+      "checksum": "c5e1651eef34560d0138f8a7c9cb97c6",
+      "folder": false
+    }
+  ]
+}

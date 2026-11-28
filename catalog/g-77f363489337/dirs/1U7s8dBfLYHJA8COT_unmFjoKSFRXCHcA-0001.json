@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1U7s8dBfLYHJA8COT_unmFjoKSFRXCHcA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1N8LOYqdCmW4G_blnKbvhZAwFVs_FAE_J",
+      "parent_id": "1U7s8dBfLYHJA8COT_unmFjoKSFRXCHcA",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 3102,
+      "modified": "2026-08-15T07:41:06.000Z",
+      "checksum": "4e8fb75cfb778b2b61d4ba40fa440d14",
+      "folder": false
+    },
+    {
+      "id": "1KGCWGBHlAf5Fhc2EC-ePx178ZAzFoipR",
+      "parent_id": "1U7s8dBfLYHJA8COT_unmFjoKSFRXCHcA",
+      "name": "HOÀNG CUNG TƯ TRUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 1544798,
+      "modified": "2026-08-15T07:41:14.000Z",
+      "checksum": "a792abb86f2ce77724aa1ae676c051be",
+      "folder": false
+    },
+    {
+      "id": "1gyTwJ4J-0aP-s2ts8uOCOH7t23d18Yk-",
+      "parent_id": "1U7s8dBfLYHJA8COT_unmFjoKSFRXCHcA",
+      "name": "HOÀNG CUNG TƯ TRUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 1289075,
+      "modified": "2026-08-15T07:41:10.000Z",
+      "checksum": "cf0f38bbc1ab3e441d75559580ccfed4",
+      "folder": false
+    }
+  ]
+}

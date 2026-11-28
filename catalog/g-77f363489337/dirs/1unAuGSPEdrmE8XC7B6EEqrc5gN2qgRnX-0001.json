@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1unAuGSPEdrmE8XC7B6EEqrc5gN2qgRnX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sWkUclPCiHM207UtdLlrjVhwOXn9U5cL",
+      "parent_id": "1unAuGSPEdrmE8XC7B6EEqrc5gN2qgRnX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 655,
+      "modified": "2026-08-16T03:49:00.000Z",
+      "checksum": "ad27ae2cda7fe310acfd58f9878148da",
+      "folder": false
+    },
+    {
+      "id": "1-2PSzYrh4hHisWp6CuS1auRdGA1RscTV",
+      "parent_id": "1unAuGSPEdrmE8XC7B6EEqrc5gN2qgRnX",
+      "name": "TRUYỆN NGẮN NGUYỄN QUANG SÁNG.epub",
+      "mime": "application/epub+zip",
+      "size": 408325,
+      "modified": "2026-08-16T03:49:06.000Z",
+      "checksum": "2751a2ba2131c211042407e1358d204b",
+      "folder": false
+    },
+    {
+      "id": "1YgSuFIVR2EF2jG0YJMZFE-EBwGH1hGgU",
+      "parent_id": "1unAuGSPEdrmE8XC7B6EEqrc5gN2qgRnX",
+      "name": "TRUYỆN NGẮN NGUYỄN QUANG SÁNG.pdf",
+      "mime": "application/pdf",
+      "size": 739525,
+      "modified": "2026-08-16T03:49:03.000Z",
+      "checksum": "04887ab0c55588605b7ba21454f364c3",
+      "folder": false
+    }
+  ]
+}

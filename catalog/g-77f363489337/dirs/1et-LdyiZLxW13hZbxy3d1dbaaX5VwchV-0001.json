@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1et-LdyiZLxW13hZbxy3d1dbaaX5VwchV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cb21lSWGJXFUASbBz48Oei-FJOLQcysc",
+      "parent_id": "1et-LdyiZLxW13hZbxy3d1dbaaX5VwchV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 514,
+      "modified": "2026-08-15T10:57:33.000Z",
+      "checksum": "9cdd448d67618b784a9bd11d96d68761",
+      "folder": false
+    },
+    {
+      "id": "1CTRZvXyvwFmD670Et4GpDDKBD6USAQTC",
+      "parent_id": "1et-LdyiZLxW13hZbxy3d1dbaaX5VwchV",
+      "name": "EM CHƯA TỪNG QUÊN ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 632152,
+      "modified": "2026-08-15T10:57:41.000Z",
+      "checksum": "892eaae307ab8c95df1ac256e335526d",
+      "folder": false
+    },
+    {
+      "id": "1OiV4Li-CXCubHxDmVvc7K5p2O5nbJKC9",
+      "parent_id": "1et-LdyiZLxW13hZbxy3d1dbaaX5VwchV",
+      "name": "EM CHƯA TỪNG QUÊN ANH.pdf",
+      "mime": "application/pdf",
+      "size": 1146192,
+      "modified": "2026-08-15T10:57:37.000Z",
+      "checksum": "1fa586d3df050636dfa069948a9380f6",
+      "folder": false
+    }
+  ]
+}

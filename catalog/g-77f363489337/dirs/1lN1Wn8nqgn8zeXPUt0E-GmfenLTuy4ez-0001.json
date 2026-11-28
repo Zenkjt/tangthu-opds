@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lN1Wn8nqgn8zeXPUt0E-GmfenLTuy4ez",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qZvdYtCr7QALkoplin7vZYk81apA20KS",
+      "parent_id": "1lN1Wn8nqgn8zeXPUt0E-GmfenLTuy4ez",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3442,
+      "modified": "2026-08-15T07:24:50.000Z",
+      "checksum": "19edc63abef8988cb1920192f69c726b",
+      "folder": false
+    },
+    {
+      "id": "1k3ajqfIRffQqB7qbwVvg550vRRyAKHrv",
+      "parent_id": "1lN1Wn8nqgn8zeXPUt0E-GmfenLTuy4ez",
+      "name": "TƯỜNG THÀNH KHÔNG CÔ ĐỘC.epub",
+      "mime": "application/epub+zip",
+      "size": 521892,
+      "modified": "2026-08-15T07:24:57.000Z",
+      "checksum": "a274dcf9e210f67123b81efff385d45f",
+      "folder": false
+    },
+    {
+      "id": "14jxqQusAuN0Xxx0G3FBXPA-1XSm7Bi0h",
+      "parent_id": "1lN1Wn8nqgn8zeXPUt0E-GmfenLTuy4ez",
+      "name": "TƯỜNG THÀNH KHÔNG CÔ ĐỘC.pdf",
+      "mime": "application/pdf",
+      "size": 1068414,
+      "modified": "2026-08-15T07:24:54.000Z",
+      "checksum": "e004c95d8291cc739c75982b4da4f4fe",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TbH9iW-hF0YCeh6lL76-VlDkeGBJh3D4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S4-gW9FBDyqHEeDkuZlL1aUnczYsRy8w",
+      "parent_id": "1TbH9iW-hF0YCeh6lL76-VlDkeGBJh3D4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 359,
+      "modified": "2026-08-16T03:52:03.000Z",
+      "checksum": "04f66690e0b19494da79aa62e5eea358",
+      "folder": false
+    },
+    {
+      "id": "1w-59kX_GC0h30-OhHf93zyuIKjNUWKHf",
+      "parent_id": "1TbH9iW-hF0YCeh6lL76-VlDkeGBJh3D4",
+      "name": "VỀ ĐÂU.epub",
+      "mime": "application/epub+zip",
+      "size": 397639,
+      "modified": "2026-08-16T03:52:09.000Z",
+      "checksum": "8142be706bdfdf286b49f9080e928cf8",
+      "folder": false
+    },
+    {
+      "id": "1QuSO9fyjKnkvp4J7IGW58likDeuG8mIY",
+      "parent_id": "1TbH9iW-hF0YCeh6lL76-VlDkeGBJh3D4",
+      "name": "VỀ ĐÂU.pdf",
+      "mime": "application/pdf",
+      "size": 433751,
+      "modified": "2026-08-16T03:52:06.000Z",
+      "checksum": "d54f04f4d58afb4190177da281ef574d",
+      "folder": false
+    }
+  ]
+}

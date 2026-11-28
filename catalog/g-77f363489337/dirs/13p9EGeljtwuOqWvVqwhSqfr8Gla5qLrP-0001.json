@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13p9EGeljtwuOqWvVqwhSqfr8Gla5qLrP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KBDc_ob_5mpHBgN2Is0Ad0BPbzYhqCt7",
+      "parent_id": "13p9EGeljtwuOqWvVqwhSqfr8Gla5qLrP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 688,
+      "modified": "2026-08-15T15:36:06.000Z",
+      "checksum": "1d0970b1a9b4145f31187e009916970a",
+      "folder": false
+    },
+    {
+      "id": "1odeFydAVaBC-14A5rZ8uU5Mf7AVpaDaK",
+      "parent_id": "13p9EGeljtwuOqWvVqwhSqfr8Gla5qLrP",
+      "name": "THIÊN THẦN VÀ ÁC QUỶ.epub",
+      "mime": "application/epub+zip",
+      "size": 1289070,
+      "modified": "2026-08-15T15:36:16.000Z",
+      "checksum": "c4f190acfc53dd55cff675b2e28db55f",
+      "folder": false
+    },
+    {
+      "id": "1HWDhdyFm4zofgSNAGx_p94AlDQ_7JCDT",
+      "parent_id": "13p9EGeljtwuOqWvVqwhSqfr8Gla5qLrP",
+      "name": "THIÊN THẦN VÀ ÁC QUỶ.pdf",
+      "mime": "application/pdf",
+      "size": 2578828,
+      "modified": "2026-08-15T15:36:13.000Z",
+      "checksum": "4d1cbc09675d32fd468b81195b669f44",
+      "folder": false
+    }
+  ]
+}

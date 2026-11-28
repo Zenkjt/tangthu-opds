@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1poOYzNfv8lvpvO0oQvfkTCUzR5-N2Zih",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dhXZjR9Ep3KOFv784JnWwe00UiqnreyU",
+      "parent_id": "1poOYzNfv8lvpvO0oQvfkTCUzR5-N2Zih",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2502,
+      "modified": "2026-08-15T03:48:32.000Z",
+      "checksum": "6d4ea5a3d77fb443a870071ca09f38c0",
+      "folder": false
+    },
+    {
+      "id": "1y_8JZLGxhtU_rQopetDdboBFPgk4LZJI",
+      "parent_id": "1poOYzNfv8lvpvO0oQvfkTCUzR5-N2Zih",
+      "name": "MẪU THƯỢNG NGÀN.epub",
+      "mime": "application/epub+zip",
+      "size": 69329,
+      "modified": "2026-08-15T03:48:37.000Z",
+      "checksum": "42d8c29abcd46408135dd0650e556cda",
+      "folder": false
+    },
+    {
+      "id": "1WyhMHaso07sbWbcYlHf3dU5YLTPmTOsG",
+      "parent_id": "1poOYzNfv8lvpvO0oQvfkTCUzR5-N2Zih",
+      "name": "MẪU THƯỢNG NGÀN.pdf",
+      "mime": "application/pdf",
+      "size": 55618,
+      "modified": "2026-08-15T03:48:35.000Z",
+      "checksum": "3b5ac2a79631246fb25e259776d75275",
+      "folder": false
+    }
+  ]
+}

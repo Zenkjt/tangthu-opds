@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1l6vk4ors_1--bJ02bvjrzkWdi4Q4QBjE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QJvNUz11rwaWzGwBCl0V_h5b06yJ7B-M",
+      "parent_id": "1l6vk4ors_1--bJ02bvjrzkWdi4Q4QBjE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3244,
+      "modified": "2026-08-15T10:41:43.000Z",
+      "checksum": "3354177a50eb6c166d03ff095ee7fe3e",
+      "folder": false
+    },
+    {
+      "id": "17-Tg8ORBFqJ1uYJWbFvJ7r28QZs8MVj9",
+      "parent_id": "1l6vk4ors_1--bJ02bvjrzkWdi4Q4QBjE",
+      "name": "NGƯỜI YÊU CỦA BUBE.epub",
+      "mime": "application/epub+zip",
+      "size": 491964,
+      "modified": "2026-08-15T10:42:07.000Z",
+      "checksum": "29f2fdb85e0b4ea88c9559db908c692a",
+      "folder": false
+    },
+    {
+      "id": "16Vm8z0NMRe_IS04E7n7o2WqYOXqnEb0v",
+      "parent_id": "1l6vk4ors_1--bJ02bvjrzkWdi4Q4QBjE",
+      "name": "NGƯỜI YÊU CỦA BUBE.pdf",
+      "mime": "application/pdf",
+      "size": 1049565,
+      "modified": "2026-08-15T10:42:00.000Z",
+      "checksum": "de487fa1134518668a035b0bf27a7b3a",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Cd-NGoII2HHni19s4DUolA862rPOY6X5",
+  "page": 1,
+  "items": [
+    {
+      "id": "10c-urSxZitd-n8SxBeKfO9Xh28AQHU5y",
+      "parent_id": "1Cd-NGoII2HHni19s4DUolA862rPOY6X5",
+      "name": "BIỂN.epub",
+      "mime": "application/epub+zip",
+      "size": 648347,
+      "modified": "2026-08-16T03:27:07.000Z",
+      "checksum": "e5da7c8fe37bd09854c734db9654c1ba",
+      "folder": false
+    },
+    {
+      "id": "1UDxfLd4bQtlRbxXMbcrhzofz9ep0IaI1",
+      "parent_id": "1Cd-NGoII2HHni19s4DUolA862rPOY6X5",
+      "name": "BIỂN.pdf",
+      "mime": "application/pdf",
+      "size": 1010780,
+      "modified": "2026-08-16T03:27:05.000Z",
+      "checksum": "e505e89622717ab1802b5f6012cf6e13",
+      "folder": false
+    },
+    {
+      "id": "1qGT_v2izoMloWHPCGvxz8mliWSnHltgQ",
+      "parent_id": "1Cd-NGoII2HHni19s4DUolA862rPOY6X5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8498,
+      "modified": "2026-08-16T03:27:01.000Z",
+      "checksum": "95d89705c3331c243023fdcafbac1a8f",
+      "folder": false
+    }
+  ]
+}

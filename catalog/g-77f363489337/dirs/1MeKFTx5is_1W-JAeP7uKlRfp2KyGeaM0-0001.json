@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MeKFTx5is_1W-JAeP7uKlRfp2KyGeaM0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ed1ud4AUdEea1SKsDOoXJuMLfbVi6q7h",
+      "parent_id": "1MeKFTx5is_1W-JAeP7uKlRfp2KyGeaM0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4652,
+      "modified": "2026-08-15T00:51:12.000Z",
+      "checksum": "9a01c4858a27ccdabf4a730297a04d10",
+      "folder": false
+    },
+    {
+      "id": "1XST4NKWo7k_u-M2IB4K-q3E4Om26Gxb7",
+      "parent_id": "1MeKFTx5is_1W-JAeP7uKlRfp2KyGeaM0",
+      "name": "SỨC MẠNH CỦA SỰ KHÁC BIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 2833927,
+      "modified": "2026-08-15T00:51:21.000Z",
+      "checksum": "4c7ad52c227fcb4dfb670d8fcfa099e9",
+      "folder": false
+    },
+    {
+      "id": "1HquEENUqBKJCv8HbzG93ZD7hl26NKbYK",
+      "parent_id": "1MeKFTx5is_1W-JAeP7uKlRfp2KyGeaM0",
+      "name": "SỨC MẠNH CỦA SỰ KHÁC BIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 3365491,
+      "modified": "2026-08-15T00:51:17.000Z",
+      "checksum": "460e6058a800f3125ce92486d7a6e65f",
+      "folder": false
+    }
+  ]
+}

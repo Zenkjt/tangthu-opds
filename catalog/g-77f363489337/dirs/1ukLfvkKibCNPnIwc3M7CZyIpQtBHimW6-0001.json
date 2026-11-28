@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ukLfvkKibCNPnIwc3M7CZyIpQtBHimW6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1f2_mZ9YQIHXkddBLmBFhdb2MGfDcNF6n",
+      "parent_id": "1ukLfvkKibCNPnIwc3M7CZyIpQtBHimW6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1987,
+      "modified": "2026-08-16T03:02:16.000Z",
+      "checksum": "47dec676b0bbf3a85fb563118f8317e7",
+      "folder": false
+    },
+    {
+      "id": "1niVx8TbyZuBIpdK13s_YNZYe0YmK-Wiz",
+      "parent_id": "1ukLfvkKibCNPnIwc3M7CZyIpQtBHimW6",
+      "name": "TRẤN MA ĐẠO NHÂN TRUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 123479,
+      "modified": "2026-08-16T03:02:22.000Z",
+      "checksum": "4f9e5fd9fdab4a8ea0a30b03522e6f74",
+      "folder": false
+    },
+    {
+      "id": "1oK6HYE61BIXngnc7iCc3gpl-bkn51Kmu",
+      "parent_id": "1ukLfvkKibCNPnIwc3M7CZyIpQtBHimW6",
+      "name": "TRẤN MA ĐẠO NHÂN TRUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 455084,
+      "modified": "2026-08-16T03:02:20.000Z",
+      "checksum": "9aa16de5f20e722c6725f3d76abd3906",
+      "folder": false
+    }
+  ]
+}

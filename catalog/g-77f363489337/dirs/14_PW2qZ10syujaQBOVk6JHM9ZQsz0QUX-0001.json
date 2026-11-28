@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14_PW2qZ10syujaQBOVk6JHM9ZQsz0QUX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1frWnGYCOxKbIPyeExWIXRQDitTdAZIvu",
+      "parent_id": "14_PW2qZ10syujaQBOVk6JHM9ZQsz0QUX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1935,
+      "modified": "2026-08-16T03:10:00.000Z",
+      "checksum": "29a802e7c88e1747a77f4fe73c2a114e",
+      "folder": false
+    },
+    {
+      "id": "1jovfU4DXJf3eZG7LXOTcWSOxSDNpCjKH",
+      "parent_id": "14_PW2qZ10syujaQBOVk6JHM9ZQsz0QUX",
+      "name": "TÔI LÀ ĐẠO SĨ.epub",
+      "mime": "application/epub+zip",
+      "size": 723123,
+      "modified": "2026-08-16T03:10:07.000Z",
+      "checksum": "4b470e4fbcbeda49494db2a1758cfbfe",
+      "folder": false
+    },
+    {
+      "id": "1LsIl3rzAsSMCWeFhVN-9DtM7eKIUT8Hm",
+      "parent_id": "14_PW2qZ10syujaQBOVk6JHM9ZQsz0QUX",
+      "name": "TÔI LÀ ĐẠO SĨ.pdf",
+      "mime": "application/pdf",
+      "size": 1494457,
+      "modified": "2026-08-16T03:10:05.000Z",
+      "checksum": "94186d6d4175d7f8e2ab38e695e71c5e",
+      "folder": false
+    }
+  ]
+}

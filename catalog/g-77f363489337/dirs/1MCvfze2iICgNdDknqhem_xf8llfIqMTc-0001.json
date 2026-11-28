@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MCvfze2iICgNdDknqhem_xf8llfIqMTc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qEyMv4KfeyoIC9NxiE72BPno14yNDeYz",
+      "parent_id": "1MCvfze2iICgNdDknqhem_xf8llfIqMTc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 588,
+      "modified": "2026-08-16T04:13:12.000Z",
+      "checksum": "9bd331b8f2e1be1c16f43f4dcbf0444b",
+      "folder": false
+    },
+    {
+      "id": "1NXCJAVZE65Fjx5XBuUKXLM6kShAueaf1",
+      "parent_id": "1MCvfze2iICgNdDknqhem_xf8llfIqMTc",
+      "name": "NGƯỜI TỈNH NÓI CHUYỆN MỘNG DU.epub",
+      "mime": "application/epub+zip",
+      "size": 597469,
+      "modified": "2026-08-16T04:13:19.000Z",
+      "checksum": "7337dd4f3fb534896826ec546dcf6c43",
+      "folder": false
+    },
+    {
+      "id": "16WsVb3PDJXpU6yeJx72HXs9qCOzo2JFu",
+      "parent_id": "1MCvfze2iICgNdDknqhem_xf8llfIqMTc",
+      "name": "NGƯỜI TỈNH NÓI CHUYỆN MỘNG DU.pdf",
+      "mime": "application/pdf",
+      "size": 1747507,
+      "modified": "2026-08-16T04:13:17.000Z",
+      "checksum": "a3701a3d83c0806473528c15477149b1",
+      "folder": false
+    }
+  ]
+}

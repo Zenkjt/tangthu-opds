@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ae0PCDATKPTPYFSNNmTSeEz-Md0Fkm1B",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jkoCzqOErAM0XSIBmlRw0vvTghyk9zJ2",
+      "parent_id": "1Ae0PCDATKPTPYFSNNmTSeEz-Md0Fkm1B",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6347,
+      "modified": "2026-08-15T03:42:35.000Z",
+      "checksum": "f92186282e0a823abcfd2b677bbd9963",
+      "folder": false
+    },
+    {
+      "id": "1U2u9rVPh21V-FN_mb3hakBypyOKv62Su",
+      "parent_id": "1Ae0PCDATKPTPYFSNNmTSeEz-Md0Fkm1B",
+      "name": "HIỂU VỀ SỰ CHẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 515424,
+      "modified": "2026-08-15T03:42:43.000Z",
+      "checksum": "01545b1c03e1d23812a49bc9be79217c",
+      "folder": false
+    },
+    {
+      "id": "1lHgyX5h6dHsFXRtKHlp0JSisOU9EM-De",
+      "parent_id": "1Ae0PCDATKPTPYFSNNmTSeEz-Md0Fkm1B",
+      "name": "HIỂU VỀ SỰ CHẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1481487,
+      "modified": "2026-08-15T03:42:40.000Z",
+      "checksum": "084ee4a504a5d391fc789b4012573e80",
+      "folder": false
+    }
+  ]
+}

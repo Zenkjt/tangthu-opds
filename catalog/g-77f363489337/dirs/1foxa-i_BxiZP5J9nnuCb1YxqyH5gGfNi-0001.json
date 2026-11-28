@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1foxa-i_BxiZP5J9nnuCb1YxqyH5gGfNi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_biLFHORXLiJ8I5BZnjT8TzHlP3l_hIH",
+      "parent_id": "1foxa-i_BxiZP5J9nnuCb1YxqyH5gGfNi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11396,
+      "modified": "2026-08-15T03:42:13.000Z",
+      "checksum": "89278773d66da806ecb798bf2349f9bd",
+      "folder": false
+    },
+    {
+      "id": "1F3Im4yT-3kAeB_Hpt9tvee0xBY8FeIhT",
+      "parent_id": "1foxa-i_BxiZP5J9nnuCb1YxqyH5gGfNi",
+      "name": "LỊCH SỬ TÔN GIÁO NHẬT BẢN.epub",
+      "mime": "application/epub+zip",
+      "size": 646904,
+      "modified": "2026-08-15T03:42:20.000Z",
+      "checksum": "2c2759e482d1c78202ae8f3c9abb6f6e",
+      "folder": false
+    },
+    {
+      "id": "1dUaVD3Q2hakZK7kyqboBqkxyTc894XFY",
+      "parent_id": "1foxa-i_BxiZP5J9nnuCb1YxqyH5gGfNi",
+      "name": "LỊCH SỬ TÔN GIÁO NHẬT BẢN.pdf",
+      "mime": "application/pdf",
+      "size": 1421664,
+      "modified": "2026-08-15T03:42:18.000Z",
+      "checksum": "5814b3b96a9682bcdaa47a0d05a76ff5",
+      "folder": false
+    }
+  ]
+}

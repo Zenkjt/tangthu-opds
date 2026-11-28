@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1m16GD6PZFlWsrNSkveeqG3QkcBtEFAdl",
+  "page": 1,
+  "items": [
+    {
+      "id": "10qeppkAHNUP4XN0FM8CJIlofLR6Jb1wp",
+      "parent_id": "1m16GD6PZFlWsrNSkveeqG3QkcBtEFAdl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4855,
+      "modified": "2026-08-16T03:19:50.000Z",
+      "checksum": "9941ea90a8e2ef344bee471bc2efa456",
+      "folder": false
+    },
+    {
+      "id": "1yr-MEUc2ZJZqTAES9p3k7xvUB9Wstr7o",
+      "parent_id": "1m16GD6PZFlWsrNSkveeqG3QkcBtEFAdl",
+      "name": "ĐẠI MẠC THƯƠNG LANG (TẬP 2).epub",
+      "mime": "application/epub+zip",
+      "size": 647163,
+      "modified": "2026-08-16T03:20:00.000Z",
+      "checksum": "8690022f835826e419776e895cd3fd3c",
+      "folder": false
+    },
+    {
+      "id": "1n2uHtvlWHuc5ZLCmb22Zfv9-n62p1mj2",
+      "parent_id": "1m16GD6PZFlWsrNSkveeqG3QkcBtEFAdl",
+      "name": "ĐẠI MẠC THƯƠNG LANG (TẬP 2).pdf",
+      "mime": "application/pdf",
+      "size": 1926710,
+      "modified": "2026-08-16T03:19:57.000Z",
+      "checksum": "3422724bdf6541f4cff47ed331ed2843",
+      "folder": false
+    }
+  ]
+}

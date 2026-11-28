@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IZ879dpS4TdJ5kY8D1I2cpzXKX_WW8fP",
+  "page": 1,
+  "items": [
+    {
+      "id": "19BdqayUakfL8ZMW44nDogFTbUgnkQAyF",
+      "parent_id": "1IZ879dpS4TdJ5kY8D1I2cpzXKX_WW8fP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8408,
+      "modified": "2026-08-16T03:07:15.000Z",
+      "checksum": "acb30415a2c612f637fa003b0dc77dd2",
+      "folder": false
+    },
+    {
+      "id": "1DjFaxLxcIWoc5QTtroOSqAY9Z3wgVPsb",
+      "parent_id": "1IZ879dpS4TdJ5kY8D1I2cpzXKX_WW8fP",
+      "name": "XÚC XẮC TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 547894,
+      "modified": "2026-08-16T03:07:22.000Z",
+      "checksum": "e5a34e5611c1c2aad66728a8ccf632d2",
+      "folder": false
+    },
+    {
+      "id": "18PNgyeOahhxgQIK9Ia9G_GERja1sVx1g",
+      "parent_id": "1IZ879dpS4TdJ5kY8D1I2cpzXKX_WW8fP",
+      "name": "XÚC XẮC TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1081446,
+      "modified": "2026-08-16T03:07:20.000Z",
+      "checksum": "9016bb1ad08315b204d233d52c6a72f0",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "197XF6EVokpCQNFnToNLj4b090LUjG8w5",
+  "page": 1,
+  "items": [
+    {
+      "id": "14U9UcAmX-S3KZdGK8S3L7rx8KqmCyKtT",
+      "parent_id": "197XF6EVokpCQNFnToNLj4b090LUjG8w5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3033,
+      "modified": "2026-08-15T10:10:16.000Z",
+      "checksum": "a1754d5979e71564408664fe4ddd9df7",
+      "folder": false
+    },
+    {
+      "id": "19d6lTEDlNrRuNXPeUkHD718ZB5TlhX1b",
+      "parent_id": "197XF6EVokpCQNFnToNLj4b090LUjG8w5",
+      "name": "TIỂU ĐÓA, VÌ ĐÓ LÀ EM.epub",
+      "mime": "application/epub+zip",
+      "size": 763722,
+      "modified": "2026-08-15T10:10:26.000Z",
+      "checksum": "2d0943d1aabe1c7d52cc1a72a06046cb",
+      "folder": false
+    },
+    {
+      "id": "1svqBxbhNaU3ImB3EJ6eReNxSJDNN5s08",
+      "parent_id": "197XF6EVokpCQNFnToNLj4b090LUjG8w5",
+      "name": "TIỂU ĐÓA, VÌ ĐÓ LÀ EM.pdf",
+      "mime": "application/pdf",
+      "size": 2074510,
+      "modified": "2026-08-15T10:10:24.000Z",
+      "checksum": "3be94adfb375ba61ba0801bf7fd1adc5",
+      "folder": false
+    }
+  ]
+}

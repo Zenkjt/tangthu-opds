@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ibC3Ev6ew4uNZbyvp2siqzkU7udGrY9N",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lszUOMdPeo_HnoSwPJ-jaBdnP3NWxPgF",
+      "parent_id": "1ibC3Ev6ew4uNZbyvp2siqzkU7udGrY9N",
+      "name": "BĂNG ĐIỂM.epub",
+      "mime": "application/epub+zip",
+      "size": 547533,
+      "modified": "2026-08-16T03:27:41.000Z",
+      "checksum": "164a463fc6db5a7894779da8960ee0f7",
+      "folder": false
+    },
+    {
+      "id": "1OAt1hkrRo1Gq0JtErilFm_m0MbWpBwU2",
+      "parent_id": "1ibC3Ev6ew4uNZbyvp2siqzkU7udGrY9N",
+      "name": "BĂNG ĐIỂM.pdf",
+      "mime": "application/pdf",
+      "size": 1072931,
+      "modified": "2026-08-16T03:27:38.000Z",
+      "checksum": "c2eafda808a92d9f3cfd456a89f790b3",
+      "folder": false
+    },
+    {
+      "id": "1ktks7ovtB715Kz8fUvfFsyaOZwSMSpCM",
+      "parent_id": "1ibC3Ev6ew4uNZbyvp2siqzkU7udGrY9N",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3055,
+      "modified": "2026-08-16T03:27:34.000Z",
+      "checksum": "110846520e15479e34d7e473c47ef90e",
+      "folder": false
+    }
+  ]
+}

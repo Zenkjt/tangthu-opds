@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wMply4QYQfCVgfFZMWBARvxvmliT6UeD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wMKl88gTmaN38rvAwhds4gQD7QkbE-ox",
+      "parent_id": "1wMply4QYQfCVgfFZMWBARvxvmliT6UeD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3249,
+      "modified": "2026-08-15T15:36:03.000Z",
+      "checksum": "bf8f84058a3137e9f636c619db3985d1",
+      "folder": false
+    },
+    {
+      "id": "1aLx17X5JLfcy9ue9LXKr1f-NrYkaezIn",
+      "parent_id": "1wMply4QYQfCVgfFZMWBARvxvmliT6UeD",
+      "name": "THỊNH THẾ THANH PHONG.epub",
+      "mime": "application/epub+zip",
+      "size": 1443526,
+      "modified": "2026-08-15T15:36:25.000Z",
+      "checksum": "85e30c3cff6c41198ece217ecb3d12c0",
+      "folder": false
+    },
+    {
+      "id": "1TCZHiHa7Yvhkoqrj-BSC5Z6dbvnRriYd",
+      "parent_id": "1wMply4QYQfCVgfFZMWBARvxvmliT6UeD",
+      "name": "THỊNH THẾ THANH PHONG.pdf",
+      "mime": "application/pdf",
+      "size": 5296837,
+      "modified": "2026-08-15T15:36:22.000Z",
+      "checksum": "d179c39ade0633eaba98a611b3f1cffd",
+      "folder": false
+    }
+  ]
+}

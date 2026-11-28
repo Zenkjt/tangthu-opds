@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17AA1SyArAfwe18SiFv6ncWguJqeg-Yk2",
+  "page": 1,
+  "items": [
+    {
+      "id": "19CqM00yVXMX4bhqRRrwngsTj3HtQDA29",
+      "parent_id": "17AA1SyArAfwe18SiFv6ncWguJqeg-Yk2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2020,
+      "modified": "2026-08-15T07:41:23.000Z",
+      "checksum": "05128d29af2808fd46617a9f9bf4b273",
+      "folder": false
+    },
+    {
+      "id": "1uzshN-YrMvLU6ePjy9kxMV0AvOZjNYmg",
+      "parent_id": "17AA1SyArAfwe18SiFv6ncWguJqeg-Yk2",
+      "name": "LUẬN ĐỀ VỀ CUNG OÁN NGÂM KHÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 254812,
+      "modified": "2026-08-15T07:41:29.000Z",
+      "checksum": "50c58cca4f41e7d24f3f5c8154ffdd28",
+      "folder": false
+    },
+    {
+      "id": "1D66FNcIyr2R85iOxPns6Nm_T_SLJgfnV",
+      "parent_id": "17AA1SyArAfwe18SiFv6ncWguJqeg-Yk2",
+      "name": "LUẬN ĐỀ VỀ CUNG OÁN NGÂM KHÚC.pdf",
+      "mime": "application/pdf",
+      "size": 407751,
+      "modified": "2026-08-15T07:41:26.000Z",
+      "checksum": "be9810f5a19c1c01c6c27ba7f11d9833",
+      "folder": false
+    }
+  ]
+}

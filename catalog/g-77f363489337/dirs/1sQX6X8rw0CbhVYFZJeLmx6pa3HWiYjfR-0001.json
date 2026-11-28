@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sQX6X8rw0CbhVYFZJeLmx6pa3HWiYjfR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CM8HZ5nreqHniwTX2Ei8rp9rFpTCKpvQ",
+      "parent_id": "1sQX6X8rw0CbhVYFZJeLmx6pa3HWiYjfR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2871,
+      "modified": "2026-08-16T03:36:07.000Z",
+      "checksum": "2bd23c2a2c350e5b1df4147e2e9da3f8",
+      "folder": false
+    },
+    {
+      "id": "1iO7RZKEoPt4NI9FeksoTcEa4BIMD1z2f",
+      "parent_id": "1sQX6X8rw0CbhVYFZJeLmx6pa3HWiYjfR",
+      "name": "KẺ TRỘM GIẤC MƠ.epub",
+      "mime": "application/epub+zip",
+      "size": 803555,
+      "modified": "2026-08-16T03:36:14.000Z",
+      "checksum": "1b75917027032add54821c7766c7adb8",
+      "folder": false
+    },
+    {
+      "id": "1I_wN6FkfHx27AqbdpO3AGAeGd7owDu7Q",
+      "parent_id": "1sQX6X8rw0CbhVYFZJeLmx6pa3HWiYjfR",
+      "name": "KẺ TRỘM GIẤC MƠ.pdf",
+      "mime": "application/pdf",
+      "size": 3156527,
+      "modified": "2026-08-16T03:36:12.000Z",
+      "checksum": "ab1c7ce6eb854a3db8ee750f78f5b66c",
+      "folder": false
+    }
+  ]
+}

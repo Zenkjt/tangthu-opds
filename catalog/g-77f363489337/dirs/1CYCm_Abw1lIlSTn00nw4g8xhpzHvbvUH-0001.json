@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CYCm_Abw1lIlSTn00nw4g8xhpzHvbvUH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1L5Dj9CMxR773tzN_QTm1CuSmljEX0T-d",
+      "parent_id": "1CYCm_Abw1lIlSTn00nw4g8xhpzHvbvUH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3104,
+      "modified": "2026-08-15T10:10:48.000Z",
+      "checksum": "a7ed4c2e70b9a32172130231740fc753",
+      "folder": false
+    },
+    {
+      "id": "150EKObaLNSZXAPQ2bY2UpV0M3zTMpmtQ",
+      "parent_id": "1CYCm_Abw1lIlSTn00nw4g8xhpzHvbvUH",
+      "name": "TIÊN GIỚI TẨU TƯ PHẠM.epub",
+      "mime": "application/epub+zip",
+      "size": 3774848,
+      "modified": "2026-08-15T10:11:02.000Z",
+      "checksum": "f2a6d2df64d5529872fc2625447a8c87",
+      "folder": false
+    },
+    {
+      "id": "1B3qzF7KBd1q--DJX3euKZ7I1DphhYh58",
+      "parent_id": "1CYCm_Abw1lIlSTn00nw4g8xhpzHvbvUH",
+      "name": "TIÊN GIỚI TẨU TƯ PHẠM.pdf",
+      "mime": "application/pdf",
+      "size": 3436328,
+      "modified": "2026-08-15T10:10:56.000Z",
+      "checksum": "10d1e6969f3fc7e5bd18826e212b1ca9",
+      "folder": false
+    }
+  ]
+}

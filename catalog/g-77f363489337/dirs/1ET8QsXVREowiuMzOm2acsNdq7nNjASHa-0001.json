@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ET8QsXVREowiuMzOm2acsNdq7nNjASHa",
+  "page": 1,
+  "items": [
+    {
+      "id": "180WAFk3e79Vl2zFdvvD074mezVHdFXLW",
+      "parent_id": "1ET8QsXVREowiuMzOm2acsNdq7nNjASHa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2597,
+      "modified": "2026-08-15T12:30:57.000Z",
+      "checksum": "a9757b4bf7b4880c9ed59efbd8359f53",
+      "folder": false
+    },
+    {
+      "id": "1ZirfCdoQbEiG2pNPcGAwiH8bz-Pa4JVO",
+      "parent_id": "1ET8QsXVREowiuMzOm2acsNdq7nNjASHa",
+      "name": "TRUYỆN CỔ NƯỚC NAM QUYỂN THƯỢNG.epub",
+      "mime": "application/epub+zip",
+      "size": 478587,
+      "modified": "2026-08-15T12:31:08.000Z",
+      "checksum": "63e419ab1d4da4552f0146ccd95db4c7",
+      "folder": false
+    },
+    {
+      "id": "14n72fD8k1FZZ4WFBMOD975Wml7X_6VHo",
+      "parent_id": "1ET8QsXVREowiuMzOm2acsNdq7nNjASHa",
+      "name": "TRUYỆN CỔ NƯỚC NAM QUYỂN THƯỢNG.pdf",
+      "mime": "application/pdf",
+      "size": 770351,
+      "modified": "2026-08-15T12:31:04.000Z",
+      "checksum": "4ba1a06d6360586e497513bc4f625b17",
+      "folder": false
+    }
+  ]
+}

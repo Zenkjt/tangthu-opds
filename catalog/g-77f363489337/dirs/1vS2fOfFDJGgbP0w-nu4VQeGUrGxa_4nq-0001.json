@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vS2fOfFDJGgbP0w-nu4VQeGUrGxa_4nq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Y0gSEwlv7BR17abIi8OrxFX9YBL0lijx",
+      "parent_id": "1vS2fOfFDJGgbP0w-nu4VQeGUrGxa_4nq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 541,
+      "modified": "2026-08-15T10:38:38.000Z",
+      "checksum": "bf9bd0d3ac3bc6fd7f4a6235a80e0177",
+      "folder": false
+    },
+    {
+      "id": "1qeAvu6SV6qrH_LkBzqhudoCqhKVYtE3v",
+      "parent_id": "1vS2fOfFDJGgbP0w-nu4VQeGUrGxa_4nq",
+      "name": "NHỊ ĐỘ MAI.epub",
+      "mime": "application/epub+zip",
+      "size": 307634,
+      "modified": "2026-08-15T10:38:45.000Z",
+      "checksum": "a20be3dcf13eadf375901157c5d4aac8",
+      "folder": false
+    },
+    {
+      "id": "1uCLI7YdIeRlhrtIsEbH16hiarJRCVhUI",
+      "parent_id": "1vS2fOfFDJGgbP0w-nu4VQeGUrGxa_4nq",
+      "name": "NHỊ ĐỘ MAI.pdf",
+      "mime": "application/pdf",
+      "size": 601180,
+      "modified": "2026-08-15T10:38:42.000Z",
+      "checksum": "54056497aa6bf799e6c3dac3721a2733",
+      "folder": false
+    }
+  ]
+}

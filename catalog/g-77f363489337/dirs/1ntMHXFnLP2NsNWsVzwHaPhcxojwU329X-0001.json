@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ntMHXFnLP2NsNWsVzwHaPhcxojwU329X",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Gk9ze7xd4jCkgq2HlPSxX7VkW6RaPGGS",
+      "parent_id": "1ntMHXFnLP2NsNWsVzwHaPhcxojwU329X",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 430,
+      "modified": "2026-08-15T10:56:27.000Z",
+      "checksum": "6aaeb9302ea6a2b49bec63fdf634eb07",
+      "folder": false
+    },
+    {
+      "id": "1KHE-fB5aOjCaudBKFEYI6jj4ubJbvvR5",
+      "parent_id": "1ntMHXFnLP2NsNWsVzwHaPhcxojwU329X",
+      "name": "HOA SÚNG ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 829835,
+      "modified": "2026-08-15T10:56:34.000Z",
+      "checksum": "911dfc0855f40fcbb9e85e6f879db21d",
+      "folder": false
+    },
+    {
+      "id": "1z3XRoU55wBQXmSFDUCxSa8LLjJWcBtmQ",
+      "parent_id": "1ntMHXFnLP2NsNWsVzwHaPhcxojwU329X",
+      "name": "HOA SÚNG ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 1544340,
+      "modified": "2026-08-15T10:56:32.000Z",
+      "checksum": "ec992bec1111d0e6112e6b9f9146e138",
+      "folder": false
+    }
+  ]
+}

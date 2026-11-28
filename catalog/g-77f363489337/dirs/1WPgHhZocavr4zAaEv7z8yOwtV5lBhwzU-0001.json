@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WPgHhZocavr4zAaEv7z8yOwtV5lBhwzU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1b7zb9kdpjBgv6NrJsNR-aGtH3X1bqluu",
+      "parent_id": "1WPgHhZocavr4zAaEv7z8yOwtV5lBhwzU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1954,
+      "modified": "2026-08-15T07:34:47.000Z",
+      "checksum": "40bc567ea5b1661c0e5f00e3a3fa7015",
+      "folder": false
+    },
+    {
+      "id": "1_BZ0pTfaZopx9vwnDvGJcLCsKuQa_gc7",
+      "parent_id": "1WPgHhZocavr4zAaEv7z8yOwtV5lBhwzU",
+      "name": "NHỆN TUYẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 810621,
+      "modified": "2026-08-15T07:34:52.000Z",
+      "checksum": "a2bd86c3d8e4de1ea8a89e45f87e85c1",
+      "folder": false
+    },
+    {
+      "id": "1ipC4Tn5WG6N6pex_-SReTNRsYrultZWf",
+      "parent_id": "1WPgHhZocavr4zAaEv7z8yOwtV5lBhwzU",
+      "name": "NHỆN TUYẾT.pdf",
+      "mime": "application/pdf",
+      "size": 831867,
+      "modified": "2026-08-15T07:34:50.000Z",
+      "checksum": "a3c7ba2abaa1961297970d570c80d355",
+      "folder": false
+    }
+  ]
+}

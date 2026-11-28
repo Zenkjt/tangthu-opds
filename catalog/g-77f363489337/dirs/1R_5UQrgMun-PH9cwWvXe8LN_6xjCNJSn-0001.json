@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1R_5UQrgMun-PH9cwWvXe8LN_6xjCNJSn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ifGPPrRETI9iuWsDsAEiKh5q1Pi_-q9c",
+      "parent_id": "1R_5UQrgMun-PH9cwWvXe8LN_6xjCNJSn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6051,
+      "modified": "2026-08-15T07:47:11.000Z",
+      "checksum": "0bf6c925b48ee6cdf218d1f4d23f3738",
+      "folder": false
+    },
+    {
+      "id": "1K-CCxjAfQM4RQjx2IJxWKZMMhRC1haCY",
+      "parent_id": "1R_5UQrgMun-PH9cwWvXe8LN_6xjCNJSn",
+      "name": "SAU CƠN ĐỘNG ĐẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 510952,
+      "modified": "2026-08-15T07:47:35.000Z",
+      "checksum": "9e487022ccfe5b86da43234238dc1939",
+      "folder": false
+    },
+    {
+      "id": "1m62b0iITWowrfnQZEPGmHK-Ph3V3bu8S",
+      "parent_id": "1R_5UQrgMun-PH9cwWvXe8LN_6xjCNJSn",
+      "name": "SAU CƠN ĐỘNG ĐẤT.pdf",
+      "mime": "application/pdf",
+      "size": 890715,
+      "modified": "2026-08-15T07:47:29.000Z",
+      "checksum": "6ba03bf1bc4b6c8e556fb026232d62db",
+      "folder": false
+    }
+  ]
+}

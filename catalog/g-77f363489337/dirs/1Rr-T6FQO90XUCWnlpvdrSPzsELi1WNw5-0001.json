@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Rr-T6FQO90XUCWnlpvdrSPzsELi1WNw5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1g63cqT-BZAJW-EfnKiU4i3BFznChxaSC",
+      "parent_id": "1Rr-T6FQO90XUCWnlpvdrSPzsELi1WNw5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6432,
+      "modified": "2026-08-15T15:10:47.000Z",
+      "checksum": "253d522e9abe1ca2fa71255168a36d95",
+      "folder": false
+    },
+    {
+      "id": "1ZxAHok59hP_AxjM-yJfc6iFSp_hXGaLZ",
+      "parent_id": "1Rr-T6FQO90XUCWnlpvdrSPzsELi1WNw5",
+      "name": "TRUYỆN NGẮN TRINH THÁM.epub",
+      "mime": "application/epub+zip",
+      "size": 417048,
+      "modified": "2026-08-15T15:10:54.000Z",
+      "checksum": "124030fe9d8f0b5827203d736dacdd41",
+      "folder": false
+    },
+    {
+      "id": "1QZYmKandI7-zBb3v6xqXdj402Z6gi12h",
+      "parent_id": "1Rr-T6FQO90XUCWnlpvdrSPzsELi1WNw5",
+      "name": "TRUYỆN NGẮN TRINH THÁM.pdf",
+      "mime": "application/pdf",
+      "size": 1344751,
+      "modified": "2026-08-15T15:10:51.000Z",
+      "checksum": "d9fe4661de35b5c1f713044a804361cb",
+      "folder": false
+    }
+  ]
+}

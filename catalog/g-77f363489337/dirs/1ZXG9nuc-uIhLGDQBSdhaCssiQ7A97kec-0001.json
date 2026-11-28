@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZXG9nuc-uIhLGDQBSdhaCssiQ7A97kec",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qBvPXJ3Dzkh4HjQtvSFXzCeekv4dOX_5",
+      "parent_id": "1ZXG9nuc-uIhLGDQBSdhaCssiQ7A97kec",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3137,
+      "modified": "2026-08-15T06:27:00.000Z",
+      "checksum": "78a5e846828ead52bdb4ad28f37493e9",
+      "folder": false
+    },
+    {
+      "id": "1SLUCFmEbP2oNOg17bOGaNwYAk4oEr9Qs",
+      "parent_id": "1ZXG9nuc-uIhLGDQBSdhaCssiQ7A97kec",
+      "name": "NGƯỜI NHẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 703621,
+      "modified": "2026-08-15T06:27:08.000Z",
+      "checksum": "8b4546d8f6ebb3bb18dd6d9c32d76b3c",
+      "folder": false
+    },
+    {
+      "id": "1iZLkjd5iOP0AThFeWKEmswBPM9e1uz0j",
+      "parent_id": "1ZXG9nuc-uIhLGDQBSdhaCssiQ7A97kec",
+      "name": "NGƯỜI NHẬT.pdf",
+      "mime": "application/pdf",
+      "size": 2518586,
+      "modified": "2026-08-15T06:27:05.000Z",
+      "checksum": "13a6da4abdfbeb13dd115dfe954430ac",
+      "folder": false
+    }
+  ]
+}

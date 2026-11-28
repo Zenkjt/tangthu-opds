@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gnOFazWjv5mki_LsOx-AyrGPizaiVscu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QISkkHiV4x3JSUcBehOkPcu6bDYyNeNK",
+      "parent_id": "1gnOFazWjv5mki_LsOx-AyrGPizaiVscu",
+      "name": "CÁNH CỬA THỨ 4.epub",
+      "mime": "application/epub+zip",
+      "size": 414945,
+      "modified": "2026-08-15T11:01:17.000Z",
+      "checksum": "2a38f03d274974e30297830afdbdb5a9",
+      "folder": false
+    },
+    {
+      "id": "1pzJ7mwI6bOdIB7Z8Bhx9H8M_ooknaI4a",
+      "parent_id": "1gnOFazWjv5mki_LsOx-AyrGPizaiVscu",
+      "name": "CÁNH CỬA THỨ 4.pdf",
+      "mime": "application/pdf",
+      "size": 703380,
+      "modified": "2026-08-15T11:01:13.000Z",
+      "checksum": "7c3ee168c6ffdfe14d10175417821948",
+      "folder": false
+    },
+    {
+      "id": "1henemvRvFf9p_aU_zFSIb5LaPLbjvwMX",
+      "parent_id": "1gnOFazWjv5mki_LsOx-AyrGPizaiVscu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 579,
+      "modified": "2026-08-15T11:01:09.000Z",
+      "checksum": "667892a1bfc19568fd8f3313705310af",
+      "folder": false
+    }
+  ]
+}

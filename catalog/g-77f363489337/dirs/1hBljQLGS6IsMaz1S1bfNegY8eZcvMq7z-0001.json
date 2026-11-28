@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hBljQLGS6IsMaz1S1bfNegY8eZcvMq7z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zzHX5_CDMrqgn_vyBSoRllJJ1NCyW61Y",
+      "parent_id": "1hBljQLGS6IsMaz1S1bfNegY8eZcvMq7z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 826,
+      "modified": "2026-08-15T15:39:55.000Z",
+      "checksum": "dad952546042ffe8d778651c13889986",
+      "folder": false
+    },
+    {
+      "id": "1Fix2WzNhHSEqaIjBmJchGV2FpQ6bd9V_",
+      "parent_id": "1hBljQLGS6IsMaz1S1bfNegY8eZcvMq7z",
+      "name": "NGÔI NHÀ QUÁI DỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 386612,
+      "modified": "2026-08-15T15:40:02.000Z",
+      "checksum": "047f1115e84ffbb535c18f77049a22a5",
+      "folder": false
+    },
+    {
+      "id": "1pDeuB7Y3Df97VBgutuonaYRP8-El-UhW",
+      "parent_id": "1hBljQLGS6IsMaz1S1bfNegY8eZcvMq7z",
+      "name": "NGÔI NHÀ QUÁI DỊ.pdf",
+      "mime": "application/pdf",
+      "size": 749771,
+      "modified": "2026-08-15T15:40:00.000Z",
+      "checksum": "0e49efec2fbd7a7f7a0d06e6dd7c0a9b",
+      "folder": false
+    }
+  ]
+}

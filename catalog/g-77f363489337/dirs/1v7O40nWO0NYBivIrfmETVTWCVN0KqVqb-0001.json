@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1v7O40nWO0NYBivIrfmETVTWCVN0KqVqb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YijlzpoeOsBHwFx8IyGfbfhYZM4BYpIS",
+      "parent_id": "1v7O40nWO0NYBivIrfmETVTWCVN0KqVqb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8049,
+      "modified": "2026-08-15T03:28:45.000Z",
+      "checksum": "3ee4b7c23c39c56e68b6af026397ac99",
+      "folder": false
+    },
+    {
+      "id": "1mY-msFTbOpJoPiZmMM8-0c2W8_LvK6bU",
+      "parent_id": "1v7O40nWO0NYBivIrfmETVTWCVN0KqVqb",
+      "name": "TA LÀ CÁI ĐÓ.epub",
+      "mime": "application/epub+zip",
+      "size": 768460,
+      "modified": "2026-08-15T03:28:56.000Z",
+      "checksum": "1f1f39d7aa5560e89d01740fb09adfa2",
+      "folder": false
+    },
+    {
+      "id": "1yN4s1U6JOdl5Z5sLzN1duZK3vs1JXMMR",
+      "parent_id": "1v7O40nWO0NYBivIrfmETVTWCVN0KqVqb",
+      "name": "TA LÀ CÁI ĐÓ.pdf",
+      "mime": "application/pdf",
+      "size": 2580769,
+      "modified": "2026-08-15T03:28:53.000Z",
+      "checksum": "656e9ebed9b232c1abf703c3f495561d",
+      "folder": false
+    }
+  ]
+}

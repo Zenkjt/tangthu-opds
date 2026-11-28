@@ -1,0 +1,394 @@
+{
+  "version": 2,
+  "branch_id": "g-f03ca237d866",
+  "root_folder_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+  "root_shards": [
+    "catalog/g-f03ca237d866/1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj-0001.json"
+  ],
+  "directories": [
+    {
+      "id": "13RNAnUlW-MmQ60KCAIsxX9UxGsJKgOBG",
+      "name": "Bitter",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/13RNAnUlW-MmQ60KCAIsxX9UxGsJKgOBG-0001.json"
+      ]
+    },
+    {
+      "id": "14AG36YJu7OdiJptsGhVPQk0UU50fwp4G",
+      "name": "KiComicTaxy",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/14AG36YJu7OdiJptsGhVPQk0UU50fwp4G-0001.json"
+      ]
+    },
+    {
+      "id": "14RJLVSGnLaySV2CRNOiMfFNtpMkxXQOx",
+      "name": "F25Executive",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/14RJLVSGnLaySV2CRNOiMfFNtpMkxXQOx-0001.json"
+      ]
+    },
+    {
+      "id": "15mCrTfoh0FT8ms7bqBU0wD890zxk6-jY",
+      "name": "BOKERLAM REAL",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/15mCrTfoh0FT8ms7bqBU0wD890zxk6-jY-0001.json"
+      ]
+    },
+    {
+      "id": "15sYAOu45Iye57KJHJYb3J-TcYxOJUSOq",
+      "name": "Bookerly_XL",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/15sYAOu45Iye57KJHJYb3J-TcYxOJUSOq-0001.json"
+      ]
+    },
+    {
+      "id": "17g8FuwQOmmfFL4UXoUWPwgVAADbj-yzF",
+      "name": "LiterataBook_plus",
+      "parent_id": "1sSkliX9X3AK4lltYLyEeD2RWAP0gvhvA",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/17g8FuwQOmmfFL4UXoUWPwgVAADbj-yzF-0001.json"
+      ]
+    },
+    {
+      "id": "185eTtbFJHR1xGIcGn7B7gn96MW6FTc36",
+      "name": "FzBohemianTypewriter",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/185eTtbFJHR1xGIcGn7B7gn96MW6FTc36-0001.json"
+      ]
+    },
+    {
+      "id": "18j34dkNK2dOPjAB7nrE2a8EuMNnOSiL6",
+      "name": "Geist",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/18j34dkNK2dOPjAB7nrE2a8EuMNnOSiL6-0001.json"
+      ]
+    },
+    {
+      "id": "18scrLaqP_JqZKOC2Nsma8fo903xVVe2b",
+      "name": "Bokerlam",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/18scrLaqP_JqZKOC2Nsma8fo903xVVe2b-0001.json"
+      ]
+    },
+    {
+      "id": "19QCMTreNEniBbpll5FOumbO069ZkCQ6i",
+      "name": "Bellota",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/19QCMTreNEniBbpll5FOumbO069ZkCQ6i-0001.json"
+      ]
+    },
+    {
+      "id": "1B99bAnQaxOSwWQrdSvDn9giApVH0tXpq",
+      "name": "Roboto_Condensed_plus",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1B99bAnQaxOSwWQrdSvDn9giApVH0tXpq-0001.json"
+      ]
+    },
+    {
+      "id": "1CNWSQgafDJCcbUAL5YxCNf_8YqCzoUI0",
+      "name": "CaecilliaBold",
+      "parent_id": "1sSkliX9X3AK4lltYLyEeD2RWAP0gvhvA",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1CNWSQgafDJCcbUAL5YxCNf_8YqCzoUI0-0001.json"
+      ]
+    },
+    {
+      "id": "1DLHPnXvthYxAkVtfxmuzqKDdjXKggqbO",
+      "name": "Futura",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1DLHPnXvthYxAkVtfxmuzqKDdjXKggqbO-0001.json"
+      ]
+    },
+    {
+      "id": "1EWB9l7Is1Hv2tJV99JZE5ma2bzi8Ec5Q",
+      "name": "Bookerly",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1EWB9l7Is1Hv2tJV99JZE5ma2bzi8Ec5Q-0001.json"
+      ]
+    },
+    {
+      "id": "1FRocVy2vo-UZpZadKMnDN_Sat_qNky2-",
+      "name": "Ganh-CJK",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1FRocVy2vo-UZpZadKMnDN_Sat_qNky2--0001.json"
+      ]
+    },
+    {
+      "id": "1IUDpZ1DB2BB-ki5aOgBbDX9r9RMBHBLu",
+      "name": "BOKERLAM_XL",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1IUDpZ1DB2BB-ki5aOgBbDX9r9RMBHBLu-0001.json"
+      ]
+    },
+    {
+      "id": "1KlwvwvEcuryxsxc05m-0m39Mm5aDDmAM",
+      "name": "Helvetica World_plus",
+      "parent_id": "1sSkliX9X3AK4lltYLyEeD2RWAP0gvhvA",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1KlwvwvEcuryxsxc05m-0m39Mm5aDDmAM-0001.json"
+      ]
+    },
+    {
+      "id": "1Kp087ipbvvpmabf49YnR6Lsw15oVvm2M",
+      "name": "determination",
+      "parent_id": "1sSkliX9X3AK4lltYLyEeD2RWAP0gvhvA",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1Kp087ipbvvpmabf49YnR6Lsw15oVvm2M-0001.json"
+      ]
+    },
+    {
+      "id": "1LWMUjlIXztFcoIrQt03EJdLdNtZFMF3-",
+      "name": "Amasis_XL",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1LWMUjlIXztFcoIrQt03EJdLdNtZFMF3--0001.json"
+      ]
+    },
+    {
+      "id": "1MkV8VvsRH7RshcoCjJrjkWxRXyJvhHDr",
+      "name": "Roboto_Condensed_plus",
+      "parent_id": "1sSkliX9X3AK4lltYLyEeD2RWAP0gvhvA",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1MkV8VvsRH7RshcoCjJrjkWxRXyJvhHDr-0001.json"
+      ]
+    },
+    {
+      "id": "1OZjV1C9xnP0GzNLR5pbn3ij6eU5CcRYD",
+      "name": "Libron",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1OZjV1C9xnP0GzNLR5pbn3ij6eU5CcRYD-0001.json"
+      ]
+    },
+    {
+      "id": "1PQSX0y7OwycDoI67PoWfQP8pu9xcciwu",
+      "name": "Readerly",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1PQSX0y7OwycDoI67PoWfQP8pu9xcciwu-0001.json"
+      ]
+    },
+    {
+      "id": "1QMCARAZu0NmRvvPK7WGusVRUxGNLiDD_",
+      "name": "Bitter_XL",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1QMCARAZu0NmRvvPK7WGusVRUxGNLiDD_-0001.json"
+      ]
+    },
+    {
+      "id": "1QMowJfJyXOeN2m1mTAlb1tjOC0lzV98B",
+      "name": "Livvic",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1QMowJfJyXOeN2m1mTAlb1tjOC0lzV98B-0001.json"
+      ]
+    },
+    {
+      "id": "1S9SObi9dm9WepA6TyShLStyTEMu7dRvr",
+      "name": "Muli_plus",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1S9SObi9dm9WepA6TyShLStyTEMu7dRvr-0001.json"
+      ]
+    },
+    {
+      "id": "1U4haUpupmlTlDaTi6M3kPAoLaiyJ7vlv",
+      "name": "Ganh",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1U4haUpupmlTlDaTi6M3kPAoLaiyJ7vlv-0001.json"
+      ]
+    },
+    {
+      "id": "1W3SDgkhnhc4d5PSS5YtwtFw9IYNM5DwL",
+      "name": "Literata",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1W3SDgkhnhc4d5PSS5YtwtFw9IYNM5DwL-0001.json"
+      ]
+    },
+    {
+      "id": "1YTfVi_QXEEWiktIuhrHbxYuUQelIGb4O",
+      "name": "Amasis",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1YTfVi_QXEEWiktIuhrHbxYuUQelIGb4O-0001.json"
+      ]
+    },
+    {
+      "id": "1ZfS2_7WDu7_Prz-osuW02zUotE-Un92G",
+      "name": "Bokerlam San_plus",
+      "parent_id": "1sSkliX9X3AK4lltYLyEeD2RWAP0gvhvA",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1ZfS2_7WDu7_Prz-osuW02zUotE-Un92G-0001.json"
+      ]
+    },
+    {
+      "id": "1a_lExKDVdgju_JPgbsqokiFrrnhum7yd",
+      "name": "GANH_XL",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1a_lExKDVdgju_JPgbsqokiFrrnhum7yd-0001.json"
+      ]
+    },
+    {
+      "id": "1ag1-7xVxRPbVvtxNOhb1zQk8NdZZ2-c9",
+      "name": "SkolarPE",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1ag1-7xVxRPbVvtxNOhb1zQk8NdZZ2-c9-0001.json"
+      ]
+    },
+    {
+      "id": "1c7xBTh_czxUfgr3g91taEKMr6k1QZFgt",
+      "name": "Lexend_plus",
+      "parent_id": "1sSkliX9X3AK4lltYLyEeD2RWAP0gvhvA",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1c7xBTh_czxUfgr3g91taEKMr6k1QZFgt-0001.json"
+      ]
+    },
+    {
+      "id": "1dt6L6AS83xJeBRIR9lq8_yO3AF1AQMJM",
+      "name": "Mali_plus",
+      "parent_id": "1sSkliX9X3AK4lltYLyEeD2RWAP0gvhvA",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1dt6L6AS83xJeBRIR9lq8_yO3AF1AQMJM-0001.json"
+      ]
+    },
+    {
+      "id": "1fUjaBBJ69eOA8-1_HoS1G0d523v5U2b_",
+      "name": "Caecilia",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1fUjaBBJ69eOA8-1_HoS1G0d523v5U2b_-0001.json"
+      ]
+    },
+    {
+      "id": "1gmN8cuUeTaRj_WYATUAbbJUZ-OZRbf3b",
+      "name": "Playwrite_VN",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1gmN8cuUeTaRj_WYATUAbbJUZ-OZRbf3b-0001.json"
+      ]
+    },
+    {
+      "id": "1j7AbkgO2UjAsWyh9fQqryFQPtVX50OFK",
+      "name": "LibreBaskerville",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1j7AbkgO2UjAsWyh9fQqryFQPtVX50OFK-0001.json"
+      ]
+    },
+    {
+      "id": "1j9HiNqYH25qCLacf64VuIQDmr4PTFhYE",
+      "name": "Bookerly_plus",
+      "parent_id": "1sSkliX9X3AK4lltYLyEeD2RWAP0gvhvA",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1j9HiNqYH25qCLacf64VuIQDmr4PTFhYE-0001.json"
+      ]
+    },
+    {
+      "id": "1kCmI6PGhOpqSs46b3ioNAjX82-uxQVtv",
+      "name": "Amasis kobo_plus",
+      "parent_id": "1sSkliX9X3AK4lltYLyEeD2RWAP0gvhvA",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1kCmI6PGhOpqSs46b3ioNAjX82-uxQVtv-0001.json"
+      ]
+    },
+    {
+      "id": "1lYFYeKhtUt0rmyrk02Br-TK1ceBLwka4",
+      "name": "BokerLam_Chinese",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1lYFYeKhtUt0rmyrk02Br-TK1ceBLwka4-0001.json"
+      ]
+    },
+    {
+      "id": "1lv01avoE_lkMxNAyXQ1fKOvZmKHqqKJU",
+      "name": "Determination",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1lv01avoE_lkMxNAyXQ1fKOvZmKHqqKJU-0001.json"
+      ]
+    },
+    {
+      "id": "1nCNjyHH_0JkItbwYRsk8UfxM4_THc2YQ",
+      "name": "BokerlamSan",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1nCNjyHH_0JkItbwYRsk8UfxM4_THc2YQ-0001.json"
+      ]
+    },
+    {
+      "id": "1phA_Nzb8YAFyLMBVCsdP-xaOxeLRrkjt",
+      "name": "iCielGrandma",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1phA_Nzb8YAFyLMBVCsdP-xaOxeLRrkjt-0001.json"
+      ]
+    },
+    {
+      "id": "1rPxrMycQDLp6Up4xLNnYU99zIOHJLPK-",
+      "name": "ChareInk",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1rPxrMycQDLp6Up4xLNnYU99zIOHJLPK--0001.json"
+      ]
+    },
+    {
+      "id": "1sFu5B8CuSVDICthFWi43aNvp6mpI-nfH",
+      "name": "Muli_plus",
+      "parent_id": "1sSkliX9X3AK4lltYLyEeD2RWAP0gvhvA",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1sFu5B8CuSVDICthFWi43aNvp6mpI-nfH-0001.json"
+      ]
+    },
+    {
+      "id": "1sSkliX9X3AK4lltYLyEeD2RWAP0gvhvA",
+      "name": ".cpfont tăng độ đậm",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1sSkliX9X3AK4lltYLyEeD2RWAP0gvhvA-0001.json"
+      ]
+    },
+    {
+      "id": "1tE54Yx2gRdCBnASM_yospYvCyJi_4P-C",
+      "name": "Lexend",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1tE54Yx2gRdCBnASM_yospYvCyJi_4P-C-0001.json"
+      ]
+    },
+    {
+      "id": "1wCIdh1_JITuN3viKj24Enr9Fpua286pN",
+      "name": "bokerlam-CJK",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1wCIdh1_JITuN3viKj24Enr9Fpua286pN-0001.json"
+      ]
+    },
+    {
+      "id": "1ymwTSJ_jpDEPPiTBRZDbUjJzCKRB1fZA",
+      "name": "BeVNPro",
+      "parent_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "shards": [
+        "catalog/g-f03ca237d866/dirs/1ymwTSJ_jpDEPPiTBRZDbUjJzCKRB1fZA-0001.json"
+      ]
+    }
+  ]
+}

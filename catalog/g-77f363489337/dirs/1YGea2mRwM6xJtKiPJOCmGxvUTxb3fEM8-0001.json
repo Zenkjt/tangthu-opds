@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YGea2mRwM6xJtKiPJOCmGxvUTxb3fEM8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1E-GRug-0Eo8pUPjG04-f0tUtOnG9B9R3",
+      "parent_id": "1YGea2mRwM6xJtKiPJOCmGxvUTxb3fEM8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 364,
+      "modified": "2026-08-15T03:21:18.000Z",
+      "checksum": "c5bddc2df23f37ca97d49adecd3c9ec9",
+      "folder": false
+    },
+    {
+      "id": "1Nmkp7-tf8h66vNmfYe9K9kxmaX_epoXj",
+      "parent_id": "1YGea2mRwM6xJtKiPJOCmGxvUTxb3fEM8",
+      "name": "VƯƠN ĐẾN SỰ HOÀN THIỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 333896,
+      "modified": "2026-08-15T03:21:24.000Z",
+      "checksum": "1f3da98a1b497cc719f402d4ef6b48d7",
+      "folder": false
+    },
+    {
+      "id": "1XTDKM_ZRQYyhmcI2wzPMToUv2qv1e-lL",
+      "parent_id": "1YGea2mRwM6xJtKiPJOCmGxvUTxb3fEM8",
+      "name": "VƯƠN ĐẾN SỰ HOÀN THIỆN.pdf",
+      "mime": "application/pdf",
+      "size": 594813,
+      "modified": "2026-08-15T03:21:21.000Z",
+      "checksum": "5ea2576c0719e6d3e2f26d971a44b59c",
+      "folder": false
+    }
+  ]
+}

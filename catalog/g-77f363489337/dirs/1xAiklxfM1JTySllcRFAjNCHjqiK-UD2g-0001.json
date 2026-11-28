@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xAiklxfM1JTySllcRFAjNCHjqiK-UD2g",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jmITqEfRXah-yR_xXfZDzp7jjaY3jaKI",
+      "parent_id": "1xAiklxfM1JTySllcRFAjNCHjqiK-UD2g",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 610,
+      "modified": "2026-08-15T10:07:14.000Z",
+      "checksum": "0a7d977e620d76100194f85be3672ad6",
+      "folder": false
+    },
+    {
+      "id": "1RiIHhJuHL0jDwtmJLRHxQNnP7Yo1gcyq",
+      "parent_id": "1xAiklxfM1JTySllcRFAjNCHjqiK-UD2g",
+      "name": "TRANG TRẠI HOA HỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 308313,
+      "modified": "2026-08-15T10:07:24.000Z",
+      "checksum": "99d08052bd76c34ebcf33506a9440b2d",
+      "folder": false
+    },
+    {
+      "id": "1s995IUW1cg7Ea7LZ7JvUpnPvnSBqtuy5",
+      "parent_id": "1xAiklxfM1JTySllcRFAjNCHjqiK-UD2g",
+      "name": "TRANG TRẠI HOA HỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 507074,
+      "modified": "2026-08-15T10:07:19.000Z",
+      "checksum": "4dac9079f4871c614d285c7c762728bc",
+      "folder": false
+    }
+  ]
+}

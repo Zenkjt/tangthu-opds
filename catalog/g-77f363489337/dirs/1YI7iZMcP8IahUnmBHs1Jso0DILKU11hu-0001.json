@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YI7iZMcP8IahUnmBHs1Jso0DILKU11hu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MshUfnvzc-Odlfu0sHr8LWcBeFamnbdF",
+      "parent_id": "1YI7iZMcP8IahUnmBHs1Jso0DILKU11hu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 833,
+      "modified": "2026-08-16T04:18:26.000Z",
+      "checksum": "0a9a9e69cb78f9d16f095f19bd997ac3",
+      "folder": false
+    },
+    {
+      "id": "1jJwD8femp7e-uqpTN7XxhfUnwXnf0zeX",
+      "parent_id": "1YI7iZMcP8IahUnmBHs1Jso0DILKU11hu",
+      "name": "LỠ YÊU NGƯỜI HOÀN HẢO.epub",
+      "mime": "application/epub+zip",
+      "size": 733353,
+      "modified": "2026-08-16T04:18:36.000Z",
+      "checksum": "06236b5396946870be43ea7cd9471c9f",
+      "folder": false
+    },
+    {
+      "id": "1Ke847-FH0Sn0pOF9HibA5Yrq6mHZH--4",
+      "parent_id": "1YI7iZMcP8IahUnmBHs1Jso0DILKU11hu",
+      "name": "LỠ YÊU NGƯỜI HOÀN HẢO.pdf",
+      "mime": "application/pdf",
+      "size": 2119557,
+      "modified": "2026-08-16T04:18:33.000Z",
+      "checksum": "0d5179346bec6f508b1465c5c594fbb6",
+      "folder": false
+    }
+  ]
+}

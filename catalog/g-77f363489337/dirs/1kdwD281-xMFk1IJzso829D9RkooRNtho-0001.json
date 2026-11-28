@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kdwD281-xMFk1IJzso829D9RkooRNtho",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cj84eruFOg1OcgsFbo0Ch0JrOLlfWnu5",
+      "parent_id": "1kdwD281-xMFk1IJzso829D9RkooRNtho",
+      "name": "CHO ĐI LÀ CÒN MÃI.epub",
+      "mime": "application/epub+zip",
+      "size": 384789,
+      "modified": "2026-08-15T00:52:51.000Z",
+      "checksum": "551b937375ecad15435aefcee8d8fc32",
+      "folder": false
+    },
+    {
+      "id": "14eo-Me733Rhb4CGjbAIgn33fgTxYMCfb",
+      "parent_id": "1kdwD281-xMFk1IJzso829D9RkooRNtho",
+      "name": "CHO ĐI LÀ CÒN MÃI.pdf",
+      "mime": "application/pdf",
+      "size": 923356,
+      "modified": "2026-08-15T00:52:49.000Z",
+      "checksum": "8eed62fad2885bf40d9b9e6f9f9d9304",
+      "folder": false
+    },
+    {
+      "id": "1E79FSeBZYsEQQDzjbhh2bGIieSNrNbPZ",
+      "parent_id": "1kdwD281-xMFk1IJzso829D9RkooRNtho",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8842,
+      "modified": "2026-08-15T00:52:45.000Z",
+      "checksum": "48327afdc23125ff815c0e9a2cb876e2",
+      "folder": false
+    }
+  ]
+}

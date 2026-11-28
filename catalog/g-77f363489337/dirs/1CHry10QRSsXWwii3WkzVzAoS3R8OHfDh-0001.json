@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CHry10QRSsXWwii3WkzVzAoS3R8OHfDh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1slnVdJdA4NDW3C6cBDeCFfR8Ami8FeXQ",
+      "parent_id": "1CHry10QRSsXWwii3WkzVzAoS3R8OHfDh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3395,
+      "modified": "2026-08-15T15:57:03.000Z",
+      "checksum": "6310e51699603528389ef25fcf896b5e",
+      "folder": false
+    },
+    {
+      "id": "17ph5HYZ2U8G0vrsd00UhUSjD3qn0in53",
+      "parent_id": "1CHry10QRSsXWwii3WkzVzAoS3R8OHfDh",
+      "name": "NGƯỜI TÌNH HOẠT NGÔN - SMOOTH-TALKING STRANGER.epub",
+      "mime": "application/epub+zip",
+      "size": 568221,
+      "modified": "2026-08-15T15:57:23.000Z",
+      "checksum": "23ef037ec29e117e46e8992be92f702b",
+      "folder": false
+    },
+    {
+      "id": "1gSsRxbcACIKU21tQFSwPVU_OgW2PDsUv",
+      "parent_id": "1CHry10QRSsXWwii3WkzVzAoS3R8OHfDh",
+      "name": "NGƯỜI TÌNH HOẠT NGÔN - SMOOTH-TALKING STRANGER.pdf",
+      "mime": "application/pdf",
+      "size": 1563195,
+      "modified": "2026-08-15T15:57:15.000Z",
+      "checksum": "cbebf08f031f0dbb94c8a9279ed1ff78",
+      "folder": false
+    }
+  ]
+}

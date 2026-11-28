@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JE0C4Nk7Dare3f9SiW4TWihBFXn3bAOn",
+  "page": 1,
+  "items": [
+    {
+      "id": "19jPhcMKIixN-WYukvaeuFpKPrZeVIV3x",
+      "parent_id": "1JE0C4Nk7Dare3f9SiW4TWihBFXn3bAOn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 440,
+      "modified": "2026-08-15T06:51:28.000Z",
+      "checksum": "44871cd06e56e3667569bcdbbe22e7db",
+      "folder": false
+    },
+    {
+      "id": "1XFx6bhzJNVDPhDHskxTh0SFkvfF8XCaB",
+      "parent_id": "1JE0C4Nk7Dare3f9SiW4TWihBFXn3bAOn",
+      "name": "ƯỚC MƠ XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 220443,
+      "modified": "2026-08-15T06:51:38.000Z",
+      "checksum": "ea00dd97fdf5808581d2900d70448449",
+      "folder": false
+    },
+    {
+      "id": "1Wy85sOUjNz4CKyBm-Ea4V_BbmQtqY6b-",
+      "parent_id": "1JE0C4Nk7Dare3f9SiW4TWihBFXn3bAOn",
+      "name": "ƯỚC MƠ XANH.pdf",
+      "mime": "application/pdf",
+      "size": 569022,
+      "modified": "2026-08-15T06:51:34.000Z",
+      "checksum": "069614f2244406f5bf7a79ff1ea3429d",
+      "folder": false
+    }
+  ]
+}

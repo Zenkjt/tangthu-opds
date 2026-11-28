@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zU2WZLW8d3-YucgR_qy_-Y0ZSVZ4mnGd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UIMbPT3F3xPwfCHu27jbYJ1m8MO4gRUM",
+      "parent_id": "1zU2WZLW8d3-YucgR_qy_-Y0ZSVZ4mnGd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2661,
+      "modified": "2026-08-15T09:36:57.000Z",
+      "checksum": "7cb84889a12d02fd861a3fe22812ff3b",
+      "folder": false
+    },
+    {
+      "id": "1w1FV525Nj0ONS88_BfA1KITx_e_TK7v5",
+      "parent_id": "1zU2WZLW8d3-YucgR_qy_-Y0ZSVZ4mnGd",
+      "name": "LẦN ĐẦU BÊN NHAU.epub",
+      "mime": "application/epub+zip",
+      "size": 642649,
+      "modified": "2026-08-15T09:37:06.000Z",
+      "checksum": "7d6784c2722a9805c0f206836e4e0513",
+      "folder": false
+    },
+    {
+      "id": "1n6RVVDgfwCfa6GmHw3hdUqLzyzQo2QJP",
+      "parent_id": "1zU2WZLW8d3-YucgR_qy_-Y0ZSVZ4mnGd",
+      "name": "LẦN ĐẦU BÊN NHAU.pdf",
+      "mime": "application/pdf",
+      "size": 657841,
+      "modified": "2026-08-15T09:37:03.000Z",
+      "checksum": "f8da79d02e7a46db069dfdaf33fd16e3",
+      "folder": false
+    }
+  ]
+}

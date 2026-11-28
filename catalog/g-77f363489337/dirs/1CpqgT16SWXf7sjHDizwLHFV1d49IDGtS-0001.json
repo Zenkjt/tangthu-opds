@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CpqgT16SWXf7sjHDizwLHFV1d49IDGtS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rVnK2TiAirpPGb02TArpWG8WmDofG_P8",
+      "parent_id": "1CpqgT16SWXf7sjHDizwLHFV1d49IDGtS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4283,
+      "modified": "2026-08-15T04:02:30.000Z",
+      "checksum": "58f431a69665278cfe45d96a86124680",
+      "folder": false
+    },
+    {
+      "id": "1ilVR8NCEousUoUJ0Bm9cH_xtVDK_Vkn-",
+      "parent_id": "1CpqgT16SWXf7sjHDizwLHFV1d49IDGtS",
+      "name": "VỀ THỂ TÍNH CỦA CHÂN LÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 403006,
+      "modified": "2026-08-15T04:02:36.000Z",
+      "checksum": "a382c6be070c5a0942da1ad63e8d44f4",
+      "folder": false
+    },
+    {
+      "id": "1q17ccK1mBys-Z66qFvd3HQJat0sXcqet",
+      "parent_id": "1CpqgT16SWXf7sjHDizwLHFV1d49IDGtS",
+      "name": "VỀ THỂ TÍNH CỦA CHÂN LÝ.pdf",
+      "mime": "application/pdf",
+      "size": 775753,
+      "modified": "2026-08-15T04:02:34.000Z",
+      "checksum": "d907ca749ea04edc9cb99118d1fefa3f",
+      "folder": false
+    }
+  ]
+}

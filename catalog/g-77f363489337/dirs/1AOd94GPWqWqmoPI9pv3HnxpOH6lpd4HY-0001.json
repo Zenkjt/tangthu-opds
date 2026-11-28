@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AOd94GPWqWqmoPI9pv3HnxpOH6lpd4HY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qmYg28kZtwZHALRb2SjB2KFSVplOZu_m",
+      "parent_id": "1AOd94GPWqWqmoPI9pv3HnxpOH6lpd4HY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1169,
+      "modified": "2026-08-15T03:51:46.000Z",
+      "checksum": "a969aff406a6f1a61188429d0c783cc2",
+      "folder": false
+    },
+    {
+      "id": "1YI0uW6ywW1r-A19qyy3vDUHr-h7XrcXy",
+      "parent_id": "1AOd94GPWqWqmoPI9pv3HnxpOH6lpd4HY",
+      "name": "KẺ PHẢN KI-TÔ.epub",
+      "mime": "application/epub+zip",
+      "size": 354308,
+      "modified": "2026-08-15T03:51:53.000Z",
+      "checksum": "8944550650668131f76a6b9a28e0335b",
+      "folder": false
+    },
+    {
+      "id": "1pm-zSFSWGpRzwwbmjR8q8I9uyj8n4guz",
+      "parent_id": "1AOd94GPWqWqmoPI9pv3HnxpOH6lpd4HY",
+      "name": "KẺ PHẢN KI-TÔ.pdf",
+      "mime": "application/pdf",
+      "size": 666290,
+      "modified": "2026-08-15T03:51:50.000Z",
+      "checksum": "99ed02838a820689f23275397d808921",
+      "folder": false
+    }
+  ]
+}

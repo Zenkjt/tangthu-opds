@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16kAE3BuxKs3vVyg9zpOOyp09MQ7sQiZV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JyNBJXWwKUOCsoRmW8P30CpuWKMAbBJT",
+      "parent_id": "16kAE3BuxKs3vVyg9zpOOyp09MQ7sQiZV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4039,
+      "modified": "2026-08-15T03:18:48.000Z",
+      "checksum": "a2f7977b897bfd9b7a088a3a98d2ed64",
+      "folder": false
+    },
+    {
+      "id": "135Ekd1X7qVLEqHRL6giZA1ooyLihhywJ",
+      "parent_id": "16kAE3BuxKs3vVyg9zpOOyp09MQ7sQiZV",
+      "name": "TUỔI GIÀ - TẬP 1.epub",
+      "mime": "application/epub+zip",
+      "size": 501595,
+      "modified": "2026-08-15T03:18:55.000Z",
+      "checksum": "a1bc923f4645470bad0453a3d34fd1ae",
+      "folder": false
+    },
+    {
+      "id": "1LwQc4H-8bu_Sd2ad3K9J99qgGrnLn8tA",
+      "parent_id": "16kAE3BuxKs3vVyg9zpOOyp09MQ7sQiZV",
+      "name": "TUỔI GIÀ - TẬP 1.pdf",
+      "mime": "application/pdf",
+      "size": 1364452,
+      "modified": "2026-08-15T03:18:53.000Z",
+      "checksum": "8334b7e6b7854246406752579dad56c6",
+      "folder": false
+    }
+  ]
+}

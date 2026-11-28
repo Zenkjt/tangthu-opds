@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1s0OQhbdyVHwbPzofDhi8IA9363Wkze7A",
+  "page": 1,
+  "items": [
+    {
+      "id": "1G46tjXeKSIAxR8kGeAHTZThkbDzZYAjU",
+      "parent_id": "1s0OQhbdyVHwbPzofDhi8IA9363Wkze7A",
+      "name": "CHỮ VẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 672546,
+      "modified": "2026-08-15T11:00:38.000Z",
+      "checksum": "c1f71b2d35aba7ae5dfda32ca501adbe",
+      "folder": false
+    },
+    {
+      "id": "13RKwBSDIC2whNdZ5hpDGHPxzG5lm-Vo0",
+      "parent_id": "1s0OQhbdyVHwbPzofDhi8IA9363Wkze7A",
+      "name": "CHỮ VẠN.pdf",
+      "mime": "application/pdf",
+      "size": 782681,
+      "modified": "2026-08-15T11:00:35.000Z",
+      "checksum": "ab1d29863316bf82cf74290f69e5c1f6",
+      "folder": false
+    },
+    {
+      "id": "1LZ_AgBR7bopxdnVejSV3gIkejKQMf6uA",
+      "parent_id": "1s0OQhbdyVHwbPzofDhi8IA9363Wkze7A",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 415,
+      "modified": "2026-08-15T11:00:31.000Z",
+      "checksum": "013e9adfb866cc43eee01a4414075fe0",
+      "folder": false
+    }
+  ]
+}

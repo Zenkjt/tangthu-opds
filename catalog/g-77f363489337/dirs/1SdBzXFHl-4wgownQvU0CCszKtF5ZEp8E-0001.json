@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SdBzXFHl-4wgownQvU0CCszKtF5ZEp8E",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-ZMVym8qXe8V3cmIMu461pVa__PFIktI",
+      "parent_id": "1SdBzXFHl-4wgownQvU0CCszKtF5ZEp8E",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 738,
+      "modified": "2026-08-16T04:01:51.000Z",
+      "checksum": "13c46884f9abfab3b8ff5968874735b9",
+      "folder": false
+    },
+    {
+      "id": "1bOpMeoi3M_OiU_UBW3wPYYSGj0z2h7GZ",
+      "parent_id": "1SdBzXFHl-4wgownQvU0CCszKtF5ZEp8E",
+      "name": "TÁM VỤ PHÁ ÁN CỦA ARSENE LUPIN.epub",
+      "mime": "application/epub+zip",
+      "size": 395979,
+      "modified": "2026-08-16T04:01:58.000Z",
+      "checksum": "51d867facac85209e7a768146e9b27b2",
+      "folder": false
+    },
+    {
+      "id": "1uOHrQv5KKnUIYxffJh5GQ8MjGeltXOU5",
+      "parent_id": "1SdBzXFHl-4wgownQvU0CCszKtF5ZEp8E",
+      "name": "TÁM VỤ PHÁ ÁN CỦA ARSENE LUPIN.pdf",
+      "mime": "application/pdf",
+      "size": 1121635,
+      "modified": "2026-08-16T04:01:56.000Z",
+      "checksum": "d93674cc166186aebeaae5c0c34ba6e8",
+      "folder": false
+    }
+  ]
+}

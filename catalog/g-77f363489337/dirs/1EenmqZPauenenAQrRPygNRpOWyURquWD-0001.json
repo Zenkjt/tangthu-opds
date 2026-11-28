@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EenmqZPauenenAQrRPygNRpOWyURquWD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jwpuXff3wc4Aprc7FhlABQQNStGFMrIv",
+      "parent_id": "1EenmqZPauenenAQrRPygNRpOWyURquWD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7023,
+      "modified": "2026-08-15T07:25:15.000Z",
+      "checksum": "32846f311971ea9d83f99fcf946602d4",
+      "folder": false
+    },
+    {
+      "id": "1gCY9j1Lzy6KxsY7UVh8LIt0m4t0l1JL3",
+      "parent_id": "1EenmqZPauenenAQrRPygNRpOWyURquWD",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN DORIS LESSING.epub",
+      "mime": "application/epub+zip",
+      "size": 387033,
+      "modified": "2026-08-15T07:25:20.000Z",
+      "checksum": "6f6e5c476b3a8330c167a1d68d290c5e",
+      "folder": false
+    },
+    {
+      "id": "1QbUwAep-vg8rPvz1tW-SBP69lIMdB6BJ",
+      "parent_id": "1EenmqZPauenenAQrRPygNRpOWyURquWD",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN DORIS LESSING.pdf",
+      "mime": "application/pdf",
+      "size": 518304,
+      "modified": "2026-08-15T07:25:18.000Z",
+      "checksum": "589b45fc413478a03251e46c8aad0f08",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XzTSabLLW6_aNJVQqgOFuJH35ZPQcaRa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ywj_E1U7YbkYXNxWGT_Mru5dxqpMh6Zw",
+      "parent_id": "1XzTSabLLW6_aNJVQqgOFuJH35ZPQcaRa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1754,
+      "modified": "2026-08-15T15:44:33.000Z",
+      "checksum": "22d50a5c4acfbdb46862c16fb6ec9203",
+      "folder": false
+    },
+    {
+      "id": "1icxng-kdnsjdq52jTYZ-pE16vtIUmfHm",
+      "parent_id": "1XzTSabLLW6_aNJVQqgOFuJH35ZPQcaRa",
+      "name": "HÔN TRỘM 55 LẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 25677284,
+      "modified": "2026-08-15T15:44:59.000Z",
+      "checksum": "b1ad524b83dbac4619ab5460d8fc71e7",
+      "folder": false
+    },
+    {
+      "id": "10HOOPnocmrcSYvQvR3vWOiSKiLB-1qLP",
+      "parent_id": "1XzTSabLLW6_aNJVQqgOFuJH35ZPQcaRa",
+      "name": "HÔN TRỘM 55 LẦN.pdf",
+      "mime": "application/pdf",
+      "size": 16663775,
+      "modified": "2026-08-15T15:44:45.000Z",
+      "checksum": "580438e35543fe67abb7bc9a6d492585",
+      "folder": false
+    }
+  ]
+}

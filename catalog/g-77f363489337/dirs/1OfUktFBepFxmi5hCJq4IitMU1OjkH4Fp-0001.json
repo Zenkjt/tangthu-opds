@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OfUktFBepFxmi5hCJq4IitMU1OjkH4Fp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1coLqqnnqlbJuP8Tbed6806-q02x7Px3U",
+      "parent_id": "1OfUktFBepFxmi5hCJq4IitMU1OjkH4Fp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5145,
+      "modified": "2026-08-16T03:38:33.000Z",
+      "checksum": "022f0b29a0a5fef8b55b2c0cf086ed70",
+      "folder": false
+    },
+    {
+      "id": "1RmtvDCdjkagW7b9PcBC_0yJTs6bkbVCM",
+      "parent_id": "1OfUktFBepFxmi5hCJq4IitMU1OjkH4Fp",
+      "name": "LÊ TRIỀU LÝ THỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 1576249,
+      "modified": "2026-08-16T03:38:39.000Z",
+      "checksum": "be49bae7f73c9d91f96119f214403854",
+      "folder": false
+    },
+    {
+      "id": "1JkUujsz4twijkOFUbA-_XxTF_8hqSYI6",
+      "parent_id": "1OfUktFBepFxmi5hCJq4IitMU1OjkH4Fp",
+      "name": "LÊ TRIỀU LÝ THỊ.pdf",
+      "mime": "application/pdf",
+      "size": 2409917,
+      "modified": "2026-08-16T03:38:37.000Z",
+      "checksum": "502a3db37f10f22d775cc0d5a5f79505",
+      "folder": false
+    }
+  ]
+}

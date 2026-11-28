@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jzrs8LRsi7dUPFx16BjDXS5FoEUmCJ2V",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pA5GhGABt8ybYQ1dbO_Kn9BmUuNC7QAy",
+      "parent_id": "1jzrs8LRsi7dUPFx16BjDXS5FoEUmCJ2V",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1119,
+      "modified": "2026-08-15T07:40:50.000Z",
+      "checksum": "25dc9cb615ebbff7545a4d0df7a9b08a",
+      "folder": false
+    },
+    {
+      "id": "1swaOz2zbXF_2m0w61fwIHlQgHakADTx7",
+      "parent_id": "1jzrs8LRsi7dUPFx16BjDXS5FoEUmCJ2V",
+      "name": "GIANG HỒ XẢO KHÁCH.epub",
+      "mime": "application/epub+zip",
+      "size": 687546,
+      "modified": "2026-08-15T07:40:58.000Z",
+      "checksum": "c662639cf6673cb31a3c26cf9e132de9",
+      "folder": false
+    },
+    {
+      "id": "1FB_i0_8Fe3vWxIExVo-0Sp3oAwWeLI1C",
+      "parent_id": "1jzrs8LRsi7dUPFx16BjDXS5FoEUmCJ2V",
+      "name": "GIANG HỒ XẢO KHÁCH.pdf",
+      "mime": "application/pdf",
+      "size": 1783267,
+      "modified": "2026-08-15T07:40:56.000Z",
+      "checksum": "ed567661c9db4c0df4b088a64e33da53",
+      "folder": false
+    }
+  ]
+}

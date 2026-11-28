@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nYktoQ762miSHZfUaLfoM5MyjmMsxGaj",
+  "page": 1,
+  "items": [
+    {
+      "id": "14_EAnEuh_HSn8DpGBvSeDGajJblg269w",
+      "parent_id": "1nYktoQ762miSHZfUaLfoM5MyjmMsxGaj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2928,
+      "modified": "2026-08-15T15:53:01.000Z",
+      "checksum": "42fb50b20279a2154ba0dcdfc597c563",
+      "folder": false
+    },
+    {
+      "id": "1G-6vBs-B2Zh1xDtFYTl5vll1KCEXWWHv",
+      "parent_id": "1nYktoQ762miSHZfUaLfoM5MyjmMsxGaj",
+      "name": "TÌNH DỤC CỦA GẤU TRÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 351254,
+      "modified": "2026-08-15T15:53:08.000Z",
+      "checksum": "89cd37a37bd772a8e879cb67bfd9ca91",
+      "folder": false
+    },
+    {
+      "id": "1-NOKwZmYVTA7mczES7umZ_-kDTO7MRZQ",
+      "parent_id": "1nYktoQ762miSHZfUaLfoM5MyjmMsxGaj",
+      "name": "TÌNH DỤC CỦA GẤU TRÚC.pdf",
+      "mime": "application/pdf",
+      "size": 621621,
+      "modified": "2026-08-15T15:53:05.000Z",
+      "checksum": "f2d8e3859879aef01468b75f8c1821d5",
+      "folder": false
+    }
+  ]
+}

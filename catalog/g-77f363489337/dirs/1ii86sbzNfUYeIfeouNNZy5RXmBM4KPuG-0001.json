@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ii86sbzNfUYeIfeouNNZy5RXmBM4KPuG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1u5Yghty5BFFt6sLLZ-SrwpCvbTxF_JCX",
+      "parent_id": "1ii86sbzNfUYeIfeouNNZy5RXmBM4KPuG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3204,
+      "modified": "2026-08-15T07:32:33.000Z",
+      "checksum": "4bd68c0471847dc0cd9cf8daafdd4cc7",
+      "folder": false
+    },
+    {
+      "id": "1sDBWQKnMJeroDnZy2PxZMEqlIikXXtr6",
+      "parent_id": "1ii86sbzNfUYeIfeouNNZy5RXmBM4KPuG",
+      "name": "XÚC TÁC HOÀN HẢO.epub",
+      "mime": "application/epub+zip",
+      "size": 690064,
+      "modified": "2026-08-15T07:32:42.000Z",
+      "checksum": "f4af0ca8bb2a945dbd9c80ff4f5f6ca2",
+      "folder": false
+    },
+    {
+      "id": "1PzvWZaizR-Dm9hFO082c8Jigsn5gfGYF",
+      "parent_id": "1ii86sbzNfUYeIfeouNNZy5RXmBM4KPuG",
+      "name": "XÚC TÁC HOÀN HẢO.pdf",
+      "mime": "application/pdf",
+      "size": 1690339,
+      "modified": "2026-08-15T07:32:38.000Z",
+      "checksum": "89c08002f757852f6c128d9d19ca07d3",
+      "folder": false
+    }
+  ]
+}

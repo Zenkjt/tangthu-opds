@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1O4TaSfnnlG5OjIkofZJsl5dPGH04x6Sz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1w_eXdlB_HPaKa5_jKgX_t3xh9yFXQlkO",
+      "parent_id": "1O4TaSfnnlG5OjIkofZJsl5dPGH04x6Sz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2337,
+      "modified": "2026-08-15T15:45:03.000Z",
+      "checksum": "443c4cb1edd9e4a5503513c5fd72c68b",
+      "folder": false
+    },
+    {
+      "id": "1e-OAw4eAxuO06DKgfPox9VqdUhEerFOf",
+      "parent_id": "1O4TaSfnnlG5OjIkofZJsl5dPGH04x6Sz",
+      "name": "VƯƠNG PHỦ HỖ XUYÊN HÀNG NGÀY.epub",
+      "mime": "application/epub+zip",
+      "size": 835491,
+      "modified": "2026-08-15T15:45:11.000Z",
+      "checksum": "625e5a5522e7c7b8623f148040b67d73",
+      "folder": false
+    },
+    {
+      "id": "1pl1KBt8uXiUdwCcnpLmdtQv8TsPttACG",
+      "parent_id": "1O4TaSfnnlG5OjIkofZJsl5dPGH04x6Sz",
+      "name": "VƯƠNG PHỦ HỖ XUYÊN HÀNG NGÀY.pdf",
+      "mime": "application/pdf",
+      "size": 2564177,
+      "modified": "2026-08-15T15:45:08.000Z",
+      "checksum": "b48054e6021bc15a982fd816d68b253e",
+      "folder": false
+    }
+  ]
+}

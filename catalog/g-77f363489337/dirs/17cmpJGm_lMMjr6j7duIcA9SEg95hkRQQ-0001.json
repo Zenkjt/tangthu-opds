@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17cmpJGm_lMMjr6j7duIcA9SEg95hkRQQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UfDDjQkXT7zBFFnBVj_8o4yZMmip5UFX",
+      "parent_id": "17cmpJGm_lMMjr6j7duIcA9SEg95hkRQQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 369,
+      "modified": "2026-08-15T10:16:38.000Z",
+      "checksum": "764e176b489b3f84560e8e7e5d9f18a1",
+      "folder": false
+    },
+    {
+      "id": "1yGqiK-mtsJg9mYxVE8tZHcxK-IOwKUvT",
+      "parent_id": "17cmpJGm_lMMjr6j7duIcA9SEg95hkRQQ",
+      "name": "THÀNH PHỐ TRỘM.epub",
+      "mime": "application/epub+zip",
+      "size": 688856,
+      "modified": "2026-08-15T10:16:46.000Z",
+      "checksum": "73c7f4308efdf22d0e4a33bbace3d744",
+      "folder": false
+    },
+    {
+      "id": "1hcCwM-p6OAwUT5zJBNGqxhS9KYmMj9zK",
+      "parent_id": "17cmpJGm_lMMjr6j7duIcA9SEg95hkRQQ",
+      "name": "THÀNH PHỐ TRỘM.pdf",
+      "mime": "application/pdf",
+      "size": 1225996,
+      "modified": "2026-08-15T10:16:43.000Z",
+      "checksum": "4847bdb96a377d1765f544412b62ac3b",
+      "folder": false
+    }
+  ]
+}

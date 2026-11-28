@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kyG7ku5iRuQtu_xEaqMKbnTAKA21iO-e",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QGWcvivTNKzya_EvI0zx9S7ZQMeD-no5",
+      "parent_id": "1kyG7ku5iRuQtu_xEaqMKbnTAKA21iO-e",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4849,
+      "modified": "2026-08-15T04:21:29.000Z",
+      "checksum": "292ed553942097fd8cb168040bd47907",
+      "folder": false
+    },
+    {
+      "id": "1KocQ9FTWdxAh1BooQ_YAe3u-luA_6HaZ",
+      "parent_id": "1kyG7ku5iRuQtu_xEaqMKbnTAKA21iO-e",
+      "name": "TỰ CHỮA LÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 1339675,
+      "modified": "2026-08-15T04:21:40.000Z",
+      "checksum": "b716aedcf124a11f124aab6b39431f16",
+      "folder": false
+    },
+    {
+      "id": "1WavO2MfM572fDOq2PXGQTMB4_mA43IBe",
+      "parent_id": "1kyG7ku5iRuQtu_xEaqMKbnTAKA21iO-e",
+      "name": "TỰ CHỮA LÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 1582870,
+      "modified": "2026-08-15T04:21:35.000Z",
+      "checksum": "a4da4bbeb0cdd38b21d942fe68be7408",
+      "folder": false
+    }
+  ]
+}

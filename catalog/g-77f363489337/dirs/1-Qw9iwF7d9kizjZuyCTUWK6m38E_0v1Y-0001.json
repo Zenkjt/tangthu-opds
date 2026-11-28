@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-Qw9iwF7d9kizjZuyCTUWK6m38E_0v1Y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1c7SYkZzVK6gu7p7cGDCP4KBJj9Vz_HKN",
+      "parent_id": "1-Qw9iwF7d9kizjZuyCTUWK6m38E_0v1Y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3541,
+      "modified": "2026-08-15T16:00:23.000Z",
+      "checksum": "48fe9a8a6c9d38dc204a43377d5af039",
+      "folder": false
+    },
+    {
+      "id": "1DrvPSR2XkeZ1Su1GeJKRDnR8WqxLMdxB",
+      "parent_id": "1-Qw9iwF7d9kizjZuyCTUWK6m38E_0v1Y",
+      "name": "NGƯỜI MỚI TỨC GIẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 597664,
+      "modified": "2026-08-15T16:00:30.000Z",
+      "checksum": "4a285bddfe31c8bddf54a3d2f02b8ed9",
+      "folder": false
+    },
+    {
+      "id": "1Hu-aGgLB2ljpaHtPci23YIjY0KIDDvKy",
+      "parent_id": "1-Qw9iwF7d9kizjZuyCTUWK6m38E_0v1Y",
+      "name": "NGƯỜI MỚI TỨC GIẬN.pdf",
+      "mime": "application/pdf",
+      "size": 1492353,
+      "modified": "2026-08-15T16:00:27.000Z",
+      "checksum": "62716721f7e202f6c6cf911d194501fe",
+      "folder": false
+    }
+  ]
+}

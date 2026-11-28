@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hqjNvvubt5uY2tEY4NCm6oCvuTbeQtvh",
+  "page": 1,
+  "items": [
+    {
+      "id": "17IB5QtzavHRsxdx3SSyAdPCNlbQq51XL",
+      "parent_id": "1hqjNvvubt5uY2tEY4NCm6oCvuTbeQtvh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 674,
+      "modified": "2026-08-15T10:49:38.000Z",
+      "checksum": "1fd3365dbe1080cc274fde40a279c708",
+      "folder": false
+    },
+    {
+      "id": "1EMmdEHE3YINM4gNwwcjJ2KxhW4ZAFgnf",
+      "parent_id": "1hqjNvvubt5uY2tEY4NCm6oCvuTbeQtvh",
+      "name": "MỤC TIÊU THỨ 6.epub",
+      "mime": "application/epub+zip",
+      "size": 2994156,
+      "modified": "2026-08-15T10:51:01.000Z",
+      "checksum": "c8a720a007ecf1a1f855f823003f09db",
+      "folder": false
+    },
+    {
+      "id": "1yTIygrkl0XDeJTE5zBZ9IDPcdpvegY2m",
+      "parent_id": "1hqjNvvubt5uY2tEY4NCm6oCvuTbeQtvh",
+      "name": "MỤC TIÊU THỨ 6.pdf",
+      "mime": "application/pdf",
+      "size": 1596922,
+      "modified": "2026-08-15T10:50:05.000Z",
+      "checksum": "eb9e84a86b77133b72688dc224e3230f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FtPxh7c6d2icmKcmXGlNusIzVhSecxVz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QNaaHnBou0f9mMXA7ZLkCLuObEA8K6cz",
+      "parent_id": "1FtPxh7c6d2icmKcmXGlNusIzVhSecxVz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4415,
+      "modified": "2026-08-16T03:11:21.000Z",
+      "checksum": "6a1911a438e0d22b385bc9f90e21cc65",
+      "folder": false
+    },
+    {
+      "id": "1_rUi-v4Ei-fZNsIU05jMFgtydYNh4caC",
+      "parent_id": "1FtPxh7c6d2icmKcmXGlNusIzVhSecxVz",
+      "name": "GÃ CƯỚP BIỂN QUÝ TỘC.epub",
+      "mime": "application/epub+zip",
+      "size": 747927,
+      "modified": "2026-08-16T03:11:29.000Z",
+      "checksum": "13dd5e47d2413e69ef140617ca8fac4d",
+      "folder": false
+    },
+    {
+      "id": "14jFKRO2Q50Ypf3Eo5kiUBtVQutkXUvnJ",
+      "parent_id": "1FtPxh7c6d2icmKcmXGlNusIzVhSecxVz",
+      "name": "GÃ CƯỚP BIỂN QUÝ TỘC.pdf",
+      "mime": "application/pdf",
+      "size": 1491637,
+      "modified": "2026-08-16T03:11:26.000Z",
+      "checksum": "faeded7aee0f62be4370305b9a839bf8",
+      "folder": false
+    }
+  ]
+}

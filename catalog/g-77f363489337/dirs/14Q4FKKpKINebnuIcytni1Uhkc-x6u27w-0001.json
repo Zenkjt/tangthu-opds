@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14Q4FKKpKINebnuIcytni1Uhkc-x6u27w",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XUYtSzP01LX_SeZYzsARD0Ty9rbKeu0W",
+      "parent_id": "14Q4FKKpKINebnuIcytni1Uhkc-x6u27w",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 1235,
+      "modified": "2026-08-15T15:33:17.000Z",
+      "checksum": "12347ac8a8a752bdc121f1bc42967422",
+      "folder": false
+    },
+    {
+      "id": "1melLXqG9dI1FSa3gm8rbuRkH7di7hA0q",
+      "parent_id": "14Q4FKKpKINebnuIcytni1Uhkc-x6u27w",
+      "name": "ÁNH TRĂNG.epub",
+      "mime": "application/epub+zip",
+      "size": 440200,
+      "modified": "2026-08-15T15:33:23.000Z",
+      "checksum": "3ea4762f585b283ee9dcaaab331afb62",
+      "folder": false
+    },
+    {
+      "id": "1jD9KFAykrqRRitXLFhKDJCTgf4fDuEVm",
+      "parent_id": "14Q4FKKpKINebnuIcytni1Uhkc-x6u27w",
+      "name": "ÁNH TRĂNG.pdf",
+      "mime": "application/pdf",
+      "size": 721639,
+      "modified": "2026-08-15T15:33:20.000Z",
+      "checksum": "8e2baaeb3b7c29e700c000cc22fda3f3",
+      "folder": false
+    }
+  ]
+}

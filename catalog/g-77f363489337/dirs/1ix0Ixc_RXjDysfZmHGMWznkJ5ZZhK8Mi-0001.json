@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ix0Ixc_RXjDysfZmHGMWznkJ5ZZhK8Mi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ewyW_FikFTnEieiQHgTKxvL5DsPIxZd9",
+      "parent_id": "1ix0Ixc_RXjDysfZmHGMWznkJ5ZZhK8Mi",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 2462,
+      "modified": "2026-08-15T07:51:17.000Z",
+      "checksum": "d18fc6e07e7799cf34ff9d73f2c63957",
+      "folder": false
+    },
+    {
+      "id": "1a7YtEaN5IkgflvV4ga40yNzRdTlEUaOS",
+      "parent_id": "1ix0Ixc_RXjDysfZmHGMWznkJ5ZZhK8Mi",
+      "name": "NHẪN ĐÔNG (HOA KIM NGÂN).epub",
+      "mime": "application/epub+zip",
+      "size": 669669,
+      "modified": "2026-08-15T07:51:25.000Z",
+      "checksum": "840ef346c1cd5a601776dd589d89aecf",
+      "folder": false
+    },
+    {
+      "id": "1PCUdh1E-kQ1CAvgLq7bPoQuVcANj6uuI",
+      "parent_id": "1ix0Ixc_RXjDysfZmHGMWznkJ5ZZhK8Mi",
+      "name": "NHẪN ĐÔNG (HOA KIM NGÂN).pdf",
+      "mime": "application/pdf",
+      "size": 1534074,
+      "modified": "2026-08-15T07:51:22.000Z",
+      "checksum": "afbe5b7741b0677d79abebdfc9c97dbd",
+      "folder": false
+    }
+  ]
+}

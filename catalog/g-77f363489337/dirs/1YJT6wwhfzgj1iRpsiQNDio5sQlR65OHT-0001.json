@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YJT6wwhfzgj1iRpsiQNDio5sQlR65OHT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XK0iiJer57X3qzAFaLuUf2oxmMPaBiVq",
+      "parent_id": "1YJT6wwhfzgj1iRpsiQNDio5sQlR65OHT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3387,
+      "modified": "2026-08-16T04:14:05.000Z",
+      "checksum": "81a4382f4882454b13920481c6fe22e3",
+      "folder": false
+    },
+    {
+      "id": "1AC0tfro-iHOW0B5X9yuNMlmzA2iYaA7r",
+      "parent_id": "1YJT6wwhfzgj1iRpsiQNDio5sQlR65OHT",
+      "name": "NGƯỜI CŨ CÒN THƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 340162,
+      "modified": "2026-08-16T04:14:10.000Z",
+      "checksum": "1c4cd2005ac35b50e37bf6c24c9898e7",
+      "folder": false
+    },
+    {
+      "id": "1ysc9zLI6_TMP-0i6Zy9qrhoEKfWHNs19",
+      "parent_id": "1YJT6wwhfzgj1iRpsiQNDio5sQlR65OHT",
+      "name": "NGƯỜI CŨ CÒN THƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 465388,
+      "modified": "2026-08-16T04:14:08.000Z",
+      "checksum": "ee4f163dce668f29f5e50e83fb0d4ed9",
+      "folder": false
+    }
+  ]
+}

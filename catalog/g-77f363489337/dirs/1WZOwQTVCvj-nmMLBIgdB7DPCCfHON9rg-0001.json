@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WZOwQTVCvj-nmMLBIgdB7DPCCfHON9rg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1__2lGmZohkERltINO4fw43bEAdinB4Ze",
+      "parent_id": "1WZOwQTVCvj-nmMLBIgdB7DPCCfHON9rg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2177,
+      "modified": "2026-08-16T02:55:52.000Z",
+      "checksum": "2369e005925c9978038e95ec1b6949d5",
+      "folder": false
+    },
+    {
+      "id": "1s1hzbpuCDznIPgloeNPK0y0o5cCNEjwS",
+      "parent_id": "1WZOwQTVCvj-nmMLBIgdB7DPCCfHON9rg",
+      "name": "GÓI THUỐC LÁ.epub",
+      "mime": "application/epub+zip",
+      "size": 706332,
+      "modified": "2026-08-16T02:55:59.000Z",
+      "checksum": "1a57fe8dc96f9de9ed04271f7102199e",
+      "folder": false
+    },
+    {
+      "id": "1TdPMvERouIwtVro4EzzbOSA-85MIbGGl",
+      "parent_id": "1WZOwQTVCvj-nmMLBIgdB7DPCCfHON9rg",
+      "name": "GÓI THUỐC LÁ.pdf",
+      "mime": "application/pdf",
+      "size": 634705,
+      "modified": "2026-08-16T02:55:56.000Z",
+      "checksum": "9aad72443022f09fbdcabd26c004b92d",
+      "folder": false
+    }
+  ]
+}

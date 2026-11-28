@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1t3PcIT4FhL0pTBZsxotr401Qi0cXP5F7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lIJyZrMV1lJu1r0mUOF-tZC7rz0C7zx7",
+      "parent_id": "1t3PcIT4FhL0pTBZsxotr401Qi0cXP5F7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2533,
+      "modified": "2026-08-15T09:38:38.000Z",
+      "checksum": "ad66c956e82de65ef7c297c39d26de27",
+      "folder": false
+    },
+    {
+      "id": "12wUplJOERdektqP7H9ETkPlNqHOzb8IX",
+      "parent_id": "1t3PcIT4FhL0pTBZsxotr401Qi0cXP5F7",
+      "name": "TRÚNG SỐ ĐỘC ĐẮC.epub",
+      "mime": "application/epub+zip",
+      "size": 438911,
+      "modified": "2026-08-15T09:38:45.000Z",
+      "checksum": "599b09358dd522e9343bdcbb0a8bb0af",
+      "folder": false
+    },
+    {
+      "id": "1L2elys7V5Z3S_V_KA3vi4dyOoZ6NLgzz",
+      "parent_id": "1t3PcIT4FhL0pTBZsxotr401Qi0cXP5F7",
+      "name": "TRÚNG SỐ ĐỘC ĐẮC.pdf",
+      "mime": "application/pdf",
+      "size": 819183,
+      "modified": "2026-08-15T09:38:42.000Z",
+      "checksum": "ada3bc0ddda13f6931485d019930eb2b",
+      "folder": false
+    }
+  ]
+}

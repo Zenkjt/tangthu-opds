@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cdtUDPH124DvBGmcEz5SbGelSPUYPQdk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1O_T404EbcANrPivYEeiywMdGg5zLkZZt",
+      "parent_id": "1cdtUDPH124DvBGmcEz5SbGelSPUYPQdk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3046,
+      "modified": "2026-08-15T10:27:47.000Z",
+      "checksum": "246dffa5b9e541448d51fbedb7cf3406",
+      "folder": false
+    },
+    {
+      "id": "1xOxhgIwuNlpfYT9Ssh9TaliC5slNeGCj",
+      "parent_id": "1cdtUDPH124DvBGmcEz5SbGelSPUYPQdk",
+      "name": "SAU LƯNG MỘT VẠT NẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 759370,
+      "modified": "2026-08-15T10:27:55.000Z",
+      "checksum": "7769c75de1cd6a33dadea884786b9772",
+      "folder": false
+    },
+    {
+      "id": "1b_qO_lmx-_IZcQO949Wea2J3W1wbpVbt",
+      "parent_id": "1cdtUDPH124DvBGmcEz5SbGelSPUYPQdk",
+      "name": "SAU LƯNG MỘT VẠT NẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 652340,
+      "modified": "2026-08-15T10:27:52.000Z",
+      "checksum": "e706af03fb311fb16284959a3ed5de75",
+      "folder": false
+    }
+  ]
+}

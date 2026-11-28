@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QoCOzH4O8zBpDceSuxVMtTjhhA6S2oKo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1a_6njmzrs9rQQo0tRMlaj5H3DjKWMm4n",
+      "parent_id": "1QoCOzH4O8zBpDceSuxVMtTjhhA6S2oKo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3322,
+      "modified": "2026-08-16T04:12:45.000Z",
+      "checksum": "a3a0d3f0b50fceecccd6d6fac70d5b68",
+      "folder": false
+    },
+    {
+      "id": "1IN_wtuuV-QDBgAbfyly3c4OvXHp_MN-y",
+      "parent_id": "1QoCOzH4O8zBpDceSuxVMtTjhhA6S2oKo",
+      "name": "NHÀ BÊN CÓ SÓI.epub",
+      "mime": "application/epub+zip",
+      "size": 569615,
+      "modified": "2026-08-16T04:12:52.000Z",
+      "checksum": "34727563dd02044d91b8c9b02c2ad3ed",
+      "folder": false
+    },
+    {
+      "id": "1C0pCr28fqmsmxlNogmKdg-ggGXtcH36W",
+      "parent_id": "1QoCOzH4O8zBpDceSuxVMtTjhhA6S2oKo",
+      "name": "NHÀ BÊN CÓ SÓI.pdf",
+      "mime": "application/pdf",
+      "size": 1542874,
+      "modified": "2026-08-16T04:12:50.000Z",
+      "checksum": "0ba08d5b3593d5645ca46a50ee0c422b",
+      "folder": false
+    }
+  ]
+}

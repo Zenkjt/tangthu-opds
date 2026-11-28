@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17SDppjn6fYw7IQDRQSoAtcu5gSq-CTsS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NqMyFufE8z37JdgF6sa_4bxEnaD9m3lE",
+      "parent_id": "17SDppjn6fYw7IQDRQSoAtcu5gSq-CTsS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 424,
+      "modified": "2026-08-16T03:52:06.000Z",
+      "checksum": "f7c0fae37bc0b910e81b35ae5237b1df",
+      "folder": false
+    },
+    {
+      "id": "1cJuzz_T3mpH1ui0e5E9TJae-JnbTPEu9",
+      "parent_id": "17SDppjn6fYw7IQDRQSoAtcu5gSq-CTsS",
+      "name": "VANINA VANINI.epub",
+      "mime": "application/epub+zip",
+      "size": 254555,
+      "modified": "2026-08-16T03:52:11.000Z",
+      "checksum": "782a22655b77fc01c2361621f63bc1b2",
+      "folder": false
+    },
+    {
+      "id": "173T7ygFe_kg2OiC9YAXbGSzvLQmgKkIH",
+      "parent_id": "17SDppjn6fYw7IQDRQSoAtcu5gSq-CTsS",
+      "name": "VANINA VANINI.pdf",
+      "mime": "application/pdf",
+      "size": 378408,
+      "modified": "2026-08-16T03:52:09.000Z",
+      "checksum": "b38f7f8a501086ef8fded050f9e831fb",
+      "folder": false
+    }
+  ]
+}

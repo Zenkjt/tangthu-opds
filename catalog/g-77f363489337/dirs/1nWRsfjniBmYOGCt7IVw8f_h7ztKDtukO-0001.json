@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nWRsfjniBmYOGCt7IVw8f_h7ztKDtukO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wkotGGC-BoRO9Ezxg_Tw1t7qrH1F0HZD",
+      "parent_id": "1nWRsfjniBmYOGCt7IVw8f_h7ztKDtukO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6320,
+      "modified": "2026-08-15T08:00:18.000Z",
+      "checksum": "63775e388867e19b7249b0b80665a0f6",
+      "folder": false
+    },
+    {
+      "id": "1eQ7a4xD6r82cxsylahI_oynKOKodJ3E1",
+      "parent_id": "1nWRsfjniBmYOGCt7IVw8f_h7ztKDtukO",
+      "name": "LY HÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 561678,
+      "modified": "2026-08-15T08:00:26.000Z",
+      "checksum": "2591d713d37fc05059e44e249ced1404",
+      "folder": false
+    },
+    {
+      "id": "1_Frc4eQalJOdAw56ejvYE2O4v_PmUeyb",
+      "parent_id": "1nWRsfjniBmYOGCt7IVw8f_h7ztKDtukO",
+      "name": "LY HÔN.pdf",
+      "mime": "application/pdf",
+      "size": 1486197,
+      "modified": "2026-08-15T08:00:23.000Z",
+      "checksum": "8e3cd1b97169f7810f8e974630d050b3",
+      "folder": false
+    }
+  ]
+}

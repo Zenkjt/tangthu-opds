@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QcoF8XLDXMXY7vMBp9g8l2I-4-z6U7GL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Pk_rNTb6CQ9zXzdQIpkXSPS8Pa1A4fSf",
+      "parent_id": "1QcoF8XLDXMXY7vMBp9g8l2I-4-z6U7GL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3135,
+      "modified": "2026-08-15T12:43:47.000Z",
+      "checksum": "8efebc17c0fed8d98db64ed28ec1ed00",
+      "folder": false
+    },
+    {
+      "id": "1ZXKXzicW-pd6PpSu2NaE27I5fx8luaWi",
+      "parent_id": "1QcoF8XLDXMXY7vMBp9g8l2I-4-z6U7GL",
+      "name": "HOÀNG TỬ BÉ.epub",
+      "mime": "application/epub+zip",
+      "size": 825008,
+      "modified": "2026-08-15T12:43:53.000Z",
+      "checksum": "73b5514739b6e66e0894d7c99236e697",
+      "folder": false
+    },
+    {
+      "id": "16njRqHnJZ3kCDkY1rtE2bgtRpa9lGuAm",
+      "parent_id": "1QcoF8XLDXMXY7vMBp9g8l2I-4-z6U7GL",
+      "name": "HOÀNG TỬ BÉ.pdf",
+      "mime": "application/pdf",
+      "size": 1027957,
+      "modified": "2026-08-15T12:43:51.000Z",
+      "checksum": "e31a3ca7ae57c74f6ac8eb6dc0e7c1ef",
+      "folder": false
+    }
+  ]
+}

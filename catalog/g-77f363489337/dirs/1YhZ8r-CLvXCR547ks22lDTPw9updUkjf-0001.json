@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YhZ8r-CLvXCR547ks22lDTPw9updUkjf",
+  "page": 1,
+  "items": [
+    {
+      "id": "15StQONKWOtasb54NEJlNVwz38ukU1inJ",
+      "parent_id": "1YhZ8r-CLvXCR547ks22lDTPw9updUkjf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2361,
+      "modified": "2026-08-16T03:53:05.000Z",
+      "checksum": "df7950f9aaefccd084d238a0c93be10f",
+      "folder": false
+    },
+    {
+      "id": "1dVDBu_iXC9R4WIDTCb38d9MP0h7ghDCT",
+      "parent_id": "1YhZ8r-CLvXCR547ks22lDTPw9updUkjf",
+      "name": "TỘI LỖI.epub",
+      "mime": "application/epub+zip",
+      "size": 196376,
+      "modified": "2026-08-16T03:53:10.000Z",
+      "checksum": "5d2df2f5c2b8b4db25acc59f0ba70ea1",
+      "folder": false
+    },
+    {
+      "id": "1NehgTkFB9gRffqa1i6XF74SimBfuPTu5",
+      "parent_id": "1YhZ8r-CLvXCR547ks22lDTPw9updUkjf",
+      "name": "TỘI LỖI.pdf",
+      "mime": "application/pdf",
+      "size": 591474,
+      "modified": "2026-08-16T03:53:08.000Z",
+      "checksum": "169ea3f019517bca23093c3edc13775c",
+      "folder": false
+    }
+  ]
+}

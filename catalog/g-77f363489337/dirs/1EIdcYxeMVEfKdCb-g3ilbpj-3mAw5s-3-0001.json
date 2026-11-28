@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EIdcYxeMVEfKdCb-g3ilbpj-3mAw5s-3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wFje9szAngYJeCvlgGrwIxD-rmJLlm4s",
+      "parent_id": "1EIdcYxeMVEfKdCb-g3ilbpj-3mAw5s-3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6048,
+      "modified": "2026-08-15T03:52:17.000Z",
+      "checksum": "bb32c6c03c5b79943a3992cc3da540ad",
+      "folder": false
+    },
+    {
+      "id": "1zp-0WRvk1a8P8LGfGPhajncROBSsDRig",
+      "parent_id": "1EIdcYxeMVEfKdCb-g3ilbpj-3mAw5s-3",
+      "name": "LINH HỒN KHÔNG CÓ.epub",
+      "mime": "application/epub+zip",
+      "size": 452849,
+      "modified": "2026-08-15T03:52:23.000Z",
+      "checksum": "171d1603df2ca04cf3655ec5efbedead",
+      "folder": false
+    },
+    {
+      "id": "1Tg4VHUwZYw_5286RObTL_HmsTeA_8fIp",
+      "parent_id": "1EIdcYxeMVEfKdCb-g3ilbpj-3mAw5s-3",
+      "name": "LINH HỒN KHÔNG CÓ.pdf",
+      "mime": "application/pdf",
+      "size": 3622444,
+      "modified": "2026-08-15T03:52:21.000Z",
+      "checksum": "6235fff25a99492baae329da8cdb805f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1leXCP1y75O7O0ZVs2kXjQ5-_ERSIAGt9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WHe-FPZyuJ6cMhKR4H7WjpSMV_o_UDnw",
+      "parent_id": "1leXCP1y75O7O0ZVs2kXjQ5-_ERSIAGt9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4617,
+      "modified": "2026-08-15T07:46:04.000Z",
+      "checksum": "f7eb7dd02d0959e2168e25e864cd3f57",
+      "folder": false
+    },
+    {
+      "id": "1fUZ_lFfTW5LmA2VjUDzEr10XGBDSyr2Z",
+      "parent_id": "1leXCP1y75O7O0ZVs2kXjQ5-_ERSIAGt9",
+      "name": "DƯ VỊ TRÀ CHIỀU.epub",
+      "mime": "application/epub+zip",
+      "size": 349972,
+      "modified": "2026-08-15T07:46:11.000Z",
+      "checksum": "4c0b6a610919e12ea241a86949bfaa49",
+      "folder": false
+    },
+    {
+      "id": "1v5hhfeQL2JorwIfXR6mwNP3KkKdMshRf",
+      "parent_id": "1leXCP1y75O7O0ZVs2kXjQ5-_ERSIAGt9",
+      "name": "DƯ VỊ TRÀ CHIỀU.pdf",
+      "mime": "application/pdf",
+      "size": 589242,
+      "modified": "2026-08-15T07:46:08.000Z",
+      "checksum": "97c472ebc7002b51448f96e0c6de5108",
+      "folder": false
+    }
+  ]
+}

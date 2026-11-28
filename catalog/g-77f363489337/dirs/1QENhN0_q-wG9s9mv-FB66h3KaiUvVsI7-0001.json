@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QENhN0_q-wG9s9mv-FB66h3KaiUvVsI7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hx1OONjRIhZPdr1oOh9Se6nTGqoTjMo9",
+      "parent_id": "1QENhN0_q-wG9s9mv-FB66h3KaiUvVsI7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7060,
+      "modified": "2026-08-15T15:16:47.000Z",
+      "checksum": "de2a3881ae1d3c6e4c140ed0974763ff",
+      "folder": false
+    },
+    {
+      "id": "1laMjIG_jxU4XZjxXgCTLGnSv72YC5zvu",
+      "parent_id": "1QENhN0_q-wG9s9mv-FB66h3KaiUvVsI7",
+      "name": "QUỶ ẤN.epub",
+      "mime": "application/epub+zip",
+      "size": 745900,
+      "modified": "2026-08-15T15:17:05.000Z",
+      "checksum": "f93143b94752cb0c5c2472d8a1d8669b",
+      "folder": false
+    },
+    {
+      "id": "1_uKKxqEum8IF94rmbxudaLdeHc5v8zoI",
+      "parent_id": "1QENhN0_q-wG9s9mv-FB66h3KaiUvVsI7",
+      "name": "QUỶ ẤN.pdf",
+      "mime": "application/pdf",
+      "size": 2634696,
+      "modified": "2026-08-15T15:16:58.000Z",
+      "checksum": "1b9524781ad09cb43148253e91c8720e",
+      "folder": false
+    }
+  ]
+}

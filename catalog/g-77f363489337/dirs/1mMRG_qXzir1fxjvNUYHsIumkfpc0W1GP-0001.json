@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mMRG_qXzir1fxjvNUYHsIumkfpc0W1GP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wIxk8EBSHB6NCcTH2TNAjxVusjLKnOq7",
+      "parent_id": "1mMRG_qXzir1fxjvNUYHsIumkfpc0W1GP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2358,
+      "modified": "2026-08-15T07:24:26.000Z",
+      "checksum": "94c1eb1d564891b97048d1d3f7689e35",
+      "folder": false
+    },
+    {
+      "id": "1cp8lPP059VmjAsLSF8CRwdHxlxCjLiz8",
+      "parent_id": "1mMRG_qXzir1fxjvNUYHsIumkfpc0W1GP",
+      "name": "TỪNG NIÊN THIẾU.epub",
+      "mime": "application/epub+zip",
+      "size": 791106,
+      "modified": "2026-08-15T07:24:36.000Z",
+      "checksum": "c943e9d6c1805c358d13f72bf54c75e2",
+      "folder": false
+    },
+    {
+      "id": "14LQ18W1EHpdK2W2G8bvw-VvB3-SZhiP2",
+      "parent_id": "1mMRG_qXzir1fxjvNUYHsIumkfpc0W1GP",
+      "name": "TỪNG NIÊN THIẾU.pdf",
+      "mime": "application/pdf",
+      "size": 2667623,
+      "modified": "2026-08-15T07:24:33.000Z",
+      "checksum": "4e0e56d5d236a5b1791432a405d02d26",
+      "folder": false
+    }
+  ]
+}

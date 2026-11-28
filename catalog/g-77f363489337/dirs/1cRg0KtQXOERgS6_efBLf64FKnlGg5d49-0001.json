@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cRg0KtQXOERgS6_efBLf64FKnlGg5d49",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kXRgpkU6Q6ZfGmNXNWd8PGrwWozXCH-3",
+      "parent_id": "1cRg0KtQXOERgS6_efBLf64FKnlGg5d49",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1789,
+      "modified": "2026-08-15T09:38:20.000Z",
+      "checksum": "2ccf38959019030c1a4547a30c90e5c8",
+      "folder": false
+    },
+    {
+      "id": "15bmnP_BNiZNMABLw07DB65W_44e6PFmj",
+      "parent_id": "1cRg0KtQXOERgS6_efBLf64FKnlGg5d49",
+      "name": "ÔNG CỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 460866,
+      "modified": "2026-08-15T09:38:26.000Z",
+      "checksum": "76dc1c5c6b8fcd5ec3b6878e8b92a066",
+      "folder": false
+    },
+    {
+      "id": "1d38_-lo8iKlL9PNM5ONu3BF9K4FGLAg5",
+      "parent_id": "1cRg0KtQXOERgS6_efBLf64FKnlGg5d49",
+      "name": "ÔNG CỬ.pdf",
+      "mime": "application/pdf",
+      "size": 412203,
+      "modified": "2026-08-15T09:38:24.000Z",
+      "checksum": "13a5c17b9aa294be3a0ff87a93a342f4",
+      "folder": false
+    }
+  ]
+}

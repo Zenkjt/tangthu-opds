@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aKoyhtprAoL2qeqc0ESEofWrzA3T4Uu-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1p6JMhgo4veiC28cl1z8jQzcQEkK1ISyK",
+      "parent_id": "1aKoyhtprAoL2qeqc0ESEofWrzA3T4Uu-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4093,
+      "modified": "2026-08-16T04:10:03.000Z",
+      "checksum": "5e5121d3224593107e404c4ecd7aecd3",
+      "folder": false
+    },
+    {
+      "id": "1CU9V8trgFysn2biOxi5uzlQyreye6lDY",
+      "parent_id": "1aKoyhtprAoL2qeqc0ESEofWrzA3T4Uu-",
+      "name": "NHỮNG DI SẢN ĐÃ MẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 723156,
+      "modified": "2026-08-16T04:10:09.000Z",
+      "checksum": "16ef74b9a866291f00d6d19aaab178dc",
+      "folder": false
+    },
+    {
+      "id": "1MoFlIy8U6GpmZmI_uzRJ62L7FO0uYIci",
+      "parent_id": "1aKoyhtprAoL2qeqc0ESEofWrzA3T4Uu-",
+      "name": "NHỮNG DI SẢN ĐÃ MẤT.pdf",
+      "mime": "application/pdf",
+      "size": 473340,
+      "modified": "2026-08-16T04:10:06.000Z",
+      "checksum": "9e498b58d1c5ea55ca2327bed9481e6a",
+      "folder": false
+    }
+  ]
+}

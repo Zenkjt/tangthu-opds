@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1j4m3j6nsptb2Y92hESbxZEacVwgAaN2C",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Z965Y8qNDXeP7YLd4V3Y-xy-Jo5z8_Op",
+      "parent_id": "1j4m3j6nsptb2Y92hESbxZEacVwgAaN2C",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2822,
+      "modified": "2026-08-15T10:08:13.000Z",
+      "checksum": "c26fd19ba8a7b53852fcf3f32c6d59d8",
+      "folder": false
+    },
+    {
+      "id": "1rT9Zm0HQb5B1oMMxHnmpC-KH4Z9R1cmk",
+      "parent_id": "1j4m3j6nsptb2Y92hESbxZEacVwgAaN2C",
+      "name": "TÌNH YÊU KHÔNG TRỐN CHẠY.epub",
+      "mime": "application/epub+zip",
+      "size": 637503,
+      "modified": "2026-08-15T10:08:21.000Z",
+      "checksum": "8f7a80b62e3ee42d1bf49e4064ac378d",
+      "folder": false
+    },
+    {
+      "id": "1ToutBc8kRFeNKGqUVE_zF92XA-pouzUT",
+      "parent_id": "1j4m3j6nsptb2Y92hESbxZEacVwgAaN2C",
+      "name": "TÌNH YÊU KHÔNG TRỐN CHẠY.pdf",
+      "mime": "application/pdf",
+      "size": 2177031,
+      "modified": "2026-08-15T10:08:19.000Z",
+      "checksum": "9ffe6e4e4595dbc4ac8bc8ec6e9a9038",
+      "folder": false
+    }
+  ]
+}

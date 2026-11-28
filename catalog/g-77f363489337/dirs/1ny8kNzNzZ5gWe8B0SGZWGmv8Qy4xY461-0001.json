@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ny8kNzNzZ5gWe8B0SGZWGmv8Qy4xY461",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yud_ZNSWS6MZVGiNZ9zmVHm1QaOAFhVV",
+      "parent_id": "1ny8kNzNzZ5gWe8B0SGZWGmv8Qy4xY461",
+      "name": "CÔNG CHÚA BARI.epub",
+      "mime": "application/epub+zip",
+      "size": 529645,
+      "modified": "2026-08-16T03:16:16.000Z",
+      "checksum": "95279bc5a718ea1c536958a1e792106c",
+      "folder": false
+    },
+    {
+      "id": "1Nsj_QR5DdhsiIovaRB91m-DtoX-JuCKk",
+      "parent_id": "1ny8kNzNzZ5gWe8B0SGZWGmv8Qy4xY461",
+      "name": "CÔNG CHÚA BARI.pdf",
+      "mime": "application/pdf",
+      "size": 850940,
+      "modified": "2026-08-16T03:16:13.000Z",
+      "checksum": "514783aed26f472d1c39206f6fe265cf",
+      "folder": false
+    },
+    {
+      "id": "1GwxjRCc073RCEAV0U7V20VVr30rlTiZz",
+      "parent_id": "1ny8kNzNzZ5gWe8B0SGZWGmv8Qy4xY461",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6050,
+      "modified": "2026-08-16T03:16:09.000Z",
+      "checksum": "2ba8d68bc3f382f319780682aef06051",
+      "folder": false
+    }
+  ]
+}

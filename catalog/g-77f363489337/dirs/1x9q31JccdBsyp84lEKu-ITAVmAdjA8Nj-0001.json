@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1x9q31JccdBsyp84lEKu-ITAVmAdjA8Nj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1J9WcUquiPMFT1zwnBXDKvBBnTEprBSX5",
+      "parent_id": "1x9q31JccdBsyp84lEKu-ITAVmAdjA8Nj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1496,
+      "modified": "2026-08-15T09:40:06.000Z",
+      "checksum": "8a4942ced9cccc439e64202d27787068",
+      "folder": false
+    },
+    {
+      "id": "1Yoo2gt5SpTm5aJc9MUZJwbMRw5I5nmQ_",
+      "parent_id": "1x9q31JccdBsyp84lEKu-ITAVmAdjA8Nj",
+      "name": "THẰNG TƠ TƯỞNG.epub",
+      "mime": "application/epub+zip",
+      "size": 269927,
+      "modified": "2026-08-15T09:40:13.000Z",
+      "checksum": "e633fdef79144bce3d582cf6c981dbec",
+      "folder": false
+    },
+    {
+      "id": "1qH16rgQpZ8e8KnMvT-bJvsHkPI2UKfZO",
+      "parent_id": "1x9q31JccdBsyp84lEKu-ITAVmAdjA8Nj",
+      "name": "THẰNG TƠ TƯỞNG.pdf",
+      "mime": "application/pdf",
+      "size": 745585,
+      "modified": "2026-08-15T09:40:10.000Z",
+      "checksum": "60577614b18bfce89150ab47184ea5c1",
+      "folder": false
+    }
+  ]
+}

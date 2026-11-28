@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YKs8XpdoBGcMy70MvNaxL3h4FV0QVXPc",
+  "page": 1,
+  "items": [
+    {
+      "id": "11XMO2odRUU28suhn0rjKSbXteUN9_ID1",
+      "parent_id": "1YKs8XpdoBGcMy70MvNaxL3h4FV0QVXPc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7530,
+      "modified": "2026-08-16T02:55:15.000Z",
+      "checksum": "d59ffbacb2f52fe8952fcf90517faa50",
+      "folder": false
+    },
+    {
+      "id": "1i2aYLznXG_S9TpNJ-SzBWiSDtJXDAezO",
+      "parent_id": "1YKs8XpdoBGcMy70MvNaxL3h4FV0QVXPc",
+      "name": "GIA ĐÌNH DƯỚI CHÂN CẦU.epub",
+      "mime": "application/epub+zip",
+      "size": 812719,
+      "modified": "2026-08-16T02:55:22.000Z",
+      "checksum": "ab25959c06c7308a0c430c8eba717aeb",
+      "folder": false
+    },
+    {
+      "id": "1DlCky70FnaruUpzZ1u_jf3tfcvFQRPHw",
+      "parent_id": "1YKs8XpdoBGcMy70MvNaxL3h4FV0QVXPc",
+      "name": "GIA ĐÌNH DƯỚI CHÂN CẦU.pdf",
+      "mime": "application/pdf",
+      "size": 789932,
+      "modified": "2026-08-16T02:55:19.000Z",
+      "checksum": "02aea42ec0c197e40cd679b4044dd1dc",
+      "folder": false
+    }
+  ]
+}

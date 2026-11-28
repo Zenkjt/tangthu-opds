@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cLyN2J8DEL4TSQN894us7gSiAvr68xcy",
+  "page": 1,
+  "items": [
+    {
+      "id": "17p5ao8Y6SF3qj0cp-ZY-m5We6BTx2Cgz",
+      "parent_id": "1cLyN2J8DEL4TSQN894us7gSiAvr68xcy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5211,
+      "modified": "2026-08-15T09:41:15.000Z",
+      "checksum": "eb127ca61416603425ca300c3715a8a2",
+      "folder": false
+    },
+    {
+      "id": "1w3aDY6mQEjd8KirjKROh0GUPXpjtc-x-",
+      "parent_id": "1cLyN2J8DEL4TSQN894us7gSiAvr68xcy",
+      "name": "MAY MẮN GẶP LẠI KHI CHƯA GẢ.epub",
+      "mime": "application/epub+zip",
+      "size": 697351,
+      "modified": "2026-08-15T09:41:23.000Z",
+      "checksum": "f3ff49efd33b86581d564e8eea94d6a9",
+      "folder": false
+    },
+    {
+      "id": "1EsMS1BwfwDCq8XuKf4ztlffS4hnYJTJv",
+      "parent_id": "1cLyN2J8DEL4TSQN894us7gSiAvr68xcy",
+      "name": "MAY MẮN GẶP LẠI KHI CHƯA GẢ.pdf",
+      "mime": "application/pdf",
+      "size": 2011035,
+      "modified": "2026-08-15T09:41:20.000Z",
+      "checksum": "344858312d37a8de5120ed8331ed166b",
+      "folder": false
+    }
+  ]
+}

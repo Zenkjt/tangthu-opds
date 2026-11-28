@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17kyjcq8_AEylYHrAtPItQJM-zWQEpVoP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Unw5AWk_YUJ0mBJV6IfQSxeYaWzLv62a",
+      "parent_id": "17kyjcq8_AEylYHrAtPItQJM-zWQEpVoP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1317,
+      "modified": "2026-08-15T13:12:51.000Z",
+      "checksum": "81c67e44dbc27515f770c97048ec4c61",
+      "folder": false
+    },
+    {
+      "id": "1NEDP_dBQX-GSBeOGNrAdC7EO-5FfeJwk",
+      "parent_id": "17kyjcq8_AEylYHrAtPItQJM-zWQEpVoP",
+      "name": "GIẢI NGHĨA 64 QUẺ KINH DỊCH.epub",
+      "mime": "application/epub+zip",
+      "size": 499020,
+      "modified": "2026-08-15T13:12:57.000Z",
+      "checksum": "b357dd75ce143ab73374d55cd6f2299a",
+      "folder": false
+    },
+    {
+      "id": "1AaZqn_v1x2UTalzG6pvoGbs0fivYpP5O",
+      "parent_id": "17kyjcq8_AEylYHrAtPItQJM-zWQEpVoP",
+      "name": "GIẢI NGHĨA 64 QUẺ KINH DỊCH.pdf",
+      "mime": "application/pdf",
+      "size": 1358094,
+      "modified": "2026-08-15T13:12:55.000Z",
+      "checksum": "0c248e51a628e4159c474d1d4e3fa7a1",
+      "folder": false
+    }
+  ]
+}

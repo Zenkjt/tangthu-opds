@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HJXv3uwDmnDfAUu2K_S7OI_1b3IMdoGc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EvshSB5BqN0bGS3NPjW6t-FYdbpBixf7",
+      "parent_id": "1HJXv3uwDmnDfAUu2K_S7OI_1b3IMdoGc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2628,
+      "modified": "2026-08-15T07:05:30.000Z",
+      "checksum": "ed9a201b1f9b712444669f0e3d1099c4",
+      "folder": false
+    },
+    {
+      "id": "1YbePETaf6Pt0r4Vh4KZW1ogL3dIqm4Dn",
+      "parent_id": "1HJXv3uwDmnDfAUu2K_S7OI_1b3IMdoGc",
+      "name": "MẬT NGỮ RỪNG XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 1259867,
+      "modified": "2026-08-15T07:05:39.000Z",
+      "checksum": "25a4f2f7713c7f4548903b1eab11f6be",
+      "folder": false
+    },
+    {
+      "id": "183_5zZ9a5ZxAWjdMsUoJwQFK-vhTtdf5",
+      "parent_id": "1HJXv3uwDmnDfAUu2K_S7OI_1b3IMdoGc",
+      "name": "MẬT NGỮ RỪNG XANH.pdf",
+      "mime": "application/pdf",
+      "size": 2266287,
+      "modified": "2026-08-15T07:05:36.000Z",
+      "checksum": "34e67fcbffa20469571bcce7ade0dbbb",
+      "folder": false
+    }
+  ]
+}

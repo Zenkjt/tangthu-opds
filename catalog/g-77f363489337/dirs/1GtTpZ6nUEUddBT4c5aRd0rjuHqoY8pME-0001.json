@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GtTpZ6nUEUddBT4c5aRd0rjuHqoY8pME",
+  "page": 1,
+  "items": [
+    {
+      "id": "1d2iw_7GzAMFAKyOHaefUJNmbEnppDBOA",
+      "parent_id": "1GtTpZ6nUEUddBT4c5aRd0rjuHqoY8pME",
+      "name": "CỘI RỄ.epub",
+      "mime": "application/epub+zip",
+      "size": 1025311,
+      "modified": "2026-08-15T08:15:08.000Z",
+      "checksum": "56525c6232bbd98a36e8832cac721c91",
+      "folder": false
+    },
+    {
+      "id": "1ph8O_Ml0HnkzgnZmjV412LDiHWO51Jk1",
+      "parent_id": "1GtTpZ6nUEUddBT4c5aRd0rjuHqoY8pME",
+      "name": "CỘI RỄ.pdf",
+      "mime": "application/pdf",
+      "size": 3219613,
+      "modified": "2026-08-15T08:15:06.000Z",
+      "checksum": "96fa9a3757ad97c6e21d1763f659d732",
+      "folder": false
+    },
+    {
+      "id": "1QM2tIURzoZ9IxgXMmyj_hkyYVOZqEjhO",
+      "parent_id": "1GtTpZ6nUEUddBT4c5aRd0rjuHqoY8pME",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6227,
+      "modified": "2026-08-15T08:15:00.000Z",
+      "checksum": "c9877cc156dbebc2ea896f53579e6ade",
+      "folder": false
+    }
+  ]
+}

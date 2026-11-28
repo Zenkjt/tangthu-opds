@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UhJULZcSrLoRbIehgRF8EjId_fpO49pK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Gr0taBr6h7P21FP8BuG_9QHLxJzwosEy",
+      "parent_id": "1UhJULZcSrLoRbIehgRF8EjId_fpO49pK",
+      "name": "BA MÙA YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 325144,
+      "modified": "2026-08-15T08:15:39.000Z",
+      "checksum": "ead0074fe02cfc7f716a6db24d244b13",
+      "folder": false
+    },
+    {
+      "id": "1oadAkQYuFlJy6VNUq653FTiAjguvVf8E",
+      "parent_id": "1UhJULZcSrLoRbIehgRF8EjId_fpO49pK",
+      "name": "BA MÙA YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 725975,
+      "modified": "2026-08-15T08:15:37.000Z",
+      "checksum": "b90eb191ac21300409c91a424fa13223",
+      "folder": false
+    },
+    {
+      "id": "1glTWcdG2hKTUOFX6R1YSRUMwZ1qTFAKF",
+      "parent_id": "1UhJULZcSrLoRbIehgRF8EjId_fpO49pK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3469,
+      "modified": "2026-08-15T08:15:33.000Z",
+      "checksum": "a59e2b8b9805a50e2d95a2cf95b62409",
+      "folder": false
+    }
+  ]
+}

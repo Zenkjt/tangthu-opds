@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11cmBy55L4YMZz0HpCufnQEyOkeGigOM6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fjubXbs7oZ86-sBLKSDaIT8teEh73WbP",
+      "parent_id": "11cmBy55L4YMZz0HpCufnQEyOkeGigOM6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1915,
+      "modified": "2026-08-15T03:54:22.000Z",
+      "checksum": "2f622eed9bfea9bb4665ce7c5b54eb7e",
+      "folder": false
+    },
+    {
+      "id": "1WSS_yxdCVhnkDm9IaFB8Yo8_R4UQ3e-5",
+      "parent_id": "11cmBy55L4YMZz0HpCufnQEyOkeGigOM6",
+      "name": "HỖN ĐỘN VÀ HÀI HÒA.epub",
+      "mime": "application/epub+zip",
+      "size": 3397980,
+      "modified": "2026-08-15T03:55:17.000Z",
+      "checksum": "abafd7ead71a043111223e73764d5ae8",
+      "folder": false
+    },
+    {
+      "id": "1pWcqcMksO8s2rp_9znY71LyPKv9NEyCi",
+      "parent_id": "11cmBy55L4YMZz0HpCufnQEyOkeGigOM6",
+      "name": "HỖN ĐỘN VÀ HÀI HÒA.pdf",
+      "mime": "application/pdf",
+      "size": 3639736,
+      "modified": "2026-08-15T03:55:07.000Z",
+      "checksum": "50b827837b8206eb5e8d856c66724d2a",
+      "folder": false
+    }
+  ]
+}

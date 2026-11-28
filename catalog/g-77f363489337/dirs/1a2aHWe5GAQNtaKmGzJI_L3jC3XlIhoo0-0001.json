@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1a2aHWe5GAQNtaKmGzJI_L3jC3XlIhoo0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GSxlKfNpNcWISHIRL53K9FRP4UuEMh0n",
+      "parent_id": "1a2aHWe5GAQNtaKmGzJI_L3jC3XlIhoo0",
+      "name": "CHÚNG TA.epub",
+      "mime": "application/epub+zip",
+      "size": 618126,
+      "modified": "2026-08-16T03:31:44.000Z",
+      "checksum": "22248ad5a37e1c06bc5def62a3d8abf0",
+      "folder": false
+    },
+    {
+      "id": "1YAwNr29WP9Apez4IcPYIuUMBNQix8HWZ",
+      "parent_id": "1a2aHWe5GAQNtaKmGzJI_L3jC3XlIhoo0",
+      "name": "CHÚNG TA.pdf",
+      "mime": "application/pdf",
+      "size": 2168521,
+      "modified": "2026-08-16T03:31:41.000Z",
+      "checksum": "6c529193ce44511f0a8a28bf9f788663",
+      "folder": false
+    },
+    {
+      "id": "1jLyXBhFOQwpgfT8JIeSRqHw3_rLrj61H",
+      "parent_id": "1a2aHWe5GAQNtaKmGzJI_L3jC3XlIhoo0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4831,
+      "modified": "2026-08-16T03:31:36.000Z",
+      "checksum": "9296ad1b57f76c224256484952130691",
+      "folder": false
+    }
+  ]
+}

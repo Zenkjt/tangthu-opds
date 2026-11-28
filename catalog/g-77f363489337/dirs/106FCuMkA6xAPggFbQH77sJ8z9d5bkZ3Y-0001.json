@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "106FCuMkA6xAPggFbQH77sJ8z9d5bkZ3Y",
+  "page": 1,
+  "items": [
+    {
+      "id": "11-2NKjQ2fHTNVcThcAVboI0FXJpiLi7O",
+      "parent_id": "106FCuMkA6xAPggFbQH77sJ8z9d5bkZ3Y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7217,
+      "modified": "2026-08-15T09:48:39.000Z",
+      "checksum": "8edafe067e646cbdf5d7f9b648d2c14b",
+      "folder": false
+    },
+    {
+      "id": "1LED8mK7eJLSdHlXY-sAD_I3rWPBlZwcw",
+      "parent_id": "106FCuMkA6xAPggFbQH77sJ8z9d5bkZ3Y",
+      "name": "HÃY NÓI YÊU EM.epub",
+      "mime": "application/epub+zip",
+      "size": 1090156,
+      "modified": "2026-08-15T09:48:45.000Z",
+      "checksum": "f426f19ee5980cabe67cada7f7222037",
+      "folder": false
+    },
+    {
+      "id": "1nKdJHFu6qY2bXibV0fi-ICpFqT-uD7No",
+      "parent_id": "106FCuMkA6xAPggFbQH77sJ8z9d5bkZ3Y",
+      "name": "HÃY NÓI YÊU EM.pdf",
+      "mime": "application/pdf",
+      "size": 1211250,
+      "modified": "2026-08-15T09:48:43.000Z",
+      "checksum": "fd96580097d56de48f9f5af1bb779e9b",
+      "folder": false
+    }
+  ]
+}

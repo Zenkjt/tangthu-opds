@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vewXZJUUI8Cu2SYi3KYOoM5fWDTuNThx",
+  "page": 1,
+  "items": [
+    {
+      "id": "10BV8IYlpbLJ3Na3aI9bpJkgjD8UXchsg",
+      "parent_id": "1vewXZJUUI8Cu2SYi3KYOoM5fWDTuNThx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 614,
+      "modified": "2026-08-15T10:07:23.000Z",
+      "checksum": "8ef2873d50dab85b44e6ba4f45926233",
+      "folder": false
+    },
+    {
+      "id": "1bFPoxK3yN7ZajYKuLXnOkN-n5EYUSBmk",
+      "parent_id": "1vewXZJUUI8Cu2SYi3KYOoM5fWDTuNThx",
+      "name": "TRÁI TIM TRÊN NHỮNG CON ĐƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1144951,
+      "modified": "2026-08-15T10:07:34.000Z",
+      "checksum": "6500d7ff65050e209765e1d56ca0bc1b",
+      "folder": false
+    },
+    {
+      "id": "1EZ1a4CWOJcQL-RjjGfyLmpQGjYQ3kj07",
+      "parent_id": "1vewXZJUUI8Cu2SYi3KYOoM5fWDTuNThx",
+      "name": "TRÁI TIM TRÊN NHỮNG CON ĐƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 1545986,
+      "modified": "2026-08-15T10:07:30.000Z",
+      "checksum": "a17b91f129b03104722e74fb782b985d",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SX6N_vk9aK1icaHiFSk91fpgQ9rxiwm2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1utj3vbxtAF36A83C3-8lDD0sLuGV3NLP",
+      "parent_id": "1SX6N_vk9aK1icaHiFSk91fpgQ9rxiwm2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 887,
+      "modified": "2026-08-15T03:46:22.000Z",
+      "checksum": "a559a791b25ec975c682753a7a5e7541",
+      "folder": false
+    },
+    {
+      "id": "1r6RlejURvyf-7d_gc51o7OdSkVBCtVRX",
+      "parent_id": "1SX6N_vk9aK1icaHiFSk91fpgQ9rxiwm2",
+      "name": "THIỀN SƯ KHƯƠNG TĂNG HỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 420974,
+      "modified": "2026-08-15T03:46:28.000Z",
+      "checksum": "47da0f983927ea0d2002a6e7609d56e8",
+      "folder": false
+    },
+    {
+      "id": "1NTPPqYGlsItdzlgFoNzbwOBcAZLml9qC",
+      "parent_id": "1SX6N_vk9aK1icaHiFSk91fpgQ9rxiwm2",
+      "name": "THIỀN SƯ KHƯƠNG TĂNG HỘI.pdf",
+      "mime": "application/pdf",
+      "size": 502694,
+      "modified": "2026-08-15T03:46:26.000Z",
+      "checksum": "b07e596f91416457022a430d940a55e9",
+      "folder": false
+    }
+  ]
+}

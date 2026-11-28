@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OE7xREFfo6zCSNP6u7xH2hycTVuL482s",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uEl67O0qOccytk0Zz-Y5pQOz7XGDnRcP",
+      "parent_id": "1OE7xREFfo6zCSNP6u7xH2hycTVuL482s",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5275,
+      "modified": "2026-08-16T03:05:36.000Z",
+      "checksum": "cb3cf165a73fd38fe2412fb6c06eabb8",
+      "folder": false
+    },
+    {
+      "id": "1fSU3ln1ytq_UJUKheygnxSNBu-nQTtnP",
+      "parent_id": "1OE7xREFfo6zCSNP6u7xH2hycTVuL482s",
+      "name": "VẾT CHÂN TỰ NGÃ TRÊN ĐƯỜNG VỀ KHÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 391866,
+      "modified": "2026-08-16T03:05:43.000Z",
+      "checksum": "38b1cb284a97a2a9ea77cbb8e2240599",
+      "folder": false
+    },
+    {
+      "id": "1JGYggUxIgAN6yGf-POt9YVM5OwKvXOxD",
+      "parent_id": "1OE7xREFfo6zCSNP6u7xH2hycTVuL482s",
+      "name": "VẾT CHÂN TỰ NGÃ TRÊN ĐƯỜNG VỀ KHÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 645019,
+      "modified": "2026-08-16T03:05:40.000Z",
+      "checksum": "f4a759e2e0f6cb891f5cb2a81b3f3ba2",
+      "folder": false
+    }
+  ]
+}

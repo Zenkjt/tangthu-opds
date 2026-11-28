@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FmPj2jCtfm5v_9BzJww-Mdv44Wtg3hE1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1k2MPyp8bylNu6krDoyctyOv7fQyON48t",
+      "parent_id": "1FmPj2jCtfm5v_9BzJww-Mdv44Wtg3hE1",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 2247,
+      "modified": "2026-08-16T03:41:45.000Z",
+      "checksum": "762a51a127e23f239f46857fd683d30c",
+      "folder": false
+    },
+    {
+      "id": "1bngegmy0Y4rV8nb73va_xanXPM_htiC5",
+      "parent_id": "1FmPj2jCtfm5v_9BzJww-Mdv44Wtg3hE1",
+      "name": "HANG ĐỘNG.epub",
+      "mime": "application/epub+zip",
+      "size": 577506,
+      "modified": "2026-08-16T03:41:53.000Z",
+      "checksum": "53a57dc311f3312e585e358e71a88418",
+      "folder": false
+    },
+    {
+      "id": "1Y3GQPuuVh8RaSjtfhbiy0_Qg61iC6sBa",
+      "parent_id": "1FmPj2jCtfm5v_9BzJww-Mdv44Wtg3hE1",
+      "name": "HANG ĐỘNG.pdf",
+      "mime": "application/pdf",
+      "size": 1435775,
+      "modified": "2026-08-16T03:41:50.000Z",
+      "checksum": "625cb17856a70b225f204f94e3b95fc4",
+      "folder": false
+    }
+  ]
+}

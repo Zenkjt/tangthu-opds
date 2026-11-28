@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eskAQtpPTo1R1pMUUA7YaVwuZpwxLfur",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vjL8-nH9Kiz5_pWh9-nJzKQfZsriM7da",
+      "parent_id": "1eskAQtpPTo1R1pMUUA7YaVwuZpwxLfur",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3121,
+      "modified": "2026-08-15T07:40:12.000Z",
+      "checksum": "2d0580c0e4764da7fb6df26ba900cabd",
+      "folder": false
+    },
+    {
+      "id": "10P8OuTH-5NCF0Xax5xFO-JUHR96jJMWY",
+      "parent_id": "1eskAQtpPTo1R1pMUUA7YaVwuZpwxLfur",
+      "name": "NGƯỜI SAO HOẢ.epub",
+      "mime": "application/epub+zip",
+      "size": 535058,
+      "modified": "2026-08-15T07:40:19.000Z",
+      "checksum": "1120bd61bd702a232fdf0cd7aedb85ae",
+      "folder": false
+    },
+    {
+      "id": "1vRxD_w0vPG0ufo5j_goGKVA-FCEdbenW",
+      "parent_id": "1eskAQtpPTo1R1pMUUA7YaVwuZpwxLfur",
+      "name": "NGƯỜI SAO HOẢ.pdf",
+      "mime": "application/pdf",
+      "size": 1801274,
+      "modified": "2026-08-15T07:40:16.000Z",
+      "checksum": "89b9399235fb87525ffc56a443640a7d",
+      "folder": false
+    }
+  ]
+}

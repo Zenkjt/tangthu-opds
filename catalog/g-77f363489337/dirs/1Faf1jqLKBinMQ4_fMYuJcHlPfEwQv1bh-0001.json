@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Faf1jqLKBinMQ4_fMYuJcHlPfEwQv1bh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dErPoY40jvUUU1vHT_iwazXytp-BjJvk",
+      "parent_id": "1Faf1jqLKBinMQ4_fMYuJcHlPfEwQv1bh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3725,
+      "modified": "2026-08-15T09:34:17.000Z",
+      "checksum": "9d615c7005df00a948289558d3fff01a",
+      "folder": false
+    },
+    {
+      "id": "1Ogcmz0vUrQumzGKL1XML5JezqkOIzt0_",
+      "parent_id": "1Faf1jqLKBinMQ4_fMYuJcHlPfEwQv1bh",
+      "name": "HOA TRÊN MỘ ALGERNON.epub",
+      "mime": "application/epub+zip",
+      "size": 1174613,
+      "modified": "2026-08-15T09:34:32.000Z",
+      "checksum": "5a0695052a015bd64b765705c4003893",
+      "folder": false
+    },
+    {
+      "id": "13p9NZAeM-ogodXhkIsgs1TKYJQ5mLHoq",
+      "parent_id": "1Faf1jqLKBinMQ4_fMYuJcHlPfEwQv1bh",
+      "name": "HOA TRÊN MỘ ALGERNON.pdf",
+      "mime": "application/pdf",
+      "size": 924113,
+      "modified": "2026-08-15T09:34:25.000Z",
+      "checksum": "182b6fdb60ad0a96e3235c3c73b60b07",
+      "folder": false
+    }
+  ]
+}

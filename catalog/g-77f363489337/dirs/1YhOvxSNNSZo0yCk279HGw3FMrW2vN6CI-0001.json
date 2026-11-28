@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YhOvxSNNSZo0yCk279HGw3FMrW2vN6CI",
+  "page": 1,
+  "items": [
+    {
+      "id": "11D-AsAMW48O-4AIjr5dWtSf2vZkTqs7q",
+      "parent_id": "1YhOvxSNNSZo0yCk279HGw3FMrW2vN6CI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5123,
+      "modified": "2026-08-15T05:49:11.000Z",
+      "checksum": "8afb5f6cd372582f7971da05829db32e",
+      "folder": false
+    },
+    {
+      "id": "1JJ2lNnDIb9iWhgpO_paCKrutR3bozg1O",
+      "parent_id": "1YhOvxSNNSZo0yCk279HGw3FMrW2vN6CI",
+      "name": "SỰ VA CHẠM GIỮA CÁC NỀN VĂN MINH.epub",
+      "mime": "application/epub+zip",
+      "size": 231360,
+      "modified": "2026-08-15T05:49:19.000Z",
+      "checksum": "057f09315232bec36f7215002d52e65a",
+      "folder": false
+    },
+    {
+      "id": "18JxNWDfAUrFUslReFef2lXi76Vrhb02C",
+      "parent_id": "1YhOvxSNNSZo0yCk279HGw3FMrW2vN6CI",
+      "name": "SỰ VA CHẠM GIỮA CÁC NỀN VĂN MINH.pdf",
+      "mime": "application/pdf",
+      "size": 223013,
+      "modified": "2026-08-15T05:49:16.000Z",
+      "checksum": "6257a0a82cc40ff9d3a9b10fdfe472e2",
+      "folder": false
+    }
+  ]
+}

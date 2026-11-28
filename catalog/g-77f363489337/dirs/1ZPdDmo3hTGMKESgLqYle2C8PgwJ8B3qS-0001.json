@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZPdDmo3hTGMKESgLqYle2C8PgwJ8B3qS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iciRqXaPIdQf0eg8UZgfc4twickGlcT9",
+      "parent_id": "1ZPdDmo3hTGMKESgLqYle2C8PgwJ8B3qS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1519,
+      "modified": "2026-08-16T02:44:39.000Z",
+      "checksum": "4a483027f14c0e25a56d184953d703e1",
+      "folder": false
+    },
+    {
+      "id": "1vKq51ugx-I5I80v7kfMosRRpczpYIfyX",
+      "parent_id": "1ZPdDmo3hTGMKESgLqYle2C8PgwJ8B3qS",
+      "name": "ÔNG NGOẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 239216,
+      "modified": "2026-08-16T02:44:44.000Z",
+      "checksum": "be3f81760bb02df1c77450e6249a15ed",
+      "folder": false
+    },
+    {
+      "id": "1Ua3Nd3jCWmu1xsbImk1FfmnugxL62WXY",
+      "parent_id": "1ZPdDmo3hTGMKESgLqYle2C8PgwJ8B3qS",
+      "name": "ÔNG NGOẠI.pdf",
+      "mime": "application/pdf",
+      "size": 161615,
+      "modified": "2026-08-16T02:44:41.000Z",
+      "checksum": "3e95700bbcd61c12a919c01869dd1f4e",
+      "folder": false
+    }
+  ]
+}

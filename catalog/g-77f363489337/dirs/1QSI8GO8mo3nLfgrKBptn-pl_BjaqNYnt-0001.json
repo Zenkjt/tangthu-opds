@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QSI8GO8mo3nLfgrKBptn-pl_BjaqNYnt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rkFEu1H_y5CBdivLVKZ34RPUqD9I0lyL",
+      "parent_id": "1QSI8GO8mo3nLfgrKBptn-pl_BjaqNYnt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6400,
+      "modified": "2026-08-15T00:46:46.000Z",
+      "checksum": "8d2aa2d4e2f9fa6cf8efe6b71eb4c4f9",
+      "folder": false
+    },
+    {
+      "id": "1GIAUfcgzgI77t913Sknq3vqLrKA8pdCq",
+      "parent_id": "1QSI8GO8mo3nLfgrKBptn-pl_BjaqNYnt",
+      "name": "GIEO TRỒNG HẠNH PHÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 628470,
+      "modified": "2026-08-15T00:46:52.000Z",
+      "checksum": "28787d4ffc75a6afc8ed1cbc0b9c8a75",
+      "folder": false
+    },
+    {
+      "id": "1v0bFBC19-HIYt1mB-oQrA7fI-63jHuOf",
+      "parent_id": "1QSI8GO8mo3nLfgrKBptn-pl_BjaqNYnt",
+      "name": "GIEO TRỒNG HẠNH PHÚC.pdf",
+      "mime": "application/pdf",
+      "size": 1802894,
+      "modified": "2026-08-15T00:46:49.000Z",
+      "checksum": "7b8b11bb892a4f1188129c78dec6b7e7",
+      "folder": false
+    }
+  ]
+}

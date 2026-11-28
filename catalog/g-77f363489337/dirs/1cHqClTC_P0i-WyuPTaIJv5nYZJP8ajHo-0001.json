@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cHqClTC_P0i-WyuPTaIJv5nYZJP8ajHo",
+  "page": 1,
+  "items": [
+    {
+      "id": "12D-wO5O-iCGbk1HluOSU3YZ-ihgxpxJ3",
+      "parent_id": "1cHqClTC_P0i-WyuPTaIJv5nYZJP8ajHo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3240,
+      "modified": "2026-08-15T03:18:20.000Z",
+      "checksum": "7a15f43bd080412778b153954930b2ef",
+      "folder": false
+    },
+    {
+      "id": "1TegSiTUbr1Qj8e2_jy74iU9AMtQZ6yf8",
+      "parent_id": "1cHqClTC_P0i-WyuPTaIJv5nYZJP8ajHo",
+      "name": "PR CHUYÊN NGHIỆP.epub",
+      "mime": "application/epub+zip",
+      "size": 1431219,
+      "modified": "2026-08-15T03:18:27.000Z",
+      "checksum": "702bfb334e9e9cc2ca52fe3c3414dd06",
+      "folder": false
+    },
+    {
+      "id": "1kXn-wO00Iyfd2JqkBB7Emr4lJPqwzQcC",
+      "parent_id": "1cHqClTC_P0i-WyuPTaIJv5nYZJP8ajHo",
+      "name": "PR CHUYÊN NGHIỆP.pdf",
+      "mime": "application/pdf",
+      "size": 2142644,
+      "modified": "2026-08-15T03:18:24.000Z",
+      "checksum": "ee108a2aaad1c4f7b5cb73c9ef30f41b",
+      "folder": false
+    }
+  ]
+}

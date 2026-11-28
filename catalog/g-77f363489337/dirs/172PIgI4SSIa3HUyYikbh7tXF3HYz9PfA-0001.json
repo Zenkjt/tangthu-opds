@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "172PIgI4SSIa3HUyYikbh7tXF3HYz9PfA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1v0hBE-8lN7_f8LbT_xA7vd1TIYfcXqMh",
+      "parent_id": "172PIgI4SSIa3HUyYikbh7tXF3HYz9PfA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7728,
+      "modified": "2026-08-16T03:37:10.000Z",
+      "checksum": "38c236d25fc1bf33eac25b3bc3cef94d",
+      "folder": false
+    },
+    {
+      "id": "1ZB3jzCFiRNUBiOsXyYjS7BcsYaCWjHHv",
+      "parent_id": "172PIgI4SSIa3HUyYikbh7tXF3HYz9PfA",
+      "name": "MÈO YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 707511,
+      "modified": "2026-08-16T03:37:17.000Z",
+      "checksum": "68eba5b341591f67fd9ba6de5bc552a8",
+      "folder": false
+    },
+    {
+      "id": "1KZuhb7LtMTvqupKYojdAmhPNApGFqHRF",
+      "parent_id": "172PIgI4SSIa3HUyYikbh7tXF3HYz9PfA",
+      "name": "MÈO YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1989235,
+      "modified": "2026-08-16T03:37:15.000Z",
+      "checksum": "dd69d46c64a5ea414d232a96046cace8",
+      "folder": false
+    }
+  ]
+}

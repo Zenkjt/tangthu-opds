@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yydNnquvuaGdWO45f0BrBHkunfi_GfUT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qdlLqc-IfAAEDAksX7bt7jL-7pUy-9n0",
+      "parent_id": "1yydNnquvuaGdWO45f0BrBHkunfi_GfUT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2133,
+      "modified": "2026-08-16T03:53:25.000Z",
+      "checksum": "92ee6085c2f83c81163b222b8a07dc4c",
+      "folder": false
+    },
+    {
+      "id": "1My5C30_b-qCbFzSPGsvV_AIo1yTAei-U",
+      "parent_id": "1yydNnquvuaGdWO45f0BrBHkunfi_GfUT",
+      "name": "TITANIC TRONG VŨ TRỤ.epub",
+      "mime": "application/epub+zip",
+      "size": 591927,
+      "modified": "2026-08-16T03:53:33.000Z",
+      "checksum": "eb4bd80f6b3655bddc392e7bca656912",
+      "folder": false
+    },
+    {
+      "id": "1NAXe2lNHhtn75Gs29673alB37TBY9S1n",
+      "parent_id": "1yydNnquvuaGdWO45f0BrBHkunfi_GfUT",
+      "name": "TITANIC TRONG VŨ TRỤ.pdf",
+      "mime": "application/pdf",
+      "size": 1884259,
+      "modified": "2026-08-16T03:53:30.000Z",
+      "checksum": "956b6fa35771ac7e2480736ad80dee76",
+      "folder": false
+    }
+  ]
+}

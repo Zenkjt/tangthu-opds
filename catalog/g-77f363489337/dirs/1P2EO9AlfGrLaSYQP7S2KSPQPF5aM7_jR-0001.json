@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1P2EO9AlfGrLaSYQP7S2KSPQPF5aM7_jR",
+  "page": 1,
+  "items": [
+    {
+      "id": "14SsRVAgYqqGIhQeQzE1eSnoz1Uc0Tpqv",
+      "parent_id": "1P2EO9AlfGrLaSYQP7S2KSPQPF5aM7_jR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5467,
+      "modified": "2026-08-15T07:02:23.000Z",
+      "checksum": "72d5192e8be69366ef44c88bb59da061",
+      "folder": false
+    },
+    {
+      "id": "1pFdA3cAcbO2e6kPR8wGWg-Wik4DTjdOU",
+      "parent_id": "1P2EO9AlfGrLaSYQP7S2KSPQPF5aM7_jR",
+      "name": "KẺ LÀM NGƯỜI CHỊU.epub",
+      "mime": "application/epub+zip",
+      "size": 468823,
+      "modified": "2026-08-15T07:03:22.000Z",
+      "checksum": "c82a304aff4f8c30a78e5b0d7865b96c",
+      "folder": false
+    },
+    {
+      "id": "1gJQAgZjjKU20FAHVKPX7mroV6PMbVvSU",
+      "parent_id": "1P2EO9AlfGrLaSYQP7S2KSPQPF5aM7_jR",
+      "name": "KẺ LÀM NGƯỜI CHỊU.pdf",
+      "mime": "application/pdf",
+      "size": 1158609,
+      "modified": "2026-08-15T07:03:03.000Z",
+      "checksum": "58db731d31121684f899b0501ffbb547",
+      "folder": false
+    }
+  ]
+}

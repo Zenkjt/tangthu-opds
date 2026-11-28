@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mVrmqjH9NonCl9CESoYChP2yNyTSTT_o",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Cqskmu3oVlshKrMyoKk0748R1xIjOHPu",
+      "parent_id": "1mVrmqjH9NonCl9CESoYChP2yNyTSTT_o",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3063,
+      "modified": "2026-08-16T04:01:41.000Z",
+      "checksum": "aa6e4c000537ee09b4e0404c8d11a7cb",
+      "folder": false
+    },
+    {
+      "id": "1JxpmS-qwVvV_I0QDEBcUeQEGUT8PWk-1",
+      "parent_id": "1mVrmqjH9NonCl9CESoYChP2yNyTSTT_o",
+      "name": "TẦNG PHÍA DƯỚI BẦU TRỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 394703,
+      "modified": "2026-08-16T04:01:48.000Z",
+      "checksum": "b328dfbed32b7f6926cee01679d2b9b5",
+      "folder": false
+    },
+    {
+      "id": "1epFYlgLtBT76dqqZwhnuCrd40CLGCvSQ",
+      "parent_id": "1mVrmqjH9NonCl9CESoYChP2yNyTSTT_o",
+      "name": "TẦNG PHÍA DƯỚI BẦU TRỜI.pdf",
+      "mime": "application/pdf",
+      "size": 1404220,
+      "modified": "2026-08-16T04:01:46.000Z",
+      "checksum": "ee72c70f430e8c65460d00aa1a307629",
+      "folder": false
+    }
+  ]
+}

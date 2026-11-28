@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OCdUg8ymN3vW3RUI_3pGd6kLHkumSACh",
+  "page": 1,
+  "items": [
+    {
+      "id": "12E9q9r2KIAQuHJj3S5KA756C5wvYn2X2",
+      "parent_id": "1OCdUg8ymN3vW3RUI_3pGd6kLHkumSACh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2530,
+      "modified": "2026-08-16T03:13:57.000Z",
+      "checksum": "6fba119dd95756b552f7dd197acfe9d0",
+      "folder": false
+    },
+    {
+      "id": "1NLtZjqc89rBMd3XNzZM-19opuFqDsn3N",
+      "parent_id": "1OCdUg8ymN3vW3RUI_3pGd6kLHkumSACh",
+      "name": "LẨU CHÚ MÈO Ở NÔNG TRẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 848305,
+      "modified": "2026-08-16T03:14:03.000Z",
+      "checksum": "c3eb49e855ae9a0aeea239ef75170dbc",
+      "folder": false
+    },
+    {
+      "id": "145Myz_c0jiahOiN5HmijTl5RmfhtpUlm",
+      "parent_id": "1OCdUg8ymN3vW3RUI_3pGd6kLHkumSACh",
+      "name": "LẨU CHÚ MÈO Ở NÔNG TRẠI.pdf",
+      "mime": "application/pdf",
+      "size": 1121168,
+      "modified": "2026-08-16T03:14:01.000Z",
+      "checksum": "945b5b8e5225da5aaae9074f297ac68e",
+      "folder": false
+    }
+  ]
+}

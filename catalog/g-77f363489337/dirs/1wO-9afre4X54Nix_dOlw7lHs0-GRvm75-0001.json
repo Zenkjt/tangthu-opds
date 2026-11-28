@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wO-9afre4X54Nix_dOlw7lHs0-GRvm75",
+  "page": 1,
+  "items": [
+    {
+      "id": "10sCOYSKAJX61QGDnrBgtWp9wG0O-fmRM",
+      "parent_id": "1wO-9afre4X54Nix_dOlw7lHs0-GRvm75",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3129,
+      "modified": "2026-08-15T10:09:53.000Z",
+      "checksum": "271fe1b50216cc21374b518509d50508",
+      "folder": false
+    },
+    {
+      "id": "18AZZEKlgZhSXzLwo1CNrGheWXWeJFuKk",
+      "parent_id": "1wO-9afre4X54Nix_dOlw7lHs0-GRvm75",
+      "name": "TIỂU SỬ DAVID BEN GURION.epub",
+      "mime": "application/epub+zip",
+      "size": 1485627,
+      "modified": "2026-08-15T10:10:03.000Z",
+      "checksum": "a3d29a6851cd11125469307cabb9f1b9",
+      "folder": false
+    },
+    {
+      "id": "1HSYGCSFVN398K-BCKZS4CPdSE4l9RccI",
+      "parent_id": "1wO-9afre4X54Nix_dOlw7lHs0-GRvm75",
+      "name": "TIỂU SỬ DAVID BEN GURION.pdf",
+      "mime": "application/pdf",
+      "size": 3349079,
+      "modified": "2026-08-15T10:09:59.000Z",
+      "checksum": "4b8ac36245727189d744c41e0cb578c0",
+      "folder": false
+    }
+  ]
+}

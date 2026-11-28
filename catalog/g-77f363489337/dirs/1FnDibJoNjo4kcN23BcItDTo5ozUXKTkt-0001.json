@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FnDibJoNjo4kcN23BcItDTo5ozUXKTkt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TYQMUV13fmEgi173iAwtDDpcbS_WSwPk",
+      "parent_id": "1FnDibJoNjo4kcN23BcItDTo5ozUXKTkt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1098,
+      "modified": "2026-08-15T00:48:23.000Z",
+      "checksum": "d6234b79d6696af2ed9ab30abc233887",
+      "folder": false
+    },
+    {
+      "id": "1bD54qEpgCmjKBHAJmCu2J2H4NYt1k_WJ",
+      "parent_id": "1FnDibJoNjo4kcN23BcItDTo5ozUXKTkt",
+      "name": "ƯỚC MƠ CỦA BẠN NHẤT ĐỊNH THÀNH HIỆN THỰC.epub",
+      "mime": "application/epub+zip",
+      "size": 261721,
+      "modified": "2026-08-15T00:48:29.000Z",
+      "checksum": "882267affe1d9711aebbaa8cba2e4f44",
+      "folder": false
+    },
+    {
+      "id": "1aU3WryP66CSVtF-sd5sToTuNLmulObWs",
+      "parent_id": "1FnDibJoNjo4kcN23BcItDTo5ozUXKTkt",
+      "name": "ƯỚC MƠ CỦA BẠN NHẤT ĐỊNH THÀNH HIỆN THỰC.pdf",
+      "mime": "application/pdf",
+      "size": 576769,
+      "modified": "2026-08-15T00:48:26.000Z",
+      "checksum": "f80a9d189ed5f830e0fb1a2e7be083f5",
+      "folder": false
+    }
+  ]
+}

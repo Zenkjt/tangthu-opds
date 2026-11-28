@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jevdwinK7ubNWuRrvbMSD0RXliWiZsvU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eELDZr6ts6kjAXPeBMMuQuYIOqCT_D9r",
+      "parent_id": "1jevdwinK7ubNWuRrvbMSD0RXliWiZsvU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3455,
+      "modified": "2026-08-15T10:41:43.000Z",
+      "checksum": "2d8d6333e1fedfc1e37d475253bab07d",
+      "folder": false
+    },
+    {
+      "id": "1iTt0hcqChXg00ChsGq7zL6J8ACJfPy-6",
+      "parent_id": "1jevdwinK7ubNWuRrvbMSD0RXliWiZsvU",
+      "name": "NGƯỜI TÌNH QUÁI THÚ.epub",
+      "mime": "application/epub+zip",
+      "size": 659227,
+      "modified": "2026-08-15T10:41:56.000Z",
+      "checksum": "61b9014f70d6bf84be46a7be958774a3",
+      "folder": false
+    },
+    {
+      "id": "1K2nRSdLb-Yh12pJiX8tW__1AKHGWMhxt",
+      "parent_id": "1jevdwinK7ubNWuRrvbMSD0RXliWiZsvU",
+      "name": "NGƯỜI TÌNH QUÁI THÚ.pdf",
+      "mime": "application/pdf",
+      "size": 1356038,
+      "modified": "2026-08-15T10:41:51.000Z",
+      "checksum": "2cac4d063a3ff0b66c33670981ea0407",
+      "folder": false
+    }
+  ]
+}

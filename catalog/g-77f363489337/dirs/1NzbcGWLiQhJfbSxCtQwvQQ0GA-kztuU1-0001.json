@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NzbcGWLiQhJfbSxCtQwvQQ0GA-kztuU1",
+  "page": 1,
+  "items": [
+    {
+      "id": "10-E5Cpk3sG8MYOGjKQXfb8jsTfLTCc6x",
+      "parent_id": "1NzbcGWLiQhJfbSxCtQwvQQ0GA-kztuU1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 394,
+      "modified": "2026-08-15T10:47:20.000Z",
+      "checksum": "80f1c0032e16a62b44680fcee848bf76",
+      "folder": false
+    },
+    {
+      "id": "10RQueWtLzbvXBdgIgDOgQePLrbYIvzhi",
+      "parent_id": "1NzbcGWLiQhJfbSxCtQwvQQ0GA-kztuU1",
+      "name": "NGÀN DẶM TƯƠNG TƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 587058,
+      "modified": "2026-08-15T10:47:30.000Z",
+      "checksum": "fb9df82c4c804e0c92e8fbb2c42c1363",
+      "folder": false
+    },
+    {
+      "id": "13zNn5wNPVzFT8d1Zj1PrJ-Lcbq_9BIV5",
+      "parent_id": "1NzbcGWLiQhJfbSxCtQwvQQ0GA-kztuU1",
+      "name": "NGÀN DẶM TƯƠNG TƯ.pdf",
+      "mime": "application/pdf",
+      "size": 723513,
+      "modified": "2026-08-15T10:47:26.000Z",
+      "checksum": "d1037b205d002db78af3f977440d9d89",
+      "folder": false
+    }
+  ]
+}

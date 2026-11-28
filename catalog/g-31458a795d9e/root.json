@@ -1,0 +1,233 @@
+{
+  "version": 2,
+  "branch_id": "g-31458a795d9e",
+  "root_folder_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+  "root_shards": [
+    "catalog/g-31458a795d9e/1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx-0001.json"
+  ],
+  "directories": [
+    {
+      "id": "1-49x1W2MtkXR7K3J3f57757kSlzsyBf3",
+      "name": "Y Học, Sức Khỏe",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1-49x1W2MtkXR7K3J3f57757kSlzsyBf3-0001.json"
+      ]
+    },
+    {
+      "id": "11l5s3nIrolP6y-03de0Gn4dMyD_oCmDd",
+      "name": "Bài viết",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/11l5s3nIrolP6y-03de0Gn4dMyD_oCmDd-0001.json"
+      ]
+    },
+    {
+      "id": "16FWeRPJcnAtkV2Z8BC6LdxSd1XhdArcn",
+      "name": "Tôn giáo, Chính Trị",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/16FWeRPJcnAtkV2Z8BC6LdxSd1XhdArcn-0001.json"
+      ]
+    },
+    {
+      "id": "16y3U8YzFsF8-nEGtaWO4RtIwNBkPRWAD",
+      "name": "Phiêu Lưu, Mạo Hiểm",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/16y3U8YzFsF8-nEGtaWO4RtIwNBkPRWAD-0001.json"
+      ]
+    },
+    {
+      "id": "18WiHVfyoTeTVSLHFbNqN6rX_4UvqWxg4",
+      "name": "Khoa học",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/18WiHVfyoTeTVSLHFbNqN6rX_4UvqWxg4-0001.json"
+      ]
+    },
+    {
+      "id": "1Ea3KvSKq5NSst_ftM9di_ul_4Ovohb8f",
+      "name": "Kiếm Hiệp",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1Ea3KvSKq5NSst_ftM9di_ul_4Ovohb8f-0001.json"
+      ]
+    },
+    {
+      "id": "1Iq-fajL6y9g6QJVf-ERzP0oVYwe4Sl_c",
+      "name": "truyện dài",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1Iq-fajL6y9g6QJVf-ERzP0oVYwe4Sl_c-0001.json",
+        "catalog/g-31458a795d9e/dirs/1Iq-fajL6y9g6QJVf-ERzP0oVYwe4Sl_c-0002.json"
+      ]
+    },
+    {
+      "id": "1Jm8_3ISf0x8gYJUpV34l8HUGJhmZcjur",
+      "name": "Cuộc Chiến VN",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1Jm8_3ISf0x8gYJUpV34l8HUGJhmZcjur-0001.json"
+      ]
+    },
+    {
+      "id": "1OrJbEuMlmzWbn5STRlESxDHgaoFBuS8Z",
+      "name": "Kịch, Kịch bản",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1OrJbEuMlmzWbn5STRlESxDHgaoFBuS8Z-0001.json"
+      ]
+    },
+    {
+      "id": "1PIHtgSsGVCjif2NdxF2ghi3zamBA7nUY",
+      "name": "Cổ tích",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1PIHtgSsGVCjif2NdxF2ghi3zamBA7nUY-0001.json"
+      ]
+    },
+    {
+      "id": "1QpFCOqGPtxlfmQqzQUtN0ik7uztV_N9R",
+      "name": "Tình Cảm, Xã Hội",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1QpFCOqGPtxlfmQqzQUtN0ik7uztV_N9R-0001.json"
+      ]
+    },
+    {
+      "id": "1Rann34YEvT7Hvf5i6lLS_eJabgK9fuJC",
+      "name": "Suy ngẫm, Làm Người",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1Rann34YEvT7Hvf5i6lLS_eJabgK9fuJC-0001.json"
+      ]
+    },
+    {
+      "id": "1VgLzLOjqvPS8Uo9gLGsjjjpdz6DWL9TF",
+      "name": "Truyện ngắn",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1VgLzLOjqvPS8Uo9gLGsjjjpdz6DWL9TF-0001.json",
+        "catalog/g-31458a795d9e/dirs/1VgLzLOjqvPS8Uo9gLGsjjjpdz6DWL9TF-0002.json",
+        "catalog/g-31458a795d9e/dirs/1VgLzLOjqvPS8Uo9gLGsjjjpdz6DWL9TF-0003.json",
+        "catalog/g-31458a795d9e/dirs/1VgLzLOjqvPS8Uo9gLGsjjjpdz6DWL9TF-0004.json",
+        "catalog/g-31458a795d9e/dirs/1VgLzLOjqvPS8Uo9gLGsjjjpdz6DWL9TF-0005.json",
+        "catalog/g-31458a795d9e/dirs/1VgLzLOjqvPS8Uo9gLGsjjjpdz6DWL9TF-0006.json",
+        "catalog/g-31458a795d9e/dirs/1VgLzLOjqvPS8Uo9gLGsjjjpdz6DWL9TF-0007.json"
+      ]
+    },
+    {
+      "id": "1Vhdm2022T7Z1gzJFr6mkANrnjPC3Jkch",
+      "name": "Tuổi Học Trò",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1Vhdm2022T7Z1gzJFr6mkANrnjPC3Jkch-0001.json"
+      ]
+    },
+    {
+      "id": "1ZG7iohSHAdoKZ0pG0JXC8_dwiRLur2O9",
+      "name": "Tiếu lâm",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1ZG7iohSHAdoKZ0pG0JXC8_dwiRLur2O9-0001.json"
+      ]
+    },
+    {
+      "id": "1Zn0LjEAdyEp_Fo-0hTZynz0x6q1EPqEE",
+      "name": "Hồi Ký, Tuỳ Bút",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1Zn0LjEAdyEp_Fo-0hTZynz0x6q1EPqEE-0001.json"
+      ]
+    },
+    {
+      "id": "1aiEYHWCOLhK8X3ScCTmRjJX1d7sjljeN",
+      "name": "Nhân Vật Lịch sử",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1aiEYHWCOLhK8X3ScCTmRjJX1d7sjljeN-0001.json"
+      ]
+    },
+    {
+      "id": "1bh-H4lMJUKbG3B76V6P-U_J85wC6SMsE",
+      "name": "Khoa học Huyền bí",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1bh-H4lMJUKbG3B76V6P-U_J85wC6SMsE-0001.json"
+      ]
+    },
+    {
+      "id": "1d5SOZ-pSHgLnYWMwGVTAvyQQBmCH_-DW",
+      "name": "Cổ Văn Việt Nam",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1d5SOZ-pSHgLnYWMwGVTAvyQQBmCH_-DW-0001.json"
+      ]
+    },
+    {
+      "id": "1doBun8pb9oSFYR-rmYI26RyMOZ6803qp",
+      "name": "Tiểu Thuyết",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1doBun8pb9oSFYR-rmYI26RyMOZ6803qp-0001.json"
+      ]
+    },
+    {
+      "id": "1g6trUUgYQ1TDvn2YUetl9dq8PO-vc3XO",
+      "name": "Triết Học, Kinh Tế",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1g6trUUgYQ1TDvn2YUetl9dq8PO-vc3XO-0001.json"
+      ]
+    },
+    {
+      "id": "1k88jp8VX-7AOUlvV55fcwmiMJCqRtMmK",
+      "name": "Trinh Thám, Hình Sự",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1k88jp8VX-7AOUlvV55fcwmiMJCqRtMmK-0001.json"
+      ]
+    },
+    {
+      "id": "1tXOV4OzyxcHHD4ssKQFGlDIJH2GZdJBK",
+      "name": "Trung Hoa",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1tXOV4OzyxcHHD4ssKQFGlDIJH2GZdJBK-0001.json"
+      ]
+    },
+    {
+      "id": "1u55ZnpxPUjg7biaLhmlVHi8H5QVfmJoL",
+      "name": "VH cổ điển nước ngoài",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1u55ZnpxPUjg7biaLhmlVHi8H5QVfmJoL-0001.json"
+      ]
+    },
+    {
+      "id": "1wS1uj2WLHFxnPdmZZ8tdKOTZxXkRGFcn",
+      "name": "Kinh Dị, Ma quái",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1wS1uj2WLHFxnPdmZZ8tdKOTZxXkRGFcn-0001.json"
+      ]
+    },
+    {
+      "id": "1zFY0AdCPy6jL7614oak4gSTHYAhs7_2n",
+      "name": "Tập Truyện ngắn",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1zFY0AdCPy6jL7614oak4gSTHYAhs7_2n-0001.json"
+      ]
+    },
+    {
+      "id": "1za_G01paBd4T0b0WjEbfxW0BAzVsLRo0",
+      "name": "Lịch sử",
+      "parent_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "shards": [
+        "catalog/g-31458a795d9e/dirs/1za_G01paBd4T0b0WjEbfxW0BAzVsLRo0-0001.json"
+      ]
+    }
+  ]
+}

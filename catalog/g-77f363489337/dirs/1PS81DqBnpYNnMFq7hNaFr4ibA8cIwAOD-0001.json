@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PS81DqBnpYNnMFq7hNaFr4ibA8cIwAOD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AVSyi2e4A7HmkL-4Z5Hckreek9jfB8xN",
+      "parent_id": "1PS81DqBnpYNnMFq7hNaFr4ibA8cIwAOD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3467,
+      "modified": "2026-08-15T10:15:57.000Z",
+      "checksum": "3a229bb4e3e082ba987934b41fa35f20",
+      "folder": false
+    },
+    {
+      "id": "18aCelM9Yh_5DRG0eA3ANyQp3iWl8F3au",
+      "parent_id": "1PS81DqBnpYNnMFq7hNaFr4ibA8cIwAOD",
+      "name": "THẤT DẠ ĐÀM.epub",
+      "mime": "application/epub+zip",
+      "size": 469996,
+      "modified": "2026-08-15T10:16:04.000Z",
+      "checksum": "5922b680c5f1928ee0aef61d4a390f5e",
+      "folder": false
+    },
+    {
+      "id": "1B7MyLRhuYmOpmAxOPNKeGnhls90tyv3N",
+      "parent_id": "1PS81DqBnpYNnMFq7hNaFr4ibA8cIwAOD",
+      "name": "THẤT DẠ ĐÀM.pdf",
+      "mime": "application/pdf",
+      "size": 546231,
+      "modified": "2026-08-15T10:16:01.000Z",
+      "checksum": "be5cdb333b2a3bdd05ba2ba29b93a920",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AFUHhTiMOmlqfAqJ8vUc1SWYdYrr12Ka",
+  "page": 1,
+  "items": [
+    {
+      "id": "19ZDxBYKeWqdnwOsG-3mwIdUN1zZiidKp",
+      "parent_id": "1AFUHhTiMOmlqfAqJ8vUc1SWYdYrr12Ka",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1711,
+      "modified": "2026-08-15T07:46:13.000Z",
+      "checksum": "bc1302ca8543aeb6b811e7675c348029",
+      "folder": false
+    },
+    {
+      "id": "1rskEvROTNfSu772hMKNyUf5AFYiSsuLH",
+      "parent_id": "1AFUHhTiMOmlqfAqJ8vUc1SWYdYrr12Ka",
+      "name": "HẸN ƯỚC.epub",
+      "mime": "application/epub+zip",
+      "size": 266629,
+      "modified": "2026-08-15T07:46:20.000Z",
+      "checksum": "9319192c1a11d0926e375ec157ce35a7",
+      "folder": false
+    },
+    {
+      "id": "1yxB_iPnYiXlcjeM8WlCzekPLDVWaveqQ",
+      "parent_id": "1AFUHhTiMOmlqfAqJ8vUc1SWYdYrr12Ka",
+      "name": "HẸN ƯỚC.pdf",
+      "mime": "application/pdf",
+      "size": 484965,
+      "modified": "2026-08-15T07:46:17.000Z",
+      "checksum": "ce97a672b3d5744503220538ef72c460",
+      "folder": false
+    }
+  ]
+}

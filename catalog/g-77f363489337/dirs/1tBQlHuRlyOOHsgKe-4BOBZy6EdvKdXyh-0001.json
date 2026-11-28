@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tBQlHuRlyOOHsgKe-4BOBZy6EdvKdXyh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mtJyMht5Czawu81t_RWNCkHZgUEG1XRf",
+      "parent_id": "1tBQlHuRlyOOHsgKe-4BOBZy6EdvKdXyh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 572,
+      "modified": "2026-08-15T10:57:16.000Z",
+      "checksum": "69ab090f24cd8c86670bbfaa3ad02f65",
+      "folder": false
+    },
+    {
+      "id": "1XgM4HjgFj-Kr3zePEMzCcgj3neBHoP_G",
+      "parent_id": "1tBQlHuRlyOOHsgKe-4BOBZy6EdvKdXyh",
+      "name": "GIẤC MỘNG XUÂN TRONG NGÕ HỒ LÔ.epub",
+      "mime": "application/epub+zip",
+      "size": 330173,
+      "modified": "2026-08-15T10:57:22.000Z",
+      "checksum": "57f15243fc6619809f65a1a59d65d37f",
+      "folder": false
+    },
+    {
+      "id": "1DM6OehatjeCz1SOC-nLy1G273WWJS733",
+      "parent_id": "1tBQlHuRlyOOHsgKe-4BOBZy6EdvKdXyh",
+      "name": "GIẤC MỘNG XUÂN TRONG NGÕ HỒ LÔ.pdf",
+      "mime": "application/pdf",
+      "size": 565319,
+      "modified": "2026-08-15T10:57:20.000Z",
+      "checksum": "c53a27aceb9e1fb4d94e56e53b5dc3aa",
+      "folder": false
+    }
+  ]
+}

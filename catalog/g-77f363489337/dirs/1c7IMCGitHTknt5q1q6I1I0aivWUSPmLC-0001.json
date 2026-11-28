@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1c7IMCGitHTknt5q1q6I1I0aivWUSPmLC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qStCM8mdnjjMHx11NFN63Qs5J7qMnpC9",
+      "parent_id": "1c7IMCGitHTknt5q1q6I1I0aivWUSPmLC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 878,
+      "modified": "2026-08-15T06:12:24.000Z",
+      "checksum": "2fe2aa6b902b0f2701217565895ff91a",
+      "folder": false
+    },
+    {
+      "id": "1ck-JotzMQn9257KMCDSW-qRXbbx8lGRC",
+      "parent_id": "1c7IMCGitHTknt5q1q6I1I0aivWUSPmLC",
+      "name": "TÌNH NHƯ SƯƠNG KHÓI.epub",
+      "mime": "application/epub+zip",
+      "size": 820428,
+      "modified": "2026-08-15T06:12:30.000Z",
+      "checksum": "7d5c57cfbf8579a9e0336377964931c1",
+      "folder": false
+    },
+    {
+      "id": "1OJiXWXzNXfHWKMrGvLAxc5qFEXxuJtA1",
+      "parent_id": "1c7IMCGitHTknt5q1q6I1I0aivWUSPmLC",
+      "name": "TÌNH NHƯ SƯƠNG KHÓI.pdf",
+      "mime": "application/pdf",
+      "size": 864706,
+      "modified": "2026-08-15T06:12:28.000Z",
+      "checksum": "3eaa9c59f8a3e1feb3851942245c9e07",
+      "folder": false
+    }
+  ]
+}

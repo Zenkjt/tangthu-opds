@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1B2zvJiw-f8-ErPTezXArbySAr4Zt1k6u",
+  "page": 1,
+  "items": [
+    {
+      "id": "11vhIfBS--WDZOHZVhdFJuwZ1VFgOxUek",
+      "parent_id": "1B2zvJiw-f8-ErPTezXArbySAr4Zt1k6u",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3322,
+      "modified": "2026-08-15T04:23:46.000Z",
+      "checksum": "000cfedc82bd0b428539fc86114a437c",
+      "folder": false
+    },
+    {
+      "id": "1EKK7XX0aRT_n8w_pYDS4PB7H8oLGIJlL",
+      "parent_id": "1B2zvJiw-f8-ErPTezXArbySAr4Zt1k6u",
+      "name": "THÁNH KINH DƯỠNG DA.epub",
+      "mime": "application/epub+zip",
+      "size": 3473021,
+      "modified": "2026-08-15T04:24:02.000Z",
+      "checksum": "db73b40822b1c4718101d7c4deef5586",
+      "folder": false
+    },
+    {
+      "id": "14fSXSz0rskC-EayKccAnr1iJyxyGdl-Z",
+      "parent_id": "1B2zvJiw-f8-ErPTezXArbySAr4Zt1k6u",
+      "name": "THÁNH KINH DƯỠNG DA.pdf",
+      "mime": "application/pdf",
+      "size": 3880048,
+      "modified": "2026-08-15T04:23:58.000Z",
+      "checksum": "a9fe211168db54dc93a940b8ce574667",
+      "folder": false
+    }
+  ]
+}

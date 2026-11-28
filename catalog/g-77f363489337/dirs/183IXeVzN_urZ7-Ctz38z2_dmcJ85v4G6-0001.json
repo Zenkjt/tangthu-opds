@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "183IXeVzN_urZ7-Ctz38z2_dmcJ85v4G6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EumDCvbVlsQ578GAMbXjh2ij3MLJmuLd",
+      "parent_id": "183IXeVzN_urZ7-Ctz38z2_dmcJ85v4G6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2584,
+      "modified": "2026-08-15T03:43:11.000Z",
+      "checksum": "4c57541c6a95fcc297ee012023c4a165",
+      "folder": false
+    },
+    {
+      "id": "12WtLj7Rght_A2dMh8pKTyslCtYu4IlNO",
+      "parent_id": "183IXeVzN_urZ7-Ctz38z2_dmcJ85v4G6",
+      "name": "KINH TĂNG CHI BỘ - TẬP 2.epub",
+      "mime": "application/epub+zip",
+      "size": 252873,
+      "modified": "2026-08-15T03:43:18.000Z",
+      "checksum": "ba5b73f6b54fc6b6edd1b339647d16ef",
+      "folder": false
+    },
+    {
+      "id": "1s4ZiaDdTOmKXpkScvhKGOCjC2nYGd-28",
+      "parent_id": "183IXeVzN_urZ7-Ctz38z2_dmcJ85v4G6",
+      "name": "KINH TĂNG CHI BỘ - TẬP 2.pdf",
+      "mime": "application/pdf",
+      "size": 1741099,
+      "modified": "2026-08-15T03:43:16.000Z",
+      "checksum": "2d65e5a251357942d0c232ae7e291e00",
+      "folder": false
+    }
+  ]
+}

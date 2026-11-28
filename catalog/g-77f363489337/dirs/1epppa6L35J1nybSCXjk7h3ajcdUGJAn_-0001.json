@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1epppa6L35J1nybSCXjk7h3ajcdUGJAn_",
+  "page": 1,
+  "items": [
+    {
+      "id": "17GGHMPcccmgBHT_w7EsGTZ1i6LIw0fGa",
+      "parent_id": "1epppa6L35J1nybSCXjk7h3ajcdUGJAn_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 521,
+      "modified": "2026-08-15T07:09:56.000Z",
+      "checksum": "4e9df66e1b0cb82921f4743d6ef5b92f",
+      "folder": false
+    },
+    {
+      "id": "1GVvYdh3fkqOiGhWw3BOsL2UigQfzs8TB",
+      "parent_id": "1epppa6L35J1nybSCXjk7h3ajcdUGJAn_",
+      "name": "Ổ BUÔN NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 707979,
+      "modified": "2026-08-15T07:10:03.000Z",
+      "checksum": "a3ea3cb923ad274ffb57186cede5da5d",
+      "folder": false
+    },
+    {
+      "id": "14NgD4Nja8mIANmmj2zJWnP0l_BiP-2M0",
+      "parent_id": "1epppa6L35J1nybSCXjk7h3ajcdUGJAn_",
+      "name": "Ổ BUÔN NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 869579,
+      "modified": "2026-08-15T07:10:00.000Z",
+      "checksum": "c13a45cddc090589e00f030a20c82ece",
+      "folder": false
+    }
+  ]
+}

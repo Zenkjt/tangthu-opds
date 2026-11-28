@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d_2VVyPA0Gz_31hHfaoREWed_JFbqWxb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IobTl53JLzemVONi9stl3qYUY9VnjNCy",
+      "parent_id": "1d_2VVyPA0Gz_31hHfaoREWed_JFbqWxb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3006,
+      "modified": "2026-08-15T03:53:36.000Z",
+      "checksum": "ebb197b2b68cb1fdf3b47a8c306649a7",
+      "folder": false
+    },
+    {
+      "id": "1lXFdnGSCvVAO_eRzafk65_-OTps2Md0U",
+      "parent_id": "1d_2VVyPA0Gz_31hHfaoREWed_JFbqWxb",
+      "name": "ĐẠO PHẬT QUA NHẬN THỨC MỚI.epub",
+      "mime": "application/epub+zip",
+      "size": 212272,
+      "modified": "2026-08-15T03:53:41.000Z",
+      "checksum": "960b1bbfe6aa2f572e4edca569275eff",
+      "folder": false
+    },
+    {
+      "id": "1h8GTeQVxWk5tbzm-fg4rVzwjmrel8dSt",
+      "parent_id": "1d_2VVyPA0Gz_31hHfaoREWed_JFbqWxb",
+      "name": "ĐẠO PHẬT QUA NHẬN THỨC MỚI.pdf",
+      "mime": "application/pdf",
+      "size": 446404,
+      "modified": "2026-08-15T03:53:39.000Z",
+      "checksum": "fadd9853a187bf3a8802234eaf834720",
+      "folder": false
+    }
+  ]
+}

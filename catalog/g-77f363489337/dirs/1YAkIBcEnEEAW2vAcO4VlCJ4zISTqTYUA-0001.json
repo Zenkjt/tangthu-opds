@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YAkIBcEnEEAW2vAcO4VlCJ4zISTqTYUA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qQjmlPgHNFdUeSuIOVD5YbRKllgGP2-O",
+      "parent_id": "1YAkIBcEnEEAW2vAcO4VlCJ4zISTqTYUA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5719,
+      "modified": "2026-08-15T04:24:39.000Z",
+      "checksum": "856d4afabc60fd4df77080f2c6daf535",
+      "folder": false
+    },
+    {
+      "id": "1kmKnVb9WSuVjuiyc4xf2f7Bh4aeK1_7y",
+      "parent_id": "1YAkIBcEnEEAW2vAcO4VlCJ4zISTqTYUA",
+      "name": "DẠ DÀY.epub",
+      "mime": "application/epub+zip",
+      "size": 295909,
+      "modified": "2026-08-15T04:24:44.000Z",
+      "checksum": "563fd777edc9ebd4274786dcb1226dc8",
+      "folder": false
+    },
+    {
+      "id": "1tTOdjDDf4qMuQwbd9tOKKLCPg3DpCmC4",
+      "parent_id": "1YAkIBcEnEEAW2vAcO4VlCJ4zISTqTYUA",
+      "name": "DẠ DÀY.pdf",
+      "mime": "application/pdf",
+      "size": 570696,
+      "modified": "2026-08-15T04:24:42.000Z",
+      "checksum": "3fc4e6d0e1069d22d0fc37dd0bc984ed",
+      "folder": false
+    }
+  ]
+}

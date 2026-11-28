@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CsUr3HCRuVSERwAij8q1UdBh20Kt1Vx5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SNc9o9MOCoL6VOvlujgkHO-FOkG4r0oW",
+      "parent_id": "1CsUr3HCRuVSERwAij8q1UdBh20Kt1Vx5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6313,
+      "modified": "2026-08-15T07:45:59.000Z",
+      "checksum": "c5225fe1b48f5443d4bd8247040f85c2",
+      "folder": false
+    },
+    {
+      "id": "1CkjJfsavFPqw0YpFuSVeJDdw6d_WHLss",
+      "parent_id": "1CsUr3HCRuVSERwAij8q1UdBh20Kt1Vx5",
+      "name": "ĐỨNG TRONG BÓNG TỐI.epub",
+      "mime": "application/epub+zip",
+      "size": 1075279,
+      "modified": "2026-08-15T07:46:11.000Z",
+      "checksum": "0ecfe13ff73423b32a94b23bb4231e33",
+      "folder": false
+    },
+    {
+      "id": "1wGO4nVQkpzgWOhO8KDz0tHCpHT2DHOkv",
+      "parent_id": "1CsUr3HCRuVSERwAij8q1UdBh20Kt1Vx5",
+      "name": "ĐỨNG TRONG BÓNG TỐI.pdf",
+      "mime": "application/pdf",
+      "size": 1669542,
+      "modified": "2026-08-15T07:46:06.000Z",
+      "checksum": "e19b6e19e412341557c2dbc8de70af48",
+      "folder": false
+    }
+  ]
+}

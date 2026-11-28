@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18sVRwEABu3-NsKCKnHCbnMCq-rTdyWCY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rs6gWADdoA5kfx1eMOQEo8O9eLeViyyN",
+      "parent_id": "18sVRwEABu3-NsKCKnHCbnMCq-rTdyWCY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2831,
+      "modified": "2026-08-16T03:35:16.000Z",
+      "checksum": "16c718f0a0b26d348788f82c7d4c2bf8",
+      "folder": false
+    },
+    {
+      "id": "1Ii6T0crdhbywYSuqDFsyCfs_nphz2Lw_",
+      "parent_id": "18sVRwEABu3-NsKCKnHCbnMCq-rTdyWCY",
+      "name": "MẸ GHẺ CON GHẺ.epub",
+      "mime": "application/epub+zip",
+      "size": 546174,
+      "modified": "2026-08-16T03:35:23.000Z",
+      "checksum": "2792662718531cabdbfc07ec2612497d",
+      "folder": false
+    },
+    {
+      "id": "1TTvKPljq_s-s3ttCEDPjuw6n_l_PvKKD",
+      "parent_id": "18sVRwEABu3-NsKCKnHCbnMCq-rTdyWCY",
+      "name": "MẸ GHẺ CON GHẺ.pdf",
+      "mime": "application/pdf",
+      "size": 989406,
+      "modified": "2026-08-16T03:35:21.000Z",
+      "checksum": "01715cca6cd92bdaddc2dd8bb396e6c5",
+      "folder": false
+    }
+  ]
+}

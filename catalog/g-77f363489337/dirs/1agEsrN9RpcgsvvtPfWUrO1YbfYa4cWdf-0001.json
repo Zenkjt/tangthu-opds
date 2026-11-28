@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1agEsrN9RpcgsvvtPfWUrO1YbfYa4cWdf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aPIVa1OTZfQWOhmLqzyyV715vyFNwY1F",
+      "parent_id": "1agEsrN9RpcgsvvtPfWUrO1YbfYa4cWdf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2668,
+      "modified": "2026-08-16T03:32:05.000Z",
+      "checksum": "fdee516f71aa59dea72645a5a844d6aa",
+      "folder": false
+    },
+    {
+      "id": "1B8DOFH0SW81dSCWmxdWYHyNKDEekG996",
+      "parent_id": "1agEsrN9RpcgsvvtPfWUrO1YbfYa4cWdf",
+      "name": "TRÊN CẢ GIÀU CÓ.epub",
+      "mime": "application/epub+zip",
+      "size": 3508532,
+      "modified": "2026-08-16T03:32:14.000Z",
+      "checksum": "2f166ad2c064be4d52a6aadcdf315f59",
+      "folder": false
+    },
+    {
+      "id": "1vz_Z2IwUVxOC2oMSOdJT-iczUiK6hC-9",
+      "parent_id": "1agEsrN9RpcgsvvtPfWUrO1YbfYa4cWdf",
+      "name": "TRÊN CẢ GIÀU CÓ.pdf",
+      "mime": "application/pdf",
+      "size": 5019088,
+      "modified": "2026-08-16T03:32:10.000Z",
+      "checksum": "de4892e266b9b96a0ba8b06726a9fdef",
+      "folder": false
+    }
+  ]
+}

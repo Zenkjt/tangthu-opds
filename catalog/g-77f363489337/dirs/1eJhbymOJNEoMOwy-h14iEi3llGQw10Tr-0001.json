@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eJhbymOJNEoMOwy-h14iEi3llGQw10Tr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1G-q1c2jI1Me5rnwD4rSHUqn8eKFj5boI",
+      "parent_id": "1eJhbymOJNEoMOwy-h14iEi3llGQw10Tr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2805,
+      "modified": "2026-08-15T10:35:02.000Z",
+      "checksum": "f9047da0bfd570ebc97196bf9c3935b2",
+      "folder": false
+    },
+    {
+      "id": "1uGLVxF6E7einrUbPgWHqDTp0e4e_CtKC",
+      "parent_id": "1eJhbymOJNEoMOwy-h14iEi3llGQw10Tr",
+      "name": "NỤ HÔN ĐẦU CHO EM.epub",
+      "mime": "application/epub+zip",
+      "size": 542806,
+      "modified": "2026-08-15T10:35:11.000Z",
+      "checksum": "555d8ce662d55656a211a30600cba894",
+      "folder": false
+    },
+    {
+      "id": "1Y8wjrQKndQVOZou-75mJ1069yAHmsEIP",
+      "parent_id": "1eJhbymOJNEoMOwy-h14iEi3llGQw10Tr",
+      "name": "NỤ HÔN ĐẦU CHO EM.pdf",
+      "mime": "application/pdf",
+      "size": 1017251,
+      "modified": "2026-08-15T10:35:08.000Z",
+      "checksum": "998ed9b161dd84a3f3e3dd3e98c36933",
+      "folder": false
+    }
+  ]
+}

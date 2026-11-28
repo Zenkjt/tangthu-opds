@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PFk0Dxt99iLj6tOCwX55M_pABK-KMRcY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VkcifGLQDvDgnPQ8kW9GoR1rg3wn9vGg",
+      "parent_id": "1PFk0Dxt99iLj6tOCwX55M_pABK-KMRcY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3728,
+      "modified": "2026-08-15T03:20:51.000Z",
+      "checksum": "685e37447d99bbab6fb29cfd378f985e",
+      "folder": false
+    },
+    {
+      "id": "1ytOBv33O9VHhyowyn2BmcbkM8gFauGku",
+      "parent_id": "1PFk0Dxt99iLj6tOCwX55M_pABK-KMRcY",
+      "name": "TÂM LÝ HỌC NỘI MÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 816885,
+      "modified": "2026-08-15T03:21:01.000Z",
+      "checksum": "57a40c688c4ac97d8e06962c6d57666c",
+      "folder": false
+    },
+    {
+      "id": "1bKh0d3AARvPek1R0VSPWqQGZ6LWPf-E7",
+      "parent_id": "1PFk0Dxt99iLj6tOCwX55M_pABK-KMRcY",
+      "name": "TÂM LÝ HỌC NỘI MÔN.pdf",
+      "mime": "application/pdf",
+      "size": 4011388,
+      "modified": "2026-08-15T03:20:58.000Z",
+      "checksum": "29a9e151008db69334760fd265031b72",
+      "folder": false
+    }
+  ]
+}

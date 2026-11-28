@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yhKZYVKhWZIj5E33bEIQvOfwyqHs1yMN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1t0wC_ylYMOKkBr0OnEOxN5siaUrH8HP4",
+      "parent_id": "1yhKZYVKhWZIj5E33bEIQvOfwyqHs1yMN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2309,
+      "modified": "2026-08-15T03:37:58.000Z",
+      "checksum": "a429fb6be65783804c42fc797a898319",
+      "folder": false
+    },
+    {
+      "id": "1bSEQw1u_oRI_OoClwhH0-BWV2Zho-byh",
+      "parent_id": "1yhKZYVKhWZIj5E33bEIQvOfwyqHs1yMN",
+      "name": "KHUYÊN NGƯỜI NIỆM PHẬT - TẬP 1.epub",
+      "mime": "application/epub+zip",
+      "size": 1626609,
+      "modified": "2026-08-15T03:38:07.000Z",
+      "checksum": "0c8f638cc2b16a3cd7b16c937b909a09",
+      "folder": false
+    },
+    {
+      "id": "1chHgZAvWbWbjJ9bU__Z-94yVArE8wELf",
+      "parent_id": "1yhKZYVKhWZIj5E33bEIQvOfwyqHs1yMN",
+      "name": "KHUYÊN NGƯỜI NIỆM PHẬT - TẬP 1.pdf",
+      "mime": "application/pdf",
+      "size": 2797534,
+      "modified": "2026-08-15T03:38:04.000Z",
+      "checksum": "dba0cd406cff0d3360865da23c1faa2e",
+      "folder": false
+    }
+  ]
+}

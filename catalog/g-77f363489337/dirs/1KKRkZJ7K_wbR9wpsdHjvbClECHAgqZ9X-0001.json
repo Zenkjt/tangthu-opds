@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KKRkZJ7K_wbR9wpsdHjvbClECHAgqZ9X",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eDnzglTpPfQ3Lua8TUVf3n1NaTwu7zKw",
+      "parent_id": "1KKRkZJ7K_wbR9wpsdHjvbClECHAgqZ9X",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2222,
+      "modified": "2026-08-16T03:02:43.000Z",
+      "checksum": "a5bf03524f8c43d7cf347da539385eb7",
+      "folder": false
+    },
+    {
+      "id": "1rGt64M_gOtKzDTVr3CR0xYHqWWqgfHC0",
+      "parent_id": "1KKRkZJ7K_wbR9wpsdHjvbClECHAgqZ9X",
+      "name": "TRÒ CHƠI CỦA CHANCE.epub",
+      "mime": "application/epub+zip",
+      "size": 511930,
+      "modified": "2026-08-16T03:02:50.000Z",
+      "checksum": "35d44c20ebb8b524694a5b70dc033960",
+      "folder": false
+    },
+    {
+      "id": "19k60oagLDzUOrEyrcGBdo5eV93bV9Ou9",
+      "parent_id": "1KKRkZJ7K_wbR9wpsdHjvbClECHAgqZ9X",
+      "name": "TRÒ CHƠI CỦA CHANCE.pdf",
+      "mime": "application/pdf",
+      "size": 1007137,
+      "modified": "2026-08-16T03:02:48.000Z",
+      "checksum": "aab22980955ed0428be6b3c548e9af9b",
+      "folder": false
+    }
+  ]
+}

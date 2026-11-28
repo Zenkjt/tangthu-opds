@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rfMFCVs7hZeh3ZUQXHK1uOhMKYzFqjiq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ehX5Gr_uD4-jIx33DJssDEMxcvr-dwCy",
+      "parent_id": "1rfMFCVs7hZeh3ZUQXHK1uOhMKYzFqjiq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2245,
+      "modified": "2026-08-15T03:48:16.000Z",
+      "checksum": "00f25af8ddc78741d0d3b6dafccafa75",
+      "folder": false
+    },
+    {
+      "id": "1QLuDsB6Xoa3l355Ost4XxeZOOOWGioXi",
+      "parent_id": "1rfMFCVs7hZeh3ZUQXHK1uOhMKYzFqjiq",
+      "name": "TRUYỆN PHẬT THÍCH CA.epub",
+      "mime": "application/epub+zip",
+      "size": 1059117,
+      "modified": "2026-08-15T03:48:23.000Z",
+      "checksum": "a2867bb6bb377ac9aa30a869c4a03c55",
+      "folder": false
+    },
+    {
+      "id": "1Afi6fYUGJKfzpCD6LSekZSBRIz2BWySm",
+      "parent_id": "1rfMFCVs7hZeh3ZUQXHK1uOhMKYzFqjiq",
+      "name": "TRUYỆN PHẬT THÍCH CA.pdf",
+      "mime": "application/pdf",
+      "size": 725564,
+      "modified": "2026-08-15T03:48:20.000Z",
+      "checksum": "a4d55ad44fd10de4b9d2b7fd98affdd6",
+      "folder": false
+    }
+  ]
+}

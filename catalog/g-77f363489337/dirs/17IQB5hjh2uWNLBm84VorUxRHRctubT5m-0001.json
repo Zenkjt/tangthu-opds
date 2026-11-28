@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17IQB5hjh2uWNLBm84VorUxRHRctubT5m",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eQ801D0jTghBIjFziBhoqNnZgXnnRzA-",
+      "parent_id": "17IQB5hjh2uWNLBm84VorUxRHRctubT5m",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3410,
+      "modified": "2026-08-16T04:04:29.000Z",
+      "checksum": "815d9596624f8398bb1ca8bdc0aac6ca",
+      "folder": false
+    },
+    {
+      "id": "1276OmaG-VgXyb9iRbC_u5ntgoVMOqTaQ",
+      "parent_id": "17IQB5hjh2uWNLBm84VorUxRHRctubT5m",
+      "name": "SAM SAM, ĐẾN ĐÂY ĂN NÈ.epub",
+      "mime": "application/epub+zip",
+      "size": 468528,
+      "modified": "2026-08-16T04:04:36.000Z",
+      "checksum": "f245b1af89072ec049f1fc8a7d746d1f",
+      "folder": false
+    },
+    {
+      "id": "1lzJ9mGcPCwY0ada_MQ0NIeBhbGH9mpX3",
+      "parent_id": "17IQB5hjh2uWNLBm84VorUxRHRctubT5m",
+      "name": "SAM SAM, ĐẾN ĐÂY ĂN NÈ.pdf",
+      "mime": "application/pdf",
+      "size": 1352319,
+      "modified": "2026-08-16T04:04:34.000Z",
+      "checksum": "e8621ab2367c7794595ebad7e1b44795",
+      "folder": false
+    }
+  ]
+}

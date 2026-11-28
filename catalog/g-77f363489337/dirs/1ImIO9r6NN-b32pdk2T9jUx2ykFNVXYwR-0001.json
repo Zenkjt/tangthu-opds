@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ImIO9r6NN-b32pdk2T9jUx2ykFNVXYwR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1o5gbkwEUMPA2U64am77OXSJEB3Vby1NN",
+      "parent_id": "1ImIO9r6NN-b32pdk2T9jUx2ykFNVXYwR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3009,
+      "modified": "2026-08-16T04:08:15.000Z",
+      "checksum": "7fdd7ed7a02f61792751732930b184a4",
+      "folder": false
+    },
+    {
+      "id": "1MRkZsuwj8EFC0ClFafgVog1QEGTugbwj",
+      "parent_id": "1ImIO9r6NN-b32pdk2T9jUx2ykFNVXYwR",
+      "name": "NỤ HÔN NGỌT NGÀO.epub",
+      "mime": "application/epub+zip",
+      "size": 483211,
+      "modified": "2026-08-16T04:08:22.000Z",
+      "checksum": "7bbf460fb13a7146c85fb88bf45df0e8",
+      "folder": false
+    },
+    {
+      "id": "1sgGdtiQq_k20S7kvre61-XxdiAtAu06Z",
+      "parent_id": "1ImIO9r6NN-b32pdk2T9jUx2ykFNVXYwR",
+      "name": "NỤ HÔN NGỌT NGÀO.pdf",
+      "mime": "application/pdf",
+      "size": 718263,
+      "modified": "2026-08-16T04:08:20.000Z",
+      "checksum": "ceb03dc7140958fba3c5dcbaf3fe8c98",
+      "folder": false
+    }
+  ]
+}

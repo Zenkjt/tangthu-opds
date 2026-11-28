@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10N0kll4WqtEI6_zt4sJGWzciU8HUl_ax",
+  "page": 1,
+  "items": [
+    {
+      "id": "10ERk3bOyxF8mLimXZ-jBxQVQXXEnz1YG",
+      "parent_id": "10N0kll4WqtEI6_zt4sJGWzciU8HUl_ax",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3219,
+      "modified": "2026-08-15T10:45:55.000Z",
+      "checksum": "77e2126cb4d6ad76f533faaaee2f1562",
+      "folder": false
+    },
+    {
+      "id": "1S6zzHDqnP9U-zjgKWwJWzzKYn2n1EDcC",
+      "parent_id": "10N0kll4WqtEI6_zt4sJGWzciU8HUl_ax",
+      "name": "NGỌC QUAN ÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 512157,
+      "modified": "2026-08-15T10:46:02.000Z",
+      "checksum": "3ee14d9c92ecfb04c96a141e8fafd663",
+      "folder": false
+    },
+    {
+      "id": "1QabPUjIPaD41Az1SULixzPTBAor3Kihc",
+      "parent_id": "10N0kll4WqtEI6_zt4sJGWzciU8HUl_ax",
+      "name": "NGỌC QUAN ÂM.pdf",
+      "mime": "application/pdf",
+      "size": 957875,
+      "modified": "2026-08-15T10:46:00.000Z",
+      "checksum": "369ab7a0d140149559e92a57ad5bc259",
+      "folder": false
+    }
+  ]
+}

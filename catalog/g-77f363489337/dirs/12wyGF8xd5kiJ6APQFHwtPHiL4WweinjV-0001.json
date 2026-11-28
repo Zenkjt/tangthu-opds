@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12wyGF8xd5kiJ6APQFHwtPHiL4WweinjV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sdrXzZSSivMUyr2FciwahRHi_UJiYnQp",
+      "parent_id": "12wyGF8xd5kiJ6APQFHwtPHiL4WweinjV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3080,
+      "modified": "2026-08-15T10:13:47.000Z",
+      "checksum": "124d6121c8e93b764b611dc99a582f82",
+      "folder": false
+    },
+    {
+      "id": "1RHZvXL59GsslRmi9_9VtjqsHgiGTM1qV",
+      "parent_id": "12wyGF8xd5kiJ6APQFHwtPHiL4WweinjV",
+      "name": "THIẾT THƯ TRÚC KIẾM.epub",
+      "mime": "application/epub+zip",
+      "size": 765410,
+      "modified": "2026-08-15T10:14:02.000Z",
+      "checksum": "67f48f8c58c320cbbb48482afa52c23d",
+      "folder": false
+    },
+    {
+      "id": "1wuL6bJyrdr7IX87uwcvU4_qq-XKo74_c",
+      "parent_id": "12wyGF8xd5kiJ6APQFHwtPHiL4WweinjV",
+      "name": "THIẾT THƯ TRÚC KIẾM.pdf",
+      "mime": "application/pdf",
+      "size": 5756036,
+      "modified": "2026-08-15T10:13:59.000Z",
+      "checksum": "66c9a4f74fb389bc9f823026ce51bfd4",
+      "folder": false
+    }
+  ]
+}

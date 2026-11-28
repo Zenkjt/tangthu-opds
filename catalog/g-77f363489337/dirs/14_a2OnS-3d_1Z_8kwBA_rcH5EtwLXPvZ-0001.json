@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14_a2OnS-3d_1Z_8kwBA_rcH5EtwLXPvZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1f2rSSW51juqpYgzmzNb32KiGYuJF3psB",
+      "parent_id": "14_a2OnS-3d_1Z_8kwBA_rcH5EtwLXPvZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4531,
+      "modified": "2026-08-16T03:16:53.000Z",
+      "checksum": "b18f684d773e237195973809f914fd73",
+      "folder": false
+    },
+    {
+      "id": "1qUap-nemF5AENgdVolX1_TR1C_-rJoWZ",
+      "parent_id": "14_a2OnS-3d_1Z_8kwBA_rcH5EtwLXPvZ",
+      "name": "GIÓ VĨNH CỬU.epub",
+      "mime": "application/epub+zip",
+      "size": 1381943,
+      "modified": "2026-08-16T03:17:02.000Z",
+      "checksum": "b81f7af29bfcf7303a125ed7bb09dfaf",
+      "folder": false
+    },
+    {
+      "id": "1GQOjMO8lNXbQQo-AAZVdyLKbVXlEfbvm",
+      "parent_id": "14_a2OnS-3d_1Z_8kwBA_rcH5EtwLXPvZ",
+      "name": "GIÓ VĨNH CỬU.pdf",
+      "mime": "application/pdf",
+      "size": 2062138,
+      "modified": "2026-08-16T03:16:59.000Z",
+      "checksum": "28fedd692577ddb40f445ce1aa298bbd",
+      "folder": false
+    }
+  ]
+}

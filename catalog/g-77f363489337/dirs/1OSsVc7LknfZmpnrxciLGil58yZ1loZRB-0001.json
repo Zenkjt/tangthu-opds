@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OSsVc7LknfZmpnrxciLGil58yZ1loZRB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XwMBubWzsCw324rrfBLY99zLlecmJLQE",
+      "parent_id": "1OSsVc7LknfZmpnrxciLGil58yZ1loZRB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 506,
+      "modified": "2026-08-15T10:06:43.000Z",
+      "checksum": "c85afb8fabdb02f15c93a2468aa8df79",
+      "folder": false
+    },
+    {
+      "id": "1Gw1rld1zr8sPLkYkKAUGKHiQkb8lnX9A",
+      "parent_id": "1OSsVc7LknfZmpnrxciLGil58yZ1loZRB",
+      "name": "TRƯỜNG HẬN (VÔ TÂM).epub",
+      "mime": "application/epub+zip",
+      "size": 668654,
+      "modified": "2026-08-15T10:06:54.000Z",
+      "checksum": "5ee54449a04701e763116e9d1ee98e1b",
+      "folder": false
+    },
+    {
+      "id": "1NO8AwrLWrPcDRJyVI-JI3WKrbqpXJYrP",
+      "parent_id": "1OSsVc7LknfZmpnrxciLGil58yZ1loZRB",
+      "name": "TRƯỜNG HẬN (VÔ TÂM).pdf",
+      "mime": "application/pdf",
+      "size": 1895499,
+      "modified": "2026-08-15T10:06:50.000Z",
+      "checksum": "4cd36194dcb050a92cb0512778cbe29f",
+      "folder": false
+    }
+  ]
+}

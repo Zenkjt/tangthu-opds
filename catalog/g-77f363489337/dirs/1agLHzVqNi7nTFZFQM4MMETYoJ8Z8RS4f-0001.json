@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1agLHzVqNi7nTFZFQM4MMETYoJ8Z8RS4f",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SUlCd8nde-xf-rHxcF8VTmBVEiVDIfaO",
+      "parent_id": "1agLHzVqNi7nTFZFQM4MMETYoJ8Z8RS4f",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1692,
+      "modified": "2026-08-15T09:51:03.000Z",
+      "checksum": "670527fa6650f7806cb3c384229b2293",
+      "folder": false
+    },
+    {
+      "id": "1FS_2-ccrVBFcEuCt-mQIyct9OCuGb4nz",
+      "parent_id": "1agLHzVqNi7nTFZFQM4MMETYoJ8Z8RS4f",
+      "name": "ĐINH NAM TI VŨ.epub",
+      "mime": "application/epub+zip",
+      "size": 590002,
+      "modified": "2026-08-15T09:51:11.000Z",
+      "checksum": "7eecb0faab4e0fa323474381e1bf3875",
+      "folder": false
+    },
+    {
+      "id": "1hf_yOggVY7_I767KhT-zqH30bIif7VTK",
+      "parent_id": "1agLHzVqNi7nTFZFQM4MMETYoJ8Z8RS4f",
+      "name": "ĐINH NAM TI VŨ.pdf",
+      "mime": "application/pdf",
+      "size": 1370704,
+      "modified": "2026-08-15T09:51:08.000Z",
+      "checksum": "3f6e88d9f90f9c68386f484bd32f06da",
+      "folder": false
+    }
+  ]
+}

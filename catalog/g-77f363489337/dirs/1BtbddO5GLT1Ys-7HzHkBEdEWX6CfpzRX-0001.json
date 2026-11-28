@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BtbddO5GLT1Ys-7HzHkBEdEWX6CfpzRX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Hs43AD1u00XCuljgUbnf84xSGuCVmc9x",
+      "parent_id": "1BtbddO5GLT1Ys-7HzHkBEdEWX6CfpzRX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3191,
+      "modified": "2026-08-15T10:23:44.000Z",
+      "checksum": "bf4c5a943f6736be005850de3b7617e1",
+      "folder": false
+    },
+    {
+      "id": "19YdrA1dU7eBvaeA2Np-d2scW1WsPSgkX",
+      "parent_id": "1BtbddO5GLT1Ys-7HzHkBEdEWX6CfpzRX",
+      "name": "TAM CUNG LỤC VIỆN THẤT THẬP NHỊ PHI.epub",
+      "mime": "application/epub+zip",
+      "size": 6689851,
+      "modified": "2026-08-15T10:24:07.000Z",
+      "checksum": "6f3ef18561c36df7de24610f9fac8872",
+      "folder": false
+    },
+    {
+      "id": "1-cJIvqishW1nRzaQGTCvv4IcvvEBn2Na",
+      "parent_id": "1BtbddO5GLT1Ys-7HzHkBEdEWX6CfpzRX",
+      "name": "TAM CUNG LỤC VIỆN THẤT THẬP NHỊ PHI.pdf",
+      "mime": "application/pdf",
+      "size": 10100464,
+      "modified": "2026-08-15T10:24:03.000Z",
+      "checksum": "613ad21be41cf23b30b47e77a66ddd40",
+      "folder": false
+    }
+  ]
+}

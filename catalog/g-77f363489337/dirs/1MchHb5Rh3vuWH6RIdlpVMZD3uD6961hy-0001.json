@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MchHb5Rh3vuWH6RIdlpVMZD3uD6961hy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1neIHVe-QJifAhJGpQhnrsYtcEIBs5WK5",
+      "parent_id": "1MchHb5Rh3vuWH6RIdlpVMZD3uD6961hy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2939,
+      "modified": "2026-08-15T05:53:10.000Z",
+      "checksum": "e3d595a2864e71515fb6b81a5b330483",
+      "folder": false
+    },
+    {
+      "id": "1cPoUoUSJaNvjvCdtDwnhnux8yKtHwKpc",
+      "parent_id": "1MchHb5Rh3vuWH6RIdlpVMZD3uD6961hy",
+      "name": "TÀO THÁO.epub",
+      "mime": "application/epub+zip",
+      "size": 864352,
+      "modified": "2026-08-15T05:53:17.000Z",
+      "checksum": "1849abc2fadad539b32d5ca58acd9bfb",
+      "folder": false
+    },
+    {
+      "id": "16K-snB53bdmxUivAQbQNqRlbDaist64P",
+      "parent_id": "1MchHb5Rh3vuWH6RIdlpVMZD3uD6961hy",
+      "name": "TÀO THÁO.pdf",
+      "mime": "application/pdf",
+      "size": 1349892,
+      "modified": "2026-08-15T05:53:14.000Z",
+      "checksum": "78b16a91d80d73e5e82ee679f849f052",
+      "folder": false
+    }
+  ]
+}

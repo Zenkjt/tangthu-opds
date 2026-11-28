@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1y69nyAcF8bMz8JQz3Ou2Jcsuwn_y2KBw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EhdMpS-KzM-ws-w5kAHGcanYsMePoYaW",
+      "parent_id": "1y69nyAcF8bMz8JQz3Ou2Jcsuwn_y2KBw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 550,
+      "modified": "2026-08-15T13:10:11.000Z",
+      "checksum": "bcc473b28520a90ba60749c464706748",
+      "folder": false
+    },
+    {
+      "id": "1ho8OqtYU7wbpsr9zFCWnrqYmBuuQcEa2",
+      "parent_id": "1y69nyAcF8bMz8JQz3Ou2Jcsuwn_y2KBw",
+      "name": "KINH DỊCH TRỌN BỘ.epub",
+      "mime": "application/epub+zip",
+      "size": 1142540,
+      "modified": "2026-08-15T13:10:55.000Z",
+      "checksum": "7c42f8a911be160eaaf339b1aa1a15d3",
+      "folder": false
+    },
+    {
+      "id": "1ZDLd4vwQf0PsZn6UbldBX4g5ifnMjLo7",
+      "parent_id": "1y69nyAcF8bMz8JQz3Ou2Jcsuwn_y2KBw",
+      "name": "KINH DỊCH TRỌN BỘ.pdf",
+      "mime": "application/pdf",
+      "size": 3928092,
+      "modified": "2026-08-15T13:10:49.000Z",
+      "checksum": "23ad1278dcf9d12710da45e136568e5f",
+      "folder": false
+    }
+  ]
+}

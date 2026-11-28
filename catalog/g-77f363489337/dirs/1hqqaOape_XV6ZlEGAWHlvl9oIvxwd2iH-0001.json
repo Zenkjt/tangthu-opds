@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hqqaOape_XV6ZlEGAWHlvl9oIvxwd2iH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AWaj2UPISkCCG0jUnzNiQaq7GatrwUQG",
+      "parent_id": "1hqqaOape_XV6ZlEGAWHlvl9oIvxwd2iH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 645,
+      "modified": "2026-08-15T10:59:46.000Z",
+      "checksum": "34f883f4d2f71253df99208c3771fa4f",
+      "folder": false
+    },
+    {
+      "id": "1AEKjXb2zB3P5GpMQYrU2YJ63YsYji66m",
+      "parent_id": "1hqqaOape_XV6ZlEGAWHlvl9oIvxwd2iH",
+      "name": "DÀNH HẾT CHO EM.epub",
+      "mime": "application/epub+zip",
+      "size": 503053,
+      "modified": "2026-08-15T10:59:53.000Z",
+      "checksum": "b56b42e062d0966f959a4fed712167a4",
+      "folder": false
+    },
+    {
+      "id": "19ESi9K6G64vfj7wPF6TS224G0B5Plkhv",
+      "parent_id": "1hqqaOape_XV6ZlEGAWHlvl9oIvxwd2iH",
+      "name": "DÀNH HẾT CHO EM.pdf",
+      "mime": "application/pdf",
+      "size": 1200461,
+      "modified": "2026-08-15T10:59:50.000Z",
+      "checksum": "c3a5e2c6d2ea93eb0a1f9cf8d0754d51",
+      "folder": false
+    }
+  ]
+}

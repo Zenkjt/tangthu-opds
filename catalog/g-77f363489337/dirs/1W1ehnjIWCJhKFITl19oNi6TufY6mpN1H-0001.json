@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1W1ehnjIWCJhKFITl19oNi6TufY6mpN1H",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iWAy3yeLoSAkNF-LBrmNnqR_ECdhevQU",
+      "parent_id": "1W1ehnjIWCJhKFITl19oNi6TufY6mpN1H",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1201,
+      "modified": "2026-08-15T09:37:08.000Z",
+      "checksum": "acde4b02cfdce6abf67939633f4a57e1",
+      "folder": false
+    },
+    {
+      "id": "1xd_tizooKUP3igJicStzlJClc06_pKmS",
+      "parent_id": "1W1ehnjIWCJhKFITl19oNi6TufY6mpN1H",
+      "name": "MẬT MÃ TÂY TẠNG - TẬP 10.epub",
+      "mime": "application/epub+zip",
+      "size": 907548,
+      "modified": "2026-08-15T09:38:02.000Z",
+      "checksum": "a82a0c5cc9453e6afd15ff59959bdec8",
+      "folder": false
+    },
+    {
+      "id": "1yickQNHHHP2a5z6yLJi6YNhxfpsh1ao9",
+      "parent_id": "1W1ehnjIWCJhKFITl19oNi6TufY6mpN1H",
+      "name": "MẬT MÃ TÂY TẠNG - TẬP 10.pdf",
+      "mime": "application/pdf",
+      "size": 4036267,
+      "modified": "2026-08-15T09:37:52.000Z",
+      "checksum": "d411f030df020cae86b16ff0765973b4",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zV7Un6A7yFOWk7DIARSvqm_J9WldSSbv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1447ujHG0Ry40gWcylRZcPjbK2rwOMECe",
+      "parent_id": "1zV7Un6A7yFOWk7DIARSvqm_J9WldSSbv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2742,
+      "modified": "2026-08-15T06:17:26.000Z",
+      "checksum": "3833c9cb8007beca19cb31ed60174939",
+      "folder": false
+    },
+    {
+      "id": "1wsOgAriFn79cG3O1uKUhYCcvX5vpwzSS",
+      "parent_id": "1zV7Un6A7yFOWk7DIARSvqm_J9WldSSbv",
+      "name": "NGUỒN GỐC MÃ LAI CỦA DÂN TỘC VIỆT NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 1283188,
+      "modified": "2026-08-15T06:17:44.000Z",
+      "checksum": "0e64fb31f79321cfa1890fc4d2e002c7",
+      "folder": false
+    },
+    {
+      "id": "12kSOZFvmSerztvWJ4dG6uwRZ764chBB9",
+      "parent_id": "1zV7Un6A7yFOWk7DIARSvqm_J9WldSSbv",
+      "name": "NGUỒN GỐC MÃ LAI CỦA DÂN TỘC VIỆT NAM.pdf",
+      "mime": "application/pdf",
+      "size": 3888314,
+      "modified": "2026-08-15T06:17:41.000Z",
+      "checksum": "13a767fdbc0da8e926e31100edb83791",
+      "folder": false
+    }
+  ]
+}

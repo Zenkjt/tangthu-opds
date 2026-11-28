@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sAlYcZ3d-hruAIunMczuBK4wyflB4UjR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GjBHygs7YYaH437K0TyvBxAUDdYZBZto",
+      "parent_id": "1sAlYcZ3d-hruAIunMczuBK4wyflB4UjR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7733,
+      "modified": "2026-08-15T07:46:27.000Z",
+      "checksum": "c555aab42caa687968e42dcf64d8daae",
+      "folder": false
+    },
+    {
+      "id": "1TBOt3f6n525XyXMO_2Iagia-D6IpSsBD",
+      "parent_id": "1sAlYcZ3d-hruAIunMczuBK4wyflB4UjR",
+      "name": "LỐI THOÁT CUỐI CÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1099603,
+      "modified": "2026-08-15T07:46:37.000Z",
+      "checksum": "9b4e8a91790a3e42119378d95b6b0efb",
+      "folder": false
+    },
+    {
+      "id": "1EnhUvt0sVkDdnejYEHKLDqJrFROAnoB8",
+      "parent_id": "1sAlYcZ3d-hruAIunMczuBK4wyflB4UjR",
+      "name": "LỐI THOÁT CUỐI CÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 1230328,
+      "modified": "2026-08-15T07:46:34.000Z",
+      "checksum": "ccf720edba713ba493ecf26f1e93c04e",
+      "folder": false
+    }
+  ]
+}

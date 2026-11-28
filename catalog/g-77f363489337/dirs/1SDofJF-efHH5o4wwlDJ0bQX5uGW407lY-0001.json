@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SDofJF-efHH5o4wwlDJ0bQX5uGW407lY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dn7H8zKP6-0d1z50QalDxz7hMNjP8PUh",
+      "parent_id": "1SDofJF-efHH5o4wwlDJ0bQX5uGW407lY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3121,
+      "modified": "2026-08-16T04:12:25.000Z",
+      "checksum": "b385686d7df4b00814e97e5d96cf9535",
+      "folder": false
+    },
+    {
+      "id": "1X9q-uGmr81B1-zHeLw7Rfh0ERBc8p2wB",
+      "parent_id": "1SDofJF-efHH5o4wwlDJ0bQX5uGW407lY",
+      "name": "NHÂN NGƯ CÔNG CHÚA.epub",
+      "mime": "application/epub+zip",
+      "size": 254652,
+      "modified": "2026-08-16T04:12:30.000Z",
+      "checksum": "261b9c8ee211d0ec195212bd965607d3",
+      "folder": false
+    },
+    {
+      "id": "11P8XAUvuFi83CScZhDx2Bo94ysPzvIFX",
+      "parent_id": "1SDofJF-efHH5o4wwlDJ0bQX5uGW407lY",
+      "name": "NHÂN NGƯ CÔNG CHÚA.pdf",
+      "mime": "application/pdf",
+      "size": 160154,
+      "modified": "2026-08-16T04:12:28.000Z",
+      "checksum": "352b053dd8f9d641892fe2b4cd9f0d12",
+      "folder": false
+    }
+  ]
+}

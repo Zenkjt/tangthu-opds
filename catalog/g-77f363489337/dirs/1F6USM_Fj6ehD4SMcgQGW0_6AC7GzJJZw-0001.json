@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1F6USM_Fj6ehD4SMcgQGW0_6AC7GzJJZw",
+  "page": 1,
+  "items": [
+    {
+      "id": "150fBdibg_DAbnmAkqXRagi_zzLTWo_b1",
+      "parent_id": "1F6USM_Fj6ehD4SMcgQGW0_6AC7GzJJZw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 573,
+      "modified": "2026-08-15T15:40:24.000Z",
+      "checksum": "ab91ea567093d749b38fa002006dc536",
+      "folder": false
+    },
+    {
+      "id": "1l3sJf_YGaMsjVkr1NPCwKMYc6BKC32Ic",
+      "parent_id": "1F6USM_Fj6ehD4SMcgQGW0_6AC7GzJJZw",
+      "name": "KHÔNG CÓ NGÀY MAI.epub",
+      "mime": "application/epub+zip",
+      "size": 591239,
+      "modified": "2026-08-15T15:40:32.000Z",
+      "checksum": "e67414d1b615fd5b0ce7650f8ae42997",
+      "folder": false
+    },
+    {
+      "id": "1ApCwQ1npDvmHPok32uCdR0K1AAi6Gi0U",
+      "parent_id": "1F6USM_Fj6ehD4SMcgQGW0_6AC7GzJJZw",
+      "name": "KHÔNG CÓ NGÀY MAI.pdf",
+      "mime": "application/pdf",
+      "size": 2029407,
+      "modified": "2026-08-15T15:40:29.000Z",
+      "checksum": "22b8984747fc1958ce176e1322b18917",
+      "folder": false
+    }
+  ]
+}

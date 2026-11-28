@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1953cmW292jYwfW_NjfmYoyuB8R0nNNoo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1saqfdaOH9DEu2E4QZUYw5vPrLSyu1idH",
+      "parent_id": "1953cmW292jYwfW_NjfmYoyuB8R0nNNoo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 522,
+      "modified": "2026-08-15T12:59:19.000Z",
+      "checksum": "5d8c7d6cf49262ecd571439aac70e952",
+      "folder": false
+    },
+    {
+      "id": "1HmTWs-YTi_HiGdYFGwcmADuKB_At_ng5",
+      "parent_id": "1953cmW292jYwfW_NjfmYoyuB8R0nNNoo",
+      "name": "PHAN CHÂU TRINH.epub",
+      "mime": "application/epub+zip",
+      "size": 430404,
+      "modified": "2026-08-15T12:59:25.000Z",
+      "checksum": "17f7332aa14fd3054f6cc112a914959d",
+      "folder": false
+    },
+    {
+      "id": "1sJ4yzY-xTz6dn68wGGqtjUqm7oa20T7W",
+      "parent_id": "1953cmW292jYwfW_NjfmYoyuB8R0nNNoo",
+      "name": "PHAN CHÂU TRINH.pdf",
+      "mime": "application/pdf",
+      "size": 662254,
+      "modified": "2026-08-15T12:59:23.000Z",
+      "checksum": "e52b9887831d7d52a4ef3a39302a3e28",
+      "folder": false
+    }
+  ]
+}

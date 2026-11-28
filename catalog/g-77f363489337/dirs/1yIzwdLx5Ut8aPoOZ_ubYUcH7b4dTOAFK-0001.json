@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yIzwdLx5Ut8aPoOZ_ubYUcH7b4dTOAFK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1s8u2pjiJq1D1tTD2CYtqgJOScKGNr0J0",
+      "parent_id": "1yIzwdLx5Ut8aPoOZ_ubYUcH7b4dTOAFK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2468,
+      "modified": "2026-08-15T09:38:38.000Z",
+      "checksum": "49429aba459c1a42112a7ae9fefcae32",
+      "folder": false
+    },
+    {
+      "id": "1Geg9ZvzkfWunHlQNFMd4HGX2YW7nSxKr",
+      "parent_id": "1yIzwdLx5Ut8aPoOZ_ubYUcH7b4dTOAFK",
+      "name": "THÀNH PHỐ SAU ÁNH HÀO QUANG.epub",
+      "mime": "application/epub+zip",
+      "size": 400973,
+      "modified": "2026-08-15T09:38:44.000Z",
+      "checksum": "fba238ab97ad98b8550fdfe3f92c3eda",
+      "folder": false
+    },
+    {
+      "id": "1hiFWGH6hZkxr70oVhcdDScHaqrcouQkG",
+      "parent_id": "1yIzwdLx5Ut8aPoOZ_ubYUcH7b4dTOAFK",
+      "name": "THÀNH PHỐ SAU ÁNH HÀO QUANG.pdf",
+      "mime": "application/pdf",
+      "size": 872327,
+      "modified": "2026-08-15T09:38:42.000Z",
+      "checksum": "d4c5433689504b69283cf4052466c9f6",
+      "folder": false
+    }
+  ]
+}

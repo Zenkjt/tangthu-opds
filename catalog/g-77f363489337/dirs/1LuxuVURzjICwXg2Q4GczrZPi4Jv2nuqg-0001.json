@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LuxuVURzjICwXg2Q4GczrZPi4Jv2nuqg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Cx2HBCSXXCW9qlu1DPEwnguyjbyUUrPp",
+      "parent_id": "1LuxuVURzjICwXg2Q4GczrZPi4Jv2nuqg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1100,
+      "modified": "2026-08-15T07:25:11.000Z",
+      "checksum": "4c70ef433082a5f2e8b2e573f8fd424e",
+      "folder": false
+    },
+    {
+      "id": "1Ob-n3oKDM0gR62qRhvZQu67DZ5u1NSVd",
+      "parent_id": "1LuxuVURzjICwXg2Q4GczrZPi4Jv2nuqg",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN 1200 CHỮ.epub",
+      "mime": "application/epub+zip",
+      "size": 1113446,
+      "modified": "2026-08-15T07:25:17.000Z",
+      "checksum": "34948b26a9a0d219a5d9e61778f01009",
+      "folder": false
+    },
+    {
+      "id": "1dlkTC8DqoaQc_kV4WmXM2Fw509sJXYFL",
+      "parent_id": "1LuxuVURzjICwXg2Q4GczrZPi4Jv2nuqg",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN 1200 CHỮ.pdf",
+      "mime": "application/pdf",
+      "size": 1347577,
+      "modified": "2026-08-15T07:25:14.000Z",
+      "checksum": "4590bff773d0f3c0fcfbf9b6029d44b2",
+      "folder": false
+    }
+  ]
+}

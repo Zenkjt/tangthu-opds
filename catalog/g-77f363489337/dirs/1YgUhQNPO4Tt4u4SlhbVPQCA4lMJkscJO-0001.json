@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YgUhQNPO4Tt4u4SlhbVPQCA4lMJkscJO",
+  "page": 1,
+  "items": [
+    {
+      "id": "10aH7T-y624piJiOOlT3h_f9DxvKN_N29",
+      "parent_id": "1YgUhQNPO4Tt4u4SlhbVPQCA4lMJkscJO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3354,
+      "modified": "2026-08-15T08:03:34.000Z",
+      "checksum": "c0b0e522a99b49c65ae09f0ec9f45f88",
+      "folder": false
+    },
+    {
+      "id": "1MUbPqaJuRgNdhD0PFBcZFxHMfH2bhblU",
+      "parent_id": "1YgUhQNPO4Tt4u4SlhbVPQCA4lMJkscJO",
+      "name": "GIÓ QUA RẶNG LIỄU.epub",
+      "mime": "application/epub+zip",
+      "size": 1202854,
+      "modified": "2026-08-15T08:03:41.000Z",
+      "checksum": "0844edcb13956fa3d05f1f996e65cb81",
+      "folder": false
+    },
+    {
+      "id": "1DNJ1VXnCyqCnx9e-oo6-7fGm__qUd4KP",
+      "parent_id": "1YgUhQNPO4Tt4u4SlhbVPQCA4lMJkscJO",
+      "name": "GIÓ QUA RẶNG LIỄU.pdf",
+      "mime": "application/pdf",
+      "size": 948206,
+      "modified": "2026-08-15T08:03:38.000Z",
+      "checksum": "f760040e931335cb077090ccb1a907e1",
+      "folder": false
+    }
+  ]
+}

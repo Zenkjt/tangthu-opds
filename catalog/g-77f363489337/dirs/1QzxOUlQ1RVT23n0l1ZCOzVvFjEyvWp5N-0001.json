@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QzxOUlQ1RVT23n0l1ZCOzVvFjEyvWp5N",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bgTdZjKfNUi77hr_bkL40u76gAiqBfhW",
+      "parent_id": "1QzxOUlQ1RVT23n0l1ZCOzVvFjEyvWp5N",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3477,
+      "modified": "2026-08-15T13:12:31.000Z",
+      "checksum": "a953985f3ba2a637f4b9515570f9eec1",
+      "folder": false
+    },
+    {
+      "id": "1BaT7JjwCvYh4rtIDB6NVV_55L7EipZz4",
+      "parent_id": "1QzxOUlQ1RVT23n0l1ZCOzVvFjEyvWp5N",
+      "name": "TỬ VI NGHIỆM LÝ TOÀN THƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 466487,
+      "modified": "2026-08-15T13:12:37.000Z",
+      "checksum": "eb75e7dabb2ffe278990d1bc3fed33f7",
+      "folder": false
+    },
+    {
+      "id": "1siMq5RSpJDps-7xVyHGnpAgKuujNcHyX",
+      "parent_id": "1QzxOUlQ1RVT23n0l1ZCOzVvFjEyvWp5N",
+      "name": "TỬ VI NGHIỆM LÝ TOÀN THƯ.pdf",
+      "mime": "application/pdf",
+      "size": 1097713,
+      "modified": "2026-08-15T13:12:35.000Z",
+      "checksum": "d8b2c9fa48277ffa1f1f0c0b6e6d58a0",
+      "folder": false
+    }
+  ]
+}

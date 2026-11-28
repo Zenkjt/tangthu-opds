@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11-kIBipicHSfKiO2mVX9t6GShEvxstwx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Y7Pw1qgFPR-9uJAceKO-qrPlgJa2U6xN",
+      "parent_id": "11-kIBipicHSfKiO2mVX9t6GShEvxstwx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1683,
+      "modified": "2026-08-16T03:31:28.000Z",
+      "checksum": "1312dc9e63b5dfbfe41ab95d5d6fc4c8",
+      "folder": false
+    },
+    {
+      "id": "13QMj4HBSHtNHvu09Dj4_Z-4pA2kw9tvW",
+      "parent_id": "11-kIBipicHSfKiO2mVX9t6GShEvxstwx",
+      "name": "PHÉP MÀU.epub",
+      "mime": "application/epub+zip",
+      "size": 424010,
+      "modified": "2026-08-16T03:31:34.000Z",
+      "checksum": "d76d2c9313d1edda378ce6c8a397f9e0",
+      "folder": false
+    },
+    {
+      "id": "1U60YBVqricRK1UYKmFaHfCiEy1mQ68TF",
+      "parent_id": "11-kIBipicHSfKiO2mVX9t6GShEvxstwx",
+      "name": "PHÉP MÀU.pdf",
+      "mime": "application/pdf",
+      "size": 289831,
+      "modified": "2026-08-16T03:31:31.000Z",
+      "checksum": "1943e32840509aeaa377ebd080538bc3",
+      "folder": false
+    }
+  ]
+}

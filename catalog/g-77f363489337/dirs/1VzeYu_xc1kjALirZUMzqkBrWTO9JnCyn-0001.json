@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VzeYu_xc1kjALirZUMzqkBrWTO9JnCyn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pg_uvEoMcHpX638_3_Oe0kCztBgUVBmE",
+      "parent_id": "1VzeYu_xc1kjALirZUMzqkBrWTO9JnCyn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2614,
+      "modified": "2026-08-16T03:42:37.000Z",
+      "checksum": "f38f4860f06d900aeb69b59569a7c566",
+      "folder": false
+    },
+    {
+      "id": "1edQZ9aBRVhWdAZ8CBzSPQCP9zG46UpoS",
+      "parent_id": "1VzeYu_xc1kjALirZUMzqkBrWTO9JnCyn",
+      "name": "DƯỚI ÁNH SAO THU.epub",
+      "mime": "application/epub+zip",
+      "size": 484937,
+      "modified": "2026-08-16T03:42:42.000Z",
+      "checksum": "9bf28c96cf3ecf525e70ef2e2b4059aa",
+      "folder": false
+    },
+    {
+      "id": "1lZSSn0ZIbV1URBGOlrWhhIsDVmXs6NMv",
+      "parent_id": "1VzeYu_xc1kjALirZUMzqkBrWTO9JnCyn",
+      "name": "DƯỚI ÁNH SAO THU.pdf",
+      "mime": "application/pdf",
+      "size": 649045,
+      "modified": "2026-08-16T03:42:40.000Z",
+      "checksum": "d2eb981ebd5cb8d5d02f29ae1e9c4069",
+      "folder": false
+    }
+  ]
+}

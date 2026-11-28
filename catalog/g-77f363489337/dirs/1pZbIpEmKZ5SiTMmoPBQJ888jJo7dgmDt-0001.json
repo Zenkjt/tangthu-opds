@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pZbIpEmKZ5SiTMmoPBQJ888jJo7dgmDt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xitykpWwSlsqXniChh10KoaLEZh-LFOd",
+      "parent_id": "1pZbIpEmKZ5SiTMmoPBQJ888jJo7dgmDt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5640,
+      "modified": "2026-08-15T07:22:42.000Z",
+      "checksum": "caf2a8cfbbd571afe1c217e9d3d6089a",
+      "folder": false
+    },
+    {
+      "id": "1MK-Pwzwokg0lPX8c1kYV2dpymHloknZP",
+      "parent_id": "1pZbIpEmKZ5SiTMmoPBQJ888jJo7dgmDt",
+      "name": "TRƯỚC LÀ TIỂU NHÂN SAU LÀ QUÂN TỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 3437936,
+      "modified": "2026-08-15T07:22:53.000Z",
+      "checksum": "62911ae83c4930fb83fabfd63b767d44",
+      "folder": false
+    },
+    {
+      "id": "16x09UDEW6d9xvvFwnLr5nZagw51DhWrf",
+      "parent_id": "1pZbIpEmKZ5SiTMmoPBQJ888jJo7dgmDt",
+      "name": "TRƯỚC LÀ TIỂU NHÂN SAU LÀ QUÂN TỬ.pdf",
+      "mime": "application/pdf",
+      "size": 2788178,
+      "modified": "2026-08-15T07:22:48.000Z",
+      "checksum": "475fa757ed5848d91fa2a7ce7ef102b8",
+      "folder": false
+    }
+  ]
+}

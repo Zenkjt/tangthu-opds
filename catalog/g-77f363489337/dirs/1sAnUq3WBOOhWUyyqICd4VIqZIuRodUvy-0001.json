@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sAnUq3WBOOhWUyyqICd4VIqZIuRodUvy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zm_0TkXdVyNCOl4QkL1yNB6twroVqm4h",
+      "parent_id": "1sAnUq3WBOOhWUyyqICd4VIqZIuRodUvy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2794,
+      "modified": "2026-08-15T03:43:06.000Z",
+      "checksum": "99050686685f5fe2af2eeebe9d9c12b6",
+      "folder": false
+    },
+    {
+      "id": "1ntsH1TrmhJhT3TQD5qDoO49Uv4V-ib88",
+      "parent_id": "1sAnUq3WBOOhWUyyqICd4VIqZIuRodUvy",
+      "name": "KINH TĂNG CHI BỘ - TẬP 5.epub",
+      "mime": "application/epub+zip",
+      "size": 215530,
+      "modified": "2026-08-15T03:43:14.000Z",
+      "checksum": "320af84c5060b247e35bcab90eb7e9b5",
+      "folder": false
+    },
+    {
+      "id": "1LRCuDYpGVQIyVnLzgqrad9ERn2vexY0N",
+      "parent_id": "1sAnUq3WBOOhWUyyqICd4VIqZIuRodUvy",
+      "name": "KINH TĂNG CHI BỘ - TẬP 5.pdf",
+      "mime": "application/pdf",
+      "size": 1642610,
+      "modified": "2026-08-15T03:43:11.000Z",
+      "checksum": "eb53127e0b5db5b39f2f08aaad88b040",
+      "folder": false
+    }
+  ]
+}

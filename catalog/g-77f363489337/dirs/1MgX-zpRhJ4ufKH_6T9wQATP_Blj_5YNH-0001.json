@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MgX-zpRhJ4ufKH_6T9wQATP_Blj_5YNH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bxFiu5vF4QIMmtboYgLBFd5Ui-fCD3zy",
+      "parent_id": "1MgX-zpRhJ4ufKH_6T9wQATP_Blj_5YNH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3254,
+      "modified": "2026-08-15T10:32:02.000Z",
+      "checksum": "a37beb8bb271550589f2ce131b6d2179",
+      "folder": false
+    },
+    {
+      "id": "1PILqmvEWMQVUpjxEdoFTfuLrZgay52at",
+      "parent_id": "1MgX-zpRhJ4ufKH_6T9wQATP_Blj_5YNH",
+      "name": "PHÚC HẮC QUYẾT ĐẤU.epub",
+      "mime": "application/epub+zip",
+      "size": 1415813,
+      "modified": "2026-08-15T10:32:13.000Z",
+      "checksum": "d5cf0719a9e8d54b22b77d37318acce3",
+      "folder": false
+    },
+    {
+      "id": "17COhdYgcV8zsRxksJ9zQtU8kdnZnReSo",
+      "parent_id": "1MgX-zpRhJ4ufKH_6T9wQATP_Blj_5YNH",
+      "name": "PHÚC HẮC QUYẾT ĐẤU.pdf",
+      "mime": "application/pdf",
+      "size": 5345662,
+      "modified": "2026-08-15T10:32:10.000Z",
+      "checksum": "712a8129931aabda289da07e2f3267c4",
+      "folder": false
+    }
+  ]
+}

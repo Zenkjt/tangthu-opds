@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YEPN_KhnyHfDxm7rFe5k99kEqZWg-dzq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_7bjewsAe-gVbrRaIymXgVF18JOo3RZr",
+      "parent_id": "1YEPN_KhnyHfDxm7rFe5k99kEqZWg-dzq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7892,
+      "modified": "2026-08-15T07:20:46.000Z",
+      "checksum": "54479ddc833c7469d53be27795e5209b",
+      "folder": false
+    },
+    {
+      "id": "1LzJUBirhd-tz8HF3q6EMyJOCv96B2X4Z",
+      "parent_id": "1YEPN_KhnyHfDxm7rFe5k99kEqZWg-dzq",
+      "name": "TRÁI TIM MIỀN ÁI TỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 1362785,
+      "modified": "2026-08-15T07:20:53.000Z",
+      "checksum": "437cb78e25bccc0358429453c385c009",
+      "folder": false
+    },
+    {
+      "id": "1PYczhAUFG60ASbZPu5gkh6ntkoRj9hnp",
+      "parent_id": "1YEPN_KhnyHfDxm7rFe5k99kEqZWg-dzq",
+      "name": "TRÁI TIM MIỀN ÁI TỬ.pdf",
+      "mime": "application/pdf",
+      "size": 1241229,
+      "modified": "2026-08-15T07:20:50.000Z",
+      "checksum": "466b59c40b4a44a6a68c46a24717a841",
+      "folder": false
+    }
+  ]
+}

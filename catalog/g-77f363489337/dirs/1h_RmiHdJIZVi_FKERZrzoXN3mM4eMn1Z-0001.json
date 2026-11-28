@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1h_RmiHdJIZVi_FKERZrzoXN3mM4eMn1Z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZIf_OU7Y2lBqcSsRI7HD6hODjtGlZMom",
+      "parent_id": "1h_RmiHdJIZVi_FKERZrzoXN3mM4eMn1Z",
+      "name": "BÔNG HOA ĐÁ.epub",
+      "mime": "application/epub+zip",
+      "size": 400124,
+      "modified": "2026-08-16T03:17:30.000Z",
+      "checksum": "f5f8a762a72636a90da64435f589d2dc",
+      "folder": false
+    },
+    {
+      "id": "1rfNmywcj45NT3klZFpm9faD25GJiPtib",
+      "parent_id": "1h_RmiHdJIZVi_FKERZrzoXN3mM4eMn1Z",
+      "name": "BÔNG HOA ĐÁ.pdf",
+      "mime": "application/pdf",
+      "size": 462521,
+      "modified": "2026-08-16T03:17:28.000Z",
+      "checksum": "003677152ff6a732d7cc0f090b9c889f",
+      "folder": false
+    },
+    {
+      "id": "1qqs7_uQGgz8Zqhsc1SfYRbzFc2xhgqHQ",
+      "parent_id": "1h_RmiHdJIZVi_FKERZrzoXN3mM4eMn1Z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2732,
+      "modified": "2026-08-16T03:17:24.000Z",
+      "checksum": "e437849a1593126ee8d9df988788250e",
+      "folder": false
+    }
+  ]
+}

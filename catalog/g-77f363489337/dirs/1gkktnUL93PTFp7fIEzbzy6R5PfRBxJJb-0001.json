@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gkktnUL93PTFp7fIEzbzy6R5PfRBxJJb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1juuBnfrUumUkZzm4pJtd-IT31_M50By1",
+      "parent_id": "1gkktnUL93PTFp7fIEzbzy6R5PfRBxJJb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3146,
+      "modified": "2026-08-15T15:56:16.000Z",
+      "checksum": "e2cdb0671701378ddbb479d2b96edfa8",
+      "folder": false
+    },
+    {
+      "id": "13AiGbOsXl6xeXmNuV5m-qlhMKYtEVP3E",
+      "parent_id": "1gkktnUL93PTFp7fIEzbzy6R5PfRBxJJb",
+      "name": "TA MỚI LÀ SỦNG PHI.epub",
+      "mime": "application/epub+zip",
+      "size": 1946219,
+      "modified": "2026-08-15T15:57:03.000Z",
+      "checksum": "aec59e9b87d5766b99cb16d57cb445dd",
+      "folder": false
+    },
+    {
+      "id": "1dVnOApTteeqXjfSLoPKZl41iqWAqYAsX",
+      "parent_id": "1gkktnUL93PTFp7fIEzbzy6R5PfRBxJJb",
+      "name": "TA MỚI LÀ SỦNG PHI.pdf",
+      "mime": "application/pdf",
+      "size": 2242693,
+      "modified": "2026-08-15T15:56:39.000Z",
+      "checksum": "eba55ed53f1ca709ee194c1d7a1eb798",
+      "folder": false
+    }
+  ]
+}

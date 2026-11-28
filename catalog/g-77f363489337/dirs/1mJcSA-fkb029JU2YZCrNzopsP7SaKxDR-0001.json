@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mJcSA-fkb029JU2YZCrNzopsP7SaKxDR",
+  "page": 1,
+  "items": [
+    {
+      "id": "13lkSXkhJmbvqXk2xMO669SzXyacMR5IM",
+      "parent_id": "1mJcSA-fkb029JU2YZCrNzopsP7SaKxDR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 548,
+      "modified": "2026-08-15T10:07:07.000Z",
+      "checksum": "fb9d9456b48a9cdba392dafff73b6551",
+      "folder": false
+    },
+    {
+      "id": "1L7loq0jlZO3e9rH8t3QTrmtDcomFZplT",
+      "parent_id": "1mJcSA-fkb029JU2YZCrNzopsP7SaKxDR",
+      "name": "TRÒ CHƠI ÁC QUỶ.epub",
+      "mime": "application/epub+zip",
+      "size": 635344,
+      "modified": "2026-08-15T10:07:21.000Z",
+      "checksum": "1737eef02ff26f386c8b0905f5d1308a",
+      "folder": false
+    },
+    {
+      "id": "1mi6W-vFh2PyOQPTKb9LBXjOmFkiGY_3V",
+      "parent_id": "1mJcSA-fkb029JU2YZCrNzopsP7SaKxDR",
+      "name": "TRÒ CHƠI ÁC QUỶ.pdf",
+      "mime": "application/pdf",
+      "size": 1341816,
+      "modified": "2026-08-15T10:07:17.000Z",
+      "checksum": "4fe695e356f077b486dbb81774c7793f",
+      "folder": false
+    }
+  ]
+}

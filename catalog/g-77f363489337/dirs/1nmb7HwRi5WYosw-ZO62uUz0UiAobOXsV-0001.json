@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nmb7HwRi5WYosw-ZO62uUz0UiAobOXsV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dtWPKSGeCF16sJ21Qz5uoMTPSFe_zqIQ",
+      "parent_id": "1nmb7HwRi5WYosw-ZO62uUz0UiAobOXsV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3400,
+      "modified": "2026-08-15T10:23:36.000Z",
+      "checksum": "992f8de4f534afbb531e3faeb62f998e",
+      "folder": false
+    },
+    {
+      "id": "1AUHZ7akAFI-qstLf1j_fDT3ZEATUI3oH",
+      "parent_id": "1nmb7HwRi5WYosw-ZO62uUz0UiAobOXsV",
+      "name": "TẠI SAO KHÔNG LÀ EVANS.epub",
+      "mime": "application/epub+zip",
+      "size": 407932,
+      "modified": "2026-08-15T10:23:45.000Z",
+      "checksum": "6fc9b61917c6f9f63713b4d03937f862",
+      "folder": false
+    },
+    {
+      "id": "1dN4xkxF91EQ4q7a8yRyoF0NQS28B-80I",
+      "parent_id": "1nmb7HwRi5WYosw-ZO62uUz0UiAobOXsV",
+      "name": "TẠI SAO KHÔNG LÀ EVANS.pdf",
+      "mime": "application/pdf",
+      "size": 775982,
+      "modified": "2026-08-15T10:23:42.000Z",
+      "checksum": "4ee3111771a3d19b90f8ae4074011d44",
+      "folder": false
+    }
+  ]
+}

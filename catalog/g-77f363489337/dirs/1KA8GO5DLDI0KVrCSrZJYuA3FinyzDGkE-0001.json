@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KA8GO5DLDI0KVrCSrZJYuA3FinyzDGkE",
+  "page": 1,
+  "items": [
+    {
+      "id": "12j6ubi_09Qs5JlZj5ttwhPgitdjYS08U",
+      "parent_id": "1KA8GO5DLDI0KVrCSrZJYuA3FinyzDGkE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5539,
+      "modified": "2026-08-16T03:10:25.000Z",
+      "checksum": "1a69a4ced5cee417b14818036bc8d496",
+      "folder": false
+    },
+    {
+      "id": "1s1O8AKhWtL6q9heI3nu49AbTy365fWdF",
+      "parent_id": "1KA8GO5DLDI0KVrCSrZJYuA3FinyzDGkE",
+      "name": "TUYỂN TẬP TÁC PHẨM YASUNARI KAWABATA.epub",
+      "mime": "application/epub+zip",
+      "size": 2001680,
+      "modified": "2026-08-16T03:10:38.000Z",
+      "checksum": "091d96ab6ae7227dc8cd0a7c0ad09d6b",
+      "folder": false
+    },
+    {
+      "id": "1mhH49kaN8gg4zxj4bMnt9kNTtYVsbEom",
+      "parent_id": "1KA8GO5DLDI0KVrCSrZJYuA3FinyzDGkE",
+      "name": "TUYỂN TẬP TÁC PHẨM YASUNARI KAWABATA.pdf",
+      "mime": "application/pdf",
+      "size": 6068574,
+      "modified": "2026-08-16T03:10:34.000Z",
+      "checksum": "5f27b68a584a3ebdf1ee382bad1327ff",
+      "folder": false
+    }
+  ]
+}

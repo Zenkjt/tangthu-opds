@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sFVmrGPRWxmaZx01RnPdgXEoWHH6dZc7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uQARStq0duG9gvxm4yMdAsi8j2jfRvjQ",
+      "parent_id": "1sFVmrGPRWxmaZx01RnPdgXEoWHH6dZc7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2681,
+      "modified": "2026-08-16T03:36:11.000Z",
+      "checksum": "5d75c58bb30a488948394914c595e4cd",
+      "folder": false
+    },
+    {
+      "id": "1GY0vBfxSvOYVufQKaxmEDLPIAR244b4L",
+      "parent_id": "1sFVmrGPRWxmaZx01RnPdgXEoWHH6dZc7",
+      "name": "GỐI ĐẦU LÊN CỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 566917,
+      "modified": "2026-08-16T03:36:17.000Z",
+      "checksum": "b2cb61ecf4c3edad5698f2954fa2cc42",
+      "folder": false
+    },
+    {
+      "id": "1dVU60juREOb08pq8Vf4aQWRxgsb9m9Uc",
+      "parent_id": "1sFVmrGPRWxmaZx01RnPdgXEoWHH6dZc7",
+      "name": "GỐI ĐẦU LÊN CỎ.pdf",
+      "mime": "application/pdf",
+      "size": 999209,
+      "modified": "2026-08-16T03:36:14.000Z",
+      "checksum": "206efef8e37fb238a9ab0436142152a6",
+      "folder": false
+    }
+  ]
+}

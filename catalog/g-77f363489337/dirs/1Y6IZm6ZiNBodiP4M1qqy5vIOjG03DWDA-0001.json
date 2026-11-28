@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Y6IZm6ZiNBodiP4M1qqy5vIOjG03DWDA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NfP8w-P_oOG9Y5U4U42lEsOnJX0JrCu0",
+      "parent_id": "1Y6IZm6ZiNBodiP4M1qqy5vIOjG03DWDA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1420,
+      "modified": "2026-08-16T04:23:49.000Z",
+      "checksum": "ede82874d8f599856a98ff5a0723b606",
+      "folder": false
+    },
+    {
+      "id": "1dAz3cjwqtJAPsF9txeze0H1vrPnqFIOt",
+      "parent_id": "1Y6IZm6ZiNBodiP4M1qqy5vIOjG03DWDA",
+      "name": "MÓN LẠ MIỀN NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 235693,
+      "modified": "2026-08-16T04:23:58.000Z",
+      "checksum": "f24e5ed5a67285b337b0a357ec4e7861",
+      "folder": false
+    },
+    {
+      "id": "1SJFgR6rl-Q98oQhIPpf0mOaTbsIRK7lL",
+      "parent_id": "1Y6IZm6ZiNBodiP4M1qqy5vIOjG03DWDA",
+      "name": "MÓN LẠ MIỀN NAM.pdf",
+      "mime": "application/pdf",
+      "size": 437878,
+      "modified": "2026-08-16T04:23:54.000Z",
+      "checksum": "1fe4d38b8669a2d55a1cd1d33531ec98",
+      "folder": false
+    }
+  ]
+}

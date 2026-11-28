@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d8XzmTVVKfiHYxW10k1ycdR_5c4KId69",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dfdWTIaJsV1BTHZga006afTenWn9AWOx",
+      "parent_id": "1d8XzmTVVKfiHYxW10k1ycdR_5c4KId69",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 552,
+      "modified": "2026-08-15T15:35:35.000Z",
+      "checksum": "55de5fa221b0ed3a5f5adb0a594cd160",
+      "folder": false
+    },
+    {
+      "id": "1qkSb-Wg_f6FZY_ENOf7jXfIS4W34Jv1C",
+      "parent_id": "1d8XzmTVVKfiHYxW10k1ycdR_5c4KId69",
+      "name": "TÌNH YÊU PHÙ THỦY.epub",
+      "mime": "application/epub+zip",
+      "size": 410860,
+      "modified": "2026-08-15T15:35:59.000Z",
+      "checksum": "5eda96a404974f7b0d6d24cb124e2d8b",
+      "folder": false
+    },
+    {
+      "id": "1N64CxLuJGwGD9umHOVQ1SwmVZM2rCt7h",
+      "parent_id": "1d8XzmTVVKfiHYxW10k1ycdR_5c4KId69",
+      "name": "TÌNH YÊU PHÙ THỦY.pdf",
+      "mime": "application/pdf",
+      "size": 686600,
+      "modified": "2026-08-15T15:35:56.000Z",
+      "checksum": "4e9dd5969e3a77a5f98103daf4e6c553",
+      "folder": false
+    }
+  ]
+}

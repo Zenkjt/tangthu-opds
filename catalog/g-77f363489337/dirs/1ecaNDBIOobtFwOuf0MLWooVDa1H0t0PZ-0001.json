@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ecaNDBIOobtFwOuf0MLWooVDa1H0t0PZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iQohvfvl-1QnZmVdXZs3H8LG9qRenTXa",
+      "parent_id": "1ecaNDBIOobtFwOuf0MLWooVDa1H0t0PZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3242,
+      "modified": "2026-08-15T11:05:41.000Z",
+      "checksum": "bcb82d527365625d947deb4f8aa330c5",
+      "folder": false
+    },
+    {
+      "id": "19dgG0z26Gu8wcpGYcDTSxNORRSRJcF4A",
+      "parent_id": "1ecaNDBIOobtFwOuf0MLWooVDa1H0t0PZ",
+      "name": "GIỮA NHỮNG ĐIỀU BÌNH DỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 432819,
+      "modified": "2026-08-15T11:05:57.000Z",
+      "checksum": "da95a7929ca2e2c320889aff5276612a",
+      "folder": false
+    },
+    {
+      "id": "1kuxKeJCMKOjB7IOrz6RDdYP7X-HWniWV",
+      "parent_id": "1ecaNDBIOobtFwOuf0MLWooVDa1H0t0PZ",
+      "name": "GIỮA NHỮNG ĐIỀU BÌNH DỊ.pdf",
+      "mime": "application/pdf",
+      "size": 829567,
+      "modified": "2026-08-15T11:05:53.000Z",
+      "checksum": "d85d8d88868b7fb84ab7d715d73eda39",
+      "folder": false
+    }
+  ]
+}

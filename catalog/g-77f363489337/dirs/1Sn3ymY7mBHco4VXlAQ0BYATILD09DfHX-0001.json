@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Sn3ymY7mBHco4VXlAQ0BYATILD09DfHX",
+  "page": 1,
+  "items": [
+    {
+      "id": "11I5PQtLwTpiv0z4oK3mX-40O0gi5oI3m",
+      "parent_id": "1Sn3ymY7mBHco4VXlAQ0BYATILD09DfHX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 657,
+      "modified": "2026-08-15T10:37:11.000Z",
+      "checksum": "806302ba197ebe99c3cc391d5d22e57d",
+      "folder": false
+    },
+    {
+      "id": "1ldxljr6GIpMV9g1MWI7I9c9kWvNIG0DP",
+      "parent_id": "1Sn3ymY7mBHco4VXlAQ0BYATILD09DfHX",
+      "name": "NHỮNG KỲ VỌNG LỚN LAO.epub",
+      "mime": "application/epub+zip",
+      "size": 2966101,
+      "modified": "2026-08-15T10:37:22.000Z",
+      "checksum": "66570c8c0322c420fe53a32350fc1350",
+      "folder": false
+    },
+    {
+      "id": "151ZxyH2DSv5bJhcygr08bC-BR-uxQq8S",
+      "parent_id": "1Sn3ymY7mBHco4VXlAQ0BYATILD09DfHX",
+      "name": "NHỮNG KỲ VỌNG LỚN LAO.pdf",
+      "mime": "application/pdf",
+      "size": 4175017,
+      "modified": "2026-08-15T10:37:18.000Z",
+      "checksum": "d03ba5694a8ba8a4b4df163e54588902",
+      "folder": false
+    }
+  ]
+}

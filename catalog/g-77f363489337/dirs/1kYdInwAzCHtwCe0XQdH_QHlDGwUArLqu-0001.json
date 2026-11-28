@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kYdInwAzCHtwCe0XQdH_QHlDGwUArLqu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QMzQm5Is3Kd6rDwxC0qN0E1Cf3agetdc",
+      "parent_id": "1kYdInwAzCHtwCe0XQdH_QHlDGwUArLqu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1751,
+      "modified": "2026-08-16T03:26:33.000Z",
+      "checksum": "457f5f6a6d27cc6fe4ed923493a35e5e",
+      "folder": false
+    },
+    {
+      "id": "1F3ZvgXt5b2wOVnDK2A6ZE3n7V__YTRyN",
+      "parent_id": "1kYdInwAzCHtwCe0XQdH_QHlDGwUArLqu",
+      "name": "HẬU CUNG CHÂN HOÀN TRUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 650329,
+      "modified": "2026-08-16T03:26:41.000Z",
+      "checksum": "7bbd28977df17f6a2c392e28c1849af8",
+      "folder": false
+    },
+    {
+      "id": "18aLIkaQ1hCo0MQn2P6J5-8nkaKYPvbm_",
+      "parent_id": "1kYdInwAzCHtwCe0XQdH_QHlDGwUArLqu",
+      "name": "HẬU CUNG CHÂN HOÀN TRUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 1974350,
+      "modified": "2026-08-16T03:26:39.000Z",
+      "checksum": "6c36e8a216c478e83feb62dc63d34963",
+      "folder": false
+    }
+  ]
+}

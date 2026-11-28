@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZhEwtZagxQ3puMkMGNpKH2HloLq-P645",
+  "page": 1,
+  "items": [
+    {
+      "id": "1O--Qjgoqx5as3TMsX9lZrVhwDc37jruc",
+      "parent_id": "1ZhEwtZagxQ3puMkMGNpKH2HloLq-P645",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3650,
+      "modified": "2026-08-15T00:46:29.000Z",
+      "checksum": "069114f52c62b2a9953303a9ebd10221",
+      "folder": false
+    },
+    {
+      "id": "1wTWxd02n9jsq_aHGikkR-dHM08aWR9Pw",
+      "parent_id": "1ZhEwtZagxQ3puMkMGNpKH2HloLq-P645",
+      "name": "NGƯỜI NAM CHÂM - BÍ MẬT CỦA LUẬT HẤP DẪN.epub",
+      "mime": "application/epub+zip",
+      "size": 266684,
+      "modified": "2026-08-15T00:46:35.000Z",
+      "checksum": "202e735bf283ff1eaa9d3369517105e3",
+      "folder": false
+    },
+    {
+      "id": "1mSD47xmAD0QSq3sH-cHlYrSbcunx5Ojm",
+      "parent_id": "1ZhEwtZagxQ3puMkMGNpKH2HloLq-P645",
+      "name": "NGƯỜI NAM CHÂM - BÍ MẬT CỦA LUẬT HẤP DẪN.pdf",
+      "mime": "application/pdf",
+      "size": 969741,
+      "modified": "2026-08-15T00:46:33.000Z",
+      "checksum": "93e1d004f52bd44c4fecb265c09cde74",
+      "folder": false
+    }
+  ]
+}

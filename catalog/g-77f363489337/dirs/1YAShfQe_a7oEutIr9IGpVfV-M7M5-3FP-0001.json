@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YAShfQe_a7oEutIr9IGpVfV-M7M5-3FP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KRENGfqwvOPxKxUnNnSH-3AH9Q6whjs5",
+      "parent_id": "1YAShfQe_a7oEutIr9IGpVfV-M7M5-3FP",
+      "name": "CÚ SĂN ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 679585,
+      "modified": "2026-08-16T03:23:53.000Z",
+      "checksum": "bc1e1e1e7c2abe09edd6ff9e38b6db31",
+      "folder": false
+    },
+    {
+      "id": "1tzLH6b_ZJDsHqMqMcYV1W2EswCO4Xvaa",
+      "parent_id": "1YAShfQe_a7oEutIr9IGpVfV-M7M5-3FP",
+      "name": "CÚ SĂN ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 1284301,
+      "modified": "2026-08-16T03:23:51.000Z",
+      "checksum": "fb782166e66862ea650b11182d6deebe",
+      "folder": false
+    },
+    {
+      "id": "1sdGhKH0V9TBYmxKI-NAISnmZ6buOn9nx",
+      "parent_id": "1YAShfQe_a7oEutIr9IGpVfV-M7M5-3FP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6581,
+      "modified": "2026-08-16T03:23:46.000Z",
+      "checksum": "e874e02360a932ac79889c64cdf65374",
+      "folder": false
+    }
+  ]
+}

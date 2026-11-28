@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CMf63VBVrcv578izlgdG1Q6zVR5d0iLW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LA6LtTI1u4mgbMEGsfzf8oOQz9pBPaqU",
+      "parent_id": "1CMf63VBVrcv578izlgdG1Q6zVR5d0iLW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 949,
+      "modified": "2026-08-15T10:37:53.000Z",
+      "checksum": "e4ec2b53843002713ca643600d2c9b01",
+      "folder": false
+    },
+    {
+      "id": "1_V7Sd2OlhScN2IcW81fBtRNRMeXuyYU9",
+      "parent_id": "1CMf63VBVrcv578izlgdG1Q6zVR5d0iLW",
+      "name": "NHỮNG CHUYỆN KỂ CỦA BEEDLE NGƯỜI HÁT RONG.epub",
+      "mime": "application/epub+zip",
+      "size": 474203,
+      "modified": "2026-08-15T10:38:00.000Z",
+      "checksum": "611045d4049fc995d69233309eaeceae",
+      "folder": false
+    },
+    {
+      "id": "1zzbj6uvKeRP5-80KAJLK0tvB1qU7GeCl",
+      "parent_id": "1CMf63VBVrcv578izlgdG1Q6zVR5d0iLW",
+      "name": "NHỮNG CHUYỆN KỂ CỦA BEEDLE NGƯỜI HÁT RONG.pdf",
+      "mime": "application/pdf",
+      "size": 342572,
+      "modified": "2026-08-15T10:37:57.000Z",
+      "checksum": "8042b2f660b7f60327359dc553a41c7e",
+      "folder": false
+    }
+  ]
+}

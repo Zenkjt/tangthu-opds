@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EDSxHFhIf-fqK3naEYd1nhUtFcGWbX1n",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZCAGnNeI3QVrl-datRsjxmjFm5nRyGsh",
+      "parent_id": "1EDSxHFhIf-fqK3naEYd1nhUtFcGWbX1n",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2854,
+      "modified": "2026-08-15T10:17:19.000Z",
+      "checksum": "84c1b01b5f7d9a8ef1a64db16f16039f",
+      "folder": false
+    },
+    {
+      "id": "1IJ9h91zPVYHA_Ov6bS74Gj_HnBnuBSmG",
+      "parent_id": "1EDSxHFhIf-fqK3naEYd1nhUtFcGWbX1n",
+      "name": "THẦN VÕ CHIẾN VƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1701374,
+      "modified": "2026-08-15T10:17:40.000Z",
+      "checksum": "5dbfa1b5932694fd1d3870f5aad112e6",
+      "folder": false
+    },
+    {
+      "id": "1hFKLQX0MVHwFIxD9Re0_Ca6rlYxhYoRO",
+      "parent_id": "1EDSxHFhIf-fqK3naEYd1nhUtFcGWbX1n",
+      "name": "THẦN VÕ CHIẾN VƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 7053028,
+      "modified": "2026-08-15T10:17:35.000Z",
+      "checksum": "36b9f1207257c0a32b56408dba93668a",
+      "folder": false
+    }
+  ]
+}

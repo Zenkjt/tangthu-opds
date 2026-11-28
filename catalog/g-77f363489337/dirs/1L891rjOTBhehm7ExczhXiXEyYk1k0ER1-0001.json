@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1L891rjOTBhehm7ExczhXiXEyYk1k0ER1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1B_d_CkyKBGvEM8mw-MTqzh3UkknCcUGv",
+      "parent_id": "1L891rjOTBhehm7ExczhXiXEyYk1k0ER1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 554,
+      "modified": "2026-08-16T04:19:36.000Z",
+      "checksum": "7f093df1eadd2c4bbf489e1ac181b692",
+      "folder": false
+    },
+    {
+      "id": "11mrS-QeYlXCP7bH8zZAeF7WzY7Ym1H_q",
+      "parent_id": "1L891rjOTBhehm7ExczhXiXEyYk1k0ER1",
+      "name": "HỒ SINH TỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 764743,
+      "modified": "2026-08-16T04:19:49.000Z",
+      "checksum": "85d37107085d6ed89ed1cf32ff0bfafa",
+      "folder": false
+    },
+    {
+      "id": "1ewQSKYGEhi_GybBmNuvfNtsd9OAfRLkZ",
+      "parent_id": "1L891rjOTBhehm7ExczhXiXEyYk1k0ER1",
+      "name": "HỒ SINH TỬ.pdf",
+      "mime": "application/pdf",
+      "size": 2222284,
+      "modified": "2026-08-16T04:19:45.000Z",
+      "checksum": "de0c26b874c192b2699e8a9236131706",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1C-XCBEF6Gv__8iX-wZLmm_jkuDSyYLBT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LPFCJRnQ8t88cpYn9sw7Kt-xqx1YBemP",
+      "parent_id": "1C-XCBEF6Gv__8iX-wZLmm_jkuDSyYLBT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3450,
+      "modified": "2026-08-15T03:50:32.000Z",
+      "checksum": "23658e5f82e94f59689fbce89e786311",
+      "folder": false
+    },
+    {
+      "id": "1kXDGrDS1CxVhAY1enlv__6VZGiNr4L1v",
+      "parent_id": "1C-XCBEF6Gv__8iX-wZLmm_jkuDSyYLBT",
+      "name": "GIẢNG LÝ ÁNH SÁNG TRÊN ĐƯỜNG ĐẠO.epub",
+      "mime": "application/epub+zip",
+      "size": 618678,
+      "modified": "2026-08-15T03:50:40.000Z",
+      "checksum": "c5c3a33ada43726916606a3dd271fef2",
+      "folder": false
+    },
+    {
+      "id": "1KT0aTSK1aP6R7OsHNHELOPrDK5c-2y-a",
+      "parent_id": "1C-XCBEF6Gv__8iX-wZLmm_jkuDSyYLBT",
+      "name": "GIẢNG LÝ ÁNH SÁNG TRÊN ĐƯỜNG ĐẠO.pdf",
+      "mime": "application/pdf",
+      "size": 1857828,
+      "modified": "2026-08-15T03:50:37.000Z",
+      "checksum": "8783140f0de9dc4fe761a83f84ef972a",
+      "folder": false
+    }
+  ]
+}

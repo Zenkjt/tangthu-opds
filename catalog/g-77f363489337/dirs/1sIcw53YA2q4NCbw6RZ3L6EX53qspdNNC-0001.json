@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sIcw53YA2q4NCbw6RZ3L6EX53qspdNNC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1O7zXNuD7-irWhFzgHUd8OCke3CrRDNb-",
+      "parent_id": "1sIcw53YA2q4NCbw6RZ3L6EX53qspdNNC",
+      "name": "CỰC HẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 4011861,
+      "modified": "2026-08-16T03:44:52.000Z",
+      "checksum": "791785e9879a7682edf02449800c1043",
+      "folder": false
+    },
+    {
+      "id": "1w8Vr1SYOZHPE9fdviWFKe8J9qxCC88EF",
+      "parent_id": "1sIcw53YA2q4NCbw6RZ3L6EX53qspdNNC",
+      "name": "CỰC HẠN.pdf",
+      "mime": "application/pdf",
+      "size": 3812140,
+      "modified": "2026-08-16T03:44:47.000Z",
+      "checksum": "6aa72dd0d4fa3cff4ec93302188c1959",
+      "folder": false
+    },
+    {
+      "id": "1jHOOIDUywmJMfpvXWJwHdXZnj4ll8X4W",
+      "parent_id": "1sIcw53YA2q4NCbw6RZ3L6EX53qspdNNC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1236,
+      "modified": "2026-08-16T03:44:42.000Z",
+      "checksum": "0aa1379b523ed83507e93b27b8f0b015",
+      "folder": false
+    }
+  ]
+}

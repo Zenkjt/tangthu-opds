@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uRJ4pYyFxsnYBUm1aJ055ehtuMi-trDE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IvvRkSpi-e3QNbfKjpTeVhGsw7d4VSSv",
+      "parent_id": "1uRJ4pYyFxsnYBUm1aJ055ehtuMi-trDE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4268,
+      "modified": "2026-08-15T07:54:04.000Z",
+      "checksum": "886761e7a7b53a05f0dc9d5f14a879bb",
+      "folder": false
+    },
+    {
+      "id": "1ju-LSnVoIAJgpO2CVa-Wmvh-JZIJu7UB",
+      "parent_id": "1uRJ4pYyFxsnYBUm1aJ055ehtuMi-trDE",
+      "name": "NỐT RUỒI BÊN MÁ.epub",
+      "mime": "application/epub+zip",
+      "size": 247455,
+      "modified": "2026-08-15T07:54:10.000Z",
+      "checksum": "e578e31b4a457cc52f780b1c8145bc28",
+      "folder": false
+    },
+    {
+      "id": "1owFwlfMfm3cBK7vFqXh-oNvG1Gt7HyFf",
+      "parent_id": "1uRJ4pYyFxsnYBUm1aJ055ehtuMi-trDE",
+      "name": "NỐT RUỒI BÊN MÁ.pdf",
+      "mime": "application/pdf",
+      "size": 405102,
+      "modified": "2026-08-15T07:54:08.000Z",
+      "checksum": "6fd6aa4d443184725e556937ef5bb111",
+      "folder": false
+    }
+  ]
+}

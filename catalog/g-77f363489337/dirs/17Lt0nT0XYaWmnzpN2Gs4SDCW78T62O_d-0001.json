@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17Lt0nT0XYaWmnzpN2Gs4SDCW78T62O_d",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZfMK9HPNrMBiEFcGORkQ5e7iHzzXonJp",
+      "parent_id": "17Lt0nT0XYaWmnzpN2Gs4SDCW78T62O_d",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8297,
+      "modified": "2026-08-15T03:41:37.000Z",
+      "checksum": "e41f6a1947e360bb59c522c91f4eb58e",
+      "folder": false
+    },
+    {
+      "id": "1todGvG2GoCqxcP9ZSVwvWb7DAkcb-VdI",
+      "parent_id": "17Lt0nT0XYaWmnzpN2Gs4SDCW78T62O_d",
+      "name": "TÔI LÀ LỐI CỔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 305155,
+      "modified": "2026-08-15T03:41:46.000Z",
+      "checksum": "7c56b3f131c66a01f5f85fb4a17cbd89",
+      "folder": false
+    },
+    {
+      "id": "14Y0coeDoilJfl48ETEqI0y92sJjPRGhI",
+      "parent_id": "17Lt0nT0XYaWmnzpN2Gs4SDCW78T62O_d",
+      "name": "TÔI LÀ LỐI CỔNG.pdf",
+      "mime": "application/pdf",
+      "size": 1034778,
+      "modified": "2026-08-15T03:41:43.000Z",
+      "checksum": "fd774d31148a66042563b9db64542289",
+      "folder": false
+    }
+  ]
+}

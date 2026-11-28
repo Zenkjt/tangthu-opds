@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-ENATxZAzslX4thMSu3MGY9nvasIg1Bk",
+  "page": 1,
+  "items": [
+    {
+      "id": "10LqwLd_NIiyHLFINIMx4EGIvBRqtmG2O",
+      "parent_id": "1-ENATxZAzslX4thMSu3MGY9nvasIg1Bk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3223,
+      "modified": "2026-08-16T03:55:23.000Z",
+      "checksum": "bbbbc9ece13d82b9041b4c977778ae37",
+      "folder": false
+    },
+    {
+      "id": "1hlNqZtDrPj7br9fXSZTVQfkrO9bqArD7",
+      "parent_id": "1-ENATxZAzslX4thMSu3MGY9nvasIg1Bk",
+      "name": "TIỂU HOÀNG KHÔNG PHẢI TIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 1357453,
+      "modified": "2026-08-16T03:55:31.000Z",
+      "checksum": "2f1041a0d70f91726e7deb79ff59f862",
+      "folder": false
+    },
+    {
+      "id": "1Nefxfd5co6I9740LcLMMFDYXW_SzXf3C",
+      "parent_id": "1-ENATxZAzslX4thMSu3MGY9nvasIg1Bk",
+      "name": "TIỂU HOÀNG KHÔNG PHẢI TIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 1222058,
+      "modified": "2026-08-16T03:55:27.000Z",
+      "checksum": "5054c182b07583b37cbf859bf27dffc6",
+      "folder": false
+    }
+  ]
+}

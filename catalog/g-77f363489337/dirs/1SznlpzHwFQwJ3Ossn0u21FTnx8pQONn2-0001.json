@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SznlpzHwFQwJ3Ossn0u21FTnx8pQONn2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1E3Nu_6MLXh70YNiJdTmGsYHsPtHnxTXk",
+      "parent_id": "1SznlpzHwFQwJ3Ossn0u21FTnx8pQONn2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5621,
+      "modified": "2026-08-15T07:42:42.000Z",
+      "checksum": "d88f1cde33f0b72754ce9706491c0e35",
+      "folder": false
+    },
+    {
+      "id": "1EUnveQN1FVAhRyFjxt9WOd_RGF4xur42",
+      "parent_id": "1SznlpzHwFQwJ3Ossn0u21FTnx8pQONn2",
+      "name": "MIẾNG BỌT BIỂN MA QUÁI.epub",
+      "mime": "application/epub+zip",
+      "size": 549540,
+      "modified": "2026-08-15T07:42:48.000Z",
+      "checksum": "b02590c1c17058239ec59e5998d64d01",
+      "folder": false
+    },
+    {
+      "id": "1Da5p4t-IsMyauuvUKovEQF0K4pUBtuS8",
+      "parent_id": "1SznlpzHwFQwJ3Ossn0u21FTnx8pQONn2",
+      "name": "MIẾNG BỌT BIỂN MA QUÁI.pdf",
+      "mime": "application/pdf",
+      "size": 511259,
+      "modified": "2026-08-15T07:42:45.000Z",
+      "checksum": "2220cfc2315630a49ae48b652374509c",
+      "folder": false
+    }
+  ]
+}

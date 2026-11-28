@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1G0IqXp_FyFHCRrWIqi6HyyeAFj2RWAQG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YdvM0Z_-jL4lmSyDA-rmmUl4SzFAzvFR",
+      "parent_id": "1G0IqXp_FyFHCRrWIqi6HyyeAFj2RWAQG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3358,
+      "modified": "2026-08-15T10:45:52.000Z",
+      "checksum": "0d1f31acf4c57b12cf4ce5b849d6d391",
+      "folder": false
+    },
+    {
+      "id": "1WW_UZCwm220WbcZcP4hGUa8Gu0g96ZQb",
+      "parent_id": "1G0IqXp_FyFHCRrWIqi6HyyeAFj2RWAQG",
+      "name": "NGÔI MỘ BÍ ẨN.epub",
+      "mime": "application/epub+zip",
+      "size": 472965,
+      "modified": "2026-08-15T10:45:59.000Z",
+      "checksum": "70699e0cbb65c664e7ebff27d0c41562",
+      "folder": false
+    },
+    {
+      "id": "1-UiZf1FIQupOW9vbuu6hsfcgqCXzhhrQ",
+      "parent_id": "1G0IqXp_FyFHCRrWIqi6HyyeAFj2RWAQG",
+      "name": "NGÔI MỘ BÍ ẨN.pdf",
+      "mime": "application/pdf",
+      "size": 572737,
+      "modified": "2026-08-15T10:45:57.000Z",
+      "checksum": "87d66468f037a20dfcd1488ae73fc4a1",
+      "folder": false
+    }
+  ]
+}

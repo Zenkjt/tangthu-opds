@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lkgCKZCjqsYDXk9mPIUTEP1i-i47d0Ri",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PkSVIoEuUIdct_DfOG90o_vhdhS5paE6",
+      "parent_id": "1lkgCKZCjqsYDXk9mPIUTEP1i-i47d0Ri",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3023,
+      "modified": "2026-08-16T03:57:13.000Z",
+      "checksum": "957bc9a00b4cbb80f11f486c434da095",
+      "folder": false
+    },
+    {
+      "id": "18dHo-ZY9bujRWFTMN6LfuaLpg2ODTbIb",
+      "parent_id": "1lkgCKZCjqsYDXk9mPIUTEP1i-i47d0Ri",
+      "name": "THỊNH ĐƯỜNG QUẬT KHỞI.epub",
+      "mime": "application/epub+zip",
+      "size": 2803876,
+      "modified": "2026-08-16T03:57:21.000Z",
+      "checksum": "aff66b6d7396d6f6b3adc9217791fcab",
+      "folder": false
+    },
+    {
+      "id": "1lmHU93hrnKsAI3sFIS6_-HKVq_HOgK6P",
+      "parent_id": "1lkgCKZCjqsYDXk9mPIUTEP1i-i47d0Ri",
+      "name": "THỊNH ĐƯỜNG QUẬT KHỞI.pdf",
+      "mime": "application/pdf",
+      "size": 2115894,
+      "modified": "2026-08-16T03:57:18.000Z",
+      "checksum": "ec91e4664dfc0583466f1ae2568bdb64",
+      "folder": false
+    }
+  ]
+}

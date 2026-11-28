@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13mRc_uw6nlpcVk9hWoodWC_dEOIrwMgz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DxTFBdJVu8H5p_5tVOj39LoOZbOexjzH",
+      "parent_id": "13mRc_uw6nlpcVk9hWoodWC_dEOIrwMgz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4235,
+      "modified": "2026-08-15T07:55:44.000Z",
+      "checksum": "90824363d835611b7687a1a09235e870",
+      "folder": false
+    },
+    {
+      "id": "1qOvDdsP95fFErEQYEH7_DrvTGbYcVrT0",
+      "parent_id": "13mRc_uw6nlpcVk9hWoodWC_dEOIrwMgz",
+      "name": "DO KÝ KINH HỒNG CHIẾU ẢNH.epub",
+      "mime": "application/epub+zip",
+      "size": 687925,
+      "modified": "2026-08-15T07:55:52.000Z",
+      "checksum": "86ebc94a8c00a22e8c10e08a5c187e67",
+      "folder": false
+    },
+    {
+      "id": "1BOoJum4zpOYOBckZt7VWKTVIZWTlFa9g",
+      "parent_id": "13mRc_uw6nlpcVk9hWoodWC_dEOIrwMgz",
+      "name": "DO KÝ KINH HỒNG CHIẾU ẢNH.pdf",
+      "mime": "application/pdf",
+      "size": 2710128,
+      "modified": "2026-08-15T07:55:50.000Z",
+      "checksum": "96e9e1650b793cff7a7086736223074f",
+      "folder": false
+    }
+  ]
+}

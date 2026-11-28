@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UfgnCXA4h5r1FE8uuTCFsVNTlfXfKkXa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S7L85U1k05wyKwh-q4fzRzw_ZucEwJCp",
+      "parent_id": "1UfgnCXA4h5r1FE8uuTCFsVNTlfXfKkXa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3751,
+      "modified": "2026-08-16T03:59:06.000Z",
+      "checksum": "f22b40a40208d9bb3ca03ded985ad053",
+      "folder": false
+    },
+    {
+      "id": "1bOfzI3FrIL7ggVNC2BIj0HoWQkQgP7W5",
+      "parent_id": "1UfgnCXA4h5r1FE8uuTCFsVNTlfXfKkXa",
+      "name": "THÁP MUỐN VÀ ĐẾ CHẾ THI CA.epub",
+      "mime": "application/epub+zip",
+      "size": 755792,
+      "modified": "2026-08-16T03:59:11.000Z",
+      "checksum": "79f62af230625f2e126c5183a936d715",
+      "folder": false
+    },
+    {
+      "id": "1b0rrg7zutW75BmRd-wbTC83tlx5IguaO",
+      "parent_id": "1UfgnCXA4h5r1FE8uuTCFsVNTlfXfKkXa",
+      "name": "THÁP MUỐN VÀ ĐẾ CHẾ THI CA.pdf",
+      "mime": "application/pdf",
+      "size": 636481,
+      "modified": "2026-08-16T03:59:09.000Z",
+      "checksum": "8d8f132278c177789d502148177a35ed",
+      "folder": false
+    }
+  ]
+}

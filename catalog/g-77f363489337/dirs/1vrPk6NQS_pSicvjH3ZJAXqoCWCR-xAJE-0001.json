@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vrPk6NQS_pSicvjH3ZJAXqoCWCR-xAJE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1b5mh5JgtJkCC1MJdThQlaVK9qJaSsbrD",
+      "parent_id": "1vrPk6NQS_pSicvjH3ZJAXqoCWCR-xAJE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 575,
+      "modified": "2026-08-15T10:48:53.000Z",
+      "checksum": "4d012d1d03b26747bfb91d421c8b4d70",
+      "folder": false
+    },
+    {
+      "id": "1sQPo0PhhB2yOP4IP3M8mJDCq-8Ta4B5l",
+      "parent_id": "1vrPk6NQS_pSicvjH3ZJAXqoCWCR-xAJE",
+      "name": "MƯU SÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 552107,
+      "modified": "2026-08-15T10:49:07.000Z",
+      "checksum": "afbf04d552988770b903d7f590d5ee68",
+      "folder": false
+    },
+    {
+      "id": "1TphX_nmAXgnwot30H3xaC-kWVH4lncfL",
+      "parent_id": "1vrPk6NQS_pSicvjH3ZJAXqoCWCR-xAJE",
+      "name": "MƯU SÁT.pdf",
+      "mime": "application/pdf",
+      "size": 2126649,
+      "modified": "2026-08-15T10:49:03.000Z",
+      "checksum": "c30243c54b555c73c82d394846d0a9fb",
+      "folder": false
+    }
+  ]
+}

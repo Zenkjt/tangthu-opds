@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gK50TBhNPgWvtiIp02xduUuEY1hNfTNp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DQISPeMZ5M5kfx9FXj00r6EGNS4zBmuf",
+      "parent_id": "1gK50TBhNPgWvtiIp02xduUuEY1hNfTNp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10786,
+      "modified": "2026-08-16T03:11:48.000Z",
+      "checksum": "fc242397b414ede16926fbd203c9e55a",
+      "folder": false
+    },
+    {
+      "id": "1OfqSSX-KN6lQIbVRswImFTnTPIw1-2hy",
+      "parent_id": "1gK50TBhNPgWvtiIp02xduUuEY1hNfTNp",
+      "name": "GƯƠM THIÊNG TRẤN QUỐC.epub",
+      "mime": "application/epub+zip",
+      "size": 371787,
+      "modified": "2026-08-16T03:11:55.000Z",
+      "checksum": "59707edc0f5ef7b1ade358464bdf79e8",
+      "folder": false
+    },
+    {
+      "id": "17Dp3H9toKvGp3-xQBQ3cDrfcN7xumqZy",
+      "parent_id": "1gK50TBhNPgWvtiIp02xduUuEY1hNfTNp",
+      "name": "GƯƠM THIÊNG TRẤN QUỐC.pdf",
+      "mime": "application/pdf",
+      "size": 765033,
+      "modified": "2026-08-16T03:11:53.000Z",
+      "checksum": "d0e1588dc18f341b03aafadbed4c5135",
+      "folder": false
+    }
+  ]
+}

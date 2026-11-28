@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qZbbglbdZ_SGwudlJeYN4FmJv9cVhy3e",
+  "page": 1,
+  "items": [
+    {
+      "id": "1h4PA6TTnq2JcbP13uXE1UFjoYHKJHoRP",
+      "parent_id": "1qZbbglbdZ_SGwudlJeYN4FmJv9cVhy3e",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8006,
+      "modified": "2026-08-16T03:03:18.000Z",
+      "checksum": "569d3a642965276a763ebef2ae368a05",
+      "folder": false
+    },
+    {
+      "id": "1qa4OeX4kHSn_sWkSC0sedSFD3LADyDSQ",
+      "parent_id": "1qZbbglbdZ_SGwudlJeYN4FmJv9cVhy3e",
+      "name": "TRUYỆN THẦN TIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 485868,
+      "modified": "2026-08-16T03:03:24.000Z",
+      "checksum": "2df9e9cbae77fc8b03a021ed24f3ea43",
+      "folder": false
+    },
+    {
+      "id": "1JQWH4Hn2L3tKPWBaC6fpL8qOjy2zcvMM",
+      "parent_id": "1qZbbglbdZ_SGwudlJeYN4FmJv9cVhy3e",
+      "name": "TRUYỆN THẦN TIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 807199,
+      "modified": "2026-08-16T03:03:22.000Z",
+      "checksum": "cb72c963ef557ef6f325aa0780368781",
+      "folder": false
+    }
+  ]
+}

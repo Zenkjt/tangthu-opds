@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EfoVaSwUfproyI2nk2JrH6PnMisD-l_H",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eUp2NaJu5iDIVhg3ovzQSBVKll2NqT_l",
+      "parent_id": "1EfoVaSwUfproyI2nk2JrH6PnMisD-l_H",
+      "name": "CUỘC CHƠI.epub",
+      "mime": "application/epub+zip",
+      "size": 274537,
+      "modified": "2026-08-15T09:54:00.000Z",
+      "checksum": "4ed0894e3bcabc87254c334d8d3c9cc3",
+      "folder": false
+    },
+    {
+      "id": "1z3ZLFzWxDrb6k66Y_9qP7o1D2svR4j76",
+      "parent_id": "1EfoVaSwUfproyI2nk2JrH6PnMisD-l_H",
+      "name": "CUỘC CHƠI.pdf",
+      "mime": "application/pdf",
+      "size": 388525,
+      "modified": "2026-08-15T09:53:55.000Z",
+      "checksum": "041f2e135398a0463e352dde96da85de",
+      "folder": false
+    },
+    {
+      "id": "1CQcjIkIqLp51NZNFLAS1yMZhyUwmCMQN",
+      "parent_id": "1EfoVaSwUfproyI2nk2JrH6PnMisD-l_H",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1603,
+      "modified": "2026-08-15T09:53:48.000Z",
+      "checksum": "9786de4f9fcf26e3cd036ac365b0e9c3",
+      "folder": false
+    }
+  ]
+}

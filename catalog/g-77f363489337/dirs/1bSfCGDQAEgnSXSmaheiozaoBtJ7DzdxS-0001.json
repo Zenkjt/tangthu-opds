@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bSfCGDQAEgnSXSmaheiozaoBtJ7DzdxS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zpgmAjUc5-8Lr-5FF7bTdLhMM_1yOPZ5",
+      "parent_id": "1bSfCGDQAEgnSXSmaheiozaoBtJ7DzdxS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2452,
+      "modified": "2026-08-16T03:51:19.000Z",
+      "checksum": "086372900deb907ec63348074fec59b9",
+      "folder": false
+    },
+    {
+      "id": "1W7u4BUWIDTmN2AHHWr2vpR3mIfgWHOa8",
+      "parent_id": "1bSfCGDQAEgnSXSmaheiozaoBtJ7DzdxS",
+      "name": "VÙNG BIỂN LẶNG.epub",
+      "mime": "application/epub+zip",
+      "size": 173975,
+      "modified": "2026-08-16T03:51:24.000Z",
+      "checksum": "0a498a06d1248ca1c7ed50488a1e7133",
+      "folder": false
+    },
+    {
+      "id": "1XX181DhQAUPdmxeIS8Z1WvkwAOFodKcy",
+      "parent_id": "1bSfCGDQAEgnSXSmaheiozaoBtJ7DzdxS",
+      "name": "VÙNG BIỂN LẶNG.pdf",
+      "mime": "application/pdf",
+      "size": 332786,
+      "modified": "2026-08-16T03:51:22.000Z",
+      "checksum": "12c1ca8d9d8ae75637eda212518215b8",
+      "folder": false
+    }
+  ]
+}

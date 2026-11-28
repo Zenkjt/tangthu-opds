@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Xr17Z35bclzKvlLV_ryG8KAJFb1kyg2o",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wiUBeP_My8E7xM_BJOt4w5Etz5kTlOUU",
+      "parent_id": "1Xr17Z35bclzKvlLV_ryG8KAJFb1kyg2o",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3371,
+      "modified": "2026-08-15T10:19:48.000Z",
+      "checksum": "40977823d930114c9c9d06088cbac43b",
+      "folder": false
+    },
+    {
+      "id": "1CybmjkK2M5NDULpmq40XNBDLAhDsZ1Ct",
+      "parent_id": "1Xr17Z35bclzKvlLV_ryG8KAJFb1kyg2o",
+      "name": "THẢ THÍNH PHI PHI.epub",
+      "mime": "application/epub+zip",
+      "size": 728594,
+      "modified": "2026-08-15T10:20:09.000Z",
+      "checksum": "c2978822c72175b82815cd60442e3d90",
+      "folder": false
+    },
+    {
+      "id": "1xrveaJhfvLvKZinpnq2cBqU6tRWsyV4B",
+      "parent_id": "1Xr17Z35bclzKvlLV_ryG8KAJFb1kyg2o",
+      "name": "THẢ THÍNH PHI PHI.pdf",
+      "mime": "application/pdf",
+      "size": 2821347,
+      "modified": "2026-08-15T10:20:02.000Z",
+      "checksum": "82f3d896029c23bcd065cc700c7e4f0b",
+      "folder": false
+    }
+  ]
+}

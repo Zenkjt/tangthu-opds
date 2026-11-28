@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lO3MAdxXZdERhrefiqt48JyeF0U5gIR4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GSrf09oa8gPwaq07dSe92jUlLStF6Jhp",
+      "parent_id": "1lO3MAdxXZdERhrefiqt48JyeF0U5gIR4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12027,
+      "modified": "2026-08-16T03:06:33.000Z",
+      "checksum": "c487376421b5c0ccbeb0e225dd5d8cd3",
+      "folder": false
+    },
+    {
+      "id": "1VSJlXLpbUXO8r41FsOCf06MryqohiW6B",
+      "parent_id": "1lO3MAdxXZdERhrefiqt48JyeF0U5gIR4",
+      "name": "VƯỜN BƯỚM ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 990055,
+      "modified": "2026-08-16T03:06:41.000Z",
+      "checksum": "18e5b787171b57961f47c326bd1d69c5",
+      "folder": false
+    },
+    {
+      "id": "1mjnQRaUjq45jHFpb9LY4TAcLXiBfflW4",
+      "parent_id": "1lO3MAdxXZdERhrefiqt48JyeF0U5gIR4",
+      "name": "VƯỜN BƯỚM ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 1373889,
+      "modified": "2026-08-16T03:06:38.000Z",
+      "checksum": "871bab3729ab0441e0527543ed675d65",
+      "folder": false
+    }
+  ]
+}

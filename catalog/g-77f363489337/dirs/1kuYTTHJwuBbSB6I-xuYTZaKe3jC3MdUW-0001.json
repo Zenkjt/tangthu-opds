@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kuYTTHJwuBbSB6I-xuYTZaKe3jC3MdUW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ngK6tUBB166sr2tksM8Q_t8N5FsX7uCH",
+      "parent_id": "1kuYTTHJwuBbSB6I-xuYTZaKe3jC3MdUW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2438,
+      "modified": "2026-08-15T04:22:13.000Z",
+      "checksum": "d9b26dc2d8433550684183af42506f34",
+      "folder": false
+    },
+    {
+      "id": "1bUJqwtaWwJmn6GkDAocq6PPTjkPjCx_l",
+      "parent_id": "1kuYTTHJwuBbSB6I-xuYTZaKe3jC3MdUW",
+      "name": "NỘI LỰC TỰ SINH.epub",
+      "mime": "application/epub+zip",
+      "size": 267294,
+      "modified": "2026-08-15T04:22:24.000Z",
+      "checksum": "3babb12c01d0bc1734decf9efefe203d",
+      "folder": false
+    },
+    {
+      "id": "1DId-uekzwBh2y9AM_cBTloBLCifLyGSn",
+      "parent_id": "1kuYTTHJwuBbSB6I-xuYTZaKe3jC3MdUW",
+      "name": "NỘI LỰC TỰ SINH.pdf",
+      "mime": "application/pdf",
+      "size": 607335,
+      "modified": "2026-08-15T04:22:21.000Z",
+      "checksum": "8e0011cc9453abfee32b9b77f6fc5ff1",
+      "folder": false
+    }
+  ]
+}

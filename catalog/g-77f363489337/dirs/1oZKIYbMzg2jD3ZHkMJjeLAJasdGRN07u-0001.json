@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oZKIYbMzg2jD3ZHkMJjeLAJasdGRN07u",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oTBJHTHv4HElAF5ENs4Z1gQqOHoCspCG",
+      "parent_id": "1oZKIYbMzg2jD3ZHkMJjeLAJasdGRN07u",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 961,
+      "modified": "2026-08-15T03:37:52.000Z",
+      "checksum": "64d01254daa4bc22920bf92c0e3004f1",
+      "folder": false
+    },
+    {
+      "id": "1AKLDcVisiI9WXiYVW32Sglyrtnsm-FHv",
+      "parent_id": "1oZKIYbMzg2jD3ZHkMJjeLAJasdGRN07u",
+      "name": "THIẾT LẬP TỊNH ĐỘ.epub",
+      "mime": "application/epub+zip",
+      "size": 276949,
+      "modified": "2026-08-15T03:37:58.000Z",
+      "checksum": "d47f722d74694ed54714694174325642",
+      "folder": false
+    },
+    {
+      "id": "1ikheTYfuwDPhVaCcuZAWmuR1DU9jw_Ld",
+      "parent_id": "1oZKIYbMzg2jD3ZHkMJjeLAJasdGRN07u",
+      "name": "THIẾT LẬP TỊNH ĐỘ.pdf",
+      "mime": "application/pdf",
+      "size": 666553,
+      "modified": "2026-08-15T03:37:56.000Z",
+      "checksum": "900d6305cb92b9c672c3ff65c6995e72",
+      "folder": false
+    }
+  ]
+}

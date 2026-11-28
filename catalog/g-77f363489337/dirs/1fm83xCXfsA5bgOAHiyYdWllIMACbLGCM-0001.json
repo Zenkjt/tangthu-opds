@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fm83xCXfsA5bgOAHiyYdWllIMACbLGCM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_4TBQOPy5Dd85VsC9bjr-VCixuCMhuek",
+      "parent_id": "1fm83xCXfsA5bgOAHiyYdWllIMACbLGCM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3580,
+      "modified": "2026-08-15T10:14:34.000Z",
+      "checksum": "fa275d12fd5bc2b8ede1dcd302480f15",
+      "folder": false
+    },
+    {
+      "id": "1VF6VdRtl17tnL7wen3AXKfr_ZOpbVZwU",
+      "parent_id": "1fm83xCXfsA5bgOAHiyYdWllIMACbLGCM",
+      "name": "THIỀN SƯ DỰNG NƯỚC.epub",
+      "mime": "application/epub+zip",
+      "size": 575900,
+      "modified": "2026-08-15T10:14:41.000Z",
+      "checksum": "bc04611cacce14169af34403ba900985",
+      "folder": false
+    },
+    {
+      "id": "1LTcojILB2lB8akudk3BG1QzDcjj_ZV1E",
+      "parent_id": "1fm83xCXfsA5bgOAHiyYdWllIMACbLGCM",
+      "name": "THIỀN SƯ DỰNG NƯỚC.pdf",
+      "mime": "application/pdf",
+      "size": 1761617,
+      "modified": "2026-08-15T10:14:38.000Z",
+      "checksum": "80935eb3ac4f9e1e8b590ea3fd9e3160",
+      "folder": false
+    }
+  ]
+}

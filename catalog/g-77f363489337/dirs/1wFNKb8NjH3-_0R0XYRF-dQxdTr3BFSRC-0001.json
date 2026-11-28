@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wFNKb8NjH3-_0R0XYRF-dQxdTr3BFSRC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gmeXk95OIw5sNXfmxqTmrIhSg7eYx4xe",
+      "parent_id": "1wFNKb8NjH3-_0R0XYRF-dQxdTr3BFSRC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2810,
+      "modified": "2026-08-15T03:36:44.000Z",
+      "checksum": "35671f3e247d2b49e48a8c63bc4eb092",
+      "folder": false
+    },
+    {
+      "id": "1QhYPEmrWwyMJkAJT3Ta79Q5vQJP_YziR",
+      "parent_id": "1wFNKb8NjH3-_0R0XYRF-dQxdTr3BFSRC",
+      "name": "TAM TỔ TRÚC LÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 397851,
+      "modified": "2026-08-15T03:36:51.000Z",
+      "checksum": "1692527d0477b3f793c78495c441fa19",
+      "folder": false
+    },
+    {
+      "id": "1LcQVif13adDAd2ALGkl_iZRtDJL_TSFG",
+      "parent_id": "1wFNKb8NjH3-_0R0XYRF-dQxdTr3BFSRC",
+      "name": "TAM TỔ TRÚC LÂM.pdf",
+      "mime": "application/pdf",
+      "size": 1384947,
+      "modified": "2026-08-15T03:36:49.000Z",
+      "checksum": "ca4ffe1e3950a4ff6e616a14372486e1",
+      "folder": false
+    }
+  ]
+}

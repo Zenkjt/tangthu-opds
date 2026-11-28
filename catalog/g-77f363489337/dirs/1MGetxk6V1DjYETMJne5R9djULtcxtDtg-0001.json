@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MGetxk6V1DjYETMJne5R9djULtcxtDtg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CNtsHmI1raSatQsl5Ei3_eKiDvTO_FkD",
+      "parent_id": "1MGetxk6V1DjYETMJne5R9djULtcxtDtg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3598,
+      "modified": "2026-08-16T04:04:29.000Z",
+      "checksum": "05d1492525486c5241c4d2be0d42ef51",
+      "folder": false
+    },
+    {
+      "id": "1EexM_hMxOh5vTaWIj-v3sQ99XQKBUWW8",
+      "parent_id": "1MGetxk6V1DjYETMJne5R9djULtcxtDtg",
+      "name": "SẮC MÁU.epub",
+      "mime": "application/epub+zip",
+      "size": 940328,
+      "modified": "2026-08-16T04:04:36.000Z",
+      "checksum": "dafb48615f9cc15b056526aaa87421ff",
+      "folder": false
+    },
+    {
+      "id": "1zBSWVCjCzykwR0VmQOrNFczzOK9QxTvS",
+      "parent_id": "1MGetxk6V1DjYETMJne5R9djULtcxtDtg",
+      "name": "SẮC MÁU.pdf",
+      "mime": "application/pdf",
+      "size": 764554,
+      "modified": "2026-08-16T04:04:33.000Z",
+      "checksum": "2054e118f3cda7d4de1d64f02c0388ff",
+      "folder": false
+    }
+  ]
+}

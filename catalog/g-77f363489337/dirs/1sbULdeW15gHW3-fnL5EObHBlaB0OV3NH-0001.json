@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sbULdeW15gHW3-fnL5EObHBlaB0OV3NH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YrWaWZoesFX1gEcPyFFDl81ZVtc_YAOr",
+      "parent_id": "1sbULdeW15gHW3-fnL5EObHBlaB0OV3NH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 523,
+      "modified": "2026-08-15T10:35:07.000Z",
+      "checksum": "51b6a6e86d14f840c228fc52396f016d",
+      "folder": false
+    },
+    {
+      "id": "1xsBbl-pf2PzvMLiLVntN86ZBG-f8vIOF",
+      "parent_id": "1sbULdeW15gHW3-fnL5EObHBlaB0OV3NH",
+      "name": "NỮ TU SĨ.epub",
+      "mime": "application/epub+zip",
+      "size": 412949,
+      "modified": "2026-08-15T10:35:14.000Z",
+      "checksum": "92736e63ae66b318cb88b57704448daa",
+      "folder": false
+    },
+    {
+      "id": "1lR-1aBVkb4QlbyErBLCBEVymIAHAoc6C",
+      "parent_id": "1sbULdeW15gHW3-fnL5EObHBlaB0OV3NH",
+      "name": "NỮ TU SĨ.pdf",
+      "mime": "application/pdf",
+      "size": 811472,
+      "modified": "2026-08-15T10:35:11.000Z",
+      "checksum": "9acc6020fa5e74d1fc34b827051b89a1",
+      "folder": false
+    }
+  ]
+}

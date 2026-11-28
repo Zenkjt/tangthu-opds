@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-Z86UNVPg9qGuufr1v0MzWVKd92IS9Fo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dspz99sPDBEQnoJZU8l-ZO0-LYP7UMdz",
+      "parent_id": "1-Z86UNVPg9qGuufr1v0MzWVKd92IS9Fo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1702,
+      "modified": "2026-08-16T03:44:11.000Z",
+      "checksum": "cd51be6ced6cbc1e0bd2ce101af1e962",
+      "folder": false
+    },
+    {
+      "id": "1JZgWRcFk-G75qUbKATxIWV8EtbCwBrwT",
+      "parent_id": "1-Z86UNVPg9qGuufr1v0MzWVKd92IS9Fo",
+      "name": "ĐẶC CÔNG HOÀNG HẬU.epub",
+      "mime": "application/epub+zip",
+      "size": 9485756,
+      "modified": "2026-08-16T03:44:20.000Z",
+      "checksum": "3c5b15492cf431a1103069d29175e087",
+      "folder": false
+    },
+    {
+      "id": "17MriefNSo9rT32xx_APRc7-Gq60hKtd_",
+      "parent_id": "1-Z86UNVPg9qGuufr1v0MzWVKd92IS9Fo",
+      "name": "ĐẶC CÔNG HOÀNG HẬU.pdf",
+      "mime": "application/pdf",
+      "size": 4405117,
+      "modified": "2026-08-16T03:44:16.000Z",
+      "checksum": "5cb11057bb8f8160d1bf576964fe0954",
+      "folder": false
+    }
+  ]
+}

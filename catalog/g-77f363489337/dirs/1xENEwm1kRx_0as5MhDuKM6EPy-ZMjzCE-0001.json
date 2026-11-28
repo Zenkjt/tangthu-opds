@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xENEwm1kRx_0as5MhDuKM6EPy-ZMjzCE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NAIe48tnH7dcbSDnnEZu1vrC73Adx7Js",
+      "parent_id": "1xENEwm1kRx_0as5MhDuKM6EPy-ZMjzCE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4095,
+      "modified": "2026-08-15T05:44:18.000Z",
+      "checksum": "a9179f4a22798c2a651a845de05843d0",
+      "folder": false
+    },
+    {
+      "id": "1u1sNDTSwfiJO6_Bh6f_hSktsgUM1VtFk",
+      "parent_id": "1xENEwm1kRx_0as5MhDuKM6EPy-ZMjzCE",
+      "name": "TỰ THÚ - LEV NIKOLAYEVICH TOLSTOY.epub",
+      "mime": "application/epub+zip",
+      "size": 257454,
+      "modified": "2026-08-15T05:44:29.000Z",
+      "checksum": "52acbdec013a6a9958d13e757d95bce0",
+      "folder": false
+    },
+    {
+      "id": "1TT_U3kr7huAppq9Dgmn42seL5EGjP3HE",
+      "parent_id": "1xENEwm1kRx_0as5MhDuKM6EPy-ZMjzCE",
+      "name": "TỰ THÚ - LEV NIKOLAYEVICH TOLSTOY.pdf",
+      "mime": "application/pdf",
+      "size": 655277,
+      "modified": "2026-08-15T05:44:24.000Z",
+      "checksum": "52b82a425727a57053eab18b44736ec8",
+      "folder": false
+    }
+  ]
+}

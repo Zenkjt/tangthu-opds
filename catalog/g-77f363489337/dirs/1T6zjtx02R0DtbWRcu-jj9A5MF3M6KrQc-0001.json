@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1T6zjtx02R0DtbWRcu-jj9A5MF3M6KrQc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JrTAwN6-6ybE59Ux1QpOGuERVpd1Qp4J",
+      "parent_id": "1T6zjtx02R0DtbWRcu-jj9A5MF3M6KrQc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6246,
+      "modified": "2026-08-15T07:17:14.000Z",
+      "checksum": "9cdd202f119ca583f28a4c4b00c2b21a",
+      "folder": false
+    },
+    {
+      "id": "1_lIyAqqCbz9rWYH75b5lJYKNHBuroRYQ",
+      "parent_id": "1T6zjtx02R0DtbWRcu-jj9A5MF3M6KrQc",
+      "name": "JENNIE GERHARDT.epub",
+      "mime": "application/epub+zip",
+      "size": 642969,
+      "modified": "2026-08-15T07:17:37.000Z",
+      "checksum": "031c23f9e7989b86906fc46526474b9a",
+      "folder": false
+    },
+    {
+      "id": "1fy2GKhdcqkDS4d7UZp4fn8AvzqJUgAPr",
+      "parent_id": "1T6zjtx02R0DtbWRcu-jj9A5MF3M6KrQc",
+      "name": "JENNIE GERHARDT.pdf",
+      "mime": "application/pdf",
+      "size": 1887426,
+      "modified": "2026-08-15T07:17:33.000Z",
+      "checksum": "360b680e5f4293eb97829555f798b6b6",
+      "folder": false
+    }
+  ]
+}

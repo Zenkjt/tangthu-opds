@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wTfW1Zmigdqh8RbcAIhsBR3QoM7QVPl2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eegYjE9w3Zc49ruM6P8BRCbVDJEPYZFJ",
+      "parent_id": "1wTfW1Zmigdqh8RbcAIhsBR3QoM7QVPl2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3517,
+      "modified": "2026-08-15T15:39:31.000Z",
+      "checksum": "ed6ed148a493315b1acb2f1e78ada437",
+      "folder": false
+    },
+    {
+      "id": "1dmj_FJrfSwxwB9rUSmXlLRD08XDb-j3Z",
+      "parent_id": "1wTfW1Zmigdqh8RbcAIhsBR3QoM7QVPl2",
+      "name": "NHÂN CHỨNG BẢY TUỔI.epub",
+      "mime": "application/epub+zip",
+      "size": 468605,
+      "modified": "2026-08-15T15:39:38.000Z",
+      "checksum": "3353814986530052b31918709e6b2409",
+      "folder": false
+    },
+    {
+      "id": "1hPgIEYUtqtup3FNIkxiMdzQTpt9WgmVD",
+      "parent_id": "1wTfW1Zmigdqh8RbcAIhsBR3QoM7QVPl2",
+      "name": "NHÂN CHỨNG BẢY TUỔI.pdf",
+      "mime": "application/pdf",
+      "size": 910244,
+      "modified": "2026-08-15T15:39:35.000Z",
+      "checksum": "a64311a9c6905ed762b9c7d52f9ba6d7",
+      "folder": false
+    }
+  ]
+}

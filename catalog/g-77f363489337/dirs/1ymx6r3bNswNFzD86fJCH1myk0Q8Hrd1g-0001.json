@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ymx6r3bNswNFzD86fJCH1myk0Q8Hrd1g",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ffxqtUn8S0jfS01K0tp4p2-Sb8PYtIAS",
+      "parent_id": "1ymx6r3bNswNFzD86fJCH1myk0Q8Hrd1g",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 17018,
+      "modified": "2026-08-15T03:29:02.000Z",
+      "checksum": "b192901ddfaf8bc5eafab32922f74cbf",
+      "folder": false
+    },
+    {
+      "id": "1jlpVToCiWjDQpIIDrR-9tmt6KnYquXaC",
+      "parent_id": "1ymx6r3bNswNFzD86fJCH1myk0Q8Hrd1g",
+      "name": "HÀNH TRÌNH VỀ PHƯƠNG ĐÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 378802,
+      "modified": "2026-08-15T03:29:10.000Z",
+      "checksum": "ccf45205f54a835a0c037328f94f2203",
+      "folder": false
+    },
+    {
+      "id": "1HzMkkmadJ-Q9nPV8o8C846a1ONc0YYJ-",
+      "parent_id": "1ymx6r3bNswNFzD86fJCH1myk0Q8Hrd1g",
+      "name": "HÀNH TRÌNH VỀ PHƯƠNG ĐÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 805371,
+      "modified": "2026-08-15T03:29:08.000Z",
+      "checksum": "06309ae066aee90222281a71d5935c52",
+      "folder": false
+    }
+  ]
+}

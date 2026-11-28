@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1r5fGx4-uhoa6KCB93WudJKfP8ZEwR98s",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IpquCPAbbmDmX8EP0gCLDfWgZfo9BPBc",
+      "parent_id": "1r5fGx4-uhoa6KCB93WudJKfP8ZEwR98s",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1844,
+      "modified": "2026-08-15T03:46:50.000Z",
+      "checksum": "7657be598858a1b88832f621cd112390",
+      "folder": false
+    },
+    {
+      "id": "1hTj3fOpV98Aglwe7h8brgqzvzDqzLxsC",
+      "parent_id": "1r5fGx4-uhoa6KCB93WudJKfP8ZEwR98s",
+      "name": "THIÊN ĐẠO.epub",
+      "mime": "application/epub+zip",
+      "size": 205051,
+      "modified": "2026-08-15T03:46:56.000Z",
+      "checksum": "cd8ff4a3f24def0a76029f4328058f13",
+      "folder": false
+    },
+    {
+      "id": "1zJWX72JW8F7P_yoXCK1Td1BdhXKylP4O",
+      "parent_id": "1r5fGx4-uhoa6KCB93WudJKfP8ZEwR98s",
+      "name": "THIÊN ĐẠO.pdf",
+      "mime": "application/pdf",
+      "size": 646972,
+      "modified": "2026-08-15T03:46:54.000Z",
+      "checksum": "6d60a9af1d5b75897bc70d46ce0c64bd",
+      "folder": false
+    }
+  ]
+}

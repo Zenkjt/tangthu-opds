@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KMoaxHkaawpThZO8qzmBZUU0EWCcN5A7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Atv8djvepTV3ai5kn_UjSnhVFZBM9m9r",
+      "parent_id": "1KMoaxHkaawpThZO8qzmBZUU0EWCcN5A7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2073,
+      "modified": "2026-08-15T11:05:39.000Z",
+      "checksum": "9cc2897b04990f40f6aece020973aab1",
+      "folder": false
+    },
+    {
+      "id": "1Sk2LVuRgt5_fQwLEwd3mtNxy2B6RYJlV",
+      "parent_id": "1KMoaxHkaawpThZO8qzmBZUU0EWCcN5A7",
+      "name": "NHIỀU CÁCH SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 598964,
+      "modified": "2026-08-15T11:05:56.000Z",
+      "checksum": "df496f3ad8fccc276effaaf5955e554d",
+      "folder": false
+    },
+    {
+      "id": "1X_NhHpdkmDlG9jPyYE5BiTN8ipb2vRLV",
+      "parent_id": "1KMoaxHkaawpThZO8qzmBZUU0EWCcN5A7",
+      "name": "NHIỀU CÁCH SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 811328,
+      "modified": "2026-08-15T11:05:47.000Z",
+      "checksum": "c7ee53e62c702b584d5609ba2213236c",
+      "folder": false
+    }
+  ]
+}

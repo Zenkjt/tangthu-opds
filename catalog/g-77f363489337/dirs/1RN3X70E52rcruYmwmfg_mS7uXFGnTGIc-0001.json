@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RN3X70E52rcruYmwmfg_mS7uXFGnTGIc",
+  "page": 1,
+  "items": [
+    {
+      "id": "12W6uj2QauhsJNi07ikbvY20vQrbnfpCL",
+      "parent_id": "1RN3X70E52rcruYmwmfg_mS7uXFGnTGIc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3083,
+      "modified": "2026-08-15T07:11:44.000Z",
+      "checksum": "23ee71dc2a25c021d42c17c70397adc8",
+      "folder": false
+    },
+    {
+      "id": "1T0_TuEHDfEFm71O4uLffk6QcJTFLS4KF",
+      "parent_id": "1RN3X70E52rcruYmwmfg_mS7uXFGnTGIc",
+      "name": "VÌ VỢ LÀ VỢ ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 2912308,
+      "modified": "2026-08-15T07:12:57.000Z",
+      "checksum": "6388284023ebebac9a7e664065bde3bb",
+      "folder": false
+    },
+    {
+      "id": "1QNNVaWed7PA4OZWe3q3DxdW90gVlfQTG",
+      "parent_id": "1RN3X70E52rcruYmwmfg_mS7uXFGnTGIc",
+      "name": "VÌ VỢ LÀ VỢ ANH.pdf",
+      "mime": "application/pdf",
+      "size": 2728036,
+      "modified": "2026-08-15T07:12:48.000Z",
+      "checksum": "37db6c9dbecaae01f2b978ad036a02d3",
+      "folder": false
+    }
+  ]
+}

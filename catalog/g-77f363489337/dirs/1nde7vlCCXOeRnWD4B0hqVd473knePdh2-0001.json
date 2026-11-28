@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nde7vlCCXOeRnWD4B0hqVd473knePdh2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LbI0cGRQ9WvMOsb7BaaUqx4RIHXDEhe8",
+      "parent_id": "1nde7vlCCXOeRnWD4B0hqVd473knePdh2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 470,
+      "modified": "2026-08-15T10:16:10.000Z",
+      "checksum": "0506e4b67dfc63d782d17c4a35c76c02",
+      "folder": false
+    },
+    {
+      "id": "1RbfAENPcQSPGSqAo15E6lNoqZeNcz1u6",
+      "parent_id": "1nde7vlCCXOeRnWD4B0hqVd473knePdh2",
+      "name": "THÁP TOKYO.epub",
+      "mime": "application/epub+zip",
+      "size": 319614,
+      "modified": "2026-08-15T10:16:18.000Z",
+      "checksum": "e489da251e1fdafa5717d9527fa2e908",
+      "folder": false
+    },
+    {
+      "id": "1g5_2R9X6xPsv22azXYjCNsbhNofxae-f",
+      "parent_id": "1nde7vlCCXOeRnWD4B0hqVd473knePdh2",
+      "name": "THÁP TOKYO.pdf",
+      "mime": "application/pdf",
+      "size": 698038,
+      "modified": "2026-08-15T10:16:15.000Z",
+      "checksum": "f697a7bef728646a2ed4f3fc5fb5e0f1",
+      "folder": false
+    }
+  ]
+}

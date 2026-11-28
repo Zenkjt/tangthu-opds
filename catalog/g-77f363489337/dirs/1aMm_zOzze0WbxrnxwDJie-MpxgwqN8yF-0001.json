@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aMm_zOzze0WbxrnxwDJie-MpxgwqN8yF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tPVLDxv5P2TI1FNFI9tRigiFZU5C7kWc",
+      "parent_id": "1aMm_zOzze0WbxrnxwDJie-MpxgwqN8yF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 17777,
+      "modified": "2026-08-15T00:55:35.000Z",
+      "checksum": "de05062459060cf269ce2cc7243dd768",
+      "folder": false
+    },
+    {
+      "id": "1GBWMUnGrA_d85kyHLE-rc8MvfKpcwnf-",
+      "parent_id": "1aMm_zOzze0WbxrnxwDJie-MpxgwqN8yF",
+      "name": "NHẢY VIỆC HAY THAY ĐỔI CHÍNH MÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 1789054,
+      "modified": "2026-08-15T00:55:43.000Z",
+      "checksum": "2200ac5425bdfc0201a5a3af973e3232",
+      "folder": false
+    },
+    {
+      "id": "1lKQ0QtkkVkhc4tSwaJBLJUBuC0YDBBaQ",
+      "parent_id": "1aMm_zOzze0WbxrnxwDJie-MpxgwqN8yF",
+      "name": "NHẢY VIỆC HAY THAY ĐỔI CHÍNH MÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 2749231,
+      "modified": "2026-08-15T00:55:40.000Z",
+      "checksum": "ef96ec84a2b711e999e9f374fa83727f",
+      "folder": false
+    }
+  ]
+}

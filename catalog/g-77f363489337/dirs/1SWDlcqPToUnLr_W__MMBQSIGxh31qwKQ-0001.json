@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SWDlcqPToUnLr_W__MMBQSIGxh31qwKQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kAHF-QbLdnSTOiHzqEFAY60-7IKoxJXT",
+      "parent_id": "1SWDlcqPToUnLr_W__MMBQSIGxh31qwKQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4570,
+      "modified": "2026-08-16T03:36:53.000Z",
+      "checksum": "bc34d7140999674d96a9d3458994a1ea",
+      "folder": false
+    },
+    {
+      "id": "1Mt2245o6yPdZb-dfUmD1bzg9kDAAxyhF",
+      "parent_id": "1SWDlcqPToUnLr_W__MMBQSIGxh31qwKQ",
+      "name": "MỖI NGÀY ĐỀU PHẢI LY HÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 497553,
+      "modified": "2026-08-16T03:37:01.000Z",
+      "checksum": "e2b8e171e107d20bc11bc03261b7b85c",
+      "folder": false
+    },
+    {
+      "id": "1UnGDnlzILgm0_ghwrYEffEmGOGQZoaAi",
+      "parent_id": "1SWDlcqPToUnLr_W__MMBQSIGxh31qwKQ",
+      "name": "MỖI NGÀY ĐỀU PHẢI LY HÔN.pdf",
+      "mime": "application/pdf",
+      "size": 1457022,
+      "modified": "2026-08-16T03:36:58.000Z",
+      "checksum": "903cd5cce877484584692cad39052006",
+      "folder": false
+    }
+  ]
+}

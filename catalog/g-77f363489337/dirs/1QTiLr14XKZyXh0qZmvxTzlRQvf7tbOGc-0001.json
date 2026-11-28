@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QTiLr14XKZyXh0qZmvxTzlRQvf7tbOGc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1roygeoyg0lFPgaX9HMWXvvDhdII2fbIK",
+      "parent_id": "1QTiLr14XKZyXh0qZmvxTzlRQvf7tbOGc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2349,
+      "modified": "2026-08-15T00:46:35.000Z",
+      "checksum": "7b9ab3d6cbdbfa36e908796590681150",
+      "folder": false
+    },
+    {
+      "id": "1hzu3GqlaOmzDms90P3EziezJqRTnRW51",
+      "parent_id": "1QTiLr14XKZyXh0qZmvxTzlRQvf7tbOGc",
+      "name": "NHỮNG BÀI HỌC CUỘC SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 359241,
+      "modified": "2026-08-15T00:46:39.000Z",
+      "checksum": "bd16314ca6e9a9147d6d7545dc7cccff",
+      "folder": false
+    },
+    {
+      "id": "1JFTgk0FeWXk66xb9vI9DigkbTMEo0cjl",
+      "parent_id": "1QTiLr14XKZyXh0qZmvxTzlRQvf7tbOGc",
+      "name": "NHỮNG BÀI HỌC CUỘC SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 299181,
+      "modified": "2026-08-15T00:46:37.000Z",
+      "checksum": "08fcf55035bac9bba77070ece65efb46",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UEtiuBiIIq5sNRBc60riHLZLdw-PuVBN",
+  "page": 1,
+  "items": [
+    {
+      "id": "17Rj-uHNxNcUNdMQbpCU4qYeXLTilJzAw",
+      "parent_id": "1UEtiuBiIIq5sNRBc60riHLZLdw-PuVBN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11283,
+      "modified": "2026-08-15T06:37:59.000Z",
+      "checksum": "f36ffc201c17f7c6923c8f6d4536725d",
+      "folder": false
+    },
+    {
+      "id": "1ywor-o_nmjj_G8z7CPukUbONlz3Z9w7r",
+      "parent_id": "1UEtiuBiIIq5sNRBc60riHLZLdw-PuVBN",
+      "name": "HARRY POTTER VÀ HÒN ĐÁ PHÙ THỦY.epub",
+      "mime": "application/epub+zip",
+      "size": 610531,
+      "modified": "2026-08-15T06:38:15.000Z",
+      "checksum": "90db1c029359676862ddd6c24b3a07fa",
+      "folder": false
+    },
+    {
+      "id": "1muci44zJjeXJ14iYoCwHaWxQbOTamPHB",
+      "parent_id": "1UEtiuBiIIq5sNRBc60riHLZLdw-PuVBN",
+      "name": "HARRY POTTER VÀ HÒN ĐÁ PHÙ THỦY.pdf",
+      "mime": "application/pdf",
+      "size": 1684012,
+      "modified": "2026-08-15T06:38:10.000Z",
+      "checksum": "416ecaf26f4f7dbf15cea176e86ba875",
+      "folder": false
+    }
+  ]
+}

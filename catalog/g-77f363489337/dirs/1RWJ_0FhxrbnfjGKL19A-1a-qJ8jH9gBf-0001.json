@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RWJ_0FhxrbnfjGKL19A-1a-qJ8jH9gBf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ug8OBtrul_ZmOIv__sVUwKWC5sO6cG54",
+      "parent_id": "1RWJ_0FhxrbnfjGKL19A-1a-qJ8jH9gBf",
+      "name": "CHÍ PHÈO.epub",
+      "mime": "application/epub+zip",
+      "size": 312815,
+      "modified": "2026-08-15T06:42:00.000Z",
+      "checksum": "4181551c6a2dff02aed13fadc4487a0e",
+      "folder": false
+    },
+    {
+      "id": "1Z31aa4T4ALYDqsH8EhHOcsTBoiDfSIXL",
+      "parent_id": "1RWJ_0FhxrbnfjGKL19A-1a-qJ8jH9gBf",
+      "name": "CHÍ PHÈO.pdf",
+      "mime": "application/pdf",
+      "size": 173511,
+      "modified": "2026-08-15T06:41:58.000Z",
+      "checksum": "8fc02756bb43f7950e964f4e96cbeed9",
+      "folder": false
+    },
+    {
+      "id": "1vEns9JmJyQsHq91VRcfAxsKDSufWxTao",
+      "parent_id": "1RWJ_0FhxrbnfjGKL19A-1a-qJ8jH9gBf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4396,
+      "modified": "2026-08-15T06:41:55.000Z",
+      "checksum": "3db167b1988542079ac5a984abe54705",
+      "folder": false
+    }
+  ]
+}

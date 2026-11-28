@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1g_v_xvhDyEfBOPzYKKSKwMziv4lnUxdw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KH3qYenSYiTAkW2yuQYAL0RlVBvvVz_C",
+      "parent_id": "1g_v_xvhDyEfBOPzYKKSKwMziv4lnUxdw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6224,
+      "modified": "2026-08-15T08:51:15.000Z",
+      "checksum": "f36ad5fe2e912b21f4cddc0120b89534",
+      "folder": false
+    },
+    {
+      "id": "19xND31wB-sxhxAqUs9SeolkVn9RXF6dW",
+      "parent_id": "1g_v_xvhDyEfBOPzYKKSKwMziv4lnUxdw",
+      "name": "ĐÀN ÔNG, ĐÀN BÀ, VÀ CHUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 395966,
+      "modified": "2026-08-15T08:51:22.000Z",
+      "checksum": "0349c0c88f078cdbbb5648c644e6c34e",
+      "folder": false
+    },
+    {
+      "id": "1tHGmdHnsG31rm-xR6QOBMSzPxsi79XMO",
+      "parent_id": "1g_v_xvhDyEfBOPzYKKSKwMziv4lnUxdw",
+      "name": "ĐÀN ÔNG, ĐÀN BÀ, VÀ CHUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 1187149,
+      "modified": "2026-08-15T08:51:19.000Z",
+      "checksum": "315648216123f47511c62d392313d580",
+      "folder": false
+    }
+  ]
+}

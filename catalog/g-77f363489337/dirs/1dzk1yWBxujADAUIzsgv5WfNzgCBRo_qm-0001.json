@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dzk1yWBxujADAUIzsgv5WfNzgCBRo_qm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1b5-0yWTJlVdAIQY8qSTs2xQBKQ2WX--g",
+      "parent_id": "1dzk1yWBxujADAUIzsgv5WfNzgCBRo_qm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2394,
+      "modified": "2026-08-15T03:52:24.000Z",
+      "checksum": "66f37c59cd33d5062f235c8521d3567a",
+      "folder": false
+    },
+    {
+      "id": "1AbRnUO23gRmGGt-6MQV0D70ydkktjSvF",
+      "parent_id": "1dzk1yWBxujADAUIzsgv5WfNzgCBRo_qm",
+      "name": "HOMO DEUS - LƯỢC SỬ TƯƠNG LAI.epub",
+      "mime": "application/epub+zip",
+      "size": 2720920,
+      "modified": "2026-08-15T03:52:38.000Z",
+      "checksum": "12bc66b6061ec35112198550292579d5",
+      "folder": false
+    },
+    {
+      "id": "1sjpOEXGNYxA6DNMkE4obsMhxiKzoYy3A",
+      "parent_id": "1dzk1yWBxujADAUIzsgv5WfNzgCBRo_qm",
+      "name": "HOMO DEUS - LƯỢC SỬ TƯƠNG LAI.pdf",
+      "mime": "application/pdf",
+      "size": 4946764,
+      "modified": "2026-08-15T03:52:34.000Z",
+      "checksum": "318b130a9861828ce4605e15583ab902",
+      "folder": false
+    }
+  ]
+}

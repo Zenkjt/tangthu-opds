@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1to-1sst7jsgzghtgfEpo30uR6VFqiEjX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Xve1jr6KP90Oq7q8xqLWzBTx45raQf1U",
+      "parent_id": "1to-1sst7jsgzghtgfEpo30uR6VFqiEjX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2549,
+      "modified": "2026-08-15T11:06:09.000Z",
+      "checksum": "1dd9569c5b7f9c70498bc70120112c09",
+      "folder": false
+    },
+    {
+      "id": "1Rd9egJ46s8nG0TAMuJlmfus7BerX0d_Z",
+      "parent_id": "1to-1sst7jsgzghtgfEpo30uR6VFqiEjX",
+      "name": "MẬT MÃ PHÙ THỦY.epub",
+      "mime": "application/epub+zip",
+      "size": 1071661,
+      "modified": "2026-08-15T11:06:26.000Z",
+      "checksum": "a617b108b74747e0328cacc9d3f543ec",
+      "folder": false
+    },
+    {
+      "id": "1f6aft7uFvYFXCrCaXln17M6wS6_7wf-m",
+      "parent_id": "1to-1sst7jsgzghtgfEpo30uR6VFqiEjX",
+      "name": "MẬT MÃ PHÙ THỦY.pdf",
+      "mime": "application/pdf",
+      "size": 1726566,
+      "modified": "2026-08-15T11:06:23.000Z",
+      "checksum": "7ddc0fed08a70684b5cb1def7e4ba1be",
+      "folder": false
+    }
+  ]
+}

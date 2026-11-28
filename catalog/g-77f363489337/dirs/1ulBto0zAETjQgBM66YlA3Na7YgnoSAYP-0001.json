@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ulBto0zAETjQgBM66YlA3Na7YgnoSAYP",
+  "page": 1,
+  "items": [
+    {
+      "id": "13Xh56zYQMVf7_2pasBkyqZShdsX-C2Yf",
+      "parent_id": "1ulBto0zAETjQgBM66YlA3Na7YgnoSAYP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1520,
+      "modified": "2026-08-16T03:19:03.000Z",
+      "checksum": "5c7d7e5abd20051d8df678c5b2beb3e5",
+      "folder": false
+    },
+    {
+      "id": "156K5-ZRvUyfn-t2xQ7BU_WTUz7w26ukU",
+      "parent_id": "1ulBto0zAETjQgBM66YlA3Na7YgnoSAYP",
+      "name": "NGÔI LÀNG TỒI TỆ.epub",
+      "mime": "application/epub+zip",
+      "size": 413793,
+      "modified": "2026-08-16T03:19:09.000Z",
+      "checksum": "184ac14ed21ef37eaa0deff22d76f42e",
+      "folder": false
+    },
+    {
+      "id": "1lHBXakNf3vLHcJ4nAg8ozeUB9fFJtqiX",
+      "parent_id": "1ulBto0zAETjQgBM66YlA3Na7YgnoSAYP",
+      "name": "NGÔI LÀNG TỒI TỆ.pdf",
+      "mime": "application/pdf",
+      "size": 330959,
+      "modified": "2026-08-16T03:19:07.000Z",
+      "checksum": "d74e349852edbe8780e9394fd3332f6c",
+      "folder": false
+    }
+  ]
+}

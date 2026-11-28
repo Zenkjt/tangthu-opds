@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lL_DzQ1woLd27fo6pJy72nccX7fCUigi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wJr7submS0_Ak11GHX8aiLge_Ppku5Un",
+      "parent_id": "1lL_DzQ1woLd27fo6pJy72nccX7fCUigi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 455,
+      "modified": "2026-08-15T10:38:40.000Z",
+      "checksum": "8d2b3da8ac4c0d2b32164e1724d0acf2",
+      "folder": false
+    },
+    {
+      "id": "1jjcjFYW7qZc6bAGBZ5OpbwDumvTi6nG3",
+      "parent_id": "1lL_DzQ1woLd27fo6pJy72nccX7fCUigi",
+      "name": "NHẤT PHẨM THIÊN KIM.epub",
+      "mime": "application/epub+zip",
+      "size": 543748,
+      "modified": "2026-08-15T10:38:49.000Z",
+      "checksum": "c8bb7cd73066a7d2e2120239616f26d9",
+      "folder": false
+    },
+    {
+      "id": "1eM7jO0TNm_duGocB0Zc4TIv2N2G1dUBD",
+      "parent_id": "1lL_DzQ1woLd27fo6pJy72nccX7fCUigi",
+      "name": "NHẤT PHẨM THIÊN KIM.pdf",
+      "mime": "application/pdf",
+      "size": 1103044,
+      "modified": "2026-08-15T10:38:46.000Z",
+      "checksum": "bf34700a7d8e6cb245ee242558860057",
+      "folder": false
+    }
+  ]
+}

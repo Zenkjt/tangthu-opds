@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jHeEwUE-hDYysAasUcm4LGSk8dpsOdv7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wK6DcrlC7HoMUiIMmc4iK7msZNFkbq0y",
+      "parent_id": "1jHeEwUE-hDYysAasUcm4LGSk8dpsOdv7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4704,
+      "modified": "2026-08-15T03:51:19.000Z",
+      "checksum": "f3550f7c7b609b11cdfc931086607817",
+      "folder": false
+    },
+    {
+      "id": "1u3F9NI362E6UicbNYyYpKaP7PSoxO8pg",
+      "parent_id": "1jHeEwUE-hDYysAasUcm4LGSk8dpsOdv7",
+      "name": "HUYỀN THOẠI KIM QUANG SỨ.epub",
+      "mime": "application/epub+zip",
+      "size": 329172,
+      "modified": "2026-08-15T03:51:25.000Z",
+      "checksum": "42329c3e5bf70d041d90ced1f348b2f3",
+      "folder": false
+    },
+    {
+      "id": "1aqXncWaWEtqSA11SrBBOV1aYLzD6rPSB",
+      "parent_id": "1jHeEwUE-hDYysAasUcm4LGSk8dpsOdv7",
+      "name": "HUYỀN THOẠI KIM QUANG SỨ.pdf",
+      "mime": "application/pdf",
+      "size": 665261,
+      "modified": "2026-08-15T03:51:22.000Z",
+      "checksum": "fd861324c6568be68873f5a53f7d760e",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10W0-XbT24KqKKrbQ2Smuumd2-FpBrjdj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uOh9nbgjB2lRRrZau0gu5fXXS7wIO4pA",
+      "parent_id": "10W0-XbT24KqKKrbQ2Smuumd2-FpBrjdj",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 5840,
+      "modified": "2026-08-15T09:48:40.000Z",
+      "checksum": "3f37fb31f8cf59c49540c803cf25b746",
+      "folder": false
+    },
+    {
+      "id": "1QAlMe5bcbrBIN59VCS1bVnwp5tk5PPj9",
+      "parent_id": "10W0-XbT24KqKKrbQ2Smuumd2-FpBrjdj",
+      "name": "HAY LÀ MÌNH SỐNG CHUNG.epub",
+      "mime": "application/epub+zip",
+      "size": 862289,
+      "modified": "2026-08-15T09:48:51.000Z",
+      "checksum": "32f402d096a5cc75d175679421e4e848",
+      "folder": false
+    },
+    {
+      "id": "1k-wP0AzQtL7zAu9WYCb_7GVdVOHznC3K",
+      "parent_id": "10W0-XbT24KqKKrbQ2Smuumd2-FpBrjdj",
+      "name": "HAY LÀ MÌNH SỐNG CHUNG.pdf",
+      "mime": "application/pdf",
+      "size": 2815614,
+      "modified": "2026-08-15T09:48:47.000Z",
+      "checksum": "c7cd8810484916f62bd79e9203399140",
+      "folder": false
+    }
+  ]
+}

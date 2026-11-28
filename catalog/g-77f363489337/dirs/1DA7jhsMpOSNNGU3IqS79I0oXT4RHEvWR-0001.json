@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DA7jhsMpOSNNGU3IqS79I0oXT4RHEvWR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zHIVaMVc5-KqXv83Xeb1he1U1WKOjw2E",
+      "parent_id": "1DA7jhsMpOSNNGU3IqS79I0oXT4RHEvWR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 493,
+      "modified": "2026-08-15T10:57:18.000Z",
+      "checksum": "03cef74c29357f4b153562dbc10febb2",
+      "folder": false
+    },
+    {
+      "id": "1v3T3vzIHytxvO-bhPXu5e4rTbAEulgn5",
+      "parent_id": "1DA7jhsMpOSNNGU3IqS79I0oXT4RHEvWR",
+      "name": "GIẤC MỘNG CHÂU Á CỦA TRUNG QUỐC.epub",
+      "mime": "application/epub+zip",
+      "size": 913146,
+      "modified": "2026-08-15T10:57:26.000Z",
+      "checksum": "64ab6f84419abd70bd1b627e91ccb176",
+      "folder": false
+    },
+    {
+      "id": "1x5I99CZ0A7eCgujnQ4luvRhuM0N8klJP",
+      "parent_id": "1DA7jhsMpOSNNGU3IqS79I0oXT4RHEvWR",
+      "name": "GIẤC MỘNG CHÂU Á CỦA TRUNG QUỐC.pdf",
+      "mime": "application/pdf",
+      "size": 2041193,
+      "modified": "2026-08-15T10:57:24.000Z",
+      "checksum": "e962621afe61ad5d57355595165949d3",
+      "folder": false
+    }
+  ]
+}

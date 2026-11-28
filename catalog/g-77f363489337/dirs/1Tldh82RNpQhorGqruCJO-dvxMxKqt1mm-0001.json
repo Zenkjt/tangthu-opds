@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Tldh82RNpQhorGqruCJO-dvxMxKqt1mm",
+  "page": 1,
+  "items": [
+    {
+      "id": "12PMwk46oD35QRA-gqRPxaQgkK62YGHrk",
+      "parent_id": "1Tldh82RNpQhorGqruCJO-dvxMxKqt1mm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 694,
+      "modified": "2026-08-15T15:52:52.000Z",
+      "checksum": "4e96d62f6e136696a7dd4495d4808de9",
+      "folder": false
+    },
+    {
+      "id": "1KShOd1Pr_bSMD3D70oGD41OqZ6hyM4hF",
+      "parent_id": "1Tldh82RNpQhorGqruCJO-dvxMxKqt1mm",
+      "name": "TRẠNG QUỲNH.epub",
+      "mime": "application/epub+zip",
+      "size": 210830,
+      "modified": "2026-08-15T15:52:59.000Z",
+      "checksum": "39466ce862703941bfa9bc0d783c0c67",
+      "folder": false
+    },
+    {
+      "id": "12-JPwYpsJNU5mi2oaHNyWHFCoraP9xSm",
+      "parent_id": "1Tldh82RNpQhorGqruCJO-dvxMxKqt1mm",
+      "name": "TRẠNG QUỲNH.pdf",
+      "mime": "application/pdf",
+      "size": 202334,
+      "modified": "2026-08-15T15:52:56.000Z",
+      "checksum": "a1168b9f1930c970696007897fce4a23",
+      "folder": false
+    }
+  ]
+}

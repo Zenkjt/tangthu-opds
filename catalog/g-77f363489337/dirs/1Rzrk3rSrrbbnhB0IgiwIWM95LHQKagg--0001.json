@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Rzrk3rSrrbbnhB0IgiwIWM95LHQKagg-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Vyr7pFx9Wom8m2AZyIRlUraLH-WoyuMq",
+      "parent_id": "1Rzrk3rSrrbbnhB0IgiwIWM95LHQKagg-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 679,
+      "modified": "2026-08-16T03:52:15.000Z",
+      "checksum": "7af8143e59ff68c92c14a7ffde483687",
+      "folder": false
+    },
+    {
+      "id": "1s5JRgRh5nAOCaLYvi8HPWaJQwozYHAfk",
+      "parent_id": "1Rzrk3rSrrbbnhB0IgiwIWM95LHQKagg-",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN PAULO COELHO.epub",
+      "mime": "application/epub+zip",
+      "size": 297104,
+      "modified": "2026-08-16T03:52:20.000Z",
+      "checksum": "bb198711af15dd7d7fec6567fec6a470",
+      "folder": false
+    },
+    {
+      "id": "1v1eMj9WNn6BPa14qpUiPNtrzo9AP-XYb",
+      "parent_id": "1Rzrk3rSrrbbnhB0IgiwIWM95LHQKagg-",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN PAULO COELHO.pdf",
+      "mime": "application/pdf",
+      "size": 271959,
+      "modified": "2026-08-16T03:52:18.000Z",
+      "checksum": "58f6142ace45e44d68ad3223e80f9dba",
+      "folder": false
+    }
+  ]
+}

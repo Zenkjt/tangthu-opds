@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XbyAOk7lyoCPVz9zvIL2588lWisXiKbh",
+  "page": 1,
+  "items": [
+    {
+      "id": "195r8te_E89KgBw0OOcILG5OkGYDBiAhj",
+      "parent_id": "1XbyAOk7lyoCPVz9zvIL2588lWisXiKbh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2851,
+      "modified": "2026-08-15T09:38:14.000Z",
+      "checksum": "c7c9c884df19e7e78a023771061f5515",
+      "folder": false
+    },
+    {
+      "id": "1eqrHcdh6u1FVB3bcXNNiWl24HR5LWNLj",
+      "parent_id": "1XbyAOk7lyoCPVz9zvIL2588lWisXiKbh",
+      "name": "SỐNG THÁC VỚI TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 534227,
+      "modified": "2026-08-15T09:38:20.000Z",
+      "checksum": "43040e1e025360a2da9a78cdfe07c6b9",
+      "folder": false
+    },
+    {
+      "id": "1yVutGBsUI_S9wpLggy7cP8Qv8QO_hXD-",
+      "parent_id": "1XbyAOk7lyoCPVz9zvIL2588lWisXiKbh",
+      "name": "SỐNG THÁC VỚI TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 609440,
+      "modified": "2026-08-15T09:38:17.000Z",
+      "checksum": "0a447cb8fa722e27fc4a7650be93774b",
+      "folder": false
+    }
+  ]
+}

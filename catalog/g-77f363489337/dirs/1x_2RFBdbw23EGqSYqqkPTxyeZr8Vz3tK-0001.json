@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1x_2RFBdbw23EGqSYqqkPTxyeZr8Vz3tK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YwSHXbfLqc1DZpQTtbHo-V3HxC3fDYnR",
+      "parent_id": "1x_2RFBdbw23EGqSYqqkPTxyeZr8Vz3tK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 579,
+      "modified": "2026-08-16T04:16:41.000Z",
+      "checksum": "667892a1bfc19568fd8f3313705310af",
+      "folder": false
+    },
+    {
+      "id": "1GT5W7yp2JZEP-eXz3HgK7nWqRGXLpUdO",
+      "parent_id": "1x_2RFBdbw23EGqSYqqkPTxyeZr8Vz3tK",
+      "name": "NAM CHÍNH LÀ PHÙ THỦY.epub",
+      "mime": "application/epub+zip",
+      "size": 295630,
+      "modified": "2026-08-16T04:16:46.000Z",
+      "checksum": "16ec2773c3ae41635126a6a0d3041af4",
+      "folder": false
+    },
+    {
+      "id": "1I6EqROt2roAdgvKMcd_0iVkH6didgDOP",
+      "parent_id": "1x_2RFBdbw23EGqSYqqkPTxyeZr8Vz3tK",
+      "name": "NAM CHÍNH LÀ PHÙ THỦY.pdf",
+      "mime": "application/pdf",
+      "size": 545375,
+      "modified": "2026-08-16T04:16:44.000Z",
+      "checksum": "33ce5dbf413e56e0279686c6a72e9aac",
+      "folder": false
+    }
+  ]
+}

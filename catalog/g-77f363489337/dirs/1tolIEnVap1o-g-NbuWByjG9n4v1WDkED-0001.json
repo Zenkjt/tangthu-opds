@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tolIEnVap1o-g-NbuWByjG9n4v1WDkED",
+  "page": 1,
+  "items": [
+    {
+      "id": "1su3wsivxzcNvjc4RxISm6S4SMQFV7aL0",
+      "parent_id": "1tolIEnVap1o-g-NbuWByjG9n4v1WDkED",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3400,
+      "modified": "2026-08-15T10:12:35.000Z",
+      "checksum": "beaf5e8a05e8dc7393f14686dd3522e3",
+      "folder": false
+    },
+    {
+      "id": "1dBtMpNmy19CRPtDjJjmxPZoPq3dSJVib",
+      "parent_id": "1tolIEnVap1o-g-NbuWByjG9n4v1WDkED",
+      "name": "THỜI KHẮC.epub",
+      "mime": "application/epub+zip",
+      "size": 403149,
+      "modified": "2026-08-15T10:12:44.000Z",
+      "checksum": "2d10267551775a6387e992d0e734bb5e",
+      "folder": false
+    },
+    {
+      "id": "13BgsPwgqaoaNABRktl4T6y6oj-kJYeep",
+      "parent_id": "1tolIEnVap1o-g-NbuWByjG9n4v1WDkED",
+      "name": "THỜI KHẮC.pdf",
+      "mime": "application/pdf",
+      "size": 1025010,
+      "modified": "2026-08-15T10:12:41.000Z",
+      "checksum": "716a01c07229eec05f6a6e2e34165fa2",
+      "folder": false
+    }
+  ]
+}

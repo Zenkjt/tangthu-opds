@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VbsOISvU-2Q6E9tx9-M16Ou6gWE0Meo_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HjQ5VWrRy8eRSOW6cRCcbYO2vEu3b2Cl",
+      "parent_id": "1VbsOISvU-2Q6E9tx9-M16Ou6gWE0Meo_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3457,
+      "modified": "2026-08-15T10:42:18.000Z",
+      "checksum": "6322674846222a8dbede9f142fb30da9",
+      "folder": false
+    },
+    {
+      "id": "10tr-wSI7oOmaxYvGuOUwrfR9wjk2NUII",
+      "parent_id": "1VbsOISvU-2Q6E9tx9-M16Ou6gWE0Meo_",
+      "name": "NGƯỜI THỨ BA.epub",
+      "mime": "application/epub+zip",
+      "size": 299069,
+      "modified": "2026-08-15T10:42:25.000Z",
+      "checksum": "69512cde6758ea1d314a4b216216e54b",
+      "folder": false
+    },
+    {
+      "id": "1Ex9VLGJl88_asI2-6V2Q82LpLHCE8pSG",
+      "parent_id": "1VbsOISvU-2Q6E9tx9-M16Ou6gWE0Meo_",
+      "name": "NGƯỜI THỨ BA.pdf",
+      "mime": "application/pdf",
+      "size": 159973,
+      "modified": "2026-08-15T10:42:22.000Z",
+      "checksum": "d5a1942b09ee4f7e56c46de95bda15bb",
+      "folder": false
+    }
+  ]
+}

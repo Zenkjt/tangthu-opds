@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uph1Iq_PLCO-C0mF8YtraIpPD93DfNIH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dq7onUxnesHKI5FiwUBPCbexYpraIuOF",
+      "parent_id": "1uph1Iq_PLCO-C0mF8YtraIpPD93DfNIH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11479,
+      "modified": "2026-08-16T03:38:46.000Z",
+      "checksum": "84b55694903d103437d92a05cd16fd6c",
+      "folder": false
+    },
+    {
+      "id": "1V5jFOSKw_pZXpgIREIY5Wev1FvvfwHoS",
+      "parent_id": "1uph1Iq_PLCO-C0mF8YtraIpPD93DfNIH",
+      "name": "LÂU ĐÀI CÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 373078,
+      "modified": "2026-08-16T03:38:52.000Z",
+      "checksum": "b8754540a89374ae92a5be3900f3b8ba",
+      "folder": false
+    },
+    {
+      "id": "1QXMode85X9a4JVX9z9hqhe3ekoeJ_e2G",
+      "parent_id": "1uph1Iq_PLCO-C0mF8YtraIpPD93DfNIH",
+      "name": "LÂU ĐÀI CÁT.pdf",
+      "mime": "application/pdf",
+      "size": 864993,
+      "modified": "2026-08-16T03:38:49.000Z",
+      "checksum": "b555851d4c0aed545eb8913babd42046",
+      "folder": false
+    }
+  ]
+}

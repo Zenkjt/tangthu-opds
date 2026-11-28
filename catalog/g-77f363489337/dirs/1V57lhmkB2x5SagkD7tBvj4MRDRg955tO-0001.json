@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1V57lhmkB2x5SagkD7tBvj4MRDRg955tO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WsyoVcdNo6U5BsTWG8T7K1KhS1p1wiBn",
+      "parent_id": "1V57lhmkB2x5SagkD7tBvj4MRDRg955tO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9388,
+      "modified": "2026-08-16T03:03:54.000Z",
+      "checksum": "7407b842f38321f5c41cb2c47290796a",
+      "folder": false
+    },
+    {
+      "id": "18rY82L8js5DjOEOAXLSD9of9ldf6vqP6",
+      "parent_id": "1V57lhmkB2x5SagkD7tBvj4MRDRg955tO",
+      "name": "TUỔI MƯỜI BẢY.epub",
+      "mime": "application/epub+zip",
+      "size": 892064,
+      "modified": "2026-08-16T03:04:06.000Z",
+      "checksum": "da5501c4c22f65d376d86957a429c81c",
+      "folder": false
+    },
+    {
+      "id": "1cVqQF-tXwSX-vo3GVbmuvVcxMlxgQBPd",
+      "parent_id": "1V57lhmkB2x5SagkD7tBvj4MRDRg955tO",
+      "name": "TUỔI MƯỜI BẢY.pdf",
+      "mime": "application/pdf",
+      "size": 2531080,
+      "modified": "2026-08-16T03:04:03.000Z",
+      "checksum": "2cb8477a36d89979ec9ac6bb6ba5606e",
+      "folder": false
+    }
+  ]
+}

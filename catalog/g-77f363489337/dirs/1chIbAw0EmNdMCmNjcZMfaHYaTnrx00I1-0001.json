@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1chIbAw0EmNdMCmNjcZMfaHYaTnrx00I1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1T9F86DJhtqWedWOHtPFP2OOFEkoEPIlH",
+      "parent_id": "1chIbAw0EmNdMCmNjcZMfaHYaTnrx00I1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3642,
+      "modified": "2026-08-15T03:48:14.000Z",
+      "checksum": "311979e35a7975937007f0a7649be132",
+      "folder": false
+    },
+    {
+      "id": "1-qxi50baT0INZIDpHlDTXwIJA1I_knjr",
+      "parent_id": "1chIbAw0EmNdMCmNjcZMfaHYaTnrx00I1",
+      "name": "ĐẠO PHẬT LÀ TOÁN HỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 582060,
+      "modified": "2026-08-15T03:48:20.000Z",
+      "checksum": "35f5cf75c62c896ff30146b0f324487a",
+      "folder": false
+    },
+    {
+      "id": "1rRpZhkBcaycGb-i0T55Lx7mzRDxGyaGu",
+      "parent_id": "1chIbAw0EmNdMCmNjcZMfaHYaTnrx00I1",
+      "name": "ĐẠO PHẬT LÀ TOÁN HỌC.pdf",
+      "mime": "application/pdf",
+      "size": 825100,
+      "modified": "2026-08-15T03:48:18.000Z",
+      "checksum": "af6cf6ce4f295abfcca1266607b9d899",
+      "folder": false
+    }
+  ]
+}

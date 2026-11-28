@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1p4fqtxdyqFRP0BHV0kI3sV7WaR_shB_y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JnCV6bu28SK3TT_MktcBbhqkaSzoCD14",
+      "parent_id": "1p4fqtxdyqFRP0BHV0kI3sV7WaR_shB_y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2299,
+      "modified": "2026-08-15T05:54:16.000Z",
+      "checksum": "ba35296a9e9f52aad58680e1ab600108",
+      "folder": false
+    },
+    {
+      "id": "1AN0bJf7NZdvLk6H5zF3H8jcor9YZeQaP",
+      "parent_id": "1p4fqtxdyqFRP0BHV0kI3sV7WaR_shB_y",
+      "name": "MÙA THU ĐỨC 1989.epub",
+      "mime": "application/epub+zip",
+      "size": 694186,
+      "modified": "2026-08-15T05:54:22.000Z",
+      "checksum": "72c8b92c4916efa1a87d2348d245155b",
+      "folder": false
+    },
+    {
+      "id": "1yopNDLFhtvFW19IG6HmsFXtTVdMqtzB3",
+      "parent_id": "1p4fqtxdyqFRP0BHV0kI3sV7WaR_shB_y",
+      "name": "MÙA THU ĐỨC 1989.pdf",
+      "mime": "application/pdf",
+      "size": 1102774,
+      "modified": "2026-08-15T05:54:20.000Z",
+      "checksum": "0ba02a111a9b7eb712f758db1738962a",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-SeuXEQUAAEZ22plyZnoVSYqJj4j9BX1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1TQP19I31rG01zxE14ndj_TxFYnk2-cga",
+      "parent_id": "1-SeuXEQUAAEZ22plyZnoVSYqJj4j9BX1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4265,
+      "modified": "2026-08-15T09:33:18.000Z",
+      "checksum": "c24cdbddb7627b2c7daa3d7260f16d9a",
+      "folder": false
+    },
+    {
+      "id": "1-huDhRuCUmMlTL5AX-1xR0qZEkpdo2Tv",
+      "parent_id": "1-SeuXEQUAAEZ22plyZnoVSYqJj4j9BX1",
+      "name": "TỪ BI THÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 1095505,
+      "modified": "2026-08-15T09:33:30.000Z",
+      "checksum": "bf68aec9c9bd776ef6c3d8bebf1f6683",
+      "folder": false
+    },
+    {
+      "id": "1asgbohMmczdYrkg_OFg0zI141GSrUUlr",
+      "parent_id": "1-SeuXEQUAAEZ22plyZnoVSYqJj4j9BX1",
+      "name": "TỪ BI THÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 3817262,
+      "modified": "2026-08-15T09:33:27.000Z",
+      "checksum": "1029bd3abf39b736db3a4f160918541e",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1A2VG3ccJfeZsiFqyIGzbpSIFvjmEzFPq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1chMlMrt1YAIoN_P_xmJkibuXATwTLQx2",
+      "parent_id": "1A2VG3ccJfeZsiFqyIGzbpSIFvjmEzFPq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6030,
+      "modified": "2026-08-16T03:10:23.000Z",
+      "checksum": "a0853abcd0acb2f33d46a153ffebc25c",
+      "folder": false
+    },
+    {
+      "id": "1LCuzi91b4eQ98thal8vMx56hVcrQZOKY",
+      "parent_id": "1A2VG3ccJfeZsiFqyIGzbpSIFvjmEzFPq",
+      "name": "TRƯỚC KHI NHẮM MẮT.epub",
+      "mime": "application/epub+zip",
+      "size": 652696,
+      "modified": "2026-08-16T03:10:30.000Z",
+      "checksum": "5d15471db68ada73b97ac2081ecc2e13",
+      "folder": false
+    },
+    {
+      "id": "1xOOak655jNe-A4E2Dn-G17KQQayjvRv5",
+      "parent_id": "1A2VG3ccJfeZsiFqyIGzbpSIFvjmEzFPq",
+      "name": "TRƯỚC KHI NHẮM MẮT.pdf",
+      "mime": "application/pdf",
+      "size": 1090330,
+      "modified": "2026-08-16T03:10:28.000Z",
+      "checksum": "0b6b2fea2af07c98b163847b0a536740",
+      "folder": false
+    }
+  ]
+}

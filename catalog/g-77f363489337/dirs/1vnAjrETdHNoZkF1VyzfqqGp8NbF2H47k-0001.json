@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vnAjrETdHNoZkF1VyzfqqGp8NbF2H47k",
+  "page": 1,
+  "items": [
+    {
+      "id": "1luJbknH6E1-8g5U2Z1W5W3C2mN4svBO5",
+      "parent_id": "1vnAjrETdHNoZkF1VyzfqqGp8NbF2H47k",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 2862,
+      "modified": "2026-08-15T03:52:56.000Z",
+      "checksum": "66910ad655e70753252502c59d412c1d",
+      "folder": false
+    },
+    {
+      "id": "1ZnLlSP0tiGL20f4AUYE1xfJ4hEFs6un2",
+      "parent_id": "1vnAjrETdHNoZkF1VyzfqqGp8NbF2H47k",
+      "name": "SỰ THẬT TỐI HẬU.epub",
+      "mime": "application/epub+zip",
+      "size": 765059,
+      "modified": "2026-08-15T03:53:02.000Z",
+      "checksum": "406937b889c091a13559babf3f7f2b68",
+      "folder": false
+    },
+    {
+      "id": "18TPzZBXzgsV2-oua38wZQW3Y_YwvhFNU",
+      "parent_id": "1vnAjrETdHNoZkF1VyzfqqGp8NbF2H47k",
+      "name": "SỰ THẬT TỐI HẬU.pdf",
+      "mime": "application/pdf",
+      "size": 1031784,
+      "modified": "2026-08-15T03:53:00.000Z",
+      "checksum": "2bcfafc11f5a9fd1b8e5a787fddf1902",
+      "folder": false
+    }
+  ]
+}

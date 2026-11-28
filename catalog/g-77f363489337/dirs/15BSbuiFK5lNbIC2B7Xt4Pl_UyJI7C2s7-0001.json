@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15BSbuiFK5lNbIC2B7Xt4Pl_UyJI7C2s7",
+  "page": 1,
+  "items": [
+    {
+      "id": "13DWt1ehhgqNafEj457JT_SSvlFC4BhgE",
+      "parent_id": "15BSbuiFK5lNbIC2B7Xt4Pl_UyJI7C2s7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3818,
+      "modified": "2026-08-15T09:31:15.000Z",
+      "checksum": "5a017a14ebd8f28826dc43352001ad23",
+      "folder": false
+    },
+    {
+      "id": "1L75QDZ2jogQvX1CSHfUFTCqzj2EkxRJz",
+      "parent_id": "15BSbuiFK5lNbIC2B7Xt4Pl_UyJI7C2s7",
+      "name": "THẤT TỊCH KHÔNG MƯA.epub",
+      "mime": "application/epub+zip",
+      "size": 401185,
+      "modified": "2026-08-15T09:31:25.000Z",
+      "checksum": "f1184349f57f162600213705d62fb446",
+      "folder": false
+    },
+    {
+      "id": "1jX2BE3UIXfn8hsQIXrRTSggiSIe68lux",
+      "parent_id": "15BSbuiFK5lNbIC2B7Xt4Pl_UyJI7C2s7",
+      "name": "THẤT TỊCH KHÔNG MƯA.pdf",
+      "mime": "application/pdf",
+      "size": 746961,
+      "modified": "2026-08-15T09:31:22.000Z",
+      "checksum": "fc3dc38361dc1bd3b026b6e587731f6f",
+      "folder": false
+    }
+  ]
+}

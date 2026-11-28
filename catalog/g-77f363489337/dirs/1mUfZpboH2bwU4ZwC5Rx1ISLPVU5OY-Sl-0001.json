@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mUfZpboH2bwU4ZwC5Rx1ISLPVU5OY-Sl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bAWPtcaFvnAC-zWvWW1p6BshIFJcBZqX",
+      "parent_id": "1mUfZpboH2bwU4ZwC5Rx1ISLPVU5OY-Sl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1945,
+      "modified": "2026-08-15T03:29:22.000Z",
+      "checksum": "dec782b346e5507fedc58260a2fd5247",
+      "folder": false
+    },
+    {
+      "id": "1HPlV1ufTcvVu3qnAqKAxKtVq2phkyA5R",
+      "parent_id": "1mUfZpboH2bwU4ZwC5Rx1ISLPVU5OY-Sl",
+      "name": "KINH ĐỊA TẠNG BỒ TÁT BỔN NGUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 462985,
+      "modified": "2026-08-15T03:29:30.000Z",
+      "checksum": "a2658ed110919107d1a4c3f74b242560",
+      "folder": false
+    },
+    {
+      "id": "1o2FoAk3aGi-6yFYQXMt153WDG2lUqWgR",
+      "parent_id": "1mUfZpboH2bwU4ZwC5Rx1ISLPVU5OY-Sl",
+      "name": "KINH ĐỊA TẠNG BỒ TÁT BỔN NGUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 995574,
+      "modified": "2026-08-15T03:29:28.000Z",
+      "checksum": "a8695dd7921e45ed2b62852382aa66c3",
+      "folder": false
+    }
+  ]
+}

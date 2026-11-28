@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CPoRhLTrVd4hSGbvRybgR9QKxfEjpt_T",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CbTWngXnjXrtXrHNX-dk6sIlzRjvfxYS",
+      "parent_id": "1CPoRhLTrVd4hSGbvRybgR9QKxfEjpt_T",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 529,
+      "modified": "2026-08-15T10:56:25.000Z",
+      "checksum": "04c2dbaab9c08364fbcf756b207fde80",
+      "folder": false
+    },
+    {
+      "id": "17ByHHM4rZbscypJ0sMNs9yZ9HdIyXtM1",
+      "parent_id": "1CPoRhLTrVd4hSGbvRybgR9QKxfEjpt_T",
+      "name": "HOÀNG QUYỀN.epub",
+      "mime": "application/epub+zip",
+      "size": 1343460,
+      "modified": "2026-08-15T10:56:40.000Z",
+      "checksum": "e9415a9bb8c34e56d8474d6679e263fa",
+      "folder": false
+    },
+    {
+      "id": "1CtSsjKfES_PW0LYOSUQ4e7eCzYsrEMz5",
+      "parent_id": "1CPoRhLTrVd4hSGbvRybgR9QKxfEjpt_T",
+      "name": "HOÀNG QUYỀN.pdf",
+      "mime": "application/pdf",
+      "size": 5090858,
+      "modified": "2026-08-15T10:56:37.000Z",
+      "checksum": "45d11f8ce45eda4fb60ba61abe978305",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xooSlZ26N_mqzTBvv0pqgfAw6T6Jgjnb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Cr-iGJD_npRMeK_SRpRFAsdwDHvsYB2E",
+      "parent_id": "1xooSlZ26N_mqzTBvv0pqgfAw6T6Jgjnb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 22808,
+      "modified": "2026-08-16T02:52:05.000Z",
+      "checksum": "943b6ec18e19bcc1ae8281b4d8941425",
+      "folder": false
+    },
+    {
+      "id": "1begJAUMSEpem1PUrh7z0HRkRK5o_nDF_",
+      "parent_id": "1xooSlZ26N_mqzTBvv0pqgfAw6T6Jgjnb",
+      "name": "MƯỜI LẺ MỘT ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 366527,
+      "modified": "2026-08-16T02:52:12.000Z",
+      "checksum": "9d629932d8b38cea9d09a88f8e22b89e",
+      "folder": false
+    },
+    {
+      "id": "1hFmHSshtmAwb7gNh0AuX7WY6k-8tVPqm",
+      "parent_id": "1xooSlZ26N_mqzTBvv0pqgfAw6T6Jgjnb",
+      "name": "MƯỜI LẺ MỘT ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 1451558,
+      "modified": "2026-08-16T02:52:10.000Z",
+      "checksum": "9023b81d0ee9dafdc8429bbf5d7da3d5",
+      "folder": false
+    }
+  ]
+}

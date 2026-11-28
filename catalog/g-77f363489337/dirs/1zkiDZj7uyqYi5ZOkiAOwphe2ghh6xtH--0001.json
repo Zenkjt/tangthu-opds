@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zkiDZj7uyqYi5ZOkiAOwphe2ghh6xtH-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1edgHrCVMwajveckgJC2B41PhVcy0vzM0",
+      "parent_id": "1zkiDZj7uyqYi5ZOkiAOwphe2ghh6xtH-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 549,
+      "modified": "2026-08-16T03:52:58.000Z",
+      "checksum": "bb657045db7675af7c37d6cd91a5bd0a",
+      "folder": false
+    },
+    {
+      "id": "11BXM94gFLlNc0swzE_4IVG-dHXKO88Gg",
+      "parent_id": "1zkiDZj7uyqYi5ZOkiAOwphe2ghh6xtH-",
+      "name": "TỚI NGỌN HẢI ĐĂNG.epub",
+      "mime": "application/epub+zip",
+      "size": 474105,
+      "modified": "2026-08-16T03:53:06.000Z",
+      "checksum": "ecca7394d4cbcae308a3c6b75571d7a7",
+      "folder": false
+    },
+    {
+      "id": "1AApI0DqHsOMAYrOaGEceRF0N8M7RoaRL",
+      "parent_id": "1zkiDZj7uyqYi5ZOkiAOwphe2ghh6xtH-",
+      "name": "TỚI NGỌN HẢI ĐĂNG.pdf",
+      "mime": "application/pdf",
+      "size": 1383823,
+      "modified": "2026-08-16T03:53:03.000Z",
+      "checksum": "cf1a53dac36c5b0bd12f3523628d13db",
+      "folder": false
+    }
+  ]
+}

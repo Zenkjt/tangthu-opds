@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DGXMCcVESPFlw_07puxo_LOobRZlj0LX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-idvvoqWAE2ziIrkexC75q0Y2vqdcxpP",
+      "parent_id": "1DGXMCcVESPFlw_07puxo_LOobRZlj0LX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1988,
+      "modified": "2026-08-16T02:48:18.000Z",
+      "checksum": "b9f83cecd9a26a1e1a3e7406672bd107",
+      "folder": false
+    },
+    {
+      "id": "151-H92hsaKZGJf3S_MdWWlPfeRBs5fNn",
+      "parent_id": "1DGXMCcVESPFlw_07puxo_LOobRZlj0LX",
+      "name": "TRUYỆN NGỤ NGÔN CỦA LA FONTAINE.epub",
+      "mime": "application/epub+zip",
+      "size": 1284875,
+      "modified": "2026-08-16T02:48:25.000Z",
+      "checksum": "c54f1d7961e99ec138db6d93ad73d644",
+      "folder": false
+    },
+    {
+      "id": "1kujx7cvUXYXgiut33i8cwGKDqdugYswj",
+      "parent_id": "1DGXMCcVESPFlw_07puxo_LOobRZlj0LX",
+      "name": "TRUYỆN NGỤ NGÔN CỦA LA FONTAINE.pdf",
+      "mime": "application/pdf",
+      "size": 1157343,
+      "modified": "2026-08-16T02:48:23.000Z",
+      "checksum": "14fb27c5c0e2a45ca7ac3fff446e444a",
+      "folder": false
+    }
+  ]
+}

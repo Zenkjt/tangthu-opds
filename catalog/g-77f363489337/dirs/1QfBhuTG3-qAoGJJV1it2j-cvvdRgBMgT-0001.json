@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QfBhuTG3-qAoGJJV1it2j-cvvdRgBMgT",
+  "page": 1,
+  "items": [
+    {
+      "id": "19ZKM-fc17FJ2x2nZxxuarB_hoNZyt861",
+      "parent_id": "1QfBhuTG3-qAoGJJV1it2j-cvvdRgBMgT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2436,
+      "modified": "2026-08-15T12:55:02.000Z",
+      "checksum": "062b2fdc0ae6f095aada35fcea5f6129",
+      "folder": false
+    },
+    {
+      "id": "1Y5ZxRicC7ouQK4Ll7NDgXWYdmpZQIh-q",
+      "parent_id": "1QfBhuTG3-qAoGJJV1it2j-cvvdRgBMgT",
+      "name": "XANH NHƯ MÂY TRỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 119983,
+      "modified": "2026-08-15T12:55:21.000Z",
+      "checksum": "079b7b1ab89490a7aa2488e416419532",
+      "folder": false
+    },
+    {
+      "id": "1VIerhbx9F-l4Z2rrXR0e1Lgwu3_uGOCR",
+      "parent_id": "1QfBhuTG3-qAoGJJV1it2j-cvvdRgBMgT",
+      "name": "XANH NHƯ MÂY TRỜI.pdf",
+      "mime": "application/pdf",
+      "size": 244259,
+      "modified": "2026-08-15T12:55:10.000Z",
+      "checksum": "f1e848edb073c7c4462704e9fa556f08",
+      "folder": false
+    }
+  ]
+}

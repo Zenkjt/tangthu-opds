@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1arD8JPJbcaXrwXr4EX9lJV1EKyYAvZkJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eW4qtt26XYn9SuqHnERa6H7PE6aZVinU",
+      "parent_id": "1arD8JPJbcaXrwXr4EX9lJV1EKyYAvZkJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3368,
+      "modified": "2026-08-15T13:12:30.000Z",
+      "checksum": "09cf57010c3ce3132f73c14b9e4eec25",
+      "folder": false
+    },
+    {
+      "id": "1Ucs6EuEvmQsS-sTC3MAh1sEY6yIVFNNm",
+      "parent_id": "1arD8JPJbcaXrwXr4EX9lJV1EKyYAvZkJ",
+      "name": "TÔI HỌC ĐOÁN MỆNH - QUYỂN 1.epub",
+      "mime": "application/epub+zip",
+      "size": 367739,
+      "modified": "2026-08-15T13:12:37.000Z",
+      "checksum": "2715aa10ffcbc821196db3e21c5581d2",
+      "folder": false
+    },
+    {
+      "id": "1egcTt6R0Y7V-T4JPub9C3dJXQtmsXC23",
+      "parent_id": "1arD8JPJbcaXrwXr4EX9lJV1EKyYAvZkJ",
+      "name": "TÔI HỌC ĐOÁN MỆNH - QUYỂN 1.pdf",
+      "mime": "application/pdf",
+      "size": 1387804,
+      "modified": "2026-08-15T13:12:34.000Z",
+      "checksum": "c63eab5edca55ef87d8126d37c7ee4ef",
+      "folder": false
+    }
+  ]
+}

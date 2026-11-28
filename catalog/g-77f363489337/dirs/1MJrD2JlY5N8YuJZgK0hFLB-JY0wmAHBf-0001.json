@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MJrD2JlY5N8YuJZgK0hFLB-JY0wmAHBf",
+  "page": 1,
+  "items": [
+    {
+      "id": "11KFCe1g-tJhsrxiFCQr1y-HLbWqlFaqw",
+      "parent_id": "1MJrD2JlY5N8YuJZgK0hFLB-JY0wmAHBf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3657,
+      "modified": "2026-08-15T10:34:26.000Z",
+      "checksum": "4ccf3c6cab7cdb1e8d42f55113c3a34f",
+      "folder": false
+    },
+    {
+      "id": "12VKA6kwRpvhLC2Dnc_le7eei-TqtpSIZ",
+      "parent_id": "1MJrD2JlY5N8YuJZgK0hFLB-JY0wmAHBf",
+      "name": "ỐC SÊN CHẠY.epub",
+      "mime": "application/epub+zip",
+      "size": 609491,
+      "modified": "2026-08-15T10:34:40.000Z",
+      "checksum": "0a648a3a353692725fd9768887287e28",
+      "folder": false
+    },
+    {
+      "id": "1UXR3yzBnq1KEJGhkAl5iOed1iQj0oeF3",
+      "parent_id": "1MJrD2JlY5N8YuJZgK0hFLB-JY0wmAHBf",
+      "name": "ỐC SÊN CHẠY.pdf",
+      "mime": "application/pdf",
+      "size": 1631982,
+      "modified": "2026-08-15T10:34:36.000Z",
+      "checksum": "1e692cda138c53e89c606ce69e527e00",
+      "folder": false
+    }
+  ]
+}

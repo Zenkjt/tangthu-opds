@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1J7fUW-Zm7ytLKUCuLrtk1ZW8I0630fuR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WoUDjBtg3erkxV6BedpQwZK7AlnVBwPG",
+      "parent_id": "1J7fUW-Zm7ytLKUCuLrtk1ZW8I0630fuR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 469,
+      "modified": "2026-08-15T10:43:32.000Z",
+      "checksum": "597ea352b2485ff999b6d202d3352848",
+      "folder": false
+    },
+    {
+      "id": "1j0meZCZyvEG4XhVgoXezoEIb5xdKnsTW",
+      "parent_id": "1J7fUW-Zm7ytLKUCuLrtk1ZW8I0630fuR",
+      "name": "NGƯỜI CUỐI CÙNG CỦA BỘ TỘC MOHICAN.epub",
+      "mime": "application/epub+zip",
+      "size": 580706,
+      "modified": "2026-08-15T10:44:27.000Z",
+      "checksum": "f08be8c7d26afa01a2b4f84dbcf34ea2",
+      "folder": false
+    },
+    {
+      "id": "1OQygcOBq4WxwDKGz03pfYKsc_jkdbQoR",
+      "parent_id": "1J7fUW-Zm7ytLKUCuLrtk1ZW8I0630fuR",
+      "name": "NGƯỜI CUỐI CÙNG CỦA BỘ TỘC MOHICAN.pdf",
+      "mime": "application/pdf",
+      "size": 1627810,
+      "modified": "2026-08-15T10:44:08.000Z",
+      "checksum": "db22dc9a281608d77c52e379ce09b945",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19Ou7UILPIhLJJGF88UuYQOzCegWMA5XI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gxiL4uPevvKEtpGVqkAJiTuQKG0Z40Y1",
+      "parent_id": "19Ou7UILPIhLJJGF88UuYQOzCegWMA5XI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3256,
+      "modified": "2026-08-15T00:46:53.000Z",
+      "checksum": "dcac2cdbf2761dab54c08b3c709d6bba",
+      "folder": false
+    },
+    {
+      "id": "1rmneOlxcCq7ZDCs9vWND5JfGFbc9FGPg",
+      "parent_id": "19Ou7UILPIhLJJGF88UuYQOzCegWMA5XI",
+      "name": "PHƯƠNG PHÁP GIÁO DỤC CON CỦA NGƯỜI DO THÁI.epub",
+      "mime": "application/epub+zip",
+      "size": 756760,
+      "modified": "2026-08-15T00:47:01.000Z",
+      "checksum": "2c6ba9e6affc07f0bea1cf68f5e4358a",
+      "folder": false
+    },
+    {
+      "id": "1li30cLbcjPyXtKnot6u7XrrrgLpJywA_",
+      "parent_id": "19Ou7UILPIhLJJGF88UuYQOzCegWMA5XI",
+      "name": "PHƯƠNG PHÁP GIÁO DỤC CON CỦA NGƯỜI DO THÁI.pdf",
+      "mime": "application/pdf",
+      "size": 1398249,
+      "modified": "2026-08-15T00:46:58.000Z",
+      "checksum": "06ae9dac44c9a00d6443ab546f9f558c",
+      "folder": false
+    }
+  ]
+}

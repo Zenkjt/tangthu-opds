@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Q0E5gXLVCt9ue1b_Ci4_4uD8STozNaQE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Zjmv4S9KHtFey27KKPe9v_ImZtc9Je1E",
+      "parent_id": "1Q0E5gXLVCt9ue1b_Ci4_4uD8STozNaQE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2661,
+      "modified": "2026-08-15T07:32:26.000Z",
+      "checksum": "744ebe7ccf8dc31d473a4a1b580216dd",
+      "folder": false
+    },
+    {
+      "id": "1QHEABa-2wOaxTFSfi77NNPJHln2DHdha",
+      "parent_id": "1Q0E5gXLVCt9ue1b_Ci4_4uD8STozNaQE",
+      "name": "XỨNG LỨA VỪA ĐÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 678883,
+      "modified": "2026-08-15T07:32:33.000Z",
+      "checksum": "f97d453c13519221734bc0327c46a45b",
+      "folder": false
+    },
+    {
+      "id": "19Klqo2e4tsoGbWCme6VRiqsbh60NHsZ1",
+      "parent_id": "1Q0E5gXLVCt9ue1b_Ci4_4uD8STozNaQE",
+      "name": "XỨNG LỨA VỪA ĐÔI.pdf",
+      "mime": "application/pdf",
+      "size": 2038484,
+      "modified": "2026-08-15T07:32:30.000Z",
+      "checksum": "53fb4a9fd278228c0cd10a1982718b5c",
+      "folder": false
+    }
+  ]
+}

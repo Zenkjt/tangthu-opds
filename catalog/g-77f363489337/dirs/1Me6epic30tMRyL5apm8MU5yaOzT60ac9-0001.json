@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Me6epic30tMRyL5apm8MU5yaOzT60ac9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xOZcd3a9AV2-fPAY6Z39toQuz79ce4QQ",
+      "parent_id": "1Me6epic30tMRyL5apm8MU5yaOzT60ac9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 14785,
+      "modified": "2026-08-15T03:27:54.000Z",
+      "checksum": "fbcbaf7260c1854f9ad51131387b68a8",
+      "folder": false
+    },
+    {
+      "id": "1nz8k4lGEHF4-lG_qJjGo2XUsaIvGPDtc",
+      "parent_id": "1Me6epic30tMRyL5apm8MU5yaOzT60ac9",
+      "name": "TÂY DU KÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 1715408,
+      "modified": "2026-08-15T03:28:21.000Z",
+      "checksum": "287953a9c0c0a68de109e534c8abfa60",
+      "folder": false
+    },
+    {
+      "id": "1M3MybAvWf0hTs0mVBMPjpXasmUrhGqMA",
+      "parent_id": "1Me6epic30tMRyL5apm8MU5yaOzT60ac9",
+      "name": "TÂY DU KÝ.pdf",
+      "mime": "application/pdf",
+      "size": 5653954,
+      "modified": "2026-08-15T03:28:17.000Z",
+      "checksum": "c0c5b4044489c6f8759faebf76734e94",
+      "folder": false
+    }
+  ]
+}

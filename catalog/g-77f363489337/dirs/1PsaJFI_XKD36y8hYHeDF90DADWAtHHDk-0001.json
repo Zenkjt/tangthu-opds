@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PsaJFI_XKD36y8hYHeDF90DADWAtHHDk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JzLVQuMm8NvFPTs8CJkBX11RBBsLngEi",
+      "parent_id": "1PsaJFI_XKD36y8hYHeDF90DADWAtHHDk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1662,
+      "modified": "2026-08-16T03:42:19.000Z",
+      "checksum": "9c6fbec76679f6c34201d1ccfe5fe679",
+      "folder": false
+    },
+    {
+      "id": "1_DLL9p61KOXMp7B8U1baZQBJKUgF88Si",
+      "parent_id": "1PsaJFI_XKD36y8hYHeDF90DADWAtHHDk",
+      "name": "EM LÀ VỢ CỦA ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 158356,
+      "modified": "2026-08-16T03:42:25.000Z",
+      "checksum": "10b5adf4d34c6781ea001208c516f8b4",
+      "folder": false
+    },
+    {
+      "id": "1CYi4mgUw4W-zxT1qzLhGZ-9wxOCQb7k6",
+      "parent_id": "1PsaJFI_XKD36y8hYHeDF90DADWAtHHDk",
+      "name": "EM LÀ VỢ CỦA ANH.pdf",
+      "mime": "application/pdf",
+      "size": 107933,
+      "modified": "2026-08-16T03:42:22.000Z",
+      "checksum": "992b60c01be9e4f12e1729cb64a3f83f",
+      "folder": false
+    }
+  ]
+}

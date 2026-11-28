@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1R3fiKJNIvJccW95l9OZNCrob0c9XfHrx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RqL-B36CmSnoxr4Cnj8GBxaeIbxVa4ZE",
+      "parent_id": "1R3fiKJNIvJccW95l9OZNCrob0c9XfHrx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3485,
+      "modified": "2026-08-15T10:32:31.000Z",
+      "checksum": "d0155a4456c3093ff986a2a0e15bca4c",
+      "folder": false
+    },
+    {
+      "id": "1oWyBL7VW6ceQkaZ4HFk-Rw4SZk79Hazx",
+      "parent_id": "1R3fiKJNIvJccW95l9OZNCrob0c9XfHrx",
+      "name": "PHIÊU LƯU VÀO MỎ THAN ABERFOYLE.epub",
+      "mime": "application/epub+zip",
+      "size": 1032335,
+      "modified": "2026-08-15T10:32:37.000Z",
+      "checksum": "0d41cebdfcf72814e44889583b7bfbf9",
+      "folder": false
+    },
+    {
+      "id": "1oQA7xqpfUEMBz9jsDWHyXWEX_URLZzT7",
+      "parent_id": "1R3fiKJNIvJccW95l9OZNCrob0c9XfHrx",
+      "name": "PHIÊU LƯU VÀO MỎ THAN ABERFOYLE.pdf",
+      "mime": "application/pdf",
+      "size": 704794,
+      "modified": "2026-08-15T10:32:35.000Z",
+      "checksum": "928029176fb385942f6d050eae7957d8",
+      "folder": false
+    }
+  ]
+}

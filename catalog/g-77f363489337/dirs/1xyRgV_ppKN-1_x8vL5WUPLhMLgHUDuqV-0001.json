@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xyRgV_ppKN-1_x8vL5WUPLhMLgHUDuqV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xvbRZqVjhiT4DDHoWEyqr6zulWM27zsX",
+      "parent_id": "1xyRgV_ppKN-1_x8vL5WUPLhMLgHUDuqV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1042,
+      "modified": "2026-08-15T06:50:42.000Z",
+      "checksum": "50e0ab07e61de6e925f8d7ff3810aae5",
+      "folder": false
+    },
+    {
+      "id": "17gY9JoDzjNWKDlDjGfPNb3f3d72XhWvq",
+      "parent_id": "1xyRgV_ppKN-1_x8vL5WUPLhMLgHUDuqV",
+      "name": "QUÀ CỦA BỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 1098967,
+      "modified": "2026-08-15T06:50:48.000Z",
+      "checksum": "6ede31dec4d89b678c9961207b6c9b1a",
+      "folder": false
+    },
+    {
+      "id": "1Ytq-R_nGRtn6KbrnXxG2vxhLCfR4wd_q",
+      "parent_id": "1xyRgV_ppKN-1_x8vL5WUPLhMLgHUDuqV",
+      "name": "QUÀ CỦA BỐ.pdf",
+      "mime": "application/pdf",
+      "size": 1250816,
+      "modified": "2026-08-15T06:50:45.000Z",
+      "checksum": "ffda92052b6200865ac1dc26077e049c",
+      "folder": false
+    }
+  ]
+}

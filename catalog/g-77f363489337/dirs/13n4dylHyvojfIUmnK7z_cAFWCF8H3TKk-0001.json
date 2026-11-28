@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13n4dylHyvojfIUmnK7z_cAFWCF8H3TKk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1G32jxhX0wBRwpCHmXUo7ZLEVy9YxgTeS",
+      "parent_id": "13n4dylHyvojfIUmnK7z_cAFWCF8H3TKk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1795,
+      "modified": "2026-08-15T09:33:07.000Z",
+      "checksum": "338311e37e0a8eaf17cd34f137a5938f",
+      "folder": false
+    },
+    {
+      "id": "1CuAPqejsTAtQtDek7ihn2e6Ql_lB4xOf",
+      "parent_id": "13n4dylHyvojfIUmnK7z_cAFWCF8H3TKk",
+      "name": "MẶC PHỤ HÀN HẠ.epub",
+      "mime": "application/epub+zip",
+      "size": 933974,
+      "modified": "2026-08-15T09:33:16.000Z",
+      "checksum": "495c1422084a65852522b5e3da855767",
+      "folder": false
+    },
+    {
+      "id": "1irP_nOcYr_sSEuMcCHbgqS4QKmA6KtBX",
+      "parent_id": "13n4dylHyvojfIUmnK7z_cAFWCF8H3TKk",
+      "name": "MẶC PHỤ HÀN HẠ.pdf",
+      "mime": "application/pdf",
+      "size": 1679957,
+      "modified": "2026-08-15T09:33:13.000Z",
+      "checksum": "0da805568166e569c351b2b7bfc44746",
+      "folder": false
+    }
+  ]
+}

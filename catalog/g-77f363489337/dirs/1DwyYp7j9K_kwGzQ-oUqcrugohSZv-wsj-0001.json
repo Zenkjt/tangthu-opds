@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DwyYp7j9K_kwGzQ-oUqcrugohSZv-wsj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ah0udnyfRrih1bbSllcYQOnMtU_yTnew",
+      "parent_id": "1DwyYp7j9K_kwGzQ-oUqcrugohSZv-wsj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3341,
+      "modified": "2026-08-16T04:13:51.000Z",
+      "checksum": "6a14f67866d03e64d24ee14cb6e1b3a0",
+      "folder": false
+    },
+    {
+      "id": "1LOQyBdHJ3fbp_Ikn3_f6DKjXuLUm71t6",
+      "parent_id": "1DwyYp7j9K_kwGzQ-oUqcrugohSZv-wsj",
+      "name": "NGƯỜI ĐÀN ÔNG CỦA TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 712403,
+      "modified": "2026-08-16T04:13:58.000Z",
+      "checksum": "c2e301c518f2a67adfb8b151aa538db0",
+      "folder": false
+    },
+    {
+      "id": "18y4GjNAXXkPGzSFXabpSg372jRWFj19n",
+      "parent_id": "1DwyYp7j9K_kwGzQ-oUqcrugohSZv-wsj",
+      "name": "NGƯỜI ĐÀN ÔNG CỦA TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 2136496,
+      "modified": "2026-08-16T04:13:56.000Z",
+      "checksum": "1fe223131fad2265a02bb218e81cf18f",
+      "folder": false
+    }
+  ]
+}

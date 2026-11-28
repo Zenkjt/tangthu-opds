@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sKtczMhFn2YFyb-WLeLNYmaXI88sUPxD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ibe9w6CbJVnxQZZDngSgXzk6Nz7qHdM0",
+      "parent_id": "1sKtczMhFn2YFyb-WLeLNYmaXI88sUPxD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 634,
+      "modified": "2026-08-15T10:14:43.000Z",
+      "checksum": "2991792a11599348317f65932c53b516",
+      "folder": false
+    },
+    {
+      "id": "1_986F9CbOUIYo3YdNKYg2Odz4-422anN",
+      "parent_id": "1sKtczMhFn2YFyb-WLeLNYmaXI88sUPxD",
+      "name": "THIÊN MÔN HỆ LIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 2069080,
+      "modified": "2026-08-15T10:14:57.000Z",
+      "checksum": "83ce1ea59947e4b50b9371c158560e0d",
+      "folder": false
+    },
+    {
+      "id": "1BM5tW7e9D6BOcCy72WHsEK17G1D_9eGb",
+      "parent_id": "1sKtczMhFn2YFyb-WLeLNYmaXI88sUPxD",
+      "name": "THIÊN MÔN HỆ LIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 6161541,
+      "modified": "2026-08-15T10:14:54.000Z",
+      "checksum": "1c6639557c9c1e098c95f5af8629df89",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1reScVvj5DeH3cs7pENJmq2sYkQ_EfbEl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RpP2A_DETv6nred3tkRZ3z9fYjkCjI5C",
+      "parent_id": "1reScVvj5DeH3cs7pENJmq2sYkQ_EfbEl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3174,
+      "modified": "2026-08-15T10:10:43.000Z",
+      "checksum": "ecda01d7f9786115b0d82fc2dcb1e941",
+      "folder": false
+    },
+    {
+      "id": "1G_LE-RbiQDdD3L7MwzFGYOGV79GHmsod",
+      "parent_id": "1reScVvj5DeH3cs7pENJmq2sYkQ_EfbEl",
+      "name": "TIÊN LỘ TRANH PHONG.epub",
+      "mime": "application/epub+zip",
+      "size": 1424571,
+      "modified": "2026-08-15T10:10:58.000Z",
+      "checksum": "31ac4f3f0fb4fc658b5425ff18ce0156",
+      "folder": false
+    },
+    {
+      "id": "1stKR60ieeI2nv12H1Vpr0lK_IppZ0LaJ",
+      "parent_id": "1reScVvj5DeH3cs7pENJmq2sYkQ_EfbEl",
+      "name": "TIÊN LỘ TRANH PHONG.pdf",
+      "mime": "application/pdf",
+      "size": 5014873,
+      "modified": "2026-08-15T10:10:55.000Z",
+      "checksum": "0a467ec1e5abaa0fb0f5e0a9c180cf62",
+      "folder": false
+    }
+  ]
+}

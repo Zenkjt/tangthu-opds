@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1E4ut-So5m-F4IZvlbEBuvPmF6CaH32U9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gOBCsgkypcDGL_LvdlL-V84QZ40iQlke",
+      "parent_id": "1E4ut-So5m-F4IZvlbEBuvPmF6CaH32U9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3295,
+      "modified": "2026-08-15T15:15:20.000Z",
+      "checksum": "f0f3953ec4d05686e97f719125b28f07",
+      "folder": false
+    },
+    {
+      "id": "1hSbJ_AOLI6he9qjbekWOkZyeSKb7USCk",
+      "parent_id": "1E4ut-So5m-F4IZvlbEBuvPmF6CaH32U9",
+      "name": "ĐIỆU TANGO BÍ HIỂM.epub",
+      "mime": "application/epub+zip",
+      "size": 496088,
+      "modified": "2026-08-15T15:15:26.000Z",
+      "checksum": "3ade3fca927ba595e58524f192e2f58f",
+      "folder": false
+    },
+    {
+      "id": "1hOHNAgQP5w5YJD41z8vBqU5JggsUpaEc",
+      "parent_id": "1E4ut-So5m-F4IZvlbEBuvPmF6CaH32U9",
+      "name": "ĐIỆU TANGO BÍ HIỂM.pdf",
+      "mime": "application/pdf",
+      "size": 438912,
+      "modified": "2026-08-15T15:15:24.000Z",
+      "checksum": "571d5cb4b1730450e0f20603a2ab04fb",
+      "folder": false
+    }
+  ]
+}

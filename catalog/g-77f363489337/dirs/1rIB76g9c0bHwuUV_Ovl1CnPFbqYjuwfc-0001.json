@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rIB76g9c0bHwuUV_Ovl1CnPFbqYjuwfc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KMnQwGyso6wgv_fMKVvskRKDo4oLq1Pu",
+      "parent_id": "1rIB76g9c0bHwuUV_Ovl1CnPFbqYjuwfc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1921,
+      "modified": "2026-08-15T04:00:00.000Z",
+      "checksum": "dcbfadbe92543e094c8448c78d9e0d64",
+      "folder": false
+    },
+    {
+      "id": "1z98TJOaNhwLQZCwGERU6oKiT84Zlbb6K",
+      "parent_id": "1rIB76g9c0bHwuUV_Ovl1CnPFbqYjuwfc",
+      "name": "THEO DẤU CHÂN PHẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 1814670,
+      "modified": "2026-08-15T04:00:10.000Z",
+      "checksum": "e00d11bf88059d0dc919de6d891c48cb",
+      "folder": false
+    },
+    {
+      "id": "1Pas4afRx0OY6PcbofiOKNqsPqZDZ8jwI",
+      "parent_id": "1rIB76g9c0bHwuUV_Ovl1CnPFbqYjuwfc",
+      "name": "THEO DẤU CHÂN PHẬT.pdf",
+      "mime": "application/pdf",
+      "size": 3095240,
+      "modified": "2026-08-15T04:00:07.000Z",
+      "checksum": "f4a10a1a20b1852cdf39b4945c1418d1",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aimy5mRoPnqegkHZgnAlMsxBcXnpp2A1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1adIHp5XpUmtPy-LJsZsck2w1Cm3Bu9mU",
+      "parent_id": "1aimy5mRoPnqegkHZgnAlMsxBcXnpp2A1",
+      "name": "CĂN PHÒNG RIÊNG.epub",
+      "mime": "application/epub+zip",
+      "size": 340405,
+      "modified": "2026-08-15T08:20:51.000Z",
+      "checksum": "4f6dc6b5b5d6f95b16cfe9f05f5e7449",
+      "folder": false
+    },
+    {
+      "id": "1WRTntDMufpiDBh2r8JIpwEJwngmmFtWM",
+      "parent_id": "1aimy5mRoPnqegkHZgnAlMsxBcXnpp2A1",
+      "name": "CĂN PHÒNG RIÊNG.pdf",
+      "mime": "application/pdf",
+      "size": 859877,
+      "modified": "2026-08-15T08:20:48.000Z",
+      "checksum": "168c155b3573a56ddead809dc9f22607",
+      "folder": false
+    },
+    {
+      "id": "1vsK_uRP0IVKFMeAbQZMgVELkBpQrXVRL",
+      "parent_id": "1aimy5mRoPnqegkHZgnAlMsxBcXnpp2A1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5368,
+      "modified": "2026-08-15T08:20:42.000Z",
+      "checksum": "bc1fd5cfc0c90ed6709ec823b12a481b",
+      "folder": false
+    }
+  ]
+}

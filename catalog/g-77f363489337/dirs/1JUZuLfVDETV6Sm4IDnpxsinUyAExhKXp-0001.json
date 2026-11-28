@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JUZuLfVDETV6Sm4IDnpxsinUyAExhKXp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Q6OWfg0YhC7WJoalz1cb9qHF4X52dkJ4",
+      "parent_id": "1JUZuLfVDETV6Sm4IDnpxsinUyAExhKXp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2676,
+      "modified": "2026-08-16T03:03:09.000Z",
+      "checksum": "8165d12b21da50772d2730a2844ba5d0",
+      "folder": false
+    },
+    {
+      "id": "1rhXatGqhCmZAoqvBNJtCZHgRM07iwQZv",
+      "parent_id": "1JUZuLfVDETV6Sm4IDnpxsinUyAExhKXp",
+      "name": "TRUYỆN KỂ DO THÁI.epub",
+      "mime": "application/epub+zip",
+      "size": 436596,
+      "modified": "2026-08-16T03:03:16.000Z",
+      "checksum": "2ff57dd6c178dee8a7e21ffa26809f66",
+      "folder": false
+    },
+    {
+      "id": "1G05J7D1I4RyNvP9TqFYXcGFlivdOo1aq",
+      "parent_id": "1JUZuLfVDETV6Sm4IDnpxsinUyAExhKXp",
+      "name": "TRUYỆN KỂ DO THÁI.pdf",
+      "mime": "application/pdf",
+      "size": 1024050,
+      "modified": "2026-08-16T03:03:14.000Z",
+      "checksum": "1c5fa1f2d61dec3a67edcd9e7f60cab0",
+      "folder": false
+    }
+  ]
+}

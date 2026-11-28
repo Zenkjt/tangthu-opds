@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZeWZCWBS_P-S9Y5WdWAmSUBMgHg7g_-E",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CKze43VviNQZXtjFb84wMT8YfzhE8Uec",
+      "parent_id": "1ZeWZCWBS_P-S9Y5WdWAmSUBMgHg7g_-E",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3039,
+      "modified": "2026-08-15T10:08:14.000Z",
+      "checksum": "a137636cac9d33cbbba685a2129c6bcb",
+      "folder": false
+    },
+    {
+      "id": "1zWh60YEgmYUZ5Ekba3QtgFNkp7CnV1YY",
+      "parent_id": "1ZeWZCWBS_P-S9Y5WdWAmSUBMgHg7g_-E",
+      "name": "TÌNH YÊU LÀ MỘT LẦN CẢM CÚM.epub",
+      "mime": "application/epub+zip",
+      "size": 342444,
+      "modified": "2026-08-15T10:08:20.000Z",
+      "checksum": "e779eed94cc02858b41fe5695b8987b2",
+      "folder": false
+    },
+    {
+      "id": "1FXsVcLKdkEWG1MFtiv2HfGwuAkmFrvCv",
+      "parent_id": "1ZeWZCWBS_P-S9Y5WdWAmSUBMgHg7g_-E",
+      "name": "TÌNH YÊU LÀ MỘT LẦN CẢM CÚM.pdf",
+      "mime": "application/pdf",
+      "size": 847015,
+      "modified": "2026-08-15T10:08:18.000Z",
+      "checksum": "112d1190df2237b4f299f4c66dcb7a72",
+      "folder": false
+    }
+  ]
+}

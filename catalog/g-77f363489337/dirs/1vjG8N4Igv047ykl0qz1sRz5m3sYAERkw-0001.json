@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vjG8N4Igv047ykl0qz1sRz5m3sYAERkw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hEwitA13C5K8qOfJHaFEYJOlSXUo4uyq",
+      "parent_id": "1vjG8N4Igv047ykl0qz1sRz5m3sYAERkw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3080,
+      "modified": "2026-08-15T06:20:10.000Z",
+      "checksum": "66dc92506332e2a63acb1d8ac212e7b4",
+      "folder": false
+    },
+    {
+      "id": "1-wwsqDCSWp2s4T7W_Pw5c0VllDsA7zFP",
+      "parent_id": "1vjG8N4Igv047ykl0qz1sRz5m3sYAERkw",
+      "name": "THÁNG TÁM KHÔNG VUA.epub",
+      "mime": "application/epub+zip",
+      "size": 410867,
+      "modified": "2026-08-15T06:20:30.000Z",
+      "checksum": "db72fb068deb829ed6e06a19b2e4727f",
+      "folder": false
+    },
+    {
+      "id": "1x_Y7oJPES0v3O4SYljYui5cskRxNXgZg",
+      "parent_id": "1vjG8N4Igv047ykl0qz1sRz5m3sYAERkw",
+      "name": "THÁNG TÁM KHÔNG VUA.pdf",
+      "mime": "application/pdf",
+      "size": 1157591,
+      "modified": "2026-08-15T06:20:23.000Z",
+      "checksum": "c7c2926d8a65fe4a502614893aebf3da",
+      "folder": false
+    }
+  ]
+}

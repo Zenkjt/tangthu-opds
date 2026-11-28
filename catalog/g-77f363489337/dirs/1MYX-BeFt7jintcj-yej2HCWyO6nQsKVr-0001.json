@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MYX-BeFt7jintcj-yej2HCWyO6nQsKVr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VZVd-Ok232bnOpM2IZJ0e8ggaYJKAqZn",
+      "parent_id": "1MYX-BeFt7jintcj-yej2HCWyO6nQsKVr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1430,
+      "modified": "2026-08-15T03:38:33.000Z",
+      "checksum": "cc2d511bf27698b610fc08596de0d965",
+      "folder": false
+    },
+    {
+      "id": "1jyTuNWZJThEH9-uyn23wPVXR-QJDhu8Y",
+      "parent_id": "1MYX-BeFt7jintcj-yej2HCWyO6nQsKVr",
+      "name": "HẠNH PHÚC MỘNG VÀ THỰC.epub",
+      "mime": "application/epub+zip",
+      "size": 834697,
+      "modified": "2026-08-15T03:38:39.000Z",
+      "checksum": "6557d486c502a4e6a8c3b356949623f1",
+      "folder": false
+    },
+    {
+      "id": "1GVbjmopRmqY3ioLOuQaA27DpyoFwW2CE",
+      "parent_id": "1MYX-BeFt7jintcj-yej2HCWyO6nQsKVr",
+      "name": "HẠNH PHÚC MỘNG VÀ THỰC.pdf",
+      "mime": "application/pdf",
+      "size": 1212244,
+      "modified": "2026-08-15T03:38:37.000Z",
+      "checksum": "0a8f98d08117978341a160b8046722d5",
+      "folder": false
+    }
+  ]
+}

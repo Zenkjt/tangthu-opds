@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-cnCB2YFJGzGigFntayYlOCrV1tCf7n-",
+  "page": 1,
+  "items": [
+    {
+      "id": "18gAf1KrcGG94bbEjo7v9RnlCVdagU0Y8",
+      "parent_id": "1-cnCB2YFJGzGigFntayYlOCrV1tCf7n-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4110,
+      "modified": "2026-08-16T02:56:03.000Z",
+      "checksum": "8ccb93b886b6a7d671441e04efb6a1d1",
+      "folder": false
+    },
+    {
+      "id": "1zi9j3RLGwOUbHf6OES4ZtH70XSSPrTMN",
+      "parent_id": "1-cnCB2YFJGzGigFntayYlOCrV1tCf7n-",
+      "name": "MÂY MÙA THU.epub",
+      "mime": "application/epub+zip",
+      "size": 601213,
+      "modified": "2026-08-16T02:56:09.000Z",
+      "checksum": "e702a606775dbacc2020e1c496b00037",
+      "folder": false
+    },
+    {
+      "id": "1tTLHnOYPhov3WfcW4XweoDwMT1Qi_f9W",
+      "parent_id": "1-cnCB2YFJGzGigFntayYlOCrV1tCf7n-",
+      "name": "MÂY MÙA THU.pdf",
+      "mime": "application/pdf",
+      "size": 681112,
+      "modified": "2026-08-16T02:56:06.000Z",
+      "checksum": "74b820a057492ab2bca29c0f3a4d3256",
+      "folder": false
+    }
+  ]
+}

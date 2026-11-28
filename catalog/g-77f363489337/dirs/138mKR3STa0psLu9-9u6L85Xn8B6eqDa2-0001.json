@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "138mKR3STa0psLu9-9u6L85Xn8B6eqDa2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ooXNZtSiRAUHRWCpcBAWN232o8U3iGbM",
+      "parent_id": "138mKR3STa0psLu9-9u6L85Xn8B6eqDa2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1234,
+      "modified": "2026-08-16T03:36:08.000Z",
+      "checksum": "7cc5575daa53dc52e5ddbdf4d51f55ee",
+      "folder": false
+    },
+    {
+      "id": "13FkPJCaoAH1uS5deNdVIvrSSbLVM6x3I",
+      "parent_id": "138mKR3STa0psLu9-9u6L85Xn8B6eqDa2",
+      "name": "THẾ GIỚI XÔ LỆCH.epub",
+      "mime": "application/epub+zip",
+      "size": 278714,
+      "modified": "2026-08-16T03:36:13.000Z",
+      "checksum": "ba9106bd3c65cd7ea891cfc30a9ce5c7",
+      "folder": false
+    },
+    {
+      "id": "1f4U8tAu4ZJN7OZ8Hz_F7excgI-bzoXta",
+      "parent_id": "138mKR3STa0psLu9-9u6L85Xn8B6eqDa2",
+      "name": "THẾ GIỚI XÔ LỆCH.pdf",
+      "mime": "application/pdf",
+      "size": 332165,
+      "modified": "2026-08-16T03:36:11.000Z",
+      "checksum": "35d9ea6e20cb1b92f63872669fd771e8",
+      "folder": false
+    }
+  ]
+}

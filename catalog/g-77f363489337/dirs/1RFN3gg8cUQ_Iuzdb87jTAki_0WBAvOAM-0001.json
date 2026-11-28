@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RFN3gg8cUQ_Iuzdb87jTAki_0WBAvOAM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zUavDW5B4LoosqMKgQzj4aRzLW2ES8LN",
+      "parent_id": "1RFN3gg8cUQ_Iuzdb87jTAki_0WBAvOAM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 521,
+      "modified": "2026-08-15T10:57:13.000Z",
+      "checksum": "fa1d283efe2d62a86213e8098b33345b",
+      "folder": false
+    },
+    {
+      "id": "1vSzhfGYbCQtbRmqo1gmVXiGRc6NGf1V_",
+      "parent_id": "1RFN3gg8cUQ_Iuzdb87jTAki_0WBAvOAM",
+      "name": "GIAO ƯỚC ĐỊNH MỆNH.epub",
+      "mime": "application/epub+zip",
+      "size": 657616,
+      "modified": "2026-08-15T10:57:20.000Z",
+      "checksum": "c6f62cc1977950c2b95f5fb52ee13da7",
+      "folder": false
+    },
+    {
+      "id": "1oDoOaNWxOt1ZCzyKsge8mr2Xwam27yCU",
+      "parent_id": "1RFN3gg8cUQ_Iuzdb87jTAki_0WBAvOAM",
+      "name": "GIAO ƯỚC ĐỊNH MỆNH.pdf",
+      "mime": "application/pdf",
+      "size": 1274082,
+      "modified": "2026-08-15T10:57:17.000Z",
+      "checksum": "cd97790dcc799da227007fe8ca408dab",
+      "folder": false
+    }
+  ]
+}

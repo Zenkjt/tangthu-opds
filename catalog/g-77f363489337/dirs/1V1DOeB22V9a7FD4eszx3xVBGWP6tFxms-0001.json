@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1V1DOeB22V9a7FD4eszx3xVBGWP6tFxms",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NHysy1MIYQ1fuVNlLzN4zNTAtfXIC59f",
+      "parent_id": "1V1DOeB22V9a7FD4eszx3xVBGWP6tFxms",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2753,
+      "modified": "2026-08-16T04:10:42.000Z",
+      "checksum": "fa89d94cb8f40bdaf3fae9bad3061af5",
+      "folder": false
+    },
+    {
+      "id": "1F-as9qMvHjf1Uv8id85MsxV645QQpfAq",
+      "parent_id": "1V1DOeB22V9a7FD4eszx3xVBGWP6tFxms",
+      "name": "NHỮNG BÍ ẨN CỦA SA MẠC.epub",
+      "mime": "application/epub+zip",
+      "size": 749192,
+      "modified": "2026-08-16T04:10:58.000Z",
+      "checksum": "b09f3c798fe6bb6caacdd9711f330c5d",
+      "folder": false
+    },
+    {
+      "id": "1inA1vC-Kteeim0HIy4AqUaMCs4fFl6uY",
+      "parent_id": "1V1DOeB22V9a7FD4eszx3xVBGWP6tFxms",
+      "name": "NHỮNG BÍ ẨN CỦA SA MẠC.pdf",
+      "mime": "application/pdf",
+      "size": 2160492,
+      "modified": "2026-08-16T04:10:53.000Z",
+      "checksum": "9cccfebeedf0661a6a40d8809988b316",
+      "folder": false
+    }
+  ]
+}

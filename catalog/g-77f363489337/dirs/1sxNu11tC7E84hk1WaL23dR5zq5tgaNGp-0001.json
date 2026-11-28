@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sxNu11tC7E84hk1WaL23dR5zq5tgaNGp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mPSCHnwaKkFt0eCTnyIGHrcRSQmm698u",
+      "parent_id": "1sxNu11tC7E84hk1WaL23dR5zq5tgaNGp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5657,
+      "modified": "2026-08-16T03:46:33.000Z",
+      "checksum": "565592dd7ae2b4678ea520532945f15c",
+      "folder": false
+    },
+    {
+      "id": "1OBFpdbFZKNdSY1Ogit7Sm3eszoU5hQCw",
+      "parent_id": "1sxNu11tC7E84hk1WaL23dR5zq5tgaNGp",
+      "name": "TÔI VÔ TỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 465206,
+      "modified": "2026-08-16T03:46:40.000Z",
+      "checksum": "89ac03e8732625cc3d185161a47e503f",
+      "folder": false
+    },
+    {
+      "id": "1YhaQxnuA3ZYlWBz_Y_VIhms3TeZghH8c",
+      "parent_id": "1sxNu11tC7E84hk1WaL23dR5zq5tgaNGp",
+      "name": "TÔI VÔ TỘI.pdf",
+      "mime": "application/pdf",
+      "size": 757678,
+      "modified": "2026-08-16T03:46:37.000Z",
+      "checksum": "c608f697cbec718a9b68f96adf869ae5",
+      "folder": false
+    }
+  ]
+}

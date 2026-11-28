@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qH2LZDvm2-NZ_8FtKS-N7HkybcM67Vph",
+  "page": 1,
+  "items": [
+    {
+      "id": "1g1jRxSSoAxxK3D40MjQg_MMUqA5acoZS",
+      "parent_id": "1qH2LZDvm2-NZ_8FtKS-N7HkybcM67Vph",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4170,
+      "modified": "2026-08-15T03:46:13.000Z",
+      "checksum": "6a61202d63875e97c48d0fd4f380badd",
+      "folder": false
+    },
+    {
+      "id": "14BhUpzsY2KYU0GtmzS-Vkm4iKuoRxlRm",
+      "parent_id": "1qH2LZDvm2-NZ_8FtKS-N7HkybcM67Vph",
+      "name": "THIỀN THỰC HÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 1878055,
+      "modified": "2026-08-15T03:46:20.000Z",
+      "checksum": "411703c57b10551ae5099842c44247ab",
+      "folder": false
+    },
+    {
+      "id": "1F8ZSF8lDmvpULFsdu2MHQNS7Mv5lnsuv",
+      "parent_id": "1qH2LZDvm2-NZ_8FtKS-N7HkybcM67Vph",
+      "name": "THIỀN THỰC HÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 1382113,
+      "modified": "2026-08-15T03:46:17.000Z",
+      "checksum": "1d44559cf7810096e16b9112317730ff",
+      "folder": false
+    }
+  ]
+}

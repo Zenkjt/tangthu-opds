@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NUMWKtENAiwh35QVTUULUf0mn4SmmQoJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sdSS0BK05cqYZ_BbBR_dq2WjlBi5G_fI",
+      "parent_id": "1NUMWKtENAiwh35QVTUULUf0mn4SmmQoJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3440,
+      "modified": "2026-08-16T03:33:25.000Z",
+      "checksum": "ad7391b8141debdce43bfde482cf9706",
+      "folder": false
+    },
+    {
+      "id": "1xbS7hoG3nGWlrMiJRlqBSARtXPb9CaOO",
+      "parent_id": "1NUMWKtENAiwh35QVTUULUf0mn4SmmQoJ",
+      "name": "ẢO LINH KỲ.epub",
+      "mime": "application/epub+zip",
+      "size": 332562,
+      "modified": "2026-08-16T03:33:31.000Z",
+      "checksum": "ffcce7e95d85af57630032e39c3d5198",
+      "folder": false
+    },
+    {
+      "id": "1QVh3yGZpRvmg9ZD6VyYg0nHs68vruWNO",
+      "parent_id": "1NUMWKtENAiwh35QVTUULUf0mn4SmmQoJ",
+      "name": "ẢO LINH KỲ.pdf",
+      "mime": "application/pdf",
+      "size": 334393,
+      "modified": "2026-08-16T03:33:28.000Z",
+      "checksum": "af27534ec160fae72dab77c15a44f6a8",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1snf958UMjGCCq2Kb63DNl5Y8P95LlpqM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1traV6J3kRJoW6Ro6WojAb8demDF1w3B6",
+      "parent_id": "1snf958UMjGCCq2Kb63DNl5Y8P95LlpqM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4395,
+      "modified": "2026-08-15T00:57:08.000Z",
+      "checksum": "5b68f77dc43e8af535706d670fa26007",
+      "folder": false
+    },
+    {
+      "id": "1M9BFCqaNfL9PDE1jd141iCtVqWulpHHg",
+      "parent_id": "1snf958UMjGCCq2Kb63DNl5Y8P95LlpqM",
+      "name": "SONG NGƯ VÀ CHUYỆN TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 753649,
+      "modified": "2026-08-15T00:57:49.000Z",
+      "checksum": "69eed5030dd4f88b01d44d4d4f659be8",
+      "folder": false
+    },
+    {
+      "id": "1nT60s3R5uGJEVNzVfSuWS-KLQauaN8G3",
+      "parent_id": "1snf958UMjGCCq2Kb63DNl5Y8P95LlpqM",
+      "name": "SONG NGƯ VÀ CHUYỆN TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 911865,
+      "modified": "2026-08-15T00:57:25.000Z",
+      "checksum": "000648df0c93ca7b18cbe5c9cf235bb1",
+      "folder": false
+    }
+  ]
+}

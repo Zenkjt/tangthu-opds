@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aPlTYqTv6jsLsdE8a63PEJVcChdN6wDi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hJnK_oiUtizoH712958zwrRBC4yLJ9md",
+      "parent_id": "1aPlTYqTv6jsLsdE8a63PEJVcChdN6wDi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3505,
+      "modified": "2026-08-15T07:40:45.000Z",
+      "checksum": "e383aaa4b2856cdee7f85ebdde6ad0f5",
+      "folder": false
+    },
+    {
+      "id": "1pT2c8Xbsc8e5yqaFNiNuNvKt8HKb3JAN",
+      "parent_id": "1aPlTYqTv6jsLsdE8a63PEJVcChdN6wDi",
+      "name": "ĐẤU PHÁ HẬU CUNG.epub",
+      "mime": "application/epub+zip",
+      "size": 2115339,
+      "modified": "2026-08-15T07:40:56.000Z",
+      "checksum": "82717a30cfb82f33aee1004b36760f3d",
+      "folder": false
+    },
+    {
+      "id": "1WWmIzRL26phPEpXU9QlqxDjFQMrC2NK2",
+      "parent_id": "1aPlTYqTv6jsLsdE8a63PEJVcChdN6wDi",
+      "name": "ĐẤU PHÁ HẬU CUNG.pdf",
+      "mime": "application/pdf",
+      "size": 2586681,
+      "modified": "2026-08-15T07:40:50.000Z",
+      "checksum": "4c3d64a434c3c256a58a3772c798bdf6",
+      "folder": false
+    }
+  ]
+}

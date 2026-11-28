@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nab2SSy2dhN60zO7jZKTheAbJIOavim1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NcaCcSdxEEkf_4tWcQiPao-oW1H8wi3-",
+      "parent_id": "1nab2SSy2dhN60zO7jZKTheAbJIOavim1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6807,
+      "modified": "2026-08-16T03:13:08.000Z",
+      "checksum": "436d681f9819021634186c88d268df88",
+      "folder": false
+    },
+    {
+      "id": "1zl-9U3ul3WjmGAQ020x3XtYOiwbfmHQU",
+      "parent_id": "1nab2SSy2dhN60zO7jZKTheAbJIOavim1",
+      "name": "MỘT ĐỨA CON ĐÃ KHÔN NGOAN.epub",
+      "mime": "application/epub+zip",
+      "size": 633095,
+      "modified": "2026-08-16T03:13:15.000Z",
+      "checksum": "228a6c87d105f1118316d2d4ba272f76",
+      "folder": false
+    },
+    {
+      "id": "1kgh8u6cPbNe8XyVhd5MElVSfjWxPpxW5",
+      "parent_id": "1nab2SSy2dhN60zO7jZKTheAbJIOavim1",
+      "name": "MỘT ĐỨA CON ĐÃ KHÔN NGOAN.pdf",
+      "mime": "application/pdf",
+      "size": 523534,
+      "modified": "2026-08-16T03:13:12.000Z",
+      "checksum": "c2065a9acadd06ff5d1681c7e8a550f9",
+      "folder": false
+    }
+  ]
+}

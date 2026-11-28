@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hnCUL5MQ7vZregiGY0yUw2omW_SaLed9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1b9fgjG8KU8HmIa040ktcagh8GXTcHa2I",
+      "parent_id": "1hnCUL5MQ7vZregiGY0yUw2omW_SaLed9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1806,
+      "modified": "2026-08-15T06:56:27.000Z",
+      "checksum": "0b2a4ab1db34436b3e61c9c5c929973d",
+      "folder": false
+    },
+    {
+      "id": "1Am72w5t_Fbuu3_WEVlphMDgwg5cQL9AM",
+      "parent_id": "1hnCUL5MQ7vZregiGY0yUw2omW_SaLed9",
+      "name": "HÒN ĐẢO CÁ HEO XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 304838,
+      "modified": "2026-08-15T06:56:33.000Z",
+      "checksum": "4a6a679a9edd9ff479c711616e0ba8e5",
+      "folder": false
+    },
+    {
+      "id": "1AxEWo4WLpF_w_t3qejurzRl-0hVcISdR",
+      "parent_id": "1hnCUL5MQ7vZregiGY0yUw2omW_SaLed9",
+      "name": "HÒN ĐẢO CÁ HEO XANH.pdf",
+      "mime": "application/pdf",
+      "size": 1077699,
+      "modified": "2026-08-15T06:56:30.000Z",
+      "checksum": "30fd69a9c63fda3aae7814fd38368cde",
+      "folder": false
+    }
+  ]
+}

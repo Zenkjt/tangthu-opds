@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1G79iaIP1Ma7pmIeeDoDAM9gY9HubyB8Z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DtH8CcZDqznRYOmX5X1YTuSkaHCs8lbV",
+      "parent_id": "1G79iaIP1Ma7pmIeeDoDAM9gY9HubyB8Z",
+      "name": "BÍ MẬT SHAKESPEARE.epub",
+      "mime": "application/epub+zip",
+      "size": 725546,
+      "modified": "2026-08-16T03:24:00.000Z",
+      "checksum": "33b7e895b92b79411b5f194864ec1bfc",
+      "folder": false
+    },
+    {
+      "id": "1LGWlTPRoj0AUY6pBhk6Z_I_P7smR_9Pa",
+      "parent_id": "1G79iaIP1Ma7pmIeeDoDAM9gY9HubyB8Z",
+      "name": "BÍ MẬT SHAKESPEARE.pdf",
+      "mime": "application/pdf",
+      "size": 1682994,
+      "modified": "2026-08-16T03:23:58.000Z",
+      "checksum": "fec998ac5a1d2b486a2343945c84ba6b",
+      "folder": false
+    },
+    {
+      "id": "1BKqGoqr-3HTG6RsgrJidARz7BhBIPYnw",
+      "parent_id": "1G79iaIP1Ma7pmIeeDoDAM9gY9HubyB8Z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3755,
+      "modified": "2026-08-16T03:23:53.000Z",
+      "checksum": "d2ea2acbfe65c64f5dc9574c31646562",
+      "folder": false
+    }
+  ]
+}

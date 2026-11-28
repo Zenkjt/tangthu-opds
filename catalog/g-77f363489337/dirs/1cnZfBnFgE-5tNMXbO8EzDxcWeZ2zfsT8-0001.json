@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cnZfBnFgE-5tNMXbO8EzDxcWeZ2zfsT8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1__CSYRAnmt2U0Kc9fFTbp3x6wtCdZxIf",
+      "parent_id": "1cnZfBnFgE-5tNMXbO8EzDxcWeZ2zfsT8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 634,
+      "modified": "2026-08-15T15:40:42.000Z",
+      "checksum": "2991792a11599348317f65932c53b516",
+      "folder": false
+    },
+    {
+      "id": "1jUEzHEt5M4hPINYK5b4wOGexg_GiEDr8",
+      "parent_id": "1cnZfBnFgE-5tNMXbO8EzDxcWeZ2zfsT8",
+      "name": "GIỜ NÀY ANH Ở ĐÂU-.epub",
+      "mime": "application/epub+zip",
+      "size": 493151,
+      "modified": "2026-08-15T15:40:49.000Z",
+      "checksum": "f70159a95bc94d8c336a19a0a276d47d",
+      "folder": false
+    },
+    {
+      "id": "1Y6ytQr4nZ8CBXEwY-ctyVDHTXvaPkS0H",
+      "parent_id": "1cnZfBnFgE-5tNMXbO8EzDxcWeZ2zfsT8",
+      "name": "GIỜ NÀY ANH Ở ĐÂU-.pdf",
+      "mime": "application/pdf",
+      "size": 1175120,
+      "modified": "2026-08-15T15:40:46.000Z",
+      "checksum": "89e68c376ce2007fcf840d2c1ea16d43",
+      "folder": false
+    }
+  ]
+}

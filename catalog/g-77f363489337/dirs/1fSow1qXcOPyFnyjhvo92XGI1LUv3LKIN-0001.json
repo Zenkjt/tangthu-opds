@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fSow1qXcOPyFnyjhvo92XGI1LUv3LKIN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iGpTPGmmsUEl5VkIYHyU0IKBIFuxKPih",
+      "parent_id": "1fSow1qXcOPyFnyjhvo92XGI1LUv3LKIN",
+      "name": "CHÍNH THỂ ĐẠI DIỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 951450,
+      "modified": "2026-08-15T05:43:38.000Z",
+      "checksum": "193c11ea5333bb2b50b612876dff0a05",
+      "folder": false
+    },
+    {
+      "id": "16bVyA3pQzGfGLY_DlnPHy5ucZjWWuOws",
+      "parent_id": "1fSow1qXcOPyFnyjhvo92XGI1LUv3LKIN",
+      "name": "CHÍNH THỂ ĐẠI DIỆN.pdf",
+      "mime": "application/pdf",
+      "size": 1789154,
+      "modified": "2026-08-15T05:43:35.000Z",
+      "checksum": "99be0eab6e0334feb4dc2d9cb4dc87ff",
+      "folder": false
+    },
+    {
+      "id": "19dOrlKE_fiAkJjPuv3TAuSqVwb9EJdCd",
+      "parent_id": "1fSow1qXcOPyFnyjhvo92XGI1LUv3LKIN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7253,
+      "modified": "2026-08-15T05:43:30.000Z",
+      "checksum": "630f9b8fb5f55ec1384dd1f6af2484f2",
+      "folder": false
+    }
+  ]
+}

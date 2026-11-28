@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pUFHDOe0Kakljrk21DP_wA6L8fXie8fL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xVpqgJqSKVdrz93M1o1R1NlVBSP0qNAu",
+      "parent_id": "1pUFHDOe0Kakljrk21DP_wA6L8fXie8fL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6251,
+      "modified": "2026-08-15T07:33:31.000Z",
+      "checksum": "eebf0c24c7c4b15c4186d02dece66c84",
+      "folder": false
+    },
+    {
+      "id": "1bh9Q-7d4EKMdOoblUlY964QRs-z2vADv",
+      "parent_id": "1pUFHDOe0Kakljrk21DP_wA6L8fXie8fL",
+      "name": "NHƯỢC XUÂN VÀ CẢNH MINH.epub",
+      "mime": "application/epub+zip",
+      "size": 1134995,
+      "modified": "2026-08-15T07:33:42.000Z",
+      "checksum": "66cdcf377c58799c44a6768d9cb10d47",
+      "folder": false
+    },
+    {
+      "id": "1owupki_WEZbwPXTdznjou53D2809con7",
+      "parent_id": "1pUFHDOe0Kakljrk21DP_wA6L8fXie8fL",
+      "name": "NHƯỢC XUÂN VÀ CẢNH MINH.pdf",
+      "mime": "application/pdf",
+      "size": 3119361,
+      "modified": "2026-08-15T07:33:39.000Z",
+      "checksum": "04b606821e229bd3324a10d7ced4ec6b",
+      "folder": false
+    }
+  ]
+}

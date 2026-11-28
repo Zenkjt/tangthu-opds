@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1t17OqhukY6vR_Z3TfTevdvDhQen01Jml",
+  "page": 1,
+  "items": [
+    {
+      "id": "1REBGDEBq82M8LNVO4ErTHC5SkGbKGPWF",
+      "parent_id": "1t17OqhukY6vR_Z3TfTevdvDhQen01Jml",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1343,
+      "modified": "2026-08-15T04:03:05.000Z",
+      "checksum": "4bdb9a24c0166c39e7f1dbd9c0342a82",
+      "folder": false
+    },
+    {
+      "id": "1crpeg3nfK6ArbbttEebAGgrw7zLLDfyE",
+      "parent_id": "1t17OqhukY6vR_Z3TfTevdvDhQen01Jml",
+      "name": "ĐẠO PHẬT HIỆN ĐẠI HÓA.epub",
+      "mime": "application/epub+zip",
+      "size": 841430,
+      "modified": "2026-08-15T04:03:12.000Z",
+      "checksum": "0d8457eed5d2590f247c0ae18aeb9165",
+      "folder": false
+    },
+    {
+      "id": "1gqb7GYXBCkstZD5SgkQd3zP9gMs3yoiW",
+      "parent_id": "1t17OqhukY6vR_Z3TfTevdvDhQen01Jml",
+      "name": "ĐẠO PHẬT HIỆN ĐẠI HÓA.pdf",
+      "mime": "application/pdf",
+      "size": 969350,
+      "modified": "2026-08-15T04:03:09.000Z",
+      "checksum": "291ce1c51e2ff79dbd30232e72ab8f37",
+      "folder": false
+    }
+  ]
+}

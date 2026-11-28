@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QA0NGqRWzDguC_hO-XdS8Okmqgy0H4_B",
+  "page": 1,
+  "items": [
+    {
+      "id": "1b031aDUuFWPyNgEPDlZaG5NSAeY3xTLB",
+      "parent_id": "1QA0NGqRWzDguC_hO-XdS8Okmqgy0H4_B",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 610,
+      "modified": "2026-08-15T10:57:21.000Z",
+      "checksum": "f4a92ec5b2498305927fc7ef5fc62c7e",
+      "folder": false
+    },
+    {
+      "id": "1XO7T-CEuHlyy9DINBUwu-sES_yWjXG8b",
+      "parent_id": "1QA0NGqRWzDguC_hO-XdS8Okmqgy0H4_B",
+      "name": "GIẢ THUYẾT THỨ 7.epub",
+      "mime": "application/epub+zip",
+      "size": 428336,
+      "modified": "2026-08-15T10:57:28.000Z",
+      "checksum": "26d284c4429b860b76dfb18c48a51bd9",
+      "folder": false
+    },
+    {
+      "id": "1SNo5GP6NaaS1_JcfMYjfV0OXEhHVwKfo",
+      "parent_id": "1QA0NGqRWzDguC_hO-XdS8Okmqgy0H4_B",
+      "name": "GIẢ THUYẾT THỨ 7.pdf",
+      "mime": "application/pdf",
+      "size": 907430,
+      "modified": "2026-08-15T10:57:25.000Z",
+      "checksum": "d859383bf4809b758826d8a58c1d8d40",
+      "folder": false
+    }
+  ]
+}

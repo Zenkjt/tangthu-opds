@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fcz8jrAwlQ8evbuWEzq0X90USXLaS53y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sWCx5hHuaD3ff_HC-V_cIykD91UYXeDV",
+      "parent_id": "1fcz8jrAwlQ8evbuWEzq0X90USXLaS53y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11506,
+      "modified": "2026-08-15T08:07:22.000Z",
+      "checksum": "eb38b8470a87862d72d028f55a41d26f",
+      "folder": false
+    },
+    {
+      "id": "1hiTDnr-KTI5TzLXB01DKHmhQSFDnNW9I",
+      "parent_id": "1fcz8jrAwlQ8evbuWEzq0X90USXLaS53y",
+      "name": "DÒNG SÔNG TUỔI DẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 889430,
+      "modified": "2026-08-15T08:07:45.000Z",
+      "checksum": "05b8b4833a2d05279e24def0d5c0ec2f",
+      "folder": false
+    },
+    {
+      "id": "1uvD1hx85VN4asUvZvKeBMF1nGuBNrEoT",
+      "parent_id": "1fcz8jrAwlQ8evbuWEzq0X90USXLaS53y",
+      "name": "DÒNG SÔNG TUỔI DẠI.pdf",
+      "mime": "application/pdf",
+      "size": 1462484,
+      "modified": "2026-08-15T08:07:42.000Z",
+      "checksum": "d9d4e37ee2d1aceb534f3d2d52baa657",
+      "folder": false
+    }
+  ]
+}

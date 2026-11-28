@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1B5ILQGBWZMUEu08Wjx91ECNZDttaRKiT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rWX1IDY_bT-OtxIXLqtqp_vixcAPDUvd",
+      "parent_id": "1B5ILQGBWZMUEu08Wjx91ECNZDttaRKiT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4966,
+      "modified": "2026-08-15T12:30:20.000Z",
+      "checksum": "df161f0f172e6219f1e188b398f0cb86",
+      "folder": false
+    },
+    {
+      "id": "1gjmjOllfRYIe6I5UfB4oXS0LTL34SYTl",
+      "parent_id": "1B5ILQGBWZMUEu08Wjx91ECNZDttaRKiT",
+      "name": "TUỔI THƠ DỮ DỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 1187643,
+      "modified": "2026-08-15T12:30:29.000Z",
+      "checksum": "677886574a25d05d60922067c012e050",
+      "folder": false
+    },
+    {
+      "id": "1MZTT3Lp-XQWitBOgXZFRT74XzUsxwC-5",
+      "parent_id": "1B5ILQGBWZMUEu08Wjx91ECNZDttaRKiT",
+      "name": "TUỔI THƠ DỮ DỘI.pdf",
+      "mime": "application/pdf",
+      "size": 2654020,
+      "modified": "2026-08-15T12:30:26.000Z",
+      "checksum": "cae75a70e6a1d72a118d181de0a85d31",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dwZ-Nyr14UJPFRCY3p_imNHP12lqRNBO",
+  "page": 1,
+  "items": [
+    {
+      "id": "18wpueNltxpwWODfQdIIu0__l3Lf0f2Yb",
+      "parent_id": "1dwZ-Nyr14UJPFRCY3p_imNHP12lqRNBO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3266,
+      "modified": "2026-08-15T03:46:30.000Z",
+      "checksum": "7a713f67fa042c0621a54468d3a95b05",
+      "folder": false
+    },
+    {
+      "id": "1REG1VsTDJczKmiSINI3NEwCooyZN0lCU",
+      "parent_id": "1dwZ-Nyr14UJPFRCY3p_imNHP12lqRNBO",
+      "name": "NGÔN SỨ (KẺ TIÊN TRI).epub",
+      "mime": "application/epub+zip",
+      "size": 201451,
+      "modified": "2026-08-15T03:46:35.000Z",
+      "checksum": "584bd2a27b31710356cfa0c4d5ad4b89",
+      "folder": false
+    },
+    {
+      "id": "1WQiYvbGuDZQrOEB-3lLFpYs7C69wh9Vu",
+      "parent_id": "1dwZ-Nyr14UJPFRCY3p_imNHP12lqRNBO",
+      "name": "NGÔN SỨ (KẺ TIÊN TRI).pdf",
+      "mime": "application/pdf",
+      "size": 313598,
+      "modified": "2026-08-15T03:46:33.000Z",
+      "checksum": "336bfb81696beb530924df9fc4e20b1f",
+      "folder": false
+    }
+  ]
+}

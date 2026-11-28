@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EP0d-CI8G9RZ2aFF4z2x4Mqx7yjWyO39",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vi9aLoXL5ZVxJi968NwzzYCGPkXKrjkS",
+      "parent_id": "1EP0d-CI8G9RZ2aFF4z2x4Mqx7yjWyO39",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3014,
+      "modified": "2026-08-15T10:10:14.000Z",
+      "checksum": "1a8281e1273e0deda0f1edaeed2a801c",
+      "folder": false
+    },
+    {
+      "id": "1ggUumVoWvBelLBJqZAY5XuYlCUrvduFg",
+      "parent_id": "1EP0d-CI8G9RZ2aFF4z2x4Mqx7yjWyO39",
+      "name": "TIÊU DAO - TRUYỀN THUYẾT THÁNH CHIẾN.epub",
+      "mime": "application/epub+zip",
+      "size": 1556788,
+      "modified": "2026-08-15T10:10:22.000Z",
+      "checksum": "3235707d0f78fdb820b424592889b8c3",
+      "folder": false
+    },
+    {
+      "id": "1_JH0GqpYqpSvoHyj3xp4IBcJBKKSpQUI",
+      "parent_id": "1EP0d-CI8G9RZ2aFF4z2x4Mqx7yjWyO39",
+      "name": "TIÊU DAO - TRUYỀN THUYẾT THÁNH CHIẾN.pdf",
+      "mime": "application/pdf",
+      "size": 1642007,
+      "modified": "2026-08-15T10:10:19.000Z",
+      "checksum": "cf844b9d47229d2fbdc75bb48b61f7eb",
+      "folder": false
+    }
+  ]
+}

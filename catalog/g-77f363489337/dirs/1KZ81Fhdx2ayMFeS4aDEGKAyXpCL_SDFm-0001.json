@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KZ81Fhdx2ayMFeS4aDEGKAyXpCL_SDFm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mqi5KQYlOubjYyvs-Gn8p2Ctbp1npimG",
+      "parent_id": "1KZ81Fhdx2ayMFeS4aDEGKAyXpCL_SDFm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3066,
+      "modified": "2026-08-15T03:24:54.000Z",
+      "checksum": "ca492a9b1c47c8c8545179c49aacddf1",
+      "folder": false
+    },
+    {
+      "id": "1n9V1e9F9BPx6_PT_Pv2oRJDGx6vAQqiR",
+      "parent_id": "1KZ81Fhdx2ayMFeS4aDEGKAyXpCL_SDFm",
+      "name": "GIẢI MÃ DỤC VỌNG.epub",
+      "mime": "application/epub+zip",
+      "size": 638959,
+      "modified": "2026-08-15T03:25:02.000Z",
+      "checksum": "16f2afd8a697abe57305fbccc7c69bae",
+      "folder": false
+    },
+    {
+      "id": "12Mn8xAchJkp0iUwS4tLijuC9G5I4joBJ",
+      "parent_id": "1KZ81Fhdx2ayMFeS4aDEGKAyXpCL_SDFm",
+      "name": "GIẢI MÃ DỤC VỌNG.pdf",
+      "mime": "application/pdf",
+      "size": 1312681,
+      "modified": "2026-08-15T03:24:59.000Z",
+      "checksum": "530d9b83fda0c541e034f982cf80d1b8",
+      "folder": false
+    }
+  ]
+}

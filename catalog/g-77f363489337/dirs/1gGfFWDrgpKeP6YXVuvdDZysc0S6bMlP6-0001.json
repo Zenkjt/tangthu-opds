@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gGfFWDrgpKeP6YXVuvdDZysc0S6bMlP6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1O96gi2Gn0ebx82mSxVPYVJodqAyJOiXA",
+      "parent_id": "1gGfFWDrgpKeP6YXVuvdDZysc0S6bMlP6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3509,
+      "modified": "2026-08-15T15:36:37.000Z",
+      "checksum": "578e486012c8f38e37b02e5dcde4b70a",
+      "folder": false
+    },
+    {
+      "id": "12QsXmbrrXmTLsQPXxmbZNnjNfpaK6dFO",
+      "parent_id": "1gGfFWDrgpKeP6YXVuvdDZysc0S6bMlP6",
+      "name": "TẬP TRUYỆN NGẮN TRINH THÁM - KINH DỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 465557,
+      "modified": "2026-08-15T15:36:53.000Z",
+      "checksum": "3659353b859f5e8d4dea1d1442d5af2e",
+      "folder": false
+    },
+    {
+      "id": "1dS-b2ktXWFjqu58_1wyYj92jDSJXVOM_",
+      "parent_id": "1gGfFWDrgpKeP6YXVuvdDZysc0S6bMlP6",
+      "name": "TẬP TRUYỆN NGẮN TRINH THÁM - KINH DỊ.pdf",
+      "mime": "application/pdf",
+      "size": 3251689,
+      "modified": "2026-08-15T15:36:51.000Z",
+      "checksum": "102a61ea4f3444a2c310e5b886ba8715",
+      "folder": false
+    }
+  ]
+}

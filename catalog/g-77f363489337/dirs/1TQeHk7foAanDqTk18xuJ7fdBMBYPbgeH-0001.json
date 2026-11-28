@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TQeHk7foAanDqTk18xuJ7fdBMBYPbgeH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1H4_Z3mdrC4x_mYi_fY21Eon52oiXY17R",
+      "parent_id": "1TQeHk7foAanDqTk18xuJ7fdBMBYPbgeH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3202,
+      "modified": "2026-08-15T00:45:29.000Z",
+      "checksum": "3aaea85e576c940c014f7677bc84b4a8",
+      "folder": false
+    },
+    {
+      "id": "1VLQYgTkfN7Ol_Zgum56rREaKLOvwqvnA",
+      "parent_id": "1TQeHk7foAanDqTk18xuJ7fdBMBYPbgeH",
+      "name": "KHI MỌI ĐIỂM TỰA ĐỀU MẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 581976,
+      "modified": "2026-08-15T00:45:36.000Z",
+      "checksum": "1124d2397d44f4fb2d64cdf43b9665ab",
+      "folder": false
+    },
+    {
+      "id": "1oIqHJF1CJxqSSACpUJUsjGdErVyoM7C3",
+      "parent_id": "1TQeHk7foAanDqTk18xuJ7fdBMBYPbgeH",
+      "name": "KHI MỌI ĐIỂM TỰA ĐỀU MẤT.pdf",
+      "mime": "application/pdf",
+      "size": 806834,
+      "modified": "2026-08-15T00:45:33.000Z",
+      "checksum": "b499ef8c8ea5500eb5ab05d11a9491d8",
+      "folder": false
+    }
+  ]
+}

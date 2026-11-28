@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tGnuW2xMLlR7Ppb49EvNYMijbRT4A-BQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QGsGvjgfdyf4fKVmT1-qn31UifiGDs5I",
+      "parent_id": "1tGnuW2xMLlR7Ppb49EvNYMijbRT4A-BQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5972,
+      "modified": "2026-08-15T06:19:02.000Z",
+      "checksum": "4f4353a960d28a17bda8709ba7e4ff14",
+      "folder": false
+    },
+    {
+      "id": "1TCkwvWRuQbbrlRCNJ8lmsVZx9pikNnO8",
+      "parent_id": "1tGnuW2xMLlR7Ppb49EvNYMijbRT4A-BQ",
+      "name": "QUAN ÂM HƯƠNG TÍCH.epub",
+      "mime": "application/epub+zip",
+      "size": 749167,
+      "modified": "2026-08-15T06:19:08.000Z",
+      "checksum": "056d03fd6839a250c337a45e897a8fe2",
+      "folder": false
+    },
+    {
+      "id": "1HKahzXEHdK-n8XqcCuYxgeiJS0e_OGEN",
+      "parent_id": "1tGnuW2xMLlR7Ppb49EvNYMijbRT4A-BQ",
+      "name": "QUAN ÂM HƯƠNG TÍCH.pdf",
+      "mime": "application/pdf",
+      "size": 411649,
+      "modified": "2026-08-15T06:19:05.000Z",
+      "checksum": "ca450ca6ef55844e1d2388f4d0ee60a0",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14Y2nbXsypf1aDE8SrAgCWjbY2uBFf5rY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hHbrVRKL-Q6bvaortdHyS3REjO_c5qnV",
+      "parent_id": "14Y2nbXsypf1aDE8SrAgCWjbY2uBFf5rY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2696,
+      "modified": "2026-08-15T15:19:41.000Z",
+      "checksum": "c44695b9fda19fe15715105a73addd05",
+      "folder": false
+    },
+    {
+      "id": "1etbtpV9ceLlJ0JGvkz53q_bTa3RQxbZs",
+      "parent_id": "14Y2nbXsypf1aDE8SrAgCWjbY2uBFf5rY",
+      "name": "NỮ NGỖ TÁC HỌA CỐT.epub",
+      "mime": "application/epub+zip",
+      "size": 1551853,
+      "modified": "2026-08-15T15:20:46.000Z",
+      "checksum": "81cf9b706d3894e59529e22c297fd7cd",
+      "folder": false
+    },
+    {
+      "id": "1xEZQtlxVqBz-Q7eJobTFdaDD6KXZdSJj",
+      "parent_id": "14Y2nbXsypf1aDE8SrAgCWjbY2uBFf5rY",
+      "name": "NỮ NGỖ TÁC HỌA CỐT.pdf",
+      "mime": "application/pdf",
+      "size": 6262766,
+      "modified": "2026-08-15T15:20:42.000Z",
+      "checksum": "f04df7fb31017463344cc422d3cccfc7",
+      "folder": false
+    }
+  ]
+}

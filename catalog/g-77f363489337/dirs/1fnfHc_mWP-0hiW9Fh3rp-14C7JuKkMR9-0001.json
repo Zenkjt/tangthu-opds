@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fnfHc_mWP-0hiW9Fh3rp-14C7JuKkMR9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DZt8niyGYVyCrVG7iXnxJmmTKPzBjh1v",
+      "parent_id": "1fnfHc_mWP-0hiW9Fh3rp-14C7JuKkMR9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3667,
+      "modified": "2026-08-15T10:30:54.000Z",
+      "checksum": "779ee72e0f21460c5ac9da8c2a22b7b4",
+      "folder": false
+    },
+    {
+      "id": "1px75wGMuqoQsVG1a2Q4YIX_-45_Fo43p",
+      "parent_id": "1fnfHc_mWP-0hiW9Fh3rp-14C7JuKkMR9",
+      "name": "QUỶ ÁN TỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 332610,
+      "modified": "2026-08-15T10:31:01.000Z",
+      "checksum": "a1de4a3b204748f89f6dc04eb34b7621",
+      "folder": false
+    },
+    {
+      "id": "1GeO3d4MOlu7UQ3_Ii7LlRJ9Ob07WEso6",
+      "parent_id": "1fnfHc_mWP-0hiW9Fh3rp-14C7JuKkMR9",
+      "name": "QUỶ ÁN TỘI.pdf",
+      "mime": "application/pdf",
+      "size": 390922,
+      "modified": "2026-08-15T10:30:58.000Z",
+      "checksum": "a782a8df407b0059132a0a722f62b5e0",
+      "folder": false
+    }
+  ]
+}

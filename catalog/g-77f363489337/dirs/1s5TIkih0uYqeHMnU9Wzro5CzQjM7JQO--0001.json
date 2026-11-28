@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1s5TIkih0uYqeHMnU9Wzro5CzQjM7JQO-",
+  "page": 1,
+  "items": [
+    {
+      "id": "11G5q60wIC57ZhQSYC41S7JlgP5nDZFOd",
+      "parent_id": "1s5TIkih0uYqeHMnU9Wzro5CzQjM7JQO-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 435,
+      "modified": "2026-08-15T13:02:52.000Z",
+      "checksum": "d1c41491fb92301614bb4e661aa5c11c",
+      "folder": false
+    },
+    {
+      "id": "17cBu0V2rf3NW8ZBicV4L5lqGHaZEcYdR",
+      "parent_id": "1s5TIkih0uYqeHMnU9Wzro5CzQjM7JQO-",
+      "name": "KHÔNG DẤU VẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 437134,
+      "modified": "2026-08-15T13:02:58.000Z",
+      "checksum": "8c27d539c9c7403f3d6b36869051b216",
+      "folder": false
+    },
+    {
+      "id": "1SwGg265SSiuQKflhLbp5ahRIrA6dHpya",
+      "parent_id": "1s5TIkih0uYqeHMnU9Wzro5CzQjM7JQO-",
+      "name": "KHÔNG DẤU VẾT.pdf",
+      "mime": "application/pdf",
+      "size": 568284,
+      "modified": "2026-08-15T13:02:56.000Z",
+      "checksum": "36465fc13b1a143218affcc5d3213e63",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cgmJqwKZk9HH1PsxaKv8ti7PxSMFzimu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-Z-mfaBC5hkSA_nA0BWgxrnq-S1Y0Upx",
+      "parent_id": "1cgmJqwKZk9HH1PsxaKv8ti7PxSMFzimu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2681,
+      "modified": "2026-08-15T04:01:58.000Z",
+      "checksum": "72ce5caec3719fcb9226459b1f3e0241",
+      "folder": false
+    },
+    {
+      "id": "1h6BS_kaK89P3R72c9oU9vuYDoLNk0wBu",
+      "parent_id": "1cgmJqwKZk9HH1PsxaKv8ti7PxSMFzimu",
+      "name": "TRÁI ĐẤT RỖNG.epub",
+      "mime": "application/epub+zip",
+      "size": 4264749,
+      "modified": "2026-08-15T04:02:10.000Z",
+      "checksum": "e43dd3ed6b0d33102f9a16b4108c1f61",
+      "folder": false
+    },
+    {
+      "id": "1CU4o9FXfNaD_E04L3uNBZhtKbP92XOSX",
+      "parent_id": "1cgmJqwKZk9HH1PsxaKv8ti7PxSMFzimu",
+      "name": "TRÁI ĐẤT RỖNG.pdf",
+      "mime": "application/pdf",
+      "size": 4315438,
+      "modified": "2026-08-15T04:02:06.000Z",
+      "checksum": "81a14e64b1c3ac044ebe1a3ce11bd272",
+      "folder": false
+    }
+  ]
+}

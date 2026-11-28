@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XuSbVs4eDFpKUt2aDfUyiY4L3qQZ9RRn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RA5mdsvAKdz1N5YmUtgkC8n1mnXXCCOI",
+      "parent_id": "1XuSbVs4eDFpKUt2aDfUyiY4L3qQZ9RRn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4064,
+      "modified": "2026-08-15T09:36:06.000Z",
+      "checksum": "bd6570eb3e8e522fa78c53402e03977a",
+      "folder": false
+    },
+    {
+      "id": "1PLz9zi9LI_jP-HdN0LjdZEvZLze6puKA",
+      "parent_id": "1XuSbVs4eDFpKUt2aDfUyiY4L3qQZ9RRn",
+      "name": "GATSBY VĨ ĐẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 459756,
+      "modified": "2026-08-15T09:36:14.000Z",
+      "checksum": "9f3c685347175502fae97da9c785a746",
+      "folder": false
+    },
+    {
+      "id": "1_8MGXfrlbwOpD6Mbxvirp1g1WndZZieG",
+      "parent_id": "1XuSbVs4eDFpKUt2aDfUyiY4L3qQZ9RRn",
+      "name": "GATSBY VĨ ĐẠI.pdf",
+      "mime": "application/pdf",
+      "size": 772141,
+      "modified": "2026-08-15T09:36:11.000Z",
+      "checksum": "50f6d305ac1bd15a97bf9ab61014eaa3",
+      "folder": false
+    }
+  ]
+}

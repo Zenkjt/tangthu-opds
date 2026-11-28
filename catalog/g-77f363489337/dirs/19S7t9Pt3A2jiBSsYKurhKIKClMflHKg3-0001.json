@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19S7t9Pt3A2jiBSsYKurhKIKClMflHKg3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XFX3ZklxC1TKhpONmamtK6vcncrVKrif",
+      "parent_id": "19S7t9Pt3A2jiBSsYKurhKIKClMflHKg3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3549,
+      "modified": "2026-08-15T15:57:58.000Z",
+      "checksum": "2ecbb9b258b18771979a9cc9d4ff5818",
+      "folder": false
+    },
+    {
+      "id": "1PrZvM1lz60ua9-OCQrMbBMQdyw1HV6R2",
+      "parent_id": "19S7t9Pt3A2jiBSsYKurhKIKClMflHKg3",
+      "name": "SÁT THỦ VÚ EM.epub",
+      "mime": "application/epub+zip",
+      "size": 3278029,
+      "modified": "2026-08-15T15:58:27.000Z",
+      "checksum": "ae86962f08d432c624495c2633aa4939",
+      "folder": false
+    },
+    {
+      "id": "1nyQfwxW74uGzksIoejoYaEdpea6Fnsap",
+      "parent_id": "19S7t9Pt3A2jiBSsYKurhKIKClMflHKg3",
+      "name": "SÁT THỦ VÚ EM.pdf",
+      "mime": "application/pdf",
+      "size": 3187184,
+      "modified": "2026-08-15T15:58:15.000Z",
+      "checksum": "b9bb5bdb8744ccc543adf847fc9af4f9",
+      "folder": false
+    }
+  ]
+}

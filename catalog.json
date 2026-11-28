@@ -1,0 +1,874 @@
+{
+  "version": 2,
+  "generated_at": "2026-11-28T07:59:54Z",
+  "branches": [
+    {
+      "id": "g-e67c29e5788a",
+      "name": ".HuyHoang's Books",
+      "root_folder_id": "1sLPRAhabd0ga01QPKMlcBAq2c1O5JLwt",
+      "drive_name": ".HuyHoang's Books",
+      "shelf_no": 35,
+      "status": "active",
+      "root_shard": "catalog/g-e67c29e5788a/root.json",
+      "search_shards": [
+        "catalog/g-e67c29e5788a/search/0001.json"
+      ],
+      "file_count": 1,
+      "directory_count": 0,
+      "book_count": 1,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 1
+      },
+      "revision": "95fe154c7df9645ec5cda7fc6b87831d074e6271455c568b0883118eb6045032"
+    },
+    {
+      "id": "g-31458a795d9e",
+      "name": "10K-cognmik",
+      "root_folder_id": "1KddcFrlaqVJaoMXMFkXyz0maZRyMJIdx",
+      "drive_name": "10K-cognmik",
+      "shelf_no": 34,
+      "status": "active",
+      "root_shard": "catalog/g-31458a795d9e/root.json",
+      "search_shards": [
+        "catalog/g-31458a795d9e/search/0001.json",
+        "catalog/g-31458a795d9e/search/0002.json",
+        "catalog/g-31458a795d9e/search/0003.json",
+        "catalog/g-31458a795d9e/search/0004.json",
+        "catalog/g-31458a795d9e/search/0005.json",
+        "catalog/g-31458a795d9e/search/0006.json",
+        "catalog/g-31458a795d9e/search/0007.json",
+        "catalog/g-31458a795d9e/search/0008.json",
+        "catalog/g-31458a795d9e/search/0009.json",
+        "catalog/g-31458a795d9e/search/0010.json",
+        "catalog/g-31458a795d9e/search/0011.json"
+      ],
+      "file_count": 10444,
+      "directory_count": 27,
+      "book_count": 10417,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 10417
+      },
+      "revision": "d88eb671ebdb51de39bdb4444ace84ba6b5f5fbf95535e296b15fda2187b91cd"
+    },
+    {
+      "id": "g-254dec45f9f5",
+      "name": "Anchi",
+      "root_folder_id": "1b5msChq4_9sB53cpXr0I7aukRCrFC4Rt",
+      "drive_name": "Anchi",
+      "shelf_no": 8,
+      "status": "active",
+      "root_shard": "catalog/g-254dec45f9f5/root.json",
+      "search_shards": [
+        "catalog/g-254dec45f9f5/search/0001.json"
+      ],
+      "file_count": 16,
+      "directory_count": 4,
+      "book_count": 12,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 4,
+        "PDF": 7,
+        "TXT": 1
+      },
+      "revision": "d4437fdeee6eb11ac1e62c5236e7f7a310e43395359c97c8bcf4a665a186dec4"
+    },
+    {
+      "id": "g-06d0e00b3242",
+      "name": "Anki's book",
+      "root_folder_id": "1X46wajGnYISsuJCC4d_cbZn-_9BrBig5",
+      "drive_name": "Anki's book",
+      "shelf_no": 11,
+      "status": "active",
+      "root_shard": "catalog/g-06d0e00b3242/root.json",
+      "search_shards": [
+        "catalog/g-06d0e00b3242/search/0001.json"
+      ],
+      "file_count": 7,
+      "directory_count": 0,
+      "book_count": 6,
+      "font_count": 1,
+      "format_counts": {
+        "EPUB": 6
+      },
+      "revision": "b16c7acc2a5dfccea6629792484aa9aacf740decfa905782beedc344a9731865"
+    },
+    {
+      "id": "g-d1dab15254f7",
+      "name": "Azw3 books",
+      "root_folder_id": "1a7j62L4QAhZfDpIYPuzVr7DTv757hVPK",
+      "drive_name": "Azw3 books",
+      "shelf_no": 3,
+      "status": "active",
+      "root_shard": "catalog/g-d1dab15254f7/root.json",
+      "search_shards": [
+        "catalog/g-d1dab15254f7/search/0001.json"
+      ],
+      "file_count": 19,
+      "directory_count": 0,
+      "book_count": 19,
+      "font_count": 0,
+      "format_counts": {
+        "AZW3": 17,
+        "MOBI": 2
+      },
+      "revision": "d69fc99b026da826b61342854c86c200c9f684bf19d337e35a1127db21b29a65"
+    },
+    {
+      "id": "g-c68a5b860492",
+      "name": "BOOK",
+      "root_folder_id": "141XC70a3vLoEDW7SpbezTo3R0nDBYaJ2",
+      "drive_name": "BOOK",
+      "shelf_no": 7,
+      "status": "active",
+      "root_shard": "catalog/g-c68a5b860492/root.json",
+      "search_shards": [
+        "catalog/g-c68a5b860492/search/0001.json"
+      ],
+      "file_count": 23,
+      "directory_count": 0,
+      "book_count": 23,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 23
+      },
+      "revision": "329b5cc446d36d14ad0d33b82dbce6650c177dd388d2b6f9c424c426697df27c"
+    },
+    {
+      "id": "g-f03ca237d866",
+      "name": "Crosspoint font",
+      "root_folder_id": "1qtb-lDECIgBzGeeQHVSbIAR0LwjrUGgj",
+      "drive_name": "Crosspoint font",
+      "shelf_no": 12,
+      "status": "active",
+      "root_shard": "catalog/g-f03ca237d866/root.json",
+      "search_shards": [
+        "catalog/g-f03ca237d866/search/0001.json"
+      ],
+      "file_count": 369,
+      "directory_count": 48,
+      "book_count": 1,
+      "font_count": 320,
+      "format_counts": {
+        "AZW3": 1
+      },
+      "revision": "74942fc42e2e864ed04cd3b2eabc188d0610f8873731a2e258e153b8bb5dbe01"
+    },
+    {
+      "id": "g-711aa20cf78a",
+      "name": "Dân tộc King",
+      "root_folder_id": "1gzy_vevzRqmIh5gO5Fdb5ZQ0b22tf6fw",
+      "drive_name": "Dân tộc King",
+      "shelf_no": 33,
+      "status": "active",
+      "root_shard": "catalog/g-711aa20cf78a/root.json",
+      "search_shards": [
+        "catalog/g-711aa20cf78a/search/0001.json"
+      ],
+      "file_count": 833,
+      "directory_count": 28,
+      "book_count": 805,
+      "font_count": 0,
+      "format_counts": {
+        "MOBI": 1,
+        "PDF": 789,
+        "PRC": 15
+      },
+      "revision": "19a67efa24fa9288b837ae6854419b7452ba92346b94fde8c54cd184111d3beb"
+    },
+    {
+      "id": "g-88ec7bbc132e",
+      "name": "eNaga001",
+      "root_folder_id": "1O8ho5tAfCXTqqg3eLb_3I2YS4L2vwZBl",
+      "drive_name": "eNaga001",
+      "shelf_no": 20,
+      "status": "active",
+      "root_shard": "catalog/g-88ec7bbc132e/root.json",
+      "search_shards": [
+        "catalog/g-88ec7bbc132e/search/0001.json"
+      ],
+      "file_count": 8,
+      "directory_count": 2,
+      "book_count": 6,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 6
+      },
+      "revision": "7f416887390e3274b4b720c144db8c9bc1b3a8a74823f11861ba473e657837f3"
+    },
+    {
+      "id": "g-b2ab7cafc708",
+      "name": "Epub books",
+      "root_folder_id": "1JuYj2aYcqTddG3PMtRwkX-56Dzsyl3AU",
+      "drive_name": "Epub books",
+      "shelf_no": 9,
+      "status": "active",
+      "root_shard": "catalog/g-b2ab7cafc708/root.json",
+      "search_shards": [
+        "catalog/g-b2ab7cafc708/search/0001.json"
+      ],
+      "file_count": 789,
+      "directory_count": 108,
+      "book_count": 681,
+      "font_count": 0,
+      "format_counts": {
+        "CHM": 1,
+        "EPUB": 522,
+        "PDF": 157,
+        "PRC": 1
+      },
+      "revision": "3e6e67d64a6047b9b609e5f607cd5c241d24eb172f3662673e0dfcfbb5067602"
+    },
+    {
+      "id": "g-3866bf2d8817",
+      "name": "FeliciaLee",
+      "root_folder_id": "1ga-TTJvG-7lsZiwnmjtqnbtIcsfliNwe",
+      "drive_name": "FeliciaLee",
+      "shelf_no": 14,
+      "status": "active",
+      "root_shard": "catalog/g-3866bf2d8817/root.json",
+      "search_shards": [
+        "catalog/g-3866bf2d8817/search/0001.json"
+      ],
+      "file_count": 32,
+      "directory_count": 0,
+      "book_count": 32,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 30,
+        "PDF": 2
+      },
+      "revision": "6fa5fa33f1409ac19056a059369d15a0e98ec43ffd96664c82be4d71ab9699c4"
+    },
+    {
+      "id": "g-7e255d95bc2a",
+      "name": "Finn-TVE-rar",
+      "root_folder_id": "16VgItdQF70H5WS5zfYrYcrUmXrqSPQpy",
+      "drive_name": "Finn-TVE-rar",
+      "shelf_no": 37,
+      "status": "active",
+      "root_shard": "catalog/g-7e255d95bc2a/root.json",
+      "search_shards": [
+        "catalog/g-7e255d95bc2a/search/0001.json"
+      ],
+      "file_count": 11,
+      "directory_count": 0,
+      "book_count": 11,
+      "font_count": 0,
+      "format_counts": {
+        "RAR": 11
+      },
+      "revision": "8766b2e075c8438c2679a5287e1efbea6b99fb0e78671768716d2758c8f43689"
+    },
+    {
+      "id": "g-b9f7fc7f2ef5",
+      "name": "Font ttf",
+      "root_folder_id": "1OXe4OaIZZbgIs7P2uU6LX8ZWg0LsD57_",
+      "drive_name": "Font ttf",
+      "shelf_no": 15,
+      "status": "active",
+      "root_shard": "catalog/g-b9f7fc7f2ef5/root.json",
+      "search_shards": [
+        "catalog/g-b9f7fc7f2ef5/search/0001.json"
+      ],
+      "file_count": 109,
+      "directory_count": 22,
+      "book_count": 0,
+      "font_count": 87,
+      "format_counts": {},
+      "revision": "86fc8339cb73b82e8d5359a5ac812ef91f05abf0795b36008e98e1dd5e685f46"
+    },
+    {
+      "id": "g-ce119ee8fc4e",
+      "name": "Haideng",
+      "root_folder_id": "1NdueabnFb7hJmpw3aN-vZxkQSKnman5c",
+      "drive_name": "Haideng",
+      "shelf_no": 27,
+      "status": "active",
+      "root_shard": "catalog/g-ce119ee8fc4e/root.json",
+      "search_shards": [
+        "catalog/g-ce119ee8fc4e/search/0001.json"
+      ],
+      "file_count": 69,
+      "directory_count": 1,
+      "book_count": 68,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 68
+      },
+      "revision": "e15b64349073bf77e8cd09cc0c507b0b1ec4dc4f0b2829f79d9c4f30e21c977d"
+    },
+    {
+      "id": "g-ada02031c0e8",
+      "name": "Harry's eBooks",
+      "root_folder_id": "1IR3RvFeZ023VuJHFB4IKCLfClYLsfmZR",
+      "drive_name": "Harry's eBooks",
+      "shelf_no": 28,
+      "status": "active",
+      "root_shard": "catalog/g-ada02031c0e8/root.json",
+      "search_shards": [
+        "catalog/g-ada02031c0e8/search/0001.json"
+      ],
+      "file_count": 96,
+      "directory_count": 0,
+      "book_count": 96,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 96
+      },
+      "revision": "e407645112ec5605ef363922da60968b2d9f668b2ae06aeb5cd605bdb6d3dc24"
+    },
+    {
+      "id": "g-189cf66b731f",
+      "name": "hunglv",
+      "root_folder_id": "1uh2vX_Na5lBZTXhFNTGHIJ9F2Zfqhp5q",
+      "drive_name": "hunglv",
+      "shelf_no": 41,
+      "status": "active",
+      "root_shard": "catalog/g-189cf66b731f/root.json",
+      "search_shards": [
+        "catalog/g-189cf66b731f/search/0001.json"
+      ],
+      "file_count": 1,
+      "directory_count": 0,
+      "book_count": 1,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 1
+      },
+      "revision": "88222400e515ee8216be05de4b96dec87c2900a37efe474243908fc05df23551"
+    },
+    {
+      "id": "g-9fa3e571d7a9",
+      "name": "j test",
+      "root_folder_id": "1PVj3Elt55Lz8VBcdtVYxsEtuoQ3LioLF",
+      "drive_name": "j test",
+      "shelf_no": 10,
+      "status": "active",
+      "root_shard": "catalog/g-9fa3e571d7a9/root.json",
+      "search_shards": [
+        "catalog/g-9fa3e571d7a9/search/0001.json"
+      ],
+      "file_count": 9,
+      "directory_count": 0,
+      "book_count": 9,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 9
+      },
+      "revision": "63089c5dc1051cb279dda9da6978c80497a4d428dab1cb3db03a200f19218d2a"
+    },
+    {
+      "id": "g-ca0b16750af1",
+      "name": "Kho NCN bigg",
+      "root_folder_id": "14LwbFQk2--Dq_tYAa-fxr8ZsBAE6bl7h",
+      "drive_name": "Kho NCN bigg",
+      "shelf_no": 16,
+      "status": "active",
+      "root_shard": "catalog/g-ca0b16750af1/root.json",
+      "search_shards": [
+        "catalog/g-ca0b16750af1/search/0001.json",
+        "catalog/g-ca0b16750af1/search/0002.json",
+        "catalog/g-ca0b16750af1/search/0003.json",
+        "catalog/g-ca0b16750af1/search/0004.json",
+        "catalog/g-ca0b16750af1/search/0005.json",
+        "catalog/g-ca0b16750af1/search/0006.json",
+        "catalog/g-ca0b16750af1/search/0007.json",
+        "catalog/g-ca0b16750af1/search/0008.json",
+        "catalog/g-ca0b16750af1/search/0009.json",
+        "catalog/g-ca0b16750af1/search/0010.json",
+        "catalog/g-ca0b16750af1/search/0011.json",
+        "catalog/g-ca0b16750af1/search/0012.json"
+      ],
+      "file_count": 12216,
+      "directory_count": 376,
+      "book_count": 11840,
+      "font_count": 0,
+      "format_counts": {
+        "CHM": 4,
+        "DOC": 766,
+        "DOCX": 243,
+        "EPUB": 9581,
+        "MOBI": 342,
+        "PDF": 615,
+        "PRC": 164,
+        "RAR": 76,
+        "TXT": 37,
+        "ZIP": 12
+      },
+      "revision": "00bb1f637fbf22e5349094d2d789a8446a7a59887671555b0183929c5d8a945a"
+    },
+    {
+      "id": "g-54210b545fac",
+      "name": "Kindle của Kai",
+      "root_folder_id": "10itrXjdUjxXkSefsRtnzPovB_vI_U8uS",
+      "drive_name": "Kindle của Kai",
+      "shelf_no": 25,
+      "status": "active",
+      "root_shard": "catalog/g-54210b545fac/root.json",
+      "search_shards": [
+        "catalog/g-54210b545fac/search/0001.json"
+      ],
+      "file_count": 5,
+      "directory_count": 0,
+      "book_count": 5,
+      "font_count": 0,
+      "format_counts": {
+        "AZW3": 1,
+        "EPUB": 3,
+        "MOBI": 1
+      },
+      "revision": "7b2668bc48f52d91d393ab0da37fed914d4509ab6e3d20aa73e1d83fe87d5109"
+    },
+    {
+      "id": "g-e9c5b9a59505",
+      "name": "Kiếm hiệp",
+      "root_folder_id": "17Hpd_GuwTbf9M8xvujJkeE0cWmdfqt9s",
+      "drive_name": "Kiếm hiệp",
+      "shelf_no": 4,
+      "status": "active",
+      "root_shard": "catalog/g-e9c5b9a59505/root.json",
+      "search_shards": [
+        "catalog/g-e9c5b9a59505/search/0001.json"
+      ],
+      "file_count": 93,
+      "directory_count": 0,
+      "book_count": 93,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 93
+      },
+      "revision": "82a3d9c21c80f7d4b1a2363d21b3daab2c25249dd127f27766d1172d386c555e"
+    },
+    {
+      "id": "g-5e02def128e3",
+      "name": "Lịch sử",
+      "root_folder_id": "1harIaBS6yXnQpLm-fIRfXEbdvZMvFCFk",
+      "drive_name": "Lịch sử",
+      "shelf_no": 6,
+      "status": "active",
+      "root_shard": "catalog/g-5e02def128e3/root.json",
+      "search_shards": [
+        "catalog/g-5e02def128e3/search/0001.json"
+      ],
+      "file_count": 99,
+      "directory_count": 0,
+      "book_count": 99,
+      "font_count": 0,
+      "format_counts": {
+        "AZW3": 1,
+        "MOBI": 98
+      },
+      "revision": "fb33b5ad15655d9f2d99182a56564df499c70a60b30e9d04dbb36183f50ef4b6"
+    },
+    {
+      "id": "g-1044e1117a3b",
+      "name": "Mobi books",
+      "root_folder_id": "1dpCxJVkVX1OJ_raspHI2Ax11MEd5hG3j",
+      "drive_name": "Mobi books",
+      "shelf_no": 2,
+      "status": "active",
+      "root_shard": "catalog/g-1044e1117a3b/root.json",
+      "search_shards": [
+        "catalog/g-1044e1117a3b/search/0001.json",
+        "catalog/g-1044e1117a3b/search/0002.json",
+        "catalog/g-1044e1117a3b/search/0003.json",
+        "catalog/g-1044e1117a3b/search/0004.json",
+        "catalog/g-1044e1117a3b/search/0005.json",
+        "catalog/g-1044e1117a3b/search/0006.json",
+        "catalog/g-1044e1117a3b/search/0007.json",
+        "catalog/g-1044e1117a3b/search/0008.json",
+        "catalog/g-1044e1117a3b/search/0009.json",
+        "catalog/g-1044e1117a3b/search/0010.json",
+        "catalog/g-1044e1117a3b/search/0011.json"
+      ],
+      "file_count": 10191,
+      "directory_count": 27,
+      "book_count": 10164,
+      "font_count": 0,
+      "format_counts": {
+        "MOBI": 10164
+      },
+      "revision": "79a78a83f9f852b8cbaa5fa27ca5823c5aae9545cf770637b79c472bbe020175"
+    },
+    {
+      "id": "g-25055a4c346e",
+      "name": "My Ebook",
+      "root_folder_id": "13AM12KanzOajDC5KebVwNLxTIY98IQkV",
+      "drive_name": "My Ebook",
+      "shelf_no": 26,
+      "status": "active",
+      "root_shard": "catalog/g-25055a4c346e/root.json",
+      "search_shards": [],
+      "file_count": 0,
+      "directory_count": 0,
+      "book_count": 0,
+      "font_count": 0,
+      "format_counts": {},
+      "revision": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "g-2e5f40ddcf9f",
+      "name": "MyBooksM4",
+      "root_folder_id": "1GosVt2dGhsgYglOVnygO5-VEHL1_4r46",
+      "drive_name": "MyBooksM4",
+      "shelf_no": 30,
+      "status": "active",
+      "root_shard": "catalog/g-2e5f40ddcf9f/root.json",
+      "search_shards": [],
+      "file_count": 0,
+      "directory_count": 0,
+      "book_count": 0,
+      "font_count": 0,
+      "format_counts": {},
+      "revision": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "g-64500837f691",
+      "name": "Naga001",
+      "root_folder_id": "1-3xt0s1uLN43r65xG_ryVPAe8rW1LuFr",
+      "drive_name": "Naga001",
+      "shelf_no": 18,
+      "status": "active",
+      "root_shard": "catalog/g-64500837f691/root.json",
+      "search_shards": [
+        "catalog/g-64500837f691/search/0001.json"
+      ],
+      "file_count": 6,
+      "directory_count": 1,
+      "book_count": 5,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 5
+      },
+      "revision": "b5d3337f7d218ee2b4bf47557b41fe2eccfa628249a433fde95946884e5d80f9"
+    },
+    {
+      "id": "g-c53efe3d7bac",
+      "name": "Ptrungtu",
+      "root_folder_id": "1Ip_hnYeYZ6LVAgFfmg7YOoGXyuusy1WP",
+      "drive_name": "Ptrungtu",
+      "shelf_no": 21,
+      "status": "active",
+      "root_shard": "catalog/g-c53efe3d7bac/root.json",
+      "search_shards": [],
+      "file_count": 0,
+      "directory_count": 0,
+      "book_count": 0,
+      "font_count": 0,
+      "format_counts": {},
+      "revision": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "g-2d6efaf4ad21",
+      "name": "Quin ít đọc",
+      "root_folder_id": "1zFqvGniUeM5Yn6CyM_7_sJIcW5ZOUklP",
+      "drive_name": "Quin ít đọc",
+      "shelf_no": 17,
+      "status": "active",
+      "root_shard": "catalog/g-2d6efaf4ad21/root.json",
+      "search_shards": [
+        "catalog/g-2d6efaf4ad21/search/0001.json"
+      ],
+      "file_count": 299,
+      "directory_count": 4,
+      "book_count": 295,
+      "font_count": 0,
+      "format_counts": {
+        "AZW3": 6,
+        "EPUB": 269,
+        "MOBI": 4,
+        "PDF": 14,
+        "PRC": 1,
+        "RAR": 1
+      },
+      "revision": "0246e6b89294c024f394225bb94ba482ea3d51faa82568a204090f329d5a997c"
+    },
+    {
+      "id": "g-ef4766722b33",
+      "name": "QuocSan TVE",
+      "root_folder_id": "18zg91QHGTWy-hIdOWfTTIHMvpckOBx-W",
+      "drive_name": "QuocSan TVE",
+      "shelf_no": 36,
+      "status": "active",
+      "root_shard": "catalog/g-ef4766722b33/root.json",
+      "search_shards": [
+        "catalog/g-ef4766722b33/search/0001.json"
+      ],
+      "file_count": 407,
+      "directory_count": 0,
+      "book_count": 407,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 407
+      },
+      "revision": "0e5db85159633ffa5c8a645a3b6f5c4f0efd4ba7cc7a5d19fb10c5c819d12665"
+    },
+    {
+      "id": "g-f1d3dceed019",
+      "name": "Sách hay",
+      "root_folder_id": "16tQgivd9oq8IxJp4tZuEjdO1fUXDL9lE",
+      "drive_name": "Sách hay",
+      "shelf_no": 23,
+      "status": "active",
+      "root_shard": "catalog/g-f1d3dceed019/root.json",
+      "search_shards": [
+        "catalog/g-f1d3dceed019/search/0001.json"
+      ],
+      "file_count": 1,
+      "directory_count": 0,
+      "book_count": 1,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 1
+      },
+      "revision": "79b4e98c5fa39c6d7dd84b28001132bad60cdc2d2372fd1bb142d327492820fd"
+    },
+    {
+      "id": "g-45b1fb18db22",
+      "name": "Sách Yến 1",
+      "root_folder_id": "1AmncRk2cMkXtHQzy9Ii226uPIDY2cCCb",
+      "drive_name": "Sách Yến 1",
+      "shelf_no": 38,
+      "status": "active",
+      "root_shard": "catalog/g-45b1fb18db22/root.json",
+      "search_shards": [
+        "catalog/g-45b1fb18db22/search/0001.json"
+      ],
+      "file_count": 117,
+      "directory_count": 8,
+      "book_count": 109,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 100,
+        "PDF": 9
+      },
+      "revision": "5aeb6e429a1cdef9e534e6b64eb3782424d3997e3af40f879d665de884fcacfb"
+    },
+    {
+      "id": "g-7daa3b16549b",
+      "name": "Sách Yến 2",
+      "root_folder_id": "16XkI9-XTt6Fv43ltG3T3tTYsEWMC3GpI",
+      "drive_name": "Sách Yến 2",
+      "shelf_no": 39,
+      "status": "active",
+      "root_shard": "catalog/g-7daa3b16549b/root.json",
+      "search_shards": [
+        "catalog/g-7daa3b16549b/search/0001.json",
+        "catalog/g-7daa3b16549b/search/0002.json",
+        "catalog/g-7daa3b16549b/search/0003.json"
+      ],
+      "file_count": 2338,
+      "directory_count": 18,
+      "book_count": 2320,
+      "font_count": 0,
+      "format_counts": {
+        "AZW3": 6,
+        "EPUB": 2209,
+        "MOBI": 5,
+        "PDF": 100
+      },
+      "revision": "0cc9ffc626d574947526c4e5dd9b26101602f6edef3691fec9b10686a961f50d"
+    },
+    {
+      "id": "g-77f363489337",
+      "name": "Sách Yến 3",
+      "root_folder_id": "1k8L2FsxhRmnRBMVv_v_qbF-Px35dPwOD",
+      "drive_name": "Sách Yến 3",
+      "shelf_no": 40,
+      "status": "active",
+      "root_shard": "catalog/g-77f363489337/root.json",
+      "search_shards": [
+        "catalog/g-77f363489337/search/0001.json",
+        "catalog/g-77f363489337/search/0002.json",
+        "catalog/g-77f363489337/search/0003.json",
+        "catalog/g-77f363489337/search/0004.json",
+        "catalog/g-77f363489337/search/0005.json",
+        "catalog/g-77f363489337/search/0006.json",
+        "catalog/g-77f363489337/search/0007.json",
+        "catalog/g-77f363489337/search/0008.json",
+        "catalog/g-77f363489337/search/0009.json",
+        "catalog/g-77f363489337/search/0010.json",
+        "catalog/g-77f363489337/search/0011.json",
+        "catalog/g-77f363489337/search/0012.json",
+        "catalog/g-77f363489337/search/0013.json",
+        "catalog/g-77f363489337/search/0014.json",
+        "catalog/g-77f363489337/search/0015.json",
+        "catalog/g-77f363489337/search/0016.json",
+        "catalog/g-77f363489337/search/0017.json",
+        "catalog/g-77f363489337/search/0018.json",
+        "catalog/g-77f363489337/search/0019.json",
+        "catalog/g-77f363489337/search/0020.json",
+        "catalog/g-77f363489337/search/0021.json",
+        "catalog/g-77f363489337/search/0022.json",
+        "catalog/g-77f363489337/search/0023.json",
+        "catalog/g-77f363489337/search/0024.json",
+        "catalog/g-77f363489337/search/0025.json",
+        "catalog/g-77f363489337/search/0026.json",
+        "catalog/g-77f363489337/search/0027.json",
+        "catalog/g-77f363489337/search/0028.json",
+        "catalog/g-77f363489337/search/0029.json",
+        "catalog/g-77f363489337/search/0030.json",
+        "catalog/g-77f363489337/search/0031.json",
+        "catalog/g-77f363489337/search/0032.json",
+        "catalog/g-77f363489337/search/0033.json",
+        "catalog/g-77f363489337/search/0034.json",
+        "catalog/g-77f363489337/search/0035.json"
+      ],
+      "file_count": 53956,
+      "directory_count": 19877,
+      "book_count": 34079,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 10901,
+        "PDF": 11507,
+        "TXT": 11671
+      },
+      "revision": "ed26ee7ce39e4186ef199d472f0c6f3c1c27dba42723bf78a463098bc5e0baec"
+    },
+    {
+      "id": "g-299c4e2273dd",
+      "name": "Thich Nhat Hanh",
+      "root_folder_id": "1rWBPSR6CjVnSmfIH6_Q-0fjN4wUow1at",
+      "drive_name": "Thich Nhat Hanh",
+      "shelf_no": 5,
+      "status": "active",
+      "root_shard": "catalog/g-299c4e2273dd/root.json",
+      "search_shards": [
+        "catalog/g-299c4e2273dd/search/0001.json"
+      ],
+      "file_count": 80,
+      "directory_count": 0,
+      "book_count": 80,
+      "font_count": 0,
+      "format_counts": {
+        "MOBI": 80
+      },
+      "revision": "36c12fd3f42320cec0f3ef250ca66486817bc385f699bb7500c67bd58008e673"
+    },
+    {
+      "id": "g-d440373b5057",
+      "name": "TVE",
+      "root_folder_id": "1jBnLMpOt_hi4JCAet79Cw9AMdjNjRqhd",
+      "drive_name": "TVE",
+      "shelf_no": 32,
+      "status": "active",
+      "root_shard": "catalog/g-d440373b5057/root.json",
+      "search_shards": [
+        "catalog/g-d440373b5057/search/0001.json",
+        "catalog/g-d440373b5057/search/0002.json",
+        "catalog/g-d440373b5057/search/0003.json",
+        "catalog/g-d440373b5057/search/0004.json",
+        "catalog/g-d440373b5057/search/0005.json"
+      ],
+      "file_count": 4675,
+      "directory_count": 131,
+      "book_count": 4544,
+      "font_count": 0,
+      "format_counts": {
+        "CHM": 1,
+        "DOC": 17,
+        "MOBI": 3,
+        "PDF": 350,
+        "PRC": 4172,
+        "TXT": 1
+      },
+      "revision": "0b1ea9b25442b1175acf692b594c5b33ecd014fa93992b1158d5fd803d390454"
+    },
+    {
+      "id": "g-69f1b7458b70",
+      "name": "Tàng thư của Khang",
+      "root_folder_id": "1sKucqfw-PdALTplgpvNk2-PxSB3JVo9E",
+      "drive_name": "Tàng thư của Khang",
+      "shelf_no": 19,
+      "status": "active",
+      "root_shard": "catalog/g-69f1b7458b70/root.json",
+      "search_shards": [
+        "catalog/g-69f1b7458b70/search/0001.json",
+        "catalog/g-69f1b7458b70/search/0002.json",
+        "catalog/g-69f1b7458b70/search/0003.json",
+        "catalog/g-69f1b7458b70/search/0004.json",
+        "catalog/g-69f1b7458b70/search/0005.json",
+        "catalog/g-69f1b7458b70/search/0006.json",
+        "catalog/g-69f1b7458b70/search/0007.json",
+        "catalog/g-69f1b7458b70/search/0008.json"
+      ],
+      "file_count": 9019,
+      "directory_count": 1574,
+      "book_count": 7445,
+      "font_count": 0,
+      "format_counts": {
+        "AZW3": 1563,
+        "CBZ": 17,
+        "DOC": 4,
+        "DOCX": 16,
+        "EPUB": 4177,
+        "MOBI": 972,
+        "PDF": 610,
+        "PRC": 80,
+        "TXT": 6
+      },
+      "revision": "1ca82a1d064f0857d4600a26e8ff0f97e93d438a8f2a84947bb428cce1c9d1a4"
+    },
+    {
+      "id": "g-23a8c631e3a0",
+      "name": "Tủ sách của Ca",
+      "root_folder_id": "1ipOT1SU6Xus-uZiwi9bhNfyc5x0t_nNb",
+      "drive_name": "Tủ sách của Ca",
+      "shelf_no": 24,
+      "status": "active",
+      "root_shard": "catalog/g-23a8c631e3a0/root.json",
+      "search_shards": [
+        "catalog/g-23a8c631e3a0/search/0001.json"
+      ],
+      "file_count": 112,
+      "directory_count": 0,
+      "book_count": 112,
+      "font_count": 0,
+      "format_counts": {
+        "AZW3": 3,
+        "EPUB": 109
+      },
+      "revision": "f78f00144eeaa9b61b6ff54f18df903002be94cfd1aaa1b1ac86fbb6e8e7dea3"
+    },
+    {
+      "id": "g-9effdaafa5b1",
+      "name": "Tủ sách x3",
+      "root_folder_id": "18lYVUrvPZm9bzSVfzrnWx82xRJxiGCXJ",
+      "drive_name": "Tủ sách x3",
+      "shelf_no": 13,
+      "status": "active",
+      "root_shard": "catalog/g-9effdaafa5b1/root.json",
+      "search_shards": [],
+      "file_count": 0,
+      "directory_count": 0,
+      "book_count": 0,
+      "font_count": 0,
+      "format_counts": {},
+      "revision": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "g-f5a27f2a7738",
+      "name": "Zenkjt - đang đọc",
+      "root_folder_id": "1hR0H-wZejPM59ka-340atSlJCCYaaUbs",
+      "drive_name": "Zenkjt - đang đọc",
+      "shelf_no": 1,
+      "status": "active",
+      "root_shard": "catalog/g-f5a27f2a7738/root.json",
+      "search_shards": [
+        "catalog/g-f5a27f2a7738/search/0001.json"
+      ],
+      "file_count": 70,
+      "directory_count": 2,
+      "book_count": 68,
+      "font_count": 0,
+      "format_counts": {
+        "EPUB": 66,
+        "MOBI": 1,
+        "ZIP": 1
+      },
+      "revision": "9334a4b074f6e1a80804f583cf2f1061f0f84f93ad1c61a84847c0776d4021dd"
+    }
+  ]
+}

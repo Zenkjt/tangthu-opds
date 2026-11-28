@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RDqEY_X8m9hiuXeCLgoxn94ZfPj1DKXs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FWBF6SJEijDrIW9b3h80nkIIRn-3dlLf",
+      "parent_id": "1RDqEY_X8m9hiuXeCLgoxn94ZfPj1DKXs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2099,
+      "modified": "2026-08-15T07:22:22.000Z",
+      "checksum": "4354ef8b041241ccd8b91b31e9ed8c74",
+      "folder": false
+    },
+    {
+      "id": "1XMcQ9jHZRLFs_EICaecdHBFVnBljGWvY",
+      "parent_id": "1RDqEY_X8m9hiuXeCLgoxn94ZfPj1DKXs",
+      "name": "TRỌNG SINH CHI BẢN TÍNH.epub",
+      "mime": "application/epub+zip",
+      "size": 801001,
+      "modified": "2026-08-15T07:22:33.000Z",
+      "checksum": "e440a729a772ef7bd395dbac6c697b8c",
+      "folder": false
+    },
+    {
+      "id": "1ZdmV3bACA9DTBJVmciHjWb9mVlFs7uHX",
+      "parent_id": "1RDqEY_X8m9hiuXeCLgoxn94ZfPj1DKXs",
+      "name": "TRỌNG SINH CHI BẢN TÍNH.pdf",
+      "mime": "application/pdf",
+      "size": 2646815,
+      "modified": "2026-08-15T07:22:30.000Z",
+      "checksum": "559169e27abb003764f74a83056538c6",
+      "folder": false
+    }
+  ]
+}

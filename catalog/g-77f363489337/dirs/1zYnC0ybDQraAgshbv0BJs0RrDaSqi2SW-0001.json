@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zYnC0ybDQraAgshbv0BJs0RrDaSqi2SW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1C8xOv8Lp__EWFKKrz94aZKsoIcOIwHQz",
+      "parent_id": "1zYnC0ybDQraAgshbv0BJs0RrDaSqi2SW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2655,
+      "modified": "2026-08-15T03:50:21.000Z",
+      "checksum": "77f7b34f295a397b7c65673cbb3272b5",
+      "folder": false
+    },
+    {
+      "id": "1KMYhaavWU48wjMwm7AX-i_NfSHCxe_z6",
+      "parent_id": "1zYnC0ybDQraAgshbv0BJs0RrDaSqi2SW",
+      "name": "TẠNG THƯ SỐNG CHẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 746024,
+      "modified": "2026-08-15T03:50:32.000Z",
+      "checksum": "cda3fd8a391606073149b3095ed2e408",
+      "folder": false
+    },
+    {
+      "id": "1ocIUGODiI1FPfUKXZ96qcjOElHs-CGq9",
+      "parent_id": "1zYnC0ybDQraAgshbv0BJs0RrDaSqi2SW",
+      "name": "TẠNG THƯ SỐNG CHẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1853181,
+      "modified": "2026-08-15T03:50:29.000Z",
+      "checksum": "e2f7ab2962e18a57b3e7bce3fe142051",
+      "folder": false
+    }
+  ]
+}

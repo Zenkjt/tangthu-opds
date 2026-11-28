@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16NPAnNFkxKJJSZGavizIG6ZcWvAf27Bg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tNtPPc6zI3Hg6oiVHK_qAu2mLVemFG5m",
+      "parent_id": "16NPAnNFkxKJJSZGavizIG6ZcWvAf27Bg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 603,
+      "modified": "2026-08-15T10:52:29.000Z",
+      "checksum": "565c2d995041faf280d7b500b6957c8c",
+      "folder": false
+    },
+    {
+      "id": "1i5v-dKAJrwMhwdPTNtIE6g4251fE41oM",
+      "parent_id": "16NPAnNFkxKJJSZGavizIG6ZcWvAf27Bg",
+      "name": "MÔI KỀ MÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 618957,
+      "modified": "2026-08-15T10:52:36.000Z",
+      "checksum": "826829d4d142e4a6dbdc4cd98e69085d",
+      "folder": false
+    },
+    {
+      "id": "1TWyND7rGxKn5nsq4CpJuWR-loLL0Iscs",
+      "parent_id": "16NPAnNFkxKJJSZGavizIG6ZcWvAf27Bg",
+      "name": "MÔI KỀ MÔI.pdf",
+      "mime": "application/pdf",
+      "size": 1085220,
+      "modified": "2026-08-15T10:52:34.000Z",
+      "checksum": "6dc4da81e37c90365851617e4fa1ee04",
+      "folder": false
+    }
+  ]
+}

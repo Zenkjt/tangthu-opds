@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mP2GOVZNcjYmGIBNRBS-7wedx3xf7KlL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HsqcIZ2azDCcGZI1e9wEg1TWt_WNZGFx",
+      "parent_id": "1mP2GOVZNcjYmGIBNRBS-7wedx3xf7KlL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2984,
+      "modified": "2026-08-15T10:08:49.000Z",
+      "checksum": "26a40719fbb286cd5e9e8337fd4876ea",
+      "folder": false
+    },
+    {
+      "id": "1v3vJcJPnhzg0U9OqLE2MdJQq-xSs30Hw",
+      "parent_id": "1mP2GOVZNcjYmGIBNRBS-7wedx3xf7KlL",
+      "name": "TÌNH MUỘN.epub",
+      "mime": "application/epub+zip",
+      "size": 526006,
+      "modified": "2026-08-15T10:08:57.000Z",
+      "checksum": "e29edc14a9008178baac58a7a22dfbf0",
+      "folder": false
+    },
+    {
+      "id": "1fqCaVdNK3_sSFest-52Q-Flx255tl0tq",
+      "parent_id": "1mP2GOVZNcjYmGIBNRBS-7wedx3xf7KlL",
+      "name": "TÌNH MUỘN.pdf",
+      "mime": "application/pdf",
+      "size": 1620461,
+      "modified": "2026-08-15T10:08:53.000Z",
+      "checksum": "0fe122f4369d2405a7ac42d5a5108197",
+      "folder": false
+    }
+  ]
+}

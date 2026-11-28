@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eTJPvzBwJNAnZV3JlXSwCWWAFFrFsE9U",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZCqkwtqotdGYXvqPbmg0NOHyazYig4EK",
+      "parent_id": "1eTJPvzBwJNAnZV3JlXSwCWWAFFrFsE9U",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 445,
+      "modified": "2026-08-16T04:17:37.000Z",
+      "checksum": "80400a1a52fc931dc85886b91d2d8658",
+      "folder": false
+    },
+    {
+      "id": "1GjoCHf1QPC99A-a1KH9MaKKzp-6NbJcV",
+      "parent_id": "1eTJPvzBwJNAnZV3JlXSwCWWAFFrFsE9U",
+      "name": "MỘT THỜI ĐỂ YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 245485,
+      "modified": "2026-08-16T04:17:43.000Z",
+      "checksum": "7955b896d46c30dc01de09219f8f7bc9",
+      "folder": false
+    },
+    {
+      "id": "1sB7agLNBBrMGJgRz5Yas_EU2QUAwUwnM",
+      "parent_id": "1eTJPvzBwJNAnZV3JlXSwCWWAFFrFsE9U",
+      "name": "MỘT THỜI ĐỂ YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 653822,
+      "modified": "2026-08-16T04:17:41.000Z",
+      "checksum": "7637d4991337bdaddb06f2acb0d2250f",
+      "folder": false
+    }
+  ]
+}

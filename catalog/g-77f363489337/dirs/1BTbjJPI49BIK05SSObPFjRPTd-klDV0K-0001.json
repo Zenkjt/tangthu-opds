@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BTbjJPI49BIK05SSObPFjRPTd-klDV0K",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qTfLoQYRffCxEYDlCs2ZozlbF1ws2q-a",
+      "parent_id": "1BTbjJPI49BIK05SSObPFjRPTd-klDV0K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8683,
+      "modified": "2026-08-15T07:45:23.000Z",
+      "checksum": "b8353bde7097d56370b4eaccd2b772b8",
+      "folder": false
+    },
+    {
+      "id": "19nrd5cWgzluYQGA3LBSvn1G3ZbEJSHh1",
+      "parent_id": "1BTbjJPI49BIK05SSObPFjRPTd-klDV0K",
+      "name": "LOẠN THẾ ANH HÙNG - TẬP 3.epub",
+      "mime": "application/epub+zip",
+      "size": 528803,
+      "modified": "2026-08-15T07:45:32.000Z",
+      "checksum": "472d64c6493606e5546ac57cf1430c5c",
+      "folder": false
+    },
+    {
+      "id": "1_0Sv3bhWL5p-YwPWMKWOod5CRXPgZ2ou",
+      "parent_id": "1BTbjJPI49BIK05SSObPFjRPTd-klDV0K",
+      "name": "LOẠN THẾ ANH HÙNG - TẬP 3.pdf",
+      "mime": "application/pdf",
+      "size": 1670523,
+      "modified": "2026-08-15T07:45:29.000Z",
+      "checksum": "e9701913d51b8e4ef8e634cdf5cd157c",
+      "folder": false
+    }
+  ]
+}

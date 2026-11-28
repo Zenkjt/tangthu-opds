@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1noFuEYeI0LR-KCrQUz4w1wEwX2Rm9H52",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mmK4EzveZgjzuDuZDqWddZGH_LqNIzwB",
+      "parent_id": "1noFuEYeI0LR-KCrQUz4w1wEwX2Rm9H52",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8113,
+      "modified": "2026-08-15T07:24:53.000Z",
+      "checksum": "76318da96867f2a6336f759e84a0eba1",
+      "folder": false
+    },
+    {
+      "id": "1ftX8Jfrq84iPpQEQty1c799hzKvllMPV",
+      "parent_id": "1noFuEYeI0LR-KCrQUz4w1wEwX2Rm9H52",
+      "name": "TƯƠNG TỈNH.epub",
+      "mime": "application/epub+zip",
+      "size": 463547,
+      "modified": "2026-08-15T07:25:00.000Z",
+      "checksum": "a4181fff07cf5019945be5dd5a164868",
+      "folder": false
+    },
+    {
+      "id": "141oMOI05BcSrry-Zs2MsNKWZEjnvPWxt",
+      "parent_id": "1noFuEYeI0LR-KCrQUz4w1wEwX2Rm9H52",
+      "name": "TƯƠNG TỈNH.pdf",
+      "mime": "application/pdf",
+      "size": 1380915,
+      "modified": "2026-08-15T07:24:57.000Z",
+      "checksum": "b670baf1a11f44948ef8c22d589988ef",
+      "folder": false
+    }
+  ]
+}

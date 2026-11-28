@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Oum3Y-sLxxEd62xlw8zZi-A3V1_ygU3v",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GEOd7xUCEZD4FfARnNCx66p90nwHq4ZG",
+      "parent_id": "1Oum3Y-sLxxEd62xlw8zZi-A3V1_ygU3v",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8019,
+      "modified": "2026-08-15T03:46:16.000Z",
+      "checksum": "3944bce9437f423d8fcb269ab689a37f",
+      "folder": false
+    },
+    {
+      "id": "1rjdoY_HQTEeAYCLoGajspRiApjcvZHVE",
+      "parent_id": "1Oum3Y-sLxxEd62xlw8zZi-A3V1_ygU3v",
+      "name": "THIỀN VÀ SỨC KHỎE.epub",
+      "mime": "application/epub+zip",
+      "size": 463590,
+      "modified": "2026-08-15T03:46:21.000Z",
+      "checksum": "e37bd7fa5b3af64af9883161d37d1c2c",
+      "folder": false
+    },
+    {
+      "id": "1c0RfRjzvI4JT6ySiuZVDYeE_mat6EN9O",
+      "parent_id": "1Oum3Y-sLxxEd62xlw8zZi-A3V1_ygU3v",
+      "name": "THIỀN VÀ SỨC KHỎE.pdf",
+      "mime": "application/pdf",
+      "size": 370764,
+      "modified": "2026-08-15T03:46:19.000Z",
+      "checksum": "7146d98aa60c03183257fc457e5a8dda",
+      "folder": false
+    }
+  ]
+}

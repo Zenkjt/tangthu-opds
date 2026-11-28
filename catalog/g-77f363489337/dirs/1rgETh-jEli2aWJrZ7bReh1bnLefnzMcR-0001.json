@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rgETh-jEli2aWJrZ7bReh1bnLefnzMcR",
+  "page": 1,
+  "items": [
+    {
+      "id": "10WW8bYxBxuFDOa8wLZEgmLUi83mVEX-Q",
+      "parent_id": "1rgETh-jEli2aWJrZ7bReh1bnLefnzMcR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3441,
+      "modified": "2026-08-15T10:44:12.000Z",
+      "checksum": "48c466104a4ed565e1371519f62fc9d5",
+      "folder": false
+    },
+    {
+      "id": "1bY7zh7kbSeeiAcaG951A7wQOybGe30a0",
+      "parent_id": "1rgETh-jEli2aWJrZ7bReh1bnLefnzMcR",
+      "name": "NGƯỜI CHẬM.epub",
+      "mime": "application/epub+zip",
+      "size": 454382,
+      "modified": "2026-08-15T10:44:44.000Z",
+      "checksum": "b3b551637eddd389a224373de9a03e39",
+      "folder": false
+    },
+    {
+      "id": "154NJutOQ0SWg-nxyBEYZWZuRJULoY3qE",
+      "parent_id": "1rgETh-jEli2aWJrZ7bReh1bnLefnzMcR",
+      "name": "NGƯỜI CHẬM.pdf",
+      "mime": "application/pdf",
+      "size": 1031152,
+      "modified": "2026-08-15T10:44:34.000Z",
+      "checksum": "9957b723e5bd7023b217b394f407f80f",
+      "folder": false
+    }
+  ]
+}

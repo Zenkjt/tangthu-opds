@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yDhYq3YheftGJVGf3bZp3ZB4VTILR-7o",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_fQ9vxa4TNn73EtfST5HcO-vRWE9kpnw",
+      "parent_id": "1yDhYq3YheftGJVGf3bZp3ZB4VTILR-7o",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3992,
+      "modified": "2026-08-15T00:57:31.000Z",
+      "checksum": "e84bdc1cc172ebd33020e52321e1d4d3",
+      "folder": false
+    },
+    {
+      "id": "1T1zq7Ttl46UhwcKCwopte4O_-c7QUUzw",
+      "parent_id": "1yDhYq3YheftGJVGf3bZp3ZB4VTILR-7o",
+      "name": "THUẬT ĐẮC NHÂN TÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 510109,
+      "modified": "2026-08-15T00:58:03.000Z",
+      "checksum": "c772aa1560f6e32c8993db4f3d9be6eb",
+      "folder": false
+    },
+    {
+      "id": "1v2MIH6P7lFKN5mnhazWJ3QFgdJgzsPbb",
+      "parent_id": "1yDhYq3YheftGJVGf3bZp3ZB4VTILR-7o",
+      "name": "THUẬT ĐẮC NHÂN TÂM.pdf",
+      "mime": "application/pdf",
+      "size": 1345018,
+      "modified": "2026-08-15T00:57:53.000Z",
+      "checksum": "d9366ecf548739869670c1486f149dbe",
+      "folder": false
+    }
+  ]
+}

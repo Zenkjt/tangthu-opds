@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12QR1pAl059xafy5sDVo22a-hJ6KFuwIL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GJnehMZqH_U5waKeZ4DU-9FNWtFFC6dW",
+      "parent_id": "12QR1pAl059xafy5sDVo22a-hJ6KFuwIL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4295,
+      "modified": "2026-08-15T07:35:49.000Z",
+      "checksum": "146f0802810737431a7463e4236e678d",
+      "folder": false
+    },
+    {
+      "id": "1pdTJBpn3XhPE7s6BUos0EL7T088AUEXU",
+      "parent_id": "12QR1pAl059xafy5sDVo22a-hJ6KFuwIL",
+      "name": "NỖI CÔ ĐƠN CỦA CÁC NGUYÊN TỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 504925,
+      "modified": "2026-08-15T07:35:55.000Z",
+      "checksum": "90a29779fcd9341d994f9300b217738b",
+      "folder": false
+    },
+    {
+      "id": "1yAObW4Ru-AEwVeeBhN6oHiz-oQxUJ-Ts",
+      "parent_id": "12QR1pAl059xafy5sDVo22a-hJ6KFuwIL",
+      "name": "NỖI CÔ ĐƠN CỦA CÁC NGUYÊN TỐ.pdf",
+      "mime": "application/pdf",
+      "size": 1608410,
+      "modified": "2026-08-15T07:35:52.000Z",
+      "checksum": "16a4a79e25b0aecd263b2c9a26252371",
+      "folder": false
+    }
+  ]
+}

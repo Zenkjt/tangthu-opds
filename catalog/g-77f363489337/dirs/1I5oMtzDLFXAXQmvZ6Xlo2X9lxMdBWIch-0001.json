@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1I5oMtzDLFXAXQmvZ6Xlo2X9lxMdBWIch",
+  "page": 1,
+  "items": [
+    {
+      "id": "1utPee91aSYlvB_Ik4QPfo_ABbqYhyETa",
+      "parent_id": "1I5oMtzDLFXAXQmvZ6Xlo2X9lxMdBWIch",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 445,
+      "modified": "2026-08-15T10:43:08.000Z",
+      "checksum": "80400a1a52fc931dc85886b91d2d8658",
+      "folder": false
+    },
+    {
+      "id": "1o6rjnzH3aUmGT6BivJSEnEcH0Z4TF4i5",
+      "parent_id": "1I5oMtzDLFXAXQmvZ6Xlo2X9lxMdBWIch",
+      "name": "NGƯỜI HÀNH HƯƠNG MÊ ĐẮM.epub",
+      "mime": "application/epub+zip",
+      "size": 348256,
+      "modified": "2026-08-15T10:43:14.000Z",
+      "checksum": "8ef2af389dead660c54b23c170a6cf06",
+      "folder": false
+    },
+    {
+      "id": "1SO4EJofbFuc32wud1p99odukyfSQXT89",
+      "parent_id": "1I5oMtzDLFXAXQmvZ6Xlo2X9lxMdBWIch",
+      "name": "NGƯỜI HÀNH HƯƠNG MÊ ĐẮM.pdf",
+      "mime": "application/pdf",
+      "size": 626181,
+      "modified": "2026-08-15T10:43:12.000Z",
+      "checksum": "bfe6b887098bfb89eb5d9ec581e0fbea",
+      "folder": false
+    }
+  ]
+}

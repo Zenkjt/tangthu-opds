@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JUtCVTaYuWoqrxM9Kz4Jo_frd8zyzfcb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Ms7yBrj-UyGs_gkVBk28FB3EjVLN1zUS",
+      "parent_id": "1JUtCVTaYuWoqrxM9Kz4Jo_frd8zyzfcb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3266,
+      "modified": "2026-08-15T10:25:38.000Z",
+      "checksum": "0c60f8a19bbc51cfd7e4ae13a398cee4",
+      "folder": false
+    },
+    {
+      "id": "1lWB10s-cFN0dnsox79584ON_n-O6Deij",
+      "parent_id": "1JUtCVTaYuWoqrxM9Kz4Jo_frd8zyzfcb",
+      "name": "STEVES JOBS.epub",
+      "mime": "application/epub+zip",
+      "size": 645422,
+      "modified": "2026-08-15T10:25:50.000Z",
+      "checksum": "9ebcc9bd22ebc2814eccc9f7f0001066",
+      "folder": false
+    },
+    {
+      "id": "1-ROUPZ8x8SGmNw-4kZwWIKvnN7DGZkK2",
+      "parent_id": "1JUtCVTaYuWoqrxM9Kz4Jo_frd8zyzfcb",
+      "name": "STEVES JOBS.pdf",
+      "mime": "application/pdf",
+      "size": 2500456,
+      "modified": "2026-08-15T10:25:47.000Z",
+      "checksum": "d8a3a5bd2ef223de56e604be1d26a358",
+      "folder": false
+    }
+  ]
+}

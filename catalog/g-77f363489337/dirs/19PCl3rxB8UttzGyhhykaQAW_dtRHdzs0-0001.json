@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19PCl3rxB8UttzGyhhykaQAW_dtRHdzs0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uw1IulS_8OgaQctwLBJt8aAMd_jBs6Xq",
+      "parent_id": "19PCl3rxB8UttzGyhhykaQAW_dtRHdzs0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3166,
+      "modified": "2026-08-15T15:59:11.000Z",
+      "checksum": "27c324bf198fdc3ecd560a51dcdee3fb",
+      "folder": false
+    },
+    {
+      "id": "1blEG-8PJayeTflM67NI_-ieM4FDsjFPm",
+      "parent_id": "19PCl3rxB8UttzGyhhykaQAW_dtRHdzs0",
+      "name": "OAN GIA HÀNG XÓM.epub",
+      "mime": "application/epub+zip",
+      "size": 333150,
+      "modified": "2026-08-15T15:59:17.000Z",
+      "checksum": "4f912b4ed13e62a610fa21b5cc5fd377",
+      "folder": false
+    },
+    {
+      "id": "1sfbbUgJrPTvs_ARjATBgT4layjMtMAeq",
+      "parent_id": "19PCl3rxB8UttzGyhhykaQAW_dtRHdzs0",
+      "name": "OAN GIA HÀNG XÓM.pdf",
+      "mime": "application/pdf",
+      "size": 606282,
+      "modified": "2026-08-15T15:59:15.000Z",
+      "checksum": "6ab649ee696d39954b8c7cbcbbd5d698",
+      "folder": false
+    }
+  ]
+}

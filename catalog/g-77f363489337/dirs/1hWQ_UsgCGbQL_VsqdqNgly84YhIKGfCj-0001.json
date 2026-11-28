@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hWQ_UsgCGbQL_VsqdqNgly84YhIKGfCj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VPh1NZeWSuaaHnm_uRgiBAPOsIxo3u6A",
+      "parent_id": "1hWQ_UsgCGbQL_VsqdqNgly84YhIKGfCj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3477,
+      "modified": "2026-08-15T10:43:00.000Z",
+      "checksum": "781218bd12cb4b0dff4931f5aad74c53",
+      "folder": false
+    },
+    {
+      "id": "1jiOer9uamJ8ryWIpREluAUIuVYa6S-V6",
+      "parent_id": "1hWQ_UsgCGbQL_VsqdqNgly84YhIKGfCj",
+      "name": "NGƯỜI MÔI GIỚI ÁI TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 405018,
+      "modified": "2026-08-15T10:43:06.000Z",
+      "checksum": "d0dc53d820cce98c8d6cc2735533721a",
+      "folder": false
+    },
+    {
+      "id": "1o8H4q2Qwq5YnBObi_HxdOk_5U-le4XW5",
+      "parent_id": "1hWQ_UsgCGbQL_VsqdqNgly84YhIKGfCj",
+      "name": "NGƯỜI MÔI GIỚI ÁI TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 684993,
+      "modified": "2026-08-15T10:43:04.000Z",
+      "checksum": "f128250b9ad1531c61283190fd71a47e",
+      "folder": false
+    }
+  ]
+}

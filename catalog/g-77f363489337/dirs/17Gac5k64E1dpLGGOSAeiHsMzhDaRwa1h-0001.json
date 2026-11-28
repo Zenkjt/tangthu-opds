@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17Gac5k64E1dpLGGOSAeiHsMzhDaRwa1h",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kx7GruGBSwIVYUkGLN50siwtnlj1NwGe",
+      "parent_id": "17Gac5k64E1dpLGGOSAeiHsMzhDaRwa1h",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1899,
+      "modified": "2026-08-15T07:04:44.000Z",
+      "checksum": "a66cbe396304607719776efda5877f86",
+      "folder": false
+    },
+    {
+      "id": "1TUaHMa5NAmq6mD8gmd-zjiwt1Woahx44",
+      "parent_id": "17Gac5k64E1dpLGGOSAeiHsMzhDaRwa1h",
+      "name": "ÔNG GIÀ KHỐT TA BÍT.epub",
+      "mime": "application/epub+zip",
+      "size": 2045773,
+      "modified": "2026-08-15T07:04:51.000Z",
+      "checksum": "aaf561b1b8482e19081a1f4e84c382c5",
+      "folder": false
+    },
+    {
+      "id": "1LRy8tfpfIHvKNL2ZcTvceghJsFBL5vno",
+      "parent_id": "17Gac5k64E1dpLGGOSAeiHsMzhDaRwa1h",
+      "name": "ÔNG GIÀ KHỐT TA BÍT.pdf",
+      "mime": "application/pdf",
+      "size": 3844075,
+      "modified": "2026-08-15T07:04:48.000Z",
+      "checksum": "cfcd82c0a4832b76c8e55c0254a98e32",
+      "folder": false
+    }
+  ]
+}

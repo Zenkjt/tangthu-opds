@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TchQLeeZnMNj8ImQr7BMNqNojRDUfebt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OmQHlIJDJ1PsD5q1QpkePzNxkTFcEenE",
+      "parent_id": "1TchQLeeZnMNj8ImQr7BMNqNojRDUfebt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 816,
+      "modified": "2026-08-15T10:45:47.000Z",
+      "checksum": "100704bc7d62753ec1cb6ddf57cf2ff0",
+      "folder": false
+    },
+    {
+      "id": "1r1fTnu7q-8lpb_haiIbXEnhwrWWtDYMt",
+      "parent_id": "1TchQLeeZnMNj8ImQr7BMNqNojRDUfebt",
+      "name": "NGÔI NHÀ CỦA NGƯỜI CÁ SAY NGỦ.epub",
+      "mime": "application/epub+zip",
+      "size": 538216,
+      "modified": "2026-08-15T10:45:57.000Z",
+      "checksum": "1f9f6403a4ef0e5566c08ee0c959f319",
+      "folder": false
+    },
+    {
+      "id": "1EiHV09psaz1ysne8HOQZf3RieG8m62EN",
+      "parent_id": "1TchQLeeZnMNj8ImQr7BMNqNojRDUfebt",
+      "name": "NGÔI NHÀ CỦA NGƯỜI CÁ SAY NGỦ.pdf",
+      "mime": "application/pdf",
+      "size": 1261506,
+      "modified": "2026-08-15T10:45:54.000Z",
+      "checksum": "d6372d418e1759826cc3fdccae80f7ac",
+      "folder": false
+    }
+  ]
+}

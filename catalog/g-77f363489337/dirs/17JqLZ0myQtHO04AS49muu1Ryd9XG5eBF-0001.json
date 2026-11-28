@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17JqLZ0myQtHO04AS49muu1Ryd9XG5eBF",
+  "page": 1,
+  "items": [
+    {
+      "id": "19xGrpECj0RgKAogIy9UrQ-Cw9aeM4x8l",
+      "parent_id": "17JqLZ0myQtHO04AS49muu1Ryd9XG5eBF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 706,
+      "modified": "2026-08-16T04:18:23.000Z",
+      "checksum": "f70479415a604610f57938afe1d2a49b",
+      "folder": false
+    },
+    {
+      "id": "1F2QAdNg9-Le4yM00wDbADsFP0WZdi1EO",
+      "parent_id": "17JqLZ0myQtHO04AS49muu1Ryd9XG5eBF",
+      "name": "LỜI CỦA GIÓ.epub",
+      "mime": "application/epub+zip",
+      "size": 423002,
+      "modified": "2026-08-16T04:18:29.000Z",
+      "checksum": "c0a7f3c06fc5e6f0fcb1f4b9dd038b4d",
+      "folder": false
+    },
+    {
+      "id": "134gWC84O-zzQmvPMnB7Sdwy1O6DzWelX",
+      "parent_id": "17JqLZ0myQtHO04AS49muu1Ryd9XG5eBF",
+      "name": "LỜI CỦA GIÓ.pdf",
+      "mime": "application/pdf",
+      "size": 638219,
+      "modified": "2026-08-16T04:18:27.000Z",
+      "checksum": "ba1e00e12f772f8e8acf021cc53fdf5f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cyLZghqeUGIy7Wz-XYVqdP41zScNg73A",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rgLbMqHPJNqN9vcwJtFvb-Cm99Hwygq9",
+      "parent_id": "1cyLZghqeUGIy7Wz-XYVqdP41zScNg73A",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2492,
+      "modified": "2026-08-15T07:31:19.000Z",
+      "checksum": "5414b273f78eec7d34dc67f24e2a7f47",
+      "folder": false
+    },
+    {
+      "id": "1kwr_nEWHpIlhjF8c-WTs_ZVRGnZOinx8",
+      "parent_id": "1cyLZghqeUGIy7Wz-XYVqdP41zScNg73A",
+      "name": "VƯƠNG PHI THẦN TRỘM.epub",
+      "mime": "application/epub+zip",
+      "size": 897597,
+      "modified": "2026-08-15T07:31:30.000Z",
+      "checksum": "9b5dbcff32ac24836cd7f5f3bd1fa52e",
+      "folder": false
+    },
+    {
+      "id": "1LIOqNWCPwNUi4A2CJKqHSVBKSRGqR-8f",
+      "parent_id": "1cyLZghqeUGIy7Wz-XYVqdP41zScNg73A",
+      "name": "VƯƠNG PHI THẦN TRỘM.pdf",
+      "mime": "application/pdf",
+      "size": 2701946,
+      "modified": "2026-08-15T07:31:27.000Z",
+      "checksum": "3045b3eae38757e712b11a1a94a30b1b",
+      "folder": false
+    }
+  ]
+}

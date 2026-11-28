@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Bn49IfWqcra2E0wosSu3sZJuQO330fpc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aZj8SpFxlu10zZ2bod2RrIMBda9mJnA5",
+      "parent_id": "1Bn49IfWqcra2E0wosSu3sZJuQO330fpc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3577,
+      "modified": "2026-08-15T10:00:58.000Z",
+      "checksum": "56f13134fdc471faaf113e8c615a4f51",
+      "folder": false
+    },
+    {
+      "id": "1fFZAj6xeLhZI0XpuRyULNusNp6GrRPWs",
+      "parent_id": "1Bn49IfWqcra2E0wosSu3sZJuQO330fpc",
+      "name": "TÔI NHƯ ÁNH DƯƠNG RẠNG RỠ.epub",
+      "mime": "application/epub+zip",
+      "size": 677718,
+      "modified": "2026-08-15T10:01:06.000Z",
+      "checksum": "aec4b38c6cefcc20cddb38d252d9c370",
+      "folder": false
+    },
+    {
+      "id": "1Ojbzo9Kznaek63T_OF6U6VsT8FeSqqzs",
+      "parent_id": "1Bn49IfWqcra2E0wosSu3sZJuQO330fpc",
+      "name": "TÔI NHƯ ÁNH DƯƠNG RẠNG RỠ.pdf",
+      "mime": "application/pdf",
+      "size": 1452891,
+      "modified": "2026-08-15T10:01:03.000Z",
+      "checksum": "86db06a8fce3cbefec1e7e2979ff4b36",
+      "folder": false
+    }
+  ]
+}

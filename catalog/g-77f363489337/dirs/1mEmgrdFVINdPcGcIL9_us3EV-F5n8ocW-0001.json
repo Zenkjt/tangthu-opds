@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mEmgrdFVINdPcGcIL9_us3EV-F5n8ocW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JDrZOp2WgxFrtvG-50cYKEQcPUQ1lqZp",
+      "parent_id": "1mEmgrdFVINdPcGcIL9_us3EV-F5n8ocW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1808,
+      "modified": "2026-08-15T03:59:12.000Z",
+      "checksum": "23953fde85cc615412de00a4cb577bbe",
+      "folder": false
+    },
+    {
+      "id": "1eXMzpiBqw0RS79SHpgMSZu6MuO1Qt-3X",
+      "parent_id": "1mEmgrdFVINdPcGcIL9_us3EV-F5n8ocW",
+      "name": "LỰC LƯỢNG HUYỀN BÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 356149,
+      "modified": "2026-08-15T03:59:18.000Z",
+      "checksum": "a68793c2e8e9c0a3bcfc72f7a87005cf",
+      "folder": false
+    },
+    {
+      "id": "1YXAQp7Q56EiQkbbhDT85iECabL9ngA2S",
+      "parent_id": "1mEmgrdFVINdPcGcIL9_us3EV-F5n8ocW",
+      "name": "LỰC LƯỢNG HUYỀN BÍ.pdf",
+      "mime": "application/pdf",
+      "size": 1072244,
+      "modified": "2026-08-15T03:59:16.000Z",
+      "checksum": "74e536f3952386f049f6388f80da0963",
+      "folder": false
+    }
+  ]
+}

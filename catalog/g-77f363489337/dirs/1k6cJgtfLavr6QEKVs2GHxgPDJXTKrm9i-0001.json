@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1k6cJgtfLavr6QEKVs2GHxgPDJXTKrm9i",
+  "page": 1,
+  "items": [
+    {
+      "id": "120EsIcWd_-oMhuwcBG77D620W5MoOynh",
+      "parent_id": "1k6cJgtfLavr6QEKVs2GHxgPDJXTKrm9i",
+      "name": "CÂM LẶNG.epub",
+      "mime": "application/epub+zip",
+      "size": 811736,
+      "modified": "2026-08-15T11:01:36.000Z",
+      "checksum": "557e408755a8ad82442ecf4709e77516",
+      "folder": false
+    },
+    {
+      "id": "1Pd6EIIZVbNO0MI_tXr8ajnBbL6nDJvze",
+      "parent_id": "1k6cJgtfLavr6QEKVs2GHxgPDJXTKrm9i",
+      "name": "CÂM LẶNG.pdf",
+      "mime": "application/pdf",
+      "size": 1448092,
+      "modified": "2026-08-15T11:01:32.000Z",
+      "checksum": "f289e9fe62423eb2def32bdb4f7d7a0d",
+      "folder": false
+    },
+    {
+      "id": "1Tz0HirvyIIxBRR6BBYIFYcxIRiVJm7Kl",
+      "parent_id": "1k6cJgtfLavr6QEKVs2GHxgPDJXTKrm9i",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 458,
+      "modified": "2026-08-15T11:01:18.000Z",
+      "checksum": "afdc5b1290ca8b2739b5e1c767b6c520",
+      "folder": false
+    }
+  ]
+}

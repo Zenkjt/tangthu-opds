@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VwEzb_1NcBKuyIulQPR5p1yz5RrjGFEu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cC9BWGtay-OVvuaBrJG0FzVLcvS-ms56",
+      "parent_id": "1VwEzb_1NcBKuyIulQPR5p1yz5RrjGFEu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 463,
+      "modified": "2026-08-15T10:57:36.000Z",
+      "checksum": "36df563f56f7be2e1ac6e801ac0b1914",
+      "folder": false
+    },
+    {
+      "id": "1eE8SnOAniT1p_OV2Ny2uIf1FQAubRl5a",
+      "parent_id": "1VwEzb_1NcBKuyIulQPR5p1yz5RrjGFEu",
+      "name": "DƯƠNG TỪ HÀ MẬU.epub",
+      "mime": "application/epub+zip",
+      "size": 441517,
+      "modified": "2026-08-15T10:58:05.000Z",
+      "checksum": "e196e83e506466ca11d42e8b210cd4ed",
+      "folder": false
+    },
+    {
+      "id": "1Gvamwzi4DgK4fxU8zJCbZXQDuexeMRcd",
+      "parent_id": "1VwEzb_1NcBKuyIulQPR5p1yz5RrjGFEu",
+      "name": "DƯƠNG TỪ HÀ MẬU.pdf",
+      "mime": "application/pdf",
+      "size": 418346,
+      "modified": "2026-08-15T10:58:00.000Z",
+      "checksum": "a6b739838807fbf0eaff59462eb772a8",
+      "folder": false
+    }
+  ]
+}

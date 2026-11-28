@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_Hw7G0gqleLrezpv8ms3ITAFytZ4ePtc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1k7jnhLmpyp4nvGq9Gybnai8KVj1Az10v",
+      "parent_id": "1_Hw7G0gqleLrezpv8ms3ITAFytZ4ePtc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2873,
+      "modified": "2026-08-15T15:34:03.000Z",
+      "checksum": "8cd9771928d10ba53a883ee293a08c54",
+      "folder": false
+    },
+    {
+      "id": "18_VNckHYzEbA8XCc6zfCfdXKx6aFzXbM",
+      "parent_id": "1_Hw7G0gqleLrezpv8ms3ITAFytZ4ePtc",
+      "name": "XÁC KHÔNG ĐẦU.epub",
+      "mime": "application/epub+zip",
+      "size": 455094,
+      "modified": "2026-08-15T15:34:09.000Z",
+      "checksum": "67af24278f8b475822e366e96260ea51",
+      "folder": false
+    },
+    {
+      "id": "1Syp-pDsnPjOqcTX-A93t7kaOaYvJv8Gu",
+      "parent_id": "1_Hw7G0gqleLrezpv8ms3ITAFytZ4ePtc",
+      "name": "XÁC KHÔNG ĐẦU.pdf",
+      "mime": "application/pdf",
+      "size": 857061,
+      "modified": "2026-08-15T15:34:07.000Z",
+      "checksum": "9886ccafd3358108aa05028e86966f27",
+      "folder": false
+    }
+  ]
+}

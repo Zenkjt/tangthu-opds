@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cidneTDj6dnmhDNVPupb42Fmwl2sJHfu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1I6r432GWhGjmMFXm6-Qv3rumasoJq70B",
+      "parent_id": "1cidneTDj6dnmhDNVPupb42Fmwl2sJHfu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 949,
+      "modified": "2026-08-15T10:06:32.000Z",
+      "checksum": "41503fa5c6c6cdff8ac0d3491c2ce589",
+      "folder": false
+    },
+    {
+      "id": "1wJoakRaSbWMQN4LW3_m2i50Jew2o7uok",
+      "parent_id": "1cidneTDj6dnmhDNVPupb42Fmwl2sJHfu",
+      "name": "TRUYỆN NGẮN CỰC HAY TRUNG QUỐC PHẦN 1.epub",
+      "mime": "application/epub+zip",
+      "size": 604785,
+      "modified": "2026-08-15T10:06:42.000Z",
+      "checksum": "1f5919ae6b4928e65b184841bb444090",
+      "folder": false
+    },
+    {
+      "id": "1VfrsyLAxGbBdvv2m5ICeSaXhaXyQd1dS",
+      "parent_id": "1cidneTDj6dnmhDNVPupb42Fmwl2sJHfu",
+      "name": "TRUYỆN NGẮN CỰC HAY TRUNG QUỐC PHẦN 1.pdf",
+      "mime": "application/pdf",
+      "size": 547448,
+      "modified": "2026-08-15T10:06:36.000Z",
+      "checksum": "a112d1481fc05aeed232fb51c9caf034",
+      "folder": false
+    }
+  ]
+}

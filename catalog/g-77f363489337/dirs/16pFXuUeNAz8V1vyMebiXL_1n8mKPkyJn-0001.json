@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16pFXuUeNAz8V1vyMebiXL_1n8mKPkyJn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bP9Xen43Z5xdy7zv37WEigiHDUhdl9S-",
+      "parent_id": "16pFXuUeNAz8V1vyMebiXL_1n8mKPkyJn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3235,
+      "modified": "2026-08-15T03:36:03.000Z",
+      "checksum": "892c12757451c5363adde3827e24097d",
+      "folder": false
+    },
+    {
+      "id": "1Pwmb1DnS_OUIO5zutB7qYOFad9thKXiI",
+      "parent_id": "16pFXuUeNAz8V1vyMebiXL_1n8mKPkyJn",
+      "name": "KINH KIM CANG.epub",
+      "mime": "application/epub+zip",
+      "size": 223522,
+      "modified": "2026-08-15T03:36:09.000Z",
+      "checksum": "76fac849246e47ae7fad533defe533f8",
+      "folder": false
+    },
+    {
+      "id": "1DSHfIKLvUHxVCoOyLat9cUlLz8SOdh04",
+      "parent_id": "16pFXuUeNAz8V1vyMebiXL_1n8mKPkyJn",
+      "name": "KINH KIM CANG.pdf",
+      "mime": "application/pdf",
+      "size": 934160,
+      "modified": "2026-08-15T03:36:07.000Z",
+      "checksum": "4d5c9713d4b85753d89bf7cbff619ef3",
+      "folder": false
+    }
+  ]
+}

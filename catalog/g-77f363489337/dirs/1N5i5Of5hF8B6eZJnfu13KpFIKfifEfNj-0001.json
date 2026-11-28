@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1N5i5Of5hF8B6eZJnfu13KpFIKfifEfNj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HkCL63wleHQF5_IStNheCVKqEiartf4i",
+      "parent_id": "1N5i5Of5hF8B6eZJnfu13KpFIKfifEfNj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7923,
+      "modified": "2026-08-15T03:25:27.000Z",
+      "checksum": "a1b6d80cb30869a1c039a8a32e7e3429",
+      "folder": false
+    },
+    {
+      "id": "1NMw51GZd_D5HOBOom5N1vbN1rTACgsDI",
+      "parent_id": "1N5i5Of5hF8B6eZJnfu13KpFIKfifEfNj",
+      "name": "IM LẶNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1421121,
+      "modified": "2026-08-15T03:25:35.000Z",
+      "checksum": "a2c49a427b942b70b15442bbbe3fde5d",
+      "folder": false
+    },
+    {
+      "id": "1PPDL34ip4zsoBZw6t6-yMfVk7bLAnsbG",
+      "parent_id": "1N5i5Of5hF8B6eZJnfu13KpFIKfifEfNj",
+      "name": "IM LẶNG.pdf",
+      "mime": "application/pdf",
+      "size": 3154526,
+      "modified": "2026-08-15T03:25:32.000Z",
+      "checksum": "bf2c8c9d42aabc6cc4302297dadba2a2",
+      "folder": false
+    }
+  ]
+}

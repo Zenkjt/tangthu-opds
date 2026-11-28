@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1B9a_D0cvtNXeaovpC8AiK7DY3rZz_O_R",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nMEd9IvF9lpUxhJIdLirXaBdJA6h_eJK",
+      "parent_id": "1B9a_D0cvtNXeaovpC8AiK7DY3rZz_O_R",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3017,
+      "modified": "2026-08-16T03:56:10.000Z",
+      "checksum": "64e92aaa70a4b4b8583d771182a24525",
+      "folder": false
+    },
+    {
+      "id": "1PcJHxT7DmZWgSmgOmxNcKFnKHtbfRQ9i",
+      "parent_id": "1B9a_D0cvtNXeaovpC8AiK7DY3rZz_O_R",
+      "name": "THỦY TRIỀU BÓNG TỐI.epub",
+      "mime": "application/epub+zip",
+      "size": 562274,
+      "modified": "2026-08-16T03:56:16.000Z",
+      "checksum": "13a841e4315af37c2761b560b29ba1dd",
+      "folder": false
+    },
+    {
+      "id": "1jkkPTlnHWYziy6GNnpfVrtQnTqrz4vU5",
+      "parent_id": "1B9a_D0cvtNXeaovpC8AiK7DY3rZz_O_R",
+      "name": "THỦY TRIỀU BÓNG TỐI.pdf",
+      "mime": "application/pdf",
+      "size": 1050467,
+      "modified": "2026-08-16T03:56:13.000Z",
+      "checksum": "69960146387ff38c7ee366a071a262a4",
+      "folder": false
+    }
+  ]
+}

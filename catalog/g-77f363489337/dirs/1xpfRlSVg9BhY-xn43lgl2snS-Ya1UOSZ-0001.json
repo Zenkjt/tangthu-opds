@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xpfRlSVg9BhY-xn43lgl2snS-Ya1UOSZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "168G220hllhj5y6WKDwf9P66I0VeZpBDk",
+      "parent_id": "1xpfRlSVg9BhY-xn43lgl2snS-Ya1UOSZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 538,
+      "modified": "2026-08-15T10:24:19.000Z",
+      "checksum": "0efbae9651d8de6cfca3bbcc01880381",
+      "folder": false
+    },
+    {
+      "id": "190LFnJp2uJda9DudF8H15TryhJRI3_i7",
+      "parent_id": "1xpfRlSVg9BhY-xn43lgl2snS-Ya1UOSZ",
+      "name": "T MẤT TÍCH.epub",
+      "mime": "application/epub+zip",
+      "size": 351069,
+      "modified": "2026-08-15T10:24:27.000Z",
+      "checksum": "68bb0a981a88377dd895bd7b9b306e04",
+      "folder": false
+    },
+    {
+      "id": "1r65johTNs4PtnnJbrDFTvJE_jdZ0m8gr",
+      "parent_id": "1xpfRlSVg9BhY-xn43lgl2snS-Ya1UOSZ",
+      "name": "T MẤT TÍCH.pdf",
+      "mime": "application/pdf",
+      "size": 704789,
+      "modified": "2026-08-15T10:24:25.000Z",
+      "checksum": "03331aa5f477b53e810495e5c8eeeda7",
+      "folder": false
+    }
+  ]
+}

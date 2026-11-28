@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hCN3FQ32Xl7V1P18WFxnvox3RUy1K_Mc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iIJT2vCBlVqxwUjPmoQJCEgjHSlVUlsD",
+      "parent_id": "1hCN3FQ32Xl7V1P18WFxnvox3RUy1K_Mc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2691,
+      "modified": "2026-08-15T07:41:51.000Z",
+      "checksum": "d627deb55708426cd2871ac188697743",
+      "folder": false
+    },
+    {
+      "id": "1wdT3Hkzbg6KGK3ZJ2bmwWx6L2obw4pZm",
+      "parent_id": "1hCN3FQ32Xl7V1P18WFxnvox3RUy1K_Mc",
+      "name": "NAM THẦN BIẾN THÀNH CÚN.epub",
+      "mime": "application/epub+zip",
+      "size": 621308,
+      "modified": "2026-08-15T07:41:58.000Z",
+      "checksum": "847dcd7be9979756aaa1d663e9df9ecf",
+      "folder": false
+    },
+    {
+      "id": "1S0hkz65h5yVu4LwmO7ZzqxFI-Vfz2Ymd",
+      "parent_id": "1hCN3FQ32Xl7V1P18WFxnvox3RUy1K_Mc",
+      "name": "NAM THẦN BIẾN THÀNH CÚN.pdf",
+      "mime": "application/pdf",
+      "size": 1512546,
+      "modified": "2026-08-15T07:41:55.000Z",
+      "checksum": "a0f9c80fa831d6c3dfea3cf45a8f44be",
+      "folder": false
+    }
+  ]
+}

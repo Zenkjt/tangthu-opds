@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ImhlwrsfsdLYM_Mv4AA_8Yor-Wbd9oeh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bRDlrUizYEioWwAVhQU6_7zZcYpLCh40",
+      "parent_id": "1ImhlwrsfsdLYM_Mv4AA_8Yor-Wbd9oeh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2879,
+      "modified": "2026-08-15T04:00:50.000Z",
+      "checksum": "ba6cbce94680d4896d8e1f07630cb09a",
+      "folder": false
+    },
+    {
+      "id": "1rHFKINYqJJrLF7p5qlRy7g3eIbcedetC",
+      "parent_id": "1ImhlwrsfsdLYM_Mv4AA_8Yor-Wbd9oeh",
+      "name": "THỨC DẬY VÀ MƠ ĐI.epub",
+      "mime": "application/epub+zip",
+      "size": 1048353,
+      "modified": "2026-08-15T04:00:58.000Z",
+      "checksum": "230da019a4a0c251e95c922006c85d2a",
+      "folder": false
+    },
+    {
+      "id": "1wc20657E9iGrchFUU2mT2oOyW5wXJvaB",
+      "parent_id": "1ImhlwrsfsdLYM_Mv4AA_8Yor-Wbd9oeh",
+      "name": "THỨC DẬY VÀ MƠ ĐI.pdf",
+      "mime": "application/pdf",
+      "size": 2041787,
+      "modified": "2026-08-15T04:00:55.000Z",
+      "checksum": "24d7c2d294a40c22b2dfe68f916110e7",
+      "folder": false
+    }
+  ]
+}

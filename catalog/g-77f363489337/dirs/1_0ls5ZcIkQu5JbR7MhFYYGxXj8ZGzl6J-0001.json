@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_0ls5ZcIkQu5JbR7MhFYYGxXj8ZGzl6J",
+  "page": 1,
+  "items": [
+    {
+      "id": "1y14EGNYYF2dFHE7tAYlJ0hr1zbT0vlsD",
+      "parent_id": "1_0ls5ZcIkQu5JbR7MhFYYGxXj8ZGzl6J",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1792,
+      "modified": "2026-08-15T09:52:09.000Z",
+      "checksum": "ed1effb7e291794b86e4a5353703addb",
+      "folder": false
+    },
+    {
+      "id": "1KblzOhbKlVM2LFYhzbRiFkejDNKVvlFu",
+      "parent_id": "1_0ls5ZcIkQu5JbR7MhFYYGxXj8ZGzl6J",
+      "name": "ĐÊM ẢO TƯỞNG.epub",
+      "mime": "application/epub+zip",
+      "size": 310765,
+      "modified": "2026-08-15T09:52:17.000Z",
+      "checksum": "fb756d21cf80aa400a17b262906c4dec",
+      "folder": false
+    },
+    {
+      "id": "1hDyeHMKrbfuGXFt5INqpJt_28N12mwXR",
+      "parent_id": "1_0ls5ZcIkQu5JbR7MhFYYGxXj8ZGzl6J",
+      "name": "ĐÊM ẢO TƯỞNG.pdf",
+      "mime": "application/pdf",
+      "size": 529534,
+      "modified": "2026-08-15T09:52:14.000Z",
+      "checksum": "cfc7cbaf4ba68dba6611e66326adcc40",
+      "folder": false
+    }
+  ]
+}

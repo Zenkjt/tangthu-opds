@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Zyw0bjjEhyMNFZ7QakAmTS_KqLH5kAvz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Rvqd6vnGqY_9iQWk0MelgrWhrk9xkFcH",
+      "parent_id": "1Zyw0bjjEhyMNFZ7QakAmTS_KqLH5kAvz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3708,
+      "modified": "2026-08-15T03:58:42.000Z",
+      "checksum": "a59fc78d7b47ce68eba90cc687a58c5a",
+      "folder": false
+    },
+    {
+      "id": "1fHtMWav2sAkM0JkyasbJwazjS0SJQcyP",
+      "parent_id": "1Zyw0bjjEhyMNFZ7QakAmTS_KqLH5kAvz",
+      "name": "TRỊ LIỆU HUYỀN MÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 766977,
+      "modified": "2026-08-15T03:58:52.000Z",
+      "checksum": "7a48a693bbf9d2854c987d46d4074ca5",
+      "folder": false
+    },
+    {
+      "id": "1JISA1XHz3vyabUAMvt5Zq5HpmnUZylU0",
+      "parent_id": "1Zyw0bjjEhyMNFZ7QakAmTS_KqLH5kAvz",
+      "name": "TRỊ LIỆU HUYỀN MÔN.pdf",
+      "mime": "application/pdf",
+      "size": 4212029,
+      "modified": "2026-08-15T03:58:49.000Z",
+      "checksum": "eee93dfa9420603f7ae418bcee6153fd",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZhHuoL7-u3x615wr0XhDDacmLr3ytjgw",
+  "page": 1,
+  "items": [
+    {
+      "id": "17ubL0J9t7ByfVw2st9X1MJvjtfPqyEPp",
+      "parent_id": "1ZhHuoL7-u3x615wr0XhDDacmLr3ytjgw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2804,
+      "modified": "2026-08-15T10:10:34.000Z",
+      "checksum": "f90a99198044ce4062689aadadf4ebf5",
+      "folder": false
+    },
+    {
+      "id": "1Fb_BtafBaWRNSKahjrKzVdZ5tHvpF7gk",
+      "parent_id": "1ZhHuoL7-u3x615wr0XhDDacmLr3ytjgw",
+      "name": "TIÊN THẦN DỊCH.epub",
+      "mime": "application/epub+zip",
+      "size": 2278002,
+      "modified": "2026-08-15T10:10:53.000Z",
+      "checksum": "9c3224219641b7173c4df1079a3bd3aa",
+      "folder": false
+    },
+    {
+      "id": "1oguMV5s1zBCzB8gAPHs0G4DIJrbRvQMY",
+      "parent_id": "1ZhHuoL7-u3x615wr0XhDDacmLr3ytjgw",
+      "name": "TIÊN THẦN DỊCH.pdf",
+      "mime": "application/pdf",
+      "size": 10298104,
+      "modified": "2026-08-15T10:10:49.000Z",
+      "checksum": "eff61393018bf9a282897f2c8c7bd52f",
+      "folder": false
+    }
+  ]
+}

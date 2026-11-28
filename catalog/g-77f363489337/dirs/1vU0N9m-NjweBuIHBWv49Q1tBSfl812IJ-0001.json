@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vU0N9m-NjweBuIHBWv49Q1tBSfl812IJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LD4idHW1d3oV0Dta4mkxfGJFdKozpoZb",
+      "parent_id": "1vU0N9m-NjweBuIHBWv49Q1tBSfl812IJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4298,
+      "modified": "2026-08-15T03:20:01.000Z",
+      "checksum": "2b3fb4242a8319568bb341fe596bf8fc",
+      "folder": false
+    },
+    {
+      "id": "1zdV14BZutQPnErKsU0RmMZMwTjTydvXX",
+      "parent_id": "1vU0N9m-NjweBuIHBWv49Q1tBSfl812IJ",
+      "name": "SỨC MẠNH CỦA ĐIỂM DỪNG.epub",
+      "mime": "application/epub+zip",
+      "size": 9143157,
+      "modified": "2026-08-15T03:20:08.000Z",
+      "checksum": "a8e47c63481d7ee885da5563b2c7bf38",
+      "folder": false
+    },
+    {
+      "id": "1k6ish907pNbQqPFT0ZYIt06idogKyJ8S",
+      "parent_id": "1vU0N9m-NjweBuIHBWv49Q1tBSfl812IJ",
+      "name": "SỨC MẠNH CỦA ĐIỂM DỪNG.pdf",
+      "mime": "application/pdf",
+      "size": 5795781,
+      "modified": "2026-08-15T03:20:05.000Z",
+      "checksum": "a78608ede6df2bc5121a077e7e87feda",
+      "folder": false
+    }
+  ]
+}

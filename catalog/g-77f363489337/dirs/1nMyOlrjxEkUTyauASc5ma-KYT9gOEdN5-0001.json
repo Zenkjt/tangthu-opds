@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nMyOlrjxEkUTyauASc5ma-KYT9gOEdN5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CIgEL1dItPUeGJb6ptv7Jtk37-l6AM6V",
+      "parent_id": "1nMyOlrjxEkUTyauASc5ma-KYT9gOEdN5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3496,
+      "modified": "2026-08-15T15:16:15.000Z",
+      "checksum": "79351cf07c9f90f8d84ecb903b57721b",
+      "folder": false
+    },
+    {
+      "id": "1bawvSnlsDuD1hHpMl_A22062MgPKynAm",
+      "parent_id": "1nMyOlrjxEkUTyauASc5ma-KYT9gOEdN5",
+      "name": "ĐÊM ĐẪM MÁU.epub",
+      "mime": "application/epub+zip",
+      "size": 596105,
+      "modified": "2026-08-15T15:16:26.000Z",
+      "checksum": "25014d1a83d8851b1f6c71023af4b231",
+      "folder": false
+    },
+    {
+      "id": "1dbj1HllKWdEh9_8WMkR4IuVg8DPv4LrN",
+      "parent_id": "1nMyOlrjxEkUTyauASc5ma-KYT9gOEdN5",
+      "name": "ĐÊM ĐẪM MÁU.pdf",
+      "mime": "application/pdf",
+      "size": 2180364,
+      "modified": "2026-08-15T15:16:24.000Z",
+      "checksum": "af96a87bd98733750446ff164010158c",
+      "folder": false
+    }
+  ]
+}

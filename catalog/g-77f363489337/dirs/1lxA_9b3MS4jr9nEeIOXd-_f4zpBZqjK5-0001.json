@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lxA_9b3MS4jr9nEeIOXd-_f4zpBZqjK5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KNSvF9R9WmRpTZCRSYpIrE__YSc3QXSm",
+      "parent_id": "1lxA_9b3MS4jr9nEeIOXd-_f4zpBZqjK5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4525,
+      "modified": "2026-08-16T03:39:29.000Z",
+      "checksum": "86594ba74fdc13e1d4fd71d0c6a17bb9",
+      "folder": false
+    },
+    {
+      "id": "1rm9UFaj_f-o6G9b7fC5yAXOFvFY6-paM",
+      "parent_id": "1lxA_9b3MS4jr9nEeIOXd-_f4zpBZqjK5",
+      "name": "INCARCERON.epub",
+      "mime": "application/epub+zip",
+      "size": 673095,
+      "modified": "2026-08-16T03:39:37.000Z",
+      "checksum": "0ffcda19fcb2bea51e6e49b24b744155",
+      "folder": false
+    },
+    {
+      "id": "10vxjlHYMp-wUDk-zHgljYVzNx4ZOqmep",
+      "parent_id": "1lxA_9b3MS4jr9nEeIOXd-_f4zpBZqjK5",
+      "name": "INCARCERON.pdf",
+      "mime": "application/pdf",
+      "size": 1473382,
+      "modified": "2026-08-16T03:39:35.000Z",
+      "checksum": "0e7d7151ceb7fd4c4445bf8340941aae",
+      "folder": false
+    }
+  ]
+}

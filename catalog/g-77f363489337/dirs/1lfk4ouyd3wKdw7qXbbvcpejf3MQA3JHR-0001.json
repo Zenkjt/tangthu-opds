@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lfk4ouyd3wKdw7qXbbvcpejf3MQA3JHR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1r6hBtOiXUjLQY_QyCDc9R3DaSM7WyqgX",
+      "parent_id": "1lfk4ouyd3wKdw7qXbbvcpejf3MQA3JHR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 465,
+      "modified": "2026-08-16T04:17:40.000Z",
+      "checksum": "1b7e18d18a523e43e048869d2d343db1",
+      "folder": false
+    },
+    {
+      "id": "1VuDE9Nbtsh4HnVsAJ5ZwFxOzFubPsI2q",
+      "parent_id": "1lfk4ouyd3wKdw7qXbbvcpejf3MQA3JHR",
+      "name": "MỘT NỬA HỒN TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 274584,
+      "modified": "2026-08-16T04:17:46.000Z",
+      "checksum": "360921759e3b9d2e11e4c0533659c490",
+      "folder": false
+    },
+    {
+      "id": "1wGaPSWapnfr1fjpeikQnco9HcDWXcoz3",
+      "parent_id": "1lfk4ouyd3wKdw7qXbbvcpejf3MQA3JHR",
+      "name": "MỘT NỬA HỒN TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 146020,
+      "modified": "2026-08-16T04:17:43.000Z",
+      "checksum": "ae8d93d5430598310a2b0e4fc8d4fde3",
+      "folder": false
+    }
+  ]
+}

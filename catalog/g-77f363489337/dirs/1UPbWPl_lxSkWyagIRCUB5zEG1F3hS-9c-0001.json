@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UPbWPl_lxSkWyagIRCUB5zEG1F3hS-9c",
+  "page": 1,
+  "items": [
+    {
+      "id": "1g6oyabmcs1zsekTuR5BCLDTrVpLKwnzY",
+      "parent_id": "1UPbWPl_lxSkWyagIRCUB5zEG1F3hS-9c",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1560,
+      "modified": "2026-08-15T09:42:12.000Z",
+      "checksum": "1772ed6ccc944f8ae6b87e56d3f98424",
+      "folder": false
+    },
+    {
+      "id": "13rTGhlThBrsGT_NKS7ZiVbB4gC5-Ar0S",
+      "parent_id": "1UPbWPl_lxSkWyagIRCUB5zEG1F3hS-9c",
+      "name": "LƯỠNG TRỌNG THIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 471714,
+      "modified": "2026-08-15T09:42:19.000Z",
+      "checksum": "54c93f117cdb93e6e34af1ca88e3ad51",
+      "folder": false
+    },
+    {
+      "id": "1ISPdO9T6izhOSdJ3AWSSGGld1POR7A8W",
+      "parent_id": "1UPbWPl_lxSkWyagIRCUB5zEG1F3hS-9c",
+      "name": "LƯỠNG TRỌNG THIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 682378,
+      "modified": "2026-08-15T09:42:16.000Z",
+      "checksum": "7fa825a6c7072cac152cb01e115824fa",
+      "folder": false
+    }
+  ]
+}

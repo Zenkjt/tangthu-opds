@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10QBjL9-tkRBt9_NEQc_YRQqCmh82z8gM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-WQZdxcXAZrTRbfgM1jnKfHyk3d3l_ov",
+      "parent_id": "10QBjL9-tkRBt9_NEQc_YRQqCmh82z8gM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2156,
+      "modified": "2026-08-16T03:07:58.000Z",
+      "checksum": "e685b8deeac496cc5bcc15f6f247863c",
+      "folder": false
+    },
+    {
+      "id": "1DVXvkajIfiMN-rwJKJkIYWF0ey-ycChe",
+      "parent_id": "10QBjL9-tkRBt9_NEQc_YRQqCmh82z8gM",
+      "name": "ĐIỆP VỤ THÀNH BAGHDAD.epub",
+      "mime": "application/epub+zip",
+      "size": 471256,
+      "modified": "2026-08-16T03:08:05.000Z",
+      "checksum": "335cbea50372ddd4c95a737158902610",
+      "folder": false
+    },
+    {
+      "id": "1Zd_0UfuK-ItHEzkFOHkx8SKbTktayBYP",
+      "parent_id": "10QBjL9-tkRBt9_NEQc_YRQqCmh82z8gM",
+      "name": "ĐIỆP VỤ THÀNH BAGHDAD.pdf",
+      "mime": "application/pdf",
+      "size": 868400,
+      "modified": "2026-08-16T03:08:02.000Z",
+      "checksum": "cc51f870f41053a628a7878e49dc0809",
+      "folder": false
+    }
+  ]
+}

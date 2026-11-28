@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Fs4CMhdTsnluIiT6N8unSGm3pL1kVDC3",
+  "page": 1,
+  "items": [
+    {
+      "id": "158FB5uTyKaGvN_WogymCP5fEMIX4O6GC",
+      "parent_id": "1Fs4CMhdTsnluIiT6N8unSGm3pL1kVDC3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6986,
+      "modified": "2026-08-15T09:47:36.000Z",
+      "checksum": "561bebd16f857e8b879e2ed331c9cda4",
+      "folder": false
+    },
+    {
+      "id": "1evU1XXiTeYaUytYZQ6xw_h3QJF3X1tOA",
+      "parent_id": "1Fs4CMhdTsnluIiT6N8unSGm3pL1kVDC3",
+      "name": "IMI - TIÊN GIỚI CHIẾN.epub",
+      "mime": "application/epub+zip",
+      "size": 3800691,
+      "modified": "2026-08-15T09:47:47.000Z",
+      "checksum": "6fa24caaabb15d6ba46dfc5ae2af1169",
+      "folder": false
+    },
+    {
+      "id": "1F0H3XRtvS1ffb8ocDQrbyR8N5pZ5loA0",
+      "parent_id": "1Fs4CMhdTsnluIiT6N8unSGm3pL1kVDC3",
+      "name": "IMI - TIÊN GIỚI CHIẾN.pdf",
+      "mime": "application/pdf",
+      "size": 4759758,
+      "modified": "2026-08-15T09:47:43.000Z",
+      "checksum": "69d61b8e3bf4e12c79d67b6bbea722ec",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "122jVHXAuinG2C48xx5OINRmnMk3PC3hh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dyqb7Awt8dOFNGeondjKxiDm38YB5itN",
+      "parent_id": "122jVHXAuinG2C48xx5OINRmnMk3PC3hh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1673,
+      "modified": "2026-08-15T04:01:02.000Z",
+      "checksum": "ff3e490e14a9da3d25872af583304403",
+      "folder": false
+    },
+    {
+      "id": "1Eb5LdCi5rUsJbLQa2ZJtgc5FIlUp_otv",
+      "parent_id": "122jVHXAuinG2C48xx5OINRmnMk3PC3hh",
+      "name": "VỚI TỪNG MỖI HƠI THỞ.epub",
+      "mime": "application/epub+zip",
+      "size": 295506,
+      "modified": "2026-08-15T04:01:10.000Z",
+      "checksum": "36e1140c711c1e16e62f79cea40605ca",
+      "folder": false
+    },
+    {
+      "id": "1S7z9wfGUshYf7emi0jQVfg3wr5Ef3yet",
+      "parent_id": "122jVHXAuinG2C48xx5OINRmnMk3PC3hh",
+      "name": "VỚI TỪNG MỖI HƠI THỞ.pdf",
+      "mime": "application/pdf",
+      "size": 1763689,
+      "modified": "2026-08-15T04:01:08.000Z",
+      "checksum": "d9cc988984682b3582d63a709e5e8fcf",
+      "folder": false
+    }
+  ]
+}

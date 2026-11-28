@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cvHjGuZfugTB2Dy9h4wpd_vdAIYCUPtV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kn5-9TNY2pVfKquhtlB7EPO-JmKv21fZ",
+      "parent_id": "1cvHjGuZfugTB2Dy9h4wpd_vdAIYCUPtV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2330,
+      "modified": "2026-08-15T07:27:59.000Z",
+      "checksum": "51139c3d00e6990511c62d494d476ad4",
+      "folder": false
+    },
+    {
+      "id": "1KfpGPL2fSSHAjtRyQcE5XeoS0BhEo625",
+      "parent_id": "1cvHjGuZfugTB2Dy9h4wpd_vdAIYCUPtV",
+      "name": "VĨNH HẰNG CHI MỘNG.epub",
+      "mime": "application/epub+zip",
+      "size": 2185860,
+      "modified": "2026-08-15T07:28:30.000Z",
+      "checksum": "e6bc00401daba6a1c5c59412e30a0faf",
+      "folder": false
+    },
+    {
+      "id": "1dBnfjGgDxq26T8ZTnyvr3jtO051CUKpQ",
+      "parent_id": "1cvHjGuZfugTB2Dy9h4wpd_vdAIYCUPtV",
+      "name": "VĨNH HẰNG CHI MỘNG.pdf",
+      "mime": "application/pdf",
+      "size": 9980808,
+      "modified": "2026-08-15T07:28:24.000Z",
+      "checksum": "ece70e288d5745b556de844dcbfb65a0",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fOhCJJWsfX5EXY2RqowWb-TnZaQ30wTb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XYoBNL_yM-iZ6rKW8-C8Kp2LvlE21stZ",
+      "parent_id": "1fOhCJJWsfX5EXY2RqowWb-TnZaQ30wTb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 725,
+      "modified": "2026-08-16T04:10:03.000Z",
+      "checksum": "30dbd446fd2697e1ef143ab52592c583",
+      "folder": false
+    },
+    {
+      "id": "1eYfY6JZfX0xqJhjJJNZDFFxMNlfYV4_d",
+      "parent_id": "1fOhCJJWsfX5EXY2RqowWb-TnZaQ30wTb",
+      "name": "NHỮNG CUỘC PL CỦA ARSENE LUPIN.epub",
+      "mime": "application/epub+zip",
+      "size": 349568,
+      "modified": "2026-08-16T04:10:10.000Z",
+      "checksum": "22c7be4d081b45179cce31a2f31338ff",
+      "folder": false
+    },
+    {
+      "id": "1II92Sa_Nxp5CBblHOnXMxARD2TMy9guu",
+      "parent_id": "1fOhCJJWsfX5EXY2RqowWb-TnZaQ30wTb",
+      "name": "NHỮNG CUỘC PL CỦA ARSENE LUPIN.pdf",
+      "mime": "application/pdf",
+      "size": 755289,
+      "modified": "2026-08-16T04:10:07.000Z",
+      "checksum": "3dfcb6e9b62e21eb9fff56c3fe9e247b",
+      "folder": false
+    }
+  ]
+}

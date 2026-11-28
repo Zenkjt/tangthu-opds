@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GBwa8rq9U4v5NXkBmq8MURNYxX512aaE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EXlIvnypiS-PSIER7Mcy7qLnhKqUGLdz",
+      "parent_id": "1GBwa8rq9U4v5NXkBmq8MURNYxX512aaE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2674,
+      "modified": "2026-08-15T15:31:06.000Z",
+      "checksum": "8ec64a0790e21401de968a865b6c8d91",
+      "folder": false
+    },
+    {
+      "id": "1Q6wnoTJSiuINaEoBaKpyscI1I606SsGs",
+      "parent_id": "1GBwa8rq9U4v5NXkBmq8MURNYxX512aaE",
+      "name": "TRẠI HOA ĐỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 687433,
+      "modified": "2026-08-15T15:31:13.000Z",
+      "checksum": "e658fafd610bfb2ea91a04677ac276d6",
+      "folder": false
+    },
+    {
+      "id": "1QYZoXWU900sq2z5N1XrA42587NbZHBBb",
+      "parent_id": "1GBwa8rq9U4v5NXkBmq8MURNYxX512aaE",
+      "name": "TRẠI HOA ĐỎ.pdf",
+      "mime": "application/pdf",
+      "size": 1648885,
+      "modified": "2026-08-15T15:31:11.000Z",
+      "checksum": "8affd20e54f4b77838b59edd113542fb",
+      "folder": false
+    }
+  ]
+}

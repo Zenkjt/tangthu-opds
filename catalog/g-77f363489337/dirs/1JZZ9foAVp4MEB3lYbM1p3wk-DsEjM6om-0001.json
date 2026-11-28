@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JZZ9foAVp4MEB3lYbM1p3wk-DsEjM6om",
+  "page": 1,
+  "items": [
+    {
+      "id": "17pwxfSuc_QBTyurpkS4hde_WRGdK8_V4",
+      "parent_id": "1JZZ9foAVp4MEB3lYbM1p3wk-DsEjM6om",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 477,
+      "modified": "2026-08-15T15:40:48.000Z",
+      "checksum": "292363195507b5296463079649737cb9",
+      "folder": false
+    },
+    {
+      "id": "1rzkyGCxfGwzQe9EfCig5GitDPN1vSFfm",
+      "parent_id": "1JZZ9foAVp4MEB3lYbM1p3wk-DsEjM6om",
+      "name": "GIẤC MƠ BỊ ĐÁNH CẮP.epub",
+      "mime": "application/epub+zip",
+      "size": 670894,
+      "modified": "2026-08-15T15:40:56.000Z",
+      "checksum": "de4b58708befa3cc2077b07b421ce34e",
+      "folder": false
+    },
+    {
+      "id": "1hNlHvVP5g7cSVBJtBSYJhZa_VTOdqDlR",
+      "parent_id": "1JZZ9foAVp4MEB3lYbM1p3wk-DsEjM6om",
+      "name": "GIẤC MƠ BỊ ĐÁNH CẮP.pdf",
+      "mime": "application/pdf",
+      "size": 1546377,
+      "modified": "2026-08-15T15:40:53.000Z",
+      "checksum": "afedfec19290a69bdf4fddc8f9319234",
+      "folder": false
+    }
+  ]
+}

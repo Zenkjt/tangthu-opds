@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xDkFZPNuQvJCNVLDaZcfg5Ak3LkXIX2e",
+  "page": 1,
+  "items": [
+    {
+      "id": "1clxi02OKJOZL4eCii7NklbXUbhcTaBUM",
+      "parent_id": "1xDkFZPNuQvJCNVLDaZcfg5Ak3LkXIX2e",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8203,
+      "modified": "2026-08-15T09:37:30.000Z",
+      "checksum": "1b08f9afdca8f18c676a3d148039e3d8",
+      "folder": false
+    },
+    {
+      "id": "1CJzQEe4WkookG992bXsmkUFjBr8HWDJX",
+      "parent_id": "1xDkFZPNuQvJCNVLDaZcfg5Ak3LkXIX2e",
+      "name": "TIẾNG GỌI NƠI HOANG DÃ.epub",
+      "mime": "application/epub+zip",
+      "size": 235630,
+      "modified": "2026-08-15T09:38:04.000Z",
+      "checksum": "c220cce6401c87fb7d0ab04cda358eaa",
+      "folder": false
+    },
+    {
+      "id": "1RwZF7mDzsAcvQJm5hAUfQwwD4n7T4Ckh",
+      "parent_id": "1xDkFZPNuQvJCNVLDaZcfg5Ak3LkXIX2e",
+      "name": "TIẾNG GỌI NƠI HOANG DÃ.pdf",
+      "mime": "application/pdf",
+      "size": 1186895,
+      "modified": "2026-08-15T09:38:01.000Z",
+      "checksum": "98c5fb8e9d81df663e1d9f5ac8497af4",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TgkXMRDes7xG8VbA6U8RfkVkb7I5UDBX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dgju-zve894TxE1oRkHcr7zhk_YGOIQJ",
+      "parent_id": "1TgkXMRDes7xG8VbA6U8RfkVkb7I5UDBX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2682,
+      "modified": "2026-08-15T07:34:05.000Z",
+      "checksum": "29af5d04e3ad52504c1ea3102011fa63",
+      "folder": false
+    },
+    {
+      "id": "1tQ3Rua2jsaHJImb6Ts4_JbImsaJzcNJ-",
+      "parent_id": "1TgkXMRDes7xG8VbA6U8RfkVkb7I5UDBX",
+      "name": "VIỆT NAM THI NHÂN TIỀN CHIẾN.epub",
+      "mime": "application/epub+zip",
+      "size": 683964,
+      "modified": "2026-08-15T07:34:13.000Z",
+      "checksum": "e2dc29139aaaa6e6ccf4ed92047d4809",
+      "folder": false
+    },
+    {
+      "id": "19gDr6nuiELVVh7sC0aXAs3GOO2F1_AI0",
+      "parent_id": "1TgkXMRDes7xG8VbA6U8RfkVkb7I5UDBX",
+      "name": "VIỆT NAM THI NHÂN TIỀN CHIẾN.pdf",
+      "mime": "application/pdf",
+      "size": 2357445,
+      "modified": "2026-08-15T07:34:10.000Z",
+      "checksum": "3a5af41fa88a8796be7e69ee4fcb3def",
+      "folder": false
+    }
+  ]
+}

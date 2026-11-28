@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TD6KCOatjAV0FE5IfwXYXvgpt9DPjF2k",
+  "page": 1,
+  "items": [
+    {
+      "id": "1y1a3JxuKBfEQ2T5V1bFnS5388nc-O6xq",
+      "parent_id": "1TD6KCOatjAV0FE5IfwXYXvgpt9DPjF2k",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3385,
+      "modified": "2026-08-15T07:27:26.000Z",
+      "checksum": "58760722bc4f880629f6cef8d8d84c52",
+      "folder": false
+    },
+    {
+      "id": "1a4WNTlII4Xj63bqTPMIwqfNzfex5Of09",
+      "parent_id": "1TD6KCOatjAV0FE5IfwXYXvgpt9DPjF2k",
+      "name": "VÌ ĐÓ LÀ EM.epub",
+      "mime": "application/epub+zip",
+      "size": 918457,
+      "modified": "2026-08-15T07:27:37.000Z",
+      "checksum": "e8a2fcbeb75ebe2d4992aee07161c76c",
+      "folder": false
+    },
+    {
+      "id": "1EvjGNx3QChm571P7tbmqv1ZpycFzwFLk",
+      "parent_id": "1TD6KCOatjAV0FE5IfwXYXvgpt9DPjF2k",
+      "name": "VÌ ĐÓ LÀ EM.pdf",
+      "mime": "application/pdf",
+      "size": 1318902,
+      "modified": "2026-08-15T07:27:32.000Z",
+      "checksum": "e8d97c87e35b168f3f3f4c3ab607f820",
+      "folder": false
+    }
+  ]
+}

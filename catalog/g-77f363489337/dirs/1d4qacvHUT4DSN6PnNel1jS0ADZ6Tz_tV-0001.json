@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d4qacvHUT4DSN6PnNel1jS0ADZ6Tz_tV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1njzXNJukqkvf4cbdgngBSYZu_dO4GKzr",
+      "parent_id": "1d4qacvHUT4DSN6PnNel1jS0ADZ6Tz_tV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3631,
+      "modified": "2026-08-15T09:49:13.000Z",
+      "checksum": "d58cc4b14500895c367761cd961e9992",
+      "folder": false
+    },
+    {
+      "id": "1A4Bmo_b7UIQ1oHghJnMNifoeFJg4bQ2s",
+      "parent_id": "1d4qacvHUT4DSN6PnNel1jS0ADZ6Tz_tV",
+      "name": "HÁN HỌC DANH NGÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 296156,
+      "modified": "2026-08-15T09:49:18.000Z",
+      "checksum": "3d6c0ca3f1196c1d215826301a8c7f2f",
+      "folder": false
+    },
+    {
+      "id": "1uG1rGR0GDbBpLovj2df5h1ADpV3AQrci",
+      "parent_id": "1d4qacvHUT4DSN6PnNel1jS0ADZ6Tz_tV",
+      "name": "HÁN HỌC DANH NGÔN.pdf",
+      "mime": "application/pdf",
+      "size": 539595,
+      "modified": "2026-08-15T09:49:16.000Z",
+      "checksum": "570a29a71ba299d653152d0544b62b9d",
+      "folder": false
+    }
+  ]
+}

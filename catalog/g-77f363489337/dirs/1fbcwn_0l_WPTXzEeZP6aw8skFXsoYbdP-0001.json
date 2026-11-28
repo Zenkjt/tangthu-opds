@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fbcwn_0l_WPTXzEeZP6aw8skFXsoYbdP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Cqig_5-xJnLCyAtvbogKKSzP6q9WzZtm",
+      "parent_id": "1fbcwn_0l_WPTXzEeZP6aw8skFXsoYbdP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 712,
+      "modified": "2026-08-15T15:40:58.000Z",
+      "checksum": "ae7f966b626273aec2697ab82972d02f",
+      "folder": false
+    },
+    {
+      "id": "1dCTPXcSwvtMJWo-SpIX0taFOIbLV80uP",
+      "parent_id": "1fbcwn_0l_WPTXzEeZP6aw8skFXsoYbdP",
+      "name": "ĐIỀU LỆNH THỨ 11.epub",
+      "mime": "application/epub+zip",
+      "size": 743318,
+      "modified": "2026-08-15T15:41:08.000Z",
+      "checksum": "188e3301f31e6fa44f9a34934d2fb176",
+      "folder": false
+    },
+    {
+      "id": "157HJ8sbn7oZxCxLCdLN1IKWRBlVYKjpz",
+      "parent_id": "1fbcwn_0l_WPTXzEeZP6aw8skFXsoYbdP",
+      "name": "ĐIỀU LỆNH THỨ 11.pdf",
+      "mime": "application/pdf",
+      "size": 1402423,
+      "modified": "2026-08-15T15:41:03.000Z",
+      "checksum": "e1c7de6f9cf4a55159d6da4439f74792",
+      "folder": false
+    }
+  ]
+}

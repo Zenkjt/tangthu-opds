@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16aXAM4nH4F2baalMht7o-UfrdiqNlZ4y",
+  "page": 1,
+  "items": [
+    {
+      "id": "11ss6ZgvlMLLvJ6KD7akVgkL87-RfvYu-",
+      "parent_id": "16aXAM4nH4F2baalMht7o-UfrdiqNlZ4y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1742,
+      "modified": "2026-08-15T03:45:43.000Z",
+      "checksum": "48ed0208520a3babf47a6d0a275970be",
+      "folder": false
+    },
+    {
+      "id": "1JeKhCH63gFFVX5vWBKZZOuhIVnq6hmfK",
+      "parent_id": "16aXAM4nH4F2baalMht7o-UfrdiqNlZ4y",
+      "name": "NHẬT TỤNG THIỀN MÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 478503,
+      "modified": "2026-08-15T03:45:49.000Z",
+      "checksum": "89e80a2f32a949d62bea84997e1d7643",
+      "folder": false
+    },
+    {
+      "id": "1RlcsbnKRlJPQW5KCEKsgXpyGP0j-_Voq",
+      "parent_id": "16aXAM4nH4F2baalMht7o-UfrdiqNlZ4y",
+      "name": "NHẬT TỤNG THIỀN MÔN.pdf",
+      "mime": "application/pdf",
+      "size": 1346290,
+      "modified": "2026-08-15T03:45:47.000Z",
+      "checksum": "298224160dc58c089c360418023a5380",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QHB_6QH2MQafmvD1VPJDumV1N5aKXurq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UMzeswbN5s94vabekDqq1pQqhX7bruYX",
+      "parent_id": "1QHB_6QH2MQafmvD1VPJDumV1N5aKXurq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2818,
+      "modified": "2026-08-15T03:24:02.000Z",
+      "checksum": "01f5b44f5f8a83490e22646953cc8141",
+      "folder": false
+    },
+    {
+      "id": "1FfCd5_iIgwBcArQM_WEUTLSG8n9G18xx",
+      "parent_id": "1QHB_6QH2MQafmvD1VPJDumV1N5aKXurq",
+      "name": "ĐIỀU KỲ DIỆU TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 424038,
+      "modified": "2026-08-15T03:24:10.000Z",
+      "checksum": "7fadc80ea7af4c67cd0ae168d264daa7",
+      "folder": false
+    },
+    {
+      "id": "1NaLo4sSXN0YsqVlQd1SWzbYZYLzqcU8Z",
+      "parent_id": "1QHB_6QH2MQafmvD1VPJDumV1N5aKXurq",
+      "name": "ĐIỀU KỲ DIỆU TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 353858,
+      "modified": "2026-08-15T03:24:07.000Z",
+      "checksum": "3406f491d0511c4701483d85e26d4fa4",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GvXVrZ075BP_ANRlA5pUL7nO0gpdriQF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CcrptTPKIi1OvbsDXssIZ9iCVKpWUVRH",
+      "parent_id": "1GvXVrZ075BP_ANRlA5pUL7nO0gpdriQF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 881,
+      "modified": "2026-08-16T04:02:21.000Z",
+      "checksum": "4ace293f70c22a42710d639f1385610c",
+      "folder": false
+    },
+    {
+      "id": "1boZm9ztTOkM1sm85xiC0AZp7Ig4XSyu3",
+      "parent_id": "1GvXVrZ075BP_ANRlA5pUL7nO0gpdriQF",
+      "name": "SỪNG CHÓ SÓI.epub",
+      "mime": "application/epub+zip",
+      "size": 2123656,
+      "modified": "2026-08-16T04:02:28.000Z",
+      "checksum": "42d4a95b192a22444e0d7c3c1d2ba98a",
+      "folder": false
+    },
+    {
+      "id": "10OGSlys9j9DWpgP_eM5tEtL9x9wipldy",
+      "parent_id": "1GvXVrZ075BP_ANRlA5pUL7nO0gpdriQF",
+      "name": "SỪNG CHÓ SÓI.pdf",
+      "mime": "application/pdf",
+      "size": 2201176,
+      "modified": "2026-08-16T04:02:25.000Z",
+      "checksum": "76cbad247787655866f1378df8d20a5d",
+      "folder": false
+    }
+  ]
+}

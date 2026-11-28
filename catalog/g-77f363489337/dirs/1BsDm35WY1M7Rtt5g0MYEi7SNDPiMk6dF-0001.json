@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BsDm35WY1M7Rtt5g0MYEi7SNDPiMk6dF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zghLF8-wi1lennHdJ70FwzKo7fbUcqed",
+      "parent_id": "1BsDm35WY1M7Rtt5g0MYEi7SNDPiMk6dF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2384,
+      "modified": "2026-08-15T12:09:32.000Z",
+      "checksum": "5e2bb332ebb0ea25d1a5485cb5838c3d",
+      "folder": false
+    },
+    {
+      "id": "12meYgyEsQ2MIq1Hd-qu9MFxpIUGe9opL",
+      "parent_id": "1BsDm35WY1M7Rtt5g0MYEi7SNDPiMk6dF",
+      "name": "LÀM BÁNH CƠ BẢN.epub",
+      "mime": "application/epub+zip",
+      "size": 667893,
+      "modified": "2026-08-15T12:09:39.000Z",
+      "checksum": "5af033f0f45cb4ad8c3ceabcd9af8f42",
+      "folder": false
+    },
+    {
+      "id": "1-yO7SaLLUL1jCNCPpQ6ASUv6GOBCgFpN",
+      "parent_id": "1BsDm35WY1M7Rtt5g0MYEi7SNDPiMk6dF",
+      "name": "LÀM BÁNH CƠ BẢN.pdf",
+      "mime": "application/pdf",
+      "size": 901984,
+      "modified": "2026-08-15T12:09:36.000Z",
+      "checksum": "dc431957b5ce0880c0163ff39f356f5b",
+      "folder": false
+    }
+  ]
+}

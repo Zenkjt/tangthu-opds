@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1byRPNSX5XH2Qwe82Md3lrTELs8BGJw9h",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IwUhlrQUvsDaeBCRbbKyyRAjA5TDM2is",
+      "parent_id": "1byRPNSX5XH2Qwe82Md3lrTELs8BGJw9h",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1247,
+      "modified": "2026-08-15T12:44:43.000Z",
+      "checksum": "23230cc1388958b08414874a814b3b7a",
+      "folder": false
+    },
+    {
+      "id": "1Henw7ePflGqgdu9gGg2HIMlFRdIUq7lj",
+      "parent_id": "1byRPNSX5XH2Qwe82Md3lrTELs8BGJw9h",
+      "name": "PHÒNG TRỌ BA NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 457948,
+      "modified": "2026-08-15T12:44:50.000Z",
+      "checksum": "3b0ce1ed56bfa23c86a3c7a339612f2b",
+      "folder": false
+    },
+    {
+      "id": "1H1il6Ip7rYgoGC2-ObeBAn1mucw36eQI",
+      "parent_id": "1byRPNSX5XH2Qwe82Md3lrTELs8BGJw9h",
+      "name": "PHÒNG TRỌ BA NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 552129,
+      "modified": "2026-08-15T12:44:47.000Z",
+      "checksum": "07bb92abb74e46e1317dea3f17342294",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GH6-kZkCeqgea8UntCbYSCEcDBv7o6ot",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PdUNaAJ24_HtPhGhd12sIAtEsqTzhPUs",
+      "parent_id": "1GH6-kZkCeqgea8UntCbYSCEcDBv7o6ot",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1159,
+      "modified": "2026-08-15T07:38:17.000Z",
+      "checksum": "53752d0118ea0e9374c022853b593bbc",
+      "folder": false
+    },
+    {
+      "id": "1hlv8HZD2X4gRLwGGFakQHNU-xiK5sj4P",
+      "parent_id": "1GH6-kZkCeqgea8UntCbYSCEcDBv7o6ot",
+      "name": "THƠ NGỤ NGÔN LA FONTAINE.epub",
+      "mime": "application/epub+zip",
+      "size": 974482,
+      "modified": "2026-08-15T07:38:23.000Z",
+      "checksum": "6068e02c9b8a129675f7921e1a0d42b7",
+      "folder": false
+    },
+    {
+      "id": "1o5XI_v0dNbwJzuYeH6Xz0wdqe-G-2HgR",
+      "parent_id": "1GH6-kZkCeqgea8UntCbYSCEcDBv7o6ot",
+      "name": "THƠ NGỤ NGÔN LA FONTAINE.pdf",
+      "mime": "application/pdf",
+      "size": 1098244,
+      "modified": "2026-08-15T07:38:21.000Z",
+      "checksum": "dc8fb59b4ba56237c1cd0b0e133d20d5",
+      "folder": false
+    }
+  ]
+}

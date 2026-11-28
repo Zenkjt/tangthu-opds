@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Va2V-wMgr0IYdWHctB-Eq5H8hJ5eQ49r",
+  "page": 1,
+  "items": [
+    {
+      "id": "1m-LQOujUV6eSFR1u0dX49yXvzwBPbLno",
+      "parent_id": "1Va2V-wMgr0IYdWHctB-Eq5H8hJ5eQ49r",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3288,
+      "modified": "2026-08-16T03:17:40.000Z",
+      "checksum": "5d45dd452b8f07bfdffe5e904dcef6b6",
+      "folder": false
+    },
+    {
+      "id": "109lbx_M6Z7AZIyU2SayK_J9a57o5LX4J",
+      "parent_id": "1Va2V-wMgr0IYdWHctB-Eq5H8hJ5eQ49r",
+      "name": "FREUD THÂN YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 2383483,
+      "modified": "2026-08-16T03:17:50.000Z",
+      "checksum": "6723c94c19684c868e0daf5a63cb99d6",
+      "folder": false
+    },
+    {
+      "id": "12IVYOgu8ihmj2D6Lb_mAcUOoZeL7L-0j",
+      "parent_id": "1Va2V-wMgr0IYdWHctB-Eq5H8hJ5eQ49r",
+      "name": "FREUD THÂN YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 2849624,
+      "modified": "2026-08-16T03:17:47.000Z",
+      "checksum": "8069b1c9231fd220ae5209a2d2a7e78f",
+      "folder": false
+    }
+  ]
+}

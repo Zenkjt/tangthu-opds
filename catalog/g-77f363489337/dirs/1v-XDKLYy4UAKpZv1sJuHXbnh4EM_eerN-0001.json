@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1v-XDKLYy4UAKpZv1sJuHXbnh4EM_eerN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UMusiDoLdG_VWfQHdISXCl4jYS1Gs9Zj",
+      "parent_id": "1v-XDKLYy4UAKpZv1sJuHXbnh4EM_eerN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5913,
+      "modified": "2026-08-15T03:47:04.000Z",
+      "checksum": "04ff9dc9e8436293f614576227251742",
+      "folder": false
+    },
+    {
+      "id": "1e1dRZScI25i63ifJqlPaByunOGhQnp_z",
+      "parent_id": "1v-XDKLYy4UAKpZv1sJuHXbnh4EM_eerN",
+      "name": "ÂM PHÙ KINH.epub",
+      "mime": "application/epub+zip",
+      "size": 307101,
+      "modified": "2026-08-15T03:47:10.000Z",
+      "checksum": "61494d08bc1b3ad58b691cb2515ab2d0",
+      "folder": false
+    },
+    {
+      "id": "1YnMkmxfP5wCI2jtxMkVORrzTffb7zi86",
+      "parent_id": "1v-XDKLYy4UAKpZv1sJuHXbnh4EM_eerN",
+      "name": "ÂM PHÙ KINH.pdf",
+      "mime": "application/pdf",
+      "size": 398343,
+      "modified": "2026-08-15T03:47:08.000Z",
+      "checksum": "e2e89ff7f5599c7c1f6c0c64d1b58e30",
+      "folder": false
+    }
+  ]
+}

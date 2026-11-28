@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OhQjPKRpAaG27R5lyIqEA0_k6SIWwSft",
+  "page": 1,
+  "items": [
+    {
+      "id": "18Xa0EAMfxHJNTjDKU7EGWy7kyqeDTpsS",
+      "parent_id": "1OhQjPKRpAaG27R5lyIqEA0_k6SIWwSft",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 14208,
+      "modified": "2026-08-15T06:16:35.000Z",
+      "checksum": "a0473b3d22024a0b6f8876ca665d71af",
+      "folder": false
+    },
+    {
+      "id": "1N8XF3UE_4gpVoqSzDqdFUaY25ZwBopb5",
+      "parent_id": "1OhQjPKRpAaG27R5lyIqEA0_k6SIWwSft",
+      "name": "HIỂU NGHÈO THOÁT NGHÈO.epub",
+      "mime": "application/epub+zip",
+      "size": 966553,
+      "modified": "2026-08-15T06:16:43.000Z",
+      "checksum": "9a9dff406259f0b6d7b6e9a6e84bfc24",
+      "folder": false
+    },
+    {
+      "id": "1Jc1jqvzI73DVDIeLFK8gzQjCymJWrOBM",
+      "parent_id": "1OhQjPKRpAaG27R5lyIqEA0_k6SIWwSft",
+      "name": "HIỂU NGHÈO THOÁT NGHÈO.pdf",
+      "mime": "application/pdf",
+      "size": 2227286,
+      "modified": "2026-08-15T06:16:40.000Z",
+      "checksum": "ba5f0f70deeb371f5b20d8aba5a8d7be",
+      "folder": false
+    }
+  ]
+}

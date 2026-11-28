@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SDgirssZJAsayND74ODE8sPMZzXGdsv8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aG17UgUTyc14K2Ekil4e-sWEGdm8ben_",
+      "parent_id": "1SDgirssZJAsayND74ODE8sPMZzXGdsv8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3314,
+      "modified": "2026-08-15T15:54:55.000Z",
+      "checksum": "bb4bd60b8317a564cddd0202c5df1928",
+      "folder": false
+    },
+    {
+      "id": "1LN6SN50G9eVLMs2O5CIih-2kD_UIveGJ",
+      "parent_id": "1SDgirssZJAsayND74ODE8sPMZzXGdsv8",
+      "name": "THI CA CHÂM BIẾM VÀ TRÀO LỘNG VIỆT NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 515290,
+      "modified": "2026-08-15T15:55:02.000Z",
+      "checksum": "e47518148ee9edc0f1508918f332761e",
+      "folder": false
+    },
+    {
+      "id": "1teMj6-pqnf1x2ChFx4dKMAsIUWKcDN5e",
+      "parent_id": "1SDgirssZJAsayND74ODE8sPMZzXGdsv8",
+      "name": "THI CA CHÂM BIẾM VÀ TRÀO LỘNG VIỆT NAM.pdf",
+      "mime": "application/pdf",
+      "size": 1023377,
+      "modified": "2026-08-15T15:54:59.000Z",
+      "checksum": "df01c3c36224f001baa5ecad69653a4a",
+      "folder": false
+    }
+  ]
+}

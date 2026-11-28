@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aoq1zWGS9tKBl6to3luuiEzaDSJAFj6a",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wZwxVVm7mcZQSneAbzUHFa6mgYk8-FMq",
+      "parent_id": "1aoq1zWGS9tKBl6to3luuiEzaDSJAFj6a",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4217,
+      "modified": "2026-08-15T03:22:39.000Z",
+      "checksum": "932baaac036a278e80a075d2bc4ac1dd",
+      "folder": false
+    },
+    {
+      "id": "1Y-XgZlW0HJHTxHQz26BYt_E3mPkxZfd7",
+      "parent_id": "1aoq1zWGS9tKBl6to3luuiEzaDSJAFj6a",
+      "name": "SA MẠC NỞ HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 423151,
+      "modified": "2026-08-15T03:22:47.000Z",
+      "checksum": "31962756914831abdd07aad8599046c7",
+      "folder": false
+    },
+    {
+      "id": "1HuDj05mtB08TzdpMLpqX_FuRMNUpK77Z",
+      "parent_id": "1aoq1zWGS9tKBl6to3luuiEzaDSJAFj6a",
+      "name": "SA MẠC NỞ HOA.pdf",
+      "mime": "application/pdf",
+      "size": 837163,
+      "modified": "2026-08-15T03:22:45.000Z",
+      "checksum": "78534e8cf7a3ea69000c2463512dc023",
+      "folder": false
+    }
+  ]
+}

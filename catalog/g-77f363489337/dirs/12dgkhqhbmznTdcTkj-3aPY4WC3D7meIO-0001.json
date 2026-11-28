@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12dgkhqhbmznTdcTkj-3aPY4WC3D7meIO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1czcF5TbHiKOoQHyuiBcmPk_5agYKRNFZ",
+      "parent_id": "12dgkhqhbmznTdcTkj-3aPY4WC3D7meIO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3560,
+      "modified": "2026-08-15T07:42:01.000Z",
+      "checksum": "ca77366cdb19d92a45633b8034f2e847",
+      "folder": false
+    },
+    {
+      "id": "1_9UbkMVxUgOqxEnl8lmA_wfa5whxfE_S",
+      "parent_id": "12dgkhqhbmznTdcTkj-3aPY4WC3D7meIO",
+      "name": "ĐỒNG CỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 285834,
+      "modified": "2026-08-15T07:42:08.000Z",
+      "checksum": "f8c1b6cf6a6de6e41bff519ef6ca4c61",
+      "folder": false
+    },
+    {
+      "id": "1YYXG6UYNlvecEUJwet-TofbGVxSOzHu5",
+      "parent_id": "12dgkhqhbmznTdcTkj-3aPY4WC3D7meIO",
+      "name": "ĐỒNG CỎ.pdf",
+      "mime": "application/pdf",
+      "size": 424194,
+      "modified": "2026-08-15T07:42:05.000Z",
+      "checksum": "85ebe37d7556a7736e95a238008dffb8",
+      "folder": false
+    }
+  ]
+}

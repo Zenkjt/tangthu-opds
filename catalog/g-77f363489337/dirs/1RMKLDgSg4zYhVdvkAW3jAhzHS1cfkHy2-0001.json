@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RMKLDgSg4zYhVdvkAW3jAhzHS1cfkHy2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bYUqP7Vv8UCXMDWbhy99EFivvUNwIlpZ",
+      "parent_id": "1RMKLDgSg4zYhVdvkAW3jAhzHS1cfkHy2",
+      "name": "BƯỚM TRẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 339311,
+      "modified": "2026-08-15T15:42:46.000Z",
+      "checksum": "8e6d3e6b05bbcdcd3e824c6dcc582900",
+      "folder": false
+    },
+    {
+      "id": "1mb-BC12tBBvPaeKUuKxYCaFmgAwSoNvj",
+      "parent_id": "1RMKLDgSg4zYhVdvkAW3jAhzHS1cfkHy2",
+      "name": "BƯỚM TRẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 719512,
+      "modified": "2026-08-15T15:42:43.000Z",
+      "checksum": "f18fbd7fdf2733bf276aa75c71c02a31",
+      "folder": false
+    },
+    {
+      "id": "14PIsqoVBLXPNkoQ7kTTro7WIswAWK96E",
+      "parent_id": "1RMKLDgSg4zYhVdvkAW3jAhzHS1cfkHy2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 477,
+      "modified": "2026-08-15T15:42:37.000Z",
+      "checksum": "a9940d1f42eda8f09e0eca11793cd514",
+      "folder": false
+    }
+  ]
+}

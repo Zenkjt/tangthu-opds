@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13sfU1Mohh7DKBg8riuIChrUZiMBoUvBS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Kn7DxpZBfF2lVWy9lDuZJ3KAR7doconY",
+      "parent_id": "13sfU1Mohh7DKBg8riuIChrUZiMBoUvBS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9225,
+      "modified": "2026-08-15T15:11:30.000Z",
+      "checksum": "dcaec08cd744a17aa1526134c78fae99",
+      "folder": false
+    },
+    {
+      "id": "1uFZ2-r9GsCj0r4lj_Up3BgkWlLK-X8e2",
+      "parent_id": "13sfU1Mohh7DKBg8riuIChrUZiMBoUvBS",
+      "name": "MÁY ẢNH MA ÁM.epub",
+      "mime": "application/epub+zip",
+      "size": 364749,
+      "modified": "2026-08-15T15:11:37.000Z",
+      "checksum": "d4e84b326f7d8c81899904b5dbdadfbf",
+      "folder": false
+    },
+    {
+      "id": "1_MJX2Li4Bt96kPrTF8JZS3hcdiuHBnJz",
+      "parent_id": "13sfU1Mohh7DKBg8riuIChrUZiMBoUvBS",
+      "name": "MÁY ẢNH MA ÁM.pdf",
+      "mime": "application/pdf",
+      "size": 667948,
+      "modified": "2026-08-15T15:11:35.000Z",
+      "checksum": "f2943865bf731cbbce83d3455757a83c",
+      "folder": false
+    }
+  ]
+}

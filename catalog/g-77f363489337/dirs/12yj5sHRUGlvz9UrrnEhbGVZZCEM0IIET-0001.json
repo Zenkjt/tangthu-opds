@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12yj5sHRUGlvz9UrrnEhbGVZZCEM0IIET",
+  "page": 1,
+  "items": [
+    {
+      "id": "1O04W3XtrtCkNMnTmy4h2HqQpXZDjMwDf",
+      "parent_id": "12yj5sHRUGlvz9UrrnEhbGVZZCEM0IIET",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2810,
+      "modified": "2026-08-15T10:28:44.000Z",
+      "checksum": "e5602fafda4bb8977dd4a2037707cc9a",
+      "folder": false
+    },
+    {
+      "id": "1hZGGRThrUqu6GnWdJLB8EPYdzv88h5b0",
+      "parent_id": "12yj5sHRUGlvz9UrrnEhbGVZZCEM0IIET",
+      "name": "RUM.epub",
+      "mime": "application/epub+zip",
+      "size": 575229,
+      "modified": "2026-08-15T10:29:05.000Z",
+      "checksum": "ec5d51011c6968e028fb6ffbba577483",
+      "folder": false
+    },
+    {
+      "id": "1a1Uzveh9g3rVx0SEAaealMBL8cEkk0bT",
+      "parent_id": "12yj5sHRUGlvz9UrrnEhbGVZZCEM0IIET",
+      "name": "RUM.pdf",
+      "mime": "application/pdf",
+      "size": 466939,
+      "modified": "2026-08-15T10:29:00.000Z",
+      "checksum": "023e24a481cca91eb62e6d9d5195e8d0",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fdILAFQ70vHz8Dn04y3cpI4HR3Qh5918",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZlepOba7u53hDIpGbKlVFETRq_lAOxmB",
+      "parent_id": "1fdILAFQ70vHz8Dn04y3cpI4HR3Qh5918",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 13793,
+      "modified": "2026-08-15T15:05:14.000Z",
+      "checksum": "54c19a562a763b399375a466aa96c138",
+      "folder": false
+    },
+    {
+      "id": "1nxBSHOyfa9UZSsZ1Da6BATqVrtDr25W6",
+      "parent_id": "1fdILAFQ70vHz8Dn04y3cpI4HR3Qh5918",
+      "name": "HÀNH TRÌNH CỦA SÓI.epub",
+      "mime": "application/epub+zip",
+      "size": 565906,
+      "modified": "2026-08-15T15:05:22.000Z",
+      "checksum": "1b744ff01f033a34cb83533a62b78351",
+      "folder": false
+    },
+    {
+      "id": "13tfPflrb6f0vNIZAzYSr3XRm-_9VybAb",
+      "parent_id": "1fdILAFQ70vHz8Dn04y3cpI4HR3Qh5918",
+      "name": "HÀNH TRÌNH CỦA SÓI.pdf",
+      "mime": "application/pdf",
+      "size": 1436666,
+      "modified": "2026-08-15T15:05:19.000Z",
+      "checksum": "32e451c8364cfe676d0cab57594f55e0",
+      "folder": false
+    }
+  ]
+}

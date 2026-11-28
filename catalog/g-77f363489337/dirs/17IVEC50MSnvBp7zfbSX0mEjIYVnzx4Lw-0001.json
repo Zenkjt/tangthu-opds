@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17IVEC50MSnvBp7zfbSX0mEjIYVnzx4Lw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lUuleR3r4cL-PxREniNYCdbyix9iQKUk",
+      "parent_id": "17IVEC50MSnvBp7zfbSX0mEjIYVnzx4Lw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3464,
+      "modified": "2026-08-15T11:31:40.000Z",
+      "checksum": "d08eea8de3bdeb3568054b085f2319d9",
+      "folder": false
+    },
+    {
+      "id": "1A6GqKjQlq0titiBkFFHJFIY1qm0yEtTL",
+      "parent_id": "17IVEC50MSnvBp7zfbSX0mEjIYVnzx4Lw",
+      "name": "NHỮNG PHÓNG SỰ VỀ CHIẾN TRANH.epub",
+      "mime": "application/epub+zip",
+      "size": 524524,
+      "modified": "2026-08-15T11:31:46.000Z",
+      "checksum": "e048b49f06bb9824e25552a536d360d4",
+      "folder": false
+    },
+    {
+      "id": "1yEwZSpKcVA6b_f-vb_RHG3emt9ckf6Ki",
+      "parent_id": "17IVEC50MSnvBp7zfbSX0mEjIYVnzx4Lw",
+      "name": "NHỮNG PHÓNG SỰ VỀ CHIẾN TRANH.pdf",
+      "mime": "application/pdf",
+      "size": 729209,
+      "modified": "2026-08-15T11:31:43.000Z",
+      "checksum": "f0be658ad1277d5036128ac266f39d26",
+      "folder": false
+    }
+  ]
+}

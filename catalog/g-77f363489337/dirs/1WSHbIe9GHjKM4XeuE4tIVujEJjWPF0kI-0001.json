@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WSHbIe9GHjKM4XeuE4tIVujEJjWPF0kI",
+  "page": 1,
+  "items": [
+    {
+      "id": "13aaac0_CAcBopGaotC8q7lxlGzV1hxSE",
+      "parent_id": "1WSHbIe9GHjKM4XeuE4tIVujEJjWPF0kI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9619,
+      "modified": "2026-08-16T03:08:27.000Z",
+      "checksum": "d313203c5382e994c7861cc3ec2647ec",
+      "folder": false
+    },
+    {
+      "id": "1mJBZ8YE5un4UNKKsdul17lT-dZuY6LEh",
+      "parent_id": "1WSHbIe9GHjKM4XeuE4tIVujEJjWPF0kI",
+      "name": "SHOGUN TƯỚNG QUÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 1723242,
+      "modified": "2026-08-16T03:08:37.000Z",
+      "checksum": "98fa6bb422f1f01b62c9a1087d1ae5da",
+      "folder": false
+    },
+    {
+      "id": "1jPJd2haox7GSyq1BkOQRcehYEgiYJ69b",
+      "parent_id": "1WSHbIe9GHjKM4XeuE4tIVujEJjWPF0kI",
+      "name": "SHOGUN TƯỚNG QUÂN.pdf",
+      "mime": "application/pdf",
+      "size": 3863720,
+      "modified": "2026-08-16T03:08:34.000Z",
+      "checksum": "c929f8f2feafa5f11fde450e5db63c47",
+      "folder": false
+    }
+  ]
+}

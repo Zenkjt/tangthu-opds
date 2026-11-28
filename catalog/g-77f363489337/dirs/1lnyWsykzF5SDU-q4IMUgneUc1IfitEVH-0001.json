@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lnyWsykzF5SDU-q4IMUgneUc1IfitEVH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OhQ9FMHFx_KVn7-qhwSvYik54i70935E",
+      "parent_id": "1lnyWsykzF5SDU-q4IMUgneUc1IfitEVH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 17733,
+      "modified": "2026-08-15T07:27:53.000Z",
+      "checksum": "ff94ec23c39f017ac4ff31907031873e",
+      "folder": false
+    },
+    {
+      "id": "1PdzMQejDD2jkAkc6ThffpmDr2lCQeWtN",
+      "parent_id": "1lnyWsykzF5SDU-q4IMUgneUc1IfitEVH",
+      "name": "VỊ KHÁCH LÚC NỬA ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 1417192,
+      "modified": "2026-08-15T07:28:02.000Z",
+      "checksum": "4dbf0f31b30fd675c40318b1f5d75c3d",
+      "folder": false
+    },
+    {
+      "id": "1VadJY5vYwPihRNpKkFTmv91AKQSYAz5G",
+      "parent_id": "1lnyWsykzF5SDU-q4IMUgneUc1IfitEVH",
+      "name": "VỊ KHÁCH LÚC NỬA ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 1890994,
+      "modified": "2026-08-15T07:27:58.000Z",
+      "checksum": "72ada40f1780794f5cbdec4a4bbf7efc",
+      "folder": false
+    }
+  ]
+}

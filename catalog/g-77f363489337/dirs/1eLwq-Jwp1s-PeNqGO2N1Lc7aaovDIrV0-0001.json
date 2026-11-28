@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eLwq-Jwp1s-PeNqGO2N1Lc7aaovDIrV0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pcuwo_JYlmeDm6ds-mI02wDLMo3XhKoO",
+      "parent_id": "1eLwq-Jwp1s-PeNqGO2N1Lc7aaovDIrV0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6951,
+      "modified": "2026-08-15T08:02:46.000Z",
+      "checksum": "415012fbc6ab6102f38f2f8f0722ab80",
+      "folder": false
+    },
+    {
+      "id": "1rE5zn61IlvaWgJY5H2LRw2JjWuVGzLld",
+      "parent_id": "1eLwq-Jwp1s-PeNqGO2N1Lc7aaovDIrV0",
+      "name": "HỎA PHỤNG HOÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 892588,
+      "modified": "2026-08-15T08:02:54.000Z",
+      "checksum": "3512e678a66b206d4ec1420065fb15ac",
+      "folder": false
+    },
+    {
+      "id": "1UJmAcpcLAV-T2nqslCrsx8jRSjCLr2ZK",
+      "parent_id": "1eLwq-Jwp1s-PeNqGO2N1Lc7aaovDIrV0",
+      "name": "HỎA PHỤNG HOÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 2939360,
+      "modified": "2026-08-15T08:02:52.000Z",
+      "checksum": "3a3f6142d99912e1d6a663c9846cebe2",
+      "folder": false
+    }
+  ]
+}

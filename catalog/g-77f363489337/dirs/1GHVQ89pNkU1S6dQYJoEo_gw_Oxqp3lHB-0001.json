@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GHVQ89pNkU1S6dQYJoEo_gw_Oxqp3lHB",
+  "page": 1,
+  "items": [
+    {
+      "id": "10SCac85HippgSIkwHm7Tg5G7lRou8_ju",
+      "parent_id": "1GHVQ89pNkU1S6dQYJoEo_gw_Oxqp3lHB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4510,
+      "modified": "2026-08-15T03:46:48.000Z",
+      "checksum": "d25eb50057b6f97c8c885c0c27b18c5c",
+      "folder": false
+    },
+    {
+      "id": "14JAZOHu0fRZ_TzIAAiCelQBawFmjIWp-",
+      "parent_id": "1GHVQ89pNkU1S6dQYJoEo_gw_Oxqp3lHB",
+      "name": "KINH TỨ NIỆM XỨ.epub",
+      "mime": "application/epub+zip",
+      "size": 261437,
+      "modified": "2026-08-15T03:46:54.000Z",
+      "checksum": "050727d5b935f0c1f7556836c2e7401b",
+      "folder": false
+    },
+    {
+      "id": "1x3sz5ztWB8NVRP9G5ZNJaFOo9xoSzyYm",
+      "parent_id": "1GHVQ89pNkU1S6dQYJoEo_gw_Oxqp3lHB",
+      "name": "KINH TỨ NIỆM XỨ.pdf",
+      "mime": "application/pdf",
+      "size": 192017,
+      "modified": "2026-08-15T03:46:51.000Z",
+      "checksum": "a489774905ce60340d7bda10302ece2f",
+      "folder": false
+    }
+  ]
+}

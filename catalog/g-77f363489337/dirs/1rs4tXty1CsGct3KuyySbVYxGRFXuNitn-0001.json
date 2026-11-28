@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rs4tXty1CsGct3KuyySbVYxGRFXuNitn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hw3VGsvuqDiQG6vYt7BrYhntwPbaLIG6",
+      "parent_id": "1rs4tXty1CsGct3KuyySbVYxGRFXuNitn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2968,
+      "modified": "2026-08-15T07:36:47.000Z",
+      "checksum": "e6ed0b75d782ca47a80b99e8fb633659",
+      "folder": false
+    },
+    {
+      "id": "1sl6uTqw43uKJbh9ap6gvvujALaEC3Rp7",
+      "parent_id": "1rs4tXty1CsGct3KuyySbVYxGRFXuNitn",
+      "name": "TƯỚNG MINH.epub",
+      "mime": "application/epub+zip",
+      "size": 5813863,
+      "modified": "2026-08-15T07:37:02.000Z",
+      "checksum": "f6ac2bd4f691aba337acdb2db4c6e779",
+      "folder": false
+    },
+    {
+      "id": "1_sqpiXjcj9aXmrQkWBDB6NEU6G7i0P1k",
+      "parent_id": "1rs4tXty1CsGct3KuyySbVYxGRFXuNitn",
+      "name": "TƯỚNG MINH.pdf",
+      "mime": "application/pdf",
+      "size": 6231754,
+      "modified": "2026-08-15T07:36:54.000Z",
+      "checksum": "c99a586bca52c1ac1c3fb0194a29ff5e",
+      "folder": false
+    }
+  ]
+}

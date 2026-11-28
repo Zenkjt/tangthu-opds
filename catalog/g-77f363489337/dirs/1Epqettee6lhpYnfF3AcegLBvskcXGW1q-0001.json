@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Epqettee6lhpYnfF3AcegLBvskcXGW1q",
+  "page": 1,
+  "items": [
+    {
+      "id": "12KhtuMqbRF3is_JlXoY-rNZ_jZZKdjQY",
+      "parent_id": "1Epqettee6lhpYnfF3AcegLBvskcXGW1q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1869,
+      "modified": "2026-08-15T04:02:33.000Z",
+      "checksum": "815bf10152793765b7819e3802c9bce9",
+      "folder": false
+    },
+    {
+      "id": "1Lq72FJT0dG8IOmEVKmCddIlGeOfP7X8b",
+      "parent_id": "1Epqettee6lhpYnfF3AcegLBvskcXGW1q",
+      "name": "PHẬT HỌC CHỈ NAM.epub",
+      "mime": "application/epub+zip",
+      "size": 961726,
+      "modified": "2026-08-15T04:02:42.000Z",
+      "checksum": "93e2a6754430ade17c5f63f0285f953b",
+      "folder": false
+    },
+    {
+      "id": "1rsvs7eKLromN0sMSXi9UMvRtczss7LER",
+      "parent_id": "1Epqettee6lhpYnfF3AcegLBvskcXGW1q",
+      "name": "PHẬT HỌC CHỈ NAM.pdf",
+      "mime": "application/pdf",
+      "size": 2437575,
+      "modified": "2026-08-15T04:02:38.000Z",
+      "checksum": "7399da7a4715787502f9d1ed6e2013a0",
+      "folder": false
+    }
+  ]
+}

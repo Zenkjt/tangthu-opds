@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wRaBuNBNvwVw2QQB0Ka6dpeGVmGyJug6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1p22a53mRA8_Ghh89zjGm-l_vUnfXq4Z7",
+      "parent_id": "1wRaBuNBNvwVw2QQB0Ka6dpeGVmGyJug6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7419,
+      "modified": "2026-08-15T09:45:50.000Z",
+      "checksum": "7c145c45602ba91374aa8c0c00a57a63",
+      "folder": false
+    },
+    {
+      "id": "1b294T8R7ONErMP7zc080nYnjlJSN8VO1",
+      "parent_id": "1wRaBuNBNvwVw2QQB0Ka6dpeGVmGyJug6",
+      "name": "KÝ ỨC PHIÊU LÃNG.epub",
+      "mime": "application/epub+zip",
+      "size": 607037,
+      "modified": "2026-08-15T09:46:02.000Z",
+      "checksum": "f95c443c931b703916a29fb2a8988cb6",
+      "folder": false
+    },
+    {
+      "id": "1OCeap_yrNMFHkYz9230MOs6o9zjAHg0l",
+      "parent_id": "1wRaBuNBNvwVw2QQB0Ka6dpeGVmGyJug6",
+      "name": "KÝ ỨC PHIÊU LÃNG.pdf",
+      "mime": "application/pdf",
+      "size": 2162530,
+      "modified": "2026-08-15T09:45:58.000Z",
+      "checksum": "6fb736480b30221a1f05d52c3ce73e04",
+      "folder": false
+    }
+  ]
+}

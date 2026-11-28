@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mJlZqhWJlUTcpaiOULYsRREObepzDp4K",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Pa_TWAAam4fiAySM-lvIoHQ4nvRr6pOd",
+      "parent_id": "1mJlZqhWJlUTcpaiOULYsRREObepzDp4K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 14940,
+      "modified": "2026-08-15T07:27:13.000Z",
+      "checksum": "ca1ada9fc03bf7205afcdc1c2750cb9d",
+      "folder": false
+    },
+    {
+      "id": "17xHdCWam9JG4415sl0PiJqjp57Zns8Jg",
+      "parent_id": "1mJlZqhWJlUTcpaiOULYsRREObepzDp4K",
+      "name": "VẠN VỰC CHI VƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 354563,
+      "modified": "2026-08-15T07:27:18.000Z",
+      "checksum": "5d3d018101eaa74877c095cc70647b85",
+      "folder": false
+    },
+    {
+      "id": "1kYsT3g4nE_rPKJQk_gMCJbaPg2p8TZmA",
+      "parent_id": "1mJlZqhWJlUTcpaiOULYsRREObepzDp4K",
+      "name": "VẠN VỰC CHI VƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 242187,
+      "modified": "2026-08-15T07:27:16.000Z",
+      "checksum": "1721a4e0abce697615675fbd4ac40d77",
+      "folder": false
+    }
+  ]
+}

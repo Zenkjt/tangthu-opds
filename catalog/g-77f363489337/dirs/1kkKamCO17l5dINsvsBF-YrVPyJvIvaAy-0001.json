@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kkKamCO17l5dINsvsBF-YrVPyJvIvaAy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1u5-s0cWWZH9-EvPCQAEmWU5OWQ51dboV",
+      "parent_id": "1kkKamCO17l5dINsvsBF-YrVPyJvIvaAy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4659,
+      "modified": "2026-08-15T07:24:26.000Z",
+      "checksum": "7cdb8b5f04c50f9c88b5863179e6a53b",
+      "folder": false
+    },
+    {
+      "id": "15kBsyxf76JLRp6WU3xSsxpbK89JF8d2U",
+      "parent_id": "1kkKamCO17l5dINsvsBF-YrVPyJvIvaAy",
+      "name": "TUẦN TRĂNG MẬT THẢM KHỐC.epub",
+      "mime": "application/epub+zip",
+      "size": 499910,
+      "modified": "2026-08-15T07:24:32.000Z",
+      "checksum": "1856f2bfc126f510ca35a286ade0bd41",
+      "folder": false
+    },
+    {
+      "id": "1KXntKLxTC74lucgIC0CwzQTnT5JsrWmA",
+      "parent_id": "1kkKamCO17l5dINsvsBF-YrVPyJvIvaAy",
+      "name": "TUẦN TRĂNG MẬT THẢM KHỐC.pdf",
+      "mime": "application/pdf",
+      "size": 996323,
+      "modified": "2026-08-15T07:24:30.000Z",
+      "checksum": "4095134d7e3a011ff0c2f0a3530fba98",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1clMq1nDF02Gjay2usc5jJWD03IPtj-Jw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wLq0AIR2ASwPyOg89HYwEkNkR4fywU7y",
+      "parent_id": "1clMq1nDF02Gjay2usc5jJWD03IPtj-Jw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1558,
+      "modified": "2026-08-15T07:43:15.000Z",
+      "checksum": "d6fab5a94e1edf8b321b07c410d6987e",
+      "folder": false
+    },
+    {
+      "id": "1J9iyFq5wBZY5mJTHIaGLdB342IzBBut9",
+      "parent_id": "1clMq1nDF02Gjay2usc5jJWD03IPtj-Jw",
+      "name": "NGƯỜI ĐÀN ÔNG LÝ TƯỞNG.epub",
+      "mime": "application/epub+zip",
+      "size": 840283,
+      "modified": "2026-08-15T07:43:22.000Z",
+      "checksum": "5c1a9f649254b949d53e5917903346be",
+      "folder": false
+    },
+    {
+      "id": "1QeI7t8vpPauaISTTNN2DHuEVd7hymdos",
+      "parent_id": "1clMq1nDF02Gjay2usc5jJWD03IPtj-Jw",
+      "name": "NGƯỜI ĐÀN ÔNG LÝ TƯỞNG.pdf",
+      "mime": "application/pdf",
+      "size": 1012428,
+      "modified": "2026-08-15T07:43:19.000Z",
+      "checksum": "d52926e5e00d5f4cee408c4ca5bbfe95",
+      "folder": false
+    }
+  ]
+}

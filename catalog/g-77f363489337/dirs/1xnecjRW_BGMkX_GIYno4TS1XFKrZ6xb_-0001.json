@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xnecjRW_BGMkX_GIYno4TS1XFKrZ6xb_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eHGDF_hegCOeDLhhPS9DrvPcp1A_DnBy",
+      "parent_id": "1xnecjRW_BGMkX_GIYno4TS1XFKrZ6xb_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9543,
+      "modified": "2026-08-16T02:58:01.000Z",
+      "checksum": "7371bda79d156c4a0b03cd9c973dac0d",
+      "folder": false
+    },
+    {
+      "id": "1D2iznyH6DLDg6Katgob8T68hdw_mGj-u",
+      "parent_id": "1xnecjRW_BGMkX_GIYno4TS1XFKrZ6xb_",
+      "name": "NGÀY XƯA CÒN BÉ.epub",
+      "mime": "application/epub+zip",
+      "size": 276079,
+      "modified": "2026-08-16T02:58:07.000Z",
+      "checksum": "3c143f6defc92da8620605ccf55a4684",
+      "folder": false
+    },
+    {
+      "id": "16czJKWy3eKVTMtt96WaazIXcpM7e99rm",
+      "parent_id": "1xnecjRW_BGMkX_GIYno4TS1XFKrZ6xb_",
+      "name": "NGÀY XƯA CÒN BÉ.pdf",
+      "mime": "application/pdf",
+      "size": 544909,
+      "modified": "2026-08-16T02:58:04.000Z",
+      "checksum": "3e2b07a52e048c7aa2b62eb0cfdf2e02",
+      "folder": false
+    }
+  ]
+}

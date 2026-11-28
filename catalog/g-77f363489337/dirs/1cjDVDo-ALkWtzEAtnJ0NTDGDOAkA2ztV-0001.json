@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cjDVDo-ALkWtzEAtnJ0NTDGDOAkA2ztV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DyONK3s-thTNuHYgVH1cHh-0v9P3T2V8",
+      "parent_id": "1cjDVDo-ALkWtzEAtnJ0NTDGDOAkA2ztV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2905,
+      "modified": "2026-08-16T04:02:30.000Z",
+      "checksum": "397300c2a8e24381f0373bec83c0e891",
+      "folder": false
+    },
+    {
+      "id": "1RZ_e5az6TqNb4WGPFaAbi-Fd_IXP3Z-b",
+      "parent_id": "1cjDVDo-ALkWtzEAtnJ0NTDGDOAkA2ztV",
+      "name": "SỰ TRẢ THÙ NGỌT NGÀO.epub",
+      "mime": "application/epub+zip",
+      "size": 576249,
+      "modified": "2026-08-16T04:02:38.000Z",
+      "checksum": "086c3f1a1181bdd45e70a16d34fd34f5",
+      "folder": false
+    },
+    {
+      "id": "13zXxb2P9qoA0lzklekIVNBjqS4kR3MYe",
+      "parent_id": "1cjDVDo-ALkWtzEAtnJ0NTDGDOAkA2ztV",
+      "name": "SỰ TRẢ THÙ NGỌT NGÀO.pdf",
+      "mime": "application/pdf",
+      "size": 1298550,
+      "modified": "2026-08-16T04:02:36.000Z",
+      "checksum": "c8d3a32fb0b561c1b238a591646803ae",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GmH_pjH1_KLlt6laE59aNm2AULA4LZBA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1F3qZ7etSUs0vk_A4k8e6kI0jZkaP1Yv9",
+      "parent_id": "1GmH_pjH1_KLlt6laE59aNm2AULA4LZBA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4338,
+      "modified": "2026-08-16T03:24:45.000Z",
+      "checksum": "42c9f50a014533a399328e88e6d85db3",
+      "folder": false
+    },
+    {
+      "id": "1NSntani4oPocwsB8DE3a32R88eG4YPaP",
+      "parent_id": "1GmH_pjH1_KLlt6laE59aNm2AULA4LZBA",
+      "name": "ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 330631,
+      "modified": "2026-08-16T03:24:51.000Z",
+      "checksum": "b55f10942fb0225b150f09f4371e06a1",
+      "folder": false
+    },
+    {
+      "id": "14TBO6FC2h0Mq_Rtf9gxqSompaICcKlCd",
+      "parent_id": "1GmH_pjH1_KLlt6laE59aNm2AULA4LZBA",
+      "name": "ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 86183,
+      "modified": "2026-08-16T03:24:48.000Z",
+      "checksum": "2c192e265db994e6ab9ca4015ea22f1c",
+      "folder": false
+    }
+  ]
+}

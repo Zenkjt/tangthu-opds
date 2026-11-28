@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1u2x76b0hqek1yfEWdBCPHsVazfQggS9p",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ueq-IIXhmEwCBts1Q0cI6pUWFJvVfOI9",
+      "parent_id": "1u2x76b0hqek1yfEWdBCPHsVazfQggS9p",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 585,
+      "modified": "2026-08-16T04:09:32.000Z",
+      "checksum": "78c45cd3069ae89f405675cdab65bd72",
+      "folder": false
+    },
+    {
+      "id": "1DsVW0czHtEsYfTeghc2HSQuCOVB5-8BR",
+      "parent_id": "1u2x76b0hqek1yfEWdBCPHsVazfQggS9p",
+      "name": "NHỮNG LINH HỒN XÁM.epub",
+      "mime": "application/epub+zip",
+      "size": 504643,
+      "modified": "2026-08-16T04:09:39.000Z",
+      "checksum": "cd1ad70fde595508b0585a4aed8e3d88",
+      "folder": false
+    },
+    {
+      "id": "1fPl1bAK9PbEo6DYWyrURJ_J9pP4t85FV",
+      "parent_id": "1u2x76b0hqek1yfEWdBCPHsVazfQggS9p",
+      "name": "NHỮNG LINH HỒN XÁM.pdf",
+      "mime": "application/pdf",
+      "size": 879341,
+      "modified": "2026-08-16T04:09:36.000Z",
+      "checksum": "bba57b4e6e1253cab8229d93de1d0a9e",
+      "folder": false
+    }
+  ]
+}

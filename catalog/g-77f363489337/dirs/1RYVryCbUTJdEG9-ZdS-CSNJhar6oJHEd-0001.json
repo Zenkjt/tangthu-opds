@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RYVryCbUTJdEG9-ZdS-CSNJhar6oJHEd",
+  "page": 1,
+  "items": [
+    {
+      "id": "14tXdORgJBtbr3dSuFX9wtGFr-dfsq7cE",
+      "parent_id": "1RYVryCbUTJdEG9-ZdS-CSNJhar6oJHEd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11516,
+      "modified": "2026-08-15T08:12:46.000Z",
+      "checksum": "0a8505b80df9a14a604f03a8ae3ef434",
+      "folder": false
+    },
+    {
+      "id": "1acKWkYZpxdWqX7JH0wdGcwT22tZEtgQg",
+      "parent_id": "1RYVryCbUTJdEG9-ZdS-CSNJhar6oJHEd",
+      "name": "DẪN LUẬN VỀ LỊCH SỬ NGHỆ THUẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 1248464,
+      "modified": "2026-08-15T08:13:04.000Z",
+      "checksum": "3a971b2014f803c91ef41047814742f4",
+      "folder": false
+    },
+    {
+      "id": "18sWaQ_Afo6ItaQC73k-_ShFSZih2bjGA",
+      "parent_id": "1RYVryCbUTJdEG9-ZdS-CSNJhar6oJHEd",
+      "name": "DẪN LUẬN VỀ LỊCH SỬ NGHỆ THUẬT.pdf",
+      "mime": "application/pdf",
+      "size": 1325465,
+      "modified": "2026-08-15T08:12:59.000Z",
+      "checksum": "85f40e556a6d532c6fad3f6e2a82f27f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wfLJwdLL7syoLrji89yMXf9ATXfssGHc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yhifsJhATKXeDVRuWwYM5xwhV7ff7I5O",
+      "parent_id": "1wfLJwdLL7syoLrji89yMXf9ATXfssGHc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3255,
+      "modified": "2026-08-16T03:32:26.000Z",
+      "checksum": "d218b6cc0da1cb6f6a4cd5091596f033",
+      "folder": false
+    },
+    {
+      "id": "1qA4wesZE03paeDXzRYRPgceAdE0wRinR",
+      "parent_id": "1wfLJwdLL7syoLrji89yMXf9ATXfssGHc",
+      "name": "KIM VÂN KIỀU TRUYỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 584237,
+      "modified": "2026-08-16T03:32:33.000Z",
+      "checksum": "d95f6962758b4567f54f3be3b1ba1f21",
+      "folder": false
+    },
+    {
+      "id": "1yW4NGE21WTank4OUjnGAYbYwfjYkR3V8",
+      "parent_id": "1wfLJwdLL7syoLrji89yMXf9ATXfssGHc",
+      "name": "KIM VÂN KIỀU TRUYỆN.pdf",
+      "mime": "application/pdf",
+      "size": 1226520,
+      "modified": "2026-08-16T03:32:31.000Z",
+      "checksum": "e6d16a487be63241f04c2acf68088899",
+      "folder": false
+    }
+  ]
+}

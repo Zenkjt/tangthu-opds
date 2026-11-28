@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1op0myJaHRkEZJ7oOIBkdwi0MxZdm3XXW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KCE_XL5Vr8AePjhxWI63dblqwm5CK98I",
+      "parent_id": "1op0myJaHRkEZJ7oOIBkdwi0MxZdm3XXW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4400,
+      "modified": "2026-08-15T00:54:30.000Z",
+      "checksum": "2d6c03e68869cdf5773a4d6cc7a9b179",
+      "folder": false
+    },
+    {
+      "id": "1AYE3Wy5fwgFX1D-jHxu9tugunpTLhhE8",
+      "parent_id": "1op0myJaHRkEZJ7oOIBkdwi0MxZdm3XXW",
+      "name": "DÁM NGHĨ LỚN.epub",
+      "mime": "application/epub+zip",
+      "size": 596675,
+      "modified": "2026-08-15T00:54:36.000Z",
+      "checksum": "665d37cbef4fe65590d9e8ef4ac116cb",
+      "folder": false
+    },
+    {
+      "id": "1sYGkn61WJ9bkKXXJtMm0iP-k4fcBeSi8",
+      "parent_id": "1op0myJaHRkEZJ7oOIBkdwi0MxZdm3XXW",
+      "name": "DÁM NGHĨ LỚN.pdf",
+      "mime": "application/pdf",
+      "size": 3406351,
+      "modified": "2026-08-15T00:54:33.000Z",
+      "checksum": "ac8e4a975d89daf27c562554f619810e",
+      "folder": false
+    }
+  ]
+}

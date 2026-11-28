@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UFemB439BTwJaPMs6aikIrIaN7ABLWSZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PKv6h9h-fAK6_kr8Xp_EdeqbOLbbDw9Q",
+      "parent_id": "1UFemB439BTwJaPMs6aikIrIaN7ABLWSZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1516,
+      "modified": "2026-08-15T07:09:39.000Z",
+      "checksum": "0d7023213476a98fc411123ab0b76723",
+      "folder": false
+    },
+    {
+      "id": "1z_5qvfaNzlFWqoWX3m3-pvN7XCV8z6Uw",
+      "parent_id": "1UFemB439BTwJaPMs6aikIrIaN7ABLWSZ",
+      "name": "THẦY CHUNG TRÚNG SỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 764221,
+      "modified": "2026-08-15T07:09:48.000Z",
+      "checksum": "b488d1e306ca09876d91f46bb944bc91",
+      "folder": false
+    },
+    {
+      "id": "17UAulzUVsUDK6WtonQSzLxx09JzC7yZ5",
+      "parent_id": "1UFemB439BTwJaPMs6aikIrIaN7ABLWSZ",
+      "name": "THẦY CHUNG TRÚNG SỐ.pdf",
+      "mime": "application/pdf",
+      "size": 570280,
+      "modified": "2026-08-15T07:09:44.000Z",
+      "checksum": "ab9220bb6075ef4cc1edd40b564a81a7",
+      "folder": false
+    }
+  ]
+}

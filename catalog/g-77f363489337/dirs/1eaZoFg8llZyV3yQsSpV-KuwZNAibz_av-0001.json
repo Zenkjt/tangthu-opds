@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eaZoFg8llZyV3yQsSpV-KuwZNAibz_av",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GiTQCBX5PAWJvLxaLZsus02_mPkd2Pq_",
+      "parent_id": "1eaZoFg8llZyV3yQsSpV-KuwZNAibz_av",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2493,
+      "modified": "2026-08-15T08:00:14.000Z",
+      "checksum": "08142baaed94d4854f91d8c7690062b6",
+      "folder": false
+    },
+    {
+      "id": "15DcwUPBBePWVtXRxjoekcPMaMXcBmgcO",
+      "parent_id": "1eaZoFg8llZyV3yQsSpV-KuwZNAibz_av",
+      "name": "EM THẢ THÍNH ANH ĐI.epub",
+      "mime": "application/epub+zip",
+      "size": 701465,
+      "modified": "2026-08-15T08:00:23.000Z",
+      "checksum": "098a2d2f84efbdde9e6e638a51df997a",
+      "folder": false
+    },
+    {
+      "id": "1HTryZEDt8b8QoMAB7YR2e9phQ1oziL2f",
+      "parent_id": "1eaZoFg8llZyV3yQsSpV-KuwZNAibz_av",
+      "name": "EM THẢ THÍNH ANH ĐI.pdf",
+      "mime": "application/pdf",
+      "size": 2798420,
+      "modified": "2026-08-15T08:00:20.000Z",
+      "checksum": "8ffbc42f62b8fa1324b5d14bf0e680ac",
+      "folder": false
+    }
+  ]
+}

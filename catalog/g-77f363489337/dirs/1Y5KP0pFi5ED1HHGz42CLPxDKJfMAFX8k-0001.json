@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Y5KP0pFi5ED1HHGz42CLPxDKJfMAFX8k",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fldYgPMIeWYbjQPQ1iYdzPS3-fBNVCju",
+      "parent_id": "1Y5KP0pFi5ED1HHGz42CLPxDKJfMAFX8k",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3113,
+      "modified": "2026-08-15T03:16:13.000Z",
+      "checksum": "cd6caf401980b27ee91879b6334a4c59",
+      "folder": false
+    },
+    {
+      "id": "1lgGFEk5cvMrP3uoNnnlDYAxetqQ5afty",
+      "parent_id": "1Y5KP0pFi5ED1HHGz42CLPxDKJfMAFX8k",
+      "name": "THÀNH CÔNG TỘT ĐỈNH.epub",
+      "mime": "application/epub+zip",
+      "size": 481822,
+      "modified": "2026-08-15T03:16:21.000Z",
+      "checksum": "1d13cb94645b3650d3b7f8e17df2d0f5",
+      "folder": false
+    },
+    {
+      "id": "16T03DEx1_Hy6U3fDlHaRHoPFXACxDO18",
+      "parent_id": "1Y5KP0pFi5ED1HHGz42CLPxDKJfMAFX8k",
+      "name": "THÀNH CÔNG TỘT ĐỈNH.pdf",
+      "mime": "application/pdf",
+      "size": 1049414,
+      "modified": "2026-08-15T03:16:19.000Z",
+      "checksum": "8f4444f50bd00b6f1b26aeb2fbedfd86",
+      "folder": false
+    }
+  ]
+}

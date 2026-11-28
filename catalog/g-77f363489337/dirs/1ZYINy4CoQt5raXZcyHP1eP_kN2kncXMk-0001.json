@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZYINy4CoQt5raXZcyHP1eP_kN2kncXMk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NfOGhCnEWfVXYPdUNtwEu9P_4wTT13A6",
+      "parent_id": "1ZYINy4CoQt5raXZcyHP1eP_kN2kncXMk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3188,
+      "modified": "2026-08-16T04:08:43.000Z",
+      "checksum": "419dcce64b0b3cd038485a3ed3f4e6ce",
+      "folder": false
+    },
+    {
+      "id": "13uMPSR_okJYg0Vlg72WU2DKJlqCM3an9",
+      "parent_id": "1ZYINy4CoQt5raXZcyHP1eP_kN2kncXMk",
+      "name": "NỖI ĐAU RỒI SẼ QUA ĐI.epub",
+      "mime": "application/epub+zip",
+      "size": 318078,
+      "modified": "2026-08-16T04:08:49.000Z",
+      "checksum": "8d73e24618c131ba57d2876f1415f1b2",
+      "folder": false
+    },
+    {
+      "id": "1eMNsKPv9ShJox5zCMbgflmU2nUZpTtEO",
+      "parent_id": "1ZYINy4CoQt5raXZcyHP1eP_kN2kncXMk",
+      "name": "NỖI ĐAU RỒI SẼ QUA ĐI.pdf",
+      "mime": "application/pdf",
+      "size": 370624,
+      "modified": "2026-08-16T04:08:46.000Z",
+      "checksum": "3bb86047323658cf7c6734c5c09cf11a",
+      "folder": false
+    }
+  ]
+}

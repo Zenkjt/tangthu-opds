@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yJZrbU9_dgfthrRX-LaveMD0gyqrJaGx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1C_YVjKcw8Iy3PbeQ_ykFkqop0Jq795DB",
+      "parent_id": "1yJZrbU9_dgfthrRX-LaveMD0gyqrJaGx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3045,
+      "modified": "2026-08-15T15:58:49.000Z",
+      "checksum": "40b93cf736a6bd2da47b644c52339e9b",
+      "folder": false
+    },
+    {
+      "id": "1s63PQF11k6LGkDC8c37z5BLxyCG_6UlL",
+      "parent_id": "1yJZrbU9_dgfthrRX-LaveMD0gyqrJaGx",
+      "name": "PHONG KHỞI THƯƠNG LAM - PHIÊN NGOẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 799594,
+      "modified": "2026-08-15T15:58:55.000Z",
+      "checksum": "efad07af6f77d4d62828fc952a30972f",
+      "folder": false
+    },
+    {
+      "id": "1VSnp2T449TYpv9aLUpmCiq4c_vJa5X1D",
+      "parent_id": "1yJZrbU9_dgfthrRX-LaveMD0gyqrJaGx",
+      "name": "PHONG KHỞI THƯƠNG LAM - PHIÊN NGOẠI.pdf",
+      "mime": "application/pdf",
+      "size": 650716,
+      "modified": "2026-08-15T15:58:52.000Z",
+      "checksum": "491e339af0a248a86804d61d7cdf9fba",
+      "folder": false
+    }
+  ]
+}

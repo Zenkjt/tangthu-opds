@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qHPYBCsLd9y0IWe9BAJrbfUIuHdqQ4uf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dGwhC0aromGgbcuQ_xzLn99_hTpJROzM",
+      "parent_id": "1qHPYBCsLd9y0IWe9BAJrbfUIuHdqQ4uf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5165,
+      "modified": "2026-08-15T07:49:38.000Z",
+      "checksum": "84c7df235e8183bc1e832a9b52c85981",
+      "folder": false
+    },
+    {
+      "id": "1kkN8vnUN_w9SID8YjPPk5YlwCqXkIntc",
+      "parent_id": "1qHPYBCsLd9y0IWe9BAJrbfUIuHdqQ4uf",
+      "name": "THƯƠNG HẢI.epub",
+      "mime": "application/epub+zip",
+      "size": 3018729,
+      "modified": "2026-08-15T07:50:33.000Z",
+      "checksum": "eb0723769a830ba38f9f921aaa0dff80",
+      "folder": false
+    },
+    {
+      "id": "1b8UBfPegzxnwldqg4tj6J40ZJuwJGCjA",
+      "parent_id": "1qHPYBCsLd9y0IWe9BAJrbfUIuHdqQ4uf",
+      "name": "THƯƠNG HẢI.pdf",
+      "mime": "application/pdf",
+      "size": 5144425,
+      "modified": "2026-08-15T07:50:19.000Z",
+      "checksum": "43de03b5f70d0c173fa8ebeb69a48cfe",
+      "folder": false
+    }
+  ]
+}

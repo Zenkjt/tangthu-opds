@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kqW4fMETXgbBCNaYNuDdthexsQPnTZpm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uawMLd5xFAQt9XJ0kSXiZYeEjngXgA3L",
+      "parent_id": "1kqW4fMETXgbBCNaYNuDdthexsQPnTZpm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5200,
+      "modified": "2026-08-15T08:01:56.000Z",
+      "checksum": "32bfbb679db5ff00f4c6c3252403e1e7",
+      "folder": false
+    },
+    {
+      "id": "1iktRS8chTLewXHGHlesio0dzUTN4niKV",
+      "parent_id": "1kqW4fMETXgbBCNaYNuDdthexsQPnTZpm",
+      "name": "NGƯỜI ĐIỀU KHIỂN TÂM LÝ - PHẦN 3.epub",
+      "mime": "application/epub+zip",
+      "size": 172094,
+      "modified": "2026-08-15T08:02:03.000Z",
+      "checksum": "8518eea6d3dec00ef80e399b6880a5eb",
+      "folder": false
+    },
+    {
+      "id": "1dMKN3_x765Ynb0eD7BcGk8_19sDL6wme",
+      "parent_id": "1kqW4fMETXgbBCNaYNuDdthexsQPnTZpm",
+      "name": "NGƯỜI ĐIỀU KHIỂN TÂM LÝ - PHẦN 3.pdf",
+      "mime": "application/pdf",
+      "size": 371553,
+      "modified": "2026-08-15T08:02:00.000Z",
+      "checksum": "de4d47bd21451084aa5fd6c3ee423adb",
+      "folder": false
+    }
+  ]
+}

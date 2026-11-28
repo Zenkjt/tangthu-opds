@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fcZYZpDxUUx_XDOSyunWhXFRsgTOD9eD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1e5JMJVJ-ObHzsaAqqaWVE9EahkCCqwLV",
+      "parent_id": "1fcZYZpDxUUx_XDOSyunWhXFRsgTOD9eD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4876,
+      "modified": "2026-08-15T10:00:33.000Z",
+      "checksum": "06a3358dfc1be021938c44f0fc65aa11",
+      "folder": false
+    },
+    {
+      "id": "1tFzkpxC9OdzUOmiPiQpH5lNDd0JcTstP",
+      "parent_id": "1fcZYZpDxUUx_XDOSyunWhXFRsgTOD9eD",
+      "name": "TỘI ÁC TRONG BÓNG ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 363122,
+      "modified": "2026-08-15T10:00:48.000Z",
+      "checksum": "bf3316167a933555f10b4859f9bfc542",
+      "folder": false
+    },
+    {
+      "id": "1ZirRdn2Dp2dXR2PDeMExfWmZzb2ri1nt",
+      "parent_id": "1fcZYZpDxUUx_XDOSyunWhXFRsgTOD9eD",
+      "name": "TỘI ÁC TRONG BÓNG ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 484546,
+      "modified": "2026-08-15T10:00:39.000Z",
+      "checksum": "86cf51133a35720adc0e5d4890fac522",
+      "folder": false
+    }
+  ]
+}

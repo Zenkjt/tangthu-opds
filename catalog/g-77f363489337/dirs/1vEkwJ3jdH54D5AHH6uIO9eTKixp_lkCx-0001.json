@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vEkwJ3jdH54D5AHH6uIO9eTKixp_lkCx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zlk2BRr8PWOT7N5ijtP95HrPzv4ky4hP",
+      "parent_id": "1vEkwJ3jdH54D5AHH6uIO9eTKixp_lkCx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3900,
+      "modified": "2026-08-15T08:14:31.000Z",
+      "checksum": "d62d95ca835d1f254fd472d57c9dca98",
+      "folder": false
+    },
+    {
+      "id": "1U7BNNotXw00TPtuADeYvPEiRruPuvJbm",
+      "parent_id": "1vEkwJ3jdH54D5AHH6uIO9eTKixp_lkCx",
+      "name": "MARION MÃI MÃI TUỔI 13.epub",
+      "mime": "application/epub+zip",
+      "size": 425924,
+      "modified": "2026-08-15T08:14:37.000Z",
+      "checksum": "3323bcc3ec40761566130381bfaa4c4d",
+      "folder": false
+    },
+    {
+      "id": "17NqogBni_0uO1esUwsrN7rCUUuhXIHY0",
+      "parent_id": "1vEkwJ3jdH54D5AHH6uIO9eTKixp_lkCx",
+      "name": "MARION MÃI MÃI TUỔI 13.pdf",
+      "mime": "application/pdf",
+      "size": 748461,
+      "modified": "2026-08-15T08:14:35.000Z",
+      "checksum": "d6c7a98a55fce321ec29e15491ed88a1",
+      "folder": false
+    }
+  ]
+}

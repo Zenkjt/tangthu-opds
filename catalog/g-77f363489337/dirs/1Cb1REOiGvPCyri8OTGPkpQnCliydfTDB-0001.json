@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Cb1REOiGvPCyri8OTGPkpQnCliydfTDB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1D1X4lENft0sK7st4SDyBIaPkLTgwnVmL",
+      "parent_id": "1Cb1REOiGvPCyri8OTGPkpQnCliydfTDB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5777,
+      "modified": "2026-08-16T03:31:56.000Z",
+      "checksum": "49165f7fe56cc75104086fa37cd8814e",
+      "folder": false
+    },
+    {
+      "id": "1H50yz75a8HUsydKebtPOKg-PQQWbJ44f",
+      "parent_id": "1Cb1REOiGvPCyri8OTGPkpQnCliydfTDB",
+      "name": "LỤC XÌ.epub",
+      "mime": "application/epub+zip",
+      "size": 1011141,
+      "modified": "2026-08-16T03:32:02.000Z",
+      "checksum": "19f31146aa7e670a8dc7aa06f9717354",
+      "folder": false
+    },
+    {
+      "id": "1H5Wu2mMYij2MqSO7QwsvjvrSoPqV7ife",
+      "parent_id": "1Cb1REOiGvPCyri8OTGPkpQnCliydfTDB",
+      "name": "LỤC XÌ.pdf",
+      "mime": "application/pdf",
+      "size": 989725,
+      "modified": "2026-08-16T03:31:59.000Z",
+      "checksum": "02ed9bc7fd3e9f3dd595454693aa0b35",
+      "folder": false
+    }
+  ]
+}

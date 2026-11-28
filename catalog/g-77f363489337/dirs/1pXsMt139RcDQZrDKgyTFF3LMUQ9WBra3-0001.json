@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pXsMt139RcDQZrDKgyTFF3LMUQ9WBra3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dPnHov5GH4QG56mP5irSppRILLBT4Brr",
+      "parent_id": "1pXsMt139RcDQZrDKgyTFF3LMUQ9WBra3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3009,
+      "modified": "2026-08-15T11:28:58.000Z",
+      "checksum": "ca5829ebfbef329c7c730dd9525993c4",
+      "folder": false
+    },
+    {
+      "id": "1kG6EEmJc4m-IniKqMh0fSg8Lsr1wSlON",
+      "parent_id": "1pXsMt139RcDQZrDKgyTFF3LMUQ9WBra3",
+      "name": "TÀI LIỆU ÔN TẬP TIN HỌC CƠ BẢN.epub",
+      "mime": "application/epub+zip",
+      "size": 416019,
+      "modified": "2026-08-15T11:29:03.000Z",
+      "checksum": "721bf439289776edcc168da4118a5d47",
+      "folder": false
+    },
+    {
+      "id": "1LtVO11xqV5euIqN1UOMFchRcnYhohJcY",
+      "parent_id": "1pXsMt139RcDQZrDKgyTFF3LMUQ9WBra3",
+      "name": "TÀI LIỆU ÔN TẬP TIN HỌC CƠ BẢN.pdf",
+      "mime": "application/pdf",
+      "size": 1827073,
+      "modified": "2026-08-15T11:29:01.000Z",
+      "checksum": "4cd87b0295498385381d05cdaaf1a3ca",
+      "folder": false
+    }
+  ]
+}

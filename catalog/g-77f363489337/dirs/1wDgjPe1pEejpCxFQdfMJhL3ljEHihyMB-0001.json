@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wDgjPe1pEejpCxFQdfMJhL3ljEHihyMB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ck6A6SR0hlyy3_abJ93fkUTg6Dr0hYJn",
+      "parent_id": "1wDgjPe1pEejpCxFQdfMJhL3ljEHihyMB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3430,
+      "modified": "2026-08-16T04:08:46.000Z",
+      "checksum": "25ea03b15f824d371e9f89440c9c423e",
+      "folder": false
+    },
+    {
+      "id": "1L1n_XswO6AffW4Mh4NGMM7H0c3hME7BL",
+      "parent_id": "1wDgjPe1pEejpCxFQdfMJhL3ljEHihyMB",
+      "name": "NƠI CUỐI CẦU VỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1055837,
+      "modified": "2026-08-16T04:08:53.000Z",
+      "checksum": "5033ca24c08453bda9262f6171345738",
+      "folder": false
+    },
+    {
+      "id": "12FQgmr3TZdFh7-MVllawJOl8APZQIBAe",
+      "parent_id": "1wDgjPe1pEejpCxFQdfMJhL3ljEHihyMB",
+      "name": "NƠI CUỐI CẦU VỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 1341131,
+      "modified": "2026-08-16T04:08:50.000Z",
+      "checksum": "4b7e8d72b238d1c732e1e24c567615ff",
+      "folder": false
+    }
+  ]
+}

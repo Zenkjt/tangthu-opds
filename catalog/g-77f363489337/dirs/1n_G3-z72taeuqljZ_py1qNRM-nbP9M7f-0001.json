@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1n_G3-z72taeuqljZ_py1qNRM-nbP9M7f",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yX5n79WwDs3AM81KoNjb-_myHoZvccE5",
+      "parent_id": "1n_G3-z72taeuqljZ_py1qNRM-nbP9M7f",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 848,
+      "modified": "2026-08-15T12:59:51.000Z",
+      "checksum": "f388cceda492cff085e39a7e229d9e84",
+      "folder": false
+    },
+    {
+      "id": "1Ft025ut-Ry6Srs8BXCtouLC9jLiaKvYe",
+      "parent_id": "1n_G3-z72taeuqljZ_py1qNRM-nbP9M7f",
+      "name": "NGÔI NHÀ CỦA NHỮNG NGƯỜI TÍ HON.epub",
+      "mime": "application/epub+zip",
+      "size": 611480,
+      "modified": "2026-08-15T12:59:58.000Z",
+      "checksum": "d3d5b729af91e7cb233cff5650a7c4c2",
+      "folder": false
+    },
+    {
+      "id": "1vql_fZlYaibQJn2ovhdVl-eeLOgvHOkj",
+      "parent_id": "1n_G3-z72taeuqljZ_py1qNRM-nbP9M7f",
+      "name": "NGÔI NHÀ CỦA NHỮNG NGƯỜI TÍ HON.pdf",
+      "mime": "application/pdf",
+      "size": 548133,
+      "modified": "2026-08-15T12:59:55.000Z",
+      "checksum": "baa1703816963d2309ec697d4f8de048",
+      "folder": false
+    }
+  ]
+}

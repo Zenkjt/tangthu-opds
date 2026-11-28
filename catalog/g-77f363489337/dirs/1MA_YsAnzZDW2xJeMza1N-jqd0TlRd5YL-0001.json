@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MA_YsAnzZDW2xJeMza1N-jqd0TlRd5YL",
+  "page": 1,
+  "items": [
+    {
+      "id": "18f2vIrpShdUeYZENAvmcKmOBI3EJSO11",
+      "parent_id": "1MA_YsAnzZDW2xJeMza1N-jqd0TlRd5YL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5263,
+      "modified": "2026-08-15T00:46:11.000Z",
+      "checksum": "3b651d24acb46c5fa6ef660e7d9ad6e7",
+      "folder": false
+    },
+    {
+      "id": "1HLv6f_MofcEVeB2NHi52T1a5CxHrpeCd",
+      "parent_id": "1MA_YsAnzZDW2xJeMza1N-jqd0TlRd5YL",
+      "name": "TẤT CẢ ĐỀU LÀ CHUYỆN NHỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 296075,
+      "modified": "2026-08-15T00:46:17.000Z",
+      "checksum": "1da148210177e6d8e99436fa4a1e22d6",
+      "folder": false
+    },
+    {
+      "id": "1Bl097wF3mSMywsPLu1_Z6NKTvY4pncXp",
+      "parent_id": "1MA_YsAnzZDW2xJeMza1N-jqd0TlRd5YL",
+      "name": "TẤT CẢ ĐỀU LÀ CHUYỆN NHỎ.pdf",
+      "mime": "application/pdf",
+      "size": 247284,
+      "modified": "2026-08-15T00:46:14.000Z",
+      "checksum": "68988e2b3a07d32cc9edfb0a552371a3",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yMvD_7C8iLAd0ejzHOM5vlankXmBWBXW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MWUE3XB29r0304x3tTCKOxZQKOY8CvEL",
+      "parent_id": "1yMvD_7C8iLAd0ejzHOM5vlankXmBWBXW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1115,
+      "modified": "2026-08-15T15:40:19.000Z",
+      "checksum": "c09778802adbecfafb43e4c8b85d42bf",
+      "folder": false
+    },
+    {
+      "id": "1YkbC7Vg0xd1B7rj1xKayP9bI75ERf7xk",
+      "parent_id": "1yMvD_7C8iLAd0ejzHOM5vlankXmBWBXW",
+      "name": "MỘT NẮM LÚA MẠCH.epub",
+      "mime": "application/epub+zip",
+      "size": 391787,
+      "modified": "2026-08-15T15:40:27.000Z",
+      "checksum": "ad5d76de808b59400a0748cdd78ef3e7",
+      "folder": false
+    },
+    {
+      "id": "1YvB13RyFO3TAWLMB847Rl4ijBxoZev7p",
+      "parent_id": "1yMvD_7C8iLAd0ejzHOM5vlankXmBWBXW",
+      "name": "MỘT NẮM LÚA MẠCH.pdf",
+      "mime": "application/pdf",
+      "size": 581097,
+      "modified": "2026-08-15T15:40:24.000Z",
+      "checksum": "0b96821810498e1cc699e86f43bdd344",
+      "folder": false
+    }
+  ]
+}

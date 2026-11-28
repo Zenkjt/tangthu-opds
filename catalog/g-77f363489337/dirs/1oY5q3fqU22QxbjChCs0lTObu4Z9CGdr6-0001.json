@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oY5q3fqU22QxbjChCs0lTObu4Z9CGdr6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iD2KS-lNpqHi-iPKlTKzjaVpVQxvS9C3",
+      "parent_id": "1oY5q3fqU22QxbjChCs0lTObu4Z9CGdr6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4466,
+      "modified": "2026-08-16T03:11:06.000Z",
+      "checksum": "924ff85d8cebf6a4ab7788a51e90b8df",
+      "folder": false
+    },
+    {
+      "id": "1bif_TT19aIcu3nPlkuhGXELzKCzn4RNo",
+      "parent_id": "1oY5q3fqU22QxbjChCs0lTObu4Z9CGdr6",
+      "name": "TRUYỆN NGẮN KINH DỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 462589,
+      "modified": "2026-08-16T03:11:13.000Z",
+      "checksum": "191623ccc4561096e9ebf6a86a6f4f3a",
+      "folder": false
+    },
+    {
+      "id": "1ydPAZs6M_FEnVilaNb12PBy1kFK8VeBP",
+      "parent_id": "1oY5q3fqU22QxbjChCs0lTObu4Z9CGdr6",
+      "name": "TRUYỆN NGẮN KINH DỊ.pdf",
+      "mime": "application/pdf",
+      "size": 1412962,
+      "modified": "2026-08-16T03:11:10.000Z",
+      "checksum": "786acfb539ca5020c8eb2a968e6b1881",
+      "folder": false
+    }
+  ]
+}

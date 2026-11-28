@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zGGGWxzTEHUwxtWxBCbYIETJ99OQj31n",
+  "page": 1,
+  "items": [
+    {
+      "id": "143KcHNj2_MP5xluEONM6JIPNUPDhOqsr",
+      "parent_id": "1zGGGWxzTEHUwxtWxBCbYIETJ99OQj31n",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5044,
+      "modified": "2026-08-15T05:47:32.000Z",
+      "checksum": "259bc4d92b61a6afda5d3ccc3ea39823",
+      "folder": false
+    },
+    {
+      "id": "1M2BUd6gYigmOVANrPJR9iYm2FRQ96tDx",
+      "parent_id": "1zGGGWxzTEHUwxtWxBCbYIETJ99OQj31n",
+      "name": "ĐỨC PHẬT TRONG BA LÔ.epub",
+      "mime": "application/epub+zip",
+      "size": 405347,
+      "modified": "2026-08-15T05:47:44.000Z",
+      "checksum": "d539399ac74f12a9e46d7718d574f597",
+      "folder": false
+    },
+    {
+      "id": "1HQ4710GPwWMTVzoAdEkMrdRwDwdI_2LO",
+      "parent_id": "1zGGGWxzTEHUwxtWxBCbYIETJ99OQj31n",
+      "name": "ĐỨC PHẬT TRONG BA LÔ.pdf",
+      "mime": "application/pdf",
+      "size": 531991,
+      "modified": "2026-08-15T05:47:42.000Z",
+      "checksum": "4031cba78a5224ba2d1f3f5f92bb6409",
+      "folder": false
+    }
+  ]
+}

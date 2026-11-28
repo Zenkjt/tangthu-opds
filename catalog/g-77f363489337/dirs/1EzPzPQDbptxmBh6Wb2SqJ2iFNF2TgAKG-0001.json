@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EzPzPQDbptxmBh6Wb2SqJ2iFNF2TgAKG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GjIoK9dVhd1637sSTt7EM1xb2UdIjZsD",
+      "parent_id": "1EzPzPQDbptxmBh6Wb2SqJ2iFNF2TgAKG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2733,
+      "modified": "2026-08-15T06:57:07.000Z",
+      "checksum": "55e2ac1bdb442c58c2b777836d1a945a",
+      "folder": false
+    },
+    {
+      "id": "1Y7IM6EGDge9VhnQD_kpyhwN45638Ds-b",
+      "parent_id": "1EzPzPQDbptxmBh6Wb2SqJ2iFNF2TgAKG",
+      "name": "NHƯ NÚI NHƯ MÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 439630,
+      "modified": "2026-08-15T06:57:18.000Z",
+      "checksum": "1d7e4d2d02f5b9ce91601e871fe82e49",
+      "folder": false
+    },
+    {
+      "id": "1Em3aEvBeA9-gfVd4C0IS5mQCqhXbV0qn",
+      "parent_id": "1EzPzPQDbptxmBh6Wb2SqJ2iFNF2TgAKG",
+      "name": "NHƯ NÚI NHƯ MÂY.pdf",
+      "mime": "application/pdf",
+      "size": 1009708,
+      "modified": "2026-08-15T06:57:14.000Z",
+      "checksum": "a06f576906e897e83bd4ea8b9cdcd588",
+      "folder": false
+    }
+  ]
+}

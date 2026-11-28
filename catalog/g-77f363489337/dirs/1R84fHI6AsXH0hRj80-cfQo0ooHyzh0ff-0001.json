@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1R84fHI6AsXH0hRj80-cfQo0ooHyzh0ff",
+  "page": 1,
+  "items": [
+    {
+      "id": "1A2-WI_q_sNlBm3G3sP9FWX_tFVqW5ZmK",
+      "parent_id": "1R84fHI6AsXH0hRj80-cfQo0ooHyzh0ff",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1185,
+      "modified": "2026-08-15T04:22:03.000Z",
+      "checksum": "492b2c97c684328edf3bf6b953644894",
+      "folder": false
+    },
+    {
+      "id": "11V0_oLUndl5WPxUVp9tkYcFikdO2ykUw",
+      "parent_id": "1R84fHI6AsXH0hRj80-cfQo0ooHyzh0ff",
+      "name": "TỪ THUỐC TỚI THIỀN.epub",
+      "mime": "application/epub+zip",
+      "size": 507878,
+      "modified": "2026-08-15T04:22:32.000Z",
+      "checksum": "3d511c4f80230ef42db8b24f3b38fe22",
+      "folder": false
+    },
+    {
+      "id": "1K_Ytz2WSs2IQpd6sNSz3fS2_750P7aqv",
+      "parent_id": "1R84fHI6AsXH0hRj80-cfQo0ooHyzh0ff",
+      "name": "TỪ THUỐC TỚI THIỀN.pdf",
+      "mime": "application/pdf",
+      "size": 4616266,
+      "modified": "2026-08-15T04:22:28.000Z",
+      "checksum": "376fccf7fe973b23c21b8ad42ba9643f",
+      "folder": false
+    }
+  ]
+}

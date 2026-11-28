@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "104g-qJTkCPkiUdtVOrE-zHLZnEiTilXd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1p75F40QVi5cIiFGYfHnilToInmH6FXCy",
+      "parent_id": "104g-qJTkCPkiUdtVOrE-zHLZnEiTilXd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 536,
+      "modified": "2026-08-15T10:56:48.000Z",
+      "checksum": "a2a1bb6cf02f5a3cfa6afc26e5a51431",
+      "folder": false
+    },
+    {
+      "id": "1wGaTU0YYTHstnJM41zFvBww_kGPV1sLE",
+      "parent_id": "104g-qJTkCPkiUdtVOrE-zHLZnEiTilXd",
+      "name": "HẮT XÌ.epub",
+      "mime": "application/epub+zip",
+      "size": 415483,
+      "modified": "2026-08-15T10:56:55.000Z",
+      "checksum": "a01179b7d9dc69e0a35b2838ccb65553",
+      "folder": false
+    },
+    {
+      "id": "1YFaO3iH-D-LBAPgefbUKHvS6D2InYdXf",
+      "parent_id": "104g-qJTkCPkiUdtVOrE-zHLZnEiTilXd",
+      "name": "HẮT XÌ.pdf",
+      "mime": "application/pdf",
+      "size": 820798,
+      "modified": "2026-08-15T10:56:52.000Z",
+      "checksum": "f251b16e5d4ef0d1d6becef88ffecadd",
+      "folder": false
+    }
+  ]
+}

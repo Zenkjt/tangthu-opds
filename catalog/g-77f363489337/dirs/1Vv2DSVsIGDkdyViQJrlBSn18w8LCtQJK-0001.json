@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Vv2DSVsIGDkdyViQJrlBSn18w8LCtQJK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1L_buTu8_qgxh7gBrXi7ub4YUez_YqrjL",
+      "parent_id": "1Vv2DSVsIGDkdyViQJrlBSn18w8LCtQJK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3230,
+      "modified": "2026-08-15T10:22:35.000Z",
+      "checksum": "c73a5ad4ad20577d7288a94597a2931c",
+      "folder": false
+    },
+    {
+      "id": "1-RqC6Ip_uCYF3fZt1Y1gfRdrbUN_TFvu",
+      "parent_id": "1Vv2DSVsIGDkdyViQJrlBSn18w8LCtQJK",
+      "name": "TẪN HOAN.epub",
+      "mime": "application/epub+zip",
+      "size": 483598,
+      "modified": "2026-08-15T10:22:41.000Z",
+      "checksum": "b6a2ec7a22c3ed17cbe0753243297dd9",
+      "folder": false
+    },
+    {
+      "id": "1XZnu9ZgSDsVY9Gy264bao_FZFY8ZTZ6R",
+      "parent_id": "1Vv2DSVsIGDkdyViQJrlBSn18w8LCtQJK",
+      "name": "TẪN HOAN.pdf",
+      "mime": "application/pdf",
+      "size": 1035881,
+      "modified": "2026-08-15T10:22:39.000Z",
+      "checksum": "382b724ffb30d9722078515cccccecad",
+      "folder": false
+    }
+  ]
+}

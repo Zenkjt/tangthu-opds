@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lABJusJ9JTfuPUOGactmur3ZC_Axw2Id",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kjCjt1U5RwaaL2ZLXcQ9V3zEL_YwlzR3",
+      "parent_id": "1lABJusJ9JTfuPUOGactmur3ZC_Axw2Id",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6064,
+      "modified": "2026-08-15T03:21:22.000Z",
+      "checksum": "f06d394ed1eb82e6fcd0c6068ff14f58",
+      "folder": false
+    },
+    {
+      "id": "1aG6UKhI-8KSx5R79LCYZ2eIKEQb9eSZk",
+      "parent_id": "1lABJusJ9JTfuPUOGactmur3ZC_Axw2Id",
+      "name": "THIÊN ĐƯỜNG CÓ THẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 460775,
+      "modified": "2026-08-15T03:21:30.000Z",
+      "checksum": "0ce6c2a567157d6c08e267588dfd4026",
+      "folder": false
+    },
+    {
+      "id": "11v7pQciiP17wFeJlQ_8Lt6IjwNhU4aV5",
+      "parent_id": "1lABJusJ9JTfuPUOGactmur3ZC_Axw2Id",
+      "name": "THIÊN ĐƯỜNG CÓ THẬT.pdf",
+      "mime": "application/pdf",
+      "size": 798509,
+      "modified": "2026-08-15T03:21:26.000Z",
+      "checksum": "5f5839d8cef3c893035434da95dd121d",
+      "folder": false
+    }
+  ]
+}

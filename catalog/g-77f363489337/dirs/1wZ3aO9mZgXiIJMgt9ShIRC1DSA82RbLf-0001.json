@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wZ3aO9mZgXiIJMgt9ShIRC1DSA82RbLf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1b9dtOub1tgqIa0M4en0V8uwxakgm7rSf",
+      "parent_id": "1wZ3aO9mZgXiIJMgt9ShIRC1DSA82RbLf",
+      "name": "BẮT CÓC.epub",
+      "mime": "application/epub+zip",
+      "size": 478612,
+      "modified": "2026-08-16T04:22:38.000Z",
+      "checksum": "2be6606b8926166e1a698d7a905f1d29",
+      "folder": false
+    },
+    {
+      "id": "1t_de9-FyiQp0DyBxOcdMJShvgW8Jwg-y",
+      "parent_id": "1wZ3aO9mZgXiIJMgt9ShIRC1DSA82RbLf",
+      "name": "BẮT CÓC.pdf",
+      "mime": "application/pdf",
+      "size": 975798,
+      "modified": "2026-08-16T04:22:34.000Z",
+      "checksum": "12644c5b8b51a11dd5b715236dc4eb41",
+      "folder": false
+    },
+    {
+      "id": "1R5L5JFVfQzNSfWmcJR8I9NL-M6fLa1Mu",
+      "parent_id": "1wZ3aO9mZgXiIJMgt9ShIRC1DSA82RbLf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 703,
+      "modified": "2026-08-16T04:22:27.000Z",
+      "checksum": "e946ed17ee4eaaf3f0d145b734552567",
+      "folder": false
+    }
+  ]
+}

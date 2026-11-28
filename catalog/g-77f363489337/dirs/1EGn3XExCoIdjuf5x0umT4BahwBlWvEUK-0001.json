@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EGn3XExCoIdjuf5x0umT4BahwBlWvEUK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AXnRpyHrHv0wiAGLpvuXjLFy-iju9pIU",
+      "parent_id": "1EGn3XExCoIdjuf5x0umT4BahwBlWvEUK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5709,
+      "modified": "2026-08-15T03:36:46.000Z",
+      "checksum": "1e722987dd5de28761af76da32930b79",
+      "folder": false
+    },
+    {
+      "id": "1veeAeQYI-YIB8uBFNFurtDbME4yKvLJO",
+      "parent_id": "1EGn3XExCoIdjuf5x0umT4BahwBlWvEUK",
+      "name": "SỰ BÌNH AN KHÔNG GÌ LAY CHUYỂN.epub",
+      "mime": "application/epub+zip",
+      "size": 132487,
+      "modified": "2026-08-15T03:36:52.000Z",
+      "checksum": "7518b98da6a2084f46ce343d595c265f",
+      "folder": false
+    },
+    {
+      "id": "1tbvzVjt_iFYmbyFauJx_TI6DpF6zbm4w",
+      "parent_id": "1EGn3XExCoIdjuf5x0umT4BahwBlWvEUK",
+      "name": "SỰ BÌNH AN KHÔNG GÌ LAY CHUYỂN.pdf",
+      "mime": "application/pdf",
+      "size": 605293,
+      "modified": "2026-08-15T03:36:50.000Z",
+      "checksum": "e8206ce72661299878e54978482fe11f",
+      "folder": false
+    }
+  ]
+}

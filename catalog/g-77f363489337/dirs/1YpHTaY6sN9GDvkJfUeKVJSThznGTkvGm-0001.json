@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YpHTaY6sN9GDvkJfUeKVJSThznGTkvGm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dH1g7WdJVYX4Sq8cNNf_hIyLqhxWlK3f",
+      "parent_id": "1YpHTaY6sN9GDvkJfUeKVJSThznGTkvGm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1302,
+      "modified": "2026-08-15T11:04:24.000Z",
+      "checksum": "0221da5b555ba18c6bf163dd417e4442",
+      "folder": false
+    },
+    {
+      "id": "1r303nOKbpFdDKq_7HK9yVxByI5aOP6zm",
+      "parent_id": "1YpHTaY6sN9GDvkJfUeKVJSThznGTkvGm",
+      "name": "MẬT MÃ TÂY TẠNG - TẬP 7.epub",
+      "mime": "application/epub+zip",
+      "size": 627624,
+      "modified": "2026-08-15T11:04:35.000Z",
+      "checksum": "5036e35aa0c214564232fb5e064fe707",
+      "folder": false
+    },
+    {
+      "id": "1AkvOMomUKMgBt4Ez2-9yc5ZTWqBPampd",
+      "parent_id": "1YpHTaY6sN9GDvkJfUeKVJSThznGTkvGm",
+      "name": "MẬT MÃ TÂY TẠNG - TẬP 7.pdf",
+      "mime": "application/pdf",
+      "size": 2675806,
+      "modified": "2026-08-15T11:04:30.000Z",
+      "checksum": "1ba80fa4281531a797e80f736052fd22",
+      "folder": false
+    }
+  ]
+}

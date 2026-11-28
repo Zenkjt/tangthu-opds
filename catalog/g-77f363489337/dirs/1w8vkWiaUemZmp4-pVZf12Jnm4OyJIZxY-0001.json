@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1w8vkWiaUemZmp4-pVZf12Jnm4OyJIZxY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WSIv_oLnq4D76VdE5KQgiNsPQylchtzt",
+      "parent_id": "1w8vkWiaUemZmp4-pVZf12Jnm4OyJIZxY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 709,
+      "modified": "2026-08-15T12:55:36.000Z",
+      "checksum": "ba45711e974ffa3032d06e1eea667248",
+      "folder": false
+    },
+    {
+      "id": "14P4QMZwih3Qr3GZaF8DicWdN2GNGAW1b",
+      "parent_id": "1w8vkWiaUemZmp4-pVZf12Jnm4OyJIZxY",
+      "name": "TRÊN CON TÀU HƯỚNG TỚI BÌNH MINH.epub",
+      "mime": "application/epub+zip",
+      "size": 553066,
+      "modified": "2026-08-15T12:56:18.000Z",
+      "checksum": "d816b3419c69df3d62b555b3c2dc34b7",
+      "folder": false
+    },
+    {
+      "id": "1uBJZJe1XCZkdDL18dSIKCEbJJBNQCg4Z",
+      "parent_id": "1w8vkWiaUemZmp4-pVZf12Jnm4OyJIZxY",
+      "name": "TRÊN CON TÀU HƯỚNG TỚI BÌNH MINH.pdf",
+      "mime": "application/pdf",
+      "size": 779286,
+      "modified": "2026-08-15T12:56:09.000Z",
+      "checksum": "f685e3c1f61909224c0e6aa7f707e06a",
+      "folder": false
+    }
+  ]
+}

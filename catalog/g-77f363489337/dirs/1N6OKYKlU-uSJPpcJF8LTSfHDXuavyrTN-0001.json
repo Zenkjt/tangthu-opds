@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1N6OKYKlU-uSJPpcJF8LTSfHDXuavyrTN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Q_C97PBwvozq-c10gVTjEquUDBRHZp6o",
+      "parent_id": "1N6OKYKlU-uSJPpcJF8LTSfHDXuavyrTN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3500,
+      "modified": "2026-08-15T00:58:59.000Z",
+      "checksum": "10ea05fefbf290fb26d29414b1318df3",
+      "folder": false
+    },
+    {
+      "id": "1CG3VjRu-YG0NLRjDokCVbHEkZrWoKRe9",
+      "parent_id": "1N6OKYKlU-uSJPpcJF8LTSfHDXuavyrTN",
+      "name": "NGHỆ THUẬT CÂU CÁ.epub",
+      "mime": "application/epub+zip",
+      "size": 561441,
+      "modified": "2026-08-15T00:59:07.000Z",
+      "checksum": "3637a6d17578f73ad604d2283f9ad41e",
+      "folder": false
+    },
+    {
+      "id": "1zbTUuR4inhLBTbkGDG1bk8szj2CWQEU_",
+      "parent_id": "1N6OKYKlU-uSJPpcJF8LTSfHDXuavyrTN",
+      "name": "NGHỆ THUẬT CÂU CÁ.pdf",
+      "mime": "application/pdf",
+      "size": 572139,
+      "modified": "2026-08-15T00:59:04.000Z",
+      "checksum": "c6f3a45ca125534f6277ecc3004e2391",
+      "folder": false
+    }
+  ]
+}

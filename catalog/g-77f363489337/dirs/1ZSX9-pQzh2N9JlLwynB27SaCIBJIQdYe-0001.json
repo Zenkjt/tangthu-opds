@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZSX9-pQzh2N9JlLwynB27SaCIBJIQdYe",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HxoXGouycW-wiyz7SboOEPjWHWmZaymd",
+      "parent_id": "1ZSX9-pQzh2N9JlLwynB27SaCIBJIQdYe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5018,
+      "modified": "2026-08-15T13:12:16.000Z",
+      "checksum": "e42b15caef722ec1f25f42ec2e8e8abf",
+      "folder": false
+    },
+    {
+      "id": "1iB9y8PvyQJeSHdySLTm0Uu1OtvI_wV2j",
+      "parent_id": "1ZSX9-pQzh2N9JlLwynB27SaCIBJIQdYe",
+      "name": "MẬT NGỮ 12 CHÒM SAO.epub",
+      "mime": "application/epub+zip",
+      "size": 736968,
+      "modified": "2026-08-15T13:12:22.000Z",
+      "checksum": "8e80ac5f1832a41a8d794da01a07dfea",
+      "folder": false
+    },
+    {
+      "id": "17q_BqMYyDfJLQw-pat8GTTtujhckCI7_",
+      "parent_id": "1ZSX9-pQzh2N9JlLwynB27SaCIBJIQdYe",
+      "name": "MẬT NGỮ 12 CHÒM SAO.pdf",
+      "mime": "application/pdf",
+      "size": 634315,
+      "modified": "2026-08-15T13:12:19.000Z",
+      "checksum": "def78278d5cac92f5f42a34029a86b6b",
+      "folder": false
+    }
+  ]
+}

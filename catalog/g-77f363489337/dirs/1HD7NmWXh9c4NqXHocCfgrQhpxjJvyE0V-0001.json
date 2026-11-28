@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HD7NmWXh9c4NqXHocCfgrQhpxjJvyE0V",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aareem-gaSribZ1_sdVsloZPAITV4pqi",
+      "parent_id": "1HD7NmWXh9c4NqXHocCfgrQhpxjJvyE0V",
+      "name": "BỤI ĐỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 410022,
+      "modified": "2026-08-16T02:58:23.000Z",
+      "checksum": "f16dc2e9359e4b2a2c21015b47ee3767",
+      "folder": false
+    },
+    {
+      "id": "1pfcggIsZJWBF1CJt4euHhW4hRI6wQ9I2",
+      "parent_id": "1HD7NmWXh9c4NqXHocCfgrQhpxjJvyE0V",
+      "name": "BỤI ĐỜI.pdf",
+      "mime": "application/pdf",
+      "size": 894204,
+      "modified": "2026-08-16T02:58:21.000Z",
+      "checksum": "cf8fcb19a6f6980057b199c401edb47c",
+      "folder": false
+    },
+    {
+      "id": "1_FcOT1tZCK3sBh25fI0WDfwy0ADka-7c",
+      "parent_id": "1HD7NmWXh9c4NqXHocCfgrQhpxjJvyE0V",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4770,
+      "modified": "2026-08-16T02:58:16.000Z",
+      "checksum": "4e22a82be9548e76d1e894e6a849d5c0",
+      "folder": false
+    }
+  ]
+}

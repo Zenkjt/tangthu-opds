@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BchaRUnaJFzOlhclSeOJRVrE9TQB19z2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RNdghH2a877Y653VM9zTE2PyO2GvcfjG",
+      "parent_id": "1BchaRUnaJFzOlhclSeOJRVrE9TQB19z2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 870,
+      "modified": "2026-08-15T10:23:23.000Z",
+      "checksum": "bf90df9c2136a5f4620042b06eea2e38",
+      "folder": false
+    },
+    {
+      "id": "1j9iXlg4E2dTM7MyXYbukyN9oL15s7I-E",
+      "parent_id": "1BchaRUnaJFzOlhclSeOJRVrE9TQB19z2",
+      "name": "TẤM LÒNG VÀNG VÀ ÔNG CHỦ.epub",
+      "mime": "application/epub+zip",
+      "size": 511150,
+      "modified": "2026-08-15T10:23:54.000Z",
+      "checksum": "ddd443c2a729e660294778f4a69d4eca",
+      "folder": false
+    },
+    {
+      "id": "1cti1Em5LMWU3px2tl5NcOFwU1MnR1xU3",
+      "parent_id": "1BchaRUnaJFzOlhclSeOJRVrE9TQB19z2",
+      "name": "TẤM LÒNG VÀNG VÀ ÔNG CHỦ.pdf",
+      "mime": "application/pdf",
+      "size": 556758,
+      "modified": "2026-08-15T10:23:35.000Z",
+      "checksum": "5fcbb6f6e22f3f3acd2ad0a86765a193",
+      "folder": false
+    }
+  ]
+}

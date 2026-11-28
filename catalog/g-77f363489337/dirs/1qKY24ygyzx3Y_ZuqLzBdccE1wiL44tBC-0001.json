@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qKY24ygyzx3Y_ZuqLzBdccE1wiL44tBC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1habHN6go33JG1AVtfFq_43cglHCWDdgm",
+      "parent_id": "1qKY24ygyzx3Y_ZuqLzBdccE1wiL44tBC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4117,
+      "modified": "2026-08-15T05:44:09.000Z",
+      "checksum": "d18317fec70c158ac238b6e7659863ee",
+      "folder": false
+    },
+    {
+      "id": "14hhynYqzFB20dDfGchzTyOZByJTDuf04",
+      "parent_id": "1qKY24ygyzx3Y_ZuqLzBdccE1wiL44tBC",
+      "name": "ĐỐI THOẠI VỚI THƯỢNG ĐẾ - TẬP 2.epub",
+      "mime": "application/epub+zip",
+      "size": 358131,
+      "modified": "2026-08-15T05:44:22.000Z",
+      "checksum": "c87143d4211cf912c3452f4da9e2d10f",
+      "folder": false
+    },
+    {
+      "id": "16wfwAgKL2DHEYt0hxLwlmroUR1lrIUbi",
+      "parent_id": "1qKY24ygyzx3Y_ZuqLzBdccE1wiL44tBC",
+      "name": "ĐỐI THOẠI VỚI THƯỢNG ĐẾ - TẬP 2.pdf",
+      "mime": "application/pdf",
+      "size": 1071914,
+      "modified": "2026-08-15T05:44:18.000Z",
+      "checksum": "34ac7b70f8a6760d093aa9ece4e5e296",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10ulZbk2kE-ChA2puyvvLeEoSiwkj8DLp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GiZISGpmr568Kipdre67CEwdWPMirjol",
+      "parent_id": "10ulZbk2kE-ChA2puyvvLeEoSiwkj8DLp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6470,
+      "modified": "2026-08-15T04:22:59.000Z",
+      "checksum": "ba4952f6f28b056b8fd7c671512d54d9",
+      "folder": false
+    },
+    {
+      "id": "1krPcWWHhunTn817fQpu97C6oF4NntfSn",
+      "parent_id": "10ulZbk2kE-ChA2puyvvLeEoSiwkj8DLp",
+      "name": "TIÊM CHỦNG SỰ THỰC ĐẰNG SAU SỰ HUYỀN BÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 405376,
+      "modified": "2026-08-15T04:23:08.000Z",
+      "checksum": "9f2c0648401001176cba30df3e7034dd",
+      "folder": false
+    },
+    {
+      "id": "1pAcXTLkw1_A4Cyc1THsY_HPkbQVK35kR",
+      "parent_id": "10ulZbk2kE-ChA2puyvvLeEoSiwkj8DLp",
+      "name": "TIÊM CHỦNG SỰ THỰC ĐẰNG SAU SỰ HUYỀN BÍ.pdf",
+      "mime": "application/pdf",
+      "size": 1942129,
+      "modified": "2026-08-15T04:23:06.000Z",
+      "checksum": "a15ce6956c7e52b8a6912e1c56448598",
+      "folder": false
+    }
+  ]
+}

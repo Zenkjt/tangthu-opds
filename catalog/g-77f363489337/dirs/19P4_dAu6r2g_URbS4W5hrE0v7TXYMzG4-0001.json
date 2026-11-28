@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19P4_dAu6r2g_URbS4W5hrE0v7TXYMzG4",
+  "page": 1,
+  "items": [
+    {
+      "id": "17vEFFUkLT5fmhb8PtkyNVGl3Vwsx_qPU",
+      "parent_id": "19P4_dAu6r2g_URbS4W5hrE0v7TXYMzG4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8562,
+      "modified": "2026-08-15T07:33:50.000Z",
+      "checksum": "74ec36484d4b9ef74d905f3186de2407",
+      "folder": false
+    },
+    {
+      "id": "127KLKtPUwW8gcCxUHXJtVj84amnOm8B1",
+      "parent_id": "19P4_dAu6r2g_URbS4W5hrE0v7TXYMzG4",
+      "name": "HỒNG NGỌC.epub",
+      "mime": "application/epub+zip",
+      "size": 747325,
+      "modified": "2026-08-15T07:33:56.000Z",
+      "checksum": "a7f2cde179fb3a6fa8dc29d352d80df3",
+      "folder": false
+    },
+    {
+      "id": "1rJNcC2CPTFIxQsCr12pchBRcsx4rxKBH",
+      "parent_id": "19P4_dAu6r2g_URbS4W5hrE0v7TXYMzG4",
+      "name": "HỒNG NGỌC.pdf",
+      "mime": "application/pdf",
+      "size": 868225,
+      "modified": "2026-08-15T07:33:53.000Z",
+      "checksum": "d1853e2ff975330ff9906c3bbd27ee01",
+      "folder": false
+    }
+  ]
+}

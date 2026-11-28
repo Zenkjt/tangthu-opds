@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rU3tD1chRyzDbxszkfANJ5TzDaGsAun5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S0-IH_4kt1LPfsDL7OKpyq2ZZ1a9qfcH",
+      "parent_id": "1rU3tD1chRyzDbxszkfANJ5TzDaGsAun5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 521,
+      "modified": "2026-08-15T10:37:28.000Z",
+      "checksum": "16bdf4bb469707f3172982689d57368b",
+      "folder": false
+    },
+    {
+      "id": "1wfrwgYoc10kGksuzVausPvxAidsqKQO2",
+      "parent_id": "1rU3tD1chRyzDbxszkfANJ5TzDaGsAun5",
+      "name": "NHỮNG GIA ĐÌNH CỰ TỘC.epub",
+      "mime": "application/epub+zip",
+      "size": 631689,
+      "modified": "2026-08-15T10:37:35.000Z",
+      "checksum": "a5f2bac5a926872b6868394acbc39f35",
+      "folder": false
+    },
+    {
+      "id": "1GAU-R-gpruUIj1H9e1VHCXT-we-KoL55",
+      "parent_id": "1rU3tD1chRyzDbxszkfANJ5TzDaGsAun5",
+      "name": "NHỮNG GIA ĐÌNH CỰ TỘC.pdf",
+      "mime": "application/pdf",
+      "size": 959648,
+      "modified": "2026-08-15T10:37:32.000Z",
+      "checksum": "a6b0c900f109ea5947c3890bc330740c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1v_k8BAciYoz1ju80ckExSpwHceAyPbtv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Es1aXk_zYvDucZZ4R1ZXTEprpaKSNsWn",
+      "parent_id": "1v_k8BAciYoz1ju80ckExSpwHceAyPbtv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4990,
+      "modified": "2026-08-15T06:56:53.000Z",
+      "checksum": "cff0135048ffdcd3b2833181e1c28c50",
+      "folder": false
+    },
+    {
+      "id": "13vNU2jK-2vUMqMM6ZS3XLbUudTrsen7X",
+      "parent_id": "1v_k8BAciYoz1ju80ckExSpwHceAyPbtv",
+      "name": "VĨNH BIỆT MÙA HÈ.epub",
+      "mime": "application/epub+zip",
+      "size": 797579,
+      "modified": "2026-08-15T06:57:02.000Z",
+      "checksum": "c02ef79090fb69d0508a908407e2ef05",
+      "folder": false
+    },
+    {
+      "id": "1uonSeN6A_Y33ma-LePAH6vrgGp8PDZrY",
+      "parent_id": "1v_k8BAciYoz1ju80ckExSpwHceAyPbtv",
+      "name": "VĨNH BIỆT MÙA HÈ.pdf",
+      "mime": "application/pdf",
+      "size": 1092283,
+      "modified": "2026-08-15T06:56:57.000Z",
+      "checksum": "7a73fbc386baf91774174bee715f21ed",
+      "folder": false
+    }
+  ]
+}

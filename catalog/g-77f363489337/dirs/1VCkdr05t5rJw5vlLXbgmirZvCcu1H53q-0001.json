@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VCkdr05t5rJw5vlLXbgmirZvCcu1H53q",
+  "page": 1,
+  "items": [
+    {
+      "id": "1z4V7E1CyUmUdZt7mPFe2ItxM0OdS_NPK",
+      "parent_id": "1VCkdr05t5rJw5vlLXbgmirZvCcu1H53q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4373,
+      "modified": "2026-08-15T06:17:02.000Z",
+      "checksum": "b3dad1ebbff5daf97dabed9fb60c250e",
+      "folder": false
+    },
+    {
+      "id": "1mxyy6fFE34gMUNf372b7njRiOAPE0juI",
+      "parent_id": "1VCkdr05t5rJw5vlLXbgmirZvCcu1H53q",
+      "name": "LỊCH SỬ CHỮ QUỐC NGỮ 1620-1659.epub",
+      "mime": "application/epub+zip",
+      "size": 2180553,
+      "modified": "2026-08-15T06:17:13.000Z",
+      "checksum": "fb97cdb8e7dc9e67ecb0a3078c021520",
+      "folder": false
+    },
+    {
+      "id": "1ns-hIcgQxqVmCuAghFcQ5WIqNd89QrLS",
+      "parent_id": "1VCkdr05t5rJw5vlLXbgmirZvCcu1H53q",
+      "name": "LỊCH SỬ CHỮ QUỐC NGỮ 1620-1659.pdf",
+      "mime": "application/pdf",
+      "size": 2788295,
+      "modified": "2026-08-15T06:17:08.000Z",
+      "checksum": "ac4dcaecdcc5b28d5f46e7fcd09e43f6",
+      "folder": false
+    }
+  ]
+}

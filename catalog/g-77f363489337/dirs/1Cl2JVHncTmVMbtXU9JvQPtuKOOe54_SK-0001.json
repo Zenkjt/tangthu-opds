@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Cl2JVHncTmVMbtXU9JvQPtuKOOe54_SK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1h0DMVEnHnCwmHMvDUMq5Ff55WyQjGOws",
+      "parent_id": "1Cl2JVHncTmVMbtXU9JvQPtuKOOe54_SK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2827,
+      "modified": "2026-08-15T03:23:14.000Z",
+      "checksum": "a64172301c020442a4a60a90b2cc80de",
+      "folder": false
+    },
+    {
+      "id": "1i8vHMGt1L-XFmhDg3qKqrOdHyCCBLf30",
+      "parent_id": "1Cl2JVHncTmVMbtXU9JvQPtuKOOe54_SK",
+      "name": "GIÀ QUÁ SỚM, KHÔN QUÁ MUỘN.epub",
+      "mime": "application/epub+zip",
+      "size": 359268,
+      "modified": "2026-08-15T03:23:20.000Z",
+      "checksum": "7782750584e97521992cb20bb0bdcb12",
+      "folder": false
+    },
+    {
+      "id": "13Zh162sxJ12tqBCYyZI0LkBXnRayj403",
+      "parent_id": "1Cl2JVHncTmVMbtXU9JvQPtuKOOe54_SK",
+      "name": "GIÀ QUÁ SỚM, KHÔN QUÁ MUỘN.pdf",
+      "mime": "application/pdf",
+      "size": 519818,
+      "modified": "2026-08-15T03:23:18.000Z",
+      "checksum": "3a47e986bdf80c581752de0b751fb15a",
+      "folder": false
+    }
+  ]
+}

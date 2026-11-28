@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XLIOUIbQpZMZb0uqAq2M5O6KLymUYbER",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zeay8uNb2WnZCxul-t3T--OICgTNnuyG",
+      "parent_id": "1XLIOUIbQpZMZb0uqAq2M5O6KLymUYbER",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5552,
+      "modified": "2026-08-15T00:50:45.000Z",
+      "checksum": "ea16dfe083e0ffdbe78ae514015aa526",
+      "folder": false
+    },
+    {
+      "id": "1qpH_wwCUYk-A68pTXSmQuXGuj9gwTgkE",
+      "parent_id": "1XLIOUIbQpZMZb0uqAq2M5O6KLymUYbER",
+      "name": "SỨC MẠNH CỦA SỰ KHÍCH LỆ.epub",
+      "mime": "application/epub+zip",
+      "size": 476009,
+      "modified": "2026-08-15T00:50:51.000Z",
+      "checksum": "baf6202568c043ad4989da40ba555d2f",
+      "folder": false
+    },
+    {
+      "id": "1xpAhZwjniQDRrB9OZdiGTBTwjWoZPNLq",
+      "parent_id": "1XLIOUIbQpZMZb0uqAq2M5O6KLymUYbER",
+      "name": "SỨC MẠNH CỦA SỰ KHÍCH LỆ.pdf",
+      "mime": "application/pdf",
+      "size": 795245,
+      "modified": "2026-08-15T00:50:48.000Z",
+      "checksum": "014a533c9a4a06f960021dbe56010474",
+      "folder": false
+    }
+  ]
+}

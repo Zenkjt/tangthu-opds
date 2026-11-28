@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jFjx32Wtud_V4rsL4QYQHgTrZkbdwUaf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1j9umX6LkZ5cdgOEOW-PtzKlDwaVj9Zml",
+      "parent_id": "1jFjx32Wtud_V4rsL4QYQHgTrZkbdwUaf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2774,
+      "modified": "2026-08-15T03:44:30.000Z",
+      "checksum": "1747208f4d7e03fef8e4c04e56f199c0",
+      "folder": false
+    },
+    {
+      "id": "14LlKpOw5SbJk5Fur4sjJeVKmm4FyPX-D",
+      "parent_id": "1jFjx32Wtud_V4rsL4QYQHgTrZkbdwUaf",
+      "name": "KINH DUY MA CẬT GIẢNG GIẢI.epub",
+      "mime": "application/epub+zip",
+      "size": 453811,
+      "modified": "2026-08-15T03:44:37.000Z",
+      "checksum": "19bd092d577d56dabb302737fb3f3aff",
+      "folder": false
+    },
+    {
+      "id": "1IYkisulewmSY-Oa85GrBOV54iuyN2H6Z",
+      "parent_id": "1jFjx32Wtud_V4rsL4QYQHgTrZkbdwUaf",
+      "name": "KINH DUY MA CẬT GIẢNG GIẢI.pdf",
+      "mime": "application/pdf",
+      "size": 853661,
+      "modified": "2026-08-15T03:44:34.000Z",
+      "checksum": "166b859d76fd773aa9f783e1a368c836",
+      "folder": false
+    }
+  ]
+}

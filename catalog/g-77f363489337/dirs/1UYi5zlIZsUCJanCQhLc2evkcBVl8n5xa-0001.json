@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UYi5zlIZsUCJanCQhLc2evkcBVl8n5xa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1M3HMYj6SvHElNkoPCi6uBgCJ5MVZ3NGS",
+      "parent_id": "1UYi5zlIZsUCJanCQhLc2evkcBVl8n5xa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6694,
+      "modified": "2026-08-15T07:44:19.000Z",
+      "checksum": "50df730bfd0d43e32a001fc4168da23a",
+      "folder": false
+    },
+    {
+      "id": "1XPs_LaUmvopwvTePr0Ajdue94cAJUMEu",
+      "parent_id": "1UYi5zlIZsUCJanCQhLc2evkcBVl8n5xa",
+      "name": "SÓI VÀ GIA VỊ - TẬP 1.epub",
+      "mime": "application/epub+zip",
+      "size": 416376,
+      "modified": "2026-08-15T07:44:27.000Z",
+      "checksum": "139e050c4f8cc6839c0598d6d7f6d7d6",
+      "folder": false
+    },
+    {
+      "id": "16Bs3czEWIeeKwCvlz011HNVJB_kC6xdj",
+      "parent_id": "1UYi5zlIZsUCJanCQhLc2evkcBVl8n5xa",
+      "name": "SÓI VÀ GIA VỊ - TẬP 1.pdf",
+      "mime": "application/pdf",
+      "size": 828764,
+      "modified": "2026-08-15T07:44:24.000Z",
+      "checksum": "fb4c6ea84f65fcd2eba117bf790852bf",
+      "folder": false
+    }
+  ]
+}

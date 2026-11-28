@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BZQuF79bLTmAteR722PsU1f2C6pj5JdS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DCmIvT7F5WZSNDu3H4gEPoh7_fTJI3pa",
+      "parent_id": "1BZQuF79bLTmAteR722PsU1f2C6pj5JdS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 680,
+      "modified": "2026-08-15T15:36:36.000Z",
+      "checksum": "8b4c5ecd42fe62952300655c2de765c3",
+      "folder": false
+    },
+    {
+      "id": "1L4vqbjLYarZPVV1GURkGMAHC_CdsKLo0",
+      "parent_id": "1BZQuF79bLTmAteR722PsU1f2C6pj5JdS",
+      "name": "TAY CỰ PHÁCH.epub",
+      "mime": "application/epub+zip",
+      "size": 595379,
+      "modified": "2026-08-15T15:36:53.000Z",
+      "checksum": "db53fa3a59d67c33f841433f3560f6f9",
+      "folder": false
+    },
+    {
+      "id": "1I9CZKPk4GwILQy6xYRmlY3Ae_XhntfzY",
+      "parent_id": "1BZQuF79bLTmAteR722PsU1f2C6pj5JdS",
+      "name": "TAY CỰ PHÁCH.pdf",
+      "mime": "application/pdf",
+      "size": 1834117,
+      "modified": "2026-08-15T15:36:49.000Z",
+      "checksum": "cf9f2bf07b048938cc1493a0bbeacd0c",
+      "folder": false
+    }
+  ]
+}

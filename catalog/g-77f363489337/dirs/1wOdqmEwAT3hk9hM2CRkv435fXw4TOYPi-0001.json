@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wOdqmEwAT3hk9hM2CRkv435fXw4TOYPi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hhebWaYkjdmzpa23sCoGEFqkgcfUqTn7",
+      "parent_id": "1wOdqmEwAT3hk9hM2CRkv435fXw4TOYPi",
+      "name": "BIÊN GIỚI VÔ HÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 309572,
+      "modified": "2026-08-15T15:04:18.000Z",
+      "checksum": "cb38880f92f519d21ff904e887e22601",
+      "folder": false
+    },
+    {
+      "id": "1G_UtQaiDMlEdpcQoFJFLqZHeqNNqYvc5",
+      "parent_id": "1wOdqmEwAT3hk9hM2CRkv435fXw4TOYPi",
+      "name": "BIÊN GIỚI VÔ HÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 602245,
+      "modified": "2026-08-15T15:04:15.000Z",
+      "checksum": "ba13953821251206822ef0aee54318d5",
+      "folder": false
+    },
+    {
+      "id": "1lu1L-Ql_FV9UqMFR1kFdSJWSeYhUxDRH",
+      "parent_id": "1wOdqmEwAT3hk9hM2CRkv435fXw4TOYPi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6358,
+      "modified": "2026-08-15T15:04:12.000Z",
+      "checksum": "e2f687c9600a2c8037832da5a1fba52c",
+      "folder": false
+    }
+  ]
+}

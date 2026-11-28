@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aKKYXN5u8Po2C4xPryYeUdiV9F1eldKK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fbLh6YEAyVVWF2eJbAPIa_8BiQZqBWfL",
+      "parent_id": "1aKKYXN5u8Po2C4xPryYeUdiV9F1eldKK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3461,
+      "modified": "2026-08-15T15:56:18.000Z",
+      "checksum": "dcb30ca706e96f5ec83eeda9411cf34e",
+      "folder": false
+    },
+    {
+      "id": "1biXtEQxTC2XUTyl5mSNW1aUvFJ4aa-hS",
+      "parent_id": "1aKKYXN5u8Po2C4xPryYeUdiV9F1eldKK",
+      "name": "SỮNG SỜ VÀ RUN RẨY.epub",
+      "mime": "application/epub+zip",
+      "size": 361742,
+      "modified": "2026-08-15T15:56:31.000Z",
+      "checksum": "48564b859e9887af2422b688aad5aac0",
+      "folder": false
+    },
+    {
+      "id": "1li4ZRi8721f5cZMOayMUqIL_NvNqqvkM",
+      "parent_id": "1aKKYXN5u8Po2C4xPryYeUdiV9F1eldKK",
+      "name": "SỮNG SỜ VÀ RUN RẨY.pdf",
+      "mime": "application/pdf",
+      "size": 485839,
+      "modified": "2026-08-15T15:56:28.000Z",
+      "checksum": "7ce4a87838eeffb0ad589b4b4dbadd6c",
+      "folder": false
+    }
+  ]
+}

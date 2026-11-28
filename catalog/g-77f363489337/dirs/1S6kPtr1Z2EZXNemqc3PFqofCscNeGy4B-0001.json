@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1S6kPtr1Z2EZXNemqc3PFqofCscNeGy4B",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sjpGx6cctmqHhqg6woiwjY9NBbzSX_Eq",
+      "parent_id": "1S6kPtr1Z2EZXNemqc3PFqofCscNeGy4B",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 919,
+      "modified": "2026-08-15T04:24:33.000Z",
+      "checksum": "f7b9f436c500312ae2655b803f543c92",
+      "folder": false
+    },
+    {
+      "id": "17xiJE8R_xlT9x_oMtmxdh2T2-EbR7dm7",
+      "parent_id": "1S6kPtr1Z2EZXNemqc3PFqofCscNeGy4B",
+      "name": "KHÁI NIỆM VỀ THUỐC - DANH MỤC THUỐC GỐC.epub",
+      "mime": "application/epub+zip",
+      "size": 443228,
+      "modified": "2026-08-15T04:24:39.000Z",
+      "checksum": "2aa96d7fab3b6ba52dcaa8fcf5c51dfd",
+      "folder": false
+    },
+    {
+      "id": "1d_kxLP2wyxshypgJPwsWMcx5zwbD1b_C",
+      "parent_id": "1S6kPtr1Z2EZXNemqc3PFqofCscNeGy4B",
+      "name": "KHÁI NIỆM VỀ THUỐC - DANH MỤC THUỐC GỐC.pdf",
+      "mime": "application/pdf",
+      "size": 618642,
+      "modified": "2026-08-15T04:24:37.000Z",
+      "checksum": "b29ca7559c09072358c80f0d5b8e7066",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZlrfoQeW5qlEd6XYmcv24wJx24Ix4w9A",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jv8W5DSJYzGuOw-3QG6KgQI59ZcCex4j",
+      "parent_id": "1ZlrfoQeW5qlEd6XYmcv24wJx24Ix4w9A",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1343,
+      "modified": "2026-08-15T03:25:44.000Z",
+      "checksum": "55c9a1e830459a51994df95e0a28cbce",
+      "folder": false
+    },
+    {
+      "id": "13GhikFKkXvwfcw7XY74Ne6MVFy8IPOXV",
+      "parent_id": "1ZlrfoQeW5qlEd6XYmcv24wJx24Ix4w9A",
+      "name": "TƯ DUY ĐA CHIỀU.epub",
+      "mime": "application/epub+zip",
+      "size": 411618,
+      "modified": "2026-08-15T03:25:51.000Z",
+      "checksum": "b211261892fdcab77867faaf6b9bb709",
+      "folder": false
+    },
+    {
+      "id": "1G5zIJ0CCMP9-rAT51df73seJlfZQSEoi",
+      "parent_id": "1ZlrfoQeW5qlEd6XYmcv24wJx24Ix4w9A",
+      "name": "TƯ DUY ĐA CHIỀU.pdf",
+      "mime": "application/pdf",
+      "size": 685215,
+      "modified": "2026-08-15T03:25:48.000Z",
+      "checksum": "04562364b82b7da091799c9edb91e79a",
+      "folder": false
+    }
+  ]
+}

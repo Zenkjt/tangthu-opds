@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZapzIQ2GQUrY9oeqkg7y6e_oIzKecKJW",
+  "page": 1,
+  "items": [
+    {
+      "id": "17SEtEKRZMZpWadOLjq3wAyoq8euMeTd9",
+      "parent_id": "1ZapzIQ2GQUrY9oeqkg7y6e_oIzKecKJW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5146,
+      "modified": "2026-08-16T03:24:22.000Z",
+      "checksum": "1209e02e59c37c24f2bdb63979fa16f0",
+      "folder": false
+    },
+    {
+      "id": "1AuMyPa_r2fNU-8xuw5WTqIBTNx_wRGie",
+      "parent_id": "1ZapzIQ2GQUrY9oeqkg7y6e_oIzKecKJW",
+      "name": "HAI NGƯỜI ĐẾN TỪ PHƯƠNG XA.epub",
+      "mime": "application/epub+zip",
+      "size": 504506,
+      "modified": "2026-08-16T03:24:28.000Z",
+      "checksum": "dca99710f6aa911d8c1dbf6afcaa961d",
+      "folder": false
+    },
+    {
+      "id": "1tVX6SkQV_7ocNNq60CxmIiBkA5KnWtYX",
+      "parent_id": "1ZapzIQ2GQUrY9oeqkg7y6e_oIzKecKJW",
+      "name": "HAI NGƯỜI ĐẾN TỪ PHƯƠNG XA.pdf",
+      "mime": "application/pdf",
+      "size": 399489,
+      "modified": "2026-08-16T03:24:25.000Z",
+      "checksum": "f19e23f212cc37e7ef6d6b11f439a749",
+      "folder": false
+    }
+  ]
+}

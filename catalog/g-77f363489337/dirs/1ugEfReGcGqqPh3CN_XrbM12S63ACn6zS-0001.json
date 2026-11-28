@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ugEfReGcGqqPh3CN_XrbM12S63ACn6zS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XgDEM1gX24gWGd6QlToJW5i6aeUdRyi5",
+      "parent_id": "1ugEfReGcGqqPh3CN_XrbM12S63ACn6zS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8471,
+      "modified": "2026-08-15T00:49:15.000Z",
+      "checksum": "ce7379f4bc87c56a484704e9649f3e8e",
+      "folder": false
+    },
+    {
+      "id": "1CCaZAmVB2EAasGecn_T-CTvqLXF1GM-M",
+      "parent_id": "1ugEfReGcGqqPh3CN_XrbM12S63ACn6zS",
+      "name": "VỊ GIÁM ĐỐC MỘT PHÚT VÀ CON KHỈ.epub",
+      "mime": "application/epub+zip",
+      "size": 923389,
+      "modified": "2026-08-15T00:49:22.000Z",
+      "checksum": "b7a4a6cb856489423f74e7c38fd0504f",
+      "folder": false
+    },
+    {
+      "id": "1BCrtK5xNmWrXVQRqhuHy1qVziD2XIgv8",
+      "parent_id": "1ugEfReGcGqqPh3CN_XrbM12S63ACn6zS",
+      "name": "VỊ GIÁM ĐỐC MỘT PHÚT VÀ CON KHỈ.pdf",
+      "mime": "application/pdf",
+      "size": 1191638,
+      "modified": "2026-08-15T00:49:19.000Z",
+      "checksum": "54f1cc9d94bd61a0339bbd2565089396",
+      "folder": false
+    }
+  ]
+}

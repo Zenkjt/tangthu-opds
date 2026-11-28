@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HVMyz144nuhQH_Z94WCYTSVYZQclBfHM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FqfFN_jmt3H3Ort2bmxS1NvgcTAIxm-t",
+      "parent_id": "1HVMyz144nuhQH_Z94WCYTSVYZQclBfHM",
+      "name": "BẾN ĐỢI.epub",
+      "mime": "application/epub+zip",
+      "size": 476528,
+      "modified": "2026-08-15T11:03:01.000Z",
+      "checksum": "637533f27c61b6f16d236e863683467c",
+      "folder": false
+    },
+    {
+      "id": "1rtqBHSBE7ADQTB-nUj4xApqmqBv-gIjr",
+      "parent_id": "1HVMyz144nuhQH_Z94WCYTSVYZQclBfHM",
+      "name": "BẾN ĐỢI.pdf",
+      "mime": "application/pdf",
+      "size": 842126,
+      "modified": "2026-08-15T11:02:55.000Z",
+      "checksum": "f0cbe727bf83087a48e37391be04fd9f",
+      "folder": false
+    },
+    {
+      "id": "1kOnOiUvz80n2oSObzdMEHmD1FSjwroRI",
+      "parent_id": "1HVMyz144nuhQH_Z94WCYTSVYZQclBfHM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1250,
+      "modified": "2026-08-15T11:02:51.000Z",
+      "checksum": "bcf9c2e60c7bbdc1769685ae6e952a97",
+      "folder": false
+    }
+  ]
+}

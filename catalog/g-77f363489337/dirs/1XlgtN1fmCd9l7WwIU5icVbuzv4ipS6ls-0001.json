@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XlgtN1fmCd9l7WwIU5icVbuzv4ipS6ls",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qUdJQFGJr1FTQnNuqrs8MEmq1682Fsqw",
+      "parent_id": "1XlgtN1fmCd9l7WwIU5icVbuzv4ipS6ls",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1974,
+      "modified": "2026-08-15T08:03:33.000Z",
+      "checksum": "ee4bde54af55431f99a3d1f568c0c46b",
+      "folder": false
+    },
+    {
+      "id": "1w-tmSIVQrTiVmG0rtoWvzB7S6UfCe24c",
+      "parent_id": "1XlgtN1fmCd9l7WwIU5icVbuzv4ipS6ls",
+      "name": "HẬU CUNG MƯU SINH KẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 1484095,
+      "modified": "2026-08-15T08:03:50.000Z",
+      "checksum": "63c69823495f9eea0541f933ece3c09e",
+      "folder": false
+    },
+    {
+      "id": "138l3xIXfa5Kfu5WDr-QqWw7iLEMuav59",
+      "parent_id": "1XlgtN1fmCd9l7WwIU5icVbuzv4ipS6ls",
+      "name": "HẬU CUNG MƯU SINH KẾ.pdf",
+      "mime": "application/pdf",
+      "size": 5864392,
+      "modified": "2026-08-15T08:03:47.000Z",
+      "checksum": "9f6e819db170275b7ce81cbee8d901a6",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lSr_EMhNL5_EuMSrpdN3BgodtZlsyeU5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P4zXhqS44QudOYdH6u2ZB9Ywk-lm6rE3",
+      "parent_id": "1lSr_EMhNL5_EuMSrpdN3BgodtZlsyeU5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 508,
+      "modified": "2026-08-15T10:52:52.000Z",
+      "checksum": "5aa63d003eab9a5746768f7f14e040d3",
+      "folder": false
+    },
+    {
+      "id": "1hRS6bCrT_F1wa3ussB9pgzkY_ofR0adT",
+      "parent_id": "1lSr_EMhNL5_EuMSrpdN3BgodtZlsyeU5",
+      "name": "MẶT TRỜI MÙ.epub",
+      "mime": "application/epub+zip",
+      "size": 511956,
+      "modified": "2026-08-15T10:52:58.000Z",
+      "checksum": "7760cb46a39f2dd08ad306e49f75771d",
+      "folder": false
+    },
+    {
+      "id": "1fIHD3k9_JKSiKs84V1IyQg9CgktuWuOy",
+      "parent_id": "1lSr_EMhNL5_EuMSrpdN3BgodtZlsyeU5",
+      "name": "MẶT TRỜI MÙ.pdf",
+      "mime": "application/pdf",
+      "size": 578928,
+      "modified": "2026-08-15T10:52:56.000Z",
+      "checksum": "7784f11924bd9efd8daf68af887996a8",
+      "folder": false
+    }
+  ]
+}

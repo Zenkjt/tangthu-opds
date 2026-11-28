@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ByJnVG7it8qO-DbFr07jW1dJZ2mDlWFu",
+  "page": 1,
+  "items": [
+    {
+      "id": "13hLXZy-QsGxhkchne5uRWUute2mq31Ez",
+      "parent_id": "1ByJnVG7it8qO-DbFr07jW1dJZ2mDlWFu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2947,
+      "modified": "2026-08-15T07:22:36.000Z",
+      "checksum": "bf2db552478c27f4ffaa95624b9cca34",
+      "folder": false
+    },
+    {
+      "id": "1kxjzNXmf8utCHFq5i56m7s0Kgc5bPz12",
+      "parent_id": "1ByJnVG7it8qO-DbFr07jW1dJZ2mDlWFu",
+      "name": "TRỜI ĐẤT TÁC THÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 2070951,
+      "modified": "2026-08-15T07:22:44.000Z",
+      "checksum": "afb5d63fb3c28bc0c241f6aca9d549b7",
+      "folder": false
+    },
+    {
+      "id": "1CMZH_r1acHI1lGYH0VM2syrOofntcWAK",
+      "parent_id": "1ByJnVG7it8qO-DbFr07jW1dJZ2mDlWFu",
+      "name": "TRỜI ĐẤT TÁC THÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 1932102,
+      "modified": "2026-08-15T07:22:41.000Z",
+      "checksum": "e76d4bccf33f460de1afef55264d0f77",
+      "folder": false
+    }
+  ]
+}

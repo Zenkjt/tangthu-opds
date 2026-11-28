@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MccanSEcbSCNliGvCO6PeO72D2aX8LtK",
+  "page": 1,
+  "items": [
+    {
+      "id": "11dfSvCAzIGcHuULvZhX72FyB-krMdZFX",
+      "parent_id": "1MccanSEcbSCNliGvCO6PeO72D2aX8LtK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 458,
+      "modified": "2026-08-16T04:19:00.000Z",
+      "checksum": "09a22c44208da3f076b7fe84d725502c",
+      "folder": false
+    },
+    {
+      "id": "1sF2WNL0lYq542zHcUbR44-g0gWn1t5hl",
+      "parent_id": "1MccanSEcbSCNliGvCO6PeO72D2aX8LtK",
+      "name": "KHI ÔNG CẬU QUÝ BỊ ĐẮM TÀU.epub",
+      "mime": "application/epub+zip",
+      "size": 408747,
+      "modified": "2026-08-16T04:19:06.000Z",
+      "checksum": "a1d54ef868169c34fd856ceeb06ded18",
+      "folder": false
+    },
+    {
+      "id": "1HXSvt6qZnF_WCyb6rBfZ9QRVlh4AnzR7",
+      "parent_id": "1MccanSEcbSCNliGvCO6PeO72D2aX8LtK",
+      "name": "KHI ÔNG CẬU QUÝ BỊ ĐẮM TÀU.pdf",
+      "mime": "application/pdf",
+      "size": 420128,
+      "modified": "2026-08-16T04:19:04.000Z",
+      "checksum": "27505c947b837362161ab37a484f4a61",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1N9FoYEnMvsM1TdLcs8b78y8uzR5ViEZB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oFiZoHRUDMQL-5Sz8M8GV6l6Qj3UyiXw",
+      "parent_id": "1N9FoYEnMvsM1TdLcs8b78y8uzR5ViEZB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 431,
+      "modified": "2026-08-15T10:06:34.000Z",
+      "checksum": "4511be934cda70d6baec9e5ee8ed94b8",
+      "folder": false
+    },
+    {
+      "id": "1hy09lyk9IOQ9JPed27mm1U-_CBw_lQbX",
+      "parent_id": "1N9FoYEnMvsM1TdLcs8b78y8uzR5ViEZB",
+      "name": "TRUY TÌM TỘI PHẠM.epub",
+      "mime": "application/epub+zip",
+      "size": 352794,
+      "modified": "2026-08-15T10:06:43.000Z",
+      "checksum": "262ee700ec68ca727861381f33f04ec2",
+      "folder": false
+    },
+    {
+      "id": "1ni4Z-st6fJUGX2tDpO8HFJz9IS4i4r-6",
+      "parent_id": "1N9FoYEnMvsM1TdLcs8b78y8uzR5ViEZB",
+      "name": "TRUY TÌM TỘI PHẠM.pdf",
+      "mime": "application/pdf",
+      "size": 615811,
+      "modified": "2026-08-15T10:06:38.000Z",
+      "checksum": "7d41fb7171e9155b954b68dd295c5c04",
+      "folder": false
+    }
+  ]
+}

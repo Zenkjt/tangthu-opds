@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GwABtgNwokDaMck9A4gcMDbscm7vhUos",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aWwMEP0FGdWTnBLMsZyeflCyTR4A1txj",
+      "parent_id": "1GwABtgNwokDaMck9A4gcMDbscm7vhUos",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1262,
+      "modified": "2026-08-15T04:21:58.000Z",
+      "checksum": "96d53ca715a8f4ab048734394124106f",
+      "folder": false
+    },
+    {
+      "id": "15oJhHpyf13kBl-ZYG7YeGrvbqxEkY85n",
+      "parent_id": "1GwABtgNwokDaMck9A4gcMDbscm7vhUos",
+      "name": "TỰ CHỮA LÀNH CƠ THỂ 101.epub",
+      "mime": "application/epub+zip",
+      "size": 1207786,
+      "modified": "2026-08-15T04:22:22.000Z",
+      "checksum": "0a6718b4eb91e62c5c7c46ec57062bff",
+      "folder": false
+    },
+    {
+      "id": "1fF0X_iRlnKMiPQBAY2E_Cp98xgwLu21i",
+      "parent_id": "1GwABtgNwokDaMck9A4gcMDbscm7vhUos",
+      "name": "TỰ CHỮA LÀNH CƠ THỂ 101.pdf",
+      "mime": "application/pdf",
+      "size": 2360515,
+      "modified": "2026-08-15T04:22:07.000Z",
+      "checksum": "f0092c538b81b2c7c906088bd4334961",
+      "folder": false
+    }
+  ]
+}

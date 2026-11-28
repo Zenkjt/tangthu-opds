@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1m3ktWM08kRErwmT8FnfsL1jxmMhHmMvN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1l6etkU9BMajIgA93zazHGy7GjEGNoiTi",
+      "parent_id": "1m3ktWM08kRErwmT8FnfsL1jxmMhHmMvN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 485,
+      "modified": "2026-08-15T10:56:09.000Z",
+      "checksum": "d5d30c27e78d0db055f02af02536a331",
+      "folder": false
+    },
+    {
+      "id": "1UWOx1UC_81Pqnq-P8HBmkdI1hV0mFQDD",
+      "parent_id": "1m3ktWM08kRErwmT8FnfsL1jxmMhHmMvN",
+      "name": "HY SINH.epub",
+      "mime": "application/epub+zip",
+      "size": 558693,
+      "modified": "2026-08-15T10:56:16.000Z",
+      "checksum": "918cb8d08a78d4340e27609aeb8a2e7e",
+      "folder": false
+    },
+    {
+      "id": "135iKMFHD18uWu8aeuzyXk5ZnxTtR6Z-o",
+      "parent_id": "1m3ktWM08kRErwmT8FnfsL1jxmMhHmMvN",
+      "name": "HY SINH.pdf",
+      "mime": "application/pdf",
+      "size": 1196460,
+      "modified": "2026-08-15T10:56:13.000Z",
+      "checksum": "8b503d2526aaafba623ef47ad2581b80",
+      "folder": false
+    }
+  ]
+}

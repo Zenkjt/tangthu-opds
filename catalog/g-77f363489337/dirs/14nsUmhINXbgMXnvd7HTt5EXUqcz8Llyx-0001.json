@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14nsUmhINXbgMXnvd7HTt5EXUqcz8Llyx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EZn3QbHPZUCnanJJZbkxxq1vMP_CBOL8",
+      "parent_id": "14nsUmhINXbgMXnvd7HTt5EXUqcz8Llyx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12358,
+      "modified": "2026-08-15T07:20:51.000Z",
+      "checksum": "598160068959e8c7d227d880b510ea18",
+      "folder": false
+    },
+    {
+      "id": "10Cbs_Sjd9rh45N41uFQP2krJmaDnAReb",
+      "parent_id": "14nsUmhINXbgMXnvd7HTt5EXUqcz8Llyx",
+      "name": "TRÁI TIM CÔ ĐƠN.epub",
+      "mime": "application/epub+zip",
+      "size": 523500,
+      "modified": "2026-08-15T07:20:58.000Z",
+      "checksum": "3f28e40591cfdeffd4626b5925645426",
+      "folder": false
+    },
+    {
+      "id": "1ZTnT3ls5fsJlz5BWvJUq-QP9dJIh_xyp",
+      "parent_id": "14nsUmhINXbgMXnvd7HTt5EXUqcz8Llyx",
+      "name": "TRÁI TIM CÔ ĐƠN.pdf",
+      "mime": "application/pdf",
+      "size": 2777889,
+      "modified": "2026-08-15T07:20:55.000Z",
+      "checksum": "45d4afdb08d85f032141959e80993b61",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mPdsxvyZT6_kOvHcFvnTIaTG8CbeCyuk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Z5JhdI6fyfGN8v8OHPbo23PG7FkR4VWX",
+      "parent_id": "1mPdsxvyZT6_kOvHcFvnTIaTG8CbeCyuk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10264,
+      "modified": "2026-08-15T09:31:28.000Z",
+      "checksum": "9dc6dc5f5875a743439f58605f246a8e",
+      "folder": false
+    },
+    {
+      "id": "1ZxL7Lw9FPQKVwGp4RRC4ViBPi1GoNWbH",
+      "parent_id": "1mPdsxvyZT6_kOvHcFvnTIaTG8CbeCyuk",
+      "name": "ĂN MÀY DĨ VÃNG.epub",
+      "mime": "application/epub+zip",
+      "size": 566281,
+      "modified": "2026-08-15T09:31:38.000Z",
+      "checksum": "dcad30e5ebb88a4096a52d4a27582a3b",
+      "folder": false
+    },
+    {
+      "id": "1dFwVfWtYkSBtpG6Y2buadBZ7sBDIE13z",
+      "parent_id": "1mPdsxvyZT6_kOvHcFvnTIaTG8CbeCyuk",
+      "name": "ĂN MÀY DĨ VÃNG.pdf",
+      "mime": "application/pdf",
+      "size": 1465331,
+      "modified": "2026-08-15T09:31:35.000Z",
+      "checksum": "50e7189948673b6b6fd722367ecf9268",
+      "folder": false
+    }
+  ]
+}

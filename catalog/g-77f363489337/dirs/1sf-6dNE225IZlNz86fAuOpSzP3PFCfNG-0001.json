@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sf-6dNE225IZlNz86fAuOpSzP3PFCfNG",
+  "page": 1,
+  "items": [
+    {
+      "id": "17FbMmqKQZHUe3vyORCLM0dchV_Wr9fDM",
+      "parent_id": "1sf-6dNE225IZlNz86fAuOpSzP3PFCfNG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 475,
+      "modified": "2026-08-15T10:31:04.000Z",
+      "checksum": "bd57a9558cfc7ef25bb0ef29d25365a1",
+      "folder": false
+    },
+    {
+      "id": "17YfGYF9gzkFyf9xME9uOtVUc-VnJFKQ4",
+      "parent_id": "1sf-6dNE225IZlNz86fAuOpSzP3PFCfNG",
+      "name": "QUẢNG TRỊ 1972.epub",
+      "mime": "application/epub+zip",
+      "size": 273430,
+      "modified": "2026-08-15T10:31:11.000Z",
+      "checksum": "fd0848cd130923048a51c905ff68321d",
+      "folder": false
+    },
+    {
+      "id": "15k2o8Fs1Y136852Vi2anjb2zqDWiveOT",
+      "parent_id": "1sf-6dNE225IZlNz86fAuOpSzP3PFCfNG",
+      "name": "QUẢNG TRỊ 1972.pdf",
+      "mime": "application/pdf",
+      "size": 698562,
+      "modified": "2026-08-15T10:31:08.000Z",
+      "checksum": "3cf80bffa4c2833d4ac1b448aa9c078a",
+      "folder": false
+    }
+  ]
+}

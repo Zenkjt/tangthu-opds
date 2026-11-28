@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SksC3mv6b-qL8aUR_vn3god__urL92IM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SPcfaXy38zDmq8YigdG6GQTv-Htz8pXJ",
+      "parent_id": "1SksC3mv6b-qL8aUR_vn3god__urL92IM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 478,
+      "modified": "2026-08-15T10:53:11.000Z",
+      "checksum": "a1e1bed0a3f1a0f99b36fc91851e586c",
+      "folder": false
+    },
+    {
+      "id": "18AI3kiFR2jjVXNTwyjVZhXpfXGb3n9uX",
+      "parent_id": "1SksC3mv6b-qL8aUR_vn3god__urL92IM",
+      "name": "LỬA HẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 636175,
+      "modified": "2026-08-15T10:53:19.000Z",
+      "checksum": "aa02a734e98329120882e3f37e45b5bb",
+      "folder": false
+    },
+    {
+      "id": "12osi8ILkKY4n-Kz90UZWDjJajqOF0o0U",
+      "parent_id": "1SksC3mv6b-qL8aUR_vn3god__urL92IM",
+      "name": "LỬA HẬN.pdf",
+      "mime": "application/pdf",
+      "size": 1071905,
+      "modified": "2026-08-15T10:53:15.000Z",
+      "checksum": "150ea1bc7c05e100a3d7d7a43ada051a",
+      "folder": false
+    }
+  ]
+}

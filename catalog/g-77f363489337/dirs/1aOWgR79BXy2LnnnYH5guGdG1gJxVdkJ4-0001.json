@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aOWgR79BXy2LnnnYH5guGdG1gJxVdkJ4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uCUTlsv7riG5lIXcUAWCmuFO4cUB-Ft9",
+      "parent_id": "1aOWgR79BXy2LnnnYH5guGdG1gJxVdkJ4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2631,
+      "modified": "2026-08-15T08:12:00.000Z",
+      "checksum": "411c328079ff409ea744ba8b195cc3be",
+      "folder": false
+    },
+    {
+      "id": "1EhL3bD7CfjlCvL81s8_0ZyGVDMdo6StJ",
+      "parent_id": "1aOWgR79BXy2LnnnYH5guGdG1gJxVdkJ4",
+      "name": "ĐỪNG BẮT TÔI YÊU EM.epub",
+      "mime": "application/epub+zip",
+      "size": 392678,
+      "modified": "2026-08-15T08:12:06.000Z",
+      "checksum": "e1dda5443d0b4aa955b93be673d4292e",
+      "folder": false
+    },
+    {
+      "id": "1PYX2b5mGW82cj7BIcpmTqqf3f6mal3r2",
+      "parent_id": "1aOWgR79BXy2LnnnYH5guGdG1gJxVdkJ4",
+      "name": "ĐỪNG BẮT TÔI YÊU EM.pdf",
+      "mime": "application/pdf",
+      "size": 740219,
+      "modified": "2026-08-15T08:12:03.000Z",
+      "checksum": "1929645c8b52c2166e9eeeef6749313e",
+      "folder": false
+    }
+  ]
+}

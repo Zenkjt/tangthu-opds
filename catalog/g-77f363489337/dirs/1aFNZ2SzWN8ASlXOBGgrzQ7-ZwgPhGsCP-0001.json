@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aFNZ2SzWN8ASlXOBGgrzQ7-ZwgPhGsCP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pP6O2dJA0H5PI_E4w7WaVZbKb_G1vbV9",
+      "parent_id": "1aFNZ2SzWN8ASlXOBGgrzQ7-ZwgPhGsCP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2380,
+      "modified": "2026-08-15T03:47:02.000Z",
+      "checksum": "80feeca07301cbaa9575b5784955caf6",
+      "folder": false
+    },
+    {
+      "id": "1UfKTkSU0459NiYYNMLPsA1AOvyn-AI1e",
+      "parent_id": "1aFNZ2SzWN8ASlXOBGgrzQ7-ZwgPhGsCP",
+      "name": "TỰ TRUYỆN CỦA MỘT YOGI.epub",
+      "mime": "application/epub+zip",
+      "size": 3398364,
+      "modified": "2026-08-15T03:47:12.000Z",
+      "checksum": "ee0a171b0d20965421bb553a6ea8ce44",
+      "folder": false
+    },
+    {
+      "id": "1mai1CRWdXrW9dgelVFj4LjC189-_y8_B",
+      "parent_id": "1aFNZ2SzWN8ASlXOBGgrzQ7-ZwgPhGsCP",
+      "name": "TỰ TRUYỆN CỦA MỘT YOGI.pdf",
+      "mime": "application/pdf",
+      "size": 5955244,
+      "modified": "2026-08-15T03:47:08.000Z",
+      "checksum": "4cc6bbf9c74aff25f0f77c5a20396840",
+      "folder": false
+    }
+  ]
+}

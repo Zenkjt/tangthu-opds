@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AzwOwjG9Gm1hZJNloV6uwRHI5Cqq759y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1V1mNh2OAD7sI5hXPOq-qIVK--IK0tcjv",
+      "parent_id": "1AzwOwjG9Gm1hZJNloV6uwRHI5Cqq759y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2215,
+      "modified": "2026-08-15T07:29:02.000Z",
+      "checksum": "4dd8621e523eef671fcdabfba73e974e",
+      "folder": false
+    },
+    {
+      "id": "1BOce3LqlPnz3uV_pTAlKctt1mwOHYCUX",
+      "parent_id": "1AzwOwjG9Gm1hZJNloV6uwRHI5Cqq759y",
+      "name": "VÔ LẠI KIM TIÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 5494507,
+      "modified": "2026-08-15T07:29:14.000Z",
+      "checksum": "26287124b30ba3c3e6368320759f3404",
+      "folder": false
+    },
+    {
+      "id": "1lFSe6Cb3dzMxLsiFJnG5TbltxcUVLhun",
+      "parent_id": "1AzwOwjG9Gm1hZJNloV6uwRHI5Cqq759y",
+      "name": "VÔ LẠI KIM TIÊN.pdf",
+      "mime": "application/pdf",
+      "size": 5016837,
+      "modified": "2026-08-15T07:29:09.000Z",
+      "checksum": "57e2f1778d5a303d624032e1c81b4994",
+      "folder": false
+    }
+  ]
+}

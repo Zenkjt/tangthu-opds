@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nwB2ExLkpsh6pJ3euln40mNLZmJNF-i3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1McTdqeEWRv4WGrfHqNwSthNP8qD47gl_",
+      "parent_id": "1nwB2ExLkpsh6pJ3euln40mNLZmJNF-i3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 616,
+      "modified": "2026-08-15T10:58:27.000Z",
+      "checksum": "c26f037e41d785d78dbc222733006f35",
+      "folder": false
+    },
+    {
+      "id": "1KIaseVsQiNFfSlDxJNLyKXH4HnlyB4L6",
+      "parent_id": "1nwB2ExLkpsh6pJ3euln40mNLZmJNF-i3",
+      "name": "ĐÔI TÌNH NHÂN THÀNH VENISE.epub",
+      "mime": "application/epub+zip",
+      "size": 1161142,
+      "modified": "2026-08-15T10:59:23.000Z",
+      "checksum": "7efb76e39f1f7434457daf85a74e11ea",
+      "folder": false
+    },
+    {
+      "id": "1gjUvi7XiAkP_nwHSWQq4aXxLLGmWSPvL",
+      "parent_id": "1nwB2ExLkpsh6pJ3euln40mNLZmJNF-i3",
+      "name": "ĐÔI TÌNH NHÂN THÀNH VENISE.pdf",
+      "mime": "application/pdf",
+      "size": 3231163,
+      "modified": "2026-08-15T10:58:48.000Z",
+      "checksum": "584b2f0a3049e98b3e79017264f3e353",
+      "folder": false
+    }
+  ]
+}

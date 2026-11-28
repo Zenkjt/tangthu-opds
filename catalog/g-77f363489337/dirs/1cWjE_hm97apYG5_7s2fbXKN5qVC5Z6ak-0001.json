@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cWjE_hm97apYG5_7s2fbXKN5qVC5Z6ak",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wobKIniBt3lbB5hH73ndMRpqsQgvElSo",
+      "parent_id": "1cWjE_hm97apYG5_7s2fbXKN5qVC5Z6ak",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 569,
+      "modified": "2026-08-16T04:03:19.000Z",
+      "checksum": "5a704a548b1ab10c0da668f6cf1153f9",
+      "folder": false
+    },
+    {
+      "id": "1ShYc-iHnf-8M805N7TQpQXwybjEK6Bcs",
+      "parent_id": "1cWjE_hm97apYG5_7s2fbXKN5qVC5Z6ak",
+      "name": "SỐNG ĐỌA THÁC ĐÀY.epub",
+      "mime": "application/epub+zip",
+      "size": 907939,
+      "modified": "2026-08-16T04:03:29.000Z",
+      "checksum": "ca8cfe077e35d99ddb2de38dbca3e3a8",
+      "folder": false
+    },
+    {
+      "id": "1PbHYO-EcMzN9F0T9cvR3RxUs6rEDjlB_",
+      "parent_id": "1cWjE_hm97apYG5_7s2fbXKN5qVC5Z6ak",
+      "name": "SỐNG ĐỌA THÁC ĐÀY.pdf",
+      "mime": "application/pdf",
+      "size": 2722437,
+      "modified": "2026-08-16T04:03:27.000Z",
+      "checksum": "7c8f5b618df59c3e94acb737c5de327f",
+      "folder": false
+    }
+  ]
+}

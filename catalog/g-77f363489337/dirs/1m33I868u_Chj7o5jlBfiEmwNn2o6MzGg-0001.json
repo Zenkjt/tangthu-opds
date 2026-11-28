@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1m33I868u_Chj7o5jlBfiEmwNn2o6MzGg",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OlzfSmDf5SxGHs6cYJXqj3pRZ3RNm1rn",
+      "parent_id": "1m33I868u_Chj7o5jlBfiEmwNn2o6MzGg",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6314,
+      "modified": "2026-08-16T03:17:45.000Z",
+      "checksum": "54c4700945fdc26c315b5e24ad76b40d",
+      "folder": false
+    },
+    {
+      "id": "1w6a0_36doFAc24D-UtrTMGOGWq-9buzx",
+      "parent_id": "1m33I868u_Chj7o5jlBfiEmwNn2o6MzGg",
+      "name": "NGƯỜI RỖNG.epub",
+      "mime": "application/epub+zip",
+      "size": 568020,
+      "modified": "2026-08-16T03:17:52.000Z",
+      "checksum": "3c488ce97e7d3ef03c8d19163e3543ab",
+      "folder": false
+    },
+    {
+      "id": "1NWBqQ74j4xLdf0Y8jERex-GDgX0z4lUD",
+      "parent_id": "1m33I868u_Chj7o5jlBfiEmwNn2o6MzGg",
+      "name": "NGƯỜI RỖNG.pdf",
+      "mime": "application/pdf",
+      "size": 830902,
+      "modified": "2026-08-16T03:17:50.000Z",
+      "checksum": "286de72412410adf2ca02e29fcfa3a0b",
+      "folder": false
+    }
+  ]
+}

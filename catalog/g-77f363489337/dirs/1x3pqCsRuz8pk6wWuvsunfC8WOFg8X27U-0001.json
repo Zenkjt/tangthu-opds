@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1x3pqCsRuz8pk6wWuvsunfC8WOFg8X27U",
+  "page": 1,
+  "items": [
+    {
+      "id": "199k53NIA4sPPzof02xb8_xqX5V_e8WmB",
+      "parent_id": "1x3pqCsRuz8pk6wWuvsunfC8WOFg8X27U",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6425,
+      "modified": "2026-08-15T07:28:52.000Z",
+      "checksum": "67f3e10fe1e8a5f771f15d71fb1184f9",
+      "folder": false
+    },
+    {
+      "id": "1szutfQmle-RyrbElfrt0t7U-cOwMAkLH",
+      "parent_id": "1x3pqCsRuz8pk6wWuvsunfC8WOFg8X27U",
+      "name": "VỢ PHI CÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 577375,
+      "modified": "2026-08-15T07:29:00.000Z",
+      "checksum": "8ad4e622066d7cd529a86fe8c9f2ae70",
+      "folder": false
+    },
+    {
+      "id": "1tBBb6RheqnhDoz7laABpQmTtTHlodkg7",
+      "parent_id": "1x3pqCsRuz8pk6wWuvsunfC8WOFg8X27U",
+      "name": "VỢ PHI CÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 1329826,
+      "modified": "2026-08-15T07:28:57.000Z",
+      "checksum": "d4fb1a946870391b197b2590689ebb82",
+      "folder": false
+    }
+  ]
+}

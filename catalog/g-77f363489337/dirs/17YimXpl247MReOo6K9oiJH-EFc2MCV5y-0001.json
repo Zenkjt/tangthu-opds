@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17YimXpl247MReOo6K9oiJH-EFc2MCV5y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jH1AIc4JzhuhTbJj7pp3L2NB3AHAA_8X",
+      "parent_id": "17YimXpl247MReOo6K9oiJH-EFc2MCV5y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3523,
+      "modified": "2026-08-16T04:04:16.000Z",
+      "checksum": "4c9620939585362e2139565f755a3db8",
+      "folder": false
+    },
+    {
+      "id": "1wn_VDhmmcMs_dw5QoPnqsQSoBbHh9tV3",
+      "parent_id": "17YimXpl247MReOo6K9oiJH-EFc2MCV5y",
+      "name": "SÀO HUYỆT CỦA NHỮNG ÔNG TRÙM.epub",
+      "mime": "application/epub+zip",
+      "size": 800614,
+      "modified": "2026-08-16T04:04:27.000Z",
+      "checksum": "56dd4fd9e42e3c915ba55a3cee7c595f",
+      "folder": false
+    },
+    {
+      "id": "1klaBm0clBxTwFxjn1jpDRRisj6YzcVH9",
+      "parent_id": "17YimXpl247MReOo6K9oiJH-EFc2MCV5y",
+      "name": "SÀO HUYỆT CỦA NHỮNG ÔNG TRÙM.pdf",
+      "mime": "application/pdf",
+      "size": 3029178,
+      "modified": "2026-08-16T04:04:24.000Z",
+      "checksum": "505a038692b78f458cfbec367b01ad65",
+      "folder": false
+    }
+  ]
+}

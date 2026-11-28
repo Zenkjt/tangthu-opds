@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12bQGfOYNG9oyXAzbFD0GVk29QCi6nxD_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EvkFieJWuQRI8di6nNlD41K39ttNkV2K",
+      "parent_id": "12bQGfOYNG9oyXAzbFD0GVk29QCi6nxD_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5111,
+      "modified": "2026-08-15T07:24:34.000Z",
+      "checksum": "5711d4513b962447410e5bf6b67498ff",
+      "folder": false
+    },
+    {
+      "id": "1pgjZj78Hd48xMEhgmyIzYw92oOmUoho-",
+      "parent_id": "12bQGfOYNG9oyXAzbFD0GVk29QCi6nxD_",
+      "name": "TỬ TƯỚC CHẺ ĐÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 564588,
+      "modified": "2026-08-15T07:24:40.000Z",
+      "checksum": "7a373284675e74e7df576bb62ef95d46",
+      "folder": false
+    },
+    {
+      "id": "1C8vDQOcTq57L_m_WPGpVKiVyNXNU90he",
+      "parent_id": "12bQGfOYNG9oyXAzbFD0GVk29QCi6nxD_",
+      "name": "TỬ TƯỚC CHẺ ĐÔI.pdf",
+      "mime": "application/pdf",
+      "size": 368646,
+      "modified": "2026-08-15T07:24:37.000Z",
+      "checksum": "52c264dcffa06f36b543a015e788de71",
+      "folder": false
+    }
+  ]
+}

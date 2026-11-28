@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18IOFzMNyreE546u38Iv2aYBe79U5bv2n",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Hr5JUo0cbFoiS5qHyN4FIlV7KsLrDUYu",
+      "parent_id": "18IOFzMNyreE546u38Iv2aYBe79U5bv2n",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7531,
+      "modified": "2026-08-15T00:52:11.000Z",
+      "checksum": "86655a9f8d18ec6e18dd81add74d9a61",
+      "folder": false
+    },
+    {
+      "id": "1vsTT3BQZ7f6gdDWX7j3yb92pSkKQo2M9",
+      "parent_id": "18IOFzMNyreE546u38Iv2aYBe79U5bv2n",
+      "name": "THIÊN NHIÊN LIỀU THUỐC NHIỆM MÀU.epub",
+      "mime": "application/epub+zip",
+      "size": 1201004,
+      "modified": "2026-08-15T00:52:18.000Z",
+      "checksum": "e83ef453f8dd2dd64e519b7d3682fd95",
+      "folder": false
+    },
+    {
+      "id": "1ItnRxlQz7zFR0QBQu0VtUiZahoph1HVz",
+      "parent_id": "18IOFzMNyreE546u38Iv2aYBe79U5bv2n",
+      "name": "THIÊN NHIÊN LIỀU THUỐC NHIỆM MÀU.pdf",
+      "mime": "application/pdf",
+      "size": 567329,
+      "modified": "2026-08-15T00:52:15.000Z",
+      "checksum": "ad5b0a0a617f5aaeebc52238e09e9fbb",
+      "folder": false
+    }
+  ]
+}

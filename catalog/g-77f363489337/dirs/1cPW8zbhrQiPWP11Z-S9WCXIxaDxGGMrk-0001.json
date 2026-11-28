@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cPW8zbhrQiPWP11Z-S9WCXIxaDxGGMrk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EGsdGGn3A0CEI526BBa0RFKNLxNVtUCZ",
+      "parent_id": "1cPW8zbhrQiPWP11Z-S9WCXIxaDxGGMrk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 935,
+      "modified": "2026-08-16T03:56:14.000Z",
+      "checksum": "cef555f93d9ca27c28c586727083e864",
+      "folder": false
+    },
+    {
+      "id": "18l7JGbrIz_iBbRY_8O6ZeaEmTpbeobXO",
+      "parent_id": "1cPW8zbhrQiPWP11Z-S9WCXIxaDxGGMrk",
+      "name": "THỦY TINH TRONG SUỐT.epub",
+      "mime": "application/epub+zip",
+      "size": 480046,
+      "modified": "2026-08-16T03:56:21.000Z",
+      "checksum": "ae61ae6efacdb72956eb586436276723",
+      "folder": false
+    },
+    {
+      "id": "1TUjr8KWFIjRg8M7dfgr0QznXRA9-Y7ry",
+      "parent_id": "1cPW8zbhrQiPWP11Z-S9WCXIxaDxGGMrk",
+      "name": "THỦY TINH TRONG SUỐT.pdf",
+      "mime": "application/pdf",
+      "size": 1270325,
+      "modified": "2026-08-16T03:56:19.000Z",
+      "checksum": "a547a9406675fe5d3da7d630ff31c0c3",
+      "folder": false
+    }
+  ]
+}

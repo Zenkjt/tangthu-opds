@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-254dec45f9f5",
+  "root_folder_id": "1b5msChq4_9sB53cpXr0I7aukRCrFC4Rt",
+  "root_shards": [
+    "catalog/g-254dec45f9f5/1b5msChq4_9sB53cpXr0I7aukRCrFC4Rt-0001.json"
+  ],
+  "directories": [
+    {
+      "id": "18JPzcv2eHcOJWNlLnm8Fr_LWmYiytxsG",
+      "name": "Tddv 166tap",
+      "parent_id": "1t5T1npKwMInd7YgWjaXyy4D7zyg0FN02",
+      "shards": []
+    },
+    {
+      "id": "1FQPLIPCvEXVhxaBFk88aN-FzHtncwfeO",
+      "name": "oikkk",
+      "parent_id": "1b5msChq4_9sB53cpXr0I7aukRCrFC4Rt",
+      "shards": [
+        "catalog/g-254dec45f9f5/dirs/1FQPLIPCvEXVhxaBFk88aN-FzHtncwfeO-0001.json"
+      ]
+    },
+    {
+      "id": "1t5T1npKwMInd7YgWjaXyy4D7zyg0FN02",
+      "name": "Truyen Tranh",
+      "parent_id": "1FQPLIPCvEXVhxaBFk88aN-FzHtncwfeO",
+      "shards": [
+        "catalog/g-254dec45f9f5/dirs/1t5T1npKwMInd7YgWjaXyy4D7zyg0FN02-0001.json"
+      ]
+    },
+    {
+      "id": "1t7wFe5SYMGSajW5QbrqBBqTLTIW9EMHq",
+      "name": "Dragonball",
+      "parent_id": "1t5T1npKwMInd7YgWjaXyy4D7zyg0FN02",
+      "shards": []
+    }
+  ]
+}

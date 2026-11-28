@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YMe8GhLrQV96tL9fPOe1VvNO33KQ25Xb",
+  "page": 1,
+  "items": [
+    {
+      "id": "16PODdeW2HqH0CcDWEbxai7Z__nZK_iTd",
+      "parent_id": "1YMe8GhLrQV96tL9fPOe1VvNO33KQ25Xb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 712,
+      "modified": "2026-08-15T10:27:46.000Z",
+      "checksum": "92148979860613b811ad460fd7ef4d85",
+      "folder": false
+    },
+    {
+      "id": "1tx1FohC3oddWz_rjJfzRNEF__P2WKAJC",
+      "parent_id": "1YMe8GhLrQV96tL9fPOe1VvNO33KQ25Xb",
+      "name": "SAU ĐÊM VŨ HỘI.epub",
+      "mime": "application/epub+zip",
+      "size": 377866,
+      "modified": "2026-08-15T10:27:54.000Z",
+      "checksum": "c273b8793e60a92bde4b96a253fa07f7",
+      "folder": false
+    },
+    {
+      "id": "1tdHrGDCgpncRs7NxE2e76PANxn7Z2wcp",
+      "parent_id": "1YMe8GhLrQV96tL9fPOe1VvNO33KQ25Xb",
+      "name": "SAU ĐÊM VŨ HỘI.pdf",
+      "mime": "application/pdf",
+      "size": 597765,
+      "modified": "2026-08-15T10:27:51.000Z",
+      "checksum": "2c6b42e0df5b33fde040e1321d2420d7",
+      "folder": false
+    }
+  ]
+}

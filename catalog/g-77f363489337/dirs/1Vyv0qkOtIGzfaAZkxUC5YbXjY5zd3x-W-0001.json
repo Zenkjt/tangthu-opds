@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Vyv0qkOtIGzfaAZkxUC5YbXjY5zd3x-W",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yAfrIjWUk7392241-jqtL8IU9S7KvPYm",
+      "parent_id": "1Vyv0qkOtIGzfaAZkxUC5YbXjY5zd3x-W",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 802,
+      "modified": "2026-08-15T13:03:24.000Z",
+      "checksum": "7db4caaef194b51c0f9bc18821766a4e",
+      "folder": false
+    },
+    {
+      "id": "1i6BefLyjeJ_XPjhHd9bRQyZMkCVtjCYU",
+      "parent_id": "1Vyv0qkOtIGzfaAZkxUC5YbXjY5zd3x-W",
+      "name": "ĐÀI PHÁT THANH GÀ GIÒ.epub",
+      "mime": "application/epub+zip",
+      "size": 346844,
+      "modified": "2026-08-15T13:03:31.000Z",
+      "checksum": "c2d0b898a6e82a0fcf20fa7fa3eefb61",
+      "folder": false
+    },
+    {
+      "id": "1SmzXlrQ3JrvSfJmaEW2aEvvaqpaBp24c",
+      "parent_id": "1Vyv0qkOtIGzfaAZkxUC5YbXjY5zd3x-W",
+      "name": "ĐÀI PHÁT THANH GÀ GIÒ.pdf",
+      "mime": "application/pdf",
+      "size": 311539,
+      "modified": "2026-08-15T13:03:28.000Z",
+      "checksum": "32d78282a0fadcbb4ab33abe9561a849",
+      "folder": false
+    }
+  ]
+}

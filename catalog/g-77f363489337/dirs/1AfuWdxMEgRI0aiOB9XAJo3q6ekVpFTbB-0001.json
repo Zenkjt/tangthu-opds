@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AfuWdxMEgRI0aiOB9XAJo3q6ekVpFTbB",
+  "page": 1,
+  "items": [
+    {
+      "id": "14pun8n3Bynt-ShMP7Pidt_8byghuNb4F",
+      "parent_id": "1AfuWdxMEgRI0aiOB9XAJo3q6ekVpFTbB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1851,
+      "modified": "2026-08-16T03:39:48.000Z",
+      "checksum": "9f6a74871299197ca46ff95f0ee87652",
+      "folder": false
+    },
+    {
+      "id": "17lPdgAZdTS9n8MDcINezZfBv3pMJpaWW",
+      "parent_id": "1AfuWdxMEgRI0aiOB9XAJo3q6ekVpFTbB",
+      "name": "HỒNG NHAN THƯỢNG HẢI - THỜI THANH XUÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 572648,
+      "modified": "2026-08-16T03:39:54.000Z",
+      "checksum": "bac54d8eb5cf583b0c8864092fa6d55d",
+      "folder": false
+    },
+    {
+      "id": "1zXQfUtld2hY2MbozcpVUPrYZ6_bCdAeu",
+      "parent_id": "1AfuWdxMEgRI0aiOB9XAJo3q6ekVpFTbB",
+      "name": "HỒNG NHAN THƯỢNG HẢI - THỜI THANH XUÂN.pdf",
+      "mime": "application/pdf",
+      "size": 758213,
+      "modified": "2026-08-16T03:39:52.000Z",
+      "checksum": "4410bfefa8a5763c1b3a3cbeac01a542",
+      "folder": false
+    }
+  ]
+}

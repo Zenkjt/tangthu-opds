@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IMU4xsAbJpEvVoaLeassZU910gGQtGXU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1j5pF8e84bw7AUT61XbKJREtb_IXRH81W",
+      "parent_id": "1IMU4xsAbJpEvVoaLeassZU910gGQtGXU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 566,
+      "modified": "2026-08-16T04:20:34.000Z",
+      "checksum": "9579c9809e00141116a214008299d60a",
+      "folder": false
+    },
+    {
+      "id": "1EOi7q0v9SB4oA_YBCA_1k3bkb33EYhFI",
+      "parent_id": "1IMU4xsAbJpEvVoaLeassZU910gGQtGXU",
+      "name": "ĐÊM NOËL.epub",
+      "mime": "application/epub+zip",
+      "size": 614253,
+      "modified": "2026-08-16T04:20:41.000Z",
+      "checksum": "7e76d25e04e02d99abccaf21af4a6fb6",
+      "folder": false
+    },
+    {
+      "id": "1GL9aP-kMUBh1YLgevXHweyGloP0YlNre",
+      "parent_id": "1IMU4xsAbJpEvVoaLeassZU910gGQtGXU",
+      "name": "ĐÊM NOËL.pdf",
+      "mime": "application/pdf",
+      "size": 824300,
+      "modified": "2026-08-16T04:20:38.000Z",
+      "checksum": "3fd8ef4a0648baba95c6ba80d177ff28",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Jo6yq_KoGAwvsDAozrH8aT3v4hxd7KmQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eXuKL67xyqAaXuQVK9rJoo-736Wm35On",
+      "parent_id": "1Jo6yq_KoGAwvsDAozrH8aT3v4hxd7KmQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3383,
+      "modified": "2026-08-15T10:30:32.000Z",
+      "checksum": "96b6d6a645e97baa90072ea9b89aed74",
+      "folder": false
+    },
+    {
+      "id": "1BugkjEKAxzaNFrdiLQPjcR-0fOnsrpp4",
+      "parent_id": "1Jo6yq_KoGAwvsDAozrH8aT3v4hxd7KmQ",
+      "name": "QUỶ LUYẾN HIỆP TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 383567,
+      "modified": "2026-08-15T10:30:44.000Z",
+      "checksum": "579cbf8f1f9b8d9a0a2a437070dc20cb",
+      "folder": false
+    },
+    {
+      "id": "1fIBjufwlN1xAYnJosrYxZG4Hpb4AMyoy",
+      "parent_id": "1Jo6yq_KoGAwvsDAozrH8aT3v4hxd7KmQ",
+      "name": "QUỶ LUYẾN HIỆP TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 628788,
+      "modified": "2026-08-15T10:30:41.000Z",
+      "checksum": "12b39002bc297188b39433a157897a91",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qUY4qMTXr0g82bA13XhrDSPffWPcb8mN",
+  "page": 1,
+  "items": [
+    {
+      "id": "18IW20y3MAsmoLdd7rHMEn633lpyov4ZO",
+      "parent_id": "1qUY4qMTXr0g82bA13XhrDSPffWPcb8mN",
+      "name": "CHUYỆN DESPEREAX.epub",
+      "mime": "application/epub+zip",
+      "size": 866399,
+      "modified": "2026-08-15T07:56:47.000Z",
+      "checksum": "a3e60fe9155b46fdf0c0991299afb50e",
+      "folder": false
+    },
+    {
+      "id": "1m00wlimpPGy3xo1iRBMP9DGb_Ckizwu4",
+      "parent_id": "1qUY4qMTXr0g82bA13XhrDSPffWPcb8mN",
+      "name": "CHUYỆN DESPEREAX.pdf",
+      "mime": "application/pdf",
+      "size": 1397423,
+      "modified": "2026-08-15T07:56:44.000Z",
+      "checksum": "890895c50283a91ed067cb811de3e1dc",
+      "folder": false
+    },
+    {
+      "id": "14IfbL0_KkENnFlfFCcXXuIWhX4aB7whB",
+      "parent_id": "1qUY4qMTXr0g82bA13XhrDSPffWPcb8mN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3957,
+      "modified": "2026-08-15T07:56:39.000Z",
+      "checksum": "f750d59b25d143460fea2cd78c6dccdd",
+      "folder": false
+    }
+  ]
+}

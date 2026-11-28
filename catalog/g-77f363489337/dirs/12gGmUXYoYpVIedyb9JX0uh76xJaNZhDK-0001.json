@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12gGmUXYoYpVIedyb9JX0uh76xJaNZhDK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pb-P7WVGTCGFC9vPlsZVS1L6OjtyCHll",
+      "parent_id": "12gGmUXYoYpVIedyb9JX0uh76xJaNZhDK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3745,
+      "modified": "2026-08-15T05:47:33.000Z",
+      "checksum": "002f2ea697833f70e4f17cae82a7c424",
+      "folder": false
+    },
+    {
+      "id": "1nFV5dJk1gvBDPkrf1w-ciZfiMsA2KJFE",
+      "parent_id": "12gGmUXYoYpVIedyb9JX0uh76xJaNZhDK",
+      "name": "NIETZSCHE - CUỘC ĐỜI VÀ TRIẾT LÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 419607,
+      "modified": "2026-08-15T05:47:45.000Z",
+      "checksum": "a79c8ac9315697934e69647a80776446",
+      "folder": false
+    },
+    {
+      "id": "15jh0M9-3MpZ35BV6iM8b6bP2XxkzB-Ta",
+      "parent_id": "12gGmUXYoYpVIedyb9JX0uh76xJaNZhDK",
+      "name": "NIETZSCHE - CUỘC ĐỜI VÀ TRIẾT LÝ.pdf",
+      "mime": "application/pdf",
+      "size": 623581,
+      "modified": "2026-08-15T05:47:42.000Z",
+      "checksum": "af767620c1ed266df095ac1f5ae91251",
+      "folder": false
+    }
+  ]
+}

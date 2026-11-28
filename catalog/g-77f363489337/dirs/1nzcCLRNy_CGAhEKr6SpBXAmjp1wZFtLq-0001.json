@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nzcCLRNy_CGAhEKr6SpBXAmjp1wZFtLq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qahCWYsMRzKoFsOp4N6DUHKed860uV-_",
+      "parent_id": "1nzcCLRNy_CGAhEKr6SpBXAmjp1wZFtLq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2963,
+      "modified": "2026-08-16T03:53:59.000Z",
+      "checksum": "5abb6f72528c4b7ce29859a5d5ff7ebc",
+      "folder": false
+    },
+    {
+      "id": "1uVpT1fVx6CyDB22RaSDWIEbqnmTZB2EP",
+      "parent_id": "1nzcCLRNy_CGAhEKr6SpBXAmjp1wZFtLq",
+      "name": "TÌNH YÊU CŨ THỨC TỈNH.epub",
+      "mime": "application/epub+zip",
+      "size": 658864,
+      "modified": "2026-08-16T03:54:07.000Z",
+      "checksum": "784626e005121756f00493d3d79b9adc",
+      "folder": false
+    },
+    {
+      "id": "1hYjA1trTjgYPAADRw59onVAR54VbMwPn",
+      "parent_id": "1nzcCLRNy_CGAhEKr6SpBXAmjp1wZFtLq",
+      "name": "TÌNH YÊU CŨ THỨC TỈNH.pdf",
+      "mime": "application/pdf",
+      "size": 2026717,
+      "modified": "2026-08-16T03:54:05.000Z",
+      "checksum": "28355a5aa22941e3f4a45c9f87f154f5",
+      "folder": false
+    }
+  ]
+}

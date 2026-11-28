@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OB4zCN7xvaHVkM_RAYHRXBuAbsbEHhCV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iLsCZ5byCnOBeJN61EHSrnpM5Ebac_hF",
+      "parent_id": "1OB4zCN7xvaHVkM_RAYHRXBuAbsbEHhCV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1505,
+      "modified": "2026-08-16T03:49:56.000Z",
+      "checksum": "bbef57b2a7e472ba2e01364e16e1187a",
+      "folder": false
+    },
+    {
+      "id": "1kq3Gwzd-Adj7jynnWd16wptfn3WLNZPU",
+      "parent_id": "1OB4zCN7xvaHVkM_RAYHRXBuAbsbEHhCV",
+      "name": "YÊU VẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 425217,
+      "modified": "2026-08-16T03:50:02.000Z",
+      "checksum": "a157b8373d388848eb9e356d6611ddf0",
+      "folder": false
+    },
+    {
+      "id": "1V4vFkUu_RrWzwy7JYX59oUpk9NWhIuTA",
+      "parent_id": "1OB4zCN7xvaHVkM_RAYHRXBuAbsbEHhCV",
+      "name": "YÊU VẬT.pdf",
+      "mime": "application/pdf",
+      "size": 784692,
+      "modified": "2026-08-16T03:49:59.000Z",
+      "checksum": "bb937a7ad45a3cbd1cbe3d54c3df3a52",
+      "folder": false
+    }
+  ]
+}

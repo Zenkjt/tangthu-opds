@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1G50Nk5tOh7gMz98HqzLu5SUagYQU_BFE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ofwdWWU8XM7cEsDm2qS4nsMNKYn4Niog",
+      "parent_id": "1G50Nk5tOh7gMz98HqzLu5SUagYQU_BFE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2991,
+      "modified": "2026-08-16T04:12:27.000Z",
+      "checksum": "5f3c4a0943ce1dc51f417774234c1c99",
+      "folder": false
+    },
+    {
+      "id": "100kynHwuMu9zfexAAEsz7yd-Sz9KFwAP",
+      "parent_id": "1G50Nk5tOh7gMz98HqzLu5SUagYQU_BFE",
+      "name": "NHÂN ĐẠO KỶ NGUYÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 659373,
+      "modified": "2026-08-16T04:12:35.000Z",
+      "checksum": "6a4f8481ed3a37981f35577d2926131a",
+      "folder": false
+    },
+    {
+      "id": "1088VJHgFSAPq9dAXudGFV3aZR5_5E5Fb",
+      "parent_id": "1G50Nk5tOh7gMz98HqzLu5SUagYQU_BFE",
+      "name": "NHÂN ĐẠO KỶ NGUYÊN.pdf",
+      "mime": "application/pdf",
+      "size": 2256593,
+      "modified": "2026-08-16T04:12:32.000Z",
+      "checksum": "320ded6e630bd60a105dfefc62482e02",
+      "folder": false
+    }
+  ]
+}

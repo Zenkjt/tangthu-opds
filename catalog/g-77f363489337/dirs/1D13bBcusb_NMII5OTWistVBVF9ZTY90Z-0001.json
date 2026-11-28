@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1D13bBcusb_NMII5OTWistVBVF9ZTY90Z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Nr7YfBzFiuI-lYutdd31uae18t9L-ofn",
+      "parent_id": "1D13bBcusb_NMII5OTWistVBVF9ZTY90Z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5090,
+      "modified": "2026-08-15T07:45:33.000Z",
+      "checksum": "3727910425cc4ecb3957376e07466cb8",
+      "folder": false
+    },
+    {
+      "id": "1XHrchu35Qyjs8ArR5t_58_rc8AZNzTVi",
+      "parent_id": "1D13bBcusb_NMII5OTWistVBVF9ZTY90Z",
+      "name": "NÀNG IDO.epub",
+      "mime": "application/epub+zip",
+      "size": 644779,
+      "modified": "2026-08-15T07:45:41.000Z",
+      "checksum": "2f1da60e58546fa2ee145fd0a556b506",
+      "folder": false
+    },
+    {
+      "id": "12tcuCX_IZT4-8bEFkM8K24NZLe-Dp1lE",
+      "parent_id": "1D13bBcusb_NMII5OTWistVBVF9ZTY90Z",
+      "name": "NÀNG IDO.pdf",
+      "mime": "application/pdf",
+      "size": 1387981,
+      "modified": "2026-08-15T07:45:38.000Z",
+      "checksum": "4475799bfddff0167d654fd1896f8f92",
+      "folder": false
+    }
+  ]
+}

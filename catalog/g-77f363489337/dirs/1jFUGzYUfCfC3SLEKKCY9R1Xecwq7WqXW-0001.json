@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jFUGzYUfCfC3SLEKKCY9R1Xecwq7WqXW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZCubtxxwP3XyA4rtql8kWqa-vt2CYreS",
+      "parent_id": "1jFUGzYUfCfC3SLEKKCY9R1Xecwq7WqXW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7430,
+      "modified": "2026-08-15T03:14:56.000Z",
+      "checksum": "55a0064f90b4945ad7312fff04070590",
+      "folder": false
+    },
+    {
+      "id": "1BOx7o7Ee3FtyYkOv-WsK5CKRx8sHyPTM",
+      "parent_id": "1jFUGzYUfCfC3SLEKKCY9R1Xecwq7WqXW",
+      "name": "TRONG CHỚP MẮT.epub",
+      "mime": "application/epub+zip",
+      "size": 378822,
+      "modified": "2026-08-15T03:15:05.000Z",
+      "checksum": "19e372ca4775614a822ed1beacce34a0",
+      "folder": false
+    },
+    {
+      "id": "1PQhWMKtAQiG3uwIflWEbLUIMG62sgr_1",
+      "parent_id": "1jFUGzYUfCfC3SLEKKCY9R1Xecwq7WqXW",
+      "name": "TRONG CHỚP MẮT.pdf",
+      "mime": "application/pdf",
+      "size": 869203,
+      "modified": "2026-08-15T03:15:03.000Z",
+      "checksum": "26248f2f0dcac05486536c3f9c24dd76",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19tuiA9lXNGZQhc5wAV1yTHzy2pjQ0IZM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GLB8vBCy0kFlDRXZCizNsq0-1-XDBWNE",
+      "parent_id": "19tuiA9lXNGZQhc5wAV1yTHzy2pjQ0IZM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1426,
+      "modified": "2026-08-15T13:12:23.000Z",
+      "checksum": "1298493f22b68418d3d5e7f36f839511",
+      "folder": false
+    },
+    {
+      "id": "1nPCvPLrtSb9Ow956o9KcQY6XAf6QV7m0",
+      "parent_id": "19tuiA9lXNGZQhc5wAV1yTHzy2pjQ0IZM",
+      "name": "TAM THIÊN DỊCH SỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 835054,
+      "modified": "2026-08-15T13:12:29.000Z",
+      "checksum": "21f69a16bd9d9cfcbb89d98d624fee16",
+      "folder": false
+    },
+    {
+      "id": "1Mm7h2n2GW9tDAD_OXam4yFON4HBW-uUm",
+      "parent_id": "19tuiA9lXNGZQhc5wAV1yTHzy2pjQ0IZM",
+      "name": "TAM THIÊN DỊCH SỐ.pdf",
+      "mime": "application/pdf",
+      "size": 2118076,
+      "modified": "2026-08-15T13:12:27.000Z",
+      "checksum": "0813a5f645cb612aa2191a5a5095be49",
+      "folder": false
+    }
+  ]
+}

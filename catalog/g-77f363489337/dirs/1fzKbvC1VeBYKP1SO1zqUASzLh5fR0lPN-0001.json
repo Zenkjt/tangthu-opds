@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fzKbvC1VeBYKP1SO1zqUASzLh5fR0lPN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oSEsdNlsZzejXEq_qDnS70EMq9tpyHVB",
+      "parent_id": "1fzKbvC1VeBYKP1SO1zqUASzLh5fR0lPN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3495,
+      "modified": "2026-08-15T10:26:33.000Z",
+      "checksum": "c8600664d06fac0f0dd6408f167f2dec",
+      "folder": false
+    },
+    {
+      "id": "109lN_XJw_1OxSl25IoPsnkstVZeXfkXT",
+      "parent_id": "1fzKbvC1VeBYKP1SO1zqUASzLh5fR0lPN",
+      "name": "SỞ LƯU HƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 2057395,
+      "modified": "2026-08-15T10:26:53.000Z",
+      "checksum": "3aa2ee8d2cb1e89a682f47486df9f9b8",
+      "folder": false
+    },
+    {
+      "id": "1vRN9_TCtZIhx76ZF-Lt8Sgy5DsociFrr",
+      "parent_id": "1fzKbvC1VeBYKP1SO1zqUASzLh5fR0lPN",
+      "name": "SỞ LƯU HƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 7687944,
+      "modified": "2026-08-15T10:26:49.000Z",
+      "checksum": "752f69f0c915a8e049108f4eb885ad77",
+      "folder": false
+    }
+  ]
+}

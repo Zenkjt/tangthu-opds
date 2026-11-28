@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fK72sVVQXPmZoN2799Xr4jh5YvCRIvpa",
+  "page": 1,
+  "items": [
+    {
+      "id": "19lKALdovYkXyuVdhmdTPsvnx0-IvZwl8",
+      "parent_id": "1fK72sVVQXPmZoN2799Xr4jh5YvCRIvpa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3102,
+      "modified": "2026-08-15T15:10:35.000Z",
+      "checksum": "b8d842b18d0132312d0b3238535abb37",
+      "folder": false
+    },
+    {
+      "id": "1BeIKjwkXUNExzewFTYDlKwP8p36cz8Zl",
+      "parent_id": "1fK72sVVQXPmZoN2799Xr4jh5YvCRIvpa",
+      "name": "LƯỚI ĐIỆN TỬ THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 753578,
+      "modified": "2026-08-15T15:10:42.000Z",
+      "checksum": "8c4995b1ab79be55b3890e961feb40f1",
+      "folder": false
+    },
+    {
+      "id": "1NnK_oEmmIIKQAgNua7_advnwOli5Gb8f",
+      "parent_id": "1fK72sVVQXPmZoN2799Xr4jh5YvCRIvpa",
+      "name": "LƯỚI ĐIỆN TỬ THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 1967479,
+      "modified": "2026-08-15T15:10:40.000Z",
+      "checksum": "fbcc748d8d8db7acffb5a61bd359b2be",
+      "folder": false
+    }
+  ]
+}

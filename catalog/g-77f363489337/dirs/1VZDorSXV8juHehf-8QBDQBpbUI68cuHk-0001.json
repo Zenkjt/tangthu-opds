@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VZDorSXV8juHehf-8QBDQBpbUI68cuHk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1w2p9yqebt3nW87KdElVoedVplr1c4MwC",
+      "parent_id": "1VZDorSXV8juHehf-8QBDQBpbUI68cuHk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6219,
+      "modified": "2026-08-15T07:53:44.000Z",
+      "checksum": "370385d0b18a35d08628da51400c731f",
+      "folder": false
+    },
+    {
+      "id": "1LkjV57ki1OjeVYmsm6l3YzELScZ3z-8B",
+      "parent_id": "1VZDorSXV8juHehf-8QBDQBpbUI68cuHk",
+      "name": "LÁ THƯ HÈ.epub",
+      "mime": "application/epub+zip",
+      "size": 394726,
+      "modified": "2026-08-15T07:53:50.000Z",
+      "checksum": "1d11e8bdde0ce96610ec3b9f7a067049",
+      "folder": false
+    },
+    {
+      "id": "14TumnpYsJ0bw3ZAnnK48i8Uc2bwwvIb7",
+      "parent_id": "1VZDorSXV8juHehf-8QBDQBpbUI68cuHk",
+      "name": "LÁ THƯ HÈ.pdf",
+      "mime": "application/pdf",
+      "size": 312569,
+      "modified": "2026-08-15T07:53:47.000Z",
+      "checksum": "d6371a7b7ed92c114395b595ad77161c",
+      "folder": false
+    }
+  ]
+}

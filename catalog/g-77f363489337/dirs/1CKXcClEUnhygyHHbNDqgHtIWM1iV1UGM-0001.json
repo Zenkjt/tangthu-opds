@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CKXcClEUnhygyHHbNDqgHtIWM1iV1UGM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OMmeVMGDbHaNJM6rVZZBf8JEuIQfCS56",
+      "parent_id": "1CKXcClEUnhygyHHbNDqgHtIWM1iV1UGM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8567,
+      "modified": "2026-08-15T08:17:09.000Z",
+      "checksum": "1c52b87c5b22818b5d66f5c4d564e3f1",
+      "folder": false
+    },
+    {
+      "id": "1p0fuI1pI74gquKhlJkEIRlPyrx3Vgosn",
+      "parent_id": "1CKXcClEUnhygyHHbNDqgHtIWM1iV1UGM",
+      "name": "NGÀN CÁNH HẠC.epub",
+      "mime": "application/epub+zip",
+      "size": 506890,
+      "modified": "2026-08-15T08:17:15.000Z",
+      "checksum": "4609db86ad2db3143514c3cf212c68c0",
+      "folder": false
+    },
+    {
+      "id": "1TJ3AD2GgYwfrRrWmGdCFITqysfB7kyfi",
+      "parent_id": "1CKXcClEUnhygyHHbNDqgHtIWM1iV1UGM",
+      "name": "NGÀN CÁNH HẠC.pdf",
+      "mime": "application/pdf",
+      "size": 435265,
+      "modified": "2026-08-15T08:17:13.000Z",
+      "checksum": "38b982c735fdb5e3d6d88e2e6e22bddf",
+      "folder": false
+    }
+  ]
+}

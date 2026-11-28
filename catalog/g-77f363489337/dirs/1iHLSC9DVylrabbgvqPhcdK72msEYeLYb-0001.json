@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iHLSC9DVylrabbgvqPhcdK72msEYeLYb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kG1M0xnY0WUa86U8edyqqWxE_hL2tGoW",
+      "parent_id": "1iHLSC9DVylrabbgvqPhcdK72msEYeLYb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12511,
+      "modified": "2026-08-15T07:05:42.000Z",
+      "checksum": "0bd70930461ab686e0f189ded7a24bce",
+      "folder": false
+    },
+    {
+      "id": "1Jv4zyE48VpppXMFWGklNntlhb6nnNelx",
+      "parent_id": "1iHLSC9DVylrabbgvqPhcdK72msEYeLYb",
+      "name": "NHỮNG CHIẾC ĐỒNG HỒ KỲ LẠ.epub",
+      "mime": "application/epub+zip",
+      "size": 498929,
+      "modified": "2026-08-15T07:05:51.000Z",
+      "checksum": "f8c53c81193f4d01068fe486b02245ea",
+      "folder": false
+    },
+    {
+      "id": "1yo5h3wrw2cvOLvU3hc4E_t0N4BFiKA5Y",
+      "parent_id": "1iHLSC9DVylrabbgvqPhcdK72msEYeLYb",
+      "name": "NHỮNG CHIẾC ĐỒNG HỒ KỲ LẠ.pdf",
+      "mime": "application/pdf",
+      "size": 982315,
+      "modified": "2026-08-15T07:05:48.000Z",
+      "checksum": "0a4ae0223c9f20439c1e39ae59621290",
+      "folder": false
+    }
+  ]
+}

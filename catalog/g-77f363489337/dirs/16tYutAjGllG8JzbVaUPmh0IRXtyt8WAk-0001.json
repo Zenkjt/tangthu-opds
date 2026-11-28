@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16tYutAjGllG8JzbVaUPmh0IRXtyt8WAk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S0ALSX1Cd1A5pFFmKuIVF-GAWrdLmXvz",
+      "parent_id": "16tYutAjGllG8JzbVaUPmh0IRXtyt8WAk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 809,
+      "modified": "2026-08-15T15:40:51.000Z",
+      "checksum": "3e2ec8c077ec860149fb7ba7abca3655",
+      "folder": false
+    },
+    {
+      "id": "1U-Ty6l48E-MX1NAjYjjt6fQFygJ-viZi",
+      "parent_id": "16tYutAjGllG8JzbVaUPmh0IRXtyt8WAk",
+      "name": "DÒNG MÁU.epub",
+      "mime": "application/epub+zip",
+      "size": 647122,
+      "modified": "2026-08-15T15:41:03.000Z",
+      "checksum": "f931649007b98059998cee685b89024b",
+      "folder": false
+    },
+    {
+      "id": "12pWnGuBwYq6R_DwX06d0OyeG7KUArIG7",
+      "parent_id": "16tYutAjGllG8JzbVaUPmh0IRXtyt8WAk",
+      "name": "DÒNG MÁU.pdf",
+      "mime": "application/pdf",
+      "size": 1307001,
+      "modified": "2026-08-15T15:40:59.000Z",
+      "checksum": "c697a87bbd8c6fdb9481287755a38102",
+      "folder": false
+    }
+  ]
+}

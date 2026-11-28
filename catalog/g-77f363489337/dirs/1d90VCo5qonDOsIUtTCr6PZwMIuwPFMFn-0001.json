@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d90VCo5qonDOsIUtTCr6PZwMIuwPFMFn",
+  "page": 1,
+  "items": [
+    {
+      "id": "16qXTDzPHekk3hAsCItMWVJYdXclb9AOe",
+      "parent_id": "1d90VCo5qonDOsIUtTCr6PZwMIuwPFMFn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10756,
+      "modified": "2026-08-15T05:47:12.000Z",
+      "checksum": "0bdfb358de7b3fda266a096d5ac3455b",
+      "folder": false
+    },
+    {
+      "id": "1rUNny4n45SJE1Hi3PtJtseVC46H9d3St",
+      "parent_id": "1d90VCo5qonDOsIUtTCr6PZwMIuwPFMFn",
+      "name": "TỨ ĐẠI PHÁP KINH.epub",
+      "mime": "application/epub+zip",
+      "size": 341903,
+      "modified": "2026-08-15T05:47:18.000Z",
+      "checksum": "c42f1f64845f4eb7244e91fd26007213",
+      "folder": false
+    },
+    {
+      "id": "1AbbtoIbzo6-CrLFj3CxDUtAHPIQWo-8h",
+      "parent_id": "1d90VCo5qonDOsIUtTCr6PZwMIuwPFMFn",
+      "name": "TỨ ĐẠI PHÁP KINH.pdf",
+      "mime": "application/pdf",
+      "size": 556718,
+      "modified": "2026-08-15T05:47:15.000Z",
+      "checksum": "97ee24f178b70e38c1bba2d63014819c",
+      "folder": false
+    }
+  ]
+}

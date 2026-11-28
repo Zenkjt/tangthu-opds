@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cc3b25jIDclZV-BeYnDCdA4vi_QD-D4Z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1z4bO9yI3nLceaRNZ3MWF_mtQyHtR_t0N",
+      "parent_id": "1cc3b25jIDclZV-BeYnDCdA4vi_QD-D4Z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5210,
+      "modified": "2026-08-15T09:49:54.000Z",
+      "checksum": "6e5883feb692807c5931e68514d20901",
+      "folder": false
+    },
+    {
+      "id": "1bkTG6eFQrff7pE0DkgcgnCwQGPUkHO3K",
+      "parent_id": "1cc3b25jIDclZV-BeYnDCdA4vi_QD-D4Z",
+      "name": "EM LÀ VÌ SAO TRONG MẮT ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 401662,
+      "modified": "2026-08-15T09:50:02.000Z",
+      "checksum": "c23b7946d225333245ec5fa29294f47a",
+      "folder": false
+    },
+    {
+      "id": "1aaynn1MLxgXWp-IxpSpjm59TbcsqdXO8",
+      "parent_id": "1cc3b25jIDclZV-BeYnDCdA4vi_QD-D4Z",
+      "name": "EM LÀ VÌ SAO TRONG MẮT ANH.pdf",
+      "mime": "application/pdf",
+      "size": 1313608,
+      "modified": "2026-08-15T09:49:59.000Z",
+      "checksum": "fa5e822db9c466628eda734f07c8639d",
+      "folder": false
+    }
+  ]
+}

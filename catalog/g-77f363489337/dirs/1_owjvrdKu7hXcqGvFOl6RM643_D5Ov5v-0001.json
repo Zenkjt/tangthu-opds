@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_owjvrdKu7hXcqGvFOl6RM643_D5Ov5v",
+  "page": 1,
+  "items": [
+    {
+      "id": "1baXXHqg0gpfLu2YRn259XHO5Hupuy164",
+      "parent_id": "1_owjvrdKu7hXcqGvFOl6RM643_D5Ov5v",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3160,
+      "modified": "2026-08-15T10:31:53.000Z",
+      "checksum": "459bec6161e78c80861e6f2da5d27f09",
+      "folder": false
+    },
+    {
+      "id": "1tF69Uwc5pkdieyjYkAJSxtuO6lYsynbM",
+      "parent_id": "1_owjvrdKu7hXcqGvFOl6RM643_D5Ov5v",
+      "name": "PHƯỢNG HOÀNG TRỞ VỀ.epub",
+      "mime": "application/epub+zip",
+      "size": 853729,
+      "modified": "2026-08-15T10:32:01.000Z",
+      "checksum": "e507e876f07eced1a90fad034df93eb8",
+      "folder": false
+    },
+    {
+      "id": "1t3c8UkZx-eHtVcMIUuBS7Mss8bENFO4X",
+      "parent_id": "1_owjvrdKu7hXcqGvFOl6RM643_D5Ov5v",
+      "name": "PHƯỢNG HOÀNG TRỞ VỀ.pdf",
+      "mime": "application/pdf",
+      "size": 1716428,
+      "modified": "2026-08-15T10:31:58.000Z",
+      "checksum": "014df49551a87ed5924f570a9930d0b1",
+      "folder": false
+    }
+  ]
+}

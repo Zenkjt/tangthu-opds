@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "branch_id": "g-f5a27f2a7738",
+  "root_folder_id": "1hR0H-wZejPM59ka-340atSlJCCYaaUbs",
+  "root_shards": [
+    "catalog/g-f5a27f2a7738/1hR0H-wZejPM59ka-340atSlJCCYaaUbs-0001.json"
+  ],
+  "directories": [
+    {
+      "id": "17qIhJJLrMU0AX9S_Jpp6mH7KoBSsuG56",
+      "name": "ZtangthuCache",
+      "parent_id": "1hR0H-wZejPM59ka-340atSlJCCYaaUbs",
+      "shards": [
+        "catalog/g-f5a27f2a7738/dirs/17qIhJJLrMU0AX9S_Jpp6mH7KoBSsuG56-0001.json"
+      ]
+    },
+    {
+      "id": "1u-w3kIIEUUjZ0tdY_tOGyobkhfDIQJmf",
+      "name": "tru-tien",
+      "parent_id": "17qIhJJLrMU0AX9S_Jpp6mH7KoBSsuG56",
+      "shards": []
+    }
+  ]
+}

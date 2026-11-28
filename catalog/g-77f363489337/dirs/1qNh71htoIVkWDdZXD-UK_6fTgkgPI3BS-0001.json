@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qNh71htoIVkWDdZXD-UK_6fTgkgPI3BS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eW7cogrKbs_XsY3eO4HIxhrfZAKf2oT6",
+      "parent_id": "1qNh71htoIVkWDdZXD-UK_6fTgkgPI3BS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5039,
+      "modified": "2026-08-15T03:20:41.000Z",
+      "checksum": "13709867b9203b98955dc6f47fdc5800",
+      "folder": false
+    },
+    {
+      "id": "1X9H3buxORFgq3bM_2maytzCuzfiTHcdB",
+      "parent_id": "1qNh71htoIVkWDdZXD-UK_6fTgkgPI3BS",
+      "name": "TỰ ĐÀO GIẾNG TRƯỚC KHI CHẾT KHÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 677686,
+      "modified": "2026-08-15T03:20:49.000Z",
+      "checksum": "749226910ca816c26a2421d6de90e7b2",
+      "folder": false
+    },
+    {
+      "id": "17Oz0CfwiBGSV5B4oZwmea_xM_ZRcxnAc",
+      "parent_id": "1qNh71htoIVkWDdZXD-UK_6fTgkgPI3BS",
+      "name": "TỰ ĐÀO GIẾNG TRƯỚC KHI CHẾT KHÁT.pdf",
+      "mime": "application/pdf",
+      "size": 2088955,
+      "modified": "2026-08-15T03:20:46.000Z",
+      "checksum": "0a3b4e53a601d61418b208d079a5079a",
+      "folder": false
+    }
+  ]
+}

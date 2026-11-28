@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1m9tkjTGRyY7OQyJCwBZ0d3GoNMmjK8Ke",
+  "page": 1,
+  "items": [
+    {
+      "id": "14V9UgHaF88QfdgOWrzV551vnvteGfvHh",
+      "parent_id": "1m9tkjTGRyY7OQyJCwBZ0d3GoNMmjK8Ke",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4586,
+      "modified": "2026-08-15T03:39:13.000Z",
+      "checksum": "a55f0584ae1e393848ae1449fa05dbef",
+      "folder": false
+    },
+    {
+      "id": "1yspZdU72m3V7rMMlm631K-BBXKD_GkyF",
+      "parent_id": "1m9tkjTGRyY7OQyJCwBZ0d3GoNMmjK8Ke",
+      "name": "HOA TRÔI TRÊN SÓNG NƯỚC.epub",
+      "mime": "application/epub+zip",
+      "size": 289320,
+      "modified": "2026-08-15T03:39:20.000Z",
+      "checksum": "0d75edf84a28ce24d50e921dd1c1146f",
+      "folder": false
+    },
+    {
+      "id": "1AabdAmGRDW0ktsr4U0BI4FDoZAfCk4Rm",
+      "parent_id": "1m9tkjTGRyY7OQyJCwBZ0d3GoNMmjK8Ke",
+      "name": "HOA TRÔI TRÊN SÓNG NƯỚC.pdf",
+      "mime": "application/pdf",
+      "size": 676057,
+      "modified": "2026-08-15T03:39:17.000Z",
+      "checksum": "528cf39b27130236f938a10e07aa880f",
+      "folder": false
+    }
+  ]
+}

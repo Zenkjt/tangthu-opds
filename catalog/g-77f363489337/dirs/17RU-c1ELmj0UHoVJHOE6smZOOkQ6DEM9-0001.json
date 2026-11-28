@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17RU-c1ELmj0UHoVJHOE6smZOOkQ6DEM9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yX8i61o66sydBshh_VnGIOqyUm_ZsJAg",
+      "parent_id": "17RU-c1ELmj0UHoVJHOE6smZOOkQ6DEM9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1933,
+      "modified": "2026-08-15T06:45:16.000Z",
+      "checksum": "afc1b93536629e5acbb59b0b6ae50c23",
+      "folder": false
+    },
+    {
+      "id": "16w7en_qSShg9ZIgUVUjh2Gxug5Yoqhsp",
+      "parent_id": "17RU-c1ELmj0UHoVJHOE6smZOOkQ6DEM9",
+      "name": "NGŨ LUÂN THƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 391671,
+      "modified": "2026-08-15T06:45:23.000Z",
+      "checksum": "4fb80beae085b03b1b30b0ae1f4a8401",
+      "folder": false
+    },
+    {
+      "id": "1MKNOU6N6zR6Rs2jPBiwlXHgfwGfMRbvv",
+      "parent_id": "17RU-c1ELmj0UHoVJHOE6smZOOkQ6DEM9",
+      "name": "NGŨ LUÂN THƯ.pdf",
+      "mime": "application/pdf",
+      "size": 344050,
+      "modified": "2026-08-15T06:45:19.000Z",
+      "checksum": "566bc2142969352b56e7b8a0f702365a",
+      "folder": false
+    }
+  ]
+}

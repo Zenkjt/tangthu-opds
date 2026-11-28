@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KpNeq57XmTT6-70tMda3QT_vAAI311X7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JufsP-PZWvYIZ1pBTRTodKTKnVBR64eD",
+      "parent_id": "1KpNeq57XmTT6-70tMda3QT_vAAI311X7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1611,
+      "modified": "2026-08-15T09:36:11.000Z",
+      "checksum": "ac81fd7f8a0e388ae4baba55dacc3b94",
+      "folder": false
+    },
+    {
+      "id": "1b424mwpQNhcEaUf-ush16hGCvzd7WHAq",
+      "parent_id": "1KpNeq57XmTT6-70tMda3QT_vAAI311X7",
+      "name": "KIÊU HÃNH VÀ ĐỊNH KIẾN.epub",
+      "mime": "application/epub+zip",
+      "size": 695119,
+      "modified": "2026-08-15T09:36:21.000Z",
+      "checksum": "d63bc76ab14978ba59caf1f02bb9075f",
+      "folder": false
+    },
+    {
+      "id": "1YC_fJ_jLrFy3sb2cH_PoLnOA7IC_65Xj",
+      "parent_id": "1KpNeq57XmTT6-70tMda3QT_vAAI311X7",
+      "name": "KIÊU HÃNH VÀ ĐỊNH KIẾN.pdf",
+      "mime": "application/pdf",
+      "size": 1485712,
+      "modified": "2026-08-15T09:36:18.000Z",
+      "checksum": "8a383512677bd2ebd93ad484d2067e8d",
+      "folder": false
+    }
+  ]
+}

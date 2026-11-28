@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11AjQ6kRFLvrbc-CFiJWytb-qeSW2VEWV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aiH8cnmtQMf2s6yJtQ5AiKVUlcuvNJpu",
+      "parent_id": "11AjQ6kRFLvrbc-CFiJWytb-qeSW2VEWV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3035,
+      "modified": "2026-08-15T10:08:28.000Z",
+      "checksum": "10e2a2df3914a6533d9cf38a26ca9d5d",
+      "folder": false
+    },
+    {
+      "id": "1KLq3lpHIdbPbEWg8smp2ubrTPb4wPZbP",
+      "parent_id": "11AjQ6kRFLvrbc-CFiJWytb-qeSW2VEWV",
+      "name": "TÌNH YÊU BẢY NĂM.epub",
+      "mime": "application/epub+zip",
+      "size": 483076,
+      "modified": "2026-08-15T10:08:35.000Z",
+      "checksum": "0f7eab08fadf24ff1976831b32cd603b",
+      "folder": false
+    },
+    {
+      "id": "1Tnsv_Ec8zRuQA94dHkhN5Mo3uLWLMPbo",
+      "parent_id": "11AjQ6kRFLvrbc-CFiJWytb-qeSW2VEWV",
+      "name": "TÌNH YÊU BẢY NĂM.pdf",
+      "mime": "application/pdf",
+      "size": 1225818,
+      "modified": "2026-08-15T10:08:32.000Z",
+      "checksum": "654467a8451fe197d6e3891dbb202428",
+      "folder": false
+    }
+  ]
+}

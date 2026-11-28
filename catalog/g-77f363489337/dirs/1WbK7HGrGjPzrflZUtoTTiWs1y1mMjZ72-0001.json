@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WbK7HGrGjPzrflZUtoTTiWs1y1mMjZ72",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mgxmJbV2QguTmMe2tjMRkUYvD5JBPB7j",
+      "parent_id": "1WbK7HGrGjPzrflZUtoTTiWs1y1mMjZ72",
+      "name": "CON MẢ CON MA.epub",
+      "mime": "application/epub+zip",
+      "size": 677711,
+      "modified": "2026-08-15T06:56:01.000Z",
+      "checksum": "abc78794a240c7af8f7776ac49bbe4e6",
+      "folder": false
+    },
+    {
+      "id": "1CNJWYEAnXJLWZJfMCcuNXwj5HQDvhl0N",
+      "parent_id": "1WbK7HGrGjPzrflZUtoTTiWs1y1mMjZ72",
+      "name": "CON MẢ CON MA.pdf",
+      "mime": "application/pdf",
+      "size": 341936,
+      "modified": "2026-08-15T06:55:42.000Z",
+      "checksum": "e07e58a15c079c94897d1e1f691f43b2",
+      "folder": false
+    },
+    {
+      "id": "1yRkus1zDGWVIis4jMkDfWA7hpYuln2ei",
+      "parent_id": "1WbK7HGrGjPzrflZUtoTTiWs1y1mMjZ72",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 901,
+      "modified": "2026-08-15T06:55:37.000Z",
+      "checksum": "5d535c31a50025b0ff6250c4dc7e0a04",
+      "folder": false
+    }
+  ]
+}

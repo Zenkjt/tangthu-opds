@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1J2lJi2KaEEOkqPh1U7wr09txMx65UG4E",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qhcWMjgy05azRWDn4oTRsMJztkeUEBeD",
+      "parent_id": "1J2lJi2KaEEOkqPh1U7wr09txMx65UG4E",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4594,
+      "modified": "2026-08-15T07:24:02.000Z",
+      "checksum": "974a52c218ba50e443847b8ac5f5d70e",
+      "folder": false
+    },
+    {
+      "id": "14gNZz7JTUibI0TstMCZlgrI7TPqXuFIZ",
+      "parent_id": "1J2lJi2KaEEOkqPh1U7wr09txMx65UG4E",
+      "name": "TỰ TÌNH LÚC 0 GIỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 607351,
+      "modified": "2026-08-15T07:24:08.000Z",
+      "checksum": "9624120a6378a0c1a8f5f10f307c4e54",
+      "folder": false
+    },
+    {
+      "id": "1He9LOdCe5LldHqoLVVZyA46XxJd3dLdr",
+      "parent_id": "1J2lJi2KaEEOkqPh1U7wr09txMx65UG4E",
+      "name": "TỰ TÌNH LÚC 0 GIỜ.pdf",
+      "mime": "application/pdf",
+      "size": 997767,
+      "modified": "2026-08-15T07:24:05.000Z",
+      "checksum": "02a5d8d972120bf452f0842425f1bee8",
+      "folder": false
+    }
+  ]
+}

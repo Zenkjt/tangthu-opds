@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YQiXNUha2_iKuH2fqDPwa0iqEvm3QXee",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fArmfkRyeTOqHfj3k_DMzmWl6uPcKRj9",
+      "parent_id": "1YQiXNUha2_iKuH2fqDPwa0iqEvm3QXee",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1826,
+      "modified": "2026-08-15T03:25:37.000Z",
+      "checksum": "40651e86f2d782dcd71ab2cc4f9b9267",
+      "folder": false
+    },
+    {
+      "id": "1TT-hdMC4pzWoN4lkwpeEST00co0VeIBw",
+      "parent_id": "1YQiXNUha2_iKuH2fqDPwa0iqEvm3QXee",
+      "name": "THUẬT HÙNG BIỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 307952,
+      "modified": "2026-08-15T03:25:44.000Z",
+      "checksum": "303d017331f1005a48dc9064b9083bf9",
+      "folder": false
+    },
+    {
+      "id": "1Kg-p2mlUqCOsICIwGRTaTkv_q6CFVii6",
+      "parent_id": "1YQiXNUha2_iKuH2fqDPwa0iqEvm3QXee",
+      "name": "THUẬT HÙNG BIỆN.pdf",
+      "mime": "application/pdf",
+      "size": 503280,
+      "modified": "2026-08-15T03:25:41.000Z",
+      "checksum": "61f7c9a4d06326eaa03b76444b1ac298",
+      "folder": false
+    }
+  ]
+}

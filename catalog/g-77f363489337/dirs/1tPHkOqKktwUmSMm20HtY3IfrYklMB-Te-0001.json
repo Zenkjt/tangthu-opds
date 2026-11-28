@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tPHkOqKktwUmSMm20HtY3IfrYklMB-Te",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P8-fDNy1v351MdqsdV3AVs7MwUrH9o_U",
+      "parent_id": "1tPHkOqKktwUmSMm20HtY3IfrYklMB-Te",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2564,
+      "modified": "2026-08-15T07:54:34.000Z",
+      "checksum": "7cce7ed8838657136fc672d00728cd2a",
+      "folder": false
+    },
+    {
+      "id": "1VHTc5ZF3n0WTFqdAGWVXP6Dl9Oq5sSMt",
+      "parent_id": "1tPHkOqKktwUmSMm20HtY3IfrYklMB-Te",
+      "name": "HƯƠU LẠC LỐI.epub",
+      "mime": "application/epub+zip",
+      "size": 621123,
+      "modified": "2026-08-15T07:54:41.000Z",
+      "checksum": "941272bb9ab8fe33e7e4740565615482",
+      "folder": false
+    },
+    {
+      "id": "1wotJ-Wfq_s8GfM0ciXCCZrvg3SORfrne",
+      "parent_id": "1tPHkOqKktwUmSMm20HtY3IfrYklMB-Te",
+      "name": "HƯƠU LẠC LỐI.pdf",
+      "mime": "application/pdf",
+      "size": 1754578,
+      "modified": "2026-08-15T07:54:38.000Z",
+      "checksum": "e1fcf2a66b30423c60ff911934e8a39a",
+      "folder": false
+    }
+  ]
+}

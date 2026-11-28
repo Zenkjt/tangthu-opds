@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11zYbXe3cIff_9HyTdQjJgn3gTQ_AzKDo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1g12nJ3oa_aqDc6NcXvdWZN22BCuacei6",
+      "parent_id": "11zYbXe3cIff_9HyTdQjJgn3gTQ_AzKDo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 375,
+      "modified": "2026-08-16T04:17:45.000Z",
+      "checksum": "b1f24a8417090a0601d2dd16d4c82f19",
+      "folder": false
+    },
+    {
+      "id": "1oQy4INi13MRBflf7qsq-SlbKwpt1wb1T",
+      "parent_id": "11zYbXe3cIff_9HyTdQjJgn3gTQ_AzKDo",
+      "name": "MỘT NGÀY LÀ MƯỜI NĂM.epub",
+      "mime": "application/epub+zip",
+      "size": 500167,
+      "modified": "2026-08-16T04:17:51.000Z",
+      "checksum": "62b37121c93180019b47e85561175658",
+      "folder": false
+    },
+    {
+      "id": "1CG5PEzrjQFq-fESY64CdsTjAOZ1jTQAT",
+      "parent_id": "11zYbXe3cIff_9HyTdQjJgn3gTQ_AzKDo",
+      "name": "MỘT NGÀY LÀ MƯỜI NĂM.pdf",
+      "mime": "application/pdf",
+      "size": 845434,
+      "modified": "2026-08-16T04:17:49.000Z",
+      "checksum": "13a8ba87832805c3e8692a253ec234d6",
+      "folder": false
+    }
+  ]
+}

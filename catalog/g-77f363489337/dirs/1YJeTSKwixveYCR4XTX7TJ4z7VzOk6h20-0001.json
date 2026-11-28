@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YJeTSKwixveYCR4XTX7TJ4z7VzOk6h20",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XNAJeDYMUYqg7an0ME-rT5R4dJPzhuew",
+      "parent_id": "1YJeTSKwixveYCR4XTX7TJ4z7VzOk6h20",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2506,
+      "modified": "2026-08-15T05:40:51.000Z",
+      "checksum": "bc25262d70c0fbee43dbfb3d12894a1e",
+      "folder": false
+    },
+    {
+      "id": "1GzKkxJsEbG2wm-SMOIxZs1Xf5vOpCaxy",
+      "parent_id": "1YJeTSKwixveYCR4XTX7TJ4z7VzOk6h20",
+      "name": "SUY NIỆM MỖI NGÀY.epub",
+      "mime": "application/epub+zip",
+      "size": 1394290,
+      "modified": "2026-08-15T05:40:59.000Z",
+      "checksum": "a7aa54a0baad3fe789473feaeb5cb4bb",
+      "folder": false
+    },
+    {
+      "id": "1AaCa9ZKLmXUTmrs3nPn5KOT0TrkaZqgC",
+      "parent_id": "1YJeTSKwixveYCR4XTX7TJ4z7VzOk6h20",
+      "name": "SUY NIỆM MỖI NGÀY.pdf",
+      "mime": "application/pdf",
+      "size": 1983204,
+      "modified": "2026-08-15T05:40:56.000Z",
+      "checksum": "8b25308867eab48452ebd086479e62de",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iMVUDaQttMibvW813qvnUvIEjM6NJRRv",
+  "page": 1,
+  "items": [
+    {
+      "id": "14aYaXl4q1RJTYGPZAfahvpJTxx6T2uwU",
+      "parent_id": "1iMVUDaQttMibvW813qvnUvIEjM6NJRRv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 576,
+      "modified": "2026-08-15T10:52:35.000Z",
+      "checksum": "d4a1090222fbef866666b473df331918",
+      "folder": false
+    },
+    {
+      "id": "1uUcy6QQ0lY34ZRvqVsQXzmNMuEEcbxLm",
+      "parent_id": "1iMVUDaQttMibvW813qvnUvIEjM6NJRRv",
+      "name": "MIO, CON TRAI TA.epub",
+      "mime": "application/epub+zip",
+      "size": 530969,
+      "modified": "2026-08-15T10:52:41.000Z",
+      "checksum": "e46a2086e610c28d2cc91a36c201a731",
+      "folder": false
+    },
+    {
+      "id": "1ZNDDIIM07V6Vah7Jy4tmrkEwEtybb6nA",
+      "parent_id": "1iMVUDaQttMibvW813qvnUvIEjM6NJRRv",
+      "name": "MIO, CON TRAI TA.pdf",
+      "mime": "application/pdf",
+      "size": 733413,
+      "modified": "2026-08-15T10:52:38.000Z",
+      "checksum": "ed6366fb15a260ae86455ebd0f98a2d7",
+      "folder": false
+    }
+  ]
+}

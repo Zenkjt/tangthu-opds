@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hQH975Y0I8uF1_io1O81hCsptF-O8vkR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1d8qR2mMTB9kxd8NCq-u2uZf3ATy7EnjS",
+      "parent_id": "1hQH975Y0I8uF1_io1O81hCsptF-O8vkR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1255,
+      "modified": "2026-08-15T05:40:42.000Z",
+      "checksum": "eadae5a7e9c9380d5643beccb2c52c0d",
+      "folder": false
+    },
+    {
+      "id": "1MJj9Vyx-U19bkaubNsBrKzHO7kFh0Jxz",
+      "parent_id": "1hQH975Y0I8uF1_io1O81hCsptF-O8vkR",
+      "name": "MI TIÊN VẤN ĐÁP.epub",
+      "mime": "application/epub+zip",
+      "size": 726959,
+      "modified": "2026-08-15T05:40:52.000Z",
+      "checksum": "2c60d30e7ce1092350be13dae7f0c168",
+      "folder": false
+    },
+    {
+      "id": "1Zfd0ZPjNdrQY30VxIhO-yAzh3agP-kgB",
+      "parent_id": "1hQH975Y0I8uF1_io1O81hCsptF-O8vkR",
+      "name": "MI TIÊN VẤN ĐÁP.pdf",
+      "mime": "application/pdf",
+      "size": 2528798,
+      "modified": "2026-08-15T05:40:49.000Z",
+      "checksum": "a22216e4d70e1a4173d9b5a9e3980852",
+      "folder": false
+    }
+  ]
+}

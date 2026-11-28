@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zzNMX97DtRJvO1NrwexGBYsFIBMWlejx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uSSljM0sij6Hk3XB0Abqg73z1ep0V1-t",
+      "parent_id": "1zzNMX97DtRJvO1NrwexGBYsFIBMWlejx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3130,
+      "modified": "2026-08-15T03:17:57.000Z",
+      "checksum": "1c539f028a601df9257019ba3aa065b8",
+      "folder": false
+    },
+    {
+      "id": "1xuqiln7s4Q_BQ3bfpDfeEAP5Hnf5-mZd",
+      "parent_id": "1zzNMX97DtRJvO1NrwexGBYsFIBMWlejx",
+      "name": "SỰ KIẾN TẠO XÃ HỘI VỀ THỰC TẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 824480,
+      "modified": "2026-08-15T03:18:05.000Z",
+      "checksum": "a5d80f41602dd87471e738e5ea208d93",
+      "folder": false
+    },
+    {
+      "id": "1WRWDN2K2r9-sRzqfPCFXymxyyiIPMeze",
+      "parent_id": "1zzNMX97DtRJvO1NrwexGBYsFIBMWlejx",
+      "name": "SỰ KIẾN TẠO XÃ HỘI VỀ THỰC TẠI.pdf",
+      "mime": "application/pdf",
+      "size": 1608384,
+      "modified": "2026-08-15T03:18:02.000Z",
+      "checksum": "c1d3eaed8044f522c3fd50746c3cac7c",
+      "folder": false
+    }
+  ]
+}

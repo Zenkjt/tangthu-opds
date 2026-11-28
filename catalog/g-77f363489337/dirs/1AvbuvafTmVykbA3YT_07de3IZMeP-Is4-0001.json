@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AvbuvafTmVykbA3YT_07de3IZMeP-Is4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GF1fStKyHotoODPBDD0AIpYtks-Gbltf",
+      "parent_id": "1AvbuvafTmVykbA3YT_07de3IZMeP-Is4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3083,
+      "modified": "2026-08-16T04:02:08.000Z",
+      "checksum": "57ce86c4d653f54bb4f88bd3336fe3b3",
+      "folder": false
+    },
+    {
+      "id": "1bpDXNQwNfrL73bgH_vdoRFl_2Xo6ahle",
+      "parent_id": "1AvbuvafTmVykbA3YT_07de3IZMeP-Is4",
+      "name": "TA LÀ TIÊN PHÀM.epub",
+      "mime": "application/epub+zip",
+      "size": 523125,
+      "modified": "2026-08-16T04:02:13.000Z",
+      "checksum": "6207df773a1167aefe270083a17b95cc",
+      "folder": false
+    },
+    {
+      "id": "1MCdrpauqNYz6qJLpBoS9jk_yoI_0oUPI",
+      "parent_id": "1AvbuvafTmVykbA3YT_07de3IZMeP-Is4",
+      "name": "TA LÀ TIÊN PHÀM.pdf",
+      "mime": "application/pdf",
+      "size": 539245,
+      "modified": "2026-08-16T04:02:11.000Z",
+      "checksum": "fd6fa051578ec446c6fc6da6a396b6bc",
+      "folder": false
+    }
+  ]
+}

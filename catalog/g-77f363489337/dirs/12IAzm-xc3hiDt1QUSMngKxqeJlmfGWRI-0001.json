@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12IAzm-xc3hiDt1QUSMngKxqeJlmfGWRI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mT1wvznTeopVGyd0M17siSx9SYJ7SyEG",
+      "parent_id": "12IAzm-xc3hiDt1QUSMngKxqeJlmfGWRI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 518,
+      "modified": "2026-08-15T10:57:17.000Z",
+      "checksum": "441775c481978e902ab683fbf808b04d",
+      "folder": false
+    },
+    {
+      "id": "1ozeEhAzxNT5pobkhNFb9e0JZ64-fgHuI",
+      "parent_id": "12IAzm-xc3hiDt1QUSMngKxqeJlmfGWRI",
+      "name": "GIAI ĐIỆU CHO TRÁI TIM TAN VỠ.epub",
+      "mime": "application/epub+zip",
+      "size": 418015,
+      "modified": "2026-08-15T10:57:23.000Z",
+      "checksum": "430dbc8a535e8bc88eb0b6ff2acc036c",
+      "folder": false
+    },
+    {
+      "id": "1WQiSMwNLH4FbHnoaAnqjKr-oV2tnEeUR",
+      "parent_id": "12IAzm-xc3hiDt1QUSMngKxqeJlmfGWRI",
+      "name": "GIAI ĐIỆU CHO TRÁI TIM TAN VỠ.pdf",
+      "mime": "application/pdf",
+      "size": 829044,
+      "modified": "2026-08-15T10:57:20.000Z",
+      "checksum": "f9c07949bcf6c9fb32cc76ad9e9e2812",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1J0WTrjeLRa8a2ET3yM2sRxBBdATOrKNA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xgar4dMDypAqJusqPIDzYGuGNMOeS-_x",
+      "parent_id": "1J0WTrjeLRa8a2ET3yM2sRxBBdATOrKNA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 377,
+      "modified": "2026-08-16T03:59:35.000Z",
+      "checksum": "67d70b5cbc79f15d75c339c67e99b699",
+      "folder": false
+    },
+    {
+      "id": "14RWkaafTXXgySM6HfvoLWfqIsXei_r5w",
+      "parent_id": "1J0WTrjeLRa8a2ET3yM2sRxBBdATOrKNA",
+      "name": "THÁNG NGÀY CÓ EM.epub",
+      "mime": "application/epub+zip",
+      "size": 553689,
+      "modified": "2026-08-16T03:59:41.000Z",
+      "checksum": "c7ca9be8da3e4d53891bdcd217a4c407",
+      "folder": false
+    },
+    {
+      "id": "1Gslnd9ObHoFASdbW1FbcPhgR1TCGe3bi",
+      "parent_id": "1J0WTrjeLRa8a2ET3yM2sRxBBdATOrKNA",
+      "name": "THÁNG NGÀY CÓ EM.pdf",
+      "mime": "application/pdf",
+      "size": 1035515,
+      "modified": "2026-08-16T03:59:38.000Z",
+      "checksum": "75b74ace3e25a64ed08266235495deca",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1g_7vZtkGF9KZJ_Y_gSPu0Y5M3b_JgoQQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Pc_2JEhzUsf8A_7pbOWqTWXFUQMN8e6E",
+      "parent_id": "1g_7vZtkGF9KZJ_Y_gSPu0Y5M3b_JgoQQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3221,
+      "modified": "2026-08-15T10:50:20.000Z",
+      "checksum": "b31e301d3d7a3a1961f8c8a3ed70bcb1",
+      "folder": false
+    },
+    {
+      "id": "1alRRDkYpa-xkthIBHl6l6Wli-1_Gdl8w",
+      "parent_id": "1g_7vZtkGF9KZJ_Y_gSPu0Y5M3b_JgoQQ",
+      "name": "MỰC GIẤY VÀ SAO TRỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 550505,
+      "modified": "2026-08-15T10:51:29.000Z",
+      "checksum": "29df8ae21a9e7815fde891472ae03106",
+      "folder": false
+    },
+    {
+      "id": "1dYonuXrtMKA3OOiddRlD3pQ_dPvf9Ejm",
+      "parent_id": "1g_7vZtkGF9KZJ_Y_gSPu0Y5M3b_JgoQQ",
+      "name": "MỰC GIẤY VÀ SAO TRỜI.pdf",
+      "mime": "application/pdf",
+      "size": 744153,
+      "modified": "2026-08-15T10:50:46.000Z",
+      "checksum": "f2e81ae331e2ea82aa1fb57f29d702a5",
+      "folder": false
+    }
+  ]
+}

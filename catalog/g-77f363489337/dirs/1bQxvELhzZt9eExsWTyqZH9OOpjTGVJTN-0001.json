@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bQxvELhzZt9eExsWTyqZH9OOpjTGVJTN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FDF7Cqky1FBPGSi1NrudwAENvgN4gXB5",
+      "parent_id": "1bQxvELhzZt9eExsWTyqZH9OOpjTGVJTN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2867,
+      "modified": "2026-08-15T12:37:09.000Z",
+      "checksum": "f5becf8e767fd9fc479db463c3a45ab1",
+      "folder": false
+    },
+    {
+      "id": "1eink9ShobemklGMfHwYjrWIxht9uiQOs",
+      "parent_id": "1bQxvELhzZt9eExsWTyqZH9OOpjTGVJTN",
+      "name": "DŨNG SĨ CHÉP CÒM.epub",
+      "mime": "application/epub+zip",
+      "size": 1376631,
+      "modified": "2026-08-15T12:37:25.000Z",
+      "checksum": "973e4cbc2be30d937c0311620b8b001f",
+      "folder": false
+    },
+    {
+      "id": "1Upkg3twHFd7W_cP0OwLeNMHrzYG1-Ult",
+      "parent_id": "1bQxvELhzZt9eExsWTyqZH9OOpjTGVJTN",
+      "name": "DŨNG SĨ CHÉP CÒM.pdf",
+      "mime": "application/pdf",
+      "size": 1601307,
+      "modified": "2026-08-15T12:37:21.000Z",
+      "checksum": "c3a7081e673fd11099005700f5d1dd5f",
+      "folder": false
+    }
+  ]
+}

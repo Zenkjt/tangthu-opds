@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LXfVy8OljFn8KNZIF6a9fbXIpCALT5wV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mGJJMaIW5kjpf_pdY0aj-UZgVQ5mQ-Pp",
+      "parent_id": "1LXfVy8OljFn8KNZIF6a9fbXIpCALT5wV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3251,
+      "modified": "2026-08-16T03:57:40.000Z",
+      "checksum": "a96d105a908287f3086b841c35aac4cd",
+      "folder": false
+    },
+    {
+      "id": "16v52k4IKma4FFSyZcJeSBupZNEsyESfg",
+      "parent_id": "1LXfVy8OljFn8KNZIF6a9fbXIpCALT5wV",
+      "name": "THIẾT QUYẾT ĐẠI KỲ.epub",
+      "mime": "application/epub+zip",
+      "size": 792373,
+      "modified": "2026-08-16T03:57:49.000Z",
+      "checksum": "f22566e1d75b6d58ed9636c2de633d57",
+      "folder": false
+    },
+    {
+      "id": "1R6GnuTu1k7Sgj9WF0mj_MV_ged5_R5re",
+      "parent_id": "1LXfVy8OljFn8KNZIF6a9fbXIpCALT5wV",
+      "name": "THIẾT QUYẾT ĐẠI KỲ.pdf",
+      "mime": "application/pdf",
+      "size": 2268743,
+      "modified": "2026-08-16T03:57:46.000Z",
+      "checksum": "bf137bc78b4c9cfa994d3a2f21f26c62",
+      "folder": false
+    }
+  ]
+}

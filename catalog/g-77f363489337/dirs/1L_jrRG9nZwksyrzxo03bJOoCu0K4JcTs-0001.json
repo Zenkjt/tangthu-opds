@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1L_jrRG9nZwksyrzxo03bJOoCu0K4JcTs",
+  "page": 1,
+  "items": [
+    {
+      "id": "18p793Hqr4fJL9crwFdYkXBrAtBMWb6VD",
+      "parent_id": "1L_jrRG9nZwksyrzxo03bJOoCu0K4JcTs",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 1976,
+      "modified": "2026-08-15T03:52:09.000Z",
+      "checksum": "6089d0f6c2ee3e6c2315e849644c85f8",
+      "folder": false
+    },
+    {
+      "id": "1dzEM7nAwoKRlG74Vb8EVJAkXZ4UMeG-w",
+      "parent_id": "1L_jrRG9nZwksyrzxo03bJOoCu0K4JcTs",
+      "name": "PHÁP LUÂN CÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 980233,
+      "modified": "2026-08-15T03:52:15.000Z",
+      "checksum": "b5913d33cbae3459146b8ddb92e06bbd",
+      "folder": false
+    },
+    {
+      "id": "1tgK9kYp_puaYy8Pa_pt3SmMbhdIcIpi3",
+      "parent_id": "1L_jrRG9nZwksyrzxo03bJOoCu0K4JcTs",
+      "name": "PHÁP LUÂN CÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 1477691,
+      "modified": "2026-08-15T03:52:12.000Z",
+      "checksum": "af4908322d5165ee63d01654f15a3842",
+      "folder": false
+    }
+  ]
+}

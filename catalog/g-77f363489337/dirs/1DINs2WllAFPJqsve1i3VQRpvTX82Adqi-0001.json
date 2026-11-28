@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DINs2WllAFPJqsve1i3VQRpvTX82Adqi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pvmap6n4M3FMCVjgxAz79FVSFsWhlsBk",
+      "parent_id": "1DINs2WllAFPJqsve1i3VQRpvTX82Adqi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3015,
+      "modified": "2026-08-15T10:26:16.000Z",
+      "checksum": "43d5444dda899124bdb2f0b8c60c0052",
+      "folder": false
+    },
+    {
+      "id": "188pkFQh4kF6S696YTqxc4Ul6zvMn17HG",
+      "parent_id": "1DINs2WllAFPJqsve1i3VQRpvTX82Adqi",
+      "name": "SỐNG CHUNG SAU LY HÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 501125,
+      "modified": "2026-08-15T10:26:25.000Z",
+      "checksum": "75a2c3aab0205e11d9233537817c6d49",
+      "folder": false
+    },
+    {
+      "id": "1fAd6tYDppGFdIRF6nn03x0fEe0tCJMy7",
+      "parent_id": "1DINs2WllAFPJqsve1i3VQRpvTX82Adqi",
+      "name": "SỐNG CHUNG SAU LY HÔN.pdf",
+      "mime": "application/pdf",
+      "size": 1352107,
+      "modified": "2026-08-15T10:26:21.000Z",
+      "checksum": "6fe9df9796aa7ed818dc27a091fc76fa",
+      "folder": false
+    }
+  ]
+}

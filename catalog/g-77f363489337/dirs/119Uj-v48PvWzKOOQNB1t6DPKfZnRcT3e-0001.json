@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "119Uj-v48PvWzKOOQNB1t6DPKfZnRcT3e",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WjyxQoSAOfpBs9To4qgF95kROehgSzXG",
+      "parent_id": "119Uj-v48PvWzKOOQNB1t6DPKfZnRcT3e",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 593,
+      "modified": "2026-08-16T04:09:22.000Z",
+      "checksum": "d77ca3150bfcddd01f20b137f0e58929",
+      "folder": false
+    },
+    {
+      "id": "1kNyy5peMkspMKO45jhrzqr4-py9hYBpY",
+      "parent_id": "119Uj-v48PvWzKOOQNB1t6DPKfZnRcT3e",
+      "name": "NHỮNG NGƯỜI ĐI XÂY MỘNG.epub",
+      "mime": "application/epub+zip",
+      "size": 465622,
+      "modified": "2026-08-16T04:09:29.000Z",
+      "checksum": "f961c826c9a52867495e51733e677a2d",
+      "folder": false
+    },
+    {
+      "id": "18u2YWQtgJr41Rn-5YsnRN-Of8LGMwwQr",
+      "parent_id": "119Uj-v48PvWzKOOQNB1t6DPKfZnRcT3e",
+      "name": "NHỮNG NGƯỜI ĐI XÂY MỘNG.pdf",
+      "mime": "application/pdf",
+      "size": 1263806,
+      "modified": "2026-08-16T04:09:26.000Z",
+      "checksum": "b9c70a813167008ce28e5afc9227e4fb",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_VpxCLDu3p6QxLmOJJ5GkLVIqUs-ubRw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qc26a0n6Uqyeb3AWZc6RSRRVXnsp2iYy",
+      "parent_id": "1_VpxCLDu3p6QxLmOJJ5GkLVIqUs-ubRw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6980,
+      "modified": "2026-08-15T12:28:53.000Z",
+      "checksum": "c66b322568c92792973c91c3019b9ddb",
+      "folder": false
+    },
+    {
+      "id": "1M-BS9sM5wx7nwE8UJxEDf84KsKlNqjJ7",
+      "parent_id": "1_VpxCLDu3p6QxLmOJJ5GkLVIqUs-ubRw",
+      "name": "PHÚT DÀNH CHO CON.epub",
+      "mime": "application/epub+zip",
+      "size": 406144,
+      "modified": "2026-08-15T12:29:00.000Z",
+      "checksum": "1221171c5cbed75bec875d388c05b2ca",
+      "folder": false
+    },
+    {
+      "id": "1Qu8rJnylHhLMGtR6SfiHj4PMQgVMvQG1",
+      "parent_id": "1_VpxCLDu3p6QxLmOJJ5GkLVIqUs-ubRw",
+      "name": "PHÚT DÀNH CHO CON.pdf",
+      "mime": "application/pdf",
+      "size": 1317995,
+      "modified": "2026-08-15T12:28:58.000Z",
+      "checksum": "3341ee344f60774dfc603aca38470539",
+      "folder": false
+    }
+  ]
+}

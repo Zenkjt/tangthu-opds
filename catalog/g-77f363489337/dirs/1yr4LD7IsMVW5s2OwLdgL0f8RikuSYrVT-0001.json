@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yr4LD7IsMVW5s2OwLdgL0f8RikuSYrVT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lYxew4HNwzW3_GnKmjqaoPzVc7Z1Pyi2",
+      "parent_id": "1yr4LD7IsMVW5s2OwLdgL0f8RikuSYrVT",
+      "name": "CỬA MỞ.epub",
+      "mime": "application/epub+zip",
+      "size": 224048,
+      "modified": "2026-08-15T09:57:11.000Z",
+      "checksum": "24e296c591960d595f2f3ff8c4d5b17e",
+      "folder": false
+    },
+    {
+      "id": "1boDDtHk8CszgZ4BuBIhNCoUFEq__ugIP",
+      "parent_id": "1yr4LD7IsMVW5s2OwLdgL0f8RikuSYrVT",
+      "name": "CỬA MỞ.pdf",
+      "mime": "application/pdf",
+      "size": 221613,
+      "modified": "2026-08-15T09:57:09.000Z",
+      "checksum": "5861992f6445efa693ee431efbe822fc",
+      "folder": false
+    },
+    {
+      "id": "1xjzha7m5z94oh6PB82uUgqkP90OIDikl",
+      "parent_id": "1yr4LD7IsMVW5s2OwLdgL0f8RikuSYrVT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1917,
+      "modified": "2026-08-15T09:57:05.000Z",
+      "checksum": "ad874262037104ff5e33f03ca2501ac5",
+      "folder": false
+    }
+  ]
+}

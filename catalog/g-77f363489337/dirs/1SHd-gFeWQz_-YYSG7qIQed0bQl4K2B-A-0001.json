@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SHd-gFeWQz_-YYSG7qIQed0bQl4K2B-A",
+  "page": 1,
+  "items": [
+    {
+      "id": "14seMhIlVP-Ni1b6gxVnaXJ7RQEXmVefW",
+      "parent_id": "1SHd-gFeWQz_-YYSG7qIQed0bQl4K2B-A",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5044,
+      "modified": "2026-08-15T03:51:28.000Z",
+      "checksum": "560e2c1d1ea9209823dd33e6538750f3",
+      "folder": false
+    },
+    {
+      "id": "1MTBK5jJMItLtHP88d8DIc6lUMBe081kR",
+      "parent_id": "1SHd-gFeWQz_-YYSG7qIQed0bQl4K2B-A",
+      "name": "THUYỀN RỖNG.epub",
+      "mime": "application/epub+zip",
+      "size": 505546,
+      "modified": "2026-08-15T03:51:35.000Z",
+      "checksum": "8b499a7b4f51775c0ed06e1e42761ecf",
+      "folder": false
+    },
+    {
+      "id": "1IqTmLZZPRYCNPwVFq6tp90WFWOJq9n0y",
+      "parent_id": "1SHd-gFeWQz_-YYSG7qIQed0bQl4K2B-A",
+      "name": "THUYỀN RỖNG.pdf",
+      "mime": "application/pdf",
+      "size": 1430557,
+      "modified": "2026-08-15T03:51:33.000Z",
+      "checksum": "970b75fdc0efcadffeb932f69827e81d",
+      "folder": false
+    }
+  ]
+}

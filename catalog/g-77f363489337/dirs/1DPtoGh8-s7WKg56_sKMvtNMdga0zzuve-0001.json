@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DPtoGh8-s7WKg56_sKMvtNMdga0zzuve",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HAzRmt5OgePwblDkwtC2MtUDyEHYZ7-6",
+      "parent_id": "1DPtoGh8-s7WKg56_sKMvtNMdga0zzuve",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3532,
+      "modified": "2026-08-15T10:48:17.000Z",
+      "checksum": "5e02269590649ca82966e7d89169f1f2",
+      "folder": false
+    },
+    {
+      "id": "10NY0TgXs40ivAsP3LLuj05ClQ_1pgdob",
+      "parent_id": "1DPtoGh8-s7WKg56_sKMvtNMdga0zzuve",
+      "name": "NẮNG THÁNG TÁM.epub",
+      "mime": "application/epub+zip",
+      "size": 897149,
+      "modified": "2026-08-15T10:48:34.000Z",
+      "checksum": "f117ba3931a13cda863c66774949f63c",
+      "folder": false
+    },
+    {
+      "id": "1zZTfFHXY05dUSrytLBaU5hK3PMQpr9Xr",
+      "parent_id": "1DPtoGh8-s7WKg56_sKMvtNMdga0zzuve",
+      "name": "NẮNG THÁNG TÁM.pdf",
+      "mime": "application/pdf",
+      "size": 2643921,
+      "modified": "2026-08-15T10:48:30.000Z",
+      "checksum": "5a300ae4641792c21c7ba04e72691b4b",
+      "folder": false
+    }
+  ]
+}

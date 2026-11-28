@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ehkDAzTTRlCTU0MWIvQwNBRCCSvKLEbz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VU4ddIf3qRg7KfP636Fu6BBK3FBh2BWm",
+      "parent_id": "1ehkDAzTTRlCTU0MWIvQwNBRCCSvKLEbz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2341,
+      "modified": "2026-08-15T07:59:04.000Z",
+      "checksum": "fff16a01c374832ab9da9e89c869b973",
+      "folder": false
+    },
+    {
+      "id": "1itEjdHOCRd7VcEa_Pr9LEwsn_hVKj4l_",
+      "parent_id": "1ehkDAzTTRlCTU0MWIvQwNBRCCSvKLEbz",
+      "name": "DƯƠNG THƯ MỊ ẢNH.epub",
+      "mime": "application/epub+zip",
+      "size": 5508463,
+      "modified": "2026-08-15T07:59:19.000Z",
+      "checksum": "bf0fb64af6c3d25a4d01e7c1a2e03617",
+      "folder": false
+    },
+    {
+      "id": "1U7pjYsk45BpdWWVpADzvoJq2p_VKPs0L",
+      "parent_id": "1ehkDAzTTRlCTU0MWIvQwNBRCCSvKLEbz",
+      "name": "DƯƠNG THƯ MỊ ẢNH.pdf",
+      "mime": "application/pdf",
+      "size": 5953611,
+      "modified": "2026-08-15T07:59:15.000Z",
+      "checksum": "ef0d56bc51b32be98bb020fb7c11818f",
+      "folder": false
+    }
+  ]
+}

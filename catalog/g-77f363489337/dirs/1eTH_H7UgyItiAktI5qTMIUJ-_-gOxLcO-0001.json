@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eTH_H7UgyItiAktI5qTMIUJ-_-gOxLcO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ghDQbHzyObP-TJDWS5cp_7-Q3t49Aie6",
+      "parent_id": "1eTH_H7UgyItiAktI5qTMIUJ-_-gOxLcO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3003,
+      "modified": "2026-08-15T10:09:20.000Z",
+      "checksum": "64053cb2522484787622ce7c74e76d51",
+      "folder": false
+    },
+    {
+      "id": "1Q8Lb-UZjgBdrmIBwm_PToJscu69tyfVE",
+      "parent_id": "1eTH_H7UgyItiAktI5qTMIUJ-_-gOxLcO",
+      "name": "TÌM KIẾM NAM CHÍNH.epub",
+      "mime": "application/epub+zip",
+      "size": 561335,
+      "modified": "2026-08-15T10:09:28.000Z",
+      "checksum": "b333bde21454236806ec23c4a546d33f",
+      "folder": false
+    },
+    {
+      "id": "1myVaeHL20aRCdz-_cIEuuPtxFKs9FtvO",
+      "parent_id": "1eTH_H7UgyItiAktI5qTMIUJ-_-gOxLcO",
+      "name": "TÌM KIẾM NAM CHÍNH.pdf",
+      "mime": "application/pdf",
+      "size": 2079466,
+      "modified": "2026-08-15T10:09:25.000Z",
+      "checksum": "04df7c26948b220b3ec6fdc9f6e09fb2",
+      "folder": false
+    }
+  ]
+}

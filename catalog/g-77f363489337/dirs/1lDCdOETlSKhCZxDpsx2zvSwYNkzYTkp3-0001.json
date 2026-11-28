@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lDCdOETlSKhCZxDpsx2zvSwYNkzYTkp3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dMpukMUdoUg8X_Fjbb0-kJdKKD81ovoG",
+      "parent_id": "1lDCdOETlSKhCZxDpsx2zvSwYNkzYTkp3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2245,
+      "modified": "2026-08-15T08:10:06.000Z",
+      "checksum": "e2f55cb80307945050f3e5f4d990338c",
+      "folder": false
+    },
+    {
+      "id": "1RGmIF0RO22mFaTyKoNj8hzxe76K_l8vF",
+      "parent_id": "1lDCdOETlSKhCZxDpsx2zvSwYNkzYTkp3",
+      "name": "ĐẠI VIỆT TRUYỀN KỲ.epub",
+      "mime": "application/epub+zip",
+      "size": 612050,
+      "modified": "2026-08-15T08:10:14.000Z",
+      "checksum": "dcfb735555da041ee6187920584493e7",
+      "folder": false
+    },
+    {
+      "id": "1k2z05nmwUdXUliLKPHsPELcYM17vYfHx",
+      "parent_id": "1lDCdOETlSKhCZxDpsx2zvSwYNkzYTkp3",
+      "name": "ĐẠI VIỆT TRUYỀN KỲ.pdf",
+      "mime": "application/pdf",
+      "size": 1620599,
+      "modified": "2026-08-15T08:10:11.000Z",
+      "checksum": "5cd72c487715afbdd6ad354040640710",
+      "folder": false
+    }
+  ]
+}

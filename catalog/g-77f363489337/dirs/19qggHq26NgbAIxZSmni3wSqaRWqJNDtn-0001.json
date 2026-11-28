@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19qggHq26NgbAIxZSmni3wSqaRWqJNDtn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zrxqMx4mnhgwbMLTnl1YY7YhjQLAIqtM",
+      "parent_id": "19qggHq26NgbAIxZSmni3wSqaRWqJNDtn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5165,
+      "modified": "2026-08-15T06:58:22.000Z",
+      "checksum": "20e6118ff126e8a1da609fde4b89f794",
+      "folder": false
+    },
+    {
+      "id": "1kIAeuxvhmyiB82hon4PWlfmj6gH7bwLg",
+      "parent_id": "19qggHq26NgbAIxZSmni3wSqaRWqJNDtn",
+      "name": "NHỮNG THÀNH PHỐ GIẤY.epub",
+      "mime": "application/epub+zip",
+      "size": 457025,
+      "modified": "2026-08-15T06:59:01.000Z",
+      "checksum": "41b93268f820a5a7a81bf4ebd29a0125",
+      "folder": false
+    },
+    {
+      "id": "1IbLkgAxpo1WuPQj0B5vHfZBxFZSoUoVK",
+      "parent_id": "19qggHq26NgbAIxZSmni3wSqaRWqJNDtn",
+      "name": "NHỮNG THÀNH PHỐ GIẤY.pdf",
+      "mime": "application/pdf",
+      "size": 1083620,
+      "modified": "2026-08-15T06:58:55.000Z",
+      "checksum": "edb6d88332ac977a8820326a53967aec",
+      "folder": false
+    }
+  ]
+}

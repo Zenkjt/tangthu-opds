@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tS7Zh6UWJBHvsPWkNR2xtC7hO9aqghww",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hF0oafZHIEYy4miJ_z63JJ7Oos1fSLiH",
+      "parent_id": "1tS7Zh6UWJBHvsPWkNR2xtC7hO9aqghww",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3514,
+      "modified": "2026-08-15T10:37:24.000Z",
+      "checksum": "0fbf94d177b61eb571794e8ccbf2985f",
+      "folder": false
+    },
+    {
+      "id": "1Dx0lb82pXERQUvU7lMk8O3pXQKAG67Vg",
+      "parent_id": "1tS7Zh6UWJBHvsPWkNR2xtC7hO9aqghww",
+      "name": "NHỮNG KẺ BẤT KHẢ TRỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 631896,
+      "modified": "2026-08-15T10:37:32.000Z",
+      "checksum": "0eb9be2a74a10aef65122fd795d34e8f",
+      "folder": false
+    },
+    {
+      "id": "1yKH8obbUJP-Fk4fdIMmfL2URnhATeTGK",
+      "parent_id": "1tS7Zh6UWJBHvsPWkNR2xtC7hO9aqghww",
+      "name": "NHỮNG KẺ BẤT KHẢ TRỊ.pdf",
+      "mime": "application/pdf",
+      "size": 1639270,
+      "modified": "2026-08-15T10:37:29.000Z",
+      "checksum": "72e1177a59d849332e9d6e95f62e87df",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SOiOtyD4mlkX8JIVDbaD2IPPDjSpoCig",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aEz1d0jrpr-taOKEpb2kcJJvIs49R6Vm",
+      "parent_id": "1SOiOtyD4mlkX8JIVDbaD2IPPDjSpoCig",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3258,
+      "modified": "2026-08-15T10:13:57.000Z",
+      "checksum": "f5783d3a824da71f8f9762df1aff6695",
+      "folder": false
+    },
+    {
+      "id": "1ABygL0kitrgpkjz1NrRoKwR0ZA3Dnstc",
+      "parent_id": "1SOiOtyD4mlkX8JIVDbaD2IPPDjSpoCig",
+      "name": "THIẾP ĐỊNH CHÀNG RỒI QUYẾT CHẲNG BUÔNG.epub",
+      "mime": "application/epub+zip",
+      "size": 383635,
+      "modified": "2026-08-15T10:14:05.000Z",
+      "checksum": "5b2577ee708d93bbd242f3de9b85c958",
+      "folder": false
+    },
+    {
+      "id": "1uuMeRQe8AU-fFuY9cJu8UxqCoeJJmKqu",
+      "parent_id": "1SOiOtyD4mlkX8JIVDbaD2IPPDjSpoCig",
+      "name": "THIẾP ĐỊNH CHÀNG RỒI QUYẾT CHẲNG BUÔNG.pdf",
+      "mime": "application/pdf",
+      "size": 860316,
+      "modified": "2026-08-15T10:14:03.000Z",
+      "checksum": "e579fddec83b46de9516918231ce7641",
+      "folder": false
+    }
+  ]
+}

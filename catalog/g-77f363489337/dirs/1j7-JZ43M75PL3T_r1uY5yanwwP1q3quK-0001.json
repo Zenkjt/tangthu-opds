@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1j7-JZ43M75PL3T_r1uY5yanwwP1q3quK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BXULKiWP1jool2G5dmtJLyATse3vYxa8",
+      "parent_id": "1j7-JZ43M75PL3T_r1uY5yanwwP1q3quK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2621,
+      "modified": "2026-08-16T04:23:44.000Z",
+      "checksum": "eb520cd07401aef5567b11f84192c92f",
+      "folder": false
+    },
+    {
+      "id": "1f2JKuKsDY5XPJdPXGnFJ1yNZSp4orrdR",
+      "parent_id": "1j7-JZ43M75PL3T_r1uY5yanwwP1q3quK",
+      "name": "THƯỢNG ĐẾ THÌ CƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 491905,
+      "modified": "2026-08-16T04:23:55.000Z",
+      "checksum": "a969577ef99b5cf71efb951f9970975b",
+      "folder": false
+    },
+    {
+      "id": "1nkI6iyLNAdPBIskXJxxhQumM35a9bx66",
+      "parent_id": "1j7-JZ43M75PL3T_r1uY5yanwwP1q3quK",
+      "name": "THƯỢNG ĐẾ THÌ CƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 569160,
+      "modified": "2026-08-16T04:23:51.000Z",
+      "checksum": "b8f0bf97c14b8851d9a99575d44c309d",
+      "folder": false
+    }
+  ]
+}

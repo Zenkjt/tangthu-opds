@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XwzGLfa4tVKpgVKCZKZnIe71PJC742dI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vbBbnwqCf6nh7hJrOLUEy6E9jffHpnCc",
+      "parent_id": "1XwzGLfa4tVKpgVKCZKZnIe71PJC742dI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7154,
+      "modified": "2026-08-15T03:52:33.000Z",
+      "checksum": "fc2582d39833afceff29d18c6feb7c32",
+      "folder": false
+    },
+    {
+      "id": "1bCpv98McvQ6xKvQJbI2MsczE-PNrDXFe",
+      "parent_id": "1XwzGLfa4tVKpgVKCZKZnIe71PJC742dI",
+      "name": "NHỮNG CHUYỆN NHÂN QUẢ.epub",
+      "mime": "application/epub+zip",
+      "size": 991086,
+      "modified": "2026-08-15T03:52:39.000Z",
+      "checksum": "23ac18e241e4cb0ef0253af25644b7fa",
+      "folder": false
+    },
+    {
+      "id": "1MBw62E_I1-1Z_FTTpQjEDjyikiRGvJ1U",
+      "parent_id": "1XwzGLfa4tVKpgVKCZKZnIe71PJC742dI",
+      "name": "NHỮNG CHUYỆN NHÂN QUẢ.pdf",
+      "mime": "application/pdf",
+      "size": 1401428,
+      "modified": "2026-08-15T03:52:36.000Z",
+      "checksum": "056635562eb9a69510190cd35904ed65",
+      "folder": false
+    }
+  ]
+}

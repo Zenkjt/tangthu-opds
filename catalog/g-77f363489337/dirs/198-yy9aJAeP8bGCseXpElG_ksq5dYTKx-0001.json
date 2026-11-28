@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "198-yy9aJAeP8bGCseXpElG_ksq5dYTKx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XRcndsr8X04uwyrB5gm61bl925Dex5eE",
+      "parent_id": "198-yy9aJAeP8bGCseXpElG_ksq5dYTKx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3843,
+      "modified": "2026-08-16T03:37:33.000Z",
+      "checksum": "4f357e266b1307d23914ddecbca8e640",
+      "folder": false
+    },
+    {
+      "id": "1EMOdGUtsmcoaWK3ced29SMJ56jgsK1M-",
+      "parent_id": "198-yy9aJAeP8bGCseXpElG_ksq5dYTKx",
+      "name": "MARIANA.epub",
+      "mime": "application/epub+zip",
+      "size": 793612,
+      "modified": "2026-08-16T03:37:41.000Z",
+      "checksum": "a3de2e5c4c1d45a4e48f2ae3bdde5d9f",
+      "folder": false
+    },
+    {
+      "id": "1a5p651MfL63yPLlT3ZYHpVlsyrTgDO8s",
+      "parent_id": "198-yy9aJAeP8bGCseXpElG_ksq5dYTKx",
+      "name": "MARIANA.pdf",
+      "mime": "application/pdf",
+      "size": 1759017,
+      "modified": "2026-08-16T03:37:39.000Z",
+      "checksum": "8d32cf3faf226d86bd50842fe4b43eae",
+      "folder": false
+    }
+  ]
+}

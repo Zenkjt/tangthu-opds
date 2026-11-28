@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Wcmx44AKeR6BFWPDDRq_FeherB0alPBK",
+  "page": 1,
+  "items": [
+    {
+      "id": "17x1yatpXWCGwFFCjOratuZLsWhOAp62J",
+      "parent_id": "1Wcmx44AKeR6BFWPDDRq_FeherB0alPBK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4087,
+      "modified": "2026-08-16T03:21:26.000Z",
+      "checksum": "a6b72134b34784e54ee762eba810f076",
+      "folder": false
+    },
+    {
+      "id": "1lMapCScU0dQu54jMjCLSB3UdW6kFO_sy",
+      "parent_id": "1Wcmx44AKeR6BFWPDDRq_FeherB0alPBK",
+      "name": "GIÂY THỨ 12.epub",
+      "mime": "application/epub+zip",
+      "size": 167932,
+      "modified": "2026-08-16T03:21:31.000Z",
+      "checksum": "f895c4787ed8e5f0e44c90c2a05da9dd",
+      "folder": false
+    },
+    {
+      "id": "1EiybbGuQ0NZ4qe8UMh7aehdSeJn_9JdE",
+      "parent_id": "1Wcmx44AKeR6BFWPDDRq_FeherB0alPBK",
+      "name": "GIÂY THỨ 12.pdf",
+      "mime": "application/pdf",
+      "size": 218345,
+      "modified": "2026-08-16T03:21:29.000Z",
+      "checksum": "13ed3b0a1c3af07e1b59f6c502307831",
+      "folder": false
+    }
+  ]
+}

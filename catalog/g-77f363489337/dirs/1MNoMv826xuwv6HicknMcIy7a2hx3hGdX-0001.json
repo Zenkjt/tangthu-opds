@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MNoMv826xuwv6HicknMcIy7a2hx3hGdX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AAO9CBgQq4LX-QvAGYMxBfDdZ5bVO0Kl",
+      "parent_id": "1MNoMv826xuwv6HicknMcIy7a2hx3hGdX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2844,
+      "modified": "2026-08-16T03:51:57.000Z",
+      "checksum": "b4633aa759f07898125c413356a4c787",
+      "folder": false
+    },
+    {
+      "id": "1Cb0mpe-4yEH3duZK92NYjCc-9O_peL3s",
+      "parent_id": "1MNoMv826xuwv6HicknMcIy7a2hx3hGdX",
+      "name": "VÌ ĐÓ LÀ ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 589510,
+      "modified": "2026-08-16T03:52:04.000Z",
+      "checksum": "1e847e8f007ec2bdda04560e02d32272",
+      "folder": false
+    },
+    {
+      "id": "1WCr6Zu5pdfKzYgl_y9WU5ZBMMIou0muu",
+      "parent_id": "1MNoMv826xuwv6HicknMcIy7a2hx3hGdX",
+      "name": "VÌ ĐÓ LÀ ANH.pdf",
+      "mime": "application/pdf",
+      "size": 1405517,
+      "modified": "2026-08-16T03:52:02.000Z",
+      "checksum": "aeaac201f255b4fd843acd1e43dcee3f",
+      "folder": false
+    }
+  ]
+}

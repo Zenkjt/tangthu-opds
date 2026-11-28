@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ewRxtCPXIdrgMypij-2GxGMY7q46Jw6u",
+  "page": 1,
+  "items": [
+    {
+      "id": "18cgfQbrYRS1ROQ2xPeb4t6Yt8-4-g3D4",
+      "parent_id": "1ewRxtCPXIdrgMypij-2GxGMY7q46Jw6u",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2879,
+      "modified": "2026-08-15T10:04:57.000Z",
+      "checksum": "04852d61a09efeb1b75d09302f3f3042",
+      "folder": false
+    },
+    {
+      "id": "1C6BmR0O6zSO9NCOCaIKUDLwLy7MJw0Q7",
+      "parent_id": "1ewRxtCPXIdrgMypij-2GxGMY7q46Jw6u",
+      "name": "VÒNG TAY SAMURAI.epub",
+      "mime": "application/epub+zip",
+      "size": 460549,
+      "modified": "2026-08-15T10:05:03.000Z",
+      "checksum": "24103964d94ca078566e752c32f26d05",
+      "folder": false
+    },
+    {
+      "id": "1mB0xxOX-EXR50SLbzpJugey-ILs_fBUh",
+      "parent_id": "1ewRxtCPXIdrgMypij-2GxGMY7q46Jw6u",
+      "name": "VÒNG TAY SAMURAI.pdf",
+      "mime": "application/pdf",
+      "size": 748148,
+      "modified": "2026-08-15T10:05:00.000Z",
+      "checksum": "b7e7026295f5088768d9ae3a51358c4c",
+      "folder": false
+    }
+  ]
+}

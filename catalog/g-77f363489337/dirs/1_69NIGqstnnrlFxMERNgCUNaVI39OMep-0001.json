@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_69NIGqstnnrlFxMERNgCUNaVI39OMep",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LqvAu_QUIwAHlXM7BQ5TSQwM92aBTWpA",
+      "parent_id": "1_69NIGqstnnrlFxMERNgCUNaVI39OMep",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5841,
+      "modified": "2026-08-15T01:00:47.000Z",
+      "checksum": "c6bde436bd966343f77d92b89d893f1d",
+      "folder": false
+    },
+    {
+      "id": "1OL9QHz5acA3OHHIkCxin0iCVT0Fe9sNd",
+      "parent_id": "1_69NIGqstnnrlFxMERNgCUNaVI39OMep",
+      "name": "MẶT TRĂNG VÀ ĐỒNG SÁU XU.epub",
+      "mime": "application/epub+zip",
+      "size": 481365,
+      "modified": "2026-08-15T01:00:54.000Z",
+      "checksum": "841c8fa803221e051302d43cca34793e",
+      "folder": false
+    },
+    {
+      "id": "12Qm314HhFf1pL0HUvIbn9DyApbvgkwF4",
+      "parent_id": "1_69NIGqstnnrlFxMERNgCUNaVI39OMep",
+      "name": "MẶT TRĂNG VÀ ĐỒNG SÁU XU.pdf",
+      "mime": "application/pdf",
+      "size": 849359,
+      "modified": "2026-08-15T01:00:52.000Z",
+      "checksum": "447536c31da8ba2cf7bc85be7ec55bef",
+      "folder": false
+    }
+  ]
+}

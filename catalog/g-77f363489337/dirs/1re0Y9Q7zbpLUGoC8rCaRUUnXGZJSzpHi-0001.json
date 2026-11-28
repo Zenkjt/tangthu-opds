@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1re0Y9Q7zbpLUGoC8rCaRUUnXGZJSzpHi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kpQ441UoXu2cT70a-dZi9GoBxWvcpanN",
+      "parent_id": "1re0Y9Q7zbpLUGoC8rCaRUUnXGZJSzpHi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5397,
+      "modified": "2026-08-15T07:44:25.000Z",
+      "checksum": "ea71c8bbc4509f968fb3d4005c976d56",
+      "folder": false
+    },
+    {
+      "id": "1E8vdEpNN-ecP6b1PQGy2jF_zKM9Ykngp",
+      "parent_id": "1re0Y9Q7zbpLUGoC8rCaRUUnXGZJSzpHi",
+      "name": "NHẠC PHI DIỄN NGHĨA.epub",
+      "mime": "application/epub+zip",
+      "size": 2796544,
+      "modified": "2026-08-15T07:44:34.000Z",
+      "checksum": "d65c99e542ee31bf593a85cbd51450fd",
+      "folder": false
+    },
+    {
+      "id": "19JIAhW4tkRaE18_5vOVpP4sRqzmD9mcg",
+      "parent_id": "1re0Y9Q7zbpLUGoC8rCaRUUnXGZJSzpHi",
+      "name": "NHẠC PHI DIỄN NGHĨA.pdf",
+      "mime": "application/pdf",
+      "size": 3301644,
+      "modified": "2026-08-15T07:44:30.000Z",
+      "checksum": "39464b7399a876fd7c708102d95db835",
+      "folder": false
+    }
+  ]
+}

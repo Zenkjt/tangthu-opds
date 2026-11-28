@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fGxVqFLzDtwml2GMnvp5OZQqHbuWmcek",
+  "page": 1,
+  "items": [
+    {
+      "id": "1n54Llf_0oyrgG2tK5fBN22NZx_2iVq3J",
+      "parent_id": "1fGxVqFLzDtwml2GMnvp5OZQqHbuWmcek",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3717,
+      "modified": "2026-08-16T03:23:13.000Z",
+      "checksum": "fa7e87f813fa763764cbdc1014e582d2",
+      "folder": false
+    },
+    {
+      "id": "1O7DciUdigVc7xfK-sjzcSgcE6j43FtMa",
+      "parent_id": "1fGxVqFLzDtwml2GMnvp5OZQqHbuWmcek",
+      "name": "ĐUỔI QUÂN MÔNG THÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 491326,
+      "modified": "2026-08-16T03:23:20.000Z",
+      "checksum": "da8a60775e845a7a09880bcfa029bd94",
+      "folder": false
+    },
+    {
+      "id": "1KSXimYU4INROwpK9BcjypMKOuwVMvnof",
+      "parent_id": "1fGxVqFLzDtwml2GMnvp5OZQqHbuWmcek",
+      "name": "ĐUỔI QUÂN MÔNG THÁT.pdf",
+      "mime": "application/pdf",
+      "size": 1583194,
+      "modified": "2026-08-16T03:23:18.000Z",
+      "checksum": "8c08456163dda159d038559045ee0be5",
+      "folder": false
+    }
+  ]
+}

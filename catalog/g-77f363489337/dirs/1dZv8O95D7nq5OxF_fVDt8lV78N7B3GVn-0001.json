@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dZv8O95D7nq5OxF_fVDt8lV78N7B3GVn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NHLo92wOWSS-CC3vcCNO6c2gwqgpl0xZ",
+      "parent_id": "1dZv8O95D7nq5OxF_fVDt8lV78N7B3GVn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 20137,
+      "modified": "2026-08-15T05:43:21.000Z",
+      "checksum": "3b11a4274d9332a8cd2ba1fcc3eb947c",
+      "folder": false
+    },
+    {
+      "id": "11xDO9APWPA5XJ8RY9_tHhOqI0OUR5oMf",
+      "parent_id": "1dZv8O95D7nq5OxF_fVDt8lV78N7B3GVn",
+      "name": "DẪN LUẬN VỀ NIETZSCHE.epub",
+      "mime": "application/epub+zip",
+      "size": 523618,
+      "modified": "2026-08-15T05:43:27.000Z",
+      "checksum": "1a7a8aec40bcab0c65d08f5d7e9ce945",
+      "folder": false
+    },
+    {
+      "id": "1Exf4cRbCIz-7H5TIjlEDc1yQeXH6X_qq",
+      "parent_id": "1dZv8O95D7nq5OxF_fVDt8lV78N7B3GVn",
+      "name": "DẪN LUẬN VỀ NIETZSCHE.pdf",
+      "mime": "application/pdf",
+      "size": 662510,
+      "modified": "2026-08-15T05:43:25.000Z",
+      "checksum": "ce12f44513eac87b60a8a6de9ae8c277",
+      "folder": false
+    }
+  ]
+}

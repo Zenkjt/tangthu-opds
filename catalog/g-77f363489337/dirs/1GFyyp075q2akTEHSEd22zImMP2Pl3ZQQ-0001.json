@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GFyyp075q2akTEHSEd22zImMP2Pl3ZQQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cY4jQcXK7CQ3kbM6WzeFHs8ds6vlERWb",
+      "parent_id": "1GFyyp075q2akTEHSEd22zImMP2Pl3ZQQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3186,
+      "modified": "2026-08-16T04:12:20.000Z",
+      "checksum": "aa8ed13ca930b9351f82faea7a598d87",
+      "folder": false
+    },
+    {
+      "id": "1-zlReSaOOQu3Oz6vUtiZV75U_cz86w70",
+      "parent_id": "1GFyyp075q2akTEHSEd22zImMP2Pl3ZQQ",
+      "name": "NHẪN THẠCH.epub",
+      "mime": "application/epub+zip",
+      "size": 309301,
+      "modified": "2026-08-16T04:12:26.000Z",
+      "checksum": "39ddee40729d5d08777f50479182f7b5",
+      "folder": false
+    },
+    {
+      "id": "1Co1B13dxjnXXqKeemUL0T6V31Tgpnm_3",
+      "parent_id": "1GFyyp075q2akTEHSEd22zImMP2Pl3ZQQ",
+      "name": "NHẪN THẠCH.pdf",
+      "mime": "application/pdf",
+      "size": 535810,
+      "modified": "2026-08-16T04:12:23.000Z",
+      "checksum": "5497d3042ee6a6c8c3d63933250486d7",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nmPjGjOVmX3JdmfgYZe7YMK_uPivGqBD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1g_tf4xB91YQ3W83IS0FI6PXS0ubCGWqK",
+      "parent_id": "1nmPjGjOVmX3JdmfgYZe7YMK_uPivGqBD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3211,
+      "modified": "2026-08-15T10:24:27.000Z",
+      "checksum": "cba2e29960e2d698b5b08ebc6d4b0946",
+      "folder": false
+    },
+    {
+      "id": "132x42AAlhxjU-pgmcOrsNkP2WuHdC4qM",
+      "parent_id": "1nmPjGjOVmX3JdmfgYZe7YMK_uPivGqBD",
+      "name": "SỦNG PHI THƯỢNG VỊ KÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 2753188,
+      "modified": "2026-08-15T10:24:43.000Z",
+      "checksum": "092be294ffae3cbf5190f1a100f7aef1",
+      "folder": false
+    },
+    {
+      "id": "1D65wXLoVxVfg4ncUjpWXGyef56vo2oOT",
+      "parent_id": "1nmPjGjOVmX3JdmfgYZe7YMK_uPivGqBD",
+      "name": "SỦNG PHI THƯỢNG VỊ KÝ.pdf",
+      "mime": "application/pdf",
+      "size": 3127752,
+      "modified": "2026-08-15T10:24:36.000Z",
+      "checksum": "a9636f781f3fd42e6f53ea2d18cc36f2",
+      "folder": false
+    }
+  ]
+}

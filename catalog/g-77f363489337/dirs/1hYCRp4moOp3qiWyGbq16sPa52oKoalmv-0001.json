@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hYCRp4moOp3qiWyGbq16sPa52oKoalmv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-RdvFYogQZf1j_DYe64SiurGN0E9rkVt",
+      "parent_id": "1hYCRp4moOp3qiWyGbq16sPa52oKoalmv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5561,
+      "modified": "2026-08-15T13:11:12.000Z",
+      "checksum": "72ec351510405925092a5efd6d73e621",
+      "folder": false
+    },
+    {
+      "id": "15XozezMs3wSmachKkBubg_YUMitoDjyi",
+      "parent_id": "1hYCRp4moOp3qiWyGbq16sPa52oKoalmv",
+      "name": "NAM CHỦ, ANH TA CÔNG ĐỨC VÔ LƯỢNG.epub",
+      "mime": "application/epub+zip",
+      "size": 236297,
+      "modified": "2026-08-15T13:11:21.000Z",
+      "checksum": "120d614106f1673a53329957f7ce2946",
+      "folder": false
+    },
+    {
+      "id": "1d1LTi6WbMia2sQ7Bn-r1i6TY-GpxgwwH",
+      "parent_id": "1hYCRp4moOp3qiWyGbq16sPa52oKoalmv",
+      "name": "NAM CHỦ, ANH TA CÔNG ĐỨC VÔ LƯỢNG.pdf",
+      "mime": "application/pdf",
+      "size": 463386,
+      "modified": "2026-08-15T13:11:18.000Z",
+      "checksum": "4e533a0d39eabdb960b5a3dc0a09bfc1",
+      "folder": false
+    }
+  ]
+}

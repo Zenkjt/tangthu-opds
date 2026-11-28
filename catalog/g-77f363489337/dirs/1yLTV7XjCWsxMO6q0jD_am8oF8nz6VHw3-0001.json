@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1yLTV7XjCWsxMO6q0jD_am8oF8nz6VHw3",
+  "page": 1,
+  "items": [
+    {
+      "id": "13p1QXGfcERzt8C4T2wx9gubndHXA8KGo",
+      "parent_id": "1yLTV7XjCWsxMO6q0jD_am8oF8nz6VHw3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3575,
+      "modified": "2026-08-15T08:22:08.000Z",
+      "checksum": "ee98d65079b6e79705cd3abaeaad5b32",
+      "folder": false
+    },
+    {
+      "id": "1pmlUx0Z6zGJs7ZA07pWMoLknTcNb8tjv",
+      "parent_id": "1yLTV7XjCWsxMO6q0jD_am8oF8nz6VHw3",
+      "name": "GIA ĐỊNH THÀNH THÔNG CHÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 225448,
+      "modified": "2026-08-15T08:22:19.000Z",
+      "checksum": "306602e6a64a844c41987478fa65ad37",
+      "folder": false
+    },
+    {
+      "id": "1bPLRf4UonbcnHQpfFqwbOd7F-bjOdWBB",
+      "parent_id": "1yLTV7XjCWsxMO6q0jD_am8oF8nz6VHw3",
+      "name": "GIA ĐỊNH THÀNH THÔNG CHÍ.pdf",
+      "mime": "application/pdf",
+      "size": 495702,
+      "modified": "2026-08-15T08:22:14.000Z",
+      "checksum": "63eddea0575822d6e95486fdd1ac7fed",
+      "folder": false
+    }
+  ]
+}

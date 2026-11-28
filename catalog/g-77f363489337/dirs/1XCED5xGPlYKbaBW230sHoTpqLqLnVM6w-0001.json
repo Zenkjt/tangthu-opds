@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XCED5xGPlYKbaBW230sHoTpqLqLnVM6w",
+  "page": 1,
+  "items": [
+    {
+      "id": "1J9Y7YaJh_0I4IVnVLRZloPHOa1jAVQWh",
+      "parent_id": "1XCED5xGPlYKbaBW230sHoTpqLqLnVM6w",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 963,
+      "modified": "2026-08-16T04:19:03.000Z",
+      "checksum": "b3c805624185b943b19483f310def684",
+      "folder": false
+    },
+    {
+      "id": "1XTF5w_bHso_QzlBRjWq-zT8qsZtKVIDG",
+      "parent_id": "1XCED5xGPlYKbaBW230sHoTpqLqLnVM6w",
+      "name": "KHẢI HOÀN MÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 1027488,
+      "modified": "2026-08-16T04:19:12.000Z",
+      "checksum": "8b5bd26467d20e4d3c9e01d7b8e0e3bf",
+      "folder": false
+    },
+    {
+      "id": "11XmsWvKDdfuPFV8myrNPULff_qVF_wM6",
+      "parent_id": "1XCED5xGPlYKbaBW230sHoTpqLqLnVM6w",
+      "name": "KHẢI HOÀN MÔN.pdf",
+      "mime": "application/pdf",
+      "size": 1477496,
+      "modified": "2026-08-16T04:19:09.000Z",
+      "checksum": "ddce8138bc7a06a66f68c486a45f3019",
+      "folder": false
+    }
+  ]
+}

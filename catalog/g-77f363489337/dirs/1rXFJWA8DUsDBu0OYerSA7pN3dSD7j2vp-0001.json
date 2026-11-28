@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rXFJWA8DUsDBu0OYerSA7pN3dSD7j2vp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hNaSsl_DOuOMoxmtHMkqQofxsDpyEORE",
+      "parent_id": "1rXFJWA8DUsDBu0OYerSA7pN3dSD7j2vp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1446,
+      "modified": "2026-08-15T07:09:30.000Z",
+      "checksum": "71d9457417e4f0379331c5dafdfddd27",
+      "folder": false
+    },
+    {
+      "id": "1rhxqTFtufO5tZ8w6fhEGeE_EtVYFYJFT",
+      "parent_id": "1rXFJWA8DUsDBu0OYerSA7pN3dSD7j2vp",
+      "name": "SAU ĐÊM BỐ RÁP.epub",
+      "mime": "application/epub+zip",
+      "size": 587845,
+      "modified": "2026-08-15T07:09:36.000Z",
+      "checksum": "721f7b9ee3bbaf97e7dc194b06be4087",
+      "folder": false
+    },
+    {
+      "id": "1sQdgbq2U0FVIv_50iQdqoCO22PTqG64C",
+      "parent_id": "1rXFJWA8DUsDBu0OYerSA7pN3dSD7j2vp",
+      "name": "SAU ĐÊM BỐ RÁP.pdf",
+      "mime": "application/pdf",
+      "size": 1289712,
+      "modified": "2026-08-15T07:09:33.000Z",
+      "checksum": "339c428c4abd01a76b9ab1f9883152e6",
+      "folder": false
+    }
+  ]
+}

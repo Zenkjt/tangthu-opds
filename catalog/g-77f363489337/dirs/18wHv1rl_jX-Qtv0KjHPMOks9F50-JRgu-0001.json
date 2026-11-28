@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18wHv1rl_jX-Qtv0KjHPMOks9F50-JRgu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MKezmi3O_ArECXQfxc-1LJHfJz17WtIB",
+      "parent_id": "18wHv1rl_jX-Qtv0KjHPMOks9F50-JRgu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2592,
+      "modified": "2026-08-15T05:40:57.000Z",
+      "checksum": "1d1853b144c4f711216e3f0413b3b1c8",
+      "folder": false
+    },
+    {
+      "id": "13DHycxWW9kqzvu2eC7AsA7U5EAvHjpl0",
+      "parent_id": "18wHv1rl_jX-Qtv0KjHPMOks9F50-JRgu",
+      "name": "NGHỆ THUẬT SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 759079,
+      "modified": "2026-08-15T05:41:03.000Z",
+      "checksum": "a7e3f5ac5b8cd359c4c60a0c24b4a27d",
+      "folder": false
+    },
+    {
+      "id": "1XflilEge9V_qD5eBVj-EjyhIO85ODe3o",
+      "parent_id": "18wHv1rl_jX-Qtv0KjHPMOks9F50-JRgu",
+      "name": "NGHỆ THUẬT SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 1301841,
+      "modified": "2026-08-15T05:41:01.000Z",
+      "checksum": "7931407764e5dfeaaebe611eb2f2ffbb",
+      "folder": false
+    }
+  ]
+}

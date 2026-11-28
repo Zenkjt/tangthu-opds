@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uJeMQ6lCbQAPGVYsaCHOtE2QS1vGqGTH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qb_mle6v2Q50H_OTYj1zXgnWNun0-r_L",
+      "parent_id": "1uJeMQ6lCbQAPGVYsaCHOtE2QS1vGqGTH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 824,
+      "modified": "2026-08-15T10:52:01.000Z",
+      "checksum": "8a955d2dc78f1bbef82c5ae29d32076b",
+      "folder": false
+    },
+    {
+      "id": "1uDc7Jh5uLiGcDbcFuqWDG-Y1txXPgTWG",
+      "parent_id": "1uJeMQ6lCbQAPGVYsaCHOtE2QS1vGqGTH",
+      "name": "MÙA ĐÔNG DÀI.epub",
+      "mime": "application/epub+zip",
+      "size": 584264,
+      "modified": "2026-08-15T10:52:09.000Z",
+      "checksum": "6f2395c453800d03201c957b0ee2fd29",
+      "folder": false
+    },
+    {
+      "id": "1h6rEOQfJpD3Wa2ZuuIHrRLlPENHCGFVC",
+      "parent_id": "1uJeMQ6lCbQAPGVYsaCHOtE2QS1vGqGTH",
+      "name": "MÙA ĐÔNG DÀI.pdf",
+      "mime": "application/pdf",
+      "size": 1799957,
+      "modified": "2026-08-15T10:52:06.000Z",
+      "checksum": "49561b4e0dab9d80b4018f3224ead83f",
+      "folder": false
+    }
+  ]
+}

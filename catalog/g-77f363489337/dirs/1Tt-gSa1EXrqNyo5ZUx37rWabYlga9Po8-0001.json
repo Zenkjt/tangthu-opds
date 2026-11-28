@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Tt-gSa1EXrqNyo5ZUx37rWabYlga9Po8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ourvYF3SulmNUhzSywvOKj4qKcCCbezo",
+      "parent_id": "1Tt-gSa1EXrqNyo5ZUx37rWabYlga9Po8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2517,
+      "modified": "2026-08-15T15:15:57.000Z",
+      "checksum": "99239c382b748077ec80260574839816",
+      "folder": false
+    },
+    {
+      "id": "1EyoWHekC2-Reo4c4J0dM2q8GUgx_xyH3",
+      "parent_id": "1Tt-gSa1EXrqNyo5ZUx37rWabYlga9Po8",
+      "name": "HỒ SƠ TỘI PHẠM.epub",
+      "mime": "application/epub+zip",
+      "size": 856380,
+      "modified": "2026-08-15T15:16:04.000Z",
+      "checksum": "f33bb851b149695dd6eb15f494952d1b",
+      "folder": false
+    },
+    {
+      "id": "137a7viw9YmSMcg6TbAkp_SgDXvs3yngf",
+      "parent_id": "1Tt-gSa1EXrqNyo5ZUx37rWabYlga9Po8",
+      "name": "HỒ SƠ TỘI PHẠM.pdf",
+      "mime": "application/pdf",
+      "size": 880115,
+      "modified": "2026-08-15T15:16:01.000Z",
+      "checksum": "710044a04a7156599ba2c44479dd6c75",
+      "folder": false
+    }
+  ]
+}

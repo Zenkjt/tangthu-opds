@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FcS8xrSim68pjsS-FT6U-OmMaUjQEql0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wHcAym1on0kOFjhXV5XPIr0hfzp-4vjc",
+      "parent_id": "1FcS8xrSim68pjsS-FT6U-OmMaUjQEql0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6624,
+      "modified": "2026-08-15T07:04:26.000Z",
+      "checksum": "d5fc12473c6eef22e8f3fdb6a1c069f3",
+      "folder": false
+    },
+    {
+      "id": "1VS2prK36PmEOkzEmXK3WJSbrR1Al97pw",
+      "parent_id": "1FcS8xrSim68pjsS-FT6U-OmMaUjQEql0",
+      "name": "THẢ MỘT BÈ LAU.epub",
+      "mime": "application/epub+zip",
+      "size": 759586,
+      "modified": "2026-08-15T07:04:34.000Z",
+      "checksum": "2437605d8f94f6cc3e67d5807fec2981",
+      "folder": false
+    },
+    {
+      "id": "1ybDujFg2yPJx18t89WYPgZ4xha7wJb6o",
+      "parent_id": "1FcS8xrSim68pjsS-FT6U-OmMaUjQEql0",
+      "name": "THẢ MỘT BÈ LAU.pdf",
+      "mime": "application/pdf",
+      "size": 1812605,
+      "modified": "2026-08-15T07:04:31.000Z",
+      "checksum": "c9981490b67609bec29fd5902adf57e9",
+      "folder": false
+    }
+  ]
+}

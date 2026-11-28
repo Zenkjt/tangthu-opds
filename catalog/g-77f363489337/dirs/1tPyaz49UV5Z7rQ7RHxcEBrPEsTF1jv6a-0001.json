@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tPyaz49UV5Z7rQ7RHxcEBrPEsTF1jv6a",
+  "page": 1,
+  "items": [
+    {
+      "id": "13HbpVYIML97fxuAx1KO83v1_ofo2RBId",
+      "parent_id": "1tPyaz49UV5Z7rQ7RHxcEBrPEsTF1jv6a",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3753,
+      "modified": "2026-08-15T15:40:14.000Z",
+      "checksum": "2640e9b0a0a6a1baa0c8fec523692664",
+      "folder": false
+    },
+    {
+      "id": "1xhoE_qPdj-Xd553LQf2tNrzkv53bciL6",
+      "parent_id": "1tPyaz49UV5Z7rQ7RHxcEBrPEsTF1jv6a",
+      "name": "MỘT THI THỂ KHÔNG NGUYÊN VẸN.epub",
+      "mime": "application/epub+zip",
+      "size": 271175,
+      "modified": "2026-08-15T15:40:21.000Z",
+      "checksum": "6d2208d9104222a476b2d202ba591902",
+      "folder": false
+    },
+    {
+      "id": "1KmVnTF8vA4lgZrYQbVN3-uLFZU-zA0fi",
+      "parent_id": "1tPyaz49UV5Z7rQ7RHxcEBrPEsTF1jv6a",
+      "name": "MỘT THI THỂ KHÔNG NGUYÊN VẸN.pdf",
+      "mime": "application/pdf",
+      "size": 406098,
+      "modified": "2026-08-15T15:40:17.000Z",
+      "checksum": "3e6e0db044e181a0223cfecb6a89bb03",
+      "folder": false
+    }
+  ]
+}

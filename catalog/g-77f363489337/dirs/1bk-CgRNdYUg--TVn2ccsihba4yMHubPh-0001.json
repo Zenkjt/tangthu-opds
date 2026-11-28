@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bk-CgRNdYUg--TVn2ccsihba4yMHubPh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tLq4MaEXgXPQ0Fxei3mWzLjVK8NNdEmt",
+      "parent_id": "1bk-CgRNdYUg--TVn2ccsihba4yMHubPh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 403,
+      "modified": "2026-08-15T10:10:18.000Z",
+      "checksum": "9c8d8b2534ba75c9e2c88b38c2581b80",
+      "folder": false
+    },
+    {
+      "id": "1HL6LNWZsM3_7jwoxHuMxKtdJuB_3paqq",
+      "parent_id": "1bk-CgRNdYUg--TVn2ccsihba4yMHubPh",
+      "name": "TIẾNG GỌI TỪ VÌ SAO XA.epub",
+      "mime": "application/epub+zip",
+      "size": 429572,
+      "modified": "2026-08-15T10:10:24.000Z",
+      "checksum": "15b1068b385b0de0312baf2e469df3a5",
+      "folder": false
+    },
+    {
+      "id": "1ovMgR9uFucZnyleCjskwh5zfQpFYmpNI",
+      "parent_id": "1bk-CgRNdYUg--TVn2ccsihba4yMHubPh",
+      "name": "TIẾNG GỌI TỪ VÌ SAO XA.pdf",
+      "mime": "application/pdf",
+      "size": 555640,
+      "modified": "2026-08-15T10:10:21.000Z",
+      "checksum": "d5c36eba82b863a483807644db4d1755",
+      "folder": false
+    }
+  ]
+}

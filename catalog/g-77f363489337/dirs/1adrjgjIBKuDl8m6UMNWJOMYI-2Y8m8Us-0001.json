@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1adrjgjIBKuDl8m6UMNWJOMYI-2Y8m8Us",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pHvsOher0rKGf-cLLuPulEp1zLiUCtdN",
+      "parent_id": "1adrjgjIBKuDl8m6UMNWJOMYI-2Y8m8Us",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2538,
+      "modified": "2026-08-16T03:33:26.000Z",
+      "checksum": "92f2e97dce96dc47ade36fa2d0433f01",
+      "folder": false
+    },
+    {
+      "id": "1D6_k_MKeIRnPUYliXDh357dpS8jOxkRW",
+      "parent_id": "1adrjgjIBKuDl8m6UMNWJOMYI-2Y8m8Us",
+      "name": "ĐỜI DU NỮ.epub",
+      "mime": "application/epub+zip",
+      "size": 752899,
+      "modified": "2026-08-16T03:33:32.000Z",
+      "checksum": "6e7f467f5d38670fc2a6def6476e37d2",
+      "folder": false
+    },
+    {
+      "id": "1sy1CR1XxsKyyKiHh0O_Rr1POiLIcjjQ8",
+      "parent_id": "1adrjgjIBKuDl8m6UMNWJOMYI-2Y8m8Us",
+      "name": "ĐỜI DU NỮ.pdf",
+      "mime": "application/pdf",
+      "size": 1008627,
+      "modified": "2026-08-16T03:33:29.000Z",
+      "checksum": "b82b98953e0022eda3d7b5378a31ce35",
+      "folder": false
+    }
+  ]
+}

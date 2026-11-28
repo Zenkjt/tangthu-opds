@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ugIOWdnKH8qMxRBrUWSYALUlb5csY4u8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tevafz6afBwdc9JeFnO8XDyrp2NzrjsB",
+      "parent_id": "1ugIOWdnKH8qMxRBrUWSYALUlb5csY4u8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3189,
+      "modified": "2026-08-16T04:00:54.000Z",
+      "checksum": "eefd97987c3c13b1c3f15bd153de3626",
+      "folder": false
+    },
+    {
+      "id": "18J23OCuBjr6nS7UGkLiR1jz-eW4fck8D",
+      "parent_id": "1ugIOWdnKH8qMxRBrUWSYALUlb5csY4u8",
+      "name": "TÊN TRỘM XÁC NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 576636,
+      "modified": "2026-08-16T04:01:00.000Z",
+      "checksum": "e3f2c74a6bbe5d9abeb4ce33a6022b1c",
+      "folder": false
+    },
+    {
+      "id": "1zv62AUjZ1itck3X8eZ7b1nHUQbFwpybK",
+      "parent_id": "1ugIOWdnKH8qMxRBrUWSYALUlb5csY4u8",
+      "name": "TÊN TRỘM XÁC NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 1082913,
+      "modified": "2026-08-16T04:00:58.000Z",
+      "checksum": "5db7b5cd990c86e35b1d44e140d5a366",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VFBYeH-677Zn0I-XgjNAfm3KzkjldU9X",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DBQPy2u_OBf9XxbLhlXtDAud27KVkCxC",
+      "parent_id": "1VFBYeH-677Zn0I-XgjNAfm3KzkjldU9X",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 610,
+      "modified": "2026-08-16T04:19:56.000Z",
+      "checksum": "0a7d977e620d76100194f85be3672ad6",
+      "folder": false
+    },
+    {
+      "id": "1picZQ1NDEUbY4EZfXnQ9s_W3KRe96GHf",
+      "parent_id": "1VFBYeH-677Zn0I-XgjNAfm3KzkjldU9X",
+      "name": "GIÁ ĐÂU ĐÓ CÓ NGƯỜI ĐỢI TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 377200,
+      "modified": "2026-08-16T04:20:14.000Z",
+      "checksum": "7c1261513851b6e2d1be36aea5ef6da3",
+      "folder": false
+    },
+    {
+      "id": "1u0aAdB085586Tw3knJFpsmPGb-xd80oY",
+      "parent_id": "1VFBYeH-677Zn0I-XgjNAfm3KzkjldU9X",
+      "name": "GIÁ ĐÂU ĐÓ CÓ NGƯỜI ĐỢI TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 582433,
+      "modified": "2026-08-16T04:20:11.000Z",
+      "checksum": "d3dd92957588823d6c1ec21ada1e2510",
+      "folder": false
+    }
+  ]
+}

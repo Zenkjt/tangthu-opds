@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VMPG4y1C1yZUabn8bRvBKqVa5naJhd5B",
+  "page": 1,
+  "items": [
+    {
+      "id": "11wLgMWEbUNtFOB7uVh9r86umTDaaX10Q",
+      "parent_id": "1VMPG4y1C1yZUabn8bRvBKqVa5naJhd5B",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2272,
+      "modified": "2026-08-15T07:26:03.000Z",
+      "checksum": "e822d6e574e819b7f0421af9596a68cc",
+      "folder": false
+    },
+    {
+      "id": "1JwFNcoANGg5DrEx7lzFp8DnNUtySsNPJ",
+      "parent_id": "1VMPG4y1C1yZUabn8bRvBKqVa5naJhd5B",
+      "name": "MƯỜI TỘI ÁC - TẬP 2.epub",
+      "mime": "application/epub+zip",
+      "size": 633152,
+      "modified": "2026-08-15T07:26:13.000Z",
+      "checksum": "c17a955ae1bb46de37e8676a83c9cab0",
+      "folder": false
+    },
+    {
+      "id": "1FRV0kl27m2MsEA7Bl6eDyCheCkpsnD88",
+      "parent_id": "1VMPG4y1C1yZUabn8bRvBKqVa5naJhd5B",
+      "name": "MƯỜI TỘI ÁC - TẬP 2.pdf",
+      "mime": "application/pdf",
+      "size": 2099648,
+      "modified": "2026-08-15T07:26:10.000Z",
+      "checksum": "924ced6a4e81d1c076f586a9c782d8a2",
+      "folder": false
+    }
+  ]
+}

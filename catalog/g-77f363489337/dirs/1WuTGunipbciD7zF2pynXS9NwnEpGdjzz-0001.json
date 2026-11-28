@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WuTGunipbciD7zF2pynXS9NwnEpGdjzz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EQtAv8UGdqXkJBvXwShNtteuXwSYIeVk",
+      "parent_id": "1WuTGunipbciD7zF2pynXS9NwnEpGdjzz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 18450,
+      "modified": "2026-08-16T03:16:35.000Z",
+      "checksum": "27734c07ee6bbc1159a87bc69ba161fb",
+      "folder": false
+    },
+    {
+      "id": "15f1LGHJ009m600Nq_KiOG3tRs8Jaiem4",
+      "parent_id": "1WuTGunipbciD7zF2pynXS9NwnEpGdjzz",
+      "name": "PHÍA TÂY KHÔNG CÓ GÌ LẠ.epub",
+      "mime": "application/epub+zip",
+      "size": 527994,
+      "modified": "2026-08-16T03:16:42.000Z",
+      "checksum": "d2716f1c057dd30306c83ed0a2597fa1",
+      "folder": false
+    },
+    {
+      "id": "1jBeEIhf-wspgWMxJ-A1f42yD0d4ottpF",
+      "parent_id": "1WuTGunipbciD7zF2pynXS9NwnEpGdjzz",
+      "name": "PHÍA TÂY KHÔNG CÓ GÌ LẠ.pdf",
+      "mime": "application/pdf",
+      "size": 812641,
+      "modified": "2026-08-16T03:16:40.000Z",
+      "checksum": "c7e3b5406ff46ecf6cf1e439184b6bc7",
+      "folder": false
+    }
+  ]
+}

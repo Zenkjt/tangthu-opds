@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1TS_OyB4t79ypOs0x3SunYD8dvQU-Ywdn",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JBpFlhEkddUW0ViZoIZ3FIDGHvfqr5D7",
+      "parent_id": "1TS_OyB4t79ypOs0x3SunYD8dvQU-Ywdn",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3116,
+      "modified": "2026-08-15T06:23:40.000Z",
+      "checksum": "89edf627159e58f82515f436c30f8df9",
+      "folder": false
+    },
+    {
+      "id": "14Sd1cEMGsXpIyfjl8nN7acYUkrefyOYB",
+      "parent_id": "1TS_OyB4t79ypOs0x3SunYD8dvQU-Ywdn",
+      "name": "PHÁO ĐÀI TRẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 362238,
+      "modified": "2026-08-15T06:23:59.000Z",
+      "checksum": "b0267d7b4bfed4d1e48a534f97627158",
+      "folder": false
+    },
+    {
+      "id": "1QCec_7ONyeOzntWa6jhL2cCt9pXoa_HT",
+      "parent_id": "1TS_OyB4t79ypOs0x3SunYD8dvQU-Ywdn",
+      "name": "PHÁO ĐÀI TRẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 922530,
+      "modified": "2026-08-15T06:23:53.000Z",
+      "checksum": "559f9ba874d0718e9604b2edb55bbb14",
+      "folder": false
+    }
+  ]
+}

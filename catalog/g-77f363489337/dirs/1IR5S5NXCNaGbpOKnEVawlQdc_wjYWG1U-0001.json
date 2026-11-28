@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IR5S5NXCNaGbpOKnEVawlQdc_wjYWG1U",
+  "page": 1,
+  "items": [
+    {
+      "id": "1z0l9SQoiUjf-8B0TQ_7vUWMu1MbIcJUM",
+      "parent_id": "1IR5S5NXCNaGbpOKnEVawlQdc_wjYWG1U",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1304,
+      "modified": "2026-08-15T04:24:55.000Z",
+      "checksum": "a8471a325e2f5999cec611aaa4bb29b1",
+      "folder": false
+    },
+    {
+      "id": "1D2LDCe9OfJhQlEl3PQinVtY3QljhX5oh",
+      "parent_id": "1IR5S5NXCNaGbpOKnEVawlQdc_wjYWG1U",
+      "name": "HỎI - ĐÁP VỀ DINH DƯỠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 6743110,
+      "modified": "2026-08-15T04:25:03.000Z",
+      "checksum": "947139bbe43c870770f9b3e7d9f43236",
+      "folder": false
+    },
+    {
+      "id": "1M5Qat6HBbFFuBqa-abXdnNWZIXcDc5wu",
+      "parent_id": "1IR5S5NXCNaGbpOKnEVawlQdc_wjYWG1U",
+      "name": "HỎI - ĐÁP VỀ DINH DƯỠNG.pdf",
+      "mime": "application/pdf",
+      "size": 2133756,
+      "modified": "2026-08-15T04:25:00.000Z",
+      "checksum": "c2d5dd09b6eb414fa356c99557881ca0",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OJyIAr_1DobMvqCGTUtdu0SlwAPN4jiK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uSfUx47QAZvY2YQ90-GIO0Old21z8Meb",
+      "parent_id": "1OJyIAr_1DobMvqCGTUtdu0SlwAPN4jiK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1410,
+      "modified": "2026-08-15T04:01:47.000Z",
+      "checksum": "8612564acff8be22c1075518985660b6",
+      "folder": false
+    },
+    {
+      "id": "1jwbGr0f9KqLP8IBFxlVP38_d4R1T5LFv",
+      "parent_id": "1OJyIAr_1DobMvqCGTUtdu0SlwAPN4jiK",
+      "name": "MỞ RỘNG TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 531794,
+      "modified": "2026-08-15T04:01:57.000Z",
+      "checksum": "6d6d104198c336bfb22930bbd3560edb",
+      "folder": false
+    },
+    {
+      "id": "1QtN2tjKMU2VipQnfiR0BYLfGpsD1k3rP",
+      "parent_id": "1OJyIAr_1DobMvqCGTUtdu0SlwAPN4jiK",
+      "name": "MỞ RỘNG TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 864740,
+      "modified": "2026-08-15T04:01:54.000Z",
+      "checksum": "f11548ae3b21e97793f56ab81569a0d0",
+      "folder": false
+    }
+  ]
+}

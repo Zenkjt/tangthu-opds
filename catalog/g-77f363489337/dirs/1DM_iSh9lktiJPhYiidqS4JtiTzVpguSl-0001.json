@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DM_iSh9lktiJPhYiidqS4JtiTzVpguSl",
+  "page": 1,
+  "items": [
+    {
+      "id": "13CSDR0vwFCaMvFN4Scz1kiWFkk9Ibzhp",
+      "parent_id": "1DM_iSh9lktiJPhYiidqS4JtiTzVpguSl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3215,
+      "modified": "2026-08-15T10:33:20.000Z",
+      "checksum": "c1b8cf997ac49fbfbb8f9e19fc14e677",
+      "folder": false
+    },
+    {
+      "id": "1OBFKtFdYrNTGhUco-mthuVfJwleND1zT",
+      "parent_id": "1DM_iSh9lktiJPhYiidqS4JtiTzVpguSl",
+      "name": "PHÁ LÃNG TRÙY.epub",
+      "mime": "application/epub+zip",
+      "size": 442449,
+      "modified": "2026-08-15T10:33:44.000Z",
+      "checksum": "ac22e37bb561fd04d3df0212816a5ce4",
+      "folder": false
+    },
+    {
+      "id": "1kGVmkDyoOSVU1ED5mmELQT5EQRj4ptlw",
+      "parent_id": "1DM_iSh9lktiJPhYiidqS4JtiTzVpguSl",
+      "name": "PHÁ LÃNG TRÙY.pdf",
+      "mime": "application/pdf",
+      "size": 648956,
+      "modified": "2026-08-15T10:33:25.000Z",
+      "checksum": "30f33d689929afd3f5a0a9d4ccc5e8b4",
+      "folder": false
+    }
+  ]
+}

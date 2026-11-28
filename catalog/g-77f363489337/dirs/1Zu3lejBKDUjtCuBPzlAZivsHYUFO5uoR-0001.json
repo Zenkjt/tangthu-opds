@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Zu3lejBKDUjtCuBPzlAZivsHYUFO5uoR",
+  "page": 1,
+  "items": [
+    {
+      "id": "18IdzpTfkxQuCXQLIrdqmOk8jqdKQJngB",
+      "parent_id": "1Zu3lejBKDUjtCuBPzlAZivsHYUFO5uoR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9605,
+      "modified": "2026-08-15T09:49:33.000Z",
+      "checksum": "3de9ddf8515eb7896174e4fc6a633d19",
+      "folder": false
+    },
+    {
+      "id": "1FSQ3dSPSCdsU-VWp08Tax4OgGrrbxnsE",
+      "parent_id": "1Zu3lejBKDUjtCuBPzlAZivsHYUFO5uoR",
+      "name": "GẶP GỠ VƯƠNG LỊCH XUYÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 596376,
+      "modified": "2026-08-15T09:49:43.000Z",
+      "checksum": "3849ed7ea9e59bd5ce9d3e596d98da1d",
+      "folder": false
+    },
+    {
+      "id": "12zuJ9sqLFHIe02sM6wtkYByjoFbfzFzb",
+      "parent_id": "1Zu3lejBKDUjtCuBPzlAZivsHYUFO5uoR",
+      "name": "GẶP GỠ VƯƠNG LỊCH XUYÊN.pdf",
+      "mime": "application/pdf",
+      "size": 3705081,
+      "modified": "2026-08-15T09:49:41.000Z",
+      "checksum": "f79640d9d0b1aa035e3aa4feb5a8204c",
+      "folder": false
+    }
+  ]
+}

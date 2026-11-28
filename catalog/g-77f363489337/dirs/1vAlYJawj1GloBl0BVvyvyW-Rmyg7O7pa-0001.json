@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vAlYJawj1GloBl0BVvyvyW-Rmyg7O7pa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1D08JNsQ5BeL5pkCVA5YP9oANyiunF_pG",
+      "parent_id": "1vAlYJawj1GloBl0BVvyvyW-Rmyg7O7pa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1115,
+      "modified": "2026-08-15T03:45:30.000Z",
+      "checksum": "9743ce3011dbe1a83ff631ab946df4ef",
+      "folder": false
+    },
+    {
+      "id": "1klX8vk6a-iBPI3LZt_jaghYd0kzQ4D6E",
+      "parent_id": "1vAlYJawj1GloBl0BVvyvyW-Rmyg7O7pa",
+      "name": "PHÁ MÊ KHAI NGỘ.epub",
+      "mime": "application/epub+zip",
+      "size": 414228,
+      "modified": "2026-08-15T03:45:37.000Z",
+      "checksum": "d3a8ee7ca25c16676d80790a99a51670",
+      "folder": false
+    },
+    {
+      "id": "1llrXBVJ4xgDfDvGohrO6iNuP7MX71oTP",
+      "parent_id": "1vAlYJawj1GloBl0BVvyvyW-Rmyg7O7pa",
+      "name": "PHÁ MÊ KHAI NGỘ.pdf",
+      "mime": "application/pdf",
+      "size": 1001018,
+      "modified": "2026-08-15T03:45:35.000Z",
+      "checksum": "293029c09a1ae241230d42449d27ffba",
+      "folder": false
+    }
+  ]
+}

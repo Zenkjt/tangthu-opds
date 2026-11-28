@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Y5Z9W5N3TbbE3WaEEuXH498rhU099rha",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-gmVRMtOc50RZu5ecATAUSJGCewCX8QL",
+      "parent_id": "1Y5Z9W5N3TbbE3WaEEuXH498rhU099rha",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3630,
+      "modified": "2026-08-15T10:32:02.000Z",
+      "checksum": "60908b7884ea5c8cb82fcc579648fda8",
+      "folder": false
+    },
+    {
+      "id": "1ZYDj9R-1LSaOVH1SdRbmQChSaw15YK88",
+      "parent_id": "1Y5Z9W5N3TbbE3WaEEuXH498rhU099rha",
+      "name": "PHÚC LÀNH CỦA ĐẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 856341,
+      "modified": "2026-08-15T10:32:12.000Z",
+      "checksum": "c920d356d744dc347e01a173fd21908a",
+      "folder": false
+    },
+    {
+      "id": "1Rfv_0B5hG_dEqZJskcvox-ET0VXEqGR2",
+      "parent_id": "1Y5Z9W5N3TbbE3WaEEuXH498rhU099rha",
+      "name": "PHÚC LÀNH CỦA ĐẤT.pdf",
+      "mime": "application/pdf",
+      "size": 3153310,
+      "modified": "2026-08-15T10:32:10.000Z",
+      "checksum": "e66367d34b2bf0fb13b1aa32b0e01683",
+      "folder": false
+    }
+  ]
+}

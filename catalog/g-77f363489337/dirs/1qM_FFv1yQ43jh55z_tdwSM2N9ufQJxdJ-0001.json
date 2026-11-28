@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qM_FFv1yQ43jh55z_tdwSM2N9ufQJxdJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rFwybKjDUn0RWT-mYic7l1ZU2cnRJ4Sx",
+      "parent_id": "1qM_FFv1yQ43jh55z_tdwSM2N9ufQJxdJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2163,
+      "modified": "2026-08-16T03:46:09.000Z",
+      "checksum": "b3ffd08abea69be2ffbfb29b592da299",
+      "folder": false
+    },
+    {
+      "id": "1UoUvzOSjx5TUwRrvXhZRzHHoDb1KLfgG",
+      "parent_id": "1qM_FFv1yQ43jh55z_tdwSM2N9ufQJxdJ",
+      "name": "TÓC MÂY NGHÌN SỢI.epub",
+      "mime": "application/epub+zip",
+      "size": 254764,
+      "modified": "2026-08-16T03:46:14.000Z",
+      "checksum": "4e8e4696403b50e9c529acdf737b23d2",
+      "folder": false
+    },
+    {
+      "id": "1GadFrd9ahDxg8NK55IDRVGj85DpOh4n1",
+      "parent_id": "1qM_FFv1yQ43jh55z_tdwSM2N9ufQJxdJ",
+      "name": "TÓC MÂY NGHÌN SỢI.pdf",
+      "mime": "application/pdf",
+      "size": 337901,
+      "modified": "2026-08-16T03:46:12.000Z",
+      "checksum": "054241e1eab8084ebd50b7bfe18b9270",
+      "folder": false
+    }
+  ]
+}

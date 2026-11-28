@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JOHHOqYr1XAcqfoXqH7QpB-iZI5yDlmc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SbEGqcrWpzASDX_juSSOrN-sT9u-xrIZ",
+      "parent_id": "1JOHHOqYr1XAcqfoXqH7QpB-iZI5yDlmc",
+      "name": "CHÓ TRẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 742045,
+      "modified": "2026-08-15T11:00:38.000Z",
+      "checksum": "541125e2dfd3aaa3b0535f010fc6050a",
+      "folder": false
+    },
+    {
+      "id": "1DAz3PWFsxW48yL2ABJQI4_bLRWxwZPku",
+      "parent_id": "1JOHHOqYr1XAcqfoXqH7QpB-iZI5yDlmc",
+      "name": "CHÓ TRẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 1083891,
+      "modified": "2026-08-15T11:00:36.000Z",
+      "checksum": "3eb91f6071618228fe8352be0d7a87b4",
+      "folder": false
+    },
+    {
+      "id": "19T-MzSDnSY2k74mNT4TjLXE4Ze5uY78F",
+      "parent_id": "1JOHHOqYr1XAcqfoXqH7QpB-iZI5yDlmc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 452,
+      "modified": "2026-08-15T11:00:32.000Z",
+      "checksum": "49134557b85b4751fc3b3466c839dfe7",
+      "folder": false
+    }
+  ]
+}

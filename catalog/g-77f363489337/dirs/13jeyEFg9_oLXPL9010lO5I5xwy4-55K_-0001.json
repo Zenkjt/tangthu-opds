@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13jeyEFg9_oLXPL9010lO5I5xwy4-55K_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OhakK6qxTIYvV37wAXuLMdaJwj4hE1zN",
+      "parent_id": "13jeyEFg9_oLXPL9010lO5I5xwy4-55K_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4179,
+      "modified": "2026-08-15T07:51:05.000Z",
+      "checksum": "c6ddfa83a4f6666c4b031fe36cd95e88",
+      "folder": false
+    },
+    {
+      "id": "1BJvnSxb_zK6fUwM1bTEWZrpFvoHpOnqP",
+      "parent_id": "13jeyEFg9_oLXPL9010lO5I5xwy4-55K_",
+      "name": "KẾ THÊ.epub",
+      "mime": "application/epub+zip",
+      "size": 1375071,
+      "modified": "2026-08-15T07:51:18.000Z",
+      "checksum": "9fb8c96435ca76abfb36605f153e7381",
+      "folder": false
+    },
+    {
+      "id": "19aZ6PKOxJYjcCD65KlGkV3iUABGrswaf",
+      "parent_id": "13jeyEFg9_oLXPL9010lO5I5xwy4-55K_",
+      "name": "KẾ THÊ.pdf",
+      "mime": "application/pdf",
+      "size": 5522158,
+      "modified": "2026-08-15T07:51:15.000Z",
+      "checksum": "9c6bdf5215e92ff241ed75c0a036c822",
+      "folder": false
+    }
+  ]
+}

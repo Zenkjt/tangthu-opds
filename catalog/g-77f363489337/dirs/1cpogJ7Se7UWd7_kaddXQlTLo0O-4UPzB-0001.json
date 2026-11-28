@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cpogJ7Se7UWd7_kaddXQlTLo0O-4UPzB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hQFPT5KvOELxVV2R4mhJ2kXhN1wMgjfC",
+      "parent_id": "1cpogJ7Se7UWd7_kaddXQlTLo0O-4UPzB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10496,
+      "modified": "2026-08-15T07:54:02.000Z",
+      "checksum": "86e95eaea4b7796d0c74ed09b660cde0",
+      "folder": false
+    },
+    {
+      "id": "1VXZW-R6tAHlF-aRpjs8aWbFSR4vJ7KZm",
+      "parent_id": "1cpogJ7Se7UWd7_kaddXQlTLo0O-4UPzB",
+      "name": "LƯU LUYẾN KHÔNG QUÊN.epub",
+      "mime": "application/epub+zip",
+      "size": 576634,
+      "modified": "2026-08-15T07:54:08.000Z",
+      "checksum": "57febb586b32e89bc3e105780e9c00f6",
+      "folder": false
+    },
+    {
+      "id": "1ZvPEA3sDGZs2HhTTmvGq0iAZ8ccj_PQK",
+      "parent_id": "1cpogJ7Se7UWd7_kaddXQlTLo0O-4UPzB",
+      "name": "LƯU LUYẾN KHÔNG QUÊN.pdf",
+      "mime": "application/pdf",
+      "size": 1569906,
+      "modified": "2026-08-15T07:54:06.000Z",
+      "checksum": "885158563cd2c746f76cecf0040a50e4",
+      "folder": false
+    }
+  ]
+}

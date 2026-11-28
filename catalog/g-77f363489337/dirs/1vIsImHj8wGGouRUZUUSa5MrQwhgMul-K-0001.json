@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vIsImHj8wGGouRUZUUSa5MrQwhgMul-K",
+  "page": 1,
+  "items": [
+    {
+      "id": "14ZT_YiUZ8VDe22pfv7SmJfheTdqZ4hIe",
+      "parent_id": "1vIsImHj8wGGouRUZUUSa5MrQwhgMul-K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4585,
+      "modified": "2026-08-15T07:43:23.000Z",
+      "checksum": "1389704e244addf2ca90793b43dddb06",
+      "folder": false
+    },
+    {
+      "id": "1dMY4p8duxcx_hnPFbYKHjHe8EuDeuRKu",
+      "parent_id": "1vIsImHj8wGGouRUZUUSa5MrQwhgMul-K",
+      "name": "LONG PHƯỢNG TÌNH TRƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1085602,
+      "modified": "2026-08-15T07:43:34.000Z",
+      "checksum": "747c75cc50e8f123c980640d2898c663",
+      "folder": false
+    },
+    {
+      "id": "1deNze2Br-aoTSRIMOtdyAI_E2-f12AfN",
+      "parent_id": "1vIsImHj8wGGouRUZUUSa5MrQwhgMul-K",
+      "name": "LONG PHƯỢNG TÌNH TRƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 3428808,
+      "modified": "2026-08-15T07:43:31.000Z",
+      "checksum": "328216e0bdc17bc58ca27e2f44499658",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_yjsFrxpg6IKfUgPM5l1jZV5l76C4OoH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JlSn0dYC7vJZXUxqeAGl5W41nEbHgLPR",
+      "parent_id": "1_yjsFrxpg6IKfUgPM5l1jZV5l76C4OoH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3076,
+      "modified": "2026-08-15T10:35:02.000Z",
+      "checksum": "a468a22101769dc30aa00f102f509fc5",
+      "folder": false
+    },
+    {
+      "id": "1t4EmUXVEkEW-ODgiChbdnHUuZhOmtMs-",
+      "parent_id": "1_yjsFrxpg6IKfUgPM5l1jZV5l76C4OoH",
+      "name": "NƯỚC CHO VOI.epub",
+      "mime": "application/epub+zip",
+      "size": 548106,
+      "modified": "2026-08-15T10:35:13.000Z",
+      "checksum": "74d4f3f69dbce604b36b405ce99f4d62",
+      "folder": false
+    },
+    {
+      "id": "1yT-CC6uDoZAwPKDiLtzpHNZhXmNzNFhQ",
+      "parent_id": "1_yjsFrxpg6IKfUgPM5l1jZV5l76C4OoH",
+      "name": "NƯỚC CHO VOI.pdf",
+      "mime": "application/pdf",
+      "size": 1919109,
+      "modified": "2026-08-15T10:35:10.000Z",
+      "checksum": "422c54748f1d6d99dc47ff1c0328c77a",
+      "folder": false
+    }
+  ]
+}

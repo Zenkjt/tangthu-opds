@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IiBmfR1t8undrXIEcHgJ1x8jj2wR7Hyt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rk8pwBGTJyUZ5m1Fo6Q5HMfIPhkpXIBF",
+      "parent_id": "1IiBmfR1t8undrXIEcHgJ1x8jj2wR7Hyt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12481,
+      "modified": "2026-08-15T00:55:13.000Z",
+      "checksum": "6d399b64e521fc2fd6e047a28ba4465a",
+      "folder": false
+    },
+    {
+      "id": "1Rq5OcyrR4RmXk00nToiz_srXBdbNmUK9",
+      "parent_id": "1IiBmfR1t8undrXIEcHgJ1x8jj2wR7Hyt",
+      "name": "QUÂN VƯƠNG - THUẬT CAI TRỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 660418,
+      "modified": "2026-08-15T00:55:18.000Z",
+      "checksum": "6c6c702ef1212c8b19ad685eb7513030",
+      "folder": false
+    },
+    {
+      "id": "1bNp1W1m8_1e-k6UIaLP4QY7DX4kVUjKk",
+      "parent_id": "1IiBmfR1t8undrXIEcHgJ1x8jj2wR7Hyt",
+      "name": "QUÂN VƯƠNG - THUẬT CAI TRỊ.pdf",
+      "mime": "application/pdf",
+      "size": 801310,
+      "modified": "2026-08-15T00:55:16.000Z",
+      "checksum": "f4862e4a030013e67f5cfc77f0b688c7",
+      "folder": false
+    }
+  ]
+}

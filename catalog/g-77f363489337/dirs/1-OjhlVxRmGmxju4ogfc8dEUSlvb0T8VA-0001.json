@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-OjhlVxRmGmxju4ogfc8dEUSlvb0T8VA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mG1wnLrvqOT9HN1kdziwa6SuYRt7U-hi",
+      "parent_id": "1-OjhlVxRmGmxju4ogfc8dEUSlvb0T8VA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3085,
+      "modified": "2026-08-15T06:59:03.000Z",
+      "checksum": "2bd4d2fe23bec8c11537dab71bb9aee4",
+      "folder": false
+    },
+    {
+      "id": "1E-AlltpIoaqz9VZMMJaqH55_qUYlwQBz",
+      "parent_id": "1-OjhlVxRmGmxju4ogfc8dEUSlvb0T8VA",
+      "name": "KHI LỖI THUỘC VỀ NHỮNG VÌ SAO.epub",
+      "mime": "application/epub+zip",
+      "size": 546039,
+      "modified": "2026-08-15T06:59:16.000Z",
+      "checksum": "d469efcd28010b93be7ced0065775c94",
+      "folder": false
+    },
+    {
+      "id": "1R6B0SAYCsjGxm2mFOOOu-cCudnbZKRHr",
+      "parent_id": "1-OjhlVxRmGmxju4ogfc8dEUSlvb0T8VA",
+      "name": "KHI LỖI THUỘC VỀ NHỮNG VÌ SAO.pdf",
+      "mime": "application/pdf",
+      "size": 1033040,
+      "modified": "2026-08-15T06:59:10.000Z",
+      "checksum": "0ccf4e579cbb49fe96f5c8011def4ab6",
+      "folder": false
+    }
+  ]
+}

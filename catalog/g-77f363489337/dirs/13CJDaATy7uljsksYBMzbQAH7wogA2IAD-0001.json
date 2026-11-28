@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13CJDaATy7uljsksYBMzbQAH7wogA2IAD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1172HMl0-Ewq_Yxk_e74Myxs1TzhXSlVd",
+      "parent_id": "13CJDaATy7uljsksYBMzbQAH7wogA2IAD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3315,
+      "modified": "2026-08-15T04:22:55.000Z",
+      "checksum": "83a5be81ff738a57bd98f350baf7a98f",
+      "folder": false
+    },
+    {
+      "id": "1vKrz35qSVAdypwQdijJ5tQD6CgQ85Aq-",
+      "parent_id": "13CJDaATy7uljsksYBMzbQAH7wogA2IAD",
+      "name": "TUYỆT THỰC ĐI VỀ ĐÂU.epub",
+      "mime": "application/epub+zip",
+      "size": 705131,
+      "modified": "2026-08-15T04:23:04.000Z",
+      "checksum": "84715fa83d217b3a68699fe2bfb2190e",
+      "folder": false
+    },
+    {
+      "id": "11nErCO8yZXWY8nruD1gWJg7_Hg2io22m",
+      "parent_id": "13CJDaATy7uljsksYBMzbQAH7wogA2IAD",
+      "name": "TUYỆT THỰC ĐI VỀ ĐÂU.pdf",
+      "mime": "application/pdf",
+      "size": 1151194,
+      "modified": "2026-08-15T04:23:01.000Z",
+      "checksum": "009323985cdac7ea71b65a8c76bc58f6",
+      "folder": false
+    }
+  ]
+}

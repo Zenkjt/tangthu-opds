@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17kKKIfQt3iMDcpSg6EjM04FrqPMS4JLy",
+  "page": 1,
+  "items": [
+    {
+      "id": "1r2q-SAkTY9DjMafoggr7X8pXWWPauwNz",
+      "parent_id": "17kKKIfQt3iMDcpSg6EjM04FrqPMS4JLy",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10705,
+      "modified": "2026-08-15T05:47:02.000Z",
+      "checksum": "5aeb813bacb124eb1e3514cf012f7802",
+      "folder": false
+    },
+    {
+      "id": "161Ojv7Cs8i7SQQ0iW7iIXi24uOJ-J_qH",
+      "parent_id": "17kKKIfQt3iMDcpSg6EjM04FrqPMS4JLy",
+      "name": "MẶT DÀY TÂM ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 924737,
+      "modified": "2026-08-15T05:47:08.000Z",
+      "checksum": "a30ccc5c9b303a7639d16d938fc3a83a",
+      "folder": false
+    },
+    {
+      "id": "10c8P6fJtFeaCZG6f2s92leZOrUOFKnUK",
+      "parent_id": "17kKKIfQt3iMDcpSg6EjM04FrqPMS4JLy",
+      "name": "MẶT DÀY TÂM ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 1404321,
+      "modified": "2026-08-15T05:47:06.000Z",
+      "checksum": "8735561bb4efc9d250f1d4ade712d520",
+      "folder": false
+    }
+  ]
+}

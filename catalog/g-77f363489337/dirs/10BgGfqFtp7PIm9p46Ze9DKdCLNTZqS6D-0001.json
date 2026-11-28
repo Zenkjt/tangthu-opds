@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10BgGfqFtp7PIm9p46Ze9DKdCLNTZqS6D",
+  "page": 1,
+  "items": [
+    {
+      "id": "1t9LwcMWzbrCtl3kbd_UZzg2ZCznQd8tS",
+      "parent_id": "10BgGfqFtp7PIm9p46Ze9DKdCLNTZqS6D",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4917,
+      "modified": "2026-08-15T03:40:53.000Z",
+      "checksum": "f2200d83abe33293a68d5f5401b9565f",
+      "folder": false
+    },
+    {
+      "id": "1uFDb7lOdsT_U9rhHgphtYJDF_CFUFn-D",
+      "parent_id": "10BgGfqFtp7PIm9p46Ze9DKdCLNTZqS6D",
+      "name": "THẾ GIỚI TRONG BẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 478111,
+      "modified": "2026-08-15T03:41:01.000Z",
+      "checksum": "5318a6f58ef60d8d2946d77591f2934e",
+      "folder": false
+    },
+    {
+      "id": "1D1ZqSO3e2doU3CWf6h3nM2iHRGBjWGpA",
+      "parent_id": "10BgGfqFtp7PIm9p46Ze9DKdCLNTZqS6D",
+      "name": "THẾ GIỚI TRONG BẠN.pdf",
+      "mime": "application/pdf",
+      "size": 1468027,
+      "modified": "2026-08-15T03:40:59.000Z",
+      "checksum": "6f0388c7551b4ce573bf32f657bc788e",
+      "folder": false
+    }
+  ]
+}

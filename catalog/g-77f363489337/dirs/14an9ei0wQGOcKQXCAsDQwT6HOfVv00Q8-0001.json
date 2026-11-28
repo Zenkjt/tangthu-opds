@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "14an9ei0wQGOcKQXCAsDQwT6HOfVv00Q8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JPOiH6YwmGTDV0TNoAV4-1FRU2S-_1QD",
+      "parent_id": "14an9ei0wQGOcKQXCAsDQwT6HOfVv00Q8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7675,
+      "modified": "2026-08-15T00:58:59.000Z",
+      "checksum": "959a02ca50f5fc332532a6cbe5537959",
+      "folder": false
+    },
+    {
+      "id": "1gMUQMph7v-Pvp_FcFQ0aDZn1-1CtSBff",
+      "parent_id": "14an9ei0wQGOcKQXCAsDQwT6HOfVv00Q8",
+      "name": "NHỮNG BÍ QUYẾT TRONG GIAO TIẾP.epub",
+      "mime": "application/epub+zip",
+      "size": 701836,
+      "modified": "2026-08-15T00:59:06.000Z",
+      "checksum": "3917bcf41209748aa5577e150e5eb4f3",
+      "folder": false
+    },
+    {
+      "id": "1TY3EDz10C1BQmvJUSx-fknaYcNlNHd9x",
+      "parent_id": "14an9ei0wQGOcKQXCAsDQwT6HOfVv00Q8",
+      "name": "NHỮNG BÍ QUYẾT TRONG GIAO TIẾP.pdf",
+      "mime": "application/pdf",
+      "size": 606129,
+      "modified": "2026-08-15T00:59:04.000Z",
+      "checksum": "8522bdf6c7101f7a2e6c5ce5a8e892a7",
+      "folder": false
+    }
+  ]
+}

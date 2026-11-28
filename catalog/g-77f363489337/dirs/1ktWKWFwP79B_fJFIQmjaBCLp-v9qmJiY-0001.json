@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ktWKWFwP79B_fJFIQmjaBCLp-v9qmJiY",
+  "page": 1,
+  "items": [
+    {
+      "id": "13iU4CyKjALFgUdtZyuiy4XbdQwo3hZZl",
+      "parent_id": "1ktWKWFwP79B_fJFIQmjaBCLp-v9qmJiY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6161,
+      "modified": "2026-08-15T09:43:39.000Z",
+      "checksum": "97b648d23ad04de24aec2aa37831fd3c",
+      "folder": false
+    },
+    {
+      "id": "1h_ksChDy6kVvXWOpBPgeXKjeB1lHmi2_",
+      "parent_id": "1ktWKWFwP79B_fJFIQmjaBCLp-v9qmJiY",
+      "name": "LINH SÁT - QUỶ CHI KHÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 811070,
+      "modified": "2026-08-15T09:43:51.000Z",
+      "checksum": "85315484a97a89cf260eaf1718186e03",
+      "folder": false
+    },
+    {
+      "id": "1vQWsqgYWHsOTBk2tQyFq459G21y5MgjO",
+      "parent_id": "1ktWKWFwP79B_fJFIQmjaBCLp-v9qmJiY",
+      "name": "LINH SÁT - QUỶ CHI KHÚC.pdf",
+      "mime": "application/pdf",
+      "size": 3075716,
+      "modified": "2026-08-15T09:43:48.000Z",
+      "checksum": "4b7147d4c4fb8cec167a4de4ec11bcd8",
+      "folder": false
+    }
+  ]
+}

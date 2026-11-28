@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JxdFlSfKDaYLtlrv8iEWW4anmgsxlnAB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_TECUf8cyA74uVvVif2u7N0C55A8MF6K",
+      "parent_id": "1JxdFlSfKDaYLtlrv8iEWW4anmgsxlnAB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3047,
+      "modified": "2026-08-16T04:05:27.000Z",
+      "checksum": "adba708e03f2d5a78d7ffbeaf61b6eae",
+      "folder": false
+    },
+    {
+      "id": "19U-Xj8JArCBGYuhH5nCSjbHdVpR7vb4D",
+      "parent_id": "1JxdFlSfKDaYLtlrv8iEWW4anmgsxlnAB",
+      "name": "QUÁI VẬT TRẢ THÙ.epub",
+      "mime": "application/epub+zip",
+      "size": 516255,
+      "modified": "2026-08-16T04:05:33.000Z",
+      "checksum": "17a0a77d1030466a07182bbebc233fbc",
+      "folder": false
+    },
+    {
+      "id": "1qGURpNWkHvvb4cY2GEh1tN4rYnA0aW_5",
+      "parent_id": "1JxdFlSfKDaYLtlrv8iEWW4anmgsxlnAB",
+      "name": "QUÁI VẬT TRẢ THÙ.pdf",
+      "mime": "application/pdf",
+      "size": 942871,
+      "modified": "2026-08-16T04:05:31.000Z",
+      "checksum": "81bd2de5423bc2db46152acafb950c28",
+      "folder": false
+    }
+  ]
+}

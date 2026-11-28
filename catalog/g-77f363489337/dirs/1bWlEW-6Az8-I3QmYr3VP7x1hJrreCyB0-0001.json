@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bWlEW-6Az8-I3QmYr3VP7x1hJrreCyB0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Qfb-tf13za76brqBbzeUn4Ly41zb3hmt",
+      "parent_id": "1bWlEW-6Az8-I3QmYr3VP7x1hJrreCyB0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7209,
+      "modified": "2026-08-15T15:15:39.000Z",
+      "checksum": "c6a81bdbd1b3e26c65595ba45ab9d2da",
+      "folder": false
+    },
+    {
+      "id": "1Y-S6u-TX_nofDNgZCNbTvaYfksrtFu6A",
+      "parent_id": "1bWlEW-6Az8-I3QmYr3VP7x1hJrreCyB0",
+      "name": "VỤ ÁM SÁT ÔNG ROGER ACKROYD.epub",
+      "mime": "application/epub+zip",
+      "size": 695117,
+      "modified": "2026-08-15T15:15:45.000Z",
+      "checksum": "fb5c640bde5d40dd5069b24cab413ea6",
+      "folder": false
+    },
+    {
+      "id": "1vkBglzWS6qRURDrp6mPDYwqNYI58MzjK",
+      "parent_id": "1bWlEW-6Az8-I3QmYr3VP7x1hJrreCyB0",
+      "name": "VỤ ÁM SÁT ÔNG ROGER ACKROYD.pdf",
+      "mime": "application/pdf",
+      "size": 1209883,
+      "modified": "2026-08-15T15:15:43.000Z",
+      "checksum": "00fba636122f596312b92a43a5a55cc0",
+      "folder": false
+    }
+  ]
+}

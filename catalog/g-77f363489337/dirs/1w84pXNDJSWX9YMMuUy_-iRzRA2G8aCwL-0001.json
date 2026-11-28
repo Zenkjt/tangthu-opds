@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1w84pXNDJSWX9YMMuUy_-iRzRA2G8aCwL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YRFHTBuSrFNJ72FzWv1st5YuTXXy8Aqu",
+      "parent_id": "1w84pXNDJSWX9YMMuUy_-iRzRA2G8aCwL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3106,
+      "modified": "2026-08-15T10:40:38.000Z",
+      "checksum": "64cefa9bcfe6b95a39aa41f086137ce9",
+      "folder": false
+    },
+    {
+      "id": "16r4l32pjgED1Zu5es1A8RN4KUAje76gC",
+      "parent_id": "1w84pXNDJSWX9YMMuUy_-iRzRA2G8aCwL",
+      "name": "NGUYÊN VỊ NGỌT BA PHẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 265278,
+      "modified": "2026-08-15T10:40:52.000Z",
+      "checksum": "2632fd2783472223157dc0382f8be7d2",
+      "folder": false
+    },
+    {
+      "id": "17SOVvDvps1-hMFrweZfEYz-gGShGe-39",
+      "parent_id": "1w84pXNDJSWX9YMMuUy_-iRzRA2G8aCwL",
+      "name": "NGUYÊN VỊ NGỌT BA PHẦN.pdf",
+      "mime": "application/pdf",
+      "size": 540914,
+      "modified": "2026-08-15T10:40:45.000Z",
+      "checksum": "bf240f9ecd773c30e7656bbd94a3fa6f",
+      "folder": false
+    }
+  ]
+}

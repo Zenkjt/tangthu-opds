@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1To1NF5o51_HbiL9FXYVIrO-W0LvlQlz9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1u6EDVtcscHi42L2qmYiP_ynD6MCRitOI",
+      "parent_id": "1To1NF5o51_HbiL9FXYVIrO-W0LvlQlz9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 542,
+      "modified": "2026-08-15T10:55:43.000Z",
+      "checksum": "414c90bb708cdefa2a39b3426a786264",
+      "folder": false
+    },
+    {
+      "id": "1no0tpfj7TnQEJBQimpgAbX-Z5p8D-0dB",
+      "parent_id": "1To1NF5o51_HbiL9FXYVIrO-W0LvlQlz9",
+      "name": "KHI DẤU YÊU VỀ.epub",
+      "mime": "application/epub+zip",
+      "size": 539695,
+      "modified": "2026-08-15T10:55:49.000Z",
+      "checksum": "486c3e7146d7c0ecb85797d9819d3805",
+      "folder": false
+    },
+    {
+      "id": "1wrI-gCtbYwj99gcj6obMT9XIoMBKaWWk",
+      "parent_id": "1To1NF5o51_HbiL9FXYVIrO-W0LvlQlz9",
+      "name": "KHI DẤU YÊU VỀ.pdf",
+      "mime": "application/pdf",
+      "size": 849494,
+      "modified": "2026-08-15T10:55:47.000Z",
+      "checksum": "776895c76bbfe7cde0a17843e687fdce",
+      "folder": false
+    }
+  ]
+}

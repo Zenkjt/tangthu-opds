@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1POdzC-a9W0KTnw8UKTkqG1wFRu5hMJRv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xqEAikz58j4rDw8xSlc0MMoW-UlKxp1X",
+      "parent_id": "1POdzC-a9W0KTnw8UKTkqG1wFRu5hMJRv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 389,
+      "modified": "2026-08-15T10:06:37.000Z",
+      "checksum": "e8bf14f22a2d06c59ea6af71371bae49",
+      "folder": false
+    },
+    {
+      "id": "1NvNsRryjdCWzfbJlJvdUU2cythuyy_K5",
+      "parent_id": "1POdzC-a9W0KTnw8UKTkqG1wFRu5hMJRv",
+      "name": "TRUY MỘNG.epub",
+      "mime": "application/epub+zip",
+      "size": 966607,
+      "modified": "2026-08-15T10:06:50.000Z",
+      "checksum": "1e547f5ef7954feedc09bb8692713de6",
+      "folder": false
+    },
+    {
+      "id": "124slkSqPyK8hadQmR9RnP5v6t_pg0Myf",
+      "parent_id": "1POdzC-a9W0KTnw8UKTkqG1wFRu5hMJRv",
+      "name": "TRUY MỘNG.pdf",
+      "mime": "application/pdf",
+      "size": 860721,
+      "modified": "2026-08-15T10:06:44.000Z",
+      "checksum": "339392c9fb98003f2736a072df90daeb",
+      "folder": false
+    }
+  ]
+}

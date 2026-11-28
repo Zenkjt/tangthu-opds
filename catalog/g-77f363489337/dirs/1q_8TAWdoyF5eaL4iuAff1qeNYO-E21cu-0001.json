@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1q_8TAWdoyF5eaL4iuAff1qeNYO-E21cu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nrSw8vVo_9dcbUawHQoEvWXehBcCRNpx",
+      "parent_id": "1q_8TAWdoyF5eaL4iuAff1qeNYO-E21cu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2639,
+      "modified": "2026-08-15T07:38:17.000Z",
+      "checksum": "f1a64a755ff51d933d40b4b294d23336",
+      "folder": false
+    },
+    {
+      "id": "1nYY5mwcKXLSzjGrb4H0HeFZ9YCNw97-g",
+      "parent_id": "1q_8TAWdoyF5eaL4iuAff1qeNYO-E21cu",
+      "name": "XA XÓM MŨI.epub",
+      "mime": "application/epub+zip",
+      "size": 385859,
+      "modified": "2026-08-15T07:38:23.000Z",
+      "checksum": "84c465b7857e4cfab071539d113bca6d",
+      "folder": false
+    },
+    {
+      "id": "1h_VJV8VdXMTgPS9GBu-qJOB_5KMgrTib",
+      "parent_id": "1q_8TAWdoyF5eaL4iuAff1qeNYO-E21cu",
+      "name": "XA XÓM MŨI.pdf",
+      "mime": "application/pdf",
+      "size": 128913,
+      "modified": "2026-08-15T07:38:20.000Z",
+      "checksum": "b98287b6f43b2ca7048e6d89b92f83ce",
+      "folder": false
+    }
+  ]
+}

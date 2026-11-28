@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HAkH2atT0G1LDLqXGKBC7IMYhMGi3S8Y",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Qnq9jHUi4iE6_a6uZhBoY87I-uEPgd8V",
+      "parent_id": "1HAkH2atT0G1LDLqXGKBC7IMYhMGi3S8Y",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 771,
+      "modified": "2026-08-16T04:19:39.000Z",
+      "checksum": "f2345452bcab16252f64b7bdda4255d9",
+      "folder": false
+    },
+    {
+      "id": "1lJBntQ2B9ugwdq06fB1YanVfAFK161bj",
+      "parent_id": "1HAkH2atT0G1LDLqXGKBC7IMYhMGi3S8Y",
+      "name": "HẸN EM NGÀY ĐÓ.epub",
+      "mime": "application/epub+zip",
+      "size": 538295,
+      "modified": "2026-08-16T04:19:46.000Z",
+      "checksum": "c35aa287d65c350da3d099bd638f786e",
+      "folder": false
+    },
+    {
+      "id": "1ngnhgcYKmEDLLENHRrDt59vDX_S8Kgzd",
+      "parent_id": "1HAkH2atT0G1LDLqXGKBC7IMYhMGi3S8Y",
+      "name": "HẸN EM NGÀY ĐÓ.pdf",
+      "mime": "application/pdf",
+      "size": 1038043,
+      "modified": "2026-08-16T04:19:43.000Z",
+      "checksum": "dfaaa52157b18fdf4426c45ab9290c21",
+      "folder": false
+    }
+  ]
+}

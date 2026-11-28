@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1z_YpgZKzp9u87qyM9HyIGOtgrivlv9xE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Fuf95wM_-UsPHSZKULEPEW-tcgBmI2GT",
+      "parent_id": "1z_YpgZKzp9u87qyM9HyIGOtgrivlv9xE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3762,
+      "modified": "2026-08-16T04:24:34.000Z",
+      "checksum": "381f68dcbb19571770ecdc095cffc682",
+      "folder": false
+    },
+    {
+      "id": "1V2qVpdSnOLo9HJcGsAG_rajgWWBbauoX",
+      "parent_id": "1z_YpgZKzp9u87qyM9HyIGOtgrivlv9xE",
+      "name": "NHỮNG NGƯỜI TRẺ LẠ LÙNG.epub",
+      "mime": "application/epub+zip",
+      "size": 295775,
+      "modified": "2026-08-16T04:24:39.000Z",
+      "checksum": "84960ae05dd176a331f552366977a098",
+      "folder": false
+    },
+    {
+      "id": "1nKIGhV4cUdVbv74w-AECWUHlRtMZHk1s",
+      "parent_id": "1z_YpgZKzp9u87qyM9HyIGOtgrivlv9xE",
+      "name": "NHỮNG NGƯỜI TRẺ LẠ LÙNG.pdf",
+      "mime": "application/pdf",
+      "size": 369641,
+      "modified": "2026-08-16T04:24:37.000Z",
+      "checksum": "d2a1065453ec5754ba98e8e562df2d95",
+      "folder": false
+    }
+  ]
+}

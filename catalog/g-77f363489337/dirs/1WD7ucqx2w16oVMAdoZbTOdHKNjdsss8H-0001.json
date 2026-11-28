@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WD7ucqx2w16oVMAdoZbTOdHKNjdsss8H",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YL9QDwn9E8pbBtaEHCORhJzqSoDayuMJ",
+      "parent_id": "1WD7ucqx2w16oVMAdoZbTOdHKNjdsss8H",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 997,
+      "modified": "2026-08-16T03:46:56.000Z",
+      "checksum": "869d85a1260157cdbc376703547ff9e4",
+      "folder": false
+    },
+    {
+      "id": "1BzwXsbh5VCm8GSt0w_OO24b5xwD3tBnH",
+      "parent_id": "1WD7ucqx2w16oVMAdoZbTOdHKNjdsss8H",
+      "name": "KỴ SĨ VÀ MA THUẬT.epub",
+      "mime": "application/epub+zip",
+      "size": 1462303,
+      "modified": "2026-08-16T03:47:09.000Z",
+      "checksum": "ccd372194503f052283280935dcfea3e",
+      "folder": false
+    },
+    {
+      "id": "1Pg4pA2-5e5NY2zqMnWZu88eLMn5H-u4Q",
+      "parent_id": "1WD7ucqx2w16oVMAdoZbTOdHKNjdsss8H",
+      "name": "KỴ SĨ VÀ MA THUẬT.pdf",
+      "mime": "application/pdf",
+      "size": 4483326,
+      "modified": "2026-08-16T03:47:05.000Z",
+      "checksum": "3c8f198b4f60bc1282c53bdeba82362e",
+      "folder": false
+    }
+  ]
+}

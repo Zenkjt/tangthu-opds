@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PR8ZD8qxp-KHVu3ywNSXj-vpmAc4nd3U",
+  "page": 1,
+  "items": [
+    {
+      "id": "16khSsRiH6GdVWFogN7z90fDQP1BAmu4C",
+      "parent_id": "1PR8ZD8qxp-KHVu3ywNSXj-vpmAc4nd3U",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2444,
+      "modified": "2026-08-15T15:44:37.000Z",
+      "checksum": "5ea359c96a3933a52b32a57ae658bdca",
+      "folder": false
+    },
+    {
+      "id": "1-GId1UJC8aIJe43D9kUTEARp9gI6nDk1",
+      "parent_id": "1PR8ZD8qxp-KHVu3ywNSXj-vpmAc4nd3U",
+      "name": "TRAI THỪA GÁI Ế.epub",
+      "mime": "application/epub+zip",
+      "size": 651981,
+      "modified": "2026-08-15T15:44:45.000Z",
+      "checksum": "0d31e1760e7bcb5c7b4ddb08f27343a1",
+      "folder": false
+    },
+    {
+      "id": "1zzr4ZNoYgIIseGbLz7f_uxkndhTlqZ16",
+      "parent_id": "1PR8ZD8qxp-KHVu3ywNSXj-vpmAc4nd3U",
+      "name": "TRAI THỪA GÁI Ế.pdf",
+      "mime": "application/pdf",
+      "size": 2074978,
+      "modified": "2026-08-15T15:44:43.000Z",
+      "checksum": "80f6848a1b9670f0ce9a226884ad1bd7",
+      "folder": false
+    }
+  ]
+}

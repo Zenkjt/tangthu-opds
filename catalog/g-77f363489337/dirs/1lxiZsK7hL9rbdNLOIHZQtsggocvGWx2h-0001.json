@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lxiZsK7hL9rbdNLOIHZQtsggocvGWx2h",
+  "page": 1,
+  "items": [
+    {
+      "id": "19jFGJ1AHhOKXn8c7YBdPuM-Gy11W07se",
+      "parent_id": "1lxiZsK7hL9rbdNLOIHZQtsggocvGWx2h",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5823,
+      "modified": "2026-08-16T02:50:29.000Z",
+      "checksum": "f1b00da567954b33c29ddd889c8b1466",
+      "folder": false
+    },
+    {
+      "id": "1b2EyuI8-kwigql3nif88HKQu6WmO6NbX",
+      "parent_id": "1lxiZsK7hL9rbdNLOIHZQtsggocvGWx2h",
+      "name": "YÊU NGƯỜI TỬ TÙ.epub",
+      "mime": "application/epub+zip",
+      "size": 482839,
+      "modified": "2026-08-16T02:50:38.000Z",
+      "checksum": "49372eed9f7b4ef97d239427aec8d90e",
+      "folder": false
+    },
+    {
+      "id": "1cuiAE0WM9SsKk99X6xuLlURo45GH7UZG",
+      "parent_id": "1lxiZsK7hL9rbdNLOIHZQtsggocvGWx2h",
+      "name": "YÊU NGƯỜI TỬ TÙ.pdf",
+      "mime": "application/pdf",
+      "size": 1270395,
+      "modified": "2026-08-16T02:50:33.000Z",
+      "checksum": "d1ced83c87ab77655f4261052b804a42",
+      "folder": false
+    }
+  ]
+}

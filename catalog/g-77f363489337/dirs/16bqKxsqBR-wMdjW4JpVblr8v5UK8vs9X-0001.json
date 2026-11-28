@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16bqKxsqBR-wMdjW4JpVblr8v5UK8vs9X",
+  "page": 1,
+  "items": [
+    {
+      "id": "18DN5BVznUa03FvHnjF9LdN9IbnSiaDVc",
+      "parent_id": "16bqKxsqBR-wMdjW4JpVblr8v5UK8vs9X",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 416,
+      "modified": "2026-08-16T04:20:11.000Z",
+      "checksum": "ff34b3b2896ef031393d26768d358712",
+      "folder": false
+    },
+    {
+      "id": "1_4KK_pT9HYvQW2iFssINrqPZba8G5Opd",
+      "parent_id": "16bqKxsqBR-wMdjW4JpVblr8v5UK8vs9X",
+      "name": "ĐUỔI THEO VỆT NẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 494984,
+      "modified": "2026-08-16T04:20:19.000Z",
+      "checksum": "b3ecc7305eeda1fb125f6091fa815c59",
+      "folder": false
+    },
+    {
+      "id": "1NycD_0eHTjSDUkiXUuwLNJLapVEwQd2I",
+      "parent_id": "16bqKxsqBR-wMdjW4JpVblr8v5UK8vs9X",
+      "name": "ĐUỔI THEO VỆT NẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 961782,
+      "modified": "2026-08-16T04:20:17.000Z",
+      "checksum": "3e6d70795a9b84db585ce4a53101b71e",
+      "folder": false
+    }
+  ]
+}

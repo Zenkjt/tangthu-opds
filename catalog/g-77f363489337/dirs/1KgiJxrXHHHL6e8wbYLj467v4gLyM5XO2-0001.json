@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KgiJxrXHHHL6e8wbYLj467v4gLyM5XO2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gzwUmkiFFYrRmtV6q5RzWMSDwsWtazk5",
+      "parent_id": "1KgiJxrXHHHL6e8wbYLj467v4gLyM5XO2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3335,
+      "modified": "2026-08-15T10:10:32.000Z",
+      "checksum": "21afa266e1553b05d59dc06477486a6b",
+      "folder": false
+    },
+    {
+      "id": "1s5lgoaRdJ0z3UbrSA5_xT-ZjcoblFzL5",
+      "parent_id": "1KgiJxrXHHHL6e8wbYLj467v4gLyM5XO2",
+      "name": "TIỀN! TIỀN MẶT TRẢ NGAY.epub",
+      "mime": "application/epub+zip",
+      "size": 719307,
+      "modified": "2026-08-15T10:10:42.000Z",
+      "checksum": "1cc20bcca067befeffd3adce9fbec3f9",
+      "folder": false
+    },
+    {
+      "id": "12mOhoppDP7hfdPLxtryNe5Sucx0jGgd-",
+      "parent_id": "1KgiJxrXHHHL6e8wbYLj467v4gLyM5XO2",
+      "name": "TIỀN! TIỀN MẶT TRẢ NGAY.pdf",
+      "mime": "application/pdf",
+      "size": 1418820,
+      "modified": "2026-08-15T10:10:39.000Z",
+      "checksum": "caade9d9edc8e2585044f8cbe3031aa3",
+      "folder": false
+    }
+  ]
+}

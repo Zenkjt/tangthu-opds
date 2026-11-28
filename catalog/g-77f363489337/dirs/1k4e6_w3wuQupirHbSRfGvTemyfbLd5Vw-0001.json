@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1k4e6_w3wuQupirHbSRfGvTemyfbLd5Vw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iJG0uP9dO5MY0jcy5XLD_qf9VyYW0uAU",
+      "parent_id": "1k4e6_w3wuQupirHbSRfGvTemyfbLd5Vw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8337,
+      "modified": "2026-08-15T09:41:38.000Z",
+      "checksum": "a70a32431703b9d8bbaee2a806cae600",
+      "folder": false
+    },
+    {
+      "id": "1ExOzhm0mW7vs7CHmLlSgPZ1dfyRVbSjs",
+      "parent_id": "1k4e6_w3wuQupirHbSRfGvTemyfbLd5Vw",
+      "name": "MANH SỦNG KÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 523257,
+      "modified": "2026-08-15T09:41:45.000Z",
+      "checksum": "00ab56982f982a1c9977e852f31b909a",
+      "folder": false
+    },
+    {
+      "id": "1O-EtFu1fWnuAmf1erXW-wnoM6YPDDchm",
+      "parent_id": "1k4e6_w3wuQupirHbSRfGvTemyfbLd5Vw",
+      "name": "MANH SỦNG KÝ.pdf",
+      "mime": "application/pdf",
+      "size": 1542060,
+      "modified": "2026-08-15T09:41:43.000Z",
+      "checksum": "76cf6dea0a03f72c0c779fd0394d60d5",
+      "folder": false
+    }
+  ]
+}

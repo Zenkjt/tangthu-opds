@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11GEcmXqjQzJIoG-G4mD1x-6EA3V-ZM7g",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mowGtCxTWa2cFs-JxfHIfaO2T2Ki4TeI",
+      "parent_id": "11GEcmXqjQzJIoG-G4mD1x-6EA3V-ZM7g",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4144,
+      "modified": "2026-08-15T08:00:03.000Z",
+      "checksum": "b722b95424078a99e25dc386a7cf6296",
+      "folder": false
+    },
+    {
+      "id": "1ZI2H7Ot3G2ev2dVyJhMaa_hEVcE1KpBj",
+      "parent_id": "11GEcmXqjQzJIoG-G4mD1x-6EA3V-ZM7g",
+      "name": "MANG XUỐNG TUYỀN ĐÀI.epub",
+      "mime": "application/epub+zip",
+      "size": 1103023,
+      "modified": "2026-08-15T08:00:10.000Z",
+      "checksum": "b688afacd315388c15e69d919d745269",
+      "folder": false
+    },
+    {
+      "id": "1QqanbCTQu1QH-JyLTWKv9iZHBYc-bnS5",
+      "parent_id": "11GEcmXqjQzJIoG-G4mD1x-6EA3V-ZM7g",
+      "name": "MANG XUỐNG TUYỀN ĐÀI.pdf",
+      "mime": "application/pdf",
+      "size": 1611956,
+      "modified": "2026-08-15T08:00:07.000Z",
+      "checksum": "9385c7d32b4004fb0cd52d04d025938a",
+      "folder": false
+    }
+  ]
+}

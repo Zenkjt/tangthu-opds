@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1H5hFN29zUFcqCLsskFDOJNEJj6GVtH3b",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P-XWdfnJ9pMpF8v4z-fxLETmsfu_mmkH",
+      "parent_id": "1H5hFN29zUFcqCLsskFDOJNEJj6GVtH3b",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2801,
+      "modified": "2026-08-15T09:50:46.000Z",
+      "checksum": "0032bc304b9cb38b8d6c277730e9c98a",
+      "folder": false
+    },
+    {
+      "id": "1q80v3c01IP0dFJAVitUawRcGE4m25EeD",
+      "parent_id": "1H5hFN29zUFcqCLsskFDOJNEJj6GVtH3b",
+      "name": "ĐỐI LOẠN NGHỊCH LUÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 686900,
+      "modified": "2026-08-15T09:50:52.000Z",
+      "checksum": "878f3ff80c2d12cccbcbc1cb5cc06925",
+      "folder": false
+    },
+    {
+      "id": "17_ktEeCR67wQnntGKxrQBwtS-9nEW3RO",
+      "parent_id": "1H5hFN29zUFcqCLsskFDOJNEJj6GVtH3b",
+      "name": "ĐỐI LOẠN NGHỊCH LUÂN.pdf",
+      "mime": "application/pdf",
+      "size": 677165,
+      "modified": "2026-08-15T09:50:49.000Z",
+      "checksum": "c8233e7913922e435a734e90b2e62ca1",
+      "folder": false
+    }
+  ]
+}

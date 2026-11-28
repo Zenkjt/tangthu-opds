@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GLW6KfzWpfAcrHuYpAYEWUpYqhgTYMRf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RFYlLHzRvMe86m9w_FFqAjKagMhVe4q6",
+      "parent_id": "1GLW6KfzWpfAcrHuYpAYEWUpYqhgTYMRf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3016,
+      "modified": "2026-08-15T15:55:13.000Z",
+      "checksum": "dda5762383b3181f7fcc51b546fd3999",
+      "folder": false
+    },
+    {
+      "id": "1oXsAb_RnGbA-qvMrSe9XWcM7Jioknsbo",
+      "parent_id": "1GLW6KfzWpfAcrHuYpAYEWUpYqhgTYMRf",
+      "name": "THẦN TIÊN NGƯƠI ĐANG LÀM GÌ.epub",
+      "mime": "application/epub+zip",
+      "size": 611430,
+      "modified": "2026-08-15T15:55:29.000Z",
+      "checksum": "4f7f84eace6847100649ce6a55459b20",
+      "folder": false
+    },
+    {
+      "id": "138HP0DUZFttJD0suJUkyzkvnJfk8Z3ZG",
+      "parent_id": "1GLW6KfzWpfAcrHuYpAYEWUpYqhgTYMRf",
+      "name": "THẦN TIÊN NGƯƠI ĐANG LÀM GÌ.pdf",
+      "mime": "application/pdf",
+      "size": 1721900,
+      "modified": "2026-08-15T15:55:22.000Z",
+      "checksum": "1c494915d49636d7d752ba00b14e1fcf",
+      "folder": false
+    }
+  ]
+}

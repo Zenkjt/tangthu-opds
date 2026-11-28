@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BjtZ9SZ9dDQVk-5gw-k1M188JtMFKArj",
+  "page": 1,
+  "items": [
+    {
+      "id": "130OC-D1ERxTj0KbA4m2yF1mSw973NSMu",
+      "parent_id": "1BjtZ9SZ9dDQVk-5gw-k1M188JtMFKArj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1776,
+      "modified": "2026-08-15T06:41:02.000Z",
+      "checksum": "bfeb7379c600ffb407e57599b091fa51",
+      "folder": false
+    },
+    {
+      "id": "1b3adQ0DtoqT_n0buknJu6MDRgCVcBjtz",
+      "parent_id": "1BjtZ9SZ9dDQVk-5gw-k1M188JtMFKArj",
+      "name": "THẦN THOẠI HY LẠP.epub",
+      "mime": "application/epub+zip",
+      "size": 1463753,
+      "modified": "2026-08-15T06:41:18.000Z",
+      "checksum": "4f2233f6646a3651d27fd43e1eedda2b",
+      "folder": false
+    },
+    {
+      "id": "1Wz8wyG-1VaPh-9lqlR61c1hrd78Oww7h",
+      "parent_id": "1BjtZ9SZ9dDQVk-5gw-k1M188JtMFKArj",
+      "name": "THẦN THOẠI HY LẠP.pdf",
+      "mime": "application/pdf",
+      "size": 4193947,
+      "modified": "2026-08-15T06:41:16.000Z",
+      "checksum": "af4f75c0d6265df4e80e31e3252d9a20",
+      "folder": false
+    }
+  ]
+}

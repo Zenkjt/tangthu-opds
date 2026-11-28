@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_S9je03mfdCmXiFZylfFhEhKu5iEDIby",
+  "page": 1,
+  "items": [
+    {
+      "id": "14kC2eXz_v4po4JgFduBp5PBEHVjEZp5S",
+      "parent_id": "1_S9je03mfdCmXiFZylfFhEhKu5iEDIby",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 561,
+      "modified": "2026-08-15T10:07:21.000Z",
+      "checksum": "d098e4066d34743200396abc8a7177f3",
+      "folder": false
+    },
+    {
+      "id": "1llNjF-o24aF6vAOcnAKtA8Uj8rkigcy2",
+      "parent_id": "1_S9je03mfdCmXiFZylfFhEhKu5iEDIby",
+      "name": "TRẠM THU PHÍ QUÁI LẠ.epub",
+      "mime": "application/epub+zip",
+      "size": 459681,
+      "modified": "2026-08-15T10:07:32.000Z",
+      "checksum": "c36d6fe9f93f87c4d2442ca61bccbf8a",
+      "folder": false
+    },
+    {
+      "id": "1nn2xF36L16k3b53LkbZ3TBV2fH6c80fG",
+      "parent_id": "1_S9je03mfdCmXiFZylfFhEhKu5iEDIby",
+      "name": "TRẠM THU PHÍ QUÁI LẠ.pdf",
+      "mime": "application/pdf",
+      "size": 743352,
+      "modified": "2026-08-15T10:07:27.000Z",
+      "checksum": "5c9c47d429a66d1937539e9ae433982c",
+      "folder": false
+    }
+  ]
+}

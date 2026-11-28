@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1d9v7yHQQ4Kt_ExWRoALhf8weIaZoNBDb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_wTkrU5VBkH34BwMxH6SGhq9Df0PHp7l",
+      "parent_id": "1d9v7yHQQ4Kt_ExWRoALhf8weIaZoNBDb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9504,
+      "modified": "2026-08-15T06:15:38.000Z",
+      "checksum": "9f36b211e21be42de3bb5d23dbda01bf",
+      "folder": false
+    },
+    {
+      "id": "1Tr9ouAjJ-_3fXiwkwiC8nRactpW-eNfm",
+      "parent_id": "1d9v7yHQQ4Kt_ExWRoALhf8weIaZoNBDb",
+      "name": "MẢNH ĐẤT LẮM NGƯỜI NHIỀU MA.epub",
+      "mime": "application/epub+zip",
+      "size": 1251459,
+      "modified": "2026-08-15T06:15:45.000Z",
+      "checksum": "233679686ae00ebe2ada7f4262c4a88a",
+      "folder": false
+    },
+    {
+      "id": "1F4WMKzNpPs74wjQbvNFyh_luhz_s2sin",
+      "parent_id": "1d9v7yHQQ4Kt_ExWRoALhf8weIaZoNBDb",
+      "name": "MẢNH ĐẤT LẮM NGƯỜI NHIỀU MA.pdf",
+      "mime": "application/pdf",
+      "size": 1157712,
+      "modified": "2026-08-15T06:15:43.000Z",
+      "checksum": "5cce8e504c2b9f835f70cb5ba5e4963a",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MBO0PBAulWBuIZwXWoo-SqzORSWzcRBX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zZJIxcXV8_4zwPtD0vFfnHO-c0IbG-Cl",
+      "parent_id": "1MBO0PBAulWBuIZwXWoo-SqzORSWzcRBX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4694,
+      "modified": "2026-08-16T03:43:36.000Z",
+      "checksum": "042eab5f1dfdd158c5bdc18b6a5ead82",
+      "folder": false
+    },
+    {
+      "id": "1S1BKVqR_KbvkR6A4-XlMjvzJ2DOvibLv",
+      "parent_id": "1MBO0PBAulWBuIZwXWoo-SqzORSWzcRBX",
+      "name": "DÌ GHẺ.epub",
+      "mime": "application/epub+zip",
+      "size": 689436,
+      "modified": "2026-08-16T03:43:44.000Z",
+      "checksum": "e77b7b252af64dec3473400e36723e95",
+      "folder": false
+    },
+    {
+      "id": "1SdkrOvMUrFvuyMGO4H6iGJ56DdxgLHy4",
+      "parent_id": "1MBO0PBAulWBuIZwXWoo-SqzORSWzcRBX",
+      "name": "DÌ GHẺ.pdf",
+      "mime": "application/pdf",
+      "size": 2364346,
+      "modified": "2026-08-16T03:43:41.000Z",
+      "checksum": "f83b13350403e669c4c2db49d092a8b5",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19AObqYFImzuz2JPZFl3N3yj2z8VarUVQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cfMxeCmkpQxEE1uvnZiqrdMFcgVRO33n",
+      "parent_id": "19AObqYFImzuz2JPZFl3N3yj2z8VarUVQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5115,
+      "modified": "2026-08-15T03:57:29.000Z",
+      "checksum": "3145dc4b4d09c5a34cc1e74049a9e688",
+      "folder": false
+    },
+    {
+      "id": "1LqZhve0y0bEuIougYFt8YimhZWNKv6HH",
+      "parent_id": "19AObqYFImzuz2JPZFl3N3yj2z8VarUVQ",
+      "name": "QUYỀN NĂNG CỦA BÂY GIỜ.epub",
+      "mime": "application/epub+zip",
+      "size": 315043,
+      "modified": "2026-08-15T03:57:36.000Z",
+      "checksum": "5d4cc7c3fdd0aaf8ba295cb3ef7d80ac",
+      "folder": false
+    },
+    {
+      "id": "1mxfhD8K12BcupOohtTwk5H-Qhkg1pCVX",
+      "parent_id": "19AObqYFImzuz2JPZFl3N3yj2z8VarUVQ",
+      "name": "QUYỀN NĂNG CỦA BÂY GIỜ.pdf",
+      "mime": "application/pdf",
+      "size": 1269024,
+      "modified": "2026-08-15T03:57:33.000Z",
+      "checksum": "c8d8011ce2eba0a8169cbb2e53b1563c",
+      "folder": false
+    }
+  ]
+}

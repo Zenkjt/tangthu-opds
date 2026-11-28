@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Wj1RifjMLOnZfY9ggACmNWIPOGQurbgW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ed5U-ciZfM1ClJw26qB4jklbmIpVEHQ-",
+      "parent_id": "1Wj1RifjMLOnZfY9ggACmNWIPOGQurbgW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12648,
+      "modified": "2026-08-15T06:58:01.000Z",
+      "checksum": "769d3bc671df004792bdb372fc1ec752",
+      "folder": false
+    },
+    {
+      "id": "1uJ-sVE4JdCWNcKVdHF_WV8uUttyLF730",
+      "parent_id": "1Wj1RifjMLOnZfY9ggACmNWIPOGQurbgW",
+      "name": "THỜI THƠ ẤU.epub",
+      "mime": "application/epub+zip",
+      "size": 694525,
+      "modified": "2026-08-15T06:58:10.000Z",
+      "checksum": "19d3c9961937ee2b5fc439dedb552a4a",
+      "folder": false
+    },
+    {
+      "id": "1TfZJhKzDeiJDP0yQcntjoa5TPCr5Le9m",
+      "parent_id": "1Wj1RifjMLOnZfY9ggACmNWIPOGQurbgW",
+      "name": "THỜI THƠ ẤU.pdf",
+      "mime": "application/pdf",
+      "size": 918244,
+      "modified": "2026-08-15T06:58:05.000Z",
+      "checksum": "5bd6a563f85c214362c9c821d4807768",
+      "folder": false
+    }
+  ]
+}

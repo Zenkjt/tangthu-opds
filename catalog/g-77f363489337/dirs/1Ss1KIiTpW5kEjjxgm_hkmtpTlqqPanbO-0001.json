@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ss1KIiTpW5kEjjxgm_hkmtpTlqqPanbO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1b_9dWXiRn6iB0WwwReIbKG2Ehsl_domL",
+      "parent_id": "1Ss1KIiTpW5kEjjxgm_hkmtpTlqqPanbO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4377,
+      "modified": "2026-08-16T02:52:37.000Z",
+      "checksum": "e6f265177fe145b876ade8ba4111b360",
+      "folder": false
+    },
+    {
+      "id": "1SbrRYcHBZlUxElumz_NTW2Pe8q8pFACW",
+      "parent_id": "1Ss1KIiTpW5kEjjxgm_hkmtpTlqqPanbO",
+      "name": "DÂY OAN.epub",
+      "mime": "application/epub+zip",
+      "size": 390230,
+      "modified": "2026-08-16T02:52:43.000Z",
+      "checksum": "02a34fff08d955f91ba3b540cf3bfad8",
+      "folder": false
+    },
+    {
+      "id": "1Ct_pknIFry5SFVDIp02oFjR6EwlTwR5G",
+      "parent_id": "1Ss1KIiTpW5kEjjxgm_hkmtpTlqqPanbO",
+      "name": "DÂY OAN.pdf",
+      "mime": "application/pdf",
+      "size": 274628,
+      "modified": "2026-08-16T02:52:40.000Z",
+      "checksum": "f0ef0a87ffe33d7cb125c79f9905e2aa",
+      "folder": false
+    }
+  ]
+}

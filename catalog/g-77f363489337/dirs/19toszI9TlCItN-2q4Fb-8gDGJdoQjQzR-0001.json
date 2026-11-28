@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19toszI9TlCItN-2q4Fb-8gDGJdoQjQzR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Uy-chzRB5I2HPg5Lmc1m1EIRxNU63Qvo",
+      "parent_id": "19toszI9TlCItN-2q4Fb-8gDGJdoQjQzR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2996,
+      "modified": "2026-08-15T10:21:57.000Z",
+      "checksum": "f6f872a29c504da5cb2a0e398d8ef830",
+      "folder": false
+    },
+    {
+      "id": "1PH9JaRmAEyYOVmwx3Btz35n4i4Vft4vl",
+      "parent_id": "19toszI9TlCItN-2q4Fb-8gDGJdoQjQzR",
+      "name": "TẠO HÓA CHI VƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 813387,
+      "modified": "2026-08-15T10:22:12.000Z",
+      "checksum": "5769c573c3010e5be5624c43972237fb",
+      "folder": false
+    },
+    {
+      "id": "1dC8qhGdtp1e7_gFzH67EE5lJqRJxckJF",
+      "parent_id": "19toszI9TlCItN-2q4Fb-8gDGJdoQjQzR",
+      "name": "TẠO HÓA CHI VƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 2869375,
+      "modified": "2026-08-15T10:22:09.000Z",
+      "checksum": "f9ff8e46cb63741ee1248b55ea57f437",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Q9dbrj2Szp4SJfdZv42zo40-bc4ifU6e",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iU7quooQuWIk6moyXNzPkQaWZZvjjC1p",
+      "parent_id": "1Q9dbrj2Szp4SJfdZv42zo40-bc4ifU6e",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12750,
+      "modified": "2026-08-15T00:50:52.000Z",
+      "checksum": "c9533dfbf966cfe484e7f0c3e0e5d125",
+      "folder": false
+    },
+    {
+      "id": "1dBcZtgEvQSXhg35qSaxfqRMOp00U_ei_",
+      "parent_id": "1Q9dbrj2Szp4SJfdZv42zo40-bc4ifU6e",
+      "name": "TƯ DUY ĐỘT PHÁ.epub",
+      "mime": "application/epub+zip",
+      "size": 647530,
+      "modified": "2026-08-15T00:51:01.000Z",
+      "checksum": "a7eeba7b9016c4477b42749e79533993",
+      "folder": false
+    },
+    {
+      "id": "1asJ8uML_NV3PlAD3COQV2Zm1bWgqiRPI",
+      "parent_id": "1Q9dbrj2Szp4SJfdZv42zo40-bc4ifU6e",
+      "name": "TƯ DUY ĐỘT PHÁ.pdf",
+      "mime": "application/pdf",
+      "size": 7789141,
+      "modified": "2026-08-15T00:50:58.000Z",
+      "checksum": "a905fb4235c0afdd236adc7791ccc64c",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JEdVclcXZLktRpES9YPTsyklnCpt986B",
+  "page": 1,
+  "items": [
+    {
+      "id": "1k8SIQRHQOUQ9sG0cvG5dXA2pvP23h_P3",
+      "parent_id": "1JEdVclcXZLktRpES9YPTsyklnCpt986B",
+      "name": "BIẾT HÀI LÒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 169615,
+      "modified": "2026-08-15T03:20:33.000Z",
+      "checksum": "3878dfac88bdc55e31f2b11470b24ff5",
+      "folder": false
+    },
+    {
+      "id": "1mwUDdm2oTse1yvpSFVlzc-hn5i10D2Eb",
+      "parent_id": "1JEdVclcXZLktRpES9YPTsyklnCpt986B",
+      "name": "BIẾT HÀI LÒNG.pdf",
+      "mime": "application/pdf",
+      "size": 398764,
+      "modified": "2026-08-15T03:20:30.000Z",
+      "checksum": "c493bf8d47b7f3a0baa7ea4f81487bf7",
+      "folder": false
+    },
+    {
+      "id": "12nmerPsV9ZcyStNCuGvD97U9SYv27KJM",
+      "parent_id": "1JEdVclcXZLktRpES9YPTsyklnCpt986B",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2205,
+      "modified": "2026-08-15T03:20:26.000Z",
+      "checksum": "6f79e98b08b3c08b23e45fabc4fce3c3",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CvoEfAieOmGDqLtkt9TWmHO9vxIaccrZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "138VSMC5dDHIfTXNmyvGS9cHgGsDuya8J",
+      "parent_id": "1CvoEfAieOmGDqLtkt9TWmHO9vxIaccrZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 530,
+      "modified": "2026-08-15T15:39:43.000Z",
+      "checksum": "4710f45d74831d3152c94c533aab16d3",
+      "folder": false
+    },
+    {
+      "id": "1V3GTHP2LKqr-C3KmHHEgb3ZCADJ1Vne8",
+      "parent_id": "1CvoEfAieOmGDqLtkt9TWmHO9vxIaccrZ",
+      "name": "NGƯỜI RUỒI.epub",
+      "mime": "application/epub+zip",
+      "size": 509796,
+      "modified": "2026-08-15T15:39:50.000Z",
+      "checksum": "58dac86902eadf38cd950120ac324584",
+      "folder": false
+    },
+    {
+      "id": "1o9NxeCaXj6hdhvMHqzCESW1p3q0pRUeo",
+      "parent_id": "1CvoEfAieOmGDqLtkt9TWmHO9vxIaccrZ",
+      "name": "NGƯỜI RUỒI.pdf",
+      "mime": "application/pdf",
+      "size": 1345134,
+      "modified": "2026-08-15T15:39:47.000Z",
+      "checksum": "8725e6dc9e788eb40baa37e3ac5dd37d",
+      "folder": false
+    }
+  ]
+}

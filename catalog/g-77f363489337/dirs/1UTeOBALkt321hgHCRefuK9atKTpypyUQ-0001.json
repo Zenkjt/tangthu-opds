@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UTeOBALkt321hgHCRefuK9atKTpypyUQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1CMxAJRPNTp9Z0tgESIpaT0IL6nExr6Vl",
+      "parent_id": "1UTeOBALkt321hgHCRefuK9atKTpypyUQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5173,
+      "modified": "2026-08-15T15:15:28.000Z",
+      "checksum": "25fa235e76417d60100ed32469f3c76e",
+      "folder": false
+    },
+    {
+      "id": "16pCxkcpvXcUIfjXPxq8y8pKiAh3nAmy4",
+      "parent_id": "1UTeOBALkt321hgHCRefuK9atKTpypyUQ",
+      "name": "NGƯỜI CON TRAI.epub",
+      "mime": "application/epub+zip",
+      "size": 593725,
+      "modified": "2026-08-15T15:15:36.000Z",
+      "checksum": "86c41c66aad00328d160fbd14d91bfdc",
+      "folder": false
+    },
+    {
+      "id": "1s3k4EA_UXdd3nEXTTSCzCb_7vN_p6cO5",
+      "parent_id": "1UTeOBALkt321hgHCRefuK9atKTpypyUQ",
+      "name": "NGƯỜI CON TRAI.pdf",
+      "mime": "application/pdf",
+      "size": 1607700,
+      "modified": "2026-08-15T15:15:33.000Z",
+      "checksum": "a4d1e35c3b93186dd4d64ef5d0bba413",
+      "folder": false
+    }
+  ]
+}

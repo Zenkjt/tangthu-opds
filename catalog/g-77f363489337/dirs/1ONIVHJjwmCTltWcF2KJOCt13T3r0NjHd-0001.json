@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ONIVHJjwmCTltWcF2KJOCt13T3r0NjHd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JihJWAH3qHZy4Ha74bIebqk84cfizzzV",
+      "parent_id": "1ONIVHJjwmCTltWcF2KJOCt13T3r0NjHd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 984,
+      "modified": "2026-08-15T07:42:08.000Z",
+      "checksum": "b65a14ac20ad3f394790d9997cb84e57",
+      "folder": false
+    },
+    {
+      "id": "1CmByPmzZmU6rfNRv48dIIuuxfXXxqrpc",
+      "parent_id": "1ONIVHJjwmCTltWcF2KJOCt13T3r0NjHd",
+      "name": "LƯỠNG QUẢNG HÀO KIỆT.epub",
+      "mime": "application/epub+zip",
+      "size": 460114,
+      "modified": "2026-08-15T07:42:14.000Z",
+      "checksum": "5cf68968134ab5fe4c41c717cc8af919",
+      "folder": false
+    },
+    {
+      "id": "1gTQyMQ4ebKiQJdJ1M8TgsNvzukR3mWcH",
+      "parent_id": "1ONIVHJjwmCTltWcF2KJOCt13T3r0NjHd",
+      "name": "LƯỠNG QUẢNG HÀO KIỆT.pdf",
+      "mime": "application/pdf",
+      "size": 555347,
+      "modified": "2026-08-15T07:42:12.000Z",
+      "checksum": "2a774f9a2659a1b6d4f85223f682c0d7",
+      "folder": false
+    }
+  ]
+}

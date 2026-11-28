@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fcH77i37ergOFAku3y5-f5Xj4XuaTov-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AGtykn1r1jbaKBy-ArxWq9-GLXWXJ3qO",
+      "parent_id": "1fcH77i37ergOFAku3y5-f5Xj4XuaTov-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4087,
+      "modified": "2026-08-15T03:46:14.000Z",
+      "checksum": "60c4b01b03f1916202ce7692d4f67bba",
+      "folder": false
+    },
+    {
+      "id": "1ikcxZPhof_bIOzsXwjI6O2G-janmoSeq",
+      "parent_id": "1fcH77i37ergOFAku3y5-f5Xj4XuaTov-",
+      "name": "THIỀN ĐỊNH VÀ TÂM TRÍ DIỆU KÌ.epub",
+      "mime": "application/epub+zip",
+      "size": 727882,
+      "modified": "2026-08-15T03:46:20.000Z",
+      "checksum": "94adff96aaab1a2b6a1a2363b884fbcb",
+      "folder": false
+    },
+    {
+      "id": "1Oqs4LtN5Od_a4oMQC9FDZbPF1BS8ehyp",
+      "parent_id": "1fcH77i37ergOFAku3y5-f5Xj4XuaTov-",
+      "name": "THIỀN ĐỊNH VÀ TÂM TRÍ DIỆU KÌ.pdf",
+      "mime": "application/pdf",
+      "size": 918311,
+      "modified": "2026-08-15T03:46:18.000Z",
+      "checksum": "d8c101d7540e376aeda74397c0b16aac",
+      "folder": false
+    }
+  ]
+}

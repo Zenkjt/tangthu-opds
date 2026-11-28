@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cnZRYlMM9hnx5s6TrCsdRRop5Hxbi8Lu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-x8c9HkQVbeIXKTllG5iUqxsBhasFIGM",
+      "parent_id": "1cnZRYlMM9hnx5s6TrCsdRRop5Hxbi8Lu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2513,
+      "modified": "2026-08-15T03:44:42.000Z",
+      "checksum": "e1284fa413eadf5c1009c8ed0b52d67a",
+      "folder": false
+    },
+    {
+      "id": "18_DHcXKvCv4iJBEvWtgiJcMrpEHsqThY",
+      "parent_id": "1cnZRYlMM9hnx5s6TrCsdRRop5Hxbi8Lu",
+      "name": "MỤC ĐÍCH ĐỜI SỐNG CON NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 510814,
+      "modified": "2026-08-15T03:44:49.000Z",
+      "checksum": "afa42ca3f0b8ec6825d6db22731f2800",
+      "folder": false
+    },
+    {
+      "id": "10hyG-tDb9zek0cYQ9MYkHxe71xVc0nm0",
+      "parent_id": "1cnZRYlMM9hnx5s6TrCsdRRop5Hxbi8Lu",
+      "name": "MỤC ĐÍCH ĐỜI SỐNG CON NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 273672,
+      "modified": "2026-08-15T03:44:46.000Z",
+      "checksum": "ca4e9a27424893f3e3edfc10d5311002",
+      "folder": false
+    }
+  ]
+}

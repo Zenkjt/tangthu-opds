@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FsV8ZSWAyJ5gnD2nILwcN7h8FEexI8Uu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uX8W8bPiuTsOTmosA82nx4snaMcLasDJ",
+      "parent_id": "1FsV8ZSWAyJ5gnD2nILwcN7h8FEexI8Uu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 540,
+      "modified": "2026-08-16T04:13:02.000Z",
+      "checksum": "9325b47e53196ba14452e0ed0670ec74",
+      "folder": false
+    },
+    {
+      "id": "1XxMGcMTI9flhLe2sqh0VD32k-0A9kXEb",
+      "parent_id": "1FsV8ZSWAyJ5gnD2nILwcN7h8FEexI8Uu",
+      "name": "NGƯỜI TÌNH TUYỆT VỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 898163,
+      "modified": "2026-08-16T04:13:10.000Z",
+      "checksum": "065f917fb3a84dd88a93669ec7835dbf",
+      "folder": false
+    },
+    {
+      "id": "11gA8gY_S2JG0V6RBPmPsFiD6sSEy77fT",
+      "parent_id": "1FsV8ZSWAyJ5gnD2nILwcN7h8FEexI8Uu",
+      "name": "NGƯỜI TÌNH TUYỆT VỜI.pdf",
+      "mime": "application/pdf",
+      "size": 1728261,
+      "modified": "2026-08-16T04:13:07.000Z",
+      "checksum": "bba665e4d97fad83360b81f788b5c6aa",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1K8f4MXum4ng-1KsEqnpfZ3jDCg5OtBNi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1fJVdAku6E1_FmWNPnGtzWLbGliJ_LEe9",
+      "parent_id": "1K8f4MXum4ng-1KsEqnpfZ3jDCg5OtBNi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 440,
+      "modified": "2026-08-16T04:19:20.000Z",
+      "checksum": "9d0085bf059a4244dd0e74e19b6cc15d",
+      "folder": false
+    },
+    {
+      "id": "1x3wuA7XD9lu29BpSwaRGQ9Ebh_qgho03",
+      "parent_id": "1K8f4MXum4ng-1KsEqnpfZ3jDCg5OtBNi",
+      "name": "HÔN LỄ TỬ THẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 562311,
+      "modified": "2026-08-16T04:19:27.000Z",
+      "checksum": "3510f1b221ac245e326e1e923b1081b2",
+      "folder": false
+    },
+    {
+      "id": "1KxoI8VrRiyGh5w3UTODddTfLp_dbsvCG",
+      "parent_id": "1K8f4MXum4ng-1KsEqnpfZ3jDCg5OtBNi",
+      "name": "HÔN LỄ TỬ THẦN.pdf",
+      "mime": "application/pdf",
+      "size": 1427690,
+      "modified": "2026-08-16T04:19:24.000Z",
+      "checksum": "2a6efeec5063d41dd02febc8e70f8994",
+      "folder": false
+    }
+  ]
+}

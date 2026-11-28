@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lIe3HyJY437nlyn7NcX2xBwXz4KaROQm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LexIMl9l5CNJPvcVoHv5XLGz7p9PnCzT",
+      "parent_id": "1lIe3HyJY437nlyn7NcX2xBwXz4KaROQm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1982,
+      "modified": "2026-08-15T07:09:03.000Z",
+      "checksum": "25c899a00bb4227f90ed6e8fcb1271df",
+      "folder": false
+    },
+    {
+      "id": "1ZC-t9k8tqQEA2eLzIbwBwGsnUelRZ13n",
+      "parent_id": "1lIe3HyJY437nlyn7NcX2xBwXz4KaROQm",
+      "name": "DƯỚI BÓNG DỪA XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 531579,
+      "modified": "2026-08-15T07:09:09.000Z",
+      "checksum": "548612ef47e3b6dbcb24adef92877c1f",
+      "folder": false
+    },
+    {
+      "id": "1YGzSKnp3k2Bog-7zRTzb2Bc2frFBPhvS",
+      "parent_id": "1lIe3HyJY437nlyn7NcX2xBwXz4KaROQm",
+      "name": "DƯỚI BÓNG DỪA XANH.pdf",
+      "mime": "application/pdf",
+      "size": 766202,
+      "modified": "2026-08-15T07:09:07.000Z",
+      "checksum": "9da3d3e9cbd0b1952f6d994e4b524070",
+      "folder": false
+    }
+  ]
+}

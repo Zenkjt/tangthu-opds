@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11zkF-dyQq9T40O6jHtOg1NBF8DRMz9RD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iQgZdRBGxuOgrIS4KC5WiTCo2JARkpFs",
+      "parent_id": "11zkF-dyQq9T40O6jHtOg1NBF8DRMz9RD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1935,
+      "modified": "2026-08-15T13:12:59.000Z",
+      "checksum": "cdf87eece003bc741eab4ddc95db09c3",
+      "folder": false
+    },
+    {
+      "id": "1kHkM5zfSd_RvJLvaB6Ws9zRE-asBeVwz",
+      "parent_id": "11zkF-dyQq9T40O6jHtOg1NBF8DRMz9RD",
+      "name": "NHỮNG BÍ THUẬT THỜI CỔ ĐẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 842769,
+      "modified": "2026-08-15T13:13:05.000Z",
+      "checksum": "4c961e736414368e76fb9342572ac3d3",
+      "folder": false
+    },
+    {
+      "id": "1F8DuQizBX6zOS7N31LXOrPE4729RzkOt",
+      "parent_id": "11zkF-dyQq9T40O6jHtOg1NBF8DRMz9RD",
+      "name": "NHỮNG BÍ THUẬT THỜI CỔ ĐẠI.pdf",
+      "mime": "application/pdf",
+      "size": 740164,
+      "modified": "2026-08-15T13:13:02.000Z",
+      "checksum": "0ca8baebfffa39efc1abd975ab979a3a",
+      "folder": false
+    }
+  ]
+}

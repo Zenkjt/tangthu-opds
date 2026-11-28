@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Dhq3ShuIK5Mvbh9Z6bpsR6lbTwX78K0a",
+  "page": 1,
+  "items": [
+    {
+      "id": "1l04wS-yxKC0s5GrJBpO482X37NCuJ1C0",
+      "parent_id": "1Dhq3ShuIK5Mvbh9Z6bpsR6lbTwX78K0a",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6877,
+      "modified": "2026-08-16T03:15:42.000Z",
+      "checksum": "9f312b16362644ed4b540434edcb79ec",
+      "folder": false
+    },
+    {
+      "id": "1bGKEQVF-XHTQmCIxpg6gPVxD5mJSpRQR",
+      "parent_id": "1Dhq3ShuIK5Mvbh9Z6bpsR6lbTwX78K0a",
+      "name": "MỘT NGÀY CỦA IVAN DENISOVICH.epub",
+      "mime": "application/epub+zip",
+      "size": 534312,
+      "modified": "2026-08-16T03:15:48.000Z",
+      "checksum": "e316e94ea9887f78875249a75fba43ee",
+      "folder": false
+    },
+    {
+      "id": "1NB05by1J1LOjlThou-sK8tNsZ5yKmEhl",
+      "parent_id": "1Dhq3ShuIK5Mvbh9Z6bpsR6lbTwX78K0a",
+      "name": "MỘT NGÀY CỦA IVAN DENISOVICH.pdf",
+      "mime": "application/pdf",
+      "size": 718633,
+      "modified": "2026-08-16T03:15:45.000Z",
+      "checksum": "0cf5954f7c42d7d9fec09e568ba52317",
+      "folder": false
+    }
+  ]
+}

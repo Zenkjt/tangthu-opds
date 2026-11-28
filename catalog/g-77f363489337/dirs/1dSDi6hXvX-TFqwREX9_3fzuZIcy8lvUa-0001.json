@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dSDi6hXvX-TFqwREX9_3fzuZIcy8lvUa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S6X3iOz5TP04VtJtvD7S4HIYaKCevpZF",
+      "parent_id": "1dSDi6hXvX-TFqwREX9_3fzuZIcy8lvUa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5911,
+      "modified": "2026-08-15T03:19:20.000Z",
+      "checksum": "5d27251ebbe71fc77f515a71cf682fc3",
+      "folder": false
+    },
+    {
+      "id": "1wHGvv70xQ1US702-T4W998PanFbwQNSJ",
+      "parent_id": "1dSDi6hXvX-TFqwREX9_3fzuZIcy8lvUa",
+      "name": "TUYỂN TẬP HẠT GIỐNG TÂM HỒN.epub",
+      "mime": "application/epub+zip",
+      "size": 1113029,
+      "modified": "2026-08-15T03:19:37.000Z",
+      "checksum": "aa97990e18da2851b0787ab1fd277b3c",
+      "folder": false
+    },
+    {
+      "id": "1HaVjTGNJ9vMmopIG7EVEMTqQloOHeYfA",
+      "parent_id": "1dSDi6hXvX-TFqwREX9_3fzuZIcy8lvUa",
+      "name": "TUYỂN TẬP HẠT GIỐNG TÂM HỒN.pdf",
+      "mime": "application/pdf",
+      "size": 3963838,
+      "modified": "2026-08-15T03:19:34.000Z",
+      "checksum": "838d22953640b56a6d8d1fe25ae7c26a",
+      "folder": false
+    }
+  ]
+}

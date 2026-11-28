@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MKNW2g-PSPYQWnK9KbTGlOFfwVBqZUJF",
+  "page": 1,
+  "items": [
+    {
+      "id": "16NnSA00Xi6Ci3Cm6cdOoLwPFs5MwcfqK",
+      "parent_id": "1MKNW2g-PSPYQWnK9KbTGlOFfwVBqZUJF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8712,
+      "modified": "2026-08-16T03:05:16.000Z",
+      "checksum": "32a8def083d83c36afe3ce9246f024f4",
+      "folder": false
+    },
+    {
+      "id": "1cyC7fJdQIYaP041nzQKL4QGPTKfjNRpN",
+      "parent_id": "1MKNW2g-PSPYQWnK9KbTGlOFfwVBqZUJF",
+      "name": "VẺ ĐẸP NGUY HIỂM.epub",
+      "mime": "application/epub+zip",
+      "size": 469695,
+      "modified": "2026-08-16T03:05:23.000Z",
+      "checksum": "ebb8303f4cad740f29b41190d0c2a448",
+      "folder": false
+    },
+    {
+      "id": "1tAb5cdJYH7gccAao1CAfMnYUuLvVYqef",
+      "parent_id": "1MKNW2g-PSPYQWnK9KbTGlOFfwVBqZUJF",
+      "name": "VẺ ĐẸP NGUY HIỂM.pdf",
+      "mime": "application/pdf",
+      "size": 1016262,
+      "modified": "2026-08-16T03:05:21.000Z",
+      "checksum": "5bd74d65f8dce700f92c33ddc3c42693",
+      "folder": false
+    }
+  ]
+}

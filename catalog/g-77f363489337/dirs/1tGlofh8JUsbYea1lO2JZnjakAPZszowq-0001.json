@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tGlofh8JUsbYea1lO2JZnjakAPZszowq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_UckQvpeMpcYbc5LbTGBSSMFRK_ZLBXK",
+      "parent_id": "1tGlofh8JUsbYea1lO2JZnjakAPZszowq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2396,
+      "modified": "2026-08-15T03:47:33.000Z",
+      "checksum": "d2d5c8a4d424be463d9631ca4802314a",
+      "folder": false
+    },
+    {
+      "id": "1sIufd5cbqGH9cbR6iJdee7OJVBJq8EUw",
+      "parent_id": "1tGlofh8JUsbYea1lO2JZnjakAPZszowq",
+      "name": "NHẬN BIẾT - CHÌA KHÓA SỐNG TRONG CÂN BẰNG.epub",
+      "mime": "application/epub+zip",
+      "size": 343228,
+      "modified": "2026-08-15T03:47:41.000Z",
+      "checksum": "b432c5a823d5fa0706c87ac504aca885",
+      "folder": false
+    },
+    {
+      "id": "1tQ4xJKwfJsuWUBkuh-2EzqJiteERx4cF",
+      "parent_id": "1tGlofh8JUsbYea1lO2JZnjakAPZszowq",
+      "name": "NHẬN BIẾT - CHÌA KHÓA SỐNG TRONG CÂN BẰNG.pdf",
+      "mime": "application/pdf",
+      "size": 1508744,
+      "modified": "2026-08-15T03:47:37.000Z",
+      "checksum": "5a258a38b8186230f7463a639e830ac5",
+      "folder": false
+    }
+  ]
+}

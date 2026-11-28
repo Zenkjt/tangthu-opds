@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kCmwSmKt8WsdFovzi8LLmiTcotrBVf6s",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vScnOQx6Hh7T3LKQk22gsRBxkiSj2R72",
+      "parent_id": "1kCmwSmKt8WsdFovzi8LLmiTcotrBVf6s",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3895,
+      "modified": "2026-08-16T03:39:55.000Z",
+      "checksum": "edafb3a34823d8250822c59007f2eb4e",
+      "folder": false
+    },
+    {
+      "id": "1b4B2o8vRyezQSqUXoa8l1GcVdA0euWEc",
+      "parent_id": "1kCmwSmKt8WsdFovzi8LLmiTcotrBVf6s",
+      "name": "HÔN CÁI NÀO! CÔ NÀNG XẤU TÍNH.epub",
+      "mime": "application/epub+zip",
+      "size": 433454,
+      "modified": "2026-08-16T03:40:02.000Z",
+      "checksum": "4ba3974423ed253588aa5b823ccc5b9a",
+      "folder": false
+    },
+    {
+      "id": "1Ws55oHjmYlUcaVQediOZStAjjsKo2gzF",
+      "parent_id": "1kCmwSmKt8WsdFovzi8LLmiTcotrBVf6s",
+      "name": "HÔN CÁI NÀO! CÔ NÀNG XẤU TÍNH.pdf",
+      "mime": "application/pdf",
+      "size": 786716,
+      "modified": "2026-08-16T03:39:59.000Z",
+      "checksum": "d4fb8214dfeb6ba2f98fdd6da3cd563c",
+      "folder": false
+    }
+  ]
+}

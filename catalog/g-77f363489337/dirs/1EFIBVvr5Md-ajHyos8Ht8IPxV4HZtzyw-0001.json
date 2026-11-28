@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EFIBVvr5Md-ajHyos8Ht8IPxV4HZtzyw",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dt-bOheO6noWB25In5ZmP-QVFLiPLbvp",
+      "parent_id": "1EFIBVvr5Md-ajHyos8Ht8IPxV4HZtzyw",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1311,
+      "modified": "2026-08-16T03:36:19.000Z",
+      "checksum": "d00754a216c358c2bd673d971eff6724",
+      "folder": false
+    },
+    {
+      "id": "1uClDc-9TcKH0DG9G3LuHc_hnz8RzHXm0",
+      "parent_id": "1EFIBVvr5Md-ajHyos8Ht8IPxV4HZtzyw",
+      "name": "PHỤ NỮ VẠN NGƯỜI MÊ.epub",
+      "mime": "application/epub+zip",
+      "size": 1197821,
+      "modified": "2026-08-16T03:36:26.000Z",
+      "checksum": "7b63719cafe17e21892b7dd773a0eb4c",
+      "folder": false
+    },
+    {
+      "id": "1PRZtghJ3hq_ErzyWEVUf9L83UAuGUXVQ",
+      "parent_id": "1EFIBVvr5Md-ajHyos8Ht8IPxV4HZtzyw",
+      "name": "PHỤ NỮ VẠN NGƯỜI MÊ.pdf",
+      "mime": "application/pdf",
+      "size": 777225,
+      "modified": "2026-08-16T03:36:23.000Z",
+      "checksum": "e8c91bd8ae47957bb27a39247711e513",
+      "folder": false
+    }
+  ]
+}

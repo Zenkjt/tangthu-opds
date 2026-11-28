@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DHG1RqQCq4OfbkyIjE46kGEHVkCB8tyi",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JkCL0NBDgpjQJOGzN8o0Fwi7N_6R0fVx",
+      "parent_id": "1DHG1RqQCq4OfbkyIjE46kGEHVkCB8tyi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 504,
+      "modified": "2026-08-16T04:07:54.000Z",
+      "checksum": "256f284e3001dddb2a9dfec4dd0126bc",
+      "folder": false
+    },
+    {
+      "id": "1v7Q4QaoNM_v57GZwJDFaBVizbkhF-GFf",
+      "parent_id": "1DHG1RqQCq4OfbkyIjE46kGEHVkCB8tyi",
+      "name": "NUA MAT TROI VANG.epub",
+      "mime": "application/epub+zip",
+      "size": 916905,
+      "modified": "2026-08-16T04:08:03.000Z",
+      "checksum": "0c013d430324b97d3c0224b250816303",
+      "folder": false
+    },
+    {
+      "id": "1S8Z6aFkEumBjih65ztCykR-cNrHe_Pc-",
+      "parent_id": "1DHG1RqQCq4OfbkyIjE46kGEHVkCB8tyi",
+      "name": "NUA MAT TROI VANG.pdf",
+      "mime": "application/pdf",
+      "size": 2288714,
+      "modified": "2026-08-16T04:08:00.000Z",
+      "checksum": "377dfae2f686ce97a24bfa77b9a66fed",
+      "folder": false
+    }
+  ]
+}

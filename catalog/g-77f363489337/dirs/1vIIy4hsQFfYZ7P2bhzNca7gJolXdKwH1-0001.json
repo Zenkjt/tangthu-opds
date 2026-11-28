@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vIIy4hsQFfYZ7P2bhzNca7gJolXdKwH1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iqyyKUWLdVhs9r72sXb3mQdngM7xah0b",
+      "parent_id": "1vIIy4hsQFfYZ7P2bhzNca7gJolXdKwH1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1775,
+      "modified": "2026-08-15T04:00:04.000Z",
+      "checksum": "09996d6058a5741a44d88255bad4767b",
+      "folder": false
+    },
+    {
+      "id": "1VVreptg1BAzTbmF-sEx5A7c4j6fjqJVh",
+      "parent_id": "1vIIy4hsQFfYZ7P2bhzNca7gJolXdKwH1",
+      "name": "PHÂN TÂM HỌC VÀ TÔN GIÁO.epub",
+      "mime": "application/epub+zip",
+      "size": 302355,
+      "modified": "2026-08-15T04:00:10.000Z",
+      "checksum": "b515be386c0fd9cdff72afb9cdf94f5f",
+      "folder": false
+    },
+    {
+      "id": "1fMXo88MNaNigL9Eg__I6FBxnGtXSkmpB",
+      "parent_id": "1vIIy4hsQFfYZ7P2bhzNca7gJolXdKwH1",
+      "name": "PHÂN TÂM HỌC VÀ TÔN GIÁO.pdf",
+      "mime": "application/pdf",
+      "size": 473196,
+      "modified": "2026-08-15T04:00:08.000Z",
+      "checksum": "04d295f20b2f177aa0d6fce954a2c1cd",
+      "folder": false
+    }
+  ]
+}

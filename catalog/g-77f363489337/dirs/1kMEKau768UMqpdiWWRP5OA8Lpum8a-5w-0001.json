@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1kMEKau768UMqpdiWWRP5OA8Lpum8a-5w",
+  "page": 1,
+  "items": [
+    {
+      "id": "1C_zZYwv0ltiuyxgs7JSF7T14KwZxAtx9",
+      "parent_id": "1kMEKau768UMqpdiWWRP5OA8Lpum8a-5w",
+      "name": "CÁI BÓNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1065271,
+      "modified": "2026-08-16T03:22:40.000Z",
+      "checksum": "4101c4eaa16ff9827e08c40d0a55772f",
+      "folder": false
+    },
+    {
+      "id": "1AtLPBQeD0S1jSmw0c01P3ytutqB5MSir",
+      "parent_id": "1kMEKau768UMqpdiWWRP5OA8Lpum8a-5w",
+      "name": "CÁI BÓNG.pdf",
+      "mime": "application/pdf",
+      "size": 997673,
+      "modified": "2026-08-16T03:22:37.000Z",
+      "checksum": "539dfef10452cf1f383c3fb5f9314910",
+      "folder": false
+    },
+    {
+      "id": "1ayEFwmmqvMTfh3AR6Gb2Ta8H1mkkB4Zk",
+      "parent_id": "1kMEKau768UMqpdiWWRP5OA8Lpum8a-5w",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10813,
+      "modified": "2026-08-16T03:22:33.000Z",
+      "checksum": "d2654b188ad87e0534af6e580b6b411d",
+      "folder": false
+    }
+  ]
+}

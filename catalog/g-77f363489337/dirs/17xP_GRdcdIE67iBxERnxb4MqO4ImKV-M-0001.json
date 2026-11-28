@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17xP_GRdcdIE67iBxERnxb4MqO4ImKV-M",
+  "page": 1,
+  "items": [
+    {
+      "id": "1M7_L4PRBOEu-YglBDKk9Gjn6zKBb2f3P",
+      "parent_id": "17xP_GRdcdIE67iBxERnxb4MqO4ImKV-M",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3387,
+      "modified": "2026-08-15T10:18:29.000Z",
+      "checksum": "9fcc121373b4df6fd6457b721464744c",
+      "folder": false
+    },
+    {
+      "id": "1RC-hsTd-EGLwRBD5Zbnaqfm2RfzaBJ4u",
+      "parent_id": "17xP_GRdcdIE67iBxERnxb4MqO4ImKV-M",
+      "name": "THẨM TIÊN SINH, CỐ PHU NHÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 619481,
+      "modified": "2026-08-15T10:18:49.000Z",
+      "checksum": "4bed1d7b61370f23360eeb2b5def3c8c",
+      "folder": false
+    },
+    {
+      "id": "1MGPmj8f-2zVp9K-Hmn9EkKJWlEWz0NHT",
+      "parent_id": "17xP_GRdcdIE67iBxERnxb4MqO4ImKV-M",
+      "name": "THẨM TIÊN SINH, CỐ PHU NHÂN.pdf",
+      "mime": "application/pdf",
+      "size": 974213,
+      "modified": "2026-08-15T10:18:45.000Z",
+      "checksum": "f3103dcaff26a64722caf359bd6b9bcc",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Wh5WyOH76_Chmj3nDcY5qmf-AaqmFAUd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-T4OJk2Vp9d03pmKLNVZn7brP9kSqsUv",
+      "parent_id": "1Wh5WyOH76_Chmj3nDcY5qmf-AaqmFAUd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1292,
+      "modified": "2026-08-15T06:42:02.000Z",
+      "checksum": "ee1a6ad545803818c08e9b2f8f5bab99",
+      "folder": false
+    },
+    {
+      "id": "1K_ccMDbNmh8O2I3MPEOY5jaiXwJOZsdy",
+      "parent_id": "1Wh5WyOH76_Chmj3nDcY5qmf-AaqmFAUd",
+      "name": "DẾ MÈN PHIÊU LƯU KÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 348672,
+      "modified": "2026-08-15T06:42:09.000Z",
+      "checksum": "840f72158f320f5bd97ad123c07163d0",
+      "folder": false
+    },
+    {
+      "id": "1DSUFMPik4OFjZ6TuvFn5QNaYswdz9RuL",
+      "parent_id": "1Wh5WyOH76_Chmj3nDcY5qmf-AaqmFAUd",
+      "name": "DẾ MÈN PHIÊU LƯU KÝ.pdf",
+      "mime": "application/pdf",
+      "size": 393511,
+      "modified": "2026-08-15T06:42:06.000Z",
+      "checksum": "8456c23c1a6ed2db6f73f71576a992ea",
+      "folder": false
+    }
+  ]
+}

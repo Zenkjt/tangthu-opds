@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rxwog49xQgehJIMKHRgJbOHs7EeN-RiL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wQ2FEszt0SEnEBpVcfMY_wNI22LS38-C",
+      "parent_id": "1rxwog49xQgehJIMKHRgJbOHs7EeN-RiL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 558,
+      "modified": "2026-08-16T03:52:55.000Z",
+      "checksum": "77334263efb745f496a87b9b4a38c79f",
+      "folder": false
+    },
+    {
+      "id": "1rC0nXZlvfHFxnrPwlOfj_Y8Q4s5QmV9a",
+      "parent_id": "1rxwog49xQgehJIMKHRgJbOHs7EeN-RiL",
+      "name": "TÔTEM SÓI.epub",
+      "mime": "application/epub+zip",
+      "size": 884262,
+      "modified": "2026-08-16T03:53:04.000Z",
+      "checksum": "4df77612710090f1d9deeda4f082f5c6",
+      "folder": false
+    },
+    {
+      "id": "1tNjzFMMyoHA95MVYIa7jtezXROorg6HH",
+      "parent_id": "1rxwog49xQgehJIMKHRgJbOHs7EeN-RiL",
+      "name": "TÔTEM SÓI.pdf",
+      "mime": "application/pdf",
+      "size": 2614369,
+      "modified": "2026-08-16T03:53:01.000Z",
+      "checksum": "ecf829b8e435497ed59adf3a4f3993bd",
+      "folder": false
+    }
+  ]
+}

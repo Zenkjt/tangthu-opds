@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1O6zzxfDWKALdTkNhH-QPk1qMHP7IDecZ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1u0Sw8fxk8R0RW_pFWvFpxoM3OjmlpzgO",
+      "parent_id": "1O6zzxfDWKALdTkNhH-QPk1qMHP7IDecZ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 868,
+      "modified": "2026-08-15T07:40:20.000Z",
+      "checksum": "fc18643c50447bb9edebd02cb24ba019",
+      "folder": false
+    },
+    {
+      "id": "1EFYZHQuBGL_vwXb4xlxjRgFmGfehw3os",
+      "parent_id": "1O6zzxfDWKALdTkNhH-QPk1qMHP7IDecZ",
+      "name": "MẶT NẠ TỬ THẦN ĐỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 525672,
+      "modified": "2026-08-15T07:40:27.000Z",
+      "checksum": "550d83869b2845105333d8fe39516365",
+      "folder": false
+    },
+    {
+      "id": "1DygFKc0zougrKC2Krte1frCqZJEf69mk",
+      "parent_id": "1O6zzxfDWKALdTkNhH-QPk1qMHP7IDecZ",
+      "name": "MẶT NẠ TỬ THẦN ĐỎ.pdf",
+      "mime": "application/pdf",
+      "size": 684564,
+      "modified": "2026-08-15T07:40:24.000Z",
+      "checksum": "71f57bc81cfdfcaebc43cbdf49713abc",
+      "folder": false
+    }
+  ]
+}

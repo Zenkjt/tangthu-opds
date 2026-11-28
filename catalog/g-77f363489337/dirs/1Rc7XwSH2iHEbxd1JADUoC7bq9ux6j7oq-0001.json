@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Rc7XwSH2iHEbxd1JADUoC7bq9ux6j7oq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Mh9ETa24g0_4BymBtJlwPyD4mNfrqsZk",
+      "parent_id": "1Rc7XwSH2iHEbxd1JADUoC7bq9ux6j7oq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 536,
+      "modified": "2026-08-15T10:59:30.000Z",
+      "checksum": "b8212ea3d36cb69b0a24767dd3f2113b",
+      "folder": false
+    },
+    {
+      "id": "1mVPkVlZyWMCxDxrbHdrOUFM1yuXU-cBK",
+      "parent_id": "1Rc7XwSH2iHEbxd1JADUoC7bq9ux6j7oq",
+      "name": "DIỄM CỐT.epub",
+      "mime": "application/epub+zip",
+      "size": 642825,
+      "modified": "2026-08-15T10:59:38.000Z",
+      "checksum": "a2214c0bf3831cce457574069f44c7e9",
+      "folder": false
+    },
+    {
+      "id": "10ephuHYrPEnIhV_22dDxk88vCxpvEgZr",
+      "parent_id": "1Rc7XwSH2iHEbxd1JADUoC7bq9ux6j7oq",
+      "name": "DIỄM CỐT.pdf",
+      "mime": "application/pdf",
+      "size": 1484633,
+      "modified": "2026-08-15T10:59:35.000Z",
+      "checksum": "5275779e9e4076b9cefb7d05503f9ef8",
+      "folder": false
+    }
+  ]
+}

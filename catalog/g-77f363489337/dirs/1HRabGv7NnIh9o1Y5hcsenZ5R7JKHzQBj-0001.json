@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HRabGv7NnIh9o1Y5hcsenZ5R7JKHzQBj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uGyEISyE16RFdB65d4S94phhqqpQ4EBn",
+      "parent_id": "1HRabGv7NnIh9o1Y5hcsenZ5R7JKHzQBj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6893,
+      "modified": "2026-08-15T10:47:32.000Z",
+      "checksum": "6de7bfea3205fe0be8346bfe4fe4d927",
+      "folder": false
+    },
+    {
+      "id": "13KFz_b7aP4P6E0noKkIRXrGoK__b_Rks",
+      "parent_id": "1HRabGv7NnIh9o1Y5hcsenZ5R7JKHzQBj",
+      "name": "NGẠI GÌ LÊN GIƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 2611258,
+      "modified": "2026-08-15T10:47:43.000Z",
+      "checksum": "8f424b5c7c6f7d219b0ee2e30d41e5d8",
+      "folder": false
+    },
+    {
+      "id": "1hw64KHEmqTVaCUyqWLfOvglW9koAwsKE",
+      "parent_id": "1HRabGv7NnIh9o1Y5hcsenZ5R7JKHzQBj",
+      "name": "NGẠI GÌ LÊN GIƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 2175554,
+      "modified": "2026-08-15T10:47:39.000Z",
+      "checksum": "fda53b2070366fb9a7573be74ca38541",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AfEDcTKrUxX0qdRmy-oK0olLaB-tUdKz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1s5x6fy_1dpulabBDx0wh2TVpEFw8Glc2",
+      "parent_id": "1AfEDcTKrUxX0qdRmy-oK0olLaB-tUdKz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2561,
+      "modified": "2026-08-15T03:39:18.000Z",
+      "checksum": "8cde35a6cc139786776d195df8943f9f",
+      "folder": false
+    },
+    {
+      "id": "1ILZbpJhm5BW3sV1zedxudxqXMGNP9ANJ",
+      "parent_id": "1AfEDcTKrUxX0qdRmy-oK0olLaB-tUdKz",
+      "name": "THỰC TẠI HIỆN TIỀN.epub",
+      "mime": "application/epub+zip",
+      "size": 653992,
+      "modified": "2026-08-15T03:39:25.000Z",
+      "checksum": "8efc4f2ef6df57b215d42db4c2ef5cd8",
+      "folder": false
+    },
+    {
+      "id": "181auwhXjyMj1EIzo3fesBfZIuEoDz1uS",
+      "parent_id": "1AfEDcTKrUxX0qdRmy-oK0olLaB-tUdKz",
+      "name": "THỰC TẠI HIỆN TIỀN.pdf",
+      "mime": "application/pdf",
+      "size": 999986,
+      "modified": "2026-08-15T03:39:22.000Z",
+      "checksum": "d328a494b40d72b39dda6e6040d43276",
+      "folder": false
+    }
+  ]
+}

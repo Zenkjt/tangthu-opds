@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AqHM8W0JlGokZiE-vL79semjrvWRM47M",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ihXmfTntL9HZ4byYGPTeGps69zWde966",
+      "parent_id": "1AqHM8W0JlGokZiE-vL79semjrvWRM47M",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12842,
+      "modified": "2026-08-15T05:48:29.000Z",
+      "checksum": "70cb90a2555b470d682c2385cd60a813",
+      "folder": false
+    },
+    {
+      "id": "1Jae3dKIjyaLJ9RMakNepZ-1tF6fqCFPW",
+      "parent_id": "1AqHM8W0JlGokZiE-vL79semjrvWRM47M",
+      "name": "QUÂN VƯƠNG - THUẬT TRỊ NƯỚC.epub",
+      "mime": "application/epub+zip",
+      "size": 447368,
+      "modified": "2026-08-15T05:48:36.000Z",
+      "checksum": "93f47021551b1950c4d8872f7ec8e1b5",
+      "folder": false
+    },
+    {
+      "id": "1K0Rf2hy5Z1Cx3d5q6j9O2hxpbKBPFxfQ",
+      "parent_id": "1AqHM8W0JlGokZiE-vL79semjrvWRM47M",
+      "name": "QUÂN VƯƠNG - THUẬT TRỊ NƯỚC.pdf",
+      "mime": "application/pdf",
+      "size": 669978,
+      "modified": "2026-08-15T05:48:33.000Z",
+      "checksum": "f7203753fb786e4e367564b92737a492",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Npn9xAfHPTteCMfmSlPZTDlISwnbz1PL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1J7dktvsh_C4pwJrFfDZ7MfNVfhUfcTUw",
+      "parent_id": "1Npn9xAfHPTteCMfmSlPZTDlISwnbz1PL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1848,
+      "modified": "2026-08-15T07:28:14.000Z",
+      "checksum": "fe4e388521fff9fdeab2a3705966d801",
+      "folder": false
+    },
+    {
+      "id": "19xp2p_pwgjX9VNolYxWT10XSdFiqDomd",
+      "parent_id": "1Npn9xAfHPTteCMfmSlPZTDlISwnbz1PL",
+      "name": "VÔ ĐỊCH HOÁN LINH.epub",
+      "mime": "application/epub+zip",
+      "size": 573237,
+      "modified": "2026-08-15T07:28:22.000Z",
+      "checksum": "80282e4bd486674ec5986b98e57a1839",
+      "folder": false
+    },
+    {
+      "id": "1p6A2WNt_nbgZWzSBoR4wJ8qcwnEhiwDf",
+      "parent_id": "1Npn9xAfHPTteCMfmSlPZTDlISwnbz1PL",
+      "name": "VÔ ĐỊCH HOÁN LINH.pdf",
+      "mime": "application/pdf",
+      "size": 1292830,
+      "modified": "2026-08-15T07:28:19.000Z",
+      "checksum": "48e086048467b466499faeb59496cad5",
+      "folder": false
+    }
+  ]
+}

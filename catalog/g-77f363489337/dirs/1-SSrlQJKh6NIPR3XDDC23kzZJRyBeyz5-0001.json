@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-SSrlQJKh6NIPR3XDDC23kzZJRyBeyz5",
+  "page": 1,
+  "items": [
+    {
+      "id": "16uoYAR_DBUDgakSETO8eDZyx7UNjkfjg",
+      "parent_id": "1-SSrlQJKh6NIPR3XDDC23kzZJRyBeyz5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3313,
+      "modified": "2026-08-15T10:47:09.000Z",
+      "checksum": "0295de5081e13be70ee397c59fec7dc3",
+      "folder": false
+    },
+    {
+      "id": "1qCO2rQgpaCaPa2z8KsnrXJO2c1FNFcJQ",
+      "parent_id": "1-SSrlQJKh6NIPR3XDDC23kzZJRyBeyz5",
+      "name": "NGÀY 210.epub",
+      "mime": "application/epub+zip",
+      "size": 342298,
+      "modified": "2026-08-15T10:47:17.000Z",
+      "checksum": "88effa5a09700292632886c97fed491e",
+      "folder": false
+    },
+    {
+      "id": "1p52JZyxjDMX_sH-QNX1g0DzRWUoLnlGZ",
+      "parent_id": "1-SSrlQJKh6NIPR3XDDC23kzZJRyBeyz5",
+      "name": "NGÀY 210.pdf",
+      "mime": "application/pdf",
+      "size": 585181,
+      "modified": "2026-08-15T10:47:14.000Z",
+      "checksum": "73bb6c3f65d1a3eccc2c8813f89bcbb2",
+      "folder": false
+    }
+  ]
+}

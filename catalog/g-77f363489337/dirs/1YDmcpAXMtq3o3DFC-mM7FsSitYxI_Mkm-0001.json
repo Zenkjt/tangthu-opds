@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YDmcpAXMtq3o3DFC-mM7FsSitYxI_Mkm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SKz-biuxRmxJrdL40hmiebsAZ71ol5fS",
+      "parent_id": "1YDmcpAXMtq3o3DFC-mM7FsSitYxI_Mkm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3002,
+      "modified": "2026-08-15T10:34:04.000Z",
+      "checksum": "743d35d157b1bf2b228bd16ea6382d2b",
+      "folder": false
+    },
+    {
+      "id": "1_1O5nKuMCbnBpcCbHgqqVc_-eBWEntUL",
+      "parent_id": "1YDmcpAXMtq3o3DFC-mM7FsSitYxI_Mkm",
+      "name": "ÔI ĐÀN ÔNG!.epub",
+      "mime": "application/epub+zip",
+      "size": 549202,
+      "modified": "2026-08-15T10:34:19.000Z",
+      "checksum": "b17ab605216518af522c11d3e71bc79c",
+      "folder": false
+    },
+    {
+      "id": "1uchPL4a-4TmSjjn5prchtMQJmPGhGL_z",
+      "parent_id": "1YDmcpAXMtq3o3DFC-mM7FsSitYxI_Mkm",
+      "name": "ÔI ĐÀN ÔNG!.pdf",
+      "mime": "application/pdf",
+      "size": 998015,
+      "modified": "2026-08-15T10:34:14.000Z",
+      "checksum": "bf04fc019176e33a25e7f44855d72d0d",
+      "folder": false
+    }
+  ]
+}

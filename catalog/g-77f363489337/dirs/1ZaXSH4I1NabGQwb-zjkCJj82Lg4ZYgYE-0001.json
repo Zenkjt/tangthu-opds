@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZaXSH4I1NabGQwb-zjkCJj82Lg4ZYgYE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1idsDwXog5vqTxeSAolfI46yK8dr4j_eV",
+      "parent_id": "1ZaXSH4I1NabGQwb-zjkCJj82Lg4ZYgYE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 572,
+      "modified": "2026-08-15T10:22:39.000Z",
+      "checksum": "69ab090f24cd8c86670bbfaa3ad02f65",
+      "folder": false
+    },
+    {
+      "id": "1LfmjMbjBHu18RzEc_UtyLUfnOzV4h66j",
+      "parent_id": "1ZaXSH4I1NabGQwb-zjkCJj82Lg4ZYgYE",
+      "name": "TÀN ĐEN ĐỐM ĐỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 441405,
+      "modified": "2026-08-15T10:22:49.000Z",
+      "checksum": "dfdc8c06910681a8c841136ff66e4d9a",
+      "folder": false
+    },
+    {
+      "id": "1VDQOInoITLIBattcO9sqWQS7T9LnWyFB",
+      "parent_id": "1ZaXSH4I1NabGQwb-zjkCJj82Lg4ZYgYE",
+      "name": "TÀN ĐEN ĐỐM ĐỎ.pdf",
+      "mime": "application/pdf",
+      "size": 770100,
+      "modified": "2026-08-15T10:22:43.000Z",
+      "checksum": "ea252d6630211421fcfc1cd199d4cf51",
+      "folder": false
+    }
+  ]
+}

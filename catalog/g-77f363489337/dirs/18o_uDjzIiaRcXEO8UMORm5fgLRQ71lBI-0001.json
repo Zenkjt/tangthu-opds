@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "18o_uDjzIiaRcXEO8UMORm5fgLRQ71lBI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Nc7b5WHhMpEIqQnY_MVDP4vrCYP8Fy86",
+      "parent_id": "18o_uDjzIiaRcXEO8UMORm5fgLRQ71lBI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3059,
+      "modified": "2026-08-16T03:57:44.000Z",
+      "checksum": "5d0067111a7353f9b495e8474dc97ebb",
+      "folder": false
+    },
+    {
+      "id": "1wEdukfQwdkwTPLY3C9H5m2XbLjIWX3Nh",
+      "parent_id": "18o_uDjzIiaRcXEO8UMORm5fgLRQ71lBI",
+      "name": "THIÊN Ý.epub",
+      "mime": "application/epub+zip",
+      "size": 1244339,
+      "modified": "2026-08-16T03:57:57.000Z",
+      "checksum": "37d4fb133d91b807fa3ed8d421d0c4ce",
+      "folder": false
+    },
+    {
+      "id": "1cvt_FTjhzEFCD6I8vTK34cpAqAAWTZwB",
+      "parent_id": "18o_uDjzIiaRcXEO8UMORm5fgLRQ71lBI",
+      "name": "THIÊN Ý.pdf",
+      "mime": "application/pdf",
+      "size": 4935810,
+      "modified": "2026-08-16T03:57:53.000Z",
+      "checksum": "ad9b6c3b90e61e101a0ad26267690782",
+      "folder": false
+    }
+  ]
+}

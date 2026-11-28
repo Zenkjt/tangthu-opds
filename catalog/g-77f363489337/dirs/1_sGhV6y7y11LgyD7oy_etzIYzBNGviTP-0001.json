@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_sGhV6y7y11LgyD7oy_etzIYzBNGviTP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NTAssEW9AIHPCk8mCjEUgPE2dV3tMx_W",
+      "parent_id": "1_sGhV6y7y11LgyD7oy_etzIYzBNGviTP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 534,
+      "modified": "2026-08-16T03:52:05.000Z",
+      "checksum": "8808e1d2865d1e8adee0bc5e87c50828",
+      "folder": false
+    },
+    {
+      "id": "1yy_aBR1GYPXQq8mYrtivFFgQ-zD8cNzB",
+      "parent_id": "1_sGhV6y7y11LgyD7oy_etzIYzBNGviTP",
+      "name": "VẠT NẮNG SAU HÈ.epub",
+      "mime": "application/epub+zip",
+      "size": 372736,
+      "modified": "2026-08-16T03:52:11.000Z",
+      "checksum": "d208a2e866336cd44dd144d6cae25947",
+      "folder": false
+    },
+    {
+      "id": "1Ww6Ko4Jp4Zcl_VJfd8rOrNbfcf3jW5c0",
+      "parent_id": "1_sGhV6y7y11LgyD7oy_etzIYzBNGviTP",
+      "name": "VẠT NẮNG SAU HÈ.pdf",
+      "mime": "application/pdf",
+      "size": 514946,
+      "modified": "2026-08-16T03:52:09.000Z",
+      "checksum": "c5e4a3403a5d9a151532fbaa58d916b5",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ws4zFcygeSx-FV9dgY503WCScZwHAsbu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FqdZRstBLHp1tzK-glRygaflkakb-Jm0",
+      "parent_id": "1ws4zFcygeSx-FV9dgY503WCScZwHAsbu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2906,
+      "modified": "2026-08-16T03:59:23.000Z",
+      "checksum": "dfc74c9e079baa5900c02d4420501cdc",
+      "folder": false
+    },
+    {
+      "id": "1rq2aCvFM73Eji7u4qI59_WqOXhg2YoV8",
+      "parent_id": "1ws4zFcygeSx-FV9dgY503WCScZwHAsbu",
+      "name": "THANH MAI.epub",
+      "mime": "application/epub+zip",
+      "size": 688378,
+      "modified": "2026-08-16T03:59:29.000Z",
+      "checksum": "06b438db044e8f5878e60e7f7cacb21d",
+      "folder": false
+    },
+    {
+      "id": "1nEy1a3vKdEDx2Sx0SAdEp3qblrK5d36n",
+      "parent_id": "1ws4zFcygeSx-FV9dgY503WCScZwHAsbu",
+      "name": "THANH MAI.pdf",
+      "mime": "application/pdf",
+      "size": 519156,
+      "modified": "2026-08-16T03:59:26.000Z",
+      "checksum": "77e331b225b9905f2b1660a29fadeaa9",
+      "folder": false
+    }
+  ]
+}

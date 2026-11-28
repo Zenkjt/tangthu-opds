@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jIir96Ys0luI6bYZMl5I35a7cXtDDKse",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tVwIYmg9RMQ0U7vZNRK-S58ulGc8v8CT",
+      "parent_id": "1jIir96Ys0luI6bYZMl5I35a7cXtDDKse",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2634,
+      "modified": "2026-08-16T03:23:32.000Z",
+      "checksum": "f3735ad3408b25a9ced4089aca94a1bd",
+      "folder": false
+    },
+    {
+      "id": "1hj12Miu544DdPgGNls9mDkpzLh_ggcwn",
+      "parent_id": "1jIir96Ys0luI6bYZMl5I35a7cXtDDKse",
+      "name": "ĐẰNG SAU LỚP MẶT NẠ.epub",
+      "mime": "application/epub+zip",
+      "size": 264801,
+      "modified": "2026-08-16T03:23:39.000Z",
+      "checksum": "2ae489fb9e0d68925173f48fb988a751",
+      "folder": false
+    },
+    {
+      "id": "1dgnA0WWEiMCUlOAs4IeWAiGCkfvLysGW",
+      "parent_id": "1jIir96Ys0luI6bYZMl5I35a7cXtDDKse",
+      "name": "ĐẰNG SAU LỚP MẶT NẠ.pdf",
+      "mime": "application/pdf",
+      "size": 341708,
+      "modified": "2026-08-16T03:23:37.000Z",
+      "checksum": "8f4daf36b37308fdf6faa362a8217916",
+      "folder": false
+    }
+  ]
+}

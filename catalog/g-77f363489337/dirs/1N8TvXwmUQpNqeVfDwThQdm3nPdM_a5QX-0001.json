@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1N8TvXwmUQpNqeVfDwThQdm3nPdM_a5QX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qeFXN4ro_qY6rZWoSZR3KOWO4Ev597GS",
+      "parent_id": "1N8TvXwmUQpNqeVfDwThQdm3nPdM_a5QX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2130,
+      "modified": "2026-08-16T03:11:23.000Z",
+      "checksum": "302d790884727bbee14d46647c9054be",
+      "folder": false
+    },
+    {
+      "id": "1QXQN2eRx18HsxjUh12WM7nfG10CdfdCE",
+      "parent_id": "1N8TvXwmUQpNqeVfDwThQdm3nPdM_a5QX",
+      "name": "NỤ HÔN CÙNG CƯỚP BIỂN.epub",
+      "mime": "application/epub+zip",
+      "size": 534604,
+      "modified": "2026-08-16T03:11:28.000Z",
+      "checksum": "a1a800e0592b9e4e78880bba35a0e02b",
+      "folder": false
+    },
+    {
+      "id": "1IDCd04uw90XSIhPHPs3IpcvHmvOvgQrm",
+      "parent_id": "1N8TvXwmUQpNqeVfDwThQdm3nPdM_a5QX",
+      "name": "NỤ HÔN CÙNG CƯỚP BIỂN.pdf",
+      "mime": "application/pdf",
+      "size": 138806,
+      "modified": "2026-08-16T03:11:26.000Z",
+      "checksum": "5610b4986220e87dd8ae8afd8c49ad12",
+      "folder": false
+    }
+  ]
+}

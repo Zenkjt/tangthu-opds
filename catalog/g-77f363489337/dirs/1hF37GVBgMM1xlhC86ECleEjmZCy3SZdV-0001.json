@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hF37GVBgMM1xlhC86ECleEjmZCy3SZdV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VrKNLXy0HltfJdZ-gM-P8ys6TtxhD8Z-",
+      "parent_id": "1hF37GVBgMM1xlhC86ECleEjmZCy3SZdV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2757,
+      "modified": "2026-08-15T15:33:58.000Z",
+      "checksum": "a9807e3f17baec838c55f33dd37f8302",
+      "folder": false
+    },
+    {
+      "id": "1WXE7tBpDnfLLuUbe17bhalYIJNDcw-cT",
+      "parent_id": "1hF37GVBgMM1xlhC86ECleEjmZCy3SZdV",
+      "name": "XỬ ÁN TRONG TU VIỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 721791,
+      "modified": "2026-08-15T15:34:04.000Z",
+      "checksum": "18596b789e5ed709fd7e08bd0f392fc8",
+      "folder": false
+    },
+    {
+      "id": "1KhHZZuDQ-sCVjJxz1hKBAaWQSbImvwsC",
+      "parent_id": "1hF37GVBgMM1xlhC86ECleEjmZCy3SZdV",
+      "name": "XỬ ÁN TRONG TU VIỆN.pdf",
+      "mime": "application/pdf",
+      "size": 723255,
+      "modified": "2026-08-15T15:34:02.000Z",
+      "checksum": "83cc4303a9a72b1ba48dd29d6eeb7e51",
+      "folder": false
+    }
+  ]
+}

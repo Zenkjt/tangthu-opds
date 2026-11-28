@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CjxJlSV8lSMC_bAS2cctrZCCk_icuKDx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gXJ-q3j5iWs8c6Lz3-5Ct8jn6P08l_RO",
+      "parent_id": "1CjxJlSV8lSMC_bAS2cctrZCCk_icuKDx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 25982,
+      "modified": "2026-08-16T03:05:52.000Z",
+      "checksum": "aa824b96982bb69f7920d81fdfc4e425",
+      "folder": false
+    },
+    {
+      "id": "1ANed9cTnVEUesAW8_j2tj5RXyLv_jcZ7",
+      "parent_id": "1CjxJlSV8lSMC_bAS2cctrZCCk_icuKDx",
+      "name": "VIÊN TƯỚNG CỦA NHÀ VUA.epub",
+      "mime": "application/epub+zip",
+      "size": 1630148,
+      "modified": "2026-08-16T03:05:59.000Z",
+      "checksum": "1aed5fac7dbae3ba713adff1255abfd8",
+      "folder": false
+    },
+    {
+      "id": "1mq4acJjSuZ_CrtBuz9UgzaaV5-CT0_M1",
+      "parent_id": "1CjxJlSV8lSMC_bAS2cctrZCCk_icuKDx",
+      "name": "VIÊN TƯỚNG CỦA NHÀ VUA.pdf",
+      "mime": "application/pdf",
+      "size": 1071760,
+      "modified": "2026-08-16T03:05:57.000Z",
+      "checksum": "885d243e8eb67b6a8804131ed50dc7c7",
+      "folder": false
+    }
+  ]
+}

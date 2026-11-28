@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BctT1SDX4DHmrJC53zH6bpvteP7WuKOf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uLP7Jjljz4qa15KglhbqKEuLgLYNQN7L",
+      "parent_id": "1BctT1SDX4DHmrJC53zH6bpvteP7WuKOf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 762,
+      "modified": "2026-08-15T10:57:33.000Z",
+      "checksum": "d813624cb52d2101c71d7f1a33e940a6",
+      "folder": false
+    },
+    {
+      "id": "1FtSZMBDWK6eZGVHnNo-On9ZFDjcIiyjw",
+      "parent_id": "1BctT1SDX4DHmrJC53zH6bpvteP7WuKOf",
+      "name": "DỨT TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 758267,
+      "modified": "2026-08-15T10:57:51.000Z",
+      "checksum": "74163c70451619583e1066ee85bac58f",
+      "folder": false
+    },
+    {
+      "id": "1RqgZaEAOkc7ABZOGn_vPXLJKNGFl9Q4i",
+      "parent_id": "1BctT1SDX4DHmrJC53zH6bpvteP7WuKOf",
+      "name": "DỨT TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 716960,
+      "modified": "2026-08-15T10:57:38.000Z",
+      "checksum": "3f0437fd0c6ccbe015174ca39ba3fd5a",
+      "folder": false
+    }
+  ]
+}

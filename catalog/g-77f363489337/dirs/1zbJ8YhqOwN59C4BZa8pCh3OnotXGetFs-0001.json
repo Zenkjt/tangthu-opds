@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zbJ8YhqOwN59C4BZa8pCh3OnotXGetFs",
+  "page": 1,
+  "items": [
+    {
+      "id": "10yCONyMMyJsh-P-j9ZyZcePDLSuYxQLC",
+      "parent_id": "1zbJ8YhqOwN59C4BZa8pCh3OnotXGetFs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3499,
+      "modified": "2026-08-16T03:59:38.000Z",
+      "checksum": "d450271657c78f9720217b434441f4b2",
+      "folder": false
+    },
+    {
+      "id": "16M9cWoynWsEp_886qx11hlyKMHznl0Kd",
+      "parent_id": "1zbJ8YhqOwN59C4BZa8pCh3OnotXGetFs",
+      "name": "THÁNG NGÀY ƯỚC HẸN.epub",
+      "mime": "application/epub+zip",
+      "size": 666030,
+      "modified": "2026-08-16T03:59:46.000Z",
+      "checksum": "f1a4d6b86689759cfde2b53fc90acfa1",
+      "folder": false
+    },
+    {
+      "id": "1ymEClB1s3Y3Vt2FiGlF-YGLV3kO5yJPh",
+      "parent_id": "1zbJ8YhqOwN59C4BZa8pCh3OnotXGetFs",
+      "name": "THÁNG NGÀY ƯỚC HẸN.pdf",
+      "mime": "application/pdf",
+      "size": 1872023,
+      "modified": "2026-08-16T03:59:44.000Z",
+      "checksum": "06d031b8d942a1abe647da3683a492f8",
+      "folder": false
+    }
+  ]
+}

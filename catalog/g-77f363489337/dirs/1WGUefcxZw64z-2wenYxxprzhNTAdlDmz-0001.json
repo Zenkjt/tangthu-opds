@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WGUefcxZw64z-2wenYxxprzhNTAdlDmz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZonWJtUbJWdY158Zpk8H9S2GveusDmJi",
+      "parent_id": "1WGUefcxZw64z-2wenYxxprzhNTAdlDmz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4237,
+      "modified": "2026-08-15T05:45:49.000Z",
+      "checksum": "26a2928019de5ecded007576544c06e0",
+      "folder": false
+    },
+    {
+      "id": "12D5kEc0ndvGEhVueDkRlCS3vLntwQFFc",
+      "parent_id": "1WGUefcxZw64z-2wenYxxprzhNTAdlDmz",
+      "name": "TRIẾT HỌC KANT.epub",
+      "mime": "application/epub+zip",
+      "size": 749120,
+      "modified": "2026-08-15T05:45:58.000Z",
+      "checksum": "3d0869fda540a4712d74e52c6953e9ac",
+      "folder": false
+    },
+    {
+      "id": "1uIVto_2Slwk6kglaj14NZlOXECmBMm_o",
+      "parent_id": "1WGUefcxZw64z-2wenYxxprzhNTAdlDmz",
+      "name": "TRIẾT HỌC KANT.pdf",
+      "mime": "application/pdf",
+      "size": 2576790,
+      "modified": "2026-08-15T05:45:55.000Z",
+      "checksum": "0b7a8579469e425b8bc5cd7aada9fc53",
+      "folder": false
+    }
+  ]
+}

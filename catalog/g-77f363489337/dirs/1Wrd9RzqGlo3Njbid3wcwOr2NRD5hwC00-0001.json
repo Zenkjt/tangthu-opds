@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Wrd9RzqGlo3Njbid3wcwOr2NRD5hwC00",
+  "page": 1,
+  "items": [
+    {
+      "id": "1E84qMUxP-WR_Mgmjj8uYb8_D6oi91Z0P",
+      "parent_id": "1Wrd9RzqGlo3Njbid3wcwOr2NRD5hwC00",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1884,
+      "modified": "2026-08-15T07:56:44.000Z",
+      "checksum": "8ba5bafa4fae39acbad9c296a6cb2dfc",
+      "folder": false
+    },
+    {
+      "id": "1lRdEhAm27Denkc0ivL4ok6lrvS6sPFwZ",
+      "parent_id": "1Wrd9RzqGlo3Njbid3wcwOr2NRD5hwC00",
+      "name": "ĐẠI ĐƯỜNG TỬU ĐỒ.epub",
+      "mime": "application/epub+zip",
+      "size": 11339444,
+      "modified": "2026-08-15T07:58:59.000Z",
+      "checksum": "f22e725f665ddc935ec44f60d0d49d63",
+      "folder": false
+    },
+    {
+      "id": "16cCMfDMF-8Bb-0qNgSyWvUgHnkTsFy5y",
+      "parent_id": "1Wrd9RzqGlo3Njbid3wcwOr2NRD5hwC00",
+      "name": "ĐẠI ĐƯỜNG TỬU ĐỒ.pdf",
+      "mime": "application/pdf",
+      "size": 9627343,
+      "modified": "2026-08-15T07:58:46.000Z",
+      "checksum": "7e43da25fa19f325fac860610c40904a",
+      "folder": false
+    }
+  ]
+}

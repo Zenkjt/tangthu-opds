@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1t5zZ9BOXqYwkZQCZO2poidWRMX8uZ-pQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_qys7wU3CptmxK-2tV4MDj3jrpwfKems",
+      "parent_id": "1t5zZ9BOXqYwkZQCZO2poidWRMX8uZ-pQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8179,
+      "modified": "2026-08-15T07:33:22.000Z",
+      "checksum": "8c78f92f4e554a12ecfba6f62e4e2631",
+      "folder": false
+    },
+    {
+      "id": "1HvyI0hJ_vlyi1e-QExzet2Qxl_ga6x9U",
+      "parent_id": "1t5zZ9BOXqYwkZQCZO2poidWRMX8uZ-pQ",
+      "name": "MŨI TÊN ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 451716,
+      "modified": "2026-08-15T07:33:30.000Z",
+      "checksum": "a8a80b71cb05321d5afcf5b26de04303",
+      "folder": false
+    },
+    {
+      "id": "1K6bA7Dw-arhaTl79bNM7xxLPZU_nDVxu",
+      "parent_id": "1t5zZ9BOXqYwkZQCZO2poidWRMX8uZ-pQ",
+      "name": "MŨI TÊN ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 957339,
+      "modified": "2026-08-15T07:33:27.000Z",
+      "checksum": "a2ba85e00c2cb0efba7abb39d0c060be",
+      "folder": false
+    }
+  ]
+}

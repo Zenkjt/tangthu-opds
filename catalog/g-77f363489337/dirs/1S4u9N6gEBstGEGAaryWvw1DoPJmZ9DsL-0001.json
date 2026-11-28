@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1S4u9N6gEBstGEGAaryWvw1DoPJmZ9DsL",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FVC0FuIa8ZYNCBec0S10JHKt-NO88Zsg",
+      "parent_id": "1S4u9N6gEBstGEGAaryWvw1DoPJmZ9DsL",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 443,
+      "modified": "2026-08-15T10:38:20.000Z",
+      "checksum": "a502347059ce0d52f450ef3af54879f6",
+      "folder": false
+    },
+    {
+      "id": "1uiA5ZHWSpBseI2SBv8OWHymdQrBx5IvG",
+      "parent_id": "1S4u9N6gEBstGEGAaryWvw1DoPJmZ9DsL",
+      "name": "NHƯ MÙA ĐÔNG RƠI XUỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 418555,
+      "modified": "2026-08-15T10:38:26.000Z",
+      "checksum": "775448dc81d41f24f21d4b5642c53df6",
+      "folder": false
+    },
+    {
+      "id": "1MQf3W8AXCQmRGbhr5sv9DE3h7UmmSqxX",
+      "parent_id": "1S4u9N6gEBstGEGAaryWvw1DoPJmZ9DsL",
+      "name": "NHƯ MÙA ĐÔNG RƠI XUỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 679261,
+      "modified": "2026-08-15T10:38:23.000Z",
+      "checksum": "b046c8b2fe9d6f95d8a396b1e751ce9e",
+      "folder": false
+    }
+  ]
+}

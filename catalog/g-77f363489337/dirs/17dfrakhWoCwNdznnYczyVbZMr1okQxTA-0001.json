@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17dfrakhWoCwNdznnYczyVbZMr1okQxTA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rncey7fRMUIOamHJCpsl8LbqajFPsPf4",
+      "parent_id": "17dfrakhWoCwNdznnYczyVbZMr1okQxTA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5183,
+      "modified": "2026-08-16T03:40:26.000Z",
+      "checksum": "300c965640f2b1510ca5474879802ba9",
+      "folder": false
+    },
+    {
+      "id": "1zHdeyiibgKjD3XY7x0J8zPc5VbxJ5sNu",
+      "parent_id": "17dfrakhWoCwNdznnYczyVbZMr1okQxTA",
+      "name": "NĂM VỊ TỔ SƯ TẬP 2 RẮN.epub",
+      "mime": "application/epub+zip",
+      "size": 597399,
+      "modified": "2026-08-16T03:40:32.000Z",
+      "checksum": "df7bde4ee83c96c012f28d0a4d401895",
+      "folder": false
+    },
+    {
+      "id": "1cG78ENhQHeOb6nbwJD_KvbvLL8Xkr0J0",
+      "parent_id": "17dfrakhWoCwNdznnYczyVbZMr1okQxTA",
+      "name": "NĂM VỊ TỔ SƯ TẬP 2 RẮN.pdf",
+      "mime": "application/pdf",
+      "size": 728555,
+      "modified": "2026-08-16T03:40:30.000Z",
+      "checksum": "71d8abc10d7b02e723e2d677041d8a03",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1R9kjLz4ac82eKIpt1HasOR03FhooPpZN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LL1pqTc6u31w59yMQp4XKY_tTPrnUD36",
+      "parent_id": "1R9kjLz4ac82eKIpt1HasOR03FhooPpZN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3245,
+      "modified": "2026-08-16T04:05:03.000Z",
+      "checksum": "6789b1bd189c27e180baeed2c8fbfbd8",
+      "folder": false
+    },
+    {
+      "id": "1P-RGpq4L2tx3cN2CSE9TJOechpzdyvUt",
+      "parent_id": "1R9kjLz4ac82eKIpt1HasOR03FhooPpZN",
+      "name": "QUÝ NGÀI TÀI NĂNG.epub",
+      "mime": "application/epub+zip",
+      "size": 754142,
+      "modified": "2026-08-16T04:05:10.000Z",
+      "checksum": "2f52b79e38504597105902d26a9f5435",
+      "folder": false
+    },
+    {
+      "id": "1r2TNmcVnk5PocXmK5BjFl0xiN8qNK1df",
+      "parent_id": "1R9kjLz4ac82eKIpt1HasOR03FhooPpZN",
+      "name": "QUÝ NGÀI TÀI NĂNG.pdf",
+      "mime": "application/pdf",
+      "size": 1323621,
+      "modified": "2026-08-16T04:05:08.000Z",
+      "checksum": "a7ceb7da3727df36ad6cee4e856568cd",
+      "folder": false
+    }
+  ]
+}

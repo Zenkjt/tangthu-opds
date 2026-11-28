@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_5S9oca4coeyycfBLa0ucEy_loD504LT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QJ42ecWfS6Gixxf_vfRxWVktR2pY2cKX",
+      "parent_id": "1_5S9oca4coeyycfBLa0ucEy_loD504LT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 15380,
+      "modified": "2026-08-15T15:16:53.000Z",
+      "checksum": "9a3a5fb4de6f8c22f63e8f040261f35e",
+      "folder": false
+    },
+    {
+      "id": "1HgPc67Gxw5iy6Ze1AbVZhMvN5GzKckE0",
+      "parent_id": "1_5S9oca4coeyycfBLa0ucEy_loD504LT",
+      "name": "MAFIA - TÊN GỌI ĐẦY BÍ ẨN.epub",
+      "mime": "application/epub+zip",
+      "size": 956471,
+      "modified": "2026-08-15T15:17:03.000Z",
+      "checksum": "ff8c9757195b7f8466cafea45304b19c",
+      "folder": false
+    },
+    {
+      "id": "1V1JjJX9lmlFa4uMJqSHStj2FqFU-7xoL",
+      "parent_id": "1_5S9oca4coeyycfBLa0ucEy_loD504LT",
+      "name": "MAFIA - TÊN GỌI ĐẦY BÍ ẨN.pdf",
+      "mime": "application/pdf",
+      "size": 2056090,
+      "modified": "2026-08-15T15:17:00.000Z",
+      "checksum": "20d91c82f854c379e0adbb14653e914b",
+      "folder": false
+    }
+  ]
+}

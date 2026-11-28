@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1opot-AcuvoLpnm1C8bWtvS-npRIqPF-j",
+  "page": 1,
+  "items": [
+    {
+      "id": "15TMZHvUwsIBeihbs2zAJFQ_0P75XOxy5",
+      "parent_id": "1opot-AcuvoLpnm1C8bWtvS-npRIqPF-j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3682,
+      "modified": "2026-08-15T08:16:44.000Z",
+      "checksum": "0639f4869f87d76371f438ebe5cb7b31",
+      "folder": false
+    },
+    {
+      "id": "1XOP3bmtDilujbEx5u4GWeXqe_A1Qe0w7",
+      "parent_id": "1opot-AcuvoLpnm1C8bWtvS-npRIqPF-j",
+      "name": "ĐẠI TIỂU THƯ.epub",
+      "mime": "application/epub+zip",
+      "size": 769414,
+      "modified": "2026-08-15T08:16:53.000Z",
+      "checksum": "81c7a4e265af40b1cc1e07a03c9ac336",
+      "folder": false
+    },
+    {
+      "id": "1rZtAYB36847CpybeHgvkjkstvUirf7gB",
+      "parent_id": "1opot-AcuvoLpnm1C8bWtvS-npRIqPF-j",
+      "name": "ĐẠI TIỂU THƯ.pdf",
+      "mime": "application/pdf",
+      "size": 2053606,
+      "modified": "2026-08-15T08:16:50.000Z",
+      "checksum": "9419d4438b8b6ed3d0c31492326fb71f",
+      "folder": false
+    }
+  ]
+}

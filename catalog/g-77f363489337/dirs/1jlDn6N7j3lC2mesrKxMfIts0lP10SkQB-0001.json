@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jlDn6N7j3lC2mesrKxMfIts0lP10SkQB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1QCsnkAUVsRUfiLK20dc4KZdOSAGuDC80",
+      "parent_id": "1jlDn6N7j3lC2mesrKxMfIts0lP10SkQB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1276,
+      "modified": "2026-08-15T07:28:36.000Z",
+      "checksum": "604d42e2d5e577019e56b9fa770f0d07",
+      "folder": false
+    },
+    {
+      "id": "1KJp577v3EKFmuSUSe3CreXprdSagGC-Z",
+      "parent_id": "1jlDn6N7j3lC2mesrKxMfIts0lP10SkQB",
+      "name": "VĨNH HẰNG CHI TÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 938061,
+      "modified": "2026-08-15T07:28:49.000Z",
+      "checksum": "bd15d4b73725e8c97f3e0b63f91b0aeb",
+      "folder": false
+    },
+    {
+      "id": "1UGbwO2ln5-lwTG0rP7zdpRV2QLJVqlcJ",
+      "parent_id": "1jlDn6N7j3lC2mesrKxMfIts0lP10SkQB",
+      "name": "VĨNH HẰNG CHI TÂM.pdf",
+      "mime": "application/pdf",
+      "size": 3965499,
+      "modified": "2026-08-15T07:28:45.000Z",
+      "checksum": "ed3e2ce527d6b87191792567e0a4d91e",
+      "folder": false
+    }
+  ]
+}

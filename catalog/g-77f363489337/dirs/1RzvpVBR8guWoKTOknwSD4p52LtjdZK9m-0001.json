@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RzvpVBR8guWoKTOknwSD4p52LtjdZK9m",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hnmiLU9txhLov-gpQlChxY1agCxhwT-g",
+      "parent_id": "1RzvpVBR8guWoKTOknwSD4p52LtjdZK9m",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10684,
+      "modified": "2026-08-15T15:16:01.000Z",
+      "checksum": "a2b61343362a042f7192ee100319f352",
+      "folder": false
+    },
+    {
+      "id": "1nYfsWMAgMlHpfVMgf-t2-hzNG25xCfte",
+      "parent_id": "1RzvpVBR8guWoKTOknwSD4p52LtjdZK9m",
+      "name": "NGÔI LÀNG CỔ MỘ.epub",
+      "mime": "application/epub+zip",
+      "size": 1224208,
+      "modified": "2026-08-15T15:16:09.000Z",
+      "checksum": "b6ddcc522bd90de85bf0e61d7e1b5f77",
+      "folder": false
+    },
+    {
+      "id": "1TOfa_EnSjbaNnLsuuREqPW372aoo47s2",
+      "parent_id": "1RzvpVBR8guWoKTOknwSD4p52LtjdZK9m",
+      "name": "NGÔI LÀNG CỔ MỘ.pdf",
+      "mime": "application/pdf",
+      "size": 1502174,
+      "modified": "2026-08-15T15:16:06.000Z",
+      "checksum": "ec02d91a8d2428c2dcbf0aecd6e175d8",
+      "folder": false
+    }
+  ]
+}

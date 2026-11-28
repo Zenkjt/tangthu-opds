@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1O45gIFBsFO2TjdqPeUFNTFklwcWmZeBk",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Orb32vX-O1QwDPc2MhEFyH4Fcqp1ukNF",
+      "parent_id": "1O45gIFBsFO2TjdqPeUFNTFklwcWmZeBk",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6918,
+      "modified": "2026-08-15T03:57:42.000Z",
+      "checksum": "a17f724c75f6ec27edde2b008360ca7d",
+      "folder": false
+    },
+    {
+      "id": "1GuotGAOPjToWPljC6M4nW-zS81cNlhyN",
+      "parent_id": "1O45gIFBsFO2TjdqPeUFNTFklwcWmZeBk",
+      "name": "NHỮNG ĐIỀU PHẬT ĐÃ DẠY.epub",
+      "mime": "application/epub+zip",
+      "size": 316932,
+      "modified": "2026-08-15T03:57:48.000Z",
+      "checksum": "99f502367c6bde045b9cbeb7c137cef0",
+      "folder": false
+    },
+    {
+      "id": "1fzqGRXpWkWenrWPrqKL-4-FV_d7O3gB2",
+      "parent_id": "1O45gIFBsFO2TjdqPeUFNTFklwcWmZeBk",
+      "name": "NHỮNG ĐIỀU PHẬT ĐÃ DẠY.pdf",
+      "mime": "application/pdf",
+      "size": 1034714,
+      "modified": "2026-08-15T03:57:45.000Z",
+      "checksum": "b474583f2d7b1028022da0219c6ce933",
+      "folder": false
+    }
+  ]
+}

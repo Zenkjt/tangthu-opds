@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1pNqNMguRDVjOZoPAhKSllB0iUHR01i_T",
+  "page": 1,
+  "items": [
+    {
+      "id": "1y5DPjoJu2oTd8ZDnHJJuYEZNpJpvVp3W",
+      "parent_id": "1pNqNMguRDVjOZoPAhKSllB0iUHR01i_T",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1606,
+      "modified": "2026-08-15T07:00:43.000Z",
+      "checksum": "788e8ed172df74a71ac08372d0cdcae1",
+      "folder": false
+    },
+    {
+      "id": "1SOBR-wNDTn_I327qxSKvLG9fVymJfOcS",
+      "parent_id": "1pNqNMguRDVjOZoPAhKSllB0iUHR01i_T",
+      "name": "VÌ NGHĨA VÌ TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 430274,
+      "modified": "2026-08-15T07:01:01.000Z",
+      "checksum": "4e86163c5d5cf83b54face88f749fa4e",
+      "folder": false
+    },
+    {
+      "id": "1fKBcEVjEXseUtIqAOmjnLTni6FjRVqrC",
+      "parent_id": "1pNqNMguRDVjOZoPAhKSllB0iUHR01i_T",
+      "name": "VÌ NGHĨA VÌ TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 800170,
+      "modified": "2026-08-15T07:00:54.000Z",
+      "checksum": "565a7e41bbf75330045bc991493291d8",
+      "folder": false
+    }
+  ]
+}

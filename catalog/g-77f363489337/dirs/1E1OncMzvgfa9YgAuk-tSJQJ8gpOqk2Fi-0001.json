@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1E1OncMzvgfa9YgAuk-tSJQJ8gpOqk2Fi",
+  "page": 1,
+  "items": [
+    {
+      "id": "17tZdGy7Ns5dDgPi2tyPbucDlNK7Txkda",
+      "parent_id": "1E1OncMzvgfa9YgAuk-tSJQJ8gpOqk2Fi",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3623,
+      "modified": "2026-08-15T10:37:10.000Z",
+      "checksum": "ac9e0ebefb592b1f39d5d0f4a568bc2a",
+      "folder": false
+    },
+    {
+      "id": "1OUMRgTZITQjyU6RO3KiPSut13U8kpZi1",
+      "parent_id": "1E1OncMzvgfa9YgAuk-tSJQJ8gpOqk2Fi",
+      "name": "NHỮNG KHOẢNG TRỐNG KHÔNG NHAU.epub",
+      "mime": "application/epub+zip",
+      "size": 636673,
+      "modified": "2026-08-15T10:37:16.000Z",
+      "checksum": "5a9622cc41959ddca43ae9ee46398f2d",
+      "folder": false
+    },
+    {
+      "id": "1sQZBwV2w1q9oK4CmR1hqECVJnVWgTBA6",
+      "parent_id": "1E1OncMzvgfa9YgAuk-tSJQJ8gpOqk2Fi",
+      "name": "NHỮNG KHOẢNG TRỐNG KHÔNG NHAU.pdf",
+      "mime": "application/pdf",
+      "size": 860103,
+      "modified": "2026-08-15T10:37:14.000Z",
+      "checksum": "b0dc16c4d1e305e98c7060ee47ddb4b0",
+      "folder": false
+    }
+  ]
+}

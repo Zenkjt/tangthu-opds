@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1l0fPOCK67-jBA97vO_M21KqXtCw1xxO1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1RnwiGpohNuCDa4PAQZ9kT8xLums-DfmB",
+      "parent_id": "1l0fPOCK67-jBA97vO_M21KqXtCw1xxO1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1379,
+      "modified": "2026-08-16T03:40:49.000Z",
+      "checksum": "9e7883325ede1cde3ea0b3a7f9349c4b",
+      "folder": false
+    },
+    {
+      "id": "1QAICeBhgygGtwNqRjyDkYRm73cjp_K6E",
+      "parent_id": "1l0fPOCK67-jBA97vO_M21KqXtCw1xxO1",
+      "name": "HẬU DUỆ RỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 555433,
+      "modified": "2026-08-16T03:40:55.000Z",
+      "checksum": "f11a09e76797a84f51db85a1f17a55f7",
+      "folder": false
+    },
+    {
+      "id": "1XbV83qKtfQ-YoRhVyv_MAjt7GJAzZAeR",
+      "parent_id": "1l0fPOCK67-jBA97vO_M21KqXtCw1xxO1",
+      "name": "HẬU DUỆ RỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 433925,
+      "modified": "2026-08-16T03:40:52.000Z",
+      "checksum": "d725bc65088e7bf619fc26b3962f45ba",
+      "folder": false
+    }
+  ]
+}

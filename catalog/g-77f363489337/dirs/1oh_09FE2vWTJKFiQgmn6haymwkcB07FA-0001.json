@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oh_09FE2vWTJKFiQgmn6haymwkcB07FA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iIUIvd62ovZeCFFGR9Xpm8QMuPFGYbJQ",
+      "parent_id": "1oh_09FE2vWTJKFiQgmn6haymwkcB07FA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2558,
+      "modified": "2026-08-15T07:42:44.000Z",
+      "checksum": "dc6d001498e097039fd3d22ebc7588ec",
+      "folder": false
+    },
+    {
+      "id": "1SXL_9Tld748ptzuw00qkXha1mu8gpzZQ",
+      "parent_id": "1oh_09FE2vWTJKFiQgmn6haymwkcB07FA",
+      "name": "EM LÀ ÁNH SÁNG CỦA ĐỜI ANH!.epub",
+      "mime": "application/epub+zip",
+      "size": 623332,
+      "modified": "2026-08-15T07:42:52.000Z",
+      "checksum": "eb83eced3ef6eef9d58150cddda09eb1",
+      "folder": false
+    },
+    {
+      "id": "17SVLDahIdk2uwD0dbMjqfHHy-bp74GeO",
+      "parent_id": "1oh_09FE2vWTJKFiQgmn6haymwkcB07FA",
+      "name": "EM LÀ ÁNH SÁNG CỦA ĐỜI ANH!.pdf",
+      "mime": "application/pdf",
+      "size": 1694711,
+      "modified": "2026-08-15T07:42:49.000Z",
+      "checksum": "19a31501bfa03110d611304c11373263",
+      "folder": false
+    }
+  ]
+}

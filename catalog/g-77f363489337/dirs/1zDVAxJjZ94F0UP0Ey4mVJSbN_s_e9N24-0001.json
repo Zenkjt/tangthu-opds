@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zDVAxJjZ94F0UP0Ey4mVJSbN_s_e9N24",
+  "page": 1,
+  "items": [
+    {
+      "id": "1imXDWl54woKVYwnU-JY-epRhuI8t4w8G",
+      "parent_id": "1zDVAxJjZ94F0UP0Ey4mVJSbN_s_e9N24",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3267,
+      "modified": "2026-08-16T04:08:25.000Z",
+      "checksum": "926d2438567a00c43c10df54b9915d57",
+      "folder": false
+    },
+    {
+      "id": "1NmO9vdacyXclzmGcEhvlOJgrl-_4qEvg",
+      "parent_id": "1zDVAxJjZ94F0UP0Ey4mVJSbN_s_e9N24",
+      "name": "NƠI TRÁI TIM HỘI NGỘ.epub",
+      "mime": "application/epub+zip",
+      "size": 584075,
+      "modified": "2026-08-16T04:08:32.000Z",
+      "checksum": "6e87383181d9f5927d28167702486636",
+      "folder": false
+    },
+    {
+      "id": "1oBWzr44o2eDE-2mx49AOCCiDjib5l52q",
+      "parent_id": "1zDVAxJjZ94F0UP0Ey4mVJSbN_s_e9N24",
+      "name": "NƠI TRÁI TIM HỘI NGỘ.pdf",
+      "mime": "application/pdf",
+      "size": 1110418,
+      "modified": "2026-08-16T04:08:30.000Z",
+      "checksum": "d3f8a184e68b4bb4c0bd98db80f63e26",
+      "folder": false
+    }
+  ]
+}

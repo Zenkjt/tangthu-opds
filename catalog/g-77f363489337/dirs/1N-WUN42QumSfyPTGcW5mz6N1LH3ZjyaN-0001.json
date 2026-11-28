@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1N-WUN42QumSfyPTGcW5mz6N1LH3ZjyaN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UQ6jQ9rD8Fc-jIYibpiDbsylPa5KJha6",
+      "parent_id": "1N-WUN42QumSfyPTGcW5mz6N1LH3ZjyaN",
+      "name": "CÓ ANH TRONG ĐỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 1461333,
+      "modified": "2026-08-15T09:58:03.000Z",
+      "checksum": "01996397d324104f8cab11dd146744ba",
+      "folder": false
+    },
+    {
+      "id": "1U2dynRIKFQZh-pLC3O_bQ6_z3KMjAyJV",
+      "parent_id": "1N-WUN42QumSfyPTGcW5mz6N1LH3ZjyaN",
+      "name": "CÓ ANH TRONG ĐỜI.pdf",
+      "mime": "application/pdf",
+      "size": 1127365,
+      "modified": "2026-08-15T09:57:59.000Z",
+      "checksum": "0d0abc2c214968d2111bf39bc5365e3c",
+      "folder": false
+    },
+    {
+      "id": "1Xn1SLfByodSKAdYvrsuCyLZCeSFUcKq-",
+      "parent_id": "1N-WUN42QumSfyPTGcW5mz6N1LH3ZjyaN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5165,
+      "modified": "2026-08-15T09:57:54.000Z",
+      "checksum": "282b76e1744c362d492d228d0c3f18fd",
+      "folder": false
+    }
+  ]
+}

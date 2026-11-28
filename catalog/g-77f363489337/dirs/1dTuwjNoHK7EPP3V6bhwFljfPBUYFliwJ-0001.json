@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dTuwjNoHK7EPP3V6bhwFljfPBUYFliwJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UasDWC0Lj3F3q2zTItA49qqS4Qh364li",
+      "parent_id": "1dTuwjNoHK7EPP3V6bhwFljfPBUYFliwJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1244,
+      "modified": "2026-08-15T13:05:50.000Z",
+      "checksum": "125e9f855b54ff4bed7a361737a63471",
+      "folder": false
+    },
+    {
+      "id": "1joHNMt65e24eYOwq74lQT7wHEUiyg1vB",
+      "parent_id": "1dTuwjNoHK7EPP3V6bhwFljfPBUYFliwJ",
+      "name": "HORRIBLE SCIENCE - SINH HỌC CÓ NHỮNG CÂU CHUYỆN KỲ DIỆU.epub",
+      "mime": "application/epub+zip",
+      "size": 6314334,
+      "modified": "2026-08-15T13:07:47.000Z",
+      "checksum": "0d864b08f6ebc6d113c80a50a813901d",
+      "folder": false
+    },
+    {
+      "id": "1Ziu1Z8imiI8MZ-IyS25-PzxJ45VuNuMO",
+      "parent_id": "1dTuwjNoHK7EPP3V6bhwFljfPBUYFliwJ",
+      "name": "HORRIBLE SCIENCE - SINH HỌC CÓ NHỮNG CÂU CHUYỆN KỲ DIỆU.pdf",
+      "mime": "application/pdf",
+      "size": 6593226,
+      "modified": "2026-08-15T13:06:27.000Z",
+      "checksum": "9d0bf329a9188045e900ad4a04373b30",
+      "folder": false
+    }
+  ]
+}

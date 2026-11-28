@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12SIOJg5PHdTyi3MS3LCbpY873qM_EnbH",
+  "page": 1,
+  "items": [
+    {
+      "id": "16EHAh2P3EpJ6xr_tNoDIBycUREC87mI_",
+      "parent_id": "12SIOJg5PHdTyi3MS3LCbpY873qM_EnbH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 569,
+      "modified": "2026-08-16T04:20:31.000Z",
+      "checksum": "213c09d5cc74cbbead32c5b39a7473a2",
+      "folder": false
+    },
+    {
+      "id": "1MsWFQ16Crv7jydr8wgxSRI_CzrqcdxEr",
+      "parent_id": "12SIOJg5PHdTyi3MS3LCbpY873qM_EnbH",
+      "name": "ĐIỆP VIÊN Ở WASHINGTON.epub",
+      "mime": "application/epub+zip",
+      "size": 504915,
+      "modified": "2026-08-16T04:20:37.000Z",
+      "checksum": "6d01873ce74da142c06c04b3e5ef2491",
+      "folder": false
+    },
+    {
+      "id": "1v43Qpu0Vkryy5Z-rduVpsymt2ZbbCz4P",
+      "parent_id": "12SIOJg5PHdTyi3MS3LCbpY873qM_EnbH",
+      "name": "ĐIỆP VIÊN Ở WASHINGTON.pdf",
+      "mime": "application/pdf",
+      "size": 1134308,
+      "modified": "2026-08-16T04:20:35.000Z",
+      "checksum": "62271993109ebb8dc6bc305ba37d3c4e",
+      "folder": false
+    }
+  ]
+}

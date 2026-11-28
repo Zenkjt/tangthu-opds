@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fzOGShHVSup242Iu3V_eVXNMBUW9x7kI",
+  "page": 1,
+  "items": [
+    {
+      "id": "13lm7ZlA4bi_9kdoy3iumXTekF1FPhZrF",
+      "parent_id": "1fzOGShHVSup242Iu3V_eVXNMBUW9x7kI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7751,
+      "modified": "2026-08-15T03:59:01.000Z",
+      "checksum": "5cc3c7e39cf5eebd6a48f7c28baec469",
+      "folder": false
+    },
+    {
+      "id": "1nQsebnTQhR4gsGunFbvfFjkyGmmFmLVz",
+      "parent_id": "1fzOGShHVSup242Iu3V_eVXNMBUW9x7kI",
+      "name": "MỘT LÀN GIÓ TINH KHÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 439908,
+      "modified": "2026-08-15T03:59:07.000Z",
+      "checksum": "64bbd78bb9babaf1151fd1b694538021",
+      "folder": false
+    },
+    {
+      "id": "1VVOfV_3vlSYVU92c6S7TLwkc4zoyZkuZ",
+      "parent_id": "1fzOGShHVSup242Iu3V_eVXNMBUW9x7kI",
+      "name": "MỘT LÀN GIÓ TINH KHÔI.pdf",
+      "mime": "application/pdf",
+      "size": 282860,
+      "modified": "2026-08-15T03:59:04.000Z",
+      "checksum": "3436b2ef2ee9470d94190891176b742b",
+      "folder": false
+    }
+  ]
+}

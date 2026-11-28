@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OglaLgk7dekkp_e3IofI-qJ-mGMgaKHU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iBGKwYhOwB9hVqpuWBW8Wh_83d_8su74",
+      "parent_id": "1OglaLgk7dekkp_e3IofI-qJ-mGMgaKHU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 515,
+      "modified": "2026-08-15T13:03:01.000Z",
+      "checksum": "3d1d05c3fbf199e5d5218c88fbbf088e",
+      "folder": false
+    },
+    {
+      "id": "1OaWGknlF3jJQHFYysAPCkA0n--7vlK5t",
+      "parent_id": "1OglaLgk7dekkp_e3IofI-qJ-mGMgaKHU",
+      "name": "HOA TẦM GỞI.epub",
+      "mime": "application/epub+zip",
+      "size": 326427,
+      "modified": "2026-08-15T13:03:08.000Z",
+      "checksum": "6e42b45c7b5dc408a6c9bc322fac7efd",
+      "folder": false
+    },
+    {
+      "id": "1mpVmQp_nNYHc2I0jS2WdABR5SPeYWidW",
+      "parent_id": "1OglaLgk7dekkp_e3IofI-qJ-mGMgaKHU",
+      "name": "HOA TẦM GỞI.pdf",
+      "mime": "application/pdf",
+      "size": 352246,
+      "modified": "2026-08-15T13:03:05.000Z",
+      "checksum": "05590abd1b845f6443cb57d7f6049e93",
+      "folder": false
+    }
+  ]
+}

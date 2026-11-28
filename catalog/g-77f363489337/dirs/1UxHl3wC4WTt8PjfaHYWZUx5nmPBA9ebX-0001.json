@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UxHl3wC4WTt8PjfaHYWZUx5nmPBA9ebX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1m-sYQgvw-LqKFgB9XuQZ5xJf_RELTv4p",
+      "parent_id": "1UxHl3wC4WTt8PjfaHYWZUx5nmPBA9ebX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2502,
+      "modified": "2026-08-15T15:47:16.000Z",
+      "checksum": "655c7f07e5b283fcce91795303600ceb",
+      "folder": false
+    },
+    {
+      "id": "18AL8M-d_vsCgQmiqHvynnLMGPkhISXTO",
+      "parent_id": "1UxHl3wC4WTt8PjfaHYWZUx5nmPBA9ebX",
+      "name": "ĐẠI THẦN EM NUÔI ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 808201,
+      "modified": "2026-08-15T15:48:25.000Z",
+      "checksum": "0b671276afdea026cdf88d2e5805187e",
+      "folder": false
+    },
+    {
+      "id": "1gAkQXFeXsWj-7KHrUoVzRpudswi_AUTX",
+      "parent_id": "1UxHl3wC4WTt8PjfaHYWZUx5nmPBA9ebX",
+      "name": "ĐẠI THẦN EM NUÔI ANH.pdf",
+      "mime": "application/pdf",
+      "size": 2232372,
+      "modified": "2026-08-15T15:47:39.000Z",
+      "checksum": "2d942ff71f745b6af233f345f23a2347",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19McEg_hqzMGci2Bwfux1EG8yv0Y7P_tq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dK4JrgXZm_xrO6dgvQFcnNIoLfCoPQfa",
+      "parent_id": "19McEg_hqzMGci2Bwfux1EG8yv0Y7P_tq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 504,
+      "modified": "2026-08-15T10:09:02.000Z",
+      "checksum": "d9494f60d3a123133211943a25072edd",
+      "folder": false
+    },
+    {
+      "id": "1iQSoW7qFrWQ2-U-zkpviEbM2iLGPzxOb",
+      "parent_id": "19McEg_hqzMGci2Bwfux1EG8yv0Y7P_tq",
+      "name": "TÌNH ĐẦU TRONG VŨ TRỤ.epub",
+      "mime": "application/epub+zip",
+      "size": 562849,
+      "modified": "2026-08-15T10:09:09.000Z",
+      "checksum": "53284abb7578cbcf58e4a3df7d1ec98b",
+      "folder": false
+    },
+    {
+      "id": "1BpithGBmrsu5JgfiLujZITzTmsc7wOfv",
+      "parent_id": "19McEg_hqzMGci2Bwfux1EG8yv0Y7P_tq",
+      "name": "TÌNH ĐẦU TRONG VŨ TRỤ.pdf",
+      "mime": "application/pdf",
+      "size": 1091359,
+      "modified": "2026-08-15T10:09:07.000Z",
+      "checksum": "3cd58132a044fe8302a5bf232be60564",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "branch_id": "g-ce119ee8fc4e",
+  "root_folder_id": "1NdueabnFb7hJmpw3aN-vZxkQSKnman5c",
+  "root_shards": [
+    "catalog/g-ce119ee8fc4e/1NdueabnFb7hJmpw3aN-vZxkQSKnman5c-0001.json"
+  ],
+  "directories": [
+    {
+      "id": "1hfh0YD0AHUlDTOtpbDHLZqy6rPyLPwPU",
+      "name": "NNA",
+      "parent_id": "1NdueabnFb7hJmpw3aN-vZxkQSKnman5c",
+      "shards": [
+        "catalog/g-ce119ee8fc4e/dirs/1hfh0YD0AHUlDTOtpbDHLZqy6rPyLPwPU-0001.json"
+      ]
+    }
+  ]
+}

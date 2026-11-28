@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12zzDtvvlnlUFGczbA1TwZjT9-ptltKF_",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bQx_FYwHeM0xVqReE2nNmsFGybGoKK5j",
+      "parent_id": "12zzDtvvlnlUFGczbA1TwZjT9-ptltKF_",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9074,
+      "modified": "2026-08-15T08:07:24.000Z",
+      "checksum": "c900ea1132de1e4d41ffb24d70d87dd8",
+      "folder": false
+    },
+    {
+      "id": "13QAOD7u9cCEwFrFghCdlIST0ea-sM-Ns",
+      "parent_id": "12zzDtvvlnlUFGczbA1TwZjT9-ptltKF_",
+      "name": "HUYỀN TRUNG MỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 804405,
+      "modified": "2026-08-15T08:07:54.000Z",
+      "checksum": "a15ac9dfbb49b21eec0fca86387f3614",
+      "folder": false
+    },
+    {
+      "id": "1KIYbY2-5G3obgw3i2ttK69Ehcv0zo2uy",
+      "parent_id": "12zzDtvvlnlUFGczbA1TwZjT9-ptltKF_",
+      "name": "HUYỀN TRUNG MỊ.pdf",
+      "mime": "application/pdf",
+      "size": 2462809,
+      "modified": "2026-08-15T08:07:49.000Z",
+      "checksum": "9a43e543fa529f8befae40086d3f2013",
+      "folder": false
+    }
+  ]
+}

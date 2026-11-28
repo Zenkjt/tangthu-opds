@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EPm2DPql4pLI_6ug5oJ1oTOjz8l3rzQc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qdH2qGBTGmPmoMroodUs2726eRWjXB3z",
+      "parent_id": "1EPm2DPql4pLI_6ug5oJ1oTOjz8l3rzQc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2642,
+      "modified": "2026-08-15T09:31:42.000Z",
+      "checksum": "a775410d0cf4891d8cf93efd74e277c4",
+      "folder": false
+    },
+    {
+      "id": "1Ng2tYcHIqnm0-iiNmwxhr5GqMXdP0tGL",
+      "parent_id": "1EPm2DPql4pLI_6ug5oJ1oTOjz8l3rzQc",
+      "name": "RỒNG ĐỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 688503,
+      "modified": "2026-08-15T09:31:53.000Z",
+      "checksum": "8e4210e4f23758ecd7bb0030d62f7299",
+      "folder": false
+    },
+    {
+      "id": "1Sq1A5ymP8iZZwQ-6Ti8N3kc8idhw6rLF",
+      "parent_id": "1EPm2DPql4pLI_6ug5oJ1oTOjz8l3rzQc",
+      "name": "RỒNG ĐỎ.pdf",
+      "mime": "application/pdf",
+      "size": 1843354,
+      "modified": "2026-08-15T09:31:50.000Z",
+      "checksum": "73cabbb22ff7b78d5991a80950496361",
+      "folder": false
+    }
+  ]
+}

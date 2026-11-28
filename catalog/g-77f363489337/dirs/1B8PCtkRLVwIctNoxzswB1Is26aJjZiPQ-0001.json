@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1B8PCtkRLVwIctNoxzswB1Is26aJjZiPQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nsFSxh1kTpW_ZjmPX6Dpg4dRsweSSrFi",
+      "parent_id": "1B8PCtkRLVwIctNoxzswB1Is26aJjZiPQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 634,
+      "modified": "2026-08-15T10:52:42.000Z",
+      "checksum": "e1e08a07bfb53fb625b765f1c98e2b3f",
+      "folder": false
+    },
+    {
+      "id": "1TdHUSvuWuJp2iUVyXfs1fk5e64ZAwGuV",
+      "parent_id": "1B8PCtkRLVwIctNoxzswB1Is26aJjZiPQ",
+      "name": "MÊ CUNG ÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 1612996,
+      "modified": "2026-08-15T10:52:50.000Z",
+      "checksum": "2eb1908a77056622c116b1c52bc24ce9",
+      "folder": false
+    },
+    {
+      "id": "1Ng9Ze9Sp1SzVYIXXkCPSlJTeCZCNKbcF",
+      "parent_id": "1B8PCtkRLVwIctNoxzswB1Is26aJjZiPQ",
+      "name": "MÊ CUNG ÁN.pdf",
+      "mime": "application/pdf",
+      "size": 2221600,
+      "modified": "2026-08-15T10:52:47.000Z",
+      "checksum": "9feb64452fe604353a24c560ba76e797",
+      "folder": false
+    }
+  ]
+}

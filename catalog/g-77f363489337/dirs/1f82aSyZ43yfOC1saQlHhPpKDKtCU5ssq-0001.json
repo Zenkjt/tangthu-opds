@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1f82aSyZ43yfOC1saQlHhPpKDKtCU5ssq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HV8W3tWrRWLcMpZf51eBHlPOSOT6ecDS",
+      "parent_id": "1f82aSyZ43yfOC1saQlHhPpKDKtCU5ssq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2522,
+      "modified": "2026-08-15T06:57:58.000Z",
+      "checksum": "8892cf187f61ed327ea9fea89306199e",
+      "folder": false
+    },
+    {
+      "id": "1DUUQDZuYR7M4kVdNO8ljOKkQUmLQ24tJ",
+      "parent_id": "1f82aSyZ43yfOC1saQlHhPpKDKtCU5ssq",
+      "name": "TỘI ÁC VÀ TRÙNG PHẠT.epub",
+      "mime": "application/epub+zip",
+      "size": 720831,
+      "modified": "2026-08-15T06:58:08.000Z",
+      "checksum": "46038f83bea62c78e8f8b49fae7c3948",
+      "folder": false
+    },
+    {
+      "id": "1wFXVVTvUQ1T-bBOvx9rrQQ-jaxEnqLs_",
+      "parent_id": "1f82aSyZ43yfOC1saQlHhPpKDKtCU5ssq",
+      "name": "TỘI ÁC VÀ TRÙNG PHẠT.pdf",
+      "mime": "application/pdf",
+      "size": 2494441,
+      "modified": "2026-08-15T06:58:05.000Z",
+      "checksum": "8ae0adc06b8cc14cbedd4b4ef284a492",
+      "folder": false
+    }
+  ]
+}

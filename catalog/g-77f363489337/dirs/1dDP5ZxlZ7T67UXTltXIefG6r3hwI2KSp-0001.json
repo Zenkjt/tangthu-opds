@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dDP5ZxlZ7T67UXTltXIefG6r3hwI2KSp",
+  "page": 1,
+  "items": [
+    {
+      "id": "18XzDsIqweva10MrsyYjI7YX12xx76V6d",
+      "parent_id": "1dDP5ZxlZ7T67UXTltXIefG6r3hwI2KSp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3059,
+      "modified": "2026-08-15T10:09:21.000Z",
+      "checksum": "68062580fb937291ab1c02627254c772",
+      "folder": false
+    },
+    {
+      "id": "1bK_eL9UjGHS8EItIxojrur7mnsl-7u3P",
+      "parent_id": "1dDP5ZxlZ7T67UXTltXIefG6r3hwI2KSp",
+      "name": "TÌM LẠI TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 812178,
+      "modified": "2026-08-15T10:09:28.000Z",
+      "checksum": "c872ed30e642063b0c6d96d0a5e859af",
+      "folder": false
+    },
+    {
+      "id": "1xFDEf_bXsS2IpbJlPWRjxB0D--VbQyYH",
+      "parent_id": "1dDP5ZxlZ7T67UXTltXIefG6r3hwI2KSp",
+      "name": "TÌM LẠI TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 784770,
+      "modified": "2026-08-15T10:09:25.000Z",
+      "checksum": "c233314cf6fa384d27e4aa75ab29a751",
+      "folder": false
+    }
+  ]
+}

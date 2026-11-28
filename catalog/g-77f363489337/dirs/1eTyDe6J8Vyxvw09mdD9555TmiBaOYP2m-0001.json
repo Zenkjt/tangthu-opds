@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eTyDe6J8Vyxvw09mdD9555TmiBaOYP2m",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XWcaPSkhg3xOXhk6IslekkGwSVcuYzQD",
+      "parent_id": "1eTyDe6J8Vyxvw09mdD9555TmiBaOYP2m",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7987,
+      "modified": "2026-08-15T00:45:39.000Z",
+      "checksum": "d2ad62833b1bf0a3aaf4281e63b01816",
+      "folder": false
+    },
+    {
+      "id": "1Qz96oaKhGRLklRH8vMhEwEy9OSGC6Snh",
+      "parent_id": "1eTyDe6J8Vyxvw09mdD9555TmiBaOYP2m",
+      "name": "GIẬN.epub",
+      "mime": "application/epub+zip",
+      "size": 349203,
+      "modified": "2026-08-15T00:45:45.000Z",
+      "checksum": "6c79351753d3d56be7339848276a1d1b",
+      "folder": false
+    },
+    {
+      "id": "1tsgnkRyC6-DvQNRSwB08qoQNN5uKcRKv",
+      "parent_id": "1eTyDe6J8Vyxvw09mdD9555TmiBaOYP2m",
+      "name": "GIẬN.pdf",
+      "mime": "application/pdf",
+      "size": 743535,
+      "modified": "2026-08-15T00:45:43.000Z",
+      "checksum": "0011460d29b33aa0cb64604f8733a7ba",
+      "folder": false
+    }
+  ]
+}

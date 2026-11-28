@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LzktMEAlKCehCUtytrl_ESQgmil5aVrc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iCXBPeG-iK_XJivQRDCVkZ6Nk1Pdbpj5",
+      "parent_id": "1LzktMEAlKCehCUtytrl_ESQgmil5aVrc",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 4818,
+      "modified": "2026-08-15T05:44:20.000Z",
+      "checksum": "a7726776ae8cec355144e4d94fdce90a",
+      "folder": false
+    },
+    {
+      "id": "1uNR7BJvjJYQOeGxADGitDioWuXHtXGLh",
+      "parent_id": "1LzktMEAlKCehCUtytrl_ESQgmil5aVrc",
+      "name": "GHI CHÉP CỦA KRISHNAMURTI.epub",
+      "mime": "application/epub+zip",
+      "size": 670552,
+      "modified": "2026-08-15T05:44:34.000Z",
+      "checksum": "bcc93855af86bf1e263608bfa4c70d8a",
+      "folder": false
+    },
+    {
+      "id": "1LAYGkFxdIRqlbfLUokU76naGxjWK_XNR",
+      "parent_id": "1LzktMEAlKCehCUtytrl_ESQgmil5aVrc",
+      "name": "GHI CHÉP CỦA KRISHNAMURTI.pdf",
+      "mime": "application/pdf",
+      "size": 743573,
+      "modified": "2026-08-15T05:44:28.000Z",
+      "checksum": "c34aadc0c08e0c6ac42eb80daab27868",
+      "folder": false
+    }
+  ]
+}

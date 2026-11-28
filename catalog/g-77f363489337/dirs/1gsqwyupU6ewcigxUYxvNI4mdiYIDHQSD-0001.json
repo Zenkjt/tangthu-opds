@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gsqwyupU6ewcigxUYxvNI4mdiYIDHQSD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ycW7kiUxz8yCc4CDGpgfNmysCSPJbxFq",
+      "parent_id": "1gsqwyupU6ewcigxUYxvNI4mdiYIDHQSD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5500,
+      "modified": "2026-08-16T03:17:15.000Z",
+      "checksum": "be9838ace56d49e74ee97fd5a7d7d8e9",
+      "folder": false
+    },
+    {
+      "id": "1jBM3BhfD5lRo59u-GfKUEyDr-EMlbhsS",
+      "parent_id": "1gsqwyupU6ewcigxUYxvNI4mdiYIDHQSD",
+      "name": "EM Ở ĐÂU.epub",
+      "mime": "application/epub+zip",
+      "size": 519134,
+      "modified": "2026-08-16T03:17:23.000Z",
+      "checksum": "46b8b0e00622f866bcab8bf2caf7b26b",
+      "folder": false
+    },
+    {
+      "id": "1fv-s-mN4VlL6t1PRZAOrit7CJryUK7rL",
+      "parent_id": "1gsqwyupU6ewcigxUYxvNI4mdiYIDHQSD",
+      "name": "EM Ở ĐÂU.pdf",
+      "mime": "application/pdf",
+      "size": 1177930,
+      "modified": "2026-08-16T03:17:20.000Z",
+      "checksum": "71745da4951646915bcdae071b5ac7a6",
+      "folder": false
+    }
+  ]
+}

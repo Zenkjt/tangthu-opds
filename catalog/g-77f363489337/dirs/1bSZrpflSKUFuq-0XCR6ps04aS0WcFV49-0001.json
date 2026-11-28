@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1bSZrpflSKUFuq-0XCR6ps04aS0WcFV49",
+  "page": 1,
+  "items": [
+    {
+      "id": "1S47iyT_PZYzpUQaPafPjHc6hlPQsx8dl",
+      "parent_id": "1bSZrpflSKUFuq-0XCR6ps04aS0WcFV49",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2321,
+      "modified": "2026-08-15T06:41:39.000Z",
+      "checksum": "5973d48ccb61db35bc5f75ce3d44cac8",
+      "folder": false
+    },
+    {
+      "id": "1CsCRd5Fozy1mEB8RN0ZTs1vIXIQ6TNMF",
+      "parent_id": "1bSZrpflSKUFuq-0XCR6ps04aS0WcFV49",
+      "name": "TOTTO-CHAN BÊN CỬA SỔ.epub",
+      "mime": "application/epub+zip",
+      "size": 387791,
+      "modified": "2026-08-15T06:41:45.000Z",
+      "checksum": "f2b69a5e06e29e0b9d10e6c7e245b2db",
+      "folder": false
+    },
+    {
+      "id": "1xJ6SCPYfqo-d9D56kuz5VWouFqIeiLkS",
+      "parent_id": "1bSZrpflSKUFuq-0XCR6ps04aS0WcFV49",
+      "name": "TOTTO-CHAN BÊN CỬA SỔ.pdf",
+      "mime": "application/pdf",
+      "size": 781116,
+      "modified": "2026-08-15T06:41:43.000Z",
+      "checksum": "4370cdedf432019da80e0a877dcdad6e",
+      "folder": false
+    }
+  ]
+}

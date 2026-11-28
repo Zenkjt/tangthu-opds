@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1an2FXsqiU-Rf4rOBS8iaQHu_HcLsROAJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1z6tMKZ2wz2udoQhNDUuLRnPQm84ApT5N",
+      "parent_id": "1an2FXsqiU-Rf4rOBS8iaQHu_HcLsROAJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1305,
+      "modified": "2026-08-15T07:19:04.000Z",
+      "checksum": "425ce97f011ef55873a4f826f0d3a42e",
+      "folder": false
+    },
+    {
+      "id": "1OwnunhxJoIQLdCMtrKfaiuFT0H-WAjHG",
+      "parent_id": "1an2FXsqiU-Rf4rOBS8iaQHu_HcLsROAJ",
+      "name": "NGƯỜI TỐT.epub",
+      "mime": "application/epub+zip",
+      "size": 64367,
+      "modified": "2026-08-15T07:19:09.000Z",
+      "checksum": "b87b8e12a7363093e67fdd9c4d5379d6",
+      "folder": false
+    },
+    {
+      "id": "1JEtoCUv5vvrC7oiqQTlrQvfWzy5ffwvv",
+      "parent_id": "1an2FXsqiU-Rf4rOBS8iaQHu_HcLsROAJ",
+      "name": "NGƯỜI TỐT.pdf",
+      "mime": "application/pdf",
+      "size": 56084,
+      "modified": "2026-08-15T07:19:07.000Z",
+      "checksum": "c15a82601623d103a3246402e7a6b412",
+      "folder": false
+    }
+  ]
+}

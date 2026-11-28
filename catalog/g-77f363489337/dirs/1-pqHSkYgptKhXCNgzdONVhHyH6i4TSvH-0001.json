@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-pqHSkYgptKhXCNgzdONVhHyH6i4TSvH",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Vnj_E0GnhzNu7Ltk80WVQyDSVvpezgb1",
+      "parent_id": "1-pqHSkYgptKhXCNgzdONVhHyH6i4TSvH",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2450,
+      "modified": "2026-08-15T15:47:19.000Z",
+      "checksum": "2770f9a39547bbc06e0e2f202f9958e1",
+      "folder": false
+    },
+    {
+      "id": "1m65WjoILATrAwy20KBJXAtjvdk7UWh8v",
+      "parent_id": "1-pqHSkYgptKhXCNgzdONVhHyH6i4TSvH",
+      "name": "HẦU MÔN KIÊU NỮ.epub",
+      "mime": "application/epub+zip",
+      "size": 1429033,
+      "modified": "2026-08-15T15:48:21.000Z",
+      "checksum": "1c1f1185095a9fcc143a82e8398c7b2f",
+      "folder": false
+    },
+    {
+      "id": "1UObR2vDScT6Mtjubyno_-GOPYog1Qyej",
+      "parent_id": "1-pqHSkYgptKhXCNgzdONVhHyH6i4TSvH",
+      "name": "HẦU MÔN KIÊU NỮ.pdf",
+      "mime": "application/pdf",
+      "size": 5397849,
+      "modified": "2026-08-15T15:48:06.000Z",
+      "checksum": "97e88ebeb8b9edc0737571a9b9ed269e",
+      "folder": false
+    }
+  ]
+}

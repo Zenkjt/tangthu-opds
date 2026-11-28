@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZPkxH2GX-qGBMran4r2EysdEImShaNFr",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mnfB-mlZpCzUvr180IYLY0B1GLJbJOpb",
+      "parent_id": "1ZPkxH2GX-qGBMran4r2EysdEImShaNFr",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 535,
+      "modified": "2026-08-15T10:42:49.000Z",
+      "checksum": "50baf2a89e6897ec11d093ac813912ae",
+      "folder": false
+    },
+    {
+      "id": "1ib1J1U1VhQbSj0JEvJfFGgteZGXfBKWB",
+      "parent_id": "1ZPkxH2GX-qGBMran4r2EysdEImShaNFr",
+      "name": "NGƯỜI PHÀM.epub",
+      "mime": "application/epub+zip",
+      "size": 427528,
+      "modified": "2026-08-15T10:42:56.000Z",
+      "checksum": "f6a0cb53389a6f1872cd1eabe0b11e15",
+      "folder": false
+    },
+    {
+      "id": "11RffAOnhIYIMNZ7JBAr6wJw37Fa3t3sx",
+      "parent_id": "1ZPkxH2GX-qGBMran4r2EysdEImShaNFr",
+      "name": "NGƯỜI PHÀM.pdf",
+      "mime": "application/pdf",
+      "size": 465723,
+      "modified": "2026-08-15T10:42:53.000Z",
+      "checksum": "1c0617f8a4156e1462e8d1bea10d913d",
+      "folder": false
+    }
+  ]
+}

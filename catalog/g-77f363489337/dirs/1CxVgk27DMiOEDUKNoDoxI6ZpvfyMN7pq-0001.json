@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CxVgk27DMiOEDUKNoDoxI6ZpvfyMN7pq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1M5g8rJnPb5hleBCJhPoMBJmvQKefEqCK",
+      "parent_id": "1CxVgk27DMiOEDUKNoDoxI6ZpvfyMN7pq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5634,
+      "modified": "2026-08-15T03:24:36.000Z",
+      "checksum": "06bd74d23d12c1c7c8c864e2838ad693",
+      "folder": false
+    },
+    {
+      "id": "1Mjw4G6mPLEh0eZqhEEgzh0zP8ro1kqDH",
+      "parent_id": "1CxVgk27DMiOEDUKNoDoxI6ZpvfyMN7pq",
+      "name": "NHỮNG CÁNH ĐỒNG KIM CƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 390501,
+      "modified": "2026-08-15T03:24:44.000Z",
+      "checksum": "b6de9968e4856c86c440f545a34a216c",
+      "folder": false
+    },
+    {
+      "id": "1zVL_OdlNkST0kJph93viYX_DGDOCvDYZ",
+      "parent_id": "1CxVgk27DMiOEDUKNoDoxI6ZpvfyMN7pq",
+      "name": "NHỮNG CÁNH ĐỒNG KIM CƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 842336,
+      "modified": "2026-08-15T03:24:41.000Z",
+      "checksum": "419d1158f4046124af3bb696a9fe4580",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Z3yz0i7YOYw7IgpDPq4OXJi35xG6X-Q5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pqlq4cZx-sh8xJrA5VgyFXKk60AUnPLf",
+      "parent_id": "1Z3yz0i7YOYw7IgpDPq4OXJi35xG6X-Q5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3110,
+      "modified": "2026-08-15T13:12:08.000Z",
+      "checksum": "ea0121677dc8f45ccc983c2daee7330a",
+      "folder": false
+    },
+    {
+      "id": "1TJhutDLMaFlXUHgzJ8VtjJrPe26nNH1Q",
+      "parent_id": "1Z3yz0i7YOYw7IgpDPq4OXJi35xG6X-Q5",
+      "name": "KIM NGƯU VÀ CHUYỆN TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 706995,
+      "modified": "2026-08-15T13:12:14.000Z",
+      "checksum": "c55cf95778a838b89352542e1b819e4f",
+      "folder": false
+    },
+    {
+      "id": "1O625_11pcI2GY969yrxVmvKkB1mo9tdd",
+      "parent_id": "1Z3yz0i7YOYw7IgpDPq4OXJi35xG6X-Q5",
+      "name": "KIM NGƯU VÀ CHUYỆN TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1480590,
+      "modified": "2026-08-15T13:12:11.000Z",
+      "checksum": "3772e92d1cdab211b8afa01a15471c3b",
+      "folder": false
+    }
+  ]
+}

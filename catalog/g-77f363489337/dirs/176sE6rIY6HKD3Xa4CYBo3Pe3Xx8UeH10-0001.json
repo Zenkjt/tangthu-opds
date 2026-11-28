@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "176sE6rIY6HKD3Xa4CYBo3Pe3Xx8UeH10",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FBMdL4FfXcLTQn3PkAa4KughbbINSO81",
+      "parent_id": "176sE6rIY6HKD3Xa4CYBo3Pe3Xx8UeH10",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2320,
+      "modified": "2026-08-15T08:19:51.000Z",
+      "checksum": "770f025ce9a8f9bfe383a3493ad98ce3",
+      "folder": false
+    },
+    {
+      "id": "16sRoq7GZUNUYhLoAqvgyTLs9hhzfrQqs",
+      "parent_id": "176sE6rIY6HKD3Xa4CYBo3Pe3Xx8UeH10",
+      "name": "DẠ THIÊN TỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 1174127,
+      "modified": "2026-08-15T08:20:03.000Z",
+      "checksum": "cb5a806b8e867e4bebaf373520a54c9b",
+      "folder": false
+    },
+    {
+      "id": "1BQbo9duezrDxfbcGlTmnjESOYy8yAKn_",
+      "parent_id": "176sE6rIY6HKD3Xa4CYBo3Pe3Xx8UeH10",
+      "name": "DẠ THIÊN TỬ.pdf",
+      "mime": "application/pdf",
+      "size": 3562176,
+      "modified": "2026-08-15T08:20:00.000Z",
+      "checksum": "f267ec42391c81b2d08ba2709f115de4",
+      "folder": false
+    }
+  ]
+}

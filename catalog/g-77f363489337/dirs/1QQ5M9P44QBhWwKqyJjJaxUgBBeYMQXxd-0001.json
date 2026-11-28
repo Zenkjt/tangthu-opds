@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QQ5M9P44QBhWwKqyJjJaxUgBBeYMQXxd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Wbk9xaa28-Ah2DQ5NHeXK_AkQY-CAwVF",
+      "parent_id": "1QQ5M9P44QBhWwKqyJjJaxUgBBeYMQXxd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 775,
+      "modified": "2026-08-15T10:11:33.000Z",
+      "checksum": "a729dceca6e8866cc98f255e8ddc379a",
+      "folder": false
+    },
+    {
+      "id": "1QdrZaC0KxyPMT6OT2RbYE6qONBb3NJIl",
+      "parent_id": "1QQ5M9P44QBhWwKqyJjJaxUgBBeYMQXxd",
+      "name": "THUYỀN HOA ÁN.epub",
+      "mime": "application/epub+zip",
+      "size": 1611646,
+      "modified": "2026-08-15T10:11:44.000Z",
+      "checksum": "0caa83aac873dda743fac06884f5540a",
+      "folder": false
+    },
+    {
+      "id": "1hqBrw_BegQ-INWZQccgw7O-Xi0UONQBv",
+      "parent_id": "1QQ5M9P44QBhWwKqyJjJaxUgBBeYMQXxd",
+      "name": "THUYỀN HOA ÁN.pdf",
+      "mime": "application/pdf",
+      "size": 1940012,
+      "modified": "2026-08-15T10:11:40.000Z",
+      "checksum": "de542563bc76d2d88a19f9ca5e5b5846",
+      "folder": false
+    }
+  ]
+}

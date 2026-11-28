@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1iHEfGTuQRRgPhukr5hHAri06PDkEcaZO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KfLs9-F6y5_Kn7KA5mE7Y1i3W6NbdisM",
+      "parent_id": "1iHEfGTuQRRgPhukr5hHAri06PDkEcaZO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9621,
+      "modified": "2026-08-15T07:23:06.000Z",
+      "checksum": "809fa9e58bdd8e5a841af246efea87ea",
+      "folder": false
+    },
+    {
+      "id": "12CIucLI3oLXtDzjQwunwLPIZRePxO0XX",
+      "parent_id": "1iHEfGTuQRRgPhukr5hHAri06PDkEcaZO",
+      "name": "TRƯỜNG HỌC CHO CÁC BÀ VỢ.epub",
+      "mime": "application/epub+zip",
+      "size": 627964,
+      "modified": "2026-08-15T07:23:13.000Z",
+      "checksum": "c210e9971d72d49ccadde0760250cbf6",
+      "folder": false
+    },
+    {
+      "id": "11joKLkO3Tl4PXL5rBX3AeVd8LWORkJGZ",
+      "parent_id": "1iHEfGTuQRRgPhukr5hHAri06PDkEcaZO",
+      "name": "TRƯỜNG HỌC CHO CÁC BÀ VỢ.pdf",
+      "mime": "application/pdf",
+      "size": 943243,
+      "modified": "2026-08-15T07:23:11.000Z",
+      "checksum": "0f30539c3c0e5d4ae02567580ddd12b6",
+      "folder": false
+    }
+  ]
+}

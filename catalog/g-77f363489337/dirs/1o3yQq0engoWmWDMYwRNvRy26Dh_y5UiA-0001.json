@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1o3yQq0engoWmWDMYwRNvRy26Dh_y5UiA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YMy-Nah1mjpB5ZvA3vKf0sfCiP-Lxvsc",
+      "parent_id": "1o3yQq0engoWmWDMYwRNvRy26Dh_y5UiA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3705,
+      "modified": "2026-08-15T03:52:41.000Z",
+      "checksum": "3661ebbf71ddfc73df33e472da327908",
+      "folder": false
+    },
+    {
+      "id": "1gldBPoFvCoviHfyvsgjBofvfphLycHcQ",
+      "parent_id": "1o3yQq0engoWmWDMYwRNvRy26Dh_y5UiA",
+      "name": "TÂM THỨC CỦA NGUYÊN TỬ.epub",
+      "mime": "application/epub+zip",
+      "size": 139324,
+      "modified": "2026-08-15T03:52:46.000Z",
+      "checksum": "3ca04517124bd33b1e1f985fb76dd090",
+      "folder": false
+    },
+    {
+      "id": "1Rqik_5Ci9A3imFLc2byGA_5nTcJhj1U1",
+      "parent_id": "1o3yQq0engoWmWDMYwRNvRy26Dh_y5UiA",
+      "name": "TÂM THỨC CỦA NGUYÊN TỬ.pdf",
+      "mime": "application/pdf",
+      "size": 608700,
+      "modified": "2026-08-15T03:52:44.000Z",
+      "checksum": "45467d7bca06648201881890cf77ab37",
+      "folder": false
+    }
+  ]
+}

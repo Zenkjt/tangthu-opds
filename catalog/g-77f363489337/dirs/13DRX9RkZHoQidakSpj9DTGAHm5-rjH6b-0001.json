@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13DRX9RkZHoQidakSpj9DTGAHm5-rjH6b",
+  "page": 1,
+  "items": [
+    {
+      "id": "16r_A9R5kQaM-0bfPVmSmpBp2vDPP_wL3",
+      "parent_id": "13DRX9RkZHoQidakSpj9DTGAHm5-rjH6b",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1671,
+      "modified": "2026-08-15T09:52:19.000Z",
+      "checksum": "844bcfe7dd1c6c2cc1baea135229c07c",
+      "folder": false
+    },
+    {
+      "id": "1OhsxO_UKRi-m2VFqoUe-ZYp1JCz0H55z",
+      "parent_id": "13DRX9RkZHoQidakSpj9DTGAHm5-rjH6b",
+      "name": "ĐẾ TRỤ.epub",
+      "mime": "application/epub+zip",
+      "size": 878025,
+      "modified": "2026-08-15T09:53:05.000Z",
+      "checksum": "0f1d96fbeecf13887b49abe20a773ee2",
+      "folder": false
+    },
+    {
+      "id": "18UCMrhzLBxyM__RDklA5Ci3qIMNEIzi0",
+      "parent_id": "13DRX9RkZHoQidakSpj9DTGAHm5-rjH6b",
+      "name": "ĐẾ TRỤ.pdf",
+      "mime": "application/pdf",
+      "size": 2927928,
+      "modified": "2026-08-15T09:53:00.000Z",
+      "checksum": "8107e4a3654bb04e8369d2205ddd32f5",
+      "folder": false
+    }
+  ]
+}

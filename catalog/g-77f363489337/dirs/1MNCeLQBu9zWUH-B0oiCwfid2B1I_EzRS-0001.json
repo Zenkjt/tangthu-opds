@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MNCeLQBu9zWUH-B0oiCwfid2B1I_EzRS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1X5v8gBSi4pOkImWkurVeAB-HYv3E01yk",
+      "parent_id": "1MNCeLQBu9zWUH-B0oiCwfid2B1I_EzRS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3223,
+      "modified": "2026-08-16T04:00:22.000Z",
+      "checksum": "962dd4b0695ada526cad63b7b68c75cf",
+      "folder": false
+    },
+    {
+      "id": "1eGWeqRjzjG2RvTbYihcWcxqMbLpas7Dl",
+      "parent_id": "1MNCeLQBu9zWUH-B0oiCwfid2B1I_EzRS",
+      "name": "THÁI CÔ NHI (MAN CÔ NHI).epub",
+      "mime": "application/epub+zip",
+      "size": 267773,
+      "modified": "2026-08-16T04:00:55.000Z",
+      "checksum": "57b33fbfb5a5d627b28e1e82b66c64ba",
+      "folder": false
+    },
+    {
+      "id": "13l7G4UPRZN2kN990iXLmybWEsgWhMQB_",
+      "parent_id": "1MNCeLQBu9zWUH-B0oiCwfid2B1I_EzRS",
+      "name": "THÁI CÔ NHI (MAN CÔ NHI).pdf",
+      "mime": "application/pdf",
+      "size": 635327,
+      "modified": "2026-08-16T04:00:52.000Z",
+      "checksum": "be74fded4460c2f6eeb3e0c76b74bb00",
+      "folder": false
+    }
+  ]
+}

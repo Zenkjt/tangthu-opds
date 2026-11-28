@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1S2b6l8ovScngu5sW50nGiE2rwXIIr_q-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1yOZNvEXSWGxtp9QMO7napKl2NrVjZRvH",
+      "parent_id": "1S2b6l8ovScngu5sW50nGiE2rwXIIr_q-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 21285,
+      "modified": "2026-08-15T07:56:47.000Z",
+      "checksum": "ab1fe17d59f3a59eed64c6ea8561242e",
+      "folder": false
+    },
+    {
+      "id": "1xNld-gdSXOBVBTUqEB1PR1BKlhKMTNag",
+      "parent_id": "1S2b6l8ovScngu5sW50nGiE2rwXIIr_q-",
+      "name": "LUÔN CÓ NGƯỜI ĐỢI ANH.epub",
+      "mime": "application/epub+zip",
+      "size": 1333209,
+      "modified": "2026-08-15T07:57:04.000Z",
+      "checksum": "ce82bc5667e09a1632a968931d992a8f",
+      "folder": false
+    },
+    {
+      "id": "1SQcqurGsW2NLMx9gkBpeBmAYiadMJKQb",
+      "parent_id": "1S2b6l8ovScngu5sW50nGiE2rwXIIr_q-",
+      "name": "LUÔN CÓ NGƯỜI ĐỢI ANH.pdf",
+      "mime": "application/pdf",
+      "size": 1314386,
+      "modified": "2026-08-15T07:56:58.000Z",
+      "checksum": "94ebd93adcd41cc82f3a03128cc72b9e",
+      "folder": false
+    }
+  ]
+}

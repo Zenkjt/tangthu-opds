@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fFcgGbgN3VbNmnQ-95nVMqVdGfUUFq0T",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PbRYgsx6Ws0NO2MMiSV7yyjEJT91I586",
+      "parent_id": "1fFcgGbgN3VbNmnQ-95nVMqVdGfUUFq0T",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 591,
+      "modified": "2026-08-15T10:58:44.000Z",
+      "checksum": "d04f3b11a19d7723bca66ca3cfe24907",
+      "folder": false
+    },
+    {
+      "id": "1VR6sNzE2MrGCH23YxSZ062ZApKSCQSBm",
+      "parent_id": "1fFcgGbgN3VbNmnQ-95nVMqVdGfUUFq0T",
+      "name": "ĐỢI BỌN MỌI.epub",
+      "mime": "application/epub+zip",
+      "size": 530638,
+      "modified": "2026-08-15T10:58:57.000Z",
+      "checksum": "8f52a60a81d1f612747ba074c28ab504",
+      "folder": false
+    },
+    {
+      "id": "1HC1h3uXyINUmNii7je-rDEWoYoK-tkTz",
+      "parent_id": "1fFcgGbgN3VbNmnQ-95nVMqVdGfUUFq0T",
+      "name": "ĐỢI BỌN MỌI.pdf",
+      "mime": "application/pdf",
+      "size": 913713,
+      "modified": "2026-08-15T10:58:52.000Z",
+      "checksum": "78ff1c1f63b16b2de1a4ad6035406fc2",
+      "folder": false
+    }
+  ]
+}

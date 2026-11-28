@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1z63NbbzUC3UXgon6ShxlLhi4-hwLAeO8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1B21S771ql9EZJ5SasLHwi-i2B5WpUwcM",
+      "parent_id": "1z63NbbzUC3UXgon6ShxlLhi4-hwLAeO8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1712,
+      "modified": "2026-08-15T08:05:33.000Z",
+      "checksum": "e19238c020ff910ca0bb8f40aa0069fa",
+      "folder": false
+    },
+    {
+      "id": "1NINxxibasGB0HncrDf0w0EaIMda3bG1A",
+      "parent_id": "1z63NbbzUC3UXgon6ShxlLhi4-hwLAeO8",
+      "name": "ĐẠI TẦN BÁ NGHIỆP.epub",
+      "mime": "application/epub+zip",
+      "size": 7052893,
+      "modified": "2026-08-15T08:05:47.000Z",
+      "checksum": "3b75b096b011706772cfe95d71631a74",
+      "folder": false
+    },
+    {
+      "id": "12dHkDSPDjiQYA8GS9IiYgSxLEifxArYE",
+      "parent_id": "1z63NbbzUC3UXgon6ShxlLhi4-hwLAeO8",
+      "name": "ĐẠI TẦN BÁ NGHIỆP.pdf",
+      "mime": "application/pdf",
+      "size": 5984213,
+      "modified": "2026-08-15T08:05:43.000Z",
+      "checksum": "deaa68c9f49a2edc2d1937832b4faff0",
+      "folder": false
+    }
+  ]
+}

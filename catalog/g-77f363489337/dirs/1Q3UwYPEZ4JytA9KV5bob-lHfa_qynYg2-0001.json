@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Q3UwYPEZ4JytA9KV5bob-lHfa_qynYg2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JDnCnbq2tbQHOfd5aLx8y9dkYiui1Xzc",
+      "parent_id": "1Q3UwYPEZ4JytA9KV5bob-lHfa_qynYg2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4158,
+      "modified": "2026-08-15T07:09:42.000Z",
+      "checksum": "201ee77e63984480e49420b102c1cfb8",
+      "folder": false
+    },
+    {
+      "id": "1PmBR6V9tktZ4hteaBKo_ZGcNBohal8r8",
+      "parent_id": "1Q3UwYPEZ4JytA9KV5bob-lHfa_qynYg2",
+      "name": "THẦY THÔNG NGÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 388166,
+      "modified": "2026-08-15T07:09:51.000Z",
+      "checksum": "55728bceb7433634069aaced460e916b",
+      "folder": false
+    },
+    {
+      "id": "1bqB3BWcj830dnrYhfS36ucu_PQg2oiDd",
+      "parent_id": "1Q3UwYPEZ4JytA9KV5bob-lHfa_qynYg2",
+      "name": "THẦY THÔNG NGÔN.pdf",
+      "mime": "application/pdf",
+      "size": 399955,
+      "modified": "2026-08-15T07:09:48.000Z",
+      "checksum": "7bebd857cfd2ce2a1264ba72c4b9505c",
+      "folder": false
+    }
+  ]
+}

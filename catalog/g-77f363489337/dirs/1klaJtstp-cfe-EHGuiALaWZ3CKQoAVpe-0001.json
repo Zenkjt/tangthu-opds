@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1klaJtstp-cfe-EHGuiALaWZ3CKQoAVpe",
+  "page": 1,
+  "items": [
+    {
+      "id": "10CNStr6jCcqNoxS87s5u7Uy48bZkclYt",
+      "parent_id": "1klaJtstp-cfe-EHGuiALaWZ3CKQoAVpe",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3275,
+      "modified": "2026-08-16T03:58:23.000Z",
+      "checksum": "276d007f2e75cad7dc41ae3debd69901",
+      "folder": false
+    },
+    {
+      "id": "1qel3cnhyDHO2it4vgSFFnWlU4J-P-JUJ",
+      "parent_id": "1klaJtstp-cfe-EHGuiALaWZ3CKQoAVpe",
+      "name": "THÍ KIẾM SƠN TRANG.epub",
+      "mime": "application/epub+zip",
+      "size": 254434,
+      "modified": "2026-08-16T03:58:28.000Z",
+      "checksum": "bd65accf5d9aef41d2ffd4ad3c65bfc3",
+      "folder": false
+    },
+    {
+      "id": "1oKTLvMcRIY1GLOKPkIdabZgiclWwwyIp",
+      "parent_id": "1klaJtstp-cfe-EHGuiALaWZ3CKQoAVpe",
+      "name": "THÍ KIẾM SƠN TRANG.pdf",
+      "mime": "application/pdf",
+      "size": 215616,
+      "modified": "2026-08-16T03:58:26.000Z",
+      "checksum": "d2405374f8111be9c2e10ba3e284089d",
+      "folder": false
+    }
+  ]
+}

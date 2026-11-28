@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jGjagW47e4sbtiSGxlPfo4fnFeJzqoEP",
+  "page": 1,
+  "items": [
+    {
+      "id": "12m8m0t-1pLBklnRGSpS2vy77ZOG7ilUj",
+      "parent_id": "1jGjagW47e4sbtiSGxlPfo4fnFeJzqoEP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11707,
+      "modified": "2026-08-15T09:16:02.000Z",
+      "checksum": "583766ebf7a5062cfd491b35b7ad6070",
+      "folder": false
+    },
+    {
+      "id": "1kp6TU5Tv2NY7trSZ4p41117ZMsVTV1c9",
+      "parent_id": "1jGjagW47e4sbtiSGxlPfo4fnFeJzqoEP",
+      "name": "TỐI CƯỜNG HỆ THỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 30285417,
+      "modified": "2026-08-15T09:22:06.000Z",
+      "checksum": "5af0d7a21299b8fc36ace43d033ab319",
+      "folder": false
+    },
+    {
+      "id": "13nN6QtYh6PqhoSjua7AkhXyVxhVT1bTZ",
+      "parent_id": "1jGjagW47e4sbtiSGxlPfo4fnFeJzqoEP",
+      "name": "TỐI CƯỜNG HỆ THỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 24056215,
+      "modified": "2026-08-15T09:19:50.000Z",
+      "checksum": "7d287df55eaabfa301e1e56f8a504fcf",
+      "folder": false
+    }
+  ]
+}

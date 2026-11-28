@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oSkAPPTzmDcu5uhHOwPZ8-pgoiEv3Kmq",
+  "page": 1,
+  "items": [
+    {
+      "id": "11inCB2X0YWpLAiVPVGYaGrTg5YGa7lQp",
+      "parent_id": "1oSkAPPTzmDcu5uhHOwPZ8-pgoiEv3Kmq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2939,
+      "modified": "2026-08-16T03:53:51.000Z",
+      "checksum": "622e59c728d9dfe882eacd62ed908fda",
+      "folder": false
+    },
+    {
+      "id": "1zlkFxSTn14diXdt-UcQngATMMFSAJIEM",
+      "parent_id": "1oSkAPPTzmDcu5uhHOwPZ8-pgoiEv3Kmq",
+      "name": "TÌNH YÊU ĐAU ĐỚN THẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 652616,
+      "modified": "2026-08-16T03:53:58.000Z",
+      "checksum": "675012ba91ec4c1a38bba3400102d6a3",
+      "folder": false
+    },
+    {
+      "id": "1TpMzs9gaT7n7RBdSM6PHuqw7TMqTqQTv",
+      "parent_id": "1oSkAPPTzmDcu5uhHOwPZ8-pgoiEv3Kmq",
+      "name": "TÌNH YÊU ĐAU ĐỚN THẾ.pdf",
+      "mime": "application/pdf",
+      "size": 2015582,
+      "modified": "2026-08-16T03:53:56.000Z",
+      "checksum": "eb91ae13fc08169fcc1f40986105b75f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Opp89eKliZhy9YBgJcAQTahlfn3mBAeu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1y-IRk5aAzrAQnYvsd9etck1URdPJmezZ",
+      "parent_id": "1Opp89eKliZhy9YBgJcAQTahlfn3mBAeu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1998,
+      "modified": "2026-08-15T03:58:39.000Z",
+      "checksum": "9f5b78f4a2b8584ea3ed994e5bc76832",
+      "folder": false
+    },
+    {
+      "id": "1c81O3jGp91ySH8DyG7Ogfkq6XcUYwyhS",
+      "parent_id": "1Opp89eKliZhy9YBgJcAQTahlfn3mBAeu",
+      "name": "MINH TRIẾT NGÀN XƯA.epub",
+      "mime": "application/epub+zip",
+      "size": 502920,
+      "modified": "2026-08-15T03:58:45.000Z",
+      "checksum": "f290b7c1d44d7ee4faa176c53a16a761",
+      "folder": false
+    },
+    {
+      "id": "1YbL_vjK8omHSCuWFMhtX8kr59U1tfLL5",
+      "parent_id": "1Opp89eKliZhy9YBgJcAQTahlfn3mBAeu",
+      "name": "MINH TRIẾT NGÀN XƯA.pdf",
+      "mime": "application/pdf",
+      "size": 1897325,
+      "modified": "2026-08-15T03:58:43.000Z",
+      "checksum": "54dc3390a42713c50d6845f2d7700b39",
+      "folder": false
+    }
+  ]
+}

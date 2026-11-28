@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HsWNcMrRlj0rGF34pQG411vK1gfR2eYO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XfN95dxyPrUY3vnPD62DuSPNVGWpfhAq",
+      "parent_id": "1HsWNcMrRlj0rGF34pQG411vK1gfR2eYO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 692,
+      "modified": "2026-08-15T05:52:39.000Z",
+      "checksum": "dbb8e0ecd92c7e58d3e844e64ecd9444",
+      "folder": false
+    },
+    {
+      "id": "18WiAwIIVuR1sL3dW83B7KsUIHbXJ2xuz",
+      "parent_id": "1HsWNcMrRlj0rGF34pQG411vK1gfR2eYO",
+      "name": "HỒ CHÍ MINH TOÀN TẬP - TẬP 1.epub",
+      "mime": "application/epub+zip",
+      "size": 565615,
+      "modified": "2026-08-15T05:52:47.000Z",
+      "checksum": "39cb5ee5ecf4848314e4f7a51c7c149b",
+      "folder": false
+    },
+    {
+      "id": "1_EvYyNFl0LexyisuDZItQFMhxQt2Jjlp",
+      "parent_id": "1HsWNcMrRlj0rGF34pQG411vK1gfR2eYO",
+      "name": "HỒ CHÍ MINH TOÀN TẬP - TẬP 1.pdf",
+      "mime": "application/pdf",
+      "size": 1980261,
+      "modified": "2026-08-15T05:52:44.000Z",
+      "checksum": "50bdaa9e23085339bc38df3fd494d018",
+      "folder": false
+    }
+  ]
+}

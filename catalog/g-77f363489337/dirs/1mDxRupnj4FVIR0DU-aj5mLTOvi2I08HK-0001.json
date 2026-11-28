@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mDxRupnj4FVIR0DU-aj5mLTOvi2I08HK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZmEU3hEpd225ddjWgRWhxvgaxsSi2K61",
+      "parent_id": "1mDxRupnj4FVIR0DU-aj5mLTOvi2I08HK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 564,
+      "modified": "2026-08-15T10:24:15.000Z",
+      "checksum": "9f38d6b5216fd38b43870ae0a2a418d1",
+      "folder": false
+    },
+    {
+      "id": "1854y2lCYzVqB5A_TlOd572y28w6FB5GH",
+      "parent_id": "1mDxRupnj4FVIR0DU-aj5mLTOvi2I08HK",
+      "name": "SUSHI CHO NGƯỜI MỚI BẮT ĐẦU.epub",
+      "mime": "application/epub+zip",
+      "size": 814465,
+      "modified": "2026-08-15T10:24:25.000Z",
+      "checksum": "4f41d00ab7460b59bd3ef22086310668",
+      "folder": false
+    },
+    {
+      "id": "1221BIWhARKC_dBbMrQqfToBKgdRD9D79",
+      "parent_id": "1mDxRupnj4FVIR0DU-aj5mLTOvi2I08HK",
+      "name": "SUSHI CHO NGƯỜI MỚI BẮT ĐẦU.pdf",
+      "mime": "application/pdf",
+      "size": 2235155,
+      "modified": "2026-08-15T10:24:23.000Z",
+      "checksum": "bdb52e508a98dce91a5c9cb4cfc40c33",
+      "folder": false
+    }
+  ]
+}

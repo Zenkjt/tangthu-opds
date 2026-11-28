@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-vVGe2urpig0K7z4cuDLlEyoicKESXDT",
+  "page": 1,
+  "items": [
+    {
+      "id": "157PPegnVZs_D7N5yDqpZ7Sc1sTBKzQAd",
+      "parent_id": "1-vVGe2urpig0K7z4cuDLlEyoicKESXDT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2873,
+      "modified": "2026-08-15T11:04:10.000Z",
+      "checksum": "5618590a685d754c591ee0f866687495",
+      "folder": false
+    },
+    {
+      "id": "1-rh96hLhSYAzDrRIOqlBWMOFgxLLVIf8",
+      "parent_id": "1-vVGe2urpig0K7z4cuDLlEyoicKESXDT",
+      "name": "HÀNH TINH THỨ 12.epub",
+      "mime": "application/epub+zip",
+      "size": 2206341,
+      "modified": "2026-08-15T11:04:47.000Z",
+      "checksum": "a79687bcf5f9f724a3d929ee34a97739",
+      "folder": false
+    },
+    {
+      "id": "1IxM0iyfB_H7b3Km6ezndpyKWRRuhogyD",
+      "parent_id": "1-vVGe2urpig0K7z4cuDLlEyoicKESXDT",
+      "name": "HÀNH TINH THỨ 12.pdf",
+      "mime": "application/pdf",
+      "size": 4150417,
+      "modified": "2026-08-15T11:04:40.000Z",
+      "checksum": "4d3d8673c22f06d4a1ad55c598e359e3",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "10tuu_RU85vcwRmNp-lSi9aZfAqK2rxk7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1woJApwyJYCTvsGW9hvGh2ZmOiQvewNRe",
+      "parent_id": "10tuu_RU85vcwRmNp-lSi9aZfAqK2rxk7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 673,
+      "modified": "2026-08-15T10:59:39.000Z",
+      "checksum": "20aa9144ff90eb7f56281ad421923bd8",
+      "folder": false
+    },
+    {
+      "id": "160h0X1XeIKO7pwWmKRvt3iUpthnDVfjC",
+      "parent_id": "10tuu_RU85vcwRmNp-lSi9aZfAqK2rxk7",
+      "name": "ĐẤU TRƯỜNG ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 854486,
+      "modified": "2026-08-15T10:59:47.000Z",
+      "checksum": "0ff2ac490d6e5975b90a11ac2f42042c",
+      "folder": false
+    },
+    {
+      "id": "1Ka-GQ0V9oY9OszYxQIKqf8OYmLv9qBOl",
+      "parent_id": "10tuu_RU85vcwRmNp-lSi9aZfAqK2rxk7",
+      "name": "ĐẤU TRƯỜNG ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 1128152,
+      "modified": "2026-08-15T10:59:43.000Z",
+      "checksum": "238ba08a7c47be79d005eb5cf54e44ac",
+      "folder": false
+    }
+  ]
+}

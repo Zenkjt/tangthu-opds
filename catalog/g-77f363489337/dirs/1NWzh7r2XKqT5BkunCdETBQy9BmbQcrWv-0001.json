@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1NWzh7r2XKqT5BkunCdETBQy9BmbQcrWv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1N-EK_80om7vHtuXG3nu5kR95BFudN_Av",
+      "parent_id": "1NWzh7r2XKqT5BkunCdETBQy9BmbQcrWv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 632,
+      "modified": "2026-08-15T10:05:53.000Z",
+      "checksum": "1f6c2824e9bf62a4841367b8863a174f",
+      "folder": false
+    },
+    {
+      "id": "1cv4b4asSN7SkO2ATp5_XQMGgxJ3qvkAp",
+      "parent_id": "1NWzh7r2XKqT5BkunCdETBQy9BmbQcrWv",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN LỖ TẤN.epub",
+      "mime": "application/epub+zip",
+      "size": 453267,
+      "modified": "2026-08-15T10:06:00.000Z",
+      "checksum": "602c8ef2fef952e5f3643107536c5969",
+      "folder": false
+    },
+    {
+      "id": "1zG93pxHKL13tY5G963E6DMHG-uS1HMaX",
+      "parent_id": "1NWzh7r2XKqT5BkunCdETBQy9BmbQcrWv",
+      "name": "TUYỂN TẬP TRUYỆN NGẮN LỖ TẤN.pdf",
+      "mime": "application/pdf",
+      "size": 1118142,
+      "modified": "2026-08-15T10:05:57.000Z",
+      "checksum": "b4213a1d04af2975f68c46fd06a92673",
+      "folder": false
+    }
+  ]
+}

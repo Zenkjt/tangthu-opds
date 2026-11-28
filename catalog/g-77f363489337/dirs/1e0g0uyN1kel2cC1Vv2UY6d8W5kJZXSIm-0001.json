@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1e0g0uyN1kel2cC1Vv2UY6d8W5kJZXSIm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1E-_ai3P4BzKaPmBZ2aO-zWtv5FG0b5gc",
+      "parent_id": "1e0g0uyN1kel2cC1Vv2UY6d8W5kJZXSIm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3644,
+      "modified": "2026-08-16T04:06:02.000Z",
+      "checksum": "bc745de0a91214fa19af255dc94edbb7",
+      "folder": false
+    },
+    {
+      "id": "170fwkid2Z6VBP0EtnNxUWxXozxtDTb8W",
+      "parent_id": "1e0g0uyN1kel2cC1Vv2UY6d8W5kJZXSIm",
+      "name": "TRUYỆN NGẮN YASUNARI KAWABATA.epub",
+      "mime": "application/epub+zip",
+      "size": 522549,
+      "modified": "2026-08-16T04:06:09.000Z",
+      "checksum": "caceca78c01f991ee7276e7fa605ce28",
+      "folder": false
+    },
+    {
+      "id": "1DnF_i9EJFkoUvtmoH8ZRMBsGxnPOlAP7",
+      "parent_id": "1e0g0uyN1kel2cC1Vv2UY6d8W5kJZXSIm",
+      "name": "TRUYỆN NGẮN YASUNARI KAWABATA.pdf",
+      "mime": "application/pdf",
+      "size": 689542,
+      "modified": "2026-08-16T04:06:06.000Z",
+      "checksum": "971a65e2fdfa41f3e8df917c97674343",
+      "folder": false
+    }
+  ]
+}

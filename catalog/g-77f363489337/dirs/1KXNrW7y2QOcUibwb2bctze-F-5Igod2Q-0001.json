@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KXNrW7y2QOcUibwb2bctze-F-5Igod2Q",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KKg3JkxH099xjOARIwKVWMiMlVpfbvr0",
+      "parent_id": "1KXNrW7y2QOcUibwb2bctze-F-5Igod2Q",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1638,
+      "modified": "2026-08-15T06:45:57.000Z",
+      "checksum": "7149f21d05485f55b31712a02d2b2abd",
+      "folder": false
+    },
+    {
+      "id": "1KOynUYUR45uv9n8RTWTmoOmeWp6NtAwd",
+      "parent_id": "1KXNrW7y2QOcUibwb2bctze-F-5Igod2Q",
+      "name": "PHIÊU MIỄU CHI LỮ.epub",
+      "mime": "application/epub+zip",
+      "size": 3375220,
+      "modified": "2026-08-15T06:49:12.000Z",
+      "checksum": "c1736f6254cf5c7870c58c6c8cc18b68",
+      "folder": false
+    },
+    {
+      "id": "1ZHhTvOThWpK9EvD26Ffxvw2tkHoh7etS",
+      "parent_id": "1KXNrW7y2QOcUibwb2bctze-F-5Igod2Q",
+      "name": "PHIÊU MIỄU CHI LỮ.pdf",
+      "mime": "application/pdf",
+      "size": 16021723,
+      "modified": "2026-08-15T06:49:07.000Z",
+      "checksum": "2bcefcb2c43fd6b658e061fb6f25f8df",
+      "folder": false
+    }
+  ]
+}

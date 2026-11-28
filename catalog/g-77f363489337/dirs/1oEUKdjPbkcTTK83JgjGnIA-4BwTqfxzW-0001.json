@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oEUKdjPbkcTTK83JgjGnIA-4BwTqfxzW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1OziIItP1qKCLUCXt2B5efjnz48p4FMQm",
+      "parent_id": "1oEUKdjPbkcTTK83JgjGnIA-4BwTqfxzW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2353,
+      "modified": "2026-08-15T07:39:13.000Z",
+      "checksum": "a2f60d45e996e670f3192f41b55508e3",
+      "folder": false
+    },
+    {
+      "id": "1ulqVmoawQJptQdoOxV4AGSOoJYDapAsa",
+      "parent_id": "1oEUKdjPbkcTTK83JgjGnIA-4BwTqfxzW",
+      "name": "MẶT TRĂNG CỦA EMLYN.epub",
+      "mime": "application/epub+zip",
+      "size": 372894,
+      "modified": "2026-08-15T07:39:20.000Z",
+      "checksum": "43574931fb0ea922688651778a724ed0",
+      "folder": false
+    },
+    {
+      "id": "1YoIMTZaUhxA-WUU_QkNTl67UOj8jZ_c0",
+      "parent_id": "1oEUKdjPbkcTTK83JgjGnIA-4BwTqfxzW",
+      "name": "MẶT TRĂNG CỦA EMLYN.pdf",
+      "mime": "application/pdf",
+      "size": 689680,
+      "modified": "2026-08-15T07:39:17.000Z",
+      "checksum": "6ad1ce33a071dd1e967df70df84cee7d",
+      "folder": false
+    }
+  ]
+}

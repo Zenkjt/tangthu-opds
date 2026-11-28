@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ci-lOgcqBhLqb8xRVwZzevNgeVEeBjl6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1L7C_vz22daN-aAv8IbFEX8k2zg0xd4C9",
+      "parent_id": "1Ci-lOgcqBhLqb8xRVwZzevNgeVEeBjl6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3414,
+      "modified": "2026-08-15T10:08:00.000Z",
+      "checksum": "ca92bcd112d5b89a0a1ccc382dc78748",
+      "folder": false
+    },
+    {
+      "id": "1v1nmfw22UWWBIc-fj_GrgvyHcQ6GJfwu",
+      "parent_id": "1Ci-lOgcqBhLqb8xRVwZzevNgeVEeBjl6",
+      "name": "TÌNH YÊU TRỞ LẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 434416,
+      "modified": "2026-08-15T10:08:08.000Z",
+      "checksum": "825d6aa66ed11bf2654076fe45f0cddd",
+      "folder": false
+    },
+    {
+      "id": "105QujN68UgOVLjYnqxJ7PYFzv-5YkOd5",
+      "parent_id": "1Ci-lOgcqBhLqb8xRVwZzevNgeVEeBjl6",
+      "name": "TÌNH YÊU TRỞ LẠI.pdf",
+      "mime": "application/pdf",
+      "size": 1631427,
+      "modified": "2026-08-15T10:08:05.000Z",
+      "checksum": "2b552a3aa0a763ee123bc33e339226cd",
+      "folder": false
+    }
+  ]
+}

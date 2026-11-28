@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1R1C4NsG2XqrD1XdnEGOf58zSHdN3r80z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1i3CgchaQCsL6kNNw_R1F_aXHxtEeLmlu",
+      "parent_id": "1R1C4NsG2XqrD1XdnEGOf58zSHdN3r80z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 10874,
+      "modified": "2026-08-15T15:24:24.000Z",
+      "checksum": "5a11a1c65622a86b5feace2dd5a5d199",
+      "folder": false
+    },
+    {
+      "id": "1cEkm0g1dwHhtEmwcb4FdC33UaArEyWcz",
+      "parent_id": "1R1C4NsG2XqrD1XdnEGOf58zSHdN3r80z",
+      "name": "SỨ GIẢ CỦA THẦN CHẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 718323,
+      "modified": "2026-08-15T15:27:19.000Z",
+      "checksum": "e6a647008f1c89e6da892a6aad7a7bcc",
+      "folder": false
+    },
+    {
+      "id": "1K91ZXsU1TNutm821tcFkt0qw_mweU5Gk",
+      "parent_id": "1R1C4NsG2XqrD1XdnEGOf58zSHdN3r80z",
+      "name": "SỨ GIẢ CỦA THẦN CHẾT.pdf",
+      "mime": "application/pdf",
+      "size": 2002313,
+      "modified": "2026-08-15T15:27:14.000Z",
+      "checksum": "d343fba80e858b888c973fc22e58419f",
+      "folder": false
+    }
+  ]
+}

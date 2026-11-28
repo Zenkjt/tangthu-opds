@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1AUD6xp9VRvPx6hrnzKhSGpW0UlB1qnm-",
+  "page": 1,
+  "items": [
+    {
+      "id": "19t-CBd1Iw9xkrCvLhr51IJfxWazbplIk",
+      "parent_id": "1AUD6xp9VRvPx6hrnzKhSGpW0UlB1qnm-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11549,
+      "modified": "2026-08-15T07:21:38.000Z",
+      "checksum": "687605013ae2a70a899245f148d966c0",
+      "folder": false
+    },
+    {
+      "id": "1bQPc4qOrf6J0fjG8iAS3AvnVEmJlYdqA",
+      "parent_id": "1AUD6xp9VRvPx6hrnzKhSGpW0UlB1qnm-",
+      "name": "TRÍ TUỆ ĐẠI TỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 4999346,
+      "modified": "2026-08-15T07:21:54.000Z",
+      "checksum": "b89381f1264cc13519ac3f2a8f75e96f",
+      "folder": false
+    },
+    {
+      "id": "1tSSadkTo4VuL6UTWXkjLz6ZtS5EXKEhB",
+      "parent_id": "1AUD6xp9VRvPx6hrnzKhSGpW0UlB1qnm-",
+      "name": "TRÍ TUỆ ĐẠI TỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 4728544,
+      "modified": "2026-08-15T07:21:47.000Z",
+      "checksum": "8034fd176fc199d2f9f7b859b5b70e4d",
+      "folder": false
+    }
+  ]
+}

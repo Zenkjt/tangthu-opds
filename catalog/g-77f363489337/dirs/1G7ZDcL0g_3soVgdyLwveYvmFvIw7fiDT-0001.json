@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1G7ZDcL0g_3soVgdyLwveYvmFvIw7fiDT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SNvspOE-_k_RUIdZFnLWdj4aqTCicFHA",
+      "parent_id": "1G7ZDcL0g_3soVgdyLwveYvmFvIw7fiDT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11188,
+      "modified": "2026-08-15T15:51:41.000Z",
+      "checksum": "a01568fa3e099e086c1e33cf89373d48",
+      "folder": false
+    },
+    {
+      "id": "1f4CRPogid-tclQhrJbPMiE1kDpaHfyAI",
+      "parent_id": "1G7ZDcL0g_3soVgdyLwveYvmFvIw7fiDT",
+      "name": "VÔ SẮC VÔ HOAN.epub",
+      "mime": "application/epub+zip",
+      "size": 2370773,
+      "modified": "2026-08-15T15:51:50.000Z",
+      "checksum": "9ac3217527dd5e2cd2e55edc3edafc7b",
+      "folder": false
+    },
+    {
+      "id": "1xkaG9bZ6V7fKloEH0G-hz6LqcQpTK3-M",
+      "parent_id": "1G7ZDcL0g_3soVgdyLwveYvmFvIw7fiDT",
+      "name": "VÔ SẮC VÔ HOAN.pdf",
+      "mime": "application/pdf",
+      "size": 2204478,
+      "modified": "2026-08-15T15:51:47.000Z",
+      "checksum": "6a5fb3a6d6210a0ccd8b987452027ee3",
+      "folder": false
+    }
+  ]
+}

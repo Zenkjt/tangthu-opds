@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17moGUnjeBXCwkyxdBuPFH9wvEZ2_O5ns",
+  "page": 1,
+  "items": [
+    {
+      "id": "11Knbqf8dRYIwdtoe2YS-HVj-CNgzpNRR",
+      "parent_id": "17moGUnjeBXCwkyxdBuPFH9wvEZ2_O5ns",
+      "name": "description.txt",
+      "mime": "audio/mp4a-latm",
+      "size": 2964,
+      "modified": "2026-08-16T04:06:24.000Z",
+      "checksum": "10c3fb96b0f5f446adf703f04dac8ef1",
+      "folder": false
+    },
+    {
+      "id": "1ge6aMzZVoIrIxU1r8_4cEVehH_jON4us",
+      "parent_id": "17moGUnjeBXCwkyxdBuPFH9wvEZ2_O5ns",
+      "name": "PHÍA SAU MỘT CÔ GÁI.epub",
+      "mime": "application/epub+zip",
+      "size": 961234,
+      "modified": "2026-08-16T04:06:31.000Z",
+      "checksum": "8c9d760c263bf44f48885ab910950410",
+      "folder": false
+    },
+    {
+      "id": "1Fw9se6pklTs0yD5-u33nWmZKke3PLo5T",
+      "parent_id": "17moGUnjeBXCwkyxdBuPFH9wvEZ2_O5ns",
+      "name": "PHÍA SAU MỘT CÔ GÁI.pdf",
+      "mime": "application/pdf",
+      "size": 651076,
+      "modified": "2026-08-16T04:06:28.000Z",
+      "checksum": "d0b900609eb8494cd28f4d30f9251b5d",
+      "folder": false
+    }
+  ]
+}

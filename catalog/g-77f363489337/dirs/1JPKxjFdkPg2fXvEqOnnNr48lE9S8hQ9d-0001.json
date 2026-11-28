@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JPKxjFdkPg2fXvEqOnnNr48lE9S8hQ9d",
+  "page": 1,
+  "items": [
+    {
+      "id": "12jJv0wahoORqRzBtoX9QrB-ikRFPOZKI",
+      "parent_id": "1JPKxjFdkPg2fXvEqOnnNr48lE9S8hQ9d",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3454,
+      "modified": "2026-08-15T10:17:09.000Z",
+      "checksum": "4c145d961270949caa2153959c485389",
+      "folder": false
+    },
+    {
+      "id": "1yryeUd1pGjFn2TCTDAqbktHF3LCw6gvq",
+      "parent_id": "1JPKxjFdkPg2fXvEqOnnNr48lE9S8hQ9d",
+      "name": "THẮNG BẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 531867,
+      "modified": "2026-08-15T10:17:18.000Z",
+      "checksum": "9ae6d0ec3280b9ed76bb508385d77227",
+      "folder": false
+    },
+    {
+      "id": "1Lpp4jAu99_bG3zXwdiyHPf8pl_5uN4qM",
+      "parent_id": "1JPKxjFdkPg2fXvEqOnnNr48lE9S8hQ9d",
+      "name": "THẮNG BẠI.pdf",
+      "mime": "application/pdf",
+      "size": 1442736,
+      "modified": "2026-08-15T10:17:14.000Z",
+      "checksum": "0ad670eb4b5764efb4c794a29b5a75da",
+      "folder": false
+    }
+  ]
+}

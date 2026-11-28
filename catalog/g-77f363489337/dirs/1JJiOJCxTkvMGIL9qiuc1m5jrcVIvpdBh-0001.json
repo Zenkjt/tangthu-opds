@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JJiOJCxTkvMGIL9qiuc1m5jrcVIvpdBh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gaq27gCCXjsW4inppl7aUzhihnToUlKi",
+      "parent_id": "1JJiOJCxTkvMGIL9qiuc1m5jrcVIvpdBh",
+      "name": "BẢN NĂNG.epub",
+      "mime": "application/epub+zip",
+      "size": 641840,
+      "modified": "2026-08-16T02:55:06.000Z",
+      "checksum": "0a17864d2bf1ade142e4ee5bd6eaa7f3",
+      "folder": false
+    },
+    {
+      "id": "1SeJiZC4rACobfzjwtDCViKLpxbNU97RR",
+      "parent_id": "1JJiOJCxTkvMGIL9qiuc1m5jrcVIvpdBh",
+      "name": "BẢN NĂNG.pdf",
+      "mime": "application/pdf",
+      "size": 1679133,
+      "modified": "2026-08-16T02:55:03.000Z",
+      "checksum": "06826afaee58c25416928818e39db530",
+      "folder": false
+    },
+    {
+      "id": "1PfGK1jhzJT9a-aq_JgJRNrgaEbxy0EGY",
+      "parent_id": "1JJiOJCxTkvMGIL9qiuc1m5jrcVIvpdBh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1999,
+      "modified": "2026-08-16T02:54:57.000Z",
+      "checksum": "76c10251003817294fdeca36095a99a9",
+      "folder": false
+    }
+  ]
+}

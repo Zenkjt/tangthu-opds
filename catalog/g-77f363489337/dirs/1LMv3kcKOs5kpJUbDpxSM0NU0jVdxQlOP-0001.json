@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LMv3kcKOs5kpJUbDpxSM0NU0jVdxQlOP",
+  "page": 1,
+  "items": [
+    {
+      "id": "14tzMhdXbEmAulK8D4a96uKMY0jigPQph",
+      "parent_id": "1LMv3kcKOs5kpJUbDpxSM0NU0jVdxQlOP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 555,
+      "modified": "2026-08-15T10:52:35.000Z",
+      "checksum": "ef9b2ee8986bd0cf8f2b4ab7edafebca",
+      "folder": false
+    },
+    {
+      "id": "1snzPeCOOe_EmBUncQoZzy2mYVsTSS2dO",
+      "parent_id": "1LMv3kcKOs5kpJUbDpxSM0NU0jVdxQlOP",
+      "name": "MIKE TYSON - SỰ THẬT TRẦN TRỤI.epub",
+      "mime": "application/epub+zip",
+      "size": 401921,
+      "modified": "2026-08-15T10:52:43.000Z",
+      "checksum": "420fa87ab6294df522287becb2e310f3",
+      "folder": false
+    },
+    {
+      "id": "1HsNC3lhMGq_soqCiMHSFZxa-VYQi-eix",
+      "parent_id": "1LMv3kcKOs5kpJUbDpxSM0NU0jVdxQlOP",
+      "name": "MIKE TYSON - SỰ THẬT TRẦN TRỤI.pdf",
+      "mime": "application/pdf",
+      "size": 504455,
+      "modified": "2026-08-15T10:52:39.000Z",
+      "checksum": "1f20e359b0119c490059ec6904200a78",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jQANwmhIEFupFF9Mdl-1zuGoDllPKW2v",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EuuTPOCzkrGfozvKo8PxqO2vboZRPAdV",
+      "parent_id": "1jQANwmhIEFupFF9Mdl-1zuGoDllPKW2v",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 639,
+      "modified": "2026-08-15T10:56:45.000Z",
+      "checksum": "fc0d2457e4dab7fd89cf0ea30208c762",
+      "folder": false
+    },
+    {
+      "id": "1GnEITuvEIKQ_WUK3x-E0floLwRYYLDlQ",
+      "parent_id": "1jQANwmhIEFupFF9Mdl-1zuGoDllPKW2v",
+      "name": "HẸN MÁU.epub",
+      "mime": "application/epub+zip",
+      "size": 660016,
+      "modified": "2026-08-15T10:56:52.000Z",
+      "checksum": "fe2c7c892caac8520a7ca483134f5ccf",
+      "folder": false
+    },
+    {
+      "id": "1IB6fiZbz92xJKr8KMI9LTXRf96tC-WpB",
+      "parent_id": "1jQANwmhIEFupFF9Mdl-1zuGoDllPKW2v",
+      "name": "HẸN MÁU.pdf",
+      "mime": "application/pdf",
+      "size": 1462241,
+      "modified": "2026-08-15T10:56:49.000Z",
+      "checksum": "0ba0a8581daf79f33059a02332326f4e",
+      "folder": false
+    }
+  ]
+}

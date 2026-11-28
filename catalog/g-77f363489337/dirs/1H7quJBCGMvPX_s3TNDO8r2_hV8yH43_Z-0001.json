@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1H7quJBCGMvPX_s3TNDO8r2_hV8yH43_Z",
+  "page": 1,
+  "items": [
+    {
+      "id": "1f1HrPdeEiDwBmkcNrzzLDOSSwMXSbvCQ",
+      "parent_id": "1H7quJBCGMvPX_s3TNDO8r2_hV8yH43_Z",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6118,
+      "modified": "2026-08-15T07:51:34.000Z",
+      "checksum": "8d4e81396249fa8bc2d8cc8fb357fd46",
+      "folder": false
+    },
+    {
+      "id": "1AJKC7Z3T3KMS6HnC6x2yqP6gpMgyC6Eg",
+      "parent_id": "1H7quJBCGMvPX_s3TNDO8r2_hV8yH43_Z",
+      "name": "NIẾP MÔN.epub",
+      "mime": "application/epub+zip",
+      "size": 1005083,
+      "modified": "2026-08-15T07:51:43.000Z",
+      "checksum": "f46c7d73d816359a5e462c80f9968ec5",
+      "folder": false
+    },
+    {
+      "id": "152cZlMjfvxqsRnEQD8ZFZpU30kSySia-",
+      "parent_id": "1H7quJBCGMvPX_s3TNDO8r2_hV8yH43_Z",
+      "name": "NIẾP MÔN.pdf",
+      "mime": "application/pdf",
+      "size": 3699971,
+      "modified": "2026-08-15T07:51:40.000Z",
+      "checksum": "c5e7e1f8b69c5421e4ac7783fd16dc62",
+      "folder": false
+    }
+  ]
+}

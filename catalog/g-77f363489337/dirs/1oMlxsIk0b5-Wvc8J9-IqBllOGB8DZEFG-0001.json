@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oMlxsIk0b5-Wvc8J9-IqBllOGB8DZEFG",
+  "page": 1,
+  "items": [
+    {
+      "id": "16dVwyypMFIXj4YLdWg8qOvMj6V6xW9BP",
+      "parent_id": "1oMlxsIk0b5-Wvc8J9-IqBllOGB8DZEFG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2537,
+      "modified": "2026-08-16T03:35:11.000Z",
+      "checksum": "1043f8509b9ea4ddfbec42f16d443e2c",
+      "folder": false
+    },
+    {
+      "id": "1iqykZTN5jkRW5hIAqSor6hlnw4ZeIjcq",
+      "parent_id": "1oMlxsIk0b5-Wvc8J9-IqBllOGB8DZEFG",
+      "name": "LỜI THỀ TRƯỚC MIỄU.epub",
+      "mime": "application/epub+zip",
+      "size": 399389,
+      "modified": "2026-08-16T03:35:17.000Z",
+      "checksum": "35219398f77c4742f6b78125b6e8756e",
+      "folder": false
+    },
+    {
+      "id": "1yWahzhpMNG1_AQ-9fRIcBJWr18x2sTif",
+      "parent_id": "1oMlxsIk0b5-Wvc8J9-IqBllOGB8DZEFG",
+      "name": "LỜI THỀ TRƯỚC MIỄU.pdf",
+      "mime": "application/pdf",
+      "size": 424104,
+      "modified": "2026-08-16T03:35:15.000Z",
+      "checksum": "6ac625fb143a67883d2ef525d6aacfcb",
+      "folder": false
+    }
+  ]
+}

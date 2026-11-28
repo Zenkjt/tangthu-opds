@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZEtErt2J66zV4ZlDp0aY6zKyBOyu_uZY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_5MKZoSnF0miBKFQnwLaxWUMyw4qrq-U",
+      "parent_id": "1ZEtErt2J66zV4ZlDp0aY6zKyBOyu_uZY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4960,
+      "modified": "2026-08-15T03:20:23.000Z",
+      "checksum": "ddf4ffc92d34e541bd8c346463caa4b8",
+      "folder": false
+    },
+    {
+      "id": "1gDXQVkDcFoIxss6pysJM-bPFN_bX5Pfn",
+      "parent_id": "1ZEtErt2J66zV4ZlDp0aY6zKyBOyu_uZY",
+      "name": "TÂM LÝ ĐẠO ĐỨC.epub",
+      "mime": "application/epub+zip",
+      "size": 827063,
+      "modified": "2026-08-15T03:20:37.000Z",
+      "checksum": "a1eb04ad5a3b8fe32763d9576db52c89",
+      "folder": false
+    },
+    {
+      "id": "1euxs_ppGuSussbXdaFUSCMJBSQnzPZy5",
+      "parent_id": "1ZEtErt2J66zV4ZlDp0aY6zKyBOyu_uZY",
+      "name": "TÂM LÝ ĐẠO ĐỨC.pdf",
+      "mime": "application/pdf",
+      "size": 2635201,
+      "modified": "2026-08-15T03:20:35.000Z",
+      "checksum": "7c9f0316f483a6dca44885daa77bc410",
+      "folder": false
+    }
+  ]
+}

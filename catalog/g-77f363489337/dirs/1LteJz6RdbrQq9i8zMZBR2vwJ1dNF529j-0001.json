@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LteJz6RdbrQq9i8zMZBR2vwJ1dNF529j",
+  "page": 1,
+  "items": [
+    {
+      "id": "1xWzUiWgoy1aIkkVgUQcigyvP-8tPKQKy",
+      "parent_id": "1LteJz6RdbrQq9i8zMZBR2vwJ1dNF529j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3191,
+      "modified": "2026-08-16T04:17:29.000Z",
+      "checksum": "189a0bcbb9ff86f1918720e245b6da6c",
+      "folder": false
+    },
+    {
+      "id": "1pghmts2YrPtFGNm-EOqC9J0CNmsFctGE",
+      "parent_id": "1LteJz6RdbrQq9i8zMZBR2vwJ1dNF529j",
+      "name": "MÙA HÈ ĐỊNH MỆNH.epub",
+      "mime": "application/epub+zip",
+      "size": 608022,
+      "modified": "2026-08-16T04:17:37.000Z",
+      "checksum": "4e087d6becba37a172da8b87491cd7c2",
+      "folder": false
+    },
+    {
+      "id": "1ZxiCFcYJIsKM27CrfUZnP7ACffzWOm7T",
+      "parent_id": "1LteJz6RdbrQq9i8zMZBR2vwJ1dNF529j",
+      "name": "MÙA HÈ ĐỊNH MỆNH.pdf",
+      "mime": "application/pdf",
+      "size": 1949900,
+      "modified": "2026-08-16T04:17:34.000Z",
+      "checksum": "2ae9d598e2fca2624e15b126d3fcde0c",
+      "folder": false
+    }
+  ]
+}

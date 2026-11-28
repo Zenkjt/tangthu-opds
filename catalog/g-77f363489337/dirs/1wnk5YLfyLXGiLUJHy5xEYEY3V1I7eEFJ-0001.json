@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wnk5YLfyLXGiLUJHy5xEYEY3V1I7eEFJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uVoWepKKgkbozl8KUprPVBSwTOuKw0pT",
+      "parent_id": "1wnk5YLfyLXGiLUJHy5xEYEY3V1I7eEFJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3467,
+      "modified": "2026-08-15T05:46:33.000Z",
+      "checksum": "7724d26f964601618e0892685b2217f8",
+      "folder": false
+    },
+    {
+      "id": "15AfYfgGVMnAo9TOdk3L8p4_5LVSiBPvR",
+      "parent_id": "1wnk5YLfyLXGiLUJHy5xEYEY3V1I7eEFJ",
+      "name": "NHỮNG NGỌN CỜ TRÊN THÁP.epub",
+      "mime": "application/epub+zip",
+      "size": 738366,
+      "modified": "2026-08-15T05:46:42.000Z",
+      "checksum": "cef99cd72c3a8badc406d1b01ce54f6a",
+      "folder": false
+    },
+    {
+      "id": "1pwYC-ajgGD3ymalu3_R7F2nXTfXNZwaz",
+      "parent_id": "1wnk5YLfyLXGiLUJHy5xEYEY3V1I7eEFJ",
+      "name": "NHỮNG NGỌN CỜ TRÊN THÁP.pdf",
+      "mime": "application/pdf",
+      "size": 1870444,
+      "modified": "2026-08-15T05:46:39.000Z",
+      "checksum": "e85d5ee0ebd876afbc08ed89dc3f45e6",
+      "folder": false
+    }
+  ]
+}

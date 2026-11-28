@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wLBgM8jYRUIrrJ4HOBtMfc8o_tflGcYa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wzNfgfNQsuBRQ0pZrrxRUj3JL6B-V4ro",
+      "parent_id": "1wLBgM8jYRUIrrJ4HOBtMfc8o_tflGcYa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4649,
+      "modified": "2026-08-15T09:26:42.000Z",
+      "checksum": "7a438f51ff7c7d25bf382e038ad3b68a",
+      "folder": false
+    },
+    {
+      "id": "1G6GqgyUsvRfGSC12JL-W_2XYlcvtT2RD",
+      "parent_id": "1wLBgM8jYRUIrrJ4HOBtMfc8o_tflGcYa",
+      "name": "LỆ DUNG.epub",
+      "mime": "application/epub+zip",
+      "size": 976673,
+      "modified": "2026-08-15T09:29:33.000Z",
+      "checksum": "8477c2a575b075c4e9c61ac6ca74ec3e",
+      "folder": false
+    },
+    {
+      "id": "1aFXASwZfFmFJ82lbRqVf1jt5rTeOdMha",
+      "parent_id": "1wLBgM8jYRUIrrJ4HOBtMfc8o_tflGcYa",
+      "name": "LỆ DUNG.pdf",
+      "mime": "application/pdf",
+      "size": 774634,
+      "modified": "2026-08-15T09:27:02.000Z",
+      "checksum": "3325696cb3de4eb135e1aa175a54f418",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1caPhApvZsrzLFaTHTYTprbvioPdCSOdv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1N6BIctVOLDMYD_pZb8XbYqHfEuxtlyER",
+      "parent_id": "1caPhApvZsrzLFaTHTYTprbvioPdCSOdv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3048,
+      "modified": "2026-08-16T03:56:12.000Z",
+      "checksum": "6f5d2d6f0651459d8447646922c0588c",
+      "folder": false
+    },
+    {
+      "id": "1JSw7oqyEi4-mLvl3L2Nfvo9fRM-rxAiy",
+      "parent_id": "1caPhApvZsrzLFaTHTYTprbvioPdCSOdv",
+      "name": "THƯỢNG THƯ ĐẠI NHÂN, BIẾN!.epub",
+      "mime": "application/epub+zip",
+      "size": 558842,
+      "modified": "2026-08-16T03:56:19.000Z",
+      "checksum": "00f0164bf8a936378d25865a878316d5",
+      "folder": false
+    },
+    {
+      "id": "1zha2KOs88uQ6uf7Wo2xjla7dv8lV659J",
+      "parent_id": "1caPhApvZsrzLFaTHTYTprbvioPdCSOdv",
+      "name": "THƯỢNG THƯ ĐẠI NHÂN, BIẾN!.pdf",
+      "mime": "application/pdf",
+      "size": 1411878,
+      "modified": "2026-08-16T03:56:17.000Z",
+      "checksum": "de8da07804de1d49cbb3ef3210c666b9",
+      "folder": false
+    }
+  ]
+}

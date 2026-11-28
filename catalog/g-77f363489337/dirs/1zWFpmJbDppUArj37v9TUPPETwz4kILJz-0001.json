@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zWFpmJbDppUArj37v9TUPPETwz4kILJz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jd_ZnbRrVsKOr_LSG8himTpIb3faAN3j",
+      "parent_id": "1zWFpmJbDppUArj37v9TUPPETwz4kILJz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2873,
+      "modified": "2026-08-15T10:32:22.000Z",
+      "checksum": "0f7230164d2acf1c7294d5e287fd4351",
+      "folder": false
+    },
+    {
+      "id": "1aTyW58MDGyJ_zeVoyVUggvM1FHmiBDaQ",
+      "parent_id": "1zWFpmJbDppUArj37v9TUPPETwz4kILJz",
+      "name": "PHONG KIẾM - QUYỂN 1 THIÊN KHAI.epub",
+      "mime": "application/epub+zip",
+      "size": 729101,
+      "modified": "2026-08-15T10:32:30.000Z",
+      "checksum": "326069bede36d92891186ebc2ebb266b",
+      "folder": false
+    },
+    {
+      "id": "1wn3WxA5GhZ__sMwLusZd476QUZ20Jc2s",
+      "parent_id": "1zWFpmJbDppUArj37v9TUPPETwz4kILJz",
+      "name": "PHONG KIẾM - QUYỂN 1 THIÊN KHAI.pdf",
+      "mime": "application/pdf",
+      "size": 2310321,
+      "modified": "2026-08-15T10:32:28.000Z",
+      "checksum": "e8db2bde20ea22c023c761deaf122267",
+      "folder": false
+    }
+  ]
+}

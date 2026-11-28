@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1adkJiDbrYgR7rsQOVKQ7-RQr9BwVPDf0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WwYDhfvBgpZhb1M1g0E86OHsTSsacRx1",
+      "parent_id": "1adkJiDbrYgR7rsQOVKQ7-RQr9BwVPDf0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5565,
+      "modified": "2026-08-15T09:40:52.000Z",
+      "checksum": "bf43a49eb3a138ef020db368f50b23dc",
+      "folder": false
+    },
+    {
+      "id": "1cJrVKL04htyDRGAM4yv8x_Ajrur2zAqu",
+      "parent_id": "1adkJiDbrYgR7rsQOVKQ7-RQr9BwVPDf0",
+      "name": "MƠ ƯỚC HẬU VỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 2477992,
+      "modified": "2026-08-15T09:41:01.000Z",
+      "checksum": "76df602c46726c323b0ea548515f8f5f",
+      "folder": false
+    },
+    {
+      "id": "1AX3Cd7E03KRZVNqjfgQpczuXw5MAjJx1",
+      "parent_id": "1adkJiDbrYgR7rsQOVKQ7-RQr9BwVPDf0",
+      "name": "MƠ ƯỚC HẬU VỊ.pdf",
+      "mime": "application/pdf",
+      "size": 2250631,
+      "modified": "2026-08-15T09:40:57.000Z",
+      "checksum": "9398ff2ad1e90441d2ac2e9b7b147ad9",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WLzbeqsko9_XGmYbnfP90oofyj_OGvkz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gsn2UE--r7-ozQt9WC7weqcuNPWwSK6A",
+      "parent_id": "1WLzbeqsko9_XGmYbnfP90oofyj_OGvkz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3458,
+      "modified": "2026-08-15T07:22:03.000Z",
+      "checksum": "196687722c74ba51fccb8c014f2c57fe",
+      "folder": false
+    },
+    {
+      "id": "1e4flcUT3m1I1MW9PSA3BtP_x0JtaKoBX",
+      "parent_id": "1WLzbeqsko9_XGmYbnfP90oofyj_OGvkz",
+      "name": "TRÒ CHƠI KINH DỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 405757,
+      "modified": "2026-08-15T07:22:08.000Z",
+      "checksum": "502359cec6384593b2bac8d823096ef5",
+      "folder": false
+    },
+    {
+      "id": "1dRSYe4mhOFf9_x24haRVfuIoCnu5W4q5",
+      "parent_id": "1WLzbeqsko9_XGmYbnfP90oofyj_OGvkz",
+      "name": "TRÒ CHƠI KINH DỊ.pdf",
+      "mime": "application/pdf",
+      "size": 453482,
+      "modified": "2026-08-15T07:22:06.000Z",
+      "checksum": "c431a9dad661ca356a002301824fafcd",
+      "folder": false
+    }
+  ]
+}

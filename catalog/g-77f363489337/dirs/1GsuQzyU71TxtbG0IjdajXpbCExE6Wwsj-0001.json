@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GsuQzyU71TxtbG0IjdajXpbCExE6Wwsj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Qo54PM-_llkZW3RKYbGIm6ZVIie-1MFY",
+      "parent_id": "1GsuQzyU71TxtbG0IjdajXpbCExE6Wwsj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1955,
+      "modified": "2026-08-16T03:35:49.000Z",
+      "checksum": "3661606e4981b5783a5da95d16dfac82",
+      "folder": false
+    },
+    {
+      "id": "1RHJAloTNO1K1A3OyCKUikh3tkZsvnCzU",
+      "parent_id": "1GsuQzyU71TxtbG0IjdajXpbCExE6Wwsj",
+      "name": "LỀU CHÕNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1060868,
+      "modified": "2026-08-16T03:35:57.000Z",
+      "checksum": "4a065f480f7eceeb5ecb878870dd5916",
+      "folder": false
+    },
+    {
+      "id": "1Uzu3dQjlhWgfxzuOVqntuCMR5hn9Zn7L",
+      "parent_id": "1GsuQzyU71TxtbG0IjdajXpbCExE6Wwsj",
+      "name": "LỀU CHÕNG.pdf",
+      "mime": "application/pdf",
+      "size": 1335003,
+      "modified": "2026-08-16T03:35:54.000Z",
+      "checksum": "7166b5457130aaf387dea21a5eb897ee",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1I839oOtZbW1FNi9OZqdkM3OLddNLtvWO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cH6y3RSrNnVWD-WanslozCBBLDBtep3E",
+      "parent_id": "1I839oOtZbW1FNi9OZqdkM3OLddNLtvWO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4824,
+      "modified": "2026-08-16T03:30:25.000Z",
+      "checksum": "0245e29626533983f23f71e39a6d60d2",
+      "folder": false
+    },
+    {
+      "id": "1JChwV2fOJGIGImrQTAqHRmD3d-Xz6AK3",
+      "parent_id": "1I839oOtZbW1FNi9OZqdkM3OLddNLtvWO",
+      "name": "TẤM LỤA ĐÀO.epub",
+      "mime": "application/epub+zip",
+      "size": 329839,
+      "modified": "2026-08-16T03:30:32.000Z",
+      "checksum": "df7f33e4611e95c5ca1c6dc692bea6e8",
+      "folder": false
+    },
+    {
+      "id": "1Dt9RzQJVHc5OioyC4rmWKFEh3xTVXfPR",
+      "parent_id": "1I839oOtZbW1FNi9OZqdkM3OLddNLtvWO",
+      "name": "TẤM LỤA ĐÀO.pdf",
+      "mime": "application/pdf",
+      "size": 945513,
+      "modified": "2026-08-16T03:30:29.000Z",
+      "checksum": "1ff6c26963b5ea74175183c4e7c6dc23",
+      "folder": false
+    }
+  ]
+}

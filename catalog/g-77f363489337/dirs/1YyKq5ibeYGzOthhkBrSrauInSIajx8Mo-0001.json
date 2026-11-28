@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YyKq5ibeYGzOthhkBrSrauInSIajx8Mo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1IeZ3f6IgmL8G_x4ToXTdno6YWknNm8FV",
+      "parent_id": "1YyKq5ibeYGzOthhkBrSrauInSIajx8Mo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2533,
+      "modified": "2026-08-15T08:02:04.000Z",
+      "checksum": "183ee9f6e0a8d4dfdf7d0c5700585011",
+      "folder": false
+    },
+    {
+      "id": "1ZnxHfUE7AwfA5fZ5N8qJ6zk4S55e3PuO",
+      "parent_id": "1YyKq5ibeYGzOthhkBrSrauInSIajx8Mo",
+      "name": "HẠC MINH GIANG HỒ.epub",
+      "mime": "application/epub+zip",
+      "size": 621340,
+      "modified": "2026-08-15T08:02:12.000Z",
+      "checksum": "718f660b97d0216b2186c623f6e7f28c",
+      "folder": false
+    },
+    {
+      "id": "1p5p6LCrxPJCpKISTnqBEiMKFc58sHttU",
+      "parent_id": "1YyKq5ibeYGzOthhkBrSrauInSIajx8Mo",
+      "name": "HẠC MINH GIANG HỒ.pdf",
+      "mime": "application/pdf",
+      "size": 2207705,
+      "modified": "2026-08-15T08:02:09.000Z",
+      "checksum": "10a4ba7ac0af1127b44466453a4065a6",
+      "folder": false
+    }
+  ]
+}

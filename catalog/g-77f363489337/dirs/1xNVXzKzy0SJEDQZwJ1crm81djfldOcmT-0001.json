@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xNVXzKzy0SJEDQZwJ1crm81djfldOcmT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1X0bmOd4Du-VIv7brnRf09yOv6DK8my5Y",
+      "parent_id": "1xNVXzKzy0SJEDQZwJ1crm81djfldOcmT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11150,
+      "modified": "2026-08-16T03:10:11.000Z",
+      "checksum": "3b1962bea2f463347d4679efeaba08d3",
+      "folder": false
+    },
+    {
+      "id": "19SkbaaKW3N7gawX8RMlWJHbkrQJm5gjs",
+      "parent_id": "1xNVXzKzy0SJEDQZwJ1crm81djfldOcmT",
+      "name": "THÁNH GIÁ RỖNG.epub",
+      "mime": "application/epub+zip",
+      "size": 408189,
+      "modified": "2026-08-16T03:10:18.000Z",
+      "checksum": "f86f52ee6b198e30b838d1b2d36d17d7",
+      "folder": false
+    },
+    {
+      "id": "1lTHo0aEFqgfdJqLs7HtQg3FtcGOioJ6k",
+      "parent_id": "1xNVXzKzy0SJEDQZwJ1crm81djfldOcmT",
+      "name": "THÁNH GIÁ RỖNG.pdf",
+      "mime": "application/pdf",
+      "size": 1006830,
+      "modified": "2026-08-16T03:10:15.000Z",
+      "checksum": "42ed3645492b91e67da11758624a5b5e",
+      "folder": false
+    }
+  ]
+}

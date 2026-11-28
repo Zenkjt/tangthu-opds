@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16VukK38Ok37J6UecyALjohnLCwox7cDC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pW1IZ2tIJu4Rt-E-vrQo81pVi7IpWGnE",
+      "parent_id": "16VukK38Ok37J6UecyALjohnLCwox7cDC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2407,
+      "modified": "2026-08-16T03:03:01.000Z",
+      "checksum": "ad7af872858b3d0dc23d71a051843bf6",
+      "folder": false
+    },
+    {
+      "id": "1IK2_Y7e9cKEjPOLWZ1brKfio7YbR9UP3",
+      "parent_id": "16VukK38Ok37J6UecyALjohnLCwox7cDC",
+      "name": "TRƯỜNG TRUNG HỌC AVALON.epub",
+      "mime": "application/epub+zip",
+      "size": 1175653,
+      "modified": "2026-08-16T03:03:08.000Z",
+      "checksum": "50feb7851577d08a2ac39864760460b0",
+      "folder": false
+    },
+    {
+      "id": "1dsfc22cHhzPgaTaZxvyAgy49qC6OZZTb",
+      "parent_id": "16VukK38Ok37J6UecyALjohnLCwox7cDC",
+      "name": "TRƯỜNG TRUNG HỌC AVALON.pdf",
+      "mime": "application/pdf",
+      "size": 847000,
+      "modified": "2026-08-16T03:03:05.000Z",
+      "checksum": "d4c2d75e00665ba3f84afde41133bbcc",
+      "folder": false
+    }
+  ]
+}

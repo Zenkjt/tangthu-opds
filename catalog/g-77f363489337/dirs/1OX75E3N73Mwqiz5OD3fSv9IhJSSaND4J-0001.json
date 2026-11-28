@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1OX75E3N73Mwqiz5OD3fSv9IhJSSaND4J",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zS_Qw4nNM9VEAn9TjoGu0L9U2aHDNxPH",
+      "parent_id": "1OX75E3N73Mwqiz5OD3fSv9IhJSSaND4J",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 346,
+      "modified": "2026-08-15T10:56:55.000Z",
+      "checksum": "478285f5bc6ff01f4cb4ec6471fa896b",
+      "folder": false
+    },
+    {
+      "id": "1fbNeDcsTap9V9NMD0JtuICUmPHqOCTJd",
+      "parent_id": "1OX75E3N73Mwqiz5OD3fSv9IhJSSaND4J",
+      "name": "HẠNH PHÚC MỘT MÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 190036,
+      "modified": "2026-08-15T10:57:00.000Z",
+      "checksum": "4d1d7916a2d18f78bc857da3200c8053",
+      "folder": false
+    },
+    {
+      "id": "1SYVr1Pi5duwff-cug5PUO5M_cECRidQ4",
+      "parent_id": "1OX75E3N73Mwqiz5OD3fSv9IhJSSaND4J",
+      "name": "HẠNH PHÚC MỘT MÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 248652,
+      "modified": "2026-08-15T10:56:58.000Z",
+      "checksum": "a5536b5dc149c8578c335146f7647cd4",
+      "folder": false
+    }
+  ]
+}

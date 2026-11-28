@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dK_fnjsTBk-P3I9kDN2QDF8djD-xFBeM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Sg6bL1Jick2ezXE_YpscaOaQLIbDMd_o",
+      "parent_id": "1dK_fnjsTBk-P3I9kDN2QDF8djD-xFBeM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 493,
+      "modified": "2026-08-15T10:57:22.000Z",
+      "checksum": "03cef74c29357f4b153562dbc10febb2",
+      "folder": false
+    },
+    {
+      "id": "1cprjkAGMnex5b9X5C_4O_GCXbef3_GGp",
+      "parent_id": "1dK_fnjsTBk-P3I9kDN2QDF8djD-xFBeM",
+      "name": "GHỀNH V.epub",
+      "mime": "application/epub+zip",
+      "size": 328388,
+      "modified": "2026-08-15T10:57:28.000Z",
+      "checksum": "ece9bfaf825e3dad461f8ef04d070e21",
+      "folder": false
+    },
+    {
+      "id": "11gE8IkZAWbXwLeJ3b33NG91bbH2Odl8w",
+      "parent_id": "1dK_fnjsTBk-P3I9kDN2QDF8djD-xFBeM",
+      "name": "GHỀNH V.pdf",
+      "mime": "application/pdf",
+      "size": 296981,
+      "modified": "2026-08-15T10:57:25.000Z",
+      "checksum": "14cacb0bbbb12cb095f00573458dbb10",
+      "folder": false
+    }
+  ]
+}

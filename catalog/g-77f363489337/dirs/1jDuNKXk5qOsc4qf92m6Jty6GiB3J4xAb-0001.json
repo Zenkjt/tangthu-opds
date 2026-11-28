@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jDuNKXk5qOsc4qf92m6Jty6GiB3J4xAb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1E_b82ygQgQNyX4vnRSh3miX6YRiltb6G",
+      "parent_id": "1jDuNKXk5qOsc4qf92m6Jty6GiB3J4xAb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3302,
+      "modified": "2026-08-15T12:59:50.000Z",
+      "checksum": "531fd51ab1edfc602f633717c02a76b3",
+      "folder": false
+    },
+    {
+      "id": "19-sVVfP8Gdwi3z4ZWWWwo92oteci0Udf",
+      "parent_id": "1jDuNKXk5qOsc4qf92m6Jty6GiB3J4xAb",
+      "name": "NGỰA CHỨNG ĐẦU XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 559709,
+      "modified": "2026-08-15T13:00:02.000Z",
+      "checksum": "70bc43c90549811f45241557e0a94476",
+      "folder": false
+    },
+    {
+      "id": "1K9gMTY75ctP1F7MoZeOPujV9jTXQQdFP",
+      "parent_id": "1jDuNKXk5qOsc4qf92m6Jty6GiB3J4xAb",
+      "name": "NGỰA CHỨNG ĐẦU XANH.pdf",
+      "mime": "application/pdf",
+      "size": 1072526,
+      "modified": "2026-08-15T12:59:55.000Z",
+      "checksum": "fa5d7c796e1f7d20a95142240b38f760",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mvXW091MClSc1S3ps05QYcAIOxnOd5XG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1WwpAKHz9-KDpsyjXzKT7aAHUnSkki85A",
+      "parent_id": "1mvXW091MClSc1S3ps05QYcAIOxnOd5XG",
+      "name": "BẢNG CHỈ ĐƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 351726,
+      "modified": "2026-08-15T03:16:49.000Z",
+      "checksum": "ab4a1c43d88a2aa8ce906b92a62df5a0",
+      "folder": false
+    },
+    {
+      "id": "16W99DxX646Q8T8uy-ulWwV7_In6KZocO",
+      "parent_id": "1mvXW091MClSc1S3ps05QYcAIOxnOd5XG",
+      "name": "BẢNG CHỈ ĐƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 1561662,
+      "modified": "2026-08-15T03:16:46.000Z",
+      "checksum": "8142ecacd3f49ee8a020f68c583c7629",
+      "folder": false
+    },
+    {
+      "id": "12by7bkIzpBx9wY5d7d2_Vn_YsFWpLxgt",
+      "parent_id": "1mvXW091MClSc1S3ps05QYcAIOxnOd5XG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1681,
+      "modified": "2026-08-15T03:16:42.000Z",
+      "checksum": "c6ffb4ae596790e8ed2ffe7e47e14307",
+      "folder": false
+    }
+  ]
+}

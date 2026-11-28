@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vEzlJ74WiF7hGGSpeN_sZIU3-b3C6dfU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Un3njw-t3xoa6Qwa1agePMdyVuxCLlgV",
+      "parent_id": "1vEzlJ74WiF7hGGSpeN_sZIU3-b3C6dfU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3144,
+      "modified": "2026-08-16T03:54:33.000Z",
+      "checksum": "2703e22bf152a455fb30d3b613dcb13e",
+      "folder": false
+    },
+    {
+      "id": "16sIU4zzGUVFG5bSUMMSYa7jV_ZdBiIeq",
+      "parent_id": "1vEzlJ74WiF7hGGSpeN_sZIU3-b3C6dfU",
+      "name": "TÌNH CHIẾN.epub",
+      "mime": "application/epub+zip",
+      "size": 476526,
+      "modified": "2026-08-16T03:54:40.000Z",
+      "checksum": "2b9815978b3bb202ceb7a9c783b366cc",
+      "folder": false
+    },
+    {
+      "id": "1T7lHJbb_EyGTvS90z8aXL-Fz8lZln2l_",
+      "parent_id": "1vEzlJ74WiF7hGGSpeN_sZIU3-b3C6dfU",
+      "name": "TÌNH CHIẾN.pdf",
+      "mime": "application/pdf",
+      "size": 1345259,
+      "modified": "2026-08-16T03:54:37.000Z",
+      "checksum": "89aa7de373dfb58eb317cac0e3a98175",
+      "folder": false
+    }
+  ]
+}

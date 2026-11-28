@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wb8cAUOWQsGZ3Q28iyYKprxfyBECnnbC",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LX9qG0RegqYu_4LnwD1xK_1tXsxyImYM",
+      "parent_id": "1wb8cAUOWQsGZ3Q28iyYKprxfyBECnnbC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 926,
+      "modified": "2026-08-15T03:47:42.000Z",
+      "checksum": "15fc4d258bb13ad662b9713644c23ab9",
+      "folder": false
+    },
+    {
+      "id": "11P0Gi55m2NuwJGju5T9OrS4btRdj9nq4",
+      "parent_id": "1wb8cAUOWQsGZ3Q28iyYKprxfyBECnnbC",
+      "name": "ĐẠO BA KHO BÁU - TẬP 4.epub",
+      "mime": "application/epub+zip",
+      "size": 427941,
+      "modified": "2026-08-15T03:47:49.000Z",
+      "checksum": "a211df758f4f0e529153827f21243a29",
+      "folder": false
+    },
+    {
+      "id": "1ex72PLfDCyYbaZQC4W_B4wvfQBA4Px-V",
+      "parent_id": "1wb8cAUOWQsGZ3Q28iyYKprxfyBECnnbC",
+      "name": "ĐẠO BA KHO BÁU - TẬP 4.pdf",
+      "mime": "application/pdf",
+      "size": 1143266,
+      "modified": "2026-08-15T03:47:46.000Z",
+      "checksum": "72b1bae3f3286491ba23a537a0db41f9",
+      "folder": false
+    }
+  ]
+}

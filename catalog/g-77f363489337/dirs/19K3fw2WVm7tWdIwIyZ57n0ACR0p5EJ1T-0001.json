@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19K3fw2WVm7tWdIwIyZ57n0ACR0p5EJ1T",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pFP5ziMQdsSDGrUhfbdXY0xr13ZGr7wJ",
+      "parent_id": "19K3fw2WVm7tWdIwIyZ57n0ACR0p5EJ1T",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3938,
+      "modified": "2026-08-16T02:49:25.000Z",
+      "checksum": "fdea67b456f85d2208bc4a3c803e0ecf",
+      "folder": false
+    },
+    {
+      "id": "1ATMb7vv_5916mXbkIl0nHesouZQKdDLc",
+      "parent_id": "19K3fw2WVm7tWdIwIyZ57n0ACR0p5EJ1T",
+      "name": "VƯỢT CÔN ĐẢO.epub",
+      "mime": "application/epub+zip",
+      "size": 355376,
+      "modified": "2026-08-16T02:49:32.000Z",
+      "checksum": "dc8ceb2a4297caf9f91d7f8b39d22b95",
+      "folder": false
+    },
+    {
+      "id": "1Lli5-MVj-O5spUPsiTGAC7P_bbCm6Top",
+      "parent_id": "19K3fw2WVm7tWdIwIyZ57n0ACR0p5EJ1T",
+      "name": "VƯỢT CÔN ĐẢO.pdf",
+      "mime": "application/pdf",
+      "size": 489676,
+      "modified": "2026-08-16T02:49:30.000Z",
+      "checksum": "8aa1278445df649cfa50d53652febd78",
+      "folder": false
+    }
+  ]
+}

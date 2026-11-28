@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1srmLSgWFfCgNcPyL3bYYruQAmo1kOiOO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DbOuWbVn70pesnFovaPq7RsqPRZasqx5",
+      "parent_id": "1srmLSgWFfCgNcPyL3bYYruQAmo1kOiOO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11451,
+      "modified": "2026-08-15T07:52:03.000Z",
+      "checksum": "d19ebca235bc894f886c092c8c72617e",
+      "folder": false
+    },
+    {
+      "id": "1JcxDZEEwwYk3rCVsylJdPcaoTvP8KM2e",
+      "parent_id": "1srmLSgWFfCgNcPyL3bYYruQAmo1kOiOO",
+      "name": "HÔN NHÂN NGỌT NGÀO.epub",
+      "mime": "application/epub+zip",
+      "size": 606078,
+      "modified": "2026-08-15T07:52:10.000Z",
+      "checksum": "ba99f4bf8e6e656e40f65028eb20d393",
+      "folder": false
+    },
+    {
+      "id": "1UmL3AWhrNs5Ts_2h1oxwTg9JrqJflm9d",
+      "parent_id": "1srmLSgWFfCgNcPyL3bYYruQAmo1kOiOO",
+      "name": "HÔN NHÂN NGỌT NGÀO.pdf",
+      "mime": "application/pdf",
+      "size": 1753875,
+      "modified": "2026-08-15T07:52:08.000Z",
+      "checksum": "94374cafb4fba2663b1ac9f265f38318",
+      "folder": false
+    }
+  ]
+}

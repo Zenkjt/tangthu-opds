@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1R2Ry_576Ycnw7ptDyyVUuGPfZJRyKjoM",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P6ucwO6XL6WdVenzIPYSwZ40v7MyH4IP",
+      "parent_id": "1R2Ry_576Ycnw7ptDyyVUuGPfZJRyKjoM",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1766,
+      "modified": "2026-08-16T03:09:34.000Z",
+      "checksum": "0acc2faf91beb3ec2d2846e6eb2b27d1",
+      "folder": false
+    },
+    {
+      "id": "1kekQNyDFrodzZMQKoTSyeUsWBI9h7fgp",
+      "parent_id": "1R2Ry_576Ycnw7ptDyyVUuGPfZJRyKjoM",
+      "name": "TRÂM 1 NỮ HOẠN QUAN.epub",
+      "mime": "application/epub+zip",
+      "size": 591641,
+      "modified": "2026-08-16T03:09:42.000Z",
+      "checksum": "e694d465626996363909bc9f56423617",
+      "folder": false
+    },
+    {
+      "id": "1oRYPXbHO5TFuWmhxf4fEFpzJOmjTJMF4",
+      "parent_id": "1R2Ry_576Ycnw7ptDyyVUuGPfZJRyKjoM",
+      "name": "TRÂM 1 NỮ HOẠN QUAN.pdf",
+      "mime": "application/pdf",
+      "size": 1010642,
+      "modified": "2026-08-16T03:09:39.000Z",
+      "checksum": "de1581650c87429608ea051a17bf6673",
+      "folder": false
+    }
+  ]
+}

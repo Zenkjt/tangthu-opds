@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fjQ59qbLUeOgNEBAFKgvenidcpPT9X7x",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YzctwQleJ03kO_HAJQ5luZ8pZKQmtrB7",
+      "parent_id": "1fjQ59qbLUeOgNEBAFKgvenidcpPT9X7x",
+      "name": "CUỐN THEO DÒNG XOÁY.epub",
+      "mime": "application/epub+zip",
+      "size": 412537,
+      "modified": "2026-08-15T09:53:46.000Z",
+      "checksum": "b5ea6999232783b50591c65f096d63df",
+      "folder": false
+    },
+    {
+      "id": "1fNfdris1b1OQjvXyK1St2lCyKXRVApG9",
+      "parent_id": "1fjQ59qbLUeOgNEBAFKgvenidcpPT9X7x",
+      "name": "CUỐN THEO DÒNG XOÁY.pdf",
+      "mime": "application/pdf",
+      "size": 855089,
+      "modified": "2026-08-15T09:53:42.000Z",
+      "checksum": "64fb9faa3e29bf0af52e2c4c52e4d9c3",
+      "folder": false
+    },
+    {
+      "id": "1O3SDFoQW2HnrF377c3WLs0MIswO3cTOx",
+      "parent_id": "1fjQ59qbLUeOgNEBAFKgvenidcpPT9X7x",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4618,
+      "modified": "2026-08-15T09:53:36.000Z",
+      "checksum": "db6e58e2f2822ca728846db47e8fd7ad",
+      "folder": false
+    }
+  ]
+}

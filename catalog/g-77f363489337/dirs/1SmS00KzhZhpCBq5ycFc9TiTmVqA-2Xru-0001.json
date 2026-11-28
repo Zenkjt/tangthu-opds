@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SmS00KzhZhpCBq5ycFc9TiTmVqA-2Xru",
+  "page": 1,
+  "items": [
+    {
+      "id": "1FrRUISY7yZRBJVjFHhqVyVt_D66euGfM",
+      "parent_id": "1SmS00KzhZhpCBq5ycFc9TiTmVqA-2Xru",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3417,
+      "modified": "2026-08-16T03:06:20.000Z",
+      "checksum": "26c992355e412e3e5d0b91786e507a8e",
+      "folder": false
+    },
+    {
+      "id": "1DeZgJQ_zxsBrLrxvGHd_WtnJdDyQK_JG",
+      "parent_id": "1SmS00KzhZhpCBq5ycFc9TiTmVqA-2Xru",
+      "name": "VÒNG TAY NGƯỜI KHÁC.epub",
+      "mime": "application/epub+zip",
+      "size": 303420,
+      "modified": "2026-08-16T03:06:26.000Z",
+      "checksum": "b989dc0956f1ef8c07fd48fc7f5564ce",
+      "folder": false
+    },
+    {
+      "id": "1DTlztP0pweABAkRn4LzMoNP94HXBA4RC",
+      "parent_id": "1SmS00KzhZhpCBq5ycFc9TiTmVqA-2Xru",
+      "name": "VÒNG TAY NGƯỜI KHÁC.pdf",
+      "mime": "application/pdf",
+      "size": 513786,
+      "modified": "2026-08-16T03:06:24.000Z",
+      "checksum": "a52d6fff2e8f458780e7710088c29e33",
+      "folder": false
+    }
+  ]
+}

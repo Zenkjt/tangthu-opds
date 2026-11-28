@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Y_xQK0EAxf-wnXND37gH2yGqRQug6HMX",
+  "page": 1,
+  "items": [
+    {
+      "id": "1-WgE--GROhQH5TNUe3zPmtMsrEmJkGqM",
+      "parent_id": "1Y_xQK0EAxf-wnXND37gH2yGqRQug6HMX",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 504,
+      "modified": "2026-08-15T13:03:16.000Z",
+      "checksum": "d9494f60d3a123133211943a25072edd",
+      "folder": false
+    },
+    {
+      "id": "1ND8TOWZLpLm22ASTB5Enhme26v503QjP",
+      "parent_id": "1Y_xQK0EAxf-wnXND37gH2yGqRQug6HMX",
+      "name": "GHỀNH ĐÁ CHEO LEO.epub",
+      "mime": "application/epub+zip",
+      "size": 292518,
+      "modified": "2026-08-15T13:03:23.000Z",
+      "checksum": "ef1336fd24099b33474e9caec01d8cfb",
+      "folder": false
+    },
+    {
+      "id": "1qZxwEzbcqyZEeYveerju1dWs4RxPDX3A",
+      "parent_id": "1Y_xQK0EAxf-wnXND37gH2yGqRQug6HMX",
+      "name": "GHỀNH ĐÁ CHEO LEO.pdf",
+      "mime": "application/pdf",
+      "size": 261083,
+      "modified": "2026-08-15T13:03:21.000Z",
+      "checksum": "c9481baa29c94bb2a84347a60a5cfe30",
+      "folder": false
+    }
+  ]
+}

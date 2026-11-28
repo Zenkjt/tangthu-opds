@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1SV_zjwX782ZLwPZzOidDjFOMmuM8cB1K",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uZhYie52eg4cmFNpgRkT9QoaJopD1Bp_",
+      "parent_id": "1SV_zjwX782ZLwPZzOidDjFOMmuM8cB1K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5260,
+      "modified": "2026-08-15T07:29:06.000Z",
+      "checksum": "ac4d2291e45d61908c08536e5fd858f4",
+      "folder": false
+    },
+    {
+      "id": "1G4vOpEo7zHONQIt8SPbtmCG9ZGC90egn",
+      "parent_id": "1SV_zjwX782ZLwPZzOidDjFOMmuM8cB1K",
+      "name": "VỤ BÊ BỐI Ở SUNG KYUN KWAN.epub",
+      "mime": "application/epub+zip",
+      "size": 1683453,
+      "modified": "2026-08-15T07:29:14.000Z",
+      "checksum": "f5cdb5e4a877b65bb3b6b5a4b0869538",
+      "folder": false
+    },
+    {
+      "id": "1R673GBRVsoubsUMjOl_IWmdtPsSSxdPx",
+      "parent_id": "1SV_zjwX782ZLwPZzOidDjFOMmuM8cB1K",
+      "name": "VỤ BÊ BỐI Ở SUNG KYUN KWAN.pdf",
+      "mime": "application/pdf",
+      "size": 2177948,
+      "modified": "2026-08-15T07:29:11.000Z",
+      "checksum": "7835f1996381f535a83dc1a2553925bf",
+      "folder": false
+    }
+  ]
+}

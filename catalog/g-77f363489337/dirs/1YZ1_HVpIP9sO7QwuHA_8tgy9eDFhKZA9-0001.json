@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YZ1_HVpIP9sO7QwuHA_8tgy9eDFhKZA9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Nyi167ub5owLV_8NEGbK_wOLRGnbAwlJ",
+      "parent_id": "1YZ1_HVpIP9sO7QwuHA_8tgy9eDFhKZA9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5247,
+      "modified": "2026-08-15T07:04:13.000Z",
+      "checksum": "390d9c535572112818895e4496281a71",
+      "folder": false
+    },
+    {
+      "id": "1nmeiX9yPQn6HCFrl6GroXtr0XTjlEiwY",
+      "parent_id": "1YZ1_HVpIP9sO7QwuHA_8tgy9eDFhKZA9",
+      "name": "GÁI QUÊ.epub",
+      "mime": "application/epub+zip",
+      "size": 301133,
+      "modified": "2026-08-15T07:04:19.000Z",
+      "checksum": "090bf4ee7fe23088149439a6870323f9",
+      "folder": false
+    },
+    {
+      "id": "1mY16YIv4YePmdewPJGxRs3XUmXpZodoy",
+      "parent_id": "1YZ1_HVpIP9sO7QwuHA_8tgy9eDFhKZA9",
+      "name": "GÁI QUÊ.pdf",
+      "mime": "application/pdf",
+      "size": 697794,
+      "modified": "2026-08-15T07:04:16.000Z",
+      "checksum": "f5cdc139c371a887b0d23c1fbb525b27",
+      "folder": false
+    }
+  ]
+}

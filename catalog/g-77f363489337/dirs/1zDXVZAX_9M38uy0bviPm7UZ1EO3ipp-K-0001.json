@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zDXVZAX_9M38uy0bviPm7UZ1EO3ipp-K",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_QD5NpNfdC8MwySGi2QV7wNlXKX6H5DZ",
+      "parent_id": "1zDXVZAX_9M38uy0bviPm7UZ1EO3ipp-K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 483,
+      "modified": "2026-08-15T10:53:02.000Z",
+      "checksum": "46a3e79d132c11e666e7628074ccebf7",
+      "folder": false
+    },
+    {
+      "id": "14ZAp3kt7TBUyJ7ZZMRcjWLI_9Fc_pyst",
+      "parent_id": "1zDXVZAX_9M38uy0bviPm7UZ1EO3ipp-K",
+      "name": "MÀN ĐÊM.epub",
+      "mime": "application/epub+zip",
+      "size": 532099,
+      "modified": "2026-08-15T10:53:09.000Z",
+      "checksum": "56eaebdf576e34d70254a4e0bc613ff0",
+      "folder": false
+    },
+    {
+      "id": "1YWePeSDtol1IwpurDMH5N-zbHaFZP4VG",
+      "parent_id": "1zDXVZAX_9M38uy0bviPm7UZ1EO3ipp-K",
+      "name": "MÀN ĐÊM.pdf",
+      "mime": "application/pdf",
+      "size": 1143745,
+      "modified": "2026-08-15T10:53:06.000Z",
+      "checksum": "364424e957d0d55d5097bc4d3c9d6d0e",
+      "folder": false
+    }
+  ]
+}

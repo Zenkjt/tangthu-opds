@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15vb9tj52Pk6N94IFzGLrnQW31UY29IpO",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Qu1wF17B8sTQpihboScWMwbc1ll2f0ta",
+      "parent_id": "15vb9tj52Pk6N94IFzGLrnQW31UY29IpO",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2399,
+      "modified": "2026-08-16T02:42:58.000Z",
+      "checksum": "37794f1877ebb7a6f0aa00fe7f0a8db9",
+      "folder": false
+    },
+    {
+      "id": "1hct6tP9imuG0VvpypBc-bTCAm9UNSNuB",
+      "parent_id": "15vb9tj52Pk6N94IFzGLrnQW31UY29IpO",
+      "name": "NHÀ GIẢ KIM.epub",
+      "mime": "application/epub+zip",
+      "size": 432371,
+      "modified": "2026-08-16T02:43:05.000Z",
+      "checksum": "352566ba0d75e15b8575c105a80b397e",
+      "folder": false
+    },
+    {
+      "id": "1SPf-1XUz9bhV01nEYN6QasRLQg-_mHkN",
+      "parent_id": "15vb9tj52Pk6N94IFzGLrnQW31UY29IpO",
+      "name": "NHÀ GIẢ KIM.pdf",
+      "mime": "application/pdf",
+      "size": 563276,
+      "modified": "2026-08-16T02:43:03.000Z",
+      "checksum": "e9f3e8ced9ca3c0e170a71346287c746",
+      "folder": false
+    }
+  ]
+}

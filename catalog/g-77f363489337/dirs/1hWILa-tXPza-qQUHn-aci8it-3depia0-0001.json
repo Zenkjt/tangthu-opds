@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hWILa-tXPza-qQUHn-aci8it-3depia0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Vp7yO5SgkrQmlGK8pr7UxNad09dDMAEs",
+      "parent_id": "1hWILa-tXPza-qQUHn-aci8it-3depia0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11276,
+      "modified": "2026-08-16T03:02:51.000Z",
+      "checksum": "82ca8f0b9dfc2e4ee741ef74d35df44e",
+      "folder": false
+    },
+    {
+      "id": "1gd6Tv2xSlp4eekmWRI8aAfqC9DUE4GGT",
+      "parent_id": "1hWILa-tXPza-qQUHn-aci8it-3depia0",
+      "name": "TRỐN CHẠY.epub",
+      "mime": "application/epub+zip",
+      "size": 529747,
+      "modified": "2026-08-16T03:02:59.000Z",
+      "checksum": "2b119145b56991204b1392ae0af1f5b3",
+      "folder": false
+    },
+    {
+      "id": "1ojWhzWuGhy-tQVVVxpcnYt3PAepsZ03K",
+      "parent_id": "1hWILa-tXPza-qQUHn-aci8it-3depia0",
+      "name": "TRỐN CHẠY.pdf",
+      "mime": "application/pdf",
+      "size": 1228909,
+      "modified": "2026-08-16T03:02:56.000Z",
+      "checksum": "a5cc9f8dbf27174b8a199fee5a57e6a6",
+      "folder": false
+    }
+  ]
+}

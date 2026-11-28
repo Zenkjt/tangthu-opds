@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1PCYXVDOha7v6LN2Zp6cG-BLIFQoY4o60",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vhM68RvWLNzw7hUDOvDR6a3WKfyh4on5",
+      "parent_id": "1PCYXVDOha7v6LN2Zp6cG-BLIFQoY4o60",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 12605,
+      "modified": "2026-08-15T08:15:02.000Z",
+      "checksum": "addd18f093734bda31fb09752d07bf52",
+      "folder": false
+    },
+    {
+      "id": "1xPv4wD706HjITBVtvSMm59TLnLvsRy77",
+      "parent_id": "1PCYXVDOha7v6LN2Zp6cG-BLIFQoY4o60",
+      "name": "LƯỠI.epub",
+      "mime": "application/epub+zip",
+      "size": 251099,
+      "modified": "2026-08-15T08:15:08.000Z",
+      "checksum": "07529db81b01d1bcdf9fb21a8404fae9",
+      "folder": false
+    },
+    {
+      "id": "1fMSBDEnqEb_g6kYFQ2UU7OefQn8Jufbm",
+      "parent_id": "1PCYXVDOha7v6LN2Zp6cG-BLIFQoY4o60",
+      "name": "LƯỠI.pdf",
+      "mime": "application/pdf",
+      "size": 869555,
+      "modified": "2026-08-15T08:15:06.000Z",
+      "checksum": "02b93cd6646cd9cbcf1c751e57e251f6",
+      "folder": false
+    }
+  ]
+}

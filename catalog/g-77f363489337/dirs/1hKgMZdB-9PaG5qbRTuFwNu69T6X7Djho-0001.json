@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hKgMZdB-9PaG5qbRTuFwNu69T6X7Djho",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qln97fUKMwcijEQjmXQf0KOXOVFH-nJY",
+      "parent_id": "1hKgMZdB-9PaG5qbRTuFwNu69T6X7Djho",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3140,
+      "modified": "2026-08-15T10:41:02.000Z",
+      "checksum": "5797bfac204937aa417693690ce39764",
+      "folder": false
+    },
+    {
+      "id": "1KvAdNvTVn3kBBI4c1oT7XAbbO6XZqVOp",
+      "parent_id": "1hKgMZdB-9PaG5qbRTuFwNu69T6X7Djho",
+      "name": "NGUYÊN HI KỶ.epub",
+      "mime": "application/epub+zip",
+      "size": 271454,
+      "modified": "2026-08-15T10:41:10.000Z",
+      "checksum": "3467532a1ef3afe5b7d29f54476d8596",
+      "folder": false
+    },
+    {
+      "id": "1m9q-b2yRDb2hxwcdPKiALJyoXBXFzz40",
+      "parent_id": "1hKgMZdB-9PaG5qbRTuFwNu69T6X7Djho",
+      "name": "NGUYÊN HI KỶ.pdf",
+      "mime": "application/pdf",
+      "size": 299748,
+      "modified": "2026-08-15T10:41:07.000Z",
+      "checksum": "c4fca73a5fceb9f3a3ed2d8568ef8769",
+      "folder": false
+    }
+  ]
+}

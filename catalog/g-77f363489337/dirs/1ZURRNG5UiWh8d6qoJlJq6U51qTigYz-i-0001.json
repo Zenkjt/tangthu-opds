@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ZURRNG5UiWh8d6qoJlJq6U51qTigYz-i",
+  "page": 1,
+  "items": [
+    {
+      "id": "1X2ucgd0GDNKJsGFabSZ6sCUDZSs-wJrS",
+      "parent_id": "1ZURRNG5UiWh8d6qoJlJq6U51qTigYz-i",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2013,
+      "modified": "2026-08-15T12:44:21.000Z",
+      "checksum": "7a95232b6bfd0d431ddb6d48fef29676",
+      "folder": false
+    },
+    {
+      "id": "1OcgTtiYGYhpB9DHl9GbOLWa3j-P1un0b",
+      "parent_id": "1ZURRNG5UiWh8d6qoJlJq6U51qTigYz-i",
+      "name": "SƯƠNG KHÓI QUÊ NHÀ.epub",
+      "mime": "application/epub+zip",
+      "size": 997863,
+      "modified": "2026-08-15T12:44:27.000Z",
+      "checksum": "9e4dd3f076a23d820af4406b66d24d52",
+      "folder": false
+    },
+    {
+      "id": "1529mjfy6ptcVexfBPnOIdxqXLYTV0sw-",
+      "parent_id": "1ZURRNG5UiWh8d6qoJlJq6U51qTigYz-i",
+      "name": "SƯƠNG KHÓI QUÊ NHÀ.pdf",
+      "mime": "application/pdf",
+      "size": 1119165,
+      "modified": "2026-08-15T12:44:24.000Z",
+      "checksum": "0f16d8e079b812737b5d3ef81e33467f",
+      "folder": false
+    }
+  ]
+}

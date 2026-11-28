@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15HYoOtfSBCiPHfs0ui5AJpsyB8QcEWHx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MwO4iT3wtwuh3EQXif5q_u5gwEszYFFQ",
+      "parent_id": "15HYoOtfSBCiPHfs0ui5AJpsyB8QcEWHx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2333,
+      "modified": "2026-08-15T07:10:57.000Z",
+      "checksum": "47d475a80dc41ce1fc1f8ed88ae960e6",
+      "folder": false
+    },
+    {
+      "id": "1LRV_amyAYNRA_YM6D3rkUoZ8Mbnwwuip",
+      "parent_id": "15HYoOtfSBCiPHfs0ui5AJpsyB8QcEWHx",
+      "name": "DỮ HƠN RẮN ĐỘC.epub",
+      "mime": "application/epub+zip",
+      "size": 462410,
+      "modified": "2026-08-15T07:11:05.000Z",
+      "checksum": "5b92081eeeb404297db3b985307fb326",
+      "folder": false
+    },
+    {
+      "id": "1p4l17xD4cvr8AHJTU5dwWs1iBgWNpcL5",
+      "parent_id": "15HYoOtfSBCiPHfs0ui5AJpsyB8QcEWHx",
+      "name": "DỮ HƠN RẮN ĐỘC.pdf",
+      "mime": "application/pdf",
+      "size": 1443283,
+      "modified": "2026-08-15T07:11:02.000Z",
+      "checksum": "366a7f2f0ce728a6843fdc3a2f52bbc1",
+      "folder": false
+    }
+  ]
+}

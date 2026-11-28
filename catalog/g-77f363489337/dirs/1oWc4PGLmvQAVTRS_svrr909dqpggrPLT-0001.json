@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1oWc4PGLmvQAVTRS_svrr909dqpggrPLT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1EKvxmhGskJQ-6L4fjvFcMSsKbp4ds1ii",
+      "parent_id": "1oWc4PGLmvQAVTRS_svrr909dqpggrPLT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3233,
+      "modified": "2026-08-15T15:59:23.000Z",
+      "checksum": "269a30547020c18f0d2e827856f4f89c",
+      "folder": false
+    },
+    {
+      "id": "1SQQqH1TdEXUt9RdrNgVORskv3JW-6Yro",
+      "parent_id": "1oWc4PGLmvQAVTRS_svrr909dqpggrPLT",
+      "name": "NINH PHI.epub",
+      "mime": "application/epub+zip",
+      "size": 625330,
+      "modified": "2026-08-15T15:59:31.000Z",
+      "checksum": "3c1006858c91d9d54e5c9a21ee112658",
+      "folder": false
+    },
+    {
+      "id": "1hCE6Dj0-fAXFSl6ey4-dfnISZm_Fr_oK",
+      "parent_id": "1oWc4PGLmvQAVTRS_svrr909dqpggrPLT",
+      "name": "NINH PHI.pdf",
+      "mime": "application/pdf",
+      "size": 1964087,
+      "modified": "2026-08-15T15:59:28.000Z",
+      "checksum": "729b0f7108bb77e4d3d325f51fbbed35",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RiWJ7-AmZAAi9KDH86AMCOnHaUyWYsIt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nXJ6pb07TaxJ8zDy04PppHYZ6Al4BIrt",
+      "parent_id": "1RiWJ7-AmZAAi9KDH86AMCOnHaUyWYsIt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 20268,
+      "modified": "2026-08-16T03:12:38.000Z",
+      "checksum": "dc25a16416671d4675bf0bfd000fb985",
+      "folder": false
+    },
+    {
+      "id": "1BcE8hiwpmhnJ4HmZxSD8TYFc7brefLO2",
+      "parent_id": "1RiWJ7-AmZAAi9KDH86AMCOnHaUyWYsIt",
+      "name": "LAN HỮU.epub",
+      "mime": "application/epub+zip",
+      "size": 306713,
+      "modified": "2026-08-16T03:12:44.000Z",
+      "checksum": "677eeb0e35e6114840aead33e5270c45",
+      "folder": false
+    },
+    {
+      "id": "155DjQw8Xc4vkEsH2aYmezo5RxFAUxS8n",
+      "parent_id": "1RiWJ7-AmZAAi9KDH86AMCOnHaUyWYsIt",
+      "name": "LAN HỮU.pdf",
+      "mime": "application/pdf",
+      "size": 637168,
+      "modified": "2026-08-16T03:12:42.000Z",
+      "checksum": "f59cb73b30d3f313ada808f24d079eb9",
+      "folder": false
+    }
+  ]
+}

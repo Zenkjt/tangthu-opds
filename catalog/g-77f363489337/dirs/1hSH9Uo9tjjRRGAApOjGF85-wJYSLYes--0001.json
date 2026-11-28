@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1hSH9Uo9tjjRRGAApOjGF85-wJYSLYes-",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jY_FdBHoyIa_io_fuLIKRYlf_Mwvu7Vd",
+      "parent_id": "1hSH9Uo9tjjRRGAApOjGF85-wJYSLYes-",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8633,
+      "modified": "2026-08-15T07:42:37.000Z",
+      "checksum": "90be5b02027c4fc0de9840f3b94a8005",
+      "folder": false
+    },
+    {
+      "id": "1hulWCPe-a2Fi4uPe7eH3fIZKLvA_soHR",
+      "parent_id": "1hSH9Uo9tjjRRGAApOjGF85-wJYSLYes-",
+      "name": "MẬT THÁM PHONG VÂN.epub",
+      "mime": "application/epub+zip",
+      "size": 10567114,
+      "modified": "2026-08-15T07:42:50.000Z",
+      "checksum": "ebc081b5721cfa662f1e46215fc47572",
+      "folder": false
+    },
+    {
+      "id": "1W5B_7oKlqzEvOrA2BYVrHhMIiEYYwUJY",
+      "parent_id": "1hSH9Uo9tjjRRGAApOjGF85-wJYSLYes-",
+      "name": "MẬT THÁM PHONG VÂN.pdf",
+      "mime": "application/pdf",
+      "size": 9484241,
+      "modified": "2026-08-15T07:42:45.000Z",
+      "checksum": "6767e0bd8c6033e18a315116492fccf5",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qjzzFFjr6maowmda8vf64Eqo2SRyFGro",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jIwoteAWuMBT20vq2Jf7a70S4-SpHP89",
+      "parent_id": "1qjzzFFjr6maowmda8vf64Eqo2SRyFGro",
+      "name": "CHẬM RÃI.epub",
+      "mime": "application/epub+zip",
+      "size": 617667,
+      "modified": "2026-08-16T03:28:36.000Z",
+      "checksum": "18f4c93ba21868e8c4af820dfce5583e",
+      "folder": false
+    },
+    {
+      "id": "1XYMaIVLNV7MvNekCyTdneniMeo2cpC0D",
+      "parent_id": "1qjzzFFjr6maowmda8vf64Eqo2SRyFGro",
+      "name": "CHẬM RÃI.pdf",
+      "mime": "application/pdf",
+      "size": 718083,
+      "modified": "2026-08-16T03:28:34.000Z",
+      "checksum": "2ddc0c43010e5e6c20b0cbb7ef01be88",
+      "folder": false
+    },
+    {
+      "id": "1tYKWyU8YyduMB1YmaYezuiMAKCq_XWkL",
+      "parent_id": "1qjzzFFjr6maowmda8vf64Eqo2SRyFGro",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5426,
+      "modified": "2026-08-16T03:28:30.000Z",
+      "checksum": "7a6ec3fa5510247f89c57e4d51f95770",
+      "folder": false
+    }
+  ]
+}

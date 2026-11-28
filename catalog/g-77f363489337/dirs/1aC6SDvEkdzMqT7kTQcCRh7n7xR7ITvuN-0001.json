@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aC6SDvEkdzMqT7kTQcCRh7n7xR7ITvuN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1D_SlsamBYkclgLiIZO3UWOlg2C9lbL58",
+      "parent_id": "1aC6SDvEkdzMqT7kTQcCRh7n7xR7ITvuN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2827,
+      "modified": "2026-08-16T03:59:43.000Z",
+      "checksum": "d8c50f2a045a7b9c7956ca2ed3e34f71",
+      "folder": false
+    },
+    {
+      "id": "16AE3zvZkwk_DMNtNGDJOD9jbdTwRq67J",
+      "parent_id": "1aC6SDvEkdzMqT7kTQcCRh7n7xR7ITvuN",
+      "name": "THANG DÂY.epub",
+      "mime": "application/epub+zip",
+      "size": 458697,
+      "modified": "2026-08-16T03:59:50.000Z",
+      "checksum": "58347d0f2dc3e3e3d05108f18820ce02",
+      "folder": false
+    },
+    {
+      "id": "1xB49TpbZJFV5zP008Kq1PdCmPEOKJMFi",
+      "parent_id": "1aC6SDvEkdzMqT7kTQcCRh7n7xR7ITvuN",
+      "name": "THANG DÂY.pdf",
+      "mime": "application/pdf",
+      "size": 917202,
+      "modified": "2026-08-16T03:59:47.000Z",
+      "checksum": "8a52c5ad4ffd2947d8ee1f28017a0508",
+      "folder": false
+    }
+  ]
+}

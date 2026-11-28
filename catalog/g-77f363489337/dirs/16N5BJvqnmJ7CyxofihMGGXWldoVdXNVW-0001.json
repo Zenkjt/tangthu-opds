@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16N5BJvqnmJ7CyxofihMGGXWldoVdXNVW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Mq293Nrf_6CfH5IFrfDqzggTJoXfymRi",
+      "parent_id": "16N5BJvqnmJ7CyxofihMGGXWldoVdXNVW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 568,
+      "modified": "2026-08-15T10:56:00.000Z",
+      "checksum": "d1d3d7f86a19c761a9aec48a0f185c04",
+      "folder": false
+    },
+    {
+      "id": "1bAlr99ifxNRQ4__cBYCuzo7Fahx06Tcz",
+      "parent_id": "16N5BJvqnmJ7CyxofihMGGXWldoVdXNVW",
+      "name": "KẺ DỰ PHẦN.epub",
+      "mime": "application/epub+zip",
+      "size": 356072,
+      "modified": "2026-08-15T10:56:05.000Z",
+      "checksum": "b4b97534054728069346edfe826141c6",
+      "folder": false
+    },
+    {
+      "id": "1AFRXWtGuQ5I_MS-NtXDyfKHJhJRDn4ce",
+      "parent_id": "16N5BJvqnmJ7CyxofihMGGXWldoVdXNVW",
+      "name": "KẺ DỰ PHẦN.pdf",
+      "mime": "application/pdf",
+      "size": 536625,
+      "modified": "2026-08-15T10:56:03.000Z",
+      "checksum": "22c554c157e304cafa7d303ef0109378",
+      "folder": false
+    }
+  ]
+}

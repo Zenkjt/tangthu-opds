@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sb-K2pJBr7PWsCb_XXklda9Kwm1pVf0O",
+  "page": 1,
+  "items": [
+    {
+      "id": "1zPXeRWMiFi5USRWKwX6IhHEpsHJ3DMnS",
+      "parent_id": "1sb-K2pJBr7PWsCb_XXklda9Kwm1pVf0O",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2987,
+      "modified": "2026-08-15T07:45:50.000Z",
+      "checksum": "47510c820c9fdf27de8b59081f0af8ca",
+      "folder": false
+    },
+    {
+      "id": "1ybUrAyHYiQlOqbSpf2Z7r60PNgz_lPiE",
+      "parent_id": "1sb-K2pJBr7PWsCb_XXklda9Kwm1pVf0O",
+      "name": "THIÊN THẦN HỘ MỆNH.epub",
+      "mime": "application/epub+zip",
+      "size": 555477,
+      "modified": "2026-08-15T07:45:58.000Z",
+      "checksum": "4337d1378016fa34023bd5242a72ae04",
+      "folder": false
+    },
+    {
+      "id": "1UQXu5MT3x7hHhEcWrApeZu3eHhuac6Df",
+      "parent_id": "1sb-K2pJBr7PWsCb_XXklda9Kwm1pVf0O",
+      "name": "THIÊN THẦN HỘ MỆNH.pdf",
+      "mime": "application/pdf",
+      "size": 1647323,
+      "modified": "2026-08-15T07:45:56.000Z",
+      "checksum": "995ca85ac8b00a09828017f9c675c254",
+      "folder": false
+    }
+  ]
+}

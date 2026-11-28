@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vCRFznvbx1-2z60WfgUNNUlSwmsD_kCY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uAFMG6Agj0LxlOuibWfZMcCs3G9lU8AF",
+      "parent_id": "1vCRFznvbx1-2z60WfgUNNUlSwmsD_kCY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 350,
+      "modified": "2026-08-15T13:02:46.000Z",
+      "checksum": "dd149c859e33eb63601c9aca4b6d1c5e",
+      "folder": false
+    },
+    {
+      "id": "1uClUiSOaxBneg6CJM7fvwN8DKDCN6cDq",
+      "parent_id": "1vCRFznvbx1-2z60WfgUNNUlSwmsD_kCY",
+      "name": "LỮ QUÁN GIẾT NGƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 203019,
+      "modified": "2026-08-15T13:02:52.000Z",
+      "checksum": "1a4233ccb69be15464041adb5286b1d1",
+      "folder": false
+    },
+    {
+      "id": "1G8sFS7AdCtHoOeSC1KBeeMB6m50oyc63",
+      "parent_id": "1vCRFznvbx1-2z60WfgUNNUlSwmsD_kCY",
+      "name": "LỮ QUÁN GIẾT NGƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 555572,
+      "modified": "2026-08-15T13:02:50.000Z",
+      "checksum": "b65419a6ca9095f3561173171e27a01b",
+      "folder": false
+    }
+  ]
+}

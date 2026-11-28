@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1M13b924enqeVSORyqIXM2Z6HSOS6U58I",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gHrxvLNaPsT5fbPJF6kdskNbeiYs3zUc",
+      "parent_id": "1M13b924enqeVSORyqIXM2Z6HSOS6U58I",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 493,
+      "modified": "2026-08-15T15:34:57.000Z",
+      "checksum": "e1b337e2b4768bd03d66cefa4f126e2f",
+      "folder": false
+    },
+    {
+      "id": "1U2qKu6zddqRHQ9iq_m56zmwBEpLuRsPZ",
+      "parent_id": "1M13b924enqeVSORyqIXM2Z6HSOS6U58I",
+      "name": "VẾT BỚT MÀU CÀ PHÊ SỮA.epub",
+      "mime": "application/epub+zip",
+      "size": 423099,
+      "modified": "2026-08-15T15:35:23.000Z",
+      "checksum": "cd3dd4dc5fa0c70ec9e3e50c99cbca8d",
+      "folder": false
+    },
+    {
+      "id": "1JUNj_jC6VLsIUcqQCEO0ccPht4Ryv_o8",
+      "parent_id": "1M13b924enqeVSORyqIXM2Z6HSOS6U58I",
+      "name": "VẾT BỚT MÀU CÀ PHÊ SỮA.pdf",
+      "mime": "application/pdf",
+      "size": 1113663,
+      "modified": "2026-08-15T15:35:18.000Z",
+      "checksum": "1df7143cbb3bade78a37351f34c6b1fc",
+      "folder": false
+    }
+  ]
+}

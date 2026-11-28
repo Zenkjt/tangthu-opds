@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DSAOB2HTJ31yQNp5hC_ps-aSWYXbEaxD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1uE2vBi0TKeFXwmszwcsLj7xwqD0rHiBs",
+      "parent_id": "1DSAOB2HTJ31yQNp5hC_ps-aSWYXbEaxD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5520,
+      "modified": "2026-08-16T03:29:43.000Z",
+      "checksum": "869b50737477516a19462ed1a65b75f0",
+      "folder": false
+    },
+    {
+      "id": "1sObYxckyQqAZlEUsiAy7E96-eLMe9INP",
+      "parent_id": "1DSAOB2HTJ31yQNp5hC_ps-aSWYXbEaxD",
+      "name": "HỘ TÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 874451,
+      "modified": "2026-08-16T03:29:57.000Z",
+      "checksum": "aea52ef21d874f3ae67e72daed3035c2",
+      "folder": false
+    },
+    {
+      "id": "1EFLkUDEUUp7nZz2JToyGVuiDREhO447Q",
+      "parent_id": "1DSAOB2HTJ31yQNp5hC_ps-aSWYXbEaxD",
+      "name": "HỘ TÂM.pdf",
+      "mime": "application/pdf",
+      "size": 3641906,
+      "modified": "2026-08-16T03:29:55.000Z",
+      "checksum": "ff9d1300499f1c21f8ea0cfeff36730f",
+      "folder": false
+    }
+  ]
+}

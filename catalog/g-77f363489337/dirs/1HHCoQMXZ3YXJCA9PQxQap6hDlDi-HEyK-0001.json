@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HHCoQMXZ3YXJCA9PQxQap6hDlDi-HEyK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mZzt5sGfifEtYyr8kYxonvlF_eyBx6pI",
+      "parent_id": "1HHCoQMXZ3YXJCA9PQxQap6hDlDi-HEyK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3125,
+      "modified": "2026-08-15T10:08:33.000Z",
+      "checksum": "cd28dd6777166740bd80d7b735645a95",
+      "folder": false
+    },
+    {
+      "id": "1Gbf4NWHUUrpCcCNfSedjcqmuDsN1qvCi",
+      "parent_id": "1HHCoQMXZ3YXJCA9PQxQap6hDlDi-HEyK",
+      "name": "TÌNH YÊU CÒN MÃI.epub",
+      "mime": "application/epub+zip",
+      "size": 773774,
+      "modified": "2026-08-15T10:08:40.000Z",
+      "checksum": "836b9ee8454193f6623c0ac02ae61923",
+      "folder": false
+    },
+    {
+      "id": "1_PYDoZ5imVH98O7QfKL7YfFxm7hZlk1B",
+      "parent_id": "1HHCoQMXZ3YXJCA9PQxQap6hDlDi-HEyK",
+      "name": "TÌNH YÊU CÒN MÃI.pdf",
+      "mime": "application/pdf",
+      "size": 1052552,
+      "modified": "2026-08-15T10:08:38.000Z",
+      "checksum": "49ea84c448843bc6b5cf8176b104cd30",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1W_qk3ymQOzTtEEgntcC4WFYkvbykUZt7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XGlAkxD_J6geuNAkV7Au64QFnJRnURcs",
+      "parent_id": "1W_qk3ymQOzTtEEgntcC4WFYkvbykUZt7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2612,
+      "modified": "2026-08-16T03:18:10.000Z",
+      "checksum": "e45fe548cb05f51a9e120600cec296a8",
+      "folder": false
+    },
+    {
+      "id": "1GCwgzw_n5lc53Ir-2SIJXXbIUhOhFW0a",
+      "parent_id": "1W_qk3ymQOzTtEEgntcC4WFYkvbykUZt7",
+      "name": "ĐIỀU CUỐI CÙNG Ở LẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 189560,
+      "modified": "2026-08-16T03:18:15.000Z",
+      "checksum": "8af5ab56b5fe1d45142973ed39763520",
+      "folder": false
+    },
+    {
+      "id": "1S8wX1OIpi9ceEN8owINZDxJEt7DbVDCn",
+      "parent_id": "1W_qk3ymQOzTtEEgntcC4WFYkvbykUZt7",
+      "name": "ĐIỀU CUỐI CÙNG Ở LẠI.pdf",
+      "mime": "application/pdf",
+      "size": 162858,
+      "modified": "2026-08-16T03:18:13.000Z",
+      "checksum": "521f83fa1dd4a0e8f571b41d46fced66",
+      "folder": false
+    }
+  ]
+}

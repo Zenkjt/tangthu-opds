@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zWDd8cW4mVkRPxMpeGhGE1Bf3BDKpjGP",
+  "page": 1,
+  "items": [
+    {
+      "id": "10VMFR7QGGzoYMaU1NW8jR9AK12_JGCqr",
+      "parent_id": "1zWDd8cW4mVkRPxMpeGhGE1Bf3BDKpjGP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1740,
+      "modified": "2026-08-15T07:05:40.000Z",
+      "checksum": "0d5c77cb88bf8624f73dda73203a092d",
+      "folder": false
+    },
+    {
+      "id": "12DI-j2jV-7dxbtM7zwA_6C-LPyfBZsi6",
+      "parent_id": "1zWDd8cW4mVkRPxMpeGhGE1Bf3BDKpjGP",
+      "name": "ĐÒN HẸN.epub",
+      "mime": "application/epub+zip",
+      "size": 265648,
+      "modified": "2026-08-15T07:05:48.000Z",
+      "checksum": "6716ff85ba20318cbd0cdcaa3134e55d",
+      "folder": false
+    },
+    {
+      "id": "1JQN1sI2A9mI5V9NjYdM-rBksrrLTdT93",
+      "parent_id": "1zWDd8cW4mVkRPxMpeGhGE1Bf3BDKpjGP",
+      "name": "ĐÒN HẸN.pdf",
+      "mime": "application/pdf",
+      "size": 318136,
+      "modified": "2026-08-15T07:05:45.000Z",
+      "checksum": "3db3d9f13e5a5788d0d57195cd70b819",
+      "folder": false
+    }
+  ]
+}

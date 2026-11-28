@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aB9ljtB6i2HeXvl8i0Vini8Oj5CTBhKG",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tSpaQPv0TX15fffhU-gQ8uB7xnm1cdqL",
+      "parent_id": "1aB9ljtB6i2HeXvl8i0Vini8Oj5CTBhKG",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2877,
+      "modified": "2026-08-15T03:25:46.000Z",
+      "checksum": "e6f390f44fdfd20b22ac2ab53f14db53",
+      "folder": false
+    },
+    {
+      "id": "1x6WkN6qe2A6NS11dRkDfRugTxXyC-iVZ",
+      "parent_id": "1aB9ljtB6i2HeXvl8i0Vini8Oj5CTBhKG",
+      "name": "TƯ DUY LOGIC.epub",
+      "mime": "application/epub+zip",
+      "size": 753610,
+      "modified": "2026-08-15T03:25:52.000Z",
+      "checksum": "ed9c2ac568cfd74d1a6e618ffeae2fa0",
+      "folder": false
+    },
+    {
+      "id": "1pivUcukObjJ5kmOK0BxxYsbGJdMYH30A",
+      "parent_id": "1aB9ljtB6i2HeXvl8i0Vini8Oj5CTBhKG",
+      "name": "TƯ DUY LOGIC.pdf",
+      "mime": "application/pdf",
+      "size": 1340017,
+      "modified": "2026-08-15T03:25:50.000Z",
+      "checksum": "a627b1f990384b455bbbcaaa08c5606a",
+      "folder": false
+    }
+  ]
+}

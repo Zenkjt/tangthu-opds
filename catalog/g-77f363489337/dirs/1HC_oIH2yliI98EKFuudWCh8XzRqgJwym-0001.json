@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HC_oIH2yliI98EKFuudWCh8XzRqgJwym",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JfdZUewvSBcPEAw-BifblIx_vv-efI_4",
+      "parent_id": "1HC_oIH2yliI98EKFuudWCh8XzRqgJwym",
+      "name": "CÔNG TY.epub",
+      "mime": "application/epub+zip",
+      "size": 711182,
+      "modified": "2026-08-16T03:19:15.000Z",
+      "checksum": "1d7e67a94806fa8c86c3ac0d1e10e832",
+      "folder": false
+    },
+    {
+      "id": "1AeIPN84y5IKefnBs8cc36Eiu6kF1pIwR",
+      "parent_id": "1HC_oIH2yliI98EKFuudWCh8XzRqgJwym",
+      "name": "CÔNG TY.pdf",
+      "mime": "application/pdf",
+      "size": 1533716,
+      "modified": "2026-08-16T03:19:12.000Z",
+      "checksum": "c885c3966ab1eaa40a9daa2da916a282",
+      "folder": false
+    },
+    {
+      "id": "1I3eateR6yHHp73FG7oIQASUukNeL5xu-",
+      "parent_id": "1HC_oIH2yliI98EKFuudWCh8XzRqgJwym",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1106,
+      "modified": "2026-08-16T03:19:07.000Z",
+      "checksum": "4dc4885fb59019d88e36205aac836811",
+      "folder": false
+    }
+  ]
+}

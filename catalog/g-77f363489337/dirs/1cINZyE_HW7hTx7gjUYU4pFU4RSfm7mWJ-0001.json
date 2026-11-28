@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cINZyE_HW7hTx7gjUYU4pFU4RSfm7mWJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1i8Vg1tlMgNoR3M4kK9ceq3Xy9-G1_kE6",
+      "parent_id": "1cINZyE_HW7hTx7gjUYU4pFU4RSfm7mWJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 15193,
+      "modified": "2026-08-16T03:05:55.000Z",
+      "checksum": "b18685f4e3a8e8a6c5f29563d7c5303b",
+      "folder": false
+    },
+    {
+      "id": "1lZeDH7ihG-Zhfk4G6THLUVgdrqnnoAB9",
+      "parent_id": "1cINZyE_HW7hTx7gjUYU4pFU4RSfm7mWJ",
+      "name": "VINH QUANG VÀ QUYỀN NĂNG.epub",
+      "mime": "application/epub+zip",
+      "size": 541036,
+      "modified": "2026-08-16T03:06:03.000Z",
+      "checksum": "2ebbaf412220d9056edbfd746b43eacf",
+      "folder": false
+    },
+    {
+      "id": "1F-gCafDSUcrW16rUI9aVG1ie-Ee85zxE",
+      "parent_id": "1cINZyE_HW7hTx7gjUYU4pFU4RSfm7mWJ",
+      "name": "VINH QUANG VÀ QUYỀN NĂNG.pdf",
+      "mime": "application/pdf",
+      "size": 988180,
+      "modified": "2026-08-16T03:06:00.000Z",
+      "checksum": "af9786794657bd03592c02fdcdba2a21",
+      "folder": false
+    }
+  ]
+}

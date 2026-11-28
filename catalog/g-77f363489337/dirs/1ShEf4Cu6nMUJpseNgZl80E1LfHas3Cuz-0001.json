@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ShEf4Cu6nMUJpseNgZl80E1LfHas3Cuz",
+  "page": 1,
+  "items": [
+    {
+      "id": "17qBY4muVXx0S6SwNx-CoSbOeM3nTK04X",
+      "parent_id": "1ShEf4Cu6nMUJpseNgZl80E1LfHas3Cuz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 646,
+      "modified": "2026-08-15T10:58:40.000Z",
+      "checksum": "9ecfd33f900f8b116a125dac02100852",
+      "folder": false
+    },
+    {
+      "id": "1vV4Peph-3XLncqlaFcCbv7LE_82-Flgg",
+      "parent_id": "1ShEf4Cu6nMUJpseNgZl80E1LfHas3Cuz",
+      "name": "ĐỜI KHÔNG NHƯ LÀ MƠ.epub",
+      "mime": "application/epub+zip",
+      "size": 454903,
+      "modified": "2026-08-15T10:58:56.000Z",
+      "checksum": "31cdd5b3bb49e5820e3f1989ed29fc28",
+      "folder": false
+    },
+    {
+      "id": "1-xPLWP549BXsvsPgsqirhIJe6LIDUmMl",
+      "parent_id": "1ShEf4Cu6nMUJpseNgZl80E1LfHas3Cuz",
+      "name": "ĐỜI KHÔNG NHƯ LÀ MƠ.pdf",
+      "mime": "application/pdf",
+      "size": 768578,
+      "modified": "2026-08-15T10:58:49.000Z",
+      "checksum": "75fe8e025063cfa6bdd5be5b18d8d19f",
+      "folder": false
+    }
+  ]
+}

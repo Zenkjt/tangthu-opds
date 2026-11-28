@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ztP8_HTwMBf6EM7fJVNPMdegYKtpa-p5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DUXQmIRt9ZwxtlbLJHMI5_1nAi2xyi-s",
+      "parent_id": "1ztP8_HTwMBf6EM7fJVNPMdegYKtpa-p5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2156,
+      "modified": "2026-08-15T09:32:23.000Z",
+      "checksum": "cac8415dd0b36e4ac5cc7e577f99fb75",
+      "folder": false
+    },
+    {
+      "id": "1HcryCS868xw1SesIXj8vg_dMT9dHclpy",
+      "parent_id": "1ztP8_HTwMBf6EM7fJVNPMdegYKtpa-p5",
+      "name": "NGÀN NĂM CHỜ ĐỢI.epub",
+      "mime": "application/epub+zip",
+      "size": 518232,
+      "modified": "2026-08-15T09:32:30.000Z",
+      "checksum": "11c5ad6fbd6f13aeef3b278fe0980bb4",
+      "folder": false
+    },
+    {
+      "id": "1c2Hy0gCSu92WKcqTNCeMUcpg0OzpkcBB",
+      "parent_id": "1ztP8_HTwMBf6EM7fJVNPMdegYKtpa-p5",
+      "name": "NGÀN NĂM CHỜ ĐỢI.pdf",
+      "mime": "application/pdf",
+      "size": 459052,
+      "modified": "2026-08-15T09:32:28.000Z",
+      "checksum": "3f98ef26af2aadaf8cb37a5fe2ada0b8",
+      "folder": false
+    }
+  ]
+}

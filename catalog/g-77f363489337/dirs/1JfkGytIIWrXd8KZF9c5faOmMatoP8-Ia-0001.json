@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JfkGytIIWrXd8KZF9c5faOmMatoP8-Ia",
+  "page": 1,
+  "items": [
+    {
+      "id": "1H4l05IYhB-kYWqa69EvOedvWn2jV_LOp",
+      "parent_id": "1JfkGytIIWrXd8KZF9c5faOmMatoP8-Ia",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7684,
+      "modified": "2026-08-15T15:49:25.000Z",
+      "checksum": "dafc5c2e8586380b9eff6904e63940d2",
+      "folder": false
+    },
+    {
+      "id": "1FS-vzAMCOA5x18SxMEk8A-FOQyvpp1_B",
+      "parent_id": "1JfkGytIIWrXd8KZF9c5faOmMatoP8-Ia",
+      "name": "NGHỊCH TẬP.epub",
+      "mime": "application/epub+zip",
+      "size": 1363452,
+      "modified": "2026-08-15T15:49:37.000Z",
+      "checksum": "52fccbd09c0b2365255b10cef7cde75b",
+      "folder": false
+    },
+    {
+      "id": "1wSYWis1dUB8rcLWeVUDF-RoPiRnLzqgG",
+      "parent_id": "1JfkGytIIWrXd8KZF9c5faOmMatoP8-Ia",
+      "name": "NGHỊCH TẬP.pdf",
+      "mime": "application/pdf",
+      "size": 5696180,
+      "modified": "2026-08-15T15:49:33.000Z",
+      "checksum": "0ead9f4dfa1c37c735256e4c9875862a",
+      "folder": false
+    }
+  ]
+}

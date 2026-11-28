@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19o80uOypsMFWrbCOjP9abHNw2M4fUCDt",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mJz8rVFg6UKNNouhDS19w4c2OxMYVL3q",
+      "parent_id": "19o80uOypsMFWrbCOjP9abHNw2M4fUCDt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5992,
+      "modified": "2026-08-15T09:30:23.000Z",
+      "checksum": "321f12cdffe5769b40bf178b3bf1a569",
+      "folder": false
+    },
+    {
+      "id": "1zGnZtsU3Pmu44dq5n6MQQvn-6JMi8CyJ",
+      "parent_id": "19o80uOypsMFWrbCOjP9abHNw2M4fUCDt",
+      "name": "KIM SƠN HỒ ĐIỆP.epub",
+      "mime": "application/epub+zip",
+      "size": 1230709,
+      "modified": "2026-08-15T09:30:37.000Z",
+      "checksum": "16394d66253865ea7b2ce0325f92864c",
+      "folder": false
+    },
+    {
+      "id": "12QH79WxaSshY0iBzxMgF-5LW83lgX-EE",
+      "parent_id": "19o80uOypsMFWrbCOjP9abHNw2M4fUCDt",
+      "name": "KIM SƠN HỒ ĐIỆP.pdf",
+      "mime": "application/pdf",
+      "size": 4388839,
+      "modified": "2026-08-15T09:30:34.000Z",
+      "checksum": "74300d2d6e06409beb1c57acad427190",
+      "folder": false
+    }
+  ]
+}

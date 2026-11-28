@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wMYVbjDX-Z-B1NMf1QDa9BIAFoksS2F1",
+  "page": 1,
+  "items": [
+    {
+      "id": "1MPBb756248H3ODQuiwAP7Dba9iNAhbJm",
+      "parent_id": "1wMYVbjDX-Z-B1NMf1QDa9BIAFoksS2F1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 496,
+      "modified": "2026-08-15T15:40:35.000Z",
+      "checksum": "f02cff4aa85093e22dcdd5caec9e7543",
+      "folder": false
+    },
+    {
+      "id": "1zYw5GBRqmbqvWLYsHjyYdoyeJz8NqgZM",
+      "parent_id": "1wMYVbjDX-Z-B1NMf1QDa9BIAFoksS2F1",
+      "name": "HUYNH ĐỆ.epub",
+      "mime": "application/epub+zip",
+      "size": 1000390,
+      "modified": "2026-08-15T15:40:47.000Z",
+      "checksum": "a74350b3b331e6fb28bff2b4c2c17cd4",
+      "folder": false
+    },
+    {
+      "id": "1q_HztKTXPp62OUF6Et1Ry-ihUFFx7lUD",
+      "parent_id": "1wMYVbjDX-Z-B1NMf1QDa9BIAFoksS2F1",
+      "name": "HUYNH ĐỆ.pdf",
+      "mime": "application/pdf",
+      "size": 2929475,
+      "modified": "2026-08-15T15:40:44.000Z",
+      "checksum": "abf7d892d89c2747d1c5eb49c36745ca",
+      "folder": false
+    }
+  ]
+}

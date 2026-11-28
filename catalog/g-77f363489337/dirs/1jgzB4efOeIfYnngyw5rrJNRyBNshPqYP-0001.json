@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jgzB4efOeIfYnngyw5rrJNRyBNshPqYP",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wPd7_omE4ODxeVhxmonzaRxICNecvD7c",
+      "parent_id": "1jgzB4efOeIfYnngyw5rrJNRyBNshPqYP",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3388,
+      "modified": "2026-08-15T10:34:21.000Z",
+      "checksum": "408d170032de6222955b703a3bd67abc",
+      "folder": false
+    },
+    {
+      "id": "1tD_bBrJxz0sxZdZyxLpp4_1HRHahd-zr",
+      "parent_id": "1jgzB4efOeIfYnngyw5rrJNRyBNshPqYP",
+      "name": "OÁNH TÂM.epub",
+      "mime": "application/epub+zip",
+      "size": 320466,
+      "modified": "2026-08-15T10:34:28.000Z",
+      "checksum": "a5140258b41e747ced0ec28b84cf25d2",
+      "folder": false
+    },
+    {
+      "id": "1jyfQHfZNUHrQGHrm7IfsU4nDhHtg504Y",
+      "parent_id": "1jgzB4efOeIfYnngyw5rrJNRyBNshPqYP",
+      "name": "OÁNH TÂM.pdf",
+      "mime": "application/pdf",
+      "size": 155998,
+      "modified": "2026-08-15T10:34:25.000Z",
+      "checksum": "736fbaa67c294cc0845c76b25f3d8bf5",
+      "folder": false
+    }
+  ]
+}

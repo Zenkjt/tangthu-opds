@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1vDayRNY__Koe6bm-oAdsKurizSsMe28U",
+  "page": 1,
+  "items": [
+    {
+      "id": "1oCGSY6qNijpoiK1-rhJfVGZlRYmDiped",
+      "parent_id": "1vDayRNY__Koe6bm-oAdsKurizSsMe28U",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3402,
+      "modified": "2026-08-16T04:16:35.000Z",
+      "checksum": "2219920721cacf897c14a6b43d422679",
+      "folder": false
+    },
+    {
+      "id": "1vyAuKze3rbXVmSBYYzYuq51h8WU3KBFb",
+      "parent_id": "1vDayRNY__Koe6bm-oAdsKurizSsMe28U",
+      "name": "NĂM THÁNG BÊN NHAU.epub",
+      "mime": "application/epub+zip",
+      "size": 1136079,
+      "modified": "2026-08-16T04:16:44.000Z",
+      "checksum": "0e84c09b4cbcb01951c7abe622e8ea75",
+      "folder": false
+    },
+    {
+      "id": "1-PQJXwmyfqQTsLZQUYMOlQ9TpKs-zzVr",
+      "parent_id": "1vDayRNY__Koe6bm-oAdsKurizSsMe28U",
+      "name": "NĂM THÁNG BÊN NHAU.pdf",
+      "mime": "application/pdf",
+      "size": 1914054,
+      "modified": "2026-08-16T04:16:40.000Z",
+      "checksum": "f03a7d4e333d330f0fd063de724ef330",
+      "folder": false
+    }
+  ]
+}

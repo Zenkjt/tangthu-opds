@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ayXA_9OXIi73216yGBGhiZbYsbs5dVAA",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JCP6E10RkmgEZPsA85zHPjawXpHNSopT",
+      "parent_id": "1ayXA_9OXIi73216yGBGhiZbYsbs5dVAA",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 576,
+      "modified": "2026-08-15T10:56:26.000Z",
+      "checksum": "2da52df4469be2c548235c4bc649463a",
+      "folder": false
+    },
+    {
+      "id": "1DsFNNvfOxRcykmmKMGF4FZI806o-FsYk",
+      "parent_id": "1ayXA_9OXIi73216yGBGhiZbYsbs5dVAA",
+      "name": "HOÀN KHỐ.epub",
+      "mime": "application/epub+zip",
+      "size": 309610,
+      "modified": "2026-08-15T10:56:32.000Z",
+      "checksum": "d1df13434cda3357a56446c39762486b",
+      "folder": false
+    },
+    {
+      "id": "1Qz7r-SMP-WNlk-GpXIhZpR8yiLDifRzp",
+      "parent_id": "1ayXA_9OXIi73216yGBGhiZbYsbs5dVAA",
+      "name": "HOÀN KHỐ.pdf",
+      "mime": "application/pdf",
+      "size": 701725,
+      "modified": "2026-08-15T10:56:30.000Z",
+      "checksum": "2a4bdbb1dad7b83b6e1dc65b45dc9f99",
+      "folder": false
+    }
+  ]
+}

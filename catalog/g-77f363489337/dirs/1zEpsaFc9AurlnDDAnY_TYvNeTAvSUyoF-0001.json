@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1zEpsaFc9AurlnDDAnY_TYvNeTAvSUyoF",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_TWWe8ze-ExKTZLPU5tCTwiRUckKC92L",
+      "parent_id": "1zEpsaFc9AurlnDDAnY_TYvNeTAvSUyoF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1494,
+      "modified": "2026-08-15T07:26:24.000Z",
+      "checksum": "af4a15004f56e805dd2c6180f5650aff",
+      "folder": false
+    },
+    {
+      "id": "1rP5uh5RcaKvKCdmT0IBats7ILPyBcxc2",
+      "parent_id": "1zEpsaFc9AurlnDDAnY_TYvNeTAvSUyoF",
+      "name": "TỶ PHU VINH DỰ.epub",
+      "mime": "application/epub+zip",
+      "size": 6329675,
+      "modified": "2026-08-15T07:26:44.000Z",
+      "checksum": "45301d6651402940d28de068a8d8026a",
+      "folder": false
+    },
+    {
+      "id": "14O1qXXgoBVaK5dPJ3sLEuABoFPIEuet3",
+      "parent_id": "1zEpsaFc9AurlnDDAnY_TYvNeTAvSUyoF",
+      "name": "TỶ PHU VINH DỰ.pdf",
+      "mime": "application/pdf",
+      "size": 7716469,
+      "modified": "2026-08-15T07:26:37.000Z",
+      "checksum": "e4010ca8c7722fc6c6cbca919a626e22",
+      "folder": false
+    }
+  ]
+}

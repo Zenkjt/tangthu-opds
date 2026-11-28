@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Q79Jl0W0MiIi9KkIZ5ynkaFoJfQ--e1V",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ZVdm20tCd40AHZEZL6WjlJSxkpb45lAO",
+      "parent_id": "1Q79Jl0W0MiIi9KkIZ5ynkaFoJfQ--e1V",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5581,
+      "modified": "2026-08-15T07:27:24.000Z",
+      "checksum": "b34c4c14433926021b9ee23551dd62a5",
+      "folder": false
+    },
+    {
+      "id": "1Eq5Virwp4WzYe7Shh62MSMRjyjyIKMyx",
+      "parent_id": "1Q79Jl0W0MiIi9KkIZ5ynkaFoJfQ--e1V",
+      "name": "VÌ EM TIÊU DIỆT TẤT CẢ.epub",
+      "mime": "application/epub+zip",
+      "size": 321190,
+      "modified": "2026-08-15T07:27:30.000Z",
+      "checksum": "dc0b5d9b4b3fe269f04fb5a432d2333e",
+      "folder": false
+    },
+    {
+      "id": "1k17eAY5ZBessyjcOIRU8aOzhYnLbCIS2",
+      "parent_id": "1Q79Jl0W0MiIi9KkIZ5ynkaFoJfQ--e1V",
+      "name": "VÌ EM TIÊU DIỆT TẤT CẢ.pdf",
+      "mime": "application/pdf",
+      "size": 184390,
+      "modified": "2026-08-15T07:27:27.000Z",
+      "checksum": "ec7c3ea8f6a02fb0784d6bbf4641742f",
+      "folder": false
+    }
+  ]
+}

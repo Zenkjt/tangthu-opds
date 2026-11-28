@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1M0Cks4EUU-8AwcWgYDqR1NaslLLX6INa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eaSGfhcud-avS0gEGhWXOgF0A-VPG_fM",
+      "parent_id": "1M0Cks4EUU-8AwcWgYDqR1NaslLLX6INa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1579,
+      "modified": "2026-08-15T00:49:03.000Z",
+      "checksum": "874073a1597962459d535e08ff3bd3a7",
+      "folder": false
+    },
+    {
+      "id": "1YjZsB95ed5H6lHJkizfbzVPu9QRzE7gN",
+      "parent_id": "1M0Cks4EUU-8AwcWgYDqR1NaslLLX6INa",
+      "name": "HỌC CÁCH MỈM CƯỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 212794,
+      "modified": "2026-08-15T00:49:09.000Z",
+      "checksum": "1470c92fd10b0ed910d6c69d08dd26f2",
+      "folder": false
+    },
+    {
+      "id": "1fq4zpfStXksBN-ibxFFSNFcusygIDblK",
+      "parent_id": "1M0Cks4EUU-8AwcWgYDqR1NaslLLX6INa",
+      "name": "HỌC CÁCH MỈM CƯỜI.pdf",
+      "mime": "application/pdf",
+      "size": 455429,
+      "modified": "2026-08-15T00:49:06.000Z",
+      "checksum": "35a29f4782743d9b33ed90a3f367d1f3",
+      "folder": false
+    }
+  ]
+}

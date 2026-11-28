@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UUC5QgxFYQnY6-NXnUjrtlwd-Z3UjNsc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1XCRo1SHGcOS7OVkew562t689r5ZgJwpo",
+      "parent_id": "1UUC5QgxFYQnY6-NXnUjrtlwd-Z3UjNsc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11835,
+      "modified": "2026-08-15T12:31:02.000Z",
+      "checksum": "0147f4c84f04dca3744362448536779c",
+      "folder": false
+    },
+    {
+      "id": "1YQajp-7F97h-HnlxnHvkPjtEDO53k-yN",
+      "parent_id": "1UUC5QgxFYQnY6-NXnUjrtlwd-Z3UjNsc",
+      "name": "KIRA KIRA.epub",
+      "mime": "application/epub+zip",
+      "size": 406923,
+      "modified": "2026-08-15T12:31:15.000Z",
+      "checksum": "f17ff6aa7d8a695c8978ebc94756a106",
+      "folder": false
+    },
+    {
+      "id": "1pICzeqicqHATI5jFuHLhdWNEvx73ezCy",
+      "parent_id": "1UUC5QgxFYQnY6-NXnUjrtlwd-Z3UjNsc",
+      "name": "KIRA KIRA.pdf",
+      "mime": "application/pdf",
+      "size": 724584,
+      "modified": "2026-08-15T12:31:11.000Z",
+      "checksum": "437de63df4942b304a2d58b8766e1ce9",
+      "folder": false
+    }
+  ]
+}

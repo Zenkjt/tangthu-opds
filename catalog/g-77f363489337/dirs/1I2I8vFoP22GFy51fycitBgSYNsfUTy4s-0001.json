@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1I2I8vFoP22GFy51fycitBgSYNsfUTy4s",
+  "page": 1,
+  "items": [
+    {
+      "id": "1dTVAhqlQjZS8pzkptjhf5atJh_iG1vDq",
+      "parent_id": "1I2I8vFoP22GFy51fycitBgSYNsfUTy4s",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3885,
+      "modified": "2026-08-16T02:48:53.000Z",
+      "checksum": "a9e64f4f94600426b1776e36e138dd9b",
+      "folder": false
+    },
+    {
+      "id": "1TsSmPSa1j1z6xajltxA55HVsm4OjN0Tj",
+      "parent_id": "1I2I8vFoP22GFy51fycitBgSYNsfUTy4s",
+      "name": "TRÊN BỤC GIẢNG.epub",
+      "mime": "application/epub+zip",
+      "size": 942140,
+      "modified": "2026-08-16T02:49:02.000Z",
+      "checksum": "5f86aff6f49c36f049e23353e39f8099",
+      "folder": false
+    },
+    {
+      "id": "1yERDDL2K2zT4gQo-zUx2FP58cyDE-vSD",
+      "parent_id": "1I2I8vFoP22GFy51fycitBgSYNsfUTy4s",
+      "name": "TRÊN BỤC GIẢNG.pdf",
+      "mime": "application/pdf",
+      "size": 1832441,
+      "modified": "2026-08-16T02:49:00.000Z",
+      "checksum": "5a27654f1f9e63b3433edba8ce36a51a",
+      "folder": false
+    }
+  ]
+}

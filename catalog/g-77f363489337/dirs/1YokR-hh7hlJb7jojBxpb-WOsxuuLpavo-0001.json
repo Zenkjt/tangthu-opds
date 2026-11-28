@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1YokR-hh7hlJb7jojBxpb-WOsxuuLpavo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tmiAwqHkSdEkLo1xQ0wMzfWJzRp-x-pr",
+      "parent_id": "1YokR-hh7hlJb7jojBxpb-WOsxuuLpavo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2753,
+      "modified": "2026-08-15T03:44:28.000Z",
+      "checksum": "de47df4eb0e573ae9bd89200a27eb7e3",
+      "folder": false
+    },
+    {
+      "id": "1LdR_EKBVgKZs279qeXdujDhIxW0ynzRy",
+      "parent_id": "1YokR-hh7hlJb7jojBxpb-WOsxuuLpavo",
+      "name": "TÂM TÌNH VỚI ĐẤT MẸ.epub",
+      "mime": "application/epub+zip",
+      "size": 670334,
+      "modified": "2026-08-15T03:44:34.000Z",
+      "checksum": "128ddead38c825646de19c45a6d49f90",
+      "folder": false
+    },
+    {
+      "id": "1PXTKxjrHJkN87MkGJB7SjHEIUaZKKG8I",
+      "parent_id": "1YokR-hh7hlJb7jojBxpb-WOsxuuLpavo",
+      "name": "TÂM TÌNH VỚI ĐẤT MẸ.pdf",
+      "mime": "application/pdf",
+      "size": 1057917,
+      "modified": "2026-08-15T03:44:32.000Z",
+      "checksum": "c1448d443a462f26486e7b6dca5e25f7",
+      "folder": false
+    }
+  ]
+}

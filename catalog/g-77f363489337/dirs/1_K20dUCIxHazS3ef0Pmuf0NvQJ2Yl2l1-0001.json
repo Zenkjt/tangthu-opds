@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_K20dUCIxHazS3ef0Pmuf0NvQJ2Yl2l1",
+  "page": 1,
+  "items": [
+    {
+      "id": "17mmYbUt-H0VGuzIj5Xsw40APD2kSuWjs",
+      "parent_id": "1_K20dUCIxHazS3ef0Pmuf0NvQJ2Yl2l1",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8875,
+      "modified": "2026-08-15T05:46:58.000Z",
+      "checksum": "f843ae38a1f624adb893331075841917",
+      "folder": false
+    },
+    {
+      "id": "1UW8HmH3e6-v69wASp-tYiizo9FqF-xsy",
+      "parent_id": "1_K20dUCIxHazS3ef0Pmuf0NvQJ2Yl2l1",
+      "name": "TRIẾT LÝ CUỘC ĐỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 449959,
+      "modified": "2026-08-15T05:47:04.000Z",
+      "checksum": "7277156533c7fe96c5172667e07f5472",
+      "folder": false
+    },
+    {
+      "id": "1CeyItrp3gXxhllUx9SfQTE0aiMZ1RhAy",
+      "parent_id": "1_K20dUCIxHazS3ef0Pmuf0NvQJ2Yl2l1",
+      "name": "TRIẾT LÝ CUỘC ĐỜI.pdf",
+      "mime": "application/pdf",
+      "size": 549426,
+      "modified": "2026-08-15T05:47:01.000Z",
+      "checksum": "2b8ee80a06c7bd1ddb94ca96f861fe77",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Qcdjjk89RK4WICdEpDu4Mqb8ARShpCEb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hKivA2uVAY0EDSwMyokgjLeFEvfWPoY5",
+      "parent_id": "1Qcdjjk89RK4WICdEpDu4Mqb8ARShpCEb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3142,
+      "modified": "2026-08-16T04:16:44.000Z",
+      "checksum": "13ae233d185df9248009d71ea761be1f",
+      "folder": false
+    },
+    {
+      "id": "1O6lSGwdbEUh9SkIYVIeyWumQQthLbF5o",
+      "parent_id": "1Qcdjjk89RK4WICdEpDu4Mqb8ARShpCEb",
+      "name": "MỸ NGỌC THIÊN THÀNH.epub",
+      "mime": "application/epub+zip",
+      "size": 1294434,
+      "modified": "2026-08-16T04:16:58.000Z",
+      "checksum": "559c5da22ce2121801163144d2bcfb21",
+      "folder": false
+    },
+    {
+      "id": "1TlHCKK_0ua2-BLa1IcwyI7kLWuKz2kLe",
+      "parent_id": "1Qcdjjk89RK4WICdEpDu4Mqb8ARShpCEb",
+      "name": "MỸ NGỌC THIÊN THÀNH.pdf",
+      "mime": "application/pdf",
+      "size": 4512001,
+      "modified": "2026-08-16T04:16:55.000Z",
+      "checksum": "effef7827023278f1bd5fb350ac04cdf",
+      "folder": false
+    }
+  ]
+}

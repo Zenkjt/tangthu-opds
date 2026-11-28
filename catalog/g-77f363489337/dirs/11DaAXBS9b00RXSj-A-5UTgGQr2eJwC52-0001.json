@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11DaAXBS9b00RXSj-A-5UTgGQr2eJwC52",
+  "page": 1,
+  "items": [
+    {
+      "id": "13PSgygqooDOB70OXRNd-k5UOyxYhaFKJ",
+      "parent_id": "11DaAXBS9b00RXSj-A-5UTgGQr2eJwC52",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4860,
+      "modified": "2026-08-16T03:49:13.000Z",
+      "checksum": "76e9a3b450f06564fcc6b1ea464e9a0d",
+      "folder": false
+    },
+    {
+      "id": "1MUvbunY0UPPuY6qzZ2KGEaKXU9d6U-fc",
+      "parent_id": "11DaAXBS9b00RXSj-A-5UTgGQr2eJwC52",
+      "name": "ÁC QUỶ TRÊN THIÊN ĐÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 385672,
+      "modified": "2026-08-16T03:49:18.000Z",
+      "checksum": "cc889450dec49604c22b031d7d8533c2",
+      "folder": false
+    },
+    {
+      "id": "1EM4x6Q1pW6eNPIey9yWLrJI8G1pl-rPj",
+      "parent_id": "11DaAXBS9b00RXSj-A-5UTgGQr2eJwC52",
+      "name": "ÁC QUỶ TRÊN THIÊN ĐÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 435826,
+      "modified": "2026-08-16T03:49:16.000Z",
+      "checksum": "c4778fff63c3a778a4afaef4866537d9",
+      "folder": false
+    }
+  ]
+}

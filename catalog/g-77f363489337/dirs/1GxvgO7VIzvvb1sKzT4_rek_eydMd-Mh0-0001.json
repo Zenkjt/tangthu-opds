@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1GxvgO7VIzvvb1sKzT4_rek_eydMd-Mh0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1m7k0E-bGcgT8famQuvrQv7kkadXVYvyo",
+      "parent_id": "1GxvgO7VIzvvb1sKzT4_rek_eydMd-Mh0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5060,
+      "modified": "2026-08-15T15:32:12.000Z",
+      "checksum": "c9e8748600d0d3614da7a809bc202585",
+      "folder": false
+    },
+    {
+      "id": "1GSXq0TS1HdshekpEHZboc7tC45AiOU8S",
+      "parent_id": "1GxvgO7VIzvvb1sKzT4_rek_eydMd-Mh0",
+      "name": "HÊRÔIN TRONG NHÀ TRẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 582684,
+      "modified": "2026-08-15T15:32:18.000Z",
+      "checksum": "dd6d2b7a4e491b4fb2d9e57d9dd05ab3",
+      "folder": false
+    },
+    {
+      "id": "12ietZs6n-DVuVJxd6ARxwqRDIZBurT_N",
+      "parent_id": "1GxvgO7VIzvvb1sKzT4_rek_eydMd-Mh0",
+      "name": "HÊRÔIN TRONG NHÀ TRẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 539205,
+      "modified": "2026-08-15T15:32:15.000Z",
+      "checksum": "adb87443372a910337f78cab5779de44",
+      "folder": false
+    }
+  ]
+}

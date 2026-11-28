@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EuIo-vs7Dz_JbQoRzmsNkffH8fcZ5e5j",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nsM1fjCXaHyD0zPmh4kVD8afv8mgsMEK",
+      "parent_id": "1EuIo-vs7Dz_JbQoRzmsNkffH8fcZ5e5j",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3005,
+      "modified": "2026-08-16T04:01:55.000Z",
+      "checksum": "05c7955d96eb0f0316bad3f2d036567f",
+      "folder": false
+    },
+    {
+      "id": "1V5uOH2xiOLQJ1cUYXf-TW17KAZXTaSgp",
+      "parent_id": "1EuIo-vs7Dz_JbQoRzmsNkffH8fcZ5e5j",
+      "name": "TAM SƠ.epub",
+      "mime": "application/epub+zip",
+      "size": 431857,
+      "modified": "2026-08-16T04:02:01.000Z",
+      "checksum": "7f005090279742634f694397fd5bf267",
+      "folder": false
+    },
+    {
+      "id": "1zwajmPzzKAum9tvaItcAEjSRFT4zLqcJ",
+      "parent_id": "1EuIo-vs7Dz_JbQoRzmsNkffH8fcZ5e5j",
+      "name": "TAM SƠ.pdf",
+      "mime": "application/pdf",
+      "size": 1411484,
+      "modified": "2026-08-16T04:01:59.000Z",
+      "checksum": "9d4f194d1e75f00d3cde0dd8af000cf5",
+      "folder": false
+    }
+  ]
+}

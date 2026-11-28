@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1RqWhN4xfWx87nJmrKnzwBTwT3YqiLKZf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rtKuIm7fbsVwwU0HaRWZWbvVwTm6DdK4",
+      "parent_id": "1RqWhN4xfWx87nJmrKnzwBTwT3YqiLKZf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3923,
+      "modified": "2026-08-15T00:46:02.000Z",
+      "checksum": "95d35db432874045bcfb092de9506e33",
+      "folder": false
+    },
+    {
+      "id": "1E7JzKBewEQ9YfAhShlwETlOh40QAIz37",
+      "parent_id": "1RqWhN4xfWx87nJmrKnzwBTwT3YqiLKZf",
+      "name": "SỨC MẠNH CỦA SỰ TỬ TẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 374186,
+      "modified": "2026-08-15T00:46:07.000Z",
+      "checksum": "55c5497882d03626872243115379aa07",
+      "folder": false
+    },
+    {
+      "id": "19y3Nndnh74NYMbT134GqVpInpOCvqAlL",
+      "parent_id": "1RqWhN4xfWx87nJmrKnzwBTwT3YqiLKZf",
+      "name": "SỨC MẠNH CỦA SỰ TỬ TẾ.pdf",
+      "mime": "application/pdf",
+      "size": 595598,
+      "modified": "2026-08-15T00:46:05.000Z",
+      "checksum": "5954fdc9cc4a0163a73f701b123735d2",
+      "folder": false
+    }
+  ]
+}

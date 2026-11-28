@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17uFIfZDWxyDbOZqFTaW3Gk7yqU03FiYj",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NFbQ2z5dktaUHVf24RlEGsS2JGWU-J1K",
+      "parent_id": "17uFIfZDWxyDbOZqFTaW3Gk7yqU03FiYj",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9132,
+      "modified": "2026-08-15T03:38:07.000Z",
+      "checksum": "c654f735f9dbc75e9e47c557c1dd9129",
+      "folder": false
+    },
+    {
+      "id": "1Zi3wpET7Jevd1jQXIeLnzNxFio-36Q6D",
+      "parent_id": "17uFIfZDWxyDbOZqFTaW3Gk7yqU03FiYj",
+      "name": "ĐƠN GIẢN VÀ THUẦN KHIẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 646680,
+      "modified": "2026-08-15T03:38:16.000Z",
+      "checksum": "62cc8b772ad63726ab6cf31bf0676d9c",
+      "folder": false
+    },
+    {
+      "id": "1NkNimNjTXLibdVQfZahFakDtLJAiObjH",
+      "parent_id": "17uFIfZDWxyDbOZqFTaW3Gk7yqU03FiYj",
+      "name": "ĐƠN GIẢN VÀ THUẦN KHIẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1529388,
+      "modified": "2026-08-15T03:38:14.000Z",
+      "checksum": "15426dd465ef4d6f1550b9860652cb60",
+      "folder": false
+    }
+  ]
+}

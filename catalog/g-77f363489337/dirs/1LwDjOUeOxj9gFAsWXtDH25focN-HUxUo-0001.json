@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1LwDjOUeOxj9gFAsWXtDH25focN-HUxUo",
+  "page": 1,
+  "items": [
+    {
+      "id": "1x_RVOLJ2FxQqNSVV1VjIyFUZ7SJKvU_G",
+      "parent_id": "1LwDjOUeOxj9gFAsWXtDH25focN-HUxUo",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8889,
+      "modified": "2026-08-15T08:10:15.000Z",
+      "checksum": "f226ced3e87798155fe15bb4ab25f565",
+      "folder": false
+    },
+    {
+      "id": "1tcH8zu2RFipLfg59ThmEDBrvu7v7Iix0",
+      "parent_id": "1LwDjOUeOxj9gFAsWXtDH25focN-HUxUo",
+      "name": "EM TRONG TIM TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 306300,
+      "modified": "2026-08-15T08:10:22.000Z",
+      "checksum": "0a59ff7d91e6d74b48ffec3e787f978f",
+      "folder": false
+    },
+    {
+      "id": "1fGRclJGe_mJyRIAzG7yiM7-GJAwkS6N_",
+      "parent_id": "1LwDjOUeOxj9gFAsWXtDH25focN-HUxUo",
+      "name": "EM TRONG TIM TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 786244,
+      "modified": "2026-08-15T08:10:19.000Z",
+      "checksum": "38c89ef3e88c2b85490f8b48991debfb",
+      "folder": false
+    }
+  ]
+}

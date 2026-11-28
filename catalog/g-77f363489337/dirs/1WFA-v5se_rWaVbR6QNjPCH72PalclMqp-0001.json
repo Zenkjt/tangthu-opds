@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WFA-v5se_rWaVbR6QNjPCH72PalclMqp",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eKeixx-rnf_LXALsLPUhlhGGwkJ9ooA-",
+      "parent_id": "1WFA-v5se_rWaVbR6QNjPCH72PalclMqp",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3009,
+      "modified": "2026-08-16T04:03:29.000Z",
+      "checksum": "e6366ad3f68dab8e2369ec17ac0b21ce",
+      "folder": false
+    },
+    {
+      "id": "1TkUPTH54NGU6JQnt0y7wmZPa1gltIad8",
+      "parent_id": "1WFA-v5se_rWaVbR6QNjPCH72PalclMqp",
+      "name": "SÔ-CÔ-LA CHẠY TRỐN.epub",
+      "mime": "application/epub+zip",
+      "size": 680176,
+      "modified": "2026-08-16T04:03:37.000Z",
+      "checksum": "59fa2267b20ce8a68cc806931346a947",
+      "folder": false
+    },
+    {
+      "id": "1MH0enUwFsU_LOrdGnuqWMEqURh7hMvek",
+      "parent_id": "1WFA-v5se_rWaVbR6QNjPCH72PalclMqp",
+      "name": "SÔ-CÔ-LA CHẠY TRỐN.pdf",
+      "mime": "application/pdf",
+      "size": 1689164,
+      "modified": "2026-08-16T04:03:34.000Z",
+      "checksum": "9f2b416bb4d49a8e44b3e7a8c63e9bf4",
+      "folder": false
+    }
+  ]
+}

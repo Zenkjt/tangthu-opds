@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ctSz8UxTOfrdeYSOsQ171KMQPzuoofKI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1AcCgTUGHybVCGIyyjZeYJCjKA0xDPRdb",
+      "parent_id": "1ctSz8UxTOfrdeYSOsQ171KMQPzuoofKI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7525,
+      "modified": "2026-08-16T03:15:39.000Z",
+      "checksum": "94af70952ae9843b4e72be26da31b2e3",
+      "folder": false
+    },
+    {
+      "id": "16XryAMf5B3W6tqGsR7kBxsqvj6M91FYn",
+      "parent_id": "1ctSz8UxTOfrdeYSOsQ171KMQPzuoofKI",
+      "name": "GẮNG SỐNG ĐẾN BÌNH MINH.epub",
+      "mime": "application/epub+zip",
+      "size": 453139,
+      "modified": "2026-08-16T03:15:46.000Z",
+      "checksum": "cb54deffd1b6de8a36e9a4106b86390a",
+      "folder": false
+    },
+    {
+      "id": "1h9upCnaoAtRcrstaNVLYZFpNKtQ84lKg",
+      "parent_id": "1ctSz8UxTOfrdeYSOsQ171KMQPzuoofKI",
+      "name": "GẮNG SỐNG ĐẾN BÌNH MINH.pdf",
+      "mime": "application/pdf",
+      "size": 770562,
+      "modified": "2026-08-16T03:15:43.000Z",
+      "checksum": "fca1625a123c135494687d9b978d245a",
+      "folder": false
+    }
+  ]
+}

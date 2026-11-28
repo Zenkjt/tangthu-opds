@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "111Ft4cf8Jk64GPzggq4GaRCjq1A9b9pR",
+  "page": 1,
+  "items": [
+    {
+      "id": "1L5G5ZBLnhEH5HTOpOdtPdzBUv8cty0LZ",
+      "parent_id": "111Ft4cf8Jk64GPzggq4GaRCjq1A9b9pR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1888,
+      "modified": "2026-08-15T13:12:38.000Z",
+      "checksum": "6b5bf3fc1fb8c2642773237d7ae25aef",
+      "folder": false
+    },
+    {
+      "id": "1v5Py8RkAT39sDks93DavEXmL5K-DbOfS",
+      "parent_id": "111Ft4cf8Jk64GPzggq4GaRCjq1A9b9pR",
+      "name": "DỰ ĐOÁN THỜI GIAN TRONG TAROT.epub",
+      "mime": "application/epub+zip",
+      "size": 319432,
+      "modified": "2026-08-15T13:12:45.000Z",
+      "checksum": "4f384ad899a581c6544676ea9a2897d2",
+      "folder": false
+    },
+    {
+      "id": "1msAJ5ww-SbNzP577HWUNI7F1XWp0v79M",
+      "parent_id": "111Ft4cf8Jk64GPzggq4GaRCjq1A9b9pR",
+      "name": "DỰ ĐOÁN THỜI GIAN TRONG TAROT.pdf",
+      "mime": "application/pdf",
+      "size": 2829559,
+      "modified": "2026-08-15T13:12:42.000Z",
+      "checksum": "13f10778cbc4406bdca25116b57592a8",
+      "folder": false
+    }
+  ]
+}

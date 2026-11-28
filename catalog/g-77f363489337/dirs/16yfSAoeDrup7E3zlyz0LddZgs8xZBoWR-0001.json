@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "16yfSAoeDrup7E3zlyz0LddZgs8xZBoWR",
+  "page": 1,
+  "items": [
+    {
+      "id": "166dbTUsL21hkWynjtJSF9e0i9kDPVpKO",
+      "parent_id": "16yfSAoeDrup7E3zlyz0LddZgs8xZBoWR",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2861,
+      "modified": "2026-08-15T03:36:42.000Z",
+      "checksum": "c3a873885009266e2fb128581f99d6ea",
+      "folder": false
+    },
+    {
+      "id": "195t4AafzjK3l9jJW_gi-TsDz7F-GNNwv",
+      "parent_id": "16yfSAoeDrup7E3zlyz0LddZgs8xZBoWR",
+      "name": "THIỀN CĂN BẢN.epub",
+      "mime": "application/epub+zip",
+      "size": 421763,
+      "modified": "2026-08-15T03:36:48.000Z",
+      "checksum": "cd7239fe3e29b5d8a938b293a73df11c",
+      "folder": false
+    },
+    {
+      "id": "1LvKPJ1A7ld-zgqj4l2zj5ZL3zbLoo4bG",
+      "parent_id": "16yfSAoeDrup7E3zlyz0LddZgs8xZBoWR",
+      "name": "THIỀN CĂN BẢN.pdf",
+      "mime": "application/pdf",
+      "size": 1146632,
+      "modified": "2026-08-15T03:36:46.000Z",
+      "checksum": "ae595f1c5c7e2c1ed96c3146afe83945",
+      "folder": false
+    }
+  ]
+}

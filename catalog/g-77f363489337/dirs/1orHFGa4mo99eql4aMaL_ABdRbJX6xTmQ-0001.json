@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1orHFGa4mo99eql4aMaL_ABdRbJX6xTmQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1VRvU_iVg_2QfU05HGWThpQuaiRC2CTth",
+      "parent_id": "1orHFGa4mo99eql4aMaL_ABdRbJX6xTmQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3087,
+      "modified": "2026-08-15T03:50:07.000Z",
+      "checksum": "5aa21ad439e6e9711245f76c18925c50",
+      "folder": false
+    },
+    {
+      "id": "1uP_0vmaoUCNsRZKQWSzNxmXY8jZpB7kS",
+      "parent_id": "1orHFGa4mo99eql4aMaL_ABdRbJX6xTmQ",
+      "name": "THAO TÁC CHỮA LÀNH CƠ THỂ VI TẾ.epub",
+      "mime": "application/epub+zip",
+      "size": 997913,
+      "modified": "2026-08-15T03:50:14.000Z",
+      "checksum": "c5a192853370b6b08f8c731945de11fc",
+      "folder": false
+    },
+    {
+      "id": "1frwMRhEiAx27p07HtJ8-dc1Eb0bOMYSm",
+      "parent_id": "1orHFGa4mo99eql4aMaL_ABdRbJX6xTmQ",
+      "name": "THAO TÁC CHỮA LÀNH CƠ THỂ VI TẾ.pdf",
+      "mime": "application/pdf",
+      "size": 3188064,
+      "modified": "2026-08-15T03:50:11.000Z",
+      "checksum": "e50a42a81a583051fc5a787482996a00",
+      "folder": false
+    }
+  ]
+}

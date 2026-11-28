@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11w7Gmev3nGKwoA2xgg7ro03GtIWtmMb0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1nt7lo_f_4lu5IOyLcTF21avrx3BOw4ec",
+      "parent_id": "11w7Gmev3nGKwoA2xgg7ro03GtIWtmMb0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1903,
+      "modified": "2026-08-15T03:43:29.000Z",
+      "checksum": "1bfe529f15cdb49221097f171a3ab537",
+      "folder": false
+    },
+    {
+      "id": "14H4TIC-7BEN0ac55Irk1WsA1jzdu7KTR",
+      "parent_id": "11w7Gmev3nGKwoA2xgg7ro03GtIWtmMb0",
+      "name": "KINH TRUNG BỘ - TẬP 1.epub",
+      "mime": "application/epub+zip",
+      "size": 357006,
+      "modified": "2026-08-15T03:43:37.000Z",
+      "checksum": "6fc1954a0e565de5e2a478a706ac367b",
+      "folder": false
+    },
+    {
+      "id": "1V87knLw9RhgiOs3eCSWohSS5n7r9ARvz",
+      "parent_id": "11w7Gmev3nGKwoA2xgg7ro03GtIWtmMb0",
+      "name": "KINH TRUNG BỘ - TẬP 1.pdf",
+      "mime": "application/pdf",
+      "size": 2521778,
+      "modified": "2026-08-15T03:43:34.000Z",
+      "checksum": "6123cfefe1420a00ddc5688e4bc8e179",
+      "folder": false
+    }
+  ]
+}

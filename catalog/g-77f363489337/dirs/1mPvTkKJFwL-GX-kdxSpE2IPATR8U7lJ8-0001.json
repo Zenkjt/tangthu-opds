@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mPvTkKJFwL-GX-kdxSpE2IPATR8U7lJ8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vBUMJIaWpFpDruCIQTFWW0NUYxtJoTSd",
+      "parent_id": "1mPvTkKJFwL-GX-kdxSpE2IPATR8U7lJ8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2834,
+      "modified": "2026-08-16T03:32:57.000Z",
+      "checksum": "f28c8dc8cc120bde86583768ff0a19ff",
+      "folder": false
+    },
+    {
+      "id": "1J_C9R9xSnZBAAKB7FzrXLte3qg0iWp5d",
+      "parent_id": "1mPvTkKJFwL-GX-kdxSpE2IPATR8U7lJ8",
+      "name": "DƯỚI VÒM KÝ ỨC.epub",
+      "mime": "application/epub+zip",
+      "size": 449318,
+      "modified": "2026-08-16T03:33:02.000Z",
+      "checksum": "117c5880c9be8e0b943c327c69463768",
+      "folder": false
+    },
+    {
+      "id": "10ikzJbLrBEfIuPg6_kLQRfjwvbVFhpdK",
+      "parent_id": "1mPvTkKJFwL-GX-kdxSpE2IPATR8U7lJ8",
+      "name": "DƯỚI VÒM KÝ ỨC.pdf",
+      "mime": "application/pdf",
+      "size": 375807,
+      "modified": "2026-08-16T03:33:00.000Z",
+      "checksum": "33c8f6ed363cc6773db3ab802b9f2358",
+      "folder": false
+    }
+  ]
+}

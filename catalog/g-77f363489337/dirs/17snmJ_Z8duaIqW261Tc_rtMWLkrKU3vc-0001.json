@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17snmJ_Z8duaIqW261Tc_rtMWLkrKU3vc",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eM1N6CwT-FvfwyD8maMyddkWXYAwawnK",
+      "parent_id": "17snmJ_Z8duaIqW261Tc_rtMWLkrKU3vc",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1612,
+      "modified": "2026-08-15T07:34:31.000Z",
+      "checksum": "8bb45358e0ff1937fbc219bd06af15d2",
+      "folder": false
+    },
+    {
+      "id": "1Sed5cHCpp3Vv2Ug0ckk39sKouiL7cG8l",
+      "parent_id": "17snmJ_Z8duaIqW261Tc_rtMWLkrKU3vc",
+      "name": "ĐỘC BỘ THIÊN HẠ.epub",
+      "mime": "application/epub+zip",
+      "size": 529482,
+      "modified": "2026-08-15T07:34:38.000Z",
+      "checksum": "61aebffe1daa58969c27a318600165a4",
+      "folder": false
+    },
+    {
+      "id": "1WNPKYOT9uzouxrUUpepzujPqudGbWyXh",
+      "parent_id": "17snmJ_Z8duaIqW261Tc_rtMWLkrKU3vc",
+      "name": "ĐỘC BỘ THIÊN HẠ.pdf",
+      "mime": "application/pdf",
+      "size": 1595787,
+      "modified": "2026-08-15T07:34:35.000Z",
+      "checksum": "0d0cebce632148cc547163d944abb150",
+      "folder": false
+    }
+  ]
+}

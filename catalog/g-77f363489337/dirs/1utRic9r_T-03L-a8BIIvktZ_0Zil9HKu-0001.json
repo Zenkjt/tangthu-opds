@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1utRic9r_T-03L-a8BIIvktZ_0Zil9HKu",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Vnl7p4X4NSWJx9xdbZzq3BAgbMljbMFs",
+      "parent_id": "1utRic9r_T-03L-a8BIIvktZ_0Zil9HKu",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2358,
+      "modified": "2026-08-15T10:01:28.000Z",
+      "checksum": "515c51a599d7083073f7d32700914c6e",
+      "folder": false
+    },
+    {
+      "id": "1beVNLJXrGotRtOB6L7EdWHcgu2zkGnNu",
+      "parent_id": "1utRic9r_T-03L-a8BIIvktZ_0Zil9HKu",
+      "name": "MA KẾT VÀ CHUYỆN TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 430351,
+      "modified": "2026-08-15T10:01:54.000Z",
+      "checksum": "8a6bcae2ad4f1a857b25af25a2b5f1e7",
+      "folder": false
+    },
+    {
+      "id": "1j-H9R6KfHZfFa2tGvVbuPzUYZNpGca51",
+      "parent_id": "1utRic9r_T-03L-a8BIIvktZ_0Zil9HKu",
+      "name": "MA KẾT VÀ CHUYỆN TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 1432584,
+      "modified": "2026-08-15T10:01:43.000Z",
+      "checksum": "3d43362ae78a9e0e6d96c80c42996e0c",
+      "folder": false
+    }
+  ]
+}

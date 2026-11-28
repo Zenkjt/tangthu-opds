@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13VVJpx0g9y0mO_FdlvKFHz2YrHb6Htue",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jGbPpnCPNrc1Kj2LcPF7ui9olC-iORaz",
+      "parent_id": "13VVJpx0g9y0mO_FdlvKFHz2YrHb6Htue",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3413,
+      "modified": "2026-08-15T07:20:48.000Z",
+      "checksum": "a9ff53520e317c24280a24a0908f1df5",
+      "folder": false
+    },
+    {
+      "id": "1R7QJwEOxmNHlZWKVfqgF1S6ZbilTTpFx",
+      "parent_id": "13VVJpx0g9y0mO_FdlvKFHz2YrHb6Htue",
+      "name": "TRÁI TIM ĐAM MÊ.epub",
+      "mime": "application/epub+zip",
+      "size": 653658,
+      "modified": "2026-08-15T07:20:55.000Z",
+      "checksum": "fbd362d781180654925a9fcfed33fb46",
+      "folder": false
+    },
+    {
+      "id": "1ZcNAuP0Cqa7jLY96OwHIGbNp7W9I7Khe",
+      "parent_id": "13VVJpx0g9y0mO_FdlvKFHz2YrHb6Htue",
+      "name": "TRÁI TIM ĐAM MÊ.pdf",
+      "mime": "application/pdf",
+      "size": 1261406,
+      "modified": "2026-08-15T07:20:53.000Z",
+      "checksum": "43f57e9cd2a9d5c87d92a0818ddfda96",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "11wmZxSM-xhxlC-HT2ukXv711Cv3z27ak",
+  "page": 1,
+  "items": [
+    {
+      "id": "1jslapBoi4gl8V92o6Pv0oAyTlJAhQw2t",
+      "parent_id": "11wmZxSM-xhxlC-HT2ukXv711Cv3z27ak",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 432,
+      "modified": "2026-08-15T15:40:29.000Z",
+      "checksum": "90bed0e2aa1b33722641d5456819605d",
+      "folder": false
+    },
+    {
+      "id": "1obFVCAqQl-doxKo7oMT6B0of0CHH8y0g",
+      "parent_id": "11wmZxSM-xhxlC-HT2ukXv711Cv3z27ak",
+      "name": "KẺ TÌNH NGHI.epub",
+      "mime": "application/epub+zip",
+      "size": 599318,
+      "modified": "2026-08-15T15:40:36.000Z",
+      "checksum": "ceb147a00a7f076c70ba7575f0d14c1c",
+      "folder": false
+    },
+    {
+      "id": "1INMikDuxebz5hUTQr2PwBZylsj3yJf3w",
+      "parent_id": "11wmZxSM-xhxlC-HT2ukXv711Cv3z27ak",
+      "name": "KẺ TÌNH NGHI.pdf",
+      "mime": "application/pdf",
+      "size": 1163513,
+      "modified": "2026-08-15T15:40:33.000Z",
+      "checksum": "5e4cf55f3f9c137a8c156a6d9e8382aa",
+      "folder": false
+    }
+  ]
+}

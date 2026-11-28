@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "143bf661RXYwkFwd9Iq6ox7Tvn98Ba9kU",
+  "page": 1,
+  "items": [
+    {
+      "id": "1P1Ub-Fasnu3s36ySTmpnZIx1aEWuBWyW",
+      "parent_id": "143bf661RXYwkFwd9Iq6ox7Tvn98Ba9kU",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4171,
+      "modified": "2026-08-15T12:38:03.000Z",
+      "checksum": "a933afba650e6e8f954cc24d0d1fabc8",
+      "folder": false
+    },
+    {
+      "id": "15KsYLifyHKfsRPWaXiyW71050uwGzInG",
+      "parent_id": "143bf661RXYwkFwd9Iq6ox7Tvn98Ba9kU",
+      "name": "MÊ CUNG TRONG THƯ VIỆN CỦA NGÀI LEMONCELLO.epub",
+      "mime": "application/epub+zip",
+      "size": 667104,
+      "modified": "2026-08-15T12:38:14.000Z",
+      "checksum": "bfe85afd5afed869362423bf55eb6fc6",
+      "folder": false
+    },
+    {
+      "id": "1KEeOSKOzk-vE1El4L2hAnwxWk4T8iAdm",
+      "parent_id": "143bf661RXYwkFwd9Iq6ox7Tvn98Ba9kU",
+      "name": "MÊ CUNG TRONG THƯ VIỆN CỦA NGÀI LEMONCELLO.pdf",
+      "mime": "application/pdf",
+      "size": 937257,
+      "modified": "2026-08-15T12:38:09.000Z",
+      "checksum": "8c448aff8bcb4ec04c0cabc39daae2a7",
+      "folder": false
+    }
+  ]
+}

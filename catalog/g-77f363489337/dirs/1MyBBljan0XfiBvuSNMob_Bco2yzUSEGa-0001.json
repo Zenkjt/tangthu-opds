@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1MyBBljan0XfiBvuSNMob_Bco2yzUSEGa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aDaq8eGiBb0mj5DLblGJ2LkuoIqMsDJA",
+      "parent_id": "1MyBBljan0XfiBvuSNMob_Bco2yzUSEGa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3330,
+      "modified": "2026-08-16T04:15:26.000Z",
+      "checksum": "5a805dfadbf3c98b18aaf464ce99384f",
+      "folder": false
+    },
+    {
+      "id": "12eittmZZMOwRN8nP4KtJvhh5pyOYllW1",
+      "parent_id": "1MyBBljan0XfiBvuSNMob_Bco2yzUSEGa",
+      "name": "NGÀY THÁNG TRẮC TRỞ.epub",
+      "mime": "application/epub+zip",
+      "size": 972713,
+      "modified": "2026-08-16T04:15:34.000Z",
+      "checksum": "815c54941ff02f896e6d4a518d6c5186",
+      "folder": false
+    },
+    {
+      "id": "1F0TE0aYPyqOiXeOYrTQF7HeC1qFKVNzf",
+      "parent_id": "1MyBBljan0XfiBvuSNMob_Bco2yzUSEGa",
+      "name": "NGÀY THÁNG TRẮC TRỞ.pdf",
+      "mime": "application/pdf",
+      "size": 2720308,
+      "modified": "2026-08-16T04:15:32.000Z",
+      "checksum": "71fd1adf5b1f211881f11c8cd745aa95",
+      "folder": false
+    }
+  ]
+}

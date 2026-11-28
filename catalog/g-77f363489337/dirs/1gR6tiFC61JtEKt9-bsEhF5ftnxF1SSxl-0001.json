@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gR6tiFC61JtEKt9-bsEhF5ftnxF1SSxl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vs7NYtHHJ4ijRpOzN7IooswdpT75NP2M",
+      "parent_id": "1gR6tiFC61JtEKt9-bsEhF5ftnxF1SSxl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 558,
+      "modified": "2026-08-15T10:37:37.000Z",
+      "checksum": "7988b09a2f82a2070b2a14a6420e1f26",
+      "folder": false
+    },
+    {
+      "id": "1kdXOwMvDh5lsko_WClPDfzLD82-RpNO-",
+      "parent_id": "1gR6tiFC61JtEKt9-bsEhF5ftnxF1SSxl",
+      "name": "NHỮNG CUỘC PHIÊU LƯU CỦA JAMIL.epub",
+      "mime": "application/epub+zip",
+      "size": 366150,
+      "modified": "2026-08-15T10:37:44.000Z",
+      "checksum": "c30d15e9042d67393eb79130b2661c32",
+      "folder": false
+    },
+    {
+      "id": "13cgfdGffUUCfQTeawguAOAb2iA8o8FnK",
+      "parent_id": "1gR6tiFC61JtEKt9-bsEhF5ftnxF1SSxl",
+      "name": "NHỮNG CUỘC PHIÊU LƯU CỦA JAMIL.pdf",
+      "mime": "application/pdf",
+      "size": 627337,
+      "modified": "2026-08-15T10:37:41.000Z",
+      "checksum": "fb3b1dd5a9e2dd204529816e946194b2",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1EEvg0fqbLh29-N3R3o6S3JQmCkQJ1T0D",
+  "page": 1,
+  "items": [
+    {
+      "id": "10dLD_7QLorL1qr2jL2IT_RbcHo3_Ng6a",
+      "parent_id": "1EEvg0fqbLh29-N3R3o6S3JQmCkQJ1T0D",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 549,
+      "modified": "2026-08-15T10:55:16.000Z",
+      "checksum": "85219668b4a735709dc2b82e9825486e",
+      "folder": false
+    },
+    {
+      "id": "1f_Q9svjFj0Fz0TNCfDyN5M3YUvaERUYR",
+      "parent_id": "1EEvg0fqbLh29-N3R3o6S3JQmCkQJ1T0D",
+      "name": "KHÔNG LỐI THOÁT.epub",
+      "mime": "application/epub+zip",
+      "size": 776489,
+      "modified": "2026-08-15T10:55:48.000Z",
+      "checksum": "685cd0901579d4bf6bd222e8bbb2ef9a",
+      "folder": false
+    },
+    {
+      "id": "1LPFXbT0Ln-z4qe3avIlWourHC-t1Rl8Z",
+      "parent_id": "1EEvg0fqbLh29-N3R3o6S3JQmCkQJ1T0D",
+      "name": "KHÔNG LỐI THOÁT.pdf",
+      "mime": "application/pdf",
+      "size": 2220332,
+      "modified": "2026-08-15T10:55:45.000Z",
+      "checksum": "b9dc06541e43db4a05b40b0396124f64",
+      "folder": false
+    }
+  ]
+}

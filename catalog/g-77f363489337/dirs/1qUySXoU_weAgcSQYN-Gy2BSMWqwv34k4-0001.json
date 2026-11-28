@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1qUySXoU_weAgcSQYN-Gy2BSMWqwv34k4",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Lj7kyAv02SucD9h0qEez-KUyYqNw0p3j",
+      "parent_id": "1qUySXoU_weAgcSQYN-Gy2BSMWqwv34k4",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 11176,
+      "modified": "2026-08-16T03:08:59.000Z",
+      "checksum": "f7b504ea6c0f9b8e6d1ec91ff7dd7893",
+      "folder": false
+    },
+    {
+      "id": "1mBcxjom4LzpLY7WyN6dkC7i5X4PF9_kZ",
+      "parent_id": "1qUySXoU_weAgcSQYN-Gy2BSMWqwv34k4",
+      "name": "TAROT LÁ BÀI ĐỂ NGỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 642023,
+      "modified": "2026-08-16T03:09:06.000Z",
+      "checksum": "186576d2da481842e3912f35e31928ca",
+      "folder": false
+    },
+    {
+      "id": "1e6W277tYgSBLRg9r5y8NWIWpsQjoUU2O",
+      "parent_id": "1qUySXoU_weAgcSQYN-Gy2BSMWqwv34k4",
+      "name": "TAROT LÁ BÀI ĐỂ NGỎ.pdf",
+      "mime": "application/pdf",
+      "size": 944191,
+      "modified": "2026-08-16T03:09:03.000Z",
+      "checksum": "50e4b6f9d7329ce60d174e56be55a154",
+      "folder": false
+    }
+  ]
+}

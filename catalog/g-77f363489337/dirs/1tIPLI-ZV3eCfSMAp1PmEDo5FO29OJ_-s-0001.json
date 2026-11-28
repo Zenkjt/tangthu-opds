@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tIPLI-ZV3eCfSMAp1PmEDo5FO29OJ_-s",
+  "page": 1,
+  "items": [
+    {
+      "id": "17Ra-vHQl7SoqvyLAct29JN9pkJz4tAFO",
+      "parent_id": "1tIPLI-ZV3eCfSMAp1PmEDo5FO29OJ_-s",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3745,
+      "modified": "2026-08-15T06:41:27.000Z",
+      "checksum": "79507c7fb747833d44eb975f9228ca0e",
+      "folder": false
+    },
+    {
+      "id": "1tjhlN840O-jAjazsh9k_SOruldpZe4HS",
+      "parent_id": "1tIPLI-ZV3eCfSMAp1PmEDo5FO29OJ_-s",
+      "name": "SUỐI NGUỒN.epub",
+      "mime": "application/epub+zip",
+      "size": 1338969,
+      "modified": "2026-08-15T06:41:42.000Z",
+      "checksum": "33b06db997fb94ef34f5f8d6456a2c32",
+      "folder": false
+    },
+    {
+      "id": "1yAdd_w7zphb3M2oXFobjIMSakAKZflmQ",
+      "parent_id": "1tIPLI-ZV3eCfSMAp1PmEDo5FO29OJ_-s",
+      "name": "SUỐI NGUỒN.pdf",
+      "mime": "application/pdf",
+      "size": 5150522,
+      "modified": "2026-08-15T06:41:39.000Z",
+      "checksum": "7db80427fd73bfabd076613124a56245",
+      "folder": false
+    }
+  ]
+}

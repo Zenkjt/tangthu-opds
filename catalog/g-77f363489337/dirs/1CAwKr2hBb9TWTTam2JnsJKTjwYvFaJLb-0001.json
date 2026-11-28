@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CAwKr2hBb9TWTTam2JnsJKTjwYvFaJLb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Vd978lSKwQczKpmk4XNCxkWexpboWOol",
+      "parent_id": "1CAwKr2hBb9TWTTam2JnsJKTjwYvFaJLb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3239,
+      "modified": "2026-08-15T10:35:16.000Z",
+      "checksum": "77260125769fb69d3c41789cd4b577ce",
+      "folder": false
+    },
+    {
+      "id": "1-idJqhq83fOyrqwuKYRzlCp-O-M5uoWl",
+      "parent_id": "1CAwKr2hBb9TWTTam2JnsJKTjwYvFaJLb",
+      "name": "NỮ THẦN DIỄN XUẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 1222159,
+      "modified": "2026-08-15T10:35:30.000Z",
+      "checksum": "ddde656b41632b3b7e9ec7da083f0eb8",
+      "folder": false
+    },
+    {
+      "id": "10PtJNGE46HK1S9aYsWSEPFrhvYeFEJVD",
+      "parent_id": "1CAwKr2hBb9TWTTam2JnsJKTjwYvFaJLb",
+      "name": "NỮ THẦN DIỄN XUẤT.pdf",
+      "mime": "application/pdf",
+      "size": 3229085,
+      "modified": "2026-08-15T10:35:26.000Z",
+      "checksum": "16a1953a9a8bcbcae0bd7768af4489e3",
+      "folder": false
+    }
+  ]
+}

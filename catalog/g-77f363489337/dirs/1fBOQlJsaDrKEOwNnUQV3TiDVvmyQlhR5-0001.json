@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1fBOQlJsaDrKEOwNnUQV3TiDVvmyQlhR5",
+  "page": 1,
+  "items": [
+    {
+      "id": "1aN5DnF-uYUzaLm5nz8GwMFU1RZ9d8qiW",
+      "parent_id": "1fBOQlJsaDrKEOwNnUQV3TiDVvmyQlhR5",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4554,
+      "modified": "2026-08-16T03:10:19.000Z",
+      "checksum": "77aadd95ffd54421f73731e8408ee897",
+      "folder": false
+    },
+    {
+      "id": "1xSDVC3TAahAPS-2oHf23mJcMnhrha_pR",
+      "parent_id": "1fBOQlJsaDrKEOwNnUQV3TiDVvmyQlhR5",
+      "name": "SÁU NGƯỜI ĐI KHẮP THẾ GIAN.epub",
+      "mime": "application/epub+zip",
+      "size": 1769203,
+      "modified": "2026-08-16T03:10:30.000Z",
+      "checksum": "0dfcb417d33fd0444d8fc09082d91373",
+      "folder": false
+    },
+    {
+      "id": "1NPk_v282ZA_6UfLhuy8GL8ptuqfdeltF",
+      "parent_id": "1fBOQlJsaDrKEOwNnUQV3TiDVvmyQlhR5",
+      "name": "SÁU NGƯỜI ĐI KHẮP THẾ GIAN.pdf",
+      "mime": "application/pdf",
+      "size": 3941594,
+      "modified": "2026-08-16T03:10:28.000Z",
+      "checksum": "49cc2182de42e8cb447ea5f3fe4021a4",
+      "folder": false
+    }
+  ]
+}

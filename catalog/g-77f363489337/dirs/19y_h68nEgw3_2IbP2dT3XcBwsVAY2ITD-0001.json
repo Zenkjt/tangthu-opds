@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19y_h68nEgw3_2IbP2dT3XcBwsVAY2ITD",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wsAILmR0zVTQCgp1v6w1CIaCSAKe1h6z",
+      "parent_id": "19y_h68nEgw3_2IbP2dT3XcBwsVAY2ITD",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 8231,
+      "modified": "2026-08-16T03:21:54.000Z",
+      "checksum": "d42d2845480357b650d880df2b62245a",
+      "folder": false
+    },
+    {
+      "id": "1AZc-Iybd5cvLunZqetiCuIew79grBmt3",
+      "parent_id": "19y_h68nEgw3_2IbP2dT3XcBwsVAY2ITD",
+      "name": "KẺ PHÓNG ĐÃNG THẦN THÁNH.epub",
+      "mime": "application/epub+zip",
+      "size": 1037587,
+      "modified": "2026-08-16T03:22:01.000Z",
+      "checksum": "33eeceb523dc25387b6429a842ad4f2c",
+      "folder": false
+    },
+    {
+      "id": "175tGRFgRtmNDuvG1MGgt7IFvlgNJH6Q_",
+      "parent_id": "19y_h68nEgw3_2IbP2dT3XcBwsVAY2ITD",
+      "name": "KẺ PHÓNG ĐÃNG THẦN THÁNH.pdf",
+      "mime": "application/pdf",
+      "size": 1085081,
+      "modified": "2026-08-16T03:21:58.000Z",
+      "checksum": "50f0a2d06caf91ee5c88f604667b0f10",
+      "folder": false
+    }
+  ]
+}

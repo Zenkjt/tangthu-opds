@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1_U4bBu2F0Wt5BSh3a1mxhptLQkY84LF8",
+  "page": 1,
+  "items": [
+    {
+      "id": "1f3sSx-OB_URdlgNl7DH8jkKes1etmDwM",
+      "parent_id": "1_U4bBu2F0Wt5BSh3a1mxhptLQkY84LF8",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 350,
+      "modified": "2026-08-15T10:52:02.000Z",
+      "checksum": "dd149c859e33eb63601c9aca4b6d1c5e",
+      "folder": false
+    },
+    {
+      "id": "1I7nO0yRAe_aleGPpEVaHjxTgUlZLjcAZ",
+      "parent_id": "1_U4bBu2F0Wt5BSh3a1mxhptLQkY84LF8",
+      "name": "MÙA GẶT ĐỎ.epub",
+      "mime": "application/epub+zip",
+      "size": 561512,
+      "modified": "2026-08-15T10:52:08.000Z",
+      "checksum": "45713bff626f4e8b17d2d999a296e690",
+      "folder": false
+    },
+    {
+      "id": "19gZ3cQQtJnemdTiNDUlBqXjz0jQIYjla",
+      "parent_id": "1_U4bBu2F0Wt5BSh3a1mxhptLQkY84LF8",
+      "name": "MÙA GẶT ĐỎ.pdf",
+      "mime": "application/pdf",
+      "size": 868135,
+      "modified": "2026-08-15T10:52:06.000Z",
+      "checksum": "74b3411c2cf911a42b94a459395cd382",
+      "folder": false
+    }
+  ]
+}

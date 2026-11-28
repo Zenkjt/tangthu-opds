@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1gF1MP9M-_MhEwmF_45cwQn-4PVvQwIFb",
+  "page": 1,
+  "items": [
+    {
+      "id": "1k1UHXxIiFNQDWmFjYOVejpFDAXJstL9I",
+      "parent_id": "1gF1MP9M-_MhEwmF_45cwQn-4PVvQwIFb",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1788,
+      "modified": "2026-08-15T03:40:01.000Z",
+      "checksum": "36aed078680b32dffb235f27f55a71b0",
+      "folder": false
+    },
+    {
+      "id": "1rdXD7wF5M9Shyj93T11Q7b_argQwrhCe",
+      "parent_id": "1gF1MP9M-_MhEwmF_45cwQn-4PVvQwIFb",
+      "name": "ĐƯỜNG VỀ ÁNH DƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1244828,
+      "modified": "2026-08-15T03:40:09.000Z",
+      "checksum": "d81986cf5447ce11aebf0f94bb259bba",
+      "folder": false
+    },
+    {
+      "id": "1lorTfqJXOYxxtS0jk0vjvLqIU7NUFBmy",
+      "parent_id": "1gF1MP9M-_MhEwmF_45cwQn-4PVvQwIFb",
+      "name": "ĐƯỜNG VỀ ÁNH DƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 2405335,
+      "modified": "2026-08-15T03:40:06.000Z",
+      "checksum": "56ab0dd2868c041a05274a0d14a3c789",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1rOsnwl0xGy-mEoB4CGhSTQUUk__BlXta",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kKnjpVisrSQf4a5kBe4KAj-zyISxdA3X",
+      "parent_id": "1rOsnwl0xGy-mEoB4CGhSTQUUk__BlXta",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1709,
+      "modified": "2026-08-15T07:33:49.000Z",
+      "checksum": "7b544fbe7cdf9fd5f9667cba9a49bf90",
+      "folder": false
+    },
+    {
+      "id": "1LEyBn4ijeXMS0otBklLYV6KYNCjvvJM-",
+      "parent_id": "1rOsnwl0xGy-mEoB4CGhSTQUUk__BlXta",
+      "name": "PHÁO HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 438441,
+      "modified": "2026-08-15T07:33:55.000Z",
+      "checksum": "8bf96fdf1cd0725108f7de0040388a87",
+      "folder": false
+    },
+    {
+      "id": "1Z-k3BNfHkKsYJljx6OESdlBWNeA2nWsp",
+      "parent_id": "1rOsnwl0xGy-mEoB4CGhSTQUUk__BlXta",
+      "name": "PHÁO HOA.pdf",
+      "mime": "application/pdf",
+      "size": 713919,
+      "modified": "2026-08-15T07:33:53.000Z",
+      "checksum": "104abf3cecc46dd00f274ac9ff61cbbe",
+      "folder": false
+    }
+  ]
+}

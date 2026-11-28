@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jHdn_Cft1hLoy-xcPm3FXxlusrfVKKlx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wdNuMteJDM_dOZKroZejS2kWk8hFmdGb",
+      "parent_id": "1jHdn_Cft1hLoy-xcPm3FXxlusrfVKKlx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9575,
+      "modified": "2026-08-15T06:17:37.000Z",
+      "checksum": "9c8406b8d5f5ffe6fb199c64b73eb24c",
+      "folder": false
+    },
+    {
+      "id": "1Sl0Dl_3kuxl7mlQJPMMbWiT5rJ4CDi6T",
+      "parent_id": "1jHdn_Cft1hLoy-xcPm3FXxlusrfVKKlx",
+      "name": "HẢO NỮ TRUNG HOA.epub",
+      "mime": "application/epub+zip",
+      "size": 864599,
+      "modified": "2026-08-15T06:17:46.000Z",
+      "checksum": "a82a239199feb5c727f0df41b4b8dc35",
+      "folder": false
+    },
+    {
+      "id": "19Y41LL4e8doaLGvTMHPuH8FIp06D8U0L",
+      "parent_id": "1jHdn_Cft1hLoy-xcPm3FXxlusrfVKKlx",
+      "name": "HẢO NỮ TRUNG HOA.pdf",
+      "mime": "application/pdf",
+      "size": 1373134,
+      "modified": "2026-08-15T06:17:42.000Z",
+      "checksum": "dbfd983cefd8a8c5aa6df5128d61b2a8",
+      "folder": false
+    }
+  ]
+}

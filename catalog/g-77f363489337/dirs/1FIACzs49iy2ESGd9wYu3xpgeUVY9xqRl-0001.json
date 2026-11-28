@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1FIACzs49iy2ESGd9wYu3xpgeUVY9xqRl",
+  "page": 1,
+  "items": [
+    {
+      "id": "1_7GzeiA77mbPqdf_l_eNz6yGLxpsGetu",
+      "parent_id": "1FIACzs49iy2ESGd9wYu3xpgeUVY9xqRl",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2114,
+      "modified": "2026-08-15T12:44:51.000Z",
+      "checksum": "ce7b407283fcb8e86e6bfcc393fdd8f9",
+      "folder": false
+    },
+    {
+      "id": "1tdNQxlXBEC6aEb8xJEOOTPZKO1U0PyxA",
+      "parent_id": "1FIACzs49iy2ESGd9wYu3xpgeUVY9xqRl",
+      "name": "HOA HỒNG XỨ KHÁC.epub",
+      "mime": "application/epub+zip",
+      "size": 545844,
+      "modified": "2026-08-15T12:45:01.000Z",
+      "checksum": "e43f56fa056ab57d0fa2d3d6407bba00",
+      "folder": false
+    },
+    {
+      "id": "16ef5QdsZ21IvJ0QUmqKpn3sYY34Ul_j0",
+      "parent_id": "1FIACzs49iy2ESGd9wYu3xpgeUVY9xqRl",
+      "name": "HOA HỒNG XỨ KHÁC.pdf",
+      "mime": "application/pdf",
+      "size": 1340666,
+      "modified": "2026-08-15T12:44:55.000Z",
+      "checksum": "5fa1391abd35c110148c1cf5515bd32a",
+      "folder": false
+    }
+  ]
+}

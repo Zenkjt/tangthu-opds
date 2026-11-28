@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1xVfuXWQvb3qtpwmTVSVf1hcq7b-8L-K2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Y41Sr9TcnIepMNqAywSIwJIj4Z8SCCt1",
+      "parent_id": "1xVfuXWQvb3qtpwmTVSVf1hcq7b-8L-K2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2432,
+      "modified": "2026-08-15T07:37:19.000Z",
+      "checksum": "9e1c9962c3cfb71787e3937b280554cd",
+      "folder": false
+    },
+    {
+      "id": "1VQXWawqomJ2I2fnLwwM7G6pVpGHj3KWd",
+      "parent_id": "1xVfuXWQvb3qtpwmTVSVf1hcq7b-8L-K2",
+      "name": "NGÃ THỊ TIÊN PHÀM.epub",
+      "mime": "application/epub+zip",
+      "size": 2056328,
+      "modified": "2026-08-15T07:37:37.000Z",
+      "checksum": "d76a0441513c795f77b7fe4e1f72f4be",
+      "folder": false
+    },
+    {
+      "id": "1Sr9bzc6keNFE3FgHysMdA7YNMwo8yyA2",
+      "parent_id": "1xVfuXWQvb3qtpwmTVSVf1hcq7b-8L-K2",
+      "name": "NGÃ THỊ TIÊN PHÀM.pdf",
+      "mime": "application/pdf",
+      "size": 8145987,
+      "modified": "2026-08-15T07:37:33.000Z",
+      "checksum": "2dfc18bbca51181f63c0134fb5a09dfa",
+      "folder": false
+    }
+  ]
+}

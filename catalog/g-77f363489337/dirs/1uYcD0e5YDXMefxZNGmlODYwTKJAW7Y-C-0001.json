@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1uYcD0e5YDXMefxZNGmlODYwTKJAW7Y-C",
+  "page": 1,
+  "items": [
+    {
+      "id": "1mVJ6c6A6WHuoH2cVl5OZWPa_VTOHtPPI",
+      "parent_id": "1uYcD0e5YDXMefxZNGmlODYwTKJAW7Y-C",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6367,
+      "modified": "2026-08-15T07:05:31.000Z",
+      "checksum": "0e1516bff351032c844ad035bc560eb6",
+      "folder": false
+    },
+    {
+      "id": "1iiYO7MXV_D_kA1tTGm6_Pcn4QAZU4kd5",
+      "parent_id": "1uYcD0e5YDXMefxZNGmlODYwTKJAW7Y-C",
+      "name": "LÁ CỜ THÊU 6 CHỮ VÀNG.epub",
+      "mime": "application/epub+zip",
+      "size": 769320,
+      "modified": "2026-08-15T07:05:38.000Z",
+      "checksum": "4b518daf9d4aeda5a103965ee9bc9d74",
+      "folder": false
+    },
+    {
+      "id": "16lQVS-pwwCAQ5ZVE65vmVmoHypQJG5xZ",
+      "parent_id": "1uYcD0e5YDXMefxZNGmlODYwTKJAW7Y-C",
+      "name": "LÁ CỜ THÊU 6 CHỮ VÀNG.pdf",
+      "mime": "application/pdf",
+      "size": 399676,
+      "modified": "2026-08-15T07:05:34.000Z",
+      "checksum": "bad5e11b81d1b2ebec2ad3a16da5563a",
+      "folder": false
+    }
+  ]
+}

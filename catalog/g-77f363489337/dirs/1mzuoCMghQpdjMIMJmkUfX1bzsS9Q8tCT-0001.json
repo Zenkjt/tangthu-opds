@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1mzuoCMghQpdjMIMJmkUfX1bzsS9Q8tCT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1GSv00Om0m4xTXc1sCoivTVhgqSFakPYd",
+      "parent_id": "1mzuoCMghQpdjMIMJmkUfX1bzsS9Q8tCT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3695,
+      "modified": "2026-08-16T03:59:07.000Z",
+      "checksum": "d74041e36a62c24e54480457c912664d",
+      "folder": false
+    },
+    {
+      "id": "1PYbidRIEDgUNMD8uirzVFfgOfR7dnt1X",
+      "parent_id": "1mzuoCMghQpdjMIMJmkUfX1bzsS9Q8tCT",
+      "name": "THANH TRA MAIGRET.epub",
+      "mime": "application/epub+zip",
+      "size": 450146,
+      "modified": "2026-08-16T03:59:13.000Z",
+      "checksum": "e85868ce88c63edf3da03f64b1e80ed6",
+      "folder": false
+    },
+    {
+      "id": "130xED0X0sYwJwUsphKHRVQATa0OoiXZQ",
+      "parent_id": "1mzuoCMghQpdjMIMJmkUfX1bzsS9Q8tCT",
+      "name": "THANH TRA MAIGRET.pdf",
+      "mime": "application/pdf",
+      "size": 613864,
+      "modified": "2026-08-16T03:59:11.000Z",
+      "checksum": "582a068f1b29559611852b6272be4c1a",
+      "folder": false
+    }
+  ]
+}

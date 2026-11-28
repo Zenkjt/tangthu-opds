@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1i-CnifNScm8aOdBXkzxM-MWXh6neVE5J",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PgT4dcqGEp8CXzeUmZlCYgFXklr1y13T",
+      "parent_id": "1i-CnifNScm8aOdBXkzxM-MWXh6neVE5J",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3423,
+      "modified": "2026-08-16T04:15:44.000Z",
+      "checksum": "b7ea12b3c2f2a1428a0ee151048543b0",
+      "folder": false
+    },
+    {
+      "id": "1nOhIc2AVUDL3JmCBhTs3VjsU5KYoUvB0",
+      "parent_id": "1i-CnifNScm8aOdBXkzxM-MWXh6neVE5J",
+      "name": "NGÂN CÂU ĐỖ PHƯỜNG.epub",
+      "mime": "application/epub+zip",
+      "size": 458965,
+      "modified": "2026-08-16T04:15:50.000Z",
+      "checksum": "410a1c0c284945eb4b12d5a254c43d33",
+      "folder": false
+    },
+    {
+      "id": "1pFvHCXE7jMf-PgbFxuVlEWpQT2ge7MVX",
+      "parent_id": "1i-CnifNScm8aOdBXkzxM-MWXh6neVE5J",
+      "name": "NGÂN CÂU ĐỖ PHƯỜNG.pdf",
+      "mime": "application/pdf",
+      "size": 734271,
+      "modified": "2026-08-16T04:15:48.000Z",
+      "checksum": "7478e92602561e2c30d4d7715bebbd40",
+      "folder": false
+    }
+  ]
+}

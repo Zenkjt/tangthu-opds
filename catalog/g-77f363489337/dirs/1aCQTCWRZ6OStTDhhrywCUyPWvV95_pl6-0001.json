@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1aCQTCWRZ6OStTDhhrywCUyPWvV95_pl6",
+  "page": 1,
+  "items": [
+    {
+      "id": "1KqQBL00HTXAtZNkWv51STEBDXAn-xRGv",
+      "parent_id": "1aCQTCWRZ6OStTDhhrywCUyPWvV95_pl6",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3338,
+      "modified": "2026-08-15T06:18:10.000Z",
+      "checksum": "487a801edcd565d96577b13e4c250131",
+      "folder": false
+    },
+    {
+      "id": "1w_zKSY-uRTVClUt0rC8qLMdMpooEyK8-",
+      "parent_id": "1aCQTCWRZ6OStTDhhrywCUyPWvV95_pl6",
+      "name": "GIÁO TRÌNH VĂN HÓA ẨM THỰC.epub",
+      "mime": "application/epub+zip",
+      "size": 488186,
+      "modified": "2026-08-15T06:18:17.000Z",
+      "checksum": "f141bb4c823ab11d2d84ba77a89fccd6",
+      "folder": false
+    },
+    {
+      "id": "1xmpW1i_mfDbZUnK2MbxuvIX8qL9Z-Orm",
+      "parent_id": "1aCQTCWRZ6OStTDhhrywCUyPWvV95_pl6",
+      "name": "GIÁO TRÌNH VĂN HÓA ẨM THỰC.pdf",
+      "mime": "application/pdf",
+      "size": 755241,
+      "modified": "2026-08-15T06:18:14.000Z",
+      "checksum": "ed2c7c28bb72b9cfd4090a42a7e58558",
+      "folder": false
+    }
+  ]
+}

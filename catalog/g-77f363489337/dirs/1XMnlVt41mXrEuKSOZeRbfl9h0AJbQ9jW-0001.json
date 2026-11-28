@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1XMnlVt41mXrEuKSOZeRbfl9h0AJbQ9jW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HnKintaMAKaytJOIBd7o50olo6D5DN5r",
+      "parent_id": "1XMnlVt41mXrEuKSOZeRbfl9h0AJbQ9jW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3532,
+      "modified": "2026-08-15T07:23:32.000Z",
+      "checksum": "4a09a22feb3c2ad5419808c0523010b4",
+      "folder": false
+    },
+    {
+      "id": "147mvKoNYshVYvwhiDfNh3xRVuvoc9qI7",
+      "parent_id": "1XMnlVt41mXrEuKSOZeRbfl9h0AJbQ9jW",
+      "name": "TRUYỆN NGẮN O. HENRY.epub",
+      "mime": "application/epub+zip",
+      "size": 1568902,
+      "modified": "2026-08-15T07:23:39.000Z",
+      "checksum": "d9c6914d1b7b634ae028446da56ece9f",
+      "folder": false
+    },
+    {
+      "id": "1JsVLZr58tk5dzngizmEGNy5ugVWgZZnF",
+      "parent_id": "1XMnlVt41mXrEuKSOZeRbfl9h0AJbQ9jW",
+      "name": "TRUYỆN NGẮN O. HENRY.pdf",
+      "mime": "application/pdf",
+      "size": 1291813,
+      "modified": "2026-08-15T07:23:37.000Z",
+      "checksum": "e5a065ebee8dd41602f083fd7b53f4d1",
+      "folder": false
+    }
+  ]
+}

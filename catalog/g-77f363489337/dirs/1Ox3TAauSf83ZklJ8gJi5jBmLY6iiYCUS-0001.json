@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Ox3TAauSf83ZklJ8gJi5jBmLY6iiYCUS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1SjtjnzFhbHP7BvTCtUYTZOQ6qpwbFrSm",
+      "parent_id": "1Ox3TAauSf83ZklJ8gJi5jBmLY6iiYCUS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1910,
+      "modified": "2026-08-15T06:12:40.000Z",
+      "checksum": "9d878c874498487afb7e6fdb85f1bd6b",
+      "folder": false
+    },
+    {
+      "id": "1tkE6qgns6swKbUorOK8T_C59_1mbx18g",
+      "parent_id": "1Ox3TAauSf83ZklJ8gJi5jBmLY6iiYCUS",
+      "name": "DIỄM CHI.epub",
+      "mime": "application/epub+zip",
+      "size": 465019,
+      "modified": "2026-08-15T06:12:48.000Z",
+      "checksum": "30e72a7934b5f913df32fbe04715e59d",
+      "folder": false
+    },
+    {
+      "id": "13vXHGCFiRhhYY0AgPQa0ccdv843tDvnu",
+      "parent_id": "1Ox3TAauSf83ZklJ8gJi5jBmLY6iiYCUS",
+      "name": "DIỄM CHI.pdf",
+      "mime": "application/pdf",
+      "size": 1194892,
+      "modified": "2026-08-15T06:12:45.000Z",
+      "checksum": "fb8fa4d0829746f894b87926a620ffd2",
+      "folder": false
+    }
+  ]
+}

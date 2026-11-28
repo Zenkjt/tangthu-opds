@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1VTwTVjoMYaB0lKxkQfCw7M-gR2JsFj8A",
+  "page": 1,
+  "items": [
+    {
+      "id": "1cfNoC0hqyRVmNMuowAyEEigPNaTZXBzW",
+      "parent_id": "1VTwTVjoMYaB0lKxkQfCw7M-gR2JsFj8A",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3090,
+      "modified": "2026-08-16T04:03:16.000Z",
+      "checksum": "0cc6f0b464ab96fec88c44b6c7216a11",
+      "folder": false
+    },
+    {
+      "id": "1B9l--muDVSsKLiW6CIZ0g4F08j5SILIa",
+      "parent_id": "1VTwTVjoMYaB0lKxkQfCw7M-gR2JsFj8A",
+      "name": "SỐNG LƯNG CỦA JESSE.epub",
+      "mime": "application/epub+zip",
+      "size": 499569,
+      "modified": "2026-08-16T04:03:22.000Z",
+      "checksum": "f392d41c8a6391e9162ba39f50d3cb94",
+      "folder": false
+    },
+    {
+      "id": "16pQHv99EoO_Z1NjdIYLLrB0vp-gxKHHW",
+      "parent_id": "1VTwTVjoMYaB0lKxkQfCw7M-gR2JsFj8A",
+      "name": "SỐNG LƯNG CỦA JESSE.pdf",
+      "mime": "application/pdf",
+      "size": 299846,
+      "modified": "2026-08-16T04:03:20.000Z",
+      "checksum": "16d8b1d50f443c7cfb67317d44a0c0e1",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "17EAVlgJtTpffVNkLV86n8m7h9BN3rPhK",
+  "page": 1,
+  "items": [
+    {
+      "id": "1BBKB6Mr7QjfKytVbq7-u2pppJn2jZ-jc",
+      "parent_id": "17EAVlgJtTpffVNkLV86n8m7h9BN3rPhK",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 457,
+      "modified": "2026-08-15T06:13:23.000Z",
+      "checksum": "6206c60ce84517df4a5c6dcc2db93353",
+      "folder": false
+    },
+    {
+      "id": "1sc--BFllP5ktBLjgwV-iawVAzSvnA2Tr",
+      "parent_id": "17EAVlgJtTpffVNkLV86n8m7h9BN3rPhK",
+      "name": "TÌM CHỒNG.epub",
+      "mime": "application/epub+zip",
+      "size": 414239,
+      "modified": "2026-08-15T06:13:30.000Z",
+      "checksum": "ab0e4d6acbf5a2aeab8b50defd0d5105",
+      "folder": false
+    },
+    {
+      "id": "1DCE5hEhlZ2Gs6uNxEQI1Ghpdg7LduNyb",
+      "parent_id": "17EAVlgJtTpffVNkLV86n8m7h9BN3rPhK",
+      "name": "TÌM CHỒNG.pdf",
+      "mime": "application/pdf",
+      "size": 888573,
+      "modified": "2026-08-15T06:13:27.000Z",
+      "checksum": "da6ff2e797c88eab66bf47f88c7cd9e4",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ewwwNOYfDnFoTXwQMG2Dt5xsMhsNnzzd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1v-5Eak8bdvfQqxJlgKOrwGvcb_JGGKHn",
+      "parent_id": "1ewwwNOYfDnFoTXwQMG2Dt5xsMhsNnzzd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 19099,
+      "modified": "2026-08-15T07:45:11.000Z",
+      "checksum": "e34e463882f422ce4609aa4d2dd97e3b",
+      "folder": false
+    },
+    {
+      "id": "1aNzg1P8ozA5H4Blf_OJugdBT70bZKuGL",
+      "parent_id": "1ewwwNOYfDnFoTXwQMG2Dt5xsMhsNnzzd",
+      "name": "ĐÔNG LAI BÁC NGHỊ.epub",
+      "mime": "application/epub+zip",
+      "size": 461808,
+      "modified": "2026-08-15T07:45:17.000Z",
+      "checksum": "9f71ab07bb42805bb22aed35ddd074ae",
+      "folder": false
+    },
+    {
+      "id": "1PMQdXCZR8W3WbA-_fpAtoAK2yQPs9wS6",
+      "parent_id": "1ewwwNOYfDnFoTXwQMG2Dt5xsMhsNnzzd",
+      "name": "ĐÔNG LAI BÁC NGHỊ.pdf",
+      "mime": "application/pdf",
+      "size": 1250091,
+      "modified": "2026-08-15T07:45:14.000Z",
+      "checksum": "aa588628314b949dbcfe1dc523b2a430",
+      "folder": false
+    }
+  ]
+}

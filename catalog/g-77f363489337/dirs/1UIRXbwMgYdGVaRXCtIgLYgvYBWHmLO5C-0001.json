@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UIRXbwMgYdGVaRXCtIgLYgvYBWHmLO5C",
+  "page": 1,
+  "items": [
+    {
+      "id": "1hJfe_ad6unylzpiGlFL3EaT-6y_lX8Gr",
+      "parent_id": "1UIRXbwMgYdGVaRXCtIgLYgvYBWHmLO5C",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5919,
+      "modified": "2026-08-15T05:51:20.000Z",
+      "checksum": "fd1ba8b8e8391986d6b77b482987f657",
+      "folder": false
+    },
+    {
+      "id": "12nME1v5lyFV0jCRTpHFnAeSyEPeaTHFK",
+      "parent_id": "1UIRXbwMgYdGVaRXCtIgLYgvYBWHmLO5C",
+      "name": "SỰ MINH ĐỊNH CỦA ĐỊA LÝ.epub",
+      "mime": "application/epub+zip",
+      "size": 3296376,
+      "modified": "2026-08-15T05:52:36.000Z",
+      "checksum": "2b1d0553c603764575b171739c8046da",
+      "folder": false
+    },
+    {
+      "id": "1gb08FyAlxvrqQKPLDviLTqrVqO4Q9THi",
+      "parent_id": "1UIRXbwMgYdGVaRXCtIgLYgvYBWHmLO5C",
+      "name": "SỰ MINH ĐỊNH CỦA ĐỊA LÝ.pdf",
+      "mime": "application/pdf",
+      "size": 4595763,
+      "modified": "2026-08-15T05:52:33.000Z",
+      "checksum": "c9f22453cb03026cc51237f56da264d0",
+      "folder": false
+    }
+  ]
+}

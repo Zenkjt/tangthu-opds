@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "15yyDaPnLKexdUR4y9THYgsa535d_CrXS",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NMh04wrnykQwz0hfJhXLMnaqKyAqkCBg",
+      "parent_id": "15yyDaPnLKexdUR4y9THYgsa535d_CrXS",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3291,
+      "modified": "2026-08-16T04:15:40.000Z",
+      "checksum": "92e16f3c699f855c25ac41f55a0dd764",
+      "folder": false
+    },
+    {
+      "id": "1eGaU7Bo2cSemcBEWh1vnstbmWQloULYU",
+      "parent_id": "15yyDaPnLKexdUR4y9THYgsa535d_CrXS",
+      "name": "NGẠO MẠN VÀ BIẾN ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 509381,
+      "modified": "2026-08-16T04:15:47.000Z",
+      "checksum": "87a302dd546382bfbefbe5ff02e3d8ea",
+      "folder": false
+    },
+    {
+      "id": "1SglVU4GP0lFupiSIezqitrQLBdz2Jmut",
+      "parent_id": "15yyDaPnLKexdUR4y9THYgsa535d_CrXS",
+      "name": "NGẠO MẠN VÀ BIẾN ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 1505835,
+      "modified": "2026-08-16T04:15:44.000Z",
+      "checksum": "f97725b69db25096417d5d3896cf385f",
+      "folder": false
+    }
+  ]
+}

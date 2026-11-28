@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1cTMjL1fKMoxaF6qA63KMLVRKpZe_SYaf",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ajB_9ya1_gsgoy8T2BnbfCihsm2Ayqyc",
+      "parent_id": "1cTMjL1fKMoxaF6qA63KMLVRKpZe_SYaf",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2362,
+      "modified": "2026-08-15T07:41:20.000Z",
+      "checksum": "9f5a26f1888cafa99dc9a93a6a40e8a5",
+      "folder": false
+    },
+    {
+      "id": "1kphEmSev2xwlNifhAwvQho5hVA8wpOQX",
+      "parent_id": "1cTMjL1fKMoxaF6qA63KMLVRKpZe_SYaf",
+      "name": "LÃNG TỬ XINH ĐẸP.epub",
+      "mime": "application/epub+zip",
+      "size": 356647,
+      "modified": "2026-08-15T07:41:27.000Z",
+      "checksum": "a419c739f88cd0c61d02dc905e57ee78",
+      "folder": false
+    },
+    {
+      "id": "1WoYAhXuuduVdIxQyT1VGW4Z8QpqswXQv",
+      "parent_id": "1cTMjL1fKMoxaF6qA63KMLVRKpZe_SYaf",
+      "name": "LÃNG TỬ XINH ĐẸP.pdf",
+      "mime": "application/pdf",
+      "size": 600907,
+      "modified": "2026-08-15T07:41:23.000Z",
+      "checksum": "263951df6aec2378f4362278ce02c4b4",
+      "folder": false
+    }
+  ]
+}

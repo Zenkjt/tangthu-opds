@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1h72ZXp1pzGKmCX2dvjSHeYi7DMnmXQLQ",
+  "page": 1,
+  "items": [
+    {
+      "id": "198BdkzN4xFDm58q7zqzp0-FuApSCKGOA",
+      "parent_id": "1h72ZXp1pzGKmCX2dvjSHeYi7DMnmXQLQ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3089,
+      "modified": "2026-08-16T03:59:15.000Z",
+      "checksum": "341fb99ac44ba8a43b7bd16e69357718",
+      "folder": false
+    },
+    {
+      "id": "10Y-GeN8s9NP5aQYMxjhdz1o6tH84Vp3x",
+      "parent_id": "1h72ZXp1pzGKmCX2dvjSHeYi7DMnmXQLQ",
+      "name": "THANH TỈNH KỶ.epub",
+      "mime": "application/epub+zip",
+      "size": 508535,
+      "modified": "2026-08-16T03:59:21.000Z",
+      "checksum": "7826eb49ca7afe4de0730ea027668fd8",
+      "folder": false
+    },
+    {
+      "id": "1tKdgwh0aH9UzuGxkQSiENM2sTE0M0UMt",
+      "parent_id": "1h72ZXp1pzGKmCX2dvjSHeYi7DMnmXQLQ",
+      "name": "THANH TỈNH KỶ.pdf",
+      "mime": "application/pdf",
+      "size": 852858,
+      "modified": "2026-08-16T03:59:19.000Z",
+      "checksum": "6a8588128de0762aeba12fed70d79319",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1paFE9WN4zRMmgKQYk85POOedWg4VZI_2",
+  "page": 1,
+  "items": [
+    {
+      "id": "1UljYrrRLmB39MFfI7YgJWiRHj4jsdl5-",
+      "parent_id": "1paFE9WN4zRMmgKQYk85POOedWg4VZI_2",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3545,
+      "modified": "2026-08-15T03:29:46.000Z",
+      "checksum": "dabf72c8d8e6ba3d8c5cb1efd81397c4",
+      "folder": false
+    },
+    {
+      "id": "1phZaeCIMcH84ePTt32pb1pu5nCXg2cKl",
+      "parent_id": "1paFE9WN4zRMmgKQYk85POOedWg4VZI_2",
+      "name": "SỨC MẠNH CỦA TĨNH LẶNG.epub",
+      "mime": "application/epub+zip",
+      "size": 169446,
+      "modified": "2026-08-15T03:29:54.000Z",
+      "checksum": "f6c2a00a94bfc52664268587a111a70c",
+      "folder": false
+    },
+    {
+      "id": "1R4XaNjxy3jxg0XkbCKtHSa6UHk0Y1kaG",
+      "parent_id": "1paFE9WN4zRMmgKQYk85POOedWg4VZI_2",
+      "name": "SỨC MẠNH CỦA TĨNH LẶNG.pdf",
+      "mime": "application/pdf",
+      "size": 666445,
+      "modified": "2026-08-15T03:29:51.000Z",
+      "checksum": "85c0fa131417028e6f4990b945db8d28",
+      "folder": false
+    }
+  ]
+}

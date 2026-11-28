@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1DzynrHRhU_oOeaSBZILNxlsA16owcRzq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YGAQBVUIrR7N4TC9OIcCfKESzmdFMnig",
+      "parent_id": "1DzynrHRhU_oOeaSBZILNxlsA16owcRzq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 823,
+      "modified": "2026-08-16T04:15:33.000Z",
+      "checksum": "26712e57f242e57d228c7c0f283fca08",
+      "folder": false
+    },
+    {
+      "id": "1rLCeBO1NNP56yaSAny3h9hVuJgl5LpCT",
+      "parent_id": "1DzynrHRhU_oOeaSBZILNxlsA16owcRzq",
+      "name": "NGÀY HỘI QUẢ BÍ.epub",
+      "mime": "application/epub+zip",
+      "size": 403970,
+      "modified": "2026-08-16T04:15:38.000Z",
+      "checksum": "b41f3088795d444b023bbfa86d1ab350",
+      "folder": false
+    },
+    {
+      "id": "19WCxwPzyZt50Hu7Ma-D6Tc6JOMJ0dsyz",
+      "parent_id": "1DzynrHRhU_oOeaSBZILNxlsA16owcRzq",
+      "name": "NGÀY HỘI QUẢ BÍ.pdf",
+      "mime": "application/pdf",
+      "size": 501910,
+      "modified": "2026-08-16T04:15:36.000Z",
+      "checksum": "7cbdd494e8c95940901616455ce46558",
+      "folder": false
+    }
+  ]
+}

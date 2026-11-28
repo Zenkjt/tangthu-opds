@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1WRY4NpRM9Lw2RKntRTC5QEZ6Of_GX5HV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1kzh6nVz_c-oTLrAe1S925TsCgR7bOEhT",
+      "parent_id": "1WRY4NpRM9Lw2RKntRTC5QEZ6Of_GX5HV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6484,
+      "modified": "2026-08-15T03:56:19.000Z",
+      "checksum": "252cbb0b5b02bd2116ddae2427f0c57d",
+      "folder": false
+    },
+    {
+      "id": "1MKoYhj21DL60RqPHZhgXxSMD5uTkLp4j",
+      "parent_id": "1WRY4NpRM9Lw2RKntRTC5QEZ6Of_GX5HV",
+      "name": "GIÁO DỤC VÀ Ý NGHĨA CỦA SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 465670,
+      "modified": "2026-08-15T03:56:25.000Z",
+      "checksum": "2a3a2df7b87fd0ab4ccc9ff86da97bc5",
+      "folder": false
+    },
+    {
+      "id": "1LnE2P3KVw938zT4aF2TXnzW8wZeitAbA",
+      "parent_id": "1WRY4NpRM9Lw2RKntRTC5QEZ6Of_GX5HV",
+      "name": "GIÁO DỤC VÀ Ý NGHĨA CỦA SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 611626,
+      "modified": "2026-08-15T03:56:22.000Z",
+      "checksum": "502c6761f372e5d47623751de8761da3",
+      "folder": false
+    }
+  ]
+}

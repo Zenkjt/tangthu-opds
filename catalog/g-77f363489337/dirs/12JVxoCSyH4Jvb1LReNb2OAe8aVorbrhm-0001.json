@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12JVxoCSyH4Jvb1LReNb2OAe8aVorbrhm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Oh6RovXA4oC_gG3lyIGmdhwaiTGiFcHM",
+      "parent_id": "12JVxoCSyH4Jvb1LReNb2OAe8aVorbrhm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5553,
+      "modified": "2026-08-16T03:05:04.000Z",
+      "checksum": "e06c0f9f584d3bf54c8570ecbe11274d",
+      "folder": false
+    },
+    {
+      "id": "1DDlH8Ajm6sLCruLNphsxQmhE06WyY81r",
+      "parent_id": "12JVxoCSyH4Jvb1LReNb2OAe8aVorbrhm",
+      "name": "ĐƯỜNG CHÂN TRỜI ĐÃ MẤT.epub",
+      "mime": "application/epub+zip",
+      "size": 545532,
+      "modified": "2026-08-16T03:05:11.000Z",
+      "checksum": "7786152003fd6171d084102d39fae8e0",
+      "folder": false
+    },
+    {
+      "id": "1YwMKo95cBvLdYQc8-Mx0gJ-4NqRlzVOz",
+      "parent_id": "12JVxoCSyH4Jvb1LReNb2OAe8aVorbrhm",
+      "name": "ĐƯỜNG CHÂN TRỜI ĐÃ MẤT.pdf",
+      "mime": "application/pdf",
+      "size": 963844,
+      "modified": "2026-08-16T03:05:08.000Z",
+      "checksum": "3cc7774363b47b7f37f6591c54a48a66",
+      "folder": false
+    }
+  ]
+}

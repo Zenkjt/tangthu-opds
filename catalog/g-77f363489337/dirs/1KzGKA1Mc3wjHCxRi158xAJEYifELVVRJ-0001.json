@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KzGKA1Mc3wjHCxRi158xAJEYifELVVRJ",
+  "page": 1,
+  "items": [
+    {
+      "id": "1pKPlrEdt2OGoKD3goRpl5WUsRObcSN9r",
+      "parent_id": "1KzGKA1Mc3wjHCxRi158xAJEYifELVVRJ",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1448,
+      "modified": "2026-08-15T03:19:02.000Z",
+      "checksum": "c6fdca10efcbaa995b167c3c217fff15",
+      "folder": false
+    },
+    {
+      "id": "1e0Gasft9dkAPCKvPrJNm_NMl4ZMeYGIb",
+      "parent_id": "1KzGKA1Mc3wjHCxRi158xAJEYifELVVRJ",
+      "name": "SỐNG ĐỂ HẠNH PHÚC.epub",
+      "mime": "application/epub+zip",
+      "size": 272990,
+      "modified": "2026-08-15T03:19:09.000Z",
+      "checksum": "c5233a133520c3a3ac9ae7b3e678256a",
+      "folder": false
+    },
+    {
+      "id": "1pD0TkvvvJXy671M9Gy_QYvf65y-yGB6_",
+      "parent_id": "1KzGKA1Mc3wjHCxRi158xAJEYifELVVRJ",
+      "name": "SỐNG ĐỂ HẠNH PHÚC.pdf",
+      "mime": "application/pdf",
+      "size": 513911,
+      "modified": "2026-08-15T03:19:06.000Z",
+      "checksum": "f94aadf4f45daf8f5ac38657731a7f4f",
+      "folder": false
+    }
+  ]
+}

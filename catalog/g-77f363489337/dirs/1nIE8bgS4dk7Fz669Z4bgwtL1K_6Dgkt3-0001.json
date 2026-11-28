@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nIE8bgS4dk7Fz669Z4bgwtL1K_6Dgkt3",
+  "page": 1,
+  "items": [
+    {
+      "id": "126SH2zUDfr_eAkLdJyWSU1Zp2iQDMEaZ",
+      "parent_id": "1nIE8bgS4dk7Fz669Z4bgwtL1K_6Dgkt3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6225,
+      "modified": "2026-08-15T08:00:40.000Z",
+      "checksum": "c939b8c4d677146c9c6e3586a8075aa7",
+      "folder": false
+    },
+    {
+      "id": "1KibYzLcBZyPAb47-o5sQJSoGsXbTJFH9",
+      "parent_id": "1nIE8bgS4dk7Fz669Z4bgwtL1K_6Dgkt3",
+      "name": "QUIDDITCH QUA CÁC THỜI ĐẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 479849,
+      "modified": "2026-08-15T08:00:45.000Z",
+      "checksum": "20a71e386744d13c805bad3d6541fa2c",
+      "folder": false
+    },
+    {
+      "id": "1O-zEajL1FtcIkWFKMXOuM_CFMucpjQam",
+      "parent_id": "1nIE8bgS4dk7Fz669Z4bgwtL1K_6Dgkt3",
+      "name": "QUIDDITCH QUA CÁC THỜI ĐẠI.pdf",
+      "mime": "application/pdf",
+      "size": 606074,
+      "modified": "2026-08-15T08:00:43.000Z",
+      "checksum": "c19bf0dc591517d1d74e673e4a2c09df",
+      "folder": false
+    }
+  ]
+}

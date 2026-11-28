@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1UV3-FbFqqNch9BfNyFB9BJF2a46k_i7F",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iV8TFKQV5ZQvAHQbcyi72pVuSvSOrZfS",
+      "parent_id": "1UV3-FbFqqNch9BfNyFB9BJF2a46k_i7F",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2291,
+      "modified": "2026-08-15T03:38:44.000Z",
+      "checksum": "bd86692d22dc1484ad1a6e625ef81967",
+      "folder": false
+    },
+    {
+      "id": "18eb_sDmCAjk65qO2z945jb7vNs9JlVvD",
+      "parent_id": "1UV3-FbFqqNch9BfNyFB9BJF2a46k_i7F",
+      "name": "THANH TỊNH ĐẠO.epub",
+      "mime": "application/epub+zip",
+      "size": 1161435,
+      "modified": "2026-08-15T03:38:54.000Z",
+      "checksum": "0bad934306e353801dbc9226f43d42b6",
+      "folder": false
+    },
+    {
+      "id": "1fNwfnEhF7DN7f5rcrKp2SH3wN6R_MAaC",
+      "parent_id": "1UV3-FbFqqNch9BfNyFB9BJF2a46k_i7F",
+      "name": "THANH TỊNH ĐẠO.pdf",
+      "mime": "application/pdf",
+      "size": 3260531,
+      "modified": "2026-08-15T03:38:50.000Z",
+      "checksum": "422911ae2af0a751799357947caef817",
+      "folder": false
+    }
+  ]
+}

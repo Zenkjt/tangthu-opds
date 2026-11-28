@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1m0INrc67TapQ9V_3iwBfBQkJvgRH_qVE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JtpPy7v1kLMwVXYRNQwK2OIaNEjZ4-CD",
+      "parent_id": "1m0INrc67TapQ9V_3iwBfBQkJvgRH_qVE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2576,
+      "modified": "2026-08-16T03:39:23.000Z",
+      "checksum": "c7ce6174459c02febd8de9f86b7bc3d4",
+      "folder": false
+    },
+    {
+      "id": "1F-Rpi8THRAHZ2sA43xVWRqve3_tHLJVp",
+      "parent_id": "1m0INrc67TapQ9V_3iwBfBQkJvgRH_qVE",
+      "name": "TRÂM 4 CHIM LIỀN CÁNH.epub",
+      "mime": "application/epub+zip",
+      "size": 869592,
+      "modified": "2026-08-16T03:39:30.000Z",
+      "checksum": "95b50d04e65508a9e67d3dfdda878da4",
+      "folder": false
+    },
+    {
+      "id": "1qygOiJDOFH2Jx_KgqEMOH7XPiXDX_mXZ",
+      "parent_id": "1m0INrc67TapQ9V_3iwBfBQkJvgRH_qVE",
+      "name": "TRÂM 4 CHIM LIỀN CÁNH.pdf",
+      "mime": "application/pdf",
+      "size": 1231923,
+      "modified": "2026-08-16T03:39:27.000Z",
+      "checksum": "4d97a45aababc5d6cc7d78b3548f1d6b",
+      "folder": false
+    }
+  ]
+}

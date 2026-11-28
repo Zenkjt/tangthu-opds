@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1QOYzTiXQ7NQdwYa2fDCactu6Kuqw4MIz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eDq37ChXck-O1K7rcnaeXVW6MkBly8Cm",
+      "parent_id": "1QOYzTiXQ7NQdwYa2fDCactu6Kuqw4MIz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 458,
+      "modified": "2026-08-15T10:55:50.000Z",
+      "checksum": "afdc5b1290ca8b2739b5e1c767b6c520",
+      "folder": false
+    },
+    {
+      "id": "1ULrkZ1udwWVfnX_yA1vUwdA91_GAEpno",
+      "parent_id": "1QOYzTiXQ7NQdwYa2fDCactu6Kuqw4MIz",
+      "name": "KẺ TẨY NÃO.epub",
+      "mime": "application/epub+zip",
+      "size": 714881,
+      "modified": "2026-08-15T10:55:58.000Z",
+      "checksum": "7811bee97d787feeb1f1e2156cdb1a53",
+      "folder": false
+    },
+    {
+      "id": "1xWGfCDFCYC35lfBBSV1jhrYJbvEohSl4",
+      "parent_id": "1QOYzTiXQ7NQdwYa2fDCactu6Kuqw4MIz",
+      "name": "KẺ TẨY NÃO.pdf",
+      "mime": "application/pdf",
+      "size": 1590900,
+      "modified": "2026-08-15T10:55:56.000Z",
+      "checksum": "9224e2a38dfd75c5f1a4aa97d27d3a31",
+      "folder": false
+    }
+  ]
+}

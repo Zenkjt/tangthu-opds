@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1JseyWrYR2VXdWXgvmiq-RPuFGDYtsHdY",
+  "page": 1,
+  "items": [
+    {
+      "id": "1upPs4ZjlzJ_mq9PgoxyST3r3or5B_tuU",
+      "parent_id": "1JseyWrYR2VXdWXgvmiq-RPuFGDYtsHdY",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 624,
+      "modified": "2026-08-16T04:11:26.000Z",
+      "checksum": "e32c45e586b3153206f94639d3197542",
+      "folder": false
+    },
+    {
+      "id": "1SzULVaNfvviu_q-JlKJ_kgVhJ2G7TmWW",
+      "parent_id": "1JseyWrYR2VXdWXgvmiq-RPuFGDYtsHdY",
+      "name": "NHƯ HẠNH.epub",
+      "mime": "application/epub+zip",
+      "size": 560869,
+      "modified": "2026-08-16T04:11:38.000Z",
+      "checksum": "816f8743fdd83305a9524d7a237bb9a5",
+      "folder": false
+    },
+    {
+      "id": "1jf1UmoNOhZ9ty0qu1vgG_O3N4tJPcxIS",
+      "parent_id": "1JseyWrYR2VXdWXgvmiq-RPuFGDYtsHdY",
+      "name": "NHƯ HẠNH.pdf",
+      "mime": "application/pdf",
+      "size": 813346,
+      "modified": "2026-08-16T04:11:34.000Z",
+      "checksum": "5ec710bdf8af1107c4745b051405da2f",
+      "folder": false
+    }
+  ]
+}

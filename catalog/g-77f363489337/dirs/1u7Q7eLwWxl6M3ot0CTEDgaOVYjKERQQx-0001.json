@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1u7Q7eLwWxl6M3ot0CTEDgaOVYjKERQQx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1YKzaArTnJ4Iy6dlvuMukIDaS_tbWxGwk",
+      "parent_id": "1u7Q7eLwWxl6M3ot0CTEDgaOVYjKERQQx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2206,
+      "modified": "2026-08-15T09:34:00.000Z",
+      "checksum": "4f6cd665fd34b2e5a9ab569192d2566c",
+      "folder": false
+    },
+    {
+      "id": "1FoHSGeZHQENY7AET3ayxEnWty5Qk-8z0",
+      "parent_id": "1u7Q7eLwWxl6M3ot0CTEDgaOVYjKERQQx",
+      "name": "HAI KHỐI TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 414698,
+      "modified": "2026-08-15T09:34:08.000Z",
+      "checksum": "b373278d4519cc3da44411fcf5482a29",
+      "folder": false
+    },
+    {
+      "id": "1nAgNWRLemaw6d9krBksbFQbC7J9ndQ8H",
+      "parent_id": "1u7Q7eLwWxl6M3ot0CTEDgaOVYjKERQQx",
+      "name": "HAI KHỐI TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 459936,
+      "modified": "2026-08-15T09:34:04.000Z",
+      "checksum": "90452dc954c7a79b4e4f84f8a4f6b59a",
+      "folder": false
+    }
+  ]
+}

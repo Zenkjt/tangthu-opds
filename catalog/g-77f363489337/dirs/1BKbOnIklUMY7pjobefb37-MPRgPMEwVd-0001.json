@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BKbOnIklUMY7pjobefb37-MPRgPMEwVd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JoHop_evrDUnfakVJNAivgAf-XrwUHDt",
+      "parent_id": "1BKbOnIklUMY7pjobefb37-MPRgPMEwVd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 9632,
+      "modified": "2026-08-15T00:49:16.000Z",
+      "checksum": "e393b77f87424a10a4307268aa4b8239",
+      "folder": false
+    },
+    {
+      "id": "1C4-4EMpMg67iVjEE7K9cpn8WPypeBh5b",
+      "parent_id": "1BKbOnIklUMY7pjobefb37-MPRgPMEwVd",
+      "name": "VỊ GIÁM ĐỐC HIỆU QUẢ.epub",
+      "mime": "application/epub+zip",
+      "size": 464555,
+      "modified": "2026-08-15T00:49:22.000Z",
+      "checksum": "c637b172d2e94c2ec4a81608afea9c02",
+      "folder": false
+    },
+    {
+      "id": "18FZmPcOgeaQcSoG3kcKNyewEIW7AYZEu",
+      "parent_id": "1BKbOnIklUMY7pjobefb37-MPRgPMEwVd",
+      "name": "VỊ GIÁM ĐỐC HIỆU QUẢ.pdf",
+      "mime": "application/pdf",
+      "size": 725547,
+      "modified": "2026-08-15T00:49:20.000Z",
+      "checksum": "2bf2b63c3ac6746d977bc7121b51d594",
+      "folder": false
+    }
+  ]
+}

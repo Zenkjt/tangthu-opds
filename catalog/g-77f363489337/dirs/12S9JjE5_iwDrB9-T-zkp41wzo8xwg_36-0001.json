@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "12S9JjE5_iwDrB9-T-zkp41wzo8xwg_36",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gdQzrd2mdjiSuOnDDO9iwFHP-DdXoCNj",
+      "parent_id": "12S9JjE5_iwDrB9-T-zkp41wzo8xwg_36",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 463,
+      "modified": "2026-08-16T04:18:21.000Z",
+      "checksum": "fe476dedc371dcd5efa041c0228fce35",
+      "folder": false
+    },
+    {
+      "id": "1ezhLKwdESJJA7X6ubKOH3J94y0IsZrgA",
+      "parent_id": "12S9JjE5_iwDrB9-T-zkp41wzo8xwg_36",
+      "name": "LỬA ĐẮNG.epub",
+      "mime": "application/epub+zip",
+      "size": 749814,
+      "modified": "2026-08-16T04:18:30.000Z",
+      "checksum": "1018131aff5f26bff378677bfc86dd03",
+      "folder": false
+    },
+    {
+      "id": "1ntdl6YMNBiEhdNrJpZd4DPfMBIbGodfv",
+      "parent_id": "12S9JjE5_iwDrB9-T-zkp41wzo8xwg_36",
+      "name": "LỬA ĐẮNG.pdf",
+      "mime": "application/pdf",
+      "size": 1997632,
+      "modified": "2026-08-16T04:18:26.000Z",
+      "checksum": "a25699e65039c966473502032977b02d",
+      "folder": false
+    }
+  ]
+}

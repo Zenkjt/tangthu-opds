@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19FG20jq6eSEevbSf8NtZr7kl34506v1n",
+  "page": 1,
+  "items": [
+    {
+      "id": "14q3qumBk8Lrx84oY7Bze56_XQ8t5UOj3",
+      "parent_id": "19FG20jq6eSEevbSf8NtZr7kl34506v1n",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 711,
+      "modified": "2026-08-16T03:52:43.000Z",
+      "checksum": "d6e8763f5414c1d2abace5e72b804e18",
+      "folder": false
+    },
+    {
+      "id": "14Yzhgjpkzch2LEH4exGnOBbQOZC5kDbh",
+      "parent_id": "19FG20jq6eSEevbSf8NtZr7kl34506v1n",
+      "name": "TRẠNG HÍT.epub",
+      "mime": "application/epub+zip",
+      "size": 507819,
+      "modified": "2026-08-16T03:52:49.000Z",
+      "checksum": "be21430601a33aa8b0877e309a0ac6fc",
+      "folder": false
+    },
+    {
+      "id": "1JaeOXlfjWYIP8g4I7nw8I1d1g16he8vw",
+      "parent_id": "19FG20jq6eSEevbSf8NtZr7kl34506v1n",
+      "name": "TRẠNG HÍT.pdf",
+      "mime": "application/pdf",
+      "size": 504946,
+      "modified": "2026-08-16T03:52:46.000Z",
+      "checksum": "9e00658f8688eb1cc3ad5686f2f1867b",
+      "folder": false
+    }
+  ]
+}

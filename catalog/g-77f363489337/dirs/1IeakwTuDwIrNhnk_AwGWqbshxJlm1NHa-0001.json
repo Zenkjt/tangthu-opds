@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1IeakwTuDwIrNhnk_AwGWqbshxJlm1NHa",
+  "page": 1,
+  "items": [
+    {
+      "id": "1ROQF38eFYHaNuHF4SHl72_oG-IJbBCQy",
+      "parent_id": "1IeakwTuDwIrNhnk_AwGWqbshxJlm1NHa",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 7066,
+      "modified": "2026-08-15T07:21:34.000Z",
+      "checksum": "92895d33d1e15c13bc2db877cf1a6bc9",
+      "folder": false
+    },
+    {
+      "id": "1ZABKVlJ6Ms30BjoGvVFc6pv8NSPK7JgJ",
+      "parent_id": "1IeakwTuDwIrNhnk_AwGWqbshxJlm1NHa",
+      "name": "TRIẾT HỌC NHÂN SINH CỦA TÔI.epub",
+      "mime": "application/epub+zip",
+      "size": 532127,
+      "modified": "2026-08-15T07:21:40.000Z",
+      "checksum": "aa8421a4280c4e0a9985027887d5f593",
+      "folder": false
+    },
+    {
+      "id": "19WLNat_J09VlAX7ZNnO6JSiF5IApAJ6b",
+      "parent_id": "1IeakwTuDwIrNhnk_AwGWqbshxJlm1NHa",
+      "name": "TRIẾT HỌC NHÂN SINH CỦA TÔI.pdf",
+      "mime": "application/pdf",
+      "size": 1034979,
+      "modified": "2026-08-15T07:21:38.000Z",
+      "checksum": "f0fe03ff38a27f6c1fcda8f65d291300",
+      "folder": false
+    }
+  ]
+}

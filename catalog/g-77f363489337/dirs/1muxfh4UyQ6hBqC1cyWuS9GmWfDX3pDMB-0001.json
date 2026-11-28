@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1muxfh4UyQ6hBqC1cyWuS9GmWfDX3pDMB",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bTOFVLOQklsMym2UJ1_U78feO1aPL7--",
+      "parent_id": "1muxfh4UyQ6hBqC1cyWuS9GmWfDX3pDMB",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1620,
+      "modified": "2026-08-15T12:42:24.000Z",
+      "checksum": "3c3ba88101c9ac0be06938724226dc5b",
+      "folder": false
+    },
+    {
+      "id": "1AvikxicaYLVdm3I8nKBEorJgmLbtM3gq",
+      "parent_id": "1muxfh4UyQ6hBqC1cyWuS9GmWfDX3pDMB",
+      "name": "HORRIBLE HISTORIES - NGƯỜI HY LẠP HUYỀN THOẠI.epub",
+      "mime": "application/epub+zip",
+      "size": 3771735,
+      "modified": "2026-08-15T12:42:33.000Z",
+      "checksum": "b059da9ca302af669b16cf65a636b2df",
+      "folder": false
+    },
+    {
+      "id": "1nl7YOCUCzKk0AjM7-m2y-OusHxeDgpKL",
+      "parent_id": "1muxfh4UyQ6hBqC1cyWuS9GmWfDX3pDMB",
+      "name": "HORRIBLE HISTORIES - NGƯỜI HY LẠP HUYỀN THOẠI.pdf",
+      "mime": "application/pdf",
+      "size": 3125525,
+      "modified": "2026-08-15T12:42:29.000Z",
+      "checksum": "4a87ca2fefe114b2e1609af96a3efe9c",
+      "folder": false
+    }
+  ]
+}

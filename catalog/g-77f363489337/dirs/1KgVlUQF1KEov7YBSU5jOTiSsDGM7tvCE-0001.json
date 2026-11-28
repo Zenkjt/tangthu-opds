@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1KgVlUQF1KEov7YBSU5jOTiSsDGM7tvCE",
+  "page": 1,
+  "items": [
+    {
+      "id": "1F78oDBFS9fRNELu_Jx6JkAfG_Qywhcd6",
+      "parent_id": "1KgVlUQF1KEov7YBSU5jOTiSsDGM7tvCE",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3015,
+      "modified": "2026-08-16T04:06:13.000Z",
+      "checksum": "bc54524d0767fc3bc1c9f03430b3fedf",
+      "folder": false
+    },
+    {
+      "id": "1cS2DPLyJpYo0dw6SBOg8A1nGvHb8DTU7",
+      "parent_id": "1KgVlUQF1KEov7YBSU5jOTiSsDGM7tvCE",
+      "name": "PHỒN HOA RỰC RỠ.epub",
+      "mime": "application/epub+zip",
+      "size": 292980,
+      "modified": "2026-08-16T04:06:19.000Z",
+      "checksum": "c5050c3e5c3b12498a9d578430efb73c",
+      "folder": false
+    },
+    {
+      "id": "1BuMqLGRKx5PguprYx-Kgupk_0SAoFPX3",
+      "parent_id": "1KgVlUQF1KEov7YBSU5jOTiSsDGM7tvCE",
+      "name": "PHỒN HOA RỰC RỠ.pdf",
+      "mime": "application/pdf",
+      "size": 304353,
+      "modified": "2026-08-16T04:06:17.000Z",
+      "checksum": "30d2d1188aaef928db8d9452ea1f3df9",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1-SZR29_Ux7UVDovW3dWpT2FaRaDYkBgt",
+  "page": 1,
+  "items": [
+    {
+      "id": "116H4dNK_7Ri5FEtiDcH0qoZr1Tu2LQNQ",
+      "parent_id": "1-SZR29_Ux7UVDovW3dWpT2FaRaDYkBgt",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3503,
+      "modified": "2026-08-16T04:13:35.000Z",
+      "checksum": "bb4b412a02582ed7443fdeab2498d6f0",
+      "folder": false
+    },
+    {
+      "id": "1ySP3ly-qhmEvxL-PPNiy_QlqyEirG6IY",
+      "parent_id": "1-SZR29_Ux7UVDovW3dWpT2FaRaDYkBgt",
+      "name": "NGƯỜI Ở ĐÂU VỀ.epub",
+      "mime": "application/epub+zip",
+      "size": 537588,
+      "modified": "2026-08-16T04:13:41.000Z",
+      "checksum": "97042e28480c0b6b621bad6877448da9",
+      "folder": false
+    },
+    {
+      "id": "1vuMMZYrwdgSmjYh-JvEvVGdY00JUzEhT",
+      "parent_id": "1-SZR29_Ux7UVDovW3dWpT2FaRaDYkBgt",
+      "name": "NGƯỜI Ở ĐÂU VỀ.pdf",
+      "mime": "application/pdf",
+      "size": 561281,
+      "modified": "2026-08-16T04:13:38.000Z",
+      "checksum": "47987eee808479f033e6920296799538",
+      "folder": false
+    }
+  ]
+}

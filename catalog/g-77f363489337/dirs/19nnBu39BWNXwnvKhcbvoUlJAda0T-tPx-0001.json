@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "19nnBu39BWNXwnvKhcbvoUlJAda0T-tPx",
+  "page": 1,
+  "items": [
+    {
+      "id": "1iNWbAz2Yt9XZyANRjEh2Tpr7nVmbZNRp",
+      "parent_id": "19nnBu39BWNXwnvKhcbvoUlJAda0T-tPx",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1097,
+      "modified": "2026-08-15T11:31:52.000Z",
+      "checksum": "44bf4f2a9e6d1dc0dcee8b1028a2c0dc",
+      "folder": false
+    },
+    {
+      "id": "1DmMAflC--Wd8oFOZobZptRY6wjLjdErD",
+      "parent_id": "19nnBu39BWNXwnvKhcbvoUlJAda0T-tPx",
+      "name": "GIÁO TRÌNH MẠCH ĐIỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 1048737,
+      "modified": "2026-08-15T11:31:59.000Z",
+      "checksum": "8dea0f612fc7d6c097e7311e3872dcff",
+      "folder": false
+    },
+    {
+      "id": "1mb55dOTe6mv02IfLcfefkNjDB5lPhDoB",
+      "parent_id": "19nnBu39BWNXwnvKhcbvoUlJAda0T-tPx",
+      "name": "GIÁO TRÌNH MẠCH ĐIỆN.pdf",
+      "mime": "application/pdf",
+      "size": 1104421,
+      "modified": "2026-08-15T11:31:55.000Z",
+      "checksum": "fa9901462501eccfe02504af444d1336",
+      "folder": false
+    }
+  ]
+}

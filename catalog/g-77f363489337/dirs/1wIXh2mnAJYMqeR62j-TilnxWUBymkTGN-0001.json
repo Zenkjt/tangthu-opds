@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1wIXh2mnAJYMqeR62j-TilnxWUBymkTGN",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qzeGxl3FxiPzOLskq_UXYmG8DV17D91p",
+      "parent_id": "1wIXh2mnAJYMqeR62j-TilnxWUBymkTGN",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5162,
+      "modified": "2026-08-15T00:56:01.000Z",
+      "checksum": "e6262cb4b641bbd89cc53b2345a739db",
+      "folder": false
+    },
+    {
+      "id": "1aTro-Vm0HEGARsSRI4ak8HUH8pfDQ9aR",
+      "parent_id": "1wIXh2mnAJYMqeR62j-TilnxWUBymkTGN",
+      "name": "TRẢI NGHIỆM VÀ KHÁT VỌNG CUỘC SỐNG.epub",
+      "mime": "application/epub+zip",
+      "size": 519851,
+      "modified": "2026-08-15T00:56:07.000Z",
+      "checksum": "152edde0262f86b902aa5197cea15d26",
+      "folder": false
+    },
+    {
+      "id": "13HBeg2BUiCKgy6AXiFiLHmexc7WaBuhD",
+      "parent_id": "1wIXh2mnAJYMqeR62j-TilnxWUBymkTGN",
+      "name": "TRẢI NGHIỆM VÀ KHÁT VỌNG CUỘC SỐNG.pdf",
+      "mime": "application/pdf",
+      "size": 718476,
+      "modified": "2026-08-15T00:56:05.000Z",
+      "checksum": "a6d1e988efaf797a1bd9e56852c936f0",
+      "folder": false
+    }
+  ]
+}

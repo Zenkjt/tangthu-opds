@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dalVmtjWgUH1syIG-T6DZ3exDX_Y7uMV",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PYjon9N6Vl1qsL5pNEECIDjXVgOo3qmL",
+      "parent_id": "1dalVmtjWgUH1syIG-T6DZ3exDX_Y7uMV",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3255,
+      "modified": "2026-08-16T04:00:10.000Z",
+      "checksum": "679904c1e5ec453c1e6da6d520389c0d",
+      "folder": false
+    },
+    {
+      "id": "1LeZAQ647pVVZTNPZA7AjnEW5mme3X9b-",
+      "parent_id": "1dalVmtjWgUH1syIG-T6DZ3exDX_Y7uMV",
+      "name": "THẮM SẮC HOA ĐẶC.epub",
+      "mime": "application/epub+zip",
+      "size": 401635,
+      "modified": "2026-08-16T04:00:16.000Z",
+      "checksum": "e6370dd2589950bd1ac7858dcedfe689",
+      "folder": false
+    },
+    {
+      "id": "1trPYjctaCiIkUtpTW7V3JyzOzxTjU7p7",
+      "parent_id": "1dalVmtjWgUH1syIG-T6DZ3exDX_Y7uMV",
+      "name": "THẮM SẮC HOA ĐẶC.pdf",
+      "mime": "application/pdf",
+      "size": 496957,
+      "modified": "2026-08-16T04:00:14.000Z",
+      "checksum": "fef2a3e5f789100f1e62d1835c194004",
+      "folder": false
+    }
+  ]
+}

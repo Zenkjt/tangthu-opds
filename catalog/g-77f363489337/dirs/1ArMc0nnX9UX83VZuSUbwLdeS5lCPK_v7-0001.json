@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ArMc0nnX9UX83VZuSUbwLdeS5lCPK_v7",
+  "page": 1,
+  "items": [
+    {
+      "id": "1vIE5Nnm7qwt74lvINdJ920PwxxSLSjpJ",
+      "parent_id": "1ArMc0nnX9UX83VZuSUbwLdeS5lCPK_v7",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 659,
+      "modified": "2026-08-16T04:06:53.000Z",
+      "checksum": "28265738a91f4acb233e0b7291d250fe",
+      "folder": false
+    },
+    {
+      "id": "1E4th6sL6Shr5GMmLy6E7l6w4kIWlG4O-",
+      "parent_id": "1ArMc0nnX9UX83VZuSUbwLdeS5lCPK_v7",
+      "name": "PHẤN HOA LẦU XANH.epub",
+      "mime": "application/epub+zip",
+      "size": 594814,
+      "modified": "2026-08-16T04:07:02.000Z",
+      "checksum": "27bb2565422e619879efce2e48a9a5d0",
+      "folder": false
+    },
+    {
+      "id": "1Y_P25OMIyqEs9Qx07DEOX8arT2pwdn-k",
+      "parent_id": "1ArMc0nnX9UX83VZuSUbwLdeS5lCPK_v7",
+      "name": "PHẤN HOA LẦU XANH.pdf",
+      "mime": "application/pdf",
+      "size": 704169,
+      "modified": "2026-08-16T04:06:58.000Z",
+      "checksum": "71da7275a661bf1cfec1f913958cd58f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1HONc6HYHekWwEHzs1py0lB4BoFDyN4iz",
+  "page": 1,
+  "items": [
+    {
+      "id": "1LeDP5-g878hqueKqUaZF5V9CgS71KHc4",
+      "parent_id": "1HONc6HYHekWwEHzs1py0lB4BoFDyN4iz",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2098,
+      "modified": "2026-08-15T09:42:59.000Z",
+      "checksum": "89a721915f7fb13808cfe6fdff209150",
+      "folder": false
+    },
+    {
+      "id": "1SXXO374J5FzSC1QlHgQ0AGELNve-H2o0",
+      "parent_id": "1HONc6HYHekWwEHzs1py0lB4BoFDyN4iz",
+      "name": "THIÊN VŨ TẬP 4 TÁNG TUYẾT.epub",
+      "mime": "application/epub+zip",
+      "size": 1478933,
+      "modified": "2026-08-15T09:43:23.000Z",
+      "checksum": "5c627a9fd7d7ebbad49d6d4150b8b3d6",
+      "folder": false
+    },
+    {
+      "id": "1u6ZiSgc4gsL8YBlXZ7UNj0ws2ZITjf6-",
+      "parent_id": "1HONc6HYHekWwEHzs1py0lB4BoFDyN4iz",
+      "name": "THIÊN VŨ TẬP 4 TÁNG TUYẾT.pdf",
+      "mime": "application/pdf",
+      "size": 1267429,
+      "modified": "2026-08-15T09:43:08.000Z",
+      "checksum": "f359109be47a73761422d75932df5284",
+      "folder": false
+    }
+  ]
+}

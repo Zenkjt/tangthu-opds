@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "13cHnAy-kDwSBvYCSZSVgHAkcm2CD3iGm",
+  "page": 1,
+  "items": [
+    {
+      "id": "1DkuY_jy4gdAszXJwOGSgAX2C1OJU6y-4",
+      "parent_id": "13cHnAy-kDwSBvYCSZSVgHAkcm2CD3iGm",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1517,
+      "modified": "2026-08-16T02:52:06.000Z",
+      "checksum": "d1445254806bb46ec729f808dfdf5ce5",
+      "folder": false
+    },
+    {
+      "id": "1lTdTmG3DMxLndG7-rZIDz5wj-pnlU5aj",
+      "parent_id": "13cHnAy-kDwSBvYCSZSVgHAkcm2CD3iGm",
+      "name": "MỘT CHUYỆN CHÉP Ở BỆNH VIỆN.epub",
+      "mime": "application/epub+zip",
+      "size": 349267,
+      "modified": "2026-08-16T02:52:12.000Z",
+      "checksum": "aa4818afdf734fd764c9b6b5404631e1",
+      "folder": false
+    },
+    {
+      "id": "17sXOI-sAtTQuCAj8yem3X6n0fBJ-gyVM",
+      "parent_id": "13cHnAy-kDwSBvYCSZSVgHAkcm2CD3iGm",
+      "name": "MỘT CHUYỆN CHÉP Ở BỆNH VIỆN.pdf",
+      "mime": "application/pdf",
+      "size": 525227,
+      "modified": "2026-08-16T02:52:10.000Z",
+      "checksum": "3fef6e45aea86aea683efb3f0563180f",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1jqmYG05_88MuSMGaBR8JyFnFZQmYGr4s",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NGbq2v-B_Hh1_TSordWU22Jt5W-eq7sL",
+      "parent_id": "1jqmYG05_88MuSMGaBR8JyFnFZQmYGr4s",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 435,
+      "modified": "2026-08-15T10:40:35.000Z",
+      "checksum": "ed3fe231f70f0c7e76bcd068681d13f1",
+      "folder": false
+    },
+    {
+      "id": "1Y887xtjLdp5ZCytvlmANFatEhS44w5pj",
+      "parent_id": "1jqmYG05_88MuSMGaBR8JyFnFZQmYGr4s",
+      "name": "NHÀ ĐEN.epub",
+      "mime": "application/epub+zip",
+      "size": 653776,
+      "modified": "2026-08-15T10:40:45.000Z",
+      "checksum": "07f9a55d1560d8a099e798e3a7b026ec",
+      "folder": false
+    },
+    {
+      "id": "1AI5KqpMs-Gl5RVR9R72TIem9exnWJOu8",
+      "parent_id": "1jqmYG05_88MuSMGaBR8JyFnFZQmYGr4s",
+      "name": "NHÀ ĐEN.pdf",
+      "mime": "application/pdf",
+      "size": 1227917,
+      "modified": "2026-08-15T10:40:41.000Z",
+      "checksum": "c6cf3be263879097bf3181bd04875211",
+      "folder": false
+    }
+  ]
+}

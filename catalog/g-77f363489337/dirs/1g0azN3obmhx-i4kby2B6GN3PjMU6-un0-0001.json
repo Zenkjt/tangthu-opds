@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1g0azN3obmhx-i4kby2B6GN3PjMU6-un0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1rzYyiRWwRxXq5V5Np-ERQOzkls9WK_dP",
+      "parent_id": "1g0azN3obmhx-i4kby2B6GN3PjMU6-un0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 4603,
+      "modified": "2026-08-16T03:41:54.000Z",
+      "checksum": "625975362baf74424026eb04eb2ceecf",
+      "folder": false
+    },
+    {
+      "id": "1l05QAVTnYh2o7u46ngjQPI2ZxQQdO1Kq",
+      "parent_id": "1g0azN3obmhx-i4kby2B6GN3PjMU6-un0",
+      "name": "GIAI ĐIỆU CỦA ANNIE.epub",
+      "mime": "application/epub+zip",
+      "size": 821701,
+      "modified": "2026-08-16T03:42:02.000Z",
+      "checksum": "0d9898432a79e859856b05f3e3dc78bb",
+      "folder": false
+    },
+    {
+      "id": "1eNf-1bIFwsPoMOJcNbrf5COTyB-UxWnz",
+      "parent_id": "1g0azN3obmhx-i4kby2B6GN3PjMU6-un0",
+      "name": "GIAI ĐIỆU CỦA ANNIE.pdf",
+      "mime": "application/pdf",
+      "size": 1641789,
+      "modified": "2026-08-16T03:41:59.000Z",
+      "checksum": "3adc5feb90eef2d5ae6e16b664c4a7f8",
+      "folder": false
+    }
+  ]
+}

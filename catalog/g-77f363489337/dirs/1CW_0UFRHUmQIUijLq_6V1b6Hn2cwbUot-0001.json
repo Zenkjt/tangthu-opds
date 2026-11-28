@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CW_0UFRHUmQIUijLq_6V1b6Hn2cwbUot",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HXMsOhtbW2JPzK2HRSkE8oXwux7gg9ow",
+      "parent_id": "1CW_0UFRHUmQIUijLq_6V1b6Hn2cwbUot",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2986,
+      "modified": "2026-08-15T07:42:03.000Z",
+      "checksum": "982b26f4f5564c92c534845bfda72eb0",
+      "folder": false
+    },
+    {
+      "id": "1MOwma_-ey3ezfwv0qX1fnfFz-MhO8hlr",
+      "parent_id": "1CW_0UFRHUmQIUijLq_6V1b6Hn2cwbUot",
+      "name": "DỤ CHÀNG CẮN CÂU.epub",
+      "mime": "application/epub+zip",
+      "size": 430226,
+      "modified": "2026-08-15T07:42:10.000Z",
+      "checksum": "4df19a4ac8217de3c425ec4731359b55",
+      "folder": false
+    },
+    {
+      "id": "1Ek9i0b_hJZBZpxGyVEORu98rj1LCg9bw",
+      "parent_id": "1CW_0UFRHUmQIUijLq_6V1b6Hn2cwbUot",
+      "name": "DỤ CHÀNG CẮN CÂU.pdf",
+      "mime": "application/pdf",
+      "size": 596256,
+      "modified": "2026-08-15T07:42:06.000Z",
+      "checksum": "f8a03096a532f992bc7d0c9dd7b9cdbe",
+      "folder": false
+    }
+  ]
+}

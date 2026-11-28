@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ctj78I6PUqv6cnRGPF3fZDNN1dNKe3oq",
+  "page": 1,
+  "items": [
+    {
+      "id": "1NYzZ9CoDcNy8kxU6xdN1jQQyD042swH3",
+      "parent_id": "1ctj78I6PUqv6cnRGPF3fZDNN1dNKe3oq",
+      "name": "CON BẠC.epub",
+      "mime": "application/epub+zip",
+      "size": 454536,
+      "modified": "2026-08-16T03:29:01.000Z",
+      "checksum": "2d24d72b66602e4f58d27c85d43ea4d3",
+      "folder": false
+    },
+    {
+      "id": "1cNgB4ia-qnixCRPryVga1WDWEYx7dU_S",
+      "parent_id": "1ctj78I6PUqv6cnRGPF3fZDNN1dNKe3oq",
+      "name": "CON BẠC.pdf",
+      "mime": "application/pdf",
+      "size": 930440,
+      "modified": "2026-08-16T03:28:59.000Z",
+      "checksum": "0bb491bcac5691b6917feb2d8f4b44f8",
+      "folder": false
+    },
+    {
+      "id": "19Osj-tW4rYxtGprvT7b6CXNGU7b9sstL",
+      "parent_id": "1ctj78I6PUqv6cnRGPF3fZDNN1dNKe3oq",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5110,
+      "modified": "2026-08-16T03:28:54.000Z",
+      "checksum": "05b2810279ccddce868cd0a6c7c2f8d3",
+      "folder": false
+    }
+  ]
+}

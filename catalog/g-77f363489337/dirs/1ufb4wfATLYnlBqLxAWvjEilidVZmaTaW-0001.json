@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ufb4wfATLYnlBqLxAWvjEilidVZmaTaW",
+  "page": 1,
+  "items": [
+    {
+      "id": "1wq6KeMvQ0Xdg-VvKmd0mUI6oEEJTJCnS",
+      "parent_id": "1ufb4wfATLYnlBqLxAWvjEilidVZmaTaW",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 5484,
+      "modified": "2026-08-15T08:03:08.000Z",
+      "checksum": "419e4f572603eec952c8cbe1c1fd764b",
+      "folder": false
+    },
+    {
+      "id": "1bwQ2gEv7KiZ26tj75JYz2XOeGFUhxDd5",
+      "parent_id": "1ufb4wfATLYnlBqLxAWvjEilidVZmaTaW",
+      "name": "LINH HỒN MÊ ĐẮM.epub",
+      "mime": "application/epub+zip",
+      "size": 361421,
+      "modified": "2026-08-15T08:03:13.000Z",
+      "checksum": "0e2a1d89c3a2a80a1d634ffcf5599103",
+      "folder": false
+    },
+    {
+      "id": "1Dq1OeNrhDZJNLnUHcXk-HwVUkMu21IWn",
+      "parent_id": "1ufb4wfATLYnlBqLxAWvjEilidVZmaTaW",
+      "name": "LINH HỒN MÊ ĐẮM.pdf",
+      "mime": "application/pdf",
+      "size": 598506,
+      "modified": "2026-08-15T08:03:11.000Z",
+      "checksum": "3297daaace5d870a056012dad2580be5",
+      "folder": false
+    }
+  ]
+}

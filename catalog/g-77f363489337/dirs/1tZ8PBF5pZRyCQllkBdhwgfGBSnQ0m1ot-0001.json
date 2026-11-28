@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1tZ8PBF5pZRyCQllkBdhwgfGBSnQ0m1ot",
+  "page": 1,
+  "items": [
+    {
+      "id": "1HWENzzRdzdNMfkxheVga96SNZ8qcFMKu",
+      "parent_id": "1tZ8PBF5pZRyCQllkBdhwgfGBSnQ0m1ot",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2112,
+      "modified": "2026-08-15T08:02:15.000Z",
+      "checksum": "39135d98a9ce096fd6e1c87d1833cc6d",
+      "folder": false
+    },
+    {
+      "id": "1Tj4rByJ6g2QSvCanMgaLWl-_gvCYieg5",
+      "parent_id": "1tZ8PBF5pZRyCQllkBdhwgfGBSnQ0m1ot",
+      "name": "LÃ MAI NƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1203248,
+      "modified": "2026-08-15T08:02:29.000Z",
+      "checksum": "3769da4bac52a445f406a887023bb8ab",
+      "folder": false
+    },
+    {
+      "id": "1TmeNxcbeggE4sraz3eNUX0ioL6Mzd533",
+      "parent_id": "1tZ8PBF5pZRyCQllkBdhwgfGBSnQ0m1ot",
+      "name": "LÃ MAI NƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 4014729,
+      "modified": "2026-08-15T08:02:26.000Z",
+      "checksum": "cc96e19a1c716e0aa9bcd235add26e43",
+      "folder": false
+    }
+  ]
+}

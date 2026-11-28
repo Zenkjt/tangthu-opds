@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "193VThqMBkhlr5WSwgyR6zxBd0BfGTVEF",
+  "page": 1,
+  "items": [
+    {
+      "id": "19Z-jRRtvPUns9KlhA5etPlopCrIpG-_d",
+      "parent_id": "193VThqMBkhlr5WSwgyR6zxBd0BfGTVEF",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2808,
+      "modified": "2026-08-16T03:41:37.000Z",
+      "checksum": "9b70f363e8fde6b821700c3dc7521ade",
+      "folder": false
+    },
+    {
+      "id": "1PlHWco0CsIGmHEQhz6aIZygJYxuWo1L2",
+      "parent_id": "193VThqMBkhlr5WSwgyR6zxBd0BfGTVEF",
+      "name": "HÀNH TINH MÀU DA CAM.epub",
+      "mime": "application/epub+zip",
+      "size": 812608,
+      "modified": "2026-08-16T03:41:43.000Z",
+      "checksum": "6c7c9b9534b4c50d642764e140c08ac3",
+      "folder": false
+    },
+    {
+      "id": "19fEI7eRLgNFTp0U3qmN6ZjEHOzMgGbOA",
+      "parent_id": "193VThqMBkhlr5WSwgyR6zxBd0BfGTVEF",
+      "name": "HÀNH TINH MÀU DA CAM.pdf",
+      "mime": "application/pdf",
+      "size": 1312980,
+      "modified": "2026-08-16T03:41:41.000Z",
+      "checksum": "edd676c0a13b24d125b1368ac1da3716",
+      "folder": false
+    }
+  ]
+}

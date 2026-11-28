@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1ztET0a1W00NN7qnufct4tw-fnr8X5H4K",
+  "page": 1,
+  "items": [
+    {
+      "id": "1z4cVpVdkZJ_JsIOZl5x3EeRXN-KbhO5p",
+      "parent_id": "1ztET0a1W00NN7qnufct4tw-fnr8X5H4K",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3125,
+      "modified": "2026-08-15T10:08:36.000Z",
+      "checksum": "2875621f81af680883efd99121bae450",
+      "folder": false
+    },
+    {
+      "id": "1HVu-XDEzmtM6d4LSZzD-8Sl2qTV9cacM",
+      "parent_id": "1ztET0a1W00NN7qnufct4tw-fnr8X5H4K",
+      "name": "TÌNH SỬ CLEOPATRA.epub",
+      "mime": "application/epub+zip",
+      "size": 628292,
+      "modified": "2026-08-15T10:08:42.000Z",
+      "checksum": "c51e41495e1880c34ad482ba0c79be1a",
+      "folder": false
+    },
+    {
+      "id": "1yNjRHyUYK8XYF3SnSO7XysXOH065ogqH",
+      "parent_id": "1ztET0a1W00NN7qnufct4tw-fnr8X5H4K",
+      "name": "TÌNH SỬ CLEOPATRA.pdf",
+      "mime": "application/pdf",
+      "size": 867465,
+      "modified": "2026-08-15T10:08:40.000Z",
+      "checksum": "d37ed8af72b8866de999b79855cb29a8",
+      "folder": false
+    }
+  ]
+}

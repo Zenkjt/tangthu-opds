@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Z81TxKEXUB7D7Ziw8D4ezombxaPMDOY3",
+  "page": 1,
+  "items": [
+    {
+      "id": "1PYFVUPxVCQzPr82ejMM7Hi7y0WndFF2k",
+      "parent_id": "1Z81TxKEXUB7D7Ziw8D4ezombxaPMDOY3",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1683,
+      "modified": "2026-08-15T07:33:21.000Z",
+      "checksum": "1ec4f19105548c9b90ac536f2137fee4",
+      "folder": false
+    },
+    {
+      "id": "1JBrXY5pOFQ2XfHHdq8_1dgMqaR30mfxU",
+      "parent_id": "1Z81TxKEXUB7D7Ziw8D4ezombxaPMDOY3",
+      "name": "GIÃ TỪ BÓNG TỐI.epub",
+      "mime": "application/epub+zip",
+      "size": 281582,
+      "modified": "2026-08-15T07:33:27.000Z",
+      "checksum": "291b513f193c16ec2c7f2e67bfac0424",
+      "folder": false
+    },
+    {
+      "id": "1mu4WMSLvtukXoQNEEaNseO7g81cXiWba",
+      "parent_id": "1Z81TxKEXUB7D7Ziw8D4ezombxaPMDOY3",
+      "name": "GIÃ TỪ BÓNG TỐI.pdf",
+      "mime": "application/pdf",
+      "size": 299689,
+      "modified": "2026-08-15T07:33:25.000Z",
+      "checksum": "134528a3cfce5a8075a2743b445122a4",
+      "folder": false
+    }
+  ]
+}

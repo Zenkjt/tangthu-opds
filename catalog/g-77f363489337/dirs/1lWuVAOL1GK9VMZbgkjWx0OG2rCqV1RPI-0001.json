@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lWuVAOL1GK9VMZbgkjWx0OG2rCqV1RPI",
+  "page": 1,
+  "items": [
+    {
+      "id": "1tTGBwNlrz7eshMwiOus0-LXYq83s6XWB",
+      "parent_id": "1lWuVAOL1GK9VMZbgkjWx0OG2rCqV1RPI",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2567,
+      "modified": "2026-08-15T13:11:26.000Z",
+      "checksum": "7b7a73f5ebd0eb2221aaa493f965fff6",
+      "folder": false
+    },
+    {
+      "id": "1TmRFZF7NPPd0hAGWvttrSEUv9G_CIt7D",
+      "parent_id": "1lWuVAOL1GK9VMZbgkjWx0OG2rCqV1RPI",
+      "name": "GIẢI MÃ BỘ HOÀNG GIA TAROT.epub",
+      "mime": "application/epub+zip",
+      "size": 1733223,
+      "modified": "2026-08-15T13:11:32.000Z",
+      "checksum": "47eceb7952b25832060c862162688ad0",
+      "folder": false
+    },
+    {
+      "id": "1C_Vzd2oUDrP6WCX-siXm0n1S6mv8L7o3",
+      "parent_id": "1lWuVAOL1GK9VMZbgkjWx0OG2rCqV1RPI",
+      "name": "GIẢI MÃ BỘ HOÀNG GIA TAROT.pdf",
+      "mime": "application/pdf",
+      "size": 1855694,
+      "modified": "2026-08-15T13:11:29.000Z",
+      "checksum": "330095b255209c9acfdc52df77373013",
+      "folder": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "194X_IU7PZEC4S9jqY4pYbc3ty9kDPrxv",
+  "page": 1,
+  "items": [
+    {
+      "id": "1J0LHRA4EyKpaXdVmGxkCnwqQiru-BRDQ",
+      "parent_id": "194X_IU7PZEC4S9jqY4pYbc3ty9kDPrxv",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1232,
+      "modified": "2026-08-15T03:22:40.000Z",
+      "checksum": "1c73d8f622710025d44e06528e6363e3",
+      "folder": false
+    },
+    {
+      "id": "1z2HlbXnxAzpPN_o6qD6wPT1k-VdM5drV",
+      "parent_id": "194X_IU7PZEC4S9jqY4pYbc3ty9kDPrxv",
+      "name": "SỐNG VÀ KHÁT VỌNG.epub",
+      "mime": "application/epub+zip",
+      "size": 826925,
+      "modified": "2026-08-15T03:22:50.000Z",
+      "checksum": "bdc10f9bae581989a273870c161ada0a",
+      "folder": false
+    },
+    {
+      "id": "1DCcTXLHS-VtO8NqyYMu0tZK713-3eMXE",
+      "parent_id": "194X_IU7PZEC4S9jqY4pYbc3ty9kDPrxv",
+      "name": "SỐNG VÀ KHÁT VỌNG.pdf",
+      "mime": "application/pdf",
+      "size": 2198128,
+      "modified": "2026-08-15T03:22:46.000Z",
+      "checksum": "afcb2bd9ac693dea05b7619d555a7e6a",
+      "folder": false
+    }
+  ]
+}

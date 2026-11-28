@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1sOUHU4Sf-N0ijZuXZGOcZDCyACeImmE0",
+  "page": 1,
+  "items": [
+    {
+      "id": "1eOIE2a5ftrceF0C6Y8iBWB_FnUWLBs9c",
+      "parent_id": "1sOUHU4Sf-N0ijZuXZGOcZDCyACeImmE0",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3054,
+      "modified": "2026-08-15T10:13:10.000Z",
+      "checksum": "377da12ef176ef1ab981c737685dde5a",
+      "folder": false
+    },
+    {
+      "id": "18BW4_Uqz28H7Ccf3FT0hx-lVUYoxLUyZ",
+      "parent_id": "1sOUHU4Sf-N0ijZuXZGOcZDCyACeImmE0",
+      "name": "THỊNH THẾ TRÀ HƯƠNG.epub",
+      "mime": "application/epub+zip",
+      "size": 1566388,
+      "modified": "2026-08-15T10:13:26.000Z",
+      "checksum": "75aacbfe51c5ed292ba39650d2be1259",
+      "folder": false
+    },
+    {
+      "id": "1E0x3aonXPmn-i2Z3MGMQNjBvst4O-9rg",
+      "parent_id": "1sOUHU4Sf-N0ijZuXZGOcZDCyACeImmE0",
+      "name": "THỊNH THẾ TRÀ HƯƠNG.pdf",
+      "mime": "application/pdf",
+      "size": 6552811,
+      "modified": "2026-08-15T10:13:23.000Z",
+      "checksum": "e6922fc333fd46ac4984ba71c90f1e4f",
+      "folder": false
+    }
+  ]
+}

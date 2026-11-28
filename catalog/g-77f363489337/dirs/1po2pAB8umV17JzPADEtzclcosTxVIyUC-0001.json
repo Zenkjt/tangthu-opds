@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1po2pAB8umV17JzPADEtzclcosTxVIyUC",
+  "page": 1,
+  "items": [
+    {
+      "id": "12oMyy-X9RaOuez8pY_1XHu4Y_RnlqYwc",
+      "parent_id": "1po2pAB8umV17JzPADEtzclcosTxVIyUC",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3346,
+      "modified": "2026-08-15T07:29:24.000Z",
+      "checksum": "24d47cbf53aa485bf1860480bc29bb1a",
+      "folder": false
+    },
+    {
+      "id": "1o-J0mCzQen11AXkyTanxTJ3vfN7v9TXz",
+      "parent_id": "1po2pAB8umV17JzPADEtzclcosTxVIyUC",
+      "name": "VỚI TAY BẮT LẤY VÌ SAO.epub",
+      "mime": "application/epub+zip",
+      "size": 459469,
+      "modified": "2026-08-15T07:29:31.000Z",
+      "checksum": "4e698b27aec7129140d3380c29453dfe",
+      "folder": false
+    },
+    {
+      "id": "1sem_FyaEIjCg0gVFYDt-CM4Ykhtk_oAh",
+      "parent_id": "1po2pAB8umV17JzPADEtzclcosTxVIyUC",
+      "name": "VỚI TAY BẮT LẤY VÌ SAO.pdf",
+      "mime": "application/pdf",
+      "size": 1366528,
+      "modified": "2026-08-15T07:29:29.000Z",
+      "checksum": "52009251f3b696736df3f6eb2e8fc70a",
+      "folder": false
+    }
+  ]
+}

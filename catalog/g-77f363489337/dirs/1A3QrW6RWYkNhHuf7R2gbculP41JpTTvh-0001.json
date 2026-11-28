@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1A3QrW6RWYkNhHuf7R2gbculP41JpTTvh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1krv55jEkLkF6nMU6q4v9JPYuSEMvT56O",
+      "parent_id": "1A3QrW6RWYkNhHuf7R2gbculP41JpTTvh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3319,
+      "modified": "2026-08-15T10:10:05.000Z",
+      "checksum": "375447a2b0e9ce3cd927e3821d86b349",
+      "folder": false
+    },
+    {
+      "id": "1dOdB1S9xR5v5Q-iruBwCTc35yhleTlQl",
+      "parent_id": "1A3QrW6RWYkNhHuf7R2gbculP41JpTTvh",
+      "name": "TIỂU HỒ LY PK ĐẠI CA SÓI XÁM.epub",
+      "mime": "application/epub+zip",
+      "size": 633336,
+      "modified": "2026-08-15T10:10:14.000Z",
+      "checksum": "1a1e29d3fbb765e2551aa38aa191b935",
+      "folder": false
+    },
+    {
+      "id": "1D94bz5i9PLOSRvRysYAWdFsVzcQKqFQL",
+      "parent_id": "1A3QrW6RWYkNhHuf7R2gbculP41JpTTvh",
+      "name": "TIỂU HỒ LY PK ĐẠI CA SÓI XÁM.pdf",
+      "mime": "application/pdf",
+      "size": 2025258,
+      "modified": "2026-08-15T10:10:12.000Z",
+      "checksum": "2098ac05cfb4914add04f25395e92bfd",
+      "folder": false
+    }
+  ]
+}

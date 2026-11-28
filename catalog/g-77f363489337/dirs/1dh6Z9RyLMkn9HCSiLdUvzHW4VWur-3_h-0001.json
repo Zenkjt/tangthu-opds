@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1dh6Z9RyLMkn9HCSiLdUvzHW4VWur-3_h",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qzqIaJ_yujhIBa0YW3yTPIH4UANv7rTU",
+      "parent_id": "1dh6Z9RyLMkn9HCSiLdUvzHW4VWur-3_h",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1590,
+      "modified": "2026-08-15T03:53:01.000Z",
+      "checksum": "472f17f8f9b43f16353204148dadb365",
+      "folder": false
+    },
+    {
+      "id": "1DI5nGMs202VqBH78itCXnzqPJFsBGVPT",
+      "parent_id": "1dh6Z9RyLMkn9HCSiLdUvzHW4VWur-3_h",
+      "name": "NHỮNG BÍ ẨN CUỘC ĐỜI.epub",
+      "mime": "application/epub+zip",
+      "size": 459045,
+      "modified": "2026-08-15T03:53:08.000Z",
+      "checksum": "e4847c76875a493ffe62c516ce248d90",
+      "folder": false
+    },
+    {
+      "id": "1RoAGWtqhx1Bie9rrqDSRn87bMbKH6umJ",
+      "parent_id": "1dh6Z9RyLMkn9HCSiLdUvzHW4VWur-3_h",
+      "name": "NHỮNG BÍ ẨN CUỘC ĐỜI.pdf",
+      "mime": "application/pdf",
+      "size": 697379,
+      "modified": "2026-08-15T03:53:06.000Z",
+      "checksum": "166d6d0bd6644ed35cd70872af09e8a4",
+      "folder": false
+    }
+  ]
+}

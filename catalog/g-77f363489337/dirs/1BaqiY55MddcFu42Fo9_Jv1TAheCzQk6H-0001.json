@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1BaqiY55MddcFu42Fo9_Jv1TAheCzQk6H",
+  "page": 1,
+  "items": [
+    {
+      "id": "1sp4ifAdxXJdIElX-2Mr9mThKyLif2tq2",
+      "parent_id": "1BaqiY55MddcFu42Fo9_Jv1TAheCzQk6H",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3162,
+      "modified": "2026-08-15T10:08:42.000Z",
+      "checksum": "6835bd523cf204f5d6625d12fa2d4df5",
+      "folder": false
+    },
+    {
+      "id": "1D3q5wiWXzwqBB3yorMgSubWojyEYj8iE",
+      "parent_id": "1BaqiY55MddcFu42Fo9_Jv1TAheCzQk6H",
+      "name": "TÌNH ƠI LÀ TÌNH.epub",
+      "mime": "application/epub+zip",
+      "size": 304565,
+      "modified": "2026-08-15T10:08:48.000Z",
+      "checksum": "f9ca46c2c3eacc8c2bf8e0a13191fa83",
+      "folder": false
+    },
+    {
+      "id": "10laYsfc_GIfC1mp0lmyV7WlbsSYzQW0x",
+      "parent_id": "1BaqiY55MddcFu42Fo9_Jv1TAheCzQk6H",
+      "name": "TÌNH ƠI LÀ TÌNH.pdf",
+      "mime": "application/pdf",
+      "size": 678610,
+      "modified": "2026-08-15T10:08:45.000Z",
+      "checksum": "a81210ad67e049ae5a8332033ee2dcbf",
+      "folder": false
+    }
+  ]
+}

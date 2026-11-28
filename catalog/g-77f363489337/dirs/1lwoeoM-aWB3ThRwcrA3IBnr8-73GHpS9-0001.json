@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1lwoeoM-aWB3ThRwcrA3IBnr8-73GHpS9",
+  "page": 1,
+  "items": [
+    {
+      "id": "1e9c9j26wcErs8SHZZYwTltmq_iuTPKA_",
+      "parent_id": "1lwoeoM-aWB3ThRwcrA3IBnr8-73GHpS9",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2543,
+      "modified": "2026-08-15T06:41:30.000Z",
+      "checksum": "95047669c793fd85bfe534875a86b62d",
+      "folder": false
+    },
+    {
+      "id": "1aieUka44yCbLG-zvrDJngRNi1VcRwq7Q",
+      "parent_id": "1lwoeoM-aWB3ThRwcrA3IBnr8-73GHpS9",
+      "name": "NẾU BIẾT TRĂM NĂM LÀ HỮU HẠN.epub",
+      "mime": "application/epub+zip",
+      "size": 414047,
+      "modified": "2026-08-15T06:41:37.000Z",
+      "checksum": "d3dbc6078e22634d26d9f820accf99d1",
+      "folder": false
+    },
+    {
+      "id": "1Bz2kglOL9pk-UWcr0p1AatK3jHvqA0QQ",
+      "parent_id": "1lwoeoM-aWB3ThRwcrA3IBnr8-73GHpS9",
+      "name": "NẾU BIẾT TRĂM NĂM LÀ HỮU HẠN.pdf",
+      "mime": "application/pdf",
+      "size": 531592,
+      "modified": "2026-08-15T06:41:34.000Z",
+      "checksum": "eeb0712f74b7b222430cc0ce17b48f8b",
+      "folder": false
+    }
+  ]
+}

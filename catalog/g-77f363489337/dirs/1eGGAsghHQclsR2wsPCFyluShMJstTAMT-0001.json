@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1eGGAsghHQclsR2wsPCFyluShMJstTAMT",
+  "page": 1,
+  "items": [
+    {
+      "id": "1lL1fNP7AHhFDsHNdMBAPLYkzgg_w4rS5",
+      "parent_id": "1eGGAsghHQclsR2wsPCFyluShMJstTAMT",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3573,
+      "modified": "2026-08-16T03:03:34.000Z",
+      "checksum": "65be2828d6e8cc96d471d73d4a467953",
+      "folder": false
+    },
+    {
+      "id": "1rLo5rTX_uPw42dE91f8KOq1wpACJiHNG",
+      "parent_id": "1eGGAsghHQclsR2wsPCFyluShMJstTAMT",
+      "name": "TỬ TÙ CLAUDE GUEUX.epub",
+      "mime": "application/epub+zip",
+      "size": 334754,
+      "modified": "2026-08-16T03:03:40.000Z",
+      "checksum": "1ce8cfd1a0ec95af9eb1abe9350adbf6",
+      "folder": false
+    },
+    {
+      "id": "1RnEgpLVk9RRG_gru2Sr-H-cgmIoV5FZ0",
+      "parent_id": "1eGGAsghHQclsR2wsPCFyluShMJstTAMT",
+      "name": "TỬ TÙ CLAUDE GUEUX.pdf",
+      "mime": "application/pdf",
+      "size": 244158,
+      "modified": "2026-08-16T03:03:38.000Z",
+      "checksum": "37980b02738a8a634f232630a978d906",
+      "folder": false
+    }
+  ]
+}

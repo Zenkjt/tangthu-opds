@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1b4fKxwRxXIlD12PfKB4S_-Uhdvbxq0_p",
+  "page": 1,
+  "items": [
+    {
+      "id": "1bzvPQkgCGSibvVl_MI6hD7q6jhc4jXpE",
+      "parent_id": "1b4fKxwRxXIlD12PfKB4S_-Uhdvbxq0_p",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 815,
+      "modified": "2026-08-15T10:55:41.000Z",
+      "checksum": "cbc0415299b997aaec9ddb05a3a6d794",
+      "folder": false
+    },
+    {
+      "id": "1EYWXOkh8NZFb1xTF3q4C56whp5oaOVl8",
+      "parent_id": "1b4fKxwRxXIlD12PfKB4S_-Uhdvbxq0_p",
+      "name": "KHI NGƯỜI TA TRẺ.epub",
+      "mime": "application/epub+zip",
+      "size": 316546,
+      "modified": "2026-08-15T10:55:47.000Z",
+      "checksum": "8c57584a6e29abfea2ec2b2d44f1cbbc",
+      "folder": false
+    },
+    {
+      "id": "1p0zmGkiG-xmdfuO0_wsQmB5gfOmaUNY6",
+      "parent_id": "1b4fKxwRxXIlD12PfKB4S_-Uhdvbxq0_p",
+      "name": "KHI NGƯỜI TA TRẺ.pdf",
+      "mime": "application/pdf",
+      "size": 407336,
+      "modified": "2026-08-15T10:55:45.000Z",
+      "checksum": "5abc1c2f7dada64712fb18b1c906377a",
+      "folder": false
+    }
+  ]
+}

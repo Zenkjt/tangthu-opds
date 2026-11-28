@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1T3dBLiqWDIHZrhdFyzuxW7wPQLEkqI38",
+  "page": 1,
+  "items": [
+    {
+      "id": "1JIfI2wto9yzNc1KDkUlQL1zu36GPHOij",
+      "parent_id": "1T3dBLiqWDIHZrhdFyzuxW7wPQLEkqI38",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 3206,
+      "modified": "2026-08-15T10:46:22.000Z",
+      "checksum": "9e865a5dd6e100f42f2f737ea831fe4f",
+      "folder": false
+    },
+    {
+      "id": "1oPR9nReoSjEG19rct8tS0LvU-62VGwmW",
+      "parent_id": "1T3dBLiqWDIHZrhdFyzuxW7wPQLEkqI38",
+      "name": "NGHÌN LẺ MỘT NGÀY - TẬP 2.epub",
+      "mime": "application/epub+zip",
+      "size": 1385233,
+      "modified": "2026-08-15T10:46:43.000Z",
+      "checksum": "853f2d3f4ec4e0c8502ce40cd3633aa6",
+      "folder": false
+    },
+    {
+      "id": "1tUwUJQOlKvCgf2jnYpIQepFsXbe8yPcH",
+      "parent_id": "1T3dBLiqWDIHZrhdFyzuxW7wPQLEkqI38",
+      "name": "NGHÌN LẺ MỘT NGÀY - TẬP 2.pdf",
+      "mime": "application/pdf",
+      "size": 3789557,
+      "modified": "2026-08-15T10:46:38.000Z",
+      "checksum": "2d8e804c56ddb1c5f7ae490bd2c2ca34",
+      "folder": false
+    }
+  ]
+}

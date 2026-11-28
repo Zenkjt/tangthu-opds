@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1Jhx6bwfe7uNDfWdrelQS3Z0oDKwKRYgd",
+  "page": 1,
+  "items": [
+    {
+      "id": "1qlBCMIL48dkP13fq9Hqudcyuf8bYrLAl",
+      "parent_id": "1Jhx6bwfe7uNDfWdrelQS3Z0oDKwKRYgd",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 6704,
+      "modified": "2026-08-16T02:45:48.000Z",
+      "checksum": "8d1b968c617288b3cd759365af4190a9",
+      "folder": false
+    },
+    {
+      "id": "1lqJylp93SbYRrXCfutjp_MuvVtQIfFjM",
+      "parent_id": "1Jhx6bwfe7uNDfWdrelQS3Z0oDKwKRYgd",
+      "name": "KHÔNG NƠI NƯƠNG TỰA.epub",
+      "mime": "application/epub+zip",
+      "size": 379326,
+      "modified": "2026-08-16T02:45:54.000Z",
+      "checksum": "774c8e134820eb61646e9ac3ebf08eb1",
+      "folder": false
+    },
+    {
+      "id": "1HdvKvZq18lI4ZlXIk0qky9Tcx4OtD6cZ",
+      "parent_id": "1Jhx6bwfe7uNDfWdrelQS3Z0oDKwKRYgd",
+      "name": "KHÔNG NƠI NƯƠNG TỰA.pdf",
+      "mime": "application/pdf",
+      "size": 521224,
+      "modified": "2026-08-16T02:45:52.000Z",
+      "checksum": "95bf6ecbdf3976a7f6b6099deda18781",
+      "folder": false
+    }
+  ]
+}

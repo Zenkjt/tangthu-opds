@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1nCWVbirhX79BTiWJrAD0LnARvcbOt5Zh",
+  "page": 1,
+  "items": [
+    {
+      "id": "1gpTsxxfXXles-eIlhDA8ETHICbgFyrek",
+      "parent_id": "1nCWVbirhX79BTiWJrAD0LnARvcbOt5Zh",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 2497,
+      "modified": "2026-08-15T07:15:15.000Z",
+      "checksum": "39acfecd60d6c35b8e8c61aaff5b1b59",
+      "folder": false
+    },
+    {
+      "id": "1NJvCUmQMffbvXzAVeVoPpdhUcKyYLk3d",
+      "parent_id": "1nCWVbirhX79BTiWJrAD0LnARvcbOt5Zh",
+      "name": "NẾU KHÔNG LÀ TÌNH YÊU.epub",
+      "mime": "application/epub+zip",
+      "size": 801415,
+      "modified": "2026-08-15T07:15:24.000Z",
+      "checksum": "89cdb880a258a1bf74e0d41f726b4a67",
+      "folder": false
+    },
+    {
+      "id": "1PKCrj_lkU3dpH2EPmIrJkIwU7Hi5RKqJ",
+      "parent_id": "1nCWVbirhX79BTiWJrAD0LnARvcbOt5Zh",
+      "name": "NẾU KHÔNG LÀ TÌNH YÊU.pdf",
+      "mime": "application/pdf",
+      "size": 2619135,
+      "modified": "2026-08-15T07:15:22.000Z",
+      "checksum": "2231bd515a270d81abe027f065a8a4dc",
+      "folder": false
+    }
+  ]
+}

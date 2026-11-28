@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "branch_id": "g-77f363489337",
+  "folder_id": "1CGKqeMCdSwtX73EgAAf7su774UJqUiXs",
+  "page": 1,
+  "items": [
+    {
+      "id": "1Qjm2s4QeUWQXoLwlksyZfQOuj1rhee6e",
+      "parent_id": "1CGKqeMCdSwtX73EgAAf7su774UJqUiXs",
+      "name": "description.txt",
+      "mime": "text/plain",
+      "size": 1927,
+      "modified": "2026-08-15T09:33:59.000Z",
+      "checksum": "5ec9fc40a758876e43ebc4de5ca93960",
+      "folder": false
+    },
+    {
+      "id": "1bYY8DrYTE6SXTkl3UXZMG20hptz1Kfv-",
+      "parent_id": "1CGKqeMCdSwtX73EgAAf7su774UJqUiXs",
+      "name": "HAI THÀ CƯỚI VỢ.epub",
+      "mime": "application/epub+zip",
+      "size": 288523,
+      "modified": "2026-08-15T09:34:05.000Z",
+      "checksum": "6f4ed8f312e0021cc9b39a1f1e140672",
+      "folder": false
+    },
+    {
+      "id": "1WZZUpD2Bp30KNpoQv6tOJL68mScR4wnZ",
+      "parent_id": "1CGKqeMCdSwtX73EgAAf7su774UJqUiXs",
+      "name": "HAI THÀ CƯỚI VỢ.pdf",
+      "mime": "application/pdf",
+      "size": 192196,
+      "modified": "2026-08-15T09:34:02.000Z",
+      "checksum": "b989438cd564a0a8e3fba7ffc7ba1d9e",
+      "folder": false
+    }
+  ]
+}
