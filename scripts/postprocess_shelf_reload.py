@@ -159,7 +159,7 @@ new_fn = r'''  function renderBranches(){
     var oldShelf=(state.catalog.branches||[]).find(function(x){return x.id===b.id});
     var baseline=shelfSnapshot(oldShelf);
     button.disabled=true;button.textContent='…';
-    $('statusLeft').textContent='Đang đưa Refresh vào hàng ưu tiên cho tủ "'+b.name+'”…';
+    $('statusLeft').textContent='Đang gửi yêu cầu Refresh cho tủ "'+b.name+'”…';
     fetch(__API_URL__,{
       method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},
       body:JSON.stringify({action:'reload',branch_id:b.id})
@@ -170,6 +170,10 @@ new_fn = r'''  function renderBranches(){
       });
     }).then(function(data){
       if(data.no_op || (data.queued && data.error)){window.location.reload();return;}
+      if(data.busy){
+        $('statusLeft').textContent=data.error||'Hệ thống đang chạy tác vụ khác; Refresh chưa được xếp hàng. Hãy thử lại sau.';
+        button.disabled=false;button.textContent='↻';return;
+      }
       if(!data.ok)throw new Error(data.error||'Không thể reload tủ.');
       if(!data.job_id)throw new Error('Máy chủ không trả về mã Refresh job.');
       pollRefreshJob(b,button,baseline,data.job_id,0);

@@ -577,7 +577,10 @@ function driveCheckContinuation() {
     var refreshIndex = refreshQueue.findIndex(function(item) {
       return String((item || {}).status || '') !== 'paused_error';
     });
-    var jobType = refreshIndex >= 0 ? 'refresh' : (l3Job && l3Job.status !== 'done' ? 'l3' : '');
+    // An active L3 cycle always continues before manual Refresh jobs.
+    // A paused L3 job must not block unrelated Refresh requests indefinitely.
+    var l3Runnable = !!(l3Job && ['queued', 'running', 'retry_wait'].indexOf(String(l3Job.status || '')) >= 0);
+    var jobType = l3Runnable ? 'l3' : (refreshIndex >= 0 ? 'refresh' : '');
     if (!jobType) {
       delete state.continuation_pending;
       savePriorityState_(state);
@@ -635,7 +638,8 @@ function driveCheckContinuation() {
       var otherRefreshRunnable = refreshQueue.some(function(item, index) {
         return index !== refreshIndex && String((item || {}).status || '') !== 'paused_error';
       });
-      if (job.error_count < 5 || otherRefreshRunnable || (l3Job && l3Job.status !== 'done')) {
+      var l3RunnableAfterError = !!(l3Job && ['queued', 'running', 'retry_wait'].indexOf(String(l3Job.status || '')) >= 0);
+      if (job.error_count < 5 || otherRefreshRunnable || l3RunnableAfterError) {
         schedulePriorityContinuation_();
       } else {
         removePriorityContinuationTriggers_();
@@ -698,7 +702,8 @@ function driveCheckContinuation() {
     var hasRunnableRefresh = refreshQueue.some(function(item) {
       return String((item || {}).status || '') !== 'paused_error';
     });
-    if (hasRunnableRefresh || (l3Job && l3Job.status !== 'done')) schedulePriorityContinuation_();
+    var l3RunnableAfterJob = !!(l3Job && ['queued', 'running', 'retry_wait'].indexOf(String(l3Job.status || '')) >= 0);
+    if (hasRunnableRefresh || l3RunnableAfterJob) schedulePriorityContinuation_();
     else removePriorityContinuationTriggers_();
     return {ok:true, completed:true, type:jobType, branch_id:id};
   } finally { lock.releaseLock(); }
@@ -769,7 +774,7 @@ function reloadShelf(e) {
   var id = String(body.branch_id || body.shelf_id || '').trim();
   if (!id) return {ok:false, error:'Thiếu branch_id.'};
   var lock = LockService.getScriptLock();
-  if (!lock.tryLock(PRIORITY_LOCK_MS)) return {ok:false, queued:true, error:'Hệ thống đang xử lý tác vụ khác; hãy thử lại.'};
+  if (!lock.tryLock(PRIORITY_LOCK_MS)) return {ok:false, busy:true, queued:false, error:'Hệ thống đang xử lý tác vụ khác; Refresh chưa được xếp hàng. Hãy thử lại sau.'};
   try {
     var config = readConfig_();
     var branch = findBranchById_(config, id);
