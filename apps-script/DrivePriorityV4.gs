@@ -769,6 +769,20 @@ function removePriorityContinuationTriggers_() {
   });
 }
 
+// Manual Refresh must not trust an old continuation trigger: it may be disabled.
+// Replace it with a fresh one-shot trigger so the newly queued job can start.
+function scheduleRefreshContinuation_() {
+  var triggers = ScriptApp.getProjectTriggers();
+  for (var i = 0; i < triggers.length; i++) {
+    if (triggers[i].getHandlerFunction() === PRIORITY_CONTINUATION_HANDLER) {
+      ScriptApp.deleteTrigger(triggers[i]);
+    }
+  }
+  ScriptApp.newTrigger(PRIORITY_CONTINUATION_HANDLER)
+    .timeBased().after(60 * 1000).create();
+  priorityLog_('REFRESH CONTINUATION REARMED | delay=60s');
+}
+
 function reloadShelf(e) {
   var body = e && e.action ? e : {};
   var id = String(body.branch_id || body.shelf_id || '').trim();
@@ -800,7 +814,7 @@ function reloadShelf(e) {
         created_at:existingStatus && existingStatus.created_at || existingJob.created_at || new Date().toISOString(),
         error_count:0, last_error:''
       });
-      savePriorityState_(state); schedulePriorityContinuation_();
+      savePriorityState_(state); scheduleRefreshContinuation_();
       return {ok:true, queued:true, duplicate:true, job_id:existingJob.job_id, branch_id:id, display_name:branch.display_name};
     }
     // Do not run Refresh concurrently with an L3 job already holding this shelf.
@@ -817,7 +831,7 @@ function reloadShelf(e) {
       created_at:createdAt, error_count:0, last_error:''
     });
     savePriorityState_(state);
-    schedulePriorityContinuation_();
+    scheduleRefreshContinuation_();
     priorityLog_('REFRESH QUEUED | branch=' + id + ' | job=' + jobId + ' | name=' + String(branch.display_name || id));
     return {ok:true, queued:true, job_id:jobId, branch_id:id, display_name:branch.display_name,
       message:'Đã đưa Refresh vào hàng đợi. Quét full sẽ tự tiếp tục theo checkpoint, tối đa 15 phút xử lý mỗi đợt.'};
