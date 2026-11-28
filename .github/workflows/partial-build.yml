@@ -21,7 +21,32 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v4
 
+      - name: Determine build request
+        id: request
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          REQUEST_MODE: ${{ github.event.client_payload.mode || 'queue' }}
+          REQUEST_BRANCH_ID: ${{ github.event.client_payload.branch_id || '' }}
+        run: |
+          set -euo pipefail
+          mode=queue
+          if [ "$EVENT_NAME" = "repository_dispatch" ]; then
+            mode="$REQUEST_MODE"
+          fi
+          if [ "$mode" != "queue" ] && [ "$mode" != "single" ]; then
+            echo "Unsupported build request mode: $mode"
+            exit 1
+          fi
+          if [ "$mode" = "single" ] && [[ ! "$REQUEST_BRANCH_ID" =~ ^[A-Za-z0-9_-]+$ ]]; then
+            echo "Single-shelf request has a missing or invalid branch_id."
+            exit 1
+          fi
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+          echo "branch_id=$REQUEST_BRANCH_ID" >> "$GITHUB_OUTPUT"
+          echo "Build request: $mode${REQUEST_BRANCH_ID:+ ($REQUEST_BRANCH_ID)}"
+
       - name: Snapshot accumulated changed shelves
+        if: steps.request.outputs.mode == 'queue'
         env:
           TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
           TANGTHU_BUILD_SYNC_TOKEN: ${{ secrets.TANGTHU_BUILD_SYNC_TOKEN }}
@@ -85,10 +110,18 @@ jobs:
           echo "Unable to persist lifecycle state after 3 attempts."
           exit 1
 
-      - name: Resolve queued shelves
+      - name: Resolve requested shelves
         id: resolve
+        env:
+          REQUEST_MODE: ${{ steps.request.outputs.mode }}
+          REQUEST_BRANCH_ID: ${{ steps.request.outputs.branch_id }}
         run: |
-          python3 scripts/partial_build_queue.py resolve
+          set -euo pipefail
+          if [ "$REQUEST_MODE" = "single" ]; then
+            python3 scripts/partial_build_queue.py resolve-single "$REQUEST_BRANCH_ID"
+          else
+            python3 scripts/partial_build_queue.py resolve
+          fi
           echo "mode=$(cat .build/build_mode)" >> "$GITHUB_OUTPUT"
           echo "shelves=$(cat .build/changed_shelves.txt)" >> "$GITHUB_OUTPUT"
 
@@ -115,7 +148,7 @@ jobs:
           cp -a .build-assets/bookshelf docs/assets/
 
       - name: Refresh random bookshelf icons
-        if: steps.resolve.outputs.mode == 'incremental'
+        if: (steps.resolve.outputs.mode == 'incremental') && (steps.request.outputs.mode == 'queue')
         run: python3 scripts/postprocess_bookshelf.py --icons-only
 
       # OPDS feeds are now rendered dynamically by the storage Worker from R2.
@@ -309,7 +342,7 @@ jobs:
           git push --force origin HEAD:refs/heads/site-state
 
       - name: Acknowledge deployed queue snapshot
-        if: steps.resolve.outputs.mode == 'incremental'
+        if: (steps.resolve.outputs.mode == 'incremental') && (steps.request.outputs.mode == 'queue')
         env:
           TANGTHU_APPS_SCRIPT_URL: ${{ vars.TANGTHU_APPS_SCRIPT_URL }}
           TANGTHU_BUILD_SYNC_TOKEN: ${{ secrets.TANGTHU_BUILD_SYNC_TOKEN }}
