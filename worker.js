@@ -142,12 +142,91 @@ async function serveOPDS(request, env, url) {
   return new Response(xml, { headers });
 }
 
+async function cleanupSnapshotGenerations(request, env, json, path) {
+  const match = path.match(/^\/v1\/snapshots\/([^/]+)\/cleanup$/);
+  if (!match) return json({ error: "Not found" }, 404);
+  if (request.method !== "POST") {
+    return json({ error: "Method not allowed" }, 405, { Allow: "POST, OPTIONS" });
+  }
+
+  let branchId;
+  try {
+    branchId = decodeURIComponent(match[1]);
+  } catch {
+    return json({ error: "Invalid branch id" }, 400);
+  }
+  if (!/^[A-Za-z0-9_-]{1,128}$/.test(branchId)) {
+    return json({ error: "Invalid branch id" }, 400);
+  }
+
+  let body;
+  try {
+    const raw = await request.text();
+    if (raw.length > 4096) return json({ error: "Request body too large" }, 413);
+    body = JSON.parse(raw);
+  } catch {
+    return json({ error: "Invalid JSON body" }, 400);
+  }
+  const generationId = String(body && body.generation_id || "");
+  if (!/^[A-Za-z0-9_-]{1,128}$/.test(generationId)) {
+    return json({ error: "Invalid generation_id" }, 400);
+  }
+
+  // Never trust a caller-supplied generation alone: the current manifest must
+  // point to it and explicitly mark it complete before any deletion is allowed.
+  const manifestKey = `snapshots/${branchId}/manifest.json`;
+  let manifest;
+  try {
+    manifest = await readJSON(env.BUCKET, manifestKey);
+  } catch (error) {
+    return json({ error: "Could not read snapshot manifest", detail: String(error.message || error) }, 500);
+  }
+  if (!manifest || manifest.branch_id !== branchId ||
+      manifest.generation_id !== generationId || manifest.complete !== true) {
+    return json({ error: "Manifest does not confirm this completed generation", branch_id: branchId }, 409);
+  }
+
+  const generationsPrefix = `snapshots/${branchId}/generations/`;
+  const keepPrefix = `${generationsPrefix}${generationId}/`;
+  let cursor;
+  let deleted = 0;
+  let scanned = 0;
+  let pages = 0;
+
+  do {
+    const listed = await env.BUCKET.list({ prefix: generationsPrefix, limit: 1000, cursor });
+    pages++;
+    const objects = Array.isArray(listed.objects) ? listed.objects : [];
+    scanned += objects.length;
+    const oldKeys = objects
+      .map(object => object.key)
+      .filter(key => typeof key === "string" && key.startsWith(generationsPrefix) && !key.startsWith(keepPrefix));
+
+    // R2 accepts up to 1,000 keys per bulk delete; list pages are capped at 1,000.
+    if (oldKeys.length) {
+      await env.BUCKET.delete(oldKeys);
+      deleted += oldKeys.length;
+    }
+
+    cursor = listed.truncated ? listed.cursor : undefined;
+  } while (cursor);
+
+  return json({
+    success: true,
+    branch_id: branchId,
+    kept_generation: generationId,
+    scanned_objects: scanned,
+    deleted_objects: deleted,
+    list_pages: pages
+  });
+}
+
 export default {
   async fetch(request, env) {
     const origin = request.headers.get("Origin") || "";
     const cors = {
       "Access-Control-Allow-Origin": origin === ALLOWED_ORIGIN ? ALLOWED_ORIGIN : "null",
-      "Access-Control-Allow-Methods": "GET, PUT, DELETE, OPTIONS",
+      "Access-Control-Allow-Methods": "GET, PUT, DELETE, POST, OPTIONS",
       "Access-Control-Allow-Headers": "Authorization, Content-Type",
       "Access-Control-Max-Age": "86400",
       "Vary": "Origin"
@@ -181,6 +260,9 @@ export default {
     if (!env.BUCKET) return json({ error: "R2 bucket binding BUCKET is missing" }, 500);
 
     const path = url.pathname;
+    if (path.startsWith("/v1/snapshots/")) {
+      return cleanupSnapshotGenerations(request, env, json, path);
+    }
     if (!path.startsWith("/v1/objects/")) return json({ error: "Not found" }, 404);
 
     let key;
