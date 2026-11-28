@@ -284,7 +284,9 @@ function driveCheckPriority() {
         // A failed/ambiguous PUT is retried on the next run using the same R2 key.
         state.cursor = cursor;
         try {
+          var recoveredQueue = queuePublishedSnapshot_(state, id, e);
           savePriorityState_(state);
+          if (recoveredQueue) priorityLog_('PARTIAL QUEUE RECOVERED AFTER ERROR | branch=' + id);
           priorityLog_('ERROR CHECKPOINT SAVED | branch=' + id +
             ' | generation=' + String(e.r2_snapshot_generation_id || '-') +
             ' | pages=' + ((e.r2_snapshot_page_keys || []).length) +
@@ -300,12 +302,14 @@ function driveCheckPriority() {
       // The shelf budget is local to this shelf. Checkpoint and move the cursor;
       // do NOT return from the execution. This is the key V4 behavior.
       if (!result.completed) {
-        // The active R2 manifest still points to the last complete generation.
-        // A partial generation is private staging data and must not trigger a build.
-        priorityLog_('PARTIAL SNAPSHOT STAGED ' + String(branch.display_name || id) +
-          ' | active_snapshot_preserved=' + !!e.snapshot_available +
-          ' | staged_items=' + Number(e.snapshot_item_count || 0) +
-          ' | staged_pages=' + (e.r2_snapshot_page_keys || []).length);
+        var partialQueued = queuePublishedSnapshot_(state, id, e);
+        if (partialQueued && changed.indexOf(id) < 0) changed.push(id);
+        priorityLog_('PARTIAL SNAPSHOT ' + (partialQueued ? 'PUBLISHED + QUEUED' : 'UNCHANGED') +
+          ' ' + String(branch.display_name || id) +
+          ' | snapshot_available=' + !!e.snapshot_available +
+          ' | complete=' + !!e.snapshot_complete +
+          ' | items=' + Number(e.snapshot_item_count || 0) +
+          ' | pages=' + (e.r2_snapshot_page_keys || []).length);
         state.cursor = (cursor + 1) % enabled.length;
         savePriorityState_(state);
         priorityLog_(
@@ -322,6 +326,7 @@ function driveCheckPriority() {
       checked.push(id);
       processed++;
 
+      var snapshotPublicationQueued = queuePublishedSnapshot_(state, id, e);
       var wasChanged = !!result.confirmed_changed;
       var snapshotBootstrapped = !hadSnapshotBeforeScan && !!e.snapshot_available;
       e.fingerprint = result.fingerprint;
@@ -393,6 +398,9 @@ function driveCheckPriority() {
         );
       }
 
+      if ((wasChanged || snapshotBootstrapped) && !snapshotPublicationQueued) {
+        enqueuePartialBuildShelf_(state, id);
+      }
       state.cursor = (cursor + 1) % enabled.length;
       savePriorityState_(state);
       cursor = state.cursor;
@@ -406,7 +414,6 @@ function driveCheckPriority() {
     }
 
     state.cursor = cursor;
-    changed.forEach(function(id) { enqueuePartialBuildShelf_(state, id); });
     savePriorityState_(state);
     priorityLog_('PARTIAL BUILD QUEUE | pending=' + Object.keys(state.pending_partial_build).length +
       ' | added=' + changed.length + ' | ids=' + changed.join(','));
@@ -559,7 +566,9 @@ function driveCheckContinuation() {
       job.error_count = Number(job.error_count || 0) + 1;
       job.last_error = String(err);
       job.status = job.error_count >= 5 ? 'paused_error' : 'retry_wait';
+      var recoveredQueue = queuePublishedSnapshot_(state, id, entry);
       savePriorityState_(state);
+      if (recoveredQueue) priorityLog_('PARTIAL QUEUE RECOVERED AFTER CONTINUATION ERROR | branch=' + id);
       if (job.error_count < 5) schedulePriorityContinuation_();
       priorityLog_('CONTINUATION ERROR | type=' + jobType + ' | branch=' + id + ' | retry=' + job.error_count + '/5 | ' + String(err));
       throw err;
@@ -568,6 +577,7 @@ function driveCheckContinuation() {
     var elapsed = Date.now() - sliceStart;
     job.shelf_used_ms = Number(job.shelf_used_ms || 0) + elapsed;
     if (!result.completed) {
+      var partialQueued = queuePublishedSnapshot_(state, id, entry);
       if (job.shelf_used_ms >= PRIORITY_SHELF_BUDGET_MS) {
         job.shelf_used_ms = 0;
         job.pause_reason = '15m_shelf_budget';
@@ -580,9 +590,10 @@ function driveCheckContinuation() {
       return {ok:true, queued:true, type:jobType, branch_id:id, shelf_elapsed_ms:job.shelf_used_ms};
     }
 
+    var snapshotPublicationQueued = queuePublishedSnapshot_(state, id, entry);
     priorityFinalizeShelf_(entry, result, hadSnapshot, jobType, id);
-    var shelfNeedsPartialBuild = !!result.confirmed_changed || !hadSnapshot;
-    if (shelfNeedsPartialBuild) enqueuePartialBuildShelf_(state, id);
+    var shelfNeedsPartialBuild = !!result.confirmed_changed || !hadSnapshot || snapshotPublicationQueued;
+    if (shelfNeedsPartialBuild && !snapshotPublicationQueued) enqueuePartialBuildShelf_(state, id);
     if (jobType === 'refresh') {
       refreshQueue.shift(); state.refresh_queue = refreshQueue;
       priorityLog_('REFRESH COMPLETE | branch=' + id + ' | changed=' + !!result.confirmed_changed + ' | partial_build_queued=' + shelfNeedsPartialBuild);
@@ -1338,12 +1349,28 @@ function snapshotPersistPage_(branch, entry, folderId, files) {
       web_content_link: String(file.webContentLink || '')
     };
   });
-  if (!items.length) return;
+  if (!items.length) return false;
 
   r2SnapshotWritePage_(branch, entry, items);
   entry.snapshot_page_index = Number(entry.snapshot_page_index || 0) + 1;
   entry.snapshot_item_count = Number(entry.snapshot_item_count || 0) + items.length;
+  return true;
 }
+
+function queuePublishedSnapshot_(state, shelfId, entry) {
+  var published = Number(entry.r2_snapshot_published_page_count || 0);
+  var queued = Number(entry.r2_snapshot_queued_page_count || 0);
+  var finalized = !!entry.r2_snapshot_finalized_pending_queue;
+  if (published <= queued && !finalized) return false;
+
+  enqueuePartialBuildShelf_(state, shelfId);
+  entry.r2_snapshot_queued_page_count = published;
+  entry.r2_snapshot_finalized_pending_queue = false;
+  priorityLog_('PARTIAL SNAPSHOT QUEUED | branch=' + shelfId +
+    ' | published_pages=' + published + ' | finalized=' + finalized);
+  return true;
+}
+
 
 function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBudgetMs, globalBudgetMs, globalStartedAt) {
   /*
@@ -1382,16 +1409,33 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
     entry.full_scan_page_token = '';
     entry.full_rows = null;
 
-    // Do not retain legacy Drive snapshot pointers in the active snapshot state.
+    // Keep the currently published manifest active until the first page of
+    // this generation is committed and its partial manifest is published.
     entry.snapshot_page_file_ids = [];
     entry.snapshot_previous_page_file_ids = [];
-    entry.snapshot_available = false;
-    entry.snapshot_complete = false;
+    entry.r2_snapshot_published_page_count = 0;
+    entry.r2_snapshot_queued_page_count = 0;
+    entry.r2_snapshot_finalized_pending_queue = false;
 
     priorityLog_('R2 FRESH SCAN START | branch=' + branch.id +
       ' | generation=' + entry.r2_snapshot_generation_id + ' | old scan checkpoint discarded');
   }
   if (!Array.isArray(entry.r2_snapshot_page_keys)) entry.r2_snapshot_page_keys = [];
+  if (!isFinite(Number(entry.r2_snapshot_published_page_count))) entry.r2_snapshot_published_page_count = 0;
+
+  // Recover a page PUT that succeeded before its manifest PUT failed.
+  var partialPublished = false;
+  if (Number(entry.r2_snapshot_published_page_count || 0) < entry.r2_snapshot_page_keys.length) {
+    r2SnapshotPublishManifest_(branch, entry, false);
+    entry.r2_snapshot_published_page_count = entry.r2_snapshot_page_keys.length;
+    entry.snapshot_available = true;
+    entry.snapshot_complete = false;
+    priorityLog_('R2 PARTIAL MANIFEST RECOVERED | branch=' + branch.id +
+      ' | pages=' + entry.r2_snapshot_published_page_count);
+  }
+  partialPublished = Number(entry.r2_snapshot_published_page_count || 0) >
+    Number(entry.r2_snapshot_queued_page_count || 0);
+
   var queue = entry.full_scan_queue || [String(branch.root_folder_id)];
   var visited = entry.full_visited || {};
   var digest = hexToDigestBytes_(entry.full_digest_work || '');
@@ -1432,9 +1476,8 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
       entry.full_scan_folder_id = currentFolderId;
       entry.full_scan_page_token = currentPageToken;
       entry.full_rows = null;
-      // Keep the current manifest untouched while the new generation is staged.
-      // Only the completed generation may replace the active manifest.
-      entry.snapshot_complete = false;
+      // The active manifest remains the previous complete snapshot until a
+      // new page has been committed and published below.
       priorityLog_('CHECKPOINT-FULL ' + String(branch.display_name || branch.id) +
         ' | rows=' + rowCount + ' | queue=' + queue.length +
         ' | folder=' + (currentFolderId || '-') +
@@ -1470,7 +1513,7 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
     entry.full_scan_page_token = currentPageToken;
     entry.full_rows = null;
 
-    snapshotPersistPage_(branch, entry, currentFolderId, result.files || []);
+    var pageWritten = snapshotPersistPage_(branch, entry, currentFolderId, result.files || []);
 
     (result.files || []).forEach(function(file) {
       var row = {
@@ -1496,17 +1539,43 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
       visited[currentFolderId] = true;
       currentFolderId = '';
     }
+
+    // Persist the advanced cursor before publishing the manifest. A failed
+    // manifest PUT is recovered on the next execution without duplicating pages.
+    entry.full_scan_queue = queue;
+    entry.full_visited = visited;
+    entry.full_digest_work = digestBytesToHex_(digest);
+    entry.full_count_work = rowCount;
+    entry.full_scan_folder_id = currentFolderId;
+    entry.full_scan_page_token = currentPageToken;
+    entry.full_rows = null;
+
+    if (pageWritten) {
+      r2SnapshotPublishManifest_(branch, entry, false);
+      entry.r2_snapshot_published_page_count = entry.r2_snapshot_page_keys.length;
+      entry.snapshot_available = true;
+      entry.snapshot_complete = false;
+      partialPublished = true;
+      priorityLog_('R2 PARTIAL SNAPSHOT PUBLISHED | branch=' + branch.id +
+        ' | pages=' + entry.r2_snapshot_published_page_count +
+        ' | items=' + entry.snapshot_item_count);
+    }
   }
 
   var fingerprint = String(rowCount) + ':' + digestBytesToHex_(digest);
   var confirmedChanged = !!entry.fingerprint && fingerprint !== entry.fingerprint;
 
-  // R2 is the only snapshot destination. Publish only after the full scan ends.
+  // Publish the final state. A final queue version protects complete=true
+  // from an in-flight build that consumed an older partial manifest.
+  var partialGenerationFinalized = entry.r2_snapshot_page_keys.length > 0;
   r2SnapshotPublishManifest_(branch, entry, true);
   entry.snapshot_available = true;
   entry.snapshot_complete = true;
+  if (partialGenerationFinalized) entry.r2_snapshot_finalized_pending_queue = true;
   entry.r2_snapshot_generation_id = '';
   entry.r2_snapshot_page_keys = [];
+  entry.r2_snapshot_published_page_count = 0;
+  entry.r2_snapshot_queued_page_count = 0;
   entry.snapshot_previous_page_file_ids = [];
   priorityLog_('R2 SNAPSHOT ACTIVE | branch=' + branch.id + ' | snapshot stored only in R2');
 
@@ -1527,6 +1596,8 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
   return {
     completed:true,
     confirmed_changed:confirmedChanged,
+    partial_published:partialPublished,
+    partial_generation_finalized:partialGenerationFinalized,
     fingerprint:fingerprint,
     item_count:rowCount,
     total_size:quick.total_size,
