@@ -169,6 +169,7 @@ new_fn = r'''  function renderBranches(){
         if(!r.ok)throw new Error('HTTP '+r.status);return data;
       });
     }).then(function(data){
+      if(data.no_op || (data.queued && data.error)){window.location.reload();return;}
       if(!data.ok)throw new Error(data.error||'Không thể reload tủ.');
       if(!data.job_id)throw new Error('Máy chủ không trả về mã Refresh job.');
       pollRefreshJob(b,button,baseline,data.job_id,0);

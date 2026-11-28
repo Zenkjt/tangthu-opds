@@ -2,7 +2,7 @@
  * TÀNG THƯ — Trigger the existing Partial Build workflow after a changed Refresh.
  *
  * Reuses githubToken_() and githubHeaders_() from apps-script/Code.gs.
- * The existing partial-build queue remains the single source of truth.
+ * Manual Refresh uses an isolated single-shelf build; the shared queue is untouched.
  */
 function dispatchPartialBuildWorkflow_(info) {
   var token = githubToken_();
@@ -11,7 +11,8 @@ function dispatchPartialBuildWorkflow_(info) {
     event_type: 'partial_build_requested',
     client_payload: {
       source: 'tangthu-refresh',
-      shelf_id: String((info || {}).shelf_id || ''),
+      mode: 'single',
+      branch_id: String((info || {}).branch_id || (info || {}).shelf_id || ''),
       detected_at: new Date().toISOString()
     }
   };
@@ -32,7 +33,7 @@ function dispatchPartialBuildWorkflow_(info) {
       if (status === 204) {
         Logger.log(
           'TÀNG THƯ: Partial Build dispatched after changed Refresh. shelf=' +
-          String((info || {}).shelf_id || '')
+          String((info || {}).branch_id || (info || {}).shelf_id || '')
         );
         return {ok: true, dispatched: true};
       }

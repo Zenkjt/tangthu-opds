@@ -71,37 +71,69 @@ def snapshot() -> None:
         print(f" - {row.get('shelf_id')} v{row.get('version')}")
 
 
+def validate_shelves(ids: list[str]) -> None:
+    """Validate requested shelf IDs against the current catalog/lifecycle state."""
+    required = [Path('docs/catalog.json'), Path('config/branches.json'), Path('.build/lifecycle.json'), Path('.build/branches.json')]
+    if not all(path.exists() for path in required):
+        raise RuntimeError('Required catalog/lifecycle state missing; queue retained. Run Full Build first.')
+
+    catalog = json.loads(required[0].read_text(encoding='utf-8'))
+    config = json.loads(required[1].read_text(encoding='utf-8'))
+    lifecycle = json.loads(required[2].read_text(encoding='utf-8'))
+    active = json.loads(required[3].read_text(encoding='utf-8'))
+    catalog_rows = catalog.get('branches', [])
+    catalog_ids = {str(row.get('id')) for row in catalog_rows if row.get('id')}
+    config_rows = config.get('branches', [])
+    config_ids = {str(row.get('id')) for row in config_rows if row.get('id')}
+    active_ids = {str(row.get('id')) for row in active.get('branches', []) if row.get('id')}
+    stats_ok = catalog.get('version') == 2 and bool(catalog_rows) and all(
+        isinstance(row.get('book_count'), int)
+        and isinstance(row.get('font_count'), int)
+        and isinstance(row.get('format_counts'), dict)
+        for row in catalog_rows
+    )
+    by_id = {str(row.get('id')): row for row in catalog_rows}
+    lifecycle_changed = any(
+        by_id.get(str(row.get('id')), {}).get('status', 'active') != row.get('status', 'active')
+        for row in lifecycle.get('branches', [])
+    )
+
+    def clean_name(row):
+        return str(row.get('name') or row.get('display_name') or '').removeprefix('[SUSPENDED] ')
+
+    names_changed = any(
+        clean_name(by_id.get(str(row.get('id')), {})) != row.get('display_name')
+        or by_id.get(str(row.get('id')), {}).get('root_folder_id') != row.get('root_folder_id')
+        for row in config_rows
+    )
+    if not (stats_ok and catalog_ids == config_ids and not lifecycle_changed and not names_changed and all(i in active_ids for i in ids)):
+        raise RuntimeError('Partial build safety check failed; queue retained. Full Build is required before Partial Build.')
+
+
+def write_resolution(ids: list[str], reason: str) -> None:
+    Path('.build/build_mode').write_text('incremental\n', encoding='utf-8')
+    Path('.build/changed_shelves.txt').write_text(','.join(ids) + '\n', encoding='utf-8')
+    print(f'Build mode: incremental ({reason})')
+
+
 def resolve() -> None:
     rows = json.loads(QUEUE_FILE.read_text(encoding='utf-8')) if QUEUE_FILE.exists() else []
     ids = list(dict.fromkeys(str(row.get('shelf_id', '')).strip() for row in rows if row.get('shelf_id')))
-    mode = 'skip'
-    reason = 'no pending changed shelves'
-    required = [Path('docs/catalog.json'), Path('config/branches.json'), Path('.build/lifecycle.json'), Path('.build/branches.json')]
-    if ids and all(path.exists() for path in required):
-        catalog = json.loads(required[0].read_text(encoding='utf-8'))
-        config = json.loads(required[1].read_text(encoding='utf-8'))
-        lifecycle = json.loads(required[2].read_text(encoding='utf-8'))
-        active = json.loads(required[3].read_text(encoding='utf-8'))
-        catalog_rows = catalog.get('branches', [])
-        catalog_ids = {str(row.get('id')) for row in catalog_rows if row.get('id')}
-        config_rows = config.get('branches', [])
-        config_ids = {str(row.get('id')) for row in config_rows if row.get('id')}
-        active_ids = {str(row.get('id')) for row in active.get('branches', []) if row.get('id')}
-        stats_ok = catalog.get('version') == 2 and bool(catalog_rows) and all(isinstance(row.get('book_count'), int) and isinstance(row.get('font_count'), int) and isinstance(row.get('format_counts'), dict) for row in catalog_rows)
-        by_id = {str(row.get('id')): row for row in catalog_rows}
-        lifecycle_changed = any(by_id.get(str(row.get('id')), {}).get('status', 'active') != row.get('status', 'active') for row in lifecycle.get('branches', []))
-        def clean_name(row):
-            return str(row.get('name') or row.get('display_name') or '').removeprefix('[SUSPENDED] ')
-        names_changed = any(clean_name(by_id.get(str(row.get('id')), {})) != row.get('display_name') or by_id.get(str(row.get('id')), {}).get('root_folder_id') != row.get('root_folder_id') for row in config_rows)
-        if stats_ok and catalog_ids == config_ids and not lifecycle_changed and not names_changed and all(i in active_ids for i in ids):
-            mode, reason = 'incremental', 'validated accumulated changed-shelf queue'
-        else:
-            raise RuntimeError('Partial build safety check failed; queue retained. Full Build is required before Partial Build.')
-    elif ids:
-        raise RuntimeError('Required catalog/lifecycle state missing; queue retained. Run Full Build first.')
-    Path('.build/build_mode').write_text(mode + '\n', encoding='utf-8')
-    Path('.build/changed_shelves.txt').write_text(','.join(ids if mode == 'incremental' else []) + '\n', encoding='utf-8')
-    print(f'Build mode: {mode} ({reason})')
+    if not ids:
+        Path('.build/build_mode').write_text('skip\n', encoding='utf-8')
+        Path('.build/changed_shelves.txt').write_text('\n', encoding='utf-8')
+        print('Build mode: skip (no pending changed shelves)')
+        return
+    validate_shelves(ids)
+    write_resolution(ids, 'validated accumulated changed-shelf queue')
+
+
+def resolve_single(shelf_id: str) -> None:
+    shelf_id = str(shelf_id or '').strip()
+    if not shelf_id:
+        raise RuntimeError('Single-shelf build requires a non-empty branch_id.')
+    validate_shelves([shelf_id])
+    write_resolution([shelf_id], f'validated isolated Refresh for {shelf_id}')
 
 
 def ack() -> None:
@@ -116,7 +148,9 @@ if __name__ == '__main__':
         snapshot()
     elif command == 'resolve':
         resolve()
+    elif command == 'resolve-single' and len(sys.argv) == 3:
+        resolve_single(sys.argv[2])
     elif command == 'ack':
         ack()
     else:
-        raise SystemExit('Usage: partial_build_queue.py snapshot|resolve|ack')
+        raise SystemExit('Usage: partial_build_queue.py snapshot|resolve|resolve-single <branch_id>|ack')
