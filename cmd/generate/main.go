@@ -189,10 +189,6 @@ func loadShelfSnapshot(ctx context.Context, client *r2SnapshotClient, bc BranchC
 	if err := client.getJSON(ctx, manifestKey, &manifest); err != nil {
 		// A newly registered shelf is part of the catalog immediately, even
 		// before its first scan has published a manifest. Render it as empty.
-		if strings.Contains(err.Error(), "HTTP 404") {
-			log.Printf("SNAPSHOT R2 shelf=%s has no manifest yet; publishing empty registered shelf", bc.ID)
-			return []FileEntry{}, bc.DisplayName, nil
-		}
 		return nil, "", fmt.Errorf("read R2 manifest for shelf %s: %w", bc.ID, err)
 	}
 	log.Printf("SNAPSHOT R2 shelf=%s manifest loaded: version=%d storage=%s branch=%s generation=%s pages=%d items=%d complete=%t",
