@@ -398,6 +398,8 @@ function driveCheckPriority() {
         );
       }
 
+      if (result.full_scan) applyLargeShelfPriority_(e, id, branch.display_name);
+
       if ((wasChanged || snapshotBootstrapped) && !snapshotPublicationQueued) {
         enqueuePartialBuildShelf_(state, id);
       }
@@ -642,6 +644,22 @@ function priorityFinalizeShelf_(entry, result, hadSnapshot, jobType, id) {
       if (Number(entry.priority || 1) === 2 && entry.no_change_streak >= 10) entry.priority = 3;
     }
   }
+  if (result.full_scan) applyLargeShelfPriority_(entry, id, '');
+}
+
+// Classify a large shelf once, after a successful Full Scan. The marker keeps
+// the size rule from undoing the existing L3 -> L2 activity promotion later.
+function applyLargeShelfPriority_(entry, id, shelfName) {
+  var itemCount = Number(entry.item_count || 0);
+  if (itemCount <= 1000 || entry.large_shelf_auto_l3) return false;
+
+  var oldPriority = Number(entry.priority || 1);
+  entry.large_shelf_auto_l3 = true;
+  entry.priority = 3;
+  entry.locked = false;
+  priorityLog_('LARGE SHELF AUTO-DEMOTED | shelf=' + String(shelfName || id) +
+    ' | items=' + itemCount + ' | L' + oldPriority + ' -> L3');
+  return true;
 }
 
 function schedulePriorityContinuation_() {
@@ -1595,6 +1613,7 @@ function scanPriorityFull_(branch, entry, shelfStartedAt, apiKey, quick, shelfBu
 
   return {
     completed:true,
+    full_scan:true,
     confirmed_changed:confirmedChanged,
     partial_published:partialPublished,
     partial_generation_finalized:partialGenerationFinalized,
