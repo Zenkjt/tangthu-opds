@@ -182,6 +182,7 @@ function driveCheckPriority() {
     // Load the complete state first: loadPriorityState_ prunes entries that
     // are not in its argument. L3 belongs to its own weekly scheduler.
     var state = loadPriorityState_(allEnabled);
+    retryPendingSnapshotCleanup_(allEnabled, state);
     var enabled = allEnabled.filter(function(b) {
       return Number(state.branches[String(b.id)].priority || 1) <= 2;
     });
@@ -521,6 +522,7 @@ function driveCheckContinuation() {
     var config = readConfig_();
     var enabled = config.branches.filter(function(b){ return b.enabled; });
     var state = loadPriorityState_(enabled);
+    retryPendingSnapshotCleanup_(enabled, state);
     var refreshQueue = Array.isArray(state.refresh_queue) ? state.refresh_queue : [];
     var l3Job = state.l3_job;
     var jobType = refreshQueue.length ? 'refresh' : (l3Job && l3Job.status !== 'done' ? 'l3' : '');
@@ -1344,7 +1346,76 @@ function r2SnapshotPublishManifest_(branch, entry, complete) {
   priorityLog_('R2 SNAPSHOT PUBLISHED | branch=' + branch.id +
     ' | generation=' + generation + ' | pages=' + manifest.page_count +
     ' | items=' + manifest.item_count);
+
+  // Rotate old generations only after the complete manifest is safely published.
+  // A failed cleanup is persisted and retried by a later priority/continuation run.
+  if (complete === true) {
+    entry.r2_snapshot_cleanup_pending_generation = generation;
+    if (r2SnapshotCleanupOldGenerations_(branch, generation)) {
+      delete entry.r2_snapshot_cleanup_pending_generation;
+    }
+  }
   return true;
+}
+
+function r2SnapshotCleanupOldGenerations_(branch, generation) {
+  var props = PropertiesService.getScriptProperties();
+  var baseUrl = String(props.getProperty('TANGTHU_R2_API_URL') || '').replace(/\/+$/, '');
+  var token = String(props.getProperty('TANGTHU_R2_API_TOKEN') || '');
+  var branchId = String(branch.id || '');
+  generation = String(generation || '');
+  if (!baseUrl || !token || !branchId || !generation) {
+    priorityLog_('R2 CLEANUP DEFERRED | missing API config or identifiers | branch=' + branchId);
+    return false;
+  }
+
+  var url = baseUrl + '/v1/snapshots/' + encodeURIComponent(branchId) + '/cleanup';
+  var payload = JSON.stringify({generation_id: generation});
+  var delays = [1000, 2000, 4000];
+  for (var attempt = 1; attempt <= 4; attempt++) {
+    try {
+      var response = UrlFetchApp.fetch(url, {
+        method: 'post',
+        contentType: 'application/json',
+        payload: payload,
+        headers: {Authorization: 'Bearer ' + token},
+        muteHttpExceptions: true
+      });
+      var status = response.getResponseCode();
+      var body = response.getContentText().slice(0, 1000);
+      if (status >= 200 && status < 300) {
+        priorityLog_('R2 CLEANUP OK | branch=' + branchId +
+          ' | generation=' + generation + ' | response=' + body);
+        return true;
+      }
+      var retryable = status === 408 || status === 429 || status >= 500;
+      priorityLog_('R2 CLEANUP HTTP ERROR | attempt=' + attempt + '/4' +
+        ' | HTTP=' + status + ' | retry=' + retryable +
+        ' | branch=' + branchId + ' | body=' + body);
+      if (!retryable || attempt === 4) return false;
+    } catch (err) {
+      priorityLog_('R2 CLEANUP TRANSPORT ERROR | attempt=' + attempt + '/4' +
+        ' | branch=' + branchId + ' | error=' + String(err).slice(0, 300));
+      if (attempt === 4) return false;
+    }
+    Utilities.sleep(delays[attempt - 1]);
+  }
+  return false;
+}
+
+function retryPendingSnapshotCleanup_(branches, state) {
+  var changed = false;
+  (branches || []).forEach(function(branch) {
+    var id = String(branch.id || '');
+    var entry = state.branches && state.branches[id];
+    var generation = String(entry && entry.r2_snapshot_cleanup_pending_generation || '');
+    if (!generation) return;
+    if (r2SnapshotCleanupOldGenerations_(branch, generation)) {
+      delete entry.r2_snapshot_cleanup_pending_generation;
+      changed = true;
+    }
+  });
+  if (changed) savePriorityState_(state);
 }
 
 function snapshotPersistPage_(branch, entry, folderId, files) {
